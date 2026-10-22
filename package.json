@@ -1,0 +1,15 @@
+{
+	"name": "kutupstar",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Kutupstar (Polestar TR): Turkish for the Polestar addon (World of Warcraft: Forever)",
+	"license": "GPL-3.0-only",
+	"scripts": {
+		"check": "node tools/kutup.js check",
+		"build": "node tools/kutup.js build",
+		"install-addon": "node tools/kutup.js build --install"
+	},
+	"devDependencies": {
+		"luaparse": "0.3.1"
+	}
+}

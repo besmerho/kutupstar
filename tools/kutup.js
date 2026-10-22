@@ -85,6 +85,23 @@ function walk(dir) {
 }
 const rel = (p, base) => path.relative(base, p).split(path.sep).join('/');
 
+// Lua 5.1 syntax (the game's), by luaparse (devDependency; `npm install`). -> problems
+function luaSyntax(files) {
+	let luaparse;
+	try { luaparse = require('luaparse'); } catch {
+		return ['luaparse is not installed: run `npm install` in the project folder'];
+	}
+	const out = [];
+	for (const f of files) {
+		try {
+			luaparse.parse(fs.readFileSync(f, 'utf8'), { luaVersion: '5.1', comments: false, scope: false, locations: false });
+		} catch (e) {
+			out.push(`${rel(f, ROOT)}: Lua syntax: ${e.message}`);
+		}
+	}
+	return out;
+}
+
 // ---------------------------------------------------------------------------
 // Reading the sources
 // ---------------------------------------------------------------------------
@@ -204,6 +221,7 @@ function checkGuides(problems, warnings) {
 
 function runChecks({ quiet } = {}) {
 	const problems = [], warnings = [];
+	problems.push(...luaSyntax([UI_SRC, ...walk(GUIDES_SRC), ...walk(ADDON_SRC)].filter((f) => fs.existsSync(f))));
 	const ui = checkUI(problems, warnings);
 	const guides = checkGuides(problems, warnings);
 	if (!quiet) {
@@ -307,6 +325,13 @@ function build(install) {
 	out.push(`K.guideTextCount, K.guideCount = ${texts}, ${n}`, '');
 	fs.writeFileSync(path.join(DIST, 'Guides.lua'), out.join('\n'));
 	console.log(`build: dist/Kutupstar · ${ui.length} UI strings · ${texts} guide texts in ${n} guide(s)`);
+	const syntax = luaSyntax(walk(DIST));
+	if (syntax.length) {
+		for (const p of syntax) console.log('error:   ' + p);
+		console.log('build: the output is not valid Lua; nothing installed');
+		process.exit(1);
+	}
+	console.log(`syntax: ${walk(DIST).length} Lua file(s) parse as Lua 5.1`);
 
 	if (install) {
 		if (!fs.existsSync(ADDONS)) { console.log(`install: no AddOns folder at ${ADDONS}`); process.exit(1); }
