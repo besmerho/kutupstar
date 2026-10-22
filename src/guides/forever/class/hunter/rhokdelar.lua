@@ -4,60 +4,60 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Guide
-	["Rhok'delar and Lok'delar"] = "",
-	["The hunter's epic bow chain: in Classic the stave and sinew became Rhok'delar and Lok'delar (unconfirmed in Forever)."] = "",
+	["Rhok'delar and Lok'delar"] = "Rhok'delar ve Lok'delar",
+	["The hunter's epic bow chain: in Classic the stave and sinew became Rhok'delar and Lok'delar (unconfirmed in Forever)."] = "Hunter'ın epik yay zinciri: Classic'te asa ve kiriş Rhok'delar ve Lok'delar olurdu (Forever'da doğrulanmadı).",
 
 	-- Step 1: The Ancient Petrified Leaf
 	-- {item:18703} Ancient Petrified Leaf
-	["The {item:18703}"] = "",
+	["The {item:18703}"] = "{item:18703}",
 	-- {object:179703} Cache of the Firelord · {area:2717} Molten Core · {npc:12018} Majordomo Executus · {item:18703} Ancient Petrified Leaf · {area:254} Blackrock Mountain
-	["The {object:179703} appears in {area:2717} when {npc:12018} yields; it holds the {item:18703} about half the time. {area:2717} is a 40-player raid inside {area:254}. Right-click the leaf to start the quest."] = "",
+	["The {object:179703} appears in {area:2717} when {npc:12018} yields; it holds the {item:18703} about half the time. {area:2717} is a 40-player raid inside {area:254}. Right-click the leaf to start the quest."] = "{object:179703}, {area:2717} içinde {npc:12018} teslim olunca ortaya çıkar; yaklaşık yarı yarıya {item:18703} içerir. {area:2717}, {area:254} içindeki 40 kişilik bir raid. Görevi başlatmak için yaprağa sağ tıkla.",
 	-- {item:18703} Ancient Petrified Leaf
-	["from the {item:18703}"] = "",
+	["from the {item:18703}"] = "{item:18703} eşyasından",
 
 	-- Step 2: Vartrus the Ancient
 	-- {npc:14526} Hastat the Ancient · {zone:1448} Felwood · {area:1998} Talonbranch Glade · {area:1997} Bloodvenom Post
-	["Vartrus, Stoma and {npc:14526} stand together in the north of {zone:1448}. Alliance: {area:1998} is the nearest flight point; Horde: {area:1997}."] = "",
+	["Vartrus, Stoma and {npc:14526} stand together in the north of {zone:1448}. Alliance: {area:1998} is the nearest flight point; Horde: {area:1997}."] = "Vartrus, Stoma ve {npc:14526}, {zone:1448} bölgesinin kuzeyinde birlikte duruyor. Alliance için en yakın uçuş noktası {area:1998}, Horde için {area:1997}.",
 	-- {npc:14526} Hastat the Ancient
-	["{npc:14526}: the quiver, last in this guide"] = "",
+	["{npc:14526}: the quiver, last in this guide"] = "{npc:14526}: sadak, bu rehberin sonunda",
 
 	-- Step 3: Artorius the Doombringer
 	-- {npc:14531} Artorius the Amiable · {zone:1452} Winterspring · {npc:14535} Artorius the Doombringer
-	["{npc:14531}, a tauren, waits in the north-east of {zone:1452}. Talk to him and he becomes {npc:14535}. Fight every demon alone and without your pet: help of any kind makes it vanish. Loot the head."] = "",
+	["{npc:14531}, a tauren, waits in the north-east of {zone:1452}. Talk to him and he becomes {npc:14535}. Fight every demon alone and without your pet: help of any kind makes it vanish. Loot the head."] = "Bir tauren olan {npc:14531}, {zone:1452} bölgesinin kuzeydoğusunda bekliyor. Onunla konuşunca {npc:14535} olur. Her iblisle tek başına ve pet'in olmadan dövüş: her türlü yardım onu yok eder. Kafayı loot et.",
 
 	-- Step 4: Simone the Seductress
 	-- {npc:14527} Simone the Inconspicuous · {zone:1449} Un'Goro Crater · {npc:14533} Simone the Seductress
-	["{npc:14527}, a troll, stands in the west of {zone:1449}. Talk to her and she becomes {npc:14533}, with a pet of her own. Alone, without your pet."] = "",
+	["{npc:14527}, a troll, stands in the west of {zone:1449}. Talk to her and she becomes {npc:14533}, with a pet of her own. Alone, without your pet."] = "Bir troll olan {npc:14527}, {zone:1449} bölgesinin batısında duruyor. Onunla konuşunca kendi pet'iyle birlikte {npc:14533} olur. Tek başına, pet'in olmadan.",
 
 	-- Step 5: Solenor the Slayer
 	-- {npc:14536} Nelson the Nice · {zone:1451} Silithus · {npc:14530} Solenor the Slayer
-	["{npc:14536}, a gnome, stands in the south-west of {zone:1451}. Talk to him and he becomes {npc:14530}. Alone, without your pet; keep away from the beetles he calls."] = "",
+	["{npc:14536}, a gnome, stands in the south-west of {zone:1451}. Talk to him and he becomes {npc:14530}. Alone, without your pet; keep away from the beetles he calls."] = "Bir gnom olan {npc:14536}, {zone:1451} bölgesinin güneybatısında duruyor. Onunla konuşunca {npc:14530} olur. Tek başına, pet'in olmadan; çağırdığı böceklerden uzak dur.",
 
 	-- Step 6: Klinfran the Crazed
 	-- {npc:14529} Franklin the Friendly · {zone:1428} Burning Steppes · {npc:14534} Klinfran the Crazed
-	["{npc:14529}, a human, stands in the west of the {zone:1428}. Talk to him and he becomes {npc:14534}. Alone, without your pet."] = "",
+	["{npc:14529}, a human, stands in the west of the {zone:1428}. Talk to him and he becomes {npc:14534}. Alone, without your pet."] = "Bir insan olan {npc:14529}, {zone:1428} bölgesinin batısında duruyor. Onunla konuşunca {npc:14534} olur. Tek başına, pet'in olmadan.",
 
 	-- Step 7: Onyxia
-	["Onyxia"] = "",
+	["Onyxia"] = "Onyxia",
 	-- {item:18705} Mature Black Dragon Sinew · {area:2159} Onyxia's Lair · {area:511} Wyrmbog · {zone:1445} Dustwallow Marsh
-	["Onyxia drops the {item:18705}; she is the 40-player raid boss of {area:2159}, a cave in the {area:511} of southern {zone:1445}."] = "",
+	["Onyxia drops the {item:18705}; she is the 40-player raid boss of {area:2159}, a cave in the {area:511} of southern {zone:1445}."] = "{item:18705} eşyasını Onyxia düşürür; o, {zone:1445} bölgesinin güneyinde, {area:511} bataklığındaki bir mağara olan {area:2159} içindeki 40 kişilik raid boss'u.",
 	-- {item:18705} Mature Black Dragon Sinew
-	["{item:18705}, from Onyxia"] = "",
+	["{item:18705}, from Onyxia"] = "{item:18705}, Onyxia'dan",
 
 	-- Step 8: Back to the Ancients
-	["Back to the Ancients"] = "",
+	["Back to the Ancients"] = "Kadimlere dön",
 
 	-- Step 9: Rhok'delar and Lok'delar
 	-- {item:18707} Ancient Rune Etched Stave · {item:18724} Enchanted Black Dragon Sinew · {item:18715} Lok'delar, Stave of the Ancient Keepers · {spell:425121} Icy Veins
-	["Not confirmed in Forever. In Classic, using the {item:18707} with the {item:18724} in your bags made Rhok'delar, and Vartrus then gave {item:18715} ({spell:425121})."] = "",
+	["Not confirmed in Forever. In Classic, using the {item:18707} with the {item:18724} in your bags made Rhok'delar, and Vartrus then gave {item:18715} ({spell:425121})."] = "Forever'da doğrulanmadı. Classic'te çantanda {item:18724} varken {item:18707} kullanmak Rhok'delar'ı yapardı, Vartrus da ardından {item:18715} verirdi ({spell:425121}).",
 	-- {item:18707} Ancient Rune Etched Stave
-	["{item:18707}, by Vartrus"] = "",
+	["{item:18707}, by Vartrus"] = "{item:18707}, Vartrus'un yanında",
 	-- {npc:14524} Vartrus the Ancient
-	["{npc:14524}: Lok'delar in Classic"] = "",
+	["{npc:14524}: Lok'delar in Classic"] = "{npc:14524}: Classic'te Lok'delar",
 
 	-- Step 10: Azuregos
 	-- {item:18704} Mature Blue Dragon Sinew · {npc:6109} Azuregos · {zone:1447} Azshara · {zone:1452} Winterspring
-	["Hastat's quiver needs the {item:18704}. {npc:6109}, a world boss for a raid, roams the south of {zone:1447} and drops it most of the time; the Cobalt dragonkin of {zone:1452} drop it very rarely. Skip the rest of this guide if you do not want the quiver."] = "",
+	["Hastat's quiver needs the {item:18704}. {npc:6109}, a world boss for a raid, roams the south of {zone:1447} and drops it most of the time; the Cobalt dragonkin of {zone:1452} drop it very rarely. Skip the rest of this guide if you do not want the quiver."] = "Hastat'ın sadağı {item:18704} gerektirir. Raid için bir dünya boss'u olan {npc:6109}, {zone:1447} bölgesinin güneyinde dolaşıyor ve çoğu zaman düşürür; {zone:1452} bölgesindeki Cobalt dragonkin yaratıkları çok nadiren düşürür. Sadağı istemiyorsan rehberin geri kalanını atla.",
 	-- {item:18704} Mature Blue Dragon Sinew · {npc:6109} Azuregos
-	["{item:18704}, from {npc:6109}"] = "",
+	["{item:18704}, from {npc:6109}"] = "{item:18704}, kaynak: {npc:6109}",
 }
