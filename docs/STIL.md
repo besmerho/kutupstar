@@ -85,10 +85,12 @@ Türkçede fiil sona alınamaz. Kural: **emir kipi ve iki nokta**.
 | Explore | Keşfet: | Keşfet: Jangolode Mine |
 | at %s / for %s / from %s | yer: %s / %s için / kaynak: %s | (aşağıya bak) |
 
-**[KARAR]** “Turn in” de diğerleri gibi: **“Teslim et:”**. Bilinen tek yan etkisi: Quests/Tracker.lua görev
-teslim işaretinin harita ipucunda kendisi `": "` eklediği için orada “Teslim et:: …” görünür (bu işaretler
-varsayılan olarak kapalı). Asıl çözüm, Polestar'a birleştirmeyi çevrilebilir biçim metinlerine (`"%s %s"`,
-`"Turn in: %s"`) çeviren küçük bir PR göndermek (Faz 5); bu Korece için de işe yarar.
+**[KARAR]** “Turn in” de diğerleri gibi: **“Teslim et:”**. Quests/Tracker.lua görev teslim işaretinin harita
+ipucunda kendisi `": "` eklediği için orada “Teslim et:: …” çıkardı (bu işaretler varsayılan olarak kapalı).
+Faz 5'te Kutupstar bunu düzeltiyor: GameTooltip'in AddLine'ına bir son kanca (hooksecurefunc) o satırı tek iki
+noktayla yeniden yazar (Core.lua, “Joins”). Kalıcı çözüm yine de Polestar'a birleştirmeyi çevrilebilir biçim
+metinlerine (`"%s %s"`, `"Turn in: %s"`) çeviren küçük bir PR olurdu; bu Korece için de işe yarar (isteğe bağlı,
+Barış karar verir).
 
 Ek alan biçim metinleri:
 - `for %s` → `%s için` (görev adıyla, ek gerekmez).

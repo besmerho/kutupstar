@@ -353,6 +353,31 @@ local function repaintFonts()
 end
 
 ---------------------------------------------------------------------------
+-- Joins
+---------------------------------------------------------------------------
+
+-- Polestar's turn-in map markers (off by default) write their tooltip line as
+-- L["Turn in"] .. ": " .. title (Quests/Tracker.lua). The Turkish verb carries
+-- its own colon, like every objective verb ("Teslim et:", STIL.md), so the
+-- line would read "Teslim et:: title". A post-hook on GameTooltip's AddLine
+-- sets that line's text again with one colon as it is added; every other
+-- line is left alone. AddLine itself is not replaced.
+local function hookJoins(P)
+	local verb = type(P.L) == "table" and rawget(P.L, "Turn in")
+	if type(verb) ~= "string" or verb:sub(-1) ~= ":" then return end
+	local tip = _G.GameTooltip
+	if type(tip) ~= "table" or type(tip.AddLine) ~= "function" or not tip.GetName then return end
+	local double, n, name = verb .. ": ", #verb + 2, tip:GetName()
+	hooksecurefunc(tip, "AddLine", function(self, text)
+		if type(text) ~= "string" or (issecretvalue and issecretvalue(text)) then return end
+		if text:sub(1, n) ~= double then return end
+		local line = _G[name .. "TextLeft" .. self:NumLines()]
+		if line then line:SetText(verb .. " " .. text:sub(n + 1)) end
+	end)
+	diag.hooks.joins = true
+end
+
+---------------------------------------------------------------------------
 -- Load
 ---------------------------------------------------------------------------
 
@@ -366,6 +391,8 @@ local function onPolestar()
 		local ok, err = pcall(hookGuides, P)
 		if not ok then diag.error = tostring(err) end
 		ok, err = pcall(hookFont, P)
+		if not ok then diag.error = tostring(err) end
+		ok, err = pcall(hookJoins, P)
 		if not ok then diag.error = tostring(err) end
 	end
 	local ok, err = pcall(registerOption, P)
