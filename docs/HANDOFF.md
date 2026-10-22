@@ -26,7 +26,7 @@ Barış's two hard requirements:
 | 1 Glossary + style guide | done: Barış's decisions are marked **[KARAR]** in STIL.md |
 | 2 Tooling | done: keys from Polestar's code, `sync`/`pin`, checks |
 | 3 UI | done: 2016/2124; the other 108 stay English on purpose (`src/keep-english.json`) |
-| **4 Guides** | **in progress** (branch `faz-4`): 2222/6308; the 8 starter guides, both 1-30 folders and both 30-40 folders done (30-40 on branch `faz-4-30-40` until Barış says to merge it into `faz-4`). Next: the 40-50 folders |
+| **4 Guides** | **done** (branch `faz-4`): 6308/6308, every guide folder Turkish; `check` 0 errors, `build` passes. Not yet merged into `main` (Barış decides). Long templated folders (exploration, reputation, professions) were filled with pattern rules plus hand translations; worth a read in game |
 | 5 Leftovers | the `"Teslim et:: "` double colon in turn-in map marker tooltips (Polestar's Quests/Tracker.lua adds `": "`); optional upstream PR for translatable verb+name joins |
 | 6 QA | Barış plays and reports |
 | 7 Release | undecided: public release or private; Recorder (33 strings) skipped for now |
@@ -46,7 +46,7 @@ node tools/kutup.js stats --guides
 22 Oct from a fresh clone of this repo: setup → check → pending → build all worked, and a `pin` round trip
 v0.2.6 → v0.2.5 → v0.2.6 brought every translation back, including a guide parked in `src/guides-removed/`.
 
-## Phase 4: how to translate guides
+## Phase 4: how to translate guides (also for new texts after a Polestar update)
 
 1. Pick a guide or folder, and see what is open:
    `node tools/kutup.js pending forever/alliance/human > /tmp/p.json`
