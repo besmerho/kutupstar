@@ -5,17 +5,17 @@
 return {
 	-- Step 1: Kibler at Flame Crest
 	-- {npc:10260} Kibler · {area:251} Flame Crest
-	["{npc:10260} at {area:251}"] = "",
+	["{npc:10260} at {area:251}"] = "{area:251} tepesinde {npc:10260}",
 	-- {npc:10260} Kibler · {area:251} Flame Crest · {zone:1428} Burning Steppes · {area:254} Blackrock Mountain
-	["{npc:10260} stands at {area:251} in northern {zone:1428}, near the {area:254} path."] = "",
+	["{npc:10260} stands at {area:251} in northern {zone:1428}, near the {area:254} path."] = "{npc:10260}, {zone:1428} bölgesinin kuzeyinde, {area:254} yolunun yakınındaki {area:251} tepesinde duruyor.",
 
 	-- Step 2: Upper Blackrock Spire
 	-- {area:1583} Blackrock Spire
-	["Upper {area:1583}"] = "",
+	["Upper {area:1583}"] = "Upper {area:1583}",
 	-- {area:1583} Blackrock Spire · {npc:10260} Kibler · {npc:10221} Bloodaxe Worg Pup · {item:12263} Caged Worg Pup
-	["Upper {area:1583} is a raid group of up to ten, level 58-60. Use {npc:10260}'s cage on a {npc:10221} (Halycon's den) to get the {item:12263}."] = "",
+	["Upper {area:1583} is a raid group of up to ten, level 58-60. Use {npc:10260}'s cage on a {npc:10221} (Halycon's den) to get the {item:12263}."] = "Upper {area:1583}, seviye 58-60, en fazla on kişilik bir raid grubu. {item:12263} almak için {npc:10260} adlı NPC'nin kafesini bir {npc:10221} üzerinde kullan (Halycon'un ini).",
 
 	-- Step 3: Back to Kibler
 	-- {npc:10260} Kibler
-	["Back to {npc:10260}"] = "",
+	["Back to {npc:10260}"] = "{npc:10260} yanına dön",
 }

@@ -4,10 +4,10 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Step 1: Black whelps
-	["Black whelps"] = "",
+	["Black whelps"] = "Kara ejder yavruları",
 	-- {area:511} Wyrmbog · {zone:1445} Dustwallow Marsh · {zone:1418} Badlands
 	-- plural, as words: Searing Whelps = {npc:4324} Searing Whelp · Scalding Whelps = {npc:2725} Scalding Whelp
-	["The Searing Whelps of the {area:511} in southern {zone:1445} (level 42) and the Scalding Whelps of eastern {zone:1418} (level 41) drop it about once in 900 kills in our data. The waypoint is the {area:511}; the {zone:1418} whelps are the same grind."] = "",
+	["The Searing Whelps of the {area:511} in southern {zone:1445} (level 42) and the Scalding Whelps of eastern {zone:1418} (level 41) drop it about once in 900 kills in our data. The waypoint is the {area:511}; the {zone:1418} whelps are the same grind."] = "{zone:1445} bölgesinin güneyindeki {area:511} bataklığının Searing Whelp yaratıkları (seviye 42) ve {zone:1418} bölgesinin doğusundaki Scalding Whelp yaratıkları (seviye 41) verimize göre yaklaşık 900 öldürmede bir düşürür. Yol noktası {area:511}; {zone:1418} yavruları da aynı farm.",
 	-- {area:511} Wyrmbog
-	["The {area:511}"] = "",
+	["The {area:511}"] = "{area:511}",
 }

@@ -4,25 +4,25 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Guide
-	["Saber"] = "",
+	["Saber"] = "Saber",
 
 	-- Step 1: Learn to ride
-	["Learn to ride"] = "",
+	["Learn to ride"] = "Binmeyi öğren",
 	-- {npc:4753} Jartsam · {npc:4730} Lelanai · {area:1658} Cenarion Enclave · {zone:1457} Darnassus · {skill:762} Riding
-	["{npc:4753} and {npc:4730}'s sabers are in the {area:1658}'s riding grounds in {zone:1457}. At 40 {npc:4753} teaches {skill:762} (100g per Blizzard's designers), and learning it gives you a mount. The Forever client lets every Alliance race ride these."] = "",
+	["{npc:4753} and {npc:4730}'s sabers are in the {area:1658}'s riding grounds in {zone:1457}. At 40 {npc:4753} teaches {skill:762} (100g per Blizzard's designers), and learning it gives you a mount. The Forever client lets every Alliance race ride these."] = "{npc:4753} ve {npc:4730} adlı NPC'nin saber'ları {zone:1457} şehrindeki {area:1658} binicilik alanında. Seviye 40'ta {npc:4753} {skill:762} öğretir (Blizzard'ın tasarımcılarına göre 100g) ve öğrenince bir binek de verilir. Forever istemcisi bunlara her Alliance ırkının binmesine izin veriyor.",
 	-- {npc:4753} Jartsam
-	["{npc:4753}, riding trainer"] = "",
+	["{npc:4753}, riding trainer"] = "{npc:4753}, binicilik eğitmeni",
 
 	-- Step 2: Pick a colour
-	["Pick a colour"] = "",
+	["Pick a colour"] = "Bir renk seç",
 	-- {npc:4730} Lelanai
-	["{npc:4730} sells the other colours (20g each in the Forever client). Buy any you want, or none if the mount you were given is the one you like."] = "",
+	["{npc:4730} sells the other colours (20g each in the Forever client). Buy any you want, or none if the mount you were given is the one you like."] = "{npc:4730} diğer renkleri satıyor (Forever istemcisinde her biri 20g). İstediğini al, verilen binek hoşuna gittiyse hiçbirini alma.",
 	-- {item:8629} Reins of the Striped Nightsaber
-	["{item:8629}, 20g"] = "",
+	["{item:8629}, 20g"] = "{item:8629}, 20g",
 	-- {item:8631} Reins of the Striped Frostsaber
-	["{item:8631}, 20g"] = "",
+	["{item:8631}, 20g"] = "{item:8631}, 20g",
 	-- {item:8632} Reins of the Spotted Frostsaber
-	["{item:8632}, 20g"] = "",
+	["{item:8632}, 20g"] = "{item:8632}, 20g",
 	-- {item:274706} Reins of the Striped Dawnsaber
-	["{item:274706} is a new Forever saber (level 40, 20g in the client) whose source is not known yet."] = "",
+	["{item:274706} is a new Forever saber (level 40, 20g in the client) whose source is not known yet."] = "{item:274706}, kaynağı henüz bilinmeyen yeni bir Forever saber'ı (seviye 40, istemcide 20g).",
 }

@@ -5,5 +5,5 @@
 return {
 	-- Step 1: My Little Friends
 	-- {npc:217412} Amaryllis Webb · {npc:217588} Arbor Tarantula · {npc:217590} Flesh Picker · {npc:217589} Hay Weevil
-	["{npc:217412} gives you an Entomology Starter Kit: use its items to catch an {npc:217588}, a Hay Weevil Specimen and a {npc:217590}. This quest is named as the weevil's source but gives only money as its reward; the pet may come from the {npc:217589} you catch. If you lose the kit, she sells another."] = "",
+	["{npc:217412} gives you an Entomology Starter Kit: use its items to catch an {npc:217588}, a Hay Weevil Specimen and a {npc:217590}. This quest is named as the weevil's source but gives only money as its reward; the pet may come from the {npc:217589} you catch. If you lose the kit, she sells another."] = "{npc:217412} sana bir Entomology Starter Kit verir: içindeki eşyalarla bir {npc:217588}, bir Hay Weevil Specimen ve bir {npc:217590} yakala. Bu görev bitin kaynağı olarak geçiyor ama ödül olarak yalnızca para veriyor; evcil hayvan yakaladığın {npc:217589} yaratığından gelebilir. Kiti kaybedersen bir tane daha satar.",
 }

@@ -4,14 +4,14 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Guide
-	["Paladin Warhorse"] = "",
-	["Your first mount at 40, summoned at will: a paladin buys no horse."] = "",
+	["Paladin Warhorse"] = "Paladin Warhorse",
+	["Your first mount at 40, summoned at will: a paladin buys no horse."] = "Seviye 40'ta dilediğinde çağırdığın ilk bineğin: Paladin at satın almaz.",
 
 	-- Step 1: The Tome of Nobility (Ironforge)
 	-- {npc:5149} Brandur Ironhammer · {object:32362} Mystic Ward (no name in this language: may be words) · {npc:6171} Duthorian Rall · {zone:1453} Stormwind · {zone:1455} Ironforge
-	["At 40 {npc:5149} in the {object:32362} sends you to {npc:6171} in {zone:1453}'s Cathedral of Light. Take the tram from {zone:1455} to {zone:1453}."] = "",
+	["At 40 {npc:5149} in the {object:32362} sends you to {npc:6171} in {zone:1453}'s Cathedral of Light. Take the tram from {zone:1455} to {zone:1453}."] = "Seviye 40'ta {object:32362} semtindeki {npc:5149}, seni {zone:1453} şehrinin Cathedral of Light'ındaki {npc:6171} yanına gönderir. {zone:1455} şehrinden {zone:1453} şehrine trenle git.",
 
 	-- Step 2: Summon Warhorse
 	-- {npc:6171} Duthorian Rall · {item:6779} Tome of Nobility · {spell:13819} Summon Warhorse
-	["{npc:6171} stands in the Cathedral of Light. Turning in the {item:6779} teaches {spell:13819}; Paladins do not buy a mount."] = "",
+	["{npc:6171} stands in the Cathedral of Light. Turning in the {item:6779} teaches {spell:13819}; Paladins do not buy a mount."] = "{npc:6171}, Cathedral of Light içinde duruyor. {item:6779} teslim edilince {spell:13819} öğrenilir; Paladin'ler binek satın almaz.",
 }

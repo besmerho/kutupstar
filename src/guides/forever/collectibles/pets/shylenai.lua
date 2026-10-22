@@ -5,14 +5,14 @@
 return {
 	-- Guide
 	-- {npc:8665} Shylenai
-	["{npc:8665}'s Owls"] = "",
+	["{npc:8665}'s Owls"] = "{npc:8665} adlı NPC'nin baykuşları",
 
 	-- Step 1: Shylenai
 	-- {npc:8665} Shylenai · {zone:1457} Darnassus · {item:280803} Eagle Owl
-	["{npc:8665} sells three owls in {zone:1457} (50s each); the {item:280803} is new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."] = "",
+	["{npc:8665} sells three owls in {zone:1457} (50s each); the {item:280803} is new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."] = "{npc:8665}, {zone:1457} şehrinde üç baykuş satıyor (her biri 50s); {item:280803} Forever'da yeni. Her evcil hayvan eşyası kullanınca yoldaşını öğretir; hedefler sonrasında da işaretli kalır.",
 	-- {item:8500} Great Horned Owl
-	["{item:8500}, 50s"] = "",
+	["{item:8500}, 50s"] = "{item:8500}, 50s",
 	-- {item:8501} Hawk Owl
-	["{item:8501}, 50s"] = "",
-	["50s"] = "",
+	["{item:8501}, 50s"] = "{item:8501}, 50s",
+	["50s"] = "50s",
 }
