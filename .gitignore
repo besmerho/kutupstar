@@ -1,3 +1,4 @@
 upstream/
 dist/
 node_modules/
+releases/

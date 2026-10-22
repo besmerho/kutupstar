@@ -4,6 +4,9 @@
 //   node tools/kutup.js setup               -- clones Polestar at the pinned release into upstream/ (fresh clones)
 //   node tools/kutup.js latest              -- Polestar's newest release on GitHub against the pinned and installed ones
 //   node tools/kutup.js audit               -- the Polestar internals Core.lua hooks into, still there?
+//   node tools/kutup.js package             -- build, then releases/Kutupstar-<version>.zip
+//   node tools/kutup.js publish [--type alpha|beta|release] [--changelog text] [--yes]
+//                                           -- upload the package to CurseForge (dry run without --yes)
 //   node tools/kutup.js pending <ui | guide id or folder> [--max N]
 //                                           -- the untranslated texts as a JSON skeleton for apply
 //   node tools/kutup.js check [--glossary]  -- validates src/: Lua syntax, formats, tokens, line breaks,
@@ -462,6 +465,77 @@ function audit() {
 	if (broken) process.exitCode = 1;
 }
 
+// ---------------------------------------------------------------------------
+// package, publish (CurseForge)
+// ---------------------------------------------------------------------------
+
+const RELEASES = path.join(ROOT, 'releases');
+const CF_API = 'https://wow.curseforge.com/api';
+const tocField = (field) => (fs.readFileSync(path.join(DIST, 'Kutupstar.toc'), 'utf8').match(new RegExp(`^## ${field}:\\s*(.+?)\\s*$`, 'm')) || [])[1];
+
+// package: build (without installing), then releases/Kutupstar-<version>.zip holding the Kutupstar/ folder.
+function packageZip() {
+	build(false);
+	const version = tocField('Version');
+	const files = S.luaFiles(DIST).length ? fs.readdirSync(DIST).sort().map((f) => ({ name: `Kutupstar/${f}`, data: fs.readFileSync(path.join(DIST, f)) })) : [];
+	fs.mkdirSync(RELEASES, { recursive: true });
+	const out = path.join(RELEASES, `Kutupstar-${version}.zip`);
+	fs.writeFileSync(out, require('./lib/zip').zip(files));
+	console.log(`package: releases/${path.basename(out)} (${files.length} files, ${Math.round(fs.statSync(out).size / 1024)} KB)`);
+	return { file: out, version };
+}
+
+// The client's version from the TOC's Interface: 16001 -> "1.60.1".
+const interfaceVersion = (iface) => { const s = String(iface).padStart(5, '0'); return `${Number(s.slice(0, -4))}.${Number(s.slice(-4, -2))}.${Number(s.slice(-2))}`; };
+
+// publish [--type alpha|beta|release] [--changelog "..."] [--yes]: uploads the package to the CurseForge
+// project in package.json config.curseforgeProjectId, tagged with WoW Forever's game version for the
+// Interface in the TOC. The token comes from CURSEFORGE_API_TOKEN and is never printed. Without --yes it
+// is a dry run: it packages and shows what it would send, and sends nothing.
+async function publish({ type, changelog, yes }) {
+	const token = process.env.CURSEFORGE_API_TOKEN;
+	if (!token) { console.log('publish: CURSEFORGE_API_TOKEN is not set'); process.exit(1); }
+	const projectId = pkg().config.curseforgeProjectId;
+	if (!projectId) { console.log('publish: set package.json config.curseforgeProjectId to the CurseForge project ID'); process.exit(1); }
+	if (!['alpha', 'beta', 'release'].includes(type)) { console.log('publish: --type must be alpha, beta or release'); process.exit(1); }
+	const { file, version } = packageZip();
+	const headers = { 'X-Api-Token': token };
+	const get = async (url) => {
+		const r = await fetch(url, { headers });
+		if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
+		return r.json();
+	};
+	const types = await get(`${CF_API}/game/version-types`);
+	const forever = types.find((t) => t.slug === 'wow-forever');
+	if (!forever) { console.log('publish: CurseForge has no "wow-forever" game version type'); process.exit(1); }
+	const versions = (await get(`${CF_API}/game/versions`)).filter((v) => v.gameVersionTypeID === forever.id);
+	const wanted = interfaceVersion(tocField('Interface'));
+	let gameVersion = versions.find((v) => v.name === wanted);
+	if (!gameVersion) {
+		gameVersion = versions.sort((a, b) => b.id - a.id)[0];
+		console.log(`publish: no WoW Forever version ${wanted} on CurseForge; the newest is ${gameVersion && gameVersion.name}`);
+		if (!gameVersion) process.exit(1);
+	}
+	const metadata = {
+		displayName: `Kutupstar ${version}`,
+		releaseType: type,
+		gameVersions: [gameVersion.id],
+		changelogType: 'markdown',
+		changelog: changelog || `Kutupstar ${version}: Polestar ${pinned()} için Türkçe çeviri (arayüz ve tüm rehberler).`,
+	};
+	console.log(`publish: project ${projectId} · ${path.basename(file)} · ${type} · WoW Forever ${gameVersion.name} (id ${gameVersion.id})`);
+	console.log(`publish: display name "${metadata.displayName}"`);
+	console.log(`publish: changelog: ${metadata.changelog}`);
+	if (!yes) { console.log('publish: dry run, nothing uploaded (add --yes to upload)'); return; }
+	const form = new FormData();
+	form.append('metadata', JSON.stringify(metadata));
+	form.append('file', new Blob([fs.readFileSync(file)], { type: 'application/zip' }), path.basename(file));
+	const r = await fetch(`${CF_API}/projects/${projectId}/upload-file`, { method: 'POST', headers, body: form });
+	const body = await r.text();
+	console.log(`publish: HTTP ${r.status} ${body.slice(0, 300)}`);
+	if (!r.ok) process.exit(1);
+}
+
 module.exports = { extract, runChecks };
 if (require.main !== module) return;
 
@@ -475,9 +549,15 @@ else if (cmd === 'sync' || cmd === 'init') runSync(pinned());
 else if (cmd === 'pin' && args[0]) pin(args[0]);
 else if (cmd === 'setup') setup();
 else if (cmd === 'latest') latest();
+else if (cmd === 'package') packageZip();
+else if (cmd === 'publish') {
+	const val = (flag) => { const i = args.indexOf(flag); return i !== -1 ? args[i + 1] : undefined; };
+	publish({ type: val('--type') || 'beta', changelog: val('--changelog'), yes: args.includes('--yes') })
+		.catch((e) => { console.log(`publish: ${e.message}`); process.exit(1); });
+}
 else if (cmd === 'audit') audit();
 else if (cmd === 'pending' && args[0]) {
 	const i = args.indexOf('--max');
 	pending(args[0], i !== -1 ? Number(args[i + 1]) : Infinity);
 }
-else console.log('usage: node tools/kutup.js setup | latest | audit | check [--glossary] | build [--install] | stats [--guides] | apply <file.json> | pending <ui|guide-or-folder> [--max N] | keys | sync | pin <tag>');
+else console.log('usage: node tools/kutup.js setup | latest | audit | package | publish [--type alpha|beta|release] [--changelog text] [--yes] | check [--glossary] | build [--install] | stats [--guides] | apply <file.json> | pending <ui|guide-or-folder> [--max N] | keys | sync | pin <tag>');

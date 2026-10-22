@@ -11,6 +11,7 @@ Upstream: https://github.com/fitzforge/polestar, cloned into `upstream/` and che
 - **Phase 2 (tooling) done** (branch `faz-2`). The keys come straight from Polestar's code and compiled guides (luaparse; nothing of Polestar runs); at v0.2.6 this matches Polestar's deDE files exactly (2048 code texts + 76 data keys; 222 guides, 6308 texts). `sync`, `pin`, `check --glossary`, `stats --guides` and `keys` are added. A dry run against Polestar's development head (268 commits past v0.2.6) found 177 new UI texts and 55 new guide texts, and **lost none of our translations**. The lost/restore path and idempotence are tested on a copy of src/.
 - **Phase 4 (guides) done** on branch `faz-4`: 6308/6308. Every folder is Turkish: starters, 1-60 for both factions, class, collectibles, exploration, legacy, miscellaneous, professions and reputation. `check` reports 0 errors and `build` parses as Lua 5.1. Merged into `main` on 23 Oct.
 - **Phase 5 (leftovers) done**, merged into `main` on 23 Oct: the "Teslim et:: " double colon is fixed in Kutupstar (see Joins). The fallback path (late fill) is unchanged by design: texts Polestar reads at load stay English only if a Polestar update moves the load order, and the bindings are fixed again there. The upstream PR for translatable joins stays optional (not sent). Next: Phase 6, Barış's in-game read.
+- **Phase 7 (release): 0.1.0 beta uploaded** to CurseForge on 22 Oct (project 1759256, file 9285916, WoW Forever 1.60.1) with `node tools/kutup.js publish --type beta --yes`. The GitHub repo is public for the GPL source. Logo: `media/kutupstar-logo.png` (`media/make-logo.py`). Phase 6 (in-game testing) goes on.
 
 ## When Polestar updates
 
@@ -56,7 +57,7 @@ src/Locales/trTR.lua  -- UI translations, Polestar's Locales format
 src/guides/           -- guide translations, Polestar's locales/<locale>/ format (+ _pack.lua)
 src/glossary.json     -- Polestar's glossary format
 docs/STIL.md          -- style guide (Turkish)
-tools/kutup.js        -- check [--glossary] | build [--install] | stats [--guides] | apply <json> | keys | sync | pin <tag>
+tools/kutup.js        -- setup | latest | audit | check [--glossary] | build [--install] | stats [--guides] | apply <json> | pending | keys | sync | pin <tag> | package | publish
 tools/lib/            -- extract.js (keys from Polestar), source.js (src/ files), sync.js, glossary.js
 reports/              -- one per sync/pin: what changed in Polestar and what it did to the translations
 package.json          -- config.polestarTag: the Polestar release the keys come from
