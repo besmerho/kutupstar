@@ -174,6 +174,18 @@ function sync({ upstreamDir, srcDir }, { uiKeys, guideKeys }) {
 	const all = new Map([['_pack', guideKeys.pack], ...guideKeys.guides]);
 	for (const [id, keys] of all) {
 		const srcFile = path.join(guidesDir, id + '.lua');
+		// A guide that went away and came back: its translations return from src/guides-removed/.
+		const parked = path.join(srcDir, 'guides-removed', id + '.lua');
+		if (!fs.existsSync(srcFile) && fs.existsSync(parked)) {
+			fs.mkdirSync(path.dirname(srcFile), { recursive: true });
+			fs.renameSync(parked, srcFile);
+			// Drop the folders it leaves empty.
+			const root = path.join(srcDir, 'guides-removed');
+			for (let d = path.dirname(parked); d.startsWith(root) && !fs.readdirSync(d).length; d = path.dirname(d)) {
+				fs.rmdirSync(d);
+				if (d === root) break;
+			}
+		}
 		const existed = fs.existsSync(srcFile);
 		guides[id] = syncGuide({ id, deFile: path.join(deDir, id + '.lua'), keys, srcFile, changed });
 		guides[id].isNew = !existed;

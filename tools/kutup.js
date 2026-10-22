@@ -367,8 +367,12 @@ function setup() {
 		console.log(`setup: upstream/ is there, at ${checkedOut() || 'no tag'} (pinned: ${pinned()})`);
 		return;
 	}
-	console.log(`setup: cloning ${UPSTREAM_URL} at ${pinned()} into upstream/`);
-	execFileSync('git', ['clone', '--quiet', '--depth', '1', '--branch', pinned(), '-c', 'advice.detachedHead=false', UPSTREAM_URL, UPSTREAM], { stdio: 'inherit' });
+	// Sparse: only what the tool reads (the addons, the deDE locale files, LICENSE at the root). Polestar's
+	// test fixtures alone have paths too long for Windows and are not needed.
+	console.log(`setup: cloning ${UPSTREAM_URL} at ${pinned()} into upstream/ (addon/ and guides/locales/deDE/ only)`);
+	execFileSync('git', ['clone', '--quiet', '--depth', '1', '--branch', pinned(), '--filter=blob:none', '--sparse',
+		'-c', 'advice.detachedHead=false', UPSTREAM_URL, UPSTREAM], { stdio: 'inherit' });
+	git('sparse-checkout', 'set', 'addon', 'guides/locales/deDE');
 	console.log(`setup: upstream/ at ${checkedOut()}`);
 }
 

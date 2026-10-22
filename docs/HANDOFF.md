@@ -42,6 +42,10 @@ node tools/kutup.js check       # must end with "0 error(s)"
 node tools/kutup.js stats --guides
 ```
 
+`setup` is a sparse clone (only `addon/`, `guides/locales/deDE/` and the root files, ~114 MB, ~15 s). Tested on
+22 Oct from a fresh clone of this repo: setup → check → pending → build all worked, and a `pin` round trip
+v0.2.6 → v0.2.5 → v0.2.6 brought every translation back, including a guide parked in `src/guides-removed/`.
+
 ## Phase 4: how to translate guides
 
 1. Pick a guide or folder, and see what is open:
