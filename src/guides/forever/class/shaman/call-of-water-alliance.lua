@@ -5,53 +5,53 @@
 return {
 	-- Guide
 	-- {quest:94494} Call of Water
-	["{quest:94494} (Alliance)"] = "",
+	["{quest:94494} (Alliance)"] = "{quest:94494} (Alliance)",
 	-- {item:5177} Water Totem · {spell:5394} Healing Stream Totem
-	["The {item:5177} that lets you place water totems, and {spell:5394} with it."] = "",
+	["The {item:5177} that lets you place water totems, and {spell:5394} with it."] = "Su totemleri dikmeni sağlayan {item:5177}, onunla birlikte {spell:5394}.",
 
 	-- Step 1: Eldrun Stormbreaker
 	-- {npc:258098} Eldrun Stormbreaker · {zone:1455} Ironforge · {npc:258043} Norric Lochthane · {zone:1432} Loch Modan
-	["At 20 {npc:258098}, the shaman trainer in {zone:1455}, sends you to {npc:258043} in {zone:1432}."] = "",
+	["At 20 {npc:258098}, the shaman trainer in {zone:1455}, sends you to {npc:258043} in {zone:1432}."] = "Seviye 20'de {zone:1455} şehrindeki Shaman eğitmeni {npc:258098}, seni {zone:1432} bölgesindeki {npc:258043} yanına gönderir.",
 
 	-- Step 2: Norric Lochthane
 	-- {npc:258043} Norric Lochthane · {area:146} Stonewrought Dam
-	["{npc:258043}'s burrow hut stands on the north-western edge of the loch, south of {area:146}."] = "",
+	["{npc:258043}'s burrow hut stands on the north-western edge of the loch, south of {area:146}."] = "{npc:258043} adlı NPC'nin toprak kulübesi gölün kuzeybatı kıyısında, {area:146} barajının güneyinde.",
 
 	-- Step 3: Hervdana Saegrund
 	-- {npc:258203} Hervdana Saegrund · {zone:1437} Wetlands
-	["{npc:258203}'s family lives in a cave beneath the southern falls of the {zone:1437}."] = "",
+	["{npc:258203}'s family lives in a cave beneath the southern falls of the {zone:1437}."] = "{npc:258203} adlı NPC'nin ailesi {zone:1437} bölgesinin güney şelalelerinin altındaki bir mağarada yaşıyor.",
 
 	-- Step 4: The brown waterskin
-	["The brown waterskin"] = "",
+	["The brown waterskin"] = "Kahverengi su tulumu",
 	-- {item:265732} Unfilled Brown Waterskin · {npc:258203} Hervdana Saegrund
-	["Fill the {item:265732} at the bottom of the waterfalls below {npc:258203}'s cave, where the fresh water meets the brackish."] = "",
+	["Fill the {item:265732} at the bottom of the waterfalls below {npc:258203}'s cave, where the fresh water meets the brackish."] = "{item:265732} eşyasını {npc:258203} adlı NPC'nin mağarasının altındaki şelalelerin dibinde, tatlı suyun acı suyla buluştuğu yerde doldur.",
 
 	-- Step 6: The red waterskin
-	["The red waterskin"] = "",
+	["The red waterskin"] = "Kırmızı su tulumu",
 	-- {area:71} Stonewatch Falls · {area:68} Lake Everstill · {item:265747} Unfilled Red Waterskin
 	-- plural, as words: Murloc Nightcrawlers = {npc:544} Murloc Nightcrawler
-	["{area:71} pour out of {area:68} at the east end of Redridge. Fill the {item:265747} at their foot, where the Murloc Nightcrawlers gather."] = "",
+	["{area:71} pour out of {area:68} at the east end of Redridge. Fill the {item:265747} at their foot, where the Murloc Nightcrawlers gather."] = "{area:71}, Redridge'in doğu ucunda {area:68} gölünden dökülüyor. {item:265747} eşyasını şelalelerin dibinde, Murloc Nightcrawler yaratıklarının toplandığı yerde doldur.",
 
 	-- Step 8: The blue waterskin
-	["The blue waterskin"] = "",
+	["The blue waterskin"] = "Mavi su tulumu",
 	-- {npc:258203} Hervdana Saegrund · {area:150} Menethil Harbor · {area:442} Auberdine · {area:271} Southshore · {area:415} Astranaar · {item:265772} Unfilled Blue Waterskin
-	["{npc:258203}: take the boat from {area:150} to {area:442} (it stops in {area:271} on the way), then go south to {area:415}. Fill the {item:265772} in the lake around the town."] = "",
+	["{npc:258203}: take the boat from {area:150} to {area:442} (it stops in {area:271} on the way), then go south to {area:415}. Fill the {item:265772} in the lake around the town."] = "{npc:258203}: {area:150} limanından {area:442} kasabasına gemiyle git (yolda {area:271} kasabasında durur), sonra güneye, {area:415} kasabasına in. {item:265772} eşyasını kasabanın çevresindeki gölde doldur.",
 
 	-- Step 9: Hervdana Saegrund
 	-- {item:7810} Vial of Purest Water · {npc:258043} Norric Lochthane
-	["the {item:7810}, for {npc:258043}"] = "",
+	["the {item:7810}, for {npc:258043}"] = "{npc:258043} için {item:7810}",
 
 	-- Step 10: Norric Lochthane
 	-- {npc:258043} Norric Lochthane · {item:6637} Water Sapta
-	["{npc:258043}: your {item:6637}"] = "",
+	["{npc:258043}: your {item:6637}"] = "{npc:258043}: {item:6637} eşyan",
 
 	-- Step 11: Stendel's Pond
 	-- {area:919} Stendel's Pond · {area:20} Moonbrook · {item:6637} Water Sapta · {npc:5894} Corrupt Minor Manifestation of Water · {item:7811} Remaining Drops of Purest Water · {object:619896} Forgotten Shrine · {npc:5895} Minor Manifestation of Water · {item:7813} Shard of Water
-	["{area:919} lies outside {area:20}. Drink the {item:6637} there and defeat the {npc:5894} for its bracers, then place them and the {item:7811} on the {object:619896}. The {npc:5895} it calls forth gives you the {item:7813}."] = "",
+	["{area:919} lies outside {area:20}. Drink the {item:6637} there and defeat the {npc:5894} for its bracers, then place them and the {item:7811} on the {object:619896}. The {npc:5895} it calls forth gives you the {item:7813}."] = "{area:919}, {area:20} köyünün dışında. Orada {item:6637} iç ve bileklikleri için {npc:5894} yaratığını yen, sonra bileklikleri ve {item:7811} eşyasını {object:619896} üzerine koy. Sunağın çağırdığı {npc:5895} sana {item:7813} verir.",
 	-- {npc:5895} Minor Manifestation of Water
-	["{npc:5895}, at the shrine"] = "",
+	["{npc:5895}, at the shrine"] = "{npc:5895}, sunakta",
 
 	-- Step 12: Norric Lochthane
 	-- {npc:258043} Norric Lochthane · {spell:5394} Healing Stream Totem · {item:5177} Water Totem
-	["{npc:258043}: {spell:5394} and your {item:5177}"] = "",
+	["{npc:258043}: {spell:5394} and your {item:5177}"] = "{npc:258043}: {spell:5394} ve {item:5177} eşyan",
 }
