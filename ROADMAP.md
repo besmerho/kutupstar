@@ -4,9 +4,10 @@ Upstream: https://github.com/fitzforge/polestar, cloned into `upstream/` and che
 
 ## Status (22 Oct 2026, branch `faz-0-1`)
 
-- Phase 0 is built and installed in `_classic_beta_\Interface\AddOns\Kutupstar`; the in-game test by Barış is pending. It has 54 UI strings (goal verbs, guide window, key bindings), the pack texts and the first three steps of all eight starter guides. Barış's two requirements (survive Polestar updates; no UI of its own, with a language option inside Polestar) are built in; see Design.
-- Phase 1 is drafted (`docs/STIL.md`, `src/glossary.json`). The **[ONAY]** items are waiting for Barış.
-- First in-game test (22 Oct): diag `fill = early`, all hooks on, 8 guides / 61 texts translated, option shown. Phase 3 started: 893/2124 UI strings (goal lines, guide window, Options window and pages, picker, Rares, map, quests, talents options). Next: Welcome, Talents/Builds, Gear/Options, Dungeons, Lookup, Nav, Import, Gamepad. The bug-report details block stays English on purpose (it is for the maintainers).
+- **Phase 0 done:** the in-game test on 22 Oct showed diag `fill = early`, all hooks on, 8 guides / 61 texts translated and the option shown. Barış's two requirements (survive Polestar updates; no UI of its own, with a language option inside Polestar) are built in; see Design.
+- Phase 1 is drafted (`docs/STIL.md`, `src/glossary.json`). The **[ONAY]** items are waiting for Barış, plus the page-name choices made in Phase 3 (Lookup → Arama, Questing → Görevler, Quality of Life → Kolaylıklar, Skin → Görünüm teması) and "Teslim" vs "Teslim et:".
+- **Phase 3 (UI) done:** 2016/2124 strings, installed. The other **108 stay English on purpose:** race, class, spec, profession and skin names (the client shows them in English), the bug-report details block (it is for the maintainers), product and place names (Polestar, Forever, Menethil Harbor), and PvP, XP, NPC, g/s/c. Slash-command arguments stay English inside the translated help lines.
+- Next: Phase 2 (tooling: upstream sync and diff), then Phase 4 (guides).
 - The pinned totals are **2,124 UI keys and 6,308 guide texts** (the numbers below were measured on HEAD).
 
 ## Key facts from the analysis
