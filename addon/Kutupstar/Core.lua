@@ -253,6 +253,45 @@ local function registerOption(P)
 end
 
 ---------------------------------------------------------------------------
+-- The font
+---------------------------------------------------------------------------
+
+-- The enUS client font (FRIZQT__) draws ı but not ş (a box in game, 23 Oct
+-- 2026), and likely not ğ or İ either, from the same Unicode block. Polestar meets the same gap on ruRU (no middle dot) by
+-- drawing in its own Fira Sans there (Theme.FontSpec); Fira Sans and Inter
+-- cover Turkish. So while Turkish is on, wherever Polestar's text would take
+-- the game font (the skin's default, or "the game's" chosen), it takes Fira
+-- Sans. Theme.FontSpec asks Theme.FontKey for the face on every paint, so a
+-- wrapper on FontKey covers the windows, the Nav and the Settings rows.
+-- Polestar's Inter or Fira, or EllesmereUI's font, chosen in its options,
+-- stay as they are. Text in the game's own frames (tooltips, chat) keeps the
+-- game font.
+local CJK = { zhCN = true, zhTW = true, koKR = true }
+
+local function hookFont(P)
+	local T = P.Theme
+	if type(T) ~= "table" or type(T.FontKey) ~= "function" then return end
+	if CJK[GetLocale and GetLocale() or ""] then return end
+	local fontKey = T.FontKey
+	T.FontKey = function(...)
+		local key = fontKey(...)
+		if key == "game" then return "fira" end
+		return key
+	end
+	diag.hooks.font = true
+end
+
+-- Strings Polestar painted before the wrapper was in, painted again once.
+local function repaintFonts()
+	local P = _G[POLESTAR]
+	local T = type(P) == "table" and P.Theme
+	if diag.hooks.font and type(T) == "table" and type(T.Refresh) == "function" then
+		local ok, err = pcall(T.Refresh)
+		if not ok then diag.error = tostring(err) end
+	end
+end
+
+---------------------------------------------------------------------------
 -- Load
 ---------------------------------------------------------------------------
 
@@ -265,6 +304,8 @@ local function onPolestar()
 		if diag.fill == "late" then fixBindings(P.L) end
 		local ok, err = pcall(hookGuides, P)
 		if not ok then diag.error = tostring(err) end
+		ok, err = pcall(hookFont, P)
+		if not ok then diag.error = tostring(err) end
 	end
 	local ok, err = pcall(registerOption, P)
 	if not ok then diag.error = tostring(err) end
@@ -273,7 +314,13 @@ end
 
 local f = CreateFrame("Frame")
 f:RegisterEvent("ADDON_LOADED")
-f:SetScript("OnEvent", function(self, _, name)
+f:RegisterEvent("PLAYER_LOGIN")
+f:SetScript("OnEvent", function(self, event, name)
+	if event == "PLAYER_LOGIN" then
+		self:UnregisterEvent("PLAYER_LOGIN")
+		repaintFonts()
+		return
+	end
 	if name == ADDON then
 		if type(KutupstarDB) ~= "table" then KutupstarDB = {} end
 		KutupstarDB.diag = diag

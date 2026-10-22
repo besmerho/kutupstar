@@ -40,6 +40,7 @@ The folder is `Kutupstar`, with the title "Kutupstar (Polestar TR)". It has **no
 - **Guides:** `GuideTexts.Prepare`, `PackText` and `RegisterPack` are wrapped at `ADDON_LOADED("Polestar")`, before `Polestar_Guides` loads.
 - **Language choice:** a "Dil · Language" dropdown (Türkçe/English) on Polestar's Appearance page, tab "Colour & type", through the public `RegisterOptions`. It is stored in `KutupstarDB.language` because Polestar's settings load too late, and it takes effect on reload. English leaves Polestar untouched.
 - **Update-proof:** every hook type-checks what it wraps and runs under `pcall`. A text whose English changed, a new guide or a renamed function falls back to Polestar's English. The TOC's Interface is copied from the installed Polestar at build time.
+- **Font:** the enUS game font (FRIZQT__) has no `ş` (a box in game; likely no `ğ`/`İ` either). While Turkish is on, wherever Polestar would draw in the game font, a wrapper on `Theme.FontKey` makes it Polestar's own Fira Sans (what Polestar itself does on ruRU); Inter, Fira or EllesmereUI's font chosen in Polestar stay. Text in the game's own frames (tooltips, chat) keeps the game font.
 - **Diagnostics** go to `KutupstarDB.diag` in the SavedVariables file: fill early/late/off, hooks, guides and texts translated, errors.
 
 ```
