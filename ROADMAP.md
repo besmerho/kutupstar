@@ -14,6 +14,11 @@ Upstream: https://github.com/fitzforge/polestar, cloned into `upstream/` and che
 
 ## When Polestar updates
 
+The **`polestar-sync` skill** (`.claude/skills/polestar-sync/SKILL.md`) does all of this in one go:
+`node tools/kutup.js latest` compares Polestar's newest GitHub release with the pinned one, and on an update the
+skill pins it on a branch `polestar-vX.Y.Z`, runs `audit` (are the Polestar internals Core.lua hooks into still
+there?), re-translates what changed, checks, builds and commits. By hand:
+
 1. Install the new Polestar in the game as usual.
 2. `node tools/kutup.js pin vX.Y.Z` fetches that release into `upstream/`, rewrites `src/` and writes `reports/sync-<old>-<new>.md`: new texts, gone texts, and **lost translations**, each with a "maybe now" match.
 3. Translate the new texts, and reuse or delete the lost ones (they sit at the end of their file, commented out).

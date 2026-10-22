@@ -101,8 +101,9 @@ and `forever/horde/0*` (to level 30), then the 30-40, 40-50 and 50-60 folders fo
 ## Don'ts
 
 - Don't edit `upstream/`, and don't run Polestar's own tools: it is read as data only (`tools/lib/extract.js`).
-- Don't `pin` another Polestar release unless Barış says his game has it. The keys must match his installed
-  Polestar.
+- Don't `pin` another Polestar release on `main`. A new release goes through the **`polestar-sync` skill**
+  (`.claude/skills/polestar-sync/SKILL.md`): its own branch `polestar-vX.Y.Z`, and installed into the game only
+  once Barış's game has that release (the keys must match his installed Polestar).
 - Don't translate the keys in `src/keep-english.json`.
 - Don't add UI, commands or chat output to the addon (requirement 2). Don't change `Core.lua`'s design without
   a reason; it was tested in game. Never replace a Blizzard function (taint); only `hooksecurefunc`.

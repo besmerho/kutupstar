@@ -2,6 +2,8 @@
 // Kutupstar (Polestar TR) tool. Needs `npm install` (luaparse).
 //
 //   node tools/kutup.js setup               -- clones Polestar at the pinned release into upstream/ (fresh clones)
+//   node tools/kutup.js latest              -- Polestar's newest release on GitHub against the pinned and installed ones
+//   node tools/kutup.js audit               -- the Polestar internals Core.lua hooks into, still there?
 //   node tools/kutup.js pending <ui | guide id or folder> [--max N]
 //                                           -- the untranslated texts as a JSON skeleton for apply
 //   node tools/kutup.js check [--glossary]  -- validates src/: Lua syntax, formats, tokens, line breaks,
@@ -406,6 +408,60 @@ function pending(prefix, max) {
 	console.error(`pending: ${n} text(s)${n >= max ? ` (stopped at --max ${max})` : ''}`);
 }
 
+// latest: Polestar's newest release on GitHub (tags vX.Y.Z; test tags such as v0.2.5-test.1 are left
+// out) against the pinned one and the one installed in the game. The last line is for scripts:
+// "update: yes <tag>" or "update: no".
+function latest() {
+	const out = execFileSync('git', ['ls-remote', '--tags', '--refs', UPSTREAM_URL], { encoding: 'utf8' });
+	const tags = [...out.matchAll(/refs\/tags\/(v(\d+)\.(\d+)\.(\d+))$/gm)]
+		.map((m) => ({ tag: m[1], v: [Number(m[2]), Number(m[3]), Number(m[4])] }))
+		.sort((a, b) => a.v[0] - b.v[0] || a.v[1] - b.v[1] || a.v[2] - b.v[2]);
+	if (!tags.length) { console.log('latest: no release tags found'); process.exit(1); }
+	const newest = tags[tags.length - 1].tag;
+	const installedToc = path.join(ADDONS, 'Polestar', 'Polestar.toc');
+	const installed = fs.existsSync(installedToc)
+		? (fs.readFileSync(installedToc, 'utf8').match(/^## Version:\s*(.+?)\s*$/m) || [])[1] : null;
+	console.log(`Polestar latest release: ${newest} · pinned: ${pinned()} · installed in the game: ${installed ? 'v' + installed : 'unknown (no game here)'}`);
+	console.log(newest !== pinned() ? `update: yes ${newest}` : 'update: no');
+}
+
+// audit: the Polestar internals Kutupstar's Core.lua relies on, checked in upstream/. "must": Core.lua
+// breaks or degrades without it (it would step aside, showing English); "info": a reason behind a choice.
+const AUDIT = [
+	['must', 'Core/Init.lua', /^Polestar = ns$/m, 'the global Polestar table Core.lua reads'],
+	['must', 'Core/Init.lua', /^ns\.L = L$/m, 'Polestar.L, the table the Turkish goes into'],
+	['must', 'Core/Core.xml', /Init\.lua"\/>\s*<Script file="\.\.\\Locales\\/, "a Locales file loads right after Init.lua (the early fill's moment)"],
+	['must', 'Locales/deDE.lua', /^if not \(GetLocale and GetLocale\(\) == "deDE"\) then return end$/m, 'the Locales files call GetLocale() first (the early fill hooks it)'],
+	['must', 'Core/Guides.lua', /ns\.GuideTexts\.Prepare\(def,/, 'RegisterGuide calls GuideTexts.Prepare through the table (wrapped)'],
+	['must', 'Core/GuideTexts.lua', /^function GuideTexts\.Prepare\(def, live\)$/m, 'GuideTexts.Prepare (wrapped)'],
+	['must', 'Core/GuideTexts.lua', /^function GuideTexts\.PackText\(packId, s\)$/m, 'GuideTexts.PackText (wrapped: folder names)'],
+	['must', 'Core/GuideTexts.lua', /local GUIDE_FIELDS = \{ "title", "why", "pitch" \}[\s\S]*local GUIDE_LISTS = \{ "pros", "cons" \}[\s\S]*local STEP_FIELDS = \{ "title", "note" \}[\s\S]*local GOAL_FIELDS = \{ "note", "text" \}/, "the guide fields GuideTexts translates (Core.lua's translateGuide lists the same; tools/lib/extract.js's collect too)"],
+	['must', 'Core/Guides.lua', /^function ns\.RegisterPack\(meta\)$/m, 'Polestar.RegisterPack (wrapped: the pack title and notes)'],
+	['must', 'Theme/Widgets.lua', /^function ns\.RegisterOptions\(spec\)$/m, 'RegisterOptions (the Dil · Language dropdown)'],
+	['must', 'Core/Init.lua', /^function ns\.RegisterDefaults\(section, tbl\)$/m, 'RegisterDefaults (the dropdown needs a default to show)'],
+	['must', 'Core/Init.lua', /^function ns\.On\(msg, fn\)$/m, "ns.On (Reset page resets the language)"],
+	['must', 'UI/Options.lua', /L\["Appearance"\][\s\S]*tab = L\["Colour & type"\]/, 'the Appearance page and its Colour & type tab (where the dropdown goes)'],
+	['must', 'Theme/Theme.lua', /^function Theme\.FontSpec\(role\)$/m, 'Theme.FontSpec (wrapped: the font fallback for ş)'],
+	['must', 'Theme/Theme.lua', /^function Theme\.FontKey\(\)$/m, 'Theme.FontKey (the font fallback asks for Fira Sans)'],
+	['must', 'Theme/Theme.lua', /^function Theme\.FollowsEllesmereFont\(\)$/m, 'Theme.FollowsEllesmereFont (the font fallback)'],
+	['must', 'Theme/Theme.lua', /^function Theme\.Refresh\(\)$/m, 'Theme.Refresh (repaint after the font hook)'],
+	['info', 'Quests/Tracker.lua', /L\["Turn in"\] \.\. ": "/, 'the "Teslim et::" join the GameTooltip post-hook mends (gone: the hook just never fires)'],
+	['info', 'Core/Engine.lua', /kill = function\(g, N\) return N\.Npc\(g\.npc\) or g\.target end/, "a kill goal's target matches the English quest log, so a quest's target stays English"],
+	['info', 'Core/Commands.lua', /^BINDING_NAME_POLESTAR_TOGGLE = L\["Toggle guide window"\]$/m, 'the key binding names Core.lua sets again after a late fill'],
+];
+
+function audit() {
+	let broken = 0;
+	for (const [level, file, re, why] of AUDIT) {
+		const full = path.join(UP_ADDON, file);
+		const ok = fs.existsSync(full) && re.test(fs.readFileSync(full, 'utf8'));
+		if (!ok && level === 'must') broken++;
+		console.log(`${ok ? 'ok     ' : level === 'must' ? 'CHANGED' : 'gone   '} ${file.padEnd(20)} ${why}`);
+	}
+	console.log(`audit: Polestar ${checkedOut() || '(no tag)'} · ${broken ? `${broken} hook point(s) CHANGED: read that Polestar code and update addon/Kutupstar/Core.lua` : 'every hook point Core.lua needs is there'}`);
+	if (broken) process.exitCode = 1;
+}
+
 module.exports = { extract, runChecks };
 if (require.main !== module) return;
 
@@ -418,8 +474,10 @@ else if (cmd === 'keys') keys();
 else if (cmd === 'sync' || cmd === 'init') runSync(pinned());
 else if (cmd === 'pin' && args[0]) pin(args[0]);
 else if (cmd === 'setup') setup();
+else if (cmd === 'latest') latest();
+else if (cmd === 'audit') audit();
 else if (cmd === 'pending' && args[0]) {
 	const i = args.indexOf('--max');
 	pending(args[0], i !== -1 ? Number(args[i + 1]) : Infinity);
 }
-else console.log('usage: node tools/kutup.js setup | check [--glossary] | build [--install] | stats [--guides] | apply <file.json> | pending <ui|guide-or-folder> [--max N] | keys | sync | pin <tag>');
+else console.log('usage: node tools/kutup.js setup | latest | audit | check [--glossary] | build [--install] | stats [--guides] | apply <file.json> | pending <ui|guide-or-folder> [--max N] | keys | sync | pin <tag>');
