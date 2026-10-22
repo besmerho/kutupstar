@@ -26,7 +26,7 @@ Barış's two hard requirements:
 | 1 Glossary + style guide | done: Barış's decisions are marked **[KARAR]** in STIL.md |
 | 2 Tooling | done: keys from Polestar's code, `sync`/`pin`, checks |
 | 3 UI | done: 2016/2124; the other 108 stay English on purpose (`src/keep-english.json`) |
-| **4 Guides** | **in progress** (branch `faz-4`): 957/6308; all 8 starter guides done. Next: `forever/alliance/0*`, `forever/horde/0*` |
+| **4 Guides** | **in progress** (branch `faz-4`): 1697/6308; the 8 starter guides and both 1-30 folders (`forever/alliance/0*`, `forever/horde/0*`) done. Next: the 30-40 folders |
 | 5 Leftovers | the `"Teslim et:: "` double colon in turn-in map marker tooltips (Polestar's Quests/Tracker.lua adds `": "`); optional upstream PR for translatable verb+name joins |
 | 6 QA | Barış plays and reports |
 | 7 Release | undecided: public release or private; Recorder (33 strings) skipped for now |
