@@ -5,210 +5,210 @@
 return {
 	-- Step 1: Zoram'gar Outpost
 	-- {area:392} Ratchet · {area:2897} Zoram'gar Outpost · {zone:1440} Ashenvale
-	["Fly from {area:392} to {area:2897} on the {zone:1440} coast."] = "",
+	["Fly from {area:392} to {area:2897} on the {zone:1440} coast."] = "{area:392} limanından {zone:1440} kıyısındaki {area:2897} karakoluna uç.",
 	-- {npc:12717} Muglash
-	["{npc:12717}: starts his escort at once"] = "",
+	["{npc:12717}: starts his escort at once"] = "{npc:12717}: eşlik görevi hemen başlar",
 
 	-- Step 2: Vorsha the Lasher
 	-- {npc:12717} Muglash
-	["{npc:12717} walks north up the strand to a naga brazier. Put the brazier out, then guard him through the naga waves until Vorsha is dead."] = "",
-	["Naga brazier"] = "",
+	["{npc:12717} walks north up the strand to a naga brazier. Put the brazier out, then guard him through the naga waves until Vorsha is dead."] = "{npc:12717} sahil boyunca kuzeye, bir naga mangalına yürür. Mangalı söndür, sonra Vorsha ölene kadar naga dalgalarına karşı onu koru.",
+	["Naga brazier"] = "Naga mangalı",
 
 	-- Step 3: Blackfathom Deeps ruins
 	-- {area:2797} Blackfathom Deeps
-	["{area:2797} ruins"] = "",
-	["The way to the Sapphires is through the sunken ruins at the north end of the strand: go down the stairs into the pit."] = "",
+	["{area:2797} ruins"] = "{area:2797} harabeleri",
+	["The way to the Sapphires is through the sunken ruins at the north end of the strand: go down the stairs into the pit."] = "Sapphire'lara giden yol sahilin kuzey ucundaki batık harabelerden geçiyor: merdivenlerden çukura in.",
 
 	-- Step 4: Sapphires of Aku'Mai
-	["Sapphires of Aku'Mai"] = "",
+	["Sapphires of Aku'Mai"] = "Sapphire of Aku'Mai",
 	-- {area:2797} Blackfathom Deeps
-	["The Sapphires are blue crystals on the walls of the tunnels leading to the {area:2797} portal, underground and outside the instance: swim down from the pit, under the wall, into the cave. The satyrs and naga in the tunnels are elite: grouping up is advised. The crystals respawn quickly, so there is no need to go deep."] = "",
+	["The Sapphires are blue crystals on the walls of the tunnels leading to the {area:2797} portal, underground and outside the instance: swim down from the pit, under the wall, into the cave. The satyrs and naga in the tunnels are elite: grouping up is advised. The crystals respawn quickly, so there is no need to go deep."] = "Sapphire'lar, {area:2797} portalına giden tünellerin duvarlarındaki mavi kristaller; yer altında ve zindanın dışında: çukurdan aşağı, duvarın altından mağaraya yüz. Tünellerdeki satirler ve nagalar elit: grup kurman önerilir. Kristaller çabuk yeniden doğar, bu yüzden derine inmen gerekmez.",
 
 	-- Step 5: Zoram'gar Outpost
 	-- {npc:12736} Je'neu Sancrea · {area:2797} Blackfathom Deeps
-	["{npc:12736} offers a {area:2797} quest next; leave it unless you have a group."] = "",
+	["{npc:12736} offers a {area:2797} quest next; leave it unless you have a group."] = "{npc:12736} sonra bir {area:2797} görevi verir; grubun yoksa bırak.",
 
 	-- Step 6: Thistlefur Village
-	["East of Zoram'gar, the Thistlefur furbolgs fill the village and the hills around their hold."] = "",
+	["East of Zoram'gar, the Thistlefur furbolgs fill the village and the hills around their hold."] = "Zoram'gar'ın doğusunda Thistlefur furbolgları köyü ve kalelerinin çevresindeki tepeleri dolduruyor.",
 
 	-- Step 7: Thistlefur Hold
-	["Thistlefur Hold"] = "",
+	["Thistlefur Hold"] = "Thistlefur Hold",
 	-- {npc:12818} Ruul Snowhoof · {area:428} Night Run
 	-- plural, as words: Troll Chests = {object:178144} Troll Chest
-	["Inside the hold, Troll Chests lie along the tunnels. {npc:12818} is held deep inside: free him and protect him all the way out, then he runs home to {area:428}."] = "",
+	["Inside the hold, Troll Chests lie along the tunnels. {npc:12818} is held deep inside: free him and protect him all the way out, then he runs home to {area:428}."] = "Hold'un içinde, tüneller boyunca Troll Chest sandıkları duruyor. {npc:12818} derinlerde tutsak: onu kurtar ve çıkışa kadar koru, sonra o koşarak {area:428} kampına döner.",
 
 	-- Step 8: Zoram'gar Outpost
-	["Back west to Zoram'gar before heading east for good."] = "",
+	["Back west to Zoram'gar before heading east for good."] = "Kesin olarak doğuya gitmeden önce batıya, Zoram'gar'a dön.",
 
 	-- Step 9: Ursangous
 	-- {area:415} Astranaar · {npc:12678} Ursangous · {area:418} Ruins of Stardust · {area:421} Mystral Lake
-	["Follow the main road east past {area:415} (Alliance: keep to the road). {npc:12678}, a big grizzly, roams the {area:418} south of the road, west of {area:421}. His paw starts the next hunt quest."] = "",
+	["Follow the main road east past {area:415} (Alliance: keep to the road). {npc:12678}, a big grizzly, roams the {area:418} south of the road, west of {area:421}. His paw starts the next hunt quest."] = "Ana yolu doğuya izleyerek {area:415} kasabasını geç (Alliance: yoldan ayrılma). Büyük bir boz ayı olan {npc:12678}, yolun güneyinde, {area:421} gölünün batısındaki {area:418} harabelerinde dolaşıyor. Pençesi sonraki av görevini başlatır.",
 
 	-- Step 10: Ruins of Stardust fountain
 	-- {area:418} Ruins of Stardust
-	["{area:418} fountain"] = "",
+	["{area:418} fountain"] = "{area:418} çeşmesi",
 	-- {area:418} Ruins of Stardust · {item:7767} Empty Blue Waterskin
-	["The fountain stands in the middle of the {area:418}: use the {item:7767} there."] = "",
+	["The fountain stands in the middle of the {area:418}: use the {item:7767} there."] = "Çeşme {area:418} harabelerinin ortasında: {item:7767} eşyasını orada kullan.",
 
 	-- Step 11: Alonso
 	-- {npc:210995} Alonso · {area:421} Mystral Lake
-	["{npc:210995}, a Forever addition, stands on the west shore of {area:421} with three quick Dragonslayer quests."] = "",
+	["{npc:210995}, a Forever addition, stands on the west shore of {area:421} with three quick Dragonslayer quests."] = "Forever'a özgü bir ek olan {npc:210995}, {area:421} gölünün batı kıyısında, üç kısa Dragonslayer göreviyle duruyor.",
 	-- {npc:210995} Alonso
-	["{npc:210995} may not offer these to every class; if he doesn't, carry on."] = "",
+	["{npc:210995} may not offer these to every class; if he doesn't, carry on."] = "{npc:210995} bunları her sınıfa vermeyebilir; vermezse devam et.",
 
 	-- Step 12: Tideress
 	-- {npc:12759} Tideress · {area:421} Mystral Lake · {item:16408} Befouled Water Globe
-	["{npc:12759}, a corrupted water elemental, drifts in {area:421}. Her {item:16408} starts a quest for Splintertree."] = "",
+	["{npc:12759}, a corrupted water elemental, drifts in {area:421}. Her {item:16408} starts a quest for Splintertree."] = "Bozulmuş bir su elementali olan {npc:12759}, {area:421} gölünde süzülüyor. Düşürdüğü {item:16408} Splintertree için bir görev başlatır.",
 
 	-- Step 13: King of the Foulweald
 	-- {area:421} Mystral Lake · {item:16972} Karang's Banner · {object:178206} Foulweald Totem Mound (no name in this language: may be words) · {npc:12918} Chief Murgut
-	["The Foulweald furbolgs hold the woods east of {area:421}, south of the road. Place {item:16972} on the {object:178206} and guard it: the furbolgs come to tear it down. {npc:12918} comes last; his totem drops in the basket."] = "",
+	["The Foulweald furbolgs hold the woods east of {area:421}, south of the road. Place {item:16972} on the {object:178206} and guard it: the furbolgs come to tear it down. {npc:12918} comes last; his totem drops in the basket."] = "Foulweald furbolgları {area:421} gölünün doğusunda, yolun güneyindeki ormanı tutuyor. {item:16972} sancağını {object:178206} üzerine dik ve koru: furbolglar onu yıkmaya gelir. En son {npc:12918} gelir; totemi sepete düşer.",
 
 	-- Step 14: Torek's Assault
 	-- {npc:12858} Torek · {area:2360} Silverwing Outpost · {npc:12860} Duriel Moonfire
-	["Keep east on the road. {npc:12858} waits south-west of the Warsong lumber camp. He and his grunts storm the {area:2360}: let them take aggro and stay with {npc:12858} until {npc:12860} is dead."] = "",
+	["Keep east on the road. {npc:12858} waits south-west of the Warsong lumber camp. He and his grunts storm the {area:2360}: let them take aggro and stay with {npc:12858} until {npc:12860} is dead."] = "Yolda doğuya devam et. {npc:12858}, Warsong kereste kampının güneybatısında bekliyor. O ve askerleri {area:2360} karakoluna saldırır: düşmanların dikkatini onlar çeksin, {npc:12860} ölene kadar {npc:12858} adlı NPC'nin yanında kal.",
 
 	-- Step 15: Ashenvale Outrunners
 	-- {npc:12867} Kuray'bin
-	["{npc:12867} stands at the lumber camp. The night elf Outrunners stalk the woods south-east of it; they stealth, so watch for them."] = "",
+	["{npc:12867} stands at the lumber camp. The night elf Outrunners stalk the woods south-east of it; they stealth, so watch for them."] = "{npc:12867} kereste kampında duruyor. Night Elf Outrunner yaratıkları kampın güneydoğusundaki ormanda sinsice dolaşıyor; gizlenirler, dikkatli ol.",
 
 	-- Step 16: Splintertree Post
 	-- {area:431} Splintertree Post · {area:428} Night Run
-	["North up the road to {area:431} and {area:428} beside it."] = "",
+	["North up the road to {area:431} and {area:428} beside it."] = "Yoldan kuzeye, {area:431} karakoluna ve yanındaki {area:428} kampına git.",
 	-- {npc:12718} Gurda Ragescar
-	["{npc:12718}: only if you carry the manual pages"] = "",
+	["{npc:12718}: only if you carry the manual pages"] = "{npc:12718}: yalnızca kılavuz sayfaları sendeyse",
 
 	-- Step 17: Sharptalon
 	-- {npc:12676} Sharptalon
-	["{npc:12676}, a big nightsaber, prowls the woods south-east of the Warsong lumber camp. Her claw starts the next hunt quest."] = "",
+	["{npc:12676}, a big nightsaber, prowls the woods south-east of the Warsong lumber camp. Her claw starts the next hunt quest."] = "Büyük bir nightsaber olan {npc:12676}, Warsong kereste kampının güneydoğusundaki ormanda dolaşıyor. Pençesi sonraki av görevini başlatır.",
 
 	-- Step 18: Felmusk satyrs
-	["Felmusk satyrs"] = "",
-	["North-west of Splintertree, the Felmusk satyrs camp in the woods. Every satyr can drop horns."] = "",
+	["Felmusk satyrs"] = "Felmusk satirleri",
+	["North-west of Splintertree, the Felmusk satyrs camp in the woods. Every satyr can drop horns."] = "Splintertree'nin kuzeybatısında Felmusk satirleri ormanda kamp kurmuş. Her satir boynuz düşürebilir.",
 
 	-- Step 19: Shadumbra
 	-- {npc:12677} Shadumbra · {area:426} Raynewood Retreat
-	["{npc:12677}, a shadow panther, stalks the woods around {area:426}, west of the Felmusk camp. Her head starts the next hunt quest."] = "",
+	["{npc:12677}, a shadow panther, stalks the woods around {area:426}, west of the Felmusk camp. Her head starts the next hunt quest."] = "Bir gölge panteri olan {npc:12677}, Felmusk kampının batısında, {area:426} çevresindeki ormanda sinsice dolaşıyor. Kafası sonraki av görevini başlatır.",
 
 	-- Step 20: Mystral Lake
 	-- {area:421} Mystral Lake
 	-- plural, as words: Befouled Water Elementals = {npc:3917} Befouled Water Elemental
-	["Back south-west to {area:421}. Befouled Water Elementals drift around its shores; the gazebo stands on the island, overlooking the Alliance outpost."] = "",
-	["Gazebo"] = "",
+	["Back south-west to {area:421}. Befouled Water Elementals drift around its shores; the gazebo stands on the island, overlooking the Alliance outpost."] = "Güneybatıya, {area:421} gölüne dön. Befouled Water Elemental yaratıkları kıyılarında süzülüyor; çardak adada, Alliance karakoluna bakıyor.",
+	["Gazebo"] = "Çardak",
 
 	-- Step 23: Thunder Bluff
 	-- {area:1638} Thunder Bluff · {area:378} Camp Taurajo · {zone:1412} Mulgore · {area:222} Bloodhoof Village · {npc:2995} Tal
-	["Fly to {area:1638} if you know the flight path. If not, fly to {area:378}, head west into {zone:1412} past {area:222} to {area:1638} and take its flight path from {npc:2995} on the central rise."] = "",
+	["Fly to {area:1638} if you know the flight path. If not, fly to {area:378}, head west into {zone:1412} past {area:222} to {area:1638} and take its flight path from {npc:2995} on the central rise."] = "Uçuş noktasını biliyorsan {area:1638} şehrine uç. Bilmiyorsan {area:378} kampına uç, batıya {zone:1412} bölgesine geç, {area:222} köyünü geçip {area:1638} şehrine git ve ortadaki tepede {npc:2995} adlı NPC'den uçuş noktasını aç.",
 	-- {npc:3057} Cairne Bloodhoof · {area:1638} Thunder Bluff · {quest:93739} Exploring the Horde
-	["Speak with {npc:3057}, in {area:1638}: {quest:93739}"] = "",
+	["Speak with {npc:3057}, in {area:1638}: {quest:93739}"] = "{area:1638} şehrindeki {npc:3057} ile konuş: {quest:93739}",
 
 	-- Step 24: The Earthen Ring
-	["The Earthen Ring"] = "",
+	["The Earthen Ring"] = "Earthen Ring",
 	-- {zone:1456} Thunder Bluff · {npc:264074} Mazu'kon · {npc:264072} Yorn Grimtotem · {npc:259118} Muln Earthfury
-	["Take a lift down from {zone:1456}. The Earthen Ring camp stands north of the bluffs: {npc:264074}, {npc:264072} and {npc:259118}."] = "",
+	["Take a lift down from {zone:1456}. The Earthen Ring camp stands north of the bluffs: {npc:264074}, {npc:264072} and {npc:259118}."] = "Bir asansörle {zone:1456} şehrinden in. Earthen Ring kampı platoların kuzeyinde: {npc:264074}, {npc:264072} ve {npc:259118}.",
 
 	-- Step 25: Gloomrise
 	-- {area:17044} Gloomrise · {npc:264074} Mazu'kon · {item:273015} Toxin Extractor · {item:273181} Crystalline Silk · {npc:264082} Broodmother Valraxx · {item:273658} Bloody Parchment · {quest:96294} A Darker Truth
 	-- plural, as words: Gnawed Corpses = {npc:264096} Gnawed Corpse
-	["North of the camp, spiders overrun the burial ground at {area:17044}. Use {npc:264074}'s {item:273015} on the Gnawed Corpses; the Spinners drop the {item:273181}. {npc:264082} sits at the north end: her {item:273658} starts {quest:96294}."] = "",
+	["North of the camp, spiders overrun the burial ground at {area:17044}. Use {npc:264074}'s {item:273015} on the Gnawed Corpses; the Spinners drop the {item:273181}. {npc:264082} sits at the north end: her {item:273658} starts {quest:96294}."] = "Kampın kuzeyinde örümcekler {area:17044} mezarlığını istila etmiş. {npc:264074} adlı NPC'nin {item:273015} eşyasını Gnawed Corpse cesetleri üzerinde kullan; {item:273181} eşyasını Spinner yaratıkları düşürür. {npc:264082} kuzey uçta: düşürdüğü {item:273658} ile {quest:96294} görevi başlar.",
 	-- plural, as words: Gloomrise Toxin Samples = {item:273001} Gloomrise Toxin Sample · Gnawed Corpses = {npc:264096} Gnawed Corpse
-	["Gloomrise Toxin Samples, from the Gnawed Corpses"] = "",
+	["Gloomrise Toxin Samples, from the Gnawed Corpses"] = "Gloomrise Toxin Sample: Gnawed Corpse cesetlerinden",
 	-- {item:273181} Crystalline Silk
 	-- plural, as words: Gloomrise Spinners = {npc:264081} Gloomrise Spinner
-	["{item:273181}, from Gloomrise Spinners"] = "",
+	["{item:273181}, from Gloomrise Spinners"] = "{item:273181}: Gloomrise Spinner yaratıklarından",
 	-- {item:273658} Bloody Parchment · {npc:264082} Broodmother Valraxx
-	["{item:273658}, from {npc:264082}"] = "",
+	["{item:273658}, from {npc:264082}"] = "{item:273658}, kaynak: {npc:264082}",
 
 	-- Step 26: The Earthen Ring
 	-- {zone:1456} Thunder Bluff · {area:378} Camp Taurajo
-	["Back south to the camp, then up into {zone:1456} for the flight to {area:378}."] = "",
+	["Back south to the camp, then up into {zone:1456} for the flight to {area:378}."] = "Güneye, kampa dön, sonra {area:378} uçuşu için yukarı, {zone:1456} şehrine çık.",
 
 	-- Step 27: Brine
 	-- {zone:1456} Thunder Bluff · {area:378} Camp Taurajo · {npc:5899} Brine · {area:1718} Great Lift
-	["Fly from {zone:1456} to {area:378}. {npc:5899}'s hut stands on the ridge above the quilboar watering hole south of the camp, on the road to the {area:1718}."] = "",
+	["Fly from {zone:1456} to {area:378}. {npc:5899}'s hut stands on the ridge above the quilboar watering hole south of the camp, on the road to the {area:1718}."] = "{zone:1456} şehrinden {area:378} kampına uç. {npc:5899} adlı NPC'nin kulübesi kampın güneyinde, {area:1718} yolunda, quilboar su birikintisinin yukarısındaki sırtta.",
 	-- {npc:5901} Islen Waterseer · {area:392} Ratchet
-	["for {npc:5901}, south of {area:392}: next guide"] = "",
+	["for {npc:5901}, south of {area:392}: next guide"] = "{area:392} limanının güneyindeki {npc:5901} için: sonraki rehber",
 
 	-- Step 28: Great Lift
 	-- {zone:1456} Thunder Bluff · {area:378} Camp Taurajo · {area:1718} Great Lift · {zone:1413} Barrens
-	["Fly from {zone:1456} to {area:378} and take the road south to the {area:1718} at the bottom of the {zone:1413}."] = "",
+	["Fly from {zone:1456} to {area:378} and take the road south to the {area:1718} at the bottom of the {zone:1413}."] = "{zone:1456} şehrinden {area:378} kampına uç ve yolu güneye, {zone:1413} bölgesinin en altındaki {area:1718} asansörüne kadar izle.",
 	-- {npc:10079} Brave Moonhorn
-	["{npc:10079}, at the top of the lift"] = "",
+	["{npc:10079}, at the top of the lift"] = "{npc:10079}, asansörün tepesinde",
 
 	-- Step 29: Freewind Post
 	-- {area:484} Freewind Post
-	["Ride the lift down, then follow the road east through the canyons to {area:484}, a Tauren village on top of the mesas. Its lift is on the north side."] = "",
+	["Ride the lift down, then follow the road east through the canyons to {area:484}, a Tauren village on top of the mesas. Its lift is on the north side."] = "Asansörle aşağı in, sonra yolu doğuya, kanyonların arasından platoların tepesindeki Tauren köyü {area:484} karakoluna kadar izle. Köyün asansörü kuzey tarafında.",
 	-- {npc:10377} Elu
-	["{npc:10377}, by the wind rider master"] = "",
+	["{npc:10377}, by the wind rider master"] = "{npc:10377}, rüzgâr binicisi ustasının yanında",
 	-- {npc:4877} Jandia · {area:487} Roguefeather Den
-	["{npc:4877}, the trade supplies vendor: the Screeching harpies of {area:487}"] = "",
+	["{npc:4877}, the trade supplies vendor: the Screeching harpies of {area:487}"] = "{npc:4877}, meslek malzemeleri satıcısı: {area:487} inindeki Screeching harpy yaratıkları",
 	-- {npc:10537} Cliffwatcher Longhorn
-	["The Wanted poster beside {npc:10537}"] = "",
+	["The Wanted poster beside {npc:10537}"] = "{npc:10537} adlı NPC'nin yanındaki Wanted ilanı",
 
 	-- Step 30: Alien Egg
-	["Take the lift down. The egg lies in a nest on the canyon floor in one of three spots: south-east of the mesas (52.3,55.2), east (56.4,50.4) or south-west (37.6,56.1)."] = "",
+	["Take the lift down. The egg lies in a nest on the canyon floor in one of three spots: south-east of the mesas (52.3,55.2), east (56.4,50.4) or south-west (37.6,56.1)."] = "Asansörle aşağı in. Yumurta, kanyon tabanında üç noktadan birindeki bir yuvada: platoların güneydoğusunda (52.3,55.2), doğusunda (56.4,50.4) ya da güneybatısında (37.6,56.1).",
 
 	-- Step 32: Galak centaurs
-	["Galak centaurs"] = "",
+	["Galak centaurs"] = "Galak centaurları",
 	-- {npc:10617} Galak Messenger · {area:2237} Whitereach Post
-	["The Galak camps fill the canyon north of Freewind; Scouts, Wranglers and Windchasers share every camp. A lone {npc:10617} walks between the camps: kill him when you meet him, his note starts a quest for {area:2237}."] = "",
+	["The Galak camps fill the canyon north of Freewind; Scouts, Wranglers and Windchasers share every camp. A lone {npc:10617} walks between the camps: kill him when you meet him, his note starts a quest for {area:2237}."] = "Galak kampları Freewind'in kuzeyindeki kanyonu dolduruyor; her kampta Galak Scout, Galak Wrangler ve Galak Windchaser yaratıkları bir arada. Kamplar arasında tek başına bir {npc:10617} dolaşıyor: karşılaştığında onu öldür, notu {area:2237} için bir görev başlatır.",
 
 	-- Step 33: Dorn Plainstalker
 	-- {npc:2986} Dorn Plainstalker · {quest:1149} Test of Faith
-	["{npc:2986} stands on a mesa top east of the Galak camps. For the {quest:1149}, walk off the end of the planks beside him: you land safely."] = "",
+	["{npc:2986} stands on a mesa top east of the Galak camps. For the {quest:1149}, walk off the end of the planks beside him: you land safely."] = "{npc:2986}, Galak kamplarının doğusundaki bir platonun tepesinde duruyor. {quest:1149} için yanındaki tahtaların ucundan boşluğa yürü: güvenle yere inersin.",
 
 	-- Step 35: Grimtotem camps
-	["Grimtotem camps"] = "",
+	["Grimtotem camps"] = "Grimtotem kampları",
 	-- {area:2097} Darkcloud Pinnacle
 	-- plural, as words: Document Chests = {object:176344} Document Chest
-	["West of Freewind, the Grimtotem camps below {area:2097}. The Secret Notes are in Document Chests at the south-east, south-west and north-west camps."] = "",
+	["West of Freewind, the Grimtotem camps below {area:2097}. The Secret Notes are in Document Chests at the south-east, south-west and north-west camps."] = "Freewind'in batısında, {area:2097} zirvesinin aşağısında Grimtotem kampları var. Secret Note eşyaları güneydoğu, güneybatı ve kuzeybatı kamplarındaki Document Chest sandıklarında.",
 	-- {object:176344} Document Chest
-	["{object:176344}, south-east camp"] = "",
+	["{object:176344}, south-east camp"] = "{object:176344}, güneydoğu kampı",
 	-- {object:176344} Document Chest
-	["{object:176344}, south-west camp"] = "",
+	["{object:176344}, south-west camp"] = "{object:176344}, güneybatı kampı",
 	-- {object:176344} Document Chest
-	["{object:176344}, north-west camp"] = "",
+	["{object:176344}, north-west camp"] = "{object:176344}, kuzeybatı kampı",
 
 	-- Step 36: Lakota Windsong
 	-- {area:2097} Darkcloud Pinnacle · {npc:10646} Lakota Windsong · {npc:10896} Arnak Grimtotem
-	["Climb the path to the top of {area:2097}. {npc:10646} is held captive beside {npc:10896} (29): clear the guards and {npc:10896} first, then free her and protect her on the walk down; Grimtotem ambushers come at you on the way."] = "",
+	["Climb the path to the top of {area:2097}. {npc:10646} is held captive beside {npc:10896} (29): clear the guards and {npc:10896} first, then free her and protect her on the walk down; Grimtotem ambushers come at you on the way."] = "Patikadan {area:2097} zirvesinin tepesine tırman. {npc:10646}, {npc:10896} (29) adlı NPC'nin yanında tutsak: önce muhafızları ve {npc:10896} adlı NPC'yi temizle, sonra onu kurtar ve aşağı inerken koru; yolda Grimtotem pusucuları üzerine gelir.",
 
 	-- Step 37: Whitereach Post
 	-- {area:2237} Whitereach Post
-	["Follow the canyon west to {area:2237}."] = "",
+	["Follow the canyon west to {area:2237}."] = "Kanyonu batıya izleyerek {area:2237} karakoluna git.",
 	-- {npc:10428} Motega Firemane · {zone:1456} Thunder Bluff
-	["{npc:10428}'s next quest, Sacred Fire, ends in {zone:1456}, off this route. Skip it."] = "",
+	["{npc:10428}'s next quest, Sacred Fire, ends in {zone:1456}, off this route. Skip it."] = "{npc:10428} adlı NPC'nin sonraki görevi Sacred Fire, bu rotanın dışında, {zone:1456} şehrinde biter. Atla.",
 	-- {npc:10720} Galak Assassin · {npc:10638} Kanati Greycloud
-	["Kill the {npc:10720} that comes for {npc:10638}"] = "",
+	["Kill the {npc:10720} that comes for {npc:10638}"] = "{npc:10638} için gelen {npc:10720} yaratığını öldür",
 
 	-- Step 38: Highperch
 	-- {area:482} Highperch · {npc:10427} Pao'ka Swiftmountain · {area:2237} Whitereach Post
-	["West of Whitereach the wyverns nest on the {area:482} cliffs; the eggs lie in the nests. {npc:10427} waits on the east side of the nesting grounds: free him and keep him alive on the walk back to {area:2237}."] = "",
+	["West of Whitereach the wyverns nest on the {area:482} cliffs; the eggs lie in the nests. {npc:10427} waits on the east side of the nesting grounds: free him and keep him alive on the walk back to {area:2237}."] = "Whitereach'in batısında wyvern yaratıkları {area:482} uçurumlarında yuva yapmış; yumurtalar yuvalarda. {npc:10427} yuvalama alanının doğu yakasında bekliyor: onu kurtar ve {area:2237} karakoluna dönüş yürüyüşünde hayatta tut.",
 
 	-- Step 40: Roguefeather Den
 	-- {area:487} Roguefeather Den · {npc:4490} Grenka Bloodscreech · {npc:4877} Jandia
-	["South of Darkcloud, the harpies of {area:487}. {npc:4490} (31) walks among them: thin out the harpies around her before you pull her. The Screeching Harpies, Roguefeathers and Windcallers there are {npc:4877}'s."] = "",
+	["South of Darkcloud, the harpies of {area:487}. {npc:4490} (31) walks among them: thin out the harpies around her before you pull her. The Screeching Harpies, Roguefeathers and Windcallers there are {npc:4877}'s."] = "Darkcloud'un güneyinde {area:487} inindeki harpy yaratıkları var. {npc:4490} (31) aralarında dolaşıyor: onu çekmeden önce çevresindeki harpy yaratıklarını azalt. Oradaki Screeching Harpy, Screeching Roguefeather ve Screeching Windcaller yaratıkları {npc:4877} adlı NPC'nin görevi için.",
 
 	-- Step 43: Rok'Alim the Pounder
 	-- {npc:4499} Rok'Alim the Pounder · {area:482} Highperch
-	["{npc:4499}, a hard-hitting rock elemental, walks the cliffs of {area:482}. {npc:4499} is elite: grouping up is advised."] = "",
+	["{npc:4499}, a hard-hitting rock elemental, walks the cliffs of {area:482}. {npc:4499} is elite: grouping up is advised."] = "Sert vuran bir kaya elementali olan {npc:4499}, {area:482} uçurumlarında dolaşıyor. {npc:4499} elit: grup kurman önerilir.",
 
 	-- Step 44: Mirage Raceway
 	-- {area:2240} Mirage Raceway
-	["Follow the canyon east out of the mesas onto the salt flats. The goblins and gnomes of the {area:2240} are neutral and give quests to both factions."] = "",
-	["His crate is for Stranglethorn, later on the route"] = "",
+	["Follow the canyon east out of the mesas onto the salt flats. The goblins and gnomes of the {area:2240} are neutral and give quests to both factions."] = "Kanyonu doğuya izleyerek platolardan çık ve tuz düzlüklerine in. {area:2240} pistindeki goblinler ve gnomlar tarafsızdır ve iki tarafa da görev verir.",
+	["His crate is for Stranglethorn, later on the route"] = "Sandığı Stranglethorn için, rotanın ilerleyen kısmında",
 
 	-- Step 45: The salt flats
-	["The salt flats"] = "",
+	["The salt flats"] = "Tuz düzlükleri",
 	-- {object:19868} Rocket Car Rubble
 	-- plural, as words: Scorpid Reavers = {npc:4140} Scorpid Reaver · Sparkleshell Tortoises = {npc:4142} Sparkleshell Tortoise · Salt Flats Scavengers = {npc:4154} Salt Flats Scavenger · Saltstone Basilisks = {npc:4147} Saltstone Basilisk
-	["{object:19868} lies all over the flats north of the raceway. Scorpid Reavers and Sparkleshell Tortoises roam the north half, Salt Flats Scavengers circle overhead, and Saltstone Basilisks graze west of the track. The Crystalhides roam the middle of the flats and the Gazers (34-35, five levels above you: one at a time) the far south."] = "",
+	["{object:19868} lies all over the flats north of the raceway. Scorpid Reavers and Sparkleshell Tortoises roam the north half, Salt Flats Scavengers circle overhead, and Saltstone Basilisks graze west of the track. The Crystalhides roam the middle of the flats and the Gazers (34-35, five levels above you: one at a time) the far south."] = "{object:19868} pistin kuzeyindeki düzlüklerin her yanında. Kuzey yarısında Scorpid Reaver ve Sparkleshell Tortoise yaratıkları dolaşıyor, Salt Flats Scavenger yaratıkları tepede daireler çiziyor, Saltstone Basilisk yaratıkları da pistin batısında otluyor. Crystalhide yaratıkları düzlüklerin ortasında, Gazer yaratıkları (34-35, senden beş seviye yüksek: tek tek) en güneyde dolaşıyor.",
 
 	-- Step 46: Mirage Raceway
 	-- {npc:4454} Fizzle Brassbolts · {zone:1418} Badlands
-	["{npc:4454}: his letter goes to Martek in the {zone:1418}, around level 38"] = "",
+	["{npc:4454}: his letter goes to Martek in the {zone:1418}, around level 38"] = "{npc:4454}: mektubu {zone:1418} bölgesindeki Martek'e gider, seviye 38 civarında",
 
 	-- Step 47: Freewind Post
 	-- {zone:1454} Orgrimmar
-	["The next guide flies on from here to {zone:1454}."] = "",
+	["The next guide flies on from here to {zone:1454}."] = "Sonraki rehber buradan {zone:1454} şehrine uçarak devam ediyor.",
 }
