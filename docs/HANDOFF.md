@@ -18,7 +18,7 @@ Barış's two hard requirements:
 2. **No UI of its own.** Load silently: no window, no slash command, no chat line. The only UI is the
    "Dil · Language" dropdown it adds to Polestar's Options (Appearance > Colour & type).
 
-## Where it stands (22 Oct 2026)
+## Where it stands (22 Oct 2026, v0.1.0)
 
 | Phase | State |
 |---|---|
@@ -28,10 +28,27 @@ Barış's two hard requirements:
 | 3 UI | done: 2016/2124; the other 108 stay English on purpose (`src/keep-english.json`) |
 | 4 Guides | done: 6308/6308, merged into `main` (23 Oct) |
 | 5 Leftovers | done, merged into `main` (23 Oct): the "Teslim et:: " double colon in turn-in map marker tooltips is fixed by a GameTooltip:AddLine post-hook (Core.lua, Joins). Optional, not sent: an upstream PR making Polestar's verb+name joins translatable |
-| **6 QA** | **next**: Barış plays and reports (fonts/ş with EllesmereUI, a guide per faction, the turn-in marker tooltip) |
-| 7 Release | undecided: public release or private; Recorder (33 strings) skipped for now |
+| **6 QA** | **ongoing**: the in-game test of the full build (22 Oct) was clean: `fill = early`, every hook on (`prepare`, `packText`, `registerPack`, `font`, `joins`), 222 guides / 6952 texts translated, no error; the font fallback swapped the client's `FRIZQT__.TTF` (no ş) for Fira Sans in Polestar's windows. Waiting for Barış's visual feedback (wording, cut-off text, boxes) |
+| 7 Release | **done**: Kutupstar **0.1.0** uploaded to CurseForge as **beta** (22 Oct; project 1759256, file 9285916, WoW Forever 1.60.1; may still be under CurseForge review), git tag `v0.1.0`. Recorder (33 strings) skipped |
 
 Polestar is pinned at **v0.2.6** (`package.json` → `config.polestarTag`), the version installed in Barış's game.
+The repo `github.com/besmerho/kutupstar` is **public** since 22 Oct (GPL-3.0 source for the CurseForge release).
+
+## Polestar updates and releases
+
+- **A new Polestar release:** run the **`polestar-sync` skill** (`.claude/skills/polestar-sync/SKILL.md`).
+  `node tools/kutup.js latest` compares Polestar's newest GitHub release with the pinned one; on an update the
+  skill pins it on a branch `polestar-vX.Y.Z`, runs `audit` (the 20 Polestar internals `Core.lua` hooks into;
+  all present at v0.2.6 and on Polestar's development head), re-translates what changed, checks, builds and
+  commits. It installs into the game only when Barış's game already has that release.
+- **A new Kutupstar release:** raise `## Version` in `addon/Kutupstar/Kutupstar.toc`, then
+  `node tools/kutup.js publish --type beta` (a dry run: shows project, file, game version and changelog) and,
+  **only after Barış's explicit OK for that upload**, the same with `--yes`. Then tag `vX.Y.Z` when he asks.
+  The upload token is the user environment variable `CURSEFORGE_API_TOKEN` on Barış's PC (never print it; a
+  cloud session does not have it, so uploads happen on his machine). `package` alone builds
+  `releases/Kutupstar-<version>.zip` (gitignored). The game version comes from the TOC's Interface
+  (16001 = WoW Forever 1.60.1, CurseForge type `wow-forever`).
+- Logo: `media/kutupstar-logo.png` (Polestar's logo with a gold Turkish flag; `python -I media/make-logo.py`).
 
 ## Setup in a fresh clone
 
@@ -46,7 +63,7 @@ node tools/kutup.js stats --guides
 22 Oct from a fresh clone of this repo: setup → check → pending → build all worked, and a `pin` round trip
 v0.2.6 → v0.2.5 → v0.2.6 brought every translation back, including a guide parked in `src/guides-removed/`.
 
-## Phase 4: how to translate guides (also for new texts after a Polestar update)
+## How to translate (guides were Phase 4; the same for new texts after a Polestar update)
 
 1. Pick a guide or folder, and see what is open:
    `node tools/kutup.js pending forever/alliance/human > /tmp/p.json`
@@ -108,7 +125,8 @@ and `forever/horde/0*` (to level 30), then the 30-40, 40-50 and 50-60 folders fo
 - Don't add UI, commands or chat output to the addon (requirement 2). Don't change `Core.lua`'s design without
   a reason; it was tested in game. Never replace a Blizzard function (taint); only `hooksecurefunc`.
 - Don't hand-edit `dist/` (generated).
-- Merges into `main` happen when Barış asks; work on a branch (`faz-4`) and push it.
+- Merges into `main` happen when Barış asks; work on a branch and push it. Commit and push only when he asks.
+- Don't upload to CurseForge, change the repo's visibility or tag a release without his explicit OK.
 
 ## What a cloud session cannot do
 
@@ -122,5 +140,6 @@ was early, which hooks ran, and how many guides and texts were translated.
 - At the end of each task: a short summary plus the phase roadmap and "where we are now", not a long text.
 - Commits end with the attribution line the session's environment gives (so far:
   `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`).
-- The repo (`github.com/besmerho/kutupstar`) is **private**. Don't make it public or publish anything without
-  asking.
+- The repo (`github.com/besmerho/kutupstar`) is **public**; only this repo, not his other ones. Commit authors
+  show his email; history was checked clean of secrets before it went public, so keep it that way (no tokens,
+  account numbers or local user paths in commits).
