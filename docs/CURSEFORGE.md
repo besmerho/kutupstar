@@ -1,8 +1,11 @@
 # CurseForge project description
 
 Draft for the Kutupstar project page (project 1759256). It has two parts: the short **Summary** field and the
-long **Description** (CurseForge accepts Markdown). The English and the Turkish say the same thing; paste one
-under the other, Turkish first or English first.
+long **Description**. The English and the Turkish say the same thing.
+
+CurseForge's description editor is rich text and shows Markdown as plain text, so paste
+[curseforge-description.html](curseforge-description.html) instead: either its body into the editor's
+source-code view, or the page opened in a browser, copied and pasted. Keep the two files in step.
 
 ---
 
