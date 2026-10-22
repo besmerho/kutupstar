@@ -304,9 +304,24 @@ function build(install) {
 	for (const f of fs.readdirSync(ADDON_SRC)) fs.copyFileSync(path.join(ADDON_SRC, f), path.join(DIST, f));
 	fs.copyFileSync(path.join(UPSTREAM, 'LICENSE'), path.join(DIST, 'LICENSE.txt'));
 
+	// The game's interface version as the installed Polestar declares it, so Kutupstar is never
+	// "out of date" beside it; and a warning when that Polestar is not the release the keys come from.
+	const installedToc = path.join(ADDONS, 'Polestar', 'Polestar.toc');
+	if (fs.existsSync(installedToc)) {
+		const toc = fs.readFileSync(installedToc, 'utf8');
+		const iface = toc.match(/^## Interface:\s*(.+?)\s*$/m);
+		const ver = toc.match(/^## Version:\s*(.+?)\s*$/m);
+		if (iface) {
+			const ours = path.join(DIST, 'Kutupstar.toc');
+			fs.writeFileSync(ours, fs.readFileSync(ours, 'utf8').replace(/^## Interface:.*$/m, `## Interface: ${iface[1]}`));
+			console.log(`toc: Interface ${iface[1]} (the installed Polestar's)`);
+		}
+		if (ver && `v${ver[1]}` !== PIN) console.log(`warning: the installed Polestar is ${ver[1]}, the keys are from ${PIN}: re-pin upstream/ and sync`);
+	}
+
 	const ui = readUI(UI_SRC).entries;
-	fs.writeFileSync(path.join(DIST, 'UI.lua'), [GENERATED, '', 'local _, K = ...', 'local L = K.L', 'if not L then return end', '',
-		...ui.map((e) => `L[${luaQuote(e.key)}] = ${luaQuote(e.value)}`), '', `K.uiCount = ${ui.length}`, ''].join('\n'));
+	fs.writeFileSync(path.join(DIST, 'UI.lua'), [GENERATED, '-- Filled into Polestar.L by Core.lua.', '', 'local _, K = ...', 'local T = K.ui', '',
+		...ui.map((e) => `T[${luaQuote(e.key)}] = ${luaQuote(e.value)}`), ''].join('\n'));
 
 	const out = [GENERATED, '-- Each guide\'s table is built in its own function (Lua 5.1\'s constant limit), on first use.', '', 'local _, K = ...', ''];
 	let texts = 0, n = 0;
@@ -322,7 +337,6 @@ function build(install) {
 		for (const e of g.entries) out.push(`\t[${luaQuote(e.key)}] = ${luaQuote(e.value)},`);
 		out.push('} end', '');
 	}
-	out.push(`K.guideTextCount, K.guideCount = ${texts}, ${n}`, '');
 	fs.writeFileSync(path.join(DIST, 'Guides.lua'), out.join('\n'));
 	console.log(`build: dist/Kutupstar · ${ui.length} UI strings · ${texts} guide texts in ${n} guide(s)`);
 	const syntax = luaSyntax(walk(DIST));
