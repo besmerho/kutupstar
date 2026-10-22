@@ -1,0 +1,16 @@
+## Interface: 16001
+## Title: Kutupstar (Polestar TR)
+## Notes: Polestar'ın Türkçe çevirisi: arayüz ve rehber metinleri. Görev, NPC, eşya ve bölge adları oyunun İngilizce istemcisindeki gibi kalır.
+## Author: Barış
+## Version: 0.1.0
+## X-Polestar-Version: 0.2.6
+## X-License: GPL-3.0-only
+## Category: Quests
+## Group: Polestar
+## IconTexture: Interface\AddOns\Polestar\Media\UI\logo
+## Dependencies: Polestar
+
+Core.lua
+UI.lua
+Guides.lua
+Fixes.lua
