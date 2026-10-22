@@ -2,7 +2,7 @@
 
 Upstream: https://github.com/fitzforge/polestar, cloned into `upstream/` and checked out at tag **`v0.2.6`** (`39f0b8b2`). That is byte-identical to the Polestar installed in the game (HEAD is ahead of the release). Interface 16001, GPL-3.0-only.
 
-## Status (22 Oct 2026, branch `faz-0-1`)
+## Status (22 Oct 2026, branch `main`)
 
 - **Phase 0 done:** the in-game test on 22 Oct showed diag `fill = early`, all hooks on, 8 guides / 61 texts translated and the option shown. Barış's two requirements (survive Polestar updates; no UI of its own, with a language option inside Polestar) are built in; see Design.
 - Handoff for another session (e.g. cloud): [docs/HANDOFF.md](docs/HANDOFF.md).
