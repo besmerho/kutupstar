@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 // Kutupstar (Polestar TR) tool. Needs `npm install` (luaparse).
 //
+//   node tools/kutup.js setup               -- clones Polestar at the pinned release into upstream/ (fresh clones)
+//   node tools/kutup.js pending <ui | guide id or folder> [--max N]
+//                                           -- the untranslated texts as a JSON skeleton for apply
 //   node tools/kutup.js check [--glossary]  -- validates src/: Lua syntax, formats, tokens, line breaks,
 //                                              stale keys; --glossary also lists glossary questions
 //   node tools/kutup.js build [--install]   -- check, then dist/Kutupstar; --install copies it into the
@@ -277,9 +280,13 @@ function apply(file) {
 	if (unknown.length) process.exitCode = 1;
 }
 
+// UI texts that stay English on purpose (src/keep-english.json).
+const keepEnglish = () => new Set(JSON.parse(fs.readFileSync(path.join(SRC, 'keep-english.json'), 'utf8')).keys);
+
 function stats(byFolder) {
 	const { ui, guides } = runChecks({ quiet: true });
-	console.log(`UI: ${ui.done}/${ui.total}`);
+	const keep = [...keepEnglish()].filter((k) => !S.readUI(UI_SRC).entries.some((e) => e.key === k)).length;
+	console.log(`UI: ${ui.done}/${ui.total} (+${keep} kept English on purpose, ${ui.total - ui.done - keep} to do)`);
 	console.log(`guide texts: ${guides.done}/${guides.total}`);
 	if (!byFolder) return;
 	const { guideKeys } = extract();
@@ -353,6 +360,48 @@ function pin(tag) {
 	}
 }
 
+// setup: a fresh clone (a cloud session, another machine) has no upstream/: clone Polestar at the pinned release.
+const UPSTREAM_URL = 'https://github.com/fitzforge/polestar';
+function setup() {
+	if (fs.existsSync(path.join(UPSTREAM, '.git'))) {
+		console.log(`setup: upstream/ is there, at ${checkedOut() || 'no tag'} (pinned: ${pinned()})`);
+		return;
+	}
+	console.log(`setup: cloning ${UPSTREAM_URL} at ${pinned()} into upstream/`);
+	execFileSync('git', ['clone', '--quiet', '--depth', '1', '--branch', pinned(), '-c', 'advice.detachedHead=false', UPSTREAM_URL, UPSTREAM], { stdio: 'inherit' });
+	console.log(`setup: upstream/ at ${checkedOut()}`);
+}
+
+// pending <ui | guide id or folder prefix> [--max N]: the untranslated texts as a JSON skeleton for
+// apply ({ "ui": {...} } or { "guides": { id: {...} } }), in file order. The English of each name
+// token is in the comment above its line in the guide file.
+function pending(prefix, max) {
+	const out = {};
+	let n = 0;
+	const take = (all, done) => {
+		const o = {};
+		for (const k of all) {
+			if (done.has(k) || n >= max) continue;
+			o[k] = '';
+			n++;
+		}
+		return o;
+	};
+	if (prefix === 'ui') {
+		const f = S.readUI(UI_SRC);
+		out.ui = take(f.all, new Set([...f.entries.map((e) => e.key), ...keepEnglish()]));
+	} else {
+		out.guides = {};
+		for (const [id, g] of [...S.readGuides(GUIDES_SRC)].sort(([a], [b]) => a.localeCompare(b))) {
+			if (id !== prefix && !id.startsWith(prefix.replace(/\/?$/, '/'))) continue;
+			const o = take(g.all, new Set(g.entries.map((e) => e.key)));
+			if (Object.keys(o).length) out.guides[id] = o;
+		}
+	}
+	console.log(JSON.stringify(out, null, '\t'));
+	console.error(`pending: ${n} text(s)${n >= max ? ` (stopped at --max ${max})` : ''}`);
+}
+
 module.exports = { extract, runChecks };
 if (require.main !== module) return;
 
@@ -364,4 +413,9 @@ else if (cmd === 'apply' && args[0]) apply(args[0]);
 else if (cmd === 'keys') keys();
 else if (cmd === 'sync' || cmd === 'init') runSync(pinned());
 else if (cmd === 'pin' && args[0]) pin(args[0]);
-else console.log('usage: node tools/kutup.js check [--glossary] | build [--install] | stats [--guides] | apply <file.json> | keys | sync | pin <tag>');
+else if (cmd === 'setup') setup();
+else if (cmd === 'pending' && args[0]) {
+	const i = args.indexOf('--max');
+	pending(args[0], i !== -1 ? Number(args[i + 1]) : Infinity);
+}
+else console.log('usage: node tools/kutup.js setup | check [--glossary] | build [--install] | stats [--guides] | apply <file.json> | pending <ui|guide-or-folder> [--max N] | keys | sync | pin <tag>');
