@@ -56,4 +56,4 @@ Sources stay in upstream's file formats. That lets upstream's `i18n check` and `
 3. "Turn in" → "Teslim" (no colon) and the other STIL.md **[ONAY]** items (Lookup, loot).
 4. Public release (CurseForge/Wago) or personal use only.
 5. Recorder (authoring tool, 33 strings): include or skip.
-6. Lua syntax is not machine-checked yet (no Lua on this machine). Phase 2 could add a JS Lua parser such as `luaparse` from npm; that needs an OK to download it.
+6. ~~Lua syntax check~~: done with `luaparse` 0.3.1 (exact pin, devDependency). `check` parses src/ and addon/, and `build` parses dist/ and refuses to install invalid Lua. It parses all 134 of Polestar's own files without an error.
