@@ -185,5 +185,4 @@ return {
 	["Hearth to {area:35}"] = "",
 	-- {area:272} Tarren Mill · {zone:1417} Arathi Highlands
 	["The next guide flies you north to {area:272} and into the {zone:1417}."] = "",
-
 }

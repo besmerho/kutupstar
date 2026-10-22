@@ -118,5 +118,4 @@ return {
 	["{npc:903}, by the gryphons south of the bridge"] = "",
 	-- {zone:1431} Duskwood · {area:1002} Three Corners · {area:42} Darkshire
 	["{zone:1431} is next: follow the road west to {area:1002}, then south to {area:42}."] = "",
-
 }

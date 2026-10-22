@@ -56,5 +56,4 @@ return {
 	-- Step 12: Back to Syurna
 	-- {npc:4163} Syurna
 	["Back to {npc:4163}"] = "",
-
 }

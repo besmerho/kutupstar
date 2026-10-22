@@ -144,5 +144,4 @@ return {
 	-- Step 32: Light's Hope Chapel
 	-- {area:3197} Chillwind Camp
 	["The next guide starts here and flies to {area:3197}."] = "",
-
 }

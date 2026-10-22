@@ -238,5 +238,4 @@ return {
 	["Fly to the {area:1497}"] = "",
 	-- {area:1497} Undercity · {object:3202} Grom'gol (no name in this language: may be words)
 	["The next guide starts in the {area:1497}, at the {object:3202} zeppelin."] = "",
-
 }

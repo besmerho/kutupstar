@@ -273,5 +273,4 @@ return {
 	-- Step 67: The Crossroads
 	-- {area:379} Far Watch Post · {area:380} The Crossroads · {zone:1413} Barrens
 	["Follow the road south-west from {area:379} to the {area:380}. {zone:1413} guide starts here."] = "",
-
 }

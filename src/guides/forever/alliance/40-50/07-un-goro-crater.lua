@@ -193,5 +193,4 @@ return {
 	-- Step 45: Xiggs Fuselighter
 	-- {object:32359} Military Ward (no name in this language: may be words)
 	["Xiggs waits in the {object:32359}."] = "",
-
 }

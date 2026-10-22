@@ -420,5 +420,4 @@ return {
 	["Leave {zone:1456} by a lift and follow the road south past {area:222} and through the eastern pass into the {zone:1413}; from the pass, take the {area:458} north to the {area:380}, the Horde town in the middle of the {zone:1413}."] = "",
 	-- {npc:3615} Devrak
 	["{npc:3615}, the wind rider master"] = "",
-
 }

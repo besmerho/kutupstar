@@ -78,5 +78,4 @@ return {
 	["Flight path here: {area:2268} ({npc:12617})."] = "",
 	-- {area:2268} Light's Hope Chapel
 	["Flight path here: {area:2268} (Georgia)."] = "",
-
 }

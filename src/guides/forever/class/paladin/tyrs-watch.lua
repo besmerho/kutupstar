@@ -73,5 +73,4 @@ return {
 	-- Step 15: Redemption
 	-- {area:16602} Bandarion Keep · {npc:246378} Danitha Morr · {spell:7328} Redemption
 	["Back to {area:16602}: Billmuth takes the plans, {npc:246378} teaches you {spell:7328}."] = "",
-
 }

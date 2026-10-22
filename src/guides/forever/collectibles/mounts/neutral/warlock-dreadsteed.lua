@@ -90,5 +90,4 @@ return {
 	["{area:2577} stands in the ruins of central {zone:1444}; the ritual circle is in its west wing, past {npc:11496}, and the door needs the {item:18249} or a rogue. Use {item:18663} to start; when the bell, the wheel or the candle fades, click it with the {item:18629} (a {item:6265} each). When the demons stop coming, use the {item:18670}, defeat the {npc:14502} and its dreadlord master, and speak to the {npc:14504}. Bring a group."] = "",
 	-- {npc:14504} Dreadsteed Spirit
 	["{npc:14504}: it binds itself to you"] = "",
-
 }

@@ -321,5 +321,4 @@ return {
 	["{spell:17554} to 300"] = "",
 	-- {skill:171} Alchemy
 	["Orange (a point every craft) until 280, yellow until 300, green until 320. {skill:171} 300 is a Legacy System milestone."] = "",
-
 }

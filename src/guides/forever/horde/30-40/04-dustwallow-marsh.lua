@@ -126,5 +126,4 @@ return {
 	["Hearth to Shadowprey"] = "",
 	-- {zone:1434} Stranglethorn Vale
 	["The next guide takes you back to {zone:1434}."] = "",
-
 }

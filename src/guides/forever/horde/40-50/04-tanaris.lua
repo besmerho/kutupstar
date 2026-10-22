@@ -155,5 +155,4 @@ return {
 	-- Step 32: Thorium Point
 	-- {area:1446} Thorium Point · {area:75} Stonard
 	["Ride back north to {area:1446}. Stay here: the next guide starts with the flight to {area:75}."] = "",
-
 }

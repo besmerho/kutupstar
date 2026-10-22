@@ -179,5 +179,4 @@ return {
 	-- Step 40: Misty Reed Post
 	-- {zone:1446} Tanaris
 	["The next guide starts here and takes you to {zone:1446}."] = "",
-
 }

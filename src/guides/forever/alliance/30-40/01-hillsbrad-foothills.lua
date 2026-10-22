@@ -172,5 +172,4 @@ return {
 	-- {npc:2784} King Magni Bronzebeard · {object:171709} High Seat
 	["{npc:2784}, the {object:171709}"] = "",
 	["Level 30 and 32 spells"] = "",
-
 }

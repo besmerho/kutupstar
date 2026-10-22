@@ -194,5 +194,4 @@ return {
 
 	-- Step 36: Back to Menethil
 	["Back to Menethil"] = "",
-
 }

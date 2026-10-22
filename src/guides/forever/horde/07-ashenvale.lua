@@ -211,5 +211,4 @@ return {
 	-- Step 47: Freewind Post
 	-- {zone:1454} Orgrimmar
 	["The next guide flies on from here to {zone:1454}."] = "",
-
 }

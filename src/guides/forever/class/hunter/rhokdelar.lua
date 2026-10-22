@@ -60,5 +60,4 @@ return {
 	["Hastat's quiver needs the {item:18704}. {npc:6109}, a world boss for a raid, roams the south of {zone:1447} and drops it most of the time; the Cobalt dragonkin of {zone:1452} drop it very rarely. Skip the rest of this guide if you do not want the quiver."] = "",
 	-- {item:18704} Mature Blue Dragon Sinew · {npc:6109} Azuregos
 	["{item:18704}, from {npc:6109}"] = "",
-
 }

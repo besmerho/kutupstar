@@ -177,5 +177,4 @@ return {
 	["Fly to {area:75}"] = "",
 	-- {area:75} Stonard
 	["Thysta, the flight master, stands just east of the zeppelin tower. Fly to {area:75}: the next guide starts there."] = "",
-
 }

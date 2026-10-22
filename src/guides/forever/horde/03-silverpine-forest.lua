@@ -186,5 +186,4 @@ return {
 	["Speak with {npc:3230}, in Grommash Hold"] = "",
 	-- {npc:10540} Vol'jin
 	["Speak with {npc:10540}, in Grommash Hold"] = "",
-
 }

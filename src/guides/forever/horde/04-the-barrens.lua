@@ -313,5 +313,4 @@ return {
 	-- Step 76: Back to the Crossroads
 	-- {area:380} Crossroads · {area:1703} Mor'shan Rampart · {zone:1440} Ashenvale
 	["Fly back to the {area:380}. The next guide starts here and takes the road north to the {area:1703} and {zone:1440}."] = "",
-
 }

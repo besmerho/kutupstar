@@ -150,5 +150,4 @@ return {
 	-- Step 28: Tarren Mill
 	-- {area:272} Tarren Mill
 	["Follow the road east along the river, then north-east up into the hills to {area:272}."] = "",
-
 }

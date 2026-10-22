@@ -45,5 +45,4 @@ return {
 	["Once she is clear of {area:235}, {npc:259620} waits for you in the {area:228}. Speak with her again to hear what really happened on the road."] = "",
 	-- {npc:259620} Lumina Windsinger · {area:228} The Sepulcher
 	["{npc:259620}, the {area:228}"] = "",
-
 }

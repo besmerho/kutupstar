@@ -51,5 +51,4 @@ return {
 	["{faction:749} to Exalted"] = "",
 	-- {area:2717} Molten Core
 	["Keep clearing the {area:2717} until Exalted."] = "",
-
 }

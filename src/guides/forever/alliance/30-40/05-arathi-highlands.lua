@@ -189,5 +189,4 @@ return {
 
 	-- Step 48: Ironband's Excavation Site
 	["South-east along the loch to the dig site."] = "",
-
 }

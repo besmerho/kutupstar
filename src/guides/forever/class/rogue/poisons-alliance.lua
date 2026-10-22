@@ -36,5 +36,4 @@ return {
 	-- Step 6: Back to Doc Mixilpixil
 	-- {npc:7207} Doc Mixilpixil
 	["Back to {npc:7207}"] = "",
-
 }

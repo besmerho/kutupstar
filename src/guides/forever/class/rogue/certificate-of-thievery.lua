@@ -34,5 +34,4 @@ return {
 	-- Step 9: Back to Lucius
 	-- {npc:6966} Lucius
 	["Back to {npc:6966}"] = "",
-
 }

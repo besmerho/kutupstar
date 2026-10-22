@@ -46,5 +46,4 @@ return {
 	-- Step 10: Back to Mennet Carkad
 	-- {npc:6467} Mennet Carkad
 	["Back to {npc:6467}"] = "",
-
 }

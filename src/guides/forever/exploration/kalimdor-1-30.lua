@@ -157,5 +157,4 @@ return {
 	["Fly to {area:378} and walk south through the {zone:1413} to the {area:485} down into {zone:1441}."] = "",
 	-- {area:484} Freewind Post
 	["Flight path here: {area:484} (Nyse)."] = "",
-
 }

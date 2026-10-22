@@ -153,5 +153,4 @@ return {
 	-- Step 30: Revantusk Village
 	-- {area:3317} Revantusk Village
 	["The next guide starts here, at {area:3317}."] = "",
-
 }

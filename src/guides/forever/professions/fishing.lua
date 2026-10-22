@@ -100,5 +100,4 @@ return {
 	["Fish the pools along the coast here (eels, snappers, wreckage) until skill 300. {area:35} sells bait and {item:6530} for a small fishing bonus."] = "",
 	-- {area:35} Booty Bay
 	["{area:35} coast"] = "",
-
 }

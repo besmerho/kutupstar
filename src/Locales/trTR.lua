@@ -2,6 +2,7 @@
 -- yalnızca sağ tarafı çevir. "-- L[" ile başlayan satır henüz çevrilmedi ve İngilizce görünür; çevirmek için
 -- baştaki "-- " işaretini sil. Gruplar, metni ilk kullanan dosyaya göredir. Kurallar: docs/STIL.md.
 -- Oyunun Türkçe istemcisi yok: bu dosyayı Kutupstar eklentisi yükler (node tools/kutup.js build).
+-- Düzeni "node tools/kutup.js sync" yazar: çeviriler korunur, yorumlar yeniden yazılır.
 
 local _, ns = ...
 if not (GetLocale and GetLocale() == "trTR") then return end

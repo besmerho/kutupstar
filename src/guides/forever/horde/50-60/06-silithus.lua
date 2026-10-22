@@ -193,5 +193,4 @@ return {
 	-- Step 42: The Bulwark
 	-- {area:152} The Bulwark · {zone:1458} Undercity
 	["West to the {area:152}. The next guide starts in the {zone:1458}, a short ride west."] = "",
-
 }

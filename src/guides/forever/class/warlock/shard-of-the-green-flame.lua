@@ -33,5 +33,4 @@ return {
 	-- Step 7: Back to Niby the Almighty
 	-- {npc:14469} Niby the Almighty
 	["Back to {npc:14469}"] = "",
-
 }

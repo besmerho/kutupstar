@@ -172,5 +172,4 @@ return {
 	["Go east through {zone:1429} to {area:1002}, where Redridge starts. {area:69} is an Alliance town."] = "",
 	-- {area:69} Lakeshire
 	["Alliance guards: touch the edge of {area:69} and move on"] = "",
-
 }

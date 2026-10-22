@@ -280,5 +280,4 @@ return {
 	-- {area:2268} Light's Hope Chapel
 	["Back to {area:2268}"] = "",
 	["The next guide starts here, at the chapel's flight master."] = "",
-
 }

@@ -282,5 +282,4 @@ return {
 	-- Step 64: Ratchet
 	-- {area:392} Ratchet · {area:976} Gadgetzan
 	["The next guide starts here in {area:392} and flies on to {area:976}."] = "",
-
 }

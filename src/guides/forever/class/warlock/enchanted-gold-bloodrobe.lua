@@ -64,5 +64,4 @@ return {
 	-- {npc:6266} Menara Voidrender · {item:6265} Soul Shard
 	["Back to {npc:6266} with the thread, the coal and a {item:6265}. Wait while she completes the robe, then speak to her again."] = "",
 	["Wait for the robe"] = "",
-
 }

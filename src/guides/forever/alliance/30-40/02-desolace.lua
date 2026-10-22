@@ -81,5 +81,4 @@ return {
 	-- Step 21: Kolkar Village
 	-- {area:609} Kolkar Village · {npc:5752} Corporal Melkins
 	["The Kolkar roam the plains around {area:609}; their ears are for {npc:5752}."] = "",
-
 }

@@ -63,5 +63,4 @@ return {
 	["{npc:6467} and {npc:2425}"] = "",
 	-- {npc:6467} Mennet Carkad · {npc:2425} Varimathras · {object:36126} Royal Quarter
 	["{npc:6467} sends the ledger on to {npc:2425} in the Hall of the Dark Lady, the {object:36126}."] = "",
-
 }

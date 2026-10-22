@@ -160,5 +160,4 @@ return {
 	-- Step 39: Fly to Theramore
 	["Fly to Theramore"] = "",
 	["The next guide starts in Theramore."] = "",
-
 }

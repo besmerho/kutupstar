@@ -172,5 +172,4 @@ return {
 	["Raids: Barrow Deeps"] = "",
 	["All 8 Barrow Deeps bosses are a point. Barrow Deeps is a new Forever raid; its bosses are not in our data, so tick it off once all 8 are down."] = "",
 	["all 8 Barrow Deeps bosses"] = "",
-
 }

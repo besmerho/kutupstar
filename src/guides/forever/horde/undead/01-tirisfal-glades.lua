@@ -352,5 +352,4 @@ return {
 	["The zeppelin lands at the tower just north-east of {zone:1454}'s main gate. Follow the road south into {zone:1411}, cross the {area:815} bridge below {area:379} and follow the road west to the {area:380}."] = "",
 	-- {npc:3615} Devrak
 	["{npc:3615}, the wind rider master"] = "",
-
 }

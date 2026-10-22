@@ -270,5 +270,4 @@ return {
 	-- Step 66: Trade District
 	-- {area:42} Darkshire
 	["Next: fly to {area:42}."] = "",
-
 }

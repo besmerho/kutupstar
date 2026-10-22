@@ -1,155 +1,95 @@
 #!/usr/bin/env node
-// Kutupstar (Polestar TR) build tool. No dependencies.
+// Kutupstar (Polestar TR) tool. Needs `npm install` (luaparse).
 //
-//   node tools/kutup.js init [--force]   -- writes the Turkish source templates in src/ from the
-//                                           pinned Polestar checkout's deDE files (read as data)
-//   node tools/kutup.js check            -- validates src/ (formats, tokens, line breaks, stale keys)
-//   node tools/kutup.js build [--install] -- check, then dist/Kutupstar; --install copies it into
-//                                           the game's AddOns folder (KUTUP_ADDONS overrides it)
-//   node tools/kutup.js stats            -- translated / total, UI and guides
-//   node tools/kutup.js apply <file.json> -- writes translations into their lines in src/
+//   node tools/kutup.js check [--glossary]  -- validates src/: Lua syntax, formats, tokens, line breaks,
+//                                              stale keys; --glossary also lists glossary questions
+//   node tools/kutup.js build [--install]   -- check, then dist/Kutupstar; --install copies it into the
+//                                              game's AddOns folder (KUTUP_ADDONS overrides it)
+//   node tools/kutup.js stats [--guides]    -- translated / total; --guides per guide folder
+//   node tools/kutup.js apply <file.json>   -- writes translations into their lines in src/
+//   node tools/kutup.js keys                -- what Polestar's code and guides hold, against its deDE files
+//   node tools/kutup.js sync                -- rewrites src/ for the pinned Polestar, keeping every
+//                                              translation (lost ones move to the end of their file)
+//   node tools/kutup.js pin <tag>           -- moves upstream/ to Polestar's release <tag>, syncs, and
+//                                              writes reports/sync-<old>-<new>.md
 //
-// Sources stay in Polestar's own formats (docs/TRANSLATING.md upstream): src/Locales/trTR.lua is a
-// Locales file, src/guides/ is a pack's locales/trTR/ folder. A line starting `-- L[` (UI) or a
-// value "" (guides) is not translated yet.
+// The keys come from Polestar's code and compiled guides (tools/lib/extract.js) at the release in
+// package.json's config.polestarTag, checked out in upstream/. Sources stay in Polestar's own formats
+// (its docs/TRANSLATING.md): src/Locales/trTR.lua is a Locales file, src/guides/ a pack's
+// locales/trTR/ folder. A line starting `-- L[` (UI) or a value "" (guides) is not translated yet.
 
 'use strict';
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
+const S = require('./lib/source');
 
 const ROOT = path.resolve(__dirname, '..');
 const UPSTREAM = path.join(ROOT, 'upstream');
 const SRC = path.join(ROOT, 'src');
 const ADDON_SRC = path.join(ROOT, 'addon', 'Kutupstar');
 const DIST = path.join(ROOT, 'dist', 'Kutupstar');
+const REPORTS = path.join(ROOT, 'reports');
+const PACKAGE = path.join(ROOT, 'package.json');
 const ADDONS = process.env.KUTUP_ADDONS || 'C:/Program Files (x86)/World of Warcraft/_classic_beta_/Interface/AddOns';
-const PIN = 'v0.2.6'; // the Polestar release the keys come from; must match the installed one
 
 const UI_SRC = path.join(SRC, 'Locales', 'trTR.lua');
 const GUIDES_SRC = path.join(SRC, 'guides');
-const UP_UI_DE = path.join(UPSTREAM, 'addon', 'Polestar', 'Locales', 'deDE.lua');
+const GLOSSARY = path.join(SRC, 'glossary.json');
+const UP_ADDON = path.join(UPSTREAM, 'addon', 'Polestar');
+const UP_UI_DE = path.join(UP_ADDON, 'Locales', 'deDE.lua');
 const UP_GUIDES_DE = path.join(UPSTREAM, 'guides', 'locales', 'deDE');
 const UP_GUIDES_LUA = path.join(UPSTREAM, 'addon', 'Polestar_Guides', 'Guides.lua');
+const UP_PACK_LUA = path.join(UPSTREAM, 'addon', 'Polestar_Guides', 'Pack.lua');
 
-// ---------------------------------------------------------------------------
-// Lua string literals
-// ---------------------------------------------------------------------------
+const pkg = () => JSON.parse(fs.readFileSync(PACKAGE, 'utf8'));
+const pinned = () => pkg().config.polestarTag;
+const git = (...args) => execFileSync('git', ['-C', UPSTREAM, ...args], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim();
 
-// Reads the "..." literal starting at s[i]. -> [value, index after it] or null.
-function readLuaString(s, i) {
-	if (s[i] !== '"') return null;
-	const bytes = [];
-	for (i++; i < s.length; i++) {
-		const c = s[i];
-		if (c === '"') return [Buffer.from(bytes).toString('utf8'), i + 1];
-		if (c !== '\\') { bytes.push(...Buffer.from(c, 'utf8')); continue; }
-		const e = s[++i];
-		if (/\d/.test(e)) {
-			let d = e;
-			while (d.length < 3 && /\d/.test(s[i + 1])) d += s[++i];
-			bytes.push(Number(d));
-		} else {
-			const map = { n: 10, t: 9, r: 13, a: 7, b: 8, f: 12, v: 11, '\\': 92, '"': 34, "'": 39 };
-			if (!(e in map)) throw new Error(`unknown escape \\${e}`);
-			bytes.push(map[e]);
-		}
+function needLuaparse() {
+	try { require.resolve('luaparse'); } catch {
+		console.log('luaparse is not installed: run `npm install` in the project folder');
+		process.exit(1);
 	}
-	return null;
 }
 
-function luaQuote(v) {
-	return '"' + v.replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n').replace(/\r/g, '\\r')
-		.replace(/[\x00-\x08\x0b\x0c\x0e-\x1f]/g, (c) => '\\' + c.charCodeAt(0)) + '"';
-}
-
-// `L["key"] = "value"` or `["key"] = "value",` (an optional leading `-- ` marks it commented out).
-// -> { commented, key, value } or null.
-function parseEntry(line) {
-	const m = line.match(/^(\s*)(--\s*)?(L)?\[/);
-	if (!m) return null;
-	let i = m[0].length;
-	const k = readLuaString(line, i);
-	if (!k) return null;
-	i = k[1];
-	const rest = line.slice(i).match(/^\]\s*=\s*/);
-	if (!rest) return null;
-	const v = readLuaString(line, i + rest[0].length);
-	if (!v) return null;
-	return { commented: !!m[2], ui: !!m[3], key: k[0], value: v[0] };
-}
-
-function walk(dir) {
-	if (!fs.existsSync(dir)) return [];
-	return fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
-		e.isDirectory() ? walk(path.join(dir, e.name)) : e.name.endsWith('.lua') ? [path.join(dir, e.name)] : []);
-}
-const rel = (p, base) => path.relative(base, p).split(path.sep).join('/');
-
-// Lua 5.1 syntax (the game's), by luaparse (devDependency; `npm install`). -> problems
-function luaSyntax(files) {
-	let luaparse;
-	try { luaparse = require('luaparse'); } catch {
-		return ['luaparse is not installed: run `npm install` in the project folder'];
-	}
-	const out = [];
-	for (const f of files) {
-		try {
-			luaparse.parse(fs.readFileSync(f, 'utf8'), { luaVersion: '5.1', comments: false, scope: false, locations: false });
-		} catch (e) {
-			out.push(`${rel(f, ROOT)}: Lua syntax: ${e.message}`);
-		}
-	}
-	return out;
+// The tag upstream/ is checked out at, or null.
+function checkedOut() {
+	try { return git('describe', '--tags', '--exact-match', 'HEAD'); } catch { return null; }
 }
 
 // ---------------------------------------------------------------------------
-// Reading the sources
+// Keys: Polestar's code and guides, plus the UI data keys of its deDE file
 // ---------------------------------------------------------------------------
 
-const END_UI = /^-- No longer in the code/;
-const END_GUIDE = /^\s*-- No longer in the guide/;
-
-// -> { entries: [{ key, value, line }], all: Set of keys (translated or not) }
-function readUI(file) {
-	const entries = [], all = new Set();
-	const lines = fs.readFileSync(file, 'utf8').split(/\r?\n/);
-	for (let n = 0; n < lines.length; n++) {
-		if (END_UI.test(lines[n])) break;
-		const e = parseEntry(lines[n]);
-		if (!e) continue;
-		all.add(e.key);
-		if (!e.commented && e.value !== '') entries.push({ key: e.key, value: e.value, line: n + 1 });
-	}
-	return { entries, all };
-}
-
-function readGuideFile(file) {
-	const entries = [], all = new Set(), comments = [];
-	const lines = fs.readFileSync(file, 'utf8').split(/\r?\n/);
-	for (let n = 0; n < lines.length; n++) {
-		if (END_GUIDE.test(lines[n])) break;
-		const e = parseEntry(lines[n]);
-		if (!e) {
-			if (/^\s*--/.test(lines[n])) comments.push(lines[n]);
-			continue;
-		}
-		if (e.commented) continue;
-		all.add(e.key);
-		if (e.value !== '') entries.push({ key: e.key, value: e.value, line: n + 1 });
-	}
-	return { entries, all, comments };
-}
-
-// guide id (path without .lua) -> parsed file; "_pack" is the pack's own texts.
-function readGuides(dir) {
-	const out = new Map();
-	for (const f of walk(dir)) out.set(rel(f, dir).replace(/\.lua$/, ''), { file: f, ...readGuideFile(f) });
-	return out;
+let extraction = null;
+function extract() {
+	if (extraction) return extraction;
+	const X = require('./lib/extract');
+	const uiKeys = X.uiKeys(UP_ADDON);
+	const deKeys = S.readUI(UP_UI_DE).all;
+	const ui = new Set([...uiKeys.keys(), ...deKeys]);
+	const guideKeys = X.guideKeys(UP_GUIDES_LUA, UP_PACK_LUA);
+	extraction = { uiKeys, deKeys, ui, guideKeys };
+	return extraction;
 }
 
 // ---------------------------------------------------------------------------
 // Checks
 // ---------------------------------------------------------------------------
+
+function luaSyntax(files) {
+	const luaparse = require('luaparse');
+	const out = [];
+	for (const f of files) {
+		try {
+			luaparse.parse(fs.readFileSync(f, 'utf8'), { luaVersion: '5.1', comments: false, scope: false, locations: false });
+		} catch (e) {
+			out.push(`${S.rel(f, ROOT)}: Lua syntax: ${e.message}`);
+		}
+	}
+	return out;
+}
 
 const FORMAT_RE = /%(?:(\d+)\$)?[-+ #0]*\d*(?:\.\d+)?([sdfgiuxXcq%])/g;
 function formats(s) {
@@ -160,16 +100,15 @@ function formats(s) {
 const count = (s, re) => (s.match(re) || []).length;
 const tokens = (s) => (s.match(/\{[a-z]+:\d+\}/g) || []).sort();
 
-function checkUI(problems, warnings) {
-	if (!fs.existsSync(UI_SRC)) return { done: 0, total: 0 };
-	const upstream = readUI(UP_UI_DE).all;
-	const { entries, all } = readUI(UI_SRC);
+function checkUI(problems, pairs) {
+	const keys = extract().ui;
+	const { entries } = S.readUI(UI_SRC);
 	const seen = new Set();
 	for (const { key, value, line } of entries) {
 		const at = `src/Locales/trTR.lua:${line}`;
 		if (seen.has(key)) problems.push(`${at}: key set twice: ${key}`);
 		seen.add(key);
-		if (!upstream.has(key)) problems.push(`${at}: stale key (not in Polestar ${PIN}): ${key}`);
+		if (!keys.has(key)) problems.push(`${at}: stale key (not in Polestar ${pinned()}; run sync): ${key}`);
 		const fk = formats(key), fv = formats(value);
 		const positional = /%\d+\$/.test(value);
 		const a = positional ? [...fk].sort().join() : fk.join(), b = positional ? [...fv].sort().join() : fv.join();
@@ -178,33 +117,24 @@ function checkUI(problems, warnings) {
 		for (const [re, what] of [[/\|4/g, '|4 plural'], [/\|c[0-9a-fA-F]{8}/g, '|c colour'], [/\|r/g, '|r'], [/\|T/g, '|T texture'], [/\n/g, 'line break']]) {
 			if (count(key, re) !== count(value, re)) problems.push(`${at}: ${what} count differs: ${key}`);
 		}
+		pairs.push({ at, key, value });
 	}
-	return { done: seen.size, total: upstream.size, all };
+	return { done: seen.size, total: keys.size };
 }
 
-function checkGuides(problems, warnings) {
-	const ours = readGuides(GUIDES_SRC);
-	const theirs = readGuides(UP_GUIDES_DE);
-	// Every string literal of the compiled guides: a key must be one of them.
-	const compiled = new Set();
-	const lua = fs.readFileSync(UP_GUIDES_LUA, 'utf8');
-	for (let i = lua.indexOf('"'); i !== -1; ) {
-		const r = readLuaString(lua, i);
-		if (!r) break;
-		compiled.add(r[0]);
-		i = lua.indexOf('"', r[1]);
-	}
-	let done = 0, total = 0;
-	for (const [, t] of theirs) total += t.all.size;
+function checkGuides(problems, warnings, pairs) {
+	const { guideKeys } = extract();
+	const ours = S.readGuides(GUIDES_SRC);
+	let done = 0, total = guideKeys.pack.size;
+	for (const set of guideKeys.guides.values()) total += set.size;
 	for (const [id, g] of ours) {
-		const up = theirs.get(id);
-		if (!up) { problems.push(`src/guides/${id}.lua: no such guide in Polestar ${PIN}`); continue; }
+		const keys = id === '_pack' ? guideKeys.pack : guideKeys.guides.get(id);
+		if (!keys) { problems.push(`src/guides/${id}.lua: no such guide in Polestar ${pinned()} (run sync)`); continue; }
 		// Tokens a "plural, as words" comment allows in the translation.
 		const plural = new Set(g.comments.flatMap((c) => /plural, as words/.test(c) ? tokens(c) : []));
 		for (const { key, value, line } of g.entries) {
 			const at = `src/guides/${id}.lua:${line}`;
-			if (!up.all.has(key)) { problems.push(`${at}: stale text (not in the guide at ${PIN}): ${key}`); continue; }
-			if (id !== '_pack' && !compiled.has(key)) warnings.push(`${at}: not found in the compiled guides: ${key}`);
+			if (!keys.has(key)) { problems.push(`${at}: stale text (not in the guide at ${pinned()}; run sync): ${key}`); continue; }
 			const tk = tokens(key), tv = tokens(value);
 			const extra = tv.filter((t) => !tk.includes(t) && !plural.has(t));
 			const missing = tk.filter((t) => !tv.includes(t));
@@ -213,81 +143,34 @@ function checkGuides(problems, warnings) {
 			if (extra.length) problems.push(`${at}: token(s) the English lacks: ${extra.join(' ')}`);
 			if (count(key, /\n/g) !== count(value, /\n/g)) problems.push(`${at}: line breaks differ`);
 			if (/\{[a-z]+:\d+\}'/.test(value)) warnings.push(`${at}: a suffix right after a name token; prefer a classifier word (STIL.md 3.1)`);
+			pairs.push({ at, key, value });
 			done++;
 		}
 	}
 	return { done, total, ours };
 }
 
-function runChecks({ quiet } = {}) {
-	const problems = [], warnings = [];
-	problems.push(...luaSyntax([UI_SRC, ...walk(GUIDES_SRC), ...walk(ADDON_SRC)].filter((f) => fs.existsSync(f))));
-	const ui = checkUI(problems, warnings);
-	const guides = checkGuides(problems, warnings);
+function runChecks({ quiet, glossary } = {}) {
+	needLuaparse();
+	const problems = [], warnings = [], pairs = [];
+	const tag = checkedOut();
+	if (tag !== pinned()) problems.push(`upstream/ is at ${tag || 'no tag'}, package.json pins ${pinned()}: run pin ${pinned()}`);
+	problems.push(...luaSyntax([UI_SRC, ...S.luaFiles(GUIDES_SRC), ...S.luaFiles(ADDON_SRC)].filter((f) => fs.existsSync(f))));
+	const ui = checkUI(problems, pairs);
+	const guides = checkGuides(problems, warnings, pairs);
+	let questions = [];
+	if (glossary) {
+		const G = require('./lib/glossary');
+		questions = G.glossaryWarnings(G.readGlossary(GLOSSARY), pairs);
+	}
 	if (!quiet) {
 		for (const w of warnings) console.log('warning: ' + w);
+		for (const q of questions) console.log(`glossary: ${q.at}: "${q.id}" is "${q.term}" in the glossary: ${q.value}`);
 		for (const p of problems) console.log('error:   ' + p);
-		console.log(`UI ${ui.done}/${ui.total} · guide texts ${guides.done}/${guides.total} · ${problems.length} error(s), ${warnings.length} warning(s)`);
+		console.log(`UI ${ui.done}/${ui.total} · guide texts ${guides.done}/${guides.total} · ${problems.length} error(s), ${warnings.length} warning(s)`
+			+ (glossary ? `, ${questions.length} glossary question(s)` : ''));
 	}
 	return { problems, warnings, ui, guides };
-}
-
-// ---------------------------------------------------------------------------
-// init: templates from the deDE files
-// ---------------------------------------------------------------------------
-
-const UI_HEADER = `-- Türkçe (trTR) — Kutupstar (Polestar TR). Anahtar, kodun yazdığı İngilizce metnin birebir aynısıdır:
--- yalnızca sağ tarafı çevir. "-- L[" ile başlayan satır henüz çevrilmedi ve İngilizce görünür; çevirmek için
--- baştaki "-- " işaretini sil. Gruplar, metni ilk kullanan dosyaya göredir. Kurallar: docs/STIL.md.
--- Oyunun Türkçe istemcisi yok: bu dosyayı Kutupstar eklentisi yükler (node tools/kutup.js build).
-
-local _, ns = ...
-if not (GetLocale and GetLocale() == "trTR") then return end
-local L = ns.L
-`;
-
-const guideHeader = (id) => `-- Türkçe (trTR): ${id === '_pack' ? 'paketin kendi metinleri (adı, notları, rehber klasörleri)' : 'rehber ' + id}.
--- Kutupstar (Polestar TR). Sağ tarafı çevir; "" İngilizce görünür. Her {tür:no} belirteci olduğu gibi kalır:
--- oyun orada adı İngilizce gösterir (yukarıdaki yorum satırında yazıyor). Belirtecin hemen ardına ek getirme;
--- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
-`;
-
-function init(force) {
-	const writes = [];
-	// UI
-	const de = fs.readFileSync(UP_UI_DE, 'utf8').split(/\r?\n/);
-	const body = [];
-	let started = false;
-	for (const line of de) {
-		if (!started) { if (/^local L = ns\.L/.test(line)) started = true; continue; }
-		if (END_UI.test(line)) break;
-		const e = parseEntry(line);
-		body.push(e ? `-- L[${luaQuote(e.key)}] = ""` : line);
-	}
-	while (body.length && body[body.length - 1].trim() === '') body.pop();
-	writes.push([UI_SRC, UI_HEADER + body.join('\n') + '\n']);
-	// Guides
-	for (const f of walk(UP_GUIDES_DE)) {
-		const id = rel(f, UP_GUIDES_DE).replace(/\.lua$/, '');
-		const lines = fs.readFileSync(f, 'utf8').split(/\r?\n/);
-		const at = lines.findIndex((l) => /^return \{/.test(l));
-		const out = [];
-		for (const line of lines.slice(at)) {
-			if (END_GUIDE.test(line)) { out.push('}'); break; }
-			const e = parseEntry(line);
-			out.push(e ? line.replace(/^(\s*).*/, `$1[${luaQuote(e.key)}] = "",`) : line);
-		}
-		while (out.length && out[out.length - 1].trim() === '') out.pop();
-		if (out[out.length - 1] !== '}') out.push('}');
-		writes.push([path.join(GUIDES_SRC, id + '.lua'), guideHeader(id) + out.join('\n') + '\n']);
-	}
-	let skipped = 0;
-	for (const [file, text] of writes) {
-		if (fs.existsSync(file) && !force) { skipped++; continue; }
-		fs.mkdirSync(path.dirname(file), { recursive: true });
-		fs.writeFileSync(file, text);
-	}
-	console.log(`init: ${writes.length - skipped} file(s) written, ${skipped} kept (exists; --force overwrites)`);
 }
 
 // ---------------------------------------------------------------------------
@@ -304,48 +187,50 @@ function build(install) {
 	for (const f of fs.readdirSync(ADDON_SRC)) fs.copyFileSync(path.join(ADDON_SRC, f), path.join(DIST, f));
 	fs.copyFileSync(path.join(UPSTREAM, 'LICENSE'), path.join(DIST, 'LICENSE.txt'));
 
-	// The game's interface version as the installed Polestar declares it, so Kutupstar is never
-	// "out of date" beside it; and a warning when that Polestar is not the release the keys come from.
+	// The TOC: the Polestar release the keys come from, and the game's interface version as the
+	// installed Polestar declares it, so Kutupstar is never "out of date" beside it.
+	const tocFile = path.join(DIST, 'Kutupstar.toc');
+	let toc = fs.readFileSync(tocFile, 'utf8').replace(/^## X-Polestar-Version:.*$/m, `## X-Polestar-Version: ${pinned().replace(/^v/, '')}`);
 	const installedToc = path.join(ADDONS, 'Polestar', 'Polestar.toc');
 	if (fs.existsSync(installedToc)) {
-		const toc = fs.readFileSync(installedToc, 'utf8');
-		const iface = toc.match(/^## Interface:\s*(.+?)\s*$/m);
-		const ver = toc.match(/^## Version:\s*(.+?)\s*$/m);
+		const theirs = fs.readFileSync(installedToc, 'utf8');
+		const iface = theirs.match(/^## Interface:\s*(.+?)\s*$/m);
+		const ver = theirs.match(/^## Version:\s*(.+?)\s*$/m);
 		if (iface) {
-			const ours = path.join(DIST, 'Kutupstar.toc');
-			fs.writeFileSync(ours, fs.readFileSync(ours, 'utf8').replace(/^## Interface:.*$/m, `## Interface: ${iface[1]}`));
+			toc = toc.replace(/^## Interface:.*$/m, `## Interface: ${iface[1]}`);
 			console.log(`toc: Interface ${iface[1]} (the installed Polestar's)`);
 		}
-		if (ver && `v${ver[1]}` !== PIN) console.log(`warning: the installed Polestar is ${ver[1]}, the keys are from ${PIN}: re-pin upstream/ and sync`);
+		if (ver && `v${ver[1]}` !== pinned()) console.log(`warning: the installed Polestar is ${ver[1]}, the keys are from ${pinned()}: node tools/kutup.js pin v${ver[1]}`);
 	}
+	fs.writeFileSync(tocFile, toc);
 
-	const ui = readUI(UI_SRC).entries;
+	const ui = S.readUI(UI_SRC).entries;
 	fs.writeFileSync(path.join(DIST, 'UI.lua'), [GENERATED, '-- Filled into Polestar.L by Core.lua.', '', 'local _, K = ...', 'local T = K.ui', '',
-		...ui.map((e) => `T[${luaQuote(e.key)}] = ${luaQuote(e.value)}`), ''].join('\n'));
+		...ui.map((e) => `T[${S.luaQuote(e.key)}] = ${S.luaQuote(e.value)}`), ''].join('\n'));
 
 	const out = [GENERATED, '-- Each guide\'s table is built in its own function (Lua 5.1\'s constant limit), on first use.', '', 'local _, K = ...', ''];
 	let texts = 0, n = 0;
 	const pack = guides.ours.get('_pack');
 	out.push('K.pack = {');
-	for (const e of pack ? pack.entries : []) out.push(`\t[${luaQuote(e.key)}] = ${luaQuote(e.value)},`);
+	for (const e of pack ? pack.entries : []) out.push(`\t[${S.luaQuote(e.key)}] = ${S.luaQuote(e.value)},`);
 	out.push('}', '');
 	for (const [id, g] of [...guides.ours].sort(([a], [b]) => a.localeCompare(b))) {
 		if (id === '_pack' || !g.entries.length) continue;
 		n++;
 		texts += g.entries.length;
-		out.push(`K.guides[${luaQuote(id)}] = function() return {`);
-		for (const e of g.entries) out.push(`\t[${luaQuote(e.key)}] = ${luaQuote(e.value)},`);
+		out.push(`K.guides[${S.luaQuote(id)}] = function() return {`);
+		for (const e of g.entries) out.push(`\t[${S.luaQuote(e.key)}] = ${S.luaQuote(e.value)},`);
 		out.push('} end', '');
 	}
 	fs.writeFileSync(path.join(DIST, 'Guides.lua'), out.join('\n'));
 	console.log(`build: dist/Kutupstar · ${ui.length} UI strings · ${texts} guide texts in ${n} guide(s)`);
-	const syntax = luaSyntax(walk(DIST));
+	const syntax = luaSyntax(S.luaFiles(DIST));
 	if (syntax.length) {
 		for (const p of syntax) console.log('error:   ' + p);
 		console.log('build: the output is not valid Lua; nothing installed');
 		process.exit(1);
 	}
-	console.log(`syntax: ${walk(DIST).length} Lua file(s) parse as Lua 5.1`);
+	console.log(`syntax: ${S.luaFiles(DIST).length} Lua file(s) parse as Lua 5.1`);
 
 	if (install) {
 		if (!fs.existsSync(ADDONS)) { console.log(`install: no AddOns folder at ${ADDONS}`); process.exit(1); }
@@ -356,6 +241,10 @@ function build(install) {
 	}
 }
 
+// ---------------------------------------------------------------------------
+// apply, stats, keys
+// ---------------------------------------------------------------------------
+
 // apply <file.json>: { "ui": { English: Turkish }, "guides": { "<guide id>": { English: Turkish } } }
 // writes each translation into its line in src/ (a UI line is uncommented). Unknown keys are listed.
 function apply(file) {
@@ -365,16 +254,16 @@ function apply(file) {
 	const rewrite = (target, map, isUI) => {
 		const left = new Map(Object.entries(map));
 		const lines = fs.readFileSync(target, 'utf8').split('\n');
-		const end = lines.findIndex((l) => (isUI ? END_UI : END_GUIDE).test(l));
+		const end = lines.findIndex((l) => (isUI ? S.END_UI : S.END_GUIDE).test(l));
 		for (let n = 0; n < (end === -1 ? lines.length : end); n++) {
-			const e = parseEntry(lines[n]);
-			if (!e || !left.has(e.key)) continue;
+			const e = S.parseEntry(lines[n]);
+			if (!e || !left.has(e.key) || (e.commented && !isUI)) continue;
 			const v = left.get(e.key);
 			left.delete(e.key);
-			lines[n] = isUI ? `L[${luaQuote(e.key)}] = ${luaQuote(v)}` : lines[n].replace(/^(\s*).*/, `$1[${luaQuote(e.key)}] = ${luaQuote(v)},`);
+			lines[n] = isUI ? S.uiLine(e.key, v) : S.guideLine(e.key, v, lines[n].match(/^\s*/)[0]);
 			set++;
 		}
-		for (const k of left.keys()) unknown.push(`${rel(target, ROOT)}: ${k}`);
+		for (const k of left.keys()) unknown.push(`${S.rel(target, ROOT)}: ${k}`);
 		fs.writeFileSync(target, lines.join('\n'));
 	};
 	if (data.ui) rewrite(UI_SRC, data.ui, true);
@@ -388,16 +277,90 @@ function apply(file) {
 	if (unknown.length) process.exitCode = 1;
 }
 
-function stats() {
+function stats(byFolder) {
 	const { ui, guides } = runChecks({ quiet: true });
 	console.log(`UI: ${ui.done}/${ui.total}`);
 	console.log(`guide texts: ${guides.done}/${guides.total}`);
+	if (!byFolder) return;
+	const { guideKeys } = extract();
+	const rows = new Map();
+	for (const [id, keys] of guideKeys.guides) {
+		const folder = id.split('/').slice(0, 3).join('/').replace(/\/[^/]*\d[^/]*$/, (m) => /\/\d\d-/.test(m) ? '' : m);
+		const r = rows.get(folder) || { done: 0, total: 0, guides: 0 };
+		const g = guides.ours.get(id);
+		r.done += g ? g.entries.length : 0;
+		r.total += keys.size;
+		r.guides++;
+		rows.set(folder, r);
+	}
+	for (const [f, r] of [...rows].sort()) console.log(`  ${f.padEnd(42)} ${String(r.done).padStart(5)}/${String(r.total).padEnd(5)} ${r.guides} guide(s)`);
 }
 
+function keys() {
+	needLuaparse();
+	const { uiKeys, deKeys, guideKeys } = extract();
+	const deGuides = S.readGuides(UP_GUIDES_DE);
+	const dataKeys = [...deKeys].filter((k) => !uiKeys.has(k));
+	const notInDe = [...uiKeys.keys()].filter((k) => !deKeys.has(k));
+	console.log(`Polestar ${checkedOut() || '(no tag)'}: ${uiKeys.size} UI texts in the code, ${dataKeys.length} data keys from deDE, ${notInDe.length} not in deDE`);
+	for (const k of notInDe) console.log(`  not in deDE: ${k}`);
+	let texts = 0, gaps = 0;
+	for (const [id, set] of [['_pack', guideKeys.pack], ...guideKeys.guides]) {
+		texts += set.size;
+		const de = deGuides.get(id);
+		for (const k of set) if (!de || !de.all.has(k)) { gaps++; console.log(`  guide ${id} text not in deDE: ${k}`); }
+	}
+	console.log(`${guideKeys.guides.size} guides, ${texts} guide texts, ${gaps} not in deDE`);
+}
+
+// ---------------------------------------------------------------------------
+// sync, pin
+// ---------------------------------------------------------------------------
+
+function runSync(from) {
+	needLuaparse();
+	const Y = require('./lib/sync');
+	const x = extract();
+	const r = Y.sync({ upstreamDir: UPSTREAM, srcDir: SRC }, { uiKeys: x.uiKeys, guideKeys: x.guideKeys });
+	const to = pinned();
+	const date = new Date().toISOString().slice(0, 10);
+	const name = from === to ? `sync-${to}.md` : `sync-${from}-${to}.md`;
+	fs.mkdirSync(REPORTS, { recursive: true });
+	fs.writeFileSync(path.join(REPORTS, name), Y.report(r, { from, to, date }));
+	const lostGuides = Object.values(r.guides).reduce((n, g) => n + g.lost.length, 0);
+	const addedGuides = Object.values(r.guides).reduce((n, g) => n + g.added.length, 0);
+	console.log(`sync: ${r.changed.length} file(s) changed · UI ${r.ui.translated}/${r.ui.total}, ${r.ui.added.length} new, ${r.ui.lost.length} lost`
+		+ ` · guides ${addedGuides} new text(s), ${lostGuides} lost, ${r.removed.length} guide(s) gone · reports/${name}`);
+}
+
+function pin(tag) {
+	if (!/^v\d+\.\d+\.\d+([-.][\w.]+)?$/.test(tag)) { console.log(`pin: "${tag}" is not a release tag like v0.2.7`); process.exit(1); }
+	if (git('status', '--porcelain')) { console.log('pin: upstream/ has local changes; it must stay a clean checkout'); process.exit(1); }
+	const from = pinned();
+	console.log(`pin: fetching ${tag} from ${git('remote', 'get-url', 'origin')}`);
+	git('fetch', '--depth', '1', 'origin', 'tag', tag, '--no-tags');
+	git('-c', 'advice.detachedHead=false', 'checkout', '-q', tag);
+	const p = pkg();
+	p.config.polestarTag = tag;
+	fs.writeFileSync(PACKAGE, JSON.stringify(p, null, '\t') + '\n');
+	console.log(`pin: upstream/ at ${tag} (${git('rev-parse', '--short', 'HEAD')}), was ${from}`);
+	runSync(from);
+	const installedToc = path.join(ADDONS, 'Polestar', 'Polestar.toc');
+	if (fs.existsSync(installedToc)) {
+		const ver = fs.readFileSync(installedToc, 'utf8').match(/^## Version:\s*(.+?)\s*$/m);
+		if (ver && `v${ver[1]}` !== tag) console.log(`note: the game has Polestar ${ver[1]} installed, not ${tag}`);
+	}
+}
+
+module.exports = { extract, runChecks };
+if (require.main !== module) return;
+
 const [cmd, ...args] = process.argv.slice(2);
-if (cmd === 'init') init(args.includes('--force'));
-else if (cmd === 'check') process.exit(runChecks().problems.length ? 1 : 0);
+if (cmd === 'check') process.exit(runChecks({ glossary: args.includes('--glossary') }).problems.length ? 1 : 0);
 else if (cmd === 'build') build(args.includes('--install'));
-else if (cmd === 'stats') stats();
+else if (cmd === 'stats') stats(args.includes('--guides'));
 else if (cmd === 'apply' && args[0]) apply(args[0]);
-else console.log('usage: node tools/kutup.js init [--force] | check | build [--install] | stats | apply <file.json>');
+else if (cmd === 'keys') keys();
+else if (cmd === 'sync' || cmd === 'init') runSync(pinned());
+else if (cmd === 'pin' && args[0]) pin(args[0]);
+else console.log('usage: node tools/kutup.js check [--glossary] | build [--install] | stats [--guides] | apply <file.json> | keys | sync | pin <tag>');

@@ -58,5 +58,4 @@ return {
 	-- Step 11: Islen Waterseer
 	-- {npc:5901} Islen Waterseer · {spell:5394} Healing Stream Totem · {item:5177} Water Totem
 	["{npc:5901}: {spell:5394} and your {item:5177}"] = "",
-
 }

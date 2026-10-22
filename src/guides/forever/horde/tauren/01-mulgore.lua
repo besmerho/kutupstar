@@ -243,5 +243,4 @@ return {
 	-- Step 59: Class turn-ins in Thunder Bluff
 	-- {area:1638} Thunder Bluff
 	["Class turn-ins in {area:1638}"] = "",
-
 }

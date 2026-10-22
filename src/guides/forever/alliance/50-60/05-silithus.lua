@@ -130,5 +130,4 @@ return {
 	-- Step 27: Ratchet
 	-- {area:392} Ratchet
 	["The next guide starts here in {area:392}."] = "",
-
 }

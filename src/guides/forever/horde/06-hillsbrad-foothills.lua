@@ -134,5 +134,4 @@ return {
 	-- Step 29: Ratchet
 	-- {npc:3442} Sputtervalve · {area:392} Ratchet
 	["{npc:3442}, by the docks in {area:392}"] = "",
-
 }

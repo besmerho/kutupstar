@@ -140,5 +140,4 @@ return {
 	-- Step 38: The Crossroads
 	-- {area:380} The Crossroads
 	["Back to the {area:380}; the next guide starts here."] = "",
-
 }

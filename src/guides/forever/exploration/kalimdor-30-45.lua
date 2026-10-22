@@ -56,5 +56,4 @@ return {
 	["Horde town: Alliance characters only need to touch its edge (guards); any one of these names counts"] = "",
 	["level 61 area, well above this guide's range"] = "",
 	["Alliance town: Horde characters only need to touch its edge (guards); any one of these names counts"] = "",
-
 }

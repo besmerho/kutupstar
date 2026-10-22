@@ -52,5 +52,4 @@ return {
 	-- Step 9: Return to Delgren
 	-- {area:413} Maestra's Post
 	["Back to {area:413}."] = "",
-
 }

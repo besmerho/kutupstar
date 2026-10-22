@@ -162,5 +162,4 @@ return {
 	-- Step 41: The Crossroads
 	-- {area:380} The Crossroads · {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades
 	["Walk back south to the {area:380}. The next guide starts here and takes you to {zone:1454} and the zeppelin to {zone:1420}."] = "",
-
 }

@@ -147,5 +147,4 @@ return {
 	-- Step 36: Baron Revilgaz
 	-- {zone:1416} Alterac Mountains
 	["For Archmage Ansirem in {zone:1416}"] = "",
-
 }
