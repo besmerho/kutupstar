@@ -5,80 +5,80 @@
 return {
 	-- Guide
 	-- {zone:1414} Kalimdor
-	["Exploration: {zone:1414} 45-60"] = "",
+	["Exploration: {zone:1414} 45-60"] = "Keşif: {zone:1414} 45-60",
 
 	-- Step 1: Tanaris (1/3)
 	-- {zone:1446} Tanaris · {zone:1445} Dustwallow Marsh · {zone:1414} Kalimdor
-	["Starts in {zone:1446}, south of {zone:1445}. The last area of this guide completes the {zone:1414} map. 20 areas to discover here, levels 40-50."] = "",
-	["Exploring the entire world map on one character is a Forever Legacy Challenge (1 account-wide Legacy Point)."] = "",
+	["Starts in {zone:1446}, south of {zone:1445}. The last area of this guide completes the {zone:1414} map. 20 areas to discover here, levels 40-50."] = "{zone:1445} bölgesinin güneyindeki {zone:1446} bölgesinde başlar. Bu rehberin son alanı {zone:1414} haritasını tamamlar. Burada keşfedilecek 20 alan var, seviye 40-50.",
+	["Exploring the entire world map on one character is a Forever Legacy Challenge (1 account-wide Legacy Point)."] = "Tek bir karakterle tüm dünya haritasını keşfetmek bir Forever Legacy Challenge'ı (hesap geneli 1 Legacy Point).",
 	-- {zone:1446} Tanaris · {zone:1445} Dustwallow Marsh · {zone:1441} Thousand Needles · {area:976} Gadgetzan
-	["{zone:1446} is south of {zone:1445} and {zone:1441}. {area:976} is a neutral goblin town."] = "",
+	["{zone:1446} is south of {zone:1445} and {zone:1441}. {area:976} is a neutral goblin town."] = "{zone:1446}, {zone:1445} ve {zone:1441} bölgelerinin güneyinde. {area:976} tarafsız bir goblin kasabası.",
 	-- {area:976} Gadgetzan · {npc:7823} Bera Stonehammer
-	["Flight path here: {area:976} ({npc:7823})."] = "",
+	["Flight path here: {area:976} ({npc:7823})."] = "Uçuş noktası: {area:976} ({npc:7823}).",
 	-- {area:976} Gadgetzan · {npc:7824} Bulkrek Ragefist
-	["Flight path here: {area:976} ({npc:7824})."] = "",
+	["Flight path here: {area:976} ({npc:7824})."] = "Uçuş noktası: {area:976} ({npc:7824}).",
 
 	-- Step 4: Un'Goro Crater
-	["7 areas to discover here, levels 48-55."] = "",
+	["7 areas to discover here, levels 48-55."] = "Burada keşfedilecek 7 alan var, seviye 48-55.",
 	-- {zone:1446} Tanaris · {zone:1449} Un'Goro Crater · {area:541} Marshal's Refuge
-	["From western {zone:1446} take the path down into {zone:1449}. {area:541} in the north is a neutral camp."] = "",
+	["From western {zone:1446} take the path down into {zone:1449}. {area:541} in the north is a neutral camp."] = "{zone:1446} bölgesinin batısından patikayla {zone:1449} kraterine in. Kuzeydeki {area:541} tarafsız bir kamp.",
 	-- {area:541} Marshal's Refuge
-	["Flight path here: {area:541} (Gryfe)."] = "",
+	["Flight path here: {area:541} (Gryfe)."] = "Uçuş noktası: {area:541} (Gryfe).",
 
 	-- Step 5: Silithus
-	["7 areas to discover here, level 55."] = "",
+	["7 areas to discover here, level 55."] = "Burada keşfedilecek 7 alan var, seviye 55.",
 	-- {zone:1451} Silithus · {zone:1449} Un'Goro Crater · {area:3425} Cenarion Hold
-	["{zone:1451} is west of {zone:1449}. {area:3425} is neutral."] = "",
+	["{zone:1451} is west of {zone:1449}. {area:3425} is neutral."] = "{zone:1451}, {zone:1449} kraterinin batısında. {area:3425} tarafsız.",
 	-- {area:3425} Cenarion Hold · {npc:15177} Cloud Skydancer
-	["Flight path here: {area:3425} ({npc:15177})."] = "",
+	["Flight path here: {area:3425} ({npc:15177})."] = "Uçuş noktası: {area:3425} ({npc:15177}).",
 	-- {area:3425} Cenarion Hold · {npc:15178} Runk Windtamer
-	["Flight path here: {area:3425} ({npc:15178})."] = "",
+	["Flight path here: {area:3425} ({npc:15178})."] = "Uçuş noktası: {area:3425} ({npc:15178}).",
 
 	-- Step 6: Azshara (1/3)
-	["19 areas to discover here, levels 42-55."] = "",
+	["19 areas to discover here, levels 42-55."] = "Burada keşfedilecek 19 alan var, seviye 42-55.",
 	-- {area:3137} Talrendis Point · {area:415} Astranaar · {zone:1440} Ashenvale · {zone:1447} Azshara
-	["Fly to {area:3137} if you have it, otherwise to {area:415}, and walk east out of {zone:1440} into {zone:1447}."] = "",
+	["Fly to {area:3137} if you have it, otherwise to {area:415}, and walk east out of {zone:1440} into {zone:1447}."] = "Açıksa {area:3137} burnuna, değilse {area:415} kasabasına uç ve doğuya yürüyerek {zone:1440} bölgesinden {zone:1447} bölgesine geç.",
 	-- {area:1237} Valormok · {area:431} Splintertree Post · {zone:1440} Ashenvale · {zone:1447} Azshara
-	["Fly to {area:1237} if you have it, otherwise to {area:431}, and walk east out of {zone:1440} into {zone:1447}."] = "",
+	["Fly to {area:1237} if you have it, otherwise to {area:431}, and walk east out of {zone:1440} into {zone:1447}."] = "Açıksa {area:1237} kampına, değilse {area:431} karakoluna uç ve doğuya yürüyerek {zone:1440} bölgesinden {zone:1447} bölgesine geç.",
 	-- {area:3137} Talrendis Point
-	["Flight path here: {area:3137} (Jarrodenus)."] = "",
+	["Flight path here: {area:3137} (Jarrodenus)."] = "Uçuş noktası: {area:3137} (Jarrodenus).",
 	-- {area:1237} Valormok
-	["Flight path here: {area:1237} (Kroum)."] = "",
-	["Horde town: Alliance characters only need to touch its edge (guards)"] = "",
+	["Flight path here: {area:1237} (Kroum)."] = "Uçuş noktası: {area:1237} (Kroum).",
+	["Horde town: Alliance characters only need to touch its edge (guards)"] = "Horde kasabası: Alliance karakterlerinin yalnızca kenarına dokunması yeterli (muhafızlar)",
 
 	-- Step 9: Felwood (1/2)
-	["12 areas to discover here, levels 47-54."] = "",
+	["12 areas to discover here, levels 47-54."] = "Burada keşfedilecek 12 alan var, seviye 47-54.",
 	-- {zone:1448} Felwood · {zone:1440} Ashenvale
-	["{zone:1448} is north of {zone:1440}."] = "",
+	["{zone:1448} is north of {zone:1440}."] = "{zone:1448}, {zone:1440} bölgesinin kuzeyinde.",
 	-- {area:1998} Talonbranch Glade
-	["Flight path here: {area:1998} (Mishellena)."] = "",
+	["Flight path here: {area:1998} (Mishellena)."] = "Uçuş noktası: {area:1998} (Mishellena).",
 	-- {area:1997} Bloodvenom Post
-	["Flight path here: {area:1997} (Brakkar)."] = "",
+	["Flight path here: {area:1997} (Brakkar)."] = "Uçuş noktası: {area:1997} (Brakkar).",
 
 	-- Step 10: Felwood (2/2)
-	["Alliance town: Horde characters only need to touch its edge (guards)"] = "",
+	["Alliance town: Horde characters only need to touch its edge (guards)"] = "Alliance kasabası: Horde karakterlerinin yalnızca kenarına dokunması yeterli (muhafızlar)",
 
 	-- Step 11: Moonglade
-	["1 area to discover here, level 15."] = "",
+	["1 area to discover here, level 15."] = "Burada keşfedilecek 1 alan var, seviye 15.",
 	-- {area:1769} Timbermaw Hold · {zone:1448} Felwood · {zone:1450} Moonglade · {spell:18960} Teleport: Moonglade · {area:2361} Nighthaven
-	["Take the {area:1769} tunnel in northern {zone:1448} through to {zone:1450} (druids: {spell:18960}). {area:2361} is neutral."] = "",
+	["Take the {area:1769} tunnel in northern {zone:1448} through to {zone:1450} (druids: {spell:18960}). {area:2361} is neutral."] = "{zone:1448} bölgesinin kuzeyindeki {area:1769} tünelinden {zone:1450} bölgesine geç (Druid'ler: {spell:18960}). {area:2361} tarafsız.",
 	-- {zone:1450} Moonglade
-	["Flight path here: {zone:1450} (Sindrayl)."] = "",
+	["Flight path here: {zone:1450} (Sindrayl)."] = "Uçuş noktası: {zone:1450} (Sindrayl).",
 	-- {zone:1450} Moonglade
-	["Flight path here: {zone:1450} (Faustron)."] = "",
-	["any one of these names counts"] = "",
+	["Flight path here: {zone:1450} (Faustron)."] = "Uçuş noktası: {zone:1450} (Faustron).",
+	["any one of these names counts"] = "bu adlardan herhangi biri sayılır",
 
 	-- Step 12: Winterspring (1/2)
-	["13 areas to discover here, levels 55-60."] = "",
+	["13 areas to discover here, levels 55-60."] = "Burada keşfedilecek 13 alan var, seviye 55-60.",
 	-- {area:1769} Timbermaw Hold · {zone:1452} Winterspring · {area:2255} Everlook
-	["The other exit of the {area:1769} tunnel leads into {zone:1452}. {area:2255} is a neutral goblin town with flight masters for both factions."] = "",
+	["The other exit of the {area:1769} tunnel leads into {zone:1452}. {area:2255} is a neutral goblin town with flight masters for both factions."] = "{area:1769} tünelinin diğer çıkışı {zone:1452} bölgesine açılır. {area:2255}, iki tarafın da uçuş ustası bulunan tarafsız bir goblin kasabası.",
 	-- {area:2255} Everlook
-	["Flight path here: {area:2255} (Maethrya)."] = "",
+	["Flight path here: {area:2255} (Maethrya)."] = "Uçuş noktası: {area:2255} (Maethrya).",
 	-- {area:2255} Everlook
-	["Flight path here: {area:2255} (Yugrek)."] = "",
+	["Flight path here: {area:2255} (Yugrek)."] = "Uçuş noktası: {area:2255} (Yugrek).",
 
 	-- Step 14: Mount Hyjal (1/2)
-	["9 areas to discover here."] = "",
+	["9 areas to discover here."] = "Burada keşfedilecek 9 alan var.",
 	-- {zone:2482} Mount Hyjal · {zone:1452} Winterspring · {area:2256} Darkwhisper Gorge
-	["{zone:2482} is reached from {zone:1452} through {area:2256} in the south. It is Forever's endgame leveling zone."] = "",
+	["{zone:2482} is reached from {zone:1452} through {area:2256} in the south. It is Forever's endgame leveling zone."] = "{zone:2482} bölgesine {zone:1452} bölgesinden, güneydeki {area:2256} boğazından ulaşılır. Forever'ın oyun sonu seviye bölgesi.",
 }
