@@ -27,8 +27,8 @@ Barış's two hard requirements:
 | 2 Tooling | done: keys from Polestar's code, `sync`/`pin`, checks |
 | 3 UI | done: 2016/2124; the other 108 stay English on purpose (`src/keep-english.json`) |
 | 4 Guides | done: 6308/6308, merged into `main` (23 Oct) |
-| **5 Leftovers** | **done** (branch `faz-5`, not merged): the "Teslim et:: " double colon in turn-in map marker tooltips is fixed by a GameTooltip:AddLine post-hook (Core.lua, Joins). Optional, not sent: an upstream PR making Polestar's verb+name joins translatable |
-| 6 QA | next: Barış plays and reports (fonts/ş with EllesmereUI, a guide per faction, the turn-in marker tooltip) |
+| 5 Leftovers | done, merged into `main` (23 Oct): the "Teslim et:: " double colon in turn-in map marker tooltips is fixed by a GameTooltip:AddLine post-hook (Core.lua, Joins). Optional, not sent: an upstream PR making Polestar's verb+name joins translatable |
+| **6 QA** | **next**: Barış plays and reports (fonts/ş with EllesmereUI, a guide per faction, the turn-in marker tooltip) |
 | 7 Release | undecided: public release or private; Recorder (33 strings) skipped for now |
 
 Polestar is pinned at **v0.2.6** (`package.json` → `config.polestarTag`), the version installed in Barış's game.
