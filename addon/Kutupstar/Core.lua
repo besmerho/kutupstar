@@ -256,27 +256,88 @@ end
 -- The font
 ---------------------------------------------------------------------------
 
--- The enUS client font (FRIZQT__) draws ı but not ş (a box in game, 23 Oct
--- 2026), and likely not ğ or İ either, from the same Unicode block. Polestar meets the same gap on ruRU (no middle dot) by
--- drawing in its own Fira Sans there (Theme.FontSpec); Fira Sans and Inter
--- cover Turkish. So while Turkish is on, wherever Polestar's text would take
--- the game font (the skin's default, or "the game's" chosen), it takes Fira
--- Sans. Theme.FontSpec asks Theme.FontKey for the face on every paint, so a
--- wrapper on FontKey covers the windows, the Nav and the Settings rows.
--- Polestar's Inter or Fira, or EllesmereUI's font, chosen in its options,
--- stay as they are. Text in the game's own frames (tooltips, chat) keeps the
--- game font.
+-- Some fonts Polestar may draw in have no ş (a box in game, 23 Oct 2026; ı
+-- was fine): the enUS client font (FRIZQT__), and perhaps EllesmereUI's,
+-- which Polestar follows on request and which EllesmereUI can also make the
+-- game font. Polestar meets the same gap on ruRU (no middle dot) by drawing
+-- in its own Fira Sans (Theme.FontSpec); Fira Sans and Inter cover Turkish.
+-- So while Turkish is on, every font Theme.FontSpec hands out is measured
+-- once: when ş comes out as wide as a character no such font has (the box)
+-- and unlike s, that text takes Fira Sans, at Polestar's own weight for its
+-- role. A font that draws ş stays, whoever chose it. FontSpec paints the
+-- windows, the Nav and the Settings rows; text in the game's own frames
+-- (tooltips, chat) keeps the game's fonts. The fonts set aside are listed
+-- in diag.fonts.
 local CJK = { zhCN = true, zhTW = true, koKR = true }
+local GAME_FONT = "FRIZQT__"
+local PROBE_SIZE = 20
+local MISSING = "\238\128\128\238\128\128\238\128\128" -- U+E000 (private use) x3
+
+local probe -- a FontString on a hidden frame
+local covers = {} -- font path -> true | false
+
+local function width(text)
+	probe:SetText(text)
+	return probe:GetStringWidth() or 0
+end
+
+-- Whether the font at path draws ş. -> true | false
+local function drawsS(path)
+	if covers[path] ~= nil then return covers[path] end
+	local yes = true
+	if not probe then
+		local host = CreateFrame("Frame")
+		host:Hide()
+		probe = host:CreateFontString(nil, "OVERLAY")
+	end
+	if not probe:SetFont(path, PROBE_SIZE, "") then
+		-- Not a font the client can load: Polestar falls back to the game font.
+		yes = true
+	else
+		local s, sh, box = width("sss"), width("\197\159\197\159\197\159"), width(MISSING)
+		local function same(a, b) return math.abs(a - b) < 0.5 end
+		if s > 0 and sh > 0 and not (same(sh, box) and same(sh, s)) then
+			yes = not same(sh, box)
+		else
+			-- Nothing measured, or the box as wide as s: only the client font
+			-- is known to lack it.
+			yes = not path:upper():find(GAME_FONT, 1, true)
+		end
+	end
+	covers[path] = yes
+	if not yes then
+		diag.fonts = diag.fonts or {}
+		diag.fonts[#diag.fonts + 1] = path
+	end
+	return yes
+end
 
 local function hookFont(P)
 	local T = P.Theme
-	if type(T) ~= "table" or type(T.FontKey) ~= "function" then return end
+	if type(T) ~= "table" or type(T.FontSpec) ~= "function" then return end
 	if CJK[GetLocale and GetLocale() or ""] then return end
-	local fontKey = T.FontKey
-	T.FontKey = function(...)
-		local key = fontKey(...)
-		if key == "game" then return "fira" end
-		return key
+	local fontSpec = T.FontSpec
+	-- Fira Sans for a role, from Polestar's own FontSpec with Fira asked for.
+	local function fira(role)
+		local fontKey, follows = T.FontKey, T.FollowsEllesmereFont
+		T.FontKey = function() return "fira" end
+		T.FollowsEllesmereFont = function() return false end
+		local ok, path = pcall(fontSpec, role)
+		T.FontKey, T.FollowsEllesmereFont = fontKey, follows
+		return ok and type(path) == "string" and path or nil
+	end
+	T.FontSpec = function(role, ...)
+		local path, size, flags = fontSpec(role, ...)
+		if type(path) == "string" then
+			local ok, yes = pcall(drawsS, path)
+			if ok and not yes then
+				local other = fira(role)
+				if other and other ~= path then return other, size, flags end
+			elseif not ok then
+				diag.error = tostring(yes)
+			end
+		end
+		return path, size, flags
 	end
 	diag.hooks.font = true
 end
