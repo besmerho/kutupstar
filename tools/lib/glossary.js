@@ -44,7 +44,8 @@ function readGlossary(file) {
 function glossaryWarnings(glossary, pairs) {
 	const out = [];
 	for (const p of pairs) {
-		const english = p.key.replace(/\/\w+( \w+)?/g, '').replace(/\{[a-z]+:\d+\}/g, '');
+		// A slash command and its arguments ("/polestar near trainer | vendor | ...") stay English.
+		const english = p.key.replace(/\/\w+[^.;]*/g, '').replace(/\{[a-z]+:\d+\}/g, '');
 		const v = fold(p.value);
 		for (const [id, g] of Object.entries(glossary)) {
 			if (!ENGLISH[id].test(english)) continue;

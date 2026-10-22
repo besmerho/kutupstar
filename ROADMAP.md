@@ -7,7 +7,17 @@ Upstream: https://github.com/fitzforge/polestar, cloned into `upstream/` and che
 - **Phase 0 done:** the in-game test on 22 Oct showed diag `fill = early`, all hooks on, 8 guides / 61 texts translated and the option shown. Barış's two requirements (survive Polestar updates; no UI of its own, with a language option inside Polestar) are built in; see Design.
 - Phase 1 is drafted (`docs/STIL.md`, `src/glossary.json`). The **[ONAY]** items are waiting for Barış, plus the page-name choices made in Phase 3 (Lookup → Arama, Questing → Görevler, Quality of Life → Kolaylıklar, Skin → Görünüm teması) and "Teslim" vs "Teslim et:".
 - **Phase 3 (UI) done:** 2016/2124 strings, installed. The other **108 stay English on purpose:** race, class, spec, profession and skin names (the client shows them in English), the bug-report details block (it is for the maintainers), product and place names (Polestar, Forever, Menethil Harbor), and PvP, XP, NPC, g/s/c. Slash-command arguments stay English inside the translated help lines.
-- Next: Phase 2 (tooling: upstream sync and diff), then Phase 4 (guides).
+- **Phase 2 (tooling) done** (branch `faz-2`). The keys come straight from Polestar's code and compiled guides (luaparse; nothing of Polestar runs); at v0.2.6 this matches Polestar's deDE files exactly (2048 code texts + 76 data keys; 222 guides, 6308 texts). `sync`, `pin`, `check --glossary`, `stats --guides` and `keys` are added. A dry run against Polestar's development head (268 commits past v0.2.6) found 177 new UI texts and 55 new guide texts, and **lost none of our translations**. The lost/restore path and idempotence are tested on a copy of src/.
+- Next: Phase 4 (guides). 6241 texts to go; `stats --guides` has the per-folder map.
+
+## When Polestar updates
+
+1. Install the new Polestar in the game as usual.
+2. `node tools/kutup.js pin vX.Y.Z` fetches that release into `upstream/`, rewrites `src/` and writes `reports/sync-<old>-<new>.md`: new texts, gone texts, and **lost translations**, each with a "maybe now" match.
+3. Translate the new texts, and reuse or delete the lost ones (they sit at the end of their file, commented out).
+4. `node tools/kutup.js build --install`, test, commit.
+
+Until step 4, Kutupstar keeps working with the new Polestar: unchanged texts stay Turkish, and new or changed ones show in English.
 - The pinned totals are **2,124 UI keys and 6,308 guide texts** (the numbers below were measured on HEAD).
 
 ## Key facts from the analysis
@@ -37,7 +47,10 @@ src/Locales/trTR.lua  -- UI translations, Polestar's Locales format
 src/guides/           -- guide translations, Polestar's locales/<locale>/ format (+ _pack.lua)
 src/glossary.json     -- Polestar's glossary format
 docs/STIL.md          -- style guide (Turkish)
-tools/kutup.js        -- init | check | build [--install] | stats | apply <json>
+tools/kutup.js        -- check [--glossary] | build [--install] | stats [--guides] | apply <json> | keys | sync | pin <tag>
+tools/lib/            -- extract.js (keys from Polestar), source.js (src/ files), sync.js, glossary.js
+reports/              -- one per sync/pin: what changed in Polestar and what it did to the translations
+package.json          -- config.polestarTag: the Polestar release the keys come from
 dist/Kutupstar/       -- build output (ignored): + UI.lua, Guides.lua, LICENSE.txt
 ```
 

@@ -285,7 +285,8 @@ function stats(byFolder) {
 	const { guideKeys } = extract();
 	const rows = new Map();
 	for (const [id, keys] of guideKeys.guides) {
-		const folder = id.split('/').slice(0, 3).join('/').replace(/\/[^/]*\d[^/]*$/, (m) => /\/\d\d-/.test(m) ? '' : m);
+		const parts = id.split('/');
+		const folder = parts.slice(0, Math.min(3, parts.length - 1)).join('/'); // the guide's folder, at most 3 deep
 		const r = rows.get(folder) || { done: 0, total: 0, guides: 0 };
 		const g = guides.ours.get(id);
 		r.done += g ? g.entries.length : 0;
