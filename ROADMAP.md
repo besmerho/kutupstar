@@ -1,6 +1,12 @@
-# Turkish for Polestar — roadmap
+# Kutupstar (Polestar TR) — roadmap
 
-Upstream: https://github.com/fitzforge/polestar, cloned into `upstream/` at `eb7b4784` (Polestar 0.2.6, Interface 16001, GPL-3.0-only).
+Upstream: https://github.com/fitzforge/polestar, cloned into `upstream/` and checked out at tag **`v0.2.6`** (`39f0b8b2`). That is byte-identical to the Polestar installed in the game (HEAD is ahead of the release). Interface 16001, GPL-3.0-only.
+
+## Status (22 Oct 2026, branch `faz-0-1`)
+
+- Phase 0 is built and installed in `_classic_beta_\Interface\AddOns\Kutupstar`; the in-game test by Barış is pending. It has 54 UI strings (goal verbs, guide window, key bindings), the pack texts and the first three steps of all eight starter guides. `/kutupstar` reports the hooks, the load order and a Turkish-letter test line.
+- Phase 1 is drafted (`docs/STIL.md`, `src/glossary.json`). The **[ONAY]** items are waiting for Barış.
+- The pinned totals are **2,124 UI keys and 6,308 guide texts** (the numbers below were measured on HEAD).
 
 ## Key facts from the analysis
 
@@ -14,20 +20,19 @@ Upstream: https://github.com/fitzforge/polestar, cloned into `upstream/` at `eb7
 
 ## Design
 
-The folder is `Polestar_Turkce`, with the title "Turkish for Polestar". It has `## Dependencies: Polestar` and `## OptionalDeps: Polestar_Guides`.
+The folder is `Kutupstar`, with the title "Kutupstar (Polestar TR)". Its only dependency is Polestar. The name sorts before `Polestar_Guides`, so it loads right after Polestar and before the guides register. No OptionalDeps: that would load Polestar_Guides first.
 
 ```
-Polestar_Turkce/
-  Polestar_Turkce.toc
-  Core.lua        -- fills Polestar.L, hooks GuideTexts.Prepare/PackText, post-pass, load-time fixes
-  UI.lua          -- generated: L["English"] = "Türkçe"
-  Guides.lua      -- generated: per guide id, tokenised English -> Turkish
-src/              -- translation sources, in upstream's own formats
-  Locales/trTR.lua
-  guides/locales/trTR/<guide path>.lua, _pack.lua
-  glossary.json
-tools/            -- Node: extract keys from upstream/, check, build, diff on upstream updates
+addon/Kutupstar/      -- hand-written: Kutupstar.toc, Core.lua (hooks), Fixes.lua (bindings, /kutupstar)
+src/Locales/trTR.lua  -- UI translations, Polestar's Locales format
+src/guides/           -- guide translations, Polestar's locales/<locale>/ format (+ _pack.lua)
+src/glossary.json     -- Polestar's glossary format
+docs/STIL.md          -- style guide (Turkish)
+tools/kutup.js        -- init | check | build [--install] | stats | apply <json>
+dist/Kutupstar/       -- build output (ignored): + UI.lua, Guides.lua, LICENSE.txt
 ```
+
+Kill-goal `target` texts stay English when the goal names a quest: the engine matches the English quest-log objective lines by them. Goal lines are joined as `verb .. " " .. name` in code, so Turkish goal verbs use "Fiil:" (STIL.md §4).
 
 Sources stay in upstream's file formats. That lets upstream's `i18n check` and `i18n guides check` validate them, and lets the work be offered upstream later without converting anything.
 
@@ -46,8 +51,9 @@ Sources stay in upstream's file formats. That lets upstream's `i18n check` and `
 
 ## Open decisions
 
-1. Game names English (recommended, matches the client) vs. Turkish in brackets.
-2. Tone: informal "sen" (recommended, like game UIs) or "siz".
-3. Class/race names: English (recommended; the client shows them that way) or Turkish.
+1. ~~Name~~: Kutupstar (Polestar TR).
+2. Game names English, tone "sen", class/race names English: drafted that way in STIL.md, awaiting **[ONAY]**.
+3. "Turn in" → "Teslim" (no colon) and the other STIL.md **[ONAY]** items (Lookup, loot).
 4. Public release (CurseForge/Wago) or personal use only.
 5. Recorder (authoring tool, 33 strings): include or skip.
+6. Lua syntax is not machine-checked yet (no Lua on this machine). Phase 2 could add a JS Lua parser such as `luaparse` from npm; that needs an OK to download it.
