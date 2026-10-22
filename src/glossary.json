@@ -4,7 +4,7 @@
 	"goal": { "term": "hedef" },
 	"objective": { "term": "hedef", "note": "Görev günlüğündeki satır. İstemci İngilizce: 'Objectives'." },
 	"accept": { "term": "al", "match": ["al", "alin", "kabul"], "note": "Görevi al. Hedef satırında: 'Görevi al:'." },
-	"turn in": { "term": "teslim", "match": ["teslim"], "note": "Hedef satırında 'Teslim' (iki nokta yok: Quests/Tracker.lua kendisi ': ' ekliyor)." },
+	"turn in": { "term": "teslim", "match": ["teslim"], "note": "Hedef satırında 'Teslim et:' (STIL.md §4)." },
 	"complete": { "term": "tamamla", "match": ["tamamla", "bitir", "tamam"] },
 	"skip": { "term": "atla", "match": ["atla", "atlan", "atl"] },
 	"quest": { "term": "görev", "match": ["gorev"] },

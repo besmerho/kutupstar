@@ -1,7 +1,8 @@
-# Kutupstar çeviri kılavuzu (Faz 1)
+# Kutupstar çeviri kılavuzu
 
 Bu kılavuz Kutupstar'ın tüm Türkçe metinleri için geçerli: arayüz (`src/Locales/trTR.lua`) ve rehberler (`src/guides/`).
-Terimler `src/glossary.json` dosyasında (Polestar'ın sözlük biçimiyle). **[ONAY]** ile işaretli maddeler Barış'ın kararını bekliyor.
+Terimler `src/glossary.json` dosyasında (Polestar'ın sözlük biçimiyle). **[KARAR]** ile işaretli maddeleri Barış
+22 Ekim 2026'da onayladı.
 
 ## 1. Temel ilke: istemci İngilizce
 
@@ -14,15 +15,15 @@ Blizzard'ın kendi pencereleri İngilizce. Bu yüzden:
 - **Blizzard arayüzündeki düğme ve sekme adları** İngilizce ve tırnak içinde yazılır: “Accept” düğmesine bas,
   “Talents” penceresini aç.
 - **Sınıf, ırk ve taraf adları:** oyunda göründüğü gibi İngilizce: Warrior, Mage, Night Elf, Tauren, Alliance,
-  Horde. Örnek: “Warrior eğitmeni”, “Horde karakterleri”. **[ONAY]** (Seçenek: Savaşçı/Büyücü… Ancak istemci
-  bunları İngilizce gösteriyor.)
+  Horde. Örnek: “Warrior eğitmeni”, “Horde karakterleri”. **[KARAR]** İstemci bunları İngilizce gösterdiği için
+  Türkçeleri (Savaşçı, Büyücü…) kullanılmaz.
 - Yaygın tür adları Türkçe metin içinde küçük harfle ödünç sözcük olarak kalır: kobold, gnoll, murloc, troll,
   harpy, centaur.
 
 ## 2. Ton
 
 - **“Sen” dili**, kısa emir kipi: “Kuzeye git.”, “Gryan ile konuş.” (Oyunların ve Polestar'ın İngilizcesinin tonu
-  bu.) **[ONAY]**
+  bu.) **[KARAR]** “Siz” kullanılmaz.
 - Kısa ve net. İngilizcedeki sıcak, sade anlatım korunur. Süs eklenmez, bilgi atılmaz.
 - Cümle düzeni: Türkçe başlıklarda her sözcük büyük harfle başlamaz. “Kobold kampı”, “Kobold Kampı” değil. Oyun
   adları kendi yazımlarını korur.
@@ -71,7 +72,7 @@ Türkçede fiil sona alınamaz. Kural: **emir kipi ve iki nokta**.
 | İngilizce | Türkçe | Ekranda |
 |---|---|---|
 | Accept | Görevi al: | Görevi al: Westfall Stew |
-| Turn in | Teslim | Teslim Westfall Stew · Gryan Stoutmantle |
+| Turn in | Teslim et: | Teslim et: Westfall Stew · yer: Gryan Stoutmantle |
 | Complete | Tamamla: | Tamamla: The Defias Brotherhood |
 | Kill | Öldür: | Öldür: 8 Kobold Vermin |
 | Collect | Topla: | Topla: 5 Linen Cloth |
@@ -84,9 +85,10 @@ Türkçede fiil sona alınamaz. Kural: **emir kipi ve iki nokta**.
 | Explore | Keşfet: | Keşfet: Jangolode Mine |
 | at %s / for %s / from %s | yer: %s / %s için / kaynak: %s | (aşağıya bak) |
 
-İstisna: **“Turn in” → “Teslim”** (iki nokta yok), çünkü Quests/Tracker.lua kendisi `": "` ekliyor; yoksa
-“Teslim et:: …” çıkar. **[ONAY]** Asıl çözüm, Polestar'a birleştirmeyi çevrilebilir bir biçim metnine
-(`"%s %s"`) çeviren küçük bir PR göndermek (Faz 5). Bu Korece için de işe yarar.
+**[KARAR]** “Turn in” de diğerleri gibi: **“Teslim et:”**. Bilinen tek yan etkisi: Quests/Tracker.lua görev
+teslim işaretinin harita ipucunda kendisi `": "` eklediği için orada “Teslim et:: …” görünür (bu işaretler
+varsayılan olarak kapalı). Asıl çözüm, Polestar'a birleştirmeyi çevrilebilir biçim metinlerine (`"%s %s"`,
+`"Turn in: %s"`) çeviren küçük bir PR göndermek (Faz 5); bu Korece için de işe yarar.
 
 Ek alan biçim metinleri:
 - `for %s` → `%s için` (görev adıyla, ek gerekmez).
@@ -111,7 +113,8 @@ Ek alan biçim metinleri:
 - Tuşlar: Shift, Ctrl, Alt; sağ tık, sol tık, “sağ tıkla”.
 - Seviye: “seviye 12”, “12. seviye”; aralık “12–17”.
 - Kısaltmalar oyuncu dilinde: XP, PvP, FP yerine “uçuş noktası”.
-- Polestar özellik adları: Polestar çevrilmez. **[ONAY]** “Lookup” sayfası → “Arama” mı, “Bilgi bankası” mı?
+- Polestar özellik adları: Polestar çevrilmez. **[KARAR]** Lookup → “Arama”. Arayüz çevirisinde seçilen sayfa
+  adları: Questing → “Görevler”, Quality of Life → “Kolaylıklar”, Skin → “Görünüm teması”.
 
 ## 7. Sık terimler (sözlük dışı)
 
@@ -119,7 +122,7 @@ Ek alan biçim metinleri:
 |---|---|
 | mob, creature | yaratık (konuşma dilinde “mob” da olur; metinde “yaratık”) |
 | drop / drops | düşürmek: “bazen düşürür” |
-| loot | “loot” (oyuncular böyle der; seçenek: “ganimet”) **[ONAY]** |
+| loot | “loot” (oyuncular böyle der) **[KARAR]** “ganimet” kullanılmaz. |
 | spawn / respawn | doğma noktası / yeniden doğmak |
 | pull | çekmek: “tek tek çek” |
 | patrol | devriye gezmek |
