@@ -471,6 +471,9 @@ function audit() {
 
 const RELEASES = path.join(ROOT, 'releases');
 const CF_API = 'https://wow.curseforge.com/api';
+// Polestar's CurseForge project (ID 1744437, "Polestar Guides"), marked as a required dependency on every
+// upload. CurseForge-only: the TOC has no Dependencies line because Kutupstar must load before Polestar.
+const POLESTAR_CF_SLUG = 'polestar-guides';
 const tocField = (field) => (fs.readFileSync(path.join(DIST, 'Kutupstar.toc'), 'utf8').match(new RegExp(`^## ${field}:\\s*(.+?)\\s*$`, 'm')) || [])[1];
 
 // package: build (without installing), then releases/Kutupstar-<version>.zip holding the Kutupstar/ folder.
@@ -522,10 +525,12 @@ async function publish({ type, changelog, yes }) {
 		gameVersions: [gameVersion.id],
 		changelogType: 'markdown',
 		changelog: changelog || `Kutupstar ${version}: Polestar ${pinned()} için Türkçe çeviri (arayüz ve tüm rehberler).`,
+		relations: { projects: [{ slug: POLESTAR_CF_SLUG, type: 'requiredDependency' }] },
 	};
 	console.log(`publish: project ${projectId} · ${path.basename(file)} · ${type} · WoW Forever ${gameVersion.name} (id ${gameVersion.id})`);
 	console.log(`publish: display name "${metadata.displayName}"`);
 	console.log(`publish: changelog: ${metadata.changelog}`);
+	console.log(`publish: relations: ${metadata.relations.projects.map((p) => `${p.slug} (${p.type})`).join(', ')}`);
 	if (!yes) { console.log('publish: dry run, nothing uploaded (add --yes to upload)'); return; }
 	const form = new FormData();
 	form.append('metadata', JSON.stringify(metadata));
