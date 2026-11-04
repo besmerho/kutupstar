@@ -18,4 +18,9 @@ return {
 	["Mounts · Level 60"] = "Binekler · Seviye 60",
 	["Mounts · PvP"] = "Binekler · PvP",
 	["Mounts · Reputation"] = "Binekler · İtibar",
+	["Raid"] = "",
+	["Reputation · Battlegrounds"] = "",
+	["Reputation · Cities"] = "",
+	["Reputation · Raids and dungeons"] = "",
+	["Reputation · World"] = "",
 }

@@ -14,7 +14,7 @@
 		"luaparse": "0.3.1"
 	},
 	"config": {
-		"polestarTag": "v0.2.6",
+		"polestarTag": "v0.3.0",
 		"curseforgeProjectId": 1759256
 	}
 }

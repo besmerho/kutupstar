@@ -48,8 +48,8 @@ return {
 
 	-- Step 10: The Barrens (1/4)
 	["25 areas to discover here, levels 10-33."] = "Burada keşfedilecek 25 alan var, seviye 10-33.",
-	-- {zone:1440} Ashenvale · {zone:1413} The Barrens · {area:380} The Crossroads · {area:378} Camp Taurajo · {area:392} Ratchet
-	["Walk east out of Stonetalon (or south out of {zone:1440}) into the {zone:1413}. {area:380} and {area:378} are Horde towns; {area:392} is a neutral port."] = "Stonetalon'dan doğuya (ya da {zone:1440} bölgesinden güneye) çıkıp {zone:1413} bölgesine yürü. {area:380} ve {area:378} Horde kasabaları; {area:392} tarafsız bir liman.",
+	-- {zone:1413} The Barrens · {area:1702} Honor's Stand · {area:380} The Crossroads · {area:378} Camp Taurajo · {area:392} Ratchet
+	["The road east out of south-eastern Stonetalon comes down into the {zone:1413} at {area:1702}. {area:380} and {area:378} are Horde towns; {area:392} is a neutral port."] = "",
 	-- {area:392} Ratchet
 	["Flight path here: {area:392} (Bragok)."] = "Uçuş noktası: {area:392} (Bragok).",
 	-- {area:378} Camp Taurajo
@@ -69,15 +69,17 @@ return {
 	["Horde guards: touch the edge of {area:362} and move on"] = "Horde muhafızları: {area:362} kenarına dokun ve devam et",
 
 	-- Step 15: Durotar (2/2)
-	-- {area:367} Sen'jin Village
-	["Horde guards: touch the edge of {area:367} and move on"] = "Horde muhafızları: {area:367} kenarına dokun ve devam et",
 	-- {area:363} Valley of Trials
 	["Horde guards: touch the edge of {area:363} and move on"] = "Horde muhafızları: {area:363} kenarına dokun ve devam et",
+	-- {area:367} Sen'jin Village
+	["Horde guards: touch the edge of {area:367} and move on"] = "Horde muhafızları: {area:367} kenarına dokun ve devam et",
 
 	-- Step 16: Mulgore (1/2)
 	["16 areas to discover here, levels 5-10."] = "Burada keşfedilecek 16 alan var, seviye 5-10.",
 	-- {zone:1413} The Barrens · {area:378} Camp Taurajo · {zone:1412} Mulgore · {area:222} Bloodhoof Village · {zone:1456} Thunder Bluff
-	["Go back west across the {zone:1413}; the road west from {area:378} climbs into {zone:1412}, tauren country with guards at {area:222} and {zone:1456}."] = "{zone:1413} bölgesini batıya geri geç; {area:378} kampından batıya giden yol {zone:1412} bölgesine tırmanır; burası Tauren toprağı, {area:222} ve {zone:1456} içinde muhafızlar var.",
+	["Go back west across the {zone:1413}; the road west from {area:378} climbs through the only pass into {zone:1412}, tauren country with guards at {area:222} and {zone:1456}."] = "",
+
+	-- Step 17: Mulgore (2/2)
 	-- {zone:1456} Thunder Bluff
 	["Horde guards: touch the edge of {zone:1456} and move on"] = "Horde muhafızları: {zone:1456} kenarına dokun ve devam et",
 	-- {area:222} Bloodhoof Village
@@ -85,8 +87,8 @@ return {
 
 	-- Step 18: Thousand Needles (1/2)
 	["9 areas to discover here, levels 24-35."] = "Burada keşfedilecek 9 alan var, seviye 24-35.",
-	-- {zone:1413} The Barrens · {area:485} Great Lift · {zone:1441} Thousand Needles · {area:484} Freewind Post
-	["From the southern {zone:1413} take the {area:485} down into {zone:1441}. {area:484} is a Horde town."] = "{zone:1413} bölgesinin güneyinden {area:485} asansörüyle {zone:1441} bölgesine in. {area:484} bir Horde kasabası.",
+	-- {zone:1412} Mulgore · {zone:1413} The Barrens · {area:485} Great Lift · {zone:1441} Thousand Needles · {area:484} Freewind Post
+	["Leave {zone:1412} by the same pass and ride south through the {zone:1413} to the {area:485} down into {zone:1441}. {area:484} is a Horde town."] = "",
 
 	-- Step 19: Thousand Needles (2/2)
 	-- {area:484} Freewind Post
@@ -107,13 +109,11 @@ return {
 
 	-- Step 26: Mulgore (1/2)
 	-- {area:378} Camp Taurajo · {zone:1412} Mulgore
-	["The road west from {area:378} climbs into {zone:1412}."] = "{area:378} kampından batıya giden yol {zone:1412} bölgesine tırmanır.",
-	-- {zone:1456} Thunder Bluff
-	["Flight path here: {zone:1456} (Tal)."] = "Uçuş noktası: {zone:1456} (Tal).",
+	["The road west from {area:378} climbs through the only pass into {zone:1412}."] = "",
 
 	-- Step 28: Stonetalon Mountains (1/2)
-	-- {zone:1413} The Barrens · {area:1702} Honor's Stand · {zone:1442} Stonetalon Mountains · {area:460} Sun Rock Retreat · {area:467} Stonetalon Peak
-	["Go back into the {zone:1413} and west through {area:1702} into the {zone:1442}. {area:460} is the Horde town; {area:467} in the north is Alliance."] = "{zone:1413} bölgesine dön ve batıya, {area:1702} üzerinden {zone:1442} bölgesine git. {area:460} Horde kasabası; kuzeydeki {area:467} Alliance.",
+	-- {zone:1412} Mulgore · {zone:1413} The Barrens · {area:1702} Honor's Stand · {zone:1442} Stonetalon Mountains · {area:460} Sun Rock Retreat · {area:467} Stonetalon Peak
+	["Leave {zone:1412} by the same pass, ride north through the {zone:1413} and west at {area:1702} into the {zone:1442}. {area:460} is the Horde town; {area:467} in the north is Alliance."] = "",
 	-- {area:460} Sun Rock Retreat
 	["Flight path here: {area:460} (Tharm)."] = "Uçuş noktası: {area:460} (Tharm).",
 
@@ -157,4 +157,16 @@ return {
 	["Fly to {area:378} and walk south through the {zone:1413} to the {area:485} down into {zone:1441}."] = "{area:378} kampına uç ve {zone:1413} üzerinden güneye, {zone:1441} bölgesine inen {area:485} asansörüne yürü.",
 	-- {area:484} Freewind Post
 	["Flight path here: {area:484} (Nyse)."] = "Uçuş noktası: {area:484} (Nyse).",
+
+	-- No longer in the guide (its English changed or it went away): reuse or delete.
+	-- maybe now: ["The road east out of south-eastern Stonetalon comes down into the {zone:1413} at {area:1702}. {area:380} and {area:378} are Horde towns; {area:392} is a neutral port."]
+	-- ["Walk east out of Stonetalon (or south out of {zone:1440}) into the {zone:1413}. {area:380} and {area:378} are Horde towns; {area:392} is a neutral port."] = "Stonetalon'dan doğuya (ya da {zone:1440} bölgesinden güneye) çıkıp {zone:1413} bölgesine yürü. {area:380} ve {area:378} Horde kasabaları; {area:392} tarafsız bir liman.",
+	-- maybe now: ["Go back west across the {zone:1413}; the road west from {area:378} climbs through the only pass into {zone:1412}, tauren country with guards at {area:222} and {zone:1456}."]
+	-- ["Go back west across the {zone:1413}; the road west from {area:378} climbs into {zone:1412}, tauren country with guards at {area:222} and {zone:1456}."] = "{zone:1413} bölgesini batıya geri geç; {area:378} kampından batıya giden yol {zone:1412} bölgesine tırmanır; burası Tauren toprağı, {area:222} ve {zone:1456} içinde muhafızlar var.",
+	-- ["From the southern {zone:1413} take the {area:485} down into {zone:1441}. {area:484} is a Horde town."] = "{zone:1413} bölgesinin güneyinden {area:485} asansörüyle {zone:1441} bölgesine in. {area:484} bir Horde kasabası.",
+	-- maybe now: ["The road west from {area:378} climbs through the only pass into {zone:1412}."]
+	-- ["The road west from {area:378} climbs into {zone:1412}."] = "{area:378} kampından batıya giden yol {zone:1412} bölgesine tırmanır.",
+	-- ["Flight path here: {zone:1456} (Tal)."] = "Uçuş noktası: {zone:1456} (Tal).",
+	-- maybe now: ["Leave {zone:1412} by the same pass, ride north through the {zone:1413} and west at {area:1702} into the {zone:1442}. {area:460} is the Horde town; {area:467} in the north is Alliance."]
+	-- ["Go back into the {zone:1413} and west through {area:1702} into the {zone:1442}. {area:460} is the Horde town; {area:467} in the north is Alliance."] = "{zone:1413} bölgesine dön ve batıya, {area:1702} üzerinden {zone:1442} bölgesine git. {area:460} Horde kasabası; kuzeydeki {area:467} Alliance.",
 }

@@ -1,0 +1,3382 @@
+# Sync: Polestar v0.2.6 → v0.3.0
+
+2026-11-04. Written by `node tools/kutup.js pin v0.3.0`.
+
+## Interface
+
+- 1996/2532 translated; 428 new text(s), 20 gone.
+- **20 translation(s) lost** (their English changed or went away; kept at the end of src/Locales/trTR.lua):
+
+  - `Take %s`
+  - `Take the lift`
+  - `The step you are on.`
+  - `Points the way.`
+  - `The map marks each place.` → maybe `Points the way. The map marks each place.`
+  - `Planned in a simulator and played to the end in tests, but nobody has followed them through the live game yet. Skip a wrong step with %s and tell us on Discord.`
+  - `Feedback, bug reports and news` → maybe `Feedback, bug reports and news.`
+  - `Guides made by other players for Polestar, not our own routes: each community addon is installed like any other addon. Its guides appear in %s under Community guides, credited to their author, who supports them. More in Options > Community guides.`
+  - `How the arrow walks you. You can change it any time in Options.` → maybe `How the arrow walks you. Change it any time in Options.`
+  - `Sessions stored`
+  - `Kept in SavedVariables until imported with the toolchain.`
+  - `Events this session`
+  - `Character`
+  - `Session`
+  - `Counts and the current session in chat.`
+  - `Picks the only option of NPCs without quests. Hold Shift to read it.`
+  - `Sells Poor-quality items when a merchant opens and prints the total. Never sells anything else.`
+  - `Accepted a resurrection.`
+  - `Right-click: settings`
+  - `Opens the gate of the Horde's way into the City of Dalaran; one key opens it for the group. The Alliance is sent in by the Image of Archmage Modera.` → maybe `Opens the gate of the Horde's way into the City of Dalaran; one key opens it for the group. The Alliance walks in through the sewer pipe in Cantrips & Crows.`
+
+<details><summary>New interface texts</summary>
+
+- `Characters`
+- `Keep a note of each character you play, for the Characters page (/pole alts).`
+- `Show your characters`
+- `Last played`
+- `Most rested`
+- `None yet`
+- `Gold`
+- `Fully rested (%s levels)`
+- `+%d%% · not at an inn, slower`
+- `+%s rested`
+- `Playing`
+- `Level %d %s %s`
+- `Last played %s`
+- `Playing now`
+- `Max level`
+- `%d%% to %d`
+- `Rested, projected to now`
+- `Forget`
+- `No characters yet.`
+- `Turned off: showing what was saved`
+- `%d characters on %d realms · each as of their last logout`
+- `1 character on %s`
+- `1 character on %s · each as of their last logout`
+- `%d characters on %s · each as of their last logout`
+- `Characters is turned off. Turn it on under Options > Discovery > Characters.`
+- `Forget %s`
+- `Next waypoint`
+- `Previous waypoint`
+- `Make bag room: delete the cheapest junk (press twice)`
+- `List the quests in your log the route never hands in`
+- `Polestar no longer uses the old folders Polestar_Guides_<language> and Polestar_Names_<language> (%s): Polestar_<language> holds both now. Close the game and delete them from Interface/AddOns.`
+- `You skipped this quest`
+- `%s isn't in your quest log`
+- `Not offered by %s? Report it with /polestar`
+- `Abandon`
+- `Wait`
+- `%d seconds`
+- `Destroy`
+- `Tame`
+- `Die and resurrect at`
+- `Cast`
+- `Have at least`
+- `Your Hearthstone is bound to %s, not %s`
+- `Your Hearthstone is bound to %s, not %s: walk to the inn`
+- `The inn is only %s away: travel there and keep the Hearthstone`
+- `No Hearthstone in your bags`
+- `No Hearthstone in your bags: walk to the inn`
+- `Hearthstone ready in %s; the trip takes %s: set off now`
+- `Hearthstone ready in %s, sooner than the %s trip: wait for it`
+- `Hearthstone ready in %s`
+- `Hearthstone ready in %s: walk to the inn, or wait for it`
+- `This guide could not be read.`
+- `Its guide has %d entries in %s; an import string holds %d there at most.`
+- `Leveling guides take you through this dungeon where they have steps for it. Off: they keep to the solo route.`
+- `Dungeons in leveling guides`
+- `Off: the guide skips this group quest and keeps to the solo route. Until you choose, it asks when it gets there.`
+- `Group quests`
+- `Group quests in leveling guides`
+- `Custom: %s`
+- `custom`
+- `No custom scales yet. /polestar gear import adds one.`
+- `Custom scales`
+- `Manage`
+- `Manage custom weights`
+- `Import a Pawn scale string, and use, rename, export or delete the scales you have.`
+- `Leave bag arrows to Pawn`
+- `Pawn is installed and draws its own upgrade arrows in your bags. Turn this on to hide Polestar's, so an item does not carry two.`
+- `Pawn scale`
+- `%s (copy)`
+- `Paste a Pawn scale string first.`
+- `That text is too long for a Pawn string.`
+- `That is not a Pawn string. It starts with ( Pawn: v1: "Name": ...`
+- `Only Pawn string version 1 is supported.`
+- `That Pawn string has no stat Polestar scores.`
+- `That scale is for a class Polestar has no weights for.`
+- `Too many custom scales for this class. Delete one first.`
+- `Give the scale a name.`
+- `Another scale already has that name.`
+- `That scale no longer exists.`
+- `That is not a stat Polestar scores.`
+- `A weight is a number, like 1, 0.5 or -2.`
+- `Imported '%s': %d stats`
+- `Updated '%s': %d stats`
+- `, %d ignored: %s`
+- `Clear`
+- `Right-click: menu`
+- `Show window`
+- `Previous`
+- `NPC services`
+- `%d service points`
+- `Mailboxes`
+- `Class trainers`
+- `Weapon masters`
+- `Auctioneers`
+- `Bankers`
+- `Battlemasters`
+- `Spirit healers`
+- `Stable masters`
+- `Profession trainers`
+- `NPC service data is unavailable. Reinstall the complete Polestar package, including Polestar_Codex.`
+- `Polestar: NPC services`
+- `Show NPC services`
+- `Service icons on the minimap`
+- `Marks friendly service NPCs and mailboxes on zone and city maps using Polestar's bundled Codex. Click an individual icon to set a waypoint, or a city group to choose an NPC and destination; choose categories here or in the map's tracking menu. Flight masters and inns have their own toggles under Dungeons and travel.`
+- `Shows the enabled NPC service categories on the minimap as well.`
+- `Shows this service category on the map.`
+- `Shows trainers for your character's class.`
+- `Ride the elevator up`
+- `Ride the elevator down`
+- `Ride the elevator`
+- `Polestar: step item`
+- `Polestar: kept for the guide`
+- `Press again to delete`
+- `Bag space`
+- `Free slots: %d of %d`
+- `Cheapest junk: %s (%s)`
+- `Press twice to delete it.`
+- `Run back to %s, your corpse is inside: %s (~%s).`
+- `%s (your corpse is inside)`
+- `the dungeon`
+- `Not enough money to fly to %s: it costs %s.`
+- `Don't sell: the guide needs it at step %d`
+- `Kept for the guide: step %d needs it`
+- `Keep %s: later steps of the guide need them.`
+- `Keep %s: a later step of the guide needs it.`
+- `%s is junk now: sold at merchants, and the first to go when your bags are full.`
+- `%s is kept now: Polestar never sells or deletes it.`
+- `%s: mark cleared.`
+- `Marked as junk`
+- `Marked to keep`
+- `Highlight the step's item in your bags`
+- `The item the current step uses, or a quest item it collects, glows in your bags (and in Baganator). An item a later step needs gets a lock, so you don't sell it.`
+- `Step key talks and loots`
+- `Once the step key has targeted the step's NPC, the next press talks to it; on the corpse of the step's mob, it loots; in the step's quest window, it accepts or completes. Only out of combat, and only on the step the guide is at.`
+- `Reset`
+- `Loot and merchants`
+- `Offer gear upgrades`
+- `When gear from a kill, a chest or a merchant is an upgrade for your spec (with Gear advice on), the guide window offers to put it on. Nothing goes on until you press Wear it; Not this one stops it asking about that item.`
+- `Picks the only option of NPCs without quests. Hold Shift to read it. Off, the game still skips some itself, Pick what the step asks for still picks the step's option, and flight masters follow Open the flight map.`
+- `Pick what the step asks for`
+- `At the step's NPC, picks the chat option the guide names, or opens the goods or training the step needs. Only on the step the guide is at. Hold Shift to choose yourself.`
+- `Hide the game's quest tracker`
+- `Hides the game's tracker on the right of the screen, with its quests, achievements and professions, as Questie can. Not with the gamepad interface.`
+- `Warn when out of breath`
+- `Under water, a red edge round the screen, a sound and a taskbar flash with 10 seconds of breath left, and again at 4.`
+- `Sells Poor-quality items, and anything you marked as junk, when a merchant opens and prints the total. Never an item marked to keep or one a later step needs.`
+- `Restock`
+- `Restock button`
+- `At a merchant that sells what you are short of, a Restock button under its window buys up to the amounts below (this character's). Nothing is bought until you press it. Other items, such as reagents: /polestar restock <item> <amount>.`
+- `Drinks`
+- `Keeps this many drinks in your bags. The merchant's best one for your level is bought.`
+- `Food`
+- `Keeps this much food in your bags. The merchant's best one for your level is bought.`
+- `Ammunition`
+- `Keeps this many arrows or shot for the bow, crossbow or gun you wear.`
+- `Bags`
+- `When your bags are nearly full, a button shows the free slots and the cheapest junk in them, and while the step collects something the guide window says so too. Press twice to delete that junk: grey items, or common ones you marked as junk. Bindable.`
+- `Nearly full at`
+- `%d slots`
+- `%d slot`
+- `How many free slots or fewer count as nearly full.`
+- `Junk and keep marks`
+- `Ctrl+Alt-click an item in your bags to mark it as junk, again to keep it, and again to clear it. Junk is sold with the grey items; a kept item is never sold or deleted.`
+- `Riding reminder`
+- `At level 40 and 60, if you have not learned riding yet, says the cost in chat (with any Honored discount) and points the arrow at your race's riding trainer when you can afford it. Warlocks and Alliance Paladins are sent to their free-mount quest NPC instead. Once per tier per character.`
+- `Restock (%s)`
+- `Restock: %s to %d`
+- `Nothing to restock. Set amounts on the options page, or: /polestar restock <item> <amount>.`
+- `Usage: /polestar restock [drink|food|ammo|<item>] <amount>`
+- `Restock: %s forgotten`
+- `Amounts to restock at merchants: drink, food, ammo or an item`
+- `Deleted %s.`
+- `Free bag slots and the cheapest junk`
+- `Guide: %d%% of this level`
+- `Guide: %d (%d%%)`
+- `%s has Polestar %s; you have %s. A newer version is out.`
+- `%s has a newer %s guide pack (%s; yours is %s).`
+- `%s: 1 step ahead`
+- `%s: %d steps ahead`
+- `%s: 1 step behind`
+- `%s: %d steps behind`
+- `%s: on this step`
+- `Still at it: %s`
+- `Share %s with %s`
+- `ForeverDB through level 30, Polestar after`
+- `Polestar, with ForeverDB's builds to level 20`
+- `Polestar, with ForeverDB's talent data`
+- `ForeverDB`
+- `ForeverDB's leveling builds, adapted to level 30`
+- `WoW Forever`
+- `Reset to default`
+- `OK`
+- `NEW ABILITY`
+- `NEW PET`
+- `NEW MOUNT`
+- `NEW WEAPON`
+- `NEW ARMOR`
+- `Learn %s`
+- `Earn the %s`
+- `Earn %s`
+- `Part of your route: just follow the guide.`
+- `Only you see this: it's your class's quest.`
+- `%s · LEVEL %d`
+- `%s quest taken: hand it in to %s`
+- `%s quest taken: hand it in to %s, later in this guide`
+- `%s quest taken`
+- `Accept the quest`
+- `Accept from %s`
+- `Accept from %s, %s`
+- `Summon %s`
+- `LEVEL %d · %s`
+- `%s ready`
+- `Get it from %s.`
+- `Get it from %s, %s.`
+- `Your route takes you there at %s.`
+- `Open in a new tab`
+- `Show me`
+- `No class quest is due for this character.`
+- `Show the class quest heads-up again (the next one due, or a quest id)`
+- `%s XP at your level`
+- `If you finish this quest and the chain before it`
+- `You are level %d. Level %d is recommended for the first quest in this chain; from there:`
+- `%s XP with its chain`
+- `Strength`
+- `Agility`
+- `Stamina`
+- `Intellect`
+- `Spirit`
+- `Armor`
+- `Health`
+- `Mana`
+- `Attack power`
+- `Ranged attack power`
+- `Weapon DPS (melee)`
+- `Weapon DPS (ranged)`
+- `Spell damage (all schools)`
+- `Healing`
+- `Arcane spell damage`
+- `Fire spell damage`
+- `Frost spell damage`
+- `Holy spell damage`
+- `Nature spell damage`
+- `Shadow spell damage`
+- `Melee and ranged crit (%)`
+- `Melee and ranged hit (%)`
+- `Spell crit (%)`
+- `Spell hit (%)`
+- `Mana per 5 seconds`
+- `Health per 5 seconds`
+- `Defense skill`
+- `Dodge (%)`
+- `Parry (%)`
+- `Block (%)`
+- `Block value`
+- `%d weights`
+- `A new name for %s.`
+- `Paste a Pawn scale string (Ctrl+V). In Pawn, open a scale's Scale tab and use Share, Copy.`
+- `Save`
+- `%s. Saved for %s: it applies on a character of that class.`
+- `Remove`
+- `Rename`
+- `Export`
+- `Add a stat`
+- `Reset to imported`
+- `Selected for you: copy it with Ctrl+C (Cmd+C on a Mac), then paste it into Pawn's import box or share it.`
+- `Your scales`
+- `In use`
+- `Stop using`
+- `Hide details`
+- `Edited: Export gives these weights.`
+- `Ignored`
+- `Custom stat weights`
+- `Copy a built-in spec`
+- `Copied %s. Change its weights below.`
+- `No custom scales yet. Paste a Pawn string above.`
+- `Right-click to bring this quest back`
+- `Right-click to tick it done or skip this quest`
+- `Skip this quest`
+- `This quest and the ones that follow from it are skipped, in every guide. Right-click it again to bring it back.`
+- `Pinned: its objectives are still open.`
+- `Pinned by you. Right-click to unpin.`
+- `and the quests that follow from it`
+- `the quest`
+- `The guide stays here until you choose.`
+- `%s is no longer in your quest log.`
+- `Go back for it`
+- `Skip it and what follows`
+- `Quest log full: this step takes %d, and there is room for %d.`
+- `Room to make: %s`
+- `Make room`
+- `It needs a group. Skip it and the guide keeps to the solo route.`
+- `Group quest: %s`
+- `Skip it`
+- `Do it with a group`
+- `The guide has no class training ahead.`
+- `The guide trains you in %d steps`
+- `Level 40: class mount (Warlock)`
+- `Summon Felsteed quest chain (Strahad Farsan, Ratchet); riding trainer otherwise.`
+- `Level 40: class mount (Paladin)`
+- `Tome of Nobility quest chain (Lord Grayson Shadowbreaker, Stormwind); riding trainer otherwise.`
+- `Level 60: Journeyman Riding`
+- `Level 40: you can learn to ride`
+- `Journeyman Riding`
+- `Apprentice Riding`
+- `1,000 g`
+- `100 g`
+- `Honored: %d g`
+- `10% off at Honored`
+- `You have %d g.`
+- `Take me there`
+- `Class quest ready: %s`
+- `Open in a tab`
+- `Bags nearly full: %d slots left.`
+- `Bags nearly full: %d slot left.`
+- `Your bags are full.`
+- `Delete it`
+- `Click again to delete it`
+- `No junk to make room with. Ctrl+Alt-click an item to mark it as junk.`
+- `Upgrade: %s`
+- `Wear it`
+- `Not this one`
+- `Riding trainer`
+- `Polestar's own guides are switched off on the Community guides page (/polestar packs).`
+- `Show Polestar's guides`
+- `Another race's starting zone`
+- `Your class trainer may be elsewhere (check your capital).`
+- `This is the %s starting zone. Polestar won't guide you there: make your own way to %s, and the guide picks up when you arrive.`
+- `Your class quest is done. Back to %s.`
+- `Close and return`
+- `pinned, still open`
+- `Recorder window`
+- `Pin %s as along the way`
+- `Unpin %s`
+- `Pin as along the way`
+- `Unpin from along the way`
+- `Click to share the quest with your party.`
+- `On pace for level %s by step %d`
+- `About %d bars short of level %s by step %d`
+- `No guide to this mount yet: the sources above say where it comes from and what it takes. Guide on one leads you there.`
+- `Elite and escort quests the guides mark for a group. Ask at each, or answer them all: with a group (a party levelling together) or skip them (solo). Discovery, Group quests changes one.`
+- `Ask me at each`
+- `Do them with a group`
+- `Skip them`
+- `Use deathskips`
+- `Where dying on purpose and taking the Spirit Healer's resurrection gets you there sooner, the guide shows a step for it. It costs durability and, from level 11, resurrection sickness. Always off on Hardcore characters.`
+- `Offer class quests`
+- `When one of your class's Class guides opens (your level, its first quest), the guide window offers to open it in a tab.`
+- `Reset guide progress?`
+- `Reset progress`
+- `Your manual check-offs and skipped steps in %s are cleared. Quests you have done stay done.`
+- `Your manual check-offs and skipped steps in the current guide are cleared. Quests you have done stay done.`
+- `Text size`
+- `The size of Polestar's text, apart from the window scale. Changes at once. Right-click to reset.`
+- `Class quest chime`
+- `A short chime the first time a class quest chain's card shows. Off while the game's sound effects are off.`
+- `Map icons`
+- `Icon pack`
+- `The medallion under every mark on the world map and the minimap. The skin's: Polestar's, Halo's, or Hearth's for Hearth and the game's own looks. Glyphs only: no medallion.`
+- `The skin's icons`
+- `Glyphs only`
+- `Numbered pins for the steps ahead`
+- `A small pin with its step number where each of the next steps takes you, fainter the further ahead. As many as Up next shows, else five.`
+- `Waiting to upload`
+- `Chunks the Polestar Uploader has not sent yet.`
+- `Stored`
+- `Last uploaded chunk`
+- `Recordings`
+- `Chunks waiting, the last upload and the install id, in chat.`
+- `Position trails, marks and the list of spots to walk, in a small window.`
+- `Reset all settings?`
+- `Reset all`
+- `Every Polestar setting goes back to its default. Your guides and progress are kept.`
+- `Guiding Stars`
+- `Celebrating the supporters and contributors behind Polestar.`
+- `Preview`
+- `Live`
+- `Tirisfal Glades`
+- `Garren's Haunt`
+- `Collect Doom Weed`
+- `Rot Hide Mongrel`
+- `381 yd`
+- `Brill`
+- `Run`
+- `Reset this page?`
+- `Every setting on %s goes back to its default.`
+- `Other starting zones`
+- `No guides shown: Polestar's own guides are switched off. Turn them on under Options, Community guides (/polestar packs).`
+- `The route passed its hand-in`
+- `You skipped its hand-in`
+- `Not handed in on this route`
+- `Make room in your quest log`
+- `Abandon it from your quest log.`
+- `The route ahead isn't settled yet (a guide to choose or load), so it can't say which quests it leaves behind.`
+- `The route hands in every quest in your log.`
+- `The route never hands these in. Abandon asks in the game's own window first.`
+- `Quest log %d/%d: %s`
+- `Settings: %s`
+- `Log:`
+- `Special thanks to:`
+- `Everyone who supports Polestar and helps build it.`
+- `%d pull requests`
+- `1 pull request`
+- `Thank you to everyone who supports Polestar and helps build it`
+- `Polestar is open source:`
+- `contribute on GitHub`
+- `Contribute on GitHub`
+- `Top supporter`
+- `Top contributor`
+- `Supporters`
+- `Contributors`
+- `on GitHub`
+- `Thank you for making Polestar possible.`
+- `No names here yet.`
+- `%s and %s`
+- `%s XP to go`
+- `%d:%02d left`
+- `Supplies`
+- `your next stop`
+- `Points the way. The map marks each place.`
+- `The background of every Polestar window. It changes as you pick.`
+- `Skip keeps these as they are.`
+- `The first walk of %s`
+- `How the arrow walks you. Change it any time in Options.`
+- `%s opens the guide window on the right. The arrow points at your first stop.`
+- `Played to the end in tests, but not yet by players. If a step is wrong, press %s in the guide window and tell us on Discord.`
+- `Feedback, bug reports and news.`
+- `Guides by other players, installed like any addon. They show under Community guides in the guide list.`
+- `Opens the gate of the Horde's way into the City of Dalaran; one key opens it for the group. The Alliance walks in through the sewer pipe in Cantrips & Crows.`
+
+</details>
+
+## Guides
+
+- 3931/9859 guide texts translated in 257 guide files.
+- 590 text(s) took the translation another guide file had for the same English (reused).
+- New guides: `forever/class/mage/atiesh`, `forever/class/warrior/quelserrar`, `forever/reputation/bloodsail-buccaneers`, `forever/reputation/brood-of-nozdormu`, `forever/reputation/centaur-clans`, `forever/reputation/darkspear-islands`, `forever/reputation/nightclaw-druids`, `forever/reputation/ravenholdt`, `forever/reputation/steamwheedle-cartel`, `forever/reputation/zandalar-tribe`, `forever/alliance/dwarf/01-dun-morogh`, `forever/alliance/gnome/01-dun-morogh`, `forever/alliance/nightelf/02-darkshore`, `forever/class/hunter/taming-the-beast-alliance`, `forever/class/mage/staff-or-orb-alliance`, `forever/class/mage/teleports-alliance`, `forever/class/paladin/tome-of-divinity`, `forever/class/priest/priest-robes-alliance`, `forever/class/shaman/call-of-earth-alliance`, `forever/class/shaman/call-of-fire-alliance`, `forever/class/warlock/dread-mage-hat`, `forever/class/warlock/imp-alliance`, `forever/class/warlock/voidwalker-alliance`, `forever/reputation/kirin-tor`, `forever/reputation/wintersaber-trainers`, `forever/class/hunter/taming-the-beast-horde`, `forever/class/mage/teleports-horde`, `forever/class/priest/priest-robes-horde`, `forever/class/shaman/call-of-earth-horde`, `forever/class/shaman/call-of-fire-horde`, `forever/class/shaman/stalk-with-the-earthmother`, `forever/class/warlock/imp-horde`, `forever/class/warlock/voidwalker-horde`, `forever/horde/orc/01-durotar`, `forever/horde/orc/02-the-barrens`, `forever/horde/troll/01-durotar`, `forever/horde/troll/02-the-barrens`.
+- Gone: `forever/alliance/dwarf-gnome/01-dun-morogh` (its translations moved to src/guides-removed/), `forever/horde/orc-troll/01-durotar` (its translations moved to src/guides-removed/), `forever/horde/orc-troll/02-the-barrens` (its translations moved to src/guides-removed/).
+
+| Guide | New texts | Lost translations |
+|---|---|---|
+| `_pack` | 5 | 0 |
+| `forever/class/druid/aquatic-form` | 13 | 11 |
+| `forever/class/druid/bear-form` | 10 | 10 |
+| `forever/class/druid/bloodpetal-poison` | 6 | 5 |
+| `forever/class/druid/cat-form` | 8 | 7 |
+| `forever/class/druid/cure-poison` | 21 | 13 |
+| `forever/class/hunter/rhokdelar` | 12 | 9 |
+| `forever/class/hunter/the-hunters-charm` | 7 | 5 |
+| `forever/class/mage/arcane-refreshment` | 3 | 2 |
+| `forever/class/mage/celestial-orb` | 11 | 7 |
+| `forever/class/mage/destroy-morphaz` | 7 | 7 |
+| `forever/class/mage/mages-wand` | 10 | 8 |
+| `forever/class/mage/polymorph-pig` | 4 | 3 |
+| `forever/class/priest/benediction` | 9 | 5 |
+| `forever/class/priest/blood-of-morphaz` | 10 | 11 |
+| `forever/class/rogue/ravenholdt` | 19 | 7 |
+| `forever/class/rogue/the-azure-key` | 8 | 7 |
+| `forever/class/rogue/the-eye-of-bhossca` | 4 | 4 |
+| `forever/class/rogue/the-horn-of-xelthos` | 4 | 4 |
+| `forever/class/warlock/enchanted-gold-bloodrobe` | 17 | 12 |
+| `forever/class/warlock/impsys-request` | 14 | 8 |
+| `forever/class/warlock/orb-of-orahil` | 9 | 9 |
+| `forever/class/warlock/orb-of-soranruk` | 7 | 6 |
+| `forever/class/warlock/shard-of-the-green-flame` | 6 | 5 |
+| `forever/class/warlock/tome-of-sacrifice` | 7 | 6 |
+| `forever/class/warrior/voodoo-feathers` | 10 | 6 |
+| `forever/class/warrior/whirlwind-weapon` | 16 | 12 |
+| `forever/collectibles/mounts/neutral/galestrider` | 7 | 2 |
+| `forever/collectibles/mounts/neutral/spectral-bear` | 3 | 2 |
+| `forever/collectibles/mounts/neutral/swift-galestrider` | 7 | 2 |
+| `forever/collectibles/mounts/neutral/warlock-dreadsteed` | 31 | 20 |
+| `forever/collectibles/mounts/neutral/warlock-felsteed` | 6 | 6 |
+| `forever/collectibles/pets/baby-crocolisk` | 1 | 1 |
+| `forever/collectibles/pets/bitter-baitling` | 8 | 2 |
+| `forever/collectibles/pets/condor-hatchling` | 1 | 1 |
+| `forever/collectibles/pets/dark-whelpling` | 1 | 1 |
+| `forever/collectibles/pets/disgusting-oozeling` | 3 | 4 |
+| `forever/collectibles/pets/flik` | 1 | 1 |
+| `forever/collectibles/pets/green-wing-macaw` | 4 | 3 |
+| `forever/collectibles/pets/hyacinth-macaw` | 2 | 2 |
+| `forever/collectibles/pets/lil-timmy` | 2 | 1 |
+| `forever/collectibles/pets/magus-tirth` | 1 | 1 |
+| `forever/collectibles/pets/mechanical-chicken` | 7 | 7 |
+| `forever/collectibles/pets/minimule` | 2 | 2 |
+| `forever/collectibles/pets/musical-gustjumper` | 3 | 3 |
+| `forever/collectibles/pets/narkk` | 1 | 1 |
+| `forever/collectibles/pets/shadowgale-squirrel` | 3 | 3 |
+| `forever/collectibles/pets/siamese-cat` | 2 | 1 |
+| `forever/collectibles/pets/smolderweb-carrier` | 2 | 2 |
+| `forever/collectibles/pets/spectral-bear-cub` | 3 | 2 |
+| `forever/collectibles/pets/tallstrider-hatchling` | 1 | 1 |
+| `forever/collectibles/pets/tiny-crimson-whelpling` | 1 | 1 |
+| `forever/collectibles/pets/tiny-emerald-whelpling` | 1 | 1 |
+| `forever/collectibles/pets/weevil-k-neevil` | 9 | 1 |
+| `forever/collectibles/pets/worg-carrier` | 4 | 3 |
+| `forever/exploration/eastern-kingdoms-1-30` | 8 | 8 |
+| `forever/exploration/eastern-kingdoms-30-45` | 6 | 6 |
+| `forever/exploration/eastern-kingdoms-45-60` | 10 | 8 |
+| `forever/exploration/kalimdor-1-30` | 5 | 6 |
+| `forever/exploration/kalimdor-30-45` | 5 | 1 |
+| `forever/exploration/kalimdor-45-60` | 2 | 2 |
+| `forever/exploration/zephras-isle` | 1 | 2 |
+| `forever/legacy/legacy-challenges` | 24 | 23 |
+| `forever/miscellaneous/cozy-sleeping-bag` | 5 | 3 |
+| `forever/miscellaneous/library-books` | 36 | 7 |
+| `forever/professions/alchemy` | 85 | 83 |
+| `forever/professions/blacksmithing` | 75 | 95 |
+| `forever/professions/cooking` | 58 | 56 |
+| `forever/professions/enchanting` | 44 | 67 |
+| `forever/professions/engineering` | 86 | 83 |
+| `forever/professions/first-aid` | 21 | 17 |
+| `forever/professions/fishing` | 15 | 15 |
+| `forever/professions/herbalism` | 24 | 21 |
+| `forever/professions/leatherworking` | 68 | 97 |
+| `forever/professions/mining` | 58 | 47 |
+| `forever/professions/skinning` | 48 | 44 |
+| `forever/professions/tailoring` | 62 | 61 |
+| `forever/reputation/alterac-valley` | 59 | 20 |
+| `forever/reputation/arathi-basin` | 49 | 11 |
+| `forever/reputation/argent-dawn` | 54 | 11 |
+| `forever/reputation/cenarion-circle` | 90 | 13 |
+| `forever/reputation/hydraxian-waterlords` | 28 | 12 |
+| `forever/reputation/merchants-favor` | 114 | 16 |
+| `forever/reputation/thorium-brotherhood` | 56 | 14 |
+| `forever/reputation/timbermaw-hold` | 41 | 16 |
+| `forever/reputation/warsong-gulch` | 30 | 11 |
+| `forever/alliance/02-westfall` | 26 | 12 |
+| `forever/alliance/03-darkshore` | 31 | 10 |
+| `forever/alliance/04-redridge-mountains` | 27 | 7 |
+| `forever/alliance/05-duskwood` | 30 | 12 |
+| `forever/alliance/06-ashenvale` | 54 | 27 |
+| `forever/alliance/07-thousand-needles` | 33 | 31 |
+| `forever/alliance/30-40/01-hillsbrad-foothills` | 29 | 20 |
+| `forever/alliance/30-40/02-desolace` | 10 | 7 |
+| `forever/alliance/30-40/03-ashenvale` | 16 | 13 |
+| `forever/alliance/30-40/04-stranglethorn-vale` | 35 | 11 |
+| `forever/alliance/30-40/05-arathi-highlands` | 38 | 16 |
+| `forever/alliance/30-40/06-badlands` | 23 | 18 |
+| `forever/alliance/40-50/01-stranglethorn-vale` | 74 | 20 |
+| `forever/alliance/40-50/02-badlands` | 19 | 14 |
+| `forever/alliance/40-50/03-feralas` | 18 | 11 |
+| `forever/alliance/40-50/04-tanaris` | 31 | 16 |
+| `forever/alliance/40-50/05-the-hinterlands` | 32 | 17 |
+| `forever/alliance/40-50/06-searing-gorge` | 33 | 10 |
+| `forever/alliance/40-50/07-un-goro-crater` | 31 | 34 |
+| `forever/alliance/50-60/01-burning-steppes` | 46 | 20 |
+| `forever/alliance/50-60/02-felwood` | 27 | 12 |
+| `forever/alliance/50-60/03-winterspring` | 35 | 16 |
+| `forever/alliance/50-60/04-western-plaguelands` | 94 | 32 |
+| `forever/alliance/50-60/05-silithus` | 9 | 26 |
+| `forever/alliance/50-60/06-silithus` | 67 | 38 |
+| `forever/alliance/human/01-elwynn-forest` | 51 | 28 |
+| `forever/alliance/nightelf/01-teldrassil` | 54 | 23 |
+| `forever/alliance/skyborne/01-zephras-isle` | 68 | 31 |
+| `forever/class/mage/astral-knot-garment` | 8 | 6 |
+| `forever/class/mage/manaweave-robe` | 7 | 5 |
+| `forever/class/paladin/cloak-of-the-divine-storm` | 8 | 8 |
+| `forever/class/paladin/holy-mightstone` | 16 | 9 |
+| `forever/class/paladin/verigans-fist` | 16 | 15 |
+| `forever/class/priest/confounding-flash-and-contingency-plan` | 26 | 3 |
+| `forever/class/priest/desperate-prayer-and-chastise` | 32 | 4 |
+| `forever/class/priest/divine-grace-and-feedback` | 27 | 3 |
+| `forever/class/priest/starshards-and-elunes-grace` | 35 | 3 |
+| `forever/class/rogue/blade-of-cunning-alliance` | 10 | 8 |
+| `forever/class/rogue/certificate-of-thievery` | 12 | 7 |
+| `forever/class/rogue/poisons-alliance` | 15 | 9 |
+| `forever/class/shaman/call-of-air-alliance` | 9 | 9 |
+| `forever/class/shaman/call-of-water-alliance` | 12 | 7 |
+| `forever/class/warlock/felhunter-alliance` | 11 | 7 |
+| `forever/class/warlock/incubus-alliance` | 19 | 7 |
+| `forever/class/warrior/fire-hardened-armor` | 20 | 18 |
+| `forever/class/warrior/haggards-weapons` | 29 | 6 |
+| `forever/collectibles/mounts/alliance/black-war-mounts` | 6 | 3 |
+| `forever/collectibles/mounts/alliance/horse` | 6 | 2 |
+| `forever/collectibles/mounts/alliance/mechanostrider` | 4 | 2 |
+| `forever/collectibles/mounts/alliance/pack-kodo` | 2 | 3 |
+| `forever/collectibles/mounts/alliance/paladin-charger` | 25 | 16 |
+| `forever/collectibles/mounts/alliance/paladin-warhorse` | 2 | 2 |
+| `forever/collectibles/mounts/alliance/ram` | 3 | 1 |
+| `forever/collectibles/mounts/alliance/saber` | 4 | 2 |
+| `forever/collectibles/mounts/alliance/stormpike-battle-charger` | 2 | 2 |
+| `forever/collectibles/mounts/alliance/swift-horse` | 3 | 1 |
+| `forever/collectibles/mounts/alliance/swift-mechanostrider` | 3 | 1 |
+| `forever/collectibles/mounts/alliance/swift-ram` | 3 | 1 |
+| `forever/collectibles/mounts/alliance/swift-saber` | 3 | 1 |
+| `forever/collectibles/mounts/alliance/winterspring-frostsaber` | 2 | 2 |
+| `forever/collectibles/pets/chicken-egg` | 2 | 2 |
+| `forever/collectibles/pets/donni-anthania` | 1 | 1 |
+| `forever/collectibles/pets/shylenai` | 1 | 1 |
+| `forever/collectibles/pets/yarlyn-amberstill` | 1 | 1 |
+| `forever/reputation/darnassus` | 50 | 9 |
+| `forever/reputation/gnomeregan-exiles` | 47 | 9 |
+| `forever/reputation/ironforge` | 47 | 9 |
+| `forever/reputation/stormwind` | 88 | 9 |
+| `forever/class/mage/ju-ju-heaps` | 12 | 3 |
+| `forever/class/mage/nether-lace-garment` | 7 | 6 |
+| `forever/class/mage/spellfire-robes` | 8 | 7 |
+| `forever/class/paladin/lumina-windsinger` | 29 | 9 |
+| `forever/class/paladin/tyrs-watch` | 36 | 17 |
+| `forever/class/priest/hex-of-weakness-and-shadowguard` | 24 | 3 |
+| `forever/class/priest/touch-of-weakness-and-dark-sacrifice` | 24 | 3 |
+| `forever/class/rogue/blade-of-cunning-horde` | 8 | 7 |
+| `forever/class/rogue/plundering-the-plunderers` | 7 | 5 |
+| `forever/class/rogue/poisons-horde` | 17 | 8 |
+| `forever/class/shaman/call-of-air-horde` | 12 | 11 |
+| `forever/class/shaman/call-of-water-horde` | 25 | 10 |
+| `forever/class/shaman/darkreaver` | 5 | 4 |
+| `forever/class/shaman/spirit-totem` | 12 | 8 |
+| `forever/class/warlock/felhunter-horde` | 12 | 8 |
+| `forever/class/warlock/incubus-horde` | 30 | 12 |
+| `forever/class/warrior/brutal-armor` | 19 | 18 |
+| `forever/class/warrior/heirloom-weapon` | 24 | 4 |
+| `forever/collectibles/mounts/horde/black-war-mounts` | 6 | 3 |
+| `forever/collectibles/mounts/horde/frostwolf-howler` | 2 | 2 |
+| `forever/collectibles/mounts/horde/great-kodo` | 3 | 1 |
+| `forever/collectibles/mounts/horde/kodo` | 5 | 2 |
+| `forever/collectibles/mounts/horde/pack-kodo` | 2 | 3 |
+| `forever/collectibles/mounts/horde/raptor` | 3 | 1 |
+| `forever/collectibles/mounts/horde/skeletal-horse` | 4 | 2 |
+| `forever/collectibles/mounts/horde/skeletal-warhorse` | 3 | 1 |
+| `forever/collectibles/mounts/horde/swift-raptor` | 3 | 1 |
+| `forever/collectibles/mounts/horde/swift-wolf` | 3 | 1 |
+| `forever/collectibles/mounts/horde/wolf` | 3 | 1 |
+| `forever/collectibles/pets/black-tabby` | 2 | 1 |
+| `forever/collectibles/pets/excitable-slime` | 3 | 2 |
+| `forever/collectibles/pets/halpa` | 1 | 1 |
+| `forever/collectibles/pets/jeremiah-payson` | 1 | 1 |
+| `forever/collectibles/pets/mayhoa-skyhoof` | 1 | 1 |
+| `forever/collectibles/pets/xantish` | 1 | 1 |
+| `forever/horde/02-the-barrens` | 20 | 17 |
+| `forever/horde/03-silverpine-forest` | 45 | 21 |
+| `forever/horde/04-the-barrens` | 47 | 30 |
+| `forever/horde/05-stonetalon-mountains` | 30 | 14 |
+| `forever/horde/06-hillsbrad-foothills` | 38 | 12 |
+| `forever/horde/07-ashenvale` | 37 | 15 |
+| `forever/horde/30-40/01-desolace` | 38 | 23 |
+| `forever/horde/30-40/02-stranglethorn-vale` | 35 | 31 |
+| `forever/horde/30-40/03-arathi-highlands` | 21 | 26 |
+| `forever/horde/30-40/04-dustwallow-marsh` | 30 | 15 |
+| `forever/horde/40-50/01-stranglethorn-vale` | 59 | 30 |
+| `forever/horde/40-50/02-feralas` | 35 | 34 |
+| `forever/horde/40-50/03-feralas` | 44 | 16 |
+| `forever/horde/40-50/04-tanaris` | 22 | 23 |
+| `forever/horde/40-50/05-the-hinterlands` | 25 | 26 |
+| `forever/horde/40-50/06-azshara` | 36 | 15 |
+| `forever/horde/50-60/01-un-goro-crater` | 51 | 35 |
+| `forever/horde/50-60/02-felwood` | 55 | 26 |
+| `forever/horde/50-60/03-winterspring` | 17 | 14 |
+| `forever/horde/50-60/04-azshara` | 14 | 8 |
+| `forever/horde/50-60/05-eastern-plaguelands` | 36 | 25 |
+| `forever/horde/50-60/06-silithus` | 50 | 15 |
+| `forever/horde/50-60/07-felwood` | 29 | 11 |
+| `forever/horde/skyborne/01-zephras-isle` | 73 | 47 |
+| `forever/horde/tauren/01-mulgore` | 47 | 14 |
+| `forever/horde/undead/01-tirisfal-glades` | 68 | 53 |
+| `forever/reputation/darkspear-trolls` | 67 | 9 |
+| `forever/reputation/orgrimmar` | 119 | 9 |
+| `forever/reputation/thunder-bluff` | 63 | 9 |
+| `forever/reputation/undercity` | 80 | 9 |
+
+**Lost guide translations** (kept at the end of each file):
+
+- `forever/class/druid/aquatic-form`: `{npc:4217} stands in the {area:1658}.`
+- `forever/class/druid/aquatic-form`: `Cast {spell:18960}. {npc:11802} is in {area:2361}. Shrine Baubles lie in the containers on the floor of {area:656}, below {area:2361}: take one to the {area:2362} on the north-west shore, use it there and speak to {npc:11799}.`
+- `forever/class/druid/aquatic-form`: `Fly from {area:2361} to {area:442}. The {object:177792} lies under the water off the north coast, west of the {area:443}.`
+- `forever/class/druid/aquatic-form`: `Take the boat from {area:442} to {zone:1453} and fly to {area:108}. Head north-west to the coast: the {object:177790} lies on the sea floor off the shore.`
+- `forever/class/druid/aquatic-form`: `Cast {spell:18960}. Join the two halves into the {item:15885} near the {area:2362}, on the north-west shore of the lake, then see {npc:11802} in {area:2361}. Fly to {area:702} afterwards.`
+- `forever/class/druid/aquatic-form`: `Take the portal up to {npc:4217} in the {area:1658}.` → maybe `Take the portal up to {npc:4217} in the {area:1658}. {quest:5061}: swim fast and breathe underwater.`
+- `forever/class/druid/aquatic-form`: `{npc:3033} stands on {area:1639}.`
+- `forever/class/druid/aquatic-form`: `Cast {spell:18960}. {npc:11802} is in {area:2361}. The Shrine Baubles lie on the bed of {area:656} and fade within minutes: swim one straight to the {area:2362} on the north-west shore, use it there and speak to {npc:11799}.`
+- `forever/class/druid/aquatic-form`: `Take {npc:11798}'s flight to {zone:1456}, fly to {zone:1454} and take the zeppelin to {zone:1420}; {zone:1421} is south of the {zone:1458}. The {object:177790} lies on the coast west of the {area:240}, north of the {area:228}.` → maybe `Take {npc:11798}'s flight to {zone:1456}, fly to {zone:1454} and take the zeppelin to {zone:1420}; {zone:1421} is south of the {zone:1458}. The {object:177790} lies at the bottom of very deep water off the coast north-west of the {area:228}, beside an air fissure where you can breathe: watch your breath on the way down.`
+- `forever/class/druid/aquatic-form`: `The {object:177792} lies at the north edge of the {area:382}, by the Venture Co. tower, north of the {area:380}.`
+- `forever/class/druid/aquatic-form`: `Cast {spell:18960}. Join the two halves into the {item:15885} near the {area:2362}, on the north-west shore of the lake, then see {npc:11802} in {area:2361}. {npc:11798} flies druids to {area:1638}.`
+- `forever/class/druid/bear-form`: `{npc:4217} stands in the {area:1658}.`
+- `forever/class/druid/bear-form`: `Cast {spell:18960}. {npc:11802} is in {area:2361}; the {quest:5929} sits in the woods to the north-west. Learn the {area:493} flight path, then fly to {area:702} (by way of {area:442}) and take the portal up to {zone:1457}.`
+- `forever/class/druid/bear-form`: `Fly from {area:702} to {area:442}. The {object:177525} stands in the hills just east of the village: use the {item:15208} there, defeat Lunaclaw and speak to the {npc:12144}.`
+- `forever/class/druid/bear-form`: `{npc:3033} stands on {area:1639}.`
+- `forever/class/druid/bear-form`: `Cast {spell:18960}. {npc:11802} is in {area:2361}; the {quest:5930} sits in the woods to the north-west. {npc:11798} in {area:2361} flies druids to {area:1638}.`
+- `forever/class/druid/bear-form`: `The {object:177525} stands in the pass from {zone:1412} into the {zone:1413}. Use the {item:15710} there, defeat Lunaclaw and speak to the {npc:12144}.`
+- `forever/class/druid/bear-form`: `{npc:255853} waits by the falls north-east of {area:16638}. {npc:258443} prowls the {area:16623}, west of {area:16638}.`
+- `forever/class/druid/bear-form`: `{npc:3033} trains druids on {area:1639}.`
+- `forever/class/druid/bear-form`: `The Skyborne Portal takes you to {zone:1453}. {npc:5504} is the city's druid trainer.`
+- `forever/class/druid/bear-form`: `Cast {spell:18960}. {npc:11802} is in {area:2361}. Learn the {area:493} flight path while you are here.`
+- `forever/class/druid/bloodpetal-poison`: `Experience in Un'Goro at 50 and two healing potions; Forever removed the Classic item choice.` → maybe `Experience in Un'Goro at 50 and two healing potions; the Classic item choice may be gone in Forever.`
+- `forever/class/druid/bloodpetal-poison`: `Cast {spell:18960}. {npc:12042} stands in {area:2361}; your class trainer offers the same quest.` → maybe `Cast {spell:18960}. {npc:12042} stands in {area:2361}; your class trainer ({npc:3033}, {npc:4217} or Theridran in {zone:1453}) offers the same quest.`
+- `forever/class/druid/bloodpetal-poison`: `The Gorishi wasps, workers and reavers of the hive in the south of the crater drop the stings; the Bloodpetal Sprouts that give the {item:22434} grow all over the crater's western half.`
+- `forever/class/druid/bloodpetal-poison`: `Use the {item:22432} on a {npc:6498}. Devilsaurs are elite (level 54-55) and roam the crater: grouping up is advised.`
+- `forever/class/druid/bloodpetal-poison`: `{area:1477} lies in the {area:74} in the {zone:1435}. {npc:8580} guards the bottom of the temple: a dungeon boss, so bring a group.`
+- `forever/class/druid/cat-form`: `{npc:4217} stands in the {area:1658}. Skyborne without the Rut'theran flight path: take the boat from {area:442}.`
+- `forever/class/druid/cat-form`: `{quest:98394} (Night Elves) waits on the southern hill above the bridge, the {npc:272054} (Skyborne) south of the twin bridges. The relics lie in the {area:2363} east of the lake: leave your form, click the statue at the entrance for five minutes of stealth, keep clear of the spirits inside and take one of each relic; the {item:280680} lies at the foot of the white cat statue. A relic gives no loot while another player is looting it: wait a moment and try again.`
+- `forever/class/druid/cat-form`: `Back to {npc:11802} in {area:2361}, then fly to {area:702}.`
+- `forever/class/druid/cat-form`: `Take the portal up to {npc:4217} in the {area:1658}.` → maybe `Take the portal up to {npc:4217}, upstairs in the {area:1658}: he teaches you {spell:768}.`
+- `forever/class/druid/cat-form`: `{npc:3033} stands on {area:1639}.`
+- `forever/class/druid/cat-form`: `{quest:98342} (Tauren) waits on the southern hill above the bridge, the {npc:272054} (Skyborne) south of the twin bridges. The relics lie in the {area:2363} east of the lake: leave your form, click the statue at the entrance for five minutes of stealth, keep clear of the spirits inside and take one of each relic; the {item:280680} lies at the foot of the white cat statue. A relic gives no loot while another player is looting it: wait a moment and try again.`
+- `forever/class/druid/cat-form`: `Back to {npc:11802} in {area:2361}, then take {npc:11798}'s flight to {area:1638}.`
+- `forever/class/druid/cure-poison`: `{npc:4217} stands in the {area:1658}.`
+- `forever/class/druid/cure-poison`: `Cast {spell:18960}. {npc:11802} is in {area:2361}. Then fly to {area:442}.`
+- `forever/class/druid/cure-poison`: `Head north-east from {area:442} to {area:445} and fill the {item:15844} at the mouth of the cave by the falls.`
+- `forever/class/druid/cure-poison`: `Back in {area:442}.`
+- `forever/class/druid/cure-poison`: `The Lunar Fungal Blooms grow in the moonkin caves in the hills just east of {area:442}; the moonkin there are irritable. {item:2449} needs {skill:182}: herbalists pick it all over {zone:1439}, anyone else buys it from {npc:1313} (Alchemy Supplies) in {zone:1453} or on the Auction House.` → maybe `The Lunar Fungal Blooms are tiny white-spotted mushrooms on the floors and walls of the small moonkin caves in the hills just east and south-east of {area:442}; each gives one or two fungus, and each cave holds only a few, so go from cave to cave (they regrow in three minutes). The moonkin there are irritable. No {skill:182} needed for the blooms. {item:2449} needs {skill:182}: herbalists pick it all over {zone:1439}, anyone else buys it ({npc:1313} or {npc:1302} in {zone:1453}, or the Auction House).`
+- `forever/class/druid/cure-poison`: `Use the {item:15826} on {npc:12298}. They roam {zone:1439} from the {area:456} in the north to the {zone:1440} border in the south.`
+- `forever/class/druid/cure-poison`: `Cast {spell:18960} and see {npc:11802}, then fly to {area:702} and take the portal up to {zone:1457}.`
+- `forever/class/druid/cure-poison`: `{npc:3033} stands on {area:1639}.`
+- `forever/class/druid/cure-poison`: `Cast {spell:18960}. {npc:11802} is in {area:2361}. {npc:11798} flies druids to {area:1638}; fly on to the {area:380} from there.` → maybe `Cast {spell:18960}: {npc:11802} stands upstairs in the building beside you. He hands you the {item:15842}. {npc:11798} flies druids to {area:1638}; fly on to the {area:380} from there.`
+- `forever/class/druid/cure-poison`: `From the {area:380} head north to {area:384} and fill the {item:15842} at the {object:19464}.`
+- `forever/class/druid/cure-poison`: `{npc:3448} stands in the {area:380}. No {skill:182}? {npc:3490}, a few steps away, sells {item:2449}, three at a time until he restocks.` → maybe `{npc:3448} stands in the {area:380}. No {skill:182}? {npc:3490}, a few steps away by the wind rider master, sells {item:2449} for 80 copper each, three at a time until he restocks.`
+- `forever/class/druid/cure-poison`: `Lost Barrens Kodos roam the plains north and west of the {area:380} and around the {area:388}; each drops a horn. Herbalists find {item:2449} all over the northern {zone:1413}.`
+- `forever/class/druid/cure-poison`: `Use the {item:15826} on Sickly Gazelles: they graze north of the road that runs east and west through the {area:380}.`
+- `forever/class/hunter/rhokdelar`: `The {object:179703} appears in {area:2717} when {npc:12018} yields; it holds the {item:18703} about half the time. {area:2717} is a 40-player raid inside {area:254}. Right-click the leaf to start the quest.` → maybe `{area:2717} is a 40-player raid inside {area:254}. When {npc:12018} yields, the {object:179703} appears; it holds the {item:18703} about half the time, one per kill, so it may take several weeks of raids. Right-click the leaf to start the quest.`
+- `forever/class/hunter/rhokdelar`: `Vartrus, Stoma and {npc:14526} stand together in the north of {zone:1448}. Alliance: {area:1998} is the nearest flight point; Horde: {area:1997}.`
+- `forever/class/hunter/rhokdelar`: `{npc:14531}, a tauren, waits in the north-east of {zone:1452}. Talk to him and he becomes {npc:14535}. Fight every demon alone and without your pet: help of any kind makes it vanish. Loot the head.`
+- `forever/class/hunter/rhokdelar`: `{npc:14527}, a troll, stands in the west of {zone:1449}. Talk to her and she becomes {npc:14533}, with a pet of her own. Alone, without your pet.`
+- `forever/class/hunter/rhokdelar`: `{npc:14536}, a gnome, stands in the south-west of {zone:1451}. Talk to him and he becomes {npc:14530}. Alone, without your pet; keep away from the beetles he calls.`
+- `forever/class/hunter/rhokdelar`: `{npc:14529}, a human, stands in the west of the {zone:1428}. Talk to him and he becomes {npc:14534}. Alone, without your pet.`
+- `forever/class/hunter/rhokdelar`: `Onyxia drops the {item:18705}; she is the 40-player raid boss of {area:2159}, a cave in the {area:511} of southern {zone:1445}.`
+- `forever/class/hunter/rhokdelar`: `Not confirmed in Forever. In Classic, using the {item:18707} with the {item:18724} in your bags made Rhok'delar, and Vartrus then gave {item:18715} ({spell:425121}).` → maybe `Not confirmed in Forever. In Classic, using the {item:18707} with the {item:18724} in your bags made Rhok'delar, and talking to Vartrus once more then gave {item:18715}, at no extra cost.`
+- `forever/class/hunter/rhokdelar`: `Hastat's quiver needs the {item:18704}. {npc:6109}, a world boss for a raid, roams the south of {zone:1447} and drops it most of the time; the Cobalt dragonkin of {zone:1452} drop it very rarely. Skip the rest of this guide if you do not want the quiver.`
+- `forever/class/hunter/the-hunters-charm`: `Experience at 50 through {zone:1447} and the {area:1417}; Forever removed the Classic item choice.` → maybe `Experience at 50 through {zone:1447} and the {area:1417}; Classic's item choice may be gone on Forever.`
+- `forever/class/hunter/the-hunters-charm`: `{npc:8405} lives atop the cliffs north-east of the {area:1221}. Alliance: fly to {area:3137}; Horde: fly to {area:1237}.`
+- `forever/class/hunter/the-hunters-charm`: `Mosshoof Coursers graze all over {zone:1447}; one in a dozen or so drops a pair of Perfect Courser Antlers.`
+- `forever/class/hunter/the-hunters-charm`: `Wavethrashers crawl along {zone:1447}'s coasts: Young Wavethrashers on the north-east shore and Wavethrashers on the east coast drop the scales about twice as often as the Great Wavethrashers of the south shore.`
+- `forever/class/hunter/the-hunters-charm`: `Morphaz is an elite dragon boss inside the {area:1417}, a five-player dungeon: bring a group. The temple stands in the middle of the {area:74}; swim down into it to reach the entrance. Horde: fly to {area:75}; Alliance: fly to {area:42} or {area:1438} and ride on.`
+- `forever/class/mage/arcane-refreshment`: `Fly to Feathermoon (Alliance) or {area:1099} (Horde) and ride to {area:2577} in central {zone:1444}. {npc:14368} waits in the Athenaeum, the library, reached through the West wing (or the North wing with a {item:18249}).`
+- `forever/class/mage/arcane-refreshment`: `Hydrospawn, a water elemental, lives in the Warpwood Quarter (Dire Maul East): chase the imp Pusillin until he turns to fight, clear the satyr room, then take the spiral ramp down to the pool.`
+- `forever/class/mage/celestial-orb`: `{npc:5497} in the Wizard's Sanctum, {zone:1453}'s {object:2101}, sends you back to {npc:6546}; Bink in {zone:1455} gives the same quest.` → maybe `{npc:5497} at the top of the Wizard's Sanctum, {zone:1453}'s {object:2101}, sends you back to {npc:6546}; Bink in {zone:1455} gives the same quest.`
+- `forever/class/mage/celestial-orb`: `{npc:5885}, one of {zone:1454}'s mage trainers, sends you back to {npc:6546}; {npc:4568} in the {zone:1458} and {npc:3048} in {zone:1456} give the same quest.` → maybe `{npc:5885}, one of {zone:1454}'s mage trainers in {object:173161}, sends you back to {npc:6546}; {npc:4568} in the {zone:1458} and {npc:3048} in {zone:1456} give the same quest.`
+- `forever/class/mage/celestial-orb`: `{npc:6546}'s cottage is deep in the marsh west of Theramore, just north of the {area:508}.` → maybe `{npc:6546}'s cottage is deep in the marsh west of Theramore, just north of the {area:508}; come in from the west road, the elites roam its east side.`
+- `forever/class/mage/celestial-orb`: `The Burning Blade Summoners work the {area:602} in southern {zone:1443}; any of them carries an {item:7291}.`
+- `forever/class/mage/celestial-orb`: `{npc:6546} draws the demon out of the orb beside her cottage. The {npc:6549} is elite: grouping up is advised. You have three minutes before it slips back into the orb.`
+- `forever/class/mage/celestial-orb`: `{area:1517} is a dungeon in the northern {zone:1418}, by the {object:178824}: a group of five. Defeat the {npc:7023} inside for its power source.`
+- `forever/class/mage/celestial-orb`: `Back to {npc:6546}. She opens a mana rift beside her cottage: kill twelve {quest:1957} within ten minutes.`
+- `forever/class/mage/destroy-morphaz`: `Experience at 50 through {zone:1447} and the {area:1417}; Forever removed the Classic item choice.` → maybe `Experience at 50 through {zone:1447} and the {area:1417}; Classic's item choice may be gone on Forever.`
+- `forever/class/mage/destroy-morphaz`: `{npc:7311}, one of {zone:1454}'s mage trainers, gives it; so do {npc:4567} in the {zone:1458} and {npc:3047} in {zone:1456}.` → maybe `{npc:7311}, one of {zone:1454}'s mage trainers in {object:173161}, gives it; so do {npc:4567} in the {zone:1458} and {npc:3047} in {zone:1456}.`
+- `forever/class/mage/destroy-morphaz`: `Fly to {area:3137} (Alliance) or {area:1237} (Horde). {npc:8395} camps below his master's tower: from the fork of {zone:1447}'s main road at the {area:1221}, head straight north to the cliffs. He teleports you up to {npc:8379}.` → maybe `Fly to {area:3137} (Alliance) or {area:1237} (Horde). {npc:8395} camps below his master's tower, a short way east of {area:1237}: from the fork of {zone:1447}'s main road at the {area:1221}, head straight north to the cliffs. Get off your mount before he teleports you up, or the teleport may not take you. A trail with no enemies climbs to {npc:8379} at the top of the tower; an attendant at the top sends you back down, as often as you like.`
+- `forever/class/mage/destroy-morphaz`: `The blood elves camp along the cliffs of north-eastern {zone:1447}; Blood Elf Surveyors and Reclaimers drop the dust.`
+- `forever/class/mage/destroy-morphaz`: `The Spitelash Sirens walk the ruins and beaches around the {area:1221} and the bay; they carry the coral.`
+- `forever/class/mage/destroy-morphaz`: `Morphaz, a green drake, waits deep in the {area:1477}, the {area:1417} in the {area:74}: a group of five, level 50-54. Kill him for the {item:20085}.`
+- `forever/class/mage/destroy-morphaz`: `Back to {zone:1447}, {npc:8395} and the tower.`
+- `forever/class/mage/mages-wand`: `{npc:5497} in the Wizard's Sanctum, {zone:1453}'s {object:2101}, sends you to {npc:6546}; Bink in {zone:1455} gives the same quest.` → maybe `{npc:5497} at the top of the Wizard's Sanctum, {zone:1453}'s {object:2101}, sends you to {npc:6546}; Bink in {zone:1455} gives the same quest.`
+- `forever/class/mage/mages-wand`: `{npc:5885}, one of {zone:1454}'s mage trainers, sends you to {npc:6546}; {npc:4568} in the {zone:1458} and {npc:3048} in {zone:1456} give the same quest.` → maybe `{npc:5885}, one of {zone:1454}'s mage trainers in {object:173161}, sends you to {npc:6546}; {npc:4568} in the {zone:1458} and {npc:3048} in {zone:1456} give the same quest.`
+- `forever/class/mage/mages-wand`: `{npc:6546}, a hermit, lives in a cottage deep in the marsh west of Theramore, just north of the {area:508}.`
+- `forever/class/mage/mages-wand`: `Tirth's apprentice is "Plucky" Johnson, a small grey chicken by the race track. Target him and type /beckon: he turns human for a moment, long enough to talk to him.`
+- `forever/class/mage/mages-wand`: `Tirth sold the book to the Scarlet Brotherhood. The {area:796} stands in north-eastern {zone:1420}; take the Library wing. The book juts out of the wall on the left as you enter the Athenaeum, before {npc:6487}.`
+- `forever/class/mage/mages-wand`: `Back to {npc:6546}`
+- `forever/class/mage/mages-wand`: `Witherbark trolls`
+- `forever/class/mage/mages-wand`: `The Witherbark trolls hold south-eastern {zone:1417}; every one of them can drop a {item:7273}. Then take the ten sticks north-west to the binding circle where they become the {item:7272}. {npc:6546} also wants a {item:1529}: buy one at an Auction House on the way; miners sometimes find one in Tin Veins.`
+- `forever/class/mage/polymorph-pig`: `Fly to {area:3137} (Alliance) or {area:1237} (Horde). {npc:8395} camps below {npc:8379}'s tower: from the fork of {zone:1447}'s main road at the {area:1221}, head straight north to the cliffs. He teleports you up to the Archmage.` → maybe `Fly to {area:3137} (Alliance) or {area:1237} (Horde). {npc:8395} camps below {npc:8379}'s tower, a short way east of {area:1237}: from the fork of {zone:1447}'s main road at the {area:1221}, head straight north to the cliffs. Dismount, and he teleports you up; a trail climbs to the Archmage at the top of the tower.`
+- `forever/class/mage/polymorph-pig`: `Krellian hides behind his Spitelash guards in the {area:1223}, the biggest building in the middle of the {area:1221}. He drops the {item:23250}.`
+- `forever/class/mage/polymorph-pig`: `Carry the {item:23250} back to the {area:1221}. Polymorph a Spitelash naga and wait a few seconds: it splits into small Polymorph Clones. Kill the clones quickly; the shell collects their essence.`
+- `forever/class/priest/benediction`: `{npc:14494}'s splinter and the two Eyes make {item:18608}, the epic priest staff that turns into Anathema.`
+- `forever/class/priest/benediction`: `You need {item:18646} first: it comes from the {object:179703} after {npc:12018} in {area:2717}. {item:18665} drops from elite demons ({npc:12397}, a world boss, always; Doomguard Commanders and Manahounds rarely); it binds when equipped, so buying one works too.`
+- `forever/class/priest/benediction`: `Equip {item:18646} to see {npc:14494}, a ghost on the mountainside in the north-west of the {zone:1423}. Come with full mana, Major Mana Potions and {item:8956}: if you fail, the event takes about two hours to return.`
+- `forever/class/priest/benediction`: `Save 50 peasants before 15 die. Kill the skeletons that attack them, cure their diseases (the purple ones first) and heal the wounded with {spell:139}. Friends may buff you beforehand but must stay out of the fight, or a demon appears and kills everyone.`
+- `forever/class/priest/benediction`: `With both Eyes in your bags: {item:18608}` → maybe `Use the {item:18659} with both Eyes in your bags: {item:18608}`
+- `forever/class/priest/blood-of-morphaz`: `Experience and gold at 50 through {zone:1447} and the {area:1417}; Forever removed the Classic item choice.`
+- `forever/class/priest/blood-of-morphaz`: `Experience and gold`
+- `forever/class/priest/blood-of-morphaz`: `{quest:8254} (Alliance)`
+- `forever/class/priest/blood-of-morphaz`: `At 50 {npc:5489} in {zone:1453}'s Cathedral of Light or {npc:11406} in {zone:1455}'s {object:32386} offers it.`
+- `forever/class/priest/blood-of-morphaz`: `{quest:8254} (Horde)`
+- `forever/class/priest/blood-of-morphaz`: `At 50 {npc:6018} in {zone:1454}'s {object:172961} offers it.`
+- `forever/class/priest/blood-of-morphaz`: `{npc:8405} lives atop the cliffs north-east of the {area:1221}. Alliance: fly to {area:3137}; Horde: fly to {area:1237}.`
+- `forever/class/priest/blood-of-morphaz`: `Mosshoof Coursers graze all over {zone:1447}; about one in three drops a {item:20027}.`
+- `forever/class/priest/blood-of-morphaz`: `Any undead can drop it. The {npc:7864} in the {area:1221}, below {npc:8405}'s cliffs, are the nearest; Highborne Apparitions and Lichlings haunt the ruins near {area:3137}.`
+- `forever/class/priest/blood-of-morphaz`: `Morphaz is an elite dragon boss inside the {area:1417}, a level 50 dungeon: bring a group of five. The temple stands in the middle of the {area:74}; swim down into it to reach the entrance. Horde: fly to {area:75}; Alliance: fly to {area:42} or {area:1438} and ride on.`
+- `forever/class/priest/blood-of-morphaz`: `{npc:10922} is at the {area:2479} in southern {zone:1448}.`
+- `forever/class/rogue/ravenholdt`: `Opens {area:3486}, the hidden rogue house in the Alterac hills, and its first jobs.` → maybe `Opens {area:3486}, the hidden rogue house in the Alterac hills, and {npc:13085}'s jobs against the Syndicate.`
+- `forever/class/rogue/ravenholdt`: `At 24 an {item:17126} from {npc:13936} starts this; the data gives it to you through {npc:332} or {npc:918} in {zone:1453}, or Gest or Ormok in {zone:1454}. The quest hands you the {item:17125} for {npc:6707}.`
+- `forever/class/rogue/ravenholdt`: `Horde fly to {area:272}, Alliance to {area:271}. The manor hides in the hills east of {area:272}, up a path into the {zone:1416}; the Rite of Cunning is passing its way in.`
+- `forever/class/rogue/ravenholdt`: `Rite of Cunning`
+- `forever/class/rogue/ravenholdt`: `{npc:266216} is inside {area:275}, the Syndicate fortress in eastern {area:287}, south of the manor. Quick and quiet, says {npc:13085}.`
+- `forever/class/rogue/ravenholdt`: `At 36, {npc:13085} sends you after Barton's scouting report. Barton leads a Syndicate party at {area:280}, in the east of the {zone:1416}: pick his pocket, do not kill him.`
+- `forever/class/rogue/ravenholdt`: `{item:275482}: pickpocket Barton`
+- `forever/class/rogue/the-azure-key`: `Ravenholdt reputation and experience at 50; Forever removed the Classic item choice.` → maybe `Ravenholdt reputation and experience at 50; Classic's item choice may be gone on Forever.`
+- `forever/class/rogue/the-azure-key`: `At 50 {npc:918} in {zone:1453}'s {object:2100} has it; so do Syurna in {zone:1457} and {npc:5165} and Fenthwick in {zone:1455}.` → maybe `At 50 {npc:918} in {zone:1453}'s {object:2100} has it; so do Syurna in {zone:1457} and {npc:5165} in {zone:1455}.`
+- `forever/class/rogue/the-azure-key`: `{area:3486} hides in the hills east of {area:272}, up a path into the {zone:1416}. Horde fly to {area:272}, Alliance to {area:271}.`
+- `forever/class/rogue/the-azure-key`: `Alliance fly to {area:3137}, Horde to {area:1237}. The Timbermaw Shamans in {zone:1447}'s northern hills drop the bag, about one in thirty.`
+- `forever/class/rogue/the-azure-key`: `The Forest Oozes of southern {zone:1447} drop the fragments.`
+- `forever/class/rogue/the-azure-key`: `Morphaz, a green drake, is an elite boss deep in the {area:1417}, a level 50 dungeon: bring a group of five. The temple stands in the {area:74}; swim down to the entrance. Horde: fly to {area:75}; Alliance: fly to {area:1438} and ride on.`
+- `forever/class/rogue/the-azure-key`: `{npc:6768}: no item choices in Forever`
+- `forever/class/rogue/the-eye-of-bhossca`: `The {object:410369} is a chest near {area:204} in southern Silverpine, just south of {area:236}. C's next note waits there once you are 25.`
+- `forever/class/rogue/the-eye-of-bhossca`: `The monastery stands in the far north-east of {zone:1420}. Go in alone; C advises a disguise from the monastery's grounds before you enter.`
+- `forever/class/rogue/the-eye-of-bhossca`: `Find the Eye of Bhossca inside the {area:796}.`
+- `forever/class/rogue/the-eye-of-bhossca`: `Place the eye in the {object:410369} near Pyrewood. C's payment is the second Eye of Bhossca quest at the same chest.`
+- `forever/class/rogue/the-horn-of-xelthos`: `The {object:410369} is a chest near {area:204} in southern Silverpine, just south of {area:236}. Read C's note.` → maybe `The {object:410369} is a chest in a house just outside {area:204} in southern Silverpine, south of {area:236}. Open it and read C's note: the job has to be done alone, out of any group.`
+- `forever/class/rogue/the-horn-of-xelthos`: `{npc:4086}, a goblin friendly to both factions, stands among the Venture Co. in the {area:461}, east Stonetalon. Horde fly to {area:460}; Alliance to {area:467}. He wants a {item:210187} before he hands over explosives: the Venture Co. Loggers around him carry them.` → maybe `{npc:4086}, a goblin friendly to both factions, stands among the Venture Co. in the {area:461}, east Stonetalon, a short way north-east of {area:460}. Horde fly to {area:460}; Alliance to {area:467}. He wants a {item:210187} before he hands over explosives: the Venture Co. Loggers (level 18) working around him carry them.`
+- `forever/class/rogue/the-horn-of-xelthos`: `Go in alone. The {item:210186} gets you past the courtyard gate; the data does not say where in the keep the horn lies.`
+- `forever/class/rogue/the-horn-of-xelthos`: `Place the horn in the {object:410369} near Pyrewood. C's payment is the second {item:210183} quest at the same chest.`
+- `forever/class/warlock/enchanted-gold-bloodrobe`: `At 31 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:6266} in {area:392}.` → maybe `At 31 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:6266} in {area:392}. Buy a {item:5770} and a {item:3577} first (next steps) to save a trip.`
+- `forever/class/warlock/enchanted-gold-bloodrobe`: `At 31 {npc:5172} in {zone:1455} sends you to {npc:6266} in {area:392}.`
+- `forever/class/warlock/enchanted-gold-bloodrobe`: `At 31 {npc:3326} in the {object:172960} sends you to {npc:6266} in {area:392}.` → maybe `At 31 {npc:3326} in the {object:172960} sends you to {npc:6266} in {area:392}. Buy a {item:5770} and a {item:3577} first (next steps) to save a trip.`
+- `forever/class/warlock/enchanted-gold-bloodrobe`: `At 31 {npc:4563} in the {object:36082} sends you to {npc:6266} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}.` → maybe `At 31 {npc:4563} in the {object:36082} sends you to {npc:6266} in {area:392}; the zeppelin from {zone:1420} flies to {zone:1411}. Buy a {item:5770} and a {item:3577} first (next steps) to save a trip.`
+- `forever/class/warlock/enchanted-gold-bloodrobe`: `{npc:6266} stands in the tower on the hill above {area:392}, beside {npc:6251}.`
+- `forever/class/warlock/enchanted-gold-bloodrobe`: `Bring {npc:6266} a {item:5770}: tailors sew it from a pattern that drops; otherwise buy one at the Auction House. Her next errand needs a {item:3577}: smelted from {item:2776}, or from the Auction House.`
+- `forever/class/warlock/enchanted-gold-bloodrobe`: `{npc:2670} sells tailoring supplies in {area:35}. Bring him the {item:3577}.`
+- `forever/class/warlock/enchanted-gold-bloodrobe`: `The Hatefury satyrs of {area:603}, in north-eastern {zone:1443}, carry the blood; the Lesser Infernals of Mannoroc Coven, in the south, the stone.`
+- `forever/class/warlock/enchanted-gold-bloodrobe`: `{npc:2670} in {area:35} has the thread for you.`
+- `forever/class/warlock/enchanted-gold-bloodrobe`: `The Burning Exiles, fire elementals in western {zone:1417}, drop the coal.`
+- `forever/class/warlock/enchanted-gold-bloodrobe`: `Back to {npc:6266} with the thread, the coal and a {item:6265}. Wait while she completes the robe, then speak to her again.` → maybe `Back to {npc:6266} with the thread, the coals and a {item:6265}. Then wait beside her while she works the robe (do not attack her: the quest log calls it a kill), and speak to her again.`
+- `forever/class/warlock/enchanted-gold-bloodrobe`: `Wait for the robe`
+- `forever/class/warlock/impsys-request`: `At 50 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:14470} in {zone:1448}.` → maybe `At 50 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:14470} in {zone:1448} with a piece of {item:14256}.`
+- `forever/class/warlock/impsys-request`: `At 50 {npc:5172} in {zone:1455} sends you to {npc:14470} in {zone:1448}.` → maybe `At 50 {npc:5172} in {zone:1455} sends you to {npc:14470} in {zone:1448} with a piece of {item:14256}.`
+- `forever/class/warlock/impsys-request`: `At 50 {npc:3326} in the {object:172960} sends you to {npc:14470} in {zone:1448}.` → maybe `At 50 {npc:3326} in the {object:172960} sends you to {npc:14470} in {zone:1448} with a piece of {item:14256}.`
+- `forever/class/warlock/impsys-request`: `At 50 {npc:4563} in the {object:36082} sends you to {npc:14470} in {zone:1448}.` → maybe `At 50 {npc:4563} in the {object:36082} sends you to {npc:14470} in {zone:1448} with a piece of {item:14256}.`
+- `forever/class/warlock/impsys-request`: `{npc:14470} wants one {item:14256}: the Jadefire satyrs and the demons of {area:1763} drop it.`
+- `forever/class/warlock/impsys-request`: `{npc:14470} waits beside {npc:14469} in central {zone:1448}, just east of {area:1763}. This chain is {npc:14470}'s own and is not part of the Dreadsteed chain; Niby and {npc:14470} also give the {item:18762} chain here.`
+- `forever/class/warlock/impsys-request`: `The Irontree treants in northern {zone:1448} drop the {item:20613}; the Tainted Oozes around {area:1763} the {item:20614}.`
+- `forever/class/warlock/impsys-request`: `The six troll guardians of the {area:1417}, a level 50 dungeon, each drop a Voodoo Feather: bring a group of five. The temple stands in the middle of the {area:74}; swim down into it to reach the entrance.`
+- `forever/class/warlock/orb-of-orahil`: `{npc:6266} and her two acolytes stand in the tower on the hill above {area:392}, beside {npc:6251}.` → maybe `{npc:6266} and her two acolytes stand in {npc:6251}'s tower on the hill above {area:392}.`
+- `forever/class/warlock/orb-of-orahil`: `Pick one acolyte: you can take only one of their quests. {npc:6254}'s felhound path ends with the Orb or {item:15106}, {npc:6252}'s infernal path with the Orb or {item:15105}. The guide follows the one you take.` → maybe `Pick one acolyte: you can take only one of their quests. {npc:6254}'s felhound path ends with the Orb or {item:15106}, the shadow versions; {npc:6252}'s infernal path with the Orb or {item:15105}, much the same items on the fire side. Most warlocks lean on shadow, but compare the four in their tooltips first. The guide follows the one you take. Keep the ruby or the emerald: it is handed back.`
+- `forever/class/warlock/orb-of-orahil`: `The demons of {area:602}, in southern {zone:1443}, have all you need. Burning Blade Summoners carry the {item:7291}. On the felhound path, use the {item:12647} on a {npc:4678}, a felhound, and kill it for its spirit; on the infernal path, use the {item:12646} on a {npc:4676} and kill it.`
+- `forever/class/warlock/orb-of-orahil`: `{item:12648}, from a {npc:4678}` → maybe `{item:12648}, from a {npc:4678}, {npc:4681} or {npc:4685}`
+- `forever/class/warlock/orb-of-orahil`: `Back to {npc:6266} in the tower above {area:392} with the spirit first: {npc:6546}'s cleansing follows it.` → maybe `Back to {npc:6266} in the tower above {area:392} with the spirit and the gem first: her orb follows from it.`
+- `forever/class/warlock/orb-of-orahil`: `{npc:6546} lives at her farm in western {zone:1445}. She calls the {npc:6549} out of the {item:7291}; it is elite: grouping up is advised.`
+- `forever/class/warlock/orb-of-orahil`: `Back to {npc:6266} in the tower above {area:392} with the cleansed orb. On the felhound path, wait while she completes the {item:15108}, then speak to her again.` → maybe `Back to {npc:6266} in the tower above {area:392} with the cleansed orb. On the felhound path, accept her last quest and wait beside her while she completes the {item:15108} (do not attack her: the quest log calls it a kill), then speak to her again and pick the off-hand orb or the staff.`
+- `forever/class/warlock/orb-of-orahil`: `Wait for the orb`
+- `forever/class/warlock/orb-of-orahil`: `On the infernal path, wait while {npc:6266} completes the {item:15107}, then speak to her again.` → maybe `On the infernal path, accept her last quest and wait beside {npc:6266} while she completes the {item:15107}, then speak to her again and pick the off-hand orb or the staff.`
+- `forever/class/warlock/orb-of-soranruk`: `A rare off-hand orb or staff for your late 20s, for fragments from two dungeons.` → maybe `A rare off-hand orb or staff for your 20s, for fragments from two dungeons.`
+- `forever/class/warlock/orb-of-soranruk`: `{npc:6247} camps in the southern {zone:1413}, east of the road north-east of {area:378}.`
+- `forever/class/warlock/orb-of-soranruk`: `The Twilight Acolytes inside {area:2797}, a level 24-32 dungeon, each drop a {item:6914}: bring a group. The entrance is in the ruins on the north-west coast of {zone:1440}.`
+- `forever/class/warlock/orb-of-soranruk`: `{item:6914}, from the Twilight Acolytes`
+- `forever/class/warlock/orb-of-soranruk`: `The Shadowfang Darksouls inside {area:236}, a level 20-30 dungeon, drop the Large Fragment about one time in five: bring a group. The keep stands south of the {area:228}.`
+- `forever/class/warlock/orb-of-soranruk`: `{item:6915}, from the Shadowfang Darksouls` → maybe `{item:6915}, from the Shadowfang Darksouls inside`
+- `forever/class/warlock/shard-of-the-green-flame`: `At 50 {npc:14469} and his imp {npc:14470} wait in central {zone:1448}, just east of {area:1763}.`
+- `forever/class/warlock/shard-of-the-green-flame`: `The Jaedenar Legionnaires, a short way west of {npc:14469}, carry {area:1763}'s essence.`
+- `forever/class/warlock/shard-of-the-green-flame`: `The Legashi satyrs of northern {zone:1447} carry {zone:1447}'s essence.`
+- `forever/class/warlock/shard-of-the-green-flame`: `The Felguard Sentries around the {area:72}, in southern {zone:1419}, carry its essence.`
+- `forever/class/warlock/shard-of-the-green-flame`: `{npc:14467}' remains lie in {area:1766}, north of {npc:14469}. Use the {item:18626} beside them and kill the infernal when he wakes. {npc:14467} is elite: grouping up is advised.`
+- `forever/class/warlock/tome-of-sacrifice`: `At 60 {npc:14463} waits in the {area:73}, in western {zone:1419}.`
+- `forever/class/warlock/tome-of-sacrifice`: `The Wildspawn satyrs of the Warpwood Quarter, {area:2577}'s eastern wing, carry the blood. The back door at {area:2518}, north of {area:1099}, needs the {item:18249}; otherwise go in by {area:2577}'s main entrance. Bring a group.`
+- `forever/class/warlock/tome-of-sacrifice`: `{item:18603}, inside the Warpwood Quarter`
+- `forever/class/warlock/tome-of-sacrifice`: `The Hederine demons hold {area:2256}, in southern {zone:1452}. They are elite: grouping up is advised.`
+- `forever/class/warlock/tome-of-sacrifice`: `Hand both in to {npc:14463}, then find the {npc:12396} in the {area:73} and use the {item:18601} on him. He is elite and fights to escape: grouping up is advised.`
+- `forever/class/warlock/tome-of-sacrifice`: `{item:18601}, on the {npc:12396}` → maybe `{item:18601}, on a {npc:12396}`
+- `forever/class/warrior/voodoo-feathers`: `Experience at 50, ending in the {area:1417}; Forever removed the Classic item choice.` → maybe `Experience at 50, ending in the {area:1417}; Classic's item choice may be gone on Forever.`
+- `forever/class/warrior/voodoo-feathers`: `At 50, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to the {npc:7572} in the {zone:1435}.` → maybe `At 50, {npc:5479}, beside {npc:5480} in the warrior trainers' building of {object:2100}, sends you to the {npc:7572} in the {zone:1435}.`
+- `forever/class/warrior/voodoo-feathers`: `The {npc:7572} stands in the south-west of the {zone:1435}, at the entrance to the {zone:1419}.`
+- `forever/class/warrior/voodoo-feathers`: `The Helboars roam the north of the {zone:1419}, south of the {npc:10996}.`
+- `forever/class/warrior/voodoo-feathers`: `The Shadowsworn cultists hold the east of the {zone:1419}.`
+- `forever/class/warrior/voodoo-feathers`: `The {area:1417} lies under the {area:74} in the east of the {zone:1435}. Each of the six Atal'ai trolls on the balcony drops a voodoo feather: Gasher or {npc:5716} the amber, Hukku or Mijan the blue, Zolo or Loro the green. The {area:1417} is a dungeon and the trolls are elite: grouping up is advised.`
+- `forever/class/warrior/whirlwind-weapon`: `At 30, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to {npc:6236} on {area:720} in the {zone:1413}.` → maybe `At 30, {npc:5479}, beside {npc:5480} in the warrior trainers' building of {object:2100}, sends you to {npc:6236} on {area:720} in the {zone:1413}.`
+- `forever/class/warrior/whirlwind-weapon`: `Head south along the coast from {area:392} to {area:720}. {npc:6236} stands by the arena: step on the grate to start the fight; the challengers come one at a time, then {npc:6238} (33).`
+- `forever/class/warrior/whirlwind-weapon`: `Defeat the challengers and {npc:6238}`
+- `forever/class/warrior/whirlwind-weapon`: `{npc:6176} camps in the south-east of {zone:1416}, above {zone:1424}; his cauldron stands beside him. He asks for a {item:3357}, a {item:3901} and the {quest:1714}, which his cauldron brews from three charms.`
+- `forever/class/warrior/whirlwind-weapon`: `Three kinds of elemental exiles roam {zone:1417}: Burning Exiles in the north-west, Thundering Exiles in the middle, Cresting Exiles in the north-east. Each drops its charm.`
+- `forever/class/warrior/whirlwind-weapon`: `{item:4479} from the Burning Exiles` → maybe `{item:4479}, from Burning Exiles`
+- `forever/class/warrior/whirlwind-weapon`: `{item:4480} from the Thundering Exiles` → maybe `{item:4480}, from Thundering Exiles`
+- `forever/class/warrior/whirlwind-weapon`: `{item:4481} from the Cresting Exiles` → maybe `{item:4481}, from Cresting Exiles`
+- `forever/class/warrior/whirlwind-weapon`: `{item:3357}: {skill:182}, or the auction house`
+- `forever/class/warrior/whirlwind-weapon`: `The Bloodscalp trolls hold the north-west of {zone:1434}; they drop the {item:3901}.`
+- `forever/class/warrior/whirlwind-weapon`: `{quest:1712} waits just north of {npc:6176}'s camp and carries the {item:6894}. {quest:1712} is elite: grouping up is advised.`
+- `forever/class/warrior/whirlwind-weapon`: `{item:6894} from {quest:1712}` → maybe `{item:6894}, from {quest:1712}`
+- `forever/collectibles/mounts/neutral/galestrider`: `Galestriders need level 40 and {skill:762} ({spell:1285849} comes with it in the Forever client). Any riding trainer of your faction teaches it; see the Level 40 mount guides for where.` → maybe `Galestriders need level 40 and {skill:762}. Train it at your own race's riding trainer; see the Level 40 mount guides for where.`
+- `forever/collectibles/mounts/neutral/galestrider`: `{npc:265756} is in {area:16638}, the island's harbour town, near the skyboat docks. The Forever client lists each Galestrider at 20g; choose one.` → maybe `{npc:265756} is at the {area:17684} in {area:16638}, the island's harbour town, near the skyboat docks. The Forever client lists each Galestrider at 20g; choose one.`
+- `forever/collectibles/mounts/neutral/spectral-bear`: `The reins need level 60 and Journeyman {skill:762} (Forever client). Train it at your race's riding trainer; see the Level 60 mount guides.` → maybe `The bear runs at full speed: riding it needs level 60 and Journeyman {skill:762} (Forever client), from your race's riding trainer; see the Level 60 mount guides.`
+- `forever/collectibles/mounts/neutral/spectral-bear`: `Legacy Points are account-wide: each Legacy Challenge (a class reaching 25, 45 and 60, professions, PvP, exploring) is worth one. The Progress Track gives the {item:281060} at 15, the {npc:268840} at 25, the {item:277717} at 40 and the reins at 55. How rewards are delivered is not known yet (perhaps by mail); this goal ticks once the reins are in your bags.`
+- `forever/collectibles/mounts/neutral/swift-galestrider`: `Swift Galestriders need level 60 and Journeyman {skill:762} from a riding trainer of your faction; see the Level 60 mount guides for where.` → maybe `Swift Galestriders need level 60 and Journeyman {skill:762}. Train it at your own race's riding trainer; see the Level 60 mount guides for where.`
+- `forever/collectibles/mounts/neutral/swift-galestrider`: `{npc:265756} is in {area:16638}, the island's harbour town, near the skyboat docks. The Forever client lists each Swift Galestrider at 200g; choose one.` → maybe `{npc:265756} is at the {area:17684} in {area:16638}, the island's harbour town, near the skyboat docks. The Forever client lists each Swift Galestrider at 200g; choose one.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `Your epic mount at 60: summoned anywhere, with no gold spent on an epic horse.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `At 60 {npc:5520} in the {object:2164} sends you to {quest:7562} in the {zone:1428}.` → maybe `At 60 {npc:5520}, the demon trainer in the {object:2164}, sends you to {quest:7562} in the {zone:1428}.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `At 60 {npc:6382} in {zone:1455} sends you to {quest:7562} in the {zone:1428}.` → maybe `At 60 {npc:6382}, the demon trainer in {zone:1455}, sends you to {quest:7562} in the {zone:1428}.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `At 60 {npc:5815} in the {object:172960} sends you to {quest:7562} in the {zone:1428}.` → maybe `At 60 {npc:5815}, the demon trainer in the {object:172960}, sends you to {quest:7562} in the {zone:1428}.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `At 60 {npc:5753} in the {object:36082} sends you to {quest:7562} in the {zone:1428}.` → maybe `At 60 {npc:5753}, the demon trainer in the {object:36082}, sends you to {quest:7562} in the {zone:1428}.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `{quest:7562} and his goblin {npc:14437} camp at the {area:255}, in the north-west of the {zone:1428}, west of {area:254}. The chain is long, costs gold at {npc:14437}'s and ends in two dungeons.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `The owlbeasts of {zone:1452} drop the blood, about one in three: the Ragged and Raging Owlbeasts west of and around {area:2255}, the Crazed, Moontouched and {spell:417141} ones in the east. While you hunt, start on the materials of the next step: the Auction House has them all.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `Back to {npc:14436}, then hand his {item:18591} to {npc:14437} beside him. {npc:14436} then asks for three ritual pieces and {npc:14437} sends you to {zone:1448}: buy two Shadowy Potions from {npc:14437} for that trip.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `{npc:14437} wants 10 Elixirs of Shadow Power ({skill:171}), 6 Large Brilliant Shards ({skill:333}), 25 {item:11370} ({skill:186}, in {area:1584} and the {zone:1427}) and 35 Black Dragonscales ({skill:393}, black dragonkin of the {zone:1428}). Make or gather what your professions allow; buy the rest at the Auction House.` → maybe `{npc:14437} wants 10 Elixirs of Shadow Power ({skill:171}: 3 Ghost Mushrooms and a {item:8925} each), 6 Large Brilliant Shards ({skill:333}: disenchant level 51+ blue items), 25 {item:11370} ({skill:186} 230: the Dark Iron Deposits of the {zone:1428} and {area:1584}) and 35 Black Dragonscales ({skill:393}: the black dragonkin of the {zone:1428}, a few percent a kill, best from the {npc:7043}). Make or gather what your professions allow and buy the rest at the Auction House; it can take a while to find 35 scales.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `Hand the three pieces to {npc:14437}. He then wants 3 Arcanite Bars: alchemists transmute them, everyone else buys them at the Auction House.` → maybe `Hand the three pieces to {npc:14437}. He then wants 3 Arcanite Bars for the {item:18629}: alchemists transmute them (an {item:12363} and a {item:12359} each, on a long cooldown); everyone else buys them.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `{area:1763} is in western {zone:1448}. Drink a {item:18802} before you go in: the Shadow Council cultists turn friendly for a while, the demons do not. {quest:7623} waits deep inside {area:1770}, the cave above {area:1763}, across a bridge in the great root chamber.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `{npc:14523} waits in a side chamber by a bridge on the way back up. Speak to him and he and his four guards attack; none are elite. Take his heart back to {npc:9516}, drinking another potion if the first wore off.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `{npc:14522}, beside {quest:7623}, sells the {item:18687}; he only deals with you while a {item:18802} is active. Bring plenty of gold.` → maybe `{npc:14522}, beside {quest:7623}, sells the {item:18687} for 150 gold. He deals with you only while a {item:18802} is active.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `Back to {npc:14437} with the stardust. He gives you the {item:18688} for the {area:2057}.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `The {area:2057} lies under {area:2298}, the island town in the south-east of the {zone:1422}: you need its key or a rogue to open the door, and Rattlegore's {item:13873} to go deeper. Use the {item:18688} at the alchemy lab in {npc:10508}'s room; {npc:14500} makes the parchment. Bring a group.` → maybe `The {area:2057} (level 58-60, a group of five) lies under {area:2298}, the island town in the south-east of the {zone:1422}: someone needs the {item:13704} or a rogue to open the door. Fight down to {npc:10508}'s room and use the {item:18688} at the alchemy lab tables to the right: {npc:14500} makes the parchment. You need not kill Ras, but it only counts at this lab and only in a party.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `Use the {item:18688} at the alchemy lab` → maybe `Use the {item:18688} at the alchemy lab inside`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `Back to {npc:14437}, then {npc:14436} hands you his instructions for the ritual. Buy {item:18663}, the {item:18629} and the {item:18670} from {npc:14437}, and carry ten or more Soul Shards.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `The ritual in {area:2577}`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `{area:2577} stands in the ruins of central {zone:1444}; the ritual circle is in its west wing, past {npc:11496}, and the door needs the {item:18249} or a rogue. Use {item:18663} to start; when the bell, the wheel or the candle fades, click it with the {item:18629} (a {item:6265} each). When the demons stop coming, use the {item:18670}, defeat the {npc:14502} and its dreadlord master, and speak to the {npc:14504}. Bring a group.`
+- `forever/collectibles/mounts/neutral/warlock-dreadsteed`: `{npc:14504}: it binds itself to you`
+- `forever/collectibles/mounts/neutral/warlock-felsteed`: `Your own mount at 40, summoned anywhere, with no gold spent on a riding horse.`
+- `forever/collectibles/mounts/neutral/warlock-felsteed`: `At 40 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:6251} in {area:392}.`
+- `forever/collectibles/mounts/neutral/warlock-felsteed`: `At 40 {npc:5172} in {zone:1455} sends you to {npc:6251} in {area:392}.`
+- `forever/collectibles/mounts/neutral/warlock-felsteed`: `At 40 {npc:3326} in the {object:172960} sends you to {npc:6251} in {area:392}.`
+- `forever/collectibles/mounts/neutral/warlock-felsteed`: `At 40 {npc:4563} in the {object:36082} sends you to {npc:6251} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}.`
+- `forever/collectibles/mounts/neutral/warlock-felsteed`: `{area:392} is on the {zone:1413} coast east of the {area:380}; from the Alliance side, take the boat from {area:35}. {npc:6251}'s follow-up teaches {quest:3631}.`
+- `forever/collectibles/pets/baby-crocolisk`: `The {npc:3581} is a rare level 50 crocolisk that swims {zone:1453}'s canals; early kill counts give about 1.5% per kill. It is friendly to nobody: Horde players can farm it too, but they are in an enemy capital.`
+- `forever/collectibles/pets/bitter-baitling`: `The {item:276275} is a fishing reward: {npc:15078} trades it for one {item:274026}, a reward of the fishing contest {npc:15078} runs in {area:35}. The coin's exact source is not published yet.`
+- `forever/collectibles/pets/bitter-baitling`: `{npc:15078} stands on the {area:35} docks.`
+- `forever/collectibles/pets/condor-hatchling`: `{npc:14268} is a rare level 15-16 condor in south-eastern {zone:1432}; early kill counts give about 0.2% per kill, so expect many respawns.`
+- `forever/collectibles/pets/dark-whelpling`: `The Searing Whelps of the {area:511} in southern {zone:1445} (level 42) and the Scalding Whelps of eastern {zone:1418} (level 41) drop it about once in 900 kills in our data. The waypoint is the {area:511}; the {zone:1418} whelps are the same grind.` → maybe `The Searing Whelps of the {area:511} in southern {zone:1445} (level 42-43) and the Scalding Whelps of eastern {zone:1418} (level 41-43) drop it about once in 900 kills. The waypoint is the {area:511}, where the whelps stand thickest; the {zone:1418} whelps are the same grind. The whelpling can be traded, so the Auction House may be quicker.`
+- `forever/collectibles/pets/disgusting-oozeling`: `Oozes drop the {item:20768}: the Vile Slimes, Large Vile Slimes and Devouring Oozes of Western Plaguelands, and the oozes of {zone:1448}, {zone:1449} and {zone:1423}, at about 0.07-0.09% per kill in our data. The waypoint is a {npc:1806} spawn in eastern {zone:1422}.`
+- `forever/collectibles/pets/disgusting-oozeling`: `Vile Slimes, {zone:1422}`
+- `forever/collectibles/pets/disgusting-oozeling`: `Open the {item:20768}`
+- `forever/collectibles/pets/disgusting-oozeling`: `Open the {item:20768} from your bags.`
+- `forever/collectibles/pets/flik`: `{npc:14860} sells two frogs (1g each) while the Darkmoon Faire is in town. In Era the Faire sets up south of {area:87} in {zone:1429} one month and near {zone:1456} in {zone:1412} the next; go to whichever is up. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.` → maybe `{npc:14860} sells two frogs (1g each) while the Darkmoon Faire is in town; Forever has not shown the Faire yet. In Classic it sets up south of {area:87} in {zone:1429} one month and near {zone:1456} in {zone:1412} the next; go to whichever is up. {npc:14860} runs all over the Faire grounds, so look around for him. He carries only one {item:11027} at a time and restocks it about every 30 minutes: if he has none, someone just bought it. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.`
+- `forever/collectibles/pets/green-wing-macaw`: `{area:1581} is a group of five under {area:20}; the instance portal is inside the {area:20} mine. The Defias Pirates on and around the ship drop the macaw about 3.5% of the time in our data.`
+- `forever/collectibles/pets/green-wing-macaw`: `{area:1581} portal, inside the {area:20} mine`
+- `forever/collectibles/pets/green-wing-macaw`: `Defias Pirates`
+- `forever/collectibles/pets/hyacinth-macaw`: `Every Bloodsail pirate on the southern Stranglethorn coast can drop it, but only about once in 2,500-5,000 kills in our data. Expect a very long grind. The waypoint is the Bloodsail camp north of {area:35}, among the Swashbucklers and Raiders.`
+- `forever/collectibles/pets/hyacinth-macaw`: `Bloodsail camps`
+- `forever/collectibles/pets/lil-timmy`: `{npc:8666} sells the {npc:7386} (60s). He walks around the city, so the waypoint is only one point on his path; look along the nearby streets if he is not there. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.`
+- `forever/collectibles/pets/magus-tirth`: `{npc:6548} at the {area:2240}, in the {area:439} of south-eastern {zone:1441}, sells the {item:11023} (1g). Each pet item teaches its companion when you use it; the goals stay ticked afterwards.` → maybe `{npc:6548} at the {area:2240}, the goblin and gnome racetrack in the {area:439} of south-eastern {zone:1441}, sells the {item:11023} (1g) to both sides. The nearest flight paths are {area:484} (Horde) and {area:976} in {zone:1446} (both sides); from {area:976}, ride north into the {area:439}. Each pet item teaches its companion when you use it; the goal stays ticked afterwards.`
+- `forever/collectibles/pets/mechanical-chicken`: `Each robot starts with a distress beacon that mobs in its zone drop (about 1-2.5% per kill in our data). Start in {zone:1444}.`
+- `forever/collectibles/pets/mechanical-chicken`: `Take the beacon to OOX-22/FE in a cave near {area:1105}, then escort it to the dock on the {area:1108}. Its turn-in is in {area:35}; keep it for later.`
+- `forever/collectibles/pets/mechanical-chicken`: `Most {zone:1446} mobs can drop OOX-17/TN's beacon (about 0.5-3% per kill in our data).`
+- `forever/collectibles/pets/mechanical-chicken`: `Take the beacon to OOX-17/TN in {zone:1446}, then escort it to {area:977}. Its turn-in is in {area:35} too.`
+- `forever/collectibles/pets/mechanical-chicken`: `Most {zone:1425} mobs can drop OOX-09/HL's beacon (about 1-2.5% per kill in our data).`
+- `forever/collectibles/pets/mechanical-chicken`: `Take the beacon to OOX-09/HL at the head of the river near {area:351}, then escort it to the shore beyond Overlook Cliff.`
+- `forever/collectibles/pets/mechanical-chicken`: `{npc:7406} is in {area:35}. With all three robots home he offers {quest:3721}, whose reward is the {item:10398}; it needs level 45.`
+- `forever/collectibles/pets/minimule`: `The Alliance camp is at {area:1002} in western {zone:1433}. Loot supply crates in the world, fill them and hand them in to {npc:214101} for Merchant's Favor (5-20 a crate); the treat costs 1,500.`
+- `forever/collectibles/pets/minimule`: `The Horde camp is just outside the {area:380}. Loot supply crates in the world, fill them and hand them in at the camp for Merchant's Favor; the treat costs 1,500. (Another {npc:256384} stands in the {zone:1458}; this is the one at the camp.)`
+- `forever/collectibles/pets/musical-gustjumper`: `{zone:2521} is the Skyborne starting island; anyone may visit. A skyboat leaves the north side of {area:279} about every five minutes (another flies from north of {zone:1456}; either faction may take either). Skip this if you are already on the island.` → maybe `{zone:2521} is the Skyborne starting island; by beta reports anyone may visit. A skyboat leaves the north side of {area:279} about every five minutes (another flies from north of {zone:1456}; either faction may take either).`
+- `forever/collectibles/pets/musical-gustjumper`: `{zone:2521} is the Skyborne starting island; anyone may visit. A skyboat leaves the cliffs south of {area:17045}, north of {zone:1456}, about every five minutes (another flies from {area:279}; either faction may take either). Skip this if you are already on the island.` → maybe `{zone:2521} is the Skyborne starting island; by beta reports anyone may visit. A skyboat leaves the cliffs south of {area:17045}, north of {zone:1456}, about every five minutes (another flies from {area:279}; either faction may take either).`
+- `forever/collectibles/pets/musical-gustjumper`: `Target one of the frogs here and type /sing; a {item:268109} appears. Interact with it to get the pet.`
+- `forever/collectibles/pets/narkk`: `{npc:2663}, the pirate supplier in {area:35}, sells two parrots (40s each). {area:35} is neutral: the boat from {area:392} and the Stranglethorn road both arrive there. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.` → maybe `{npc:2663}, the pirate supplier in {area:35}, sells two parrots (40s each), with no stock limit. He stands next to {npc:2664}, the cook. {area:35} is neutral: the boat from {area:392} and the Stranglethorn road both arrive there. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.`
+- `forever/collectibles/pets/shadowgale-squirrel`: `{zone:2521} is the Skyborne starting island; anyone may visit. A skyboat leaves the north side of {area:279} about every five minutes (another flies from north of {zone:1456}; either faction may take either). Skip this if you are already on the island.` → maybe `{zone:2521} is the Skyborne starting island; by beta reports anyone may visit. A skyboat leaves the north side of {area:279} about every five minutes (another flies from north of {zone:1456}; either faction may take either).`
+- `forever/collectibles/pets/shadowgale-squirrel`: `{zone:2521} is the Skyborne starting island; anyone may visit. A skyboat leaves the cliffs south of {area:17045}, north of {zone:1456}, about every five minutes (another flies from {area:279}; either faction may take either). Skip this if you are already on the island.` → maybe `{zone:2521} is the Skyborne starting island; by beta reports anyone may visit. A skyboat leaves the cliffs south of {area:17045}, north of {zone:1456}, about every five minutes (another flies from {area:279}; either faction may take either).`
+- `forever/collectibles/pets/shadowgale-squirrel`: `{npc:254151} sells the squirrel (50s) once you are Revered with the {faction:2758}.`
+- `forever/collectibles/pets/siamese-cat`: `{area:1581} is a group of five under {area:20}; the instance portal is inside the {area:20} mine. Cookie, the murloc cook near the ship at the end, drops the Siamese about 15% of the time in our data.`
+- `forever/collectibles/pets/smolderweb-carrier`: `{npc:10260} stands at {area:251} in northern {zone:1428}, near the {area:254} path.`
+- `forever/collectibles/pets/smolderweb-carrier`: `Lower {area:1583} is a group of five, level 55-60. Collect 15 Spire Spider Eggs from the nests near {npc:10596}.`
+- `forever/collectibles/pets/spectral-bear-cub`: `25 Legacy Points`
+- `forever/collectibles/pets/spectral-bear-cub`: `Legacy Points are account-wide: each Legacy Challenge (a class reaching 25, 45 and 60, professions, PvP, exploring) is worth one. The Progress Track gives the {item:281060} at 15, the {item:277714} at 25, the {item:277717} at 40 and the {item:277718} at 55. How rewards are delivered is not known yet (perhaps by mail); this goal ticks once the cub is in your bags.`
+- `forever/collectibles/pets/tallstrider-hatchling`: `The {npc:2172} is a rare level 20 tallstrider in southern {zone:1439}; early kill counts give about 0.6% per kill, so expect many respawns.`
+- `forever/collectibles/pets/tiny-crimson-whelpling`: `The Red, Crimson and Flamesnorting Whelps (levels 23-26) in the eastern {zone:1437} drop it about once in 600-1,600 kills in our data.`
+- `forever/collectibles/pets/tiny-emerald-whelpling`: `The Dreaming Whelps (level 35) in western {zone:1435} drop it about once in 1,250 kills in our data.`
+- `forever/collectibles/pets/weevil-k-neevil`: `{npc:217412} gives you an Entomology Starter Kit: use its items to catch an {npc:217588}, a Hay Weevil Specimen and a {npc:217590}. This quest is named as the weevil's source but gives only money as its reward; the pet may come from the {npc:217589} you catch. If you lose the kit, she sells another.`
+- `forever/collectibles/pets/worg-carrier`: `{npc:10260} stands at {area:251} in northern {zone:1428}, near the {area:254} path.`
+- `forever/collectibles/pets/worg-carrier`: `Upper {area:1583}`
+- `forever/collectibles/pets/worg-carrier`: `Upper {area:1583} is a raid group of up to ten, level 58-60. Use {npc:10260}'s cage on a {npc:10221} (Halycon's den) to get the {item:12263}.`
+- `forever/exploration/eastern-kingdoms-1-30`: `{zone:1436} borders {zone:1429} to the west: follow the road out past the {area:120}.`
+- `forever/exploration/eastern-kingdoms-1-30`: `{zone:1431} is east of {zone:1436} and south of {zone:1429}. Its road runs east to {area:42}.`
+- `forever/exploration/eastern-kingdoms-1-30`: `Redridge starts at {area:1002}, where the roads from {zone:1429} and {zone:1431} meet.` → maybe `Go back east through {zone:1429}: the road past the {area:88} enters Redridge at {area:1002}, where the roads from {zone:1429} and {zone:1431} meet.`
+- `forever/exploration/eastern-kingdoms-1-30`: `Take the {area:2257} from {zone:1453}'s {object:28027} to {zone:1455} (or fly to {zone:1455}), then leave the city through its gates.` → maybe `Take the {area:2257} from {zone:1453}'s {object:28027} to {zone:1455}, then leave the city through its gates.`
+- `forever/exploration/eastern-kingdoms-1-30`: `Leave {zone:1426} east through the gate tunnel; it opens into {zone:1432} at {area:925}.` → maybe `Leave {zone:1426} east through the South Gate tunnel; it opens into {zone:1432} by the dwarf king statues of the {area:924}.`
+- `forever/exploration/eastern-kingdoms-1-30`: `From {area:925}, the road north through the {area:836} pass leads into the {zone:1437}.`
+- `forever/exploration/eastern-kingdoms-1-30`: `Cross the {area:881} in northern {zone:1437} into the {zone:1417} (level 30+ creatures off the road), follow the road west past {area:320} and on into {zone:1424}.`
+- `forever/exploration/eastern-kingdoms-1-30`: `From {area:925} take the tunnel west into {zone:1426}. {area:131} and {zone:1455}'s gates are Alliance ground.` → maybe `From {area:925} take the {area:807} tunnel west into {zone:1426}. {area:131} and {zone:1455}'s gates are Alliance ground.`
+- `forever/exploration/eastern-kingdoms-30-45`: `Picks up in {zone:1424}, where the 1-30 guide leaves the Horde and passes the Alliance. 15 areas to discover here, levels 27-39.`
+- `forever/exploration/eastern-kingdoms-30-45`: `14 areas to discover here, levels 36-44.`
+- `forever/exploration/eastern-kingdoms-30-45`: `The {zone:2548} lie east of the {zone:1418} and the {zone:1428}: the way in is the fork east off the {zone:1433} road (a ship also runs from {zone:1446} to {area:16727}, the neutral goblin port on its coast). {area:17780} is an ogre clan's outdoor dungeon.` → maybe `From the south of the {zone:1418}, past {area:345}, a way leads down into the {zone:2548} by {area:16685}. (The {zone:2548} also open off northern Redridge through {area:2417}, and a ship runs from {area:977} in {zone:1446} to {area:16727}, the neutral goblin port on its coast.) {area:17780} is an ogre clan's outdoor dungeon.`
+- `forever/exploration/eastern-kingdoms-30-45`: `Fly to {area:42} (or {zone:1453}) and take the road south out of {zone:1431} into northern {zone:1434}.`
+- `forever/exploration/eastern-kingdoms-30-45`: `Take the zeppelin from {zone:1454} or the {zone:1458} to {area:117}.` → maybe `Or take the zeppelin from {zone:1454} or the {zone:1458} to {area:117}.`
+- `forever/exploration/eastern-kingdoms-30-45`: `Go back north into {zone:1431} and follow its road east through {zone:1430} (level 50+ creatures off the road) into the {zone:1435}.`
+- `forever/exploration/eastern-kingdoms-45-60`: `Starts where the 30-45 guide ends, in the {zone:1435}. The last area of this guide completes the {zone:1415} map. 9 areas to discover here, levels 46-63.` → maybe `Starts in the {zone:1425}, north-east of {zone:1424}. The last area of this guide completes the {zone:1415} map. 14 areas to discover here, levels 41-49.`
+- `forever/exploration/eastern-kingdoms-45-60`: `The {zone:1419} are south of the {zone:1435}; the road arrives at {area:1438} (Alliance).`
+- `forever/exploration/eastern-kingdoms-45-60`: `Go back north through the {zone:1435} and west into {zone:1430}.`
+- `forever/exploration/eastern-kingdoms-45-60`: `Continue west into {zone:1431}, north to {zone:1433} and take the pass north out of Redridge into the {zone:1428}; {area:2418} (Alliance) is near the top.`
+- `forever/exploration/eastern-kingdoms-45-60`: `Cross {area:254} from the western {zone:1428} into the {zone:1427}: stay on the chain path inside, past the dungeon entrances.` → maybe `Cross {area:254} from the south of the {zone:1427} into the {zone:1428}: stay on the chain path inside, past the dungeon entrances. {area:2418} (Alliance) is in the east.`
+- `forever/exploration/eastern-kingdoms-45-60`: `14 areas to discover here, levels 41-49.`
+- `forever/exploration/eastern-kingdoms-45-60`: `Walk back to {zone:1424} and north through the {zone:1416} to {area:3197} in southern {zone:1422}.`
+- `forever/exploration/eastern-kingdoms-45-60`: `Walk back to {zone:1424} and north through the {zone:1416}, or from {zone:1420} east past {area:813}, into {zone:1422}.` → maybe `Fly to {area:272} and ride north through the {zone:1416} into southern {zone:1422}, or go east from {zone:1420} past {area:813}.`
+- `forever/exploration/kalimdor-1-30`: `Walk east out of Stonetalon (or south out of {zone:1440}) into the {zone:1413}. {area:380} and {area:378} are Horde towns; {area:392} is a neutral port.` → maybe `The road east out of south-eastern Stonetalon comes down into the {zone:1413} at {area:1702}. {area:380} and {area:378} are Horde towns; {area:392} is a neutral port.`
+- `forever/exploration/kalimdor-1-30`: `Go back west across the {zone:1413}; the road west from {area:378} climbs into {zone:1412}, tauren country with guards at {area:222} and {zone:1456}.` → maybe `Go back west across the {zone:1413}; the road west from {area:378} climbs through the only pass into {zone:1412}, tauren country with guards at {area:222} and {zone:1456}.`
+- `forever/exploration/kalimdor-1-30`: `From the southern {zone:1413} take the {area:485} down into {zone:1441}. {area:484} is a Horde town.`
+- `forever/exploration/kalimdor-1-30`: `The road west from {area:378} climbs into {zone:1412}.` → maybe `The road west from {area:378} climbs through the only pass into {zone:1412}.`
+- `forever/exploration/kalimdor-1-30`: `Flight path here: {zone:1456} (Tal).`
+- `forever/exploration/kalimdor-1-30`: `Go back into the {zone:1413} and west through {area:1702} into the {zone:1442}. {area:460} is the Horde town; {area:467} in the north is Alliance.` → maybe `Leave {zone:1412} by the same pass, ride north through the {zone:1413} and west at {area:1702} into the {zone:1442}. {area:460} is the Horde town; {area:467} in the north is Alliance.`
+- `forever/exploration/kalimdor-30-45`: `Take the road south-west out of the {zone:1442} into {zone:1443}; {area:608} in the north is the Alliance town.` → maybe `Fly to {area:467} (or to {area:608} if you have it) and take the road south-west out of the {zone:1442} into {zone:1443}; {area:608} in the north is the Alliance town.`
+- `forever/exploration/kalimdor-45-60`: `{zone:1451} is west of {zone:1449}. {area:3425} is neutral.` → maybe `{zone:1451} is west of {zone:1449}, through the pass in its north-west. {area:3425} is neutral.`
+- `forever/exploration/kalimdor-45-60`: `9 areas to discover here.`
+- `forever/exploration/zephras-isle`: `{zone:2521} is the Skyborne starting island, a world of its own in {area:17221}; anyone may visit, and its map counts towards exploring the world. 20 areas to discover here, levels 3-12.` → maybe `{zone:2521} is the Skyborne starting island, a world of its own in {area:17221}; anyone may visit. 20 areas to discover here, levels 3-12.`
+- `forever/exploration/zephras-isle`: `Exploring the entire world map on one character is a Forever Legacy Challenge (1 account-wide Legacy Point).`
+- `forever/legacy/legacy-challenges`: `Exalted with each battleground faction is worth a point (4 in all; this page shows three, see the note). Follow the Polestar Reputation guides Warsong Gulch Reputation, Arathi Basin Reputation and Alterac Valley Reputation. The Diplomat Legacy perk increases reputation gains.` → maybe `Exalted with each of the four battleground factions is worth a point. Follow the Polestar Reputation guides Warsong Gulch Reputation, Arathi Basin Reputation, Alterac Valley Reputation and Darkspear Islands Reputation (Forever's new battleground, open from level 30). The Diplomat Legacy perk increases reputation gains.`
+- `forever/legacy/legacy-challenges`: `Blizzard counts four battleground reputations, but our faction data has three per side ({zone:1460}, {zone:1461}, {zone:1459}). The fourth is likely tied to Forever's new PvP content; check the in-game Legacy panel.`
+- `forever/legacy/legacy-challenges`: `Exploring the entire world map on one character is a point, and it can also unlock the Legacy System. It must all be on the same character.` → maybe `Exploring the entire world map on one character is a point, and it can also unlock the Legacy System. It must all be on the same character. Forever's new zones are part of the map: the {zone:2548}, {zone:2652} and {zone:2482}, a level 60 zone.`
+- `forever/legacy/legacy-challenges`: `Follow the Polestar Exploration guides: Exploration: Eastern Kingdoms 1-30, 30-45 and 45-60, and Exploration: Kalimdor 1-30, 30-45 and 45-60. They track every area as you discover it.` → maybe `Follow the Polestar Exploration guides: Exploration: Eastern Kingdoms 1-30, 30-45 and 45-60, and Exploration: Kalimdor 1-30, 30-45 and 45-60. They track every area as you discover it. Exploration: Zephras Isle covers the Skyborne island; whether its map counts towards this challenge is not confirmed yet.`
+- `forever/legacy/legacy-challenges`: `The {npc:16042} questline is a point. It is the level 60 dungeon-set chain: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of Lord Valthalak's Amulet, Final Preparations and {quest:8995} end with {quest:8996}. {quest:8997} then leads to the class Saving the Best for Last quests.` → maybe `The {npc:16042} questline is a point. It is the level 60 dungeon-set chain, from An Earnest Proposition to your class's {quest:8999}: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of Lord Valthalak's Amulet, Final Preparations and {quest:8995} end with {quest:8996}. {quest:8997} then leads to {quest:8999}.`
+- `forever/legacy/legacy-challenges`: `Which quest Blizzard counts as the end of the questline ({quest:8996} or your class's Saving the Best for Last) is unconfirmed until the Legacy data is recorded.`
+- `forever/legacy/legacy-challenges`: `Adventure: {quest:8997} (Alliance)`
+- `forever/legacy/legacy-challenges`: `{npc:16013} then offers your class's Saving the Best for Last, the final upgrade of the dungeon set.`
+- `forever/legacy/legacy-challenges`: `Adventure: {quest:8998} (Horde)`
+- `forever/legacy/legacy-challenges`: `{npc:16012} then offers your class's Saving the Best for Last, the final upgrade of the dungeon set.`
+- `forever/legacy/legacy-challenges`: `The final boss of every level 15-25 dungeon earns one point together. Tick each boss off when you kill it; the grouping follows the usual Classic level ranges, so check the in-game Legacy panel for the exact list.` → maybe `The final boss of every level 15-25 dungeon earns one point together. {area:2437} and Forever's {area:16919} (in {zone:1455}) count as one: either final boss does. Tick each boss off when you kill it, and check the in-game Legacy panel for the list.`
+- `forever/legacy/legacy-challenges`: `{area:717}: the usual last kill; the {area:717} has no fixed final boss`
+- `forever/legacy/legacy-challenges`: `Forever adds the dungeons {area:16919} and {area:153}; their bosses and brackets are not in our data yet.`
+- `forever/legacy/legacy-challenges`: `The final boss of every level 26-45 dungeon earns one point together.`
+- `forever/legacy/legacy-challenges`: `{area:1517} (level 41-51; may count in the 46-60 bracket)`
+- `forever/legacy/legacy-challenges`: `The final boss of every level 46-60 dungeon earns one point together.`
+- `forever/legacy/legacy-challenges`: `Forever's new dungeons`
+- `forever/legacy/legacy-challenges`: `{area:16919} and {area:153} are new in Forever. Their bosses, levels and Legacy bracket are not in our data, so tick them off yourself.`
+- `forever/legacy/legacy-challenges`: `the final boss of {area:16919}` → maybe `the final boss of {area:17780}`
+- `forever/legacy/legacy-challenges`: `the final boss of {area:153}` → maybe `the final boss of {area:17780}`
+- `forever/legacy/legacy-challenges`: `Killing {npc:10184} is a point. In Classic her lair needs an attunement: {item:16309} for the Alliance, {item:16663} for the Horde.`
+- `forever/legacy/legacy-challenges`: `All 13 Hyjal Summit bosses are a point. Hyjal Summit is a new Forever raid; its bosses are not in our data, so tick it off once all 13 are down.` → maybe `All 13 Hyjal Summit bosses are a point. Hyjal Summit is a new 20-player Forever raid at the top of {zone:2482}, near Nordrassil, open from 9 December; its bosses are not in our data, so tick it off once all 13 are down.`
+- `forever/legacy/legacy-challenges`: `All 8 Barrow Deeps bosses are a point. Barrow Deeps is a new Forever raid; its bosses are not in our data, so tick it off once all 8 are down.` → maybe `All 8 Barrow Deeps bosses are a point. Barrow Deeps is a new 10-player Forever raid beneath {zone:2482}, entered from {zone:2482}, {zone:1452} or {area:1216} and open from 9 December; its bosses are not in our data, so tick it off once all 8 are down.`
+- `forever/miscellaneous/cozy-sleeping-bag`: `A burned-out campfire in western {zone:1436}, with a nailed plank beside it.` → maybe `The chain opens at level 14. A burned-out campfire in western {zone:1436}, with a nailed plank beside it.`
+- `forever/miscellaneous/cozy-sleeping-bag`: `A burned-out campfire in the southern {zone:1413}, with a nailed plank beside it.` → maybe `The chain opens at level 14. A burned-out campfire in the southern {zone:1413}, with a nailed plank beside it.`
+- `forever/miscellaneous/cozy-sleeping-bag`: `The next hideout is a small camp in the hills of eastern Stonetalon. Leave the road where a path climbs into the hills and follow it to the camp; the {object:424005} lies on a crate beside its tent.` → maybe `The next hideout is a small camp in the hills north-west of {area:460}, in the middle of the {zone:1442}. Leave the road where a path climbs west into the hills and follow it to the camp; the {object:424005} lies on a crate beside its tent.`
+- `forever/miscellaneous/library-books`: `Lost books and scrolls all over the world: each pays experience at the library, and enough of them earn a {quest:78150} reward.` → maybe `Lost books and scrolls all over the world: each pays experience at the library, and 10, 20 and 25 of them earn a necklace, a ring and an off-hand.`
+- `forever/miscellaneous/library-books`: `Three books: scrolls outside the {area:718} entrance, the manual in the control room at the top of the oil rig at the {area:382}, and the Goblin Tome beside Gazlowe in {area:392}.` → maybe `Two books: the manual in the control room at the top of the oil rig at the {area:382}, and the Goblin Tome beside Gazlowe in {area:392}.`
+- `forever/miscellaneous/library-books`: `{npc:211033} keeps the library in the {object:2101}. He offers each book's quest while the book is in your bags: take it and hand it in, one at a time, so your quest log stays free. Skip the books you did not find.` → maybe `Hand in the books so far. {npc:211033} keeps the library at the top of the Wizard's Sanctum in the {object:2101}. He offers each book's quest while the book is in your bags: take it and hand it in, one at a time, so your quest log stays free. Skip the books you did not find.`
+- `forever/miscellaneous/library-books`: `{npc:211022} keeps the library in the {object:36082}. He offers each book's quest while the book is in your bags: take it and hand it in, one at a time, so your quest log stays free. Skip the books you did not find.` → maybe `Hand in the books so far. {npc:211022} keeps the library in the {object:36082}. He offers each book's quest while the book is in your bags: take it and hand it in, one at a time, so your quest log stays free. Skip the books you did not find.`
+- `forever/miscellaneous/library-books`: `Once enough books are in, the librarian offers {quest:78150}. Take it when it appears.`
+- `forever/miscellaneous/library-books`: `From level 20, with more books handed in, {npc:211033} offers {quest:79536}.` → maybe `From level 20, with 20 different books handed in, {npc:211033} offers {quest:79536}: {item:281634} or {item:281635}.`
+- `forever/miscellaneous/library-books`: `From level 30, with more books still, {npc:211033} offers the second {quest:82208}.`
+- `forever/professions/alchemy`: `Apprentice {skill:171}`
+- `forever/professions/alchemy`: `{skill:171} runs alongside leveling. Forever's Legacy System rewards crafting professions at skill 150, 225 and 300 (the Journeyman, Expert and Artisan caps), so each of those checkpoints counts. Materials for 1-75 are worth about 68s in all.`
+- `forever/professions/alchemy`: `{item:765} (Alliance)`
+- `forever/professions/alchemy`: `Pick {item:765} with {skill:182}; this is the densest patch in the data. The Auction House works too.`
+- `forever/professions/alchemy`: `{item:765} (Horde)`
+- `forever/professions/alchemy`: `{item:2447} (Alliance)`
+- `forever/professions/alchemy`: `Pick {item:2447} with {skill:182}; this is the densest patch in the data. The Auction House works too.`
+- `forever/professions/alchemy`: `{item:2447} (Horde)`
+- `forever/professions/alchemy`: `Orange (a point every craft) until 55, yellow until 75, green until 95. 75 is the Apprentice cap.`
+- `forever/professions/alchemy`: `Journeyman needs character level 10 and {skill:171} 50; it raises the cap to 150. Materials for 75-150 are worth about 1g 44s in all.`
+- `forever/professions/alchemy`: `Teaches {item:6051} (needs {skill:171} 100). Vendors sell it in limited stock that restocks.`
+- `forever/professions/alchemy`: `{item:730} (Alliance)`
+- `forever/professions/alchemy`: `{npc:513} (level 14-15) drop it here. The Auction House works too.`
+- `forever/professions/alchemy`: `{item:730} (Horde)`
+- `forever/professions/alchemy`: `{npc:1958} (level 17-18) drop it here. The Auction House works too.`
+- `forever/professions/alchemy`: `{item:785} (Alliance)`
+- `forever/professions/alchemy`: `Pick {item:785} with {skill:182}; this is the densest patch in the data. The Auction House works too.`
+- `forever/professions/alchemy`: `{item:785} (Horde)`
+- `forever/professions/alchemy`: `{item:2450} (Alliance)`
+- `forever/professions/alchemy`: `Pick {item:2450} with {skill:182}; this is the densest patch in the data. The Auction House works too.`
+- `forever/professions/alchemy`: `{item:2450} (Horde)`
+- `forever/professions/alchemy`: `{item:2452} (Alliance)`
+- `forever/professions/alchemy`: `{item:2452} comes from {item:2450} nodes ({skill:182}); this is the densest patch in the data. The Auction House works too.`
+- `forever/professions/alchemy`: `{item:2452} (Horde)`
+- `forever/professions/alchemy`: `{item:2453} (Alliance)`
+- `forever/professions/alchemy`: `Pick {item:2453} with {skill:182}; this is the densest patch in the data. The Auction House works too.`
+- `forever/professions/alchemy`: `{item:2453} (Horde)`
+- `forever/professions/alchemy`: `{spell:2331} to 85`
+- `forever/professions/alchemy`: `Yellow until 85, green until 105: not every craft gives a point.`
+- `forever/professions/alchemy`: `{skill:171} recipes at 85` → maybe `{skill:171} recipes at 90`
+- `forever/professions/alchemy`: `Back to an {skill:171} trainer: {spell:1244645} is taught from {skill:171} 85.`
+- `forever/professions/alchemy`: `{item:247239} to 100`
+- `forever/professions/alchemy`: `Yellow until 105, green until 125: not every craft gives a point.`
+- `forever/professions/alchemy`: `{item:6051} to 150`
+- `forever/professions/alchemy`: `Orange (a point every craft) until 130, yellow until 150, green until 170. {skill:171} 150 is a Legacy System milestone.`
+- `forever/professions/alchemy`: `Expert needs character level 20 and {skill:171} 125; it raises the cap to 225. Materials for 150-225 are worth about 3g 65s in all.`
+- `forever/professions/alchemy`: `Kill the mobs that drop it at the farm spot Polestar picks for your level and faction. The Auction House works too.`
+- `forever/professions/alchemy`: `Pick {object:1623} with {skill:182}; this is the densest patch in the data. The Auction House works too.`
+- `forever/professions/alchemy`: `Pick {item:3356} with {skill:182}; this is the densest patch in the data. The Auction House works too.`
+- `forever/professions/alchemy`: `{item:3357} (Alliance)`
+- `forever/professions/alchemy`: `Pick {item:3357} with {skill:182}; this is the densest patch in the data. The Auction House works too.`
+- `forever/professions/alchemy`: `{item:3357} (Horde)`
+- `forever/professions/alchemy`: `Pick {object:2046} with {skill:182}; this is the densest patch in the data. The Auction House works too.`
+- `forever/professions/alchemy`: `{item:6358} (Alliance)`
+- `forever/professions/alchemy`: `Fish {object:180582}; this is where the data has most of them. The Auction House works too.`
+- `forever/professions/alchemy`: `{item:6358} (Horde)`
+- `forever/professions/alchemy`: `{item:6359} (Alliance)`
+- `forever/professions/alchemy`: `Fish {object:180657}; this is where the data has most of them. The Auction House works too.`
+- `forever/professions/alchemy`: `{item:6359} (Horde)`
+- `forever/professions/alchemy`: `{item:6371} to 165`
+- `forever/professions/alchemy`: `Yellow until 160, green until 170: not every craft gives a point.`
+- `forever/professions/alchemy`: `{skill:171} recipes at 165` → maybe `{skill:171} recipes at 90`
+- `forever/professions/alchemy`: `Back to an {skill:171} trainer: {spell:7845} is taught from {skill:171} 165.`
+- `forever/professions/alchemy`: `{spell:7845} to 175`
+- `forever/professions/alchemy`: `Yellow until 185, green until 205: not every craft gives a point.`
+- `forever/professions/alchemy`: `{skill:171} recipes at 175` → maybe `{skill:171} recipes at 90`
+- `forever/professions/alchemy`: `Back to an {skill:171} trainer: {spell:1244647} is taught from {skill:171} 175.`
+- `forever/professions/alchemy`: `{item:247241} to 200`
+- `forever/professions/alchemy`: `Yellow until 195, green until 215: not every craft gives a point.`
+- `forever/professions/alchemy`: `{skill:171} recipes at 200` → maybe `{skill:171} recipes at 90`
+- `forever/professions/alchemy`: `Back to an {skill:171} trainer: {spell:11447} is taught from {skill:171} 190.`
+- `forever/professions/alchemy`: `{spell:11447} to 215`
+- `forever/professions/alchemy`: `Yellow until 210, green until 230: not every craft gives a point.`
+- `forever/professions/alchemy`: `{skill:171} recipes at 215` → maybe `{skill:171} recipes at 90`
+- `forever/professions/alchemy`: `Back to an {skill:171} trainer: {spell:11450} is taught from {skill:171} 215.`
+- `forever/professions/alchemy`: `Yellow until 235, green until 255: not every craft gives a point. {skill:171} 225 is a Legacy System milestone.`
+- `forever/professions/alchemy`: `Artisan needs character level 35 and {skill:171} 200; it raises the cap to 300. Materials for 225-300 are worth about 7g 80s in all.`
+- `forever/professions/alchemy`: `Teaches {item:8951} (needs {skill:171} 265). Vendors sell it in limited stock that restocks; the Auction House often has it too.`
+- `forever/professions/alchemy`: `Pick {item:8836} with {skill:182}; this is the densest patch in the data. The Auction House works too.`
+- `forever/professions/alchemy`: `Pick {item:8838} with {skill:182}; this is the densest patch in the data. The Auction House works too.`
+- `forever/professions/alchemy`: `Fish {object:180712}; this is where the data has most of them. The Auction House works too.`
+- `forever/professions/alchemy`: `Yellow until 235, green until 255: not every craft gives a point.`
+- `forever/professions/alchemy`: `Back to an {skill:171} trainer: {spell:1244648} is taught from {skill:171} 230.`
+- `forever/professions/alchemy`: `{item:247242} to 250`
+- `forever/professions/alchemy`: `Yellow until 250, green until 270: not every craft gives a point.`
+- `forever/professions/alchemy`: `{skill:171} recipes at 250` → maybe `{skill:171} recipes at 90`
+- `forever/professions/alchemy`: `Back to an {skill:171} trainer: {spell:17551} is taught from {skill:171} 250.`
+- `forever/professions/alchemy`: `{item:13423} to 259`
+- `forever/professions/alchemy`: `Yellow until 255, green until 260: not every craft gives a point.`
+- `forever/professions/alchemy`: `{skill:171} recipes at 259` → maybe `{skill:171} recipes at 90`
+- `forever/professions/alchemy`: `Back to an {skill:171} trainer: {spell:11460} is taught from {skill:171} 245.`
+- `forever/professions/alchemy`: `Yellow until 265, green until 285: not every craft gives a point.`
+- `forever/professions/alchemy`: `Orange (a point every craft) until 280, yellow until 300, green until 320. {skill:171} 300 is a Legacy System milestone.`
+- `forever/professions/blacksmithing`: `Apprentice {skill:164}`
+- `forever/professions/blacksmithing`: `{skill:164} runs alongside leveling. Forever's Legacy System rewards crafting professions at skill 150, 225 and 300 (the Journeyman, Expert and Artisan caps), so each of those checkpoints counts. Materials for 1-75 are worth about 17s in all.`
+- `forever/professions/blacksmithing`: `{item:2835} (Alliance)`
+- `forever/professions/blacksmithing`: `{item:2835} comes from {object:1731} nodes ({skill:186}); this is the densest cluster in the data. The Auction House works too.`
+- `forever/professions/blacksmithing`: `{item:2835} (Horde)`
+- `forever/professions/blacksmithing`: `{spell:2660} to 45`
+- `forever/professions/blacksmithing`: `Orange (a point every craft) until 15, yellow until 35, green until 55.`
+- `forever/professions/blacksmithing`: `{skill:164} recipes at 45` → maybe `{skill:164} recipes at 35`
+- `forever/professions/blacksmithing`: `Back to a {skill:164} trainer: {spell:3320} is taught from {skill:164} 45.`
+- `forever/professions/blacksmithing`: `Yellow until 65, green until 85: not every craft gives a point. 75 is the Apprentice cap.`
+- `forever/professions/blacksmithing`: `Journeyman needs character level 10 and {skill:164} 50; it raises the cap to 150. Materials for 75-150 are worth about 9g 41s in all.`
+- `forever/professions/blacksmithing`: `{item:5956}: a tool, keep it in your bags` → maybe `a tool, keep it in your bags`
+- `forever/professions/blacksmithing`: `{item:2836} (Alliance)`
+- `forever/professions/blacksmithing`: `{item:2836} comes from {object:1732} nodes ({skill:186}); this is the densest cluster in the data. The Auction House works too.`
+- `forever/professions/blacksmithing`: `{item:2836} (Horde)`
+- `forever/professions/blacksmithing`: `{item:2838} comes from {object:1735} nodes ({skill:186}); this is the densest cluster in the data. The Auction House works too.`
+- `forever/professions/blacksmithing`: `{skill:164} materials for 75-150`
+- `forever/professions/blacksmithing`: `Skinned, disenchanted or crafted by another profession: gather them yourself or buy them on the Auction House.`
+- `forever/professions/blacksmithing`: `{skill:186}: smelt {item:2770} (or the Auction House)`
+- `forever/professions/blacksmithing`: `{skill:186}: smelt {item:2840} (or the Auction House)`
+- `forever/professions/blacksmithing`: `Yellow until 65, green until 85: not every craft gives a point.`
+- `forever/professions/blacksmithing`: `{skill:164} recipes at 83` → maybe `{skill:164} recipes at 35`
+- `forever/professions/blacksmithing`: `Back to a {skill:164} trainer: {spell:2666} is taught from {skill:164} 80.`
+- `forever/professions/blacksmithing`: `Orange (a point every craft) until 85, yellow until 105, green until 125. Needs an anvil nearby.`
+- `forever/professions/blacksmithing`: `Back to a {skill:164} trainer: {spell:3117} is taught from {skill:164} 100.` → maybe `Back to a {skill:164} trainer: {spell:2674} (from 100, 10s).`
+- `forever/professions/blacksmithing`: `{spell:3117} to 112`
+- `forever/professions/blacksmithing`: `Yellow until 107, green until 115: not every craft gives a point.`
+- `forever/professions/blacksmithing`: `{skill:164} recipes at 112` → maybe `{skill:164} recipes at 35`
+- `forever/professions/blacksmithing`: `Back to a {skill:164} trainer: {spell:2668} is taught from {skill:164} 95.` → maybe `Back to a {skill:164} trainer: {spell:2672} (from 95, 5s).`
+- `forever/professions/blacksmithing`: `{spell:2668} to 121`
+- `forever/professions/blacksmithing`: `Orange (a point every craft) until 120, yellow until 135, green until 150. Needs an anvil nearby.`
+- `forever/professions/blacksmithing`: `{skill:164} recipes at 121` → maybe `{skill:164} recipes at 35`
+- `forever/professions/blacksmithing`: `Back to a {skill:164} trainer: {spell:2672} is taught from {skill:164} 120.` → maybe `Back to a {skill:164} trainer: {spell:2672} (from 95, 5s).`
+- `forever/professions/blacksmithing`: `Orange (a point every craft) until 125, yellow until 140, green until 155. Needs an anvil nearby. {skill:164} 150 is a Legacy System milestone.`
+- `forever/professions/blacksmithing`: `Expert needs character level 20 and {skill:164} 125; it raises the cap to 225. Materials for 150-225 are worth about 42g in all.`
+- `forever/professions/blacksmithing`: `{item:2319} (Alliance)`
+- `forever/professions/blacksmithing`: `Skin {npc:2248}, {npc:2356}, {npc:2385}, {npc:2351}, Snapjaw, {npc:2384}, {npc:2354} here (beasts of level 18-30 yield it); the {skill:393} guide routes this. The Auction House works too.`
+- `forever/professions/blacksmithing`: `{item:2319} (Horde)`
+- `forever/professions/blacksmithing`: `Skin {npc:3809}, {npc:3810}, {npc:3818}, {npc:3823}, {npc:3811}, {npc:3817} here (beasts of level 18-30 yield it); the {skill:393} guide routes this. The Auction House works too.`
+- `forever/professions/blacksmithing`: `{item:7912} comes from {object:2040} nodes ({skill:186}); this is the densest cluster in the data. The Auction House works too.`
+- `forever/professions/blacksmithing`: `{skill:164} materials for 150-225`
+- `forever/professions/blacksmithing`: `{skill:186}: smelt {item:2775} (or the Auction House)`
+- `forever/professions/blacksmithing`: `{skill:186}: smelt {item:3575} (or the Auction House)`
+- `forever/professions/blacksmithing`: `{spell:3333} to 155`
+- `forever/professions/blacksmithing`: `Yellow until 155, green until 170: not every craft gives a point. Needs an anvil nearby.`
+- `forever/professions/blacksmithing`: `{skill:164} recipes at 155` → maybe `{skill:164} recipes at 35`
+- `forever/professions/blacksmithing`: `Back to a {skill:164} trainer: {spell:9985} is taught from {skill:164} 155.`
+- `forever/professions/blacksmithing`: `{item:7956} to 175`
+- `forever/professions/blacksmithing`: `Yellow until 170, green until 185: not every craft gives a point. Needs an anvil nearby.`
+- `forever/professions/blacksmithing`: `Back to a {skill:164} trainer: {spell:9918} is taught from {skill:164} 175.` → maybe `Back to a {skill:164} trainer: {spell:9918} (from 175).`
+- `forever/professions/blacksmithing`: `Yellow until 180, green until 185: not every craft gives a point.`
+- `forever/professions/blacksmithing`: `Back to a {skill:164} trainer: {spell:7223} is taught from {skill:164} 185.` → maybe `Back to a {skill:164} trainer: {spell:7223} (from 160).`
+- `forever/professions/blacksmithing`: `{item:6040} to 200`
+- `forever/professions/blacksmithing`: `Yellow until 197, green until 210: not every craft gives a point. Needs an anvil nearby.`
+- `forever/professions/blacksmithing`: `{skill:164} recipes at 200` → maybe `{skill:164} recipes at 35`
+- `forever/professions/blacksmithing`: `Back to a {skill:164} trainer: {spell:9916} is taught from {skill:164} 200.`
+- `forever/professions/blacksmithing`: `{item:7963} to 210`
+- `forever/professions/blacksmithing`: `Yellow until 212, green until 225: not every craft gives a point. Needs an anvil nearby.`
+- `forever/professions/blacksmithing`: `{skill:164} recipes at 210` → maybe `{skill:164} recipes at 35`
+- `forever/professions/blacksmithing`: `Back to a {skill:164} trainer: {spell:9920}, {spell:9935} are taught from {skill:164} 210.`
+- `forever/professions/blacksmithing`: `{item:7922} to 225`
+- `forever/professions/blacksmithing`: `Yellow until 220, green until 230: not every craft gives a point. Needs an anvil nearby. {skill:164} 225 is a Legacy System milestone.`
+- `forever/professions/blacksmithing`: `Artisan needs character level 35 and {skill:164} 200; it raises the cap to 300. Materials for 225-300 are worth about 942g in all.`
+- `forever/professions/blacksmithing`: `Teaches {item:250562} (needs {skill:164} 240).`
+- `forever/professions/blacksmithing`: `Teaches {item:12775} (needs {skill:164} 255).`
+- `forever/professions/blacksmithing`: `Skin {npc:2729}, {npc:2730}, {npc:2732}, {npc:2734} here (beasts of level 38-50 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `142 {item:4304} for {item:7933} and {item:7945}: {skill:393}: beasts of level 38-50; or the Auction House. Skin {npc:2729}, {npc:2730}, {npc:2732} and {npc:2734} here (level 38-50); the {skill:393} guide routes this.`
+- `forever/professions/blacksmithing`: `Skin {npc:5292}, {npc:5300}, {npc:5304}, {npc:5272}, {npc:5260}, {npc:5262}, {npc:5268}, {npc:5274}, {npc:5287}, {npc:5286}, {npc:5296} here (beasts of level 38-50 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `142 {item:4304} for {item:7933} and {item:7945}: {skill:393}: beasts of level 38-50; or the Auction House. Skin {npc:5292}, {npc:5300}, {npc:5304}, {npc:5272}, {npc:5260}, {npc:5262}, {npc:5268}, {npc:5274}, {npc:5287}, {npc:5286} and {npc:5296} here (level 38-50); the {skill:393} guide routes this.`
+- `forever/professions/blacksmithing`: `Kill the mobs that drop it at the farm spot Polestar picks for your level and faction. The Auction House works too.`
+- `forever/professions/blacksmithing`: `Skin {npc:1815}, {npc:1816}, {npc:1817} here (beasts of level 48-60 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `206 {item:8170} for {item:12773} and {item:12775}: {skill:393}: beasts of level 48-60; or the Auction House. Skin {npc:1815}, {npc:1816} and {npc:1817} here (level 48-60); the {skill:393} guide routes this.`
+- `forever/professions/blacksmithing`: `Skin {npc:6369}, {npc:8760}, {npc:6380}, {npc:6379}, {npc:6378}, {npc:6377} here (beasts of level 48-60 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `206 {item:8170} for {item:12773} and {item:12775}: {skill:393}: beasts of level 48-60; or the Auction House. Skin {npc:6369}, {npc:8760}, {npc:6380}, {npc:6379}, {npc:6378} and {npc:6377} here (level 48-60); the {skill:393} guide routes this.`
+- `forever/professions/blacksmithing`: `{item:8831} (Alliance)`
+- `forever/professions/blacksmithing`: `Pick {item:8831} with {skill:182}; this is the densest patch in the data. The Auction House works too.`
+- `forever/professions/blacksmithing`: `{item:8831} (Horde)`
+- `forever/professions/blacksmithing`: `{item:12365} comes from {object:324} nodes ({skill:186}); this is the densest cluster in the data. The Auction House works too.`
+- `forever/professions/blacksmithing`: `{skill:164} materials for 225-300`
+- `forever/professions/blacksmithing`: `{skill:186}: smelt {item:3858} (or the Auction House)`
+- `forever/professions/blacksmithing`: `{skill:186}: smelt {item:10620} (or the Auction House)`
+- `forever/professions/blacksmithing`: `{skill:171}: {item:249410} (or the Auction House)`
+- `forever/professions/blacksmithing`: `{skill:393} (or the Auction House)`
+- `forever/professions/blacksmithing`: `{skill:202}: {item:249432} (or the Auction House)`
+- `forever/professions/blacksmithing`: `{item:7931} to 230`
+- `forever/professions/blacksmithing`: `Yellow until 235, green until 245: not every craft gives a point. Needs an anvil nearby.`
+- `forever/professions/blacksmithing`: `{skill:164} recipes at 230` → maybe `{skill:164} recipes at 35`
+- `forever/professions/blacksmithing`: `Back to a {skill:164} trainer: {spell:16640} is taught from {skill:164} 230.`
+- `forever/professions/blacksmithing`: `Yellow until 232, green until 235: not every craft gives a point.`
+- `forever/professions/blacksmithing`: `{skill:164} recipes at 235` → maybe `{skill:164} recipes at 35`
+- `forever/professions/blacksmithing`: `Back to a {skill:164} trainer: {spell:9968} is taught from {skill:164} 230.`
+- `forever/professions/blacksmithing`: `{item:7933} to 244`
+- `forever/professions/blacksmithing`: `Yellow until 240, green until 250: not every craft gives a point. Needs an anvil nearby.`
+- `forever/professions/blacksmithing`: `{item:250562} to 268`
+- `forever/professions/blacksmithing`: `Orange (a point every craft) until 260, yellow until 270, green until 280. Needs an anvil nearby.`
+- `forever/professions/blacksmithing`: `{skill:164} recipes at 268` → maybe `{skill:164} recipes at 35`
+- `forever/professions/blacksmithing`: `Back to a {skill:164} trainer: {spell:16639} is taught from {skill:164} 230.`
+- `forever/professions/blacksmithing`: `{item:12775} to 300`
+- `forever/professions/blacksmithing`: `Orange (a point every craft) until 280, yellow until 292, green until 305. Needs an anvil nearby. {skill:164} 300 is a Legacy System milestone.`
+- `forever/professions/cooking`: `Any {skill:185} trainer of your faction teaches Apprentice {skill:185} (character level 5); the arrow picks the nearest.`
+- `forever/professions/cooking`: `{spell:2538} is orange from 1 (yellow at 45, grey at 85): about 50 crafts to 50. Cook at any fire: {object:29784} comes with {skill:185}.` → maybe `{spell:2538} is orange from 1 (yellow at 45, green at 65, grey at 85): about 50 crafts to 50. Cook at any fire: a town hearth or your own {object:29784}.`
+- `forever/professions/cooking`: `{npc:1689} (38%), {npc:1127} (36%) in {zone:1426}, or wherever the arrow points` → maybe `{npc:1126} (36%), {npc:1125} (34%) in {zone:1426}, or wherever the arrow points`
+- `forever/professions/cooking`: `{spell:2540} is orange from 1 (yellow at 45, grey at 85): about 50 crafts to 50. Cook at any fire: {object:29784} comes with {skill:185}.` → maybe `{spell:2540} is orange from 1 (yellow at 45, green at 65, grey at 85): about 50 crafts to 50. Cook at any fire: a town hearth or your own {object:29784}.`
+- `forever/professions/cooking`: `{item:6290}: shopping`
+- `forever/professions/cooking`: `{item:6290}: ingredients`
+- `forever/professions/cooking`: `{area:702} docks`
+- `forever/professions/cooking`: `Catch about 50 {item:6291} here by fishing (see the {skill:356} guide).`
+- `forever/professions/cooking`: `{item:6290} is orange from 1 (yellow at 45, grey at 85): about 50 crafts to 50. Cook at any fire: {object:29784} comes with {skill:185}. {item:6291} is the common catch in {zone:1438}'s waters.`
+- `forever/professions/cooking`: `{npc:3099} (99%), {npc:3100} (74%) in {zone:1411}, or wherever the arrow points` → maybe `{npc:3099} (99%) in {zone:1411}, or wherever the arrow points`
+- `forever/professions/cooking`: `{npc:1549} (88%) in {zone:1420}, or wherever the arrow points` → maybe `{npc:1547} (72%), {npc:1548} (33%) in {zone:1420}, or wherever the arrow points`
+- `forever/professions/cooking`: `Journeyman {skill:185} raises the cap to 150; it needs skill 50 and character level 10: the arrow picks the nearest {skill:185} trainer of your faction.` → maybe `Journeyman {skill:185} raises the cap to 150; it needs skill 50 and character level 10: the arrow picks the nearest {skill:185} trainer of your faction; training costs 5s.`
+- `forever/professions/cooking`: `{item:724}: shopping`
+- `forever/professions/cooking`: `{item:724}: ingredients`
+- `forever/professions/cooking`: `{npc:547} (35%), {npc:157} (34%) in {zone:1436}, or wherever the arrow points` → maybe `{npc:830} (43%) in {zone:1436}, or wherever the arrow points`
+- `forever/professions/cooking`: `{item:724} is orange from 50 (yellow at 90, grey at 130): about 52 crafts to 100. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `{item:6316}: shopping`
+- `forever/professions/cooking`: `{item:6316}: ingredients`
+- `forever/professions/cooking`: `{npc:1193} (50%) in {zone:1432}, or wherever the arrow points` → maybe `{npc:1189} (39%) in {zone:1432}, or wherever the arrow points`
+- `forever/professions/cooking`: `{item:6316} is orange from 50 (yellow at 90, grey at 130): about 52 crafts to 100. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `{item:5095}: shopping`
+- `forever/professions/cooking`: `{item:5095}: ingredients`
+- `forever/professions/cooking`: `{area:442} docks`
+- `forever/professions/cooking`: `Catch about 68 {item:6361} here by fishing (see the {skill:356} guide).`
+- `forever/professions/cooking`: `{item:5095} is orange from 50 (yellow at 90, grey at 130): about 68 crafts to 110. Cook at any fire: {object:29784} comes with {skill:185}. {skill:356} off the {area:442} docks catches {item:6361}.`
+- `forever/professions/cooking`: `{npc:3244} (33%) in {zone:1413}, or wherever the arrow points` → maybe `{npc:3246} (32%) in {zone:1413}, or wherever the arrow points`
+- `forever/professions/cooking`: `{item:5477} is orange from 50 (yellow at 90, grey at 130): about 52 crafts to 100. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `{spell:3370}: shopping`
+- `forever/professions/cooking`: `{spell:3370}: ingredients`
+- `forever/professions/cooking`: `{npc:1400} (50%) in {zone:1437}, or wherever the arrow points`
+- `forever/professions/cooking`: `{spell:3370} is orange from 100 (yellow at 120, grey at 160): about 26 crafts to 125. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `{item:5480}: shopping`
+- `forever/professions/cooking`: `{item:5480}: ingredients`
+- `forever/professions/cooking`: `{npc:3818} (53%) in {zone:1440}, or wherever the arrow points`
+- `forever/professions/cooking`: `{item:5480} is orange from 110 (yellow at 150, grey at 190): about 15 crafts to 125. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `{item:5479} is orange from 100 (yellow at 140, grey at 180): about 25 crafts to 125. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `Expert {skill:185} raises the cap to 225; it needs skill 125 and character level 20: it is a book, {item:16072}; the arrow picks its nearest seller for your faction. Buy it and read it.` → maybe `Expert {skill:185} raises the cap to 225; it needs skill 125 and character level 20: it is a book, {item:16072} (1g); the arrow picks its nearest seller for your faction. Buy it and read it.`
+- `forever/professions/cooking`: `{spell:3370} is yellow from 125 (yellow at 120, grey at 160): about 7 crafts to 130. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `{spell:3376} is orange from 130 (yellow at 170, grey at 210): about 46 crafts to 175. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `{item:5480} is orange from 125 (yellow at 150, grey at 190): about 25 crafts to 150. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `{spell:3376} is orange from 150 (yellow at 170, grey at 210): about 26 crafts to 175. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `{item:5479} is orange from 125 (yellow at 140, grey at 180): about 15 crafts to 140. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `{npc:2385} (56%) in {zone:1424}, or wherever the arrow points` → maybe `{npc:2384} (42%) in {zone:1424}, or wherever the arrow points`
+- `forever/professions/cooking`: `{spell:3398} is orange from 140 (yellow at 175, grey at 215): about 35 crafts to 175. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `{npc:4352} (52%), {npc:4351} (51%) in {zone:1445}, or wherever the arrow points`
+- `forever/professions/cooking`: `{item:12210} is orange from 175 (yellow at 215, grey at 255): about 40 crafts to 215. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `{item:12215}: shopping`
+- `forever/professions/cooking`: `{item:12215}: ingredients`
+- `forever/professions/cooking`: `{npc:4701} (55%), {npc:4702} (54%), {npc:4700} (40%) in {zone:1443}, or wherever the arrow points`
+- `forever/professions/cooking`: `{item:12215} is orange from 215 (yellow at 240, grey at 280): about 10 crafts to 225. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `{quest:6610} asks for 20 {item:8932} (check the quest log); innkeepers and food vendors sell it, and the arrow picks the nearest.` → maybe `Innkeepers and food vendors sell {item:8932}; the arrow picks the nearest.`
+- `forever/professions/cooking`: `Giant Eggs drop from the Ironbeak owls of {zone:1448}.`
+- `forever/professions/cooking`: `{item:7974} has no drop data: buy it at the Gadgetzan Auction House, next to {npc:8125}, or open clams looted from coastal creatures.`
+- `forever/professions/cooking`: `{item:12215} is orange from 225 (yellow at 240, grey at 280): about 15 crafts to 240. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/cooking`: `{npc:7099} (40%) in {zone:1448}, or wherever the arrow points` → maybe `{npc:3814} (42%), {npc:3812} (40%) in {zone:1439}, or wherever the arrow points`
+- `forever/professions/cooking`: `{item:12218} is orange from 240 (yellow at 265, grey at 305): about 105 crafts to 300. Cook at any fire: {object:29784} comes with {skill:185}.`
+- `forever/professions/enchanting`: `Apprentice {skill:333}`
+- `forever/professions/enchanting`: `{skill:333} runs alongside leveling. Forever's Legacy System rewards crafting professions at skill 150, 225 and 300 (the Journeyman, Expert and Artisan caps), so each of those checkpoints counts. Materials for 1-75 are worth about 4g 3s in all.`
+- `forever/professions/enchanting`: `Orange (a point every craft) until 20, yellow until 22, green until 25. Enchant your own gear: any item for that slot will do.`
+- `forever/professions/enchanting`: `{spell:7428} to 75`
+- `forever/professions/enchanting`: `Orange (a point every craft) until 80, yellow until 100, green until 120. Enchant your own gear: any item for that slot will do. 75 is the Apprentice cap.`
+- `forever/professions/enchanting`: `Journeyman needs character level 10 and {skill:333} 50; it raises the cap to 150. Materials for 75-150 are worth about 7g 51s in all.`
+- `forever/professions/enchanting`: `Teaches {spell:13419} (needs {skill:333} 110). Vendors sell it in limited stock that restocks.`
+- `forever/professions/enchanting`: `{item:1210} (Alliance)`
+- `forever/professions/enchanting`: `{item:1210} comes from {object:1731} nodes ({skill:186}); this is the densest cluster in the data. The Auction House works too.`
+- `forever/professions/enchanting`: `{item:1210} (Horde)`
+- `forever/professions/enchanting`: `{skill:333} materials for 75-150`
+- `forever/professions/enchanting`: `Skinned, disenchanted or crafted by another profession: gather them yourself or buy them on the Auction House.`
+- `forever/professions/enchanting`: `{skill:164}: {item:6338} (or the Auction House)`
+- `forever/professions/enchanting`: `{skill:333}: disenchant uncommon (green) gear (or the Auction House)`
+- `forever/professions/enchanting`: `{spell:7428} to 90`
+- `forever/professions/enchanting`: `Orange (a point every craft) until 80, yellow until 100, green until 120. Enchant your own gear: any item for that slot will do.`
+- `forever/professions/enchanting`: `{skill:333} recipes at 90` → maybe `{skill:333} recipes at 25`
+- `forever/professions/enchanting`: `Back to an {skill:333} trainer: {spell:7426} is taught from {skill:333} 90.`
+- `forever/professions/enchanting`: `{spell:7426} to 120`
+- `forever/professions/enchanting`: `Yellow until 110, green until 130: not every craft gives a point. Enchant your own gear: any item for that slot will do.`
+- `forever/professions/enchanting`: `{skill:333} recipes at 120` → maybe `{skill:333} recipes at 25`
+- `forever/professions/enchanting`: `Back to an {skill:333} trainer: {spell:7788} is taught from {skill:333} 120.`
+- `forever/professions/enchanting`: `{spell:7788} to 130`
+- `forever/professions/enchanting`: `Yellow until 140, green until 160: not every craft gives a point. Enchant your own gear: any item for that slot will do.`
+- `forever/professions/enchanting`: `Back to an {skill:333} trainer: {spell:7795} is taught from {skill:333} 130.` → maybe `Back to an {skill:333} trainer: {spell:7795} (from 100) and {spell:13501} (from 130).`
+- `forever/professions/enchanting`: `{spell:13419} to 150`
+- `forever/professions/enchanting`: `Orange (a point every craft) until 135, yellow until 155, green until 175. Enchant your own gear: any item for that slot will do. {skill:333} 150 is a Legacy System milestone.`
+- `forever/professions/enchanting`: `Expert needs character level 20 and {skill:333} 125; it raises the cap to 225. Materials for 150-225 are worth about 13s in all.`
+- `forever/professions/enchanting`: `Open Giant Clams here. The Auction House works too.`
+- `forever/professions/enchanting`: `{skill:333} materials for 150-225`
+- `forever/professions/enchanting`: `{skill:171}: {item:6371} (or the Auction House)`
+- `forever/professions/enchanting`: `{skill:164}: {item:11128} (or the Auction House)`
+- `forever/professions/enchanting`: `{spell:7861} to 155`
+- `forever/professions/enchanting`: `Yellow until 170, green until 190: not every craft gives a point. Enchant your own gear: any item for that slot will do.`
+- `forever/professions/enchanting`: `{skill:333} recipes at 155` → maybe `{skill:333} recipes at 25`
+- `forever/professions/enchanting`: `Back to an {skill:333} trainer: {spell:13501} is taught from {skill:333} 155.`
+- `forever/professions/enchanting`: `{spell:13501} to 180`
+- `forever/professions/enchanting`: `Yellow until 175, green until 195: not every craft gives a point. Enchant your own gear: any item for that slot will do.`
+- `forever/professions/enchanting`: `{skill:333} recipes at 180` → maybe `{skill:333} recipes at 25`
+- `forever/professions/enchanting`: `Back to an {skill:333} trainer: {spell:13628}, {spell:13637} are taught from {skill:333} 180.`
+- `forever/professions/enchanting`: `{spell:13637} to 200`
+- `forever/professions/enchanting`: `Yellow until 200, green until 220: not every craft gives a point. Enchant your own gear: any item for that slot will do.`
+- `forever/professions/enchanting`: `{skill:333} recipes at 200` → maybe `{skill:333} recipes at 25`
+- `forever/professions/enchanting`: `Back to an {skill:333} trainer: {spell:13661} is taught from {skill:333} 200.`
+- `forever/professions/enchanting`: `{spell:13661} to 225`
+- `forever/professions/enchanting`: `Yellow until 220, green until 240: not every craft gives a point. Enchant your own gear: any item for that slot will do. {skill:333} 225 is a Legacy System milestone.`
+- `forever/professions/enchanting`: `Artisan needs character level 35 and {skill:333} 200; it raises the cap to 300. Materials for 225-300 are worth about 30s in all.`
+- `forever/professions/enchanting`: `{npc:11073} teaches Artisan {skill:333} inside the {area:1517} dungeon ({zone:1418}); bring a group`
+- `forever/professions/enchanting`: `{item:7971} (Alliance)`
+- `forever/professions/enchanting`: `{npc:922} (level 40-41) drop it here. The Auction House works too.`
+- `forever/professions/enchanting`: `{item:7971} (Horde)`
+- `forever/professions/enchanting`: `{npc:5431} (level 48-50) drop it here. The Auction House works too.`
+- `forever/professions/enchanting`: `{item:8153} (Alliance)`
+- `forever/professions/enchanting`: `{item:8153} comes from {item:8831} nodes ({skill:182}); this is the densest patch in the data. The Auction House works too.`
+- `forever/professions/enchanting`: `{item:8153} (Horde)`
+- `forever/professions/enchanting`: `{skill:333} materials for 225-300`
+- `forever/professions/enchanting`: `{skill:164}: {item:11144} (or the Auction House)`
+- `forever/professions/enchanting`: `{spell:13746} to 255`
+- `forever/professions/enchanting`: `Yellow until 245, green until 265: not every craft gives a point. Enchant your own gear: any item for that slot will do.`
+- `forever/professions/enchanting`: `{skill:333} recipes at 255` → maybe `{skill:333} recipes at 25`
+- `forever/professions/enchanting`: `Back to an {skill:333} trainer: {spell:13935} is taught from {skill:333} 255.`
+- `forever/professions/enchanting`: `{spell:13935} to 292`
+- `forever/professions/enchanting`: `Yellow until 275, green until 295: not every craft gives a point. Enchant your own gear: any item for that slot will do.`
+- `forever/professions/enchanting`: `{skill:333} recipes at 292` → maybe `{skill:333} recipes at 25`
+- `forever/professions/enchanting`: `Back to an {skill:333} trainer: {spell:13948} is taught from {skill:333} 270.`
+- `forever/professions/enchanting`: `{spell:13948} to 300`
+- `forever/professions/enchanting`: `Yellow until 290, green until 310: not every craft gives a point. Enchant your own gear: any item for that slot will do. {skill:333} 300 is a Legacy System milestone.`
+- `forever/professions/engineering`: `Apprentice {skill:202}`
+- `forever/professions/engineering`: `{skill:202} runs alongside leveling. Forever's Legacy System rewards crafting professions at skill 150, 225 and 300 (the Journeyman, Expert and Artisan caps), so each of those checkpoints counts. Materials for 1-75 are worth about 62s in all.`
+- `forever/professions/engineering`: `{item:5956}: a tool, keep it in your bags` → maybe `a tool, keep it in your bags`
+- `forever/professions/engineering`: `Kill the mobs that drop it at the farm spot Polestar picks for your level and faction. The Auction House works too.`
+- `forever/professions/engineering`: `{item:2835} (Alliance)`
+- `forever/professions/engineering`: `{item:2835} comes from {object:1731} nodes ({skill:186}); this is the densest cluster in the data. The Auction House works too.`
+- `forever/professions/engineering`: `{item:2835} (Horde)`
+- `forever/professions/engineering`: `{skill:202} materials for 1-75`
+- `forever/professions/engineering`: `Skinned, disenchanted or crafted by another profession: gather them yourself or buy them on the Auction House.`
+- `forever/professions/engineering`: `{skill:186}: smelt {item:2770} (or the Auction House)`
+- `forever/professions/engineering`: `{spell:3918} to 37`
+- `forever/professions/engineering`: `Orange (a point every craft) until 20, yellow until 30, green until 40.`
+- `forever/professions/engineering`: `{spell:3920} to 45`
+- `forever/professions/engineering`: `Yellow until 45, green until 60: not every craft gives a point.`
+- `forever/professions/engineering`: `{skill:202} recipes at 45` → maybe `{skill:202} recipes at 35`
+- `forever/professions/engineering`: `Back to an {skill:202} trainer: {spell:3922} is taught from {skill:202} 45.`
+- `forever/professions/engineering`: `{spell:3922} to 60`
+- `forever/professions/engineering`: `Yellow until 52, green until 60: not every craft gives a point. Needs an anvil nearby.`
+- `forever/professions/engineering`: `{skill:202} recipes at 60` → maybe `{skill:202} recipes at 35`
+- `forever/professions/engineering`: `Back to an {skill:202} trainer: {spell:3923} is taught from {skill:202} 60.`
+- `forever/professions/engineering`: `{spell:3923} to 75`
+- `forever/professions/engineering`: `Yellow until 75, green until 90: not every craft gives a point. Needs an anvil nearby. 75 is the Apprentice cap.`
+- `forever/professions/engineering`: `Journeyman needs character level 10 and {skill:202} 50; it raises the cap to 150. Materials for 75-150 are worth about 3g 23s in all.`
+- `forever/professions/engineering`: `{item:2592} (Alliance)`
+- `forever/professions/engineering`: `{npc:98} (level 17-18) drop it here. The Auction House works too.`
+- `forever/professions/engineering`: `{item:2592} (Horde)`
+- `forever/professions/engineering`: `{npc:3263} (level 19-20) drop it here. The Auction House works too.`
+- `forever/professions/engineering`: `{item:2836} comes from {object:1732} nodes ({skill:186}); this is the densest cluster in the data. The Auction House works too.`
+- `forever/professions/engineering`: `{item:2838} comes from {object:1735} nodes ({skill:186}); this is the densest cluster in the data. The Auction House works too.`
+- `forever/professions/engineering`: `{skill:202} materials for 75-150`
+- `forever/professions/engineering`: `{skill:186}: smelt {item:2840} (or the Auction House)`
+- `forever/professions/engineering`: `{spell:3923} to 80`
+- `forever/professions/engineering`: `Yellow until 75, green until 90: not every craft gives a point. Needs an anvil nearby.`
+- `forever/professions/engineering`: `{skill:202} recipes at 80` → maybe `{skill:202} recipes at 35`
+- `forever/professions/engineering`: `Back to an {skill:202} trainer: {spell:3924} is taught from {skill:202} 80.`
+- `forever/professions/engineering`: `{spell:3924} to 85`
+- `forever/professions/engineering`: `Yellow until 95, green until 110: not every craft gives a point. Needs an anvil nearby.`
+- `forever/professions/engineering`: `{skill:202} recipes at 85` → maybe `{skill:202} recipes at 35`
+- `forever/professions/engineering`: `Back to an {skill:202} trainer: {spell:3929} is taught from {skill:202} 85.`
+- `forever/professions/engineering`: `{spell:3929} to 95`
+- `forever/professions/engineering`: `Yellow until 90, green until 95: not every craft gives a point.`
+- `forever/professions/engineering`: `{skill:202} recipes at 95` → maybe `{skill:202} recipes at 35`
+- `forever/professions/engineering`: `Back to an {skill:202} trainer: {spell:3926} is taught from {skill:202} 95.`
+- `forever/professions/engineering`: `{spell:3926} to 111`
+- `forever/professions/engineering`: `Yellow until 110, green until 125: not every craft gives a point. Needs an anvil nearby.`
+- `forever/professions/engineering`: `{skill:202} recipes at 111` → maybe `{skill:202} recipes at 35`
+- `forever/professions/engineering`: `Back to an {skill:202} trainer: {spell:3937} is taught from {skill:202} 105.`
+- `forever/professions/engineering`: `{spell:3937} to 125`
+- `forever/professions/engineering`: `Yellow until 130, green until 155: not every craft gives a point. Needs an anvil nearby.`
+- `forever/professions/engineering`: `Back to an {skill:202} trainer: {spell:3945} is taught from {skill:202} 125.` → maybe `Back to an {skill:202} trainer: {spell:3945} (from 125).`
+- `forever/professions/engineering`: `{spell:3945} to 139`
+- `forever/professions/engineering`: `Yellow until 135, green until 145: not every craft gives a point.`
+- `forever/professions/engineering`: `{skill:202} recipes at 139` → maybe `{skill:202} recipes at 35`
+- `forever/professions/engineering`: `Back to an {skill:202} trainer: {spell:3942} is taught from {skill:202} 125.` → maybe `Back to an {skill:202} trainer: {spell:3945} (from 125).`
+- `forever/professions/engineering`: `{spell:3942} to 150`
+- `forever/professions/engineering`: `Yellow until 150, green until 175: not every craft gives a point. Needs an anvil nearby. {skill:202} 150 is a Legacy System milestone.`
+- `forever/professions/engineering`: `Expert needs character level 20 and {skill:202} 125; it raises the cap to 225. Materials for 150-225 are worth about 15g in all.`
+- `forever/professions/engineering`: `Skin {npc:2248}, {npc:2356}, {npc:2385}, {npc:2351}, Snapjaw, {npc:2384}, {npc:2354} here (beasts of level 18-30 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `19 {item:2319} for {spell:3953}: {skill:393}: beasts of level 18-30; or the Auction House. Skin {npc:2248}, {npc:2356}, {npc:2385}, {npc:2351}, Snapjaw, {npc:2384} and {npc:2354} here (level 18-30); the {skill:393} guide routes this.`
+- `forever/professions/engineering`: `Skin {npc:3809}, {npc:3810}, {npc:3818}, {npc:3823}, {npc:3811}, {npc:3817} here (beasts of level 18-30 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `19 {item:2319} for {spell:3953}: {skill:393}: beasts of level 18-30; or the Auction House. Skin {npc:3809}, {npc:3810}, {npc:3818}, {npc:3823}, {npc:3811} and {npc:3817} here (level 18-30); the {skill:393} guide routes this.`
+- `forever/professions/engineering`: `{item:7912} comes from {object:2040} nodes ({skill:186}); this is the densest cluster in the data. The Auction House works too.`
+- `forever/professions/engineering`: `{skill:202} materials for 150-225`
+- `forever/professions/engineering`: `{skill:186}: smelt {item:3575} (or the Auction House)`
+- `forever/professions/engineering`: `{skill:186}: smelt {item:3858} (or the Auction House)`
+- `forever/professions/engineering`: `Yellow until 170, green until 195: not every craft gives a point.`
+- `forever/professions/engineering`: `Back to an {skill:202} trainer: {spell:12590} is taught from {skill:202} 175.` → maybe `Back to an {skill:202} trainer: {spell:12585} (from 175).`
+- `forever/professions/engineering`: `{item:10498} to 210`
+- `forever/professions/engineering`: `Yellow until 195, green until 215: not every craft gives a point. Needs an anvil nearby.`
+- `forever/professions/engineering`: `Back to an {skill:202} trainer: {spell:12585}, {spell:12596} are taught from {skill:202} 210.` → maybe `Back to an {skill:202} trainer: {spell:12596} (from 210).`
+- `forever/professions/engineering`: `Yellow until 230, green until 250: not every craft gives a point. Needs an anvil nearby. {skill:202} 225 is a Legacy System milestone.`
+- `forever/professions/engineering`: `Artisan needs character level 35 and {skill:202} 200; it raises the cap to 300. Materials for 225-300 are worth about 67g in all.`
+- `forever/professions/engineering`: `Teaches {item:15994} (needs {skill:202} 260). Vendors sell it in limited stock that restocks; the Auction House often has it too.`
+- `forever/professions/engineering`: `Teaches {item:16000} (needs {skill:202} 275). Vendors sell it in limited stock that restocks.`
+- `forever/professions/engineering`: `{npc:7027} (level 56-57) drop it here. The Auction House works too.`
+- `forever/professions/engineering`: `{npc:6189} (level 51-52) drop it here. The Auction House works too.`
+- `forever/professions/engineering`: `{skill:202} materials for 225-300`
+- `forever/professions/engineering`: `{skill:186}: smelt {item:10620} (or the Auction House)`
+- `forever/professions/engineering`: `Yellow until 230, green until 250: not every craft gives a point. Needs an anvil nearby.`
+- `forever/professions/engineering`: `Back to an {skill:202} trainer: {spell:12621} is taught from {skill:202} 245.` → maybe `Back to an {skill:202} trainer: {spell:12621} (from 245).`
+- `forever/professions/engineering`: `{item:10513} to 264`
+- `forever/professions/engineering`: `Yellow until 265, green until 285: not every craft gives a point. Needs an anvil nearby.`
+- `forever/professions/engineering`: `{item:15994} to 288`
+- `forever/professions/engineering`: `Orange (a point every craft) until 280, yellow until 290, green until 300. Needs an anvil nearby.`
+- `forever/professions/engineering`: `Orange (a point every craft) until 295, yellow until 305, green until 315. Needs an anvil nearby. {skill:202} 300 is a Legacy System milestone.`
+- `forever/professions/first-aid`: `Any {skill:129} trainer of your faction teaches Apprentice {skill:129} (character level 5); the arrow picks the nearest.`
+- `forever/professions/first-aid`: `{item:1251} is orange from 1 (yellow at 30, grey at 60): about 61 crafts to 50. Bandages need no fire: craft them anywhere.` → maybe `{item:6451} is yellow from 180 (yellow at 180, green at 210, grey at 240): about 42 crafts to 210. Bandages need no fire: craft them anywhere.`
+- `forever/professions/first-aid`: `Journeyman {skill:129} raises the cap to 150; it needs skill 50 and character level 10: the arrow picks the nearest {skill:129} trainer of your faction. Learn {spell:3276} on the same visit.` → maybe `Journeyman {skill:129} raises the cap to 150; it needs skill 50 and character level 10: the arrow picks the nearest {skill:129} trainer of your faction; training costs 5s.`
+- `forever/professions/first-aid`: `{item:2581} is yellow from 50 (yellow at 50, grey at 100): about 46 crafts to 80. Bandages need no fire: craft them anywhere.` → maybe `{item:6451} is yellow from 180 (yellow at 180, green at 210, grey at 240): about 42 crafts to 210. Bandages need no fire: craft them anywhere.`
+- `forever/professions/first-aid`: `{spell:3277} is yellow from 80 (yellow at 80, grey at 150): about 49 crafts to 115. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it; the arrow picks the nearest.` → maybe `{item:6450} is yellow from 150 (yellow at 150, green at 180, grey at 210): about 42 crafts to 180. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 150 for 50s; the arrow picks the nearest.`
+- `forever/professions/first-aid`: `{spell:3278} is yellow from 115 (yellow at 115, grey at 185): about 11 crafts to 125. Bandages need no fire: craft them anywhere.` → maybe `{spell:3278} is yellow from 125 (yellow at 115, green at 150, grey at 185): about 38 crafts to 150. Bandages need no fire: craft them anywhere.`
+- `forever/professions/first-aid`: `Expert {skill:129} raises the cap to 225; it needs skill 125 and character level 20: it is a book, {item:16084}; the arrow picks its nearest seller for your faction. Buy it and read it. The same vendor sells the Heavy Silk and {item:8544} manuals: buy both now, you read them at 180 and 210.` → maybe `Expert {skill:129} raises the cap to 225; it needs skill 125 and character level 20: it is a book, {item:16084} (1g); the arrow picks its nearest seller for your faction. Buy it and read it. The same vendor sells the Heavy Silk and {item:8544} manuals (22s and 50s): buy both now, you read them at 180 and 210.`
+- `forever/professions/first-aid`: `{spell:3278} is yellow from 125 (yellow at 115, grey at 185): about 38 crafts to 150. Bandages need no fire: craft them anywhere.` → maybe `{spell:3278} is yellow from 125 (yellow at 115, green at 150, grey at 185): about 38 crafts to 150. Bandages need no fire: craft them anywhere.`
+- `forever/professions/first-aid`: `{item:6450} is yellow from 150 (yellow at 150, grey at 210): about 42 crafts to 180. Bandages need no fire: craft them anywhere.` → maybe `{item:6451} is yellow from 180 (yellow at 180, green at 210, grey at 240): about 42 crafts to 210. Bandages need no fire: craft them anywhere.`
+- `forever/professions/first-aid`: `{item:6451} is yellow from 180 (yellow at 180, grey at 240): about 42 crafts to 210. Bandages need no fire: craft them anywhere.` → maybe `{item:6451} is yellow from 180 (yellow at 180, green at 210, grey at 240): about 42 crafts to 210. Bandages need no fire: craft them anywhere.`
+- `forever/professions/first-aid`: `{item:8544} is yellow from 210 (yellow at 210, grey at 270): about 18 crafts to 225. Bandages need no fire: craft them anywhere.` → maybe `{item:8544} is yellow from 210 (yellow at 210, green at 240, grey at 270): about 18 crafts to 225. Bandages need no fire: craft them anywhere.`
+- `forever/professions/first-aid`: `Artisan {skill:129} comes from the {quest:6624} quest. It needs skill 225 and level 40; the {skill:129} trainer in {zone:1455} sends you to the doctor in Theramore.` → maybe `Artisan {skill:129} comes from the {quest:6624} quest. It needs skill 225 and level 35; the {skill:129} trainer in {zone:1455} sends you to the doctor in Theramore. Bring the Mageweave (about 74) and {item:14047} (about 65) for 225-300 now: bandages need no fire, so you craft 225-300 beside the doctor, who teaches the Artisan bandages.`
+- `forever/professions/first-aid`: `Artisan {skill:129} comes from the {quest:6622} quest. It needs skill 225 and level 40; the {skill:129} trainer in {zone:1454} sends you to the doctor in {area:321}.` → maybe `Artisan {skill:129} comes from the {quest:6622} quest. It needs skill 225 and level 35; the {skill:129} trainer in {zone:1454} sends you to the doctor in {area:321}. Bring the Mageweave (about 74) and {item:14047} (about 65) for 225-300 now: bandages need no fire, so you craft 225-300 beside the doctor, who teaches the Artisan bandages.`
+- `forever/professions/first-aid`: `{quest:6624}: treat the wounded soldiers in the doctor's tent with the bandages the doctor gives you, the most critical first, before any of them die.`
+- `forever/professions/first-aid`: `{quest:6622}: treat the wounded soldiers in the doctor's tent with the bandages the doctor gives you, the most critical first, before any of them die.`
+- `forever/professions/first-aid`: `{item:8544} is yellow from 225 (yellow at 210, grey at 270): about 88 crafts to 260. Bandages need no fire: craft them anywhere. {item:8544} stays yellow to 270; one recipe to 260 saves two trips to the doctor.` → maybe `{item:8544} is yellow from 210 (yellow at 210, green at 240, grey at 270): about 18 crafts to 225. Bandages need no fire: craft them anywhere.`
+- `forever/professions/first-aid`: `{item:14529} is yellow from 260 (yellow at 260, grey at 320): about 65 crafts to 300. Bandages need no fire: craft them anywhere. {item:14529} stays yellow to 320, so it carries you to 300 without a trip for Heavy Runecloth.`
+- `forever/professions/fishing`: `Any {skill:356} trainer of your faction teaches Apprentice {skill:356} (character level 5); the arrow picks the nearest. Buy a {item:6256} from a trade goods or fishing vendor and equip it.`
+- `forever/professions/fishing`: `Fish here until skill 50. Click the bobber when it splashes; every catch can raise the skill.`
+- `forever/professions/fishing`: `{area:442} shore`
+- `forever/professions/fishing`: `{zone:1411} coast`
+- `forever/professions/fishing`: `Vile Fin shore`
+- `forever/professions/fishing`: `Journeyman {skill:356} raises the cap to 150; it needs skill 50 and character level 10. The arrow picks the nearest {skill:356} trainer of your faction.`
+- `forever/professions/fishing`: `Fish the pools and open water here until skill 125. Pools (floating debris, schools of fish) also drop extra loot.`
+- `forever/professions/fishing`: `Expert {skill:356} (cap 225) is a book, not a trainer rank: {npc:2626} sells {item:16083} in {area:35}, at the south tip of {zone:1434}, to both factions. Buy it and read it; it needs skill 125 and level 20.` → maybe `Expert {skill:356} (cap 225) is a book, not a trainer rank: {npc:2626} sells {item:16083} (1g) on the lowest dock of {area:35}, at the south tip of {zone:1434}, to both factions. Buy it and read it; it needs skill 125 and level 20. At level 20 the safe way in is the boat from {area:392} in {zone:1413}, not the road through Stranglethorn. He also sells {item:6532} (+75 from skill 100, 2s 50c each), the lure for the rest of the way.`
+- `forever/professions/fishing`: `Fish the pools here until skill 225. If fish keep getting away, fish easier water until your skill catches up.`
+- `forever/professions/fishing`: `{npc:12919} fishes from the shore of a small island off the east coast, south of Theramore.` → maybe `{npc:12919} fishes from the shore of a small island off the east coast, south of Theramore; swim over from the coast.`
+- `forever/professions/fishing`: `Fish in {area:598}, the north-west coast of {zone:1443} (Slitherblade naga shore) until you catch a {item:16968}; it only bites there.`
+- `forever/professions/fishing`: `Fish in the {area:2521} in {zone:1444} until you catch a {item:16967}; it only bites there.`
+- `forever/professions/fishing`: `Fish in the {area:301}, the north-west shore of {zone:1434} until you catch a {item:16969}; it only bites there.`
+- `forever/professions/fishing`: `Fish in the {area:300}, the south-east shore of {zone:1435} until you catch a {item:16970}; it only bites there.`
+- `forever/professions/fishing`: `Fish the pools along the coast here (eels, snappers, wreckage) until skill 300. {area:35} sells bait and {item:6530} for a small fishing bonus.`
+- `forever/professions/herbalism`: `Any {skill:182} trainer of your faction teaches Apprentice {skill:182} (character level 5); the arrow picks the nearest.`
+- `forever/professions/herbalism`: `Pick every {item:2447} (1, orange), {item:765} (1, orange), {item:2449} (from 15) you pass and circle the waypoints until {skill:182} 50. Zone level 1-10.` → maybe `Pick every {item:2447} (1, orange), {item:765} (1, orange), {item:2449} (from 15) you pass and circle the waypoints until {skill:182} 50. Zone level 1-10. Expect about 60 herbs for these 49 points.`
+- `forever/professions/herbalism`: `Journeyman {skill:182} raises the cap to 150; it needs skill 50 and character level 10. The arrow picks the nearest {skill:182} trainer of your faction.` → maybe `Expert {skill:182} raises the cap to 225; it needs skill 125 and no character level, and costs 50s: train it as soon as you reach 125. The arrow picks the nearest {skill:182} trainer of your faction.`
+- `forever/professions/herbalism`: `Pick every {item:2447} (1, yellow), {item:765} (1, yellow), {item:2449} (15, yellow), {item:785} (50, orange), {item:2450} (from 70), {item:3820} (from 85) you pass and circle the waypoints until {skill:182} 100. Zone level 10-20.` → maybe `Pick every {item:2447} (1, yellow), {item:765} (1, yellow), {item:2449} (15, yellow), {item:785} (50, orange), {item:2450} (from 70) you pass and circle the waypoints until {skill:182} 100. {item:785} and {item:2450} sometimes give a {item:2452} as well. Zone level 10-20. Expect about 140 herbs for these 50 points.`
+- `forever/professions/herbalism`: `Pick every {item:2447} (1, yellow), {item:765} (1, yellow), {item:2449} (15, yellow), {item:785} (50, orange), {item:2450} (from 70) you pass and circle the waypoints until {skill:182} 100. Zone level 10-20.` → maybe `Pick every {item:2447} (1, yellow), {item:765} (1, yellow), {item:2449} (15, yellow), {item:785} (50, orange), {item:2450} (from 70) you pass and circle the waypoints until {skill:182} 100. {item:785} and {item:2450} sometimes give a {item:2452} as well. Zone level 10-20. Expect about 140 herbs for these 50 points.`
+- `forever/professions/herbalism`: `Pick every {item:2447} (1, yellow), {item:765} (1, yellow), {item:2449} (15, yellow), {item:785} (50, orange), {item:2450} (from 70), {item:3820} (from 85) you pass and circle the waypoints until {skill:182} 100. Zone level 10-25.` → maybe `Pick every {item:2447} (1, yellow), {item:765} (1, yellow), {item:2449} (15, yellow), {item:785} (50, orange), {item:2450} (from 70) you pass and circle the waypoints until {skill:182} 100. {item:785} and {item:2450} sometimes give a {item:2452} as well. Zone level 10-20. Expect about 140 herbs for these 50 points.`
+- `forever/professions/herbalism`: `Pick every {item:2447} (1, green), {item:2449} (15, green), {item:785} (50, green), {item:2450} (70, yellow), {item:2453} (100, orange) you pass and circle the waypoints until {skill:182} 125. Zone level 15-25.` → maybe `Pick every {item:2449} (15, green), {item:785} (50, green), {item:2450} (70, yellow), {item:2453} (100, orange) you pass and circle the waypoints until {skill:182} 125. {item:785} and {item:2450} sometimes give a {item:2452} as well. Zone level 15-25. Expect about 60 herbs for these 25 points.`
+- `forever/professions/herbalism`: `Pick every {item:2453} (100, orange), {object:1623} (from 115) you pass and circle the waypoints until {skill:182} 125. Zone level 25-35.`
+- `forever/professions/herbalism`: `Pick every {item:2447} (1, green), {item:765} (1, green), {item:2449} (15, green), {item:785} (50, green), {item:2450} (70, yellow), {item:3820} (85, orange), {item:2453} (100, orange), {object:1623} (from 115) you pass and circle the waypoints until {skill:182} 125. Zone level 20-30.` → maybe `Pick every {item:765} (1, green, rare), {item:2449} (15, green, rare), {item:785} (50, green), {item:2450} (70, yellow), {item:3820} (85, orange), {item:2453} (100, orange), {object:1623} (from 115) you pass and circle the waypoints until {skill:182} 125. {item:785} and {item:2450} sometimes give a {item:2452} as well. {item:3820} grows underwater along the shore: watch your breath. Zone level 20-30. Expect about 40 herbs for these 25 points.`
+- `forever/professions/herbalism`: `Expert {skill:182} raises the cap to 225; it needs skill 125 and character level 20. The arrow picks the nearest {skill:182} trainer of your faction.` → maybe `Expert {skill:182} raises the cap to 225; it needs skill 125 and no character level, and costs 50s: train it as soon as you reach 125. The arrow picks the nearest {skill:182} trainer of your faction.`
+- `forever/professions/herbalism`: `Pick every {item:785} (50, green), {item:2450} (70, green), {item:2453} (100, yellow), {object:1623} (115, orange), {object:1628} (120, orange), {item:3356} (125, orange) you pass and circle the waypoints until {skill:182} 160. Zone level 18-30.` → maybe `Pick every {item:785} (50, green), {item:2450} (70, yellow), {item:2453} (100, orange), {object:1623} (from 115) you pass and circle the waypoints until {skill:182} 125. {item:785} and {item:2450} sometimes give a {item:2452} as well. Zone level 15-27. Expect about 40 herbs for these 25 points.`
+- `forever/professions/herbalism`: `Pick every {item:785} (50, green), {item:2450} (70, green), {item:3820} (85, yellow), {item:2453} (100, yellow), {object:1623} (115, orange), {object:1628} (120, orange), {item:3356} (125, orange), {item:3357} (from 150) you pass and circle the waypoints until {skill:182} 160. Zone level 30-40.` → maybe `Pick every {item:785} (50, green), {item:2450} (70, yellow), {item:2453} (100, orange), {object:1623} (from 115) you pass and circle the waypoints until {skill:182} 125. {item:785} and {item:2450} sometimes give a {item:2452} as well. Zone level 15-27. Expect about 40 herbs for these 25 points.`
+- `forever/professions/herbalism`: `Pick every {item:3820} (85, green), {item:3356} (125, yellow), {item:3357} (150, orange), {item:3818} (160, orange), {item:3821} (from 170) you pass and circle the waypoints until {skill:182} 185. Zone level 35-45.` → maybe `Pick every {object:1623} (115, green, rare), {item:3356} (125, green), {item:3357} (150, green), {item:3818} (160, yellow), {item:3821} (170, yellow), {object:2043} (185, orange) you pass and circle the waypoints until {skill:182} 210. Zone level 35-45. Expect about 20 herbs for these 10 points.`
+- `forever/professions/herbalism`: `Pick every {item:3356} (125, green), {item:3357} (150, yellow), {item:3818} (160, yellow), {item:3821} (170, orange), {object:2043} (185, orange) you pass and circle the waypoints until {skill:182} 200. Zone level 35-45.` → maybe `Pick every {item:2453} (100, green, rare), {object:1623} (115, green, rare), {item:3356} (125, green), {item:3357} (150, yellow), {item:3818} (160, yellow), {item:3821} (170, orange), {object:2043} (185, orange) you pass and circle the waypoints until {skill:182} 200. Zone level 35-45. Expect about 20 herbs for these 15 points.`
+- `forever/professions/herbalism`: `Artisan {skill:182} raises the cap to 300; it needs skill 200 and character level 35. The arrow picks the nearest {skill:182} trainer of your faction.` → maybe `Artisan {skill:182} raises the cap to 300; it needs skill 200 and no character level, and costs 5g: train it as soon as you reach 200. The arrow picks the nearest {skill:182} trainer of your faction.`
+- `forever/professions/herbalism`: `{object:2043}: {zone:1435} (200-210) cont.` → maybe `{item:3818} & {object:2043}: {zone:1445} (200-210) cont.`
+- `forever/professions/herbalism`: `Pick every {item:3356} (125, green), {item:3357} (150, green), {item:3818} (160, yellow), {item:3821} (170, yellow), {object:2043} (185, orange) you pass and circle the waypoints until {skill:182} 210. Zone level 35-45.` → maybe `Pick every {object:1623} (115, green, rare), {item:3356} (125, green), {item:3357} (150, green), {item:3818} (160, yellow), {item:3821} (170, yellow), {object:2043} (185, orange) you pass and circle the waypoints until {skill:182} 210. Zone level 35-45. Expect about 20 herbs for these 10 points.`
+- `forever/professions/herbalism`: `Pick every {object:1623} (115, green), {item:3356} (125, green), {item:3818} (160, green), {item:3821} (170, yellow), {object:2043} (185, yellow), {item:4625} (205, orange), {item:8831} (210, orange) you pass and circle the waypoints until {skill:182} 230. Zone level 35-45.` → maybe `Pick every {object:1623} (115, green, rare), {item:3356} (125, green), {item:3357} (150, green), {item:3818} (160, yellow), {item:3821} (170, yellow), {object:2043} (185, orange) you pass and circle the waypoints until {skill:182} 210. Zone level 35-45. Expect about 20 herbs for these 10 points.`
+- `forever/professions/herbalism`: `Pick every {item:4625} (205, yellow), {item:8838} (230, orange), {item:8846} (from 250) you pass and circle the waypoints until {skill:182} 260. Zone level 45-55.`
+- `forever/professions/herbalism`: `Pick every {item:8836} (220, yellow), {item:8838} (230, yellow), {item:8846} (250, orange), {item:13464} (260, orange), {item:13463} (from 270), {item:13465} (from 280) you pass and circle the waypoints until {skill:182} 285. Zone level 48-55.` → maybe `Pick every {item:8836} (220, green), {item:8838} (230, green), {item:13463} (270, orange), {item:13465} (280, orange), {item:13466} (285, orange) you pass and circle the waypoints until {skill:182} 300. Zone level 51-58. Expect about 20 herbs for these 15 points.`
+- `forever/professions/herbalism`: `Pick every {item:8836} (220, green), {item:8838} (230, green), {item:8846} (250, yellow), {item:13464} (260, yellow), {item:13463} (270, orange), {item:13465} (280, orange), {item:13466} (285, orange) you pass and circle the waypoints until {skill:182} 300. Zone level 48-55.` → maybe `Pick every {item:8836} (220, green), {item:8838} (230, green), {item:13463} (270, orange), {item:13465} (280, orange), {item:13466} (285, orange) you pass and circle the waypoints until {skill:182} 300. Zone level 51-58. Expect about 20 herbs for these 15 points.`
+- `forever/professions/leatherworking`: `Apprentice {skill:165}`
+- `forever/professions/leatherworking`: `{skill:165} runs alongside leveling. Forever's Legacy System rewards crafting professions at skill 150, 225 and 300 (the Journeyman, Expert and Artisan caps), so each of those checkpoints counts. Materials for 1-75 are worth about 1g 18s in all.`
+- `forever/professions/leatherworking`: `{item:2318} (Alliance)`
+- `forever/professions/leatherworking`: `Skin {npc:1125}, {npc:1127}, {npc:1196}, {npc:1199}, {npc:1126}, {npc:1689}, {npc:1201}, {npc:1138}, {npc:1131}, {npc:1128} here (beasts of level 5-20 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `349 {item:2318} for {spell:2152}, {spell:3756} and {spell:3763} (210 of them for 75-150: pick them all now): {skill:393}: beasts of level 5-20; or the Auction House. Skin {npc:1125}, {npc:1127}, {npc:1196}, {npc:1199}, {npc:1126}, {npc:1689}, {npc:1201}, {npc:1138}, {npc:1131} and {npc:1128} here (level 5-20); the {skill:393} guide routes this.`
+- `forever/professions/leatherworking`: `{item:2318} (Horde)`
+- `forever/professions/leatherworking`: `Skin {npc:3126}, {npc:3123}, {npc:3122}, {npc:3125}, {npc:3099}, {npc:3110}, {npc:3121}, {npc:3100}, {npc:3130}, {npc:3127} here (beasts of level 5-20 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `349 {item:2318} for {spell:2152}, {spell:3756} and {spell:3763} (210 of them for 75-150: pick them all now): {skill:393}: beasts of level 5-20; or the Auction House. Skin {npc:3126}, {npc:3123}, {npc:3122}, {npc:3125}, {npc:3099}, {npc:3110}, {npc:3121}, {npc:3100}, {npc:3130} and {npc:3127} here (level 5-20); the {skill:393} guide routes this.`
+- `forever/professions/leatherworking`: `{spell:2152} to 55`
+- `forever/professions/leatherworking`: `Orange (a point every craft) until 30, yellow until 45, green until 60.`
+- `forever/professions/leatherworking`: `{skill:165} recipes at 55` → maybe `{skill:165} recipes at 51`
+- `forever/professions/leatherworking`: `Back to a {skill:165} trainer: {spell:9062} is taught from {skill:165} 55.`
+- `forever/professions/leatherworking`: `{item:7279} to 75`
+- `forever/professions/leatherworking`: `Yellow until 70, green until 85: not every craft gives a point. 75 is the Apprentice cap.`
+- `forever/professions/leatherworking`: `Journeyman needs character level 10 and {skill:165} 50; it raises the cap to 150. Materials for 75-150 are worth about 11g in all.`
+- `forever/professions/leatherworking`: `{item:783} (Alliance)`
+- `forever/professions/leatherworking`: `{item:783} (Horde)`
+- `forever/professions/leatherworking`: `{item:2319} (Alliance)`
+- `forever/professions/leatherworking`: `Skin {npc:2248}, {npc:2356}, {npc:2385}, {npc:2351}, Snapjaw, {npc:2384}, {npc:2354} here (beasts of level 18-30 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `144 {item:2319} for {item:7285}: {skill:393}: beasts of level 18-30; or the Auction House. Skin {npc:2248}, {npc:2356}, {npc:2385}, {npc:2351}, Snapjaw, {npc:2384} and {npc:2354} here (level 18-30); the {skill:393} guide routes this.`
+- `forever/professions/leatherworking`: `{item:2319} (Horde)`
+- `forever/professions/leatherworking`: `Skin {npc:3809}, {npc:3810}, {npc:3818}, {npc:3823}, {npc:3811}, {npc:3817} here (beasts of level 18-30 yield it); the {skill:393} guide routes this. The Auction House works too.`
+- `forever/professions/leatherworking`: `{item:4232} (Alliance)`
+- `forever/professions/leatherworking`: `{item:4232} (Horde)`
+- `forever/professions/leatherworking`: `{skill:165} materials for 75-150`
+- `forever/professions/leatherworking`: `Skinned, disenchanted or crafted by another profession: gather them yourself or buy them on the Auction House.`
+- `forever/professions/leatherworking`: `{skill:171}: {item:2457} (or the Auction House)`
+- `forever/professions/leatherworking`: `{spell:3756} to 85`
+- `forever/professions/leatherworking`: `Yellow until 85, green until 100: not every craft gives a point.`
+- `forever/professions/leatherworking`: `{skill:165} recipes at 85` → maybe `{skill:165} recipes at 51`
+- `forever/professions/leatherworking`: `Back to a {skill:165} trainer: {spell:3763} is taught from {skill:165} 85.`
+- `forever/professions/leatherworking`: `{spell:3763} to 105`
+- `forever/professions/leatherworking`: `Yellow until 100, green until 115: not every craft gives a point.`
+- `forever/professions/leatherworking`: `{skill:165} recipes at 105` → maybe `{skill:165} recipes at 51`
+- `forever/professions/leatherworking`: `Back to a {skill:165} trainer: {spell:9068} is taught from {skill:165} 100.`
+- `forever/professions/leatherworking`: `{item:7282} to 120`
+- `forever/professions/leatherworking`: `Yellow until 115, green until 130: not every craft gives a point.`
+- `forever/professions/leatherworking`: `{skill:165} recipes at 120` → maybe `{skill:165} recipes at 51`
+- `forever/professions/leatherworking`: `Back to a {skill:165} trainer: {spell:9074} is taught from {skill:165} 120.` → maybe `Back to a {skill:165} trainer: {spell:9074} (from 95, 5s).`
+- `forever/professions/leatherworking`: `{item:7285} to 130`
+- `forever/professions/leatherworking`: `Yellow until 132, green until 145: not every craft gives a point.`
+- `forever/professions/leatherworking`: `{skill:165} recipes at 130` → maybe `{skill:165} recipes at 51`
+- `forever/professions/leatherworking`: `Back to a {skill:165} trainer: {spell:3817}, {spell:3768} are taught from {skill:165} 130.`
+- `forever/professions/leatherworking`: `{spell:3768} to 150`
+- `forever/professions/leatherworking`: `Yellow until 142, green until 155: not every craft gives a point. {skill:165} 150 is a Legacy System milestone.`
+- `forever/professions/leatherworking`: `Expert needs character level 20 and {skill:165} 125; it raises the cap to 225. Materials for 150-225 are worth about 61g in all.`
+- `forever/professions/leatherworking`: `Teaches {item:252452} (needs {skill:165} 135).`
+- `forever/professions/leatherworking`: `Teaches {item:252463} (needs {skill:165} 185).`
+- `forever/professions/leatherworking`: `{item:4234} (Alliance)`
+- `forever/professions/leatherworking`: `Skin {npc:2248}, {npc:2249}, {npc:2251}, {npc:2407}, {npc:2406}, {npc:2250}, Snapjaw here (beasts of level 28-40 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `308 {item:4234} for {spell:3780} and {item:4304} (178 of them for 150-225: pick them all now): {skill:393}: beasts of level 28-40; or the Auction House. Skin {npc:2248}, {npc:2249}, {npc:2251}, {npc:2407}, {npc:2406}, {npc:2250} and Snapjaw here (level 28-40); the {skill:393} guide routes this.`
+- `forever/professions/leatherworking`: `{item:4234} (Horde)`
+- `forever/professions/leatherworking`: `Skin {npc:4107}, {npc:4147}, {npc:4140}, {npc:4139}, {npc:4143}, {npc:4142} here (beasts of level 28-40 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `308 {item:4234} for {spell:3780} and {item:4304} (178 of them for 150-225: pick them all now): {skill:393}: beasts of level 28-40; or the Auction House. Skin {npc:4107}, {npc:4147}, {npc:4140}, {npc:4139}, {npc:4143} and {npc:4142} here (level 28-40); the {skill:393} guide routes this.`
+- `forever/professions/leatherworking`: `{item:4235} (Alliance)`
+- `forever/professions/leatherworking`: `{item:4235} (Horde)`
+- `forever/professions/leatherworking`: `Skin {npc:2729}, {npc:2730}, {npc:2732}, {npc:2734} here (beasts of level 38-50 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `257 {item:4304} for {item:8173} and {item:8170}: {skill:393}: beasts of level 38-50; or the Auction House. Skin {npc:2729}, {npc:2730}, {npc:2732} and {npc:2734} here (level 38-50); the {skill:393} guide routes this.`
+- `forever/professions/leatherworking`: `Skin {npc:5292}, {npc:5300}, {npc:5304}, {npc:5272}, {npc:5260}, {npc:5262}, {npc:5268}, {npc:5274}, {npc:5287}, {npc:5286}, {npc:5296} here (beasts of level 38-50 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `257 {item:4304} for {item:8173} and {item:8170}: {skill:393}: beasts of level 38-50; or the Auction House. Skin {npc:5292}, {npc:5300}, {npc:5304}, {npc:5272}, {npc:5260}, {npc:5262}, {npc:5268}, {npc:5274}, {npc:5287}, {npc:5286} and {npc:5296} here (level 38-50); the {skill:393} guide routes this.`
+- `forever/professions/leatherworking`: `{item:8150} (Alliance)`
+- `forever/professions/leatherworking`: `{npc:92} (level 39-40) drop it here. The Auction House works too.`
+- `forever/professions/leatherworking`: `{item:8150} (Horde)`
+- `forever/professions/leatherworking`: `{npc:11746} (level 56-58) drop it here. The Auction House works too.`
+- `forever/professions/leatherworking`: `{item:8169} (Alliance)`
+- `forever/professions/leatherworking`: `{item:8169} (Horde)`
+- `forever/professions/leatherworking`: `{skill:165} materials for 150-225`
+- `forever/professions/leatherworking`: `{skill:171}: {spell:3188} (or the Auction House)`
+- `forever/professions/leatherworking`: `{skill:171}: {item:3389} (or the Auction House)`
+- `forever/professions/leatherworking`: `{skill:333}: disenchant uncommon (green) gear (or the Auction House)`
+- `forever/professions/leatherworking`: `{item:252452} to 170`
+- `forever/professions/leatherworking`: `Orange (a point every craft) until 155, yellow until 165, green until 175.`
+- `forever/professions/leatherworking`: `{skill:165} recipes at 170` → maybe `{skill:165} recipes at 51`
+- `forever/professions/leatherworking`: `Back to a {skill:165} trainer: {spell:7151} is taught from {skill:165} 170.`
+- `forever/professions/leatherworking`: `{item:5964} to 175`
+- `forever/professions/leatherworking`: `Yellow until 180, green until 190: not every craft gives a point.`
+- `forever/professions/leatherworking`: `{skill:165} recipes at 175` → maybe `{skill:165} recipes at 51`
+- `forever/professions/leatherworking`: `Back to a {skill:165} trainer: {spell:3776} is taught from {skill:165} 175.`
+- `forever/professions/leatherworking`: `{spell:3776} to 185`
+- `forever/professions/leatherworking`: `Yellow until 185, green until 195: not every craft gives a point.`
+- `forever/professions/leatherworking`: `{skill:165} recipes at 185` → maybe `{skill:165} recipes at 51`
+- `forever/professions/leatherworking`: `Back to a {skill:165} trainer: {spell:7156} is taught from {skill:165} 185.`
+- `forever/professions/leatherworking`: `{item:5966} to 195`
+- `forever/professions/leatherworking`: `Yellow until 195, green until 205: not every craft gives a point.`
+- `forever/professions/leatherworking`: `{skill:165} recipes at 195` → maybe `{skill:165} recipes at 51`
+- `forever/professions/leatherworking`: `Back to a {skill:165} trainer: {spell:10487} is taught from {skill:165} 195.`
+- `forever/professions/leatherworking`: `{item:252463} to 220`
+- `forever/professions/leatherworking`: `Orange (a point every craft) until 205, yellow until 215, green until 225.`
+- `forever/professions/leatherworking`: `{skill:165} recipes at 220` → maybe `{skill:165} recipes at 51`
+- `forever/professions/leatherworking`: `Back to a {skill:165} trainer: {spell:10482}, {spell:14932} are taught from {skill:165} 220.`
+- `forever/professions/leatherworking`: `{item:8218} to 225`
+- `forever/professions/leatherworking`: `Yellow until 230, green until 240: not every craft gives a point. {skill:165} 225 is a Legacy System milestone.`
+- `forever/professions/leatherworking`: `Artisan needs character level 35 and {skill:165} 200; it raises the cap to 300. Materials for 225-300 are worth about 312g in all.`
+- `forever/professions/leatherworking`: `Teaches {item:15083} (needs {skill:165} 235). Vendors sell it in limited stock that restocks.`
+- `forever/professions/leatherworking`: `Teaches {item:15094} (needs {skill:165} 265). Vendors sell it in limited stock that restocks.`
+- `forever/professions/leatherworking`: `Skin {npc:1815}, {npc:1816}, {npc:1817} here (beasts of level 48-60 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `1009 {item:8170} for {item:15564}, {item:15083} and {item:15094}: {skill:393}: beasts of level 48-60; or the Auction House. Skin {npc:1815}, {npc:1816} and {npc:1817} here (level 48-60); the {skill:393} guide routes this.`
+- `forever/professions/leatherworking`: `Skin {npc:6369}, {npc:8760}, {npc:6380}, {npc:6379}, {npc:6378}, {npc:6377} here (beasts of level 48-60 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `1009 {item:8170} for {item:15564}, {item:15083} and {item:15094}: {skill:393}: beasts of level 48-60; or the Auction House. Skin {npc:6369}, {npc:8760}, {npc:6380}, {npc:6379}, {npc:6378} and {npc:6377} here (level 48-60); the {skill:393} guide routes this.`
+- `forever/professions/leatherworking`: `{npc:7027} (level 56-57) drop it here. The Auction House works too.`
+- `forever/professions/leatherworking`: `{npc:6189} (level 51-52) drop it here. The Auction House works too.`
+- `forever/professions/leatherworking`: `{item:15564} to 236`
+- `forever/professions/leatherworking`: `Yellow until 235, green until 245: not every craft gives a point.`
+- `forever/professions/leatherworking`: `{item:15083} to 267`
+- `forever/professions/leatherworking`: `Orange (a point every craft) until 255, yellow until 265, green until 275.`
+- `forever/professions/leatherworking`: `Orange (a point every craft) until 285, yellow until 295, green until 305. {skill:165} 300 is a Legacy System milestone.`
+- `forever/professions/mining`: `Any {skill:186} trainer of your faction teaches Apprentice {skill:186} (character level 5); the arrow picks the nearest. Buy a {item:2901} from a trade goods or general vendor: keep it in your bags, you cannot mine without it.`
+- `forever/professions/mining`: `Mine every Copper (1, orange) node you pass and circle the waypoints until {skill:186} 50. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 1-10.` → maybe `Mine every Copper (1, orange) node you pass and circle the waypoints until {skill:186} 50. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 1-10. Expect about 60 nodes for these 49 points.`
+- `forever/professions/mining`: `Copper: {zone:1426} (1-50)` → maybe `Copper & Poor Copper: {zone:1426} (1-50)`
+- `forever/professions/mining`: `Mine every Copper (1, orange) node you pass and circle the waypoints until {skill:186} 50. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 10-20.` → maybe `Mine every Copper (1, orange) node you pass and circle the waypoints until {skill:186} 50. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 10-20. Expect about 60 nodes for these 49 points.`
+- `forever/professions/mining`: `Copper: {zone:1411} (1-50)` → maybe `Copper & Poor Copper: {zone:1411} (1-50)`
+- `forever/professions/mining`: `Copper: {zone:1420} (1-50)` → maybe `Copper & Poor Copper: {zone:1420} (1-50)`
+- `forever/professions/mining`: `Journeyman {skill:186} raises the cap to 150; it needs skill 50 and character level 10. The arrow picks the nearest {skill:186} trainer of your faction.` → maybe `Artisan {skill:186} raises the cap to 300; it needs skill 200 and no character level, and costs 5g: train it as soon as you reach 200. The arrow picks the nearest {skill:186} trainer of your faction.`
+- `forever/professions/mining`: `Mine every Copper (1, yellow) node you pass and circle the waypoints until {skill:186} 65. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 1-10.` → maybe `Mine every Copper (1, yellow) node you pass and circle the waypoints until {skill:186} 65. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 1-10. Expect about 80 nodes for these 15 points.`
+- `forever/professions/mining`: `Copper: {zone:1426} (50-65) cont.` → maybe `Copper & Poor Copper: {zone:1426} (50-65) cont.`
+- `forever/professions/mining`: `Mine every Copper (1, yellow) node you pass and circle the waypoints until {skill:186} 65. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 10-20.` → maybe `Mine every Copper (1, yellow) node you pass and circle the waypoints until {skill:186} 65. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 10-20. Expect about 80 nodes for these 15 points.`
+- `forever/professions/mining`: `Copper: {zone:1411} (50-65) cont.` → maybe `Copper & Poor Copper: {zone:1411} (50-65) cont.`
+- `forever/professions/mining`: `Copper: {zone:1420} (50-65) cont.` → maybe `Copper & Poor Copper: {zone:1420} (50-65) cont.`
+- `forever/professions/mining`: `Tin & Silver: {zone:1433} (65-125)`
+- `forever/professions/mining`: `Mine every Copper (1, green), Tin (65, orange), Silver (from 75) node you pass and circle the waypoints until {skill:186} 125. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 15-25.` → maybe `Mine every Copper (1, yellow) node you pass and circle the waypoints until {skill:186} 65. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 1-15. Expect about 80 nodes for these 15 points.`
+- `forever/professions/mining`: `Copper, Silver`
+- `forever/professions/mining`: `Tin & Silver: {zone:1439} (65-125)`
+- `forever/professions/mining`: `Mine every Copper (1, green), Tin (65, orange), Silver (from 75) node you pass and circle the waypoints until {skill:186} 125. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 10-20.` → maybe `Mine every Copper (1, yellow) node you pass and circle the waypoints until {skill:186} 65. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 10-20. Expect about 80 nodes for these 15 points.`
+- `forever/professions/mining`: `Tin & Silver: {zone:1413} (65-125)` → maybe `Copper & Tin: {zone:1413} (65-125)`
+- `forever/professions/mining`: `Mine every Copper (1, green), Tin (65, orange), Silver (from 75) node you pass and circle the waypoints until {skill:186} 125. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 10-25.` → maybe `Mine every Copper (1, yellow) node you pass and circle the waypoints until {skill:186} 65. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 1-10. Expect about 80 nodes for these 15 points.`
+- `forever/professions/mining`: `Silver, Tin`
+- `forever/professions/mining`: `Tin & Silver: {zone:1424} (65-125)` → maybe `Tin: {zone:1424} (65-125)`
+- `forever/professions/mining`: `Mine every Copper (1, green), Tin (65, orange), Silver (from 75) node you pass and circle the waypoints until {skill:186} 125. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 20-30.` → maybe `Mine every Tin (65, green), Lesser Bloodstone (75, green), Silver (75, green, rare), Iron (125, orange) node you pass and circle the waypoints until {skill:186} 155. Smelt at a forge when your bags fill: {spell:3307} (orange to 130, grey at 140) gives points too. Zone level 30-40. Expect about 50 nodes for these 30 points.`
+- `forever/professions/mining`: `Expert {skill:186} raises the cap to 225; it needs skill 125 and character level 20. The arrow picks the nearest {skill:186} trainer of your faction.` → maybe `Artisan {skill:186} raises the cap to 300; it needs skill 200 and no character level, and costs 5g: train it as soon as you reach 200. The arrow picks the nearest {skill:186} trainer of your faction.`
+- `forever/professions/mining`: `Iron: {zone:1431} (125-155)` → maybe `Iron: {zone:1417} (125-155)`
+- `forever/professions/mining`: `Mine every Tin (65, green), Silver (75, green), Iron (125, orange) node you pass and circle the waypoints until {skill:186} 155. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 18-30.` → maybe `Mine every Tin (65, green), Lesser Bloodstone (75, green), Silver (75, green, rare), Iron (125, orange) node you pass and circle the waypoints until {skill:186} 155. Smelt at a forge when your bags fill: {spell:3307} (orange to 130, grey at 140) gives points too. Zone level 30-40. Expect about 50 nodes for these 30 points.`
+- `forever/professions/mining`: `Iron, Silver`
+- `forever/professions/mining`: `Iron: {zone:1416} (125-155)` → maybe `Iron: {zone:1417} (125-155)`
+- `forever/professions/mining`: `Mine every Tin (65, green), Silver (75, green), Iron (125, orange) node you pass and circle the waypoints until {skill:186} 155. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 30-40.` → maybe `Mine every Tin (65, green), Lesser Bloodstone (75, green), Silver (75, green, rare), Iron (125, orange) node you pass and circle the waypoints until {skill:186} 155. Smelt at a forge when your bags fill: {spell:3307} (orange to 130, grey at 140) gives points too. Zone level 30-40. Expect about 50 nodes for these 30 points.`
+- `forever/professions/mining`: `Gold: {zone:1435} (155-175)`
+- `forever/professions/mining`: `Mine every Silver (75, green), Iron (125, yellow), Gold (155, orange) node you pass and circle the waypoints until {skill:186} 175. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 35-45.` → maybe `Mine every Iron (125, green), Gold (155, orange), Mithril (175, orange) node you pass and circle the waypoints until {skill:186} 200. Smelt at a forge when your bags fill: {spell:3308} (orange to 170, grey at 185) gives points too. Zone level 35-45. Expect about 40 nodes for these 25 points.`
+- `forever/professions/mining`: `Gold`
+- `forever/professions/mining`: `Gold, Iron`
+- `forever/professions/mining`: `Gold & Mithril: {zone:1435} (175-200)`
+- `forever/professions/mining`: `Mine every Iron (125, green), Gold (155, orange), Mithril (175, orange) node you pass and circle the waypoints until {skill:186} 200. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 35-45.` → maybe `Mine every Iron (125, green), Gold (155, orange), Mithril (175, orange) node you pass and circle the waypoints until {skill:186} 200. Smelt at a forge when your bags fill: {spell:3308} (orange to 170, grey at 185) gives points too. Zone level 35-45. Expect about 40 nodes for these 25 points.`
+- `forever/professions/mining`: `Gold, Mithril`
+- `forever/professions/mining`: `Artisan {skill:186} raises the cap to 300; it needs skill 200 and character level 35. The arrow picks the nearest {skill:186} trainer of your faction.` → maybe `Artisan {skill:186} raises the cap to 300; it needs skill 200 and no character level, and costs 5g: train it as soon as you reach 200. The arrow picks the nearest {skill:186} trainer of your faction.`
+- `forever/professions/mining`: `Gold & Mithril: {zone:1435} (200-230) cont.` → maybe `Mithril: {zone:1418} (200-230) cont.`
+- `forever/professions/mining`: `Mine every Iron (125, green), Gold (155, yellow), Mithril (175, yellow) node you pass and circle the waypoints until {skill:186} 230. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 35-45.` → maybe `Mine every Iron (125, green), Gold (155, orange), Mithril (175, orange) node you pass and circle the waypoints until {skill:186} 200. Smelt at a forge when your bags fill: {spell:3308} (orange to 170, grey at 185) gives points too. Zone level 35-45. Expect about 40 nodes for these 25 points.`
+- `forever/professions/mining`: `{object:147516} & Truesilver: {zone:1427} (230-245)` → maybe `Mithril & {object:147516}: {zone:1427} (230-245)`
+- `forever/professions/mining`: `Mine every Gold (155, green), Mithril (175, green), {object:147516} (230, orange), Truesilver (230, orange) node you pass and circle the waypoints until {skill:186} 245. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 43-50.`
+- `forever/professions/mining`: `Truesilver, {object:147516}`
+- `forever/professions/mining`: `{object:147516}, Gold`
+- `forever/professions/mining`: `Truesilver & Small Thorium: {zone:1419} (245-275)` → maybe `Small Thorium: {zone:1448} (245-275)`
+- `forever/professions/mining`: `Mine every Gold (155, green), Mithril (175, green), Truesilver (230, orange), Small Thorium (245, orange) node you pass and circle the waypoints until {skill:186} 275. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 45-55.`
+- `forever/professions/mining`: `Rich Thorium: {zone:1428} (275-300)` → maybe `Small Thorium & Rich Thorium: {zone:1452} (275-300)`
+- `forever/professions/mining`: `Mine every {object:147516} (230, yellow), Truesilver (230, yellow), Small Thorium (245, yellow), Rich Thorium (275, orange) node you pass and circle the waypoints until {skill:186} 300. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 50-58.`
+- `forever/professions/mining`: `{object:147516}, Rich Thorium` → maybe `Rich Thorium`
+- `forever/professions/skinning`: `Any {skill:393} trainer of your faction teaches Apprentice {skill:393} (character level 5); the arrow picks the nearest. Buy a {item:7005} from a trade goods or general vendor: keep it in your bags, you cannot skin without it.`
+- `forever/professions/skinning`: `Kill and skin {npc:1922} (7), {npc:525} (5), Prowler (9), {npc:524} (7), {npc:113} (5), {npc:69} (2), {npc:822} (8), {npc:299} (1) along the loop until {skill:393} 50; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 1-10.` → maybe `Kill and skin {npc:1922} (7), {npc:525} (5), Prowler (9), {npc:524} (7), {npc:113} (5), {npc:69} (2), {npc:822} (8), {npc:299} (1) along the loop until {skill:393} 50; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. A quest here needs {skill:393}: Rough Wolf Pelts (level 7, {npc:6306}). Zone level 1-10. Expect about 60 beasts for these 49 points.`
+- `forever/professions/skinning`: `{npc:1922}, Prowler`
+- `forever/professions/skinning`: `Kill and skin {npc:1125} (5), {npc:1127} (7), {npc:1196} (7), {npc:1199} (5), {npc:1126} (6), {npc:704} (2), {npc:705} (1), {npc:1689} (9), {npc:708} (3), {npc:1201} (7), {npc:1138} (6), {npc:1131} (7), {npc:1128} (5) along the loop until {skill:393} 50; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 1-10.` → maybe `Kill and skin {npc:1125} (5), {npc:1127} (7), {npc:1196} (7), {npc:1199} (5), {npc:1126} (6), {npc:704} (2), {npc:705} (1), {npc:1689} (9), {npc:708} (3), {npc:1201} (7), {npc:1138} (6), {npc:1131} (7), {npc:1128} (5) along the loop until {skill:393} 50; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 1-10. Expect about 60 beasts for these 49 points.`
+- `forever/professions/skinning`: `Kill and skin {npc:2033} (8), {npc:2032} (2), Nightsaber (5), {npc:2043} (7), {npc:1985} (2), {npc:2031} (1), {npc:1984} (1) along the loop until {skill:393} 50; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 1-10.` → maybe `Kill and skin {npc:2033} (8), {npc:2032} (2), Nightsaber (5), {npc:2043} (7), {npc:1985} (2), {npc:2031} (1), {npc:1984} (1) along the loop until {skill:393} 50; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 1-10. Expect about 60 beasts for these 49 points.`
+- `forever/professions/skinning`: `Kill and skin {npc:3126} (7), {npc:3123} (8), {npc:3122} (6), {npc:3125} (5), {npc:3099} (6), {npc:3110} (9), {npc:3121} (7), {npc:3100} (8), {npc:3098} (1), {npc:3124} (3), {npc:3130} (9), {npc:3127} (9) along the loop until {skill:393} 50; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 1-10.` → maybe `Kill and skin {npc:3126} (7), {npc:3123} (8), {npc:3122} (6), {npc:3125} (5), {npc:3099} (6), {npc:3110} (9), {npc:3121} (7), {npc:3100} (8), {npc:3098} (1), {npc:3124} (3), {npc:3130} (9), {npc:3127} (9) along the loop until {skill:393} 50; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 1-10. Expect about 60 beasts for these 49 points.`
+- `forever/professions/skinning`: `Kill and skin {npc:2956} (6), Battleboar (3), {npc:2957} (8), {npc:3035} (7), {npc:3566} (9), {npc:2972} (7), {npc:2961} (3), Plainstrider (1), {npc:2959} (7), {npc:2958} (5), {npc:2960} (9) along the loop until {skill:393} 50; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 1-10.` → maybe `Kill and skin {npc:2956} (6), Battleboar (3), {npc:2957} (8), {npc:3035} (7), {npc:3566} (9), {npc:2972} (7), {npc:2961} (3), Plainstrider (1), {npc:2959} (7), {npc:2958} (5), {npc:2960} (9) along the loop until {skill:393} 50; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. A quest here needs {skill:393}: Gathering Leather (level 8, {npc:3050}). Zone level 1-10. Expect about 60 beasts for these 49 points.`
+- `forever/professions/skinning`: `Battleboar, {npc:2961}`
+- `forever/professions/skinning`: `Kill and skin {npc:1548} (7), {npc:1547} (5), Duskbat (1), {npc:1553} (6), {npc:1513} (3), {npc:1549} (9), {npc:1554} (8) along the loop until {skill:393} 50; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 1-10.` → maybe `Kill and skin {npc:1548} (7), {npc:1547} (5), Duskbat (1), {npc:1553} (6), {npc:1513} (3), {npc:1549} (9), {npc:1554} (8) along the loop until {skill:393} 50; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 1-10. Expect about 60 beasts for these 49 points.`
+- `forever/professions/skinning`: `Duskbat`
+- `forever/professions/skinning`: `Duskbat, {npc:1513}`
+- `forever/professions/skinning`: `Journeyman {skill:393} raises the cap to 150; it needs skill 50 and character level 10. The arrow picks the nearest {skill:393} trainer of your faction.` → maybe `Expert {skill:393} raises the cap to 225; it needs skill 125 and no character level, and costs 50s: train it as soon as you reach 125. The arrow picks the nearest {skill:393} trainer of your faction.`
+- `forever/professions/skinning`: `Kill and skin Coyote (10), {npc:833} (11), {npc:454} (12), Goretusk (14), {npc:547} (16, needs 60) along the loop until {skill:393} 100; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 10-20.` → maybe `Kill and skin Coyote (10), {npc:833} (11), {npc:454} (12), Goretusk (14), {npc:547} (16, needs 60) along the loop until {skill:393} 100; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 10-20. Expect about 130 beasts for these 50 points.`
+- `forever/professions/skinning`: `{npc:833}, Goretusk`
+- `forever/professions/skinning`: `Kill and skin {npc:1190} (10), {npc:1186} (11), {npc:1188} (13), {npc:1693} (14), {npc:1191} (14), {npc:1189} (16, needs 60), {npc:1192} (16, needs 60) along the loop until {skill:393} 100; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 10-20.` → maybe `Kill and skin {npc:1190} (10), {npc:1186} (11), {npc:1188} (13), {npc:1693} (14), {npc:1191} (14), {npc:1189} (16, needs 60), {npc:1192} (16, needs 60) along the loop until {skill:393} 100; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 10-20. Expect about 100 beasts for these 50 points.`
+- `forever/professions/skinning`: `Kill and skin {npc:2163} (11), {npc:2164} (13), Moonstalker (14), {npc:2165} (16, needs 60), {npc:2070} (16, needs 60), {npc:2237} (17, needs 70), {npc:3823} (19, needs 90), {npc:2071} (19, needs 90) along the loop until {skill:393} 100; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 10-20.` → maybe `Kill and skin {npc:2163} (11), {npc:2164} (13), Moonstalker (14), {npc:2165} (16, needs 60), {npc:2070} (16, needs 60), {npc:2237} (17, needs 70), {npc:3823} (19, needs 90), {npc:2071} (19, needs 90) along the loop until {skill:393} 100; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 10-20. Expect about 100 beasts for these 50 points.`
+- `forever/professions/skinning`: `Moonstalker, {npc:2165}` → maybe `{npc:2165}, Moonstalker`
+- `forever/professions/skinning`: `Kill and skin {npc:3110} (9), {npc:2957} (8), {npc:2960} (9), {npc:3127} (9), {npc:3244} (11), {npc:3415} (11), {npc:3254} (11), {npc:3246} (12), {npc:3243} (12), {npc:3255} (13), {npc:3242} (13), {npc:3234} (14), {npc:3425} (14), {npc:3241} (15), {npc:3245} (16, needs 60), {npc:3256} (16, needs 60), {npc:3426} (17, needs 70), {npc:3236} (19, needs 90) along the loop until {skill:393} 100; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 10-25.` → maybe `Kill and skin {npc:3110} (9), {npc:2957} (8), {npc:2960} (9), {npc:3127} (9), {npc:3244} (11), {npc:3415} (11), {npc:3254} (11), {npc:3246} (12), {npc:3243} (12), {npc:3255} (13), {npc:3242} (13), {npc:3234} (14), {npc:3425} (14), {npc:3241} (15), {npc:3245} (16, needs 60), {npc:3256} (16, needs 60), {npc:3426} (17, needs 70), {npc:3236} (19, needs 90) along the loop until {skill:393} 100; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 10-25. Expect about 110 beasts for these 50 points.`
+- `forever/professions/skinning`: `Kill and skin Worg (10), {npc:1778} (11), {npc:1766} (11), {npc:1797} (12), {npc:1923} (16, needs 60) along the loop until {skill:393} 100; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 10-20.` → maybe `Kill and skin Worg (10), {npc:1778} (11), {npc:1766} (11), {npc:1797} (12), {npc:1923} (16, needs 60) along the loop until {skill:393} 100; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 10-20. Expect about 160 beasts for these 50 points.`
+- `forever/professions/skinning`: `Worg, {npc:1778}` → maybe `{npc:1778}, Worg`
+- `forever/professions/skinning`: `Worg`
+- `forever/professions/skinning`: `Kill and skin {npc:213} (19), {npc:565} (20) along the loop until {skill:393} 125; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 18-30.` → maybe `Kill and skin {npc:213} (19), {npc:565} (20) along the loop until {skill:393} 125; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 18-30. Expect about 30 beasts for these 25 points.`
+- `forever/professions/skinning`: `Beasts 21-23: {zone:1442} (100-125)`
+- `forever/professions/skinning`: `Kill and skin {npc:4012} (21, needs 105), {npc:4044} (23, needs 115), {npc:4067} (23, needs 115) along the loop until {skill:393} 125; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 15-27.` → maybe `Kill and skin {npc:2351} (21, needs 105), {npc:2354} (22, needs 110), {npc:2384} (23, needs 115) along the loop until {skill:393} 125; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 20-30. Expect about 40 beasts for these 25 points.`
+- `forever/professions/skinning`: `Kill and skin {npc:2351} (21, needs 105), {npc:2354} (22, needs 110), {npc:2384} (23, needs 115) along the loop until {skill:393} 125; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 20-30.` → maybe `Kill and skin {npc:2351} (21, needs 105), {npc:2354} (22, needs 110), {npc:2384} (23, needs 115) along the loop until {skill:393} 125; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 20-30. Expect about 40 beasts for these 25 points.`
+- `forever/professions/skinning`: `Expert {skill:393} raises the cap to 225; it needs skill 125 and character level 20. The arrow picks the nearest {skill:393} trainer of your faction.` → maybe `Expert {skill:393} raises the cap to 225; it needs skill 125 and no character level, and costs 50s: train it as soon as you reach 125. The arrow picks the nearest {skill:393} trainer of your faction.`
+- `forever/professions/skinning`: `Beasts 21-29: {zone:1437} (125-150)`
+- `forever/professions/skinning`: `Kill and skin {npc:1417} (21), {npc:1020} (22), {npc:1015} (23), {npc:1400} (23), {npc:1016} (24), {npc:1021} (24), {npc:2089} (25), {npc:1022} (25), {npc:1023} (26, needs 130), {npc:1018} (27, needs 135), {npc:1019} (29, needs 145) along the loop until {skill:393} 150; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 20-30.` → maybe `Kill and skin {npc:2351} (21), {npc:2354} (22), {npc:2384} (23), {npc:2356} (25), {npc:2385} (27, needs 135) along the loop until {skill:393} 150; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 20-30. Expect about 30 beasts for these 25 points.`
+- `forever/professions/skinning`: `Beasts 21-27: {zone:1442} (125-150)`
+- `forever/professions/skinning`: `Kill and skin {npc:4012} (21), {npc:4044} (23), {npc:4067} (23), {npc:4031} (25), {npc:4042} (25), {npc:4041} (27, needs 135) along the loop until {skill:393} 150; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 15-27.` → maybe `Kill and skin {npc:2351} (21), {npc:2354} (22), {npc:2384} (23), {npc:2356} (25), {npc:2385} (27, needs 135) along the loop until {skill:393} 150; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 20-30. Expect about 30 beasts for these 25 points.`
+- `forever/professions/skinning`: `Kill and skin {npc:2351} (21), {npc:2354} (22), {npc:2384} (23), {npc:2356} (25), {npc:2385} (27, needs 135) along the loop until {skill:393} 150; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 20-30.` → maybe `Kill and skin {npc:2351} (21), {npc:2354} (22), {npc:2384} (23), {npc:2356} (25), {npc:2385} (27, needs 135) along the loop until {skill:393} 150; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 20-30. Expect about 30 beasts for these 25 points.`
+- `forever/professions/skinning`: `Beasts 30-34: {zone:1434} (150-175)`
+- `forever/professions/skinning`: `Kill and skin {npc:1150} (30), {npc:683} (30), {npc:855} (30), {npc:681} (30), {npc:688} (31, needs 155), {npc:1108} (32, needs 160), Panther (32, needs 160), {npc:682} (32, needs 160), {npc:685} (33, needs 165), {npc:689} (34, needs 170), {npc:1085} (34, needs 170) along the loop until {skill:393} 175; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 30-45.` → maybe `Kill and skin {npc:1150} (30), {npc:683} (30), {npc:855} (30), {npc:681} (30), {npc:688} (31), {npc:1108} (32), Panther (32), {npc:682} (32), {npc:685} (33), {npc:689} (34), {npc:1085} (34), {npc:686} (35), {npc:1151} (35), {npc:1152} (35), {npc:854} (36, needs 180), {npc:684} (37, needs 185), {npc:690} (39, needs 195) along the loop until {skill:393} 200; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 30-45. Expect about 30 beasts for these 25 points.`
+- `forever/professions/skinning`: `Kill and skin {npc:1150} (30), {npc:683} (30), {npc:855} (30), {npc:681} (30), {npc:688} (31), {npc:1108} (32), Panther (32), {npc:682} (32), {npc:685} (33), {npc:689} (34), {npc:1085} (34), {npc:686} (35), {npc:1151} (35), {npc:1152} (35), {npc:854} (36, needs 180), {npc:684} (37, needs 185), {npc:690} (39, needs 195) along the loop until {skill:393} 200; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 30-45.` → maybe `Kill and skin {npc:1150} (30), {npc:683} (30), {npc:855} (30), {npc:681} (30), {npc:688} (31), {npc:1108} (32), Panther (32), {npc:682} (32), {npc:685} (33), {npc:689} (34), {npc:1085} (34), {npc:686} (35), {npc:1151} (35), {npc:1152} (35), {npc:854} (36, needs 180), {npc:684} (37, needs 185), {npc:690} (39, needs 195) along the loop until {skill:393} 200; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 30-45. Expect about 30 beasts for these 25 points.`
+- `forever/professions/skinning`: `Artisan {skill:393} raises the cap to 300; it needs skill 200 and character level 35. The arrow picks the nearest {skill:393} trainer of your faction.` → maybe `Artisan {skill:393} raises the cap to 300; it needs skill 200 and no character level, and costs 5g: train it as soon as you reach 200. The arrow picks the nearest {skill:393} trainer of your faction.`
+- `forever/professions/skinning`: `Beasts 35-42: {zone:1418} (200-225)`
+- `forever/professions/skinning`: `Kill and skin {npc:2727} (35), {npc:2731} (36), {npc:2728} (37), {npc:2729} (38), {npc:2732} (38), {npc:2734} (40), {npc:2730} (42, needs 210) along the loop until {skill:393} 225; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 35-45.`
+- `forever/professions/skinning`: `Kill and skin {npc:2927} (42), {npc:2924} (43), {npc:2928} (44), {npc:2929} (46, needs 230), {npc:2926} (47, needs 235), {npc:2505} (49, needs 245) along the loop until {skill:393} 250; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 40-50.` → maybe `Kill and skin {npc:2927} (42), {npc:2924} (43), {npc:2928} (44), {npc:2929} (46, needs 230), {npc:2926} (47, needs 235), {npc:2505} (49, needs 245) along the loop until {skill:393} 250; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 40-50. Expect about 40 beasts for these 25 points.`
+- `forever/professions/skinning`: `Kill and skin {npc:9165} (48), Ravasaur (48), {npc:6507} (49), {npc:6506} (49), {npc:9162} (49), Pterrordax (50), {npc:6514} (50), {npc:6508} (50), Diemetradon (51, needs 255), {npc:9167} (51, needs 255), {npc:6513} (51, needs 255), {npc:6516} (52, needs 260), {npc:9164} (53, needs 265), {npc:11735} (54, needs 270) along the loop until {skill:393} 275; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 48-55.` → maybe `Kill and skin {npc:9165} (48), Ravasaur (48), {npc:6507} (49), {npc:6506} (49), {npc:9162} (49), Pterrordax (50), {npc:6514} (50), {npc:6508} (50), Diemetradon (51, needs 255), {npc:9167} (51, needs 255), {npc:6513} (51, needs 255), {npc:6516} (52, needs 260), {npc:9164} (53, needs 265), {npc:11735} (54, needs 270) along the loop until {skill:393} 275; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 48-55. Expect about 30 beasts for these 25 points.`
+- `forever/professions/skinning`: `{npc:6506}, Ravasaur`
+- `forever/professions/skinning`: `Beasts 48-54: {zone:1449} (275-300)`
+- `forever/professions/skinning`: `Kill and skin {npc:9165} (48), Ravasaur (48), {npc:6507} (49), {npc:6506} (49), {npc:9162} (49), Pterrordax (50), {npc:6514} (50), {npc:6508} (50), Diemetradon (51), {npc:9167} (51), {npc:6513} (51), {npc:6516} (52), {npc:9164} (53), {npc:11735} (54) along the loop until {skill:393} 300; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 48-55.` → maybe `Kill and skin {npc:9165} (48), Ravasaur (48), {npc:6507} (49), {npc:6506} (49), {npc:9162} (49), Pterrordax (50), {npc:6514} (50), {npc:6508} (50), Diemetradon (51, needs 255), {npc:9167} (51, needs 255), {npc:6513} (51, needs 255), {npc:6516} (52, needs 260), {npc:9164} (53, needs 265), {npc:11735} (54, needs 270) along the loop until {skill:393} 275; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 48-55. Expect about 30 beasts for these 25 points.`
+- `forever/professions/skinning`: `{npc:9164}, Diemetradon`
+- `forever/professions/skinning`: `Pterrordax, {npc:9164}`
+- `forever/professions/tailoring`: `Apprentice {skill:197}`
+- `forever/professions/tailoring`: `{skill:197} runs alongside leveling. Forever's Legacy System rewards crafting professions at skill 150, 225 and 300 (the Journeyman, Expert and Artisan caps), so each of those checkpoints counts. Materials for 1-75 are worth about 1g 8s in all.`
+- `forever/professions/tailoring`: `Kill the mobs that drop it at the farm spot Polestar picks for your level and faction. The Auction House works too.`
+- `forever/professions/tailoring`: `{item:10045} to 50`
+- `forever/professions/tailoring`: `Orange (a point every craft) until 40, yellow until 50, green until 60.`
+- `forever/professions/tailoring`: `{skill:197} recipes at 50` → maybe `{skill:197} recipes at 15`
+- `forever/professions/tailoring`: `Back to a {skill:197} trainer: {spell:8776} is taught from {skill:197} 50.` → maybe `Back to a {skill:197} trainer: {spell:8776} (from 15, 50c).`
+- `forever/professions/tailoring`: `Yellow until 67, green until 85: not every craft gives a point. 75 is the Apprentice cap.`
+- `forever/professions/tailoring`: `Journeyman needs character level 10 and {skill:197} 50; it raises the cap to 150. Materials for 75-150 are worth about 17g in all.`
+- `forever/professions/tailoring`: `{npc:98} (level 17-18) drop it here. The Auction House works too.`
+- `forever/professions/tailoring`: `{npc:3263} (level 19-20) drop it here. The Auction House works too.`
+- `forever/professions/tailoring`: `{skill:197} materials for 75-150`
+- `forever/professions/tailoring`: `Skinned, disenchanted or crafted by another profession: gather them yourself or buy them on the Auction House.`
+- `forever/professions/tailoring`: `{skill:171}: {item:3383} (or the Auction House)`
+- `forever/professions/tailoring`: `{item:7026} to 80`
+- `forever/professions/tailoring`: `Yellow until 67, green until 85: not every craft gives a point.`
+- `forever/professions/tailoring`: `{skill:197} recipes at 80` → maybe `{skill:197} recipes at 15`
+- `forever/professions/tailoring`: `Back to a {skill:197} trainer: {spell:2402} is taught from {skill:197} 80.`
+- `forever/professions/tailoring`: `{spell:2402} to 110`
+- `forever/professions/tailoring`: `Yellow until 97, green until 115: not every craft gives a point.`
+- `forever/professions/tailoring`: `{skill:197} recipes at 110` → maybe `{skill:197} recipes at 15`
+- `forever/professions/tailoring`: `Back to a {skill:197} trainer: {spell:3848} is taught from {skill:197} 110.`
+- `forever/professions/tailoring`: `{spell:3848} to 125`
+- `forever/professions/tailoring`: `Yellow until 127, green until 145: not every craft gives a point.`
+- `forever/professions/tailoring`: `{skill:197} recipes at 125` → maybe `{skill:197} recipes at 15`
+- `forever/professions/tailoring`: `Back to a {skill:197} trainer: {spell:3852} is taught from {skill:197} 125.`
+- `forever/professions/tailoring`: `{spell:3852} to 150`
+- `forever/professions/tailoring`: `Yellow until 140, green until 155: not every craft gives a point. {skill:197} 150 is a Legacy System milestone.`
+- `forever/professions/tailoring`: `Expert needs character level 20 and {skill:197} 125; it raises the cap to 225. Materials for 150-225 are worth about 135g in all.`
+- `forever/professions/tailoring`: `Teaches {item:7053} (needs {skill:197} 140). Vendors sell it in limited stock that restocks.`
+- `forever/professions/tailoring`: `{npc:6006} (level 52-53) drop it here. The Auction House works too.`
+- `forever/professions/tailoring`: `{npc:5472} (level 46-47) drop it here. The Auction House works too.`
+- `forever/professions/tailoring`: `{item:7053} to 180`
+- `forever/professions/tailoring`: `Orange (a point every craft) until 160, yellow until 175, green until 190.`
+- `forever/professions/tailoring`: `{skill:197} recipes at 180` → maybe `{skill:197} recipes at 15`
+- `forever/professions/tailoring`: `Back to a {skill:197} trainer: {spell:8799} is taught from {skill:197} 180.`
+- `forever/professions/tailoring`: `{item:7062} to 185`
+- `forever/professions/tailoring`: `Yellow until 190, green until 200: not every craft gives a point.`
+- `forever/professions/tailoring`: `{skill:197} recipes at 185` → maybe `{skill:197} recipes at 15`
+- `forever/professions/tailoring`: `Back to a {skill:197} trainer: {spell:12048} is taught from {skill:197} 185.`
+- `forever/professions/tailoring`: `{item:9998} to 205`
+- `forever/professions/tailoring`: `Yellow until 200, green until 215: not every craft gives a point.`
+- `forever/professions/tailoring`: `{skill:197} recipes at 205` → maybe `{skill:197} recipes at 15`
+- `forever/professions/tailoring`: `Back to a {skill:197} trainer: {spell:12072} is taught from {skill:197} 205.`
+- `forever/professions/tailoring`: `Yellow until 220, green until 235: not every craft gives a point. {skill:197} 225 is a Legacy System milestone.`
+- `forever/professions/tailoring`: `Artisan needs character level 35 and {skill:197} 200; it raises the cap to 300. Materials for 225-300 are worth about 845g in all.`
+- `forever/professions/tailoring`: `Teaches {item:13863} (needs {skill:197} 230). Vendors sell it in limited stock that restocks.`
+- `forever/professions/tailoring`: `Teaches {item:254123} (needs {skill:197} 250).`
+- `forever/professions/tailoring`: `Skin {npc:1815}, {npc:1816}, {npc:1817} here (beasts of level 48-60 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `420 {item:8170} for {item:13863} and {item:13867}: {skill:393}: beasts of level 48-60; or the Auction House. Skin {npc:1815}, {npc:1816} and {npc:1817} here (level 48-60); the {skill:393} guide routes this.`
+- `forever/professions/tailoring`: `Skin {npc:6369}, {npc:8760}, {npc:6380}, {npc:6379}, {npc:6378}, {npc:6377} here (beasts of level 48-60 yield it); the {skill:393} guide routes this. The Auction House works too.` → maybe `420 {item:8170} for {item:13863} and {item:13867}: {skill:393}: beasts of level 48-60; or the Auction House. Skin {npc:6369}, {npc:8760}, {npc:6380}, {npc:6379}, {npc:6378} and {npc:6377} here (level 48-60); the {skill:393} guide routes this.`
+- `forever/professions/tailoring`: `{npc:7027} (level 56-57) drop it here. The Auction House works too.`
+- `forever/professions/tailoring`: `{npc:6189} (level 51-52) drop it here. The Auction House works too.`
+- `forever/professions/tailoring`: `{npc:1824} (level 54-55) drop it here. The Auction House works too.`
+- `forever/professions/tailoring`: `{npc:11739} (level 57-59) drop it here. The Auction House works too.`
+- `forever/professions/tailoring`: `{item:13856} to 236`
+- `forever/professions/tailoring`: `Yellow until 240, green until 255: not every craft gives a point.`
+- `forever/professions/tailoring`: `{item:13863} to 251`
+- `forever/professions/tailoring`: `Orange (a point every craft) until 245, yellow until 260, green until 275.`
+- `forever/professions/tailoring`: `{item:254123} to 295`
+- `forever/professions/tailoring`: `Orange (a point every craft) until 265, yellow until 280, green until 295.`
+- `forever/professions/tailoring`: `On Forever no recipe a trainer teaches or both factions' vendors sell gives {skill:197} points past 295, so Polestar has no route for the last points. Recipes that still do: {item:14342} (needs a Moonwell), {item:14137} (needs a {item:279943}), {item:14155} (recipe is a drop), {item:14128} (recipe is a drop), {item:19047} (needs a {item:279943}).`
+- `forever/reputation/alterac-valley`: `The {faction:730} holds {area:2959} in the north of {zone:1459}. Destroying towers, taking graveyards and mines, and killing captains and generals all pay reputation to the whole team. Loot {quest:7223} from fallen enemies for {npc:13257}. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/alterac-valley`: `{npc:12096}: Irondeep and {item:17542} from the mines`
+- `forever/reputation/alterac-valley`: `{faction:730} to Honored`
+- `forever/reputation/alterac-valley`: `Keep winning {zone:1459}. More {quest:7223} ({npc:13257}), Storm Crystals for {npc:13442} (they summon {npc:13419}) and Frostwolf Hides for the {npc:13577} all repeat.`
+- `forever/reputation/alterac-valley`: `{npc:13257}: More {quest:7223}`
+- `forever/reputation/alterac-valley`: `{npc:13442}: Crystal Cluster`
+- `forever/reputation/alterac-valley`: `{faction:730} to Revered`
+- `forever/reputation/alterac-valley`: `Full games that kill {npc:11946} after the towers fall pay the most.`
+- `forever/reputation/alterac-valley`: `{faction:730} to Exalted`
+- `forever/reputation/alterac-valley`: `Exalted with the {faction:730} earns a Legacy Point.`
+- `forever/reputation/alterac-valley`: `The {faction:729} holds {area:2978} in the south of {zone:1459}. Destroying towers, taking graveyards and mines, and killing captains and generals all pay reputation to the whole team. Loot {item:17422} from fallen enemies for {npc:13176}. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/alterac-valley`: `{npc:12097}: Coldtooth and {item:17522} from the mines`
+- `forever/reputation/alterac-valley`: `{faction:729} to Honored`
+- `forever/reputation/alterac-valley`: `Keep winning {zone:1459}. More Booty! ({npc:13176}), {item:17306} for {npc:13236} (it summons {npc:13256}) and Alterac Ram Hides for the {npc:13441} all repeat.`
+- `forever/reputation/alterac-valley`: `{npc:13176}: More Booty!`
+- `forever/reputation/alterac-valley`: `{npc:13236}: A Gallon of Blood`
+- `forever/reputation/alterac-valley`: `{faction:729} to Revered`
+- `forever/reputation/alterac-valley`: `Full games that kill {npc:11948} after the towers fall pay the most.`
+- `forever/reputation/alterac-valley`: `{faction:729} to Exalted`
+- `forever/reputation/alterac-valley`: `Exalted with the {faction:729} earns a Legacy Point.`
+- `forever/reputation/arathi-basin`: `{faction:509} fights for {zone:1461} from {area:320}. Their reputation comes from the battleground: the resources your team gathers pay it to everyone, so holding more bases for longer pays more. Queue at any battlemaster. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/arathi-basin`: `{npc:14983}'s The Battle for {zone:1461}! (assault every base) and Control Four Bases / Control Five Bases are one-time quests; {npc:14984} beside him takes Arathi Resource Crates.`
+- `forever/reputation/arathi-basin`: `Keep playing {zone:1461}. On Call to Arms: {zone:1461} weekends the {npc:15351} in the capitals takes three Arathi Basin Marks of Honor for extra reputation.`
+- `forever/reputation/arathi-basin`: `{npc:15127} hands out one Arathor care package by level`
+- `forever/reputation/arathi-basin`: `Keep playing {zone:1461}; wins with many bases held pay the most.`
+- `forever/reputation/arathi-basin`: `Exalted with the League of Arathor earns a Legacy Point.`
+- `forever/reputation/arathi-basin`: `{faction:510} fight for {zone:1461} from {area:321}. Their reputation comes from the battleground: the resources your team gathers pay it to everyone, so holding more bases for longer pays more. Queue at any battlemaster. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/arathi-basin`: `{npc:15021}'s The Battle for {zone:1461}! (assault every base) and Take Four Bases / Take Five Bases are one-time quests; {npc:15022} beside him takes Arathi Resource Crates.`
+- `forever/reputation/arathi-basin`: `Keep playing {zone:1461}. On Call to Arms: {zone:1461} weekends the {npc:15350} in the capitals takes three Arathi Basin Marks of Honor for extra reputation.`
+- `forever/reputation/arathi-basin`: `{npc:15126} hands out one Defiler's care package by level`
+- `forever/reputation/arathi-basin`: `Exalted with {faction:510} earns a Legacy Point.`
+- `forever/reputation/argent-dawn`: `{object:2160} starts out Neutral. Take the Commission from {npc:10840} at {area:3197} and wear it: in Classic, Scourgestones only drop while the {quest:5401} trinket is equipped. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/argent-dawn`: `{object:2160} starts out Neutral. Take the Commission from {npc:10839} at {area:152} and wear it: in Classic, Scourgestones only drop while the {quest:5401} trinket is equipped. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/argent-dawn`: `Minion's Scourgestones to Friendly`
+- `forever/reputation/argent-dawn`: `Ghouls and skeletons all over {zone:1422} drop Minion's Scourgestones about half the time; this cluster is dense. Hand them in 20 at a time to any Argent Officer (Pureheart at {area:3197}, Garush at {area:152}, {npc:11039} at {area:2268}). Each turn-in also pays an {item:12844} for the Argent quartermasters.`
+- `forever/reputation/argent-dawn`: `Invader's Scourgestones to Honored`
+- `forever/reputation/argent-dawn`: `Dark Adepts and Shadowmages (level 58-60) drop Invader's Scourgestones here, along with Minion's stones and {item:14047}. Hand Invader's in 10 at a time and Minion's 20 at a time to {npc:11039} at {area:2268}. In Classic both stop giving reputation at Honored.`
+- `forever/reputation/argent-dawn`: `Corruptor's Scourgestones and dungeons to Revered`
+- `forever/reputation/argent-dawn`: `From Honored on, Corruptor's Scourgestones (one per turn-in) and Scourge kills in {area:2279} and {area:2057} carry the reputation. Corruptor's stones drop from the Scourge bosses there ({npc:1853}, {npc:10433}, Vectus) and from {npc:1852} and Putridius in {zone:1422}. Many dungeon runs pay off faster than any open-world farm.`
+- `forever/reputation/argent-dawn`: `Run {area:2279} (both wings) and {area:2057}, killing every Scourge you pass.`
+- `forever/reputation/argent-dawn`: `{faction:529} to Exalted`
+- `forever/reputation/argent-dawn`: `Keep running {area:2279} and {area:2057} and turning in every {item:12843} at {area:2268} until Exalted.`
+- `forever/reputation/cenarion-circle`: `{area:3425} is the walled town in north-central {zone:1451}. Bor and {npc:15270} stand together inside. The {faction:609} starts out Neutral. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/cenarion-circle`: `{quest:8320} needs level 60`
+- `forever/reputation/cenarion-circle`: `Twilight's Hammer cultists hold the camps in western {zone:1451}. {quest:8320} and Stonecallers mix here; any cultist can drop an {item:20404}. Every cultist kill also counts toward the {faction:609}. The Geolords count for {quest:8320} only if you are 60 and took it.`
+- `forever/reputation/cenarion-circle`: `Encrypted Twilight Texts to Friendly`
+- `forever/reputation/cenarion-circle`: `Encrypted Twilight Texts repeats: {npc:15306} takes more texts again and again. The cultist camps are the place to farm them.`
+- `forever/reputation/cenarion-circle`: `{npc:15306}: Encrypted Twilight Texts`
+- `forever/reputation/cenarion-circle`: `{faction:609} to Honored`
+- `forever/reputation/cenarion-circle`: `Keep farming the Twilight camps. Wearing the Twilight Trappings (the Twilight cultist set plus a Medallion of Station, from {npc:15282}'s Medallion of Station quest) lets you summon Abyssal Templars at the Wind Stones; their Abyssal Crests go to {npc:15306}.`
+- `forever/reputation/cenarion-circle`: `{faction:609} to Revered`
+- `forever/reputation/cenarion-circle`: `From here on, the {area:3454} raid and the Abyssal Council turn-ins (crests, signets, scepters) carry most of the reputation.`
+- `forever/reputation/cenarion-circle`: `Abyssal Crests, Abyssal Signets and Abyssal Scepters are repeatable at {npc:15306} once their opening quests are done.`
+- `forever/reputation/cenarion-circle`: `{faction:609} to Exalted`
+- `forever/reputation/cenarion-circle`: `Keep running the {area:3454} and turning in Abyssal Council insignia until Exalted.`
+- `forever/reputation/hydraxian-waterlords`: `{npc:13278} stands on a small island off the eastern coast of {zone:1447}; swim or walk the shallows out to him. The {faction:749} start out Neutral. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/hydraxian-waterlords`: `Dust Stormers and Desert Rumblers`
+- `forever/reputation/hydraxian-waterlords`: `Both elementals roam north-western {zone:1451}; the Rumblers cluster a little further north.`
+- `forever/reputation/hydraxian-waterlords`: `Use the {item:17310} on the poisoned water elementals of {zone:1423}, then loot their {item:17309} (12).`
+- `forever/reputation/hydraxian-waterlords`: `{npc:9816} in Upper Blackrock Spire drops the {quest:6821}. This needs a raid group.`
+- `forever/reputation/hydraxian-waterlords`: `Kill a {npc:11668}, a {npc:11658}, an {npc:11673} and a {npc:12101} in the {area:2717}. Every {area:2717} elemental and boss also counts toward the Waterlords.`
+- `forever/reputation/hydraxian-waterlords`: `{quest:6823} needs Honored. At Honored, {npc:13278} hands out {item:17333}, used to douse the runes in the {area:2717} that summon {npc:12018}; at Revered, the reusable {item:22754}.`
+- `forever/reputation/hydraxian-waterlords`: `Bring the Hands of Lucifron, Gehennas, Shazzrah and Sulfuron from the {area:2717}.`
+- `forever/reputation/hydraxian-waterlords`: `{faction:749} to Revered`
+- `forever/reputation/hydraxian-waterlords`: `{area:2717} clears carry the rest. Bosses always count; in Classic, trash kills stop giving Waterlords reputation partway up, so late on the bosses do the work.`
+- `forever/reputation/hydraxian-waterlords`: `{faction:749} to Exalted`
+- `forever/reputation/hydraxian-waterlords`: `Keep clearing the {area:2717} until Exalted.`
+- `forever/reputation/merchants-favor`: `Merchant's Favor Reputation`
+- `forever/reputation/merchants-favor`: `{faction:2586} to Friendly`
+- `forever/reputation/merchants-favor`: `The {faction:2586} is the Alliance's tradeskill faction in Forever. Its camp is at {area:1002} in western {zone:1433}. From level 10 mobs drop Waylaid Crates: fill each with the goods its label asks for and hand the {object:1561} to {npc:214101} at the camp for reputation and Merchant's Favor. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/merchants-favor`: `{faction:2586} to Honored`
+- `forever/reputation/merchants-favor`: `Keep filling Waylaid Crates for {npc:214101}.`
+- `forever/reputation/merchants-favor`: `{faction:2586} to Revered`
+- `forever/reputation/merchants-favor`: `{faction:2586} to Exalted`
+- `forever/reputation/merchants-favor`: `Keep filling Waylaid Crates for {npc:214101} until Exalted.`
+- `forever/reputation/merchants-favor`: `{faction:2587} to Friendly`
+- `forever/reputation/merchants-favor`: `{faction:2587} is the Horde's tradeskill faction in Forever. Its camp is just outside the {area:380} in the {zone:1413}. From level 10 mobs drop Waylaid Crates: fill each with the goods its label asks for and hand the {object:1561} to Dokimi at the camp for reputation and Merchant's Favor. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/merchants-favor`: `Dokimi`
+- `forever/reputation/merchants-favor`: `{faction:2587} to Honored`
+- `forever/reputation/merchants-favor`: `Keep filling Waylaid Crates for Dokimi.`
+- `forever/reputation/merchants-favor`: `{faction:2587} to Revered`
+- `forever/reputation/merchants-favor`: `{faction:2587} to Exalted`
+- `forever/reputation/merchants-favor`: `Keep filling Waylaid Crates for Dokimi until Exalted.`
+- `forever/reputation/thorium-brotherhood`: `{area:1446}, on the scaffolds in the north-west of {zone:1427}, is the Brotherhood's outpost. The {faction:59} starts out Neutral. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/thorium-brotherhood`: `The plans lie in the {area:1443} of the Cauldron, guarded by {object:147516} dwarves. {object:147516} dwarves also drop {item:18945}, which Burninate takes for Gaining Acceptance.`
+- `forever/reputation/thorium-brotherhood`: `Back to Burninate`
+- `forever/reputation/thorium-brotherhood`: `{item:18942} supplies to Friendly` → maybe `{item:18942} to Friendly`
+- `forever/reputation/thorium-brotherhood`: `Restoring Fiery Flux Supplies repeats in three versions: {item:3356}, Iron Bars or {item:4234}, each with Coal and an {item:18944}. Incendosaurs (level 47-49) in the north of {zone:1427} drop a scale every time; Burninate himself sells Coal.`
+- `forever/reputation/thorium-brotherhood`: `{npc:14624}: Restoring Fiery Flux Supplies`
+- `forever/reputation/thorium-brotherhood`: `{npc:12944} to Honored`
+- `forever/reputation/thorium-brotherhood`: `{npc:12944} trades in the Grim Guzzler inside {area:1584}. His Favor Amongst the Brotherhood turn-ins take {item:11099} (mined from Dark Iron Deposits with {skill:186}), {item:11382}, {item:17010}, {item:17011} and {item:17012}. {npc:14387} at the {area:1445} entrance offers attunement to the {area:2717}.`
+- `forever/reputation/thorium-brotherhood`: `{item:11099}: Favor Amongst the Brotherhood, {item:11099} at Lokhtos, repeatable.`
+- `forever/reputation/thorium-brotherhood`: `{faction:59} to Revered`
+- `forever/reputation/thorium-brotherhood`: `The {area:2717} materials carry the rest: Fiery Cores drop from Firewalkers, Flameguards and Firelords, and Lava Cores from Lava Elementals, Lava Reavers and Molten Destroyers there. {item:11382} comes from Molten Destroyers and rarely elsewhere.`
+- `forever/reputation/thorium-brotherhood`: `{area:2717} materials: Favor Amongst the Brotherhood, {item:17010}, {item:17011}, {item:17012} and {item:11382}, all repeatable at Lokhtos.`
+- `forever/reputation/thorium-brotherhood`: `{faction:59} to Exalted`
+- `forever/reputation/thorium-brotherhood`: `Keep turning in {area:2717} materials and {item:11099} at Lokhtos until Exalted.`
+- `forever/reputation/timbermaw-hold`: `{faction:576} starts out Hostile, and its furbolgs in the tunnels attack until you reach Unfriendly. Every Deadwood and Winterfall furbolg you kill raises it, so the quests below pay twice. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/timbermaw-hold`: `Deadwood furbolgs (level 48-50) camp at the southern end of {zone:1448}. Keep every {item:21377} they drop: {npc:11554} and {npc:15395} take them later.`
+- `forever/reputation/timbermaw-hold`: `{npc:15395} waits in northern {zone:1448} at the tunnel into {faction:576}.`
+- `forever/reputation/timbermaw-hold`: `The northern Deadwood (level 53-55) hold the camps just south of the tunnel. Keep their feathers too.`
+- `forever/reputation/timbermaw-hold`: `Go through {faction:576} to its {zone:1452} exit; {npc:11556} stands just outside. The quests and kills so far usually reach Unfriendly, and then the Timbermaw let you pass. If they still show red, kill more Deadwood by the tunnel first.`
+- `forever/reputation/timbermaw-hold`: `{area:2244} sits on the eastern side of {zone:1452}. Keep every {item:21383} you loot: {npc:11556} takes them.`
+- `forever/reputation/timbermaw-hold`: `Feathers and beads to Friendly`
+- `forever/reputation/timbermaw-hold`: `Feathers for {npc:11554} and Feathers for {npc:15395} (Deadwood Headdress Feathers) and Beads for {npc:11556} ({item:21383}) repeat as often as you like; every Deadwood or Winterfall kill counts as well. {area:2244} is the densest bead spot.`
+- `forever/reputation/timbermaw-hold`: `{npc:11556}: Beads for {npc:11556}`
+- `forever/reputation/timbermaw-hold`: `Feathers to Honored`
+- `forever/reputation/timbermaw-hold`: `The northern Deadwood camps by the tunnel are the densest feather spot (35% drop chance there). Hand feathers to {npc:15395} at the tunnel, or to {npc:11554} in the south.`
+- `forever/reputation/timbermaw-hold`: `{npc:15395}: Feathers for {npc:15395}`
+- `forever/reputation/timbermaw-hold`: `{faction:576} to Revered`
+- `forever/reputation/timbermaw-hold`: `Alternate Deadwood feathers ({npc:15395}) and Winterfall beads ({npc:11556}), whichever camp is less crowded.`
+- `forever/reputation/timbermaw-hold`: `{faction:576} to Exalted`
+- `forever/reputation/timbermaw-hold`: `Keep turning in feathers and beads until Exalted.`
+- `forever/reputation/warsong-gulch`: `The {faction:890} are the Night Elves holding {zone:1460}. Their reputation comes from the battleground: every enemy flag your team captures pays it to the whole team. Queue at any battlemaster. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/warsong-gulch`: `{npc:14733} takes Warsong Gulch Marks of Honor for Vanquish the Invaders!, once per level bracket (data); check them live.`
+- `forever/reputation/warsong-gulch`: `Keep playing {zone:1460} and capturing flags. On Call to Arms: {zone:1460} weekends the {npc:15351} in the capitals takes three Warsong Gulch Marks of Honor for extra reputation.`
+- `forever/reputation/warsong-gulch`: `{npc:14753} hands out one Sentinel care package by level`
+- `forever/reputation/warsong-gulch`: `Keep capturing flags in {zone:1460}.`
+- `forever/reputation/warsong-gulch`: `Exalted with the {faction:890} earns a Legacy Point.`
+- `forever/reputation/warsong-gulch`: `The {faction:889} are the Orcs logging {zone:1440}. Their reputation comes from the battleground: every enemy flag your team captures pays it to the whole team. Queue at any battlemaster. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/warsong-gulch`: `{npc:14781} takes Warsong Gulch Marks of Honor for Quell the Silverwing Usurpers, once per level bracket (data); check them live.`
+- `forever/reputation/warsong-gulch`: `Keep playing {zone:1460} and capturing flags. On Call to Arms: {zone:1460} weekends the {npc:15350} in the capitals takes three Warsong Gulch Marks of Honor for extra reputation.`
+- `forever/reputation/warsong-gulch`: `{npc:14754} hands out one Outrider care package by level`
+- `forever/reputation/warsong-gulch`: `Exalted with the {faction:889} earns a Legacy Point.`
+- `forever/alliance/02-westfall`: `Follow the road from Elwynn into {zone:1436}: the Furlbrows sit by their burned farm, the first one on the road. Collect the oats from the Sacks of Oats in the fields as you go.`
+- `forever/alliance/02-westfall`: `Sacks of Oats`
+- `forever/alliance/02-westfall`: `West of Saldean's. Harvest Watchers and Golems work the fields; they drop the isosprings, gyrostabilizers, {item:732} and sometimes a {item:255155}. {npc:573}, a level 20 rare, walks here: leave it alone. Keep killing Goretusks and Fleshrippers on every leg of this loop.` → maybe `North of Molsen Farm. Defias Trappers and Smugglers camp outside the mine. {object:290} stands by the ruined house east of the mine.\nWest of Saldean's. Harvest Watchers and Golems work the fields; they drop the isosprings, gyrostabilizers, {item:732} and sometimes a {item:255155}. {npc:573}, a level 20 rare, walks here: leave it alone. Keep killing Goretusks and Fleshrippers on every leg of this loop.`
+- `forever/alliance/02-westfall`: `North of Molsen Farm. Defias Trappers and Smugglers camp outside the mine. {object:290} stands by the ruined house east of the mine.`
+- `forever/alliance/02-westfall`: `The north coast`
+- `forever/alliance/02-westfall`: `Murloc Coastrunners and Raiders line the beach north of the mine. They flee at low health: pull one at a time.`
+- `forever/alliance/02-westfall`: `The gnoll hills`
+- `forever/alliance/02-westfall`: `Riverpaw Gnolls and Scouts (level 11-13) roam the hills south of the coast, from above {area:111} east to the {area:916}. The gnolls further south and west are 13-19: stay in the north hills.`
+- `forever/alliance/02-westfall`: `The western farms`
+- `forever/alliance/02-westfall`: `Defias Pillagers and Looters hold the farms west of {area:108}, between the coast road and {area:20}.`
+- `forever/alliance/02-westfall`: `Defias Pathstalkers and Knuckledusters walk {area:20}; Highwaymen (level 17) patrol the hills south and east of it in pairs: pull them apart. {area:1581} entrance in the smithy is a group dungeon.` → maybe `Defias Pathstalkers and Knuckledusters walk {area:20}; Highwaymen (level 17) patrol the hills south and east of it in pairs: pull them apart. {area:1581} entrance in the smithy is a group dungeon.\nCareful: The camps in the hills hold mixed groups of Defias, so it is easy to pull more than one at a time if you are low level.`
+- `forever/alliance/02-westfall`: `Hearthstone on cooldown? Follow the road north-east.`
+- `forever/alliance/03-darkshore`: `Thresher Eyes` → maybe `Thresher Eyes; underwater`
+- `forever/alliance/03-darkshore`: `{item:12289}, on the beach west of the docks` → maybe `{item:12289}, on the beach west of the docks; underwater`
+- `forever/alliance/03-darkshore`: `The {area:448}`
+- `forever/alliance/03-darkshore`: `Two wrecks lie on the sea floor in the bay north of {area:442}; each holds a lockbox. Reef Crawlers and Encrusted Tide Crawlers line this shore.` → maybe `Two wrecks lie on the sea floor in the bay north of {area:442}; each holds a lockbox. Reef Crawlers and Encrusted Tide Crawlers line this shore.\nCareful: The murlocs inside the wrecks are close together and fast. They often swim through the hull walls and holes, so you will usually pull extra murlocs.`
+- `forever/alliance/03-darkshore`: `Scaber Stalks`
+- `forever/alliance/03-darkshore`: `Follow the road south. {quest:948} is the ancient at the Grove; {npc:270269} and {npc:11218} sleep beside him.` → maybe `{quest:948} is the ancient at the Grove; {npc:270269} and {npc:11218} sleep beside him.`
+- `forever/alliance/03-darkshore`: `{area:450} lies on the coast south of {npc:10323}'s beach. Protect the prospector while he searches for the fossil.`
+- `forever/alliance/03-darkshore`: `Hearthstone on cooldown? Follow the coast road back south.`
+- `forever/alliance/03-darkshore`: `Boat to {zone:1453}`
+- `forever/alliance/03-darkshore`: `Back to {npc:11802} in {area:2361}, then fly to {area:702} (by way of {area:442}).`
+- `forever/alliance/04-redridge-mountains`: `The {area:442} boat docks at {area:17203}. Walk up into the city for training and {npc:1646}, then leave by the main gate and follow the road east through {zone:1429}.` → maybe `The {area:442} boat docks at {area:17203}. Walk up into the city for training and {npc:1646}, then leave by the main gate and follow the road east through {area:12}.`
+- `forever/alliance/04-redridge-mountains`: `{npc:266}, by the docks` → maybe `{npc:266}, by the docks; upstairs`
+- `forever/alliance/04-redridge-mountains`: `Gnolls toward {area:1002}`
+- `forever/alliance/04-redridge-mountains`: `Lake murlocs`
+- `forever/alliance/04-redridge-mountains`: `Murloc Flesheaters and Tidecallers line the south shore east of the bridge. Any of them can carry a {item:1467} or a fin.` → maybe `Murloc Flesheaters and Tidecallers line the south shore east of the bridge. Any of them can carry a {item:1467} or a fin.\nGreater Tarantulas crawl on the slopes around the mill north-east of the lake.`
+- `forever/alliance/04-redridge-mountains`: `Greater Tarantulas crawl on the slopes around the mill north-east of the lake.`
+- `forever/alliance/04-redridge-mountains`: `East past the mill and across the river. Shadowhide gnolls fill the valley; {npc:703} (26, well above you) leads them at its north end: clear his escort first and fight him at full health. Stay out of {area:2099} to the south: its orcs are elite.` → maybe `East past the mill and across the river. Shadowhide gnolls fill the valley; {npc:703} (26, well above you) leads them at its north end: clear his escort first and fight him at full health. Stay out of {area:2099} to the south: its orcs are elite.\nCareful: Two gnoll guards stay with him and join the fight whenever he is attacked, even if he has wandered a short way off; other gnolls stand close by and wander through the area.`
+- `forever/alliance/05-duskwood`: `Follow the road south from {area:1002} into {zone:1431}; {area:42} lies on the east side of the forest.` → maybe `Follow the road south from {area:1002} into {area:10}; {area:42} lies on the east side of the forest.`
+- `forever/alliance/05-duskwood`: `{npc:265}, in her house by the tavern` → maybe `{npc:265}, in her house by the tavern; inside`
+- `forever/alliance/05-duskwood`: `{npc:633}, at the south end of town` → maybe `{npc:633}, at the south end of town; inside`
+- `forever/alliance/05-duskwood`: `{npc:276}'s house stands at the east end of town. {npc:3133} sells engineering goods in the house beside it.` → maybe `No {item:4371} for {quest:174}? {npc:3133} sells it in the house beside {npc:276}, in limited stock; {npc:1448} in {area:150} sells it too.\n{npc:276}'s house stands at the east end of town. {npc:3133} sells engineering goods in the house beside it.`
+- `forever/alliance/05-duskwood`: `Skeletal Warriors and Skeletal Mages walk among the graves south-east of {area:42}, below {npc:302}'s house on the hill. Every skeleton in {zone:1431} can drop a {item:2378}.` → maybe `Skeletal Warriors and Skeletal Mages walk among the graves south-east of {area:42}, below {npc:302}'s house on the hill. Every skeleton in {area:10} can drop a {item:2378}.\nCareful: Because the skeletons stand near each other, running straight in tends to pull several at once.`
+- `forever/alliance/05-duskwood`: `{quest:337}: a rare drop from {zone:1431}'s mobs` → maybe `{quest:337}: a rare drop from {area:10}'s mobs`
+- `forever/alliance/05-duskwood`: `{area:492}, south`
+- `forever/alliance/05-duskwood`: `Wolves, spiders and ghouls`
+- `forever/alliance/05-duskwood`: `Rabid Dire Wolves roam the woods around the cemetery and {npc:289}, Starving Dire Wolves the hills north-east of him. Pygmy Venom Web Spiders crawl east of the cemetery and drop the venom. Every ghoul of the cemetery's northern half can drop a fang.` → maybe `Rabid Dire Wolves roam the woods around the cemetery and {npc:289}, Starving Dire Wolves the hills north-east of him. Pygmy Venom Web Spiders crawl east of the cemetery and drop the venom. Every ghoul of the cemetery's northern half can drop a fang.\nCareful: Wolves and other spider types share the area along the {area:40} border, so you can easily pull several mobs at once.`
+- `forever/alliance/05-duskwood`: `Every ghoul of the {area:492}'s northern half can drop a rib: Flesh Eaters, Bone Chewers, Plague Spreaders and Brain Eaters.` → maybe `Every ghoul of the {area:492}'s northern half can drop a rib: Flesh Eaters, Bone Chewers, Plague Spreaders and Brain Eaters.\nCareful: A {npc:948} casts {spell:3428} as it dies, which brings extra adds.`
+- `forever/alliance/05-duskwood`: `Head west along the road out of {area:94} into {zone:1436}. {npc:7024} watches {npc:7053}'s tower from the hills just inside the border. The {npc:7051} (level 23) guarding the tower carries its key; Klaven's journal is in the chest at the top.` → maybe `Head west along the road out of {area:94} into {area:40}. {npc:7024} watches {npc:7053}'s tower from the hills just inside the border. The {npc:7051} (level 23) guarding the tower carries its key; Klaven's journal is in the chest at the top.`
+- `forever/alliance/05-duskwood`: `Train in {zone:1453}, north through {zone:1429}. Then take the boat from {area:17203} to {area:442}.`
+- `forever/alliance/06-ashenvale`: `Take the boat from {area:17203} to {area:442}. Join the two half pendants into the {item:15885} and cast {spell:18960}: {npc:11802} is in {area:2361}. Then fly to {area:702} (by way of {area:442}).` → maybe `Take the boat from {area:17203} to {area:442}. Join the two half pendants into the {item:15885} and cast {spell:18960}: {npc:11802} is in {area:2361}. Then {npc:11800} in {area:2361} flies Druids straight to {area:702}.`
+- `forever/alliance/06-ashenvale`: `Take the boat from {area:17203} to {area:442} and fly to {area:702}; {npc:11401} is in the Temple of the Moon. Then fly back to {area:442}.`
+- `forever/alliance/06-ashenvale`: `Kerlonian sleeps at the {area:448} in southern {zone:1439}. Use the {item:13536} to wake him and lead him south along the road into {zone:1440} to {npc:11219} at {area:413}; blow the horn again whenever he falls asleep.` → maybe `Kerlonian sleeps at the {area:448} in southern {zone:1439}. Use the {item:13536} to wake him and lead him south along the road into {area:331} to {npc:11219} at {area:413}; blow the horn again whenever he falls asleep.\nCareful: Scripted ambushes of three mobs each attack along the road: furbolgs on the {zone:1439} stretch and undead nearer {area:413}.`
+- `forever/alliance/06-ashenvale`: `Escort Kerlonian to {area:413} in {zone:1440}.` → maybe `Escort Kerlonian to {area:413} in {area:331}.`
+- `forever/alliance/06-ashenvale`: `Follow the road south-east to {area:415}, on the island in the lake.`
+- `forever/alliance/06-ashenvale`: `South of the murlocs, {npc:3585} waits at the {area:416}.` → maybe `The two stand together at the western end of the road.\nSouth of the murlocs, {npc:3585} waits at the {area:416}.`
+- `forever/alliance/06-ashenvale`: `{npc:3987} (25) leads the Thistlefur gnolls at the camp north of {area:415}. Clear his guards first, one at a time.`
+- `forever/alliance/06-ashenvale`: `Follow the road east to the {area:419}; {npc:3916} stands by the moonwell.` → maybe `Follow the road east to the {area:419}; {npc:3916} stands by the moonwell.\nThe moonwell lies in the hills north-east of {area:415}.`
+- `forever/alliance/06-ashenvale`: `{npc:210995} may not offer these to every class; if he doesn't, carry on.` → maybe `{npc:210995} may not offer these to every class; if he doesn't, carry on.; walks around {area:1276}: the map marks where to look`
+- `forever/alliance/06-ashenvale`: `{npc:4201}, in the hut north of them` → maybe `{npc:4201}, in the hut north of them; inside`
+- `forever/alliance/06-ashenvale`: `Venture Co. loggers`
+- `forever/alliance/06-ashenvale`: `{npc:4276} mines in the {area:2160} at the east end of the crag. Talk to him and fend off the Venture Co. raiders while he mines.`
+- `forever/alliance/06-ashenvale`: `Hearthstone on cooldown? Head back north through the {area:1276}.`
+- `forever/alliance/06-ashenvale`: `{npc:2086}, by the keep` → maybe `{npc:2086}, by the keep; inside`
+- `forever/alliance/06-ashenvale`: `{npc:2104} stands in {area:2103}, a short walk from {npc:1242}.`
+- `forever/alliance/06-ashenvale`: `Mottled Raptors and Screechers roam the hills west of the excavation site.`
+- `forever/alliance/06-ashenvale`: `Black Oozes`
+- `forever/alliance/06-ashenvale`: `Black Oozes creep through the marsh north of the {area:1025} road, west of {npc:2093}'s camp. Any ooze may hold {npc:2111}'s bag.`
+- `forever/alliance/06-ashenvale`: `Mosshide Fenrunners and Mistweavers roam the riverbanks just west and south of {npc:1244}; almost every one drops flint.`
+- `forever/alliance/06-ashenvale`: `Fen Creepers`
+- `forever/alliance/06-ashenvale`: `Fen Creepers hide in the marsh pools north-west of the {area:1025}.`
+- `forever/alliance/06-ashenvale`: `Follow the road north to {area:205}, at the foot of the {area:881}. {npc:1071} stands in the dwarves' camp.`
+- `forever/alliance/06-ashenvale`: `Dragonmaw camp`
+- `forever/alliance/06-ashenvale`: `The Dragonmaw camp lies south of the road, just west of the {area:1025}: Raiders, Swamprunners and Bonewarders. {npc:2092}'s quest in {zone:1426} needs level 28.`
+- `forever/alliance/06-ashenvale`: `grind on Dragonmaw Raiders and Swamprunners at the Dragonmaw camp, {zone:1437}`
+- `forever/alliance/06-ashenvale`: `Hearth to Menethil`
+- `forever/alliance/06-ashenvale`: `Back to the Cathedral of Light: {npc:928} stands inside.`
+- `forever/alliance/07-thousand-needles`: `No {item:4371} for {quest:174}? {npc:3133} sells it in the house beside {npc:276}, in limited stock; {npc:1448} in {area:150} sells it too.`
+- `forever/alliance/07-thousand-needles`: `From {npc:352} in {zone:1453}`
+- `forever/alliance/07-thousand-needles`: `{npc:840}, at the north entrance of town`
+- `forever/alliance/07-thousand-needles`: `{npc:267}, in the town hall`
+- `forever/alliance/07-thousand-needles`: `{npc:663}, by the town hall`
+- `forever/alliance/07-thousand-needles`: `{npc:276}, at the east end of town` → maybe `{npc:276}, at the east end of town; inside`
+- `forever/alliance/07-thousand-needles`: `The strongest worgen roam the woods south of {area:42}, west and south of the {area:121}. The {npc:511} hides in the small crypt by the cemetery.`
+- `forever/alliance/07-thousand-needles`: `{npc:661}, by {npc:633}'s house` → maybe `{npc:661}, by {npc:633}'s house; inside`
+- `forever/alliance/07-thousand-needles`: `Head west along the road; the hermit's shack stands north-east of the {area:492}.`
+- `forever/alliance/07-thousand-needles`: `Plague Spreaders`
+- `forever/alliance/07-thousand-needles`: `The Plague Spreaders walk the northern half of the {area:492}. {npc:522}, an elite, wanders the graves: keep away from him.`
+- `forever/alliance/07-thousand-needles`: `{area:492}, west`
+- `forever/alliance/07-thousand-needles`: `Skeletal Raiders, Healers and Warders hold the west part of the cemetery, just east of {npc:311}'s camp.`
+- `forever/alliance/07-thousand-needles`: `The Defias camp lies in the south-west of {zone:1431}, south of {area:94} near the {zone:1436} border. The strongbox stands among the tents.` → maybe `The Defias camp lies in the south-west of {area:10}, south of {area:94} near the {zone:1436} border. The strongbox stands among the tents.`
+- `forever/alliance/07-thousand-needles`: `{npc:1217}, upstairs in the inn`
+- `forever/alliance/07-thousand-needles`: `{npc:2104}, by the keep`
+- `forever/alliance/07-thousand-needles`: `The wreck of the Third Fleet`
+- `forever/alliance/07-thousand-needles`: `Follow the coast north to the wrecked ship. Cursed Sailors walk the beach, Cursed Marines the deck; {npc:1159} stands on the beach by the bow. Giant Wetlands Crocolisks lurk on the coast just north of it.` → maybe `Follow the coast north to the wrecked ship. Cursed Sailors walk the beach, Cursed Marines the deck; {npc:1159} stands on the beach by the bow. Giant Wetlands Crocolisks lurk on the coast just north of it.\nCareful: Fen Creepers hide in stealth where the river splits close to the ghost ship, and they can join a fight.`
+- `forever/alliance/07-thousand-needles`: `Bluegill Raiders`
+- `forever/alliance/07-thousand-needles`: `Follow the road east to the excavation site.`
+- `forever/alliance/07-thousand-needles`: `The dig and {npc:1353}`
+- `forever/alliance/07-thousand-needles`: `The relics lie in the dig itself. {npc:1353}, a big Razormaw, prowls the raptor valley just west of it.`
+- `forever/alliance/07-thousand-needles`: `{item:2661}: the {object:331}`
+- `forever/alliance/07-thousand-needles`: `Dragonmaw camp`
+- `forever/alliance/07-thousand-needles`: `The Dragonmaw orcs camp east of the excavation site. Raiders and Swamprunners carry the war banners.`
+- `forever/alliance/07-thousand-needles`: `Head back west along the road to {area:150}.`
+- `forever/alliance/07-thousand-needles`: `{npc:2104}, in {area:2103}`
+- `forever/alliance/07-thousand-needles`: `From Theramore follow the road west out of Dustwallow into the {zone:1413} and south along it; give {area:378} a wide berth. {area:485} at the {zone:1413}' south end takes you down into {zone:1441}. The journal lies at the foot of the lift.`
+- `forever/alliance/07-thousand-needles`: `For {npc:4048} in {zone:1444}, much later`
+- `forever/alliance/07-thousand-needles`: `The salt flats`
+- `forever/alliance/07-thousand-needles`: `Back to Menethil`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `{npc:2104} stands in {area:2103}; {npc:2094} stands by the north gate.`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `{npc:2104}: for {npc:270637}`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `Follow the road east to {area:118}.`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `The Goaz Warders stand just west of Whelgar's camp: use the {item:279996} he gave you beside one.`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `A new {item:279996}, for the four titan watchers around the {zone:1437}`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `Follow the road north-east into the {area:1025}: {npc:270637} camps beside it, {npc:1244} a short way east.`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `{npc:1244}: {quest:98283}, an elite raptor`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `The next step, Defeat Nek'rosh, pits you against an elite chieftain: skip it.` → maybe `The next step, {quest:474}, pits you against an elite chieftain: skip it.`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `Whelps, raptors and {npc:271458}`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `Red whelps fill the hills west of the gates, Maddened Rotclaws the {area:1025}, Razormaws the northern slopes; {npc:271458} stands in the north-east (use the {item:279996}).\n{quest:98283} is elite: grouping up is advised.`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `{npc:5683} waits north of {area:205} by the {area:881}; {npc:271322} a short walk further north-east.` → maybe `{npc:5683} waits north of {area:205} by the {area:880}; {npc:271322} a short walk further north-east.`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `Back south down the road to the excavation site.`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `For {npc:2916} in {zone:1455}, at the end of this guide`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `Pick up everything in town before heading out. Off the boat, {npc:251493} is the first you meet, north-west of the flight master; {npc:2381} and {npc:2438} stand between the flight master and the inn, Farren and {npc:2366} at the inn, Maleb in the town hall.` → maybe `Pick up everything in town before heading out. {npc:2381} and {npc:2438} stand between the flight master and the inn, Farren and {npc:2366} at the inn, Maleb in the town hall.`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `The Torn Fin murlocs crowd the {area:295}, south-west of {area:271}.`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `A report for {object:2117}` → maybe `A report for {object:2117}; inside`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `{area:287}'s town hall`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `West to the farms of {area:287}: place the {item:279386} on the bookkeeping table in the town hall, where {npc:2335} and the councilmen stand.`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `{area:287} town hall`
+- `forever/alliance/30-40/01-hillsbrad-foothills`: `From {npc:2432} in {area:271}`
+- `forever/alliance/30-40/02-desolace`: `From {zone:1455}'s {npc:1573}`
+- `forever/alliance/30-40/02-desolace`: `Take the boat to {area:442} from Menethil's docks.`
+- `forever/alliance/30-40/02-desolace`: `From {area:415} head south-west to the {area:1276}, a tunnel through the mountains into Stonetalon.`
+- `forever/alliance/30-40/02-desolace`: `The Hatefury satyrs hold the ruins of {area:603}, east of {area:608}.`
+- `forever/alliance/30-40/02-desolace`: `The Gizelton Caravan waits at {area:2407}.`
+- `forever/alliance/30-40/02-desolace`: `Escort the caravan`
+- `forever/alliance/30-40/02-desolace`: `Walk with the caravan south past {area:609}; Kolkar ambushers jump it on the way. Stay close until it stops at {area:2617}. The ambushers are 34-35 and come in waves: skip it if you are below 33.`
+- `forever/alliance/30-40/03-ashenvale`: `From {area:608}`
+- `forever/alliance/30-40/03-ashenvale`: `{npc:3970}: for {npc:1480} in Menethil, at the end of this guide`
+- `forever/alliance/30-40/03-ashenvale`: `Follow the road west out of {area:415}; {area:413} lies north of it.`
+- `forever/alliance/30-40/03-ashenvale`: `The two stand together at the western end of the road.`
+- `forever/alliance/30-40/03-ashenvale`: `The moonwell lies in the hills north-east of {area:415}.`
+- `forever/alliance/30-40/03-ashenvale`: `The {object:19901} stands in the satyr camp of {area:430}, further east along the road.` → maybe `The {object:19901} stands in the satyr camp of {area:430}, further east along the road.\nCareful: The Felmusk Rogues in {area:428} often go stealthed, and {area:430} has satyr casters.`
+- `forever/alliance/30-40/03-ashenvale`: `The Forsaken's camp lies in the woods south of {area:2358}.`
+- `forever/alliance/30-40/03-ashenvale`: `Rusty chests lie around the Shadethicket furbolg camps west of the Forsaken; open them until one holds the pommel.`
+- `forever/alliance/30-40/03-ashenvale`: `The {npc:3931} walks the shore of {quest:1035}, south-west of the chests; the {object:669176} lies north of the lake, on the way.`
+- `forever/alliance/30-40/03-ashenvale`: `The three druids stand together at the Forsaken camp south of {area:2358}.`
+- `forever/alliance/30-40/03-ashenvale`: `{npc:3696} and his guards camp just east of {npc:3897}.`
+- `forever/alliance/30-40/03-ashenvale`: `Take the boat to {area:150} from {area:442}'s docks.`
+- `forever/alliance/30-40/03-ashenvale`: `{npc:5082}, {npc:4963} and Tapoke Jahn are all at Menethil's inn; {npc:4962} fights you when you talk to {npc:4963}, but gives up once beaten. {npc:1480} stands a short walk north-east of the inn.`
+- `forever/alliance/30-40/04-stranglethorn-vale`: `Fly from {area:150} to {area:1537} and train.`
+- `forever/alliance/30-40/04-stranglethorn-vale`: `{area:1537} has no druid trainer: take the {area:2257} from {object:171524} to {zone:1453} and train with {npc:5504}.` → maybe `{zone:1455} has no druid trainer: take the {area:2257} from {object:171524} to {zone:1453} and train with {npc:5504}.`
+- `forever/alliance/30-40/04-stranglethorn-vale`: `Fly to {area:42}: {npc:1573} in {area:1537}'s {object:32372}, or {npc:352} in {zone:1453}'s {object:2096}.`
+- `forever/alliance/30-40/04-stranglethorn-vale`: `{npc:2859}, on the top floor by the docks`
+- `forever/alliance/30-40/04-stranglethorn-vale`: `{npc:2832}, in the {object:56910}` → maybe `{npc:2832}, in the {object:56910}; upstairs`
+- `forever/alliance/30-40/04-stranglethorn-vale`: `{npc:2495}, by the bank` → maybe `{npc:2495}, by the bank; inside`
+- `forever/alliance/30-40/04-stranglethorn-vale`: `{npc:773}, in the tavern` → maybe `{npc:773}, in the tavern; upstairs`
+- `forever/alliance/30-40/04-stranglethorn-vale`: `Walk back north; the {area:310} lies west of the road in the middle of the jungle. The Crystal Spine Basilisks there drop the shards.` → maybe `Walk back north; the {area:310} lies west of the road in the middle of the jungle. The Crystal Spine Basilisks there drop the shards.\nThe Bloodscalp trolls hold the ruins on the coast west of Nesingwary's camp.`
+- `forever/alliance/30-40/04-stranglethorn-vale`: `Bloodscalp trolls`
+- `forever/alliance/30-40/04-stranglethorn-vale`: `The Bloodscalp trolls hold the ruins on the coast west of Nesingwary's camp.`
+- `forever/alliance/30-40/04-stranglethorn-vale`: `Headshrinkers stand deeper in the compound; the Commandos lurk stealthed around it and in the cave. Pick up Green Hills pages as they drop.` → maybe `Headshrinkers stand deeper in the compound; the Commandos lurk stealthed around it and in the cave. Pick up Green Hills pages as they drop.\nCareful: Kurzen Commandos are level 34-35, not elite, and often spawn stealthed; near death they use {spell:7964}.`
+- `forever/alliance/30-40/05-arathi-highlands`: `Gyll, {area:35}`
+- `forever/alliance/30-40/05-arathi-highlands`: `From {area:42} follow the road east through {zone:1430} into the {zone:1435}; Biggs guards the road junction just inside it. {npc:217412} stands a short way north of him.`
+- `forever/alliance/30-40/05-arathi-highlands`: `The wrecked caravan lies off the road near Biggs.`
+- `forever/alliance/30-40/05-arathi-highlands`: `Shaman training`
+- `forever/alliance/30-40/05-arathi-highlands`: `{zone:1453} has no shaman trainer: take the {area:2257} from the {object:28027} to {zone:1455} and train with {npc:258098}. {npc:1573} in the {object:32372} flies to {area:271} too.`
+- `forever/alliance/30-40/05-arathi-highlands`: `The Syndicate hold the farm north-west of {area:320}. A {npc:217589} crawls about the farm: catch one with {npc:217412}'s Entomology Starter Kit, then tick it off.` → maybe `The Syndicate hold the farm north-west of {area:320}. A {npc:217589} crawls about the farm: catch one with {npc:217412}'s Entomology Starter Kit, then tick it off.\nCareful: Syndicate Highwaymen are level 30-31 and can cast Sneak while out of combat, so they are often stealthed and hard to spot.`
+- `forever/alliance/30-40/05-arathi-highlands`: `Follow the road south over the bridge to {area:205} at the {zone:1437} end, where {npc:1075} waits.`
+- `forever/alliance/30-40/05-arathi-highlands`: `Escort the professor to the beach north of the cove and guard him while he works; naga attack in waves.`
+- `forever/alliance/30-40/05-arathi-highlands`: `The wrecks`
+- `forever/alliance/30-40/05-arathi-highlands`: `Stay with {npc:2713} while she sneaks into {area:314} and back; Horde orcs jump you on the way.`
+- `forever/alliance/30-40/05-arathi-highlands`: `The Drywhisker kobolds dig in the gorge east of {area:321} (Horde); skirt the town to the north. They drop both the motes and Krazek's ore.`
+- `forever/alliance/30-40/05-arathi-highlands`: `Each key lies at one of the Highlands' standing-stone circles: east of the shards, near {area:320} and in the west. The {object:2702} stands west of {area:320}.`
+- `forever/alliance/30-40/05-arathi-highlands`: `The tomes lie in the ruined keep west of {area:280}; Argus Shadow Mages hold the ruins.`
+- `forever/alliance/30-40/05-arathi-highlands`: `{item:3659}: the {object:1760}` → maybe `{item:3659}: the {object:1760}; inside`
+- `forever/alliance/30-40/05-arathi-highlands`: `South-west to the Kirin Tor camp on the lake shore west of {area:279}, just over the border into {zone:1421}: the {npc:269127} stands there. Archmage Ansirem stands south-east of it, by the dome.` → maybe `South-west to the Kirin Tor camp on the lake shore west of {area:279}, just over the border into {area:130}: the {npc:269127} stands there. Archmage Ansirem stands south-east of it, by the dome.`
+- `forever/alliance/30-40/05-arathi-highlands`: `From {zone:1455} take the tunnel east through {zone:1426} into {zone:1432} and follow the road to {area:144}.` → maybe `From {zone:1455} take the tunnel east through {zone:1426} into {area:38} and follow the road to {area:144}.`
+- `forever/alliance/30-40/06-badlands`: `Head back west to the road and follow it south out of {zone:1432} through the pass into the {zone:1418}. {npc:2910} and {npc:2860} camp side by side at the dig.` → maybe `Head back west to the road and follow it south out of {zone:1432} through the pass into the {area:3}. {npc:2910} and {npc:2860} camp side by side at the dig.`
+- `forever/alliance/30-40/06-badlands`: `Shadowforge camp`
+- `forever/alliance/30-40/06-badlands`: `{npc:4618} and {npc:2817} camp together in the {area:1877}, in the middle of the {zone:1418}.` → maybe `{npc:4618} and {npc:2817} camp together in the {area:1877}, in the middle of the {area:3}.`
+- `forever/alliance/30-40/06-badlands`: `Ogres and buzzards`
+- `forever/alliance/30-40/06-badlands`: `The Dustbelcher ogres camp just south of the valley; any of them drops scrap. Buzzards circle the plain to the east.`
+- `forever/alliance/30-40/06-badlands`: `The skeleton's next task, Murdaloc, waits until the later {zone:1418} guide at 43.` → maybe `The skeleton's next task, {quest:739}, waits until the later {area:3} guide at 43.`
+- `forever/alliance/30-40/06-badlands`: `for {npc:4454} in the {area:439}: the {zone:1446} guide crosses them at 45, keep it`
+- `forever/alliance/30-40/06-badlands`: `Lesser Rock Elementals`
+- `forever/alliance/30-40/06-badlands`: `The Lesser Rock Elementals wander the {area:1878} west of {npc:2921}.`
+- `forever/alliance/30-40/06-badlands`: `Greater Rock Elementals`
+- `forever/alliance/30-40/06-badlands`: `The Greater Rock Elementals (level 42) walk the far south-west corner below {area:342}; pull them one at a time. The Dustbelcher Wyrmhunters and Maulers at {area:342} also drop scrap.`
+- `forever/alliance/30-40/06-badlands`: `Head north-east to the dwarven ruins in the north of the {zone:1418}; the chest sits among the Shadowforge dwarves. {npc:2745} nearby is elite: give him room.` → maybe `Head north-east to the dwarven ruins in the north of the {area:3}; the chest sits among the Shadowforge dwarves. {npc:2745} nearby is elite: give him room.`
+- `forever/alliance/30-40/06-badlands`: `{npc:1470}, in the inn` → maybe `{npc:1470}, in the inn; below ground`
+- `forever/alliance/30-40/06-badlands`: `Take the boat to Theramore from the far pier.`
+- `forever/alliance/30-40/06-badlands`: `{npc:5638}'s next task, {item:6245}, is a drop on the far coast: skip it.`
+- `forever/alliance/30-40/06-badlands`: `{npc:12277} is held in the centaur camp west of the graveyard. Free her and keep her alive on the walk out; she stops by the graveyard.`
+- `forever/alliance/30-40/06-badlands`: `{npc:11626}'s caravan stops on the road east of {area:606}. Take the quest and walk with the kodos past the {area:602}, killing the demons that jump them; talk to {npc:11596} at his camp east of the {area:596} afterwards.`
+- `forever/alliance/30-40/06-badlands`: `The demons gather at the {area:602} in southern {zone:1443}: felhounds (Mana Eaters, Mage and Ley Hunters), Nether Maidens and Sisters, and Doomwarder Captains around the pit.` → maybe `The demons gather at the {area:602} in southern {zone:1443}: felhounds (Mana Eaters, Mage and Ley Hunters), Nether Maidens and Sisters, and Doomwarder Captains around the pit.\nCareful: Most of the mobs here walk patrol routes, so you can easily pull extra mobs.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `Mudrock tortoises`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `The Mudrock Tortoises and Spikeshells sun themselves on the shore north-east of the manor.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `{npc:4966} holds the tower with a few deserters. He turns on you: beat him until he yields.` → maybe `{npc:4966} holds the tower with a few deserters. He turns on you: beat him until he yields.\nCareful: Hendel has two guards who join the fight when he turns hostile. The guards flee once he surrenders.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `The Darkmist spiders nest around the cavern in the north-west of the marsh; every spider drops eyes.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `The burned inn stands on the road west, toward the {zone:1413}; the guard's badge lies in the ashes and the hoofprints are in the mud beside the inn.` → maybe `The burned inn stands on the road west, toward the {area:17}; the guard's badge lies in the ashes and the hoofprints are in the mud beside the inn.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `Ride from Theramore west along the Dustwallow road into the {zone:1413} and north to {area:392} on the coast. Learn the flight path from {npc:16227}, then take the boat to {area:35} from the dock.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `{object:56910} is the tall building over the harbour; most of the quest givers are on its floors or the docks below.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `for Stoley in {zone:1446}: keep it` → maybe `for Stoley in {zone:1446}: keep it; on the top floor`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `Bloodsail pirates`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `for the {zone:1435} later` → maybe `for the {area:8} later`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `Follow the road north-east to the Venture Co. camp at the {area:310}; the miners, surveyors and foremen drop the crystals.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `Skullsplitter ruins`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `The Skullsplitter trolls hold the ruins just east of the mine; any of them can drop tusks, their panthers always do.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `At 40 with 100 gold you can learn to ride, and learning it gives you a mount. {npc:4732} teaches Humans at {area:88} in eastern {zone:1429}, beside {npc:384}'s horses. Forever may let any race learn from any riding trainer (unconfirmed). Collectibles, Mounts · Level 40 lists every colour.` → maybe `At 40 with 100 gold you can learn to ride, and learning it gives you a mount. {npc:4732} teaches Humans at {area:88} in eastern {area:12}, beside {npc:384}'s horses. Forever may let any race learn from any riding trainer (unconfirmed). Collectibles, Mounts · Level 40 lists every colour.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `At 40 with 100 gold you can learn to ride, and learning it gives you a mount. No Skyborne riding trainer is known; the Forever client files {spell:1285849} under the one Riding skill, so {npc:4732} at {area:88} in eastern {zone:1429}, the nearest trainer to {zone:1453}, should teach it (unconfirmed). The Galestriders are sold by {npc:265756} in {area:16638} on Zephras Isle; Collectibles, Mounts · Level 40 lists them.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `Galestriders: {npc:265756}, in {area:16638} on Zephras Isle.` → maybe `Riding and Galestriders: {npc:265756}, at the {area:17684} in {area:16638} on Zephras Isle.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `At 40 with 100 gold you can learn to ride, and learning it gives you a mount. {npc:4753} teaches Night Elves in {zone:1457}, beside {npc:4730}'s sabers: the boat from {area:17203} to {area:442}, then the flight to {area:702}. Forever may let any race learn from any riding trainer (unconfirmed), such as {npc:4732} at {area:88} in {zone:1429}. Collectibles, Mounts · Level 40 lists every colour.` → maybe `At 40 with 100 gold you can learn to ride, and learning it gives you a mount. {npc:4753} teaches Night Elves in {zone:1457}, beside {npc:4730}'s sabers: the boat from {area:17203} to {area:442}, then the flight to {area:702}. Forever may let any race learn from any riding trainer (unconfirmed), such as {npc:4732} at {area:88} in {area:12}. Collectibles, Mounts · Level 40 lists every colour.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `Fly to {area:42} and ride east through {zone:1430} into the {zone:1435}; {npc:5476} stands by the road just past the border.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `Ride back west along the road; {npc:217412} stands a short way north of Biggs.`
+- `forever/alliance/40-50/01-stranglethorn-vale`: `{npc:1356}: for {npc:1344} in {zone:1432}, keep it`
+- `forever/alliance/40-50/02-badlands`: `{npc:1573}, the {object:32372}`
+- `forever/alliance/40-50/02-badlands`: `Ride south out of {zone:1432} through the pass into the {zone:1418}; {npc:2860} camps at the dig.`
+- `forever/alliance/40-50/02-badlands`: `{npc:2888} camps by himself in {area:1898}, south-east of the digsite.`
+- `forever/alliance/40-50/02-badlands`: `The battered skeleton lies at the edge of the Stonevault trogg camp; {quest:739}, Agmond's killer, walks among the Bonesnappers.`
+- `forever/alliance/40-50/02-badlands`: `Ride west to the {area:1877} in the middle of the {zone:1418}; {npc:2817} camps beside Martek.`
+- `forever/alliance/40-50/02-badlands`: `Ride west across the {zone:1418} to the Dustbelcher camp at {area:342}. {npc:2944} stands in its middle with Wyrmhunters and Maulers around him.` → maybe `Ride west across the {area:3} to the Dustbelcher camp at {area:342}. {npc:2944} stands in its middle with Wyrmhunters and Maulers around him.`
+- `forever/alliance/40-50/02-badlands`: `grind on {npc:2725} at {area:339}, {zone:1418}`
+- `forever/alliance/40-50/02-badlands`: `Ride north-east out of {area:271} on the road into the {zone:1425}; {area:348} sits just past the border. {npc:5635} holds court at the top, {quest:1450} tends the aviary and {npc:7884} stands by the inn.` → maybe `Ride north-east out of {area:271} on the road into the {area:47}; {area:348} sits just past the border. {npc:5635} holds court at the top, {quest:1450} tends the aviary and {npc:7884} stands by the inn.`
+- `forever/alliance/40-50/02-badlands`: `{npc:5634}'s cocktail needs parts from Kalimdor: skip it.`
+- `forever/alliance/40-50/02-badlands`: `{npc:5636}, beside the flight master at the top` → maybe `{npc:5636}, beside the flight master at the top; inside`
+- `forever/alliance/40-50/02-badlands`: `Talonaxe's next task waits for a later {zone:1425} guide.` → maybe `Talonaxe's next task waits for a later {area:47} guide.`
+- `forever/alliance/40-50/02-badlands`: `Take the boat to Theramore from the far pier.`
+- `forever/alliance/40-50/02-badlands`: `On to Feathermoon`
+- `forever/alliance/40-50/02-badlands`: `Fly to {area:608}, ride south through {zone:1443} into {zone:1444} and follow the road to the dock on the {area:1108}; the boat crosses to {area:1116}, where the next guide starts.`
+- `forever/alliance/40-50/03-feralas`: `From Theramore, fly to {area:608} and ride south out of {zone:1443} into {zone:1444}; the road leads west to the {area:1108} dock, where the boat crosses to Feathermoon on {area:1120}.`
+- `forever/alliance/40-50/03-feralas`: `Ride back north-west to the {area:1108} dock and take the boat to the island.`
+- `forever/alliance/40-50/03-feralas`: `Swim south from the island to the {area:1121}. Hatecrest Serpent Guards and Sorceresses hold it; {npc:8136} (level 47) waits in the cave at its south end. Pull his guards first.` → maybe `The {area:1121} is the island just south of {area:1120}: swim over. Hatecrest Serpent Guards and Sorceresses hold it; {npc:8136} (level 47) waits in the cave at its south end. Pull his guards first.`
+- `forever/alliance/40-50/03-feralas`: `Hearth to Feathermoon.`
+- `forever/alliance/40-50/03-feralas`: `Boat to the {area:1108} and ride east across {zone:1444} to the Grimtotem camp north of the road. {npc:7956} waits outside it; free the Sprite Darters from the pen in the middle and keep {npc:7956} and at least six of them alive.` → maybe `Boat to the {area:1108} and ride east across {area:357} to the Grimtotem camp north of the road. {npc:7956} waits outside it; free the Sprite Darters from the pen in the middle and keep {npc:7956} and at least six of them alive.`
+- `forever/alliance/40-50/03-feralas`: `if you carry {quest:1100} from {zone:1441}`
+- `forever/alliance/40-50/03-feralas`: `Rage Scar yetis`
+- `forever/alliance/40-50/03-feralas`: `{area:978} instead of grinding`
+- `forever/alliance/40-50/03-feralas`: `Running {area:978} instead of grinding gets you there faster in a group. The troll city lies in northern {zone:1446}, the next zone on the route; come back to {npc:14637} on the {area:1108} afterwards.`
+- `forever/alliance/40-50/03-feralas`: `grind on {npc:5292} at {area:1105}, {zone:1444}` → maybe `grind on {npc:5292} at {area:1105}, {area:357}`
+- `forever/alliance/40-50/03-feralas`: `Giants and elementals`
+- `forever/alliance/40-50/04-tanaris`: `From the {area:1108} dock, boat to Feathermoon and fly to {area:489}, then ride east through {zone:1441} to the {area:2240} on the {area:439}. {npc:4454} and {npc:4630} are in the camps beside the track; {npc:4709} stands by the goblin camp.`
+- `forever/alliance/40-50/04-tanaris`: `Rizzle's plans`
+- `forever/alliance/40-50/04-tanaris`: `While {npc:4709} keeps Rizzle talking, his plans lie unguarded in the gnome camp across the track.`
+- `forever/alliance/40-50/04-tanaris`: `Ride south-east off the {area:439} into {zone:1446}. {area:976} is just inside the border.` → maybe `Ride south-east off the {area:439} into {area:440}. {area:976} is just inside the border.`
+- `forever/alliance/40-50/04-tanaris`: `{npc:7881}, in the port's tavern` → maybe `{npc:7881}, in the port's tavern; inside`
+- `forever/alliance/40-50/04-tanaris`: `Follow the coast south to the pirate cove. Southsea pirates crowd the beach and the boats: work along the edge and pull one at a time. {npc:7883} stands on the far side; {npc:7881}'s stolen cargo lies in the camp.` → maybe `Follow the coast south to the pirate cove. Southsea pirates crowd the beach and the boats: work along the edge and pull one at a time. {npc:7883} stands on the far side; {npc:7881}'s stolen cargo lies in the camp.\nCareful: Two or three pirates stand with {npc:7883}, and many more pirates from the town join the fight once it starts.`
+- `forever/alliance/40-50/04-tanaris`: `Wastewander bandits`
+- `forever/alliance/40-50/04-tanaris`: `Ride back west toward {area:976}. The Wastewander bandits and thieves hold the dunes on the way; any of them can carry a water pouch.` → maybe `Ride back west toward {area:976}. The Wastewander bandits and thieves hold the dunes on the way; any of them can carry a water pouch.\nCareful: Wastewander Rogues (level 43-44) move stealthed, so they can approach unseen.`
+- `forever/alliance/40-50/04-tanaris`: `The tougher Wastewander rogues, shadow mages and assassins camp south-east of {area:976}, south of the bandits. Leave {npc:7847} in the middle of the southern camp for later.` → maybe `The tougher Wastewander rogues, shadow mages and assassins camp south-east of {area:976}, south of the bandits. Leave {npc:7847} in the middle of the southern camp for later.\nCareful: Wastewander Rogues keep Sneak up while out of combat, so hidden rogues can join a fight you start at a camp.`
+- `forever/alliance/40-50/04-tanaris`: `Ride north-west to the Centipaar hive in the dunes. Any Centipaar can drop insect parts.`
+- `forever/alliance/40-50/04-tanaris`: `Ride south into {quest:3362}. The Dew Collectors drop the glands; only some are full, so keep the Laden one. Gnarled Thistleshrubs and Rootshapers share the valley. The Thistleshrubs are 48-50, above you: pull one at a time.` → maybe `Ride south into {quest:3362}. The Dew Collectors drop the glands; only some are full, so keep the Laden one. Gnarled Thistleshrubs and Rootshapers share the valley. The Thistleshrubs are 48-50, above you: pull one at a time.\nCareful: The other thistleshrub mobs in the area are level 49-50 and wander a lot, so you can easily pull extra mobs.`
+- `forever/alliance/40-50/04-tanaris`: `{npc:7583}'s next ingredient grows in the {zone:1425}, and the route never brings it back: skip it.` → maybe `{npc:7583}'s next ingredient grows in the {area:47}, and the route never brings it back: skip it.`
+- `forever/alliance/40-50/04-tanaris`: `Ride south-east to {area:985}. {npc:7847} stands in the middle of the southern Wastewander camp: clear around him first.`
+- `forever/alliance/40-50/04-tanaris`: `Ride south past the {area:1938} to the {area:981}, the Hazzali tunnels; Scrimshank's gear lies deep inside.`
+- `forever/alliance/40-50/04-tanaris`: `Fly from {area:976} to Theramore, take the boat to {area:150} and fly to {area:1537}. Train.`
+- `forever/alliance/40-50/04-tanaris`: `Fly to {area:348}. {zone:1425} guide starts here.`
+- `forever/alliance/40-50/05-the-hinterlands`: `{npc:7744}: the last guide binds here, so this usually ticks at once`
+- `forever/alliance/40-50/05-the-hinterlands`: `Ride south-east to the {area:355}, the stepped Vilebranch temple in the south of the {zone:1425}, and climb to the top. Qiaga and {npc:8636} (elite, 50) stand up there: touch the top and come straight back down.` → maybe `Ride south-east to the {area:355}, the stepped Vilebranch temple in the south of the {zone:1425}, and climb to the top. Qiaga and {npc:8636} (elite, 50) stand up there: touch the top and come straight back down.\nCareful: Elite trolls guard the top platform, including {npc:7996} and {npc:8636}, along with several Vilebranch Soothsayers. The soothsayers cast spells and are linked to the rest of the group.`
+- `forever/alliance/40-50/05-the-hinterlands`: `Ride north to {area:351} in the middle of the {zone:1425}. Green Sludges and Jade Oozes crawl all around it.` → maybe `Ride north to {area:351} in the middle of the {zone:1425}. Green Sludges and Jade Oozes crawl all around it.\nCareful: Panthers move around the area in stealth.`
+- `forever/alliance/40-50/05-the-hinterlands`: `Hearth to {area:348}.`
+- `forever/alliance/40-50/05-the-hinterlands`: `Hearthstone on cooldown? Ride back north-west.`
+- `forever/alliance/40-50/05-the-hinterlands`: `Fly from {area:348} to {area:42}.`
+- `forever/alliance/40-50/05-the-hinterlands`: `Ride east through {zone:1430} into the {zone:1435} and south down the road into the {zone:1419}. The bloodmages' camp is the first stop beside the road.`
+- `forever/alliance/40-50/05-the-hinterlands`: `Boars and basilisks`
+- `forever/alliance/40-50/05-the-hinterlands`: `Ashmane Boars and Redstone Basilisks share the slopes south-west of the keep. Keep clear of the Helboars further south: they are level 52.`
+- `forever/alliance/40-50/05-the-hinterlands`: `Scorpoks and snickerfangs`
+- `forever/alliance/40-50/05-the-hinterlands`: `Ride west: Starving Snickerfangs roam the dry hills just south of the bloodmages' camp; Scorpok Stingers (level 50) scuttle across the middle of the north. {npc:5982} vultures circle over all of it. Pull one at a time.` → maybe `Ride west: Starving Snickerfangs roam the dry hills just south of the bloodmages' camp; Scorpok Stingers (level 50) scuttle across the middle of the north. {npc:5982} vultures circle over all of it. Pull one at a time.\nAshmane Boars and Redstone Basilisks share the slopes south-west of the keep. Keep clear of the Helboars further south: they are level 52.\nCareful: Scorpok Stingers use {spell:5416}; {npc:8301} adds Knockdown.`
+- `forever/alliance/40-50/05-the-hinterlands`: `Ride back east to {area:1438} and fly to {area:144}.`
+- `forever/alliance/40-50/05-the-hinterlands`: `Ride south through the pass into the {zone:1418}' northern edge: the Stonevault troggs dig outside {area:1517} there. The carved urns and the magenta mushroom clusters sit in their caves and tunnels, outside the dungeon itself.` → maybe `Ride south through the pass into the {area:3}' northern edge: the Stonevault troggs dig outside {area:1517} there. The carved urns and the magenta mushroom clusters sit in their caves and tunnels, outside the dungeon itself.`
+- `forever/alliance/40-50/05-the-hinterlands`: `Fly from {area:144} to {area:150}, take the boat to {area:442} and fly to {area:702}.`
+- `forever/alliance/40-50/05-the-hinterlands`: `The druid trainers stand in the Enclave; {zone:1455} has none`
+- `forever/alliance/40-50/05-the-hinterlands`: `Back to {area:144}`
+- `forever/alliance/40-50/05-the-hinterlands`: `Hearth to {area:144}. The {zone:1427} guide starts at {area:1446}: from here, ride south into the {zone:1418}, west past the Horde town of {area:340} and up the trail into the gorge.`
+- `forever/alliance/40-50/06-searing-gorge`: `{npc:6734}: the last guide hearths you here, so this usually ticks at once`
+- `forever/alliance/40-50/06-searing-gorge`: `From {area:144} ride south into the {zone:1418}, then west past the Horde town of {area:340} (give it room) and up the trail into {zone:1427}. {area:1446} is the scaffolded camp on the north-west rim.` → maybe `From {area:144} ride south into the {zone:1418}, then west past the Horde town of {area:340} (give it room) and up the trail into {area:51}. {area:1446} is the scaffolded camp on the north-west rim.`
+- `forever/alliance/40-50/06-searing-gorge`: `Golems and elementals`
+- `forever/alliance/40-50/06-searing-gorge`: `Heavy War Golems patrol the floor of the Cauldron below Kalaran; Magma Elementals drift among them. Golems and elementals drop the oil, elementals the hearts.`
+- `forever/alliance/40-50/06-searing-gorge`: `Taskmasters and Slavers drive the slaves all over the Cauldron, and any of them can carry a {item:10551}. The Steamsmiths work at the furnaces in the middle (the {item:18959}), the Lookouts stand on the southern ridges (the Spyglass). Any {object:147516} may drop the {item:11818}: keep it.`
+- `forever/alliance/40-50/06-searing-gorge`: `Greater Lava Spiders`
+- `forever/alliance/40-50/06-searing-gorge`: `The spiders roam the plateaus and lava pools in the south-west of the gorge.`
+- `forever/alliance/40-50/06-searing-gorge`: `Ride east across the Cauldron to the {area:247} in the south-east. The prisoner in the wooden outhouse wants 15 {item:4306} and eight dead Dark Iron Geologists from the dig site around it. The outhouse also opens with the key, if you found one.` → maybe `Ride east across the Cauldron to the {area:247} in the south-east. The prisoner in the wooden outhouse wants 15 {item:4306} and eight dead Dark Iron Geologists from the dig site around it. The outhouse also opens with the key, if you found one.\nThe dwarf stands by the road at the dig site. When it is over, read the {object:175704} he leaves on the road in {area:1959}.`
+- `forever/alliance/40-50/06-searing-gorge`: `The dwarf stands by the road at the dig site. Follow him north along the road and fight off the {object:147516} ambushes. When it is over, read the {object:175704} he leaves on the road in {area:1959}.`
+- `forever/alliance/40-50/06-searing-gorge`: `For {npc:8256} in {zone:1455}, later` → maybe `For {npc:8256} in {area:1537}, later`
+- `forever/alliance/40-50/07-un-goro-crater`: `{npc:6734}: the last guide hearths you here, so this usually ticks at once`
+- `forever/alliance/40-50/07-un-goro-crater`: `From {area:144} fly to {area:150}, take the boat to Theramore and fly on to {area:976}. {npc:9619}'s first quest in the crater needs level 48: finish the level here if you are short.`
+- `forever/alliance/40-50/07-un-goro-crater`: `grind on the Wastewanderers or Dunemaul ogres around {area:976}`
+- `forever/alliance/40-50/07-un-goro-crater`: `Ride west out of {area:976} to the long ramp down into {zone:1449}. {npc:9619} camps at the foot of the ramp, in the south-east corner of the crater.` → maybe `Ride west out of {area:976} to the long ramp down into {area:490}. {npc:9619} camps at the foot of the ramp, in the south-east corner of the crater.`
+- `forever/alliance/40-50/07-un-goro-crater`: `Ride north along the east side of the crater to {area:541}, the camp in the caves of the northern cliff. Give the elite devilsaurs and stegodons a wide berth. Pick up every Power Crystal and {object:157936} you pass from here on.` → maybe `Ride west back to the refuge.\nGive the elite devilsaurs and stegodons a wide berth. Pick up every Power Crystal and {object:157936} you pass from here on.`
+- `forever/alliance/40-50/07-un-goro-crater`: `{npc:9117}, at the back of the cave` → maybe `{npc:9117}, at the back of the cave; below ground`
+- `forever/alliance/40-50/07-un-goro-crater`: `{area:978} (optional)`
+- `forever/alliance/40-50/07-un-goro-crater`: `Running {area:978} instead of grinding gets you there faster in a group. The troll city lies in the north-west of {zone:1446}, just north of {area:976}.`
+- `forever/alliance/40-50/07-un-goro-crater`: `Grind to 50`
+- `forever/alliance/40-50/07-un-goro-crater`: `The gorillas of {area:1943} come in small groups and drop nothing for you yet; {npc:9619}'s pelt quest comes later. Stay out of the deepest cave: {npc:9622} is level 55.`
+- `forever/alliance/40-50/07-un-goro-crater`: `grind on {npc:6514} at {area:1943}, {zone:1449}`
+- `forever/alliance/40-50/07-un-goro-crater`: `Ride west back to the refuge.`
+- `forever/alliance/40-50/07-un-goro-crater`: `The wooden sign beside {npc:9997}`
+- `forever/alliance/40-50/07-un-goro-crater`: `The pylon stands on the slope east of the refuge. {npc:9166} circle the slopes around it: they count for {npc:9997} and drop {npc:9998}'s scales.` → maybe `The pylon stands on the slope east of the refuge. Pterrordax circle the slopes around it: they count for Spraggle and drop {npc:9998}'s scales.`
+- `forever/alliance/40-50/07-un-goro-crater`: `The east side`
+- `forever/alliance/40-50/07-un-goro-crater`: `Ride south along the eastern cliffs to {npc:9619} at the foot of the ramp.`
+- `forever/alliance/40-50/07-un-goro-crater`: `The pelts come after loop 2, on the gorilla plateau`
+- `forever/alliance/40-50/07-un-goro-crater`: `Ride west from {npc:9619}: the silithid hive fills the south of the crater. Use the Scraping Vial on a hatchery, a chamber with hanging larvae. Gorishi wasps and workers drop {quest:3764}; {npc:9166} nest on the southern cliffs if you still need kills.` → maybe `Ride west from {npc:9619}: the silithid hive fills the south of the crater. Use the Scraping Vial on a hatchery, a chamber with hanging larvae. Gorishi wasps and workers drop {quest:3764}; Pterrordax nest on the southern cliffs if you still need kills.\nCareful: Gorishi silithids are level 51-54 and cast {spell:8137} or {spell:14120} in melee; Gorishi Workers have a 50% chance to call for help within 25 yd once they fall below 45% health.`
+- `forever/alliance/40-50/07-un-goro-crater`: `{npc:9997}'s friend {npc:9999} has gone missing.`
+- `forever/alliance/40-50/07-un-goro-crater`: `The gorillas live on {area:1943}, east of {area:541}. Keep their pelts for {npc:9619}. Stay out of the deepest cave: {npc:9622} is level 55.`
+- `forever/alliance/40-50/07-un-goro-crater`: `{npc:9999} sits on the south-east slope of {area:537}, in the middle of the crater.`
+- `forever/alliance/40-50/07-un-goro-crater`: `Escort {npc:9999}`
+- `forever/alliance/40-50/07-un-goro-crater`: `Lead {npc:9999} north to {area:541}. When he faints, use {item:11804} on him to wake him.`
+- `forever/alliance/40-50/07-un-goro-crater`: `Running the {area:1417} instead of grinding gets you there faster in a group. Skip this step to grind solo.`
+- `forever/alliance/40-50/07-un-goro-crater`: `Grind to 51`
+- `forever/alliance/40-50/07-un-goro-crater`: `The Centipaar silithid crawl around the {area:982} in western {zone:1446}, just east of the crater ramp. The Workers are the easiest pulls.`
+- `forever/alliance/40-50/07-un-goro-crater`: `grind on {npc:5458} at {area:982}, {zone:1446}`
+- `forever/alliance/40-50/07-un-goro-crater`: `Ride down the ramp into the crater: {npc:9619} camps at its foot.`
+- `forever/alliance/40-50/07-un-goro-crater`: `{npc:9684}'s lair lies in the jungle north of {npc:9619}, below the eastern cliffs: use {item:11568} there. {npc:9684} is level 56: start at full health.`
+- `forever/alliance/40-50/07-un-goro-crater`: `Ride north along the east side to the gorilla plateau. {npc:9622}, a level 55 gorilla, sits in its deepest cave: clear the gorillas at the cave mouth first.`
+- `forever/alliance/40-50/07-un-goro-crater`: `Ride west past {area:541} and south down the western side to {area:543}: {npc:10302} the goblin sits by the water.`
+- `forever/alliance/40-50/07-un-goro-crater`: `Ride east to {area:537}, climb it and use {npc:10541} at the lava vents near the top.`
+- `forever/alliance/40-50/07-un-goro-crater`: `Cross the south of the crater to {npc:9619} by the ramp.`
+- `forever/alliance/40-50/07-un-goro-crater`: `Fly from {area:144} to {area:1537}.` → maybe `Fly to {area:1537}`
+- `forever/alliance/50-60/01-burning-steppes`: `{npc:5111}: the last guide binds here, so this usually ticks at once`
+- `forever/alliance/50-60/01-burning-steppes`: `Fly from {zone:1455} to {area:150} and take the boat to {area:442}.`
+- `forever/alliance/50-60/01-burning-steppes`: `From the {area:442} dock, fly to {area:415}.`
+- `forever/alliance/50-60/01-burning-steppes`: `Ride east along the road out of {zone:1440} into {zone:1447} to the Sentinels' camp at {area:3137}.`
+- `forever/alliance/50-60/01-burning-steppes`: `The shrine lies in the south-west corner of {zone:1447}, south of {area:3137}.` → maybe `The shrine lies in the south-west corner of {area:16}, south of {area:3137}.`
+- `forever/alliance/50-60/01-burning-steppes`: `Climb back to {npc:8405} at the {area:1224}, above the ruins.`
+- `forever/alliance/50-60/01-burning-steppes`: `Swim to the small island off the southern tip of {zone:1447}: {npc:8392} waits by the monument.` → maybe `Swim to the small island off the southern tip of {area:16}: {npc:8392} waits by the monument.`
+- `forever/alliance/50-60/01-burning-steppes`: `Fly from {zone:1455} to {area:69}.`
+- `forever/alliance/50-60/01-burning-steppes`: `Ride north out of {area:69} through the pass into the {zone:1428}; {area:2418} sits at the top, in the south-east of the Steppes.` → maybe `{area:2418} sits in the south-east of the Steppes, at the top of the pass up from Redridge.`
+- `forever/alliance/50-60/01-burning-steppes`: `Thaurissan Relics`
+- `forever/alliance/50-60/01-burning-steppes`: `The relics are the carved stones scattered through the {area:250} around {area:251}: click them until the information is recovered.`
+- `forever/alliance/50-60/01-burning-steppes`: `The {quest:4296}`
+- `forever/alliance/50-60/01-burning-steppes`: `Read the tablet in the {object:147516} camp among the ruins, south-west of {area:251}, to copy the transcript.`
+- `forever/alliance/50-60/01-burning-steppes`: `Use the {item:12284} on a {npc:7047} on the slopes east of {area:251} just before it dies, then loot the essence it leaves.`
+- `forever/alliance/50-60/01-burning-steppes`: `{npc:9176} and the Blackrock orcs hold the camps and the stronghold at the foot of {area:254}, west of {area:251}. Pull them one at a time; every orc and worg may drop a medallion, so kill them until you have fifty.` → maybe `{npc:9176} and the Blackrock orcs hold the camps and the stronghold at the foot of {area:254}, west of {area:251}. Pull them one at a time; every orc and worg may drop a medallion, so kill them until you have fifty.\nCareful: {npc:9176} has a guard linked to him that joins the fight, and a second soldier patrols close by; clear the patrol before pulling.`
+- `forever/alliance/50-60/01-burning-steppes`: `Optional: {npc:8888}'s ghost stands on his tomb on the great chain inside {area:254}, and only the dead can see him. If you die near the mountain anyway, run your spirit to him before resurrecting.`
+- `forever/alliance/50-60/01-burning-steppes`: `Fly to {area:1438}.` → maybe `Fly to {area:1438}`
+- `forever/alliance/50-60/01-burning-steppes`: `{npc:7363} waits at the {area:2517}, the hill south-west of the keep. The {zone:1419} mobs on the way drop the Imperfect Draenethyst Fragments; bring her what you have.`
+- `forever/alliance/50-60/01-burning-steppes`: `Ride back to {area:1438} and fly to {area:348}. The Wildkin Feathers lie on the ground across the {zone:1425}, south and east of {area:348}, where the owlbeasts roam; the mobs here are well below you now.` → maybe `The Wildkin Feathers lie on the ground across the {area:47}, south and east of {area:348}, where the owlbeasts roam; the mobs here are well below you now.`
+- `forever/alliance/50-60/01-burning-steppes`: `Fly to {area:150} and take the boat to {area:442}, then the boat on to {area:702}.`
+- `forever/alliance/50-60/02-felwood`: `Take the boat from {area:702} to {area:442} and fly to {area:415}.`
+- `forever/alliance/50-60/02-felwood`: `Ride north out of {area:415} into {zone:1448}. {npc:11554} the furbolg stands by the road just south of the {area:2479}.` → maybe `Ride north out of {area:415} into {area:361}. {npc:11554} the furbolg stands by the road just south of the {area:2479}.`
+- `forever/alliance/50-60/02-felwood`: `{npc:15395} waits at the north end of {zone:1448}` → maybe `{npc:15395} waits at the north end of {area:361}`
+- `forever/alliance/50-60/02-felwood`: `The Jadefire satyrs hold the glen west of the road, with {npc:9454} at its back.`
+- `forever/alliance/50-60/02-felwood`: `{npc:11016}, in {area:1770}` → maybe `{npc:11016}, in {area:1770}; below ground`
+- `forever/alliance/50-60/02-felwood`: `Use the {item:12922} at the corrupted moonwell in the middle of {area:1763}. If you freed {npc:11018}, go back into {area:1770} for the succubus {npc:9518}; Trey Lightforge's remains lie beside her.` → maybe `Use the {item:12922} at the corrupted moonwell in the middle of {area:1763}. If you freed {npc:11018}, go back into {area:1770} for the succubus {npc:9518}.`
+- `forever/alliance/50-60/02-felwood`: `Ride east to the night elf camp at {area:1998}.`
+- `forever/alliance/50-60/02-felwood`: `The Deadwood furbolgs of {area:1762} fill the hills west of the cave. The Avengers can drop a {quest:8470}.`
+- `forever/alliance/50-60/02-felwood`: `{npc:11558}: the Timbermaw speak to you only from Neutral` → maybe `{npc:11558}: the Timbermaw speak to you only from Neutral; walks around here: look inside the circle on the map`
+- `forever/alliance/50-60/02-felwood`: `{npc:11557}: thirty {quest:6031}, handed in when you pass through again at 57` → maybe `{npc:11557}: thirty {quest:6031}, handed in when you pass through again at 57; below ground`
+- `forever/alliance/50-60/02-felwood`: `The vial is filled in {zone:1457}: keep it` → maybe `The vial is filled in {zone:1457}: keep it; inside`
+- `forever/alliance/50-60/02-felwood`: `Ride north to {area:1769} (or fly back to {area:1998} first) and through the tunnel into {zone:1452}; follow the road east to the goblin town of {area:2255}.`
+- `forever/alliance/50-60/03-winterspring`: `{npc:11629}: keep it for {area:2262}` → maybe `{npc:11629}: keep it for {area:2262}; inside`
+- `forever/alliance/50-60/03-winterspring`: `{npc:10431}: keep both for the Plaguelands` → maybe `{npc:10431}: keep both for the Plaguelands; inside`
+- `forever/alliance/50-60/03-winterspring`: `Ride west along the road to the night elf village.`
+- `forever/alliance/50-60/03-winterspring`: `The Winterfall camp`
+- `forever/alliance/50-60/03-winterspring`: `The {area:2247}`
+- `forever/alliance/50-60/03-winterspring`: `Pristine Yeti Horns`
+- `forever/alliance/50-60/03-winterspring`: `Back to the hills: only the Ice Thistle Matriarchs and Patriarchs carry the horns. Keep killing yetis until level 54: Harlo's wildkin quests are red before that.`
+- `forever/alliance/50-60/03-winterspring`: `grind on {npc:7460} at the {area:2247}, {zone:1452}`
+- `forever/alliance/50-60/03-winterspring`: `Ride west along the road to {npc:10301}.`
+- `forever/alliance/50-60/03-winterspring`: `Follow {npc:9298}'s directions to the mouth of {area:2256}, past the Frostmaul giants: pass them one at a time.`
+- `forever/alliance/50-60/03-winterspring`: `The western Winterfall furbolgs drop the beads.`
+- `forever/alliance/50-60/03-winterspring`: `Follow the southern road east into the {zone:1423}; the ruins of {area:2262} lie south of it. {npc:10926}'s ghost plays by the ruined house at the south end.` → maybe `Follow the southern road east into the {area:139}; the ruins of {area:2262} lie south of it. {npc:10926}'s ghost plays by the ruined house at the south end.`
+- `forever/alliance/50-60/03-winterspring`: `{quest:5152}, in the {zone:1422}: keep it` → maybe `{quest:5152}, in the {area:28}: keep it`
+- `forever/alliance/50-60/03-winterspring`: `{npc:11038}: {npc:12250} is a level 54 elite` → maybe `{npc:11038}: Zaeldarr is a level 54 elite`
+- `forever/alliance/50-60/03-winterspring`: `{npc:12250} is elite: grouping up is advised. He waits at the bottom of the {area:2261}, the crypt in the south-west of the zone.` → maybe `Zaeldarr is elite: grouping up is advised. He waits at the bottom of the {area:2261}, the crypt in the south-west of the zone.`
+- `forever/alliance/50-60/03-winterspring`: `Ride north to {area:2627}. {npc:12384} lives in the ruined hut, and his receipt book lies in the ruined inn nearby.`
+- `forever/alliance/50-60/04-western-plaguelands`: `{npc:16256}: the last guide binds here, so this usually ticks at once`
+- `forever/alliance/50-60/04-western-plaguelands`: `{npc:11616}: the termites come later, in {area:2627}`
+- `forever/alliance/50-60/04-western-plaguelands`: `The fields`
+- `forever/alliance/50-60/04-western-plaguelands`: `Skeletal Flayers and Slavering Ghouls roam the fields north of the camp; all the Scourge here drop Scourgestones.`
+- `forever/alliance/50-60/04-western-plaguelands`: `Diseased Wolves`
+- `forever/alliance/50-60/04-western-plaguelands`: `{object:175924}, in the farmhouse` → maybe `{object:175924}, in the farmhouse; inside`
+- `forever/alliance/50-60/04-western-plaguelands`: `Buy one {item:13320} from {npc:11056} for Felstone's cauldron, right before you go: the quickeners vanish after 30 minutes.`
+- `forever/alliance/50-60/04-western-plaguelands`: `{item:13320}, from {npc:11056}`
+- `forever/alliance/50-60/04-western-plaguelands`: `The cauldron now offers its own task; the skeletons around it drop Osseous Agitators.`
+- `forever/alliance/50-60/04-western-plaguelands`: `grind on {npc:1796} at the {area:202}, {zone:1422}`
+- `forever/alliance/50-60/04-western-plaguelands`: `Buy two more Arcane Quickeners for the {area:202}'s and Dalson's cauldrons, and ride straight there: they vanish after 30 minutes.`
+- `forever/alliance/50-60/04-western-plaguelands`: `Back north to the {area:202}: the cauldron offers its own task now. The ghouls nearby drop Somatic Intensifiers.`
+- `forever/alliance/50-60/04-western-plaguelands`: `{npc:1852} is elite: grouping up is advised. He guards his phylactery in the middle of Andorhal.`
+- `forever/alliance/50-60/04-western-plaguelands`: `Andorhal Watches`
+- `forever/alliance/50-60/04-western-plaguelands`: `Small lockboxes lie in the rubble all over Andorhal; each holds a watch.`
+- `forever/alliance/50-60/04-western-plaguelands`: `{npc:11613} walks the Northridge camp east of {npc:11610}; {npc:11611} guards the tower at {area:190}'s southern approach.`
+- `forever/alliance/50-60/04-western-plaguelands`: `Climb the hill west of {area:190} to look down on the town.`
+- `forever/alliance/50-60/04-western-plaguelands`: `{npc:11038}, by the graves south of the chapel`
+- `forever/alliance/50-60/04-western-plaguelands`: `{npc:11140} stands by Augustus' hut in {area:2627}.`
+- `forever/alliance/50-60/04-western-plaguelands`: `Ride back to {area:3197} and fly to {area:150}, take the boat to {area:442} and fly to {area:702}; the portal leads up to {zone:1457}.`
+- `forever/alliance/50-60/04-western-plaguelands`: `Temple of the Moon`
+- `forever/alliance/50-60/04-western-plaguelands`: `{quest:6762} in {zone:1450}: keep it` → maybe `{quest:6762} in {area:493}: keep it`
+- `forever/alliance/50-60/04-western-plaguelands`: `{npc:10300} in {zone:1452}: keep it`
+- `forever/alliance/50-60/04-western-plaguelands`: `{npc:7900}: keep it for {zone:1446}` → maybe `{npc:7900}: keep it for {area:440}`
+- `forever/alliance/50-60/04-western-plaguelands`: `Zapped giants and sea elementals`
+- `forever/alliance/50-60/04-western-plaguelands`: `{npc:8496}: keep it for Un'Goro` → maybe `{npc:8496}: keep it for Un'Goro; inside`
+- `forever/alliance/50-60/04-western-plaguelands`: `From {area:392}, fly to {area:2255} and ride south to {area:2250}.`
+- `forever/alliance/50-60/04-western-plaguelands`: `{npc:10300}: her escort comes later on the route`
+- `forever/alliance/50-60/04-western-plaguelands`: `Gaeriyan in {area:976}: keep it` → maybe `{npc:9299} in {area:976}: keep it`
+- `forever/alliance/50-60/04-western-plaguelands`: `Walk into {area:1769} and take the {zone:1450} branch of the tunnel to {area:2361}.` → maybe `Walk into {area:1769} and take the {area:493} branch of the tunnel to {area:2361}.`
+- `forever/alliance/50-60/04-western-plaguelands`: `For {zone:1451}: keep it` → maybe `For {area:1377}: keep it`
+- `forever/alliance/50-60/04-western-plaguelands`: `The next guide starts here in {area:392} and flies on to {area:976}.`
+- `forever/alliance/50-60/05-silithus`: `From {area:392}, fly to {area:976}.`
+- `forever/alliance/50-60/05-silithus`: `For {area:3197}: keep it`
+- `forever/alliance/50-60/05-silithus`: `On {npc:7583}`
+- `forever/alliance/50-60/05-silithus`: `{npc:9299} waits at the graveyard just east of town; the gravestone stands nearby.`
+- `forever/alliance/50-60/05-silithus`: `Ride south-west to {npc:7771}'s camp at the {area:1938}.`
+- `forever/alliance/50-60/05-silithus`: `{quest:3444} is in {area:392}`
+- `forever/alliance/50-60/05-silithus`: `Fly from {area:976} to {area:541}. {npc:8737}'s hut stands at the {area:538}, west of the refuge; {npc:9117} is up the hill behind it.`
+- `forever/alliance/50-60/05-silithus`: `For {zone:1448}: keep it`
+- `forever/alliance/50-60/05-silithus`: `The crater`
+- `forever/alliance/50-60/05-silithus`: `Tar Beasts wallow in the {area:538}; the fire elementals of {area:537} in the middle carry the ash; the Gorishi wasps of the {area:540} in the south carry the gland. Every creature in the crater can drop {item:11018}.`
+- `forever/alliance/50-60/05-silithus`: `Ride out of the crater's north-western pass into {zone:1451} and on to {area:3425}.`
+- `forever/alliance/50-60/05-silithus`: `Dredge and scorpids`
+- `forever/alliance/50-60/05-silithus`: `Dredge Strikers dig in the dunes north-west of the hold; Stonelash Scorpids and Sand Skitterers roam all around.`
+- `forever/alliance/50-60/05-silithus`: `The western dunes`
+- `forever/alliance/50-60/05-silithus`: `Dredge Crushers dig further west; Stonelash Pincers, Flayers and Rock Stalkers hunt the same sands.`
+- `forever/alliance/50-60/05-silithus`: `Ride east to {npc:13220}.`
+- `forever/alliance/50-60/05-silithus`: `The tortured druids and sentinels haunt the ruined village south-west of {npc:13220}.`
+- `forever/alliance/50-60/05-silithus`: `The {area:2742} tower`
+- `forever/alliance/50-60/05-silithus`: `Ride east to the {area:2742} tower in {area:2738}; climb it and kill the ambushers that rise for the encrusted object.`
+- `forever/alliance/50-60/05-silithus`: `Umber in {zone:1450}: keep it`
+- `forever/alliance/50-60/05-silithus`: `Sixty {item:2592}, if you carry them`
+- `forever/alliance/50-60/05-silithus`: `Fly to {area:271} and ride north up the road toward Alterac: Haggerdin camps at {area:1056} beside it.`
+- `forever/alliance/50-60/05-silithus`: `Ride north to the {area:2277}'s north-eastern edge.`
+- `forever/alliance/50-60/05-silithus`: `Ride south-west to the {area:2261}. The mound of dirt lies inside. {npc:11886} is elite: grouping up is advised.` → maybe `Ride south-west to the {area:2261}. The mound of dirt lies inside. {npc:11886} is elite: grouping up is advised.\nCareful: About four non-elite adds come with Mercutio. They walk to the grave instead of appearing on the spot.`
+- `forever/alliance/50-60/05-silithus`: `grind on {npc:8532} at the {area:2258}, {zone:1423}`
+- `forever/alliance/50-60/05-silithus`: `The next guide starts here in {area:392}.`
+- `forever/alliance/50-60/06-silithus`: `{zone:1451}, {zone:1448}, {zone:1452} & the Plaguelands`
+- `forever/alliance/50-60/06-silithus`: `You start in {area:392}, where the previous guide hearthed you. Fly to {area:415}.`
+- `forever/alliance/50-60/06-silithus`: `{npc:6791}: the last guide hearths you here, so this usually ticks at once`
+- `forever/alliance/50-60/06-silithus`: `Ride north out of {area:415} into {zone:1448} to the druids' camp on the road just past the border.` → maybe `Ride north out of {area:415} into {area:361} to the druids' camp on the road just past the border.`
+- `forever/alliance/50-60/06-silithus`: `{npc:10924}: ends in {zone:1452}, keep it`
+- `forever/alliance/50-60/06-silithus`: `{area:1770} is the cave at the back of {area:1763}, west of the road. Use the {item:12906} on the four braziers inside. Kill the Angerclaw bears and Felpaw wolves you pass for the {item:11172}.` → maybe `{area:1770} is the cave at the back of {area:1763}, west of the road. Use the {item:12906} on the four braziers inside. Kill the Angerclaw bears and Felpaw wolves you pass for the {item:11172}.\nCareful: Shadow Council mobs of level 53-55 fill the cave and often come in large linked groups, many with stuns. A group of 2-3 players is recommended.`
+- `forever/alliance/50-60/06-silithus`: `Back into {area:1770}: {npc:9861} and {npc:9860} guard {npc:9517} in its deepest chamber.`
+- `forever/alliance/50-60/06-silithus`: `{npc:9598} waits in {area:1767}. Escort her out of the woods and keep her alive.` → maybe `{npc:9598} waits in {area:1767}. Escort her out of the woods and keep her alive.\nCareful: Three {quest:5086} ambush you soon after the escort starts.`
+- `forever/alliance/50-60/06-silithus`: `{object:176091}, if you found the Firewater flask in {zone:1452}` → maybe `{object:176091}, if you found the Firewater flask in {area:618}`
+- `forever/alliance/50-60/06-silithus`: `{quest:5085}: {npc:9298} in {zone:1452}, keep it` → maybe `{quest:5085}: {npc:9298} in {area:618}, keep it`
+- `forever/alliance/50-60/06-silithus`: `{npc:11558}, just inside the cave: only from Neutral with the Timbermaw` → maybe `{npc:11558}, just inside the cave: only from Neutral with the Timbermaw; walks around here: look inside the circle on the map`
+- `forever/alliance/50-60/06-silithus`: `{npc:11557}, if you have thirty {quest:6031}` → maybe `{npc:11557}, if you have thirty {quest:6031}; below ground`
+- `forever/alliance/50-60/06-silithus`: `Into {zone:1451}`
+- `forever/alliance/50-60/06-silithus`: `Ride west along the crater's northern wall to the pass in the north-west corner that climbs into {zone:1451}.`
+- `forever/alliance/50-60/06-silithus`: `Toward the north-west pass`
+- `forever/alliance/50-60/06-silithus`: `Follow the road south-west out of the pass to {area:3425}.`
+- `forever/alliance/50-60/06-silithus`: `{npc:15174}, the innkeeper`
+- `forever/alliance/50-60/06-silithus`: `{npc:17082}, at the Alliance tents`
+- `forever/alliance/50-60/06-silithus`: `The {area:2739}`
+- `forever/alliance/50-60/06-silithus`: `{npc:17080} camps outside {area:2743}, the western hive. Pick up a Silithyst at one of the red geysers nearby and carry it to the Alliance extractor at his camp.` → maybe `{npc:17080} camps outside {area:2743}, the western hive. Pick up a Silithyst at one of the red geysers nearby and carry it to the Alliance extractor at his camp.\nCareful: You lose the Silithyst if you mount, stealth, use {spell:642}, {spell:5384} or Vanish. Blink and {spell:17} do not drop it.`
+- `forever/alliance/50-60/06-silithus`: `Grind to 58`
+- `forever/alliance/50-60/06-silithus`: `Dredge Crushers roam the dunes between {area:2743} and {area:3425}, on your way back. {npc:15181} only offers {quest:8304} from level 58.`
+- `forever/alliance/50-60/06-silithus`: `grind on {npc:11741} at the dunes east of {area:2743}, {zone:1451}`
+- `forever/alliance/50-60/06-silithus`: `Fly to {area:3137} in {zone:1447} and ride west along the road to {area:2358}, just over the {zone:1440} border.` → maybe `Fly to {area:3137} in {area:16} and ride west along the road to {area:2358}, just over the {zone:1440} border.`
+- `forever/alliance/50-60/06-silithus`: `Ride south to {area:2250}. Protect {npc:10300} while she lights the torches on the way to the {object:177404}.` → maybe `{npc:10300} waits at {area:2250}, south of {area:2255}.\nProtect {npc:10300} while she lights the torches on the way to the {object:177404}.`
+- `forever/alliance/50-60/06-silithus`: `Grind to 59`
+- `forever/alliance/50-60/06-silithus`: `The {npc:7446} bears roam the snowy valley south of {area:2250}.`
+- `forever/alliance/50-60/06-silithus`: `grind on {npc:7446} at the valley south of {area:2250}, {zone:1452}`
+- `forever/alliance/50-60/06-silithus`: `Ride back north to {area:2255} and west along the road to the night elf village.`
+- `forever/alliance/50-60/06-silithus`: `Take the {area:1769} tunnel from its {zone:1452} mouth, west of {npc:9298}, and follow the {area:493} branch to {area:2361}. {npc:11939} studies by the lake shore.` → maybe `Take the {area:1769} tunnel from its {area:618} mouth, west of {npc:9298}, and follow the {area:493} branch to {area:2361}. {npc:11939} studies by the lake shore.`
+- `forever/alliance/50-60/06-silithus`: `Go back down to {area:702}, take the boat to {area:442} and the boat on to {area:17203}. Bring sixty Silk, sixty Mageweave and sixty {item:14047} for {npc:14722}: buy what you lack at the Auction House.`
+- `forever/alliance/50-60/06-silithus`: `Take the {area:2257} to {zone:1455}. {npc:14724} and {npc:14723} each want sixty Wool, sixty Silk and sixty Mageweave, then sixty {item:14047}: 120 of each in all, from your bags or the Auction House.`
+- `forever/alliance/50-60/06-silithus`: `Running {area:2057} ({area:2298}, south-east {zone:1422}) or {area:2279} instead of grinding gets you there faster in a group. Skip this step to grind solo.` → maybe `Running {area:2057} ({area:2298}, south-east {area:28}) or {area:2279} instead of grinding gets you there faster in a group. Skip this step to grind solo.`
+- `forever/alliance/50-60/06-silithus`: `grind on {npc:14564} at {area:2627}, {zone:1423}` → maybe `grind on {npc:14564} at {area:2627}, {area:139}`
+- `forever/alliance/50-60/06-silithus`: `Level 60`
+- `forever/alliance/50-60/06-silithus`: `Hearth to {area:1519} and train your level 60 spells. This is the end of the leveling route: look at the reputation and dungeon guides next.`
+- `forever/alliance/50-60/06-silithus`: `Shaman training`
+- `forever/alliance/50-60/06-silithus`: `{zone:1453} has no shaman trainer: take the {area:2257} from the {object:28027} to {zone:1455} and train your level 60 spells with {npc:258098}.`
+- `forever/alliance/human/01-elwynn-forest`: `{npc:247229}, in the library` → maybe `{npc:247229}, in the library; inside`
+- `forever/alliance/human/01-elwynn-forest`: `{npc:911}, the warrior trainer` → maybe `{npc:911}, the warrior trainer; inside`
+- `forever/alliance/human/01-elwynn-forest`: `{npc:6306}: skinners only, the pelts are skinned` → maybe `{npc:6306}: skinners only, the pelts are skinned; inside`
+- `forever/alliance/human/01-elwynn-forest`: `The murloc camp`
+- `forever/alliance/human/01-elwynn-forest`: `Speak with {npc:1430}`
+- `forever/alliance/human/01-elwynn-forest`: `Bait ingredients`
+- `forever/alliance/human/01-elwynn-forest`: `{object:694855} grows in the fields around the vineyards and the Stonefield farm; Stonetusk Boars around them give the blood.` → maybe `{object:694855} grows in the fields around the vineyards and the Stonefield farm; Stonetusk Boars around them give the blood.\nStonetusk Boars graze between the vineyards and the farm.`
+- `forever/alliance/human/01-elwynn-forest`: `The Stonefield farm is west of the mine. Ma and "Auntie" Bernice stand by the house.` → maybe `The Stonefield farm is west of the mine. Ma and "Auntie" Bernice stand by the house.\nShe sits inside the farmhouse.`
+- `forever/alliance/human/01-elwynn-forest`: `She sits inside the farmhouse.`
+- `forever/alliance/human/01-elwynn-forest`: `Boar meat`
+- `forever/alliance/human/01-elwynn-forest`: `Stonetusk Boars graze between the vineyards and the farm.`
+- `forever/alliance/human/01-elwynn-forest`: `{area:18} and the wolves`
+- `forever/alliance/human/01-elwynn-forest`: `The {item:247813}, Axe and Toolbox lie in the river south of the bridge. {npc:330}, a big boar, roots in the {area:62} west of the river with her {npc:390}: pull the piglets away first. Kill Prowlers and Young Forest Bears on the way.` → maybe `The {item:247813}, Axe and Toolbox lie in the river south of the bridge. {npc:330}, a big boar, roots in the {area:62} west of the river with her {npc:390}: pull the piglets away first. Kill Prowlers and Young Forest Bears on the way. {npc:248278} roams the murloc shore along the river too: right-click the head it drops. {npc:248278} is elite: grouping up is advised.`
+- `forever/alliance/human/01-elwynn-forest`: `{npc:955}: he wants your {item:247824}` → maybe `{npc:955}: he wants your {item:247824}; inside`
+- `forever/alliance/human/01-elwynn-forest`: `Riverpaw Runts and Outrunners hold the hills south of the garrison, along the {zone:1436} border. {npc:100}, a level 12 gnoll, walks among them and carries the {item:1307}: right-click it.`
+- `forever/alliance/human/01-elwynn-forest`: `Follow the road east past the {area:91} to the bridge.`
+- `forever/alliance/human/01-elwynn-forest`: `Murlocs and the Collector`
+- `forever/alliance/human/01-elwynn-forest`: `Murloc Foragers and Lurkers line the river south of the bridge. {npc:473}, a Defias, walks the {area:62} west of it. Finish the Prowlers and Young Forest Bears on the way. {npc:248278} roams the murloc shore too: right-click the head it drops. {npc:248278} is elite: grouping up is advised.` → maybe `The {item:247813}, Axe and Toolbox lie in the river south of the bridge. {npc:330}, a big boar, roots in the {area:62} west of the river with her {npc:390}: pull the piglets away first. Kill Prowlers and Young Forest Bears on the way. {npc:248278} roams the murloc shore along the river too: right-click the head it drops. {npc:248278} is elite: grouping up is advised.`
+- `forever/alliance/human/01-elwynn-forest`: `Torn Murloc Fins`
+- `forever/alliance/human/01-elwynn-forest`: `{npc:248277} keeps watch at {area:798}, east of the murloc shore. Then head north-west back to the bridge.`
+- `forever/alliance/human/01-elwynn-forest`: `{npc:927}: {npc:6171} in {zone:1453} takes it`
+- `forever/alliance/human/01-elwynn-forest`: `Follow the road north from {area:87} into {zone:1453}. {npc:6171} and {npc:6173} are in the Cathedral of Light; {npc:6174} stands in {object:2100} and asks for ten {item:2589} (humanoids drop it; the Auction House sells it).`
+- `forever/alliance/human/01-elwynn-forest`: `From the {quest:2998} he gives you`
+- `forever/alliance/human/01-elwynn-forest`: `Head back out through {area:87} and east to {area:86}. {npc:6172} lies south of the lake: use the {item:6866} on him. The Defias Rogue Wizards around him carry the {item:6846}.`
+- `forever/alliance/human/01-elwynn-forest`: `Use the {item:6866} on {npc:6172}`
+- `forever/alliance/human/01-elwynn-forest`: `{item:6846}: Defias Rogue Wizards`
+- `forever/alliance/human/01-elwynn-forest`: `Back to the Cathedral of Light.`
+- `forever/alliance/human/01-elwynn-forest`: `{npc:6171}: Redemption`
+- `forever/alliance/nightelf/01-teldrassil`: `{npc:3595}: in at the tree's front entrance and up the ramp` → maybe `{npc:3595}: in at the tree's front entrance and up the ramp; upstairs`
+- `forever/alliance/nightelf/01-teldrassil`: `Mangy Nightsabers and Thistle Boars roam north of {area:256}, on the way to the cave. {npc:8584} waits in the trees west of the cave mouth; {npc:1994} sits deep inside.` → maybe `Mangy Nightsabers and Thistle Boars roam north of {area:256}, on the way to the cave. {npc:1994} sits deep inside.`
+- `forever/alliance/nightelf/01-teldrassil`: `Webwood Spiders`
+- `forever/alliance/nightelf/01-teldrassil`: `{npc:3593}, the warrior trainer` → maybe `{npc:3593}, the warrior trainer; inside`
+- `forever/alliance/nightelf/01-teldrassil`: `The moonwell sits north of {area:256}; {npc:8584} is a little further north-west. {quest:3522} lasts five minutes: fill the phial and go straight on to him.` → maybe `{npc:8584} is a little further north-west. {quest:3522} lasts five minutes: fill the phial and go straight on to him.`
+- `forever/alliance/nightelf/01-teldrassil`: `{quest:488} and the Starbreeze moonwell`
+- `forever/alliance/nightelf/01-teldrassil`: `Nightsabers, Strigid Owls and Webwood Lurkers roam all around {area:186} and along the road east. The moonwell is at the west edge of {area:260}.` → maybe `Nightsabers, Strigid Owls and Webwood Lurkers roam all around {area:186} and along the road east; the lurkers also drop the recipe's spider legs. The moonwell is at the west edge of {area:260}.`
+- `forever/alliance/nightelf/01-teldrassil`: `{npc:2150}, on the way back`
+- `forever/alliance/nightelf/01-teldrassil`: `{area:186} quests`
+- `forever/alliance/nightelf/01-teldrassil`: `Speak with {npc:6286}, south of the inn`
+- `forever/alliance/nightelf/01-teldrassil`: `East to {area:260}`
+- `forever/alliance/nightelf/01-teldrassil`: `Fel Cones lie under the trees all around {area:186} and {npc:2150}. Nightsabers and Webwood Lurkers keep roaming the road east. {object:126158} is in the house on the hill at the east end of the village.`
+- `forever/alliance/nightelf/01-teldrassil`: `South of Zenn. {npc:2080} tends his saplings on the shore; Lasher Sproutlings and Timberlings wander around him, and the {quest:919} grow among them.` → maybe `South-west of Starbreeze, south of {npc:2150}. {npc:2080} tends his saplings on the shore; Lasher Sproutlings and Timberlings wander around him, and the {quest:919} grow among them.`
+- `forever/alliance/nightelf/01-teldrassil`: `{npc:7318}, in the den`
+- `forever/alliance/nightelf/01-teldrassil`: `Gnarlpine Mystics and Ferocitas camp north-east of {area:260}. Ferocitas drops the {item:8049}: open it for the jewel.`
+- `forever/alliance/nightelf/01-teldrassil`: `{npc:3567}, back in {area:186}` → maybe `{npc:3567}, back in {area:186}; upstairs`
+- `forever/alliance/nightelf/01-teldrassil`: `Take the road north-west from {area:186} towards the {area:264}; she lies hurt beside it.`
+- `forever/alliance/nightelf/01-teldrassil`: `Use the {item:5623} at the moonwell` → maybe `Use the {item:18152} at the moonwell`
+- `forever/alliance/nightelf/01-teldrassil`: `The Bloodfeather harpies nest on the slopes west and north of the glade.`
+- `forever/alliance/nightelf/01-teldrassil`: `Walk south along the west side of the island. Ursal prowls the far south, below the {area:478}.`
+- `forever/alliance/nightelf/01-teldrassil`: `Learn the flight path from {npc:3841} where you land. {npc:4200}'s fish stall is just north of her, by the docks.` → maybe `Learn the flight path from {npc:3841} where you land. {npc:4200}'s fish stall is just north of her, by the docks.\nThe boat docks west of the village. The flight master stands on the hill south of the inn; the quest givers are spread along the main street.`
+- `forever/alliance/nightelf/01-teldrassil`: `Cast {spell:18960}. {npc:11802} is in {area:2361}; the {quest:5929} sits in the woods to the north-west. Learn the {area:493} flight path in {area:2361} and fly to {area:702} (by way of {area:442}).` → maybe `Cast {spell:18960}. {npc:11802} is in {area:2361}; the {quest:5929} sits in the woods to the north-west. Then {npc:11800} in {area:2361} flies Druids straight to {area:702}, no flight path needed.`
+- `forever/alliance/nightelf/01-teldrassil`: `From the harbour walk into {object:2100}. {npc:5480} trains warriors there; {npc:6089} and {npc:6090} stand together by the {object:2152}. {npc:6090} fights you for his mug.`
+- `forever/alliance/skyborne/01-zephras-isle`: `Vuldren and Cirrusflies`
+- `forever/alliance/skyborne/01-zephras-isle`: `{npc:250926} and {npc:251115}`
+- `forever/alliance/skyborne/01-zephras-isle`: `{npc:252095} camps south of the Ursera den. The Al'Aketh thugs hold the camp south-west of her; {npc:256935} stands in its middle.` → maybe `{npc:252095} camps south of the Ursera den. The Al'Aketh thugs hold the camp south-west of her; {npc:256935} stands in its middle.\nCareful: {npc:256935} casts shocks; drag him clear of the other cultists before fighting so they don't join in.`
+- `forever/alliance/skyborne/01-zephras-isle`: `Speak with {npc:251903} and {npc:254089}, north-west of the village`
+- `forever/alliance/skyborne/01-zephras-isle`: `Back to Shen'dar`
+- `forever/alliance/skyborne/01-zephras-isle`: `The Highlands bandits`
+- `forever/alliance/skyborne/01-zephras-isle`: `Havoc in Falaath`
+- `forever/alliance/skyborne/01-zephras-isle`: `The hippogryph roost`
+- `forever/alliance/skyborne/01-zephras-isle`: `Head north-west to the hippogryph nests on the western cliffs. {item:263493} lies around the nests; the Matriarch patrols among them.` → maybe `Head north-west to the hippogryph nests on the western cliffs. {item:263493} lies around the nests; the Matriarch patrols among them.\nThe Novice Seers practise in the clearing west of Shen'dar.`
+- `forever/alliance/skyborne/01-zephras-isle`: `Windshaper Novice Seers`
+- `forever/alliance/skyborne/01-zephras-isle`: `The Novice Seers practise in the clearing west of Shen'dar.`
+- `forever/alliance/skyborne/01-zephras-isle`: `Take the road south-east. {npc:257006} and {npc:252448} stand by the road west of {area:16638}; Windsong Crawlers line the shore further west, around 51,70.` → maybe `{npc:257006} and {npc:252448} stand on {area:16638}'s west side, beside the inn; {npc:252377} and {npc:252389} train just west of {npc:257006}. Windsong Crawlers line the shore further west, around 51,70.`
+- `forever/alliance/skyborne/01-zephras-isle`: `The {object:581822} lies by the path west of {area:16638}; Fillion's camp is north-west of it, and the Shriekling Matriarchs nest just west of the camp.` → maybe `Fillion's camp is north-west of it, and the Shriekling Matriarchs nest just west of the camp.`
+- `forever/alliance/skyborne/01-zephras-isle`: `Find Fillion and his bedroll`
+- `forever/alliance/skyborne/01-zephras-isle`: `The Windfield farm`
+- `forever/alliance/skyborne/01-zephras-isle`: `{npc:252377}: {npc:257196} waits at the {area:16629}`
+- `forever/alliance/skyborne/01-zephras-isle`: `Each of Quel'ana's quests hands you a {item:15908}: use it on the beast she names, then bring the rod back to her in {area:16638}. Windsong Crawlers line the shore west of town; Vuldren Alphas and Ornery Galestriders roam the {area:16626} around the Windfield farm. Her sister {npc:254411} stands beside her.`
+- `forever/alliance/skyborne/01-zephras-isle`: `{npc:254588}: tame it with the {item:15908}`
+- `forever/alliance/skyborne/01-zephras-isle`: `{item:262668}: by the wind shrine south of {quest:92529}`
+- `forever/alliance/skyborne/01-zephras-isle`: `Meet Valennia at the gate` → maybe `Meet {npc:253844} at the gate`
+- `forever/alliance/skyborne/01-zephras-isle`: `Back to {npc:255853} by the falls north-east of {area:16638}, on the way north to the shrine.` → maybe `{npc:255853}, by the falls north-east of {area:16638}, on the way north: {spell:5487}`
+- `forever/alliance/skyborne/01-zephras-isle`: `{npc:253590}, in the sanctum` → maybe `{npc:253590}, in the sanctum; upstairs`
+- `forever/alliance/skyborne/01-zephras-isle`: `{item:263993}: {npc:257196}, west of the shrine's approach`
+- `forever/alliance/skyborne/01-zephras-isle`: `The refugees' camp`
+- `forever/alliance/skyborne/01-zephras-isle`: `Lorthuna waits on the eastern shore of the isle, east of the {area:16629}.`
+- `forever/alliance/skyborne/01-zephras-isle`: `The skycutter`
+- `forever/alliance/skyborne/01-zephras-isle`: `The skycutter docks at the tower south of {area:16638}. It lands by the Kirin Tor camp on the lake shore west of {area:279}.`
+- `forever/alliance/skyborne/01-zephras-isle`: `Skycutter to {area:279}`
+- `forever/alliance/skyborne/01-zephras-isle`: `{npc:259084} stands beside the Skyborne Portal where the zeppelin lands. The portal takes you to {zone:1453}.` → maybe `{npc:259084} stands beside the Skyborne Portal, where the skycutter lands by the Kirin Tor camp west of {area:279}. The portal takes you to {zone:1453}.`
+- `forever/alliance/skyborne/01-zephras-isle`: `Bolvar Fordragon stands in the throne room of {object:2117}, at the north end of the city. Then leave by the main gate for {zone:1436}.` → maybe `Bolvar Fordragon stands in the throne room of {object:2117}, at the north end of the city. Then leave by the main gate for {area:40}.`
+- `forever/alliance/skyborne/01-zephras-isle`: `Leave {zone:1453} by the main gate. The {quest:1861} waterfall is south-west of the gates, on the way west to {zone:1436}: fill {item:7207} at its base.` → maybe `Leave {zone:1453} by the main gate. The {quest:1861} waterfall is south-west of the gates, on the way west to {area:40}: fill {item:7207} at its base.`
+- `forever/class/mage/astral-knot-garment`: `A robe or a blouse for Human and Gnome mages in their late 20s.` → maybe `A robe or a blouse for Alliance mages in their late 20s.`
+- `forever/class/mage/astral-knot-garment`: `{npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}.`
+- `forever/class/mage/astral-knot-garment`: `{quest:1939} is in the Wizard's Sanctum too.`
+- `forever/class/mage/astral-knot-garment`: `Head east through {zone:1429} into Redridge. The fallen mage's tower of Ilgalar stands in the east of the zone; the treatise is in his library.`
+- `forever/class/mage/astral-knot-garment`: `Carrion Recluses lurk in the woods of western {zone:1431} and each one drops the silk. The Black Widow Hatchlings further east drop it now and then.`
+- `forever/class/mage/astral-knot-garment`: `{npc:1309} works at {object:23296} in the {object:2101}.`
+- `forever/class/mage/manaweave-robe`: `{npc:328} is the {area:87} mage trainer.` → maybe `{npc:328} is the {area:87} mage trainer, upstairs in the Lion's Pride Inn.`
+- `forever/class/mage/manaweave-robe`: `{npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}. The {item:7247} and the {item:7308} lie behind her.`
+- `forever/class/mage/manaweave-robe`: `{object:2169} is the tavern in the {object:2101}. Use the {item:7308} inside to make the {npc:6492} visible, subdue one with your spells, then use the {item:7247} to throw down a coffer and capture it.`
+- `forever/class/mage/manaweave-robe`: `Humanoids drop {item:2589}; the Auction House in the {object:2096} sells it.`
+- `forever/class/mage/manaweave-robe`: `Take the {area:2257} to {zone:1455}, then the road east through the South Gate tunnel into {zone:1432}. The dwarven miners' league left the crates in the {area:149} at the north end of the loch; Tunnel Rat troggs hold the mine.`
+- `forever/class/paladin/cloak-of-the-divine-storm`: `Climb to the top of the {area:444} in northern {zone:1439}. Loot the Strange Orb up there: it gives you the Althalaxx Orb, which starts the quest.`
+- `forever/class/paladin/cloak-of-the-divine-storm`: `{npc:3663} stands at {area:413} in western {zone:1440}.`
+- `forever/class/paladin/cloak-of-the-divine-storm`: `{npc:5492} is in the Cathedral of Light.`
+- `forever/class/paladin/cloak-of-the-divine-storm`: `Katherine sends you to the warlocks in the {object:2101}; {npc:5495} speaks for them.`
+- `forever/class/paladin/cloak-of-the-divine-storm`: `Blackrock Summoners, Champions and Trackers camp in the north-west of Redridge; they drop the {item:209778}.`
+- `forever/class/paladin/cloak-of-the-divine-storm`: `{area:435} is in south-east {zone:1440}. The Mannoroc Lashers, Searing Infernals, Felguards and Legion Hounds in it drop the Motes of Mannoroth.`
+- `forever/class/paladin/cloak-of-the-divine-storm`: `The {object:409311} stands at the east end of {area:435}. Shatter the orb on it; the {object:409315} appears beside it.`
+- `forever/class/paladin/cloak-of-the-divine-storm`: `Back to {area:413}.`
+- `forever/class/paladin/holy-mightstone`: `A one-use stone that makes you much stronger against undead for 10 minutes; the old choice rewards are gone.` → maybe `A one-use stone that makes you much stronger against undead for 10 minutes; the old item choice may be gone in Forever.`
+- `forever/class/paladin/holy-mightstone`: `{npc:928} is in the Cathedral of Light.`
+- `forever/class/paladin/holy-mightstone`: `{npc:5149} is in the {object:32362}.`
+- `forever/class/paladin/holy-mightstone`: `{npc:10838} commands {area:3197} in the south of the {zone:1422}.`
+- `forever/class/paladin/holy-mightstone`: `The Scourge throughout the {zone:1422} drop Minion's Scourgestones.`
+- `forever/class/paladin/holy-mightstone`: `{area:1477} lies in the {area:74} in eastern {zone:1435}. Inside, Gasher and {npc:5716} drop the {item:20606}, Hukku and Mijan the Blue, Zolo and Loro the Green.`
+- `forever/class/paladin/holy-mightstone`: `{item:20606}, inside`
+- `forever/class/paladin/holy-mightstone`: `{item:20607}, inside`
+- `forever/class/paladin/holy-mightstone`: `{item:20608}, inside`
+- `forever/class/paladin/verigans-fist`: `The Alliance paladin's rare two-handed mace for the 20s, with a shield on the way.` → maybe `The Alliance paladin's rare two-handed mace for the 20s, with a shield and {spell:5502} on the way.`
+- `forever/class/paladin/verigans-fist`: `At 20 {npc:6179} in the {object:32362} gives you the {item:6776}; it sends you to {npc:6171} in {zone:1453}'s Cathedral of Light. Take the tram from {zone:1455} to {zone:1453}.` → maybe `At 20 {npc:6179}, upstairs in the {object:32386} in the {object:32362}, gives you the {item:6776}. Right-click it: it sends you to {npc:6171} in {zone:1453}'s Cathedral of Light. Take the {area:2257} from {zone:1455} to {zone:1453}.`
+- `forever/class/paladin/verigans-fist`: `{npc:6171} stands in the Cathedral of Light. Right-click the {item:6776} to start its quest.` → maybe `{npc:6171} stands in the Cathedral of Light. Humans get the {item:6776} from him. Right-click the book to start its quest and hand it straight back to him.`
+- `forever/class/paladin/verigans-fist`: `from the {item:6776}`
+- `forever/class/paladin/verigans-fist`: `{npc:6182}'s farmhouse stands on the south-west coast of {zone:1436}. Waves of Defias attack it during her quest: keep her alive, and heal her if she needs it.`
+- `forever/class/paladin/verigans-fist`: `Protect {npc:6182}`
+- `forever/class/paladin/verigans-fist`: `{npc:6181} stands outside the gates of {zone:1455}. He gives you {item:6996}, which list the four parts.` → maybe `{npc:6181} works outside the gates of {zone:1455}, not inside. He gives you {item:6996}: four parts, in any order. Keep the notes.`
+- `forever/class/paladin/verigans-fist`: `{npc:6241} is in {area:144}.`
+- `forever/class/paladin/verigans-fist`: `The ore crate lies by the trees in the middle of the Mo'grosh ogre camp in north-east {zone:1432}. The Mo'grosh ogres are elite: grouping up is advised.`
+- `forever/class/paladin/verigans-fist`: `{npc:6241} turns the ore into {item:6993}.` → maybe `{npc:6241} turns the ore into {item:6993}, the part Jordan wants.`
+- `forever/class/paladin/verigans-fist`: `{area:1581} is a group of five under {area:20}; the instance portal is inside the {area:20} mine. The Goblin Woodcarvers in the Mast Room, with Sneed, drop the lumber.` → maybe `{area:1581} is a group of five under {area:20}; the instance portal is at the bottom of the {area:20} mine. The Goblin Woodcarvers (elite, level 18-19) in the mast room with Sneed drop the lumber every time.`
+- `forever/class/paladin/verigans-fist`: `{area:236} is a level 20-30 dungeon in southern {zone:1421}. The hammer lies on a box inside the stables, at the far end of the courtyard before the ramp up.`
+- `forever/class/paladin/verigans-fist`: `{npc:3649} is in {area:442}.`
+- `forever/class/paladin/verigans-fist`: `The Blackfathom naga by the entrance of {area:2797} on {zone:1440}'s north-west coast drop the {item:6995}. They are elite: grouping up is advised.`
+- `forever/class/paladin/verigans-fist`: `Bring the four parts to {npc:6181} outside {zone:1455}.`
+- `forever/class/priest/confounding-flash-and-contingency-plan`: `The Gnome priest spells, new in Forever: one at 10, one at 20.` → maybe `The Gnome priest spells, new in Forever: {quest:94817} at 10, {quest:94818} at 20. Free, no objectives.`
+- `forever/class/priest/confounding-flash-and-contingency-plan`: `At 10, go to {npc:258785} in the {object:32386}, in {zone:1455}'s {object:32362}. {npc:1226} in {area:131}, {npc:377} in {area:87} and {npc:376} in {zone:1453} send you to her with a quest of the same name (its text may say {zone:1453}: Mims is in {zone:1455}).`
+- `forever/class/priest/confounding-flash-and-contingency-plan`: `At 20, {npc:258785} teaches {quest:94818}. {npc:376} in {zone:1453} sends you to her with a quest of the same name.`
+- `forever/class/priest/desperate-prayer-and-chastise`: `The Human and Dwarf priest spells: {quest:5634} at 10, {quest:5641} for Dwarves at 20.`
+- `forever/class/priest/desperate-prayer-and-chastise`: `At 10, go to {npc:11406} in the {object:32386}, in {zone:1455}'s {object:32362}. Forever's quest text names Rohan, but the quest data has {npc:376} in {zone:1453}'s Cathedral of Light take it: try Rohan first, then Laurena (the {area:2257} links the cities).`
+- `forever/class/priest/desperate-prayer-and-chastise`: `If Rohan did not take it: {npc:376} is in the Cathedral of Light. Take the {area:2257} from {object:171524}.`
+- `forever/class/priest/desperate-prayer-and-chastise`: `At 20, {npc:11406} teaches {quest:5641}. {npc:376} in {zone:1453} and {npc:11401} in {zone:1457} send you to him with a quest of the same name.`
+- `forever/class/priest/divine-grace-and-feedback`: `The Human priest spells: {quest:94773} at 10, {spell:13896} at 20.` → maybe `The Human priest spells: {quest:94773} at 10 (new in Forever), {spell:13896} at 20. Free, no objectives.`
+- `forever/class/priest/divine-grace-and-feedback`: `At 10, go to {npc:376} in the Cathedral of Light. {npc:377} in {area:87} sends you to her with a quest of the same name.`
+- `forever/class/priest/divine-grace-and-feedback`: `At 20, {npc:376} teaches {spell:13896}. {npc:11406} in {zone:1455} and {npc:11401} in {zone:1457} send you to her with a quest of the same name.`
+- `forever/class/priest/starshards-and-elunes-grace`: `The Night Elf priest spells: {spell:10797} at 10, {spell:2651} at 20.` → maybe `The Night Elf priest spells: {spell:10797} at 10, {spell:2651} at 20. Free, no objectives.`
+- `forever/class/priest/starshards-and-elunes-grace`: `At 10, go to {npc:11401} in the Temple of the Moon. Priest trainers elsewhere ({npc:3600} in {area:186}, {npc:377} in {area:87}, {npc:1226} in {area:131}) send you to her with {quest:5628}.`
+- `forever/class/priest/starshards-and-elunes-grace`: `At 20, {npc:11401} teaches {quest:5672}. {npc:376} in {zone:1453} and {npc:11406} in {zone:1455} send you to her with a quest of the same name.`
+- `forever/class/rogue/blade-of-cunning-alliance`: `At 10 {npc:917}, the rogue trainer in the Lion's Pride Inn in {area:87}, gives you a package for {npc:332} in {zone:1453}.` → maybe `At 10 {npc:917}, the rogue trainer upstairs in the Lion's Pride Inn in {area:87}, gives you a package for {npc:332} in {zone:1453}. Train {spell:921} if you lack it: this chain needs it.`
+- `forever/class/rogue/blade-of-cunning-alliance`: `Head north to {zone:1453}; Mathias Shaw is at SI:7 in {object:2100}.`
+- `forever/class/rogue/blade-of-cunning-alliance`: `The {npc:6846} stands by the river at Elwynn's southern edge, south of {area:87}. He carries the shipping schedule.`
+- `forever/class/rogue/blade-of-cunning-alliance`: `{npc:5165} stands in the north of {zone:1455}.`
+- `forever/class/rogue/blade-of-cunning-alliance`: `{npc:6886} waits near {area:133}, in western {zone:1426}.`
+- `forever/class/rogue/blade-of-cunning-alliance`: `At 10 {npc:3599}, the rogue trainer in {area:186}, gives you a rose for {npc:4163} in {zone:1457}.` → maybe `At 10 {npc:3599}, the rogue trainer in the {area:186} inn, gives you a rose for {npc:4163} in {zone:1457}. If you lose the rose, abandon the quest and take it again.`
+- `forever/class/rogue/blade-of-cunning-alliance`: `Head west to {zone:1457}. {npc:4163} stands in the north-west of the city.`
+- `forever/class/rogue/blade-of-cunning-alliance`: `{npc:6909} lives in the north of {zone:1438}, north-east of {zone:1457}. Take his journal.`
+- `forever/class/rogue/certificate-of-thievery`: `Your first lockpicking job at 16: {npc:6966}'s lockbox at {quest:2282}, for {quest:2300}.` → maybe `Your first lockpicking job at 16: {npc:6966}'s lockbox at {quest:2282}, for {quest:2300}, then {item:7676} from {npc:7009}.`
+- `forever/class/rogue/certificate-of-thievery`: `At 16 {npc:917}, the rogue trainer in the Lion's Pride Inn in {area:87}, sends you to {npc:6946} in {zone:1453}.` → maybe `At 16 {npc:917}, the rogue trainer upstairs in the Lion's Pride Inn in {area:87}, sends you to {npc:6946} in {zone:1453}. Taking it shuts out the other towns' breadcrumbs.`
+- `forever/class/rogue/certificate-of-thievery`: `At 16 {npc:1234} in the {area:2102} in {area:131} sends you to {npc:5165}, in the north of {zone:1455}.` → maybe `At 16 {npc:1234} in the {area:2102} in {area:131} sends you to {npc:5165} in {zone:1455}'s {object:32383}.`
+- `forever/class/rogue/certificate-of-thievery`: `At 16 {npc:3599} in {area:186} sends you to {quest:2259} in {zone:1457}.` → maybe `At 16 {npc:3599} in the {area:186} inn sends you to {quest:2259} in {zone:1457}.`
+- `forever/class/rogue/certificate-of-thievery`: `{npc:6946} stands beside {npc:332} at {quest:2300} in {object:2100}. Dwarves and Gnomes take the {area:2257} from {zone:1455}; Night Elves take the boat from {area:442} to {area:17203}.`
+- `forever/class/rogue/certificate-of-thievery`: `Head east through {zone:1429} into Redridge, or fly to {area:69}. {npc:6966} waits on the west side of {area:69} and gives you {item:5060}.`
+- `forever/class/rogue/certificate-of-thievery`: `{quest:2282} stands east of {area:69}, up off the road. Open {object:121264} there.`
+- `forever/class/rogue/poisons-alliance`: `{spell:2842} (Alliance)`
+- `forever/class/rogue/poisons-alliance`: `Forever teaches {spell:2842} through this chain, not the trainer; the {item:7676} recipe comes with it.` → maybe `Forever teaches Poisons through this chain, not the trainer; the {item:7676} recipe comes with it.`
+- `forever/class/rogue/poisons-alliance`: `At 20 {npc:332} at SI:7 in {object:2100} sends you to {npc:7024} in {zone:1436}.`
+- `forever/class/rogue/poisons-alliance`: `{npc:7024} watches {npc:7053}'s tower from the hills in the far east of {zone:1436}, by the {zone:1431} border. The {npc:7051} (level 23) guarding the tower carries its key; Klaven's journal is in the chest at the top.`
+- `forever/class/rogue/poisons-alliance`: `{item:7908}, in the {object:123214}`
+- `forever/class/rogue/poisons-alliance`: `Head north through Elwynn to {zone:1453}; Mathias Shaw is at SI:7 in {object:2100}.`
+- `forever/class/rogue/poisons-alliance`: `{npc:7207} works in the cellar of SI:7, the Barracks. Type /lay down beside him to be examined.`
+- `forever/class/rogue/poisons-alliance`: `/lay down`
+- `forever/class/rogue/poisons-alliance`: `Everything is in {zone:1453}: the Gumps sell {item:3421}, the {item:8431} lies in the city, and the nearest vendors sell a {item:3372} and a {item:4371}.`
+- `forever/class/shaman/call-of-air-alliance`: `At 30 {npc:258098}, the shaman trainer in {zone:1455}, sends you to {npc:259023} in {zone:1417}.` → maybe `At 30 {npc:258098}, the shaman trainer in {zone:1455}, sends you to {npc:259023} in {zone:1417}. Your level 30 air totems (Grounding, {spell:10596}) need the {item:5178} he gives.`
+- `forever/class/shaman/call-of-air-alliance`: `{npc:259023} camps in the northern hills of {zone:1417}.`
+- `forever/class/shaman/call-of-air-alliance`: `{area:1717} is a dungeon at the southern edge of the {zone:1413} (the arrow points at its entrance); {npc:4421} is its last boss. Bring a group.`
+- `forever/class/shaman/call-of-air-alliance`: `The Stonevault troggs in the south of the {zone:1418} carry the Twisted Fire Totems.`
+- `forever/class/shaman/call-of-air-alliance`: `The Lost Ones in the north of the {zone:1435} carry the Twisted Earth Totems.`
+- `forever/class/shaman/call-of-air-alliance`: `The Mirefin murlocs of northern {zone:1445} carry the Twisted Water Totems.` → maybe `Five Twisted Water Totems. The Mirefin murlocs (level 35-38) north-east of {area:496} in northern {zone:1445} carry them.`
+- `forever/class/shaman/call-of-air-alliance`: `The Maraudine centaurs of western {zone:1443} carry the Twisted Air Totems.`
+- `forever/class/shaman/call-of-air-alliance`: `{npc:259023} hands you the {item:268582}: place them at the steam pools of {zone:1441} and defeat the {npc:216474} they call. {quest:96135} is an elite quest: grouping up is advised.`
+- `forever/class/shaman/call-of-air-alliance`: `{npc:6176} camps in the east of {zone:1416}, north-east of {area:272}.`
+- `forever/class/shaman/call-of-water-alliance`: `At 20 {npc:258098}, the shaman trainer in {zone:1455}, sends you to {npc:258043} in {zone:1432}.` → maybe `At 20 {npc:258098}, the shaman trainer in {zone:1455}'s {object:32362}, sends you to {npc:258043} in {zone:1432}.`
+- `forever/class/shaman/call-of-water-alliance`: `{npc:258043}'s burrow hut stands on the north-western edge of the loch, south of {area:146}.` → maybe `{npc:258043}'s burrow hut stands on the north-western shore of the loch, below {area:146}, north of {area:144}.`
+- `forever/class/shaman/call-of-water-alliance`: `{npc:258203}'s family lives in a cave beneath the southern falls of the {zone:1437}.` → maybe `{npc:258203}'s family lives in a cave beneath the southern falls of the {zone:1437}, east of {area:836}: not in a town. Through the Algaz tunnel north of {zone:1432}, then east off the road.`
+- `forever/class/shaman/call-of-water-alliance`: `Fill the {item:265732} at the bottom of the waterfalls below {npc:258203}'s cave, where the fresh water meets the brackish.` → maybe `Fill the {item:265732} at the bottom of the waterfalls below {npc:258203}'s cave, where the fresh water meets the brackish. {object:147516} dwarves roam near the falls.`
+- `forever/class/shaman/call-of-water-alliance`: `{area:71} pour out of {area:68} at the east end of Redridge. Fill the {item:265747} at their foot, where the Murloc Nightcrawlers gather.`
+- `forever/class/shaman/call-of-water-alliance`: `{npc:258203}: take the boat from {area:150} to {area:442} (it stops in {area:271} on the way), then go south to {area:415}. Fill the {item:265772} in the lake around the town.` → maybe `Take the boat from {area:150} to {area:442} (it stops in {area:271} on the way), then fly or walk south through {zone:1439} to {area:415} in {zone:1440}. Fill the {item:265772} in the lake around the town, then the boat back to Menethil.`
+- `forever/class/shaman/call-of-water-alliance`: `{area:919} lies outside {area:20}. Drink the {item:6637} there and defeat the {npc:5894} for its bracers, then place them and the {item:7811} on the {object:619896}. The {npc:5895} it calls forth gives you the {item:7813}.`
+- `forever/class/warlock/felhunter-alliance`: `{area:392} is on the {zone:1413} coast; {npc:6251} stands on the hill in town.`
+- `forever/class/warlock/felhunter-alliance`: `{npc:6294} stands in the {object:32356}.`
+- `forever/class/warlock/felhunter-alliance`: `The {item:6931} lies on the shore west of {area:271}, past the Torn Fin murloc camps.`
+- `forever/class/warlock/felhunter-alliance`: `The {object:92423} lies in the canyon north of {area:484}.`
+- `forever/class/warlock/felhunter-alliance`: `The Dragonmaw Bonewarders and Shadowwarders hold the hills east of the road through the {zone:1437}: the rods drop from them.`
+- `forever/class/warlock/felhunter-alliance`: `Back to {npc:6251} in {area:392}. Use the {quest:1804} on the summoning circle beside him and defeat the felhunter to bind it.`
+- `forever/class/warlock/felhunter-alliance`: `{npc:6251}: he binds the felhunter to you`
+- `forever/class/warlock/incubus-alliance`: `Incubus (Alliance)`
+- `forever/class/warlock/incubus-alliance`: `A second seducer demon, the male sayaad, and a soul shard bag to carry your shards.`
+- `forever/class/warlock/incubus-alliance`: `At 20 {npc:6122}, in the cellar of the {object:2164} in the {object:2101}, sends you to {npc:6244} in the {zone:1413}.`
+- `forever/class/warlock/incubus-alliance`: `{npc:6244} camps in the southern {zone:1413}, east of the road north-east of {area:378}: come in from the east and keep clear of the Horde guards.`
+- `forever/class/warlock/incubus-alliance`: `From {area:415} take the road west to {area:413}: the figurine lies in a house among the trees north of the post.`
+- `forever/class/warlock/incubus-alliance`: `Back to {npc:6122} in the {object:2164}. Place the figurine at the summoning circle in the crypt below him and defeat the incubus it calls.`
+- `forever/class/warlock/incubus-alliance`: `{npc:6122}: he binds the incubus to you`
+- `forever/class/warrior/fire-hardened-armor`: `A hauberk at 28, a coif, leggings or gauntlets by race, and a shield on the way.` → maybe `A hauberk at 28, a coif, leggings and gauntlets from three smiths, and a shield on the way.`
+- `forever/class/warrior/fire-hardened-armor`: `At 20, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to {quest:1698} in Redridge.` → maybe `At 20, {npc:5479}, beside {npc:5480} in the warrior trainers' building of {object:2100}, sends you to {quest:1698} in Redridge.`
+- `forever/class/warrior/fire-hardened-armor`: `{quest:1698} is in {area:69}, at the inn. His test is timed: run north-west into the {area:98}, reach the first fork and come back to him before the timer runs out. Do not die and release your spirit.`
+- `forever/class/warrior/fire-hardened-armor`: `{npc:5413} works in the Dwarven District of Stormwind. He keeps the {item:6843} and gives you {item:6970}, a shield; {quest:1701} is a level 28 quest.` → maybe `{npc:5413} works in the Dwarven District of Stormwind. He takes the {item:6843} (lost it? abandon the quest and {npc:6166} gives a new one) and gives you {item:6970}, a shield; {quest:1701} is a level 28 quest, with {item:6842} listing what it needs.`
+- `forever/class/warrior/fire-hardened-armor`: `The Leech Stalkers and Cave Stalkers crawl around 46,61 in the middle of the {zone:1437}; they drop the {item:6838}.`
+- `forever/class/warrior/fire-hardened-armor`: `The Fledgling and Young Chimaeras roam the south-west of Stonetalon, with the {npc:6167} among them: the young ones drop the {item:6839}, the Matriarch the {item:6840}.`
+- `forever/class/warrior/fire-hardened-armor`: `{item:6839} from the young chimaeras` → maybe `{item:6839}, from the young chimaeras`
+- `forever/class/warrior/fire-hardened-armor`: `{item:6840} from the {npc:6167}` → maybe `{item:6840}, from the {npc:6167}`
+- `forever/class/warrior/fire-hardened-armor`: `Roogug is an elite quilboar inside {area:1717}, the dungeon at the south end of the {zone:1413}; he drops the {item:6841}. {area:1717} is a dungeon: grouping up is advised.`
+- `forever/class/warrior/fire-hardened-armor`: `Back to {npc:5413} in the {object:28027}. He sends you on to a smith of your own race.`
+- `forever/class/warrior/fire-hardened-armor`: `{npc:1416} is in {zone:1453}, a short walk from {npc:5413}.`
+- `forever/class/warrior/fire-hardened-armor`: `The Nightbane worgen of {zone:1431} drop the {quest:1705}. {npc:6170} walks in the far south-east of {zone:1431} and carries the {item:6845}.`
+- `forever/class/warrior/fire-hardened-armor`: `{quest:1705} from the Nightbane worgen` → maybe `{quest:1705}, from the Nightbane worgen`
+- `forever/class/warrior/fire-hardened-armor`: `{item:6845} from {npc:6170}` → maybe `{item:6845}, from {npc:6170}`
+- `forever/class/warrior/fire-hardened-armor`: `{quest:1703} is a smith in {zone:1457}.`
+- `forever/class/warrior/fire-hardened-armor`: `The {quest:1710} lie along the western edge of {zone:1441}.`
+- `forever/class/warrior/fire-hardened-armor`: `Ride the {area:2257} from {zone:1453} to {zone:1455}.`
+- `forever/class/warrior/fire-hardened-armor`: `The {quest:1708} grows along the {zone:1437}' west coast, south of {area:150}.`
+- `forever/class/warrior/haggards-weapons`: `Haggard's Weapons`
+- `forever/class/warrior/haggards-weapons`: `{spell:71} and a one-hand weapon of your choice at 10.` → maybe `{spell:71} at 10 and a one-hand weapon of your choice from {zone:1453}, {zone:1455} or {zone:1457}.`
+- `forever/class/warrior/haggards-weapons`: `{npc:5480} trains warriors in {object:2100}; {npc:6089} and {npc:6090} stand together by the {object:2152} there. {npc:6090} fights you for his mug.`
+- `forever/class/warrior/haggards-weapons`: `{npc:294}'s house is in eastern {zone:1429}, south of the road from {zone:1453} to Redridge.`
+- `forever/class/warrior/haggards-weapons`: `{npc:6093} camps in the far south-east of {zone:1429}, south-east of {npc:294}. He carries the key to the strongbox in his camp.`
+- `forever/class/warrior/haggards-weapons`: `{npc:6093}: his key opens the strongbox`
+- `forever/collectibles/mounts/alliance/black-war-mounts`: `Forever's PvP ranks come from {spell:1299382} earned in battlegrounds and world PvP, with a weekly cap; Commander (rank 11) unlocks the Black War mounts. Polestar cannot read your rank, so this step waits for level 40 and the riding skill.`
+- `forever/collectibles/mounts/alliance/black-war-mounts`: `{npc:12783} sells the mounts in the {area:2918} in {zone:1453}'s {object:2100}, beside the other honor quartermasters such as {npc:12805}. The Forever client lists each at 100g; choose one.`
+- `forever/collectibles/mounts/alliance/black-war-mounts`: `100g`
+- `forever/collectibles/mounts/alliance/horse`: `{npc:4732} and {npc:384}'s horse pen are at {area:88} in eastern {zone:1429}. At 40 {npc:4732} teaches {skill:762} (100g per Blizzard's designers), and learning it gives you a mount. The Forever client lets every Alliance race ride these.`
+- `forever/collectibles/mounts/alliance/horse`: `{item:2411} is in the client, but no vendor is confirmed to sell it in Forever.`
+- `forever/collectibles/mounts/alliance/mechanostrider`: `{area:189} is just east of {area:131}; {npc:7954} stands beside {npc:7955}'s mechanostriders. At 40 {npc:7954} teaches {skill:762} (100g per Blizzard's designers), and learning it gives you a mount. The Forever client lets every Alliance race ride these.`
+- `forever/collectibles/mounts/alliance/mechanostrider`: `Era let only Dwarves and Gnomes ride mechanostriders; the Forever client allows every Alliance race.`
+- `forever/collectibles/mounts/alliance/pack-kodo`: `Azeroth Commerce Authority`
+- `forever/collectibles/mounts/alliance/pack-kodo`: `The camp is at {area:1002} in western {zone:1433}, between {zone:1429} and {area:69}. Loot supply crates in the world, fill them, and hand them in at the camp for Merchant's Favor (5-20 a crate); the {npc:10636} costs 6,000. Craftsman's Writs may help from level 10.`
+- `forever/collectibles/mounts/alliance/pack-kodo`: `Azeroth Commerce Authority camp`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `The {spell:23214} chain is long: it takes you through {area:2279}, {area:2577} and {area:2057}, and costs about 350 gold in donations on top of the materials. Lord Grayson stands in the Cathedral of Light.`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `{npc:11406} is in {zone:1455}'s {object:32362}. Bring 150 gold: the censer is yours for a donation.`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `{area:2627} lies in the far north-west of the {zone:1423}, by the {zone:1422} border. Use the {item:18752} there to drive out the spirits, then defeat them.`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `Terrordale Spirits` → maybe `Terrordale Spirits x25`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `{npc:1416} works in {zone:1453}'s {object:28027}.`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `{item:14047} drops from humanoids around level 50 and up; {item:8836} is an herb of the Plaguelands and {zone:1448}; Arcanite Bars are an {skill:171} transmute. The Auction House in {zone:1453}'s {object:2096} sells all three, and so do crafters.`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `Arcanite Bars: the Auction House`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `{area:2279} is a group of five, level 58-60, at the north end of the {zone:1423}. The Supply Crates scattered through the city hold the {item:13180}.`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `Supply Crates, inside` → maybe `Stratholme Supply Crates, inside`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `Bring 150 gold for {npc:1416} along with the materials.`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `{object:2160} quartermasters sell the biscuits in fives once the {object:92525} is Friendly with you: {npc:10857} at {area:3197}, {npc:11536} at {area:2268}, {npc:10856} at the {area:813}.`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `{npc:2357} breeds horses in {area:271}. She also wants 50 gold.`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `{area:2577} lies in central {zone:1444}; {npc:11489} guards the start of the West wing. Defeat him to free the {quest:7643}, feed it the {item:18775} and hand it the {item:18753} to bless. Bring a group.`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `An {item:12800} comes from Thorium veins, a {item:18335} from the elites of the {zone:1422}, both rarely: the Auction House is the usual source.` → maybe `An {item:12800} comes from Thorium veins and obsidian, about one vein in a hundred; a {item:18335} drops rarely from elites of level 59 and up (Revanchion and {npc:14695} about one kill in nine and one in a hundred). The Auction House is the usual source of both.`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `he hands you the {item:18746}`
+- `forever/collectibles/mounts/alliance/paladin-charger`: `{area:2057} lies under {area:2298}, the island town in the south-east of the {zone:1422}. Use the {item:18746} in the heart of the {object:179746}'s basement, defeat the spirits it calls and then {npc:14516}, and give his Fallen Charger the {item:18799} and the {item:18792}. All are elite: bring a group. If the attempt fails, Lord Grayson gives you a new scryer through Again Into the {object:179746}.`
+- `forever/collectibles/mounts/alliance/paladin-warhorse`: `At 40 {npc:5149} in the {object:32362} sends you to {npc:6171} in {zone:1453}'s Cathedral of Light. Take the tram from {zone:1455} to {zone:1453}.`
+- `forever/collectibles/mounts/alliance/paladin-warhorse`: `{npc:6171} stands in the Cathedral of Light. Turning in the {item:6779} teaches {spell:13819}; Paladins do not buy a mount.`
+- `forever/collectibles/mounts/alliance/ram`: `{area:803} is east of {area:131} on the road to {zone:1432}; {npc:4772} stands beside {npc:1261}'s rams. At 40 {npc:4772} teaches {skill:762} (100g per Blizzard's designers), and learning it gives you a mount. The Forever client lets every Alliance race ride these.`
+- `forever/collectibles/mounts/alliance/saber`: `{npc:4753} and {npc:4730}'s sabers are in the {area:1658}'s riding grounds in {zone:1457}. At 40 {npc:4753} teaches {skill:762} (100g per Blizzard's designers), and learning it gives you a mount. The Forever client lets every Alliance race ride these.`
+- `forever/collectibles/mounts/alliance/saber`: `{item:274706} is a new Forever saber (level 40, 20g in the client) whose source is not known yet.`
+- `forever/collectibles/mounts/alliance/stormpike-battle-charger`: `{area:2839} (level 51+) raises {faction:730}: win, capture towers and graveyards, and hand in the battleground's turn-ins. {npc:13217} waits outside the battleground on the {zone:1416} border above {area:287}; {npc:13216} inside {area:2839} sells the same mount.` → maybe `{area:2839} (level 51+) raises {faction:730}: win, capture towers and graveyards, and hand in the battleground's turn-ins; the Alterac Valley Reputation guide shows the fastest way. {npc:13217} waits outside the battleground on the {zone:1416} border above {area:287}; {npc:13216} inside {area:2839} sells the same mount.`
+- `forever/collectibles/mounts/alliance/stormpike-battle-charger`: `The Forever client lists it at 200g and level 60, and asks for no riding rank.`
+- `forever/collectibles/mounts/alliance/swift-horse`: `{npc:4732} and {npc:384}'s horse pen are at {area:88} in eastern {zone:1429}. At 60 {npc:4732} teaches Journeyman {skill:762} (1,000g per Blizzard's designers); Blizzard says learning riding grants a mount. The Forever client sells each swift horse for 200g at level 60.`
+- `forever/collectibles/mounts/alliance/swift-mechanostrider`: `{area:189} is just east of {area:131}; {npc:7954} stands beside {npc:7955}'s mechanostriders. At 60 {npc:7954} teaches Journeyman {skill:762} (1,000g per Blizzard's designers); Blizzard says learning riding grants a mount. The Forever client sells each swift mechanostrider for 200g at level 60.` → maybe `{area:189} is just east of {area:131}; {npc:7954} stands beside {npc:7955}'s mechanostriders. At 60 {npc:7954} teaches Journeyman {skill:762} to Gnomes for 1,000g (10% less at Honored with {faction:54}); Blizzard says it comes with a mount. Other races train it at their own race's riding trainer. Each swift mechanostrider costs 200g here.`
+- `forever/collectibles/mounts/alliance/swift-ram`: `{area:803} is east of {area:131} on the road to {zone:1432}; {npc:4772} stands beside {npc:1261}'s rams. At 60 {npc:4772} teaches Journeyman {skill:762} (1,000g per Blizzard's designers); Blizzard says learning riding grants a mount. The Forever client sells each swift ram for 200g at level 60.` → maybe `{area:803} is east of {area:131} on the road to {zone:1432}; {npc:4772} stands beside {npc:1261}'s rams. At 60 {npc:4772} teaches Journeyman {skill:762} to Dwarves for 1,000g (10% less at Honored with {faction:47}); Blizzard says it comes with a mount. Other races train it at their own race's riding trainer. Each swift ram costs 200g here.`
+- `forever/collectibles/mounts/alliance/swift-saber`: `{npc:4753} and {npc:4730}'s sabers are in the {area:1658}'s riding grounds in {zone:1457}. At 60 {npc:4753} teaches Journeyman {skill:762} (1,000g per Blizzard's designers); Blizzard says learning riding grants a mount. The Forever client sells each swift saber for 200g at level 60.`
+- `forever/collectibles/mounts/alliance/winterspring-frostsaber`: `{npc:10618} at {area:2241} in northern {zone:1452} offers the repeatable Frostsaber Provisions, Winterfall Intrusion and Rampaging Giants (level 58); they are the whole road to Exalted, so expect weeks of turn-ins.`
+- `forever/collectibles/mounts/alliance/winterspring-frostsaber`: `The Forever client lists it at 200g and level 60, and asks for no riding rank.`
+- `forever/collectibles/pets/chicken-egg`: `Find a chicken at {npc:233}'s farm and type /chicken at it until it offers {quest:3861}. Buy {item:11109} from {npc:233}, go back, /cheer at the same chicken, then hand in the feed. The chicken lays an egg: loot it for your {item:11110} pet.`
+- `forever/collectibles/pets/chicken-egg`: `{item:11109}, from {npc:233}`
+- `forever/collectibles/pets/donni-anthania`: `{npc:6367} has a farmhouse north of {area:87}. Each cat carrier costs 40s. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.` → maybe `{npc:6367} has a farmhouse north of {area:87}. Each cat carrier costs 40s, 1g 60s for all four. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.`
+- `forever/collectibles/pets/shylenai`: `{npc:8665} sells three owls in {zone:1457} (50s each); the {item:280803} is new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.` → maybe `{npc:8665}, the owl trainer, stands on the {area:1659} in {zone:1457}, beside the food and general goods vendors. She sells three owls (50s each); the {item:280803} is new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.`
+- `forever/collectibles/pets/yarlyn-amberstill`: `{npc:1263} stands at {area:803}, east of {area:131}. Each rabbit crate costs 20s; the Arctic and Brown crates are new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.` → maybe `{npc:1263} stands at {area:803}, east of {area:131} on the road to {zone:1432}, beside {npc:1261}, the ram breeder. Each rabbit crate costs 20s; the Arctic and Brown crates are new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.`
+- `forever/reputation/darnassus`: `{npc:14725} takes cloth for {faction:69} in {faction:69}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7801} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/darnassus`: `Riverpaw Bandits and Taskmasters (level 16-18) drop it here. The Auction House works too.`
+- `forever/reputation/darnassus`: `Syndicate Mercenaries at Stromgarde (level 31-32) drop it here. The Auction House works too.`
+- `forever/reputation/darnassus`: `Dunemaul ogres (level 45-48) drop it here. The Auction House works too.`
+- `forever/reputation/darnassus`: `Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too.`
+- `forever/reputation/darnassus`: `{npc:14725}: {item:14047} delivered`
+- `forever/reputation/darnassus`: `{quest:7801} takes 20 {item:14047} per turn-in and repeats as often as you like. Bring {item:14047} in multiples of 20 and hand them all in at once, one turn-in after another. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/darnassus`: `Keep handing in {quest:7801}, 20 {item:14047} at a time. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/darnassus`: `Keep handing in {quest:7801} until {faction:69} is Exalted. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/gnomeregan-exiles`: `{npc:14724} takes cloth for {faction:54} in {object:171524}, {zone:1455}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7812} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/gnomeregan-exiles`: `Riverpaw Bandits and Taskmasters (level 16-18) drop it here. The Auction House works too.`
+- `forever/reputation/gnomeregan-exiles`: `Syndicate Mercenaries at Stromgarde (level 31-32) drop it here. The Auction House works too.`
+- `forever/reputation/gnomeregan-exiles`: `Dunemaul ogres (level 45-48) drop it here. The Auction House works too.`
+- `forever/reputation/gnomeregan-exiles`: `Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too.`
+- `forever/reputation/gnomeregan-exiles`: `{npc:14724}: {item:14047} delivered`
+- `forever/reputation/gnomeregan-exiles`: `{quest:7812} takes 20 {item:14047} per turn-in and repeats as often as you like. Bring {item:14047} in multiples of 20 and hand them all in at once, one turn-in after another. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/gnomeregan-exiles`: `Keep handing in {quest:7812}, 20 {item:14047} at a time. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/gnomeregan-exiles`: `Keep handing in {quest:7812} until {faction:54} is Exalted. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/ironforge`: `{npc:14723} takes cloth for {faction:47} in {faction:47}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7806} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/ironforge`: `Riverpaw Bandits and Taskmasters (level 16-18) drop it here. The Auction House works too.`
+- `forever/reputation/ironforge`: `Syndicate Mercenaries at Stromgarde (level 31-32) drop it here. The Auction House works too.`
+- `forever/reputation/ironforge`: `Dunemaul ogres (level 45-48) drop it here. The Auction House works too.`
+- `forever/reputation/ironforge`: `Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too.`
+- `forever/reputation/ironforge`: `{npc:14723}: {item:14047} delivered`
+- `forever/reputation/ironforge`: `{quest:7806} takes 20 {item:14047} per turn-in and repeats as often as you like. Bring {item:14047} in multiples of 20 and hand them all in at once, one turn-in after another. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/ironforge`: `Keep handing in {quest:7806}, 20 {item:14047} at a time. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/ironforge`: `Keep handing in {quest:7806} until {faction:47} is Exalted. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/stormwind`: `{npc:14722} takes cloth for {faction:72} in {zone:1453}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7796} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/stormwind`: `Riverpaw Bandits and Taskmasters (level 16-18) drop it here. The Auction House works too.`
+- `forever/reputation/stormwind`: `Syndicate Mercenaries at Stromgarde (level 31-32) drop it here. The Auction House works too.`
+- `forever/reputation/stormwind`: `Dunemaul ogres (level 45-48) drop it here. The Auction House works too.`
+- `forever/reputation/stormwind`: `Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too.`
+- `forever/reputation/stormwind`: `{npc:14722}: {item:14047} delivered`
+- `forever/reputation/stormwind`: `{quest:7796} takes 20 {item:14047} per turn-in and repeats as often as you like. Bring {item:14047} in multiples of 20 and hand them all in at once, one turn-in after another. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/stormwind`: `Keep handing in {quest:7796}, 20 {item:14047} at a time. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/stormwind`: `Keep handing in {quest:7796} until {faction:72} is Exalted. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/class/mage/ju-ju-heaps`: `A staff or an orb at 10 for Horde mages, worth a short trip back to the {area:368}.`
+- `forever/class/mage/ju-ju-heaps`: `Un'thuwa stands in {area:367}, on the {zone:1411} coast south of {area:362}.`
+- `forever/class/mage/ju-ju-heaps`: `Wade across to the {area:368}, south-east of Sen'jin. Zalazane placed the heaps among his huts on the main isle: click a heap to destroy it.`
+- `forever/class/mage/nether-lace-garment`: `A robe or a tunic for Undead and Troll mages in their late 20s.` → maybe `A robe or a tunic for Horde mages in their late 20s.`
+- `forever/class/mage/nether-lace-garment`: `{npc:4568} stands in the {zone:1458}'s {object:36082}. Trolls take the zeppelin from {zone:1454} to {zone:1420} for her.` → maybe `{npc:4568} stands in the {zone:1458}'s {object:36082}. Orcs and Trolls use {spell:3563} or take the zeppelin from {zone:1454} to {zone:1420} for her.`
+- `forever/class/mage/nether-lace-garment`: `Take the zeppelin to {zone:1454}. {npc:5885} is one of {zone:1454}'s mage trainers.`
+- `forever/class/mage/nether-lace-garment`: `Satyrs hold the ruins of {area:429} in eastern {zone:1440}. {spell:9052} at the bottom of the highest waterfall.`
+- `forever/class/mage/nether-lace-garment`: `The {quest:1945}, dryads, gather near the {area:426} in central {zone:1440}.`
+- `forever/class/mage/nether-lace-garment`: `{npc:3484}, a troll tailor, works at the {area:380}.`
+- `forever/class/mage/spellfire-robes`: `{npc:7311} is one of {zone:1454}'s mage trainers. Then take the zeppelin to {zone:1420} from the tower outside {zone:1454}'s main gate.` → maybe `{npc:7311} is one of {zone:1454}'s mage trainers, in {object:173161} in the {object:172961}. Then take the zeppelin to {zone:1420} from the tower outside {zone:1454}'s main gate.`
+- `forever/class/mage/spellfire-robes`: `{npc:2128} is the {area:159} mage trainer.` → maybe `{npc:2128} is the {area:159} mage trainer, in the {area:2119}.`
+- `forever/class/mage/spellfire-robes`: `{npc:4568} stands in the {object:36082}. The {item:7247} and the {item:7308} lie behind her.`
+- `forever/class/mage/spellfire-robes`: `Algernon's alchemist shop is in the Apothecarium. Use the {item:7308} there to make the {npc:6492} visible, subdue one with your spells, then use the {item:7247} to throw down a coffer and capture it.`
+- `forever/class/mage/spellfire-robes`: `Humanoids drop {item:2589}; the Undercity Auction House sells it.`
+- `forever/class/mage/spellfire-robes`: `Leave the {zone:1458} and follow the road south through {zone:1421}. The {area:279} mages hold {area:233}, south-east of the {area:228}; every {npc:1867}, Mage, Protector, Warder, Conjuror, Watcher and Wizard can drop a {item:7293}.`
+- `forever/class/mage/spellfire-robes`: `Back to the {zone:1458}. {npc:4576}, {npc:11048} and {npc:11049} keep the tailor's shop.`
+- `forever/class/paladin/lumina-windsinger`: `Rescuing {quest:91862}`
+- `forever/class/paladin/lumina-windsinger`: `No item yet: a Forsaken paladin rescue story; its sequel, the {item:268484}, cannot be finished yet.`
+- `forever/class/paladin/lumina-windsinger`: `{zone:1458} and Earthen Ring reputation`
+- `forever/class/paladin/lumina-windsinger`: `{npc:246378} leads the Paladins of Tyr's Watch from inside {area:16602}, on the bluffs north-west of the {area:156}.`
+- `forever/class/paladin/lumina-windsinger`: `Head south through {zone:1421} to the {area:228}. {npc:248840} stands in the town; {npc:259611} keeps watch near its entrance.`
+- `forever/class/paladin/lumina-windsinger`: `{area:172} lies in the lake east of the {area:228}. The charred remains are on its shore.`
+- `forever/class/paladin/lumina-windsinger`: `{quest:91862} is caged inside {area:235}, at the north end of the isle. The Rot Hide gnolls around her carry the key.`
+- `forever/class/paladin/lumina-windsinger`: `Free her with the key, then stay close while she fights her way out of the keep.`
+- `forever/class/paladin/lumina-windsinger`: `Once she is clear of {area:235}, {npc:259620} waits for you in the {area:228}. Speak with her again to hear what really happened on the road.`
+- `forever/class/paladin/tyrs-watch`: `Tyr's Watch and {spell:7328}` → maybe `Tyr's Watch and {spell:7328} (Forsaken)`
+- `forever/class/paladin/tyrs-watch`: `{npc:246152}, who trains Paladins in {area:159}, sends you to the order's keep on the west coast.`
+- `forever/class/paladin/tyrs-watch`: `{area:16602} stands on the bluffs north-west of the {area:156}. {npc:246349} waits at the gate.`
+- `forever/class/paladin/tyrs-watch`: `The Vile Fin murlocs lurk on the bluffs along the road east of the keep and in the camps around the lake to the west.` → maybe `The Vile Fin murlocs (level 9-11) lurk on the bluffs along the road east of the keep and in the camps around the lake to the south-west, on the way down to {area:16881}.`
+- `forever/class/paladin/tyrs-watch`: `Vile Fin Attackers` → maybe `Vile Fin Attackers x8`
+- `forever/class/paladin/tyrs-watch`: `Vile Fin Seers` → maybe `Vile Fin Seers x8`
+- `forever/class/paladin/tyrs-watch`: `{npc:246378} leads the order from inside the keep; {npc:246393} stands beside it.` → maybe `{npc:246378} leads the order from inside the keep; {npc:246393} stands beside it. {quest:91317} need level 9.`
+- `forever/class/paladin/tyrs-watch`: `{quest:91317} hold the ruined village of {area:16881} in the {area:16616}, south-west of the keep. The {item:246213} is piled in the root cellar of one of its houses; Commander {npc:259431} walks among his Tarnished.`
+- `forever/class/paladin/tyrs-watch`: `{object:554626}, in the root cellar`
+- `forever/class/paladin/tyrs-watch`: `Tarnished Drudges` → maybe `Tarnished Drudges x8`
+- `forever/class/paladin/tyrs-watch`: `Tarnished Zealots` → maybe `Tarnished Zealots x6`
+- `forever/class/paladin/tyrs-watch`: `{npc:246378} offers the first Lesson in Divinity at level 12.`
+- `forever/class/paladin/tyrs-watch`: `{npc:257648} needs 10 {item:2589}. Scarlet Zealots and Scarlet Friars drop it about three times in ten; bring it along if you already carry some.`
+- `forever/class/paladin/tyrs-watch`: `Back to {area:16602}. {npc:246378} gives you the {item:6866}; {npc:257655} waits downstairs in the keep.` → maybe `Back to {area:16602}. {npc:246378} gives you the {item:6866}; {npc:257655} waits downstairs in the keep. If you lose the symbol, {npc:246378} gives you another.`
+- `forever/class/paladin/tyrs-watch`: `{area:812} is at the far east end of the glades. Use the {item:6866} on {npc:257663}, then speak to him. If you lose the symbol, {npc:246378} gives you another.`
+- `forever/class/paladin/tyrs-watch`: `The Scarlet Crusaders camped around {area:812} carry the attack plans.`
+- `forever/class/paladin/tyrs-watch`: `Back to {area:16602}: Billmuth takes the plans, {npc:246378} teaches you {spell:7328}.` → maybe `Back to {area:16602}, across the whole glades: Billmuth downstairs takes the plans, {npc:246378} teaches you {spell:7328}.`
+- `forever/class/priest/hex-of-weakness-and-shadowguard`: `The Troll priest spells: {quest:5652} at 10, {quest:5642} at 20.` → maybe `The Troll priest spells: {quest:5652} at 10, {quest:5642} at 20. Free, no objectives.`
+- `forever/class/priest/hex-of-weakness-and-shadowguard`: `At 10, go to {npc:6018} in the {object:172961}, on {zone:1454}'s west side. Priest trainers elsewhere ({npc:3706} in {area:362}, {npc:3044} in {zone:1456}) send you to him with a quest of the same name.`
+- `forever/class/priest/hex-of-weakness-and-shadowguard`: `At 20, {npc:6018} teaches {quest:5642}. {npc:3044} in {zone:1456} and Aelthalyste in the {zone:1458} send you to him with a quest of the same name.`
+- `forever/class/priest/touch-of-weakness-and-dark-sacrifice`: `The Undead priest spells: {spell:2652} at 10, {quest:5644} at 20.` → maybe `The Undead priest spells: {spell:2652} at 10, {quest:5644} (new in Forever) at 20. Free, no objectives.`
+- `forever/class/priest/touch-of-weakness-and-dark-sacrifice`: `At 10, go to {npc:4606} in the {zone:1458}'s {object:36070}. Priest trainers elsewhere ({npc:6018} in {zone:1454}, {npc:3706} in {area:362}, {npc:3044} in {zone:1456}) send you to her with a quest of the same name.`
+- `forever/class/priest/touch-of-weakness-and-dark-sacrifice`: `At 20, {npc:4606} teaches {quest:5644}. {npc:6018} in {zone:1454} and {npc:3044} in {zone:1456} send you to her with a quest of the same name.`
+- `forever/class/rogue/blade-of-cunning-horde`: `At 10 {npc:3170}, the rogue trainer in {area:362}, sends you to {quest:1859} in {zone:1454}.`
+- `forever/class/rogue/blade-of-cunning-horde`: `{npc:6494} stands on the {zone:1413} coast south of {area:392}. Kill him for his satchel.`
+- `forever/class/rogue/blade-of-cunning-horde`: `{npc:6466} drinks in the inn in the {object:172982}. Pick his pocket for {item:7208}, then open {item:7209}.`
+- `forever/class/rogue/blade-of-cunning-horde`: `At 10 {npc:2130}, the rogue trainer in the {area:2119} in {area:159}, sends you to {quest:1885} in the {zone:1458}.` → maybe `At 10 {npc:2130}, the rogue trainer upstairs in the {area:2119} in {area:159}, sends you to {quest:1885} in the {zone:1458}.`
+- `forever/class/rogue/blade-of-cunning-horde`: `{npc:6497} stands north-east of the {area:228}. Take his Letter of Introduction from him.`
+- `forever/class/rogue/blade-of-cunning-horde`: `{npc:6522}'s ledger sits on the bookshelf beside him.`
+- `forever/class/rogue/blade-of-cunning-horde`: `{npc:6467} sends the ledger on to {npc:2425} in the Hall of the Dark Lady, the {object:36126}.`
+- `forever/class/rogue/plundering-the-plunderers`: `Undead take the zeppelin from the towers outside the {zone:1458} to {zone:1411}. {npc:3401} and {quest:2379} stand in the {object:172960}, the canyon under the {object:172982}.` → maybe `Undead take the zeppelin from the towers outside the {zone:1458} to {zone:1411}. {npc:3401} and {quest:2379} stand in the {object:172960}, the canyon under the {object:172982}. Train {spell:1804} from {npc:3401} (or any rogue trainer) now if you lack it: this job is a lockpicking test.`
+- `forever/class/rogue/plundering-the-plunderers`: `Fly or walk to {area:392} on the {zone:1413} coast. {npc:7161} stands in town with his Gizmotronic Apparatus: buy an {item:7970} and {item:5060} from the apparatus before you go.`
+- `forever/class/rogue/plundering-the-plunderers`: `South along the coast from {area:392}, at the Southsea pirates' camp. If an unusually hostile parrot attacks you, use the {item:7970} on it (the quest's own advice).`
+- `forever/class/rogue/plundering-the-plunderers`: `Take the zeppelin from {zone:1454} to the {zone:1458} and head south into Silverpine. {quest:1998} stands north-east of the {area:228}.`
+- `forever/class/rogue/plundering-the-plunderers`: `The Kirin Tor keep their reports at {area:233}, in south-east Silverpine: pick the lock on the {object:103815}.`
+- `forever/class/rogue/poisons-horde`: `{spell:2842} (Horde)`
+- `forever/class/rogue/poisons-horde`: `Forever teaches {spell:2842} through this chain, not the trainer; the {item:7676} recipe comes with it.` → maybe `Forever teaches Poisons through this chain, not the trainer; the {item:7676} recipe comes with it.`
+- `forever/class/rogue/poisons-horde`: `At 20 {npc:3401} stands in the {object:172960}, the canyon under the {object:172982}. Target him and type /salute.`
+- `forever/class/rogue/poisons-horde`: `Fly to the {area:380} and head north to the Venture Co. tower north of the {area:382}. In sight of the tower, fire the {item:8051} twice, then /salute {npc:7233} before he attacks you.`
+- `forever/class/rogue/poisons-horde`: `{item:8051}, twice, in sight of the tower`
+- `forever/class/rogue/poisons-horde`: `Stay stealthed. {npc:7287} carries the tower key; Gallywix (elite) and his lockbox are at the top of the tower. Kill two each of the drones, patrollers and lookouts around it.`
+- `forever/class/rogue/poisons-horde`: `Fly back to {zone:1454}.`
+- `forever/class/rogue/poisons-horde`: `Take the zeppelin from {zone:1454} to the {zone:1458} and head south through {zone:1421} to {area:272} in {area:287}. {npc:2391} stands in {area:272}; wait beside him while he brews the cure.`
+- `forever/class/shaman/call-of-air-horde`: `At 30 {npc:5892} in the {object:172957} sends you to {npc:5905} in {zone:1441}.` → maybe `At 30 {npc:5892} in the {object:172957} sends you to {npc:5905} in {zone:1441}. Your level 30 air totems (Grounding, {spell:10596}) need the {item:5178} she gives.`
+- `forever/class/shaman/call-of-air-horde`: `At 30 {npc:5906}, a shaman trainer in {zone:1456}, sends you to {npc:5905} in {zone:1441}.`
+- `forever/class/shaman/call-of-air-horde`: `Fly to {area:484}. {npc:5905} hides in a small cave in the canyon wall north-east of the post. Skyborne: your own {quest:1531} (96136) ends with her too.`
+- `forever/class/shaman/call-of-air-horde`: `{area:1717} is a dungeon at the southern edge of the {zone:1413} (the arrow points at its entrance); {npc:4421} is its last boss. Bring a group.`
+- `forever/class/shaman/call-of-air-horde`: `The Maraudine centaurs of western {zone:1443} carry the Twisted Air Totems.`
+- `forever/class/shaman/call-of-air-horde`: `The Mirefin murlocs of northern {zone:1445} carry the Twisted Water Totems.` → maybe `Five Twisted Water Totems. The Mirefin murlocs (level 35-38) north-east of {area:496} in northern {zone:1445} carry them.`
+- `forever/class/shaman/call-of-air-horde`: `The Stonevault troggs in the south of the {zone:1418} carry the Twisted Fire Totems.`
+- `forever/class/shaman/call-of-air-horde`: `The Lost Ones in the north of the {zone:1435} carry the Twisted Earth Totems.`
+- `forever/class/shaman/call-of-air-horde`: `{npc:5905} hands you the {item:268582}: place them at the steam pools west of {area:484} and defeat the {npc:216474} they call. {quest:79366} is an elite quest: grouping up is advised.`
+- `forever/class/shaman/call-of-air-horde`: `{npc:6176} camps in the east of {zone:1416}, north-east of {area:272}.`
+- `forever/class/shaman/call-of-air-horde`: `{npc:6176}: the {item:213086} and your weapon`
+- `forever/class/shaman/call-of-water-horde`: `At 20 {npc:5892} in the {object:172957} sends you to {npc:5901} in the {zone:1413}.` → maybe `At 20 {npc:5892} in the {object:172957} sends you to {npc:5901} in the {zone:1413}. (Swart in {area:362} gives the same letter: carry either.)`
+- `forever/class/shaman/call-of-water-horde`: `At 20 {npc:5906}, a shaman trainer in {zone:1456}, sends you to {npc:5901} in the {zone:1413}.` → maybe `At 20 {npc:5906}, a shaman trainer on {area:1640} in {zone:1456}, sends you to {npc:5901} in the {zone:1413}. ({npc:3066} in {area:222} gives the same letter: carry either.)`
+- `forever/class/shaman/call-of-water-horde`: `{npc:5901} waits on the hill south of {area:392}.`
+- `forever/class/shaman/call-of-water-horde`: `{npc:5899}'s hut stands on the ridge above the quilboar watering hole, south of {area:378}.`
+- `forever/class/shaman/call-of-water-horde`: `Fill the {item:7766} at the quilboar watering hole`
+- `forever/class/shaman/call-of-water-horde`: `Take the zeppelin from {zone:1454} to {zone:1420} and travel south to {area:272}. The {object:107045} stands beside the inn.`
+- `forever/class/shaman/call-of-water-horde`: `Fill the {item:7768} at the {object:107045}`
+- `forever/class/shaman/call-of-water-horde`: `The fountain stands in the middle of the {area:418}, in south-western {zone:1440}.`
+- `forever/class/shaman/call-of-water-horde`: `Fill the {item:7767} at the fountain`
+- `forever/class/shaman/call-of-water-horde`: `Fly to the {area:228}: the {object:113791} stands on the hill just south-west of it. Drink the {item:6637} there, beat the {npc:5894} for its bracers and place them in the brazier, then speak to the {npc:5895} and keep the {item:7813} for {npc:5901}.`
+- `forever/class/shaman/darkreaver`: `A {area:2057} fight at 60 for Horde reputation; Forever removed the {item:20134}.` → maybe `A {area:2057} fight at 60 for Horde reputation; the {item:20134} may be gone in Forever.`
+- `forever/class/shaman/darkreaver`: `At 58 {npc:13417}, the shaman trainer in the {object:172957}, asks for two rare diamonds.`
+- `forever/class/shaman/darkreaver`: `An {item:12800} comes from Thorium veins, a {item:18335} from the elites of the {zone:1422}, both rarely: buy them at the auction house if you can.`
+- `forever/class/shaman/darkreaver`: `{area:2057} lies under {area:2298}, the island town in the south-east of the {zone:1422}. Use the {item:18746} in the heart of the {object:179746}'s basement, beat the spirits it calls, then {npc:14516}. All are elite: bring a group.`
+- `forever/class/shaman/spirit-totem`: `Experience and gold at 50, ending in the {area:1417}; Forever removed the Classic item choice.` → maybe `Experience and gold at 50, ending in the {area:1417}; the Classic item choice may be gone in Forever.`
+- `forever/class/shaman/spirit-totem`: `At 50 {npc:13417}, the shaman trainer in the {object:172957}, sends you to {npc:6176}.` → maybe `At 50 {npc:13417}, the shaman trainer in the {object:172957}, asks for the four elements for {npc:6176}.`
+- `forever/class/shaman/spirit-totem`: `At 50 {npc:3032}, a shaman trainer in {zone:1456}, sends you to {npc:6176}.`
+- `forever/class/shaman/spirit-totem`: `One each of {item:7069}, Fire, Earth and Water. The Exiles of Arathi Highlands drop them, one element each, about one kill in ten: Thundering (air), Burning (fire), Rumbling (earth) and Cresting (water). Or buy them at the auction house.`
+- `forever/class/shaman/spirit-totem`: `{item:7070}: Cresting Exiles`
+- `forever/class/shaman/spirit-totem`: `{npc:6176} camps in the east of {zone:1416}, north-east of {area:272}.` → maybe `{npc:6176} camps in the ruins of the east of {zone:1416}: from {area:272} follow the river east of town north into the hills.`
+- `forever/class/shaman/spirit-totem`: `In the {zone:1422}, the Venom Mist Lurkers drop the {item:20610} and the Diseased Black Bears the {item:20611} (about one kill in five each).`
+- `forever/class/shaman/spirit-totem`: `The {area:1417} ({area:1477}) lies under the {area:74}; the arrow points at its entrance. Gasher or {npc:5716} drop the {item:20606}, Hukku or Mijan the Blue, Zolo or Loro the Green: all six are elite trolls inside. Bring a group.`
+- `forever/class/warlock/felhunter-horde`: `At 30 {npc:5675}, in the {object:36082}, sends you to {npc:6251} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}.` → maybe `At 30 {npc:5675}, in the {object:36082}, sends you to {npc:6251} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}. Take only one {quest:2996}: if {npc:6251} offers nothing, drop the duplicate from your log.`
+- `forever/class/warlock/felhunter-horde`: `Fly to {area:392}; {npc:6251} stands on the hill in town.`
+- `forever/class/warlock/felhunter-horde`: `{npc:6293} stands in the {object:36082}.`
+- `forever/class/warlock/felhunter-horde`: `The {item:6931} lies on the shore west of {area:271}, past the Torn Fin murloc camps.`
+- `forever/class/warlock/felhunter-horde`: `The {object:92423} lies in the canyon north of {area:484}.`
+- `forever/class/warlock/felhunter-horde`: `The Dragonmaw Bonewarders and Shadowwarders hold the hills east of the road through the {zone:1437}: the rods drop from them.`
+- `forever/class/warlock/felhunter-horde`: `Back to {npc:6251} in {area:392}. Use the {quest:1804} on the summoning circle beside him and defeat the felhunter to bind it.`
+- `forever/class/warlock/felhunter-horde`: `{npc:6251}: he binds the felhunter to you`
+- `forever/class/warlock/incubus-horde`: `Incubus (Horde)`
+- `forever/class/warlock/incubus-horde`: `A second seducer demon, the male sayaad, and a soul shard bag to carry your shards.`
+- `forever/class/warlock/incubus-horde`: `At 20 {npc:5875}, in the {object:172960} under the {object:172982}, sends you to {npc:5909} a few steps away. Two trainers offer the incubus, {npc:5875} here and {npc:5675} in the {zone:1458}, and you can take only one: this guide follows whichever {quest:1472} you took.` → maybe `At 20 {npc:5875}, in the {object:172960} under the {object:172982}, sends you to {npc:5909} a few steps away. Two trainers start these demons, {npc:5875} here and {npc:5675} in the {zone:1458}, and you can take only one; this guide follows whichever {quest:1472} you took. {npc:5909} offers both of {zone:1454}'s branches: take both.`
+- `forever/class/warlock/incubus-horde`: `{npc:3363} keeps {object:173018}, east of the {object:172960} along the main street. He asks you to look for his mate, Krilge.` → maybe `{npc:3363} keeps {object:173018} on the main street east of the {object:172960}. He asks you to look for his mate Krilge in {zone:1440}.`
+- `forever/class/warlock/incubus-horde`: `{area:422} lies in southern {zone:1440}, south of {area:431}. The Shadethicket bog beasts around the lake drop the {item:190232}, about one in twenty.`
+- `forever/class/warlock/incubus-horde`: `Back to {npc:5875} in the {object:172960}. Take the scarf to the summoning circle in {npc:3216}'s tent nearby and defeat the incubus it calls.`
+- `forever/class/warlock/incubus-horde`: `{npc:5875}: he binds the incubus to you`
+- `forever/class/warlock/incubus-horde`: `{object:1661}'s version, for warlocks who took {npc:5675}'s {quest:1472} instead of {npc:5875}'s. At 20 {npc:5675}, in the {object:36082}, sends you to {npc:5693} in the Temple of the Damned, just north of him.` → maybe `{object:1661}'s version, for warlocks who took {npc:5675}'s {quest:1472} instead of {npc:5875}'s. At 20 {npc:5675}, in the {object:36082}, sends you to {npc:5693} close by. {npc:5693} shows you an image of each quarry and offers both branches: take both.`
+- `forever/class/warlock/incubus-horde`: `{npc:185333} works as a tailor for the {area:279} wizards at {area:233}, in eastern {zone:1421}. Take her heart.`
+- `forever/class/warlock/incubus-horde`: `{npc:185334} works in {area:392}, on the {zone:1413} coast. Take the zeppelin to {zone:1411} and walk or fly on to {area:392}.`
+- `forever/class/warlock/incubus-horde`: `Back to {npc:5675} in the {object:36082}. Place the hearts at the summoning circle below him and defeat the incubus they call.`
+- `forever/class/warlock/incubus-horde`: `{npc:5675}: he binds the incubus to you`
+- `forever/class/warrior/brutal-armor`: `Fly to {area:378}. South of the camp the Silithid Mounds dot the {area:390}: the silithid there carry the Twitching Antennae.`
+- `forever/class/warrior/brutal-armor`: `Twitching Antennae from the silithid`
+- `forever/class/warrior/brutal-armor`: `{npc:5878} camps beside the road east of the {area:380}. {quest:1838} is a level 30 quest; you can take it now and gather for it on the way.`
+- `forever/class/warrior/brutal-armor`: `Roogug is an elite quilboar inside {area:1717}, the dungeon at the south end of the {zone:1413}; he drops the {item:6841}. {area:1717} is a dungeon: grouping up is advised.`
+- `forever/class/warrior/brutal-armor`: `The {area:2160} lies at the east end of {area:461} in Stonetalon. Its kobolds drop the Smoky Iron Ingots.`
+- `forever/class/warrior/brutal-armor`: `Smoky Iron Ingots from the Windshear kobolds`
+- `forever/class/warrior/brutal-armor`: `The Hillsbrad Miners work the mine in the west of {zone:1424}; they drop the {item:7127}. Take the zeppelin from {zone:1454} to {zone:1420} and head south through {zone:1421}.`
+- `forever/class/warrior/brutal-armor`: `{item:7127} from the Hillsbrad Miners` → maybe `{item:7127}, from the Hillsbrad Miners`
+- `forever/class/warrior/brutal-armor`: `Miners smelt Iron Bars from {item:2772} ({skill:186} 125); everyone else buys them at the auction house in {zone:1454}.` → maybe `You need 10 Iron Bars. Miners smelt them from {item:2772} (one ore a bar, {spell:3307} at {skill:186} 125); everyone else buys them at the auction house in {zone:1454}.`
+- `forever/class/warrior/brutal-armor`: `Back to {npc:5878} beside the road east of the {area:380}. {quest:1848} is the first piece; he then sends you to three crafters for the rest.` → maybe `Back to {npc:5878} on {area:1699}. {quest:1848} is the first piece; he then sends you to three crafters, one per piece: take all three.`
+- `forever/class/warrior/brutal-armor`: `{npc:6408} is in {area:367} on the {zone:1411} coast.` → maybe `{npc:6408} is in {area:367} on the {zone:1411} coast. He wants 7 Uncloven Satyr Hooves.`
+- `forever/class/warrior/brutal-armor`: `The {area:429} satyrs camp in eastern {zone:1440}, with the Felmusk satyrs further west; both drop Uncloven Satyr Hooves.`
+- `forever/class/warrior/brutal-armor`: `Uncloven {quest:1842}`
+- `forever/class/warrior/brutal-armor`: `The {npc:6167} roams the south-west of Stonetalon near the Fledgling and Young Chimaeras; she drops the {item:6840}.`
+- `forever/class/warrior/brutal-armor`: `{item:6840} from the {npc:6167}` → maybe `{item:6840}, from the {npc:6167}`
+- `forever/class/warrior/brutal-armor`: `Take the zeppelin from {zone:1454} to {zone:1420}; the {zone:1458} lies below the {area:153}.`
+- `forever/class/warrior/brutal-armor`: `The Dragonmaw orcs camp in the middle of the {zone:1437}, south of the road; Raiders, Swamprunners, Centurions, Shadowwarders and Bonewarders all drop the Sturdy Dragonmaw Shinbones.`
+- `forever/class/warrior/brutal-armor`: `Sturdy Dragonmaw Shinbones`
+- `forever/class/warrior/heirloom-weapon`: `{spell:71} and a one-hand weapon of your choice at 10.` → maybe `{spell:71} at 10 and a one-hand weapon of your choice: {npc:5810}'s road, {area:159}'s crypt, or the Skybreaker shield.`
+- `forever/class/warrior/heirloom-weapon`: `{npc:1496} stands in {area:159}. {npc:6390} waits in the mausoleum on the hill just north of town: open the gate and fight him.`
+- `forever/class/warrior/heirloom-weapon`: `{npc:1500} is in the inn, the {area:2119}, in {area:159}.` → maybe `{npc:1500} is in the {area:2119}, the inn on {area:159}'s east side.`
+- `forever/class/warrior/heirloom-weapon`: `The four Agamand Weapon Racks stand among the buildings of {area:157}, north of {area:159}. The mills' undead attack on sight.`
+- `forever/collectibles/mounts/horde/black-war-mounts`: `Forever's PvP ranks come from {spell:1299382} earned in battlegrounds and world PvP, with a weekly cap; {spell:436438} (rank 11) unlocks the Black War mounts. Polestar cannot read your rank, so this step waits for level 40 and the riding skill.`
+- `forever/collectibles/mounts/horde/black-war-mounts`: `{npc:12796} sells the mounts in the {area:2917} in {zone:1454}'s {object:172958}, beside the other honor quartermasters such as {npc:12799}. The Forever client lists each at 100g; choose one.`
+- `forever/collectibles/mounts/horde/black-war-mounts`: `100g`
+- `forever/collectibles/mounts/horde/frostwolf-howler`: `{area:2839} (level 51+) raises {faction:729}: win, capture towers and graveyards, and hand in the battleground's turn-ins. {npc:13219} waits at the Horde end of {zone:1416} outside the battleground; {npc:13218} inside {area:2839} sells the same mount.` → maybe `{area:2839} (level 51+) raises {faction:729}: win, capture towers and graveyards, and hand in the battleground's turn-ins; the Alterac Valley Reputation guide shows the fastest way. {npc:13219} waits at the Horde end of {zone:1416} outside the battleground; {npc:13218} inside {area:2839} sells the same mount.`
+- `forever/collectibles/mounts/horde/frostwolf-howler`: `The Forever client lists it at 200g and level 60, and asks for no riding rank.`
+- `forever/collectibles/mounts/horde/great-kodo`: `{npc:3690} and {npc:3685}'s kodos are in {area:222}, {zone:1412}. At 60 {npc:3690} teaches Journeyman {skill:762} (1,000g per Blizzard's designers); Blizzard says learning riding grants a mount. The Forever client sells each great kodo for 200g at level 60.`
+- `forever/collectibles/mounts/horde/kodo`: `{npc:3690} and {npc:3685}'s kodos are in {area:222}, {zone:1412}. At 40 {npc:3690} teaches {skill:762} (100g per Blizzard's designers), and learning it gives you a mount. The Forever client lets every Horde race ride these.`
+- `forever/collectibles/mounts/horde/kodo`: `{item:275993} and {item:277960} are new Forever kodos (level 40, 20g in the client) whose source is not known yet.` → maybe `{item:277960} is a new Forever kodo (level 40, 20g in the client) whose source is not known yet.`
+- `forever/collectibles/mounts/horde/pack-kodo`: `Durotar Supply and Logistics`
+- `forever/collectibles/mounts/horde/pack-kodo`: `The camp is just outside the {area:380} in the {zone:1413}. Loot supply crates in the world, fill them, and hand them in at the camp for Merchant's Favor (5-20 a crate); the {npc:10636} costs 6,000. Craftsman's Writs may help from level 10.`
+- `forever/collectibles/mounts/horde/pack-kodo`: `Durotar Supply and Logistics camp`
+- `forever/collectibles/mounts/horde/raptor`: `{npc:7953} and {npc:7952}'s raptors are in {area:367} on the {zone:1411} coast. At 40 {npc:7953} teaches {skill:762} (100g per Blizzard's designers), and learning it gives you a mount. The Forever client lets every Horde race ride these.`
+- `forever/collectibles/mounts/horde/skeletal-horse`: `{npc:4773} and {npc:4731}'s stable are in {area:159}, {zone:1420}. At 40 {npc:4773} teaches {skill:762} (100g per Blizzard's designers), and learning it gives you a mount. The Forever client lets every Horde race ride these.`
+- `forever/collectibles/mounts/horde/skeletal-horse`: `{npc:267354} is a new Forever horse (level 40) whose source is not known yet.`
+- `forever/collectibles/mounts/horde/skeletal-warhorse`: `{npc:4773} and {npc:4731}'s stable are in {area:159}, {zone:1420}. At 60 {npc:4773} teaches Journeyman {skill:762} (1,000g per Blizzard's designers); Blizzard says learning riding grants a mount. The Forever client sells each skeletal warhorse for 200g at level 60.`
+- `forever/collectibles/mounts/horde/swift-raptor`: `{npc:7953} and {npc:7952}'s raptors are in {area:367} on the {zone:1411} coast. At 60 {npc:7953} teaches Journeyman {skill:762} (1,000g per Blizzard's designers); Blizzard says learning riding grants a mount. The Forever client sells each swift raptor for 200g at level 60.` → maybe `{npc:7953} and {npc:7952}'s raptors are in {area:367} on the {zone:1411} coast. At 60 {npc:7953} teaches Journeyman {skill:762} to Trolls for 1,000g (10% less at Honored with {faction:530}); Blizzard says it comes with a mount. Other races train it at their own race's riding trainer. Each swift raptor costs 200g here.`
+- `forever/collectibles/mounts/horde/swift-wolf`: `{npc:4752} and {npc:3362}'s kennel are in {zone:1454}'s {object:172958}. At 60 {npc:4752} teaches Journeyman {skill:762} (1,000g per Blizzard's designers); Blizzard says learning riding grants a mount. The Forever client sells each swift wolf for 200g at level 60.`
+- `forever/collectibles/mounts/horde/wolf`: `{npc:4752} and {npc:3362}'s kennel are in {zone:1454}'s {object:172958}. At 40 {npc:4752} teaches {skill:762} (100g per Blizzard's designers), and learning it gives you a mount. The Forever client lets every Horde race ride these.`
+- `forever/collectibles/pets/black-tabby`: `The {npc:1920}, a rare spawn among the mages at {area:233} in southern {zone:1421}, drops it about 17% of the time in our data; the other {area:279} mages at {area:233} and around the {area:279} crater drop it at about 0.2%. Kill the mages until the Spellscribe appears. Alliance players buy it on the Auction House.`
+- `forever/collectibles/pets/excitable-slime`: `Find the {npc:269452}, a critter in the {zone:1458} canals, and /dance with it until it offers WRIGGLE. Buy {item:278265} from a vendor in the canals and bring it back; if the slime seems tired, dance with it again.`
+- `forever/collectibles/pets/excitable-slime`: `{item:278265}: {npc:4612}, in the canals beside the slime` → maybe `{item:278265}: {npc:4612}, in the canals`
+- `forever/collectibles/pets/halpa`: `{npc:8401} sells three whistles in {zone:1456} (50s each); the two ground squirrels are new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.` → maybe `{npc:8401} sells three whistles in {zone:1456} (50s each, 1g 50s for all three); the two ground squirrels are new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.`
+- `forever/collectibles/pets/jeremiah-payson`: `{npc:8403} sells three cockroaches in the {zone:1458} (50s each); the Plagued and Undercity Cockroaches are new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.` → maybe `{npc:8403} sells three cockroaches in the {zone:1458} (50s each, 1g 50s for all three); the Plagued and Undercity Cockroaches are new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.`
+- `forever/collectibles/pets/mayhoa-skyhoof`: `{npc:268745} walks a long loop through {zone:1454} (from the {object:172982} to the Drag); the waypoint is one point on her path. The carrier costs 60s. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.`
+- `forever/collectibles/pets/xantish`: `{npc:8404} sells four snakes in {zone:1454} (50s each); the {item:280703} is new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards.`
+- `forever/horde/02-the-barrens`: `{npc:3615}, the wind rider master`
+- `forever/horde/02-the-barrens`: `Plainstriders and raptors`
+- `forever/horde/02-the-barrens`: `Plainstriders and Sunscale raptors roam the plains all around the {area:380}, thickest to the north.`
+- `forever/horde/02-the-barrens`: `Burning Blade Cultists hold {area:1898} in northern {zone:1411}; they drop the {item:6652}. The {item:5026} comes from the Razormane on your next visit to their camp.` → maybe `Burning Blade Cultists hold {area:1898} in northern {area:14}; they drop the {item:6652}. The {item:5026} comes from the Razormane on your next visit to their camp.`
+- `forever/horde/02-the-barrens`: `Southsea beach`
+- `forever/horde/02-the-barrens`: `The pirates camp on the beach south of {area:392}. The piles of complicated parts lie in the sand among them.` → maybe `The pirates camp on the beach south of {area:392}. The piles of complicated parts lie in the sand among them.\nThe pirates camp on the beach south of {area:392}; {npc:3467} stands at its southern end.`
+- `forever/horde/02-the-barrens`: `Walk back west along the road to the {area:380}.`
+- `forever/horde/02-the-barrens`: `{quest:881}, a white lion, prowls the plains north of the Razormane camp.`
+- `forever/horde/02-the-barrens`: `The {object:4141} stands at the Venture Co. research site west of the {area:382}. Close the three valves around the drill, use the console again, then take the {item:5089} from {npc:3471} beside it.`
+- `forever/horde/02-the-barrens`: `West to the {area:383}. The Witchwing harpies nest all over them; any of them can drop a talon. {quest:819} lies in their hills.` → maybe `West to the {area:383}. The Witchwing harpies nest all over them; any of them can drop a talon. {quest:819} lies in their hills.\nCareful: There are 2 Witchwing Ambushers (level 17-18). They stay stealthed with Sneak while out of combat.`
+- `forever/horde/02-the-barrens`: `Kolkar camps`
+- `forever/horde/02-the-barrens`: `Kolkar Wranglers and Stormers hold the camps south of {npc:3389}.`
+- `forever/horde/02-the-barrens`: `Raptor nests`
+- `forever/horde/02-the-barrens`: `The three nests sit together in the {area:1697} south-west of the oasis; Sunscale Scytheclaws guard them.`
+- `forever/horde/02-the-barrens`: `The Witchwing Slayers hold the western {area:383}; they wear the rings.`
+- `forever/horde/02-the-barrens`: `Keep it: {quest:3923} stands outside {zone:1454}; a later guide hands it in`
+- `forever/horde/02-the-barrens`: `Walk back south to the {area:380}. The next guide starts here and takes you to {zone:1454} and the zeppelin to {zone:1420}.` → maybe `The next guide starts here and takes you to {zone:1454} and the zeppelin to {zone:1420}.`
+- `forever/horde/03-silverpine-forest`: `To {area:1637}`
+- `forever/horde/03-silverpine-forest`: `From the {area:380}, follow the road north-east to {area:1637} and walk in by the main gate. {npc:3310}, the wind rider master, stands on the tower in the {object:172982}.` → maybe `From the {area:380}, follow the road north-east to {zone:1454} and walk in by the main gate. {npc:3310}, the wind rider master, stands on the tower in the {object:172982}.`
+- `forever/horde/03-silverpine-forest`: `{zone:1454} class quests`
+- `forever/horde/03-silverpine-forest`: `{npc:6018} stands in the {object:172961} on the city's west side.`
+- `forever/horde/03-silverpine-forest`: `Zeppelin to {zone:1420}`
+- `forever/horde/03-silverpine-forest`: `The zeppelin towers stand just outside {zone:1454}'s main gate. Take the zeppelin to {zone:1420} (the other one goes to {object:3202}).`
+- `forever/horde/03-silverpine-forest`: `Zeppelin tower`
+- `forever/horde/03-silverpine-forest`: `Into Silverpine`
+- `forever/horde/03-silverpine-forest`: `The zeppelin lands at the towers outside the {area:153}. Walk west along the road past the ruins and south into {zone:1421}; follow the road to the {area:228}.`
+- `forever/horde/03-silverpine-forest`: `Road to Silverpine`
+- `forever/horde/03-silverpine-forest`: `{area:228} is the Forsaken crypt-town in the middle of the forest. Everyone you need stands around the crypt entrance; {npc:2226}, the bat handler, is just east of it.` → maybe `{area:228} is the Forsaken crypt-town in the middle of the forest. Everyone you need stands around the crypt entrance; {npc:2226}, the bat handler, is just east of it.\nSwim back and follow the road west to the {area:228}.`
+- `forever/horde/03-silverpine-forest`: `Hearth to the {area:228}` → maybe `Hearth to {area:228}`
+- `forever/horde/03-silverpine-forest`: `{object:112888}, inside the keep` → maybe `{object:112888}, inside the keep; upstairs`
+- `forever/horde/03-silverpine-forest`: `Swim back and follow the road west to the {area:228}.`
+- `forever/horde/03-silverpine-forest`: `South-west of Ambermill, the Ravenclaw Drudgers and Guardians haunt the ruins of {quest:516} in the south-east of the forest.`
+- `forever/horde/03-silverpine-forest`: `grind on {npc:1909} at {area:1338}, {zone:1421}` → maybe `grind on {npc:1909} at {area:1338}, {area:130}`
+- `forever/horde/03-silverpine-forest`: `Take the road north toward {zone:1420}: the Yoricks' house at {area:238} is on the way. {quest:425} lurks a short walk west of it.` → maybe `Take the road north toward {area:85}: the Yoricks' house at {area:238} is on the way. {quest:425} lurks a short walk west of it.`
+- `forever/horde/03-silverpine-forest`: `Follow the road north out of Silverpine into {zone:1420} and on to {area:159}: {npc:246152} trains Paladins there. The zeppelin towers are a short walk south down the road.`
+- `forever/horde/03-silverpine-forest`: `Follow the road north out of Silverpine into {zone:1420} and east to the zeppelin towers outside the {area:153}. Take the zeppelin to {zone:1454}.`
+- `forever/horde/03-silverpine-forest`: `Walk in through the main gate. {npc:268701} stands in the {object:172982}; {object:173016} is a few steps north.` → maybe `Walk in through the main gate. {npc:268701} stands in the {object:172982}.`
+- `forever/horde/03-silverpine-forest`: `The {object:172960} is the canyon under the {object:172982}; {npc:3216} stands at its far end.` → maybe `{object:173016} is a few steps north.\nThe {object:172960} is the canyon under the {object:172982}; {quest:829} stands at its far end.`
+- `forever/horde/04-the-barrens`: `Doras, the wind rider master, stands on the tower in the {object:172982}.`
+- `forever/horde/04-the-barrens`: `{npc:3453}, on the dock`
+- `forever/horde/04-the-barrens`: `{npc:209797} swims in the harbour just off {area:392}'s docks. {npc:209797} is elite: grouping up is advised.`
+- `forever/horde/04-the-barrens`: `The pirates camp on the beach south of {area:392}; {npc:3467} stands at its southern end.`
+- `forever/horde/04-the-barrens`: `{area:385}, on the coast further south. The Theramore Marines and Preservers (15-16) drop the medals; {npc:3393} (20) and the two cannoneers (19) stand in the keep and on its walls, and they are why the hold waits until now.` → maybe `{area:385}, on the coast further south. The Theramore Marines and Preservers (15-16) drop the medals; {npc:3393} (20) and the two cannoneers (19) stand in the keep and on its walls, and they are why the hold waits until now.\nCareful: Each named target is linked to a healer and guards, and Fairmount has three extra marines with her. Killing the healer first makes the fight easier.`
+- `forever/horde/04-the-barrens`: `Sunscale Scytheclaws hunt the plains south of the {area:380}, around the {area:1697}; they drop the horns. Hand them in on your next pass through {area:392}.` → maybe `Sunscale Scytheclaws hunt the plains south of the {area:380}, around the {area:1697}; they drop the horns. Hand them in on your next pass through {area:392}.\nEast across the plains toward the coast: the stolen silver lies in a raptor nest north-west of {area:385}.`
+- `forever/horde/04-the-barrens`: `Level 20`
+- `forever/horde/04-the-barrens`: `The level-20 class quests in {zone:1454} ({npc:3354}, {npc:5892}, the Warlock and Rogue trainers) are only offered from level 20, so finish the level here before you fly. The Thunderhawk Hatchlings (18) on the plains south-west of the {area:380} and the Kolkar (14-15) at the {area:388} are the nearest mobs worth killing; you need well under a level.`
+- `forever/horde/04-the-barrens`: `grind on Thunderhawk Hatchlings south-west of the {area:380}`
+- `forever/horde/04-the-barrens`: `{npc:3401} stands in the {object:172960}. Target him and type /salute to finish {quest:2460}.`
+- `forever/horde/04-the-barrens`: `Back to the {area:380}` → maybe `Back to {area:380}`
+- `forever/horde/04-the-barrens`: `Savannah Patriarchs roam the plains east of the hills, and the Sprung Traps lie among them. {quest:876} leads the Witchwing harpies in the hills to the west.` → maybe `Savannah Patriarchs roam the plains east of the hills, and the Sprung Traps lie among them. {quest:876} leads the Witchwing harpies in the hills to the west.\nCareful: The route in passes stealthed Harpy Ambushers and an elite harpy that patrols.`
+- `forever/horde/04-the-barrens`: `{npc:262119} and his marines hold the wrecked caravan south of {npc:261366}.`
+- `forever/horde/04-the-barrens`: `East to the {area:382}. {npc:3439} stands inside the Venture Co. camp; {npc:3445} carries the key.`
+- `forever/horde/04-the-barrens`: `Wizzlecrank drives his shredder out of the camp: stay with him and kill whatever attacks him. {npc:3442} takes it in {area:392}.` → maybe `Wizzlecrank drives his shredder out of the camp: stay with him and kill whatever attacks him. {npc:3442} takes it in {area:392}.\nCareful: The route leads west and climbs a ramp. Once you reach the top, two Venture Company mobs ambush you.`
+- `forever/horde/04-the-barrens`: `Fizzule runs the Venture Co. camp at the east end of the {area:382}. He attacks strangers: target him and /salute before he does.`
+- `forever/horde/04-the-barrens`: `Stay stealthed: {npc:7287} carries the key to the tower; Gallywix and his lockbox are at the top. Gallywix is elite: grouping up is advised.`
+- `forever/horde/04-the-barrens`: `Hearth to the {area:380}`
+- `forever/horde/04-the-barrens`: `East across the plains toward the coast: the stolen silver lies in a raptor nest north-west of {area:385}.`
+- `forever/horde/04-the-barrens`: `{quest:882}, a big Sunscale raptor, hunts the plains north of the road from {area:392} to the {area:380}.`
+- `forever/horde/04-the-barrens`: `South of Camp Taurajo the Silithid Mounds dot the {area:390}; the eggs lie in them, and Silithid Swarmers come out to defend them. Silithid Harvesters are rare: if you see one, kill it for its head.` → maybe `South of Camp Taurajo the Silithid Mounds dot the {area:390}; the eggs lie in them, and Silithid Swarmers come out to defend them. Silithid Harvesters are rare: if you see one, kill it for its head.\nCareful: Silithid Swarmers in the area release many tiny adds that interrupt spells; damage shields such as Thorns kill them in one hit.`
+- `forever/horde/04-the-barrens`: `West of Gann, the Razormane hold {area:1701}. {npc:3436} is on the east side, {npc:3434} to the south, {npc:3435} at the west end. Lok (25) and the Warfrenzies (24-25) are a few levels above you; {npc:5859}, a rare elite, sometimes walks the ridge: leave him. Pathfinders and Stalkers drop the Backstabber, Seers the Wand, Warfrenzies the War Shield. {npc:3238} lizards and Hecklefang Stalkers roam the plain between {npc:3341} and the ridge. {quest:885}, a rare red wind serpent, flies over the ridge: its feather starts a quest.` → maybe `West of Gann, the Razormane hold {area:1701}. {npc:3436} is on the east side, {npc:3434} to the south, {npc:3435} at the west end. Lok (25) and the Warfrenzies (24-25) are a few levels above you; {npc:5859}, a rare elite, sometimes walks the ridge: leave him. Pathfinders and Stalkers drop the Backstabber, Seers the Wand, Warfrenzies the War Shield. {npc:3238} lizards and Hecklefang Stalkers roam the plain between {npc:3341} and the ridge. {quest:885}, a rare red wind serpent, flies over the ridge: its feather starts a quest.\nCareful: Razormane Stalkers move around in stealth and hit with {spell:1752}, so they can join a fight without warning.`
+- `forever/horde/04-the-barrens`: `{npc:3238}, on the plain between {npc:3341} and the ridge`
+- `forever/horde/04-the-barrens`: `South of Gann, the Bael'dun dwarves dig at {area:359}. Excavators and Foremen work the pit; {npc:3392} (26) carries the journal: pull him alone.` → maybe `South of Gann, the Bael'dun dwarves dig at {area:359}. Excavators and Foremen work the pit; {npc:3392} (26) carries the journal: pull him alone.\nCareful: Excavators (level 21-22) and Foremen (level 22-23) run off for help once they fall to 15% health, so more dwarves can join the fight.`
+- `forever/horde/04-the-barrens`: `The Bael'dun Soldiers, Riflemen and Officers guard the fortress on the east side of the dig; all three items drop from them.` → maybe `The Bael'dun Soldiers, Riflemen and Officers guard the fortress on the east side of the dig; all three items drop from them.\nCareful: Riflemen (level 24-25) Shoot from 5-30 yd, so nearby ones can join a fight from range.`
+- `forever/horde/04-the-barrens`: `The antennae vanish fifteen minutes after they drop, so gather them now, on the way back north: kill the Silithid Swarmers and Creepers at the {area:390}' mounds until you have five, then hearth to {area:378} straight away.` → maybe `The antennae vanish fifteen minutes after they drop, so gather them now, on the way back north: kill the Silithid Swarmers and Creepers at the {area:390}' mounds until you have five, then hearth to {area:378} straight away.\nCareful: Silithid Swarmers (level 21-22) cast {npc:4196} both in and out of combat, which brings several small adds. Silithid Creepers (level 20-21) periodically cast {npc:5781} in combat, which spawns extra adds.`
+- `forever/horde/04-the-barrens`: `Fly to {area:1637} to train.`
+- `forever/horde/04-the-barrens`: `{npc:5875} stands in the {object:172960}. Use {item:6626} on the summoning circle there and defeat the succubus to bind her.`
+- `forever/horde/04-the-barrens`: `{npc:2391} in {area:272} teaches Poisons: keep it`
+- `forever/horde/04-the-barrens`: `Fly back to the {area:380}. The next guide starts here and takes the road north to the {area:1703} and {zone:1440}.`
+- `forever/horde/05-stonetalon-mountains`: `From the {area:380} follow the road north. {npc:8582} stands on the watch tower of the {area:1703} where the road enters {zone:1440}. Open the {item:16783} he gives you.` → maybe `From the {area:380} follow the road north. {npc:8582} stands on the watch tower of the {area:1703} where the road enters {area:331}. Open the {item:16783} he gives you.`
+- `forever/horde/05-stonetalon-mountains`: `{npc:12696} stands at {area:428}, the Warsong camp just north-east of Splintertree, beside the hunt board.` → maybe `{npc:12696} stands at {area:428}, the Warsong camp just north-east of Splintertree, beside the hunt board.\nNorth up the road to {area:431} and {area:428} beside it.`
+- `forever/horde/05-stonetalon-mountains`: `{npc:12696}'s hunt targets (Ursangous, Shadumbra, Sharptalon) are for the next {zone:1440} visit, at 27.` → maybe `{npc:12696}'s hunt targets (Ursangous, Shadumbra, Sharptalon) are for the next {area:331} visit, at 27.`
+- `forever/horde/05-stonetalon-mountains`: `Head west along the main road across {zone:1440}, past {area:415} (Alliance: keep to the road), to the coast. {area:2897} is on the {area:414} in the north-west. Its other quests are for the next visit, at 27.` → maybe `Head west along the main road across {area:331}, past {area:415} (Alliance: keep to the road), to the coast. {area:2897} is on the {area:414} in the north-west. Its other quests are for the next visit, at 27.`
+- `forever/horde/05-stonetalon-mountains`: `Head south to the {area:380}, then west along the road out of the {zone:1413} into Stonetalon. The troll village of {area:2539} sits at the entrance of the canyon.` → maybe `Head south to the {area:380}, then west along the road out of the {area:17} into Stonetalon. The troll village of {area:2539} sits at the entrance of the canyon.`
+- `forever/horde/05-stonetalon-mountains`: `East of Ziz, the Venture Company is clear-cutting {area:461}; one of the Operators carries the blueprints. {npc:4276} mines in the small mine on the east side: stay with him while he mines, Venture Co. thugs come for him.` → maybe `East of Ziz, the Venture Company is clear-cutting {area:461}; one of the Operators carries the blueprints. {npc:4276} mines in the small mine on the east side: stay with him while he mines, Venture Co. thugs come for him.\nCareful: The kobolds arrive in waves. The first wave is melee fighters, and the second adds casters to the mix. Regular mobs in the mine respawn quickly and can join the fight while the waves are coming. A group is recommended.`
+- `forever/horde/05-stonetalon-mountains`: `The Gaea Seeds lie in the grass around the southern shore of {area:464}, north of Sun Rock.` → maybe `The Gaea Seeds lie in the grass around the southern shore of {area:464}, north of Sun Rock.\nCareful: Pridewings around the lake can aggro as a linked group.`
+- `forever/horde/05-stonetalon-mountains`: `{npc:4198}'s next quest, Ordanus, is on the Alliance side of {zone:1440}. Skip it.` → maybe `{npc:4198}'s next quest, Ordanus, is on the Alliance side of {area:331}. Skip it.`
+- `forever/horde/05-stonetalon-mountains`: `To the {area:1497}`
+- `forever/horde/05-stonetalon-mountains`: `Head east to the {area:380} and fly to {zone:1454}. Take the zeppelin from the towers outside {zone:1454} to {zone:1420}; the {area:1497} lies below the {area:153}. The bat handler is in the {object:36078}.`
+- `forever/horde/05-stonetalon-mountains`: `Speak with {npc:10181}, in the {object:36126}: {quest:93739}`
+- `forever/horde/05-stonetalon-mountains`: `{npc:4606} stands in the {object:36070}.`
+- `forever/horde/05-stonetalon-mountains`: `{item:271350}, from the Tortured Souls among the ruins` → maybe `{item:271350}, from the Tortured Souls among the ruins; below ground`
+- `forever/horde/05-stonetalon-mountains`: `Follow the road east along the river, then north-east up into the hills to {area:272}.`
+- `forever/horde/06-hillsbrad-foothills`: `The {object:1763} poster by the inn` → maybe `The {object:556670} poster by the inn`
+- `forever/horde/06-hillsbrad-foothills`: `The {quest:567} poster: its targets come up along the way` → maybe `The {quest:567} poster: its targets come up along the way; inside`
+- `forever/horde/06-hillsbrad-foothills`: `Only if Gallywix fell in the {zone:1413} (Mission: Possible But Not Probable): {npc:2391} stands in {area:272}. Wait beside him while he brews the cure, then take your reward: Poisons.`
+- `forever/horde/06-hillsbrad-foothills`: `No Gallywix yet? The Class guide Poisons (Horde) runs the chain from Shenthul again, with a group for Gallywix.`
+- `forever/horde/06-hillsbrad-foothills`: `{npc:2230}, next to Lydon` → maybe `{npc:2230}, next to Lydon; inside`
+- `forever/horde/06-hillsbrad-foothills`: `Peasants and skulls`
+- `forever/horde/06-hillsbrad-foothills`: `The Peasants work the fields south of the farmhouses. Every {area:287} human drops skulls; the Peasants drop them most often.`
+- `forever/horde/06-hillsbrad-foothills`: `Syndicate camps`
+- `forever/horde/06-hillsbrad-foothills`: `From {area:272} go south-east into the hills on the way to {area:275}. Rogues and Watchmen hold the camps along the way.` → maybe `Drull and {npc:2238} are chained inside {area:275}'s courtyard buildings; open both locks.\nFrom {area:272} go south-east into the hills on the way to {area:275}. Rogues and Watchmen hold the camps along the way.`
+- `forever/horde/06-hillsbrad-foothills`: `Drull and {npc:2238} are chained inside {area:275}'s courtyard buildings; open both locks.`
+- `forever/horde/06-hillsbrad-foothills`: `From {zone:1454} (zeppelin from the towers outside the {zone:1458}) fly to {area:1638} and train on {area:1639}, then fly on to {area:378}.`
+- `forever/horde/06-hillsbrad-foothills`: `South-west of Bael Modan, {npc:12576} waits at the top of the {area:485}.` → maybe `South-west of Bael Modan, {npc:12576} waits at the top of the {area:1718}.`
+- `forever/horde/07-ashenvale`: `Fly from {area:392} to {area:2897} on the {zone:1440} coast.`
+- `forever/horde/07-ashenvale`: `East of Zoram'gar, the Thistlefur furbolgs fill the village and the hills around their hold.`
+- `forever/horde/07-ashenvale`: `Inside the hold, Troll Chests lie along the tunnels. {npc:12818} is held deep inside: free him and protect him all the way out, then he runs home to {area:428}.`
+- `forever/horde/07-ashenvale`: `{npc:210995} may not offer these to every class; if he doesn't, carry on.` → maybe `{npc:210995} may not offer these to every class; if he doesn't, carry on.; walks around {area:1276}: the map marks where to look`
+- `forever/horde/07-ashenvale`: `{npc:12867} stands at the lumber camp. The night elf Outrunners stalk the woods south-east of it; they stealth, so watch for them.`
+- `forever/horde/07-ashenvale`: `North up the road to {area:431} and {area:428} beside it.`
+- `forever/horde/07-ashenvale`: `Fly to {area:1638} if you know the flight path. If not, fly to {area:378}, head west into {zone:1412} past {area:222} to {area:1638} and take its flight path from {npc:2995} on the central rise.` → maybe `Fly to {area:1638} if you know the flight path. If not, fly to {area:378}, head west into {area:215} past {area:222} to {area:1638} and take its flight path from {npc:2995} on the central rise.`
+- `forever/horde/07-ashenvale`: `Fly from {zone:1456} to {area:378}. {npc:5899}'s hut stands on the ridge above the quilboar watering hole south of the camp, on the road to the {area:1718}.` → maybe `Fly from {zone:1456} to {area:378}. {npc:5899}'s hut stands on the ridge above the quilboar watering hole south of the camp, on the road to the {area:485}.`
+- `forever/horde/07-ashenvale`: `Fly from {zone:1456} to {area:378} and take the road south to the {area:1718} at the bottom of the {zone:1413}.`
+- `forever/horde/07-ashenvale`: `{npc:10079}, at the top of the lift`
+- `forever/horde/07-ashenvale`: `{npc:4877}, the trade supplies vendor: the Screeching harpies of {area:487}` → maybe `{npc:4877}, the trade supplies vendor: the Screeching harpies of {area:487}; inside`
+- `forever/horde/07-ashenvale`: `Grimtotem camps`
+- `forever/horde/07-ashenvale`: `Follow the canyon west to {area:2237}.`
+- `forever/horde/07-ashenvale`: `West of Whitereach the wyverns nest on the {area:482} cliffs; the eggs lie in the nests. {npc:10427} waits on the east side of the nesting grounds: free him and keep him alive on the walk back to {area:2237}.` → maybe `West of Whitereach the wyverns nest on the {area:482} cliffs; the eggs lie in the nests. {npc:10427} waits on the east side of the nesting grounds: free him and keep him alive on the walk back to {area:2237}.\nCareful: Wyverns at level 28-29 fly overhead and can be pulled without warning. A group of three wyverns can ambush you once you pass the first pillar at the bottom.`
+- `forever/horde/07-ashenvale`: `The salt flats`
+- `forever/horde/30-40/01-desolace`: `From {area:484}, fly to {area:1637}.`
+- `forever/horde/30-40/01-desolace`: `Your trainer is in {area:1638}, one flight away: {npc:3033} (Druids) on {area:1639}, {npc:246344} (Paladins). Fly on to {area:460} from there.`
+- `forever/horde/30-40/01-desolace`: `Gizelton caravan`
+- `forever/horde/30-40/01-desolace`: `Follow the road south-west out of Sun Rock into {zone:1443} and on south past {area:608}. {npc:11625}'s kodo caravan waits by the road north of {area:609}; if it has already left, head on.`
+- `forever/horde/30-40/01-desolace`: `The caravan rolls south past {area:609}. Kolkar raiders ambush it in waves: kill them before they reach {npc:11625}. It stops by {area:2617}, east of {area:597}.`
+- `forever/horde/30-40/01-desolace`: `North along the eastern hills, the satyrs hold the ruins of {area:603}. The Shadowstalkers walk unseen; the four kinds you need do not.` → maybe `North along the eastern hills, the satyrs hold the ruins of {area:603}. The Shadowstalkers walk unseen; the four kinds you need do not.\nCareful: Hatefury Rogues use Hide when they spawn, so they are stealthed until you find them.`
+- `forever/horde/30-40/01-desolace`: `Back at {area:609}, every Kolkar can drop an ear.`
+- `forever/horde/30-40/01-desolace`: `The Seer stands on the south side of {area:599}, east of {area:2405}. Clear the cultists around it first.`
+- `forever/horde/30-40/01-desolace`: `His next errand is not on this route.`
+- `forever/horde/30-40/01-desolace`: `Head south-west towards Shadowprey. The Gelkis centaurs (32-35) around their village are a good camp; fight them until level 32.`
+- `forever/horde/30-40/01-desolace`: `grind on Gelkis Stampers and Windchasers at the {area:606}, {zone:1443}`
+- `forever/horde/30-40/01-desolace`: `Zeppelin to the {area:1497}`
+- `forever/horde/30-40/01-desolace`: `Leave {zone:1454} by the main gate; the zeppelin tower stands just north-east of it. Take the {area:1497} zeppelin.`
+- `forever/horde/30-40/01-desolace`: `Zeppelin tower`
+- `forever/horde/30-40/01-desolace`: `{npc:260093} trains Paladins in the {area:1497}.` → maybe `{npc:260093} trains Paladins in the {zone:1458}.`
+- `forever/horde/30-40/01-desolace`: `Do your shopping in the {area:1497} first, then fly to the {area:228}. The {object:113791} stands on the hill just south-west of it: beat the Corrupt Manifestation of Water beside it, place its bracers in the brazier, speak to the {npc:5895} and keep the {item:7813} for {npc:5901}. Fly on to {area:272} from the {area:228}.` → maybe `Do your shopping in the {zone:1458} first, then fly to the {area:228}. The {object:113791} stands on the hill just south-west of it: beat the Corrupt Manifestation of Water beside it, place its bracers in the brazier, speak to the {npc:5895} and keep the {item:7813} for {npc:5901}. Fly on to {area:272} from the {area:228}.`
+- `forever/horde/30-40/01-desolace`: `{npc:4551}, the bat handler`
+- `forever/horde/30-40/01-desolace`: `Hearth back (or head north if it is on cooldown).`
+- `forever/horde/30-40/01-desolace`: `Place the {object:1729} on the {object:1728} beside the inn` → maybe `Place the {object:1729} on the {object:1728} beside the inn; upstairs`
+- `forever/horde/30-40/01-desolace`: `Head west along the foot of the mountains to the violet dome of {area:279}. {npc:2411}, {npc:2412} and {npc:2413} (33-34) stand together inside the crater's eastern rim, {npc:2414} (35) a little west of them; each carries one Bloodstone piece. The Shield Guards and Theurgists (31-32) around them drop the Worn Stone Tokens.` → maybe `Head west along the foot of the mountains to the violet dome of {area:279}. {npc:2411}, {npc:2412} and {npc:2413} (33-34) stand together inside the crater's eastern rim, {npc:2414} (35) a little west of them; each carries one Bloodstone piece. The Shield Guards and Theurgists (31-32) around them drop the Worn Stone Tokens.\nCareful: Many guards stand in linked pairs and others patrol alone around the camp.`
+- `forever/horde/30-40/01-desolace`: `Head north past {quest:535}'s camp to {area:280}, the Syndicate-held village (35-37). {npc:2431} carries the {item:3704}; {quest:503} sits in a cage in the house on the north side.` → maybe `Head north past {quest:535}'s camp to {area:280}, the Syndicate-held village (35-37). {npc:2431} carries the {item:3704}; {quest:503} sits in a cage in the house on the north side.\nCareful: Stealthed Syndicate spies roam {area:280}, and the buildings hold many Syndicate mobs, mages among them.`
+- `forever/horde/30-40/01-desolace`: `Fly to the {area:1497}` → maybe `Fly to {area:1497}`
+- `forever/horde/30-40/01-desolace`: `The next guide starts in the {area:1497}, at the {object:3202} zeppelin.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Leave the {zone:1458} by the lift and walk up through the ruins to the zeppelin towers; the {object:3202} zeppelin is the one on the south-west tower.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Zeppelin towers`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Take the {zone:1454} zeppelin from the tower on the west side of {object:3202} and train in the city before you fly on.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Take the {zone:1454} zeppelin from the tower on the west side of {object:3202} and fly to {area:392}. {npc:5901} camps on the coast a short walk south of it.` → maybe `Take the {area:1637} zeppelin from the tower on the west side of {object:3202} and fly to {area:392}. {npc:5901} camps on the coast a short walk south of it.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Back to {object:3202}`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Young tigers and panthers`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Young Stranglethorn Tigers prowl west of the camp, Young Panthers south and east of it.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Tigers and panthers`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Raptors and the Bloodscalp trolls`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Head west past the camp. Stranglethorn Raptors (33-34) hunt the clearings, and the Bloodscalp trolls hold the ruins on the coast: every Bloodscalp can drop a tusk. A {item:4614} is a very rare drop from them: if one drops, read it.` → maybe `Young Stranglethorn Tigers prowl west of the camp, Young Panthers south and east of it.\nHead west past the camp. Stranglethorn Raptors (33-34) hunt the clearings, and the Bloodscalp trolls hold the ruins on the coast: every Bloodscalp can drop a tusk. A {item:4614} is a very rare drop from them: if one drops, read it.\nCareful: The troll camps have many patrolling mobs, so other trolls often join a fight.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `The Elder Stranglethorn Tigers (34-35) roam the hills south-west of the camp; the Lashtail Raptors (35-36) hunt further south, towards {object:3202}.` → maybe `The Elder Stranglethorn Tigers (34-35) roam the hills south-west of the camp; the Lashtail Raptors (35-36) hunt further south, towards {object:3202}.\nCareful: Troll camps are close to the tiger area, and trolls can join a fight if you pull carelessly.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `{npc:729}, a level 37 tiger, prowls the hilltop south-west of the camp.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Bloodscalp headhunters`
+- `forever/horde/30-40/02-stranglethorn-vale`: `The Bloodscalp Headhunters (36-37) in the village on the coast carry the shrunken heads.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Hearth to {object:3202}`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Basilisks and the Bloodscalp village`
+- `forever/horde/30-40/02-stranglethorn-vale`: `West past the camp, Crystal Spine Basilisks (34-35) sit on the rocks; every Bloodscalp in the village beyond can drop an ear.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Lashtail raptors`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Shadowmaw jungle and the Snapjaw river`
+- `forever/horde/30-40/02-stranglethorn-vale`: `East of the ogres, Shadowmaw Panthers (37-38) stalk unseen until they strike; the Stranglethorn Tigresses roam the same ground and now and then drop a pristine fang. Snapjaw Crocolisks line the river just west of the jungle; keep their skins for {npc:2495}.` → maybe `East of the ogres, Shadowmaw Panthers (37-38) stalk unseen until they strike; the Stranglethorn Tigresses roam the same ground and now and then drop a pristine fang. Snapjaw Crocolisks line the river just west of the jungle; keep their skins for {npc:2495}.\nCareful: Shadowmaw Panthers (level 37-38) and Elder Shadowmaw Panthers (level 42-43) use Sneak while out of combat, so they remain hidden until you get near them.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Bloodscalp ruins`
+- `forever/horde/30-40/02-stranglethorn-vale`: `The Bloodscalp trolls hold the ruins up the coast north of the reef and the village beyond; every one can drop a {item:3915}. Keep looting pages of {quest:338}.` → maybe `The Bloodscalp Headhunters (36-37) in the village on the coast carry the shrunken heads.\nThe Bloodscalp trolls hold the ruins up the coast north of the reef and the village beyond; every one can drop a {item:3915}. Keep looting pages of {quest:338}.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Head back south to {object:3202}.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Pages of The {item:2755} drop at about 1% each from the Bloodscalp and Skullsplitter trolls; take what drops and check the Auction House for the rest.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Jungle Stalkers`
+- `forever/horde/30-40/02-stranglethorn-vale`: `The Jungle Stalkers (40-41) hunt the coast south of {object:3202}. They are well above you: pull one at a time and rest between fights.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Mistvale gorillas`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Take the road south towards {area:35}. The Elder Mistvale Gorillas (40-41) live in {area:1737}, east of the road; about one in twenty carries an aged sinew.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `Follow the road on south into {area:35}.`
+- `forever/horde/30-40/02-stranglethorn-vale`: `{npc:2495}: the Snapjaw skins gathered earlier`
+- `forever/horde/30-40/02-stranglethorn-vale`: `The next guide flies you north to {area:272} and into the {zone:1417}.`
+- `forever/horde/30-40/03-arathi-highlands`: `From {area:35}, fly to {object:3202}. {object:1661} zeppelin leaves from the tower on the west side of the camp.`
+- `forever/horde/30-40/03-arathi-highlands`: `Zeppelin to the {zone:1458}` → maybe `Zeppelin to {zone:1458}`
+- `forever/horde/30-40/03-arathi-highlands`: `The zeppelin lands at the towers outside the {zone:1458}: head down into the city and fly to {area:272}.`
+- `forever/horde/30-40/03-arathi-highlands`: `North-east of Hammerfall the Drywhisker kobolds mine the gorge; the Kobolds at the mouth and the Diggers and Surveyors deeper in all drop the Motes of Myzrael.` → maybe `North-east of Hammerfall the Drywhisker kobolds mine the gorge; the Kobolds at the mouth and the Diggers and Surveyors deeper in all drop the Motes of Myzrael.\nCareful: Every kobold type runs off for help when low on health (Kobolds at 30%, Surveyors and Diggers at 15%), which can pull more of them.`
+- `forever/horde/30-40/03-arathi-highlands`: `Each {object:180105} is a ring of standing stones; the key sits on the stone at its heart. The eastern circle is on the hills north-west of {area:321}.`
+- `forever/horde/30-40/03-arathi-highlands`: `The Witherbark trolls hold the village in the south-eastern hills. Axe Throwers guard the outer huts; the Witch Doctors and Headhunters hold the heart of the village.` → maybe `The Witherbark trolls hold the village in the south-eastern hills. Axe Throwers guard the outer huts; the Witch Doctors and Headhunters hold the heart of the village.\nCareful: All three troll types flee for help at 15% health, which can pull more trolls from the nearby camps.`
+- `forever/horde/30-40/03-arathi-highlands`: `Escort the professor down to the shore. Two Daggerspine naga ambush him on the way: stay close.`
+- `forever/horde/30-40/03-arathi-highlands`: `Daggerspine shore`
+- `forever/horde/30-40/03-arathi-highlands`: `The Syndicate hold the walled manor and its farm in the north-west; their Highwaymen, Mercenaries and Pathstalkers carry the Bloodstone Amulets.`
+- `forever/horde/30-40/03-arathi-highlands`: `The {object:2689}`
+- `forever/horde/30-40/03-arathi-highlands`: `The western circle is near {area:1857}, where you came in.`
+- `forever/horde/30-40/03-arathi-highlands`: `Rock Elementals`
+- `forever/horde/30-40/03-arathi-highlands`: `The bigger Rock Elementals stand on the slopes north-west of the {area:1878}; each one drops a slab.`
+- `forever/horde/30-40/03-arathi-highlands`: `Coyotes and buzzards`
+- `forever/horde/30-40/03-arathi-highlands`: `The Elder Crag Coyotes and Giant Buzzards roam the basin south of the {area:1878}. Coyotes drop both the jawbones and the fangs; only the buzzards drop wings and gizzards.` → maybe `The Elder Crag Coyotes and Giant Buzzards roam the basin south of the {area:1878}. Coyotes drop both the jawbones and the fangs; only the buzzards drop wings and gizzards.\nThe bigger Rock Elementals stand on the slopes north-west of the {area:1878}; each one drops a slab.`
+- `forever/horde/30-40/03-arathi-highlands`: `Greater Rock Elementals`
+- `forever/horde/30-40/03-arathi-highlands`: `The Greater Rock Elementals (42-44, well above you) wander the gulches in the south-west; the bracers drop about one kill in five. Pull one at a time and rest between fights, or leave them. Keep killing coyotes and buzzards you still need on the way.` → maybe `Every rock elemental in the {zone:1418} drops {npc:6868}'s shards: the Lesser Rock Elementals (37) on the flats west of {npc:2921}'s camp are the safe ones, about one kill in five. Only the Greater Rock Elementals (42-44, well above you) in the south-western gulches drop {npc:2921}'s bracers, also about one kill in five: pull one at a time and rest between fights, or leave them. Keep killing coyotes and buzzards you still need on the way.`
+- `forever/horde/30-40/03-arathi-highlands`: `Follow the road north; {npc:4618}'s camp is on the way.`
+- `forever/horde/30-40/03-arathi-highlands`: `Hearth to {area:340}`
+- `forever/horde/30-40/03-arathi-highlands`: `Take the {zone:1454} zeppelin from the tower on the west side of {object:3202}.`
+- `forever/horde/30-40/03-arathi-highlands`: `Zeppelin tower`
+- `forever/horde/30-40/03-arathi-highlands`: `for {npc:5395} in {zone:1443}, in the next guide`
+- `forever/horde/30-40/03-arathi-highlands`: `Head back south to the {area:380} and fly to {area:392}.`
+- `forever/horde/30-40/03-arathi-highlands`: `{item:3713}, for "Swamp Eye" Jarl in {zone:1445}`
+- `forever/horde/30-40/03-arathi-highlands`: `The next guide heads into {zone:1445}.`
+- `forever/horde/30-40/03-arathi-highlands`: `Head south along the coast from {area:392} to {area:720}. {npc:6236} stands by the arena: step on the grate to start the fight; the challengers come one at a time, then {npc:6238} (33).`
+- `forever/horde/30-40/04-dustwallow-marsh`: `{npc:6791}: the last guide binds here, so this usually ticks at once`
+- `forever/horde/30-40/04-dustwallow-marsh`: `Darkfang spiders`
+- `forever/horde/30-40/04-dustwallow-marsh`: `Head west back across the marsh. The Darkfang Venomspitters on the ridges north of Brackenwall drop the venom sacs. Theramore Infiltrators (35-36) sneak through the same woods: they are stealthed, so look closely.`
+- `forever/horde/30-40/04-dustwallow-marsh`: `The Darkmist spiders swarm the cavern mouth north-west of Brackenwall; every kind drops eyes.`
+- `forever/horde/30-40/04-dustwallow-marsh`: `Hearth to {area:392}`
+- `forever/horde/30-40/04-dustwallow-marsh`: `Head north-east to the {area:607}. {npc:12277} is held in the Maraudine centaur camp; free her and escort her out east of the valley.`
+- `forever/horde/30-40/04-dustwallow-marsh`: `{npc:11626}'s caravan stops on the road at the edge of {area:602}. Escort it east past the coven; demons attack it twice.`
+- `forever/horde/30-40/04-dustwallow-marsh`: `The caravan ends at {npc:11596}'s camp on the east side of the {area:596}.`
+- `forever/horde/30-40/04-dustwallow-marsh`: `{npc:5395} and {npc:5412} stand in the post just west of {npc:11596}'s camp.` → maybe `{npc:5395} and {npc:5412} stand in the post just west of Smeed's camp.`
+- `forever/horde/30-40/04-dustwallow-marsh`: `Kodo bones and ghosts`
+- `forever/horde/30-40/04-dustwallow-marsh`: `Pick up the kodo bones scattered across the graveyard, and use the {item:15848} among the bones: the ghosts it draws drop the ghost-o-plasm.`
+- `forever/horde/30-40/04-dustwallow-marsh`: `Head west to {npc:11863}'s tower at {area:2405} on the north-west coast.`
+- `forever/horde/30-40/04-dustwallow-marsh`: `Head east to {area:602}. Use the Rod of Banishing by each demon portal to close six of them.`
+- `forever/horde/30-40/04-dustwallow-marsh`: `Head north from the coven to {npc:5412} at {area:597}.` → maybe `Head north to {npc:5412} at {area:597}.`
+- `forever/horde/30-40/04-dustwallow-marsh`: `Hearth to Shadowprey`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Fly to {area:392}` → maybe `To {area:392}`
+- `forever/horde/40-50/01-stranglethorn-vale`: `From {area:2408} fly to {area:392}.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `The boat to {area:35} docks at the end of {area:392}'s pier.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `{area:392} pier`
+- `forever/horde/40-50/01-stranglethorn-vale`: `for Stoley in {zone:1446}`
+- `forever/horde/40-50/01-stranglethorn-vale`: `{npc:773}: for {quest:2864} in {area:976}` → maybe `{npc:773}: for {quest:2864} in {area:976}; upstairs`
+- `forever/horde/40-50/01-stranglethorn-vale`: `The {area:43}`
+- `forever/horde/40-50/01-stranglethorn-vale`: `South of Booty Bay the Bloodsail swashbucklers camp on the {area:43}; the charts and the orders lie in their tents. Any Bloodsail can carry snuff and {npc:2493}'s eye, so keep killing until you have both.` → maybe `South of Booty Bay the Bloodsail swashbucklers camp on the {area:43}; the charts and the orders lie in their tents. Any Bloodsail can carry snuff and {npc:2493}'s eye, so keep killing until you have both.\nTake the road south towards {area:35}. The Elder Mistvale Gorillas (40-41) live in {area:1737}, east of the road; about one in twenty carries an aged sinew.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `for a later stop in the {zone:1435}` → maybe `for a later stop in the {area:8}`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Further north, the goblins of the Venture Co. dig at the mine east of the road; miners, foremen, surveyors and tinkerers all drop the crystals.` → maybe `Further north, the goblins of the Venture Co. dig at the mine east of the road; miners, foremen, surveyors and tinkerers all drop the crystals.\nCareful: Stealthed Shadowmaw Panthers and Stranglethorn Tigresses roam the area around the camp.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Ride north-west to {object:3202}.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `for later: the {zone:1425}, around level 48`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Ride north up the road; the hunters camp on the hill above the river.` → maybe `Head north up the road; the hunters camp on the hill above the river.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Hearth to {object:3202}`
+- `forever/horde/40-50/01-stranglethorn-vale`: `the {object:2076}, beside {npc:2497}` → maybe `the {object:2076}, beside Nimboya`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Naga shore and the {object:759}`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Ride south to {area:35}. Shaky Phillipe waits on the docks.` → maybe `Head south to {area:35}. Shaky Phillipe waits on the docks.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Ride north to the Skullsplitter ruins east of the Venture Co. mine; pull the headhunters and berserkers one at a time. {npc:1059} guards the south-western ruins, and one pile of trophy skulls stands on the ruins' north side. Every Skullsplitter can drop a tusk or a necklace: the necklaces are the slow part, so keep killing in the warriors' camp north of the ruins until you have them all.` → maybe `Head north to the Skullsplitter ruins east of the Venture Co. mine; pull the headhunters and berserkers one at a time. {npc:1059} guards the south-western ruins, and one pile of trophy skulls stands on the ruins' north side. Every Skullsplitter can drop a tusk or a necklace: the necklaces are the slow part, so keep killing in the warriors' camp north of the ruins until you have them all.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `The next trophy skulls stand in the small ruins just north of the warriors' camp.` → maybe `The next trophy skulls stand in the small ruins just north of the warriors' camp.\nThe last skulls are in the ruins a short ride west, on the way back to {object:3202}.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `The last skulls are in the ruins a short ride west, on the way back to {object:3202}.` → maybe `The next trophy skulls stand in the small ruins just north of the warriors' camp.\nThe last skulls are in the ruins a short ride west, on the way back to {object:3202}.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Ride west to {object:3202}.` → maybe `Head west to {object:3202}.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Hearth to {area:35}`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Ride north up the road to the hunters' camp.` → maybe `Head north up the road to the hunters' camp.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Into the {zone:1435}`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Keep riding north into {zone:1431}, then east along the road through {zone:1430} into the swamp. {npc:1776} waits at the {area:657}, the draenei camp near the way in from {zone:1430}.` → maybe `Keep going north into {area:10}, then east along the road through {zone:1430} into the swamp. {npc:1776} waits at the {area:657}, the draenei camp near the way in from {zone:1430}.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Ride east to {area:75}, in the reeds south of the road.` → maybe `Head east to {area:75}, in the reeds south of the road.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `The crocolisks wallow in the pools around {npc:5391}'s camp and south towards {area:75}; about one in four drops a flank.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `Sawtooth snappers`
+- `forever/horde/40-50/01-stranglethorn-vale`: `The snappers line the strand south of the post.`
+- `forever/horde/40-50/01-stranglethorn-vale`: `The next guide starts here and takes you to {zone:1446}.`
+- `forever/horde/40-50/02-feralas`: `Ride back north-west from {area:1978} to {area:75} and fly to {object:3202}.`
+- `forever/horde/40-50/02-feralas`: `The {zone:1454} zeppelin leaves from the tower beside {object:3202}; it lands just outside {zone:1454}'s main gate.`
+- `forever/horde/40-50/02-feralas`: `Zeppelin tower`
+- `forever/horde/40-50/02-feralas`: `Riding needs level 40 and costs 100 gold; learning it gives you a mount. {npc:4752} teaches Orcs in the {object:172958}, by {npc:3362}'s kennel; no Skyborne riding trainer is known, so Skyborne try {npc:4752} too. Your race's other mounts are 20 gold each: Collectibles, Mounts · Level 40 has a guide for each.` → maybe `Riding needs level 40 and costs 100 gold; learning it gives you a mount. {npc:4752} teaches Orcs in the {object:172958}, by {npc:3362}'s kennel. Skyborne learn it from {npc:265756} at the {area:17684} in {area:16638} on Zephras Isle, with a Galestrider: the skyboat to the isle leaves the cliffs south of {area:17045}, north of {zone:1456}, about every five minutes. Your race's other mounts are 20 gold each: Collectibles, Mounts · Level 40 has a guide for each.`
+- `forever/horde/40-50/02-feralas`: `Galestriders: {npc:265756}, in {area:16638} on Zephras Isle.` → maybe `Riding and Galestriders: {npc:265756}, at the {area:17684} in {area:16638} on Zephras Isle.`
+- `forever/horde/40-50/02-feralas`: `Riding needs level 40 and costs 100 gold; learning it gives you a mount. In Classic each race learns it from its own race's trainer: yours is {npc:7953} in {area:367} on the {zone:1411} coast, with Zjolnir's raptors (20 gold each) beside him. Forever may let any race learn from any riding trainer (not confirmed): try {npc:4752} in {zone:1454}'s {object:172958} first, as he is the nearest, and skip this step if he teaches you.`
+- `forever/horde/40-50/02-feralas`: `{npc:7953}, riding trainer`
+- `forever/horde/40-50/02-feralas`: `Raptors: Zjolnir, beside {npc:7953} in {area:367}.`
+- `forever/horde/40-50/02-feralas`: `Riding needs level 40 and costs 100 gold; learning it gives you a mount. In Classic each race learns it from its own race's trainer: yours is {npc:3690} in {area:222}, with {npc:3685}'s kodos (20 gold each) beside him. Forever may let any race learn from any riding trainer (not confirmed): try {npc:4752} in {zone:1454}'s {object:172958} first, as he is the nearest, and skip this step if he teaches you.` → maybe `Riding needs level 40 and costs 100 gold; learning it gives you a mount. Each race learns it from its own race's trainer: yours is {npc:3690} in {area:222}, with {npc:3685}'s kodos (20 gold each) beside him. Another race's trainer ({npc:4752} in {zone:1454}) teaches you only once you are Exalted with his city.`
+- `forever/horde/40-50/02-feralas`: `Riding needs level 40 and costs 100 gold; learning it gives you a mount. In Classic each race learns it from its own race's trainer: yours is {npc:4773} in {area:159}, with {npc:4731}'s skeletal horses (20 gold each) beside her. Forever may let any race learn from any riding trainer (not confirmed): try {npc:4752} in {zone:1454}'s {object:172958} first, as he is the nearest, and skip this step if he teaches you.` → maybe `Riding needs level 40 and costs 100 gold; learning it gives you a mount. Each race learns it from its own race's trainer: yours is {npc:4773} in {area:159}, with {npc:4731}'s skeletal horses (20 gold each) beside her. Another race's trainer ({npc:4752} in {zone:1454}) teaches you only once you are Exalted with his city.`
+- `forever/horde/40-50/02-feralas`: `Fly to {area:484}, ride down the lift east of the post and across the salt flats, then south into {zone:1446}.`
+- `forever/horde/40-50/02-feralas`: `{area:976} is the walled goblin town just past the {zone:1446} border.` → maybe `{area:976} is the walled goblin town just past the {area:440} border.`
+- `forever/horde/40-50/02-feralas`: `the {object:150075} in the square`
+- `forever/horde/40-50/02-feralas`: `Eastern Wastewander camps`
+- `forever/horde/40-50/02-feralas`: `The bandits and thieves camp in the dunes east of {area:976}. Every Wastewander can carry a water pouch: keep ten, five for each of Luglunket's bounties.` → maybe `The bandits and thieves camp in the dunes east of {area:976}. Every Wastewander can carry a water pouch: keep ten, five for each of Luglunket's bounties.\nCareful: Wastewander Rogues (level 43-44) move stealthed, so they can approach unseen.`
+- `forever/horde/40-50/02-feralas`: `Southern Wastewander camps`
+- `forever/horde/40-50/02-feralas`: `The shadow mages, rogues and assassins camp south-east of {area:976}.`
+- `forever/horde/40-50/02-feralas`: `{npc:8579}: the screechers live in {zone:1444}`
+- `forever/horde/40-50/02-feralas`: `South along the coast, the Southsea pirates hold the cove. {npc:7883} and the stolen cargo are on the docks at its far end. Any pirate can drop a hat, the kidnappers most often.` → maybe `South along the coast, the Southsea pirates hold the cove. {npc:7883} and the stolen cargo are on the docks at its far end. Any pirate can drop a hat, the kidnappers most often.\nCareful: Two or three pirates stand with {npc:7883}, and many more pirates from the town join the fight once it starts.`
+- `forever/horde/40-50/02-feralas`: `for {area:35}, around level 50`
+- `forever/horde/40-50/02-feralas`: `Ride back west to {area:976}.` → maybe `Back to {area:976}`
+- `forever/horde/40-50/02-feralas`: `Fly to {area:484}, then ride west through the canyons past {area:2237}; the road climbs into the {zone:1444} jungle and on to {area:1099}.`
+- `forever/horde/40-50/02-feralas`: `The Woodpaw gnolls camp in the hills just north-west of Mojache; any of them can drop a mane.`
+- `forever/horde/40-50/02-feralas`: `Sprite darters and Woodpaw alphas`
+- `forever/horde/40-50/02-feralas`: `The sprite darters flit over the grove just west of Mojache; nearly every one drops a wing. The Woodpaw alphas lead the camps south-west of it: kill them within the hour.` → maybe `The sprite darters flit over the grove just west of Mojache; nearly every one drops a wing. The Woodpaw alphas lead the camps south-west of it: kill them within the hour.\nCareful: Most Alphas sit in small tent camps with 2-4 other gnolls that join the fight, and other gnolls patrol between the camps.`
+- `forever/horde/40-50/02-feralas`: `Southern Gordunni ruins`
+- `forever/horde/40-50/02-feralas`: `Rogue Vale screechers`
+- `forever/horde/40-50/02-feralas`: `Ride west into the middle of {zone:1444}. Kill a {npc:5308}, use {item:10699} on its body and kill the spirit that rises.`
+- `forever/horde/40-50/02-feralas`: `Only with the distress beacon: the robot sits in a small cave on the north side of {area:1105}. Escort it to the dock on the {area:1108}; yetis and gorillas ambush you on the way. Its reward waits in {area:35} for a later visit.`
+- `forever/horde/40-50/02-feralas`: `Fly to {area:1637}. The Droffers brothers run their shop in the Drag.` → maybe `Fly to {zone:1454}. The Droffers brothers run their shop in the Drag.\n{object:172958}, then the {object:172960} and the {object:172961}.`
+- `forever/horde/40-50/02-feralas`: `Zeppelin to {object:3202}`
+- `forever/horde/40-50/02-feralas`: `The {object:3202} zeppelin leaves from the tower just north-east of {zone:1454}'s main gate.`
+- `forever/horde/40-50/02-feralas`: `Fly to {area:75}`
+- `forever/horde/40-50/02-feralas`: `Thysta, the flight master, stands just east of the zeppelin tower. Fly to {area:75}: the next guide starts there.`
+- `forever/horde/40-50/03-feralas`: `You start in {area:75}. Bind here: you hearth back after the coast.`
+- `forever/horde/40-50/03-feralas`: `for the {object:2555} in {zone:1445}, later in this guide` → maybe `for the {object:2555} in {area:15}, later in this guide`
+- `forever/horde/40-50/03-feralas`: `Back east past {area:75}: the Atal'ai artifacts lie in the water and on the banks of the {quest:1424}.`
+- `forever/horde/40-50/03-feralas`: `Monstrous Crawlers`
+- `forever/horde/40-50/03-feralas`: `The Monstrous Crawlers walk the beaches of the east coast, few and far between: kill every one you see on the way south.` → maybe `The snappers line the strand south of the post.\nThe Monstrous Crawlers walk the beaches of the east coast, few and far between: kill every one you see on the way south.`
+- `forever/horde/40-50/03-feralas`: `The small Horde post on the southern shore.`
+- `forever/horde/40-50/03-feralas`: `The same murlocs again, plus the Oracles, who stay near the huts on the western shore.`
+- `forever/horde/40-50/03-feralas`: `Fly to {object:3202}`
+- `forever/horde/40-50/03-feralas`: `Zeppelin to {zone:1454}`
+- `forever/horde/40-50/03-feralas`: `The zeppelin to {zone:1454} leaves from the tower beside {object:3202}; it lands just north-east of {zone:1454}'s main gate.`
+- `forever/horde/40-50/03-feralas`: `Zeppelin tower`
+- `forever/horde/40-50/03-feralas`: `{object:172958}, then the {object:172960} and the {object:172961}.`
+- `forever/horde/40-50/03-feralas`: `Your trainer is in {area:1638}: fly there (no flight path there yet? fly to {area:378} and ride west through {zone:1412}), then on to {area:496}.`
+- `forever/horde/40-50/03-feralas`: `{npc:4500} is elite: grouping up is advised. Beat him down until he gives up, then report to {npc:4501}.`
+- `forever/horde/40-50/03-feralas`: `{npc:7875}: for {npc:7010} in {zone:1454}, around level 50`
+- `forever/horde/40-50/03-feralas`: `Ride back east to the camp. Stay here: the next guide starts with the flight to {area:976}.`
+- `forever/horde/40-50/04-tanaris`: `From {area:1099}'s flight master.` → maybe `{area:1099} flight master`
+- `forever/horde/40-50/04-tanaris`: `the {object:150075} in the square`
+- `forever/horde/40-50/04-tanaris`: `South-east of Gadgetzan the Wastewander bandits camp in the dunes; {npc:7847} stands in the eastern camp.`
+- `forever/horde/40-50/04-tanaris`: `West, the Centipaar insects swarm around their hives; any of them drops the parts.`
+- `forever/horde/40-50/04-tanaris`: `West of the compound the cactus creatures fill the valley; only the Dew Collectors carry a dew gland. Most mobs in {zone:1446} can drop OOX-17/TN's distress beacon, rarely: keep it if you see one.` → maybe `West of the compound the cactus creatures fill the valley; only the Dew Collectors carry a dew gland. Most mobs in {area:440} can drop OOX-17/TN's distress beacon, rarely: keep it if you see one.\nCareful: The other thistleshrub mobs in the area are level 49-50 and wander a lot, so you can easily pull extra mobs.`
+- `forever/horde/40-50/04-tanaris`: `Ride south-west to {area:976}.`
+- `forever/horde/40-50/04-tanaris`: `South down the road again.`
+- `forever/horde/40-50/04-tanaris`: `Further south, Junior Surveyor Scrimshank's gear lies at the mouth of a Centipaar hive.`
+- `forever/horde/40-50/04-tanaris`: `Only with the distress beacon: OOX-17/TN sits south-east of Scrimshank's hive. Escort it north to {area:977}; its reward waits with Oglethorpe in {area:35}.` → maybe `Only with the distress beacon: OOX-17/TN sits south-east of Scrimshank's hive. Escort it north to {area:977}; its reward waits with Oglethorpe in {area:35}.\nCareful: The escort has two ambushes. Three level 47 scorpids attack near the start. Near the end, by the beach, three Wastewander humans attack: one mage and two assassins, around level 44.`
+- `forever/horde/40-50/04-tanaris`: `for {npc:7010} in {area:1637}, around level 50` → maybe `for {npc:7010} in {zone:1454}, around level 50`
+- `forever/horde/40-50/04-tanaris`: `Fly to {area:1637} and train: the next guide's training stop is the {zone:1458}, which has no Hunter or Shaman trainer. Then fly to {area:392}.`
+- `forever/horde/40-50/04-tanaris`: `Fly to {area:1638} and train with {npc:3033} on {area:1639}, then fly to {area:392}.`
+- `forever/horde/40-50/04-tanaris`: `Fly to {area:392}`
+- `forever/horde/40-50/04-tanaris`: `Boat to {area:35}`
+- `forever/horde/40-50/04-tanaris`: `The boat to {area:35} docks at {area:392}'s pier, below the flight master's hill.`
+- `forever/horde/40-50/04-tanaris`: `{area:392} pier`
+- `forever/horde/40-50/04-tanaris`: `Fly to {area:340}`
+- `forever/horde/40-50/04-tanaris`: `From the {area:35} flight master, above the harbour.`
+- `forever/horde/40-50/04-tanaris`: `Take the pass out of {area:340}'s west side into the {zone:1427}, then ride south-west to the dig site. The {object:173265} stands at its southern end; the Dark Iron Geologists dig just north of it. Bring 15 {item:4306} (the Auction House sells it).` → maybe `Take the pass out of {area:340}'s west side into the {area:51}, then ride south-west to the dig site. The {object:173265} stands at its southern end; the Dark Iron Geologists dig just north of it. Bring 15 {item:4306} (the Auction House sells it).`
+- `forever/horde/40-50/04-tanaris`: `Heavy War Golems patrol the Cauldron below Kalaran and drop the oil; the Magma and Blazing Elementals drifting among them drop the hearts. The Dark Iron Taskmasters and Slavers drive the slaves on the paths; a Slaver may drop the {item:11818}: keep it.`
+- `forever/horde/40-50/04-tanaris`: `{area:1443} opens in the north of the Cauldron. Incendosaurs swim in its lava pools: pull them to the edge. The secret plans lie on the pit's upper ledge.`
+- `forever/horde/40-50/04-tanaris`: `Greater Lava Spiders`
+- `forever/horde/40-50/04-tanaris`: `The Greater Lava Spiders roam the plateaus and lava pools in the south-west of the gorge.`
+- `forever/horde/40-50/05-the-hinterlands`: `From {area:1446}'s flight master.` → maybe `{area:1446} flight master`
+- `forever/horde/40-50/05-the-hinterlands`: `The northern beasts`
+- `forever/horde/40-50/05-the-hinterlands`: `The five quests share the same parts: gather them all in one sweep. West of the road the {npc:5982} vultures, Starving Snickerfangs, Scorpok Stingers and Deatheye basilisks share the hills.` → maybe `The five quests share the same parts: gather them all in one sweep. West of the road the {npc:5982} vultures, Starving Snickerfangs, Scorpok Stingers and Deatheye basilisks share the hills.\nEast of the road the Ashmane boars and Grunters root on the slopes beside the Redstone basilisks. Stay away from the level 52 Helboars further south.\nCareful: Scorpok Stingers use {spell:5416}; {npc:8301} adds Knockdown.`
+- `forever/horde/40-50/05-the-hinterlands`: `The eastern slopes`
+- `forever/horde/40-50/05-the-hinterlands`: `East of the road the Ashmane boars and Grunters root on the slopes beside the Redstone basilisks. Stay away from the level 52 Helboars further south.`
+- `forever/horde/40-50/05-the-hinterlands`: `Grind to 48`
+- `forever/horde/40-50/05-the-hinterlands`: `Only if you are not level 48 yet.`
+- `forever/horde/40-50/05-the-hinterlands`: `Vulture hills`
+- `forever/horde/40-50/05-the-hinterlands`: `grind on {npc:5982} at the northern hills, {zone:1419}`
+- `forever/horde/40-50/05-the-hinterlands`: `Fly to the {area:1497}`
+- `forever/horde/40-50/05-the-hinterlands`: `Ride north back to {area:75} and fly to the {area:1497}.`
+- `forever/horde/40-50/05-the-hinterlands`: `{npc:7825}, the {object:36126}`
+- `forever/horde/40-50/05-the-hinterlands`: `{npc:6741}: for {zone:1456}, around level 50`
+- `forever/horde/40-50/05-the-hinterlands`: `Ride north-east from {area:272} into the {zone:1425} and east along the road; {npc:7801} camps on the hill south of the elves' {area:350}.` → maybe `Ride north-east from {area:272} into the {area:47} and east along the road; {npc:7801} camps on the hill south of the elves' {area:350}.`
+- `forever/horde/40-50/05-the-hinterlands`: `The Highvale elves camp around {area:350}. Burn the report, the notes and the records in their camps. {npc:7780} is held inside the lodge: lead him out and fight off the ambush on the way.` → maybe `The Highvale elves camp around {area:350}. Burn the report, the notes and the records in their camps. {npc:7780} is held inside the lodge: lead him out and fight off the ambush on the way.\nCareful: Groups of about three elves ambush the escort, usually twice.`
+- `forever/horde/40-50/05-the-hinterlands`: `Follow the roads east across the {zone:1425} to the troll village on the eastern coast.` → maybe `Follow the roads east across the {area:47} to the troll village on the eastern coast.`
+- `forever/horde/40-50/05-the-hinterlands`: `Saltwater Snapjaws`
+- `forever/horde/40-50/05-the-hinterlands`: `The Vilebranch temples`
+- `forever/horde/40-50/05-the-hinterlands`: `West of the island, the Vilebranch scalpers hold the temples of {area:1884} and {area:1917}. Slagtree's tools lie at one of the temples.`
+- `forever/horde/40-50/05-the-hinterlands`: `The central hills`
+- `forever/horde/40-50/05-the-hinterlands`: `The Silvermane Stalkers, Savage Owlbeasts and Razorbeak Skylords share the hills between the temples and {area:351}. Use the {item:9618} on the owlbeasts you kill. The Skylords also drop Long Elegant Feathers: keep ten for {npc:14738}'s second message.`
+- `forever/horde/40-50/05-the-hinterlands`: `Only with the distress beacon: the robot sits at the head of the river west of {area:351}. Escort it east to the shore beyond the {area:307}; its reward waits with Oglethorpe in {area:35}.`
+- `forever/horde/40-50/05-the-hinterlands`: `Silvermane Howlers`
+- `forever/horde/40-50/05-the-hinterlands`: `South-west, the Silvermane Howlers roam the hills east of the Witherbark villages.`
+- `forever/horde/40-50/05-the-hinterlands`: `Vilebranch soothsayers`
+- `forever/horde/40-50/05-the-hinterlands`: `On the way back east, the Vilebranch soothsayers hold the {area:355}, the troll temple south of the central hills. Qiaga and {npc:8636} (elite, 50) stand at its top: take the soothsayers on the lower steps.` → maybe `On the way back east, the Vilebranch soothsayers hold the {area:355}, the troll temple south of the central hills. Qiaga and {npc:8636} (elite, 50) stand at its top: take the soothsayers on the lower steps.\nSouth-west, the Silvermane Howlers roam the hills east of the Witherbark villages.`
+- `forever/horde/40-50/06-azshara`: `Fly to the {area:1497}`
+- `forever/horde/40-50/06-azshara`: `From {area:3317}'s flight master, fly to the {area:1497}.`
+- `forever/horde/40-50/06-azshara`: `{npc:7825} stands in the {object:36082}.`
+- `forever/horde/40-50/06-azshara`: `Take the zeppelin to {zone:1454} from the tower outside the {zone:1458}, then fly to {area:431}.`
+- `forever/horde/40-50/06-azshara`: `Ride into {zone:1447}`
+- `forever/horde/40-50/06-azshara`: `Highborne and Haldarr satyrs`
+- `forever/horde/40-50/06-azshara`: `Fly to {area:1638}; it is on the way to {area:1099}. No flight path there yet? Fly to {area:378} and ride west through {zone:1412}. Hamuul and {npc:4046} are on the {area:1639}; Druids and Paladins train here ({npc:3033}, {npc:246344}).` → maybe `Fly to {zone:1456}; it is on the way to {area:1099}. No flight path there yet? Fly to {area:378} and ride west through {zone:1412}. Hamuul and {npc:4046} are on the {area:1639}; Druids and Paladins train here ({npc:3033}, {npc:246344}).`
+- `forever/horde/40-50/06-azshara`: `{npc:7776}: the bears are in {zone:1448}`
+- `forever/horde/40-50/06-azshara`: `Keep {area:1417} for {npc:7771} in {zone:1446}.`
+- `forever/horde/40-50/06-azshara`: `Ride north-west to the {area:1108}; {npc:14637} waits on the dock.`
+- `forever/horde/40-50/06-azshara`: `Zapped giants`
+- `forever/horde/40-50/06-azshara`: `The Land Walkers and Cliff Giants roam the hills north of the dock. Zap each one with {item:18904} first: shrunken, they are no longer elite. Every zapped giant drops residue; use the Muisek Vessel on its body too.` → maybe `The Sea Elementals and Sea Sprays wash along the shore around the dock.\nThe Land Walkers and Cliff Giants roam the hills north of the dock. Zap each one with {item:18904} first: shrunken, they are no longer elite. Every zapped giant drops residue; use the Muisek Vessel on its body too.`
+- `forever/horde/40-50/06-azshara`: `Sea elementals`
+- `forever/horde/40-50/06-azshara`: `The Sea Elementals and Sea Sprays wash along the shore around the dock.`
+- `forever/horde/40-50/06-azshara`: `Ride south along the road to the {area:1938}; {npc:7771} camps beside it. From here the road west leads down into {zone:1449}, where the next guide starts.` → maybe `South down the road again.\nRide south along the road to the {area:1938}; {npc:7771} camps beside it. From here the road west leads down into {zone:1449}, where the next guide starts.`
+- `forever/horde/50-60/01-un-goro-crater`: `Into {zone:1449}`
+- `forever/horde/50-60/01-un-goro-crater`: `From the {area:1938} ride west to the long ramp that winds down into {zone:1449}, then follow the crater's north wall to {area:541}, a camp in the cliff caves. Everyone here is neutral.` → maybe `From the {area:1938} ride west to the long ramp that winds down into {area:490}, then follow the crater's north wall to {area:541}, a camp in the cliff caves. Everyone here is neutral.`
+- `forever/horde/50-60/01-un-goro-crater`: `The wooden sign beside {npc:9997}`
+- `forever/horde/50-60/01-un-goro-crater`: `{npc:9117}, at the back of the cave` → maybe `{npc:9117}, at the back of the cave; below ground`
+- `forever/horde/50-60/01-un-goro-crater`: `Western jungle`
+- `forever/horde/50-60/01-un-goro-crater`: `Ride south-west along the western cliffs. {npc:9167} fly over the west side, and Bloodpetal Trappers grow in the same jungle.`
+- `forever/horde/50-60/01-un-goro-crater`: `South of the hot springs, Stegodons graze and Dinosaur Bones drop from them or lie on the ground; Diemetradons nearby carry the scales {npc:9998} wants. Ravasaurs hunt in packs in the south-west: their claws are for {npc:8659}, and now and then one carries a Mangled Journal (a rare drop: take its quest only if you get one). Avoid Gruff, a level 57 Stegodon.` → maybe `Ride south-west to {area:537}, the volcano in the middle of the crater. Bloodpetal Flayers grow around its foot.\nSouth of the hot springs, Stegodons graze and Dinosaur Bones drop from them or lie on the ground; Diemetradons nearby carry the scales {npc:9998} wants. Ravasaurs hunt in packs in the south-west: their claws are for {npc:8659}, and now and then one carries a Mangled Journal (a rare drop: take its quest only if you get one). Avoid Gruff, a level 57 Stegodon.\nRide south-west along the western cliffs. {npc:9167} fly over the west side, and Bloodpetal Trappers grow in the same jungle.`
+- `forever/horde/50-60/01-un-goro-crater`: `The silithid hive fills the south of the crater. Gorishi wasps and workers drop the scent gland; use the Scraping Vial on the egg mass inside the first chamber. The Hive Queen at the bottom is an elite boss: stay out of her chamber. {npc:9166} nest on the cliffs above the hive; their scales are for {npc:9998}.` → maybe `The silithid hive fills the south of the crater. Gorishi wasps and workers drop the scent gland; use the Scraping Vial on the egg mass inside the first chamber. The Hive Queen at the bottom is an elite boss: stay out of her chamber. Pterrordax nest on the cliffs above the hive; their scales are for {npc:9998}.`
+- `forever/horde/50-60/01-un-goro-crater`: `Keep the bait: {npc:9684} is level 56, and the second loop passes his lair.`
+- `forever/horde/50-60/01-un-goro-crater`: `{npc:9623}, the robot on the plateau` → maybe `{npc:9623}, the robot on the plateau; below ground`
+- `forever/horde/50-60/01-un-goro-crater`: `Bloodpetal Flayers`
+- `forever/horde/50-60/01-un-goro-crater`: `Ride south-west to {area:537}, the volcano in the middle of the crater. Bloodpetal Flayers grow around its foot.`
+- `forever/horde/50-60/01-un-goro-crater`: `{npc:9999} sits on the ridge, lost and exhausted.`
+- `forever/horde/50-60/01-un-goro-crater`: `Escort {npc:9999}`
+- `forever/horde/50-60/01-un-goro-crater`: `Lead {npc:9999} north to {area:541}. When he faints, use {item:11804} on him to wake him.`
+- `forever/horde/50-60/01-un-goro-crater`: `{npc:9684}'s lair is just south of the pylon. Use {npc:9619}'s bait there; {npc:9684} is level 56 and hits hard, so start at full health.`
+- `forever/horde/50-60/01-un-goro-crater`: `{npc:9619} now asks for {npc:9622}'s pelt, back in the north-east cave: skip it.`
+- `forever/horde/50-60/01-un-goro-crater`: `{npc:10302} the goblin sits at {area:543}, just east of the pylon.`
+- `forever/horde/50-60/01-un-goro-crater`: `Ride east to {area:537}, climb it and use {npc:10541} at the lava vent near the top, then ride back west to {npc:10302}.`
+- `forever/horde/50-60/01-un-goro-crater`: `{npc:10302} sends you to {npc:9298} in {zone:1452}: keep it.`
+- `forever/horde/50-60/01-un-goro-crater`: `Theodora's quest in {area:340} needs level 52. The Tar Lurkers and Tar Lords just south of the refuge are the closest camp.`
+- `forever/horde/50-60/01-un-goro-crater`: `grind on Tar Lurkers at {area:538}, {zone:1449}`
+- `forever/horde/50-60/01-un-goro-crater`: `Fly to {area:1638} and train with {npc:3033} on {area:1639}, then fly to {area:1637} for the {object:3202} zeppelin.`
+- `forever/horde/50-60/01-un-goro-crater`: `Fly to {area:1637}, take the zeppelin to {object:3202} and fly from there to {area:340}, built into the cliffs on the {zone:1418}' west edge.` → maybe `Fly to {zone:1454}, take the zeppelin to {object:3202} and fly from there to {area:340}, built into the cliffs on the {area:3}' west edge.`
+- `forever/horde/50-60/01-un-goro-crater`: `Black Broodlings`
+- `forever/horde/50-60/01-un-goro-crater`: `Black Broodlings nest in the hills just east of {area:251}. Use {npc:10267}'s {item:12284} on a broodling when it is almost dead to capture its essence.` → maybe `Ride west to the dig site. {npc:7039} golems (53) stomp around it and drop the shards often; the {quest:4296} stands in its middle among the Thaurissan dwarves. Copy it.\nBlack Broodlings nest in the hills just east of {area:251}. Use {npc:10267}'s {item:12284} on a broodling when it is almost dead to capture its essence.`
+- `forever/horde/50-60/01-un-goro-crater`: `Thaurissan dig site`
+- `forever/horde/50-60/01-un-goro-crater`: `Ride west to the dig site. {npc:7039} golems (53) stomp around it and drop the shards often; the {quest:4296} stands in its middle among the Thaurissan dwarves. Copy it.` → maybe `Ride west to the dig site. {npc:7039} golems (53) stomp around it and drop the shards often; the {quest:4296} stands in its middle among the Thaurissan dwarves. Copy it.\nBlack Broodlings nest in the hills just east of {area:251}. Use {npc:10267}'s {item:12284} on a broodling when it is almost dead to capture its essence.`
+- `forever/horde/50-60/01-un-goro-crater`: `Leave the {zone:1458} and ride east along the road through {zone:1420} to the {area:152}, the Forsaken fort on the border.` → maybe `Leave the {zone:1458} and ride east along the road through {area:85} to the {area:152}, the Forsaken fort on the border.`
+- `forever/horde/50-60/01-un-goro-crater`: `Follow the road east through the {zone:1422} and across the river into the {zone:1423}; leave it north for {area:2627}, the ruined town in the north-west. {npc:12384} sits in a hut at its edge.` → maybe `Follow the road east through the {zone:1422} and across the river into the {area:139}; leave it north for {area:2627}, the ruined town in the north-west. {npc:12384} sits in a hut at its edge.`
+- `forever/horde/50-60/01-un-goro-crater`: `The book lies in the ruined inn of {area:2627}.`
+- `forever/horde/50-60/01-un-goro-crater`: `Termite mounds`
+- `forever/horde/50-60/01-un-goro-crater`: `The Large Termite Mounds stand all over the hills east of {area:2627}. Use the {item:15042} on each mound you pass.` → maybe `The book lies in the ruined inn of {area:2627}.\nThe Large Termite Mounds stand all over the hills east of {area:2627}. Use the {item:15042} on each mound you pass.`
+- `forever/horde/50-60/01-un-goro-crater`: `Darrowshire Spirits`
+- `forever/horde/50-60/01-un-goro-crater`: `{npc:12250} lurks just west of {area:2262}.` → maybe `Zaeldarr lurks just west of {area:2262}.`
+- `forever/horde/50-60/02-felwood`: `Fly to the {area:1497}`
+- `forever/horde/50-60/02-felwood`: `From {area:2268}'s flight master, fly to the {area:1497}.`
+- `forever/horde/50-60/02-felwood`: `Leave the {area:1497} and ride east along the road through {zone:1420}, past the {area:152}. Felstone Farm is the first farm along the road; {npc:10778} waits in the house.`
+- `forever/horde/50-60/02-felwood`: `{object:175894}, beside the house`
+- `forever/horde/50-60/02-felwood`: `Keep the parcel: {npc:10781} is in the {area:1497}.`
+- `forever/horde/50-60/02-felwood`: `Scarlet forward camp`
+- `forever/horde/50-60/02-felwood`: `The Scarlet Crusade's tents stand between {area:199} and {area:200}. Torch the command tent with the {object:176092} and plant the Scourge banner.`
+- `forever/horde/50-60/02-felwood`: `Ride south past the {area:202} to {area:197}; {npc:10927}'s house stands by the road, and {npc:10936}'s monument is in the graveyard behind it. Kill the Diseased Wolves you meet in the fields on the way.` → maybe `Ride south past the {area:202} to {area:197}. Kill the Diseased Wolves you meet in the fields on the way.`
+- `forever/horde/50-60/02-felwood`: `Keep {quest:5142}: Pamela is in {area:2262}, visited again later.` → maybe `Keep Little Pamela: Pamela is in {area:2262}, visited again later.`
+- `forever/horde/50-60/02-felwood`: `Diseased Grizzlies`
+- `forever/horde/50-60/02-felwood`: `The bears roam the hills north and east of the {area:202}.`
+- `forever/horde/50-60/02-felwood`: `Radley and Durgen`
+- `forever/horde/50-60/02-felwood`: `{npc:11613} stands east of the lumber camp; {npc:11611} guards the road north-east of {npc:11610}, toward {area:190}.`
+- `forever/horde/50-60/02-felwood`: `{npc:11610}'s last task needs level 53. The Scarlet Knights and Magi (54-55) working the lumber camp just south-west of her are the closest camp.`
+- `forever/horde/50-60/02-felwood`: `grind on Scarlet Knights at {area:192}, {zone:1422}`
+- `forever/horde/50-60/02-felwood`: `{area:190}'s Scarlets are level 58-60. Ride in to the high point marked on your map, look over the town, and get out.`
+- `forever/horde/50-60/02-felwood`: `To {zone:1448}`
+- `forever/horde/50-60/02-felwood`: `Ride back to the {area:1497}, take the zeppelin to {zone:1454} and fly to {area:431}. Follow the road west out of Splintertree and take the fork north into {zone:1448}.`
+- `forever/horde/50-60/02-felwood`: `Ride back south-east to the Sanctuary.`
+- `forever/horde/50-60/02-felwood`: `{npc:11557}: keep 30 {quest:6031} for him; he trades only at Neutral with the Timbermaw` → maybe `{npc:11557}: keep 30 {quest:6031} for him; he trades only at Neutral with the Timbermaw; below ground`
+- `forever/horde/50-60/02-felwood`: `Ride the road south through {zone:1448} to the Sanctuary.` → maybe `Ride the road south through {area:361} to the Sanctuary.`
+- `forever/horde/50-60/02-felwood`: `Back at {area:1762}, the Deadwood furbolgs (53-54) are close to the tunnel and every kill raises your Timbermaw reputation.`
+- `forever/horde/50-60/02-felwood`: `grind on Deadwood Avengers at {area:1762}, {zone:1448}`
+- `forever/horde/50-60/02-felwood`: `{npc:11558}, at the tunnel mouth`
+- `forever/horde/50-60/02-felwood`: `Through {area:1769}`
+- `forever/horde/50-60/02-felwood`: `Walk into the {area:1769} tunnel beside {npc:15395} and never attack the Timbermaw furbolgs inside. The tunnel opens into {zone:1452}; follow the road east to {area:2255}, the goblin town where the next guide starts.`
+- `forever/horde/50-60/03-winterspring`: `From Krakle in Un'Goro`
+- `forever/horde/50-60/03-winterspring`: `{npc:11556} stands by the {zone:1452} exit of {area:1769}'s tunnel, north of the hot springs.` → maybe `{npc:11556} stands by the {area:618} exit of {area:1769}'s tunnel, north of the hot springs.`
+- `forever/horde/50-60/03-winterspring`: `Frostfire Winterfall camps`
+- `forever/horde/50-60/03-winterspring`: `Ride east, then south down {area:2249}. The Frostmaul giants there are elite level 59: keep to the middle and keep moving. The strange source is at the mouth of {area:2256}, at the south end.`
+- `forever/horde/50-60/03-winterspring`: `Ride back west to {area:2246}.`
+- `forever/horde/50-60/03-winterspring`: `Any Winterfall furbolg can carry the beads; the camps just south of {npc:11556} are the closest.`
+- `forever/horde/50-60/03-winterspring`: `Frostfire Winterfall camp`
+- `forever/horde/50-60/03-winterspring`: `Back to {area:2255}`
+- `forever/horde/50-60/03-winterspring`: `Grind to 55`
+- `forever/horde/50-60/03-winterspring`: `grind on {npc:7440} at {area:2244}, {zone:1452}`
+- `forever/horde/50-60/03-winterspring`: `{npc:10307}, beside him`
+- `forever/horde/50-60/03-winterspring`: `Back at {area:1099}.`
+- `forever/horde/50-60/03-winterspring`: `He stands on {area:1641}. Each donation wants cloth from your bags; hand them in when you have it, later in the route.` → maybe `He stands on {area:1641}. Each donation wants sixty cloth from your bags: take them if you save cloth, and hand in what you carry later in the route.`
+- `forever/horde/50-60/03-winterspring`: `{npc:9087} buys {item:11040} grown from your {quest:3761}.`
+- `forever/horde/50-60/04-azshara`: `Fly to the {area:380}`
+- `forever/horde/50-60/04-azshara`: `In the {object:172961}. Have the Wool, Silk and Mageweave in your bags.`
+- `forever/horde/50-60/04-azshara`: `Both {item:14047} donations are handed in later in the route: start saving {item:14047}.`
+- `forever/horde/50-60/04-azshara`: `Rimtori's camp is at the east end of the base camp. Read the {object:151286} there, then kill the Magus.`
+- `forever/horde/50-60/04-azshara`: `Fly to {area:1637}; {npc:4485} is in the {object:172958}.` → maybe `Fly to {zone:1454}; {npc:4485} is in the {object:172958}.`
+- `forever/horde/50-60/04-azshara`: `Zeppelin to the {zone:1458}` → maybe `Zeppelin to {zone:1458}`
+- `forever/horde/50-60/04-azshara`: `The zeppelin tower stands just north-east of {zone:1454}'s main gate; take the {zone:1458} zeppelin.`
+- `forever/horde/50-60/04-azshara`: `Zeppelin tower`
+- `forever/horde/50-60/05-eastern-plaguelands`: `{object:1661}'s flight master is in the {object:36078}'s west tower, outside the walls.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `Plaguehounds and their runts roam the shores of the lake south-west of the chapel.` → maybe `Plaguehounds and their runts roam the shores of the lake south-west of the chapel.\nThe shattered sword lies on the ground north-west of the lake.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `Sword of Marduk`
+- `forever/horde/50-60/05-eastern-plaguelands`: `The shattered sword lies on the ground north-west of the lake.` → maybe `Plaguehounds and their runts roam the shores of the lake south-west of the chapel.\nThe shattered sword lies on the ground north-west of the lake.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `The {area:2622}`
+- `forever/horde/50-60/05-eastern-plaguelands`: `The skull sits in the {area:2622}, among Blighted Horrors and Plague Monstrosities.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `Hameya's scroll`
+- `forever/horde/50-60/05-eastern-plaguelands`: `A torn scroll lies at the entrance of the {area:2261}, the crypt south of the {area:2260}.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `{npc:15193}'s champion holds the {area:2260} farmhouse.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `The western hills`
+- `forever/horde/50-60/05-eastern-plaguelands`: `The high elf Rangers, Pathstriders and Woodsmen guard the lodge by {area:2275}; the Registry lies inside. Rangers reach 60: pull one at a time. Noxious Plaguebats fly over the fields on the way.` → maybe `The high elf Rangers, Pathstriders and Woodsmen guard the lodge by {area:2275}; the Registry lies inside. Rangers reach 60: pull one at a time. Noxious Plaguebats fly over the fields on the way.\nThe skull sits in the {area:2622}, among Blighted Horrors and Plague Monstrosities.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `Hameya hides among the Mossflayer trolls of {area:2273}, in the north-east corner.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `{item:15447} spoils within ten minutes: kill the town's Scourge quickly and grind the seven pieces with the {item:15454} at once.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `Hameya's mound`
+- `forever/horde/50-60/05-eastern-plaguelands`: `The {object:177675} is just behind the {area:2261}.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `Fly to the {zone:1458}, take the zeppelin to {zone:1454} and fly on to {area:1638}.` → maybe `Fly to the {area:1497}, take the zeppelin to {zone:1454} and fly on to {zone:1456}.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `On {area:1641}. Have the Wool, Silk and Mageweave in your bags.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `Only if you found a {item:12820} flask in {zone:1452}: ride north up the road. The cauldron stands in {area:1762}, just south-west of {area:1769}; the Deadwood furbolgs there are hostile.` → maybe `Only if you found a {item:12820} flask in {area:618}: ride north up the road. The cauldron stands in {area:1762}, just south-west of {area:1769}; the Deadwood furbolgs there are hostile.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `Go through {area:1769} and take the {zone:1450} branch of the tunnel. {npc:11801} is in {area:2361}.` → maybe `Go through {area:1769} and take the {area:493} branch of the tunnel. {npc:11801} is in {area:2361}.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `Back through the tunnel and take the {zone:1452} exit, then ride south to {area:2246}.` → maybe `Back through the tunnel and take the {area:618} exit, then ride south to {area:2246}.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `Back to {area:1638}`
+- `forever/horde/50-60/05-eastern-plaguelands`: `Use {npc:10980} on {npc:7583}, the goblin girl in {area:976}. {npc:10977} and {npc:10978} are scared later in the route.` → maybe `Use {item:12928} on {npc:7583}, the goblin girl in {area:976}. {npc:10977} and {npc:10978} are scared later in the route.`
+- `forever/horde/50-60/05-eastern-plaguelands`: `Hippogryph eggs`
+- `forever/horde/50-60/05-eastern-plaguelands`: `On to {zone:1451}`
+- `forever/horde/50-60/05-eastern-plaguelands`: `Fly to {area:541}, then ride south-west through Un'Goro to the pass into {zone:1451}. The next guide opens at {area:3077}, where the pass comes out.`
+- `forever/horde/50-60/06-silithus`: `Dredge and scorpids`
+- `forever/horde/50-60/06-silithus`: `Mar'alith's Dearest Natalia needs level 58 and leads into {area:2744} among elites. Skip it.` → maybe `Mar'alith's {quest:8304} needs level 58 and leads into {area:2744} among elites. Skip it.`
+- `forever/horde/50-60/06-silithus`: `Through the pass and east along the northern cliffs to {area:541}. {npc:8737} stands by the cave; {npc:9117} is inside it.` → maybe `Through the pass and east along the northern cliffs to {area:541}. {npc:8737} stands by the cave; J.D.`
+- `forever/horde/50-60/06-silithus`: `Fly to {area:1637} and train.`
+- `forever/horde/50-60/06-silithus`: `Take the zeppelin from the tower outside {area:1637} to {zone:1420} and ride into the {zone:1458}. Lady Sylvanas holds the {object:36126}.`
+- `forever/horde/50-60/06-silithus`: `Ride east along the road to the {area:152} on the border.`
+- `forever/horde/50-60/06-silithus`: `{npc:10778}'s farm is the first one east of the {area:152}. Jabbering Ghouls on the farm carry the other half of her charm; {npc:11075} guards the cauldron in the field.`
+- `forever/horde/50-60/06-silithus`: `Dithers offers {item:14619} ({quest:838}). Skip it.` → maybe `Dithers offers {quest:964} ({quest:838}). Skip it.`
+- `forever/horde/50-60/06-silithus`: `Ride east across the plaguelands to the chapel.`
+- `forever/horde/50-60/06-silithus`: `{npc:10926} and the {area:2261}` → maybe `Pamela and the {area:2261}`
+- `forever/horde/50-60/06-silithus`: `Ride to {area:2262} in the south-west; {npc:10926} plays among the houses. {npc:11886} lurks in the {area:2261}, the crypt just west of the town.`
+- `forever/horde/50-60/06-silithus`: `{npc:10926}'s own errand is not on this route. Skip it.`
+- `forever/horde/50-60/06-silithus`: `{npc:15193}'s champion holds the {area:2260} farmhouse, north of the {area:2261}.`
+- `forever/horde/50-60/06-silithus`: `{npc:11878}' errands are not on this route. Skip them.`
+- `forever/horde/50-60/06-silithus`: `{npc:1855}'s next task, Of Lost Honor, is not on this route. Skip it.`
+- `forever/horde/50-60/07-felwood`: `Fly to {area:431} and ride north-west along the road out of {zone:1440} into {zone:1448}. The {area:2479} is the druids' camp just past the border.` → maybe `Fly to {area:431} and ride north-west along the road out of {zone:1440} into {area:361}. The {area:2479} is the druids' camp just past the border.`
+- `forever/horde/50-60/07-felwood`: `{npc:9116}'s Silver Heart needs an {item:11173} from northern {zone:1448} and a ride back here. Skip it.` → maybe `{npc:9116}'s Silver Heart needs an {item:11173} from northern {area:361} and a ride back here. Skip it.`
+- `forever/horde/50-60/07-felwood`: `Ride north-west to {area:1763}. The four braziers stand among the Shadow Council's buildings; use the Cleansed Water on each one.`
+- `forever/horde/50-60/07-felwood`: `{npc:9861}, {npc:9860} and {npc:9517} wait at the back of {area:1770}, the cave in {area:1763}'s north. Clear the tunnel as you go.` → maybe `{npc:9861}, {npc:9860} and {npc:9517} wait at the back of {area:1770}, the cave in {area:1763}'s north. Clear the tunnel as you go.\nCareful: The three bosses fight as a group. Kill the nearby mobs first so you don't pull extra enemies.`
+- `forever/horde/50-60/07-felwood`: `{npc:10306}'s next {quest:4741} would bring you back here from {zone:1452}. Skip it.` → maybe `{npc:10306}'s next {quest:4741} would bring you back here from {area:618}. Skip it.`
+- `forever/horde/50-60/07-felwood`: `Only if {npc:9298} gave you {quest:5086}: ride north up the {zone:1448} road to {area:1767}; the {quest:5086} ooze between the trees.` → maybe `Only if {npc:9298} gave you {quest:5086}: ride north up the {area:361} road to {area:1767}; the {quest:5086} ooze between the trees.`
+- `forever/horde/50-60/07-felwood`: `Through the Timbermaw tunnel to {zone:1450}. {npc:11939} reads in a house in {area:2361}.` → maybe `Through the Timbermaw tunnel to {area:493}. {npc:11939} reads in a house in {area:2361}.`
+- `forever/horde/50-60/07-felwood`: `Back into the Timbermaw tunnel and take the {zone:1452} exit; {npc:9298} camps by the hot springs just outside.` → maybe `Back into the Timbermaw tunnel and take the {area:618} exit; {npc:9298} camps by the hot springs just outside.`
+- `forever/horde/50-60/07-felwood`: `Only if you carry {quest:5087}: the runners walk the road from {area:1769} toward {area:2244} in small groups; wait by the road near {npc:9298} and kill them as they pass. Each one carries a crate.` → maybe `Only if you carry {quest:5087}: the runners walk the road from {area:1769} toward {area:2244} in small groups; wait by the road near {npc:9298} and kill them as they pass. Each one carries a crate.\nCareful: Turning in spawns three or four level 56-57 Winterfall ambushers that attack you; you can escape them while mounted, in stealth or with {spell:5384}, and they then gather by the lake so you can take the next quest.`
+- `forever/horde/50-60/07-felwood`: `The quests run out here. Rabid Shardtooths prowl {area:2249} in southern {zone:1452}, south of the road from {area:2255}.` → maybe `The quests run out here. Rabid Shardtooths prowl {area:2249} in southern {area:618}, south of the road from {area:2255}.`
+- `forever/horde/50-60/07-felwood`: `grind on {npc:7446} at {area:2249}, {zone:1452}` → maybe `grind on {npc:7446} at {area:2249}, {area:618}`
+- `forever/horde/skyborne/01-zephras-isle`: `{npc:251374}, at the village centre`
+- `forever/horde/skyborne/01-zephras-isle`: `{npc:251374} stands in the village.`
+- `forever/horde/skyborne/01-zephras-isle`: `{npc:250926} prowl the slopes south-west of the village, on the way to {npc:252095}.` → maybe `{npc:250926} prowl the slopes south-west of the village, on the way to {npc:252095}.\nThe Ursera den is west of the village. {npc:251115}, their matriarch, sits at its far end.`
+- `forever/horde/skyborne/01-zephras-isle`: `{npc:252095} waits in {area:16622}, south-west of the village. The Al'Aketh camp is just beyond her; {npc:256935} leads it.` → maybe `{npc:252095} waits in {area:16622}, south-west of the village. The Al'Aketh camp is just beyond her; {npc:256935} leads it.\nCareful: {npc:256935} casts shocks; drag him clear of the other cultists before fighting so they don't join in.`
+- `forever/horde/skyborne/01-zephras-isle`: `The Al'Aketh cultists in the camp beyond {npc:252095} carry the signet.`
+- `forever/horde/skyborne/01-zephras-isle`: `The Ursera den is west of the village. {npc:251115}, their matriarch, sits at its far end.` → maybe `{npc:250926} prowl the slopes south-west of the village, on the way to {npc:252095}.\nThe Ursera den is west of the village. {npc:251115}, their matriarch, sits at its far end.`
+- `forever/horde/skyborne/01-zephras-isle`: `{npc:251374} sends you to the {area:16988}, just east of the village: drink the {item:6635} there to see the {npc:251166}, then take the {item:6656} back to him.` → maybe `drink the {item:6635} at the {area:16988}, just east of the village, to see the {npc:251166}`
+- `forever/horde/skyborne/01-zephras-isle`: `Sit by {npc:263664}'s campfire (type /sit) until you get the {spell:1229451} buff, then find {npc:251905} at the cook fire.` → maybe `Sit by {npc:263664}'s campfire (type /sit) until you get the {spell:1229451} buff, then learn {skill:185} from {npc:251905} at the cook fire.`
+- `forever/horde/skyborne/01-zephras-isle`: `talk to {npc:251905}`
+- `forever/horde/skyborne/01-zephras-isle`: `Prideclaws and Galestriders`
+- `forever/horde/skyborne/01-zephras-isle`: `Prideclaws and Galestriders share the meadows south of the village. Keep the {item:5469} for {npc:251905}; the eggs come later from the hippogryphs.` → maybe `Prideclaws and Galestriders share the meadows south of {area:16624}. The Galestriders drop both the Small Eggs and the {item:5469} for {npc:251905}.`
+- `forever/horde/skyborne/01-zephras-isle`: `High Order Apprentices`
+- `forever/horde/skyborne/01-zephras-isle`: `The apprentices practise north-east of the village.`
+- `forever/horde/skyborne/01-zephras-isle`: `The highland bandits`
+- `forever/horde/skyborne/01-zephras-isle`: `The bandit camps are north-east of the village; "Badwind" Bennic holds the top camp. Bandits carry the stolen windstones.` → maybe `The apprentices practise north-east of the village.\nThe bandit camps are north-east of the village; "Badwind" Bennic holds the top camp. Bandits carry the stolen windstones.`
+- `forever/horde/skyborne/01-zephras-isle`: `Back to {area:16624} with what you found.`
+- `forever/horde/skyborne/01-zephras-isle`: `Hippogryph nests`
+- `forever/horde/skyborne/01-zephras-isle`: `The hippogryph nests are north-west of the tower, west of {quest:92529}; the Matriarch sits at the western end. {item:263493} lies on the ground around them, and the hippogryphs drop the Small Eggs.` → maybe `The hippogryph nests are north-west of the {area:17674}, west of {quest:92529}. The Matriarch sits at their western end; {item:263493} lies on the ground around the nests.`
+- `forever/horde/skyborne/01-zephras-isle`: `{area:16624}, last time`
+- `forever/horde/skyborne/01-zephras-isle`: `Walk north to {area:16624}; finish the {item:5469} on the Galestriders along the way if you are short.`
+- `forever/horde/skyborne/01-zephras-isle`: `Take the road south-east to {area:16638}, the Skyborne town on the south coast. {npc:257006} and {npc:252448} stand at its western edge.`
+- `forever/horde/skyborne/01-zephras-isle`: `Windsong Crawlers`
+- `forever/horde/skyborne/01-zephras-isle`: `The crawlers scuttle along the shore south-west of town.`
+- `forever/horde/skyborne/01-zephras-isle`: `Wind Hollows and {object:616467}`
+- `forever/horde/skyborne/01-zephras-isle`: `Wind Hollows drift over the lowlands around {area:16638}. The first {object:616467} lie west of the orchard road.`
+- `forever/horde/skyborne/01-zephras-isle`: `Bandit Highwaymen`
+- `forever/horde/skyborne/01-zephras-isle`: `The highwaymen hold the hills north-east of the orchard. More {object:616468} lie near the road to {area:16638}.`
+- `forever/horde/skyborne/01-zephras-isle`: `The last {object:616466}, the Enchanted Gyrozephyrs, lie far to the north, east of {area:16624} and south-west of {area:16625}. Then head back south-west to {npc:252800} at the orchard.` → maybe `The Enchanted Gyrozephyrs lie under water far to the north, east of {area:16624} and south-west of {area:16625}.`
+- `forever/horde/skyborne/01-zephras-isle`: `{npc:252389} in {area:16638} hands you a {item:15908} three times: tame a {npc:254588} by the lakes north-west of town, an {npc:251707} in the fields west of town and a {npc:250874} at {area:16663}, returning to her after each. {npc:254411} stands beside her.`
+- `forever/horde/skyborne/01-zephras-isle`: `{npc:252359} stands on {area:16638}'s east side.`
+- `forever/horde/skyborne/01-zephras-isle`: `{npc:255853} waits by the falls just north of the watchtower.`
+- `forever/horde/skyborne/01-zephras-isle`: `{npc:252377} stands in the middle of {area:16638}.`
+- `forever/horde/skyborne/01-zephras-isle`: `{npc:252382} stands on {area:16638}'s west side.`
+- `forever/horde/skyborne/01-zephras-isle`: `{npc:258443} roams the slopes just south of the turncoat's house.`
+- `forever/horde/skyborne/01-zephras-isle`: `Take the Torch of Dormant Flame to {npc:268592} at the Shrine of Flames, south-west of {area:16638} in the {area:16626}.`
+- `forever/horde/skyborne/01-zephras-isle`: `Faladiel stands on the hill west of the falls, north of {area:16638}.` → maybe `{npc:268602}, on the hill west of the falls just north of the watchtower`
+- `forever/horde/skyborne/01-zephras-isle`: `Back to {npc:268592}, then west into the {area:16623}: {npc:268605}'s home is in the hills south of the Windsong Crawlers' lakes.` → maybe `Take {item:277267} to {npc:268592} at the Shrine of Flames, south-west of {area:16638}, then head west into the {area:16623}: {npc:268605}'s home is in the hills south of the Windsong Crawlers' lakes.`
+- `forever/horde/skyborne/01-zephras-isle`: `talk to {npc:252383}`
+- `forever/horde/skyborne/01-zephras-isle`: `On the way north, back to {npc:255853} by the falls.`
+- `forever/horde/skyborne/01-zephras-isle`: `The hermit lives at {area:16625}'s west shore. {item:257128} cones grow south of him; the Wind Hollows drift east of the lake.` → maybe `The hermit lives at {area:16625}'s west shore. {item:257128} cones grow south of him; the Wind Hollows drift east of the lake and also drop the Wind Hollow Essences for {npc:254344}'s {quest:93736}.`
+- `forever/horde/skyborne/01-zephras-isle`: `Take the portal up to the {area:16630} and join {npc:252475} and {npc:251968} against the High Priestess.`
+- `forever/horde/skyborne/01-zephras-isle`: `The airship`
+- `forever/horde/skyborne/01-zephras-isle`: `The Horde airship docks at the south-west edge of {area:16638}. Ride it to Kalimdor; it lands in northern {zone:1412}.`
+- `forever/horde/skyborne/01-zephras-isle`: `Horde airship`
+- `forever/horde/skyborne/01-zephras-isle`: `{area:1638} is beside the landing: ride up a lift and learn the flight path from {npc:2995}, the wind rider master.`
+- `forever/horde/skyborne/01-zephras-isle`: `Leave {zone:1456} by a lift and follow the road south past {area:222} and through the eastern pass into the {zone:1413}; from the pass, take the {area:458} north to the {area:380}, the Horde town in the middle of the {zone:1413}.`
+- `forever/horde/skyborne/01-zephras-isle`: `{npc:3615}, the wind rider master`
+- `forever/horde/tauren/01-mulgore`: `Plainstriders roam the grass all around the camp.`
+- `forever/horde/tauren/01-mulgore`: `{npc:3059}, the warrior trainer` → maybe `{npc:3059}, the warrior trainer; inside`
+- `forever/horde/tauren/01-mulgore`: `{npc:3209}, next to {npc:2980}`
+- `forever/horde/tauren/01-mulgore`: `Speak with {npc:3067}`
+- `forever/horde/tauren/01-mulgore`: `{quest:96130} and {quest:756}`
+- `forever/horde/tauren/01-mulgore`: `Back to Bloodhoof`
+- `forever/horde/tauren/01-mulgore`: `The well lies north of the village. Well Stones sit around the well, {object:2912} lies under the trees nearby. Kill wolves, cougars, plainstriders and swoops on the way for {quest:766} and {quest:761}.` → maybe `The well lies north of the village. Well Stones sit around the well, {object:2912} lies under the trees nearby. Kill wolves, cougars, plainstriders and swoops on the way for {quest:766} and {quest:761}; the plainstriders also drop the {item:287505} for Kyle.`
+- `forever/horde/tauren/01-mulgore`: `Prairie Wolf Alphas`
+- `forever/horde/tauren/01-mulgore`: `Finish the wolf heart, cougar femur, plainstrider scale and swoop gizzard on the plains around the village.`
+- `forever/horde/tauren/01-mulgore`: `{npc:6746} on the central rise sends you to {npc:3033} on {area:1639}.`
+- `forever/horde/tauren/01-mulgore`: `Hearth to {area:222} and head north to {area:1639}.`
+- `forever/horde/tauren/01-mulgore`: `Head down to {area:222} and tame with the {item:15908}: an {npc:2956} on the plains, a {npc:2959} north of the village, a Swoop to the north-west.` → maybe `{npc:3065} stands at the north end of {area:222}. Tame with the {item:15908}: an {npc:2956} on the plains, a {npc:2959} north of the village, a {npc:2970} to the north-west.`
+- `forever/horde/tauren/01-mulgore`: `Leave {zone:1412} by the south-eastern pass and follow the road to the {area:380}. {quest:860} stands by the inn, {npc:3448} at the south gate. {zone:1413} guide starts here.` → maybe `Leave {zone:1412} by the south-eastern pass and follow the road to the {area:380}. {quest:860} stands by the inn, {npc:3448} at the south gate. {area:17} guide starts here.\n{area:380} is your base for this guide. Everyone you need stands within a few steps of the inn.`
+- `forever/horde/tauren/01-mulgore`: `Class turn-ins in {area:1638}` → maybe `Class turn-in in {area:1638}`
+- `forever/horde/undead/01-tirisfal-glades`: `{npc:1661}, beside the church` → maybe `{npc:1661}, beside the church; inside`
+- `forever/horde/undead/01-tirisfal-glades`: `{npc:2119}, the warrior trainer` → maybe `{npc:2119}, the warrior trainer; inside`
+- `forever/horde/undead/01-tirisfal-glades`: `{npc:244808} and {npc:5667}`
+- `forever/horde/undead/01-tirisfal-glades`: `{npc:244808} and {npc:5667} stand beside the church.`
+- `forever/horde/undead/01-tirisfal-glades`: `Rattlecages, scavengers and duskbats`
+- `forever/horde/undead/01-tirisfal-glades`: `Paladins: {quest:90902} is done once you have healed five {npc:259377} around the church with {spell:635}.`
+- `forever/horde/undead/01-tirisfal-glades`: `Head west to the cave. The Young Night Web Spiders sit outside; the Night Web Spiders and the Webbed Victims are inside.`
+- `forever/horde/undead/01-tirisfal-glades`: `Free six Webbed Victims inside the cave for {npc:244808}`
+- `forever/horde/undead/01-tirisfal-glades`: `Webbed Victims`
+- `forever/horde/undead/01-tirisfal-glades`: `{quest:91208}: the {npc:246143} fled into the hills just west of the church.` → maybe `{quest:91208}: the {npc:246143} fled into the hills west of the church, on the way to {area:155}.`
+- `forever/horde/undead/01-tirisfal-glades`: `{npc:1667} stands at the south end of the Scarlet farm.`
+- `forever/horde/undead/01-tirisfal-glades`: `{npc:10666}, the big abomination, walks the road a little further east. The {item:12737} grows along the road around him.`
+- `forever/horde/undead/01-tirisfal-glades`: `Follow the road east to {area:159}. {npc:10665} stands at the north-west edge of town; the {area:2119} is the big inn in the middle, with {npc:1515} in front of it.` → maybe `{npc:10665} stands at the north-west edge of town.\nThe {area:2119} is the big inn in the middle, with {npc:1515} in front of it.`
+- `forever/horde/undead/01-tirisfal-glades`: `The {quest:5482} grows in the graveyard fields just north of {area:159}.`
+- `forever/horde/undead/01-tirisfal-glades`: `Fields west of {area:159}`
+- `forever/horde/undead/01-tirisfal-glades`: `Walk on west to the {area:156}. {npc:1519} stands at the farm; {npc:6784}, by the farmhouse, wants a duel: talk to him.`
+- `forever/horde/undead/01-tirisfal-glades`: `Hearth to {area:159}`
+- `forever/horde/undead/01-tirisfal-glades`: `{npc:2132}, beside Johaan` → maybe `{npc:2132}, beside Johaan; inside`
+- `forever/horde/undead/01-tirisfal-glades`: `in the inn: ask him about cooking`
+- `forever/horde/undead/01-tirisfal-glades`: `Talk to {npc:265944}`
+- `forever/horde/undead/01-tirisfal-glades`: `Greater Duskbats`
+- `forever/horde/undead/01-tirisfal-glades`: `Greater Duskbats fly over the fields around {area:159} and along the road north.`
+- `forever/horde/undead/01-tirisfal-glades`: `Rot Hide graveyards`
+- `forever/horde/undead/01-tirisfal-glades`: `The Rot Hide Graverobbers dig through the graveyards north of {area:159}; all the Rot Hides drop the ichor.`
+- `forever/horde/undead/01-tirisfal-glades`: `The Rot Hide Mongrels hold the hills further north. {npc:1753} (level 11) stands in their camp on the hill south of the shore: clear the gnolls around him first.`
+- `forever/horde/undead/01-tirisfal-glades`: `Vile Fin murlocs`
+- `forever/horde/undead/01-tirisfal-glades`: `The Vile Fin murlocs line the north shore.`
+- `forever/horde/undead/01-tirisfal-glades`: `Follow the road south back to {area:159}.`
+- `forever/horde/undead/01-tirisfal-glades`: `Follow the road north-west to {area:157}. {npc:1657} walks the graveyard south of the mills; Nissa, Gregor and {npc:1656} haunt the mills themselves. Rattlecage and Cracked Skull Soldiers drop the ribs, Darkeye Bonecasters the skulls, and any of them may drop {item:2839}. From here on, kill the Duskbats and Darkhounds you pass: {npc:3549} wants their wings and hides.` → maybe `Follow the road north-west to {area:157}. {npc:1657} walks the graveyard south of the mills; Nissa, Gregor and {npc:1656} haunt the mills themselves. Rattlecage and Cracked Skull Soldiers drop the ribs, Darkeye Bonecasters the skulls, and any of them may drop {item:2839}. From here on, kill the Duskbats and Darkhounds you pass: {npc:3549} wants their wings and hides.\nCareful: Rotting undead and Darkeye Bonecasters near the Agamands can join a fight as adds.`
+- `forever/horde/undead/01-tirisfal-glades`: `Walk south-west from the mills: the pumpkins grow in the Scarlet-held fields north-west of Solliden.`
+- `forever/horde/undead/01-tirisfal-glades`: `Scarlet Warriors guard the outpost just west of the pumpkin fields. {npc:275954} is held inside: talk to him and stay with him until he is out.`
+- `forever/horde/undead/01-tirisfal-glades`: `{area:16881} is the hollow at the west edge of the glades. Go down into the big basement under the ruined house (only a floor and a few pillars left, not the two-storey house): the bottles lie on its floor among the Shadowvale Lurchers and Mystics.` → maybe `{area:16881} is the hollow at the west edge of the glades, south-west of the {area:16616}. Go down into the big basement under the ruined house (only a floor and a few pillars left, not the two-storey house): the bottles lie on its floor among the Shadowvale Lurchers and Mystics.`
+- `forever/horde/undead/01-tirisfal-glades`: `The Scarlet camp`
+- `forever/horde/undead/01-tirisfal-glades`: `Take the road south-east out of {area:159}; Terrence stands on it short of the zeppelin towers.`
+- `forever/horde/undead/01-tirisfal-glades`: `{quest:96897} holds the farm just south-east of the camp. The Necrotic Crystal Fragments lie on the ground among the cultists, and the cultists carry some too.` → maybe `Duskbats and Darkhounds roam all along the road back west; finish the wings and hides on the way.\n{quest:96897} holds the farm just south-east of the camp. The Necrotic Crystal Fragments lie on the ground among the cultists, and the cultists carry some too.`
+- `forever/horde/undead/01-tirisfal-glades`: `Balnir graves`
+- `forever/horde/undead/01-tirisfal-glades`: `Follow the road east. Bleeding Horrors and Wandering Spirits haunt the graves on the east side of the farmstead, where the {quest:99142} grows.` → maybe `Follow the road east. Bleeding Horrors and Wandering Spirits haunt the graves on the east side of the farmstead, where the {quest:99142} grows.\nThe Scarlet Friars camp just north-east of the graves; {npc:1664} stands among them.\nThe spiders lurk in the woods at the far east end of the glades.`
+- `forever/horde/undead/01-tirisfal-glades`: `The Scarlet Friars camp just north-east of the graves; {npc:1664} stands among them.`
+- `forever/horde/undead/01-tirisfal-glades`: `Vicious Night Web Spiders`
+- `forever/horde/undead/01-tirisfal-glades`: `The spiders lurk in the woods at the far east end of the glades.`
+- `forever/horde/undead/01-tirisfal-glades`: `Duskbats and Darkhounds roam all along the road back west; finish the wings and hides on the way.`
+- `forever/horde/undead/01-tirisfal-glades`: `Follow the road north-east from {area:159} past {area:162}. {npc:1665} and his two Scarlet Bodyguards hold the Scarlet watchtower on the north-east coast, north of the {area:459}: pull the bodyguards first.`
+- `forever/horde/undead/01-tirisfal-glades`: `Back to {area:159}.`
+- `forever/horde/undead/01-tirisfal-glades`: `Follow the road west past {area:157} to the {area:16616}. Leonid stands just north of {npc:246389}'s camp.`
+- `forever/horde/undead/01-tirisfal-glades`: `Paladin: {area:16616}`
+- `forever/horde/undead/01-tirisfal-glades`: `{npc:246389} and {npc:259190} camp at the forest's edge, just south of Leonid. Their quests need level 10.`
+- `forever/horde/undead/01-tirisfal-glades`: `Paladin: {area:16881}`
+- `forever/horde/undead/01-tirisfal-glades`: `Back to {area:16881} and down into the basement under the ruined house: the Shadowvale Lurchers and Mystics there drop the bones, and the {item:286269} is at the basement's south end.`
+- `forever/horde/undead/01-tirisfal-glades`: `Zeppelin to {zone:1411}`
+- `forever/horde/undead/01-tirisfal-glades`: `Walk south-east from {area:159} to the zeppelin towers outside the {area:153} and board the zeppelin to {zone:1454} (the other one goes to {object:3202}).`
+- `forever/horde/undead/01-tirisfal-glades`: `Zeppelin tower`
+- `forever/horde/undead/01-tirisfal-glades`: `The zeppelin lands at the tower just north-east of {zone:1454}'s main gate. Follow the road south into {zone:1411}, cross the {area:815} bridge below {area:379} and follow the road west to the {area:380}.`
+- `forever/horde/undead/01-tirisfal-glades`: `{npc:3615}, the wind rider master`
+- `forever/reputation/darkspear-trolls`: `{npc:14727} takes cloth for {faction:530} in the {object:172961}, {zone:1454}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7837} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/darkspear-trolls`: `Venture Co. Enforcers at the {area:381} (level 16-17) drop it here. The Auction House works too.`
+- `forever/reputation/darkspear-trolls`: `Kolkar centaur (level 30-33) drop it here. The Auction House works too.`
+- `forever/reputation/darkspear-trolls`: `Dunemaul ogres (level 45-48) drop it here. The Auction House works too.`
+- `forever/reputation/darkspear-trolls`: `Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too.`
+- `forever/reputation/darkspear-trolls`: `{npc:14727}: {item:14047} delivered`
+- `forever/reputation/darkspear-trolls`: `{quest:7837} takes 20 {item:14047} per turn-in and repeats as often as you like. Bring {item:14047} in multiples of 20 and hand them all in at once, one turn-in after another. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/darkspear-trolls`: `Keep handing in {quest:7837}, 20 {item:14047} at a time. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/darkspear-trolls`: `Keep handing in {quest:7837} until {faction:530} is Exalted. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/orgrimmar`: `{npc:14726} takes cloth for {faction:76} in {faction:76}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7832} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/orgrimmar`: `Venture Co. Enforcers at the {area:381} (level 16-17) drop it here. The Auction House works too.`
+- `forever/reputation/orgrimmar`: `Kolkar centaur (level 30-33) drop it here. The Auction House works too.`
+- `forever/reputation/orgrimmar`: `Dunemaul ogres (level 45-48) drop it here. The Auction House works too.`
+- `forever/reputation/orgrimmar`: `Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too.`
+- `forever/reputation/orgrimmar`: `{npc:14726}: {item:14047} delivered`
+- `forever/reputation/orgrimmar`: `{quest:7832} takes 20 {item:14047} per turn-in and repeats as often as you like. Bring {item:14047} in multiples of 20 and hand them all in at once, one turn-in after another. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/orgrimmar`: `Keep handing in {quest:7832}, 20 {item:14047} at a time. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/orgrimmar`: `Keep handing in {quest:7832} until {faction:76} is Exalted. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/thunder-bluff`: `{npc:14728} takes cloth for {faction:81} in {faction:81}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7825} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/thunder-bluff`: `Venture Co. Enforcers at the {area:381} (level 16-17) drop it here. The Auction House works too.`
+- `forever/reputation/thunder-bluff`: `Kolkar centaur (level 30-33) drop it here. The Auction House works too.`
+- `forever/reputation/thunder-bluff`: `Dunemaul ogres (level 45-48) drop it here. The Auction House works too.`
+- `forever/reputation/thunder-bluff`: `Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too.`
+- `forever/reputation/thunder-bluff`: `{npc:14728}: {item:14047} delivered`
+- `forever/reputation/thunder-bluff`: `{quest:7825} takes 20 {item:14047} per turn-in and repeats as often as you like. Bring {item:14047} in multiples of 20 and hand them all in at once, one turn-in after another. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/thunder-bluff`: `Keep handing in {quest:7825}, 20 {item:14047} at a time. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/thunder-bluff`: `Keep handing in {quest:7825} until {faction:81} is Exalted. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/undercity`: `{npc:14729} takes cloth for {faction:68} in {faction:68}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7819} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains.`
+- `forever/reputation/undercity`: `Venture Co. Enforcers at the {area:381} (level 16-17) drop it here. The Auction House works too.`
+- `forever/reputation/undercity`: `Kolkar centaur (level 30-33) drop it here. The Auction House works too.`
+- `forever/reputation/undercity`: `Dunemaul ogres (level 45-48) drop it here. The Auction House works too.`
+- `forever/reputation/undercity`: `Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too.`
+- `forever/reputation/undercity`: `{npc:14729}: {item:14047} delivered`
+- `forever/reputation/undercity`: `{quest:7819} takes 20 {item:14047} per turn-in and repeats as often as you like. Bring {item:14047} in multiples of 20 and hand them all in at once, one turn-in after another. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/undercity`: `Keep handing in {quest:7819}, 20 {item:14047} at a time. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`
+- `forever/reputation/undercity`: `Keep handing in {quest:7819} until {faction:68} is Exalted. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House.`

@@ -5,12 +5,12 @@
 return {
 	-- Guide
 	-- {area:1417} Sunken Temple
-	["Experience at 50, ending in the {area:1417}; Forever removed the Classic item choice."] = "Seviye 50'de deneyim puanı, {area:1417} içinde biter; Forever Classic'teki eşya seçimini kaldırdı.",
+	["Experience at 50, ending in the {area:1417}; Classic's item choice may be gone on Forever."] = "",
 	["Experience"] = "Deneyim puanı",
 
 	-- Step 1: A Troubled Spirit (Stormwind)
-	-- {npc:5479} Wu Shen · {object:2100} Old Town · {npc:7572} Fallen Hero of the Horde · {zone:1435} Swamp of Sorrows
-	["At 50, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to the {npc:7572} in the {zone:1435}."] = "Seviye 50'de {object:2100} semtinde Pig and Whistle'ın yanındaki {npc:5479}, seni {zone:1435} bölgesindeki {npc:7572} yanına gönderir.",
+	-- {npc:5479} Wu Shen · {npc:5480} Ilsa Corbin · {object:2100} Old Town · {npc:7572} Fallen Hero of the Horde · {zone:1435} Swamp of Sorrows
+	["At 50, {npc:5479}, beside {npc:5480} in the warrior trainers' building of {object:2100}, sends you to the {npc:7572} in the {zone:1435}."] = "",
 
 	-- Step 2: A Troubled Spirit (Ironforge)
 	-- {npc:5113} Kelv Sternhammer · {zone:1455} Ironforge · {npc:7572} Fallen Hero of the Horde · {zone:1435} Swamp of Sorrows
@@ -35,28 +35,46 @@ return {
 	-- Step 7: The Fallen Hero of the Horde
 	-- {npc:7572} Fallen Hero of the Horde
 	["The {npc:7572}"] = "{npc:7572}",
-	-- {npc:7572} Fallen Hero of the Horde · {zone:1435} Swamp of Sorrows · {zone:1419} Blasted Lands
-	["The {npc:7572} stands in the south-west of the {zone:1435}, at the entrance to the {zone:1419}."] = "{npc:7572}, {zone:1435} bölgesinin güneybatısında, {zone:1419} girişinde duruyor.",
+	-- {npc:7572} Fallen Hero of the Horde · {zone:1435} Swamp of Sorrows · {zone:1419} Blasted Lands · {area:75} Stonard · {area:1438} Nethergarde Keep
+	["The {npc:7572}, a ghost, stands in the south-west of the {zone:1435}, at the pass into the {zone:1419}, a short ride south-west of {area:75}. Horde: fly to {area:75}. Alliance: fly to {area:1438} in the {zone:1419} and ride north through the pass. High-level beasts roam the way."] = "",
 
 	-- Step 8: Helboars
 	-- plural, as words: Helboars = {npc:5993} Helboar
 	["Helboars"] = "Helboar yaratıkları",
-	-- {zone:1419} Blasted Lands · {npc:10996} Fallen Hero
+	-- {zone:1419} Blasted Lands · {area:1438} Nethergarde Keep · {spell:8349} Fire Nova
 	-- plural, as words: Helboars = {npc:5993} Helboar
-	["The Helboars roam the north of the {zone:1419}, south of the {npc:10996}."] = "Helboar yaratıkları {zone:1419} bölgesinin kuzeyinde, {npc:10996} adlı NPC'nin güneyinde dolaşıyor.",
+	["Seven Helboars (level 52-53, not elite) roam the north-west of the {zone:1419}, south-west of {area:1438}; some stand near the ogres on the mountainside by the road. They charge from 25 yards and cast {spell:8349}. They share spawn points with the Felbeasts and scorpids: if no boars are around, kill those and boars may appear instead. Back in 5 minutes."] = "",
 
 	-- Step 10: Shadowsworn camps
 	["Shadowsworn camps"] = "Shadowsworn kampları",
-	-- {zone:1419} Blasted Lands
-	["The Shadowsworn cultists hold the east of the {zone:1419}."] = "Shadowsworn tarikatçıları {zone:1419} bölgesinin doğusunu tutuyor.",
+	-- {area:1440} Serpent's Coil · {area:1438} Nethergarde Keep · {area:72} Dark Portal · {spell:1766} Kick
+	["The Shadowsworn camp around the mouth of the {area:1440} cave, south of {area:1438} on the way to the {area:72}. You need 20 Adepts (level 52-53, they leech blood and heal hurt allies: kill them first), 10 Cultists (51-52, they throw from range, so close in) and 20 Thugs (52-53, Thrash and {spell:1766}). Thugs can run short before the others: kill every Shadowsworn you pass."] = "",
 
 	-- Step 12: The Sunken Temple
 	-- {area:1417} Sunken Temple
 	["The {area:1417}"] = "{area:1417}",
-	-- {area:1417} Sunken Temple · {area:74} Pool of Tears · {zone:1435} Swamp of Sorrows · {npc:5716} Zul'Lor
-	["The {area:1417} lies under the {area:74} in the east of the {zone:1435}. Each of the six Atal'ai trolls on the balcony drops a voodoo feather: Gasher or {npc:5716} the amber, Hukku or Mijan the blue, Zolo or Loro the green. The {area:1417} is a dungeon and the trolls are elite: grouping up is advised."] = "{area:1417}, {zone:1435} bölgesinin doğusundaki {area:74} gölünün altında. Balkondaki altı Atal'ai trolünün her biri bir voodoo tüyü düşürür: kehribar rengini Gasher ya da {npc:5716}, mavisini Hukku ya da Mijan, yeşilini Zolo ya da Loro. {area:1417} bir zindan ve troller elit: grup kurman önerilir.",
+	-- {area:1417} Sunken Temple · {npc:5710} Jammal'an the Prophet · {npc:5716} Zul'Lor · {area:74} Pool of Tears · {zone:1435} Swamp of Sorrows · {spell:9081} Shadow Bolt Volley · {spell:8282} Curse of Blood · {spell:139} Renew · {npc:3560} Healing Ward · {spell:331} Healing Wave
+	["You need two feathers of each colour from the six Atal'ai troll guardians (level 51-52, elite) on the {area:1417}'s balcony, who hold the barrier in front of {npc:5710}: Gasher and {npc:5716} drop the amber, Hukku and Mijan the blue, Zolo and Loro the green, every kill; each player on the quest loots their own set. The {area:1417} is a five-player dungeon: needs a group of five. It lies in the {area:74} in eastern {zone:1435}: climb the temple's outer steps, dive into the flooded hall and follow the stairs down to the entrance. Inside, reach the balcony by the stairs or the path on the right, not the spiral stairs. Hukku calls guardians and casts {spell:9081} and {spell:8282}; Mijan heals the others ({spell:139}, a {npc:3560}, {spell:331} below half health): kill her or her ward fast; {npc:5716} cleaves."] = "",
+	-- {item:20606} Amber Voodoo Feather · {npc:5716} Zul'Lor
+	["{item:20606}, from Gasher and {npc:5716}"] = "",
+	-- {item:20607} Blue Voodoo Feather
+	["{item:20607}, from Hukku and Mijan"] = "",
+	-- {item:20608} Green Voodoo Feather
+	["{item:20608}, from Zolo and Loro"] = "",
 
 	-- Step 13: Back to the Fallen Hero
 	-- {npc:10996} Fallen Hero
 	["Back to the {npc:10996}"] = "{npc:10996} yanına dön",
+	-- {npc:10996} Fallen Hero · {item:20130} Diamond Flask · {item:20521} Fury Visor · {item:20517} Razorsteel Shoulders
+	["In Classic the {npc:10996} let you choose the {item:20130}, the {item:20521} or the {item:20517} here. Forever's change notes say the choice is gone, though its quest page still lists three unnamed rewards: look at the reward window before you hand in."] = "",
+
+	-- No longer in the guide (its English changed or it went away): reuse or delete.
+	-- maybe now: ["Experience at 50, ending in the {area:1417}; Classic's item choice may be gone on Forever."]
+	-- ["Experience at 50, ending in the {area:1417}; Forever removed the Classic item choice."] = "Seviye 50'de deneyim puanı, {area:1417} içinde biter; Forever Classic'teki eşya seçimini kaldırdı.",
+	-- maybe now: ["At 50, {npc:5479}, beside {npc:5480} in the warrior trainers' building of {object:2100}, sends you to the {npc:7572} in the {zone:1435}."]
+	-- ["At 50, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to the {npc:7572} in the {zone:1435}."] = "Seviye 50'de {object:2100} semtinde Pig and Whistle'ın yanındaki {npc:5479}, seni {zone:1435} bölgesindeki {npc:7572} yanına gönderir.",
+	-- ["The {npc:7572} stands in the south-west of the {zone:1435}, at the entrance to the {zone:1419}."] = "{npc:7572}, {zone:1435} bölgesinin güneybatısında, {zone:1419} girişinde duruyor.",
+	-- ["The Helboars roam the north of the {zone:1419}, south of the {npc:10996}."] = "Helboar yaratıkları {zone:1419} bölgesinin kuzeyinde, {npc:10996} adlı NPC'nin güneyinde dolaşıyor.",
+	-- ["The Shadowsworn cultists hold the east of the {zone:1419}."] = "Shadowsworn tarikatçıları {zone:1419} bölgesinin doğusunu tutuyor.",
+	-- ["The {area:1417} lies under the {area:74} in the east of the {zone:1435}. Each of the six Atal'ai trolls on the balcony drops a voodoo feather: Gasher or {npc:5716} the amber, Hukku or Mijan the blue, Zolo or Loro the green. The {area:1417} is a dungeon and the trolls are elite: grouping up is advised."] = "{area:1417}, {zone:1435} bölgesinin doğusundaki {area:74} gölünün altında. Balkondaki altı Atal'ai trolünün her biri bir voodoo tüyü düşürür: kehribar rengini Gasher ya da {npc:5716}, mavisini Hukku ya da Mijan, yeşilini Zolo ya da Loro. {area:1417} bir zindan ve troller elit: grup kurman önerilir.",
 }

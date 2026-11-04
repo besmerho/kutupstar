@@ -9,11 +9,17 @@ return {
 	-- Step 1: Azeroth Commerce Authority
 	["Azeroth Commerce Authority"] = "Azeroth Commerce Authority",
 	-- {area:1002} Three Corners · {zone:1433} Redridge Mountains · {npc:214101} Marcy Baker
-	["The Alliance camp is at {area:1002} in western {zone:1433}. Loot supply crates in the world, fill them and hand them in to {npc:214101} for Merchant's Favor (5-20 a crate); the treat costs 1,500."] = "Alliance kampı {zone:1433} bölgesinin batısındaki {area:1002} kavşağında. Dünyada erzak sandıklarını loot et, doldur ve Merchant's Favor karşılığında {npc:214101} adlı NPC'ye teslim et (sandık başına 5-20); ödül maması 1.500 tutuyor.",
+	-- plural, as words: Waylaid Crates = {item:248549} Waylaid Crate
+	["The Alliance camp is at {area:1002} in western {zone:1433}. Merchant's Favor comes from Waylaid Crates that mobs drop from level 10: fill one with a bundle it lists and hand it to {npc:214101}, for 5 to 30 Favor a crate. The treat costs 1,500 Favor and, by beta vendor lists, needs Revered with the Azeroth Commerce Authority. Crates pay no standing: that comes from the Craftsman's Writs, 21,000 from Neutral to Revered. The Supply Factions Reputation guide takes you there."] = "",
 	["1,500 Merchant's Favor"] = "1.500 Merchant's Favor",
 
 	-- Step 2: Durotar Supply and Logistics
 	["Durotar Supply and Logistics"] = "Durotar Supply and Logistics",
 	-- {area:380} Crossroads · {npc:256384} Gishah · {zone:1458} Undercity
-	["The Horde camp is just outside the {area:380}. Loot supply crates in the world, fill them and hand them in at the camp for Merchant's Favor; the treat costs 1,500. (Another {npc:256384} stands in the {zone:1458}; this is the one at the camp.)"] = "Horde kampı {area:380} kasabasının hemen dışında. Dünyada erzak sandıklarını loot et, doldur ve Merchant's Favor karşılığında kampta teslim et; ödül maması 1.500 tutuyor. ({zone:1458} şehrinde başka bir {npc:256384} daha var; bu, kamptaki.)",
+	-- plural, as words: Waylaid Crates = {item:248549} Waylaid Crate
+	["The Horde camp is just outside the west gate of the {area:380}. Merchant's Favor comes from Waylaid Crates that mobs drop from level 10: fill one with a bundle it lists and hand it to Dokimi, for 5 to 30 Favor a crate. The treat costs 1,500 Favor and, by beta vendor lists, needs Revered with Durotar Supply and Logistics. Crates pay no standing: that comes from the Craftsman's Writs, 21,000 from Neutral to Revered. The Supply Factions Reputation guide takes you there. (Another {npc:256384} stands in the {zone:1458}; this is the one at the camp.)"] = "",
+
+	-- No longer in the guide (its English changed or it went away): reuse or delete.
+	-- ["The Alliance camp is at {area:1002} in western {zone:1433}. Loot supply crates in the world, fill them and hand them in to {npc:214101} for Merchant's Favor (5-20 a crate); the treat costs 1,500."] = "Alliance kampı {zone:1433} bölgesinin batısındaki {area:1002} kavşağında. Dünyada erzak sandıklarını loot et, doldur ve Merchant's Favor karşılığında {npc:214101} adlı NPC'ye teslim et (sandık başına 5-20); ödül maması 1.500 tutuyor.",
+	-- ["The Horde camp is just outside the {area:380}. Loot supply crates in the world, fill them and hand them in at the camp for Merchant's Favor; the treat costs 1,500. (Another {npc:256384} stands in the {zone:1458}; this is the one at the camp.)"] = "Horde kampı {area:380} kasabasının hemen dışında. Dünyada erzak sandıklarını loot et, doldur ve Merchant's Favor karşılığında kampta teslim et; ödül maması 1.500 tutuyor. ({zone:1458} şehrinde başka bir {npc:256384} daha var; bu, kamptaki.)",
 }

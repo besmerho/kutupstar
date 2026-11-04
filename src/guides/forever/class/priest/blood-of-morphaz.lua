@@ -5,44 +5,56 @@
 return {
 	-- Guide
 	-- {zone:1447} Azshara · {area:1417} Sunken Temple
-	["Experience and gold at 50 through {zone:1447} and the {area:1417}; Forever removed the Classic item choice."] = "Seviye 50'de {zone:1447} ve {area:1417} üzerinden deneyim puanı ve altın; Forever Classic'teki eşya seçimini kaldırdı.",
-	["Experience and gold"] = "Deneyim puanı ve altın",
+	["17,060 XP and 1g55s at 50: {zone:1447}, then Morphaz in the {area:1417} (group of 5). The item choice may be gone."] = "",
+	["17,060 experience and 1 gold 55 silver"] = "",
 
-	-- Step 1: Cenarion Aid (Alliance)
-	-- {quest:8254} Cenarion Aid
-	["{quest:8254} (Alliance)"] = "{quest:8254} (Alliance)",
-	-- {npc:5489} Brother Joshua · {zone:1453} Stormwind · {npc:11406} High Priest Rohan · {zone:1455} Ironforge · {object:32386} Hall of Mysteries (no name in this language: may be words)
-	["At 50 {npc:5489} in {zone:1453}'s Cathedral of Light or {npc:11406} in {zone:1455}'s {object:32386} offers it."] = "Seviye 50'de {zone:1453} şehrinin Cathedral of Light'ındaki {npc:5489} ya da {zone:1455} şehrinin {object:32386} salonundaki {npc:11406} verir.",
+	-- Step 1: Cenarion Aid: High Priest Rohan
+	-- {zone:1455} Ironforge · {npc:11406} High Priest Rohan · {object:32386} Hall of Mysteries (no name in this language: may be words) · {object:32362} Mystic Ward (no name in this language: may be words) · {quest:8254} Cenarion Aid · {item:7972} Ichor of Undeath
+	["At 50 in {zone:1455}, {npc:11406} in the {object:32386} ({object:32362}) offers {quest:8254}. Before you leave a city, buy an {item:7972} at the Auction House (a few silver): the third quest asks for one and it drops rarely."] = "",
 
-	-- Step 2: Cenarion Aid (Horde)
-	-- {quest:8254} Cenarion Aid
-	["{quest:8254} (Horde)"] = "{quest:8254} (Horde)",
-	-- {npc:6018} Ur'kyo · {zone:1454} Orgrimmar · {object:172961} Valley of Spirits
-	["At 50 {npc:6018} in {zone:1454}'s {object:172961} offers it."] = "Seviye 50'de {zone:1454} şehrinin {object:172961} vadisindeki {npc:6018} verir.",
+	-- Step 2: Cenarion Aid: Brother Joshua
+	-- {npc:5489} Brother Joshua · {zone:1453} Stormwind · {quest:8254} Cenarion Aid · {npc:11406} High Priest Rohan · {zone:1455} Ironforge · {item:7972} Ichor of Undeath · {object:2096} Trade District
+	["At 50, {npc:5489} at the altar of {zone:1453}'s Cathedral of Light offers {quest:8254} ({npc:11406} in {zone:1455} has it too). Before you leave, buy an {item:7972} at the Auction House in the {object:2096} (a few silver): the third quest asks for one and it drops rarely."] = "",
 
-	-- Step 3: Ogtinc
+	-- Step 3: Cenarion Aid: Ur'kyo
+	-- {npc:6018} Ur'kyo · {zone:1454} Orgrimmar · {object:172961} Valley of Spirits · {quest:8254} Cenarion Aid · {item:7972} Ichor of Undeath
+	["At 50, {npc:6018} in {zone:1454}'s {object:172961} offers {quest:8254}. Before you leave, buy an {item:7972} at the Auction House (a few silver): the third quest asks for one and it drops rarely."] = "",
+
+	-- Step 4: Ogtinc
 	-- {npc:8405} Ogtinc · {area:1221} Ruins of Eldarath · {area:3137} Talrendis Point · {area:1237} Valormok
-	["{npc:8405} lives atop the cliffs north-east of the {area:1221}. Alliance: fly to {area:3137}; Horde: fly to {area:1237}."] = "{npc:8405}, {area:1221} harabelerinin kuzeydoğusundaki uçurumların tepesinde yaşıyor. Alliance: {area:3137} burnuna uç; Horde: {area:1237} kampına uç.",
+	["{npc:8405}, a furbolg, lives on the clifftop north-east of the {area:1221}. Alliance: fly to {area:3137}; Horde: fly to {area:1237}. Ride east and leave the road at the fork before the ruins, then follow the northern cliff edge east to him: the naga ruins and the beach below are walled in by cliffs with no way up."] = "",
 
-	-- Step 4: Of Coursers We Know
-	-- {zone:1447} Azshara · {item:20027} Healthy Courser Gland
+	-- Step 5: Of Coursers We Know
+	-- {zone:1447} Azshara · {npc:8405} Ogtinc · {item:20027} Healthy Courser Gland · {item:7972} Ichor of Undeath
 	-- plural, as words: Mosshoof Coursers = {npc:8761} Mosshoof Courser
-	["Mosshoof Coursers graze all over {zone:1447}; about one in three drops a {item:20027}."] = "Mosshoof Courser yaratıkları {zone:1447} bölgesinin her yanında otluyor; yaklaşık üçte biri bir {item:20027} düşürür.",
+	["Mosshoof Coursers (level 52-53, not elite) graze all over {zone:1447}, thickest north-east of {npc:8405} and south of the mountains; about one in three drops a {item:20027}, so plan on a dozen kills for four. They enrage at 30% health: finish them fast. Killing them costs no Cenarion Circle reputation. Keep any {item:7972} you loot."] = "",
 
-	-- Step 6: The Ichor of Undeath
-	-- {npc:7864} Lingering Highborne · {area:1221} Ruins of Eldarath · {npc:8405} Ogtinc · {area:3137} Talrendis Point
-	-- plural, as words: Highborne Apparitions = {npc:6116} Highborne Apparition
-	["Any undead can drop it. The {npc:7864} in the {area:1221}, below {npc:8405}'s cliffs, are the nearest; Highborne Apparitions and Lichlings haunt the ruins near {area:3137}."] = "Her undead düşürebilir. En yakını {npc:8405} adlı NPC'nin uçurumlarının altında, {area:1221} harabelerindeki {npc:7864} yaratıkları; Highborne Apparition ve Lichling yaratıkları {area:3137} yakınındaki harabelerde dolaşıyor.",
+	-- Step 7: The Ichor of Undeath
+	-- {item:7972} Ichor of Undeath · {npc:7864} Lingering Highborne · {area:1221} Ruins of Eldarath · {npc:8405} Ogtinc · {zone:1447} Azshara · {zone:1440} Ashenvale · {npc:7523} Suffering Highborne · {zone:1452} Winterspring
+	["Carrying an {item:7972} already? It counts at once. Otherwise any undead may drop one, rarely: the {npc:7864} (level 48) in the {area:1221} below {npc:8405}'s cliff drop it about one kill in ten, the highborne ghosts on {zone:1447}'s border with {zone:1440} (level 45-46) a little less, the Anguished and {npc:7523} in {zone:1452} (54-55) about one in eight. The Auction House is usually quicker."] = "",
 
-	-- Step 8: Morphaz in the Sunken Temple
+	-- Step 9: Morphaz in the Sunken Temple
 	-- {area:1417} Sunken Temple
 	["Morphaz in the {area:1417}"] = "{area:1417} içinde Morphaz",
-	-- {area:1417} Sunken Temple · {area:74} Pool of Tears · {area:75} Stonard · {area:42} Darkshire · {area:1438} Nethergarde Keep
-	["Morphaz is an elite dragon boss inside the {area:1417}, a level 50 dungeon: bring a group of five. The temple stands in the middle of the {area:74}; swim down into it to reach the entrance. Horde: fly to {area:75}; Alliance: fly to {area:42} or {area:1438} and ride on."] = "Morphaz, seviye 50 bir zindan olan {area:1417} içinde elit bir ejderha boss'u: beş kişilik bir grup getir. Tapınak {area:74} gölünün ortasında; girişe ulaşmak için içine dalarak in. Horde: {area:75} kasabasına uç; Alliance: {area:42} kasabasına ya da {area:1438} kalesine uç ve devam et.",
+	-- {area:1417} Sunken Temple · {area:75} Stonard · {area:1438} Nethergarde Keep · {zone:1419} Blasted Lands · {area:74} Pool of Tears · {npc:5710} Jammal'an the Prophet
+	["Morphaz is a level 52 elite green dragon inside the {area:1417}, a five-player dungeon: bring a group of five (a level 60 group clears it with ease). Horde: fly to {area:75}; Alliance: fly to {area:1438} in the {zone:1419} and ride north. The temple stands in the middle of the {area:74}: climb the steps on its south side, swim down through the flooded hall and take the stairs to the portal. Inside, Morphaz only appears late: kill the six troll minibosses on the upper balconies, then {npc:5710} below them; that wakes the drakes Weaver and Dreamscythe in the Pit of Sacrifice, and killing both brings Morphaz and Hazzas. The pair patrols together and cannot be split: pull them into a hallway and have the tank face them away from the group (breath and a knockback). Loot him in a party, not a raid group: the blood always drops."] = "",
 	-- {quest:8257} Blood of Morphaz · {area:1417} Sunken Temple
 	["{quest:8257}: the {area:1417} entrance"] = "{quest:8257}: {area:1417} girişi",
 
-	-- Step 9: Greta Mosshoof
-	-- {npc:10922} Greta Mosshoof · {area:2479} Emerald Sanctuary · {zone:1448} Felwood
-	["{npc:10922} is at the {area:2479} in southern {zone:1448}."] = "{npc:10922}, {zone:1448} bölgesinin güneyindeki {area:2479} sığınağında.",
+	-- Step 10: Greta Mosshoof
+	-- {npc:10922} Greta Mosshoof · {area:2479} Emerald Sanctuary · {zone:1448} Felwood · {area:1997} Bloodvenom Post · {area:415} Astranaar · {zone:1440} Ashenvale · {item:19990} Blessed Prayer Beads · {item:20006} Circle of Hope
+	["{npc:10922} is at the {area:2479} in southern {zone:1448}. Horde: fly to {area:1997} and ride south-east; Alliance: fly to {area:415} in {zone:1440} and ride north into {zone:1448}. She takes the blood for experience and gold. Look at the reward window before you hand in: Classic let you pick {item:19990}, {item:20006} or Woestave, and Forever's notes say that choice may be gone."] = "",
+
+	-- No longer in the guide (its English changed or it went away): reuse or delete.
+	-- ["Experience and gold at 50 through {zone:1447} and the {area:1417}; Forever removed the Classic item choice."] = "Seviye 50'de {zone:1447} ve {area:1417} üzerinden deneyim puanı ve altın; Forever Classic'teki eşya seçimini kaldırdı.",
+	-- ["Experience and gold"] = "Deneyim puanı ve altın",
+	-- ["{quest:8254} (Alliance)"] = "{quest:8254} (Alliance)",
+	-- ["At 50 {npc:5489} in {zone:1453}'s Cathedral of Light or {npc:11406} in {zone:1455}'s {object:32386} offers it."] = "Seviye 50'de {zone:1453} şehrinin Cathedral of Light'ındaki {npc:5489} ya da {zone:1455} şehrinin {object:32386} salonundaki {npc:11406} verir.",
+	-- ["{quest:8254} (Horde)"] = "{quest:8254} (Horde)",
+	-- ["At 50 {npc:6018} in {zone:1454}'s {object:172961} offers it."] = "Seviye 50'de {zone:1454} şehrinin {object:172961} vadisindeki {npc:6018} verir.",
+	-- ["{npc:8405} lives atop the cliffs north-east of the {area:1221}. Alliance: fly to {area:3137}; Horde: fly to {area:1237}."] = "{npc:8405}, {area:1221} harabelerinin kuzeydoğusundaki uçurumların tepesinde yaşıyor. Alliance: {area:3137} burnuna uç; Horde: {area:1237} kampına uç.",
+	-- ["Mosshoof Coursers graze all over {zone:1447}; about one in three drops a {item:20027}."] = "Mosshoof Courser yaratıkları {zone:1447} bölgesinin her yanında otluyor; yaklaşık üçte biri bir {item:20027} düşürür.",
+	-- ["Any undead can drop it. The {npc:7864} in the {area:1221}, below {npc:8405}'s cliffs, are the nearest; Highborne Apparitions and Lichlings haunt the ruins near {area:3137}."] = "Her undead düşürebilir. En yakını {npc:8405} adlı NPC'nin uçurumlarının altında, {area:1221} harabelerindeki {npc:7864} yaratıkları; Highborne Apparition ve Lichling yaratıkları {area:3137} yakınındaki harabelerde dolaşıyor.",
+	-- ["Morphaz is an elite dragon boss inside the {area:1417}, a level 50 dungeon: bring a group of five. The temple stands in the middle of the {area:74}; swim down into it to reach the entrance. Horde: fly to {area:75}; Alliance: fly to {area:42} or {area:1438} and ride on."] = "Morphaz, seviye 50 bir zindan olan {area:1417} içinde elit bir ejderha boss'u: beş kişilik bir grup getir. Tapınak {area:74} gölünün ortasında; girişe ulaşmak için içine dalarak in. Horde: {area:75} kasabasına uç; Alliance: {area:42} kasabasına ya da {area:1438} kalesine uç ve devam et.",
+	-- ["{npc:10922} is at the {area:2479} in southern {zone:1448}."] = "{npc:10922}, {zone:1448} bölgesinin güneyindeki {area:2479} sığınağında.",
 }

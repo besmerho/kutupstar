@@ -9,25 +9,36 @@ return {
 
 	-- Step 1: Daio the Decrepit
 	-- {npc:14463} Daio the Decrepit · {area:73} Tainted Scar · {zone:1419} Blasted Lands
-	["At 60 {npc:14463} waits in the {area:73}, in western {zone:1419}."] = "Seviye 60'ta {npc:14463}, {zone:1419} bölgesinin batısındaki {area:73} içinde bekliyor.",
+	["At 60 {npc:14463} waits in the {area:73}, the demon-filled hollow in the west of the {zone:1419}. The Scar is full of hard-hitting elites: Soulstone yourself first, then keep to the right-hand wall going in, or ride through mounted. {npc:14463} gives you two errands at once."] = "",
 
 	-- Step 2: Satyr Blood
-	-- {area:2577} Dire Maul · {area:2518} Lariss Pavilion · {area:1099} Camp Mojache · {item:18249} Crescent Key
-	["The Wildspawn satyrs of the Warpwood Quarter, {area:2577}'s eastern wing, carry the blood. The back door at {area:2518}, north of {area:1099}, needs the {item:18249}; otherwise go in by {area:2577}'s main entrance. Bring a group."] = "Kanı {area:2577} zindanının doğu kanadı Warpwood Quarter'daki Wildspawn satirleri taşıyor. {area:1099} kampının kuzeyindeki {area:2518} arka kapısı {item:18249} gerektirir; yoksa {area:2577} ana girişinden gir. Grup getir.",
+	-- {area:2577} Dire Maul · {area:2518} Lariss Pavilion · {item:18249} Crescent Key · {zone:1444} Feralas
+	["The Wildspawn satyrs (level 55-57, elite) fill the Warpwood Quarter, {area:2577}'s eastern wing: bring a group of five. Four in five drop a blood, but they do not come back for two hours and one full clear may come up short of fifteen; reset and run it again. The back door at {area:2518} needs the {item:18249}, which drops inside this wing; until someone has it, go in by {area:2577}'s main gate in central {zone:1444}."] = "",
 	-- {item:18603} Satyr Blood
-	["{item:18603}, inside the Warpwood Quarter"] = "{item:18603}, Warpwood Quarter içinde",
+	["{item:18603}, from the Wildspawn inside"] = "",
 
 	-- Step 3: Tears of the Hederine
-	-- {area:2256} Darkwhisper Gorge · {zone:1452} Winterspring
-	["The Hederine demons hold {area:2256}, in southern {zone:1452}. They are elite: grouping up is advised."] = "Hederine iblisleri {zone:1452} bölgesinin güneyindeki {area:2256} boğazını tutuyor. Elitler: grup kurman önerilir.",
+	-- {area:2256} Darkwhisper Gorge · {zone:1452} Winterspring · {spell:7645} Dominate Mind · {spell:710} Banish
+	["The Hederine demons (level 57-60, elite) hold {area:2256} in the far south of {zone:1452}: grouping up is encouraged. Two Slayers guard the gorge past the bridge; the western tunnel leads to more Initiates, the easiest of them (watch for their {spell:7645}). A warlock can solo them one at a time with Fear or {spell:710} and damage over time, but slowly. Any of them can drop the Tears, four kills in five."] = "",
 
 	-- Step 4: Suppression
-	-- {npc:14463} Daio the Decrepit · {npc:12396} Doomguard Commander · {area:73} Tainted Scar · {item:18601} Glowing Crystal Prison
-	["Hand both in to {npc:14463}, then find the {npc:12396} in the {area:73} and use the {item:18601} on him. He is elite and fights to escape: grouping up is advised."] = "İkisini de {npc:14463} adlı NPC'ye teslim et, sonra {area:73} içinde {npc:12396} yaratığını bul ve üzerinde {item:18601} kullan. Elit ve kaçmak için dövüşür: grup kurman önerilir.",
+	-- {npc:14463} Daio the Decrepit · {item:18601} Glowing Crystal Prison · {npc:12396} Doomguard Commander · {area:73} Tainted Scar · {spell:45} War Stomp · {item:18605} Imprisoned Doomguard
+	["Hand both in to {npc:14463} and take the {item:18601}. Find a {npc:12396} (level 61, elite) standing alone in the {area:73}, open from about 30 yards with your voidwalker on him, and channel the prison on him for about 20 seconds: he attacks you to break free, and his {spell:45} can interrupt the channel, so sacrifice the voidwalker for its shield if you must. Grouping up is encouraged: a second player to tank makes it easy. When the channel finishes he becomes the {item:18605}: click it. If the channel breaks, kill him or run, and try another."] = "",
 	-- {item:18601} Glowing Crystal Prison · {npc:12396} Doomguard Commander
-	["{item:18601}, on the {npc:12396}"] = "{item:18601}, {npc:12396} üzerinde",
+	["{item:18601}, on a {npc:12396}"] = "",
+	-- {item:18605} Imprisoned Doomguard
+	["{item:18605}, click it"] = "",
 
 	-- Step 5: Back to Daio the Decrepit
 	-- {npc:14463} Daio the Decrepit
 	["Back to {npc:14463}"] = "{npc:14463} yanına dön",
+
+	-- No longer in the guide (its English changed or it went away): reuse or delete.
+	-- ["At 60 {npc:14463} waits in the {area:73}, in western {zone:1419}."] = "Seviye 60'ta {npc:14463}, {zone:1419} bölgesinin batısındaki {area:73} içinde bekliyor.",
+	-- ["The Wildspawn satyrs of the Warpwood Quarter, {area:2577}'s eastern wing, carry the blood. The back door at {area:2518}, north of {area:1099}, needs the {item:18249}; otherwise go in by {area:2577}'s main entrance. Bring a group."] = "Kanı {area:2577} zindanının doğu kanadı Warpwood Quarter'daki Wildspawn satirleri taşıyor. {area:1099} kampının kuzeyindeki {area:2518} arka kapısı {item:18249} gerektirir; yoksa {area:2577} ana girişinden gir. Grup getir.",
+	-- ["{item:18603}, inside the Warpwood Quarter"] = "{item:18603}, Warpwood Quarter içinde",
+	-- ["The Hederine demons hold {area:2256}, in southern {zone:1452}. They are elite: grouping up is advised."] = "Hederine iblisleri {zone:1452} bölgesinin güneyindeki {area:2256} boğazını tutuyor. Elitler: grup kurman önerilir.",
+	-- ["Hand both in to {npc:14463}, then find the {npc:12396} in the {area:73} and use the {item:18601} on him. He is elite and fights to escape: grouping up is advised."] = "İkisini de {npc:14463} adlı NPC'ye teslim et, sonra {area:73} içinde {npc:12396} yaratığını bul ve üzerinde {item:18601} kullan. Elit ve kaçmak için dövüşür: grup kurman önerilir.",
+	-- maybe now: ["{item:18601}, on a {npc:12396}"]
+	-- ["{item:18601}, on the {npc:12396}"] = "{item:18601}, {npc:12396} üzerinde",
 }

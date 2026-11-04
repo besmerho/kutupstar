@@ -56,9 +56,7 @@ return {
 
 	-- Step 10: PvP: battleground reputations (Alliance)
 	["PvP: battleground reputations (Alliance)"] = "PvP: battleground itibarları (Alliance)",
-	["Exalted with each battleground faction is worth a point (4 in all; this page shows three, see the note). Follow the Polestar Reputation guides Warsong Gulch Reputation, Arathi Basin Reputation and Alterac Valley Reputation. The Diplomat Legacy perk increases reputation gains."] = "Her battleground grubuyla Exalted olmak bir puan değerinde (toplam 4; bu sayfa üçünü gösteriyor, nota bak). Polestar'ın İtibar rehberlerinden Warsong Gulch itibarı, Arathi Basin itibarı ve Alterac Valley itibarı rehberlerini izle. Diplomat Legacy ayrıcalığı itibar kazancını artırır.",
-	-- {zone:1460} Warsong Gulch · {zone:1461} Arathi Basin · {zone:1459} Alterac Valley
-	["Blizzard counts four battleground reputations, but our faction data has three per side ({zone:1460}, {zone:1461}, {zone:1459}). The fourth is likely tied to Forever's new PvP content; check the in-game Legacy panel."] = "Blizzard dört battleground itibarı sayıyor, ama grup verimizde taraf başına üç tane var ({zone:1460}, {zone:1461}, {zone:1459}). Dördüncüsü muhtemelen Forever'ın yeni PvP içeriğine bağlı; oyun içi Legacy panelini kontrol et.",
+	["Exalted with each of the four battleground factions is worth a point. Follow the Polestar Reputation guides Warsong Gulch Reputation, Arathi Basin Reputation, Alterac Valley Reputation and Darkspear Islands Reputation (Forever's new battleground, open from level 30). The Diplomat Legacy perk increases reputation gains."] = "",
 
 	-- Step 11: PvP: battleground reputations (Horde)
 	["PvP: battleground reputations (Horde)"] = "PvP: battleground itibarları (Horde)",
@@ -81,47 +79,55 @@ return {
 
 	-- Step 14: Adventure: explore the world map
 	["Adventure: explore the world map"] = "Macera: dünya haritasını keşfet",
-	["Exploring the entire world map on one character is a point, and it can also unlock the Legacy System. It must all be on the same character."] = "Tek bir karakterle tüm dünya haritasını keşfetmek bir puan ve Legacy System'i de açabilir. Hepsi aynı karakterle yapılmalı.",
-	["Follow the Polestar Exploration guides: Exploration: Eastern Kingdoms 1-30, 30-45 and 45-60, and Exploration: Kalimdor 1-30, 30-45 and 45-60. They track every area as you discover it."] = "Polestar'ın Keşif rehberlerini izle: Keşif: Eastern Kingdoms 1-30, 30-45 ve 45-60 ile Keşif: Kalimdor 1-30, 30-45 ve 45-60. Keşfettikçe her alanı takip ederler.",
+	-- {zone:2548} Riverglades · {zone:2652} Shen'dralas · {zone:2482} Mount Hyjal
+	["Exploring the entire world map on one character is a point, and it can also unlock the Legacy System. It must all be on the same character. Forever's new zones are part of the map: the {zone:2548}, {zone:2652} and {zone:2482}, a level 60 zone."] = "",
+	["Follow the Polestar Exploration guides: Exploration: Eastern Kingdoms 1-30, 30-45 and 45-60, and Exploration: Kalimdor 1-30, 30-45 and 45-60. They track every area as you discover it. Exploration: Zephras Isle covers the Skyborne island; whether its map counts towards this challenge is not confirmed yet."] = "",
 	["This step cannot check the whole map by itself yet; it becomes a tracked goal once the Legacy achievement ids are recorded."] = "Bu adım tüm haritayı henüz kendi başına kontrol edemiyor; Legacy başarım kimlikleri kaydedilince takip edilen bir hedef olur.",
 
 	-- Step 15: Adventure: Lord Valthalak
 	-- {npc:16042} Lord Valthalak
 	["Adventure: {npc:16042}"] = "Macera: {npc:16042}",
-	-- {npc:16042} Lord Valthalak · {npc:16013} Deliana · {zone:1455} Ironforge · {npc:16012} Mokvar · {zone:1454} Orgrimmar · {npc:16033} Bodley · {area:254} Blackrock Mountain · {quest:8995} Mea Culpa, Lord Valthalak · {quest:8996} Return to Bodley · {quest:8997} Back to the Beginning
-	["The {npc:16042} questline is a point. It is the level 60 dungeon-set chain: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of Lord Valthalak's Amulet, Final Preparations and {quest:8995} end with {quest:8996}. {quest:8997} then leads to the class Saving the Best for Last quests."] = "{npc:16042} görev zinciri bir puan. Bu, seviye 60 zindan seti zinciri: {npc:16013} ({zone:1455}) ya da {npc:16012} ({zone:1454}) seni In Search of Anthion ve Anthion's Parting Words üzerinden {area:254} dağındaki {npc:16033} yanına gönderir; onun Three Kings of Flame, Lord Valthalak's Amulet'in sol ve sağ parçaları, Final Preparations ve {quest:8995} görevleri {quest:8996} ile biter. Ardından {quest:8997} sınıfa özel Saving the Best for Last görevlerine götürür.",
+	-- {npc:16042} Lord Valthalak · {quest:8999} Saving the Best for Last · {npc:16013} Deliana · {zone:1455} Ironforge · {npc:16012} Mokvar · {zone:1454} Orgrimmar · {npc:16033} Bodley · {area:254} Blackrock Mountain · {quest:8995} Mea Culpa, Lord Valthalak · {quest:8996} Return to Bodley · {quest:8997} Back to the Beginning
+	["The {npc:16042} questline is a point. It is the level 60 dungeon-set chain, from An Earnest Proposition to your class's {quest:8999}: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of Lord Valthalak's Amulet, Final Preparations and {quest:8995} end with {quest:8996}. {quest:8997} then leads to {quest:8999}."] = "",
 	-- {npc:16073} Spirit of Lord Valthalak · {npc:16033} Bodley · {area:254} Blackrock Mountain
 	["{npc:16073}, inside Upper Blackrock Spire after Mea Culpa (no spawn in the data: the arrow leads to {npc:16033}'s {area:254})"] = "{npc:16073}, Mea Culpa'dan sonra Upper Blackrock Spire içinde (veride doğma noktası yok: ok {npc:16033} adlı NPC'nin bulunduğu {area:254} dağını gösteriyor)",
 	-- {npc:16033} Bodley · {quest:8996} Return to Bodley
 	["{npc:16033} offers it once {quest:8996} is turned in"] = "{quest:8996} teslim edilince {npc:16033} verir",
-	-- {quest:8996} Return to Bodley
-	["Which quest Blizzard counts as the end of the questline ({quest:8996} or your class's Saving the Best for Last) is unconfirmed until the Legacy data is recorded."] = "Blizzard'ın zincirin sonu olarak hangi görevi saydığı ({quest:8996} mı yoksa sınıfının Saving the Best for Last görevi mi) Legacy verisi kaydedilene kadar doğrulanmış değil.",
 
-	-- Step 16: Adventure: Back to the Beginning (Alliance)
-	-- {quest:8997} Back to the Beginning
-	["Adventure: {quest:8997} (Alliance)"] = "Macera: {quest:8997} (Alliance)",
-	-- {npc:16013} Deliana
-	["{npc:16013} then offers your class's Saving the Best for Last, the final upgrade of the dungeon set."] = "Ardından {npc:16013} sınıfının Saving the Best for Last görevini, yani zindan setinin son yükseltmesini verir.",
+	-- Step 16: Adventure: Saving the Best for Last (Alliance)
+	-- {quest:8999} Saving the Best for Last
+	["Adventure: {quest:8999} (Alliance)"] = "",
+	-- {npc:16013} Deliana · {quest:8999} Saving the Best for Last
+	["{npc:16013} then offers your class's {quest:8999}, the last quest of the challenge: it takes your class's dungeon-set helm and chest and upgrades them."] = "",
 
-	-- Step 17: Adventure: Back to the Beginning (Horde)
-	-- {quest:8998} Back to the Beginning
-	["Adventure: {quest:8998} (Horde)"] = "Macera: {quest:8998} (Horde)",
-	-- {npc:16012} Mokvar
-	["{npc:16012} then offers your class's Saving the Best for Last, the final upgrade of the dungeon set."] = "Ardından {npc:16012} sınıfının Saving the Best for Last görevini, yani zindan setinin son yükseltmesini verir.",
+	-- Step 17: Adventure: Saving the Best for Last (Horde)
+	-- {quest:9007} Saving the Best for Last
+	["Adventure: {quest:9007} (Horde)"] = "",
+	-- {npc:16012} Mokvar · {quest:9007} Saving the Best for Last
+	["{npc:16012} then offers your class's {quest:9007}, the last quest of the challenge: it takes your class's dungeon-set helm and chest and upgrades them."] = "",
 
 	-- Step 18: Dungeons: level 15-25
 	["Dungeons: level 15-25"] = "Zindanlar: seviye 15-25",
-	["The final boss of every level 15-25 dungeon earns one point together. Tick each boss off when you kill it; the grouping follows the usual Classic level ranges, so check the in-game Legacy panel for the exact list."] = "Seviye 15-25 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır. Her boss'u öldürünce işaretle; gruplama alışılmış Classic seviye aralıklarını izliyor, kesin liste için oyun içi Legacy paneline bak.",
+	-- {area:2437} Ragefire Chasm · {area:16919} Hall of Thanes · {zone:1455} Ironforge
+	["The final boss of every level 15-25 dungeon earns one point together. {area:2437} and Forever's {area:16919} (in {zone:1455}) count as one: either final boss does. Tick each boss off when you kill it, and check the in-game Legacy panel for the list."] = "",
+	-- {area:2437} Ragefire Chasm · {npc:11519} Bazzalan · {area:16919} Hall of Thanes
+	["{area:2437}: {npc:11519} (or {area:16919})"] = "",
+	-- {area:16919} Hall of Thanes · {npc:261319} Durgen Dirgehammer · {area:2437} Ragefire Chasm
+	["{area:16919}: {npc:261319} (or {area:2437})"] = "",
+	-- {area:153} Ruins of Lordaeron · {zone:1420} Tirisfal Glades · {npc:256035} Viktor the Vile
+	["{area:153} (Forever's, {zone:1420}): {npc:256035}"] = "",
 	-- {area:718} Wailing Caverns · {npc:3678} Disciple of Naralex
 	["{area:718} (appears after the {npc:3678}'s event)"] = "{area:718} ({npc:3678} etkinliğinden sonra ortaya çıkar)",
-	-- {area:717} The Stockade
-	["{area:717}: the usual last kill; the {area:717} has no fixed final boss"] = "{area:717}: alışılmış son öldürme; {area:717} zindanının sabit bir son boss'u yok",
-	-- {area:16919} Hall of Thanes · {area:153} Ruins of Lordaeron
-	["Forever adds the dungeons {area:16919} and {area:153}; their bosses and brackets are not in our data yet."] = "Forever {area:16919} ve {area:153} zindanlarını ekliyor; boss'ları ve aralıkları henüz verimizde yok.",
+	-- {area:17732} Excavation Site: Wetlands · {npc:260326} Relic Guardian
+	["{area:17732} (Forever's): {npc:260326}"] = "",
 
 	-- Step 19: Dungeons: level 26-45
 	["Dungeons: level 26-45"] = "Zindanlar: seviye 26-45",
-	["The final boss of every level 26-45 dungeon earns one point together."] = "Seviye 26-45 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır.",
+	-- {area:17780} Krol'dok Stronghold · {zone:2548} Riverglades
+	["The final boss of every level 26-45 dungeon earns one point together. The Drowned City and {area:17780} (in the {zone:2548}) are new in Forever and not in our data: tick them off yourself."] = "",
+	-- {zone:1416} Alterac Mountains · {npc:246020} Shade of the Archmage
+	["City of Dalaran (Forever's, {zone:1416}): {npc:246020}"] = "",
+	["the final boss of the Drowned City"] = "",
 	-- {area:796} Scarlet Monastery
 	["{area:796}: Graveyard"] = "{area:796}: Graveyard",
 	-- {area:796} Scarlet Monastery
@@ -130,46 +136,79 @@ return {
 	["{area:796}: Armory"] = "{area:796}: Armory",
 	-- {area:796} Scarlet Monastery
 	["{area:796}: Cathedral"] = "{area:796}: Cathedral",
-	-- {area:1517} Uldaman
-	["{area:1517} (level 41-51; may count in the 46-60 bracket)"] = "{area:1517} (seviye 41-51; 46-60 aralığında sayılabilir)",
+	-- {area:17780} Krol'dok Stronghold
+	["the final boss of {area:17780}"] = "",
 
 	-- Step 20: Dungeons: level 46-60
 	["Dungeons: level 46-60"] = "Zindanlar: seviye 46-60",
-	["The final boss of every level 46-60 dungeon earns one point together."] = "Seviye 46-60 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır.",
+	-- {area:1216} Blackmaw Hold · {area:16985} Shaper's Terrace
+	["The final boss of every level 46-60 dungeon earns one point together. Alcaz Prison, {area:1216} and the {area:16985} are new in Forever and not in our data: tick them off yourself."] = "",
+	["the final boss of Alcaz Prison"] = "",
+	-- {area:1216} Blackmaw Hold
+	["the final boss of {area:1216}"] = "",
 	-- {area:1583} Blackrock Spire
 	["Lower {area:1583}"] = "Lower {area:1583}",
 	-- {area:1583} Blackrock Spire
 	["Upper {area:1583}"] = "Upper {area:1583}",
-	["Dire Maul East"] = "Dire Maul East",
-	["Dire Maul West"] = "Dire Maul West",
-	["Dire Maul North"] = "Dire Maul North",
 	-- {area:2279} Stratholme
 	["{area:2279}, Live side"] = "{area:2279}, yaşayanlar tarafı",
 	-- {area:2279} Stratholme
 	["{area:2279}, Undead side"] = "{area:2279}, undead tarafı",
+	["Dire Maul East"] = "Dire Maul East",
+	["Dire Maul North"] = "Dire Maul North",
+	["Dire Maul West"] = "Dire Maul West",
+	-- {area:16985} Shaper's Terrace
+	["the final boss of the {area:16985}"] = "",
 
-	-- Step 21: Forever's new dungeons
-	["Forever's new dungeons"] = "Forever'ın yeni zindanları",
-	-- {area:16919} Hall of Thanes · {area:153} Ruins of Lordaeron
-	["{area:16919} and {area:153} are new in Forever. Their bosses, levels and Legacy bracket are not in our data, so tick them off yourself."] = "{area:16919} ve {area:153} Forever'da yeni. Boss'ları, seviyeleri ve Legacy aralıkları verimizde yok, bu yüzden onları kendin işaretle.",
-	-- {area:16919} Hall of Thanes
-	["the final boss of {area:16919}"] = "{area:16919} zindanının son boss'u",
-	-- {area:153} Ruins of Lordaeron
-	["the final boss of {area:153}"] = "{area:153} zindanının son boss'u",
-
-	-- Step 22: Raids: Onyxia
+	-- Step 21: Raids: Onyxia
 	-- {npc:10184} Onyxia
 	["Raids: {npc:10184}"] = "Raid'ler: {npc:10184}",
-	-- {npc:10184} Onyxia · {item:16309} Drakefire Amulet · {item:16663} Blood of the Black Dragon Champion
-	["Killing {npc:10184} is a point. In Classic her lair needs an attunement: {item:16309} for the Alliance, {item:16663} for the Horde."] = "{npc:10184} yaratığını öldürmek bir puan. Classic'te inine girmek için attunement gerekir: Alliance için {item:16309}, Horde için {item:16663}.",
+	-- {npc:10184} Onyxia · {area:2159} Onyxia's Lair · {zone:1445} Dustwallow Marsh · {item:16309} Drakefire Amulet · {zone:1428} Burning Steppes · {area:340} Kargath · {zone:1418} Badlands · {npc:10363} General Drakkisath
+	["Killing {npc:10184} is a point. {area:2159} is a 40-player raid in {zone:1445}, open from 9 December. Every raider needs the {item:16309} in the bags: the Alliance chain starts with Dragonkin Menace in the {zone:1428}, the Horde chain with Blood and Thunder in {area:340} ({zone:1418}); both end in Upper Blackrock Spire with {npc:10363}."] = "",
 
-	-- Step 23: Raids: Hyjal Summit
+	-- Step 22: Raids: Hyjal Summit
 	["Raids: Hyjal Summit"] = "Raid'ler: Hyjal Summit",
-	["All 13 Hyjal Summit bosses are a point. Hyjal Summit is a new Forever raid; its bosses are not in our data, so tick it off once all 13 are down."] = "Hyjal Summit'in 13 boss'unun hepsi bir puan. Hyjal Summit yeni bir Forever raid'i; boss'ları verimizde yok, bu yüzden 13'ü de yenilince kendin işaretle.",
+	-- {zone:2482} Mount Hyjal
+	["All 13 Hyjal Summit bosses are a point. Hyjal Summit is a new 20-player Forever raid at the top of {zone:2482}, near Nordrassil, open from 9 December; its bosses are not in our data, so tick it off once all 13 are down."] = "",
 	["all 13 Hyjal Summit bosses"] = "Hyjal Summit'in 13 boss'unun hepsi",
 
-	-- Step 24: Raids: Barrow Deeps
+	-- Step 23: Raids: Barrow Deeps
 	["Raids: Barrow Deeps"] = "Raid'ler: Barrow Deeps",
-	["All 8 Barrow Deeps bosses are a point. Barrow Deeps is a new Forever raid; its bosses are not in our data, so tick it off once all 8 are down."] = "Barrow Deeps'in 8 boss'unun hepsi bir puan. Barrow Deeps yeni bir Forever raid'i; boss'ları verimizde yok, bu yüzden 8'i de yenilince kendin işaretle.",
+	-- {zone:2482} Mount Hyjal · {zone:1452} Winterspring · {area:1216} Blackmaw Hold
+	["All 8 Barrow Deeps bosses are a point. Barrow Deeps is a new 10-player Forever raid beneath {zone:2482}, entered from {zone:2482}, {zone:1452} or {area:1216} and open from 9 December; its bosses are not in our data, so tick it off once all 8 are down."] = "",
 	["all 8 Barrow Deeps bosses"] = "Barrow Deeps'in 8 boss'unun hepsi",
+
+	-- No longer in the guide (its English changed or it went away): reuse or delete.
+	-- maybe now: ["Exalted with each of the four battleground factions is worth a point. Follow the Polestar Reputation guides Warsong Gulch Reputation, Arathi Basin Reputation, Alterac Valley Reputation and Darkspear Islands Reputation (Forever's new battleground, open from level 30). The Diplomat Legacy perk increases reputation gains."]
+	-- ["Exalted with each battleground faction is worth a point (4 in all; this page shows three, see the note). Follow the Polestar Reputation guides Warsong Gulch Reputation, Arathi Basin Reputation and Alterac Valley Reputation. The Diplomat Legacy perk increases reputation gains."] = "Her battleground grubuyla Exalted olmak bir puan değerinde (toplam 4; bu sayfa üçünü gösteriyor, nota bak). Polestar'ın İtibar rehberlerinden Warsong Gulch itibarı, Arathi Basin itibarı ve Alterac Valley itibarı rehberlerini izle. Diplomat Legacy ayrıcalığı itibar kazancını artırır.",
+	-- ["Blizzard counts four battleground reputations, but our faction data has three per side ({zone:1460}, {zone:1461}, {zone:1459}). The fourth is likely tied to Forever's new PvP content; check the in-game Legacy panel."] = "Blizzard dört battleground itibarı sayıyor, ama grup verimizde taraf başına üç tane var ({zone:1460}, {zone:1461}, {zone:1459}). Dördüncüsü muhtemelen Forever'ın yeni PvP içeriğine bağlı; oyun içi Legacy panelini kontrol et.",
+	-- maybe now: ["Exploring the entire world map on one character is a point, and it can also unlock the Legacy System. It must all be on the same character. Forever's new zones are part of the map: the {zone:2548}, {zone:2652} and {zone:2482}, a level 60 zone."]
+	-- ["Exploring the entire world map on one character is a point, and it can also unlock the Legacy System. It must all be on the same character."] = "Tek bir karakterle tüm dünya haritasını keşfetmek bir puan ve Legacy System'i de açabilir. Hepsi aynı karakterle yapılmalı.",
+	-- maybe now: ["Follow the Polestar Exploration guides: Exploration: Eastern Kingdoms 1-30, 30-45 and 45-60, and Exploration: Kalimdor 1-30, 30-45 and 45-60. They track every area as you discover it. Exploration: Zephras Isle covers the Skyborne island; whether its map counts towards this challenge is not confirmed yet."]
+	-- ["Follow the Polestar Exploration guides: Exploration: Eastern Kingdoms 1-30, 30-45 and 45-60, and Exploration: Kalimdor 1-30, 30-45 and 45-60. They track every area as you discover it."] = "Polestar'ın Keşif rehberlerini izle: Keşif: Eastern Kingdoms 1-30, 30-45 ve 45-60 ile Keşif: Kalimdor 1-30, 30-45 ve 45-60. Keşfettikçe her alanı takip ederler.",
+	-- maybe now: ["The {npc:16042} questline is a point. It is the level 60 dungeon-set chain, from An Earnest Proposition to your class's {quest:8999}: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of Lord Valthalak's Amulet, Final Preparations and {quest:8995} end with {quest:8996}. {quest:8997} then leads to {quest:8999}."]
+	-- ["The {npc:16042} questline is a point. It is the level 60 dungeon-set chain: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of Lord Valthalak's Amulet, Final Preparations and {quest:8995} end with {quest:8996}. {quest:8997} then leads to the class Saving the Best for Last quests."] = "{npc:16042} görev zinciri bir puan. Bu, seviye 60 zindan seti zinciri: {npc:16013} ({zone:1455}) ya da {npc:16012} ({zone:1454}) seni In Search of Anthion ve Anthion's Parting Words üzerinden {area:254} dağındaki {npc:16033} yanına gönderir; onun Three Kings of Flame, Lord Valthalak's Amulet'in sol ve sağ parçaları, Final Preparations ve {quest:8995} görevleri {quest:8996} ile biter. Ardından {quest:8997} sınıfa özel Saving the Best for Last görevlerine götürür.",
+	-- ["Which quest Blizzard counts as the end of the questline ({quest:8996} or your class's Saving the Best for Last) is unconfirmed until the Legacy data is recorded."] = "Blizzard'ın zincirin sonu olarak hangi görevi saydığı ({quest:8996} mı yoksa sınıfının Saving the Best for Last görevi mi) Legacy verisi kaydedilene kadar doğrulanmış değil.",
+	-- ["Adventure: {quest:8997} (Alliance)"] = "Macera: {quest:8997} (Alliance)",
+	-- ["{npc:16013} then offers your class's Saving the Best for Last, the final upgrade of the dungeon set."] = "Ardından {npc:16013} sınıfının Saving the Best for Last görevini, yani zindan setinin son yükseltmesini verir.",
+	-- ["Adventure: {quest:8998} (Horde)"] = "Macera: {quest:8998} (Horde)",
+	-- ["{npc:16012} then offers your class's Saving the Best for Last, the final upgrade of the dungeon set."] = "Ardından {npc:16012} sınıfının Saving the Best for Last görevini, yani zindan setinin son yükseltmesini verir.",
+	-- maybe now: ["The final boss of every level 15-25 dungeon earns one point together. {area:2437} and Forever's {area:16919} (in {zone:1455}) count as one: either final boss does. Tick each boss off when you kill it, and check the in-game Legacy panel for the list."]
+	-- ["The final boss of every level 15-25 dungeon earns one point together. Tick each boss off when you kill it; the grouping follows the usual Classic level ranges, so check the in-game Legacy panel for the exact list."] = "Seviye 15-25 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır. Her boss'u öldürünce işaretle; gruplama alışılmış Classic seviye aralıklarını izliyor, kesin liste için oyun içi Legacy paneline bak.",
+	-- ["{area:717}: the usual last kill; the {area:717} has no fixed final boss"] = "{area:717}: alışılmış son öldürme; {area:717} zindanının sabit bir son boss'u yok",
+	-- ["Forever adds the dungeons {area:16919} and {area:153}; their bosses and brackets are not in our data yet."] = "Forever {area:16919} ve {area:153} zindanlarını ekliyor; boss'ları ve aralıkları henüz verimizde yok.",
+	-- ["The final boss of every level 26-45 dungeon earns one point together."] = "Seviye 26-45 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır.",
+	-- ["{area:1517} (level 41-51; may count in the 46-60 bracket)"] = "{area:1517} (seviye 41-51; 46-60 aralığında sayılabilir)",
+	-- ["The final boss of every level 46-60 dungeon earns one point together."] = "Seviye 46-60 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır.",
+	-- ["Forever's new dungeons"] = "Forever'ın yeni zindanları",
+	-- ["{area:16919} and {area:153} are new in Forever. Their bosses, levels and Legacy bracket are not in our data, so tick them off yourself."] = "{area:16919} ve {area:153} Forever'da yeni. Boss'ları, seviyeleri ve Legacy aralıkları verimizde yok, bu yüzden onları kendin işaretle.",
+	-- maybe now: ["the final boss of {area:17780}"]
+	-- ["the final boss of {area:16919}"] = "{area:16919} zindanının son boss'u",
+	-- maybe now: ["the final boss of {area:17780}"]
+	-- ["the final boss of {area:153}"] = "{area:153} zindanının son boss'u",
+	-- ["Killing {npc:10184} is a point. In Classic her lair needs an attunement: {item:16309} for the Alliance, {item:16663} for the Horde."] = "{npc:10184} yaratığını öldürmek bir puan. Classic'te inine girmek için attunement gerekir: Alliance için {item:16309}, Horde için {item:16663}.",
+	-- maybe now: ["All 13 Hyjal Summit bosses are a point. Hyjal Summit is a new 20-player Forever raid at the top of {zone:2482}, near Nordrassil, open from 9 December; its bosses are not in our data, so tick it off once all 13 are down."]
+	-- ["All 13 Hyjal Summit bosses are a point. Hyjal Summit is a new Forever raid; its bosses are not in our data, so tick it off once all 13 are down."] = "Hyjal Summit'in 13 boss'unun hepsi bir puan. Hyjal Summit yeni bir Forever raid'i; boss'ları verimizde yok, bu yüzden 13'ü de yenilince kendin işaretle.",
+	-- maybe now: ["All 8 Barrow Deeps bosses are a point. Barrow Deeps is a new 10-player Forever raid beneath {zone:2482}, entered from {zone:2482}, {zone:1452} or {area:1216} and open from 9 December; its bosses are not in our data, so tick it off once all 8 are down."]
+	-- ["All 8 Barrow Deeps bosses are a point. Barrow Deeps is a new Forever raid; its bosses are not in our data, so tick it off once all 8 are down."] = "Barrow Deeps'in 8 boss'unun hepsi bir puan. Barrow Deeps yeni bir Forever raid'i; boss'ları verimizde yok, bu yüzden 8'i de yenilince kendin işaretle.",
 }
