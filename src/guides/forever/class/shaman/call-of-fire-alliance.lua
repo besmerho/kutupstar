@@ -7,60 +7,60 @@ return {
 	-- {quest:94449} Call of Fire
 	["{quest:94449} (Alliance)"] = "{quest:94449} (Alliance)",
 	-- {item:5176} Fire Totem · {spell:3599} Searing Totem · {item:263412} Totem of Charged Flames
-	["Your {item:5176} for every fire totem, {spell:3599} with it, and Forever's {item:263412}."] = "",
+	["Your {item:5176} for every fire totem, {spell:3599} with it, and Forever's {item:263412}."] = "Her fire totem için {item:5176}, onunla birlikte {spell:3599} ve Forever'ın {item:263412} eşyası.",
 
 	-- Step 1: Call of Fire
 	-- {npc:258113} Ingrid Dunwald · {area:131} Kharanos · {npc:258098} Eldrun Stormbreaker · {zone:1455} Ironforge · {npc:257597} Bruegs Kindleborn
-	["At 10 {npc:258113}, the shaman trainer in {area:131}, or {npc:258098}, the shaman trainer in {zone:1455}, sends you to {npc:257597}."] = "",
+	["At 10 {npc:258113}, the shaman trainer in {area:131}, or {npc:258098}, the shaman trainer in {zone:1455}, sends you to {npc:257597}."] = "10'da {area:131} köyündeki shaman eğitmeni {npc:258113} ya da {zone:1455} şehrindeki shaman eğitmeni {npc:258098}, seni {npc:257597} yanına gönderir.",
 	-- {npc:258113} Ingrid Dunwald · {area:131} Kharanos · {npc:258098} Eldrun Stormbreaker · {zone:1455} Ironforge
-	["{npc:258113}, {area:131}; or {npc:258098}, {zone:1455}"] = "",
+	["{npc:258113}, {area:131}; or {npc:258098}, {zone:1455}"] = "{npc:258113}, {area:131}; ya da {npc:258098}, {zone:1455}",
 
 	-- Step 2: Bruegs Kindleborn
 	-- {area:806} South Gate Outpost · {npc:1959} Mountaineer Barleybrew · {npc:257597} Bruegs Kindleborn · {item:6653} Torch of the Dormant Flame
-	["Follow the road east to the tunnel towards {area:806}. Out of the first tunnel, keep left past {npc:1959} and the tower: a slim trail, hard to see but shown on the minimap, winds up the mountain to {npc:257597}' cave above the farm. He hands you the {item:6653}: keep it until the end of the chain."] = "",
+	["Follow the road east to the tunnel towards {area:806}. Out of the first tunnel, keep left past {npc:1959} and the tower: a slim trail, hard to see but shown on the minimap, winds up the mountain to {npc:257597}' cave above the farm. He hands you the {item:6653}: keep it until the end of the chain."] = "Yolu doğuya, {area:806} karakoluna giden tünele izle. İlk tünelden çıkınca {npc:1959} ve kuleyi geçerek solda kal: görmesi zor ama mini haritada görünen ince bir patika dağın yukarısına, çiftliğin üstündeki {npc:257597} mağarasına kıvrılarak çıkar. Sana {item:6653} verir: zincirin sonuna kadar sakla.",
 
 	-- Step 3: Braldir Ashmantle
 	-- {npc:257597} Bruegs Kindleborn · {zone:1432} Loch Modan · {npc:257808} Braldir Ashmantle · {area:144} Thelsamar
-	["From {npc:257597}' ledge you can drop carefully down the mountain into {zone:1432}, or walk back through the tunnel. {npc:257808} keeps the shrine on the peak just south of {area:144}: a hidden trail along a cliff ledge, marked by stone totems, climbs to it from the road north of the peak."] = "",
+	["From {npc:257597}' ledge you can drop carefully down the mountain into {zone:1432}, or walk back through the tunnel. {npc:257808} keeps the shrine on the peak just south of {area:144}: a hidden trail along a cliff ledge, marked by stone totems, climbs to it from the road north of the peak."] = "{npc:257597} çıkıntısından dikkatlice dağdan aşağı {zone:1432} bölgesine inebilir ya da tünelden geri yürüyebilirsin. {npc:257808}, {area:144} kasabasının hemen güneyindeki zirvede tapınağı koruyor: taş totemlerle işaretli, uçurum çıkıntısı boyunca uzanan gizli bir patika zirvenin kuzeyindeki yoldan oraya çıkar.",
 
 	-- Step 4: Reagent Pouch
 	-- {area:923} Stonesplinter Valley · {area:144} Thelsamar · {spell:1245113} Lightning Bolts
 	-- plural, as words: Stonesplinter Seers = {npc:1166} Stonesplinter Seer
-	["The Stonesplinter Seers (level 13-14) stand among the troggs of {area:923} in the south of the loch, and in the trogg camps north-east of {area:144}. They throw {spell:1245113} from 40 yards and run for help when hurt: pull one at a time. Respawn about five minutes."] = "",
+	["The Stonesplinter Seers (level 13-14) stand among the troggs of {area:923} in the south of the loch, and in the trogg camps north-east of {area:144}. They throw {spell:1245113} from 40 yards and run for help when hurt: pull one at a time. Respawn about five minutes."] = "Stonesplinter Seer yaratıkları (seviye 13-14), gölün güneyindeki {area:923} vadisinde trogg'ların arasında ve {area:144} kasabasının kuzeydoğusundaki trogg kamplarında duruyor. 40 yardadan {spell:1245113} atarlar ve yaralanınca yardım için kaçarlar: tek tek çek. Yaklaşık beş dakikada yeniden doğarlar.",
 
 	-- Step 5: Fire Tar
 	-- {area:149} Silver Stream Mine · {area:144} Thelsamar · {spell:2136} Fire Blast · {spell:134} Fire Shield
 	-- plural, as words: Tunnel Rat Geomancers = {npc:1174} Tunnel Rat Geomancer
-	["The Tunnel Rat Geomancers (level 12-13) work only inside the {area:149} at the north end of the loch, past {area:144}. They cast {spell:2136} behind a {spell:134} and run for help at low health."] = "",
+	["The Tunnel Rat Geomancers (level 12-13) work only inside the {area:149} at the north end of the loch, past {area:144}. They cast {spell:2136} behind a {spell:134} and run for help at low health."] = "Tunnel Rat Geomancer yaratıkları (seviye 12-13) yalnızca gölün kuzey ucundaki, {area:144} kasabasının ötesindeki {area:149} madeninin içinde çalışıyor. Bir {spell:134} arkasından {spell:2136} atarlar ve canları azalınca yardım için kaçarlar.",
 
 	-- Step 6: Braldir Ashmantle
 	-- {npc:257808} Braldir Ashmantle · {item:6636} Fire Sapta
-	["Back up the trail to {npc:257808}. He makes the {item:6636} from the tar and the pouch: keep it with the torch."] = "",
+	["Back up the trail to {npc:257808}. He makes the {item:6636} from the tar and the pouch: keep it with the torch."] = "Patikadan {npc:257808} yanına geri çık. Katran ve keseden {item:6636} yapar: meşaleyle birlikte sakla.",
 
 	-- Step 7: Lost the Fire Sapta?
 	-- {quest:94473} Fire Sapta
 	["Lost the {quest:94473}?"] = "{quest:94473} kayıp mı?",
 	-- {quest:94473} Fire Sapta · {npc:257808} Braldir Ashmantle
-	["Only if the {quest:94473} is gone from your bags: {npc:257808} gives you another."] = "",
+	["Only if the {quest:94473} is gone from your bags: {npc:257808} gives you another."] = "Yalnızca {quest:94473} çantandan gittiyse: {npc:257808} sana bir tane daha verir.",
 	-- {npc:257808} Braldir Ashmantle · {quest:94473} Fire Sapta
 	["{npc:257808}: a new {quest:94473}"] = "{npc:257808}: yeni bir {quest:94473}",
 
 	-- Step 8: The Shrine of Eternal Flame
-	["The Shrine of Eternal Flame"] = "",
+	["The Shrine of Eternal Flame"] = "Shrine of Eternal Flame",
 	-- {npc:257808} Braldir Ashmantle · {item:6636} Fire Sapta · {npc:5893} Minor Manifestation of Fire · {spell:8017} Rockbiter Weapon · {spell:8042} Earth Shock · {item:6655} Glowing Ember
-	["Climb on past {npc:257808} to the peak. Drink the {item:6636} beside the rock statue there to see the {npc:5893} (level 12): it waits until you strike, but grows stronger the longer it is left, and it is immune to fire. Open at once with {spell:8017} and {spell:8042}. Its {item:6655} drops every time."] = "",
+	["Climb on past {npc:257808} to the peak. Drink the {item:6636} beside the rock statue there to see the {npc:5893} (level 12): it waits until you strike, but grows stronger the longer it is left, and it is immune to fire. Open at once with {spell:8017} and {spell:8042}. Its {item:6655} drops every time."] = "{npc:257808} yerini geçip zirveye tırman. {npc:5893} elementalini (seviye 12) görmek için oradaki kaya heykelin yanında {item:6636} iç: sen vurana kadar bekler, ama ne kadar bırakılırsa o kadar güçlenir ve fire'a bağışıktır. Hemen {spell:8017} ve {spell:8042} ile başla. {item:6655} her seferinde düşer.",
 	-- {item:6636} Fire Sapta
-	["{item:6636}, beside the statue"] = "",
+	["{item:6636}, beside the statue"] = "{item:6636}, heykelin yanında",
 
 	-- Step 9: The Brazier of the Dormant Flame
 	-- {object:61934} Brazier of the Dormant Flame
 	["The {object:61934}"] = "{object:61934}",
 	-- {object:61934} Brazier of the Dormant Flame · {item:277329} Torch of Eternal Flame
-	["Click the {object:61934} atop the shrine with the torch in your bags to place the ember, then click it again for the next quest: the lit {item:277329}."] = "",
+	["Click the {object:61934} atop the shrine with the torch in your bags to place the ember, then click it again for the next quest: the lit {item:277329}."] = "Közü yerleştirmek için meşale çantandayken tapınağın tepesindeki {object:61934} mangalına tıkla, sonra sonraki görev için yeniden tıkla: yanan {item:277329}.",
 
 	-- Step 10: Bruegs Kindleborn
 	-- {npc:257597} Bruegs Kindleborn · {item:5176} Fire Totem
-	["Back through the South Gate tunnel and up the trail to {npc:257597}' cave. Keep the {item:5176} in your bags for good: every fire totem needs it."] = "",
+	["Back through the South Gate tunnel and up the trail to {npc:257597}' cave. Keep the {item:5176} in your bags for good: every fire totem needs it."] = "South Gate tünelinden geri geç ve patikadan {npc:257597} mağarasına çık. {item:5176} eşyasını sürekli çantanda tut: her fire totem ona ihtiyaç duyar.",
 	-- {npc:257597} Bruegs Kindleborn · {spell:3599} Searing Totem · {item:5176} Fire Totem · {item:263412} Totem of Charged Flames
-	["{npc:257597}: {spell:3599}, your {item:5176} and the {item:263412}"] = "",
+	["{npc:257597}: {spell:3599}, your {item:5176} and the {item:263412}"] = "{npc:257597}: {spell:3599}, {item:5176} ve {item:263412}",
 }
