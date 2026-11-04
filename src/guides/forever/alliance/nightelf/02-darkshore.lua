@@ -24,7 +24,7 @@ return {
 	-- Step 5: The skeletal turtle
 	["The skeletal turtle"] = "İskelet kaplumbağa",
 	-- {item:12289} Sea Turtle Remains
-	["{item:12289}, on the beach west of the docks; underwater"] = "",
+	["{item:12289}, on the beach west of the docks; underwater"] = "{item:12289}, iskelelerin batısındaki kumsalda; su altında",
 
 	-- Step 6: Bears and the Blackwood camp
 	["Bears and the Blackwood camp"] = "Ayılar ve Blackwood kampı",
@@ -51,15 +51,15 @@ return {
 	["Plagued bears"] = "Hastalıklı ayılar",
 	-- {area:442} Auberdine · {item:7586} Tharnariun's Hope
 	-- plural, as words: Rabid Thistle Bears = {npc:2164} Rabid Thistle Bear
-	["Rabid Thistle Bears roam the hills just east of {area:442}. Use {item:7586} on one and lead it back to him."] = "",
+	["Rabid Thistle Bears roam the hills just east of {area:442}. Use {item:7586} on one and lead it back to him."] = "Rabid Thistle Bear yaratıkları {area:442} kasabasının hemen doğusundaki tepelerde dolaşıyor. Birinin üzerinde {item:7586} kullan ve onu ona geri götür.",
 	-- {npc:3701} Tharnariun Treetender
 	-- plural, as words: Rabid Thistle Bears = {npc:2164} Rabid Thistle Bear
-	["the Rabid Thistle Bears nearest {npc:3701}"] = "",
+	["the Rabid Thistle Bears nearest {npc:3701}"] = "{npc:3701} yerine en yakın Rabid Thistle Bear yaratıkları",
 
 	-- Step 10: Bashal'Aran
 	-- {npc:3650} Asterion · {quest:954} Bashal'Aran · {object:17183} Buzzbox 411 · {quest:4723} Beached Sea Creature
 	-- plural, as words: Wild Grells = {npc:2190} Wild Grell · Vile Sprites = {npc:2189} Vile Sprite · Deth'ryll Satyrs = {npc:2212} Deth'ryll Satyr
-	["North along the hills. {npc:3650} waits in the ruins of {quest:954}; Wild Grells and Vile Sprites fill them, Deth'ryll Satyrs the eastern edge. {object:17183} stands by the road west of the ruins; a {quest:4723} lies on the shore on the way to him."] = "",
+	["North along the hills. {npc:3650} waits in the ruins of {quest:954}; Wild Grells and Vile Sprites fill them, Deth'ryll Satyrs the eastern edge. {object:17183} stands by the road west of the ruins; a {quest:4723} lies on the shore on the way to him."] = "Tepeler boyunca kuzeye git. {npc:3650}, {quest:954} harabelerinde bekliyor; harabeleri Wild Grell ve Vile Sprite yaratıkları, doğu kenarını Deth'ryll Satyr yaratıkları doldurmuş. {object:17183} harabelerin batısındaki yolun yanında duruyor; ona giderken kıyıda bir {quest:4723} yatıyor.",
 	-- plural, as words: Grell Earrings = {item:5336} Grell Earring
 	["Grell Earrings"] = "Grell Earring",
 	-- {item:5338} Ancient Moonstone Seal
@@ -125,7 +125,7 @@ return {
 	-- {area:448} Grove of the Ancients
 	["The {area:448}"] = "{area:448} korusu",
 	-- {npc:270269} Arbal · {npc:11218} Kerlonian Evershade
-	["Follow the road south. Onu is the ancient at the Grove; {npc:270269} and {npc:11218} sleep beside him."] = "",
+	["Follow the road south. Onu is the ancient at the Grove; {npc:270269} and {npc:11218} sleep beside him."] = "Yolu güneye izle. Grove'daki kadim Onu; {npc:270269} ve {npc:11218} onun yanında uyuyor.",
 
 	-- Step 32: Auberdine
 	["Follow the road north."] = "Yolu kuzeye izle.",
@@ -134,7 +134,7 @@ return {
 	["The naga"] = "Nagalar",
 	-- {area:443} Ruins of Mathystra
 	-- plural, as words: Mathystra Relics = {item:5273} Mathystra Relic · Stormscale Myrmidons = {npc:2181} Stormscale Myrmidon
-	["Follow the coast north-east to the {area:443}. Mathystra Relics lie among the ruins; Stormscale Myrmidons, Sorceresses and Warriors hold them, and Stormscale Beastmistresses walk the shore."] = "",
+	["Follow the coast north-east to the {area:443}. Mathystra Relics lie among the ruins; Stormscale Myrmidons, Sorceresses and Warriors hold them, and Stormscale Beastmistresses walk the shore."] = "Kıyıyı kuzeydoğuya izleyerek {area:443} harabelerine git. Mathystra Relic nesneleri harabelerin arasında duruyor; onları Stormscale Myrmidon, Sorceress ve Warrior yaratıkları tutuyor, kıyıda da Stormscale Beastmistress yaratıkları dolaşıyor.",
 
 	-- Step 34: Back south
 	["Back south"] = "Güneye dön",

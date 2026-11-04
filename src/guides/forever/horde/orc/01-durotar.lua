@@ -37,7 +37,7 @@ return {
 	-- {npc:9796} Galgar
 	["{npc:9796}, by the cooking fire"] = "{npc:9796}, yemek ateşinin yanında",
 	-- {npc:11378} Foreman Thazz'ril
-	["{npc:11378}, at the lumber pile east of the Den"] = "",
+	["{npc:11378}, at the lumber pile east of the Den"] = "{npc:11378}, Den'in doğusundaki kereste yığınının yanında",
 
 	-- Step 4: Scorpid Worker Tail on the way
 	-- {item:4862} Scorpid Worker Tail
@@ -52,7 +52,7 @@ return {
 	["{area:363}: kill these as you meet them"] = "{area:363}: bunları karşılaştıkça öldür",
 	-- {quest:790} Sarkoth · {npc:3287} Hana'zua · {item:16114} Foreman's Blackjack · {quest:792} Vile Familiars · {area:365} Burning Blade Coven
 	-- plural, as words: Scorpid Workers = {npc:3124} Scorpid Worker · Cactus Apples = {item:11583} Cactus Apple
-	["{quest:790}, a large scorpid, prowls the slope south of {npc:3287} among the Scorpid Workers; pick the Cactus Apples by the cactuses on the way, and hit the sleeping peons across the valley with the {item:16114}.\nThe {quest:792} swarm the slope below the {area:365}, the cave on the valley's north side."] = "",
+	["{quest:790}, a large scorpid, prowls the slope south of {npc:3287} among the Scorpid Workers; pick the Cactus Apples by the cactuses on the way, and hit the sleeping peons across the valley with the {item:16114}.\nThe {quest:792} swarm the slope below the {area:365}, the cave on the valley's north side."] = "Büyük bir scorpid olan {quest:790}, {npc:3287} yerinin güneyindeki yamaçta Scorpid Worker yaratıklarının arasında dolaşıyor; yolda kaktüslerin yanındaki Cactus Apple meyvelerini topla, vadinin öbür yanında uyuyan peon'lara da {item:16114} ile vur.\n{quest:792} sürüsü, vadinin kuzey yakasındaki mağara olan {area:365} altındaki yamaçta kaynıyor.",
 	-- {quest:5441} Lazy Peons · {item:16114} Foreman's Blackjack
 	["Wake {quest:5441} with the {item:16114}"] = "{item:16114} ile {quest:5441} işçilerini uyandır",
 
@@ -107,7 +107,7 @@ return {
 	-- plural, as words: Hexed Pendants = {item:275724} Hexed Pendant
 	["{npc:266881}: enchanters only, the residue is disenchanted from Hexed Pendants"] = "{npc:266881}: yalnızca Enchanting mesleği olanlar için; kalıntı, Hexed Pendant eşyalarının disenchant edilmesiyle çıkar",
 	-- {npc:5880} Un'Thuwa
-	["{npc:5880}, the mage trainer in Sen'jin"] = "",
+	["{npc:5880}, the mage trainer in Sen'jin"] = "{npc:5880}, Sen'jin'deki Mage eğitmeni",
 
 	-- Step 20: On the way
 	["On the way"] = "Yol üstünde",
@@ -124,7 +124,7 @@ return {
 
 	-- Step 22: Razor Hill
 	-- {npc:266940} Turroc
-	["{npc:266940}, on the east side of town; inside"] = "",
+	["{npc:266940}, on the east side of town; inside"] = "{npc:266940}, kasabanın doğu yakasında; içeride",
 
 	-- Step 23: Taillasher Egg on the way
 	-- {item:4890} Taillasher Egg
@@ -155,7 +155,7 @@ return {
 	-- {area:373} Scuttle Coast
 	["{area:373}: kill these as you meet them"] = "{area:373}: bunları karşılaştıkça öldür",
 	-- {area:362} Razor Hill
-	["Makrura and surf crawlers line the beaches north-east of Sen'jin.\nThe gnomish toolboxes lie in the wreckage along the shore east and south-east of {area:362}. Follow the shore south to Sen'jin."] = "",
+	["Makrura and surf crawlers line the beaches north-east of Sen'jin.\nThe gnomish toolboxes lie in the wreckage along the shore east and south-east of {area:362}. Follow the shore south to Sen'jin."] = "Makrura'lar ve surf crawler'lar Sen'jin'in kuzeydoğusundaki kumsallarda diziliyor.\nGnom alet kutuları {area:362} kasabasının doğusunda ve güneydoğusunda, kıyı boyunca enkazın içinde yatıyor. Kıyıyı güneye, Sen'jin'e kadar izle.",
 	["Underwater"] = "Su altında",
 
 	-- Step 32: Durotar Tiger Fur on the way
@@ -168,7 +168,7 @@ return {
 	-- {area:368} Echo Isles
 	["{area:368}: kill these as you meet them"] = "{area:368}: bunları karşılaştıkça öldür",
 	-- plural, as words: Durotar Tigers = {npc:3121} Durotar Tiger
-	["Wade across to the northern Echo Isle. The Matriarch prowls among the raptors there.\nWade back west to the shore south of Sen'jin. Durotar Tigers roam it and the Taillasher eggs sit in nests along the beach."] = "",
+	["Wade across to the northern Echo Isle. The Matriarch prowls among the raptors there.\nWade back west to the shore south of Sen'jin. Durotar Tigers roam it and the Taillasher eggs sit in nests along the beach."] = "Sığ sudan yürüyerek kuzeydeki Echo Isle adasına geç. Matriarch oradaki raptor'ların arasında dolaşıyor.\nYürüyerek batıya, Sen'jin'in güneyindeki kıyıya dön. Orada Durotar Tiger yaratıkları dolaşıyor, Taillasher yumurtaları da kumsal boyunca yuvalarda duruyor.",
 
 	-- Step 34: Echo Isles: kill these as you meet them
 	-- {quest:826} Zalazane
@@ -177,7 +177,7 @@ return {
 
 	-- Step 35: Deathskip to Sen'jin Village
 	-- {area:367} Sen'jin Village
-	["Deathskip to {area:367}"] = "",
+	["Deathskip to {area:367}"] = "Ölerek kestirme: {area:367}",
 	-- {npc:3206} Voodoo Troll · {npc:6491} Spirit Healer
 	["Die to the mobs at 66.9,87.2 ({npc:3206}): a death there sends you to this graveyard. Release your spirit and take the {npc:6491}'s resurrection."] = "66.9,87.2 konumundaki yaratıklar ({npc:3206}) seni öldürsün: orada ölünce bu mezarlığa gönderilirsin. Ruhunu bırak ve {npc:6491} ile diril.",
 
@@ -194,7 +194,7 @@ return {
 	-- Step 43: Level 10
 	["Level 10"] = "Seviye 10",
 	-- {quest:840} Conscript of the Horde · {area:362} Razor Hill
-	["Top up here to level 10: {quest:840}, at {area:362}, needs level 10."] = "",
+	["Top up here to level 10: {quest:840}, at {area:362}, needs level 10."] = "Burada seviye 10 olana kadar kas: {area:362} kasabasındaki {quest:840} seviye 10 ister.",
 	-- {npc:3111} Razormane Quilboar
 	["grind on {npc:3111}"] = "Kas: {npc:3111}",
 
@@ -206,7 +206,7 @@ return {
 
 	-- Step 46: Kranal Fiss
 	-- {area:814} Southfury River · {area:379} Far Watch Post · {npc:5907} Kranal Fiss
-	["West over the {area:814} bridge, past {area:379} and on along the ridge: {npc:5907} stands alone above the Razormane camp."] = "",
+	["West over the {area:814} bridge, past {area:379} and on along the ridge: {npc:5907} stands alone above the Razormane camp."] = "Batıya, {area:814} köprüsünden geç, {area:379} karakolunu geçip sırt boyunca devam et: {npc:5907}, Razormane kampının yukarısında tek başına duruyor.",
 
 	-- Step 47: Razormane Grounds
 	["Quilboars and scouts hold the huts west of town; dustrunners and battleguards hold the camps farther west."] = "Quilboar ve izciler kasabanın batısındaki kulübeleri tutuyor; daha batıdaki kampları ise Dustrunner ve Battleguard yaratıkları tutuyor.",
@@ -218,10 +218,10 @@ return {
 	-- Step 49: Drygulch Ravine
 	-- {area:370} Drygulch Ravine · {npc:3293} Rezlak · {item:277661} Dull Storm Orb · {area:371} Dustwind Cave · {item:6652} Reagent Pouch
 	-- plural, as words: Burning Blade Cultists = {npc:3199} Burning Blade Cultist
-	["Savages and Storm Witches nest in {area:370}, east of {npc:3293}. A Storm Witch drops the {item:277661}. Shamans: the Burning Blade Cultists by {area:371}, at the ravine's south end, drop the {item:6652}."] = "",
+	["Savages and Storm Witches nest in {area:370}, east of {npc:3293}. A Storm Witch drops the {item:277661}. Shamans: the Burning Blade Cultists by {area:371}, at the ravine's south end, drop the {item:6652}."] = "Savage ve Storm Witch yaratıkları {npc:3293} yerinin doğusunda, {area:370} vadisinde yuva yapmış. Bir Storm Witch {item:277661} düşürür. Shaman'lar: vadinin güney ucundaki {area:371} yanında bulunan Burning Blade Cultist yaratıkları {item:6652} düşürür.",
 
 	-- Step 50: Deathskip to Northern Durotar
-	["Deathskip to Northern Durotar"] = "",
+	["Deathskip to Northern Durotar"] = "Ölerek kestirme: Kuzey Durotar",
 	-- {npc:3118} Dustwind Storm Witch · {npc:6491} Spirit Healer
 	["Die to the mobs at 52.0,21.4 ({npc:3118}): a death there sends you to this graveyard. Release your spirit and take the {npc:6491}'s resurrection."] = "52.0,21.4 konumundaki yaratıklar ({npc:3118}) seni öldürsün: orada ölünce bu mezarlığa gönderilirsin. Ruhunu bırak ve {npc:6491} ile diril.",
 
@@ -230,7 +230,7 @@ return {
 	["{area:369}: kill these as you meet them"] = "{area:369}: bunları karşılaştıkça öldür",
 	-- {area:369} Thunder Ridge · {npc:3293} Rezlak · {area:362} Razor Hill · {npc:3099} Dire Mottled Boar · {item:15908} Taming Rod
 	-- plural, as words: Thunder Lizards = {npc:3130} Thunder Lizard · Lightning Hides = {npc:3131} Lightning Hide
-	["Thunder Lizards and Lightning Hides graze on {area:369}, just west and south-west of {npc:3293}.\nFizzle holds the Burning Blade camp on {area:369}, north-west of {area:362}. Hunters: tame a {npc:3099} with the {item:15908} on the way.\nCareful: Burning Blade cultists surround Fizzle, some linked so they aggro in pairs, and they respawn quickly."] = "",
+	["Thunder Lizards and Lightning Hides graze on {area:369}, just west and south-west of {npc:3293}.\nFizzle holds the Burning Blade camp on {area:369}, north-west of {area:362}. Hunters: tame a {npc:3099} with the {item:15908} on the way.\nCareful: Burning Blade cultists surround Fizzle, some linked so they aggro in pairs, and they respawn quickly."] = "Thunder Lizard ve Lightning Hide yaratıkları {npc:3293} yerinin hemen batısında ve güneybatısında, {area:369} sırtında otluyor.\nFizzle, {area:362} kasabasının kuzeybatısında, {area:369} sırtındaki Burning Blade kampını tutuyor. Hunter'lar: yolda {item:15908} ile bir {npc:3099} evcilleştir.\nDikkat: Fizzle'ı Burning Blade tarikatçıları çevreliyor, bazıları birbirine bağlı olduğundan ikişer ikişer saldırır ve çabuk yeniden doğarlar.",
 	-- {item:15908} Taming Rod
 	["Tame it with the {item:15908}"] = "{item:15908} ile evcilleştir",
 
@@ -311,7 +311,7 @@ return {
 
 	-- Step 77: Aggor the Young
 	-- {npc:275666} Aggor the Young · {area:14} Durotar
-	["{npc:275666}, a young sea giant, walks {area:14}'s north coast, north of the naga beach. {npc:275666} is elite: grouping up is advised."] = "",
+	["{npc:275666}, a young sea giant, walks {area:14}'s north coast, north of the naga beach. {npc:275666} is elite: grouping up is advised."] = "Genç bir deniz devi olan {npc:275666}, naga kumsalının kuzeyinde, {area:14} bölgesinin kuzey kıyısında dolaşıyor. {npc:275666} elit: grup kurman önerilir.",
 	-- {npc:3142} Orgnil Soulscar · {area:362} Razor Hill
 	["{npc:3142}, back in {area:362}"] = "{npc:3142}, yine {area:362} kasabasında",
 
@@ -332,7 +332,7 @@ return {
 
 	-- Step 83: Uzzek
 	-- {area:362} Razor Hill · {area:814} Southfury River · {npc:5810} Uzzek · {area:379} Far Watch Post · {area:17} The Barrens
-	["Follow the road west from {area:362} over the {area:814} bridge; {npc:5810} stands at {area:379}, just above it on the {area:17} side."] = "",
+	["Follow the road west from {area:362} over the {area:814} bridge; {npc:5810} stands at {area:379}, just above it on the {area:17} side."] = "Yolu {area:362} kasabasından batıya izleyip {area:814} köprüsünden geç; {npc:5810}, köprünün hemen yukarısında, {area:17} tarafındaki {area:379} karakolunda duruyor.",
 
 	-- Step 84: Thunder lizards across the river
 	["Thunder lizards across the river"] = "Nehrin karşısındaki Thunder kertenkeleleri",
@@ -342,5 +342,5 @@ return {
 
 	-- Step 87: Far Watch Post
 	-- {area:362} Razor Hill · {area:814} Southfury River · {area:379} Far Watch Post · {area:17} The Barrens
-	["Follow the road west from {area:362} over the {area:814} bridge; {area:379} sits just above it on the {area:17} side."] = "",
+	["Follow the road west from {area:362} over the {area:814} bridge; {area:379} sits just above it on the {area:17} side."] = "Yolu {area:362} kasabasından batıya izleyip {area:814} köprüsünden geç; {area:379} karakolu köprünün hemen yukarısında, {area:17} tarafında.",
 }

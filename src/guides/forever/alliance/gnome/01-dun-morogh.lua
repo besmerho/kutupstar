@@ -38,7 +38,7 @@ return {
 	-- {area:77} Anvilmar
 	["Back to {area:77}"] = "{area:77} salonuna dön",
 	-- {npc:8416} Felix Whindlebolt · {area:77} Anvilmar
-	["{npc:8416}, by the door of {area:77}; inside"] = "",
+	["{npc:8416}, by the door of {area:77}; inside"] = "{npc:8416}, {area:77} kapısının yanında; içeride",
 
 	-- Step 6: Talin Keeneye
 	-- {npc:714} Talin Keeneye · {item:10438} Felix's Box
@@ -77,12 +77,12 @@ return {
 	-- {npc:836} Durnan Furcutter · {area:77} Anvilmar
 	["The Scalding Mornbrew lasts five minutes: go straight north to {npc:836} inside {area:77}."] = "Scalding Mornbrew beş dakika dayanır: doğruca kuzeye, {area:77} salonunun içindeki {npc:836} yanına git.",
 	-- {npc:836} Durnan Furcutter · {area:77} Anvilmar
-	["{npc:836}, inside {area:77}; below ground"] = "",
+	["{npc:836}, inside {area:77}; below ground"] = "{npc:836}, {area:77} içinde; yer altında",
 	["Level 4 spells, before Gozwin's camp"] = "Seviye 4 büyüleri, Gozwin kampından önce",
 	-- {npc:257446} Teo Hammerstorm · {area:77} Anvilmar
 	["{npc:257446}, inside {area:77}"] = "{npc:257446}, {area:77} salonunun içinde",
 	-- {npc:8416} Felix Whindlebolt
-	["{npc:8416}, at the door on the way out; inside"] = "",
+	["{npc:8416}, at the door on the way out; inside"] = "{npc:8416}, çıkış yolundaki kapıda; içeride",
 
 	-- Step 14: Grund and Gozwin
 	-- {npc:2756} Grund Drokda · {npc:8416} Felix Whindlebolt · {area:77} Anvilmar · {npc:269075} Snow Leopard Prowler
@@ -123,7 +123,7 @@ return {
 
 	-- Step 20: Kharanos
 	-- {area:131} Kharanos · {npc:1252} Senir Whitebeard · {area:2102} Thunderbrew Distillery · {npc:1872} Tharek Blackstone · {npc:6806} Tannok Frosthammer · {npc:1226} Maxan Anvol · {npc:1267} Ragnar Thunderbrew · {npc:1699} Gremlock Pilsnor · {skill:185} Cooking
-	["Follow the road through the tunnel and north-east to {area:131}. Start outside: {npc:1252} and Eric's campfire are in front of the {area:2102}.\n{npc:1872} works the forge west of the distillery.\nThen go in: {npc:6806}, the innkeeper, {npc:1226} and {npc:1267}. {npc:1699}'s {skill:185} lesson waits for the return with the ribs, when the copper is there for it."] = "",
+	["Follow the road through the tunnel and north-east to {area:131}. Start outside: {npc:1252} and Eric's campfire are in front of the {area:2102}.\n{npc:1872} works the forge west of the distillery.\nThen go in: {npc:6806}, the innkeeper, {npc:1226} and {npc:1267}. {npc:1699}'s {skill:185} lesson waits for the return with the ribs, when the copper is there for it."] = "Yolu izleyerek tünelden geç ve kuzeydoğuya, {area:131} köyüne git. Dışarıdan başla: {npc:1252} ve Eric'in kamp ateşi {area:2102} binasının önünde.\n{npc:1872}, damıtım evinin batısındaki demir ocağında çalışıyor.\nSonra içeri gir: hancı {npc:6806}, {npc:1226} ve {npc:1267}. {npc:1699} ile {skill:185} dersi, kaburgalarla döndüğünde, parası da hazırken seni bekliyor.",
 	-- {npc:1241} Tognus Flintfire
 	["{npc:1241}, below ground"] = "{npc:1241}, yer altında",
 	-- {npc:6806} Tannok Frosthammer
@@ -147,7 +147,7 @@ return {
 
 	-- Step 24: Rumbleshot's Ammo
 	-- {object:176785} Ammo Crate · {npc:271546} Mountaineer Gretchen · {area:136} Grizzled Den
-	["The {object:176785} sits next to {npc:271546}, south of the {area:136}."] = "",
+	["The {object:176785} sits next to {npc:271546}, south of the {area:136}."] = "{object:176785}, {area:136} mağarasının güneyinde, {npc:271546} yanında duruyor.",
 	-- {item:13850} Rumbleshot's Ammo · {object:176785} Ammo Crate
 	["{item:13850}: the {object:176785}"] = "{item:13850}: {object:176785}",
 
@@ -157,11 +157,11 @@ return {
 
 	-- Step 26: The Grizzled Den
 	-- {object:460004} Mountaineer Cornelius (no name in this language: may be words)
-	["Flintfire's shipments lie on the cave floor, and {object:460004} is missing somewhere inside.\nCareful: Wendigos stand close together inside the cave, so fights easily pull several at once; drawing them out one at a time with ranged attacks from outside avoids this."] = "",
+	["Flintfire's shipments lie on the cave floor, and {object:460004} is missing somewhere inside.\nCareful: Wendigos stand close together inside the cave, so fights easily pull several at once; drawing them out one at a time with ranged attacks from outside avoids this."] = "Flintfire'ın sevkiyatları mağaranın zemininde duruyor; {object:460004} da içeride bir yerde kayıp.\nDikkat: Wendigo yaratıkları mağaranın içinde birbirine yakın duruyor, bu yüzden dövüşler kolayca birkaçını birden çeker; onları dışarıdan menzilli saldırılarla tek tek çekmek bunu önler.",
 
 	-- Step 28: Rumbleshot's Ammo
 	-- {npc:1243} Hegnar Rumbleshot
-	["{npc:1243} camps south-west of it, by the road to Coldridge."] = "",
+	["{npc:1243} camps south-west of it, by the road to Coldridge."] = "{npc:1243}, onun güneybatısında, Coldridge yolunun yanında kamp kurmuş.",
 
 	-- Step 29: Kharanos and the depot
 	-- {area:131} Kharanos
@@ -169,21 +169,21 @@ return {
 
 	-- Step 30: Kharanos
 	-- {item:2894} Rhapsody Malt · {npc:1247} Innkeeper Belm
-	["{item:2894}, from {npc:1247}; upstairs"] = "",
+	["{item:2894}, from {npc:1247}; upstairs"] = "{item:2894}, kaynak: {npc:1247}; üst katta",
 
 	-- Step 33: Kharanos
 	-- {npc:1267} Ragnar Thunderbrew · {npc:1699} Gremlock Pilsnor · {skill:185} Cooking
 	-- plural, as words: Crag Boars = {npc:1125} Crag Boar
-	["Kill the Crag Boars on the way: their ribs drop before you have {npc:1267}'s quest and count toward it. Back in the distillery: {npc:1699} teaches {skill:185}, then the ribs go to {npc:1267}."] = "",
+	["Kill the Crag Boars on the way: their ribs drop before you have {npc:1267}'s quest and count toward it. Back in the distillery: {npc:1699} teaches {skill:185}, then the ribs go to {npc:1267}."] = "Yolda Crag Boar yaratıklarını öldür: kaburgaları sen {npc:1267} görevini almadan önce de düşer ve göreve sayılır. Damıtım evine dönünce: {npc:1699} sana {skill:185} öğretir, sonra kaburgalar {npc:1267} ile teslim edilir.",
 	-- {npc:1699} Gremlock Pilsnor
-	["{npc:1699}: Camping 101 asks you to learn it; below ground"] = "",
+	["{npc:1699}: Camping 101 asks you to learn it; below ground"] = "{npc:1699}: Camping 101 bunu öğrenmeni istiyor; yer altında",
 	["Upstairs"] = "Üst katta",
 
 	-- Step 34: Kharanos and the depot
 	-- {npc:1377} Pilot Stonegear
 	["{npc:1377}, at the depot"] = "{npc:1377}, depoda",
 	-- {npc:1269} Razzle Sprysprocket
-	["{npc:1269}, by the depot; below ground"] = "",
+	["{npc:1269}, by the depot; below ground"] = "{npc:1269}, deponun yanında; yer altında",
 
 	-- Step 35: On the way
 	["On the way"] = "Yol üstünde",
@@ -226,30 +226,30 @@ return {
 	-- {npc:1252} Senir Whitebeard · {npc:1274} Senator Barin Redstone · {zone:1455} Ironforge
 	["{npc:1252}: {npc:1274} in {zone:1455} takes it"] = "{npc:1252}: {zone:1455} şehrindeki {npc:1274} teslim alır",
 	-- {item:2686} Thunder Ale · {npc:1247} Innkeeper Belm
-	["{item:2686}, from {npc:1247} in the distillery; upstairs"] = "",
+	["{item:2686}, from {npc:1247} in the distillery; upstairs"] = "{item:2686}, kaynak: damıtım evindeki {npc:1247}; üst katta",
 	-- {object:269} Guarded Thunder Ale Barrel
 	["The {object:269} in the basement"] = "Bodrumdaki {object:269}",
 	-- {npc:1373} Jarven Thunderbrew
-	["{npc:1373}, beside the barrel; below ground"] = "",
+	["{npc:1373}, beside the barrel; below ground"] = "{npc:1373}, fıçının yanında; yer altında",
 	-- {object:270} Unguarded Thunder Ale Barrel
-	["The {object:270} in the distillery; below ground"] = "",
+	["The {object:270} in the distillery; below ground"] = "Damıtım evindeki {object:270}; yer altında",
 	-- {npc:1269} Razzle Sprysprocket
 	["{npc:1269}, below ground"] = "{npc:1269}, yer altında",
 
 	-- Step 42: Shimmerweed
 	-- {item:2676} Shimmerweed · {area:802} Shimmer Ridge · {area:131} Kharanos
 	-- plural, as words: Frostmane Seers = {npc:1397} Frostmane Seer
-	["The {item:2676} grows in baskets up on {area:802}, the snowy slope north of the road between {area:131} and Brewnall: climb from the road west of {area:131}. The Frostmane Seers camped on the ridge drop it too."] = "",
+	["The {item:2676} grows in baskets up on {area:802}, the snowy slope north of the road between {area:131} and Brewnall: climb from the road west of {area:131}. The Frostmane Seers camped on the ridge drop it too."] = "{item:2676}, {area:131} ile Brewnall arasındaki yolun kuzeyindeki karlı yamaçta, {area:802} üzerinde sepetlerde yetişiyor: {area:131} köyünün batısındaki yoldan tırman. Sırtta kamp kurmuş Frostmane Seer yaratıkları da düşürür.",
 
 	-- Step 44: Tundra MacGrann
 	-- {npc:1266} Tundra MacGrann · {area:801} Chill Breeze Valley · {area:131} Kharanos · {npc:1271} Old Icebeard
-	["{npc:1266} camps in {area:801}, south of the road back east from Brewnall to {area:131}. His meats are in the locker in {npc:1271}'s cave, east of his camp. {npc:1271} is an elite yeti: wait out of sight until he wanders off on his patrol, then take the meats and leave before he comes back. You don't need to fight him."] = "",
+	["{npc:1266} camps in {area:801}, south of the road back east from Brewnall to {area:131}. His meats are in the locker in {npc:1271}'s cave, east of his camp. {npc:1271} is an elite yeti: wait out of sight until he wanders off on his patrol, then take the meats and leave before he comes back. You don't need to fight him."] = "{npc:1266}, Brewnall'dan {area:131} köyüne doğuya dönen yolun güneyinde, {area:801} vadisinde kamp kurmuş. Etleri, kampının doğusundaki {npc:1271} mağarasında, dolabın içinde. {npc:1271} elit bir yeti: devriyesine çıkıp uzaklaşana kadar görünmeden bekle, sonra etleri al ve o dönmeden çık. Onunla dövüşmen gerekmez.",
 	-- {item:2667} MacGrann's Dried Meats
-	["{item:2667}: the meat locker; below ground"] = "",
+	["{item:2667}: the meat locker; below ground"] = "{item:2667}: et dolabı; yer altında",
 
 	-- Step 45: Kharanos
 	-- {area:131} Kharanos
-	["Back east through {area:131}: the class quests here wait for level 10."] = "",
+	["Back east through {area:131}: the class quests here wait for level 10."] = "{area:131} köyünden doğuya geri dön: buradaki sınıf görevleri seviye 10'u bekliyor.",
 	-- {npc:258113} Ingrid Dunwald · {npc:257597} Bruegs Kindleborn
 	["{npc:258113}: {npc:257597} by the South Gate takes it"] = "{npc:258113}: South Gate yakınındaki {npc:257597} teslim alır",
 	-- {npc:1226} Maxan Anvol · {npc:258785} High Priestess Mims · {zone:1455} Ironforge
@@ -257,7 +257,7 @@ return {
 
 	-- Step 46: Steelgrill's Depot
 	-- {area:131} Kharanos · {area:1} Dun Morogh
-	["Follow the road north-east from {area:131} to the depot: the whole east of {area:1} is one sweep from here."] = "",
+	["Follow the road north-east from {area:131} to the depot: the whole east of {area:1} is one sweep from here."] = "Yolu izleyerek {area:131} köyünden kuzeydoğuya, depoya git: {area:1} bölgesinin bütün doğusu buradan tek bir turda biter.",
 
 	-- Step 47: Misty Pine Refuge
 	-- {area:138} Misty Pine Refuge
@@ -278,7 +278,7 @@ return {
 	["{area:138}: kill these as you meet them"] = "{area:138}: bunları karşılaştıkça öldür",
 	-- {quest:99160} Rime's Wrath
 	-- plural, as words: Minor Ice Elementals = {npc:276003} Minor Ice Elemental
-	["The three rifles lie in the snow around the frozen lake by the refuge. Minor Ice Elementals drift around the lake and along the way: kill them as you go for {quest:99160}.\nFinish off the Minor Ice Elementals around the small lake just west of the refuge if you are still short."] = "",
+	["The three rifles lie in the snow around the frozen lake by the refuge. Minor Ice Elementals drift around the lake and along the way: kill them as you go for {quest:99160}.\nFinish off the Minor Ice Elementals around the small lake just west of the refuge if you are still short."] = "Üç tüfek, sığınağın yanındaki donmuş gölün çevresinde karın içinde yatıyor. Minor Ice Elemental yaratıkları gölün çevresinde ve yol boyunca süzülüyor: {quest:99160} için giderken onları öldür.\nHâlâ eksiğin varsa sığınağın hemen batısındaki küçük gölün çevresindeki Minor Ice Elemental yaratıklarını bitir.",
 	-- {npc:276003} Minor Ice Elemental
 	["{npc:276003}, around the small lake"] = "{npc:276003}, küçük gölün çevresinde",
 
@@ -291,7 +291,7 @@ return {
 	["Farsen camps on the ridge overlooking the {area:134} from the west. Talk to him for his farsight."] = "Farsen, {area:134} taş ocağına batıdan bakan sırtta kamp kurmuş. Uzak görüşü için onunla konuş.",
 
 	-- Step 61: Gol'Bolar Quarry
-	["The quarry lies just east of Farsen's ridge."] = "",
+	["The quarry lies just east of Farsen's ridge."] = "Taş ocağı Farsen'in sırtının hemen doğusunda.",
 	-- {npc:1977} Senator Mehr Stonehallow
 	["{npc:1977}, in the quarry"] = "{npc:1977}, taş ocağında",
 	-- {npc:1698} Frast Dokner
@@ -306,7 +306,7 @@ return {
 	-- Step 66: Helm's Bed Lake
 	-- {area:212} Helm's Bed Lake · {quest:95214} Stolen Blasting Powder · {item:274268} Dark Iron Map
 	-- plural, as words: Rockjaw Ambushers = {npc:1116} Rockjaw Ambusher · Rockjaw Backbreakers = {npc:1118} Rockjaw Backbreaker · Rockjaw Bonesnappers = {npc:1117} Rockjaw Bonesnapper
-	["Rockjaw Ambushers by {area:212}, north of the quarry, and Rockjaw Backbreakers further east drop the {quest:95214}. Rockjaw Bonesnappers prowl the quarry and the lake; Dark Iron Spies sneak around the lake shore. One spy drops the {item:274268}."] = "",
+	["Rockjaw Ambushers by {area:212}, north of the quarry, and Rockjaw Backbreakers further east drop the {quest:95214}. Rockjaw Bonesnappers prowl the quarry and the lake; Dark Iron Spies sneak around the lake shore. One spy drops the {item:274268}."] = "Taş ocağının kuzeyinde, {area:212} gölünün yanındaki Rockjaw Ambusher ve daha doğudaki Rockjaw Backbreaker yaratıkları {quest:95214} düşürür. Rockjaw Bonesnapper yaratıkları taş ocağında ve gölde dolaşıyor; Dark Iron Spy yaratıkları göl kıyısında sinsice geziniyor. Casuslardan biri {item:274268} düşürür.",
 
 	-- Step 68: Rockjaw Bonesnapper on the way
 	-- {npc:1117} Rockjaw Bonesnapper
@@ -326,7 +326,7 @@ return {
 
 	-- Step 74: Rudra Amberstill
 	-- {zone:1455} Ironforge
-	["On the road back west to {zone:1455}."] = "",
+	["On the road back west to {zone:1455}."] = "Batıya, {zone:1455} şehrine dönen yolun üstünde.",
 
 	-- Step 77: Level 11.41
 	["Level 11.41"] = "Seviye 11.41",
@@ -337,7 +337,7 @@ return {
 
 	-- Step 78: South Gate Outpost
 	-- {area:806} South Gate Outpost · {area:38} Loch Modan
-	["Follow the road all the way east to the {area:806} at the {area:38} tunnel."] = "",
+	["Follow the road all the way east to the {area:806} at the {area:38} tunnel."] = "Yolu sonuna kadar doğuya izleyerek {area:38} tünelindeki {area:806} karakoluna git.",
 
 	-- Step 79: Bruegs Kindleborn
 	-- {npc:257597} Bruegs Kindleborn · {area:806} South Gate Outpost
@@ -345,7 +345,7 @@ return {
 
 	-- Step 81: Braldir Ashmantle
 	-- {area:38} Loch Modan · {npc:257808} Braldir Ashmantle
-	["Go through the tunnel into {area:38}. Just past it, a path marked by stones climbs the hills on the right of the road north to {npc:257808}'s camp."] = "",
+	["Go through the tunnel into {area:38}. Just past it, a path marked by stones climbs the hills on the right of the road north to {npc:257808}'s camp."] = "Tünelden geçerek {area:38} bölgesine gir. Hemen ötesinde, taşlarla işaretli bir patika kuzeye giden yolun sağındaki tepelere tırmanır ve {npc:257808} kampına çıkar.",
 
 	-- Step 82: Fire Tar and the Reagent Pouch
 	-- {item:5026} Fire Tar · {item:6652} Reagent Pouch
@@ -377,11 +377,11 @@ return {
 
 	-- Step 85: North Gate Outpost
 	-- {npc:1960} Pilot Hammerfoot · {area:808} North Gate Outpost
-	["{npc:1960} waits at the {area:808}, north of the South Gate; the dwarven corpse lies up the pass to the west of him."] = "",
+	["{npc:1960} waits at the {area:808}, north of the South Gate; the dwarven corpse lies up the pass to the west of him."] = "{npc:1960}, South Gate'in kuzeyindeki {area:808} karakolunda bekliyor; cüce cesedi onun batısındaki geçidin yukarısında yatıyor.",
 
 	-- Step 87: Honor Students
 	-- {area:1537} Ironforge · {area:38} Loch Modan · {area:144} Thelsamar · {npc:1681} Brock Stoneseeker · {area:2101} Stoutlager Inn
-	["Instead of walking back up to {area:1537}, go east through the South Gate tunnel into {area:38} and follow the road north to {area:144}. {npc:1681} stands on the east side of town, past the {area:2101}; his errand pays for a flight back to {area:1537}."] = "",
+	["Instead of walking back up to {area:1537}, go east through the South Gate tunnel into {area:38} and follow the road north to {area:144}. {npc:1681} stands on the east side of town, past the {area:2101}; his errand pays for a flight back to {area:1537}."] = "{area:1537} şehrine yürüyerek geri çıkmak yerine South Gate tünelinden doğuya, {area:38} bölgesine geç ve yolu kuzeye, {area:144} kasabasına izle. {npc:1681} kasabanın doğu yakasında, {area:2101} hanının ötesinde duruyor; verdiği iş {area:1537} şehrine dönüş uçuşunu öder.",
 	-- {npc:1572} Thorgrum Borrelson
 	["{npc:1572}, the gryphon master"] = "{npc:1572}, grifon ustası",
 
@@ -400,13 +400,13 @@ return {
 	["Hearth to {area:2102}"] = "Hearthstone ile dön: {area:2102}",
 
 	-- Step 92: Inn and flight master
-	["Inn and flight master"] = "",
+	["Inn and flight master"] = "Han ve uçuş ustası",
 
 	-- Step 93: The Tome of Divinity
 	-- {item:6775} Tome of Divinity
 	["The {item:6775}"] = "{item:6775}",
 	-- {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words) · {npc:5149} Brandur Ironhammer · {npc:6179} Tiza Battleforge · {npc:6178} Muiredon Battleforge · {object:32386} Hall of Mysteries (no name in this language: may be words) · {npc:6175} John Turner · {item:2589} Linen Cloth · {area:1} Dun Morogh
-	["Follow the road up to {zone:1455} and take the {object:32362}: {npc:5149}, {npc:6179} and {npc:6178} are in the {object:32386}, Tiza and Muiredon on its upper floor: the stairs up start just north-east of {npc:5149}. {npc:6175}, a beggar, wanders the city. He asks for ten {item:2589}: the troggs and trolls of {area:1} drop it, and the Auction House sells it."] = "",
+	["Follow the road up to {zone:1455} and take the {object:32362}: {npc:5149}, {npc:6179} and {npc:6178} are in the {object:32386}, Tiza and Muiredon on its upper floor: the stairs up start just north-east of {npc:5149}. {npc:6175}, a beggar, wanders the city. He asks for ten {item:2589}: the troggs and trolls of {area:1} drop it, and the Auction House sells it."] = "Yolu izleyerek {zone:1455} şehrine çık ve {object:32362} semtine git: {npc:5149}, {npc:6179} ve {npc:6178} {object:32386} içinde; Tiza ve Muiredon üst katta: üst kata çıkan merdivenler {npc:5149} yanından, hemen kuzeydoğusundan başlıyor. Bir dilenci olan {npc:6175} şehirde dolaşıyor. Senden on {item:2589} istiyor: {area:1} bölgesindeki trogg ve troll'ler düşürür, Auction House da satar.",
 
 	-- Step 94: Narm Faulk
 	-- {zone:1455} Ironforge · {area:212} Helm's Bed Lake · {npc:6177} Narm Faulk · {item:6866} Symbol of Life
@@ -492,7 +492,7 @@ return {
 
 	-- Step 113: The Binding
 	-- {npc:6122} Gakin the Darkbinder · {item:6928} Bloodstone Choker · {object:2164} Slaughtered Lamb · {area:40} Westfall · {area:87} Goldshire
-	["Back to {npc:6122}. Use the {item:6928} at the summoning circle in the {object:2164}'s cellar and defeat the voidwalker it calls. {area:40} is next, west of {area:87}."] = "",
+	["Back to {npc:6122}. Use the {item:6928} at the summoning circle in the {object:2164}'s cellar and defeat the voidwalker it calls. {area:40} is next, west of {area:87}."] = "{npc:6122} ile konuşmaya dön. {object:2164} mahzenindeki çağırma çemberinde {item:6928} eşyasını kullan ve çağırdığı voidwalker'ı yen. Sıradaki yer {area:87} kasabasının batısındaki {area:40}.",
 	["Subdue the voidwalker"] = "Voidwalker yaratığını yen",
 
 	-- Step 114: Jennea Cannon
@@ -501,5 +501,5 @@ return {
 
 	-- Step 115: Mirror Lake
 	-- {zone:1453} Stormwind · {quest:1861} Mirror Lake · {area:40} Westfall · {item:7207} Jennea's Flask
-	["Leave {zone:1453} by the main gate. The {quest:1861} waterfall is south-west of the gates, on the way west to {area:40}: fill {item:7207} at its base."] = "",
+	["Leave {zone:1453} by the main gate. The {quest:1861} waterfall is south-west of the gates, on the way west to {area:40}: fill {item:7207} at its base."] = "{zone:1453} şehrinden ana kapıdan çık. {quest:1861} şelalesi kapıların güneybatısında, batıya {area:40} yolunun üstünde: {item:7207} eşyasını şelalenin dibinde doldur.",
 }

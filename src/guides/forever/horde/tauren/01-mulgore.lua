@@ -38,7 +38,7 @@ return {
 
 	-- Step 6: Grull Hawkwind
 	-- {npc:3209} Brave Windfeather · {npc:2980} Grull Hawkwind · {area:221} Camp Narache
-	["{npc:3209}, next to {npc:2980}; walks around {area:221}: look inside the circle on the map"] = "",
+	["{npc:3209}, next to {npc:2980}; walks around {area:221}: look inside the circle on the map"] = "{npc:3209}, {npc:2980} yanında; {area:221} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 7: Seer Graytongue
 	["Follow the path south out of camp to the Seer's tent at the foot of the hills."] = "Patikayı güneye izleyerek kamptan çık ve tepelerin eteğindeki Seer çadırına git.",
@@ -64,7 +64,7 @@ return {
 
 	-- Step 11: Deathskip to Red Cloud Mesa
 	-- {area:220} Red Cloud Mesa
-	["Deathskip to {area:220}"] = "",
+	["Deathskip to {area:220}"] = "Ölerek kestirme: {area:220}",
 	-- {npc:2954} Bristleback Battleboar · {npc:6491} Spirit Healer
 	["Die to the mobs at 63.7,78.4 ({npc:2954}): a death there sends you to this graveyard. Release your spirit and take the {npc:6491}'s resurrection."] = "63.7,78.4 konumundaki yaratıklar ({npc:2954}) seni öldürsün: orada ölünce bu mezarlığa gönderilirsin. Ruhunu bırak ve {npc:6491} ile diril.",
 
@@ -119,7 +119,7 @@ return {
 	-- Step 26: Thunderhorn Water Well
 	-- {object:2912} Ambercorn · {quest:766} Mazzranache · {quest:761} Swoop Hunting · {item:287505} Tender Strider Meat
 	-- plural, as words: Well Stones = {object:2910} Well Stone
-	["The well lies north of the village. Well Stones sit around the well, {object:2912} lies under the trees nearby. Kill wolves, cougars, plainstriders and swoops on the way for {quest:766} and {quest:761}; the plainstriders also drop the {item:287505} for Kyle."] = "",
+	["The well lies north of the village. Well Stones sit around the well, {object:2912} lies under the trees nearby. Kill wolves, cougars, plainstriders and swoops on the way for {quest:766} and {quest:761}; the plainstriders also drop the {item:287505} for Kyle."] = "Kuyu köyün kuzeyinde. Well Stone nesneleri kuyunun çevresinde, {object:2912} yakındaki ağaçların altında duruyor. {quest:766} ve {quest:761} için yolda kurt, puma, plainstrider ve swoop öldür; plainstrider'lar Kyle için {item:287505} da düşürür.",
 
 	-- Step 27: Mulgore: kill these as you meet them
 	-- {zone:1412} Mulgore
@@ -134,7 +134,7 @@ return {
 
 	-- Step 30: Bloodhoof Village
 	-- {npc:277154} Kyle the Frenzied · {item:287505} Tender Strider Meat
-	["{npc:277154} runs around the village: give him the {item:287505}"] = "",
+	["{npc:277154} runs around the village: give him the {item:287505}"] = "{npc:277154} köyün içinde koşturuyor: ona {item:287505} ver",
 	-- {npc:277182} Ahab Wheathoof
 	["{npc:277182}, at the north end of the village"] = "{npc:277182}, köyün kuzey ucunda",
 
@@ -211,7 +211,7 @@ return {
 
 	-- Step 46: Yaw Sharpmane
 	-- {npc:3065} Yaw Sharpmane · {area:222} Bloodhoof Village · {item:15908} Taming Rod · {npc:2956} Adult Plainstrider · {npc:2959} Prairie Stalker · {npc:2970} Swoop
-	["{npc:3065} stands at the north end of {area:222}. Tame with the {item:15908}: an {npc:2956} on the plains, a {npc:2959} north of the village, a {npc:2970} to the north-west."] = "",
+	["{npc:3065} stands at the north end of {area:222}. Tame with the {item:15908}: an {npc:2956} on the plains, a {npc:2959} north of the village, a {npc:2970} to the north-west."] = "{npc:3065}, {area:222} köyünün kuzey ucunda duruyor. {item:15908} ile evcilleştir: ovalarda bir {npc:2956}, köyün kuzeyinde bir {npc:2959}, kuzeybatıda bir {npc:2970}.",
 	-- {item:15908} Taming Rod
 	["Tame it with the {item:15908}"] = "{item:15908} ile evcilleştir",
 
@@ -239,9 +239,9 @@ return {
 	-- {item:278083} Ceremonial Flint and Tinder · {npc:3027} Naal Mistrunner
 	["{item:278083}, from {npc:3027}"] = "{item:278083}, kaynak: {npc:3027}",
 	-- {npc:6746} Innkeeper Pala · {quest:5922} Moonglade
-	["{npc:6746}, at the south end of the central rise: the hearth from {quest:5922} brings you back here"] = "",
+	["{npc:6746}, at the south end of the central rise: the hearth from {quest:5922} brings you back here"] = "{npc:6746}, orta tepenin güney ucunda: {quest:5922} görevinden sonra Hearthstone seni buraya geri getirir",
 	-- {npc:6746} Innkeeper Pala · {quest:5926} Heeding the Call · {npc:3033} Turak Runetotem · {area:1639} Elder Rise
-	["{npc:6746}: {quest:5926}, for {npc:3033} on {area:1639}"] = "",
+	["{npc:6746}: {quest:5926}, for {npc:3033} on {area:1639}"] = "{npc:6746}: {quest:5926}, {area:1639} tepesindeki {npc:3033} için",
 
 	-- Step 52: Hunter Rise
 	-- {item:278078} Prepared Incense · {area:1641} Hunter Rise
@@ -255,11 +255,11 @@ return {
 
 	-- Step 54: Ansekhwa
 	-- {spell:199} Two-Handed Maces · {npc:11869} Ansekhwa
-	["While you're here: learn {spell:199} from {npc:11869} (10 silver); two-handers level a Warrior fastest."] = "",
+	["While you're here: learn {spell:199} from {npc:11869} (10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11869} sana {spell:199} öğretir (10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 55: Ansekhwa
 	-- {npc:11869} Ansekhwa
-	["While you're here: learn Staves from {npc:11869} (10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "",
+	["While you're here: learn Staves from {npc:11869} (10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11869} sana Staves öğretir (10 gümüş); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
 	-- Step 56: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
@@ -276,7 +276,7 @@ return {
 
 	-- Step 60: Clarice Foster
 	-- {npc:5906} Xanis Flameweaver · {npc:5543} Clarice Foster · {area:1640} Spirit Rise
-	["{npc:5906}, a few steps from {npc:5543} on {area:1640}"] = "",
+	["{npc:5906}, a few steps from {npc:5543} on {area:1640}"] = "{npc:5906}, {area:1640} tepesinde {npc:5543} yerinden birkaç adım ötede",
 
 	-- Step 62: Elder Rise
 	-- {npc:5769} Arch Druid Hamuul Runetotem · {npc:3448} Tonga Runetotem · {area:380} Crossroads
@@ -284,7 +284,7 @@ return {
 
 	-- Step 63: Turak Runetotem
 	-- {npc:3033} Turak Runetotem · {area:1639} Elder Rise
-	["{npc:3033} trains druids in the Cenarion Circle's tent on {area:1639}."] = "",
+	["{npc:3033} trains druids in the Cenarion Circle's tent on {area:1639}."] = "{npc:3033}, {area:1639} tepesindeki Cenarion Circle çadırında Druid eğitiyor.",
 
 	-- Step 64: Moonglade
 	-- {spell:18960} Teleport: Moonglade · {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven · {quest:5930} Great Bear Spirit
@@ -292,7 +292,7 @@ return {
 
 	-- Step 65: Back to Thunder Bluff
 	-- {area:1638} Thunder Bluff · {area:1639} Elder Rise
-	["Hearth to {area:1638} and cross to {area:1639}."] = "",
+	["Hearth to {area:1638} and cross to {area:1639}."] = "Hearthstone ile {area:1638} şehrine dön ve {area:1639} tepesine geç.",
 
 	-- Step 66: The Moonkin Stone
 	-- {object:177525} Moonkin Stone
@@ -314,7 +314,7 @@ return {
 
 	-- Step 71: Crossroads
 	-- {zone:1412} Mulgore · {area:380} Crossroads · {quest:860} Sergra Darkthorn · {npc:3448} Tonga Runetotem · {area:17} The Barrens
-	["Leave {zone:1412} by the south-eastern pass and follow the road to the {area:380}. {quest:860} stands by the inn, {npc:3448} at the south gate. {area:17} guide starts here.\n{area:380} is your base for this guide. Everyone you need stands within a few steps of the inn."] = "",
+	["Leave {zone:1412} by the south-eastern pass and follow the road to the {area:380}. {quest:860} stands by the inn, {npc:3448} at the south gate. {area:17} guide starts here.\n{area:380} is your base for this guide. Everyone you need stands within a few steps of the inn."] = "{zone:1412} bölgesinden güneydoğudaki geçitle çık ve yolu {area:380} kasabasına izle. {quest:860} hanın yanında, {npc:3448} güney kapısında duruyor. {area:17} rehberi burada başlıyor.\n{area:380} bu rehberde senin üssün. İhtiyacın olan herkes handan birkaç adım uzakta duruyor.",
 	-- {npc:3615} Devrak
 	["{npc:3615}, the wind rider master"] = "{npc:3615}, rüzgâr binicisi ustası",
 	-- {npc:3449} Darsok Swiftdagger · {area:383} Dry Hills
@@ -322,13 +322,13 @@ return {
 
 	-- Step 72: Jahan Hawkwing
 	-- {npc:3483} Jahan Hawkwing · {area:380} Crossroads · {npc:3615} Devrak · {zone:1456} Thunder Bluff · {npc:3033} Turak Runetotem
-	["{npc:3483} sells armor on the north side of the {area:380}. His bundle goes to {npc:3615}, who sends it with you on the flight to {zone:1456} you take for {npc:3033} anyway."] = "",
+	["{npc:3483} sells armor on the north side of the {area:380}. His bundle goes to {npc:3615}, who sends it with you on the flight to {zone:1456} you take for {npc:3033} anyway."] = "{npc:3483}, {area:380} kasabasının kuzey yakasında zırh satıyor. Bohçası, zaten {npc:3033} için yapacağın {zone:1456} uçuşunda onu seninle gönderen {npc:3615} yanına gider.",
 
 	-- Step 73: Class turn-in in Thunder Bluff
 	-- {area:1638} Thunder Bluff
-	["Class turn-in in {area:1638}"] = "",
+	["Class turn-in in {area:1638}"] = "{area:1638} şehrinde sınıf teslimi",
 	-- {npc:8359} Ahanu
-	["{npc:8359}, by the wind riders on the central rise"] = "",
+	["{npc:8359}, by the wind riders on the central rise"] = "{npc:8359}, orta tepedeki wind rider'ların yanında",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["Plainstriders roam the grass all around the camp."] = "Plainstrider yaratıkları kampın her yanındaki çimenlerde dolaşıyor.",

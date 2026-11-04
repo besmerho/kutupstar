@@ -15,7 +15,7 @@ return {
 	-- {npc:1984} Young Thistle Boar
 	["{npc:1984} on the way"] = "Yol üstünde: {npc:1984}",
 	-- {npc:1984} Young Thistle Boar · {area:256} Aldrassil
-	["{npc:1984} along the way to Back at {area:256}"] = "",
+	["{npc:1984} along the way to Back at {area:256}"] = "{npc:1984}, {area:256} ağacına dönüş yolu üstünde",
 
 	-- Step 3: Shadowglen: kill these as you meet them
 	-- {area:188} Shadowglen
@@ -42,7 +42,7 @@ return {
 	-- {npc:2082} Gilshalan Windwalker
 	["{npc:2082}, on the tree's ramp"] = "{npc:2082}, ağacın rampasında",
 	-- {npc:3595} Shanda
-	["{npc:3595}: in at the tree's front entrance and up the ramp; upstairs"] = "",
+	["{npc:3595}: in at the tree's front entrance and up the ramp; upstairs"] = "{npc:3595}: ağacın ön girişinden gir ve rampayı çık; üst katta",
 	-- {quest:97979} The Goddess Provides · {spell:1259799} Elune's Light · {npc:3595} Shanda
 	["{quest:97979}: cast {spell:1259799} and Shadowmeld, then hand it back to {npc:3595}"] = "{quest:97979}: {spell:1259799} ve Shadowmeld büyülerini kullan, sonra görevi {npc:3595} adlı NPC'ye teslim et",
 	-- {npc:8583} Dirania Silvershine
@@ -53,13 +53,13 @@ return {
 	["North to {area:257}"] = "Kuzeye, {area:257} mağarasına",
 	-- {area:256} Aldrassil · {npc:1994} Githyiss the Vile
 	-- plural, as words: Mangy Nightsabers = {npc:2032} Mangy Nightsaber · Thistle Boars = {npc:1985} Thistle Boar
-	["Mangy Nightsabers and Thistle Boars roam north of {area:256}, on the way to the cave. {npc:1994} sits deep inside."] = "",
+	["Mangy Nightsabers and Thistle Boars roam north of {area:256}, on the way to the cave. {npc:1994} sits deep inside."] = "Mangy Nightsaber ve Thistle Boar yaratıkları {area:256} ağacının kuzeyinde, mağaraya giden yolda dolaşıyor. {npc:1994} mağaranın derinliklerinde.",
 
 	-- Step 7: North to Shadowthread Cave
 	-- {npc:8584} Iverron
-	["{npc:8584} waits in the trees west of the cave mouth."] = "",
+	["{npc:8584} waits in the trees west of the cave mouth."] = "{npc:8584} mağara ağzının batısındaki ağaçların arasında bekliyor.",
 	-- plural, as words: Webwood Spiders = {npc:1986} Webwood Spider
-	["Webwood Spiders; below ground"] = "",
+	["Webwood Spiders; below ground"] = "Webwood Spider yaratıkları; yer altında",
 
 	-- Step 9: Moonpetal Lily on the way
 	-- {item:10641} Moonpetal Lily
@@ -91,7 +91,7 @@ return {
 	-- {npc:8584} Iverron
 	["The moonwell and {npc:8584}"] = "Ay kuyusu ve {npc:8584}",
 	-- {area:256} Aldrassil
-	["The moonwell sits north of {area:256}."] = "",
+	["The moonwell sits north of {area:256}."] = "Ay kuyusu {area:256} ağacının kuzeyinde.",
 	-- {item:5185} Crystal Phial
 	["Use the {item:5185} at the moonwell"] = "{item:5185} eşyasını ay kuyusunda kullan",
 
@@ -104,7 +104,7 @@ return {
 
 	-- Step 17: The moonwell and Iverron
 	-- {npc:8584} Iverron · {quest:3522} Iverron's Antidote
-	["{npc:8584} is a little further north-west. {quest:3522} lasts five minutes: fill the phial and go straight on to him."] = "",
+	["{npc:8584} is a little further north-west. {quest:3522} lasts five minutes: fill the phial and go straight on to him."] = "{npc:8584} biraz daha kuzeybatıda. {quest:3522} beş dakika sürer: şişeyi doldur ve doğruca onun yanına git.",
 
 	-- Step 18: Porthannius
 	-- {area:188} Shadowglen · {area:256} Aldrassil · {npc:6780} Porthannius · {area:186} Dolanaar
@@ -122,7 +122,7 @@ return {
 	-- {npc:265811} Lyreena Duskblade · {spell:1229451} Boosted Rest
 	["/sit by {npc:265811}'s campfire until you get {spell:1229451}"] = "{spell:1229451} gelene kadar {npc:265811} kamp ateşinin yanında otur (/sit)",
 	-- {npc:6286} Zarrin
-	["{npc:6286}, south of the inn: Camping 101 asks you to learn it"] = "",
+	["{npc:6286}, south of the inn: Camping 101 asks you to learn it"] = "{npc:6286}, hanın güneyinde: Camping 101 bunu öğrenmeni istiyor",
 
 	-- Step 22: Dolanaar
 	-- {npc:3515} Corithras Moonrage
@@ -145,18 +145,18 @@ return {
 	["{quest:940}: kill these as you meet them"] = "{quest:940}: bunları karşılaştıkça öldür",
 	-- {area:186} Dolanaar · {area:260} Starbreeze Village
 	-- plural, as words: Strigid Owls = {npc:1995} Strigid Owl · Webwood Lurkers = {npc:1998} Webwood Lurker
-	["Nightsabers, Strigid Owls and Webwood Lurkers roam all around {area:186} and along the road east; the lurkers also drop the recipe's spider legs. The moonwell is at the west edge of {area:260}."] = "",
+	["Nightsabers, Strigid Owls and Webwood Lurkers roam all around {area:186} and along the road east; the lurkers also drop the recipe's spider legs. The moonwell is at the west edge of {area:260}."] = "Nightsaber, Strigid Owl ve Webwood Lurker yaratıkları {area:186} köyünün her yanında ve doğuya giden yol boyunca dolaşıyor; lurker'lar tarifin örümcek bacaklarını da düşürür. Ay kuyusu {area:260} köyünün batı kenarında.",
 	["Nightsabers"] = "Nightsaber yaratıkları",
 	-- plural, as words: Webwood Lurkers = {npc:1998} Webwood Lurker
 	["Webwood Lurkers"] = "Webwood Lurker yaratıkları",
 
 	-- Step 25: Zenn Foulhoof
 	-- {npc:2150} Zenn Foulhoof · {area:186} Dolanaar
-	["North from the lake to {npc:2150}, on the road back to {area:186}."] = "",
+	["North from the lake to {npc:2150}, on the road back to {area:186}."] = "Gölden kuzeye, {area:186} köyüne dönen yolun üstündeki {npc:2150} yanına git.",
 
 	-- Step 26: Starbreeze Village
 	-- {npc:2107} Gaerolas Talvethren · {object:126158} Tallonkai's Dresser
-	["{npc:2107} stands in the village, east of the moonwell. {object:126158} is in the house on the hill at the east end of the village."] = "",
+	["{npc:2107} stands in the village, east of the moonwell. {object:126158} is in the house on the hill at the east end of the village."] = "{npc:2107} köyde, ay kuyusunun doğusunda duruyor. {object:126158}, köyün doğu ucundaki tepede bulunan evin içinde.",
 	-- {item:5619} Jade Phial
 	["Use the {item:5619} at the moonwell"] = "{item:5619} eşyasını ay kuyusunda kullan",
 	-- {object:126158} Tallonkai's Dresser
@@ -165,7 +165,7 @@ return {
 	-- Step 27: Lake Al'Ameth
 	-- {npc:2150} Zenn Foulhoof · {npc:2080} Denalan · {quest:919} Timberling Sprouts
 	-- plural, as words: Lasher Sproutlings = {npc:275703} Lasher Sproutling
-	["South-west of Starbreeze, south of {npc:2150}. {npc:2080} tends his saplings on the shore; Lasher Sproutlings and Timberlings wander around him, and the {quest:919} grow among them."] = "",
+	["South-west of Starbreeze, south of {npc:2150}. {npc:2080} tends his saplings on the shore; Lasher Sproutlings and Timberlings wander around him, and the {quest:919} grow among them."] = "Starbreeze'in güneybatısında, {npc:2150} yerinin güneyinde. {npc:2080} kıyıda fidanlarıyla ilgileniyor; Lasher Sproutling ve Timberling yaratıkları çevresinde dolaşıyor, {quest:919} filizleri de onların arasında yetişiyor.",
 	-- {npc:2080} Denalan · {quest:922} Rellian Greenspyre · {zone:1457} Darnassus
 	["{npc:2080}: {quest:922} in {zone:1457} takes it"] = "{npc:2080}: {zone:1457} şehrindeki {quest:922} teslim alır",
 
@@ -194,7 +194,7 @@ return {
 	-- plural, as words: Gnarlpine Shamans = {npc:2009} Gnarlpine Shaman
 	["Gnarlpine Shamans"] = "Gnarlpine Shaman yaratıkları",
 	-- {npc:7318} Rageclaw · {area:736} Ban'ethil Hollow
-	["{npc:7318}, in the den; walks around {area:736}: look inside the circle on the map"] = "",
+	["{npc:7318}, in the den; walks around {area:736}: look inside the circle on the map"] = "{npc:7318}, inin içinde; {area:736} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 35: Escaping Ban'ethil
 	-- {npc:275744} Sentinel Lynessa Duskblossom · {npc:2081} Sentinel Kyra Starsong · {area:186} Dolanaar
@@ -221,12 +221,12 @@ return {
 	-- Step 40: Seek Redemption!
 	-- {area:186} Dolanaar · {npc:2150} Zenn Foulhoof · {npc:7234} Ferocitas the Dream Eater
 	-- plural, as words: Fel Cones = {item:3418} Fel Cone
-	["Fel Cones lie under the trees all around {area:186} and {npc:2150}: pick them up on the road east and hand them to {npc:2150} on the way to {npc:7234}."] = "",
+	["Fel Cones lie under the trees all around {area:186} and {npc:2150}: pick them up on the road east and hand them to {npc:2150} on the way to {npc:7234}."] = "Fel Cone nesneleri {area:186} köyünün ve {npc:2150} yerinin çevresindeki ağaçların altında duruyor: doğuya giden yolda topla ve {npc:7234} yanına giderken {npc:2150} ile teslim et.",
 
 	-- Step 41: Ferocitas the Dream Eater
 	-- {npc:7234} Ferocitas the Dream Eater · {area:260} Starbreeze Village · {item:8049} Gnarlpine Necklace
 	-- plural, as words: Gnarlpine Mystics = {npc:7235} Gnarlpine Mystic
-	["Gnarlpine Mystics and {npc:7234} camp north-east of {area:260}. {npc:7234} drops the {item:8049}: open it for the jewel.\nCareful: {npc:7234} waits near the camp fire with mystics around him, so pulling him without adds is hard."] = "",
+	["Gnarlpine Mystics and {npc:7234} camp north-east of {area:260}. {npc:7234} drops the {item:8049}: open it for the jewel.\nCareful: {npc:7234} waits near the camp fire with mystics around him, so pulling him without adds is hard."] = "Gnarlpine Mystic yaratıkları ve {npc:7234}, {area:260} köyünün kuzeydoğusunda kamp kurmuş. {npc:7234} {item:8049} düşürür: mücevher için onu aç.\nDikkat: {npc:7234} çevresinde mystic'lerle kamp ateşinin yanında bekliyor, bu yüzden onu ek yaratık gelmeden çekmek zor.",
 
 	-- Step 42: The Oracle Glade
 	-- {object:6752} Strange Fronded Plant
@@ -236,7 +236,7 @@ return {
 
 	-- Step 43: Bloodfeather harpies
 	["Bloodfeather harpies"] = "Bloodfeather harpy yaratıkları",
-	["The Bloodfeather harpies nest on the slopes west and north of the glade.\nCareful: The harpies stand packed together, so extra ones often join a fight. Casters are mixed in among them."] = "",
+	["The Bloodfeather harpies nest on the slopes west and north of the glade.\nCareful: The harpies stand packed together, so extra ones often join a fight. Casters are mixed in among them."] = "Bloodfeather harpy yaratıkları açıklığın batısındaki ve kuzeyindeki yamaçlarda yuva yapmış.\nDikkat: Harpy'ler sıkışık duruyor, bu yüzden dövüşe sık sık fazladan biri katılır. Aralarında büyücüler de var.",
 
 	-- Step 44: Sentinel Arynia Cloudsbreak
 	["Back to the moonwell."] = "Ay kuyusuna dön.",
@@ -248,18 +248,18 @@ return {
 
 	-- Step 46: The Oracle Glade
 	-- {item:18152} Amethyst Phial
-	["Use the {item:18152} at the moonwell"] = "",
+	["Use the {item:18152} at the moonwell"] = "{item:18152} eşyasını ay kuyusunda kullan",
 
 	-- Step 47: Sentinel Arynia again
 	["Sentinel Arynia again"] = "Yine Sentinel Arynia",
 	-- {object:673378} Oracle Tree Bark
 	["{object:673378}, just west of the moonwell"] = "{object:673378}, ay kuyusunun hemen batısında",
 	-- {object:673378} Oracle Tree Bark · {zone:1457} Darnassus
-	["the same {object:673378}: Fandral in {zone:1457} takes it"] = "",
+	["the same {object:673378}: Fandral in {zone:1457} takes it"] = "Aynı {object:673378}: {zone:1457} şehrindeki Fandral teslim alır",
 
 	-- Step 48: Ursal the Mauler
 	-- {area:478} Pools of Arlithrien
-	["Walk south along the west side of the island. Ursal prowls the far south, below the {area:478}.\nCareful: Gnarlpine of roughly level 9-12 crowd the camp and sit close together, so it is easy to pull several at once. Take them on singly before you engage Ursal."] = "",
+	["Walk south along the west side of the island. Ursal prowls the far south, below the {area:478}.\nCareful: Gnarlpine of roughly level 9-12 crowd the camp and sit close together, so it is easy to pull several at once. Take them on singly before you engage Ursal."] = "Adanın batı yakası boyunca güneye yürü. Ursal en güneyde, {area:478} havuzlarının aşağısında dolaşıyor.\nDikkat: Kampta seviye 9-12 civarı Gnarlpine yaratıkları kalabalık ve birbirine yakın duruyor, bu yüzden birkaçını birden çekmek kolay. Ursal ile dövüşmeden önce onları tek tek hallet.",
 
 	-- Step 49: Dolanaar
 	-- {area:186} Dolanaar
@@ -277,7 +277,7 @@ return {
 	-- {npc:3602} Kal · {npc:4217} Mathrengyl Bearwalker · {zone:1457} Darnassus
 	["{npc:3602}: {npc:4217} in {zone:1457} takes it"] = "{npc:3602}: {zone:1457} şehrindeki {npc:4217} teslim alır",
 	-- {npc:3598} Kyra Windblade · {quest:1684} Elanaria · {zone:1457} Darnassus
-	["{npc:3598}, the warrior trainer: {quest:1684} in {zone:1457} takes it"] = "",
+	["{npc:3598}, the warrior trainer: {quest:1684} in {zone:1457} takes it"] = "{npc:3598}, Warrior eğitmeni: {zone:1457} şehrindeki {quest:1684} teslim alır",
 
 	-- Step 50: Lake Al'Ameth
 	-- {npc:2080} Denalan
@@ -294,11 +294,11 @@ return {
 	-- {item:8049} Gnarlpine Necklace · {npc:7234} Ferocitas the Dream Eater
 	["{item:8049}, from {npc:7234}"] = "{item:8049}, kaynak: {npc:7234}",
 	-- {npc:3567} Tallonkai Swiftroot · {area:186} Dolanaar
-	["{npc:3567}, back in {area:186}; upstairs"] = "",
+	["{npc:3567}, back in {area:186}; upstairs"] = "{npc:3567}, yine {area:186} köyünde; üst katta",
 
 	-- Step 53: Dolanaar again
 	-- {npc:6094} Byancie · {item:159} Refreshing Spring Water · {npc:6736} Innkeeper Keldamyr
-	["{npc:6094} takes a {item:159} with the fronds and the vial: if you drank yours, buy another from {npc:6736} in this inn before you hand in."] = "",
+	["{npc:6094} takes a {item:159} with the fronds and the vial: if you drank yours, buy another from {npc:6736} in this inn before you hand in."] = "{npc:6094}, yapraklar ve şişeyle birlikte bir {item:159} istiyor: seninkini içtiysen teslim etmeden önce bu handaki {npc:6736} yanından bir tane daha al.",
 
 	-- Step 54: Taming the Beast
 	-- {item:15908} Taming Rod · {area:186} Dolanaar
@@ -323,17 +323,17 @@ return {
 
 	-- Step 58: Elanaria
 	-- {quest:1684} Elanaria · {area:1660} Warrior's Terrace
-	["{quest:1684} stands on the {area:1660}, just inside the city."] = "",
+	["{quest:1684} stands on the {area:1660}, just inside the city."] = "{quest:1684}, şehrin hemen içindeki {area:1660} terasında duruyor.",
 
 	-- Step 59: Vorlus Vilehoof
 	-- {quest:1683} Vorlus Vilehoof · {area:736} Ban'ethil Hollow · {quest:1684} Elanaria
-	["Back out of the city gate and east along the road: {quest:1683} stands south of it, by {area:736}. Bring his horn back to {quest:1684}."] = "",
+	["Back out of the city gate and east along the road: {quest:1683} stands south of it, by {area:736}. Bring his horn back to {quest:1684}."] = "Şehir kapısından geri çık ve yol boyunca doğuya git: {quest:1683} yolun güneyinde, {area:736} yanında duruyor. Boynuzunu {quest:1684} yanına geri götür.",
 
 	-- Step 61: Darnassus
 	-- {zone:1457} Darnassus · {npc:4241} Mydrannul · {area:1659} Craftsmen's Terrace · {npc:3516} Arch Druid Fandral Staghelm · {area:1658} Cenarion Enclave · {quest:922} Rellian Greenspyre · {npc:4092} Lariia · {npc:7999} Tyrande Whisperwind · {npc:7316} Sister Aquinne
 	["Follow the road west into {zone:1457}. {npc:4241} stands on the {area:1659} just inside the city. {npc:3516} is in the {area:1658} at the north end of the city, {quest:922} just south of it; {npc:4092} and {npc:7999} are in the Temple of the Moon at the south end. {npc:7316} is in the west of the city, on the way to the pink portal down to Rut'theran."] = "Yolu batıya izleyerek {zone:1457} şehrine gir. {npc:4241}, şehrin hemen girişindeki {area:1659} terasında duruyor. {npc:3516} şehrin kuzey ucundaki {area:1658} içinde, {quest:922} onun hemen güneyinde; {npc:4092} ve {npc:7999} güney uçtaki Temple of the Moon tapınağında. {npc:7316} şehrin batısında, Rut'theran köyüne inen pembe portalın yolunda.",
 	-- {npc:4088} Elanaria · {area:1660} Warrior's Terrace · {spell:71} Defensive Stance
-	["{npc:4088}, on the {area:1660}: {spell:71}"] = "",
+	["{npc:4088}, on the {area:1660}: {spell:71}"] = "{npc:4088}, {area:1660} terasında: {spell:71}",
 	-- {npc:3516} Arch Druid Fandral Staghelm · {area:1658} Cenarion Enclave
 	["{npc:3516}, in the {area:1658}"] = "{npc:3516}, {area:1658} içinde",
 
@@ -369,7 +369,7 @@ return {
 
 	-- Step 67: Auberdine
 	-- {npc:3841} Caylais Moonfeather · {npc:4200} Laird
-	["Learn the flight path from {npc:3841} where you land. {npc:4200}'s fish stall is just north of her, by the docks.\nThe boat docks west of the village. The flight master stands on the hill south of the inn; the quest givers are spread along the main street."] = "",
+	["Learn the flight path from {npc:3841} where you land. {npc:4200}'s fish stall is just north of her, by the docks.\nThe boat docks west of the village. The flight master stands on the hill south of the inn; the quest givers are spread along the main street."] = "İndiğin yerde {npc:3841} ile konuşup uçuş noktasını aç. {npc:4200} balık tezgâhı onun hemen kuzeyinde, iskelelerin yanında.\nGemi köyün batısına yanaşır. Uçuş ustası hanın güneyindeki tepede duruyor; görev verenler ana cadde boyunca dağılmış.",
 	["The WANTED poster outside the inn"] = "Hanın dışındaki WANTED ilanı",
 
 	-- Step 68: Return to Nessa
@@ -379,7 +379,7 @@ return {
 	-- Step 69: The Long Wash
 	-- {object:17182} Buzzbox 827 · {object:175207} Beached Sea Creature
 	-- plural, as words: Tide Crawlers = {npc:2232} Tide Crawler · Darkshore Threshers = {npc:2185} Darkshore Thresher
-	["Tide Crawlers scuttle along the shore below the village; {object:17182} stands on the beach just south of the docks. Darkshore Threshers swim in the shallows. The {object:175207} lies on the shore just south of the village."] = "",
+	["Tide Crawlers scuttle along the shore below the village; {object:17182} stands on the beach just south of the docks. Darkshore Threshers swim in the shallows. The {object:175207} lies on the shore just south of the village."] = "Tide Crawler yaratıkları köyün aşağısındaki kıyı boyunca koşuşturuyor; {object:17182} iskelelerin hemen güneyindeki kumsalda duruyor. Darkshore Thresher yaratıkları sığ sularda yüzüyor. {object:175207} köyün hemen güneyindeki kıyıda yatıyor.",
 
 	-- Step 70: Auberdine
 	-- {npc:3649} Thundris Windweaver
@@ -389,7 +389,7 @@ return {
 
 	-- Step 71: Moonglade
 	-- {spell:18960} Teleport: Moonglade · {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven · {quest:5929} Great Bear Spirit · {npc:11800} Silva Fil'naveth · {area:702} Rut'theran Village
-	["Cast {spell:18960}. {npc:11802} is in {area:2361}; the {quest:5929} sits in the woods to the north-west. Then {npc:11800} in {area:2361} flies Druids straight to {area:702}, no flight path needed."] = "",
+	["Cast {spell:18960}. {npc:11802} is in {area:2361}; the {quest:5929} sits in the woods to the north-west. Then {npc:11800} in {area:2361} flies Druids straight to {area:702}, no flight path needed."] = "{spell:18960} büyüsünü kullan. {npc:11802}, {area:2361} köyünde; {quest:5929} kuzeybatıdaki ormanda. Sonra {area:2361} köyündeki {npc:11800}, Druid'leri uçuş noktası gerekmeden doğruca {area:702} köyüne uçurur.",
 	-- {quest:5929} Great Bear Spirit
 	["Speak with the {quest:5929}"] = "{quest:5929} ile konuş",
 

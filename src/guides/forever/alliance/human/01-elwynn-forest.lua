@@ -27,7 +27,7 @@ return {
 	-- Step 5: Northshire Abbey
 	["Inside"] = "İçeride",
 	-- {npc:247229} Daniel
-	["{npc:247229}, in the library; inside"] = "",
+	["{npc:247229}, in the library; inside"] = "{npc:247229}, kütüphanede; içeride",
 
 	-- Step 6: Echo Ridge Mine: kill these as you meet them
 	-- {area:34} Echo Ridge Mine
@@ -126,7 +126,7 @@ return {
 	-- {spell:1229451} Boosted Rest
 	["Sit (/sit) by his campfire until you have {spell:1229451}"] = "{spell:1229451} gelene kadar onun kamp ateşinin yanında otur (/sit)",
 	-- {npc:6306} Helene Peltskinner
-	["{npc:6306}: skinners only, the pelts are skinned; inside"] = "",
+	["{npc:6306}: skinners only, the pelts are skinned; inside"] = "{npc:6306}: yalnızca Skinning mesleği olanlar için, postları yüzerek alırsın; içeride",
 
 	-- Step 25: Crystal Lake
 	-- plural, as words: Fishing Traps = {object:694772} Fishing Trap
@@ -142,7 +142,7 @@ return {
 	-- {npc:1430} Tomas
 	["{npc:1430} cooks in the inn's kitchen."] = "{npc:1430} hanın mutfağında yemek pişiriyor.",
 	-- {npc:1430} Tomas
-	["{npc:1430}: Camping 101 asks you to learn it; below ground"] = "",
+	["{npc:1430}: Camping 101 asks you to learn it; below ground"] = "{npc:1430}: Camping 101 bunu öğrenmeni istiyor; yer altında",
 
 	-- Step 30: Duskweed Petal on the way
 	-- {item:286214} Duskweed Petal
@@ -156,7 +156,7 @@ return {
 	["He stands by the river west of the farm."] = "Çiftliğin batısında, nehrin kenarında duruyor.",
 
 	-- Step 33: The Stonefield Farm
-	["The Stonefield farm is west of the mine. Ma and \"Auntie\" Bernice stand by the house.\nShe sits inside the farmhouse."] = "",
+	["The Stonefield farm is west of the mine. Ma and \"Auntie\" Bernice stand by the house.\nShe sits inside the farmhouse."] = "Stonefield çiftliği madenin batısında. Ma ve \"Auntie\" Bernice evin yanında duruyor.\nÇiftlik evinin içinde oturuyor.",
 
 	-- Step 34: Billy Maclure
 	-- {area:64} Maclure Vineyards
@@ -167,7 +167,7 @@ return {
 	["{area:12}: kill these as you meet them"] = "{area:12}: bunları karşılaştıkça öldür",
 	-- {object:694855} Overgrown Duskweed
 	-- plural, as words: Stonetusk Boars = {npc:113} Stonetusk Boar
-	["{object:694855} grows in the fields around the vineyards and the Stonefield farm; Stonetusk Boars around them give the blood.\nStonetusk Boars graze between the vineyards and the farm."] = "",
+	["{object:694855} grows in the fields around the vineyards and the Stonefield farm; Stonetusk Boars around them give the blood.\nStonetusk Boars graze between the vineyards and the farm."] = "{object:694855} bağların ve Stonefield çiftliğinin çevresindeki tarlalarda yetişiyor; kanı çevredeki Stonetusk Boar yaratıklarından alırsın.\nStonetusk Boar yaratıkları bağlarla çiftlik arasında otluyor.",
 	-- {item:286215} Vial of Animal Blood
 	-- plural, as words: Stonetusk Boars = {npc:113} Stonetusk Boar
 	["{item:286215}: Stonetusk Boars"] = "{item:286215}: Stonetusk Boar yaratıkları",
@@ -243,7 +243,7 @@ return {
 	["{quest:91733} and {npc:330}"] = "{quest:91733} ve {npc:330}",
 	-- {item:247813} Waterlogged Saw · {npc:330} Princess · {area:62} Brackwell Pumpkin Patch · {npc:390} Porcine Entourage · {npc:248278} Croaky
 	-- plural, as words: Prowlers = {npc:118} Prowler · Young Forest Bears = {npc:822} Young Forest Bear
-	["The {item:247813}, Axe and Toolbox lie in the river south of the bridge. {npc:330}, a big boar, roots in the {area:62} west of the river with her {npc:390}: pull the piglets away first. Kill Prowlers and Young Forest Bears on the way. {npc:248278} roams the murloc shore along the river too: right-click the head it drops. {npc:248278} is elite: grouping up is advised."] = "",
+	["The {item:247813}, Axe and Toolbox lie in the river south of the bridge. {npc:330}, a big boar, roots in the {area:62} west of the river with her {npc:390}: pull the piglets away first. Kill Prowlers and Young Forest Bears on the way. {npc:248278} roams the murloc shore along the river too: right-click the head it drops. {npc:248278} is elite: grouping up is advised."] = "{item:247813}, balta ve alet kutusu köprünün güneyinde, nehrin içinde. Büyük bir yaban domuzu olan {npc:330}, nehrin batısındaki {area:62} tarlasında {npc:390} ile birlikte toprağı eşeliyor: önce yavruları ondan uzağa çek. Yolda Prowler ve Young Forest Bear yaratıklarını öldür. Nehir boyunca murloc kıyısında {npc:248278} de dolaşıyor: düşürdüğü kafaya sağ tıkla. {npc:248278} elit: grup kurman önerilir.",
 
 	-- Step 51: Downstream and Princess
 	-- {quest:91740} Croaky's Head
@@ -298,7 +298,7 @@ return {
 	-- Step 64: Guard Thomas
 	-- {area:91} Tower of Azora
 	-- plural, as words: Prowlers = {npc:118} Prowler · Young Forest Bears = {npc:822} Young Forest Bear
-	["Follow the road east past the {area:91} to the bridge. Finish the Prowlers and Young Forest Bears around the river south of it."] = "",
+	["Follow the road east past the {area:91} to the bridge. Finish the Prowlers and Young Forest Bears around the river south of it."] = "Yolu doğuya izle; {area:91} kulesini geçip köprüye var. Köprünün güneyinde, nehrin çevresindeki Prowler ve Young Forest Bear yaratıklarını bitir.",
 
 	-- Step 66: Stone Cairn Lake
 	-- plural, as words: Defias Rogue Wizards = {npc:474} Defias Rogue Wizard
@@ -320,7 +320,7 @@ return {
 	-- {npc:6306} Helene Peltskinner
 	["{npc:6306}, inside"] = "{npc:6306}, içeride",
 	-- {npc:240} Marshal Dughan
-	["{npc:240}, while William brews"] = "",
+	["{npc:240}, while William brews"] = "{npc:240}, William iksiri hazırlarken",
 	-- {npc:377} Priestess Josetta · {npc:376} High Priestess Laurena · {zone:1453} Stormwind
 	["{npc:377}: {npc:376} in {zone:1453} takes both"] = "{npc:377}: {zone:1453} şehrindeki {npc:376} ikisini de teslim alır",
 	-- {npc:328} Zaldimar Wefhellt · {npc:5497} Jennea Cannon · {zone:1453} Stormwind
@@ -383,7 +383,7 @@ return {
 	-- Step 84: Forest's Edge
 	-- {zone:1436} Westfall
 	-- plural, as words: Riverpaw Runts = {npc:97} Riverpaw Runt
-	["Riverpaw Runts and Outrunners hold the hills south of the garrison, along the {zone:1436} border."] = "",
+	["Riverpaw Runts and Outrunners hold the hills south of the garrison, along the {zone:1436} border."] = "Riverpaw Runt ve Riverpaw Outrunner yaratıkları garnizonun güneyindeki tepeleri, {zone:1436} sınırı boyunca tutuyor.",
 	-- plural, as words: Painted Gnoll Armbands = {item:782} Painted Gnoll Armband
 	["Painted Gnoll Armbands"] = "Painted Gnoll Armband",
 
@@ -417,7 +417,7 @@ return {
 
 	-- Step 91: Westbrook Garrison
 	-- {npc:955} Sergeant De Vries · {item:247824} Thunder Applejack
-	["{npc:955}: he wants your {item:247824}; inside"] = "",
+	["{npc:955}: he wants your {item:247824}; inside"] = "{npc:955}: senden {item:247824} istiyor; içeride",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- maybe now: ["{npc:247229}, in the library; inside"]

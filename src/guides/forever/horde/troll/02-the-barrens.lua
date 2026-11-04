@@ -5,7 +5,7 @@
 return {
 	-- Step 2: The Crossroads
 	-- {npc:3429} Thork · {npc:3449} Darsok Swiftdagger · {npc:3464} Gazrog · {area:380} The Crossroads
-	["{npc:3429} and {npc:3449} on the tower platform. Helbrim and {npc:3464} by the north gate. {area:380} is your base for this guide. Everyone you need stands within a few steps of the inn."] = "",
+	["{npc:3429} and {npc:3449} on the tower platform. Helbrim and {npc:3464} by the north gate. {area:380} is your base for this guide. Everyone you need stands within a few steps of the inn."] = "{npc:3429} ve {npc:3449} kule platformunda. Helbrim ve {npc:3464} kuzey kapısının yanında. {area:380} bu rehberde senin üssün. İhtiyacın olan herkes handan birkaç adım uzakta duruyor.",
 	-- {npc:3449} Darsok Swiftdagger · {area:383} Dry Hills
 	["{npc:3449}: the harpies come later, in the {area:383}"] = "{npc:3449}: harpy yaratıkları daha sonra, {area:383} tepelerinde",
 
@@ -20,11 +20,11 @@ return {
 	["Razormane camp"] = "Razormane kampı",
 	-- {area:380} The Crossroads · {object:58369} Stolen Iron Chest · {item:5026} Fire Tar
 	-- plural, as words: Savannah Prowlers = {npc:3425} Savannah Prowler
-	["Water Seekers, Thornweavers and Hunters hold the camp east of the {area:380}. The supply crates sit at its eastern end. Warriors: the {object:58369} stands in the camp. Shamans: the quilboar drop the {item:5026}. Kill Savannah Prowlers you pass for their claws.\nCareful: The chest stands next to a broken wagon, guarded by a pair of Razormanes, including hunters that can pull more quilboar into the fight."] = "",
+	["Water Seekers, Thornweavers and Hunters hold the camp east of the {area:380}. The supply crates sit at its eastern end. Warriors: the {object:58369} stands in the camp. Shamans: the quilboar drop the {item:5026}. Kill Savannah Prowlers you pass for their claws.\nCareful: The chest stands next to a broken wagon, guarded by a pair of Razormanes, including hunters that can pull more quilboar into the fight."] = "Water Seeker, Thornweaver ve Hunter yaratıkları {area:380} kasabasının doğusundaki kampı tutuyor. Erzak sandıkları kampın doğu ucunda. Warrior'lar: {object:58369} kampın içinde duruyor. Shaman'lar: quilboar'lar {item:5026} düşürür. Pençeleri için yolda geçtiğin Savannah Prowler yaratıklarını öldür.\nDikkat: Sandık, kırık bir arabanın yanında, aralarında başka quilboar'ları da dövüşe çekebilen hunter'ların bulunduğu bir çift Razormane tarafından korunuyor.",
 
 	-- Step 13: Telf Joolam
 	-- {npc:5900} Telf Joolam · {item:6636} Fire Sapta · {npc:5893} Minor Manifestation of Fire · {item:6655} Glowing Ember
-	["Back east over the bridge and up the trail to {npc:5900}'s shrine, as at 10. {npc:5900} makes {item:6636} from the tar and pouch. Use it by the brazier next to him to reveal the {npc:5893}, kill it for the {item:6655}, then place the ember in the brazier."] = "",
+	["Back east over the bridge and up the trail to {npc:5900}'s shrine, as at 10. {npc:5900} makes {item:6636} from the tar and pouch. Use it by the brazier next to him to reveal the {npc:5893}, kill it for the {item:6655}, then place the ember in the brazier."] = "Doğuya, köprüden geri geç ve 10. seviyedeki gibi patikadan {npc:5900} tapınağına çık. {npc:5900} katran ve keseden {item:6636} yapar. {npc:5893} yaratığını ortaya çıkarmak için onu yanındaki mangalın yanında kullan, {item:6655} için onu öldür, sonra közü mangala koy.",
 
 	-- Step 14: Kranal Fiss
 	-- {npc:5907} Kranal Fiss · {npc:2523} Searing Totem · {item:5176} Fire Totem · {item:263412} Totem of Charged Flames
