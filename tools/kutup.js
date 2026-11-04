@@ -494,9 +494,9 @@ function audit() {
 
 const RELEASES = path.join(ROOT, 'releases');
 const CF_API = 'https://wow.curseforge.com/api';
-// Polestar's CurseForge project (ID 1744437, "Polestar Guides"), marked as a required dependency on every
+// Polestar's CurseForge project (ID 1744437, curseforge.com/wow/addons/polestar; the slug was polestar-guides before), marked as a required dependency on every
 // upload. CurseForge-only: the TOC has no Dependencies line because Kutupstar must load before Polestar.
-const POLESTAR_CF_SLUG = 'polestar-guides';
+const POLESTAR_CF_SLUG = 'polestar';
 const tocField = (field) => (fs.readFileSync(path.join(DIST, 'Kutupstar.toc'), 'utf8').match(new RegExp(`^## ${field}:\\s*(.+?)\\s*$`, 'm')) || [])[1];
 
 // package: build (without installing), then releases/Kutupstar-<version>.zip holding the Kutupstar/ folder.
