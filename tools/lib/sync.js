@@ -5,6 +5,9 @@
 //   - A translation whose English went away moves below the file's end marker, commented out, with
 //     the closest new English it may fit ("maybe now"). One whose English comes back returns.
 //   - A guide that went away moves to src/guides-removed/ when it holds translations.
+//   - A guide text with no translation in its own file takes one another guide file has for the
+//     very same English (tokens and all): guides that are split, merged or renamed upstream keep
+//     their Turkish. Those are listed as reused.
 // Files are written only when their text changes. -> a report (see report())
 
 'use strict';
@@ -123,8 +126,12 @@ function syncUI({ deFile, codeKeys, srcFile, changed }) {
 	};
 }
 
-function syncGuide({ id, deFile, keys, srcFile, changed }) {
+function syncGuide({ id, deFile, keys, srcFile, changed, memory }) {
 	const { trans, before } = existing(srcFile, false);
+	const reused = [];
+	for (const k of keys) {
+		if (!trans.has(k) && memory.has(k)) { trans.set(k, memory.get(k)); reused.push(k); }
+	}
 	const body = ['return {'];
 	const placed = new Set();
 	if (deFile && fs.existsSync(deFile)) {
@@ -156,6 +163,7 @@ function syncGuide({ id, deFile, keys, srcFile, changed }) {
 		translated: [...keys].filter((k) => trans.has(k)).length,
 		added: [...keys].filter((k) => !before.has(k)),
 		lost,
+		reused,
 	};
 }
 
@@ -170,6 +178,14 @@ function sync({ upstreamDir, srcDir }, { uiKeys, guideKeys }) {
 	});
 	const deDir = path.join(upstreamDir, 'guides', 'locales', 'deDE');
 	const guidesDir = path.join(srcDir, 'guides');
+	// English -> Turkish across every guide file, the parked and lost ones too, read before anything moves.
+	const memory = new Map();
+	for (const dir of [guidesDir, path.join(srcDir, 'guides-removed')]) {
+		for (const g of S.readGuides(dir).values()) {
+			for (const e of g.entries) if (!memory.has(e.key)) memory.set(e.key, e.value);
+			for (const [k, v] of g.lost) if (!memory.has(k)) memory.set(k, v);
+		}
+	}
 	const guides = {};
 	const all = new Map([['_pack', guideKeys.pack], ...guideKeys.guides]);
 	for (const [id, keys] of all) {
@@ -187,7 +203,7 @@ function sync({ upstreamDir, srcDir }, { uiKeys, guideKeys }) {
 			}
 		}
 		const existed = fs.existsSync(srcFile);
-		guides[id] = syncGuide({ id, deFile: path.join(deDir, id + '.lua'), keys, srcFile, changed });
+		guides[id] = syncGuide({ id, deFile: path.join(deDir, id + '.lua'), keys, srcFile, changed, memory });
 		guides[id].isNew = !existed;
 	}
 	// Guides Polestar no longer has.
@@ -229,6 +245,8 @@ function report(r, { from, to, date }) {
 	const ids = Object.keys(r.guides);
 	for (const id of ids) { total += r.guides[id].total; translated += r.guides[id].translated; }
 	out.push(`- ${translated}/${total} guide texts translated in ${ids.length} guide files.`);
+	const reused = ids.reduce((n, id) => n + r.guides[id].reused.length, 0);
+	if (reused) out.push(`- ${reused} text(s) took the translation another guide file had for the same English (reused).`);
 	const added = ids.filter((id) => r.guides[id].isNew);
 	if (added.length) out.push(`- New guides: ${added.map((id) => q(id)).join(', ')}.`);
 	if (r.removed.length) out.push(`- Gone: ${r.removed.map((g) => q(g.id) + (g.kept ? ' (its translations moved to src/guides-removed/)' : '')).join(', ')}.`);

@@ -139,13 +139,17 @@ function collect(def) {
 
 const CLASS_FOLDERS = new Set(['Druid', 'Hunter', 'Mage', 'Paladin', 'Priest', 'Rogue', 'Shaman', 'Warlock', 'Warrior']);
 
+// guidesLua: one compiled Guides.lua or a list of them (since v0.3.0 the pack is split into
+// Polestar_Guides, Polestar_Guides_Alliance and Polestar_Guides_Horde, one pack id "guides").
 function guideKeys(guidesLua, packLua) {
 	const guides = new Map();
 	const pack = new Set();
-	walk(parse(fs.readFileSync(guidesLua, 'utf8')), (n) => {
+	for (const file of [].concat(guidesLua)) walk(parse(fs.readFileSync(file, 'utf8')), (n) => {
 		if (!isCall(n, 'RegisterGuide')) return;
 		const def = tableValue(callTable(n));
 		if (!def || typeof def.id !== 'string') return;
+		// Steps carried as Lua source (a deferred guide, stepsSrc) would hide their texts here.
+		if (def.steps == null && typeof def.stepsSrc === 'string') throw new Error(`${def.id}: deferred steps (stepsSrc) are not read yet`);
 		guides.set(def.id, new Set(collect(def)));
 		// A folder named after a class reads as the client's name of it (GuideTexts, apply).
 		if (typeof def.folder === 'string' && def.folder !== '' && !CLASS_FOLDERS.has(def.folder)) pack.add(def.folder);

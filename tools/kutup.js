@@ -39,7 +39,12 @@ const ADDON_SRC = path.join(ROOT, 'addon', 'Kutupstar');
 const DIST = path.join(ROOT, 'dist', 'Kutupstar');
 const REPORTS = path.join(ROOT, 'reports');
 const PACKAGE = path.join(ROOT, 'package.json');
-const ADDONS = process.env.KUTUP_ADDONS || 'C:/Program Files (x86)/World of Warcraft/_classic_beta_/Interface/AddOns';
+// The game's folder moved from _classic_beta_ to _forever_ at launch; the first that exists wins.
+const ADDONS = process.env.KUTUP_ADDONS || (() => {
+	const dirs = ['C:/Program Files (x86)/World of Warcraft', 'C:/Program Files/World of Warcraft', 'D:/World of Warcraft']
+		.flatMap((wow) => ['_forever_', '_classic_beta_'].map((flavor) => `${wow}/${flavor}/Interface/AddOns`));
+	return dirs.find((d) => fs.existsSync(d)) || dirs[0];
+})();
 
 const UI_SRC = path.join(SRC, 'Locales', 'trTR.lua');
 const GUIDES_SRC = path.join(SRC, 'guides');
@@ -47,7 +52,11 @@ const GLOSSARY = path.join(SRC, 'glossary.json');
 const UP_ADDON = path.join(UPSTREAM, 'addon', 'Polestar');
 const UP_UI_DE = path.join(UP_ADDON, 'Locales', 'deDE.lua');
 const UP_GUIDES_DE = path.join(UPSTREAM, 'guides', 'locales', 'deDE');
-const UP_GUIDES_LUA = path.join(UPSTREAM, 'addon', 'Polestar_Guides', 'Guides.lua');
+// The compiled guides: Polestar_Guides, and since v0.3.0 also its faction parts (Polestar_Guides_Alliance,
+// _Horde). The race parts (Polestar_Guides_Human...) hold only walking paths (Legs.lua), no text.
+const UP_GUIDES_LUA = () => fs.readdirSync(path.join(UPSTREAM, 'addon'))
+	.filter((d) => /^Polestar_Guides(_[A-Za-z]+)?$/.test(d)).sort()
+	.map((d) => path.join(UPSTREAM, 'addon', d, 'Guides.lua')).filter((f) => fs.existsSync(f));
 const UP_PACK_LUA = path.join(UPSTREAM, 'addon', 'Polestar_Guides', 'Pack.lua');
 
 const pkg = () => JSON.parse(fs.readFileSync(PACKAGE, 'utf8'));
@@ -77,7 +86,7 @@ function extract() {
 	const uiKeys = X.uiKeys(UP_ADDON);
 	const deKeys = S.readUI(UP_UI_DE).all;
 	const ui = new Set([...uiKeys.keys(), ...deKeys]);
-	const guideKeys = X.guideKeys(UP_GUIDES_LUA, UP_PACK_LUA);
+	const guideKeys = X.guideKeys(UP_GUIDES_LUA(), UP_PACK_LUA);
 	extraction = { uiKeys, deKeys, ui, guideKeys };
 	return extraction;
 }
@@ -342,8 +351,9 @@ function runSync(from) {
 	fs.writeFileSync(path.join(REPORTS, name), Y.report(r, { from, to, date }));
 	const lostGuides = Object.values(r.guides).reduce((n, g) => n + g.lost.length, 0);
 	const addedGuides = Object.values(r.guides).reduce((n, g) => n + g.added.length, 0);
+	const reusedGuides = Object.values(r.guides).reduce((n, g) => n + g.reused.length, 0);
 	console.log(`sync: ${r.changed.length} file(s) changed · UI ${r.ui.translated}/${r.ui.total}, ${r.ui.added.length} new, ${r.ui.lost.length} lost`
-		+ ` · guides ${addedGuides} new text(s), ${lostGuides} lost, ${r.removed.length} guide(s) gone · reports/${name}`);
+		+ ` · guides ${addedGuides} new text(s) (${reusedGuides} reused), ${lostGuides} lost, ${r.removed.length} guide(s) gone · reports/${name}`);
 }
 
 function pin(tag) {
