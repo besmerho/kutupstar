@@ -47,10 +47,11 @@ report: `reports/sync-v0.2.6-v0.3.0.md`). State at the last commit:
   auction house everywhere, as in the UI.
 - `check`: 0 errors, 3 STIL 3.1 warnings (suffix after a name token) in `collectibles/pets/smolderweb-carrier`,
   `reputation/darkspear-trolls`, `reputation/orgrimmar`; worth a look. `build` succeeds.
-- TOC `## Version: 0.1.2`; `build` fills `X-Polestar-Version` and `Interface` from `upstream/`.
+- TOC `## Version: 0.1.2`; `build` fills `X-Polestar-Version` from `package.json` and `Interface` from the
+  installed Polestar, or with no game (CI, cloud) from the pinned Polestar's TOC in `upstream/`.
 
 Left, all needing Barış: an in-game test once his game has Polestar v0.3.0 (`build --install` on his PC),
-the CurseForge upload of 0.1.2 (his machine, his OK), and merging the branch into `main` (when he asks).
+the CurseForge upload of 0.1.2 (his OK, then the tag `v0.1.2`), and merging the branch into `main` (when he asks).
 A cloud session can polish wording and the 3 warnings, run `check`/`build`, and commit/push on this branch.
 
 The repo `github.com/besmerho/kutupstar` is **public** since 22 Oct (GPL-3.0 source for the CurseForge release).
@@ -62,11 +63,20 @@ The repo `github.com/besmerho/kutupstar` is **public** since 22 Oct (GPL-3.0 sou
   skill pins it on a branch `polestar-vX.Y.Z`, runs `audit` (the 20 Polestar internals `Core.lua` hooks into;
   all present at v0.2.6 and on Polestar's development head), re-translates what changed, checks, builds and
   commits. It installs into the game only when Barış's game already has that release.
-- **A new Kutupstar release:** raise `## Version` in `addon/Kutupstar/Kutupstar.toc`, then
-  `node tools/kutup.js publish --type beta` (a dry run: shows project, file, game version and changelog) and,
-  **only after Barış's explicit OK for that upload**, the same with `--yes`. Then tag `vX.Y.Z` when he asks.
-  The upload token is the user environment variable `CURSEFORGE_API_TOKEN` on Barış's PC (never print it; a
-  cloud session does not have it, so uploads happen on his machine). `package` alone builds
+- **A new Kutupstar release (GitHub Actions, `.github/workflows/release.yml`):** raise `## Version` in
+  `addon/Kutupstar/Kutupstar.toc`, commit and push. Pushing the tag `vX.Y.Z` uploads to CurseForge, so it is
+  the go-ahead: push a tag **only after Barış's explicit OK for that upload**. The workflow clones the pinned
+  Polestar, runs `check`, refuses a tag that does not match the TOC's `## Version`, then runs
+  `publish --yes` and keeps the zip as a workflow artifact. An annotated tag's message is the CurseForge
+  changelog (markdown; `git tag -a v0.1.2 -m "..."`); a lightweight tag gets `publish`'s default. Release
+  type: repository variable `CURSEFORGE_RELEASE_TYPE`, beta when unset. Run by hand (Actions > Release to
+  CurseForge > Run workflow) it is a dry run that uploads nothing. The token is the GitHub secret
+  `CURSEFORGE_API_TOKEN` (repository or `curseforge` environment); sessions never see it.
+  `.github/workflows/check.yml` builds every pushed branch.
+- **The same by hand, on Barış's PC:** `node tools/kutup.js publish --type beta` (a dry run: shows project,
+  file, game version and changelog) and, only after his OK, the same with `--yes`, then tag `vX.Y.Z`.
+  The token is the user environment variable `CURSEFORGE_API_TOKEN` there (never print it). A cloud session
+  has no token: it uses the tag route. `package` alone builds
   `releases/Kutupstar-<version>.zip` (gitignored). The game version comes from the TOC's Interface
   (16001 = WoW Forever 1.60.1, CurseForge type `wow-forever`).
 - Logo: `media/kutupstar-logo.png` (Polestar's logo with a gold Turkish flag; `python -I media/make-logo.py`).

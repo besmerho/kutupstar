@@ -1,0 +1,24 @@
+# Checks and builds every pushed branch against its pinned Polestar (no game, no CurseForge).
+
+name: Check
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node tools/kutup.js setup
+      - run: node tools/kutup.js build

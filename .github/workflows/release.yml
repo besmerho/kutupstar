@@ -1,0 +1,83 @@
+# Uploads Kutupstar to CurseForge when a release tag vX.Y.Z is pushed.
+#
+# Pushing the tag is the go-ahead: nothing else uploads. The tag must match `## Version` in
+# addon/Kutupstar/Kutupstar.toc. An annotated tag's message becomes the CurseForge changelog (markdown);
+# a lightweight tag gets the default changelog from `publish`.
+#
+# Run by hand (Actions > Release to CurseForge > Run workflow) it is a dry run on the branch you pick:
+# it builds, packages and asks CurseForge for the game version with the token, and uploads nothing.
+#
+# Needs the secret CURSEFORGE_API_TOKEN (repository or "curseforge" environment secret). The release
+# type is the repository variable CURSEFORGE_RELEASE_TYPE (alpha, beta or release), beta when unset.
+# For a second approval before each upload, add "Required reviewers" to the "curseforge" environment.
+
+name: Release to CurseForge
+
+on:
+  push:
+    tags: ['v[0-9]+.[0-9]+.[0-9]+']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: curseforge-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    environment: curseforge
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Clone the pinned Polestar into upstream/
+        run: node tools/kutup.js setup
+
+      - name: Check
+        run: node tools/kutup.js check
+
+      - name: Tag matches the TOC version
+        if: github.ref_type == 'tag'
+        run: |
+          toc=$(sed -n 's/^## Version:[[:space:]]*\([^[:space:]]*\).*/\1/p' addon/Kutupstar/Kutupstar.toc)
+          if [ "v$toc" != "$GITHUB_REF_NAME" ]; then
+            echo "::error::Tag $GITHUB_REF_NAME does not match ## Version: $toc in Kutupstar.toc"
+            exit 1
+          fi
+          echo "Version $toc"
+
+      - name: Changelog from the tag message
+        if: github.ref_type == 'tag'
+        run: |
+          # actions/checkout does not keep a tag's annotation; fetch the tag object itself.
+          git fetch --force --no-tags origin "+refs/tags/$GITHUB_REF_NAME:refs/tags/$GITHUB_REF_NAME"
+          if [ "$(git cat-file -t "$GITHUB_REF_NAME")" = tag ]; then
+            git tag -l --format='%(contents)' "$GITHUB_REF_NAME" | sed '/^-----BEGIN PGP SIGNATURE-----/,$d' > "$RUNNER_TEMP/changelog.md"
+          fi
+
+      - name: Publish
+        env:
+          CURSEFORGE_API_TOKEN: ${{ secrets.CURSEFORGE_API_TOKEN }}
+          RELEASE_TYPE: ${{ vars.CURSEFORGE_RELEASE_TYPE || 'beta' }}
+        run: |
+          args=(publish --type "$RELEASE_TYPE")
+          if [ -s "$RUNNER_TEMP/changelog.md" ]; then args+=(--changelog "$(cat "$RUNNER_TEMP/changelog.md")"); fi
+          if [ "$GITHUB_REF_TYPE" = tag ]; then args+=(--yes); fi
+          node tools/kutup.js "${args[@]}"
+
+      - name: Keep the package
+        uses: actions/upload-artifact@v4
+        with:
+          name: kutupstar-package
+          path: releases/*.zip
+          if-no-files-found: error

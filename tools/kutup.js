@@ -205,10 +205,19 @@ function build(install) {
 	fs.copyFileSync(path.join(UPSTREAM, 'LICENSE'), path.join(DIST, 'LICENSE.txt'));
 
 	// The TOC: the Polestar release the keys come from, and the game's interface version as the
-	// installed Polestar declares it, so Kutupstar is never "out of date" beside it.
+	// installed Polestar declares it, so Kutupstar is never "out of date" beside it. With no game
+	// (CI, a cloud session) the pinned release's own TOC gives the interface version.
 	const tocFile = path.join(DIST, 'Kutupstar.toc');
 	let toc = fs.readFileSync(tocFile, 'utf8').replace(/^## X-Polestar-Version:.*$/m, `## X-Polestar-Version: ${pinned().replace(/^v/, '')}`);
 	const installedToc = path.join(ADDONS, 'Polestar', 'Polestar.toc');
+	const pinnedToc = path.join(UP_ADDON, 'Polestar.toc');
+	if (!fs.existsSync(installedToc) && fs.existsSync(pinnedToc)) {
+		const iface = fs.readFileSync(pinnedToc, 'utf8').match(/^## Interface:\s*(.+?)\s*$/m);
+		if (iface) {
+			toc = toc.replace(/^## Interface:.*$/m, `## Interface: ${iface[1]}`);
+			console.log(`toc: Interface ${iface[1]} (Polestar ${pinned()}'s; no game here)`);
+		}
+	}
 	if (fs.existsSync(installedToc)) {
 		const theirs = fs.readFileSync(installedToc, 'utf8');
 		const iface = theirs.match(/^## Interface:\s*(.+?)\s*$/m);
