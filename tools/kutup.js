@@ -70,9 +70,13 @@ function needLuaparse() {
 	}
 }
 
-// The tag upstream/ is checked out at, or null.
+// The tag upstream/ is checked out at, or null. A commit can carry several tags (v0.3.0 also has
+// lib-v1.2026.11.1), so a release tag vX.Y.Z wins, the pinned one first.
 function checkedOut() {
-	try { return git('describe', '--tags', '--exact-match', 'HEAD'); } catch { return null; }
+	let tags;
+	try { tags = git('tag', '--points-at', 'HEAD').split('\n').filter(Boolean); } catch { return null; }
+	if (tags.includes(pinned())) return pinned();
+	return tags.find((t) => /^v\d+\.\d+\.\d+$/.test(t)) || tags[0] || null;
 }
 
 // ---------------------------------------------------------------------------
