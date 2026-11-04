@@ -9,7 +9,7 @@ return {
 
 	-- Step 3: Hammertoe's Digsite
 	-- {zone:1432} Loch Modan · {area:3} Badlands · {npc:2910} Prospector Ryedol · {npc:2860} Sigrun Ironhew
-	["Head back west to the road and follow it south out of {zone:1432} through the pass into the {area:3}. {npc:2910} and {npc:2860} camp side by side at the dig."] = "",
+	["Head back west to the road and follow it south out of {zone:1432} through the pass into the {area:3}. {npc:2910} and {npc:2860} camp side by side at the dig."] = "Batıya, yola geri dön ve yolu güneye izleyerek {zone:1432} bölgesinden geçitle {area:3} bölgesine çık. {npc:2910} ve {npc:2860} kazıda yan yana kamp kurmuş.",
 
 	-- Step 4: Hammertoe's Digsite: kill these as you meet them
 	-- {area:346} Hammertoe's Digsite
@@ -27,7 +27,7 @@ return {
 
 	-- Step 7: Valley of Fangs
 	-- {npc:4618} Martek the Exiled · {npc:2817} Rigglefuzz · {area:1877} Valley of Fangs · {area:3} Badlands
-	["{npc:4618} and {npc:2817} camp together in the {area:1877}, in the middle of the {area:3}."] = "",
+	["{npc:4618} and {npc:2817} camp together in the {area:1877}, in the middle of the {area:3}."] = "{npc:4618} ve {npc:2817}, {area:3} bölgesinin ortasındaki {area:1877} vadisinde birlikte kamp kurmuş.",
 	["The clams lie on Stranglethorn's north-west coast, in the next guide: keep it"] = "İstiridyeler Stranglethorn'un kuzeybatı kıyısında, sonraki rehberde: sakla",
 
 	-- Step 8: Indurium Flake on the way
@@ -46,9 +46,9 @@ return {
 	["{area:345}: kill these as you meet them"] = "{area:345}: bunları karşılaştıkça öldür",
 	-- {quest:739} Murdaloc · {area:1878} Dustbowl · {npc:2921} Lotwil Veriatus · {spell:5242} Battle Shout · {spell:1160} Demoralizing Shout · {area:340} Kargath
 	-- plural, as words: Lesser Rock Elementals = {npc:2735} Lesser Rock Elemental · Dustbelcher Lords = {npc:2719} Dustbelcher Lord
-	["The Dustbelcher ogres camp just south of the valley; any of them drops scrap. Buzzards circle the plain to the east.\nThe battered skeleton lies at the edge of the Stonevault trogg camp; {quest:739}, Agmond's killer, walks among the Bonesnappers.\nThe Lesser Rock Elementals wander the {area:1878} west of {npc:2921}.\nCareful: Dustbelcher Lords are level 44-45. They use {spell:5242} and {spell:1160}, and below 50% health they call for help from allies within 15 yd. Seven of them stand about 750 yd south of {area:340}."] = "",
+	["The Dustbelcher ogres camp just south of the valley; any of them drops scrap. Buzzards circle the plain to the east.\nThe battered skeleton lies at the edge of the Stonevault trogg camp; {quest:739}, Agmond's killer, walks among the Bonesnappers.\nThe Lesser Rock Elementals wander the {area:1878} west of {npc:2921}.\nCareful: Dustbelcher Lords are level 44-45. They use {spell:5242} and {spell:1160}, and below 50% health they call for help from allies within 15 yd. Seven of them stand about 750 yd south of {area:340}."] = "Dustbelcher ogre'ları vadinin hemen güneyinde kamp kurmuş; hepsi hurda düşürür. Akbabalar doğudaki ovanın üstünde dönüyor.\nHırpalanmış iskelet Stonevault trogg kampının kenarında yatıyor; Agmond'un katili {quest:739}, Bonesnapper'ların arasında dolaşıyor.\nLesser Rock Elemental yaratıkları {npc:2921} yerinin batısındaki {area:1878} çukurunda geziniyor.\nDikkat: Dustbelcher Lord yaratıkları seviye 44-45. {spell:5242} ve {spell:1160} kullanırlar, canları %50'nin altına düşünce de 15 yarda içindeki müttefiklerinden yardım çağırırlar. Yedisi {area:340} kasabasının yaklaşık 750 yarda güneyinde duruyor.",
 	-- {quest:739} Murdaloc · {area:3} Badlands
-	["The skeleton's next task, {quest:739}, waits until the later {area:3} guide at 43."] = "",
+	["The skeleton's next task, {quest:739}, waits until the later {area:3} guide at 43."] = "İskeletin sonraki görevi {quest:739}, 43. seviyedeki sonraki {area:3} rehberini bekliyor.",
 
 	-- Step 12: Stonevault Bonesnapper on the way
 	-- {npc:2893} Stonevault Bonesnapper
@@ -62,7 +62,7 @@ return {
 	-- {object:126260} Ancient Chest
 	["The {object:126260}"] = "{object:126260}",
 	-- {area:3} Badlands · {npc:2745} Ambassador Infernus
-	["Head north-east to the dwarven ruins in the north of the {area:3}; the chest sits among the Shadowforge dwarves. {npc:2745} nearby is elite: give him room."] = "",
+	["Head north-east to the dwarven ruins in the north of the {area:3}; the chest sits among the Shadowforge dwarves. {npc:2745} nearby is elite: give him room."] = "Kuzeydoğuya, {area:3} bölgesinin kuzeyindeki cüce harabelerine git; sandık Shadowforge cücelerinin arasında duruyor. Yakındaki {npc:2745} elit: ona yer bırak.",
 	-- {item:4631} Tablet of Ryun'eh
 	["{item:4631}; below ground"] = "{item:4631}; yer altında",
 
@@ -95,7 +95,7 @@ return {
 
 	-- Step 22: Thelsamar
 	-- {npc:1470} Ghak Healtouch
-	["{npc:1470}, in the inn; below ground"] = "",
+	["{npc:1470}, in the inn; below ground"] = "{npc:1470}, handa; yer altında",
 
 	-- Step 23: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
@@ -130,14 +130,14 @@ return {
 
 	-- Step 30: Melizza Brimbuzzle
 	-- {npc:12277} Melizza Brimbuzzle
-	["{npc:12277} is held in the centaur camp west of the graveyard. Free her and keep her alive on the walk out; she stops by the graveyard.\nCareful: The scripted groups are linked and only appear during the escort, so you cannot clear them in advance or pull them one at a time. Clearing the normal centaurs on the path before you start does help."] = "",
+	["{npc:12277} is held in the centaur camp west of the graveyard. Free her and keep her alive on the walk out; she stops by the graveyard.\nCareful: The scripted groups are linked and only appear during the escort, so you cannot clear them in advance or pull them one at a time. Clearing the normal centaurs on the path before you start does help."] = "{npc:12277}, mezarlığın batısındaki centaur kampında tutuluyor. Onu serbest bırak ve dışarı yürüyüşte hayatta tut; mezarlığın yanında durur.\nDikkat: Senaryolu gruplar birbirine bağlı ve yalnızca eşlik sırasında çıkar, bu yüzden onları önceden temizleyemez ya da tek tek çekemezsin. Başlamadan önce yol üstündeki normal centaur'ları temizlemek işe yarar.",
 	-- {npc:12277} Melizza Brimbuzzle
 	["escort {npc:12277} back toward the graveyard"] = "{npc:12277} adlı NPC'ye mezarlığa kadar eşlik et",
 
 	-- Step 31: Mannoroc Coven
 	-- {area:602} Mannoroc Coven · {zone:1443} Desolace
 	-- plural, as words: Mana Eaters = {npc:4678} Mana Eater · Ley Hunters = {npc:4685} Ley Hunter · Nether Maidens = {npc:4679} Nether Maiden · Doomwarder Captains = {npc:4680} Doomwarder Captain
-	["The demons gather at the {area:602} in southern {zone:1443}: felhounds (Mana Eaters, Mage and Ley Hunters), Nether Maidens and Sisters, and Doomwarder Captains around the pit.\nCareful: Most of the mobs here walk patrol routes, so you can easily pull extra mobs."] = "",
+	["The demons gather at the {area:602} in southern {zone:1443}: felhounds (Mana Eaters, Mage and Ley Hunters), Nether Maidens and Sisters, and Doomwarder Captains around the pit.\nCareful: Most of the mobs here walk patrol routes, so you can easily pull extra mobs."] = "İblisler güney {zone:1443} bölgesindeki {area:602} içinde toplanıyor: çukurun çevresinde felhound'lar (Mana Eater, Mage Hunter ve Ley Hunter), Nether Maiden ve Nether Sister yaratıkları ve Doomwarder Captain yaratıkları.\nDikkat: Buradaki yaratıkların çoğu devriye yollarında yürür, bu yüzden kolayca fazladan yaratık çekebilirsin.",
 
 	-- Step 32: The Valley of Bones
 	-- {area:2657} Valley of Bones

@@ -70,7 +70,7 @@ return {
 	-- Step 16: Sargeron
 	-- {area:603} Sargeron
 	-- plural, as words: Hatefury Rogues = {npc:4670} Hatefury Rogue
-	["North along the eastern hills, the satyrs hold the ruins of {area:603}. The Shadowstalkers walk unseen; the four kinds you need do not.\nCareful: Hatefury Rogues use Hide when they spawn, so they are stealthed until you find them."] = "",
+	["North along the eastern hills, the satyrs hold the ruins of {area:603}. The Shadowstalkers walk unseen; the four kinds you need do not.\nCareful: Hatefury Rogues use Hide when they spawn, so they are stealthed until you find them."] = "Doğudaki tepeler boyunca kuzeye git; satyr'lar {area:603} harabelerini tutuyor. Shadowstalker'lar görünmeden dolaşır; ihtiyacın olan dört tür ise görünür.\nDikkat: Hatefury Rogue yaratıkları doğduklarında Hide kullanır, bu yüzden onları bulana kadar gizlidirler.",
 	-- {npc:4670} Hatefury Rogue
 	["grind on {npc:4670}"] = "Kas: {npc:4670}",
 
@@ -87,7 +87,7 @@ return {
 	["Kolkar ears"] = "Kolkar kulakları",
 	-- {area:609} Kolkar Village
 	-- plural, as words: Kolkar Battle Lords = {npc:4636} Kolkar Battle Lord
-	["Back at {area:609}, every Kolkar can drop an ear.\nCareful: Kolkar Battle Lords call nearby allies within 30 yd once they fall to 20% health."] = "",
+	["Back at {area:609}, every Kolkar can drop an ear.\nCareful: Kolkar Battle Lords call nearby allies within 30 yd once they fall to 20% health."] = "{area:609} köyüne dönünce her Kolkar bir kulak düşürebilir.\nDikkat: Kolkar Battle Lord yaratıkları canları %20'ye düşünce 30 yarda içindeki yakın müttefiklerini çağırır.",
 
 	-- Step 20: Shadowstalker scalp
 	["Shadowstalker scalp"] = "Shadowstalker kafa derisi",
@@ -182,7 +182,7 @@ return {
 
 	-- Step 41: Garen Largo
 	-- {npc:260093} Garen Largo · {zone:1458} Undercity
-	["{npc:260093} trains Paladins in the {zone:1458}."] = "",
+	["{npc:260093} trains Paladins in the {zone:1458}."] = "{npc:260093}, {zone:1458} içinde Paladin eğitiyor.",
 
 	-- Step 42: Undercity
 	-- {quest:515} Elixir of Agony · {item:3388} Strong Troll's Blood Potion · {skill:171} Alchemy · {area:287} Hillsbrad
@@ -192,7 +192,7 @@ return {
 
 	-- Step 43: Brazier of Everfount
 	-- {zone:1458} Undercity · {area:228} Sepulcher · {object:113791} Brazier of Everfount · {npc:5895} Minor Manifestation of Water · {item:7813} Shard of Water · {npc:5901} Islen Waterseer · {area:272} Tarren Mill
-	["Do your shopping in the {zone:1458} first, then fly to the {area:228}. The {object:113791} stands on the hill just south-west of it: beat the Corrupt Manifestation of Water beside it, place its bracers in the brazier, speak to the {npc:5895} and keep the {item:7813} for {npc:5901}. Fly on to {area:272} from the {area:228}."] = "",
+	["Do your shopping in the {zone:1458} first, then fly to the {area:228}. The {object:113791} stands on the hill just south-west of it: beat the Corrupt Manifestation of Water beside it, place its bracers in the brazier, speak to the {npc:5895} and keep the {item:7813} for {npc:5901}. Fly on to {area:272} from the {area:228}."] = "Önce alışverişini {zone:1458} içinde yap, sonra {area:228} kasabasına uç. {object:113791}, kasabanın hemen güneybatısındaki tepede duruyor: yanındaki Corrupt Manifestation of Water yaratığını yen, bileziklerini mangala koy, {npc:5895} ile konuş ve {item:7813} parçasını {npc:5901} için sakla. {area:228} kasabasından {area:272} kasabasına uçarak devam et.",
 	-- {npc:5901} Islen Waterseer
 	["for {npc:5901}: from Stranglethorn, next guide"] = "{npc:5901} için: Stranglethorn'dan, sonraki rehber",
 
@@ -241,9 +241,9 @@ return {
 
 	-- Step 54: Back to Tarren Mill
 	-- {area:272} Tarren Mill
-	["Head back north to {area:272}."] = "",
+	["Head back north to {area:272}."] = "Kuzeye, {area:272} kasabasına geri dön.",
 	-- {object:1729} Tainted Keg · {object:1728} Dusty Rug
-	["Place the {object:1729} on the {object:1728} beside the inn; upstairs"] = "",
+	["Place the {object:1729} on the {object:1728} beside the inn; upstairs"] = "{object:1729} fıçısını hanın yanındaki {object:1728} halısının üzerine koy; üst katta",
 
 	-- Step 55: Helcular's Rod
 	-- {area:272} Tarren Mill
@@ -255,7 +255,7 @@ return {
 	["The {area:279} traitors"] = "{area:279} hainleri",
 	-- {area:279} Dalaran · {npc:2411} Ricter · {npc:2412} Alina · {npc:2413} Dermot · {npc:2414} Kegan Darkmar
 	-- plural, as words: Worn Stone Tokens = {item:3714} Worn Stone Token
-	["Head west along the foot of the mountains to the violet dome of {area:279}. {npc:2411}, {npc:2412} and {npc:2413} (33-34) stand together inside the crater's eastern rim, {npc:2414} (35) a little west of them; each carries one Bloodstone piece. The Shield Guards and Theurgists (31-32) around them drop the Worn Stone Tokens.\nCareful: Many guards stand in linked pairs and others patrol alone around the camp."] = "",
+	["Head west along the foot of the mountains to the violet dome of {area:279}. {npc:2411}, {npc:2412} and {npc:2413} (33-34) stand together inside the crater's eastern rim, {npc:2414} (35) a little west of them; each carries one Bloodstone piece. The Shield Guards and Theurgists (31-32) around them drop the Worn Stone Tokens.\nCareful: Many guards stand in linked pairs and others patrol alone around the camp."] = "Dağların eteği boyunca batıya, {area:279} şehrinin mor kubbesine git. {npc:2411}, {npc:2412} ve {npc:2413} (33-34) kraterin doğu kenarının içinde birlikte duruyor, {npc:2414} (35) onların biraz batısında; her biri bir Bloodstone parçası taşıyor. Çevrelerindeki Shield Guard ve Theurgist yaratıkları (31-32) Worn Stone Token düşürür.\nDikkat: Muhafızların çoğu bağlı çiftler halinde duruyor, diğerleri kampın çevresinde tek başına devriye geziyor.",
 
 	-- Step 58: Hearth to Tarren Mill
 	-- {area:272} Tarren Mill
@@ -269,7 +269,7 @@ return {
 
 	-- Step 61: Gol'dir
 	-- {quest:535} Valik · {area:280} Strahnbrad · {npc:2431} Jailor Borhuin · {item:3704} Rusted Iron Key · {quest:503} Gol'dir
-	["Head north past {quest:535}'s camp to {area:280}, the Syndicate-held village (35-37). {npc:2431} carries the {item:3704}; {quest:503} sits in a cage in the house on the north side.\nCareful: Stealthed Syndicate spies roam {area:280}, and the buildings hold many Syndicate mobs, mages among them."] = "",
+	["Head north past {quest:535}'s camp to {area:280}, the Syndicate-held village (35-37). {npc:2431} carries the {item:3704}; {quest:503} sits in a cage in the house on the north side.\nCareful: Stealthed Syndicate spies roam {area:280}, and the buildings hold many Syndicate mobs, mages among them."] = "Kuzeye git, {quest:535} kampını geçip Syndicate'in tuttuğu {area:280} köyüne var (35-37). {npc:2431}, {item:3704} taşıyor; {quest:503} kuzey yakasındaki evde bir kafeste oturuyor.\nDikkat: {area:280} içinde gizlenmiş Syndicate casusları dolaşıyor, binalarda da aralarında büyücüler bulunan çok sayıda Syndicate yaratığı var.",
 	["Inside"] = "İçeride",
 	-- {quest:503} Gol'dir
 	["{quest:503}, on the top floor"] = "{quest:503}, en üst katta",

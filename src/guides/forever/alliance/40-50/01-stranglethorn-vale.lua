@@ -29,7 +29,7 @@ return {
 	-- Step 7: Swamplight Manor
 	["Take the road north to the ruined manor; Jarl lives in the shack beside it and the loose dirt is at the corner of the house."] = "Kuzeye giden yolu tutarak yıkık malikâneye git; Jarl yanındaki kulübede yaşıyor, gevşek toprak da evin köşesinde.",
 	-- {quest:1218} Soothing Spices
-	["{quest:1218}, for \"Swamp Eye\" Jarl"] = "",
+	["{quest:1218}, for \"Swamp Eye\" Jarl"] = "{quest:1218}, \"Swamp Eye\" Jarl için",
 	["with the spices from Theramore"] = "Theramore'dan getirdiğin baharatlarla",
 
 	-- Step 8: "Stinky" Ignatz
@@ -187,7 +187,7 @@ return {
 	["Ride back down to town; Shaky stands at the tunnel mouth."] = "Kasabaya geri in; Shaky tünelin ağzında duruyor.",
 	-- {npc:2616} Privateer Groy
 	["for {npc:2616} in Theramore: keep it"] = "Theramore'daki {npc:2616} için: sakla",
-	["\"Sea Wolf\" MacKinley, on the top floor"] = "",
+	["\"Sea Wolf\" MacKinley, on the top floor"] = "\"Sea Wolf\" MacKinley, en üst katta",
 
 	-- Step 61: The Bloodsail captains
 	["The Bloodsail captains"] = "Bloodsail kaptanları",

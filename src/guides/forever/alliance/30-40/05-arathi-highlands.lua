@@ -11,7 +11,7 @@ return {
 
 	-- Step 3: Watcher Biggs
 	-- {npc:5476} Watcher Biggs · {npc:217412} Amaryllis Webb
-	["{npc:5476} guards the road junction in the west of the swamp. {npc:217412} stands a short way north of him."] = "",
+	["{npc:5476} guards the road junction in the west of the swamp. {npc:217412} stands a short way north of him."] = "{npc:5476}, bataklığın batısındaki yol kavşağını koruyor. {npc:217412} onun biraz kuzeyinde duruyor.",
 	-- {npc:217412} Amaryllis Webb · {zone:1443} Desolace
 	["{npc:217412}: three critters to catch in Arathi, {zone:1443} and Stranglethorn"] = "{npc:217412}: Arathi, {zone:1443} ve Stranglethorn'da yakalanacak üç küçük hayvan",
 
@@ -30,7 +30,7 @@ return {
 
 	-- Step 8: The Lost Caravan
 	-- plural, as words: Lost Ones = {npc:254797} Lost One
-	["The wrecked caravan lies off the road near Biggs.\nCareful: The camp is full of Lost Ones around level 38. They stand in linked groups of 2-3, many are casters, and they respawn quickly."] = "",
+	["The wrecked caravan lies off the road near Biggs.\nCareful: The camp is full of Lost Ones around level 38. They stand in linked groups of 2-3, many are casters, and they respawn quickly."] = "Parçalanmış kervan, Biggs'in yakınında yolun kenarında.\nDikkat: Kamp seviye 38 civarı Lost One yaratıklarıyla dolu. 2-3'lük bağlı gruplar halinde duruyorlar, çoğu büyücü ve çabuk yeniden doğuyorlar.",
 
 	-- Step 9: Galen Goodward
 	-- {npc:5391} Galen Goodward
@@ -95,7 +95,7 @@ return {
 
 	-- Step 29: Northfold Manor
 	-- {area:320} Refuge Pointe · {npc:217589} Hay Weevil · {npc:217412} Amaryllis Webb
-	["The Syndicate hold the farm north-west of {area:320}. A {npc:217589} crawls about the farm: catch one with {npc:217412}'s Entomology Starter Kit, then tick it off.\nCareful: Syndicate Highwaymen are level 30-31 and can cast Sneak while out of combat, so they are often stealthed and hard to spot."] = "",
+	["The Syndicate hold the farm north-west of {area:320}. A {npc:217589} crawls about the farm: catch one with {npc:217412}'s Entomology Starter Kit, then tick it off.\nCareful: Syndicate Highwaymen are level 30-31 and can cast Sneak while out of combat, so they are often stealthed and hard to spot."] = "Syndicate, {area:320} karakolunun kuzeybatısındaki çiftliği tutuyor. Çiftlikte bir {npc:217589} geziniyor: {npc:217412} verdiği Entomology Starter Kit ile birini yakala, sonra işaretle.\nDikkat: Syndicate Highwayman yaratıkları seviye 30-31 ve savaş dışındayken Sneak kullanabilir, bu yüzden çoğu zaman gizli ve görmesi zor.",
 	-- {npc:217589} Hay Weevil · {quest:93176} My Little Friends
 	["{npc:217589}: catch it, for {quest:93176}"] = "{npc:217589}: {quest:93176} için yakala",
 
@@ -104,7 +104,7 @@ return {
 
 	-- Step 31: Phizzlethorpe
 	["Phizzlethorpe"] = "Phizzlethorpe",
-	["Escort the professor to the beach north of the cove and guard him while he works; naga attack in waves.\nCareful: The ambush is two level 40 water elementals, and they are immune to frost. If the fight happens inside the cave, the professor joins in instead of working and further elementals keep appearing; holding the elementals at the cave entrance, away from him, lets him finish with only the first two to deal with."] = "",
+	["Escort the professor to the beach north of the cove and guard him while he works; naga attack in waves.\nCareful: The ambush is two level 40 water elementals, and they are immune to frost. If the fight happens inside the cave, the professor joins in instead of working and further elementals keep appearing; holding the elementals at the cave entrance, away from him, lets him finish with only the first two to deal with."] = "Profesöre koyun kuzeyindeki kumsala kadar eşlik et ve o çalışırken onu koru; naga'lar dalgalar halinde saldırır.\nDikkat: Pusu seviye 40 iki su elementalinden oluşur ve frost'a bağışıktırlar. Dövüş mağaranın içinde olursa profesör çalışmak yerine dövüşe katılır ve yeni elementaller çıkmaya devam eder; elementalleri ondan uzakta, mağara girişinde tutarsan yalnızca ilk ikisiyle uğraşarak işini bitirir.",
 
 	-- Step 33: The Drowned Reef: kill these as you meet them
 	-- {area:328} The Drowned Reef
@@ -154,7 +154,7 @@ return {
 	-- {area:318} Drywhisker Gorge
 	["{area:318}: kill these as you meet them"] = "{area:318}: bunları karşılaştıkça öldür",
 	-- {area:321} Hammerfall
-	["The Drywhisker kobolds dig in the gorge east of {area:321} (Horde); skirt the town to the north. They drop both the motes and Krazek's ore.\nCareful: Every kobold type runs off for help when low on health (Kobolds at 30%, Surveyors and Diggers at 15%), which can pull more of them."] = "",
+	["The Drywhisker kobolds dig in the gorge east of {area:321} (Horde); skirt the town to the north. They drop both the motes and Krazek's ore.\nCareful: Every kobold type runs off for help when low on health (Kobolds at 30%, Surveyors and Diggers at 15%), which can pull more of them."] = "Drywhisker kobold'ları {area:321} kasabasının (Horde) doğusundaki geçitte kazı yapıyor; kasabayı kuzeyden dolaş. Hem zerreleri hem de Krazek'in cevherini düşürürler.\nDikkat: Her kobold türü canı azalınca yardım için kaçar (Kobold'lar %30'da, Surveyor ve Digger'lar %15'te), bu da daha fazlasını çekebilir.",
 
 	-- Step 40: Iridescent Shards
 	-- {area:318} Drywhisker Gorge
@@ -164,7 +164,7 @@ return {
 	-- Step 41: Stones of Binding
 	-- {area:320} Refuge Pointe · {object:2702} Stone of Inner Binding
 	-- plural, as words: Burning Exiles = {npc:2760} Burning Exile · Thundering Exiles = {npc:2762} Thundering Exile · Cresting Exiles = {npc:2761} Cresting Exile
-	["Each key lies at one of the Highlands' standing-stone circles: east of the shards, near {area:320} and in the west. The {object:2702} stands west of {area:320}.\nCareful: Each center stone is guarded by around three elementals near level 39 that attack together if you click the stone without clearing them: Burning Exiles at West, Thundering Exiles at Outer, Cresting Exiles at East."] = "",
+	["Each key lies at one of the Highlands' standing-stone circles: east of the shards, near {area:320} and in the west. The {object:2702} stands west of {area:320}.\nCareful: Each center stone is guarded by around three elementals near level 39 that attack together if you click the stone without clearing them: Burning Exiles at West, Thundering Exiles at Outer, Cresting Exiles at East."] = "Her anahtar Highlands'in dikilitaş çemberlerinden birinde: kırıkların doğusunda, {area:320} karakolunun yakınında ve batıda. {object:2702}, {area:320} karakolunun batısında duruyor.\nDikkat: Her merkez taşı seviye 39 civarı üç kadar elemental koruyor; onları temizlemeden taşa tıklarsan birlikte saldırırlar: West'te Burning Exile, Outer'da Thundering Exile, East'te Cresting Exile yaratıkları.",
 
 	-- Step 42: Quae
 	-- {area:320} Refuge Pointe · {npc:2712} Quae · {npc:2713} Kinelory · {area:314} Go'Shek Farm
@@ -182,7 +182,7 @@ return {
 	-- {npc:2713} Kinelory
 	["{npc:2713}'s errand"] = "{npc:2713} adlı NPC'nin işi",
 	-- {npc:2713} Kinelory · {area:314} Go'Shek Farm
-	["Stay with {npc:2713} while she sneaks into {area:314} and back; Horde orcs jump you on the way.\nCareful: Orcs that drop to low health run away. {npc:2713} follows them and can pull more mobs, so kill or slow runners fast."] = "",
+	["Stay with {npc:2713} while she sneaks into {area:314} and back; Horde orcs jump you on the way.\nCareful: Orcs that drop to low health run away. {npc:2713} follows them and can pull more mobs, so kill or slow runners fast."] = "{npc:2713} gizlice {area:314} çiftliğine girip çıkarken yanında kal; yolda Horde orc'ları üstüne atlar.\nDikkat: Canı azalan orc'lar kaçar. {npc:2713} onların peşinden gider ve daha fazla yaratık çekebilir, bu yüzden kaçanları çabuk öldür ya da yavaşlat.",
 
 	-- Step 47: Quae
 	-- {npc:2711} Phin Odelic · {area:271} Southshore
@@ -207,11 +207,11 @@ return {
 	["{area:281}: kill these as you meet them"] = "{area:281}: bunları karşılaştıkça öldür",
 	-- {area:280} Strahnbrad
 	-- plural, as words: Argus Shadow Mages = {npc:2318} Argus Shadow Mage · Crushridge Warmongers = {npc:2287} Crushridge Warmonger
-	["The tomes lie in the ruined keep west of {area:280}; Argus Shadow Mages hold the ruins.\nCareful: Crushridge Warmongers call nearby allies within 15 yd once they fall below half health."] = "",
+	["The tomes lie in the ruined keep west of {area:280}; Argus Shadow Mages hold the ruins.\nCareful: Crushridge Warmongers call nearby allies within 15 yd once they fall below half health."] = "Kitaplar {area:280} köyünün batısındaki yıkık kalede; harabeleri Argus Shadow Mage yaratıkları tutuyor.\nDikkat: Crushridge Warmonger yaratıkları canları yarının altına düşünce 15 yarda içindeki yakın müttefiklerini çağırır.",
 	-- {item:3658} Recovered Tome
 	["{item:3658}: Crushridge ogres"] = "{item:3658}: Crushridge ogreları",
 	-- {item:3659} Worn Leather Book · {object:1760} Weathered Bookcase
-	["{item:3659}: the {object:1760}; inside"] = "",
+	["{item:3659}: the {object:1760}; inside"] = "{item:3659}: {object:1760}; içeride",
 
 	-- Step 56: Ruins of Alterac: kill these as you meet them
 	-- {npc:2417} Grel'borg the Miser
@@ -221,7 +221,7 @@ return {
 	-- {area:280} Strahnbrad
 	["{area:280}: kill these as you meet them"] = "{area:280}: bunları karşılaştıkça öldür",
 	-- {npc:2320} Nagaz
-	["Careful: Syndicate Spies and Assassins can be stealthed. Assassins also poison you.\nCareful: About three stealthed Syndicate mobs are inside {npc:2320}'s house. {npc:2320} does not join when they are pulled, and a ranged attack through the doorway brings him out by himself."] = "",
+	["Careful: Syndicate Spies and Assassins can be stealthed. Assassins also poison you.\nCareful: About three stealthed Syndicate mobs are inside {npc:2320}'s house. {npc:2320} does not join when they are pulled, and a ranged attack through the doorway brings him out by himself."] = "Dikkat: Syndicate Spy ve Assassin yaratıkları gizli olabilir. Assassin'ler seni zehirler de.\nDikkat: {npc:2320} evinin içinde yaklaşık üç gizli Syndicate yaratığı var. Onlar çekilince {npc:2320} katılmaz, kapıdan yapılan bir menzilli saldırı da onu tek başına dışarı çıkarır.",
 
 	-- Step 58: Crushridge ogres
 	["Crushridge ogres"] = "Crushridge ogreları",
@@ -231,7 +231,7 @@ return {
 
 	-- Step 60: Dalaran
 	-- {area:279} Dalaran · {area:130} Silverpine Forest · {npc:269127} Image of Archmage Modera
-	["South-west to the Kirin Tor camp on the lake shore west of {area:279}, just over the border into {area:130}: the {npc:269127} stands there. Archmage Ansirem stands south-east of it, by the dome."] = "",
+	["South-west to the Kirin Tor camp on the lake shore west of {area:279}, just over the border into {area:130}: the {npc:269127} stands there. Archmage Ansirem stands south-east of it, by the dome."] = "Güneybatıya, {area:279} şehrinin batısında, sınırı az geçince {area:130} içinde kalan göl kıyısındaki Kirin Tor kampına git: {npc:269127} orada duruyor. Archmage Ansirem onun güneydoğusunda, kubbenin yanında duruyor.",
 	-- {npc:2542} Catelyn the Blade · {area:35} Booty Bay
 	["For {npc:2542} in {area:35}: keep it"] = "{area:35} limanındaki {npc:2542} için: sakla",
 
@@ -243,7 +243,7 @@ return {
 
 	-- Step 67: Thelsamar
 	-- {zone:1455} Ironforge · {zone:1426} Dun Morogh · {area:38} Loch Modan · {area:144} Thelsamar
-	["From {zone:1455} take the tunnel east through {zone:1426} into {area:38} and follow the road to {area:144}."] = "",
+	["From {zone:1455} take the tunnel east through {zone:1426} into {area:38} and follow the road to {area:144}."] = "{zone:1455} şehrinden tünelle doğuya, {zone:1426} içinden {area:38} bölgesine geç ve yolu {area:144} kasabasına izle.",
 	-- {npc:1470} Ghak Healtouch
 	["{npc:1470}, below ground"] = "{npc:1470}, yer altında",
 

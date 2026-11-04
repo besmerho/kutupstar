@@ -31,7 +31,7 @@ return {
 	-- {npc:7406} Oglethorpe Obnoticus
 	["{npc:7406}, inside"] = "{npc:7406}, içeride",
 	["Only once all three robots are home"] = "Yalnızca üç robot da evine döndükten sonra",
-	["\"Sea Wolf\" MacKinley, on the top floor"] = "",
+	["\"Sea Wolf\" MacKinley, on the top floor"] = "\"Sea Wolf\" MacKinley, en üst katta",
 
 	-- Step 7: Monogrammed Sash
 	-- {quest:8552} The Monogrammed Sash

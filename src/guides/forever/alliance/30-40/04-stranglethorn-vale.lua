@@ -10,7 +10,7 @@ return {
 	-- Step 3: Druid training
 	["Druid training"] = "Druid eğitimi",
 	-- {zone:1455} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town · {zone:1453} Stormwind · {npc:5504} Sheldras Moontree
-	["{zone:1455} has no druid trainer: take the {area:2257} from {object:171524} to {zone:1453} and train with {npc:5504}."] = "",
+	["{zone:1455} has no druid trainer: take the {area:2257} from {object:171524} to {zone:1453} and train with {npc:5504}."] = "{zone:1455} şehrinde Druid eğitmeni yok: {object:171524} semtinden {area:2257} ile {zone:1453} şehrine git ve {npc:5504} ile eğitim al.",
 
 	-- Step 4: Fly to Stormwind
 	-- {zone:1453} Stormwind
@@ -70,7 +70,7 @@ return {
 	-- Step 19: Stranglethorn Vale: kill these as you meet them
 	-- {area:33} Stranglethorn Vale
 	["{area:33}: kill these as you meet them"] = "{area:33}: bunları karşılaştıkça öldür",
-	["Careful: Troll camps are close to the tiger area, and trolls can join a fight if you pull carelessly.\nCareful: The raptor nest has young raptors that join the fight when you attack the adults."] = "",
+	["Careful: Troll camps are close to the tiger area, and trolls can join a fight if you pull carelessly.\nCareful: The raptor nest has young raptors that join the fight when you attack the adults."] = "Dikkat: Troll kampları kaplan alanına yakın, dikkatsizce çekersen troll'ler dövüşe katılabilir.\nDikkat: Raptor yuvasında, yetişkinlere saldırınca dövüşe katılan genç raptor'lar var.",
 
 	-- Step 20: Nesingwary's Expedition
 	-- {npc:716} Barnil Stonepot · {item:2755} Green Hills of Stranglethorn
@@ -93,15 +93,15 @@ return {
 	-- {object:3202} Grom'gol (no name in this language: may be words) · {area:35} Booty Bay
 	["Follow the main road south the length of the jungle, past the {object:3202} turn-off, to {area:35} on the southern cape."] = "Ana yolu güneye, ormanın bir ucundan öbür ucuna izle; {object:3202} sapağını geçerek güney burnundaki {area:35} limanına git.",
 	-- {npc:2495} Drizzlik
-	["{npc:2495}, by the bank; inside"] = "",
+	["{npc:2495}, by the bank; inside"] = "{npc:2495}, bankanın yanında; içeride",
 	-- {npc:2498} Crank Fizzlebub
 	["{npc:2498}, inside"] = "{npc:2498}, içeride",
 	-- {npc:6807} Innkeeper Skindle · {object:56910} The Salty Sailor Tavern
-	["{npc:6807}, {object:56910}; upstairs"] = "",
+	["{npc:6807}, {object:56910}; upstairs"] = "{npc:6807}, {object:56910}; üst katta",
 	-- {npc:2832} Nixxrax Fillamug · {object:56910} The Salty Sailor Tavern
-	["{npc:2832}, in the {object:56910}; upstairs"] = "",
+	["{npc:2832}, in the {object:56910}; upstairs"] = "{npc:2832}, {object:56910} içinde; üst katta",
 	-- {npc:773} Krazek
-	["{npc:773}, in the tavern; upstairs"] = "",
+	["{npc:773}, in the tavern; upstairs"] = "{npc:773}, meyhanede; üst katta",
 	-- {npc:737} Kebok
 	["{npc:737}, upstairs"] = "{npc:737}, üst katta",
 	-- {npc:737} Kebok
@@ -120,7 +120,7 @@ return {
 	["{area:301}: kill these as you meet them"] = "{area:301}: bunları karşılaştıkça öldür",
 	-- {area:310} Crystalvein Mine
 	-- plural, as words: Crystal Spine Basilisks = {npc:689} Crystal Spine Basilisk
-	["Walk back north; the {area:310} lies west of the road in the middle of the jungle. The Crystal Spine Basilisks there drop the shards.\nThe Bloodscalp trolls hold the ruins on the coast west of Nesingwary's camp."] = "",
+	["Walk back north; the {area:310} lies west of the road in the middle of the jungle. The Crystal Spine Basilisks there drop the shards.\nThe Bloodscalp trolls hold the ruins on the coast west of Nesingwary's camp."] = "Kuzeye geri yürü; {area:310} madeni ormanın ortasında, yolun batısında. Oradaki Crystal Spine Basilisk yaratıkları kırıkları düşürür.\nBloodscalp troll'leri Nesingwary'nin kampının batısında, kıyıdaki harabeleri tutuyor.",
 
 	-- Step 27: River crocolisks
 	["River crocolisks"] = "Nehir crocoliskleri",
@@ -164,7 +164,7 @@ return {
 	-- Step 37: Kurzen's Compound
 	-- {spell:7964} Smoke Bomb
 	-- plural, as words: Kurzen Commandos = {npc:938} Kurzen Commando
-	["Headshrinkers stand deeper in the compound; the Commandos lurk stealthed around it and in the cave. Pick up Green Hills pages as they drop.\nCareful: Kurzen Commandos are level 34-35, not elite, and often spawn stealthed; near death they use {spell:7964}."] = "",
+	["Headshrinkers stand deeper in the compound; the Commandos lurk stealthed around it and in the cave. Pick up Green Hills pages as they drop.\nCareful: Kurzen Commandos are level 34-35, not elite, and often spawn stealthed; near death they use {spell:7964}."] = "Headshrinker'lar yerleşkenin daha içinde duruyor; Commando'lar çevresinde ve mağarada gizlenerek pusuda bekliyor. Green Hills sayfalarını düştükçe topla.\nDikkat: Kurzen Commando yaratıkları seviye 34-35, elit değil ve sık sık gizlenmiş olarak doğar; ölmek üzereyken {spell:7964} kullanırlar.",
 	-- {npc:941} Kurzen Headshrinker
 	["{npc:941}, below ground"] = "{npc:941}, yer altında",
 
@@ -174,7 +174,7 @@ return {
 	-- plural, as words: Shadowmaw Panthers = {npc:684} Shadowmaw Panther · Tumbled Crystals = {item:4106} Tumbled Crystal
 	["Loop through the troll ruins of the north and centre: each holds one stone tablet of the troll legends. Shadowmaw Panthers prowl stealthed in the jungle around them; the Venture Co. camp on {area:37} carries the Tumbled Crystals."] = "Kuzeydeki ve ortadaki troll harabelerini tur halinde dolaş: her birinde troll efsanelerine ait bir taş tablet var. Shadowmaw Panther yaratıkları çevredeki ormanda gizlenerek dolaşıyor; Tumbled Crystal eşyalarını {area:37} gölündeki Venture Co. kampı taşıyor.",
 	-- {item:2006} The Second Troll Legend · {object:58} Gri'lek the Wanderer
-	["{item:2006}: {object:58}; underwater"] = "",
+	["{item:2006}: {object:58}; underwater"] = "{item:2006}: {object:58}; su altında",
 
 	-- Step 39: The haunted island
 	["The haunted island"] = "Lanetli ada",
@@ -202,7 +202,7 @@ return {
 	["{object:56910} is the tall building over the harbour; most of the quest givers are on its floors or the docks below."] = "{object:56910}, limana bakan yüksek bina; görev verenlerin çoğu onun katlarında ya da aşağıdaki iskelelerde.",
 	-- {zone:1417} Arathi Highlands
 	["The ore drops from Drywhisker kobolds in {zone:1417}"] = "Cevher {zone:1417} bölgesindeki Drywhisker koboldlarından düşer",
-	["\"Sea Wolf\" MacKinley, on the top floor"] = "",
+	["\"Sea Wolf\" MacKinley, on the top floor"] = "\"Sea Wolf\" MacKinley, en üst katta",
 
 	-- Step 50: Into Westfall
 	-- {area:40} Westfall

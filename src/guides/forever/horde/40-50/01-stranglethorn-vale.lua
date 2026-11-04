@@ -54,7 +54,7 @@ return {
 	["Leave town by the tunnel; the note lies in the pirates' cove just north of {area:35}."] = "Kasabadan tünelle çık; not {area:35} limanının hemen kuzeyindeki korsan koyunda duruyor.",
 
 	-- Step 13: Booty Bay
-	["\"Sea Wolf\" MacKinley, on the top floor"] = "",
+	["\"Sea Wolf\" MacKinley, on the top floor"] = "\"Sea Wolf\" MacKinley, en üst katta",
 	-- {npc:2488} Deeg
 	["{npc:2488}, on the top floor"] = "{npc:2488}, en üst katta",
 

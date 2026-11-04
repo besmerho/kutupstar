@@ -13,7 +13,7 @@ return {
 
 	-- Step 3: Menethil Harbor
 	-- {npc:2104} Captain Stoutfist · {npc:270637} Howin Kindfeather
-	["{npc:2104}: for {npc:270637}; on the top floor"] = "",
+	["{npc:2104}: for {npc:270637}; on the top floor"] = "{npc:2104}: {npc:270637} için; en üst katta",
 
 	-- Step 4: Howin Kindfeather
 	-- {zone:1455} Ironforge
@@ -25,13 +25,13 @@ return {
 
 	-- Step 7: Angerfang Encampment
 	-- {quest:474} Defeat Nek'rosh
-	["The next step, {quest:474}, pits you against an elite chieftain: skip it."] = "",
+	["The next step, {quest:474}, pits you against an elite chieftain: skip it."] = "Sonraki adım olan {quest:474} seni elit bir reisle karşı karşıya getiriyor: atla.",
 	-- {object:671518} Tattered Spellbook · {npc:2104} Captain Stoutfist
 	["{object:671518}: for {npc:2104}"] = "{object:671518}: {npc:2104} için",
 
 	-- Step 8: Defeat Nek'rosh
 	-- {npc:2091} Chieftain Nek'rosh
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:2091} is a level 32 elite: most classes solo it at level 34, but you may need help. Skip it if you are alone: the route has you grind the XP back.\nCareful: Shadowcasters stand on either side of him, and at least one is linked to him, so it joins when he is pulled. Non-elite centurions and captains are spread around his ring of tents."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:2091} is a level 32 elite: most classes solo it at level 34, but you may need help. Skip it if you are alone: the route has you grind the XP back.\nCareful: Shadowcasters stand on either side of him, and at least one is linked to him, so it joins when he is pulled. Non-elite centurions and captains are spread around his ring of tents."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:2091}, seviye 32 bir elit: çoğu sınıf seviye 34 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.\nDikkat: İki yanında Shadowcaster'lar duruyor, en az biri ona bağlı, bu yüzden o çekilince katılır. Elit olmayan centurion ve captain'lar çadır halkasının çevresine dağılmış.",
 
 	-- Step 9: Golm
 	-- {npc:271462} Golm · {item:279996} Goaz Stone
@@ -53,11 +53,11 @@ return {
 	-- Step 15: The Villards
 	["The Villards"] = "Villard ailesi",
 	-- {npc:5683} Comar Villard · {area:205} Dun Modr · {area:880} Thandol Span · {npc:271322} Essene Villard
-	["{npc:5683} waits north of {area:205} by the {area:880}; {npc:271322} a short walk further north-east."] = "",
+	["{npc:5683} waits north of {area:205} by the {area:880}; {npc:271322} a short walk further north-east."] = "{npc:5683}, {area:205} kasabasının kuzeyinde, {area:880} köprüsünün yanında bekliyor; {npc:271322} biraz daha kuzeydoğuda, kısa bir yürüyüş uzaklıkta.",
 
 	-- Step 16: Dun Modr
 	-- {npc:1071} Longbraid the Grim
-	["{npc:1071} stands in the dwarves' camp."] = "",
+	["{npc:1071} stands in the dwarves' camp."] = "{npc:1071} cücelerin kampında duruyor.",
 
 	-- Step 17: Thandol Span
 	-- {area:205} Dun Modr · {zone:1437} Wetlands · {npc:1075} Rhag Garmason
@@ -83,7 +83,7 @@ return {
 
 	-- Step 25: Southshore
 	-- {npc:2381} Micha Yance · {npc:2438} Bartolo Ginsetti · {npc:2366} Barkeep Kelly
-	["Pick up everything in town before heading out. {npc:2381} and {npc:2438} stand between the flight master and the inn, Farren and {npc:2366} at the inn, Maleb in the town hall."] = "",
+	["Pick up everything in town before heading out. {npc:2381} and {npc:2438} stand between the flight master and the inn, Farren and {npc:2366} at the inn, Maleb in the town hall."] = "Yola çıkmadan önce kasabadaki her şeyi al. {npc:2381} ve {npc:2438} uçuş ustasıyla han arasında, Farren ve {npc:2366} handa, Maleb belediye binasında duruyor.",
 	-- {item:3713} Soothing Spices · {npc:2381} Micha Yance
 	["{item:3713}, from {npc:2381}"] = "{item:3713}, kaynak: {npc:2381}",
 	-- {npc:2382} Darren Malvew
@@ -105,7 +105,7 @@ return {
 	-- Step 27: Torn Fin murlocs
 	["Torn Fin murlocs"] = "Torn Fin murlocları",
 	-- {area:295} Western Strand · {area:271} Southshore
-	["The Torn Fin murlocs crowd the {area:295}, south-west of {area:271}.\nCareful: One camp holds a tight cluster of Oracles that all aggro together."] = "",
+	["The Torn Fin murlocs crowd the {area:295}, south-west of {area:271}.\nCareful: One camp holds a tight cluster of Oracles that all aggro together."] = "Torn Fin murloc'ları {area:271} kasabasının güneybatısındaki {area:295} kıyısını dolduruyor.\nDikkat: Bir kampta hep birlikte saldıran sıkışık bir Oracle kümesi var.",
 
 	-- Step 28: Farren
 	["Farren"] = "Farren",
@@ -122,11 +122,11 @@ return {
 
 	-- Step 34: Farren
 	-- {object:2117} Stormwind Keep
-	["A report for {object:2117}; inside"] = "",
+	["A report for {object:2117}; inside"] = "{object:2117} için bir rapor; içeride",
 
 	-- Step 35: Southshore
 	-- {npc:251493} Captain McManus
-	["Off the boat, {npc:251493} is the first you meet, north-west of the flight master."] = "",
+	["Off the boat, {npc:251493} is the first you meet, north-west of the flight master."] = "Gemiden inince ilk karşılaştığın kişi {npc:251493}, uçuş ustasının kuzeybatısında.",
 
 	-- Step 36: Yeti cave
 	["Yeti cave"] = "Yeti mağarası",

@@ -34,7 +34,7 @@ return {
 
 	-- Step 10: Thunder Bluff
 	-- {area:1638} Thunder Bluff · {area:378} Camp Taurajo · {zone:1412} Mulgore · {area:496} Brackenwall Village
-	["Your trainer is in {area:1638}: fly there (no flight path there yet? fly to {area:378} and head west through {zone:1412}), then on to {area:496}."] = "",
+	["Your trainer is in {area:1638}: fly there (no flight path there yet? fly to {area:378} and head west through {zone:1412}), then on to {area:496}."] = "Eğitmenin {area:1638} şehrinde: oraya uç (orada henüz uçuş noktan yok mu? {area:378} kampına uç ve batıya, {zone:1412} içinden git), sonra {area:496} köyüne devam et.",
 
 	-- Step 11: Back to Brackenwall Village
 	-- {area:496} Brackenwall Village
@@ -59,7 +59,7 @@ return {
 	-- {object:20985} Loose Dirt
 	["{object:20985}, beside the manor"] = "{object:20985}, malikânenin yanında",
 	-- {quest:1218} Soothing Spices
-	["{quest:1218}, for \"Swamp Eye\" Jarl"] = "",
+	["{quest:1218}, for \"Swamp Eye\" Jarl"] = "{quest:1218}, \"Swamp Eye\" Jarl için",
 
 	-- Step 15: Theramore Infiltrator on the way
 	-- {npc:4834} Theramore Infiltrator
@@ -71,7 +71,7 @@ return {
 	-- {area:496} Brackenwall Village
 	["{area:496}: kill these as you meet them"] = "{area:496}: bunları karşılaştıkça öldür",
 	-- plural, as words: Darkfang Venomspitters = {npc:4414} Darkfang Venomspitter · Theramore Infiltrators = {npc:4834} Theramore Infiltrator · Darkfang Lurkers = {npc:4411} Darkfang Lurker · Darkmist Lurkers = {npc:4377} Darkmist Lurker
-	["Head west back across the marsh. The Darkfang Venomspitters on the ridges north of Brackenwall drop the venom sacs. Theramore Infiltrators (35-36) sneak through the same woods: they are stealthed, so look closely.\nThe Darkmist spiders swarm the cavern mouth north-west of Brackenwall; every kind drops eyes.\nCareful: Darkfang Lurkers (level 36-37) use Sneak to stealth while out of combat and cast Poison once fighting.\nCareful: Stealthed spiders in the same area will attack you on sight.\nCareful: Darkmist Lurkers move about stealthed and use poison once in combat. The spiders stand close together, so adds are common; pulling single targets from the outer edge cuts down on them."] = "",
+	["Head west back across the marsh. The Darkfang Venomspitters on the ridges north of Brackenwall drop the venom sacs. Theramore Infiltrators (35-36) sneak through the same woods: they are stealthed, so look closely.\nThe Darkmist spiders swarm the cavern mouth north-west of Brackenwall; every kind drops eyes.\nCareful: Darkfang Lurkers (level 36-37) use Sneak to stealth while out of combat and cast Poison once fighting.\nCareful: Stealthed spiders in the same area will attack you on sight.\nCareful: Darkmist Lurkers move about stealthed and use poison once in combat. The spiders stand close together, so adds are common; pulling single targets from the outer edge cuts down on them."] = "Bataklığı batıya geri geç. Brackenwall'ın kuzeyindeki sırtlarda bulunan Darkfang Venomspitter yaratıkları zehir keselerini düşürür. Theramore Infiltrator yaratıkları (35-36) aynı ormanda sinsice dolaşıyor: gizliler, dikkatli bak.\nDarkmist örümcekleri Brackenwall'ın kuzeybatısındaki mağara ağzında kaynıyor; her türü göz düşürür.\nDikkat: Darkfang Lurker yaratıkları (seviye 36-37) savaş dışındayken Sneak ile gizlenir, dövüşünce de Poison kullanır.\nDikkat: Aynı alandaki gizli örümcekler seni görür görmez saldırır.\nDikkat: Darkmist Lurker yaratıkları gizlenerek dolaşır ve savaşa girince zehir kullanır. Örümcekler birbirine yakın durduğu için ek yaratık yaygın; dış kenardan tek hedef çekmek bunu azaltır.",
 
 	-- Step 18: Swamp Eye Jarl
 	-- {area:497} Swamplight Manor
@@ -101,7 +101,7 @@ return {
 
 	-- Step 26: Melizza Brimbuzzle
 	-- {area:607} Valley of Spears · {npc:12277} Melizza Brimbuzzle
-	["Head north-east to the {area:607}. {npc:12277} is held in the Maraudine centaur camp; free her and escort her out east of the valley.\nCareful: The scripted groups are linked and only appear during the escort, so you cannot clear them in advance or pull them one at a time. Clearing the normal centaurs on the path before you start does help."] = "",
+	["Head north-east to the {area:607}. {npc:12277} is held in the Maraudine centaur camp; free her and escort her out east of the valley.\nCareful: The scripted groups are linked and only appear during the escort, so you cannot clear them in advance or pull them one at a time. Clearing the normal centaurs on the path before you start does help."] = "Kuzeydoğuya, {area:607} vadisine git. {npc:12277}, Maraudine centaur kampında tutuluyor; onu serbest bırak ve vadinin doğusuna, dışarı kadar eşlik et.\nDikkat: Senaryolu gruplar birbirine bağlı ve yalnızca eşlik sırasında çıkar, bu yüzden onları önceden temizleyemez ya da tek tek çekemezsin. Başlamadan önce yol üstündeki normal centaur'ları temizlemek işe yarar.",
 
 	-- Step 27: Kodo Graveyard
 	-- {npc:6019} Hornizz Brimbuzzle · {area:596} Kodo Graveyard
@@ -112,11 +112,11 @@ return {
 
 	-- Step 29: Ghost Walker Post
 	-- {npc:5395} Felgur Twocuts · {npc:5412} Gurda Wildmane
-	["{npc:5395} and {npc:5412} stand in the post just west of Smeed's camp."] = "",
+	["{npc:5395} and {npc:5412} stand in the post just west of Smeed's camp."] = "{npc:5395} ve {npc:5412}, Smeed'in kampının hemen batısındaki karakolda duruyor.",
 
 	-- Step 30: Kodo bones
-	["Kodo bones"] = "",
-	["Pick up the kodo bones scattered across the graveyard."] = "",
+	["Kodo bones"] = "Kodo kemikleri",
+	["Pick up the kodo bones scattered across the graveyard."] = "Mezarlığa saçılmış kodo kemiklerini topla.",
 
 	-- Step 32: Burning Blade Seer
 	-- {area:599} Thunder Axe Fortress · {area:2405} Ethel Rethor
@@ -151,21 +151,21 @@ return {
 	-- Step 39: Portals of the Legion
 	-- {area:602} Mannoroc Coven
 	-- plural, as words: Burning Blade Summoners = {npc:4668} Burning Blade Summoner
-	["Head east to {area:602}. Use the Rod of Banishing by each demon portal to close six of them.\nCareful: Infernals, Doomguards and Burning Blade Summoners walk close by many portals and may join in; kill nearby mobs first or drag the guardian away, for example toward the coven's central lake."] = "",
+	["Head east to {area:602}. Use the Rod of Banishing by each demon portal to close six of them.\nCareful: Infernals, Doomguards and Burning Blade Summoners walk close by many portals and may join in; kill nearby mobs first or drag the guardian away, for example toward the coven's central lake."] = "Doğuya, {area:602} içine git. Altısını kapatmak için Rod of Banishing'i her iblis portalının yanında kullan.\nDikkat: Infernal, Doomguard ve Burning Blade Summoner yaratıkları birçok portalın yakınında yürür ve katılabilir; önce yakındaki yaratıkları öldür ya da muhafızı uzağa, örneğin ortadaki göle doğru çek.",
 
 	-- Step 40: The Valley of Bones
 	-- {area:2657} Valley of Bones
 	["The {area:2657}"] = "{area:2657} vadisi",
 	-- {area:2657} Valley of Bones · {item:15848} Crate of Ghost Magnets
 	-- plural, as words: Undead Ravagers = {npc:11561} Undead Ravager · Magrami Spectres = {npc:11560} Magrami Spectre
-	["Head south-east from the coven to the bone fields of the {area:2657}, where Undead Ravagers roam. At the far south-east, use the {item:15848} to draw the Magrami Spectres: they drop the ghost-o-plasm."] = "",
+	["Head south-east from the coven to the bone fields of the {area:2657}, where Undead Ravagers roam. At the far south-east, use the {item:15848} to draw the Magrami Spectres: they drop the ghost-o-plasm."] = "Covenden güneydoğuya, Undead Ravager yaratıklarının dolaştığı {area:2657} kemik tarlalarına git. En güneydoğuda Magrami Spectre yaratıklarını çekmek için {item:15848} kullan: ghost-o-plasm düşürürler.",
 
 	-- Step 41: Ghost Walker Post
 	-- {npc:5412} Gurda Wildmane · {area:597} Ghost Walker Post
-	["Head north to {npc:5412} at {area:597}."] = "",
+	["Head north to {npc:5412} at {area:597}."] = "Kuzeye, {area:597} karakolundaki {npc:5412} yanına git.",
 
 	-- Step 43: Shadowprey
-	["Shadowprey"] = "",
+	["Shadowprey"] = "Shadowprey",
 	-- {zone:1434} Stranglethorn Vale
 	["The next guide takes you back to {zone:1434}."] = "Sonraki rehber seni yeniden {zone:1434} bölgesine götürüyor.",
 

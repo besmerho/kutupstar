@@ -26,7 +26,7 @@ return {
 
 	-- Step 5: Islen Waterseer
 	-- {area:1637} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words) · {area:392} Ratchet · {npc:5901} Islen Waterseer
-	["Take the {area:1637} zeppelin from the tower on the west side of {object:3202} and fly to {area:392}. {npc:5901} camps on the coast a short walk south of it."] = "",
+	["Take the {area:1637} zeppelin from the tower on the west side of {object:3202} and fly to {area:392}. {npc:5901} camps on the coast a short walk south of it."] = "{object:3202} karakolunun batı yakasındaki kuleden {area:1637} zeplinine bin ve {area:392} kasabasına uç. {npc:5901}, kasabanın kısa bir yürüyüş güneyinde, kıyıda kamp kurmuş.",
 	-- {npc:5901} Islen Waterseer · {npc:3527} Healing Stream Totem · {item:5177} Water Totem
 	["{npc:5901}: {npc:3527} and your {item:5177}"] = "{npc:5901}: {npc:3527} ve {item:5177}",
 
@@ -50,7 +50,7 @@ return {
 	["{area:100}: kill these as you meet them"] = "{area:100}: bunları karşılaştıkça öldür",
 	-- {item:4614} Pendant of Myzrael
 	-- plural, as words: Young Stranglethorn Tigers = {npc:681} Young Stranglethorn Tiger · Young Panthers = {npc:683} Young Panther · Stranglethorn Raptors = {npc:685} Stranglethorn Raptor
-	["Young Stranglethorn Tigers prowl west of the camp, Young Panthers south and east of it.\nHead west past the camp. Stranglethorn Raptors (33-34) hunt the clearings, and the Bloodscalp trolls hold the ruins on the coast: every Bloodscalp can drop a tusk. A {item:4614} is a very rare drop from them: if one drops, read it.\nCareful: The troll camps have many patrolling mobs, so other trolls often join a fight."] = "",
+	["Young Stranglethorn Tigers prowl west of the camp, Young Panthers south and east of it.\nHead west past the camp. Stranglethorn Raptors (33-34) hunt the clearings, and the Bloodscalp trolls hold the ruins on the coast: every Bloodscalp can drop a tusk. A {item:4614} is a very rare drop from them: if one drops, read it.\nCareful: The troll camps have many patrolling mobs, so other trolls often join a fight."] = "Young Stranglethorn Tiger yaratıkları kampın batısında, Young Panther yaratıkları güneyinde ve doğusunda dolaşıyor.\nKampı geçip batıya git. Stranglethorn Raptor yaratıkları (33-34) açıklıklarda avlanıyor, Bloodscalp troll'leri de kıyıdaki harabeleri tutuyor: her Bloodscalp bir diş düşürebilir. {item:4614} onlardan çok nadir düşer: düşerse oku.\nDikkat: Troll kamplarında çok sayıda devriye gezen yaratık var, bu yüzden dövüşe sık sık başka troll'ler katılır.",
 
 	-- Step 11: Booty Bay
 	-- {area:35} Booty Bay · {npc:2858} Gringer
@@ -106,7 +106,7 @@ return {
 	["Elder tigers and Lashtail raptors"] = "Yaşlı kaplanlar ve Lashtail raptorları",
 	-- {object:3202} Grom'gol (no name in this language: may be words)
 	-- plural, as words: Elder Stranglethorn Tigers = {npc:1085} Elder Stranglethorn Tiger · Lashtail Raptors = {npc:686} Lashtail Raptor
-	["The Elder Stranglethorn Tigers (34-35) roam the hills south-west of the camp; the Lashtail Raptors (35-36) hunt further south, towards {object:3202}.\nCareful: Troll camps are close to the tiger area, and trolls can join a fight if you pull carelessly."] = "",
+	["The Elder Stranglethorn Tigers (34-35) roam the hills south-west of the camp; the Lashtail Raptors (35-36) hunt further south, towards {object:3202}.\nCareful: Troll camps are close to the tiger area, and trolls can join a fight if you pull carelessly."] = "Elder Stranglethorn Tiger yaratıkları (34-35) kampın güneybatısındaki tepelerde dolaşıyor; Lashtail Raptor yaratıkları (35-36) daha güneyde, {object:3202} yönünde avlanıyor.\nDikkat: Troll kampları kaplan alanına yakın, dikkatsizce çekersen troll'ler dövüşe katılabilir.",
 
 	-- Step 23: Nesingwary's camp
 	["Back north to the camp."] = "Kuzeye, kampa dön.",
@@ -116,7 +116,7 @@ return {
 	["{area:301}: kill these as you meet them"] = "{area:301}: bunları karşılaştıkça öldür",
 	-- {npc:729} Sin'Dall
 	-- plural, as words: Crystal Spine Basilisks = {npc:689} Crystal Spine Basilisk
-	["West past the camp, Crystal Spine Basilisks (34-35) sit on the rocks; every Bloodscalp in the village beyond can drop an ear.\n{npc:729}, a level 37 tiger, prowls the hilltop south-west of the camp.\nCareful: The raptor nest has young raptors that join the fight when you attack the adults."] = "",
+	["West past the camp, Crystal Spine Basilisks (34-35) sit on the rocks; every Bloodscalp in the village beyond can drop an ear.\n{npc:729}, a level 37 tiger, prowls the hilltop south-west of the camp.\nCareful: The raptor nest has young raptors that join the fight when you attack the adults."] = "Kampı geçip batıya git; Crystal Spine Basilisk yaratıkları (34-35) kayaların üstünde oturuyor; ötedeki köydeki her Bloodscalp bir kulak düşürebilir.\nSeviye 37 bir kaplan olan {npc:729}, kampın güneybatısındaki tepenin üstünde dolaşıyor.\nDikkat: Raptor yuvasında, yetişkinlere saldırınca dövüşe katılan genç raptor'lar var.",
 
 	-- Step 26: Hearth to Booty Bay
 	-- {area:35} Booty Bay
@@ -149,7 +149,7 @@ return {
 	["{area:102}: kill these as you meet them"] = "{area:102}: bunları karşılaştıkça öldür",
 	-- {item:3915} Bloody Bone Necklace · {quest:338} The Green Hills of Stranglethorn
 	-- plural, as words: Bloodscalp Headhunters = {npc:671} Bloodscalp Headhunter
-	["The Bloodscalp Headhunters (36-37) in the village on the coast carry the shrunken heads.\nThe Bloodscalp trolls hold the ruins up the coast north of the reef and the village beyond; every one can drop a {item:3915}. Keep looting pages of {quest:338}."] = "",
+	["The Bloodscalp Headhunters (36-37) in the village on the coast carry the shrunken heads.\nThe Bloodscalp trolls hold the ruins up the coast north of the reef and the village beyond; every one can drop a {item:3915}. Keep looting pages of {quest:338}."] = "Kıyıdaki köyde bulunan Bloodscalp Headhunter yaratıkları (36-37) küçültülmüş kafaları taşıyor.\nBloodscalp troll'leri resifin kuzeyinde, kıyının yukarısındaki harabeleri ve ötesindeki köyü tutuyor; her biri {item:3915} düşürebilir. {quest:338} sayfalarını loot'lamayı sürdür.",
 
 	-- Step 33: Grom'gol
 	-- {zone:1425} Hinterlands
@@ -166,7 +166,7 @@ return {
 	-- Step 36: Stranglethorn Vale: kill these as you meet them
 	-- {npc:2495} Drizzlik
 	-- plural, as words: Shadowmaw Panthers = {npc:684} Shadowmaw Panther · Snapjaw Crocolisks = {npc:1152} Snapjaw Crocolisk · Elder Shadowmaw Panthers = {npc:1713} Elder Shadowmaw Panther
-	["East of the ogres, Shadowmaw Panthers (37-38) stalk unseen until they strike; the Stranglethorn Tigresses roam the same ground and now and then drop a pristine fang. Snapjaw Crocolisks line the river just west of the jungle; keep their skins for {npc:2495}.\nCareful: Shadowmaw Panthers (level 37-38) and Elder Shadowmaw Panthers (level 42-43) use Sneak while out of combat, so they remain hidden until you get near them."] = "",
+	["East of the ogres, Shadowmaw Panthers (37-38) stalk unseen until they strike; the Stranglethorn Tigresses roam the same ground and now and then drop a pristine fang. Snapjaw Crocolisks line the river just west of the jungle; keep their skins for {npc:2495}.\nCareful: Shadowmaw Panthers (level 37-38) and Elder Shadowmaw Panthers (level 42-43) use Sneak while out of combat, so they remain hidden until you get near them."] = "Ogre'ların doğusunda Shadowmaw Panther yaratıkları (37-38) saldırana kadar görünmeden sinsice dolaşıyor; Stranglethorn Tigress yaratıkları aynı alanda dolaşıyor ve arada bir kusursuz bir diş düşürüyor. Snapjaw Crocolisk yaratıkları ormanın hemen batısındaki nehir boyunca diziliyor; derilerini {npc:2495} için sakla.\nDikkat: Shadowmaw Panther (seviye 37-38) ve Elder Shadowmaw Panther (seviye 42-43) yaratıkları savaş dışındayken Sneak kullanır, bu yüzden onlara yaklaşana kadar gizli kalırlar.",
 
 	-- Step 37: Green Hills pages
 	["Green Hills pages"] = "Green Hills sayfaları",

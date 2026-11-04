@@ -51,7 +51,7 @@ return {
 	["Highland Striders roam the hills all around {area:321}; both they and the Thrashers further west drop the eyes."] = "Highland Strider yaratıkları {area:321} kasabasının her yanındaki tepelerde dolaşıyor; gözleri hem onlar hem de daha batıdaki Highland Thrasher yaratıkları düşürür.",
 
 	-- Step 13: Drywhisker Gorge
-	["North-east of Hammerfall the Drywhisker kobolds mine the gorge; the Kobolds at the mouth and the Diggers and Surveyors deeper in all drop the Motes of Myzrael.\nCareful: Every kobold type runs off for help when low on health (Kobolds at 30%, Surveyors and Diggers at 15%), which can pull more of them."] = "",
+	["North-east of Hammerfall the Drywhisker kobolds mine the gorge; the Kobolds at the mouth and the Diggers and Surveyors deeper in all drop the Motes of Myzrael.\nCareful: Every kobold type runs off for help when low on health (Kobolds at 30%, Surveyors and Diggers at 15%), which can pull more of them."] = "Hammerfall'ın kuzeydoğusunda Drywhisker kobold'ları geçitte maden kazıyor; ağızdaki Kobold'lar ve daha içerideki Digger ve Surveyor'lar, hepsi Mote of Myzrael düşürür.\nDikkat: Her kobold türü canı azalınca yardım için kaçar (Kobold'lar %30'da, Surveyor ve Digger'lar %15'te), bu da daha fazlasını çekebilir.",
 
 	-- Step 14: Iridescent Shards
 	-- {object:2701} Iridescent Shards
@@ -62,10 +62,10 @@ return {
 	["The {object:2691}"] = "{object:2691}",
 	-- {object:180105} Circle of Binding · {area:321} Hammerfall
 	-- plural, as words: Burning Exiles = {npc:2760} Burning Exile · Thundering Exiles = {npc:2762} Thundering Exile · Cresting Exiles = {npc:2761} Cresting Exile
-	["Each {object:180105} is a ring of standing stones; the key sits on the stone at its heart. The eastern circle is on the hills north-west of {area:321}.\nCareful: Each center stone is guarded by around three elementals near level 39 that attack together if you click the stone without clearing them: Burning Exiles at West, Thundering Exiles at Outer, Cresting Exiles at East."] = "",
+	["Each {object:180105} is a ring of standing stones; the key sits on the stone at its heart. The eastern circle is on the hills north-west of {area:321}.\nCareful: Each center stone is guarded by around three elementals near level 39 that attack together if you click the stone without clearing them: Burning Exiles at West, Thundering Exiles at Outer, Cresting Exiles at East."] = "Her {object:180105} bir dikilitaş halkası; anahtar ortasındaki taşın üstünde. Doğu çemberi {area:321} kasabasının kuzeybatısındaki tepelerde.\nDikkat: Her merkez taşı seviye 39 civarı üç kadar elemental koruyor; onları temizlemeden taşa tıklarsan birlikte saldırırlar: West'te Burning Exile, Outer'da Thundering Exile, East'te Cresting Exile yaratıkları.",
 
 	-- Step 16: Witherbark Village
-	["The Witherbark trolls hold the village in the south-eastern hills. Axe Throwers guard the outer huts; the Witch Doctors and Headhunters hold the heart of the village.\nCareful: All three troll types flee for help at 15% health, which can pull more trolls from the nearby camps."] = "",
+	["The Witherbark trolls hold the village in the south-eastern hills. Axe Throwers guard the outer huts; the Witch Doctors and Headhunters hold the heart of the village.\nCareful: All three troll types flee for help at 15% health, which can pull more trolls from the nearby camps."] = "Witherbark troll'leri güneydoğu tepelerindeki köyü tutuyor. Axe Thrower'lar dış kulübeleri koruyor; Witch Doctor ve Headhunter'lar köyün kalbini tutuyor.\nDikkat: Üç troll türü de canları %15'e düşünce yardım için kaçar, bu da yakındaki kamplardan daha fazla troll çekebilir.",
 
 	-- Step 17: The Stone of Outer Binding
 	-- {object:2690} Stone of Outer Binding
@@ -83,7 +83,7 @@ return {
 	["Head south-west to the goblins' cove on the southern coast. {npc:2766} keeps watch on the cliff above it."] = "Güneybatıya, güney kıyısındaki goblin koyuna git. {npc:2766} koyun yukarısındaki uçurumda nöbet tutuyor.",
 
 	-- Step 20: Professor Phizzlethorpe
-	["Escort the professor down to the shore. Two Daggerspine naga ambush him on the way: stay close.\nCareful: The ambush is two level 40 water elementals, and they are immune to frost. If the fight happens inside the cave, the professor joins in instead of working and further elementals keep appearing; holding the elementals at the cave entrance, away from him, lets him finish with only the first two to deal with."] = "",
+	["Escort the professor down to the shore. Two Daggerspine naga ambush him on the way: stay close.\nCareful: The ambush is two level 40 water elementals, and they are immune to frost. If the fight happens inside the cave, the professor joins in instead of working and further elementals keep appearing; holding the elementals at the cave entrance, away from him, lets him finish with only the first two to deal with."] = "Profesöre kıyıya kadar eşlik et. Yolda iki Daggerspine naga ona pusu kurar: yakınında kal.\nDikkat: Pusu seviye 40 iki su elementalinden oluşur ve frost'a bağışıktırlar. Dövüş mağaranın içinde olursa profesör çalışmak yerine dövüşe katılır ve yeni elementaller çıkmaya devam eder; elementalleri ondan uzakta, mağara girişinde tutarsan yalnızca ilk ikisiyle uğraşarak işini bitirir.",
 
 	-- Step 22: The Drowned Reef: kill these as you meet them
 	-- {area:328} The Drowned Reef
@@ -101,7 +101,7 @@ return {
 	["{area:334}: kill these as you meet them"] = "{area:334}: bunları karşılaştıkça öldür",
 	-- {area:1857} Thoradin's Wall
 	-- plural, as words: Bloodstone Amulets = {item:4495} Bloodstone Amulet
-	["The western circle is near {area:1857}, where you came in.\nThe Syndicate hold the walled manor and its farm in the north-west; their Highwaymen, Mercenaries and Pathstalkers carry the Bloodstone Amulets.\nCareful: Highwaymen (level 30-31) can be in Sneak, so they may be hidden when you approach."] = "",
+	["The western circle is near {area:1857}, where you came in.\nThe Syndicate hold the walled manor and its farm in the north-west; their Highwaymen, Mercenaries and Pathstalkers carry the Bloodstone Amulets.\nCareful: Highwaymen (level 30-31) can be in Sneak, so they may be hidden when you approach."] = "Batı çemberi, geldiğin yer olan {area:1857} surunun yakınında.\nSyndicate kuzeybatıdaki surlarla çevrili malikâneyi ve çiftliğini tutuyor; Highwayman, Mercenary ve Pathstalker'ları Bloodstone Amulet taşıyor.\nDikkat: Highwayman'ler (seviye 30-31) Sneak ile gizlenmiş olabilir, bu yüzden yaklaşırken saklı olabilirler.",
 
 	-- Step 25: The Stone of Inner Binding
 	-- {object:2702} Stone of Inner Binding
@@ -160,7 +160,7 @@ return {
 	["{zone:1418}: kill these as you meet them"] = "{zone:1418}: bunları karşılaştıkça öldür",
 	-- {area:1878} The Dustbowl
 	-- plural, as words: Elder Crag Coyotes = {npc:2729} Elder Crag Coyote · Giant Buzzards = {npc:2831} Giant Buzzard · Rock Elementals = {npc:92} Rock Elemental
-	["The Elder Crag Coyotes and Giant Buzzards roam the basin south of the {area:1878}. Coyotes drop both the jawbones and the fangs; only the buzzards drop wings and gizzards.\nThe bigger Rock Elementals stand on the slopes north-west of the {area:1878}; each one drops a slab."] = "",
+	["The Elder Crag Coyotes and Giant Buzzards roam the basin south of the {area:1878}. Coyotes drop both the jawbones and the fangs; only the buzzards drop wings and gizzards.\nThe bigger Rock Elementals stand on the slopes north-west of the {area:1878}; each one drops a slab."] = "Elder Crag Coyote ve Giant Buzzard yaratıkları {area:1878} çukurunun güneyindeki havzada dolaşıyor. Çakallar hem çene kemiklerini hem dişleri düşürür; kanatları ve taşlıkları yalnızca akbabalar düşürür.\nDaha büyük Rock Elemental yaratıkları {area:1878} çukurunun kuzeybatısındaki yamaçlarda duruyor; her biri bir taş levha düşürür.",
 
 	-- Step 38: Agmond's End
 	-- {area:345} Agmond's End · {area:1877} Valley of Fangs
@@ -184,7 +184,7 @@ return {
 	["{area:1878}: kill these as you meet them"] = "{area:1878}: bunları karşılaştıkça öldür",
 	-- {zone:1418} Badlands · {npc:6868} Jarkal Mossmeld · {npc:2921} Lotwil Veriatus
 	-- plural, as words: Lesser Rock Elementals = {npc:2735} Lesser Rock Elemental · Greater Rock Elementals = {npc:2736} Greater Rock Elemental
-	["Every rock elemental in the {zone:1418} drops {npc:6868}'s shards: the Lesser Rock Elementals (37) on the flats west of {npc:2921}'s camp are the safe ones, about one kill in five. Only the Greater Rock Elementals (42-44, well above you) in the south-western gulches drop {npc:2921}'s bracers, also about one kill in five: pull one at a time and rest between fights, or leave them. Keep killing coyotes and buzzards you still need on the way."] = "",
+	["Every rock elemental in the {zone:1418} drops {npc:6868}'s shards: the Lesser Rock Elementals (37) on the flats west of {npc:2921}'s camp are the safe ones, about one kill in five. Only the Greater Rock Elementals (42-44, well above you) in the south-western gulches drop {npc:2921}'s bracers, also about one kill in five: pull one at a time and rest between fights, or leave them. Keep killing coyotes and buzzards you still need on the way."] = "{zone:1418} bölgesindeki her kaya elementali {npc:6868} için kırık düşürür: {npc:2921} kampının batısındaki düzlüklerdeki Lesser Rock Elemental yaratıkları (37) güvenli olanlar, yaklaşık beş öldürmede bir. {npc:2921} bileziklerini yalnızca güneybatı vadilerindeki Greater Rock Elemental yaratıkları (42-44, senden epey yüksek) düşürür, onlar da yaklaşık beş öldürmede bir: tek tek çek ve dövüşler arasında dinlen ya da onları bırak. Yolda hâlâ ihtiyacın olan çakal ve akbabaları öldürmeyi sürdür.",
 
 	-- Step 45: The Dustbowl
 	-- {npc:2920} Lucien Tosselwrench · {item:2868} Patterned Bronze Bracers · {skill:164} Blacksmithing
