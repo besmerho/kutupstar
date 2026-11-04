@@ -8,13 +8,13 @@ return {
 	["Learn {skill:171}"] = "Öğren: {skill:171}",
 	-- {skill:171} Alchemy · {skill:182} Herbalism · {item:2447} Peacebloom · {item:765} Silverleaf
 	-- plural, as words: Empty Vials = {item:3371} Empty Vial
-	["Apprentice {skill:171} lets you craft up to 75 for 10c, at any character level. Any {skill:171} trainer of your faction teaches it; the arrow picks the nearest. Pair it with {skill:182}: {item:2447} and {item:765} grow in every starting zone, and Empty Vials cost 4c at any alchemy or trade supplies vendor. 1-75 takes about 3s 28c of vendor goods, plus 82 {item:765} and 110 {item:2447} to gather or buy."] = "",
+	["Apprentice {skill:171} lets you craft up to 75 for 10c, at any character level. Any {skill:171} trainer of your faction teaches it; the arrow picks the nearest. Pair it with {skill:182}: {item:2447} and {item:765} grow in every starting zone, and Empty Vials cost 4c at any alchemy or trade supplies vendor. 1-75 takes about 3s 28c of vendor goods, plus 82 {item:765} and 110 {item:2447} to gather or buy."] = "Apprentice {skill:171}, her karakter seviyesinde 10c karşılığında 75 puana kadar üretim yapmanı sağlar. Tarafının her {skill:171} eğitmeni öğretir; ok en yakınını seçer. {skill:182} ile eşleştir: {item:2447} ve {item:765} her başlangıç bölgesinde yetişir, Empty Vial'lar da her simya ya da ticaret malzemeleri satıcısında 4c. 1-75 yaklaşık 3s 28c satıcı malı, ayrıca toplanacak ya da alınacak 82 {item:765} ve 110 {item:2447} tutar.",
 
 	-- Step 2: Alchemy 1-75: vendor goods
 	-- {skill:171} Alchemy
 	["{skill:171} 1-75: vendor goods"] = "{skill:171} 1-75: satıcı malları",
 	-- {item:3371} Empty Vial · {zone:1453} Stormwind City · {npc:1286} Edna Mullby · {npc:5503} Eldraeith · {npc:1325} Jasper Fel · {zone:1454} Orgrimmar · {npc:3367} Felika · {npc:3348} Kor'geld · {npc:3334} Rekkul
-	["Buy the whole bracket's share in one go: 82 {item:3371} (3s 28c); about 3s 28c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286}, {npc:5503} and {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} and {npc:3334})."] = "",
+	["Buy the whole bracket's share in one go: 82 {item:3371} (3s 28c); about 3s 28c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286}, {npc:5503} and {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} and {npc:3334})."] = "Bu aralığın payını tek seferde al: 82 {item:3371} (3s 28c); toplam yaklaşık 3s 28c. Ok tarafının en yakın satıcısını seçer ({zone:1453}: {npc:1286}, {npc:5503} ve {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} ve {npc:3334}).",
 
 	-- Step 3: Silverleaf (Elwynn Forest)
 	-- {item:765} Silverleaf · {item:5997} Elixir of Minor Defense · {skill:182} Herbalism · {zone:1429} Elwynn Forest
@@ -76,19 +76,19 @@ return {
 	-- {item:5997} Elixir of Minor Defense
 	["{item:5997} to 75"] = "{item:5997}: 75 puana kadar",
 	-- {item:5997} Elixir of Minor Defense · {item:765} Silverleaf · {item:2447} Peacebloom · {item:3371} Empty Vial
-	["{item:5997} is orange at 1 (yellow 55, green 75, grey 95): about 82 crafts to 75. Each takes 1 {item:765}, 1 {item:2447} and 1 {item:3371}. Known from the start and the cheapest way through the Apprentice range. Keep the elixirs (armour while you level) or sell them."] = "",
+	["{item:5997} is orange at 1 (yellow 55, green 75, grey 95): about 82 crafts to 75. Each takes 1 {item:765}, 1 {item:2447} and 1 {item:3371}. Known from the start and the cheapest way through the Apprentice range. Keep the elixirs (armour while you level) or sell them."] = "{item:5997}: 1 puanda turuncu (sarı 55, yeşil 75, gri 95): 75 puana kadar yaklaşık 82 üretim. Her biri 1 {item:765}, 1 {item:2447} ve 1 {item:3371} ister. Baştan bilinir ve Apprentice aralığını geçmenin en ucuz yolu. İksirleri sakla (seviye atlarken zırh) ya da sat.",
 
 	-- Step 18: Journeyman Alchemy
 	-- {skill:171} Alchemy
 	["Journeyman {skill:171}"] = "Journeyman {skill:171}",
 	-- {skill:171} Alchemy · {npc:4160} Ainethil · {zone:1457} Darnassus · {npc:4900} Alchemist Narett · {zone:1445} Dustwallow Marsh · {npc:2837} Jaxin Chong · {zone:1434} Stranglethorn Vale · {npc:3964} Kylanna · {zone:1440} Ashenvale · {npc:7948} Kylanna Windwhisper · {zone:1444} Feralas · {npc:5499} Lilyssia Nightbreeze · {zone:1453} Stormwind City · {npc:11042} Sylvanna Forestmoon · {npc:5177} Tally Berryfizz · {zone:1455} Ironforge · {npc:3009} Bena Winterhoof · {zone:1456} Thunder Bluff · {npc:4611} Doctor Herbert Halsey · {zone:1458} Undercity · {npc:4609} Doctor Marsh · {npc:1386} Rogvar · {zone:1435} Swamp of Sorrows · {npc:2391} Serge Hinott · {zone:1424} Hillsbrad Foothills · {npc:3347} Yelmak · {zone:1454} Orgrimmar · {spell:2331} Minor Mana Potion · {spell:1230564} Mana Well · {item:2447} Peacebloom · {item:3371} Empty Vial · {item:785} Mageroyal · {item:2450} Briarthorn · {item:2453} Bruiseweed
-	["Journeyman raises the cap from 75 to 150 for 4s 50c (Classic's price; Forever's is not in the data); it needs {skill:171} 50 and character level 10, so you can take it on any visit from 50. Not every {skill:171} trainer teaches it: Alliance {npc:4160} ({zone:1457}), {npc:4900} ({zone:1445}), {npc:2837} ({zone:1434}), {npc:3964} ({zone:1440}), {npc:7948} ({zone:1444}), {npc:5499} ({zone:1453}), {npc:11042} ({zone:1457}) and {npc:5177} ({zone:1455}); Horde {npc:3009} ({zone:1456}), {npc:4611} ({zone:1458}), {npc:4609} ({zone:1458}), {npc:2837} ({zone:1434}), {npc:1386} ({zone:1435}), {npc:2391} ({zone:1424}) and {npc:3347} ({zone:1454}). The arrow picks the nearest of your faction. Learn now: {spell:2331} (from 25, 1s). Also learn {spell:1230564} (1s): Forever's {skill:171} camp item, 1 {item:2447} and 1 {item:3371}, placed at a campsite beside a campfire for its buff. The Camping 101: {skill:171} quest from your starting area's camping guide (after The Great Outdoors) sends you to an alchemy trainer who teaches it free. 75-150 takes about 1s of recipes and 9s 8c of vendor goods, plus 77 {item:785}, 152 {item:2450} and 54 {item:2453} to gather or buy."] = "",
+	["Journeyman raises the cap from 75 to 150 for 4s 50c (Classic's price; Forever's is not in the data); it needs {skill:171} 50 and character level 10, so you can take it on any visit from 50. Not every {skill:171} trainer teaches it: Alliance {npc:4160} ({zone:1457}), {npc:4900} ({zone:1445}), {npc:2837} ({zone:1434}), {npc:3964} ({zone:1440}), {npc:7948} ({zone:1444}), {npc:5499} ({zone:1453}), {npc:11042} ({zone:1457}) and {npc:5177} ({zone:1455}); Horde {npc:3009} ({zone:1456}), {npc:4611} ({zone:1458}), {npc:4609} ({zone:1458}), {npc:2837} ({zone:1434}), {npc:1386} ({zone:1435}), {npc:2391} ({zone:1424}) and {npc:3347} ({zone:1454}). The arrow picks the nearest of your faction. Learn now: {spell:2331} (from 25, 1s). Also learn {spell:1230564} (1s): Forever's {skill:171} camp item, 1 {item:2447} and 1 {item:3371}, placed at a campsite beside a campfire for its buff. The Camping 101: {skill:171} quest from your starting area's camping guide (after The Great Outdoors) sends you to an alchemy trainer who teaches it free. 75-150 takes about 1s of recipes and 9s 8c of vendor goods, plus 77 {item:785}, 152 {item:2450} and 54 {item:2453} to gather or buy."] = "Journeyman, 4s 50c karşılığında sınırı 75 puandan 150 puana çıkarır (Classic fiyatı; Forever'ınki veride yok); {skill:171} 50 ve karakter seviyesi 10 ister, böylece 50 puandan itibaren herhangi bir ziyarette alabilirsin. Her {skill:171} eğitmeni öğretmez: Alliance {npc:4160} ({zone:1457}), {npc:4900} ({zone:1445}), {npc:2837} ({zone:1434}), {npc:3964} ({zone:1440}), {npc:7948} ({zone:1444}), {npc:5499} ({zone:1453}), {npc:11042} ({zone:1457}) ve {npc:5177} ({zone:1455}); Horde {npc:3009} ({zone:1456}), {npc:4611} ({zone:1458}), {npc:4609} ({zone:1458}), {npc:2837} ({zone:1434}), {npc:1386} ({zone:1435}), {npc:2391} ({zone:1424}) ve {npc:3347} ({zone:1454}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:2331} (25 puandan, 1s). {spell:1230564} da öğren (1s): Forever'ın {skill:171} kamp eşyası, 1 {item:2447} ve 1 {item:3371}; güçlendirmesi için bir kamp yerinde kamp ateşinin yanına konur. Başlangıç bölgendeki kamp rehberinden (The Great Outdoors'tan sonra) alınan Camping 101: {skill:171} görevi seni bunu ücretsiz öğreten bir simya eğitmenine gönderir. 75-150 yaklaşık 1s tarif ve 9s 8c satıcı malı, ayrıca toplanacak ya da alınacak 77 {item:785}, 152 {item:2450} ve 54 {item:2453} tutar.",
 
 	-- Step 19: Alchemy 75-150: vendor goods
 	-- {skill:171} Alchemy
 	["{skill:171} 75-150: vendor goods"] = "{skill:171} 75-150: satıcı malları",
 	-- {item:3371} Empty Vial · {item:3372} Leaded Vial · {zone:1453} Stormwind City · {npc:1286} Edna Mullby · {npc:5503} Eldraeith · {npc:1325} Jasper Fel · {zone:1454} Orgrimmar · {npc:3367} Felika · {npc:3348} Kor'geld · {npc:3334} Rekkul
-	["Buy the whole bracket's share in one go: 77 {item:3371} (3s 8c) and 15 {item:3372} (6s); about 9s 8c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286}, {npc:5503} and {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} and {npc:3334})."] = "",
+	["Buy the whole bracket's share in one go: 77 {item:3371} (3s 8c) and 15 {item:3372} (6s); about 9s 8c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286}, {npc:5503} and {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} and {npc:3334})."] = "Bu aralığın payını tek seferde al: 77 {item:3371} (3s 8c) ve 15 {item:3372} (6s); toplam yaklaşık 9s 8c. Ok tarafının en yakın satıcısını seçer ({zone:1453}: {npc:1286}, {npc:5503} ve {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} ve {npc:3334}).",
 
 	-- Step 20: Mageroyal (Westfall)
 	-- {item:785} Mageroyal · {spell:2331} Minor Mana Potion · {spell:3171} Elixir of Wisdom · {skill:182} Herbalism · {zone:1436} Westfall
@@ -158,7 +158,7 @@ return {
 	-- {spell:2331} Minor Mana Potion
 	["{spell:2331} to 90"] = "{spell:2331}: 90 puana kadar",
 	-- {spell:2331} Minor Mana Potion · {item:785} Mageroyal · {item:2447} Peacebloom · {item:3371} Empty Vial · {spell:3171} Elixir of Wisdom
-	["{spell:2331} is yellow at 75 (yellow 65, green 85, grey 105): about 28 crafts to 90. Each takes 1 {item:785}, 1 {item:2447} and 1 {item:3371}. The trainer teaches it from 25. It is yellow already, so count on about two crafts a point until {spell:3171} takes over at 90. {item:785} grows in the 10-25 zones."] = "",
+	["{spell:2331} is yellow at 75 (yellow 65, green 85, grey 105): about 28 crafts to 90. Each takes 1 {item:785}, 1 {item:2447} and 1 {item:3371}. The trainer teaches it from 25. It is yellow already, so count on about two crafts a point until {spell:3171} takes over at 90. {item:785} grows in the 10-25 zones."] = "{spell:2331}: 75 puanda sarı (sarı 65, yeşil 85, gri 105): 90 puana kadar yaklaşık 28 üretim. Her biri 1 {item:785}, 1 {item:2447} ve 1 {item:3371} ister. Eğitmen 25 puandan öğretir. Zaten sarı, bu yüzden 90 puanda {spell:3171} devralana kadar puan başına yaklaşık iki üretim hesapla. {item:785} 10-25 bölgelerinde yetişir.",
 
 	-- Step 37: Alchemy recipes at 90
 	-- {skill:171} Alchemy
@@ -170,7 +170,7 @@ return {
 	-- {spell:3171} Elixir of Wisdom
 	["{spell:3171} to 135"] = "{spell:3171}: 135 puana kadar",
 	-- {spell:3171} Elixir of Wisdom · {item:785} Mageroyal · {item:2450} Briarthorn · {item:3371} Empty Vial
-	["{spell:3171} is orange at 90 (yellow 120, green 140, grey 160): about 49 crafts to 135. Each takes 1 {item:785}, 2 {item:2450} and 1 {item:3371}. Two {item:2450} and a {item:785} a craft, both from the 10-25 zones; orange to 120."] = "",
+	["{spell:3171} is orange at 90 (yellow 120, green 140, grey 160): about 49 crafts to 135. Each takes 1 {item:785}, 2 {item:2450} and 1 {item:3371}. Two {item:2450} and a {item:785} a craft, both from the 10-25 zones; orange to 120."] = "{spell:3171}: 90 puanda turuncu (sarı 120, yeşil 140, gri 160): 135 puana kadar yaklaşık 49 üretim. Her biri 1 {item:785}, 2 {item:2450} ve 1 {item:3371} ister. Üretim başına iki {item:2450} ve bir {item:785}, ikisi de 10-25 bölgelerinden; 120 puana kadar turuncu.",
 
 	-- Step 39: Alchemy recipes at 135
 	-- {skill:171} Alchemy
@@ -182,25 +182,25 @@ return {
 	-- {spell:3176} Lesser Troll's Blood Elixir
 	["{spell:3176} to 150"] = "{spell:3176}: 150 puana kadar",
 	-- {spell:3176} Lesser Troll's Blood Elixir · {item:2453} Bruiseweed · {item:2450} Briarthorn · {item:3372} Leaded Vial · {skill:171} Alchemy
-	["{spell:3176} is orange at 135 (yellow 150, green 170, grey 190): about 15 crafts to 150, a point every craft. Each takes 2 {item:2453}, 2 {item:2450} and 1 {item:3372}. Two {item:2453} and two {item:2450} a craft; {item:2453} grows in the 15-30 zones. {skill:171} 150 is a Legacy System milestone."] = "",
+	["{spell:3176} is orange at 135 (yellow 150, green 170, grey 190): about 15 crafts to 150, a point every craft. Each takes 2 {item:2453}, 2 {item:2450} and 1 {item:3372}. Two {item:2453} and two {item:2450} a craft; {item:2453} grows in the 15-30 zones. {skill:171} 150 is a Legacy System milestone."] = "{spell:3176}: 135 puanda turuncu (sarı 150, yeşil 170, gri 190): 150 puana kadar yaklaşık 15 üretim, her üretimde bir puan. Her biri 2 {item:2453}, 2 {item:2450} ve 1 {item:3372} ister. Üretim başına iki {item:2453} ve iki {item:2450}; {item:2453} 15-30 bölgelerinde yetişir. {skill:171} 150 bir Legacy System kilometre taşı.",
 
 	-- Step 41: Alchemy 150-225: vendor goods
 	-- {skill:171} Alchemy
 	["{skill:171} 150-225: vendor goods"] = "{skill:171} 150-225: satıcı malları",
 	-- {item:3372} Leaded Vial · {zone:1453} Stormwind City · {npc:1286} Edna Mullby · {npc:5503} Eldraeith · {npc:1325} Jasper Fel · {zone:1454} Orgrimmar · {npc:3367} Felika · {npc:3348} Kor'geld · {npc:3334} Rekkul
-	["Buy the whole bracket's share in one go: 83 {item:3372} (33s 20c); about 33s 20c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286}, {npc:5503} and {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} and {npc:3334})."] = "",
+	["Buy the whole bracket's share in one go: 83 {item:3372} (33s 20c); about 33s 20c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286}, {npc:5503} and {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} and {npc:3334})."] = "Bu aralığın payını tek seferde al: 83 {item:3372} (33s 20c); toplam yaklaşık 33s 20c. Ok tarafının en yakın satıcısını seçer ({zone:1453}: {npc:1286}, {npc:5503} ve {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} ve {npc:3334}).",
 
 	-- Step 42: Wild Steelbloom (Alliance)
 	-- {object:1623} Wild Steelbloom
 	["{object:1623} (Alliance)"] = "{object:1623} (Alliance)",
 	-- {object:1623} Wild Steelbloom · {spell:11450} Elixir of Defense · {skill:182} Herbalism · {zone:1442} Stonetalon Mountains · {zone:1417} Arathi Highlands · {zone:1434} Stranglethorn Vale
-	["40 {object:1623} for {spell:11450} (8 of them for 225-300: pick them all now): {skill:182}: {object:1623} (skill 115) in {zone:1442} (15-27), {zone:1417} (30-40) and {zone:1434} (30-45); or the Auction House. The densest patch of {object:1623} in {zone:1434} is marked."] = "",
+	["40 {object:1623} for {spell:11450} (8 of them for 225-300: pick them all now): {skill:182}: {object:1623} (skill 115) in {zone:1442} (15-27), {zone:1417} (30-40) and {zone:1434} (30-45); or the Auction House. The densest patch of {object:1623} in {zone:1434} is marked."] = "{spell:11450} için 40 {object:1623} (225-300 için 8 tanesi: hepsini şimdi topla): {skill:182}: {object:1623} (beceri 115), {zone:1442} (15-27), {zone:1417} (30-40) ve {zone:1434} (30-45) bölgelerinde; ya da Auction House. En yoğun {object:1623} öbeği {zone:1434} bölgesinde işaretli.",
 
 	-- Step 43: Wild Steelbloom (Horde)
 	-- {object:1623} Wild Steelbloom
 	["{object:1623} (Horde)"] = "{object:1623} (Horde)",
 	-- {object:1623} Wild Steelbloom · {spell:11450} Elixir of Defense · {skill:182} Herbalism · {zone:1442} Stonetalon Mountains · {zone:1417} Arathi Highlands · {zone:1434} Stranglethorn Vale
-	["40 {object:1623} for {spell:11450} (8 of them for 225-300: pick them all now): {skill:182}: {object:1623} (skill 115) in {zone:1442} (15-27), {zone:1417} (30-40) and {zone:1434} (30-45); or the Auction House. The densest patch of {object:1623} in {zone:1442} is marked."] = "",
+	["40 {object:1623} for {spell:11450} (8 of them for 225-300: pick them all now): {skill:182}: {object:1623} (skill 115) in {zone:1442} (15-27), {zone:1417} (30-40) and {zone:1434} (30-45); or the Auction House. The densest patch of {object:1623} in {zone:1442} is marked."] = "{spell:11450} için 40 {object:1623} (225-300 için 8 tanesi: hepsini şimdi topla): {skill:182}: {object:1623} (beceri 115), {zone:1442} (15-27), {zone:1417} (30-40) ve {zone:1434} (30-45) bölgelerinde; ya da Auction House. En yoğun {object:1623} öbeği {zone:1442} bölgesinde işaretli.",
 
 	-- Step 44: Kingsblood (Alliance)
 	-- {item:3356} Kingsblood
@@ -218,37 +218,37 @@ return {
 	-- {object:2045} Stranglekelp
 	["{object:2045} (Alliance)"] = "{object:2045} (Alliance)",
 	-- {object:2045} Stranglekelp · {spell:3452} Mana Potion · {skill:182} Herbalism · {zone:1437} Wetlands · {zone:1434} Stranglethorn Vale · {zone:1425} The Hinterlands
-	["39 {object:2045} for {spell:3452}: {skill:182}: {object:2045} (skill 85) in {zone:1437} (20-30), {zone:1434} (30-45) and {zone:1425} (40-50); or the Auction House. The densest patch of {object:2045} in {zone:1434} is marked."] = "",
+	["39 {object:2045} for {spell:3452}: {skill:182}: {object:2045} (skill 85) in {zone:1437} (20-30), {zone:1434} (30-45) and {zone:1425} (40-50); or the Auction House. The densest patch of {object:2045} in {zone:1434} is marked."] = "{spell:3452} için 39 {object:2045}: {skill:182}: {object:2045} (beceri 85), {zone:1437} (20-30), {zone:1434} (30-45) ve {zone:1425} (40-50) bölgelerinde; ya da Auction House. En yoğun {object:2045} öbeği {zone:1434} bölgesinde işaretli.",
 
 	-- Step 47: Stranglekelp (Horde)
 	-- {object:2045} Stranglekelp
 	["{object:2045} (Horde)"] = "{object:2045} (Horde)",
 	-- {object:2045} Stranglekelp · {spell:3452} Mana Potion · {skill:182} Herbalism · {zone:1413} The Barrens · {zone:1434} Stranglethorn Vale · {zone:1425} The Hinterlands
-	["39 {object:2045} for {spell:3452}: {skill:182}: {object:2045} (skill 85) in {zone:1413} (10-25), {zone:1434} (30-45) and {zone:1425} (40-50); or the Auction House. The densest patch of {object:2045} in {zone:1413} is marked."] = "",
+	["39 {object:2045} for {spell:3452}: {skill:182}: {object:2045} (skill 85) in {zone:1413} (10-25), {zone:1434} (30-45) and {zone:1425} (40-50); or the Auction House. The densest patch of {object:2045} in {zone:1413} is marked."] = "{spell:3452} için 39 {object:2045}: {skill:182}: {object:2045} (beceri 85), {zone:1413} (10-25), {zone:1434} (30-45) ve {zone:1425} (40-50) bölgelerinde; ya da Auction House. En yoğun {object:2045} öbeği {zone:1413} bölgesinde işaretli.",
 
 	-- Step 48: Goldthorn (Alliance)
 	-- {object:2046} Goldthorn
 	["{object:2046} (Alliance)"] = "{object:2046} (Alliance)",
 	-- {object:2046} Goldthorn · {spell:11450} Elixir of Defense · {skill:182} Herbalism · {zone:1417} Arathi Highlands · {zone:1425} The Hinterlands · {zone:1444} Feralas
-	["40 {object:2046} for {spell:11450} (8 of them for 225-300: pick them all now): {skill:182}: {object:2046} (skill 170) in {zone:1417} (30-40), {zone:1425} (40-50) and {zone:1444} (40-50); or the Auction House. The densest patch of {object:2046} in {zone:1417} is marked."] = "",
+	["40 {object:2046} for {spell:11450} (8 of them for 225-300: pick them all now): {skill:182}: {object:2046} (skill 170) in {zone:1417} (30-40), {zone:1425} (40-50) and {zone:1444} (40-50); or the Auction House. The densest patch of {object:2046} in {zone:1417} is marked."] = "{spell:11450} için 40 {object:2046} (225-300 için 8 tanesi: hepsini şimdi topla): {skill:182}: {object:2046} (beceri 170), {zone:1417} (30-40), {zone:1425} (40-50) ve {zone:1444} (40-50) bölgelerinde; ya da Auction House. En yoğun {object:2046} öbeği {zone:1417} bölgesinde işaretli.",
 
 	-- Step 49: Goldthorn (Horde)
 	-- {object:2046} Goldthorn
 	["{object:2046} (Horde)"] = "{object:2046} (Horde)",
 	-- {object:2046} Goldthorn · {spell:11450} Elixir of Defense · {skill:182} Herbalism · {zone:1417} Arathi Highlands · {zone:1425} The Hinterlands · {zone:1444} Feralas
-	["40 {object:2046} for {spell:11450} (8 of them for 225-300: pick them all now): {skill:182}: {object:2046} (skill 170) in {zone:1417} (30-40), {zone:1425} (40-50) and {zone:1444} (40-50); or the Auction House. The densest patch of {object:2046} in {zone:1444} is marked."] = "",
+	["40 {object:2046} for {spell:11450} (8 of them for 225-300: pick them all now): {skill:182}: {object:2046} (skill 170) in {zone:1417} (30-40), {zone:1425} (40-50) and {zone:1444} (40-50); or the Auction House. The densest patch of {object:2046} in {zone:1444} is marked."] = "{spell:11450} için 40 {object:2046} (225-300 için 8 tanesi: hepsini şimdi topla): {skill:182}: {object:2046} (beceri 170), {zone:1417} (30-40), {zone:1425} (40-50) ve {zone:1444} (40-50) bölgelerinde; ya da Auction House. En yoğun {object:2046} öbeği {zone:1444} bölgesinde işaretli.",
 
 	-- Step 50: Expert Alchemy
 	-- {skill:171} Alchemy
 	["Expert {skill:171}"] = "Expert {skill:171}",
 	-- {skill:171} Alchemy · {npc:4160} Ainethil · {zone:1457} Darnassus · {npc:7948} Kylanna Windwhisper · {zone:1444} Feralas · {npc:4611} Doctor Herbert Halsey · {zone:1458} Undercity · {npc:1386} Rogvar · {zone:1435} Swamp of Sorrows · {object:1623} Wild Steelbloom · {item:3356} Kingsblood · {object:2045} Stranglekelp · {object:2046} Goldthorn · {spell:3452} Mana Potion · {spell:11450} Elixir of Defense
-	["Expert raises the cap from 150 to 225 for 50s (Classic's price; Forever's is not in the data); it needs {skill:171} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:4160} ({zone:1457}) and {npc:7948} ({zone:1444}); Horde {npc:4611} ({zone:1458}) and {npc:1386} ({zone:1435}). The arrow picks the nearest of your faction. 150-225 takes about 33s 20c of vendor goods, plus 40 {object:1623}, 39 {item:3356}, 39 {object:2045} and 40 {object:2046} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {spell:3452} (from 160) and {spell:11450} (from 195), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3."] = "",
+	["Expert raises the cap from 150 to 225 for 50s (Classic's price; Forever's is not in the data); it needs {skill:171} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:4160} ({zone:1457}) and {npc:7948} ({zone:1444}); Horde {npc:4611} ({zone:1458}) and {npc:1386} ({zone:1435}). The arrow picks the nearest of your faction. 150-225 takes about 33s 20c of vendor goods, plus 40 {object:1623}, 39 {item:3356}, 39 {object:2045} and 40 {object:2046} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {spell:3452} (from 160) and {spell:11450} (from 195), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3."] = "Expert, 50s karşılığında sınırı 150 puandan 225 puana çıkarır (Classic fiyatı; Forever'ınki veride yok); {skill:171} 125 ve karakter seviyesi 20 ister, böylece 125 puandan itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:4160} ({zone:1457}) ve {npc:7948} ({zone:1444}); Horde {npc:4611} ({zone:1458}) ve {npc:1386} ({zone:1435}). Ok tarafının en yakınını seçer. 150-225 yaklaşık 33s 20c satıcı malı, ayrıca toplanacak ya da alınacak 40 {object:1623}, 39 {item:3356}, 39 {object:2045} ve 40 {object:2046} tutar. Hepsi çantanda gel (yukarıdaki adımlar, gerisi Auction House'dan): bu eğitmenler {spell:3452} (160 puandan) ve {spell:11450} (195 puandan) da öğretir ve üretimler istasyon istemez, bu yüzden tam burada üret ve her tarife becerisine ulaştıkça öğren. 3 yolculuk yerine tek yolculuk.",
 
 	-- Step 51: Lesser Troll's Blood Elixir to 160
 	-- {spell:3176} Lesser Troll's Blood Elixir
 	["{spell:3176} to 160"] = "{spell:3176}: 160 puana kadar",
 	-- {spell:3176} Lesser Troll's Blood Elixir · {item:2453} Bruiseweed · {item:2450} Briarthorn · {item:3372} Leaded Vial
-	["{spell:3176} is yellow at 150 (yellow 150, green 170, grey 190): about 12 crafts to 160. Each takes 2 {item:2453}, 2 {item:2450} and 1 {item:3372}. Two {item:2453} and two {item:2450} a craft; {item:2453} grows in the 15-30 zones."] = "",
+	["{spell:3176} is yellow at 150 (yellow 150, green 170, grey 190): about 12 crafts to 160. Each takes 2 {item:2453}, 2 {item:2450} and 1 {item:3372}. Two {item:2453} and two {item:2450} a craft; {item:2453} grows in the 15-30 zones."] = "{spell:3176}: 150 puanda sarı (sarı 150, yeşil 170, gri 190): 160 puana kadar yaklaşık 12 üretim. Her biri 2 {item:2453}, 2 {item:2450} ve 1 {item:3372} ister. Üretim başına iki {item:2453} ve iki {item:2450}; {item:2453} 15-30 bölgelerinde yetişir.",
 
 	-- Step 52: Alchemy recipes at 160
 	-- {skill:171} Alchemy
@@ -260,7 +260,7 @@ return {
 	-- {spell:3452} Mana Potion
 	["{spell:3452} to 195"] = "{spell:3452}: 195 puana kadar",
 	-- {spell:3452} Mana Potion · {item:3820} Stranglekelp · {item:3356} Kingsblood · {item:3372} Leaded Vial
-	["{spell:3452} is orange at 160 (yellow 180, green 200, grey 220): about 39 crafts to 195. Each takes 1 {item:3820}, 1 {item:3356} and 1 {item:3372}. {item:3820} grows under water along the coasts: bring a water breathing elixir or come up for air. {item:3356} grows in the 20-40 zones."] = "",
+	["{spell:3452} is orange at 160 (yellow 180, green 200, grey 220): about 39 crafts to 195. Each takes 1 {item:3820}, 1 {item:3356} and 1 {item:3372}. {item:3820} grows under water along the coasts: bring a water breathing elixir or come up for air. {item:3356} grows in the 20-40 zones."] = "{spell:3452}: 160 puanda turuncu (sarı 180, yeşil 200, gri 220): 195 puana kadar yaklaşık 39 üretim. Her biri 1 {item:3820}, 1 {item:3356} ve 1 {item:3372} ister. {item:3820} kıyılar boyunca su altında yetişir: su altında nefes iksiri getir ya da hava almak için yüzeye çık. {item:3356} 20-40 bölgelerinde yetişir.",
 
 	-- Step 54: Alchemy recipes at 195
 	-- {skill:171} Alchemy
@@ -272,17 +272,17 @@ return {
 	-- {spell:11450} Elixir of Defense
 	["{spell:11450} to 225"] = "{spell:11450}: 225 puana kadar",
 	-- {spell:11450} Elixir of Defense · {item:3355} Wild Steelbloom · {item:3821} Goldthorn · {item:3372} Leaded Vial · {zone:1418} Badlands · {skill:171} Alchemy
-	["{spell:11450} is orange at 195 (yellow 215, green 235, grey 255): about 32 crafts to 225. Each takes 1 {item:3355}, 1 {item:3821} and 1 {item:3372}. {item:3355} and {item:3821} are the herbs of the 30-45 zones (Stranglethorn, Arathi, the {zone:1418}). {skill:171} 225 is a Legacy System milestone."] = "",
+	["{spell:11450} is orange at 195 (yellow 215, green 235, grey 255): about 32 crafts to 225. Each takes 1 {item:3355}, 1 {item:3821} and 1 {item:3372}. {item:3355} and {item:3821} are the herbs of the 30-45 zones (Stranglethorn, Arathi, the {zone:1418}). {skill:171} 225 is a Legacy System milestone."] = "{spell:11450}: 195 puanda turuncu (sarı 215, yeşil 235, gri 255): 225 puana kadar yaklaşık 32 üretim. Her biri 1 {item:3355}, 1 {item:3821} ve 1 {item:3372} ister. {item:3355} ve {item:3821}, 30-45 bölgelerinin (Stranglethorn, Arathi, {zone:1418}) bitkileri. {skill:171} 225 bir Legacy System kilometre taşı.",
 
 	-- Step 56: Alchemy 225-300: vendor goods
 	-- {skill:171} Alchemy
 	["{skill:171} 225-300: vendor goods"] = "{skill:171} 225-300: satıcı malları",
 	-- {item:3372} Leaded Vial · {item:8925} Crystal Vial · {zone:1453} Stormwind City · {npc:1286} Edna Mullby · {npc:5503} Eldraeith · {npc:1325} Jasper Fel · {zone:1454} Orgrimmar · {npc:3367} Felika · {npc:3348} Kor'geld · {npc:3334} Rekkul
-	["Buy the whole bracket's share in one go: 51 {item:3372} (20s 40c) and 86 {item:8925} (4g 30s); about 4g 50s 40c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286}, {npc:5503} and {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} and {npc:3334})."] = "",
+	["Buy the whole bracket's share in one go: 51 {item:3372} (20s 40c) and 86 {item:8925} (4g 30s); about 4g 50s 40c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286}, {npc:5503} and {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} and {npc:3334})."] = "Bu aralığın payını tek seferde al: 51 {item:3372} (20s 40c) ve 86 {item:8925} (4g 30s); toplam yaklaşık 4g 50s 40c. Ok tarafının en yakın satıcısını seçer ({zone:1453}: {npc:1286}, {npc:5503} ve {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} ve {npc:3334}).",
 
 	-- Step 57: Recipe: Elixir of Superior Defense
 	-- {item:13478} Recipe: Elixir of Superior Defense · {item:8951} Elixir of Greater Defense · {skill:171} Alchemy · {npc:5178} Soolie Berryfizz · {zone:1455} Ironforge · {npc:3348} Kor'geld · {zone:1454} Orgrimmar
-	["{item:13478} teaches {item:8951} ({skill:171} 265) for 1g 30s. Sold by Alliance: {npc:5178} ({zone:1455}), limited stock; Horde: {npc:3348} ({zone:1454}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; the Auction House often has it too."] = "",
+	["{item:13478} teaches {item:8951} ({skill:171} 265) for 1g 30s. Sold by Alliance: {npc:5178} ({zone:1455}), limited stock; Horde: {npc:3348} ({zone:1454}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; the Auction House often has it too."] = "{item:13478}, 1g 30s karşılığında {item:8951} ({skill:171} 265) öğretir. Satanlar Alliance: {npc:5178} ({zone:1455}), sınırlı stok; Horde: {npc:3348} ({zone:1454}), sınırlı stok. Satıcıları bir iki tane tutar, satıştan bir süre sonra yeniden gelir; Auction House'da da çoğu zaman bulunur.",
 
 	-- Step 58: Arthas' Tears (Alliance)
 	-- {item:8836} Arthas' Tears
@@ -312,7 +312,7 @@ return {
 	-- {item:13422} Stonescale Eel
 	["{item:13422} (Alliance)"] = "{item:13422} (Alliance)",
 	-- {item:13422} Stonescale Eel · {item:8951} Elixir of Greater Defense · {skill:356} Fishing · {object:180712} Stonescale Eel Swarm
-	["43 {item:13422} for {item:8951}: {skill:356}; or the Auction House. Fish {object:180712} here."] = "",
+	["43 {item:13422} for {item:8951}: {skill:356}; or the Auction House. Fish {object:180712} here."] = "{item:8951} için 43 {item:13422}: {skill:356}; ya da Auction House. Burada {object:180712} sürüsünde balık tut.",
 
 	-- Step 63: Stonescale Eel (Horde)
 	-- {item:13422} Stonescale Eel
@@ -322,13 +322,13 @@ return {
 	-- {skill:171} Alchemy
 	["Artisan {skill:171}"] = "Artisan {skill:171}",
 	-- {skill:171} Alchemy · {npc:7948} Kylanna Windwhisper · {zone:1444} Feralas · {npc:1386} Rogvar · {zone:1435} Swamp of Sorrows · {item:8836} Arthas' Tears · {item:8838} Sungrass · {item:13422} Stonescale Eel · {spell:11460} Draught of Detect Undead · {item:13423} Stonescale Oil
-	["Artisan raises the cap from 225 to 300 for 4g 50s (Classic's price; Forever's is not in the data); it needs {skill:171} 200 and character level 35, so you can take it on any visit from 200. Only a few trainers teach it: Alliance {npc:7948} ({zone:1444}); Horde {npc:1386} ({zone:1435}). The arrow picks the nearest of your faction. 225-300 takes about 1g 30s of recipes and 4g 50s 40c of vendor goods, plus 43 {item:8836}, 43 {item:8838} and 43 {item:13422} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {spell:11460} (from 230) and {item:13423} (from 250), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3."] = "",
+	["Artisan raises the cap from 225 to 300 for 4g 50s (Classic's price; Forever's is not in the data); it needs {skill:171} 200 and character level 35, so you can take it on any visit from 200. Only a few trainers teach it: Alliance {npc:7948} ({zone:1444}); Horde {npc:1386} ({zone:1435}). The arrow picks the nearest of your faction. 225-300 takes about 1g 30s of recipes and 4g 50s 40c of vendor goods, plus 43 {item:8836}, 43 {item:8838} and 43 {item:13422} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {spell:11460} (from 230) and {item:13423} (from 250), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3."] = "Artisan, 4g 50s karşılığında sınırı 225 puandan 300 puana çıkarır (Classic fiyatı; Forever'ınki veride yok); {skill:171} 200 ve karakter seviyesi 35 ister, böylece 200 puandan itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:7948} ({zone:1444}); Horde {npc:1386} ({zone:1435}). Ok tarafının en yakınını seçer. 225-300 yaklaşık 1g 30s tarif ve 4g 50s 40c satıcı malı, ayrıca toplanacak ya da alınacak 43 {item:8836}, 43 {item:8838} ve 43 {item:13422} tutar. Hepsi çantanda gel (yukarıdaki adımlar, gerisi Auction House'dan): bu eğitmenler {spell:11460} (230 puandan) ve {item:13423} (250 puandan) da öğretir ve üretimler istasyon istemez, bu yüzden tam burada üret ve her tarife becerisine ulaştıkça öğren. 3 yolculuk yerine tek yolculuk.",
 
 	-- Step 65: Elixir of Defense to 230
 	-- {spell:11450} Elixir of Defense
 	["{spell:11450} to 230"] = "{spell:11450}: 230 puana kadar",
 	-- {spell:11450} Elixir of Defense · {item:3355} Wild Steelbloom · {item:3821} Goldthorn · {item:3372} Leaded Vial · {zone:1418} Badlands
-	["{spell:11450} is yellow at 225 (yellow 215, green 235, grey 255): about 8 crafts to 230. Each takes 1 {item:3355}, 1 {item:3821} and 1 {item:3372}. {item:3355} and {item:3821} are the herbs of the 30-45 zones (Stranglethorn, Arathi, the {zone:1418})."] = "",
+	["{spell:11450} is yellow at 225 (yellow 215, green 235, grey 255): about 8 crafts to 230. Each takes 1 {item:3355}, 1 {item:3821} and 1 {item:3372}. {item:3355} and {item:3821} are the herbs of the 30-45 zones (Stranglethorn, Arathi, the {zone:1418})."] = "{spell:11450}: 225 puanda sarı (sarı 215, yeşil 235, gri 255): 230 puana kadar yaklaşık 8 üretim. Her biri 1 {item:3355}, 1 {item:3821} ve 1 {item:3372} ister. {item:3355} ve {item:3821}, 30-45 bölgelerinin (Stranglethorn, Arathi, {zone:1418}) bitkileri.",
 
 	-- Step 66: Alchemy recipes at 230
 	-- {skill:171} Alchemy
@@ -341,7 +341,7 @@ return {
 	["{spell:11460} to 265"] = "{spell:11460}: 265 puana kadar",
 	-- {spell:11460} Draught of Detect Undead · {item:8836} Arthas' Tears · {item:8925} Crystal Vial · {zone:1448} Felwood · {skill:182} Herbalism
 	-- plural, as words: Crystal Vials = {item:8925} Crystal Vial
-	["{spell:11460} is orange at 230 (yellow 245, green 265, grey 285): about 43 crafts to 265. Each takes 1 {item:8836} and 1 {item:8925}. {item:8836} grow in the Plaguelands and {zone:1448} ({skill:182} 220); Crystal Vials come from alchemy vendors."] = "",
+	["{spell:11460} is orange at 230 (yellow 245, green 265, grey 285): about 43 crafts to 265. Each takes 1 {item:8836} and 1 {item:8925}. {item:8836} grow in the Plaguelands and {zone:1448} ({skill:182} 220); Crystal Vials come from alchemy vendors."] = "{spell:11460}: 230 puanda turuncu (sarı 245, yeşil 265, gri 285): 265 puana kadar yaklaşık 43 üretim. Her biri 1 {item:8836} ve 1 {item:8925} ister. {item:8836} Plaguelands'de ve {zone:1448} bölgesinde yetişir ({skill:182} 220); Crystal Vial'lar simya satıcılarından gelir.",
 
 	-- Step 68: Alchemy recipes at 265
 	-- {skill:171} Alchemy
@@ -353,7 +353,7 @@ return {
 	-- {spell:17554} Elixir of Greater Defense
 	["{spell:17554} to 300"] = "{spell:17554}: 300 puana kadar",
 	-- {spell:17554} Elixir of Greater Defense · {item:13423} Stonescale Oil · {item:8838} Sungrass · {item:8925} Crystal Vial · {item:13422} Stonescale Eel · {skill:171} Alchemy
-	["{spell:17554} is orange at 265 (yellow 280, green 300, grey 320): about 43 crafts to 300. Each takes 2 {item:13423}, 1 {item:8838} and 1 {item:8925}. Make the 86 {item:13423} (43 crafts) first. {item:13422} comes from the {item:13422} schools on the coasts of the 40-55 zones, or the Auction House (fishers sell them in stacks). {item:8838} grows in the 40-55 zones. {skill:171} 300 is a Legacy System milestone."] = "",
+	["{spell:17554} is orange at 265 (yellow 280, green 300, grey 320): about 43 crafts to 300. Each takes 2 {item:13423}, 1 {item:8838} and 1 {item:8925}. Make the 86 {item:13423} (43 crafts) first. {item:13422} comes from the {item:13422} schools on the coasts of the 40-55 zones, or the Auction House (fishers sell them in stacks). {item:8838} grows in the 40-55 zones. {skill:171} 300 is a Legacy System milestone."] = "{spell:17554}: 265 puanda turuncu (sarı 280, yeşil 300, gri 320): 300 puana kadar yaklaşık 43 üretim. Her biri 2 {item:13423}, 1 {item:8838} ve 1 {item:8925} ister. Önce 86 {item:13423} yap (43 üretim). {item:13422}, 40-55 bölgelerinin kıyılarındaki {item:13422} sürülerinden ya da Auction House'dan gelir (balıkçılar yığın halinde satar). {item:8838} 40-55 bölgelerinde yetişir. {skill:171} 300 bir Legacy System kilometre taşı.",
 	["from the recipe in your bags"] = "çantandaki tariften",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
