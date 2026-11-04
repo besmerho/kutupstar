@@ -5,7 +5,7 @@
 return {
 	-- Step 2: Kadrak
 	-- {area:380} Crossroads · {npc:8582} Kadrak · {area:1703} Mor'shan Rampart · {area:331} Ashenvale · {item:16783} Bundle of Reports
-	["From the {area:380} follow the road north. {npc:8582} stands on the watch tower of the {area:1703} where the road enters {area:331}. Open the {item:16783} he gives you."] = "",
+	["From the {area:380} follow the road north. {npc:8582} stands on the watch tower of the {area:1703} where the road enters {area:331}. Open the {item:16783} he gives you."] = "{area:380} kasabasından yolu kuzeye izle. {npc:8582}, yolun {area:331} bölgesine girdiği yerdeki {area:1703} surunun gözetleme kulesinde duruyor. Sana verdiği {item:16783} eşyasını aç.",
 	-- {item:16746} Warsong Report · {item:16783} Bundle of Reports
 	["{item:16746}, from the {item:16783}"] = "{item:16746}: {item:16783} içinden",
 
@@ -23,9 +23,9 @@ return {
 
 	-- Step 8: Night Run
 	-- {npc:12696} Senani Thunderheart · {area:428} Night Run · {area:431} Splintertree Post
-	["{npc:12696} stands at {area:428}, the Warsong camp just north-east of Splintertree, beside the hunt board.\nNorth up the road to {area:431} and {area:428} beside it."] = "",
+	["{npc:12696} stands at {area:428}, the Warsong camp just north-east of Splintertree, beside the hunt board.\nNorth up the road to {area:431} and {area:428} beside it."] = "{npc:12696}, Splintertree'nin hemen kuzeydoğusundaki Warsong kampı {area:428} içinde, av panosunun yanında duruyor.\nYolu kuzeye, {area:431} karakoluna ve yanındaki {area:428} kampına izle.",
 	-- {npc:12696} Senani Thunderheart · {area:331} Ashenvale
-	["{npc:12696}'s hunt targets (Ursangous, Shadumbra, Sharptalon) are for the next {area:331} visit, at 27."] = "",
+	["{npc:12696}'s hunt targets (Ursangous, Shadumbra, Sharptalon) are for the next {area:331} visit, at 27."] = "{npc:12696} av hedefleri (Ursangous, Shadumbra, Sharptalon) 27. seviyedeki bir sonraki {area:331} ziyareti için.",
 
 	-- Step 9: Warsong Outrider
 	-- {npc:12864} Warsong Outrider · {area:428} Night Run · {area:430} Satyrnaar
@@ -44,11 +44,11 @@ return {
 
 	-- Step 12: Zoram'gar Outpost
 	-- {area:331} Ashenvale · {area:415} Astranaar · {area:2897} Zoram'gar Outpost · {area:414} Zoram Strand
-	["Head west along the main road across {area:331}, past {area:415} (Alliance: keep to the road), to the coast. {area:2897} is on the {area:414} in the north-west. Its other quests are for the next visit, at 27."] = "",
+	["Head west along the main road across {area:331}, past {area:415} (Alliance: keep to the road), to the coast. {area:2897} is on the {area:414} in the north-west. Its other quests are for the next visit, at 27."] = "Ana yol boyunca batıya, {area:331} bölgesini aşarak {area:415} kasabasını geç (Alliance: yoldan ayrılma) ve kıyıya git. {area:2897} karakolu kuzeybatıda, {area:414} kıyısında. Diğer görevleri 27. seviyedeki bir sonraki ziyaret için.",
 
 	-- Step 13: Zoram'gar Outpost
 	-- {area:392} Ratchet · {area:2897} Zoram'gar Outpost · {area:331} Ashenvale
-	["Fly from {area:392} to {area:2897} on the {area:331} coast."] = "",
+	["Fly from {area:392} to {area:2897} on the {area:331} coast."] = "{area:392} kasabasından {area:331} kıyısındaki {area:2897} karakoluna uç.",
 
 	-- Step 14: Naga heads
 	["Naga heads"] = "Naga kafaları",
@@ -62,7 +62,7 @@ return {
 
 	-- Step 19: Malaka'jin
 	-- {area:380} Crossroads · {area:17} The Barrens · {area:2539} Malaka'jin
-	["Head south to the {area:380}, then west along the road out of the {area:17} into Stonetalon. The troll village of {area:2539} sits at the entrance of the canyon."] = "",
+	["Head south to the {area:380}, then west along the road out of the {area:17} into Stonetalon. The troll village of {area:2539} sits at the entrance of the canyon."] = "Güneye, {area:380} kasabasına git, sonra yolu batıya izleyerek {area:17} bölgesinden Stonetalon'a çık. Troll köyü {area:2539} kanyonun girişinde.",
 	-- {npc:3995} Witch Doctor Jin'Zil
 	["{npc:3995}, below ground"] = "{npc:3995}, yer altında",
 
@@ -74,7 +74,7 @@ return {
 
 	-- Step 21: Windshear Crag
 	-- {area:461} Windshear Crag · {npc:4276} Piznik
-	["East of Ziz, the Venture Company is clear-cutting {area:461}; one of the Operators carries the blueprints. {npc:4276} mines in the small mine on the east side: stay with him while he mines, Venture Co. thugs come for him.\nCareful: The kobolds arrive in waves. The first wave is melee fighters, and the second adds casters to the mix. Regular mobs in the mine respawn quickly and can join the fight while the waves are coming. A group is recommended."] = "",
+	["East of Ziz, the Venture Company is clear-cutting {area:461}; one of the Operators carries the blueprints. {npc:4276} mines in the small mine on the east side: stay with him while he mines, Venture Co. thugs come for him.\nCareful: The kobolds arrive in waves. The first wave is melee fighters, and the second adds casters to the mix. Regular mobs in the mine respawn quickly and can join the fight while the waves are coming. A group is recommended."] = "Ziz'in doğusunda Venture Company {area:461} kayalığını tıraşlıyor; Operator'lerden biri planları taşıyor. {npc:4276} doğu yakasındaki küçük madende kazı yapıyor: o kazarken yanında kal, Venture Co. haydutları onun için gelir.\nDikkat: Kobold'lar dalgalar halinde gelir. İlk dalga yakın dövüşçülerden oluşur, ikincisine büyücüler de eklenir. Madendeki normal yaratıklar çabuk yeniden doğar ve dalgalar gelirken dövüşe katılabilir. Grup önerilir.",
 	-- {npc:4276} Piznik
 	["{npc:4276}, below ground"] = "{npc:4276}, yer altında",
 
@@ -102,7 +102,7 @@ return {
 	["Gaea Seeds"] = "Gaea Seed",
 	-- {area:464} Mirkfallon Lake
 	-- plural, as words: Gaea Seeds = {item:16205} Gaea Seed
-	["The Gaea Seeds lie in the grass around the southern shore of {area:464}, north of Sun Rock.\nCareful: Pridewings around the lake can aggro as a linked group."] = "",
+	["The Gaea Seeds lie in the grass around the southern shore of {area:464}, north of Sun Rock.\nCareful: Pridewings around the lake can aggro as a linked group."] = "Gaea Seed tohumları Sun Rock'ın kuzeyinde, {area:464} gölünün güney kıyısının çevresindeki çimenlerde duruyor.\nDikkat: Gölün çevresindeki Pridewing'ler bağlı bir grup olarak saldırabilir.",
 
 	-- Step 25: Stonetalon Mountains: kill these as you meet them
 	-- {zone:1442} Stonetalon Mountains
@@ -117,7 +117,7 @@ return {
 
 	-- Step 27: Sun Rock Retreat
 	-- {npc:4198} Braelyn Firehand · {area:331} Ashenvale
-	["{npc:4198}'s next quest, Ordanus, is on the Alliance side of {area:331}. Skip it."] = "",
+	["{npc:4198}'s next quest, Ordanus, is on the Alliance side of {area:331}. Skip it."] = "{npc:4198} verdiği sonraki görev Ordanus, {area:331} bölgesinin Alliance tarafında. Atla.",
 
 	-- Step 28: The Charred Vale: kill these as you meet them
 	-- {area:465} The Charred Vale
@@ -188,7 +188,7 @@ return {
 	-- Step 44: Beren's Peril
 	-- {item:271350} Tortured Soul
 	-- plural, as words: Tortured Souls = {item:271350} Tortured Soul
-	["{item:271350}, from the Tortured Souls among the ruins; below ground"] = "",
+	["{item:271350}, from the Tortured Souls among the ruins; below ground"] = "{item:271350}, harabelerin arasındaki Tortured Soul yaratıklarından; yer altında",
 
 	-- Step 46: Beren's Peril
 	-- {item:271343} Note Scrap · {npc:1973} Ravenclaw Guardian

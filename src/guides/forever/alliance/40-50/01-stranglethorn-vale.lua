@@ -299,7 +299,7 @@ return {
 	["{npc:6171}, in the Cathedral of Light"] = "{npc:6171}, Cathedral of Light içinde",
 
 	-- Step 90: Stormwind City
-	["Stormwind City"] = "",
+	["Stormwind City"] = "Stormwind City",
 
 	-- Step 91: Warlock: Summon Felsteed
 	-- {quest:3631} Summon Felsteed

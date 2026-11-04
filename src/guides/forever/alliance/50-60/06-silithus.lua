@@ -314,7 +314,7 @@ return {
 	["{zone:1453} has no shaman trainer"] = "{zone:1453} şehrinde Shaman eğitmeni yok",
 
 	-- Step 75: Stormwind City
-	["Stormwind City"] = "",
+	["Stormwind City"] = "Stormwind City",
 	-- {item:2592} Wool Cloth
 	["Sixty {item:2592}, if you carry them"] = "Sende varsa altmış {item:2592}",
 

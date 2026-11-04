@@ -5,7 +5,7 @@
 return {
 	-- Step 1: The Jansen Stead
 	-- {area:40} Westfall · {object:2724} Sack of Oats
-	["Follow the road from Elwynn into {area:40}: the Furlbrows sit by their burned farm, the first one on the road. Pick up oats from any {object:2724} you pass on the loop: the rest are gathered in the fields here on the way back."] = "",
+	["Follow the road from Elwynn into {area:40}: the Furlbrows sit by their burned farm, the first one on the road. Pick up oats from any {object:2724} you pass on the loop: the rest are gathered in the fields here on the way back."] = "Yolu Elwynn'den {area:40} bölgesine izle: Furlbrow'lar yanmış çiftliklerinin yanında, yoldaki ilk çiftlikte oturuyor. Tur boyunca geçtiğin her {object:2724} çuvalından yulaf al: geri kalanı dönüşte buradaki tarlalarda toplanır.",
 	-- {npc:237} Farmer Furlbrow · {npc:963} Deputy Rainer
 	["{npc:237}; Humans took it from {npc:963} in Elwynn"] = "{npc:237}; Human karakterler bu görevi Elwynn'de {npc:963} adlı NPC'den aldı",
 
@@ -39,7 +39,7 @@ return {
 	["{area:40}: kill these as you meet them"] = "{area:40}: bunları karşılaştıkça öldür",
 	-- {object:290} Furlbrow's Wardrobe · {item:732} Okra · {item:255155} Precessive Autocognition Assembly · {npc:573} Foe Reaper 4000
 	-- plural, as words: Defias Trappers = {npc:504} Defias Trapper · Harvest Watchers = {npc:114} Harvest Watcher
-	["North of Molsen Farm. Defias Trappers and Smugglers camp outside the mine. {object:290} stands by the ruined house east of the mine.\nWest of Saldean's. Harvest Watchers and Golems work the fields; they drop the isosprings, gyrostabilizers, {item:732} and sometimes a {item:255155}. {npc:573}, a level 20 rare, walks here: leave it alone. Keep killing Goretusks and Fleshrippers on every leg of this loop."] = "",
+	["North of Molsen Farm. Defias Trappers and Smugglers camp outside the mine. {object:290} stands by the ruined house east of the mine.\nWest of Saldean's. Harvest Watchers and Golems work the fields; they drop the isosprings, gyrostabilizers, {item:732} and sometimes a {item:255155}. {npc:573}, a level 20 rare, walks here: leave it alone. Keep killing Goretusks and Fleshrippers on every leg of this loop."] = "Molsen Farm'ın kuzeyi. Defias Trapper ve Smuggler yaratıkları madenin dışında kamp kurmuş. {object:290}, madenin doğusundaki yıkık evin yanında duruyor.\nSaldean'ın batısı. Harvest Watcher ve Golem yaratıkları tarlalarda çalışıyor; isospring, gyrostabilizer, {item:732} ve bazen bir {item:255155} düşürürler. Seviye 20 bir rare olan {npc:573} burada dolaşıyor: ona dokunma. Bu turun her bölümünde Goretusk ve Fleshripper öldürmeyi sürdür.",
 	-- plural, as words: Harvest Watchers = {npc:114} Harvest Watcher
 	["Harvest Watchers"] = "Harvest Watcher yaratıkları",
 
@@ -56,7 +56,7 @@ return {
 	["{area:109}: kill these as you meet them"] = "{area:109}: bunları karşılaştıkça öldür",
 	-- {area:111} Jangolode Mine · {area:916} The Jansen Stead · {npc:502} Benny Blaanco
 	-- plural, as words: Riverpaw Gnolls = {npc:117} Riverpaw Gnoll · Murloc Coastrunners = {npc:126} Murloc Coastrunner
-	["Riverpaw Gnolls and Scouts (level 11-13) roam the hills south of the coast, from above {area:111} east to the {area:916}. The gnolls further south and west are 13-19: stay in the north hills.\nMurloc Coastrunners and Raiders line the beach north of the mine. They flee at low health: pull one at a time.\nCareful: Gnolls that stand close together tend to join a fight as a group. Pulling one at a time is safer.\nCareful: Two Defias stand guard inside the house, one of them the level 15 named {npc:502}. They are linked, so attacking either one brings both."] = "",
+	["Riverpaw Gnolls and Scouts (level 11-13) roam the hills south of the coast, from above {area:111} east to the {area:916}. The gnolls further south and west are 13-19: stay in the north hills.\nMurloc Coastrunners and Raiders line the beach north of the mine. They flee at low health: pull one at a time.\nCareful: Gnolls that stand close together tend to join a fight as a group. Pulling one at a time is safer.\nCareful: Two Defias stand guard inside the house, one of them the level 15 named {npc:502}. They are linked, so attacking either one brings both."] = "Riverpaw Gnoll ve Riverpaw Scout yaratıkları (seviye 11-13) kıyının güneyindeki tepelerde, {area:111} madeninin yukarısından doğuya, {area:916} çiftliğine kadar dolaşıyor. Daha güneydeki ve batıdaki gnoll'lar 13-19: kuzey tepelerde kal.\nMurloc Coastrunner ve Murloc Raider yaratıkları madenin kuzeyindeki kumsal boyunca diziliyor. Canları azalınca kaçarlar: tek tek çek.\nDikkat: Birbirine yakın duran gnoll'lar dövüşe grup halinde katılma eğiliminde. Tek tek çekmek daha güvenli.\nDikkat: Evin içinde iki Defias nöbet tutuyor, biri seviye 15 adlı yaratık {npc:502}. Birbirlerine bağlılar, birine saldırırsan ikisi birden gelir.",
 	-- {quest:153} Red Leather Bandanas
 	["{quest:153}: every Defias drops them"] = "{quest:153}: her Defias düşürür",
 	-- plural, as words: Gnoll Paws = {item:725} Gnoll Paw
@@ -67,7 +67,7 @@ return {
 	["Longshore Murloc Gills"] = "Longshore Murloc Gill",
 
 	-- Step 13: Handful of Oats
-	["Sacks of Oats in the fields around the farm"] = "",
+	["Sacks of Oats in the fields around the farm"] = "Çiftliğin çevresindeki tarlalarda Sack of Oats çuvalları",
 
 	-- Step 14: Saldean's Farm
 	["Inside"] = "İçeride",
@@ -97,14 +97,14 @@ return {
 	["{area:20}: kill these as you meet them"] = "{area:20}: bunları karşılaştıkça öldür",
 	-- {area:108} Sentinel Hill · {area:20} Moonbrook · {area:113} Gold Coast Quarry
 	-- plural, as words: Defias Pillagers = {npc:589} Defias Pillager
-	["Defias Pillagers and Looters hold the farms west of {area:108}, between the coast road and {area:20}.\nCareful: The {area:113} cave holds many Defias packed together, so it is easy to pull several at once there."] = "",
+	["Defias Pillagers and Looters hold the farms west of {area:108}, between the coast road and {area:20}.\nCareful: The {area:113} cave holds many Defias packed together, so it is easy to pull several at once there."] = "Defias Pillager ve Defias Looter yaratıkları {area:108} tepesinin batısındaki, kıyı yoluyla {area:20} arasındaki çiftlikleri tutuyor.\nDikkat: {area:113} mağarasında birbirine sıkışık çok sayıda Defias var, bu yüzden orada birkaçını birden çekmek kolay.",
 
 	-- Step 20: Moonbrook and the Defias hills
 	-- {area:20} Moonbrook
 	["{area:20} and the Defias hills"] = "{area:20} köyü ve Defias tepeleri",
 	-- {area:20} Moonbrook · {area:1581} The Deadmines
 	-- plural, as words: Defias Pathstalkers = {npc:121} Defias Pathstalker
-	["Defias Pathstalkers and Knuckledusters walk {area:20}; Highwaymen (level 17) patrol the hills south and east of it in pairs: pull them apart. {area:1581} entrance in the smithy is a group dungeon.\nCareful: The camps in the hills hold mixed groups of Defias, so it is easy to pull more than one at a time if you are low level."] = "",
+	["Defias Pathstalkers and Knuckledusters walk {area:20}; Highwaymen (level 17) patrol the hills south and east of it in pairs: pull them apart. {area:1581} entrance in the smithy is a group dungeon.\nCareful: The camps in the hills hold mixed groups of Defias, so it is easy to pull more than one at a time if you are low level."] = "Defias Pathstalker ve Defias Knuckleduster yaratıkları {area:20} içinde dolaşıyor; Highwayman'ler (seviye 17) güneyindeki ve doğusundaki tepelerde ikişer ikişer devriye geziyor: onları birbirinden ayırarak çek. Demirci dükkânındaki {area:1581} girişi bir grup zindanı.\nDikkat: Tepelerdeki kamplarda karışık Defias grupları var, bu yüzden seviyen düşükse aynı anda birden fazlasını çekmek kolay.",
 	-- {item:254676} Suspicious Industrial Supplies · {area:20} Moonbrook
 	["{item:254676}, from the crates around {area:20}"] = "{item:254676}: {area:20} köyünün çevresindeki sandıklardan",
 
@@ -128,11 +128,11 @@ return {
 
 	-- Step 28: The Tome of Divinity
 	-- {npc:6171} Duthorian Rall · {npc:6173} Gazin Tenorm · {npc:6174} Stephanie Turner · {object:2096} Trade District · {item:2589} Linen Cloth
-	["{npc:6171} and {npc:6173} are in the Cathedral of Light; {npc:6174} stands in the {object:2096} and asks for ten {item:2589} (humanoids drop it; the Auction House sells it)."] = "",
+	["{npc:6171} and {npc:6173} are in the Cathedral of Light; {npc:6174} stands in the {object:2096} and asks for ten {item:2589} (humanoids drop it; the Auction House sells it)."] = "{npc:6171} ve {npc:6173} Cathedral of Light içinde; {npc:6174}, {object:2096} semtinde duruyor ve senden on {item:2589} istiyor (insansı yaratıklar düşürür; Auction House da satar).",
 	-- {item:6775} Tome of Divinity
-	["Right-click the {item:6775} he gives you"] = "",
+	["Right-click the {item:6775} he gives you"] = "Sana verdiği {item:6775} eşyasına sağ tıkla",
 	-- {npc:6172} Henze Faulk · {area:86} Stone Cairn Lake
-	["{npc:6172}, by {area:86} in Elwynn, on the road to Redridge"] = "",
+	["{npc:6172}, by {area:86} in Elwynn, on the road to Redridge"] = "{npc:6172}, Elwynn'de, Redridge yolunun üstünde, {area:86} gölünün yanında",
 
 	-- Step 30: Tram to Ironforge
 	-- {zone:1455} Ironforge
@@ -159,7 +159,7 @@ return {
 	["{npc:5497}, Wizard's Sanctum: {quest:1861}"] = "{npc:5497}, Wizard's Sanctum: {quest:1861}",
 
 	-- Step 37: Stormwind City
-	["Stormwind City"] = "",
+	["Stormwind City"] = "Stormwind City",
 
 	-- Step 38: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District

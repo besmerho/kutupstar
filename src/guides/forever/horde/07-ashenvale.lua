@@ -29,13 +29,13 @@ return {
 	["The Sapphires are blue crystals on the walls of the tunnels leading to the {area:2797} portal, underground and outside the instance: swim down from the pit, under the wall, into the cave. The satyrs and naga in the tunnels are elite: grouping up is advised. The crystals respawn quickly, so there is no need to go deep."] = "Sapphire'lar, {area:2797} portalına giden tünellerin duvarlarındaki mavi kristaller; yer altında ve zindanın dışında: çukurdan aşağı, duvarın altından mağaraya yüz. Tünellerdeki satirler ve nagalar elit: grup kurman önerilir. Kristaller çabuk yeniden doğar, bu yüzden derine inmen gerekmez.",
 
 	-- Step 6: Thistlefur Village
-	["East of Zoram'gar, the Thistlefur furbolgs fill the village and the hills around their hold.\nCareful: A Shaman at 15% health or lower runs off to find help, which can pull extra furbolgs."] = "",
+	["East of Zoram'gar, the Thistlefur furbolgs fill the village and the hills around their hold.\nCareful: A Shaman at 15% health or lower runs off to find help, which can pull extra furbolgs."] = "Zoram'gar'ın doğusunda Thistlefur furbolg'ları köyü ve sığınaklarının çevresindeki tepeleri dolduruyor.\nDikkat: Canı %15 ya da daha az olan bir Shaman yardım bulmak için kaçar, bu da fazladan furbolg çekebilir.",
 
 	-- Step 7: Thistlefur Hold
 	["Thistlefur Hold"] = "Thistlefur Hold",
 	-- {npc:12818} Ruul Snowhoof · {area:428} Night Run · {npc:3987} Dal Bloodclaw
 	-- plural, as words: Troll Chests = {object:178144} Troll Chest
-	["Inside the hold, Troll Chests lie along the tunnels. {npc:12818} is held deep inside: free him and protect him all the way out, then he runs home to {area:428}.\nCareful: Two scripted ambushes occur, each made up of three Thistlefurs (a Shaman, a Pathfinder and an Avenger, Ursa or Den Watcher): the first when you come back to the tunnel's fork inside the cave, the second just beyond the gate where {npc:3987} roams."] = "",
+	["Inside the hold, Troll Chests lie along the tunnels. {npc:12818} is held deep inside: free him and protect him all the way out, then he runs home to {area:428}.\nCareful: Two scripted ambushes occur, each made up of three Thistlefurs (a Shaman, a Pathfinder and an Avenger, Ursa or Den Watcher): the first when you come back to the tunnel's fork inside the cave, the second just beyond the gate where {npc:3987} roams."] = "Sığınağın içinde tüneller boyunca Troll Chest sandıkları duruyor. {npc:12818} derinlerde tutuluyor: onu serbest bırak ve dışarı çıkana kadar koru, sonra {area:428} kampına, evine koşar.\nDikkat: Her biri üç Thistlefur'dan (bir Shaman, bir Pathfinder ve bir Avenger, Ursa ya da Den Watcher) oluşan iki senaryolu pusu olur: ilki mağaranın içindeki tünel çatalına döndüğünde, ikincisi {npc:3987} yaratığının dolaştığı kapının hemen ötesinde.",
 	["Below ground"] = "Yer altında",
 	-- {npc:12818} Ruul Snowhoof
 	["{npc:12818}, below ground"] = "{npc:12818}, yer altında",
@@ -57,7 +57,7 @@ return {
 	-- {npc:210995} Alonso · {area:421} Mystral Lake
 	["{npc:210995}, a Forever addition, stands on the west shore of {area:421} with three quick Dragonslayer quests."] = "Forever'a özgü bir ek olan {npc:210995}, {area:421} gölünün batı kıyısında, üç kısa Dragonslayer göreviyle duruyor.",
 	-- {npc:210995} Alonso · {area:1276} The Talondeep Path
-	["{npc:210995} may not offer these to every class; if he doesn't, carry on.; walks around {area:1276}: the map marks where to look"] = "",
+	["{npc:210995} may not offer these to every class; if he doesn't, carry on.; walks around {area:1276}: the map marks where to look"] = "{npc:210995} bunları her sınıfa önermeyebilir; önermezse yoluna devam et.; {area:1276} çevresinde dolaşıyor: harita nereye bakacağını işaretler",
 
 	-- Step 13: Ruins of Stardust fountain
 	-- {area:418} Ruins of Stardust
@@ -152,7 +152,7 @@ return {
 
 	-- Step 41: Thunder Bluff
 	-- {area:1638} Thunder Bluff · {area:378} Camp Taurajo · {area:215} Mulgore · {area:222} Bloodhoof Village · {npc:2995} Tal
-	["Fly to {area:1638} if you know the flight path. If not, fly to {area:378}, head west into {area:215} past {area:222} to {area:1638} and take its flight path from {npc:2995} on the central rise."] = "",
+	["Fly to {area:1638} if you know the flight path. If not, fly to {area:378}, head west into {area:215} past {area:222} to {area:1638} and take its flight path from {npc:2995} on the central rise."] = "Uçuş noktasını biliyorsan {area:1638} şehrine uç. Bilmiyorsan {area:378} kampına uç, batıya, {area:215} bölgesine git, {area:222} köyünü geçip {area:1638} şehrine var ve orta tepedeki {npc:2995} ile konuşup uçuş noktasını aç.",
 	-- {npc:3057} Cairne Bloodhoof · {area:1638} Thunder Bluff · {quest:93739} Exploring the Horde
 	["Speak with {npc:3057}, in {area:1638}: {quest:93739}"] = "{area:1638} şehrindeki {npc:3057} ile konuş: {quest:93739}",
 	-- {npc:3057} Cairne Bloodhoof
@@ -170,7 +170,7 @@ return {
 	-- {npc:10537} Cliffwatcher Longhorn
 	["The Wanted poster beside {npc:10537}"] = "{npc:10537} adlı NPC'nin yanındaki Wanted ilanı",
 	-- {npc:4877} Jandia · {area:487} Roguefeather Den
-	["{npc:4877}, the trade supplies vendor: the Screeching harpies of {area:487}; inside"] = "",
+	["{npc:4877}, the trade supplies vendor: the Screeching harpies of {area:487}; inside"] = "Ticaret malzemeleri satıcısı {npc:4877}: {area:487} inindeki Screeching harpy'leri; içeride",
 
 	-- Step 47: Alien Egg
 	["Take the lift down. The egg lies in a nest on the canyon floor in one of three spots: south-east of the mesas (52.3,55.2), east (56.4,50.4) or south-west (37.6,56.1)."] = "Asansörle aşağı in. Yumurta, kanyon tabanında üç noktadan birindeki bir yuvada: platoların güneydoğusunda (52.3,55.2), doğusunda (56.4,50.4) ya da güneybatısında (37.6,56.1).",
@@ -211,7 +211,7 @@ return {
 
 	-- Step 57: Brine
 	-- {zone:1456} Thunder Bluff · {area:378} Camp Taurajo · {npc:5899} Brine · {area:485} Great Lift
-	["Fly from {zone:1456} to {area:378}. {npc:5899}'s hut stands on the ridge above the quilboar watering hole south of the camp, on the road to the {area:485}."] = "",
+	["Fly from {zone:1456} to {area:378}. {npc:5899}'s hut stands on the ridge above the quilboar watering hole south of the camp, on the road to the {area:485}."] = "{zone:1456} şehrinden {area:378} kampına uç. {npc:5899} kulübesi, kampın güneyindeki quilboar su başının yukarısındaki sırtta, {area:485} yolunun üstünde.",
 	-- {npc:5901} Islen Waterseer · {area:392} Ratchet
 	["for {npc:5901}, south of {area:392}: next guide"] = "{area:392} limanının güneyindeki {npc:5901} için: sonraki rehber",
 
@@ -223,7 +223,7 @@ return {
 
 	-- Step 59: Highperch
 	-- {area:482} Highperch · {npc:10427} Pao'ka Swiftmountain · {area:2237} Whitereach Post
-	["West of Whitereach the wyverns nest on the {area:482} cliffs; the eggs lie in the nests. {npc:10427} waits on the east side of the nesting grounds: free him and keep him alive on the walk back to {area:2237}.\nCareful: Wyverns at level 28-29 fly overhead and can be pulled without warning. A group of three wyverns can ambush you once you pass the first pillar at the bottom."] = "",
+	["West of Whitereach the wyverns nest on the {area:482} cliffs; the eggs lie in the nests. {npc:10427} waits on the east side of the nesting grounds: free him and keep him alive on the walk back to {area:2237}.\nCareful: Wyverns at level 28-29 fly overhead and can be pulled without warning. A group of three wyverns can ambush you once you pass the first pillar at the bottom."] = "Whitereach'in batısında wyvern'ler {area:482} uçurumlarında yuva yapmış; yumurtalar yuvalarda. {npc:10427}, yuvalama alanının doğu yakasında bekliyor: onu serbest bırak ve {area:2237} karakoluna dönüş yürüyüşünde hayatta tut.\nDikkat: Seviye 28-29 wyvern'ler tepeden uçar ve habersizce çekilebilir. Aşağıdaki ilk sütunu geçince üç wyvern'lik bir grup sana pusu kurabilir.",
 
 	-- Step 60: Wizlo Bearingshiner
 	-- {npc:10428} Motega Firemane · {zone:1456} Thunder Bluff

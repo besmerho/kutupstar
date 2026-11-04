@@ -5,15 +5,15 @@
 return {
 	-- Step 2: Darkshire
 	-- {area:1002} Three Corners · {area:10} Duskwood · {area:42} Darkshire
-	["Follow the road south from {area:1002} into {area:10}; {area:42} lies on the east side of the forest."] = "",
+	["Follow the road south from {area:1002} into {area:10}; {area:42} lies on the east side of the forest."] = "Yolu {area:1002} kavşağından güneye, {area:10} bölgesine izle; {area:42} ormanın doğu yakasında.",
 	-- {npc:2409} Felicia Maline
 	["{npc:2409}, at the north end of town"] = "{npc:2409}, kasabanın kuzey ucunda",
 	-- {npc:265} Madame Eva
-	["{npc:265}, in her house by the tavern; inside"] = "",
+	["{npc:265}, in her house by the tavern; inside"] = "{npc:265}, meyhanenin yanındaki evinde; içeride",
 
 	-- Step 3: Darkshire
 	-- {item:4371} Bronze Tube · {quest:174} Look to the Stars · {npc:3133} Herble Baubbletump · {npc:276} Viktori Prism'Antras · {npc:1448} Neal Allen · {area:150} Menethil Harbor
-	["No {item:4371} for {quest:174}? {npc:3133} sells it in the house beside {npc:276}, in limited stock; {npc:1448} in {area:150} sells it too.\n{npc:276}'s house stands at the east end of town. {npc:3133} sells engineering goods in the house beside it."] = "",
+	["No {item:4371} for {quest:174}? {npc:3133} sells it in the house beside {npc:276}, in limited stock; {npc:1448} in {area:150} sells it too.\n{npc:276}'s house stands at the east end of town. {npc:3133} sells engineering goods in the house beside it."] = "{quest:174} için {item:4371} yok mu? {npc:3133}, {npc:276} evinin yanındaki evde sınırlı sayıda satıyor; {area:150} limanındaki {npc:1448} de satar.\n{npc:276} evi kasabanın doğu ucunda. {npc:3133} onun yanındaki evde mühendislik malları satıyor.",
 	-- {npc:265} Madame Eva
 	["{npc:265}, inside"] = "{npc:265}, içeride",
 	-- {item:4371} Bronze Tube · {npc:3133} Herble Baubbletump
@@ -25,7 +25,7 @@ return {
 	-- {npc:264} Commander Althea Ebonlocke
 	["{npc:264}, in the town hall"] = "{npc:264}, belediye binasında",
 	-- {npc:633} Elaine Carevin
-	["{npc:633}, at the south end of town; inside"] = "",
+	["{npc:633}, at the south end of town; inside"] = "{npc:633}, kasabanın güney ucunda; içeride",
 	-- {npc:6790} Innkeeper Trelayne
 	["{npc:6790}, Scarlet Raven Tavern"] = "{npc:6790}, Scarlet Raven Tavern",
 	-- {npc:663} Calor
@@ -44,7 +44,7 @@ return {
 	["{area:121}: kill these as you meet them"] = "{area:121}: bunları karşılaştıkça öldür",
 	-- {area:42} Darkshire · {npc:302} Blind Mary · {area:10} Duskwood · {item:2378} Skeleton Finger
 	-- plural, as words: Skeletal Warriors = {npc:48} Skeletal Warrior · Skeletal Mages = {npc:203} Skeletal Mage
-	["Skeletal Warriors and Skeletal Mages walk among the graves south-east of {area:42}, below {npc:302}'s house on the hill. Every skeleton in {area:10} can drop a {item:2378}.\nCareful: Because the skeletons stand near each other, running straight in tends to pull several at once."] = "",
+	["Skeletal Warriors and Skeletal Mages walk among the graves south-east of {area:42}, below {npc:302}'s house on the hill. Every skeleton in {area:10} can drop a {item:2378}.\nCareful: Because the skeletons stand near each other, running straight in tends to pull several at once."] = "Skeletal Warrior ve Skeletal Mage yaratıkları {area:42} kasabasının güneydoğusunda, tepedeki {npc:302} evinin aşağısındaki mezarların arasında dolaşıyor. {area:10} içindeki her iskelet {item:2378} düşürebilir.\nDikkat: İskeletler birbirine yakın durduğu için doğrudan dalmak genellikle birkaçını birden çeker.",
 
 	-- Step 7: Skeletal Fiend on the way
 	-- {npc:531} Skeletal Fiend
@@ -73,7 +73,7 @@ return {
 	["{area:1097}: kill these as you meet them"] = "{area:1097}: bunları karşılaştıkça öldür",
 	-- {npc:289} Abercrombie · {area:40} Westfall
 	-- plural, as words: Pygmy Venom Web Spiders = {npc:539} Pygmy Venom Web Spider
-	["Rabid Dire Wolves roam the woods around the cemetery and {npc:289}, Starving Dire Wolves the hills north-east of him. Pygmy Venom Web Spiders crawl east of the cemetery and drop the venom. Every ghoul of the cemetery's northern half can drop a fang.\nCareful: Wolves and other spider types share the area along the {area:40} border, so you can easily pull several mobs at once."] = "",
+	["Rabid Dire Wolves roam the woods around the cemetery and {npc:289}, Starving Dire Wolves the hills north-east of him. Pygmy Venom Web Spiders crawl east of the cemetery and drop the venom. Every ghoul of the cemetery's northern half can drop a fang.\nCareful: Wolves and other spider types share the area along the {area:40} border, so you can easily pull several mobs at once."] = "Rabid Dire Wolf yaratıkları mezarlığın ve {npc:289} yerinin çevresindeki ormanda, Starving Dire Wolf yaratıkları da onun kuzeydoğusundaki tepelerde dolaşıyor. Pygmy Venom Web Spider yaratıkları mezarlığın doğusunda geziniyor ve zehir düşürüyor. Mezarlığın kuzey yarısındaki her ghoul bir diş düşürebilir.\nDikkat: {area:40} sınırı boyunca kurtlar ve başka örümcek türleri aynı alanı paylaşıyor, bu yüzden kolayca birkaç yaratığı birden çekebilirsin.",
 
 	-- Step 13: Abercrombie
 	-- {area:492} Raven Hill Cemetery
@@ -104,7 +104,7 @@ return {
 
 	-- Step 20: Tranquil Gardens Cemetery
 	-- {quest:337} An Old History Book · {area:10} Duskwood
-	["{quest:337}: a rare drop from {area:10}'s mobs"] = "",
+	["{quest:337}: a rare drop from {area:10}'s mobs"] = "{quest:337}: {area:10} yaratıklarından nadir düşen bir eşya",
 
 	-- Step 22: Abercrombie
 	["Head west along the road once more."] = "Bir kez daha yol boyunca batıya git.",
@@ -136,7 +136,7 @@ return {
 	["Ghoul Ribs"] = "Ghoul Rib",
 	-- {area:492} Raven Hill Cemetery · {npc:948} Rotted One · {spell:3428} Summon Flesh Eating Worms
 	-- plural, as words: Flesh Eaters = {npc:3} Flesh Eater · Bone Chewers = {npc:210} Bone Chewer · Plague Spreaders = {npc:604} Plague Spreader · Brain Eaters = {npc:570} Brain Eater
-	["Every ghoul of the {area:492}'s northern half can drop a rib: Flesh Eaters, Bone Chewers, Plague Spreaders and Brain Eaters.\nCareful: A {npc:948} casts {spell:3428} as it dies, which brings extra adds."] = "",
+	["Every ghoul of the {area:492}'s northern half can drop a rib: Flesh Eaters, Bone Chewers, Plague Spreaders and Brain Eaters.\nCareful: A {npc:948} casts {spell:3428} as it dies, which brings extra adds."] = "{area:492} mezarlığının kuzey yarısındaki her ghoul bir kaburga düşürebilir: Flesh Eater, Bone Chewer, Plague Spreader ve Brain Eater yaratıkları.\nDikkat: Bir {npc:948} ölürken {spell:3428} kullanır, bu da fazladan yaratık getirir.",
 
 	-- Step 31: Jitters
 	-- {npc:288} Jitters · {area:94} Raven Hill
@@ -148,7 +148,7 @@ return {
 
 	-- Step 34: Agent Kearnen
 	-- {area:94} Raven Hill · {area:40} Westfall · {npc:7024} Agent Kearnen · {npc:7053} Klaven Mortwake · {npc:7051} Malformed Defias Drone
-	["Head west along the road out of {area:94} into {area:40}. {npc:7024} watches {npc:7053}'s tower from the hills just inside the border. The {npc:7051} (level 23) guarding the tower carries its key; Klaven's journal is in the chest at the top."] = "",
+	["Head west along the road out of {area:94} into {area:40}. {npc:7024} watches {npc:7053}'s tower from the hills just inside the border. The {npc:7051} (level 23) guarding the tower carries its key; Klaven's journal is in the chest at the top."] = "{area:94} tepesinden çıkan yol boyunca batıya, {area:40} bölgesine git. {npc:7024}, sınırın hemen içindeki tepelerden {npc:7053} kulesini gözlüyor. Kuleyi koruyan {npc:7051} (seviye 23) kulenin anahtarını taşıyor; Klaven'ın günlüğü tepedeki sandıkta.",
 	-- {item:7908} Klaven Mortwake's Journal
 	["{item:7908}, in the chest"] = "{item:7908}, sandıkta",
 
@@ -172,7 +172,7 @@ return {
 
 	-- Step 37: Gazin Tenorm
 	-- {npc:6173} Gazin Tenorm · {npc:6171} Duthorian Rall
-	["{npc:6173} and {npc:6171} are in the Cathedral of Light."] = "",
+	["{npc:6173} and {npc:6171} are in the Cathedral of Light."] = "{npc:6173} ve {npc:6171} Cathedral of Light içinde.",
 	-- {npc:6171} Duthorian Rall
 	["{npc:6171}: Redemption"] = "{npc:6171}: Redemption",
 
@@ -186,9 +186,9 @@ return {
 	["{zone:1453} has no shaman trainer: take the {area:2257} from the {object:28027} to {zone:1455}, train with {npc:258098}, then ride the tram back for the {area:442} boat."] = "{zone:1453} şehrinde Shaman eğitmeni yok: {object:28027} semtinden {area:2257} trenine binip {zone:1455} şehrine git, {npc:258098} adlı NPC'den eğitimini al, sonra {area:442} gemisi için trenle geri dön.",
 
 	-- Step 41: Rogue training
-	["Rogue training"] = "",
+	["Rogue training"] = "Rogue eğitimi",
 	-- {zone:1453} Stormwind
-	["Train here, in {zone:1453}, before you go on."] = "",
+	["Train here, in {zone:1453}, before you go on."] = "Devam etmeden önce burada, {zone:1453} şehrinde eğitim al.",
 
 	-- Step 43: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",

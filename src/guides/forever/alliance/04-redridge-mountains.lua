@@ -9,7 +9,7 @@ return {
 
 	-- Step 2: Stormwind
 	-- {area:442} Auberdine · {area:17203} Stormwind Harbor · {npc:1646} Baros Alexston · {area:12} Elwynn Forest
-	["The {area:442} boat docks at {area:17203}. Walk up into the city for training and {npc:1646}, then leave by the main gate and follow the road east through {area:12}."] = "",
+	["The {area:442} boat docks at {area:17203}. Walk up into the city for training and {npc:1646}, then leave by the main gate and follow the road east through {area:12}."] = "{area:442} gemisi {area:17203} limanına yanaşır. Eğitim ve {npc:1646} için şehre çık, sonra ana kapıdan çıkıp yolu doğuya, {area:12} içinden izle.",
 	["Level 18 and 20 spells"] = "Seviye 18 ve 20 büyüleri",
 	-- {npc:1646} Baros Alexston · {area:442} Auberdine
 	["{npc:1646}: Thundris' letter from {area:442}"] = "{npc:1646}: {area:442} kasabasından Thundris'in mektubu",
@@ -18,11 +18,11 @@ return {
 
 	-- Step 3: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Polearms from {npc:11867} ({object:2096}, 1 gold); two-handers level a Warrior fastest."] = "",
+	["While you're here: learn Polearms from {npc:11867} ({object:2096}, 1 gold); two-handers level a Warrior fastest."] = "Buradayken: {npc:11867} sana Polearms öğretir ({object:2096}, 1 altın); Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 4: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Polearms from {npc:11867} ({object:2096}, 1 gold); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "",
+	["While you're here: learn Polearms from {npc:11867} ({object:2096}, 1 gold); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11867} sana Polearms öğretir ({object:2096}, 1 altın); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
 	-- Step 5: Stormwind class quests
 	-- {zone:1453} Stormwind
@@ -71,7 +71,7 @@ return {
 	-- Step 14: Henze Faulk
 	-- {area:91} Tower of Azora · {area:86} Stone Cairn Lake · {npc:6172} Henze Faulk · {item:6866} Symbol of Life · {item:6846} Defias Script
 	-- plural, as words: Defias Rogue Wizards = {npc:474} Defias Rogue Wizard
-	["On the road east, past the {area:91}, head north from the bridge to {area:86}. {npc:6172} lies south of the lake: use the {item:6866} on him. The Defias Rogue Wizards around him carry the {item:6846}."] = "",
+	["On the road east, past the {area:91}, head north from the bridge to {area:86}. {npc:6172} lies south of the lake: use the {item:6866} on him. The Defias Rogue Wizards around him carry the {item:6846}."] = "Doğuya giden yolda, {area:91} kulesini geçince köprüden kuzeye, {area:86} gölüne git. {npc:6172} gölün güneyinde yatıyor: {item:6866} eşyasını onun üzerinde kullan. Çevresindeki Defias Rogue Wizard yaratıkları {item:6846} taşıyor.",
 	-- {item:6866} Symbol of Life · {npc:6172} Henze Faulk
 	["Use the {item:6866} on {npc:6172}"] = "{item:6866} eşyasını {npc:6172} üzerinde kullan",
 	-- {item:6846} Defias Script
@@ -92,7 +92,7 @@ return {
 	-- {npc:341} Foreman Oslow · {npc:382} Marshal Marris · {npc:900} Bailiff Conacher · {npc:381} Dockmaster Baren · {npc:266} Wiley the Black · {npc:343} Chef Breanna · {npc:342} Martie Jainrose
 	["Cross the long bridge north into town. {npc:341} and {npc:382} stand at the north end of the bridge, {npc:900} in the town hall, {npc:381} and {npc:266} on the docks, {npc:343} at the inn, {npc:342} in her garden at the west end."] = "Uzun köprüden kuzeye geçerek kasabaya gir. {npc:341} ve {npc:382} köprünün kuzey ucunda, {npc:900} belediye binasında, {npc:381} ve {npc:266} iskelede, {npc:343} handa, {npc:342} ise batı uçtaki bahçesinde duruyor.",
 	-- {npc:266} Wiley the Black
-	["{npc:266}, by the docks; upstairs"] = "",
+	["{npc:266}, by the docks; upstairs"] = "{npc:266}, iskelelerin yanında; üst katta",
 	["Inside"] = "İçeride",
 	-- {npc:343} Chef Breanna
 	["{npc:343}, inside"] = "{npc:343}, içeride",
@@ -134,13 +134,13 @@ return {
 	["{area:68}: kill these as you meet them"] = "{area:68}: bunları karşılaştıkça öldür",
 	-- {item:1467} Spotted Sunfish
 	-- plural, as words: Murloc Flesheaters = {npc:422} Murloc Flesheater · Greater Tarantulas = {npc:505} Greater Tarantula
-	["Murloc Flesheaters and Tidecallers line the south shore east of the bridge. Any of them can carry a {item:1467} or a fin.\nGreater Tarantulas crawl on the slopes around the mill north-east of the lake."] = "",
+	["Murloc Flesheaters and Tidecallers line the south shore east of the bridge. Any of them can carry a {item:1467} or a fin.\nGreater Tarantulas crawl on the slopes around the mill north-east of the lake."] = "Murloc Flesheater ve Murloc Tidecaller yaratıkları köprünün doğusunda güney kıyı boyunca diziliyor. Herhangi biri {item:1467} ya da bir yüzgeç taşıyabilir.\nGreater Tarantula yaratıkları gölün kuzeydoğusundaki değirmenin çevresindeki yamaçlarda geziniyor.",
 
 	-- Step 31: Galardell Valley: kill these as you meet them
 	-- {area:1000} Galardell Valley
 	["{area:1000}: kill these as you meet them"] = "{area:1000}: bunları karşılaştıkça öldür",
 	-- {npc:703} Lieutenant Fangore · {area:2099} Stonewatch Keep
-	["East past the mill and across the river. Shadowhide gnolls fill the valley; {npc:703} (26, well above you) leads them at its north end: clear his escort first and fight him at full health. Stay out of {area:2099} to the south: its orcs are elite.\nCareful: Two gnoll guards stay with him and join the fight whenever he is attacked, even if he has wandered a short way off; other gnolls stand close by and wander through the area."] = "",
+	["East past the mill and across the river. Shadowhide gnolls fill the valley; {npc:703} (26, well above you) leads them at its north end: clear his escort first and fight him at full health. Stay out of {area:2099} to the south: its orcs are elite.\nCareful: Two gnoll guards stay with him and join the fight whenever he is attacked, even if he has wandered a short way off; other gnolls stand close by and wander through the area."] = "Değirmeni geçip doğuya git ve nehrin karşısına geç. Vadi Shadowhide gnoll'larıyla dolu; vadinin kuzey ucunda onları {npc:703} (26, senden epey yüksek) yönetiyor: önce muhafızlarını temizle ve onunla canın tamken dövüş. Güneydeki {area:2099} kalesinden uzak dur: oradaki orc'lar elit.\nDikkat: Yanında iki gnoll muhafız kalıyor ve biraz uzaklaşmış olsa bile ona saldırıldığında dövüşe katılıyor; başka gnoll'lar da yakınlarda durup bölgede dolaşıyor.",
 	-- {item:1075} Shadowhide Pendant
 	["{item:1075}: any Shadowhide gnoll"] = "{item:1075}: herhangi bir Shadowhide gnollu",
 

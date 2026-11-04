@@ -9,7 +9,7 @@ return {
 
 	-- Step 2: Aquatic Form
 	-- {area:17203} Stormwind Harbor · {area:442} Auberdine · {item:15885} Pendant of the Sea Lion · {spell:18960} Teleport: Moonglade · {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven · {npc:11800} Silva Fil'naveth · {area:702} Rut'theran Village
-	["Take the boat from {area:17203} to {area:442}. Join the two half pendants into the {item:15885} and cast {spell:18960}: {npc:11802} is in {area:2361}. Then {npc:11800} in {area:2361} flies Druids straight to {area:702}."] = "",
+	["Take the boat from {area:17203} to {area:442}. Join the two half pendants into the {item:15885} and cast {spell:18960}: {npc:11802} is in {area:2361}. Then {npc:11800} in {area:2361} flies Druids straight to {area:702}."] = "{area:17203} limanından {area:442} kasabasına giden gemiye bin. İki yarım kolyeyi birleştirip {item:15885} yap ve {spell:18960} büyüsünü kullan: {npc:11802}, {area:2361} köyünde. Sonra {area:2361} köyündeki {npc:11800}, Druid'leri doğruca {area:702} köyüne uçurur.",
 	-- {item:15885} Pendant of the Sea Lion
 	["{item:15885}: join the two halves"] = "{item:15885}: iki yarıyı birleştir",
 
@@ -35,11 +35,11 @@ return {
 
 	-- Step 12: Kerlonian Evershade
 	-- {area:448} Grove of the Ancients · {zone:1439} Darkshore · {item:13536} Horn of Awakening · {area:331} Ashenvale · {npc:11219} Liladris Moonriver · {area:413} Maestra's Post
-	["Kerlonian sleeps at the {area:448} in southern {zone:1439}. Use the {item:13536} to wake him and lead him south along the road into {area:331} to {npc:11219} at {area:413}; blow the horn again whenever he falls asleep.\nCareful: Scripted ambushes of three mobs each attack along the road: furbolgs on the {zone:1439} stretch and undead nearer {area:413}."] = "",
+	["Kerlonian sleeps at the {area:448} in southern {zone:1439}. Use the {item:13536} to wake him and lead him south along the road into {area:331} to {npc:11219} at {area:413}; blow the horn again whenever he falls asleep.\nCareful: Scripted ambushes of three mobs each attack along the road: furbolgs on the {zone:1439} stretch and undead nearer {area:413}."] = "Kerlonian, güney {zone:1439} bölgesindeki {area:448} korusunda uyuyor. Onu uyandırmak için {item:13536} kullan ve yol boyunca güneye, {area:331} bölgesine, {area:413} karakolundaki {npc:11219} yanına götür; her uyuyakaldığında boynuzu yeniden çal.\nDikkat: Yol boyunca üçer yaratıklık senaryolu pusular saldırır: {zone:1439} kesiminde furbolg'lar, {area:413} karakoluna yakın undead'ler.",
 	-- {object:176634} Kerlonian's Chest
-	["{object:176634}, beside him"] = "",
+	["{object:176634}, beside him"] = "{object:176634}, onun yanında",
 	-- {area:413} Maestra's Post · {area:331} Ashenvale
-	["Escort Kerlonian to {area:413} in {area:331}."] = "",
+	["Escort Kerlonian to {area:413} in {area:331}."] = "Kerlonian'a {area:331} bölgesindeki {area:413} karakoluna kadar eşlik et.",
 
 	-- Step 15: Bathran's Haunt: kill these as you meet them
 	-- {area:411} Bathran's Haunt
@@ -51,7 +51,7 @@ return {
 
 	-- Step 17: Astranaar
 	-- {npc:3970} Llana · {npc:1480} Caitlin Grassman
-	["{npc:3970}: for {npc:1480} in Menethil, at the end of this guide; inside"] = "",
+	["{npc:3970}: for {npc:1480} in Menethil, at the end of this guide; inside"] = "{npc:3970}: bu rehberin sonunda Menethil'deki {npc:1480} için; içeride",
 	-- {npc:3691} Raene Wolfrunner
 	["{npc:3691}, in the inn"] = "{npc:3691}, handa",
 	-- {npc:3894} Pelturas Whitemoon
@@ -65,7 +65,7 @@ return {
 	-- {npc:3901} Illiyana
 	["Melyria and {npc:3901}"] = "Melyria ve {npc:3901}",
 	-- {npc:3585} Therysil · {area:416} Shrine of Aessina
-	["The two stand together at the western end of the road.\nSouth of the murlocs, {npc:3585} waits at the {area:416}."] = "",
+	["The two stand together at the western end of the road.\nSouth of the murlocs, {npc:3585} waits at the {area:416}."] = "İkisi yolun batı ucunda birlikte duruyor.\nMurloc'ların güneyinde {npc:3585}, {area:416} tapınağında bekliyor.",
 
 	-- Step 20: Teronis' Corpse
 	-- {area:441} Lake Falathim · {item:5463} Glowing Gem
@@ -87,11 +87,11 @@ return {
 
 	-- Step 28: Dal Bloodclaw
 	-- {npc:3987} Dal Bloodclaw · {area:415} Astranaar
-	["{npc:3987} (25) leads the Thistlefur furbolgs at the camp north of {area:415}. Clear his guards first, one at a time.\nCareful: The furbolgs near him usually join in when he is pulled. Killing the ones along his path first lets you fight him alone."] = "",
+	["{npc:3987} (25) leads the Thistlefur furbolgs at the camp north of {area:415}. Clear his guards first, one at a time.\nCareful: The furbolgs near him usually join in when he is pulled. Killing the ones along his path first lets you fight him alone."] = "{npc:3987} (25), {area:415} kasabasının kuzeyindeki kampta Thistlefur furbolg'larını yönetiyor. Önce muhafızlarını tek tek temizle.\nDikkat: Onu çektiğinde yakınındaki furbolg'lar genellikle katılır. Önce onun yolu üstündekileri öldürürsen onunla tek başına dövüşebilirsin.",
 
 	-- Step 29: Shael'dryn
 	-- {area:419} Howling Vale · {npc:3916} Shael'dryn · {area:415} Astranaar
-	["Follow the road east to the {area:419}; {npc:3916} stands by the moonwell.\nThe moonwell lies in the hills north-east of {area:415}."] = "",
+	["Follow the road east to the {area:419}; {npc:3916} stands by the moonwell.\nThe moonwell lies in the hills north-east of {area:415}."] = "Yolu doğuya, {area:419} vadisine izle; {npc:3916} ay kuyusunun yanında duruyor.\nAy kuyusu {area:415} kasabasının kuzeydoğusundaki tepelerde.",
 
 	-- Step 30: Elune's Tear
 	-- {area:415} Astranaar
@@ -113,14 +113,14 @@ return {
 
 	-- Step 34: Alonso
 	-- {npc:210995} Alonso · {area:1276} The Talondeep Path
-	["{npc:210995} may not offer these to every class; if he doesn't, carry on.; walks around {area:1276}: the map marks where to look"] = "",
+	["{npc:210995} may not offer these to every class; if he doesn't, carry on.; walks around {area:1276}: the map marks where to look"] = "{npc:210995} bunları her sınıfa önermeyebilir; önermezse yoluna devam et.; {area:1276} çevresinde dolaşıyor: harita nereye bakacağını işaretler",
 
 	-- Step 35: The Ruins of Stardust
 	["West of Mystral Lake, the stardust bushes grow among the ruins."] = "Mystral Lake gölünün batısında, yıldız tozu çalıları harabelerin arasında yetişiyor.",
 
 	-- Step 38: Piznik
 	-- {npc:4276} Piznik · {area:2160} Windshear Mine
-	["{npc:4276} mines in the {area:2160} at the east end of the crag. Talk to him and fend off the Venture Co. raiders while he mines.\nCareful: The kobolds arrive in waves. The first wave is melee fighters, and the second adds casters to the mix. Regular mobs in the mine respawn quickly and can join the fight while the waves are coming. A group is recommended."] = "",
+	["{npc:4276} mines in the {area:2160} at the east end of the crag. Talk to him and fend off the Venture Co. raiders while he mines.\nCareful: The kobolds arrive in waves. The first wave is melee fighters, and the second adds casters to the mix. Regular mobs in the mine respawn quickly and can join the fight while the waves are coming. A group is recommended."] = "{npc:4276}, kayalığın doğu ucundaki {area:2160} madeninde kazı yapıyor. Onunla konuş ve o kazarken Venture Co. akıncılarını püskürt.\nDikkat: Kobold'lar dalgalar halinde gelir. İlk dalga yakın dövüşçülerden oluşur, ikincisine büyücüler de eklenir. Madendeki normal yaratıklar çabuk yeniden doğar ve dalgalar gelirken dövüşe katılabilir. Grup önerilir.",
 	["Below ground"] = "Yer altında",
 
 	-- Step 39: Windshear Crag
@@ -133,7 +133,7 @@ return {
 
 	-- Step 41: Windshear Crag
 	-- {npc:4201} Ziz Fizziks
-	["{npc:4201}, in the hut north of them; inside"] = "",
+	["{npc:4201}, in the hut north of them; inside"] = "{npc:4201}, onların kuzeyindeki kulübede; içeride",
 
 	-- Step 42: Windshear Crag: kill these as you meet them
 	-- {area:461} Windshear Crag
@@ -160,7 +160,7 @@ return {
 
 	-- Step 48: Menethil Harbor
 	-- {npc:5082} Vincent Hyal · {npc:1480} Caitlin Grassman · {npc:2104} Captain Stoutfist · {area:2103} Menethil Keep · {npc:1242} Karl Boran
-	["{npc:5082}, Mikhail and Tapoke Jahn are all at Menethil's inn; Tapoke fights you when you talk to Mikhail, but gives up once beaten. {npc:1480} stands a short walk north-east of the inn.\n{npc:2104} stands in {area:2103}, a short walk from {npc:1242}.\n{npc:2104} stands in {area:2103}."] = "",
+	["{npc:5082}, Mikhail and Tapoke Jahn are all at Menethil's inn; Tapoke fights you when you talk to Mikhail, but gives up once beaten. {npc:1480} stands a short walk north-east of the inn.\n{npc:2104} stands in {area:2103}, a short walk from {npc:1242}.\n{npc:2104} stands in {area:2103}."] = "{npc:5082}, Mikhail ve Tapoke Jahn, hepsi Menethil'in hanında; Mikhail ile konuşunca Tapoke seninle dövüşür ama yenilince vazgeçer. {npc:1480} handan kuzeydoğuya kısa bir yürüyüş mesafesinde duruyor.\n{npc:2104}, {npc:1242} yerinden kısa bir yürüyüş uzaklıkta, {area:2103} içinde duruyor.\n{npc:2104}, {area:2103} içinde duruyor.",
 	-- {npc:1242} Karl Boran
 	["{npc:1242}, on the pier north of the inn"] = "{npc:1242}, hanın kuzeyindeki iskelede",
 	-- {npc:1242} Karl Boran · {npc:2104} Captain Stoutfist
@@ -174,7 +174,7 @@ return {
 	-- {npc:2097} Harlo Barnaby
 	["{npc:2097}, by the north gate"] = "{npc:2097}, kuzey kapısının yanında",
 	-- {npc:2086} Valstag Ironjaw
-	["{npc:2086}, by the keep; inside"] = "",
+	["{npc:2086}, by the keep; inside"] = "{npc:2086}, kalenin yanında; içeride",
 	-- {npc:2104} Captain Stoutfist
 	["{npc:2104}, on the top floor"] = "{npc:2104}, en üst katta",
 	-- {object:2117} Stormwind Keep
@@ -182,7 +182,7 @@ return {
 	-- {npc:2104} Captain Stoutfist
 	["{npc:2104}, by the keep"] = "{npc:2104}, kalenin yanında",
 	-- {npc:2096} Tarrel Rockweaver
-	["{npc:2096}: he won't offer 305 while you carry it"] = "",
+	["{npc:2096}: he won't offer 305 while you carry it"] = "{npc:2096}: sen onu taşırken 305'i önermez",
 	-- {npc:2096} Tarrel Rockweaver
 	["{npc:2096}, by the north gate"] = "{npc:2096}, kuzey kapısının yanında",
 	-- {npc:2094} James Halloran
@@ -197,7 +197,7 @@ return {
 
 	-- Step 51: James Halloran
 	-- {npc:2094} James Halloran
-	["{npc:2094} stands by the north gate."] = "",
+	["{npc:2094} stands by the north gate."] = "{npc:2094} kuzey kapısının yanında duruyor.",
 
 	-- Step 52: Bluegill Marsh
 	-- {npc:1259} Gobbler
@@ -219,7 +219,7 @@ return {
 	-- {npc:1076} Merrin Rockweaver
 	["{npc:1076}, below ground"] = "{npc:1076}, yer altında",
 	-- {item:279996} Goaz Stone · {zone:1437} Wetlands
-	["A new {item:279996}, for the four titan watchers around the {zone:1437}; below ground"] = "",
+	["A new {item:279996}, for the four titan watchers around the {zone:1437}; below ground"] = "{zone:1437} çevresindeki dört titan gözcüsü için yeni bir {item:279996}; yer altında",
 	-- {npc:2916} Historian Karnik · {zone:1455} Ironforge
 	["For {npc:2916} in {zone:1455}, at the end of this guide"] = "{zone:1455} şehrindeki {npc:2916} için, bu rehberin sonunda",
 
@@ -227,7 +227,7 @@ return {
 	["The raptor hills"] = "Raptor tepeleri",
 	-- {npc:1021} Mottled Screecher
 	-- plural, as words: Mottled Raptors = {npc:1020} Mottled Raptor · Mottled Screechers = {npc:1021} Mottled Screecher
-	["Mottled Raptors and Screechers roam the hills west of the excavation site.\nCareful: Once a {npc:1021} drops to 30% health, it calls for help from creatures within 20 yd. Mottled Screechers frequently come in packs of three, and raptors summoned by their calls for help may also join the fight."] = "",
+	["Mottled Raptors and Screechers roam the hills west of the excavation site.\nCareful: Once a {npc:1021} drops to 30% health, it calls for help from creatures within 20 yd. Mottled Screechers frequently come in packs of three, and raptors summoned by their calls for help may also join the fight."] = "Mottled Raptor ve Mottled Screecher yaratıkları kazı alanının batısındaki tepelerde dolaşıyor.\nDikkat: Bir {npc:1021} canı %30'a düşünce 20 yarda içindeki yaratıklardan yardım çağırır. Mottled Screecher'lar sık sık üçlü sürüler halinde gelir, yardım çağrılarıyla gelen raptor'lar da dövüşe katılabilir.",
 
 	-- Step 59: Raptor valley
 	["Raptor valley"] = "Raptor vadisi",
@@ -255,23 +255,23 @@ return {
 	["{zone:1437}: kill these as you meet them"] = "{zone:1437}: bunları karşılaştıkça öldür",
 	-- {area:309} Ironbeard's Tomb · {area:205} Dun Modr · {npc:2111} Sida · {npc:1244} Rethiel the Greenwarden
 	-- plural, as words: Monstrous Oozes = {npc:1033} Monstrous Ooze · Mosshide Fenrunners = {npc:1010} Mosshide Fenrunner
-	["Black, Crimson and Monstrous Oozes fill {area:309}, just west of the road to {area:205} and north of Einar's camp. Any ooze there may hold {npc:2111}'s bag.\nMosshide Fenrunners and Mistweavers roam the riverbanks just west and south of {npc:1244}; almost every one drops flint."] = "",
+	["Black, Crimson and Monstrous Oozes fill {area:309}, just west of the road to {area:205} and north of Einar's camp. Any ooze there may hold {npc:2111}'s bag.\nMosshide Fenrunners and Mistweavers roam the riverbanks just west and south of {npc:1244}; almost every one drops flint."] = "Black Ooze, Crimson Ooze ve Monstrous Ooze yaratıkları {area:205} yolunun hemen batısındaki ve Einar'ın kampının kuzeyindeki {area:309} mezarını dolduruyor. Oradaki herhangi bir ooze {npc:2111} çantasını taşıyor olabilir.\nMosshide Fenrunner ve Mosshide Mistweaver yaratıkları {npc:1244} yerinin hemen batısındaki ve güneyindeki nehir kıyılarında dolaşıyor; neredeyse hepsi çakmaktaşı düşürür.",
 
 	-- Step 67: The Green Belt: kill these as you meet them
 	-- {area:1025} The Green Belt
 	["{area:1025}: kill these as you meet them"] = "{area:1025}: bunları karşılaştıkça öldür",
 	-- {area:1025} The Green Belt · {item:279996} Goaz Stone · {quest:98283} Carnage
 	-- plural, as words: Maddened Rotclaws = {npc:271334} Maddened Rotclaw · Fen Creepers = {npc:1040} Fen Creeper
-	["Red whelps fill the hills west of the gates, Maddened Rotclaws the {area:1025}, Razormaws the northern slopes; Neru stands in the north-east (use the {item:279996}).\n{quest:98283} is elite: grouping up is advised.\nFen Creepers hide in the marsh pools north-west of the {area:1025}.\nCareful: When out of combat, Fen Creepers cast Sneak from time to time, so they are stealthed and hard to see."] = "",
+	["Red whelps fill the hills west of the gates, Maddened Rotclaws the {area:1025}, Razormaws the northern slopes; Neru stands in the north-east (use the {item:279996}).\n{quest:98283} is elite: grouping up is advised.\nFen Creepers hide in the marsh pools north-west of the {area:1025}.\nCareful: When out of combat, Fen Creepers cast Sneak from time to time, so they are stealthed and hard to see."] = "Kırmızı ejder yavruları kapıların batısındaki tepeleri, Maddened Rotclaw yaratıkları {area:1025} kuşağını, Razormaw'lar kuzey yamaçları dolduruyor; Neru kuzeydoğuda duruyor ({item:279996} kullan).\n{quest:98283} elit: grup kurman önerilir.\nFen Creeper yaratıkları {area:1025} kuşağının kuzeybatısındaki bataklık havuzlarında saklanıyor.\nDikkat: Fen Creeper'lar savaş dışındayken arada bir Sneak kullanır, bu yüzden gizlenmiş ve görmesi zor olurlar.",
 
 	-- Step 69: Hearth to Deepwater Tavern
 	-- {area:2104} Deepwater Tavern
 	["Hearth to {area:2104}"] = "Hearthstone ile dön: {area:2104}",
 
 	-- Step 71: Menethil
-	["Menethil"] = "",
+	["Menethil"] = "Menethil",
 	-- {npc:2092} Pilot Longbeard · {zone:1455} Ironforge · {area:836} Dun Algaz
-	["{npc:2092}'s quest in {zone:1455} needs level 28. If you are short of it after these hand-ins, grind the Dragonmaw orcs at the camps along the road east to {area:836} before you go on."] = "",
+	["{npc:2092}'s quest in {zone:1455} needs level 28. If you are short of it after these hand-ins, grind the Dragonmaw orcs at the camps along the road east to {area:836} before you go on."] = "{npc:2092} verdiği {zone:1455} görevi seviye 28 ister. Bu teslimlerden sonra hâlâ eksiğin varsa devam etmeden önce doğuya, {area:836} yolu boyunca kamplardaki Dragonmaw orc'larını kas.",
 	["For the giant crocolisks of the north coast, on your next visit"] = "Kuzey kıyısının dev crocolisk yaratıkları için, bir sonraki ziyaretinde",
 
 	-- Step 72: Into Loch Modan

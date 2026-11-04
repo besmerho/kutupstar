@@ -42,7 +42,7 @@ return {
 	["{area:385}: kill these as you meet them"] = "{area:385}: bunları karşılaştıkça öldür",
 	-- {area:385} Northwatch Hold · {npc:3393} Captain Fairmount
 	-- plural, as words: Theramore Marines = {npc:3385} Theramore Marine
-	["{area:385}, on the coast further south. The Theramore Marines and Preservers (15-16) drop the medals; {npc:3393} (20) and the two cannoneers (19) stand in the keep and on its walls, and they are why the hold waits until now.\nCareful: Each named target is linked to a healer and guards, and Fairmount has three extra marines with her. Killing the healer first makes the fight easier."] = "",
+	["{area:385}, on the coast further south. The Theramore Marines and Preservers (15-16) drop the medals; {npc:3393} (20) and the two cannoneers (19) stand in the keep and on its walls, and they are why the hold waits until now.\nCareful: Each named target is linked to a healer and guards, and Fairmount has three extra marines with her. Killing the healer first makes the fight easier."] = "{area:385}, kıyıda daha güneyde. Theramore Marine ve Theramore Preserver yaratıkları (15-16) madalyaları düşürür; {npc:3393} (20) ve iki topçu (19) kalede ve surlarında duruyor; kalenin şimdiye kadar beklemesinin sebebi onlar.\nDikkat: Her adlı hedef bir şifacıya ve muhafızlara bağlı, Fairmount'un yanında da üç fazladan marine var. Önce şifacıyı öldürmek dövüşü kolaylaştırır.",
 	["On the top floor"] = "En üst katta",
 	["Upstairs"] = "Üst katta",
 
@@ -51,7 +51,7 @@ return {
 	["{area:1697}: kill these as you meet them"] = "{area:1697}: bunları karşılaştıkça öldür",
 	-- {area:380} Crossroads · {area:1697} Raptor Grounds · {area:392} Ratchet · {area:385} Northwatch Hold
 	-- plural, as words: Sunscale Scytheclaws = {npc:3256} Sunscale Scytheclaw
-	["Sunscale Scytheclaws hunt the plains south of the {area:380}, around the {area:1697}; they drop the horns. Hand them in on your next pass through {area:392}.\nEast across the plains toward the coast: the stolen silver lies in a raptor nest north-west of {area:385}."] = "",
+	["Sunscale Scytheclaws hunt the plains south of the {area:380}, around the {area:1697}; they drop the horns. Hand them in on your next pass through {area:392}.\nEast across the plains toward the coast: the stolen silver lies in a raptor nest north-west of {area:385}."] = "Sunscale Scytheclaw yaratıkları {area:380} kasabasının güneyindeki ovalarda, {area:1697} çevresinde avlanıyor; boynuzları düşürürler. {area:392} kasabasından bir sonraki geçişinde teslim et.\nOvaları aşarak doğuya, kıyıya doğru git: çalınan gümüş {area:385} kalesinin kuzeybatısındaki bir raptor yuvasında.",
 
 	-- Step 16: Raptor nests
 	["Raptor nests"] = "Raptor yuvaları",
@@ -99,14 +99,14 @@ return {
 	["{area:17}: kill these as you meet them"] = "{area:17}: bunları karşılaştıkça öldür",
 	-- {quest:876} Serena Bloodfeather
 	-- plural, as words: Savannah Patriarchs = {npc:3241} Savannah Patriarch · Sprung Traps = {object:640104} Sprung Trap
-	["Savannah Patriarchs roam the plains east of the hills, and the Sprung Traps lie among them. {quest:876} leads the Witchwing harpies in the hills to the west.\nCareful: The route in passes stealthed Harpy Ambushers and an elite harpy that patrols."] = "",
+	["Savannah Patriarchs roam the plains east of the hills, and the Sprung Traps lie among them. {quest:876} leads the Witchwing harpies in the hills to the west.\nCareful: The route in passes stealthed Harpy Ambushers and an elite harpy that patrols."] = "Savannah Patriarch yaratıkları tepelerin doğusundaki ovalarda dolaşıyor, Sprung Trap tuzakları da aralarında duruyor. {quest:876}, batıdaki tepelerde Witchwing harpy'lerini yönetiyor.\nDikkat: Giriş yolu gizlenmiş Harpy Ambusher'ların ve devriye gezen elit bir harpy'nin yanından geçiyor.",
 	-- {quest:865} Raptor Horns
 	-- plural, as words: Sunscale Scytheclaws = {npc:3256} Sunscale Scytheclaw
-	["{quest:865}, if still open: Sunscale Scytheclaws prowl among the lions"] = "",
+	["{quest:865}, if still open: Sunscale Scytheclaws prowl among the lions"] = "{quest:865}, hâlâ açıksa: Sunscale Scytheclaw yaratıkları aslanların arasında dolaşıyor",
 
 	-- Step 28: Trouble in the Valley
 	-- {npc:262119} Corporal Adamore · {npc:261366} Walton
-	["{npc:262119} and his marines hold the wrecked caravan south of {npc:261366}. The marines are linked: pulling one calls the rest. Pull from the edge and run; they leash short, so you can thin the camp one at a time before tackling the Corporal."] = "",
+	["{npc:262119} and his marines hold the wrecked caravan south of {npc:261366}. The marines are linked: pulling one calls the rest. Pull from the edge and run; they leash short, so you can thin the camp one at a time before tackling the Corporal."] = "{npc:262119} ve marine'leri {npc:261366} yerinin güneyindeki parçalanmış kervanı tutuyor. Marine'ler birbirine bağlı: birini çekmek diğerlerini de çağırır. Kenardan çek ve kaç; kısa mesafede geri dönerler, böylece Corporal'a girişmeden önce kampı tek tek azaltabilirsin.",
 
 	-- Step 29: Walton
 	-- {npc:261366} Walton · {npc:261367} Terry Longdrink · {area:21} Kul Tiras
@@ -118,11 +118,11 @@ return {
 
 	-- Step 32: The Escape
 	-- {npc:3442} Sputtervalve · {area:392} Ratchet
-	["Wizzlecrank drives his shredder out of the camp: stay with him and kill whatever attacks him. {npc:3442} takes it in {area:392}.\nCareful: The route leads west and climbs a ramp. Once you reach the top, two Venture Company mobs ambush you."] = "",
+	["Wizzlecrank drives his shredder out of the camp: stay with him and kill whatever attacks him. {npc:3442} takes it in {area:392}.\nCareful: The route leads west and climbs a ramp. Once you reach the top, two Venture Company mobs ambush you."] = "Wizzlecrank shredder'ını kamptan dışarı sürüyor: yanında kal ve ona saldıran her şeyi öldür. {npc:3442}, {area:392} kasabasında teslim alır.\nDikkat: Yol batıya gidip bir rampaya tırmanıyor. Tepeye varınca iki Venture Company yaratığı pusu kurar.",
 
 	-- Step 33: Mission: Possible But Not Probable
 	-- {npc:7287} Foreman Silixiz
-	["Pickpocket {npc:7287} for the tower key before opening the lockbox. Gallywix and his lockbox are at the top; the key does not open that box, which still needs Lockpicking. Gallywix is elite: grouping up is advised. If you postpone this optional job, resume it in the Class guide Poisons (Horde)."] = "",
+	["Pickpocket {npc:7287} for the tower key before opening the lockbox. Gallywix and his lockbox are at the top; the key does not open that box, which still needs Lockpicking. Gallywix is elite: grouping up is advised. If you postpone this optional job, resume it in the Class guide Poisons (Horde)."] = "Kilitli kutuyu açmadan önce kule anahtarı için {npc:7287} yaratığının cebini kes. Gallywix ve kilitli kutusu tepede; anahtar o kutuyu açmaz, onun için yine Lockpicking gerekir. Gallywix elit: grup kurman önerilir. Bu isteğe bağlı işi ertelersen Sınıf rehberi Poisons (Horde) içinde devam et.",
 	["Venture Co. tower"] = "Venture Co. kulesi",
 
 	-- Step 34: Boulder Lode Mine
@@ -136,7 +136,7 @@ return {
 
 	-- Step 38: Taskmaster Fizzule
 	-- {area:382} Sludge Fen · {item:8051} Flare Gun
-	["Fizzule is by the Venture Co. tower north of the {area:382}. Before you go near him, use {item:8051} to fire two flares, then target him and /salute: he attacks anyone who comes in without signalling first."] = "",
+	["Fizzule is by the Venture Co. tower north of the {area:382}. Before you go near him, use {item:8051} to fire two flares, then target him and /salute: he attacks anyone who comes in without signalling first."] = "Fizzule, {area:382} bataklığının kuzeyindeki Venture Co. kulesinin yanında. Ona yaklaşmadan önce {item:8051} ile iki işaret fişeği at, sonra onu hedef al ve /salute yaz: önce işaret vermeden gelen herkese saldırır.",
 
 	-- Step 41: Orgrimmar
 	-- {area:1637} Orgrimmar · {npc:3354} Sorek · {object:172958} Valley of Honor · {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom
@@ -218,12 +218,12 @@ return {
 
 	-- Step 67: Ishamuhale
 	-- {quest:882} Ishamuhale · {item:10338} Fresh Zhevra Carcass · {object:147538} Dead Tree (no name in this language: may be words) · {area:392} Ratchet · {area:380} Crossroads
-	["{quest:882}, a big Sunscale raptor, only comes to a fresh kill: loot a {item:10338} from a zhevra, then use it at the {object:147538} north-west of {area:392}, north of the road to the {area:380}, and be ready when he arrives."] = "",
+	["{quest:882}, a big Sunscale raptor, only comes to a fresh kill: loot a {item:10338} from a zhevra, then use it at the {object:147538} north-west of {area:392}, north of the road to the {area:380}, and be ready when he arrives."] = "Büyük bir Sunscale raptor'ı olan {quest:882} yalnızca taze bir leşe gelir: bir zhevra'dan {item:10338} loot'la, sonra {area:392} kasabasının kuzeybatısında, {area:380} yolunun kuzeyindeki {object:147538} yanında kullan ve geldiğinde hazır ol.",
 	-- {item:10338} Fresh Zhevra Carcass
 	-- plural, as words: Zhevra Chargers = {npc:3426} Zhevra Charger
-	["{item:10338}, from any zhevra; Zhevra Chargers graze around the tree"] = "",
+	["{item:10338}, from any zhevra; Zhevra Chargers graze around the tree"] = "{item:10338}, herhangi bir zhevra'dan; Zhevra Charger yaratıkları ağacın çevresinde otluyor",
 	-- {object:147538} Dead Tree (no name in this language: may be words) · {quest:882} Ishamuhale
-	["At the {object:147538}: summons {quest:882}"] = "",
+	["At the {object:147538}: summons {quest:882}"] = "{object:147538} yanında: {quest:882} gelir",
 
 	-- Step 68: Thun'grim Firegaze
 	-- {npc:5878} Thun'grim Firegaze · {area:380} Crossroads
@@ -267,19 +267,19 @@ return {
 
 	-- Step 79: Bael Modan
 	-- {area:359} Bael Modan · {npc:3392} Prospector Khazgorm
-	["South of Gann, the Bael'dun dwarves dig at {area:359}. Excavators and Foremen work the pit; {npc:3392} (26) carries the journal: pull him alone.\nCareful: Excavators (level 21-22) and Foremen (level 22-23) run off for help once they fall to 15% health, so more dwarves can join the fight."] = "",
+	["South of Gann, the Bael'dun dwarves dig at {area:359}. Excavators and Foremen work the pit; {npc:3392} (26) carries the journal: pull him alone.\nCareful: Excavators (level 21-22) and Foremen (level 22-23) run off for help once they fall to 15% health, so more dwarves can join the fight."] = "Gann'in güneyinde Bael'dun cüceleri {area:359} içinde kazı yapıyor. Excavator ve Foreman'ler çukurda çalışıyor; günlüğü {npc:3392} (26) taşıyor: onu tek başına çek.\nDikkat: Excavator (seviye 21-22) ve Foreman (seviye 22-23) yaratıkları canları %15'e düşünce yardım için kaçar, bu yüzden dövüşe daha fazla cüce katılabilir.",
 	-- {npc:3375} Bael'dun Foreman · {area:359} Bael Modan
 	["{npc:3375} walks around {area:359}: look inside the circle on the map"] = "{npc:3375}, {area:359} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 80: Blackthorn Ridge
 	-- {area:1701} Blackthorn Ridge · {npc:3436} Kuz · {npc:3434} Nak · {npc:3435} Lok Orcbane · {npc:5859} Hagg Taurenbane · {npc:3238} Stormhide · {npc:3341} Gann Stonespire · {quest:885} Washte Pawne · {spell:1752} Sinister Strike
 	-- plural, as words: Hecklefang Stalkers = {npc:4128} Hecklefang Stalker · Razormane Stalkers = {npc:3457} Razormane Stalker
-	["West of Gann, the Razormane hold {area:1701}. {npc:3436} is on the east side, {npc:3434} to the south, {npc:3435} at the west end. Lok (25) and the Warfrenzies (24-25) are a few levels above you; {npc:5859}, a rare elite, sometimes walks the ridge: leave him. Pathfinders and Stalkers drop the Backstabber, Seers the Wand, Warfrenzies the War Shield. {npc:3238} lizards and Hecklefang Stalkers roam the plain between {npc:3341} and the ridge. {quest:885}, a rare red wind serpent, flies over the ridge: its feather starts a quest.\nCareful: Razormane Stalkers move around in stealth and hit with {spell:1752}, so they can join a fight without warning."] = "",
+	["West of Gann, the Razormane hold {area:1701}. {npc:3436} is on the east side, {npc:3434} to the south, {npc:3435} at the west end. Lok (25) and the Warfrenzies (24-25) are a few levels above you; {npc:5859}, a rare elite, sometimes walks the ridge: leave him. Pathfinders and Stalkers drop the Backstabber, Seers the Wand, Warfrenzies the War Shield. {npc:3238} lizards and Hecklefang Stalkers roam the plain between {npc:3341} and the ridge. {quest:885}, a rare red wind serpent, flies over the ridge: its feather starts a quest.\nCareful: Razormane Stalkers move around in stealth and hit with {spell:1752}, so they can join a fight without warning."] = "Gann'in batısında Razormane'ler {area:1701} sırtını tutuyor. {npc:3436} doğu yakasında, {npc:3434} güneyde, {npc:3435} batı ucunda. Lok (25) ve Warfrenzy'ler (24-25) senden birkaç seviye yüksek; rare elit {npc:5859} bazen sırtta dolaşır: ona dokunma. Pathfinder ve Stalker'lar Backstabber, Seer'lar Wand, Warfrenzy'ler War Shield düşürür. {npc:3238} kertenkeleleri ve Hecklefang Stalker yaratıkları {npc:3341} ile sırt arasındaki ovada dolaşıyor. Nadir bir kızıl rüzgâr yılanı olan {quest:885} sırtın üzerinde uçuyor: tüyü bir görev başlatır.\nDikkat: Razormane Stalker yaratıkları gizlenerek dolaşır ve {spell:1752} ile vurur, bu yüzden dövüşe habersizce katılabilirler.",
 
 	-- Step 82: Field of Giants
 	-- {area:390} Field of Giants
 	-- plural, as words: Silithid Mounds = {object:3685} Silithid Mound · Silithid Swarmers = {npc:3252} Silithid Swarmer · Silithid Harvesters = {npc:3253} Silithid Harvester
-	["South of Camp Taurajo the Silithid Mounds dot the {area:390}; the eggs lie in them, and Silithid Swarmers come out to defend them. Silithid Harvesters are rare: if you see one, kill it for its head.\nCareful: Silithid Swarmers in the area release many tiny adds that interrupt spells; damage shields such as Thorns kill them in one hit."] = "",
+	["South of Camp Taurajo the Silithid Mounds dot the {area:390}; the eggs lie in them, and Silithid Swarmers come out to defend them. Silithid Harvesters are rare: if you see one, kill it for its head.\nCareful: Silithid Swarmers in the area release many tiny adds that interrupt spells; damage shields such as Thorns kill them in one hit."] = "Camp Taurajo'nun güneyinde Silithid Mound tümsekleri {area:390} alanına serpilmiş; yumurtalar onların içinde ve Silithid Swarmer yaratıkları onları korumak için dışarı çıkar. Silithid Harvester'lar nadir: birini görürsen kafası için öldür.\nDikkat: Bölgedeki Silithid Swarmer'lar büyüleri kesen çok sayıda minik yaratık salar; Thorns gibi hasar kalkanları onları tek vuruşta öldürür.",
 
 	-- Step 83: Sulhasa
 	-- {npc:14242} Sulhasa · {npc:3341} Gann Stonespire
@@ -304,7 +304,7 @@ return {
 	-- Step 87: Bael'dun fortress
 	["Bael'dun fortress"] = "Bael'dun kalesi",
 	-- plural, as words: Bael'dun Soldiers = {npc:3376} Bael'dun Soldier
-	["The Bael'dun Soldiers, Riflemen and Officers guard the fortress on the east side of the dig; all three items drop from them.\nCareful: Riflemen (level 24-25) Shoot from 5-30 yd, so nearby ones can join a fight from range."] = "",
+	["The Bael'dun Soldiers, Riflemen and Officers guard the fortress on the east side of the dig; all three items drop from them.\nCareful: Riflemen (level 24-25) Shoot from 5-30 yd, so nearby ones can join a fight from range."] = "Bael'dun Soldier, Rifleman ve Officer yaratıkları kazının doğu yakasındaki kaleyi koruyor; üç eşya da onlardan düşer.\nDikkat: Rifleman'ler (seviye 24-25) 5-30 yardadan Shoot ile ateş eder, bu yüzden yakındakiler dövüşe uzaktan katılabilir.",
 
 	-- Step 89: The flying machine
 	["The flying machine"] = "Uçan makine",
@@ -314,7 +314,7 @@ return {
 	["Twitching Antennae"] = "Twitching Antenna",
 	-- {area:390} Field of Giants · {area:378} Camp Taurajo · {npc:4196} Silithid Swarm · {npc:5781} Silithid Creeper Egg
 	-- plural, as words: Silithid Swarmers = {npc:3252} Silithid Swarmer · Silithid Creepers = {npc:3250} Silithid Creeper
-	["The antennae vanish fifteen minutes after they drop, so gather them now, on the way back north: kill the Silithid Swarmers and Creepers at the {area:390}' mounds until you have five, then hearth to {area:378} straight away.\nCareful: Silithid Swarmers (level 21-22) cast {npc:4196} both in and out of combat, which brings several small adds. Silithid Creepers (level 20-21) periodically cast {npc:5781} in combat, which spawns extra adds."] = "",
+	["The antennae vanish fifteen minutes after they drop, so gather them now, on the way back north: kill the Silithid Swarmers and Creepers at the {area:390}' mounds until you have five, then hearth to {area:378} straight away.\nCareful: Silithid Swarmers (level 21-22) cast {npc:4196} both in and out of combat, which brings several small adds. Silithid Creepers (level 20-21) periodically cast {npc:5781} in combat, which spawns extra adds."] = "Antenler düştükten on beş dakika sonra yok olur, bu yüzden onları şimdi, kuzeye dönüş yolunda topla: beş tane olana kadar {area:390} tümseklerindeki Silithid Swarmer ve Silithid Creeper yaratıklarını öldür, sonra hemen Hearthstone ile {area:378} kampına dön.\nDikkat: Silithid Swarmer'lar (seviye 21-22) savaşta da savaş dışında da {npc:4196} kullanır, bu da birkaç küçük yaratık getirir. Silithid Creeper'lar (seviye 20-21) savaşta arada bir {npc:5781} kullanır, bu da fazladan yaratık doğurur.",
 	["Twitching Antennae from the silithid"] = "Silithid yaratıklarından Twitching Antenna",
 
 	-- Step 92: Hearth to Camp Taurajo

@@ -11,7 +11,7 @@ return {
 	-- {zone:1454} Orgrimmar
 	["To {zone:1454}"] = "Git: {zone:1454}",
 	-- {area:380} Crossroads · {zone:1454} Orgrimmar · {npc:3310} Doras · {object:172982} Valley of Strength
-	["From the {area:380}, follow the road north-east to {zone:1454} and walk in by the main gate. {npc:3310}, the wind rider master, stands on the tower in the {object:172982}."] = "",
+	["From the {area:380}, follow the road north-east to {zone:1454} and walk in by the main gate. {npc:3310}, the wind rider master, stands on the tower in the {object:172982}."] = "{area:380} kasabasından yolu kuzeydoğuya, {zone:1454} şehrine izle ve ana kapıdan içeri gir. Wind rider ustası {npc:3310}, {object:172982} kesimindeki kulenin üstünde duruyor.",
 
 	-- Step 6: Sayoc
 	-- {spell:197} Two-Handed Axes · {npc:11868} Sayoc · {object:172958} Valley of Honor
@@ -27,7 +27,7 @@ return {
 
 	-- Step 10: The Sepulcher
 	-- {area:228} The Sepulcher · {npc:2226} Karos Razok
-	["{area:228} is the Forsaken crypt-town in the middle of the forest. Everyone you need stands around the crypt entrance; {npc:2226}, the bat handler, is just east of it.\nSwim back and follow the road west to the {area:228}."] = "",
+	["{area:228} is the Forsaken crypt-town in the middle of the forest. Everyone you need stands around the crypt entrance; {npc:2226}, the bat handler, is just east of it.\nSwim back and follow the road west to the {area:228}."] = "{area:228}, ormanın ortasındaki Forsaken mahzen kasabası. İhtiyacın olan herkes mahzen girişinin çevresinde duruyor; yarasa bakıcısı {npc:2226} girişin hemen doğusunda.\nYüzerek geri dön ve yolu batıya, {area:228} kasabasına izle.",
 	-- {npc:2121} Shadow Priest Allister · {quest:516} Beren's Peril
 	["{npc:2121}: {quest:516}, on the south loop"] = "{npc:2121}: {quest:516}, güney turunda",
 	-- {npc:1952} High Executor Hadrec
@@ -127,7 +127,7 @@ return {
 
 	-- Step 36: The Sepulcher
 	-- {npc:1499} Magistrate Sevren · {area:159} Brill
-	["{npc:1499} in {area:159}, on the way to the zeppelin at 19"] = "",
+	["{npc:1499} in {area:159}, on the way to the zeppelin at 19"] = "{npc:1499}, {area:159} kasabasında, 19. seviyedeki zeplin yolunun üstünde",
 
 	-- Step 37: Quinn Yorick
 	["North again to the Yoricks' house."] = "Yine kuzeye, Yorick ailesinin evine git.",
@@ -148,7 +148,7 @@ return {
 	-- {object:1599} Shallow Grave
 	["{object:1599}, just east of the keep"] = "{object:1599}, kalenin hemen doğusunda",
 	-- {object:112888} Dusty Shelf
-	["{object:112888}, inside the keep; upstairs"] = "",
+	["{object:112888}, inside the keep; upstairs"] = "{object:112888}, kalenin içinde; üst katta",
 	-- {npc:1940} Rot Hide Plague Weaver
 	["grind on {npc:1940}"] = "Kas: {npc:1940}",
 
@@ -164,7 +164,7 @@ return {
 	-- {item:3354} Dalaran Pendant
 	["{item:3354} on the way"] = "Yol üstünde: {item:3354}",
 	-- {item:3354} Dalaran Pendant · {area:228} The Sepulcher
-	["{item:3354} along the way to the {area:228}"] = "",
+	["{item:3354} along the way to the {area:228}"] = "{item:3354}, {area:228} yolu üstünde",
 
 	-- Step 43: Ambermill
 	-- {area:233} Ambermill · {npc:2120} Archmage Ataeric
@@ -177,7 +177,7 @@ return {
 	["{area:130}: kill these as you meet them"] = "{area:130}: bunları karşılaştıkça öldür",
 	-- {quest:516} Beren's Peril
 	-- plural, as words: Ravenclaw Drudgers = {npc:1974} Ravenclaw Drudger
-	["South-west of Ambermill, the Ravenclaw Drudgers and Guardians haunt the ruins of {quest:516} in the south-east of the forest.\nCareful: The cave passages are narrow, so it is easy to pull extra mobs. Three mobs guard the entrance, and one of them walks a short patrol away from the other two."] = "",
+	["South-west of Ambermill, the Ravenclaw Drudgers and Guardians haunt the ruins of {quest:516} in the south-east of the forest.\nCareful: The cave passages are narrow, so it is easy to pull extra mobs. Three mobs guard the entrance, and one of them walks a short patrol away from the other two."] = "Ambermill'in güneybatısında, Ravenclaw Drudger ve Ravenclaw Guardian yaratıkları ormanın güneydoğusundaki {quest:516} harabelerinde dolaşıyor.\nDikkat: Mağara geçitleri dar, bu yüzden fazladan yaratık çekmek kolay. Girişi üç yaratık koruyor, biri diğer ikisinden ayrılıp kısa bir devriye yürüyor.",
 	["Below ground"] = "Yer altında",
 	-- {npc:1888} Dalaran Watcher
 	["grind on {npc:1888}"] = "Kas: {npc:1888}",
@@ -201,20 +201,20 @@ return {
 
 	-- Step 48: The Ivar Patch
 	-- {area:85} Tirisfal Glades · {area:238} Malden's Orchard · {quest:425} Ivar the Foul
-	["Take the road north toward {area:85}: the Yoricks' house at {area:238} is on the way. {quest:425} lurks a short walk west of it."] = "",
+	["Take the road north toward {area:85}: the Yoricks' house at {area:238} is on the way. {quest:425} lurks a short walk west of it."] = "Kuzeye, {area:85} yönüne giden yolu tut: {area:238} bahçesindeki Yorick'lerin evi yolun üstünde. {quest:425} evin kısa bir yürüyüş batısında pusuda.",
 	["Inside"] = "İçeride",
 
 	-- Step 50: Magistrate Sevren
 	-- {area:159} Brill · {npc:1499} Magistrate Sevren
-	["{area:159} is a short walk north up the road from the zeppelin towers; {npc:1499} is in the town hall."] = "",
+	["{area:159} is a short walk north up the road from the zeppelin towers; {npc:1499} is in the town hall."] = "{area:159} kasabası zeplin kulelerinden yolu kuzeye kısa bir yürüyüş mesafesinde; {npc:1499} belediye binasında.",
 
 	-- Step 53: Valley of Strength
 	-- {npc:268701} Thatog · {object:172982} Valley of Strength
-	["Walk in through the main gate. {npc:268701} stands in the {object:172982}."] = "",
+	["Walk in through the main gate. {npc:268701} stands in the {object:172982}."] = "Ana kapıdan içeri gir. {npc:268701}, {object:172982} kesiminde duruyor.",
 
 	-- Step 56: Valley of Strength
 	-- {object:173016} Borstan's Firepit · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength · {quest:829} Neeru Fireblade
-	["{object:173016} is a few steps north.\nThe {object:172960} is the canyon under the {object:172982}; {quest:829} stands at its far end."] = "",
+	["{object:173016} is a few steps north.\nThe {object:172960} is the canyon under the {object:172982}; {quest:829} stands at its far end."] = "{object:173016} birkaç adım kuzeyde.\n{object:172960}, {object:172982} altındaki kanyon; {quest:829} kanyonun en dibinde duruyor.",
 
 	-- Step 59: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",

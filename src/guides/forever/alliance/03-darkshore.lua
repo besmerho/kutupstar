@@ -140,13 +140,13 @@ return {
 
 	-- Step 27: Mist's Edge
 	-- plural, as words: Thresher Eyes = {item:5412} Thresher Eye
-	["Thresher Eyes; underwater"] = "",
+	["Thresher Eyes; underwater"] = "Thresher Eye; su altında",
 
 	-- Step 28: The bay wrecks
 	["The bay wrecks"] = "Körfezdeki batıklar",
 	-- {area:442} Auberdine
 	-- plural, as words: Reef Crawlers = {npc:2235} Reef Crawler · Encrusted Tide Crawlers = {npc:2233} Encrusted Tide Crawler
-	["Two wrecks lie on the sea floor in the bay north of {area:442}; each holds a lockbox. Reef Crawlers and Encrusted Tide Crawlers line this shore.\nCareful: The murlocs inside the wrecks are close together and fast. They often swim through the hull walls and holes, so you will usually pull extra murlocs."] = "",
+	["Two wrecks lie on the sea floor in the bay north of {area:442}; each holds a lockbox. Reef Crawlers and Encrusted Tide Crawlers line this shore.\nCareful: The murlocs inside the wrecks are close together and fast. They often swim through the hull walls and holes, so you will usually pull extra murlocs."] = "{area:442} kasabasının kuzeyindeki koyda deniz dibinde iki batık yatıyor; her birinde bir kilitli kutu var. Reef Crawler ve Encrusted Tide Crawler yaratıkları bu kıyı boyunca diziliyor.\nDikkat: Batıkların içindeki murloc'lar birbirine yakın ve hızlı. Sık sık gövdenin duvarlarından ve deliklerinden geçip yüzdükleri için genellikle fazladan murloc çekersin.",
 	-- {item:12191} Silver Dawning's Lockbox
 	["{item:12191}; underwater"] = "{item:12191}; su altında",
 	-- {item:12192} Mist Veil's Lockbox
@@ -171,7 +171,7 @@ return {
 	-- plural, as words: Scaber Stalks = {item:5271} Scaber Stalk
 	["The cave lies south of the falls: Scaber Stalks grow all through it, the {item:5270} at the very back. The {npc:6788} lairs in the hills south of the falls."] = "Mağara şelalenin güneyinde: Scaber Stalk mantarları mağaranın her yerinde, {item:5270} ise en dipte yetişiyor. {npc:6788} şelalenin güneyindeki tepelerde inini kurmuş.",
 	-- plural, as words: Scaber Stalks = {item:5271} Scaber Stalk
-	["Scaber Stalks; below ground"] = "",
+	["Scaber Stalks; below ground"] = "Scaber Stalk; yer altında",
 	-- {item:5270} Death Cap
 	["{item:5270}; below ground"] = "{item:5270}; yer altında",
 
@@ -184,13 +184,13 @@ return {
 	["{item:12355}, in {object:177624}"] = "{item:12355}, {object:177624} içinde",
 
 	-- Step 35: The cave and the Den Mother
-	["Careful: If you attack one cub, the other cubs and often the mother join the fight, so expect to take on several at the same time."] = "",
+	["Careful: If you attack one cub, the other cubs and often the mother join the fight, so expect to take on several at the same time."] = "Dikkat: Bir yavruya saldırırsan diğer yavrular ve çoğu zaman anneleri de dövüşe katılır, bu yüzden aynı anda birkaçıyla dövüşmeyi bekle.",
 	-- {npc:6788} Den Mother
 	["{npc:6788}, below ground"] = "{npc:6788}, yer altında",
 
 	-- Step 38: Onu
 	-- {quest:948} Onu · {npc:270269} Arbal · {npc:11218} Kerlonian Evershade
-	["{quest:948} is the ancient at the Grove; {npc:270269} and {npc:11218} sleep beside him."] = "",
+	["{quest:948} is the ancient at the Grove; {npc:270269} and {npc:11218} sleep beside him."] = "{quest:948}, Grove'daki kadim; {npc:270269} ve {npc:11218} onun yanında uyuyor.",
 	-- {npc:11218} Kerlonian Evershade · {area:413} Maestra's Post · {zone:1440} Ashenvale
 	["{npc:11218}: his escort to {area:413} is done on the {zone:1440} leg"] = "{npc:11218}: onun {area:413} karakoluna eşlik görevi {zone:1440} ayağında yapılır",
 
@@ -230,7 +230,7 @@ return {
 
 	-- Step 42: Prospector Remtravel
 	-- {area:450} Remtravel's Excavation · {npc:10323} Murkdeep
-	["{area:450} lies on the coast south of {npc:10323}'s beach. Protect the prospector while he searches for the fossil.\nCareful: Ambushers appear as he passes certain spots: a scout comes out from under the board ramp, and more scouts come out when he checks the tent."] = "",
+	["{area:450} lies on the coast south of {npc:10323}'s beach. Protect the prospector while he searches for the fossil.\nCareful: Ambushers appear as he passes certain spots: a scout comes out from under the board ramp, and more scouts come out when he checks the tent."] = "{area:450} kazısı, {npc:10323} kumsalının güneyindeki kıyıda. Kâşif fosili ararken onu koru.\nDikkat: O belirli noktalardan geçerken pusucular çıkar: tahta rampanın altından bir scout çıkar, çadırı kontrol ederken de birkaç scout daha gelir.",
 
 	-- Step 43: Level 18.47
 	["Level 18.47"] = "Seviye 18.47",
@@ -338,7 +338,7 @@ return {
 	-- {npc:11802} Dendrite Starblaze
 	["Back to {npc:11802}"] = "{npc:11802} yanına dön",
 	-- {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven · {npc:11800} Silva Fil'naveth · {area:702} Rut'theran Village
-	["Back to {npc:11802} in {area:2361}, then {npc:11800} there flies Druids straight to {area:702}."] = "",
+	["Back to {npc:11802} in {area:2361}, then {npc:11800} there flies Druids straight to {area:702}."] = "{area:2361} köyündeki {npc:11802} yanına dön, sonra oradaki {npc:11800} Druid'leri doğruca {area:702} köyüne uçurur.",
 
 	-- Step 69: To Darnassus
 	-- {npc:4217} Mathrengyl Bearwalker · {area:442} Auberdine · {zone:1453} Stormwind

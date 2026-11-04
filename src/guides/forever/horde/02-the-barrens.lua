@@ -18,7 +18,7 @@ return {
 	["{area:17}: kill these as you meet them"] = "{area:17}: bunları karşılaştıkça öldür",
 	-- {area:380} The Crossroads
 	-- plural, as words: Sunscale Screechers = {npc:3255} Sunscale Screecher
-	["Plainstriders and Sunscale raptors roam the plains all around the {area:380}, thickest to the north.\nCareful: Sunscale Screechers call nearby allies within 30 yd once below 30% health, so dense packs can pull extra raptors."] = "",
+	["Plainstriders and Sunscale raptors roam the plains all around the {area:380}, thickest to the north.\nCareful: Sunscale Screechers call nearby allies within 30 yd once below 30% health, so dense packs can pull extra raptors."] = "Plainstrider ve Sunscale raptor'ları {area:380} kasabasının her yanındaki ovalarda dolaşıyor, en yoğun olarak kuzeyde.\nDikkat: Sunscale Screecher yaratıkları canları %30'un altına düşünce 30 yarda içindeki yakın müttefiklerini çağırır, bu yüzden yoğun sürüler fazladan raptor çekebilir.",
 
 	-- Step 5: The Zhevra
 	-- plural, as words: Zhevra Runners = {npc:3242} Zhevra Runner
@@ -53,7 +53,7 @@ return {
 	["{area:1898} cultists"] = "{area:1898} tarikatçıları",
 	-- {area:1898} Dustwind Gulch · {area:14} Durotar · {item:6652} Reagent Pouch · {item:5026} Fire Tar
 	-- plural, as words: Burning Blade Cultists = {npc:3199} Burning Blade Cultist
-	["Burning Blade Cultists hold {area:1898} in northern {area:14}; they drop the {item:6652}. The {item:5026} comes from the Razormane on your next visit to their camp."] = "",
+	["Burning Blade Cultists hold {area:1898} in northern {area:14}; they drop the {item:6652}. The {item:5026} comes from the Razormane on your next visit to their camp."] = "Burning Blade Cultist yaratıkları kuzey {area:14} bölgesindeki {area:1898} vadisini tutuyor; {item:6652} düşürürler. {item:5026}, kamplarına bir sonraki gelişinde Razormane'lerden çıkar.",
 
 	-- Step 20: Thun'grim Firegaze
 	-- {npc:5878} Thun'grim Firegaze · {area:380} The Crossroads · {area:392} Ratchet · {object:58369} Stolen Iron Chest
@@ -77,7 +77,7 @@ return {
 
 	-- Step 24: The Barrens: kill these as you meet them
 	-- {area:392} Ratchet · {npc:3467} Baron Longshore
-	["The pirates camp on the beach south of {area:392}. The piles of complicated parts lie in the sand among them.\nThe pirates camp on the beach south of {area:392}; {npc:3467} stands at its southern end."] = "",
+	["The pirates camp on the beach south of {area:392}. The piles of complicated parts lie in the sand among them.\nThe pirates camp on the beach south of {area:392}; {npc:3467} stands at its southern end."] = "Korsanlar {area:392} kasabasının güneyindeki kumsalda kamp kurmuş. Karmaşık parça yığınları aralarında kumun içinde duruyor.\nKorsanlar {area:392} kasabasının güneyindeki kumsalda kamp kurmuş; {npc:3467} kampın güney ucunda duruyor.",
 
 	-- Step 26: Stolen Booty
 	["Back down the beach, past the pirate camp: the crate of boots and the fragile crate with the lens sit at its south end."] = "Kumsaldan geri in ve korsan kampını geç: çizme sandığı ve merceğin bulunduğu Fragile sandığı kampın güney ucunda.",
@@ -100,18 +100,18 @@ return {
 	-- Step 33: Dry Hills
 	-- {area:383} Dry Hills · {quest:819} Chen's Empty Keg
 	-- plural, as words: Witchwing Ambushers = {npc:3279} Witchwing Ambusher
-	["West to the {area:383}. The Witchwing harpies nest all over them; any of them can drop a talon. {quest:819} lies in their hills.\nCareful: There are 2 Witchwing Ambushers (level 17-18). They stay stealthed with Sneak while out of combat."] = "",
+	["West to the {area:383}. The Witchwing harpies nest all over them; any of them can drop a talon. {quest:819} lies in their hills.\nCareful: There are 2 Witchwing Ambushers (level 17-18). They stay stealthed with Sneak while out of combat."] = "Batıya, {area:383} tepelerine git. Witchwing harpy'leri tepelerin her yanında yuva yapmış; herhangi biri pençe düşürebilir. {quest:819} onların tepelerinde duruyor.\nDikkat: 2 Witchwing Ambusher (seviye 17-18) var. Savaş dışındayken Sneak ile gizli kalırlar.",
 
 	-- Step 34: Samophlange
 	-- {object:4141} Control Console · {area:382} Sludge Fen · {item:5089} Console Key · {npc:3471} Tinkerer Sniggles
-	["The {object:4141} stands at the Venture Co. research site west of the {area:382}. Close the three valves around the drill, use the console again, then take the {item:5089} from {npc:3471} beside it.\nCareful: Several guards stand within aggro range of the valves, respawn in under about 3 minutes, and run at low health to bring back help; nearby mobs also join if you use a valve while they are close."] = "",
+	["The {object:4141} stands at the Venture Co. research site west of the {area:382}. Close the three valves around the drill, use the console again, then take the {item:5089} from {npc:3471} beside it.\nCareful: Several guards stand within aggro range of the valves, respawn in under about 3 minutes, and run at low health to bring back help; nearby mobs also join if you use a valve while they are close."] = "{object:4141}, {area:382} bataklığının batısındaki Venture Co. araştırma alanında duruyor. Sondajın çevresindeki üç vanayı kapat, konsolu yeniden kullan, sonra yanındaki {npc:3471} yaratığından {item:5089} al.\nDikkat: Vanaların saldırı menzili içinde birkaç muhafız duruyor, yaklaşık 3 dakikadan kısa sürede yeniden doğuyorlar ve canları azalınca yardım getirmek için kaçıyorlar; yakındayken bir vana kullanırsan yakındaki yaratıklar da katılır.",
 	["Inside"] = "İçeride",
 	-- {npc:3442} Sputtervalve · {area:392} Ratchet
 	["{npc:3442} in {area:392}: later, on the way"] = "{area:392} limanındaki {npc:3442}: daha sonra, yolda",
 
 	-- Step 35: Echeyakee
 	-- {quest:881} Echeyakee
-	["{quest:881}, a white lion, prowls the plains north of the Razormane camp.\nCareful: Savannah Huntresses roam around the lair. They respawn quickly and often join the fight alongside {quest:881}, so clear them out before you blow the horn."] = "",
+	["{quest:881}, a white lion, prowls the plains north of the Razormane camp.\nCareful: Savannah Huntresses roam around the lair. They respawn quickly and often join the fight alongside {quest:881}, so clear them out before you blow the horn."] = "Beyaz bir aslan olan {quest:881}, Razormane kampının kuzeyindeki ovalarda dolaşıyor.\nDikkat: Inin çevresinde Savannah Huntress yaratıkları dolaşıyor. Çabuk yeniden doğarlar ve sık sık {quest:881} ile birlikte dövüşe katılırlar, bu yüzden boynuzu çalmadan önce onları temizle.",
 
 	-- Step 36: Hearth to Ratchet
 	-- {area:392} Ratchet
@@ -155,12 +155,12 @@ return {
 
 	-- Step 49: Wenikee Boltbucket
 	-- {quest:3923} Rilli Greasygob · {zone:1454} Orgrimmar · {object:172958} Valley of Honor
-	["Keep it: {quest:3923} is in {zone:1454}'s {object:172958}, on the next guide's {zone:1454} visit"] = "",
+	["Keep it: {quest:3923} is in {zone:1454}'s {object:172958}, on the next guide's {zone:1454} visit"] = "Sakla: {quest:3923}, {zone:1454} şehrinin {object:172958} kesiminde; sonraki rehberin {zone:1454} ziyaretinde",
 
 	-- Step 50: Harpy Lieutenants
 	-- {area:383} Dry Hills
 	-- plural, as words: Witchwing Slayers = {npc:3278} Witchwing Slayer
-	["The Witchwing Slayers hold the western {area:383}; they wear the rings.\nCareful: Some stealthed harpy ambushers wait in the area and stay hidden until you get close. A level 19 elite harpy also patrols there."] = "",
+	["The Witchwing Slayers hold the western {area:383}; they wear the rings.\nCareful: Some stealthed harpy ambushers wait in the area and stay hidden until you get close. A level 19 elite harpy also patrols there."] = "Witchwing Slayer yaratıkları batı {area:383} tepelerini tutuyor; yüzükler onlarda.\nDikkat: Bölgede gizlenmiş bazı harpy pusucuları bekliyor ve sen yaklaşana kadar saklı kalıyor. Orada seviye 19 elit bir harpy de devriye geziyor.",
 
 	-- Step 52: Lushwater Oasis
 	-- {area:387} Lushwater Oasis · {area:380} The Crossroads · {area:388} Stagnant Oasis
@@ -169,7 +169,7 @@ return {
 
 	-- Step 53: The Crossroads
 	-- {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades
-	["The next guide starts here and takes you to {zone:1454} and the zeppelin to {zone:1420}."] = "",
+	["The next guide starts here and takes you to {zone:1454} and the zeppelin to {zone:1420}."] = "Sonraki rehber burada başlıyor ve seni {zone:1454} şehrine ve {zone:1420} zeplinine götürüyor.",
 	-- {quest:3301} Mura Runetotem · {area:228} Sepulcher · {zone:1421} Silverpine Forest
 	["{quest:3301}: the {area:228} in {zone:1421}, next guide"] = "{quest:3301}: {zone:1421} bölgesindeki {area:228}, sonraki rehber",
 
