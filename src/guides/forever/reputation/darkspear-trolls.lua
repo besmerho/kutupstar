@@ -12,7 +12,7 @@ return {
 
 	-- Step 1: Vehena: how it works
 	-- {npc:14727} Vehena
-	["{npc:14727}: how it works"] = "",
+	["{npc:14727}: how it works"] = "{npc:14727}: nasıl işler",
 	-- {npc:14727} Vehena · {zone:1454} Orgrimmar · {object:172961} Valley of Spirits · {quest:7837} Additional Runecloth · {item:14047} Runecloth · {faction:530} Darkspear Trolls · {zone:1456} Thunder Bluff · {zone:1458} Undercity · {zone:1411} Durotar · {area:414} Zoram Strand · {zone:1440} Ashenvale · {object:3202} Grom'gol (no name in this language: may be words)
 	["Darkspear reputation comes from quests and cloth. {npc:14727}, the Darkspear cloth quartermaster, stands in {zone:1454}'s {object:172961}. She takes four one-time donations of 60 cloth (150 each) and then {quest:7837}, 20 {item:14047} for 50, as often as you like. Every point you earn with the {faction:530} also gives a quarter as much to {zone:1454}, {zone:1456} and the {zone:1458}. While you level, do the Darkspear quests within 5 levels of them: {zone:1411} at 5 to 12, {area:414} in {zone:1440} at 19 to 27, {object:3202} in Stranglethorn at 34 to 46. The Legacy perk Diplomat adds up to 10%. Rewards: at Honored the Darkspear merchants sell to you for 10% less (the Classic rule), the raptor vendor included; at Exalted other races can buy the raptors: 20 gold for a level 40 raptor, 200 gold for a swift raptor at level 60, once you have mount training. The {faction:530} have no tabard or other reward."] = "",
 
@@ -30,7 +30,7 @@ return {
 
 	-- Step 4: Valley of Trials (optional hub)
 	-- {area:363} Valley of Trials
-	["{area:363} (optional hub)"] = "",
+	["{area:363} (optional hub)"] = "{area:363} (isteğe bağlı merkez)",
 	-- {area:363} Valley of Trials · {zone:1454} Orgrimmar · {npc:3143} Gornek · {npc:10176} Kaltunk
 	["In Classic, quests 6+ levels below you pay less (a fifth at 60); a Forever beta report says they paid in full. Your first turn-in shows which: if it pays a fifth, skip these hubs. The {area:363} is the best of them: about 1,400 {zone:1454} and 1,400 Darkspear reputation in 25 minutes (about 280 each at a fifth). {npc:3143} waits in the Den, the big hut; {npc:10176} stands outside it."] = "",
 	-- {npc:3144} Eitrigg · {zone:1454} Orgrimmar · {quest:787} The New Horde
@@ -47,7 +47,7 @@ return {
 
 	-- Step 6: The Den: hand in
 	-- {area:364} The Den
-	["{area:364}: hand in"] = "",
+	["{area:364}: hand in"] = "{area:364}: teslim",
 
 	-- Step 7: North of the Den
 	["North of the Den"] = "",
@@ -58,25 +58,25 @@ return {
 
 	-- Step 8: The Den: hand in again
 	-- {area:364} The Den
-	["{area:364}: hand in again"] = "",
+	["{area:364}: hand in again"] = "{area:364}: yeniden teslim",
 
 	-- Step 9: Burning Blade Coven
 	-- {npc:3183} Yarrog Baneshadow
 	["Go back into the cave and keep to the right-hand wall all the way, over a small stream, to {npc:3183} on a ledge above a pool."] = "",
 	-- {quest:794} Burning Blade Medallion · {npc:3183} Yarrog Baneshadow
-	["{quest:794}, from {npc:3183}"] = "",
+	["{quest:794}, from {npc:3183}"] = "{quest:794}, kaynak: {npc:3183}",
 	-- {npc:3145} Zureetha Fargaze
 	["{npc:3145}, in the Den"] = "",
 
 	-- Step 10: Sen'jin Village (optional hub)
 	-- {area:367} Sen'jin Village
-	["{area:367} (optional hub)"] = "",
+	["{area:367} (optional hub)"] = "{area:367} (isteğe bağlı merkez)",
 	-- {area:367} Sen'jin Village · {area:368} Echo Isles · {zone:1454} Orgrimmar · {npc:3188} Master Gadrin · {npc:3304} Master Vornal · {npc:3194} Vel'rin Fang · {npc:7953} Xar'Ti
 	["In Classic, quests 6+ levels below you pay less (a fifth at 60); a Forever beta report says they paid in full. Your first turn-in shows which: if it pays a fifth, skip these hubs. {area:367} and the {area:368}: about 700 {zone:1454} and 650 Darkspear reputation in 25 minutes (140 and 130 at a fifth). {npc:3188} and {npc:3304} stand by the huts, {npc:3194} near the water, {npc:7953} south of the village."] = "",
 
 	-- Step 11: The Echo Isles
 	-- {area:368} Echo Isles
-	["The {area:368}"] = "",
+	["The {area:368}"] = "{area:368}",
 	-- {area:368} Echo Isles · {quest:826} Zalazane
 	-- plural, as words: Durotar Tigers = {npc:3121} Durotar Tiger
 	["Swim to the largest of the {area:368}, south-east of the village. {quest:826}, the idols and the skulls at the circle of power are all there; the Durotar Tigers prowl the smaller islands."] = "",
@@ -91,7 +91,7 @@ return {
 
 	-- Step 13: Sen'jin Village: hand in
 	-- {area:367} Sen'jin Village
-	["{area:367}: hand in"] = "",
+	["{area:367}: hand in"] = "{area:367}: teslim",
 
 	-- Step 14: Razor Hill: Sen'jin hand-ins
 	-- {area:362} Razor Hill
@@ -99,7 +99,7 @@ return {
 
 	-- Step 15: Razor Hill (optional hub)
 	-- {area:362} Razor Hill
-	["{area:362} (optional hub)"] = "",
+	["{area:362} (optional hub)"] = "{area:362} (isteğe bağlı merkez)",
 	-- {area:362} Razor Hill · {zone:1411} Durotar · {zone:1454} Orgrimmar · {npc:3142} Orgnil Soulscar · {npc:3139} Gar'Thok · {npc:3191} Cook Torka · {npc:3147} Furl Scornbrow · {npc:266940} Turroc
 	["In Classic, quests 6+ levels below you pay less (a fifth at 60); a Forever beta report says they paid in full. Your first turn-in shows which: if it pays a fifth, skip these hubs. {area:362} and north {zone:1411}: about 1,800 {zone:1454} and 1,650 Darkspear reputation in 80 minutes (360 and 330 at a fifth). {npc:3142} and {npc:3139} stand in the middle of the town, {npc:3191} by the barracks, {npc:3147} and {npc:266940} at the edges."] = "",
 	-- {quest:806} Dark Storms · {quest:823} Report to Orgnil
@@ -117,9 +117,9 @@ return {
 
 	-- Step 18: Razor Hill: hand in
 	-- {area:362} Razor Hill
-	["{area:362}: hand in"] = "",
+	["{area:362}: hand in"] = "{area:362}: teslim",
 	-- {quest:830} The Admiral's Orders · {npc:3230} Nazgrel · {zone:1454} Orgrimmar
-	["{quest:830}, +100: to {npc:3230} in {zone:1454}"] = "",
+	["{quest:830}, +100: to {npc:3230} in {zone:1454}"] = "{quest:830}, +100: teslim yeri {npc:3230} ({zone:1454})",
 
 	-- Step 19: The wreck
 	["The wreck"] = "",
@@ -136,7 +136,7 @@ return {
 
 	-- Step 21: Thunder Ridge and Razorwind Canyon
 	-- {area:369} Thunder Ridge · {area:410} Razorwind Canyon
-	["{area:369} and {area:410}"] = "",
+	["{area:369} and {area:410}"] = "{area:369} ve {area:410}",
 	-- {npc:3203} Fizzle Darkstorm · {area:369} Thunder Ridge · {zone:1454} Orgrimmar · {item:277661} Dull Storm Orb · {quest:97281} A Simmering Storm · {area:410} Razorwind Canyon · {area:362} Razor Hill · {item:4891} Kron's Amulet
 	["{npc:3203} keeps a Burning Blade camp in {area:369}, south of {zone:1454}, among the thunder lizards. A {item:277661} may drop from the lizards: use it to start {quest:97281}. The supply sacks lie in {area:410}, north of {area:362}. {item:4891} drops from the crocolisks along the river to the west, about one in ten."] = "",
 
@@ -144,7 +144,7 @@ return {
 	-- {npc:3293} Rezlak
 	["{npc:3293} and Misha"] = "",
 	-- {npc:3117} Dustwind Savage · {area:370} Drygulch Ravine
-	["{npc:3117}, in {area:370}"] = "",
+	["{npc:3117}, in {area:370}"] = "{npc:3117}, {area:370} içinde",
 
 	-- Step 24: Skull Rock
 	-- {quest:828} Margoz · {quest:827} Skull Rock · {zone:1454} Orgrimmar
@@ -152,7 +152,7 @@ return {
 
 	-- Step 25: Orgrimmar: Neeru Fireblade and Nazgrel
 	-- {zone:1454} Orgrimmar · {npc:3216} Neeru Fireblade · {npc:3230} Nazgrel
-	["{zone:1454}: {npc:3216} and {npc:3230}"] = "",
+	["{zone:1454}: {npc:3216} and {npc:3230}"] = "{zone:1454}: {npc:3216} ve {npc:3230}",
 	-- {quest:829} Neeru Fireblade · {object:172960} Cleft of Shadow · {npc:3230} Nazgrel
 	["{quest:829} is in the {object:172960}; {npc:3230} in Grommash Hold beside Thrall."] = "",
 

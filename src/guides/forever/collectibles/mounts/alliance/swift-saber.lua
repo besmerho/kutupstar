@@ -16,7 +16,7 @@ return {
 
 	-- Step 2: Tiger Riding for other races
 	-- {spell:828} Tiger Riding
-	["{spell:828} for other races"] = "",
+	["{spell:828} for other races"] = "{spell:828}, diğer ırklar için",
 	-- {spell:828} Tiger Riding · {skill:762} Riding · {npc:4753} Jartsam · {faction:69} Darnassus
 	["Any Alliance race can buy these sabers, but riding one also takes {spell:828}, which only Night Elves get with {skill:762}. {npc:4753} teaches it to other races once they are Exalted with {faction:69} (the Darnassus Reputation guide shows the way). Until then, don't buy a saber for this character."] = "",
 

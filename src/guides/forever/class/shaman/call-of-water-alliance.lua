@@ -49,11 +49,11 @@ return {
 
 	-- Step 11: Lost the Water Sapta?
 	-- {quest:94616} Water Sapta
-	["Lost the {quest:94616}?"] = "",
+	["Lost the {quest:94616}?"] = "{quest:94616} kayıp mı?",
 	-- {quest:94616} Water Sapta · {npc:258043} Norric Lochthane · {zone:1436} Westfall
 	["Only if the {quest:94616} is gone from your bags: {npc:258043} gives you another before you leave for {zone:1436}."] = "",
 	-- {npc:258043} Norric Lochthane · {quest:94616} Water Sapta
-	["{npc:258043}: a new {quest:94616}"] = "",
+	["{npc:258043}: a new {quest:94616}"] = "{npc:258043}: yeni bir {quest:94616}",
 
 	-- Step 12: Stendel's Pond
 	-- {area:108} Sentinel Hill · {area:20} Moonbrook · {area:919} Stendel's Pond · {object:619896} Forgotten Shrine · {item:6637} Water Sapta · {npc:5894} Corrupt Minor Manifestation of Water · {spell:8056} Frost Shock · {spell:122} Frost Nova · {item:7811} Remaining Drops of Purest Water · {npc:258043} Norric Lochthane · {npc:5895} Minor Manifestation of Water · {item:7813} Shard of Water

@@ -7,7 +7,7 @@ return {
 	-- {area:392} Ratchet
 	["Fly to {area:392}"] = "{area:392} limanına uç",
 	-- {zone:1454} Orgrimmar
-	["{zone:1454} flight master"] = "",
+	["{zone:1454} flight master"] = "{zone:1454} uçuş ustası",
 
 	-- Step 2: Ratchet
 	-- {object:3972} WANTED
@@ -15,18 +15,18 @@ return {
 
 	-- Step 4: Bruuz
 	-- {npc:209797} Bruuz
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:209797} (level 20 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:209797} (level 20 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:209797} (seviye 20 elit) 2 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 5: Intact Raptor Horn on the way
 	-- {item:5055} Intact Raptor Horn
-	["{item:5055} on the way"] = "",
+	["{item:5055} on the way"] = "Yol üstünde: {item:5055}",
 
 	-- Step 7: Level 19.43
-	["Level 19.43"] = "",
+	["Level 19.43"] = "Seviye 19.43",
 	-- {quest:92706} WANTED: Bruuz
-	["If you skipped {quest:92706}, grind here to level 19.43 to stay on the route's plan."] = "",
+	["If you skipped {quest:92706}, grind here to level 19.43 to stay on the route's plan."] = "{quest:92706} görevini atladıysan rotanın planında kalmak için burada seviye 19.43 olana kadar kas.",
 	-- {npc:3256} Sunscale Scytheclaw
-	["grind on {npc:3256}"] = "",
+	["grind on {npc:3256}"] = "Kas: {npc:3256}",
 
 	-- Step 8: Ratchet
 	-- {npc:3442} Sputtervalve · {quest:1483} Ziz Fizziks
@@ -35,20 +35,20 @@ return {
 	-- Step 11: Free From the Hold
 	-- {npc:3465} Gilthares Firebough · {area:392} Ratchet
 	["{npc:3465} is chained inside the hold. Talk to him to start the escort and stay close: Theramore soldiers attack on the way out. He walks you back to {area:392}."] = "{npc:3465} kalenin içinde zincirli. Eşlik görevini başlatmak için onunla konuş ve yakınında kal: çıkışta Theramore askerleri saldırır. Seninle birlikte {area:392} limanına kadar yürür.",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 12: Northwatch Hold: kill these as you meet them
 	-- {area:385} Northwatch Hold
-	["{area:385}: kill these as you meet them"] = "",
+	["{area:385}: kill these as you meet them"] = "{area:385}: bunları karşılaştıkça öldür",
 	-- {area:385} Northwatch Hold · {npc:3393} Captain Fairmount
 	-- plural, as words: Theramore Marines = {npc:3385} Theramore Marine
 	["{area:385}, on the coast further south. The Theramore Marines and Preservers (15-16) drop the medals; {npc:3393} (20) and the two cannoneers (19) stand in the keep and on its walls, and they are why the hold waits until now.\nCareful: Each named target is linked to a healer and guards, and Fairmount has three extra marines with her. Killing the healer first makes the fight easier."] = "",
-	["On the top floor"] = "",
-	["Upstairs"] = "",
+	["On the top floor"] = "En üst katta",
+	["Upstairs"] = "Üst katta",
 
 	-- Step 15: Raptor Grounds: kill these as you meet them
 	-- {area:1697} Raptor Grounds
-	["{area:1697}: kill these as you meet them"] = "",
+	["{area:1697}: kill these as you meet them"] = "{area:1697}: bunları karşılaştıkça öldür",
 	-- {area:380} Crossroads · {area:1697} Raptor Grounds · {area:392} Ratchet · {area:385} Northwatch Hold
 	-- plural, as words: Sunscale Scytheclaws = {npc:3256} Sunscale Scytheclaw
 	["Sunscale Scytheclaws hunt the plains south of the {area:380}, around the {area:1697}; they drop the horns. Hand them in on your next pass through {area:392}.\nEast across the plains toward the coast: the stolen silver lies in a raptor nest north-west of {area:385}."] = "",
@@ -88,7 +88,7 @@ return {
 
 	-- Step 23: Back to The Barrens
 	-- {area:17} The Barrens
-	["Back to {area:17}"] = "",
+	["Back to {area:17}"] = "Dönüş: {area:17}",
 
 	-- Step 24: Vrang Wildgore
 	-- {area:383} Dry Hills · {npc:3682} Vrang Wildgore · {npc:261366} Walton
@@ -96,7 +96,7 @@ return {
 
 	-- Step 25: The Barrens: kill these as you meet them
 	-- {area:17} The Barrens
-	["{area:17}: kill these as you meet them"] = "",
+	["{area:17}: kill these as you meet them"] = "{area:17}: bunları karşılaştıkça öldür",
 	-- {quest:876} Serena Bloodfeather
 	-- plural, as words: Savannah Patriarchs = {npc:3241} Savannah Patriarch · Sprung Traps = {object:640104} Sprung Trap
 	["Savannah Patriarchs roam the plains east of the hills, and the Sprung Traps lie among them. {quest:876} leads the Witchwing harpies in the hills to the west.\nCareful: The route in passes stealthed Harpy Ambushers and an elite harpy that patrols."] = "",
@@ -166,15 +166,15 @@ return {
 
 	-- Step 47: Back to Crossroads
 	-- {area:380} Crossroads
-	["Back to {area:380}"] = "",
+	["Back to {area:380}"] = "Dönüş: {area:380}",
 
 	-- Step 48: Back to Crossroads
 	-- {zone:1456} Thunder Bluff
-	["{zone:1456} flight master"] = "",
+	["{zone:1456} flight master"] = "{zone:1456} uçuş ustası",
 
 	-- Step 49: the Crossroads
 	-- {area:380} Crossroads
-	["the {area:380}"] = "",
+	["the {area:380}"] = "{area:380}",
 	-- {item:15826} Curative Animal Salve
 	["He gives you the {item:15826}"] = "Sana {item:15826} verir",
 
@@ -201,7 +201,7 @@ return {
 	-- {npc:3430} Mangletooth
 	["{npc:3430}, in the cage"] = "{npc:3430}, kafeste",
 	-- {npc:6394} Ruga Ragetotem
-	["{npc:6394}, inside"] = "",
+	["{npc:6394}, inside"] = "{npc:6394}, içeride",
 
 	-- Step 60: Grunt Dogran
 	["Dogran is chained up in the quilboar camp west of the road."] = "Dogran, yolun batısındaki quilboar kampında zincirli.",
@@ -210,7 +210,7 @@ return {
 
 	-- Step 64: Fly to Ratchet
 	-- {area:378} Camp Taurajo
-	["{area:378} flight master"] = "",
+	["{area:378} flight master"] = "{area:378} uçuş ustası",
 
 	-- Step 66: Islen Waterseer
 	-- {npc:5901} Islen Waterseer · {area:392} Ratchet
@@ -263,13 +263,13 @@ return {
 	-- {npc:3341} Gann Stonespire · {area:359} Bael Modan
 	["{npc:3341} waits in a small camp further south, on the road toward {area:359}."] = "{npc:3341} daha güneyde, {area:359} yönüne giden yolda küçük bir kampta bekliyor.",
 	-- {npc:3341} Gann Stonespire · {area:1701} Blackthorn Ridge
-	["{npc:3341} walks around {area:1701}: look inside the circle on the map"] = "",
+	["{npc:3341} walks around {area:1701}: look inside the circle on the map"] = "{npc:3341}, {area:1701} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 79: Bael Modan
 	-- {area:359} Bael Modan · {npc:3392} Prospector Khazgorm
 	["South of Gann, the Bael'dun dwarves dig at {area:359}. Excavators and Foremen work the pit; {npc:3392} (26) carries the journal: pull him alone.\nCareful: Excavators (level 21-22) and Foremen (level 22-23) run off for help once they fall to 15% health, so more dwarves can join the fight."] = "",
 	-- {npc:3375} Bael'dun Foreman · {area:359} Bael Modan
-	["{npc:3375} walks around {area:359}: look inside the circle on the map"] = "",
+	["{npc:3375} walks around {area:359}: look inside the circle on the map"] = "{npc:3375}, {area:359} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 80: Blackthorn Ridge
 	-- {area:1701} Blackthorn Ridge · {npc:3436} Kuz · {npc:3434} Nak · {npc:3435} Lok Orcbane · {npc:5859} Hagg Taurenbane · {npc:3238} Stormhide · {npc:3341} Gann Stonespire · {quest:885} Washte Pawne · {spell:1752} Sinister Strike
@@ -293,13 +293,13 @@ return {
 
 	-- Step 84: Stormhide on the way
 	-- {npc:3238} Stormhide
-	["{npc:3238} on the way"] = "",
+	["{npc:3238} on the way"] = "Yol üstünde: {npc:3238}",
 	-- {npc:3238} Stormhide · {npc:14242} Sulhasa
-	["{npc:3238} along the way to {npc:14242}"] = "",
+	["{npc:3238} along the way to {npc:14242}"] = "{npc:3238}, {npc:14242} yolu üstünde",
 
 	-- Step 85: Southern Barrens
 	-- {npc:4128} Hecklefang Stalker · {area:1156} Southern Barrens
-	["{npc:4128} walks around {area:1156}: look inside the circle on the map"] = "",
+	["{npc:4128} walks around {area:1156}: look inside the circle on the map"] = "{npc:4128}, {area:1156} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 87: Bael'dun fortress
 	["Bael'dun fortress"] = "Bael'dun kalesi",
@@ -319,15 +319,15 @@ return {
 
 	-- Step 92: Hearth to Camp Taurajo
 	-- {area:378} Camp Taurajo
-	["Hearth to {area:378}"] = "",
+	["Hearth to {area:378}"] = "Hearthstone ile dön: {area:378}",
 
 	-- Step 94: Fly to Crossroads
 	-- {area:380} Crossroads
-	["Fly to {area:380}"] = "",
+	["Fly to {area:380}"] = "Uç: {area:380}",
 
 	-- Step 97: Crossroads flight master
 	-- {area:380} Crossroads
-	["{area:380} flight master"] = "",
+	["{area:380} flight master"] = "{area:380} uçuş ustası",
 
 	-- Step 98: Thunder Bluff
 	-- {npc:246344} Alodan the Hopeful · {area:1638} Thunder Bluff · {area:378} Camp Taurajo · {zone:1412} Mulgore · {npc:2995} Tal
@@ -345,7 +345,7 @@ return {
 
 	-- Step 102: Moonglade
 	-- {spell:18960} Teleport: Moonglade
-	["Cast {spell:18960}"] = "",
+	["Cast {spell:18960}"] = "Kullan: {spell:18960}",
 
 	-- Step 104: Moonglade
 	-- {npc:11802} Dendrite Starblaze · {npc:3033} Turak Runetotem

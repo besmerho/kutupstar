@@ -5,9 +5,9 @@
 return {
 	-- Step 1: Fly to Astranaar
 	-- {area:415} Astranaar
-	["Fly to {area:415}"] = "",
+	["Fly to {area:415}"] = "Uç: {area:415}",
 	-- {area:702} Rut'theran Village
-	["{area:702} flight master"] = "",
+	["{area:702} flight master"] = "{area:702} uçuş ustası",
 
 	-- Step 3: The Emerald Sanctuary
 	-- {area:2479} Emerald Sanctuary
@@ -15,7 +15,7 @@ return {
 	-- {npc:9528} Arathandris Silversky · {npc:11554} Grazle
 	["{npc:9528}, in the ruins just east of {npc:11554}"] = "{npc:9528}, {npc:11554} adlı NPC'nin hemen doğusundaki harabelerde",
 	-- {npc:9116} Eridan Bluewind
-	["{npc:9116}, inside"] = "",
+	["{npc:9116}, inside"] = "{npc:9116}, içeride",
 
 	-- Step 4: Grazle
 	-- {area:415} Astranaar · {area:361} Felwood · {npc:11554} Grazle · {area:2479} Emerald Sanctuary
@@ -27,11 +27,11 @@ return {
 	["The Deadwood furbolgs live in the village just south-west of {npc:11554}; keep the Deadwood Headdress Feathers they drop."] = "Deadwood furbolgları {npc:11554} adlı NPC'nin hemen güneybatısındaki köyde yaşıyor; düşürdükleri Deadwood Headdress Feather tüylerini sakla.",
 
 	-- Step 6: Level 52.58
-	["Level 52.58"] = "",
+	["Level 52.58"] = "Seviye 52.58",
 	-- {item:9328} Super Snapper FX
 	["If you skipped The Horn of the Beast or The {item:9328}, grind here to level 52.58 to stay on the route's plan."] = "",
 	-- {npc:7153} Deadwood Warrior
-	["grind on {npc:7153}"] = "",
+	["grind on {npc:7153}"] = "Kas: {npc:7153}",
 
 	-- Step 7: Grazle
 	-- {npc:15395} Nafien · {area:361} Felwood
@@ -39,18 +39,18 @@ return {
 	["Five feathers buy a little Timbermaw reputation"] = "Beş tüy biraz Timbermaw itibarı kazandırır",
 
 	-- Step 8: Level 52.69
-	["Level 52.69"] = "",
+	["Level 52.69"] = "Seviye 52.69",
 	-- {area:1763} Jaedenar
-	["Top up here to level 52.69 before the hand-ins at {area:1763}: they take you to level 53."] = "",
+	["Top up here to level 52.69 before the hand-ins at {area:1763}: they take you to level 53."] = "{area:1763} teslimlerinden önce burada seviye 52.69 olana kadar kas: teslimler seni seviye 53 yapar.",
 	-- {npc:7155} Deadwood Pathfinder
-	["grind on {npc:7155}"] = "",
+	["grind on {npc:7155}"] = "Kas: {npc:7155}",
 
 	-- Step 9: Jadefire Glen
 	-- {npc:9454} Xavathras · {spell:7992} Slowing Poison
 	-- plural, as words: Jadefire Shadowstalkers = {npc:7110} Jadefire Shadowstalker
 	["The Jadefire satyrs hold the glen west of the road, with {npc:9454} at its back.\nCareful: Jadefire Shadowstalkers (level 51-52) use Sneak and {spell:7992} and are stealthed, so they often join fights uninvited."] = "",
 	-- {npc:7109} Jadefire Felsworn
-	["grind on {npc:7109}"] = "",
+	["grind on {npc:7109}"] = "Kas: {npc:7109}",
 
 	-- Step 11: Jaedenar
 	-- {area:1763} Jaedenar · {item:13140} Blood Red Key · {npc:11018} Arko'narin · {area:1770} Shadow Hold
@@ -60,15 +60,15 @@ return {
 	-- {npc:11016} Captured Arko'narin · {area:1770} Shadow Hold
 	["{npc:11016}, in {area:1770}; below ground"] = "",
 	-- {npc:7125} Jaedenar Hound
-	["grind on {npc:7125}"] = "",
+	["grind on {npc:7125}"] = "Kas: {npc:7125}",
 
 	-- Step 12: Jaedenar
 	["Keep her alive until she is out of the cave"] = "Mağaradan çıkana kadar onu hayatta tut",
 
 	-- Step 13: Level 52.9
-	["Level 52.9"] = "",
+	["Level 52.9"] = "Seviye 52.9",
 	-- {area:2479} Emerald Sanctuary
-	["Top up here to level 52.9 before the hand-ins at {area:2479}: they take you to level 53."] = "",
+	["Top up here to level 52.9 before the hand-ins at {area:2479}: they take you to level 53."] = "{area:2479} teslimlerinden önce burada seviye 52.9 olana kadar kas: teslimler seni seviye 53 yapar.",
 
 	-- Step 15: Shatter Scar Vale
 	-- plural, as words: Entropic Beasts = {npc:9878} Entropic Beast
@@ -80,7 +80,7 @@ return {
 	-- Step 16: Irontree Woods
 	-- {area:1767} Irontree Woods · {area:2618} Jadefire Run · {item:11503} Blood Amber
 	["The Warpwood treants of {area:1767}, east of {area:2618}, carry the {item:11503}."] = "{item:11503}, {area:2618} vadisinin doğusundaki {area:1767} ormanında bulunan Warpwood treant yaratıklarında.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 17: Nafien
 	-- {area:1769} Timbermaw Hold · {npc:15395} Nafien
@@ -108,7 +108,7 @@ return {
 
 	-- Step 23: Jadefire Run: kill these as you meet them
 	-- {area:2618} Jadefire Run
-	["{area:2618}: kill these as you meet them"] = "",
+	["{area:2618}: kill these as you meet them"] = "{area:2618}: bunları karşılaştıkça öldür",
 	-- {area:2618} Jadefire Run · {npc:10648} Xavaric · {quest:939} Flute of Xavaric · {item:11674} Jadefire Felbind
 	["{area:2618} is the satyr valley in the north-west, with {npc:10648} at its far end. He drops the {quest:939}; every Jadefire satyr can drop {item:11674}."] = "{area:2618}, kuzeybatıdaki satir vadisi; en ucunda {npc:10648} var. O {quest:939} düşürür; her Jadefire satiri {item:11674} düşürebilir.",
 
@@ -127,9 +127,9 @@ return {
 	-- Step 26: Jaedenar again
 	["Trey Lightforge's remains lie beside her."] = "",
 	-- {npc:9518} Rakaiah
-	["{npc:9518}, below ground"] = "",
+	["{npc:9518}, below ground"] = "{npc:9518}, yer altında",
 	-- {npc:11020} Remains of Trey Lightforge
-	["{npc:11020}, below ground"] = "",
+	["{npc:11020}, below ground"] = "{npc:11020}, yer altında",
 
 	-- Step 28: The Emerald Sanctuary
 	-- {area:1998} Talonbranch Glade

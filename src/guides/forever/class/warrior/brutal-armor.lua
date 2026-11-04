@@ -89,7 +89,7 @@ return {
 	-- {npc:6167} Chimaera Matriarch · {area:465} Charred Vale · {zone:1443} Desolace · {item:6840} Galvanized Horn · {spell:3396} Corrosive Poison
 	["The {npc:6167} (level 28, not elite, larger than the young ones around her) roams the south edge of the {area:465} in south-west Stonetalon, near the road to {zone:1443}. She is the only one: she returns 5 minutes after dying and drops the {item:6840} four kills in five. She spits {spell:3396} from 30 yards."] = "",
 	-- {item:6840} Galvanized Horn · {npc:6167} Chimaera Matriarch
-	["{item:6840}, from the {npc:6167}"] = "",
+	["{item:6840}, from the {npc:6167}"] = "{item:6840}, kaynak: {npc:6167}",
 
 	-- Step 18: Velora Nitely
 	-- {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades · {npc:6411} Velora Nitely · {zone:1458} Undercity · {object:36078} Trade Quarter

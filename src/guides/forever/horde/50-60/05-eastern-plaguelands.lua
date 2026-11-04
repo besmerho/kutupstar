@@ -7,13 +7,13 @@ return {
 	-- {npc:10778} Janice Felstone · {area:152} Bulwark · {npc:11075} Cauldron Lord Bilemaw
 	-- plural, as words: Jabbering Ghouls = {npc:10801} Jabbering Ghoul
 	["{npc:10778}'s farm is the first one east of the {area:152}. Jabbering Ghouls on the farm carry the other half of her charm; {npc:11075} guards the cauldron in the field.\nCareful: One or two undead usually fight alongside him, and more cauldron lords can attack after you use the cauldron."] = "",
-	["Upstairs"] = "",
+	["Upstairs"] = "Üst katta",
 
 	-- Step 3: Fly to Light's Hope Chapel
 	-- {area:2268} Light's Hope Chapel
 	["Fly to {area:2268}"] = "{area:2268} şapeline uç",
 	-- {area:272} Tarren Mill
-	["{area:272} flight master"] = "",
+	["{area:272} flight master"] = "{area:272} uçuş ustası",
 
 	-- Step 4: Light's Hope Chapel
 	-- {quest:5168} Heroes of Darrowshire
@@ -21,15 +21,15 @@ return {
 
 	-- Step 5: Plaguebat on the way
 	-- {npc:8600} Plaguebat
-	["{npc:8600} on the way"] = "",
+	["{npc:8600} on the way"] = "Yol üstünde: {npc:8600}",
 
 	-- Step 6: Slab of Carrion Worm Meat on the way
 	-- {item:13853} Slab of Carrion Worm Meat
-	["{item:13853} on the way"] = "",
+	["{item:13853} on the way"] = "Yol üstünde: {item:13853}",
 
 	-- Step 7: Eastern Plaguelands: kill these as you meet them
 	-- {zone:1423} Eastern Plaguelands
-	["{zone:1423}: kill these as you meet them"] = "",
+	["{zone:1423}: kill these as you meet them"] = "{zone:1423}: bunları karşılaştıkça öldür",
 	-- plural, as words: Plaguehounds = {npc:8597} Plaguehound
 	["Plaguehounds and their runts roam the shores of the lake south-west of the chapel.\nThe shattered sword lies on the ground north-west of the lake."] = "",
 
@@ -45,11 +45,11 @@ return {
 	-- Step 10: Egan
 	-- {npc:11140} Egan · {area:2627} Terrordale
 	["{npc:11140} the ghost stands by a hut in {area:2627}, in the north-west corner."] = "Hayalet {npc:11140}, kuzeybatı köşesinde, {area:2627} kasabasındaki bir kulübenin yanında duruyor.",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 11: Plaguewood: kill these as you meet them
 	-- {area:2277} Plaguewood
-	["{area:2277}: kill these as you meet them"] = "",
+	["{area:2277}: kill these as you meet them"] = "{area:2277}: bunları karşılaştıkça öldür",
 	-- {area:2272} Northdale · {area:2271} Eastwall Tower · {area:2273} Zul'Mashar
 	-- plural, as words: Frenzied Plaguehounds = {npc:8598} Frenzied Plaguehound · Monstrous Plaguebats = {npc:8602} Monstrous Plaguebat
 	["Frenzied Plaguehounds and Monstrous Plaguebats share the fields around {area:2272} and {area:2271}, south of {area:2273}."] = "Frenzied Plaguehound ve Monstrous Plaguebat yaratıkları {area:2273} güneyinde, {area:2272} ve {area:2271} çevresindeki tarlaları paylaşıyor.",
@@ -58,11 +58,11 @@ return {
 	-- {area:2275} Northpass Tower · {area:2622} Pestilent Scar
 	-- plural, as words: Rangers = {npc:8564} Ranger · Pathstriders = {npc:8565} Pathstrider · Noxious Plaguebats = {npc:8601} Noxious Plaguebat · Blighted Horrors = {npc:8521} Blighted Horror
 	["The high elf Rangers, Pathstriders and Woodsmen guard the lodge by {area:2275}; the Registry lies inside. Rangers reach 60: pull one at a time. Noxious Plaguebats fly over the fields on the way.\nThe skull sits in the {area:2622}, among Blighted Horrors and Plague Monstrosities."] = "",
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- Step 13: Pathstrider
 	-- {npc:8565} Pathstrider · {area:2276} Quel'Lithien Lodge
-	["{npc:8565} walks around {area:2276}: look inside the circle on the map"] = "",
+	["{npc:8565} walks around {area:2276}: look inside the circle on the map"] = "{npc:8565}, {area:2276} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 14: Nathanos Blightcaller
 	-- {area:2260} Marris Stead
@@ -75,20 +75,20 @@ return {
 
 	-- Step 18: Duskwing, Oh How I Hate Thee...
 	-- {npc:11897} Duskwing
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:11897} is a level 60 elite: most classes solo it at level 62, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:11897} is a level 60 elite: most classes solo it at level 62, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:11897}, seviye 60 bir elit: çoğu sınıf seviye 62 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 19: Hearth to Light's Hope Chapel
 	-- {area:2268} Light's Hope Chapel
-	["Hearth to {area:2268}"] = "",
+	["Hearth to {area:2268}"] = "Hearthstone ile dön: {area:2268}",
 
 	-- Step 21: Light's Hope Chapel
 	["Ride east across the plaguelands to the chapel."] = "Veba topraklarını doğuya geçerek şapele git.",
 
 	-- Step 22: Fly to Undercity
 	-- {area:1497} Undercity
-	["Fly to {area:1497}"] = "",
+	["Fly to {area:1497}"] = "Uç: {area:1497}",
 	-- {area:2268} Light's Hope Chapel
-	["{area:2268} flight master"] = "",
+	["{area:2268} flight master"] = "{area:2268} uçuş ustası",
 
 	-- Step 23: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
@@ -96,9 +96,9 @@ return {
 
 	-- Step 25: Fly to Bloodvenom Post
 	-- {area:1997} Bloodvenom Post
-	["Fly to {area:1997}"] = "",
+	["Fly to {area:1997}"] = "Uç: {area:1997}",
 	-- {zone:1454} Orgrimmar
-	["{zone:1454} flight master"] = "",
+	["{zone:1454} flight master"] = "{zone:1454} uçuş ustası",
 
 	-- Step 26: Fly to Thunder Bluff
 	-- {area:1638} Thunder Bluff
@@ -106,7 +106,7 @@ return {
 
 	-- Step 27: Fly to Thunder Bluff
 	-- {zone:1456} Thunder Bluff
-	["Fly to {zone:1456}"] = "",
+	["Fly to {zone:1456}"] = "Uç: {zone:1456}",
 	-- {area:1497} Undercity · {zone:1454} Orgrimmar · {zone:1456} Thunder Bluff
 	["Fly to the {area:1497}, take the zeppelin to {zone:1454} and fly on to {zone:1456}."] = "",
 	-- {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {npc:246344} Alodan the Hopeful
@@ -118,7 +118,7 @@ return {
 
 	-- Step 29: Fly to Bloodvenom Post
 	-- {zone:1456} Thunder Bluff
-	["{zone:1456} flight master"] = "",
+	["{zone:1456} flight master"] = "{zone:1456} uçuş ustası",
 
 	-- Step 31: Deadwood Cauldron
 	-- {item:12820} Winterfall Firewater · {area:618} Winterspring · {area:1762} Felpaw Village · {area:1769} Timbermaw Hold
@@ -128,14 +128,14 @@ return {
 	-- {quest:8471} Winterfall Ritual Totem · {npc:11558} Kernda · {zone:1448} Felwood · {area:1769} Timbermaw Hold
 	["Only if a {quest:8471} dropped for you: {npc:11558} waits at the {zone:1448} entrance of {area:1769}, and speaks to you only at Neutral with the Timbermaw."] = "Yalnızca sana {quest:8471} düştüyse: {npc:11558}, {area:1769} mağarasının {zone:1448} girişinde bekliyor ve seninle ancak Timbermaw ile Neutral itibardayken konuşur.",
 	-- {npc:11558} Kernda
-	["{npc:11558} walks around here: look inside the circle on the map"] = "",
+	["{npc:11558} walks around here: look inside the circle on the map"] = "{npc:11558} buralarda dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 34: Rabine Saturna
 	-- {area:1769} Timbermaw Hold · {area:493} Moonglade · {npc:11801} Rabine Saturna · {area:2361} Nighthaven
 	["Go through {area:1769} and take the {area:493} branch of the tunnel. {npc:11801} is in {area:2361}."] = "",
 
 	-- Step 35: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 36: Rabine Saturna
 	-- {zone:1451} Silithus
@@ -158,7 +158,7 @@ return {
 	-- {area:976} Gadgetzan
 	["Fly to {area:976}"] = "{area:976} kasabasına uç",
 	-- {area:2255} Everlook
-	["{area:2255} flight master"] = "",
+	["{area:2255} flight master"] = "{area:2255} uçuş ustası",
 
 	-- Step 42: Gaeriyan
 	-- {npc:9299} Gaeriyan · {area:976} Gadgetzan
@@ -184,7 +184,7 @@ return {
 	-- {area:1099} Camp Mojache
 	["Fly to {area:1099}"] = "{area:1099} kampına uç",
 	-- {area:976} Gadgetzan
-	["{area:976} flight master"] = "",
+	["{area:976} flight master"] = "{area:976} uçuş ustası",
 
 	-- Step 48: Ruins of Isildien
 	-- {area:1099} Camp Mojache · {zone:1444} Feralas · {object:142071} Egg-O-Matic

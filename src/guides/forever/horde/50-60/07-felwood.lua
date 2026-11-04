@@ -15,9 +15,9 @@ return {
 
 	-- Step 5: Fly to Splintertree Post
 	-- {area:431} Splintertree Post
-	["Fly to {area:431}"] = "",
+	["Fly to {area:431}"] = "Uç: {area:431}",
 	-- {zone:1454} Orgrimmar
-	["{zone:1454} flight master"] = "",
+	["{zone:1454} flight master"] = "{zone:1454} uçuş ustası",
 
 	-- Step 7: The Emerald Sanctuary
 	-- {area:2479} Emerald Sanctuary
@@ -25,24 +25,24 @@ return {
 	-- {area:431} Splintertree Post · {zone:1440} Ashenvale · {area:361} Felwood · {area:2479} Emerald Sanctuary
 	["Fly to {area:431} and ride north-west along the road out of {zone:1440} into {area:361}. The {area:2479} is the druids' camp just past the border."] = "",
 	-- {npc:9116} Eridan Bluewind
-	["{npc:9116}, inside"] = "",
+	["{npc:9116}, inside"] = "{npc:9116}, içeride",
 	-- {npc:9116} Eridan Bluewind · {item:11173} Irontree Heart · {area:361} Felwood
 	["{npc:9116}'s Silver Heart needs an {item:11173} from northern {area:361} and a ride back here. Skip it."] = "",
 
 	-- Step 8: Dousing the Flames of Protection
 	-- {area:1763} Jaedenar
 	["Ride north-west to {area:1763}. The four braziers stand among the Shadow Council's buildings; use the Cleansed Water on each one.\nCareful: Shadow Council mobs of level 53-55 fill the cave and often come in large linked groups, many with stuns. A group of 2-3 players is recommended."] = "",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 9: Greta Mosshoof
 	["Back south to the Sanctuary, a short ride."] = "Kısa bir yolla güneye, Sanctuary'ye dön.",
 
 	-- Step 10: Level 59.54
-	["Level 59.54"] = "",
+	["Level 59.54"] = "Seviye 59.54",
 	-- {area:1997} Bloodvenom Post
 	["Top up here to level 59.54 before the hand-ins at {area:1997} : they take you to level 60."] = "",
 	-- {npc:7441} Winterfall Totemic
-	["grind on {npc:7441}"] = "",
+	["grind on {npc:7441}"] = "Kas: {npc:7441}",
 
 	-- Step 11: Bloodvenom Post
 	-- {area:1763} Jaedenar · {area:1997} Bloodvenom Post
@@ -65,10 +65,10 @@ return {
 	-- {area:493} Moonglade · {npc:11939} Umber · {area:2361} Nighthaven
 	["Through the Timbermaw tunnel to {area:493}. {npc:11939} reads in a house in {area:2361}."] = "",
 	-- {npc:11939} Umber · {area:2361} Nighthaven
-	["{npc:11939} walks around {area:2361}: look inside the circle on the map"] = "",
+	["{npc:11939} walks around {area:2361}: look inside the circle on the map"] = "{npc:11939}, {area:2361} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 18: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 19: Rabine Saturna
 	-- {npc:11801} Rabine Saturna · {area:2577} Dire Maul
@@ -97,9 +97,9 @@ return {
 	["{npc:11558}, at the tunnel mouth; walks around here: look inside the circle on the map"] = "",
 
 	-- Step 29: Level 59.9
-	["Level 59.9"] = "",
+	["Level 59.9"] = "Seviye 59.9",
 	-- {area:618} Winterspring
-	["Top up here to level 59.9 before the hand-ins at {area:618}: they take you to level 60."] = "",
+	["Top up here to level 59.9 before the hand-ins at {area:618}: they take you to level 60."] = "{area:618} teslimlerinden önce burada seviye 59.9 olana kadar kas: teslimler seni seviye 60 yapar.",
 
 	-- Step 31: Darkwhisper Gorge
 	-- {area:2249} Frostwhisper Gorge · {area:2256} Darkwhisper Gorge
@@ -127,7 +127,7 @@ return {
 	-- plural, as words: Rabid Shardtooths = {npc:7446} Rabid Shardtooth
 	["The quests run out here. Rabid Shardtooths prowl {area:2249} in southern {area:618}, south of the road from {area:2255}."] = "",
 	-- {npc:7446} Rabid Shardtooth · {area:2249} Frostwhisper Gorge · {area:618} Winterspring
-	["grind on {npc:7446} at {area:2249}, {area:618}"] = "",
+	["grind on {npc:7446} at {area:2249}, {area:618}"] = "Kas: {npc:7446} ({area:2249}, {area:618})",
 	-- {zone:1454} Orgrimmar · {area:2255} Everlook
 	["In {zone:1454}: fly from {area:2255}"] = "{zone:1454} şehrinde: {area:2255} kasabasından uç",
 	-- {zone:1456} Thunder Bluff · {area:2255} Everlook

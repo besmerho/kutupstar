@@ -5,11 +5,11 @@
 return {
 	-- Step 1: Moontouched Feather on the way
 	-- {item:12383} Moontouched Feather
-	["{item:12383} on the way"] = "",
+	["{item:12383} on the way"] = "Yol üstünde: {item:12383}",
 
 	-- Step 2: Into Winterspring
 	-- {area:618} Winterspring
-	["Into {area:618}"] = "",
+	["Into {area:618}"] = "{area:618} içine",
 
 	-- Step 4: Everlook
 	-- {npc:11118} Innkeeper Vizzie
@@ -19,11 +19,11 @@ return {
 	-- {npc:10431} Gregor Greystone
 	["{npc:10431}: keep both for the Plaguelands; inside"] = "",
 	-- {npc:11754} Meggi Peppinrocker · {area:2255} Everlook
-	["{npc:11754} walks around {area:2255}: look inside the circle on the map"] = "",
+	["{npc:11754} walks around {area:2255}: look inside the circle on the map"] = "{npc:11754}, {area:2255} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 6: Ice Thistle Hills: kill these as you meet them
 	-- {area:2247} Ice Thistle Hills
-	["{area:2247}: kill these as you meet them"] = "",
+	["{area:2247}: kill these as you meet them"] = "{area:2247}: bunları karşılaştıkça öldür",
 	-- {area:2244} Winterfall Village · {area:2255} Everlook
 	-- plural, as words: Chillwind Chimaeras = {npc:7448} Chillwind Chimaera
 	["Ice Thistle yetis live in the hills south of {area:2244}, Chillwind Chimaeras in the valley toward {area:2255}."] = "Ice Thistle yetileri {area:2244} köyünün güneyindeki tepelerde, Chillwind Chimaera yaratıkları ise {area:2255} yönündeki vadide yaşıyor.",
@@ -44,19 +44,19 @@ return {
 	["{npc:11556} guards the mouth of {area:1769}, north-west of {npc:9298}."] = "{npc:11556}, {npc:9298} adlı NPC'nin kuzeybatısında, {area:1769} mağarasının ağzını koruyor.",
 
 	-- Step 10: On the way
-	["On the way"] = "",
+	["On the way"] = "Yol üstünde",
 
 	-- Step 11: On the way
 	-- {npc:7442} Winterfall Pathfinder · {npc:9298} Donova Snowden
-	["{npc:7442} along the way to {npc:9298}"] = "",
+	["{npc:7442} along the way to {npc:9298}"] = "{npc:7442}, {npc:9298} yolu üstünde",
 	-- {npc:7440} Winterfall Den Watcher · {npc:9298} Donova Snowden
-	["{npc:7440} along the way to {npc:9298}"] = "",
+	["{npc:7440} along the way to {npc:9298}"] = "{npc:7440}, {npc:9298} yolu üstünde",
 	-- {npc:7441} Winterfall Totemic · {npc:9298} Donova Snowden
-	["{npc:7441} along the way to {npc:9298}"] = "",
+	["{npc:7441} along the way to {npc:9298}"] = "{npc:7441}, {npc:9298} yolu üstünde",
 
 	-- Step 12: Frostfire Hot Springs: kill these as you meet them
 	-- {area:2246} Frostfire Hot Springs
-	["{area:2246}: kill these as you meet them"] = "",
+	["{area:2246}: kill these as you meet them"] = "{area:2246}: bunları karşılaştıkça öldür",
 	-- {npc:11556} Salfa · {npc:9298} Donova Snowden · {item:12771} Empty Firewater Flask · {quest:8471} Winterfall Ritual Totem · {quest:6031} Runecloth
 	["The western Winterfall camp sits in the hills between {npc:11556} and {npc:9298}. Any furbolg here can drop an {item:12771} (about one in ten) and, rarely, a {quest:8471}: right-click whichever drops. Keep the {quest:6031} the furbolgs drop for Meilosh."] = "Batıdaki Winterfall kampı {npc:11556} ile {npc:9298} arasındaki tepelerde. Buradaki herhangi bir furbolg {item:12771} (yaklaşık onda bir) ve nadiren {quest:8471} düşürebilir: hangisi düşerse ona sağ tıkla. Furbolgların düşürdüğü {quest:6031} kumaşını Meilosh için sakla.",
 	-- {item:12771} Empty Firewater Flask
@@ -73,15 +73,15 @@ return {
 	["The Deadwood cauldron in {zone:1448}: keep it"] = "{zone:1448} bölgesindeki Deadwood kazanı: sakla",
 
 	-- Step 14: Level 55.05
-	["Level 55.05"] = "",
+	["Level 55.05"] = "Seviye 55.05",
 	-- {area:2255} Everlook
-	["Top up here to level 55.05 before the hand-ins at {area:2255}: they take you to level 56."] = "",
+	["Top up here to level 55.05 before the hand-ins at {area:2255}: they take you to level 56."] = "{area:2255} teslimlerinden önce burada seviye 55.05 olana kadar kas: teslimler seni seviye 56 yapar.",
 	-- {npc:11552} Timbermaw Mystic
-	["grind on {npc:11552}"] = "",
+	["grind on {npc:11552}"] = "Kas: {npc:11552}",
 
 	-- Step 15: Hearth to Everlook
 	-- {area:2255} Everlook
-	["Hearth to {area:2255}"] = "",
+	["Hearth to {area:2255}"] = "Hearthstone ile dön: {area:2255}",
 
 	-- Step 17: Winterfall Village
 	-- {area:2255} Everlook · {npc:10738} High Chief Winterfall
@@ -95,9 +95,9 @@ return {
 
 	-- Step 19: Pristine Yeti Horn on the way
 	-- {item:12367} Pristine Yeti Horn
-	["{item:12367} on the way"] = "",
+	["{item:12367} on the way"] = "Yol üstünde: {item:12367}",
 	-- {item:12367} Pristine Yeti Horn · {area:2255} Everlook
-	["{item:12367} along the way to {area:2255}"] = "",
+	["{item:12367} along the way to {area:2255}"] = "{item:12367}, {area:2255} yolu üstünde",
 
 	-- Step 20: Everlook
 	-- {npc:10978} Legacki
@@ -123,7 +123,7 @@ return {
 	-- Step 26: Fly to Theramore
 	["Fly to Theramore"] = "Theramore'a uç",
 	-- {area:2255} Everlook
-	["{area:2255} flight master"] = "",
+	["{area:2255} flight master"] = "{area:2255} uçuş ustası",
 
 	-- Step 27: Boat to Menethil Harbor
 	-- {area:150} Menethil Harbor
@@ -133,7 +133,7 @@ return {
 	-- {area:271} Southshore
 	["Fly to {area:271}"] = "{area:271} kasabasına uç",
 	-- {area:150} Menethil Harbor
-	["{area:150} flight master"] = "",
+	["{area:150} flight master"] = "{area:150} uçuş ustası",
 
 	-- Step 30: Chillwind Camp
 	-- {area:1769} Timbermaw Hold · {zone:1448} Felwood · {area:442} Auberdine · {area:150} Menethil Harbor · {area:271} Southshore · {area:3197} Chillwind Camp
@@ -143,7 +143,7 @@ return {
 
 	-- Step 31: Into Eastern Plaguelands
 	-- {area:139} Eastern Plaguelands
-	["Into {area:139}"] = "",
+	["Into {area:139}"] = "{area:139} içine",
 
 	-- Step 33: Pamela Redpath
 	-- {area:139} Eastern Plaguelands · {area:2262} Darrowshire · {npc:10926} Pamela Redpath
@@ -155,9 +155,9 @@ return {
 	-- {area:2262} Darrowshire
 	["The three pieces of the doll lie in the ruined houses of {area:2262}; picking one up can call out ghosts. Combine them into the doll."] = "Bebeğin üç parçası {area:2262} köyünün yıkık evlerinde; birini almak hayaletleri çağırabilir. Parçaları birleştirip bebeği yap.",
 	-- {item:12886} Pamela's Doll's Head
-	["{item:12886}; inside"] = "",
+	["{item:12886}; inside"] = "{item:12886}; içeride",
 	-- {item:12888} Pamela's Doll's Right Side
-	["{item:12888}; inside"] = "",
+	["{item:12888}; inside"] = "{item:12888}; içeride",
 
 	-- Step 35: Pamela Redpath
 	-- {quest:5152} Auntie Marlene · {area:28} Western Plaguelands
@@ -183,18 +183,18 @@ return {
 	-- {area:2261} The Undercroft
 	["Zaeldarr is elite: grouping up is advised. He waits at the bottom of the {area:2261}, the crypt in the south-west of the zone."] = "",
 	-- {item:15785} Zaeldarr's Head
-	["{item:15785}; below ground"] = "",
+	["{item:15785}; below ground"] = "{item:15785}; yer altında",
 
 	-- Step 41: Browman Mill: kill these as you meet them
 	-- {area:2269} Browman Mill
-	["{area:2269}: kill these as you meet them"] = "",
+	["{area:2269}: kill these as you meet them"] = "{area:2269}: bunları karşılaştıkça öldür",
 	-- {npc:10411} Eye of Naxxramas
 	-- plural, as words: Rockwing Gargoyles = {npc:10408} Rockwing Gargoyle
 	["Careful: {npc:10411} goes invisible when out of combat and calls Rockwing Gargoyles once a fight starts. Only 3 exist and they respawn every 15 min."] = "",
 
 	-- Step 42: Hearth to Light's Hope Chapel
 	-- {area:2268} Light's Hope Chapel
-	["Hearth to {area:2268}"] = "",
+	["Hearth to {area:2268}"] = "Hearthstone ile dön: {area:2268}",
 
 	-- Step 43: Light's Hope Chapel
 	-- {area:3197} Chillwind Camp

@@ -5,9 +5,9 @@
 return {
 	-- Step 1: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
-	["Fly to {area:150}"] = "",
+	["Fly to {area:150}"] = "Uç: {area:150}",
 	-- {zone:1455} Ironforge
-	["{zone:1455} flight master"] = "",
+	["{zone:1455} flight master"] = "{zone:1455} uçuş ustası",
 
 	-- Step 3: Fly to Gadgetzan
 	-- {area:976} Gadgetzan
@@ -20,7 +20,7 @@ return {
 
 	-- Step 7: Super Sticky Tar on the way
 	-- {item:11834} Super Sticky Tar
-	["{item:11834} on the way"] = "",
+	["{item:11834} on the way"] = "Yol üstünde: {item:11834}",
 
 	-- Step 9: Torwa Pathfinder
 	-- {area:976} Gadgetzan · {area:490} Un'Goro Crater · {npc:9619} Torwa Pathfinder
@@ -47,11 +47,11 @@ return {
 	-- {npc:9998} Shizzle
 	["{npc:9998}, at the refuge entrance"] = "{npc:9998}, sığınağın girişinde",
 	-- {npc:9117} J.D. Collie
-	["{npc:9117}, at the back of the cave; below ground"] = "",
+	["{npc:9117}, at the back of the cave; below ground"] = "{npc:9117}, mağaranın dibinde; yer altında",
 
 	-- Step 15: Webbed Diemetradon Scale on the way
 	-- {item:11830} Webbed Diemetradon Scale
-	["{item:11830} on the way"] = "",
+	["{item:11830} on the way"] = "Yol üstünde: {item:11830}",
 
 	-- Step 16: Fire Plume Ridge and the eastern jungle
 	-- {area:537} Fire Plume Ridge
@@ -62,11 +62,11 @@ return {
 
 	-- Step 17: The Marshlands
 	-- {object:161504} A Small Pack
-	["{object:161504}, underwater"] = "",
+	["{object:161504}, underwater"] = "{object:161504}, su altında",
 
 	-- Step 19: Marshal's Refuge
 	-- {npc:9117} J.D. Collie
-	["{npc:9117}, below ground"] = "",
+	["{npc:9117}, below ground"] = "{npc:9117}, yer altında",
 	-- {npc:9298} Donova Snowden · {zone:1452} Winterspring
 	["Ends with {npc:9298} in {zone:1452}: keep it"] = "{zone:1452} bölgesindeki {npc:9298} ile biter: sakla",
 	-- {npc:7775} Gregan Brewspewer · {zone:1444} Feralas
@@ -80,12 +80,12 @@ return {
 	-- Step 21: A-Me 01
 	-- {area:1943} Ironstone Plateau
 	["Ride north to {area:1943}, where the robot stands among the gorillas. Stay out of the deep cave there."] = "Kuzeye, robotun gorillerin arasında durduğu {area:1943} platosuna git. Oradaki derin mağaradan uzak dur.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 22: Level 49.51
-	["Level 49.51"] = "",
+	["Level 49.51"] = "Seviye 49.51",
 	-- {area:541} Marshal's Refuge
-	["Top up here to level 49.51 before the hand-ins at {area:541}: they take you to level 50."] = "",
+	["Top up here to level 49.51 before the hand-ins at {area:541}: they take you to level 50."] = "{area:541} teslimlerinden önce burada seviye 49.51 olana kadar kas: teslimler seni seviye 50 yapar.",
 	["Pterrordax"] = "Pterrordax",
 	["grind on Pterrordax"] = "",
 
@@ -95,7 +95,7 @@ return {
 	-- plural, as words: Gorishi Workers = {npc:6552} Gorishi Worker
 	["Ride west from {npc:9619}: the silithid hive fills the south of the crater. Use the Scraping Vial on a hatchery, a chamber with hanging larvae. Gorishi wasps and workers drop {quest:3764}; Pterrordax nest on the southern cliffs if you still need kills.\nCareful: Gorishi silithids are level 51-54 and cast {spell:8137} or {spell:14120} in melee; Gorishi Workers have a 50% chance to call for help within 25 yd once they fall below 45% health."] = "",
 	-- {npc:9167} Frenzied Pterrordax
-	["grind on {npc:9167}"] = "",
+	["grind on {npc:9167}"] = "Kas: {npc:9167}",
 
 	-- Step 24: Bones and equipment
 	["Bones and equipment"] = "Kemikler ve ekipman",
@@ -103,11 +103,11 @@ return {
 	-- plural, as words: Dinosaur Bones = {item:11114} Dinosaur Bone
 	["Dinosaur Bones lie on the ground in the south-west, among the stegodons: those are elite, pick the bones up around them and take the rest from Diemetradons. The expedition's {item:11112} lies in the south-west jungle."] = "Dinosaur Bone kemikleri güneybatıda, stegodonların arasında yerde duruyor: stegodonlar elit, kemikleri onların çevresinden topla, kalanını Diemetradon yaratıklarından al. Keşif ekibinin {item:11112} eşyası güneybatı ormanında.",
 	-- {npc:9164} Elder Diemetradon
-	["grind on {npc:9164}"] = "",
+	["grind on {npc:9164}"] = "Kas: {npc:9164}",
 
 	-- Step 25: Un'Goro Crater: kill these as you meet them
 	-- {area:490} Un'Goro Crater
-	["{area:490}: kill these as you meet them"] = "",
+	["{area:490}: kill these as you meet them"] = "{area:490}: bunları karşılaştıkça öldür",
 	-- {npc:9165} Fledgling Pterrordax · {npc:9998} Shizzle
 	-- plural, as words: Young Diemetradons = {npc:9162} Young Diemetradon
 	["Ride south down the east side. Young Diemetradons graze the eastern jungle and {npc:9165} fly near the eastern cliffs; both drop {npc:9998}'s scales."] = "Doğu yakasından güneye in. Young Diemetradon yaratıkları doğu ormanında otluyor, {npc:9165} yaratıkları doğu uçurumlarının yakınında uçuyor; ikisi de {npc:9998} için pul düşürür.",
@@ -128,17 +128,17 @@ return {
 
 	-- Step 31: Hearth to Stoutlager Inn
 	-- {area:2101} Stoutlager Inn
-	["Hearth to {area:2101}"] = "",
+	["Hearth to {area:2101}"] = "Hearthstone ile dön: {area:2101}",
 
 	-- Step 32: To Stoutlager Inn
 	-- {area:2101} Stoutlager Inn
-	["To {area:2101}"] = "",
+	["To {area:2101}"] = "Git: {area:2101}",
 
 	-- Step 33: Fly to Ironforge
 	-- {area:1537} Ironforge
-	["Fly to {area:1537}"] = "",
+	["Fly to {area:1537}"] = "Uç: {area:1537}",
 	-- {area:144} Thelsamar
-	["{area:144} flight master"] = "",
+	["{area:144} flight master"] = "{area:144} uçuş ustası",
 
 	-- Step 34: Hall of Explorers
 	-- {npc:9616} Laris Geardawdle · {zone:1448} Felwood
@@ -165,16 +165,16 @@ return {
 
 	-- Step 41: Fly to Astranaar
 	-- {area:415} Astranaar
-	["Fly to {area:415}"] = "",
+	["Fly to {area:415}"] = "Uç: {area:415}",
 	-- {area:442} Auberdine
-	["{area:442} flight master"] = "",
+	["{area:442} flight master"] = "{area:442} uçuş ustası",
 
 	-- Step 42: Level 50.4
-	["Level 50.4"] = "",
+	["Level 50.4"] = "Seviye 50.4",
 	-- {area:3137} Talrendis Point
-	["Top up here to level 50.4 before the hand-ins at {area:3137}: they take you to level 51."] = "",
+	["Top up here to level 50.4 before the hand-ins at {area:3137}: they take you to level 51."] = "{area:3137} teslimlerinden önce burada seviye 50.4 olana kadar kas: teslimler seni seviye 51 yapar.",
 	-- {npc:6116} Highborne Apparition
-	["grind on {npc:6116}"] = "",
+	["grind on {npc:6116}"] = "Kas: {npc:6116}",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["{npc:6734}: the last guide hearths you here, so this usually ticks at once"] = "{npc:6734}: önceki rehber seni Hearthstone ile buraya getirir, bu yüzden bu genelde hemen tamamlanır",

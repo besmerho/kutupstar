@@ -5,7 +5,7 @@
 return {
 	-- Step 1: Into Badlands
 	-- {area:3} Badlands
-	["Into {area:3}"] = "",
+	["Into {area:3}"] = "{area:3} içine",
 
 	-- Step 3: Hammertoe's Digsite
 	-- {zone:1432} Loch Modan · {area:3} Badlands · {npc:2910} Prospector Ryedol · {npc:2860} Sigrun Ironhew
@@ -13,7 +13,7 @@ return {
 
 	-- Step 4: Hammertoe's Digsite: kill these as you meet them
 	-- {area:346} Hammertoe's Digsite
-	["{area:346}: kill these as you meet them"] = "",
+	["{area:346}: kill these as you meet them"] = "{area:346}: bunları karşılaştıkça öldür",
 	-- plural, as words: Crag Coyotes = {npc:2727} Crag Coyote
 	["The Shadowforge dwarves camp just north of the digsite; the crumpled map lies among their tents. Tunnelers and Darkweavers carry Ryedol's pick. Crag Coyotes roam the slopes around it."] = "Shadowforge cüceleri kazı alanının hemen kuzeyinde kamp kurmuş; buruşuk harita çadırlarının arasında duruyor. Ryedol'un kazmasını Shadowforge Tunneler ve Shadowforge Darkweaver yaratıkları taşıyor. Çevredeki yamaçlarda Crag Coyote yaratıkları dolaşıyor.",
 
@@ -32,7 +32,7 @@ return {
 
 	-- Step 8: Indurium Flake on the way
 	-- {item:5797} Indurium Flake
-	["{item:5797} on the way"] = "",
+	["{item:5797} on the way"] = "Yol üstünde: {item:5797}",
 
 	-- Step 9: Agmond's End
 	["The battered skeleton lies just east of the ogres, at the edge of the Stonevault trogg camp; the Bonesnappers and Shamans around it drop the flakes. Theldurin sits by the ruined camp further south."] = "Hırpalanmış iskelet ogreların hemen doğusunda, Stonevault trogg kampının kenarında yatıyor; pulları çevresindeki Stonevault Bonesnapper ve Stonevault Shaman yaratıkları düşürür. Theldurin daha güneydeki yıkık kampın yanında oturuyor.",
@@ -43,7 +43,7 @@ return {
 
 	-- Step 11: Agmond's End: kill these as you meet them
 	-- {area:345} Agmond's End
-	["{area:345}: kill these as you meet them"] = "",
+	["{area:345}: kill these as you meet them"] = "{area:345}: bunları karşılaştıkça öldür",
 	-- {quest:739} Murdaloc · {area:1878} Dustbowl · {npc:2921} Lotwil Veriatus · {spell:5242} Battle Shout · {spell:1160} Demoralizing Shout · {area:340} Kargath
 	-- plural, as words: Lesser Rock Elementals = {npc:2735} Lesser Rock Elemental · Dustbelcher Lords = {npc:2719} Dustbelcher Lord
 	["The Dustbelcher ogres camp just south of the valley; any of them drops scrap. Buzzards circle the plain to the east.\nThe battered skeleton lies at the edge of the Stonevault trogg camp; {quest:739}, Agmond's killer, walks among the Bonesnappers.\nThe Lesser Rock Elementals wander the {area:1878} west of {npc:2921}.\nCareful: Dustbelcher Lords are level 44-45. They use {spell:5242} and {spell:1160}, and below 50% health they call for help from allies within 15 yd. Seven of them stand about 750 yd south of {area:340}."] = "",
@@ -52,7 +52,7 @@ return {
 
 	-- Step 12: Stonevault Bonesnapper on the way
 	-- {npc:2893} Stonevault Bonesnapper
-	["{npc:2893} on the way"] = "",
+	["{npc:2893} on the way"] = "Yol üstünde: {npc:2893}",
 
 	-- Step 14: Lucien Tosselwrench
 	-- {npc:2921} Lotwil Veriatus
@@ -64,7 +64,7 @@ return {
 	-- {area:3} Badlands · {npc:2745} Ambassador Infernus
 	["Head north-east to the dwarven ruins in the north of the {area:3}; the chest sits among the Shadowforge dwarves. {npc:2745} nearby is elite: give him room."] = "",
 	-- {item:4631} Tablet of Ryun'eh
-	["{item:4631}; below ground"] = "",
+	["{item:4631}; below ground"] = "{item:4631}; yer altında",
 
 	-- Step 16: Theldurin the Lost
 	-- {area:345} Agmond's End
@@ -87,11 +87,11 @@ return {
 
 	-- Step 20: Hearth to Stoutlager Inn
 	-- {area:2101} Stoutlager Inn
-	["Hearth to {area:2101}"] = "",
+	["Hearth to {area:2101}"] = "Hearthstone ile dön: {area:2101}",
 
 	-- Step 21: To Stoutlager Inn
 	-- {area:2101} Stoutlager Inn
-	["To {area:2101}"] = "",
+	["To {area:2101}"] = "Git: {area:2101}",
 
 	-- Step 22: Thelsamar
 	-- {npc:1470} Ghak Healtouch
@@ -99,18 +99,18 @@ return {
 
 	-- Step 23: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
-	["Fly to {area:150}"] = "",
+	["Fly to {area:150}"] = "Uç: {area:150}",
 	-- {area:144} Thelsamar
-	["{area:144} flight master"] = "",
+	["{area:144} flight master"] = "{area:144} uçuş ustası",
 
 	-- Step 25: Theramore
 	["Theramore"] = "Theramore",
 	-- {area:514} Foothold Citadel · {npc:5083} Clerk Lendry · {npc:4964} Commander Samaul
 	["The flight master stands by the gate of {area:514}; {npc:5083} and {npc:4964} are inside the citadel."] = "Uçuş ustası {area:514} kalesinin kapısının yanında duruyor; {npc:5083} ve {npc:4964} kalenin içinde.",
 	-- {npc:5083} Clerk Lendry
-	["{npc:5083}, on the top floor"] = "",
+	["{npc:5083}, on the top floor"] = "{npc:5083}, en üst katta",
 	-- {npc:4964} Commander Samaul
-	["{npc:4964}, on the top floor"] = "",
+	["{npc:4964}, on the top floor"] = "{npc:4964}, en üst katta",
 	["for the Dustwallow loop in the next guide"] = "sonraki rehberdeki Dustwallow turu için",
 
 	-- Step 27: Bibbly F'utzbuckle
@@ -155,11 +155,11 @@ return {
 	["The wrecked ship's chest lies on the shore just west of {npc:11863}'s tower."] = "Batık geminin sandığı {npc:11863} kulesinin hemen batısındaki kıyıda duruyor.",
 
 	-- Step 37: Claim Rackmore's Treasure!
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- Step 38: Hearth to Nijel's Point
 	-- {area:608} Nijel's Point
-	["Hearth to {area:608}"] = "",
+	["Hearth to {area:608}"] = "Hearthstone ile dön: {area:608}",
 
 	-- Step 39: Nijel's Point
 	-- {area:608} Nijel's Point
@@ -171,7 +171,7 @@ return {
 
 	-- Step 40: Sar'theris Strand: kill these as you meet them
 	-- {area:598} Sar'theris Strand
-	["{area:598}: kill these as you meet them"] = "",
+	["{area:598}: kill these as you meet them"] = "{area:598}: bunları karşılaştıkça öldür",
 	-- {npc:12369} Lord Kragaru · {npc:11863} Azore Aldamort
 	["{npc:12369}, a centaur chieftain, camps on the north-west coast, north of {npc:11863}'s tower."] = "Bir centaur şefi olan {npc:12369}, kuzeybatı kıyısında, {npc:11863} kulesinin kuzeyinde kamp kurmuş.",
 

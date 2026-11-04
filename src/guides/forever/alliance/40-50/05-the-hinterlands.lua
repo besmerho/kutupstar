@@ -14,49 +14,49 @@ return {
 	["Ride north to {area:351} in the middle of the {zone:1425}. Green Sludges and Jade Oozes crawl all around it.\nCareful: Panthers move around the area in stealth."] = "",
 
 	-- Step 3: Aerie Peak
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 	-- {npc:5636} Gryphon Master Talonaxe
-	["{npc:5636}, inside"] = "",
+	["{npc:5636}, inside"] = "{npc:5636}, içeride",
 	-- {quest:2990} Thadius Grimshade · {area:1438} Nethergarde Keep
 	["for {quest:2990} at {area:1438}, later"] = "{area:1438} kalesindeki {quest:2990} için, daha sonra",
 
 	-- Step 4: Fly to Ironforge
 	-- {area:1537} Ironforge
-	["Fly to {area:1537}"] = "",
+	["Fly to {area:1537}"] = "Uç: {area:1537}",
 	-- {area:348} Aerie Peak
-	["{area:348} flight master"] = "",
+	["{area:348} flight master"] = "{area:348} uçuş ustası",
 
 	-- Step 5: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 6: Tram to Stormwind
 	-- {zone:1453} Stormwind
-	["Tram to {zone:1453}"] = "",
+	["Tram to {zone:1453}"] = "Tramvayla: {zone:1453}",
 
 	-- Step 10: Fly to Lakeshire
 	-- {area:69} Lakeshire
-	["Fly to {area:69}"] = "",
+	["Fly to {area:69}"] = "Uç: {area:69}",
 	-- {area:42} Darkshire
-	["{area:42} flight master"] = "",
+	["{area:42} flight master"] = "{area:42} uçuş ustası",
 
 	-- Step 11: Morgan's Vigil flight master
 	-- {area:2418} Morgan's Vigil
-	["{area:2418} flight master"] = "",
+	["{area:2418} flight master"] = "{area:2418} uçuş ustası",
 
 	-- Step 12: Fly to Thelsamar
 	-- {area:144} Thelsamar
-	["Fly to {area:144}"] = "",
+	["Fly to {area:144}"] = "Uç: {area:144}",
 
 	-- Step 14: Ironband's Excavation Site
 	["Ride east along the south shore of the loch to Ironband's camp."] = "Gölün güney kıyısı boyunca doğuya, Ironband'in kampına git.",
 
 	-- Step 15: Thelsamar
 	-- {npc:1470} Ghak Healtouch
-	["{npc:1470}, below ground"] = "",
+	["{npc:1470}, below ground"] = "{npc:1470}, yer altında",
 
 	-- Step 16: Into Badlands
 	-- {area:3} Badlands
-	["Into {area:3}"] = "",
+	["Into {area:3}"] = "{area:3} içine",
 
 	-- Step 18: The Uldaman dig
 	-- {area:1517} Uldaman
@@ -64,22 +64,22 @@ return {
 	-- {area:3} Badlands · {area:1517} Uldaman
 	["Ride south through the pass into the {area:3}' northern edge: the Stonevault troggs dig outside {area:1517} there. The carved urns and the magenta mushroom clusters sit in their caves and tunnels, outside the dungeon itself."] = "",
 	-- {item:8047} Magenta Fungus Cap
-	["{item:8047}; below ground"] = "",
+	["{item:8047}; below ground"] = "{item:8047}; yer altında",
 	-- {object:2743} Carved Stone Urn
-	["{object:2743}; below ground"] = "",
+	["{object:2743}; below ground"] = "{object:2743}; yer altında",
 
 	-- Step 19: Into Loch Modan
 	-- {area:38} Loch Modan
-	["Into {area:38}"] = "",
+	["Into {area:38}"] = "{area:38} içine",
 
 	-- Step 22: Ironband's Excavation Site
 	["Ride back north to Ironband's camp."] = "Kuzeye, Ironband'in kampına dön.",
 
 	-- Step 23: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
-	["Fly to {area:150}"] = "",
+	["Fly to {area:150}"] = "Uç: {area:150}",
 	-- {area:144} Thelsamar
-	["{area:144} flight master"] = "",
+	["{area:144} flight master"] = "{area:144} uçuş ustası",
 
 	-- Step 26: Rut'theran Village
 	-- {npc:7907} Daryn Lightwind · {zone:1446} Tanaris
@@ -105,17 +105,17 @@ return {
 
 	-- Step 34: Portal to Teldrassil
 	-- {area:141} Teldrassil
-	["Portal to {area:141}"] = "",
+	["Portal to {area:141}"] = "Portalla: {area:141}",
 
 	-- Step 35: Fly to Auberdine
 	-- {area:442} Auberdine
-	["Fly to {area:442}"] = "",
+	["Fly to {area:442}"] = "Uç: {area:442}",
 	-- {area:702} Rut'theran Village
-	["{area:702} flight master"] = "",
+	["{area:702} flight master"] = "{area:702} uçuş ustası",
 
 	-- Step 36: Boat to Stormwind Harbor
 	-- {area:17203} Stormwind Harbor
-	["Boat to {area:17203}"] = "",
+	["Boat to {area:17203}"] = "Gemiyle: {area:17203}",
 
 	-- Step 39: The bloodmages
 	["The bloodmages"] = "Kan büyücüleri",
@@ -130,11 +130,11 @@ return {
 	-- {npc:8022} Thadius Grimshade · {item:9471} Nekrum's Medallion · {area:978} Zul'Farrak
 	["{npc:8022}' next task, {item:9471}, is a {area:978} quest: skip it."] = "{npc:8022} adlı NPC'nin sonraki görevi {item:9471} bir {area:978} görevi: atla.",
 	-- {npc:5385} Watcher Mahar Ba
-	["{npc:5385}, upstairs"] = "",
+	["{npc:5385}, upstairs"] = "{npc:5385}, üst katta",
 
 	-- Step 41: Blasted Lands: kill these as you meet them
 	-- {area:4} Blasted Lands
-	["{area:4}: kill these as you meet them"] = "",
+	["{area:4}: kill these as you meet them"] = "{area:4}: bunları karşılaştıkça öldür",
 	-- {npc:5982} Black Slayer · {spell:5416} Venom Sting · {npc:8301} Clack the Reaver
 	-- plural, as words: Starving Snickerfangs = {npc:5984} Starving Snickerfang · Scorpok Stingers = {npc:5988} Scorpok Stinger · Ashmane Boars = {npc:5992} Ashmane Boar · Redstone Basilisks = {npc:5990} Redstone Basilisk
 	["Ride west: Starving Snickerfangs roam the dry hills just south of the bloodmages' camp; Scorpok Stingers (level 50) scuttle across the middle of the north. {npc:5982} vultures circle over all of it. Pull one at a time.\nAshmane Boars and Redstone Basilisks share the slopes south-west of the keep. Keep clear of the Helboars further south: they are level 52.\nCareful: Scorpok Stingers use {spell:5416}; {npc:8301} adds Knockdown."] = "",
@@ -146,15 +146,15 @@ return {
 	-- {area:35} Booty Bay
 	["Fly to {area:35}"] = "{area:35} limanına uç",
 	-- {area:1438} Nethergarde Keep
-	["{area:1438} flight master"] = "",
+	["{area:1438} flight master"] = "{area:1438} uçuş ustası",
 
 	-- Step 44: Monogrammed Sash
 	-- {quest:8552} The Monogrammed Sash
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:8552} needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:8552} needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {quest:8552} 2 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 48: Facing Negolash
 	-- {npc:1494} Negolash
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:1494} (level 52 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:1494} (level 52 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:1494} (seviye 52 elit) 2 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["{npc:7744}: the last guide binds here, so this usually ticks at once"] = "{npc:7744}: önceki rehber Hearthstone'u burada bağlar, bu yüzden bu genelde hemen tamamlanır",

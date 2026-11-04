@@ -7,7 +7,7 @@ return {
 	-- {area:378} Camp Taurajo
 	["Fly to {area:378}"] = "{area:378} kampına uç",
 	-- {area:380} Crossroads
-	["{area:380} flight master"] = "",
+	["{area:380} flight master"] = "{area:380} uçuş ustası",
 
 	-- Step 3: Shady Rest Inn
 	-- {area:378} Camp Taurajo · {area:403} Shady Rest Inn
@@ -22,7 +22,7 @@ return {
 	-- {npc:4503} Mudcrush Durtfeet
 	["{npc:4503}, at the south edge of the village where the road comes in"] = "{npc:4503}, köyün güney kenarında, yolun köye girdiği yerde",
 	-- {npc:4501} Draz'Zilb
-	["{npc:4501}, below ground"] = "",
+	["{npc:4501}, below ground"] = "{npc:4501}, yer altında",
 
 	-- Step 8: Questioning Reethe
 	-- {npc:4983} Ogron · {area:2302} Quagmire
@@ -30,7 +30,7 @@ return {
 
 	-- Step 9: Brackenwall Village flight master
 	-- {area:496} Brackenwall Village
-	["{area:496} flight master"] = "",
+	["{area:496} flight master"] = "{area:496} uçuş ustası",
 
 	-- Step 10: Thunder Bluff
 	-- {area:1638} Thunder Bluff · {area:378} Camp Taurajo · {zone:1412} Mulgore · {area:496} Brackenwall Village
@@ -38,9 +38,9 @@ return {
 
 	-- Step 11: Back to Brackenwall Village
 	-- {area:496} Brackenwall Village
-	["Back to {area:496}"] = "",
+	["Back to {area:496}"] = "Dönüş: {area:496}",
 	-- {zone:1456} Thunder Bluff
-	["{zone:1456} flight master"] = "",
+	["{zone:1456} flight master"] = "{zone:1456} uçuş ustası",
 
 	-- Step 12: Stinky Ignatz
 	["Stinky Ignatz"] = "Stinky Ignatz",
@@ -63,13 +63,13 @@ return {
 
 	-- Step 15: Theramore Infiltrator on the way
 	-- {npc:4834} Theramore Infiltrator
-	["{npc:4834} on the way"] = "",
+	["{npc:4834} on the way"] = "Yol üstünde: {npc:4834}",
 	-- {npc:4834} Theramore Infiltrator · {area:496} Brackenwall Village
-	["{npc:4834} along the way to {area:496}"] = "",
+	["{npc:4834} along the way to {area:496}"] = "{npc:4834}, {area:496} yolu üstünde",
 
 	-- Step 16: Brackenwall Village: kill these as you meet them
 	-- {area:496} Brackenwall Village
-	["{area:496}: kill these as you meet them"] = "",
+	["{area:496}: kill these as you meet them"] = "{area:496}: bunları karşılaştıkça öldür",
 	-- plural, as words: Darkfang Venomspitters = {npc:4414} Darkfang Venomspitter · Theramore Infiltrators = {npc:4834} Theramore Infiltrator · Darkfang Lurkers = {npc:4411} Darkfang Lurker · Darkmist Lurkers = {npc:4377} Darkmist Lurker
 	["Head west back across the marsh. The Darkfang Venomspitters on the ridges north of Brackenwall drop the venom sacs. Theramore Infiltrators (35-36) sneak through the same woods: they are stealthed, so look closely.\nThe Darkmist spiders swarm the cavern mouth north-west of Brackenwall; every kind drops eyes.\nCareful: Darkfang Lurkers (level 36-37) use Sneak to stealth while out of combat and cast Poison once fighting.\nCareful: Stealthed spiders in the same area will attack you on sight.\nCareful: Darkmist Lurkers move about stealthed and use poison once in combat. The spiders stand close together, so adds are common; pulling single targets from the outer edge cuts down on them."] = "",
 
@@ -82,7 +82,7 @@ return {
 	["only if you carry a {item:3853} ({skill:164} or the Auction House)"] = "yalnızca sende bir {item:3853} varsa ({skill:164} ya da Auction House)",
 
 	-- Step 19: The Theramore Docks
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- Step 21: Nazeer Bloodpike
 	["Head back west to Brackenwall with the head."] = "Kafayla birlikte batıya, Brackenwall'a dön.",
@@ -95,9 +95,9 @@ return {
 
 	-- Step 24: Fly to Shadowprey Village
 	-- {area:2408} Shadowprey Village
-	["Fly to {area:2408}"] = "",
+	["Fly to {area:2408}"] = "Uç: {area:2408}",
 	-- {area:392} Ratchet
-	["{area:392} flight master"] = "",
+	["{area:392} flight master"] = "{area:392} uçuş ustası",
 
 	-- Step 26: Melizza Brimbuzzle
 	-- {area:607} Valley of Spears · {npc:12277} Melizza Brimbuzzle
@@ -121,7 +121,7 @@ return {
 	-- Step 32: Burning Blade Seer
 	-- {area:599} Thunder Axe Fortress · {area:2405} Ethel Rethor
 	["The Seer stands on the south side of {area:599}, east of {area:2405}. Clear the cultists around it first."] = "Seer, {area:2405} harabelerinin doğusunda, {area:599} kalesinin güney yakasında duruyor. Önce çevresindeki tarikatçıları temizle.",
-	["On the top floor"] = "",
+	["On the top floor"] = "En üst katta",
 
 	-- Step 33: Thunder Axe Fortress
 	-- {area:2407} Kormek's Hut · {item:14523} Demon Pick · {npc:11876} Demon Spirit · {item:13542} Demon Box
@@ -135,9 +135,9 @@ return {
 	-- {area:2405} Ethel Rethor · {area:598} Sar'theris Strand · {npc:12369} Lord Kragaru · {quest:6027} Book of the Ancients
 	["The Slitherblade naga hold the coast north of {area:2405}, up to {area:598}. {npc:12369} guards the {quest:6027} at the far northern tip."] = "Slitherblade nagaları {area:2405} harabelerinin kuzeyinden {area:598} sahiline kadar kıyıyı tutuyor. {npc:12369}, en kuzey uçta {quest:6027} kitabını koruyor.",
 	-- {npc:4711} Slitherblade Naga · {area:598} Sar'theris Strand
-	["{npc:4711} walks around {area:598}: look inside the circle on the map"] = "",
+	["{npc:4711} walks around {area:598}: look inside the circle on the map"] = "{npc:4711}, {area:598} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 	-- {npc:4714} Slitherblade Myrmidon · {area:598} Sar'theris Strand
-	["{npc:4714} walks around {area:598}: look inside the circle on the map"] = "",
+	["{npc:4714} walks around {area:598}: look inside the circle on the map"] = "{npc:4714}, {area:598} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 37: Maraudine totems
 	["Maraudine totems"] = "Maraudine totemleri",

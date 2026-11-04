@@ -8,7 +8,7 @@ return {
 	["The {area:2240} lies on the {area:439} in south-east {area:400}. {npc:4454} and {npc:4630} are in the camps beside the track.\n{npc:4709} stands by the goblin camp.\nWhile {npc:4709} keeps Rizzle talking, his plans lie unguarded in the gnome camp across the track."] = "",
 	["He runs off to keep Rizzle busy"] = "Rizzle'ı oyalamak için koşarak gider",
 	-- {object:20805} Rizzle's Unguarded Plans
-	["{object:20805}, inside"] = "",
+	["{object:20805}, inside"] = "{object:20805}, içeride",
 
 	-- Step 4: Gadgetzan
 	-- {area:439} Shimmering Flats · {area:440} Tanaris · {area:976} Gadgetzan
@@ -28,20 +28,20 @@ return {
 	-- {npc:7847} Caliph Scorpidsting · {area:976} Gadgetzan
 	["The same poster: {npc:7847} comes much later, after {area:976}"] = "Aynı ilan: {npc:7847} çok daha sonra, {area:976} kasabasından sonra",
 	-- {npc:7882} Security Chief Bilgewhizzle
-	["{npc:7882}, inside"] = "",
+	["{npc:7882}, inside"] = "{npc:7882}, içeride",
 	-- {npc:7881} Stoley
 	["{npc:7881}, in the port's tavern; inside"] = "",
 
 	-- Step 6: Noonshade Ruins: kill these as you meet them
 	-- {area:1937} Noonshade Ruins
-	["{area:1937}: kill these as you meet them"] = "",
+	["{area:1937}: kill these as you meet them"] = "{area:1937}: bunları karşılaştıkça öldür",
 	-- {area:976} Gadgetzan
 	-- plural, as words: Wastewander Rogues = {npc:5615} Wastewander Rogue
 	["Ride back west toward {area:976}. The Wastewander bandits and thieves hold the dunes on the way; any of them can carry a water pouch.\nCareful: Wastewander Rogues (level 43-44) move stealthed, so they can approach unseen."] = "",
 
 	-- Step 8: Wastewander Water Pouch on the way
 	-- {item:8483} Wastewander Water Pouch
-	["{item:8483} on the way"] = "",
+	["{item:8483} on the way"] = "Yol üstünde: {item:8483}",
 
 	-- Step 9: Waterspring Field
 	-- {area:976} Gadgetzan · {npc:7847} Caliph Scorpidsting
@@ -50,15 +50,15 @@ return {
 
 	-- Step 10: Lost Rigger Cove: kill these as you meet them
 	-- {area:1336} Lost Rigger Cove
-	["{area:1336}: kill these as you meet them"] = "",
+	["{area:1336}: kill these as you meet them"] = "{area:1336}: bunları karşılaştıkça öldür",
 	-- {npc:7883} Andre Firebeard · {npc:7881} Stoley
 	["Follow the coast south to the pirate cove. Southsea pirates crowd the beach and the boats: work along the edge and pull one at a time. {npc:7883} stands on the far side; {npc:7881}'s stolen cargo lies in the camp.\nCareful: Two or three pirates stand with {npc:7883}, and many more pirates from the town join the fight once it starts."] = "",
 	-- {quest:2873} Stoley's Shipment
-	["{quest:2873}; upstairs"] = "",
+	["{quest:2873}; upstairs"] = "{quest:2873}; üst katta",
 
 	-- Step 11: Steamwheedle Port
 	-- {npc:7881} Stoley
-	["{npc:7881}, inside"] = "",
+	["{npc:7881}, inside"] = "{npc:7881}, içeride",
 	-- {npc:7881} Stoley · {area:35} Booty Bay
 	["{npc:7881}'s next delivery goes back to {area:35}: skip it."] = "{npc:7881} adlı NPC'nin sonraki teslimatı {area:35} limanına geri gidiyor: atla.",
 
@@ -90,13 +90,13 @@ return {
 	-- {npc:12046} Gor'marok the Ravager
 	["Ride south-west to the ogre compound. Brutes and Enforcers (46-48) fill it; {npc:12046} (49) stands in the middle with guards around him: clear them first."] = "Güneybatıya, ogre yerleşkesine git. Yerleşke Brute ve Enforcer yaratıklarıyla (46-48) dolu; {npc:12046} (49) ortada, çevresinde muhafızlarla duruyor: önce onları temizle.",
 	-- {npc:12046} Gor'marok the Ravager
-	["{npc:12046}, below ground"] = "",
+	["{npc:12046}, below ground"] = "{npc:12046}, yer altında",
 	-- {npc:5474} Dunemaul Brute
-	["grind on {npc:5474}"] = "",
+	["grind on {npc:5474}"] = "Kas: {npc:5474}",
 
 	-- Step 20: Thistleshrub Valley: kill these as you meet them
 	-- {quest:3362} Thistleshrub Valley
-	["{quest:3362}: kill these as you meet them"] = "",
+	["{quest:3362}: kill these as you meet them"] = "{quest:3362}: bunları karşılaştıkça öldür",
 	-- {quest:3362} Thistleshrub Valley
 	-- plural, as words: Gnarled Thistleshrubs = {npc:5490} Gnarled Thistleshrub
 	["Ride south into {quest:3362}. The Dew Collectors drop the glands; only some are full, so keep the Laden one. Gnarled Thistleshrubs and Rootshapers share the valley. The Thistleshrubs are 48-50, above you: pull one at a time.\nCareful: The other thistleshrub mobs in the area are level 49-50 and wander a lot, so you can easily pull extra mobs."] = "",
@@ -111,7 +111,7 @@ return {
 	-- {area:976} Gadgetzan
 	["Ride back west to {area:976}."] = "Batıya, {area:976} kasabasına dön.",
 	-- {npc:5594} Alchemist Pestlezugg
-	["{npc:5594}, inside"] = "",
+	["{npc:5594}, inside"] = "{npc:5594}, içeride",
 	-- {npc:7583} Sprinkle · {area:47} Hinterlands
 	["{npc:7583}'s next ingredient grows in the {area:47}, and the route never brings it back: skip it."] = "",
 	-- {npc:11758} Andi Lynn
@@ -126,11 +126,11 @@ return {
 	-- {area:1938} Broken Pillar · {area:981} The Gaping Chasm
 	["Ride south past the {area:1938} to the {area:981}, the Hazzali tunnels; Scrimshank's gear lies deep inside.\nCareful: One bug guards the gear. Many bugs patrol the tunnels, some of them level 50, so fights often pull extra adds."] = "",
 	-- {item:8593} Scrimshank's Surveying Gear
-	["{item:8593}; below ground"] = "",
+	["{item:8593}; below ground"] = "{item:8593}; yer altında",
 
 	-- Step 25: Hearth to Gadgetzan
 	-- {area:976} Gadgetzan
-	["Hearth to {area:976}"] = "",
+	["Hearth to {area:976}"] = "Hearthstone ile dön: {area:976}",
 
 	-- Step 26: Gadgetzan
 	-- {area:976} Gadgetzan
@@ -141,7 +141,7 @@ return {
 	-- Step 27: Fly to Theramore
 	["Fly to Theramore"] = "Theramore'a uç",
 	-- {area:976} Gadgetzan
-	["{area:976} flight master"] = "",
+	["{area:976} flight master"] = "{area:976} uçuş ustası",
 
 	-- Step 28: Boat to Menethil Harbor
 	-- {area:150} Menethil Harbor
@@ -149,12 +149,12 @@ return {
 
 	-- Step 29: Fly to Aerie Peak
 	-- {area:348} Aerie Peak
-	["Fly to {area:348}"] = "",
+	["Fly to {area:348}"] = "Uç: {area:348}",
 	-- {area:150} Menethil Harbor
-	["{area:150} flight master"] = "",
+	["{area:150} flight master"] = "{area:150} uçuş ustası",
 
 	-- Step 32: Sprinkle's Secret Ingredient
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["From the {area:1108} dock, boat to Feathermoon and fly to {area:489}, then ride east through {zone:1441} to the {area:2240} on the {area:439}. {npc:4454} and {npc:4630} are in the camps beside the track; {npc:4709} stands by the goblin camp."] = "{area:1108} iskelesinden gemiyle Feathermoon'a geç ve {area:489} karakoluna uç, sonra doğuya, {zone:1441} bölgesinden geçerek {area:439} düzlüklerindeki {area:2240} pistine git. {npc:4454} ve {npc:4630} pistin yanındaki kamplarda; {npc:4709} goblin kampının yanında duruyor.",

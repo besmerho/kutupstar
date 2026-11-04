@@ -107,17 +107,17 @@ return {
 	-- {area:2057} Scholomance · {area:2279} Stratholme · {quest:5509} Invader's Scourgestones · {npc:11536} Quartermaster Miranda Breechlock · {area:2268} Light's Hope Chapel · {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp · {npc:10856} Argent Quartermaster Hasana · {area:152} Bulwark · {item:22014} Hallowed Brazier
 	["Honored to Revered is 12,000: about 2,400 {area:2057} and {area:2279} mobs, fewer with their bosses. Their mobs stop at 11,999 of 12,000 Honored; a boss or a turn-in takes you over. Solo, only Scourgestones, the cauldron deliveries and Araj count: 12,000 is 480 turn-ins, or 4,800 {quest:5509}. Keep the stones you get in the dungeons until their mobs stop counting. Honored opens recipes at all three quartermasters: {npc:11536} at {area:2268}, {npc:10857} at {area:3197}, {npc:10856} at the {area:152}. Also the {item:22014} (133 gold) for the Three Kings of Flame quest."] = "",
 	-- {item:19446} Formula: Enchant Bracer - Mana Regeneration
-	["{item:19446}, 3 gold"] = "",
+	["{item:19446}, 3 gold"] = "{item:19446}, 3 altın",
 	-- {item:19216} Pattern: Argent Boots · {skill:197} Tailoring
-	["{item:19216} ({skill:197}), 2 gold 20 silver"] = "",
+	["{item:19216} ({skill:197}), 2 gold 20 silver"] = "{item:19216} ({skill:197}), 2 altın 20 gümüş",
 	-- {item:19328} Pattern: Dawn Treaders · {skill:165} Leatherworking
-	["{item:19328} ({skill:165}), 2 gold 20 silver"] = "",
+	["{item:19328} ({skill:165}), 2 gold 20 silver"] = "{item:19328} ({skill:165}), 2 altın 20 gümüş",
 	-- {item:19203} Plans: Girdle of the Dawn · {skill:164} Blacksmithing
-	["{item:19203} ({skill:164}), 2 gold 20 silver"] = "",
+	["{item:19203} ({skill:164}), 2 gold 20 silver"] = "{item:19203} ({skill:164}), 2 altın 20 gümüş",
 	-- {item:13482} Recipe: Transmute Air to Fire · {skill:171} Alchemy
-	["{item:13482} ({skill:171}), 1 gold 50 silver"] = "",
+	["{item:13482} ({skill:171}), 1 gold 50 silver"] = "{item:13482} ({skill:171}), 1 altın 50 gümüş",
 	-- {item:19442} Formula: Powerful Anti-Venom · {skill:129} First Aid
-	["{item:19442} ({skill:129}), 10 gold"] = "",
+	["{item:19442} ({skill:129}), 10 gold"] = "{item:19442} ({skill:129}), 10 altın",
 
 	-- Step 11: Mantles of the Dawn
 	-- {npc:11536} Quartermaster Miranda Breechlock · {quest:5504} Mantles of the Dawn · {faction:529} Argent Dawn · {item:18173} Shadow Mantle of the Dawn · {item:13810} Blessed Sunfruit
@@ -128,16 +128,16 @@ return {
 	-- {item:18170} Frost Mantle of the Dawn
 	["{item:18170}: pick the resistance you need, 10 gold"] = "",
 	-- {item:19447} Formula: Enchant Bracer - Healing
-	["{item:19447}, 6 gold"] = "",
+	["{item:19447}, 6 gold"] = "{item:19447}, 6 altın",
 	-- {item:19217} Pattern: Argent Shoulders · {skill:197} Tailoring
-	["{item:19217} ({skill:197}), 4 gold"] = "",
+	["{item:19217} ({skill:197}), 4 gold"] = "{item:19217} ({skill:197}), 4 altın",
 	-- {item:19329} Pattern: Golden Mantle of the Dawn · {skill:165} Leatherworking
-	["{item:19329} ({skill:165}), 4 gold"] = "",
+	["{item:19329} ({skill:165}), 4 gold"] = "{item:19329} ({skill:165}), 4 altın",
 	-- {item:19205} Plans: Gloves of the Dawn · {skill:164} Blacksmithing
-	["{item:19205} ({skill:164}), 4 gold"] = "",
+	["{item:19205} ({skill:164}), 4 gold"] = "{item:19205} ({skill:164}), 4 altın",
 
 	-- Step 12: Revered to Exalted
-	["Revered to Exalted"] = "",
+	["Revered to Exalted"] = "Revered → Exalted",
 	-- {quest:5508} Corruptor's Scourgestones · {area:2057} Scholomance · {item:13920} Healthy Dragon Scale
 	["Revered to Exalted is 21,000: 840 Scourgestone or cauldron turn-ins, or the dungeon bosses with their {quest:5508} (a full {area:2057} clear is about 600). Turn in every stone and {item:13920} you saved."] = "",
 

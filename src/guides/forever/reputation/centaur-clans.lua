@@ -22,7 +22,7 @@ return {
 
 	-- Step 2: Gelkis Village: Uthek the Wise and Molkar
 	-- {area:606} Gelkis Village · {npc:5397} Uthek the Wise · {npc:253140} Molkar
-	["{area:606}: {npc:5397} and {npc:253140}"] = "",
+	["{area:606}: {npc:5397} and {npc:253140}"] = "{area:606}: {npc:5397} ve {npc:253140}",
 	-- {area:606} Gelkis Village · {zone:1443} Desolace · {npc:5397} Uthek the Wise · {npc:253140} Molkar
 	["{area:606} sits in the hills of south-west {zone:1443}; {npc:5397} stands at its heart. {npc:253140}, the Gelkis quartermaster, is at the south end of the village. Buying Friendship alone takes you from Neutral to Friendly."] = "",
 
@@ -78,7 +78,7 @@ return {
 
 	-- Step 10: Magram Village: Warug and Gorhak
 	-- {area:604} Magram Village · {npc:5398} Warug · {npc:253139} Gorhak
-	["{area:604}: {npc:5398} and {npc:253139}"] = "",
+	["{area:604}: {npc:5398} and {npc:253139}"] = "{area:604}: {npc:5398} ve {npc:253139}",
 	-- {area:604} Magram Village · {zone:1443} Desolace · {npc:5398} Warug · {npc:253139} Gorhak
 	["{area:604} fills the valley of south-east {zone:1443}; {npc:5398} stands on its north side, {npc:253139}, the Magram quartermaster, near the lake. Buying Friendship alone takes you from Neutral to Friendly."] = "",
 

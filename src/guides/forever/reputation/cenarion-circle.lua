@@ -86,7 +86,7 @@ return {
 	-- plural, as words: Stonelash Flayers = {npc:11737} Stonelash Flayer · Rock Stalkers = {npc:11739} Rock Stalker · Dredge Crushers = {npc:11741} Dredge Crusher
 	["Stonelash Flayers, Pincers and Rock Stalkers live south and south-west of the Hold; their stingers and fangs drop about one time in ten. Dredge Crushers dig south and west of the Hold."] = "",
 	-- {item:20452} Smoked Desert Dumplings · {object:180503} Sandy Cookbook
-	["{item:20452}, from the {object:180503}"] = "",
+	["{item:20452}, from the {object:180503}"] = "{item:20452}, kaynak: {object:180503}",
 	-- {item:20452} Smoked Desert Dumplings · {item:20424} Sandworm Meat · {item:3713} Soothing Spices
 	["{item:20452}, from {item:20424} and {item:3713}"] = "",
 
@@ -96,7 +96,7 @@ return {
 
 	-- Step 13: The Ravaged Twilight Camp
 	-- {area:3100} Ravaged Twilight Camp
-	["The {area:3100}"] = "",
+	["The {area:3100}"] = "{area:3100}",
 	-- {zone:1451} Silithus
 	-- plural, as words: Twilight Tablet Fragments = {item:20378} Twilight Tablet Fragment
 	["The broken camp in the far north-west of {zone:1451}: the Twilight Tablet Fragments lie on the ground among the ruins."] = "",
@@ -120,7 +120,7 @@ return {
 	-- {zone:1451} Silithus · {npc:15171} Frankal Stonebridge · {npc:15170} Rutgar Glyphshaper · {quest:8304} Dearest Natalia · {item:20379} Noggle's Satchel · {npc:15196} Deathclasp · {spell:10101} Knock Away
 	["The dwarves' camp in the south of {zone:1451}. Talk {npc:15171} and {npc:15170} through their whole stories for {quest:8304}. {item:20379} lies on the mountain south-east of the camp. {npc:15196} lives up the trail east of the camp: an elite, and his {spell:10101} can throw you off the cliff."] = "",
 	-- {npc:15171} Frankal Stonebridge · {npc:15170} Rutgar Glyphshaper
-	["{npc:15171} and {npc:15170}"] = "",
+	["{npc:15171} and {npc:15170}"] = "{npc:15171} ve {npc:15170}",
 	-- {item:20385} Deathclasp's Pincer
 	["{item:20385}, elite: group of 2 or 3"] = "",
 
@@ -170,7 +170,7 @@ return {
 
 	-- Step 27: Umber in Nighthaven
 	-- {npc:11939} Umber · {area:2361} Nighthaven
-	["{npc:11939} in {area:2361}"] = "",
+	["{npc:11939} in {area:2361}"] = "{npc:11939}, {area:2361} içinde",
 
 	-- Step 28: Quests elsewhere
 	["Quests elsewhere"] = "",
@@ -181,7 +181,7 @@ return {
 
 	-- Step 29: Encrypted Twilight Texts to Revered
 	-- {quest:8319} Encrypted Twilight Texts
-	["{quest:8319} to Revered"] = "",
+	["{quest:8319} to Revered"] = "{quest:8319}: Revered itibarına kadar",
 	-- {npc:15306} Bor Wildmane · {quest:8319} Encrypted Twilight Texts · {npc:14479} Twilight Lord Everun · {item:20733} Formula: Enchant Cloak - Greater Nature Resistance · {item:22773} Pattern: Sylvan Crown
 	["Honored to Revered is 12,000 reputation. {npc:15306} takes 10 {quest:8319} for 100 reputation, again and again, until Exalted: 120 turn-ins (1,200 texts) to Revered without the quests, or about 950 texts after them. Hand in the texts you saved now. The cultists no longer count, but the Flamereavers, Twilight Keepers, Marauders and Templars count until 11,999 of 12,000 Honored, and the {npc:14479} and Prophet until Exalted. Honored opens Kania's {item:20733} (10g), Mishta's {item:22773} (5g) and Forever's new Honored patterns (7g 50s each)."] = "",
 	-- {npc:15306} Bor Wildmane
@@ -210,7 +210,7 @@ return {
 	-- {item:20513} Abyssal Crest
 	["{item:20513}: Templar, group of 1 to 3"] = "",
 	-- {npc:15270} Huum Wildmane
-	["{npc:15270}, Friendly"] = "",
+	["{npc:15270}, Friendly"] = "{npc:15270}, Friendly",
 	-- {item:14344} Large Brilliant Shard
 	["3 crests and a {item:14344}: the Medallion of Station"] = "",
 	-- {item:20514} Abyssal Signet
@@ -227,7 +227,7 @@ return {
 	-- {item:20515} Abyssal Scepter
 	["{item:20515}: Lord, raid of 20"] = "",
 	-- {npc:15270} Huum Wildmane
-	["{npc:15270}, Revered"] = "",
+	["{npc:15270}, Revered"] = "{npc:15270}, Revered",
 	-- plural, as words: Large Brilliant Shards = {item:14344} Large Brilliant Shard
 	["3 signets and 5 Large Brilliant Shards: the Ring of Lordship"] = "",
 	-- {quest:8364} Abyssal Scepters
@@ -243,7 +243,7 @@ return {
 	-- {quest:9023} The Perfect Poison · {npc:14507} High Priest Venoxis · {area:19} Zul'Gurub · {zone:1434} Stranglethorn Vale
 	["Optional, for {quest:9023}: {npc:14507} is the first boss of {area:19}, a 20-player raid in north-east {zone:1434}."] = "",
 	-- {item:22216} Venoxis's Venom Sac
-	["{item:22216}: raid of 20"] = "",
+	["{item:22216}: raid of 20"] = "{item:22216}: 20 kişilik raid",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["{area:3425} is the walled town in north-central {zone:1451}. Bor and {npc:15270} stand together inside. The {faction:609} starts out Neutral. Forever's Legacy Diplomat perk increases reputation gains."] = "{area:3425}, {zone:1451} bölgesinin kuzey-ortasındaki surlu kasaba. Bor ve {npc:15270} içeride birlikte duruyor. {faction:609} Neutral başlar. Forever'ın Legacy Diplomat ayrıcalığı itibar kazancını artırır.",

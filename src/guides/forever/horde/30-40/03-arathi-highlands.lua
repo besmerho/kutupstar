@@ -5,7 +5,7 @@
 return {
 	-- Step 1: Zeppelin to Undercity
 	-- {zone:1458} Undercity
-	["Zeppelin to {zone:1458}"] = "",
+	["Zeppelin to {zone:1458}"] = "Zeplinle: {zone:1458}",
 
 	-- Step 2: Orgrimmar
 	-- {object:1661} The Undercity · {zone:1454} Orgrimmar · {zone:1458} Undercity
@@ -25,14 +25,14 @@ return {
 	-- {area:272} Tarren Mill
 	["Fly to {area:272}"] = "{area:272} kasabasına uç",
 	-- {zone:1458} Undercity
-	["{zone:1458} flight master"] = "",
+	["{zone:1458} flight master"] = "{zone:1458} uçuş ustası",
 
 	-- Step 7: Boulderfist camp
 	["Boulderfist camp"] = "Boulderfist kampı",
 	-- {area:272} Tarren Mill · {area:1857} Thoradin's Wall · {area:313} Northfold Manor
 	-- plural, as words: Boulderfist Ogres = {npc:2562} Boulderfist Ogre
 	["Head east out of {area:272} through {area:1857} and follow the road east. The Boulderfist Ogres and Enforcers (32-34) camp south of the road, south-east of {area:313}."] = "Doğuya, {area:272} kasabasından çıkıp {area:1857} surundan geç ve yolu doğuya izle. Boulderfist Ogre ve Boulderfist Enforcer yaratıkları (32-34) yolun güneyinde, {area:313} malikânesinin güneydoğusunda kamp kurmuş.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 8: The Shards of Myzrael
 	-- {object:138492} Shards of Myzrael
@@ -87,10 +87,10 @@ return {
 
 	-- Step 22: The Drowned Reef: kill these as you meet them
 	-- {area:328} The Drowned Reef
-	["{area:328}: kill these as you meet them"] = "",
+	["{area:328}: kill these as you meet them"] = "{area:328}: bunları karşılaştıkça öldür",
 	-- plural, as words: Daggerspine Raiders = {npc:2595} Daggerspine Raider
 	["West of the cove the Daggerspine Raiders and Sorceresses (38-40) hold the shore: pull them one at a time. The two wrecks lie in the shallows off it, the charts and logs inside them; the gems lie on the sea floor around the wrecks."] = "Koyun batısındaki kıyıyı Daggerspine Raider ve Daggerspine Sorceress yaratıkları (38-40) tutuyor: tek tek çek. İki batık kıyının açığındaki sığ sularda, haritalar ve seyir defterleri içlerinde; mücevherler batıkların çevresindeki deniz dibinde.",
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- Step 23: Faldir's Cove
 	-- {npc:2487} Fleet Master Seahorn · {area:35} Booty Bay
@@ -98,7 +98,7 @@ return {
 
 	-- Step 24: Circle of West Binding: kill these as you meet them
 	-- {area:334} Circle of West Binding
-	["{area:334}: kill these as you meet them"] = "",
+	["{area:334}: kill these as you meet them"] = "{area:334}: bunları karşılaştıkça öldür",
 	-- {area:1857} Thoradin's Wall
 	-- plural, as words: Bloodstone Amulets = {item:4495} Bloodstone Amulet
 	["The western circle is near {area:1857}, where you came in.\nThe Syndicate hold the walled manor and its farm in the north-west; their Highwaymen, Mercenaries and Pathstalkers carry the Bloodstone Amulets.\nCareful: Highwaymen (level 30-31) can be in Sneak, so they may be hidden when you approach."] = "",
@@ -111,7 +111,7 @@ return {
 
 	-- Step 26: Hearth to Hammerfall
 	-- {area:321} Hammerfall
-	["Hearth to {area:321}"] = "",
+	["Hearth to {area:321}"] = "Hearthstone ile dön: {area:321}",
 
 	-- Step 27: Back to Hammerfall
 	-- {area:321} Hammerfall
@@ -142,7 +142,7 @@ return {
 	-- {area:75} Stonard
 	["for Helgrum in {area:75}, around level 42"] = "{area:75} kasabasındaki Helgrum için, seviye 42 civarında",
 	-- {npc:6868} Jarkal Mossmeld
-	["{npc:6868}, inside"] = "",
+	["{npc:6868}, inside"] = "{npc:6868}, içeride",
 
 	-- Step 33: The Dustbowl
 	-- {npc:2921} Lotwil Veriatus · {area:1878} The Dustbowl · {area:340} Kargath
@@ -157,7 +157,7 @@ return {
 
 	-- Step 36: Badlands: kill these as you meet them
 	-- {zone:1418} Badlands
-	["{zone:1418}: kill these as you meet them"] = "",
+	["{zone:1418}: kill these as you meet them"] = "{zone:1418}: bunları karşılaştıkça öldür",
 	-- {area:1878} The Dustbowl
 	-- plural, as words: Elder Crag Coyotes = {npc:2729} Elder Crag Coyote · Giant Buzzards = {npc:2831} Giant Buzzard · Rock Elementals = {npc:92} Rock Elemental
 	["The Elder Crag Coyotes and Giant Buzzards roam the basin south of the {area:1878}. Coyotes drop both the jawbones and the fangs; only the buzzards drop wings and gizzards.\nThe bigger Rock Elementals stand on the slopes north-west of the {area:1878}; each one drops a slab."] = "",
@@ -181,7 +181,7 @@ return {
 
 	-- Step 44: The Dustbowl: kill these as you meet them
 	-- {area:1878} The Dustbowl
-	["{area:1878}: kill these as you meet them"] = "",
+	["{area:1878}: kill these as you meet them"] = "{area:1878}: bunları karşılaştıkça öldür",
 	-- {zone:1418} Badlands · {npc:6868} Jarkal Mossmeld · {npc:2921} Lotwil Veriatus
 	-- plural, as words: Lesser Rock Elementals = {npc:2735} Lesser Rock Elemental · Greater Rock Elementals = {npc:2736} Greater Rock Elemental
 	["Every rock elemental in the {zone:1418} drops {npc:6868}'s shards: the Lesser Rock Elementals (37) on the flats west of {npc:2921}'s camp are the safe ones, about one kill in five. Only the Greater Rock Elementals (42-44, well above you) in the south-western gulches drop {npc:2921}'s bracers, also about one kill in five: pull one at a time and rest between fights, or leave them. Keep killing coyotes and buzzards you still need on the way."] = "",
@@ -198,7 +198,7 @@ return {
 	-- {object:3202} Grom'gol (no name in this language: may be words)
 	["Fly to {object:3202}"] = "{object:3202} kampına uç",
 	-- {area:340} Kargath
-	["{area:340} flight master"] = "",
+	["{area:340} flight master"] = "{area:340} uçuş ustası",
 
 	-- Step 48: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
@@ -210,7 +210,7 @@ return {
 
 	-- Step 52: Orgrimmar flight master
 	-- {zone:1454} Orgrimmar
-	["{zone:1454} flight master"] = "",
+	["{zone:1454} flight master"] = "{zone:1454} uçuş ustası",
 
 	-- Step 53: Thunder Bluff
 	-- {area:1638} Thunder Bluff · {zone:1454} Orgrimmar · {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {npc:246344} Alodan the Hopeful · {area:380} Crossroads
@@ -218,7 +218,7 @@ return {
 
 	-- Step 54: Fly to Crossroads
 	-- {area:380} Crossroads
-	["Fly to {area:380}"] = "",
+	["Fly to {area:380}"] = "Uç: {area:380}",
 
 	-- Step 57: Regthar Deathgate
 	-- {area:380} Crossroads · {area:386} Forgotten Pools · {npc:3389} Regthar Deathgate

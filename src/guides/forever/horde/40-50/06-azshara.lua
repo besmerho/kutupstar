@@ -7,7 +7,7 @@ return {
 	-- {object:3202} Grom'gol (no name in this language: may be words)
 	["Fly to {object:3202}"] = "{object:3202} kampına uç",
 	-- {area:75} Stonard
-	["{area:75} flight master"] = "",
+	["{area:75} flight master"] = "{area:75} uçuş ustası",
 
 	-- Step 3: To Grom'gol
 	-- {object:3202} Grom'gol (no name in this language: may be words)
@@ -23,25 +23,25 @@ return {
 	-- {area:35} Booty Bay
 	["Fly to {area:35}"] = "{area:35} limanına uç",
 	-- {object:3202} Grom'gol (no name in this language: may be words)
-	["{object:3202} flight master"] = "",
+	["{object:3202} flight master"] = "{object:3202} uçuş ustası",
 
 	-- Step 6: Booty Bay
 	-- {area:35} Booty Bay · {npc:7406} Oglethorpe Obnoticus
 	["Continue south to {area:35}. {npc:7406} has his workshop on the upper ring of the bay."] = "Güneye, {area:35} limanına devam et. {npc:7406} adlı NPC'nin atölyesi koyun üst halkasında.",
 	-- {npc:7406} Oglethorpe Obnoticus
-	["{npc:7406}, inside"] = "",
+	["{npc:7406}, inside"] = "{npc:7406}, içeride",
 	["Only once all three robots are home"] = "Yalnızca üç robot da evine döndükten sonra",
 	["\"Sea Wolf\" MacKinley, on the top floor"] = "",
 
 	-- Step 7: Monogrammed Sash
 	-- {quest:8552} The Monogrammed Sash
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:8552} needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:8552} needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {quest:8552} 2 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 12: Ironjaw Basilisks
 	-- plural, as words: Ironjaw Basilisks = {npc:1551} Ironjaw Basilisk
 	["Ironjaw Basilisks"] = "Ironjaw Basilisk yaratıkları",
 	["Follow the road south; the basilisks bask on the rocks east of it in the middle of the jungle. Their shards drop often."] = "Yolu güneye izle; basiliskler ormanın ortasında, yolun doğusundaki kayaların üzerinde güneşleniyor. Parçaları sık düşer.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 13: Back to Grom'gol
 	-- {object:3202} Grom'gol (no name in this language: may be words)
@@ -64,17 +64,17 @@ return {
 
 	-- Step 22: Haldarr Encampment: kill these as you meet them
 	-- {area:1236} Haldarr Encampment
-	["{area:1236}: kill these as you meet them"] = "",
+	["{area:1236}: kill these as you meet them"] = "{area:1236}: bunları karşılaştıkça öldür",
 	["The Highborne ghosts haunt the ruins just north of the shrine; the Haldarr satyrs camp a little further north."] = "Highborne hayaletleri tapınağın hemen kuzeyindeki harabelerde dolaşıyor; Haldarr satirleri biraz daha kuzeyde kamp kurmuş.",
 	-- {npc:6117} Highborne Lichling · {area:1235} Shadowsong Shrine
-	["{npc:6117} walks around {area:1235}: look inside the circle on the map"] = "",
+	["{npc:6117} walks around {area:1235}: look inside the circle on the map"] = "{npc:6117}, {area:1235} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 23: Level 49.93
-	["Level 49.93"] = "",
+	["Level 49.93"] = "Seviye 49.93",
 	-- {quest:8552} The Monogrammed Sash · {quest:591} The Mind's Eye
 	["If you skipped {quest:8552} or {quest:591}, grind here to level 49.93 to stay on the route's plan."] = "",
 	-- {npc:6125} Haldarr Satyr
-	["grind on {npc:6125}"] = "",
+	["grind on {npc:6125}"] = "Kas: {npc:6125}",
 
 	-- Step 24: Loh'atu
 	-- {npc:11548} Loh'atu · {area:3137} Talrendis Point
@@ -103,7 +103,7 @@ return {
 
 	-- Step 32: Ruins of Eldarath: kill these as you meet them
 	-- {area:1221} Ruins of Eldarath
-	["{area:1221}: kill these as you meet them"] = "",
+	["{area:1221}: kill these as you meet them"] = "{area:1221}: bunları karşılaştıkça öldür",
 	-- {npc:8420} Kim'jael
 	["Ride south-west to the ruins. The four tablets lie among the ruins, guarded by Spitelash naga; any Siren or Myrmidon can carry {npc:8420}'s rune."] = "Güneybatıya, harabelere git. Dört tablet harabelerin arasında, Spitelash nagalarının korumasında; herhangi bir Siren ya da Myrmidon {npc:8420} adlı NPC'nin rününü taşıyor olabilir.",
 
@@ -120,13 +120,13 @@ return {
 	-- Step 35: Archmage Xylem
 	-- {area:1237} Valormok
 	["Xylem's tower stands on the cliff just north of {area:1237}; the path winds up its north side."] = "Xylem'in kulesi {area:1237} kampının hemen kuzeyindeki uçurumda; patika kuzey yakasından kıvrılarak yukarı çıkıyor.",
-	["Upstairs"] = "",
+	["Upstairs"] = "Üst katta",
 
 	-- Step 37: Fly to Orgrimmar
 	-- {area:1637} Orgrimmar
 	["Fly to {area:1637}"] = "{area:1637} şehrine uç",
 	-- {area:1237} Valormok
-	["{area:1237} flight master"] = "",
+	["{area:1237} flight master"] = "{area:1237} uçuş ustası",
 
 	-- Step 38: Orgrimmar
 	-- {zone:1454} Orgrimmar
@@ -141,22 +141,22 @@ return {
 	["Keep {npc:8659}'s payment and Ag'tor's {quest:3504}: they go back to {area:1237} on a later visit."] = "{npc:8659} adlı NPC'nin ödemesini ve Ag'tor'un {quest:3504} görevini sakla: daha sonraki bir ziyarette {area:1237} kampına geri gidecekler.",
 
 	-- Step 40: Paladin trainer
-	["Paladin trainer"] = "",
+	["Paladin trainer"] = "Paladin eğitmeni",
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {zone:1454} Orgrimmar
-	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "",
+	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde; {zone:1454} bölgesinde Paladin eğitmeni yok",
 
 	-- Step 41: Fly to Thunder Bluff
 	-- {area:1638} Thunder Bluff
 	["Fly to {area:1638}"] = "{area:1638} şehrine uç",
 	-- {zone:1454} Orgrimmar
-	["{zone:1454} flight master"] = "",
+	["{zone:1454} flight master"] = "{zone:1454} uçuş ustası",
 
 	-- Step 42: Thunder Bluff
 	-- {zone:1456} Thunder Bluff · {area:1099} Camp Mojache · {area:378} Camp Taurajo · {zone:1412} Mulgore · {npc:4046} Magatha Grimtotem · {area:1639} Elder Rise · {npc:3033} Turak Runetotem · {npc:246344} Alodan the Hopeful
 	["Fly to {zone:1456}; it is on the way to {area:1099}. No flight path there yet? Fly to {area:378} and ride west through {zone:1412}. Hamuul and {npc:4046} are on the {area:1639}; Druids and Paladins train here ({npc:3033}, {npc:246344})."] = "",
 
 	-- Step 43: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 44: Thunder Bluff
 	-- {quest:3761} Un'Goro Soil · {npc:4046} Magatha Grimtotem · {npc:8587} Jediga
@@ -166,13 +166,13 @@ return {
 	-- {area:1099} Camp Mojache
 	["Fly to {area:1099}"] = "{area:1099} kampına uç",
 	-- {zone:1456} Thunder Bluff
-	["{zone:1456} flight master"] = "",
+	["{zone:1456} flight master"] = "{zone:1456} uçuş ustası",
 
 	-- Step 46: Camp Mojache
 	-- {area:976} Gadgetzan
 	["Stay here: the next guide starts with the flight to {area:976}."] = "",
 	-- {npc:7854} Jangdor Swiftstrider
-	["{npc:7854}, inside"] = "",
+	["{npc:7854}, inside"] = "{npc:7854}, içeride",
 
 	-- Step 47: Frayfeather Hippogryphs
 	-- plural, as words: Frayfeather Hippogryphs = {npc:5300} Frayfeather Hippogryph
@@ -192,7 +192,7 @@ return {
 
 	-- Step 54: The Forgotten Coast: kill these as you meet them
 	-- {area:1108} The Forgotten Coast
-	["{area:1108}: kill these as you meet them"] = "",
+	["{area:1108}: kill these as you meet them"] = "{area:1108}: bunları karşılaştıkça öldür",
 	-- {item:18904} Zorbin's Ultra-Shrinker
 	-- plural, as words: Sea Elementals = {npc:5461} Sea Elemental · Sea Sprays = {npc:5462} Sea Spray · Land Walkers = {npc:5357} Land Walker · Cliff Giants = {npc:5358} Cliff Giant
 	["The Sea Elementals and Sea Sprays wash along the shore around the dock.\nThe Land Walkers and Cliff Giants roam the hills north of the dock. Zap each one with {item:18904} first: shrunken, they are no longer elite. Every zapped giant drops residue; use the Muisek Vessel on its body too."] = "",
@@ -209,11 +209,11 @@ return {
 	-- {area:976} Gadgetzan
 	["Fly to {area:976}"] = "{area:976} kasabasına uç",
 	-- {area:1099} Camp Mojache
-	["{area:1099} flight master"] = "",
+	["{area:1099} flight master"] = "{area:1099} uçuş ustası",
 
 	-- Step 59: Gadgetzan
 	-- {npc:5594} Alchemist Pestlezugg
-	["{npc:5594}, inside"] = "",
+	["{npc:5594}, inside"] = "{npc:5594}, içeride",
 	-- {npc:7876} Tran'rek
 	["{npc:7876}, beside the wind rider master"] = "{npc:7876}, rüzgâr binicisi ustasının yanında",
 	-- {npc:7876} Tran'rek · {zone:1449} Un'Goro Crater

@@ -39,7 +39,7 @@ return {
 
 	-- Step 4: Back to Zorbin Fandazzle
 	-- {npc:14637} Zorbin Fandazzle
-	["Back to {npc:14637}"] = "",
+	["Back to {npc:14637}"] = "Dönüş: {npc:14637}",
 	-- {npc:14637} Zorbin Fandazzle · {quest:7725} Again With the Zapped Giants · {quest:7726} Refuel for the Zapping
 	["From now on {npc:14637} offers {quest:7725} (10 residue) and {quest:7726} (6 cores), again and again: 25 reputation with every town each time."] = "",
 
@@ -78,7 +78,7 @@ return {
 
 	-- Step 8: Back to Tinkee Steamboil
 	-- {npc:10267} Tinkee Steamboil
-	["Back to {npc:10267}"] = "",
+	["Back to {npc:10267}"] = "Dönüş: {npc:10267}",
 	-- {quest:4810} Return to Tinkee
 	["{quest:4810} gives 50 to every town. Her later quests, Egg Freezing (150 to every town) and Egg Collection (200), are done in the Rookery of Upper Blackrock Spire, a ten-player dungeon: take them up with your group."] = "",
 
@@ -118,84 +118,84 @@ return {
 	-- {npc:265574} Winklespark · {faction:470} Ratchet · {item:274740} Quilted Cloak · {item:274741} Rumpled Kilt · {item:274742} Ratchet Wristwraps · {item:274743} Defective Samophlange · {item:274744} Barrens Basher · {item:274021} Barrens Headband
 	["{npc:265574}, {faction:470}'s quartermaster, by the docks. Friendly, level 20 gear: {item:274740} 41s (Stamina, Agility), {item:274741} 54s (Stamina, spell power), {item:274742} 34s (Intellect, Agility). Honored: {item:274743}, an off-hand, 66s (Intellect, Spirit); {item:274744}, a one-handed mace, 1g 65s (Stamina, Strength). Revered: the {item:274021}, a cosmetic hat, 2g."] = "",
 	-- {item:274740} Quilted Cloak
-	["{item:274740}, Friendly"] = "",
+	["{item:274740}, Friendly"] = "{item:274740}, Friendly",
 	-- {item:274741} Rumpled Kilt
-	["{item:274741}, Friendly"] = "",
+	["{item:274741}, Friendly"] = "{item:274741}, Friendly",
 	-- {item:274742} Ratchet Wristwraps
-	["{item:274742}, Friendly"] = "",
+	["{item:274742}, Friendly"] = "{item:274742}, Friendly",
 	-- {item:274743} Defective Samophlange
-	["{item:274743}, Honored"] = "",
+	["{item:274743}, Honored"] = "{item:274743}, Honored",
 	-- {item:274744} Barrens Basher
-	["{item:274744}, Honored"] = "",
+	["{item:274744}, Honored"] = "{item:274744}, Honored",
 	-- {item:274021} Barrens Headband
-	["{item:274021}, Revered"] = "",
+	["{item:274021}, Revered"] = "{item:274021}, Revered",
 
 	-- Step 14: Booty Bay: Gezzy Gunkgear
 	-- {npc:265575} Gezzy Gunkgear · {faction:21} Booty Bay · {item:274745} Deckswabber's Mitts · {item:274746} Sea Giant's Toe Ring · {item:274747} Soggy Boots · {item:274748} Booty Bay Bruiser's Buckshot · {item:274022} Tough Guy's Eyepatch
 	["{npc:265575}, {faction:21}'s quartermaster. Friendly, level 30 gear: {item:274745} 1g 10s (Strength, Agility), {item:274746} 1g 48s (healing and spell damage), {item:274747} 1g 3s (Intellect, Spirit). Honored: {item:274748}, a gun, 3g 11s (attack power, Stamina); Souvenir Sea Shell, a necklace, 1g 66s (health regeneration, Stamina). Revered: {item:274022}, 5g."] = "",
 	-- {item:274745} Deckswabber's Mitts
-	["{item:274745}, Friendly"] = "",
+	["{item:274745}, Friendly"] = "{item:274745}, Friendly",
 	-- {item:274746} Sea Giant's Toe Ring
-	["{item:274746}, Friendly"] = "",
+	["{item:274746}, Friendly"] = "{item:274746}, Friendly",
 	-- {item:274747} Soggy Boots
-	["{item:274747}, Friendly"] = "",
+	["{item:274747}, Friendly"] = "{item:274747}, Friendly",
 	-- {item:274748} Booty Bay Bruiser's Buckshot
-	["{item:274748}, Honored"] = "",
+	["{item:274748}, Honored"] = "{item:274748}, Honored",
 	["Souvenir Sea Shell, Honored"] = "",
 	-- {item:274022} Tough Guy's Eyepatch
-	["{item:274022}, Revered"] = "",
+	["{item:274022}, Revered"] = "{item:274022}, Revered",
 
 	-- Step 15: Gadgetzan: Rettrick
 	-- {npc:265576} Rettrick · {faction:369} Gadgetzan · {item:274750} Reflective Wristguards · {item:274751} Sunburn Spaulders · {item:274752} Sandstorm Cover · {item:274753} Jhordy's Misplaced Screwdriver · {item:274754} Suspicious Spare Part · {item:274023} Stolen Wastewander Cowl
 	["{npc:265576}, {faction:369}'s quartermaster. Friendly, level 40 gear: {item:274750} 2g 74s (Intellect, healing, spell damage), {item:274751} 2g 94s (Agility, attack power), {item:274752}, a cloak, 2g 36s (Spirit, spell power). Honored: {item:274753}, a one-handed weapon, 9g 46s (Strength, Agility); {item:274754}, a ring, 3g 80s (Strength, Stamina). Revered: the {item:274023}, 10g."] = "",
 	-- {item:274750} Reflective Wristguards
-	["{item:274750}, Friendly"] = "",
+	["{item:274750}, Friendly"] = "{item:274750}, Friendly",
 	-- {item:274751} Sunburn Spaulders
-	["{item:274751}, Friendly"] = "",
+	["{item:274751}, Friendly"] = "{item:274751}, Friendly",
 	-- {item:274752} Sandstorm Cover
-	["{item:274752}, Friendly"] = "",
+	["{item:274752}, Friendly"] = "{item:274752}, Friendly",
 	-- {item:274753} Jhordy's Misplaced Screwdriver
-	["{item:274753}, Honored"] = "",
+	["{item:274753}, Honored"] = "{item:274753}, Honored",
 	-- {item:274754} Suspicious Spare Part
-	["{item:274754}, Honored"] = "",
+	["{item:274754}, Honored"] = "{item:274754}, Honored",
 	-- {item:274023} Stolen Wastewander Cowl
-	["{item:274023}, Revered"] = "",
+	["{item:274023}, Revered"] = "{item:274023}, Revered",
 
 	-- Step 16: Everlook: Zippie Fizzbolt
 	-- {npc:265577} Zippie Fizzbolt · {faction:577} Everlook · {item:274755} Steamwheedle Grips · {item:274756} Impractical Headwarmer · {item:274757} Substandard Belt Chain · {item:274758} Coldmetal Guard · {item:274759} Everlook Pathcarver · {item:274760} Everlook Delivery Bot · {item:274761} Parachute-Priest Pager · {item:274024} Fizzbolt's Fashionable Fedora
 	["{npc:265577}, {faction:577}'s quartermaster. Friendly, level 50 gear: {item:274755} 3g 10s (Spirit, Intellect), {item:274756} 5g 84s (Agility, Stamina, frost resistance), {item:274757} 4g 68s (Agility, attack power), {item:274758}, a chest, 10g 96s (Strength, Stamina). Honored, three trinkets at about 7g 55s: {item:274759} (nature resistance), {item:274760} (frost resistance) and {item:274761} (shadow resistance), the last two with a use. Revered: {item:274024}, 25g."] = "",
 	-- {item:274755} Steamwheedle Grips
-	["{item:274755}, Friendly"] = "",
+	["{item:274755}, Friendly"] = "{item:274755}, Friendly",
 	-- {item:274756} Impractical Headwarmer
-	["{item:274756}, Friendly"] = "",
+	["{item:274756}, Friendly"] = "{item:274756}, Friendly",
 	-- {item:274757} Substandard Belt Chain
-	["{item:274757}, Friendly"] = "",
+	["{item:274757}, Friendly"] = "{item:274757}, Friendly",
 	-- {item:274758} Coldmetal Guard
-	["{item:274758}, Friendly"] = "",
+	["{item:274758}, Friendly"] = "{item:274758}, Friendly",
 	-- {item:274759} Everlook Pathcarver
-	["{item:274759}, Honored"] = "",
+	["{item:274759}, Honored"] = "{item:274759}, Honored",
 	-- {item:274760} Everlook Delivery Bot
-	["{item:274760}, Honored"] = "",
+	["{item:274760}, Honored"] = "{item:274760}, Honored",
 	-- {item:274761} Parachute-Priest Pager
-	["{item:274761}, Honored"] = "",
+	["{item:274761}, Honored"] = "{item:274761}, Honored",
 	-- {item:274024} Fizzbolt's Fashionable Fedora
-	["{item:274024}, Revered"] = "",
+	["{item:274024}, Revered"] = "{item:274024}, Revered",
 
 	-- Step 17: Powderfuse: Friz Frazzlespark
 	-- {npc:255897} Friz Frazzlespark · {faction:2827} Powderfuse · {area:16727} Powderfuse Port · {zone:2548} Riverglades · {item:276200} Crawler's Clackers · {item:276201} Misplaced Pantaloons · {item:276202} Disengagement Ring · {item:276203} Primitive Fishing Pole · {item:276204} Thrash's Trash · {item:276199} Haughty Fellow's Monocle
 	["{npc:255897} sells {faction:2827}'s rewards in {area:16727}, on the east coast of the {zone:2548}, alongside general goods. Friendly, level 40 gear: {item:276200} 2g 74s (Stamina, attack power), {item:276201} 2g 94s (Intellect, Spirit), {item:276202} 2g 36s (Agility, Spirit). Honored: {item:276203}, a two-handed weapon, 9g 46s (Stamina, Strength, Agility); {item:276204}, a shield, 3g 80s (Stamina, spell damage, healing). Revered: {item:276199}, 10g."] = "",
 	-- {item:276200} Crawler's Clackers
-	["{item:276200}, Friendly"] = "",
+	["{item:276200}, Friendly"] = "{item:276200}, Friendly",
 	-- {item:276201} Misplaced Pantaloons
-	["{item:276201}, Friendly"] = "",
+	["{item:276201}, Friendly"] = "{item:276201}, Friendly",
 	-- {item:276202} Disengagement Ring
-	["{item:276202}, Friendly"] = "",
+	["{item:276202}, Friendly"] = "{item:276202}, Friendly",
 	-- {item:276203} Primitive Fishing Pole
-	["{item:276203}, Honored"] = "",
+	["{item:276203}, Honored"] = "{item:276203}, Honored",
 	-- {item:276204} Thrash's Trash
-	["{item:276204}, Honored"] = "",
+	["{item:276204}, Honored"] = "{item:276204}, Honored",
 	-- {item:276199} Haughty Fellow's Monocle
-	["{item:276199}, Revered"] = "",
+	["{item:276199}, Revered"] = "{item:276199}, Revered",
 
 	-- Step 18: Every town to Exalted
 	["Every town to Exalted"] = "",

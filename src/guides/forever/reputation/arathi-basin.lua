@@ -32,7 +32,7 @@ return {
 
 	-- Step 3: Back to Refuge Pointe
 	-- {area:320} Refuge Pointe
-	["Back to {area:320}"] = "",
+	["Back to {area:320}"] = "Dönüş: {area:320}",
 	["hand in the three marks first"] = "",
 
 	-- Step 4: League of Arathor to Friendly
@@ -40,7 +40,7 @@ return {
 	-- {quest:8374} Claiming Arathi Basin · {area:320} Refuge Pointe
 	["Neutral to Friendly is 3000 reputation. In Classic a win paid 100 and its 3 marks bring 50 more at the Brigadier General ({quest:8374}, again and again): about 150 a win, some 20 wins. Forever has not published its battleground rates, so count the games as a rough guide. Below level 50 the quests at {area:320} come in a version for your bracket (from level 20): 200 for assaulting the bases, 200 for one mark, then 100 and 50 per 3 marks at the Brigadier General."] = "",
 	-- {npc:15351} Alliance Brigadier General · {quest:8374} Claiming Arathi Basin
-	["{npc:15351}: {quest:8374} again, 50 reputation for 3 marks"] = "",
+	["{npc:15351}: {quest:8374} again, 50 reputation for 3 marks"] = "{npc:15351}: yine {quest:8374}, 3 nişan için 50 itibar",
 
 	-- Step 5: Control Four Bases
 	-- {npc:14983} Field Marshal Oslight · {quest:8115} Control Five Bases
@@ -52,27 +52,27 @@ return {
 	-- {npc:15127} Samuel Hawke · {npc:14983} Field Marshal Oslight · {item:20071} Talisman of Arathor · {zone:1461} Arathi Basin
 	["Friendly to Honored is 6000 reputation, about 40 wins at the Classic rate. Friendly opens the first rewards at {npc:15127} beside {npc:14983}: the {item:20071} trinket for levels 28, 38, 48 and 58 (72s to 4g12s), and food and bandages that work in {zone:1461} (10s to 20s). He also gives one Arathor care package at Friendly (pick the one for your level): 10 reputation and a bag of battleground food and bandages."] = "",
 	-- {npc:15127} Samuel Hawke
-	["{npc:15127}: Friendly rewards"] = "",
+	["{npc:15127}: Friendly rewards"] = "{npc:15127}: Friendly ödülleri",
 	-- {npc:15351} Alliance Brigadier General
-	["{npc:15351}: 50 reputation for 3 marks"] = "",
+	["{npc:15351}: 50 reputation for 3 marks"] = "{npc:15351}: 3 nişan için 50 itibar",
 
 	-- Step 7: League of Arathor to Revered
 	["League of Arathor to Revered"] = "League of Arathor: Revered olana kadar",
 	["Honored to Revered is 12000 reputation, about 80 wins. Honored opens the Highlander's belts in plate, lamellar, chain, mail, leather, lizardhide and cloth for levels 28 to 58 (72s to 8g84s)."] = "",
 	-- {npc:15127} Samuel Hawke
-	["{npc:15127}: Honored rewards"] = "",
+	["{npc:15127}: Honored rewards"] = "{npc:15127}: Honored ödülleri",
 
 	-- Step 8: League of Arathor to Exalted
 	["League of Arathor to Exalted"] = "League of Arathor: Exalted olana kadar",
 	["Revered to Exalted is 21000 reputation, about 140 wins: half of the whole climb. Revered opens the Highlander's boots and greaves for levels 28 to 58 (1g7s to 13g65s), the ones with the run-speed bonus."] = "",
 	-- {npc:15127} Samuel Hawke
-	["{npc:15127}: Revered rewards"] = "",
+	["{npc:15127}: Revered rewards"] = "{npc:15127}: Revered ödülleri",
 
 	-- Step 9: Samuel Hawke
 	-- {item:20073} Cloak of the Honor Guard · {item:20069} Ironbark Staff
 	["Exalted gives the Legacy Point \"Master of Arathi Basin\" and opens the epics: the level 60 Highlander's shoulders in every armor type (12g33s to 18g50s), {item:20073} (12g14s), {item:20069} (55g10s) and Sageclaw (44g24s), both from level 55."] = "",
 	-- {npc:15127} Samuel Hawke
-	["{npc:15127}: Exalted rewards"] = "",
+	["{npc:15127}: Exalted rewards"] = "{npc:15127}: Exalted ödülleri",
 
 	-- Step 10: Control Five Bases
 	-- {npc:14983} Field Marshal Oslight · {item:20132} Arathor Battle Tabard
@@ -102,7 +102,7 @@ return {
 	-- {quest:8370} Conquering Arathi Basin · {area:321} Hammerfall
 	["Neutral to Friendly is 3000 reputation. In Classic a win paid 100 and its 3 marks bring 50 more at the Warbringer ({quest:8370}, again and again): about 150 a win, some 20 wins. Forever has not published its battleground rates, so count the games as a rough guide. Below level 50 the quests at {area:321} come in a version for your bracket (from level 20): 200 for assaulting the bases, 200 for one mark, then 100 and 50 per 3 marks at the Warbringer."] = "",
 	-- {npc:15350} Horde Warbringer · {quest:8370} Conquering Arathi Basin
-	["{npc:15350}: {quest:8370} again, 50 reputation for 3 marks"] = "",
+	["{npc:15350}: {quest:8370} again, 50 reputation for 3 marks"] = "{npc:15350}: yine {quest:8370}, 3 nişan için 50 itibar",
 
 	-- Step 15: Take Four Bases
 	-- {npc:15021} Deathmaster Dwire · {quest:8122} Take Five Bases
@@ -114,29 +114,29 @@ return {
 	-- {npc:15126} Rutherford Twing · {npc:15021} Deathmaster Dwire · {item:20072} Defiler's Talisman · {zone:1461} Arathi Basin
 	["Friendly to Honored is 6000 reputation, about 40 wins at the Classic rate. Friendly opens the first rewards at {npc:15126} beside {npc:15021}: the {item:20072} trinket for levels 28, 38, 48 and 58 (72s to 4g12s), and food and bandages that work in {zone:1461} (10s to 20s). He also gives one Defiler's care package at Friendly (pick the one for your level): 10 reputation and a bag of battleground food and bandages."] = "",
 	-- {npc:15126} Rutherford Twing
-	["{npc:15126}: Friendly rewards"] = "",
+	["{npc:15126}: Friendly rewards"] = "{npc:15126}: Friendly ödülleri",
 	-- {npc:15350} Horde Warbringer
-	["{npc:15350}: 50 reputation for 3 marks"] = "",
+	["{npc:15350}: 50 reputation for 3 marks"] = "{npc:15350}: 3 nişan için 50 itibar",
 
 	-- Step 17: The Defilers to Revered
 	-- {faction:510} The Defilers
 	["{faction:510} to Revered"] = "{faction:510}: Revered olana kadar",
 	["Honored to Revered is 12000 reputation, about 80 wins. Honored opens the Defiler's belts in plate, lamellar, chain, mail, leather, lizardhide and cloth for levels 28 to 58 (75s to 8g78s)."] = "",
 	-- {npc:15126} Rutherford Twing
-	["{npc:15126}: Honored rewards"] = "",
+	["{npc:15126}: Honored rewards"] = "{npc:15126}: Honored ödülleri",
 
 	-- Step 18: The Defilers to Exalted
 	-- {faction:510} The Defilers
 	["{faction:510} to Exalted"] = "{faction:510}: Exalted olana kadar",
 	["Revered to Exalted is 21000 reputation, about 140 wins: half of the whole climb. Revered opens the Defiler's boots and greaves for levels 28 to 58 (1g12s to 13g41s), the ones with the run-speed bonus."] = "",
 	-- {npc:15126} Rutherford Twing
-	["{npc:15126}: Revered rewards"] = "",
+	["{npc:15126}: Revered rewards"] = "{npc:15126}: Revered ödülleri",
 
 	-- Step 19: Rutherford Twing
 	-- {item:20068} Deathguard's Cloak · {item:20069} Ironbark Staff
 	["Exalted gives the Legacy Point \"Master of Arathi Basin\" and opens the epics: the level 60 Defiler's shoulders in every armor type (12g75s to 20g), {item:20068} (13g18s), {item:20069} (50g46s) and Mindfang (42g83s), both from level 55."] = "",
 	-- {npc:15126} Rutherford Twing
-	["{npc:15126}: Exalted rewards"] = "",
+	["{npc:15126}: Exalted rewards"] = "{npc:15126}: Exalted ödülleri",
 
 	-- Step 20: Take Five Bases
 	-- {npc:15021} Deathmaster Dwire · {item:20131} Battle Tabard of the Defilers

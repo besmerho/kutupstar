@@ -72,7 +72,7 @@ return {
 
 	-- Step 10: Syndicate Emblems to Friendly
 	-- {quest:6701} Syndicate Emblems
-	["{quest:6701} to Friendly"] = "",
+	["{quest:6701} to Friendly"] = "{quest:6701}: Friendly itibarına kadar",
 	-- {npc:6766} Ravenholdt Guard · {quest:6701} Syndicate Emblems
 	-- plural, as words: Syndicate Prowlers = {npc:2588} Syndicate Prowler
 	["Neutral to Friendly is 3,000 reputation; the quests above pay 700 of it. Any {npc:6766} on the path takes {quest:6701}, 100 reputation each, until you reach Friendly: 23 emblems after the quests. Pick the pockets of Syndicate humans; they never drop emblems when killed. The Arathi camps pay best: Syndicate Prowlers and Conjurors carry one about a quarter of the time. Kill what you have robbed so the next ones respawn fresh."] = "",

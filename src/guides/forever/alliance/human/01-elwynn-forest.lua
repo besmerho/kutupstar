@@ -7,7 +7,7 @@ return {
 	-- {npc:823} Deputy Willem · {npc:197} Marshal McBride · {npc:951} Brother Paxton · {npc:247229} Daniel · {npc:196} Eagan Peltskinner
 	["You start in front of the Abbey. {npc:823} stands at the foot of the steps, {npc:197} inside the hall, {npc:951} and {npc:247229} in the library to the right, {npc:196} outside the north-west corner."] = "Manastırın önünde başlıyorsun. {npc:823} merdivenlerin dibinde, {npc:197} salonun içinde, {npc:951} ve {npc:247229} sağdaki kütüphanede, {npc:196} kuzeybatı köşesinin dışında duruyor.",
 	-- {npc:197} Marshal McBride
-	["{npc:197}, inside"] = "",
+	["{npc:197}, inside"] = "{npc:197}, içeride",
 	-- {npc:459} Drusilla La Salle
 	["{npc:459}, outside the Abbey"] = "{npc:459}, manastırın dışında",
 
@@ -25,13 +25,13 @@ return {
 	["{npc:6} dig in the vineyards north-east of the Abbey. Now and then one drops a {quest:91741}: right-click it."] = "{npc:6} yaratıkları manastırın kuzeydoğusundaki bağlarda kazı yapıyor. Arada bir biri {quest:91741} düşürür: ona sağ tıkla.",
 
 	-- Step 5: Northshire Abbey
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 	-- {npc:247229} Daniel
 	["{npc:247229}, in the library; inside"] = "",
 
 	-- Step 6: Echo Ridge Mine: kill these as you meet them
 	-- {area:34} Echo Ridge Mine
-	["{area:34}: kill these as you meet them"] = "",
+	["{area:34}: kill these as you meet them"] = "{area:34}: bunları karşılaştıkça öldür",
 	-- {object:83763} Stolen Books
 	-- plural, as words: Kobold Workers = {npc:257} Kobold Worker
 	["Follow the path north to the mine. Kobold Workers swarm outside it; every kobold in the valley can drop the {object:83763}."] = "Kuzeydeki patikayı izleyerek madene git. Önünde Kobold Worker yaratıkları kaynıyor; vadideki her kobold {object:83763} düşürebilir.",
@@ -40,7 +40,7 @@ return {
 	-- {npc:248415} Tordrin Sternblade
 	["{npc:248415} stands behind the Abbey, by the stables."] = "{npc:248415} manastırın arkasında, ahırların yanında duruyor.",
 	-- {npc:911} Llane Beshere
-	["{npc:911}, the warrior trainer; inside"] = "",
+	["{npc:911}, the warrior trainer; inside"] = "{npc:911}, Warrior eğitmeni; içeride",
 	-- {npc:925} Brother Sammuel
 	["{npc:925}, the paladin trainer"] = "{npc:925}, Paladin eğitmeni",
 	-- {npc:248415} Tordrin Sternblade
@@ -81,11 +81,11 @@ return {
 	-- plural, as words: Kobold Laborers = {npc:80} Kobold Laborer
 	["Kobold Laborers work the tunnels inside the mine. {npc:248362} waits down the second turn on the right."] = "Kobold Laborer yaratıkları madenin içindeki tünellerde çalışıyor. {npc:248362} sağdaki ikinci sapağın sonunda bekliyor.",
 	-- {npc:80} Kobold Laborer · {area:34} Echo Ridge Mine
-	["{npc:80} walks around {area:34}: look inside the circle on the map"] = "",
+	["{npc:80} walks around {area:34}: look inside the circle on the map"] = "{npc:80}, {area:34} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 16: Inside Echo Ridge Mine
 	-- {npc:248362} Shinyfinder Narf
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:248362} (level 3 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:248362} (level 3 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:248362} (seviye 3 elit) 2 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 17: Northshire Abbey
 	-- {npc:952} Brother Neals
@@ -98,26 +98,26 @@ return {
 	["his kobold tracker shows the kobolds to click on the road to {area:87}"] = "kobold izleyicisi, {area:87} kasabasına giden yolda tıklaman gereken koboldları gösterir",
 
 	-- Step 19: Level 5.48
-	["Level 5.48"] = "",
+	["Level 5.48"] = "Seviye 5.48",
 	-- {quest:91752} The Big Picture
-	["If you skipped {quest:91752}, grind here to level 5.48 to stay on the route's plan."] = "",
+	["If you skipped {quest:91752}, grind here to level 5.48 to stay on the route's plan."] = "{quest:91752} görevini atladıysan rotanın planında kalmak için burada seviye 5.48 olana kadar kas.",
 	-- {npc:80} Kobold Laborer
-	["grind on {npc:80}"] = "",
+	["grind on {npc:80}"] = "Kas: {npc:80}",
 
 	-- Step 20: Goldshire
 	-- {area:87} Goldshire · {npc:295} Innkeeper Farley · {npc:240} Marshal Dughan · {npc:253} William Pestle · {npc:241} Remy "Two Times"
 	["Follow the road south out of the valley to {area:87}. {npc:295} is in the Lion's Pride Inn; {npc:240} stands outside the smithy across the road, {npc:253} at the inn's front and {npc:241} by the road south of it."] = "Yolu güneye izleyerek vadiden çık ve {area:87} kasabasına git. {npc:295} Lion's Pride Inn hanında; {npc:240} yolun karşısındaki demirhanenin dışında, {npc:253} hanın önünde, {npc:241} ise hanın güneyinde, yolun kenarında duruyor.",
 	-- {npc:295} Innkeeper Farley
-	["{npc:295}, inside"] = "",
+	["{npc:295}, inside"] = "{npc:295}, içeride",
 	-- {npc:253} William Pestle
-	["{npc:253}, inside"] = "",
+	["{npc:253}, inside"] = "{npc:253}, içeride",
 
 	-- Step 23: Level 5.77
-	["Level 5.77"] = "",
+	["Level 5.77"] = "Seviye 5.77",
 	-- {quest:91752} The Big Picture
-	["If you skipped {quest:91752}, grind here to level 5.77 to stay on the route's plan."] = "",
+	["If you skipped {quest:91752}, grind here to level 5.77 to stay on the route's plan."] = "{quest:91752} görevini atladıysan rotanın planında kalmak için burada seviye 5.77 olana kadar kas.",
 	-- {npc:40} Kobold Miner
-	["grind on {npc:40}"] = "",
+	["grind on {npc:40}"] = "Kas: {npc:40}",
 
 	-- Step 24: The lake shore
 	["The lake shore"] = "Göl kıyısı",
@@ -134,7 +134,7 @@ return {
 
 	-- Step 27: Crystal Lake: kill these as you meet them
 	-- {area:18} Crystal Lake
-	["{area:18}: kill these as you meet them"] = "",
+	["{area:18}: kill these as you meet them"] = "{area:18}: bunları karşılaştıkça öldür",
 	-- plural, as words: Murloc Streamrunners = {npc:735} Murloc Streamrunner · Junk Piles = {object:694785} Junk Pile
 	["Murlocs and Murloc Streamrunners hold the east shore; the Junk Piles lie in their camp."] = "Murloc ve Murloc Streamrunner yaratıkları doğu kıyısını tutuyor; Junk Pile nesneleri onların kampında.",
 
@@ -146,7 +146,7 @@ return {
 
 	-- Step 30: Duskweed Petal on the way
 	-- {item:286214} Duskweed Petal
-	["{item:286214} on the way"] = "",
+	["{item:286214} on the way"] = "Yol üstünde: {item:286214}",
 
 	-- Step 31: Maybell Maclure
 	-- {area:87} Goldshire · {area:64} Maclure Vineyards · {npc:251} Maybell Maclure
@@ -164,7 +164,7 @@ return {
 
 	-- Step 35: Elwynn Forest: kill these as you meet them
 	-- {area:12} Elwynn Forest
-	["{area:12}: kill these as you meet them"] = "",
+	["{area:12}: kill these as you meet them"] = "{area:12}: bunları karşılaştıkça öldür",
 	-- {object:694855} Overgrown Duskweed
 	-- plural, as words: Stonetusk Boars = {npc:113} Stonetusk Boar
 	["{object:694855} grows in the fields around the vineyards and the Stonefield farm; Stonetusk Boars around them give the blood.\nStonetusk Boars graze between the vineyards and the farm."] = "",
@@ -178,7 +178,7 @@ return {
 
 	-- Step 38: Maclure Vineyards: kill these as you meet them
 	-- {area:64} Maclure Vineyards
-	["{area:64}: kill these as you meet them"] = "",
+	["{area:64}: kill these as you meet them"] = "{area:64}: bunları karşılaştıkça öldür",
 	-- {npc:248464} Nimsy
 	-- plural, as words: Kobold Miners = {npc:40} Kobold Miner
 	["The mine is west of the vineyards. Kobold Miners and Tunnelers fill both levels; {npc:248464}, a named kobold, holds the picture book in the lower tunnels. {npc:248464} is elite: grouping up is advised."] = "Maden, bağların batısında. Kobold Miner ve Kobold Tunneler yaratıkları iki katı da dolduruyor; resimli kitap, alt tünellerdeki isimli bir kobold olan {npc:248464} yaratığında. {npc:248464} elit: grup kurman önerilir.",
@@ -188,7 +188,7 @@ return {
 
 	-- Step 39: Maclure Vineyards: kill these as you meet them
 	-- {npc:248464} Nimsy
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:248464} (level 6 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:248464} (level 6 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:248464} (seviye 6 elit) 2 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 	-- plural, as words: Lost Books = {item:248001} Lost Book · Kobold Miners = {npc:40} Kobold Miner
 	["Lost Books: Kobold Miners and Tunnelers"] = "Lost Book: Kobold Miner ve Kobold Tunneler",
 	-- {npc:248464} Nimsy
@@ -199,29 +199,29 @@ return {
 	-- plural, as words: Defias Bandits = {npc:116} Defias Bandit
 	["{quest:87} is inside the {area:57}, not on the hill above it: go in at the mouth and keep left to the back of the mine floor; don't take the stairs up. Defias Bandits around the vineyards drop a {item:1972} now and then: right-click it."] = "{quest:87} görevinin hedefi tepede değil, {area:57} madeninin içinde: girişten gir ve solda kalarak maden tabanının en dibine git; merdivenlerden yukarı çıkma. Bağların çevresindeki Defias Bandit yaratıkları arada bir {item:1972} düşürür: ona sağ tıkla.",
 	-- {item:981} Bernice's Necklace
-	["{item:981}; below ground"] = "",
+	["{item:981}; below ground"] = "{item:981}; yer altında",
 
 	-- Step 41: Goldshire
 	-- {npc:279} Morgan Pestle · {zone:1453} Stormwind
 	["{npc:279} in {zone:1453} takes it (02-westfall)"] = "{zone:1453} şehrindeki {npc:279} teslim alır (02-westfall)",
 
 	-- Step 43: Level 8.39
-	["Level 8.39"] = "",
+	["Level 8.39"] = "Seviye 8.39",
 	-- {quest:91775} Book Return
-	["If you skipped {quest:91775}, grind here to level 8.39 to stay on the route's plan."] = "",
+	["If you skipped {quest:91775}, grind here to level 8.39 to stay on the route's plan."] = "{quest:91775} görevini atladıysan rotanın planında kalmak için burada seviye 8.39 olana kadar kas.",
 
 	-- Step 44: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 45: Shaman trainer
-	["Shaman trainer"] = "",
+	["Shaman trainer"] = "Shaman eğitmeni",
 	-- {npc:257446} Teo Hammerstorm · {zone:1426} Dun Morogh · {area:87} Goldshire
-	["{npc:257446} in {zone:1426}; {area:87} has no shaman trainer"] = "",
+	["{npc:257446} in {zone:1426}; {area:87} has no shaman trainer"] = "{npc:257446}, {zone:1426} bölgesinde; {area:87} içinde Shaman eğitmeni yok",
 
 	-- Step 46: Druid trainer
-	["Druid trainer"] = "",
+	["Druid trainer"] = "Druid eğitmeni",
 	-- {npc:270459} Alfina Nightgaze · {zone:1416} Alterac Mountains · {area:87} Goldshire
-	["{npc:270459} in {zone:1416}; {area:87} has no druid trainer"] = "",
+	["{npc:270459} in {zone:1416}; {area:87} has no druid trainer"] = "{npc:270459}, {zone:1416} bölgesinde; {area:87} içinde Druid eğitmeni yok",
 
 	-- Step 47: The Tower of Azora
 	-- {area:91} Tower of Azora
@@ -236,7 +236,7 @@ return {
 
 	-- Step 49: Prowler on the way
 	-- {npc:118} Prowler
-	["{npc:118} on the way"] = "",
+	["{npc:118} on the way"] = "Yol üstünde: {npc:118}",
 
 	-- Step 50: Downstream and Princess
 	-- {quest:91733} Downstream · {npc:330} Princess
@@ -247,21 +247,21 @@ return {
 
 	-- Step 51: Downstream and Princess
 	-- {quest:91740} Croaky's Head
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:91740} needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:91740} needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {quest:91740} 2 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 53: Level 8.85
-	["Level 8.85"] = "",
+	["Level 8.85"] = "Seviye 8.85",
 	-- {quest:91740} Croaky's Head
-	["If you skipped {quest:91740}, grind here to level 8.85 to stay on the route's plan."] = "",
+	["If you skipped {quest:91740}, grind here to level 8.85 to stay on the route's plan."] = "{quest:91740} görevini atladıysan rotanın planında kalmak için burada seviye 8.85 olana kadar kas.",
 	-- {npc:118} Prowler
-	["grind on {npc:118}"] = "",
+	["grind on {npc:118}"] = "Kas: {npc:118}",
 
 	-- Step 55: The Eastvale Logging Camp
 	-- {area:88} Eastvale Logging Camp
 	["The {area:88}"] = "{area:88} kampı",
 	["The camp is north-east of the bridge. Bundles of Wood lie around the camp and in the woods north of it."] = "Kamp köprünün kuzeydoğusunda. Bundle of Wood eşyaları kampın çevresinde ve kuzeyindeki ormanda duruyor.",
 	-- {npc:278} Sara Timberlain
-	["{npc:278}, inside"] = "",
+	["{npc:278}, inside"] = "{npc:278}, içeride",
 
 	-- Step 56: A half-eaten body
 	["It lies by the river north-west of the logging camp."] = "Kereste kampının kuzeybatısında, nehrin kenarında yatıyor.",
@@ -284,13 +284,13 @@ return {
 
 	-- Step 61: Jasperlode Mine: kill these as you meet them
 	-- {area:54} Jasperlode Mine
-	["{area:54}: kill these as you meet them"] = "",
+	["{area:54}: kill these as you meet them"] = "{area:54}: bunları karşılaştıkça öldür",
 	-- {item:247816} Mining Tools
 	-- plural, as words: Kobold Geomancers = {npc:476} Kobold Geomancer
 	["The mine is south-west of the gnoll camps. {item:247816} lie near the entrance; Kobold Geomancers hold the tunnels."] = "Maden, gnoll kamplarının güneybatısında. {item:247816} girişin yakınında duruyor; tünelleri Kobold Geomancer yaratıkları tutuyor.",
 	["Walk into the mine"] = "Madene gir",
 	-- {npc:476} Kobold Geomancer · {area:54} Jasperlode Mine
-	["{npc:476} walks around {area:54}: look inside the circle on the map"] = "",
+	["{npc:476} walks around {area:54}: look inside the circle on the map"] = "{npc:476}, {area:54} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 62: The Tower of Azora
 	["Follow the hills south to the tower."] = "Tepeleri izleyerek güneydeki kuleye git.",
@@ -318,7 +318,7 @@ return {
 	-- {area:87} Goldshire · {npc:6306} Helene Peltskinner
 	["Follow the road west back to {area:87}; {npc:6306} and Jason stand on the lake shore before town."] = "Yolu batıya izleyerek {area:87} kasabasına dön; {npc:6306} ve Jason kasabaya varmadan, göl kıyısında duruyor.",
 	-- {npc:6306} Helene Peltskinner
-	["{npc:6306}, inside"] = "",
+	["{npc:6306}, inside"] = "{npc:6306}, içeride",
 	-- {npc:240} Marshal Dughan
 	["{npc:240}, while William brews"] = "",
 	-- {npc:377} Priestess Josetta · {npc:376} High Priestess Laurena · {zone:1453} Stormwind
@@ -361,7 +361,7 @@ return {
 
 	-- Step 79: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "",
+	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş); seviye atlarken bir asa, tek elli bir silahtan daha çok büyü istatistiği taşır.",
 
 	-- Step 80: Mirror Lake
 	-- {zone:1453} Stormwind · {quest:1861} Mirror Lake · {zone:1436} Westfall · {item:7207} Jennea's Flask
@@ -378,7 +378,7 @@ return {
 
 	-- Step 83: Back to Elwynn Forest
 	-- {area:12} Elwynn Forest
-	["Back to {area:12}"] = "",
+	["Back to {area:12}"] = "Dönüş: {area:12}",
 
 	-- Step 84: Forest's Edge
 	-- {zone:1436} Westfall
@@ -394,15 +394,15 @@ return {
 	-- {npc:524} Rockhide Boar · {item:15908} Taming Rod
 	["{npc:524}: tame it with the {item:15908}"] = "{npc:524}: {item:15908} ile evcilleştir",
 	-- {npc:524} Rockhide Boar
-	["Tame {npc:524}"] = "",
+	["Tame {npc:524}"] = "Evcilleştir: {npc:524}",
 	-- {npc:1922} Gray Forest Wolf · {item:15908} Taming Rod
 	["{npc:1922}: tame it with the {item:15908}"] = "{npc:1922}: {item:15908} ile evcilleştir",
 	-- {npc:1922} Gray Forest Wolf
-	["Tame {npc:1922}"] = "",
+	["Tame {npc:1922}"] = "Evcilleştir: {npc:1922}",
 	-- {npc:822} Young Forest Bear · {item:15908} Taming Rod
 	["{npc:822}: tame it with the {item:15908}"] = "{npc:822}: {item:15908} ile evcilleştir",
 	-- {npc:822} Young Forest Bear
-	["Tame {npc:822}"] = "",
+	["Tame {npc:822}"] = "Evcilleştir: {npc:822}",
 	-- {npc:258930} Isaac Chan · {spell:5149} Beast Training
 	["{npc:258930}, beside her: {spell:5149}"] = "{npc:258930}, onun yanında: {spell:5149}",
 

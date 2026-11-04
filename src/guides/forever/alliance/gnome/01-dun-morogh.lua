@@ -56,13 +56,13 @@ return {
 
 	-- Step 10: Frostmane Troll Whelp on the way
 	-- {npc:706} Frostmane Troll Whelp
-	["{npc:706} on the way"] = "",
+	["{npc:706} on the way"] = "Yol üstünde: {npc:706}",
 	-- {npc:706} Frostmane Troll Whelp · {npc:786} Grelin Whitebeard
-	["{npc:706} along the way to {npc:786}"] = "",
+	["{npc:706} along the way to {npc:786}"] = "{npc:706}, {npc:786} yolu üstünde",
 
 	-- Step 11: Coldridge Valley: kill these as you meet them
 	-- {area:132} Coldridge Valley
-	["{area:132}: kill these as you meet them"] = "",
+	["{area:132}: kill these as you meet them"] = "{area:132}: bunları karşılaştıkça öldür",
 	-- {npc:786} Grelin Whitebeard
 	-- plural, as words: Frostmane Troll Whelps = {npc:706} Frostmane Troll Whelp
 	["Frostmane Troll Whelps fill the slopes south and east of {npc:786}'s camp."] = "Frostmane Troll Whelp yaratıkları {npc:786} kampının güneyindeki ve doğusundaki yamaçları dolduruyor.",
@@ -88,7 +88,7 @@ return {
 	-- {npc:2756} Grund Drokda · {npc:8416} Felix Whindlebolt · {area:77} Anvilmar · {npc:269075} Snow Leopard Prowler
 	["{npc:2756} stands by {npc:8416} at the door of {area:77}. Gozwin's camp is in the hills just north-west; the {npc:269075} prowls around it."] = "{npc:2756}, {area:77} salonunun kapısında {npc:8416} ile yan yana duruyor. Gozwin kampı hemen kuzeybatıdaki tepelerde; {npc:269075} çevresinde sinsice dolaşıyor.",
 	-- {npc:2756} Grund Drokda
-	["{npc:2756}, inside"] = "",
+	["{npc:2756}, inside"] = "{npc:2756}, içeride",
 	-- {item:277976} Gozwin's Mechanic's Log
 	["{item:277976}, in the camp"] = "{item:277976}, kampta",
 	["The troll cave"] = "Troll mağarası",
@@ -97,7 +97,7 @@ return {
 	-- {npc:808} Grik'nir the Cold · {npc:786} Grelin Whitebeard
 	["{npc:808} is inside the troll cave east of {npc:786}'s camp, not on the hill above it: go in at the mouth and follow the tunnel to the back."] = "{npc:808}, {npc:786} kampının doğusundaki troll mağarasının içinde, üstündeki tepede değil: ağızdan gir ve tüneli en dibe kadar izle.",
 	-- {item:2004} Grelin Whitebeard's Journal
-	["{item:2004}; below ground"] = "",
+	["{item:2004}; below ground"] = "{item:2004}; yer altında",
 
 	-- Step 16: Grelin Whitebeard
 	-- {npc:12738} Nori Pridedrift
@@ -125,11 +125,11 @@ return {
 	-- {area:131} Kharanos · {npc:1252} Senir Whitebeard · {area:2102} Thunderbrew Distillery · {npc:1872} Tharek Blackstone · {npc:6806} Tannok Frosthammer · {npc:1226} Maxan Anvol · {npc:1267} Ragnar Thunderbrew · {npc:1699} Gremlock Pilsnor · {skill:185} Cooking
 	["Follow the road through the tunnel and north-east to {area:131}. Start outside: {npc:1252} and Eric's campfire are in front of the {area:2102}.\n{npc:1872} works the forge west of the distillery.\nThen go in: {npc:6806}, the innkeeper, {npc:1226} and {npc:1267}. {npc:1699}'s {skill:185} lesson waits for the return with the ribs, when the copper is there for it."] = "",
 	-- {npc:1241} Tognus Flintfire
-	["{npc:1241}, below ground"] = "",
+	["{npc:1241}, below ground"] = "{npc:1241}, yer altında",
 	-- {npc:6806} Tannok Frosthammer
-	["{npc:6806}, inside"] = "",
+	["{npc:6806}, inside"] = "{npc:6806}, içeride",
 	-- {npc:1226} Maxan Anvol
-	["{npc:1226}, upstairs"] = "",
+	["{npc:1226}, upstairs"] = "{npc:1226}, üst katta",
 	["Last: some classes' trainers stand outside"] = "Son olarak: bazı sınıfların eğitmenleri dışarıda duruyor",
 
 	-- Step 21: Steelgrill's Depot
@@ -140,7 +140,7 @@ return {
 
 	-- Step 22: Dun Morogh: kill these as you meet them
 	-- {area:1} Dun Morogh
-	["{area:1}: kill these as you meet them"] = "",
+	["{area:1}: kill these as you meet them"] = "{area:1}: bunları karşılaştıkça öldür",
 	-- {area:131} Kharanos
 	-- plural, as words: Crag Boars = {npc:1125} Crag Boar · Young Black Bears = {npc:1128} Young Black Bear
 	["Crag Boars and Young Black Bears roam the fields around {area:131} and the depot."] = "Crag Boar ve Young Black Bear yaratıkları {area:131} köyünün ve deponun çevresindeki tarlalarda dolaşıyor.",
@@ -177,7 +177,7 @@ return {
 	["Kill the Crag Boars on the way: their ribs drop before you have {npc:1267}'s quest and count toward it. Back in the distillery: {npc:1699} teaches {skill:185}, then the ribs go to {npc:1267}."] = "",
 	-- {npc:1699} Gremlock Pilsnor
 	["{npc:1699}: Camping 101 asks you to learn it; below ground"] = "",
-	["Upstairs"] = "",
+	["Upstairs"] = "Üst katta",
 
 	-- Step 34: Kharanos and the depot
 	-- {npc:1377} Pilot Stonegear
@@ -186,7 +186,7 @@ return {
 	["{npc:1269}, by the depot; below ground"] = "",
 
 	-- Step 35: On the way
-	["On the way"] = "",
+	["On the way"] = "Yol üstünde",
 
 	-- Step 36: Brewnall Village
 	-- {area:137} Brewnall Village · {area:131} Kharanos · {npc:8508} Gretta Ganter · {npc:1374} Rejold Barleybrew · {npc:1375} Marleth Barleybrew
@@ -205,11 +205,11 @@ return {
 	-- plural, as words: Ice Claw Bears = {npc:1196} Ice Claw Bear · Elder Crag Boars = {npc:1127} Elder Crag Boar · Snow Leopards = {npc:1201} Snow Leopard
 	["{area:135} is the troll cave in the hills south-west of {area:137}. Ice Claw Bears, Elder Crag Boars and Snow Leopards you kill on the way count for {npc:1374}. Kill Headhunters at its mouth and walk through to its far end."] = "{area:135}, {area:137} köyünün güneybatısındaki tepelerde bulunan troll mağarası. Yolda öldürdüğün Ice Claw Bear, Elder Crag Boar ve Snow Leopard yaratıkları {npc:1374} için sayılır. Girişteki Frostmane Headhunter yaratıklarını öldür ve mağaranın en uç noktasına kadar yürü.",
 	-- {npc:1123} Frostmane Headhunter
-	["{npc:1123}, below ground"] = "",
+	["{npc:1123}, below ground"] = "{npc:1123}, yer altında",
 
 	-- Step 38: Gnomeregan: kill these as you meet them
 	-- {area:133} Gnomeregan
-	["{area:133}: kill these as you meet them"] = "",
+	["{area:133}: kill these as you meet them"] = "{area:133}: bunları karşılaştıkça öldür",
 	-- {area:133} Gnomeregan
 	-- plural, as words: Leper Gnomes = {npc:1211} Leper Gnome · Ice Claw Bears = {npc:1196} Ice Claw Bear · Elder Crag Boars = {npc:1127} Elder Crag Boar · Snow Leopards = {npc:1201} Snow Leopard
 	["Leper Gnomes around Brewnall and the {area:133} road carry the cogs and gears. Ice Claw Bears, Elder Crag Boars and Snow Leopards roam the hills around the lake."] = "Brewnall ve {area:133} yolu çevresindeki Leper Gnome yaratıkları dişlileri ve çarkları taşıyor. Ice Claw Bear, Elder Crag Boar ve Snow Leopard yaratıkları gölün çevresindeki tepelerde dolaşıyor.",
@@ -234,7 +234,7 @@ return {
 	-- {object:270} Unguarded Thunder Ale Barrel
 	["The {object:270} in the distillery; below ground"] = "",
 	-- {npc:1269} Razzle Sprysprocket
-	["{npc:1269}, below ground"] = "",
+	["{npc:1269}, below ground"] = "{npc:1269}, yer altında",
 
 	-- Step 42: Shimmerweed
 	-- {item:2676} Shimmerweed · {area:802} Shimmer Ridge · {area:131} Kharanos
@@ -269,13 +269,13 @@ return {
 
 	-- Step 50: Minor Ice Elemental on the way
 	-- {npc:276003} Minor Ice Elemental
-	["{npc:276003} on the way"] = "",
+	["{npc:276003} on the way"] = "Yol üstünde: {npc:276003}",
 	-- {npc:276003} Minor Ice Elemental · {npc:1253} Father Gavin
-	["{npc:276003} along the way to {npc:1253}"] = "",
+	["{npc:276003} along the way to {npc:1253}"] = "{npc:276003}, {npc:1253} yolu üstünde",
 
 	-- Step 51: Misty Pine Refuge: kill these as you meet them
 	-- {area:138} Misty Pine Refuge
-	["{area:138}: kill these as you meet them"] = "",
+	["{area:138}: kill these as you meet them"] = "{area:138}: bunları karşılaştıkça öldür",
 	-- {quest:99160} Rime's Wrath
 	-- plural, as words: Minor Ice Elementals = {npc:276003} Minor Ice Elemental
 	["The three rifles lie in the snow around the frozen lake by the refuge. Minor Ice Elementals drift around the lake and along the way: kill them as you go for {quest:99160}.\nFinish off the Minor Ice Elementals around the small lake just west of the refuge if you are still short."] = "",
@@ -310,9 +310,9 @@ return {
 
 	-- Step 68: Rockjaw Bonesnapper on the way
 	-- {npc:1117} Rockjaw Bonesnapper
-	["{npc:1117} on the way"] = "",
+	["{npc:1117} on the way"] = "Yol üstünde: {npc:1117}",
 	-- {npc:1117} Rockjaw Bonesnapper · {area:134} Gol'Bolar Quarry
-	["{npc:1117} along the way to {area:134}"] = "",
+	["{npc:1117} along the way to {area:134}"] = "{npc:1117}, {area:134} yolu üstünde",
 
 	-- Step 69: Dun Morogh: kill these as you meet them
 	-- {item:2770} Copper Ore
@@ -321,19 +321,19 @@ return {
 
 	-- Step 73: Protecting the Herd
 	-- {npc:1388} Vagash
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:1388} is a level 12 elite: most classes solo it at level 14, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "",
-	["Below ground"] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:1388} is a level 12 elite: most classes solo it at level 14, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:1388}, seviye 12 bir elit: çoğu sınıf seviye 14 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
+	["Below ground"] = "Yer altında",
 
 	-- Step 74: Rudra Amberstill
 	-- {zone:1455} Ironforge
 	["On the road back west to {zone:1455}."] = "",
 
 	-- Step 77: Level 11.41
-	["Level 11.41"] = "",
+	["Level 11.41"] = "Seviye 11.41",
 	-- {quest:314} Protecting the Herd
-	["If you skipped {quest:314}, grind here to level 11.41 to stay on the route's plan."] = "",
+	["If you skipped {quest:314}, grind here to level 11.41 to stay on the route's plan."] = "{quest:314} görevini atladıysan rotanın planında kalmak için burada seviye 11.41 olana kadar kas.",
 	-- {npc:260157} Elder Snow Leopard
-	["grind on {npc:260157}"] = "",
+	["grind on {npc:260157}"] = "Kas: {npc:260157}",
 
 	-- Step 78: South Gate Outpost
 	-- {area:806} South Gate Outpost · {area:38} Loch Modan
@@ -393,18 +393,18 @@ return {
 
 	-- Step 89: Buliwyf Stonehand
 	-- {spell:197} Two-Handed Axes · {npc:11865} Buliwyf Stonehand · {object:32359} Military Ward (no name in this language: may be words)
-	["While you're here: learn {spell:197} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Paladin fastest."] = "",
+	["While you're here: learn {spell:197} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11865} sana {spell:197} öğretir ({object:32359}, 10 gümüş); Paladin en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 90: Hearth to Thunderbrew Distillery
 	-- {area:2102} Thunderbrew Distillery
-	["Hearth to {area:2102}"] = "",
+	["Hearth to {area:2102}"] = "Hearthstone ile dön: {area:2102}",
 
 	-- Step 92: Inn and flight master
 	["Inn and flight master"] = "",
 
 	-- Step 93: The Tome of Divinity
 	-- {item:6775} Tome of Divinity
-	["The {item:6775}"] = "",
+	["The {item:6775}"] = "{item:6775}",
 	-- {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words) · {npc:5149} Brandur Ironhammer · {npc:6179} Tiza Battleforge · {npc:6178} Muiredon Battleforge · {object:32386} Hall of Mysteries (no name in this language: may be words) · {npc:6175} John Turner · {item:2589} Linen Cloth · {area:1} Dun Morogh
 	["Follow the road up to {zone:1455} and take the {object:32362}: {npc:5149}, {npc:6179} and {npc:6178} are in the {object:32386}, Tiza and Muiredon on its upper floor: the stairs up start just north-east of {npc:5149}. {npc:6175}, a beggar, wanders the city. He asks for ten {item:2589}: the troggs and trolls of {area:1} drop it, and the Auction House sells it."] = "",
 
@@ -431,20 +431,20 @@ return {
 	["{npc:258098}, the shaman trainer, north of the {object:32372}"] = "{npc:258098}, Shaman eğitmeni, {object:32372} ocağının kuzeyinde",
 
 	-- Step 98: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 99: Druid trainer
-	["Druid trainer"] = "",
+	["Druid trainer"] = "Druid eğitmeni",
 	-- {npc:270459} Alfina Nightgaze · {zone:1416} Alterac Mountains · {area:1} Dun Morogh
-	["{npc:270459} in {zone:1416}; {area:1} has no druid trainer"] = "",
+	["{npc:270459} in {zone:1416}; {area:1} has no druid trainer"] = "{npc:270459}, {zone:1416} bölgesinde; {area:1} içinde Druid eğitmeni yok",
 
 	-- Step 100: Buliwyf Stonehand
 	-- {spell:197} Two-Handed Axes · {npc:11865} Buliwyf Stonehand · {object:32359} Military Ward (no name in this language: may be words)
-	["While you're here: learn {spell:197} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Warrior fastest."] = "",
+	["While you're here: learn {spell:197} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11865} sana {spell:197} öğretir ({object:32359}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 101: Buliwyf Stonehand
 	-- {spell:199} Two-Handed Maces · {npc:11865} Buliwyf Stonehand · {object:32359} Military Ward (no name in this language: may be words)
-	["While you're here: learn {spell:199} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Warrior fastest."] = "",
+	["While you're here: learn {spell:199} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11865} sana {spell:199} öğretir ({object:32359}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 102: The Deeprun Tram
 	-- {npc:1274} Senator Barin Redstone · {object:171709} High Seat
@@ -452,23 +452,23 @@ return {
 
 	-- Step 103: Tram to Stormwind
 	-- {zone:1453} Stormwind
-	["Tram to {zone:1453}"] = "",
+	["Tram to {zone:1453}"] = "Tramvayla: {zone:1453}",
 
 	-- Step 104: Stormwind flight master
 	-- {zone:1453} Stormwind
-	["{zone:1453} flight master"] = "",
+	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 
 	-- Step 105: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Paladin fastest."] = "",
+	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş); Paladin en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 106: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "",
+	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
 	-- Step 107: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Swords from {npc:11867} ({object:2096}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "",
+	["While you're here: learn Swords from {npc:11867} ({object:2096}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "Buradayken: {npc:11867} sana Swords öğretir ({object:2096}, 10 gümüş); ana elde bir kılıçla Rogue istikrarla seviye atlar.",
 
 	-- Step 108: Defensive Stance
 	-- {object:28027} Dwarven District · {npc:5480} Ilsa Corbin · {object:2100} Old Town · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern
@@ -476,7 +476,7 @@ return {
 
 	-- Step 109: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Warrior fastest."] = "",
+	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 110: Gakin the Darkbinder
 	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter
@@ -484,7 +484,7 @@ return {
 
 	-- Step 111: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "",
+	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş); seviye atlarken bir asa, tek elli bir silahtan daha çok büyü istatistiği taşır.",
 
 	-- Step 112: Surena Caledon
 	-- {zone:1453} Stormwind · {area:87} Goldshire · {area:62} Brackwell Pumpkin Patch · {npc:881} Surena Caledon

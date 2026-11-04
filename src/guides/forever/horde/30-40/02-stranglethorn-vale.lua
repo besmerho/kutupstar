@@ -5,9 +5,9 @@
 return {
 	-- Step 1: Fly to Undercity
 	-- {area:1497} Undercity
-	["Fly to {area:1497}"] = "",
+	["Fly to {area:1497}"] = "Uç: {area:1497}",
 	-- {area:272} Tarren Mill
-	["{area:272} flight master"] = "",
+	["{area:272} flight master"] = "{area:272} uçuş ustası",
 
 	-- Step 2: Zeppelin to Grom'gol
 	-- {object:3202} Grom'gol (no name in this language: may be words)
@@ -22,7 +22,7 @@ return {
 
 	-- Step 4: Bloody Bone Necklace on the way
 	-- {item:3915} Bloody Bone Necklace
-	["{item:3915} on the way"] = "",
+	["{item:3915} on the way"] = "Yol üstünde: {item:3915}",
 
 	-- Step 5: Islen Waterseer
 	-- {area:1637} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words) · {area:392} Ratchet · {npc:5901} Islen Waterseer
@@ -34,7 +34,7 @@ return {
 	-- {area:1637} Orgrimmar
 	["Fly to {area:1637}"] = "{area:1637} şehrine uç",
 	-- {area:392} Ratchet
-	["{area:392} flight master"] = "",
+	["{area:392} flight master"] = "{area:392} uçuş ustası",
 
 	-- Step 8: Nesingwary's camp
 	["Nesingwary's camp"] = "Nesingwary kampı",
@@ -43,11 +43,11 @@ return {
 
 	-- Step 9: Young Panther on the way
 	-- {npc:683} Young Panther
-	["{npc:683} on the way"] = "",
+	["{npc:683} on the way"] = "Yol üstünde: {npc:683}",
 
 	-- Step 10: Nesingwary's Expedition: kill these as you meet them
 	-- {area:100} Nesingwary's Expedition
-	["{area:100}: kill these as you meet them"] = "",
+	["{area:100}: kill these as you meet them"] = "{area:100}: bunları karşılaştıkça öldür",
 	-- {item:4614} Pendant of Myzrael
 	-- plural, as words: Young Stranglethorn Tigers = {npc:681} Young Stranglethorn Tiger · Young Panthers = {npc:683} Young Panther · Stranglethorn Raptors = {npc:685} Stranglethorn Raptor
 	["Young Stranglethorn Tigers prowl west of the camp, Young Panthers south and east of it.\nHead west past the camp. Stranglethorn Raptors (33-34) hunt the clearings, and the Bloodscalp trolls hold the ruins on the coast: every Bloodscalp can drop a tusk. A {item:4614} is a very rare drop from them: if one drops, read it.\nCareful: The troll camps have many patrolling mobs, so other trolls often join a fight."] = "",
@@ -56,26 +56,26 @@ return {
 	-- {area:35} Booty Bay · {npc:2858} Gringer
 	["Follow the road south to {area:35} at the southern tip of the vale and enter through the tunnel in the cliffs. Stay on the road: the jungle beside it is well above your level. {npc:2858}, the Horde flight master, waits on the upper deck."] = "Yolu güneye izleyerek vadinin güney ucundaki {area:35} limanına git ve uçurumlardaki tünelden gir. Yoldan ayrılma: yanındaki orman senin seviyenin epey üstünde. Horde uçuş ustası {npc:2858} üst katta bekliyor.",
 	-- {npc:2495} Drizzlik
-	["{npc:2495}, inside"] = "",
+	["{npc:2495}, inside"] = "{npc:2495}, içeride",
 	-- {npc:2498} Crank Fizzlebub
-	["{npc:2498}, inside"] = "",
+	["{npc:2498}, inside"] = "{npc:2498}, içeride",
 	-- {npc:737} Kebok
-	["{npc:737}, upstairs"] = "",
+	["{npc:737}, upstairs"] = "{npc:737}, üst katta",
 	-- {npc:773} Krazek
-	["{npc:773}, upstairs"] = "",
-	["Upstairs"] = "",
+	["{npc:773}, upstairs"] = "{npc:773}, üst katta",
+	["Upstairs"] = "Üst katta",
 
 	-- Step 12: Bloodscalp Ear on the way
 	-- {item:1519} Bloodscalp Ear
-	["{item:1519} on the way"] = "",
+	["{item:1519} on the way"] = "Yol üstünde: {item:1519}",
 
 	-- Step 13: Tumbled Crystal on the way
 	-- {item:4106} Tumbled Crystal
-	["{item:4106} on the way"] = "",
+	["{item:4106} on the way"] = "Yol üstünde: {item:4106}",
 
 	-- Step 14: Fly to Grom'gol
 	-- {area:35} Booty Bay
-	["{area:35} flight master"] = "",
+	["{area:35} flight master"] = "{area:35} uçuş ustası",
 
 	-- Step 15: Grom'gol
 	-- {object:3202} Grom'gol (no name in this language: may be words)
@@ -89,7 +89,7 @@ return {
 
 	-- Step 19: Stranglethorn Vale: kill these as you meet them
 	-- {zone:1434} Stranglethorn Vale
-	["{zone:1434}: kill these as you meet them"] = "",
+	["{zone:1434}: kill these as you meet them"] = "{zone:1434}: bunları karşılaştıkça öldür",
 	-- plural, as words: Stranglethorn Tigers = {npc:682} Stranglethorn Tiger
 	["Stranglethorn Tigers and Panthers (32-33) roam the hills east of the camp, along the lake shore."] = "Stranglethorn Tiger ve Panther yaratıkları (32-33) kampın doğusundaki tepelerde, göl kıyısı boyunca dolaşıyor.",
 
@@ -100,7 +100,7 @@ return {
 
 	-- Step 21: Shadowmaw Panther on the way
 	-- {npc:684} Shadowmaw Panther
-	["{npc:684} on the way"] = "",
+	["{npc:684} on the way"] = "Yol üstünde: {npc:684}",
 
 	-- Step 22: Elder tigers and Lashtail raptors
 	["Elder tigers and Lashtail raptors"] = "Yaşlı kaplanlar ve Lashtail raptorları",
@@ -113,7 +113,7 @@ return {
 
 	-- Step 24: The Savage Coast: kill these as you meet them
 	-- {area:301} The Savage Coast
-	["{area:301}: kill these as you meet them"] = "",
+	["{area:301}: kill these as you meet them"] = "{area:301}: bunları karşılaştıkça öldür",
 	-- {npc:729} Sin'Dall
 	-- plural, as words: Crystal Spine Basilisks = {npc:689} Crystal Spine Basilisk
 	["West past the camp, Crystal Spine Basilisks (34-35) sit on the rocks; every Bloodscalp in the village beyond can drop an ear.\n{npc:729}, a level 37 tiger, prowls the hilltop south-west of the camp.\nCareful: The raptor nest has young raptors that join the fight when you attack the adults."] = "",
@@ -130,9 +130,9 @@ return {
 
 	-- Step 29: Lashtail Raptor on the way
 	-- {npc:686} Lashtail Raptor
-	["{npc:686} on the way"] = "",
+	["{npc:686} on the way"] = "Yol üstünde: {npc:686}",
 	-- {npc:686} Lashtail Raptor · {object:3202} Grom'gol (no name in this language: may be words)
-	["{npc:686} along the way to {object:3202}"] = "",
+	["{npc:686} along the way to {object:3202}"] = "{npc:686}, {object:3202} yolu üstünde",
 
 	-- Step 30: Stranglethorn Vale: kill these as you meet them
 	-- {object:3202} Grom'gol (no name in this language: may be words)
@@ -142,11 +142,11 @@ return {
 	-- Step 31: The Vile Reef
 	-- {area:104} Vile Reef · {item:4094} Tablet Shard
 	["North-west of Grom'gol the {area:104} lies under the water off the coast. The {item:4094} rests on the sea floor by the sunken ruins; watch your breath and the murlocs."] = "Grom'gol'un kuzeybatısında, kıyının açığında {area:104} resifi su altında. {item:4094} batık harabelerin yanında, deniz dibinde duruyor; nefesine ve murloclara dikkat et.",
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- Step 32: Ruins of Zul'Kunda: kill these as you meet them
 	-- {area:102} Ruins of Zul'Kunda
-	["{area:102}: kill these as you meet them"] = "",
+	["{area:102}: kill these as you meet them"] = "{area:102}: bunları karşılaştıkça öldür",
 	-- {item:3915} Bloody Bone Necklace · {quest:338} The Green Hills of Stranglethorn
 	-- plural, as words: Bloodscalp Headhunters = {npc:671} Bloodscalp Headhunter
 	["The Bloodscalp Headhunters (36-37) in the village on the coast carry the shrunken heads.\nThe Bloodscalp trolls hold the ruins up the coast north of the reef and the village beyond; every one can drop a {item:3915}. Keep looting pages of {quest:338}."] = "",
@@ -157,11 +157,11 @@ return {
 
 	-- Step 34: Mosh'Ogg Brute on the way
 	-- {npc:1142} Mosh'Ogg Brute
-	["{npc:1142} on the way"] = "",
+	["{npc:1142} on the way"] = "Yol üstünde: {npc:1142}",
 
 	-- Step 35: Mosh'Ogg Witch Doctor on the way
 	-- {npc:1144} Mosh'Ogg Witch Doctor
-	["{npc:1144} on the way"] = "",
+	["{npc:1144} on the way"] = "Yol üstünde: {npc:1144}",
 
 	-- Step 36: Stranglethorn Vale: kill these as you meet them
 	-- {npc:2495} Drizzlik
@@ -178,7 +178,7 @@ return {
 	-- plural, as words: Shadowmaw Panthers = {npc:684} Shadowmaw Panther
 	["The Shadowmaw Panthers (37-38) stalk the jungle east of the Mosh'Ogg hills and north-east towards the lake; they strike from stealth. Loot every Green Hills page you find on the way."] = "Shadowmaw Panther yaratıkları (37-38) Mosh'Ogg tepelerinin doğusundaki ve kuzeydoğuda göle doğru uzanan ormanda sinsice dolaşıyor; gizlilikten saldırırlar. Yolda bulduğun her Green Hills sayfasını loot et.",
 	-- {npc:684} Shadowmaw Panther
-	["grind on {npc:684}"] = "",
+	["grind on {npc:684}"] = "Kas: {npc:684}",
 
 	-- Step 39: Venture Co. camp
 	["Venture Co. camp"] = "Venture Co. kampı",
@@ -195,11 +195,11 @@ return {
 	["Back to {object:3202}."] = "{object:3202} kampına dön.",
 
 	-- Step 42: Level 36
-	["Level 36"] = "",
+	["Level 36"] = "Seviye 36",
 	-- {area:321} Hammerfall
-	["Top up here to level 36 before the hand-ins at {area:321}: they take you to level 37."] = "",
+	["Top up here to level 36 before the hand-ins at {area:321}: they take you to level 37."] = "{area:321} teslimlerinden önce burada seviye 36 olana kadar kas: teslimler seni seviye 37 yapar.",
 	-- {npc:1142} Mosh'Ogg Brute
-	["grind on {npc:1142}"] = "",
+	["grind on {npc:1142}"] = "Kas: {npc:1142}",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["Leave the {zone:1458} by the lift and walk up through the ruins to the zeppelin towers; the {object:3202} zeppelin is the one on the south-west tower."] = "Asansörle {zone:1458} şehrinden çık ve harabelerden geçerek zeplin kulelerine yürü; {object:3202} zeplini güneybatı kulesindeki.",

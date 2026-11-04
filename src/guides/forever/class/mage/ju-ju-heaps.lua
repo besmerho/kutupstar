@@ -43,7 +43,7 @@ return {
 	-- Step 7: Back to Anastasia
 	["Back to Anastasia"] = "",
 	-- {npc:4568} Anastasia Hartwell · {item:7507} Arcane Orb · {item:9514} Arcane Staff
-	["{npc:4568}: {item:7507} or {item:9514}"] = "",
+	["{npc:4568}: {item:7507} or {item:9514}"] = "{npc:4568}: {item:7507} ya da {item:9514}",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["A staff or an orb at 10 for Horde mages, worth a short trip back to the {area:368}."] = "Seviye 10'daki Horde Mage'ler için bir asa ya da küre; {area:368} adalarına kısa bir dönüşe değer.",

@@ -5,17 +5,17 @@
 return {
 	-- Guide
 	-- {quest:6061} Taming the Beast
-	["{quest:6061} (Horde)"] = "",
+	["{quest:6061} (Horde)"] = "{quest:6061} (Horde)",
 	-- {item:15908} Taming Rod · {spell:1515} Tame Beast · {spell:5149} Beast Training
 	["Your own pet at 10: three practice tames with a {item:15908} teach {spell:1515}, then {spell:5149}."] = "",
 
 	-- Step 1: Thotar in Razor Hill
 	-- {npc:3171} Thotar · {area:362} Razor Hill
-	["{npc:3171} in {area:362}"] = "",
+	["{npc:3171} in {area:362}"] = "{npc:3171}, {area:362} içinde",
 	-- {npc:3171} Thotar · {area:362} Razor Hill · {npc:3407} Sian'dur · {zone:1454} Orgrimmar · {npc:11814} Kali Remik · {area:367} Sen'jin Village · {npc:3038} Kary Thunderhorn · {zone:1456} Thunder Bluff
 	["At 10 go to {npc:3171}, the hunter trainer inside the barracks in {area:362}. If {npc:3407} in {zone:1454}, {npc:11814} in {area:367} or {npc:3038} in {zone:1456} hands you The Hunter's Path, take it and hand it to {npc:3171} for a little experience; it is only a pointer, and you can take the first rod without it."] = "",
 	-- {npc:3171} Thotar · {item:15908} Taming Rod
-	["{npc:3171}: the first {item:15908}"] = "",
+	["{npc:3171}: the first {item:15908}"] = "{npc:3171}: ilk {item:15908}",
 
 	-- Step 2: Dire Mottled Boar
 	-- {area:362} Razor Hill · {item:15908} Taming Rod · {npc:3171} Thotar · {spell:75} Auto Shot
@@ -40,7 +40,7 @@ return {
 
 	-- Step 5: Ormak Grimshot in Orgrimmar
 	-- {npc:3352} Ormak Grimshot · {zone:1454} Orgrimmar
-	["{npc:3352} in {zone:1454}"] = "",
+	["{npc:3352} in {zone:1454}"] = "{npc:3352}, {zone:1454} bölgesinde",
 	-- {zone:1454} Orgrimmar · {npc:3352} Ormak Grimshot · {object:172958} Valley of Honor · {npc:10088} Xao'tsu
 	["Follow the road north to {zone:1454}'s gate. {npc:3352} stands with the hunter trainers in the {object:172958}, up the ramp at the city's east side; {npc:10088}, the pet trainer, is a few steps north of him."] = "",
 
@@ -50,7 +50,7 @@ return {
 	-- {npc:3065} Yaw Sharpmane · {area:222} Bloodhoof Village · {npc:3038} Kary Thunderhorn · {zone:1456} Thunder Bluff · {npc:3407} Sian'dur · {zone:1454} Orgrimmar · {npc:3171} Thotar · {area:362} Razor Hill
 	["At 10 go to {npc:3065}, who stands at the north edge of {area:222}. The Hunter's Path from {npc:3038} in {zone:1456}, {npc:3407} in {zone:1454} or {npc:3171} in {area:362} also leads here, for a little experience; it is only a pointer."] = "",
 	-- {npc:3065} Yaw Sharpmane · {item:15908} Taming Rod
-	["{npc:3065}: the first {item:15908}"] = "",
+	["{npc:3065}: the first {item:15908}"] = "{npc:3065}: ilk {item:15908}",
 
 	-- Step 7: Adult Plainstrider
 	-- {area:222} Bloodhoof Village · {item:15908} Taming Rod
@@ -75,7 +75,7 @@ return {
 
 	-- Step 10: Holt Thunderhorn in Thunder Bluff
 	-- {npc:3039} Holt Thunderhorn · {zone:1456} Thunder Bluff
-	["{npc:3039} in {zone:1456}"] = "",
+	["{npc:3039} in {zone:1456}"] = "{npc:3039}, {zone:1456} bölgesinde",
 	-- {zone:1456} Thunder Bluff · {npc:3039} Holt Thunderhorn · {area:1641} Hunter Rise · {npc:10086} Hesuwa Thunderhorn
 	["Head north to {zone:1456} and take a lift up. {npc:3039} stands with the hunter trainers on {area:1641}; {npc:10086}, the pet trainer, is nearby."] = "",
 
@@ -85,11 +85,11 @@ return {
 
 	-- Step 12: Quel'ana Quickgale in Valanaar
 	-- {npc:252389} Quel'ana Quickgale · {area:16638} Valanaar
-	["{npc:252389} in {area:16638}"] = "",
+	["{npc:252389} in {area:16638}"] = "{npc:252389}, {area:16638} içinde",
 	-- {npc:252389} Quel'ana Quickgale · {area:16638} Valanaar · {npc:254411} Quel'dora Quickgale
 	["{npc:252389} stands with the trainers by {area:16638}'s west gate, {npc:254411} beside her."] = "",
 	-- {npc:252389} Quel'ana Quickgale · {item:15908} Taming Rod
-	["{npc:252389}: the first {item:15908}"] = "",
+	["{npc:252389}: the first {item:15908}"] = "{npc:252389}: ilk {item:15908}",
 
 	-- Step 13: Windsong Crawler
 	-- {area:16638} Valanaar · {item:15908} Taming Rod
@@ -98,7 +98,7 @@ return {
 	-- {item:15908} Taming Rod
 	["Use the {item:15908} on a living crawler"] = "",
 	-- {npc:254588} Windsong Crawler
-	["Tame {npc:254588}"] = "",
+	["Tame {npc:254588}"] = "Evcilleştir: {npc:254588}",
 
 	-- Step 14: Ornery Galestrider
 	-- {spell:2641} Dismiss Pet · {area:16626} Gustberry Lowlands · {area:16638} Valanaar
@@ -107,7 +107,7 @@ return {
 	-- {item:15908} Taming Rod
 	["Use the {item:15908} on a living galestrider"] = "",
 	-- {npc:251707} Ornery Galestrider
-	["Tame {npc:251707}"] = "",
+	["Tame {npc:251707}"] = "Evcilleştir: {npc:251707}",
 
 	-- Step 15: Vuldren Alpha
 	-- {area:16626} Gustberry Lowlands
@@ -116,7 +116,7 @@ return {
 	-- {item:15908} Taming Rod
 	["Use the {item:15908} on a living alpha"] = "",
 	-- {npc:250874} Vuldren Alpha
-	["Tame {npc:250874}"] = "",
+	["Tame {npc:250874}"] = "Evcilleştir: {npc:250874}",
 	-- {npc:254411} Quel'dora Quickgale · {spell:5149} Beast Training
 	["{npc:254411}, beside her: {spell:5149}"] = "",
 

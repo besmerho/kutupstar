@@ -35,7 +35,7 @@ return {
 
 	-- Step 5: Beasts 1-10: Zephras Isle (1-50)
 	-- {zone:2521} Zephras Isle
-	["Beasts 1-10: {zone:2521} (1-50)"] = "",
+	["Beasts 1-10: {zone:2521} (1-50)"] = "Hayvanlar 1-10: {zone:2521} (1-50)",
 	-- {npc:250928} Highlands Ursera · {npc:251284} Hippogryph Protector · {npc:251291} Hippogryph Youth · {npc:250873} Juvenile Vuldren · {npc:251707} Ornery Galestrider · {npc:250926} Scrawny Ursera · {npc:256092} Shadowgale Shriekling · {npc:253282} Shriekling Fledgling · {npc:250937} Ursera Scavenger · {npc:250874} Vuldren Alpha · {npc:254588} Windsong Crawler · {skill:393} Skinning
 	["Kill and skin Cloudrunner (6), Galestrider (5), {npc:250928} (7), {npc:251284} (6), {npc:251291} (6), {npc:250873} (1), {npc:251707} (8), Prideclaw (5), {npc:250926} (3), {npc:256092} (10), {npc:253282} (8), {npc:250937} (4), Vuldren (6), {npc:250874} (10), {npc:254588} (8) along the loop until {skill:393} 50; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 1-15. Expect about 60 beasts for these 49 points."] = "",
 	["Galestrider, Prideclaw"] = "",
@@ -133,7 +133,7 @@ return {
 
 	-- Step 16: Beasts 19-22: Ashenvale (100-125)
 	-- {zone:1440} Ashenvale
-	["Beasts 19-22: {zone:1440} (100-125)"] = "",
+	["Beasts 19-22: {zone:1440} (100-125)"] = "Hayvanlar 19-22: {zone:1440} (100-125)",
 	-- {npc:3823} Ghostpaw Runner · {npc:3809} Ashenvale Bear · {npc:3817} Shadowhorn Stag · {skill:393} Skinning
 	["Kill and skin {npc:3823} (19), {npc:3809} (21, needs 105), {npc:3817} (22, needs 110) along the loop until {skill:393} 125; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 18-30. Expect about 30 beasts for these 25 points."] = "",
 
@@ -157,13 +157,13 @@ return {
 
 	-- Step 21: Beasts 19-29: Ashenvale (125-150)
 	-- {zone:1440} Ashenvale
-	["Beasts 19-29: {zone:1440} (125-150)"] = "",
+	["Beasts 19-29: {zone:1440} (125-150)"] = "Hayvanlar 19-29: {zone:1440} (125-150)",
 	-- {npc:3823} Ghostpaw Runner · {npc:3809} Ashenvale Bear · {npc:3817} Shadowhorn Stag · {npc:3810} Elder Ashenvale Bear · {npc:3818} Elder Shadowhorn Stag · {npc:3811} Giant Ashenvale Bear · {skill:393} Skinning
 	["Kill and skin {npc:3823} (19), {npc:3809} (21), {npc:3817} (22), {npc:3810} (25), {npc:3818} (26, needs 130), {npc:3811} (29, needs 145) along the loop until {skill:393} 150; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 18-30. Expect about 40 beasts for these 25 points."] = "",
 
 	-- Step 24: Beasts 21-33: Alterac Mountains (150-175)
 	-- {zone:1416} Alterac Mountains
-	["Beasts 21-33: {zone:1416} (150-175)"] = "",
+	["Beasts 21-33: {zone:1416} (150-175)"] = "Hayvanlar 21-33: {zone:1416} (150-175)",
 	-- {npc:2351} Gray Bear · {npc:2356} Elder Gray Bear · {npc:2248} Cave Yeti · {npc:2249} Ferocious Yeti · {npc:2406} Mountain Lion · {npc:2250} Mountain Yeti · {npc:2251} Giant Yeti · {npc:2407} Hulking Mountain Lion · {skill:393} Skinning
 	["Kill and skin {npc:2351} (21), {npc:2356} (25), {npc:2248} (30), Snapjaw (30), {npc:2249} (31, needs 155), {npc:2406} (32, needs 160), {npc:2250} (32, needs 160), {npc:2251} (33, needs 165), {npc:2407} (33, needs 165) along the loop until {skill:393} 175; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 30-40. Expect about 30 beasts for these 25 points."] = "",
 	["Snapjaw"] = "",
@@ -194,7 +194,7 @@ return {
 
 	-- Step 27: Beasts 35-41: Swamp of Sorrows (200-225)
 	-- {zone:1435} Swamp of Sorrows
-	["Beasts 35-41: {zone:1435} (200-225)"] = "",
+	["Beasts 35-41: {zone:1435} (200-225)"] = "Hayvanlar 35-41: {zone:1435} (200-225)",
 	-- {npc:1084} Young Sawtooth Crocolisk · {npc:1082} Sawtooth Crocolisk · {npc:768} Shadow Panther · {npc:1087} Sawtooth Snapper · {skill:393} Skinning
 	["Kill and skin {npc:1084} (35), {npc:1082} (38), {npc:768} (39), {npc:1087} (41, needs 205) along the loop until {skill:393} 225; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 35-45. Expect about 30 beasts for these 25 points."] = "",
 
@@ -218,7 +218,7 @@ return {
 
 	-- Step 30: Beasts 51-55: Western Plaguelands (275-300)
 	-- {zone:1422} Western Plaguelands
-	["Beasts 51-55: {zone:1422} (275-300)"] = "",
+	["Beasts 51-55: {zone:1422} (275-300)"] = "Hayvanlar 51-55: {zone:1422} (275-300)",
 	-- {npc:1815} Diseased Black Bear · {npc:1817} Diseased Wolf · {npc:1816} Diseased Grizzly · {skill:393} Skinning
 	["Kill and skin {npc:1815} (51), {npc:1817} (53), {npc:1816} (55) along the loop until {skill:393} 300; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 51-58. Expect about 30 beasts for these 25 points."] = "",
 

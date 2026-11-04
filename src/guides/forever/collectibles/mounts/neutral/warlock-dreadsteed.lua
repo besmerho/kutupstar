@@ -46,16 +46,16 @@ return {
 	-- plural, as words: Ghost Mushrooms = {item:8845} Ghost Mushroom · Large Brilliant Shards = {item:14344} Large Brilliant Shard · Dark Iron Deposits = {object:165658} Dark Iron Deposit · Black Dragonscales = {item:15416} Black Dragonscale
 	["{npc:14437} wants 10 Elixirs of Shadow Power ({skill:171}: 3 Ghost Mushrooms and a {item:8925} each), 6 Large Brilliant Shards ({skill:333}: disenchant level 51+ blue items), 25 {item:11370} ({skill:186} 230: the Dark Iron Deposits of the {zone:1428} and {area:1584}) and 35 Black Dragonscales ({skill:393}: the black dragonkin of the {zone:1428}, a few percent a kill, best from the {npc:7043}). Make or gather what your professions allow and buy the rest at the Auction House; it can take a while to find 35 scales."] = "",
 	-- {item:9264} Elixir of Shadow Power
-	["{item:9264}: the Auction House"] = "",
+	["{item:9264}: the Auction House"] = "{item:9264}: Auction House",
 	-- {item:14344} Large Brilliant Shard
-	["{item:14344}: the Auction House"] = "",
+	["{item:14344}: the Auction House"] = "{item:14344}: Auction House",
 
 	-- Step 9: Arcanite
 	-- {npc:14437} Gorzeeki Wildeyes · {item:18629} Black Lodestone · {item:12363} Arcane Crystal · {item:12359} Thorium Bar
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar
 	["Hand the three pieces to {npc:14437}. He then wants 3 Arcanite Bars for the {item:18629}: alchemists transmute them (an {item:12363} and a {item:12359} each, on a long cooldown); everyone else buys them."] = "",
 	-- {item:12360} Arcanite Bar
-	["{item:12360}: the Auction House"] = "",
+	["{item:12360}: the Auction House"] = "{item:12360}: Auction House",
 
 	-- Step 10: Lord Banehollow
 	-- {area:1763} Jaedenar · {area:1997} Bloodvenom Post · {zone:1448} Felwood · {area:1770} Shadow Hold · {item:18802} Shadowy Potion · {spell:23179} Taint of Shadow · {quest:7623} Lord Banehollow
@@ -75,7 +75,7 @@ return {
 	-- {npc:14437} Gorzeeki Wildeyes · {quest:7630} Arcanite · {item:18688} Imp in a Jar · {area:2057} Scholomance
 	["Back to {npc:14437} with the stardust; with the {quest:7630} also done he gives you the {item:18688} for the {area:2057}. Put a group of five together now: a party, not a raid group."] = "",
 	-- {quest:7625} Xorothian Stardust · {npc:14522} Ur'dan
-	["{quest:7625}, from {npc:14522}"] = "",
+	["{quest:7625}, from {npc:14522}"] = "{quest:7625}, kaynak: {npc:14522}",
 
 	-- Step 14: The Scholomance
 	-- {area:2057} Scholomance
@@ -90,11 +90,11 @@ return {
 	-- plural, as words: Soul Shards = {item:6265} Soul Shard
 	["Back to {npc:14437}, then {npc:14436} hands you his instructions. Buy {item:18663} (150 gold), the {item:18629} (50) and the {item:18670} (50) from {npc:14437}; a warlock friend who owns them can bring theirs instead. Every other warlock who will recharge the nodes needs a Lodestone of their own. Carry 15 or more Soul Shards."] = "",
 	-- {item:18663} J'eevee's Jar
-	["{item:18663}, 150 gold"] = "",
+	["{item:18663}, 150 gold"] = "{item:18663}, 150 altın",
 	-- {item:18629} Black Lodestone
-	["{item:18629}, 50 gold"] = "",
+	["{item:18629}, 50 gold"] = "{item:18629}, 50 altın",
 	-- {item:18670} Xorothian Glyphs
-	["{item:18670}, 50 gold"] = "",
+	["{item:18670}, 50 gold"] = "{item:18670}, 50 altın",
 
 	-- Step 16: Into Dire Maul West
 	["Into Dire Maul West"] = "",

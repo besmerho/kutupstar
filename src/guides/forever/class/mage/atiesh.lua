@@ -29,7 +29,7 @@ return {
 
 	-- Step 4: Back to Anachronos
 	-- {npc:15192} Anachronos
-	["Back to {npc:15192}"] = "",
+	["Back to {npc:15192}"] = "Dönüş: {npc:15192}",
 	-- {npc:16387} Atiesh
 	["your class's {npc:16387} quest; he hands you the befouled staff"] = "",
 

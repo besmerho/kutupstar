@@ -5,48 +5,48 @@
 return {
 	-- Step 1: Learn Blacksmithing
 	-- {skill:164} Blacksmithing
-	["Learn {skill:164}"] = "",
+	["Learn {skill:164}"] = "Öğren: {skill:164}",
 	-- {skill:164} Blacksmithing · {item:5956} Blacksmith Hammer · {skill:186} Mining · {item:2835} Rough Stone · {item:2770} Copper Ore
 	-- plural, as words: Copper Veins = {object:1731} Copper Vein
 	["Apprentice {skill:164} lets you craft up to 75 for 10c, at any character level. Any {skill:164} trainer of your faction teaches it; the arrow picks the nearest. Buy a {item:5956} (any blacksmithing supplier) and pair it with {skill:186}: {item:2835} and {item:2770} come from the Copper Veins of every starting zone. 1-75 takes about 1s of recipes, plus 286 {item:2835} to gather or buy."] = "",
 
 	-- Step 2: Rough Stone (Elwynn Forest)
 	-- {item:2835} Rough Stone · {spell:2660} Rough Sharpening Stone · {spell:3320} Rough Grinding Stone · {skill:186} Mining · {object:1731} Copper Vein · {zone:1429} Elwynn Forest
-	["286 {item:2835} for {spell:2660} and {spell:3320} (116 of them for 75-150: pick them all now): {skill:186}: {object:1731} (skill 1); or the Auction House. The densest cluster of {object:1731} in {zone:1429} is marked."] = "",
+	["286 {item:2835} for {spell:2660} and {spell:3320} (116 of them for 75-150: pick them all now): {skill:186}: {object:1731} (skill 1); or the Auction House. The densest cluster of {object:1731} in {zone:1429} is marked."] = "{spell:2660} ve {spell:3320} için 286 {item:2835} (75-150 için 116 tanesi: hepsini şimdi topla): {skill:186}: {object:1731} (beceri 1); ya da Auction House. En yoğun {object:1731} kümesi {zone:1429} bölgesinde işaretli.",
 
 	-- Step 3: Rough Stone (Dun Morogh)
 	-- {item:2835} Rough Stone · {spell:2660} Rough Sharpening Stone · {spell:3320} Rough Grinding Stone · {skill:186} Mining · {object:1731} Copper Vein · {zone:1426} Dun Morogh
-	["286 {item:2835} for {spell:2660} and {spell:3320} (116 of them for 75-150: pick them all now): {skill:186}: {object:1731} (skill 1); or the Auction House. The densest cluster of {object:1731} in {zone:1426} is marked."] = "",
+	["286 {item:2835} for {spell:2660} and {spell:3320} (116 of them for 75-150: pick them all now): {skill:186}: {object:1731} (skill 1); or the Auction House. The densest cluster of {object:1731} in {zone:1426} is marked."] = "{spell:2660} ve {spell:3320} için 286 {item:2835} (75-150 için 116 tanesi: hepsini şimdi topla): {skill:186}: {object:1731} (beceri 1); ya da Auction House. En yoğun {object:1731} kümesi {zone:1426} bölgesinde işaretli.",
 
 	-- Step 4: Rough Stone (Darkshore)
 	-- {item:2835} Rough Stone · {spell:2660} Rough Sharpening Stone · {spell:3320} Rough Grinding Stone · {skill:186} Mining · {object:1731} Copper Vein · {zone:1439} Darkshore
-	["286 {item:2835} for {spell:2660} and {spell:3320} (116 of them for 75-150: pick them all now): {skill:186}: {object:1731} (skill 1); or the Auction House. The densest cluster of {object:1731} in {zone:1439} is marked."] = "",
+	["286 {item:2835} for {spell:2660} and {spell:3320} (116 of them for 75-150: pick them all now): {skill:186}: {object:1731} (skill 1); or the Auction House. The densest cluster of {object:1731} in {zone:1439} is marked."] = "{spell:2660} ve {spell:3320} için 286 {item:2835} (75-150 için 116 tanesi: hepsini şimdi topla): {skill:186}: {object:1731} (beceri 1); ya da Auction House. En yoğun {object:1731} kümesi {zone:1439} bölgesinde işaretli.",
 
 	-- Step 5: Rough Stone (Zephras Isle)
 	-- {item:2835} Rough Stone · {spell:2660} Rough Sharpening Stone · {spell:3320} Rough Grinding Stone · {skill:186} Mining · {object:1731} Copper Vein · {zone:2521} Zephras Isle
-	["286 {item:2835} for {spell:2660} and {spell:3320} (116 of them for 75-150: pick them all now): {skill:186}: {object:1731} (skill 1); or the Auction House. The densest cluster of {object:1731} in {zone:2521} is marked."] = "",
+	["286 {item:2835} for {spell:2660} and {spell:3320} (116 of them for 75-150: pick them all now): {skill:186}: {object:1731} (skill 1); or the Auction House. The densest cluster of {object:1731} in {zone:2521} is marked."] = "{spell:2660} ve {spell:3320} için 286 {item:2835} (75-150 için 116 tanesi: hepsini şimdi topla): {skill:186}: {object:1731} (beceri 1); ya da Auction House. En yoğun {object:1731} kümesi {zone:2521} bölgesinde işaretli.",
 
 	-- Step 6: Rough Stone (Durotar)
 	-- {item:2835} Rough Stone · {spell:2660} Rough Sharpening Stone · {spell:3320} Rough Grinding Stone · {skill:186} Mining · {object:1731} Copper Vein · {zone:1411} Durotar
-	["286 {item:2835} for {spell:2660} and {spell:3320} (116 of them for 75-150: pick them all now): {skill:186}: {object:1731} (skill 1); or the Auction House. The densest cluster of {object:1731} in {zone:1411} is marked."] = "",
+	["286 {item:2835} for {spell:2660} and {spell:3320} (116 of them for 75-150: pick them all now): {skill:186}: {object:1731} (skill 1); or the Auction House. The densest cluster of {object:1731} in {zone:1411} is marked."] = "{spell:2660} ve {spell:3320} için 286 {item:2835} (75-150 için 116 tanesi: hepsini şimdi topla): {skill:186}: {object:1731} (beceri 1); ya da Auction House. En yoğun {object:1731} kümesi {zone:1411} bölgesinde işaretli.",
 
 	-- Step 7: Rough Stone (Mulgore)
 	-- {item:2835} Rough Stone · {spell:2660} Rough Sharpening Stone · {spell:3320} Rough Grinding Stone · {skill:186} Mining · {object:1731} Copper Vein · {zone:1412} Mulgore
-	["286 {item:2835} for {spell:2660} and {spell:3320} (116 of them for 75-150: pick them all now): {skill:186}: {object:1731} (skill 1); or the Auction House. The densest cluster of {object:1731} in {zone:1412} is marked."] = "",
+	["286 {item:2835} for {spell:2660} and {spell:3320} (116 of them for 75-150: pick them all now): {skill:186}: {object:1731} (skill 1); or the Auction House. The densest cluster of {object:1731} in {zone:1412} is marked."] = "{spell:2660} ve {spell:3320} için 286 {item:2835} (75-150 için 116 tanesi: hepsini şimdi topla): {skill:186}: {object:1731} (beceri 1); ya da Auction House. En yoğun {object:1731} kümesi {zone:1412} bölgesinde işaretli.",
 
 	-- Step 8: Rough Stone (Tirisfal Glades)
 	-- {item:2835} Rough Stone · {spell:2660} Rough Sharpening Stone · {spell:3320} Rough Grinding Stone · {skill:186} Mining · {object:1731} Copper Vein · {zone:1420} Tirisfal Glades
-	["286 {item:2835} for {spell:2660} and {spell:3320} (116 of them for 75-150: pick them all now): {skill:186}: {object:1731} (skill 1); or the Auction House. The densest cluster of {object:1731} in {zone:1420} is marked."] = "",
+	["286 {item:2835} for {spell:2660} and {spell:3320} (116 of them for 75-150: pick them all now): {skill:186}: {object:1731} (skill 1); or the Auction House. The densest cluster of {object:1731} in {zone:1420} is marked."] = "{spell:2660} ve {spell:3320} için 286 {item:2835} (75-150 için 116 tanesi: hepsini şimdi topla): {skill:186}: {object:1731} (beceri 1); ya da Auction House. En yoğun {object:1731} kümesi {zone:1420} bölgesinde işaretli.",
 
 	-- Step 9: Rough Sharpening Stone to 35
 	-- {spell:2660} Rough Sharpening Stone
-	["{spell:2660} to 35"] = "",
+	["{spell:2660} to 35"] = "{spell:2660}: 35 puana kadar",
 	-- {spell:2660} Rough Sharpening Stone · {item:2835} Rough Stone
 	["{spell:2660} is orange at 1 (yellow 15, green 35, grey 55): about 42 crafts to 35. Each takes 1 {item:2835}. One {item:2835} a craft, a point every craft to 15."] = "",
 
 	-- Step 10: Blacksmithing recipes at 35
 	-- {skill:164} Blacksmithing
-	["{skill:164} recipes at 35"] = "",
+	["{skill:164} recipes at 35"] = "35 puanda {skill:164} tarifleri",
 	-- {skill:164} Blacksmithing · {spell:3320} Rough Grinding Stone · {spell:1230171} Sharpening Wheel · {item:2835} Rough Stone · {item:2840} Copper Bar
 	["Back to a {skill:164} trainer: {spell:3320} (from 25, 1s). Also learn {spell:1230171} (1s): Forever's {skill:164} camp item, 1 {item:2835} and 1 {item:2840}, placed at a campsite beside a campfire for its buff. The Camping 101: {skill:164} quest from your starting area's camping guide (after The Great Outdoors) sends you to a blacksmithing trainer who teaches it free."] = "",
 
@@ -64,42 +64,42 @@ return {
 
 	-- Step 13: Blacksmithing 75-150: vendor goods
 	-- {skill:164} Blacksmithing
-	["{skill:164} 75-150: vendor goods"] = "",
+	["{skill:164} 75-150: vendor goods"] = "{skill:164} 75-150: satıcı malları",
 	-- {item:5956} Blacksmith Hammer · {zone:1453} Stormwind City · {npc:5519} Billibub Cogspinner · {npc:1286} Edna Mullby · {npc:5512} Kaita Deepforge · {zone:1454} Orgrimmar · {npc:3367} Felika · {npc:5817} Shimra
 	["Buy the whole bracket's share in one go: {item:5956} (a tool: one, kept in your bags, 18c); about 18c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:5519}, {npc:1286} and {npc:5512}; {zone:1454}: {npc:3367}, {npc:5817} and Sovik)."] = "",
 	["a tool, keep it in your bags"] = "",
 
 	-- Step 14: Coarse Stone (Westfall)
 	-- {item:2836} Coarse Stone · {spell:2672} Patterned Bronze Bracers · {skill:186} Mining · {object:1732} Tin Vein · {zone:1436} Westfall
-	["256 {item:2836} for {spell:2672}: {skill:186}: {object:1732} (skill 65); or the Auction House. The densest cluster of {object:1732} in {zone:1436} is marked."] = "",
+	["256 {item:2836} for {spell:2672}: {skill:186}: {object:1732} (skill 65); or the Auction House. The densest cluster of {object:1732} in {zone:1436} is marked."] = "{spell:2672} için 256 {item:2836}: {skill:186}: {object:1732} (beceri 65); ya da Auction House. En yoğun {object:1732} kümesi {zone:1436} bölgesinde işaretli.",
 
 	-- Step 15: Coarse Stone (Loch Modan)
 	-- {item:2836} Coarse Stone · {spell:2672} Patterned Bronze Bracers · {skill:186} Mining · {object:1732} Tin Vein · {zone:1432} Loch Modan
-	["256 {item:2836} for {spell:2672}: {skill:186}: {object:1732} (skill 65); or the Auction House. The densest cluster of {object:1732} in {zone:1432} is marked."] = "",
+	["256 {item:2836} for {spell:2672}: {skill:186}: {object:1732} (skill 65); or the Auction House. The densest cluster of {object:1732} in {zone:1432} is marked."] = "{spell:2672} için 256 {item:2836}: {skill:186}: {object:1732} (beceri 65); ya da Auction House. En yoğun {object:1732} kümesi {zone:1432} bölgesinde işaretli.",
 
 	-- Step 16: Coarse Stone (Darkshore)
 	-- {item:2836} Coarse Stone · {spell:2672} Patterned Bronze Bracers · {skill:186} Mining · {object:1732} Tin Vein · {zone:1439} Darkshore
-	["256 {item:2836} for {spell:2672}: {skill:186}: {object:1732} (skill 65); or the Auction House. The densest cluster of {object:1732} in {zone:1439} is marked."] = "",
+	["256 {item:2836} for {spell:2672}: {skill:186}: {object:1732} (skill 65); or the Auction House. The densest cluster of {object:1732} in {zone:1439} is marked."] = "{spell:2672} için 256 {item:2836}: {skill:186}: {object:1732} (beceri 65); ya da Auction House. En yoğun {object:1732} kümesi {zone:1439} bölgesinde işaretli.",
 
 	-- Step 17: Coarse Stone (The Barrens)
 	-- {item:2836} Coarse Stone · {spell:2672} Patterned Bronze Bracers · {skill:186} Mining · {object:1732} Tin Vein · {zone:1413} The Barrens
-	["256 {item:2836} for {spell:2672}: {skill:186}: {object:1732} (skill 65); or the Auction House. The densest cluster of {object:1732} in {zone:1413} is marked."] = "",
+	["256 {item:2836} for {spell:2672}: {skill:186}: {object:1732} (skill 65); or the Auction House. The densest cluster of {object:1732} in {zone:1413} is marked."] = "{spell:2672} için 256 {item:2836}: {skill:186}: {object:1732} (beceri 65); ya da Auction House. En yoğun {object:1732} kümesi {zone:1413} bölgesinde işaretli.",
 
 	-- Step 18: Coarse Stone (Silverpine Forest)
 	-- {item:2836} Coarse Stone · {spell:2672} Patterned Bronze Bracers · {skill:186} Mining · {object:1732} Tin Vein · {zone:1421} Silverpine Forest
-	["256 {item:2836} for {spell:2672}: {skill:186}: {object:1732} (skill 65); or the Auction House. The densest cluster of {object:1732} in {zone:1421} is marked."] = "",
+	["256 {item:2836} for {spell:2672}: {skill:186}: {object:1732} (skill 65); or the Auction House. The densest cluster of {object:1732} in {zone:1421} is marked."] = "{spell:2672} için 256 {item:2836}: {skill:186}: {object:1732} (beceri 65); ya da Auction House. En yoğun {object:1732} kümesi {zone:1421} bölgesinde işaretli.",
 
 	-- Step 19: Heavy Stone (Arathi Highlands)
 	-- {item:2838} Heavy Stone · {spell:2674} Heavy Sharpening Stone · {skill:186} Mining · {object:1735} Iron Deposit · {zone:1417} Arathi Highlands
-	["28 {item:2838} for {spell:2674}: {skill:186}: {object:1735} (skill 125); or the Auction House. The densest cluster of {object:1735} in {zone:1417} is marked."] = "",
+	["28 {item:2838} for {spell:2674}: {skill:186}: {object:1735} (skill 125); or the Auction House. The densest cluster of {object:1735} in {zone:1417} is marked."] = "{spell:2674} için 28 {item:2838}: {skill:186}: {object:1735} (beceri 125); ya da Auction House. En yoğun {object:1735} kümesi {zone:1417} bölgesinde işaretli.",
 
 	-- Step 20: Heavy Stone (Ashenvale)
 	-- {item:2838} Heavy Stone · {spell:2674} Heavy Sharpening Stone · {skill:186} Mining · {object:1735} Iron Deposit · {zone:1440} Ashenvale
-	["28 {item:2838} for {spell:2674}: {skill:186}: {object:1735} (skill 125); or the Auction House. The densest cluster of {object:1735} in {zone:1440} is marked."] = "",
+	["28 {item:2838} for {spell:2674}: {skill:186}: {object:1735} (skill 125); or the Auction House. The densest cluster of {object:1735} in {zone:1440} is marked."] = "{spell:2674} için 28 {item:2838}: {skill:186}: {object:1735} (beceri 125); ya da Auction House. En yoğun {object:1735} kümesi {zone:1440} bölgesinde işaretli.",
 
 	-- Step 21: Heavy Stone (The Barrens)
 	-- {item:2838} Heavy Stone · {spell:2674} Heavy Sharpening Stone · {skill:186} Mining · {object:1735} Iron Deposit · {zone:1413} The Barrens
-	["28 {item:2838} for {spell:2674}: {skill:186}: {object:1735} (skill 125); or the Auction House. The densest cluster of {object:1735} in {zone:1413} is marked."] = "",
+	["28 {item:2838} for {spell:2674}: {skill:186}: {object:1735} (skill 125); or the Auction House. The densest cluster of {object:1735} in {zone:1413} is marked."] = "{spell:2674} için 28 {item:2838}: {skill:186}: {object:1735} (beceri 125); ya da Auction House. En yoğun {object:1735} kümesi {zone:1413} bölgesinde işaretli.",
 
 	-- Step 23: Rough Grinding Stone to 83
 	-- {spell:3320} Rough Grinding Stone
@@ -122,14 +122,14 @@ return {
 
 	-- Step 26: Heavy Sharpening Stone to 113
 	-- {spell:2674} Heavy Sharpening Stone
-	["{spell:2674} to 113"] = "",
+	["{spell:2674} to 113"] = "{spell:2674}: 113 puana kadar",
 	-- {spell:2674} Heavy Sharpening Stone · {item:2838} Heavy Stone
 	-- plural, as words: Iron Deposits = {object:1735} Iron Deposit
 	["{spell:2674} is yellow at 100 (yellow 100, green 107, grey 115): about 28 crafts to 113. Each takes 1 {item:2838}. {item:2838} comes from Iron Deposits; one a craft."] = "",
 
 	-- Step 27: Blacksmithing recipes at 113
 	-- {skill:164} Blacksmithing
-	["{skill:164} recipes at 113"] = "",
+	["{skill:164} recipes at 113"] = "113 puanda {skill:164} tarifleri",
 	-- {skill:164} Blacksmithing · {spell:2672} Patterned Bronze Bracers
 	["Back to a {skill:164} trainer: {spell:2672} (from 95, 5s)."] = "",
 
@@ -148,7 +148,7 @@ return {
 
 	-- Step 30: Blacksmithing 150-225: vendor goods
 	-- {skill:164} Blacksmithing
-	["{skill:164} 150-225: vendor goods"] = "",
+	["{skill:164} 150-225: vendor goods"] = "{skill:164} 150-225: satıcı malları",
 	-- {item:2605} Green Dye · {zone:1453} Stormwind City · {npc:1347} Alexandra Bolero · {npc:1286} Edna Mullby · {npc:5565} Jillian Tanner · {zone:1454} Orgrimmar · {npc:3364} Borya · {npc:3367} Felika · {npc:5817} Shimra · {item:3859} Steel Bar · {skill:186} Mining · {item:3575} Iron Bar
 	["Buy the whole bracket's share in one go: 28 {item:2605} (28s); about 28s in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1347}, {npc:1286} and {npc:5565}; {zone:1454}: {npc:3364}, {npc:3367} and {npc:5817}). If you smelt the 195 {item:3859} yourself ({skill:186} 165: an {item:3575} and a Coal each), buy 195 Coal too (9g 75s, trade and blacksmithing suppliers); skip them if you buy the bars."] = "",
 
@@ -156,29 +156,29 @@ return {
 	-- {item:2838} Heavy Stone
 	["{item:2838} (Alliance)"] = "{item:2838} (Alliance)",
 	-- {item:2838} Heavy Stone · {item:6040} Golden Scale Bracers · {skill:186} Mining · {object:1735} Iron Deposit · {zone:1417} Arathi Highlands · {zone:1434} Stranglethorn Vale · {zone:1443} Desolace
-	["234 {item:2838} for {item:6040}: {skill:186}: {object:1735} (skill 125) in {zone:1417} (30-40), {zone:1434} (30-45) and {zone:1443} (30-40); or the Auction House. The densest cluster of {object:1735} in {zone:1417} is marked."] = "",
+	["234 {item:2838} for {item:6040}: {skill:186}: {object:1735} (skill 125) in {zone:1417} (30-40), {zone:1434} (30-45) and {zone:1443} (30-40); or the Auction House. The densest cluster of {object:1735} in {zone:1417} is marked."] = "{item:6040} için 234 {item:2838}: {skill:186}: {object:1735} (beceri 125), {zone:1417} (30-40), {zone:1434} (30-45) ve {zone:1443} (30-40) bölgelerinde; ya da Auction House. En yoğun {object:1735} kümesi {zone:1417} bölgesinde işaretli.",
 
 	-- Step 32: Heavy Stone (Horde)
 	-- {item:2838} Heavy Stone
 	["{item:2838} (Horde)"] = "{item:2838} (Horde)",
 	-- {item:2838} Heavy Stone · {item:6040} Golden Scale Bracers · {skill:186} Mining · {object:1735} Iron Deposit · {zone:1441} Thousand Needles · {zone:1417} Arathi Highlands · {zone:1434} Stranglethorn Vale
-	["234 {item:2838} for {item:6040}: {skill:186}: {object:1735} (skill 125) in {zone:1441} (25-35), {zone:1417} (30-40) and {zone:1434} (30-45); or the Auction House. The densest cluster of {object:1735} in {zone:1441} is marked."] = "",
+	["234 {item:2838} for {item:6040}: {skill:186}: {object:1735} (skill 125) in {zone:1441} (25-35), {zone:1417} (30-40) and {zone:1434} (30-45); or the Auction House. The densest cluster of {object:1735} in {zone:1441} is marked."] = "{item:6040} için 234 {item:2838}: {skill:186}: {object:1735} (beceri 125), {zone:1441} (25-35), {zone:1417} (30-40) ve {zone:1434} (30-45) bölgelerinde; ya da Auction House. En yoğun {object:1735} kümesi {zone:1441} bölgesinde işaretli.",
 
 	-- Step 33: Solid Stone (Alliance)
 	-- {item:7912} Solid Stone
 	["{item:7912} (Alliance)"] = "{item:7912} (Alliance)",
 	-- {item:7912} Solid Stone · {item:7964} Solid Sharpening Stone · {skill:186} Mining · {object:2040} Mithril Deposit · {zone:1434} Stranglethorn Vale · {zone:1425} The Hinterlands · {zone:1444} Feralas
-	["30 {item:7912} for {item:7964}: {skill:186}: {object:2040} (skill 175) in {zone:1434} (30-45), {zone:1425} (40-50) and {zone:1444} (40-50); or the Auction House. The densest cluster of {object:2040} in {zone:1434} is marked."] = "",
+	["30 {item:7912} for {item:7964}: {skill:186}: {object:2040} (skill 175) in {zone:1434} (30-45), {zone:1425} (40-50) and {zone:1444} (40-50); or the Auction House. The densest cluster of {object:2040} in {zone:1434} is marked."] = "{item:7964} için 30 {item:7912}: {skill:186}: {object:2040} (beceri 175), {zone:1434} (30-45), {zone:1425} (40-50) ve {zone:1444} (40-50) bölgelerinde; ya da Auction House. En yoğun {object:2040} kümesi {zone:1434} bölgesinde işaretli.",
 
 	-- Step 34: Solid Stone (Horde)
 	-- {item:7912} Solid Stone
 	["{item:7912} (Horde)"] = "{item:7912} (Horde)",
 	-- {item:7912} Solid Stone · {item:7964} Solid Sharpening Stone · {skill:186} Mining · {object:2040} Mithril Deposit · {zone:1443} Desolace · {zone:1425} The Hinterlands · {zone:1444} Feralas
-	["30 {item:7912} for {item:7964}: {skill:186}: {object:2040} (skill 175) in {zone:1443} (30-40), {zone:1425} (40-50) and {zone:1444} (40-50); or the Auction House. The densest cluster of {object:2040} in {zone:1443} is marked."] = "",
+	["30 {item:7912} for {item:7964}: {skill:186}: {object:2040} (skill 175) in {zone:1443} (30-40), {zone:1425} (40-50) and {zone:1444} (40-50); or the Auction House. The densest cluster of {object:2040} in {zone:1443} is marked."] = "{item:7964} için 30 {item:7912}: {skill:186}: {object:2040} (beceri 175), {zone:1443} (30-40), {zone:1425} (40-50) ve {zone:1444} (40-50) bölgelerinde; ya da Auction House. En yoğun {object:2040} kümesi {zone:1443} bölgesinde işaretli.",
 
 	-- Step 35: Green Iron Bracers to 175
 	-- {spell:3501} Green Iron Bracers
-	["{spell:3501} to 175"] = "",
+	["{spell:3501} to 175"] = "{spell:3501}: 175 puana kadar",
 	-- {spell:3501} Green Iron Bracers · {item:3575} Iron Bar · {item:2605} Green Dye · {skill:186} Mining · {item:2772} Iron Ore
 	-- plural, as words: Iron Bars = {item:3575} Iron Bar
 	["{spell:3501} is orange at 150 (yellow 165, green 177, grey 190): about 28 crafts to 175. Each takes 6 {item:3575} and 1 {item:2605}. Six Iron Bars and a {item:2605} a craft; {item:2605} comes from tailoring, leatherworking and trade supplies vendors. Orange to 165 on Forever, so a point every craft for the first fifteen. Needs an anvil nearby. {item:3575} (168 for 150-225): {skill:186}: smelt {item:2772}; or the Auction House."] = "",
@@ -187,7 +187,7 @@ return {
 	-- {skill:164} Blacksmithing
 	["{skill:164} recipes at 175"] = "175 puanda {skill:164} tarifleri",
 	-- {skill:164} Blacksmithing · {spell:9918} Solid Sharpening Stone
-	["Back to a {skill:164} trainer: {spell:9918} (from 175)."] = "",
+	["Back to a {skill:164} trainer: {spell:9918} (from 175)."] = "Yeniden bir {skill:164} eğitmenine: {spell:9918} (175 puandan itibaren).",
 
 	-- Step 37: Solid Sharpening Stone to 185
 	-- {item:7964} Solid Sharpening Stone
@@ -200,24 +200,24 @@ return {
 	-- {skill:164} Blacksmithing
 	["{skill:164} recipes at 185"] = "185 puanda {skill:164} tarifleri",
 	-- {skill:164} Blacksmithing · {spell:7223} Golden Scale Bracers
-	["Back to a {skill:164} trainer: {spell:7223} (from 160)."] = "",
+	["Back to a {skill:164} trainer: {spell:7223} (from 160)."] = "Yeniden bir {skill:164} eğitmenine: {spell:7223} (160 puandan itibaren).",
 
 	-- Step 39: Golden Scale Bracers to 205
 	-- {item:6040} Golden Scale Bracers
-	["{item:6040} to 205"] = "",
+	["{item:6040} to 205"] = "{item:6040}: 205 puana kadar",
 	-- {item:6040} Golden Scale Bracers · {item:3859} Steel Bar · {spell:3337} Heavy Grinding Stone · {item:3575} Iron Bar · {skill:186} Mining · {npc:5164} Grumnus Steelshaper · {zone:1455} Ironforge · {npc:11177} Okothos Ironrager · {zone:1454} Orgrimmar · {spell:9788} Armorsmith · {item:7936} Ornate Mithril Boots · {item:7935} Ornate Mithril Breastplate · {npc:11146} Ironus Coldsteel · {npc:11178} Borgosh Corebender · {item:3853} Moonsteel Broadsword · {npc:2482} Zarena Cromwind · {area:35} Booty Bay · {item:3855} Massive Iron Axe
 	-- plural, as words: Steel Bars = {item:3859} Steel Bar · Heavy Grinding Stones = {spell:3337} Heavy Grinding Stone · Ornate Mithril Helms = {item:7937} Ornate Mithril Helm · Moonsteel Broadswords = {item:3853} Moonsteel Broadsword · Massive Iron Axes = {item:3855} Massive Iron Axe · Heavy Mithril Axes = {item:7940} Heavy Mithril Axe · Big Black Maces = {item:7945} Big Black Mace
 	["{item:6040} is yellow at 185 (yellow 185, green 197, grey 210): about 39 crafts to 205. Each takes 5 {item:3859} and 2 {spell:3337}. Make the 78 {spell:3337} first. Steel Bars are smelted from an {item:3575} and a Coal ({skill:186} 165; Coal from trade and blacksmithing suppliers), so each bracer is five of each. Each bracer takes two Heavy Grinding Stones: make them first. Specialisation (optional): at 200 and character level 40, {npc:5164} ({zone:1455}) or {npc:11177} ({zone:1454}) starts The Art of the {spell:9788}: 4 Ornate Mithril Helms, 2 {item:7936} and an {item:7935}, whose plans come from a Mithril Order quest chain. {npc:11146} ({zone:1455}) or {npc:11178} ({zone:1454}) starts The Way of the Weaponsmith: 4 Moonsteel Broadswords, 4 Massive Iron Axes, 2 Heavy Mithril Axes and 2 Big Black Maces; on Forever the {item:3853} plans ({npc:2482}, {area:35}) and {item:3855} plans bind when picked up, so buy and use them yourself. You can take only one; neither is needed for 300, and the beta never tested them (it stopped at level 30). Needs an anvil nearby. {item:3859} (195 for 150-225): {skill:186}: smelt {item:3575} and Coal; or the Auction House."] = "",
 
 	-- Step 40: Blacksmithing recipes at 205
 	-- {skill:164} Blacksmithing
-	["{skill:164} recipes at 205"] = "",
+	["{skill:164} recipes at 205"] = "205 puanda {skill:164} tarifleri",
 	-- {skill:164} Blacksmithing · {spell:9959} Heavy Mithril Breastplate
-	["Back to a {skill:164} trainer: {spell:9959} (from 205)."] = "",
+	["Back to a {skill:164} trainer: {spell:9959} (from 205)."] = "Yeniden bir {skill:164} eğitmenine: {spell:9959} (205 puandan itibaren).",
 
 	-- Step 41: Heavy Mithril Breastplate to 225
 	-- {item:7930} Heavy Mithril Breastplate
-	["{item:7930} to 225"] = "",
+	["{item:7930} to 225"] = "{item:7930}: 225 puana kadar",
 	-- {item:7930} Heavy Mithril Breastplate · {item:3860} Mithril Bar · {skill:186} Mining · {item:3858} Mithril Ore · {skill:164} Blacksmithing
 	-- plural, as words: Mithril Bars = {item:3860} Mithril Bar
 	["{item:7930} is orange at 205 (yellow 225, green 235, grey 245): about 20 crafts to 225, a point every craft. Each takes 16 {item:3860}. Sixteen Mithril Bars a craft and nothing else; orange to 225 on Forever, so a point every craft to the Artisan cap. Needs an anvil nearby. {item:3860} (320 for 150-225): {skill:186}: smelt {item:3858}; or the Auction House. {skill:164} 225 is a Legacy System milestone."] = "",
@@ -250,11 +250,11 @@ return {
 
 	-- Step 47: Solid Stone (Alliance)
 	-- {item:7912} Solid Stone · {item:7945} Big Black Mace · {skill:186} Mining · {object:2040} Mithril Deposit · {zone:1425} The Hinterlands · {zone:1444} Feralas · {zone:1447} Azshara
-	["44 {item:7912} for {item:7945}: {skill:186}: {object:2040} (skill 175) in {zone:1425} (40-50), {zone:1444} (40-50) and {zone:1447} (45-55); or the Auction House. The densest cluster of {object:2040} in {zone:1425} is marked."] = "",
+	["44 {item:7912} for {item:7945}: {skill:186}: {object:2040} (skill 175) in {zone:1425} (40-50), {zone:1444} (40-50) and {zone:1447} (45-55); or the Auction House. The densest cluster of {object:2040} in {zone:1425} is marked."] = "{item:7945} için 44 {item:7912}: {skill:186}: {object:2040} (beceri 175), {zone:1425} (40-50), {zone:1444} (40-50) ve {zone:1447} (45-55) bölgelerinde; ya da Auction House. En yoğun {object:2040} kümesi {zone:1425} bölgesinde işaretli.",
 
 	-- Step 48: Solid Stone (Horde)
 	-- {item:7912} Solid Stone · {item:7945} Big Black Mace · {skill:186} Mining · {object:2040} Mithril Deposit · {zone:1443} Desolace · {zone:1425} The Hinterlands · {zone:1444} Feralas
-	["44 {item:7912} for {item:7945}: {skill:186}: {object:2040} (skill 175) in {zone:1443} (30-40), {zone:1425} (40-50) and {zone:1444} (40-50); or the Auction House. The densest cluster of {object:2040} in {zone:1443} is marked."] = "",
+	["44 {item:7912} for {item:7945}: {skill:186}: {object:2040} (skill 175) in {zone:1443} (30-40), {zone:1425} (40-50) and {zone:1444} (40-50); or the Auction House. The densest cluster of {object:2040} in {zone:1443} is marked."] = "{item:7945} için 44 {item:7912}: {skill:186}: {object:2040} (beceri 175), {zone:1443} (30-40), {zone:1425} (40-50) ve {zone:1444} (40-50) bölgelerinde; ya da Auction House. En yoğun {object:2040} kümesi {zone:1443} bölgesinde işaretli.",
 
 	-- Step 49: Rugged Leather (Alliance)
 	-- {item:8170} Rugged Leather
@@ -272,13 +272,13 @@ return {
 	-- {item:12365} Dense Stone
 	["{item:12365} (Alliance)"] = "{item:12365} (Alliance)",
 	-- {item:12365} Dense Stone · {item:12643} Dense Weightstone · {item:12773} Ornate Thorium Handaxe · {item:12775} Huge Thorium Battleaxe · {skill:186} Mining · {object:324} Small Thorium Vein · {zone:1419} Blasted Lands · {zone:1448} Felwood · {zone:1452} Winterspring
-	["801 {item:12365} for {item:12643}, {item:12773} and {item:12775}: {skill:186}: {object:324} (skill 245) in {zone:1419} (45-55), {zone:1448} (48-55) and {zone:1452} (55-60); or the Auction House. The densest cluster of {object:324} in {zone:1419} is marked."] = "",
+	["801 {item:12365} for {item:12643}, {item:12773} and {item:12775}: {skill:186}: {object:324} (skill 245) in {zone:1419} (45-55), {zone:1448} (48-55) and {zone:1452} (55-60); or the Auction House. The densest cluster of {object:324} in {zone:1419} is marked."] = "{item:12643}, {item:12773} ve {item:12775} için 801 {item:12365}: {skill:186}: {object:324} (beceri 245), {zone:1419} (45-55), {zone:1448} (48-55) ve {zone:1452} (55-60) bölgelerinde; ya da Auction House. En yoğun {object:324} kümesi {zone:1419} bölgesinde işaretli.",
 
 	-- Step 52: Dense Stone (Horde)
 	-- {item:12365} Dense Stone
 	["{item:12365} (Horde)"] = "{item:12365} (Horde)",
 	-- {item:12365} Dense Stone · {item:12643} Dense Weightstone · {item:12773} Ornate Thorium Handaxe · {item:12775} Huge Thorium Battleaxe · {skill:186} Mining · {object:324} Small Thorium Vein · {zone:1448} Felwood · {zone:1451} Silithus · {zone:1452} Winterspring
-	["801 {item:12365} for {item:12643}, {item:12773} and {item:12775}: {skill:186}: {object:324} (skill 245) in {zone:1448} (48-55), {zone:1451} (55-60) and {zone:1452} (55-60); or the Auction House. The densest cluster of {object:324} in {zone:1448} is marked."] = "",
+	["801 {item:12365} for {item:12643}, {item:12773} and {item:12775}: {skill:186}: {object:324} (skill 245) in {zone:1448} (48-55), {zone:1451} (55-60) and {zone:1452} (55-60); or the Auction House. The densest cluster of {object:324} in {zone:1448} is marked."] = "{item:12643}, {item:12773} ve {item:12775} için 801 {item:12365}: {skill:186}: {object:324} (beceri 245), {zone:1448} (48-55), {zone:1451} (55-60) ve {zone:1452} (55-60) bölgelerinde; ya da Auction House. En yoğun {object:324} kümesi {zone:1448} bölgesinde işaretli.",
 
 	-- Step 53: Dense Weightstone to 235
 	-- {item:12643} Dense Weightstone
@@ -288,28 +288,28 @@ return {
 
 	-- Step 54: Heavy Mithril Boots to 247
 	-- {item:7933} Heavy Mithril Boots
-	["{item:7933} to 247"] = "",
+	["{item:7933} to 247"] = "{item:7933}: 247 puana kadar",
 	-- {item:7933} Heavy Mithril Boots · {item:3860} Mithril Bar · {item:4304} Thick Leather · {skill:186} Mining · {item:3858} Mithril Ore
 	-- plural, as words: Mithril Bars = {item:3860} Mithril Bar · Mithril Deposits = {object:2040} Mithril Deposit
 	["{item:7933} is yellow at 235 (yellow 230, green 240, grey 250): about 30 crafts to 247. Each takes 14 {item:3860} and 4 {item:4304}. Mithril Bars from Mithril Deposits; {item:4304} from skinners or the Auction House. Needs an anvil nearby. {item:3860} (596 for 225-300): {skill:186}: smelt {item:3858}; or the Auction House."] = "",
 
 	-- Step 55: Big Black Mace to 250
 	-- {item:7945} Big Black Mace
-	["{item:7945} to 250"] = "",
+	["{item:7945} to 250"] = "{item:7945}: 250 puana kadar",
 	-- {item:7945} Big Black Mace · {item:3860} Mithril Bar · {item:7971} Black Pearl · {item:1210} Shadowgem · {item:7966} Solid Grinding Stone · {item:4304} Thick Leather · {object:1732} Tin Vein · {object:1731} Copper Vein · {object:1733} Silver Vein
 	-- plural, as words: Shadowgems = {item:1210} Shadowgem
 	["{item:7945} is green at 247 (yellow 230, green 242, grey 255): about 11 crafts to 250. Each takes 16 {item:3860}, 1 {item:7971}, 4 {item:1210}, 1 {item:7966} and 2 {item:4304}. Make the 11 {item:7966} first. Only about 11 crafts to bridge 247-250, but each wants four Shadowgems (about one {object:1732} in a hundred) and a {item:7971}: buy those at the Auction House unless your bags already hold them. Needs an anvil nearby. {item:1210} (44 for 225-300): {item:1210} turns up in about one {object:1731}, {object:1732} or {object:1733} in 100: buy it at the Auction House, or keep the ones you find while mining. {item:7971} (11 for 225-300): {item:7971} is a rare drop (no mob gives it one time in 50): buy it at the Auction House, or keep the ones you find."] = "",
 
 	-- Step 56: Ornate Thorium Handaxe to 255
 	-- {item:12773} Ornate Thorium Handaxe
-	["{item:12773} to 255"] = "",
+	["{item:12773} to 255"] = "{item:12773}: 255 puana kadar",
 	-- {item:12773} Ornate Thorium Handaxe · {item:12359} Thorium Bar · {item:12799} Large Opal · {item:12644} Dense Grinding Stone · {item:8170} Rugged Leather · {skill:186} Mining · {item:10620} Thorium Ore · {object:175404} Rich Thorium Vein · {object:177388} Ooze Covered Rich Thorium Vein · {object:180215} Hakkari Thorium Vein
 	["{item:12773} is orange at 250 (yellow 275, green 287, grey 300): about 5 crafts to 255, a point every craft. Each takes 20 {item:12359}, 2 {item:12799}, 2 {item:12644} and 4 {item:8170}. Make the 10 {item:12644} first. {item:12799} turns up in about one Thorium vein in 130: buy the ten at the Auction House. Five crafts only, until the battleaxe plans can be used at 255. Needs an anvil nearby. {item:12359} (2026 for 225-300): {skill:186}: smelt {item:10620}; or the Auction House. {item:12799} (10 for 225-300): {item:12799} turns up in about one {object:175404}, {object:177388} or {object:180215} in 143: buy it at the Auction House, or keep the ones you find while mining."] = "",
 	["from the recipe in your bags"] = "çantandaki tariften",
 
 	-- Step 57: Huge Thorium Battleaxe to 285
 	-- {item:12775} Huge Thorium Battleaxe
-	["{item:12775} to 285"] = "",
+	["{item:12775} to 285"] = "{item:12775}: 285 puana kadar",
 	-- {item:12775} Huge Thorium Battleaxe · {item:12359} Thorium Bar · {item:12644} Dense Grinding Stone · {item:8170} Rugged Leather · {npc:11278} Magnus Frostwake · {area:2298} Caer Darrow · {zone:1422} Western Plaguelands · {quest:7654} Imperial Plate Boots
 	-- plural, as words: Thorium Bars = {item:12359} Thorium Bar · Dense Grinding Stones = {item:12644} Dense Grinding Stone
 	["{item:12775} is orange at 255 (yellow 280, green 292, grey 305): about 31 crafts to 285. Each takes 40 {item:12359}, 6 {item:12644} and 6 {item:8170}. Make the 186 {item:12644} first. Plans from {npc:11278} ({area:2298}, {zone:1422}), unlimited stock, but they bind when picked up. Forty Thorium Bars and six Dense Grinding Stones a craft: the dearest stretch, so stop where the {quest:7654} take over. Other ways through: world-drop plans from the Auction House (the Radiant pieces: about 820 Thorium Bars and 190 Hearts of Fire for the Radiant route) or the Merchant's Favor sets. Needs an anvil nearby."] = "",
@@ -320,7 +320,7 @@ return {
 
 	-- Step 59: Imperial Plate Boots to 300
 	-- {item:12426} Imperial Plate Boots
-	["{item:12426} to 300"] = "",
+	["{item:12426} to 300"] = "{item:12426}: 300 puana kadar",
 	-- {item:12426} Imperial Plate Boots · {item:12359} Thorium Bar · {item:7910} Star Ruby · {item:7909} Aquamarine · {npc:14567} Derotain Mudsipper · {object:2047} Truesilver Deposit · {object:123309} Ooze Covered Truesilver Deposit · {skill:164} Blacksmithing
 	-- plural, as words: Thorium Bars = {item:12359} Thorium Bar · Huge Thorium Battleaxes = {item:12775} Huge Thorium Battleaxe
 	["{item:12426} is orange at 285 (yellow 290, green 300, grey 310): about 19 crafts to 300. Each takes 34 {item:12359}, 1 {item:7910} and 1 {item:7909}. About 34 Thorium Bars a craft against the battleaxe's 40 and its grinding stones, orange to 290. Below character level 50 {npc:14567} has no quest for you: keep making Huge Thorium Battleaxes to 300 instead (yellow to 292, grey at 305: about twice the Thorium Bars). Needs an anvil nearby. {item:7909} (19 for 225-300): {item:7909} turns up in about one {object:2047} or {object:123309} in 500: buy it at the Auction House, or keep the ones you find while mining. {item:7910} (19 for 225-300): {item:7910} turns up in about one {object:2047} or {object:123309} in 143: buy it at the Auction House, or keep the ones you find while mining. {skill:164} 300 is a Legacy System milestone."] = "",

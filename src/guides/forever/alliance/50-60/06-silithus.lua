@@ -13,20 +13,20 @@ return {
 
 	-- Step 2: To Ratchet
 	-- {area:392} Ratchet
-	["To {area:392}"] = "",
+	["To {area:392}"] = "Git: {area:392}",
 
 	-- Step 3: Fly to Talrendis Point
 	-- {area:3137} Talrendis Point
-	["Fly to {area:3137}"] = "",
+	["Fly to {area:3137}"] = "Uç: {area:3137}",
 	-- {area:392} Ratchet
-	["{area:392} flight master"] = "",
+	["{area:392} flight master"] = "{area:392} uçuş ustası",
 
 	-- Step 5: The Emerald Sanctuary
 	-- {area:2479} Emerald Sanctuary
 	["The {area:2479}"] = "{area:2479} sığınağı",
 	-- {area:415} Astranaar · {area:361} Felwood
 	["Ride north out of {area:415} into {area:361} to the druids' camp on the road just past the border."] = "",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 	-- {npc:9116} Eridan Bluewind
 	["Wait a moment for {npc:9116}"] = "{npc:9116} için biraz bekle",
 
@@ -37,13 +37,13 @@ return {
 	["{area:1770} is the cave at the back of {area:1763}, west of the road. Use the {item:12906} on the four braziers inside. Kill the Angerclaw bears and Felpaw wolves you pass for the {item:11172}.\nCareful: Shadow Council mobs of level 53-55 fill the cave and often come in large linked groups, many with stuns. A group of 2-3 players is recommended."] = "",
 	["Angerclaw bears and Felpaw wolves"] = "Angerclaw ayıları ve Felpaw kurtları",
 	-- {object:176159} Brazier of Malice
-	["{object:176159}, below ground"] = "",
+	["{object:176159}, below ground"] = "{object:176159}, yer altında",
 	-- {object:176160} Brazier of Suffering
-	["{object:176160}, below ground"] = "",
+	["{object:176160}, below ground"] = "{object:176160}, yer altında",
 	-- {object:176158} Brazier of Pain
-	["{object:176158}, below ground"] = "",
+	["{object:176158}, below ground"] = "{object:176158}, yer altında",
 	-- {object:176161} Brazier of Hatred
-	["{object:176161}, below ground"] = "",
+	["{object:176161}, below ground"] = "{object:176161}, yer altında",
 
 	-- Step 8: Irontree Woods
 	-- {area:1767} Irontree Woods
@@ -68,16 +68,16 @@ return {
 	-- {area:1770} Shadow Hold · {npc:9861} Moora · {npc:9860} Salia · {npc:9517} Shadow Lord Fel'dan
 	["Back into {area:1770}: {npc:9861} and {npc:9860} guard {npc:9517} in its deepest chamber.\nCareful: The three bosses fight as a group. Kill the nearby mobs first so you don't pull extra enemies."] = "",
 	-- {npc:9861} Moora
-	["{npc:9861}, below ground"] = "",
+	["{npc:9861}, below ground"] = "{npc:9861}, yer altında",
 	-- {npc:9860} Salia
-	["{npc:9860}, below ground"] = "",
+	["{npc:9860}, below ground"] = "{npc:9860}, yer altında",
 	-- {npc:9517} Shadow Lord Fel'dan
-	["{npc:9517}; below ground"] = "",
+	["{npc:9517}; below ground"] = "{npc:9517}; yer altında",
 
 	-- Step 12: The Emerald Sanctuary
 	["Ride back south along the road to the Sanctuary."] = "Yol boyunca güneye, Sanctuary'ye dön.",
 	-- {npc:9116} Eridan Bluewind
-	["{npc:9116}, inside"] = "",
+	["{npc:9116}, inside"] = "{npc:9116}, içeride",
 	-- {item:11169} Book of Aquor
 	["Keep the {item:11169}, the claws and the heart he hands back"] = "Geri verdiği {item:11169}, pençeleri ve yüreği sakla",
 
@@ -85,14 +85,14 @@ return {
 	-- {area:976} Gadgetzan
 	["Fly to {area:976}"] = "{area:976} kasabasına uç",
 	-- {area:3137} Talrendis Point
-	["{area:3137} flight master"] = "",
+	["{area:3137} flight master"] = "{area:3137} uçuş ustası",
 
 	-- Step 15: Gadgetzan
 	-- {area:392} Ratchet · {area:976} Gadgetzan · {quest:5801} Fire Plume Forged
 	-- plural, as words: Thorium Bars = {item:12359} Thorium Bar
 	["Hearth to {area:392} and fly to {area:976}. Buy two Thorium Bars at the Auction House here for {quest:5801}."] = "Hearthstone ile {area:392} limanına dön ve {area:976} kasabasına uç. {quest:5801} için buradaki Auction House'tan iki Thorium Bar satın al.",
 	-- {npc:5594} Alchemist Pestlezugg
-	["{npc:5594}, inside"] = "",
+	["{npc:5594}, inside"] = "{npc:5594}, içeride",
 
 	-- Step 16: Aquementas
 	-- {item:11169} Book of Aquor · {quest:4005} Aquementas
@@ -116,19 +116,19 @@ return {
 	-- {area:541} Marshal's Refuge · {npc:10980} Umi's Mechanical Yeti · {npc:10977} Quixxil
 	["Ride north to {area:541}. Use {npc:10980} beside {npc:10977}."] = "Kuzeye, {area:541} sığınağına git. {npc:10977} adlı NPC'nin yanında {npc:10980} kullan.",
 	-- {npc:9117} J.D. Collie
-	["{npc:9117}, below ground"] = "",
+	["{npc:9117}, below ground"] = "{npc:9117}, yer altında",
 	-- {npc:8737} Linken
 	["{npc:8737}, at the back of the refuge"] = "{npc:8737}, sığınağın arkasında",
 
 	-- Step 22: Fly to Cenarion Hold
 	-- {area:3425} Cenarion Hold
-	["Fly to {area:3425}"] = "",
+	["Fly to {area:3425}"] = "Uç: {area:3425}",
 	-- {area:541} Marshal's Refuge
-	["{area:541} flight master"] = "",
+	["{area:541} flight master"] = "{area:541} uçuş ustası",
 
 	-- Step 24: Hive'Ashi: kill these as you meet them
 	-- {area:2742} Hive'Ashi
-	["{area:2742}: kill these as you meet them"] = "",
+	["{area:2742}: kill these as you meet them"] = "{area:2742}: bunları karşılaştıkça öldür",
 	-- {item:20404} Encrypted Twilight Text · {npc:15306} Bor Wildmane · {npc:15194} Hermit Ortell
 	-- plural, as words: Dust Stormers = {npc:11744} Dust Stormer · Desert Rumblers = {npc:11746} Desert Rumbler
 	["The Twilight's Hammer dig fills the north-west corner: tablet fragments lie on the ground and the Dust Stormers and Desert Rumblers carry them too. Every cultist can drop an {item:20404}: keep twenty, ten for {npc:15306} and ten for {npc:15194} later."] = "Twilight's Hammer kazısı kuzeybatı köşesini dolduruyor: tablet parçaları yerde duruyor, Dust Stormer ve Desert Rumbler yaratıkları da onları taşıyor. Her tarikatçı {item:20404} düşürebilir: yirmi tane sakla, onu {npc:15306} ve onu daha sonra {npc:15194} için.",
@@ -147,12 +147,12 @@ return {
 	-- plural, as words: Tortured Sentinels = {npc:12179} Tortured Sentinel
 	["Ride east to the ruins of {area:2738}. The {object:179565} lies among the ruined buildings, watched by Tortured Sentinels."] = "Doğuya, {area:2738} köyünün harabelerine git. {object:179565}, Tortured Sentinel yaratıklarının gözetiminde yıkık binaların arasında duruyor.",
 	-- {object:179565} Dusty Reliquary
-	["{object:179565}; inside"] = "",
+	["{object:179565}; inside"] = "{object:179565}; içeride",
 
 	-- Step 29: Hermit Ortell
 	-- {area:2738} Southwind Village
 	["The hermit hides among the rocks south-east of {area:2738}."] = "Münzevi {area:2738} köyünün güneydoğusundaki kayaların arasında saklanıyor.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 30: Bronzebeard's Encampment
 	["Bronzebeard's Encampment"] = "Bronzebeard's Encampment",
@@ -188,7 +188,7 @@ return {
 
 	-- Step 38: Fly to Everlook
 	-- {area:2255} Everlook
-	["Fly to {area:2255}"] = "",
+	["Fly to {area:2255}"] = "Uç: {area:2255}",
 
 	-- Step 39: Everlook
 	-- {area:3137} Talrendis Point · {area:2255} Everlook
@@ -224,7 +224,7 @@ return {
 
 	-- Step 52: Winterspring: kill these as you meet them
 	-- {area:618} Winterspring
-	["{area:618}: kill these as you meet them"] = "",
+	["{area:618}: kill these as you meet them"] = "{area:618}: bunları karşılaştıkça öldür",
 	-- {spell:5384} Feign Death
 	["The western Winterfall furbolgs drop the beads.\nCareful: Turning in spawns three or four level 56-57 Winterfall ambushers that attack you; you can escape them while mounted, in stealth or with {spell:5384}, and they then gather by the lake so you can take the next quest."] = "",
 
@@ -232,7 +232,7 @@ return {
 	-- {area:1769} Timbermaw Hold · {area:618} Winterspring · {npc:9298} Donova Snowden · {area:493} Moonglade · {area:2361} Nighthaven · {npc:11939} Umber
 	["Take the {area:1769} tunnel from its {area:618} mouth, west of {npc:9298}, and follow the {area:493} branch to {area:2361}. {npc:11939} studies by the lake shore."] = "",
 	-- {npc:11939} Umber · {area:2361} Nighthaven
-	["{npc:11939} walks around {area:2361}: look inside the circle on the map"] = "",
+	["{npc:11939} walks around {area:2361}: look inside the circle on the map"] = "{npc:11939}, {area:2361} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 57: Rabine Saturna
 	-- {npc:11801} Rabine Saturna · {area:2361} Nighthaven · {npc:11939} Umber
@@ -240,13 +240,13 @@ return {
 
 	-- Step 59: Hearth to Cenarion Hold
 	-- {area:3425} Cenarion Hold
-	["Hearth to {area:3425}"] = "",
+	["Hearth to {area:3425}"] = "Hearthstone ile dön: {area:3425}",
 
 	-- Step 60: Fly to Rut'theran Village
 	-- {area:702} Rut'theran Village
-	["Fly to {area:702}"] = "",
+	["Fly to {area:702}"] = "Uç: {area:702}",
 	-- {area:3425} Cenarion Hold
-	["{area:3425} flight master"] = "",
+	["{area:3425} flight master"] = "{area:3425} uçuş ustası",
 
 	-- Step 62: Nighthaven
 	-- {area:2361} Nighthaven · {area:442} Auberdine
@@ -268,13 +268,13 @@ return {
 
 	-- Step 67: Portal to Teldrassil
 	-- {zone:1438} Teldrassil
-	["Portal to {zone:1438}"] = "",
+	["Portal to {zone:1438}"] = "Portalla: {zone:1438}",
 
 	-- Step 68: Fly to Auberdine
 	-- {area:442} Auberdine
-	["Fly to {area:442}"] = "",
+	["Fly to {area:442}"] = "Uç: {area:442}",
 	-- {area:702} Rut'theran Village
-	["{area:702} flight master"] = "",
+	["{area:702} flight master"] = "{area:702} uçuş ustası",
 
 	-- Step 69: Boat to Menethil Harbor
 	-- {area:150} Menethil Harbor
@@ -282,23 +282,23 @@ return {
 
 	-- Step 70: Fly to Ironforge
 	-- {area:1537} Ironforge
-	["Fly to {area:1537}"] = "",
+	["Fly to {area:1537}"] = "Uç: {area:1537}",
 	-- {area:150} Menethil Harbor
-	["{area:150} flight master"] = "",
+	["{area:150} flight master"] = "{area:150} uçuş ustası",
 
 	-- Step 71: Fly to Stormwind
 	-- {zone:1453} Stormwind
 	["Fly to {zone:1453}"] = "{zone:1453} şehrine uç",
 	-- {zone:1455} Ironforge
-	["{zone:1455} flight master"] = "",
+	["{zone:1455} flight master"] = "{zone:1455} uçuş ustası",
 
 	-- Step 72: Stormwind
 	-- {npc:14722} Clavicus Knavingham · {quest:6031} Runecloth
 	["{npc:14722} takes sixty Silk, sixty Mageweave and sixty {quest:6031}: hand in what you carry (or buy at the Auction House), skip the rest."] = "",
 	-- {item:4306} Silk Cloth
-	["{item:4306}, from your bags"] = "",
+	["{item:4306}, from your bags"] = "{item:4306}, çantandan",
 	-- {item:4338} Mageweave Cloth
-	["{item:4338}, from your bags"] = "",
+	["{item:4338}, from your bags"] = "{item:4338}, çantandan",
 	-- {npc:14722} Clavicus Knavingham · {object:2096} Trade District
 	["{npc:14722}, in the {object:2096}"] = "{npc:14722}, {object:2096} semtinde",
 
@@ -307,9 +307,9 @@ return {
 	-- plural, as words: Jadefire Shadowstalkers = {npc:7110} Jadefire Shadowstalker
 	["Take the {area:2257} to {zone:1455}. {npc:14724} and {npc:14723} each take sixty Wool, sixty Silk and sixty Mageweave, then sixty {item:14047}: hand in what you carry (or buy at the Auction House), skip the rest.\nCareful: Jadefire Shadowstalkers are level 51-52 and move stealthed. They use {spell:7992} and are found about 550 yd south of {area:1997}.\nCareful: Jadefire Shadowstalkers sneak around and use {spell:7992}."] = "",
 	-- {item:2592} Wool Cloth
-	["{item:2592}, from your bags"] = "",
+	["{item:2592}, from your bags"] = "{item:2592}, çantandan",
 	-- {item:14047} Runecloth
-	["{item:14047}, from your bags"] = "",
+	["{item:14047}, from your bags"] = "{item:14047}, çantandan",
 	-- {zone:1453} Stormwind
 	["{zone:1453} has no shaman trainer"] = "{zone:1453} şehrinde Shaman eğitmeni yok",
 
@@ -322,7 +322,7 @@ return {
 	-- {area:271} Southshore
 	["Fly to {area:271}"] = "{area:271} kasabasına uç",
 	-- {zone:1453} Stormwind
-	["{zone:1453} flight master"] = "",
+	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 
 	-- Step 81: Chillwind Camp
 	-- {npc:1852} Araj the Summoner
@@ -334,13 +334,13 @@ return {
 	["{npc:10667} waits in the ruined inn on the west side of Andorhal, the ruined city north of the camp. {npc:1852} guards his phylactery in the middle of the town."] = "{npc:10667}, kampın kuzeyindeki yıkık şehir Andorhal'ın batı yakasındaki yıkık handa bekliyor. {npc:1852} kasabanın ortasında filakterisini koruyor.",
 	["Araj is elite: grouping up is advised."] = "Araj elit: grup kurman önerilir.",
 	-- {npc:10667} Chromie
-	["{npc:10667}, upstairs"] = "",
+	["{npc:10667}, upstairs"] = "{npc:10667}, üst katta",
 
 	-- Step 83: Felstone Field
 	-- {npc:10778} Janice Felstone · {area:199} Felstone Field
 	-- plural, as words: Jabbering Ghouls = {npc:10801} Jabbering Ghoul
 	["{npc:10778}'s ghost wanders by the farmhouse of {area:199}, west of Andorhal. The Jabbering Ghouls in the field carry the other half of the charm: combine the two halves."] = "{npc:10778} adlı NPC'nin hayaleti Andorhal'ın batısında, {area:199} çiftlik evinin yanında dolaşıyor. Tılsımın diğer yarısı tarladaki Jabbering Ghoul yaratıklarında: iki yarıyı birleştir.",
-	["Upstairs"] = "",
+	["Upstairs"] = "Üst katta",
 
 	-- Step 84: Northridge Lumber Camp
 	["Ride north up the road to the lumber mill and set the termite barrel down in the middle of it."] = "Yolu kuzeye izleyerek kereste fabrikasına git ve termit fıçısını ortasına bırak.",
@@ -352,7 +352,7 @@ return {
 	["{npc:1855} lives in a small hut on the border river, north-east of the lumber camp. Hand in {quest:5781} if you finished it."] = "{npc:1855}, kereste kampının kuzeydoğusunda, sınır nehrinin kıyısındaki küçük bir kulübede yaşıyor. Bitirdiysen {quest:5781} görevini teslim et.",
 
 	-- Step 87: Of Lost Honor
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- Step 90: Scholomance (optional)
 	-- {area:2057} Scholomance
@@ -368,7 +368,7 @@ return {
 	-- plural, as words: Terrordale Spirits = {npc:14564} Terrordale Spirit
 	["Cross the river east of {npc:1855} into {area:2627}. The Terrordale Spirits haunt the woods there."] = "{npc:1855} adlı NPC'nin doğusundaki nehri geçerek {area:2627} kasabasına git. Oradaki ormanda Terrordale Spirit ruhları dolaşıyor.",
 	-- {npc:14564} Terrordale Spirit · {area:2627} Terrordale · {area:139} Eastern Plaguelands
-	["grind on {npc:14564} at {area:2627}, {area:139}"] = "",
+	["grind on {npc:14564} at {area:2627}, {area:139}"] = "Kas: {npc:14564} ({area:2627}, {area:139})",
 
 	-- Step 93: Chillwind Camp
 	-- {area:3197} Chillwind Camp

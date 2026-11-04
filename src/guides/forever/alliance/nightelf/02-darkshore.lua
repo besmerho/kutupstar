@@ -90,32 +90,32 @@ return {
 
 	-- Step 17: Boat to Stormwind Harbor
 	-- {area:17203} Stormwind Harbor
-	["Boat to {area:17203}"] = "",
+	["Boat to {area:17203}"] = "Gemiyle: {area:17203}",
 
 	-- Step 18: Stormwind flight master
 	-- {zone:1453} Stormwind
-	["{zone:1453} flight master"] = "",
+	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 
 	-- Step 19: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Warrior fastest."] = "",
+	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 20: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Swords from {npc:11867} ({object:2096}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "",
+	["While you're here: learn Swords from {npc:11867} ({object:2096}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "Buradayken: {npc:11867} sana Swords öğretir ({object:2096}, 10 gümüş); ana elde bir kılıçla Rogue istikrarla seviye atlar.",
 
 	-- Step 22: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 23: Shaman trainer
-	["Shaman trainer"] = "",
+	["Shaman trainer"] = "Shaman eğitmeni",
 	-- {npc:257446} Teo Hammerstorm · {zone:1426} Dun Morogh · {area:87} Goldshire
-	["{npc:257446} in {zone:1426}; {area:87} has no shaman trainer"] = "",
+	["{npc:257446} in {zone:1426}; {area:87} has no shaman trainer"] = "{npc:257446}, {zone:1426} bölgesinde; {area:87} içinde Shaman eğitmeni yok",
 
 	-- Step 24: Druid trainer
-	["Druid trainer"] = "",
+	["Druid trainer"] = "Druid eğitmeni",
 	-- {npc:270459} Alfina Nightgaze · {zone:1416} Alterac Mountains · {area:87} Goldshire
-	["{npc:270459} in {zone:1416}; {area:87} has no druid trainer"] = "",
+	["{npc:270459} in {zone:1416}; {area:87} has no druid trainer"] = "{npc:270459}, {zone:1416} bölgesinde; {area:87} içinde Druid eğitmeni yok",
 
 	-- Step 28: Ameth'Aran
 	-- {area:447} Ameth'Aran
@@ -142,5 +142,5 @@ return {
 
 	-- Step 38: Into Elwynn Forest
 	-- {area:12} Elwynn Forest
-	["Into {area:12}"] = "",
+	["Into {area:12}"] = "{area:12} içine",
 }

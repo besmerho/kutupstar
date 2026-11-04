@@ -49,7 +49,7 @@ return {
 	-- {item:6839} Charred Horn
 	["{item:6839}, from the young chimaeras"] = "",
 	-- {item:6840} Galvanized Horn · {npc:6167} Chimaera Matriarch
-	["{item:6840}, from the {npc:6167}"] = "",
+	["{item:6840}, from the {npc:6167}"] = "{item:6840}, kaynak: {npc:6167}",
 
 	-- Step 9: Roogug in Razorfen Kraul
 	-- {area:1717} Razorfen Kraul
@@ -73,7 +73,7 @@ return {
 	-- {quest:1705} Burning Blood
 	["{quest:1705}, from the Nightbane worgen"] = "",
 	-- {item:6845} Burning Rock · {npc:6170} Gutspill
-	["{item:6845}, from {npc:6170}"] = "",
+	["{item:6845}, from {npc:6170}"] = "{item:6845}, kaynak: {npc:6170}",
 
 	-- Step 14: Mathiel
 	-- {quest:1703} Mathiel · {area:1660} Warrior's Terrace · {zone:1457} Darnassus · {quest:1710} Sunscorched Shells
@@ -92,7 +92,7 @@ return {
 	-- {quest:1708} Iron Coral · {area:150} Menethil Harbor · {item:5996} Elixir of Water Breathing
 	["The {quest:1708} grows on the sea floor just south of {area:150}, by the murloc huts and a wrecked boat: eight there and two south-east of the harbor, each back in 3 minutes, so you will wait for respawns to reach 20. The murlocs can net you underwater: watch your breath, and an {item:5996} removes the risk."] = "",
 	-- {item:6848} Searing Coral · {quest:1708} Iron Coral
-	["{item:6848}, from {quest:1708}"] = "",
+	["{item:6848}, from {quest:1708}"] = "{item:6848}, kaynak: {quest:1708}",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- maybe now: ["A hauberk at 28, a coif, leggings and gauntlets from three smiths, and a shield on the way."]

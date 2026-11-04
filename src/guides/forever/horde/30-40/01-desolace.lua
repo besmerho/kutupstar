@@ -5,17 +5,17 @@
 return {
 	-- Step 1: Hearth to Freewind Post
 	-- {area:484} Freewind Post
-	["Hearth to {area:484}"] = "",
+	["Hearth to {area:484}"] = "Hearthstone ile dön: {area:484}",
 
 	-- Step 2: To Freewind Post
 	-- {area:484} Freewind Post
-	["To {area:484}"] = "",
+	["To {area:484}"] = "Git: {area:484}",
 
 	-- Step 3: Fly to Orgrimmar
 	-- {area:1637} Orgrimmar
 	["Fly to {area:1637}"] = "{area:1637} şehrine uç",
 	-- {area:484} Freewind Post
-	["{area:484} flight master"] = "",
+	["{area:484} flight master"] = "{area:484} uçuş ustası",
 
 	-- Step 4: Alliance Relations
 	-- {npc:5639} Craven Drok · {npc:5640} Keldran · {object:172961} Valley of Spirits · {npc:4949} Thrall · {object:172957} Valley of Wisdom
@@ -47,13 +47,13 @@ return {
 
 	-- Step 9: Back to Orgrimmar
 	-- {area:1637} Orgrimmar
-	["Back to {area:1637}"] = "",
+	["Back to {area:1637}"] = "Dönüş: {area:1637}",
 
 	-- Step 10: Fly to Sun Rock Retreat
 	-- {area:460} Sun Rock Retreat
 	["Fly to {area:460}"] = "{area:460} sığınağına uç",
 	-- {zone:1454} Orgrimmar
-	["{zone:1454} flight master"] = "",
+	["{zone:1454} flight master"] = "{zone:1454} uçuş ustası",
 
 	-- Step 13: Ghost Walker Post
 	-- {npc:5395} Felgur Twocuts · {npc:5641} Takata Steelblade · {npc:4498} Maurin Bonesplitter · {area:596} Kodo Graveyard
@@ -72,7 +72,7 @@ return {
 	-- plural, as words: Hatefury Rogues = {npc:4670} Hatefury Rogue
 	["North along the eastern hills, the satyrs hold the ruins of {area:603}. The Shadowstalkers walk unseen; the four kinds you need do not.\nCareful: Hatefury Rogues use Hide when they spawn, so they are stealthed until you find them."] = "",
 	-- {npc:4670} Hatefury Rogue
-	["grind on {npc:4670}"] = "",
+	["grind on {npc:4670}"] = "Kas: {npc:4670}",
 
 	-- Step 17: Thunder Axe Fortress
 	-- {area:599} Thunder Axe Fortress · {item:6436} Burning Gem · {item:6435} Infused Burning Gem · {item:20310} Flayed Demon Skin
@@ -95,7 +95,7 @@ return {
 	-- plural, as words: Hatefury Shadowstalkers = {npc:4674} Hatefury Shadowstalker
 	["The Hatefury Shadowstalkers at {area:603} walk unseen until they strike; about one in three carries a scalp."] = "{area:603} harabelerindeki Hatefury Shadowstalker yaratıkları saldırana kadar görünmeden dolaşır; yaklaşık üçte birinde kafa derisi var.",
 	-- {npc:4674} Hatefury Shadowstalker
-	["grind on {npc:4674}"] = "",
+	["grind on {npc:4674}"] = "Kas: {npc:4674}",
 
 	-- Step 22: Shadowprey Village
 	-- {area:606} Gelkis Village
@@ -104,15 +104,15 @@ return {
 	["{npc:11877}: for {npc:715} in Stranglethorn"] = "{npc:11877}: Stranglethorn'daki {npc:715} için",
 
 	-- Step 24: On the way
-	["On the way"] = "",
+	["On the way"] = "Yol üstünde",
 
 	-- Step 25: Clam beds
 	["Clam beds"] = "İstiridye yatakları",
 	-- plural, as words: Giant Softshell Clams = {object:177784} Giant Softshell Clam · Enraged Reef Crawlers = {npc:12347} Enraged Reef Crawler
 	["Head north up the coast. Giant Softshell Clams lie in the shallows and the Enraged Reef Crawlers walk the beach; open each clam in your bags for its meat."] = "Kıyı boyunca kuzeye git. Giant Softshell Clam nesneleri sığ sularda, Enraged Reef Crawler yaratıkları kumsalda; eti için her istiridyeyi çantanda aç.",
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 	-- {npc:12347} Enraged Reef Crawler
-	["grind on {npc:12347}"] = "",
+	["grind on {npc:12347}"] = "Kas: {npc:12347}",
 
 	-- Step 26: Slitherblade Oracles
 	-- plural, as words: Slitherblade Oracles = {npc:4718} Slitherblade Oracle
@@ -120,7 +120,7 @@ return {
 	-- {area:598} Sar'theris Strand
 	["Keep north to {area:598}. The Oracles stand among the other naga at its north end; pull one at a time."] = "Kuzeye, {area:598} sahiline devam et. Oracle yaratıkları sahilin kuzey ucunda diğer nagaların arasında duruyor; tek tek çek.",
 	-- {npc:4718} Slitherblade Oracle
-	["grind on {npc:4718}"] = "",
+	["grind on {npc:4718}"] = "Kas: {npc:4718}",
 
 	-- Step 27: Ethel Rethor
 	-- {npc:11863} Azore Aldamort · {area:2405} Ethel Rethor
@@ -136,9 +136,9 @@ return {
 	["{area:2408} flight master"] = "{area:2408} uçuş ustası",
 
 	-- Step 31: Paladin trainer
-	["Paladin trainer"] = "",
+	["Paladin trainer"] = "Paladin eğitmeni",
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {zone:1454} Orgrimmar
-	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "",
+	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde; {zone:1454} bölgesinde Paladin eğitmeni yok",
 
 	-- Step 33: Thunder Bluff
 	-- {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {zone:1454} Orgrimmar
@@ -146,39 +146,39 @@ return {
 
 	-- Step 34: Fly to Orgrimmar
 	-- {zone:1454} Orgrimmar
-	["Fly to {zone:1454}"] = "",
+	["Fly to {zone:1454}"] = "Uç: {zone:1454}",
 
 	-- Step 35: Back to Orgrimmar
 	-- {zone:1456} Thunder Bluff
-	["{zone:1456} flight master"] = "",
+	["{zone:1456} flight master"] = "{zone:1456} uçuş ustası",
 
 	-- Step 37: Zeppelin to Undercity
 	-- {zone:1458} Undercity
-	["Zeppelin to {zone:1458}"] = "",
+	["Zeppelin to {zone:1458}"] = "Zeplinle: {zone:1458}",
 
 	-- Step 38: Fly to Tarren Mill
 	-- {area:272} Tarren Mill
 	["Fly to {area:272}"] = "{area:272} kasabasına uç",
 	-- {zone:1458} Undercity
-	["{zone:1458} flight master"] = "",
+	["{zone:1458} flight master"] = "{zone:1458} uçuş ustası",
 
 	-- Step 39: Tarren Mill
 	-- {npc:2229} Krusk
-	["{npc:2229}, inside"] = "",
+	["{npc:2229}, inside"] = "{npc:2229}, içeride",
 	-- {npc:2229} Krusk · {zone:1413} Barrens
 	["{npc:2229}: for the {zone:1413}, later on the route"] = "{npc:2229}: {zone:1413} için, rotanın ilerleyen kısmında",
 	-- {npc:2410} Magus Wordeen Voidglare
-	["{npc:2410}, inside"] = "",
+	["{npc:2410}, inside"] = "{npc:2410}, içeride",
 	-- {npc:2437} Keeper Bel'varil
-	["{npc:2437}, inside"] = "",
+	["{npc:2437}, inside"] = "{npc:2437}, içeride",
 	-- {npc:2770} Tallow · {area:321} Hammerfall
 	["{npc:2770}: for {area:321} in Arathi, later on the route"] = "{npc:2770}: Arathi'deki {area:321} için, rotanın ilerleyen kısmında",
 
 	-- Step 40: Fly to Undercity
 	-- {area:1497} Undercity
-	["Fly to {area:1497}"] = "",
+	["Fly to {area:1497}"] = "Uç: {area:1497}",
 	-- {area:272} Tarren Mill
-	["{area:272} flight master"] = "",
+	["{area:272} flight master"] = "{area:272} uçuş ustası",
 
 	-- Step 41: Garen Largo
 	-- {npc:260093} Garen Largo · {zone:1458} Undercity
@@ -200,7 +200,7 @@ return {
 	-- {area:272} Tarren Mill
 	["Back to {area:272}"] = "{area:272} kasabasına dön",
 	-- {area:228} Sepulcher
-	["{area:228} flight master"] = "",
+	["{area:228} flight master"] = "{area:228} uçuş ustası",
 
 	-- Step 46: Tarren Mill
 	-- {item:3703} Southshore Stout · {npc:2333} Henchman Valik
@@ -231,13 +231,13 @@ return {
 	-- {area:272} Tarren Mill · {area:271} Southshore
 	["Head back north to {area:272}, keeping west of {area:271}."] = "{area:271} kasabasının batısında kalarak kuzeye, {area:272} kasabasına dön.",
 	-- {npc:2216} Apothecary Lydon
-	["{npc:2216}, inside"] = "",
+	["{npc:2216}, inside"] = "{npc:2216}, içeride",
 
 	-- Step 53: Shindigger keg
 	["Shindigger keg"] = "Shindigger fıçısı",
 	-- {area:287} Hillsbrad
 	["The keg stands with a few others at the Syndicate camp on the south-east coast of {area:287}."] = "Fıçı, birkaç fıçıyla birlikte {area:287} bölgesinin güneydoğu kıyısındaki Syndicate kampında duruyor.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 54: Back to Tarren Mill
 	-- {area:272} Tarren Mill
@@ -259,7 +259,7 @@ return {
 
 	-- Step 58: Hearth to Tarren Mill
 	-- {area:272} Tarren Mill
-	["Hearth to {area:272}"] = "",
+	["Hearth to {area:272}"] = "Hearthstone ile dön: {area:272}",
 
 	-- Step 59: Tarren Mill
 	-- {area:272} Tarren Mill
@@ -270,13 +270,13 @@ return {
 	-- Step 61: Gol'dir
 	-- {quest:535} Valik · {area:280} Strahnbrad · {npc:2431} Jailor Borhuin · {item:3704} Rusted Iron Key · {quest:503} Gol'dir
 	["Head north past {quest:535}'s camp to {area:280}, the Syndicate-held village (35-37). {npc:2431} carries the {item:3704}; {quest:503} sits in a cage in the house on the north side.\nCareful: Stealthed Syndicate spies roam {area:280}, and the buildings hold many Syndicate mobs, mages among them."] = "",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 	-- {quest:503} Gol'dir
-	["{quest:503}, on the top floor"] = "",
+	["{quest:503}, on the top floor"] = "{quest:503}, en üst katta",
 
 	-- Step 62: Old Dalaran Ruins: kill these as you meet them
 	-- {area:17707} Old Dalaran Ruins
-	["{area:17707}: kill these as you meet them"] = "",
+	["{area:17707}: kill these as you meet them"] = "{area:17707}: bunları karşılaştıkça öldür",
 
 	-- Step 65: Tarren Mill
 	-- {area:272} Tarren Mill

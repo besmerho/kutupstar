@@ -20,7 +20,7 @@ return {
 
 	-- Step 4: The Argent Dawn Commission
 	-- {item:12846} Argent Dawn Commission
-	["The {item:12846}"] = "",
+	["The {item:12846}"] = "{item:12846}",
 	-- {item:12846} Argent Dawn Commission · {npc:10840} Argent Officer Pureheart · {area:2268} Light's Hope Chapel
 	["The Scourge drop no Scourgestones unless you wear an {item:12846}. {npc:10840} gives you one through her quest, {item:12846}, which you hand in straight away (if you already have one from {area:2268}, wear that). Equip it in a trinket slot: it shows as a buff that never runs out. Keep it on until you have 20 stones."] = "",
 	-- {item:12846} Argent Dawn Commission
@@ -33,7 +33,7 @@ return {
 	-- plural, as words: Flesh Golems = {npc:1805} Flesh Golem · Skeletal Guardians = {npc:10390} Skeletal Guardian · Dark Summoners = {npc:8551} Dark Summoner
 	["Kill the Scourge of the {zone:1422} with the Commission on: skeletons, ghouls and cultists (level 50-58) drop a {item:12840} about two kills in five. {area:197}, just east of {area:3197} around {area:196}, is the closest farm. Avoid the Flesh Golems that patrol the fields; Skeletal Guardians cast {spell:120} and {spell:1449} up close, Dark Summoners run for help at low health."] = "",
 	-- {item:12840} Minion's Scourgestone
-	["{item:12840} x20"] = "",
+	["{item:12840} x20"] = "{item:12840} x20",
 
 	-- Step 6: High Priest Thel'danis
 	-- {npc:1854} High Priest Thel'danis · {area:196} Uther's Tomb · {area:197} Sorrow Hill · {item:20612} Inert Scourgestone

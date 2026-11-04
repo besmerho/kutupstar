@@ -26,7 +26,7 @@ return {
 
 	-- Step 3: Back to Rivern Frostwind
 	-- {npc:10618} Rivern Frostwind
-	["Back to {npc:10618}"] = "",
+	["Back to {npc:10618}"] = "Dönüş: {npc:10618}",
 
 	-- Step 4: Neutral to Friendly: Frostsaber Provisions, then Winterfall Intrusion
 	-- {quest:4970} Frostsaber Provisions · {quest:5201} Winterfall Intrusion
@@ -36,7 +36,7 @@ return {
 	["Repeat {quest:4970}: 30 turn-ins reach Neutral 1,500, and then {quest:5201} opens: 5 Winterfall Shamans and 5 Winterfall Ursas in {area:2244}, just east of {area:2255}. The village has only a few Shamans, but every furbolg there shares their spawn points: kill all of them, not just the ones you need, and more Shamans and Ursas appear; more Ursas walk the ridge just south-west of the village. Take both quests on every trip: kill the furbolgs, pick up meat on the way back. Neutral to Friendly is 60 turn-ins."] = "",
 
 	-- Step 5: Friendly to Honored
-	["Friendly to Honored"] = "",
+	["Friendly to Honored"] = "Friendly → Honored",
 	-- {quest:5201} Winterfall Intrusion · {quest:4970} Frostsaber Provisions · {area:1769} Timbermaw Hold · {item:21383} Winterfall Spirit Beads · {faction:589} Wintersaber Trainers
 	["Friendly to Honored is 6,000: 120 turn-ins. {quest:5201} is the quickest; do {quest:4970} when the village is crowded or you pass the bears and chimaeras anyway. Every Winterfall furbolg you kill counts for {area:1769} too: 50 Timbermaw reputation per {quest:5201} up to the end of Honored with them, and about four {item:21383}. Take Salfa's Winterfall Activity (the Timbermaw guide) the first time you are in the village, and keep the beads until your Timbermaw kills stop counting: then each 5 pay 50. You will reach Exalted with the Timbermaw long before the {faction:589}."] = "",
 
@@ -47,7 +47,7 @@ return {
 	-- plural, as words: Frostmaul Giants = {npc:7428} Frostmaul Giant · Frostmaul Preservers = {npc:7429} Frostmaul Preserver
 	["At Honored Rivern Frostwind adds {quest:5981}: 4 Frostmaul Giants and 4 Frostmaul Preservers, elite giants in {area:2249} in the south-east of {zone:1452}; the path down into the gorge starts at its north-west end. Take it on a trip south with a friend or two, or when {area:2244} is crowded; the {npc:7446} by the gorge drop {item:12622} most often. Honored to Exalted is 33,000: 660 turn-ins."] = "",
 	-- {npc:7428} Frostmaul Giant
-	["{npc:7428}, elite"] = "",
+	["{npc:7428}, elite"] = "{npc:7428}, elit",
 	-- {npc:7429} Frostmaul Preserver
-	["{npc:7429}, elite"] = "",
+	["{npc:7429}, elite"] = "{npc:7429}, elit",
 }

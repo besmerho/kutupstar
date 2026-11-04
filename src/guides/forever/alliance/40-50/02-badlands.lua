@@ -5,9 +5,9 @@
 return {
 	-- Step 1: Fly to Thelsamar
 	-- {area:144} Thelsamar
-	["Fly to {area:144}"] = "",
+	["Fly to {area:144}"] = "Uç: {area:144}",
 	-- {zone:1455} Ironforge
-	["{zone:1455} flight master"] = "",
+	["{zone:1455} flight master"] = "{zone:1455} uçuş ustası",
 
 	-- Step 4: Valley of Fangs
 	-- {npc:4454} Fizzle Brassbolts · {area:439} Shimmering Flats · {zone:1446} Tanaris
@@ -36,13 +36,13 @@ return {
 	-- {area:271} Southshore
 	["Fly to {area:271}"] = "{area:271} kasabasına uç",
 	-- {area:144} Thelsamar
-	["{area:144} flight master"] = "",
+	["{area:144} flight master"] = "{area:144} uçuş ustası",
 
 	-- Step 10: Southshore
 	-- {area:144} Thelsamar · {area:271} Southshore · {npc:3980} Raleigh the Devout
 	["Ride north to {area:144} and fly to {area:271}. {npc:3980} preaches by the inn."] = "Kuzeye, {area:144} kasabasına git ve {area:271} kasabasına uç. {npc:3980} hanın yanında vaaz veriyor.",
 	-- {npc:3980} Raleigh the Devout
-	["{npc:3980}, upstairs"] = "",
+	["{npc:3980}, upstairs"] = "{npc:3980}, üst katta",
 	-- {area:796} Scarlet Monastery
 	["Raleigh's next errand is in the {area:796}: skip it."] = "Raleigh'nin sonraki işi {area:796} içinde: atla.",
 
@@ -50,9 +50,9 @@ return {
 	-- {area:271} Southshore · {area:47} The Hinterlands · {area:348} Aerie Peak · {npc:5635} Falstad Wildhammer · {quest:1450} Gryphon Master Talonaxe · {npc:7884} Fraggar Thundermantle
 	["Ride north-east out of {area:271} on the road into the {area:47}; {area:348} sits just past the border. {npc:5635} holds court at the top, {quest:1450} tends the aviary and {npc:7884} stands by the inn."] = "",
 	-- {quest:1450} Gryphon Master Talonaxe
-	["{quest:1450}, inside"] = "",
+	["{quest:1450}, inside"] = "{quest:1450}, içeride",
 	-- {npc:7884} Fraggar Thundermantle
-	["{npc:7884}, inside"] = "",
+	["{npc:7884}, inside"] = "{npc:7884}, içeride",
 	-- {npc:7744} Innkeeper Thulfram
 	["{npc:7744}: the last guide binds here, so this usually ticks at once; below ground"] = "",
 
@@ -75,22 +75,22 @@ return {
 
 	-- Step 16: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
-	["Fly to {area:150}"] = "",
+	["Fly to {area:150}"] = "Uç: {area:150}",
 	-- {area:348} Aerie Peak
-	["{area:348} flight master"] = "",
+	["{area:348} flight master"] = "{area:348} uçuş ustası",
 
 	-- Step 18: Theramore
 	["Theramore"] = "Theramore",
 	-- {npc:2616} Privateer Groy
 	["{npc:2616} stands on the docks where the boat lands."] = "{npc:2616} geminin yanaştığı iskelede duruyor.",
 	-- {npc:4944} Captain Garran Vimes
-	["{npc:4944}, on the top floor"] = "",
+	["{npc:4944}, on the top floor"] = "{npc:4944}, en üst katta",
 	-- {npc:4968} Lady Jaina Proudmoore
-	["{npc:4968}, on the top floor"] = "",
+	["{npc:4968}, on the top floor"] = "{npc:4968}, en üst katta",
 
 	-- Step 19: Cortello's Riddle
 	-- {area:498} Bloodfen Burrow
-	["Inside {area:498}"] = "",
+	["Inside {area:498}"] = "{area:498} içinde",
 
 	-- Step 20: Theramore flight master
 	["Theramore flight master"] = "",

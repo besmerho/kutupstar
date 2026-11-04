@@ -8,7 +8,7 @@ return {
 	["{npc:3143} waits inside the Den, the building just west of {npc:10176}."] = "{npc:3143}, Den adlı binanın içinde bekliyor: {npc:10176} adlı NPC'nin hemen batısındaki bina.",
 	-- {npc:10176} Kaltunk
 	["{npc:10176}, where you start"] = "{npc:10176}, başladığın yerde",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 2: Training weapons and boars
 	["Training weapons and boars"] = "Eğitim silahları ve yaban domuzları",
@@ -19,11 +19,11 @@ return {
 	-- {npc:3143} Gornek · {npc:3159} Kzan Thornslash
 	["{npc:3143} stands just inside the cave mouth; {npc:3159} at the back of the cave behind him."] = "{npc:3143} mağara ağzının hemen içinde, {npc:3159} ise onun arkasında, mağaranın dibinde duruyor.",
 	-- {npc:3143} Gornek
-	["{npc:3143}, inside"] = "",
+	["{npc:3143}, inside"] = "{npc:3143}, içeride",
 	-- {npc:3707} Ken'jai
 	["{npc:3707}, the priest trainer at the Den"] = "{npc:3707}, Den önündeki Priest eğitmeni",
 	-- {npc:3159} Kzan Thornslash
-	["{npc:3159}, at the back of the cave; below ground"] = "",
+	["{npc:3159}, at the back of the cave; below ground"] = "{npc:3159}, mağaranın dibinde; yer altında",
 	-- {npc:9796} Galgar
 	["{npc:9796}, by the cooking fire"] = "{npc:9796}, yemek ateşinin yanında",
 	-- {npc:11378} Foreman Thazz'ril
@@ -31,7 +31,7 @@ return {
 
 	-- Step 4: Scorpid Worker Tail on the way
 	-- {item:4862} Scorpid Worker Tail
-	["{item:4862} on the way"] = "",
+	["{item:4862} on the way"] = "Yol üstünde: {item:4862}",
 
 	-- Step 5: Hana'zua
 	-- {npc:3287} Hana'zua
@@ -39,13 +39,13 @@ return {
 
 	-- Step 6: Cactus Apple on the way
 	-- {item:11583} Cactus Apple
-	["{item:11583} on the way"] = "",
+	["{item:11583} on the way"] = "Yol üstünde: {item:11583}",
 	-- {item:11583} Cactus Apple
 	["{item:11583} along the way to Back to the Den"] = "",
 
 	-- Step 7: Valley of Trials: kill these as you meet them
 	-- {area:363} Valley of Trials
-	["{area:363}: kill these as you meet them"] = "",
+	["{area:363}: kill these as you meet them"] = "{area:363}: bunları karşılaştıkça öldür",
 	-- {quest:790} Sarkoth · {npc:3287} Hana'zua · {item:16114} Foreman's Blackjack · {quest:792} Vile Familiars · {area:365} Burning Blade Coven
 	-- plural, as words: Scorpid Workers = {npc:3124} Scorpid Worker · Cactus Apples = {item:11583} Cactus Apple
 	["{quest:790}, a large scorpid, prowls the slope south of {npc:3287} among the Scorpid Workers; pick the Cactus Apples by the cactuses on the way, and hit the sleeping peons across the valley with the {item:16114}.\nThe {quest:792} swarm the slope below the {area:365}, the cave on the valley's north side."] = "",
@@ -56,17 +56,17 @@ return {
 	["Back to the Den"] = "Den mağarasına dön",
 
 	-- Step 10: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 11: Paladin trainer
-	["Paladin trainer"] = "",
+	["Paladin trainer"] = "Paladin eğitmeni",
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {area:363} Valley of Trials
-	["{npc:246344} in {zone:1456}; {area:363} has no paladin trainer"] = "",
+	["{npc:246344} in {zone:1456}; {area:363} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde; {area:363} içinde Paladin eğitmeni yok",
 
 	-- Step 12: Druid trainer
-	["Druid trainer"] = "",
+	["Druid trainer"] = "Druid eğitmeni",
 	-- {npc:3034} Sheal Runetotem · {zone:1412} Mulgore · {area:363} Valley of Trials
-	["{npc:3034} in {zone:1412}; {area:363} has no druid trainer"] = "",
+	["{npc:3034} in {zone:1412}; {area:363} has no druid trainer"] = "{npc:3034}, {zone:1412} bölgesinde; {area:363} içinde Druid eğitmeni yok",
 
 	-- Step 15: Thazz'ril's Pick
 	["Inside the cave, go straight on at the first split, then right and follow the stream on your left to the waterfall: the pick glows by the water, behind a column of rock."] = "Mağaranın içinde ilk ayrımda düz devam et, sonra sağa dön ve solundaki dereyi şelaleye kadar izle: kazma suyun yanında, bir kaya sütununun arkasında parlıyor.",
@@ -74,7 +74,7 @@ return {
 	-- Step 16: Yarrog Baneshadow
 	-- {npc:3183} Yarrog Baneshadow
 	["Inside the cave, keep to the right wall all the way round, over the stream: {npc:3183} waits at the end."] = "Mağaranın içinde dereyi de geçerek baştan sona sağ duvarı izle: {npc:3183} en sonda bekliyor.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 17: Felstalker hooves
 	-- {npc:3102} Felstalker
@@ -108,11 +108,11 @@ return {
 	["{npc:5880}, the mage trainer in Sen'jin"] = "",
 
 	-- Step 22: On the way
-	["On the way"] = "",
+	["On the way"] = "Yol üstünde",
 	-- {npc:266850} Ridgeshade Creeper · {area:362} Razor Hill
-	["{npc:266850} along the way to {area:362}"] = "",
+	["{npc:266850} along the way to {area:362}"] = "{npc:266850}, {area:362} yolu üstünde",
 	-- {npc:266849} Ridgeshade Lurker · {area:362} Razor Hill
-	["{npc:266849} along the way to {area:362}"] = "",
+	["{npc:266849} along the way to {area:362}"] = "{npc:266849}, {area:362} yolu üstünde",
 
 	-- Step 23: Brakk's campfire
 	-- {npc:265809} Brakk
@@ -126,9 +126,9 @@ return {
 
 	-- Step 25: Razor Hill
 	-- {npc:3191} Cook Torka
-	["{npc:3191}: Camping 101 asks you to learn it"] = "",
+	["{npc:3191}: Camping 101 asks you to learn it"] = "{npc:3191}: Camping 101 bunu öğrenmeni istiyor",
 	-- {npc:6928} Innkeeper Grosk
-	["{npc:6928}, inside"] = "",
+	["{npc:6928}, inside"] = "{npc:6928}, içeride",
 	-- {npc:3147} Furl Scornbrow
 	["{npc:3147}, in the watchtower"] = "{npc:3147}, gözetleme kulesinde",
 
@@ -139,31 +139,31 @@ return {
 	-- Step 28: Tiragarde Keep
 	-- {area:362} Razor Hill · {item:4870} Canvas Scraps · {npc:3192} Lieutenant Benedict · {item:4881} Aged Envelope
 	["The keep stands on the coast south-east of {area:362}. The raiders' axe, bow and shield lie on its outskirts. Sailors and marines drop the {item:4870}. {npc:3192} waits at the top of the keep; his key opens the chest beside him, which holds the {item:4881}."] = "Kale, {area:362} kasabasının güneydoğusunda, kıyıda duruyor. Akıncıların baltası, yayı ve kalkanı kalenin eteklerinde. Denizciler ve deniz piyadeleri {item:4870} düşürür. {npc:3192} kalenin tepesinde bekliyor; anahtarı yanındaki sandığı açar, {item:4881} o sandıkta.",
-	["Upstairs"] = "",
+	["Upstairs"] = "Üst katta",
 
 	-- Step 29: Razor Hill
 	-- {npc:266940} Turroc
-	["{npc:266940}, inside"] = "",
+	["{npc:266940}, inside"] = "{npc:266940}, içeride",
 
 	-- Step 32: Scuttle Coast: kill these as you meet them
 	-- {area:373} Scuttle Coast
-	["{area:373}: kill these as you meet them"] = "",
+	["{area:373}: kill these as you meet them"] = "{area:373}: bunları karşılaştıkça öldür",
 	-- {area:362} Razor Hill
 	["Makrura and surf crawlers line the beaches north-east of Sen'jin.\nThe gnomish toolboxes lie in the wreckage along the shore east and south-east of {area:362}. Follow the shore south to Sen'jin."] = "",
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- Step 33: Bloodtalon Matriarch
 	["Wade across to the northern Echo Isle. The Matriarch prowls among the raptors there."] = "Sığ sudan yürüyerek kuzeydeki Echo Isle adasına geç. Matriarch oradaki raptorların arasında dolaşıyor.",
 
 	-- Step 34: Forgotten Loa Idol on the way
 	-- {item:277135} Forgotten Loa Idol
-	["{item:277135} on the way"] = "",
+	["{item:277135} on the way"] = "Yol üstünde: {item:277135}",
 	-- {item:277135} Forgotten Loa Idol · {area:367} Sen'jin Village
-	["{item:277135} along the way to {area:367}"] = "",
+	["{item:277135} along the way to {area:367}"] = "{item:277135}, {area:367} yolu üstünde",
 
 	-- Step 35: Echo Isles: kill these as you meet them
 	-- {area:368} Echo Isles
-	["{area:368}: kill these as you meet them"] = "",
+	["{area:368}: kill these as you meet them"] = "{area:368}: bunları karşılaştıkça öldür",
 	-- {quest:826} Zalazane
 	-- plural, as words: Hexed Trolls = {npc:3207} Hexed Troll · Hexed Pendants = {item:275724} Hexed Pendant · Durotar Tigers = {npc:3121} Durotar Tiger
 	["Head south through the isles. The Loa idols lie all over the southern isles; Voodoo and Hexed Trolls hold them and drop the Hexed Pendants. {quest:826} and Minshina's cage are on the southernmost isle.\nWade back west to the shore south of Sen'jin. Durotar Tigers roam it and the Taillasher eggs sit in nests along the beach."] = "",
@@ -175,15 +175,15 @@ return {
 	["Free {npc:275811} and see her safely out of the crag"] = "{npc:275811} adlı NPC'yi kurtar ve oradan güvenle çıkmasını sağla",
 
 	-- Step 41: Level 10
-	["Level 10"] = "",
+	["Level 10"] = "Seviye 10",
 	-- {quest:840} Conscript of the Horde · {area:362} Razor Hill
 	["Top up here to level 10: {quest:840}, at {area:362}, needs level 10."] = "",
 	-- {npc:3111} Razormane Quilboar
-	["grind on {npc:3111}"] = "",
+	["grind on {npc:3111}"] = "Kas: {npc:3111}",
 
 	-- Step 42: Razor Hill
 	-- {npc:3169} Tarshaw Jaggedscar
-	["{npc:3169}, inside"] = "",
+	["{npc:3169}, inside"] = "{npc:3169}, içeride",
 	-- {npc:3294} Ophek
 	["{npc:3294}, by the inn"] = "{npc:3294}, hanın yanında",
 	-- {npc:3706} Tai'jin · {npc:6018} Ur'kyo · {zone:1454} Orgrimmar
@@ -208,11 +208,11 @@ return {
 	-- Step 48: Deathskip to Northern Durotar
 	["Deathskip to Northern Durotar"] = "",
 	-- {npc:3118} Dustwind Storm Witch · {npc:6491} Spirit Healer
-	["Die to the mobs at 52.0,21.4 ({npc:3118}): a death there sends you to this graveyard. Release your spirit and take the {npc:6491}'s resurrection."] = "",
+	["Die to the mobs at 52.0,21.4 ({npc:3118}): a death there sends you to this graveyard. Release your spirit and take the {npc:6491}'s resurrection."] = "52.0,21.4 konumundaki yaratıklar ({npc:3118}) seni öldürsün: orada ölünce bu mezarlığa gönderilirsin. Ruhunu bırak ve {npc:6491} ile diril.",
 
 	-- Step 50: Thunder Ridge: kill these as you meet them
 	-- {area:369} Thunder Ridge
-	["{area:369}: kill these as you meet them"] = "",
+	["{area:369}: kill these as you meet them"] = "{area:369}: bunları karşılaştıkça öldür",
 	-- {area:369} Thunder Ridge · {npc:3293} Rezlak · {area:362} Razor Hill · {npc:3099} Dire Mottled Boar · {item:15908} Taming Rod
 	-- plural, as words: Thunder Lizards = {npc:3130} Thunder Lizard · Lightning Hides = {npc:3131} Lightning Hide
 	["Thunder Lizards and Lightning Hides graze on {area:369}, just west and south-west of {npc:3293}.\nFizzle holds the Burning Blade camp on {area:369}, north-west of {area:362}. Hunters: tame a {npc:3099} with the {item:15908} on the way.\nCareful: Burning Blade cultists surround Fizzle, some linked so they aggro in pairs, and they respawn quickly."] = "",
@@ -229,16 +229,16 @@ return {
 
 	-- Step 55: Paladin trainer
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {area:362} Razor Hill
-	["{npc:246344} in {zone:1456}; {area:362} has no paladin trainer"] = "",
+	["{npc:246344} in {zone:1456}; {area:362} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde; {area:362} içinde Paladin eğitmeni yok",
 
 	-- Step 56: Mage trainer
-	["Mage trainer"] = "",
+	["Mage trainer"] = "Mage eğitmeni",
 	-- {npc:5884} Mai'ah · {area:14} Durotar · {area:362} Razor Hill
-	["{npc:5884} in {area:14}; {area:362} has no mage trainer"] = "",
+	["{npc:5884} in {area:14}; {area:362} has no mage trainer"] = "{npc:5884}, {area:14} içinde; {area:362} içinde Mage eğitmeni yok",
 
 	-- Step 57: Druid trainer
 	-- {npc:3034} Sheal Runetotem · {zone:1412} Mulgore · {area:362} Razor Hill
-	["{npc:3034} in {zone:1412}; {area:362} has no druid trainer"] = "",
+	["{npc:3034} in {zone:1412}; {area:362} has no druid trainer"] = "{npc:3034}, {zone:1412} bölgesinde; {area:362} içinde Druid eğitmeni yok",
 
 	-- Step 58: Razor Hill
 	-- {area:362} Razor Hill
@@ -260,11 +260,11 @@ return {
 
 	-- Step 63: Hanashi
 	-- {npc:2704} Hanashi · {object:172958} Valley of Honor
-	["While you're here: learn Staves from {npc:2704} ({object:172958}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "",
+	["While you're here: learn Staves from {npc:2704} ({object:172958}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "Buradayken: {npc:2704} sana Staves öğretir ({object:172958}, 10 gümüş); seviye atlarken bir asa, tek elli bir silahtan daha çok büyü istatistiği taşır.",
 
 	-- Step 64: Back to Durotar
 	-- {area:14} Durotar
-	["Back to {area:14}"] = "",
+	["Back to {area:14}"] = "Dönüş: {area:14}",
 
 	-- Step 65: Skull Rock's mouth
 	-- {area:817} Skull Rock
@@ -280,7 +280,7 @@ return {
 
 	-- Step 68: Into Orgrimmar
 	-- {zone:1454} Orgrimmar
-	["Into {zone:1454}"] = "",
+	["Into {zone:1454}"] = "{zone:1454} bölgesine",
 
 	-- Step 70: The Binding
 	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow · {item:7464} Glyphs of Summoning
@@ -302,7 +302,7 @@ return {
 
 	-- Step 83: Hearth to Razor Hill
 	-- {area:362} Razor Hill
-	["Hearth to {area:362}"] = "",
+	["Hearth to {area:362}"] = "Hearthstone ile dön: {area:362}",
 
 	-- Step 84: Razor Hill
 	-- {area:362} Razor Hill
@@ -321,7 +321,7 @@ return {
 
 	-- Step 87: Hanashi
 	-- {npc:2704} Hanashi · {object:172958} Valley of Honor
-	["While you're here: learn Staves from {npc:2704} ({object:172958}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "",
+	["While you're here: learn Staves from {npc:2704} ({object:172958}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:2704} sana Staves öğretir ({object:172958}, 10 gümüş); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
 	-- Step 88: Razor Hill
 	-- {npc:3142} Orgnil Soulscar · {npc:275666} Aggor the Young

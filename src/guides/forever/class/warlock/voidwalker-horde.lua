@@ -36,7 +36,7 @@ return {
 	-- {zone:1458} Undercity · {area:154} Deathknell · {npc:1662} Captain Perrine · {npc:1537} Scarlet Zealot
 	["The Scarlet tower stands in the fields west of the {zone:1458}'s ruins (not the tower near {area:154}). The grimoire is in the small chest on the ground floor, under the stairs; ignore the chest upstairs. {npc:1662} (level 9) and a {npc:1537} guard it: kill them, or Fear the zealot while you deal with Perrine. Scarlet Missionaries and Zealots (level 7-9) walk the fields around the tower. The chest is back three seconds after anyone opens it."] = "",
 	-- {item:6285} Egalin's Grimoire · {object:37098} Perrine's Chest
-	["{item:6285}, in {object:37098}"] = "",
+	["{item:6285}, in {object:37098}"] = "{item:6285}, {object:37098} içinde",
 
 	-- Step 6: The Binding (Undercity)
 	-- {npc:5675} Carendin Halgar · {item:6284} Runes of Summoning · {spell:14868} Curse of Agony · {spell:348} Immolate

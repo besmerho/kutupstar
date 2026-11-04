@@ -11,11 +11,11 @@ return {
 
 	-- Step 2: Razormane Water Seeker on the way
 	-- {npc:3267} Razormane Water Seeker
-	["{npc:3267} on the way"] = "",
+	["{npc:3267} on the way"] = "Yol üstünde: {npc:3267}",
 
 	-- Step 3: The Barrens: kill these as you meet them
 	-- {area:17} The Barrens
-	["{area:17}: kill these as you meet them"] = "",
+	["{area:17}: kill these as you meet them"] = "{area:17}: bunları karşılaştıkça öldür",
 	-- {area:380} The Crossroads
 	-- plural, as words: Sunscale Screechers = {npc:3255} Sunscale Screecher
 	["Plainstriders and Sunscale raptors roam the plains all around the {area:380}, thickest to the north.\nCareful: Sunscale Screechers call nearby allies within 30 yd once below 30% health, so dense packs can pull extra raptors."] = "",
@@ -63,7 +63,7 @@ return {
 	-- {area:392} Ratchet
 	["Follow the road south-east to {area:392} on the coast."] = "Yolu güneydoğuya izleyerek kıyıdaki {area:392} limanına git.",
 	-- {npc:3391} Gazlowe
-	["{npc:3391}, upstairs"] = "",
+	["{npc:3391}, upstairs"] = "{npc:3391}, üst katta",
 	-- {npc:3442} Sputtervalve · {area:382} Sludge Fen
 	["{npc:3442}: the console is in the {area:382}, later"] = "{npc:3442}: konsol {area:382} bataklığında, daha sonra",
 	-- {object:3972} WANTED
@@ -73,7 +73,7 @@ return {
 
 	-- Step 23: Intact Raptor Horn on the way
 	-- {item:5055} Intact Raptor Horn
-	["{item:5055} on the way"] = "",
+	["{item:5055} on the way"] = "Yol üstünde: {item:5055}",
 
 	-- Step 24: The Barrens: kill these as you meet them
 	-- {area:392} Ratchet · {npc:3467} Baron Longshore
@@ -84,9 +84,9 @@ return {
 
 	-- Step 28: Fly to The Crossroads
 	-- {area:380} The Crossroads
-	["Fly to {area:380}"] = "",
+	["Fly to {area:380}"] = "Uç: {area:380}",
 	-- {area:392} Ratchet
-	["{area:392} flight master"] = "",
+	["{area:392} flight master"] = "{area:392} uçuş ustası",
 
 	-- Step 30: Regthar Deathgate
 	-- {npc:3389} Regthar Deathgate
@@ -105,7 +105,7 @@ return {
 	-- Step 34: Samophlange
 	-- {object:4141} Control Console · {area:382} Sludge Fen · {item:5089} Console Key · {npc:3471} Tinkerer Sniggles
 	["The {object:4141} stands at the Venture Co. research site west of the {area:382}. Close the three valves around the drill, use the console again, then take the {item:5089} from {npc:3471} beside it.\nCareful: Several guards stand within aggro range of the valves, respawn in under about 3 minutes, and run at low health to bring back help; nearby mobs also join if you use a valve while they are close."] = "",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 	-- {npc:3442} Sputtervalve · {area:392} Ratchet
 	["{npc:3442} in {area:392}: later, on the way"] = "{area:392} limanındaki {npc:3442}: daha sonra, yolda",
 
@@ -136,7 +136,7 @@ return {
 	-- Step 44: The Stagnant Oasis
 	-- {area:380} The Crossroads
 	["South-east of the {area:380}. Test the seeds at the bubbling fissure on the oasis' east bank."] = "{area:380} kavşağının güneydoğusunda. Tohumları vahanın doğu kıyısındaki fokurdayan yarıkta dene.",
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- Step 45: The Crossroads
 	["Back west along the road."] = "Yol boyunca batıya dön.",

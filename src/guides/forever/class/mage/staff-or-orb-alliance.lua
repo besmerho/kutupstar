@@ -21,7 +21,7 @@ return {
 
 	-- Step 3: Back to Belann Windwood
 	-- {npc:256507} Belann Windwood
-	["Back to {npc:256507}"] = "",
+	["Back to {npc:256507}"] = "Dönüş: {npc:256507}",
 	-- {quest:1861} Mirror Lake · {npc:5497} Jennea Cannon · {zone:1453} Stormwind
 	["{quest:1861} (the next steps) waits for you with {npc:5497} in {zone:1453}, at about 15."] = "",
 
@@ -50,7 +50,7 @@ return {
 	["Back to {npc:5497}"] = "{npc:5497} yanına dön",
 	["Back up the Wizard's Sanctum and through the portal. The orb is an off-hand for a one-hand weapon; the staff is a two-hander."] = "",
 	-- {npc:5497} Jennea Cannon · {item:7508} Ley Orb · {item:9513} Ley Staff
-	["{npc:5497}: {item:7508} or {item:9513}"] = "",
+	["{npc:5497}: {item:7508} or {item:9513}"] = "{npc:5497}: {item:7508} ya da {item:9513}",
 
 	-- Step 9: Bink
 	-- {npc:5144} Bink · {object:32362} Mystic Ward (no name in this language: may be words) · {zone:1455} Ironforge · {object:32386} Hall of Mysteries (no name in this language: may be words)
@@ -63,9 +63,9 @@ return {
 
 	-- Step 11: Back to Bink
 	-- {npc:5144} Bink
-	["Back to {npc:5144}"] = "",
+	["Back to {npc:5144}"] = "Dönüş: {npc:5144}",
 	-- {npc:5144} Bink · {item:7507} Arcane Orb · {item:9514} Arcane Staff
-	["{npc:5144}: {item:7507} or {item:9514}"] = "",
+	["{npc:5144}: {item:7507} or {item:9514}"] = "{npc:5144}: {item:7507} ya da {item:9514}",
 
 	-- Step 12: Belann Windwood's wand (optional)
 	-- {npc:256507} Belann Windwood

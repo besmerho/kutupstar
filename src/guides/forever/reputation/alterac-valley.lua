@@ -37,11 +37,11 @@ return {
 	["assault a graveyard"] = "",
 	["Iceblood Tower banner"] = "",
 	-- {npc:13437} Wing Commander Ichman
-	["{npc:13437}'s spot"] = "",
+	["{npc:13437}'s spot"] = "{npc:13437} yeri",
 	-- {npc:13439} Wing Commander Vipore
-	["{npc:13439}'s spot"] = "",
+	["{npc:13439}'s spot"] = "{npc:13439} yeri",
 	-- {npc:13438} Wing Commander Slidore
-	["{npc:13438}'s spot"] = "",
+	["{npc:13438}'s spot"] = "{npc:13438} yeri",
 
 	-- Step 6: Back in Dun Baldar
 	-- {area:2959} Dun Baldar
@@ -65,16 +65,16 @@ return {
 	-- {npc:13841} Lieutenant Haggerdin · {item:17354} Master Ryson's All Seeing Eye · {npc:12159} Korrak the Bloodrager · {item:19032} Stormpike Battle Tabard · {npc:13217} Thanthaldis Snowgleam
 	["Friendly lets {npc:13841} upgrade your insignia: 100 reputation. Friendly to Honored is 6000 reputation. In Classic a full win paid 300 to 700 with its 3 marks; the Brigadier General keeps taking 3 marks for 100. Inside, {item:17354} (75, from the Winterax caves) repeats every game; {npc:12159} (200, when he appears in the middle of the valley) goes back to {npc:13841} here. Friendly opens the {item:19032} (1g) and the Superior Healing and Mana Draughts (5s) at {npc:13217} beside him."] = "",
 	-- {item:19032} Stormpike Battle Tabard
-	["{item:19032}, 1g"] = "",
+	["{item:19032}, 1g"] = "{item:19032}, 1g",
 	-- {npc:15351} Alliance Brigadier General · {quest:8375} Remember Alterac Valley!
-	["{npc:15351}: {quest:8375} again, 100 for 3 marks"] = "",
+	["{npc:15351}: {quest:8375} again, 100 for 3 marks"] = "{npc:15351}: yine {quest:8375}, 3 nişan için 100",
 
 	-- Step 10: Honored Amongst the Guard
 	-- {npc:13217} Thanthaldis Snowgleam · {npc:13841} Lieutenant Haggerdin
 	-- plural, as words: Sage's Cloaks = {item:6614} Sage's Cloak
 	["Honored: insignia rank 3, 100 reputation. Honored to Revered is 12000 reputation. {npc:13217} beside {npc:13841} sells the Stormpike Soldier's and Sage's Cloaks and Pendants (about 7g each), the Stormpike belts (4g74s to 7g12s) and the Major Healing and Mana Draughts (10s)."] = "",
 	-- {npc:15351} Alliance Brigadier General
-	["{npc:15351}: 100 for 3 marks"] = "",
+	["{npc:15351}: 100 for 3 marks"] = "{npc:15351}: 3 nişan için 100",
 
 	-- Step 11: Earned Reverence
 	-- {npc:13217} Thanthaldis Snowgleam · {item:19100} Electrified Dagger · {item:19102} Crackling Staff · {item:19104} Stormstrike Hammer · {npc:14752} Stormpike Battle Standard · {zone:1459} Alterac Valley · {zone:1461} Arathi Basin · {zone:1460} Warsong Gulch
@@ -82,13 +82,13 @@ return {
 	-- {npc:15351} Alliance Brigadier General
 	["{npc:15351}: Concerted Efforts"] = "",
 	-- {npc:13217} Thanthaldis Snowgleam
-	["{npc:13217}: Revered rewards"] = "",
+	["{npc:13217}: Revered rewards"] = "{npc:13217}: Revered ödülleri",
 
 	-- Step 12: Legendary Heroes
 	-- {npc:13217} Thanthaldis Snowgleam · {item:19030} Stormpike Battle Charger · {item:19325} Don Julio's Band · {item:21563} Don Rodrigo's Band · {item:19323} The Unstoppable Force · {item:19321} The Immovable Object · {item:19324} The Lobotomizer
 	["Exalted gives the Legacy Point \"Master of Alterac Valley\" and the last two insignia, 400 reputation that no longer counts for anything but the insignia. {npc:13217} sells the {item:19030} (200g, level 60; its own guide), {item:19325} and {item:21563} (75g56s), {item:19323} (156g49s), {item:19321} (79g53s), {item:19324} (125g66s) and the 50g tomes and off-hands."] = "",
 	-- {npc:13217} Thanthaldis Snowgleam
-	["{npc:13217}: Exalted rewards"] = "",
+	["{npc:13217}: Exalted rewards"] = "{npc:13217}: Exalted ödülleri",
 
 	-- Step 13: Frostwolf Ambassador Rokhstrom
 	-- {zone:1459} Alterac Valley · {zone:1454} Orgrimmar · {npc:13842} Frostwolf Ambassador Rokhstrom · {object:172982} Valley of Strength
@@ -117,11 +117,11 @@ return {
 	-- {area:3305} Stonehearth Bunker
 	["{area:3305} banner"] = "",
 	-- {npc:13179} Wing Commander Guse
-	["{npc:13179}'s spot"] = "",
+	["{npc:13179}'s spot"] = "{npc:13179} yeri",
 	-- {npc:13180} Wing Commander Jeztor
-	["{npc:13180}'s spot"] = "",
+	["{npc:13180}'s spot"] = "{npc:13180} yeri",
 	-- {npc:13181} Wing Commander Mulverick
-	["{npc:13181}'s spot"] = "",
+	["{npc:13181}'s spot"] = "{npc:13181} yeri",
 
 	-- Step 18: Back in Frostwolf Village
 	-- {area:2961} Frostwolf Village
@@ -143,15 +143,15 @@ return {
 	-- {npc:13840} Warmaster Laggrond · {item:17354} Master Ryson's All Seeing Eye · {item:19031} Frostwolf Battle Tabard · {npc:13219} Jekyll Flandring
 	["Friendly lets {npc:13840} upgrade your insignia: 100 reputation. Friendly to Honored is 6000 reputation. In Classic a full win paid 300 to 700 with its 3 marks; the Warbringer keeps taking 3 marks for 100. Inside, {item:17354} (75, from the Winterax caves) repeats every game; The Legend of Korrak (200, when he appears in the middle of the valley) goes back to {npc:13840} here. Friendly opens the {item:19031} (1g) and the Superior Healing and Mana Draughts (5s) at {npc:13219} beside him."] = "",
 	-- {item:19031} Frostwolf Battle Tabard
-	["{item:19031}, 1g"] = "",
+	["{item:19031}, 1g"] = "{item:19031}, 1g",
 	-- {npc:15350} Horde Warbringer · {quest:8369} Invaders of Alterac Valley
-	["{npc:15350}: {quest:8369} again, 100 for 3 marks"] = "",
+	["{npc:15350}: {quest:8369} again, 100 for 3 marks"] = "{npc:15350}: yine {quest:8369}, 3 nişan için 100",
 
 	-- Step 22: Honored Amongst the Clan
 	-- {npc:13219} Jekyll Flandring · {npc:13840} Warmaster Laggrond · {npc:12051} Frostwolf Legionnaire
 	["Honored: insignia rank 3, 100 reputation. Honored to Revered is 12000 reputation. {npc:13219} beside {npc:13840} sells the {npc:12051}'s and Advisor's Cloaks and Pendants (about 7g each), the Frostwolf belts (5g9s to 7g66s) and the Major Healing and Mana Draughts (10s)."] = "",
 	-- {npc:15350} Horde Warbringer
-	["{npc:15350}: 100 for 3 marks"] = "",
+	["{npc:15350}: 100 for 3 marks"] = "{npc:15350}: 3 nişan için 100",
 
 	-- Step 23: Earned Reverence
 	-- {npc:13219} Jekyll Flandring · {item:19099} Glacial Blade · {item:19101} Whiteout Staff · {npc:14751} Frostwolf Battle Standard · {zone:1459} Alterac Valley · {zone:1461} Arathi Basin · {zone:1460} Warsong Gulch
@@ -159,13 +159,13 @@ return {
 	-- {npc:15350} Horde Warbringer
 	["{npc:15350}: For Great Honor"] = "",
 	-- {npc:13219} Jekyll Flandring
-	["{npc:13219}: Revered rewards"] = "",
+	["{npc:13219}: Revered rewards"] = "{npc:13219}: Revered ödülleri",
 
 	-- Step 24: Legendary Heroes
 	-- {npc:13219} Jekyll Flandring · {item:19029} Horn of the Frostwolf Howler · {item:19325} Don Julio's Band · {item:21563} Don Rodrigo's Band · {item:19323} The Unstoppable Force · {item:19321} The Immovable Object · {item:19324} The Lobotomizer
 	["Exalted gives the Legacy Point \"Master of Alterac Valley\" and the last two insignia, 400 reputation that no longer counts for anything but the insignia. {npc:13219} sells the {item:19029} (200g, level 60; its own guide), {item:19325} and {item:21563} (75g56s), {item:19323} (156g49s), {item:19321} (79g53s), {item:19324} (125g66s) and the 50g tomes and off-hands."] = "",
 	-- {npc:13219} Jekyll Flandring
-	["{npc:13219}: Exalted rewards"] = "",
+	["{npc:13219}: Exalted rewards"] = "{npc:13219}: Exalted ödülleri",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["The {faction:730} holds {area:2959} in the north of {zone:1459}. Destroying towers, taking graveyards and mines, and killing captains and generals all pay reputation to the whole team. Loot {quest:7223} from fallen enemies for {npc:13257}. Forever's Legacy Diplomat perk increases reputation gains."] = "{faction:730}, {zone:1459} bölgesinin kuzeyindeki {area:2959} kalesini tutuyor. Kuleleri yıkmak, mezarlıkları ve madenleri almak, kaptanları ve generalleri öldürmek takımın tamamına itibar kazandırır. {npc:13257} için düşen düşmanlardan {quest:7223} loot et. Forever'ın Legacy Diplomat ayrıcalığı itibar kazancını artırır.",

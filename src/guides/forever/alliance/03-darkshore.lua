@@ -20,7 +20,7 @@ return {
 
 	-- Step 3: Fine Crab Chunks on the way
 	-- {item:12237} Fine Crab Chunks
-	["{item:12237} on the way"] = "",
+	["{item:12237} on the way"] = "Yol üstünde: {item:12237}",
 
 	-- Step 4: The beach
 	["The beach"] = "Kumsal",
@@ -48,7 +48,7 @@ return {
 
 	-- Step 8: Rabid Thistle Bear on the way
 	-- {npc:2164} Rabid Thistle Bear
-	["{npc:2164} on the way"] = "",
+	["{npc:2164} on the way"] = "Yol üstünde: {npc:2164}",
 
 	-- Step 9: Bears and the Blackwood camp
 	["Bears and the Blackwood camp"] = "Ayılar ve Blackwood kampı",
@@ -90,7 +90,7 @@ return {
 
 	-- Step 18: Moonglade
 	-- {spell:18960} Teleport: Moonglade
-	["Cast {spell:18960}"] = "",
+	["Cast {spell:18960}"] = "Kullan: {spell:18960}",
 
 	-- Step 19: Trial of the Lake
 	-- {spell:18960} Teleport: Moonglade · {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven · {area:656} Lake Elune'ara · {area:2362} Shrine of Remulos · {npc:11799} Tajarri · {area:442} Auberdine
@@ -148,13 +148,13 @@ return {
 	-- plural, as words: Reef Crawlers = {npc:2235} Reef Crawler · Encrusted Tide Crawlers = {npc:2233} Encrusted Tide Crawler
 	["Two wrecks lie on the sea floor in the bay north of {area:442}; each holds a lockbox. Reef Crawlers and Encrusted Tide Crawlers line this shore.\nCareful: The murlocs inside the wrecks are close together and fast. They often swim through the hull walls and holes, so you will usually pull extra murlocs."] = "",
 	-- {item:12191} Silver Dawning's Lockbox
-	["{item:12191}; underwater"] = "",
+	["{item:12191}; underwater"] = "{item:12191}; su altında",
 	-- {item:12192} Mist Veil's Lockbox
-	["{item:12192}; underwater"] = "",
+	["{item:12192}; underwater"] = "{item:12192}; su altında",
 
 	-- Step 30: Darkshore: kill these as you meet them
 	-- {zone:1439} Darkshore
-	["{zone:1439}: kill these as you meet them"] = "",
+	["{zone:1439}: kill these as you meet them"] = "{zone:1439}: bunları karşılaştıkça öldür",
 	-- {quest:954} Bashal'Aran · {quest:1002} Buzzbox 323
 	["Moonstalkers prowl the hills between {quest:954} and the tower. {quest:1002} stands on the hill west of the tower."] = "Moonstalker yaratıkları {quest:954} harabeleri ile kule arasındaki tepelerde dolaşıyor. {quest:1002} kulenin batısındaki tepede duruyor.",
 	-- plural, as words: Moonstalker Fangs = {item:5413} Moonstalker Fang
@@ -162,7 +162,7 @@ return {
 
 	-- Step 32: Grizzled Scalp on the way
 	-- {item:5414} Grizzled Scalp
-	["{item:5414} on the way"] = "",
+	["{item:5414} on the way"] = "Yol üstünde: {item:5414}",
 
 	-- Step 33: The cave and the Den Mother
 	-- {npc:6788} Den Mother
@@ -173,7 +173,7 @@ return {
 	-- plural, as words: Scaber Stalks = {item:5271} Scaber Stalk
 	["Scaber Stalks; below ground"] = "",
 	-- {item:5270} Death Cap
-	["{item:5270}; below ground"] = "",
+	["{item:5270}; below ground"] = "{item:5270}; yer altında",
 
 	-- Step 34: The northern Blackwood camp
 	["The northern Blackwood camp"] = "Kuzeydeki Blackwood kampı",
@@ -186,7 +186,7 @@ return {
 	-- Step 35: The cave and the Den Mother
 	["Careful: If you attack one cub, the other cubs and often the mother join the fight, so expect to take on several at the same time."] = "",
 	-- {npc:6788} Den Mother
-	["{npc:6788}, below ground"] = "",
+	["{npc:6788}, below ground"] = "{npc:6788}, yer altında",
 
 	-- Step 38: Onu
 	-- {quest:948} Onu · {npc:270269} Arbal · {npc:11218} Kerlonian Evershade
@@ -203,7 +203,7 @@ return {
 
 	-- Step 40: The Grove of the Ancients
 	-- {quest:952} Grove of the Ancients
-	["The {quest:952}"] = "",
+	["The {quest:952}"] = "{quest:952}",
 	-- {quest:1003} Buzzbox 525
 	-- plural, as words: Grizzled Thistle Bears = {npc:2165} Grizzled Thistle Bear
 	["Grizzled Thistle Bears roam the hills around the Grove; {quest:1003} stands west of it among them."] = "Grizzled Thistle Bear yaratıkları korunun çevresindeki tepelerde dolaşıyor; {quest:1003} korunun batısında, onların arasında duruyor.",
@@ -233,11 +233,11 @@ return {
 	["{area:450} lies on the coast south of {npc:10323}'s beach. Protect the prospector while he searches for the fossil.\nCareful: Ambushers appear as he passes certain spots: a scout comes out from under the board ramp, and more scouts come out when he checks the tent."] = "",
 
 	-- Step 43: Level 18.47
-	["Level 18.47"] = "",
+	["Level 18.47"] = "Seviye 18.47",
 	-- {quest:952} Grove of the Ancients
-	["Top up here to level 18.47 before the hand-ins at {quest:952}: they take you to level 19."] = "",
+	["Top up here to level 18.47 before the hand-ins at {quest:952}: they take you to level 19."] = "{quest:952} teslimlerinden önce burada seviye 18.47 olana kadar kas: teslimler seni seviye 19 yapar.",
 	-- {npc:2339} Twilight Thug
-	["grind on {npc:2339}"] = "",
+	["grind on {npc:2339}"] = "Kas: {npc:2339}",
 
 	-- Step 44: Murkdeep's beach
 	-- {npc:10323} Murkdeep
@@ -246,7 +246,7 @@ return {
 	["{npc:10323} camps on the beach west of the glaive: kill the murlocs at the camp fire; he comes in the third wave with his hound. Three beached remains lie on the beaches west and south-west of {area:450}."] = "{npc:10323}, glaive batısındaki kumsalda kamp kurmuş: kamp ateşindeki murlocları öldür; o, üçüncü dalgada köpeğiyle birlikte gelir. Karaya vurmuş üç kalıntı {area:450} kazısının batısındaki ve güneybatısındaki kumsallarda yatıyor.",
 
 	-- Step 47: On the way
-	["On the way"] = "",
+	["On the way"] = "Yol üstünde",
 
 	-- Step 48: Auberdine
 	["Follow the road north."] = "Yolu kuzeye izle.",
@@ -275,13 +275,13 @@ return {
 	-- {npc:6667} Gelkak Gyromast
 	-- plural, as words: Giant Foreststriders = {npc:2323} Giant Foreststrider · Raging Reef Crawlers = {npc:2236} Raging Reef Crawler
 	["{npc:6667} hides on the little island off the ruins. The key pieces drop from Giant Foreststriders (top), Greymist murlocs (middle) and Raging Reef Crawlers (bottom)."] = "{npc:6667} harabelerin açığındaki küçük adada saklanıyor. Anahtar parçaları Giant Foreststrider (üst), Greymist murlocları (orta) ve Raging Reef Crawler (alt) yaratıklarından düşer.",
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 	-- {item:15883} Half Pendant of Aquatic Agility · {object:177792} Strange Lockbox
 	["{item:15883}: the {object:177792} under the water off the north coast, west of the ruins"] = "{item:15883}: harabelerin batısında, kuzey kıyısının açığında su altındaki {object:177792}",
 
 	-- Step 52: Mist's Edge: kill these as you meet them
 	-- {area:452} Mist's Edge
-	["{area:452}: kill these as you meet them"] = "",
+	["{area:452}: kill these as you meet them"] = "{area:452}: bunları karşılaştıkça öldür",
 
 	-- Step 53: Hearth to Auberdine
 	-- {area:442} Auberdine
@@ -296,11 +296,11 @@ return {
 	-- {npc:3692} Volcor · {area:449} Master's Glaive
 	["{npc:3692} hides in the hills east of the {area:449}. Help him back to the road; he fights on his way out."] = "{npc:3692}, {area:449} glaive alanının doğusundaki tepelerde saklanıyor. Yola dönmesine yardım et; çıkarken savaşır.",
 	-- {npc:3692} Volcor · {area:455} Blackwood Den
-	["{npc:3692}, inside {area:455}"] = "",
+	["{npc:3692}, inside {area:455}"] = "{npc:3692}, {area:455} içinde",
 	-- {npc:12298} Sickly Deer · {item:15826} Curative Animal Salve · {zone:1439} Darkshore
 	["{npc:12298}: use the {item:15826} on them; they roam all of {zone:1439}"] = "{npc:12298}: üzerlerinde {item:15826} kullan; {zone:1439} bölgesinin her yerinde dolaşıyorlar",
 	-- {npc:2237} Moonstalker Sire
-	["grind on {npc:2237}"] = "",
+	["grind on {npc:2237}"] = "Kas: {npc:2237}",
 
 	-- Step 56: Auberdine
 	-- {npc:3694} Sentinel Selarin · {npc:3691} Raene Wolfrunner · {area:415} Astranaar · {zone:1440} Ashenvale
@@ -309,13 +309,13 @@ return {
 	-- Step 57: Level 20
 	["Level 20"] = "Seviye 20",
 	-- {zone:1453} Stormwind
-	["Top up here to level 20 before the hand-ins at {zone:1453}: they take you to level 21."] = "",
+	["Top up here to level 20 before the hand-ins at {zone:1453}: they take you to level 21."] = "{zone:1453} teslimlerinden önce burada seviye 20 olana kadar kas: teslimler seni seviye 21 yapar.",
 	-- {npc:2187} Elder Darkshore Thresher
-	["grind on {npc:2187}"] = "",
+	["grind on {npc:2187}"] = "Kas: {npc:2187}",
 
 	-- Step 58: Auberdine flight master
 	-- {area:442} Auberdine
-	["{area:442} flight master"] = "",
+	["{area:442} flight master"] = "{area:442} uçuş ustası",
 
 	-- Step 59: The Great Cat Spirit
 	-- {area:442} Auberdine · {area:702} Rut'theran Village · {npc:4217} Mathrengyl Bearwalker · {area:1658} Cenarion Enclave

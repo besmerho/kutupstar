@@ -51,9 +51,9 @@ return {
 	-- {item:14047} Runecloth · {area:2255} Everlook · {area:2577} Dire Maul · {item:8836} Arthas' Tears · {skill:182} Herbalism · {area:3197} Chillwind Camp · {item:12360} Arcanite Bar · {item:12359} Thorium Bar · {item:12363} Arcane Crystal
 	["{item:14047} drops from humanoids of level 50 and up ({area:2255}'s Bruisers, the Scarlet Crusade in the Plaguelands, the {area:2577} ogres). {item:8836} is a Plaguelands herb ({skill:182} 220), common around {area:3197}. An {item:12360} is an alchemist's transmute from a {item:12359} and an {item:12363}, once every two days per alchemist: ask a guild alchemist early, or buy the bars. The Auction House sells all three."] = "",
 	-- {item:14047} Runecloth
-	["{item:14047} x40"] = "",
+	["{item:14047} x40"] = "{item:14047} x40",
 	-- {item:8836} Arthas' Tears
-	["{item:8836} x10"] = "",
+	["{item:8836} x10"] = "{item:8836} x10",
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar
 	["Arcanite Bars x6: an alchemist, or the Trade District Auction House"] = "",
 

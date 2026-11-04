@@ -12,7 +12,7 @@ return {
 
 	-- Step 1: Orgrimmar: how it works
 	-- {faction:76} Orgrimmar
-	["{faction:76}: how it works"] = "",
+	["{faction:76}: how it works"] = "{faction:76}: nasıl işler",
 	-- {faction:76} Orgrimmar · {npc:14726} Rashona Straglash · {quest:7832} Additional Runecloth · {item:14047} Runecloth · {zone:1456} Thunder Bluff · {zone:1458} Undercity · {zone:1411} Durotar · {area:380} Crossroads · {npc:4949} Thrall · {quest:5726} Hidden Enemies
 	["{faction:76} reputation comes from quests and cloth. {npc:14726}, the cloth quartermaster, stands in the Drag beside the cloth and leather armor shop. She takes four one-time donations of 60 cloth (150 each) and then {quest:7832}, 20 {item:14047} for 50, as often as you like. Every point you earn with {faction:76} also gives a quarter as much to {zone:1456}, the {zone:1458} and the Darkspear Trolls. While you level, do {faction:76}'s quests within 5 levels of them: {zone:1411} at 5 to 12, the {area:380} at 12 to 20, {npc:4949}'s {quest:5726} at 12 to 16. The Legacy perk Diplomat adds up to 10%. Rewards: at Honored Orgrimmar's merchants sell to you for 10% less (the Classic rule), the wolf vendor included; at Exalted other races can buy the wolves: 20 gold for a level 40 wolf, 200 gold for a swift wolf at level 60, once you have mount training. {faction:76} has no tabard or other reward."] = "",
 
@@ -29,7 +29,7 @@ return {
 
 	-- Step 4: Bloodvenom Post: hand in
 	-- {area:1997} Bloodvenom Post
-	["{area:1997}: hand in"] = "",
+	["{area:1997}: hand in"] = "{area:1997}: teslim",
 
 	-- Step 5: Winterspring: Moontouched Owlbeasts
 	-- {zone:1452} Winterspring
@@ -41,7 +41,7 @@ return {
 
 	-- Step 6: Bloodvenom Post: hand in again
 	-- {area:1997} Bloodvenom Post
-	["{area:1997}: hand in again"] = "",
+	["{area:1997}: hand in again"] = "{area:1997}: yeniden teslim",
 
 	-- Step 7: Winterspring: Berserk Owlbeasts
 	-- {zone:1452} Winterspring
@@ -53,7 +53,7 @@ return {
 
 	-- Step 8: Bloodvenom Post: last hand-in
 	-- {area:1997} Bloodvenom Post
-	["{area:1997}: last hand-in"] = "",
+	["{area:1997}: last hand-in"] = "{area:1997}: son teslim",
 	-- {quest:4882} Guarding Secrets · {zone:1456} Thunder Bluff · {npc:5770} Nara Wildmane · {area:1639} Elder Rise
 	["{quest:4882}, +100 {zone:1456}: to {npc:5770} on {area:1639} in {zone:1456}"] = "",
 	-- {quest:4721} Wild Guardians · {faction:76} Orgrimmar
@@ -75,13 +75,13 @@ return {
 	-- {npc:8578} Magus Rimtori
 	["Find {npc:8578}'s camp"] = "",
 	-- {object:151286} Kaldorei Tome of Summoning
-	["the {object:151286}"] = "",
+	["the {object:151286}"] = "{object:151286}",
 
 	-- Step 12: Valormok and Orgrimmar
 	-- {area:1237} Valormok · {faction:76} Orgrimmar
-	["{area:1237} and {faction:76}"] = "",
+	["{area:1237} and {faction:76}"] = "{area:1237} ve {faction:76}",
 	-- {npc:4485} Belgrom Rockmaul · {faction:76} Orgrimmar
-	["{npc:4485}, in {faction:76}"] = "",
+	["{npc:4485}, in {faction:76}"] = "{npc:4485}, {faction:76} içinde",
 	-- {quest:3506} Betrayed · {faction:76} Orgrimmar
 	["{quest:3506}: 300 {faction:76} reputation at 60."] = "",
 
@@ -96,7 +96,7 @@ return {
 
 	-- Step 14: Valley of Trials (optional hub)
 	-- {area:363} Valley of Trials
-	["{area:363} (optional hub)"] = "",
+	["{area:363} (optional hub)"] = "{area:363} (isteğe bağlı merkez)",
 	-- {area:363} Valley of Trials · {faction:76} Orgrimmar · {npc:3143} Gornek · {npc:10176} Kaltunk
 	["In Classic, quests 6+ levels below you pay less (a fifth at 60); a Forever beta report says they paid in full. Your first turn-in shows which: if it pays a fifth, skip these hubs. The {area:363} is the best of them: about 1,400 {faction:76} and 1,400 Darkspear reputation in 25 minutes (about 280 each at a fifth). {npc:3143} waits in the Den, the big hut; {npc:10176} stands outside it."] = "",
 	-- {npc:3144} Eitrigg · {faction:76} Orgrimmar · {quest:787} The New Horde
@@ -113,7 +113,7 @@ return {
 
 	-- Step 16: The Den: hand in
 	-- {area:364} The Den
-	["{area:364}: hand in"] = "",
+	["{area:364}: hand in"] = "{area:364}: teslim",
 
 	-- Step 17: North of the Den
 	["North of the Den"] = "",
@@ -124,25 +124,25 @@ return {
 
 	-- Step 18: The Den: hand in again
 	-- {area:364} The Den
-	["{area:364}: hand in again"] = "",
+	["{area:364}: hand in again"] = "{area:364}: yeniden teslim",
 
 	-- Step 19: Burning Blade Coven
 	-- {npc:3183} Yarrog Baneshadow
 	["Go back into the cave and keep to the right-hand wall all the way, over a small stream, to {npc:3183} on a ledge above a pool."] = "",
 	-- {quest:794} Burning Blade Medallion · {npc:3183} Yarrog Baneshadow
-	["{quest:794}, from {npc:3183}"] = "",
+	["{quest:794}, from {npc:3183}"] = "{quest:794}, kaynak: {npc:3183}",
 	-- {npc:3145} Zureetha Fargaze
 	["{npc:3145}, in the Den"] = "",
 
 	-- Step 20: Sen'jin Village (optional hub)
 	-- {area:367} Sen'jin Village
-	["{area:367} (optional hub)"] = "",
+	["{area:367} (optional hub)"] = "{area:367} (isteğe bağlı merkez)",
 	-- {area:367} Sen'jin Village · {area:368} Echo Isles · {faction:76} Orgrimmar · {npc:3188} Master Gadrin · {npc:3304} Master Vornal · {npc:3194} Vel'rin Fang · {npc:7953} Xar'Ti
 	["In Classic, quests 6+ levels below you pay less (a fifth at 60); a Forever beta report says they paid in full. Your first turn-in shows which: if it pays a fifth, skip these hubs. {area:367} and the {area:368}: about 700 {faction:76} and 650 Darkspear reputation in 25 minutes (140 and 130 at a fifth). {npc:3188} and {npc:3304} stand by the huts, {npc:3194} near the water, {npc:7953} south of the village."] = "",
 
 	-- Step 21: The Echo Isles
 	-- {area:368} Echo Isles
-	["The {area:368}"] = "",
+	["The {area:368}"] = "{area:368}",
 	-- {area:368} Echo Isles · {quest:826} Zalazane
 	-- plural, as words: Durotar Tigers = {npc:3121} Durotar Tiger
 	["Swim to the largest of the {area:368}, south-east of the village. {quest:826}, the idols and the skulls at the circle of power are all there; the Durotar Tigers prowl the smaller islands."] = "",
@@ -157,7 +157,7 @@ return {
 
 	-- Step 23: Sen'jin Village: hand in
 	-- {area:367} Sen'jin Village
-	["{area:367}: hand in"] = "",
+	["{area:367}: hand in"] = "{area:367}: teslim",
 
 	-- Step 24: Thrall: Hidden Enemies (optional hub)
 	-- {npc:4949} Thrall · {quest:5726} Hidden Enemies
@@ -167,14 +167,14 @@ return {
 
 	-- Step 25: Skull Rock: the Lieutenant's Insignia
 	-- {quest:827} Skull Rock · {item:14544} Lieutenant's Insignia
-	["{quest:827}: the {item:14544}"] = "",
+	["{quest:827}: the {item:14544}"] = "{quest:827}: {item:14544}",
 	-- {quest:827} Skull Rock · {faction:76} Orgrimmar
 	-- plural, as words: Burning Blade Fanatics = {npc:3197} Burning Blade Fanatic
 	["{quest:827} is the cave just east of {faction:76}. Burning Blade Fanatics and Apprentices inside drop the insignia about one kill in five."] = "",
 
 	-- Step 26: Orgrimmar: Thrall and Neeru Fireblade
 	-- {faction:76} Orgrimmar · {npc:4949} Thrall · {npc:3216} Neeru Fireblade
-	["{faction:76}: {npc:4949} and {npc:3216}"] = "",
+	["{faction:76}: {npc:4949} and {npc:3216}"] = "{faction:76}: {npc:4949} ve {npc:3216}",
 	-- {npc:3216} Neeru Fireblade · {object:172960} Cleft of Shadow
 	["{npc:3216} is in the {object:172960}. Tell him he may speak openly and click through his story."] = "",
 	-- {npc:3216} Neeru Fireblade
@@ -184,7 +184,7 @@ return {
 	-- {area:2437} Ragefire Chasm · {object:172960} Cleft of Shadow · {npc:11518} Jergosh the Invoker · {npc:11519} Bazzalan
 	["{area:2437} opens off the {object:172960}. {npc:11518} and {npc:11519} wait at the far end."] = "",
 	-- {npc:11518} Jergosh the Invoker · {npc:11519} Bazzalan
-	["{npc:11518} and {npc:11519}"] = "",
+	["{npc:11518} and {npc:11519}"] = "{npc:11518} ve {npc:11519}",
 
 	-- Step 28: Orgrimmar: Hidden Enemies done
 	-- {faction:76} Orgrimmar · {quest:5728} Hidden Enemies
@@ -196,7 +196,7 @@ return {
 
 	-- Step 30: Razor Hill (optional hub)
 	-- {area:362} Razor Hill
-	["{area:362} (optional hub)"] = "",
+	["{area:362} (optional hub)"] = "{area:362} (isteğe bağlı merkez)",
 	-- {area:362} Razor Hill · {zone:1411} Durotar · {faction:76} Orgrimmar · {npc:3142} Orgnil Soulscar · {npc:3139} Gar'Thok · {npc:3191} Cook Torka · {npc:3147} Furl Scornbrow · {npc:266940} Turroc
 	["In Classic, quests 6+ levels below you pay less (a fifth at 60); a Forever beta report says they paid in full. Your first turn-in shows which: if it pays a fifth, skip these hubs. {area:362} and north {zone:1411}: about 1,800 {faction:76} and 1,650 Darkspear reputation in 80 minutes (360 and 330 at a fifth). {npc:3142} and {npc:3139} stand in the middle of the town, {npc:3191} by the barracks, {npc:3147} and {npc:266940} at the edges."] = "",
 	-- {quest:806} Dark Storms · {quest:823} Report to Orgnil
@@ -214,9 +214,9 @@ return {
 
 	-- Step 33: Razor Hill: hand in
 	-- {area:362} Razor Hill
-	["{area:362}: hand in"] = "",
+	["{area:362}: hand in"] = "{area:362}: teslim",
 	-- {quest:830} The Admiral's Orders · {npc:3230} Nazgrel · {faction:76} Orgrimmar
-	["{quest:830}, +100: to {npc:3230} in {faction:76}"] = "",
+	["{quest:830}, +100: to {npc:3230} in {faction:76}"] = "{quest:830}, +100: teslim yeri {npc:3230} ({faction:76})",
 
 	-- Step 34: The wreck
 	["The wreck"] = "",
@@ -233,7 +233,7 @@ return {
 
 	-- Step 36: Thunder Ridge and Razorwind Canyon
 	-- {area:369} Thunder Ridge · {area:410} Razorwind Canyon
-	["{area:369} and {area:410}"] = "",
+	["{area:369} and {area:410}"] = "{area:369} ve {area:410}",
 	-- {npc:3203} Fizzle Darkstorm · {area:369} Thunder Ridge · {faction:76} Orgrimmar · {item:277661} Dull Storm Orb · {quest:97281} A Simmering Storm · {area:410} Razorwind Canyon · {area:362} Razor Hill · {item:4891} Kron's Amulet
 	["{npc:3203} keeps a Burning Blade camp in {area:369}, south of {faction:76}, among the thunder lizards. A {item:277661} may drop from the lizards: use it to start {quest:97281}. The supply sacks lie in {area:410}, north of {area:362}. {item:4891} drops from the crocolisks along the river to the west, about one in ten."] = "",
 
@@ -241,7 +241,7 @@ return {
 	-- {npc:3293} Rezlak
 	["{npc:3293} and Misha"] = "",
 	-- {npc:3117} Dustwind Savage · {area:370} Drygulch Ravine
-	["{npc:3117}, in {area:370}"] = "",
+	["{npc:3117}, in {area:370}"] = "{npc:3117}, {area:370} içinde",
 
 	-- Step 39: Skull Rock
 	-- {quest:828} Margoz · {quest:827} Skull Rock · {faction:76} Orgrimmar
@@ -249,7 +249,7 @@ return {
 
 	-- Step 40: Orgrimmar: Neeru Fireblade and Nazgrel
 	-- {faction:76} Orgrimmar · {npc:3216} Neeru Fireblade · {npc:3230} Nazgrel
-	["{faction:76}: {npc:3216} and {npc:3230}"] = "",
+	["{faction:76}: {npc:3216} and {npc:3230}"] = "{faction:76}: {npc:3216} ve {npc:3230}",
 	-- {quest:829} Neeru Fireblade · {object:172960} Cleft of Shadow · {npc:3230} Nazgrel · {npc:4949} Thrall
 	["{quest:829} is in the {object:172960}; {npc:3230} in Grommash Hold beside {npc:4949}."] = "",
 
@@ -261,7 +261,7 @@ return {
 
 	-- Step 43: Crossroads (optional hub)
 	-- {area:380} Crossroads
-	["{area:380} (optional hub)"] = "",
+	["{area:380} (optional hub)"] = "{area:380} (isteğe bağlı merkez)",
 	-- {area:380} Crossroads · {faction:76} Orgrimmar · {npc:3338} Sergra Darkthorn · {npc:3464} Gazrog · {npc:3429} Thork · {npc:3449} Darsok Swiftdagger · {npc:267310} Gur'ak · {npc:3432} Mankrik
 	["In Classic, quests 6+ levels below you pay less (a fifth at 60); a Forever beta report says they paid in full. Your first turn-in shows which: if it pays a fifth, skip these hubs. {area:380}: about 1,500 {faction:76} reputation in 70 minutes (300 at a fifth), {faction:76}'s only. {npc:3338}, {npc:3464}, {npc:3429}, {npc:3449} and {npc:267310} stand in the town, {npc:3432} by the inn."] = "",
 
@@ -275,7 +275,7 @@ return {
 
 	-- Step 45: Crossroads: hand in
 	-- {area:380} Crossroads
-	["{area:380}: hand in"] = "",
+	["{area:380}: hand in"] = "{area:380}: teslim",
 
 	-- Step 46: Zhevras, quilboars, harpies and the Raptor Grounds
 	-- {area:1697} Raptor Grounds
@@ -286,7 +286,7 @@ return {
 
 	-- Step 47: Crossroads: hand in again
 	-- {area:380} Crossroads
-	["{area:380}: hand in again"] = "",
+	["{area:380}: hand in again"] = "{area:380}: yeniden teslim",
 
 	-- Step 48: Prowlers, Serena Bloodfeather and Echeyakee
 	-- {npc:3452} Serena Bloodfeather · {quest:881} Echeyakee
@@ -297,7 +297,7 @@ return {
 
 	-- Step 49: Chen's Empty Keg (optional hub)
 	-- {quest:819} Chen's Empty Keg
-	["{quest:819} (optional hub)"] = "",
+	["{quest:819} (optional hub)"] = "{quest:819} (isteğe bağlı merkez)",
 	-- {quest:819} Chen's Empty Keg · {zone:1413} Barrens · {area:380} Crossroads · {npc:3292} Brewmaster Drohn · {area:392} Ratchet · {faction:76} Orgrimmar
 	["In Classic, quests 6+ levels below you pay less (a fifth at 60); a Forever beta report says they paid in full. Your first turn-in shows which: if it pays a fifth, skip this. {quest:819} lies on the ground at one of several spots in the central and northern {zone:1413}, most of them by the roads around the {area:380}; once someone takes it, it turns up at another. {npc:3292} in {area:392} pays 250 {faction:76} reputation for the keg and its first filling, then 50 for every filling after, as often as you like (10 at a fifth)."] = "",
 	-- {quest:819} Chen's Empty Keg

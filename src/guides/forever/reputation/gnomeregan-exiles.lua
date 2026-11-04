@@ -16,7 +16,7 @@ return {
 
 	-- Step 1: Bubulo Acerbus, the cloth quartermaster
 	-- {npc:14724} Bubulo Acerbus
-	["{npc:14724}, the cloth quartermaster"] = "",
+	["{npc:14724}, the cloth quartermaster"] = "{npc:14724}, kumaş levazımcısı",
 	-- {npc:14724} Bubulo Acerbus · {faction:54} Gnomeregan Exiles · {object:171524} Tinker Town · {zone:1455} Ironforge · {item:14047} Runecloth · {quest:7812} Additional Runecloth · {zone:1426} Dun Morogh · {npc:4077} Gaxim Rustfizzle · {npc:9616} Laris Geardawdle · {quest:4262} Overmaster Pyron · {area:132} Coldridge Valley · {area:131} Kharanos · {area:133} Gnomeregan · {zone:1453} Stormwind · {zone:1457} Darnassus
 	["{npc:14724} takes cloth for the {faction:54}; he stands in {object:171524} in {zone:1455}, by the tram. Each first donation of 60 Wool, Silk, Mageweave and {item:14047} pays 150 reputation once; after the {item:14047} one, {quest:7812} pays 50 for every 20 {item:14047}, as often as you like. The Auction House in the Commons is the quickest source of cloth. In Classic, quests pay full reputation while they are at most 5 levels below you, so do {zone:1426} (levels 1-12) and {npc:4077}'s quests in Stonetalon (20-25) while you level. After the donations come {npc:9616}'s ooze quests and {quest:4262} (400), then the optional {zone:1426} hubs, best rate first: {area:132} (about 38 a minute at full value), {area:131} (26), the quarry (17). Every {area:133} gain also gives a quarter as much to {zone:1453}, {zone:1455} and {zone:1457}, except quests in the level 1-10 start areas. Legacy Diplomat adds up to 10% to every gain."] = "",
 	-- {item:2592} Wool Cloth · {zone:1432} Loch Modan · {zone:1437} Wetlands
@@ -60,7 +60,7 @@ return {
 
 	-- Step 9: Tinker Town: hand in
 	-- {object:171524} Tinker Town
-	["{object:171524}: hand in"] = "",
+	["{object:171524}: hand in"] = "{object:171524}: teslim",
 
 	-- Step 10: Morgan's Vigil: Jalinda Sprig
 	-- {npc:9561} Jalinda Sprig · {area:2418} Morgan's Vigil · {zone:1428} Burning Steppes · {quest:4262} Overmaster Pyron · {area:133} Gnomeregan · {area:1584} Blackrock Depths
@@ -72,7 +72,7 @@ return {
 
 	-- Step 12: Morgan's Vigil: hand in
 	-- {area:2418} Morgan's Vigil
-	["{area:2418}: hand in"] = "",
+	["{area:2418}: hand in"] = "{area:2418}: teslim",
 
 	-- Step 13: Coldridge Valley
 	-- {area:131} Kharanos · {npc:658} Sten Stoutarm · {npc:713} Balir Frosthammer · {area:77} Anvilmar
@@ -103,7 +103,7 @@ return {
 	-- {area:131} Kharanos
 	["Coldridge: on to {area:131}"] = "",
 	-- {npc:1252} Senir Whitebeard · {area:131} Kharanos
-	["{npc:1252}, in {area:131}"] = "",
+	["{npc:1252}, in {area:131}"] = "{npc:1252}, {area:131} içinde",
 	-- {npc:6806} Tannok Frosthammer
 	["{npc:6806}, in the inn"] = "",
 
@@ -130,7 +130,7 @@ return {
 
 	-- Step 23: Kharanos: last hand-in
 	-- {area:131} Kharanos
-	["{area:131}: last hand-in"] = "",
+	["{area:131}: last hand-in"] = "{area:131}: son teslim",
 
 	-- Step 24: The quarry and Amberstill Ranch
 	-- {area:803} Amberstill Ranch

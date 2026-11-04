@@ -75,7 +75,7 @@ return {
 	-- {npc:6176} Bath'rah the Windwatcher · {quest:1713} The Summoning · {quest:1712} Cyclonian · {item:6052} Nature Protection Potion · {spell:10101} Knock Away · {item:6894} Whirlwind Heart
 	["Back to {npc:6176}. Accepting {quest:1713} starts his ritual, and {quest:1712} appears just north of his camp. {quest:1712} is elite (level 40): grouping up is encouraged; it needs a group of two or three around level 40. It deals nature damage (a {item:6052} soaks it), whirls, and {spell:10101} throws you far while it heals itself as you run back: fight with your back to a slope or rock. The {item:6894} always drops. If the fight fails {npc:6176} stops answering: abandon {quest:1713} and take it again for a new summon; the earlier items are not needed again."] = "",
 	-- {item:6894} Whirlwind Heart · {quest:1712} Cyclonian
-	["{item:6894}, from {quest:1712}"] = "",
+	["{item:6894}, from {quest:1712}"] = "{item:6894}, kaynak: {quest:1712}",
 	-- {npc:6176} Bath'rah the Windwatcher · {item:6975} Whirlwind Axe
 	["{npc:6176}: {item:6975}, Sword or Warhammer"] = "",
 

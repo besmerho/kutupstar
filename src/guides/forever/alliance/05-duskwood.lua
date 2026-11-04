@@ -15,7 +15,7 @@ return {
 	-- {item:4371} Bronze Tube · {quest:174} Look to the Stars · {npc:3133} Herble Baubbletump · {npc:276} Viktori Prism'Antras · {npc:1448} Neal Allen · {area:150} Menethil Harbor
 	["No {item:4371} for {quest:174}? {npc:3133} sells it in the house beside {npc:276}, in limited stock; {npc:1448} in {area:150} sells it too.\n{npc:276}'s house stands at the east end of town. {npc:3133} sells engineering goods in the house beside it."] = "",
 	-- {npc:265} Madame Eva
-	["{npc:265}, inside"] = "",
+	["{npc:265}, inside"] = "{npc:265}, içeride",
 	-- {item:4371} Bronze Tube · {npc:3133} Herble Baubbletump
 	["{item:4371}, from {npc:3133}, if you have none"] = "{item:4371}, kaynak: {npc:3133}; yoksa",
 	-- {npc:267} Clerk Daltry
@@ -31,28 +31,28 @@ return {
 	-- {npc:663} Calor
 	["{npc:663}, by the town hall"] = "{npc:663}, belediye binasının yanında",
 	-- {npc:276} Viktori Prism'Antras
-	["{npc:276}, inside"] = "",
+	["{npc:276}, inside"] = "{npc:276}, içeride",
 	-- {item:4371} Bronze Tube · {npc:3133} Herble Baubbletump · {npc:1448} Neal Allen · {area:150} Menethil Harbor
 	["{item:4371}, from {npc:3133}: limited stock. Sold out? {npc:1448} in {area:150} sells it too."] = "{item:4371}, kaynak: {npc:3133}; stoku sınırlı. Tükendi mi? {area:150} limanındaki {npc:1448} de satıyor.",
 
 	-- Step 4: Nightbane Shadow Weaver on the way
 	-- {npc:533} Nightbane Shadow Weaver
-	["{npc:533} on the way"] = "",
+	["{npc:533} on the way"] = "Yol üstünde: {npc:533}",
 
 	-- Step 5: Tranquil Gardens Cemetery: kill these as you meet them
 	-- {area:121} Tranquil Gardens Cemetery
-	["{area:121}: kill these as you meet them"] = "",
+	["{area:121}: kill these as you meet them"] = "{area:121}: bunları karşılaştıkça öldür",
 	-- {area:42} Darkshire · {npc:302} Blind Mary · {area:10} Duskwood · {item:2378} Skeleton Finger
 	-- plural, as words: Skeletal Warriors = {npc:48} Skeletal Warrior · Skeletal Mages = {npc:203} Skeletal Mage
 	["Skeletal Warriors and Skeletal Mages walk among the graves south-east of {area:42}, below {npc:302}'s house on the hill. Every skeleton in {area:10} can drop a {item:2378}.\nCareful: Because the skeletons stand near each other, running straight in tends to pull several at once."] = "",
 
 	-- Step 7: Skeletal Fiend on the way
 	-- {npc:531} Skeletal Fiend
-	["{npc:531} on the way"] = "",
+	["{npc:531} on the way"] = "Yol üstünde: {npc:531}",
 
 	-- Step 8: Skeletal Horror on the way
 	-- {npc:202} Skeletal Horror
-	["{npc:202} on the way"] = "",
+	["{npc:202} on the way"] = "Yol üstünde: {npc:202}",
 
 	-- Step 9: Watcher Dodds
 	-- {npc:888} Watcher Dodds · {area:245} Yorgen Farmstead
@@ -70,7 +70,7 @@ return {
 
 	-- Step 12: The Hushed Bank: kill these as you meet them
 	-- {area:1097} The Hushed Bank
-	["{area:1097}: kill these as you meet them"] = "",
+	["{area:1097}: kill these as you meet them"] = "{area:1097}: bunları karşılaştıkça öldür",
 	-- {npc:289} Abercrombie · {area:40} Westfall
 	-- plural, as words: Pygmy Venom Web Spiders = {npc:539} Pygmy Venom Web Spider
 	["Rabid Dire Wolves roam the woods around the cemetery and {npc:289}, Starving Dire Wolves the hills north-east of him. Pygmy Venom Web Spiders crawl east of the cemetery and drop the venom. Every ghoul of the cemetery's northern half can drop a fang.\nCareful: Wolves and other spider types share the area along the {area:40} border, so you can easily pull several mobs at once."] = "",
@@ -81,7 +81,7 @@ return {
 
 	-- Step 14: Raven Hill Cemetery: kill these as you meet them
 	-- {area:492} Raven Hill Cemetery
-	["{area:492}: kill these as you meet them"] = "",
+	["{area:492}: kill these as you meet them"] = "{area:492}: bunları karşılaştıkça öldür",
 	-- {npc:522} Mor'Ladim
 	-- plural, as words: Skeletal Horrors = {npc:202} Skeletal Horror · Skeletal Fiends = {npc:531} Skeletal Fiend
 	["The cemetery lies north of the village. Skeletal Horrors and Skeletal Fiends walk its southern half. {npc:522}, an elite, wanders the graves: keep away from him."] = "Mezarlık köyün kuzeyinde. Güney yarısında Skeletal Horror ve Skeletal Fiend yaratıkları dolaşıyor. Elit bir yaratık olan {npc:522} mezarların arasında geziniyor: ondan uzak dur.",
@@ -95,12 +95,12 @@ return {
 
 	-- Step 18: Darkshire
 	-- {npc:268} Sirra Von'Indi
-	["{npc:268}, inside"] = "",
+	["{npc:268}, inside"] = "{npc:268}, içeride",
 
 	-- Step 19: Blind Mary
 	-- {area:42} Darkshire · {area:121} Tranquil Gardens Cemetery
 	["Her house stands on the hill south-east of {area:42}, above the {area:121}."] = "Evi {area:42} kasabasının güneydoğusundaki tepede, {area:121} mezarlığının yukarısında.",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 20: Tranquil Gardens Cemetery
 	-- {quest:337} An Old History Book · {area:10} Duskwood
@@ -111,7 +111,7 @@ return {
 
 	-- Step 24: Hearth to Darkshire
 	-- {area:42} Darkshire
-	["Hearth to {area:42}"] = "",
+	["Hearth to {area:42}"] = "Hearthstone ile dön: {area:42}",
 
 	-- Step 25: Back to Darkshire
 	-- {area:42} Darkshire
@@ -168,7 +168,7 @@ return {
 	-- {zone:1453} Stormwind
 	["Fly to {zone:1453}"] = "{zone:1453} şehrine uç",
 	-- {area:108} Sentinel Hill
-	["{area:108} flight master"] = "",
+	["{area:108} flight master"] = "{area:108} uçuş ustası",
 
 	-- Step 37: Gazin Tenorm
 	-- {npc:6173} Gazin Tenorm · {npc:6171} Duthorian Rall
@@ -178,7 +178,7 @@ return {
 
 	-- Step 39: Tram to Ironforge
 	-- {zone:1455} Ironforge
-	["Tram to {zone:1455}"] = "",
+	["Tram to {zone:1455}"] = "Tramvayla: {zone:1455}",
 
 	-- Step 40: Shaman training
 	["Shaman training"] = "Shaman eğitimi",
@@ -191,7 +191,7 @@ return {
 	["Train here, in {zone:1453}, before you go on."] = "",
 
 	-- Step 43: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 	["Level 22 and 24 spells"] = "Seviye 22 ve 24 büyüleri",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.

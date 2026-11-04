@@ -30,9 +30,9 @@ return {
 	-- plural, as words: Gold Bars = {item:3577} Gold Bar
 	["Tailors sew the {item:5770} from a rare pattern; miners smelt Gold Bars from {item:2776}. Everyone else buys both at the Auction House. If you wear the robe, take it off: {npc:6266} keeps it."] = "",
 	-- {item:5770} Robes of Arcana
-	["{item:5770}: the Auction House"] = "",
+	["{item:5770}: the Auction House"] = "{item:5770}: Auction House",
 	-- {item:3577} Gold Bar
-	["{item:3577}: the Auction House"] = "",
+	["{item:3577}: the Auction House"] = "{item:3577}: Auction House",
 
 	-- Step 6: Menara Voidrender
 	-- {npc:6266} Menara Voidrender · {npc:6251} Strahad Farsan · {area:392} Ratchet · {npc:2670} Xizk Goodstitch · {area:35} Booty Bay

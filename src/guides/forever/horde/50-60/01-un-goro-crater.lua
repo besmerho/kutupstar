@@ -5,15 +5,15 @@
 return {
 	-- Step 2: Into Un'Goro Crater
 	-- {area:490} Un'Goro Crater
-	["Into {area:490}"] = "",
+	["Into {area:490}"] = "{area:490} içine",
 	-- {area:1938} Broken Pillar · {area:490} Un'Goro Crater · {area:541} Marshal's Refuge
 	["From the {area:1938} ride west to the long ramp that winds down into {area:490}, then follow the crater's north wall to {area:541}, a camp in the cliff caves. Everyone here is neutral."] = "",
 	-- {npc:9117} J.D. Collie
-	["{npc:9117}, at the back of the cave; below ground"] = "",
+	["{npc:9117}, at the back of the cave; below ground"] = "{npc:9117}, mağaranın dibinde; yer altında",
 
 	-- Step 3: Bloodpetal Thresher on the way
 	-- {npc:6511} Bloodpetal Thresher
-	["{npc:6511} on the way"] = "",
+	["{npc:6511} on the way"] = "Yol üstünde: {npc:6511}",
 
 	-- Step 4: Out of the refuge
 	["Out of the refuge"] = "Sığınaktan çıkış",
@@ -42,7 +42,7 @@ return {
 
 	-- Step 8: Lakkari Tar Pits: kill these as you meet them
 	-- {area:538} Lakkari Tar Pits
-	["{area:538}: kill these as you meet them"] = "",
+	["{area:538}: kill these as you meet them"] = "{area:538}: bunları karşılaştıkça öldür",
 	-- {area:537} Fire Plume Ridge · {npc:9998} Shizzle · {npc:8659} Jes'rimon · {npc:9167} Frenzied Pterrordax
 	-- plural, as words: Bloodpetal Flayers = {npc:6510} Bloodpetal Flayer · Dinosaur Bones = {item:11114} Dinosaur Bone · Bloodpetal Trappers = {npc:6512} Bloodpetal Trapper
 	["Ride south-west to {area:537}, the volcano in the middle of the crater. Bloodpetal Flayers grow around its foot.\nSouth of the hot springs, Stegodons graze and Dinosaur Bones drop from them or lie on the ground; Diemetradons nearby carry the scales {npc:9998} wants. Ravasaurs hunt in packs in the south-west: their claws are for {npc:8659}, and now and then one carries a Mangled Journal (a rare drop: take its quest only if you get one). Avoid Gruff, a level 57 Stegodon.\nRide south-west along the western cliffs. {npc:9167} fly over the west side, and Bloodpetal Trappers grow in the same jungle."] = "",
@@ -54,7 +54,7 @@ return {
 	-- plural, as words: Gorishi Workers = {npc:6552} Gorishi Worker
 	["Careful: Gorishi Workers that drop below 45% health have a 50% chance to call for help from allies within 25 yd."] = "",
 	-- {npc:6551} Gorishi Wasp
-	["grind on {npc:6551}"] = "",
+	["grind on {npc:6551}"] = "Kas: {npc:6551}",
 
 	-- Step 12: Stegodons and ravasaurs
 	["Stegodons and ravasaurs"] = "Stegodonlar ve ravasaurlar",
@@ -78,25 +78,25 @@ return {
 
 	-- Step 17: A Wrecked Raft
 	["The raft lies on the shore of the south-eastern lake; the small pack sits in the water beside it."] = "Sal güneydoğudaki gölün kıyısında; küçük çanta yanında, suyun içinde.",
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- Step 19: Lashers and Threshers
 	["Lashers and Threshers"] = "Lasher ve Thresher yaratıkları",
 	-- plural, as words: Bloodpetal Lashers = {npc:6509} Bloodpetal Lasher
 	["Ride north along the east side. Bloodpetal Lashers and Threshers fill the jungle."] = "Doğu yakası boyunca kuzeye git. Orman Bloodpetal Lasher ve Bloodpetal Thresher yaratıklarıyla dolu.",
 	-- {npc:6511} Bloodpetal Thresher
-	["grind on {npc:6511}"] = "",
+	["grind on {npc:6511}"] = "Kas: {npc:6511}",
 
 	-- Step 20: Un'Goro Crater: kill these as you meet them
 	-- {area:490} Un'Goro Crater
-	["{area:490}: kill these as you meet them"] = "",
+	["{area:490}: kill these as you meet them"] = "{area:490}: bunları karşılaştıkça öldür",
 	["The expedition's crate sits at an abandoned camp in the eastern jungle."] = "Keşif ekibinin sandığı doğu ormanındaki terk edilmiş bir kampta.",
 
 	-- Step 21: Marshal's Refuge
 	-- {npc:9998} Shizzle
 	["{npc:9998}, at the entrance"] = "{npc:9998}, girişte",
 	-- {npc:9117} J.D. Collie
-	["{npc:9117}, below ground"] = "",
+	["{npc:9117}, below ground"] = "{npc:9117}, yer altında",
 	-- {npc:9118} Larion · {quest:4147} Marvon's Workshop · {npc:8737} Linken
 	["Keep {npc:9118}'s {quest:4147} and {npc:8737}'s letter for later guides."] = "{npc:9118} adlı NPC'nin {quest:4147} görevini ve {npc:8737} adlı NPC'nin mektubunu sonraki rehberler için sakla.",
 
@@ -114,11 +114,11 @@ return {
 	["{npc:9623} then wants a {item:10561}, an {skill:202} item. Skip it unless you have one."] = "{npc:9623} ardından bir {item:10561} istiyor; bu bir {skill:202} ürünü. Sende yoksa atla.",
 
 	-- Step 24: Level 51.81
-	["Level 51.81"] = "",
+	["Level 51.81"] = "Seviye 51.81",
 	-- {area:16985} The Shaper's Terrace
-	["Top up here to level 51.81 before the hand-ins at {area:16985}: they take you to level 52."] = "",
+	["Top up here to level 51.81 before the hand-ins at {area:16985}: they take you to level 52."] = "{area:16985} teslimlerinden önce burada seviye 51.81 olana kadar kas: teslimler seni seviye 52 yapar.",
 	-- {npc:6509} Bloodpetal Lasher
-	["grind on {npc:6509}"] = "",
+	["grind on {npc:6509}"] = "Kas: {npc:6509}",
 
 	-- Step 25: Un'Goro Crater: kill these as you meet them
 	-- {spell:8137} Silithid Pox · {spell:14120} Tunneler Acid
@@ -139,19 +139,19 @@ return {
 	-- Step 29: J.D. Collie
 	-- {area:541} Marshal's Refuge
 	["Ride north back to {area:541}."] = "Kuzeye, {area:541} sığınağına dön.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 30: Hearth to Gadgetzan
 	-- {area:976} Gadgetzan
-	["Hearth to {area:976}"] = "",
+	["Hearth to {area:976}"] = "Hearthstone ile dön: {area:976}",
 
 	-- Step 31: To Gadgetzan
 	-- {area:976} Gadgetzan
-	["To {area:976}"] = "",
+	["To {area:976}"] = "Git: {area:976}",
 
 	-- Step 32: Gadgetzan
 	-- {npc:5594} Alchemist Pestlezugg
-	["{npc:5594}, inside"] = "",
+	["{npc:5594}, inside"] = "{npc:5594}, içeride",
 	-- {npc:10041} Gorishi Hive Queen
 	["Pestlezugg's next quest needs the {npc:10041}, an elite boss. Skip it."] = "Pestlezugg'ın sonraki görevi elit bir boss olan {npc:10041} gerektiriyor. Atla.",
 
@@ -161,13 +161,13 @@ return {
 
 	-- Step 34: Back to Gadgetzan
 	-- {area:976} Gadgetzan
-	["Back to {area:976}"] = "",
+	["Back to {area:976}"] = "Dönüş: {area:976}",
 	-- {zone:1454} Orgrimmar
-	["{zone:1454} flight master"] = "",
+	["{zone:1454} flight master"] = "{zone:1454} uçuş ustası",
 
 	-- Step 35: Boat to Powderfuse Port
 	-- {area:16727} Powderfuse Port
-	["Boat to {area:16727}"] = "",
+	["Boat to {area:16727}"] = "Gemiyle: {area:16727}",
 
 	-- Step 36: Badlands
 	-- {zone:2548} Riverglades · {area:16685} Twilight's Shroud · {area:3} Badlands
@@ -201,7 +201,7 @@ return {
 
 	-- Step 42: Ruins of Thaurissan: kill these as you meet them
 	-- {area:250} Ruins of Thaurissan
-	["{area:250}: kill these as you meet them"] = "",
+	["{area:250}: kill these as you meet them"] = "{area:250}: bunları karşılaştıkça öldür",
 	-- {npc:7039} War Reaver · {quest:4296} Tablet of the Seven · {area:251} Flame Crest · {npc:10267} Tinkee Steamboil · {item:12284} Draco-Incarcinatrix 900
 	-- plural, as words: Black Broodlings = {npc:7047} Black Broodling
 	["Ride west to the dig site. {npc:7039} golems (53) stomp around it and drop the shards often; the {quest:4296} stands in its middle among the Thaurissan dwarves. Copy it.\nBlack Broodlings nest in the hills just east of {area:251}. Use {npc:10267}'s {item:12284} on a broodling when it is almost dead to capture its essence."] = "",
@@ -220,16 +220,16 @@ return {
 	-- {area:272} Tarren Mill
 	["Fly to {area:272}"] = "{area:272} kasabasına uç",
 	-- {area:340} Kargath
-	["{area:340} flight master"] = "",
+	["{area:340} flight master"] = "{area:340} uçuş ustası",
 
 	-- Step 46: Apothecary Lydon
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 47: Fly to Undercity
 	-- {area:1497} Undercity
-	["Fly to {area:1497}"] = "",
+	["Fly to {area:1497}"] = "Uç: {area:1497}",
 	-- {area:272} Tarren Mill
-	["{area:272} flight master"] = "",
+	["{area:272} flight master"] = "{area:272} uçuş ustası",
 
 	-- Step 48: Oran Snakewrithe
 	-- {npc:7825} Oran Snakewrithe · {object:36082} Magic Quarter
@@ -252,7 +252,7 @@ return {
 	-- Step 52: Janice Felstone
 	-- {zone:1458} Undercity · {area:85} Tirisfal Glades · {area:152} The Bulwark · {npc:10778} Janice Felstone
 	["Leave the {zone:1458} and ride east along the road through {area:85}, past the {area:152}. Felstone Farm is the first farm along the road; {npc:10778} waits in the house."] = "",
-	["Upstairs"] = "",
+	["Upstairs"] = "Üst katta",
 	-- {object:175894} Janice's Parcel
 	["{object:175894}, beside the house; inside"] = "",
 	-- {npc:10781} Royal Overseer Bauhaus · {zone:1458} Undercity
@@ -269,7 +269,7 @@ return {
 
 	-- Step 56: Terrordale: kill these as you meet them
 	-- {area:2627} Terrordale
-	["{area:2627}: kill these as you meet them"] = "",
+	["{area:2627}: kill these as you meet them"] = "{area:2627}: bunları karşılaştıkça öldür",
 	-- {area:2627} Terrordale · {item:15042} Empty Termite Jar
 	-- plural, as words: Large Termite Mounds = {object:177464} Large Termite Mound
 	["The book lies in the ruined inn of {area:2627}.\nThe Large Termite Mounds stand all over the hills east of {area:2627}. Use the {item:15042} on each mound you pass."] = "",
@@ -280,7 +280,7 @@ return {
 
 	-- Step 58: Eastern Plaguelands: kill these as you meet them
 	-- {area:139} Eastern Plaguelands
-	["{area:139}: kill these as you meet them"] = "",
+	["{area:139}: kill these as you meet them"] = "{area:139}: bunları karşılaştıkça öldür",
 	-- {npc:11063} Carlin Redpath · {npc:11064} Darrowshire Spirit · {area:2262} Darrowshire
 	["With {npc:11063}'s quest in your log, slain Scourge sometimes leave a {npc:11064}; talk to it to free it. Kill undead on the ride south-west to {area:2262}."] = "{npc:11063} adlı NPC'nin görevi günlüğündeyken öldürülen Scourge yaratıkları bazen bir {npc:11064} bırakır; onu özgür bırakmak için onunla konuş. Güneybatıya, {area:2262} köyüne giderken ölümsüzleri öldür.",
 	-- plural, as words: Darrowshire Spirits = {npc:11064} Darrowshire Spirit
@@ -309,7 +309,7 @@ return {
 
 	-- Step 64: Hearth to Light's Hope Chapel
 	-- {area:2268} Light's Hope Chapel
-	["Hearth to {area:2268}"] = "",
+	["Hearth to {area:2268}"] = "Hearthstone ile dön: {area:2268}",
 
 	-- Step 65: Back to Light's Hope Chapel
 	-- {area:2268} Light's Hope Chapel

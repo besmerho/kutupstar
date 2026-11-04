@@ -55,7 +55,7 @@ return {
 	-- {npc:257944} Elegael Thornpaw · {npc:258134} Naaleos Leafwhisper · {npc:258130} Jorel Windsinger · {npc:253622} Commander Haalien · {quest:94490} Ripped Missive
 	["The Nightfang Den is the cave north across the clearing from {npc:257944}. Heal the seven injured druids inside ({npc:258134} among them) and find {npc:258130}. {npc:253622} stands east of the den: he drops his head and a {quest:94490}; right-click the missive to start its quest."] = "",
 	-- {npc:253622} Commander Haalien
-	["from {npc:253622}"] = "",
+	["from {npc:253622}"] = "kaynak: {npc:253622}",
 
 	-- Step 9: Elegael Thornpaw, the den's fate
 	-- {npc:257944} Elegael Thornpaw
@@ -80,7 +80,7 @@ return {
 	["{npc:252359} waits in {area:16638}. Hand in on your way to a skyboat or to the {area:16626}."] = "",
 
 	-- Step 13: Friendly to Honored
-	["Friendly to Honored"] = "",
+	["Friendly to Honored"] = "Friendly → Honored",
 	-- {npc:254151} Vayn Moongaze
 	["The storyline and {npc:254151}'s first quest leave you at Friendly with 2100 to spare. Honored is 3900 more: four turn-ins of five ears up to level 18, twenty from level 22. Friendly opens 32 of {npc:254151}'s patterns, in two colours, Cloudy and Azure: Blacksmithing Skyforged Wristguards and Chain (skill 50, 9s 50c), Gauntlets and Greaves (55, 11s); Leatherworking Gustwoven and Windraveled bracers and belts (50) and gloves and boots (55); Tailoring Stormsewn Cuffs and Cord (50), Handwraps and Shoes (55). They bind when you buy them, so buy them on the crafter."] = "",
 	["five ears per turn-in"] = "",
@@ -90,11 +90,11 @@ return {
 	["{npc:254151}'s patterns"] = "",
 
 	-- Step 14: Honored to Revered
-	["Honored to Revered"] = "",
+	["Honored to Revered"] = "Honored → Revered",
 	["Honored opens the chest and leg patterns (skill 60, 12s 50c): Skyforged chainmail and legguards, Gustwoven harness and trousers, Windraveled jerkin and pants, Stormsewn vest and leggings. Revered is 12000 more: 12 turn-ins (60 ears, about 160 cultist kills at the Shrine) up to level 18, 60 turn-ins (300 ears) from level 22."] = "",
 
 	-- Step 15: Revered to Exalted
-	["Revered to Exalted"] = "",
+	["Revered to Exalted"] = "Revered → Exalted",
 	-- {item:280347} Shadowgale Squirrel
 	["Revered opens the {item:280347}, a companion pet, for 50s. Exalted is 21000 more: 21 turn-ins (105 ears, about 280 kills) up to level 18, 105 turn-ins (525 ears) from level 22."] = "",
 	-- {item:280347} Shadowgale Squirrel
@@ -102,7 +102,7 @@ return {
 
 	-- Step 16: The Nightclaw Mantle
 	-- {item:280363} Nightclaw Mantle
-	["The {item:280363}"] = "",
+	["The {item:280363}"] = "{item:280363}",
 	-- {item:280363} Nightclaw Mantle
 	["Exalted opens the {item:280363}, green cloth shoulders for level 15, for 8s 16c."] = "",
 }

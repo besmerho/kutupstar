@@ -7,7 +7,7 @@ return {
 	-- {object:3202} Grom'gol (no name in this language: may be words)
 	["Fly to {object:3202}"] = "{object:3202} kampına uç",
 	-- {area:75} Stonard
-	["{area:75} flight master"] = "",
+	["{area:75} flight master"] = "{area:75} uçuş ustası",
 
 	-- Step 3: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
@@ -28,7 +28,7 @@ return {
 	-- {area:484} Freewind Post
 	["Fly to {area:484}"] = "{area:484} karakoluna uç",
 	-- {zone:1454} Orgrimmar
-	["{zone:1454} flight master"] = "",
+	["{zone:1454} flight master"] = "{zone:1454} uçuş ustası",
 
 	-- Step 10: Gadgetzan
 	-- {area:976} Gadgetzan · {area:440} Tanaris
@@ -38,7 +38,7 @@ return {
 	-- {area:1638} Thunder Bluff
 	["Fly to {area:1638}"] = "{area:1638} şehrine uç",
 	-- {area:976} Gadgetzan
-	["{area:976} flight master"] = "",
+	["{area:976} flight master"] = "{area:976} uçuş ustası",
 
 	-- Step 13: Riding at 40
 	-- {npc:3690} Kar Stormsinger · {area:222} Bloodhoof Village · {npc:3685} Harb Clawhoof · {npc:4752} Kildar · {zone:1454} Orgrimmar
@@ -54,7 +54,7 @@ return {
 
 	-- Step 15: Zeppelin to Undercity
 	-- {zone:1458} Undercity
-	["Zeppelin to {zone:1458}"] = "",
+	["Zeppelin to {zone:1458}"] = "Zeplinle: {zone:1458}",
 
 	-- Step 16: Riding at 40
 	-- {npc:4773} Velma Warnam · {area:159} Brill · {npc:4731} Zachariah Post · {npc:4752} Kildar · {zone:1454} Orgrimmar
@@ -78,17 +78,17 @@ return {
 
 	-- Step 25: Back to Gadgetzan
 	-- {area:976} Gadgetzan
-	["Back to {area:976}"] = "",
+	["Back to {area:976}"] = "Dönüş: {area:976}",
 	-- {zone:1456} Thunder Bluff
-	["{zone:1456} flight master"] = "",
+	["{zone:1456} flight master"] = "{zone:1456} uçuş ustası",
 
 	-- Step 26: Back to Gadgetzan
 	-- {area:392} Ratchet
-	["{area:392} flight master"] = "",
+	["{area:392} flight master"] = "{area:392} uçuş ustası",
 
 	-- Step 30: Noonshade Ruins: kill these as you meet them
 	-- {area:1937} Noonshade Ruins
-	["{area:1937}: kill these as you meet them"] = "",
+	["{area:1937}: kill these as you meet them"] = "{area:1937}: bunları karşılaştıkça öldür",
 	-- {area:976} Gadgetzan
 	-- plural, as words: Wastewander Rogues = {npc:5615} Wastewander Rogue
 	["The bandits and thieves camp in the dunes east of {area:976}. Every Wastewander can carry a water pouch: keep ten, five for each of Luglunket's bounties.\nCareful: Wastewander Rogues (level 43-44) move stealthed, so they can approach unseen."] = "",
@@ -97,31 +97,31 @@ return {
 	-- Step 32: Steamwheedle Port
 	["Ride north-east to the goblin harbour on the coast."] = "Kuzeydoğuya, kıyıdaki goblin limanına git.",
 	-- {npc:7882} Security Chief Bilgewhizzle
-	["{npc:7882}, inside"] = "",
+	["{npc:7882}, inside"] = "{npc:7882}, içeride",
 	-- {npc:7881} Stoley
-	["{npc:7881}, inside"] = "",
+	["{npc:7881}, inside"] = "{npc:7881}, içeride",
 
 	-- Step 33: Lost Rigger Cove: kill these as you meet them
 	-- {area:1336} Lost Rigger Cove
-	["{area:1336}: kill these as you meet them"] = "",
+	["{area:1336}: kill these as you meet them"] = "{area:1336}: bunları karşılaştıkça öldür",
 	-- {npc:7883} Andre Firebeard
 	["South along the coast, the Southsea pirates hold the cove. {npc:7883} and the stolen cargo are on the docks at its far end. Any pirate can drop a hat, the kidnappers most often.\nCareful: Two or three pirates stand with {npc:7883}, and many more pirates from the town join the fight once it starts."] = "",
-	["Upstairs"] = "",
+	["Upstairs"] = "Üst katta",
 
 	-- Step 34: Waterspring Field: kill these as you meet them
 	-- {area:985} Waterspring Field
-	["{area:985}: kill these as you meet them"] = "",
+	["{area:985}: kill these as you meet them"] = "{area:985}: bunları karşılaştıkça öldür",
 	-- {area:976} Gadgetzan · {npc:7847} Caliph Scorpidsting
 	-- plural, as words: Wastewander Rogues = {npc:5615} Wastewander Rogue
 	["The shadow mages, rogues and assassins camp south-east of {area:976}.\nSouth-east of Gadgetzan the Wastewander bandits camp in the dunes; {npc:7847} stands in the eastern camp.\nCareful: Wastewander Rogues keep Sneak up while out of combat, so hidden rogues can join a fight you start at a camp.\nCareful: Two stealthed Wastewander Rogues travel with him wherever he goes. At his spawn camp, two shadowmages and their minions are close enough to join a fight with him. Out by the towers you can fight him without them."] = "",
 
 	-- Step 38: Camp Mojache
 	-- {npc:7777} Rok Orhan · {area:1099} Camp Mojache
-	["{npc:7777} walks around {area:1099}: look inside the circle on the map"] = "",
+	["{npc:7777} walks around {area:1099}: look inside the circle on the map"] = "{npc:7777}, {area:1099} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 	-- {npc:8115} Witch Doctor Uzer'i · {zone:1454} Orgrimmar
 	["{npc:8115}: for {zone:1454}, around level 45"] = "{npc:8115}: {zone:1454} için, seviye 45 civarında",
 	-- {npc:7854} Jangdor Swiftstrider
-	["{npc:7854}, inside"] = "",
+	["{npc:7854}, inside"] = "{npc:7854}, içeride",
 
 	-- Step 39: Gordunni Outpost
 	["North of the gnolls the ogres hold a hilltop outpost; pull the ogre-magi to you. The cobalt is in the dirt mounds around the outpost, and the scroll lies on the ground inside it."] = "Gnolların kuzeyinde ogreler tepedeki bir karakolu tutuyor; ogre büyücülerini kendine çek. Kobalt karakolun çevresindeki toprak tümseklerinde, tomar ise içeride, yerde duruyor.",
@@ -136,7 +136,7 @@ return {
 
 	-- Step 42: Feralas: kill these as you meet them
 	-- {area:357} Feralas
-	["{area:357}: kill these as you meet them"] = "",
+	["{area:357}: kill these as you meet them"] = "{area:357}: bunları karşılaştıkça öldür",
 	["The sprite darters flit over the grove just west of Mojache; nearly every one drops a wing. The Woodpaw alphas lead the camps south-west of it: kill them within the hour.\nCareful: Most Alphas sit in small tent camps with 2-4 other gnolls that join the fight, and other gnolls patrol between the camps."] = "",
 
 	-- Step 44: Grimtotem camp
@@ -149,11 +149,11 @@ return {
 
 	-- Step 46: Ruins of Isildien: kill these as you meet them
 	-- {area:2522} Ruins of Isildien
-	["{area:2522}: kill these as you meet them"] = "",
+	["{area:2522}: kill these as you meet them"] = "{area:2522}: bunları karşılaştıkça öldür",
 	-- {area:1105} Feral Scar Vale
 	["Ride south-west to the ogre ruins below {area:1105}. Shamans, warlocks and maulers fill them; the Mage-Lords at the southern end carry the orb."] = "Güneybatıya, {area:1105} vadisinin aşağısındaki ogre harabelerine git. Harabeler Shaman, Warlock ve Mauler yaratıklarıyla dolu; küreyi güney uçtaki Mage-Lord yaratıkları taşıyor.",
 	-- {npc:5234} Gordunni Mauler · {area:2522} Ruins of Isildien
-	["{npc:5234} walks around {area:2522}: look inside the circle on the map"] = "",
+	["{npc:5234} walks around {area:2522}: look inside the circle on the map"] = "{npc:5234}, {area:2522} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 47: Hearth to Camp Mojache
 	-- {area:1099} Camp Mojache
@@ -181,7 +181,7 @@ return {
 
 	-- Step 56: Fly to Orgrimmar
 	-- {area:1099} Camp Mojache
-	["{area:1099} flight master"] = "",
+	["{area:1099} flight master"] = "{area:1099} uçuş ustası",
 
 	-- Step 57: Orgrimmar
 	-- {zone:1454} Orgrimmar · {object:172958} Valley of Honor · {object:172960} Cleft of Shadow · {object:172961} Valley of Spirits

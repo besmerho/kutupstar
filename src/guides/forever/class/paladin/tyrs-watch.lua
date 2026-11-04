@@ -45,7 +45,7 @@ return {
 	-- {npc:246349} Breton Samuels · {npc:246389} Hilda the Breaker · {npc:246393} Jorin Croge · {npc:246378} Danitha Morr · {npc:246394} Ander Solliden
 	["{npc:246349} gives you a weapon, then sends you round the keep to speak with four of its people: {npc:246389} just south of the gate, {npc:246393} and {npc:246378} inside the keep, and {npc:246394}, the lookout, who walks the road south-east of the keep. Pick the conversation option with each."] = "",
 	-- {npc:246349} Breton Samuels · {item:246164} Skullthumper · {item:246165} Driftwood Smasher
-	["{npc:246349}: {item:246164} or {item:246165}"] = "",
+	["{npc:246349}: {item:246164} or {item:246165}"] = "{npc:246349}: {item:246164} ya da {item:246165}",
 
 	-- Step 8: Danitha Morr
 	-- {npc:246378} Danitha Morr · {npc:246393} Jorin Croge · {quest:91317} The Tarnished
@@ -89,7 +89,7 @@ return {
 
 	-- Step 14: Hilda the Breaker and Ephram Barbaro
 	-- {npc:246389} Hilda the Breaker · {npc:259190} Ephram Barbaro
-	["{npc:246389} and {npc:259190}"] = "",
+	["{npc:246389} and {npc:259190}"] = "{npc:246389} ve {npc:259190}",
 	-- {npc:246389} Hilda the Breaker · {npc:259190} Ephram Barbaro
 	["{npc:246389} and {npc:259190} wait at the forest's edge south of the gate."] = "",
 
@@ -106,7 +106,7 @@ return {
 	-- plural, as words: Scarlet Zealots = {npc:1537} Scarlet Zealot
 	["{npc:257648} needs 10 {item:2589}. Humanoids drop it: the Scarlet Zealots and Friars of the glades about three kills in ten. The Undercity Auction House sells it too."] = "",
 	-- {item:2589} Linen Cloth
-	["{item:2589} x10"] = "",
+	["{item:2589} x10"] = "{item:2589} x10",
 
 	-- Step 19: The Symbol of Life
 	-- {item:6866} Symbol of Life
@@ -114,7 +114,7 @@ return {
 	-- {area:16602} Bandarion Keep · {npc:246378} Danitha Morr · {item:6866} Symbol of Life · {npc:257655} Deathguard Billmuth
 	["Back to {area:16602}. {npc:246378} gives you the {item:6866}; {npc:257655} waits downstairs in the keep. If you lose the symbol, {npc:246378} gives you another."] = "",
 	-- {npc:257655} Deathguard Billmuth
-	["{npc:257655}, downstairs"] = "",
+	["{npc:257655}, downstairs"] = "{npc:257655}, alt katta",
 
 	-- Step 20: Deathguard Falgan
 	-- {area:812} Venomweb Vale · {item:6866} Symbol of Life

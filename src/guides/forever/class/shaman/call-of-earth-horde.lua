@@ -5,7 +5,7 @@
 return {
 	-- Guide
 	-- {quest:1516} Call of Earth
-	["{quest:1516} (Horde)"] = "",
+	["{quest:1516} (Horde)"] = "{quest:1516} (Horde)",
 	-- {item:5175} Earth Totem · {spell:8071} Stoneskin Totem
 	["Your {item:5175}: without it no earth totem can be cast. {spell:8071} comes with it at level 4."] = "",
 
@@ -25,17 +25,17 @@ return {
 
 	-- Step 4: Lost the Earth Sapta?
 	-- {quest:1463} Earth Sapta
-	["Lost the {quest:1463}?"] = "",
+	["Lost the {quest:1463}?"] = "{quest:1463} kayıp mı?",
 	-- {quest:1463} Earth Sapta · {npc:5887} Canaga Earthcaller
 	["Only if the {quest:1463} is gone from your bags (drunk away from the rock, or sold): {npc:5887} gives you another."] = "",
 	-- {npc:5887} Canaga Earthcaller · {quest:1463} Earth Sapta
-	["{npc:5887}: a new {quest:1463}"] = "",
+	["{npc:5887}: a new {quest:1463}"] = "{npc:5887}: yeni bir {quest:1463}",
 
 	-- Step 5: Spirit Rock
 	-- {area:639} Spirit Rock · {area:638} Hidden Path · {item:6635} Earth Sapta · {npc:5891} Minor Manifestation of Earth
 	["{area:639} sits on a ledge in the hills just south of the Den. The {area:638} up starts at the foot of the hills south-west of the Den, between two idle peons; it climbs south-west into the hills, then bends back east to the rock. Stand right beside the stone and drink the {item:6635}: the {npc:5891} appears for a short while, so speak to it at once (walk almost under it if it does not answer). Coming back, you can drop down the ledge towards the Den instead of walking the path."] = "",
 	-- {item:6635} Earth Sapta · {area:639} Spirit Rock
-	["{item:6635}, beside {area:639}"] = "",
+	["{item:6635}, beside {area:639}"] = "{item:6635}, {area:639} yanında",
 	-- {item:6656} Rough Quartz
 	["it hands you the {item:6656}: keep it"] = "",
 
@@ -61,17 +61,17 @@ return {
 
 	-- Step 10: Lost the Earth Sapta?
 	-- {quest:1462} Earth Sapta
-	["Lost the {quest:1462}?"] = "",
+	["Lost the {quest:1462}?"] = "{quest:1462} kayıp mı?",
 	-- {quest:1462} Earth Sapta
 	["Only if the {quest:1462} is gone from your bags: the Seer gives you another."] = "",
 	-- {npc:5888} Seer Ravenfeather · {quest:1462} Earth Sapta
-	["{npc:5888}: a new {quest:1462}"] = "",
+	["{npc:5888}: a new {quest:1462}"] = "{npc:5888}: yeni bir {quest:1462}",
 
 	-- Step 11: Kodo Rock
 	-- {area:637} Kodo Rock · {npc:2991} Greatmother Hawkwind · {item:6635} Earth Sapta · {npc:5891} Minor Manifestation of Earth
 	["{area:637} is a small pillar on a low mound due east of {npc:2991}'s well, east of the camp; it only shows from about fifteen yards away, and hostile boars graze around it. Stand beside it and drink the {item:6635}, then speak to the {npc:5891} before it fades (drink again if it does)."] = "",
 	-- {item:6635} Earth Sapta · {area:637} Kodo Rock
-	["{item:6635}, beside {area:637}"] = "",
+	["{item:6635}, beside {area:637}"] = "{item:6635}, {area:637} yanında",
 
 	-- Step 12: Seer Ravenfeather
 	-- {item:6656} Rough Quartz · {item:5175} Earth Totem
@@ -93,7 +93,7 @@ return {
 
 	-- Step 16: The Rise of Spirits
 	-- {area:16988} Rise of Spirits
-	["The {area:16988}"] = "",
+	["The {area:16988}"] = "{area:16988}",
 	-- {area:16988} Rise of Spirits · {item:6635} Earth Sapta · {npc:251166} Minor Manifestation of Earth
 	["The {area:16988} is the hilltop shrine north-east of Boro: the path up starts on the hill just above the clearing where the flies were. Drink the {item:6635} beside the shrine and speak to the {npc:251166} before it fades."] = "",
 	-- {item:6635} Earth Sapta

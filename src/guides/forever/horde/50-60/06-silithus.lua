@@ -5,9 +5,9 @@
 return {
 	-- Step 1: Fly to Marshal's Refuge
 	-- {area:541} Marshal's Refuge
-	["Fly to {area:541}"] = "",
+	["Fly to {area:541}"] = "Uç: {area:541}",
 	-- {area:1099} Camp Mojache
-	["{area:1099} flight master"] = "",
+	["{area:1099} flight master"] = "{area:1099} uçuş ustası",
 
 	-- Step 2: Layo Starstrike
 	-- {area:3077} Valor's Rest · {zone:1451} Silithus · {npc:13220} Layo Starstrike
@@ -24,7 +24,7 @@ return {
 
 	-- Step 6: Silithus: kill these as you meet them
 	-- {zone:1451} Silithus
-	["{zone:1451}: kill these as you meet them"] = "",
+	["{zone:1451}: kill these as you meet them"] = "{zone:1451}: bunları karşılaştıkça öldür",
 	-- plural, as words: Dredge Strikers = {npc:11740} Dredge Striker · Stonelash Scorpids = {npc:11735} Stonelash Scorpid · Sand Skitterers = {npc:11738} Sand Skitterer
 	["Dredge Strikers, Stonelash Scorpids and Sand Skitterers share the sands just north of the hold."] = "Dredge Striker, Stonelash Scorpid ve Sand Skitterer yaratıkları kalenin hemen kuzeyindeki kumları paylaşıyor.",
 
@@ -33,7 +33,7 @@ return {
 	["The glowing tablet fragments lie around the Twilight camp in the far north-west; the Dust Stormers and Desert Rumblers there drop them too."] = "Parlayan tablet parçaları en kuzeybatıdaki Twilight kampının çevresinde duruyor; oradaki Dust Stormer ve Desert Rumbler yaratıkları da onları düşürür.",
 
 	-- Step 9: On the way
-	["On the way"] = "",
+	["On the way"] = "Yol üstünde",
 
 	-- Step 10: Hive in the Tower
 	-- {item:17346} Encrusted Silithid Object
@@ -41,12 +41,12 @@ return {
 	["Back to Southwind and climb the tower. Stirring the hive at the top brings out Hive'Ashi Ambushers; one carries the {item:17346}."] = "Southwind'e dön ve kuleye tırman. Tepedeki kovanı kurcalamak Hive'Ashi Ambusher yaratıklarını ortaya çıkarır; biri {item:17346} taşıyor.",
 
 	-- Step 11: The Spirits of Southwind
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 12: Hermit Ortell
 	-- {area:3447} Ortell's Hideout
 	["Ride south-east to {area:3447} under the Un'Goro cliffs."] = "Güneydoğuya, Un'Goro uçurumlarının altındaki {area:3447} saklanma yerine git.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 13: Dredge Crushers and Pincers
 	-- plural, as words: Dredge Crushers = {npc:11741} Dredge Crusher
@@ -54,7 +54,7 @@ return {
 	-- plural, as words: Dredge Crushers = {npc:11741} Dredge Crusher · Stonelash Pincers = {npc:11736} Stonelash Pincer
 	["Head north along the western dunes; Dredge Crushers and Stonelash Pincers range from here back toward the hold."] = "Batı kum tepeleri boyunca kuzeye git; Dredge Crusher ve Stonelash Pincer yaratıkları buradan kaleye doğru dolaşıyor.",
 	-- {npc:11741} Dredge Crusher · {area:2738} Southwind Village
-	["{npc:11741} walks around {area:2738}: look inside the circle on the map"] = "",
+	["{npc:11741} walks around {area:2738}: look inside the circle on the map"] = "{npc:11741}, {area:2738} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 14: General Kirika
 	-- {area:2744} Hive'Regal
@@ -112,7 +112,7 @@ return {
 
 	-- Step 31: Frenzied Pterrordax
 	-- {npc:9167} Frenzied Pterrordax
-	["{npc:9167} walks around here: look inside the circle on the map"] = "",
+	["{npc:9167} walks around here: look inside the circle on the map"] = "{npc:9167} buralarda dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 32: Krakle
 	-- {npc:10302} Krakle · {area:543} Golakka Hot Springs
@@ -136,14 +136,14 @@ return {
 
 	-- Step 38: Un'Goro Crater: kill these as you meet them
 	-- {area:490} Un'Goro Crater
-	["{area:490}: kill these as you meet them"] = "",
+	["{area:490}: kill these as you meet them"] = "{area:490}: bunları karşılaştıkça öldür",
 	-- plural, as words: Un'Goro Gorillas = {npc:6514} Un'Goro Gorilla
 	["Careful: Un'Goro Gorillas (level 50-51) call for help from allies within 20 yd once they drop to 25% health. There is a cave full of apes in the area, and fighting there brings many adds."] = "",
 
 	-- Step 39: Marshal's Refuge
 	["Collie is inside it."] = "",
 	-- {npc:9117} J.D. Collie
-	["{npc:9117}, below ground"] = "",
+	["{npc:9117}, below ground"] = "{npc:9117}, yer altında",
 	-- {quest:3942} Linken's Memory · {npc:9116} Eridan Bluewind · {area:2479} Emerald Sanctuary · {zone:1448} Felwood
 	["Keep {quest:3942}: {npc:9116} is at the {area:2479}, on the next guide's way through {zone:1448}."] = "{quest:3942} görevini sakla: {npc:9116}, sonraki rehberin {zone:1448} yolunda, {area:2479} sığınağında.",
 	-- {npc:10980} Umi's Mechanical Yeti · {npc:10977} Quixxil
@@ -171,19 +171,19 @@ return {
 	-- {area:1637} Orgrimmar
 	["Fly to {area:1637}"] = "{area:1637} şehrine uç",
 	-- {area:976} Gadgetzan
-	["{area:976} flight master"] = "",
+	["{area:976} flight master"] = "{area:976} uçuş ustası",
 
 	-- Step 47: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 48: Paladin trainer
-	["Paladin trainer"] = "",
+	["Paladin trainer"] = "Paladin eğitmeni",
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {zone:1454} Orgrimmar
-	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "",
+	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde; {zone:1454} bölgesinde Paladin eğitmeni yok",
 
 	-- Step 51: Zeppelin to Undercity
 	-- {zone:1458} Undercity
-	["Zeppelin to {zone:1458}"] = "",
+	["Zeppelin to {zone:1458}"] = "Zeplinle: {zone:1458}",
 
 	-- Step 54: Radley and Durgen
 	["Radley and Durgen"] = "Radley ve Durgen",
@@ -204,7 +204,7 @@ return {
 	-- plural, as words: Temporal Parasites = {npc:10717} Temporal Parasite
 	["Ride south into Andorhal. {npc:10667} waits in the ruined inn on the west side of town. Stand in the doorway of each of the four towers with the {item:12815} to mark it; keep to the edges of town. Use the {item:12627} by the silos in the middle of town to bring out Temporal Parasites."] = "Güneye, Andorhal'a git. {npc:10667} kasabanın batı yakasındaki yıkık handa bekliyor. Dört kulenin her birini işaretlemek için {item:12815} ile kapısında dur; kasabanın kenarlarından ilerle. Temporal Parasite yaratıklarını ortaya çıkarmak için kasabanın ortasındaki siloların yanında {item:12627} kullan.",
 	-- {npc:10667} Chromie
-	["{npc:10667}, upstairs"] = "",
+	["{npc:10667}, upstairs"] = "{npc:10667}, üst katta",
 	-- {npc:10903} Andorhal Tower Two · {item:12815} Beacon Torch
 	["Mark {npc:10903} with the {item:12815}"] = "{npc:10903} kulesini {item:12815} ile işaretle",
 	-- {npc:10904} Andorhal Tower Three · {item:12815} Beacon Torch
@@ -256,16 +256,16 @@ return {
 	["Ride north-west to {npc:1855}'s hut."] = "Kuzeybatıya, {npc:1855} kulübesine git.",
 
 	-- Step 78: Level 59.14
-	["Level 59.14"] = "",
+	["Level 59.14"] = "Seviye 59.14",
 	-- {quest:6135} Duskwing, Oh How I Hate Thee...
-	["If you skipped {quest:6135}, grind here to level 59.14 to stay on the route's plan."] = "",
+	["If you skipped {quest:6135}, grind here to level 59.14 to stay on the route's plan."] = "{quest:6135} görevini atladıysan rotanın planında kalmak için burada seviye 59.14 olana kadar kas.",
 	-- {npc:10717} Temporal Parasite
-	["grind on {npc:10717}"] = "",
+	["grind on {npc:10717}"] = "Kas: {npc:10717}",
 
 	-- Step 79: Chromie
 	-- {npc:10667} Chromie
 	["Ride south-west to {npc:10667} in Andorhal."] = "Güneybatıya, Andorhal'daki {npc:10667} yanına git.",
-	["Upstairs"] = "",
+	["Upstairs"] = "Üst katta",
 	-- {npc:10667} Chromie
 	["{npc:10667}'s Battle of Darrowshire ends against elites. Skip it."] = "{npc:10667} adlı NPC'nin Battle of Darrowshire görevi elitlere karşı bitiyor. Atla.",
 
@@ -278,10 +278,10 @@ return {
 
 	-- Step 83: Into Eastern Plaguelands
 	-- {area:139} Eastern Plaguelands
-	["Into {area:139}"] = "",
+	["Into {area:139}"] = "{area:139} içine",
 
 	-- Step 85: Of Lost Honor
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- Step 86: Infiltrator Hameya
 	-- {area:2273} Zul'Mashar
@@ -294,7 +294,7 @@ return {
 
 	-- Step 90: Into Western Plaguelands
 	-- {area:28} Western Plaguelands
-	["Into {area:28}"] = "",
+	["Into {area:28}"] = "{area:28} içine",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["Dredge and scorpids"] = "Dredge yaratıkları ve scorpidler",

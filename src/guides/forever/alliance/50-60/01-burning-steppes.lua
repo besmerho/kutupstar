@@ -8,15 +8,15 @@ return {
 	["The shrine lies in the south-west corner of {area:16}, south of {area:3137}."] = "",
 
 	-- Step 2: On the way
-	["On the way"] = "",
+	["On the way"] = "Yol üstünde",
 	-- {npc:6116} Highborne Apparition · {area:1235} Shadowsong Shrine
-	["{npc:6116} along the way to {area:1235}"] = "",
+	["{npc:6116} along the way to {area:1235}"] = "{npc:6116}, {area:1235} yolu üstünde",
 	-- {npc:6117} Highborne Lichling · {area:1235} Shadowsong Shrine
-	["{npc:6117} along the way to {area:1235}"] = "",
+	["{npc:6117} along the way to {area:1235}"] = "{npc:6117}, {area:1235} yolu üstünde",
 
 	-- Step 3: Azshara: kill these as you meet them
 	-- {area:16} Azshara
-	["{area:16}: kill these as you meet them"] = "",
+	["{area:16}: kill these as you meet them"] = "{area:16}: bunları karşılaştıkça öldür",
 	["The Highborne ghosts haunt the ruins around the shrine; the Haldarr satyrs hold the camp just north of it."] = "Highborne hayaletleri tapınağın çevresindeki harabelerde dolaşıyor; hemen kuzeydeki kampı Haldarr satirleri tutuyor.",
 
 	-- Step 6: Ogtinc
@@ -35,13 +35,13 @@ return {
 	-- plural, as words: Undamaged Hippogryph Feathers = {item:10450} Undamaged Hippogryph Feather
 	["Optional: {npc:8395} wants two Undamaged Hippogryph Feathers from the hippogryphs around his camp. The data lists no experience for it."] = "İsteğe bağlı: {npc:8395}, kampının çevresindeki hipogriflerden iki Undamaged Hippogryph Feather istiyor. Veriler bunun için deneyim puanı göstermiyor.",
 	-- {npc:6375} Thunderhead Hippogryph
-	["grind on {npc:6375}"] = "",
+	["grind on {npc:6375}"] = "Kas: {npc:6375}",
 
 	-- Step 11: Kim'jael
 	-- {npc:8420} Kim'jael · {area:1219} Legashi Encampment · {area:1220} Thalassian Base Camp
 	["{npc:8420} camps at the {area:1219} in the north; his equipment lies all over the {area:1220} just south-east of him."] = "{npc:8420} kuzeydeki {area:1219} kampında; ekipmanı onun hemen güneydoğusundaki {area:1220} kampının her yanına dağılmış.",
 	-- {npc:6196} Spitelash Myrmidon
-	["grind on {npc:6196}"] = "",
+	["grind on {npc:6196}"] = "Kas: {npc:6196}",
 
 	-- Step 12: The Ruins of Eldarath
 	-- {area:1221} Ruins of Eldarath
@@ -58,29 +58,29 @@ return {
 	["Swim to the small island off the southern tip of {area:16}: {npc:8392} waits by the monument."] = "",
 
 	-- Step 19: Level 50.89
-	["Level 50.89"] = "",
+	["Level 50.89"] = "Seviye 50.89",
 	-- {zone:1426} Dun Morogh
-	["Top up here to level 50.89 before the hand-ins at {zone:1426}: they take you to level 51."] = "",
+	["Top up here to level 50.89 before the hand-ins at {zone:1426}: they take you to level 51."] = "{zone:1426} teslimlerinden önce burada seviye 50.89 olana kadar kas: teslimler seni seviye 51 yapar.",
 
 	-- Step 20: Hearth to Stoutlager Inn
 	-- {area:2101} Stoutlager Inn
-	["Hearth to {area:2101}"] = "",
+	["Hearth to {area:2101}"] = "Hearthstone ile dön: {area:2101}",
 
 	-- Step 21: To Stoutlager Inn
 	-- {area:2101} Stoutlager Inn
-	["To {area:2101}"] = "",
+	["To {area:2101}"] = "Git: {area:2101}",
 
 	-- Step 22: Fly to Ironforge
 	-- {area:1537} Ironforge
-	["Fly to {area:1537}"] = "",
+	["Fly to {area:1537}"] = "Uç: {area:1537}",
 	-- {area:144} Thelsamar
-	["{area:144} flight master"] = "",
+	["{area:144} flight master"] = "{area:144} uçuş ustası",
 
 	-- Step 24: Fly to Morgan's Vigil
 	-- {area:2418} Morgan's Vigil
-	["Fly to {area:2418}"] = "",
+	["Fly to {area:2418}"] = "Uç: {area:2418}",
 	-- {zone:1455} Ironforge
-	["{zone:1455} flight master"] = "",
+	["{zone:1455} flight master"] = "{zone:1455} uçuş ustası",
 
 	-- Step 25: Morgan's Vigil
 	-- {area:2418} Morgan's Vigil
@@ -89,7 +89,7 @@ return {
 	-- Step 26: Dreadmaul Rock
 	["The Firegut ogres hold the great rock north of the Vigil, with the Brutes on its east side."] = "Firegut ogreları Vigil'in kuzeyindeki büyük kayayı tutuyor, Brute yaratıkları da doğu yakasında.",
 	-- {npc:7034} Firegut Ogre Mage
-	["{npc:7034}, below ground"] = "",
+	["{npc:7034}, below ground"] = "{npc:7034}, yer altında",
 
 	-- Step 27: Morgan's Vigil
 	-- {npc:9177} Oralius
@@ -97,31 +97,31 @@ return {
 
 	-- Step 28: Blackrock Medallion on the way
 	-- {item:11467} Blackrock Medallion
-	["{item:11467} on the way"] = "",
+	["{item:11467} on the way"] = "Yol üstünde: {item:11467}",
 
 	-- Step 29: Thaurissan Relic on the way
 	-- {object:153556} Thaurissan Relic
-	["{object:153556} on the way"] = "",
+	["{object:153556} on the way"] = "Yol üstünde: {object:153556}",
 
 	-- Step 30: Level 51.39
-	["Level 51.39"] = "",
+	["Level 51.39"] = "Seviye 51.39",
 	-- {area:251} Flame Crest
-	["Top up here to level 51.39 before the hand-ins at {area:251}: they take you to level 52."] = "",
+	["Top up here to level 51.39 before the hand-ins at {area:251}: they take you to level 52."] = "{area:251} teslimlerinden önce burada seviye 51.39 olana kadar kas: teslimler seni seviye 52 yapar.",
 	-- {npc:7034} Firegut Ogre Mage
-	["grind on {npc:7034}"] = "",
+	["grind on {npc:7034}"] = "Kas: {npc:7034}",
 
 	-- Step 31: Flame Crest
 	-- {area:251} Flame Crest
 	["Follow the road west, then climb north to the goblin camp on {area:251}."] = "Yolu batıya izle, sonra kuzeye, {area:251} üzerindeki goblin kampına tırman.",
 
 	-- Step 32: Level 52
-	["Level 52"] = "",
+	["Level 52"] = "Seviye 52",
 	-- {area:251} Flame Crest
-	["Top up here to level 52 before the hand-ins at {area:251}: they take you to level 53."] = "",
+	["Top up here to level 52 before the hand-ins at {area:251}: they take you to level 53."] = "{area:251} teslimlerinden önce burada seviye 52 olana kadar kas: teslimler seni seviye 53 yapar.",
 
 	-- Step 33: Ruins of Thaurissan: kill these as you meet them
 	-- {area:250} Ruins of Thaurissan
-	["{area:250}: kill these as you meet them"] = "",
+	["{area:250}: kill these as you meet them"] = "{area:250}: bunları karşılaştıkça öldür",
 	-- {area:250} Ruins of Thaurissan · {area:251} Flame Crest · {object:147516} Dark Iron · {item:12284} Draco-Incarcinatrix 900 · {npc:7047} Black Broodling
 	["The relics are the carved stones scattered through the {area:250} around {area:251}: click them until the information is recovered.\nRead the tablet in the {object:147516} camp among the ruins, south-west of {area:251}, to copy the transcript.\nUse the {item:12284} on a {npc:7047} on the slopes east of {area:251} just before it dies, then loot the essence it leaves."] = "",
 
@@ -130,24 +130,24 @@ return {
 	["Ends with {quest:4808} in {area:2255}, {zone:1452}: keep it"] = "{zone:1452} bölgesinde, {area:2255} kasabasındaki {quest:4808} ile biter: sakla",
 
 	-- Step 35: Cyrus Therepentous
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 36: A Taste of Flame
 	-- {npc:9461} Frenzied Black Drake
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:9461} is a level 54 elite: most classes solo it at level 56, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:9461} is a level 54 elite: most classes solo it at level 56, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:9461}, seviye 54 bir elit: çoğu sınıf seviye 56 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 38: Level 52.08
-	["Level 52.08"] = "",
+	["Level 52.08"] = "Seviye 52.08",
 	-- {quest:4022} A Taste of Flame
-	["If you skipped {quest:4022}, grind here to level 52.08 to stay on the route's plan."] = "",
+	["If you skipped {quest:4022}, grind here to level 52.08 to stay on the route's plan."] = "{quest:4022} görevini atladıysan rotanın planında kalmak için burada seviye 52.08 olana kadar kas.",
 	-- {npc:9690} Ember Worg
-	["grind on {npc:9690}"] = "",
+	["grind on {npc:9690}"] = "Kas: {npc:9690}",
 
 	-- Step 39: Blackrock Stronghold
 	-- {npc:9176} Gor'tesh · {area:254} Blackrock Mountain · {area:251} Flame Crest
 	["{npc:9176} and the Blackrock orcs hold the camps and the stronghold at the foot of {area:254}, west of {area:251}. Pull them one at a time; every orc and worg may drop a medallion, so kill them until you have fifty.\nCareful: {npc:9176} has a guard linked to him that joins the fight, and a second soldier patrols close by; clear the patrol before pulling."] = "",
 	-- {item:11467} Blackrock Medallion
-	["{item:11467}; inside"] = "",
+	["{item:11467}; inside"] = "{item:11467}; içeride",
 
 	-- Step 40: Morgan's Vigil
 	["Ride back east along the road to the Vigil."] = "Yol boyunca doğuya, Vigil'e dön.",
@@ -158,20 +158,20 @@ return {
 
 	-- Step 43: Fly to Nethergarde Keep
 	-- {area:1438} Nethergarde Keep
-	["Fly to {area:1438}"] = "",
+	["Fly to {area:1438}"] = "Uç: {area:1438}",
 	-- {area:2418} Morgan's Vigil
-	["{area:2418} flight master"] = "",
+	["{area:2418} flight master"] = "{area:2418} uçuş ustası",
 
 	-- Step 44: Kum'isha the Collector
 	-- {area:2517} Rise of the Defiler · {zone:1419} Blasted Lands · {npc:7664} Razelikh the Defiler · {spell:2691} Mana Burn · {spell:8255} Strong Cleave · {object:141891} Razelikh's Tear (no name in this language: may be words) · {spell:10854} Flames of Chaos
 	-- plural, as words: Imperfect Draenethyst Fragments = {item:10593} Imperfect Draenethyst Fragment
 	["Kum'isha waits at the {area:2517}, the hill south-west of the keep. The {zone:1419} mobs on the way drop the Imperfect Draenethyst Fragments; bring her what you have.\nCareful: Felcular, {npc:7664} and Ilifar are all level 60 elites. Razelikh casts {spell:2691}, {spell:8255} and Decimate, and as its health drops it adds {object:141891}, {spell:10854} and then Enrage at 15%."] = "",
 	-- {npc:7363} Kum'isha the Collector
-	["{npc:7363} walks around here: look inside the circle on the map"] = "",
+	["{npc:7363} walks around here: look inside the circle on the map"] = "{npc:7363} buralarda dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 53: Fly to Aerie Peak
 	-- {area:348} Aerie Peak
-	["Fly to {area:348}"] = "",
+	["Fly to {area:348}"] = "Uç: {area:348}",
 
 	-- Step 54: Wildkin feathers
 	["Wildkin feathers"] = "Wildkin tüyleri",
@@ -181,19 +181,19 @@ return {
 
 	-- Step 55: The Super Snapper FX
 	-- {npc:7977} Gammerita
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:7977} (level 48 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:7977} (level 48 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:7977} (seviye 48 elit) 2 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 57: Fly to Southshore
 	-- {area:271} Southshore
 	["Fly to {area:271}"] = "{area:271} kasabasına uç",
 	-- {area:348} Aerie Peak
-	["{area:348} flight master"] = "",
+	["{area:348} flight master"] = "{area:348} uçuş ustası",
 
 	-- Step 59: Fly to Rut'theran Village
 	-- {area:702} Rut'theran Village
-	["Fly to {area:702}"] = "",
+	["Fly to {area:702}"] = "Uç: {area:702}",
 	-- {area:442} Auberdine
-	["{area:442} flight master"] = "",
+	["{area:442} flight master"] = "{area:442} uçuş ustası",
 
 	-- Step 60: Rut'theran Village
 	-- {zone:1452} Winterspring
@@ -206,7 +206,7 @@ return {
 
 	-- Step 62: Back to Teldrassil
 	-- {area:141} Teldrassil
-	["Back to {area:141}"] = "",
+	["Back to {area:141}"] = "Dönüş: {area:141}",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["{npc:5111}: the last guide binds here, so this usually ticks at once"] = "{npc:5111}: önceki rehber Hearthstone'u burada bağlar, bu yüzden bu genelde hemen tamamlanır",

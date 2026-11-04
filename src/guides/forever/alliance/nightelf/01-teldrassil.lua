@@ -13,13 +13,13 @@ return {
 
 	-- Step 2: Young Thistle Boar on the way
 	-- {npc:1984} Young Thistle Boar
-	["{npc:1984} on the way"] = "",
+	["{npc:1984} on the way"] = "Yol üstünde: {npc:1984}",
 	-- {npc:1984} Young Thistle Boar · {area:256} Aldrassil
 	["{npc:1984} along the way to Back at {area:256}"] = "",
 
 	-- Step 3: Shadowglen: kill these as you meet them
 	-- {area:188} Shadowglen
-	["{area:188}: kill these as you meet them"] = "",
+	["{area:188}: kill these as you meet them"] = "{area:188}: bunları karşılaştıkça öldür",
 	-- {area:256} Aldrassil · {item:3297} Fel Moss
 	-- plural, as words: Young Nightsabers = {npc:2031} Young Nightsaber · Young Thistle Boars = {npc:1984} Young Thistle Boar · Gnarlpine Totems = {item:279082} Gnarlpine Totem
 	["Young Nightsabers and Young Thistle Boars roam around {area:256}. Grells carry {item:3297} in the woods west of the tree, where the Gnarlpine Totems stand."] = "Young Nightsaber ve Young Thistle Boar yaratıkları {area:256} ağacının çevresinde dolaşıyor. Ağacın batısındaki ormanda, Gnarlpine totemlerinin durduğu yerde Grell yaratıkları {item:3297} taşıyor.",
@@ -28,7 +28,7 @@ return {
 	-- {area:256} Aldrassil
 	["Back at {area:256}"] = "{area:256} ağacına dönüş",
 	-- {npc:3593} Alyissia
-	["{npc:3593}, the warrior trainer; inside"] = "",
+	["{npc:3593}, the warrior trainer; inside"] = "{npc:3593}, Warrior eğitmeni; içeride",
 	-- {npc:2079} Conservator Ilthalaine · {npc:3596} Ayanna Everstride
 	["{npc:2079}: a sigil for {npc:3596}"] = "{npc:2079}: {npc:3596} için bir mühür",
 	-- {npc:3596} Ayanna Everstride
@@ -63,13 +63,13 @@ return {
 
 	-- Step 9: Moonpetal Lily on the way
 	-- {item:10641} Moonpetal Lily
-	["{item:10641} on the way"] = "",
+	["{item:10641} on the way"] = "Yol üstünde: {item:10641}",
 
 	-- Step 10: Hyacinth Mushroom on the way
 	-- {item:10639} Hyacinth Mushroom
-	["{item:10639} on the way"] = "",
+	["{item:10639} on the way"] = "Yol üstünde: {item:10639}",
 	-- {item:10639} Hyacinth Mushroom · {area:256} Aldrassil
-	["{item:10639} along the way to {area:256}"] = "",
+	["{item:10639} along the way to {area:256}"] = "{item:10639}, {area:256} yolu üstünde",
 
 	-- Step 11: Webwood Egg and the antidote
 	-- {quest:917} Webwood Egg
@@ -79,9 +79,9 @@ return {
 	["The {object:4406} lie at the back of {area:257}: take the central path, then left where it splits, up to the high ledge. Hyacinth Mushrooms drop from Grells, Moonpetal Lilies grow by the ponds north of {area:256}."] = "{object:4406}, {area:257} mağarasının dibinde: ortadaki yolu tut, ayrıldığı yerde sola dön ve yüksek çıkıntıya çık. Hyacinth Mushroom, Grell yaratıklarından düşer; Moonpetal Lily ise {area:256} ağacının kuzeyindeki göletlerin kenarında yetişir.",
 
 	-- Step 13: Shadowglen
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 	-- {quest:97236} Fang of Githyiss
-	["{quest:97236}; below ground"] = "",
+	["{quest:97236}; below ground"] = "{quest:97236}; yer altında",
 
 	-- Step 14: Aldrassil
 	-- {npc:3514} Tenaron Stormgrip
@@ -98,9 +98,9 @@ return {
 	-- Step 16: Tenaron Stormgrip
 	-- {area:256} Aldrassil · {object:654846} Lost Journal
 	["Back to the top of {area:256}. The {object:654846} lies beside him."] = "{area:256} ağacının tepesine dön. {object:654846} onun yanında duruyor.",
-	["Upstairs"] = "",
+	["Upstairs"] = "Üst katta",
 	-- {object:654846} Lost Journal
-	["{object:654846}, upstairs"] = "",
+	["{object:654846}, upstairs"] = "{object:654846}, üst katta",
 
 	-- Step 17: The moonwell and Iverron
 	-- {npc:8584} Iverron · {quest:3522} Iverron's Antidote
@@ -128,11 +128,11 @@ return {
 	-- {npc:3515} Corithras Moonrage
 	["{npc:3515}, south of the inn"] = "{npc:3515}, hanın güneyinde",
 	-- {npc:3608} Aldia
-	["{npc:3608}, upstairs"] = "",
+	["{npc:3608}, upstairs"] = "{npc:3608}, üst katta",
 	-- {npc:3567} Tallonkai Swiftroot
-	["{npc:3567}, upstairs"] = "",
+	["{npc:3567}, upstairs"] = "{npc:3567}, üst katta",
 	-- {npc:3600} Laurna Morninglight
-	["{npc:3600}, inside"] = "",
+	["{npc:3600}, inside"] = "{npc:3600}, içeride",
 
 	-- Step 23: Dolanaar
 	-- {npc:2151} Moon Priestess Amara
@@ -142,7 +142,7 @@ return {
 
 	-- Step 24: Teldrassil: kill these as you meet them
 	-- {quest:940} Teldrassil
-	["{quest:940}: kill these as you meet them"] = "",
+	["{quest:940}: kill these as you meet them"] = "{quest:940}: bunları karşılaştıkça öldür",
 	-- {area:186} Dolanaar · {area:260} Starbreeze Village
 	-- plural, as words: Strigid Owls = {npc:1995} Strigid Owl · Webwood Lurkers = {npc:1998} Webwood Lurker
 	["Nightsabers, Strigid Owls and Webwood Lurkers roam all around {area:186} and along the road east; the lurkers also drop the recipe's spider legs. The moonwell is at the west edge of {area:260}."] = "",
@@ -160,7 +160,7 @@ return {
 	-- {item:5619} Jade Phial
 	["Use the {item:5619} at the moonwell"] = "{item:5619} eşyasını ay kuyusunda kullan",
 	-- {object:126158} Tallonkai's Dresser
-	["{object:126158}; inside"] = "",
+	["{object:126158}; inside"] = "{object:126158}; içeride",
 
 	-- Step 27: Lake Al'Ameth
 	-- {npc:2150} Zenn Foulhoof · {npc:2080} Denalan · {quest:919} Timberling Sprouts
@@ -177,7 +177,7 @@ return {
 	-- {npc:2038} Lord Melenas
 	["{npc:2038} waits inside the cave, at the bottom or up on the ledge; keep to the right."] = "{npc:2038} mağaranın içinde, dipte ya da yukarıdaki çıkıntıda bekliyor; sağdan git.",
 	-- {npc:2038} Lord Melenas
-	["{npc:2038}; below ground"] = "",
+	["{npc:2038}; below ground"] = "{npc:2038}; yer altında",
 
 	-- Step 33: The road to Darnassus
 	-- {zone:1457} Darnassus
@@ -190,7 +190,7 @@ return {
 	-- {npc:275744} Sentinel Lynessa Duskblossom · {npc:7317} Oben Rageclaw
 	["The barrow is south of the road. {npc:275744} is held inside, {npc:7317} sleeps in its depths, and the four relic chests sit in the lower rooms."] = "Mezar höyüğü yolun güneyinde. {npc:275744} içeride tutsak, {npc:7317} derinliklerinde uyuyor; dört kalıntı sandığı da alt odalarda duruyor.",
 	-- {npc:7317} Oben Rageclaw
-	["{npc:7317}, below ground"] = "",
+	["{npc:7317}, below ground"] = "{npc:7317}, yer altında",
 	-- plural, as words: Gnarlpine Shamans = {npc:2009} Gnarlpine Shaman
 	["Gnarlpine Shamans"] = "Gnarlpine Shaman yaratıkları",
 	-- {npc:7318} Rageclaw · {area:736} Ban'ethil Hollow
@@ -265,7 +265,7 @@ return {
 	-- {area:186} Dolanaar
 	["North-east from Ursal's den, back to {area:186}."] = "Ursal'ın ininden kuzeydoğuya, {area:186} köyüne dön.",
 	-- {npc:6094} Byancie
-	["{npc:6094}, inside"] = "",
+	["{npc:6094}, inside"] = "{npc:6094}, içeride",
 	-- {item:3371} Empty Vial · {npc:3614} Narret Shadowgrove · {npc:6094} Byancie
 	["{item:3371} from {npc:3614}, beside {npc:6094}"] = "{item:3371}, kaynak: {npc:6094} adlı NPC'nin yanındaki {npc:3614}",
 	-- {npc:3600} Laurna Morninglight · {npc:11401} Priestess Alathea · {zone:1457} Darnassus
@@ -292,7 +292,7 @@ return {
 
 	-- Step 52: Dolanaar
 	-- {item:8049} Gnarlpine Necklace · {npc:7234} Ferocitas the Dream Eater
-	["{item:8049}, from {npc:7234}"] = "",
+	["{item:8049}, from {npc:7234}"] = "{item:8049}, kaynak: {npc:7234}",
 	-- {npc:3567} Tallonkai Swiftroot · {area:186} Dolanaar
 	["{npc:3567}, back in {area:186}; upstairs"] = "",
 
@@ -319,7 +319,7 @@ return {
 
 	-- Step 56: Into Darnassus
 	-- {zone:1457} Darnassus
-	["Into {zone:1457}"] = "",
+	["Into {zone:1457}"] = "{zone:1457} bölgesine",
 
 	-- Step 58: Elanaria
 	-- {quest:1684} Elanaria · {area:1660} Warrior's Terrace
@@ -351,15 +351,15 @@ return {
 
 	-- Step 63: Ilyenia Moonfire
 	-- {npc:11866} Ilyenia Moonfire · {area:1660} Warrior's Terrace
-	["While you're here: learn Staves from {npc:11866} ({area:1660}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "",
+	["While you're here: learn Staves from {npc:11866} ({area:1660}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11866} sana Staves öğretir ({area:1660}, 10 gümüş); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
 	-- Step 64: Ilyenia Moonfire
 	-- {npc:11866} Ilyenia Moonfire · {area:1660} Warrior's Terrace
-	["While you're here: learn Staves from {npc:11866} ({area:1660}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "",
+	["While you're here: learn Staves from {npc:11866} ({area:1660}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "Buradayken: {npc:11866} sana Staves öğretir ({area:1660}, 10 gümüş); seviye atlarken bir asa, tek elli bir silahtan daha çok büyü istatistiği taşır.",
 
 	-- Step 65: Portal to Teldrassil
 	-- {quest:940} Teldrassil
-	["Portal to {quest:940}"] = "",
+	["Portal to {quest:940}"] = "Portalla: {quest:940}",
 
 	-- Step 66: Rut'theran Village
 	-- {area:702} Rut'theran Village · {npc:10118} Nessa Shadowsong · {npc:3838} Vesprystus · {quest:6342} Flight to Auberdine · {area:442} Auberdine · {npc:4200} Laird

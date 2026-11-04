@@ -10,7 +10,7 @@ return {
 	["{npc:3449}: the harpies come later, in the {area:383}"] = "{npc:3449}: harpy yaratıkları daha sonra, {area:383} tepelerinde",
 
 	-- Step 3: On the way
-	["On the way"] = "",
+	["On the way"] = "Yol üstünde",
 
 	-- Step 4: Thun'grim Firegaze
 	-- {npc:5878} Thun'grim Firegaze · {area:392} Ratchet

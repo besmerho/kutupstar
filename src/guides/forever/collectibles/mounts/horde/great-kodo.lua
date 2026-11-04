@@ -16,7 +16,7 @@ return {
 
 	-- Step 2: Kodo Riding for other races
 	-- {spell:18995} Kodo Riding
-	["{spell:18995} for other races"] = "",
+	["{spell:18995} for other races"] = "{spell:18995}, diğer ırklar için",
 	-- {spell:18995} Kodo Riding · {skill:762} Riding · {npc:3690} Kar Stormsinger · {faction:81} Thunder Bluff
 	["Any Horde race can buy these kodos, but riding one also takes {spell:18995}, which only Tauren get with {skill:762}. {npc:3690} teaches it to other races once they are Exalted with {faction:81} (the Thunder Bluff Reputation guide shows the way). Until then, don't buy a kodo for this character."] = "",
 

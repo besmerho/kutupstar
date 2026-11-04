@@ -12,7 +12,7 @@ return {
 
 	-- Step 1: Undercity: how it works
 	-- {faction:68} Undercity
-	["{faction:68}: how it works"] = "",
+	["{faction:68}: how it works"] = "{faction:68}: nasıl işler",
 	-- {faction:68} Undercity · {npc:14729} Ralston Farnsley · {object:36082} Magic Quarter · {quest:7819} Additional Runecloth · {item:14047} Runecloth · {zone:1454} Orgrimmar · {zone:1456} Thunder Bluff · {area:287} Hillsbrad · {area:272} Tarren Mill · {object:1661} The Undercity
 	["{faction:68} reputation comes from quests and cloth. {npc:14729}, the cloth quartermaster, stands in the {object:36082} beside the tailors. He takes four one-time donations of 60 cloth (150 each) and then {quest:7819}, 20 {item:14047} for 50, as often as you like. Every point you earn with the {faction:68} also gives a quarter as much to {zone:1454}, {zone:1456} and the Darkspear Trolls. While you level, do the {faction:68}'s quests within 5 levels of them: Tirisfal at 1 to 12, Silverpine at 10 to 20, {area:287} and {area:272} at 20 to 33. The Legacy perk Diplomat adds up to 10%. Rewards: at Honored the {faction:68}'s merchants sell to you for 10% less (the Classic rule), the horse vendor included; at Exalted other races can buy the skeletal horses: 20 gold for a level 40 horse, 200 gold for a level 60 warhorse, once you have mount training. {object:1661} has no tabard or other reward."] = "",
 
@@ -26,7 +26,7 @@ return {
 	-- {quest:5096} Scarlet Diversions
 	["{quest:5096}, +100 (level 53)"] = "",
 	-- {object:176088} Scarlet Crusade Forward Camp (no name in this language: may be words)
-	["the {object:176088}"] = "",
+	["the {object:176088}"] = "{object:176088}",
 
 	-- Step 4: Bulwark: the cauldrons
 	-- {area:152} Bulwark
@@ -40,7 +40,7 @@ return {
 	-- {npc:11075} Cauldron Lord Bilemaw · {area:199} Felstone Field · {quest:5230} Return to the Bulwark · {item:12815} Beacon Torch
 	["{npc:11075} guards the cauldron at {area:199}. Click the cauldron after the kill to start {quest:5230}. Mark the four towers of Andorhal with the {item:12815} at their doors."] = "",
 	-- {object:176361} Scourge Cauldron
-	["the {object:176361}"] = "",
+	["the {object:176361}"] = "{object:176361}",
 	-- {npc:10902} Andorhal Tower One · {item:12815} Beacon Torch
 	["{npc:10902}: use the {item:12815} at the door"] = "",
 
@@ -48,23 +48,23 @@ return {
 	-- {npc:11077} Cauldron Lord Malvinious · {area:200} Dalson's Tears
 	["{npc:11077} guards the cauldron at {area:200}."] = "",
 	-- {object:177289} Scourge Cauldron
-	["the {object:177289}"] = "",
+	["the {object:177289}"] = "{object:177289}",
 
 	-- Step 8: Bulwark: the Writhing Haunt
 	-- {area:152} Bulwark · {area:202} Writhing Haunt
-	["{area:152}: the {area:202}"] = "",
+	["{area:152}: the {area:202}"] = "{area:152}: {area:202}",
 
 	-- Step 9: Writhing Haunt
 	-- {npc:11076} Cauldron Lord Razarch · {area:202} Writhing Haunt
 	["{npc:11076} guards the cauldron at the {area:202}."] = "",
 	-- {object:176393} Scourge Cauldron
-	["the {object:176393}"] = "",
+	["the {object:176393}"] = "{object:176393}",
 
 	-- Step 11: Gahrron's Withering
 	-- {npc:11078} Cauldron Lord Soulwrath · {area:201} Gahrron's Withering
 	["{npc:11078} guards the cauldron at {area:201}."] = "",
 	-- {object:176392} Scourge Cauldron
-	["the {object:176392}"] = "",
+	["the {object:176392}"] = "{object:176392}",
 
 	-- Step 12: Bulwark: done
 	-- {area:152} Bulwark
@@ -87,11 +87,11 @@ return {
 
 	-- Step 15: Nathanos Blightcaller: hand in
 	-- {npc:11878} Nathanos Blightcaller
-	["{npc:11878}: hand in"] = "",
+	["{npc:11878}: hand in"] = "{npc:11878}: teslim",
 
 	-- Step 16: Duskwing and Borelgore
 	-- {npc:11897} Duskwing · {npc:11896} Borelgore
-	["{npc:11897} and {npc:11896}"] = "",
+	["{npc:11897} and {npc:11896}"] = "{npc:11897} ve {npc:11896}",
 	-- {npc:11897} Duskwing · {area:2260} Marris Stead · {npc:11896} Borelgore · {area:2272} Northdale
 	["{npc:11897}, an elite bat, roams the fields north of {area:2260}. {npc:11896} paces a long valley west of {area:2272}."] = "",
 	-- {npc:11878} Nathanos Blightcaller · {faction:68} Undercity · {area:2279} Stratholme · {npc:12337} Crimson Courier
@@ -119,13 +119,13 @@ return {
 	-- {quest:2935} Consult Master Gadrin
 	["{quest:2935}, +75 Darkspear"] = "",
 	-- {npc:3188} Master Gadrin · {area:367} Sen'jin Village
-	["{npc:3188}, in {area:367}"] = "",
+	["{npc:3188}, in {area:367}"] = "{npc:3188}, {area:367} içinde",
 	-- {quest:2936} The Spider God
 	["{quest:2936}, +150 Darkspear"] = "",
 
 	-- Step 21: Zul'Farrak: the Tablet of Theka
 	-- {area:978} Zul'Farrak · {object:142715} Tablet of Theka
-	["{area:978}: the {object:142715}"] = "",
+	["{area:978}: the {object:142715}"] = "{area:978}: {object:142715}",
 	-- {area:978} Zul'Farrak · {zone:1446} Tanaris · {npc:7272} Theka the Martyr · {object:142715} Tablet of Theka
 	["{area:978} is a level 44 to 54 dungeon in northern {zone:1446}; a level 60 can clear the way alone, or bring a group. {npc:7272}, an elite troll, guards his tomb in the instance: kill him and read the {object:142715} there."] = "",
 	-- {object:142715} Tablet of Theka
@@ -135,7 +135,7 @@ return {
 	-- {item:9323} Gadrin's Parchment · {area:353} Shadra'Alor · {npc:2707} Shadra
 	["Read {item:9323} at the altar of {area:353} to call {npc:2707}, an elite level 55 spider: she drops her venom every time."] = "",
 	-- {item:9324} Shadra's Venom · {npc:2707} Shadra
-	["{item:9324}, from {npc:2707}"] = "",
+	["{item:9324}, from {npc:2707}"] = "{item:9324}, kaynak: {npc:2707}",
 
 	-- Step 24: Tarren Mill and the Undercity
 	-- {area:272} Tarren Mill · {faction:68} Undercity
@@ -145,7 +145,7 @@ return {
 
 	-- Step 25: Deathknell (optional hub)
 	-- {area:154} Deathknell
-	["{area:154} (optional hub)"] = "",
+	["{area:154} (optional hub)"] = "{area:154} (isteğe bağlı merkez)",
 	-- {area:154} Deathknell · {faction:68} Undercity · {npc:1661} Novice Elreth · {npc:1570} Executor Arren · {npc:1740} Deathguard Saltain
 	["In Classic, quests 6+ levels below you pay less (a fifth at 60); a Forever beta report says they paid in full. Your first turn-in shows which: if it pays a fifth, skip these hubs. {area:154}, the Forsaken start at the west end of Tirisfal: about 900 {faction:68} reputation in 25 minutes (180 at a fifth). Starting-zone quests give the other cities no share. {npc:1661}, {npc:1570} and {npc:1740} stand in the village."] = "",
 
@@ -165,20 +165,20 @@ return {
 
 	-- Step 28: Deathknell: hand in
 	-- {area:154} Deathknell
-	["{area:154}: hand in"] = "",
+	["{area:154}: hand in"] = "{area:154}: teslim",
 
 	-- Step 29: The Scarlet camp
 	["The Scarlet camp"] = "Scarlet kampı",
 	-- {area:154} Deathknell · {npc:1667} Meven Korgal
 	["The Scarlet camp is south-east of {area:154}. {npc:1667} leads it."] = "",
 	-- {item:2885} Scarlet Crusade Documents · {npc:1667} Meven Korgal
-	["{item:2885}, from {npc:1667}"] = "",
+	["{item:2885}, from {npc:1667}"] = "{item:2885}, kaynak: {npc:1667}",
 	-- {quest:383} Vital Intelligence · {npc:1515} Executor Zygand · {area:159} Brill
-	["{quest:383}, +75: to {npc:1515} in {area:159}"] = "",
+	["{quest:383}, +75: to {npc:1515} in {area:159}"] = "{quest:383}, +75: teslim yeri {npc:1515} ({area:159})",
 
 	-- Step 31: Brill (optional hub)
 	-- {area:159} Brill
-	["{area:159} (optional hub)"] = "",
+	["{area:159} (optional hub)"] = "{area:159} (isteğe bağlı merkez)",
 	-- {area:159} Brill · {faction:68} Undercity · {npc:1515} Executor Zygand · {npc:1499} Magistrate Sevren · {npc:1518} Apothecary Johaan · {npc:1496} Deathguard Dillinger · {npc:1500} Coleman Farthing
 	["In Classic, quests 6+ levels below you pay less (a fifth at 60); a Forever beta report says they paid in full. Your first turn-in shows which: if it pays a fifth, skip these hubs. {area:159} and the fields around it: about 1,100 {faction:68} reputation in 45 minutes (220 at a fifth). {npc:1515}, {npc:1499}, {npc:1518}, {npc:1496} and {npc:1500} are in the town."] = "",
 
@@ -195,7 +195,7 @@ return {
 
 	-- Step 34: Brill: hand in
 	-- {area:159} Brill
-	["{area:159}: hand in"] = "",
+	["{area:159}: hand in"] = "{area:159}: teslim",
 
 	-- Step 35: Agamand Mills again
 	-- {area:157} Agamand Mills

@@ -5,72 +5,72 @@
 return {
 	-- Step 1: Learn Alchemy
 	-- {skill:171} Alchemy
-	["Learn {skill:171}"] = "",
+	["Learn {skill:171}"] = "Öğren: {skill:171}",
 	-- {skill:171} Alchemy · {skill:182} Herbalism · {item:2447} Peacebloom · {item:765} Silverleaf
 	-- plural, as words: Empty Vials = {item:3371} Empty Vial
 	["Apprentice {skill:171} lets you craft up to 75 for 10c, at any character level. Any {skill:171} trainer of your faction teaches it; the arrow picks the nearest. Pair it with {skill:182}: {item:2447} and {item:765} grow in every starting zone, and Empty Vials cost 4c at any alchemy or trade supplies vendor. 1-75 takes about 3s 28c of vendor goods, plus 82 {item:765} and 110 {item:2447} to gather or buy."] = "",
 
 	-- Step 2: Alchemy 1-75: vendor goods
 	-- {skill:171} Alchemy
-	["{skill:171} 1-75: vendor goods"] = "",
+	["{skill:171} 1-75: vendor goods"] = "{skill:171} 1-75: satıcı malları",
 	-- {item:3371} Empty Vial · {zone:1453} Stormwind City · {npc:1286} Edna Mullby · {npc:5503} Eldraeith · {npc:1325} Jasper Fel · {zone:1454} Orgrimmar · {npc:3367} Felika · {npc:3348} Kor'geld · {npc:3334} Rekkul
 	["Buy the whole bracket's share in one go: 82 {item:3371} (3s 28c); about 3s 28c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286}, {npc:5503} and {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} and {npc:3334})."] = "",
 
 	-- Step 3: Silverleaf (Elwynn Forest)
 	-- {item:765} Silverleaf · {item:5997} Elixir of Minor Defense · {skill:182} Herbalism · {zone:1429} Elwynn Forest
-	["82 {item:765} for {item:5997}: {skill:182}: {item:765} (skill 1); or the Auction House. The densest patch of {item:765} in {zone:1429} is marked."] = "",
+	["82 {item:765} for {item:5997}: {skill:182}: {item:765} (skill 1); or the Auction House. The densest patch of {item:765} in {zone:1429} is marked."] = "{item:5997} için 82 {item:765}: {skill:182}: {item:765} (beceri 1); ya da Auction House. En yoğun {item:765} öbeği {zone:1429} bölgesinde işaretli.",
 
 	-- Step 4: Silverleaf (Dun Morogh)
 	-- {item:765} Silverleaf · {item:5997} Elixir of Minor Defense · {skill:182} Herbalism · {zone:1426} Dun Morogh
-	["82 {item:765} for {item:5997}: {skill:182}: {item:765} (skill 1); or the Auction House. The densest patch of {item:765} in {zone:1426} is marked."] = "",
+	["82 {item:765} for {item:5997}: {skill:182}: {item:765} (skill 1); or the Auction House. The densest patch of {item:765} in {zone:1426} is marked."] = "{item:5997} için 82 {item:765}: {skill:182}: {item:765} (beceri 1); ya da Auction House. En yoğun {item:765} öbeği {zone:1426} bölgesinde işaretli.",
 
 	-- Step 5: Silverleaf (Teldrassil)
 	-- {item:765} Silverleaf · {item:5997} Elixir of Minor Defense · {skill:182} Herbalism · {zone:1438} Teldrassil
-	["82 {item:765} for {item:5997}: {skill:182}: {item:765} (skill 1); or the Auction House. The densest patch of {item:765} in {zone:1438} is marked."] = "",
+	["82 {item:765} for {item:5997}: {skill:182}: {item:765} (skill 1); or the Auction House. The densest patch of {item:765} in {zone:1438} is marked."] = "{item:5997} için 82 {item:765}: {skill:182}: {item:765} (beceri 1); ya da Auction House. En yoğun {item:765} öbeği {zone:1438} bölgesinde işaretli.",
 
 	-- Step 6: Silverleaf (Zephras Isle)
 	-- {item:765} Silverleaf · {item:5997} Elixir of Minor Defense · {skill:182} Herbalism · {zone:2521} Zephras Isle
-	["82 {item:765} for {item:5997}: {skill:182}: {item:765} (skill 1); or the Auction House. The densest patch of {item:765} in {zone:2521} is marked."] = "",
+	["82 {item:765} for {item:5997}: {skill:182}: {item:765} (skill 1); or the Auction House. The densest patch of {item:765} in {zone:2521} is marked."] = "{item:5997} için 82 {item:765}: {skill:182}: {item:765} (beceri 1); ya da Auction House. En yoğun {item:765} öbeği {zone:2521} bölgesinde işaretli.",
 
 	-- Step 7: Silverleaf (Durotar)
 	-- {item:765} Silverleaf · {item:5997} Elixir of Minor Defense · {skill:182} Herbalism · {zone:1411} Durotar
-	["82 {item:765} for {item:5997}: {skill:182}: {item:765} (skill 1); or the Auction House. The densest patch of {item:765} in {zone:1411} is marked."] = "",
+	["82 {item:765} for {item:5997}: {skill:182}: {item:765} (skill 1); or the Auction House. The densest patch of {item:765} in {zone:1411} is marked."] = "{item:5997} için 82 {item:765}: {skill:182}: {item:765} (beceri 1); ya da Auction House. En yoğun {item:765} öbeği {zone:1411} bölgesinde işaretli.",
 
 	-- Step 8: Silverleaf (Mulgore)
 	-- {item:765} Silverleaf · {item:5997} Elixir of Minor Defense · {skill:182} Herbalism · {zone:1412} Mulgore
-	["82 {item:765} for {item:5997}: {skill:182}: {item:765} (skill 1); or the Auction House. The densest patch of {item:765} in {zone:1412} is marked."] = "",
+	["82 {item:765} for {item:5997}: {skill:182}: {item:765} (skill 1); or the Auction House. The densest patch of {item:765} in {zone:1412} is marked."] = "{item:5997} için 82 {item:765}: {skill:182}: {item:765} (beceri 1); ya da Auction House. En yoğun {item:765} öbeği {zone:1412} bölgesinde işaretli.",
 
 	-- Step 9: Silverleaf (Tirisfal Glades)
 	-- {item:765} Silverleaf · {item:5997} Elixir of Minor Defense · {skill:182} Herbalism · {zone:1420} Tirisfal Glades
-	["82 {item:765} for {item:5997}: {skill:182}: {item:765} (skill 1); or the Auction House. The densest patch of {item:765} in {zone:1420} is marked."] = "",
+	["82 {item:765} for {item:5997}: {skill:182}: {item:765} (skill 1); or the Auction House. The densest patch of {item:765} in {zone:1420} is marked."] = "{item:5997} için 82 {item:765}: {skill:182}: {item:765} (beceri 1); ya da Auction House. En yoğun {item:765} öbeği {zone:1420} bölgesinde işaretli.",
 
 	-- Step 10: Peacebloom (Elwynn Forest)
 	-- {item:2447} Peacebloom · {item:5997} Elixir of Minor Defense · {spell:2331} Minor Mana Potion · {skill:182} Herbalism · {zone:1429} Elwynn Forest
-	["110 {item:2447} for {item:5997} and {spell:2331} (28 of them for 75-150: pick them all now): {skill:182}: {item:2447} (skill 1); or the Auction House. The densest patch of {item:2447} in {zone:1429} is marked."] = "",
+	["110 {item:2447} for {item:5997} and {spell:2331} (28 of them for 75-150: pick them all now): {skill:182}: {item:2447} (skill 1); or the Auction House. The densest patch of {item:2447} in {zone:1429} is marked."] = "{item:5997} ve {spell:2331} için 110 {item:2447} (75-150 için 28 tanesi: hepsini şimdi topla): {skill:182}: {item:2447} (beceri 1); ya da Auction House. En yoğun {item:2447} öbeği {zone:1429} bölgesinde işaretli.",
 
 	-- Step 11: Peacebloom (Dun Morogh)
 	-- {item:2447} Peacebloom · {item:5997} Elixir of Minor Defense · {spell:2331} Minor Mana Potion · {skill:182} Herbalism · {zone:1426} Dun Morogh
-	["110 {item:2447} for {item:5997} and {spell:2331} (28 of them for 75-150: pick them all now): {skill:182}: {item:2447} (skill 1); or the Auction House. The densest patch of {item:2447} in {zone:1426} is marked."] = "",
+	["110 {item:2447} for {item:5997} and {spell:2331} (28 of them for 75-150: pick them all now): {skill:182}: {item:2447} (skill 1); or the Auction House. The densest patch of {item:2447} in {zone:1426} is marked."] = "{item:5997} ve {spell:2331} için 110 {item:2447} (75-150 için 28 tanesi: hepsini şimdi topla): {skill:182}: {item:2447} (beceri 1); ya da Auction House. En yoğun {item:2447} öbeği {zone:1426} bölgesinde işaretli.",
 
 	-- Step 12: Peacebloom (Teldrassil)
 	-- {item:2447} Peacebloom · {item:5997} Elixir of Minor Defense · {spell:2331} Minor Mana Potion · {skill:182} Herbalism · {zone:1438} Teldrassil
-	["110 {item:2447} for {item:5997} and {spell:2331} (28 of them for 75-150: pick them all now): {skill:182}: {item:2447} (skill 1); or the Auction House. The densest patch of {item:2447} in {zone:1438} is marked."] = "",
+	["110 {item:2447} for {item:5997} and {spell:2331} (28 of them for 75-150: pick them all now): {skill:182}: {item:2447} (skill 1); or the Auction House. The densest patch of {item:2447} in {zone:1438} is marked."] = "{item:5997} ve {spell:2331} için 110 {item:2447} (75-150 için 28 tanesi: hepsini şimdi topla): {skill:182}: {item:2447} (beceri 1); ya da Auction House. En yoğun {item:2447} öbeği {zone:1438} bölgesinde işaretli.",
 
 	-- Step 13: Peacebloom (Zephras Isle)
 	-- {item:2447} Peacebloom · {item:5997} Elixir of Minor Defense · {spell:2331} Minor Mana Potion · {skill:182} Herbalism · {zone:2521} Zephras Isle
-	["110 {item:2447} for {item:5997} and {spell:2331} (28 of them for 75-150: pick them all now): {skill:182}: {item:2447} (skill 1); or the Auction House. The densest patch of {item:2447} in {zone:2521} is marked."] = "",
+	["110 {item:2447} for {item:5997} and {spell:2331} (28 of them for 75-150: pick them all now): {skill:182}: {item:2447} (skill 1); or the Auction House. The densest patch of {item:2447} in {zone:2521} is marked."] = "{item:5997} ve {spell:2331} için 110 {item:2447} (75-150 için 28 tanesi: hepsini şimdi topla): {skill:182}: {item:2447} (beceri 1); ya da Auction House. En yoğun {item:2447} öbeği {zone:2521} bölgesinde işaretli.",
 
 	-- Step 14: Peacebloom (Durotar)
 	-- {item:2447} Peacebloom · {item:5997} Elixir of Minor Defense · {spell:2331} Minor Mana Potion · {skill:182} Herbalism · {zone:1411} Durotar
-	["110 {item:2447} for {item:5997} and {spell:2331} (28 of them for 75-150: pick them all now): {skill:182}: {item:2447} (skill 1); or the Auction House. The densest patch of {item:2447} in {zone:1411} is marked."] = "",
+	["110 {item:2447} for {item:5997} and {spell:2331} (28 of them for 75-150: pick them all now): {skill:182}: {item:2447} (skill 1); or the Auction House. The densest patch of {item:2447} in {zone:1411} is marked."] = "{item:5997} ve {spell:2331} için 110 {item:2447} (75-150 için 28 tanesi: hepsini şimdi topla): {skill:182}: {item:2447} (beceri 1); ya da Auction House. En yoğun {item:2447} öbeği {zone:1411} bölgesinde işaretli.",
 
 	-- Step 15: Peacebloom (Mulgore)
 	-- {item:2447} Peacebloom · {item:5997} Elixir of Minor Defense · {spell:2331} Minor Mana Potion · {skill:182} Herbalism · {zone:1412} Mulgore
-	["110 {item:2447} for {item:5997} and {spell:2331} (28 of them for 75-150: pick them all now): {skill:182}: {item:2447} (skill 1); or the Auction House. The densest patch of {item:2447} in {zone:1412} is marked."] = "",
+	["110 {item:2447} for {item:5997} and {spell:2331} (28 of them for 75-150: pick them all now): {skill:182}: {item:2447} (skill 1); or the Auction House. The densest patch of {item:2447} in {zone:1412} is marked."] = "{item:5997} ve {spell:2331} için 110 {item:2447} (75-150 için 28 tanesi: hepsini şimdi topla): {skill:182}: {item:2447} (beceri 1); ya da Auction House. En yoğun {item:2447} öbeği {zone:1412} bölgesinde işaretli.",
 
 	-- Step 16: Peacebloom (Tirisfal Glades)
 	-- {item:2447} Peacebloom · {item:5997} Elixir of Minor Defense · {spell:2331} Minor Mana Potion · {skill:182} Herbalism · {zone:1420} Tirisfal Glades
-	["110 {item:2447} for {item:5997} and {spell:2331} (28 of them for 75-150: pick them all now): {skill:182}: {item:2447} (skill 1); or the Auction House. The densest patch of {item:2447} in {zone:1420} is marked."] = "",
+	["110 {item:2447} for {item:5997} and {spell:2331} (28 of them for 75-150: pick them all now): {skill:182}: {item:2447} (skill 1); or the Auction House. The densest patch of {item:2447} in {zone:1420} is marked."] = "{item:5997} ve {spell:2331} için 110 {item:2447} (75-150 için 28 tanesi: hepsini şimdi topla): {skill:182}: {item:2447} (beceri 1); ya da Auction House. En yoğun {item:2447} öbeği {zone:1420} bölgesinde işaretli.",
 
 	-- Step 17: Elixir of Minor Defense to 75
 	-- {item:5997} Elixir of Minor Defense
@@ -86,107 +86,107 @@ return {
 
 	-- Step 19: Alchemy 75-150: vendor goods
 	-- {skill:171} Alchemy
-	["{skill:171} 75-150: vendor goods"] = "",
+	["{skill:171} 75-150: vendor goods"] = "{skill:171} 75-150: satıcı malları",
 	-- {item:3371} Empty Vial · {item:3372} Leaded Vial · {zone:1453} Stormwind City · {npc:1286} Edna Mullby · {npc:5503} Eldraeith · {npc:1325} Jasper Fel · {zone:1454} Orgrimmar · {npc:3367} Felika · {npc:3348} Kor'geld · {npc:3334} Rekkul
 	["Buy the whole bracket's share in one go: 77 {item:3371} (3s 8c) and 15 {item:3372} (6s); about 9s 8c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286}, {npc:5503} and {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} and {npc:3334})."] = "",
 
 	-- Step 20: Mageroyal (Westfall)
 	-- {item:785} Mageroyal · {spell:2331} Minor Mana Potion · {spell:3171} Elixir of Wisdom · {skill:182} Herbalism · {zone:1436} Westfall
-	["77 {item:785} for {spell:2331} and {spell:3171}: {skill:182}: {item:785} (skill 50); or the Auction House. The densest patch of {item:785} in {zone:1436} is marked."] = "",
+	["77 {item:785} for {spell:2331} and {spell:3171}: {skill:182}: {item:785} (skill 50); or the Auction House. The densest patch of {item:785} in {zone:1436} is marked."] = "{spell:2331} ve {spell:3171} için 77 {item:785}: {skill:182}: {item:785} (beceri 50); ya da Auction House. En yoğun {item:785} öbeği {zone:1436} bölgesinde işaretli.",
 
 	-- Step 21: Mageroyal (Loch Modan)
 	-- {item:785} Mageroyal · {spell:2331} Minor Mana Potion · {spell:3171} Elixir of Wisdom · {skill:182} Herbalism · {zone:1432} Loch Modan
-	["77 {item:785} for {spell:2331} and {spell:3171}: {skill:182}: {item:785} (skill 50); or the Auction House. The densest patch of {item:785} in {zone:1432} is marked."] = "",
+	["77 {item:785} for {spell:2331} and {spell:3171}: {skill:182}: {item:785} (skill 50); or the Auction House. The densest patch of {item:785} in {zone:1432} is marked."] = "{spell:2331} ve {spell:3171} için 77 {item:785}: {skill:182}: {item:785} (beceri 50); ya da Auction House. En yoğun {item:785} öbeği {zone:1432} bölgesinde işaretli.",
 
 	-- Step 22: Mageroyal (Teldrassil)
 	-- {item:785} Mageroyal · {spell:2331} Minor Mana Potion · {spell:3171} Elixir of Wisdom · {skill:182} Herbalism · {zone:1438} Teldrassil
-	["77 {item:785} for {spell:2331} and {spell:3171}: {skill:182}: {item:785} (skill 50); or the Auction House. The densest patch of {item:785} in {zone:1438} is marked."] = "",
+	["77 {item:785} for {spell:2331} and {spell:3171}: {skill:182}: {item:785} (skill 50); or the Auction House. The densest patch of {item:785} in {zone:1438} is marked."] = "{spell:2331} ve {spell:3171} için 77 {item:785}: {skill:182}: {item:785} (beceri 50); ya da Auction House. En yoğun {item:785} öbeği {zone:1438} bölgesinde işaretli.",
 
 	-- Step 23: Mageroyal (Zephras Isle)
 	-- {item:785} Mageroyal · {spell:2331} Minor Mana Potion · {spell:3171} Elixir of Wisdom · {skill:182} Herbalism · {zone:2521} Zephras Isle
-	["77 {item:785} for {spell:2331} and {spell:3171}: {skill:182}: {item:785} (skill 50); or the Auction House. The densest patch of {item:785} in {zone:2521} is marked."] = "",
+	["77 {item:785} for {spell:2331} and {spell:3171}: {skill:182}: {item:785} (skill 50); or the Auction House. The densest patch of {item:785} in {zone:2521} is marked."] = "{spell:2331} ve {spell:3171} için 77 {item:785}: {skill:182}: {item:785} (beceri 50); ya da Auction House. En yoğun {item:785} öbeği {zone:2521} bölgesinde işaretli.",
 
 	-- Step 24: Mageroyal (The Barrens)
 	-- {item:785} Mageroyal · {spell:2331} Minor Mana Potion · {spell:3171} Elixir of Wisdom · {skill:182} Herbalism · {zone:1413} The Barrens
-	["77 {item:785} for {spell:2331} and {spell:3171}: {skill:182}: {item:785} (skill 50); or the Auction House. The densest patch of {item:785} in {zone:1413} is marked."] = "",
+	["77 {item:785} for {spell:2331} and {spell:3171}: {skill:182}: {item:785} (skill 50); or the Auction House. The densest patch of {item:785} in {zone:1413} is marked."] = "{spell:2331} ve {spell:3171} için 77 {item:785}: {skill:182}: {item:785} (beceri 50); ya da Auction House. En yoğun {item:785} öbeği {zone:1413} bölgesinde işaretli.",
 
 	-- Step 25: Mageroyal (Silverpine Forest)
 	-- {item:785} Mageroyal · {spell:2331} Minor Mana Potion · {spell:3171} Elixir of Wisdom · {skill:182} Herbalism · {zone:1421} Silverpine Forest
-	["77 {item:785} for {spell:2331} and {spell:3171}: {skill:182}: {item:785} (skill 50); or the Auction House. The densest patch of {item:785} in {zone:1421} is marked."] = "",
+	["77 {item:785} for {spell:2331} and {spell:3171}: {skill:182}: {item:785} (skill 50); or the Auction House. The densest patch of {item:785} in {zone:1421} is marked."] = "{spell:2331} ve {spell:3171} için 77 {item:785}: {skill:182}: {item:785} (beceri 50); ya da Auction House. En yoğun {item:785} öbeği {zone:1421} bölgesinde işaretli.",
 
 	-- Step 26: Briarthorn (Westfall)
 	-- {item:2450} Briarthorn · {spell:3171} Elixir of Wisdom · {spell:3176} Lesser Troll's Blood Elixir · {skill:182} Herbalism · {zone:1436} Westfall
-	["152 {item:2450} for {spell:3171} and {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2450} (skill 70); or the Auction House. The densest patch of {item:2450} in {zone:1436} is marked."] = "",
+	["152 {item:2450} for {spell:3171} and {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2450} (skill 70); or the Auction House. The densest patch of {item:2450} in {zone:1436} is marked."] = "{spell:3171} ve {spell:3176} için 152 {item:2450} (150-225 için 24 tanesi: hepsini şimdi topla): {skill:182}: {item:2450} (beceri 70); ya da Auction House. En yoğun {item:2450} öbeği {zone:1436} bölgesinde işaretli.",
 
 	-- Step 27: Briarthorn (Loch Modan)
 	-- {item:2450} Briarthorn · {spell:3171} Elixir of Wisdom · {spell:3176} Lesser Troll's Blood Elixir · {skill:182} Herbalism · {zone:1432} Loch Modan
-	["152 {item:2450} for {spell:3171} and {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2450} (skill 70); or the Auction House. The densest patch of {item:2450} in {zone:1432} is marked."] = "",
+	["152 {item:2450} for {spell:3171} and {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2450} (skill 70); or the Auction House. The densest patch of {item:2450} in {zone:1432} is marked."] = "{spell:3171} ve {spell:3176} için 152 {item:2450} (150-225 için 24 tanesi: hepsini şimdi topla): {skill:182}: {item:2450} (beceri 70); ya da Auction House. En yoğun {item:2450} öbeği {zone:1432} bölgesinde işaretli.",
 
 	-- Step 28: Briarthorn (Darkshore)
 	-- {item:2450} Briarthorn · {spell:3171} Elixir of Wisdom · {spell:3176} Lesser Troll's Blood Elixir · {skill:182} Herbalism · {zone:1439} Darkshore
-	["152 {item:2450} for {spell:3171} and {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2450} (skill 70); or the Auction House. The densest patch of {item:2450} in {zone:1439} is marked."] = "",
+	["152 {item:2450} for {spell:3171} and {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2450} (skill 70); or the Auction House. The densest patch of {item:2450} in {zone:1439} is marked."] = "{spell:3171} ve {spell:3176} için 152 {item:2450} (150-225 için 24 tanesi: hepsini şimdi topla): {skill:182}: {item:2450} (beceri 70); ya da Auction House. En yoğun {item:2450} öbeği {zone:1439} bölgesinde işaretli.",
 
 	-- Step 29: Briarthorn (The Barrens)
 	-- {item:2450} Briarthorn · {spell:3171} Elixir of Wisdom · {spell:3176} Lesser Troll's Blood Elixir · {skill:182} Herbalism · {zone:1413} The Barrens
-	["152 {item:2450} for {spell:3171} and {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2450} (skill 70); or the Auction House. The densest patch of {item:2450} in {zone:1413} is marked."] = "",
+	["152 {item:2450} for {spell:3171} and {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2450} (skill 70); or the Auction House. The densest patch of {item:2450} in {zone:1413} is marked."] = "{spell:3171} ve {spell:3176} için 152 {item:2450} (150-225 için 24 tanesi: hepsini şimdi topla): {skill:182}: {item:2450} (beceri 70); ya da Auction House. En yoğun {item:2450} öbeği {zone:1413} bölgesinde işaretli.",
 
 	-- Step 30: Briarthorn (Silverpine Forest)
 	-- {item:2450} Briarthorn · {spell:3171} Elixir of Wisdom · {spell:3176} Lesser Troll's Blood Elixir · {skill:182} Herbalism · {zone:1421} Silverpine Forest
-	["152 {item:2450} for {spell:3171} and {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2450} (skill 70); or the Auction House. The densest patch of {item:2450} in {zone:1421} is marked."] = "",
+	["152 {item:2450} for {spell:3171} and {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2450} (skill 70); or the Auction House. The densest patch of {item:2450} in {zone:1421} is marked."] = "{spell:3171} ve {spell:3176} için 152 {item:2450} (150-225 için 24 tanesi: hepsini şimdi topla): {skill:182}: {item:2450} (beceri 70); ya da Auction House. En yoğun {item:2450} öbeği {zone:1421} bölgesinde işaretli.",
 
 	-- Step 31: Bruiseweed (Westfall)
 	-- {item:2453} Bruiseweed · {spell:3176} Lesser Troll's Blood Elixir · {skill:182} Herbalism · {zone:1436} Westfall
-	["54 {item:2453} for {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2453} (skill 100); or the Auction House. The densest patch of {item:2453} in {zone:1436} is marked."] = "",
+	["54 {item:2453} for {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2453} (skill 100); or the Auction House. The densest patch of {item:2453} in {zone:1436} is marked."] = "{spell:3176} için 54 {item:2453} (150-225 için 24 tanesi: hepsini şimdi topla): {skill:182}: {item:2453} (beceri 100); ya da Auction House. En yoğun {item:2453} öbeği {zone:1436} bölgesinde işaretli.",
 
 	-- Step 32: Bruiseweed (Loch Modan)
 	-- {item:2453} Bruiseweed · {spell:3176} Lesser Troll's Blood Elixir · {skill:182} Herbalism · {zone:1432} Loch Modan
-	["54 {item:2453} for {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2453} (skill 100); or the Auction House. The densest patch of {item:2453} in {zone:1432} is marked."] = "",
+	["54 {item:2453} for {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2453} (skill 100); or the Auction House. The densest patch of {item:2453} in {zone:1432} is marked."] = "{spell:3176} için 54 {item:2453} (150-225 için 24 tanesi: hepsini şimdi topla): {skill:182}: {item:2453} (beceri 100); ya da Auction House. En yoğun {item:2453} öbeği {zone:1432} bölgesinde işaretli.",
 
 	-- Step 33: Bruiseweed (Darkshore)
 	-- {item:2453} Bruiseweed · {spell:3176} Lesser Troll's Blood Elixir · {skill:182} Herbalism · {zone:1439} Darkshore
-	["54 {item:2453} for {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2453} (skill 100); or the Auction House. The densest patch of {item:2453} in {zone:1439} is marked."] = "",
+	["54 {item:2453} for {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2453} (skill 100); or the Auction House. The densest patch of {item:2453} in {zone:1439} is marked."] = "{spell:3176} için 54 {item:2453} (150-225 için 24 tanesi: hepsini şimdi topla): {skill:182}: {item:2453} (beceri 100); ya da Auction House. En yoğun {item:2453} öbeği {zone:1439} bölgesinde işaretli.",
 
 	-- Step 34: Bruiseweed (The Barrens)
 	-- {item:2453} Bruiseweed · {spell:3176} Lesser Troll's Blood Elixir · {skill:182} Herbalism · {zone:1413} The Barrens
-	["54 {item:2453} for {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2453} (skill 100); or the Auction House. The densest patch of {item:2453} in {zone:1413} is marked."] = "",
+	["54 {item:2453} for {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2453} (skill 100); or the Auction House. The densest patch of {item:2453} in {zone:1413} is marked."] = "{spell:3176} için 54 {item:2453} (150-225 için 24 tanesi: hepsini şimdi topla): {skill:182}: {item:2453} (beceri 100); ya da Auction House. En yoğun {item:2453} öbeği {zone:1413} bölgesinde işaretli.",
 
 	-- Step 35: Bruiseweed (Silverpine Forest)
 	-- {item:2453} Bruiseweed · {spell:3176} Lesser Troll's Blood Elixir · {skill:182} Herbalism · {zone:1421} Silverpine Forest
-	["54 {item:2453} for {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2453} (skill 100); or the Auction House. The densest patch of {item:2453} in {zone:1421} is marked."] = "",
+	["54 {item:2453} for {spell:3176} (24 of them for 150-225: pick them all now): {skill:182}: {item:2453} (skill 100); or the Auction House. The densest patch of {item:2453} in {zone:1421} is marked."] = "{spell:3176} için 54 {item:2453} (150-225 için 24 tanesi: hepsini şimdi topla): {skill:182}: {item:2453} (beceri 100); ya da Auction House. En yoğun {item:2453} öbeği {zone:1421} bölgesinde işaretli.",
 
 	-- Step 36: Minor Mana Potion to 90
 	-- {spell:2331} Minor Mana Potion
-	["{spell:2331} to 90"] = "",
+	["{spell:2331} to 90"] = "{spell:2331}: 90 puana kadar",
 	-- {spell:2331} Minor Mana Potion · {item:785} Mageroyal · {item:2447} Peacebloom · {item:3371} Empty Vial · {spell:3171} Elixir of Wisdom
 	["{spell:2331} is yellow at 75 (yellow 65, green 85, grey 105): about 28 crafts to 90. Each takes 1 {item:785}, 1 {item:2447} and 1 {item:3371}. The trainer teaches it from 25. It is yellow already, so count on about two crafts a point until {spell:3171} takes over at 90. {item:785} grows in the 10-25 zones."] = "",
 
 	-- Step 37: Alchemy recipes at 90
 	-- {skill:171} Alchemy
-	["{skill:171} recipes at 90"] = "",
+	["{skill:171} recipes at 90"] = "90 puanda {skill:171} tarifleri",
 	-- {skill:171} Alchemy · {spell:3171} Elixir of Wisdom
-	["Back to an {skill:171} trainer: {spell:3171} (from 90)."] = "",
+	["Back to an {skill:171} trainer: {spell:3171} (from 90)."] = "Yeniden bir {skill:171} eğitmenine: {spell:3171} (90 puandan itibaren).",
 
 	-- Step 38: Elixir of Wisdom to 135
 	-- {spell:3171} Elixir of Wisdom
-	["{spell:3171} to 135"] = "",
+	["{spell:3171} to 135"] = "{spell:3171}: 135 puana kadar",
 	-- {spell:3171} Elixir of Wisdom · {item:785} Mageroyal · {item:2450} Briarthorn · {item:3371} Empty Vial
 	["{spell:3171} is orange at 90 (yellow 120, green 140, grey 160): about 49 crafts to 135. Each takes 1 {item:785}, 2 {item:2450} and 1 {item:3371}. Two {item:2450} and a {item:785} a craft, both from the 10-25 zones; orange to 120."] = "",
 
 	-- Step 39: Alchemy recipes at 135
 	-- {skill:171} Alchemy
-	["{skill:171} recipes at 135"] = "",
+	["{skill:171} recipes at 135"] = "135 puanda {skill:171} tarifleri",
 	-- {skill:171} Alchemy · {spell:3176} Lesser Troll's Blood Elixir
-	["Back to an {skill:171} trainer: {spell:3176} (from 125)."] = "",
+	["Back to an {skill:171} trainer: {spell:3176} (from 125)."] = "Yeniden bir {skill:171} eğitmenine: {spell:3176} (125 puandan itibaren).",
 
 	-- Step 40: Lesser Troll's Blood Elixir to 150
 	-- {spell:3176} Lesser Troll's Blood Elixir
-	["{spell:3176} to 150"] = "",
+	["{spell:3176} to 150"] = "{spell:3176}: 150 puana kadar",
 	-- {spell:3176} Lesser Troll's Blood Elixir · {item:2453} Bruiseweed · {item:2450} Briarthorn · {item:3372} Leaded Vial · {skill:171} Alchemy
 	["{spell:3176} is orange at 135 (yellow 150, green 170, grey 190): about 15 crafts to 150, a point every craft. Each takes 2 {item:2453}, 2 {item:2450} and 1 {item:3372}. Two {item:2453} and two {item:2450} a craft; {item:2453} grows in the 15-30 zones. {skill:171} 150 is a Legacy System milestone."] = "",
 
 	-- Step 41: Alchemy 150-225: vendor goods
 	-- {skill:171} Alchemy
-	["{skill:171} 150-225: vendor goods"] = "",
+	["{skill:171} 150-225: vendor goods"] = "{skill:171} 150-225: satıcı malları",
 	-- {item:3372} Leaded Vial · {zone:1453} Stormwind City · {npc:1286} Edna Mullby · {npc:5503} Eldraeith · {npc:1325} Jasper Fel · {zone:1454} Orgrimmar · {npc:3367} Felika · {npc:3348} Kor'geld · {npc:3334} Rekkul
 	["Buy the whole bracket's share in one go: 83 {item:3372} (33s 20c); about 33s 20c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286}, {npc:5503} and {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} and {npc:3334})."] = "",
 
@@ -206,23 +206,23 @@ return {
 	-- {item:3356} Kingsblood
 	["{item:3356} (Alliance)"] = "{item:3356} (Alliance)",
 	-- {item:3356} Kingsblood · {spell:3452} Mana Potion · {skill:182} Herbalism · {zone:1440} Ashenvale · {zone:1437} Wetlands · {zone:1434} Stranglethorn Vale
-	["39 {item:3356} for {spell:3452}: {skill:182}: {item:3356} (skill 125) in {zone:1440} (18-30), {zone:1437} (20-30) and {zone:1434} (30-45); or the Auction House. The densest patch of {item:3356} in {zone:1434} is marked."] = "",
+	["39 {item:3356} for {spell:3452}: {skill:182}: {item:3356} (skill 125) in {zone:1440} (18-30), {zone:1437} (20-30) and {zone:1434} (30-45); or the Auction House. The densest patch of {item:3356} in {zone:1434} is marked."] = "{spell:3452} için 39 {item:3356}: {skill:182}: {item:3356} (beceri 125), {zone:1440} (18-30), {zone:1437} (20-30) ve {zone:1434} (30-45) bölgelerinde; ya da Auction House. En yoğun {item:3356} öbeği {zone:1434} bölgesinde işaretli.",
 
 	-- Step 45: Kingsblood (Horde)
 	-- {item:3356} Kingsblood
 	["{item:3356} (Horde)"] = "{item:3356} (Horde)",
 	-- {item:3356} Kingsblood · {spell:3452} Mana Potion · {skill:182} Herbalism · {zone:1413} The Barrens · {zone:1440} Ashenvale · {zone:1434} Stranglethorn Vale
-	["39 {item:3356} for {spell:3452}: {skill:182}: {item:3356} (skill 125) in {zone:1413} (10-25), {zone:1440} (18-30) and {zone:1434} (30-45); or the Auction House. The densest patch of {item:3356} in {zone:1413} is marked."] = "",
+	["39 {item:3356} for {spell:3452}: {skill:182}: {item:3356} (skill 125) in {zone:1413} (10-25), {zone:1440} (18-30) and {zone:1434} (30-45); or the Auction House. The densest patch of {item:3356} in {zone:1413} is marked."] = "{spell:3452} için 39 {item:3356}: {skill:182}: {item:3356} (beceri 125), {zone:1413} (10-25), {zone:1440} (18-30) ve {zone:1434} (30-45) bölgelerinde; ya da Auction House. En yoğun {item:3356} öbeği {zone:1413} bölgesinde işaretli.",
 
 	-- Step 46: Stranglekelp (Alliance)
 	-- {object:2045} Stranglekelp
-	["{object:2045} (Alliance)"] = "",
+	["{object:2045} (Alliance)"] = "{object:2045} (Alliance)",
 	-- {object:2045} Stranglekelp · {spell:3452} Mana Potion · {skill:182} Herbalism · {zone:1437} Wetlands · {zone:1434} Stranglethorn Vale · {zone:1425} The Hinterlands
 	["39 {object:2045} for {spell:3452}: {skill:182}: {object:2045} (skill 85) in {zone:1437} (20-30), {zone:1434} (30-45) and {zone:1425} (40-50); or the Auction House. The densest patch of {object:2045} in {zone:1434} is marked."] = "",
 
 	-- Step 47: Stranglekelp (Horde)
 	-- {object:2045} Stranglekelp
-	["{object:2045} (Horde)"] = "",
+	["{object:2045} (Horde)"] = "{object:2045} (Horde)",
 	-- {object:2045} Stranglekelp · {spell:3452} Mana Potion · {skill:182} Herbalism · {zone:1413} The Barrens · {zone:1434} Stranglethorn Vale · {zone:1425} The Hinterlands
 	["39 {object:2045} for {spell:3452}: {skill:182}: {object:2045} (skill 85) in {zone:1413} (10-25), {zone:1434} (30-45) and {zone:1425} (40-50); or the Auction House. The densest patch of {object:2045} in {zone:1413} is marked."] = "",
 
@@ -246,27 +246,27 @@ return {
 
 	-- Step 51: Lesser Troll's Blood Elixir to 160
 	-- {spell:3176} Lesser Troll's Blood Elixir
-	["{spell:3176} to 160"] = "",
+	["{spell:3176} to 160"] = "{spell:3176}: 160 puana kadar",
 	-- {spell:3176} Lesser Troll's Blood Elixir · {item:2453} Bruiseweed · {item:2450} Briarthorn · {item:3372} Leaded Vial
 	["{spell:3176} is yellow at 150 (yellow 150, green 170, grey 190): about 12 crafts to 160. Each takes 2 {item:2453}, 2 {item:2450} and 1 {item:3372}. Two {item:2453} and two {item:2450} a craft; {item:2453} grows in the 15-30 zones."] = "",
 
 	-- Step 52: Alchemy recipes at 160
 	-- {skill:171} Alchemy
-	["{skill:171} recipes at 160"] = "",
+	["{skill:171} recipes at 160"] = "160 puanda {skill:171} tarifleri",
 	-- {spell:3452} Mana Potion
-	["Still at the Expert trainer: {spell:3452} (from 160)."] = "",
+	["Still at the Expert trainer: {spell:3452} (from 160)."] = "Hâlâ Expert eğitmeninde: {spell:3452} (160 puandan itibaren).",
 
 	-- Step 53: Mana Potion to 195
 	-- {spell:3452} Mana Potion
-	["{spell:3452} to 195"] = "",
+	["{spell:3452} to 195"] = "{spell:3452}: 195 puana kadar",
 	-- {spell:3452} Mana Potion · {item:3820} Stranglekelp · {item:3356} Kingsblood · {item:3372} Leaded Vial
 	["{spell:3452} is orange at 160 (yellow 180, green 200, grey 220): about 39 crafts to 195. Each takes 1 {item:3820}, 1 {item:3356} and 1 {item:3372}. {item:3820} grows under water along the coasts: bring a water breathing elixir or come up for air. {item:3356} grows in the 20-40 zones."] = "",
 
 	-- Step 54: Alchemy recipes at 195
 	-- {skill:171} Alchemy
-	["{skill:171} recipes at 195"] = "",
+	["{skill:171} recipes at 195"] = "195 puanda {skill:171} tarifleri",
 	-- {spell:11450} Elixir of Defense
-	["Still at the Expert trainer: {spell:11450} (from 195)."] = "",
+	["Still at the Expert trainer: {spell:11450} (from 195)."] = "Hâlâ Expert eğitmeninde: {spell:11450} (195 puandan itibaren).",
 
 	-- Step 55: Elixir of Defense to 225
 	-- {spell:11450} Elixir of Defense
@@ -276,7 +276,7 @@ return {
 
 	-- Step 56: Alchemy 225-300: vendor goods
 	-- {skill:171} Alchemy
-	["{skill:171} 225-300: vendor goods"] = "",
+	["{skill:171} 225-300: vendor goods"] = "{skill:171} 225-300: satıcı malları",
 	-- {item:3372} Leaded Vial · {item:8925} Crystal Vial · {zone:1453} Stormwind City · {npc:1286} Edna Mullby · {npc:5503} Eldraeith · {npc:1325} Jasper Fel · {zone:1454} Orgrimmar · {npc:3367} Felika · {npc:3348} Kor'geld · {npc:3334} Rekkul
 	["Buy the whole bracket's share in one go: 51 {item:3372} (20s 40c) and 86 {item:8925} (4g 30s); about 4g 50s 40c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286}, {npc:5503} and {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} and {npc:3334})."] = "",
 
@@ -288,25 +288,25 @@ return {
 	-- {item:8836} Arthas' Tears
 	["{item:8836} (Alliance)"] = "{item:8836} (Alliance)",
 	-- {item:8836} Arthas' Tears · {spell:11460} Draught of Detect Undead · {skill:182} Herbalism · {zone:1448} Felwood · {zone:1422} Western Plaguelands · {zone:1423} Eastern Plaguelands
-	["43 {item:8836} for {spell:11460}: {skill:182}: {item:8836} (skill 220) in {zone:1448} (48-55), {zone:1422} (51-58) and {zone:1423} (53-60); or the Auction House. The densest patch of {item:8836} in {zone:1422} is marked."] = "",
+	["43 {item:8836} for {spell:11460}: {skill:182}: {item:8836} (skill 220) in {zone:1448} (48-55), {zone:1422} (51-58) and {zone:1423} (53-60); or the Auction House. The densest patch of {item:8836} in {zone:1422} is marked."] = "{spell:11460} için 43 {item:8836}: {skill:182}: {item:8836} (beceri 220), {zone:1448} (48-55), {zone:1422} (51-58) ve {zone:1423} (53-60) bölgelerinde; ya da Auction House. En yoğun {item:8836} öbeği {zone:1422} bölgesinde işaretli.",
 
 	-- Step 59: Arthas' Tears (Horde)
 	-- {item:8836} Arthas' Tears
 	["{item:8836} (Horde)"] = "{item:8836} (Horde)",
 	-- {item:8836} Arthas' Tears · {spell:11460} Draught of Detect Undead · {skill:182} Herbalism · {zone:1448} Felwood · {zone:1422} Western Plaguelands · {zone:1423} Eastern Plaguelands
-	["43 {item:8836} for {spell:11460}: {skill:182}: {item:8836} (skill 220) in {zone:1448} (48-55), {zone:1422} (51-58) and {zone:1423} (53-60); or the Auction House. The densest patch of {item:8836} in {zone:1448} is marked."] = "",
+	["43 {item:8836} for {spell:11460}: {skill:182}: {item:8836} (skill 220) in {zone:1448} (48-55), {zone:1422} (51-58) and {zone:1423} (53-60); or the Auction House. The densest patch of {item:8836} in {zone:1448} is marked."] = "{spell:11460} için 43 {item:8836}: {skill:182}: {item:8836} (beceri 220), {zone:1448} (48-55), {zone:1422} (51-58) ve {zone:1423} (53-60) bölgelerinde; ya da Auction House. En yoğun {item:8836} öbeği {zone:1448} bölgesinde işaretli.",
 
 	-- Step 60: Sungrass (Alliance)
 	-- {item:8838} Sungrass
 	["{item:8838} (Alliance)"] = "{item:8838} (Alliance)",
 	-- {item:8838} Sungrass · {item:8951} Elixir of Greater Defense · {skill:182} Herbalism · {zone:1425} The Hinterlands · {zone:1444} Feralas · {zone:1447} Azshara
-	["43 {item:8838} for {item:8951}: {skill:182}: {item:8838} (skill 230) in {zone:1425} (40-50), {zone:1444} (40-50) and {zone:1447} (45-55); or the Auction House. The densest patch of {item:8838} in {zone:1425} is marked."] = "",
+	["43 {item:8838} for {item:8951}: {skill:182}: {item:8838} (skill 230) in {zone:1425} (40-50), {zone:1444} (40-50) and {zone:1447} (45-55); or the Auction House. The densest patch of {item:8838} in {zone:1425} is marked."] = "{item:8951} için 43 {item:8838}: {skill:182}: {item:8838} (beceri 230), {zone:1425} (40-50), {zone:1444} (40-50) ve {zone:1447} (45-55) bölgelerinde; ya da Auction House. En yoğun {item:8838} öbeği {zone:1425} bölgesinde işaretli.",
 
 	-- Step 61: Sungrass (Horde)
 	-- {item:8838} Sungrass
 	["{item:8838} (Horde)"] = "{item:8838} (Horde)",
 	-- {item:8838} Sungrass · {item:8951} Elixir of Greater Defense · {skill:182} Herbalism · {zone:1425} The Hinterlands · {zone:1444} Feralas · {zone:1447} Azshara
-	["43 {item:8838} for {item:8951}: {skill:182}: {item:8838} (skill 230) in {zone:1425} (40-50), {zone:1444} (40-50) and {zone:1447} (45-55); or the Auction House. The densest patch of {item:8838} in {zone:1444} is marked."] = "",
+	["43 {item:8838} for {item:8951}: {skill:182}: {item:8838} (skill 230) in {zone:1425} (40-50), {zone:1444} (40-50) and {zone:1447} (45-55); or the Auction House. The densest patch of {item:8838} in {zone:1444} is marked."] = "{item:8951} için 43 {item:8838}: {skill:182}: {item:8838} (beceri 230), {zone:1425} (40-50), {zone:1444} (40-50) ve {zone:1447} (45-55) bölgelerinde; ya da Auction House. En yoğun {item:8838} öbeği {zone:1444} bölgesinde işaretli.",
 
 	-- Step 62: Stonescale Eel (Alliance)
 	-- {item:13422} Stonescale Eel
@@ -334,7 +334,7 @@ return {
 	-- {skill:171} Alchemy
 	["{skill:171} recipes at 230"] = "230 puanda {skill:171} tarifleri",
 	-- {spell:11460} Draught of Detect Undead
-	["Still at the Artisan trainer: {spell:11460} (from 230)."] = "",
+	["Still at the Artisan trainer: {spell:11460} (from 230)."] = "Hâlâ Artisan eğitmeninde: {spell:11460} (230 puandan itibaren).",
 
 	-- Step 67: Draught of Detect Undead to 265
 	-- {spell:11460} Draught of Detect Undead
@@ -345,9 +345,9 @@ return {
 
 	-- Step 68: Alchemy recipes at 265
 	-- {skill:171} Alchemy
-	["{skill:171} recipes at 265"] = "",
+	["{skill:171} recipes at 265"] = "265 puanda {skill:171} tarifleri",
 	-- {spell:17551} Stonescale Oil
-	["Still at the Artisan trainer: {spell:17551} (from 250)."] = "",
+	["Still at the Artisan trainer: {spell:17551} (from 250)."] = "Hâlâ Artisan eğitmeninde: {spell:17551} (250 puandan itibaren).",
 
 	-- Step 69: Elixir of Greater Defense to 300
 	-- {spell:17554} Elixir of Greater Defense

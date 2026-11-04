@@ -5,7 +5,7 @@
 return {
 	-- Step 1: Astranaar
 	-- {npc:3894} Pelturas Whitemoon
-	["{npc:3894}, inside"] = "",
+	["{npc:3894}, inside"] = "{npc:3894}, içeride",
 
 	-- Step 2: Dartol's Rod
 	["Dartol's Rod"] = "Dartol's Rod",
@@ -31,7 +31,7 @@ return {
 
 	-- Step 8: The Dor'Danil Barrow Den: kill these as you meet them
 	-- {area:432} The Dor'Danil Barrow Den
-	["{area:432}: kill these as you meet them"] = "",
+	["{area:432}: kill these as you meet them"] = "{area:432}: bunları karşılaştıkça öldür",
 	-- {area:2358} Forest Song
 	["The Forsaken's camp lies in the woods south of {area:2358}.\nRusty chests lie around the Shadethicket furbolg camps west of the Forsaken; open them until one holds the pommel.\nCareful: Non-elite Forsaken of about level 28-30 guard the camp. Some of them are stealthed, and the ones around the table often aggro together."] = "",
 
@@ -46,11 +46,11 @@ return {
 	-- {area:2358} Forest Song
 	["The three druids stand together at the Forsaken camp south of {area:2358}.\nCareful: The den has many mobs that respawn quickly, including stealthed undead and patrols, so extra mobs often join a fight."] = "",
 	-- {npc:3940} Taneel Darkwood · {area:432} The Dor'Danil Barrow Den
-	["{npc:3940}, inside {area:432}"] = "",
+	["{npc:3940}, inside {area:432}"] = "{npc:3940}, {area:432} içinde",
 	-- {npc:3941} Uthil Mooncall · {area:432} The Dor'Danil Barrow Den
-	["{npc:3941}, inside {area:432}"] = "",
+	["{npc:3941}, inside {area:432}"] = "{npc:3941}, {area:432} içinde",
 	-- {npc:3942} Mavoris Cloudsbreak · {area:432} The Dor'Danil Barrow Den
-	["{npc:3942}, inside {area:432}"] = "",
+	["{npc:3942}, inside {area:432}"] = "{npc:3942}, {area:432} içinde",
 
 	-- Step 12: Satyrnaar
 	-- {object:19901} Circle of Imprisonment · {area:430} Satyrnaar · {area:428} Night Run
@@ -74,7 +74,7 @@ return {
 
 	-- Step 22: Hearth to Astranaar
 	-- {area:415} Astranaar
-	["Hearth to {area:415}"] = "",
+	["Hearth to {area:415}"] = "Hearthstone ile dön: {area:415}",
 
 	-- Step 25: Melyria and Illiyana
 	-- {npc:3901} Illiyana
@@ -82,9 +82,9 @@ return {
 
 	-- Step 27: Fly to Auberdine
 	-- {area:442} Auberdine
-	["Fly to {area:442}"] = "",
+	["Fly to {area:442}"] = "Uç: {area:442}",
 	-- {area:415} Astranaar
-	["{area:415} flight master"] = "",
+	["{area:415} flight master"] = "{area:415} uçuş ustası",
 
 	-- Step 28: Boat to Menethil Harbor
 	-- {area:150} Menethil Harbor
@@ -93,7 +93,7 @@ return {
 	-- Step 29: Glorin Steelbrow
 	-- {npc:1217} Glorin Steelbrow
 	["{npc:1217} stands on the upper floor of Menethil's keep."] = "{npc:1217}, Menethil kalesinin üst katında duruyor.",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 31: Waterlogged Chest
 	["The wreck of the Flying Osprey lies in the shallows south of the keep."] = "Flying Osprey'in enkazı kalenin güneyindeki sığ sularda.",
@@ -103,7 +103,7 @@ return {
 	["Lightforge Ingots"] = "Lightforge Ingot",
 	["The Bluegill murlocs on the beach south-west of Menethil carry the ingots."] = "Külçeleri Menethil'in güneybatısındaki kumsalda bulunan Bluegill murlocları taşıyor.",
 	-- {item:2702} Lightforge Ingot
-	["{item:2702}; underwater"] = "",
+	["{item:2702}; underwater"] = "{item:2702}; su altında",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["From {area:608}"] = "{area:608} karakolundan",

@@ -64,23 +64,23 @@ return {
 	-- {area:380} Crossroads · {area:17} The Barrens · {area:2539} Malaka'jin
 	["Head south to the {area:380}, then west along the road out of the {area:17} into Stonetalon. The troll village of {area:2539} sits at the entrance of the canyon."] = "",
 	-- {npc:3995} Witch Doctor Jin'Zil
-	["{npc:3995}, below ground"] = "",
+	["{npc:3995}, below ground"] = "{npc:3995}, yer altında",
 
 	-- Step 20: Ziz Fizziks
 	-- {area:1076} Webwinder Path · {quest:1483} Ziz Fizziks · {area:461} Windshear Crag
 	["The road climbs north as the {area:1076}. {quest:1483} has a hut where the road forks east to {area:461}."] = "Yol {area:1076} patikası olarak kuzeye tırmanıyor. {quest:1483}, yolun doğuya, {area:461} kayalığına ayrıldığı yerde bir kulübede yaşıyor.",
 	-- {quest:1483} Ziz Fizziks
-	["{quest:1483}, inside"] = "",
+	["{quest:1483}, inside"] = "{quest:1483}, içeride",
 
 	-- Step 21: Windshear Crag
 	-- {area:461} Windshear Crag · {npc:4276} Piznik
 	["East of Ziz, the Venture Company is clear-cutting {area:461}; one of the Operators carries the blueprints. {npc:4276} mines in the small mine on the east side: stay with him while he mines, Venture Co. thugs come for him.\nCareful: The kobolds arrive in waves. The first wave is melee fighters, and the second adds casters to the mix. Regular mobs in the mine respawn quickly and can join the fight while the waves are coming. A group is recommended."] = "",
 	-- {npc:4276} Piznik
-	["{npc:4276}, below ground"] = "",
+	["{npc:4276}, below ground"] = "{npc:4276}, yer altında",
 
 	-- Step 22: Ziz Fizziks
 	-- {npc:4201} Ziz Fizziks
-	["{npc:4201}, inside"] = "",
+	["{npc:4201}, inside"] = "{npc:4201}, içeride",
 	-- {area:392} Ratchet
 	["Sputtervalve in {area:392}: the next guide passes there"] = "{area:392} limanındaki Sputtervalve: sonraki rehber oradan geçiyor",
 
@@ -106,14 +106,14 @@ return {
 
 	-- Step 25: Stonetalon Mountains: kill these as you meet them
 	-- {zone:1442} Stonetalon Mountains
-	["{zone:1442}: kill these as you meet them"] = "",
+	["{zone:1442}: kill these as you meet them"] = "{zone:1442}: bunları karşılaştıkça öldür",
 	-- {area:467} Stonetalon Peak
 	-- plural, as words: Antlered Coursers = {npc:4018} Antlered Courser · Sap Beasts = {npc:4020} Sap Beast · Twilight Runners = {npc:4067} Twilight Runner · Fey Dragons = {npc:4016} Fey Dragon
 	["Follow the road north toward {area:467}. Antlered Coursers graze along the way; the Sap Beasts, Twilight Runners and Fey Dragons roam the woods below the Peak, and the Cenarion druids hold the grove there."] = "Yolu kuzeye, {area:467} zirvesine doğru izle. Yol boyunca Antlered Courser yaratıkları otluyor; Sap Beast, Twilight Runner ve Fey Dragon yaratıkları zirvenin aşağısındaki ormanda dolaşıyor, oradaki koruyu da Cenarion druidleri tutuyor.",
 
 	-- Step 26: Hearth to Sun Rock Retreat
 	-- {area:460} Sun Rock Retreat
-	["Hearth to {area:460}"] = "",
+	["Hearth to {area:460}"] = "Hearthstone ile dön: {area:460}",
 
 	-- Step 27: Sun Rock Retreat
 	-- {npc:4198} Braelyn Firehand · {area:331} Ashenvale
@@ -121,7 +121,7 @@ return {
 
 	-- Step 28: The Charred Vale: kill these as you meet them
 	-- {area:465} The Charred Vale
-	["{area:465}: kill these as you meet them"] = "",
+	["{area:465}: kill these as you meet them"] = "{area:465}: bunları karşılaştıkça öldür",
 	-- {area:465} The Charred Vale · {item:16312} Incendrites
 	-- plural, as words: Gaea Seeds = {item:16205} Gaea Seed
 	["South-west of Sun Rock lies the burned {area:465}. Plant the Gaea Seeds in the dirt mounds on the valley floor; the fire elementals drop {item:16312}. Bloodfury Harpies and Ambushers nest on the north side, Slayers and Roguefeathers to the south."] = "Sun Rock'ın güneybatısında yanmış {area:465} vadisi var. Gaea Seed tohumlarını vadi tabanındaki toprak tümseklerine ek; ateş elementalleri {item:16312} düşürür. Kuzey yakada Bloodfury Harpy ve Bloodfury Ambusher, güneyde Bloodfury Slayer ve Bloodfury Roguefeather yaratıkları yuva yapmış.",
@@ -144,21 +144,21 @@ return {
 	-- {area:1637} Orgrimmar
 	["Fly to {area:1637}"] = "{area:1637} şehrine uç",
 	-- {area:380} Crossroads
-	["{area:380} flight master"] = "",
+	["{area:380} flight master"] = "{area:380} uçuş ustası",
 
 	-- Step 33: Paladin trainer
-	["Paladin trainer"] = "",
+	["Paladin trainer"] = "Paladin eğitmeni",
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {zone:1454} Orgrimmar
-	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "",
+	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde; {zone:1454} bölgesinde Paladin eğitmeni yok",
 
 	-- Step 34: Druid trainer
-	["Druid trainer"] = "",
+	["Druid trainer"] = "Druid eğitmeni",
 	-- {npc:3034} Sheal Runetotem · {zone:1412} Mulgore · {zone:1454} Orgrimmar
-	["{npc:3034} in {zone:1412}; {zone:1454} has no druid trainer"] = "",
+	["{npc:3034} in {zone:1412}; {zone:1454} has no druid trainer"] = "{npc:3034}, {zone:1412} bölgesinde; {zone:1454} bölgesinde Druid eğitmeni yok",
 
 	-- Step 35: Orgrimmar flight master
 	-- {zone:1454} Orgrimmar
-	["{zone:1454} flight master"] = "",
+	["{zone:1454} flight master"] = "{zone:1454} uçuş ustası",
 
 	-- Step 36: Orgrimmar
 	-- {area:1637} Orgrimmar
@@ -174,12 +174,12 @@ return {
 
 	-- Step 40: Zeppelin to Undercity
 	-- {zone:1458} Undercity
-	["Zeppelin to {zone:1458}"] = "",
+	["Zeppelin to {zone:1458}"] = "Zeplinle: {zone:1458}",
 
 	-- Step 42: Beren's Peril
 	-- {area:272} Tarren Mill · {zone:1458} Undercity · {area:228} Sepulcher · {area:231} Beren's Peril · {npc:1973} Ravenclaw Guardian · {item:271343} Note Scrap · {object:645153} Offering Stone
 	["If you already know the {area:272} flight path, fly there and skip to {area:272}. Otherwise fly from the {zone:1458} to the {area:228} and head south down the road past Pyrewood. The Ravenclaw undead haunt the ruins of {area:231} east of the road in the south-east of the forest; a {npc:1973} drops the {item:271343} that leads to the {object:645153}."] = "{area:272} uçuş noktasını zaten biliyorsan oraya uç ve aradaki adımları atlayarak {area:272} adımına geç. Yoksa {zone:1458} şehrinden {area:228} mezarlığına uç ve yoldan güneye inerek Pyrewood'u geç. Ravenclaw ölümsüzleri ormanın güneydoğusunda, yolun doğusundaki {area:231} harabelerinde dolaşıyor; bir {npc:1973} seni {object:645153} taşına götüren {item:271343} eşyasını düşürür.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 43: The Offering of Blood
 	-- {npc:212753} Tortured Soul · {object:645153} Offering Stone · {quest:95883} The Tortured Soul

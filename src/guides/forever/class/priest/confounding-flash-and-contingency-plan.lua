@@ -13,19 +13,19 @@ return {
 	-- {npc:1226} Maxan Anvol · {area:2102} Thunderbrew Distillery · {area:131} Kharanos · {quest:94817} Confounding Flash · {npc:258785} High Priestess Mims · {zone:1455} Ironforge
 	["At 10, {npc:1226}, the priest trainer inside the {area:2102} in {area:131}, hands you a {quest:94817} letter for {npc:258785} in {zone:1455}. {area:131} is on the road up to the city."] = "",
 	-- {npc:1226} Maxan Anvol · {quest:94817} Confounding Flash
-	["{npc:1226}: take his {quest:94817} letter"] = "",
+	["{npc:1226}: take his {quest:94817} letter"] = "{npc:1226}: {quest:94817} mektubunu al",
 
 	-- Step 2: Confounding Flash: Priestess Josetta
 	-- {zone:1429} Elwynn Forest · {npc:377} Priestess Josetta · {area:87} Goldshire · {quest:94817} Confounding Flash · {npc:258785} High Priestess Mims · {zone:1455} Ironforge
 	["At 10 in {zone:1429}, {npc:377}, upstairs in the Lion's Pride Inn in {area:87}, hands you a {quest:94817} letter for {npc:258785} in {zone:1455}."] = "",
 	-- {npc:377} Priestess Josetta · {quest:94817} Confounding Flash
-	["{npc:377}: take her {quest:94817} letter"] = "",
+	["{npc:377}: take her {quest:94817} letter"] = "{npc:377}: {quest:94817} mektubunu al",
 
 	-- Step 3: Confounding Flash: High Priestess Laurena
 	-- {zone:1453} Stormwind · {npc:376} High Priestess Laurena · {quest:94817} Confounding Flash · {npc:258785} High Priestess Mims · {zone:1455} Ironforge · {area:2257} Deeprun Tram · {object:28027} Dwarven District
 	["At 10 in {zone:1453}, {npc:376} at the altar of the Cathedral of Light hands you a {quest:94817} letter for {npc:258785} in {zone:1455} (the {area:2257} from the {object:28027})."] = "",
 	-- {npc:376} High Priestess Laurena · {quest:94817} Confounding Flash
-	["{npc:376}: take her {quest:94817} letter"] = "",
+	["{npc:376}: take her {quest:94817} letter"] = "{npc:376}: {quest:94817} mektubunu al",
 
 	-- Step 4: Confounding Flash: High Priestess Mims
 	-- {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries (no name in this language: may be words) · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words) · {npc:11406} High Priest Rohan · {quest:94817} Confounding Flash
@@ -33,7 +33,7 @@ return {
 
 	-- Step 5: Confounding Flash: Maxan Anvol's letter
 	-- {quest:94824} Confounding Flash · {npc:1226} Maxan Anvol
-	["{quest:94824}: {npc:1226}'s letter"] = "",
+	["{quest:94824}: {npc:1226}'s letter"] = "{quest:94824}: mektup ({npc:1226})",
 	-- {area:131} Kharanos · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words) · {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries (no name in this language: may be words) · {quest:94824} Confounding Flash
 	["Follow the road up from {area:131} into {zone:1455} and to the {object:32362}: {npc:258785} in the {object:32386} takes the letter and teaches {quest:94824}."] = "",
 
@@ -49,19 +49,19 @@ return {
 
 	-- Step 8: Confounding Flash: a letter from another trainer
 	-- {quest:94823} Confounding Flash
-	["{quest:94823}: a letter from another trainer"] = "",
+	["{quest:94823}: a letter from another trainer"] = "{quest:94823}: başka bir eğitmenden mektup",
 	-- {quest:94823} Confounding Flash · {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries (no name in this language: may be words) · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words)
 	["Any {quest:94823} letter goes to {npc:258785} in the {object:32386}, {zone:1455}'s {object:32362}."] = "",
 
 	-- Step 9: Confounding Flash: a letter from another trainer
 	-- {quest:94825} Confounding Flash
-	["{quest:94825}: a letter from another trainer"] = "",
+	["{quest:94825}: a letter from another trainer"] = "{quest:94825}: başka bir eğitmenden mektup",
 	-- {quest:94825} Confounding Flash · {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries (no name in this language: may be words) · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words)
 	["Any {quest:94825} letter goes to {npc:258785} in the {object:32386}, {zone:1455}'s {object:32362}."] = "",
 
 	-- Step 10: Confounding Flash: a letter from another trainer
 	-- {quest:94826} Confounding Flash
-	["{quest:94826}: a letter from another trainer"] = "",
+	["{quest:94826}: a letter from another trainer"] = "{quest:94826}: başka bir eğitmenden mektup",
 	-- {quest:94826} Confounding Flash · {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries (no name in this language: may be words) · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words)
 	["Any {quest:94826} letter goes to {npc:258785} in the {object:32386}, {zone:1455}'s {object:32362}."] = "",
 
@@ -69,7 +69,7 @@ return {
 	-- {zone:1453} Stormwind · {npc:376} High Priestess Laurena · {quest:94818} Contingency Plan · {npc:258785} High Priestess Mims · {zone:1455} Ironforge · {area:2257} Deeprun Tram · {object:28027} Dwarven District
 	["At 20 in {zone:1453}, {npc:376} at the altar of the Cathedral of Light hands you a {quest:94818} letter for {npc:258785} in {zone:1455} (the {area:2257} from the {object:28027})."] = "",
 	-- {npc:376} High Priestess Laurena · {quest:94818} Contingency Plan
-	["{npc:376}: take her {quest:94818} letter"] = "",
+	["{npc:376}: take her {quest:94818} letter"] = "{npc:376}: {quest:94818} mektubunu al",
 
 	-- Step 12: Contingency Plan: High Priestess Mims
 	-- {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries (no name in this language: may be words) · {quest:94818} Contingency Plan · {spell:139} Renew · {spell:17} Power Word: Shield
@@ -83,7 +83,7 @@ return {
 
 	-- Step 14: Contingency Plan: a letter from another trainer
 	-- {quest:94820} Contingency Plan
-	["{quest:94820}: a letter from another trainer"] = "",
+	["{quest:94820}: a letter from another trainer"] = "{quest:94820}: başka bir eğitmenden mektup",
 	-- {quest:94820} Contingency Plan · {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries (no name in this language: may be words) · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words)
 	["Any {quest:94820} letter goes to {npc:258785} in the {object:32386}, {zone:1455}'s {object:32362}."] = "",
 

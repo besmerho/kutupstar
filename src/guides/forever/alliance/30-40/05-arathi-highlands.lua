@@ -7,7 +7,7 @@ return {
 	-- {area:42} Darkshire
 	["Fly to {area:42}"] = "{area:42} kasabasına uç",
 	-- {area:35} Booty Bay
-	["{area:35} flight master"] = "",
+	["{area:35} flight master"] = "{area:35} uçuş ustası",
 
 	-- Step 3: Watcher Biggs
 	-- {npc:5476} Watcher Biggs · {npc:217412} Amaryllis Webb
@@ -67,19 +67,19 @@ return {
 
 	-- Step 20: Tram to Ironforge
 	-- {zone:1455} Ironforge
-	["Tram to {zone:1455}"] = "",
+	["Tram to {zone:1455}"] = "Tramvayla: {zone:1455}",
 
 	-- Step 21: Fly to Southshore
 	-- {area:271} Southshore
 	["Fly to {area:271}"] = "{area:271} kasabasına uç",
 	-- {zone:1455} Ironforge
-	["{zone:1455} flight master"] = "",
+	["{zone:1455} flight master"] = "{zone:1455} uçuş ustası",
 
 	-- Step 23: Shadowy Assassin
 	-- {npc:2434} Shadowy Assassin · {area:271} Southshore
 	["A {npc:2434} lurks unseen on the edge of {area:271}; kill him and read the contract he carries."] = "Bir {npc:2434}, {area:271} kasabasının kenarında görünmeden pusuda bekliyor; onu öldür ve üzerindeki sözleşmeyi oku.",
 	-- {npc:2276} Magistrate Henry Maleb
-	["{npc:2276}, inside"] = "",
+	["{npc:2276}, inside"] = "{npc:2276}, içeride",
 
 	-- Step 26: Refuge Pointe
 	-- {area:287} Hillsbrad · {area:1057} Thoradin's Wall · {area:320} Refuge Pointe
@@ -87,7 +87,7 @@ return {
 
 	-- Step 27: Witherbark Medicine Pouch on the way
 	-- {item:4522} Witherbark Medicine Pouch
-	["{item:4522} on the way"] = "",
+	["{item:4522} on the way"] = "Yol üstünde: {item:4522}",
 
 	-- Step 28: Witherbark Village
 	-- {area:314} Go'Shek Farm
@@ -108,22 +108,22 @@ return {
 
 	-- Step 33: The Drowned Reef: kill these as you meet them
 	-- {area:328} The Drowned Reef
-	["{area:328}: kill these as you meet them"] = "",
+	["{area:328}: kill these as you meet them"] = "{area:328}: bunları karşılaştıkça öldür",
 	["The two wrecks lie in the bay west of the cove. The charts and logs are inside them; the gems lie on the sea floor around them. Daggerspine naga swim the whole bay."] = "İki batık koyun batısındaki körfezde. Haritalar ve seyir defterleri içlerinde; mücevherler çevrelerindeki deniz dibinde. Körfezin her yanında Daggerspine nagaları yüzüyor.",
 	-- {npc:2595} Daggerspine Raider
-	["{npc:2595}, underwater"] = "",
+	["{npc:2595}, underwater"] = "{npc:2595}, su altında",
 	-- {item:4492} Elven Gem
-	["{item:4492}; underwater"] = "",
+	["{item:4492}; underwater"] = "{item:4492}; su altında",
 	-- {npc:2596} Daggerspine Sorceress
-	["{npc:2596}, underwater"] = "",
+	["{npc:2596}, underwater"] = "{npc:2596}, su altında",
 	-- {object:2709} Maiden's Folly Log
-	["{object:2709}; underwater"] = "",
+	["{object:2709}; underwater"] = "{object:2709}; su altında",
 	-- {object:2707} Maiden's Folly Charts
-	["{object:2707}; underwater"] = "",
+	["{object:2707}; underwater"] = "{object:2707}; su altında",
 	-- {object:2710} Spirit of Silverpine Log
-	["{object:2710}; underwater"] = "",
+	["{object:2710}; underwater"] = "{object:2710}; su altında",
 	-- {object:2708} Spirit of Silverpine Charts
-	["{object:2708}; underwater"] = "",
+	["{object:2708}; underwater"] = "{object:2708}; su altında",
 
 	-- Step 34: Faldir's Cove
 	-- {npc:2487} Fleet Master Seahorn · {area:35} Booty Bay
@@ -133,11 +133,11 @@ return {
 	["Ebenezer Rustlocke"] = "Ebenezer Rustlocke",
 	["Walk back onto the span: Ebenezer lies under its Arathi end."] = "Köprüye geri yürü: Ebenezer köprünün Arathi ucunun altında yatıyor.",
 	-- {object:2652} Ebenezer Rustlocke's Corpse
-	["{object:2652}, inside"] = "",
+	["{object:2652}, inside"] = "{object:2652}, içeride",
 
 	-- Step 36: Shadow Hunter Knife
 	-- {item:5040} Shadow Hunter Knife
-	["{item:5040}; below ground"] = "",
+	["{item:5040}; below ground"] = "{item:5040}; yer altında",
 
 	-- Step 37: Shards of Myzrael
 	-- {area:314} Go'Shek Farm · {area:333} Circle of East Binding
@@ -146,20 +146,20 @@ return {
 
 	-- Step 38: Mote of Myzrael on the way
 	-- {item:4435} Mote of Myzrael
-	["{item:4435} on the way"] = "",
+	["{item:4435} on the way"] = "Yol üstünde: {item:4435}",
 	-- {item:4435} Mote of Myzrael · {object:2701} Iridescent Shards
-	["{item:4435} along the way to {object:2701}"] = "",
+	["{item:4435} along the way to {object:2701}"] = "{item:4435}, {object:2701} yolu üstünde",
 
 	-- Step 39: Drywhisker Gorge: kill these as you meet them
 	-- {area:318} Drywhisker Gorge
-	["{area:318}: kill these as you meet them"] = "",
+	["{area:318}: kill these as you meet them"] = "{area:318}: bunları karşılaştıkça öldür",
 	-- {area:321} Hammerfall
 	["The Drywhisker kobolds dig in the gorge east of {area:321} (Horde); skirt the town to the north. They drop both the motes and Krazek's ore.\nCareful: Every kobold type runs off for help when low on health (Kobolds at 30%, Surveyors and Diggers at 15%), which can pull more of them."] = "",
 
 	-- Step 40: Iridescent Shards
 	-- {area:318} Drywhisker Gorge
 	["The shards lie at the far end of {area:318}."] = "Parçalar {area:318} boğazının en ucunda duruyor.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 41: Stones of Binding
 	-- {area:320} Refuge Pointe · {object:2702} Stone of Inner Binding
@@ -192,11 +192,11 @@ return {
 	-- {npc:2793} Kor'gresh Coldrage
 	["{npc:2793}, an ogre mage, holds the cave at the southern end of the Witherbark valley."] = "Bir ogre büyücüsü olan {npc:2793}, Witherbark vadisinin güney ucundaki mağarayı tutuyor.",
 	-- {item:4525} Trelane's Wand of Invocation
-	["{item:4525}; below ground"] = "",
+	["{item:4525}; below ground"] = "{item:4525}; yer altında",
 
 	-- Step 52: Fly to Southshore
 	-- {area:320} Refuge Pointe
-	["{area:320} flight master"] = "",
+	["{area:320} flight master"] = "{area:320} uçuş ustası",
 
 	-- Step 54: Gavin's Naze
 	-- {area:271} Southshore · {area:280} Strahnbrad · {npc:2306} Baron Vardus
@@ -204,7 +204,7 @@ return {
 
 	-- Step 55: Ruins of Alterac: kill these as you meet them
 	-- {area:281} Ruins of Alterac
-	["{area:281}: kill these as you meet them"] = "",
+	["{area:281}: kill these as you meet them"] = "{area:281}: bunları karşılaştıkça öldür",
 	-- {area:280} Strahnbrad
 	-- plural, as words: Argus Shadow Mages = {npc:2318} Argus Shadow Mage · Crushridge Warmongers = {npc:2287} Crushridge Warmonger
 	["The tomes lie in the ruined keep west of {area:280}; Argus Shadow Mages hold the ruins.\nCareful: Crushridge Warmongers call nearby allies within 15 yd once they fall below half health."] = "",
@@ -215,11 +215,11 @@ return {
 
 	-- Step 56: Ruins of Alterac: kill these as you meet them
 	-- {npc:2417} Grel'borg the Miser
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:2417} is a level 40 elite: most classes solo it at level 42, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:2417} is a level 40 elite: most classes solo it at level 42, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:2417}, seviye 40 bir elit: çoğu sınıf seviye 42 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 57: Strahnbrad: kill these as you meet them
 	-- {area:280} Strahnbrad
-	["{area:280}: kill these as you meet them"] = "",
+	["{area:280}: kill these as you meet them"] = "{area:280}: bunları karşılaştıkça öldür",
 	-- {npc:2320} Nagaz
 	["Careful: Syndicate Spies and Assassins can be stealthed. Assassins also poison you.\nCareful: About three stealthed Syndicate mobs are inside {npc:2320}'s house. {npc:2320} does not join when they are pulled, and a ranged attack through the doorway brings him out by himself."] = "",
 
@@ -227,7 +227,7 @@ return {
 	["Crushridge ogres"] = "Crushridge ogreları",
 	-- {area:280} Strahnbrad · {item:3706} Ensorcelled Parchment · {npc:2320} Nagaz · {quest:537} Dark Council
 	["The Crushridge ogres hold the hills north of {area:280}. Farther north, a worn wooden chest holds the {item:3706}; {npc:2320} of the {quest:537} stands right by it."] = "Crushridge ogreları {area:280} köyünün kuzeyindeki tepeleri tutuyor. Daha kuzeyde, yıpranmış bir tahta sandıkta {item:3706} var; {quest:537} üyesi {npc:2320} hemen yanında duruyor.",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 60: Dalaran
 	-- {area:279} Dalaran · {area:130} Silverpine Forest · {npc:269127} Image of Archmage Modera
@@ -245,7 +245,7 @@ return {
 	-- {zone:1455} Ironforge · {zone:1426} Dun Morogh · {area:38} Loch Modan · {area:144} Thelsamar
 	["From {zone:1455} take the tunnel east through {zone:1426} into {area:38} and follow the road to {area:144}."] = "",
 	-- {npc:1470} Ghak Healtouch
-	["{npc:1470}, below ground"] = "",
+	["{npc:1470}, below ground"] = "{npc:1470}, yer altında",
 
 	-- Step 68: Prospector Ironband
 	["South-east along the loch to the dig site."] = "Göl boyunca güneydoğuya, kazı alanına git.",

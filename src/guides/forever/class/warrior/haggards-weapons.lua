@@ -11,7 +11,7 @@ return {
 
 	-- Step 1: Seena Skybreaker in Valanaar
 	-- {npc:252377} Seena Skybreaker · {area:16638} Valanaar
-	["{npc:252377} in {area:16638}"] = "",
+	["{npc:252377} in {area:16638}"] = "{npc:252377}, {area:16638} içinde",
 	-- {npc:252377} Seena Skybreaker · {area:16638} Valanaar · {npc:257196} Zaal Stormshield · {area:16629} Shrine of Akir
 	["At 10, {npc:252377} stands with the trainers by {area:16638}'s west gate. A cultist, {npc:257196}, holds her family's shield at the {area:16629}."] = "",
 
@@ -19,7 +19,7 @@ return {
 	-- {area:16638} Valanaar · {area:16629} Shrine of Akir · {npc:257196} Zaal Stormshield · {item:263993} Skybreaker Bulwark
 	["Head north-west from {area:16638} to the {area:16629}. {npc:257196} stands west of the shrine's approach, among the cult's Guardians, Spiritcallers and Blademasters: pull them one at a time before you take him. He drops the {item:263993}."] = "",
 	-- {item:263993} Skybreaker Bulwark · {npc:257196} Zaal Stormshield
-	["{item:263993}, from {npc:257196}"] = "",
+	["{item:263993}, from {npc:257196}"] = "{item:263993}, kaynak: {npc:257196}",
 
 	-- Step 3: The Skybreaker Bulwark
 	-- {npc:252377} Seena Skybreaker · {area:16638} Valanaar · {spell:71} Defensive Stance · {item:275290} Stormforged Protector · {npc:6090} Bartleby · {zone:1453} Stormwind
@@ -31,7 +31,7 @@ return {
 
 	-- Step 5: Muren Stormpike in Ironforge
 	-- {quest:1679} Muren Stormpike · {zone:1455} Ironforge
-	["{quest:1679} in {zone:1455}"] = "",
+	["{quest:1679} in {zone:1455}"] = "{quest:1679}, {zone:1455} bölgesinde",
 	-- {quest:1679} Muren Stormpike · {object:32390} Hall of Arms (no name in this language: may be words) · {object:32359} Military Ward (no name in this language: may be words)
 	["{quest:1679} stands in the {object:32390} in the {object:32359}."] = "",
 
@@ -47,7 +47,7 @@ return {
 	-- {quest:1681} Ironband's Compound · {zone:1426} Dun Morogh · {area:212} Helm's Bed Lake · {object:85562} Ironband's Strongbox · {npc:6124} Captain Beld
 	["{quest:1681} lies in eastern {zone:1426}, below {area:212} on its south side. Dark Iron Spies (level 8-10) stand along the way, far enough apart to pull one at a time. {object:85562} is in the basement of the southernmost house; {npc:6124} (level 11) stands by it and charges on sight. The box always holds the ore and refills 15 minutes after opening."] = "",
 	-- {item:6800} Umbral Ore · {object:85562} Ironband's Strongbox
-	["{item:6800}, from {object:85562}"] = "",
+	["{item:6800}, from {object:85562}"] = "{item:6800}, kaynak: {object:85562}",
 
 	-- Step 10: Elanaria
 	-- {npc:3598} Kyra Windblade · {area:186} Dolanaar · {npc:2151} Moon Priestess Amara · {quest:1684} Elanaria · {area:1660} Warrior's Terrace · {zone:1457} Darnassus · {zone:1453} Stormwind · {npc:5480} Ilsa Corbin · {quest:1638} A Warrior's Training
@@ -55,7 +55,7 @@ return {
 
 	-- Step 11: Elanaria in Darnassus
 	-- {quest:1684} Elanaria · {zone:1457} Darnassus
-	["{quest:1684} in {zone:1457}"] = "",
+	["{quest:1684} in {zone:1457}"] = "{quest:1684}, {zone:1457} bölgesinde",
 	-- {quest:1684} Elanaria · {area:1660} Warrior's Terrace
 	["{quest:1684} stands on the {area:1660}."] = "",
 
@@ -71,7 +71,7 @@ return {
 	-- {item:6808} Elunite Ore
 	["{item:6808}, from Crates of Elunite"] = "",
 	-- {item:6809} Elura's Medallion · {npc:6133} Shade of Elura
-	["{item:6809}, from the {npc:6133}"] = "",
+	["{item:6809}, from the {npc:6133}"] = "{item:6809}, kaynak: {npc:6133}",
 
 	-- Step 15: Smith Mathiel
 	-- {area:1660} Warrior's Terrace · {npc:4088} Elanaria · {item:6812} Case of Elunite · {npc:6142} Mathiel
@@ -93,9 +93,9 @@ return {
 	-- {npc:6093} Dead-Tooth Jack · {item:6783} Dead-tooth's Key · {object:85563} Dead-tooth's Strongbox · {item:6782} Marshal Haggard's Badge
 	["{npc:6093} (level 11) camps in the far south-east of Elwynn. A guard stands beside him and Defias and wolves are spread around the camp (now and then a rarer guard too): clear them one at a time, then kill Jack. He always drops {item:6783}; open {object:85563} in the crates by him for {item:6782}. Jack returns 3 minutes after dying, the box 1 minute after opening."] = "",
 	-- {npc:6093} Dead-Tooth Jack
-	["from {npc:6093}"] = "",
+	["from {npc:6093}"] = "kaynak: {npc:6093}",
 	-- {item:6782} Marshal Haggard's Badge · {object:85563} Dead-tooth's Strongbox
-	["{item:6782}, from {object:85563}"] = "",
+	["{item:6782}, from {object:85563}"] = "{item:6782}, kaynak: {object:85563}",
 
 	-- Step 20: Back to Marshal Haggard
 	-- {npc:294} Marshal Haggard

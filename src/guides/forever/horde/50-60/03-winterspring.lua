@@ -5,26 +5,26 @@
 return {
 	-- Step 1: Ragged Owlbeast on the way
 	-- {npc:7450} Ragged Owlbeast
-	["{npc:7450} on the way"] = "",
+	["{npc:7450} on the way"] = "Yol üstünde: {npc:7450}",
 
 	-- Step 2: Into Winterspring
 	-- {area:618} Winterspring
-	["Into {area:618}"] = "",
+	["Into {area:618}"] = "{area:618} içine",
 
 	-- Step 3: Raging Owlbeast on the way
 	-- {npc:7451} Raging Owlbeast
-	["{npc:7451} on the way"] = "",
+	["{npc:7451} on the way"] = "Yol üstünde: {npc:7451}",
 
 	-- Step 5: Everlook
 	-- {area:2255} Everlook
 	["{area:2255} is the goblin town on the east side of the valley."] = "{area:2255}, vadinin doğu yakasındaki goblin kasabası.",
 	-- {npc:11754} Meggi Peppinrocker · {area:2255} Everlook
-	["{npc:11754} walks around {area:2255}: look inside the circle on the map"] = "",
+	["{npc:11754} walks around {area:2255}: look inside the circle on the map"] = "{npc:11754}, {area:2255} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 	["Gregor's and Harlo's quests lead to other zones: keep them."] = "Gregor'un ve Harlo'nun görevleri başka bölgelere gidiyor: sakla.",
 	-- {npc:11118} Innkeeper Vizzie
 	["{npc:11118}: the last guide binds here, so this usually ticks at once"] = "{npc:11118}: önceki rehber Hearthstone'u burada bağlar, bu yüzden bu genelde hemen tamamlanır",
 	-- {npc:10431} Gregor Greystone
-	["{npc:10431}, inside"] = "",
+	["{npc:10431}, inside"] = "{npc:10431}, içeride",
 
 	-- Step 6: Ice Thistle yetis
 	["Ice Thistle yetis"] = "Ice Thistle yetileri",
@@ -32,17 +32,17 @@ return {
 	["The yeti hills start just south-east of {area:2255}. Every yeti drops fur; only Matriarchs and Patriarchs drop horns, so keep those for after the turn-in."] = "Yeti tepeleri {area:2255} kasabasının hemen güneydoğusunda başlıyor. Her yeti kürk düşürür; boynuzu yalnızca Matriarch ve Patriarch yaratıkları düşürür, onları teslimden sonraya bırak.",
 
 	-- Step 8: Level 55.04
-	["Level 55.04"] = "",
+	["Level 55.04"] = "Seviye 55.04",
 	-- {area:2255} Everlook
-	["Top up here to level 55.04 before the hand-ins at {area:2255}: they take you to level 56."] = "",
+	["Top up here to level 55.04 before the hand-ins at {area:2255}: they take you to level 56."] = "{area:2255} teslimlerinden önce burada seviye 55.04 olana kadar kas: teslimler seni seviye 56 yapar.",
 	-- {npc:7460} Ice Thistle Patriarch
-	["grind on {npc:7460}"] = "",
+	["grind on {npc:7460}"] = "Kas: {npc:7460}",
 
 	-- Step 9: Pristine Yeti Horns
 	-- plural, as words: Pristine Yeti Horns = {item:12367} Pristine Yeti Horn
 	["Pristine Yeti Horns"] = "Pristine Yeti Horn",
 	["Matriarchs and Patriarchs hit hard: pull them one at a time."] = "Matriarch ve Patriarch yaratıkları sert vurur: tek tek çek.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 10: Chillwind chimaeras
 	["Chillwind chimaeras"] = "Chillwind chimaera yaratıkları",
@@ -66,11 +66,11 @@ return {
 
 	-- Step 14: Winterfall Den Watcher on the way
 	-- {npc:7440} Winterfall Den Watcher
-	["{npc:7440} on the way"] = "",
+	["{npc:7440} on the way"] = "Yol üstünde: {npc:7440}",
 
 	-- Step 15: Frostfire Hot Springs: kill these as you meet them
 	-- {area:2246} Frostfire Hot Springs
-	["{area:2246}: kill these as you meet them"] = "",
+	["{area:2246}: kill these as you meet them"] = "{area:2246}: bunları karşılaştıkça öldür",
 	-- {item:14047} Runecloth
 	-- plural, as words: Ragged Owlbeasts = {npc:7450} Ragged Owlbeast
 	["Pathfinders, Den Watchers and Totemics share the furbolg camps around the hot springs; Ragged Owlbeasts roam the slopes between them. Kill Totemics first. Save every {item:14047} you loot for Meilosh."] = "Kaplıcaların çevresindeki furbolg kamplarını Pathfinder, Den Watcher ve Totemic yaratıkları paylaşıyor; aralarındaki yamaçlarda Ragged Owlbeast yaratıkları dolaşıyor. Önce Totemic yaratıklarını öldür. Loot ettiğin her {item:14047} kumaşını Meilosh için sakla.",
@@ -98,7 +98,7 @@ return {
 	-- {area:1099} Camp Mojache
 	["Fly to {area:1099}"] = "{area:1099} kampına uç",
 	-- {area:2255} Everlook
-	["{area:2255} flight master"] = "",
+	["{area:2255} flight master"] = "{area:2255} uçuş ustası",
 
 	-- Step 21: The Videre Elixir
 	-- {npc:7775} Gregan Brewspewer · {area:1137} Lower Wilds · {area:1099} Camp Mojache
@@ -129,7 +129,7 @@ return {
 	-- {area:1637} Orgrimmar
 	["Fly to {area:1637}"] = "{area:1637} şehrine uç",
 	-- {zone:1456} Thunder Bluff
-	["{zone:1456} flight master"] = "",
+	["{zone:1456} flight master"] = "{zone:1456} uçuş ustası",
 
 	-- Step 28: Vehena
 	-- {object:172961} Valley of Spirits

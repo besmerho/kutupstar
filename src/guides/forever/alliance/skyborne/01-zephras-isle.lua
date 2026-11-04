@@ -9,7 +9,7 @@ return {
 
 	-- Step 2: Thendal Grove: kill these as you meet them
 	-- {area:16622} Thendal Grove
-	["{area:16622}: kill these as you meet them"] = "",
+	["{area:16622}: kill these as you meet them"] = "{area:16622}: bunları karşılaştıkça öldür",
 	-- {npc:250873} Juvenile Vuldren
 	["{npc:250873} and Pesky Cirrusflies roam the meadow just south-east of the grove."] = "{npc:250873} ve Pesky Cirrusfly yaratıkları korunun hemen güneydoğusundaki çayırda dolaşıyor.",
 
@@ -66,9 +66,9 @@ return {
 	-- {npc:250926} Scrawny Ursera · {npc:251115} Urs'anah
 	-- plural, as words: Ursera Scavengers = {npc:250937} Ursera Scavenger
 	["{npc:250926} prowl the woods just west of the grove; the Ursera Scavengers den further west, with {npc:251115}, the matriarch, at the back of the den."] = "{npc:250926} yaratıkları korunun hemen batısındaki ormanda dolaşıyor; Ursera Scavenger yaratıklarının ini daha batıda, sürünün anası {npc:251115} da inin dibinde.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 	-- {item:252665} Head of Urs'anah
-	["{item:252665}; below ground"] = "",
+	["{item:252665}; below ground"] = "{item:252665}; yer altında",
 
 	-- Step 11: Hanaa Nightwind
 	-- {npc:252095} Hanaa Nightwind · {npc:256935} Malduko Cloudcrush
@@ -83,13 +83,13 @@ return {
 
 	-- Step 14: Windshaper Novice Seer on the way
 	-- {npc:257532} Windshaper Novice Seer
-	["{npc:257532} on the way"] = "",
+	["{npc:257532} on the way"] = "Yol üstünde: {npc:257532}",
 
 	-- Step 15: Raan Wildwind
 	-- {npc:263664} Raan Wildwind · {spell:1229451} Boosted Rest
 	["/sit by {npc:263664}'s campfire until you get {spell:1229451}"] = "{spell:1229451} gelene kadar {npc:263664} kamp ateşinin yanında otur (/sit)",
 	-- {npc:251905} Zerril Softbreeze
-	["{npc:251905}: Camping 101 asks you to learn it"] = "",
+	["{npc:251905}: Camping 101 asks you to learn it"] = "{npc:251905}: Camping 101 bunu öğrenmeni istiyor",
 
 	-- Step 16: Village quests
 	["Village quests"] = "Köy görevleri",
@@ -105,13 +105,13 @@ return {
 
 	-- Step 21: Highlands Bandit on the way
 	-- {npc:251918} Highlands Bandit
-	["{npc:251918} on the way"] = "",
+	["{npc:251918} on the way"] = "Yol üstünde: {npc:251918}",
 	-- {npc:251918} Highlands Bandit
 	["{npc:251918} along the way to Shen'dar turn-ins"] = "",
 
 	-- Step 22: Shen'dar Highlands: kill these as you meet them
 	-- {area:16623} Shen'dar Highlands
-	["{area:16623}: kill these as you meet them"] = "",
+	["{area:16623}: kill these as you meet them"] = "{area:16623}: bunları karşılaştıkça öldür",
 	-- plural, as words: Highlands Bandits = {npc:251918} Highlands Bandit
 	["The Highlands Bandits camp north-east of the village. \"Badwind\" Bennic waits at the far north end of their camp."] = "Highlands Bandit yaratıkları köyün kuzeydoğusunda kamp kurmuş. \"Badwind\" Bennic kamplarının en kuzey ucunda bekliyor.",
 	["\"Badwind\" Bennic, below ground"] = "",
@@ -120,27 +120,27 @@ return {
 	["Shen'dar turn-ins"] = "Shen'dar teslimleri",
 
 	-- Step 24: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 25: Paladin trainer
-	["Paladin trainer"] = "",
+	["Paladin trainer"] = "Paladin eğitmeni",
 	-- {npc:5148} Beldruk Doombrow · {zone:1455} Ironforge · {area:16624} Shen'dar Village
-	["{npc:5148} in {zone:1455}; {area:16624} has no paladin trainer"] = "",
+	["{npc:5148} in {zone:1455}; {area:16624} has no paladin trainer"] = "{npc:5148}, {zone:1455} bölgesinde; {area:16624} içinde Paladin eğitmeni yok",
 
 	-- Step 26: Priest trainer
-	["Priest trainer"] = "",
+	["Priest trainer"] = "Priest eğitmeni",
 	-- {zone:1438} Teldrassil · {area:16624} Shen'dar Village
 	["Lariia in {zone:1438}; {area:16624} has no priest trainer"] = "",
 
 	-- Step 27: Shaman trainer
-	["Shaman trainer"] = "",
+	["Shaman trainer"] = "Shaman eğitmeni",
 	-- {npc:258098} Eldrun Stormbreaker · {zone:1455} Ironforge · {area:16624} Shen'dar Village
-	["{npc:258098} in {zone:1455}; {area:16624} has no shaman trainer"] = "",
+	["{npc:258098} in {zone:1455}; {area:16624} has no shaman trainer"] = "{npc:258098}, {zone:1455} bölgesinde; {area:16624} içinde Shaman eğitmeni yok",
 
 	-- Step 28: Warlock trainer
-	["Warlock trainer"] = "",
+	["Warlock trainer"] = "Warlock eğitmeni",
 	-- {item:2450} Briarthorn · {zone:1455} Ironforge · {area:16624} Shen'dar Village
-	["{item:2450} in {zone:1455}; {area:16624} has no warlock trainer"] = "",
+	["{item:2450} in {zone:1455}; {area:16624} has no warlock trainer"] = "{item:2450}, {zone:1455} bölgesinde; {area:16624} içinde Warlock eğitmeni yok",
 
 	-- Step 29: Falaath Village
 	-- {npc:257065} Missionary Jasaan · {quest:92529} Falaath Village · {spell:1254832} Mark of Akir
@@ -177,9 +177,9 @@ return {
 	-- {npc:252383} Valennia Stormfist · {npc:252476} Talaanis Shadowsong · {area:16638} Valanaar · {npc:252475} Elaadrin Evengale · {npc:253204} Dondallion Whisperwind
 	["{npc:252383} and {npc:252476} stand at the north end of {area:16638}, {npc:252475} and {npc:253204} at the south end."] = "{npc:252383} ve {npc:252476} {area:16638} kasabasının kuzey ucunda, {npc:252475} ve {npc:253204} güney ucunda duruyor.",
 	-- {npc:252476} Talaanis Shadowsong
-	["{npc:252476}, upstairs"] = "",
+	["{npc:252476}, upstairs"] = "{npc:252476}, üst katta",
 	-- {npc:252383} Valennia Stormfist
-	["{npc:252383}, upstairs"] = "",
+	["{npc:252383}, upstairs"] = "{npc:252383}, üst katta",
 
 	-- Step 39: Skyhoppers
 	-- plural, as words: Skyhoppers = {npc:251727} Skyhopper
@@ -203,7 +203,7 @@ return {
 	-- {npc:252448} Alvarion Windfield
 	["Listen to {npc:252448}'s story"] = "{npc:252448} adlı NPC'nin hikâyesini dinle",
 	-- {npc:257006} Nyalah Brightfire
-	["{npc:257006}, inside"] = "",
+	["{npc:257006}, inside"] = "{npc:257006}, içeride",
 
 	-- Step 43: The missing scholar
 	["The missing scholar"] = "Kayıp bilgin",
@@ -216,14 +216,14 @@ return {
 	-- {npc:254588} Windsong Crawler · {npc:252389} Quel'ana Quickgale · {item:15908} Taming Rod
 	["{npc:254588}, among the crabs: tame one with {npc:252389}'s first {item:15908} while you are there"] = "",
 	-- {npc:254588} Windsong Crawler
-	["Tame {npc:254588}"] = "",
-	["Underwater"] = "",
+	["Tame {npc:254588}"] = "Evcilleştir: {npc:254588}",
+	["Underwater"] = "Su altında",
 
 	-- Step 45: The missing scholar
 	-- plural, as words: Shriekling Matriarchs = {npc:253283} Shriekling Matriarch
 	["Fillion's camp is north-west of it, and the Shriekling Matriarchs nest just west of the camp."] = "",
 	-- {item:257107} Shriekling Matriarch's Head
-	["{item:257107}; below ground"] = "",
+	["{item:257107}; below ground"] = "{item:257107}; yer altında",
 
 	-- Step 46: Aamelia Windfield
 	-- {npc:252800} Aamelia Windfield
@@ -233,7 +233,7 @@ return {
 
 	-- Step 47: Gustberry Lowlands: kill these as you meet them
 	-- {area:16626} Gustberry Lowlands
-	["{area:16626}: kill these as you meet them"] = "",
+	["{area:16626}: kill these as you meet them"] = "{area:16626}: bunları karşılaştıkça öldür",
 	-- {quest:92683} Flutterfly Dust · {npc:250929} Malfunctioning Cyclone Construct
 	-- plural, as words: Ripe Stormapples = {item:253591} Ripe Stormapple · Hungry Bandits = {npc:252802} Hungry Bandit · Ornery Galestriders = {npc:251707} Ornery Galestrider
 	["Ripe Stormapples and Hungry Bandits are in the orchard by the farm, {quest:92683} in the fields north-east of it, Ornery Galestriders all around. The {npc:250929} stands in the field north-east of the farm."] = "Ripe Stormapple meyveleri ve Hungry Bandit yaratıkları çiftliğin yanındaki meyve bahçesinde, {quest:92683} çiftliğin kuzeydoğusundaki tarlalarda, Ornery Galestrider yaratıkları da her yanda. {npc:250929} çiftliğin kuzeydoğusundaki tarlada duruyor.",
@@ -253,7 +253,7 @@ return {
 
 	-- Step 51: Hearth to Valanaar
 	-- {area:16638} Valanaar
-	["Hearth to {area:16638}"] = "",
+	["Hearth to {area:16638}"] = "Hearthstone ile dön: {area:16638}",
 
 	-- Step 52: Valanaar turn-ins
 	-- {area:16638} Valanaar
@@ -270,9 +270,9 @@ return {
 	-- {item:15908} Taming Rod
 	["Tame it with the {item:15908}"] = "{item:15908} ile evcilleştir",
 	-- {npc:251707} Ornery Galestrider
-	["Tame {npc:251707}"] = "",
+	["Tame {npc:251707}"] = "Evcilleştir: {npc:251707}",
 	-- {npc:250874} Vuldren Alpha
-	["Tame {npc:250874}"] = "",
+	["Tame {npc:250874}"] = "Evcilleştir: {npc:250874}",
 
 	-- Step 56: The Windstone Formations
 	-- plural, as words: Windstone Formations = {object:697118} Windstone Formation
@@ -302,31 +302,31 @@ return {
 	-- {npc:273017} Fendaal Windstone · {quest:98512} Al'Aketh Assassins
 	["North-west of Valanaar along the road: {npc:273017} watches the {quest:98512}; the dead cultist lies just north of him."] = "Yol boyunca Valanaar kasabasının kuzeybatısında: {npc:273017}, {quest:98512} grubunu gözetliyor; ölü tarikatçı onun hemen kuzeyinde yatıyor.",
 	["Search the dead cultist"] = "Ölü tarikatçının üstünü ara",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 	-- {npc:258443} Ur'endra
 	["{npc:258443}, in the highlands south-west of the cultist"] = "{npc:258443}, tarikatçının güneybatısındaki yaylalarda",
 
 	-- Step 63: Desperate times
 	["Desperate times"] = "Zor zamanlar",
-	["Upstairs"] = "",
+	["Upstairs"] = "Üst katta",
 	-- {npc:251968} Ayessa Dawnsinger · {npc:252475} Elaadrin Evengale
 	["Rally Valennia, {npc:251968} (west of town) and {npc:252475}"] = "Valennia, {npc:251968} (kasabanın batısında) ve {npc:252475} adlı NPC'leri topla",
 
 	-- Step 65: Paladin trainer
 	-- {npc:5148} Beldruk Doombrow · {zone:1455} Ironforge · {area:16638} Valanaar
-	["{npc:5148} in {zone:1455}; {area:16638} has no paladin trainer"] = "",
+	["{npc:5148} in {zone:1455}; {area:16638} has no paladin trainer"] = "{npc:5148}, {zone:1455} bölgesinde; {area:16638} içinde Paladin eğitmeni yok",
 
 	-- Step 66: Priest trainer
 	-- {npc:5141} Theodrus Frostbeard · {zone:1455} Ironforge · {area:16638} Valanaar
-	["{npc:5141} in {zone:1455}; {area:16638} has no priest trainer"] = "",
+	["{npc:5141} in {zone:1455}; {area:16638} has no priest trainer"] = "{npc:5141}, {zone:1455} bölgesinde; {area:16638} içinde Priest eğitmeni yok",
 
 	-- Step 67: Shaman trainer
 	-- {npc:258098} Eldrun Stormbreaker · {zone:1455} Ironforge · {area:16638} Valanaar
-	["{npc:258098} in {zone:1455}; {area:16638} has no shaman trainer"] = "",
+	["{npc:258098} in {zone:1455}; {area:16638} has no shaman trainer"] = "{npc:258098}, {zone:1455} bölgesinde; {area:16638} içinde Shaman eğitmeni yok",
 
 	-- Step 68: Warlock trainer
 	-- {item:2450} Briarthorn · {zone:1455} Ironforge · {area:16638} Valanaar
-	["{item:2450} in {zone:1455}; {area:16638} has no warlock trainer"] = "",
+	["{item:2450} in {zone:1455}; {area:16638} has no warlock trainer"] = "{item:2450}, {zone:1455} bölgesinde; {area:16638} içinde Warlock eğitmeni yok",
 
 	-- Step 69: Desperate times
 	-- {npc:253844} Valennia Stormfist
@@ -340,7 +340,7 @@ return {
 
 	-- Step 71: Shadowgale Forest: kill these as you meet them
 	-- {area:16631} Shadowgale Forest
-	["{area:16631}: kill these as you meet them"] = "",
+	["{area:16631}: kill these as you meet them"] = "{area:16631}: bunları karşılaştıkça öldür",
 	-- {npc:257944} Elegael Thornpaw · {item:265105} Lady's Tear Moss
 	-- plural, as words: Al'Aketh Stormchasers = {npc:252664} Al'Aketh Stormchaser
 	["Al'Aketh Stormchasers and Footsoldiers camp just north of {npc:257944} and drop the heirloom; the Shrieklings west of her drop the feathers and talons; the {item:265105} grows along the stream west of her."] = "Al'Aketh Stormchaser ve Al'Aketh Footsoldier yaratıkları {npc:257944} adlı NPC'nin hemen kuzeyinde kamp kurmuş ve aile yadigârını düşürür; onun batısındaki Shriekling yaratıkları tüyleri ve pençeleri düşürür; {item:265105} onun batısındaki dere boyunca yetişiyor.",
@@ -367,7 +367,7 @@ return {
 
 	-- Step 76: Ruins of Ban'aethal: kill these as you meet them
 	-- {area:16833} Ruins of Ban'aethal
-	["{area:16833}: kill these as you meet them"] = "",
+	["{area:16833}: kill these as you meet them"] = "{area:16833}: bunları karşılaştıkça öldür",
 	-- {item:266433} Abandoned Belongings · {npc:259013} Resaan Nimbuswalker
 	-- plural, as words: Wind Hollows = {npc:251676} Wind Hollow
 	["North of the cones: the Wind Hollows drift around the refugees' camp, the {item:266433} lie between the tents, and {npc:259013} lies at its north end."] = "Kozalakların kuzeyinde: Wind Hollow yaratıkları mülteci kampının çevresinde süzülüyor, {item:266433} çadırların arasında duruyor, {npc:259013} ise kampın kuzey ucunda yatıyor.",
@@ -387,7 +387,7 @@ return {
 
 	-- Step 79: Portal to Rohashi Spires
 	-- {area:16630} Rohashi Spires
-	["Portal to {area:16630}"] = "",
+	["Portal to {area:16630}"] = "Portalla: {area:16630}",
 
 	-- Step 80: High Priestess Lorthuna
 	-- {area:16630} Rohashi Spires · {npc:252475} Elaadrin Evengale · {object:617084} Portal to Valanaar (no name in this language: may be words)
@@ -409,15 +409,15 @@ return {
 	-- {npc:259084} Denaaris Stargale · {area:279} Dalaran · {zone:1453} Stormwind
 	["{npc:259084} stands beside the Skyborne Portal, where the skycutter lands by the Kirin Tor camp west of {area:279}. The portal takes you to {zone:1453}."] = "",
 	-- {npc:259084} Denaaris Stargale
-	["{npc:259084}, inside"] = "",
+	["{npc:259084}, inside"] = "{npc:259084}, içeride",
 	-- {npc:270459} Alfina Nightgaze · {npc:259084} Denaaris Stargale · {npc:5504} Sheldras Moontree · {zone:1453} Stormwind
 	["{npc:270459}, beside {npc:259084}: for {npc:5504} in {zone:1453}"] = "{npc:270459}, {npc:259084} adlı NPC'nin yanında: {zone:1453} şehrindeki {npc:5504} için",
 	-- {object:631299} Skyborne Portal to Stormwind
-	["{object:631299}, inside"] = "",
+	["{object:631299}, inside"] = "{object:631299}, içeride",
 
 	-- Step 86: Stormwind flight master
 	-- {zone:1453} Stormwind
-	["{zone:1453} flight master"] = "",
+	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 
 	-- Step 87: Stormwind Keep
 	-- {object:2117} Stormwind Keep · {area:40} Westfall
@@ -427,15 +427,15 @@ return {
 
 	-- Step 88: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Warrior fastest."] = "",
+	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 89: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "",
+	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
 	-- Step 90: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Swords from {npc:11867} ({object:2096}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "",
+	["While you're here: learn Swords from {npc:11867} ({object:2096}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "Buradayken: {npc:11867} sana Swords öğretir ({object:2096}, 10 gümüş); ana elde bir kılıçla Rogue istikrarla seviye atlar.",
 
 	-- Step 92: Sheldras Moontree
 	-- {npc:5504} Sheldras Moontree · {zone:1453} Stormwind · {spell:18960} Teleport: Moonglade · {npc:11802} Dendrite Starblaze · {spell:499} Cat Form · {zone:1439} Darkshore

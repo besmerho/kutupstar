@@ -18,17 +18,17 @@ return {
 	-- plural, as words: Young Goretusks = {npc:454} Young Goretusk
 	["South along the road, past the fork. {npc:233} stands outside, {npc:235} in the house, {npc:253395} in the barn to the west. Young Goretusks and Fleshrippers roam the fields around the farm: start on livers and the stew's meat on the way."] = "Yol boyunca güneye, ayrımın ilerisine git. {npc:233} dışarıda, {npc:235} evin içinde, {npc:253395} batıdaki ahırda duruyor. Young Goretusk ve Fleshripper yaratıkları çiftliğin çevresindeki tarlalarda dolaşıyor: ciğerleri ve yahninin etini yolda toplamaya başla.",
 	-- {npc:235} Salma Saldean
-	["{npc:235}, inside"] = "",
+	["{npc:235}, inside"] = "{npc:235}, içeride",
 
 	-- Step 5: Goretusk Snout on the way
 	-- {item:731} Goretusk Snout
-	["{item:731} on the way"] = "",
+	["{item:731} on the way"] = "Yol üstünde: {item:731}",
 
 	-- Step 6: Sentinel Hill
 	-- {npc:234} Gryan Stoutmantle · {npc:821} Captain Danuvin · {npc:491} Quartermaster Lewis · {npc:878} Scout Galiaan · {npc:523} Thor
 	["{npc:234} and {npc:821} stand at the top of the stone tower. {npc:491} is in the tower, {npc:878} on the south side of the hill, next to the inn and {npc:523} the gryphon master."] = "{npc:234} ve {npc:821} taş kulenin tepesinde duruyor. {npc:491} kulenin içinde, {npc:878} tepenin güney yakasında, hanın ve grifon ustası {npc:523} adlı NPC'nin yanında.",
 	-- {npc:491} Quartermaster Lewis
-	["{npc:491}, inside"] = "",
+	["{npc:491}, inside"] = "{npc:491}, içeride",
 	-- {npc:523} Thor
 	["{npc:523}; skip the free flight it offers"] = "{npc:523}; sunduğu ücretsiz uçuşu atla",
 	-- {npc:253092} Alba Fairmoon · {npc:878} Scout Galiaan
@@ -36,7 +36,7 @@ return {
 
 	-- Step 8: Westfall: kill these as you meet them
 	-- {area:40} Westfall
-	["{area:40}: kill these as you meet them"] = "",
+	["{area:40}: kill these as you meet them"] = "{area:40}: bunları karşılaştıkça öldür",
 	-- {object:290} Furlbrow's Wardrobe · {item:732} Okra · {item:255155} Precessive Autocognition Assembly · {npc:573} Foe Reaper 4000
 	-- plural, as words: Defias Trappers = {npc:504} Defias Trapper · Harvest Watchers = {npc:114} Harvest Watcher
 	["North of Molsen Farm. Defias Trappers and Smugglers camp outside the mine. {object:290} stands by the ruined house east of the mine.\nWest of Saldean's. Harvest Watchers and Golems work the fields; they drop the isosprings, gyrostabilizers, {item:732} and sometimes a {item:255155}. {npc:573}, a level 20 rare, walks here: leave it alone. Keep killing Goretusks and Fleshrippers on every leg of this loop."] = "",
@@ -53,7 +53,7 @@ return {
 
 	-- Step 12: Furlbrow's Pumpkin Farm: kill these as you meet them
 	-- {area:109} Furlbrow's Pumpkin Farm
-	["{area:109}: kill these as you meet them"] = "",
+	["{area:109}: kill these as you meet them"] = "{area:109}: bunları karşılaştıkça öldür",
 	-- {area:111} Jangolode Mine · {area:916} The Jansen Stead · {npc:502} Benny Blaanco
 	-- plural, as words: Riverpaw Gnolls = {npc:117} Riverpaw Gnoll · Murloc Coastrunners = {npc:126} Murloc Coastrunner
 	["Riverpaw Gnolls and Scouts (level 11-13) roam the hills south of the coast, from above {area:111} east to the {area:916}. The gnolls further south and west are 13-19: stay in the north hills.\nMurloc Coastrunners and Raiders line the beach north of the mine. They flee at low health: pull one at a time.\nCareful: Gnolls that stand close together tend to join a fight as a group. Pulling one at a time is safer.\nCareful: Two Defias stand guard inside the house, one of them the level 15 named {npc:502}. They are linked, so attacking either one brings both."] = "",
@@ -62,7 +62,7 @@ return {
 	-- plural, as words: Gnoll Paws = {item:725} Gnoll Paw
 	["Gnoll Paws"] = "Gnoll Paw",
 	-- {object:290} Furlbrow's Wardrobe
-	["{object:290}; inside"] = "",
+	["{object:290}; inside"] = "{object:290}; içeride",
 	-- plural, as words: Longshore Murloc Gills = {item:254548} Longshore Murloc Gill
 	["Longshore Murloc Gills"] = "Longshore Murloc Gill",
 
@@ -70,7 +70,7 @@ return {
 	["Sacks of Oats in the fields around the farm"] = "",
 
 	-- Step 14: Saldean's Farm
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 15: Sentinel Hill
 	-- {npc:266} Wiley the Black · {area:69} Lakeshire
@@ -94,7 +94,7 @@ return {
 
 	-- Step 18: Moonbrook: kill these as you meet them
 	-- {area:20} Moonbrook
-	["{area:20}: kill these as you meet them"] = "",
+	["{area:20}: kill these as you meet them"] = "{area:20}: bunları karşılaştıkça öldür",
 	-- {area:108} Sentinel Hill · {area:20} Moonbrook · {area:113} Gold Coast Quarry
 	-- plural, as words: Defias Pillagers = {npc:589} Defias Pillager
 	["Defias Pillagers and Looters hold the farms west of {area:108}, between the coast road and {area:20}.\nCareful: The {area:113} cave holds many Defias packed together, so it is easy to pull several at once there."] = "",
@@ -110,7 +110,7 @@ return {
 
 	-- Step 21: Hearth to Sentinel Hill
 	-- {area:108} Sentinel Hill
-	["Hearth to {area:108}"] = "",
+	["Hearth to {area:108}"] = "Hearthstone ile dön: {area:108}",
 
 	-- Step 22: Back to Sentinel Hill
 	-- {area:108} Sentinel Hill
@@ -136,7 +136,7 @@ return {
 
 	-- Step 30: Tram to Ironforge
 	-- {zone:1455} Ironforge
-	["Tram to {zone:1455}"] = "",
+	["Tram to {zone:1455}"] = "Tramvayla: {zone:1455}",
 
 	-- Step 31: Shaman training
 	["Shaman training"] = "Shaman eğitimi",
@@ -150,7 +150,7 @@ return {
 
 	-- Step 33: Back to Stormwind City
 	-- {area:1519} Stormwind City
-	["Back to {area:1519}"] = "",
+	["Back to {area:1519}"] = "Dönüş: {area:1519}",
 
 	-- Step 35: Stormwind
 	-- {item:2449} Earthroot · {zone:1439} Darkshore · {npc:1313} Maria Lumere
@@ -163,23 +163,23 @@ return {
 
 	-- Step 38: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Warrior fastest."] = "",
+	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 39: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Paladin fastest."] = "",
+	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş); Paladin en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 40: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "",
+	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
 	-- Step 41: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Swords from {npc:11867} ({object:2096}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "",
+	["While you're here: learn Swords from {npc:11867} ({object:2096}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "Buradayken: {npc:11867} sana Swords öğretir ({object:2096}, 10 gümüş); ana elde bir kılıçla Rogue istikrarla seviye atlar.",
 
 	-- Step 42: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "",
+	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş); seviye atlarken bir asa, tek elli bir silahtan daha çok büyü istatistiği taşır.",
 
 	-- Step 44: Fishin' Time
 	-- {npc:5494} Catherine Leland · {object:2096} Trade District · {npc:267118} Gilbert Gray

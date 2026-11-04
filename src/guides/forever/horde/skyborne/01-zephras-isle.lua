@@ -9,7 +9,7 @@ return {
 
 	-- Step 2: Thendal Grove: kill these as you meet them
 	-- {area:16622} Thendal Grove
-	["{area:16622}: kill these as you meet them"] = "",
+	["{area:16622}: kill these as you meet them"] = "{area:16622}: bunları karşılaştıkça öldür",
 	-- {npc:250873} Juvenile Vuldren
 	["Pesky Cirrusflies and {npc:250873} roam the grove just south-east of the village."] = "Pesky Cirrusfly ve {npc:250873} yaratıkları köyün hemen güneydoğusundaki koruda dolaşıyor.",
 
@@ -39,9 +39,9 @@ return {
 	-- {npc:251389} Akeri Duskblade
 	["{npc:251389}, in the watchtower"] = "{npc:251389}, gözetleme kulesinde",
 	-- {npc:251376} Tai'ree Farsight · {npc:251361} Rorian the Dayseeker
-	["{npc:251376}, beside {npc:251361}"] = "",
+	["{npc:251376}, beside {npc:251361}"] = "{npc:251376}, {npc:251361} yanında",
 	-- {npc:251374} Windshaper Boro · {npc:251361} Rorian the Dayseeker
-	["{npc:251374}, beside {npc:251361}"] = "",
+	["{npc:251374}, beside {npc:251361}"] = "{npc:251374}, {npc:251361} yanında",
 	-- {npc:251373} Xyton Silverwind · {npc:251361} Rorian the Dayseeker
 	["{npc:251373}, the druid trainer, on the ground floor of the tree behind {npc:251361}"] = "{npc:251373}, Druid eğitmeni, {npc:251361} adlı NPC'nin arkasındaki ağacın zemin katında",
 	-- {npc:251373} Xyton Silverwind
@@ -71,7 +71,7 @@ return {
 	-- Step 10: Thendal Grove: kill these as you meet them
 	-- {npc:250926} Scrawny Ursera · {npc:252095} Hanaa Nightwind · {npc:251115} Urs'anah
 	["{npc:250926} prowl the slopes south-west of the village, on the way to {npc:252095}.\nThe Ursera den is west of the village. {npc:251115}, their matriarch, sits at its far end."] = "",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 11: Hanaa Nightwind
 	-- {npc:252095} Hanaa Nightwind · {area:16622} Thendal Grove · {npc:256935} Malduko Cloudcrush
@@ -101,7 +101,7 @@ return {
 
 	-- Step 15: Shen'dar Village: kill these as you meet them
 	-- {area:16624} Shen'dar Village
-	["{area:16624}: kill these as you meet them"] = "",
+	["{area:16624}: kill these as you meet them"] = "{area:16624}: bunları karşılaştıkça öldür",
 	-- {area:16624} Shen'dar Village · {item:5469} Strider Meat · {npc:251905} Zerril Softbreeze
 	-- plural, as words: Prideclaws = {npc:251245} Prideclaw · Small Eggs = {item:6889} Small Egg
 	["Prideclaws and Galestriders share the meadows south of {area:16624}. The Galestriders drop both the Small Eggs and the {item:5469} for {npc:251905}."] = "",
@@ -114,7 +114,7 @@ return {
 
 	-- Step 17: Shen'dar Highlands: kill these as you meet them
 	-- {area:16623} Shen'dar Highlands
-	["{area:16623}: kill these as you meet them"] = "",
+	["{area:16623}: kill these as you meet them"] = "{area:16623}: bunları karşılaştıkça öldür",
 	["The apprentices practise north-east of the village.\nThe bandit camps are north-east of the village; \"Badwind\" Bennic holds the top camp. Bandits carry the stolen windstones."] = "",
 
 	-- Step 18: Shen'dar bounty board
@@ -157,7 +157,7 @@ return {
 
 	-- Step 27: Hippogryph Youth on the way
 	-- {npc:251291} Hippogryph Youth
-	["{npc:251291} on the way"] = "",
+	["{npc:251291} on the way"] = "Yol üstünde: {npc:251291}",
 	-- {npc:251291} Hippogryph Youth · {area:16624} Shen'dar Village
 	["{npc:251291} along the way to {area:16624} hand-ins"] = "",
 
@@ -173,13 +173,13 @@ return {
 	-- {npc:263664} Raan Wildwind · {spell:1229451} Boosted Rest
 	["/sit by {npc:263664}'s campfire until you get {spell:1229451}"] = "{spell:1229451} gelene kadar {npc:263664} kamp ateşinin yanında otur (/sit)",
 	-- {npc:251905} Zerril Softbreeze
-	["{npc:251905}: Camping 101 asks you to learn it"] = "",
+	["{npc:251905}: Camping 101 asks you to learn it"] = "{npc:251905}: Camping 101 bunu öğrenmeni istiyor",
 
 	-- Step 31: Valanaar
 	-- {npc:252476} Talaanis Shadowsong
-	["{npc:252476}, upstairs"] = "",
+	["{npc:252476}, upstairs"] = "{npc:252476}, üst katta",
 	-- {npc:252383} Valennia Stormfist
-	["{npc:252383}, upstairs"] = "",
+	["{npc:252383}, upstairs"] = "{npc:252383}, üst katta",
 
 	-- Step 32: Back to Valanaar
 	-- {area:16638} Valanaar
@@ -199,7 +199,7 @@ return {
 
 	-- Step 35: Nyalah Brightfire and Alvarion Windfield
 	-- {npc:257006} Nyalah Brightfire · {npc:252448} Alvarion Windfield
-	["{npc:257006} and {npc:252448}"] = "",
+	["{npc:257006} and {npc:252448}"] = "{npc:257006} ve {npc:252448}",
 	-- {npc:257006} Nyalah Brightfire · {area:16638} Valanaar · {npc:252448} Alvarion Windfield
 	["{npc:257006} waits inside a house on {area:16638}'s western edge; {npc:252448} is close by."] = "",
 	-- {npc:255940} Donaal Downbreeze
@@ -209,7 +209,7 @@ return {
 	-- {npc:252389} Quel'ana Quickgale · {npc:257006} Nyalah Brightfire · {quest:94978} Taming the Beast
 	["{npc:252389}, a few steps west of {npc:257006}: {quest:94978}, the first rod"] = "",
 	-- {npc:257006} Nyalah Brightfire
-	["{npc:257006}, inside"] = "",
+	["{npc:257006}, inside"] = "{npc:257006}, içeride",
 
 	-- Step 36: Riaani Nightwind
 	-- {npc:256083} Riaani Nightwind · {area:16626} Gustberry Lowlands
@@ -226,11 +226,11 @@ return {
 	["Talk to {npc:252800}"] = "{npc:252800} ile konuş",
 
 	-- Step 38: On the way
-	["On the way"] = "",
+	["On the way"] = "Yol üstünde",
 	-- {item:253591} Ripe Stormapple · {npc:252800} Aamelia Windfield
-	["{item:253591} along the way to {npc:252800}"] = "",
+	["{item:253591} along the way to {npc:252800}"] = "{item:253591}, {npc:252800} yolu üstünde",
 	-- {npc:252802} Hungry Bandit · {npc:252800} Aamelia Windfield
-	["{npc:252802} along the way to {npc:252800}"] = "",
+	["{npc:252802} along the way to {npc:252800}"] = "{npc:252802}, {npc:252800} yolu üstünde",
 
 	-- Step 39: The orchard
 	["The orchard"] = "Meyve bahçesi",
@@ -241,7 +241,7 @@ return {
 
 	-- Step 41: Gustberry Lowlands: kill these as you meet them
 	-- {area:16626} Gustberry Lowlands
-	["{area:16626}: kill these as you meet them"] = "",
+	["{area:16626}: kill these as you meet them"] = "{area:16626}: bunları karşılaştıkça öldür",
 	-- {area:16663} Windfield Orchard
 	-- plural, as words: Blood-Stained Bandit Masks = {item:253596} Blood-Stained Bandit Mask
 	["The Highwayman Bandits hold the hills north of {area:16663}; they drop the Blood-Stained Bandit Masks."] = "",
@@ -252,13 +252,13 @@ return {
 	-- {npc:252389} Quel'ana Quickgale · {item:15908} Taming Rod
 	["tame one with {npc:252389}'s first {item:15908} while you are among them"] = "",
 	-- {npc:254588} Windsong Crawler
-	["Tame {npc:254588}"] = "",
+	["Tame {npc:254588}"] = "Evcilleştir: {npc:254588}",
 
 	-- Step 43: Enchanted Gyrozephyr
 	-- {area:16624} Shen'dar Village · {area:16625} Windsong Lake
 	-- plural, as words: Enchanted Gyrozephyrs = {item:260883} Enchanted Gyrozephyr
 	["The Enchanted Gyrozephyrs lie under water far to the north, east of {area:16624} and south-west of {area:16625}."] = "",
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- Step 44: Standing Our Ground
 	-- {npc:252800} Aamelia Windfield
@@ -266,35 +266,35 @@ return {
 
 	-- Step 45: Hearth to Valanaar
 	-- {area:16638} Valanaar
-	["Hearth to {area:16638}"] = "",
+	["Hearth to {area:16638}"] = "Hearthstone ile dön: {area:16638}",
 
 	-- Step 46: Alvarion Windfield and Riaani Nightwind
 	-- {npc:252448} Alvarion Windfield · {npc:256083} Riaani Nightwind
 	["{npc:252448} and {npc:256083}"] = "{npc:252448} ve {npc:256083}",
 
 	-- Step 47: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 48: Warlock trainer
-	["Warlock trainer"] = "",
+	["Warlock trainer"] = "Warlock eğitmeni",
 	-- {npc:2127} Rupert Boch · {zone:1420} Tirisfal Glades · {area:16638} Valanaar
-	["{npc:2127} in {zone:1420}; {area:16638} has no warlock trainer"] = "",
+	["{npc:2127} in {zone:1420}; {area:16638} has no warlock trainer"] = "{npc:2127}, {zone:1420} bölgesinde; {area:16638} içinde Warlock eğitmeni yok",
 
 	-- Step 50: Taming the Beast
 	-- {npc:252389} Quel'ana Quickgale · {item:15908} Taming Rod · {npc:254411} Quel'dora Quickgale · {spell:5149} Beast Training
 	-- plural, as words: Ornery Galestriders = {npc:251707} Ornery Galestrider · Vuldren Alphas = {npc:250874} Vuldren Alpha
 	["{npc:252389} takes back the first {item:15908} and hands you two more, one at a time: Ornery Galestriders and Vuldren Alphas roam the fields just north of her. Tame each with its rod and bring the rod back to her. {npc:254411}, beside her, teaches {spell:5149}."] = "",
 	-- {npc:251707} Ornery Galestrider
-	["Tame {npc:251707}"] = "",
+	["Tame {npc:251707}"] = "Evcilleştir: {npc:251707}",
 	-- {npc:250874} Vuldren Alpha
-	["Tame {npc:250874}"] = "",
+	["Tame {npc:250874}"] = "Evcilleştir: {npc:250874}",
 
 	-- Step 51: Ayessa Dawnsinger
 	-- {npc:256247} Belathaan Brightwish · {area:16638} Valanaar · {area:16629} Shrine of Akir
 	["{npc:256247} waits on the road north of {area:16638}, towards the {area:16629}."] = "{npc:256247}, {area:16638} kasabasının kuzeyinde, {area:16629} yönüne giden yolda bekliyor.",
 
 	-- Step 52: Valennia Stormfist
-	["Upstairs"] = "",
+	["Upstairs"] = "Üst katta",
 
 	-- Step 53: Lotheluum Starbreeze
 	-- {npc:252359} Lotheluum Starbreeze · {area:16638} Valanaar · {npc:255853} Urs'endris · {area:17675} East Pylon Watchtower · {spell:1259416} Walk on Air
@@ -314,7 +314,7 @@ return {
 	["The turncoat's house is in the {area:16626} north-west of {area:16638}. {npc:273017} waits nearby; his assassins lurk around the house."] = "Hainin evi {area:16638} kasabasının kuzeybatısında, {area:16626} ovalarında. {npc:273017} yakınlarda bekliyor; suikastçıları evin çevresinde pusuda.",
 	["search the dead cultist in the house"] = "evdeki ölü tarikatçının üstünü ara",
 	-- {npc:253372} Dead Cultist
-	["{npc:253372}, inside"] = "",
+	["{npc:253372}, inside"] = "{npc:253372}, içeride",
 
 	-- Step 57: Ur'endra
 	-- {npc:258443} Ur'endra · {area:16623} Shen'dar Highlands · {area:16626} Gustberry Lowlands
@@ -361,7 +361,7 @@ return {
 
 	-- Step 69: Shadowgale Forest: kill these as you meet them
 	-- {area:16631} Shadowgale Forest
-	["{area:16631}: kill these as you meet them"] = "",
+	["{area:16631}: kill these as you meet them"] = "{area:16631}: bunları karşılaştıkça öldür",
 	-- {item:265105} Lady's Tear Moss · {npc:257944} Elegael Thornpaw · {item:265141} Bloody Heirloom
 	["{item:265105} grows around {npc:257944}'s camp and Shriekings fly over it. The Al'Aketh camp east of her holds the {item:265141}."] = "{item:265105}, {npc:257944} kampının çevresinde yetişiyor; Shriekling yaratıkları da kampın üzerinde uçuyor. {item:265141} onun doğusundaki Al'Aketh kampında.",
 
@@ -390,7 +390,7 @@ return {
 
 	-- Step 74: Zephyrseed on the way
 	-- {item:257128} Zephyrseed
-	["{item:257128} on the way"] = "",
+	["{item:257128} on the way"] = "Yol üstünde: {item:257128}",
 
 	-- Step 75: Windsong Lake
 	-- {area:16625} Windsong Lake · {npc:259013} Resaan Nimbuswalker
@@ -404,11 +404,11 @@ return {
 	-- {npc:253576} Hyusaa Quickbreeze
 	["Talk to {npc:253576}"] = "{npc:253576} ile konuş",
 	-- {npc:253590} Valennia Stormfist
-	["{npc:253590}, upstairs"] = "",
+	["{npc:253590}, upstairs"] = "{npc:253590}, üst katta",
 
 	-- Step 78: Portal to Rohashi Spires
 	-- {area:16630} Rohashi Spires
-	["Portal to {area:16630}"] = "",
+	["Portal to {area:16630}"] = "Portalla: {area:16630}",
 
 	-- Step 79: Confront Lorthuna
 	-- {area:16630} Rohashi Spires · {npc:252475} Elaadrin Evengale · {object:617084} Portal to Valanaar (no name in this language: may be words)
@@ -416,7 +416,7 @@ return {
 
 	-- Step 81: The Fate of Zephras
 	-- {npc:254344} Endaria Mistgaze · {npc:251968} Ayessa Dawnsinger
-	["{npc:254344}, beside {npc:251968}"] = "",
+	["{npc:254344}, beside {npc:251968}"] = "{npc:254344}, {npc:251968} yanında",
 
 	-- Step 82: Seena Skybreaker
 	-- {npc:252377} Seena Skybreaker · {npc:256083} Riaani Nightwind · {area:16638} Valanaar
@@ -472,11 +472,11 @@ return {
 
 	-- Step 96: Into Mulgore
 	-- {zone:1412} Mulgore
-	["Into {zone:1412}"] = "",
+	["Into {zone:1412}"] = "{zone:1412} bölgesine",
 
 	-- Step 97: Into The Barrens
 	-- {area:17} The Barrens
-	["Into {area:17}"] = "",
+	["Into {area:17}"] = "{area:17} içine",
 
 	-- Step 99: The Crossroads
 	-- {area:380} The Crossroads

@@ -7,14 +7,14 @@ return {
 	-- {area:221} Camp Narache · {npc:2980} Grull Hawkwind
 	["You start on the mesa of {area:221}. {npc:2980} and the chief stand by the big tent in the middle."] = "{area:221} kampının platosunda başlıyorsun. {npc:2980} ve şef, ortadaki büyük çadırın yanında duruyor.",
 	-- {npc:2981} Chief Hawkwind
-	["{npc:2981}, inside"] = "",
+	["{npc:2981}, inside"] = "{npc:2981}, içeride",
 
 	-- Step 2: On the way
-	["On the way"] = "",
+	["On the way"] = "Yol üstünde",
 	-- {item:4739} Plainstrider Meat · {npc:2980} Grull Hawkwind
-	["{item:4739} along the way to {npc:2980}"] = "",
+	["{item:4739} along the way to {npc:2980}"] = "{item:4739}, {npc:2980} yolu üstünde",
 	-- {item:4740} Plainstrider Feather · {npc:2980} Grull Hawkwind
-	["{item:4740} along the way to {npc:2980}"] = "",
+	["{item:4740} along the way to {npc:2980}"] = "{item:4740}, {npc:2980} yolu üstünde",
 
 	-- Step 3: Greatmother Hawkwind
 	-- {npc:2991} Greatmother Hawkwind · {object:2907} Water Pitcher
@@ -22,14 +22,14 @@ return {
 
 	-- Step 4: Grull Hawkwind
 	-- {npc:3059} Harutt Thunderhorn
-	["{npc:3059}, the warrior trainer; inside"] = "",
+	["{npc:3059}, the warrior trainer; inside"] = "{npc:3059}, Warrior eğitmeni; içeride",
 	-- {npc:3061} Lanka Farshot
 	["{npc:3061}, the hunter trainer"] = "{npc:3061}, Hunter eğitmeni",
 	-- {npc:3062} Meela Dawnstrider
 	["{npc:3062}, the shaman trainer in camp"] = "{npc:3062}, kamptaki Shaman eğitmeni",
 	-- {npc:3060} Gart Mistrunner
 	["{npc:3060}, the druid trainer beside him"] = "{npc:3060}, hemen yanındaki Druid eğitmeni",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 5: The Hunt Continues
 	-- {npc:6775} Antur Fallow · {npc:2980} Grull Hawkwind
@@ -50,28 +50,28 @@ return {
 
 	-- Step 9: On the way
 	-- {item:4848} Battleboar Snout · {area:221} Camp Narache
-	["{item:4848} along the way to {area:221}"] = "",
+	["{item:4848} along the way to {area:221}"] = "{item:4848}, {area:221} yolu üstünde",
 	-- {item:4849} Battleboar Flank · {area:221} Camp Narache
-	["{item:4849} along the way to {area:221}"] = "",
+	["{item:4849} along the way to {area:221}"] = "{item:4849}, {area:221} yolu üstünde",
 
 	-- Step 10: Red Cloud Mesa: kill these as you meet them
 	-- {area:220} Red Cloud Mesa
-	["{area:220}: kill these as you meet them"] = "",
+	["{area:220}: kill these as you meet them"] = "{area:220}: bunları karşılaştıkça öldür",
 	-- {npc:8554} Chief Sharptusk Thornmantle · {object:3076} Dirt-stained Map
 	-- plural, as words: Battleboars = {npc:2966} Battleboar
 	["Battleboars graze north of the shrine; the Bristleback quilboar hold the ravine to the north-east. {npc:8554} stands at its eastern end, and the {object:3076} lies on the ground in the camp."] = "Battleboar yaratıkları tapınağın kuzeyinde otluyor; kuzeydoğudaki vadiyi Bristleback quilboarları tutuyor. {npc:8554} vadinin doğu ucunda duruyor, {object:3076} ise kampta yerde.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 11: Deathskip to Red Cloud Mesa
 	-- {area:220} Red Cloud Mesa
 	["Deathskip to {area:220}"] = "",
 	-- {npc:2954} Bristleback Battleboar · {npc:6491} Spirit Healer
-	["Die to the mobs at 63.7,78.4 ({npc:2954}): a death there sends you to this graveyard. Release your spirit and take the {npc:6491}'s resurrection."] = "",
+	["Die to the mobs at 63.7,78.4 ({npc:2954}): a death there sends you to this graveyard. Release your spirit and take the {npc:6491}'s resurrection."] = "63.7,78.4 konumundaki yaratıklar ({npc:2954}) seni öldürsün: orada ölünce bu mezarlığa gönderilirsin. Ruhunu bırak ve {npc:6491} ile diril.",
 
 	-- Step 12: Camp Narache
 	["Back west to the camp."] = "Batıya, kampa dön.",
 	-- {npc:3209} Brave Windfeather · {area:221} Camp Narache
-	["{npc:3209} walks around {area:221}: look inside the circle on the map"] = "",
+	["{npc:3209} walks around {area:221}: look inside the circle on the map"] = "{npc:3209}, {area:221} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 13: Seer Ravenfeather
 	-- {npc:5888} Seer Ravenfeather · {area:221} Camp Narache · {quest:1516} Call of Earth
@@ -99,15 +99,15 @@ return {
 	-- plural, as words: Novice Warriors = {npc:10721} Novice Warrior
 	["{npc:3063}'s quest: beat three Novice Warriors (or players in duels) next to him."] = "{npc:3063} adlı NPC'nin görevi: onun yanındaki üç Novice Warrior yaratığını (ya da düelloda oyuncuları) yen.",
 	-- {npc:3222} Brave Wildrunner · {area:222} Bloodhoof Village
-	["{npc:3222} walks around {area:222}: look inside the circle on the map"] = "",
+	["{npc:3222} walks around {area:222}: look inside the circle on the map"] = "{npc:3222}, {area:222} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 19: Well Stone on the way
 	-- {object:2910} Well Stone
-	["{object:2910} on the way"] = "",
+	["{object:2910} on the way"] = "Yol üstünde: {object:2910}",
 
 	-- Step 20: Bloodhoof Village
 	-- {npc:3067} Pyall Silentstride
-	["{npc:3067}: Camping 101 asks you to learn it"] = "",
+	["{npc:3067}: Camping 101 asks you to learn it"] = "{npc:3067}: Camping 101 bunu öğrenmeni istiyor",
 
 	-- Step 21: Poison Water
 	-- plural, as words: Adult Plainstriders = {npc:2956} Adult Plainstrider
@@ -123,7 +123,7 @@ return {
 
 	-- Step 27: Mulgore: kill these as you meet them
 	-- {zone:1412} Mulgore
-	["{zone:1412}: kill these as you meet them"] = "",
+	["{zone:1412}: kill these as you meet them"] = "{zone:1412}: bunları karşılaştıkça öldür",
 	-- {quest:96130} Chakuyak
 	-- plural, as words: Prairie Stalkers = {npc:2959} Prairie Stalker · Flatland Cougars = {npc:3035} Flatland Cougar
 	["{quest:96130}, a lone wolf, prowls the plains west of the village. Prairie Stalkers and Flatland Cougars roam the plains north and west of it."] = "Yalnız bir kurt olan {quest:96130}, köyün batısındaki düzlüklerde dolaşıyor. Prairie Stalker ve Flatland Cougar yaratıkları köyün kuzeyindeki ve batısındaki düzlüklerde geziyor.",
@@ -142,7 +142,7 @@ return {
 	-- {npc:2988} Morin Cloudstalker · {area:396} Winterhoof Water Well
 	["{npc:2988} camps by the {area:396} south-east of Bloodhoof."] = "{npc:2988}, Bloodhoof köyünün güneydoğusundaki {area:396} kuyusunun yanında kamp kurmuş.",
 	-- {npc:2988} Morin Cloudstalker
-	["{npc:2988} walks around here: look inside the circle on the map"] = "",
+	["{npc:2988} walks around here: look inside the circle on the map"] = "{npc:2988} buralarda dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 32: Longwalker Malah
 	-- {npc:275789} Malah Longwind · {area:821} Rolling Plains
@@ -154,7 +154,7 @@ return {
 
 	-- Step 34: Galak Camp: kill these as you meet them
 	-- {area:474} Galak Camp
-	["{area:474}: kill these as you meet them"] = "",
+	["{area:474}: kill these as you meet them"] = "{area:474}: bunları karşılaştıkça öldür",
 	-- {npc:275789} Malah Longwind
 	-- plural, as words: Prairie Wolf Alphas = {npc:2960} Prairie Wolf Alpha
 	["Prairie Wolf Alphas roam among the wolves on the plains around {npc:275789} and the Galak camp to the east."] = "Prairie Wolf Alpha yaratıkları {npc:275789} adlı NPC'nin ve doğudaki Galak kampının çevresindeki düzlüklerde, kurtların arasında dolaşıyor.",
@@ -199,9 +199,9 @@ return {
 	-- {area:818} Palemane Rock · {npc:272203} Perith Stormhoof
 	["The Palemane gnolls hold {area:818}, south of the digsite and west of Bloodhoof. {npc:272203} is held in their camp: lead him out."] = "Palemane gnolları, kazı alanının güneyinde ve Bloodhoof köyünün batısındaki {area:818} kayasını tutuyor. {npc:272203} onların kampında tutsak: onu dışarı çıkar.",
 	-- {npc:2950} Palemane Skinner · {area:16677} Bristleback Retreat
-	["{npc:2950} walks around {area:16677}: look inside the circle on the map"] = "",
+	["{npc:2950} walks around {area:16677}: look inside the circle on the map"] = "{npc:2950}, {area:16677} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 	-- {npc:2951} Palemane Poacher
-	["{npc:2951}, below ground"] = "",
+	["{npc:2951}, below ground"] = "{npc:2951}, yer altında",
 
 	-- Step 45: Bloodhoof Village
 	-- {npc:2993} Baine Bloodhoof · {npc:3057} Cairne Bloodhoof · {zone:1456} Thunder Bluff
@@ -251,7 +251,7 @@ return {
 	-- {npc:3441} Melor Stonehoof · {quest:860} Sergra Darkthorn · {area:380} Crossroads
 	["{npc:3441}: for {quest:860} at the {area:380}"] = "{npc:3441}: {area:380} kavşağındaki {quest:860} için",
 	-- {npc:3039} Holt Thunderhorn · {npc:3041} Torm Ragetotem
-	["{npc:3039}, beside {npc:3041}"] = "",
+	["{npc:3039}, beside {npc:3041}"] = "{npc:3039}, {npc:3041} yanında",
 
 	-- Step 54: Ansekhwa
 	-- {spell:199} Two-Handed Maces · {npc:11869} Ansekhwa
@@ -262,17 +262,17 @@ return {
 	["While you're here: learn Staves from {npc:11869} (10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "",
 
 	-- Step 56: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 57: Rogue trainer
-	["Rogue trainer"] = "",
+	["Rogue trainer"] = "Rogue eğitmeni",
 	-- {npc:3155} Rwag · {zone:1411} Durotar · {zone:1412} Mulgore
-	["{npc:3155} in {zone:1411}; {zone:1412} has no rogue trainer"] = "",
+	["{npc:3155} in {zone:1411}; {zone:1412} has no rogue trainer"] = "{npc:3155}, {zone:1411} bölgesinde; {zone:1412} bölgesinde Rogue eğitmeni yok",
 
 	-- Step 58: Warlock trainer
-	["Warlock trainer"] = "",
+	["Warlock trainer"] = "Warlock eğitmeni",
 	-- {npc:3156} Nartok · {zone:1411} Durotar · {zone:1412} Mulgore
-	["{npc:3156} in {zone:1411}; {zone:1412} has no warlock trainer"] = "",
+	["{npc:3156} in {zone:1411}; {zone:1412} has no warlock trainer"] = "{npc:3156}, {zone:1411} bölgesinde; {zone:1412} bölgesinde Warlock eğitmeni yok",
 
 	-- Step 60: Clarice Foster
 	-- {npc:5906} Xanis Flameweaver · {npc:5543} Clarice Foster · {area:1640} Spirit Rise
@@ -302,15 +302,15 @@ return {
 
 	-- Step 67: Back to The Barrens
 	-- {area:17} The Barrens
-	["Back to {area:17}"] = "",
+	["Back to {area:17}"] = "Dönüş: {area:17}",
 
 	-- Step 68: Into Mulgore
 	-- {zone:1412} Mulgore
-	["Into {zone:1412}"] = "",
+	["Into {zone:1412}"] = "{zone:1412} bölgesine",
 
 	-- Step 69: Into The Barrens
 	-- {area:17} The Barrens
-	["Into {area:17}"] = "",
+	["Into {area:17}"] = "{area:17} içine",
 
 	-- Step 71: Crossroads
 	-- {zone:1412} Mulgore · {area:380} Crossroads · {quest:860} Sergra Darkthorn · {npc:3448} Tonga Runetotem · {area:17} The Barrens

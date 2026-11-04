@@ -19,7 +19,7 @@ return {
 
 	-- Step 5: Aged Kodo Hide on the way
 	-- {item:6249} Aged Kodo Hide
-	["{item:6249} on the way"] = "",
+	["{item:6249} on the way"] = "Yol üstünde: {item:6249}",
 
 	-- Step 7: Azore Aldamort
 	-- {npc:11863} Azore Aldamort · {area:599} Thunder Axe Fortress
@@ -28,7 +28,7 @@ return {
 	-- Step 8: Dalinda Malem
 	-- {npc:5644} Dalinda Malem · {area:608} Nijel's Point
 	["{npc:5644} hides inside the Burning Blade's fortress south-west of {area:608}."] = "{npc:5644}, {area:608} karakolunun güneybatısındaki Burning Blade kalesinin içinde saklanıyor.",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 9: Tyranis Malem and the Seer
 	-- {npc:5643} Tyranis Malem
@@ -36,15 +36,15 @@ return {
 	-- {npc:5643} Tyranis Malem · {npc:13019} Burning Blade Seer
 	["Her brother {npc:5643} (36) walks the fortress with the Burning Blade cultists (30-33): pull him alone. The {npc:13019} keeps the sceptre in the fortress's main building."] = "Kardeşi {npc:5643} (36), Burning Blade tarikatçılarıyla (30-33) birlikte kalede dolaşıyor: onu tek başına çek. Asa, kalenin ana binasındaki {npc:13019} yaratığında.",
 	-- {item:6767} Tyranis' Pendant
-	["{item:6767}; inside"] = "",
+	["{item:6767}; inside"] = "{item:6767}; içeride",
 	-- {quest:5741} Sceptre of Light
-	["{quest:5741}; on the top floor"] = "",
+	["{quest:5741}; on the top floor"] = "{quest:5741}; en üst katta",
 
 	-- Step 10: Escort Dalinda Malem
 	-- {npc:5644} Dalinda Malem
 	["Escort {npc:5644}"] = "{npc:5644} adlı NPC'ye eşlik et",
 	-- {npc:5644} Dalinda Malem
-	["{npc:5644}, inside"] = "",
+	["{npc:5644}, inside"] = "{npc:5644}, içeride",
 	["Out of Thunder Axe Fortress"] = "Thunder Axe Fortress'tan çıkış",
 	-- {npc:5644} Dalinda Malem · {npc:5642} Vahlarriel Demonslayer · {area:608} Nijel's Point
 	["Lead {npc:5644} out of the fortress; she walks off once you are clear of it. {npc:5642} takes the turn-in at {area:608} at the end of the guide."] = "{npc:5644} adlı NPC'yi kaleden çıkar; kaleden uzaklaşınca kendi yoluna gider. Rehberin sonunda teslimi {area:608} karakolundaki {npc:5642} alır.",
@@ -69,13 +69,13 @@ return {
 
 	-- Step 17: Hearth to Nijel's Point
 	-- {area:608} Nijel's Point
-	["Hearth to {area:608}"] = "",
+	["Hearth to {area:608}"] = "Hearthstone ile dön: {area:608}",
 
 	-- Step 19: Fly to Astranaar
 	-- {area:415} Astranaar
-	["Fly to {area:415}"] = "",
+	["Fly to {area:415}"] = "Uç: {area:415}",
 	-- {area:608} Nijel's Point
-	["{area:608} flight master"] = "",
+	["{area:608} flight master"] = "{area:608} uçuş ustası",
 
 	-- Step 20: Delgren the Purifier
 	-- {area:415} Astranaar · {area:413} Maestra's Post

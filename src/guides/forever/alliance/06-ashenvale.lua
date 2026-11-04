@@ -5,7 +5,7 @@
 return {
 	-- Step 1: Moonglade
 	-- {spell:18960} Teleport: Moonglade
-	["Cast {spell:18960}"] = "",
+	["Cast {spell:18960}"] = "Kullan: {spell:18960}",
 
 	-- Step 2: Aquatic Form
 	-- {area:17203} Stormwind Harbor · {area:442} Auberdine · {item:15885} Pendant of the Sea Lion · {spell:18960} Teleport: Moonglade · {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven · {npc:11800} Silva Fil'naveth · {area:702} Rut'theran Village
@@ -19,13 +19,13 @@ return {
 
 	-- Step 6: Fly to Rut'theran Village
 	-- {area:702} Rut'theran Village
-	["Fly to {area:702}"] = "",
+	["Fly to {area:702}"] = "Uç: {area:702}",
 	-- {area:442} Auberdine
-	["{area:442} flight master"] = "",
+	["{area:442} flight master"] = "{area:442} uçuş ustası",
 
 	-- Step 7: Into Darnassus
 	-- {zone:1457} Darnassus
-	["Into {zone:1457}"] = "",
+	["Into {zone:1457}"] = "{zone:1457} bölgesine",
 
 	-- Step 11: Boat to Auberdine
 	-- {area:17203} Stormwind Harbor · {area:442} Auberdine · {npc:3649} Thundris Windweaver · {zone:1439} Darkshore
@@ -43,7 +43,7 @@ return {
 
 	-- Step 15: Bathran's Haunt: kill these as you meet them
 	-- {area:411} Bathran's Haunt
-	["{area:411}: kill these as you meet them"] = "",
+	["{area:411}: kill these as you meet them"] = "{area:411}: bunları karşılaştıkça öldür",
 	-- {area:411} Bathran's Haunt · {item:5366} Glowing Soul Gem
 	["North of Maestra's Post, plant bundles lie around the ruins of {area:411}. Dark Strand cultists hold the ruins just south of them: any of them can drop the {item:5366}."] = "Maestra's Post karakolunun kuzeyinde, {area:411} harabelerinin çevresinde bitki demetleri duruyor. Hemen güneylerindeki harabeleri Dark Strand tarikatçıları tutuyor: herhangi biri {item:5366} düşürebilir.",
 	-- {quest:1010} Bathran's Hair
@@ -55,7 +55,7 @@ return {
 	-- {npc:3691} Raene Wolfrunner
 	["{npc:3691}, in the inn"] = "{npc:3691}, handa",
 	-- {npc:3894} Pelturas Whitemoon
-	["{npc:3894}, inside"] = "",
+	["{npc:3894}, inside"] = "{npc:3894}, içeride",
 
 	-- Step 18: Ilkrud Magthrull
 	-- {npc:3664} Ilkrud Magthrull · {area:412} Ruins of Ordil'Aran
@@ -83,7 +83,7 @@ return {
 
 	-- Step 26: Hearth to Astranaar
 	-- {area:415} Astranaar
-	["Hearth to {area:415}"] = "",
+	["Hearth to {area:415}"] = "Hearthstone ile dön: {area:415}",
 
 	-- Step 28: Dal Bloodclaw
 	-- {npc:3987} Dal Bloodclaw · {area:415} Astranaar
@@ -106,7 +106,7 @@ return {
 	-- {npc:3885} Sentinel Velene Starstrike · {area:420} Silverwind Refuge · {area:421} Mystral Lake · {npc:210995} Alonso
 	-- plural, as words: Befouled Water Elementals = {npc:3917} Befouled Water Elemental
 	["{npc:3885} stands at the {area:420} on the east shore of {area:421}; {npc:210995} camps on its west shore. Befouled Water Elementals wade in the lake between them."] = "{npc:3885}, {area:421} gölünün doğu kıyısındaki {area:420} sığınağında duruyor; {npc:210995} gölün batı kıyısında kamp kurmuş. Aralarındaki gölde Befouled Water Elemental yaratıkları dolaşıyor.",
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 	-- {item:5456} Divining Scroll
 	-- plural, as words: Intact Elemental Bracers = {item:12220} Intact Elemental Bracer
 	["Kill the elementals for 5 Intact Elemental Bracers, then use the {item:5456}"] = "5 Intact Elemental Bracer için elementalleri öldür, sonra {item:5456} eşyasını kullan",
@@ -121,7 +121,7 @@ return {
 	-- Step 38: Piznik
 	-- {npc:4276} Piznik · {area:2160} Windshear Mine
 	["{npc:4276} mines in the {area:2160} at the east end of the crag. Talk to him and fend off the Venture Co. raiders while he mines.\nCareful: The kobolds arrive in waves. The first wave is melee fighters, and the second adds casters to the mix. Regular mobs in the mine respawn quickly and can join the fight while the waves are coming. A group is recommended."] = "",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 39: Windshear Crag
 	-- {area:421} Mystral Lake · {area:1276} The Talondeep Path · {area:461} Windshear Crag · {npc:4080} Kaela Shadowspear · {npc:4077} Gaxim Rustfizzle · {area:1076} Webwinder Path
@@ -129,7 +129,7 @@ return {
 
 	-- Step 40: Webwinder Path
 	-- {npc:4201} Ziz Fizziks
-	["{npc:4201}, inside"] = "",
+	["{npc:4201}, inside"] = "{npc:4201}, içeride",
 
 	-- Step 41: Windshear Crag
 	-- {npc:4201} Ziz Fizziks
@@ -137,18 +137,18 @@ return {
 
 	-- Step 42: Windshear Crag: kill these as you meet them
 	-- {area:461} Windshear Crag
-	["{area:461}: kill these as you meet them"] = "",
+	["{area:461}: kill these as you meet them"] = "{area:461}: bunları karşılaştıkça öldür",
 	-- {area:461} Windshear Crag
 	["The Venture Co. clear the forest of {area:461}. Loggers and Deforesters work all over it; the Operators run the shredders and one carries the blueprints."] = "Venture Co. {area:461} kayalığının ormanını kesiyor. Venture Co. Logger ve Venture Co. Deforester yaratıkları her yerde çalışıyor; Operator yaratıkları shredder makinelerini kullanıyor, içlerinden biri de planları taşıyor.",
 
 	-- Step 43: Webwinder Path
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 45: Fly to Auberdine
 	-- {area:442} Auberdine
-	["Fly to {area:442}"] = "",
+	["Fly to {area:442}"] = "Uç: {area:442}",
 	-- {area:415} Astranaar
-	["{area:415} flight master"] = "",
+	["{area:415} flight master"] = "{area:415} uçuş ustası",
 
 	-- Step 46: Boat to Menethil Harbor
 	-- {area:150} Menethil Harbor
@@ -170,13 +170,13 @@ return {
 	-- {npc:1239} First Mate Fitzsimmons
 	["{npc:1239}, in the inn"] = "{npc:1239}, handa",
 	-- {npc:1480} Caitlin Grassman
-	["{npc:1480}, inside"] = "",
+	["{npc:1480}, inside"] = "{npc:1480}, içeride",
 	-- {npc:2097} Harlo Barnaby
 	["{npc:2097}, by the north gate"] = "{npc:2097}, kuzey kapısının yanında",
 	-- {npc:2086} Valstag Ironjaw
 	["{npc:2086}, by the keep; inside"] = "",
 	-- {npc:2104} Captain Stoutfist
-	["{npc:2104}, on the top floor"] = "",
+	["{npc:2104}, on the top floor"] = "{npc:2104}, en üst katta",
 	-- {object:2117} Stormwind Keep
 	["For Bolvar Fordragon in {object:2117}: keep it"] = "{object:2117} kalesindeki Bolvar Fordragon için: sakla",
 	-- {npc:2104} Captain Stoutfist
@@ -190,7 +190,7 @@ return {
 
 	-- Step 49: Sida's Bag on the way
 	-- {item:3349} Sida's Bag
-	["{item:3349} on the way"] = "",
+	["{item:3349} on the way"] = "Yol üstünde: {item:3349}",
 
 	-- Step 50: Spoils of War
 	["Timber and iron piles lie around the keep and along the harbor's walls."] = "Kereste ve demir yığınları kalenin çevresinde ve limanın surları boyunca duruyor.",
@@ -217,7 +217,7 @@ return {
 	-- Step 56: Whelgar's Excavation Site
 	["The excavation site sits on the hill south of the road."] = "Kazı alanı yolun güneyindeki tepede.",
 	-- {npc:1076} Merrin Rockweaver
-	["{npc:1076}, below ground"] = "",
+	["{npc:1076}, below ground"] = "{npc:1076}, yer altında",
 	-- {item:279996} Goaz Stone · {zone:1437} Wetlands
 	["A new {item:279996}, for the four titan watchers around the {zone:1437}; below ground"] = "",
 	-- {npc:2916} Historian Karnik · {zone:1455} Ironforge
@@ -252,21 +252,21 @@ return {
 
 	-- Step 65: Wetlands: kill these as you meet them
 	-- {zone:1437} Wetlands
-	["{zone:1437}: kill these as you meet them"] = "",
+	["{zone:1437}: kill these as you meet them"] = "{zone:1437}: bunları karşılaştıkça öldür",
 	-- {area:309} Ironbeard's Tomb · {area:205} Dun Modr · {npc:2111} Sida · {npc:1244} Rethiel the Greenwarden
 	-- plural, as words: Monstrous Oozes = {npc:1033} Monstrous Ooze · Mosshide Fenrunners = {npc:1010} Mosshide Fenrunner
 	["Black, Crimson and Monstrous Oozes fill {area:309}, just west of the road to {area:205} and north of Einar's camp. Any ooze there may hold {npc:2111}'s bag.\nMosshide Fenrunners and Mistweavers roam the riverbanks just west and south of {npc:1244}; almost every one drops flint."] = "",
 
 	-- Step 67: The Green Belt: kill these as you meet them
 	-- {area:1025} The Green Belt
-	["{area:1025}: kill these as you meet them"] = "",
+	["{area:1025}: kill these as you meet them"] = "{area:1025}: bunları karşılaştıkça öldür",
 	-- {area:1025} The Green Belt · {item:279996} Goaz Stone · {quest:98283} Carnage
 	-- plural, as words: Maddened Rotclaws = {npc:271334} Maddened Rotclaw · Fen Creepers = {npc:1040} Fen Creeper
 	["Red whelps fill the hills west of the gates, Maddened Rotclaws the {area:1025}, Razormaws the northern slopes; Neru stands in the north-east (use the {item:279996}).\n{quest:98283} is elite: grouping up is advised.\nFen Creepers hide in the marsh pools north-west of the {area:1025}.\nCareful: When out of combat, Fen Creepers cast Sneak from time to time, so they are stealthed and hard to see."] = "",
 
 	-- Step 69: Hearth to Deepwater Tavern
 	-- {area:2104} Deepwater Tavern
-	["Hearth to {area:2104}"] = "",
+	["Hearth to {area:2104}"] = "Hearthstone ile dön: {area:2104}",
 
 	-- Step 71: Menethil
 	["Menethil"] = "",
@@ -276,15 +276,15 @@ return {
 
 	-- Step 72: Into Loch Modan
 	-- {zone:1432} Loch Modan
-	["Into {zone:1432}"] = "",
+	["Into {zone:1432}"] = "{zone:1432} bölgesine",
 
 	-- Step 73: Into Dun Morogh
 	-- {zone:1426} Dun Morogh
-	["Into {zone:1426}"] = "",
+	["Into {zone:1426}"] = "{zone:1426} bölgesine",
 
 	-- Step 74: Into Ironforge
 	-- {zone:1455} Ironforge
-	["Into {zone:1455}"] = "",
+	["Into {zone:1455}"] = "{zone:1455} bölgesine",
 
 	-- Step 76: Ironforge
 	-- {zone:1437} Wetlands · {area:836} Dun Algaz · {zone:1432} Loch Modan · {zone:1426} Dun Morogh · {area:1537} Ironforge
@@ -296,15 +296,15 @@ return {
 
 	-- Step 77: Buliwyf Stonehand
 	-- {spell:197} Two-Handed Axes · {npc:11865} Buliwyf Stonehand · {object:32359} Military Ward (no name in this language: may be words)
-	["While you're here: learn {spell:197} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Warrior fastest."] = "",
+	["While you're here: learn {spell:197} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11865} sana {spell:197} öğretir ({object:32359}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 78: Buliwyf Stonehand
 	-- {spell:199} Two-Handed Maces · {npc:11865} Buliwyf Stonehand · {object:32359} Military Ward (no name in this language: may be words)
-	["While you're here: learn {spell:199} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Warrior fastest."] = "",
+	["While you're here: learn {spell:199} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11865} sana {spell:199} öğretir ({object:32359}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 79: Buliwyf Stonehand
 	-- {spell:197} Two-Handed Axes · {npc:11865} Buliwyf Stonehand · {object:32359} Military Ward (no name in this language: may be words)
-	["While you're here: learn {spell:197} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Paladin fastest."] = "",
+	["While you're here: learn {spell:197} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11865} sana {spell:197} öğretir ({object:32359}, 10 gümüş); Paladin en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 80: Ironforge priests
 	-- {zone:1455} Ironforge
@@ -314,7 +314,7 @@ return {
 
 	-- Step 81: Tram to Stormwind
 	-- {zone:1453} Stormwind
-	["Tram to {zone:1453}"] = "",
+	["Tram to {zone:1453}"] = "Tramvayla: {zone:1453}",
 
 	-- Step 82: Cathedral of Light
 	["Cathedral of Light"] = "Cathedral of Light",

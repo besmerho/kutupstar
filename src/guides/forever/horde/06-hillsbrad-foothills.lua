@@ -6,7 +6,7 @@ return {
 	-- Step 1: Tarren Mill
 	-- {area:272} Tarren Mill
 	["{area:272} is your base for this guide: the hearth brings you back here twice. Everyone stands around the town square."] = "Bu rehberde üssün {area:272} kasabası: Hearthstone seni iki kez buraya geri getirir. Herkes kasaba meydanının çevresinde duruyor.",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 	-- {item:7768} Empty Red Waterskin · {object:107045} Spring Well
 	["Fill the {item:7768} at the {object:107045} beside the inn"] = "{item:7768} eşyasını hanın yanındaki {object:107045} kuyusunda doldur",
 	-- {npc:2388} Innkeeper Shay
@@ -14,7 +14,7 @@ return {
 	-- {object:556670} WANTED
 	["The {object:556670} poster by the inn"] = "",
 	-- {npc:2229} Krusk
-	["{npc:2229}, inside"] = "",
+	["{npc:2229}, inside"] = "{npc:2229}, içeride",
 	-- {quest:567} Dangerous!
 	["The {quest:567} poster: its targets come up along the way; inside"] = "",
 
@@ -33,7 +33,7 @@ return {
 
 	-- Step 4: Tarren Mill
 	-- {npc:2216} Apothecary Lydon
-	["{npc:2216}, inside"] = "",
+	["{npc:2216}, inside"] = "{npc:2216}, içeride",
 	-- {npc:2230} Umpi
 	["{npc:2230}, next to Lydon; inside"] = "",
 
@@ -48,7 +48,7 @@ return {
 	-- {area:287} Hillsbrad · {npc:232} Farmer Ray · {npc:2403} Farmer Getz · {npc:2451} Farmer Kalaba
 	["The farms east of {area:287} town. {npc:232} works the field by the northern farmhouse, {npc:2403} the one further south-east; Farmhands and Farmers are everywhere. {npc:2451} tends the field south of the farms."] = "{area:287} kasabasının doğusundaki çiftlikler. {npc:232} kuzeydeki çiftlik evinin yanındaki tarlada, {npc:2403} ise daha güneydoğudakinde çalışıyor; her yer Farmhand ve Farmer yaratıklarıyla dolu. {npc:2451} çiftliklerin güneyindeki tarlayla ilgileniyor.",
 	-- {npc:2451} Farmer Kalaba · {area:286} Hillsbrad Fields
-	["{npc:2451} walks around {area:286}: look inside the circle on the map"] = "",
+	["{npc:2451} walks around {area:286}: look inside the circle on the map"] = "{npc:2451}, {area:286} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 9: Stanley
 	-- {npc:2274} Stanley · {npc:232} Farmer Ray · {area:286} Hillsbrad Fields
@@ -56,7 +56,7 @@ return {
 
 	-- Step 10: Hillsbrad Fields: kill these as you meet them
 	-- {area:286} Hillsbrad Fields
-	["{area:286}: kill these as you meet them"] = "",
+	["{area:286}: kill these as you meet them"] = "{area:286}: bunları karşılaştıkça öldür",
 	-- {area:287} Hillsbrad
 	["The Peasants work the fields south of the farmhouses. Every {area:287} human drops skulls; the Peasants drop them most often.\nCareful: A fleeing peasant that reaches the town hall can bring back many adds, including {area:287} footmen; snares, roots or similar effects keep them from escaping."] = "",
 	-- {item:3692} Hillsbrad Human Skull
@@ -64,7 +64,7 @@ return {
 
 	-- Step 11: Hearth to Tarren Mill
 	-- {area:272} Tarren Mill
-	["Hearth to {area:272}"] = "",
+	["Hearth to {area:272}"] = "Hearthstone ile dön: {area:272}",
 
 	-- Step 12: Tarren Mill
 	-- {npc:2215} High Executor Darthalia · {npc:270438} Deathstalker Masoj
@@ -72,11 +72,11 @@ return {
 
 	-- Step 13: Durnholde Keep: kill these as you meet them
 	-- {area:275} Durnholde Keep
-	["{area:275}: kill these as you meet them"] = "",
+	["{area:275}: kill these as you meet them"] = "{area:275}: bunları karşılaştıkça öldür",
 	-- {npc:2238} Tog'thar · {area:275} Durnholde Keep · {area:272} Tarren Mill
 	["Drull and {npc:2238} are chained inside {area:275}'s courtyard buildings; open both locks.\nFrom {area:272} go south-east into the hills on the way to {area:275}. Rogues and Watchmen hold the camps along the way."] = "",
 	-- {npc:2261} Syndicate Watchman
-	["{npc:2261} walks around here: look inside the circle on the map"] = "",
+	["{npc:2261} walks around here: look inside the circle on the map"] = "{npc:2261} buralarda dolaşıyor: haritadaki çemberin içine bak",
 	["Drull's ball and chain"] = "Drull'un pranga ve zinciri",
 	-- {npc:2238} Tog'thar
 	["{npc:2238}'s ball and chain"] = "{npc:2238} adlı NPC'nin pranga ve zinciri",
@@ -103,13 +103,13 @@ return {
 	-- {area:287} Hillsbrad · {npc:2335} Magistrate Burnside · {npc:2448} Clerk Horrace Whitesteed
 	["The town hall is on the west side of {area:287}. {npc:2335} (30) and {npc:2448} are inside with the Town Registry; the Proclamation is pinned up beside it. Councilmen walk the town."] = "Belediye binası {area:287} kasabasının batı yakasında. {npc:2335} (30) ve {npc:2448}, Town Registry ile birlikte içeride; Proclamation hemen yanına asılmış. Kasabada Councilman yaratıkları dolaşıyor.",
 	-- {object:1761} Hillsbrad Proclamation
-	["{object:1761}, inside"] = "",
+	["{object:1761}, inside"] = "{object:1761}, içeride",
 
 	-- Step 20: Azurelode Mine
 	-- {area:288} Azurelode Mine · {area:287} Hillsbrad · {npc:2305} Foreman Bonds · {npc:2450} Miner Hackett
 	["The {area:288} lies south of {area:287} town. Miners work the tunnels; {npc:2305} (30) and {npc:2450} (29) are deep inside."] = "{area:288}, {area:287} kasabasının güneyinde. Tünellerde Miner yaratıkları çalışıyor; {npc:2305} (30) ve {npc:2450} (29) derinlerde.",
 	-- {area:288} Azurelode Mine
-	["Inside {area:288}"] = "",
+	["Inside {area:288}"] = "{area:288} içinde",
 
 	-- Step 24: To the Undercity
 	-- {zone:1458} Undercity
@@ -119,7 +119,7 @@ return {
 	-- {npc:10181} Lady Sylvanas Windrunner · {object:36126} Royal Quarter · {quest:93739} Exploring the Horde
 	["Speak with {npc:10181}, in the {object:36126}: {quest:93739}"] = "{object:36126} semtindeki {npc:10181} ile konuş: {quest:93739}",
 	-- {npc:10181} Lady Sylvanas Windrunner
-	["Talk to {npc:10181}"] = "",
+	["Talk to {npc:10181}"] = "Konuş: {npc:10181}",
 
 	-- Step 25: Aelthalyste
 	-- {npc:4606} Aelthalyste · {object:36070} War Quarter
@@ -133,7 +133,7 @@ return {
 
 	-- Step 27: Archibald
 	-- {spell:202} Two-Handed Swords · {npc:11870} Archibald · {object:36070} War Quarter
-	["While you're here: learn {spell:202} from {npc:11870} ({object:36070}, 10 silver); two-handers level a Warrior fastest."] = "",
+	["While you're here: learn {spell:202} from {npc:11870} ({object:36070}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11870} sana {spell:202} öğretir ({object:36070}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 28: Archibald
 	-- {npc:11870} Archibald · {object:36070} War Quarter
@@ -141,7 +141,7 @@ return {
 
 	-- Step 29: Archibald
 	-- {spell:202} Two-Handed Swords · {npc:11870} Archibald · {object:36070} War Quarter
-	["While you're here: learn {spell:202} from {npc:11870} ({object:36070}, 10 silver); two-handers level a Paladin fastest."] = "",
+	["While you're here: learn {spell:202} from {npc:11870} ({object:36070}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11870} sana {spell:202} öğretir ({object:36070}, 10 gümüş); Paladin en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 30: Archibald
 	-- {npc:11870} Archibald · {object:36070} War Quarter
@@ -149,7 +149,7 @@ return {
 
 	-- Step 31: Archibald
 	-- {npc:11870} Archibald · {object:36070} War Quarter
-	["While you're here: learn Swords from {npc:11870} ({object:36070}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "",
+	["While you're here: learn Swords from {npc:11870} ({object:36070}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "Buradayken: {npc:11870} sana Swords öğretir ({object:36070}, 10 gümüş); ana elde bir kılıçla Rogue istikrarla seviye atlar.",
 
 	-- Step 32: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
@@ -175,7 +175,7 @@ return {
 	-- {area:359} Bael Modan · {npc:3421} Feegly the Exiled · {object:3646} General Twinbraid's Strongbox
 	["Follow the road south to the dwarf dig site at {area:359}. {npc:3421} hides at the south edge of the dig; {object:3646} sits at the bottom of the excavation."] = "Yolu güneye izleyerek {area:359} alanındaki cüce kazısına git. {npc:3421} kazı alanının güney kenarında saklanıyor; {object:3646} kazının dibinde duruyor.",
 	-- {object:3646} General Twinbraid's Strongbox
-	["{object:3646}; below ground"] = "",
+	["{object:3646}; below ground"] = "{object:3646}; yer altında",
 
 	-- Step 39: Great Lift
 	-- {npc:12576} Grish Longrunner · {area:1718} Great Lift
@@ -183,7 +183,7 @@ return {
 
 	-- Step 40: The Great Lift
 	-- {area:1718} Great Lift
-	["The {area:1718}"] = "",
+	["The {area:1718}"] = "{area:1718}",
 	-- {zone:1456} Thunder Bluff · {area:378} Camp Taurajo · {area:1718} Great Lift · {area:17} The Barrens
 	["Fly from {zone:1456} to {area:378} and take the road south to the {area:1718} at the bottom of the {area:17}."] = "",
 	-- {npc:10079} Brave Moonhorn
@@ -191,13 +191,13 @@ return {
 
 	-- Step 41: Hearth to Camp Taurajo
 	-- {area:378} Camp Taurajo
-	["Hearth to {area:378}"] = "",
+	["Hearth to {area:378}"] = "Hearthstone ile dön: {area:378}",
 
 	-- Step 42: Fly to Ratchet
 	-- {area:392} Ratchet
 	["Fly to {area:392}"] = "{area:392} limanına uç",
 	-- {area:378} Camp Taurajo
-	["{area:378} flight master"] = "",
+	["{area:378} flight master"] = "{area:378} uçuş ustası",
 
 	-- Step 43: Ratchet
 	-- {npc:3442} Sputtervalve · {area:392} Ratchet

@@ -5,7 +5,7 @@
 return {
 	-- Guide
 	-- {quest:94373} Call of Earth
-	["{quest:94373} (Alliance)"] = "",
+	["{quest:94373} (Alliance)"] = "{quest:94373} (Alliance)",
 	-- {item:5175} Earth Totem · {spell:8071} Stoneskin Totem
 	["Your {item:5175}: without it no earth totem can be cast. {spell:8071} comes with it at level 4."] = "",
 
@@ -26,11 +26,11 @@ return {
 
 	-- Step 4: Lost the Earth Sapta?
 	-- {quest:94472} Earth Sapta
-	["Lost the {quest:94472}?"] = "",
+	["Lost the {quest:94472}?"] = "{quest:94472} kayıp mı?",
 	-- {quest:94472} Earth Sapta
 	["Only if the {quest:94472} is gone from your bags (drunk away from the stone, or sold): Teo gives you another."] = "",
 	-- {npc:257446} Teo Hammerstorm · {quest:94472} Earth Sapta
-	["{npc:257446}: a new {quest:94472}"] = "",
+	["{npc:257446}: a new {quest:94472}"] = "{npc:257446}: yeni bir {quest:94472}",
 
 	-- Step 5: The Spirit Stone
 	["The Spirit Stone"] = "",

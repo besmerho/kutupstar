@@ -9,27 +9,27 @@ return {
 
 	-- Step 2: Arbor Tarantula in Stranglethorn Vale
 	-- {npc:217588} Arbor Tarantula · {zone:1434} Stranglethorn Vale
-	["{npc:217588} in {zone:1434}"] = "",
+	["{npc:217588} in {zone:1434}"] = "{npc:217588}, {zone:1434} bölgesinde",
 	-- plural, as words: Arbor Tarantulas = {npc:217588} Arbor Tarantula
 	["The Arbor Tarantulas sit in northern Stranglethorn. Use the kit's tool on one to catch it."] = "",
 
 	-- Step 3: Hay Weevil in Arathi Highlands
 	-- {npc:217589} Hay Weevil · {zone:1417} Arathi Highlands
-	["{npc:217589} in {zone:1417}"] = "",
+	["{npc:217589} in {zone:1417}"] = "{npc:217589}, {zone:1417} bölgesinde",
 	-- {zone:1417} Arathi Highlands
 	-- plural, as words: Hay Weevils = {npc:217589} Hay Weevil
 	["The Hay Weevils crawl in the north-west of {zone:1417}. Use the kit's tool on one."] = "",
 
 	-- Step 4: Flesh Picker in Desolace
 	-- {npc:217590} Flesh Picker · {zone:1443} Desolace
-	["{npc:217590} in {zone:1443}"] = "",
+	["{npc:217590} in {zone:1443}"] = "{npc:217590}, {zone:1443} bölgesinde",
 	-- {area:596} Kodo Graveyard · {zone:1443} Desolace
 	-- plural, as words: Flesh Pickers = {npc:217590} Flesh Picker
 	["The Flesh Pickers feed in the {area:596} in the middle of southern {zone:1443}. Use the kit's tool on one."] = "",
 
 	-- Step 5: Back to Amaryllis Webb
 	-- {npc:217412} Amaryllis Webb
-	["Back to {npc:217412}"] = "",
+	["Back to {npc:217412}"] = "Dönüş: {npc:217412}",
 	-- {npc:217412} Amaryllis Webb · {item:280456} Weevil K. Neevil
 	["Hand {npc:217412} the three specimens: she gives you {item:280456} and 35s."] = "",
 

@@ -16,7 +16,7 @@ return {
 
 	-- Step 1: Mistina Steelshield, the cloth quartermaster
 	-- {npc:14723} Mistina Steelshield
-	["{npc:14723}, the cloth quartermaster"] = "",
+	["{npc:14723}, the cloth quartermaster"] = "{npc:14723}, kumaş levazımcısı",
 	-- {npc:14723} Mistina Steelshield · {faction:47} Ironforge · {object:32372} Great Forge (no name in this language: may be words) · {item:14047} Runecloth · {quest:7806} Additional Runecloth · {zone:1426} Dun Morogh · {zone:1432} Loch Modan · {zone:1437} Wetlands · {zone:1428} Burning Steppes · {zone:1452} Winterspring · {area:132} Coldridge Valley · {area:131} Kharanos · {zone:1453} Stormwind · {zone:1457} Darnassus
 	["{npc:14723} takes cloth for {faction:47}; she stands outside the clothier on the north side of the {object:32372}, among the tailors. Each first donation of 60 Wool, Silk, Mageweave and {item:14047} pays 150 reputation once; after the {item:14047} one, {quest:7806} pays 50 for every 20 {item:14047}, as often as you like. The Auction House in the Commons is the quickest source of cloth. In Classic, quests pay full reputation while they are at most 5 levels below you, so do {zone:1426} (levels 1-12), {zone:1432} (10-20) and the {zone:1437} (20-30) while you level through them. After the donations come the level 52-59 quests of the {zone:1428} and {zone:1452} (about 600), then the optional {zone:1426} hubs, best rate first: {area:132} (about 37 a minute at full value), {area:131} (26), the quarry (17). Every {faction:47} gain also gives a quarter as much to {zone:1453}, {zone:1457} and the Gnomeregan Exiles, except quests in the level 1-10 start areas. Legacy Diplomat adds up to 10% to every gain."] = "",
 	-- {item:2592} Wool Cloth · {zone:1432} Loch Modan · {zone:1437} Wetlands
@@ -52,7 +52,7 @@ return {
 
 	-- Step 8: Morgan's Vigil: hand in
 	-- {area:2418} Morgan's Vigil
-	["{area:2418}: hand in"] = "",
+	["{area:2418}: hand in"] = "{area:2418}: teslim",
 	-- {npc:9176} Gor'tesh · {area:249} Dreadmaul Rock
 	["Plant {npc:9176}'s head on the soft dirt mound at the top of {area:249}."] = "",
 
@@ -96,7 +96,7 @@ return {
 	-- {area:131} Kharanos
 	["Coldridge: on to {area:131}"] = "",
 	-- {npc:1252} Senir Whitebeard · {area:131} Kharanos
-	["{npc:1252}, in {area:131}"] = "",
+	["{npc:1252}, in {area:131}"] = "{npc:1252}, {area:131} içinde",
 	-- {npc:6806} Tannok Frosthammer
 	["{npc:6806}, in the inn"] = "",
 
@@ -123,7 +123,7 @@ return {
 
 	-- Step 21: Kharanos: last hand-in
 	-- {area:131} Kharanos
-	["{area:131}: last hand-in"] = "",
+	["{area:131}: last hand-in"] = "{area:131}: son teslim",
 
 	-- Step 22: The quarry and Amberstill Ranch
 	-- {area:803} Amberstill Ranch

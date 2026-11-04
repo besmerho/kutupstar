@@ -5,7 +5,7 @@
 return {
 	-- Step 2: Sorrow Hill: kill these as you meet them
 	-- {area:197} Sorrow Hill
-	["{area:197}: kill these as you meet them"] = "",
+	["{area:197}: kill these as you meet them"] = "{area:197}: bunları karşılaştıkça öldür",
 	-- {npc:10411} Eye of Naxxramas
 	-- plural, as words: Skeletal Flayers = {npc:1783} Skeletal Flayer · Slavering Ghouls = {npc:1791} Slavering Ghoul · Rockwing Gargoyles = {npc:10408} Rockwing Gargoyle
 	["Skeletal Flayers and Slavering Ghouls roam the fields north of the camp; all the Scourge here drop Scourgestones.\nCareful: These undead notice you from far away, and other undead nearby join the fight when one is pulled.\nCareful: The {npc:10411} (3 spawns, 15 min respawn) turns invisible when out of combat and calls in Rockwing Gargoyles once a fight starts."] = "",
@@ -13,24 +13,24 @@ return {
 	-- Step 3: Marlene Redpath
 	-- {npc:10927} Marlene Redpath · {npc:10936} Joseph Redpath
 	["{npc:10927}'s farmhouse stands on the hill east of the camp; {npc:10936}'s monument is just north of it."] = "{npc:10927} adlı NPC'nin çiftlik evi kampın doğusundaki tepede; {npc:10936} adlı NPC'nin anıtı hemen kuzeyinde.",
-	["Upstairs"] = "",
+	["Upstairs"] = "Üst katta",
 	-- {item:12894} Joseph's Wedding Ring
 	["{item:12894}, at the monument"] = "{item:12894}, anıtta",
 
 	-- Step 4: Mulgris Deepriver
 	-- {npc:10739} Mulgris Deepriver · {area:202} Writhing Haunt
 	["{npc:10739} stands by the farm at the {area:202}, north-east of the fields."] = "{npc:10739}, tarlaların kuzeydoğusunda, {area:202} çiftliğinin yanında duruyor.",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 5: Dalson's Tears
 	-- {npc:10836} Farmer Dalson
 	["Ride north-west to the Dalson farm. The diary lies in the barn; a wandering skeleton carries the outhouse key, and {npc:10836} waits in the outhouse with the cabinet key."] = "Kuzeybatıya, Dalson çiftliğine git. Günlük ahırda duruyor; hela anahtarını dolaşan bir iskelet taşıyor, {npc:10836} ise dolap anahtarıyla helada bekliyor.",
 	-- {quest:5058} Mrs. Dalson's Diary
-	["{quest:5058}, inside"] = "",
+	["{quest:5058}, inside"] = "{quest:5058}, içeride",
 
 	-- Step 6: Writhing Haunt: kill these as you meet them
 	-- {area:202} Writhing Haunt
-	["{area:202}: kill these as you meet them"] = "",
+	["{area:202}: kill these as you meet them"] = "{area:202}: bunları karşılaştıkça öldür",
 
 	-- Step 7: Dalson's Tears
 	-- {object:175924} Locked Cabinet
@@ -58,7 +58,7 @@ return {
 	-- {npc:10778} Janice Felstone · {area:199} Felstone Field · {area:200} Dalson's Tears
 	["{npc:10778}'s ghost wanders by the farmhouse of {area:199}, west of {area:200}; her parcel lies inside."] = "{npc:10778} adlı NPC'nin hayaleti {area:200} çiftliğinin batısında, {area:199} çiftlik evinin yanında dolaşıyor; paketi içeride.",
 	-- {object:175894} Janice's Parcel
-	["{object:175894}, inside"] = "",
+	["{object:175894}, inside"] = "{object:175894}, içeride",
 	-- {zone:1453} Stormwind
 	["For {zone:1453}: keep it"] = "{zone:1453} için: sakla",
 
@@ -118,9 +118,9 @@ return {
 
 	-- Step 30: Scarlet Knight on the way
 	-- {npc:1833} Scarlet Knight
-	["{npc:1833} on the way"] = "",
+	["{npc:1833} on the way"] = "Yol üstünde: {npc:1833}",
 	-- {npc:1833} Scarlet Knight · {npc:11610} Kirsta Deepshadow
-	["{npc:1833} along the way to {npc:11610}"] = "",
+	["{npc:1833} along the way to {npc:11610}"] = "{npc:1833}, {npc:11610} yolu üstünde",
 
 	-- Step 31: The Scarlet Crusade
 	["The Scarlet Crusade"] = "Scarlet Crusade",
@@ -145,11 +145,11 @@ return {
 
 	-- Step 38: Slab of Carrion Worm Meat on the way
 	-- {item:13853} Slab of Carrion Worm Meat
-	["{item:13853} on the way"] = "",
+	["{item:13853} on the way"] = "Yol üstünde: {item:13853}",
 
 	-- Step 39: Frenzied Plaguehound on the way
 	-- {npc:8598} Frenzied Plaguehound
-	["{npc:8598} on the way"] = "",
+	["{npc:8598} on the way"] = "Yol üstünde: {npc:8598}",
 
 	-- Step 40: Gahrron's Withering cauldron
 	-- {area:201} Gahrron's Withering
@@ -166,7 +166,7 @@ return {
 	-- {area:2268} Light's Hope Chapel
 	["Fly to {area:2268}"] = "{area:2268} şapeline uç",
 	-- {area:3197} Chillwind Camp
-	["{area:3197} flight master"] = "",
+	["{area:3197} flight master"] = "{area:3197} uçuş ustası",
 
 	-- Step 44: Aurora Skycaller
 	-- {area:2276} Quel'Lithien Lodge · {area:2277} Plaguewood
@@ -177,11 +177,11 @@ return {
 	-- plural, as words: Plaguehounds = {npc:8597} Plaguehound
 	["Horgus' skull lies at {area:2624} and Marduk's sword in the {area:2623}, each where ghosts fight; grown Plaguehounds hunt the plains between."] = "Horgus'un kafatası {area:2624} gölünde, Marduk'un kılıcı {area:2623} yarığında; ikisi de hayaletlerin dövüştüğü yerde. Aradaki düzlüklerde yetişkin Plaguehound yaratıkları avlanıyor.",
 	-- {item:12956} Skull of Horgus
-	["{item:12956}; underwater"] = "",
+	["{item:12956}; underwater"] = "{item:12956}; su altında",
 
 	-- Step 46: Eastern Plaguelands: kill these as you meet them
 	-- {area:139} Eastern Plaguelands
-	["{area:139}: kill these as you meet them"] = "",
+	["{area:139}: kill these as you meet them"] = "{area:139}: bunları karşılaştıkça öldür",
 	-- {area:2627} Terrordale · {item:15042} Empty Termite Jar
 	-- plural, as words: Plaguehound Runts = {npc:8596} Plaguehound Runt · Plaguebats = {npc:8600} Plaguebat · Carrion Grubs = {npc:8603} Carrion Grub · Frenzied Plaguehounds = {npc:8598} Frenzied Plaguehound
 	["Ride west to {area:2627}. Plaguehound Runts, Plaguebats and Carrion Grubs roam its woods; fill the {item:15042} at the big termite mounds and kill the Frenzied Plaguehounds further north."] = "Batıya, {area:2627} kasabasına git. Ormanında Plaguehound Runt, Plaguebat ve Carrion Grub yaratıkları dolaşıyor; {item:15042} eşyasını büyük termit tepelerinde doldur ve daha kuzeydeki Frenzied Plaguehound yaratıklarını öldür.",
@@ -192,7 +192,7 @@ return {
 
 	-- Step 49: Plaguewood: kill these as you meet them
 	-- {area:2277} Plaguewood
-	["{area:2277}: kill these as you meet them"] = "",
+	["{area:2277}: kill these as you meet them"] = "{area:2277}: bunları karşılaştıkça öldür",
 
 	-- Step 50: Tirion Fordring
 	-- {npc:1855} Tirion Fordring
@@ -207,7 +207,7 @@ return {
 	-- {item:12954} Davil's Libram · {area:190} Hearthglen · {npc:1855} Tirion Fordring
 	["{item:12954} lies in the town hall of {area:190}, west of {npc:1855}: the Scarlet guards stand close together."] = "{item:12954}, {npc:1855} adlı NPC'nin batısında, {area:190} kasabasının belediye binasında: Scarlet muhafızları birbirine yakın duruyor.",
 	-- {item:12954} Davil's Libram
-	["{item:12954}; inside"] = "",
+	["{item:12954}; inside"] = "{item:12954}; içeride",
 
 	-- Step 54: Redpath's Shield
 	-- {item:12955} Redpath's Shield · {area:201} Gahrron's Withering
@@ -217,19 +217,19 @@ return {
 	-- {area:2261} The Undercroft · {object:177667} Torn Scroll · {npc:12248} Infiltrator Hameya
 	["Cross the river east to the {area:2261}, the crypt in the south-west of the zone. The {object:177667} lies inside: its key is on {npc:12248} in the far north-east, done in the next guide."] = "Nehri doğuya geçerek bölgenin güneybatısındaki mahzen {area:2261} içine git. {object:177667} içeride: anahtarı en kuzeydoğudaki {npc:12248} adlı NPC'de; sonraki rehberde yapılır.",
 	-- {object:177667} Torn Scroll
-	["{object:177667}, below ground"] = "",
+	["{object:177667}, below ground"] = "{object:177667}, yer altında",
 
 	-- Step 58: Fly to Southshore
 	-- {area:271} Southshore
 	["Fly to {area:271}"] = "{area:271} kasabasına uç",
 	-- {area:348} Aerie Peak
-	["{area:348} flight master"] = "",
+	["{area:348} flight master"] = "{area:348} uçuş ustası",
 
 	-- Step 60: Fly to Rut'theran Village
 	-- {area:702} Rut'theran Village
-	["Fly to {area:702}"] = "",
+	["Fly to {area:702}"] = "Uç: {area:702}",
 	-- {area:442} Auberdine
-	["{area:442} flight master"] = "",
+	["{area:442} flight master"] = "{area:442} uçuş ustası",
 
 	-- Step 62: The Temple Gardens
 	-- {npc:10878} Herald Moonstalker · {npc:7740} Gracina Spiritmight · {item:11682} Eridan's Vial
@@ -251,7 +251,7 @@ return {
 
 	-- Step 64: Portal to Teldrassil
 	-- {zone:1438} Teldrassil
-	["Portal to {zone:1438}"] = "",
+	["Portal to {zone:1438}"] = "Portalla: {zone:1438}",
 
 	-- Step 65: Rut'theran Village
 	-- {area:618} Winterspring
@@ -265,7 +265,7 @@ return {
 
 	-- Step 68: Boat to The Forgotten Coast
 	-- {area:1108} The Forgotten Coast
-	["Boat to {area:1108}"] = "",
+	["Boat to {area:1108}"] = "Gemiyle: {area:1108}",
 
 	-- Step 69: Zorbin Fandazzle
 	-- {npc:14637} Zorbin Fandazzle · {area:1119} Twin Colossals
@@ -273,7 +273,7 @@ return {
 
 	-- Step 70: The Forgotten Coast: kill these as you meet them
 	-- {area:1108} The Forgotten Coast
-	["{area:1108}: kill these as you meet them"] = "",
+	["{area:1108}: kill these as you meet them"] = "{area:1108}: bunları karşılaştıkça öldür",
 	-- {area:1119} Twin Colossals
 	["The shrunken giants roam the {area:1119}; the sea elementals wade along the coast to the west."] = "Küçültülmüş devler {area:1119} çevresinde dolaşıyor; deniz elementalleri batıdaki kıyı boyunca suda yürüyor.",
 
@@ -284,7 +284,7 @@ return {
 	-- Step 74: Fly to Theramore
 	["Fly to Theramore"] = "Theramore'a uç",
 	-- {area:489} Thalanaar
-	["{area:489} flight master"] = "",
+	["{area:489} flight master"] = "{area:489} uçuş ustası",
 
 	-- Step 76: Ratchet
 	-- {area:392} Ratchet
@@ -298,9 +298,9 @@ return {
 
 	-- Step 77: Fly to Everlook
 	-- {area:2255} Everlook
-	["Fly to {area:2255}"] = "",
+	["Fly to {area:2255}"] = "Uç: {area:2255}",
 	-- {area:392} Ratchet
-	["{area:392} flight master"] = "",
+	["{area:392} flight master"] = "{area:392} uçuş ustası",
 
 	-- Step 79: Donova Snowden
 	["Ride west along the road to the hot springs."] = "Yol boyunca batıya, kaplıcalara git.",
@@ -323,7 +323,7 @@ return {
 
 	-- Step 84: Gadgetzan
 	-- {npc:5594} Alchemist Pestlezugg
-	["{npc:5594}, inside"] = "",
+	["{npc:5594}, inside"] = "{npc:5594}, içeride",
 	-- {npc:7583} Sprinkle
 	["On {npc:7583}"] = "{npc:7583} adlı NPC'de",
 	-- {area:3197} Chillwind Camp
@@ -341,9 +341,9 @@ return {
 
 	-- Step 88: Fly to Marshal's Refuge
 	-- {area:541} Marshal's Refuge
-	["Fly to {area:541}"] = "",
+	["Fly to {area:541}"] = "Uç: {area:541}",
 	-- {area:976} Gadgetzan
-	["{area:976} flight master"] = "",
+	["{area:976} flight master"] = "{area:976} uçuş ustası",
 
 	-- Step 89: Linken
 	-- {area:976} Gadgetzan · {area:541} Marshal's Refuge · {npc:8737} Linken · {area:538} Lakkari Tar Pits · {npc:9997} Spraggle Frock · {npc:9999} Ringo
@@ -357,16 +357,16 @@ return {
 
 	-- Step 92: Silithus: kill these as you meet them
 	-- {area:1377} Silithus
-	["{area:1377}: kill these as you meet them"] = "",
+	["{area:1377}: kill these as you meet them"] = "{area:1377}: bunları karşılaştıkça öldür",
 	-- plural, as words: Dredge Strikers = {npc:11740} Dredge Striker · Stonelash Scorpids = {npc:11735} Stonelash Scorpid · Sand Skitterers = {npc:11738} Sand Skitterer
 	["Dredge Strikers dig in the dunes north-west of the hold; Stonelash Scorpids and Sand Skitterers roam all around."] = "Dredge Striker yaratıkları kalenin kuzeybatısındaki kum tepelerinde kazı yapıyor; Stonelash Scorpid ve Sand Skitterer yaratıkları her yanda dolaşıyor.",
 
 	-- Step 93: Level 56.89
-	["Level 56.89"] = "",
+	["Level 56.89"] = "Seviye 56.89",
 	-- {item:9328} Super Snapper FX
 	["If you skipped The {item:9328}, grind here to level 56.89 to stay on the route's plan."] = "",
 	-- {npc:11740} Dredge Striker
-	["grind on {npc:11740}"] = "",
+	["grind on {npc:11740}"] = "Kas: {npc:11740}",
 
 	-- Step 94: Cenarion Hold
 	-- {area:3425} Cenarion Hold
@@ -378,7 +378,7 @@ return {
 	-- plural, as words: Dredge Crushers = {npc:11741} Dredge Crusher · Stonelash Pincers = {npc:11736} Stonelash Pincer · Rock Stalkers = {npc:11739} Rock Stalker
 	["Dredge Crushers dig further west; Stonelash Pincers, Flayers and Rock Stalkers hunt the same sands."] = "Dredge Crusher yaratıkları daha batıda kazı yapıyor; aynı kumlarda Stonelash Pincer, Stonelash Flayer ve Rock Stalker yaratıkları avlanıyor.",
 	-- {npc:11741} Dredge Crusher
-	["{npc:11741} walks around here: look inside the circle on the map"] = "",
+	["{npc:11741} walks around here: look inside the circle on the map"] = "{npc:11741} buralarda dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 96: Layo Starstrike
 	-- {npc:13220} Layo Starstrike
@@ -400,7 +400,7 @@ return {
 
 	-- Step 102: Un'Goro Crater: kill these as you meet them
 	-- {area:490} Un'Goro Crater
-	["{area:490}: kill these as you meet them"] = "",
+	["{area:490}: kill these as you meet them"] = "{area:490}: bunları karşılaştıkça öldür",
 
 	-- Step 103: Krakle
 	-- {area:541} Marshal's Refuge · {area:543} Golakka Hot Springs · {npc:10302} Krakle
@@ -416,7 +416,7 @@ return {
 
 	-- Step 106: Super Sticky Tar on the way
 	-- {item:11834} Super Sticky Tar
-	["{item:11834} on the way"] = "",
+	["{item:11834} on the way"] = "Yol üstünde: {item:11834}",
 
 	-- Step 107: Northern Pylon
 	["Northern Pylon"] = "Northern Pylon",
@@ -424,7 +424,7 @@ return {
 	-- Step 108: J.D. Collie
 	["Collie is up the hill behind it."] = "",
 	-- {npc:9117} J.D. Collie
-	["{npc:9117}, below ground"] = "",
+	["{npc:9117}, below ground"] = "{npc:9117}, yer altında",
 
 	-- Step 110: The crater
 	["The crater"] = "Krater",
@@ -439,21 +439,21 @@ return {
 
 	-- Step 113: Lakkari Tar Pits: kill these as you meet them
 	-- {area:538} Lakkari Tar Pits
-	["{area:538}: kill these as you meet them"] = "",
+	["{area:538}: kill these as you meet them"] = "{area:538}: bunları karşılaştıkça öldür",
 	-- {area:1943} Ironstone Plateau · {area:541} Marshal's Refuge · {npc:9619} Torwa Pathfinder · {npc:9622} U'cha
 	-- plural, as words: Un'Goro Gorillas = {npc:6514} Un'Goro Gorilla
 	["The gorillas live on {area:1943}, east of {area:541}. Keep their pelts for {npc:9619}. Stay out of the deepest cave: {npc:9622} is level 55.\nCareful: Un'Goro Gorillas (level 50-51) call for help from allies within 20 yd once they drop to 25% health. There is a cave full of apes in the area, and fighting there brings many adds."] = "",
 	-- {item:11478} Un'Goro Gorilla Pelt
-	["{item:11478}; below ground"] = "",
+	["{item:11478}; below ground"] = "{item:11478}; yer altında",
 	-- {item:11479} Un'Goro Stomper Pelt
-	["{item:11479}; below ground"] = "",
+	["{item:11479}; below ground"] = "{item:11479}; yer altında",
 	-- {item:11480} Un'Goro Thunderer Pelt
-	["{item:11480}; below ground"] = "",
+	["{item:11480}; below ground"] = "{item:11480}; yer altında",
 
 	-- Step 115: U'cha
 	-- {npc:9622} U'cha
 	["Ride north along the east side to the gorilla plateau. {npc:9622}, a level 55 gorilla, sits in its deepest cave: clear the gorillas at the cave mouth first."] = "Doğu yakası boyunca kuzeye, goril platosuna git. Seviye 55 bir goril olan {npc:9622} en derin mağarasında oturuyor: önce mağara ağzındaki gorilleri temizle.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 116: Lar'korwi
 	-- {npc:9684} Lar'korwi · {npc:9619} Torwa Pathfinder · {item:11568} Torwa's Pouch
@@ -465,7 +465,7 @@ return {
 
 	-- Step 118: The Marshlands: kill these as you meet them
 	-- {area:1942} The Marshlands
-	["{area:1942}: kill these as you meet them"] = "",
+	["{area:1942}: kill these as you meet them"] = "{area:1942}: bunları karşılaştıkça öldür",
 
 	-- Step 119: Ringo
 	-- {npc:9999} Ringo · {area:537} Fire Plume Ridge

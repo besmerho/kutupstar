@@ -5,7 +5,7 @@
 return {
 	-- Step 2: Tram to Stormwind
 	-- {zone:1453} Stormwind
-	["Tram to {zone:1453}"] = "",
+	["Tram to {zone:1453}"] = "Tramvayla: {zone:1453}",
 
 	-- Step 3: Druid training
 	["Druid training"] = "Druid eğitimi",
@@ -16,7 +16,7 @@ return {
 	-- {zone:1453} Stormwind
 	["Fly to {zone:1453}"] = "{zone:1453} şehrine uç",
 	-- {area:150} Menethil Harbor
-	["{area:150} flight master"] = "",
+	["{area:150} flight master"] = "{area:150} uçuş ustası",
 
 	-- Step 6: Nesingwary's Expedition
 	-- {zone:1431} Duskwood · {area:99} Rebel Camp
@@ -53,11 +53,11 @@ return {
 	-- Step 15: Bookie Herod
 	["Herod's records lie in a hut on the compound's west side; his strongbox sits farther east, by the cave mouth."] = "Herod'un kayıtları yerleşkenin batı yakasındaki bir kulübede; kasası daha doğuda, mağara ağzının yanında.",
 	-- {object:287} Bookie Herod's Records
-	["{object:287}, upstairs"] = "",
+	["{object:287}, upstairs"] = "{object:287}, üst katta",
 
 	-- Step 16: Kurzen's Compound: kill these as you meet them
 	-- {area:101} Kurzen's Compound
-	["{area:101}: kill these as you meet them"] = "",
+	["{area:101}: kill these as you meet them"] = "{area:101}: bunları karşılaştıkça öldür",
 	-- {area:99} Rebel Camp
 	["The Kurzen rebels hold the camp east of the {area:99}; work its outer edge, where Jungle Fighters and Medicine Men stand, and loot the supply crates by the tents."] = "Kurzen asileri {area:99} kampının doğusundaki kampı tutuyor; Kurzen Jungle Fighter ve Kurzen Medicine Man yaratıklarının durduğu dış kenarda çalış ve çadırların yanındaki erzak sandıklarını yağmala.",
 	-- {item:2634} Venom Fern Extract · {object:263} Kurzen Supplies
@@ -65,11 +65,11 @@ return {
 
 	-- Step 17: Bookie Herod
 	-- {object:288} Bookie Herod's Strongbox
-	["{object:288}, below ground"] = "",
+	["{object:288}, below ground"] = "{object:288}, yer altında",
 
 	-- Step 19: Stranglethorn Vale: kill these as you meet them
 	-- {area:33} Stranglethorn Vale
-	["{area:33}: kill these as you meet them"] = "",
+	["{area:33}: kill these as you meet them"] = "{area:33}: bunları karşılaştıkça öldür",
 	["Careful: Troll camps are close to the tiger area, and trolls can join a fight if you pull carelessly.\nCareful: The raptor nest has young raptors that join the fight when you attack the adults."] = "",
 
 	-- Step 20: Nesingwary's Expedition
@@ -78,7 +78,7 @@ return {
 
 	-- Step 21: Shadowmaw Panther on the way
 	-- {npc:684} Shadowmaw Panther
-	["{npc:684} on the way"] = "",
+	["{npc:684} on the way"] = "Yol üstünde: {npc:684}",
 
 	-- Step 22: Sin'Dall and the Lashtail raptors
 	-- {npc:729} Sin'Dall
@@ -95,7 +95,7 @@ return {
 	-- {npc:2495} Drizzlik
 	["{npc:2495}, by the bank; inside"] = "",
 	-- {npc:2498} Crank Fizzlebub
-	["{npc:2498}, inside"] = "",
+	["{npc:2498}, inside"] = "{npc:2498}, içeride",
 	-- {npc:6807} Innkeeper Skindle · {object:56910} The Salty Sailor Tavern
 	["{npc:6807}, {object:56910}; upstairs"] = "",
 	-- {npc:2832} Nixxrax Fillamug · {object:56910} The Salty Sailor Tavern
@@ -103,7 +103,7 @@ return {
 	-- {npc:773} Krazek
 	["{npc:773}, in the tavern; upstairs"] = "",
 	-- {npc:737} Kebok
-	["{npc:737}, upstairs"] = "",
+	["{npc:737}, upstairs"] = "{npc:737}, üst katta",
 	-- {npc:737} Kebok
 	["{npc:737}, in the tavern"] = "{npc:737}, meyhanede",
 	-- {npc:2496} Baron Revilgaz
@@ -111,13 +111,13 @@ return {
 
 	-- Step 24: Fly to Sentinel Hill
 	-- {area:108} Sentinel Hill
-	["Fly to {area:108}"] = "",
+	["Fly to {area:108}"] = "Uç: {area:108}",
 	-- {area:35} Booty Bay
-	["{area:35} flight master"] = "",
+	["{area:35} flight master"] = "{area:35} uçuş ustası",
 
 	-- Step 26: The Savage Coast: kill these as you meet them
 	-- {area:301} The Savage Coast
-	["{area:301}: kill these as you meet them"] = "",
+	["{area:301}: kill these as you meet them"] = "{area:301}: bunları karşılaştıkça öldür",
 	-- {area:310} Crystalvein Mine
 	-- plural, as words: Crystal Spine Basilisks = {npc:689} Crystal Spine Basilisk
 	["Walk back north; the {area:310} lies west of the road in the middle of the jungle. The Crystal Spine Basilisks there drop the shards.\nThe Bloodscalp trolls hold the ruins on the coast west of Nesingwary's camp."] = "",
@@ -142,9 +142,9 @@ return {
 
 	-- Step 31: Booty Bay
 	-- {npc:2495} Drizzlik
-	["{npc:2495}, inside"] = "",
+	["{npc:2495}, inside"] = "{npc:2495}, içeride",
 	-- {npc:773} Krazek
-	["{npc:773}, upstairs"] = "",
+	["{npc:773}, upstairs"] = "{npc:773}, üst katta",
 
 	-- Step 32: Snapjaw Crocolisks
 	-- plural, as words: Snapjaw Crocolisks = {npc:1152} Snapjaw Crocolisk
@@ -159,14 +159,14 @@ return {
 
 	-- Step 35: Into Stranglethorn Vale
 	-- {area:33} Stranglethorn Vale
-	["Into {area:33}"] = "",
+	["Into {area:33}"] = "{area:33} içine",
 
 	-- Step 37: Kurzen's Compound
 	-- {spell:7964} Smoke Bomb
 	-- plural, as words: Kurzen Commandos = {npc:938} Kurzen Commando
 	["Headshrinkers stand deeper in the compound; the Commandos lurk stealthed around it and in the cave. Pick up Green Hills pages as they drop.\nCareful: Kurzen Commandos are level 34-35, not elite, and often spawn stealthed; near death they use {spell:7964}."] = "",
 	-- {npc:941} Kurzen Headshrinker
-	["{npc:941}, below ground"] = "",
+	["{npc:941}, below ground"] = "{npc:941}, yer altında",
 
 	-- Step 38: The jungle ruins
 	["The jungle ruins"] = "Orman harabeleri",
@@ -182,7 +182,7 @@ return {
 
 	-- Step 40: Stranglethorn Vale: kill these as you meet them
 	-- {npc:1096} Venture Co. Geologist
-	["grind on {npc:1096}"] = "",
+	["grind on {npc:1096}"] = "Kas: {npc:1096}",
 
 	-- Step 41: Rebel Camp
 	-- {npc:770} Corporal Kaleb · {npc:773} Krazek · {area:35} Booty Bay
@@ -190,7 +190,7 @@ return {
 
 	-- Step 44: Jungle Stalker on the way
 	-- {npc:687} Jungle Stalker
-	["{npc:687} on the way"] = "",
+	["{npc:687} on the way"] = "Yol üstünde: {npc:687}",
 
 	-- Step 45: Skullsplitter trolls
 	["Skullsplitter trolls"] = "Skullsplitter trolları",
@@ -206,13 +206,13 @@ return {
 
 	-- Step 50: Into Westfall
 	-- {area:40} Westfall
-	["Into {area:40}"] = "",
+	["Into {area:40}"] = "{area:40} içine",
 
 	-- Step 52: Fly to Booty Bay
 	-- {area:35} Booty Bay
 	["Fly to {area:35}"] = "{area:35} limanına uç",
 	-- {area:108} Sentinel Hill
-	["{area:108} flight master"] = "",
+	["{area:108} flight master"] = "{area:108} uçuş ustası",
 
 	-- Step 53: Baron Revilgaz
 	-- {zone:1416} Alterac Mountains

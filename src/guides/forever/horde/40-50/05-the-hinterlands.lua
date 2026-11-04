@@ -5,15 +5,15 @@
 return {
 	-- Step 1: Fly to Hammerfall
 	-- {area:321} Hammerfall
-	["Fly to {area:321}"] = "",
+	["Fly to {area:321}"] = "Uç: {area:321}",
 	-- {area:1446} Thorium Point
-	["{area:1446} flight master"] = "",
+	["{area:1446} flight master"] = "{area:1446} uçuş ustası",
 
 	-- Step 2: Fly to Tarren Mill
 	-- {area:272} Tarren Mill
 	["Fly to {area:272}"] = "{area:272} kasabasına uç",
 	-- {area:321} Hammerfall
-	["{area:321} flight master"] = "",
+	["{area:321} flight master"] = "{area:321} uçuş ustası",
 
 	-- Step 4: Gilveradin Sunchaser's camp
 	-- {npc:7801} Gilveradin Sunchaser
@@ -28,18 +28,18 @@ return {
 
 	-- Step 6: Violet Tragan
 	["East of the village, the violet flower grows in the hills."] = "Köyün doğusundaki tepelerde mor çiçek yetişiyor.",
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- Step 7: Revantusk Village
 	-- {area:47} The Hinterlands
 	["Follow the roads east across the {area:47} to the troll village on the eastern coast."] = "",
 
 	-- Step 9: On the way
-	["On the way"] = "",
+	["On the way"] = "Yol üstünde",
 
 	-- Step 10: The Overlook Cliffs: kill these as you meet them
 	-- {area:307} The Overlook Cliffs
-	["{area:307}: kill these as you meet them"] = "",
+	["{area:307}: kill these as you meet them"] = "{area:307}: bunları karşılaştıkça öldür",
 	-- {npc:2491} Whiskey Slim
 	["The big turtles crawl along the beaches north of the village. {npc:2491}'s port bottles lie on these beaches too, but his quest is not on this route. A snapjaw can drop OOX-09/HL's distress beacon, rarely: keep it."] = "Büyük kaplumbağalar köyün kuzeyindeki kumsallarda sürünüyor. {npc:2491} adlı NPC'nin porto şişeleri de bu kumsallarda, ama görevi bu rotada değil. Bir snapjaw nadiren OOX-09/HL'nin imdat işaretini düşürebilir: sakla.",
 	-- {item:8704} OOX-09/HL Distress Beacon
@@ -47,7 +47,7 @@ return {
 
 	-- Step 11: The Overlook Cliffs: kill these as you meet them
 	-- {npc:7977} Gammerita
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:7977} is a level 48 elite: most classes solo it at level 50, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:7977} is a level 48 elite: most classes solo it at level 50, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:7977}, seviye 48 bir elit: çoğu sınıf seviye 50 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 12: Rin'ji's Secret
 	-- {area:307} The Overlook Cliffs
@@ -63,7 +63,7 @@ return {
 
 	-- Step 15: Shaol'watha: kill these as you meet them
 	-- {area:1917} Shaol'watha
-	["{area:1917}: kill these as you meet them"] = "",
+	["{area:1917}: kill these as you meet them"] = "{area:1917}: bunları karşılaştıkça öldür",
 	-- {area:1884} Agol'watha · {area:1917} Shaol'watha · {area:351} Skulk Rock · {item:9618} Wildkin Muisek Vessel · {npc:14738} Otho Moji'ko · {spell:7367} Infected Bite · {npc:2925} Silvermane Howler
 	-- plural, as words: Silvermane Stalkers = {npc:2926} Silvermane Stalker · Savage Owlbeasts = {npc:2929} Savage Owlbeast · Razorbeak Skylords = {npc:2659} Razorbeak Skylord · Long Elegant Feathers = {item:4589} Long Elegant Feather
 	["West of the island, the Vilebranch scalpers hold the temples of {area:1884} and {area:1917}. Slagtree's tools lie at one of the temples.\nThe Silvermane Stalkers, Savage Owlbeasts and Razorbeak Skylords share the hills between the temples and {area:351}. Use the {item:9618} on the owlbeasts you kill. The Skylords also drop Long Elegant Feathers: keep ten for {npc:14738}'s second message.\nCareful: Silvermane Stalkers are level 47-48 and stay stealthed while out of combat. Up close they use {spell:7367}. When a {npc:2925} falls to 50% health or lower, it calls for help from anything within 25 yd."] = "",
@@ -78,7 +78,7 @@ return {
 
 	-- Step 18: The Altar of Zul: kill these as you meet them
 	-- {area:355} The Altar of Zul
-	["{area:355}: kill these as you meet them"] = "",
+	["{area:355}: kill these as you meet them"] = "{area:355}: bunları karşılaştıkça öldür",
 	-- {area:355} The Altar of Zul · {npc:8636} Morta'gya the Keeper
 	-- plural, as words: Silvermane Howlers = {npc:2925} Silvermane Howler
 	["On the way back east, the Vilebranch soothsayers hold the {area:355}, the troll temple south of the central hills. Qiaga and {npc:8636} (elite, 50) stand at its top: take the soothsayers on the lower steps.\nSouth-west, the Silvermane Howlers roam the hills east of the Witherbark villages."] = "",
@@ -106,14 +106,14 @@ return {
 
 	-- Step 23: Revantusk Village
 	-- {npc:14731} Lard
-	["{npc:14731}, inside"] = "",
+	["{npc:14731}, inside"] = "{npc:14731}, içeride",
 
 	-- Step 25: Level 49.02
-	["Level 49.02"] = "",
+	["Level 49.02"] = "Seviye 49.02",
 	-- {quest:7816} Gammerita, Mon!
-	["If you skipped {quest:7816}, grind here to level 49.02 to stay on the route's plan."] = "",
+	["If you skipped {quest:7816}, grind here to level 49.02 to stay on the route's plan."] = "{quest:7816} görevini atladıysan rotanın planında kalmak için burada seviye 49.02 olana kadar kas.",
 	-- {npc:2505} Saltwater Snapjaw
-	["grind on {npc:2505}"] = "",
+	["grind on {npc:2505}"] = "Kas: {npc:2505}",
 
 	-- Step 26: The Atal'ai Exile
 	-- {area:353} Shadra'Alor
@@ -131,7 +131,7 @@ return {
 
 	-- Step 30: Hearth to Revantusk Village
 	-- {area:3317} Revantusk Village
-	["Hearth to {area:3317}"] = "",
+	["Hearth to {area:3317}"] = "Hearthstone ile dön: {area:3317}",
 
 	-- Step 31: Revantusk Village
 	-- {area:3317} Revantusk Village
@@ -141,10 +141,10 @@ return {
 	-- {area:75} Stonard
 	["Fly to {area:75}"] = "{area:75} kasabasına uç",
 	-- {area:3317} Revantusk Village
-	["{area:3317} flight master"] = "",
+	["{area:3317} flight master"] = "{area:3317} uçuş ustası",
 
 	-- Step 33: Fel'zerul
-	["On the top floor"] = "",
+	["On the top floor"] = "En üst katta",
 
 	-- Step 34: The bloodmages
 	["The bloodmages"] = "Kan büyücüleri",
@@ -153,7 +153,7 @@ return {
 
 	-- Step 35: Serpent's Coil: kill these as you meet them
 	-- {area:1440} Serpent's Coil
-	["{area:1440}: kill these as you meet them"] = "",
+	["{area:1440}: kill these as you meet them"] = "{area:1440}: bunları karşılaştıkça öldür",
 	-- {npc:5982} Black Slayer · {spell:5416} Venom Sting · {npc:8301} Clack the Reaver
 	-- plural, as words: Starving Snickerfangs = {npc:5984} Starving Snickerfang · Scorpok Stingers = {npc:5988} Scorpok Stinger
 	["The five quests share the same parts: gather them all in one sweep. West of the road the {npc:5982} vultures, Starving Snickerfangs, Scorpok Stingers and Deatheye basilisks share the hills.\nEast of the road the Ashmane boars and Grunters root on the slopes beside the Redstone basilisks. Stay away from the level 52 Helboars further south.\nCareful: Scorpok Stingers use {spell:5416}; {npc:8301} adds Knockdown."] = "",

@@ -5,13 +5,13 @@
 return {
 	-- Step 1: Learn Enchanting
 	-- {skill:333} Enchanting
-	["Learn {skill:333}"] = "",
+	["Learn {skill:333}"] = "Öğren: {skill:333}",
 	-- {skill:333} Enchanting · {npc:3606} Alanna Raveneye · {zone:1438} Teldrassil · {npc:11068} Betty Quin · {zone:1453} Stormwind City · {npc:257004} Eaysaa Brightgust · {npc:5157} Gimble Thistlefuzz · {zone:1455} Ironforge · {npc:11072} Kitta Firewind · {zone:1429} Elwynn Forest · {npc:11070} Lalina Summermoon · {zone:1457} Darnassus · {npc:1317} Lucan Cordell · {npc:257020} Nasalanna Windsinger · {npc:4213} Taladan · {npc:11065} Thonys Pillarstone · {npc:5158} Tilli Thistlefuzz · {npc:7949} Xylinnia Starshine · {zone:1444} Feralas · {npc:3345} Godan · {zone:1454} Orgrimmar · {npc:11074} Hgarth · {zone:1442} Stonetalon Mountains · {npc:4616} Lavinia Crowe · {zone:1458} Undercity · {npc:11067} Malcomb Wynn · {npc:11071} Mot Dawnstrider · {zone:1456} Thunder Bluff · {npc:3011} Teg Dawnstrider · {npc:5695} Vance Undergloom · {zone:1420} Tirisfal Glades · {item:6217} Copper Rod · {item:247786} Mote of Magic · {area:91} Tower of Azora · {npc:266881} Pa'zula · {area:367} Sen'jin Village · {zone:1411} Durotar · {item:10940} Strange Dust
 	["Apprentice {skill:333} lets you craft up to 75 for 10c, at any character level. Not every {skill:333} trainer teaches it: Alliance {npc:3606} ({zone:1438}), {npc:11068} ({zone:1453}), {npc:257004} (Zephras Isle), {npc:5157} ({zone:1455}), {npc:11072} ({zone:1429}), {npc:11070} ({zone:1457}), {npc:1317} ({zone:1453}), {npc:257020} (Zephras Isle), {npc:4213} ({zone:1457}), {npc:11065} ({zone:1455}), {npc:5158} ({zone:1455}) and {npc:7949} ({zone:1444}); Horde {npc:257004} (Zephras Isle), {npc:3345} ({zone:1454}), {npc:11074} ({zone:1442}), Jhag ({zone:1454}), {npc:4616} ({zone:1458}), {npc:11067} ({zone:1458}), {npc:11071} ({zone:1456}), {npc:257020} (Zephras Isle), {npc:3011} ({zone:1456}) and {npc:5695} ({zone:1420}). The arrow picks the nearest of your faction. Buy a {item:6217} and {item:247786} from an enchanting supplies vendor (in the capitals and on Zephras Isle; the starting-area trainers have none beside them, and the next step's arrow picks the nearest). From now on, disenchant every green you do not wear: that is where the dust and essences come from. Two starter quests teach Disenchant on a quest item: An Enchanting Lesson from {npc:11072} ({area:91}, {zone:1429}) and A Pain in the Neck from {npc:266881} ({area:367}, {zone:1411}). 1-75 takes about 50c of recipes and 4s 44c of vendor goods, plus 51 {item:10940} to gather or buy."] = "",
 
 	-- Step 2: Enchanting 1-75: vendor goods
 	-- {skill:333} Enchanting
-	["{skill:333} 1-75: vendor goods"] = "",
+	["{skill:333} 1-75: vendor goods"] = "{skill:333} 1-75: satıcı malları",
 	-- {item:6217} Copper Rod · {item:247786} Mote of Magic · {zone:1453} Stormwind City · {npc:1286} Edna Mullby · {npc:1318} Jessara Cordell · {zone:1454} Orgrimmar · {npc:3367} Felika · {npc:3346} Kithas · {npc:5817} Shimra
 	["Buy the whole bracket's share in one go: 1 {item:6217} (1s 24c) and 32 {item:247786} (3s 20c); about 4s 44c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286} and {npc:1318}; {zone:1454}: {npc:3367}, {npc:3346} and {npc:5817})."] = "",
 
@@ -24,13 +24,13 @@ return {
 
 	-- Step 4: Enchanting recipes at 25
 	-- {skill:333} Enchanting
-	["{skill:333} recipes at 25"] = "",
+	["{skill:333} recipes at 25"] = "25 puanda {skill:333} tarifleri",
 	-- {skill:333} Enchanting · {spell:7420} Enchant Chest - Inferior Stamina · {spell:1230643} Enchanted Lute · {item:4470} Simple Wood · {item:10940} Strange Dust
 	["Back to an {skill:333} trainer: {spell:7420} (from 15, 50c). Also learn {spell:1230643} (1s): Forever's {skill:333} camp item, 1 {item:4470} and 1 {item:10940}, placed at a campsite beside a campfire for its buff. The Camping 101: {skill:333} quest from your starting area's camping guide (after The Great Outdoors) sends you to an enchanting trainer who teaches it free."] = "",
 
 	-- Step 5: Enchant Chest - Inferior Stamina to 75
 	-- {spell:7420} Enchant Chest - Inferior Stamina
-	["{spell:7420} to 75"] = "",
+	["{spell:7420} to 75"] = "{spell:7420}: 75 puana kadar",
 	-- {spell:7420} Enchant Chest - Inferior Stamina · {item:10940} Strange Dust · {item:10938} Lesser Magic Essence · {spell:7423} Minor Absorption · {skill:333} Enchanting
 	["{spell:7420} is orange at 25 (yellow 70, green 90, grey 110): about 51 crafts to 75. Each takes 1 {item:10940}. One {item:10940} a craft: the dust most level 5-20 greens break into, armour above all. {item:10938} (from weapons) does the same job through Bracer - Minor Deflect or Chest - {spell:7423} if you have more of it. {item:10940} (51 for 1-75): {skill:333}: disenchant green items of item level 5-20; or the Auction House. Enchant any item for that slot in your bags, even a grey one."] = "",
 
@@ -42,13 +42,13 @@ return {
 
 	-- Step 7: Enchant Chest - Inferior Stamina to 90
 	-- {spell:7420} Enchant Chest - Inferior Stamina
-	["{spell:7420} to 90"] = "",
+	["{spell:7420} to 90"] = "{spell:7420}: 90 puana kadar",
 	-- {spell:7420} Enchant Chest - Inferior Stamina · {item:10940} Strange Dust · {item:10938} Lesser Magic Essence · {spell:7423} Minor Absorption · {skill:333} Enchanting
 	["{spell:7420} is yellow at 75 (yellow 70, green 90, grey 110): about 22 crafts to 90. Each takes 1 {item:10940}. One {item:10940} a craft: the dust most level 5-20 greens break into, armour above all. {item:10938} (from weapons) does the same job through Bracer - Minor Deflect or Chest - {spell:7423} if you have more of it. {item:10940} (121 for 75-150): {skill:333}: disenchant green items of item level 5-20; or the Auction House. Enchant any item for that slot in your bags, even a grey one."] = "",
 
 	-- Step 8: Enchant Cloak - Minor Protection to 130
 	-- {spell:7771} Enchant Cloak - Minor Protection
-	["{spell:7771} to 130"] = "",
+	["{spell:7771} to 130"] = "{spell:7771}: 130 puana kadar",
 	-- {spell:7771} Enchant Cloak - Minor Protection · {item:10940} Strange Dust
 	["{spell:7771} is orange at 90 (yellow 110, green 130, grey 150): about 48 crafts to 130. Each takes 2 {item:10940}. Two {item:10940} a craft (the trainer teaches it from 70 for 2s); keep disenchanting the greens of the 10-20 zones. Enchant any item for that slot in your bags, even a grey one."] = "",
 
@@ -60,7 +60,7 @@ return {
 
 	-- Step 10: Enchant Bracer - Lesser Stamina to 150
 	-- {spell:13501} Enchant Bracer - Lesser Stamina
-	["{spell:13501} to 150"] = "",
+	["{spell:13501} to 150"] = "{spell:13501}: 150 puana kadar",
 	-- {spell:13501} Enchant Bracer - Lesser Stamina · {item:11083} Soul Dust · {item:6339} Runed Silver Rod · {item:1210} Shadowgem · {object:1731} Copper Vein · {object:1732} Tin Vein · {object:1733} Silver Vein · {item:6338} Silver Rod · {skill:164} Blacksmithing · {item:10938} Lesser Magic Essence · {skill:333} Enchanting
 	["{spell:13501} is orange at 130 (yellow 155, green 175, grey 195): about 20 crafts to 150, a point every craft. Each takes 1 {item:11083}. One {item:11083} a craft (level 21-30 greens). Make the {item:6339} first: the recipe needs it in your bags, so keep it there. {item:1210} (1 for 75-150): {item:1210} turns up in about one {object:1731}, {object:1732} or {object:1733} in 100: buy it at the Auction House, or keep the ones you find while mining. {item:6338} (1 for 75-150): {skill:164}: {item:6338}; or the Auction House. {item:10938} (4 for 75-150): {skill:333}: disenchant green items of item level 5-15; or the Auction House. {item:11083} (20 for 75-150): {skill:333}: disenchant green items of item level 21-30; or the Auction House. Enchant any item for that slot in your bags, even a grey one. {skill:333} 150 is a Legacy System milestone."] = "",
 
@@ -83,31 +83,31 @@ return {
 
 	-- Step 14: Enchant Bracer - Lesser Stamina to 160
 	-- {spell:13501} Enchant Bracer - Lesser Stamina
-	["{spell:13501} to 160"] = "",
+	["{spell:13501} to 160"] = "{spell:13501}: 160 puana kadar",
 	-- {spell:13501} Enchant Bracer - Lesser Stamina · {item:11083} Soul Dust · {item:11130} Runed Golden Rod · {item:11082} Greater Astral Essence · {skill:333} Enchanting · {item:11128} Golden Rod · {skill:164} Blacksmithing
 	["{spell:13501} is orange at 150 (yellow 155, green 175, grey 195): about 11 crafts to 160. Each takes 1 {item:11083}. One {item:11083} a craft (level 21-30 greens). Make the {item:11130} now, while it still gives a point: a later recipe needs it in your bags, so keep it there. {item:11082} (1 for 150-225): {skill:333}: disenchant green items of item level 16-25; or the Auction House. {item:11083} (71 for 150-225): {skill:333}: disenchant green items of item level 21-30; or the Auction House. {item:11128} (1 for 150-225): {skill:164}: {item:11128}; or the Auction House. Enchant any item for that slot in your bags, even a grey one."] = "",
 
 	-- Step 15: Enchanting recipes at 160
 	-- {skill:333} Enchanting
-	["{skill:333} recipes at 160"] = "",
+	["{skill:333} recipes at 160"] = "160 puanda {skill:333} tarifleri",
 	-- {spell:13637} Enchant Boots - Lesser Agility
-	["Still at the Expert trainer: {spell:13637} (from 160)."] = "",
+	["Still at the Expert trainer: {spell:13637} (from 160)."] = "Hâlâ Expert eğitmeninde: {spell:13637} (160 puandan itibaren).",
 
 	-- Step 16: Enchant Boots - Lesser Agility to 205
 	-- {spell:13637} Enchant Boots - Lesser Agility
-	["{spell:13637} to 205"] = "",
+	["{spell:13637} to 205"] = "{spell:13637}: 205 puana kadar",
 	-- {spell:13637} Enchant Boots - Lesser Agility · {item:11083} Soul Dust
 	["{spell:13637} is orange at 160 (yellow 180, green 200, grey 220): about 59 crafts to 205. Each takes 1 {item:11083}. {item:11083} again. Enchant any item for that slot in your bags, even a grey one."] = "",
 
 	-- Step 17: Enchanting recipes at 205
 	-- {skill:333} Enchanting
-	["{skill:333} recipes at 205"] = "",
+	["{skill:333} recipes at 205"] = "205 puanda {skill:333} tarifleri",
 	-- {spell:13702} Runed Truesilver Rod · {spell:13746} Enchant Cloak - Greater Defense
 	["Still at the Expert trainer: {spell:13702} (from 200) and {spell:13746} (from 205)."] = "",
 
 	-- Step 18: Enchant Cloak - Greater Defense to 225
 	-- {spell:13746} Enchant Cloak - Greater Defense
-	["{spell:13746} to 225"] = "",
+	["{spell:13746} to 225"] = "{spell:13746}: 225 puana kadar",
 	-- {spell:13746} Enchant Cloak - Greater Defense · {item:11137} Vision Dust · {item:11145} Runed Truesilver Rod · {item:7971} Black Pearl · {item:11135} Greater Mystic Essence · {skill:333} Enchanting · {item:11144} Truesilver Rod · {skill:164} Blacksmithing
 	["{spell:13746} is orange at 205 (yellow 225, green 245, grey 265): about 20 crafts to 225, a point every craft. Each takes 1 {item:11137}. One {item:11137} a craft (level 31-40 greens). Make the {item:11145} first: the recipe needs it in your bags, so keep it there. {item:7971} (1 for 150-225): {item:7971} is a rare drop (no mob gives it one time in 50): buy it at the Auction House, or keep the ones you find. {item:11135} (1 for 150-225): {skill:333}: disenchant green items of item level 26-35; or the Auction House. {item:11137} (21 for 150-225): {skill:333}: disenchant green items of item level 31-40; or the Auction House. {item:11144} (1 for 150-225): {skill:164}: {item:11144}; or the Auction House. Enchant any item for that slot in your bags, even a grey one. {skill:333} 225 is a Legacy System milestone."] = "",
 
@@ -119,7 +119,7 @@ return {
 
 	-- Step 20: Enchanting 225-300: vendor goods
 	-- {skill:333} Enchanting
-	["{skill:333} 225-300: vendor goods"] = "",
+	["{skill:333} 225-300: vendor goods"] = "{skill:333} 225-300: satıcı malları",
 	-- {item:8925} Crystal Vial · {zone:1453} Stormwind City · {npc:1286} Edna Mullby · {npc:1325} Jasper Fel · {zone:1454} Orgrimmar · {npc:3367} Felika · {npc:3348} Kor'geld · {npc:3334} Rekkul
 	["Buy the whole bracket's share in one go: 34 {item:8925} (1g 70s); about 1g 70s in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286}, Eldraeith and {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} and {npc:3334})."] = "",
 
@@ -135,30 +135,30 @@ return {
 	-- {item:8831} Purple Lotus
 	["{item:8831} (Alliance)"] = "{item:8831} (Alliance)",
 	-- {item:8831} Purple Lotus · {item:20747} Lesser Mana Oil · {skill:182} Herbalism · {zone:1425} The Hinterlands · {zone:1444} Feralas · {zone:1447} Azshara
-	["34 {item:8831} for {item:20747}: {skill:182}: {item:8831} (skill 210) in {zone:1425} (40-50), {zone:1444} (40-50) and {zone:1447} (45-55); or the Auction House. The densest patch of {item:8831} in {zone:1425} is marked."] = "",
+	["34 {item:8831} for {item:20747}: {skill:182}: {item:8831} (skill 210) in {zone:1425} (40-50), {zone:1444} (40-50) and {zone:1447} (45-55); or the Auction House. The densest patch of {item:8831} in {zone:1425} is marked."] = "{item:20747} için 34 {item:8831}: {skill:182}: {item:8831} (beceri 210), {zone:1425} (40-50), {zone:1444} (40-50) ve {zone:1447} (45-55) bölgelerinde; ya da Auction House. En yoğun {item:8831} öbeği {zone:1425} bölgesinde işaretli.",
 
 	-- Step 24: Purple Lotus (Horde)
 	-- {item:8831} Purple Lotus
 	["{item:8831} (Horde)"] = "{item:8831} (Horde)",
 	-- {item:8831} Purple Lotus · {item:20747} Lesser Mana Oil · {skill:182} Herbalism · {zone:1425} The Hinterlands · {zone:1444} Feralas · {zone:1447} Azshara
-	["34 {item:8831} for {item:20747}: {skill:182}: {item:8831} (skill 210) in {zone:1425} (40-50), {zone:1444} (40-50) and {zone:1447} (45-55); or the Auction House. The densest patch of {item:8831} in {zone:1444} is marked."] = "",
+	["34 {item:8831} for {item:20747}: {skill:182}: {item:8831} (skill 210) in {zone:1425} (40-50), {zone:1444} (40-50) and {zone:1447} (45-55); or the Auction House. The densest patch of {item:8831} in {zone:1444} is marked."] = "{item:20747} için 34 {item:8831}: {skill:182}: {item:8831} (beceri 210), {zone:1425} (40-50), {zone:1444} (40-50) ve {zone:1447} (45-55) bölgelerinde; ya da Auction House. En yoğun {item:8831} öbeği {zone:1444} bölgesinde işaretli.",
 
 	-- Step 25: Enchant Gloves - Agility to 253
 	-- {spell:13815} Enchant Gloves - Agility
-	["{spell:13815} to 253"] = "",
+	["{spell:13815} to 253"] = "{spell:13815}: 253 puana kadar",
 	-- {spell:13815} Enchant Gloves - Agility · {item:11137} Vision Dust · {npc:11073} Annora · {skill:333} Enchanting
 	["{spell:13815} is orange at 225 (yellow 230, green 250, grey 270): about 39 crafts to 253. Each takes 1 {item:11137}. {npc:11073} teaches it with Artisan: learn it on that visit. {item:11137} again; bring about 40. {item:11137} (39 for 225-300): {skill:333}: disenchant green items of item level 31-40; or the Auction House. Enchant any item for that slot in your bags, even a grey one."] = "",
 
 	-- Step 26: Lesser Mana Oil to 275
 	-- {item:20747} Lesser Mana Oil
-	["{item:20747} to 275"] = "",
+	["{item:20747} to 275"] = "{item:20747}: 275 puana kadar",
 	-- {item:20747} Lesser Mana Oil · {item:11176} Dream Dust · {item:8831} Purple Lotus · {item:8925} Crystal Vial · {npc:15419} Kania · {area:3425} Cenarion Hold · {zone:1451} Silithus · {skill:333} Enchanting
 	["{item:20747} is orange at 253 (yellow 260, green 270, grey 280): about 34 crafts to 275. Each takes 1 {item:11176}, 1 {item:8831} and 1 {item:8925}. One {item:11176} (level 41-50 greens) and one {item:8831} (herbalists) a craft; the oil sells well. {npc:15419} sells the formula at the inn of {area:3425} ({zone:1451}): fly there, the mobs around it are level 55 and up. {item:11176} (208 for 225-300): {skill:333}: disenchant green items of item level 41-50; or the Auction House."] = "",
 	["from the recipe in your bags"] = "çantandaki tariften",
 
 	-- Step 27: Enchant Shield - Greater Stamina to 300
 	-- {spell:20017} Enchant Shield - Greater Stamina
-	["{spell:20017} to 300"] = "",
+	["{spell:20017} to 300"] = "{spell:20017}: 300 puana kadar",
 	-- {spell:20017} Enchant Shield - Greater Stamina · {item:11176} Dream Dust · {skill:333} Enchanting
 	["{spell:20017} is orange at 275 (yellow 285, green 305, grey 325): about 29 crafts to 300. Each takes 6 {item:11176}. Six {item:11176} a craft: the dearest stretch, so disenchant every level 41-50 green you find. Enchant any item for that slot in your bags, even a grey one. {skill:333} 300 is a Legacy System milestone."] = "",
 

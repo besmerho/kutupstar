@@ -15,13 +15,13 @@ return {
 	-- {npc:12796} Raider Bork · {area:2917} Hall of Legends · {zone:1454} Orgrimmar · {object:172958} Valley of Honor
 	["{npc:12796} sells the mounts by the {area:2917} in {zone:1454}'s {object:172958}, beside the other honor quartermasters. The Forever client lists each at 100g. Each one also needs its kind's riding: Orcs ride the wolf, Trolls the raptor, Tauren the kodo, Undead the skeletal warhorse. A Skyborne, or anyone choosing another race's mount, first needs that riding from its trainer (Exalted with the race's city)."] = "",
 	-- {npc:14329} Black War Wolf · {spell:825} Wolf Riding
-	["{npc:14329}, {spell:825}, 100g"] = "",
+	["{npc:14329}, {spell:825}, 100g"] = "{npc:14329}, {spell:825}, 100g",
 	-- {npc:14330} Black War Raptor · {spell:10861} Raptor Riding
-	["{npc:14330}, {spell:10861}, 100g"] = "",
+	["{npc:14330}, {spell:10861}, 100g"] = "{npc:14330}, {spell:10861}, 100g",
 	-- {item:18247} Black War Kodo · {spell:18995} Kodo Riding
-	["{item:18247}, {spell:18995}, 100g"] = "",
+	["{item:18247}, {spell:18995}, 100g"] = "{item:18247}, {spell:18995}, 100g",
 	-- {item:18248} Red Skeletal Warhorse · {spell:10906} Undead Horsemanship
-	["{item:18248}, {spell:10906}, 100g"] = "",
+	["{item:18248}, {spell:10906}, 100g"] = "{item:18248}, {spell:10906}, 100g",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["Forever's PvP ranks come from {spell:1299382} earned in battlegrounds and world PvP, with a weekly cap; {spell:436438} (rank 11) unlocks the Black War mounts. Polestar cannot read your rank, so this step waits for level 40 and the riding skill."] = "Forever'da PvP rütbeleri battleground'larda ve dünya PvP'sinde kazanılan {spell:1299382} ile gelir, haftalık bir sınırı var; {spell:436438} (rütbe 11) Black War bineklerini açar. Polestar rütbeni okuyamaz, bu yüzden bu adım seviye 40'ı ve binicilik becerisini bekler.",

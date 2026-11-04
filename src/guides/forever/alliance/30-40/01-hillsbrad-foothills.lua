@@ -5,11 +5,11 @@
 return {
 	-- Step 1: Hearth to Deepwater Tavern
 	-- {area:2104} Deepwater Tavern
-	["Hearth to {area:2104}"] = "",
+	["Hearth to {area:2104}"] = "Hearthstone ile dön: {area:2104}",
 
 	-- Step 2: To Deepwater Tavern
 	-- {area:2104} Deepwater Tavern
-	["To {area:2104}"] = "",
+	["To {area:2104}"] = "Git: {area:2104}",
 
 	-- Step 3: Menethil Harbor
 	-- {npc:2104} Captain Stoutfist · {npc:270637} Howin Kindfeather
@@ -39,7 +39,7 @@ return {
 
 	-- Step 10: Dragonmaw Gates: kill these as you meet them
 	-- {area:1038} Dragonmaw Gates
-	["{area:1038}: kill these as you meet them"] = "",
+	["{area:1038}: kill these as you meet them"] = "{area:1038}: bunları karşılaştıkça öldür",
 	-- {area:1038} Dragonmaw Gates · {npc:271338} Ados · {item:279996} Goaz Stone
 	["North-east to the {area:1038}: {npc:271338} stands at the gates (use the {item:279996})."] = "Kuzeydoğuya, {area:1038} kapılarına git: {npc:271338} kapılarda duruyor ({item:279996} eşyasını kullan).",
 
@@ -48,7 +48,7 @@ return {
 	["North along the road to {area:205}. {npc:271460} stands in the ruins (use the {item:279996}); the {npc:271481} is held on the west side: lead it out to {npc:1072}."] = "Yol boyunca kuzeye, {area:205} karakoluna git. {npc:271460} harabelerde duruyor ({item:279996} eşyasını kullan); {npc:271481} batı yakada tutsak: onu dışarıya, {npc:1072} adlı NPC'nin yanına götür.",
 
 	-- Step 14: Waterlogged Envelope
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- Step 15: The Villards
 	["The Villards"] = "Villard ailesi",
@@ -64,18 +64,18 @@ return {
 	["Follow the road south over the bridge to {area:205} at the {zone:1437} end, where {npc:1075} waits."] = "Yolu güneye izleyerek köprüden geç ve {zone:1437} ucundaki {area:205} karakoluna git; {npc:1075} orada bekliyor.",
 
 	-- Step 19: Prospector Whelgar
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 20: Menethil Harbor
 	["West along the road to Menethil."] = "Yol boyunca batıya, Menethil'e git.",
-	["On the top floor"] = "",
+	["On the top floor"] = "En üst katta",
 
 	-- Step 22: Level 31.23
-	["Level 31.23"] = "",
+	["Level 31.23"] = "Seviye 31.23",
 	-- {quest:474} Defeat Nek'rosh
-	["If you skipped {quest:474}, grind here to level 31.23 to stay on the route's plan."] = "",
+	["If you skipped {quest:474}, grind here to level 31.23 to stay on the route's plan."] = "{quest:474} görevini atladıysan rotanın planında kalmak için burada seviye 31.23 olana kadar kas.",
 	-- {npc:1418} Bluegill Raider
-	["grind on {npc:1418}"] = "",
+	["grind on {npc:1418}"] = "Kas: {npc:1418}",
 
 	-- Step 24: Boat to Southshore
 	-- {area:271} Southshore
@@ -89,18 +89,18 @@ return {
 	-- {npc:2382} Darren Malvew
 	["{npc:2382}: the lions come later"] = "{npc:2382}: aslanlar daha sonra",
 	-- {npc:2430} Chef Jessen
-	["{npc:2430}, upstairs"] = "",
+	["{npc:2430}, upstairs"] = "{npc:2430}, üst katta",
 	-- {npc:2366} Barkeep Kelly · {area:35} Booty Bay
 	["{npc:2366}, in the inn: for {area:35} (04-stranglethorn-vale)"] = "{npc:2366}, handa: {area:35} için (04-stranglethorn-vale)",
 	-- {npc:2228} Lieutenant Farren Orinelle
-	["{npc:2228}, inside"] = "",
+	["{npc:2228}, inside"] = "{npc:2228}, içeride",
 	-- {npc:2711} Phin Odelic
 	["{npc:2711}: his trail leads to Arathi"] = "{npc:2711}: izi Arathi'ye çıkıyor",
 	-- {npc:2276} Magistrate Henry Maleb
-	["{npc:2276}, inside"] = "",
+	["{npc:2276}, inside"] = "{npc:2276}, içeride",
 
 	-- Step 26: On the way
-	["On the way"] = "",
+	["On the way"] = "Yol üstünde",
 
 	-- Step 27: Torn Fin murlocs
 	["Torn Fin murlocs"] = "Torn Fin murlocları",
@@ -109,7 +109,7 @@ return {
 
 	-- Step 28: Farren
 	["Farren"] = "Farren",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 29: Murloc heads
 	["Murloc heads"] = "Murloc kafaları",
@@ -147,9 +147,9 @@ return {
 
 	-- Step 44: Fly to Ironforge
 	-- {area:1537} Ironforge
-	["Fly to {area:1537}"] = "",
+	["Fly to {area:1537}"] = "Uç: {area:1537}",
 	-- {area:271} Southshore
-	["{area:271} flight master"] = "",
+	["{area:271} flight master"] = "{area:271} uçuş ustası",
 
 	-- Step 45: Deeprun Tram
 	-- {area:2257} Deeprun Tram · {object:28027} Dwarven District · {zone:1455} Ironforge
@@ -164,7 +164,7 @@ return {
 	-- {zone:1453} Stormwind City
 	["Fly to {zone:1453}"] = "{zone:1453} şehrine uç",
 	-- {zone:1455} Ironforge
-	["{zone:1455} flight master"] = "",
+	["{zone:1455} flight master"] = "{zone:1455} uçuş ustası",
 
 	-- Step 51: The Islander
 	-- {npc:5479} Wu Shen · {object:2100} Old Town · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens · {area:392} Ratchet
@@ -195,9 +195,9 @@ return {
 
 	-- Step 61: Fly to Astranaar
 	-- {area:415} Astranaar
-	["Fly to {area:415}"] = "",
+	["Fly to {area:415}"] = "Uç: {area:415}",
 	-- {area:442} Auberdine
-	["{area:442} flight master"] = "",
+	["{area:442} flight master"] = "{area:442} uçuş ustası",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["{npc:2104} stands in {area:2103}; {npc:2094} stands by the north gate."] = "{npc:2104}, {area:2103} kalesinde duruyor; {npc:2094} kuzey kapısının yanında.",

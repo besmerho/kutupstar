@@ -35,7 +35,7 @@ return {
 
 	-- Step 5: Galestrider Riding for other races
 	-- {spell:1285849} Galestrider Riding
-	["{spell:1285849} for other races"] = "",
+	["{spell:1285849} for other races"] = "{spell:1285849}, diğer ırklar için",
 	-- {spell:1285849} Galestrider Riding · {skill:762} Riding · {npc:265756} Genn Fairweather
 	["Any race can buy Galestriders, but riding one also takes {spell:1285849}, which only the Skyborne get with {skill:762}. Other races can learn it too, but how is not known yet: in Classic another race's riding needed Exalted with its home faction, here the High Order (Alliance) or the Windshapers (Horde). Ask {npc:265756} before you buy."] = "",
 

@@ -7,7 +7,7 @@ return {
 	-- {area:976} Gadgetzan
 	["Fly to {area:976}"] = "{area:976} kasabasına uç",
 	-- {area:1099} Camp Mojache
-	["{area:1099} flight master"] = "",
+	["{area:1099} flight master"] = "{area:1099} uçuş ustası",
 
 	-- Step 4: Sandsorrow Watch
 	-- {item:8584} Untapped Dowsing Widget
@@ -23,14 +23,14 @@ return {
 
 	-- Step 8: Broken Pillar: kill these as you meet them
 	-- {area:1938} Broken Pillar
-	["{area:1938}: kill these as you meet them"] = "",
+	["{area:1938}: kill these as you meet them"] = "{area:1938}: bunları karşılaştıkça öldür",
 	-- {area:982} Noxious Lair · {npc:12046} Gor'marok the Ravager · {quest:3161} Gahz'ridian
 	["South of the {area:982} the Dunemaul ogres hold their compound, with {npc:12046} at its eastern end. Dig up {quest:3161} ornaments between the fights."] = "{area:982} ininin güneyinde Dunemaul ogreları yerleşkelerini tutuyor; {npc:12046} doğu ucunda. Dövüşlerin arasında {quest:3161} süs eşyalarını kazıp çıkar.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 9: Thistleshrub Valley: kill these as you meet them
 	-- {quest:3362} Thistleshrub Valley
-	["{quest:3362}: kill these as you meet them"] = "",
+	["{quest:3362}: kill these as you meet them"] = "{quest:3362}: bunları karşılaştıkça öldür",
 	-- {area:440} Tanaris
 	["West of the compound the cactus creatures fill the valley; only the Dew Collectors carry a dew gland. Most mobs in {area:440} can drop OOX-17/TN's distress beacon, rarely: keep it if you see one.\nCareful: The other thistleshrub mobs in the area are level 49-50 and wander a lot, so you can easily pull extra mobs."] = "",
 	-- {item:8623} OOX-17/TN Distress Beacon
@@ -55,7 +55,7 @@ return {
 	-- {item:8526} Violet Tragan · {zone:1425} Hinterlands
 	["the {item:8526} grows in the {zone:1425}, around level 48"] = "{item:8526}, {zone:1425} bölgesinde yetişiyor, seviye 48 civarında",
 	-- {npc:5594} Alchemist Pestlezugg
-	["{npc:5594}, inside"] = "",
+	["{npc:5594}, inside"] = "{npc:5594}, içeride",
 
 	-- Step 16: Scrimshank's gear
 	["Scrimshank's gear"] = "Scrimshank'in eşyaları",
@@ -63,7 +63,7 @@ return {
 
 	-- Step 17: Hearth to Gadgetzan
 	-- {area:976} Gadgetzan
-	["Hearth to {area:976}"] = "",
+	["Hearth to {area:976}"] = "Hearthstone ile dön: {area:976}",
 
 	-- Step 18: OOX-17/TN
 	["OOX-17/TN"] = "OOX-17/TN",
@@ -76,11 +76,11 @@ return {
 
 	-- Step 20: Boat to Powderfuse Port
 	-- {area:16727} Powderfuse Port
-	["Boat to {area:16727}"] = "",
+	["Boat to {area:16727}"] = "Gemiyle: {area:16727}",
 
 	-- Step 21: Into Searing Gorge
 	-- {area:51} Searing Gorge
-	["Into {area:51}"] = "",
+	["Into {area:51}"] = "{area:51} içine",
 
 	-- Step 23: The Grimesilt Dig Site
 	-- {area:247} Grimesilt Dig Site
@@ -99,24 +99,24 @@ return {
 
 	-- Step 26: Greater Lava Spider on the way
 	-- {npc:5858} Greater Lava Spider
-	["{npc:5858} on the way"] = "",
+	["{npc:5858} on the way"] = "Yol üstünde: {npc:5858}",
 
 	-- Step 27: Kalaran Windblade
 	-- {area:1446} Thorium Point
 	["Kalaran stands alone south of {area:1446}, at the edge of the Cauldron. Listen to his story."] = "Kalaran, {area:1446} karakolunun güneyinde, Cauldron'un kenarında tek başına duruyor. Hikâyesini dinle.",
 
 	-- Step 30: On the way
-	["On the way"] = "",
+	["On the way"] = "Yol üstünde",
 	-- {npc:5854} Heavy War Golem · {area:1446} Thorium Point
-	["{npc:5854} along the way to {area:1446}"] = "",
+	["{npc:5854} along the way to {area:1446}"] = "{npc:5854}, {area:1446} yolu üstünde",
 	-- {npc:5846} Dark Iron Taskmaster · {area:1446} Thorium Point
-	["{npc:5846} along the way to {area:1446}"] = "",
+	["{npc:5846} along the way to {area:1446}"] = "{npc:5846}, {area:1446} yolu üstünde",
 	-- {npc:5844} Dark Iron Slaver · {area:1446} Thorium Point
-	["{npc:5844} along the way to {area:1446}"] = "",
+	["{npc:5844} along the way to {area:1446}"] = "{npc:5844}, {area:1446} yolu üstünde",
 
 	-- Step 31: Searing Gorge: kill these as you meet them
 	-- {area:51} Searing Gorge
-	["{area:51}: kill these as you meet them"] = "",
+	["{area:51}: kill these as you meet them"] = "{area:51}: bunları karşılaştıkça öldür",
 	-- {item:11818} Grimesilt Outhouse Key · {area:1443} The Slag Pit
 	-- plural, as words: Heavy War Golems = {npc:5854} Heavy War Golem · Blazing Elementals = {npc:5850} Blazing Elemental · Dark Iron Taskmasters = {npc:5846} Dark Iron Taskmaster · Greater Lava Spiders = {npc:5858} Greater Lava Spider · Incendosaurs = {npc:9318} Incendosaur · Dark Iron Slavers = {npc:5844} Dark Iron Slaver
 	["Heavy War Golems patrol the Cauldron below Kalaran and drop the oil; the Magma and Blazing Elementals drifting among them drop the hearts. The Dark Iron Taskmasters and Slavers drive the slaves on the paths; a Slaver may drop the {item:11818}: keep it.\nThe Greater Lava Spiders roam the plateaus and lava pools in the south-west of the gorge.\n{area:1443} opens in the north of the Cauldron. Incendosaurs swim in its lava pools: pull them to the edge. The secret plans lie on the pit's upper ledge.\nCareful: Dark Iron Slavers (level 45-46) call for help from allies within 15 yd when pulled, cast Net from up to 15 yd, and use Rend in melee."] = "",

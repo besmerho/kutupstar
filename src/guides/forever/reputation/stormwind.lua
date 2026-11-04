@@ -16,7 +16,7 @@ return {
 
 	-- Step 1: Clavicus Knavingham, the cloth quartermaster
 	-- {npc:14722} Clavicus Knavingham
-	["{npc:14722}, the cloth quartermaster"] = "",
+	["{npc:14722}, the cloth quartermaster"] = "{npc:14722}, kumaş levazımcısı",
 	-- {npc:14722} Clavicus Knavingham · {faction:72} Stormwind · {item:14047} Runecloth · {quest:7796} Additional Runecloth · {zone:1436} Westfall · {zone:1431} Duskwood · {zone:1422} Western Plaguelands · {zone:1428} Burning Steppes · {area:717} Stockade · {area:87} Goldshire · {zone:1455} Ironforge · {zone:1457} Darnassus
 	["{npc:14722} takes cloth for {faction:72}. The arrow leads to him; he stands upstairs inside his building. Each first donation of 60 Wool, Silk, Mageweave and {item:14047} pays 150 reputation once; after the {item:14047} one, {quest:7796} pays 50 for every 20 {item:14047}, as often as you like. The Auction House is the quickest source of cloth. In Classic, quests pay full reputation while they are at most 5 levels below you, so do Elwynn (levels 1-10), {zone:1436} (10-18), Redridge (15-25) and {zone:1431} (20-30) while you level through them. After the donations come the level 52-58 quests of the {zone:1422} and the {zone:1428} (about 1,150), then the optional low-level hubs, best rate first: Northshire and the city errands (about 40 a minute at full value), the {area:717} (30), Eastvale and {area:87} (25). Every {faction:72} gain also gives a quarter as much to {zone:1455}, {zone:1457} and the Gnomeregan Exiles, except quests in the level 1-10 start areas. Legacy Diplomat adds up to 10% to every gain."] = "",
 	-- {item:2592} Wool Cloth · {zone:1436} Westfall
@@ -53,9 +53,9 @@ return {
 	-- {npc:10905} Andorhal Tower Four · {item:12815} Beacon Torch
 	["Mark {npc:10905} with the {item:12815}"] = "{npc:10905} kulesini {item:12815} ile işaretle",
 	-- {item:13194} Felstone Field Cauldron Key · {npc:11075} Cauldron Lord Bilemaw
-	["{item:13194}, from {npc:11075}"] = "",
+	["{item:13194}, from {npc:11075}"] = "{item:13194}, kaynak: {npc:11075}",
 	-- {object:176361} Scourge Cauldron
-	["the {object:176361}"] = "",
+	["the {object:176361}"] = "{object:176361}",
 	-- {object:175894} Janice's Parcel
 	["{object:175894}, in the farmhouse"] = "",
 
@@ -63,23 +63,23 @@ return {
 	-- {npc:11077} Cauldron Lord Malvinious · {area:200} Dalson's Tears · {area:199} Felstone Field
 	["{npc:11077} guards the cauldron at {area:200}, north-east of {area:199}."] = "",
 	-- {object:177289} Scourge Cauldron
-	["the {object:177289}"] = "",
+	["the {object:177289}"] = "{object:177289}",
 
 	-- Step 9: Chillwind Camp: the Writhing Haunt
 	-- {area:3197} Chillwind Camp · {area:202} Writhing Haunt
-	["{area:3197}: the {area:202}"] = "",
+	["{area:3197}: the {area:202}"] = "{area:3197}: {area:202}",
 
 	-- Step 10: Writhing Haunt
 	-- {npc:11076} Cauldron Lord Razarch · {area:202} Writhing Haunt · {area:200} Dalson's Tears
 	["{npc:11076} guards the cauldron at the {area:202}, the farm east of {area:200}."] = "",
 	-- {object:176393} Scourge Cauldron
-	["the {object:176393}"] = "",
+	["the {object:176393}"] = "{object:176393}",
 
 	-- Step 12: Gahrron's Withering
 	-- {npc:11078} Cauldron Lord Soulwrath · {area:201} Gahrron's Withering
 	["{npc:11078} guards the cauldron at {area:201}, in the east of the zone."] = "",
 	-- {object:176392} Scourge Cauldron
-	["the {object:176392}"] = "",
+	["the {object:176392}"] = "{object:176392}",
 
 	-- Step 13: Chillwind Camp: done
 	-- {area:3197} Chillwind Camp
@@ -135,7 +135,7 @@ return {
 
 	-- Step 22: Stockade: hand in
 	-- {area:717} Stockade
-	["{area:717}: hand in"] = "",
+	["{area:717}: hand in"] = "{area:717}: teslim",
 
 	-- Step 23: Northshire Valley
 	-- {area:87} Goldshire · {npc:823} Deputy Willem · {npc:197} Marshal McBride · {area:24} Northshire Abbey
@@ -206,7 +206,7 @@ return {
 	-- {item:782} Painted Gnoll Armband
 	["{item:782}, from the Riverpaw gnolls"] = "",
 	-- {item:1931} Huge Gnoll Claw · {npc:448} Hogger
-	["{item:1931}, from {npc:448}"] = "",
+	["{item:1931}, from {npc:448}"] = "{item:1931}, kaynak: {npc:448}",
 
 	-- Step 36: The farms south of Goldshire
 	-- {area:87} Goldshire
@@ -214,19 +214,19 @@ return {
 	-- {area:87} Goldshire · {quest:87} Goldtooth · {area:57} Fargodeep Mine · {npc:330} Princess · {area:62} Brackwell Pumpkin Patch
 	["The Stonefields' farm and the Maclures' farm lie on either side of the road south of {area:87}. {quest:87} guards the back of {area:57}; {npc:330} the boar roams the {area:62}."] = "",
 	-- {item:1006} Brass Collar · {npc:330} Princess
-	["{item:1006}, from {npc:330}"] = "",
+	["{item:1006}, from {npc:330}"] = "{item:1006}, kaynak: {npc:330}",
 
 	-- Step 37: Goldtooth and the kelp
 	-- {quest:87} Goldtooth
 	["{quest:87} and the kelp"] = "",
 	-- {item:981} Bernice's Necklace · {quest:87} Goldtooth
-	["{item:981}, from {quest:87}"] = "",
+	["{item:981}, from {quest:87}"] = "{item:981}, kaynak: {quest:87}",
 	-- {item:1256} Crystal Kelp Frond · {area:18} Crystal Lake
 	["{item:1256}, from the murlocs of {area:18}"] = "",
 
 	-- Step 38: Goldshire: last hand-in
 	-- {area:87} Goldshire
-	["{area:87}: last hand-in"] = "",
+	["{area:87}: last hand-in"] = "{area:87}: son teslim",
 
 	-- Step 39: Shipment to Stormwind
 	-- {npc:279} Morgan Pestle · {object:2096} Trade District

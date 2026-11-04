@@ -7,7 +7,7 @@ return {
 	-- {area:272} Tarren Mill
 	["Fly to {area:272}"] = "{area:272} kasabasına uç",
 	-- {area:2268} Light's Hope Chapel
-	["{area:2268} flight master"] = "",
+	["{area:2268} flight master"] = "{area:2268} uçuş ustası",
 
 	-- Step 3: Sorrow Hill
 	-- {area:202} Writhing Haunt · {area:197} Sorrow Hill
@@ -18,20 +18,20 @@ return {
 	-- Step 4: Mulgris Deepriver
 	-- {area:202} Writhing Haunt · {area:200} Dalson's Tears
 	["He camps by the {area:202}, south-east of {area:200}."] = "{area:200} çiftliğinin güneydoğusunda, {area:202} çiftliğinin yanında kamp kurmuş.",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 5: Sorrow Hill
 	-- {npc:10927} Marlene Redpath · {npc:10936} Joseph Redpath
 	["{npc:10927}'s house stands by the road, and {npc:10936}'s monument is in the graveyard behind it."] = "",
 	-- {npc:10927} Marlene Redpath
-	["{npc:10927}, upstairs"] = "",
+	["{npc:10927}, upstairs"] = "{npc:10927}, üst katta",
 	-- {area:2262} Darrowshire
 	["Keep Little Pamela: Pamela is in {area:2262}, visited again later."] = "",
 
 	-- Step 6: Chromie
 	-- {npc:10667} Chromie
 	["Ride north-west into Andorhal. {npc:10667} waits in the ruined inn on the west side of town; the skeletons inside are 54-57, so keep to the edges."] = "Kuzeybatıya, Andorhal'a git. {npc:10667} kasabanın batı yakasındaki yıkık handa bekliyor; içerideki iskeletler 54-57 seviyesinde, kenarlardan ilerle.",
-	["Upstairs"] = "",
+	["Upstairs"] = "Üst katta",
 
 	-- Step 7: The Annals of Darrowshire
 	-- plural, as words: Musty Tomes = {object:176150} Musty Tome
@@ -48,18 +48,18 @@ return {
 	["{npc:1855}'s hunts are in the {zone:1423}: keep them for later."] = "{npc:1855} adlı NPC'nin avları {zone:1423} bölgesinde: sonrası için sakla.",
 
 	-- Step 10: Level 52.63
-	["Level 52.63"] = "",
+	["Level 52.63"] = "Seviye 52.63",
 	-- {area:200} Dalson's Tears
-	["Top up here to level 52.63 before the hand-ins at {area:200}: they take you to level 53."] = "",
+	["Top up here to level 52.63 before the hand-ins at {area:200}: they take you to level 53."] = "{area:200} teslimlerinden önce burada seviye 52.63 olana kadar kas: teslimler seni seviye 53 yapar.",
 	-- {npc:1826} Scarlet Mage
-	["grind on {npc:1826}"] = "",
+	["grind on {npc:1826}"] = "Kas: {npc:1826}",
 
 	-- Step 11: Kirsta Deepshadow
 	-- {area:192} Northridge Lumber Camp · {npc:11610} Kirsta Deepshadow
 	["Ride west to the {area:192}; {npc:11610} hides on the hill north-east of it."] = "Batıya, {area:192} kampına git; {npc:11610} kampın kuzeydoğusundaki tepede saklanıyor.",
 
 	-- Step 12: On the way
-	["On the way"] = "",
+	["On the way"] = "Yol üstünde",
 
 	-- Step 13: Diseased Wolves
 	["Diseased Wolves"] = "Diseased Wolf yaratıkları",
@@ -72,40 +72,40 @@ return {
 	-- {npc:10816} Wandering Skeleton · {npc:10836} Farmer Dalson
 	["The diary lies in the farmhouse, the cabinet stands inside and the outhouse is behind it. A {npc:10816} carries the outhouse key; {npc:10836} comes out when you open the outhouse and carries the cabinet key."] = "Günlük çiftlik evinde, dolap içeride, hela da arkada. Hela anahtarını bir {npc:10816} taşıyor; helayı açınca {npc:10836} dışarı çıkar ve dolap anahtarını taşır.",
 	-- {object:175924} Locked Cabinet
-	["{object:175924}, inside"] = "",
+	["{object:175924}, inside"] = "{object:175924}, içeride",
 	-- {quest:5058} Mrs. Dalson's Diary
-	["{quest:5058}, inside"] = "",
+	["{quest:5058}, inside"] = "{quest:5058}, içeride",
 
 	-- Step 16: Level 53.02
-	["Level 53.02"] = "",
+	["Level 53.02"] = "Seviye 53.02",
 	-- {area:202} Writhing Haunt
-	["Top up here to level 53.02 before the hand-ins at {area:202}: they take you to level 54."] = "",
+	["Top up here to level 53.02 before the hand-ins at {area:202}: they take you to level 54."] = "{area:202} teslimlerinden önce burada seviye 53.02 olana kadar kas: teslimler seni seviye 54 yapar.",
 	-- {npc:1817} Diseased Wolf
-	["grind on {npc:1817}"] = "",
+	["grind on {npc:1817}"] = "Kas: {npc:1817}",
 
 	-- Step 17: Diseased Grizzly on the way
 	-- {npc:1816} Diseased Grizzly
-	["{npc:1816} on the way"] = "",
+	["{npc:1816} on the way"] = "Yol üstünde: {npc:1816}",
 	-- {npc:1816} Diseased Grizzly · {npc:10739} Mulgris Deepriver
-	["{npc:1816} along the way to {npc:10739}"] = "",
+	["{npc:1816} along the way to {npc:10739}"] = "{npc:1816}, {npc:10739} yolu üstünde",
 
 	-- Step 18: Mulgris Deepriver
 	-- {npc:5770} Nara Wildmane · {zone:1456} Thunder Bluff
 	["Keep the branch: {npc:5770} is in {zone:1456}."] = "Dalı sakla: {npc:5770}, {zone:1456} şehrinde.",
 
 	-- Step 19: Level 53.2
-	["Level 53.2"] = "",
+	["Level 53.2"] = "Seviye 53.2",
 	-- {area:152} The Bulwark
-	["Top up here to level 53.2 before the hand-ins at {area:152}: they take you to level 54."] = "",
+	["Top up here to level 53.2 before the hand-ins at {area:152}: they take you to level 54."] = "{area:152} teslimlerinden önce burada seviye 53.2 olana kadar kas: teslimler seni seviye 54 yapar.",
 	-- {npc:1816} Diseased Grizzly
-	["grind on {npc:1816}"] = "",
+	["grind on {npc:1816}"] = "Kas: {npc:1816}",
 
 	-- Step 20: Scarlet Crusade
 	["Scarlet Crusade"] = "Scarlet Crusade",
 	-- {area:192} Northridge Lumber Camp
 	["Knights and magi work the {area:192}; the medics and hunters camp south of it."] = "{area:192} kampında şövalyeler ve büyücüler çalışıyor; sağlıkçılar ve avcılar kampın güneyinde kamp kurmuş.",
 	-- {npc:10605} Scarlet Medic
-	["grind on {npc:10605}"] = "",
+	["grind on {npc:10605}"] = "Kas: {npc:10605}",
 
 	-- Step 22: The Bulwark
 	-- {area:152} The Bulwark
@@ -114,32 +114,32 @@ return {
 	["Derrington's watchtowers, Vandis' cauldron and {npc:11615}'s barrel are done on a later visit: keep them."] = "Derrington'ın gözetleme kuleleri, Vandis'in kazanı ve {npc:11615} adlı NPC'nin fıçısı daha sonraki bir ziyarette yapılır: sakla.",
 
 	-- Step 23: Level 53.34
-	["Level 53.34"] = "",
+	["Level 53.34"] = "Seviye 53.34",
 	-- {area:1763} Jaedenar
-	["Top up here to level 53.34 before the hand-ins at {area:1763}: they take you to level 54."] = "",
+	["Top up here to level 53.34 before the hand-ins at {area:1763}: they take you to level 54."] = "{area:1763} teslimlerinden önce burada seviye 53.34 olana kadar kas: teslimler seni seviye 54 yapar.",
 
 	-- Step 25: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
 	["Zeppelin to {zone:1454}"] = "Zeplinle {zone:1454} şehrine",
 
 	-- Step 27: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 28: Paladin trainer
-	["Paladin trainer"] = "",
+	["Paladin trainer"] = "Paladin eğitmeni",
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {zone:1454} Orgrimmar
-	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "",
+	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde; {zone:1454} bölgesinde Paladin eğitmeni yok",
 
 	-- Step 29: Druid trainer
-	["Druid trainer"] = "",
+	["Druid trainer"] = "Druid eğitmeni",
 	-- {npc:3034} Sheal Runetotem · {zone:1412} Mulgore · {zone:1454} Orgrimmar
-	["{npc:3034} in {zone:1412}; {zone:1454} has no druid trainer"] = "",
+	["{npc:3034} in {zone:1412}; {zone:1454} has no druid trainer"] = "{npc:3034}, {zone:1412} bölgesinde; {zone:1454} bölgesinde Druid eğitmeni yok",
 
 	-- Step 30: Fly to Splintertree Post
 	-- {area:431} Splintertree Post
-	["Fly to {area:431}"] = "",
+	["Fly to {area:431}"] = "Uç: {area:431}",
 	-- {zone:1454} Orgrimmar
-	["{zone:1454} flight master"] = "",
+	["{zone:1454} flight master"] = "{zone:1454} uçuş ustası",
 
 	-- Step 32: Emerald Sanctuary
 	["The druids' camp is just past the border."] = "Druidlerin kampı sınırın hemen ötesinde.",
@@ -150,7 +150,7 @@ return {
 	-- {area:1769} Timbermaw Hold
 	["The Deadwood furbolg village lies just south of the Sanctuary. Every Deadwood kill also raises your {area:1769} reputation; keep the headdress feathers."] = "Deadwood furbolg köyü Sanctuary'nin hemen güneyinde. Öldürdüğün her Deadwood {area:1769} itibarını da artırır; başlık tüylerini sakla.",
 	-- {npc:7153} Deadwood Warrior
-	["grind on {npc:7153}"] = "",
+	["grind on {npc:7153}"] = "Kas: {npc:7153}",
 
 	-- Step 34: Emerald Sanctuary
 	-- {npc:9529} Maybess Riverbreeze
@@ -166,18 +166,18 @@ return {
 	-- {item:13140} Blood Red Key · {npc:11018} Arko'narin · {area:1770} Shadow Hold · {area:1763} Jaedenar
 	["Only if a {item:13140} dropped: use it to start the quest, then free {npc:11018} in her cage in {area:1770}, the cave at the north end of {area:1763}, and escort her out."] = "Yalnızca {item:13140} düştüyse: görevi başlatmak için onu kullan, sonra {area:1763} tapınağının kuzey ucundaki mağara {area:1770} içinde kafesteki {npc:11018} adlı NPC'yi kurtar ve dışarıya kadar eşlik et.",
 	-- {npc:11016} Captured Arko'narin
-	["{npc:11016}, below ground"] = "",
+	["{npc:11016}, below ground"] = "{npc:11016}, yer altında",
 
 	-- Step 37: Emerald Sanctuary
 	-- plural, as words: Deadwood Headdress Feathers = {item:21377} Deadwood Headdress Feather
 	["Only with 5 Deadwood Headdress Feathers"] = "Yalnızca 5 Deadwood Headdress Feather varsa",
 
 	-- Step 38: Level 54.1
-	["Level 54.1"] = "",
+	["Level 54.1"] = "Seviye 54.1",
 	-- {area:361} Felwood
-	["Top up here to level 54.1 before the hand-ins at {area:361}: they take you to level 55."] = "",
+	["Top up here to level 54.1 before the hand-ins at {area:361}: they take you to level 55."] = "{area:361} teslimlerinden önce burada seviye 54.1 olana kadar kas: teslimler seni seviye 55 yapar.",
 	-- {npc:7155} Deadwood Pathfinder
-	["grind on {npc:7155}"] = "",
+	["grind on {npc:7155}"] = "Kas: {npc:7155}",
 
 	-- Step 39: The Jaedenar moonwell
 	-- {area:1763} Jaedenar
@@ -188,9 +188,9 @@ return {
 	-- Step 40: Rakaiah
 	-- {npc:11018} Arko'narin · {npc:9518} Rakaiah · {area:1763} Jaedenar · {npc:11020} Remains of Trey Lightforge
 	["Only if you rescued {npc:11018}: the succubus {npc:9518} waits in the middle of {area:1763}, beside the {npc:11020}."] = "Yalnızca {npc:11018} adlı NPC'yi kurtardıysan: succubus {npc:9518}, {area:1763} tapınağının ortasında, {npc:11020} yanında bekliyor.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 	-- {npc:11020} Remains of Trey Lightforge
-	["{npc:11020}, below ground"] = "",
+	["{npc:11020}, below ground"] = "{npc:11020}, yer altında",
 
 	-- Step 41: Bloodvenom Post
 	-- {area:1763} Jaedenar
@@ -210,11 +210,11 @@ return {
 	-- plural, as words: Warpwood Moss Flayers = {npc:7100} Warpwood Moss Flayer · Felpaw Ravagers = {npc:8961} Felpaw Ravager
 	["Follow the road north-east to {area:1767}. The Warpwood Moss Flayers and Shredders on the east side of the woods each carry a {item:11503}; Angerclaw Grizzlies and Felpaw Ravagers roam the same woods for Talo."] = "Yolu kuzeydoğuya izleyerek {area:1767} ormanına git. Ormanın doğu yakasındaki Warpwood Moss Flayer ve Warpwood Shredder yaratıklarının her biri bir {item:11503} taşıyor; Talo için Angerclaw Grizzly ve Felpaw Ravager yaratıkları aynı ormanda dolaşıyor.",
 	-- {npc:8957} Angerclaw Grizzly
-	["grind on {npc:8957}"] = "",
+	["grind on {npc:8957}"] = "Kas: {npc:8957}",
 
 	-- Step 44: Irontree Woods
 	-- {npc:7101} Warpwood Shredder
-	["grind on {npc:7101}"] = "",
+	["grind on {npc:7101}"] = "Kas: {npc:7101}",
 
 	-- Step 45: Felpaw Village
 	-- {npc:9462} Chieftain Bloodmaw · {npc:11557} Meilosh
@@ -230,20 +230,20 @@ return {
 	["Careful: Den Watchers are level 53-54; they call nearby allies within 25 yd once below 50% health and run off for help below 15%."] = "",
 
 	-- Step 49: Level 54.45
-	["Level 54.45"] = "",
+	["Level 54.45"] = "Seviye 54.45",
 	-- {area:1769} Timbermaw Hold
-	["Top up here to level 54.45 before the hand-ins at {area:1769}: they take you to level 55."] = "",
+	["Top up here to level 54.45 before the hand-ins at {area:1769}: they take you to level 55."] = "{area:1769} teslimlerinden önce burada seviye 54.45 olana kadar kas: teslimler seni seviye 55 yapar.",
 	-- {npc:7156} Deadwood Den Watcher
-	["grind on {npc:7156}"] = "",
+	["grind on {npc:7156}"] = "Kas: {npc:7156}",
 
 	-- Step 50: Nafien
 	-- {quest:8465} Speak to Salfa · {zone:1452} Winterspring
 	["Keep {quest:8465} for {zone:1452}."] = "{quest:8465} görevini {zone:1452} için sakla.",
 
 	-- Step 51: Level 54.54
-	["Level 54.54"] = "",
+	["Level 54.54"] = "Seviye 54.54",
 	-- {area:2479} Emerald Sanctuary
-	["Top up here to level 54.54 before the hand-ins at {area:2479}: they take you to level 55."] = "",
+	["Top up here to level 54.54 before the hand-ins at {area:2479}: they take you to level 55."] = "{area:2479} teslimlerinden önce burada seviye 54.54 olana kadar kas: teslimler seni seviye 55 yapar.",
 
 	-- Step 52: Felpaw Village
 	-- {quest:8470} Deadwood Ritual Totem
@@ -264,7 +264,7 @@ return {
 	["Keep {quest:5158}: {npc:5901} is in the {zone:1413}."] = "{quest:5158} görevini sakla: {npc:5901}, {zone:1413} bölgesinde.",
 
 	-- Step 56: Level 54.7
-	["Level 54.7"] = "",
+	["Level 54.7"] = "Seviye 54.7",
 	-- {area:1997} Bloodvenom Post
 	["Top up here to level 54.7 before the hand-ins at {area:1997} : they take you to level 55."] = "",
 
@@ -284,11 +284,11 @@ return {
 	["Jadefire moonwell"] = "Jadefire ay kuyusu",
 
 	-- Step 62: Level 54.87
-	["Level 54.87"] = "",
+	["Level 54.87"] = "Seviye 54.87",
 	-- {area:2255} Everlook
-	["Top up here to level 54.87 before the hand-ins at {area:2255}: they take you to level 55."] = "",
+	["Top up here to level 54.87 before the hand-ins at {area:2255}: they take you to level 55."] = "{area:2255} teslimlerinden önce burada seviye 54.87 olana kadar kas: teslimler seni seviye 55 yapar.",
 	-- {npc:7125} Jaedenar Hound
-	["grind on {npc:7125}"] = "",
+	["grind on {npc:7125}"] = "Kas: {npc:7125}",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["Fly to the {area:1497}"] = "{area:1497} şehrine uç",

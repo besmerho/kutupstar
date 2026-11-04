@@ -5,7 +5,7 @@
 return {
 	-- Step 1: Boat to Stormwind Harbor
 	-- {area:17203} Stormwind Harbor
-	["Boat to {area:17203}"] = "",
+	["Boat to {area:17203}"] = "Gemiyle: {area:17203}",
 
 	-- Step 2: Stormwind
 	-- {area:442} Auberdine · {area:17203} Stormwind Harbor · {npc:1646} Baros Alexston · {area:12} Elwynn Forest
@@ -42,7 +42,7 @@ return {
 
 	-- Step 6: Tram to Ironforge
 	-- {zone:1455} Ironforge
-	["Tram to {zone:1455}"] = "",
+	["Tram to {zone:1455}"] = "Tramvayla: {zone:1455}",
 
 	-- Step 7: Shaman training
 	["Shaman training"] = "Shaman eğitimi",
@@ -51,9 +51,9 @@ return {
 
 	-- Step 8: Fly to Sentinel Hill
 	-- {area:108} Sentinel Hill
-	["Fly to {area:108}"] = "",
+	["Fly to {area:108}"] = "Uç: {area:108}",
 	-- {zone:1453} Stormwind
-	["{zone:1453} flight master"] = "",
+	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 
 	-- Step 9: Half Pendant of Aquatic Endurance
 	-- {area:108} Sentinel Hill · {object:177790} Strange Lockbox
@@ -63,10 +63,10 @@ return {
 
 	-- Step 10: Back to Elwynn Forest
 	-- {area:12} Elwynn Forest
-	["Back to {area:12}"] = "",
+	["Back to {area:12}"] = "Dönüş: {area:12}",
 
 	-- Step 12: Theocritus
-	["On the top floor"] = "",
+	["On the top floor"] = "En üst katta",
 
 	-- Step 14: Henze Faulk
 	-- {area:91} Tower of Azora · {area:86} Stone Cairn Lake · {npc:6172} Henze Faulk · {item:6866} Symbol of Life · {item:6846} Defias Script
@@ -82,7 +82,7 @@ return {
 	-- {area:1002} Three Corners · {npc:464} Guard Parker · {zone:1431} Duskwood
 	["The road from Elwynn enters Redridge at {area:1002}. {npc:464} stands where the roads to Redridge and {zone:1431} meet."] = "Elwynn'den gelen yol Redridge'e {area:1002} kavşağında girer. {npc:464}, Redridge ve {zone:1431} yollarının buluştuğu yerde duruyor.",
 	-- {npc:464} Guard Parker · {area:1002} Three Corners
-	["{npc:464} walks around {area:1002}: look inside the circle on the map"] = "",
+	["{npc:464} walks around {area:1002}: look inside the circle on the map"] = "{npc:464}, {area:1002} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 17: Lakeridge Highway
 	-- {area:68} Lake Everstill · {npc:1070} Deputy Feldon · {npc:903} Guard Howe
@@ -93,25 +93,25 @@ return {
 	["Cross the long bridge north into town. {npc:341} and {npc:382} stand at the north end of the bridge, {npc:900} in the town hall, {npc:381} and {npc:266} on the docks, {npc:343} at the inn, {npc:342} in her garden at the west end."] = "Uzun köprüden kuzeye geçerek kasabaya gir. {npc:341} ve {npc:382} köprünün kuzey ucunda, {npc:900} belediye binasında, {npc:381} ve {npc:266} iskelede, {npc:343} handa, {npc:342} ise batı uçtaki bahçesinde duruyor.",
 	-- {npc:266} Wiley the Black
 	["{npc:266}, by the docks; upstairs"] = "",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 	-- {npc:343} Chef Breanna
-	["{npc:343}, inside"] = "",
+	["{npc:343}, inside"] = "{npc:343}, içeride",
 	-- {npc:900} Bailiff Conacher
-	["{npc:900}, inside"] = "",
+	["{npc:900}, inside"] = "{npc:900}, içeride",
 
 	-- Step 19: Spotted Sunfish on the way
 	-- {item:1467} Spotted Sunfish
-	["{item:1467} on the way"] = "",
+	["{item:1467} on the way"] = "Yol üstünde: {item:1467}",
 
 	-- Step 20: Sunken Chest
 	-- {area:68} Lake Everstill
 	["Swim east from the bridge into {area:68}; the chest lies on the lake bed."] = "Köprüden doğuya, {area:68} gölüne yüz; sandık gölün dibinde duruyor.",
 	-- {item:1309} Oslow's Toolbox
-	["{item:1309}; underwater"] = "",
+	["{item:1309}; underwater"] = "{item:1309}; su altında",
 
 	-- Step 22: Lakeridge Highway: kill these as you meet them
 	-- {area:1001} Lakeridge Highway
-	["{area:1001}: kill these as you meet them"] = "",
+	["{area:1001}: kill these as you meet them"] = "{area:1001}: bunları karşılaştıkça öldür",
 	-- {area:1002} Three Corners
 	-- plural, as words: Redridge Mongrels = {npc:423} Redridge Mongrel · Redridge Thrashers = {npc:712} Redridge Thrasher · Redridge Brutes = {npc:426} Redridge Brute · Iron Pikes = {item:2856} Iron Pike · Dire Condors = {npc:428} Dire Condor · Great Goretusks = {npc:547} Great Goretusk
 	["Redridge Mongrels and other gnolls hold the hills east of {area:1002}, north of the road; Redridge Thrashers prowl among them, Poachers camp south of the road. Redridge Brutes, for the Iron Pikes and Rivets, hold the hills further north; Dire Condors and Great Goretusks roam the hills east of them."] = "Redridge Mongrel yaratıkları ve diğer gnollar {area:1002} kavşağının doğusunda, yolun kuzeyindeki tepeleri tutuyor; aralarında Redridge Thrasher yaratıkları dolaşıyor, Redridge Poacher yaratıkları ise yolun güneyinde kamp kurmuş. Iron Pike ve perçinler için gereken Redridge Brute yaratıkları daha kuzeydeki tepeleri tutuyor; onların doğusundaki tepelerde Dire Condor ve Great Goretusk yaratıkları dolaşıyor.",
@@ -131,14 +131,14 @@ return {
 
 	-- Step 29: Lake Everstill: kill these as you meet them
 	-- {area:68} Lake Everstill
-	["{area:68}: kill these as you meet them"] = "",
+	["{area:68}: kill these as you meet them"] = "{area:68}: bunları karşılaştıkça öldür",
 	-- {item:1467} Spotted Sunfish
 	-- plural, as words: Murloc Flesheaters = {npc:422} Murloc Flesheater · Greater Tarantulas = {npc:505} Greater Tarantula
 	["Murloc Flesheaters and Tidecallers line the south shore east of the bridge. Any of them can carry a {item:1467} or a fin.\nGreater Tarantulas crawl on the slopes around the mill north-east of the lake."] = "",
 
 	-- Step 31: Galardell Valley: kill these as you meet them
 	-- {area:1000} Galardell Valley
-	["{area:1000}: kill these as you meet them"] = "",
+	["{area:1000}: kill these as you meet them"] = "{area:1000}: bunları karşılaştıkça öldür",
 	-- {npc:703} Lieutenant Fangore · {area:2099} Stonewatch Keep
 	["East past the mill and across the river. Shadowhide gnolls fill the valley; {npc:703} (26, well above you) leads them at its north end: clear his escort first and fight him at full health. Stay out of {area:2099} to the south: its orcs are elite.\nCareful: Two gnoll guards stay with him and join the fight whenever he is attacked, even if he has wandered a short way off; other gnolls stand close by and wander through the area."] = "",
 	-- {item:1075} Shadowhide Pendant
@@ -151,7 +151,7 @@ return {
 
 	-- Step 34: Hearth to Lakeshire
 	-- {area:69} Lakeshire
-	["Hearth to {area:69}"] = "",
+	["Hearth to {area:69}"] = "Hearthstone ile dön: {area:69}",
 
 	-- Step 35: Back to Lakeshire
 	-- {area:69} Lakeshire
@@ -164,13 +164,13 @@ return {
 	-- plural, as words: Blackrock Champions = {npc:435} Blackrock Champion
 	["Head north out of {area:69} up the {area:95} to {area:997}. Blackrock Champions camp in the valley."] = "{area:69} kasabasından kuzeye çık ve {area:95} kanyonlarından yukarı, {area:997} vadisine git. Vadide Blackrock Champion yaratıkları kamp kurmuş.",
 	-- {npc:435} Blackrock Champion
-	["{npc:435}, below ground"] = "",
+	["{npc:435}, below ground"] = "{npc:435}, yer altında",
 
 	-- Step 37: Corporal Keeshan
 	-- {zone:1428} Burning Steppes · {area:69} Lakeshire
 	["Keeshan hides at the very north end of the valley, by the {zone:1428} border. Escort him down to {area:69}; Blackrock orcs ambush you on the way."] = "Keeshan vadinin en kuzey ucunda, {zone:1428} sınırının yakınında saklanıyor. Ona {area:69} kasabasına kadar eşlik et; yolda Blackrock orkları pusu kurar.",
 	-- {npc:349} Corporal Keeshan
-	["{npc:349}, below ground"] = "",
+	["{npc:349}, below ground"] = "{npc:349}, yer altında",
 
 	-- Step 38: Lakeshire
 	-- {npc:903} Guard Howe

@@ -13,13 +13,13 @@ return {
 	-- {npc:377} Priestess Josetta · {area:87} Goldshire · {npc:376} High Priestess Laurena · {zone:1453} Stormwind
 	["At 10, {npc:377}, upstairs in the Lion's Pride Inn in {area:87}, hands you a letter for {npc:376}. {area:87} is on the road north to {zone:1453}, so it costs no detour."] = "",
 	-- {npc:377} Priestess Josetta · {quest:94773} Divine Grace
-	["{npc:377}: take her {quest:94773} letter"] = "",
+	["{npc:377}: take her {quest:94773} letter"] = "{npc:377}: {quest:94773} mektubunu al",
 
 	-- Step 2: Divine Grace: Laurna Morninglight
 	-- {zone:1438} Teldrassil · {npc:3600} Laurna Morninglight · {area:186} Dolanaar · {npc:376} High Priestess Laurena · {zone:1453} Stormwind
 	["A Human priest in {zone:1438} at 10: {npc:3600}, in the building at the north edge of {area:186}, hands you a letter for {npc:376} in {zone:1453}."] = "",
 	-- {npc:3600} Laurna Morninglight · {quest:94773} Divine Grace
-	["{npc:3600}: take her {quest:94773} letter"] = "",
+	["{npc:3600}: take her {quest:94773} letter"] = "{npc:3600}: {quest:94773} mektubunu al",
 
 	-- Step 3: Divine Grace: High Priestess Laurena
 	-- {npc:376} High Priestess Laurena · {zone:1453} Stormwind · {object:2098} Cathedral Square · {quest:94773} Divine Grace · {spell:6788} Weakened Soul
@@ -33,31 +33,31 @@ return {
 
 	-- Step 5: Divine Grace: Laurna Morninglight's letter
 	-- {quest:94775} Divine Grace · {npc:3600} Laurna Morninglight
-	["{quest:94775}: {npc:3600}'s letter"] = "",
+	["{quest:94775}: {npc:3600}'s letter"] = "{quest:94775}: mektup ({npc:3600})",
 	-- {npc:3600} Laurna Morninglight · {npc:376} High Priestess Laurena · {zone:1453} Stormwind · {zone:1438} Teldrassil · {area:702} Rut'theran Village · {area:442} Auberdine · {area:17203} Stormwind Harbor · {quest:94775} Divine Grace
 	["Hand {npc:3600}'s letter to {npc:376} at the altar of {zone:1453}'s Cathedral of Light (from {zone:1438}: the boat from {area:702} to {area:442}, then the boat to {area:17203}): she teaches {quest:94775}."] = "",
 
 	-- Step 6: Divine Grace: a letter from another trainer
 	-- {quest:94776} Divine Grace
-	["{quest:94776}: a letter from another trainer"] = "",
+	["{quest:94776}: a letter from another trainer"] = "{quest:94776}: başka bir eğitmenden mektup",
 	-- {quest:94776} Divine Grace · {npc:376} High Priestess Laurena
 	["Any {quest:94776} letter goes to {npc:376} at the altar of the Cathedral of Light."] = "",
 
 	-- Step 7: Divine Grace: a letter from another trainer
 	-- {quest:94777} Divine Grace
-	["{quest:94777}: a letter from another trainer"] = "",
+	["{quest:94777}: a letter from another trainer"] = "{quest:94777}: başka bir eğitmenden mektup",
 	-- {quest:94777} Divine Grace · {npc:376} High Priestess Laurena
 	["Any {quest:94777} letter goes to {npc:376} at the altar of the Cathedral of Light."] = "",
 
 	-- Step 8: Divine Grace: a letter from another trainer
 	-- {quest:94778} Divine Grace
-	["{quest:94778}: a letter from another trainer"] = "",
+	["{quest:94778}: a letter from another trainer"] = "{quest:94778}: başka bir eğitmenden mektup",
 	-- {quest:94778} Divine Grace · {npc:376} High Priestess Laurena
 	["Any {quest:94778} letter goes to {npc:376} at the altar of the Cathedral of Light."] = "",
 
 	-- Step 9: Divine Grace: a letter from another trainer
 	-- {quest:94779} Divine Grace
-	["{quest:94779}: a letter from another trainer"] = "",
+	["{quest:94779}: a letter from another trainer"] = "{quest:94779}: başka bir eğitmenden mektup",
 	-- {quest:94779} Divine Grace · {npc:376} High Priestess Laurena
 	["Any {quest:94779} letter goes to {npc:376} at the altar of the Cathedral of Light."] = "",
 
@@ -65,13 +65,13 @@ return {
 	-- {zone:1455} Ironforge · {npc:11406} High Priest Rohan · {object:32386} Hall of Mysteries (no name in this language: may be words) · {object:32362} Mystic Ward (no name in this language: may be words) · {npc:376} High Priestess Laurena · {zone:1453} Stormwind · {area:2257} Deeprun Tram · {object:171524} Tinker Town
 	["At 20 in {zone:1455}, {npc:11406} in the {object:32386} ({object:32362}) hands you a letter for {npc:376} in {zone:1453}. The {area:2257} from {object:171524} takes you there."] = "",
 	-- {npc:11406} High Priest Rohan · {quest:5676} Arcane Feedback
-	["{npc:11406}: take his {quest:5676} letter"] = "",
+	["{npc:11406}: take his {quest:5676} letter"] = "{npc:11406}: {quest:5676} mektubunu al",
 
 	-- Step 11: Feedback: Priestess Alathea
 	-- {zone:1457} Darnassus · {npc:11401} Priestess Alathea · {npc:7999} Tyrande Whisperwind · {npc:376} High Priestess Laurena · {zone:1453} Stormwind
 	["At 20 in {zone:1457}, {npc:11401}, on the upper balcony of the Temple of the Moon beside {npc:7999}, hands you a letter for {npc:376} in {zone:1453}."] = "",
 	-- {npc:11401} Priestess Alathea · {quest:5676} Arcane Feedback
-	["{npc:11401}: take her {quest:5676} letter"] = "",
+	["{npc:11401}: take her {quest:5676} letter"] = "{npc:11401}: {quest:5676} mektubunu al",
 
 	-- Step 12: Feedback: High Priestess Laurena
 	-- {npc:376} High Priestess Laurena · {spell:13896} Feedback

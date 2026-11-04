@@ -5,13 +5,13 @@
 return {
 	-- Step 1: Learn Leatherworking
 	-- {skill:165} Leatherworking
-	["Learn {skill:165}"] = "",
+	["Learn {skill:165}"] = "Öğren: {skill:165}",
 	-- {skill:165} Leatherworking · {skill:393} Skinning · {item:2318} Light Leather · {item:2320} Coarse Thread
 	["Apprentice {skill:165} lets you craft up to 75 for 10c, at any character level. Any {skill:165} trainer of your faction teaches it; the arrow picks the nearest. Pair it with {skill:393}: {item:2318} comes from the beasts of every starting zone. {item:2320} and Salt are sold by leatherworking and trade supplies vendors. 1-75 takes about 1s 50c of recipes and 5s of vendor goods, plus 349 {item:2318} to gather or buy."] = "",
 
 	-- Step 2: Leatherworking 1-75: vendor goods
 	-- {skill:165} Leatherworking
-	["{skill:165} 1-75: vendor goods"] = "",
+	["{skill:165} 1-75: vendor goods"] = "{skill:165} 1-75: satıcı malları",
 	-- {item:2320} Coarse Thread · {zone:1453} Stormwind City · {npc:1347} Alexandra Bolero · {npc:1286} Edna Mullby · {npc:5565} Jillian Tanner · {zone:1454} Orgrimmar · {npc:3364} Borya · {npc:3367} Felika · {npc:5817} Shimra
 	["Buy the whole bracket's share in one go: 50 {item:2320} (5s); about 5s in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1347}, {npc:1286} and {npc:5565}; {zone:1454}: {npc:3364}, {npc:3367} and {npc:5817})."] = "",
 
@@ -45,19 +45,19 @@ return {
 
 	-- Step 10: Light Armor Kit to 51
 	-- {spell:2152} Light Armor Kit
-	["{spell:2152} to 51"] = "",
+	["{spell:2152} to 51"] = "{spell:2152}: 51 puana kadar",
 	-- {spell:2152} Light Armor Kit · {item:2318} Light Leather
 	["{spell:2152} is orange at 1 (yellow 30, green 45, grey 60): about 64 crafts to 51. Each takes 1 {item:2318}. One {item:2318} a craft; the kits sell to vendors."] = "",
 
 	-- Step 11: Leatherworking recipes at 51
 	-- {skill:165} Leatherworking
-	["{skill:165} recipes at 51"] = "",
+	["{skill:165} recipes at 51"] = "51 puanda {skill:165} tarifleri",
 	-- {skill:165} Leatherworking · {spell:3756} Embossed Leather Gloves · {spell:1229432} Camp Tent · {item:2318} Light Leather
 	["Back to a {skill:165} trainer: {spell:3756} (from 40, 1s 50c). Also learn {spell:1229432} (1s): Forever's {skill:165} camp item, 5 {item:2318}, placed at a campsite beside a campfire. The Camping 101: {skill:165} quest from your starting area's camping guide (after The Great Outdoors) sends you to a leatherworking trainer who teaches it free."] = "",
 
 	-- Step 12: Embossed Leather Gloves to 75
 	-- {spell:3756} Embossed Leather Gloves
-	["{spell:3756} to 75"] = "",
+	["{spell:3756} to 75"] = "{spell:3756}: 75 puana kadar",
 	-- {spell:3756} Embossed Leather Gloves · {item:2318} Light Leather · {item:2320} Coarse Thread
 	["{spell:3756} is orange at 51 (yellow 70, green 85, grey 100): about 25 crafts to 75. Each takes 3 {item:2318} and 2 {item:2320}. Forever teaches {spell:3756} from 40."] = "",
 
@@ -69,7 +69,7 @@ return {
 
 	-- Step 14: Leatherworking 75-150: vendor goods
 	-- {skill:165} Leatherworking
-	["{skill:165} 75-150: vendor goods"] = "",
+	["{skill:165} 75-150: vendor goods"] = "{skill:165} 75-150: satıcı malları",
 	-- {item:2320} Coarse Thread · {item:2321} Fine Thread · {zone:1453} Stormwind City · {npc:1347} Alexandra Bolero · {npc:1286} Edna Mullby · {npc:5565} Jillian Tanner · {zone:1454} Orgrimmar · {npc:3364} Borya · {npc:3367} Felika · {npc:5817} Shimra
 	["Buy the whole bracket's share in one go: 70 {item:2320} (7s) and 50 {item:2321} (50s); about 57s in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1347}, {npc:1286} and {npc:5565}; {zone:1454}: {npc:3364}, {npc:3367} and {npc:5817})."] = "",
 
@@ -95,37 +95,37 @@ return {
 
 	-- Step 23: Fine Leather Belt to 102
 	-- {spell:3763} Fine Leather Belt
-	["{spell:3763} to 102"] = "",
+	["{spell:3763} to 102"] = "{spell:3763}: 102 puana kadar",
 	-- {spell:3763} Fine Leather Belt · {item:2318} Light Leather · {item:2320} Coarse Thread
 	["{spell:3763} is orange at 75 (yellow 85, green 100, grey 115): about 35 crafts to 102. Each takes 6 {item:2318} and 2 {item:2320}. Forever teaches {spell:3763} from 55."] = "",
 
 	-- Step 24: Leatherworking recipes at 102
 	-- {skill:165} Leatherworking
-	["{skill:165} recipes at 102"] = "",
+	["{skill:165} recipes at 102"] = "102 puanda {skill:165} tarifleri",
 	-- {skill:165} Leatherworking · {spell:9074} Nimble Leather Gloves
 	["Back to a {skill:165} trainer: {spell:9074} (from 95, 5s)."] = "",
 
 	-- Step 25: Nimble Leather Gloves to 125
 	-- {item:7285} Nimble Leather Gloves
-	["{item:7285} to 125"] = "",
+	["{item:7285} to 125"] = "{item:7285}: 125 puana kadar",
 	-- {item:7285} Nimble Leather Gloves · {item:2457} Elixir of Minor Agility · {item:2319} Medium Leather · {item:2321} Fine Thread · {item:2452} Swiftthistle · {item:765} Silverleaf · {spell:3763} Fine Leather Belt · {item:2316} Dark Leather Cloak · {item:4340} Gray Dye · {skill:171} Alchemy
 	["{item:7285} is orange at 102 (yellow 120, green 132, grey 145): about 24 crafts to 125. Each takes 1 {item:2457}, 6 {item:2319} and 1 {item:2321}. Each takes an {item:2457}: an alchemist makes it from a {item:2452} and a {item:765}, and the Auction House has it cheap. With no elixirs, take {spell:3763} on to 105 and {item:2316} (from 85: 8 {item:2319}, a {item:4340} and a {item:2321}) to 125: about 28 cloaks, 224 {item:2319} in all. {item:2457} (24 for 75-150): {skill:171}: {item:2457}; or the Auction House."] = "",
 
 	-- Step 26: Leatherworking recipes at 125
 	-- {skill:165} Leatherworking
-	["{skill:165} recipes at 125"] = "",
+	["{skill:165} recipes at 125"] = "125 puanda {skill:165} tarifleri",
 	-- {skill:165} Leatherworking · {spell:3780} Heavy Armor Kit
 	["Back to a {skill:165} trainer: {spell:3780} (from 125, 7s 50c)."] = "",
 
 	-- Step 27: Heavy Armor Kit to 150
 	-- {spell:3780} Heavy Armor Kit
-	["{spell:3780} to 150"] = "",
+	["{spell:3780} to 150"] = "{spell:3780}: 150 puana kadar",
 	-- {spell:3780} Heavy Armor Kit · {item:4234} Heavy Leather · {item:2321} Fine Thread · {skill:165} Leatherworking
 	["{spell:3780} is orange at 125 (yellow 145, green 155, grey 165): about 26 crafts to 150. Each takes 5 {item:4234} and 1 {item:2321}. Five {item:4234} a craft (beasts of level 28-40); the kits sell to vendors. {skill:165} 150 is a Legacy System milestone."] = "",
 
 	-- Step 28: Leatherworking 150-225: vendor goods
 	-- {skill:165} Leatherworking
-	["{skill:165} 150-225: vendor goods"] = "",
+	["{skill:165} 150-225: vendor goods"] = "{skill:165} 150-225: satıcı malları",
 	-- {item:2321} Fine Thread · {item:4291} Silken Thread · {zone:1453} Stormwind City · {npc:1347} Alexandra Bolero · {npc:1286} Edna Mullby · {npc:5565} Jillian Tanner · {zone:1454} Orgrimmar · {npc:3364} Borya · {npc:3367} Felika · {npc:5817} Shimra
 	["Buy the whole bracket's share in one go: 8 {item:2321} (8s) and 32 {item:4291} (1g 60s); about 1g 68s in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1347}, {npc:1286} and {npc:5565}; {zone:1454}: {npc:3364}, {npc:3367} and {npc:5817})."] = "",
 
@@ -149,44 +149,44 @@ return {
 
 	-- Step 32: Heavy Armor Kit to 155
 	-- {spell:3780} Heavy Armor Kit
-	["{spell:3780} to 155"] = "",
+	["{spell:3780} to 155"] = "{spell:3780}: 155 puana kadar",
 	-- {spell:3780} Heavy Armor Kit · {item:4234} Heavy Leather · {item:2321} Fine Thread
 	["{spell:3780} is yellow at 150 (yellow 145, green 155, grey 165): about 8 crafts to 155. Each takes 5 {item:4234} and 1 {item:2321}. Five {item:4234} a craft (beasts of level 28-40); the kits sell to vendors."] = "",
 
 	-- Step 33: Leatherworking recipes at 155
 	-- {skill:165} Leatherworking
-	["{skill:165} recipes at 155"] = "",
+	["{skill:165} recipes at 155"] = "155 puanda {skill:165} tarifleri",
 	-- {spell:20650} Thick Leather
-	["Still at the Expert trainer: {spell:20650} (from 155)."] = "",
+	["Still at the Expert trainer: {spell:20650} (from 155)."] = "Hâlâ Expert eğitmeninde: {spell:20650} (155 puandan itibaren).",
 
 	-- Step 34: Thick Leather to 177
 	-- {item:4304} Thick Leather
-	["{item:4304} to 177"] = "",
+	["{item:4304} to 177"] = "{item:4304}: 177 puana kadar",
 	-- {item:4304} Thick Leather · {item:4234} Heavy Leather
 	-- plural, as words: Thick Armor Kits = {item:8173} Thick Armor Kit
 	["{item:4304} is orange at 155 (yellow 175, green 177, grey 180): about 23 crafts to 177. Each takes 6 {item:4234}. Six {item:4234} make one {item:4304}, orange until 175: keep them, the Thick Armor Kits next use them."] = "",
 
 	-- Step 35: Leatherworking recipes at 177
 	-- {skill:165} Leatherworking
-	["{skill:165} recipes at 177"] = "",
+	["{skill:165} recipes at 177"] = "177 puanda {skill:165} tarifleri",
 	-- {spell:10487} Thick Armor Kit
-	["Still at the Expert trainer: {spell:10487} (from 175)."] = "",
+	["Still at the Expert trainer: {spell:10487} (from 175)."] = "Hâlâ Expert eğitmeninde: {spell:10487} (175 puandan itibaren).",
 
 	-- Step 36: Thick Armor Kit to 205
 	-- {item:8173} Thick Armor Kit
-	["{item:8173} to 205"] = "",
+	["{item:8173} to 205"] = "{item:8173}: 205 puana kadar",
 	-- {item:8173} Thick Armor Kit · {item:4304} Thick Leather · {item:4291} Silken Thread
 	["{item:8173} is orange at 177 (yellow 195, green 205, grey 215): about 32 crafts to 205. Each takes 5 {item:4304} and 1 {item:4291}. Use the 23 {item:4304} you made earlier; the counts above leave them out. Five {item:4304} a craft; the kits sell to vendors."] = "",
 
 	-- Step 37: Leatherworking recipes at 205
 	-- {skill:165} Leatherworking
-	["{skill:165} recipes at 205"] = "",
+	["{skill:165} recipes at 205"] = "205 puanda {skill:165} tarifleri",
 	-- {spell:22331} Rugged Leather · {npc:11097} Drakk Stonehand · {zone:1425} The Hinterlands · {npc:11098} Hahrana Ironhide · {zone:1444} Feralas · {skill:165} Leatherworking
 	["{spell:22331} (from 205) is taught only by the Artisan trainers: Alliance {npc:11097} ({zone:1425}); Horde {npc:11098} ({zone:1444}). You can train Artisan there now if you are level 35 (it needs {skill:165} 200), which saves the trip at 225."] = "",
 
 	-- Step 38: Rugged Leather to 225
 	-- {item:8170} Rugged Leather
-	["{item:8170} to 225"] = "",
+	["{item:8170} to 225"] = "{item:8170}: 225 puana kadar",
 	-- {item:8170} Rugged Leather · {item:4304} Thick Leather · {skill:165} Leatherworking
 	["{item:8170} is orange at 205 (yellow 225, green 225, grey 225): about 20 crafts to 225, a point every craft. Each takes 6 {item:4304}. {item:8170} from {item:4304}: the points come cheap and you need the {item:8170} next. {skill:165} 225 is a Legacy System milestone."] = "",
 
@@ -198,7 +198,7 @@ return {
 
 	-- Step 40: Leatherworking 225-300: vendor goods
 	-- {skill:165} Leatherworking
-	["{skill:165} 225-300: vendor goods"] = "",
+	["{skill:165} 225-300: vendor goods"] = "{skill:165} 225-300: satıcı malları",
 	-- {item:2325} Black Dye · {item:14341} Rune Thread · {zone:1453} Stormwind City · {npc:1347} Alexandra Bolero · {npc:1286} Edna Mullby · {npc:5565} Jillian Tanner · {zone:1454} Orgrimmar · {npc:3364} Borya · {npc:3367} Felika · {npc:5817} Shimra
 	["Buy the whole bracket's share in one go: 39 {item:2325} (3g 90s) and 82 {item:14341} (41g); about 44g 90s in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1347}, {npc:1286} and {npc:5565}; {zone:1454}: {npc:3364}, {npc:3367} and {npc:5817})."] = "",
 
@@ -226,24 +226,24 @@ return {
 	-- {item:14047} Runecloth
 	["{item:14047} (Alliance)"] = "{item:14047} (Alliance)",
 	-- {item:14047} Runecloth · {item:15094} Runic Leather Headband · {npc:7027} Blackrock Slayer
-	["430 {item:14047} for {item:15094}: humanoids of level 45-60 drop it; or the Auction House. It drops from {npc:7027} (level 56-57) here."] = "",
+	["430 {item:14047} for {item:15094}: humanoids of level 45-60 drop it; or the Auction House. It drops from {npc:7027} (level 56-57) here."] = "{item:15094} için 430 {item:14047}: seviye 45-60 insansı yaratıklar düşürür; ya da Auction House. Burada {npc:7027} (seviye 56-57) düşürür.",
 
 	-- Step 46: Runecloth (Horde)
 	-- {item:14047} Runecloth
 	["{item:14047} (Horde)"] = "{item:14047} (Horde)",
 	-- {item:14047} Runecloth · {item:15094} Runic Leather Headband · {npc:11880} Twilight Avenger
-	["430 {item:14047} for {item:15094}: humanoids of level 45-60 drop it; or the Auction House. It drops from {npc:11880} (level 57-59) here."] = "",
+	["430 {item:14047} for {item:15094}: humanoids of level 45-60 drop it; or the Auction House. It drops from {npc:11880} (level 57-59) here."] = "{item:15094} için 430 {item:14047}: seviye 45-60 insansı yaratıklar düşürür; ya da Auction House. Burada {npc:11880} (seviye 57-59) düşürür.",
 
 	-- Step 47: Rugged Armor Kit to 239
 	-- {item:15564} Rugged Armor Kit
-	["{item:15564} to 239"] = "",
+	["{item:15564} to 239"] = "{item:15564}: 239 puana kadar",
 	-- {item:15564} Rugged Armor Kit · {item:8170} Rugged Leather · {npc:7866} Peter Galen · {zone:1447} Azshara · {npc:7867} Thorkaf Dragoneye · {zone:1418} Badlands · {item:8204} Tough Scorpid Gloves · {zone:1446} Tanaris · {item:8165} Worn Dragonscale · {npc:7868} Sarah Tanner · {zone:1427} Searing Gorge · {npc:7869} Brumn Winterhoof · {zone:1417} Arathi Highlands · {item:7077} Heart of Fire · {item:7079} Globe of Water · {item:7075} Core of Earth · {item:7081} Breath of Wind · {npc:7870} Caryssia Moonhunter · {zone:1444} Feralas · {npc:7871} Se'Jib · {zone:1434} Stranglethorn Vale · {item:8211} Wild Leather Vest · {npc:7852} Pratt McGrubben · {npc:7854} Jangdor Swiftstrider · {item:279941} Tanning Rack
 	-- plural, as words: Tough Scorpid Breastplates = {item:8203} Tough Scorpid Breastplate
 	["{item:15564} is yellow at 225 (yellow 225, green 235, grey 245): about 23 crafts to 239. Each takes 5 {item:8170}. Use the 20 {item:8170} you made earlier; the counts above leave them out. Five {item:8170} a craft. Specialisation (optional): at 225 and character level 40. Dragonscale: {npc:7866} ({zone:1447}) or {npc:7867} ({zone:1418}) wants 2 Tough Scorpid Breastplates, 2 {item:8204} (patterns drop from the Wastewander bandits in {zone:1446}) and 10 {item:8165}. Elemental: {npc:7868} ({zone:1427}) or {npc:7869} ({zone:1417}) wants 2 each of {item:7077}, {item:7079}, {item:7075} and {item:7081}. Tribal (from 235): {npc:7870} ({zone:1444}) or {npc:7871} ({zone:1434}) wants a {item:8211} and Helmet, after the Wild Leather quests from {npc:7852} or {npc:7854} in {zone:1444}. On Forever the specialisation patterns need a {item:279941}. You can take only one; none is needed for 300, and the beta never tested them (it stopped at level 30)."] = "",
 
 	-- Step 48: Wicked Leather Gauntlets to 269
 	-- {item:15083} Wicked Leather Gauntlets
-	["{item:15083} to 269"] = "",
+	["{item:15083} to 269"] = "{item:15083}: 269 puana kadar",
 	-- {item:15083} Wicked Leather Gauntlets · {item:8170} Rugged Leather · {item:2325} Black Dye · {item:14341} Rune Thread
 	["{item:15083} is orange at 239 (yellow 255, green 265, grey 275): about 39 crafts to 269. Each takes 8 {item:8170}, 1 {item:2325} and 1 {item:14341}. Eight {item:8170} a craft; {item:2325} and {item:14341} from leatherworking or tailoring vendors."] = "",
 	["from the recipe in your bags"] = "çantandaki tariften",

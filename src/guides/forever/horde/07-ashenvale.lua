@@ -5,9 +5,9 @@
 return {
 	-- Step 1: Fly to Zoram'gar Outpost
 	-- {area:2897} Zoram'gar Outpost
-	["Fly to {area:2897}"] = "",
+	["Fly to {area:2897}"] = "Uç: {area:2897}",
 	-- {area:392} Ratchet
-	["{area:392} flight master"] = "",
+	["{area:392} flight master"] = "{area:392} uçuş ustası",
 
 	-- Step 2: Zoram'gar Outpost
 	-- {npc:12717} Muglash
@@ -36,9 +36,9 @@ return {
 	-- {npc:12818} Ruul Snowhoof · {area:428} Night Run · {npc:3987} Dal Bloodclaw
 	-- plural, as words: Troll Chests = {object:178144} Troll Chest
 	["Inside the hold, Troll Chests lie along the tunnels. {npc:12818} is held deep inside: free him and protect him all the way out, then he runs home to {area:428}.\nCareful: Two scripted ambushes occur, each made up of three Thistlefurs (a Shaman, a Pathfinder and an Avenger, Ursa or Den Watcher): the first when you come back to the tunnel's fork inside the cave, the second just beyond the gate where {npc:3987} roams."] = "",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 	-- {npc:12818} Ruul Snowhoof
-	["{npc:12818}, below ground"] = "",
+	["{npc:12818}, below ground"] = "{npc:12818}, yer altında",
 
 	-- Step 8: Zoram'gar Outpost
 	["Back west to Zoram'gar before heading east for good."] = "Kesin olarak doğuya gitmeden önce batıya, Zoram'gar'a dön.",
@@ -51,7 +51,7 @@ return {
 
 	-- Step 10: Befouled Water Elemental on the way
 	-- {npc:3917} Befouled Water Elemental
-	["{npc:3917} on the way"] = "",
+	["{npc:3917} on the way"] = "Yol üstünde: {npc:3917}",
 
 	-- Step 11: Alonso
 	-- {npc:210995} Alonso · {area:421} Mystral Lake
@@ -79,7 +79,7 @@ return {
 
 	-- Step 19: Splintertree Post
 	-- {npc:12837} Yama Snowhoof
-	["{npc:12837}, inside"] = "",
+	["{npc:12837}, inside"] = "{npc:12837}, içeride",
 
 	-- Step 21: Splintertree Post
 	-- {npc:12718} Gurda Ragescar
@@ -101,18 +101,18 @@ return {
 	-- {area:421} Mystral Lake
 	-- plural, as words: Befouled Water Elementals = {npc:3917} Befouled Water Elemental
 	["Back south-west to {area:421}. Befouled Water Elementals drift around its shores; the gazebo stands on the island, overlooking the Alliance outpost."] = "Güneybatıya, {area:421} gölüne dön. Befouled Water Elemental yaratıkları kıyılarında süzülüyor; çardak adada, Alliance karakoluna bakıyor.",
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 	["Gazebo"] = "Çardak",
 
 	-- Step 26: Hearth to Splintertree Post
 	-- {area:431} Splintertree Post
-	["Hearth to {area:431}"] = "",
+	["Hearth to {area:431}"] = "Hearthstone ile dön: {area:431}",
 
 	-- Step 30: Fly to Camp Taurajo
 	-- {area:378} Camp Taurajo
 	["Fly to {area:378}"] = "{area:378} kampına uç",
 	-- {area:2897} Zoram'gar Outpost
-	["{area:2897} flight master"] = "",
+	["{area:2897} flight master"] = "{area:2897} uçuş ustası",
 
 	-- Step 33: The Earthen Ring
 	["The Earthen Ring"] = "Earthen Ring",
@@ -121,7 +121,7 @@ return {
 
 	-- Step 34: Gloomrise: kill these as you meet them
 	-- {area:17044} Gloomrise
-	["{area:17044}: kill these as you meet them"] = "",
+	["{area:17044}: kill these as you meet them"] = "{area:17044}: bunları karşılaştıkça öldür",
 	-- {area:17044} Gloomrise · {npc:264074} Mazu'kon · {item:273015} Toxin Extractor · {item:273181} Crystalline Silk · {npc:264082} Broodmother Valraxx · {item:273658} Bloody Parchment · {quest:96294} A Darker Truth
 	-- plural, as words: Gnawed Corpses = {npc:264096} Gnawed Corpse
 	["North of the camp, spiders overrun the burial ground at {area:17044}. Use {npc:264074}'s {item:273015} on the Gnawed Corpses; the Spinners drop the {item:273181}. {npc:264082} sits at the north end: her {item:273658} starts {quest:96294}."] = "Kampın kuzeyinde örümcekler {area:17044} mezarlığını istila etmiş. {npc:264074} adlı NPC'nin {item:273015} eşyasını Gnawed Corpse cesetleri üzerinde kullan; {item:273181} eşyasını Spinner yaratıkları düşürür. {npc:264082} kuzey uçta: düşürdüğü {item:273658} ile {quest:96294} görevi başlar.",
@@ -140,11 +140,11 @@ return {
 	["Back south to the camp, then up into {zone:1456} for the flight to {area:378}."] = "Güneye, kampa dön, sonra {area:378} uçuşu için yukarı, {zone:1456} şehrine çık.",
 
 	-- Step 37: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 38: Thunder Bluff flight master
 	-- {zone:1456} Thunder Bluff
-	["{zone:1456} flight master"] = "",
+	["{zone:1456} flight master"] = "{zone:1456} uçuş ustası",
 
 	-- Step 39: Thunder Bluff
 	-- {zone:1454} Orgrimmar · {zone:1458} Undercity · {area:1638} Thunder Bluff · {area:1639} Elder Rise · {area:378} Camp Taurajo
@@ -156,7 +156,7 @@ return {
 	-- {npc:3057} Cairne Bloodhoof · {area:1638} Thunder Bluff · {quest:93739} Exploring the Horde
 	["Speak with {npc:3057}, in {area:1638}: {quest:93739}"] = "{area:1638} şehrindeki {npc:3057} ile konuş: {quest:93739}",
 	-- {npc:3057} Cairne Bloodhoof
-	["Talk to {npc:3057}"] = "",
+	["Talk to {npc:3057}"] = "Konuş: {npc:3057}",
 
 	-- Step 42: Ansekhwa
 	-- {spell:199} Two-Handed Maces · {npc:11869} Ansekhwa
@@ -184,7 +184,7 @@ return {
 	-- {npc:2986} Dorn Plainstalker · {quest:1149} Test of Faith
 	["{npc:2986} stands on a mesa top east of the Galak camps. For the {quest:1149}, walk off the end of the planks beside him: you land safely."] = "{npc:2986}, Galak kamplarının doğusundaki bir platonun tepesinde duruyor. {quest:1149} için yanındaki tahtaların ucundan boşluğa yürü: güvenle yere inersin.",
 	-- {npc:2986} Dorn Plainstalker
-	["{npc:2986}, below ground"] = "",
+	["{npc:2986}, below ground"] = "{npc:2986}, yer altında",
 
 	-- Step 51: Rok'Alim the Pounder
 	-- {npc:4499} Rok'Alim the Pounder · {area:482} Highperch
@@ -207,7 +207,7 @@ return {
 
 	-- Step 56: Freewind Post flight master
 	-- {area:484} Freewind Post
-	["{area:484} flight master"] = "",
+	["{area:484} flight master"] = "{area:484} uçuş ustası",
 
 	-- Step 57: Brine
 	-- {zone:1456} Thunder Bluff · {area:378} Camp Taurajo · {npc:5899} Brine · {area:485} Great Lift
@@ -217,9 +217,9 @@ return {
 
 	-- Step 58: Back to Freewind Post
 	-- {area:484} Freewind Post
-	["Back to {area:484}"] = "",
+	["Back to {area:484}"] = "Dönüş: {area:484}",
 	-- {area:378} Camp Taurajo
-	["{area:378} flight master"] = "",
+	["{area:378} flight master"] = "{area:378} uçuş ustası",
 
 	-- Step 59: Highperch
 	-- {area:482} Highperch · {npc:10427} Pao'ka Swiftmountain · {area:2237} Whitereach Post
@@ -231,30 +231,30 @@ return {
 
 	-- Step 62: Hypercapacitor Gizmo
 	-- {npc:10992} Enraged Panther
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:10992} is a level 30 elite: most classes solo it at level 32, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:10992} is a level 30 elite: most classes solo it at level 32, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:10992}, seviye 30 bir elit: çoğu sınıf seviye 32 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 63: Whitereach Post
 	-- {npc:10720} Galak Assassin · {npc:10638} Kanati Greycloud
 	["Kill the {npc:10720} that comes for {npc:10638}"] = "{npc:10638} için gelen {npc:10720} yaratığını öldür",
 
 	-- Step 66: Level 29.49
-	["Level 29.49"] = "",
+	["Level 29.49"] = "Seviye 29.49",
 	-- {quest:5151} Hypercapacitor Gizmo
-	["If you skipped {quest:5151}, grind here to level 29.49 to stay on the route's plan."] = "",
+	["If you skipped {quest:5151}, grind here to level 29.49 to stay on the route's plan."] = "{quest:5151} görevini atladıysan rotanın planında kalmak için burada seviye 29.49 olana kadar kas.",
 	-- {npc:4101} Screeching Roguefeather
-	["grind on {npc:4101}"] = "",
+	["grind on {npc:4101}"] = "Kas: {npc:4101}",
 
 	-- Step 67: The Screeching Canyon: kill these as you meet them
 	-- {area:483} The Screeching Canyon
-	["{area:483}: kill these as you meet them"] = "",
+	["{area:483}: kill these as you meet them"] = "{area:483}: bunları karşılaştıkça öldür",
 	-- {area:487} Roguefeather Den · {npc:4490} Grenka Bloodscreech · {npc:4877} Jandia
 	["South of Darkcloud, the harpies of {area:487}. {npc:4490} (31) walks among them: thin out the harpies around her before you pull her. The Screeching Harpies, Roguefeathers and Windcallers there are {npc:4877}'s."] = "Darkcloud'un güneyinde {area:487} inindeki harpy yaratıkları var. {npc:4490} (31) aralarında dolaşıyor: onu çekmeden önce çevresindeki harpy yaratıklarını azalt. Oradaki Screeching Harpy, Screeching Roguefeather ve Screeching Windcaller yaratıkları {npc:4877} adlı NPC'nin görevi için.",
 
 	-- Step 69: Freewind Post
 	-- {npc:10645} Thalia Amberhide
-	["{npc:10645}, inside"] = "",
+	["{npc:10645}, inside"] = "{npc:10645}, içeride",
 	-- {npc:4877} Jandia
-	["{npc:4877}, inside"] = "",
+	["{npc:4877}, inside"] = "{npc:4877}, içeride",
 
 	-- Step 70: Mirage Raceway
 	-- {area:2240} Mirage Raceway
@@ -263,13 +263,13 @@ return {
 
 	-- Step 71: Saltstone Crystalhide on the way
 	-- {npc:4151} Saltstone Crystalhide
-	["{npc:4151} on the way"] = "",
+	["{npc:4151} on the way"] = "Yol üstünde: {npc:4151}",
 	-- {npc:4151} Saltstone Crystalhide · {area:2240} Mirage Raceway
-	["{npc:4151} along the way to {area:2240}"] = "",
+	["{npc:4151} along the way to {area:2240}"] = "{npc:4151}, {area:2240} yolu üstünde",
 
 	-- Step 72: Mirage Raceway: kill these as you meet them
 	-- {area:2240} Mirage Raceway
-	["{area:2240}: kill these as you meet them"] = "",
+	["{area:2240}: kill these as you meet them"] = "{area:2240}: bunları karşılaştıkça öldür",
 	-- {object:19868} Rocket Car Rubble
 	-- plural, as words: Scorpid Reavers = {npc:4140} Scorpid Reaver · Sparkleshell Tortoises = {npc:4142} Sparkleshell Tortoise · Salt Flats Scavengers = {npc:4154} Salt Flats Scavenger · Saltstone Basilisks = {npc:4147} Saltstone Basilisk
 	["{object:19868} lies all over the flats north of the raceway. Scorpid Reavers and Sparkleshell Tortoises roam the north half, Salt Flats Scavengers circle overhead, and Saltstone Basilisks graze west of the track. The Crystalhides roam the middle of the flats and the Gazers (34-35, five levels above you: one at a time) the far south."] = "{object:19868} pistin kuzeyindeki düzlüklerin her yanında. Kuzey yarısında Scorpid Reaver ve Sparkleshell Tortoise yaratıkları dolaşıyor, Salt Flats Scavenger yaratıkları tepede daireler çiziyor, Saltstone Basilisk yaratıkları da pistin batısında otluyor. Crystalhide yaratıkları düzlüklerin ortasında, Gazer yaratıkları (34-35, senden beş seviye yüksek: tek tek) en güneyde dolaşıyor.",

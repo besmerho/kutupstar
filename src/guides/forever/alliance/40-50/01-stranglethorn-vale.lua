@@ -8,7 +8,7 @@ return {
 	-- {quest:1260} Morgan Stern · {npc:4897} Helenia Olden
 	["{quest:1260} stands near the inn; {npc:4897}, a trade supplier a few steps south, sells the spices Jarl wants."] = "{quest:1260} hanın yakınında duruyor; birkaç adım güneydeki meslek malzemeleri satıcısı {npc:4897}, Jarl'ın istediği baharatları satıyor.",
 	-- {quest:1260} Morgan Stern
-	["{quest:1260}, inside"] = "",
+	["{quest:1260}, inside"] = "{quest:1260}, içeride",
 	-- {item:3713} Soothing Spices
 	["{item:3713}, for \"Swamp Eye\" Jarl"] = "{item:3713}, \"Swamp Eye\" Jarl için",
 
@@ -20,11 +20,11 @@ return {
 	-- Step 3: Archmage Tervosh
 	-- {area:514} Foothold Citadel
 	["Back in Theramore: Tervosh waits with Lady Jaina in the tower of {area:514}."] = "Yine Theramore'da: Tervosh, Lady Jaina ile birlikte {area:514} kalesinin kulesinde bekliyor.",
-	["Upstairs"] = "",
+	["Upstairs"] = "Üst katta",
 
 	-- Step 6: Theramore
 	-- {npc:4794} Morgan Stern
-	["{npc:4794}, inside"] = "",
+	["{npc:4794}, inside"] = "{npc:4794}, içeride",
 
 	-- Step 7: Swamplight Manor
 	["Take the road north to the ruined manor; Jarl lives in the shack beside it and the loose dirt is at the corner of the house."] = "Kuzeye giden yolu tutarak yıkık malikâneye git; Jarl yanındaki kulübede yaşıyor, gevşek toprak da evin köşesinde.",
@@ -54,18 +54,18 @@ return {
 
 	-- Step 13: Hearth to Theramore Isle
 	-- {area:513} Theramore Isle
-	["Hearth to {area:513}"] = "",
+	["Hearth to {area:513}"] = "Hearthstone ile dön: {area:513}",
 
 	-- Step 14: Theramore
 	-- {area:514} Foothold Citadel
 	["Follow the road east back to Theramore. Tervosh, Lady Jaina and the officers are in the tower and {area:514}."] = "Yolu doğuya izleyerek Theramore'a dön. Tervosh, Lady Jaina ve subaylar kulede ve {area:514} kalesinde.",
 	-- {npc:4967} Archmage Tervosh
-	["{npc:4967}, upstairs"] = "",
+	["{npc:4967}, upstairs"] = "{npc:4967}, üst katta",
 	-- {npc:4968} Lady Jaina Proudmoore
-	["{npc:4968}, on the top floor"] = "",
-	["On the top floor"] = "",
+	["{npc:4968}, on the top floor"] = "{npc:4968}, en üst katta",
+	["On the top floor"] = "En üst katta",
 	-- {npc:4948} Adjutant Tesoran
-	["{npc:4948}, on the top floor"] = "",
+	["{npc:4948}, on the top floor"] = "{npc:4948}, en üst katta",
 
 	-- Step 15: Mirefin murlocs
 	["Mirefin murlocs"] = "Mirefin murlocları",
@@ -96,7 +96,7 @@ return {
 	-- {zone:1453} Stormwind
 	["Fly to {zone:1453}"] = "{zone:1453} şehrine uç",
 	-- {area:150} Menethil Harbor
-	["{area:150} flight master"] = "",
+	["{area:150} flight master"] = "{area:150} uçuş ustası",
 
 	-- Step 25: Riding at 40
 	["Riding at 40"] = "Seviye 40'ta binicilik",
@@ -121,27 +121,27 @@ return {
 	-- {area:42} Darkshire
 	["Fly to {area:42}"] = "{area:42} kasabasına uç",
 	-- {area:35} Booty Bay
-	["{area:35} flight master"] = "",
+	["{area:35} flight master"] = "{area:35} uçuş ustası",
 
 	-- Step 49: Fly to Booty Bay
 	-- {area:35} Booty Bay
 	["Fly to {area:35}"] = "{area:35} limanına uç",
 	-- {area:42} Darkshire
-	["{area:42} flight master"] = "",
+	["{area:42} flight master"] = "{area:42} uçuş ustası",
 
 	-- Step 50: Booty Bay
 	-- {npc:773} Krazek
-	["{npc:773}, upstairs"] = "",
+	["{npc:773}, upstairs"] = "{npc:773}, üst katta",
 	-- {npc:770} Corporal Kaleb · {area:99} Rebel Camp
 	["for {npc:770} at the {area:99}, on the northern loop"] = "{area:99} kampındaki {npc:770} için, kuzey turunda",
 	-- {npc:773} Krazek · {quest:2864} Tran'rek · {zone:1446} Tanaris
 	["{npc:773}: for {quest:2864} in {zone:1446}, keep it"] = "{npc:773}: {zone:1446} bölgesindeki {quest:2864} için, sakla",
 	-- {npc:2487} Fleet Master Seahorn
 	["{npc:2487}, top floor"] = "{npc:2487}, en üst kat",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 	["Seahorn's next errand goes back to Arathi: skip it."] = "Seahorn'un sonraki işi seni Arathi'ye geri gönderir: atla.",
 	-- {npc:2542} Catelyn the Blade
-	["{npc:2542}, upstairs"] = "",
+	["{npc:2542}, upstairs"] = "{npc:2542}, üst katta",
 	-- {zone:1446} Tanaris
 	["for Stoley in {zone:1446}: keep it; on the top floor"] = "",
 
@@ -151,19 +151,19 @@ return {
 
 	-- Step 52: Booty Bay
 	-- {npc:2488} Deeg
-	["{npc:2488}, on the top floor"] = "",
+	["{npc:2488}, on the top floor"] = "{npc:2488}, en üst katta",
 	-- {npc:2624} Gazban
 	["{npc:2624} swims off the north-west coast, on the northern loop"] = "{npc:2624} kuzeybatı kıyısının açığında yüzüyor, kuzey turunda",
 
 	-- Step 53: Wild Shore: kill these as you meet them
 	-- {area:43} Wild Shore
-	["{area:43}: kill these as you meet them"] = "",
+	["{area:43}: kill these as you meet them"] = "{area:43}: bunları karşılaştıkça öldür",
 	-- {npc:2493} Dizzy One-Eye · {area:43} Wild Shore · {area:35} Booty Bay
 	["Every Bloodsail drops Snuff and one of them carries {npc:2493}'s eye; the Swashbucklers walk the shore just north of town. The charts and orders lie in the pirate camp on the {area:43}, south of {area:35}."] = "Her Bloodsail enfiye (Snuff) düşürür ve içlerinden biri {npc:2493} adlı NPC'nin gözünü taşır; Bloodsail Swashbuckler yaratıkları kasabanın hemen kuzeyindeki kıyıda dolaşıyor. Haritalar ve emirler {area:35} limanının güneyinde, {area:43} sahilindeki korsan kampında.",
 
 	-- Step 54: Mistvale Giblets on the way
 	-- {item:3919} Mistvale Giblets
-	["{item:3919} on the way"] = "",
+	["{item:3919} on the way"] = "Yol üstünde: {item:3919}",
 
 	-- Step 56: Gorilla hills
 	["Gorilla hills"] = "Goril tepeleri",
@@ -171,7 +171,7 @@ return {
 	-- plural, as words: Elder Mistvale Gorillas = {npc:1557} Elder Mistvale Gorilla
 	["Ride inland to the Mistvale gorilla hills. Elder Mistvale Gorillas drop the giblets; {npc:1449} sits among them."] = "İç kesimdeki Mistvale goril tepelerine git. Sakatatları Elder Mistvale Gorilla yaratıkları düşürür; {npc:1449} onların arasında oturuyor.",
 	-- {npc:1449} Witch Doctor Unbagwa · {area:1742} Spirit Den
-	["{npc:1449}, inside {area:1742}"] = "",
+	["{npc:1449}, inside {area:1742}"] = "{npc:1449}, {area:1742} içinde",
 
 	-- Step 57: Unbagwa's ritual
 	["Unbagwa's ritual"] = "Unbagwa'nın ayini",
@@ -209,7 +209,7 @@ return {
 
 	-- Step 64: Jungle Stalker on the way
 	-- {npc:687} Jungle Stalker
-	["{npc:687} on the way"] = "",
+	["{npc:687} on the way"] = "Yol üstünde: {npc:687}",
 
 	-- Step 65: Cold Eye Basilisks
 	-- plural, as words: Cold Eye Basilisks = {npc:690} Cold Eye Basilisk
@@ -223,7 +223,7 @@ return {
 	-- plural, as words: Giant Clams = {object:2744} Giant Clam
 	["Ride north-west from the mine to the bay on the north-west coast. The Giant Clams lie on its floor and hold the pearls; {npc:2624} swims among them and drops the {item:4034}."] = "Madenden kuzeybatıya, kuzeybatı kıyısındaki koya git. Giant Clam istiridyeleri koyun dibinde duruyor ve incileri taşıyor; {npc:2624} aralarında yüzüyor ve {item:4034} düşürür.",
 	-- {item:4611} Blue Pearl
-	["{item:4611}; underwater"] = "",
+	["{item:4611}; underwater"] = "{item:4611}; su altında",
 
 	-- Step 67: Rebel Camp
 	-- {npc:217588} Arbor Tarantula
@@ -233,11 +233,11 @@ return {
 
 	-- Step 69: Panther Mastery
 	-- {npc:728} Bhag'thera
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:728} is a level 40 elite: most classes solo it at level 42, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:728} is a level 40 elite: most classes solo it at level 42, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:728}, seviye 40 bir elit: çoğu sınıf seviye 42 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 70: Ruins of Zul'Mamwe: kill these as you meet them
 	-- {area:103} Ruins of Zul'Mamwe
-	["{area:103}: kill these as you meet them"] = "",
+	["{area:103}: kill these as you meet them"] = "{area:103}: bunları karşılaştıkça öldür",
 	-- {area:310} Crystalvein Mine
 	-- plural, as words: Shadowmaw Panthers = {npc:684} Shadowmaw Panther
 	["The Skullsplitter trolls hold the ruins just east of the mine; any of them can drop tusks, their panthers always do.\nFollow the road north-east to the Venture Co. camp at the {area:310}; the miners, surveyors and foremen drop the crystals.\nCareful: Stealthed Shadowmaw Panthers and Stranglethorn Tigresses roam the area around the camp."] = "",
@@ -250,37 +250,37 @@ return {
 	-- {npc:2498} Crank Fizzlebub · {zone:1441} Thousand Needles
 	["{npc:2498}'s next Zanzil errand starts in {zone:1441}: skip it."] = "{npc:2498} adlı NPC'nin sonraki Zanzil işi {zone:1441} bölgesinde başlıyor: atla.",
 	-- {npc:737} Kebok
-	["{npc:737}, upstairs"] = "",
+	["{npc:737}, upstairs"] = "{npc:737}, üst katta",
 	["MacKinley's next task sends you after elite ogres: skip it."] = "MacKinley'nin sonraki görevi seni elit ogrelerin peşine gönderir: atla.",
 
 	-- Step 77: Level 42.23
-	["Level 42.23"] = "",
+	["Level 42.23"] = "Seviye 42.23",
 	-- {quest:193} Panther Mastery
-	["If you skipped {quest:193}, grind here to level 42.23 to stay on the route's plan."] = "",
+	["If you skipped {quest:193}, grind here to level 42.23 to stay on the route's plan."] = "{quest:193} görevini atladıysan rotanın planında kalmak için burada seviye 42.23 olana kadar kas.",
 	-- {npc:690} Cold Eye Basilisk
-	["grind on {npc:690}"] = "",
+	["grind on {npc:690}"] = "Kas: {npc:690}",
 
 	-- Step 78: Raptor Mastery
 	-- {npc:730} Tethis
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:730} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:730} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:730}, seviye 43 bir elit: çoğu sınıf seviye 45 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 81: Level 42.27
-	["Level 42.27"] = "",
+	["Level 42.27"] = "Seviye 42.27",
 	-- {quest:196} Raptor Mastery
-	["If you skipped {quest:196}, grind here to level 42.27 to stay on the route's plan."] = "",
+	["If you skipped {quest:196}, grind here to level 42.27 to stay on the route's plan."] = "{quest:196} görevini atladıysan rotanın planında kalmak için burada seviye 42.27 olana kadar kas.",
 
 	-- Step 82: Big Game Hunter
 	-- {npc:731} King Bangalash
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:731} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back.\nCareful: Tigers and stealthed shadowmaw panthers roam close to him. Clear them before you pull him. When he is pulled, {npc:731} calls for help from creatures within 20 yd."] = "",
 
 	-- Step 84: Level 42.33
-	["Level 42.33"] = "",
+	["Level 42.33"] = "Seviye 42.33",
 	-- {quest:208} Big Game Hunter
-	["If you skipped {quest:208}, grind here to level 42.33 to stay on the route's plan."] = "",
+	["If you skipped {quest:208}, grind here to level 42.33 to stay on the route's plan."] = "{quest:208} görevini atladıysan rotanın planında kalmak için burada seviye 42.33 olana kadar kas.",
 
 	-- Step 85: Fly to Stormwind
 	-- {area:108} Sentinel Hill
-	["{area:108} flight master"] = "",
+	["{area:108} flight master"] = "{area:108} uçuş ustası",
 
 	-- Step 86: Stormwind
 	-- {npc:1141} Angus Stern · {object:2169} Blue Recluse · {npc:5384} Brohann Caskbelly · {object:28027} Dwarven District
@@ -309,18 +309,18 @@ return {
 
 	-- Step 92: Fly to Darkshire
 	-- {zone:1453} Stormwind
-	["{zone:1453} flight master"] = "",
+	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 
 	-- Step 94: Misty Valley
 	["The scroll lies in the marsh north of Biggs. The Swampwalkers north of it can drop Khadgar's essays."] = "Tomar Biggs'in kuzeyindeki bataklıkta duruyor. Onun kuzeyindeki Swampwalker yaratıkları Khadgar'ın denemelerini düşürebilir.",
 	["The riddle's next scroll lies in western Dustwallow: skip it."] = "Bilmecenin sonraki tomarı batı Dustwallow'da: atla.",
 
 	-- Step 96: Level 42.46
-	["Level 42.46"] = "",
+	["Level 42.46"] = "Seviye 42.46",
 	-- {quest:543} The Perenolde Tiara
-	["If you skipped {quest:543}, grind here to level 42.46 to stay on the route's plan."] = "",
+	["If you skipped {quest:543}, grind here to level 42.46 to stay on the route's plan."] = "{quest:543} görevini atladıysan rotanın planında kalmak için burada seviye 42.46 olana kadar kas.",
 	-- {npc:766} Tangled Horror
-	["grind on {npc:766}"] = "",
+	["grind on {npc:766}"] = "Kas: {npc:766}",
 
 	-- Step 97: Cortello's Riddle
 	-- {npc:217412} Amaryllis Webb · {quest:93176} My Little Friends
@@ -332,21 +332,21 @@ return {
 
 	-- Step 99: Into Deadwind Pass
 	-- {zone:1430} Deadwind Pass
-	["Into {zone:1430}"] = "",
+	["Into {zone:1430}"] = "{zone:1430} bölgesine",
 
 	-- Step 100: Into Duskwood
 	-- {area:10} Duskwood
-	["Into {area:10}"] = "",
+	["Into {area:10}"] = "{area:10} içine",
 
 	-- Step 101: Into Stormwind
 	-- {zone:1453} Stormwind
-	["Into {zone:1453}"] = "",
+	["Into {zone:1453}"] = "{zone:1453} bölgesine",
 
 	-- Step 104: Fly to Rut'theran Village
 	-- {area:702} Rut'theran Village
-	["Fly to {area:702}"] = "",
+	["Fly to {area:702}"] = "Uç: {area:702}",
 	-- {area:442} Auberdine
-	["{area:442} flight master"] = "",
+	["{area:442} flight master"] = "{area:442} uçuş ustası",
 
 	-- Step 106: Riding at 40
 	-- {npc:4753} Jartsam · {zone:1457} Darnassus · {npc:4730} Lelanai · {area:17203} Stormwind Harbor · {area:442} Auberdine · {area:702} Rut'theran Village · {npc:4732} Randal Hunter · {area:88} Eastvale Logging Camp · {area:12} Elwynn Forest
@@ -356,21 +356,21 @@ return {
 
 	-- Step 108: Fly to Auberdine
 	-- {area:442} Auberdine
-	["Fly to {area:442}"] = "",
+	["Fly to {area:442}"] = "Uç: {area:442}",
 	-- {area:702} Rut'theran Village
-	["{area:702} flight master"] = "",
+	["{area:702} flight master"] = "{area:702} uçuş ustası",
 
 	-- Step 109: Boat to Stormwind Harbor
 	-- {area:17203} Stormwind Harbor
-	["Boat to {area:17203}"] = "",
+	["Boat to {area:17203}"] = "Gemiyle: {area:17203}",
 
 	-- Step 110: Into Elwynn Forest
 	-- {area:12} Elwynn Forest
-	["Into {area:12}"] = "",
+	["Into {area:12}"] = "{area:12} içine",
 
 	-- Step 112: Into Swamp of Sorrows
 	-- {area:8} Swamp of Sorrows
-	["Into {area:8}"] = "",
+	["Into {area:8}"] = "{area:8} içine",
 
 	-- Step 114: The sunken temple
 	["The sunken temple"] = "Batık tapınak",
@@ -391,7 +391,7 @@ return {
 
 	-- Step 120: Tram to Ironforge
 	-- {zone:1455} Ironforge
-	["Tram to {zone:1455}"] = "",
+	["Tram to {zone:1455}"] = "Tramvayla: {zone:1455}",
 
 	-- Step 123: Ironforge
 	-- {area:2257} Deeprun Tram · {object:28027} Dwarven District · {npc:5637} Roetten Stonehammer · {object:32356} Hall of Explorers (no name in this language: may be words) · {npc:1356} Prospector Stormpike · {npc:2786} Gerrig Bonegrip · {object:32383} Forlorn Cavern · {area:144} Thelsamar
@@ -401,9 +401,9 @@ return {
 
 	-- Step 124: Fly to Thelsamar
 	-- {area:144} Thelsamar
-	["Fly to {area:144}"] = "",
+	["Fly to {area:144}"] = "Uç: {area:144}",
 	-- {zone:1455} Ironforge
-	["{zone:1455} flight master"] = "",
+	["{zone:1455} flight master"] = "{zone:1455} uçuş ustası",
 
 	-- Step 127: Hammertoe's Digsite
 	-- {zone:1432} Loch Modan · {area:3} Badlands · {npc:2860} Sigrun Ironhew
@@ -421,9 +421,9 @@ return {
 
 	-- Step 131: Fly to Ironforge
 	-- {area:1537} Ironforge
-	["Fly to {area:1537}"] = "",
+	["Fly to {area:1537}"] = "Uç: {area:1537}",
 	-- {area:144} Thelsamar
-	["{area:144} flight master"] = "",
+	["{area:144} flight master"] = "{area:144} uçuş ustası",
 
 	-- Step 132: Riding at 40
 	-- {npc:7954} Binjy Featherwhistle · {area:189} Steelgrill's Depot · {area:131} Kharanos · {npc:7955} Milli Featherwhistle

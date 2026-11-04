@@ -16,7 +16,7 @@ return {
 
 	-- Step 1: Raedon Duskstriker, the cloth quartermaster
 	-- {npc:14725} Raedon Duskstriker
-	["{npc:14725}, the cloth quartermaster"] = "",
+	["{npc:14725}, the cloth quartermaster"] = "{npc:14725}, kumaş levazımcısı",
 	-- {npc:14725} Raedon Duskstriker · {faction:69} Darnassus · {area:1659} Craftsmen's Terrace · {item:14047} Runecloth · {quest:7801} Additional Runecloth · {area:1662} Tradesmen's Terrace · {zone:1438} Teldrassil · {zone:1439} Darkshore · {zone:1440} Ashenvale · {quest:4183} The True Masters · {zone:1428} Burning Steppes · {item:11040} Morrowgrain · {area:188} Shadowglen · {area:186} Dolanaar · {area:442} Auberdine · {zone:1453} Stormwind · {zone:1455} Ironforge
 	["{npc:14725} takes cloth for {faction:69}; he stands in the {area:1659}, in the north-east of {faction:69}, by the tailors. Each first donation of 60 Wool, Silk, Mageweave and {item:14047} pays 150 reputation once; after the {item:14047} one, {quest:7801} pays 50 for every 20 {item:14047}, as often as you like. The Auction House in the {area:1662} is the quickest source of cloth. In Classic, quests pay full reputation while they are at most 5 levels below you, so do {zone:1438} (levels 1-12), {zone:1439} (11-20) and {zone:1440} (18-30) while you level through them. After the donations come {quest:4183} in the {zone:1428} and {item:11040}, a second repeatable turn-in; then the optional hubs, best rate first: {area:188} (about 35 a minute at full value), {area:186} (28), {area:442} (23). Every {faction:69} gain also gives a quarter as much to {zone:1453}, {zone:1455} and the Gnomeregan Exiles, except quests in the level 1-10 start areas. Legacy Diplomat adds up to 10% to every gain."] = "",
 	-- {item:2592} Wool Cloth · {zone:1439} Darkshore · {zone:1440} Ashenvale
@@ -86,7 +86,7 @@ return {
 
 	-- Step 15: Shadowglen: last hand-in
 	-- {area:188} Shadowglen
-	["{area:188}: last hand-in"] = "",
+	["{area:188}: last hand-in"] = "{area:188}: son teslim",
 	-- {npc:8584} Iverron
 	["{npc:8584}, outside the spider cave"] = "",
 
@@ -118,7 +118,7 @@ return {
 	-- plural, as words: Gnarlpine Mystics = {npc:7235} Gnarlpine Mystic
 	["The four relics of Wakening lie in the {area:262}, south-west of {area:186}; Ferocitas and the Gnarlpine Mystics camp east of the village."] = "",
 	-- {item:8050} Tallonkai's Jewel · {quest:2459} Ferocitas the Dream Eater
-	["{item:8050}, from {quest:2459}"] = "",
+	["{item:8050}, from {quest:2459}"] = "{item:8050}, kaynak: {quest:2459}",
 
 	-- Step 21: Dolanaar: Ursal the Mauler
 	-- {quest:486} Ursal the Mauler · {area:478} Pools of Arlithrien · {zone:1438} Teldrassil

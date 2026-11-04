@@ -5,7 +5,7 @@
 return {
 	-- Step 1: Zeppelin to Undercity
 	-- {zone:1458} Undercity
-	["Zeppelin to {zone:1458}"] = "",
+	["Zeppelin to {zone:1458}"] = "Zeplinle: {zone:1458}",
 
 	-- Step 3: Undercity
 	-- {npc:7825} Oran Snakewrithe · {object:36126} Royal Quarter
@@ -19,7 +19,7 @@ return {
 	-- {area:75} Stonard
 	["Fly to {area:75}"] = "{area:75} kasabasına uç",
 	-- {object:3202} Grom'gol (no name in this language: may be words)
-	["{object:3202} flight master"] = "",
+	["{object:3202} flight master"] = "{object:3202} uçuş ustası",
 
 	-- Step 6: A Soggy Scroll
 	["Ride west along the road; the scroll lies at the water's edge in the swamp's far west."] = "Yol boyunca batıya git; tomar bataklığın en batısında, suyun kenarında duruyor.",
@@ -30,16 +30,16 @@ return {
 
 	-- Step 8: Sawtooth Snapper Claw on the way
 	-- {item:6168} Sawtooth Snapper Claw
-	["{item:6168} on the way"] = "",
+	["{item:6168} on the way"] = "Yol üstünde: {item:6168}",
 	-- {item:6168} Sawtooth Snapper Claw · {area:1978} Misty Reed Post
-	["{item:6168} along the way to {area:1978}"] = "",
+	["{item:6168} along the way to {area:1978}"] = "{item:6168}, {area:1978} yolu üstünde",
 
 	-- Step 9: The Forbidding Sea: kill these as you meet them
 	-- {area:2403} The Forbidding Sea
-	["{area:2403}: kill these as you meet them"] = "",
+	["{area:2403}: kill these as you meet them"] = "{area:2403}: bunları karşılaştıkça öldür",
 	-- plural, as words: Monstrous Crawlers = {npc:1088} Monstrous Crawler
 	["The snappers line the strand south of the post.\nThe Monstrous Crawlers walk the beaches of the east coast, few and far between: kill every one you see on the way south."] = "",
-	["Underwater"] = "",
+	["Underwater"] = "Su altında",
 
 	-- Step 10: Misty Reed Post
 	-- {area:440} Tanaris
@@ -49,19 +49,19 @@ return {
 	["Murlocs of the Misty Reed"] = "Misty Reed murlocları",
 	-- plural, as words: Marsh Murlocs = {npc:747} Marsh Murloc
 	["The Marsh Murlocs live on the strand south of the post; the Inkspewers are along the shore east of it and the Flesheaters further west, around the huts on the western shore."] = "Marsh Murloc yaratıkları karakolun güneyindeki sahilde yaşıyor; Marsh Inkspewer yaratıkları karakolun doğusunda kıyı boyunca, Marsh Flesheater yaratıkları ise daha batıda, batı kıyısındaki kulübelerin çevresinde.",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 
 	-- Step 12: Atal'ai Artifact on the way
 	-- {item:6175} Atal'ai Artifact
-	["{item:6175} on the way"] = "",
+	["{item:6175} on the way"] = "Yol üstünde: {item:6175}",
 	-- {item:6175} Atal'ai Artifact · {area:75} Stonard
-	["{item:6175} along the way to {area:75}"] = "",
+	["{item:6175} along the way to {area:75}"] = "{item:6175}, {area:75} yolu üstünde",
 
 	-- Step 15: Stonard
 	-- {npc:1443} Fel'zerul
-	["{npc:1443}, on the top floor"] = "",
+	["{npc:1443}, on the top floor"] = "{npc:1443}, en üst katta",
 	-- {npc:5591} Dar
-	["{npc:5591}, inside"] = "",
+	["{npc:5591}, inside"] = "{npc:5591}, içeride",
 	-- {npc:5598} Atal'ai Exile · {zone:1425} Hinterlands
 	["for the {npc:5598} in the {zone:1425}, around level 48"] = "{zone:1425} bölgesindeki {npc:5598} için, seviye 48 civarında",
 
@@ -71,7 +71,7 @@ return {
 
 	-- Step 17: To Camp Mojache
 	-- {area:1099} Camp Mojache
-	["To {area:1099}"] = "",
+	["To {area:1099}"] = "Git: {area:1099}",
 
 	-- Step 18: Camp Mojache
 	-- {zone:1425} Hinterlands
@@ -79,9 +79,9 @@ return {
 
 	-- Step 19: Fly to Brackenwall Village
 	-- {area:496} Brackenwall Village
-	["Fly to {area:496}"] = "",
+	["Fly to {area:496}"] = "Uç: {area:496}",
 	-- {area:1099} Camp Mojache
-	["{area:1099} flight master"] = "",
+	["{area:1099} flight master"] = "{area:1099} uçuş ustası",
 
 	-- Step 21: The Wyrmbog
 	-- {area:511} Wyrmbog
@@ -93,18 +93,18 @@ return {
 
 	-- Step 22: The Wyrmbog
 	-- {area:498} Bloodfen Burrow
-	["Inside {area:498}"] = "",
+	["Inside {area:498}"] = "{area:498} içinde",
 
 	-- Step 23: The Dragonmurk: kill these as you meet them
 	-- {area:510} The Dragonmurk
-	["{area:510}: kill these as you meet them"] = "",
+	["{area:510}: kill these as you meet them"] = "{area:510}: bunları karşılaştıkça öldür",
 	-- {npc:4329} Firemane Scout · {area:510} The Dragonmurk
-	["{npc:4329} walks around {area:510}: look inside the circle on the map"] = "",
+	["{npc:4329} walks around {area:510}: look inside the circle on the map"] = "{npc:4329}, {area:510} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 24: Brackenwall Village
 	["Ride back north to Brackenwall."] = "Kuzeye, Brackenwall'a dön.",
 	-- {npc:4501} Draz'Zilb
-	["{npc:4501}, below ground"] = "",
+	["{npc:4501}, below ground"] = "{npc:4501}, yer altında",
 
 	-- Step 25: Onyxia's eggs
 	["Onyxia's eggs"] = "Onyxia'nın yumurtaları",
@@ -117,33 +117,33 @@ return {
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:1173} needs a group of 3. Skip it if you are alone: the route has you grind the XP back.\n{npc:4500} is elite: grouping up is advised. Beat him down until he gives up, then report to {npc:4501}."] = "",
 
 	-- Step 28: Level 45.41
-	["Level 45.41"] = "",
+	["Level 45.41"] = "Seviye 45.41",
 	-- {quest:1173} Challenge Overlord Mok'Morokk
-	["If you skipped {quest:1173}, grind here to level 45.41 to stay on the route's plan."] = "",
+	["If you skipped {quest:1173}, grind here to level 45.41 to stay on the route's plan."] = "{quest:1173} görevini atladıysan rotanın planında kalmak için burada seviye 45.41 olana kadar kas.",
 	-- {npc:4329} Firemane Scout
-	["grind on {npc:4329}"] = "",
+	["grind on {npc:4329}"] = "Kas: {npc:4329}",
 
 	-- Step 29: Fly to Gadgetzan
 	-- {area:976} Gadgetzan
 	["Fly to {area:976}"] = "{area:976} kasabasına uç",
 	-- {area:496} Brackenwall Village
-	["{area:496} flight master"] = "",
+	["{area:496} flight master"] = "{area:496} uçuş ustası",
 
 	-- Step 31: Steamwheedle Port
 	-- {npc:8579} Yeh'kinya · {zone:1444} Feralas
 	["{npc:8579}: the screechers live in {zone:1444}"] = "{npc:8579}: screecher yaratıkları {zone:1444} bölgesinde yaşıyor",
 	-- {npc:7881} Stoley
-	["{npc:7881}, inside"] = "",
+	["{npc:7881}, inside"] = "{npc:7881}, içeride",
 	-- {area:35} Booty Bay
 	["for {area:35}, around level 50"] = "{area:35} için, seviye 50 civarında",
 	-- {npc:7882} Security Chief Bilgewhizzle
-	["{npc:7882}, inside"] = "",
+	["{npc:7882}, inside"] = "{npc:7882}, içeride",
 
 	-- Step 33: Fly to Camp Mojache
 	-- {area:1099} Camp Mojache
 	["Fly to {area:1099}"] = "{area:1099} kampına uç",
 	-- {area:976} Gadgetzan
-	["{area:976} flight master"] = "",
+	["{area:976} flight master"] = "{area:976} uçuş ustası",
 
 	-- Step 34: Sprite darters and forest walkers
 	["Sprite darters and forest walkers"] = "Sprite darter ve forest walker yaratıkları",
@@ -158,7 +158,7 @@ return {
 
 	-- Step 37: High Wilderness: kill these as you meet them
 	-- {area:1136} High Wilderness
-	["{area:1136}: kill these as you meet them"] = "",
+	["{area:1136}: kill these as you meet them"] = "{area:1136}: bunları karşılaştıkça öldür",
 	-- {area:1105} Feral Scar Vale
 	["South-west, the yetis den in {area:1105}; every yeti there can drop a thick hide."] = "Güneybatıda yetilerin ini {area:1105} vadisinde; oradaki her yeti kalın post düşürebilir.",
 
@@ -173,7 +173,7 @@ return {
 
 	-- Step 40: Forgotten Coast: kill these as you meet them
 	-- {area:1108} Forgotten Coast
-	["{area:1108}: kill these as you meet them"] = "",
+	["{area:1108}: kill these as you meet them"] = "{area:1108}: bunları karşılaştıkça öldür",
 	-- {item:18904} Zorbin's Ultra-Shrinker
 	["Sea elementals and sea sprays wash along the shore around the dock. Zap the giants with {item:18904} first: shrunken, they lose their elite strength. Shore striders wade in the water; the land walkers and cliff giants roam the hills further north."] = "Deniz elementalleri ve sea spray yaratıkları iskelenin çevresinde kıyı boyunca dalgalanıyor. Devleri önce {item:18904} ile vur: küçülünce elit güçlerini kaybederler. Shore strider yaratıkları suda yürüyor; land walker ve cliff giant yaratıkları daha kuzeydeki tepelerde dolaşıyor.",
 
@@ -183,7 +183,7 @@ return {
 
 	-- Step 43: Camp Mojache
 	-- {npc:7854} Jangdor Swiftstrider
-	["{npc:7854}, inside"] = "",
+	["{npc:7854}, inside"] = "{npc:7854}, içeride",
 
 	-- Step 44: Camp Mojache
 	-- {npc:7776} Talo Thornhoof · {zone:1448} Felwood

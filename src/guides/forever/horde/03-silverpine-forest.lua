@@ -5,25 +5,25 @@
 return {
 	-- Step 2: Zeppelin to Undercity
 	-- {zone:1458} Undercity
-	["Zeppelin to {zone:1458}"] = "",
+	["Zeppelin to {zone:1458}"] = "Zeplinle: {zone:1458}",
 
 	-- Step 5: To Orgrimmar
 	-- {zone:1454} Orgrimmar
-	["To {zone:1454}"] = "",
+	["To {zone:1454}"] = "Git: {zone:1454}",
 	-- {area:380} Crossroads · {zone:1454} Orgrimmar · {npc:3310} Doras · {object:172982} Valley of Strength
 	["From the {area:380}, follow the road north-east to {zone:1454} and walk in by the main gate. {npc:3310}, the wind rider master, stands on the tower in the {object:172982}."] = "",
 
 	-- Step 6: Sayoc
 	-- {spell:197} Two-Handed Axes · {npc:11868} Sayoc · {object:172958} Valley of Honor
-	["While you're here: learn {spell:197} from {npc:11868} ({object:172958}, 10 silver); two-handers level a Warrior fastest."] = "",
+	["While you're here: learn {spell:197} from {npc:11868} ({object:172958}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11868} sana {spell:197} öğretir ({object:172958}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 7: Hanashi
 	-- {npc:2704} Hanashi · {object:172958} Valley of Honor
-	["While you're here: learn Staves from {npc:2704} ({object:172958}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "",
+	["While you're here: learn Staves from {npc:2704} ({object:172958}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:2704} sana Staves öğretir ({object:172958}, 10 gümüş); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
 	-- Step 8: Hanashi
 	-- {npc:2704} Hanashi · {object:172958} Valley of Honor
-	["While you're here: learn Staves from {npc:2704} ({object:172958}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "",
+	["While you're here: learn Staves from {npc:2704} ({object:172958}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "Buradayken: {npc:2704} sana Staves öğretir ({object:172958}, 10 gümüş); seviye atlarken bir asa, tek elli bir silahtan daha çok büyü istatistiği taşır.",
 
 	-- Step 10: The Sepulcher
 	-- {area:228} The Sepulcher · {npc:2226} Karos Razok
@@ -31,11 +31,11 @@ return {
 	-- {npc:2121} Shadow Priest Allister · {quest:516} Beren's Peril
 	["{npc:2121}: {quest:516}, on the south loop"] = "{npc:2121}: {quest:516}, güney turunda",
 	-- {npc:1952} High Executor Hadrec
-	["{npc:1952}, below ground"] = "",
+	["{npc:1952}, below ground"] = "{npc:1952}, yer altında",
 
 	-- Step 12: Moonrage Whitescalp on the way
 	-- {npc:1769} Moonrage Whitescalp
-	["{npc:1769} on the way"] = "",
+	["{npc:1769} on the way"] = "Yol üstünde: {npc:1769}",
 
 	-- Step 14: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
@@ -45,7 +45,7 @@ return {
 	-- {area:1638} Thunder Bluff
 	["Fly to {area:1638}"] = "{area:1638} şehrine uç",
 	-- {area:392} Ratchet
-	["{area:392} flight master"] = "",
+	["{area:392} flight master"] = "{area:392} uçuş ustası",
 
 	-- Step 17: Thunder Bluff
 	-- {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {zone:1454} Orgrimmar
@@ -53,7 +53,7 @@ return {
 
 	-- Step 18: Moonglade
 	-- {spell:18960} Teleport: Moonglade
-	["Cast {spell:18960}"] = "",
+	["Cast {spell:18960}"] = "Kullan: {spell:18960}",
 
 	-- Step 19: Trial of the Lake
 	-- {spell:18960} Teleport: Moonglade · {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven · {area:656} Lake Elune'ara · {area:2362} Shrine of Remulos · {npc:11799} Tajarri
@@ -76,7 +76,7 @@ return {
 
 	-- Step 21: Back to Silverpine Forest
 	-- {area:130} Silverpine Forest
-	["Back to {area:130}"] = "",
+	["Back to {area:130}"] = "Dönüş: {area:130}",
 
 	-- Step 22: Fly to Ratchet
 	-- {area:392} Ratchet
@@ -99,11 +99,11 @@ return {
 	["Follow the road north-east to the Yoricks' house at {area:238}."] = "Yolu kuzeydoğuya izleyerek {area:238} bahçesindeki Yorick ailesinin evine git.",
 
 	-- Step 29: Level 16.51
-	["Level 16.51"] = "",
+	["Level 16.51"] = "Seviye 16.51",
 	-- {area:239} The Ivar Patch
-	["Top up here to level 16.51 before the hand-ins at {area:239}: they take you to level 17."] = "",
+	["Top up here to level 16.51 before the hand-ins at {area:239}: they take you to level 17."] = "{area:239} teslimlerinden önce burada seviye 16.51 olana kadar kas: teslimler seni seviye 17 yapar.",
 	-- {npc:1983} Nightlash
-	["grind on {npc:1983}"] = "",
+	["grind on {npc:1983}"] = "Kas: {npc:1983}",
 
 	-- Step 30: Mottled Worgs
 	-- plural, as words: Mottled Worgs = {npc:1766} Mottled Worg
@@ -115,7 +115,7 @@ return {
 	-- {npc:1978} Deathstalker Erland · {npc:1950} Rane Yorick
 	["{npc:1978} waits north-east of the house. Escort him back to {npc:1950}; worgs attack on the way."] = "{npc:1978} evin kuzeydoğusunda bekliyor. Ona {npc:1950} adlı NPC'nin yanına kadar eşlik et; yolda worglar saldırır.",
 	-- {npc:1978} Deathstalker Erland
-	["{npc:1978}, inside"] = "",
+	["{npc:1978}, inside"] = "{npc:1978}, içeride",
 
 	-- Step 34: The Sepulcher
 	-- {area:233} Ambermill
@@ -132,7 +132,7 @@ return {
 	-- Step 37: Quinn Yorick
 	["North again to the Yoricks' house."] = "Yine kuzeye, Yorick ailesinin evine git.",
 	-- {npc:1951} Quinn Yorick
-	["{npc:1951}, inside"] = "",
+	["{npc:1951}, inside"] = "{npc:1951}, içeride",
 
 	-- Step 38: Vile Fin murlocs
 	["Vile Fin murlocs"] = "Vile Fin murlocları",
@@ -150,11 +150,11 @@ return {
 	-- {object:112888} Dusty Shelf
 	["{object:112888}, inside the keep; upstairs"] = "",
 	-- {npc:1940} Rot Hide Plague Weaver
-	["grind on {npc:1940}"] = "",
+	["grind on {npc:1940}"] = "Kas: {npc:1940}",
 
 	-- Step 40: Hearth to The Sepulcher
 	-- {area:228} The Sepulcher
-	["Hearth to {area:228}"] = "",
+	["Hearth to {area:228}"] = "Hearthstone ile dön: {area:228}",
 
 	-- Step 41: The Sepulcher
 	-- {npc:1937} Apothecary Renferrel
@@ -162,7 +162,7 @@ return {
 
 	-- Step 42: Dalaran Pendant on the way
 	-- {item:3354} Dalaran Pendant
-	["{item:3354} on the way"] = "",
+	["{item:3354} on the way"] = "Yol üstünde: {item:3354}",
 	-- {item:3354} Dalaran Pendant · {area:228} The Sepulcher
 	["{item:3354} along the way to the {area:228}"] = "",
 
@@ -170,21 +170,21 @@ return {
 	-- {area:233} Ambermill · {npc:2120} Archmage Ataeric
 	["South-east down the road to {area:233}. Protectors guard the outskirts and Mages the town; both drop pendants. Wizards and Watchers patrol the roads around it. Stay out of the middle, where {npc:2120} stands."] = "Yoldan güneydoğuya, {area:233} kasabasına in. Kasabanın eteklerini Protector, içini Mage yaratıkları koruyor; ikisi de kolye düşürür. Çevredeki yollarda Wizard ve Watcher yaratıkları devriye geziyor. {npc:2120} adlı NPC'nin durduğu kasaba ortasından uzak dur.",
 	-- {npc:1914} Dalaran Mage
-	["grind on {npc:1914}"] = "",
+	["grind on {npc:1914}"] = "Kas: {npc:1914}",
 
 	-- Step 44: Silverpine Forest: kill these as you meet them
 	-- {area:130} Silverpine Forest
-	["{area:130}: kill these as you meet them"] = "",
+	["{area:130}: kill these as you meet them"] = "{area:130}: bunları karşılaştıkça öldür",
 	-- {quest:516} Beren's Peril
 	-- plural, as words: Ravenclaw Drudgers = {npc:1974} Ravenclaw Drudger
 	["South-west of Ambermill, the Ravenclaw Drudgers and Guardians haunt the ruins of {quest:516} in the south-east of the forest.\nCareful: The cave passages are narrow, so it is easy to pull extra mobs. Three mobs guard the entrance, and one of them walks a short patrol away from the other two."] = "",
-	["Below ground"] = "",
+	["Below ground"] = "Yer altında",
 	-- {npc:1888} Dalaran Watcher
-	["grind on {npc:1888}"] = "",
+	["grind on {npc:1888}"] = "Kas: {npc:1888}",
 
 	-- Step 45: the The Sepulcher
 	-- {area:228} The Sepulcher
-	["the {area:228}"] = "",
+	["the {area:228}"] = "{area:228}",
 
 	-- Step 46: Lordamere Lake shore
 	-- {area:1338} Lordamere Lake
@@ -193,7 +193,7 @@ return {
 	-- plural, as words: Vile Fin Lakestalkers = {npc:1909} Vile Fin Lakestalker
 	["The Vile Fin Lakestalkers and Oracles sit on the lake shore south of the {area:237}, east of the {area:228}."] = "Vile Fin Lakestalker ve Vile Fin Oracle yaratıkları {area:228} mezarlığının doğusunda, {area:237} feribotunun güneyindeki göl kıyısında duruyor.",
 	-- {npc:1909} Vile Fin Lakestalker · {area:1338} Lordamere Lake · {area:130} Silverpine Forest
-	["grind on {npc:1909} at {area:1338}, {area:130}"] = "",
+	["grind on {npc:1909} at {area:1338}, {area:130}"] = "Kas: {npc:1909} ({area:1338}, {area:130})",
 
 	-- Step 47: Apothecary Renferrel
 	-- {npc:2216} Apothecary Lydon · {area:272} Tarren Mill
@@ -202,7 +202,7 @@ return {
 	-- Step 48: The Ivar Patch
 	-- {area:85} Tirisfal Glades · {area:238} Malden's Orchard · {quest:425} Ivar the Foul
 	["Take the road north toward {area:85}: the Yoricks' house at {area:238} is on the way. {quest:425} lurks a short walk west of it."] = "",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 50: Magistrate Sevren
 	-- {area:159} Brill · {npc:1499} Magistrate Sevren
@@ -217,17 +217,17 @@ return {
 	["{object:173016} is a few steps north.\nThe {object:172960} is the canyon under the {object:172982}; {quest:829} stands at its far end."] = "",
 
 	-- Step 59: Class trainer
-	["Class trainer"] = "",
+	["Class trainer"] = "Sınıf eğitmeni",
 
 	-- Step 60: Paladin trainer
-	["Paladin trainer"] = "",
+	["Paladin trainer"] = "Paladin eğitmeni",
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {zone:1454} Orgrimmar
-	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "",
+	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde; {zone:1454} bölgesinde Paladin eğitmeni yok",
 
 	-- Step 61: Druid trainer
-	["Druid trainer"] = "",
+	["Druid trainer"] = "Druid eğitmeni",
 	-- {npc:3034} Sheal Runetotem · {zone:1412} Mulgore · {zone:1454} Orgrimmar
-	["{npc:3034} in {zone:1412}; {zone:1454} has no druid trainer"] = "",
+	["{npc:3034} in {zone:1412}; {zone:1454} has no druid trainer"] = "{npc:3034}, {zone:1412} bölgesinde; {zone:1454} bölgesinde Druid eğitmeni yok",
 
 	-- Step 62: The Drag
 	-- {npc:3348} Kor'geld · {npc:3347} Yelmak · {npc:11046} Whuut
@@ -248,11 +248,11 @@ return {
 	-- {npc:3230} Nazgrel
 	["Speak with {npc:3230}, in Grommash Hold"] = "Grommash Hold içindeki {npc:3230} ile konuş",
 	-- {npc:3230} Nazgrel
-	["Talk to {npc:3230}"] = "",
+	["Talk to {npc:3230}"] = "Konuş: {npc:3230}",
 	-- {npc:10540} Vol'jin
 	["Speak with {npc:10540}, in Grommash Hold"] = "Grommash Hold içindeki {npc:10540} ile konuş",
 	-- {npc:10540} Vol'jin
-	["Talk to {npc:10540}"] = "",
+	["Talk to {npc:10540}"] = "Konuş: {npc:10540}",
 
 	-- Step 66: Valley of Wisdom
 	-- {npc:4949} Thrall
@@ -260,7 +260,7 @@ return {
 
 	-- Step 69: Sayoc
 	-- {spell:197} Two-Handed Axes · {npc:11868} Sayoc · {object:172958} Valley of Honor
-	["While you're here: learn {spell:197} from {npc:11868} ({object:172958}, 10 silver); two-handers level a Paladin fastest."] = "",
+	["While you're here: learn {spell:197} from {npc:11868} ({object:172958}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11868} sana {spell:197} öğretir ({object:172958}, 10 gümüş); Paladin en hızlı iki elli silahla seviye atlar.",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["To {area:1637}"] = "{area:1637} şehrine",

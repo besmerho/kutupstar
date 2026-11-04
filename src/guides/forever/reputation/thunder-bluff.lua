@@ -12,7 +12,7 @@ return {
 
 	-- Step 1: Thunder Bluff: how it works
 	-- {faction:81} Thunder Bluff
-	["{faction:81}: how it works"] = "",
+	["{faction:81}: how it works"] = "{faction:81}: nasıl işler",
 	-- {faction:81} Thunder Bluff · {item:11040} Morrowgrain · {npc:14728} Rumstag Proudstrider · {quest:7825} Additional Runecloth · {item:14047} Runecloth · {zone:1454} Orgrimmar · {zone:1458} Undercity · {zone:1412} Mulgore · {area:378} Camp Taurajo · {area:380} Crossroads · {zone:1441} Thousand Needles
 	["{faction:81} reputation comes from quests, {item:11040} and cloth. {npc:14728}, the cloth quartermaster, stands on the central rise among the leatherworkers' and tailors' tents. He takes four one-time donations of 60 cloth (150 each) and then {quest:7825}, 20 {item:14047} for 50, as often as you like. Every point you earn with {faction:81} also gives a quarter as much to {zone:1454}, the {zone:1458} and the Darkspear Trolls. While you level, do {faction:81}'s quests within 5 levels of them: {zone:1412} at 1 to 12, {area:378} and the {area:380} at 13 to 22, {zone:1441} at 25 to 30. The Legacy perk Diplomat adds up to 10%. Rewards: at Honored Thunder Bluff's merchants sell to you for 10% less (the Classic rule), the kodo vendor included; at Exalted other races can buy the kodos: 20 gold for a level 40 kodo, 200 gold for a great kodo at level 60, once you have mount training. {faction:81} has no tabard or other reward."] = "",
 
@@ -20,15 +20,15 @@ return {
 	-- {npc:10303} Storm Shadowhoof · {faction:81} Thunder Bluff · {npc:10806} Ursius · {area:2255} Everlook
 	["{npc:10303}'s four quests are level 56 to 60, so they pay in full: 400 {faction:81} reputation. {npc:10806}, an elite bear, walks a loop over the four hills north of {area:2255}: wait on a hilltop for him."] = "",
 	-- {npc:10806} Ursius
-	["{npc:10806}, elite"] = "",
+	["{npc:10806}, elite"] = "{npc:10806}, elit",
 
 	-- Step 3: Brumeran and Shy-Rotam
 	-- {npc:10807} Brumeran · {quest:5056} Shy-Rotam
-	["{npc:10807} and {quest:5056}"] = "",
+	["{npc:10807} and {quest:5056}"] = "{npc:10807} ve {quest:5056}",
 	-- {npc:10807} Brumeran · {area:2255} Everlook · {quest:5056} Shy-Rotam · {item:12733} Sacred Frostsaber Meat · {object:103819} Stone of Shy-Rotam (no name in this language: may be words) · {npc:10306} Trull Failbane · {zone:1454} Orgrimmar · {item:12558} Blue-feathered Necklace · {quest:4882} Guarding Secrets · {faction:81} Thunder Bluff
 	["{npc:10807}, an elite chimera, spawns south of {area:2255}. For {quest:5056}, kill frostsabers north of {area:2255} until one drops {item:12733} (about one in ten), then use the meat at the {object:103819}, far to the north, and kill the great cat that comes. If you have done {npc:10306}'s Wild Guardians quests (the {zone:1454} guide), the Crazed, Moontouched and Berserk owlbeasts around {area:2255} sometimes drop a {item:12558}: it starts {quest:4882}, 50 {zone:1454} and then 100 {faction:81} reputation in full."] = "",
 	-- {npc:10807} Brumeran
-	["{npc:10807}, elite"] = "",
+	["{npc:10807}, elite"] = "{npc:10807}, elit",
 	-- {item:12733} Sacred Frostsaber Meat
 	["{item:12733}, from the frostsabers"] = "",
 
@@ -36,7 +36,7 @@ return {
 	-- {npc:10306} Trull Failbane · {area:1997} Bloodvenom Post · {zone:1452} Winterspring
 	["{npc:10306} stands at {area:1997}, through the Timbermaw tunnel south of {zone:1452}."] = "",
 	-- {quest:4882} Guarding Secrets · {npc:5770} Nara Wildmane · {faction:81} Thunder Bluff
-	["{quest:4882}, +100: to {npc:5770} in {faction:81}"] = "",
+	["{quest:4882}, +100: to {npc:5770} in {faction:81}"] = "{quest:4882}, +100: teslim yeri {npc:5770} ({faction:81})",
 
 	-- Step 5: Thunder Bluff: Nara Wildmane
 	-- {npc:5770} Nara Wildmane · {area:1639} Elder Rise · {npc:5769} Arch Druid Hamuul Runetotem
@@ -56,7 +56,7 @@ return {
 	-- {npc:9076} Ghede · {npc:9087} Bashana Runetotem · {item:11020} Evergreen Pouch · {quest:3761} Un'Goro Soil · {item:11024} Evergreen Herb Casing · {item:11040} Morrowgrain
 	["{npc:9076} takes the soil. {npc:9087} sells the {item:11020} (1 gold) and Packets of Tharlendris Seeds (10 silver each). With a seed packet and 2 {quest:3761} in your bags, use the pouch: it grows an {item:11024}, once every 10 minutes. Open each casing: about one in three holds 1 to 5 {item:11040}, the rest common herbs. Use the pouch whenever it is ready while you follow the rest of this guide."] = "",
 	-- {item:11020} Evergreen Pouch
-	["{item:11020}, 1 gold"] = "",
+	["{item:11020}, 1 gold"] = "{item:11020}, 1 altın",
 	-- {item:11022} Packet of Tharlendris Seeds
 	["{item:11022}, 10 silver each"] = "",
 
@@ -68,7 +68,7 @@ return {
 
 	-- Step 10: Gloomrise (optional hub)
 	-- {area:17044} Gloomrise
-	["{area:17044} (optional hub)"] = "",
+	["{area:17044} (optional hub)"] = "{area:17044} (isteğe bağlı merkez)",
 	-- {area:17045} Skywatcher Plateau · {faction:81} Thunder Bluff · {zone:1454} Orgrimmar · {npc:259118} Muln Earthfury · {npc:264074} Mazu'kon · {npc:264072} Yorn Grimtotem
 	["In Classic, quests 6+ levels below you pay less (a fifth at 60); a Forever beta report says they paid in full. Your first turn-in shows which: if it pays a fifth, skip these hubs. The Earthen Ring camp on the {area:17045}, north-west of {faction:81}: 300 {faction:81} reputation in 20 minutes (60 at a fifth), plus 100 each for {zone:1454} and the Darkspear Trolls and 450 Earthen Ring. {npc:259118}, {npc:264074} and {npc:264072} stand in the camp."] = "",
 	-- {npc:264074} Mazu'kon · {quest:96241} Talkin' bout Toxins, Mon
@@ -87,7 +87,7 @@ return {
 
 	-- Step 13: Camp Narache (optional hub)
 	-- {area:221} Camp Narache
-	["{area:221} (optional hub)"] = "",
+	["{area:221} (optional hub)"] = "{area:221} (isteğe bağlı merkez)",
 	-- {area:221} Camp Narache · {zone:1412} Mulgore · {faction:81} Thunder Bluff · {npc:2980} Grull Hawkwind · {npc:2981} Chief Hawkwind · {npc:3209} Brave Windfeather
 	["In Classic, quests 6+ levels below you pay less (a fifth at 60); a Forever beta report says they paid in full. Your first turn-in shows which: if it pays a fifth, skip these hubs. {area:221}, at the south end of {zone:1412}: about 1,100 {faction:81} reputation in 25 minutes (220 at a fifth). Starting-zone quests give the other cities no share. {npc:2980} and {npc:2981} stand in the camp, {npc:3209} at its edge."] = "",
 
@@ -99,7 +99,7 @@ return {
 
 	-- Step 15: Camp Narache: hand in
 	-- {area:221} Camp Narache
-	["{area:221}: hand in"] = "",
+	["{area:221}: hand in"] = "{area:221}: teslim",
 
 	-- Step 16: Seer Graytongue and the cougars
 	-- {npc:2982} Seer Graytongue
@@ -119,13 +119,13 @@ return {
 
 	-- Step 19: Camp Narache: last hand-in
 	-- {area:221} Camp Narache
-	["{area:221}: last hand-in"] = "",
+	["{area:221}: last hand-in"] = "{area:221}: son teslim",
 	-- {quest:763} Rites of the Earthmother · {npc:2993} Baine Bloodhoof
 	["{quest:763}, +75: to {npc:2993}"] = "",
 
 	-- Step 21: Bloodhoof Village (optional hub)
 	-- {area:222} Bloodhoof Village
-	["{area:222} (optional hub)"] = "",
+	["{area:222} (optional hub)"] = "{area:222} (isteğe bağlı merkez)",
 	-- {area:222} Bloodhoof Village · {zone:1412} Mulgore · {faction:81} Thunder Bluff · {npc:2993} Baine Bloodhoof · {npc:2947} Harken Windtotem · {npc:2985} Ruul Eagletalon · {npc:3222} Brave Wildrunner · {npc:2988} Morin Cloudstalker
 	["In Classic, quests 6+ levels below you pay less (a fifth at 60); a Forever beta report says they paid in full. Your first turn-in shows which: if it pays a fifth, skip these hubs. {area:222} and eastern {zone:1412}: about 1,000 {faction:81} reputation in 45 minutes (200 at a fifth). {npc:2993} stands in the middle of the village; {npc:2947}, {npc:2985} and {npc:3222} close by; {npc:2988} waits east of the village by the road."] = "",
 
@@ -135,11 +135,11 @@ return {
 	-- {quest:99079} Longwalker Malah · {object:2908} Sealed Supply Crate · {quest:764} The Venture Co.
 	["{quest:99079} waits by the eastern border. The {object:2908} of the ravaged caravan lies north-east of the village: open it to start the next quest. {quest:764} mine is further north-east; the elite shredder Venture Co. Clearcutter works deep inside."] = "",
 	-- {object:2908} Sealed Supply Crate
-	["the {object:2908}"] = "",
+	["the {object:2908}"] = "{object:2908}",
 
 	-- Step 23: Bloodhoof Village: hand in
 	-- {area:222} Bloodhoof Village
-	["{area:222}: hand in"] = "",
+	["{area:222}: hand in"] = "{area:222}: teslim",
 
 	-- Step 24: The mine, the centaurs and the plains
 	["The mine, the centaurs and the plains"] = "",
@@ -149,9 +149,9 @@ return {
 
 	-- Step 25: Bloodhoof Village: last hand-in
 	-- {area:222} Bloodhoof Village
-	["{area:222}: last hand-in"] = "",
+	["{area:222}: last hand-in"] = "{area:222}: son teslim",
 	-- {quest:99082} The High Chieftain · {npc:3057} Cairne Bloodhoof · {faction:81} Thunder Bluff
-	["{quest:99082}, +10: to {npc:3057} in {faction:81}"] = "",
+	["{quest:99082}, +10: to {npc:3057} in {faction:81}"] = "{quest:99082}, +10: teslim yeri {npc:3057} ({faction:81})",
 
 	-- Step 27: Bashana Runetotem: Morrowgrain Research
 	-- {npc:9087} Bashana Runetotem · {area:1639} Elder Rise · {item:11040} Morrowgrain

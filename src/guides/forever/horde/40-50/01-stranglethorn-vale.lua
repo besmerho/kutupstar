@@ -9,7 +9,7 @@ return {
 
 	-- Step 2: To Ratchet
 	-- {area:392} Ratchet
-	["To {area:392}"] = "",
+	["To {area:392}"] = "Git: {area:392}",
 
 	-- Step 4: Boat to Booty Bay
 	-- {area:35} Booty Bay
@@ -21,12 +21,12 @@ return {
 	-- {npc:2495} Drizzlik
 	["{npc:2495}: the Snapjaw skins gathered earlier; inside"] = "",
 	-- {npc:737} Kebok
-	["{npc:737}, upstairs"] = "",
+	["{npc:737}, upstairs"] = "{npc:737}, üst katta",
 	-- {area:272} Tarren Mill · {zone:1417} Arathi Highlands
 	["The next guide flies you north to {area:272} and into the {zone:1417}."] = "Sonraki rehber seni kuzeye, {area:272} kasabasına ve {zone:1417} bölgesine uçuruyor.",
 	-- {zone:1446} Tanaris
 	["for Stoley in {zone:1446}; on the top floor"] = "",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 	-- {npc:773} Krazek · {quest:2864} Tran'rek · {area:976} Gadgetzan
 	["{npc:773}: for {quest:2864} in {area:976}; upstairs"] = "",
 
@@ -34,7 +34,7 @@ return {
 	-- {object:3202} Grom'gol (no name in this language: may be words)
 	["Fly to {object:3202}"] = "{object:3202} kampına uç",
 	-- {area:35} Booty Bay
-	["{area:35} flight master"] = "",
+	["{area:35} flight master"] = "{area:35} uçuş ustası",
 
 	-- Step 8: Jungle Stalkers
 	-- plural, as words: Jungle Stalkers = {npc:687} Jungle Stalker
@@ -47,7 +47,7 @@ return {
 	-- {area:35} Booty Bay
 	["Fly to {area:35}"] = "{area:35} limanına uç",
 	-- {object:3202} Grom'gol (no name in this language: may be words)
-	["{object:3202} flight master"] = "",
+	["{object:3202} flight master"] = "{object:3202} uçuş ustası",
 
 	-- Step 12: Bloodsail Correspondence
 	-- {area:35} Booty Bay
@@ -56,11 +56,11 @@ return {
 	-- Step 13: Booty Bay
 	["\"Sea Wolf\" MacKinley, on the top floor"] = "",
 	-- {npc:2488} Deeg
-	["{npc:2488}, on the top floor"] = "",
+	["{npc:2488}, on the top floor"] = "{npc:2488}, en üst katta",
 
 	-- Step 14: Mistvale Valley: kill these as you meet them
 	-- {area:1737} Mistvale Valley
-	["{area:1737}: kill these as you meet them"] = "",
+	["{area:1737}: kill these as you meet them"] = "{area:1737}: bunları karşılaştıkça öldür",
 	-- {area:43} Wild Shore · {npc:2493} Dizzy One-Eye · {area:35} Booty Bay · {area:1737} Mistvale Valley
 	-- plural, as words: Elder Mistvale Gorillas = {npc:1557} Elder Mistvale Gorilla
 	["South of Booty Bay the Bloodsail swashbucklers camp on the {area:43}; the charts and the orders lie in their tents. Any Bloodsail can carry snuff and {npc:2493}'s eye, so keep killing until you have both.\nTake the road south towards {area:35}. The Elder Mistvale Gorillas (40-41) live in {area:1737}, east of the road; about one in twenty carries an aged sinew."] = "",
@@ -76,7 +76,7 @@ return {
 	-- {area:35} Booty Bay · {area:1737} Mistvale Valley
 	["Take the road north out of {area:35}; Unbagwa sits on a hill in {area:1737}, east of the road."] = "{area:35} limanından kuzeye giden yolu tut; Unbagwa yolun doğusunda, {area:1737} vadisindeki bir tepede oturuyor.",
 	-- {area:1742} Spirit Den
-	["Inside {area:1742}"] = "",
+	["Inside {area:1742}"] = "{area:1742} içinde",
 
 	-- Step 18: Mistvale gorillas
 	["Mistvale gorillas"] = "Mistvale gorilleri",
@@ -102,7 +102,7 @@ return {
 
 	-- Step 26: Hearth to Grom'gol Base Camp
 	-- {area:117} Grom'gol Base Camp
-	["Hearth to {area:117}"] = "",
+	["Hearth to {area:117}"] = "Hearthstone ile dön: {area:117}",
 
 	-- Step 27: Grom'gol
 	-- {object:2076} Bubbling Cauldron
@@ -115,7 +115,7 @@ return {
 
 	-- Step 29: The Cape of Stranglethorn: kill these as you meet them
 	-- {area:1577} The Cape of Stranglethorn
-	["{area:1577}: kill these as you meet them"] = "",
+	["{area:1577}: kill these as you meet them"] = "{area:1577}: bunları karşılaştıkça öldür",
 	-- {object:759} Holy Spring
 	["Follow the coast south. The naga explorers wade along the shore and carry the reed bundles; the {object:759} bubbles in the hills just east of them."] = "Kıyıyı güneye izle. Naga kâşifleri kıyı boyunca suda yürüyor ve kamış demetlerini taşıyor; {object:759} hemen doğularındaki tepelerde fokurduyor.",
 
@@ -123,7 +123,7 @@ return {
 	-- {area:35} Booty Bay
 	["Head south to {area:35}. Shaky Phillipe waits on the docks."] = "",
 	-- {npc:6807} Innkeeper Skindle
-	["{npc:6807}, upstairs"] = "",
+	["{npc:6807}, upstairs"] = "{npc:6807}, üst katta",
 
 	-- Step 31: Zanzil's camps
 	["Zanzil's camps"] = "Zanzil'in kampları",
@@ -140,12 +140,12 @@ return {
 	["Head north to the Skullsplitter ruins east of the Venture Co. mine; pull the headhunters and berserkers one at a time. {npc:1059} guards the south-western ruins, and one pile of trophy skulls stands on the ruins' north side. Every Skullsplitter can drop a tusk or a necklace: the necklaces are the slow part, so keep killing in the warriors' camp north of the ruins until you have them all."] = "",
 	["Skullsplitter warriors"] = "Skullsplitter savaşçıları",
 	-- {npc:669} Skullsplitter Hunter
-	["{npc:669} walks around here: look inside the circle on the map"] = "",
-	["Below ground"] = "",
+	["{npc:669} walks around here: look inside the circle on the map"] = "{npc:669} buralarda dolaşıyor: haritadaki çemberin içine bak",
+	["Below ground"] = "Yer altında",
 
 	-- Step 34: Balia'mah Ruins: kill these as you meet them
 	-- {area:127} Balia'mah Ruins
-	["{area:127}: kill these as you meet them"] = "",
+	["{area:127}: kill these as you meet them"] = "{area:127}: bunları karşılaştıkça öldür",
 	-- {object:3202} Grom'gol (no name in this language: may be words)
 	["The next trophy skulls stand in the small ruins just north of the warriors' camp.\nThe last skulls are in the ruins a short ride west, on the way back to {object:3202}."] = "",
 
@@ -157,34 +157,34 @@ return {
 
 	-- Step 37: Booty Bay
 	-- {npc:2498} Crank Fizzlebub
-	["{npc:2498}, inside"] = "",
+	["{npc:2498}, inside"] = "{npc:2498}, içeride",
 
 	-- Step 40: Nesingwary's Expedition
 	["Head north up the road to the hunters' camp."] = "",
 
 	-- Step 42: Raptor Mastery
 	-- {npc:730} Tethis
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:730} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:730} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:730}, seviye 43 bir elit: çoğu sınıf seviye 45 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 43: Panther Mastery
 	-- {npc:728} Bhag'thera
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:728} is a level 40 elite: most classes solo it at level 42, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:728} is a level 40 elite: most classes solo it at level 42, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:728}, seviye 40 bir elit: çoğu sınıf seviye 42 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
 	-- Step 47: Level 42.68
-	["Level 42.68"] = "",
+	["Level 42.68"] = "Seviye 42.68",
 	-- {quest:192} Panther Mastery · {quest:195} Raptor Mastery
 	["If you skipped {quest:192} or {quest:195}, grind here to level 42.68 to stay on the route's plan."] = "",
 	-- {npc:667} Skullsplitter Warrior
-	["grind on {npc:667}"] = "",
+	["grind on {npc:667}"] = "Kas: {npc:667}",
 
 	-- Step 48: Big Game Hunter
 	-- {npc:731} King Bangalash
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:731} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back.\nCareful: Tigers and stealthed shadowmaw panthers roam close to him. Clear them before you pull him. When he is pulled, {npc:731} calls for help from creatures within 20 yd."] = "",
 
 	-- Step 50: Level 42.74
-	["Level 42.74"] = "",
+	["Level 42.74"] = "Seviye 42.74",
 	-- {quest:208} Big Game Hunter
-	["If you skipped {quest:208}, grind here to level 42.74 to stay on the route's plan."] = "",
+	["If you skipped {quest:208}, grind here to level 42.74 to stay on the route's plan."] = "{quest:208} görevini atladıysan rotanın planında kalmak için burada seviye 42.74 olana kadar kas.",
 
 	-- Step 54: Into the Swamp of Sorrows
 	-- {area:8} Swamp of Sorrows
@@ -196,17 +196,17 @@ return {
 	-- {area:75} Stonard
 	["Head east to {area:75}, in the reeds south of the road."] = "",
 	-- {npc:5591} Dar
-	["{npc:5591}, inside"] = "",
+	["{npc:5591}, inside"] = "{npc:5591}, içeride",
 
 	-- Step 56: Stonard
 	-- {area:75} Stonard
 	["You start in {area:75}. Bind here: you hearth back after the coast."] = "{area:75} kasabasında başlıyorsun. Hearthstone'u burada bağla: kıyıdan sonra buraya dönersin.",
 	-- {npc:1442} Helgrum the Swift
-	["{npc:1442}, upstairs"] = "",
+	["{npc:1442}, upstairs"] = "{npc:1442}, üst katta",
 	-- {npc:6930} Innkeeper Karakul
-	["{npc:6930}, upstairs"] = "",
+	["{npc:6930}, upstairs"] = "{npc:6930}, üst katta",
 	-- {npc:1443} Fel'zerul
-	["{npc:1443}, on the top floor"] = "",
+	["{npc:1443}, on the top floor"] = "{npc:1443}, en üst katta",
 
 	-- Step 57: Sawtooth crocolisks
 	["Sawtooth crocolisks"] = "Sawtooth crocoliskleri",
@@ -216,11 +216,11 @@ return {
 
 	-- Step 58: Fly to Booty Bay
 	-- {area:75} Stonard
-	["{area:75} flight master"] = "",
+	["{area:75} flight master"] = "{area:75} uçuş ustası",
 
 	-- Step 59: Boat to Ratchet
 	-- {area:392} Ratchet
-	["Boat to {area:392}"] = "",
+	["Boat to {area:392}"] = "Gemiyle: {area:392}",
 
 	-- Step 60: Riding at 40
 	["Riding at 40"] = "Seviye 40'ta binicilik",

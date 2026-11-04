@@ -15,7 +15,7 @@ return {
 
 	-- Step 2: Wolf Riding for other races
 	-- {spell:825} Wolf Riding
-	["{spell:825} for other races"] = "",
+	["{spell:825} for other races"] = "{spell:825}, diğer ırklar için",
 	-- {spell:825} Wolf Riding · {skill:762} Riding · {npc:4752} Kildar · {faction:76} Orgrimmar
 	["Any Horde race can buy these wolves, but riding one also takes {spell:825}, which only Orcs get with {skill:762}. {npc:4752} teaches it to other races once they are Exalted with {faction:76} (the Orgrimmar Reputation guide shows the way). Until then, don't buy a wolf for this character."] = "",
 

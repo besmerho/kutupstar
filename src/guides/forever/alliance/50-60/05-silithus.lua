@@ -7,7 +7,7 @@ return {
 	-- {area:3425} Cenarion Hold · {area:392} Ratchet
 	["Ride back to {area:3425} and fly to {area:392}."] = "{area:3425} kalesine dön ve {area:392} limanına uç.",
 	-- {npc:8496} Liv Rizzlefix
-	["{npc:8496}, inside"] = "",
+	["{npc:8496}, inside"] = "{npc:8496}, içeride",
 
 	-- Step 2: Boat to Booty Bay
 	-- {area:35} Booty Bay
@@ -17,7 +17,7 @@ return {
 	-- {zone:1453} Stormwind
 	["Fly to {zone:1453}"] = "{zone:1453} şehrine uç",
 	-- {area:35} Booty Bay
-	["{area:35} flight master"] = "",
+	["{area:35} flight master"] = "{area:35} uçuş ustası",
 
 	-- Step 4: Ironforge
 	-- {area:2257} Deeprun Tram · {zone:1455} Ironforge
@@ -39,7 +39,7 @@ return {
 
 	-- Step 7: Tram to Ironforge
 	-- {zone:1455} Ironforge
-	["Tram to {zone:1455}"] = "",
+	["Tram to {zone:1455}"] = "Tramvayla: {zone:1455}",
 
 	-- Step 8: Ironforge
 	["Its jars are filled on the next Un'Goro visit"] = "Kavanozları bir sonraki Un'Goro ziyaretinde doldurulur",
@@ -50,7 +50,7 @@ return {
 	-- {area:2268} Light's Hope Chapel
 	["Fly to {area:2268}"] = "{area:2268} şapeline uç",
 	-- {zone:1455} Ironforge
-	["{zone:1455} flight master"] = "",
+	["{zone:1455} flight master"] = "{zone:1455} uçuş ustası",
 
 	-- Step 11: Light's Hope Chapel
 	-- {area:3197} Chillwind Camp · {area:2268} Light's Hope Chapel

@@ -13,7 +13,7 @@ return {
 	-- {area:392} Ratchet
 	["Fly to {area:392}"] = "{area:392} limanına uç",
 	-- {zone:1454} Orgrimmar
-	["{zone:1454} flight master"] = "",
+	["{zone:1454} flight master"] = "{zone:1454} uçuş ustası",
 
 	-- Step 3: Dokimi's crates
 	-- {npc:256386} Dokimi
@@ -24,7 +24,7 @@ return {
 	-- Step 4: Liv Rizzlefix
 	-- {area:392} Ratchet · {object:149036} Marvon's Chest
 	["Liv's workshop is at the north end of {area:392}'s docks; {object:149036} stands inside it."] = "Liv'in atölyesi {area:392} iskelelerinin kuzey ucunda; {object:149036} içeride duruyor.",
-	["Inside"] = "",
+	["Inside"] = "İçeride",
 
 	-- Step 5: Islen Waterseer
 	-- {npc:5901} Islen Waterseer · {area:392} Ratchet
@@ -34,7 +34,7 @@ return {
 
 	-- Step 6: Hearth to Orgrimmar
 	-- {area:1637} Orgrimmar
-	["Hearth to {area:1637}"] = "",
+	["Hearth to {area:1637}"] = "Hearthstone ile dön: {area:1637}",
 
 	-- Step 7: Vehena
 	-- {object:172961} Valley of Spirits
@@ -71,12 +71,12 @@ return {
 	-- {area:1637} Orgrimmar
 	["Fly to {area:1637}"] = "{area:1637} şehrine uç",
 	-- {area:1237} Valormok
-	["{area:1237} flight master"] = "",
+	["{area:1237} flight master"] = "{area:1237} uçuş ustası",
 
 	-- Step 16: Paladin trainer
-	["Paladin trainer"] = "",
+	["Paladin trainer"] = "Paladin eğitmeni",
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {zone:1454} Orgrimmar
-	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "",
+	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde; {zone:1454} bölgesinde Paladin eğitmeni yok",
 
 	-- Step 17: Orgrimmar
 	-- {zone:1454} Orgrimmar
@@ -88,11 +88,11 @@ return {
 
 	-- Step 19: Into Durotar
 	-- {zone:1411} Durotar
-	["Into {zone:1411}"] = "",
+	["Into {zone:1411}"] = "{zone:1411} bölgesine",
 
 	-- Step 20: Zeppelin to Undercity
 	-- {zone:1458} Undercity
-	["Zeppelin to {zone:1458}"] = "",
+	["Zeppelin to {zone:1458}"] = "Zeplinle: {zone:1458}",
 
 	-- Step 21: Prompt Potion Runner
 	-- {npc:11044} Doctor Martin Felben

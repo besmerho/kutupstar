@@ -5,7 +5,7 @@
 return {
 	-- Guide
 	-- {quest:1522} Call of Fire
-	["{quest:1522} (Horde)"] = "",
+	["{quest:1522} (Horde)"] = "{quest:1522} (Horde)",
 	-- {item:5176} Fire Totem · {spell:3599} Searing Totem · {item:263412} Totem of Charged Flames
 	["Your {item:5176} for every fire totem, {spell:3599} with it, and Forever's {item:263412}."] = "",
 
@@ -23,19 +23,19 @@ return {
 
 	-- Step 4
 	-- {npc:5907} Kranal Fiss · {npc:3173} Swart
-	["{npc:5907}: {npc:3173}'s letter"] = "",
+	["{npc:5907}: {npc:3173}'s letter"] = "{npc:5907}: mektup ({npc:3173})",
 
 	-- Step 5
 	-- {npc:5907} Kranal Fiss · {npc:5892} Searn Firewarder
-	["{npc:5907}: {npc:5892}'s letter"] = "",
+	["{npc:5907}: {npc:5892}'s letter"] = "{npc:5907}: mektup ({npc:5892})",
 
 	-- Step 6
 	-- {npc:5907} Kranal Fiss · {npc:3066} Narm Skychaser
-	["{npc:5907}: {npc:3066}'s letter"] = "",
+	["{npc:5907}: {npc:3066}'s letter"] = "{npc:5907}: mektup ({npc:3066})",
 
 	-- Step 7
 	-- {npc:5907} Kranal Fiss · {npc:5906} Xanis Flameweaver
-	["{npc:5907}: {npc:5906}'s letter"] = "",
+	["{npc:5907}: {npc:5906}'s letter"] = "{npc:5907}: mektup ({npc:5906})",
 
 	-- Step 8: Kranal Fiss
 	-- {npc:5907} Kranal Fiss · {item:6653} Torch of the Dormant Flame
@@ -61,15 +61,15 @@ return {
 
 	-- Step 13: Lost the Fire Sapta?
 	-- {quest:1464} Fire Sapta
-	["Lost the {quest:1464}?"] = "",
+	["Lost the {quest:1464}?"] = "{quest:1464} kayıp mı?",
 	-- {quest:1464} Fire Sapta · {npc:5900} Telf Joolam
 	["Only if the {quest:1464} is gone from your bags: {npc:5900} gives you another."] = "",
 	-- {npc:5900} Telf Joolam · {quest:1464} Fire Sapta
-	["{npc:5900}: a new {quest:1464}"] = "",
+	["{npc:5900}: a new {quest:1464}"] = "{npc:5900}: yeni bir {quest:1464}",
 
 	-- Step 14: The Minor Manifestation of Fire
 	-- {npc:5893} Minor Manifestation of Fire
-	["The {npc:5893}"] = "",
+	["The {npc:5893}"] = "{npc:5893}",
 	-- {item:6636} Fire Sapta · {object:63674} Shaman Shrine (no name in this language: may be words) · {spell:8017} Rockbiter Weapon · {spell:8042} Earth Shock · {item:6655} Glowing Ember
 	["Drink the {item:6636} beside the {object:63674}, the big grey stone just below the summit, then climb to the plateau. Of the fire elementals there only the one in the middle can be attacked: it is level 12, immune to fire and grows stronger the longer the fight lasts, so open at once with {spell:8017} and {spell:8042} and leave the others alone. Its {item:6655} drops every time."] = "",
 	-- {item:6636} Fire Sapta · {object:63674} Shaman Shrine (no name in this language: may be words)
@@ -77,7 +77,7 @@ return {
 
 	-- Step 15: The Brazier of the Dormant Flame
 	-- {object:61934} Brazier of the Dormant Flame
-	["The {object:61934}"] = "",
+	["The {object:61934}"] = "{object:61934}",
 	-- {object:61934} Brazier of the Dormant Flame · {item:277329} Torch of Eternal Flame
 	["Click the {object:61934} on the plateau with the torch in your bags to place the ember, then click it a second time: the next quest does not open by itself. It gives you the lit {item:277329}."] = "",
 

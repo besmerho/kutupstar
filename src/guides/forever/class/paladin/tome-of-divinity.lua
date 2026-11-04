@@ -5,7 +5,7 @@
 return {
 	-- Guide
 	-- {spell:7328} Redemption
-	["{spell:7328} (Alliance)"] = "",
+	["{spell:7328} (Alliance)"] = "{spell:7328} (Alliance)",
 	-- {spell:7328} Redemption
 	["{spell:7328} at 12, the paladin's resurrection: an easy chain through your capital and its home zone."] = "",
 
@@ -33,7 +33,7 @@ return {
 	-- {npc:6174} Stephanie Turner · {object:2096} Trade District · {item:2589} Linen Cloth · {zone:1436} Westfall
 	["{npc:6174} stands at a corner in the middle of the {object:2096}, outside a general goods store. She wants 10 {item:2589}: humanoids drop it (Riverpaw gnolls in {zone:1436} about every other kill, Defias and kobolds a little less), or buy it at the Auction House a few steps away in the {object:2096}."] = "",
 	-- {item:2589} Linen Cloth
-	["{item:2589} x10"] = "",
+	["{item:2589} x10"] = "{item:2589} x10",
 
 	-- Step 7: The Symbol of Life
 	-- {item:6866} Symbol of Life
@@ -50,7 +50,7 @@ return {
 
 	-- Step 9: The Defias Script
 	-- {item:6846} Defias Script
-	["The {item:6846}"] = "",
+	["The {item:6846}"] = "{item:6846}",
 	-- {npc:6172} Henze Faulk · {item:6846} Defias Script
 	-- plural, as words: Defias Rogue Wizards = {npc:474} Defias Rogue Wizard
 	["The Defias Rogue Wizards around the big stone tablet east of {npc:6172} carry the {item:6846}: about one kill in two drops it, but some players need many kills. They respawn in three minutes."] = "",
@@ -89,7 +89,7 @@ return {
 
 	-- Step 18: The Dark Iron Script
 	-- {item:6847} Dark Iron Script
-	["The {item:6847}"] = "",
+	["The {item:6847}"] = "{item:6847}",
 	-- {item:6847} Dark Iron Script
 	["The Dark Iron Spies (level 9-11, twelve of them) sneak around the little house below the lake, just south of Narm; you see them from his hill. About one kill in two drops the {item:6847}. They run for help at low health: finish them or step back. They respawn in three minutes."] = "",
 	-- {item:6847} Dark Iron Script

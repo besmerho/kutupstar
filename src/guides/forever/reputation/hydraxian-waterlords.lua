@@ -44,7 +44,7 @@ return {
 	-- plural, as words: Firewalkers = {npc:11666} Firewalker · Flameguards = {npc:11667} Flameguard · Lava Elementals = {npc:12076} Lava Elemental · Lava Reavers = {npc:12100} Lava Reaver · Molten Destroyers = {npc:11659} Molten Destroyer · Firelords = {npc:11668} Firelord · Lava Surgers = {npc:12101} Lava Surger · Molten Giants = {npc:11658} Molten Giant · Ancient Core Hounds = {npc:11673} Ancient Core Hound
 	["{quest:6822} is a raid of 40. Kill one {npc:11658}, {npc:11668}, {npc:11673} and {npc:12101} for {npc:13278}. Every elemental there pays: Firewalkers, Flameguards, Lava Elementals, Lava Reavers and Molten Destroyers 40, Firelords, Lava Surgers, Molten Giants and Ancient Core Hounds 20, up to 11,999 of 12,000 Honored; about 3,360 for a full clear of the trash. The bosses pay 100 each ({npc:11988} 150, {npc:11502} 200)."] = "",
 	-- {npc:11658} Molten Giant
-	["{npc:11658}: raid of 40"] = "",
+	["{npc:11658}: raid of 40"] = "{npc:11658}: 40 kişilik raid",
 
 	-- Step 8: Elementals to Honored
 	["Elementals to Honored"] = "",
@@ -63,7 +63,7 @@ return {
 	-- {npc:12118} Lucifron · {npc:12259} Gehennas · {npc:12264} Shazzrah · {npc:12098} Sulfuron Harbinger · {area:2717} Molten Core
 	["{npc:12118}, {npc:12259}, {npc:12264} and {npc:12098} are {area:2717} bosses: each drops his hand for the quest."] = "",
 	-- {item:17332} Hand of Shazzrah
-	["{item:17332}: raid of 40"] = "",
+	["{item:17332}: raid of 40"] = "{item:17332}: 40 kişilik raid",
 
 	-- Step 11: A Hero's Reward
 	-- {object:179551} Hydraxis' Coffer · {item:17333} Aqual Quintessence · {area:2717} Molten Core · {npc:12018} Majordomo Executus · {npc:11502} Ragnaros
@@ -73,7 +73,7 @@ return {
 
 	-- Step 12: Molten Core to Revered
 	-- {area:2717} Molten Core
-	["{area:2717} to Revered"] = "",
+	["{area:2717} to Revered"] = "{area:2717}: Revered itibarına kadar",
 	-- {npc:11988} Golemagg the Incinerator · {npc:11502} Ragnaros · {npc:9017} Lord Incendius · {npc:9816} Pyroguard Emberseer
 	["Honored to Revered is 12,000 reputation. The trash still counts, so a full clear pays about 3,360 plus 700 from the seven bosses, 150 from {npc:11988} and 200 from {npc:11502}: about three clears. {npc:9017} (15) and {npc:9816} (50) count too while you are Honored. The trash stops at 11,999 of 12,000 Honored; the bosses carry you over."] = "",
 	-- {npc:12118} Lucifron
@@ -81,7 +81,7 @@ return {
 
 	-- Step 13: The Eternal Quintessence
 	-- {item:22754} Eternal Quintessence
-	["The {item:22754}"] = "",
+	["The {item:22754}"] = "{item:22754}",
 	-- {item:22754} Eternal Quintessence · {item:17333} Aqual Quintessence
 	["At Revered the Duke gives you the {item:22754}: it does the {item:17333}'s work and is not used up, so you never come back for another vial."] = "",
 	-- {item:22754} Eternal Quintessence
@@ -89,7 +89,7 @@ return {
 
 	-- Step 14: Molten Core to Exalted
 	-- {area:2717} Molten Core
-	["{area:2717} to Exalted"] = "",
+	["{area:2717} to Exalted"] = "{area:2717}: Exalted itibarına kadar",
 	-- {npc:11988} Golemagg the Incinerator · {npc:11502} Ragnaros
 	["Revered to Exalted is 21,000 reputation. The trash has stopped, but all nine bosses still pay while you are Revered: 100 each from the seven, 150 from {npc:11988} and 200 from {npc:11502}, 1,050 a clear: about 20 clears. The seven stop at 20,999 of 21,000 Revered, so the last point comes from {npc:11988} or {npc:11502}, and from Exalted on only those two pay."] = "",
 

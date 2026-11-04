@@ -23,7 +23,7 @@ return {
 	-- {spell:2540} Roasted Boar Meat
 	["{spell:2540}: ingredients"] = "{spell:2540}: malzemeler",
 	-- {npc:1126} Large Crag Boar · {npc:1125} Crag Boar · {zone:1426} Dun Morogh
-	["{npc:1126} (36%), {npc:1125} (34%) in {zone:1426}, or wherever the arrow points"] = "",
+	["{npc:1126} (36%), {npc:1125} (34%) in {zone:1426}, or wherever the arrow points"] = "{zone:1426} bölgesinde {npc:1126} (36%), {npc:1125} (34%) ya da okun gösterdiği yer",
 
 	-- Step 5: Roasted Boar Meat (1-50)
 	-- {spell:2540} Roasted Boar Meat · {object:29784} Basic Campfire
@@ -31,15 +31,15 @@ return {
 
 	-- Step 6: Herb Baked Egg: shopping
 	-- {item:6888} Herb Baked Egg
-	["{item:6888}: shopping"] = "",
+	["{item:6888}: shopping"] = "{item:6888}: alışveriş",
 	-- {item:2678} Mild Spices
-	["The arrow picks the nearest vendor of your faction for each item. You need 50 {item:2678} (1s)."] = "",
+	["The arrow picks the nearest vendor of your faction for each item. You need 50 {item:2678} (1s)."] = "Ok her eşya için tarafının en yakın satıcısını seçer. 50 {item:2678} gerekiyor (1s).",
 
 	-- Step 7: Herb Baked Egg: ingredients
 	-- {item:6888} Herb Baked Egg
-	["{item:6888}: ingredients"] = "",
+	["{item:6888}: ingredients"] = "{item:6888}: malzemeler",
 	-- {npc:1995} Strigid Owl · {zone:1438} Teldrassil
-	["{npc:1995} (58%) in {zone:1438}, or wherever the arrow points"] = "",
+	["{npc:1995} (58%) in {zone:1438}, or wherever the arrow points"] = "{zone:1438} bölgesinde {npc:1995} (58%) ya da okun gösterdiği yer",
 
 	-- Step 8: Herb Baked Egg (1-50)
 	-- {item:6888} Herb Baked Egg · {object:29784} Basic Campfire · {skill:185} Cooking · {item:2678} Mild Spices · {zone:1438} Teldrassil · {item:6889} Small Egg · {zone:1439} Darkshore · {item:6290} Brilliant Smallfish · {npc:6286} Zarrin · {area:186} Dolanaar · {item:5472} Kaldorei Spider Kabob
@@ -56,7 +56,7 @@ return {
 
 	-- Step 11: Roasted Boar Meat: ingredients
 	-- {npc:3099} Dire Mottled Boar · {zone:1411} Durotar
-	["{npc:3099} (99%) in {zone:1411}, or wherever the arrow points"] = "",
+	["{npc:3099} (99%) in {zone:1411}, or wherever the arrow points"] = "{zone:1411} bölgesinde {npc:3099} (99%) ya da okun gösterdiği yer",
 
 	-- Step 13: Charred Wolf Meat: ingredients
 	-- {npc:2960} Prairie Wolf Alpha · {npc:2959} Prairie Stalker · {zone:1412} Mulgore
@@ -64,7 +64,7 @@ return {
 
 	-- Step 15: Charred Wolf Meat: ingredients
 	-- {npc:1547} Decrepit Darkhound · {npc:1548} Cursed Darkhound · {zone:1420} Tirisfal Glades
-	["{npc:1547} (72%), {npc:1548} (33%) in {zone:1420}, or wherever the arrow points"] = "",
+	["{npc:1547} (72%), {npc:1548} (33%) in {zone:1420}, or wherever the arrow points"] = "{zone:1420} bölgesinde {npc:1547} (72%), {npc:1548} (33%) ya da okun gösterdiği yer",
 
 	-- Step 17: Journeyman Cooking
 	-- {skill:185} Cooking
@@ -74,9 +74,9 @@ return {
 
 	-- Step 18: Coyote Steak: ingredients
 	-- {spell:2541} Coyote Steak
-	["{spell:2541}: ingredients"] = "",
+	["{spell:2541}: ingredients"] = "{spell:2541}: malzemeler",
 	-- {npc:834} Coyote · {npc:833} Coyote Packleader · {zone:1436} Westfall
-	["{npc:834} (54%), {npc:833} (51%) in {zone:1436}, or wherever the arrow points"] = "",
+	["{npc:834} (54%), {npc:833} (51%) in {zone:1436}, or wherever the arrow points"] = "{zone:1436} bölgesinde {npc:834} (54%), {npc:833} (51%) ya da okun gösterdiği yer",
 
 	-- Step 19: Coyote Steak (50-90)
 	-- {spell:2541} Coyote Steak · {object:29784} Basic Campfire · {skill:185} Cooking · {zone:1436} Westfall · {npc:235} Salma Saldean · {area:108} Sentinel Hill · {item:733} Westfall Stew · {item:724} Goretusk Liver Pie
@@ -85,15 +85,15 @@ return {
 
 	-- Step 20: Crab Cake: shopping
 	-- {spell:2544} Crab Cake
-	["{spell:2544}: shopping"] = "",
+	["{spell:2544}: shopping"] = "{spell:2544}: alışveriş",
 	-- {item:2678} Mild Spices
-	["The arrow picks the nearest vendor of your faction for each item. You need 44 {item:2678} (90c)."] = "",
+	["The arrow picks the nearest vendor of your faction for each item. You need 44 {item:2678} (90c)."] = "Ok her eşya için tarafının en yakın satıcısını seçer. 44 {item:2678} gerekiyor (90c).",
 
 	-- Step 21: Crab Cake: ingredients
 	-- {spell:2544} Crab Cake
-	["{spell:2544}: ingredients"] = "",
+	["{spell:2544}: ingredients"] = "{spell:2544}: malzemeler",
 	-- {npc:830} Sand Crawler · {zone:1436} Westfall
-	["{npc:830} (43%) in {zone:1436}, or wherever the arrow points"] = "",
+	["{npc:830} (43%) in {zone:1436}, or wherever the arrow points"] = "{zone:1436} bölgesinde {npc:830} (43%) ya da okun gösterdiği yer",
 
 	-- Step 22: Crab Cake (90-130)
 	-- {spell:2544} Crab Cake · {object:29784} Basic Campfire · {skill:185} Cooking · {zone:1436} Westfall · {spell:3376} Curiously Tasty Omelet
@@ -101,14 +101,14 @@ return {
 
 	-- Step 23: Smoked Bear Meat: shopping
 	-- {item:6890} Smoked Bear Meat
-	["{item:6890}: shopping"] = "",
+	["{item:6890}: shopping"] = "{item:6890}: alışveriş",
 	["The arrow picks the nearest vendor of your faction for each item."] = "Ok her eşya için tarafının en yakın satıcısını seçer.",
 
 	-- Step 24: Smoked Bear Meat: ingredients
 	-- {item:6890} Smoked Bear Meat
-	["{item:6890}: ingredients"] = "",
+	["{item:6890}: ingredients"] = "{item:6890}: malzemeler",
 	-- {npc:1189} Black Bear Patriarch · {zone:1432} Loch Modan
-	["{npc:1189} (39%) in {zone:1432}, or wherever the arrow points"] = "",
+	["{npc:1189} (39%) in {zone:1432}, or wherever the arrow points"] = "{zone:1432} bölgesinde {npc:1189} (39%) ya da okun gösterdiği yer",
 
 	-- Step 25: Smoked Bear Meat (50-80)
 	-- {item:6890} Smoked Bear Meat · {object:29784} Basic Campfire · {item:6892} Recipe: Smoked Bear Meat · {zone:1432} Loch Modan
@@ -116,15 +116,15 @@ return {
 
 	-- Step 26: Dry Pork Ribs: shopping
 	-- {spell:2546} Dry Pork Ribs
-	["{spell:2546}: shopping"] = "",
+	["{spell:2546}: shopping"] = "{spell:2546}: alışveriş",
 	-- {item:2678} Mild Spices
-	["The arrow picks the nearest vendor of your faction for each item. You need 52 {item:2678} (1s 10c)."] = "",
+	["The arrow picks the nearest vendor of your faction for each item. You need 52 {item:2678} (1s 10c)."] = "Ok her eşya için tarafının en yakın satıcısını seçer. 52 {item:2678} gerekiyor (1s 10c).",
 
 	-- Step 27: Dry Pork Ribs: ingredients
 	-- {spell:2546} Dry Pork Ribs
-	["{spell:2546}: ingredients"] = "",
+	["{spell:2546}: ingredients"] = "{spell:2546}: malzemeler",
 	-- {npc:1191} Mangy Mountain Boar · {zone:1432} Loch Modan
-	["{npc:1191} (31%) in {zone:1432}, or wherever the arrow points"] = "",
+	["{npc:1191} (31%) in {zone:1432}, or wherever the arrow points"] = "{zone:1432} bölgesinde {npc:1191} (31%) ya da okun gösterdiği yer",
 
 	-- Step 28: Dry Pork Ribs (80-130)
 	-- {spell:2546} Dry Pork Ribs · {object:29784} Basic Campfire · {skill:185} Cooking · {zone:1432} Loch Modan · {spell:3376} Curiously Tasty Omelet
@@ -132,13 +132,13 @@ return {
 
 	-- Step 29: Boiled Clams: shopping
 	-- {item:5525} Boiled Clams
-	["{item:5525}: shopping"] = "",
+	["{item:5525}: shopping"] = "{item:5525}: alışveriş",
 	-- {item:159} Refreshing Spring Water
-	["The arrow picks the nearest vendor of your faction for each item. You need 40 {item:159} (2s)."] = "",
+	["The arrow picks the nearest vendor of your faction for each item. You need 40 {item:159} (2s)."] = "Ok her eşya için tarafının en yakın satıcısını seçer. 40 {item:159} gerekiyor (2s).",
 
 	-- Step 30: Boiled Clams: ingredients
 	-- {item:5525} Boiled Clams
-	["{item:5525}: ingredients"] = "",
+	["{item:5525}: ingredients"] = "{item:5525}: malzemeler",
 	-- {npc:3812} Clattering Crawler · {npc:3814} Spined Crawler · {npc:3944} Wrathtail Priestess · {zone:1439} Darkshore · {item:5523} Small Barnacled Clam · {item:5503} Clam Meat
 	["{npc:3812} (42%), {npc:3814} (42%), {npc:3944} (42%) in {zone:1439}, or wherever the arrow points; open each {item:5523} for its {item:5503}"] = "",
 
@@ -148,7 +148,7 @@ return {
 
 	-- Step 33: Crab Cake: ingredients
 	-- {npc:3814} Spined Crawler · {npc:3812} Clattering Crawler · {zone:1439} Darkshore
-	["{npc:3814} (42%), {npc:3812} (40%) in {zone:1439}, or wherever the arrow points"] = "",
+	["{npc:3814} (42%), {npc:3812} (40%) in {zone:1439}, or wherever the arrow points"] = "{zone:1439} bölgesinde {npc:3814} (42%), {npc:3812} (40%) ya da okun gösterdiği yer",
 
 	-- Step 34: Crab Cake (90-130)
 	-- {spell:2544} Crab Cake · {object:29784} Basic Campfire · {skill:185} Cooking · {zone:1439} Darkshore · {spell:3376} Curiously Tasty Omelet
@@ -158,13 +158,13 @@ return {
 	-- {item:5477} Strider Stew
 	["{item:5477}: shopping"] = "{item:5477}: alışveriş",
 	-- {item:4536} Shiny Red Apple
-	["The arrow picks the nearest vendor of your faction for each item. You need 52 {item:4536} (2s 75c)."] = "",
+	["The arrow picks the nearest vendor of your faction for each item. You need 52 {item:4536} (2s 75c)."] = "Ok her eşya için tarafının en yakın satıcısını seçer. 52 {item:4536} gerekiyor (2s 75c).",
 
 	-- Step 36: Strider Stew: ingredients
 	-- {item:5477} Strider Stew
 	["{item:5477}: ingredients"] = "{item:5477}: malzemeler",
 	-- {npc:3246} Fleeting Plainstrider · {zone:1413} The Barrens
-	["{npc:3246} (32%) in {zone:1413}, or wherever the arrow points"] = "",
+	["{npc:3246} (32%) in {zone:1413}, or wherever the arrow points"] = "{zone:1413} bölgesinde {npc:3246} (32%) ya da okun gösterdiği yer",
 
 	-- Step 37: Strider Stew (50-100)
 	-- {item:5477} Strider Stew · {object:29784} Basic Campfire · {item:5486} Recipe: Strider Stew
@@ -174,7 +174,7 @@ return {
 	-- {item:5479} Crispy Lizard Tail
 	["{item:5479}: shopping"] = "{item:5479}: alışveriş",
 	-- {item:2692} Hot Spices
-	["The arrow picks the nearest vendor of your faction for each item. You need 30 {item:2692} (12s)."] = "",
+	["The arrow picks the nearest vendor of your faction for each item. You need 30 {item:2692} (12s)."] = "Ok her eşya için tarafının en yakın satıcısını seçer. 30 {item:2692} gerekiyor (12s).",
 
 	-- Step 39: Crispy Lizard Tail: ingredients
 	-- {item:5479} Crispy Lizard Tail
@@ -198,7 +198,7 @@ return {
 	-- {spell:3376} Curiously Tasty Omelet
 	["{spell:3376}: shopping"] = "{spell:3376}: alışveriş",
 	-- {item:2692} Hot Spices
-	["The arrow picks the nearest vendor of your faction for each item. You need 46 {item:2692} (18s 40c)."] = "",
+	["The arrow picks the nearest vendor of your faction for each item. You need 46 {item:2692} (18s 40c)."] = "Ok her eşya için tarafının en yakın satıcısını seçer. 46 {item:2692} gerekiyor (18s 40c).",
 
 	-- Step 43: Curiously Tasty Omelet: ingredients
 	-- {spell:3376} Curiously Tasty Omelet
@@ -214,13 +214,13 @@ return {
 	-- {spell:3398} Hot Lion Chops
 	["{spell:3398}: shopping"] = "{spell:3398}: alışveriş",
 	-- {item:2692} Hot Spices
-	["The arrow picks the nearest vendor of your faction for each item. You need 45 {item:2692} (18s)."] = "",
+	["The arrow picks the nearest vendor of your faction for each item. You need 45 {item:2692} (18s)."] = "Ok her eşya için tarafının en yakın satıcısını seçer. 45 {item:2692} gerekiyor (18s).",
 
 	-- Step 46: Hot Lion Chops: ingredients
 	-- {spell:3398} Hot Lion Chops
 	["{spell:3398}: ingredients"] = "{spell:3398}: malzemeler",
 	-- {npc:2384} Starving Mountain Lion · {zone:1424} Hillsbrad Foothills
-	["{npc:2384} (42%) in {zone:1424}, or wherever the arrow points"] = "",
+	["{npc:2384} (42%) in {zone:1424}, or wherever the arrow points"] = "{zone:1424} bölgesinde {npc:2384} (42%) ya da okun gösterdiği yer",
 
 	-- Step 47: Hot Lion Chops (130-175)
 	-- {spell:3398} Hot Lion Chops · {object:29784} Basic Campfire · {item:3735} Recipe: Hot Lion Chops · {item:3731} Lion Meat
@@ -231,13 +231,13 @@ return {
 	-- {item:12210} Roast Raptor
 	["{item:12210}: shopping"] = "{item:12210}: alışveriş",
 	-- {item:2692} Hot Spices
-	["The arrow picks the nearest vendor of your faction for each item. You need 52 {item:2692} (20s 80c)."] = "",
+	["The arrow picks the nearest vendor of your faction for each item. You need 52 {item:2692} (20s 80c)."] = "Ok her eşya için tarafının en yakın satıcısını seçer. 52 {item:2692} gerekiyor (20s 80c).",
 
 	-- Step 49: Roast Raptor: ingredients
 	-- {item:12210} Roast Raptor
 	["{item:12210}: ingredients"] = "{item:12210}: malzemeler",
 	-- {npc:2560} Highland Thrasher · {zone:1417} Arathi Highlands
-	["{npc:2560} (38%) in {zone:1417}, or wherever the arrow points"] = "",
+	["{npc:2560} (38%) in {zone:1417}, or wherever the arrow points"] = "{zone:1417} bölgesinde {npc:2560} (38%) ya da okun gösterdiği yer",
 
 	-- Step 50: Roast Raptor (175-225)
 	-- {item:12210} Roast Raptor · {object:29784} Basic Campfire · {item:12228} Recipe: Roast Raptor · {zone:1417} Arathi Highlands · {npc:2810} Hammon Karwn · {area:320} Refuge Pointe · {npc:2821} Keena · {area:321} Hammerfall · {item:2692} Hot Spices · {item:17222} Spider Sausage · {item:12205} White Spider Meat
@@ -275,13 +275,13 @@ return {
 	-- {item:12218} Monster Omelet
 	["{item:12218}: shopping"] = "{item:12218}: alışveriş",
 	-- {item:3713} Soothing Spices
-	["The arrow picks the nearest vendor of your faction for each item. You need 240 {item:3713} (3g 84s)."] = "",
+	["The arrow picks the nearest vendor of your faction for each item. You need 240 {item:3713} (3g 84s)."] = "Ok her eşya için tarafının en yakın satıcısını seçer. 240 {item:3713} gerekiyor (3g 84s).",
 
 	-- Step 58: Monster Omelet: ingredients
 	-- {item:12218} Monster Omelet
 	["{item:12218}: ingredients"] = "{item:12218}: malzemeler",
 	-- {npc:2929} Savage Owlbeast · {zone:1425} The Hinterlands
-	["{npc:2929} (54%) in {zone:1425}, or wherever the arrow points"] = "",
+	["{npc:2929} (54%) in {zone:1425}, or wherever the arrow points"] = "{zone:1425} bölgesinde {npc:2929} (54%) ya da okun gösterdiği yer",
 
 	-- Step 59: Monster Omelet (225-300)
 	-- {item:12218} Monster Omelet · {object:29784} Basic Campfire · {item:16110} Recipe: Monster Omelet · {item:13931} Nightfin Soup · {npc:8137} Gikkix · {area:977} Steamwheedle Port · {item:13932} Poached Sunscale Salmon · {item:279982} Iron Oven
