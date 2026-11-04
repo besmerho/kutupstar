@@ -1,7 +1,7 @@
 # Handoff: Kutupstar (Polestar TR)
 
 For a session picking this up with no other context, such as a cloud session working from a fresh clone of
-`main`. Read this first, then [ROADMAP.md](../ROADMAP.md) (status and design) and [STIL.md](STIL.md)
+`main` or of the branch `polestar-v0.3.0` (see "Branch `polestar-v0.3.0`" below). Read this first, then [ROADMAP.md](../ROADMAP.md) (status and design) and [STIL.md](STIL.md)
 (the translation rules, in Turkish). Owner: Barış (Turkish native speaker; writes in English or Turkish).
 
 ## What this is
@@ -31,7 +31,28 @@ Barış's two hard requirements:
 | **6 QA** | **ongoing**: the in-game test of the full build (22 Oct) was clean: `fill = early`, every hook on (`prepare`, `packText`, `registerPack`, `font`, `joins`), 222 guides / 6952 texts translated, no error; the font fallback swapped the client's `FRIZQT__.TTF` (no ş) for Fira Sans in Polestar's windows. Waiting for Barış's visual feedback (wording, cut-off text, boxes) |
 | 7 Release | **done**: Kutupstar **0.1.0** uploaded to CurseForge as **beta** (22 Oct; project 1759256, file 9285916, WoW Forever 1.60.1; may still be under CurseForge review), git tag `v0.1.0`. Recorder (33 strings) skipped |
 
-Polestar is pinned at **v0.2.6** (`package.json` → `config.polestarTag`), the version installed in Barış's game.
+Polestar is pinned at **v0.2.6** on `main` (`package.json` → `config.polestarTag`), the version installed in
+Barış's game.
+
+### Branch `polestar-v0.3.0` (4 Nov 2026, Kutupstar 0.1.2)
+
+Polestar **v0.3.0** is pinned on its own branch `polestar-v0.3.0` through the `polestar-sync` skill (sync
+report: `reports/sync-v0.2.6-v0.3.0.md`). State at the last commit:
+
+- Tools adapted for v0.3.0 (guides split into several addons, the `_forever_` game folder, reuse of a
+  translation across guides).
+- UI: 2402/2532 Türkçe; the other 130 stay English on purpose (`src/keep-english.json`). `pending ui` is empty.
+- Guides: 9859/9859 texts in 256 guides, every folder complete (leveling 1-60 both factions, class,
+  professions, reputation, collectibles, exploration, legacy, miscellaneous, packs). "müzayede evi" for the
+  auction house everywhere, as in the UI.
+- `check`: 0 errors, 3 STIL 3.1 warnings (suffix after a name token) in `collectibles/pets/smolderweb-carrier`,
+  `reputation/darkspear-trolls`, `reputation/orgrimmar`; worth a look. `build` succeeds.
+- TOC `## Version: 0.1.2`; `build` fills `X-Polestar-Version` and `Interface` from `upstream/`.
+
+Left, all needing Barış: an in-game test once his game has Polestar v0.3.0 (`build --install` on his PC),
+the CurseForge upload of 0.1.2 (his machine, his OK), and merging the branch into `main` (when he asks).
+A cloud session can polish wording and the 3 warnings, run `check`/`build`, and commit/push on this branch.
+
 The repo `github.com/besmerho/kutupstar` is **public** since 22 Oct (GPL-3.0 source for the CurseForge release).
 
 ## Polestar updates and releases
@@ -54,7 +75,7 @@ The repo `github.com/besmerho/kutupstar` is **public** since 22 Oct (GPL-3.0 sou
 
 ```bash
 npm ci                          # luaparse, the only dependency (Lua 5.1 parser)
-node tools/kutup.js setup       # clones Polestar v0.2.6 into upstream/ (gitignored, read as data only)
+node tools/kutup.js setup       # clones the pinned Polestar (package.json polestarTag) into upstream/ (gitignored, read as data only)
 node tools/kutup.js check       # must end with "0 error(s)"
 node tools/kutup.js stats --guides
 ```
