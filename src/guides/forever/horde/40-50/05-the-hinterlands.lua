@@ -19,12 +19,12 @@ return {
 	-- {npc:7801} Gilveradin Sunchaser
 	["{npc:7801}'s camp"] = "{npc:7801} kampı",
 	-- {area:272} Tarren Mill · {area:47} The Hinterlands · {npc:7801} Gilveradin Sunchaser · {area:350} Quel'Danil Lodge
-	["Ride north-east from {area:272} into the {area:47} and east along the road; {npc:7801} camps on the hill south of the elves' {area:350}."] = "",
+	["Ride north-east from {area:272} into the {area:47} and east along the road; {npc:7801} camps on the hill south of the elves' {area:350}."] = "{area:272} kasabasından kuzeydoğuya, {area:47} bölgesine sür ve yol boyunca doğuya git; {npc:7801}, elflerin {area:350} köşkünün güneyindeki tepede kamp kurmuş.",
 
 	-- Step 5: Highvale
 	["Highvale"] = "Highvale",
 	-- {area:350} Quel'Danil Lodge · {npc:7780} Rin'ji
-	["The Highvale elves camp around {area:350}. Burn the report, the notes and the records in their camps. {npc:7780} is held inside the lodge: lead him out and fight off the ambush on the way.\nCareful: Groups of about three elves ambush the escort, usually twice."] = "",
+	["The Highvale elves camp around {area:350}. Burn the report, the notes and the records in their camps. {npc:7780} is held inside the lodge: lead him out and fight off the ambush on the way.\nCareful: Groups of about three elves ambush the escort, usually twice."] = "Highvale elfleri {area:350} çevresinde kamp kurmuş. Kamplarındaki raporu, notları ve kayıtları yak. {npc:7780} köşkün içinde tutuluyor: onu dışarı çıkar ve yolda pusuyu püskürt.\nDikkat: Üçer kadar elften oluşan gruplar eşliğe pusu kurar, genellikle iki kez.",
 
 	-- Step 6: Violet Tragan
 	["East of the village, the violet flower grows in the hills."] = "Köyün doğusundaki tepelerde mor çiçek yetişiyor.",
@@ -32,7 +32,7 @@ return {
 
 	-- Step 7: Revantusk Village
 	-- {area:47} The Hinterlands
-	["Follow the roads east across the {area:47} to the troll village on the eastern coast."] = "",
+	["Follow the roads east across the {area:47} to the troll village on the eastern coast."] = "Yolları izleyerek {area:47} bölgesini doğuya geç ve doğu kıyısındaki troll köyüne var.",
 
 	-- Step 9: On the way
 	["On the way"] = "Yol üstünde",
@@ -66,7 +66,7 @@ return {
 	["{area:1917}: kill these as you meet them"] = "{area:1917}: bunları karşılaştıkça öldür",
 	-- {area:1884} Agol'watha · {area:1917} Shaol'watha · {area:351} Skulk Rock · {item:9618} Wildkin Muisek Vessel · {npc:14738} Otho Moji'ko · {spell:7367} Infected Bite · {npc:2925} Silvermane Howler
 	-- plural, as words: Silvermane Stalkers = {npc:2926} Silvermane Stalker · Savage Owlbeasts = {npc:2929} Savage Owlbeast · Razorbeak Skylords = {npc:2659} Razorbeak Skylord · Long Elegant Feathers = {item:4589} Long Elegant Feather
-	["West of the island, the Vilebranch scalpers hold the temples of {area:1884} and {area:1917}. Slagtree's tools lie at one of the temples.\nThe Silvermane Stalkers, Savage Owlbeasts and Razorbeak Skylords share the hills between the temples and {area:351}. Use the {item:9618} on the owlbeasts you kill. The Skylords also drop Long Elegant Feathers: keep ten for {npc:14738}'s second message.\nCareful: Silvermane Stalkers are level 47-48 and stay stealthed while out of combat. Up close they use {spell:7367}. When a {npc:2925} falls to 50% health or lower, it calls for help from anything within 25 yd."] = "",
+	["West of the island, the Vilebranch scalpers hold the temples of {area:1884} and {area:1917}. Slagtree's tools lie at one of the temples.\nThe Silvermane Stalkers, Savage Owlbeasts and Razorbeak Skylords share the hills between the temples and {area:351}. Use the {item:9618} on the owlbeasts you kill. The Skylords also drop Long Elegant Feathers: keep ten for {npc:14738}'s second message.\nCareful: Silvermane Stalkers are level 47-48 and stay stealthed while out of combat. Up close they use {spell:7367}. When a {npc:2925} falls to 50% health or lower, it calls for help from anything within 25 yd."] = "Adanın batısında Vilebranch scalper'ları {area:1884} ve {area:1917} tapınaklarını tutuyor. Slagtree'nin aletleri tapınaklardan birinde.\nSilvermane Stalker, Savage Owlbeast ve Razorbeak Skylord yaratıkları tapınaklarla {area:351} arasındaki tepeleri paylaşıyor. Öldürdüğün owlbeast'lerin üzerinde {item:9618} kullan. Skylord'lar Long Elegant Feather da düşürür: {npc:14738} ikinci mesajı için on tane sakla.\nDikkat: Silvermane Stalker yaratıkları seviye 47-48 ve savaş dışındayken gizli kalır. Yakından {spell:7367} kullanırlar. Bir {npc:2925} canı %50 ya da altına düşünce 25 yarda içindeki her şeyden yardım çağırır.",
 
 	-- Step 16: Skulk Rock
 	-- {item:8684} Hinterlands Honey Ripple · {area:351} Skulk Rock
@@ -74,19 +74,19 @@ return {
 
 	-- Step 17: Wildkin Muisek
 	-- {area:1883} Valorwind Lake
-	["Careful: Stealthed wolves and griffons roam the {area:1883} area."] = "",
+	["Careful: Stealthed wolves and griffons roam the {area:1883} area."] = "Dikkat: {area:1883} çevresinde gizlenmiş kurtlar ve grifonlar dolaşıyor.",
 
 	-- Step 18: The Altar of Zul: kill these as you meet them
 	-- {area:355} The Altar of Zul
 	["{area:355}: kill these as you meet them"] = "{area:355}: bunları karşılaştıkça öldür",
 	-- {area:355} The Altar of Zul · {npc:8636} Morta'gya the Keeper
 	-- plural, as words: Silvermane Howlers = {npc:2925} Silvermane Howler
-	["On the way back east, the Vilebranch soothsayers hold the {area:355}, the troll temple south of the central hills. Qiaga and {npc:8636} (elite, 50) stand at its top: take the soothsayers on the lower steps.\nSouth-west, the Silvermane Howlers roam the hills east of the Witherbark villages."] = "",
+	["On the way back east, the Vilebranch soothsayers hold the {area:355}, the troll temple south of the central hills. Qiaga and {npc:8636} (elite, 50) stand at its top: take the soothsayers on the lower steps.\nSouth-west, the Silvermane Howlers roam the hills east of the Witherbark villages."] = "Doğuya dönüş yolunda Vilebranch soothsayer'ları, orta tepelerin güneyindeki troll tapınağı {area:355} sunağını tutuyor. Qiaga ve {npc:8636} (elit, 50) tepesinde duruyor: soothsayer'ları alt basamaklarda hallet.\nGüneybatıda Silvermane Howler yaratıkları Witherbark köylerinin doğusundaki tepelerde dolaşıyor.",
 
 	-- Step 19: OOX-09/HL
 	["OOX-09/HL"] = "OOX-09/HL",
 	-- {area:351} Skulk Rock · {area:307} The Overlook Cliffs · {area:35} Booty Bay
-	["Only with the distress beacon: the robot sits at the head of the river west of {area:351}. Escort it east to the shore beyond the {area:307}; its reward waits with Oglethorpe in {area:35}.\nCareful: Two ambushes spawn during the escort: first three wildkin owlbeasts, then three trolls. Before each, the robot halts and announces it senses danger. Oozes, stealthed wolves and a large turtle along the path can join fights, and they respawn even if cleared beforehand."] = "",
+	["Only with the distress beacon: the robot sits at the head of the river west of {area:351}. Escort it east to the shore beyond the {area:307}; its reward waits with Oglethorpe in {area:35}.\nCareful: Two ambushes spawn during the escort: first three wildkin owlbeasts, then three trolls. Before each, the robot halts and announces it senses danger. Oozes, stealthed wolves and a large turtle along the path can join fights, and they respawn even if cleared beforehand."] = "Yalnızca imdat işaretiyle: robot {area:351} kayasının batısında, nehrin başında oturuyor. Ona doğuya, {area:307} uçurumlarının ötesindeki kıyıya kadar eşlik et; ödülü {area:35} kasabasında Oglethorpe'ta bekliyor.\nDikkat: Eşlik sırasında iki pusu çıkar: önce üç wildkin owlbeast, sonra üç troll. Her birinden önce robot durur ve tehlike sezdiğini söyler. Yol boyunca ooze'lar, gizlenmiş kurtlar ve büyük bir kaplumbağa dövüşlere katılabilir ve önceden temizlense bile yeniden doğarlar.",
 
 	-- Step 20: Gilveradin Sunchaser's camp
 	-- {npc:6986} Dran Droffers · {zone:1454} Orgrimmar
@@ -156,7 +156,7 @@ return {
 	["{area:1440}: kill these as you meet them"] = "{area:1440}: bunları karşılaştıkça öldür",
 	-- {npc:5982} Black Slayer · {spell:5416} Venom Sting · {npc:8301} Clack the Reaver
 	-- plural, as words: Starving Snickerfangs = {npc:5984} Starving Snickerfang · Scorpok Stingers = {npc:5988} Scorpok Stinger
-	["The five quests share the same parts: gather them all in one sweep. West of the road the {npc:5982} vultures, Starving Snickerfangs, Scorpok Stingers and Deatheye basilisks share the hills.\nEast of the road the Ashmane boars and Grunters root on the slopes beside the Redstone basilisks. Stay away from the level 52 Helboars further south.\nCareful: Scorpok Stingers use {spell:5416}; {npc:8301} adds Knockdown."] = "",
+	["The five quests share the same parts: gather them all in one sweep. West of the road the {npc:5982} vultures, Starving Snickerfangs, Scorpok Stingers and Deatheye basilisks share the hills.\nEast of the road the Ashmane boars and Grunters root on the slopes beside the Redstone basilisks. Stay away from the level 52 Helboars further south.\nCareful: Scorpok Stingers use {spell:5416}; {npc:8301} adds Knockdown."] = "Beş görev aynı parçaları paylaşıyor: hepsini tek turda topla. Yolun batısında {npc:5982} akbabaları, Starving Snickerfang, Scorpok Stinger ve Deatheye basilisk'leri tepeleri paylaşıyor.\nYolun doğusunda Ashmane domuzları ve Grunter'lar Redstone basilisk'lerinin yanındaki yamaçlarda toprağı eşeliyor. Daha güneydeki seviye 52 Helboar'lardan uzak dur.\nDikkat: Scorpok Stinger'lar {spell:5416} kullanır; {npc:8301} buna Knockdown ekler.",
 
 	-- Step 36: The bloodmages
 	["Ride back north to the bloodmages."] = "Kuzeye, kan büyücülerine dön.",

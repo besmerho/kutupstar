@@ -19,7 +19,7 @@ return {
 
 	-- Step 5: Boss Tho'grun
 	-- {area:3} Badlands · {area:342} Camp Boff · {npc:2944} Boss Tho'grun
-	["Ride west across the {area:3} to the Dustbelcher camp at {area:342}. {npc:2944} stands in its middle with Wyrmhunters and Maulers around him."] = "",
+	["Ride west across the {area:3} to the Dustbelcher camp at {area:342}. {npc:2944} stands in its middle with Wyrmhunters and Maulers around him."] = "{area:3} bölgesini batıya geçerek {area:342} içindeki Dustbelcher kampına sür. {npc:2944}, çevresinde Wyrmhunter ve Mauler'larla kampın ortasında duruyor.",
 
 	-- Step 6: Garek
 	-- {area:1898} Dustwind Gulch
@@ -48,13 +48,13 @@ return {
 
 	-- Step 12: Aerie Peak
 	-- {area:271} Southshore · {area:47} The Hinterlands · {area:348} Aerie Peak · {npc:5635} Falstad Wildhammer · {quest:1450} Gryphon Master Talonaxe · {npc:7884} Fraggar Thundermantle
-	["Ride north-east out of {area:271} on the road into the {area:47}; {area:348} sits just past the border. {npc:5635} holds court at the top, {quest:1450} tends the aviary and {npc:7884} stands by the inn."] = "",
+	["Ride north-east out of {area:271} on the road into the {area:47}; {area:348} sits just past the border. {npc:5635} holds court at the top, {quest:1450} tends the aviary and {npc:7884} stands by the inn."] = "{area:271} kasabasından yolu kuzeydoğuya izleyerek {area:47} bölgesine sür; {area:348} sınırın hemen ötesinde. {npc:5635} tepede divan kuruyor, {quest:1450} kuşhaneyle ilgileniyor, {npc:7884} de hanın yanında duruyor.",
 	-- {quest:1450} Gryphon Master Talonaxe
 	["{quest:1450}, inside"] = "{quest:1450}, içeride",
 	-- {npc:7884} Fraggar Thundermantle
 	["{npc:7884}, inside"] = "{npc:7884}, içeride",
 	-- {npc:7744} Innkeeper Thulfram
-	["{npc:7744}: the last guide binds here, so this usually ticks at once; below ground"] = "",
+	["{npc:7744}: the last guide binds here, so this usually ticks at once; below ground"] = "{npc:7744}: son rehber Hearthstone'unu buraya bağlıyor, bu yüzden bu adım genelde hemen işaretlenir; yer altında",
 
 	-- Step 13: Rhapsody Shindigger
 	-- {npc:5634} Rhapsody Shindigger · {area:348} Aerie Peak
@@ -69,9 +69,9 @@ return {
 	-- {npc:7884} Fraggar Thundermantle
 	["{npc:7884} keeps paying for necklaces: hand in any extras"] = "{npc:7884} kolyeler için ödemeye devam ediyor: fazlalarını teslim et",
 	-- {npc:5636} Gryphon Master Talonaxe
-	["{npc:5636}, beside the flight master at the top; inside"] = "",
+	["{npc:5636}, beside the flight master at the top; inside"] = "{npc:5636}, tepedeki uçuş ustasının yanında; içeride",
 	-- {area:47} The Hinterlands
-	["Talonaxe's next task waits for a later {area:47} guide."] = "",
+	["Talonaxe's next task waits for a later {area:47} guide."] = "Talonaxe'in sonraki işi daha sonraki bir {area:47} rehberini bekliyor.",
 
 	-- Step 16: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
@@ -93,7 +93,7 @@ return {
 	["Inside {area:498}"] = "{area:498} içinde",
 
 	-- Step 20: Theramore flight master
-	["Theramore flight master"] = "",
+	["Theramore flight master"] = "Theramore uçuş ustası",
 
 	-- Step 22: Warlock: Summon Felsteed
 	-- {quest:3631} Summon Felsteed

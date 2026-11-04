@@ -33,7 +33,7 @@ return {
 	["The Gorishi hive"] = "Gorishi kovanı",
 	-- {npc:9998} Shizzle
 	["The silithid hive fills the south of the crater. Gorishi wasps and workers drop the scent gland; use the Scraping Vial on the egg mass inside the first chamber. The Hive Queen at the bottom is an elite boss: stay out of her chamber. Pterrordax nest on the cliffs above the hive; their scales are for {npc:9998}."] = "",
-	["grind on Pterrordax"] = "",
+	["grind on Pterrordax"] = "Kas: Pterrordax",
 
 	-- Step 7: Power Crystals and soil
 	["Power Crystals and soil"] = "Power Crystal ve toprak",

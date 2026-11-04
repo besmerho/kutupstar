@@ -16,13 +16,13 @@ return {
 	-- Step 6: Riding at 40
 	["Riding at 40"] = "Seviye 40'ta binicilik",
 	-- {npc:4752} Kildar · {object:172958} Valley of Honor · {npc:3362} Ogunaro Wolfrunner · {npc:265756} Genn Fairweather · {area:17684} Fairweather Stables · {area:16638} Valanaar · {area:17045} Skywatcher Plateau · {zone:1456} Thunder Bluff
-	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. {npc:4752} teaches Orcs in the {object:172958}, by {npc:3362}'s kennel. Skyborne learn it from {npc:265756} at the {area:17684} in {area:16638} on Zephras Isle, with a Galestrider: the skyboat to the isle leaves the cliffs south of {area:17045}, north of {zone:1456}, about every five minutes. Your race's other mounts are 20 gold each: Collectibles, Mounts · Level 40 has a guide for each."] = "",
+	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. {npc:4752} teaches Orcs in the {object:172958}, by {npc:3362}'s kennel. Skyborne learn it from {npc:265756} at the {area:17684} in {area:16638} on Zephras Isle, with a Galestrider: the skyboat to the isle leaves the cliffs south of {area:17045}, north of {zone:1456}, about every five minutes. Your race's other mounts are 20 gold each: Collectibles, Mounts · Level 40 has a guide for each."] = "Binicilik seviye 40 ister ve 100 altına mal olur; öğrenince bir binek de alırsın. {npc:4752}, {object:172958} kesiminde, {npc:3362} köpek kulübesinin yanında Orc'lara öğretiyor. Skyborne'lar bunu Zephras Isle'daki {area:16638} kasabasında, {area:17684} ahırlarındaki {npc:265756} ile bir Galestrider'la birlikte öğrenir: adaya giden gökgemisi {zone:1456} şehrinin kuzeyindeki {area:17045} platosunun güneyindeki uçurumlardan yaklaşık beş dakikada bir kalkar. Irkının diğer binekleri tanesi 20 altın: Koleksiyon, Binekler · Seviye 40 her biri için bir rehber içerir.",
 	-- {npc:4752} Kildar
 	["{npc:4752}, riding trainer"] = "{npc:4752}, binicilik eğitmeni",
 	-- {npc:3362} Ogunaro Wolfrunner · {npc:4752} Kildar
 	["Wolves: {npc:3362}, beside {npc:4752}."] = "Kurtlar: {npc:4752} adlı NPC'nin yanındaki {npc:3362}.",
 	-- {npc:265756} Genn Fairweather · {area:17684} Fairweather Stables · {area:16638} Valanaar
-	["Riding and Galestriders: {npc:265756}, at the {area:17684} in {area:16638} on Zephras Isle."] = "",
+	["Riding and Galestriders: {npc:265756}, at the {area:17684} in {area:16638} on Zephras Isle."] = "Binicilik ve Galestrider'lar: {npc:265756}, Zephras Isle'daki {area:16638} kasabasında, {area:17684} ahırlarında.",
 
 	-- Step 8: Fly to Freewind Post
 	-- {area:484} Freewind Post
@@ -32,7 +32,7 @@ return {
 
 	-- Step 10: Gadgetzan
 	-- {area:976} Gadgetzan · {area:440} Tanaris
-	["{area:976} is the walled goblin town just past the {area:440} border."] = "",
+	["{area:976} is the walled goblin town just past the {area:440} border."] = "{area:976}, {area:440} sınırının hemen ötesindeki surlarla çevrili goblin kasabası.",
 
 	-- Step 11: Fly to Thunder Bluff
 	-- {area:1638} Thunder Bluff
@@ -42,7 +42,7 @@ return {
 
 	-- Step 13: Riding at 40
 	-- {npc:3690} Kar Stormsinger · {area:222} Bloodhoof Village · {npc:3685} Harb Clawhoof · {npc:4752} Kildar · {zone:1454} Orgrimmar
-	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. Each race learns it from its own race's trainer: yours is {npc:3690} in {area:222}, with {npc:3685}'s kodos (20 gold each) beside him. Another race's trainer ({npc:4752} in {zone:1454}) teaches you only once you are Exalted with his city."] = "",
+	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. Each race learns it from its own race's trainer: yours is {npc:3690} in {area:222}, with {npc:3685}'s kodos (20 gold each) beside him. Another race's trainer ({npc:4752} in {zone:1454}) teaches you only once you are Exalted with his city."] = "Binicilik seviye 40 ister ve 100 altına mal olur; öğrenince bir binek de alırsın. Her ırk bunu kendi ırkının eğitmeninden öğrenir: seninki {area:222} köyünde {npc:3690}, yanında {npc:3685} kodoları (tanesi 20 altın). Başka bir ırkın eğitmeni ({zone:1454} şehrinde {npc:4752}) sana ancak onun şehriyle Exalted olunca öğretir.",
 	-- {npc:3690} Kar Stormsinger
 	["{npc:3690}, riding trainer"] = "{npc:3690}, binicilik eğitmeni",
 	-- {npc:3685} Harb Clawhoof · {npc:3690} Kar Stormsinger · {area:222} Bloodhoof Village
@@ -58,7 +58,7 @@ return {
 
 	-- Step 16: Riding at 40
 	-- {npc:4773} Velma Warnam · {area:159} Brill · {npc:4731} Zachariah Post · {npc:4752} Kildar · {zone:1454} Orgrimmar
-	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. Each race learns it from its own race's trainer: yours is {npc:4773} in {area:159}, with {npc:4731}'s skeletal horses (20 gold each) beside her. Another race's trainer ({npc:4752} in {zone:1454}) teaches you only once you are Exalted with his city."] = "",
+	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. Each race learns it from its own race's trainer: yours is {npc:4773} in {area:159}, with {npc:4731}'s skeletal horses (20 gold each) beside her. Another race's trainer ({npc:4752} in {zone:1454}) teaches you only once you are Exalted with his city."] = "Binicilik seviye 40 ister ve 100 altına mal olur; öğrenince bir binek de alırsın. Her ırk bunu kendi ırkının eğitmeninden öğrenir: seninki {area:159} kasabasında {npc:4773}, yanında {npc:4731} iskelet atları (tanesi 20 altın). Başka bir ırkın eğitmeni ({zone:1454} şehrinde {npc:4752}) sana ancak onun şehriyle Exalted olunca öğretir.",
 	-- {npc:4773} Velma Warnam
 	["{npc:4773}, riding trainer"] = "{npc:4773}, binicilik eğitmeni",
 	-- {npc:4731} Zachariah Post · {npc:4773} Velma Warnam · {area:159} Brill
@@ -91,7 +91,7 @@ return {
 	["{area:1937}: kill these as you meet them"] = "{area:1937}: bunları karşılaştıkça öldür",
 	-- {area:976} Gadgetzan
 	-- plural, as words: Wastewander Rogues = {npc:5615} Wastewander Rogue
-	["The bandits and thieves camp in the dunes east of {area:976}. Every Wastewander can carry a water pouch: keep ten, five for each of Luglunket's bounties.\nCareful: Wastewander Rogues (level 43-44) move stealthed, so they can approach unseen."] = "",
+	["The bandits and thieves camp in the dunes east of {area:976}. Every Wastewander can carry a water pouch: keep ten, five for each of Luglunket's bounties.\nCareful: Wastewander Rogues (level 43-44) move stealthed, so they can approach unseen."] = "Haydutlar ve hırsızlar {area:976} kasabasının doğusundaki kum tepelerinde kamp kurmuş. Her Wastewander su kesesi taşıyabilir: on tane sakla, Luglunket'in iki ödül görevi için beşer.\nDikkat: Wastewander Rogue yaratıkları (seviye 43-44) gizlenerek dolaşır, bu yüzden görünmeden yaklaşabilirler.",
 	["water pouches in your bags"] = "çantandaki su keseleri",
 
 	-- Step 32: Steamwheedle Port
@@ -105,7 +105,7 @@ return {
 	-- {area:1336} Lost Rigger Cove
 	["{area:1336}: kill these as you meet them"] = "{area:1336}: bunları karşılaştıkça öldür",
 	-- {npc:7883} Andre Firebeard
-	["South along the coast, the Southsea pirates hold the cove. {npc:7883} and the stolen cargo are on the docks at its far end. Any pirate can drop a hat, the kidnappers most often.\nCareful: Two or three pirates stand with {npc:7883}, and many more pirates from the town join the fight once it starts."] = "",
+	["South along the coast, the Southsea pirates hold the cove. {npc:7883} and the stolen cargo are on the docks at its far end. Any pirate can drop a hat, the kidnappers most often.\nCareful: Two or three pirates stand with {npc:7883}, and many more pirates from the town join the fight once it starts."] = "Kıyı boyunca güneyde Southsea korsanları koyu tutuyor. {npc:7883} ve çalınan yük koyun en ucundaki iskelelerde. Her korsan şapka düşürebilir, en sık kaçıranlar.\nDikkat: {npc:7883} ile iki üç korsan duruyor, dövüş başlayınca kasabadan çok daha fazla korsan katılır.",
 	["Upstairs"] = "Üst katta",
 
 	-- Step 34: Waterspring Field: kill these as you meet them
@@ -113,7 +113,7 @@ return {
 	["{area:985}: kill these as you meet them"] = "{area:985}: bunları karşılaştıkça öldür",
 	-- {area:976} Gadgetzan · {npc:7847} Caliph Scorpidsting
 	-- plural, as words: Wastewander Rogues = {npc:5615} Wastewander Rogue
-	["The shadow mages, rogues and assassins camp south-east of {area:976}.\nSouth-east of Gadgetzan the Wastewander bandits camp in the dunes; {npc:7847} stands in the eastern camp.\nCareful: Wastewander Rogues keep Sneak up while out of combat, so hidden rogues can join a fight you start at a camp.\nCareful: Two stealthed Wastewander Rogues travel with him wherever he goes. At his spawn camp, two shadowmages and their minions are close enough to join a fight with him. Out by the towers you can fight him without them."] = "",
+	["The shadow mages, rogues and assassins camp south-east of {area:976}.\nSouth-east of Gadgetzan the Wastewander bandits camp in the dunes; {npc:7847} stands in the eastern camp.\nCareful: Wastewander Rogues keep Sneak up while out of combat, so hidden rogues can join a fight you start at a camp.\nCareful: Two stealthed Wastewander Rogues travel with him wherever he goes. At his spawn camp, two shadowmages and their minions are close enough to join a fight with him. Out by the towers you can fight him without them."] = "Shadow mage, rogue ve assassin'ler {area:976} kasabasının güneydoğusunda kamp kurmuş.\nGadgetzan'ın güneydoğusunda Wastewander haydutları kum tepelerinde kamp kurmuş; {npc:7847} doğudaki kampta duruyor.\nDikkat: Wastewander Rogue yaratıkları savaş dışındayken Sneak'i açık tutar, bu yüzden bir kampta başlattığın dövüşe gizli rogue'lar katılabilir.\nDikkat: Nereye giderse gitsin yanında iki gizli Wastewander Rogue dolaşıyor. Doğduğu kampta iki shadowmage ve hizmetkârları onunla dövüşe katılacak kadar yakın. Kulelerin oralarda onlarsız dövüşebilirsin.",
 
 	-- Step 38: Camp Mojache
 	-- {npc:7777} Rok Orhan · {area:1099} Camp Mojache
@@ -128,7 +128,7 @@ return {
 
 	-- Step 40: Woodpaw north camp
 	["Woodpaw north camp"] = "Woodpaw kuzey kampı",
-	["The Woodpaw gnolls camp in the hills just north-west of Mojache; any of them can drop a mane.\nCareful: Every Woodpaw gnoll except the Alpha runs off for help at 15% health, which can pull more gnolls into the fight."] = "",
+	["The Woodpaw gnolls camp in the hills just north-west of Mojache; any of them can drop a mane.\nCareful: Every Woodpaw gnoll except the Alpha runs off for help at 15% health, which can pull more gnolls into the fight."] = "Woodpaw gnoll'ları Mojache'nin hemen kuzeybatısındaki tepelerde kamp kurmuş; herhangi biri yele düşürebilir.\nDikkat: Alpha dışındaki her Woodpaw gnoll'u canı %15'e düşünce yardım için kaçar, bu da dövüşe daha fazla gnoll çekebilir.",
 
 	-- Step 41: Camp Mojache
 	-- {quest:2863} Alpha Strike
@@ -137,7 +137,7 @@ return {
 	-- Step 42: Feralas: kill these as you meet them
 	-- {area:357} Feralas
 	["{area:357}: kill these as you meet them"] = "{area:357}: bunları karşılaştıkça öldür",
-	["The sprite darters flit over the grove just west of Mojache; nearly every one drops a wing. The Woodpaw alphas lead the camps south-west of it: kill them within the hour.\nCareful: Most Alphas sit in small tent camps with 2-4 other gnolls that join the fight, and other gnolls patrol between the camps."] = "",
+	["The sprite darters flit over the grove just west of Mojache; nearly every one drops a wing. The Woodpaw alphas lead the camps south-west of it: kill them within the hour.\nCareful: Most Alphas sit in small tent camps with 2-4 other gnolls that join the fight, and other gnolls patrol between the camps."] = "Sprite darter'lar Mojache'nin hemen batısındaki korunun üstünde uçuşuyor; neredeyse hepsi kanat düşürür. Woodpaw alpha'ları onun güneybatısındaki kampları yönetiyor: onları bir saat içinde öldür.\nDikkat: Alpha'ların çoğu dövüşe katılan 2-4 başka gnoll'la küçük çadır kamplarında oturuyor, kamplar arasında da başka gnoll'lar devriye geziyor.",
 
 	-- Step 44: Grimtotem camp
 	["Grimtotem camp"] = "Grimtotem kampı",
@@ -177,7 +177,7 @@ return {
 
 	-- Step 54: Homing Robot OOX-22/FE
 	-- {area:1105} Feral Scar Vale · {area:1108} The Forgotten Coast · {area:35} Booty Bay
-	["Only with the distress beacon: the robot sits in a small cave on the north side of {area:1105}. Escort it to the dock on the {area:1108}; yetis and gorillas ambush you on the way. Its reward waits in {area:35} for a later visit.\nCareful: Three ambushes spawn during the escort, and the robot warns you before each one. The first is 3 yetis, just after the robot leaves the cave and climbs toward the road. The second is 3 gorillas, on the path that runs along the cliff. The third is about 4 gnolls, one of them a caster, where the route turns off toward the dock."] = "",
+	["Only with the distress beacon: the robot sits in a small cave on the north side of {area:1105}. Escort it to the dock on the {area:1108}; yetis and gorillas ambush you on the way. Its reward waits in {area:35} for a later visit.\nCareful: Three ambushes spawn during the escort, and the robot warns you before each one. The first is 3 yetis, just after the robot leaves the cave and climbs toward the road. The second is 3 gorillas, on the path that runs along the cliff. The third is about 4 gnolls, one of them a caster, where the route turns off toward the dock."] = "Yalnızca imdat işaretiyle: robot {area:1105} vadisinin kuzey yakasındaki küçük bir mağarada oturuyor. Ona {area:1108} kıyısındaki iskeleye kadar eşlik et; yolda yeti'ler ve goriller pusu kurar. Ödülü sonraki bir ziyaret için {area:35} kasabasında bekliyor.\nDikkat: Eşlik sırasında üç pusu çıkar ve robot her birinden önce seni uyarır. İlki 3 yeti, robot mağaradan çıkıp yola tırmandıktan hemen sonra. İkincisi 3 goril, uçurum boyunca uzanan patikada. Üçüncüsü biri büyücü yaklaşık 4 gnoll, rotanın iskeleye saptığı yerde.",
 
 	-- Step 56: Fly to Orgrimmar
 	-- {area:1099} Camp Mojache
@@ -185,7 +185,7 @@ return {
 
 	-- Step 57: Orgrimmar
 	-- {zone:1454} Orgrimmar · {object:172958} Valley of Honor · {object:172960} Cleft of Shadow · {object:172961} Valley of Spirits
-	["Fly to {zone:1454}. The Droffers brothers run their shop in the Drag.\n{object:172958}, then the {object:172960} and the {object:172961}."] = "",
+	["Fly to {zone:1454}. The Droffers brothers run their shop in the Drag.\n{object:172958}, then the {object:172960} and the {object:172961}."] = "{zone:1454} şehrine uç. Droffers kardeşler dükkânlarını Drag'de işletiyor.\n{object:172958}, sonra {object:172960} ve {object:172961}.",
 	-- {zone:1425} Hinterlands
 	["for the {zone:1425}, around level 48"] = "{zone:1425} için, seviye 48 civarında",
 

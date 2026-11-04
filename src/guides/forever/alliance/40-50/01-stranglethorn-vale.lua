@@ -39,18 +39,18 @@ return {
 
 	-- Step 9: North Point Tower
 	-- {npc:4966} Private Hendel
-	["{npc:4966} holds the tower with a few deserters. He turns on you: beat him until he yields.\nCareful: Hendel has two guards who join the fight when he turns hostile. The guards flee once he surrenders."] = "",
+	["{npc:4966} holds the tower with a few deserters. He turns on you: beat him until he yields.\nCareful: Hendel has two guards who join the fight when he turns hostile. The guards flee once he surrenders."] = "{npc:4966} birkaç asker kaçağıyla kuleyi tutuyor. Sana düşman olur: teslim olana kadar onu döv.\nDikkat: Hendel'in düşmanlaştığında dövüşe katılan iki muhafızı var. O teslim olunca muhafızlar kaçar.",
 
 	-- Step 10: Darkmist Cavern
 	-- plural, as words: Darkmist Lurkers = {npc:4377} Darkmist Lurker
-	["The Darkmist spiders nest around the cavern in the north-west of the marsh; every spider drops eyes.\nCareful: Darkmist Lurkers move about stealthed and use poison once in combat. The spiders stand close together, so adds are common; pulling single targets from the outer edge cuts down on them."] = "",
+	["The Darkmist spiders nest around the cavern in the north-west of the marsh; every spider drops eyes.\nCareful: Darkmist Lurkers move about stealthed and use poison once in combat. The spiders stand close together, so adds are common; pulling single targets from the outer edge cuts down on them."] = "Darkmist örümcekleri bataklığın kuzeybatısındaki mağaranın çevresinde yuva yapmış; her örümcek göz düşürür.\nDikkat: Darkmist Lurker yaratıkları gizlenerek dolaşır ve savaşa girince zehir kullanır. Örümcekler birbirine yakın durduğu için ek yaratık yaygın; dış kenardan tek hedef çekmek bunu azaltır.",
 
 	-- Step 11: Mudcrush Durtfeet
 	["Ride south to the giant's hut in the middle of the marsh."] = "Güneye, bataklığın ortasındaki devin kulübesine git.",
 
 	-- Step 12: The Shady Rest Inn
 	-- {area:17} Barrens
-	["The burned inn stands on the road west, toward the {area:17}; the guard's badge lies in the ashes and the hoofprints are in the mud beside the inn."] = "",
+	["The burned inn stands on the road west, toward the {area:17}; the guard's badge lies in the ashes and the hoofprints are in the mud beside the inn."] = "Yanmış han batıya, {area:17} yönüne giden yolun üstünde duruyor; muhafızın rozeti küllerin içinde, toynak izleri de hanın yanındaki çamurda.",
 
 	-- Step 13: Hearth to Theramore Isle
 	-- {area:513} Theramore Isle
@@ -101,17 +101,17 @@ return {
 	-- Step 25: Riding at 40
 	["Riding at 40"] = "Seviye 40'ta binicilik",
 	-- {npc:4732} Randal Hunter · {area:88} Eastvale Logging Camp · {area:12} Elwynn Forest · {npc:384} Katie Hunter
-	["At 40 with 100 gold you can learn to ride, and learning it gives you a mount. {npc:4732} teaches Humans at {area:88} in eastern {area:12}, beside {npc:384}'s horses. Forever may let any race learn from any riding trainer (unconfirmed). Collectibles, Mounts · Level 40 lists every colour."] = "",
+	["At 40 with 100 gold you can learn to ride, and learning it gives you a mount. {npc:4732} teaches Humans at {area:88} in eastern {area:12}, beside {npc:384}'s horses. Forever may let any race learn from any riding trainer (unconfirmed). Collectibles, Mounts · Level 40 lists every colour."] = "Seviye 40'ta 100 altınla binmeyi öğrenebilirsin; öğrenince bir binek de alırsın. {npc:4732}, doğu {area:12} içindeki {area:88} kampında, {npc:384} atlarının yanında Human'lara öğretiyor. Forever her ırkın her binicilik eğitmeninden öğrenmesine izin veriyor olabilir (doğrulanmadı). Koleksiyon, Binekler · Seviye 40 her rengi listeler.",
 	-- {npc:384} Katie Hunter
 	["{npc:384}: other colours, 20g"] = "{npc:384}: diğer renkler, 20 altın",
 
 	-- Step 26: Riding at 40
 	-- {npc:265756} Genn Fairweather · {area:17684} Fairweather Stables · {area:16638} Valanaar · {area:279} Dalaran
-	["At 40 with 100 gold you can learn to ride, and learning it gives you a mount. Skyborne learn it from {npc:265756}, the stablemaster and riding trainer at the {area:17684} in {area:16638} on Zephras Isle, who also sells the Galestriders: the skyboat to the isle leaves the north side of {area:279} about every five minutes. Collectibles, Mounts · Level 40 lists the Galestriders."] = "",
+	["At 40 with 100 gold you can learn to ride, and learning it gives you a mount. Skyborne learn it from {npc:265756}, the stablemaster and riding trainer at the {area:17684} in {area:16638} on Zephras Isle, who also sells the Galestriders: the skyboat to the isle leaves the north side of {area:279} about every five minutes. Collectibles, Mounts · Level 40 lists the Galestriders."] = "Seviye 40'ta 100 altınla binmeyi öğrenebilirsin; öğrenince bir binek de alırsın. Skyborne'lar bunu Zephras Isle'daki {area:16638} kasabasında, {area:17684} ahırlarındaki ahır ustası ve binicilik eğitmeni {npc:265756} ile öğrenir; o Galestrider'ları da satar: adaya giden gökgemisi {area:279} şehrinin kuzey yakasından yaklaşık beş dakikada bir kalkar. Koleksiyon, Binekler · Seviye 40 Galestrider'ları listeler.",
 	-- {npc:265756} Genn Fairweather · {area:17684} Fairweather Stables · {area:16638} Valanaar
-	["Riding and Galestriders: {npc:265756}, at the {area:17684} in {area:16638} on Zephras Isle."] = "",
+	["Riding and Galestriders: {npc:265756}, at the {area:17684} in {area:16638} on Zephras Isle."] = "Binicilik ve Galestrider'lar: {npc:265756}, Zephras Isle'daki {area:16638} kasabasında, {area:17684} ahırlarında.",
 	-- {area:279} Dalaran
-	["Skyboat to Zephras Isle: the north side of {area:279}, about every five minutes."] = "",
+	["Skyboat to Zephras Isle: the north side of {area:279}, about every five minutes."] = "Zephras Isle'a gökgemisi: {area:279} şehrinin kuzey yakası, yaklaşık beş dakikada bir.",
 
 	-- Step 27: Boat to Booty Bay
 	-- {area:35} Booty Bay
@@ -143,7 +143,7 @@ return {
 	-- {npc:2542} Catelyn the Blade
 	["{npc:2542}, upstairs"] = "{npc:2542}, üst katta",
 	-- {zone:1446} Tanaris
-	["for Stoley in {zone:1446}: keep it; on the top floor"] = "",
+	["for Stoley in {zone:1446}: keep it; on the top floor"] = "{zone:1446} bölgesindeki Stoley için: sakla; en üst katta",
 
 	-- Step 51: Bloodsail camp
 	["Bloodsail camp"] = "Bloodsail kampı",
@@ -194,7 +194,7 @@ return {
 	-- {area:43} Wild Shore · {npc:2546} Fleet Master Firallon
 	["The captains stand on the ships anchored off the {area:43}, each with a crew of 42-45 pirates: Stillwater (45) and Keelhaul (46) on the nearer decks, {npc:2546} (48) on the flagship. At 42 this is a fight for a group or for the end of the guide; clear each deck first if you go. Cortello's scroll lies on the wreck by the shore."] = "Kaptanlar {area:43} sahilinin açığında demirli gemilerde, her biri 42-45 seviyesinde korsanlardan oluşan bir mürettebatla duruyor: Stillwater (45) ve Keelhaul (46) yakın güvertelerde, {npc:2546} (48) amiral gemisinde. Seviye 42'de bu bir grup işi ya da rehberin sonuna kalacak bir dövüş; gidersen önce her güverteyi temizle. Cortello'nun tomarı kıyıdaki batıkta duruyor.",
 	-- {area:8} Swamp of Sorrows
-	["for the {area:8} later"] = "",
+	["for the {area:8} later"] = "Sonra {area:8} için",
 
 	-- Step 62: Zanzil's village
 	["Zanzil's village"] = "Zanzil'in köyü",
@@ -240,7 +240,7 @@ return {
 	["{area:103}: kill these as you meet them"] = "{area:103}: bunları karşılaştıkça öldür",
 	-- {area:310} Crystalvein Mine
 	-- plural, as words: Shadowmaw Panthers = {npc:684} Shadowmaw Panther
-	["The Skullsplitter trolls hold the ruins just east of the mine; any of them can drop tusks, their panthers always do.\nFollow the road north-east to the Venture Co. camp at the {area:310}; the miners, surveyors and foremen drop the crystals.\nCareful: Stealthed Shadowmaw Panthers and Stranglethorn Tigresses roam the area around the camp."] = "",
+	["The Skullsplitter trolls hold the ruins just east of the mine; any of them can drop tusks, their panthers always do.\nFollow the road north-east to the Venture Co. camp at the {area:310}; the miners, surveyors and foremen drop the crystals.\nCareful: Stealthed Shadowmaw Panthers and Stranglethorn Tigresses roam the area around the camp."] = "Skullsplitter troll'leri madenin hemen doğusundaki harabeleri tutuyor; herhangi biri diş düşürebilir, panterleri her zaman düşürür.\nYolu kuzeydoğuya, {area:310} madenindeki Venture Co. kampına izle; madenciler, araştırmacılar ve ustabaşılar kristalleri düşürür.\nDikkat: Kampın çevresinde gizlenmiş Shadowmaw Panther ve Stranglethorn Tigress yaratıkları dolaşıyor.",
 
 	-- Step 71: Hearth to Booty Bay
 	-- {area:35} Booty Bay
@@ -271,7 +271,7 @@ return {
 
 	-- Step 82: Big Game Hunter
 	-- {npc:731} King Bangalash
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:731} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back.\nCareful: Tigers and stealthed shadowmaw panthers roam close to him. Clear them before you pull him. When he is pulled, {npc:731} calls for help from creatures within 20 yd."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:731} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back.\nCareful: Tigers and stealthed shadowmaw panthers roam close to him. Clear them before you pull him. When he is pulled, {npc:731} calls for help from creatures within 20 yd."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:731}, seviye 43 bir elit: çoğu sınıf seviye 45 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.\nDikkat: Yakınında kaplanlar ve gizlenmiş shadowmaw panterleri dolaşıyor. Onu çekmeden önce onları temizle. Çekildiğinde {npc:731} 20 yarda içindeki yaratıklardan yardım çağırır.",
 
 	-- Step 84: Level 42.33
 	["Level 42.33"] = "Seviye 42.33",
@@ -328,7 +328,7 @@ return {
 
 	-- Step 98: Watcher Biggs
 	-- {npc:5476} Watcher Biggs
-	["{npc:5476} stands by the road junction in the west of the swamp."] = "",
+	["{npc:5476} stands by the road junction in the west of the swamp."] = "{npc:5476}, bataklığın batısındaki yol kavşağının yanında duruyor.",
 
 	-- Step 99: Into Deadwind Pass
 	-- {zone:1430} Deadwind Pass
@@ -350,7 +350,7 @@ return {
 
 	-- Step 106: Riding at 40
 	-- {npc:4753} Jartsam · {zone:1457} Darnassus · {npc:4730} Lelanai · {area:17203} Stormwind Harbor · {area:442} Auberdine · {area:702} Rut'theran Village · {npc:4732} Randal Hunter · {area:88} Eastvale Logging Camp · {area:12} Elwynn Forest
-	["At 40 with 100 gold you can learn to ride, and learning it gives you a mount. {npc:4753} teaches Night Elves in {zone:1457}, beside {npc:4730}'s sabers: the boat from {area:17203} to {area:442}, then the flight to {area:702}. Forever may let any race learn from any riding trainer (unconfirmed), such as {npc:4732} at {area:88} in {area:12}. Collectibles, Mounts · Level 40 lists every colour."] = "",
+	["At 40 with 100 gold you can learn to ride, and learning it gives you a mount. {npc:4753} teaches Night Elves in {zone:1457}, beside {npc:4730}'s sabers: the boat from {area:17203} to {area:442}, then the flight to {area:702}. Forever may let any race learn from any riding trainer (unconfirmed), such as {npc:4732} at {area:88} in {area:12}. Collectibles, Mounts · Level 40 lists every colour."] = "Seviye 40'ta 100 altınla binmeyi öğrenebilirsin; öğrenince bir binek de alırsın. {npc:4753}, {zone:1457} şehrinde, {npc:4730} sabre'larının yanında Night Elf'lere öğretiyor: {area:17203} limanından {area:442} kasabasına gemi, sonra {area:702} köyüne uçuş. Forever her ırkın her binicilik eğitmeninden öğrenmesine izin veriyor olabilir (doğrulanmadı); örneğin {area:12} içindeki {area:88} kampında {npc:4732}. Koleksiyon, Binekler · Seviye 40 her rengi listeler.",
 	-- {npc:4730} Lelanai
 	["{npc:4730}: other colours, 20g"] = "{npc:4730}: diğer renkler, 20 altın",
 
@@ -407,7 +407,7 @@ return {
 
 	-- Step 127: Hammertoe's Digsite
 	-- {zone:1432} Loch Modan · {area:3} Badlands · {npc:2860} Sigrun Ironhew
-	["Ride south out of {zone:1432} through the pass into the {area:3}; {npc:2860} camps at the dig."] = "",
+	["Ride south out of {zone:1432} through the pass into the {area:3}; {npc:2860} camps at the dig."] = "{zone:1432} bölgesinden güneye, geçitten {area:3} bölgesine sür; {npc:2860} kazıda kamp kurmuş.",
 
 	-- Step 128: Garek
 	-- {npc:2888} Garek · {area:1898} Dustwind Gulch

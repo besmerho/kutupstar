@@ -19,16 +19,16 @@ return {
 	-- {area:35} Booty Bay
 	["The boat lands in {area:35}'s harbour. The quest givers stand on the boardwalks around the harbour and in the inn."] = "Gemi {area:35} limanına yanaşır. Görev verenler limanın çevresindeki tahta iskelelerde ve handa duruyor.",
 	-- {npc:2495} Drizzlik
-	["{npc:2495}: the Snapjaw skins gathered earlier; inside"] = "",
+	["{npc:2495}: the Snapjaw skins gathered earlier; inside"] = "{npc:2495}: daha önce topladığın Snapjaw derileri; içeride",
 	-- {npc:737} Kebok
 	["{npc:737}, upstairs"] = "{npc:737}, üst katta",
 	-- {area:272} Tarren Mill · {zone:1417} Arathi Highlands
 	["The next guide flies you north to {area:272} and into the {zone:1417}."] = "Sonraki rehber seni kuzeye, {area:272} kasabasına ve {zone:1417} bölgesine uçuruyor.",
 	-- {zone:1446} Tanaris
-	["for Stoley in {zone:1446}; on the top floor"] = "",
+	["for Stoley in {zone:1446}; on the top floor"] = "{zone:1446} bölgesindeki Stoley için; en üst katta",
 	["Inside"] = "İçeride",
 	-- {npc:773} Krazek · {quest:2864} Tran'rek · {area:976} Gadgetzan
-	["{npc:773}: for {quest:2864} in {area:976}; upstairs"] = "",
+	["{npc:773}: for {quest:2864} in {area:976}; upstairs"] = "{npc:773}: {area:976} kasabasındaki {quest:2864} için; üst katta",
 
 	-- Step 6: Fly to Grom'gol
 	-- {object:3202} Grom'gol (no name in this language: may be words)
@@ -63,14 +63,14 @@ return {
 	["{area:1737}: kill these as you meet them"] = "{area:1737}: bunları karşılaştıkça öldür",
 	-- {area:43} Wild Shore · {npc:2493} Dizzy One-Eye · {area:35} Booty Bay · {area:1737} Mistvale Valley
 	-- plural, as words: Elder Mistvale Gorillas = {npc:1557} Elder Mistvale Gorilla
-	["South of Booty Bay the Bloodsail swashbucklers camp on the {area:43}; the charts and the orders lie in their tents. Any Bloodsail can carry snuff and {npc:2493}'s eye, so keep killing until you have both.\nTake the road south towards {area:35}. The Elder Mistvale Gorillas (40-41) live in {area:1737}, east of the road; about one in twenty carries an aged sinew."] = "",
+	["South of Booty Bay the Bloodsail swashbucklers camp on the {area:43}; the charts and the orders lie in their tents. Any Bloodsail can carry snuff and {npc:2493}'s eye, so keep killing until you have both.\nTake the road south towards {area:35}. The Elder Mistvale Gorillas (40-41) live in {area:1737}, east of the road; about one in twenty carries an aged sinew."] = "Booty Bay'in güneyinde Bloodsail kılıç ustaları {area:43} kıyısında kamp kurmuş; haritalar ve emirler çadırlarında. Her Bloodsail enfiye ve {npc:2493} gözünü taşıyabilir, bu yüzden ikisi de olana kadar öldürmeyi sürdür.\nGüneye, {area:35} yönüne giden yolu tut. Elder Mistvale Gorilla yaratıkları (40-41) yolun doğusundaki {area:1737} vadisinde yaşıyor; yaklaşık yirmide biri yaşlı bir kiriş taşıyor.",
 
 	-- Step 16: The Bloodsail ships
 	["The Bloodsail ships"] = "Bloodsail gemileri",
 	-- {area:43} Wild Shore · {npc:2546} Fleet Master Firallon · {quest:624} Cortello's Riddle
 	["The three ships lie off the {area:43}. The crews are 42-45, Stillwater 45, Keelhaul 46 and {npc:2546} 48: at 41 this is a fight for a group, or for the end of the guide. If you go, swim out and pull the crew to the rail one at a time. A scroll, {quest:624}, lies on the ships' decks: take it."] = "Üç gemi {area:43} sahilinin açığında. Mürettebat 42-45, Stillwater 45, Keelhaul 46, {npc:2546} 48 seviyesinde: seviye 41'de bu bir grup işi ya da rehberin sonuna kalacak bir dövüş. Gidersen yüzerek açıl ve mürettebatı tek tek küpeşteye çek. Güvertelerde bir tomar, {quest:624}, duruyor: al.",
 	-- {area:8} Swamp of Sorrows
-	["for a later stop in the {area:8}"] = "",
+	["for a later stop in the {area:8}"] = "Sonra {area:8} içindeki bir durak için",
 
 	-- Step 17: Witch Doctor Unbagwa
 	-- {area:35} Booty Bay · {area:1737} Mistvale Valley
@@ -89,11 +89,11 @@ return {
 	-- Step 21: Venture Co. mine
 	["Venture Co. mine"] = "Venture Co. madeni",
 	-- plural, as words: Shadowmaw Panthers = {npc:684} Shadowmaw Panther
-	["Further north, the goblins of the Venture Co. dig at the mine east of the road; miners, foremen, surveyors and tinkerers all drop the crystals.\nCareful: Stealthed Shadowmaw Panthers and Stranglethorn Tigresses roam the area around the camp."] = "",
+	["Further north, the goblins of the Venture Co. dig at the mine east of the road; miners, foremen, surveyors and tinkerers all drop the crystals.\nCareful: Stealthed Shadowmaw Panthers and Stranglethorn Tigresses roam the area around the camp."] = "Daha kuzeyde Venture Co. goblinleri yolun doğusundaki madende kazı yapıyor; madenciler, ustabaşılar, araştırmacılar ve tamirciler, hepsi kristalleri düşürür.\nDikkat: Kampın çevresinde gizlenmiş Shadowmaw Panther ve Stranglethorn Tigress yaratıkları dolaşıyor.",
 
 	-- Step 23: Nesingwary's camp
 	["Nesingwary's camp"] = "Nesingwary kampı",
-	["Head north up the road; the hunters camp on the hill above the river."] = "",
+	["Head north up the road; the hunters camp on the hill above the river."] = "Yolu kuzeye izle; avcılar nehrin yukarısındaki tepede kamp kurmuş.",
 
 	-- Step 25: Zul'Kunda
 	["Zul'Kunda"] = "Zul'Kunda",
@@ -106,7 +106,7 @@ return {
 
 	-- Step 27: Grom'gol
 	-- {object:2076} Bubbling Cauldron
-	["the {object:2076}, beside Nimboya"] = "",
+	["the {object:2076}, beside Nimboya"] = "{object:2076}, Nimboya'nın yanında",
 
 	-- Step 28: Jungle stalkers
 	["Jungle stalkers"] = "Orman avcıları",
@@ -121,7 +121,7 @@ return {
 
 	-- Step 30: Booty Bay
 	-- {area:35} Booty Bay
-	["Head south to {area:35}. Shaky Phillipe waits on the docks."] = "",
+	["Head south to {area:35}. Shaky Phillipe waits on the docks."] = "Güneye, {area:35} kasabasına git. Shaky Phillipe iskelelerde bekliyor.",
 	-- {npc:6807} Innkeeper Skindle
 	["{npc:6807}, upstairs"] = "{npc:6807}, üst katta",
 
@@ -137,7 +137,7 @@ return {
 	-- Step 33: Zul'Mamwe
 	["Zul'Mamwe"] = "Zul'Mamwe",
 	-- {npc:1059} Ana'thek the Cruel
-	["Head north to the Skullsplitter ruins east of the Venture Co. mine; pull the headhunters and berserkers one at a time. {npc:1059} guards the south-western ruins, and one pile of trophy skulls stands on the ruins' north side. Every Skullsplitter can drop a tusk or a necklace: the necklaces are the slow part, so keep killing in the warriors' camp north of the ruins until you have them all."] = "",
+	["Head north to the Skullsplitter ruins east of the Venture Co. mine; pull the headhunters and berserkers one at a time. {npc:1059} guards the south-western ruins, and one pile of trophy skulls stands on the ruins' north side. Every Skullsplitter can drop a tusk or a necklace: the necklaces are the slow part, so keep killing in the warriors' camp north of the ruins until you have them all."] = "Kuzeye, Venture Co. madeninin doğusundaki Skullsplitter harabelerine git; headhunter ve berserker'ları tek tek çek. {npc:1059} güneybatı harabelerini koruyor, bir ganimet kafatası yığını da harabelerin kuzey yakasında duruyor. Her Skullsplitter bir diş ya da kolye düşürebilir: kolyeler yavaş giden kısım, bu yüzden hepsi tamamlanana kadar harabelerin kuzeyindeki savaşçı kampında öldürmeyi sürdür.",
 	["Skullsplitter warriors"] = "Skullsplitter savaşçıları",
 	-- {npc:669} Skullsplitter Hunter
 	["{npc:669} walks around here: look inside the circle on the map"] = "{npc:669} buralarda dolaşıyor: haritadaki çemberin içine bak",
@@ -147,11 +147,11 @@ return {
 	-- {area:127} Balia'mah Ruins
 	["{area:127}: kill these as you meet them"] = "{area:127}: bunları karşılaştıkça öldür",
 	-- {object:3202} Grom'gol (no name in this language: may be words)
-	["The next trophy skulls stand in the small ruins just north of the warriors' camp.\nThe last skulls are in the ruins a short ride west, on the way back to {object:3202}."] = "",
+	["The next trophy skulls stand in the small ruins just north of the warriors' camp.\nThe last skulls are in the ruins a short ride west, on the way back to {object:3202}."] = "Sonraki ganimet kafatasları savaşçı kampının hemen kuzeyindeki küçük harabelerde duruyor.\nSon kafataslar, {object:3202} yoluna dönerken kısa bir sürüş batıdaki harabelerde.",
 
 	-- Step 35: Grom'gol Base Camp
 	-- {object:3202} Grom'gol (no name in this language: may be words)
-	["Head west to {object:3202}."] = "",
+	["Head west to {object:3202}."] = "Batıya, {object:3202} karakoluna git.",
 	-- {object:2076} Bubbling Cauldron
 	["the {object:2076}"] = "{object:2076}",
 
@@ -160,7 +160,7 @@ return {
 	["{npc:2498}, inside"] = "{npc:2498}, içeride",
 
 	-- Step 40: Nesingwary's Expedition
-	["Head north up the road to the hunters' camp."] = "",
+	["Head north up the road to the hunters' camp."] = "Yolu kuzeye, avcıların kampına izle.",
 
 	-- Step 42: Raptor Mastery
 	-- {npc:730} Tethis
@@ -173,13 +173,13 @@ return {
 	-- Step 47: Level 42.68
 	["Level 42.68"] = "Seviye 42.68",
 	-- {quest:192} Panther Mastery · {quest:195} Raptor Mastery
-	["If you skipped {quest:192} or {quest:195}, grind here to level 42.68 to stay on the route's plan."] = "",
+	["If you skipped {quest:192} or {quest:195}, grind here to level 42.68 to stay on the route's plan."] = "{quest:192} ya da {quest:195} görevini atladıysan rotanın planında kalmak için burada seviye 42.68 olana kadar kas.",
 	-- {npc:667} Skullsplitter Warrior
 	["grind on {npc:667}"] = "Kas: {npc:667}",
 
 	-- Step 48: Big Game Hunter
 	-- {npc:731} King Bangalash
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:731} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back.\nCareful: Tigers and stealthed shadowmaw panthers roam close to him. Clear them before you pull him. When he is pulled, {npc:731} calls for help from creatures within 20 yd."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:731} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back.\nCareful: Tigers and stealthed shadowmaw panthers roam close to him. Clear them before you pull him. When he is pulled, {npc:731} calls for help from creatures within 20 yd."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:731}, seviye 43 bir elit: çoğu sınıf seviye 45 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.\nDikkat: Yakınında kaplanlar ve gizlenmiş shadowmaw panterleri dolaşıyor. Onu çekmeden önce onları temizle. Çekildiğinde {npc:731} 20 yarda içindeki yaratıklardan yardım çağırır.",
 
 	-- Step 50: Level 42.74
 	["Level 42.74"] = "Seviye 42.74",
@@ -188,13 +188,13 @@ return {
 
 	-- Step 54: Into the Swamp of Sorrows
 	-- {area:8} Swamp of Sorrows
-	["Into the {area:8}"] = "",
+	["Into the {area:8}"] = "{area:8} bataklığına",
 	-- {area:10} Duskwood · {zone:1430} Deadwind Pass · {npc:1776} Magtoor · {area:657} Harborage
-	["Keep going north into {area:10}, then east along the road through {zone:1430} into the swamp. {npc:1776} waits at the {area:657}, the draenei camp near the way in from {zone:1430}."] = "",
+	["Keep going north into {area:10}, then east along the road through {zone:1430} into the swamp. {npc:1776} waits at the {area:657}, the draenei camp near the way in from {zone:1430}."] = "Kuzeye, {area:10} bölgesine devam et, sonra yol boyunca doğuya, {zone:1430} geçidinden bataklığa geç. {npc:1776}, {zone:1430} tarafından giriş yolunun yakınındaki draenei kampı {area:657} içinde bekliyor.",
 
 	-- Step 55: Stonard
 	-- {area:75} Stonard
-	["Head east to {area:75}, in the reeds south of the road."] = "",
+	["Head east to {area:75}, in the reeds south of the road."] = "Doğuya, yolun güneyindeki sazlıklarda bulunan {area:75} kasabasına git.",
 	-- {npc:5591} Dar
 	["{npc:5591}, inside"] = "{npc:5591}, içeride",
 
@@ -212,7 +212,7 @@ return {
 	["Sawtooth crocolisks"] = "Sawtooth crocoliskleri",
 	-- {npc:5391} Galen Goodward · {area:75} Stonard · {npc:5592} Tok'Kar
 	-- plural, as words: Shadow Panthers = {npc:768} Shadow Panther
-	["The crocolisks wallow in the pools around {npc:5391}'s camp and south towards {area:75}; about one in four drops a flank.\nCareful: {npc:5592}'s camp sits by the coast. Along the way to it you pass level 40 spiders that chase a long distance, plus stealthed Shadow Panthers."] = "",
+	["The crocolisks wallow in the pools around {npc:5391}'s camp and south towards {area:75}; about one in four drops a flank.\nCareful: {npc:5592}'s camp sits by the coast. Along the way to it you pass level 40 spiders that chase a long distance, plus stealthed Shadow Panthers."] = "Crocolisk'ler {npc:5391} kampının çevresindeki ve güneye, {area:75} kasabasına doğru uzanan havuzlarda yuvarlanıyor; yaklaşık dörtte biri bir böğür eti düşürür.\nDikkat: {npc:5592} kampı kıyıda. Oraya giderken uzun mesafe kovalayan seviye 40 örümceklerin ve gizlenmiş Shadow Panther yaratıklarının yanından geçersin.",
 
 	-- Step 58: Fly to Booty Bay
 	-- {area:75} Stonard
@@ -225,7 +225,7 @@ return {
 	-- Step 60: Riding at 40
 	["Riding at 40"] = "Seviye 40'ta binicilik",
 	-- {npc:7953} Xar'Ti · {area:367} Sen'jin Village · {zone:1411} Durotar · {zone:1454} Orgrimmar
-	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. Each race learns it from its own race's trainer: yours is {npc:7953} in {area:367} on the {zone:1411} coast, with Zjolnir's raptors (20 gold each) beside him. Another race's trainer (Kildar in {zone:1454}) teaches you only once you are Exalted with his city."] = "",
+	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. Each race learns it from its own race's trainer: yours is {npc:7953} in {area:367} on the {zone:1411} coast, with Zjolnir's raptors (20 gold each) beside him. Another race's trainer (Kildar in {zone:1454}) teaches you only once you are Exalted with his city."] = "Binicilik seviye 40 ister ve 100 altına mal olur; öğrenince bir binek de alırsın. Her ırk bunu kendi ırkının eğitmeninden öğrenir: seninki {zone:1411} kıyısındaki {area:367} köyünde {npc:7953}, yanında Zjolnir'in raptor'ları (tanesi 20 altın). Başka bir ırkın eğitmeni ({zone:1454} şehrinde Kildar) sana ancak onun şehriyle Exalted olunca öğretir.",
 	-- {npc:7953} Xar'Ti
 	["{npc:7953}, riding trainer"] = "{npc:7953}, binicilik eğitmeni",
 	-- {npc:7953} Xar'Ti · {area:367} Sen'jin Village

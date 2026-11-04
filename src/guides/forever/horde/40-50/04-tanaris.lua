@@ -32,7 +32,7 @@ return {
 	-- {quest:3362} Thistleshrub Valley
 	["{quest:3362}: kill these as you meet them"] = "{quest:3362}: bunları karşılaştıkça öldür",
 	-- {area:440} Tanaris
-	["West of the compound the cactus creatures fill the valley; only the Dew Collectors carry a dew gland. Most mobs in {area:440} can drop OOX-17/TN's distress beacon, rarely: keep it if you see one.\nCareful: The other thistleshrub mobs in the area are level 49-50 and wander a lot, so you can easily pull extra mobs."] = "",
+	["West of the compound the cactus creatures fill the valley; only the Dew Collectors carry a dew gland. Most mobs in {area:440} can drop OOX-17/TN's distress beacon, rarely: keep it if you see one.\nCareful: The other thistleshrub mobs in the area are level 49-50 and wander a lot, so you can easily pull extra mobs."] = "Yerleşkenin batısında kaktüs yaratıkları vadiyi dolduruyor; dew bezini yalnızca Dew Collector'lar taşır. {area:440} içindeki çoğu yaratık nadiren OOX-17/TN imdat işaretini düşürebilir: görürsen sakla.\nDikkat: Bölgedeki diğer thistleshrub yaratıkları seviye 49-50 ve çok dolaşıyor, bu yüzden kolayca fazladan yaratık çekebilirsin.",
 	-- {item:8623} OOX-17/TN Distress Beacon
 	["{item:8623}, a rare drop"] = "{item:8623}, nadiren düşer",
 
@@ -45,11 +45,11 @@ return {
 	-- Step 11: Noxious Lair
 	-- {npc:4196} Silithid Swarm
 	-- plural, as words: Centipaar Swarmers = {npc:5457} Centipaar Swarmer
-	["West, the Centipaar insects swarm around their hives; any of them drops the parts.\nCareful: Centipaar Swarmers cast {npc:4196} both in and out of combat, which brings small adds that interrupt you."] = "",
+	["West, the Centipaar insects swarm around their hives; any of them drops the parts.\nCareful: Centipaar Swarmers cast {npc:4196} both in and out of combat, which brings small adds that interrupt you."] = "Batıda Centipaar böcekleri kovanlarının çevresinde kaynıyor; herhangi biri parçaları düşürür.\nDikkat: Centipaar Swarmer yaratıkları savaşta da savaş dışında da {npc:4196} kullanır, bu da seni kesen küçük yaratıklar getirir.",
 
 	-- Step 13: Slake That Thirst
 	-- {spell:686} Shadow Bolt
-	["Careful: Shadow Mages (level 42-43) call a Voidwalker while out of combat and attack with Immolate and {spell:686}. Thieves can Disarm you, Rogues move around in Sneak, and Assassins use Execute once you are at 20% health or less."] = "",
+	["Careful: Shadow Mages (level 42-43) call a Voidwalker while out of combat and attack with Immolate and {spell:686}. Thieves can Disarm you, Rogues move around in Sneak, and Assassins use Execute once you are at 20% health or less."] = "Dikkat: Shadow Mage'ler (seviye 42-43) savaş dışındayken bir Voidwalker çağırır ve Immolate ile {spell:686} kullanarak saldırır. Thief'ler seni Disarm edebilir, Rogue'lar Sneak ile dolaşır, Assassin'ler de canın %20 ya da altına düşünce Execute kullanır.",
 
 	-- Step 15: Gadgetzan
 	-- {item:8526} Violet Tragan · {zone:1425} Hinterlands
@@ -59,7 +59,7 @@ return {
 
 	-- Step 16: Scrimshank's gear
 	["Scrimshank's gear"] = "Scrimshank'in eşyaları",
-	["Further south, Junior Surveyor Scrimshank's gear lies at the mouth of a Centipaar hive.\nCareful: One bug guards the gear. Many bugs patrol the tunnels, some of them level 50, so fights often pull extra adds."] = "",
+	["Further south, Junior Surveyor Scrimshank's gear lies at the mouth of a Centipaar hive.\nCareful: One bug guards the gear. Many bugs patrol the tunnels, some of them level 50, so fights often pull extra adds."] = "Daha güneyde Junior Surveyor Scrimshank'in eşyaları bir Centipaar kovanının ağzında duruyor.\nDikkat: Eşyaları bir böcek koruyor. Tünellerde bazıları seviye 50 olan çok sayıda böcek devriye geziyor, bu yüzden dövüşler sık sık fazladan yaratık çeker.",
 
 	-- Step 17: Hearth to Gadgetzan
 	-- {area:976} Gadgetzan
@@ -68,11 +68,11 @@ return {
 	-- Step 18: OOX-17/TN
 	["OOX-17/TN"] = "OOX-17/TN",
 	-- {area:977} Steamwheedle Port · {area:35} Booty Bay
-	["Only with the distress beacon: OOX-17/TN sits south-east of Scrimshank's hive. Escort it north to {area:977}; its reward waits with Oglethorpe in {area:35}.\nCareful: The escort has two ambushes. Three level 47 scorpids attack near the start. Near the end, by the beach, three Wastewander humans attack: one mage and two assassins, around level 44."] = "",
+	["Only with the distress beacon: OOX-17/TN sits south-east of Scrimshank's hive. Escort it north to {area:977}; its reward waits with Oglethorpe in {area:35}.\nCareful: The escort has two ambushes. Three level 47 scorpids attack near the start. Near the end, by the beach, three Wastewander humans attack: one mage and two assassins, around level 44."] = "Yalnızca imdat işaretiyle: OOX-17/TN, Scrimshank'in kovanının güneydoğusunda oturuyor. Ona kuzeye, {area:977} limanına kadar eşlik et; ödülü {area:35} kasabasında Oglethorpe'ta bekliyor.\nDikkat: Eşlikte iki pusu var. Başlangıca yakın üç seviye 47 scorpid saldırır. Sona yakın, kumsalın yanında üç Wastewander insanı saldırır: bir mage ve iki assassin, seviye 44 civarı.",
 
 	-- Step 19: Gadgetzan
 	-- {npc:7010} Zilzibin Drumlore · {zone:1454} Orgrimmar
-	["for {npc:7010} in {zone:1454}, around level 50"] = "",
+	["for {npc:7010} in {zone:1454}, around level 50"] = "{zone:1454} şehrindeki {npc:7010} için, seviye 50 civarı",
 
 	-- Step 20: Boat to Powderfuse Port
 	-- {area:16727} Powderfuse Port
@@ -87,7 +87,7 @@ return {
 	["The {area:247}"] = "{area:247} kazı alanı",
 	-- {area:340} Kargath · {area:51} Searing Gorge · {object:173265} Wooden Outhouse · {item:4306} Silk Cloth
 	-- plural, as words: Dark Iron Geologists = {npc:5839} Dark Iron Geologist
-	["Take the pass out of {area:340}'s west side into the {area:51}, then ride south-west to the dig site. The {object:173265} stands at its southern end; the Dark Iron Geologists dig just north of it. Bring 15 {item:4306} (the Auction House sells it)."] = "",
+	["Take the pass out of {area:340}'s west side into the {area:51}, then ride south-west to the dig site. The {object:173265} stands at its southern end; the Dark Iron Geologists dig just north of it. Bring 15 {item:4306} (the Auction House sells it)."] = "{area:340} kasabasının batı yakasından geçitle {area:51} bölgesine çık, sonra güneybatıya, kazı alanına sür. {object:173265} kazının güney ucunda duruyor; Dark Iron Geologist yaratıkları hemen kuzeyinde kazı yapıyor. 15 {item:4306} getir (Auction House satar).",
 	-- {object:173265} Wooden Outhouse
 	["the {object:173265}"] = "{object:173265}",
 
@@ -119,7 +119,7 @@ return {
 	["{area:51}: kill these as you meet them"] = "{area:51}: bunları karşılaştıkça öldür",
 	-- {item:11818} Grimesilt Outhouse Key · {area:1443} The Slag Pit
 	-- plural, as words: Heavy War Golems = {npc:5854} Heavy War Golem · Blazing Elementals = {npc:5850} Blazing Elemental · Dark Iron Taskmasters = {npc:5846} Dark Iron Taskmaster · Greater Lava Spiders = {npc:5858} Greater Lava Spider · Incendosaurs = {npc:9318} Incendosaur · Dark Iron Slavers = {npc:5844} Dark Iron Slaver
-	["Heavy War Golems patrol the Cauldron below Kalaran and drop the oil; the Magma and Blazing Elementals drifting among them drop the hearts. The Dark Iron Taskmasters and Slavers drive the slaves on the paths; a Slaver may drop the {item:11818}: keep it.\nThe Greater Lava Spiders roam the plateaus and lava pools in the south-west of the gorge.\n{area:1443} opens in the north of the Cauldron. Incendosaurs swim in its lava pools: pull them to the edge. The secret plans lie on the pit's upper ledge.\nCareful: Dark Iron Slavers (level 45-46) call for help from allies within 15 yd when pulled, cast Net from up to 15 yd, and use Rend in melee."] = "",
+	["Heavy War Golems patrol the Cauldron below Kalaran and drop the oil; the Magma and Blazing Elementals drifting among them drop the hearts. The Dark Iron Taskmasters and Slavers drive the slaves on the paths; a Slaver may drop the {item:11818}: keep it.\nThe Greater Lava Spiders roam the plateaus and lava pools in the south-west of the gorge.\n{area:1443} opens in the north of the Cauldron. Incendosaurs swim in its lava pools: pull them to the edge. The secret plans lie on the pit's upper ledge.\nCareful: Dark Iron Slavers (level 45-46) call for help from allies within 15 yd when pulled, cast Net from up to 15 yd, and use Rend in melee."] = "Heavy War Golem yaratıkları Kalaran'ın aşağısında Cauldron'da devriye geziyor ve yağ düşürüyor; aralarında süzülen Magma Elemental ve Blazing Elemental yaratıkları kalp düşürür. Dark Iron Taskmaster ve Slaver'lar patikalarda köleleri çalıştırıyor; bir Slaver {item:11818} düşürebilir: sakla.\nGreater Lava Spider yaratıkları geçidin güneybatısındaki platolarda ve lav havuzlarında dolaşıyor.\n{area:1443}, Cauldron'un kuzeyinde açılıyor. Incendosaur'lar lav havuzlarında yüzüyor: onları kenara çek. Gizli planlar çukurun üst çıkıntısında.\nDikkat: Dark Iron Slaver yaratıkları (seviye 45-46) çekildiklerinde 15 yarda içindeki müttefiklerinden yardım çağırır, 15 yardaya kadar Net atar ve yakın dövüşte Rend kullanır.",
 	-- {item:11818} Grimesilt Outhouse Key
 	["{item:11818}, a rare drop"] = "{item:11818}, nadiren düşer",
 

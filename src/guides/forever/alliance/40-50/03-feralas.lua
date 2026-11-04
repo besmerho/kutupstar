@@ -17,7 +17,7 @@ return {
 
 	-- Step 5: Feathermoon Stronghold
 	-- {area:1116} Feathermoon Stronghold · {area:1120} Sardor Isle · {area:1108} Forgotten Coast
-	["{area:1116} stands on {area:1120}, off the {area:1108}: the boat from the coast's dock crosses to it."] = "",
+	["{area:1116} stands on {area:1120}, off the {area:1108}: the boat from the coast's dock crosses to it."] = "{area:1116}, {area:1108} açıklarındaki {area:1120} adasında: kıyıdaki iskeleden kalkan gemi oraya geçer.",
 	-- {npc:3936} Shandris Feathermoon
 	["{npc:3936}, beside him"] = "{npc:3936}, onun yanında",
 	-- {npc:7877} Latronicus Moonspear
@@ -65,20 +65,20 @@ return {
 	-- Step 19: Isle of Dread
 	-- {area:1121} Isle of Dread · {area:1120} Sardor Isle · {npc:8136} Lord Shalzaru
 	-- plural, as words: Hatecrest Serpent Guards = {npc:5333} Hatecrest Serpent Guard
-	["The {area:1121} is the island just south of {area:1120}: swim over. Hatecrest Serpent Guards and Sorceresses hold it; {npc:8136} (level 47) waits in the cave at its south end. Pull his guards first."] = "",
+	["The {area:1121} is the island just south of {area:1120}: swim over. Hatecrest Serpent Guards and Sorceresses hold it; {npc:8136} (level 47) waits in the cave at its south end. Pull his guards first."] = "{area:1121}, {area:1120} adasının hemen güneyindeki ada: yüzerek geç. Hatecrest Serpent Guard ve Hatecrest Sorceress yaratıkları adayı tutuyor; {npc:8136} (seviye 47) güney ucundaki mağarada bekliyor. Önce muhafızlarını çek.",
 	-- {item:9248} Mysterious Relic
 	["{item:9248}; below ground"] = "{item:9248}; yer altında",
 
 	-- Step 22: Fly to Thalanaar
 	-- {area:489} Thalanaar
 	["Fly to {area:489}"] = "Uç: {area:489}",
-	["Feathermoon flight master"] = "",
+	["Feathermoon flight master"] = "Feathermoon uçuş ustası",
 
 	-- Step 24: Grimtotem camp
 	["Grimtotem camp"] = "Grimtotem kampı",
 	-- {area:1108} Forgotten Coast · {area:357} Feralas · {npc:7956} Kindal Moonweaver
 	-- plural, as words: Sprite Darters = {npc:5278} Sprite Darter
-	["Boat to the {area:1108} and ride east across {area:357} to the Grimtotem camp north of the road. {npc:7956} waits outside it; free the Sprite Darters from the pen in the middle and keep {npc:7956} and at least six of them alive."] = "",
+	["Boat to the {area:1108} and ride east across {area:357} to the Grimtotem camp north of the road. {npc:7956} waits outside it; free the Sprite Darters from the pen in the middle and keep {npc:7956} and at least six of them alive."] = "Gemiyle {area:1108} kıyısına geç ve {area:357} bölgesini doğuya aşarak yolun kuzeyindeki Grimtotem kampına sür. {npc:7956} kampın dışında bekliyor; ortadaki ağıldan Sprite Darter'ları kurtar ve {npc:7956} ile en az altısını hayatta tut.",
 
 	-- Step 25: Grimtotem tauren
 	["Grimtotem tauren"] = "Grimtotem taurenleri",
@@ -115,7 +115,7 @@ return {
 	-- {npc:7774} Shay Leafrunner · {npc:7765} Rockbiter
 	["Ring the bell whenever {npc:7774} stops to wander, and lead her south to {npc:7765}."] = "{npc:7774} oyalanmak için her durduğunda çanı çal ve onu güneye, {npc:7765} adlı NPC'nin yanına götür.",
 	-- {npc:7765} Rockbiter
-	["{npc:7765}'s camp"] = "",
+	["{npc:7765}'s camp"] = "{npc:7765} kampı",
 
 	-- Step 35: Feathermoon Stronghold
 	-- {npc:3936} Shandris Feathermoon · {zone:1457} Darnassus · {area:976} Gadgetzan

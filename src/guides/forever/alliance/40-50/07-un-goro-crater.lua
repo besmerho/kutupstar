@@ -12,7 +12,7 @@ return {
 	-- Step 3: Fly to Gadgetzan
 	-- {area:976} Gadgetzan
 	["Fly to {area:976}"] = "{area:976} kasabasına uç",
-	["Theramore flight master"] = "",
+	["Theramore flight master"] = "Theramore uçuş ustası",
 
 	-- Step 5: Gadgetzan
 	-- {area:392} Ratchet · {area:976} Gadgetzan
@@ -24,7 +24,7 @@ return {
 
 	-- Step 9: Torwa Pathfinder
 	-- {area:976} Gadgetzan · {area:490} Un'Goro Crater · {npc:9619} Torwa Pathfinder
-	["Ride west out of {area:976} to the long ramp down into {area:490}. {npc:9619} camps at the foot of the ramp, in the south-east corner of the crater."] = "",
+	["Ride west out of {area:976} to the long ramp down into {area:490}. {npc:9619} camps at the foot of the ramp, in the south-east corner of the crater."] = "{area:976} kasabasından batıya, {area:490} kraterine inen uzun rampaya sür. {npc:9619}, kraterin güneydoğu köşesinde, rampanın dibinde kamp kurmuş.",
 
 	-- Step 10: Fresh Threshadon Carcass
 	-- {npc:9619} Torwa Pathfinder
@@ -43,7 +43,7 @@ return {
 
 	-- Step 14: Marshal's Refuge
 	-- {object:157936} Un'Goro Dirt Pile
-	["Ride west back to the refuge.\nGive the elite devilsaurs and stegodons a wide berth. Pick up every Power Crystal and {object:157936} you pass from here on."] = "",
+	["Ride west back to the refuge.\nGive the elite devilsaurs and stegodons a wide berth. Pick up every Power Crystal and {object:157936} you pass from here on."] = "Batıya, sığınağa geri sür.\nElit devilsaur ve stegodon'lardan uzak dur. Buradan sonra geçtiğin her Power Crystal ve {object:157936} öbeğini topla.",
 	-- {npc:9998} Shizzle
 	["{npc:9998}, at the refuge entrance"] = "{npc:9998}, sığınağın girişinde",
 	-- {npc:9117} J.D. Collie
@@ -75,7 +75,7 @@ return {
 	-- Step 20: Northern Pylon
 	["Northern Pylon"] = "Northern Pylon",
 	-- {npc:9998} Shizzle
-	["The pylon stands on the slope east of the refuge. Pterrordax circle the slopes around it: they count for Spraggle and drop {npc:9998}'s scales."] = "",
+	["The pylon stands on the slope east of the refuge. Pterrordax circle the slopes around it: they count for Spraggle and drop {npc:9998}'s scales."] = "Pylon sığınağın doğusundaki yamaçta duruyor. Pterrordax'lar çevresindeki yamaçların üstünde dönüyor: Spraggle için sayılırlar ve {npc:9998} için pul düşürürler.",
 
 	-- Step 21: A-Me 01
 	-- {area:1943} Ironstone Plateau
@@ -87,13 +87,13 @@ return {
 	-- {area:541} Marshal's Refuge
 	["Top up here to level 49.51 before the hand-ins at {area:541}: they take you to level 50."] = "{area:541} teslimlerinden önce burada seviye 49.51 olana kadar kas: teslimler seni seviye 50 yapar.",
 	["Pterrordax"] = "Pterrordax",
-	["grind on Pterrordax"] = "",
+	["grind on Pterrordax"] = "Kas: Pterrordax",
 
 	-- Step 23: The Gorishi hive
 	["The Gorishi hive"] = "Gorishi kovanı",
 	-- {npc:9619} Torwa Pathfinder · {quest:3764} Un'Goro Soil · {spell:8137} Silithid Pox · {spell:14120} Tunneler Acid
 	-- plural, as words: Gorishi Workers = {npc:6552} Gorishi Worker
-	["Ride west from {npc:9619}: the silithid hive fills the south of the crater. Use the Scraping Vial on a hatchery, a chamber with hanging larvae. Gorishi wasps and workers drop {quest:3764}; Pterrordax nest on the southern cliffs if you still need kills.\nCareful: Gorishi silithids are level 51-54 and cast {spell:8137} or {spell:14120} in melee; Gorishi Workers have a 50% chance to call for help within 25 yd once they fall below 45% health."] = "",
+	["Ride west from {npc:9619}: the silithid hive fills the south of the crater. Use the Scraping Vial on a hatchery, a chamber with hanging larvae. Gorishi wasps and workers drop {quest:3764}; Pterrordax nest on the southern cliffs if you still need kills.\nCareful: Gorishi silithids are level 51-54 and cast {spell:8137} or {spell:14120} in melee; Gorishi Workers have a 50% chance to call for help within 25 yd once they fall below 45% health."] = "{npc:9619} yerinden batıya sür: silithid kovanı kraterin güneyini dolduruyor. Scraping Vial'ı bir kuluçkahanede, sarkan larvaların olduğu bir odada kullan. Gorishi eşekarıları ve işçileri {quest:3764} düşürür; hâlâ öldürmen gerekiyorsa Pterrordax'lar güney uçurumlarında yuva yapmış.\nDikkat: Gorishi silithid'leri seviye 51-54 ve yakın dövüşte {spell:8137} ya da {spell:14120} kullanır; Gorishi Worker'ların canları %45'in altına düşünce 25 yarda içinde %50 olasılıkla yardım çağırır.",
 	-- {npc:9167} Frenzied Pterrordax
 	["grind on {npc:9167}"] = "Kas: {npc:9167}",
 

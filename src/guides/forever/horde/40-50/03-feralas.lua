@@ -26,7 +26,7 @@ return {
 
 	-- Step 7: A Soggy Scroll
 	-- {object:2555} Musty Scroll · {area:15} Dustwallow Marsh
-	["for the {object:2555} in {area:15}, later in this guide"] = "",
+	["for the {object:2555} in {area:15}, later in this guide"] = "Rehberin ilerisinde {area:15} içindeki {object:2555} için",
 
 	-- Step 8: Sawtooth Snapper Claw on the way
 	-- {item:6168} Sawtooth Snapper Claw
@@ -38,12 +38,12 @@ return {
 	-- {area:2403} The Forbidding Sea
 	["{area:2403}: kill these as you meet them"] = "{area:2403}: bunları karşılaştıkça öldür",
 	-- plural, as words: Monstrous Crawlers = {npc:1088} Monstrous Crawler
-	["The snappers line the strand south of the post.\nThe Monstrous Crawlers walk the beaches of the east coast, few and far between: kill every one you see on the way south."] = "",
+	["The snappers line the strand south of the post.\nThe Monstrous Crawlers walk the beaches of the east coast, few and far between: kill every one you see on the way south."] = "Snapper'lar karakolun güneyindeki kıyı boyunca diziliyor.\nMonstrous Crawler yaratıkları doğu kıyısının kumsallarında seyrek olarak dolaşıyor: güneye giderken gördüğün her birini öldür.",
 	["Underwater"] = "Su altında",
 
 	-- Step 10: Misty Reed Post
 	-- {area:440} Tanaris
-	["The next guide starts here and takes you to {area:440}.\nThe small Horde post on the southern shore."] = "",
+	["The next guide starts here and takes you to {area:440}.\nThe small Horde post on the southern shore."] = "Sonraki rehber burada başlıyor ve seni {area:440} bölgesine götürüyor.\nGüney kıyısındaki küçük Horde karakolu.",
 
 	-- Step 11: Murlocs of the Misty Reed
 	["Murlocs of the Misty Reed"] = "Misty Reed murlocları",
@@ -114,7 +114,7 @@ return {
 
 	-- Step 27: Challenge Overlord Mok'Morokk
 	-- {quest:1173} Challenge Overlord Mok'Morokk · {npc:4500} Overlord Mok'Morokk · {npc:4501} Draz'Zilb
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:1173} needs a group of 3. Skip it if you are alone: the route has you grind the XP back.\n{npc:4500} is elite: grouping up is advised. Beat him down until he gives up, then report to {npc:4501}."] = "",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:1173} needs a group of 3. Skip it if you are alone: the route has you grind the XP back.\n{npc:4500} is elite: grouping up is advised. Beat him down until he gives up, then report to {npc:4501}."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {quest:1173} 3 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.\n{npc:4500} elit: grup kurman önerilir. Pes edene kadar onu döv, sonra {npc:4501} yanına bildirmeye git.",
 
 	-- Step 28: Level 45.41
 	["Level 45.41"] = "Seviye 45.41",
@@ -189,7 +189,7 @@ return {
 	-- {npc:7776} Talo Thornhoof · {zone:1448} Felwood
 	["{npc:7776}: the bears are in {zone:1448}"] = "{npc:7776}: ayılar {zone:1448} bölgesinde",
 	-- {area:1417} Sunken Temple · {area:440} Tanaris
-	["Keep {area:1417} for Marvon in {area:440}."] = "",
+	["Keep {area:1417} for Marvon in {area:440}."] = "{area:1417} görevini {area:440} bölgesindeki Marvon için sakla.",
 
 	-- Step 45: Rage Scar yetis
 	["Rage Scar yetis"] = "Rage Scar yetileri",
