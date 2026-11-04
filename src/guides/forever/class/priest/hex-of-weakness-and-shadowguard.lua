@@ -82,10 +82,4 @@ return {
 	-- Step 14: Shadowguard: Aelthalyste's letter
 	-- {quest:5643} Shadowguard · {npc:4606} Aelthalyste
 	["{quest:5643}: {npc:4606}'s letter"] = "{quest:5643}: mektup ({npc:4606})",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["The Troll priest spells: {quest:5652} at 10, {quest:5642} at 20. Free, no objectives."]
-	-- ["The Troll priest spells: {quest:5652} at 10, {quest:5642} at 20."] = "Troll Priest büyüleri: seviye 10'da {quest:5652}, seviye 20'de {quest:5642}.",
-	-- ["At 10, go to {npc:6018} in the {object:172961}, on {zone:1454}'s west side. Priest trainers elsewhere ({npc:3706} in {area:362}, {npc:3044} in {zone:1456}) send you to him with a quest of the same name."] = "Seviye 10'da {zone:1454} şehrinin batı yakasındaki {object:172961} vadisinde {npc:6018} yanına git. Başka yerlerdeki Priest eğitmenleri ({area:362} kasabasında {npc:3706}, {zone:1456} şehrinde {npc:3044}) seni aynı adlı bir görevle ona gönderir.",
-	-- ["At 20, {npc:6018} teaches {quest:5642}. {npc:3044} in {zone:1456} and Aelthalyste in the {zone:1458} send you to him with a quest of the same name."] = "Seviye 20'de {npc:6018} {quest:5642} öğretir. {zone:1456} şehrindeki {npc:3044} ve {zone:1458} şehrindeki Aelthalyste seni aynı adlı bir görevle ona gönderir.",
 }

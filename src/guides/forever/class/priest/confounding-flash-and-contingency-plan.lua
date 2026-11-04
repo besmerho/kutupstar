@@ -86,10 +86,4 @@ return {
 	["{quest:94820}: a letter from another trainer"] = "{quest:94820}: başka bir eğitmenden mektup",
 	-- {quest:94820} Contingency Plan · {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries (no name in this language: may be words) · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words)
 	["Any {quest:94820} letter goes to {npc:258785} in the {object:32386}, {zone:1455}'s {object:32362}."] = "Her {quest:94820} mektubu {zone:1455} şehrinin {object:32362} semtindeki {object:32386} içinde duran {npc:258785} yanına gider.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["The Gnome priest spells, new in Forever: {quest:94817} at 10, {quest:94818} at 20. Free, no objectives."]
-	-- ["The Gnome priest spells, new in Forever: one at 10, one at 20."] = "Forever'da yeni Gnome Priest büyüleri: biri seviye 10'da, biri seviye 20'de.",
-	-- ["At 10, go to {npc:258785} in the {object:32386}, in {zone:1455}'s {object:32362}. {npc:1226} in {area:131}, {npc:377} in {area:87} and {npc:376} in {zone:1453} send you to her with a quest of the same name (its text may say {zone:1453}: Mims is in {zone:1455})."] = "Seviye 10'da {zone:1455} şehrinin {object:32362} semtindeki {object:32386} salonunda {npc:258785} yanına git. {area:131} kasabasındaki {npc:1226}, {area:87} kasabasındaki {npc:377} ve {zone:1453} şehrindeki {npc:376} seni aynı adlı bir görevle ona gönderir (görev metni {zone:1453} diyebilir: Mims {zone:1455} şehrinde).",
-	-- ["At 20, {npc:258785} teaches {quest:94818}. {npc:376} in {zone:1453} sends you to her with a quest of the same name."] = "Seviye 20'de {npc:258785} {quest:94818} öğretir. {zone:1453} şehrindeki {npc:376} seni aynı adlı bir görevle ona gönderir.",
 }

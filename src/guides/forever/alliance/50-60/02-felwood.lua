@@ -140,25 +140,4 @@ return {
 	["The vial is filled in {zone:1457}: keep it; inside"] = "Şişe {zone:1457} şehrinde doldurulur: sakla; içeride",
 	-- {zone:1413} Barrens
 	["Ends in the {zone:1413}: keep it"] = "{zone:1413} bölgesinde biter: sakla",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Take the boat from {area:702} to {area:442} and fly to {area:415}."] = "{area:702} köyünden gemiyle {area:442} kasabasına geç ve {area:415} kasabasına uç.",
-	-- maybe now: ["Ride north out of {area:415} into {area:361}. {npc:11554} the furbolg stands by the road just south of the {area:2479}."]
-	-- ["Ride north out of {area:415} into {zone:1448}. {npc:11554} the furbolg stands by the road just south of the {area:2479}."] = "{area:415} kasabasından kuzeye, {zone:1448} bölgesine git. Furbolg {npc:11554}, {area:2479} sığınağının hemen güneyinde, yolun kenarında duruyor.",
-	-- maybe now: ["{npc:15395} waits at the north end of {area:361}"]
-	-- ["{npc:15395} waits at the north end of {zone:1448}"] = "{npc:15395}, {zone:1448} bölgesinin kuzey ucunda bekliyor",
-	-- ["The Jadefire satyrs hold the glen west of the road, with {npc:9454} at its back."] = "Jadefire satirleri yolun batısındaki vadiciği tutuyor; en dipte {npc:9454} var.",
-	-- maybe now: ["{npc:11016}, in {area:1770}; below ground"]
-	-- ["{npc:11016}, in {area:1770}"] = "{npc:11016}, {area:1770} içinde",
-	-- maybe now: ["Use the {item:12922} at the corrupted moonwell in the middle of {area:1763}. If you freed {npc:11018}, go back into {area:1770} for the succubus {npc:9518}."]
-	-- ["Use the {item:12922} at the corrupted moonwell in the middle of {area:1763}. If you freed {npc:11018}, go back into {area:1770} for the succubus {npc:9518}; Trey Lightforge's remains lie beside her."] = "{item:12922} eşyasını {area:1763} ortasındaki bozulmuş ay kuyusunda kullan. {npc:11018} adlı NPC'yi kurtardıysan succubus {npc:9518} için {area:1770} içine geri dön; Trey Lightforge'un kalıntıları onun yanında.",
-	-- ["Ride east to the night elf camp at {area:1998}."] = "Doğuya, {area:1998} açıklığındaki Night Elf kampına git.",
-	-- ["The Deadwood furbolgs of {area:1762} fill the hills west of the cave. The Avengers can drop a {quest:8470}."] = "{area:1762} köyündeki Deadwood furbolgları mağaranın batısındaki tepeleri dolduruyor. Avenger yaratıkları {quest:8470} düşürebilir.",
-	-- maybe now: ["{npc:11558}: the Timbermaw speak to you only from Neutral; walks around here: look inside the circle on the map"]
-	-- ["{npc:11558}: the Timbermaw speak to you only from Neutral"] = "{npc:11558}: Timbermaw seninle ancak Neutral itibardan itibaren konuşur",
-	-- maybe now: ["{npc:11557}: thirty {quest:6031}, handed in when you pass through again at 57; below ground"]
-	-- ["{npc:11557}: thirty {quest:6031}, handed in when you pass through again at 57"] = "{npc:11557}: otuz {quest:6031}; seviye 57'de yeniden geçerken teslim edilir",
-	-- maybe now: ["The vial is filled in {zone:1457}: keep it; inside"]
-	-- ["The vial is filled in {zone:1457}: keep it"] = "Şişe {zone:1457} şehrinde doldurulur: sakla",
-	-- ["Ride north to {area:1769} (or fly back to {area:1998} first) and through the tunnel into {zone:1452}; follow the road east to the goblin town of {area:2255}."] = "Kuzeye, {area:1769} mağarasına git (ya da önce {area:1998} açıklığına geri uç) ve tünelden {zone:1452} bölgesine geç; yolu doğuya izleyerek goblin kasabası {area:2255} kasabasına git.",
 }

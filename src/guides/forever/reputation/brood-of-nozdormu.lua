@@ -133,9 +133,9 @@ return {
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar · Azerothian Diamonds = {item:12800} Azerothian Diamond · Blue Sapphires = {item:12361} Blue Sapphire
 	["{npc:8125} wants 20 {item:9061} and 20 {item:8150} with the meat. {npc:11811} then wants 20 Arcanite Bars, 10 {item:18562}, 10 Azerothian Diamonds and 10 Blue Sapphires, and gives you an {item:21136}: placed at the {object:180669} in {zone:1447}'s {area:1227}, it calls up {npc:15571}, a level 63 boss for a raid. {npc:15571} drops the {item:21137} for one raider on the quest each kill."] = "{npc:8125}, etle birlikte 20 {item:9061} ve 20 {item:8150} istiyor. Sonra {npc:11811}, 20 Arcanite Bar, 10 {item:18562}, 10 Azerothian Diamond ve 10 Blue Sapphire istiyor ve sana bir {item:21136} veriyor: {zone:1447} bölgesinin {area:1227} kesimindeki {object:180669} yanına konunca bir raid için seviye 63 bir boss olan {npc:15571} yaratığını çağırır. {npc:15571} her öldürmede görevdeki bir raid üyesine {item:21137} düşürür.",
 	-- {item:12360} Arcanite Bar
-	["{item:12360}: Alchemists, or the auction house"] = "{item:12360}: Alchemist'ler ya da Auction House",
+	["{item:12360}: Alchemists, or the auction house"] = "{item:12360}: Alchemist'ler ya da müzayede evi",
 	-- {item:18562} Elementium Ore · {area:2677} Blackwing Lair
-	["{item:18562}: {area:2677}, or the auction house"] = "{item:18562}: {area:2677} ya da Auction House",
+	["{item:18562}: {area:2677}, or the auction house"] = "{item:18562}: {area:2677} ya da müzayede evi",
 
 	-- Step 23: Maws
 	-- {item:21137} Blue Scepter Shard · {npc:15571} Maws
@@ -228,7 +228,7 @@ return {
 	-- {npc:15727} C'Thun · {quest:8595} Mortal Champions · {quest:8789} Imperial Qiraji Armaments · {npc:15380} Arygos · {npc:15378} Merithra of the Dream · {item:18562} Elementium Ore
 	["Honored to Revered is 12,000: twelve artifacts, 24 insignias, or a mix with {npc:15727} (2,500). After the first, each insignia is the repeatable {quest:8595}. Every Temple boss sometimes drops an {quest:8789} or Regalia (about one time in twenty): {npc:15380} and {npc:15378}, inside the Temple once {npc:15727} is dead, take it with 3 {item:18562} for 200 and a weapon. Honored opens the chest exchange of the tier set (200)."] = "Honored'dan Revered'a 12.000: on iki eser, 24 nişan ya da {npc:15727} (2.500) ile bir karışım. İlkinden sonra her nişan tekrarlanabilir {quest:8595} görevidir. Her Temple boss'u bazen bir {quest:8789} ya da Regalia düşürür (yaklaşık yirmide bir): {npc:15727} öldükten sonra Temple içindeki {npc:15380} ve {npc:15378}, bunu 3 {item:18562} ile birlikte 200 ve bir silah karşılığında alır. Honored, tier setinin göğüslük takasını açar (200).",
 	-- {item:18562} Elementium Ore · {area:2677} Blackwing Lair
-	["{item:18562}, {area:2677} or the auction house"] = "{item:18562}, {area:2677} ya da Auction House",
+	["{item:18562}, {area:2677} or the auction house"] = "{item:18562}, {area:2677} ya da müzayede evi",
 	-- {npc:15380} Arygos · {item:18562} Elementium Ore
 	["{npc:15380}: Armaments and 3 {item:18562}, 200"] = "{npc:15380}: Armaments ve 3 {item:18562}, 200",
 	-- {npc:15378} Merithra of the Dream · {item:18562} Elementium Ore

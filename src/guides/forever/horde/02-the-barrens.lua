@@ -172,27 +172,4 @@ return {
 	["The next guide starts here and takes you to {zone:1454} and the zeppelin to {zone:1420}."] = "Sonraki rehber burada başlıyor ve seni {zone:1454} şehrine ve {zone:1420} zeplinine götürüyor.",
 	-- {quest:3301} Mura Runetotem · {area:228} Sepulcher · {zone:1421} Silverpine Forest
 	["{quest:3301}: the {area:228} in {zone:1421}, next guide"] = "{quest:3301}: {zone:1421} bölgesindeki {area:228}, sonraki rehber",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["{npc:3615}, the wind rider master"] = "{npc:3615}, rüzgâr binicisi ustası",
-	-- ["Plainstriders and raptors"] = "Plainstrider ve raptor yaratıkları",
-	-- ["Plainstriders and Sunscale raptors roam the plains all around the {area:380}, thickest to the north."] = "Plainstrider ve Sunscale raptor yaratıkları {area:380} kavşağının her yanındaki düzlüklerde dolaşıyor; en yoğun oldukları yer kuzey.",
-	-- maybe now: ["Burning Blade Cultists hold {area:1898} in northern {area:14}; they drop the {item:6652}. The {item:5026} comes from the Razormane on your next visit to their camp."]
-	-- ["Burning Blade Cultists hold {area:1898} in northern {zone:1411}; they drop the {item:6652}. The {item:5026} comes from the Razormane on your next visit to their camp."] = "Burning Blade Cultist yaratıkları {zone:1411} bölgesinin kuzeyindeki {area:1898} vadisini tutuyor; {item:6652} eşyasını onlar düşürür. {item:5026} ise kamplarına bir sonraki gidişinde Razormane'lerden düşer.",
-	-- ["Southsea beach"] = "Southsea kumsalı",
-	-- maybe now: ["The pirates camp on the beach south of {area:392}. The piles of complicated parts lie in the sand among them.\nThe pirates camp on the beach south of {area:392}; {npc:3467} stands at its southern end."]
-	-- ["The pirates camp on the beach south of {area:392}. The piles of complicated parts lie in the sand among them."] = "Korsanlar {area:392} limanının güneyindeki kumsalda kamp kurmuş. Karmaşık parça yığınları aralarında, kumun üzerinde duruyor.",
-	-- ["Walk back west along the road to the {area:380}."] = "Yol boyunca batıya, {area:380} kavşağına geri yürü.",
-	-- ["{quest:881}, a white lion, prowls the plains north of the Razormane camp."] = "Beyaz bir aslan olan {quest:881}, Razormane kampının kuzeyindeki düzlüklerde dolaşıyor.",
-	-- ["The {object:4141} stands at the Venture Co. research site west of the {area:382}. Close the three valves around the drill, use the console again, then take the {item:5089} from {npc:3471} beside it."] = "{object:4141}, {area:382} bataklığının batısındaki Venture Co. araştırma alanında duruyor. Matkabın çevresindeki üç vanayı kapat, konsolu yeniden kullan, sonra yanındaki {npc:3471} adlı NPC'den {item:5089} al.",
-	-- maybe now: ["West to the {area:383}. The Witchwing harpies nest all over them; any of them can drop a talon. {quest:819} lies in their hills.\nCareful: There are 2 Witchwing Ambushers (level 17-18). They stay stealthed with Sneak while out of combat."]
-	-- ["West to the {area:383}. The Witchwing harpies nest all over them; any of them can drop a talon. {quest:819} lies in their hills."] = "Batıya, {area:383} tepelerine git. Witchwing harpy yaratıkları tepelerin her yanında yuva yapmış; herhangi biri bir pençe düşürebilir. {quest:819} onların tepelerinde duruyor.",
-	-- ["Kolkar camps"] = "Kolkar kampları",
-	-- ["Kolkar Wranglers and Stormers hold the camps south of {npc:3389}."] = "Kolkar Wrangler ve Kolkar Stormer yaratıkları {npc:3389} adlı NPC'nin güneyindeki kampları tutuyor.",
-	-- ["Raptor nests"] = "Raptor yuvaları",
-	-- ["The three nests sit together in the {area:1697} south-west of the oasis; Sunscale Scytheclaws guard them."] = "Üç yuva vahanın güneybatısındaki {area:1697} bölgesinde bir arada duruyor; onları Sunscale Scytheclaw yaratıkları koruyor.",
-	-- ["The Witchwing Slayers hold the western {area:383}; they wear the rings."] = "Witchwing Slayer yaratıkları {area:383} tepelerinin batısını tutuyor; yüzükler onlarda.",
-	-- ["Keep it: {quest:3923} stands outside {zone:1454}; a later guide hands it in"] = "Sakla: {quest:3923} {zone:1454} şehrinin dışında duruyor; sonraki bir rehberde teslim edilir",
-	-- maybe now: ["The next guide starts here and takes you to {zone:1454} and the zeppelin to {zone:1420}."]
-	-- ["Walk back south to the {area:380}. The next guide starts here and takes you to {zone:1454} and the zeppelin to {zone:1420}."] = "Güneye, {area:380} kavşağına geri yürü. Sonraki rehber burada başlıyor ve seni {zone:1454} şehrine, oradan da {zone:1420} zeplinine götürüyor.",
 }

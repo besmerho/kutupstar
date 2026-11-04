@@ -93,31 +93,4 @@ return {
 	["The {quest:1708} grows on the sea floor just south of {area:150}, by the murloc huts and a wrecked boat: eight there and two south-east of the harbor, each back in 3 minutes, so you will wait for respawns to reach 20. The murlocs can net you underwater: watch your breath, and an {item:5996} removes the risk."] = "{quest:1708}, {area:150} limanının hemen güneyinde, murloc kulübelerinin ve batık bir teknenin yanında deniz dibinde yetişiyor: orada sekiz, limanın güneydoğusunda iki tane var, her biri 3 dakikada geri gelir, bu yüzden 20'ye ulaşmak için yeniden doğmaları bekleyeceksin. Murloc'lar su altında sana ağ atabilir: nefesine dikkat et, bir {item:5996} riski ortadan kaldırır.",
 	-- {item:6848} Searing Coral · {quest:1708} Iron Coral
 	["{item:6848}, from {quest:1708}"] = "{item:6848}, kaynak: {quest:1708}",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["A hauberk at 28, a coif, leggings and gauntlets from three smiths, and a shield on the way."]
-	-- ["A hauberk at 28, a coif, leggings or gauntlets by race, and a shield on the way."] = "Seviye 28'de bir zincir gömlek, ırka göre bir başlık, bacaklık ya da eldiven, yolda bir de kalkan.",
-	-- maybe now: ["At 20, {npc:5479}, beside {npc:5480} in the warrior trainers' building of {object:2100}, sends you to {quest:1698} in Redridge."]
-	-- ["At 20, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to {quest:1698} in Redridge."] = "Seviye 20'de {object:2100} semtinde Pig and Whistle'ın yanındaki {npc:5479}, seni Redridge'deki {quest:1698} yanına gönderir.",
-	-- ["{quest:1698} is in {area:69}, at the inn. His test is timed: run north-west into the {area:98}, reach the first fork and come back to him before the timer runs out. Do not die and release your spirit."] = "{quest:1698}, {area:69} kasabasında, handa. Sınavı süreli: kuzeybatıya, {area:98} mağarasına koş, ilk ayrıma ulaş ve süre dolmadan ona geri dön. Ölüp ruhunu serbest bırakma.",
-	-- maybe now: ["{npc:5413} works in the Dwarven District of Stormwind. He takes the {item:6843} (lost it? abandon the quest and {npc:6166} gives a new one) and gives you {item:6970}, a shield; {quest:1701} is a level 28 quest, with {item:6842} listing what it needs."]
-	-- ["{npc:5413} works in the Dwarven District of Stormwind. He keeps the {item:6843} and gives you {item:6970}, a shield; {quest:1701} is a level 28 quest."] = "{npc:5413}, Stormwind'in Dwarven District semtinde çalışıyor. {item:6843} onda kalır ve sana bir kalkan olan {item:6970} verir; {quest:1701} seviye 28 bir görev.",
-	-- ["The Leech Stalkers and Cave Stalkers crawl around 46,61 in the middle of the {zone:1437}; they drop the {item:6838}."] = "Leech Stalker ve Cave Stalker yaratıkları {zone:1437} bölgesinin ortasında, 46,61 çevresinde sürünüyor; {item:6838} düşürürler.",
-	-- ["The Fledgling and Young Chimaeras roam the south-west of Stonetalon, with the {npc:6167} among them: the young ones drop the {item:6839}, the Matriarch the {item:6840}."] = "Fledgling ve Young Chimaera yaratıkları Stonetalon'un güneybatısında dolaşıyor, aralarında {npc:6167} de var: gençler {item:6839}, Matriarch {item:6840} düşürür.",
-	-- maybe now: ["{item:6839}, from the young chimaeras"]
-	-- ["{item:6839} from the young chimaeras"] = "Genç chimaeralardan {item:6839}",
-	-- maybe now: ["{item:6840}, from the {npc:6167}"]
-	-- ["{item:6840} from the {npc:6167}"] = "{npc:6167} yaratığından {item:6840}",
-	-- ["Roogug is an elite quilboar inside {area:1717}, the dungeon at the south end of the {zone:1413}; he drops the {item:6841}. {area:1717} is a dungeon: grouping up is advised."] = "Roogug, {zone:1413} bölgesinin güney ucundaki zindan {area:1717} içinde elit bir quilboar; {item:6841} düşürür. {area:1717} bir zindan: grup kurman önerilir.",
-	-- ["Back to {npc:5413} in the {object:28027}. He sends you on to a smith of your own race."] = "{object:28027} semtindeki {npc:5413} yanına dön. Seni kendi ırkından bir demirciye gönderir.",
-	-- ["{npc:1416} is in {zone:1453}, a short walk from {npc:5413}."] = "{npc:1416}, {zone:1453} şehrinde, {npc:5413} adlı NPC'ye kısa bir yürüyüş mesafesinde.",
-	-- ["The Nightbane worgen of {zone:1431} drop the {quest:1705}. {npc:6170} walks in the far south-east of {zone:1431} and carries the {item:6845}."] = "{quest:1705} eşyasını {zone:1431} bölgesinin Nightbane worgenleri düşürür. {npc:6170}, {zone:1431} bölgesinin en güneydoğusunda dolaşıyor ve {item:6845} taşıyor.",
-	-- maybe now: ["{quest:1705}, from the Nightbane worgen"]
-	-- ["{quest:1705} from the Nightbane worgen"] = "Nightbane worgenlerinden {quest:1705}",
-	-- maybe now: ["{item:6845}, from {npc:6170}"]
-	-- ["{item:6845} from {npc:6170}"] = "{npc:6170} yaratığından {item:6845}",
-	-- ["{quest:1703} is a smith in {zone:1457}."] = "{quest:1703}, {zone:1457} şehrinde bir demirci.",
-	-- ["The {quest:1710} lie along the western edge of {zone:1441}."] = "{quest:1710}, {zone:1441} bölgesinin batı kenarı boyunca duruyor.",
-	-- ["Ride the {area:2257} from {zone:1453} to {zone:1455}."] = "{zone:1453} şehrinden {area:2257} trenine binip {zone:1455} şehrine git.",
-	-- ["The {quest:1708} grows along the {zone:1437}' west coast, south of {area:150}."] = "{quest:1708}, {zone:1437} bölgesinin batı kıyısı boyunca, {area:150} limanının güneyinde yetişir.",
 }

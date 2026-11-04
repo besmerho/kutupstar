@@ -89,12 +89,4 @@ return {
 	-- Step 16: Back to Coleman Farthing
 	-- {npc:1500} Coleman Farthing
 	["Back to {npc:1500}"] = "{npc:1500} yanına dön",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["{spell:71} at 10 and a one-hand weapon of your choice: {npc:5810}'s road, {area:159}'s crypt, or the Skybreaker shield."]
-	-- ["{spell:71} and a one-hand weapon of your choice at 10."] = "Seviye 10'da {spell:71} ve seçeceğin tek elli bir silah.",
-	-- ["{npc:1496} stands in {area:159}. {npc:6390} waits in the mausoleum on the hill just north of town: open the gate and fight him."] = "{npc:1496}, {area:159} kasabasında duruyor. {npc:6390}, kasabanın hemen kuzeyindeki tepede, anıt mezarda bekliyor: kapıyı aç ve onunla dövüş.",
-	-- maybe now: ["{npc:1500} is in the {area:2119}, the inn on {area:159}'s east side."]
-	-- ["{npc:1500} is in the inn, the {area:2119}, in {area:159}."] = "{npc:1500}, {area:159} kasabasındaki han {area:2119} içinde.",
-	-- ["The four Agamand Weapon Racks stand among the buildings of {area:157}, north of {area:159}. The mills' undead attack on sight."] = "Dört Agamand Weapon Rack, {area:159} kasabasının kuzeyindeki {area:157} binalarının arasında duruyor. Değirmenlerin undead'leri görür görmez saldırır.",
 }

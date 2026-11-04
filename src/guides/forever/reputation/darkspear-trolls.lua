@@ -164,7 +164,7 @@ return {
 
 	-- Step 28: Vehena: A Donation of Wool
 	-- {npc:14727} Vehena · {item:14047} Runecloth · {quest:7837} Additional Runecloth
-	["From here it is cloth. Wool, Silk and Mageweave must all be handed in before {npc:14727} offers the {item:14047} donation, and {quest:7837} needs the {item:14047} donation. Buy cloth at the Auction House, or farm it: humanoids drop it, Wool from level 15 to 25, Silk 25 to 40, Mageweave 40 to 50, {item:14047} 50 and up. At 60 farm mobs of level 52 or more: lower ones are grey."] = "Buradan sonrası kumaş. {npc:14727}, {item:14047} bağışını önermeden önce Wool, Silk ve Mageweave'in hepsi teslim edilmeli, {quest:7837} de {item:14047} bağışını ister. Kumaşı Auction House'tan al ya da kas: humanoid'ler düşürür, Wool seviye 15 ila 25, Silk 25 ila 40, Mageweave 40 ila 50, {item:14047} 50 ve üstü. 60'ta seviye 52 ya da üstü yaratıklarda kas: daha düşükleri gri.",
+	["From here it is cloth. Wool, Silk and Mageweave must all be handed in before {npc:14727} offers the {item:14047} donation, and {quest:7837} needs the {item:14047} donation. Buy cloth at the Auction House, or farm it: humanoids drop it, Wool from level 15 to 25, Silk 25 to 40, Mageweave 40 to 50, {item:14047} 50 and up. At 60 farm mobs of level 52 or more: lower ones are grey."] = "Buradan sonrası kumaş. {npc:14727}, {item:14047} bağışını önermeden önce Wool, Silk ve Mageweave'in hepsi teslim edilmeli, {quest:7837} de {item:14047} bağışını ister. Kumaşı müzayede evinden al ya da kas: humanoid'ler düşürür, Wool seviye 15 ila 25, Silk 25 ila 40, Mageweave 40 ila 50, {item:14047} 50 ve üstü. 60'ta seviye 52 ya da üstü yaratıklarda kas: daha düşükleri gri.",
 	-- {item:2592} Wool Cloth
 	["{item:2592}: the Thistlefur furbolgs drop it about one kill in four"] = "{item:2592}: Thistlefur furbolg'ları yaklaşık dört öldürmede bir düşürür",
 
@@ -182,7 +182,7 @@ return {
 
 	-- Step 31: A Donation of Runecloth
 	-- {item:14047} Runecloth · {area:2266} Tyr's Hand · {zone:1423} Eastern Plaguelands · {area:2577} Dire Maul · {zone:1444} Feralas · {zone:1451} Silithus
-	["{item:14047}: the Scarlet at {area:2266} in the {zone:1423}, the Gordok ogres outside {area:2577} in {zone:1444} and the Twilight camps of {zone:1451} drop it about one kill in three. The Auction House is faster if you have gold."] = "{item:14047}: {zone:1423} bölgesinde {area:2266} kesimindeki Scarlet'lar, {zone:1444} bölgesinde {area:2577} dışındaki Gordok ogre'ları ve {zone:1451} bölgesinin Twilight kampları yaklaşık üç öldürmede bir düşürür. Altının varsa Auction House daha hızlı.",
+	["{item:14047}: the Scarlet at {area:2266} in the {zone:1423}, the Gordok ogres outside {area:2577} in {zone:1444} and the Twilight camps of {zone:1451} drop it about one kill in three. The Auction House is faster if you have gold."] = "{item:14047}: {zone:1423} bölgesinde {area:2266} kesimindeki Scarlet'lar, {zone:1444} bölgesinde {area:2577} dışındaki Gordok ogre'ları ve {zone:1451} bölgesinin Twilight kampları yaklaşık üç öldürmede bir düşürür. Altının varsa müzayede evi daha hızlı.",
 	-- {item:14047} Runecloth · {area:2266} Tyr's Hand
 	["{item:14047}: the Scarlet outside {area:2266}"] = "{item:14047}: {area:2266} dışındaki Scarlet'lar",
 
@@ -196,7 +196,7 @@ return {
 	-- {quest:7837} Additional Runecloth
 	["{quest:7837} to Revered"] = "{quest:7837}: Revered olana kadar",
 	-- {item:14047} Runecloth
-	["Honored to Revered is 12,000: 240 hand-ins, 4,800 {item:14047}. The Auction House price of a stack decides whether to farm or buy."] = "Honored'dan Revered'a 12.000: 240 teslim, 4.800 {item:14047}. Kasıp kasmayacağına ya da satın alacağına bir yığının Auction House fiyatı karar verir.",
+	["Honored to Revered is 12,000: 240 hand-ins, 4,800 {item:14047}. The Auction House price of a stack decides whether to farm or buy."] = "Honored'dan Revered'a 12.000: 240 teslim, 4.800 {item:14047}. Kasıp kasmayacağına ya da satın alacağına bir yığının müzayede evi fiyatı karar verir.",
 
 	-- Step 34: Additional Runecloth to Exalted
 	-- {quest:7837} Additional Runecloth
@@ -205,15 +205,4 @@ return {
 	["Revered to Exalted is 21,000: 420 hand-ins, 8,400 {item:14047}. At Exalted, {npc:7952} in {area:367} sells the raptors to every Horde race: 20 gold for a level 40 raptor, 200 gold for a swift raptor at level 60 (Forever's prices); in Classic other races needed Exalted to buy them."] = "Revered'dan Exalted'a 21.000: 420 teslim, 8.400 {item:14047}. Exalted'da {area:367} içindeki {npc:7952}, raptor'ları her Horde ırkına satar: seviye 40 raptor için 20 altın, seviye 60'ta swift raptor için 200 altın (Forever'ın fiyatları); Classic'te diğer ırkların onları alması için Exalted gerekiyordu.",
 	-- {npc:7952} Zjolnir
 	["{npc:7952}: the raptors"] = "{npc:7952}: raptor'lar",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["{npc:14727} takes cloth for {faction:530} in the {object:172961}, {zone:1454}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7837} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains."] = "{npc:14727}, {faction:530} için {zone:1454} şehrinin {object:172961} vadisinde kumaş topluyor. İlk Wool, Silk, Mageweave ve {item:14047} bağışları (her biri 60 kumaş) bir kez yapılır ve kumaş başına en çok itibarı verir; onlardan sonra {quest:7837} Exalted olana kadar tekrarlanır. Başka bir ırkın şehriyle Exalted olmak o ırkın bineklerini satın almanı sağlar. Forever'ın Legacy Diplomat ayrıcalığı itibar kazancını artırır.",
-	-- ["Venture Co. Enforcers at the {area:381} (level 16-17) drop it here. The Auction House works too."] = "Burada {area:381} madenindeki Venture Co. Enforcer yaratıkları (seviye 16-17) düşürür. Müzayede evi de olur.",
-	-- ["Kolkar centaur (level 30-33) drop it here. The Auction House works too."] = "Burada Kolkar centaurları (seviye 30-33) düşürür. Müzayede evi de olur.",
-	-- ["Dunemaul ogres (level 45-48) drop it here. The Auction House works too."] = "Burada Dunemaul ogreları (seviye 45-48) düşürür. Müzayede evi de olur.",
-	-- ["Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too."] = "Burada Dark Adept ve Shadowmage yaratıkları (seviye 58-60) düşürür; buradaki her Scourge öldürmesi {object:92525} itibarına da sayılır (o rehbere bak). Müzayede evi de olur.",
-	-- ["{npc:14727}: {item:14047} delivered"] = "{npc:14727}: {item:14047} teslim edildi",
-	-- ["{quest:7837} takes 20 {item:14047} per turn-in and repeats as often as you like. Bring {item:14047} in multiples of 20 and hand them all in at once, one turn-in after another. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House."] = "{quest:7837} her teslimde 20 {item:14047} alır ve istediğin kadar tekrarlanır. {item:14047} eşyasını 20'nin katları halinde getir ve hepsini art arda teslim ederek bir seferde ver. {item:14047}: {zone:1423} bölgesinde Dark Adept ve Shadowmage yaratıkları (seviye 58-60) ya da müzayede evi.",
-	-- ["Keep handing in {quest:7837}, 20 {item:14047} at a time. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House."] = "{quest:7837} görevini her seferinde 20 {item:14047} ile teslim etmeye devam et. {item:14047}: {zone:1423} bölgesinde Dark Adept ve Shadowmage yaratıkları (seviye 58-60) ya da müzayede evi.",
-	-- ["Keep handing in {quest:7837} until {faction:530} is Exalted. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House."] = "{faction:530} ile Exalted olana kadar {quest:7837} görevini teslim etmeye devam et. {item:14047}: {zone:1423} bölgesinde Dark Adept ve Shadowmage yaratıkları (seviye 58-60) ya da müzayede evi.",
 }

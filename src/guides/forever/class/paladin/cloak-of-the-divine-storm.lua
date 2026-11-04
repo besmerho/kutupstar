@@ -53,14 +53,4 @@ return {
 	-- Step 9: Return to Delgren
 	-- {npc:3663} Delgren the Purifier · {area:413} Maestra's Post · {zone:1440} Ashenvale
 	["Back to {npc:3663} at {area:413} in western {zone:1440}, across the whole zone."] = "Bütün bölgeyi aşarak batı {zone:1440} bölgesindeki {area:413} karakolunda {npc:3663} yanına dön.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Climb to the top of the {area:444} in northern {zone:1439}. Loot the Strange Orb up there: it gives you the Althalaxx Orb, which starts the quest."] = "{zone:1439} bölgesinin kuzeyindeki {area:444} kulesinin tepesine tırman. Yukarıdaki Strange Orb'u loot et: sana görevi başlatan Althalaxx Orb'u verir.",
-	-- ["{npc:3663} stands at {area:413} in western {zone:1440}."] = "{npc:3663}, {zone:1440} bölgesinin batısındaki {area:413} karakolunda duruyor.",
-	-- ["{npc:5492} is in the Cathedral of Light."] = "{npc:5492}, Cathedral of Light içinde.",
-	-- ["Katherine sends you to the warlocks in the {object:2101}; {npc:5495} speaks for them."] = "Katherine seni {object:2101} semtindeki Warlock'lara gönderir; onlar adına {npc:5495} konuşur.",
-	-- ["Blackrock Summoners, Champions and Trackers camp in the north-west of Redridge; they drop the {item:209778}."] = "Blackrock Summoner, Champion ve Tracker yaratıkları Redridge'in kuzeybatısında kamp kurmuş; {item:209778} eşyasını onlar düşürür.",
-	-- ["{area:435} is in south-east {zone:1440}. The Mannoroc Lashers, Searing Infernals, Felguards and Legion Hounds in it drop the Motes of Mannoroth."] = "{area:435}, {zone:1440} bölgesinin güneydoğusunda. İçindeki Mannoroc Lasher, Searing Infernal, Felguard ve Legion Hound yaratıkları Motes of Mannoroth düşürür.",
-	-- ["The {object:409311} stands at the east end of {area:435}. Shatter the orb on it; the {object:409315} appears beside it."] = "{object:409311}, {area:435} kanyonunun doğu ucunda duruyor. Üzerindeki küreyi parçala; yanında {object:409315} belirir.",
-	-- ["Back to {area:413}."] = "{area:413} karakoluna dön.",
 }

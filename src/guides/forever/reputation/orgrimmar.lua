@@ -325,7 +325,7 @@ return {
 
 	-- Step 53: Rashona Straglash: A Donation of Wool
 	-- {npc:14726} Rashona Straglash · {item:14047} Runecloth · {quest:7832} Additional Runecloth
-	["From here it is cloth. Wool, Silk and Mageweave must all be handed in before {npc:14726} offers the {item:14047} donation, and {quest:7832} needs the {item:14047} donation. Buy cloth at the Auction House, or farm it: humanoids drop it, Wool from level 15 to 25, Silk 25 to 40, Mageweave 40 to 50, {item:14047} 50 and up. At 60 farm mobs of level 52 or more: lower ones are grey."] = "Buradan sonrası kumaş. {npc:14726}, {item:14047} bağışını önermeden önce Wool, Silk ve Mageweave'in hepsi teslim edilmeli, {quest:7832} de {item:14047} bağışını ister. Kumaşı Auction House'tan al ya da kas: humanoid'ler düşürür, Wool seviye 15 ila 25, Silk 25 ila 40, Mageweave 40 ila 50, {item:14047} 50 ve üstü. 60'ta seviye 52 ya da üstü yaratıklarda kas: daha düşükleri gri.",
+	["From here it is cloth. Wool, Silk and Mageweave must all be handed in before {npc:14726} offers the {item:14047} donation, and {quest:7832} needs the {item:14047} donation. Buy cloth at the Auction House, or farm it: humanoids drop it, Wool from level 15 to 25, Silk 25 to 40, Mageweave 40 to 50, {item:14047} 50 and up. At 60 farm mobs of level 52 or more: lower ones are grey."] = "Buradan sonrası kumaş. {npc:14726}, {item:14047} bağışını önermeden önce Wool, Silk ve Mageweave'in hepsi teslim edilmeli, {quest:7832} de {item:14047} bağışını ister. Kumaşı müzayede evinden al ya da kas: humanoid'ler düşürür, Wool seviye 15 ila 25, Silk 25 ila 40, Mageweave 40 ila 50, {item:14047} 50 ve üstü. 60'ta seviye 52 ya da üstü yaratıklarda kas: daha düşükleri gri.",
 	-- {item:2592} Wool Cloth
 	["{item:2592}: the Thistlefur furbolgs drop it about one kill in four"] = "{item:2592}: Thistlefur furbolg'ları yaklaşık dört öldürmede bir düşürür",
 
@@ -343,7 +343,7 @@ return {
 
 	-- Step 56: A Donation of Runecloth
 	-- {item:14047} Runecloth · {area:2266} Tyr's Hand · {zone:1423} Eastern Plaguelands · {area:2577} Dire Maul · {zone:1444} Feralas · {zone:1451} Silithus
-	["{item:14047}: the Scarlet at {area:2266} in the {zone:1423}, the Gordok ogres outside {area:2577} in {zone:1444} and the Twilight camps of {zone:1451} drop it about one kill in three. The Auction House is faster if you have gold."] = "{item:14047}: {zone:1423} bölgesinde {area:2266} kesimindeki Scarlet'lar, {zone:1444} bölgesinde {area:2577} dışındaki Gordok ogre'ları ve {zone:1451} bölgesinin Twilight kampları yaklaşık üç öldürmede bir düşürür. Altının varsa Auction House daha hızlı.",
+	["{item:14047}: the Scarlet at {area:2266} in the {zone:1423}, the Gordok ogres outside {area:2577} in {zone:1444} and the Twilight camps of {zone:1451} drop it about one kill in three. The Auction House is faster if you have gold."] = "{item:14047}: {zone:1423} bölgesinde {area:2266} kesimindeki Scarlet'lar, {zone:1444} bölgesinde {area:2577} dışındaki Gordok ogre'ları ve {zone:1451} bölgesinin Twilight kampları yaklaşık üç öldürmede bir düşürür. Altının varsa müzayede evi daha hızlı.",
 	-- {item:14047} Runecloth · {area:2266} Tyr's Hand
 	["{item:14047}: the Scarlet outside {area:2266}"] = "{item:14047}: {area:2266} dışındaki Scarlet'lar",
 
@@ -357,7 +357,7 @@ return {
 	-- {quest:7832} Additional Runecloth
 	["{quest:7832} to Revered"] = "{quest:7832}: Revered olana kadar",
 	-- {item:14047} Runecloth
-	["Honored to Revered is 12,000: 240 hand-ins, 4,800 {item:14047}. The Auction House price of a stack decides whether to farm or buy."] = "Honored'dan Revered'a 12.000: 240 teslim, 4.800 {item:14047}. Kasıp kasmayacağına ya da satın alacağına bir yığının Auction House fiyatı karar verir.",
+	["Honored to Revered is 12,000: 240 hand-ins, 4,800 {item:14047}. The Auction House price of a stack decides whether to farm or buy."] = "Honored'dan Revered'a 12.000: 240 teslim, 4.800 {item:14047}. Kasıp kasmayacağına ya da satın alacağına bir yığının müzayede evi fiyatı karar verir.",
 
 	-- Step 59: Additional Runecloth to Exalted
 	-- {quest:7832} Additional Runecloth
@@ -366,15 +366,4 @@ return {
 	["Revered to Exalted is 21,000: 420 hand-ins, 8,400 {item:14047}. Raid heads pay too: The Lord of Blackrock (Nefarian) 200 to every Horde city and Victory for the Horde (Onyxia) 400 to {faction:76}. At Exalted, {npc:3362} in the {object:172958} sells the wolves to every Horde race: 20 gold for a level 40 wolf, 200 gold for a swift wolf at level 60 (Forever's prices); in Classic other races needed Exalted to buy them."] = "Revered'dan Exalted'a 21.000: 420 teslim, 8.400 {item:14047}. Raid kafaları da öder: The Lord of Blackrock (Nefarian) her Horde şehrine 200, Victory for the Horde (Onyxia) da {faction:76} için 400. Exalted'da {object:172958} içindeki {npc:3362}, kurtları her Horde ırkına satar: seviye 40 kurt için 20 altın, seviye 60'ta swift kurt için 200 altın (Forever'ın fiyatları); Classic'te diğer ırkların onları alması için Exalted gerekiyordu.",
 	-- {npc:3362} Ogunaro Wolfrunner
 	["{npc:3362}: the wolves"] = "{npc:3362}: kurtlar",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["{npc:14726} takes cloth for {faction:76} in {faction:76}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7832} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains."] = "{npc:14726}, {faction:76} için {faction:76} şehrinde kumaş topluyor. İlk Wool, Silk, Mageweave ve {item:14047} bağışları (her biri 60 kumaş) bir kez yapılır ve kumaş başına en çok itibarı verir; onlardan sonra {quest:7832} Exalted olana kadar tekrarlanır. Başka bir ırkın şehriyle Exalted olmak o ırkın bineklerini satın almanı sağlar. Forever'ın Legacy Diplomat ayrıcalığı itibar kazancını artırır.",
-	-- ["Venture Co. Enforcers at the {area:381} (level 16-17) drop it here. The Auction House works too."] = "Burada {area:381} madenindeki Venture Co. Enforcer yaratıkları (seviye 16-17) düşürür. Müzayede evi de olur.",
-	-- ["Kolkar centaur (level 30-33) drop it here. The Auction House works too."] = "Burada Kolkar centaurları (seviye 30-33) düşürür. Müzayede evi de olur.",
-	-- ["Dunemaul ogres (level 45-48) drop it here. The Auction House works too."] = "Burada Dunemaul ogreları (seviye 45-48) düşürür. Müzayede evi de olur.",
-	-- ["Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too."] = "Burada Dark Adept ve Shadowmage yaratıkları (seviye 58-60) düşürür; buradaki her Scourge öldürmesi {object:92525} itibarına da sayılır (o rehbere bak). Müzayede evi de olur.",
-	-- ["{npc:14726}: {item:14047} delivered"] = "{npc:14726}: {item:14047} teslim edildi",
-	-- ["{quest:7832} takes 20 {item:14047} per turn-in and repeats as often as you like. Bring {item:14047} in multiples of 20 and hand them all in at once, one turn-in after another. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House."] = "{quest:7832} her teslimde 20 {item:14047} alır ve istediğin kadar tekrarlanır. {item:14047} eşyasını 20'nin katları halinde getir ve hepsini art arda teslim ederek bir seferde ver. {item:14047}: {zone:1423} bölgesinde Dark Adept ve Shadowmage yaratıkları (seviye 58-60) ya da müzayede evi.",
-	-- ["Keep handing in {quest:7832}, 20 {item:14047} at a time. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House."] = "{quest:7832} görevini her seferinde 20 {item:14047} ile teslim etmeye devam et. {item:14047}: {zone:1423} bölgesinde Dark Adept ve Shadowmage yaratıkları (seviye 58-60) ya da müzayede evi.",
-	-- ["Keep handing in {quest:7832} until {faction:76} is Exalted. {item:14047}: Dark Adepts and Shadowmages (level 58-60) in {zone:1423}, or the Auction House."] = "{faction:76} ile Exalted olana kadar {quest:7832} görevini teslim etmeye devam et. {item:14047}: {zone:1423} bölgesinde Dark Adept ve Shadowmage yaratıkları (seviye 58-60) ya da müzayede evi.",
 }

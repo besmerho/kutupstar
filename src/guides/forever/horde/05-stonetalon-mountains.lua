@@ -199,29 +199,4 @@ return {
 	["Back on the road south. Where it turns east into {area:287}, {npc:2214} waits at {area:285}."] = "Yine güneye giden yola dön. Yolun doğuya, {area:287} bölgesine döndüğü yerde {npc:2214}, {area:285} kulesinde bekliyor.",
 	-- {npc:2214} Deathstalker Lesh · {area:272} Tarren Mill
 	["{npc:2214}: Darthalia in {area:272}"] = "{npc:2214}: {area:272} kasabasındaki Darthalia",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["From the {area:380} follow the road north. {npc:8582} stands on the watch tower of the {area:1703} where the road enters {area:331}. Open the {item:16783} he gives you."]
-	-- ["From the {area:380} follow the road north. {npc:8582} stands on the watch tower of the {area:1703} where the road enters {zone:1440}. Open the {item:16783} he gives you."] = "{area:380} kavşağından yolu kuzeye izle. {npc:8582}, yolun {zone:1440} bölgesine girdiği yerdeki {area:1703} surlarının gözetleme kulesinde duruyor. Sana verdiği {item:16783} eşyasını aç.",
-	-- maybe now: ["{npc:12696} stands at {area:428}, the Warsong camp just north-east of Splintertree, beside the hunt board.\nNorth up the road to {area:431} and {area:428} beside it."]
-	-- ["{npc:12696} stands at {area:428}, the Warsong camp just north-east of Splintertree, beside the hunt board."] = "{npc:12696}, Splintertree'nin hemen kuzeydoğusundaki Warsong kampı {area:428} içinde, av panosunun yanında duruyor.",
-	-- maybe now: ["{npc:12696}'s hunt targets (Ursangous, Shadumbra, Sharptalon) are for the next {area:331} visit, at 27."]
-	-- ["{npc:12696}'s hunt targets (Ursangous, Shadumbra, Sharptalon) are for the next {zone:1440} visit, at 27."] = "{npc:12696} adlı NPC'nin av hedefleri (Ursangous, Shadumbra, Sharptalon) bir sonraki {zone:1440} ziyareti için, seviye 27'de.",
-	-- maybe now: ["Head west along the main road across {area:331}, past {area:415} (Alliance: keep to the road), to the coast. {area:2897} is on the {area:414} in the north-west. Its other quests are for the next visit, at 27."]
-	-- ["Head west along the main road across {zone:1440}, past {area:415} (Alliance: keep to the road), to the coast. {area:2897} is on the {area:414} in the north-west. Its other quests are for the next visit, at 27."] = "Ana yol boyunca batıya, {zone:1440} bölgesini boydan boya geçerek {area:415} kasabasını (Alliance: yoldan ayrılma) geride bırak ve kıyıya git. {area:2897}, kuzeybatıda, {area:414} sahilinde. Diğer görevleri bir sonraki ziyaret için, seviye 27'de.",
-	-- maybe now: ["Head south to the {area:380}, then west along the road out of the {area:17} into Stonetalon. The troll village of {area:2539} sits at the entrance of the canyon."]
-	-- ["Head south to the {area:380}, then west along the road out of the {zone:1413} into Stonetalon. The troll village of {area:2539} sits at the entrance of the canyon."] = "Güneye, {area:380} kavşağına git, sonra yol boyunca batıya, {zone:1413} bölgesinden çıkarak Stonetalon'a gir. Troll köyü {area:2539} kanyonun girişinde.",
-	-- maybe now: ["East of Ziz, the Venture Company is clear-cutting {area:461}; one of the Operators carries the blueprints. {npc:4276} mines in the small mine on the east side: stay with him while he mines, Venture Co. thugs come for him.\nCareful: The kobolds arrive in waves. The first wave is melee fighters, and the second adds casters to the mix. Regular mobs in the mine respawn quickly and can join the fight while the waves are coming. A group is recommended."]
-	-- ["East of Ziz, the Venture Company is clear-cutting {area:461}; one of the Operators carries the blueprints. {npc:4276} mines in the small mine on the east side: stay with him while he mines, Venture Co. thugs come for him."] = "Ziz'in doğusunda Venture Company {area:461} kayalığının ormanını tamamen kesiyor; Operator yaratıklarından biri planları taşıyor. {npc:4276} doğu yakadaki küçük madende kazı yapıyor: o kazarken yanında kal, Venture Co. haydutları ona saldırmaya gelir.",
-	-- maybe now: ["The Gaea Seeds lie in the grass around the southern shore of {area:464}, north of Sun Rock.\nCareful: Pridewings around the lake can aggro as a linked group."]
-	-- ["The Gaea Seeds lie in the grass around the southern shore of {area:464}, north of Sun Rock."] = "Gaea Seed tohumları Sun Rock'ın kuzeyinde, {area:464} gölünün güney kıyısındaki çimenlerde duruyor.",
-	-- maybe now: ["{npc:4198}'s next quest, Ordanus, is on the Alliance side of {area:331}. Skip it."]
-	-- ["{npc:4198}'s next quest, Ordanus, is on the Alliance side of {zone:1440}. Skip it."] = "{npc:4198} adlı NPC'nin sonraki görevi Ordanus, {zone:1440} bölgesinin Alliance tarafında. Atla.",
-	-- ["To the {area:1497}"] = "{area:1497} şehrine",
-	-- ["Head east to the {area:380} and fly to {zone:1454}. Take the zeppelin from the towers outside {zone:1454} to {zone:1420}; the {area:1497} lies below the {area:153}. The bat handler is in the {object:36078}."] = "Doğuya, {area:380} kavşağına git ve {zone:1454} şehrine uç. {zone:1454} dışındaki kulelerden {zone:1420} zeplinine bin; {area:1497}, {area:153} harabelerinin altında. Yarasa bakıcısı {object:36078} semtinde.",
-	-- ["Speak with {npc:10181}, in the {object:36126}: {quest:93739}"] = "{object:36126} semtindeki {npc:10181} ile konuş: {quest:93739}",
-	-- ["{npc:4606} stands in the {object:36070}."] = "{npc:4606}, {object:36070} semtinde duruyor.",
-	-- maybe now: ["{item:271350}, from the Tortured Souls among the ruins; below ground"]
-	-- ["{item:271350}, from the Tortured Souls among the ruins"] = "{item:271350}: harabelerdeki Tortured Soul yaratıklarından",
-	-- ["Follow the road east along the river, then north-east up into the hills to {area:272}."] = "Yolu nehir boyunca doğuya, sonra kuzeydoğuya, tepelerdeki {area:272} kasabasına doğru izle.",
 }

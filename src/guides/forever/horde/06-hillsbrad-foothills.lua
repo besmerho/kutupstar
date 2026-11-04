@@ -210,23 +210,4 @@ return {
 	-- Step 45: Isha Awak
 	-- {quest:873} Isha Awak · {area:391} Merchant Coast · {npc:3388} Mahren Skyseer
 	["{quest:873}, a big threshadon, swims in the shallows off the {area:391}, east of {npc:3388}."] = "Büyük bir threshadon olan {quest:873}, {npc:3388} adlı NPC'nin doğusunda, {area:391} kıyısının açığındaki sığ sularda yüzüyor.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["The {object:556670} poster by the inn"]
-	-- ["The {object:1763} poster by the inn"] = "Hanın yanındaki {object:1763} ilanı",
-	-- maybe now: ["The {quest:567} poster: its targets come up along the way; inside"]
-	-- ["The {quest:567} poster: its targets come up along the way"] = "{quest:567} ilanı: hedefleri yol boyunca karşına çıkar",
-	-- ["Only if Gallywix fell in the {zone:1413} (Mission: Possible But Not Probable): {npc:2391} stands in {area:272}. Wait beside him while he brews the cure, then take your reward: Poisons."] = "Yalnızca {zone:1413} bölgesinde Gallywix'i yendiysen (Mission: Possible But Not Probable): {npc:2391}, {area:272} kasabasında duruyor. Panzehiri hazırlarken yanında bekle, sonra ödülünü al: Poisons.",
-	-- ["No Gallywix yet? The Class guide Poisons (Horde) runs the chain from Shenthul again, with a group for Gallywix."] = "Gallywix henüz yok mu? Poisons (Horde) sınıf rehberi zinciri Shenthul'dan yeniden başlatıyor; Gallywix için bir grupla.",
-	-- maybe now: ["{npc:2230}, next to Lydon; inside"]
-	-- ["{npc:2230}, next to Lydon"] = "{npc:2230}, Lydon'un yanında",
-	-- ["Peasants and skulls"] = "Köylüler ve kafatasları",
-	-- ["The Peasants work the fields south of the farmhouses. Every {area:287} human drops skulls; the Peasants drop them most often."] = "Peasant yaratıkları çiftlik evlerinin güneyindeki tarlalarda çalışıyor. {area:287} bölgesindeki her insan kafatası düşürür; en sık Peasant yaratıkları düşürür.",
-	-- ["Syndicate camps"] = "Syndicate kampları",
-	-- maybe now: ["Drull and {npc:2238} are chained inside {area:275}'s courtyard buildings; open both locks.\nFrom {area:272} go south-east into the hills on the way to {area:275}. Rogues and Watchmen hold the camps along the way."]
-	-- ["From {area:272} go south-east into the hills on the way to {area:275}. Rogues and Watchmen hold the camps along the way."] = "{area:272} kasabasından güneydoğuya, {area:275} kalesine giden yoldaki tepelere git. Yol boyunca kampları Syndicate Rogue ve Syndicate Watchman yaratıkları tutuyor.",
-	-- ["Drull and {npc:2238} are chained inside {area:275}'s courtyard buildings; open both locks."] = "Drull ve {npc:2238}, {area:275} kalesinin avlusundaki binalarda zincirli; iki kilidi de aç.",
-	-- ["From {zone:1454} (zeppelin from the towers outside the {zone:1458}) fly to {area:1638} and train on {area:1639}, then fly on to {area:378}."] = "{zone:1454} şehrinden ({zone:1458} dışındaki kulelerden zeplinle) {area:1638} şehrine uç ve {area:1639} tepesinde eğitimini al, sonra {area:378} kampına uç.",
-	-- maybe now: ["South-west of Bael Modan, {npc:12576} waits at the top of the {area:1718}."]
-	-- ["South-west of Bael Modan, {npc:12576} waits at the top of the {area:485}."] = "Bael Modan'ın güneybatısında, {npc:12576} {area:485} asansörünün tepesinde bekliyor.",
 }

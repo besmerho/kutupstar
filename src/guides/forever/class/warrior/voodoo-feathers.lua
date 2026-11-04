@@ -67,14 +67,4 @@ return {
 	["Back to the {npc:10996}"] = "{npc:10996} yanına dön",
 	-- {npc:10996} Fallen Hero · {item:20130} Diamond Flask · {item:20521} Fury Visor · {item:20517} Razorsteel Shoulders
 	["In Classic the {npc:10996} let you choose the {item:20130}, the {item:20521} or the {item:20517} here. Forever's change notes say the choice is gone, though its quest page still lists three unnamed rewards: look at the reward window before you hand in."] = "Classic'te {npc:10996} burada {item:20130}, {item:20521} ya da {item:20517} arasında seçim yaptırırdı. Forever'ın değişiklik notları seçimin kalktığını söylüyor, ama görev sayfası hâlâ adı verilmemiş üç ödül listeliyor: teslim etmeden önce ödül penceresine bak.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["Experience at 50, ending in the {area:1417}; Classic's item choice may be gone on Forever."]
-	-- ["Experience at 50, ending in the {area:1417}; Forever removed the Classic item choice."] = "Seviye 50'de deneyim puanı, {area:1417} içinde biter; Forever Classic'teki eşya seçimini kaldırdı.",
-	-- maybe now: ["At 50, {npc:5479}, beside {npc:5480} in the warrior trainers' building of {object:2100}, sends you to the {npc:7572} in the {zone:1435}."]
-	-- ["At 50, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to the {npc:7572} in the {zone:1435}."] = "Seviye 50'de {object:2100} semtinde Pig and Whistle'ın yanındaki {npc:5479}, seni {zone:1435} bölgesindeki {npc:7572} yanına gönderir.",
-	-- ["The {npc:7572} stands in the south-west of the {zone:1435}, at the entrance to the {zone:1419}."] = "{npc:7572}, {zone:1435} bölgesinin güneybatısında, {zone:1419} girişinde duruyor.",
-	-- ["The Helboars roam the north of the {zone:1419}, south of the {npc:10996}."] = "Helboar yaratıkları {zone:1419} bölgesinin kuzeyinde, {npc:10996} adlı NPC'nin güneyinde dolaşıyor.",
-	-- ["The Shadowsworn cultists hold the east of the {zone:1419}."] = "Shadowsworn tarikatçıları {zone:1419} bölgesinin doğusunu tutuyor.",
-	-- ["The {area:1417} lies under the {area:74} in the east of the {zone:1435}. Each of the six Atal'ai trolls on the balcony drops a voodoo feather: Gasher or {npc:5716} the amber, Hukku or Mijan the blue, Zolo or Loro the green. The {area:1417} is a dungeon and the trolls are elite: grouping up is advised."] = "{area:1417}, {zone:1435} bölgesinin doğusundaki {area:74} gölünün altında. Balkondaki altı Atal'ai trolünün her biri bir voodoo tüyü düşürür: kehribar rengini Gasher ya da {npc:5716}, mavisini Hukku ya da Mijan, yeşilini Zolo ya da Loro. {area:1417} bir zindan ve troller elit: grup kurman önerilir.",
 }

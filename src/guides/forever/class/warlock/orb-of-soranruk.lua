@@ -30,14 +30,4 @@ return {
 	["Back to {npc:6247}"] = "{npc:6247} yanına dön",
 	-- {item:6898} Orb of Soran'ruk · {item:15109} Staff of Soran'ruk
 	["Choose the off-hand {item:6898} or the two-handed {item:15109}."] = "Yan el {item:6898} ya da iki elli {item:15109} seç.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["A rare off-hand orb or staff for your 20s, for fragments from two dungeons."]
-	-- ["A rare off-hand orb or staff for your late 20s, for fragments from two dungeons."] = "20'li seviyelerinin sonu için iki zindandan gelen parçalar karşılığında nadir bir yan el küresi ya da asa.",
-	-- ["{npc:6247} camps in the southern {zone:1413}, east of the road north-east of {area:378}."] = "{npc:6247}, {zone:1413} bölgesinin güneyinde, {area:378} kampının kuzeydoğusundaki yolun doğusunda kamp kurmuş.",
-	-- ["The Twilight Acolytes inside {area:2797}, a level 24-32 dungeon, each drop a {item:6914}: bring a group. The entrance is in the ruins on the north-west coast of {zone:1440}."] = "Seviye 24-32 bir zindan olan {area:2797} içindeki Twilight Acolyte yaratıklarının her biri bir {item:6914} düşürür: grup getir. Giriş {zone:1440} bölgesinin kuzeybatı kıyısındaki harabelerde.",
-	-- ["{item:6914}, from the Twilight Acolytes"] = "{item:6914}, Twilight Acolyte yaratıklarından",
-	-- ["The Shadowfang Darksouls inside {area:236}, a level 20-30 dungeon, drop the Large Fragment about one time in five: bring a group. The keep stands south of the {area:228}."] = "Seviye 20-30 bir zindan olan {area:236} içindeki Shadowfang Darksoul yaratıkları büyük parçayı yaklaşık beşte bir düşürür: grup getir. Kale {area:228} kasabasının güneyinde.",
-	-- maybe now: ["{item:6915}, from the Shadowfang Darksouls inside"]
-	-- ["{item:6915}, from the Shadowfang Darksouls"] = "{item:6915}, Shadowfang Darksoul yaratıklarından",
 }

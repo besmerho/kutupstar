@@ -39,13 +39,4 @@ return {
 	["Back to {npc:9619} in the south-east corner of {zone:1449}."] = "{zone:1449} bölgesinin güneydoğu köşesindeki {npc:9619} yanına dön.",
 	-- {npc:9619} Torwa Pathfinder
 	["{npc:9619}: the old item choice may be gone, count on the experience"] = "{npc:9619}: eski eşya seçimi kalkmış olabilir, deneyime güven",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["Experience in Un'Goro at 50 and two healing potions; the Classic item choice may be gone in Forever."]
-	-- ["Experience in Un'Goro at 50 and two healing potions; Forever removed the Classic item choice."] = "Seviye 50'de Un'Goro'da deneyim puanı ve iki iyileştirme iksiri; Forever Classic'teki eşya seçimini kaldırdı.",
-	-- maybe now: ["Cast {spell:18960}. {npc:12042} stands in {area:2361}; your class trainer ({npc:3033}, {npc:4217} or Theridran in {zone:1453}) offers the same quest."]
-	-- ["Cast {spell:18960}. {npc:12042} stands in {area:2361}; your class trainer offers the same quest."] = "{spell:18960} büyüsünü kullan. {npc:12042}, {area:2361} köyünde duruyor; sınıf eğitmenin de aynı görevi veriyor.",
-	-- ["The Gorishi wasps, workers and reavers of the hive in the south of the crater drop the stings; the Bloodpetal Sprouts that give the {item:22434} grow all over the crater's western half."] = "İğneleri kraterin güneyindeki kovanın Gorishi eşekarıları, işçileri ve yağmacıları düşürür; {item:22434} veren Bloodpetal Sprout filizleri kraterin batı yarısının her yanında yetişiyor.",
-	-- ["Use the {item:22432} on a {npc:6498}. Devilsaurs are elite (level 54-55) and roam the crater: grouping up is advised."] = "Bir {npc:6498} üzerinde {item:22432} kullan. Devilsaur yaratıkları elit (seviye 54-55) ve kraterde dolaşıyor: grup kurman önerilir.",
-	-- ["{area:1477} lies in the {area:74} in the {zone:1435}. {npc:8580} guards the bottom of the temple: a dungeon boss, so bring a group."] = "{area:1477}, {zone:1435} bölgesindeki {area:74} gölünde. Tapınağın dibini {npc:8580} koruyor: bir zindan boss'u, grup getir.",
 }

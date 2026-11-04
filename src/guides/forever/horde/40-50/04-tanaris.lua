@@ -87,7 +87,7 @@ return {
 	["The {area:247}"] = "{area:247} kazı alanı",
 	-- {area:340} Kargath · {area:51} Searing Gorge · {object:173265} Wooden Outhouse · {item:4306} Silk Cloth
 	-- plural, as words: Dark Iron Geologists = {npc:5839} Dark Iron Geologist
-	["Take the pass out of {area:340}'s west side into the {area:51}, then ride south-west to the dig site. The {object:173265} stands at its southern end; the Dark Iron Geologists dig just north of it. Bring 15 {item:4306} (the Auction House sells it)."] = "{area:340} kasabasının batı yakasından geçitle {area:51} bölgesine çık, sonra güneybatıya, kazı alanına sür. {object:173265} kazının güney ucunda duruyor; Dark Iron Geologist yaratıkları hemen kuzeyinde kazı yapıyor. 15 {item:4306} getir (Auction House satar).",
+	["Take the pass out of {area:340}'s west side into the {area:51}, then ride south-west to the dig site. The {object:173265} stands at its southern end; the Dark Iron Geologists dig just north of it. Bring 15 {item:4306} (the Auction House sells it)."] = "{area:340} kasabasının batı yakasından geçitle {area:51} bölgesine çık, sonra güneybatıya, kazı alanına sür. {object:173265} kazının güney ucunda duruyor; Dark Iron Geologist yaratıkları hemen kuzeyinde kazı yapıyor. 15 {item:4306} getir (müzayede evi satar).",
 	-- {object:173265} Wooden Outhouse
 	["the {object:173265}"] = "{object:173265}",
 
@@ -147,34 +147,4 @@ return {
 	-- Step 40: The Key to Freedom
 	-- {item:11818} Grimesilt Outhouse Key · {object:173265} Wooden Outhouse
 	["Only with the {item:11818}: back east to the {object:173265} at the dig site."] = "Yalnızca {item:11818} varsa: doğuya, kazı alanındaki {object:173265} yanına dön.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["{area:1099} flight master"]
-	-- ["From {area:1099}'s flight master."] = "{area:1099} kampının uçuş ustasından.",
-	-- ["the {object:150075} in the square"] = "meydandaki {object:150075}",
-	-- ["South-east of Gadgetzan the Wastewander bandits camp in the dunes; {npc:7847} stands in the eastern camp."] = "Gadgetzan'ın güneydoğusunda Wastewander haydutları kum tepelerinde kamp kurmuş; {npc:7847} doğu kampında duruyor.",
-	-- ["West, the Centipaar insects swarm around their hives; any of them drops the parts."] = "Batıda Centipaar böcekleri kovanlarının çevresinde kaynıyor; herhangi biri parçaları düşürür.",
-	-- maybe now: ["West of the compound the cactus creatures fill the valley; only the Dew Collectors carry a dew gland. Most mobs in {area:440} can drop OOX-17/TN's distress beacon, rarely: keep it if you see one.\nCareful: The other thistleshrub mobs in the area are level 49-50 and wander a lot, so you can easily pull extra mobs."]
-	-- ["West of the compound the cactus creatures fill the valley; only the Dew Collectors carry a dew gland. Most mobs in {zone:1446} can drop OOX-17/TN's distress beacon, rarely: keep it if you see one."] = "Yerleşkenin batısındaki vadi kaktüs yaratıklarıyla dolu; çiy bezini yalnızca Dew Collector yaratıkları taşıyor. {zone:1446} bölgesindeki yaratıkların çoğu nadiren OOX-17/TN'nin imdat işaretini düşürebilir: görürsen sakla.",
-	-- ["Ride south-west to {area:976}."] = "Güneybatıya, {area:976} kasabasına git.",
-	-- ["South down the road again."] = "Yine yoldan güneye in.",
-	-- ["Further south, Junior Surveyor Scrimshank's gear lies at the mouth of a Centipaar hive."] = "Daha güneyde, Junior Surveyor Scrimshank'in eşyaları bir Centipaar kovanının ağzında duruyor.",
-	-- maybe now: ["Only with the distress beacon: OOX-17/TN sits south-east of Scrimshank's hive. Escort it north to {area:977}; its reward waits with Oglethorpe in {area:35}.\nCareful: The escort has two ambushes. Three level 47 scorpids attack near the start. Near the end, by the beach, three Wastewander humans attack: one mage and two assassins, around level 44."]
-	-- ["Only with the distress beacon: OOX-17/TN sits south-east of Scrimshank's hive. Escort it north to {area:977}; its reward waits with Oglethorpe in {area:35}."] = "Yalnızca imdat işareti varsa: OOX-17/TN, Scrimshank'in kovanının güneydoğusunda. Ona kuzeye, {area:977} limanına kadar eşlik et; ödülü {area:35} limanında Oglethorpe'ta.",
-	-- maybe now: ["for {npc:7010} in {zone:1454}, around level 50"]
-	-- ["for {npc:7010} in {area:1637}, around level 50"] = "{area:1637} şehrindeki {npc:7010} için, seviye 50 civarında",
-	-- ["Fly to {area:1637} and train: the next guide's training stop is the {zone:1458}, which has no Hunter or Shaman trainer. Then fly to {area:392}."] = "{area:1637} şehrine uç ve eğitimini al: sonraki rehberin eğitim durağı {zone:1458} şehri, orada Hunter ya da Shaman eğitmeni yok. Sonra {area:392} limanına uç.",
-	-- ["Fly to {area:1638} and train with {npc:3033} on {area:1639}, then fly to {area:392}."] = "{area:1638} şehrine uç ve {area:1639} tepesinde {npc:3033} adlı NPC'den eğitimini al, sonra {area:392} limanına uç.",
-	-- ["Fly to {area:392}"] = "{area:392} limanına uç",
-	-- ["Boat to {area:35}"] = "Gemiyle {area:35} limanına",
-	-- ["The boat to {area:35} docks at {area:392}'s pier, below the flight master's hill."] = "{area:35} gemisi, uçuş ustasının tepesinin aşağısındaki {area:392} iskelesine yanaşıyor.",
-	-- ["{area:392} pier"] = "{area:392} iskelesi",
-	-- ["Fly to {area:340}"] = "{area:340} kalesine uç",
-	-- ["From the {area:35} flight master, above the harbour."] = "Limanın yukarısındaki {area:35} uçuş ustasından.",
-	-- maybe now: ["Take the pass out of {area:340}'s west side into the {area:51}, then ride south-west to the dig site. The {object:173265} stands at its southern end; the Dark Iron Geologists dig just north of it. Bring 15 {item:4306} (the Auction House sells it)."]
-	-- ["Take the pass out of {area:340}'s west side into the {zone:1427}, then ride south-west to the dig site. The {object:173265} stands at its southern end; the Dark Iron Geologists dig just north of it. Bring 15 {item:4306} (the Auction House sells it)."] = "{area:340} kalesinin batı yakasındaki geçitten {zone:1427} bölgesine çık, sonra güneybatıya, kazı alanına git. {object:173265} kazı alanının güney ucunda; Dark Iron Geologist yaratıkları hemen kuzeyinde kazı yapıyor. 15 {item:4306} getir (Auction House satıyor).",
-	-- ["Heavy War Golems patrol the Cauldron below Kalaran and drop the oil; the Magma and Blazing Elementals drifting among them drop the hearts. The Dark Iron Taskmasters and Slavers drive the slaves on the paths; a Slaver may drop the {item:11818}: keep it."] = "Heavy War Golem yaratıkları Kalaran'ın aşağısında Cauldron'da devriye geziyor ve yağı düşürüyor; aralarında süzülen Magma Elemental ve Blazing Elemental yaratıkları yürekleri düşürür. Dark Iron Taskmaster ve Dark Iron Slaver yaratıkları patikalarda köleleri çalıştırıyor; bir Slaver {item:11818} düşürebilir: sakla.",
-	-- ["{area:1443} opens in the north of the Cauldron. Incendosaurs swim in its lava pools: pull them to the edge. The secret plans lie on the pit's upper ledge."] = "{area:1443}, Cauldron'un kuzeyinde açılıyor. Lav havuzlarında Incendosaur yaratıkları yüzüyor: onları kenara çek. Gizli planlar çukurun üst çıkıntısında duruyor.",
-	-- ["Greater Lava Spiders"] = "Greater Lava Spider yaratıkları",
-	-- ["The Greater Lava Spiders roam the plateaus and lava pools in the south-west of the gorge."] = "Greater Lava Spider yaratıkları boğazın güneybatısındaki platolarda ve lav havuzlarında dolaşıyor.",
 }

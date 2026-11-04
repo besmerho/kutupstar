@@ -100,24 +100,4 @@ return {
 	["Warlock: {quest:3631}"] = "Warlock: {quest:3631}",
 	-- {area:392} Ratchet · {npc:6251} Strahad Farsan
 	["Fly to {area:392}; {npc:6251} teaches in the house by the bank. Fly back to Theramore afterwards."] = "{area:392} limanına uç; {npc:6251} bankanın yanındaki evde ders veriyor. Ardından Theramore'a geri uç.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["{npc:1573}, the {object:32372}"] = "{npc:1573}, {object:32372} ocağının başında",
-	-- ["Ride south out of {zone:1432} through the pass into the {zone:1418}; {npc:2860} camps at the dig."] = "Güneye, {zone:1432} bölgesinden geçitle {zone:1418} bölgesine geç; {npc:2860} kazı alanında kamp kurmuş.",
-	-- ["{npc:2888} camps by himself in {area:1898}, south-east of the digsite."] = "{npc:2888}, kazı alanının güneydoğusundaki {area:1898} vadisinde tek başına kamp kurmuş.",
-	-- ["The battered skeleton lies at the edge of the Stonevault trogg camp; {quest:739}, Agmond's killer, walks among the Bonesnappers."] = "Hırpalanmış iskelet Stonevault trogg kampının kenarında yatıyor; Agmond'un katili {quest:739}, Bonesnapper yaratıklarının arasında dolaşıyor.",
-	-- ["Ride west to the {area:1877} in the middle of the {zone:1418}; {npc:2817} camps beside Martek."] = "Batıya, {zone:1418} bölgesinin ortasındaki {area:1877} vadisine git; {npc:2817} Martek'in yanında kamp kurmuş.",
-	-- maybe now: ["Ride west across the {area:3} to the Dustbelcher camp at {area:342}. {npc:2944} stands in its middle with Wyrmhunters and Maulers around him."]
-	-- ["Ride west across the {zone:1418} to the Dustbelcher camp at {area:342}. {npc:2944} stands in its middle with Wyrmhunters and Maulers around him."] = "{zone:1418} bölgesini batıya geçerek {area:342} kampındaki Dustbelcher kampına git. {npc:2944} kampın ortasında, çevresinde Wyrmhunter ve Mauler yaratıklarıyla duruyor.",
-	-- ["grind on {npc:2725} at {area:339}, {zone:1418}"] = "{zone:1418} bölgesindeki {area:339} vadisinde {npc:2725} yaratıklarıyla seviye kas",
-	-- maybe now: ["Ride north-east out of {area:271} on the road into the {area:47}; {area:348} sits just past the border. {npc:5635} holds court at the top, {quest:1450} tends the aviary and {npc:7884} stands by the inn."]
-	-- ["Ride north-east out of {area:271} on the road into the {zone:1425}; {area:348} sits just past the border. {npc:5635} holds court at the top, {quest:1450} tends the aviary and {npc:7884} stands by the inn."] = "{area:271} kasabasından kuzeydoğuya giden yolla {zone:1425} bölgesine gir; {area:348} sınırın hemen ötesinde. {npc:5635} tepede, {quest:1450} kuşhanede, {npc:7884} ise hanın yanında duruyor.",
-	-- ["{npc:5634}'s cocktail needs parts from Kalimdor: skip it."] = "{npc:5634} adlı NPC'nin kokteyli Kalimdor'dan malzeme istiyor: atla.",
-	-- maybe now: ["{npc:5636}, beside the flight master at the top; inside"]
-	-- ["{npc:5636}, beside the flight master at the top"] = "{npc:5636}, tepede, uçuş ustasının yanında",
-	-- maybe now: ["Talonaxe's next task waits for a later {area:47} guide."]
-	-- ["Talonaxe's next task waits for a later {zone:1425} guide."] = "Talonaxe'ın sonraki görevi daha sonraki bir {zone:1425} rehberini bekliyor.",
-	-- ["Take the boat to Theramore from the far pier."] = "Uzaktaki iskeleden Theramore gemisine bin.",
-	-- ["On to Feathermoon"] = "Feathermoon'a doğru",
-	-- ["Fly to {area:608}, ride south through {zone:1443} into {zone:1444} and follow the road to the dock on the {area:1108}; the boat crosses to {area:1116}, where the next guide starts."] = "{area:608} karakoluna uç, güneye {zone:1443} bölgesinden {zone:1444} bölgesine geç ve yolu {area:1108} kıyısındaki iskeleye kadar izle; gemi seni sonraki rehberin başladığı {area:1116} kalesine götürür.",
 }

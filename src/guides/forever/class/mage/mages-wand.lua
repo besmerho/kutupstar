@@ -37,7 +37,7 @@ return {
 	-- Step 7: Jade
 	-- {npc:6546} Tabetha · {item:1529} Jade · {area:271} Southshore
 	-- plural, as words: Torn Fin Coastrunners = {npc:2375} Torn Fin Coastrunner
-	["{npc:6546} also wants one {item:1529}, a green gem. Miners sometimes find one in ore veins; the Auction House sells it; the Torn Fin Coastrunners on the coast south-west of {area:271} drop one about every fifth kill. Do not sell it to a vendor by mistake."] = "{npc:6546} bir {item:1529}, yeşil bir mücevher de istiyor. Madenciler bazen cevher damarlarında bulur; Auction House satar; {area:271} kasabasının güneybatısındaki kıyıda bulunan Torn Fin Coastrunner yaratıkları yaklaşık beş öldürmede bir düşürür. Yanlışlıkla satıcıya satma.",
+	["{npc:6546} also wants one {item:1529}, a green gem. Miners sometimes find one in ore veins; the Auction House sells it; the Torn Fin Coastrunners on the coast south-west of {area:271} drop one about every fifth kill. Do not sell it to a vendor by mistake."] = "{npc:6546} bir {item:1529}, yeşil bir mücevher de istiyor. Madenciler bazen cevher damarlarında bulur; müzayede evi satar; {area:271} kasabasının güneybatısındaki kıyıda bulunan Torn Fin Coastrunner yaratıkları yaklaşık beş öldürmede bir düşürür. Yanlışlıkla satıcıya satma.",
 
 	-- Step 8: Rituals of Power
 	-- {area:796} Scarlet Monastery · {zone:1420} Tirisfal Glades · {npc:6487} Arcanist Doan · {item:5535} Compendium of the Fallen
@@ -50,16 +50,4 @@ return {
 	["{npc:6546}'s ritual"] = "{npc:6546} adlı NPC'nin ayini",
 	-- {npc:6546} Tabetha
 	["Back to {npc:6546}. With both quests handed in she starts the ritual: wait a few seconds, then talk to her again and pick your wand: Icefury (frost), Nether Force (arcane) or Ragefire (fire)."] = "{npc:6546} yanına dön. İki görev de teslim edilince ritüeli başlatır: birkaç saniye bekle, sonra onunla yeniden konuş ve wand'ını seç: Icefury (frost), Nether Force (arcane) ya da Ragefire (fire).",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["{npc:5497} at the top of the Wizard's Sanctum, {zone:1453}'s {object:2101}, sends you to {npc:6546}; Bink in {zone:1455} gives the same quest."]
-	-- ["{npc:5497} in the Wizard's Sanctum, {zone:1453}'s {object:2101}, sends you to {npc:6546}; Bink in {zone:1455} gives the same quest."] = "{zone:1453} şehrinin {object:2101} semtindeki Wizard's Sanctum içinde duran {npc:5497} seni {npc:6546} adlı NPC'ye gönderir; {zone:1455} şehrindeki Bink de aynı görevi verir.",
-	-- maybe now: ["{npc:5885}, one of {zone:1454}'s mage trainers in {object:173161}, sends you to {npc:6546}; {npc:4568} in the {zone:1458} and {npc:3048} in {zone:1456} give the same quest."]
-	-- ["{npc:5885}, one of {zone:1454}'s mage trainers, sends you to {npc:6546}; {npc:4568} in the {zone:1458} and {npc:3048} in {zone:1456} give the same quest."] = "{zone:1454} şehrinin Mage eğitmenlerinden {npc:5885} seni {npc:6546} adlı NPC'ye gönderir; {zone:1458} şehrindeki {npc:4568} ve {zone:1456} şehrindeki {npc:3048} de aynı görevi verir.",
-	-- ["{npc:6546}, a hermit, lives in a cottage deep in the marsh west of Theramore, just north of the {area:508}."] = "Bir münzevi olan {npc:6546}, Theramore'un batısında, bataklığın derinliklerinde, {area:508} harabelerinin hemen kuzeyindeki bir kulübede yaşıyor.",
-	-- ["Tirth's apprentice is \"Plucky\" Johnson, a small grey chicken by the race track. Target him and type /beckon: he turns human for a moment, long enough to talk to him."] = "Tirth'ün çırağı \"Plucky\" Johnson, yarış pistinin yanındaki küçük gri bir tavuk. Onu hedef al ve /beckon yaz: bir anlığına insana döner, onunla konuşmaya yetecek kadar.",
-	-- ["Tirth sold the book to the Scarlet Brotherhood. The {area:796} stands in north-eastern {zone:1420}; take the Library wing. The book juts out of the wall on the left as you enter the Athenaeum, before {npc:6487}."] = "Tirth kitabı Scarlet Brotherhood'a sattı. {area:796}, {zone:1420} bölgesinin kuzeydoğusunda; Library kanadına gir. Kitap, {npc:6487} adlı yaratıktan önce Athenaeum'a girerken soldaki duvardan dışarı çıkıyor.",
-	-- ["Back to {npc:6546}"] = "{npc:6546} yanına dön",
-	-- ["Witherbark trolls"] = "Witherbark trolları",
-	-- ["The Witherbark trolls hold south-eastern {zone:1417}; every one of them can drop a {item:7273}. Then take the ten sticks north-west to the binding circle where they become the {item:7272}. {npc:6546} also wants a {item:1529}: buy one at an Auction House on the way; miners sometimes find one in Tin Veins."] = "Witherbark trolları {zone:1417} bölgesinin güneydoğusunu tutuyor; her biri {item:7273} düşürebilir. Sonra on çubuğu kuzeybatıdaki bağlama çemberine götür, orada {item:7272} olurlar. {npc:6546} ayrıca bir {item:1529} istiyor: yolda bir Auction House'tan al; madenciler bazen Tin Vein damarlarında bulur.",
 }

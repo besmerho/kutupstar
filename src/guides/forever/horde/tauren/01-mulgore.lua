@@ -329,25 +329,4 @@ return {
 	["Class turn-in in {area:1638}"] = "{area:1638} şehrinde sınıf teslimi",
 	-- {npc:8359} Ahanu
 	["{npc:8359}, by the wind riders on the central rise"] = "{npc:8359}, orta tepedeki wind rider'ların yanında",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Plainstriders roam the grass all around the camp."] = "Plainstrider yaratıkları kampın her yanındaki çimenlerde dolaşıyor.",
-	-- maybe now: ["{npc:3059}, the warrior trainer; inside"]
-	-- ["{npc:3059}, the warrior trainer"] = "{npc:3059}, Warrior eğitmeni",
-	-- ["{npc:3209}, next to {npc:2980}"] = "{npc:3209}, {npc:2980} ile yan yana",
-	-- ["Speak with {npc:3067}"] = "{npc:3067} ile konuş",
-	-- ["{quest:96130} and {quest:756}"] = "{quest:96130} ve {quest:756}",
-	-- ["Back to Bloodhoof"] = "Bloodhoof köyüne dön",
-	-- maybe now: ["The well lies north of the village. Well Stones sit around the well, {object:2912} lies under the trees nearby. Kill wolves, cougars, plainstriders and swoops on the way for {quest:766} and {quest:761}; the plainstriders also drop the {item:287505} for Kyle."]
-	-- ["The well lies north of the village. Well Stones sit around the well, {object:2912} lies under the trees nearby. Kill wolves, cougars, plainstriders and swoops on the way for {quest:766} and {quest:761}."] = "Kuyu köyün kuzeyinde. Well Stone nesneleri kuyunun çevresinde, {object:2912} yakındaki ağaçların altında duruyor. {quest:766} ve {quest:761} için yolda kurt, puma, plainstrider ve swoop öldür.",
-	-- ["Prairie Wolf Alphas"] = "Prairie Wolf Alpha yaratıkları",
-	-- ["Finish the wolf heart, cougar femur, plainstrider scale and swoop gizzard on the plains around the village."] = "Kurt yüreğini, puma uyluk kemiğini, plainstrider pulunu ve swoop taşlığını köyün çevresindeki düzlüklerde tamamla.",
-	-- ["{npc:6746} on the central rise sends you to {npc:3033} on {area:1639}."] = "Ortadaki tepede duran {npc:6746} seni {area:1639} tepesindeki {npc:3033} yanına gönderir.",
-	-- ["Hearth to {area:222} and head north to {area:1639}."] = "Hearthstone ile {area:222} köyüne dön ve kuzeye, {area:1639} tepesine git.",
-	-- maybe now: ["{npc:3065} stands at the north end of {area:222}. Tame with the {item:15908}: an {npc:2956} on the plains, a {npc:2959} north of the village, a {npc:2970} to the north-west."]
-	-- ["Head down to {area:222} and tame with the {item:15908}: an {npc:2956} on the plains, a {npc:2959} north of the village, a Swoop to the north-west."] = "Aşağıya, {area:222} köyüne in ve {item:15908} ile evcilleştir: düzlüklerde bir {npc:2956}, köyün kuzeyinde bir {npc:2959}, kuzeybatıda bir Swoop.",
-	-- maybe now: ["Leave {zone:1412} by the south-eastern pass and follow the road to the {area:380}. {quest:860} stands by the inn, {npc:3448} at the south gate. {area:17} guide starts here.\n{area:380} is your base for this guide. Everyone you need stands within a few steps of the inn."]
-	-- ["Leave {zone:1412} by the south-eastern pass and follow the road to the {area:380}. {quest:860} stands by the inn, {npc:3448} at the south gate. {zone:1413} guide starts here."] = "Güneydoğudaki geçitten {zone:1412} bölgesinden çık ve yolu {area:380} kavşağına kadar izle. {quest:860} hanın yanında, {npc:3448} güney kapısında duruyor. {zone:1413} rehberi burada başlıyor.",
-	-- maybe now: ["Class turn-in in {area:1638}"]
-	-- ["Class turn-ins in {area:1638}"] = "{area:1638} şehrinde sınıf teslimleri",
 }

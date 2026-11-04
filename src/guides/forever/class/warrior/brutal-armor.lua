@@ -63,7 +63,7 @@ return {
 	["Iron Bars"] = "Iron Bar",
 	-- {item:2772} Iron Ore · {spell:3307} Smelt Iron · {skill:186} Mining · {zone:1454} Orgrimmar
 	-- plural, as words: Iron Bars = {item:3575} Iron Bar
-	["You need 10 Iron Bars. Miners smelt them from {item:2772} (one ore a bar, {spell:3307} at {skill:186} 125); everyone else buys them at the auction house in {zone:1454}."] = "10 Iron Bar gerekiyor. Madenciler onları {item:2772} cevherinden eritir (her külçe için bir cevher, {skill:186} 125'te {spell:3307}); diğer herkes {zone:1454} şehrindeki Auction House'dan alır.",
+	["You need 10 Iron Bars. Miners smelt them from {item:2772} (one ore a bar, {spell:3307} at {skill:186} 125); everyone else buys them at the auction house in {zone:1454}."] = "10 Iron Bar gerekiyor. Madenciler onları {item:2772} cevherinden eritir (her külçe için bir cevher, {skill:186} 125'te {spell:3307}); diğer herkes {zone:1454} şehrindeki müzayede evinden alır.",
 	-- {npc:8673} Auctioneer Thathung
 	-- plural, as words: Iron Bars = {item:3575} Iron Bar
 	["Iron Bars: {npc:8673}"] = "Iron Bar: {npc:8673}",
@@ -100,29 +100,4 @@ return {
 	-- {zone:1437} Wetlands · {area:321} Hammerfall · {area:881} Thandol Span · {area:150} Menethil Harbor · {item:7131} Dragonmaw Shinbone · {spell:686} Shadow Bolt
 	["The Dragonmaw orcs (level 26-30) camp in the middle of the {zone:1437}; from {area:321} in Arathi head south over the {area:881} ({area:150} is Alliance). Every Raider, Swamprunner, Centurion, Shadowwarder and Bonewarder drops a {item:7131}: right-click it to test it, and about one in four comes out sturdy, the rest break, so expect 30 or more kills for 8. You can test while moving or fighting. The orcs run for help at 15%; Raiders net you, Centurions shield-bash, Shadowwarders cast {spell:686}, Bonewarders raise skeletons."] = "Dragonmaw orc'ları (seviye 26-30) {zone:1437} bölgesinin ortasında kamp kurmuş; Arathi'deki {area:321} kasabasından güneye, {area:881} köprüsünden geç ({area:150} Alliance). Her Raider, Swamprunner, Centurion, Shadowwarder ve Bonewarder bir {item:7131} düşürür: denemek için ona sağ tıkla, aşağı yukarı dörtte biri sağlam çıkar, geri kalanı kırılır, bu yüzden 8 tane için 30 ya da daha fazla öldürme bekle. Hareket ederken ya da dövüşürken deneyebilirsin. Orc'lar %15'te yardım için kaçar; Raider'lar ağ atar, Centurion'lar kalkanla vurur, Shadowwarder'lar {spell:686} kullanır, Bonewarder'lar iskelet kaldırır.",
 	["from the Dragonmaw orcs: right-click to test it"] = "Dragonmaw orc'larından: denemek için sağ tıkla",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Fly to {area:378}. South of the camp the Silithid Mounds dot the {area:390}: the silithid there carry the Twitching Antennae."] = "{area:378} kampına uç. Kampın güneyinde {area:390} ovası Silithid Mound'larla dolu: oradaki silithidler Twitching Antennae taşıyor.",
-	-- ["Twitching Antennae from the silithid"] = "Silithidlerden Twitching Antennae",
-	-- ["{npc:5878} camps beside the road east of the {area:380}. {quest:1838} is a level 30 quest; you can take it now and gather for it on the way."] = "{npc:5878}, {area:380} kasabasının doğusunda yolun kenarında kamp kurmuş. {quest:1838} seviye 30 bir görev; şimdi alıp yolda malzemelerini toplayabilirsin.",
-	-- ["Roogug is an elite quilboar inside {area:1717}, the dungeon at the south end of the {zone:1413}; he drops the {item:6841}. {area:1717} is a dungeon: grouping up is advised."] = "Roogug, {zone:1413} bölgesinin güney ucundaki zindan {area:1717} içinde elit bir quilboar; {item:6841} düşürür. {area:1717} bir zindan: grup kurman önerilir.",
-	-- ["The {area:2160} lies at the east end of {area:461} in Stonetalon. Its kobolds drop the Smoky Iron Ingots."] = "{area:2160}, Stonetalon'daki {area:461} bölgesinin doğu ucunda. İçindeki koboldlar Smoky Iron Ingot düşürür.",
-	-- ["Smoky Iron Ingots from the Windshear kobolds"] = "Windshear koboldlarından Smoky Iron Ingot",
-	-- ["The Hillsbrad Miners work the mine in the west of {zone:1424}; they drop the {item:7127}. Take the zeppelin from {zone:1454} to {zone:1420} and head south through {zone:1421}."] = "Hillsbrad Miner yaratıkları {zone:1424} bölgesinin batısındaki madende çalışıyor; {item:7127} düşürürler. {zone:1454} şehrinden zeplinle {zone:1420} bölgesine geç ve {zone:1421} üzerinden güneye git.",
-	-- maybe now: ["{item:7127}, from the Hillsbrad Miners"]
-	-- ["{item:7127} from the Hillsbrad Miners"] = "Hillsbrad Miner yaratıklarından {item:7127}",
-	-- maybe now: ["You need 10 Iron Bars. Miners smelt them from {item:2772} (one ore a bar, {spell:3307} at {skill:186} 125); everyone else buys them at the auction house in {zone:1454}."]
-	-- ["Miners smelt Iron Bars from {item:2772} ({skill:186} 125); everyone else buys them at the auction house in {zone:1454}."] = "Madenciler Iron Bar'ı {item:2772} eritip yapar ({skill:186} 125); diğer herkes {zone:1454} şehrindeki müzayede evinden satın alır.",
-	-- maybe now: ["Back to {npc:5878} on {area:1699}. {quest:1848} is the first piece; he then sends you to three crafters, one per piece: take all three."]
-	-- ["Back to {npc:5878} beside the road east of the {area:380}. {quest:1848} is the first piece; he then sends you to three crafters for the rest."] = "{area:380} kasabasının doğusunda yolun kenarındaki {npc:5878} yanına dön. {quest:1848} ilk parça; ardından geri kalanı için seni üç zanaatkâra gönderir.",
-	-- maybe now: ["{npc:6408} is in {area:367} on the {zone:1411} coast. He wants 7 Uncloven Satyr Hooves."]
-	-- ["{npc:6408} is in {area:367} on the {zone:1411} coast."] = "{npc:6408}, {zone:1411} kıyısındaki {area:367} köyünde.",
-	-- ["The {area:429} satyrs camp in eastern {zone:1440}, with the Felmusk satyrs further west; both drop Uncloven Satyr Hooves."] = "{area:429} satirleri {zone:1440} bölgesinin doğusunda, Felmusk satirleri biraz daha batıda kamp kurmuş; ikisi de Uncloven Satyr Hooves düşürür.",
-	-- ["Uncloven {quest:1842}"] = "Uncloven {quest:1842}",
-	-- ["The {npc:6167} roams the south-west of Stonetalon near the Fledgling and Young Chimaeras; she drops the {item:6840}."] = "{npc:6167}, Stonetalon'un güneybatısında Fledgling ve Young Chimaera yaratıklarının yakınında dolaşıyor; {item:6840} düşürür.",
-	-- maybe now: ["{item:6840}, from the {npc:6167}"]
-	-- ["{item:6840} from the {npc:6167}"] = "{npc:6167} yaratığından {item:6840}",
-	-- ["Take the zeppelin from {zone:1454} to {zone:1420}; the {zone:1458} lies below the {area:153}."] = "{zone:1454} şehrinden zeplinle {zone:1420} bölgesine geç; {zone:1458} şehri {area:153} harabelerinin altında.",
-	-- ["The Dragonmaw orcs camp in the middle of the {zone:1437}, south of the road; Raiders, Swamprunners, Centurions, Shadowwarders and Bonewarders all drop the Sturdy Dragonmaw Shinbones."] = "Dragonmaw orkları {zone:1437} bölgesinin ortasında, yolun güneyinde kamp kurmuş; Raider, Swamprunner, Centurion, Shadowwarder ve Bonewarder yaratıklarının hepsi Sturdy Dragonmaw Shinbone düşürür.",
-	-- ["Sturdy Dragonmaw Shinbones"] = "Sturdy Dragonmaw Shinbone",
 }

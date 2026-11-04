@@ -88,10 +88,4 @@ return {
 	["{spell:13896}: Alathea's letter"] = "{spell:13896}: Alathea'nın mektubu",
 	-- {npc:376} High Priestess Laurena · {zone:1453} Stormwind · {zone:1457} Darnassus · {area:702} Rut'theran Village · {area:442} Auberdine · {area:17203} Stormwind Harbor · {spell:13896} Feedback
 	["Hand Alathea's letter to {npc:376} at the altar of {zone:1453}'s Cathedral of Light (from {zone:1457}: the portal down to {area:702}, the boat to {area:442}, then the boat to {area:17203}): she teaches {spell:13896}."] = "Alathea'nın mektubunu {zone:1453} şehrinin Cathedral of Light sunağındaki {npc:376} ile teslim et ({zone:1457} şehrinden: portalla {area:702} köyüne in, {area:442} kasabasına gemi, sonra {area:17203} limanına gemi): sana {spell:13896} öğretir.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["The Human priest spells: {quest:94773} at 10 (new in Forever), {spell:13896} at 20. Free, no objectives."]
-	-- ["The Human priest spells: {quest:94773} at 10, {spell:13896} at 20."] = "Human Priest büyüleri: seviye 10'da {quest:94773}, seviye 20'de {spell:13896}.",
-	-- ["At 10, go to {npc:376} in the Cathedral of Light. {npc:377} in {area:87} sends you to her with a quest of the same name."] = "Seviye 10'da Cathedral of Light içindeki {npc:376} yanına git. {area:87} kasabasındaki {npc:377} seni aynı adlı bir görevle ona gönderir.",
-	-- ["At 20, {npc:376} teaches {spell:13896}. {npc:11406} in {zone:1455} and {npc:11401} in {zone:1457} send you to her with a quest of the same name."] = "Seviye 20'de {npc:376} {spell:13896} öğretir. {zone:1455} şehrindeki {npc:11406} ve {zone:1457} şehrindeki {npc:11401} seni aynı adlı bir görevle ona gönderir.",
 }

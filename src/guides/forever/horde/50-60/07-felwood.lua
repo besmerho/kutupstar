@@ -132,27 +132,4 @@ return {
 	["In {zone:1454}: fly from {area:2255}"] = "{zone:1454} şehrinde: {area:2255} kasabasından uç",
 	-- {zone:1456} Thunder Bluff · {area:2255} Everlook
 	["In {zone:1456}: fly from {area:2255}"] = "{zone:1456} şehrinde: {area:2255} kasabasından uç",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["Fly to {area:431} and ride north-west along the road out of {zone:1440} into {area:361}. The {area:2479} is the druids' camp just past the border."]
-	-- ["Fly to {area:431} and ride north-west along the road out of {zone:1440} into {zone:1448}. The {area:2479} is the druids' camp just past the border."] = "{area:431} karakoluna uç ve yol boyunca kuzeybatıya, {zone:1440} bölgesinden {zone:1448} bölgesine geç. {area:2479}, sınırın hemen ötesindeki druid kampı.",
-	-- maybe now: ["{npc:9116}'s Silver Heart needs an {item:11173} from northern {area:361} and a ride back here. Skip it."]
-	-- ["{npc:9116}'s Silver Heart needs an {item:11173} from northern {zone:1448} and a ride back here. Skip it."] = "{npc:9116} adlı NPC'nin Silver Heart görevi {zone:1448} bölgesinin kuzeyinden bir {item:11173} ve buraya geri dönüş gerektiriyor. Atla.",
-	-- ["Ride north-west to {area:1763}. The four braziers stand among the Shadow Council's buildings; use the Cleansed Water on each one."] = "Kuzeybatıya, {area:1763} tapınağına git. Dört mangal Shadow Council'in binalarının arasında; her birinde Cleansed Water kullan.",
-	-- maybe now: ["{npc:9861}, {npc:9860} and {npc:9517} wait at the back of {area:1770}, the cave in {area:1763}'s north. Clear the tunnel as you go.\nCareful: The three bosses fight as a group. Kill the nearby mobs first so you don't pull extra enemies."]
-	-- ["{npc:9861}, {npc:9860} and {npc:9517} wait at the back of {area:1770}, the cave in {area:1763}'s north. Clear the tunnel as you go."] = "{npc:9861}, {npc:9860} ve {npc:9517}, {area:1763} tapınağının kuzeyindeki mağara {area:1770} içinde, en dipte bekliyor. Giderken tüneli temizle.",
-	-- maybe now: ["{npc:10306}'s next {quest:4741} would bring you back here from {area:618}. Skip it."]
-	-- ["{npc:10306}'s next {quest:4741} would bring you back here from {zone:1452}. Skip it."] = "{npc:10306} adlı NPC'nin sonraki görevi {quest:4741} seni {zone:1452} bölgesinden buraya geri getirir. Atla.",
-	-- maybe now: ["Only if {npc:9298} gave you {quest:5086}: ride north up the {area:361} road to {area:1767}; the {quest:5086} ooze between the trees."]
-	-- ["Only if {npc:9298} gave you {quest:5086}: ride north up the {zone:1448} road to {area:1767}; the {quest:5086} ooze between the trees."] = "Yalnızca {npc:9298} sana {quest:5086} görevini verdiyse: {zone:1448} yolundan kuzeye, {area:1767} ormanına git; {quest:5086} yaratıkları ağaçların arasında sızıyor.",
-	-- maybe now: ["Through the Timbermaw tunnel to {area:493}. {npc:11939} reads in a house in {area:2361}."]
-	-- ["Through the Timbermaw tunnel to {zone:1450}. {npc:11939} reads in a house in {area:2361}."] = "Timbermaw tünelinden {zone:1450} bölgesine geç. {npc:11939}, {area:2361} köyündeki bir evde okuyor.",
-	-- maybe now: ["Back into the Timbermaw tunnel and take the {area:618} exit; {npc:9298} camps by the hot springs just outside."]
-	-- ["Back into the Timbermaw tunnel and take the {zone:1452} exit; {npc:9298} camps by the hot springs just outside."] = "Timbermaw tüneline geri dön ve {zone:1452} çıkışını kullan; {npc:9298} hemen dışarıda, kaplıcaların yanında kamp kurmuş.",
-	-- maybe now: ["Only if you carry {quest:5087}: the runners walk the road from {area:1769} toward {area:2244} in small groups; wait by the road near {npc:9298} and kill them as they pass. Each one carries a crate.\nCareful: Turning in spawns three or four level 56-57 Winterfall ambushers that attack you; you can escape them while mounted, in stealth or with {spell:5384}, and they then gather by the lake so you can take the next quest."]
-	-- ["Only if you carry {quest:5087}: the runners walk the road from {area:1769} toward {area:2244} in small groups; wait by the road near {npc:9298} and kill them as they pass. Each one carries a crate."] = "Yalnızca {quest:5087} görevin varsa: ulaklar küçük gruplar halinde {area:1769} mağarasından {area:2244} köyüne giden yolda yürüyor; {npc:9298} adlı NPC'nin yakınında yolun kenarında bekle ve geçerken onları öldür. Her biri bir sandık taşıyor.",
-	-- maybe now: ["The quests run out here. Rabid Shardtooths prowl {area:2249} in southern {area:618}, south of the road from {area:2255}."]
-	-- ["The quests run out here. Rabid Shardtooths prowl {area:2249} in southern {zone:1452}, south of the road from {area:2255}."] = "Görevler burada bitiyor. Rabid Shardtooth yaratıkları {zone:1452} bölgesinin güneyinde, {area:2255} kasabasından gelen yolun güneyindeki {area:2249} boğazında dolaşıyor.",
-	-- maybe now: ["grind on {npc:7446} at {area:2249}, {area:618}"]
-	-- ["grind on {npc:7446} at {area:2249}, {zone:1452}"] = "{zone:1452} bölgesindeki {area:2249} boğazında {npc:7446} yaratıklarıyla seviye kas",
 }

@@ -43,13 +43,4 @@ return {
 	-- Step 8: Wynne Larson
 	-- {npc:1309} Wynne Larson · {object:23296} Larson Clothiers · {object:2101} Mage Quarter
 	["{npc:1309} works at {object:23296} in the {object:2101}. The robe gives intellect, stamina and spirit; the blouse more intellect and stamina but no spirit."] = "{npc:1309}, {object:2101} kesimindeki {object:23296} dükkânında çalışıyor. Cübbe intellect, stamina ve spirit verir; bluz daha çok intellect ve stamina verir ama spirit vermez.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["A robe or a blouse for Alliance mages in their late 20s."]
-	-- ["A robe or a blouse for Human and Gnome mages in their late 20s."] = "20'li seviyelerin sonundaki Human ve Gnome Mage'ler için bir cüppe ya da bluz.",
-	-- ["{npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}."] = "{npc:5497}, {object:2101} semtinin kulesinde, Wizard's Sanctum içinde duruyor.",
-	-- ["{quest:1939} is in the Wizard's Sanctum too."] = "{quest:1939} da Wizard's Sanctum içinde.",
-	-- ["Head east through {zone:1429} into Redridge. The fallen mage's tower of Ilgalar stands in the east of the zone; the treatise is in his library."] = "{zone:1429} bölgesinden doğuya, Redridge'e git. Düşmüş büyücü Ilgalar'ın kulesi bölgenin doğusunda; inceleme onun kütüphanesinde.",
-	-- ["Carrion Recluses lurk in the woods of western {zone:1431} and each one drops the silk. The Black Widow Hatchlings further east drop it now and then."] = "Carrion Recluse yaratıkları {zone:1431} bölgesinin batısındaki ormanda pusuda bekliyor ve her biri ipek düşürür. Daha doğudaki Black Widow Hatchling yaratıkları arada bir düşürür.",
-	-- ["{npc:1309} works at {object:23296} in the {object:2101}."] = "{npc:1309}, {object:2101} semtindeki {object:23296} dükkânında çalışıyor.",
 }

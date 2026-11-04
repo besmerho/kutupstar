@@ -289,36 +289,4 @@ return {
 	["Top up here to level 54.87 before the hand-ins at {area:2255}: they take you to level 55."] = "{area:2255} teslimlerinden önce burada seviye 54.87 olana kadar kas: teslimler seni seviye 55 yapar.",
 	-- {npc:7125} Jaedenar Hound
 	["grind on {npc:7125}"] = "Kas: {npc:7125}",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Fly to the {area:1497}"] = "{area:1497} şehrine uç",
-	-- ["From {area:2268}'s flight master, fly to the {area:1497}."] = "{area:2268} şapelinin uçuş ustasından {area:1497} şehrine uç.",
-	-- ["Leave the {area:1497} and ride east along the road through {zone:1420}, past the {area:152}. Felstone Farm is the first farm along the road; {npc:10778} waits in the house."] = "{area:1497} şehrinden çık ve yol boyunca doğuya, {zone:1420} bölgesinden geçerek {area:152} surlarının ilerisine git. Felstone Farm yol üzerindeki ilk çiftlik; {npc:10778} evde bekliyor.",
-	-- ["{object:175894}, beside the house"] = "{object:175894}, evin yanında",
-	-- ["Keep the parcel: {npc:10781} is in the {area:1497}."] = "Paketi sakla: {npc:10781}, {area:1497} şehrinde.",
-	-- ["Scarlet forward camp"] = "Scarlet ileri kampı",
-	-- ["The Scarlet Crusade's tents stand between {area:199} and {area:200}. Torch the command tent with the {object:176092} and plant the Scourge banner."] = "Scarlet Crusade çadırları {area:199} ile {area:200} arasında. Komuta çadırını {object:176092} ile ateşe ver ve Scourge sancağını dik.",
-	-- maybe now: ["Ride south past the {area:202} to {area:197}. Kill the Diseased Wolves you meet in the fields on the way."]
-	-- ["Ride south past the {area:202} to {area:197}; {npc:10927}'s house stands by the road, and {npc:10936}'s monument is in the graveyard behind it. Kill the Diseased Wolves you meet in the fields on the way."] = "Güneye, {area:202} çiftliğini geçerek {area:197} tepesine git; {npc:10927} adlı NPC'nin evi yolun kenarında, {npc:10936} adlı NPC'nin anıtı arkasındaki mezarlıkta. Yoldaki tarlalarda karşılaştığın Diseased Wolf yaratıklarını öldür.",
-	-- maybe now: ["Keep Little Pamela: Pamela is in {area:2262}, visited again later."]
-	-- ["Keep {quest:5142}: Pamela is in {area:2262}, visited again later."] = "{quest:5142} görevini sakla: Pamela {area:2262} köyünde, oraya daha sonra yeniden gidilecek.",
-	-- ["Diseased Grizzlies"] = "Diseased Grizzly yaratıkları",
-	-- ["The bears roam the hills north and east of the {area:202}."] = "Ayılar {area:202} çiftliğinin kuzeyindeki ve doğusundaki tepelerde dolaşıyor.",
-	-- ["Radley and Durgen"] = "Radley ve Durgen",
-	-- ["{npc:11613} stands east of the lumber camp; {npc:11611} guards the road north-east of {npc:11610}, toward {area:190}."] = "{npc:11613} kereste kampının doğusunda duruyor; {npc:11611}, {npc:11610} adlı NPC'nin kuzeydoğusunda, {area:190} yönüne giden yolu koruyor.",
-	-- ["{npc:11610}'s last task needs level 53. The Scarlet Knights and Magi (54-55) working the lumber camp just south-west of her are the closest camp."] = "{npc:11610} adlı NPC'nin son görevi seviye 53 gerektirir. En yakın kasma yeri, onun hemen güneybatısındaki kereste kampında çalışan Scarlet Knight ve Scarlet Magus yaratıkları (54-55).",
-	-- ["grind on Scarlet Knights at {area:192}, {zone:1422}"] = "{zone:1422} bölgesindeki {area:192} kampında Scarlet Knight yaratıklarıyla seviye kas",
-	-- ["{area:190}'s Scarlets are level 58-60. Ride in to the high point marked on your map, look over the town, and get out."] = "{area:190} kasabasındaki Scarlet'ler 58-60 seviyesinde. Haritanda işaretli yüksek noktaya gir, kasabaya bak ve çık.",
-	-- ["To {zone:1448}"] = "{zone:1448} bölgesine",
-	-- ["Ride back to the {area:1497}, take the zeppelin to {zone:1454} and fly to {area:431}. Follow the road west out of Splintertree and take the fork north into {zone:1448}."] = "{area:1497} şehrine dön, zeplinle {zone:1454} şehrine geç ve {area:431} karakoluna uç. Yolu batıya izleyerek Splintertree'den çık ve kuzeye, {zone:1448} bölgesine giden kola sap.",
-	-- ["Ride back south-east to the Sanctuary."] = "Güneydoğuya, Sanctuary'ye dön.",
-	-- maybe now: ["{npc:11557}: keep 30 {quest:6031} for him; he trades only at Neutral with the Timbermaw; below ground"]
-	-- ["{npc:11557}: keep 30 {quest:6031} for him; he trades only at Neutral with the Timbermaw"] = "{npc:11557}: onun için 30 {quest:6031} sakla; yalnızca Timbermaw ile Neutral itibardayken alışveriş yapar",
-	-- maybe now: ["Ride the road south through {area:361} to the Sanctuary."]
-	-- ["Ride the road south through {zone:1448} to the Sanctuary."] = "Yolu güneye izleyerek {zone:1448} bölgesinden geç ve Sanctuary'ye git.",
-	-- ["Back at {area:1762}, the Deadwood furbolgs (53-54) are close to the tunnel and every kill raises your Timbermaw reputation."] = "Yine {area:1762} köyünde: Deadwood furbolgları (53-54) tünele yakın ve her öldürme Timbermaw itibarını artırır.",
-	-- ["grind on Deadwood Avengers at {area:1762}, {zone:1448}"] = "{zone:1448} bölgesindeki {area:1762} köyünde Deadwood Avenger yaratıklarıyla seviye kas",
-	-- ["{npc:11558}, at the tunnel mouth"] = "{npc:11558}, tünelin ağzında",
-	-- ["Through {area:1769}"] = "{area:1769} içinden",
-	-- ["Walk into the {area:1769} tunnel beside {npc:15395} and never attack the Timbermaw furbolgs inside. The tunnel opens into {zone:1452}; follow the road east to {area:2255}, the goblin town where the next guide starts."] = "{npc:15395} adlı NPC'nin yanındaki {area:1769} tüneline gir ve içerideki Timbermaw furbolglarına asla saldırma. Tünel {zone:1452} bölgesine açılıyor; yolu doğuya izleyerek sonraki rehberin başladığı goblin kasabası {area:2255} kasabasına git.",
 }

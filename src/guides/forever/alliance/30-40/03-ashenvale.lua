@@ -104,20 +104,4 @@ return {
 	["The Bluegill murlocs on the beach south-west of Menethil carry the ingots."] = "Külçeleri Menethil'in güneybatısındaki kumsalda bulunan Bluegill murlocları taşıyor.",
 	-- {item:2702} Lightforge Ingot
 	["{item:2702}; underwater"] = "{item:2702}; su altında",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["From {area:608}"] = "{area:608} karakolundan",
-	-- ["{npc:3970}: for {npc:1480} in Menethil, at the end of this guide"] = "{npc:3970}: Menethil'deki {npc:1480} için, bu rehberin sonunda",
-	-- ["Follow the road west out of {area:415}; {area:413} lies north of it."] = "Yolu batıya izleyerek {area:415} kasabasından çık; {area:413} yolun kuzeyinde.",
-	-- ["The two stand together at the western end of the road."] = "İkisi yolun batı ucunda birlikte duruyor.",
-	-- ["The moonwell lies in the hills north-east of {area:415}."] = "Ay kuyusu {area:415} kasabasının kuzeydoğusundaki tepelerde.",
-	-- maybe now: ["The {object:19901} stands in the satyr camp of {area:430}, further east along the road.\nCareful: The Felmusk Rogues in {area:428} often go stealthed, and {area:430} has satyr casters."]
-	-- ["The {object:19901} stands in the satyr camp of {area:430}, further east along the road."] = "{object:19901}, yol boyunca daha doğudaki {area:430} satir kampında duruyor.",
-	-- ["The Forsaken's camp lies in the woods south of {area:2358}."] = "Forsaken kampı {area:2358} karakolunun güneyindeki ormanda.",
-	-- ["Rusty chests lie around the Shadethicket furbolg camps west of the Forsaken; open them until one holds the pommel."] = "Forsaken kampının batısındaki Shadethicket furbolg kamplarının çevresinde paslı sandıklar duruyor; birinden kabza topuzu çıkana kadar onları aç.",
-	-- ["The {npc:3931} walks the shore of {quest:1035}, south-west of the chests; the {object:669176} lies north of the lake, on the way."] = "{npc:3931}, sandıkların güneybatısında, {quest:1035} gölünün kıyısında dolaşıyor; {object:669176} yolda, gölün kuzeyinde duruyor.",
-	-- ["The three druids stand together at the Forsaken camp south of {area:2358}."] = "Üç druid, {area:2358} karakolunun güneyindeki Forsaken kampında birlikte duruyor.",
-	-- ["{npc:3696} and his guards camp just east of {npc:3897}."] = "{npc:3696} ve muhafızları {npc:3897} adlı NPC'nin hemen doğusunda kamp kurmuş.",
-	-- ["Take the boat to {area:150} from {area:442}'s docks."] = "{area:442} iskelelerinden {area:150} gemisine bin.",
-	-- ["{npc:5082}, {npc:4963} and Tapoke Jahn are all at Menethil's inn; {npc:4962} fights you when you talk to {npc:4963}, but gives up once beaten. {npc:1480} stands a short walk north-east of the inn."] = "{npc:5082}, {npc:4963} ve Tapoke Jahn, Menethil'in hanında; {npc:4963} ile konuşunca {npc:4962} seninle dövüşür ama yenilince vazgeçer. {npc:1480} hanın biraz kuzeydoğusunda duruyor.",
 }

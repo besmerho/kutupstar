@@ -107,16 +107,4 @@ return {
 	-- Step 22: Dendrite Starblaze
 	-- {spell:18960} Teleport: Moonglade · {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven · {area:493} Moonglade · {npc:10897} Sindrayl
 	["Cast {spell:18960}: it lands you beside the building where {npc:11802} stands upstairs, in {area:2361}. Learn the {area:493} flight path while you are here (Faustron for the Horde, south-west of the lake; {npc:10897} for the Alliance, south of it)."] = "{spell:18960} kullan: seni {area:2361} köyünde {npc:11802} ile konuşacağın binanın yanına indirir: o üst katta duruyor. Buradayken {area:493} uçuş noktasını aç (Horde için Faustron, gölün güneybatısında; Alliance için {npc:10897}, gölün güneyinde).",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["{npc:4217} stands in the {area:1658}."] = "{npc:4217}, {area:1658} içinde duruyor.",
-	-- ["Cast {spell:18960}. {npc:11802} is in {area:2361}; the {quest:5929} sits in the woods to the north-west. Learn the {area:493} flight path, then fly to {area:702} (by way of {area:442}) and take the portal up to {zone:1457}."] = "{spell:18960} büyüsünü kullan. {npc:11802}, {area:2361} köyünde; {quest:5929} kuzeybatıdaki ormanda. {area:493} uçuş noktasını aç, sonra {area:702} köyüne uç ({area:442} üzerinden) ve portalla yukarı, {zone:1457} şehrine çık.",
-	-- ["Fly from {area:702} to {area:442}. The {object:177525} stands in the hills just east of the village: use the {item:15208} there, defeat Lunaclaw and speak to the {npc:12144}."] = "{area:702} köyünden {area:442} kasabasına uç. {object:177525} kasabanın hemen doğusundaki tepelerde duruyor: orada {item:15208} eşyasını kullan, Lunaclaw ile dövüşüp onu yen ve {npc:12144} ile konuş.",
-	-- ["{npc:3033} stands on {area:1639}."] = "{npc:3033}, {area:1639} tepesinde duruyor.",
-	-- ["Cast {spell:18960}. {npc:11802} is in {area:2361}; the {quest:5930} sits in the woods to the north-west. {npc:11798} in {area:2361} flies druids to {area:1638}."] = "{spell:18960} büyüsünü kullan. {npc:11802}, {area:2361} köyünde; {quest:5930} kuzeybatıdaki ormanda. {area:2361} köyündeki {npc:11798} Druid'leri {area:1638} şehrine uçurur.",
-	-- ["The {object:177525} stands in the pass from {zone:1412} into the {zone:1413}. Use the {item:15710} there, defeat Lunaclaw and speak to the {npc:12144}."] = "{object:177525}, {zone:1412} bölgesinden {zone:1413} bölgesine geçen geçitte duruyor. Orada {item:15710} eşyasını kullan, Lunaclaw ile dövüşüp onu yen ve {npc:12144} ile konuş.",
-	-- ["{npc:255853} waits by the falls north-east of {area:16638}. {npc:258443} prowls the {area:16623}, west of {area:16638}."] = "{npc:255853}, {area:16638} kasabasının kuzeydoğusundaki şelalenin yanında bekliyor. {npc:258443}, {area:16638} kasabasının batısındaki {area:16623} yaylalarında dolaşıyor.",
-	-- ["{npc:3033} trains druids on {area:1639}."] = "{npc:3033}, {area:1639} tepesinde Druid eğitiyor.",
-	-- ["The Skyborne Portal takes you to {zone:1453}. {npc:5504} is the city's druid trainer."] = "Skyborne Portal seni {zone:1453} şehrine götürür. {npc:5504} şehrin Druid eğitmeni.",
-	-- ["Cast {spell:18960}. {npc:11802} is in {area:2361}. Learn the {area:493} flight path while you are here."] = "{spell:18960} büyüsünü kullan. {npc:11802}, {area:2361} köyünde. Buradayken {area:493} uçuş noktasını aç.",
 }

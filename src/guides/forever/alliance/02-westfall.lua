@@ -128,7 +128,7 @@ return {
 
 	-- Step 28: The Tome of Divinity
 	-- {npc:6171} Duthorian Rall · {npc:6173} Gazin Tenorm · {npc:6174} Stephanie Turner · {object:2096} Trade District · {item:2589} Linen Cloth
-	["{npc:6171} and {npc:6173} are in the Cathedral of Light; {npc:6174} stands in the {object:2096} and asks for ten {item:2589} (humanoids drop it; the Auction House sells it)."] = "{npc:6171} ve {npc:6173} Cathedral of Light içinde; {npc:6174}, {object:2096} semtinde duruyor ve senden on {item:2589} istiyor (insansı yaratıklar düşürür; Auction House da satar).",
+	["{npc:6171} and {npc:6173} are in the Cathedral of Light; {npc:6174} stands in the {object:2096} and asks for ten {item:2589} (humanoids drop it; the Auction House sells it)."] = "{npc:6171} ve {npc:6173} Cathedral of Light içinde; {npc:6174}, {object:2096} semtinde duruyor ve senden on {item:2589} istiyor (insansı yaratıklar düşürür; müzayede evi da satar).",
 	-- {item:6775} Tome of Divinity
 	["Right-click the {item:6775} he gives you"] = "Sana verdiği {item:6775} eşyasına sağ tıkla",
 	-- {npc:6172} Henze Faulk · {area:86} Stone Cairn Lake
@@ -186,20 +186,4 @@ return {
 	["{npc:5494} sells fishing supplies along the canal just west of the {object:2096}; {npc:267118} fishes at the harbor, on the way to the boat."] = "{npc:5494}, {object:2096} semtinin hemen batısında, kanal boyunca balıkçılık malzemeleri satıyor; {npc:267118} gemiye giden yolda, limanda balık tutuyor.",
 	-- {item:6529} Shiny Bauble · {npc:5494} Catherine Leland
 	["{item:6529}, from {npc:5494}"] = "{item:6529}, kaynak: {npc:5494}",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Follow the road from Elwynn into {zone:1436}: the Furlbrows sit by their burned farm, the first one on the road. Collect the oats from the Sacks of Oats in the fields as you go."] = "Yolu izleyerek Elwynn'den {zone:1436} bölgesine gir: Furlbrow çifti, yol üzerindeki ilk çiftlik olan yanmış çiftliklerinin yanında oturuyor. Giderken tarlalardaki Sack of Oats çuvallarından yulafı topla.",
-	-- ["Sacks of Oats"] = "Sack of Oats çuvalları",
-	-- maybe now: ["North of Molsen Farm. Defias Trappers and Smugglers camp outside the mine. {object:290} stands by the ruined house east of the mine.\nWest of Saldean's. Harvest Watchers and Golems work the fields; they drop the isosprings, gyrostabilizers, {item:732} and sometimes a {item:255155}. {npc:573}, a level 20 rare, walks here: leave it alone. Keep killing Goretusks and Fleshrippers on every leg of this loop."]
-	-- ["West of Saldean's. Harvest Watchers and Golems work the fields; they drop the isosprings, gyrostabilizers, {item:732} and sometimes a {item:255155}. {npc:573}, a level 20 rare, walks here: leave it alone. Keep killing Goretusks and Fleshrippers on every leg of this loop."] = "Saldean çiftliğinin batısında. Harvest Watcher ve Harvest Golem yaratıkları tarlalarda çalışıyor; isospring, gyrostabilizer, {item:732} ve bazen de {item:255155} düşürürler. Seviye 20 bir rare olan {npc:573} burada dolaşıyor: ona dokunma. Bu turun her ayağında Goretusk ve Fleshripper yaratıklarını öldürmeyi sürdür.",
-	-- ["North of Molsen Farm. Defias Trappers and Smugglers camp outside the mine. {object:290} stands by the ruined house east of the mine."] = "Molsen Farm çiftliğinin kuzeyinde. Defias Trapper ve Defias Smuggler yaratıkları madenin dışında kamp kurmuş. {object:290}, madenin doğusundaki yıkık evin yanında duruyor.",
-	-- ["The north coast"] = "Kuzey kıyısı",
-	-- ["Murloc Coastrunners and Raiders line the beach north of the mine. They flee at low health: pull one at a time."] = "Murloc Coastrunner ve Murloc Raider yaratıkları madenin kuzeyindeki kumsal boyunca diziliyor. Canları azalınca kaçarlar: tek tek çek.",
-	-- ["The gnoll hills"] = "Gnoll tepeleri",
-	-- ["Riverpaw Gnolls and Scouts (level 11-13) roam the hills south of the coast, from above {area:111} east to the {area:916}. The gnolls further south and west are 13-19: stay in the north hills."] = "Riverpaw Gnoll ve Riverpaw Scout yaratıkları (seviye 11-13) kıyının güneyindeki tepelerde, {area:111} madeninin üstünden doğuda {area:916} çiftliğine kadar dolaşıyor. Daha güneydeki ve batıdaki gnollar 13-19 seviyesinde: kuzey tepelerinde kal.",
-	-- ["The western farms"] = "Batıdaki çiftlikler",
-	-- ["Defias Pillagers and Looters hold the farms west of {area:108}, between the coast road and {area:20}."] = "Defias Pillager ve Defias Looter yaratıkları {area:108} tepesinin batısında, sahil yolu ile {area:20} köyü arasındaki çiftlikleri tutuyor.",
-	-- maybe now: ["Defias Pathstalkers and Knuckledusters walk {area:20}; Highwaymen (level 17) patrol the hills south and east of it in pairs: pull them apart. {area:1581} entrance in the smithy is a group dungeon.\nCareful: The camps in the hills hold mixed groups of Defias, so it is easy to pull more than one at a time if you are low level."]
-	-- ["Defias Pathstalkers and Knuckledusters walk {area:20}; Highwaymen (level 17) patrol the hills south and east of it in pairs: pull them apart. {area:1581} entrance in the smithy is a group dungeon."] = "Defias Pathstalker ve Defias Knuckleduster yaratıkları {area:20} köyünde dolaşıyor; Defias Highwayman yaratıkları (seviye 17) köyün güneyindeki ve doğusundaki tepelerde ikişer ikişer devriye geziyor: onları ayrı ayrı çek. Demirhanedeki {area:1581} girişi bir grup zindanıdır.",
-	-- ["Hearthstone on cooldown? Follow the road north-east."] = "Hearthstone bekleme süresinde mi? Yolu kuzeydoğuya izle.",
 }

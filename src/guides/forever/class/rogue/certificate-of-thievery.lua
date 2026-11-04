@@ -51,17 +51,4 @@ return {
 	["{quest:2358}: any Blackrock orc"] = "{quest:2358}: herhangi bir Blackrock orc'u",
 	-- {npc:7009} Arantir · {item:7676} Thistle Tea
 	["{npc:7009}: ten {item:7676}"] = "{npc:7009}: on {item:7676}",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["Your first lockpicking job at 16: {npc:6966}'s lockbox at {quest:2282}, for {quest:2300}, then {item:7676} from {npc:7009}."]
-	-- ["Your first lockpicking job at 16: {npc:6966}'s lockbox at {quest:2282}, for {quest:2300}."] = "Seviye 16'da ilk kilit açma işin: {quest:2300} için {quest:2282} içindeki {npc:6966} kasası.",
-	-- maybe now: ["At 16 {npc:917}, the rogue trainer upstairs in the Lion's Pride Inn in {area:87}, sends you to {npc:6946} in {zone:1453}. Taking it shuts out the other towns' breadcrumbs."]
-	-- ["At 16 {npc:917}, the rogue trainer in the Lion's Pride Inn in {area:87}, sends you to {npc:6946} in {zone:1453}."] = "Seviye 16'da {area:87} kasabasındaki Lion's Pride Inn'de bulunan Rogue eğitmeni {npc:917}, seni {zone:1453} şehrindeki {npc:6946} yanına gönderir.",
-	-- maybe now: ["At 16 {npc:1234} in the {area:2102} in {area:131} sends you to {npc:5165} in {zone:1455}'s {object:32383}."]
-	-- ["At 16 {npc:1234} in the {area:2102} in {area:131} sends you to {npc:5165}, in the north of {zone:1455}."] = "Seviye 16'da {area:131} kasabasındaki {area:2102} içinde bulunan {npc:1234}, seni {zone:1455} şehrinin kuzeyindeki {npc:5165} yanına gönderir.",
-	-- maybe now: ["At 16 {npc:3599} in the {area:186} inn sends you to {quest:2259} in {zone:1457}."]
-	-- ["At 16 {npc:3599} in {area:186} sends you to {quest:2259} in {zone:1457}."] = "Seviye 16'da {area:186} köyündeki {npc:3599}, seni {zone:1457} şehrindeki {quest:2259} yanına gönderir.",
-	-- ["{npc:6946} stands beside {npc:332} at {quest:2300} in {object:2100}. Dwarves and Gnomes take the {area:2257} from {zone:1455}; Night Elves take the boat from {area:442} to {area:17203}."] = "{npc:6946}, {object:2100} semtindeki {quest:2300} binasında {npc:332} adlı NPC'nin yanında duruyor. Dwarf ve Gnome'lar {zone:1455} şehrinden {area:2257} trenine biner; Night Elf'ler {area:442} kasabasından {area:17203} limanına gemiyle gider.",
-	-- ["Head east through {zone:1429} into Redridge, or fly to {area:69}. {npc:6966} waits on the west side of {area:69} and gives you {item:5060}."] = "{zone:1429} bölgesinden doğuya, Redridge'e git ya da {area:69} kasabasına uç. {npc:6966}, {area:69} kasabasının batı yakasında bekliyor ve sana {item:5060} verir.",
-	-- ["{quest:2282} stands east of {area:69}, up off the road. Open {object:121264} there."] = "{quest:2282}, {area:69} kasabasının doğusunda, yoldan yukarıda. Orada {object:121264} kasasını aç.",
 }

@@ -249,26 +249,4 @@ return {
 
 	-- Step 68: Prospector Ironband
 	["South-east along the loch to the dig site."] = "Göl boyunca güneydoğuya, kazı alanına git.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Gyll, {area:35}"] = "Gyll, {area:35}",
-	-- ["From {area:42} follow the road east through {zone:1430} into the {zone:1435}; Biggs guards the road junction just inside it. {npc:217412} stands a short way north of him."] = "{area:42} kasabasından yolu doğuya izleyerek {zone:1430} geçidinden {zone:1435} bölgesine gir; Biggs girişin hemen içindeki kavşağı bekliyor. {npc:217412} onun biraz kuzeyinde duruyor.",
-	-- ["The wrecked caravan lies off the road near Biggs."] = "Yağmalanmış kervan Biggs'in yakınında, yolun biraz dışında.",
-	-- ["Shaman training"] = "Shaman eğitimi",
-	-- ["{zone:1453} has no shaman trainer: take the {area:2257} from the {object:28027} to {zone:1455} and train with {npc:258098}. {npc:1573} in the {object:32372} flies to {area:271} too."] = "{zone:1453} şehrinde Shaman eğitmeni yok: {object:28027} semtinden {area:2257} trenine binip {zone:1455} şehrine git ve {npc:258098} adlı NPC'den eğitimini al. {object:32372} ocağının başındaki {npc:1573} de {area:271} kasabasına uçurur.",
-	-- maybe now: ["The Syndicate hold the farm north-west of {area:320}. A {npc:217589} crawls about the farm: catch one with {npc:217412}'s Entomology Starter Kit, then tick it off.\nCareful: Syndicate Highwaymen are level 30-31 and can cast Sneak while out of combat, so they are often stealthed and hard to spot."]
-	-- ["The Syndicate hold the farm north-west of {area:320}. A {npc:217589} crawls about the farm: catch one with {npc:217412}'s Entomology Starter Kit, then tick it off."] = "Syndicate, {area:320} karakolunun kuzeybatısındaki çiftliği tutuyor. Çiftlikte bir {npc:217589} geziniyor: {npc:217412} adlı NPC'nin Entomology Starter Kit eşyasıyla birini yakala, sonra işaretle.",
-	-- ["Follow the road south over the bridge to {area:205} at the {zone:1437} end, where {npc:1075} waits."] = "Yolu güneye izleyerek köprüden geç ve {zone:1437} ucundaki {area:205} karakoluna git; {npc:1075} orada bekliyor.",
-	-- ["Escort the professor to the beach north of the cove and guard him while he works; naga attack in waves."] = "Profesöre koyun kuzeyindeki kumsala kadar eşlik et ve çalışırken onu koru; nagalar dalgalar halinde saldırır.",
-	-- ["The wrecks"] = "Batıklar",
-	-- ["Stay with {npc:2713} while she sneaks into {area:314} and back; Horde orcs jump you on the way."] = "{npc:2713} gizlice {area:314} çiftliğine girip çıkarken yanında kal; yolda Horde orkları üzerine atlar.",
-	-- ["The Drywhisker kobolds dig in the gorge east of {area:321} (Horde); skirt the town to the north. They drop both the motes and Krazek's ore."] = "Drywhisker koboldları {area:321} kasabasının (Horde) doğusundaki boğazda kazı yapıyor; kasabanın kuzeyinden dolaş. Hem zerreleri hem de Krazek'in cevherini onlar düşürür.",
-	-- ["Each key lies at one of the Highlands' standing-stone circles: east of the shards, near {area:320} and in the west. The {object:2702} stands west of {area:320}."] = "Her anahtar Highlands'teki dikili taş çemberlerinden birinde: parçaların doğusunda, {area:320} yakınında ve batıda. {object:2702}, {area:320} karakolunun batısında duruyor.",
-	-- ["The tomes lie in the ruined keep west of {area:280}; Argus Shadow Mages hold the ruins."] = "Kitaplar {area:280} köyünün batısındaki yıkık kalede; harabeleri Argus Shadow Mage yaratıkları tutuyor.",
-	-- maybe now: ["{item:3659}: the {object:1760}; inside"]
-	-- ["{item:3659}: the {object:1760}"] = "{item:3659}: {object:1760}",
-	-- maybe now: ["South-west to the Kirin Tor camp on the lake shore west of {area:279}, just over the border into {area:130}: the {npc:269127} stands there. Archmage Ansirem stands south-east of it, by the dome."]
-	-- ["South-west to the Kirin Tor camp on the lake shore west of {area:279}, just over the border into {zone:1421}: the {npc:269127} stands there. Archmage Ansirem stands south-east of it, by the dome."] = "Güneybatıya, {area:279} şehrinin batısında, sınırı geçer geçmez {zone:1421} bölgesinde, göl kıyısındaki Kirin Tor kampına git: {npc:269127} orada duruyor. Archmage Ansirem onun güneydoğusunda, kubbenin yanında.",
-	-- maybe now: ["From {zone:1455} take the tunnel east through {zone:1426} into {area:38} and follow the road to {area:144}."]
-	-- ["From {zone:1455} take the tunnel east through {zone:1426} into {zone:1432} and follow the road to {area:144}."] = "{zone:1455} şehrinden doğuya giden tünelle {zone:1426} bölgesinden {zone:1432} bölgesine geç ve yolu {area:144} kasabasına kadar izle.",
 }

@@ -224,24 +224,4 @@ return {
 	["South down the road again.\nRide south along the road to the {area:1938}; {npc:7771} camps beside it. From here the road west leads down into {zone:1449}, where the next guide starts."] = "Yine yolu güneye izle.\nYol boyunca güneye, {area:1938} yanına sür; {npc:7771} onun yanında kamp kurmuş. Buradan batıya giden yol {zone:1449} kraterine iner; sonraki rehber orada başlıyor.",
 	-- {quest:3444} The Stone Circle · {npc:7771} Marvon Rivetseeker
 	["Keep {quest:3444}: {npc:7771}'s chest is opened on a later visit."] = "{quest:3444} görevini sakla: {npc:7771} adlı NPC'nin sandığı daha sonraki bir ziyarette açılır.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Fly to the {area:1497}"] = "{area:1497} şehrine uç",
-	-- ["From {area:3317}'s flight master, fly to the {area:1497}."] = "{area:3317} köyünün uçuş ustasından {area:1497} şehrine uç.",
-	-- ["{npc:7825} stands in the {object:36082}."] = "{npc:7825}, {object:36082} semtinde duruyor.",
-	-- ["Take the zeppelin to {zone:1454} from the tower outside the {zone:1458}, then fly to {area:431}."] = "{zone:1458} şehrinin dışındaki kuleden {zone:1454} zeplinine bin, sonra {area:431} karakoluna uç.",
-	-- ["Ride into {zone:1447}"] = "{zone:1447} bölgesine gir",
-	-- ["Highborne and Haldarr satyrs"] = "Highborne ve Haldarr satirleri",
-	-- maybe now: ["Fly to {zone:1456}; it is on the way to {area:1099}. No flight path there yet? Fly to {area:378} and ride west through {zone:1412}. Hamuul and {npc:4046} are on the {area:1639}; Druids and Paladins train here ({npc:3033}, {npc:246344})."]
-	-- ["Fly to {area:1638}; it is on the way to {area:1099}. No flight path there yet? Fly to {area:378} and ride west through {zone:1412}. Hamuul and {npc:4046} are on the {area:1639}; Druids and Paladins train here ({npc:3033}, {npc:246344})."] = "{area:1638} şehrine uç; {area:1099} yolunun üzerinde. Henüz uçuş noktası yok mu? {area:378} kampına uç ve batıya, {zone:1412} bölgesinden geç. Hamuul ve {npc:4046}, {area:1639} tepesinde; Druid ve Paladin karakterler burada eğitim alır ({npc:3033}, {npc:246344}).",
-	-- ["{npc:7776}: the bears are in {zone:1448}"] = "{npc:7776}: ayılar {zone:1448} bölgesinde",
-	-- ["Keep {area:1417} for {npc:7771} in {zone:1446}."] = "{area:1417} görevini {zone:1446} bölgesindeki {npc:7771} için sakla.",
-	-- ["Ride north-west to the {area:1108}; {npc:14637} waits on the dock."] = "Kuzeybatıya, {area:1108} kıyısına git; {npc:14637} iskelede bekliyor.",
-	-- ["Zapped giants"] = "Küçültülmüş devler",
-	-- maybe now: ["The Sea Elementals and Sea Sprays wash along the shore around the dock.\nThe Land Walkers and Cliff Giants roam the hills north of the dock. Zap each one with {item:18904} first: shrunken, they are no longer elite. Every zapped giant drops residue; use the Muisek Vessel on its body too."]
-	-- ["The Land Walkers and Cliff Giants roam the hills north of the dock. Zap each one with {item:18904} first: shrunken, they are no longer elite. Every zapped giant drops residue; use the Muisek Vessel on its body too."] = "Land Walker ve Cliff Giant yaratıkları iskelenin kuzeyindeki tepelerde dolaşıyor. Her birini önce {item:18904} ile vur: küçülünce artık elit değiller. Vurulan her dev tortu düşürür; cesedinin üzerinde Muisek Vessel da kullan.",
-	-- ["Sea elementals"] = "Deniz elementalleri",
-	-- ["The Sea Elementals and Sea Sprays wash along the shore around the dock."] = "Sea Elemental ve Sea Spray yaratıkları iskelenin çevresinde kıyı boyunca dalgalanıyor.",
-	-- maybe now: ["South down the road again.\nRide south along the road to the {area:1938}; {npc:7771} camps beside it. From here the road west leads down into {zone:1449}, where the next guide starts."]
-	-- ["Ride south along the road to the {area:1938}; {npc:7771} camps beside it. From here the road west leads down into {zone:1449}, where the next guide starts."] = "Yolu güneye izleyerek {area:1938} yanına git; {npc:7771} onun yanında kamp kurmuş. Buradan batıya giden yol, sonraki rehberin başladığı {zone:1449} bölgesine iniyor.",
 }

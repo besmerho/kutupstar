@@ -70,21 +70,4 @@ return {
 	["The {item:15107}"] = "{item:15107}",
 	-- {npc:6266} Menara Voidrender · {item:15107} Orb of Noh'Orahil
 	["On the infernal path, accept her last quest and wait beside {npc:6266} while she completes the {item:15107}, then speak to her again and pick the off-hand orb or the staff."] = "Infernal yolunda son görevini kabul et ve {item:15107} küresini tamamlarken {npc:6266} yanında bekle, sonra onunla yeniden konuş ve yan el küresini ya da asayı seç.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["{npc:6266} and her two acolytes stand in {npc:6251}'s tower on the hill above {area:392}."]
-	-- ["{npc:6266} and her two acolytes stand in the tower on the hill above {area:392}, beside {npc:6251}."] = "{npc:6266} ve iki çırağı {area:392} kasabasının yukarısındaki tepede, kulede {npc:6251} adlı NPC'nin yanında duruyor.",
-	-- maybe now: ["Pick one acolyte: you can take only one of their quests. {npc:6254}'s felhound path ends with the Orb or {item:15106}, the shadow versions; {npc:6252}'s infernal path with the Orb or {item:15105}, much the same items on the fire side. Most warlocks lean on shadow, but compare the four in their tooltips first. The guide follows the one you take. Keep the ruby or the emerald: it is handed back."]
-	-- ["Pick one acolyte: you can take only one of their quests. {npc:6254}'s felhound path ends with the Orb or {item:15106}, {npc:6252}'s infernal path with the Orb or {item:15105}. The guide follows the one you take."] = "Bir çırak seç: görevlerinden yalnızca birini alabilirsin. {npc:6254} adlı NPC'nin felhound yolu küre ya da {item:15106} ile, {npc:6252} adlı NPC'nin infernal yolu küre ya da {item:15105} ile biter. Rehber aldığın yolu izler.",
-	-- ["The demons of {area:602}, in southern {zone:1443}, have all you need. Burning Blade Summoners carry the {item:7291}. On the felhound path, use the {item:12647} on a {npc:4678}, a felhound, and kill it for its spirit; on the infernal path, use the {item:12646} on a {npc:4676} and kill it."] = "İhtiyacın olan her şey {zone:1443} bölgesinin güneyindeki {area:602} iblislerinde. {item:7291} eşyasını Burning Blade Summoner yaratıkları taşıyor. Felhound yolunda bir felhound olan {npc:4678} üzerinde {item:12647} kullan ve ruhu için onu öldür; infernal yolunda bir {npc:4676} üzerinde {item:12646} kullan ve onu öldür.",
-	-- maybe now: ["{item:12648}, from a {npc:4678}, {npc:4681} or {npc:4685}"]
-	-- ["{item:12648}, from a {npc:4678}"] = "{item:12648}, bir {npc:4678} yaratığından",
-	-- maybe now: ["Back to {npc:6266} in the tower above {area:392} with the spirit and the gem first: her orb follows from it."]
-	-- ["Back to {npc:6266} in the tower above {area:392} with the spirit first: {npc:6546}'s cleansing follows it."] = "Önce ruhla birlikte {area:392} kasabasının yukarısındaki kulede {npc:6266} yanına dön: {npc:6546} adlı NPC'nin arındırması ondan sonra gelir.",
-	-- ["{npc:6546} lives at her farm in western {zone:1445}. She calls the {npc:6549} out of the {item:7291}; it is elite: grouping up is advised."] = "{npc:6546}, {zone:1445} bölgesinin batısındaki çiftliğinde yaşıyor. {npc:6549} yaratığını {item:7291} içinden çağırır; elit: grup kurman önerilir.",
-	-- maybe now: ["Back to {npc:6266} in the tower above {area:392} with the cleansed orb. On the felhound path, accept her last quest and wait beside her while she completes the {item:15108} (do not attack her: the quest log calls it a kill), then speak to her again and pick the off-hand orb or the staff."]
-	-- ["Back to {npc:6266} in the tower above {area:392} with the cleansed orb. On the felhound path, wait while she completes the {item:15108}, then speak to her again."] = "Arınmış küreyle {area:392} kasabasının yukarısındaki kulede {npc:6266} yanına dön. Felhound yolunda {item:15108} eşyasını bitirene kadar bekle, sonra onunla yeniden konuş.",
-	-- ["Wait for the orb"] = "Küreyi bekle",
-	-- maybe now: ["On the infernal path, accept her last quest and wait beside {npc:6266} while she completes the {item:15107}, then speak to her again and pick the off-hand orb or the staff."]
-	-- ["On the infernal path, wait while {npc:6266} completes the {item:15107}, then speak to her again."] = "Infernal yolunda {npc:6266} {item:15107} eşyasını bitirene kadar bekle, sonra onunla yeniden konuş.",
 }

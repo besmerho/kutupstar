@@ -138,22 +138,4 @@ return {
 	-- Step 29: Rashona Straglash
 	-- {object:172958} Valley of Honor
 	["In the {object:172958}."] = "{object:172958} içinde.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["From Krakle in Un'Goro"] = "Un'Goro'daki Krakle'dan",
-	-- maybe now: ["{npc:11556} stands by the {area:618} exit of {area:1769}'s tunnel, north of the hot springs."]
-	-- ["{npc:11556} stands by the {zone:1452} exit of {area:1769}'s tunnel, north of the hot springs."] = "{npc:11556}, kaplıcaların kuzeyinde, {area:1769} tünelinin {zone:1452} çıkışında duruyor.",
-	-- ["Frostfire Winterfall camps"] = "Frostfire Winterfall kampları",
-	-- ["Ride east, then south down {area:2249}. The Frostmaul giants there are elite level 59: keep to the middle and keep moving. The strange source is at the mouth of {area:2256}, at the south end."] = "Doğuya git, sonra {area:2249} boğazından güneye in. Oradaki Frostmaul devleri seviye 59 elit: ortadan git ve durmadan ilerle. Garip kaynak güney uçta, {area:2256} boğazının ağzında.",
-	-- ["Ride back west to {area:2246}."] = "Batıya, {area:2246} kaplıcalarına dön.",
-	-- ["Any Winterfall furbolg can carry the beads; the camps just south of {npc:11556} are the closest."] = "Herhangi bir Winterfall furbolgu boncukları taşıyor olabilir; en yakın kamplar {npc:11556} adlı NPC'nin hemen güneyinde.",
-	-- ["Frostfire Winterfall camp"] = "Frostfire Winterfall kampı",
-	-- ["Back to {area:2255}"] = "{area:2255} kasabasına dön",
-	-- ["Grind to 55"] = "Seviye 55'e kadar kas",
-	-- ["grind on {npc:7440} at {area:2244}, {zone:1452}"] = "{zone:1452} bölgesindeki {area:2244} köyünde {npc:7440} yaratıklarıyla seviye kas",
-	-- ["{npc:10307}, beside him"] = "{npc:10307}, onun yanında",
-	-- ["Back at {area:1099}."] = "Yine {area:1099} kampında.",
-	-- maybe now: ["He stands on {area:1641}. Each donation wants sixty cloth from your bags: take them if you save cloth, and hand in what you carry later in the route."]
-	-- ["He stands on {area:1641}. Each donation wants cloth from your bags; hand them in when you have it, later in the route."] = "{area:1641} tepesinde duruyor. Her bağış çantandan kumaş istiyor; kumaşın olduğunda, rotanın ilerleyen kısmında teslim et.",
-	-- ["{npc:9087} buys {item:11040} grown from your {quest:3761}."] = "{npc:9087}, {quest:3761} toprağından yetiştirdiğin {item:11040} eşyalarını satın alır.",
 }

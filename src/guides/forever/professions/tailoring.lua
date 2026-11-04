@@ -17,7 +17,7 @@ return {
 
 	-- Step 3: Linen Cloth
 	-- {item:2589} Linen Cloth · {spell:2387} Linen Cloak · {item:7026} Linen Belt
-	["144 {item:2589} for {spell:2387} and {item:7026}: humanoids of level 5-20 drop it; or the Auction House. The arrow picks a farm spot for your level and faction."] = "{spell:2387} ve {item:7026} için 144 {item:2589}: seviye 5-20 insansılar düşürür; ya da Auction House. Ok seviyene ve tarafına göre bir kasma yeri seçer.",
+	["144 {item:2589} for {spell:2387} and {item:7026}: humanoids of level 5-20 drop it; or the Auction House. The arrow picks a farm spot for your level and faction."] = "{spell:2387} ve {item:7026} için 144 {item:2589}: seviye 5-20 insansılar düşürür; ya da müzayede evi. Ok seviyene ve tarafına göre bir kasma yeri seçer.",
 
 	-- Step 4: Linen Cloak to 15
 	-- {spell:2387} Linen Cloak
@@ -53,25 +53,25 @@ return {
 	-- {item:2592} Wool Cloth
 	["{item:2592} (Alliance)"] = "{item:2592} (Alliance)",
 	-- {item:2592} Wool Cloth · {spell:2402} Woolen Cape · {spell:3866} Stylish Red Shirt · {npc:98} Riverpaw Taskmaster
-	["567 {item:2592} for {spell:2402} and {spell:3866}: humanoids of level 15-30 drop it; or the Auction House. It drops from {npc:98} (level 17-18) here."] = "{spell:2402} ve {spell:3866} için 567 {item:2592}: seviye 15-30 insansı yaratıklar düşürür; ya da Auction House. Burada {npc:98} (seviye 17-18) düşürür.",
+	["567 {item:2592} for {spell:2402} and {spell:3866}: humanoids of level 15-30 drop it; or the Auction House. It drops from {npc:98} (level 17-18) here."] = "{spell:2402} ve {spell:3866} için 567 {item:2592}: seviye 15-30 insansı yaratıklar düşürür; ya da müzayede evi. Burada {npc:98} (seviye 17-18) düşürür.",
 
 	-- Step 10: Wool Cloth (Horde)
 	-- {item:2592} Wool Cloth
 	["{item:2592} (Horde)"] = "{item:2592} (Horde)",
 	-- {item:2592} Wool Cloth · {spell:2402} Woolen Cape · {spell:3866} Stylish Red Shirt · {npc:3263} Bristleback Geomancer
-	["567 {item:2592} for {spell:2402} and {spell:3866}: humanoids of level 15-30 drop it; or the Auction House. It drops from {npc:3263} (level 19-20) here."] = "{spell:2402} ve {spell:3866} için 567 {item:2592}: seviye 15-30 insansı yaratıklar düşürür; ya da Auction House. Burada {npc:3263} (seviye 19-20) düşürür.",
+	["567 {item:2592} for {spell:2402} and {spell:3866}: humanoids of level 15-30 drop it; or the Auction House. It drops from {npc:3263} (level 19-20) here."] = "{spell:2402} ve {spell:3866} için 567 {item:2592}: seviye 15-30 insansı yaratıklar düşürür; ya da müzayede evi. Burada {npc:3263} (seviye 19-20) düşürür.",
 
 	-- Step 11: Silk Cloth (Alliance)
 	-- {item:4306} Silk Cloth
 	["{item:4306} (Alliance)"] = "{item:4306} (Alliance)",
 	-- {item:4306} Silk Cloth · {spell:3871} Formal White Shirt · {npc:2240} Syndicate Footpad
-	["204 {item:4306} for {spell:3871}: humanoids of level 25-45 drop it; or the Auction House. It drops from {npc:2240} (level 32-33) here."] = "{spell:3871} için 204 {item:4306}: seviye 25-45 insansı yaratıklar düşürür; ya da Auction House. Burada {npc:2240} (seviye 32-33) düşürür.",
+	["204 {item:4306} for {spell:3871}: humanoids of level 25-45 drop it; or the Auction House. It drops from {npc:2240} (level 32-33) here."] = "{spell:3871} için 204 {item:4306}: seviye 25-45 insansı yaratıklar düşürür; ya da müzayede evi. Burada {npc:2240} (seviye 32-33) düşürür.",
 
 	-- Step 12: Silk Cloth (Horde)
 	-- {item:4306} Silk Cloth
 	["{item:4306} (Horde)"] = "{item:4306} (Horde)",
 	-- {item:4306} Silk Cloth · {spell:3871} Formal White Shirt · {npc:11697} Mannoroc Lasher
-	["204 {item:4306} for {spell:3871}: humanoids of level 25-45 drop it; or the Auction House. It drops from {npc:11697} (level 29-30) here."] = "{spell:3871} için 204 {item:4306}: seviye 25-45 insansı yaratıklar düşürür; ya da Auction House. Burada {npc:11697} (seviye 29-30) düşürür.",
+	["204 {item:4306} for {spell:3871}: humanoids of level 25-45 drop it; or the Auction House. It drops from {npc:11697} (level 29-30) here."] = "{spell:3871} için 204 {item:4306}: seviye 25-45 insansı yaratıklar düşürür; ya da müzayede evi. Burada {npc:11697} (seviye 29-30) düşürür.",
 
 	-- Step 13: Woolen Cape to 104
 	-- {spell:2402} Woolen Cape
@@ -115,25 +115,25 @@ return {
 
 	-- Step 20: Silk Cloth
 	-- {item:4306} Silk Cloth · {item:7053} Azure Silk Cloak
-	["264 {item:4306} for {item:7053}: humanoids of level 25-45 drop it; or the Auction House. The arrow picks a farm spot for your level and faction."] = "{item:7053} için 264 {item:4306}: seviye 25-45 insansılar düşürür; ya da Auction House. Ok seviyene ve tarafına göre bir kasma yeri seçer.",
+	["264 {item:4306} for {item:7053}: humanoids of level 25-45 drop it; or the Auction House. The arrow picks a farm spot for your level and faction."] = "{item:7053} için 264 {item:4306}: seviye 25-45 insansılar düşürür; ya da müzayede evi. Ok seviyene ve tarafına göre bir kasma yeri seçer.",
 
 	-- Step 21: Mageweave Cloth (Alliance)
 	-- {item:4338} Mageweave Cloth
 	["{item:4338} (Alliance)"] = "{item:4338} (Alliance)",
 	-- {item:4338} Mageweave Cloth · {item:9998} Black Mageweave Vest · {item:10024} Black Mageweave Headband · {npc:4467} Vilebranch Soothsayer
-	["900 {item:4338} for {item:9998} and {item:10024}: humanoids of level 35-50 drop it; or the Auction House. It drops from {npc:4467} (level 46-47) here."] = "{item:9998} ve {item:10024} için 900 {item:4338}: seviye 35-50 insansı yaratıklar düşürür; ya da Auction House. Burada {npc:4467} (seviye 46-47) düşürür.",
+	["900 {item:4338} for {item:9998} and {item:10024}: humanoids of level 35-50 drop it; or the Auction House. It drops from {npc:4467} (level 46-47) here."] = "{item:9998} ve {item:10024} için 900 {item:4338}: seviye 35-50 insansı yaratıklar düşürür; ya da müzayede evi. Burada {npc:4467} (seviye 46-47) düşürür.",
 
 	-- Step 22: Mageweave Cloth (Horde)
 	-- {item:4338} Mageweave Cloth
 	["{item:4338} (Horde)"] = "{item:4338} (Horde)",
 	-- {item:4338} Mageweave Cloth · {item:9998} Black Mageweave Vest · {item:10024} Black Mageweave Headband · {npc:5472} Dunemaul Enforcer
-	["900 {item:4338} for {item:9998} and {item:10024}: humanoids of level 35-50 drop it; or the Auction House. It drops from {npc:5472} (level 46-47) here."] = "{item:9998} ve {item:10024} için 900 {item:4338}: seviye 35-50 insansı yaratıklar düşürür; ya da Auction House. Burada {npc:5472} (seviye 46-47) düşürür.",
+	["900 {item:4338} for {item:9998} and {item:10024}: humanoids of level 35-50 drop it; or the Auction House. It drops from {npc:5472} (level 46-47) here."] = "{item:9998} ve {item:10024} için 900 {item:4338}: seviye 35-50 insansı yaratıklar düşürür; ya da müzayede evi. Burada {npc:5472} (seviye 46-47) düşürür.",
 
 	-- Step 23: Expert Tailoring
 	-- {skill:197} Tailoring
 	["Expert {skill:197}"] = "Expert {skill:197}",
 	-- {skill:197} Tailoring · {npc:1346} Georgio Bolero · {zone:1453} Stormwind City · {npc:11052} Timothy Worthington · {zone:1445} Dustwallow Marsh · {npc:2399} Daryl Stack · {zone:1424} Hillsbrad Foothills · {npc:4576} Josef Gregorian · {zone:1458} Undercity · {spell:3865} Bolt of Mageweave · {item:4306} Silk Cloth · {item:4338} Mageweave Cloth · {item:9998} Black Mageweave Vest · {item:10024} Black Mageweave Headband
-	["Expert raises the cap from 150 to 225; it needs {skill:197} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:1346} ({zone:1453}) and {npc:11052} ({zone:1445}); Horde {npc:2399} ({zone:1424}) and {npc:4576} ({zone:1458}). The arrow picks the nearest of your faction. Learn now: {spell:3865} (from 140). 150-225 takes about 15s of recipes and 21g 16s of vendor goods, plus 264 {item:4306} and 900 {item:4338} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {item:9998} (from 170) and {item:10024} (from 190), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3."] = "Expert, sınırı 150 puandan 225 puana çıkarır; {skill:197} 125 ve karakter seviyesi 20 ister, böylece 125 puandan itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:1346} ({zone:1453}) ve {npc:11052} ({zone:1445}); Horde {npc:2399} ({zone:1424}) ve {npc:4576} ({zone:1458}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:3865} (140 puandan). 150-225 yaklaşık 15s tarif ve 21g 16s satıcı malı, ayrıca toplanacak ya da alınacak 264 {item:4306} ve 900 {item:4338} tutar. Hepsi çantanda gel (yukarıdaki adımlar, gerisi Auction House'dan): bu eğitmenler {item:9998} (170 puandan) ve {item:10024} (190 puandan) da öğretir ve üretimler istasyon istemez, bu yüzden tam burada üret ve her tarife becerisine ulaştıkça öğren. 3 yolculuk yerine tek yolculuk.",
+	["Expert raises the cap from 150 to 225; it needs {skill:197} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:1346} ({zone:1453}) and {npc:11052} ({zone:1445}); Horde {npc:2399} ({zone:1424}) and {npc:4576} ({zone:1458}). The arrow picks the nearest of your faction. Learn now: {spell:3865} (from 140). 150-225 takes about 15s of recipes and 21g 16s of vendor goods, plus 264 {item:4306} and 900 {item:4338} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {item:9998} (from 170) and {item:10024} (from 190), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3."] = "Expert, sınırı 150 puandan 225 puana çıkarır; {skill:197} 125 ve karakter seviyesi 20 ister, böylece 125 puandan itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:1346} ({zone:1453}) ve {npc:11052} ({zone:1445}); Horde {npc:2399} ({zone:1424}) ve {npc:4576} ({zone:1458}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:3865} (140 puandan). 150-225 yaklaşık 15s tarif ve 21g 16s satıcı malı, ayrıca toplanacak ya da alınacak 264 {item:4306} ve 900 {item:4338} tutar. Hepsi çantanda gel (yukarıdaki adımlar, gerisi müzayede evinden): bu eğitmenler {item:9998} (170 puandan) ve {item:10024} (190 puandan) da öğretir ve üretimler istasyon istemez, bu yüzden tam burada üret ve her tarife becerisine ulaştıkça öğren. 3 yolculuk yerine tek yolculuk.",
 
 	-- Step 24: Azure Silk Cloak to 170
 	-- {item:7053} Azure Silk Cloak
@@ -180,43 +180,43 @@ return {
 
 	-- Step 31: Pattern: Runecloth Gloves
 	-- {item:14481} Pattern: Runecloth Gloves · {item:13863} Runecloth Gloves · {skill:197} Tailoring · {npc:11189} Qia · {zone:1452} Winterspring
-	["{item:14481} teaches {item:13863} ({skill:197} 230) for 1g 60s. Sold by {npc:11189} ({zone:1452}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; it binds when picked up, so the Auction House never has it."] = "{item:14481}, 1g 60s karşılığında {item:13863} ({skill:197} 230) öğretir. Satan {npc:11189} ({zone:1452}), sınırlı stok. Satıcıları bir iki tane tutar, satıştan bir süre sonra yeniden gelir; alınınca bağlanır, bu yüzden Auction House'da hiç olmaz.",
+	["{item:14481} teaches {item:13863} ({skill:197} 230) for 1g 60s. Sold by {npc:11189} ({zone:1452}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; it binds when picked up, so the Auction House never has it."] = "{item:14481}, 1g 60s karşılığında {item:13863} ({skill:197} 230) öğretir. Satan {npc:11189} ({zone:1452}), sınırlı stok. Satıcıları bir iki tane tutar, satıştan bir süre sonra yeniden gelir; alınınca bağlanır, bu yüzden müzayede evinde hiç olmaz.",
 
 	-- Step 32: Rugged Leather (Alliance)
 	-- {item:8170} Rugged Leather
 	["{item:8170} (Alliance)"] = "{item:8170} (Alliance)",
 	-- {item:8170} Rugged Leather · {item:13863} Runecloth Gloves · {item:13867} Runecloth Shoulders · {skill:393} Skinning · {npc:1815} Diseased Black Bear · {npc:1816} Diseased Grizzly · {npc:1817} Diseased Wolf
-	["420 {item:8170} for {item:13863} and {item:13867}: {skill:393}: beasts of level 48-60; or the Auction House. Skin {npc:1815}, {npc:1816} and {npc:1817} here (level 48-60); the {skill:393} guide routes this."] = "{item:13863} ve {item:13867} için 420 {item:8170}: {skill:393}: seviye 48-60 hayvanlar; ya da Auction House. Burada {npc:1815}, {npc:1816} ve {npc:1817} yaratıklarını yüz (seviye 48-60); {skill:393} rehberi bunu yönlendirir.",
+	["420 {item:8170} for {item:13863} and {item:13867}: {skill:393}: beasts of level 48-60; or the Auction House. Skin {npc:1815}, {npc:1816} and {npc:1817} here (level 48-60); the {skill:393} guide routes this."] = "{item:13863} ve {item:13867} için 420 {item:8170}: {skill:393}: seviye 48-60 hayvanlar; ya da müzayede evi. Burada {npc:1815}, {npc:1816} ve {npc:1817} yaratıklarını yüz (seviye 48-60); {skill:393} rehberi bunu yönlendirir.",
 
 	-- Step 33: Rugged Leather (Horde)
 	-- {item:8170} Rugged Leather
 	["{item:8170} (Horde)"] = "{item:8170} (Horde)",
 	-- {item:8170} Rugged Leather · {item:13863} Runecloth Gloves · {item:13867} Runecloth Shoulders · {skill:393} Skinning · {npc:6369} Coralshell Tortoise · {npc:8760} Mosshoof Stag · {npc:6380} Thunderhead Consort · {npc:6379} Thunderhead Patriarch · {npc:6378} Thunderhead Skystormer · {npc:6377} Thunderhead Stagwing
-	["420 {item:8170} for {item:13863} and {item:13867}: {skill:393}: beasts of level 48-60; or the Auction House. Skin {npc:6369}, {npc:8760}, {npc:6380}, {npc:6379}, {npc:6378} and {npc:6377} here (level 48-60); the {skill:393} guide routes this."] = "{item:13863} ve {item:13867} için 420 {item:8170}: {skill:393}: seviye 48-60 hayvanlar; ya da Auction House. Burada {npc:6369}, {npc:8760}, {npc:6380}, {npc:6379}, {npc:6378} ve {npc:6377} yaratıklarını yüz (seviye 48-60); {skill:393} rehberi bunu yönlendirir.",
+	["420 {item:8170} for {item:13863} and {item:13867}: {skill:393}: beasts of level 48-60; or the Auction House. Skin {npc:6369}, {npc:8760}, {npc:6380}, {npc:6379}, {npc:6378} and {npc:6377} here (level 48-60); the {skill:393} guide routes this."] = "{item:13863} ve {item:13867} için 420 {item:8170}: {skill:393}: seviye 48-60 hayvanlar; ya da müzayede evi. Burada {npc:6369}, {npc:8760}, {npc:6380}, {npc:6379}, {npc:6378} ve {npc:6377} yaratıklarını yüz (seviye 48-60); {skill:393} rehberi bunu yönlendirir.",
 
 	-- Step 34: Runecloth (Alliance)
 	-- {item:14047} Runecloth
 	["{item:14047} (Alliance)"] = "{item:14047} (Alliance)",
 	-- {item:14047} Runecloth · {item:13856} Runecloth Belt · {item:13863} Runecloth Gloves · {item:13867} Runecloth Shoulders · {npc:7027} Blackrock Slayer
-	["3195 {item:14047} for {item:13856}, {item:13863} and {item:13867}: humanoids of level 45-60 drop it; or the Auction House. It drops from {npc:7027} (level 56-57) here."] = "{item:13856}, {item:13863} ve {item:13867} için 3195 {item:14047}: seviye 45-60 insansı yaratıklar düşürür; ya da Auction House. Burada {npc:7027} (seviye 56-57) düşürür.",
+	["3195 {item:14047} for {item:13856}, {item:13863} and {item:13867}: humanoids of level 45-60 drop it; or the Auction House. It drops from {npc:7027} (level 56-57) here."] = "{item:13856}, {item:13863} ve {item:13867} için 3195 {item:14047}: seviye 45-60 insansı yaratıklar düşürür; ya da müzayede evi. Burada {npc:7027} (seviye 56-57) düşürür.",
 
 	-- Step 35: Runecloth (Horde)
 	-- {item:14047} Runecloth
 	["{item:14047} (Horde)"] = "{item:14047} (Horde)",
 	-- {item:14047} Runecloth · {item:13856} Runecloth Belt · {item:13863} Runecloth Gloves · {item:13867} Runecloth Shoulders · {npc:11880} Twilight Avenger
-	["3195 {item:14047} for {item:13856}, {item:13863} and {item:13867}: humanoids of level 45-60 drop it; or the Auction House. It drops from {npc:11880} (level 57-59) here."] = "{item:13856}, {item:13863} ve {item:13867} için 3195 {item:14047}: seviye 45-60 insansı yaratıklar düşürür; ya da Auction House. Burada {npc:11880} (seviye 57-59) düşürür.",
+	["3195 {item:14047} for {item:13856}, {item:13863} and {item:13867}: humanoids of level 45-60 drop it; or the Auction House. It drops from {npc:11880} (level 57-59) here."] = "{item:13856}, {item:13863} ve {item:13867} için 3195 {item:14047}: seviye 45-60 insansı yaratıklar düşürür; ya da müzayede evi. Burada {npc:11880} (seviye 57-59) düşürür.",
 
 	-- Step 36: Ironweb Spider Silk (Alliance)
 	-- {item:14227} Ironweb Spider Silk
 	["{item:14227} (Alliance)"] = "{item:14227} (Alliance)",
 	-- {item:14227} Ironweb Spider Silk · {item:13867} Runecloth Shoulders · {npc:1824} Plague Lurker
-	["124 {item:14227} for {item:13867}: it drops from {npc:1824} (level 54-55) at the marked spot, or buy it at the Auction House."] = "{item:13867} için 124 {item:14227}: işaretli yerde {npc:1824} (seviye 54-55) düşürür ya da Auction House'dan al.",
+	["124 {item:14227} for {item:13867}: it drops from {npc:1824} (level 54-55) at the marked spot, or buy it at the Auction House."] = "{item:13867} için 124 {item:14227}: işaretli yerde {npc:1824} (seviye 54-55) düşürür ya da müzayede evinden al.",
 
 	-- Step 37: Ironweb Spider Silk (Horde)
 	-- {item:14227} Ironweb Spider Silk
 	["{item:14227} (Horde)"] = "{item:14227} (Horde)",
 	-- {item:14227} Ironweb Spider Silk · {item:13867} Runecloth Shoulders · {npc:11739} Rock Stalker
-	["124 {item:14227} for {item:13867}: it drops from {npc:11739} (level 57-59) at the marked spot, or buy it at the Auction House."] = "{item:13867} için 124 {item:14227}: işaretli yerde {npc:11739} (seviye 57-59) düşürür ya da Auction House'dan al.",
+	["124 {item:14227} for {item:13867}: it drops from {npc:11739} (level 57-59) at the marked spot, or buy it at the Auction House."] = "{item:13867} için 124 {item:14227}: işaretli yerde {npc:11739} (seviye 57-59) düşürür ya da müzayede evinden al.",
 
 	-- Step 38: Runecloth Belt to 234
 	-- {item:13856} Runecloth Belt
@@ -234,79 +234,6 @@ return {
 	-- {item:13867} Runecloth Shoulders
 	["{item:13867} to 300"] = "{item:13867}: 300 puana kadar",
 	-- {item:13867} Runecloth Shoulders · {item:14048} Bolt of Runecloth · {item:14227} Ironweb Spider Silk · {item:8170} Rugged Leather · {item:14341} Rune Thread · {item:14504} Pattern: Runecloth Shoulders · {zone:1422} Western Plaguelands · {zone:1451} Silithus · {item:13863} Runecloth Gloves · {item:13864} Runecloth Boots · {npc:7940} Darnall · {zone:1450} Moonglade · {item:14342} Mooncloth · {npc:11189} Qia · {npc:11188} Evie Whirlbrew · {area:2255} Everlook · {item:14256} Felcloth · {item:279943} Spinning Wheel · {npc:248202} Jim'bek · {npc:256735} Mivin Shadowweave · {npc:246017} Unstable Sentinel · {item:254123} Runecloth Cuffs · {zone:2482} Mount Hyjal · {skill:197} Tailoring
-	["{item:13867} is orange at 265 (yellow 275, green 290, grey 305): about 62 crafts to 300. Each takes 7 {item:14048}, 2 {item:14227}, 4 {item:8170} and 1 {item:14341}. Make the 434 {item:14048} first. Its pattern ({item:14504}) drops from mobs all over the world and does not bind: buy it at the Auction House. Seven bolts, two {item:14227} and four {item:8170} a craft: the dearest stretch. The spiders of {zone:1422} and {zone:1451} drop the silk (the marked spots), or the Auction House. No pattern on the Auction House? {item:13863} still give a point now and then to 275, and {item:13864} ({npc:7940}, {zone:1450}) to 280, at 4 bolts a craft. {item:14342} (pattern from {npc:11189} or {npc:11188} in {area:2255}; 2 {item:14256} at a Moonwell) stays orange to 270 and yellow to 285, but it can be made once every four days. The {item:279943} patterns (Merchant's Favor sandals and waistcords from {npc:248202} or {npc:256735}; the wheel's blueprint drops from the {npc:246017} in the City of Dalaran) and {item:254123} (Pexmit in {zone:2482}, 10g; we could not confirm that vendor yet) are the other ways on. {skill:197} 300 is a Legacy System milestone."] = "{item:13867}: 265 puanda turuncu (sarı 275, yeşil 290, gri 305): 300 puana kadar yaklaşık 62 üretim. Her biri 7 {item:14048}, 2 {item:14227}, 4 {item:8170} ve 1 {item:14341} ister. Önce 434 {item:14048} yap. Kalıbı ({item:14504}) dünyanın her yanındaki yaratıklardan düşer ve bağlanmaz: Auction House'dan al. Üretim başına yedi top kumaş, iki {item:14227} ve dört {item:8170}: en pahalı kısım. İpeği {zone:1422} ve {zone:1451} bölgelerinin örümcekleri düşürür (işaretli yerler) ya da Auction House. Auction House'da kalıp yok mu? {item:13863} 275 puana kadar arada bir puan vermeyi sürdürür, {item:13864} ({npc:7940}, {zone:1450}) de 280 puana kadar, üretim başına 4 top kumaşla. {item:14342} (kalıbı {area:2255} kasabasında {npc:11189} ya da {npc:11188} yaratığından; bir Moonwell'de 2 {item:14256}) 270 puana kadar turuncu ve 285 puana kadar sarı kalır, ama dört günde bir yapılabilir. {item:279943} kalıpları ({npc:248202} ya da {npc:256735} yaratığından Merchant's Favor sandalet ve bel kordonları; çarkın şeması City of Dalaran'daki {npc:246017} yaratığından düşer) ve {item:254123} ({zone:2482} bölgesinde Pexmit, 10g; bu satıcıyı henüz doğrulayamadık) diğer yollar. {skill:197} 300 bir Legacy System kilometre taşı.",
-	["from the pattern bought at the Auction House"] = "Auction House'dan alınan kalıptan",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Apprentice {skill:197}"] = "Apprentice {skill:197}",
-	-- ["{skill:197} runs alongside leveling. Forever's Legacy System rewards crafting professions at skill 150, 225 and 300 (the Journeyman, Expert and Artisan caps), so each of those checkpoints counts. Materials for 1-75 are worth about 1g 8s in all."] = "{skill:197} seviye atlamayla birlikte yürür. Forever'ın Legacy System'i üretim mesleklerini 150, 225 ve 300 puanda (Journeyman, Expert ve Artisan sınırları) ödüllendirir, yani bu kontrol noktalarının her biri sayılır. 1-75 arası malzemelerin toplam değeri yaklaşık 1g 8s.",
-	-- ["Kill the mobs that drop it at the farm spot Polestar picks for your level and faction. The Auction House works too."] = "Polestar'ın seviyene ve tarafına göre seçtiği farm noktasında onu düşüren yaratıkları öldür. Müzayede evi de olur.",
-	-- ["{item:10045} to 50"] = "{item:10045}: 50 puana kadar",
-	-- ["Orange (a point every craft) until 40, yellow until 50, green until 60."] = "Turuncu (her üretim bir puan) 40 puana kadar, sarı 50 puana kadar, yeşil 60 puana kadar.",
-	-- maybe now: ["{skill:197} recipes at 15"]
-	-- ["{skill:197} recipes at 50"] = "50 puanda {skill:197} tarifleri",
-	-- maybe now: ["Back to a {skill:197} trainer: {spell:8776} (from 15, 50c)."]
-	-- ["Back to a {skill:197} trainer: {spell:8776} is taught from {skill:197} 50."] = "Bir {skill:197} eğitmenine dön: {spell:8776}, {skill:197} 50 puandan itibaren öğretilir.",
-	-- ["Yellow until 67, green until 85: not every craft gives a point. 75 is the Apprentice cap."] = "Sarı 67 puana kadar, yeşil 85 puana kadar: her üretim puan vermez. 75, Apprentice sınırı.",
-	-- ["Journeyman needs character level 10 and {skill:197} 50; it raises the cap to 150. Materials for 75-150 are worth about 17g in all."] = "Journeyman için karakter seviyesi 10 ve {skill:197} 50 gerekir; sınırı 150 puana çıkarır. 75-150 arası malzemelerin toplam değeri yaklaşık 17g.",
-	-- ["{npc:98} (level 17-18) drop it here. The Auction House works too."] = "Burada {npc:98} yaratıkları (seviye 17-18) düşürür. Müzayede evi de olur.",
-	-- ["{npc:3263} (level 19-20) drop it here. The Auction House works too."] = "Burada {npc:3263} yaratıkları (seviye 19-20) düşürür. Müzayede evi de olur.",
-	-- ["{skill:197} materials for 75-150"] = "75-150 için {skill:197} malzemeleri",
-	-- ["Skinned, disenchanted or crafted by another profession: gather them yourself or buy them on the Auction House."] = "Deri yüzülerek, disenchant edilerek ya da başka bir meslekle üretilir: kendin topla ya da müzayede evinden al.",
-	-- ["{skill:171}: {item:3383} (or the Auction House)"] = "{skill:171}: {item:3383} (ya da müzayede evi)",
-	-- ["{item:7026} to 80"] = "{item:7026}: 80 puana kadar",
-	-- ["Yellow until 67, green until 85: not every craft gives a point."] = "Sarı 67 puana kadar, yeşil 85 puana kadar: her üretim puan vermez.",
-	-- maybe now: ["{skill:197} recipes at 15"]
-	-- ["{skill:197} recipes at 80"] = "80 puanda {skill:197} tarifleri",
-	-- ["Back to a {skill:197} trainer: {spell:2402} is taught from {skill:197} 80."] = "Bir {skill:197} eğitmenine dön: {spell:2402}, {skill:197} 80 puandan itibaren öğretilir.",
-	-- ["{spell:2402} to 110"] = "{spell:2402}: 110 puana kadar",
-	-- ["Yellow until 97, green until 115: not every craft gives a point."] = "Sarı 97 puana kadar, yeşil 115 puana kadar: her üretim puan vermez.",
-	-- maybe now: ["{skill:197} recipes at 15"]
-	-- ["{skill:197} recipes at 110"] = "110 puanda {skill:197} tarifleri",
-	-- ["Back to a {skill:197} trainer: {spell:3848} is taught from {skill:197} 110."] = "Bir {skill:197} eğitmenine dön: {spell:3848}, {skill:197} 110 puandan itibaren öğretilir.",
-	-- ["{spell:3848} to 125"] = "{spell:3848}: 125 puana kadar",
-	-- ["Yellow until 127, green until 145: not every craft gives a point."] = "Sarı 127 puana kadar, yeşil 145 puana kadar: her üretim puan vermez.",
-	-- maybe now: ["{skill:197} recipes at 15"]
-	-- ["{skill:197} recipes at 125"] = "125 puanda {skill:197} tarifleri",
-	-- ["Back to a {skill:197} trainer: {spell:3852} is taught from {skill:197} 125."] = "Bir {skill:197} eğitmenine dön: {spell:3852}, {skill:197} 125 puandan itibaren öğretilir.",
-	-- ["{spell:3852} to 150"] = "{spell:3852}: 150 puana kadar",
-	-- ["Yellow until 140, green until 155: not every craft gives a point. {skill:197} 150 is a Legacy System milestone."] = "Sarı 140 puana kadar, yeşil 155 puana kadar: her üretim puan vermez. {skill:197} 150 bir Legacy System kilometre taşı.",
-	-- ["Expert needs character level 20 and {skill:197} 125; it raises the cap to 225. Materials for 150-225 are worth about 135g in all."] = "Expert için karakter seviyesi 20 ve {skill:197} 125 gerekir; sınırı 225 puana çıkarır. 150-225 arası malzemelerin toplam değeri yaklaşık 135g.",
-	-- ["Teaches {item:7053} (needs {skill:197} 140). Vendors sell it in limited stock that restocks."] = "{item:7053} öğretir ({skill:197} 140 gerekir). Satıcılar onu yenilenen sınırlı stokla satar.",
-	-- ["{npc:6006} (level 52-53) drop it here. The Auction House works too."] = "Burada {npc:6006} yaratıkları (seviye 52-53) düşürür. Müzayede evi de olur.",
-	-- ["{npc:5472} (level 46-47) drop it here. The Auction House works too."] = "Burada {npc:5472} yaratıkları (seviye 46-47) düşürür. Müzayede evi de olur.",
-	-- ["{item:7053} to 180"] = "{item:7053}: 180 puana kadar",
-	-- ["Orange (a point every craft) until 160, yellow until 175, green until 190."] = "Turuncu (her üretim bir puan) 160 puana kadar, sarı 175 puana kadar, yeşil 190 puana kadar.",
-	-- maybe now: ["{skill:197} recipes at 15"]
-	-- ["{skill:197} recipes at 180"] = "180 puanda {skill:197} tarifleri",
-	-- ["Back to a {skill:197} trainer: {spell:8799} is taught from {skill:197} 180."] = "Bir {skill:197} eğitmenine dön: {spell:8799}, {skill:197} 180 puandan itibaren öğretilir.",
-	-- ["{item:7062} to 185"] = "{item:7062}: 185 puana kadar",
-	-- ["Yellow until 190, green until 200: not every craft gives a point."] = "Sarı 190 puana kadar, yeşil 200 puana kadar: her üretim puan vermez.",
-	-- maybe now: ["{skill:197} recipes at 15"]
-	-- ["{skill:197} recipes at 185"] = "185 puanda {skill:197} tarifleri",
-	-- ["Back to a {skill:197} trainer: {spell:12048} is taught from {skill:197} 185."] = "Bir {skill:197} eğitmenine dön: {spell:12048}, {skill:197} 185 puandan itibaren öğretilir.",
-	-- ["{item:9998} to 205"] = "{item:9998}: 205 puana kadar",
-	-- ["Yellow until 200, green until 215: not every craft gives a point."] = "Sarı 200 puana kadar, yeşil 215 puana kadar: her üretim puan vermez.",
-	-- maybe now: ["{skill:197} recipes at 15"]
-	-- ["{skill:197} recipes at 205"] = "205 puanda {skill:197} tarifleri",
-	-- ["Back to a {skill:197} trainer: {spell:12072} is taught from {skill:197} 205."] = "Bir {skill:197} eğitmenine dön: {spell:12072}, {skill:197} 205 puandan itibaren öğretilir.",
-	-- ["Yellow until 220, green until 235: not every craft gives a point. {skill:197} 225 is a Legacy System milestone."] = "Sarı 220 puana kadar, yeşil 235 puana kadar: her üretim puan vermez. {skill:197} 225 bir Legacy System kilometre taşı.",
-	-- ["Artisan needs character level 35 and {skill:197} 200; it raises the cap to 300. Materials for 225-300 are worth about 845g in all."] = "Artisan için karakter seviyesi 35 ve {skill:197} 200 gerekir; sınırı 300 puana çıkarır. 225-300 arası malzemelerin toplam değeri yaklaşık 845g.",
-	-- ["Teaches {item:13863} (needs {skill:197} 230). Vendors sell it in limited stock that restocks."] = "{item:13863} öğretir ({skill:197} 230 gerekir). Satıcılar onu yenilenen sınırlı stokla satar.",
-	-- ["Teaches {item:254123} (needs {skill:197} 250)."] = "{item:254123} öğretir ({skill:197} 250 gerekir).",
-	-- maybe now: ["420 {item:8170} for {item:13863} and {item:13867}: {skill:393}: beasts of level 48-60; or the Auction House. Skin {npc:1815}, {npc:1816} and {npc:1817} here (level 48-60); the {skill:393} guide routes this."]
-	-- ["Skin {npc:1815}, {npc:1816}, {npc:1817} here (beasts of level 48-60 yield it); the {skill:393} guide routes this. The Auction House works too."] = "Burada şunların derisini yüz: {npc:1815}, {npc:1816}, {npc:1817} (seviye 48-60 hayvanlar verir); {skill:393} rehberinde bunun rotası var. Müzayede evi de olur.",
-	-- maybe now: ["420 {item:8170} for {item:13863} and {item:13867}: {skill:393}: beasts of level 48-60; or the Auction House. Skin {npc:6369}, {npc:8760}, {npc:6380}, {npc:6379}, {npc:6378} and {npc:6377} here (level 48-60); the {skill:393} guide routes this."]
-	-- ["Skin {npc:6369}, {npc:8760}, {npc:6380}, {npc:6379}, {npc:6378}, {npc:6377} here (beasts of level 48-60 yield it); the {skill:393} guide routes this. The Auction House works too."] = "Burada şunların derisini yüz: {npc:6369}, {npc:8760}, {npc:6380}, {npc:6379}, {npc:6378}, {npc:6377} (seviye 48-60 hayvanlar verir); {skill:393} rehberinde bunun rotası var. Müzayede evi de olur.",
-	-- ["{npc:7027} (level 56-57) drop it here. The Auction House works too."] = "Burada {npc:7027} yaratıkları (seviye 56-57) düşürür. Müzayede evi de olur.",
-	-- ["{npc:6189} (level 51-52) drop it here. The Auction House works too."] = "Burada {npc:6189} yaratıkları (seviye 51-52) düşürür. Müzayede evi de olur.",
-	-- ["{npc:1824} (level 54-55) drop it here. The Auction House works too."] = "Burada {npc:1824} yaratıkları (seviye 54-55) düşürür. Müzayede evi de olur.",
-	-- ["{npc:11739} (level 57-59) drop it here. The Auction House works too."] = "Burada {npc:11739} yaratıkları (seviye 57-59) düşürür. Müzayede evi de olur.",
-	-- ["{item:13856} to 236"] = "{item:13856}: 236 puana kadar",
-	-- ["Yellow until 240, green until 255: not every craft gives a point."] = "Sarı 240 puana kadar, yeşil 255 puana kadar: her üretim puan vermez.",
-	-- ["{item:13863} to 251"] = "{item:13863}: 251 puana kadar",
-	-- ["Orange (a point every craft) until 245, yellow until 260, green until 275."] = "Turuncu (her üretim bir puan) 245 puana kadar, sarı 260 puana kadar, yeşil 275 puana kadar.",
-	-- ["{item:254123} to 295"] = "{item:254123}: 295 puana kadar",
-	-- ["Orange (a point every craft) until 265, yellow until 280, green until 295."] = "Turuncu (her üretim bir puan) 265 puana kadar, sarı 280 puana kadar, yeşil 295 puana kadar.",
-	-- ["On Forever no recipe a trainer teaches or both factions' vendors sell gives {skill:197} points past 295, so Polestar has no route for the last points. Recipes that still do: {item:14342} (needs a Moonwell), {item:14137} (needs a {item:279943}), {item:14155} (recipe is a drop), {item:14128} (recipe is a drop), {item:19047} (needs a {item:279943})."] = "Forever'da eğitmenin öğrettiği ya da iki tarafın satıcılarının sattığı hiçbir tarif 295 puandan sonra {skill:197} puanı vermiyor, bu yüzden Polestar'ın son puanlar için rotası yok. Hâlâ puan veren tarifler: {item:14342} (bir Moonwell gerekir), {item:14137} (bir {item:279943} gerekir), {item:14155} (tarif düşer), {item:14128} (tarif düşer), {item:19047} (bir {item:279943} gerekir).",
+	["{item:13867} is orange at 265 (yellow 275, green 290, grey 305): about 62 crafts to 300. Each takes 7 {item:14048}, 2 {item:14227}, 4 {item:8170} and 1 {item:14341}. Make the 434 {item:14048} first. Its pattern ({item:14504}) drops from mobs all over the world and does not bind: buy it at the Auction House. Seven bolts, two {item:14227} and four {item:8170} a craft: the dearest stretch. The spiders of {zone:1422} and {zone:1451} drop the silk (the marked spots), or the Auction House. No pattern on the Auction House? {item:13863} still give a point now and then to 275, and {item:13864} ({npc:7940}, {zone:1450}) to 280, at 4 bolts a craft. {item:14342} (pattern from {npc:11189} or {npc:11188} in {area:2255}; 2 {item:14256} at a Moonwell) stays orange to 270 and yellow to 285, but it can be made once every four days. The {item:279943} patterns (Merchant's Favor sandals and waistcords from {npc:248202} or {npc:256735}; the wheel's blueprint drops from the {npc:246017} in the City of Dalaran) and {item:254123} (Pexmit in {zone:2482}, 10g; we could not confirm that vendor yet) are the other ways on. {skill:197} 300 is a Legacy System milestone."] = "{item:13867}: 265 puanda turuncu (sarı 275, yeşil 290, gri 305): 300 puana kadar yaklaşık 62 üretim. Her biri 7 {item:14048}, 2 {item:14227}, 4 {item:8170} ve 1 {item:14341} ister. Önce 434 {item:14048} yap. Kalıbı ({item:14504}) dünyanın her yanındaki yaratıklardan düşer ve bağlanmaz: müzayede evinden al. Üretim başına yedi top kumaş, iki {item:14227} ve dört {item:8170}: en pahalı kısım. İpeği {zone:1422} ve {zone:1451} bölgelerinin örümcekleri düşürür (işaretli yerler) ya da müzayede evi. Müzayede evinde kalıp yok mu? {item:13863} 275 puana kadar arada bir puan vermeyi sürdürür, {item:13864} ({npc:7940}, {zone:1450}) de 280 puana kadar, üretim başına 4 top kumaşla. {item:14342} (kalıbı {area:2255} kasabasında {npc:11189} ya da {npc:11188} yaratığından; bir Moonwell'de 2 {item:14256}) 270 puana kadar turuncu ve 285 puana kadar sarı kalır, ama dört günde bir yapılabilir. {item:279943} kalıpları ({npc:248202} ya da {npc:256735} yaratığından Merchant's Favor sandalet ve bel kordonları; çarkın şeması City of Dalaran'daki {npc:246017} yaratığından düşer) ve {item:254123} ({zone:2482} bölgesinde Pexmit, 10g; bu satıcıyı henüz doğrulayamadık) diğer yollar. {skill:197} 300 bir Legacy System kilometre taşı.",
+	["from the pattern bought at the Auction House"] = "Müzayede evinden alınan kalıptan",
 }

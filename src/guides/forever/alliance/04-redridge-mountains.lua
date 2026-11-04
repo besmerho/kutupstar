@@ -177,17 +177,4 @@ return {
 	["{npc:903}, by the gryphons south of the bridge"] = "{npc:903}, köprünün güneyindeki grifonların yanında",
 	-- {zone:1431} Duskwood · {area:1002} Three Corners · {area:42} Darkshire
 	["{zone:1431} is next: follow the road west to {area:1002}, then south to {area:42}."] = "Sıradaki durak {zone:1431}: yolu batıya izleyerek {area:1002} kavşağına, sonra güneye {area:42} kasabasına git.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["The {area:442} boat docks at {area:17203}. Walk up into the city for training and {npc:1646}, then leave by the main gate and follow the road east through {area:12}."]
-	-- ["The {area:442} boat docks at {area:17203}. Walk up into the city for training and {npc:1646}, then leave by the main gate and follow the road east through {zone:1429}."] = "{area:442} gemisi {area:17203} limanına yanaşıyor. Eğitim ve {npc:1646} için yürüyerek şehre çık, sonra ana kapıdan çık ve yolu doğuya izleyerek {zone:1429} bölgesinden geç.",
-	-- maybe now: ["{npc:266}, by the docks; upstairs"]
-	-- ["{npc:266}, by the docks"] = "{npc:266}, iskelenin yanında",
-	-- ["Gnolls toward {area:1002}"] = "{area:1002} yönündeki gnollar",
-	-- ["Lake murlocs"] = "Göl murlocları",
-	-- maybe now: ["Murloc Flesheaters and Tidecallers line the south shore east of the bridge. Any of them can carry a {item:1467} or a fin.\nGreater Tarantulas crawl on the slopes around the mill north-east of the lake."]
-	-- ["Murloc Flesheaters and Tidecallers line the south shore east of the bridge. Any of them can carry a {item:1467} or a fin."] = "Murloc Flesheater ve Murloc Tidecaller yaratıkları köprünün doğusunda, güney kıyısı boyunca diziliyor. Herhangi biri bir {item:1467} ya da yüzgeç taşıyabilir.",
-	-- ["Greater Tarantulas crawl on the slopes around the mill north-east of the lake."] = "Greater Tarantula yaratıkları gölün kuzeydoğusundaki değirmenin çevresindeki yamaçlarda geziniyor.",
-	-- maybe now: ["East past the mill and across the river. Shadowhide gnolls fill the valley; {npc:703} (26, well above you) leads them at its north end: clear his escort first and fight him at full health. Stay out of {area:2099} to the south: its orcs are elite.\nCareful: Two gnoll guards stay with him and join the fight whenever he is attacked, even if he has wandered a short way off; other gnolls stand close by and wander through the area."]
-	-- ["East past the mill and across the river. Shadowhide gnolls fill the valley; {npc:703} (26, well above you) leads them at its north end: clear his escort first and fight him at full health. Stay out of {area:2099} to the south: its orcs are elite."] = "Doğuya, değirmeni geçip nehrin karşısına git. Vadi Shadowhide gnollarıyla dolu; vadinin kuzey ucunda onlara {npc:703} (26, senden epey yüksek) önderlik ediyor: önce korumalarını temizle ve onunla canın tamken dövüş. Güneydeki {area:2099} kalesinden uzak dur: oradaki orklar elit.",
 }

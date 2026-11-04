@@ -38,11 +38,4 @@ return {
 	-- Step 7: Back to Niby the Almighty
 	-- {npc:14469} Niby the Almighty
 	["Back to {npc:14469}"] = "{npc:14469} yanına dön",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["At 50 {npc:14469} and his imp {npc:14470} wait in central {zone:1448}, just east of {area:1763}."] = "Seviye 50'de {npc:14469} ve imp'i {npc:14470}, {zone:1448} bölgesinin ortasında, {area:1763} tapınağının hemen doğusunda bekliyor.",
-	-- ["The Jaedenar Legionnaires, a short way west of {npc:14469}, carry {area:1763}'s essence."] = "{area:1763} özünü {npc:14469} adlı NPC'nin biraz batısındaki Jaedenar Legionnaire yaratıkları taşıyor.",
-	-- ["The Legashi satyrs of northern {zone:1447} carry {zone:1447}'s essence."] = "{zone:1447} özünü, {zone:1447} bölgesinin kuzeyindeki Legashi satirleri taşıyor.",
-	-- ["The Felguard Sentries around the {area:72}, in southern {zone:1419}, carry its essence."] = "Onun özünü {zone:1419} bölgesinin güneyindeki {area:72} çevresinde bulunan Felguard Sentry yaratıkları taşıyor.",
-	-- ["{npc:14467}' remains lie in {area:1766}, north of {npc:14469}. Use the {item:18626} beside them and kill the infernal when he wakes. {npc:14467} is elite: grouping up is advised."] = "{npc:14467} adlı yaratığın kalıntıları {npc:14469} adlı NPC'nin kuzeyinde, {area:1766} vadisinde. Yanlarında {item:18626} kullan ve uyanınca infernal'ı öldür. {npc:14467} elit: grup kurman önerilir.",
 }

@@ -197,24 +197,4 @@ return {
 	["North-west along the road, the Rage Scar yetis live around the caves in the hills. Any of them can also drop a {quest:7738}, which starts a quest of its own."] = "Yol boyunca kuzeybatıda Rage Scar yetileri tepelerdeki mağaraların çevresinde yaşıyor. Herhangi biri kendi görevini başlatan bir {quest:7738} de düşürebilir.",
 	-- {quest:7738} Perfect Yeti Hide
 	["{quest:7738}, a rare drop"] = "{quest:7738}, nadiren düşer",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["You start in {area:75}. Bind here: you hearth back after the coast."] = "{area:75} kasabasında başlıyorsun. Hearthstone'u burada bağla: kıyıdan sonra buraya dönersin.",
-	-- maybe now: ["for the {object:2555} in {area:15}, later in this guide"]
-	-- ["for the {object:2555} in {zone:1445}, later in this guide"] = "{zone:1445} bölgesindeki {object:2555} için, bu rehberin ilerleyen kısmında",
-	-- ["Back east past {area:75}: the Atal'ai artifacts lie in the water and on the banks of the {quest:1424}."] = "Doğuya dön ve {area:75} kasabasını geç: Atal'ai eserleri {quest:1424} gölünün suyunda ve kıyılarında duruyor.",
-	-- ["Monstrous Crawlers"] = "Monstrous Crawler yaratıkları",
-	-- maybe now: ["The snappers line the strand south of the post.\nThe Monstrous Crawlers walk the beaches of the east coast, few and far between: kill every one you see on the way south."]
-	-- ["The Monstrous Crawlers walk the beaches of the east coast, few and far between: kill every one you see on the way south."] = "Monstrous Crawler yaratıkları doğu kıyısının kumsallarında seyrek olarak dolaşıyor: güneye giderken gördüğün her birini öldür.",
-	-- ["The small Horde post on the southern shore."] = "Güney kıyısındaki küçük Horde karakolu.",
-	-- ["The same murlocs again, plus the Oracles, who stay near the huts on the western shore."] = "Yine aynı murloclar, artı batı kıyısındaki kulübelerin yakınında duran Oracle yaratıkları.",
-	-- ["Fly to {object:3202}"] = "{object:3202} kampına uç",
-	-- ["Zeppelin to {zone:1454}"] = "Zeplinle {zone:1454} şehrine",
-	-- ["The zeppelin to {zone:1454} leaves from the tower beside {object:3202}; it lands just north-east of {zone:1454}'s main gate."] = "{zone:1454} zeplini {object:3202} kampının yanındaki kuleden kalkıyor; {zone:1454} ana kapısının hemen kuzeydoğusuna iner.",
-	-- ["Zeppelin tower"] = "Zeplin kulesi",
-	-- ["{object:172958}, then the {object:172960} and the {object:172961}."] = "{object:172958}, sonra {object:172960} ve {object:172961}.",
-	-- ["Your trainer is in {area:1638}: fly there (no flight path there yet? fly to {area:378} and ride west through {zone:1412}), then on to {area:496}."] = "Eğitmenin {area:1638} şehrinde: oraya uç (henüz uçuş noktası yok mu? {area:378} kampına uç ve batıya, {zone:1412} bölgesinden geç), sonra {area:496} köyüne uç.",
-	-- ["{npc:4500} is elite: grouping up is advised. Beat him down until he gives up, then report to {npc:4501}."] = "{npc:4500} elit: grup kurman önerilir. Teslim olana kadar onu döv, sonra {npc:4501} adlı NPC'ye rapor ver.",
-	-- ["{npc:7875}: for {npc:7010} in {zone:1454}, around level 50"] = "{npc:7875}: {zone:1454} şehrindeki {npc:7010} için, seviye 50 civarında",
-	-- ["Ride back east to the camp. Stay here: the next guide starts with the flight to {area:976}."] = "Doğuya, kampa dön. Burada kal: sonraki rehber {area:976} uçuşuyla başlıyor.",
 }

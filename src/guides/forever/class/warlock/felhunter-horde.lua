@@ -53,15 +53,4 @@ return {
 	["Back to {npc:6251} in {area:392}. When you accept, he draws the summoning circle and his acolytes channel a greater circle over it: wait inside the tower until both are done. Then use the {quest:1804} on the circle. The felhunter (level 30, not elite) silences and eats mana, and it vanishes after two minutes: have your voidwalker out, open with your damage over time at once and let the voidwalker tank. If you die or it wins, abandon {quest:1795} and take it again from {npc:6251}. Keep the tome: {npc:6251} takes it back."] = "{area:392} kasabasındaki {npc:6251} yanına dön. Kabul ettiğinde çağırma çemberini çizer ve yardımcıları onun üstüne daha büyük bir çember kanalize eder: ikisi de bitene kadar kulenin içinde bekle. Sonra çemberin üzerinde {quest:1804} kullan. Felhunter (seviye 30, elit değil) susturur ve mana yer, iki dakika sonra kaybolur: voidwalker'ın dışarıda olsun, hemen zamanla hasar büyülerinle başla ve voidwalker tank olsun. Ölürsen ya da o kazanırsa {quest:1795} görevini bırak ve {npc:6251} ile konuşup yeniden al. Kitabı sakla: {npc:6251} geri alır.",
 	-- {quest:1804} Tome of the Cabal
 	["{quest:1804}, on the circle"] = "{quest:1804}, çemberin üzerinde",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["At 30 {npc:5675}, in the {object:36082}, sends you to {npc:6251} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}. Take only one {quest:2996}: if {npc:6251} offers nothing, drop the duplicate from your log."]
-	-- ["At 30 {npc:5675}, in the {object:36082}, sends you to {npc:6251} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}."] = "Seviye 30'da {object:36082} semtindeki {npc:5675}, seni {area:392} kasabasındaki {npc:6251} yanına gönderir. {zone:1420} bölgesinden kalkan zeplin {zone:1411} bölgesine gider.",
-	-- ["Fly to {area:392}; {npc:6251} stands on the hill in town."] = "{area:392} kasabasına uç; {npc:6251} kasabadaki tepede duruyor.",
-	-- ["{npc:6293} stands in the {object:36082}."] = "{npc:6293}, {object:36082} semtinde duruyor.",
-	-- ["The {item:6931} lies on the shore west of {area:271}, past the Torn Fin murloc camps."] = "{item:6931}, {area:271} kasabasının batısında, Torn Fin murloc kamplarının ötesinde kıyıda duruyor.",
-	-- ["The {object:92423} lies in the canyon north of {area:484}."] = "{object:92423}, {area:484} karakolunun kuzeyindeki kanyonda duruyor.",
-	-- ["The Dragonmaw Bonewarders and Shadowwarders hold the hills east of the road through the {zone:1437}: the rods drop from them."] = "Dragonmaw Bonewarder ve Shadowwarder yaratıkları {zone:1437} bölgesinden geçen yolun doğusundaki tepeleri tutuyor: asalar onlardan düşer.",
-	-- ["Back to {npc:6251} in {area:392}. Use the {quest:1804} on the summoning circle beside him and defeat the felhunter to bind it."] = "{area:392} kasabasındaki {npc:6251} yanına dön. Yanındaki çağırma dairesinde {quest:1804} kullan ve bağlamak için felhunter'ı yen.",
-	-- ["{npc:6251}: he binds the felhunter to you"] = "{npc:6251}: felhunter'ı sana bağlar",
 }

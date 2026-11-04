@@ -59,16 +59,4 @@ return {
 	-- Step 9: Forging the Mightstone
 	-- {area:3197} Chillwind Camp · {item:20620} Holy Mightstone · {item:20505} Chivalrous Signet · {item:20504} Lightforged Blade · {item:20512} Sanctified Orb · {area:2279} Stratholme · {area:2057} Scholomance
 	["Back to Ashlam in {area:3197}: he forges the {item:20620}. Look at the reward window before you hand in: Classic also offered the {item:20505}, the {item:20504} or the {item:20512}, and Forever's notes say that choice may be gone. Use the stone before a fight against undead ({area:2279}, {area:2057}): it lasts ten minutes and is gone after one use."] = "{area:3197} kampındaki Ashlam'a dön: {item:20620} taşını döver. Teslim etmeden önce ödül penceresine bak: Classic ayrıca {item:20505}, {item:20504} ya da {item:20512} öneriyordu, Forever'ın notları ise bu seçimin kalkmış olabileceğini söylüyor. Taşı undead'lere karşı bir dövüşten önce kullan ({area:2279}, {area:2057}): on dakika sürer ve bir kullanımda biter.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["A one-use stone that makes you much stronger against undead for 10 minutes; the old item choice may be gone in Forever."]
-	-- ["A one-use stone that makes you much stronger against undead for 10 minutes; the old choice rewards are gone."] = "Seni 10 dakika boyunca undead'lere karşı çok daha güçlü yapan tek kullanımlık bir taş; eski seçmeli ödüller kaldırıldı.",
-	-- ["{npc:928} is in the Cathedral of Light."] = "{npc:928}, Cathedral of Light içinde.",
-	-- ["{npc:5149} is in the {object:32362}."] = "{npc:5149}, {object:32362} semtinde.",
-	-- ["{npc:10838} commands {area:3197} in the south of the {zone:1422}."] = "{npc:10838}, {zone:1422} bölgesinin güneyindeki {area:3197} kampına komuta ediyor.",
-	-- ["The Scourge throughout the {zone:1422} drop Minion's Scourgestones."] = "{zone:1422} bölgesinin her yanındaki Scourge yaratıkları Minion's Scourgestone düşürür.",
-	-- ["{area:1477} lies in the {area:74} in eastern {zone:1435}. Inside, Gasher and {npc:5716} drop the {item:20606}, Hukku and Mijan the Blue, Zolo and Loro the Green."] = "{area:1477}, {zone:1435} bölgesinin doğusundaki {area:74} gölünde. İçeride {item:20606} eşyasını Gasher ve {npc:5716}, mavisini Hukku ve Mijan, yeşilini Zolo ve Loro düşürür.",
-	-- ["{item:20606}, inside"] = "{item:20606}, içeride",
-	-- ["{item:20607}, inside"] = "{item:20607}, içeride",
-	-- ["{item:20608}, inside"] = "{item:20608}, içeride",
 }

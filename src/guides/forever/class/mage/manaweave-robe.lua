@@ -34,7 +34,7 @@ return {
 
 	-- Step 6: Linen Cloth
 	-- {item:2589} Linen Cloth · {area:149} Silver Stream Mine · {object:2096} Trade District
-	["Any humanoid drops {item:2589}, and the Tunnel Rats in the {area:149} drop it while you gather the gems; the Auction House in the {object:2096} sells it. You hand in ten."] = "Her insansı {item:2589} düşürür, {area:149} madenindeki Tunnel Rat'ler de sen mücevherleri toplarken düşürür; {object:2096} semtindeki Auction House da satar. On tane teslim edeceksin.",
+	["Any humanoid drops {item:2589}, and the Tunnel Rats in the {area:149} drop it while you gather the gems; the Auction House in the {object:2096} sells it. You hand in ten."] = "Her insansı {item:2589} düşürür, {area:149} madenindeki Tunnel Rat'ler de sen mücevherleri toplarken düşürür; {object:2096} semtindeki müzayede evi da satar. On tane teslim edeceksin.",
 
 	-- Step 7: The Silver Stream Mine
 	-- {area:149} Silver Stream Mine
@@ -45,12 +45,4 @@ return {
 	-- Step 8: Wynne Larson
 	-- {zone:1453} Stormwind · {npc:1309} Wynne Larson · {object:23296} Larson Clothiers · {object:2101} Mage Quarter
 	["Back to {zone:1453} by the tram. {npc:1309} works at {object:23296} in the {object:2101}."] = "Trenle {zone:1453} şehrine dön. {npc:1309}, {object:2101} semtindeki {object:23296} dükkânında çalışıyor.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["{npc:328} is the {area:87} mage trainer, upstairs in the Lion's Pride Inn."]
-	-- ["{npc:328} is the {area:87} mage trainer."] = "{npc:328}, {area:87} kasabasının Mage eğitmeni.",
-	-- ["{npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}. The {item:7247} and the {item:7308} lie behind her."] = "{npc:5497}, {object:2101} semtinin kulesinde, Wizard's Sanctum içinde duruyor. {item:7247} ve {item:7308} onun arkasında.",
-	-- ["{object:2169} is the tavern in the {object:2101}. Use the {item:7308} inside to make the {npc:6492} visible, subdue one with your spells, then use the {item:7247} to throw down a coffer and capture it."] = "{object:2169}, {object:2101} semtindeki meyhane. {npc:6492} yaratıklarını görünür kılmak için içeride {item:7308} kullan, birini büyülerinle etkisiz hale getir, sonra bir sandık atıp onu yakalamak için {item:7247} kullan.",
-	-- ["Humanoids drop {item:2589}; the Auction House in the {object:2096} sells it."] = "{item:2589} insansı yaratıklardan düşer; {object:2096} semtindeki Auction House da satar.",
-	-- ["Take the {area:2257} to {zone:1455}, then the road east through the South Gate tunnel into {zone:1432}. The dwarven miners' league left the crates in the {area:149} at the north end of the loch; Tunnel Rat troggs hold the mine."] = "{area:2257} treniyle {zone:1455} şehrine git, sonra doğuya giden yoldan South Gate tünelinden geçerek {zone:1432} bölgesine gir. Cüce madenciler birliği sandıkları gölün kuzey ucundaki {area:149} madeninde bıraktı; madeni Tunnel Rat troggları tutuyor.",
 }

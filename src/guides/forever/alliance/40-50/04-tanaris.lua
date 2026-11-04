@@ -155,29 +155,4 @@ return {
 
 	-- Step 32: Sprinkle's Secret Ingredient
 	["Underwater"] = "Su altında",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["From the {area:1108} dock, boat to Feathermoon and fly to {area:489}, then ride east through {zone:1441} to the {area:2240} on the {area:439}. {npc:4454} and {npc:4630} are in the camps beside the track; {npc:4709} stands by the goblin camp."] = "{area:1108} iskelesinden gemiyle Feathermoon'a geç ve {area:489} karakoluna uç, sonra doğuya, {zone:1441} bölgesinden geçerek {area:439} düzlüklerindeki {area:2240} pistine git. {npc:4454} ve {npc:4630} pistin yanındaki kamplarda; {npc:4709} goblin kampının yanında duruyor.",
-	-- ["Rizzle's plans"] = "Rizzle'ın planları",
-	-- ["While {npc:4709} keeps Rizzle talking, his plans lie unguarded in the gnome camp across the track."] = "{npc:4709} Rizzle'ı lafa tutarken planları pistin karşısındaki gnom kampında korumasız duruyor.",
-	-- maybe now: ["Ride south-east off the {area:439} into {area:440}. {area:976} is just inside the border."]
-	-- ["Ride south-east off the {area:439} into {zone:1446}. {area:976} is just inside the border."] = "{area:439} düzlüklerinden güneydoğuya, {zone:1446} bölgesine geç. {area:976} sınırın hemen içinde.",
-	-- maybe now: ["{npc:7881}, in the port's tavern; inside"]
-	-- ["{npc:7881}, in the port's tavern"] = "{npc:7881}, limanın meyhanesinde",
-	-- maybe now: ["Follow the coast south to the pirate cove. Southsea pirates crowd the beach and the boats: work along the edge and pull one at a time. {npc:7883} stands on the far side; {npc:7881}'s stolen cargo lies in the camp.\nCareful: Two or three pirates stand with {npc:7883}, and many more pirates from the town join the fight once it starts."]
-	-- ["Follow the coast south to the pirate cove. Southsea pirates crowd the beach and the boats: work along the edge and pull one at a time. {npc:7883} stands on the far side; {npc:7881}'s stolen cargo lies in the camp."] = "Kıyıyı güneye izleyerek korsan koyuna git. Kumsal ve tekneler Southsea korsanlarıyla dolu: kenardan ilerle ve tek tek çek. {npc:7883} uzak tarafta duruyor; {npc:7881} adlı NPC'nin çalınan yükü kampta.",
-	-- ["Wastewander bandits"] = "Wastewander haydutları",
-	-- maybe now: ["Ride back west toward {area:976}. The Wastewander bandits and thieves hold the dunes on the way; any of them can carry a water pouch.\nCareful: Wastewander Rogues (level 43-44) move stealthed, so they can approach unseen."]
-	-- ["Ride back west toward {area:976}. The Wastewander bandits and thieves hold the dunes on the way; any of them can carry a water pouch."] = "Batıya, {area:976} yönüne dön. Yoldaki kum tepelerini Wastewander haydutları ve hırsızları tutuyor; herhangi biri bir su kesesi taşıyor olabilir.",
-	-- maybe now: ["The tougher Wastewander rogues, shadow mages and assassins camp south-east of {area:976}, south of the bandits. Leave {npc:7847} in the middle of the southern camp for later.\nCareful: Wastewander Rogues keep Sneak up while out of combat, so hidden rogues can join a fight you start at a camp."]
-	-- ["The tougher Wastewander rogues, shadow mages and assassins camp south-east of {area:976}, south of the bandits. Leave {npc:7847} in the middle of the southern camp for later."] = "Daha güçlü Wastewander Rogue, Shadow Mage ve Assassin yaratıkları {area:976} kasabasının güneydoğusunda, haydutların güneyinde kamp kurmuş. Güney kampının ortasındaki {npc:7847} adlı NPC'yi sonraya bırak.",
-	-- ["Ride north-west to the Centipaar hive in the dunes. Any Centipaar can drop insect parts."] = "Kuzeybatıya, kum tepelerindeki Centipaar kovanına git. Herhangi bir Centipaar böcek parçası düşürebilir.",
-	-- maybe now: ["Ride south into {quest:3362}. The Dew Collectors drop the glands; only some are full, so keep the Laden one. Gnarled Thistleshrubs and Rootshapers share the valley. The Thistleshrubs are 48-50, above you: pull one at a time.\nCareful: The other thistleshrub mobs in the area are level 49-50 and wander a lot, so you can easily pull extra mobs."]
-	-- ["Ride south into {quest:3362}. The Dew Collectors drop the glands; only some are full, so keep the Laden one. Gnarled Thistleshrubs and Rootshapers share the valley. The Thistleshrubs are 48-50, above you: pull one at a time."] = "Güneye, {quest:3362} vadisine git. Bezleri Thistleshrub Dew Collector yaratıkları düşürür; yalnızca bazıları dolu, dolu (Laden) olanı sakla. Gnarled Thistleshrub ve Thistleshrub Rootshaper yaratıkları da vadide. Thistleshrub yaratıkları 48-50 seviyesinde, senden yüksek: tek tek çek.",
-	-- maybe now: ["{npc:7583}'s next ingredient grows in the {area:47}, and the route never brings it back: skip it."]
-	-- ["{npc:7583}'s next ingredient grows in the {zone:1425}, and the route never brings it back: skip it."] = "{npc:7583} adlı NPC'nin sonraki malzemesi {zone:1425} bölgesinde yetişiyor ve rota onu geri getirmiyor: atla.",
-	-- ["Ride south-east to {area:985}. {npc:7847} stands in the middle of the southern Wastewander camp: clear around him first."] = "Güneydoğuya, {area:985} alanına git. {npc:7847} güneydeki Wastewander kampının ortasında duruyor: önce çevresini temizle.",
-	-- ["Ride south past the {area:1938} to the {area:981}, the Hazzali tunnels; Scrimshank's gear lies deep inside."] = "Güneye, {area:1938} yanından geçerek Hazzali tünelleri {area:981} içine git; Scrimshank'in eşyaları derinlerde.",
-	-- ["Fly from {area:976} to Theramore, take the boat to {area:150} and fly to {area:1537}. Train."] = "{area:976} kasabasından Theramore'a uç, gemiyle {area:150} limanına geç ve {area:1537} şehrine uç. Eğitimini al.",
-	-- ["Fly to {area:348}. {zone:1425} guide starts here."] = "{area:348} yuvasına uç. {zone:1425} rehberi burada başlıyor.",
 }

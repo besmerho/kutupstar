@@ -193,27 +193,4 @@ return {
 	-- Step 43: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
 	["Level 22 and 24 spells"] = "Seviye 22 ve 24 büyüleri",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["Follow the road south from {area:1002} into {area:10}; {area:42} lies on the east side of the forest."]
-	-- ["Follow the road south from {area:1002} into {zone:1431}; {area:42} lies on the east side of the forest."] = "Yolu izleyerek {area:1002} kavşağından güneye, {zone:1431} bölgesine git; {area:42} ormanın doğu yakasında.",
-	-- maybe now: ["{npc:265}, in her house by the tavern; inside"]
-	-- ["{npc:265}, in her house by the tavern"] = "{npc:265}, meyhanenin yanındaki evinde",
-	-- maybe now: ["{npc:633}, at the south end of town; inside"]
-	-- ["{npc:633}, at the south end of town"] = "{npc:633}, kasabanın güney ucunda",
-	-- maybe now: ["No {item:4371} for {quest:174}? {npc:3133} sells it in the house beside {npc:276}, in limited stock; {npc:1448} in {area:150} sells it too.\n{npc:276}'s house stands at the east end of town. {npc:3133} sells engineering goods in the house beside it."]
-	-- ["{npc:276}'s house stands at the east end of town. {npc:3133} sells engineering goods in the house beside it."] = "{npc:276} adlı NPC'nin evi kasabanın doğu ucunda. {npc:3133} yanındaki evde Engineering malzemeleri satıyor.",
-	-- maybe now: ["Skeletal Warriors and Skeletal Mages walk among the graves south-east of {area:42}, below {npc:302}'s house on the hill. Every skeleton in {area:10} can drop a {item:2378}.\nCareful: Because the skeletons stand near each other, running straight in tends to pull several at once."]
-	-- ["Skeletal Warriors and Skeletal Mages walk among the graves south-east of {area:42}, below {npc:302}'s house on the hill. Every skeleton in {zone:1431} can drop a {item:2378}."] = "Skeletal Warrior ve Skeletal Mage yaratıkları {area:42} kasabasının güneydoğusunda, tepedeki {npc:302} evinin aşağısında, mezarların arasında dolaşıyor. {zone:1431} bölgesindeki her iskelet {item:2378} düşürebilir.",
-	-- maybe now: ["{quest:337}: a rare drop from {area:10}'s mobs"]
-	-- ["{quest:337}: a rare drop from {zone:1431}'s mobs"] = "{quest:337}: {zone:1431} bölgesindeki yaratıklardan nadiren düşer",
-	-- ["{area:492}, south"] = "{area:492}, güney",
-	-- ["Wolves, spiders and ghouls"] = "Kurtlar, örümcekler ve ghoul yaratıkları",
-	-- maybe now: ["Rabid Dire Wolves roam the woods around the cemetery and {npc:289}, Starving Dire Wolves the hills north-east of him. Pygmy Venom Web Spiders crawl east of the cemetery and drop the venom. Every ghoul of the cemetery's northern half can drop a fang.\nCareful: Wolves and other spider types share the area along the {area:40} border, so you can easily pull several mobs at once."]
-	-- ["Rabid Dire Wolves roam the woods around the cemetery and {npc:289}, Starving Dire Wolves the hills north-east of him. Pygmy Venom Web Spiders crawl east of the cemetery and drop the venom. Every ghoul of the cemetery's northern half can drop a fang."] = "Rabid Dire Wolf yaratıkları mezarlığın ve {npc:289} adlı NPC'nin çevresindeki ormanda, Starving Dire Wolf yaratıkları ise onun kuzeydoğusundaki tepelerde dolaşıyor. Pygmy Venom Web Spider yaratıkları mezarlığın doğusunda geziniyor ve zehri düşürüyor. Mezarlığın kuzey yarısındaki her ghoul bir diş düşürebilir.",
-	-- maybe now: ["Every ghoul of the {area:492}'s northern half can drop a rib: Flesh Eaters, Bone Chewers, Plague Spreaders and Brain Eaters.\nCareful: A {npc:948} casts {spell:3428} as it dies, which brings extra adds."]
-	-- ["Every ghoul of the {area:492}'s northern half can drop a rib: Flesh Eaters, Bone Chewers, Plague Spreaders and Brain Eaters."] = "{area:492} mezarlığının kuzey yarısındaki her ghoul bir kaburga düşürebilir: Flesh Eater, Bone Chewer, Plague Spreader ve Brain Eater yaratıkları.",
-	-- maybe now: ["Head west along the road out of {area:94} into {area:40}. {npc:7024} watches {npc:7053}'s tower from the hills just inside the border. The {npc:7051} (level 23) guarding the tower carries its key; Klaven's journal is in the chest at the top."]
-	-- ["Head west along the road out of {area:94} into {zone:1436}. {npc:7024} watches {npc:7053}'s tower from the hills just inside the border. The {npc:7051} (level 23) guarding the tower carries its key; Klaven's journal is in the chest at the top."] = "Yol boyunca batıya, {area:94} köyünden çıkarak {zone:1436} bölgesine git. {npc:7024}, sınırın hemen içindeki tepelerden {npc:7053} kulesini gözlüyor. Kuleyi koruyan {npc:7051} (seviye 23) kulenin anahtarını taşıyor; Klaven'in günlüğü tepedeki sandıkta.",
-	-- ["Train in {zone:1453}, north through {zone:1429}. Then take the boat from {area:17203} to {area:442}."] = "{zone:1429} bölgesinden kuzeye geçip {zone:1453} şehrinde eğitimini al. Sonra {area:17203} limanından {area:442} gemisine bin.",
 }

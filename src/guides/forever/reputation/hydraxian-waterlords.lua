@@ -92,18 +92,4 @@ return {
 	["{area:2717} to Exalted"] = "{area:2717}: Exalted itibarına kadar",
 	-- {npc:11988} Golemagg the Incinerator · {npc:11502} Ragnaros
 	["Revered to Exalted is 21,000 reputation. The trash has stopped, but all nine bosses still pay while you are Revered: 100 each from the seven, 150 from {npc:11988} and 200 from {npc:11502}, 1,050 a clear: about 20 clears. The seven stop at 20,999 of 21,000 Revered, so the last point comes from {npc:11988} or {npc:11502}, and from Exalted on only those two pay."] = "Revered'dan Exalted'a 21.000 itibar. Sıradan yaratıklar durdu, ama Revered iken dokuz boss'un hepsi hâlâ öder: yedisinden her biri 100, {npc:11988} yaratığından 150 ve {npc:11502} yaratığından 200, temizleme başına 1.050: yaklaşık 20 temizleme. Yedisi Revered'ın 21.000'inin 20.999'unda durur, bu yüzden son puan {npc:11988} ya da {npc:11502} yaratığından gelir, Exalted'dan itibaren de yalnızca o ikisi öder.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["{npc:13278} stands on a small island off the eastern coast of {zone:1447}; swim or walk the shallows out to him. The {faction:749} start out Neutral. Forever's Legacy Diplomat perk increases reputation gains."] = "{npc:13278}, {zone:1447} bölgesinin doğu kıyısı açığında küçük bir adada duruyor; ona yüzerek ya da sığlıklardan yürüyerek git. {faction:749} Neutral başlar. Forever'ın Legacy Diplomat ayrıcalığı itibar kazancını artırır.",
-	-- ["Dust Stormers and Desert Rumblers"] = "Dust Stormer ve Desert Rumbler yaratıkları",
-	-- ["Both elementals roam north-western {zone:1451}; the Rumblers cluster a little further north."] = "İki elemental de {zone:1451} bölgesinin kuzeybatısında dolaşıyor; Rumbler'lar biraz daha kuzeyde toplanıyor.",
-	-- ["Use the {item:17310} on the poisoned water elementals of {zone:1423}, then loot their {item:17309} (12)."] = "{zone:1423} bölgesinin zehirlenmiş su elementalleri üzerinde {item:17310} kullan, sonra {item:17309} eşyalarını loot et (12).",
-	-- ["{npc:9816} in Upper Blackrock Spire drops the {quest:6821}. This needs a raid group."] = "{quest:6821} eşyasını Upper Blackrock Spire içindeki {npc:9816} düşürür. Bunun için raid grubu gerekir.",
-	-- ["Kill a {npc:11668}, a {npc:11658}, an {npc:11673} and a {npc:12101} in the {area:2717}. Every {area:2717} elemental and boss also counts toward the Waterlords."] = "{area:2717} içinde bir {npc:11668}, bir {npc:11658}, bir {npc:11673} ve bir {npc:12101} öldür. Her {area:2717} elementali ve boss'u Waterlords itibarına da sayılır.",
-	-- ["{quest:6823} needs Honored. At Honored, {npc:13278} hands out {item:17333}, used to douse the runes in the {area:2717} that summon {npc:12018}; at Revered, the reusable {item:22754}."] = "{quest:6823} Honored gerektirir. Honored'da {npc:13278}, {area:2717} içinde {npc:12018} yaratığını çağıran rünleri söndürmekte kullanılan {item:17333} verir; Revered'da ise yeniden kullanılabilir {item:22754}.",
-	-- ["Bring the Hands of Lucifron, Gehennas, Shazzrah and Sulfuron from the {area:2717}."] = "{area:2717} içinden Lucifron, Gehennas, Shazzrah ve Sulfuron'un ellerini getir.",
-	-- ["{faction:749} to Revered"] = "{faction:749}: Revered olana kadar",
-	-- ["{area:2717} clears carry the rest. Bosses always count; in Classic, trash kills stop giving Waterlords reputation partway up, so late on the bosses do the work."] = "Gerisini {area:2717} temizlikleri taşır. Boss'lar her zaman sayılır; Classic'te sıradan yaratık öldürmeleri bir noktadan sonra Waterlords itibarı vermeyi keser, yani ilerleyen aşamada işi boss'lar görür.",
-	-- ["{faction:749} to Exalted"] = "{faction:749}: Exalted olana kadar",
-	-- ["Keep clearing the {area:2717} until Exalted."] = "Exalted olana kadar {area:2717} temizlemeye devam et.",
 }

@@ -60,16 +60,4 @@ return {
 	-- Step 12: Back to Syurna
 	-- {npc:4163} Syurna
 	["Back to {npc:4163}"] = "{npc:4163} yanına dön",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["At 10 {npc:917}, the rogue trainer upstairs in the Lion's Pride Inn in {area:87}, gives you a package for {npc:332} in {zone:1453}. Train {spell:921} if you lack it: this chain needs it."]
-	-- ["At 10 {npc:917}, the rogue trainer in the Lion's Pride Inn in {area:87}, gives you a package for {npc:332} in {zone:1453}."] = "Seviye 10'da {area:87} kasabasındaki Lion's Pride Inn'de bulunan Rogue eğitmeni {npc:917}, sana {zone:1453} şehrindeki {npc:332} için bir paket verir.",
-	-- ["Head north to {zone:1453}; Mathias Shaw is at SI:7 in {object:2100}."] = "Kuzeye, {zone:1453} şehrine git; Mathias Shaw {object:2100} semtindeki SI:7'de.",
-	-- ["The {npc:6846} stands by the river at Elwynn's southern edge, south of {area:87}. He carries the shipping schedule."] = "{npc:6846}, Elwynn'in güney ucunda, {area:87} kasabasının güneyinde nehrin kenarında duruyor. Sevkiyat çizelgesi onda.",
-	-- ["{npc:5165} stands in the north of {zone:1455}."] = "{npc:5165}, {zone:1455} şehrinin kuzeyinde duruyor.",
-	-- ["{npc:6886} waits near {area:133}, in western {zone:1426}."] = "{npc:6886}, {zone:1426} bölgesinin batısında, {area:133} yakınında bekliyor.",
-	-- maybe now: ["At 10 {npc:3599}, the rogue trainer in the {area:186} inn, gives you a rose for {npc:4163} in {zone:1457}. If you lose the rose, abandon the quest and take it again."]
-	-- ["At 10 {npc:3599}, the rogue trainer in {area:186}, gives you a rose for {npc:4163} in {zone:1457}."] = "Seviye 10'da {area:186} köyündeki Rogue eğitmeni {npc:3599}, sana {zone:1457} şehrindeki {npc:4163} için bir gül verir.",
-	-- ["Head west to {zone:1457}. {npc:4163} stands in the north-west of the city."] = "Batıya, {zone:1457} şehrine git. {npc:4163} şehrin kuzeybatısında duruyor.",
-	-- ["{npc:6909} lives in the north of {zone:1438}, north-east of {zone:1457}. Take his journal."] = "{npc:6909}, {zone:1438} bölgesinin kuzeyinde, {zone:1457} şehrinin kuzeydoğusunda yaşıyor. Günlüğünü al.",
 }

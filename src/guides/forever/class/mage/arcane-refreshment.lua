@@ -23,8 +23,4 @@ return {
 	["Back to Lydros"] = "Lydros'a dön",
 	-- {npc:14368} Lorekeeper Lydros · {spell:10140} Conjure Water
 	["{npc:14368}: {spell:10140}, and 200 Shen'dralar reputation"] = "{npc:14368}: {spell:10140} ve 200 Shen'dralar itibarı",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Fly to Feathermoon (Alliance) or {area:1099} (Horde) and ride to {area:2577} in central {zone:1444}. {npc:14368} waits in the Athenaeum, the library, reached through the West wing (or the North wing with a {item:18249})."] = "Feathermoon'a (Alliance) ya da {area:1099} kampına (Horde) uç ve {zone:1444} bölgesinin ortasındaki {area:2577} zindanına git. {npc:14368}, Batı kanadından (ya da {item:18249} ile Kuzey kanadından) ulaşılan kütüphane Athenaeum'da bekliyor.",
-	-- ["Hydrospawn, a water elemental, lives in the Warpwood Quarter (Dire Maul East): chase the imp Pusillin until he turns to fight, clear the satyr room, then take the spiral ramp down to the pool."] = "Bir su elementali olan Hydrospawn, Warpwood Quarter'da (Dire Maul East) yaşıyor: imp Pusillin dönüp dövüşene kadar onu kovala, satir odasını temizle, sonra sarmal rampadan havuza in.",
 }

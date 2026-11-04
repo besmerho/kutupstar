@@ -199,7 +199,7 @@ return {
 	["{item:15851} and {item:2449}"] = "{item:15851} ve {item:2449}",
 	-- {area:442} Auberdine · {item:2449} Earthroot · {skill:182} Herbalism · {zone:1439} Darkshore · {zone:1453} Stormwind · {npc:1313} Maria Lumere
 	-- plural, as words: Lunar Fungal Blooms = {object:177750} Lunar Fungal Bloom
-	["The Lunar Fungal Blooms grow in the moonkin caves in the hills just east of {area:442}; the moonkin there are irritable. {item:2449} needs {skill:182}: herbalists pick it all over {zone:1439}, anyone else brings it from {zone:1453} ({npc:1313}) or the Auction House."] = "Lunar Fungal Bloom mantarları {area:442} kasabasının hemen doğusundaki tepelerde, moonkin mağaralarında yetişiyor; oradaki moonkin yaratıkları huysuzdur. {item:2449} için {skill:182} gerekir: Herbalism yapanlar onu {zone:1439} bölgesinin her yerinde toplar, diğerleri {zone:1453} şehrinden ({npc:1313}) ya da Auction House'tan getirir.",
+	["The Lunar Fungal Blooms grow in the moonkin caves in the hills just east of {area:442}; the moonkin there are irritable. {item:2449} needs {skill:182}: herbalists pick it all over {zone:1439}, anyone else brings it from {zone:1453} ({npc:1313}) or the Auction House."] = "Lunar Fungal Bloom mantarları {area:442} kasabasının hemen doğusundaki tepelerde, moonkin mağaralarında yetişiyor; oradaki moonkin yaratıkları huysuzdur. {item:2449} için {skill:182} gerekir: Herbalism yapanlar onu {zone:1439} bölgesinin her yerinde toplar, diğerleri {zone:1453} şehrinden ({npc:1313}) ya da müzayede evinden getirir.",
 
 	-- Step 40: The Grove of the Ancients
 	-- {quest:952} Grove of the Ancients
@@ -343,20 +343,4 @@ return {
 	-- Step 69: To Darnassus
 	-- {npc:4217} Mathrengyl Bearwalker · {area:442} Auberdine · {zone:1453} Stormwind
 	["Take the portal up to {npc:4217}, then fly back to {area:442} for the boat to {zone:1453}."] = "Portalla yukarı, {npc:4217} yanına çık; sonra {zone:1453} gemisi için {area:442} kasabasına geri uç.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["Thresher Eyes; underwater"]
-	-- ["Thresher Eyes"] = "Thresher Eye",
-	-- maybe now: ["{item:12289}, on the beach west of the docks; underwater"]
-	-- ["{item:12289}, on the beach west of the docks"] = "{item:12289}, iskelelerin batısındaki kumsalda",
-	-- ["The {area:448}"] = "{area:448} korusu",
-	-- maybe now: ["Two wrecks lie on the sea floor in the bay north of {area:442}; each holds a lockbox. Reef Crawlers and Encrusted Tide Crawlers line this shore.\nCareful: The murlocs inside the wrecks are close together and fast. They often swim through the hull walls and holes, so you will usually pull extra murlocs."]
-	-- ["Two wrecks lie on the sea floor in the bay north of {area:442}; each holds a lockbox. Reef Crawlers and Encrusted Tide Crawlers line this shore."] = "{area:442} kasabasının kuzeyindeki körfezde, deniz dibinde iki batık var; her birinde bir kilitli kutu duruyor. Bu kıyı boyunca Reef Crawler ve Encrusted Tide Crawler yaratıkları diziliyor.",
-	-- ["Scaber Stalks"] = "Scaber Stalk",
-	-- maybe now: ["{quest:948} is the ancient at the Grove; {npc:270269} and {npc:11218} sleep beside him."]
-	-- ["Follow the road south. {quest:948} is the ancient at the Grove; {npc:270269} and {npc:11218} sleep beside him."] = "Yolu güneye izle. {quest:948}, korudaki kadim ağaç; {npc:270269} ve {npc:11218} onun yanında uyuyor.",
-	-- ["{area:450} lies on the coast south of {npc:10323}'s beach. Protect the prospector while he searches for the fossil."] = "{area:450}, {npc:10323} kumsalının güneyinde, kıyıda. Fosili ararken maden arayıcısını koru.",
-	-- ["Hearthstone on cooldown? Follow the coast road back south."] = "Hearthstone bekleme süresinde mi? Sahil yolunu güneye izleyerek dön.",
-	-- ["Boat to {zone:1453}"] = "Gemiyle {zone:1453} şehrine",
-	-- ["Back to {npc:11802} in {area:2361}, then fly to {area:702} (by way of {area:442})."] = "{area:2361} köyündeki {npc:11802} yanına dön, sonra {area:702} köyüne uç ({area:442} üzerinden).",
 }

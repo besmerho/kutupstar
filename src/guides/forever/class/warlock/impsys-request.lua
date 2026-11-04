@@ -25,7 +25,7 @@ return {
 
 	-- Step 5: Felcloth
 	-- {item:14256} Felcloth · {zone:1448} Felwood · {quest:8419} An Imp's Request · {npc:14470} Impsy · {quest:8420} Hot and Itchy
-	["One {item:14256}: the Jadefire satyrs of {zone:1448} drop it about one kill in fourteen, and so do the Legashi satyrs and the Felguard Sentries you hunt for Niby's essences. Quicker: buy one at the Auction House. You need it for the trainer's {quest:8419} or for {npc:14470}'s own {quest:8420}, the same errand: whichever you hold."] = "Bir {item:14256}: {zone:1448} bölgesinin Jadefire satyr'ları yaklaşık on dört öldürmede bir düşürür, Niby'nin özleri için avladığın Legashi satyr'ları ve Felguard Sentry'ler de öyle. Daha hızlısı: Auction House'dan bir tane al. Eğitmenin {quest:8419} görevi ya da {npc:14470} kendi {quest:8420} görevi için gerekiyor, ikisi aynı iş: hangisi sendeyse.",
+	["One {item:14256}: the Jadefire satyrs of {zone:1448} drop it about one kill in fourteen, and so do the Legashi satyrs and the Felguard Sentries you hunt for Niby's essences. Quicker: buy one at the Auction House. You need it for the trainer's {quest:8419} or for {npc:14470}'s own {quest:8420}, the same errand: whichever you hold."] = "Bir {item:14256}: {zone:1448} bölgesinin Jadefire satyr'ları yaklaşık on dört öldürmede bir düşürür, Niby'nin özleri için avladığın Legashi satyr'ları ve Felguard Sentry'ler de öyle. Daha hızlısı: müzayede evinden bir tane al. Eğitmenin {quest:8419} görevi ya da {npc:14470} kendi {quest:8420} görevi için gerekiyor, ikisi aynı iş: hangisi sendeyse.",
 
 	-- Step 6: Impsy
 	-- {npc:14470} Impsy · {npc:14469} Niby the Almighty · {area:1997} Bloodvenom Post · {area:1765} Bloodvenom Falls · {quest:8419} An Imp's Request · {item:20613} Rotting Wood · {item:20614} Bloodvenom Essence
@@ -64,18 +64,4 @@ return {
 	-- Step 11: Trolls of a Feather
 	-- {item:20536} Soul Harvester · {item:20534} Abyss Shard · {item:20530} Robes of Servitude
 	["Choose the {item:20536} (staff), the {item:20534} (off-hand) or the {item:20530}."] = "{item:20536} (asa), {item:20534} (yan el) ya da {item:20530} seç.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["At 50 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:14470} in {zone:1448} with a piece of {item:14256}."]
-	-- ["At 50 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:14470} in {zone:1448}."] = "Seviye 50'de {object:2101} semtindeki {object:2164} içinde bulunan {npc:461}, seni {zone:1448} bölgesindeki {npc:14470} yanına gönderir.",
-	-- maybe now: ["At 50 {npc:5172} in {zone:1455} sends you to {npc:14470} in {zone:1448} with a piece of {item:14256}."]
-	-- ["At 50 {npc:5172} in {zone:1455} sends you to {npc:14470} in {zone:1448}."] = "Seviye 50'de {zone:1455} şehrindeki {npc:5172}, seni {zone:1448} bölgesindeki {npc:14470} yanına gönderir.",
-	-- maybe now: ["At 50 {npc:3326} in the {object:172960} sends you to {npc:14470} in {zone:1448} with a piece of {item:14256}."]
-	-- ["At 50 {npc:3326} in the {object:172960} sends you to {npc:14470} in {zone:1448}."] = "Seviye 50'de {object:172960} içindeki {npc:3326}, seni {zone:1448} bölgesindeki {npc:14470} yanına gönderir.",
-	-- maybe now: ["At 50 {npc:4563} in the {object:36082} sends you to {npc:14470} in {zone:1448} with a piece of {item:14256}."]
-	-- ["At 50 {npc:4563} in the {object:36082} sends you to {npc:14470} in {zone:1448}."] = "Seviye 50'de {object:36082} semtindeki {npc:4563}, seni {zone:1448} bölgesindeki {npc:14470} yanına gönderir.",
-	-- ["{npc:14470} wants one {item:14256}: the Jadefire satyrs and the demons of {area:1763} drop it."] = "{npc:14470} bir {item:14256} istiyor: Jadefire satirleri ve {area:1763} iblisleri düşürür.",
-	-- ["{npc:14470} waits beside {npc:14469} in central {zone:1448}, just east of {area:1763}. This chain is {npc:14470}'s own and is not part of the Dreadsteed chain; Niby and {npc:14470} also give the {item:18762} chain here."] = "{npc:14470}, {zone:1448} bölgesinin ortasında, {area:1763} tapınağının hemen doğusunda {npc:14469} adlı NPC'nin yanında bekliyor. Bu zincir {npc:14470} adlı NPC'nin kendisine ait, Dreadsteed zincirinin parçası değil; Niby ve {npc:14470} burada {item:18762} zincirini de veriyor.",
-	-- ["The Irontree treants in northern {zone:1448} drop the {item:20613}; the Tainted Oozes around {area:1763} the {item:20614}."] = "{item:20613} eşyasını {zone:1448} bölgesinin kuzeyindeki Irontree treantları, {item:20614} eşyasını {area:1763} çevresindeki Tainted Ooze yaratıkları düşürür.",
-	-- ["The six troll guardians of the {area:1417}, a level 50 dungeon, each drop a Voodoo Feather: bring a group of five. The temple stands in the middle of the {area:74}; swim down into it to reach the entrance."] = "Seviye 50 bir zindan olan {area:1417} içindeki altı troll muhafızın her biri bir Voodoo Feather düşürür: beş kişilik bir grup getir. Tapınak {area:74} gölünün ortasında; girişe ulaşmak için içine dalarak in.",
 }

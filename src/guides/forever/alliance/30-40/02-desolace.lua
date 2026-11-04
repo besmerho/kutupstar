@@ -86,13 +86,4 @@ return {
 	["From {area:415} head north-west into the hills: the {quest:1738} is a glowing tree north of the road to {area:413}. If you took {quest:65602}, the {item:190309} lies in a house among the trees north of {area:413} (26.6,22.0). Then back past {area:415} to the {area:1276}."] = "{area:415} kasabasından kuzeybatıya, tepelere git: {quest:1738}, {area:413} karakoluna giden yolun kuzeyindeki parlayan bir ağaç. {quest:65602} görevini aldıysan {item:190309}, {area:413} karakolunun kuzeyinde ağaçların arasındaki bir evde (26.6,22.0). Sonra {area:415} kasabasını geçerek {area:1276} tüneline dön.",
 	-- {item:190309} Wooden Figurine · {area:413} Maestra's Post
 	["{item:190309}, north of {area:413}"] = "{item:190309}, {area:413} karakolunun kuzeyinde",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["From {zone:1455}'s {npc:1573}"] = "{zone:1455} şehrindeki {npc:1573} adlı NPC'den",
-	-- ["Take the boat to {area:442} from Menethil's docks."] = "Menethil iskelesinden {area:442} gemisine bin.",
-	-- ["From {area:415} head south-west to the {area:1276}, a tunnel through the mountains into Stonetalon."] = "{area:415} kasabasından güneybatıya, dağların içinden Stonetalon'a geçen {area:1276} tüneline git.",
-	-- ["The Hatefury satyrs hold the ruins of {area:603}, east of {area:608}."] = "Hatefury satirleri {area:608} karakolunun doğusundaki {area:603} harabelerini tutuyor.",
-	-- ["The Gizelton Caravan waits at {area:2407}."] = "Gizelton Caravan, {area:2407} kulübesinde bekliyor.",
-	-- ["Escort the caravan"] = "Kervana eşlik et",
-	-- ["Walk with the caravan south past {area:609}; Kolkar ambushers jump it on the way. Stay close until it stops at {area:2617}. The ambushers are 34-35 and come in waves: skip it if you are below 33."] = "Kervanla birlikte güneye, {area:609} köyünü geçerek yürü; yolda Kolkar pusucuları saldırır. {area:2617} kampında durana kadar yakınında kal. Pusucular 34-35 seviyesinde ve dalgalar halinde gelir: 33'ün altındaysan atla.",
 }

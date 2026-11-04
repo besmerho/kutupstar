@@ -111,15 +111,4 @@ return {
 	-- Step 18: Wolfsbane
 	-- {npc:259620} Lumina Windsinger · {area:228} Sepulcher · {item:268484} Moonsilver Blade · {item:267369} Wolfsbane
 	["Back to {npc:259620} in the {area:228} with the {item:268484} (the quest asks for it): she takes it and blesses it with the magic of her people into {item:267369}."] = "{item:268484} ile {area:228} kasabasındaki {npc:259620} yanına dön (görev onu istiyor): kılıcı alır ve halkının büyüsüyle kutsayarak {item:267369} yapar.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Rescuing {quest:91862}"] = "{quest:91862} kurtarılıyor",
-	-- ["No item yet: a Forsaken paladin rescue story; its sequel, the {item:268484}, cannot be finished yet."] = "Henüz eşya yok: bir Forsaken Paladin kurtarma hikâyesi; devamı olan {item:268484} henüz bitirilemiyor.",
-	-- ["{zone:1458} and Earthen Ring reputation"] = "{zone:1458} ve Earthen Ring itibarı",
-	-- ["{npc:246378} leads the Paladins of Tyr's Watch from inside {area:16602}, on the bluffs north-west of the {area:156}."] = "{npc:246378}, Tyr's Watch Paladin'lerini {area:156} çiftliğinin kuzeybatısındaki yamaçlarda, {area:16602} içinden yönetiyor.",
-	-- ["Head south through {zone:1421} to the {area:228}. {npc:248840} stands in the town; {npc:259611} keeps watch near its entrance."] = "{zone:1421} bölgesinden güneye, {area:228} kasabasına git. {npc:248840} kasabada duruyor; {npc:259611} girişinin yakınında nöbet tutuyor.",
-	-- ["{area:172} lies in the lake east of the {area:228}. The charred remains are on its shore."] = "{area:172}, {area:228} kasabasının doğusundaki gölde. Kömürleşmiş kalıntılar kıyısında.",
-	-- ["{quest:91862} is caged inside {area:235}, at the north end of the isle. The Rot Hide gnolls around her carry the key."] = "{quest:91862}, adanın kuzey ucundaki {area:235} kalesinin içinde kafeste. Anahtar çevresindeki Rot Hide gnollarında.",
-	-- ["Free her with the key, then stay close while she fights her way out of the keep."] = "Anahtarla onu serbest bırak, sonra kaleden dövüşerek çıkarken yakınında kal.",
-	-- ["Once she is clear of {area:235}, {npc:259620} waits for you in the {area:228}. Speak with her again to hear what really happened on the road."] = "{area:235} kalesinden kurtulunca {npc:259620} seni {area:228} kasabasında bekler. Yolda gerçekte ne olduğunu duymak için onunla yeniden konuş.",
 }

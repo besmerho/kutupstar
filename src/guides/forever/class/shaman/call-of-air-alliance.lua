@@ -65,17 +65,4 @@ return {
 	["{npc:6176} camps in the ruins in the east of {zone:1416}: from {area:272} follow the river east of town north into the hills. Pick your weapon: {item:280607}, {item:280605} or {item:280604}."] = "{npc:6176}, {zone:1416} bölgesinin doğusundaki harabelerde kamp kurmuş: {area:272} kasabasından kasabanın doğusundaki nehri kuzeye, tepelere izle. Silahını seç: {item:280607}, {item:280605} ya da {item:280604}.",
 	-- {npc:6176} Bath'rah the Windwatcher · {item:280696} Elementalist's Guard
 	["{npc:6176}: the {item:280696} and your weapon"] = "{npc:6176}: {item:280696} ve silahın",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["At 30 {npc:258098}, the shaman trainer in {zone:1455}, sends you to {npc:259023} in {zone:1417}. Your level 30 air totems (Grounding, {spell:10596}) need the {item:5178} he gives."]
-	-- ["At 30 {npc:258098}, the shaman trainer in {zone:1455}, sends you to {npc:259023} in {zone:1417}."] = "Seviye 30'da {zone:1455} şehrindeki Shaman eğitmeni {npc:258098}, seni {zone:1417} bölgesindeki {npc:259023} yanına gönderir.",
-	-- ["{npc:259023} camps in the northern hills of {zone:1417}."] = "{npc:259023}, {zone:1417} bölgesinin kuzey tepelerinde kamp kurmuş.",
-	-- ["{area:1717} is a dungeon at the southern edge of the {zone:1413} (the arrow points at its entrance); {npc:4421} is its last boss. Bring a group."] = "{area:1717}, {zone:1413} bölgesinin güney ucunda bir zindan (ok girişini gösteriyor); son boss'u {npc:4421}. Grup getir.",
-	-- ["The Stonevault troggs in the south of the {zone:1418} carry the Twisted Fire Totems."] = "Twisted Fire Totem'leri {zone:1418} bölgesinin güneyindeki Stonevault troggları taşıyor.",
-	-- ["The Lost Ones in the north of the {zone:1435} carry the Twisted Earth Totems."] = "Twisted Earth Totem'leri {zone:1435} bölgesinin kuzeyindeki The Lost One yaratıkları taşıyor.",
-	-- maybe now: ["Five Twisted Water Totems. The Mirefin murlocs (level 35-38) north-east of {area:496} in northern {zone:1445} carry them."]
-	-- ["The Mirefin murlocs of northern {zone:1445} carry the Twisted Water Totems."] = "Twisted Water Totem'leri {zone:1445} bölgesinin kuzeyindeki Mirefin murlocları taşıyor.",
-	-- ["The Maraudine centaurs of western {zone:1443} carry the Twisted Air Totems."] = "Twisted Air Totem'leri {zone:1443} bölgesinin batısındaki Maraudine centaurları taşıyor.",
-	-- ["{npc:259023} hands you the {item:268582}: place them at the steam pools of {zone:1441} and defeat the {npc:216474} they call. {quest:96135} is an elite quest: grouping up is advised."] = "{npc:259023} sana {item:268582} verir: onları {zone:1441} bölgesinin buhar havuzlarına yerleştir ve çağırdıkları {npc:216474} yaratığını yen. {quest:96135} elit bir görev: grup kurman önerilir.",
-	-- ["{npc:6176} camps in the east of {zone:1416}, north-east of {area:272}."] = "{npc:6176}, {zone:1416} bölgesinin doğusunda, {area:272} kasabasının kuzeydoğusunda kamp kurmuş.",
 }

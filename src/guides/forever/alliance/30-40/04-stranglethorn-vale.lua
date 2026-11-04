@@ -217,23 +217,4 @@ return {
 	-- Step 53: Baron Revilgaz
 	-- {zone:1416} Alterac Mountains
 	["For Archmage Ansirem in {zone:1416}"] = "{zone:1416} bölgesindeki Archmage Ansirem için",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Fly from {area:150} to {area:1537} and train."] = "{area:150} limanından {area:1537} şehrine uç ve eğitimini al.",
-	-- maybe now: ["{zone:1455} has no druid trainer: take the {area:2257} from {object:171524} to {zone:1453} and train with {npc:5504}."]
-	-- ["{area:1537} has no druid trainer: take the {area:2257} from {object:171524} to {zone:1453} and train with {npc:5504}."] = "{area:1537} şehrinde Druid eğitmeni yok: {object:171524} semtinden {area:2257} trenine binip {zone:1453} şehrine git ve {npc:5504} adlı NPC'den eğitimini al.",
-	-- ["Fly to {area:42}: {npc:1573} in {area:1537}'s {object:32372}, or {npc:352} in {zone:1453}'s {object:2096}."] = "{area:42} kasabasına uç: {area:1537} şehrinde {object:32372} ocağının başındaki {npc:1573} ya da {zone:1453} şehrinin {object:2096} semtindeki {npc:352}.",
-	-- ["{npc:2859}, on the top floor by the docks"] = "{npc:2859}, iskelelerin yanında, en üst katta",
-	-- maybe now: ["{npc:2832}, in the {object:56910}; upstairs"]
-	-- ["{npc:2832}, in the {object:56910}"] = "{npc:2832}, {object:56910} içinde",
-	-- maybe now: ["{npc:2495}, by the bank; inside"]
-	-- ["{npc:2495}, by the bank"] = "{npc:2495}, bankanın yanında",
-	-- maybe now: ["{npc:773}, in the tavern; upstairs"]
-	-- ["{npc:773}, in the tavern"] = "{npc:773}, meyhanede",
-	-- maybe now: ["Walk back north; the {area:310} lies west of the road in the middle of the jungle. The Crystal Spine Basilisks there drop the shards.\nThe Bloodscalp trolls hold the ruins on the coast west of Nesingwary's camp."]
-	-- ["Walk back north; the {area:310} lies west of the road in the middle of the jungle. The Crystal Spine Basilisks there drop the shards."] = "Kuzeye geri yürü; {area:310} ormanın ortasında, yolun batısında. Parçaları oradaki Crystal Spine Basilisk yaratıkları düşürür.",
-	-- ["Bloodscalp trolls"] = "Bloodscalp trolları",
-	-- ["The Bloodscalp trolls hold the ruins on the coast west of Nesingwary's camp."] = "Bloodscalp trolları Nesingwary kampının batısındaki kıyıda bulunan harabeleri tutuyor.",
-	-- maybe now: ["Headshrinkers stand deeper in the compound; the Commandos lurk stealthed around it and in the cave. Pick up Green Hills pages as they drop.\nCareful: Kurzen Commandos are level 34-35, not elite, and often spawn stealthed; near death they use {spell:7964}."]
-	-- ["Headshrinkers stand deeper in the compound; the Commandos lurk stealthed around it and in the cave. Pick up Green Hills pages as they drop."] = "Kurzen Headshrinker yaratıkları yerleşkenin daha derinlerinde; Kurzen Commando yaratıkları çevrede ve mağarada gizlenerek pusuda bekliyor. Green Hills sayfaları düştükçe topla.",
 }

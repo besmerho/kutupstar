@@ -66,18 +66,4 @@ return {
 	["Back to {npc:258043} with the {item:7813}. Keep the {item:5177} in your bags for good: every water totem needs it."] = "{item:7813} ile {npc:258043} yanına dön. {item:5177} eşyasını sürekli çantanda tut: her water totem ona ihtiyaç duyar.",
 	-- {npc:258043} Norric Lochthane · {spell:5394} Healing Stream Totem · {item:5177} Water Totem
 	["{npc:258043}: {spell:5394} and your {item:5177}"] = "{npc:258043}: {spell:5394} ve {item:5177} eşyan",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["At 20 {npc:258098}, the shaman trainer in {zone:1455}'s {object:32362}, sends you to {npc:258043} in {zone:1432}."]
-	-- ["At 20 {npc:258098}, the shaman trainer in {zone:1455}, sends you to {npc:258043} in {zone:1432}."] = "Seviye 20'de {zone:1455} şehrindeki Shaman eğitmeni {npc:258098}, seni {zone:1432} bölgesindeki {npc:258043} yanına gönderir.",
-	-- maybe now: ["{npc:258043}'s burrow hut stands on the north-western shore of the loch, below {area:146}, north of {area:144}."]
-	-- ["{npc:258043}'s burrow hut stands on the north-western edge of the loch, south of {area:146}."] = "{npc:258043} adlı NPC'nin toprak kulübesi gölün kuzeybatı kıyısında, {area:146} barajının güneyinde.",
-	-- maybe now: ["{npc:258203}'s family lives in a cave beneath the southern falls of the {zone:1437}, east of {area:836}: not in a town. Through the Algaz tunnel north of {zone:1432}, then east off the road."]
-	-- ["{npc:258203}'s family lives in a cave beneath the southern falls of the {zone:1437}."] = "{npc:258203} adlı NPC'nin ailesi {zone:1437} bölgesinin güney şelalelerinin altındaki bir mağarada yaşıyor.",
-	-- maybe now: ["Fill the {item:265732} at the bottom of the waterfalls below {npc:258203}'s cave, where the fresh water meets the brackish. {object:147516} dwarves roam near the falls."]
-	-- ["Fill the {item:265732} at the bottom of the waterfalls below {npc:258203}'s cave, where the fresh water meets the brackish."] = "{item:265732} eşyasını {npc:258203} adlı NPC'nin mağarasının altındaki şelalelerin dibinde, tatlı suyun acı suyla buluştuğu yerde doldur.",
-	-- ["{area:71} pour out of {area:68} at the east end of Redridge. Fill the {item:265747} at their foot, where the Murloc Nightcrawlers gather."] = "{area:71}, Redridge'in doğu ucunda {area:68} gölünden dökülüyor. {item:265747} eşyasını şelalelerin dibinde, Murloc Nightcrawler yaratıklarının toplandığı yerde doldur.",
-	-- maybe now: ["Take the boat from {area:150} to {area:442} (it stops in {area:271} on the way), then fly or walk south through {zone:1439} to {area:415} in {zone:1440}. Fill the {item:265772} in the lake around the town, then the boat back to Menethil."]
-	-- ["{npc:258203}: take the boat from {area:150} to {area:442} (it stops in {area:271} on the way), then go south to {area:415}. Fill the {item:265772} in the lake around the town."] = "{npc:258203}: {area:150} limanından {area:442} kasabasına gemiyle git (yolda {area:271} kasabasında durur), sonra güneye, {area:415} kasabasına in. {item:265772} eşyasını kasabanın çevresindeki gölde doldur.",
-	-- ["{area:919} lies outside {area:20}. Drink the {item:6637} there and defeat the {npc:5894} for its bracers, then place them and the {item:7811} on the {object:619896}. The {npc:5895} it calls forth gives you the {item:7813}."] = "{area:919}, {area:20} köyünün dışında. Orada {item:6637} iç ve bileklikleri için {npc:5894} yaratığını yen, sonra bileklikleri ve {item:7811} eşyasını {object:619896} üzerine koy. Sunağın çağırdığı {npc:5895} sana {item:7813} verir.",
 }

@@ -79,7 +79,7 @@ return {
 	-- {object:20985} Loose Dirt · {npc:4791} Nazeer Bloodpike
 	["{object:20985}, now that {npc:4791} has read the report"] = "{object:20985}; {npc:4791} raporu okuduğuna göre",
 	-- {item:3853} Moonsteel Broadsword · {skill:164} Blacksmithing
-	["only if you carry a {item:3853} ({skill:164} or the Auction House)"] = "yalnızca sende bir {item:3853} varsa ({skill:164} ya da Auction House)",
+	["only if you carry a {item:3853} ({skill:164} or the Auction House)"] = "yalnızca sende bir {item:3853} varsa ({skill:164} ya da müzayede evi)",
 
 	-- Step 19: The Theramore Docks
 	["Underwater"] = "Su altında",
@@ -168,23 +168,4 @@ return {
 	["Shadowprey"] = "Shadowprey",
 	-- {zone:1434} Stranglethorn Vale
 	["The next guide takes you back to {zone:1434}."] = "Sonraki rehber seni yeniden {zone:1434} bölgesine götürüyor.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["{npc:6791}: the last guide binds here, so this usually ticks at once"] = "{npc:6791}: önceki rehber Hearthstone'u burada bağlar, bu yüzden bu genelde hemen tamamlanır",
-	-- ["Darkfang spiders"] = "Darkfang örümcekleri",
-	-- ["Head west back across the marsh. The Darkfang Venomspitters on the ridges north of Brackenwall drop the venom sacs. Theramore Infiltrators (35-36) sneak through the same woods: they are stealthed, so look closely."] = "Bataklığı geçerek batıya dön. Zehir keselerini Brackenwall'un kuzeyindeki sırtlarda bulunan Darkfang Venomspitter yaratıkları düşürür. Theramore Infiltrator yaratıkları (35-36) aynı ormanda sinsice dolaşıyor: gizlenirler, dikkatli bak.",
-	-- ["The Darkmist spiders swarm the cavern mouth north-west of Brackenwall; every kind drops eyes."] = "Darkmist örümcekleri Brackenwall'un kuzeybatısındaki mağara ağzında kaynıyor; her türü göz düşürür.",
-	-- ["Hearth to {area:392}"] = "Hearthstone ile {area:392} limanına dön",
-	-- ["Head north-east to the {area:607}. {npc:12277} is held in the Maraudine centaur camp; free her and escort her out east of the valley."] = "Kuzeydoğuya, {area:607} vadisine git. {npc:12277} Maraudine centaur kampında tutsak; onu kurtar ve vadinin doğusuna kadar eşlik et.",
-	-- ["{npc:11626}'s caravan stops on the road at the edge of {area:602}. Escort it east past the coven; demons attack it twice."] = "{npc:11626} adlı NPC'nin kervanı {area:602} çukurunun kenarında, yolda duruyor. Çukuru geçene kadar doğuya ona eşlik et; iblisler iki kez saldırır.",
-	-- ["The caravan ends at {npc:11596}'s camp on the east side of the {area:596}."] = "Kervan, {area:596} mezarlığının doğu yakasındaki {npc:11596} kampında son bulur.",
-	-- maybe now: ["{npc:5395} and {npc:5412} stand in the post just west of Smeed's camp."]
-	-- ["{npc:5395} and {npc:5412} stand in the post just west of {npc:11596}'s camp."] = "{npc:5395} ve {npc:5412}, {npc:11596} kampının hemen batısındaki karakolda duruyor.",
-	-- ["Kodo bones and ghosts"] = "Kodo kemikleri ve hayaletler",
-	-- ["Pick up the kodo bones scattered across the graveyard, and use the {item:15848} among the bones: the ghosts it draws drop the ghost-o-plasm."] = "Mezarlığa dağılmış kodo kemiklerini topla ve kemiklerin arasında {item:15848} eşyasını kullan: çektiği hayaletler ghost-o-plasm düşürür.",
-	-- ["Head west to {npc:11863}'s tower at {area:2405} on the north-west coast."] = "Batıya, kuzeybatı kıyısındaki {area:2405} harabelerinde bulunan {npc:11863} kulesine git.",
-	-- ["Head east to {area:602}. Use the Rod of Banishing by each demon portal to close six of them."] = "Doğuya, {area:602} çukuruna git. Altı iblis portalını kapatmak için her birinin yanında Rod of Banishing eşyasını kullan.",
-	-- maybe now: ["Head north to {npc:5412} at {area:597}."]
-	-- ["Head north from the coven to {npc:5412} at {area:597}."] = "Çukurdan kuzeye, {area:597} karakolundaki {npc:5412} yanına git.",
-	-- ["Hearth to Shadowprey"] = "Hearthstone ile Shadowprey'e dön",
 }

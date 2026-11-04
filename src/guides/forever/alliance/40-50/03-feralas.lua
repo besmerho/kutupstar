@@ -150,20 +150,4 @@ return {
 	["Ride north-east to the night elf outpost on the {zone:1441} border."] = "Kuzeydoğuya, {zone:1441} sınırındaki Night Elf karakoluna git.",
 	-- {npc:4048} Falfindel Waywarder · {area:489} Thalanaar
 	["{npc:4048} walks around {area:489}: look inside the circle on the map"] = "{npc:4048}, {area:489} çevresinde dolaşıyor: haritadaki çemberin içine bak",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["From Theramore, fly to {area:608} and ride south out of {zone:1443} into {zone:1444}; the road leads west to the {area:1108} dock, where the boat crosses to Feathermoon on {area:1120}."] = "Theramore'dan {area:608} karakoluna uç ve güneye, {zone:1443} bölgesinden {zone:1444} bölgesine geç; yol batıda {area:1108} kıyısındaki iskeleye çıkıyor, oradan gemi {area:1120} adasındaki Feathermoon'a geçiyor.",
-	-- ["Ride back north-west to the {area:1108} dock and take the boat to the island."] = "Kuzeybatıya, {area:1108} iskelesine dön ve gemiyle adaya geç.",
-	-- maybe now: ["The {area:1121} is the island just south of {area:1120}: swim over. Hatecrest Serpent Guards and Sorceresses hold it; {npc:8136} (level 47) waits in the cave at its south end. Pull his guards first."]
-	-- ["Swim south from the island to the {area:1121}. Hatecrest Serpent Guards and Sorceresses hold it; {npc:8136} (level 47) waits in the cave at its south end. Pull his guards first."] = "Adadan güneye, {area:1121} adasına yüz. Adayı Hatecrest Serpent Guard ve Hatecrest Sorceress yaratıkları tutuyor; {npc:8136} (seviye 47) güney ucundaki mağarada bekliyor. Önce korumalarını çek.",
-	-- ["Hearth to Feathermoon."] = "Hearthstone ile Feathermoon'a dön.",
-	-- maybe now: ["Boat to the {area:1108} and ride east across {area:357} to the Grimtotem camp north of the road. {npc:7956} waits outside it; free the Sprite Darters from the pen in the middle and keep {npc:7956} and at least six of them alive."]
-	-- ["Boat to the {area:1108} and ride east across {zone:1444} to the Grimtotem camp north of the road. {npc:7956} waits outside it; free the Sprite Darters from the pen in the middle and keep {npc:7956} and at least six of them alive."] = "Gemiyle {area:1108} kıyısına geç ve {zone:1444} bölgesini doğuya geçerek yolun kuzeyindeki Grimtotem kampına git. {npc:7956} kampın dışında bekliyor; ortadaki ağıldan Sprite Darter yaratıklarını kurtar, {npc:7956} adlı NPC'yi ve en az altısını hayatta tut.",
-	-- ["if you carry {quest:1100} from {zone:1441}"] = "{zone:1441} bölgesinden {quest:1100} sendeyse",
-	-- ["Rage Scar yetis"] = "Rage Scar yetileri",
-	-- ["{area:978} instead of grinding"] = "Seviye kasmak yerine {area:978}",
-	-- ["Running {area:978} instead of grinding gets you there faster in a group. The troll city lies in northern {zone:1446}, the next zone on the route; come back to {npc:14637} on the {area:1108} afterwards."] = "Seviye kasmak yerine grupla {area:978} zindanına girmek seni oraya daha hızlı götürür. Troll şehri, rotadaki sonraki bölge olan {zone:1446} bölgesinin kuzeyinde; ardından {area:1108} kıyısındaki {npc:14637} yanına dön.",
-	-- maybe now: ["grind on {npc:5292} at {area:1105}, {area:357}"]
-	-- ["grind on {npc:5292} at {area:1105}, {zone:1444}"] = "{zone:1444} bölgesindeki {area:1105} vadisinde {npc:5292} yaratıklarıyla seviye kas",
-	-- ["Giants and elementals"] = "Devler ve elementaller",
 }

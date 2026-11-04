@@ -295,25 +295,4 @@ return {
 	-- Step 90: Into Western Plaguelands
 	-- {area:28} Western Plaguelands
 	["Into {area:28}"] = "{area:28} içine",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Dredge and scorpids"] = "Dredge yaratıkları ve scorpidler",
-	-- maybe now: ["Mar'alith's {quest:8304} needs level 58 and leads into {area:2744} among elites. Skip it."]
-	-- ["Mar'alith's Dearest Natalia needs level 58 and leads into {area:2744} among elites. Skip it."] = "Mar'alith'in Dearest Natalia görevi seviye 58 gerektirir ve seni elitlerin arasında {area:2744} kovanına götürür. Atla.",
-	-- maybe now: ["Through the pass and east along the northern cliffs to {area:541}. {npc:8737} stands by the cave; J.D."]
-	-- ["Through the pass and east along the northern cliffs to {area:541}. {npc:8737} stands by the cave; {npc:9117} is inside it."] = "Geçitten geç ve kuzey uçurumları boyunca doğuya, {area:541} sığınağına git. {npc:8737} mağaranın yanında, {npc:9117} içeride.",
-	-- ["Fly to {area:1637} and train."] = "{area:1637} şehrine uç ve eğitimini al.",
-	-- ["Take the zeppelin from the tower outside {area:1637} to {zone:1420} and ride into the {zone:1458}. Lady Sylvanas holds the {object:36126}."] = "{area:1637} dışındaki kuleden zeplinle {zone:1420} bölgesine geç ve {zone:1458} şehrine gir. Lady Sylvanas {object:36126} semtinde.",
-	-- ["Ride east along the road to the {area:152} on the border."] = "Yol boyunca doğuya, sınırdaki {area:152} surlarına git.",
-	-- ["{npc:10778}'s farm is the first one east of the {area:152}. Jabbering Ghouls on the farm carry the other half of her charm; {npc:11075} guards the cauldron in the field."] = "{npc:10778} adlı NPC'nin çiftliği {area:152} surlarının doğusundaki ilk çiftlik. Tılsımının diğer yarısı çiftlikteki Jabbering Ghoul yaratıklarında; {npc:11075} tarladaki kazanı koruyor.",
-	-- maybe now: ["Dithers offers {quest:964} ({quest:838}). Skip it."]
-	-- ["Dithers offers {item:14619} ({quest:838}). Skip it."] = "Dithers {item:14619} görevini veriyor ({quest:838}). Atla.",
-	-- ["Ride east across the plaguelands to the chapel."] = "Veba topraklarını doğuya geçerek şapele git.",
-	-- maybe now: ["Pamela and the {area:2261}"]
-	-- ["{npc:10926} and the {area:2261}"] = "{npc:10926} ve {area:2261}",
-	-- ["Ride to {area:2262} in the south-west; {npc:10926} plays among the houses. {npc:11886} lurks in the {area:2261}, the crypt just west of the town."] = "Güneybatıdaki {area:2262} köyüne git; {npc:10926} evlerin arasında oynuyor. {npc:11886}, köyün hemen batısındaki mahzen {area:2261} içinde pusuda bekliyor.",
-	-- ["{npc:10926}'s own errand is not on this route. Skip it."] = "{npc:10926} adlı NPC'nin kendi işi bu rotada değil. Atla.",
-	-- ["{npc:15193}'s champion holds the {area:2260} farmhouse, north of the {area:2261}."] = "{npc:15193} adlı NPC'nin şampiyonu {area:2261} mahzeninin kuzeyindeki {area:2260} çiftlik evini tutuyor.",
-	-- ["{npc:11878}' errands are not on this route. Skip them."] = "{npc:11878} adlı NPC'nin işleri bu rotada değil. Atla.",
-	-- ["{npc:1855}'s next task, Of Lost Honor, is not on this route. Skip it."] = "{npc:1855} adlı NPC'nin sonraki görevi Of Lost Honor bu rotada değil. Atla.",
 }

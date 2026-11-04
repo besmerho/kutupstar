@@ -79,19 +79,4 @@ return {
 	["{npc:6176} camps in the ruins in the east of {zone:1416}: from {area:272} follow the river east of town north into the hills. Pick your weapon: {item:280607}, {item:280605} or {item:280604}; the {item:280696} shield comes with it."] = "{npc:6176}, {zone:1416} bölgesinin doğusundaki harabelerde kamp kurmuş: {area:272} kasabasından kasabanın doğusundaki nehri kuzeye, tepelere izle. Silahını seç: {item:280607}, {item:280605} ya da {item:280604}; {item:280696} kalkanı da onunla gelir.",
 	-- {npc:6176} Bath'rah the Windwatcher · {item:280696} Elementalist's Guard
 	["{npc:6176}: the {item:280696} and your weapon"] = "{npc:6176}: {item:280696} ve silahın",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["At 30 {npc:5892} in the {object:172957} sends you to {npc:5905} in {zone:1441}. Your level 30 air totems (Grounding, {spell:10596}) need the {item:5178} she gives."]
-	-- ["At 30 {npc:5892} in the {object:172957} sends you to {npc:5905} in {zone:1441}."] = "Seviye 30'da {object:172957} vadisindeki {npc:5892}, seni {zone:1441} bölgesindeki {npc:5905} yanına gönderir.",
-	-- ["At 30 {npc:5906}, a shaman trainer in {zone:1456}, sends you to {npc:5905} in {zone:1441}."] = "Seviye 30'da {zone:1456} şehrindeki bir Shaman eğitmeni olan {npc:5906}, seni {zone:1441} bölgesindeki {npc:5905} yanına gönderir.",
-	-- ["Fly to {area:484}. {npc:5905} hides in a small cave in the canyon wall north-east of the post. Skyborne: your own {quest:1531} (96136) ends with her too."] = "{area:484} karakoluna uç. {npc:5905}, karakolun kuzeydoğusundaki kanyon duvarında küçük bir mağarada saklanıyor. Skyborne: kendi {quest:1531} görevin (96136) de onda biter.",
-	-- ["{area:1717} is a dungeon at the southern edge of the {zone:1413} (the arrow points at its entrance); {npc:4421} is its last boss. Bring a group."] = "{area:1717}, {zone:1413} bölgesinin güney ucunda bir zindan (ok girişini gösteriyor); son boss'u {npc:4421}. Grup getir.",
-	-- ["The Maraudine centaurs of western {zone:1443} carry the Twisted Air Totems."] = "Twisted Air Totem'leri {zone:1443} bölgesinin batısındaki Maraudine centaurları taşıyor.",
-	-- maybe now: ["Five Twisted Water Totems. The Mirefin murlocs (level 35-38) north-east of {area:496} in northern {zone:1445} carry them."]
-	-- ["The Mirefin murlocs of northern {zone:1445} carry the Twisted Water Totems."] = "Twisted Water Totem'leri {zone:1445} bölgesinin kuzeyindeki Mirefin murlocları taşıyor.",
-	-- ["The Stonevault troggs in the south of the {zone:1418} carry the Twisted Fire Totems."] = "Twisted Fire Totem'leri {zone:1418} bölgesinin güneyindeki Stonevault troggları taşıyor.",
-	-- ["The Lost Ones in the north of the {zone:1435} carry the Twisted Earth Totems."] = "Twisted Earth Totem'leri {zone:1435} bölgesinin kuzeyindeki The Lost One yaratıkları taşıyor.",
-	-- ["{npc:5905} hands you the {item:268582}: place them at the steam pools west of {area:484} and defeat the {npc:216474} they call. {quest:79366} is an elite quest: grouping up is advised."] = "{npc:5905} sana {item:268582} verir: onları {area:484} karakolunun batısındaki buhar havuzlarına yerleştir ve çağırdıkları {npc:216474} yaratığını yen. {quest:79366} elit bir görev: grup kurman önerilir.",
-	-- ["{npc:6176} camps in the east of {zone:1416}, north-east of {area:272}."] = "{npc:6176}, {zone:1416} bölgesinin doğusunda, {area:272} kasabasının kuzeydoğusunda kamp kurmuş.",
-	-- ["{npc:6176}: the {item:213086} and your weapon"] = "{npc:6176}: {item:213086} ve silahın",
 }

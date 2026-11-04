@@ -52,12 +52,4 @@ return {
 	-- Step 10: Back to Mennet Carkad
 	-- {npc:6467} Mennet Carkad
 	["Back to {npc:6467}"] = "{npc:6467} yanına dön",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["Undead take the zeppelin from the towers outside the {zone:1458} to {zone:1411}. {npc:3401} and {quest:2379} stand in the {object:172960}, the canyon under the {object:172982}. Train {spell:1804} from {npc:3401} (or any rogue trainer) now if you lack it: this job is a lockpicking test."]
-	-- ["Undead take the zeppelin from the towers outside the {zone:1458} to {zone:1411}. {npc:3401} and {quest:2379} stand in the {object:172960}, the canyon under the {object:172982}."] = "Undead'ler {zone:1458} dışındaki kulelerden zeplinle {zone:1411} bölgesine geçer. {npc:3401} ve {quest:2379}, {object:172982} vadisinin altındaki kanyon {object:172960} içinde duruyor.",
-	-- ["Fly or walk to {area:392} on the {zone:1413} coast. {npc:7161} stands in town with his Gizmotronic Apparatus: buy an {item:7970} and {item:5060} from the apparatus before you go."] = "{zone:1413} kıyısındaki {area:392} kasabasına uç ya da yürü. {npc:7161} kasabada Gizmotronic Apparatus'uyla duruyor: gitmeden önce aparattan bir {item:7970} ve {item:5060} satın al.",
-	-- ["South along the coast from {area:392}, at the Southsea pirates' camp. If an unusually hostile parrot attacks you, use the {item:7970} on it (the quest's own advice)."] = "{area:392} kasabasından kıyı boyunca güneyde, Southsea korsanlarının kampında. Alışılmadık derecede saldırgan bir papağan sana saldırırsa üzerinde {item:7970} kullan (görevin kendi tavsiyesi).",
-	-- ["Take the zeppelin from {zone:1454} to the {zone:1458} and head south into Silverpine. {quest:1998} stands north-east of the {area:228}."] = "{zone:1454} şehrinden zeplinle {zone:1458} şehrine geç ve güneye, Silverpine'a git. {quest:1998}, {area:228} kasabasının kuzeydoğusunda duruyor.",
-	-- ["The Kirin Tor keep their reports at {area:233}, in south-east Silverpine: pick the lock on the {object:103815}."] = "Kirin Tor raporlarını Silverpine'ın güneydoğusundaki {area:233} köyünde saklıyor: {object:103815} kilidini aç.",
 }

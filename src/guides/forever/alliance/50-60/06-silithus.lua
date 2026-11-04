@@ -90,7 +90,7 @@ return {
 	-- Step 15: Gadgetzan
 	-- {area:392} Ratchet · {area:976} Gadgetzan · {quest:5801} Fire Plume Forged
 	-- plural, as words: Thorium Bars = {item:12359} Thorium Bar
-	["Hearth to {area:392} and fly to {area:976}. Buy two Thorium Bars at the Auction House here for {quest:5801}."] = "Hearthstone ile {area:392} limanına dön ve {area:976} kasabasına uç. {quest:5801} için buradaki Auction House'tan iki Thorium Bar satın al.",
+	["Hearth to {area:392} and fly to {area:976}. Buy two Thorium Bars at the Auction House here for {quest:5801}."] = "Hearthstone ile {area:392} limanına dön ve {area:976} kasabasına uç. {quest:5801} için buradaki müzayede evinden iki Thorium Bar satın al.",
 	-- {npc:5594} Alchemist Pestlezugg
 	["{npc:5594}, inside"] = "{npc:5594}, içeride",
 
@@ -294,7 +294,7 @@ return {
 
 	-- Step 72: Stormwind
 	-- {npc:14722} Clavicus Knavingham · {quest:6031} Runecloth
-	["{npc:14722} takes sixty Silk, sixty Mageweave and sixty {quest:6031}: hand in what you carry (or buy at the Auction House), skip the rest."] = "{npc:14722} altmış Silk, altmış Mageweave ve altmış {quest:6031} alıyor: taşıdığını teslim et (ya da Auction House'dan al), gerisini atla.",
+	["{npc:14722} takes sixty Silk, sixty Mageweave and sixty {quest:6031}: hand in what you carry (or buy at the Auction House), skip the rest."] = "{npc:14722} altmış Silk, altmış Mageweave ve altmış {quest:6031} alıyor: taşıdığını teslim et (ya da müzayede evinden al), gerisini atla.",
 	-- {item:4306} Silk Cloth
 	["{item:4306}, from your bags"] = "{item:4306}, çantandan",
 	-- {item:4338} Mageweave Cloth
@@ -305,7 +305,7 @@ return {
 	-- Step 73: Ironforge
 	-- {area:2257} Deeprun Tram · {zone:1455} Ironforge · {npc:14724} Bubulo Acerbus · {npc:14723} Mistina Steelshield · {item:14047} Runecloth · {spell:7992} Slowing Poison · {area:1997} Bloodvenom Post
 	-- plural, as words: Jadefire Shadowstalkers = {npc:7110} Jadefire Shadowstalker
-	["Take the {area:2257} to {zone:1455}. {npc:14724} and {npc:14723} each take sixty Wool, sixty Silk and sixty Mageweave, then sixty {item:14047}: hand in what you carry (or buy at the Auction House), skip the rest.\nCareful: Jadefire Shadowstalkers are level 51-52 and move stealthed. They use {spell:7992} and are found about 550 yd south of {area:1997}.\nCareful: Jadefire Shadowstalkers sneak around and use {spell:7992}."] = "{area:2257} ile {zone:1455} şehrine git. {npc:14724} ve {npc:14723} her biri altmış Wool, altmış Silk ve altmış Mageweave, sonra altmış {item:14047} alıyor: taşıdığını teslim et (ya da Auction House'dan al), gerisini atla.\nDikkat: Jadefire Shadowstalker yaratıkları seviye 51-52 ve gizlenerek dolaşır. {spell:7992} kullanırlar ve {area:1997} karakolunun yaklaşık 550 yarda güneyinde bulunurlar.\nDikkat: Jadefire Shadowstalker yaratıkları sinsice dolaşır ve {spell:7992} kullanır.",
+	["Take the {area:2257} to {zone:1455}. {npc:14724} and {npc:14723} each take sixty Wool, sixty Silk and sixty Mageweave, then sixty {item:14047}: hand in what you carry (or buy at the Auction House), skip the rest.\nCareful: Jadefire Shadowstalkers are level 51-52 and move stealthed. They use {spell:7992} and are found about 550 yd south of {area:1997}.\nCareful: Jadefire Shadowstalkers sneak around and use {spell:7992}."] = "{area:2257} ile {zone:1455} şehrine git. {npc:14724} ve {npc:14723} her biri altmış Wool, altmış Silk ve altmış Mageweave, sonra altmış {item:14047} alıyor: taşıdığını teslim et (ya da müzayede evinden al), gerisini atla.\nDikkat: Jadefire Shadowstalker yaratıkları seviye 51-52 ve gizlenerek dolaşır. {spell:7992} kullanırlar ve {area:1997} karakolunun yaklaşık 550 yarda güneyinde bulunurlar.\nDikkat: Jadefire Shadowstalker yaratıkları sinsice dolaşır ve {spell:7992} kullanır.",
 	-- {item:2592} Wool Cloth
 	["{item:2592}, from your bags"] = "{item:2592}, çantandan",
 	-- {item:14047} Runecloth
@@ -373,57 +373,4 @@ return {
 	-- Step 93: Chillwind Camp
 	-- {area:3197} Chillwind Camp
 	["Ride back south-west to {area:3197}."] = "Güneybatıya, {area:3197} kampına dön.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["{zone:1451}, {zone:1448}, {zone:1452} & the Plaguelands"] = "{zone:1451}, {zone:1448}, {zone:1452} ve Plaguelands",
-	-- ["You start in {area:392}, where the previous guide hearthed you. Fly to {area:415}."] = "Önceki rehberin seni Hearthstone ile getirdiği {area:392} limanında başlıyorsun. {area:415} kasabasına uç.",
-	-- ["{npc:6791}: the last guide hearths you here, so this usually ticks at once"] = "{npc:6791}: önceki rehber seni Hearthstone ile buraya getirir, bu yüzden bu genelde hemen tamamlanır",
-	-- maybe now: ["Ride north out of {area:415} into {area:361} to the druids' camp on the road just past the border."]
-	-- ["Ride north out of {area:415} into {zone:1448} to the druids' camp on the road just past the border."] = "{area:415} kasabasından kuzeye, {zone:1448} bölgesine git; druidlerin kampı sınırın hemen ötesinde, yolun üzerinde.",
-	-- ["{npc:10924}: ends in {zone:1452}, keep it"] = "{npc:10924}: {zone:1452} bölgesinde biter, sakla",
-	-- maybe now: ["{area:1770} is the cave at the back of {area:1763}, west of the road. Use the {item:12906} on the four braziers inside. Kill the Angerclaw bears and Felpaw wolves you pass for the {item:11172}.\nCareful: Shadow Council mobs of level 53-55 fill the cave and often come in large linked groups, many with stuns. A group of 2-3 players is recommended."]
-	-- ["{area:1770} is the cave at the back of {area:1763}, west of the road. Use the {item:12906} on the four braziers inside. Kill the Angerclaw bears and Felpaw wolves you pass for the {item:11172}."] = "{area:1770}, yolun batısında, {area:1763} tapınağının arkasındaki mağara. İçerideki dört mangalda {item:12906} kullan. {item:11172} için yolda karşına çıkan Angerclaw ayılarını ve Felpaw kurtlarını öldür.",
-	-- ["Back into {area:1770}: {npc:9861} and {npc:9860} guard {npc:9517} in its deepest chamber."] = "Yine {area:1770} içine: {npc:9861} ve {npc:9860}, en derin odada {npc:9517} adlı yaratığı koruyor.",
-	-- maybe now: ["{npc:9598} waits in {area:1767}. Escort her out of the woods and keep her alive.\nCareful: Three {quest:5086} ambush you soon after the escort starts."]
-	-- ["{npc:9598} waits in {area:1767}. Escort her out of the woods and keep her alive."] = "{npc:9598}, {area:1767} ormanında bekliyor. Ormandan çıkana kadar ona eşlik et ve hayatta tut.",
-	-- maybe now: ["{object:176091}, if you found the Firewater flask in {area:618}"]
-	-- ["{object:176091}, if you found the Firewater flask in {zone:1452}"] = "{object:176091}; {zone:1452} bölgesinde Firewater şişesini bulduysan",
-	-- maybe now: ["{quest:5085}: {npc:9298} in {area:618}, keep it"]
-	-- ["{quest:5085}: {npc:9298} in {zone:1452}, keep it"] = "{quest:5085}: {zone:1452} bölgesindeki {npc:9298}, sakla",
-	-- maybe now: ["{npc:11558}, just inside the cave: only from Neutral with the Timbermaw; walks around here: look inside the circle on the map"]
-	-- ["{npc:11558}, just inside the cave: only from Neutral with the Timbermaw"] = "{npc:11558}, mağaranın hemen içinde: yalnızca Timbermaw ile Neutral itibardan itibaren",
-	-- maybe now: ["{npc:11557}, if you have thirty {quest:6031}; below ground"]
-	-- ["{npc:11557}, if you have thirty {quest:6031}"] = "{npc:11557}; otuz {quest:6031} varsa",
-	-- ["Into {zone:1451}"] = "{zone:1451} bölgesine",
-	-- ["Ride west along the crater's northern wall to the pass in the north-west corner that climbs into {zone:1451}."] = "Kraterin kuzey duvarı boyunca batıya, kuzeybatı köşesinde {zone:1451} bölgesine tırmanan geçide git.",
-	-- ["Toward the north-west pass"] = "Kuzeybatı geçidine doğru",
-	-- ["Follow the road south-west out of the pass to {area:3425}."] = "Geçitten çıkan yolu güneybatıya izleyerek {area:3425} kalesine git.",
-	-- ["{npc:15174}, the innkeeper"] = "{npc:15174}, hancı",
-	-- ["{npc:17082}, at the Alliance tents"] = "{npc:17082}, Alliance çadırlarında",
-	-- ["The {area:2739}"] = "{area:2739} kampı",
-	-- maybe now: ["{npc:17080} camps outside {area:2743}, the western hive. Pick up a Silithyst at one of the red geysers nearby and carry it to the Alliance extractor at his camp.\nCareful: You lose the Silithyst if you mount, stealth, use {spell:642}, {spell:5384} or Vanish. Blink and {spell:17} do not drop it."]
-	-- ["{npc:17080} camps outside {area:2743}, the western hive. Pick up a Silithyst at one of the red geysers nearby and carry it to the Alliance extractor at his camp."] = "{npc:17080}, batıdaki kovan {area:2743} dışında kamp kurmuş. Yakındaki kırmızı gayzerlerden birinden bir Silithyst al ve onun kampındaki Alliance çıkarıcısına taşı.",
-	-- ["Grind to 58"] = "Seviye 58'e kadar kas",
-	-- ["Dredge Crushers roam the dunes between {area:2743} and {area:3425}, on your way back. {npc:15181} only offers {quest:8304} from level 58."] = "Dredge Crusher yaratıkları dönüş yolunda, {area:2743} ile {area:3425} arasındaki kum tepelerinde dolaşıyor. {npc:15181}, {quest:8304} görevini ancak seviye 58'den itibaren verir.",
-	-- ["grind on {npc:11741} at the dunes east of {area:2743}, {zone:1451}"] = "{zone:1451} bölgesinde, {area:2743} kovanının doğusundaki kum tepelerinde {npc:11741} yaratıklarıyla seviye kas",
-	-- maybe now: ["Fly to {area:3137} in {area:16} and ride west along the road to {area:2358}, just over the {zone:1440} border."]
-	-- ["Fly to {area:3137} in {zone:1447} and ride west along the road to {area:2358}, just over the {zone:1440} border."] = "{zone:1447} bölgesindeki {area:3137} burnuna uç ve yol boyunca batıya, {zone:1440} sınırının hemen ötesindeki {area:2358} karakoluna git.",
-	-- maybe now: ["{npc:10300} waits at {area:2250}, south of {area:2255}.\nProtect {npc:10300} while she lights the torches on the way to the {object:177404}."]
-	-- ["Ride south to {area:2250}. Protect {npc:10300} while she lights the torches on the way to the {object:177404}."] = "Güneye, {area:2250} çalılığına git. {object:177404} sunağına giderken meşaleleri yakan {npc:10300} adlı NPC'yi koru.",
-	-- ["Grind to 59"] = "Seviye 59'a kadar kas",
-	-- ["The {npc:7446} bears roam the snowy valley south of {area:2250}."] = "{npc:7446} ayıları {area:2250} çalılığının güneyindeki karlı vadide dolaşıyor.",
-	-- ["grind on {npc:7446} at the valley south of {area:2250}, {zone:1452}"] = "{zone:1452} bölgesinde, {area:2250} çalılığının güneyindeki vadide {npc:7446} yaratıklarıyla seviye kas",
-	-- ["Ride back north to {area:2255} and west along the road to the night elf village."] = "Kuzeye, {area:2255} kasabasına dön ve yol boyunca batıya, Night Elf köyüne git.",
-	-- maybe now: ["Take the {area:1769} tunnel from its {area:618} mouth, west of {npc:9298}, and follow the {area:493} branch to {area:2361}. {npc:11939} studies by the lake shore."]
-	-- ["Take the {area:1769} tunnel from its {zone:1452} mouth, west of {npc:9298}, and follow the {area:493} branch to {area:2361}. {npc:11939} studies by the lake shore."] = "{npc:9298} adlı NPC'nin batısındaki {zone:1452} ağzından {area:1769} tüneline gir ve {area:493} kolunu izleyerek {area:2361} köyüne git. {npc:11939} göl kıyısında çalışıyor.",
-	-- ["Go back down to {area:702}, take the boat to {area:442} and the boat on to {area:17203}. Bring sixty Silk, sixty Mageweave and sixty {item:14047} for {npc:14722}: buy what you lack at the Auction House."] = "Aşağıya, {area:702} köyüne in, gemiyle {area:442} kasabasına, oradan gemiyle {area:17203} limanına geç. {npc:14722} için altmış Silk, altmış Mageweave ve altmış {item:14047} getir: eksiklerini Auction House'tan al.",
-	-- ["Take the {area:2257} to {zone:1455}. {npc:14724} and {npc:14723} each want sixty Wool, sixty Silk and sixty Mageweave, then sixty {item:14047}: 120 of each in all, from your bags or the Auction House."] = "{area:2257} treniyle {zone:1455} şehrine git. {npc:14724} ve {npc:14723} her biri altmış Wool, altmış Silk ve altmış Mageweave, ardından altmış {item:14047} istiyor: toplamda her birinden 120; çantandan ya da Auction House'tan.",
-	-- maybe now: ["Running {area:2057} ({area:2298}, south-east {area:28}) or {area:2279} instead of grinding gets you there faster in a group. Skip this step to grind solo."]
-	-- ["Running {area:2057} ({area:2298}, south-east {zone:1422}) or {area:2279} instead of grinding gets you there faster in a group. Skip this step to grind solo."] = "Seviye kasmak yerine grupla {area:2057} ({area:2298}, {zone:1422} bölgesinin güneydoğusu) ya da {area:2279} zindanına girmek seni oraya daha hızlı götürür. Tek başına seviye kasmak için bu adımı atla.",
-	-- maybe now: ["grind on {npc:14564} at {area:2627}, {area:139}"]
-	-- ["grind on {npc:14564} at {area:2627}, {zone:1423}"] = "{zone:1423} bölgesindeki {area:2627} kasabasında {npc:14564} yaratıklarıyla seviye kas",
-	-- ["Level 60"] = "Seviye 60",
-	-- ["Hearth to {area:1519} and train your level 60 spells. This is the end of the leveling route: look at the reputation and dungeon guides next."] = "Hearthstone ile {area:1519} şehrine dön ve seviye 60 büyülerini öğren. Seviye rotası burada bitiyor: sırada itibar ve zindan rehberleri var.",
-	-- ["Shaman training"] = "Shaman eğitimi",
-	-- ["{zone:1453} has no shaman trainer: take the {area:2257} from the {object:28027} to {zone:1455} and train your level 60 spells with {npc:258098}."] = "{zone:1453} şehrinde Shaman eğitmeni yok: {object:28027} semtinden {area:2257} trenine binip {zone:1455} şehrine git ve seviye 60 büyülerini {npc:258098} adlı NPC'den öğren.",
 }

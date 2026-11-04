@@ -199,28 +199,4 @@ return {
 	-- Step 43: Light's Hope Chapel
 	-- {area:3197} Chillwind Camp
 	["The next guide starts here and flies to {area:3197}."] = "Sonraki rehber burada başlıyor ve {area:3197} kampına uçuyor.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["{npc:11629}: keep it for {area:2262}; inside"]
-	-- ["{npc:11629}: keep it for {area:2262}"] = "{npc:11629}: {area:2262} için sakla",
-	-- maybe now: ["{npc:10431}: keep both for the Plaguelands; inside"]
-	-- ["{npc:10431}: keep both for the Plaguelands"] = "{npc:10431}: ikisini de Plaguelands için sakla",
-	-- ["Ride west along the road to the night elf village."] = "Yol boyunca batıya, Night Elf köyüne git.",
-	-- ["The Winterfall camp"] = "Winterfall kampı",
-	-- ["The {area:2247}"] = "{area:2247} tepeleri",
-	-- ["Pristine Yeti Horns"] = "Pristine Yeti Horn",
-	-- ["Back to the hills: only the Ice Thistle Matriarchs and Patriarchs carry the horns. Keep killing yetis until level 54: Harlo's wildkin quests are red before that."] = "Tepelere dön: boynuzları yalnızca Ice Thistle Matriarch ve Ice Thistle Patriarch yaratıkları taşıyor. Seviye 54 olana kadar yeti öldürmeye devam et: Harlo'nun wildkin görevleri ondan önce kırmızı görünür.",
-	-- ["grind on {npc:7460} at the {area:2247}, {zone:1452}"] = "{zone:1452} bölgesindeki {area:2247} tepelerinde {npc:7460} yaratıklarıyla seviye kas",
-	-- ["Ride west along the road to {npc:10301}."] = "Yol boyunca batıya, {npc:10301} yanına git.",
-	-- ["Follow {npc:9298}'s directions to the mouth of {area:2256}, past the Frostmaul giants: pass them one at a time."] = "{npc:9298} adlı NPC'nin tarifini izleyerek Frostmaul devlerini geç ve {area:2256} boğazının ağzına git: devleri tek tek geç.",
-	-- ["The western Winterfall furbolgs drop the beads."] = "Boncukları batıdaki Winterfall furbolgları düşürür.",
-	-- maybe now: ["Follow the southern road east into the {area:139}; the ruins of {area:2262} lie south of it. {npc:10926}'s ghost plays by the ruined house at the south end."]
-	-- ["Follow the southern road east into the {zone:1423}; the ruins of {area:2262} lie south of it. {npc:10926}'s ghost plays by the ruined house at the south end."] = "Güney yolunu doğuya izleyerek {zone:1423} bölgesine gir; {area:2262} harabeleri yolun güneyinde. {npc:10926} adlı NPC'nin hayaleti güney uçtaki yıkık evin yanında oynuyor.",
-	-- maybe now: ["{quest:5152}, in the {area:28}: keep it"]
-	-- ["{quest:5152}, in the {zone:1422}: keep it"] = "{zone:1422} bölgesindeki {quest:5152}: sakla",
-	-- maybe now: ["{npc:11038}: Zaeldarr is a level 54 elite"]
-	-- ["{npc:11038}: {npc:12250} is a level 54 elite"] = "{npc:11038}: {npc:12250} seviye 54 bir elit",
-	-- maybe now: ["Zaeldarr is elite: grouping up is advised. He waits at the bottom of the {area:2261}, the crypt in the south-west of the zone."]
-	-- ["{npc:12250} is elite: grouping up is advised. He waits at the bottom of the {area:2261}, the crypt in the south-west of the zone."] = "{npc:12250} elit: grup kurman önerilir. Bölgenin güneybatısındaki mahzen {area:2261} içinde, en dipte bekliyor.",
-	-- ["Ride north to {area:2627}. {npc:12384} lives in the ruined hut, and his receipt book lies in the ruined inn nearby."] = "Kuzeye, {area:2627} kasabasına git. {npc:12384} yıkık kulübede yaşıyor; makbuz defteri yakındaki yıkık handa.",
 }

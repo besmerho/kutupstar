@@ -178,30 +178,4 @@ return {
 	-- Step 45: Fly to Theramore
 	["Fly to Theramore"] = "Theramore'a uç",
 	["The next guide starts in Theramore."] = "Sonraki rehber Theramore'da başlıyor.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["Head back west to the road and follow it south out of {zone:1432} through the pass into the {area:3}. {npc:2910} and {npc:2860} camp side by side at the dig."]
-	-- ["Head back west to the road and follow it south out of {zone:1432} through the pass into the {zone:1418}. {npc:2910} and {npc:2860} camp side by side at the dig."] = "Batıya, yola dön ve yolu güneye izleyerek {zone:1432} bölgesinden çık, geçitten {zone:1418} bölgesine gir. {npc:2910} ve {npc:2860} kazı alanında yan yana kamp kurmuş.",
-	-- ["Shadowforge camp"] = "Shadowforge kampı",
-	-- maybe now: ["{npc:4618} and {npc:2817} camp together in the {area:1877}, in the middle of the {area:3}."]
-	-- ["{npc:4618} and {npc:2817} camp together in the {area:1877}, in the middle of the {zone:1418}."] = "{npc:4618} ve {npc:2817}, {zone:1418} bölgesinin ortasındaki {area:1877} vadisinde birlikte kamp kurmuş.",
-	-- ["Ogres and buzzards"] = "Ogrelar ve akbabalar",
-	-- ["The Dustbelcher ogres camp just south of the valley; any of them drops scrap. Buzzards circle the plain to the east."] = "Dustbelcher ogreları vadinin hemen güneyinde kamp kurmuş; herhangi biri hurda düşürür. Doğudaki düzlüğün üzerinde akbabalar daireler çiziyor.",
-	-- maybe now: ["The skeleton's next task, {quest:739}, waits until the later {area:3} guide at 43."]
-	-- ["The skeleton's next task, Murdaloc, waits until the later {zone:1418} guide at 43."] = "İskeletin sonraki görevi Murdaloc, seviye 43'teki sonraki {zone:1418} rehberine kalıyor.",
-	-- ["for {npc:4454} in the {area:439}: the {zone:1446} guide crosses them at 45, keep it"] = "{area:439} düzlüklerindeki {npc:4454} için: {zone:1446} rehberi seviye 45'te oradan geçer, sakla",
-	-- ["Lesser Rock Elementals"] = "Lesser Rock Elemental yaratıkları",
-	-- ["The Lesser Rock Elementals wander the {area:1878} west of {npc:2921}."] = "Lesser Rock Elemental yaratıkları {npc:2921} adlı NPC'nin batısında, {area:1878} alanında dolaşıyor.",
-	-- ["Greater Rock Elementals"] = "Greater Rock Elemental yaratıkları",
-	-- ["The Greater Rock Elementals (level 42) walk the far south-west corner below {area:342}; pull them one at a time. The Dustbelcher Wyrmhunters and Maulers at {area:342} also drop scrap."] = "Greater Rock Elemental yaratıkları (seviye 42) en güneybatı köşede, {area:342} kampının aşağısında dolaşıyor; onları tek tek çek. {area:342} kampındaki Dustbelcher Wyrmhunter ve Dustbelcher Mauler yaratıkları da hurda düşürür.",
-	-- maybe now: ["Head north-east to the dwarven ruins in the north of the {area:3}; the chest sits among the Shadowforge dwarves. {npc:2745} nearby is elite: give him room."]
-	-- ["Head north-east to the dwarven ruins in the north of the {zone:1418}; the chest sits among the Shadowforge dwarves. {npc:2745} nearby is elite: give him room."] = "Kuzeydoğuya, {zone:1418} bölgesinin kuzeyindeki cüce harabelerine git; sandık Shadowforge cücelerinin arasında duruyor. Yakındaki {npc:2745} elit: ondan uzak dur.",
-	-- maybe now: ["{npc:1470}, in the inn; below ground"]
-	-- ["{npc:1470}, in the inn"] = "{npc:1470}, handa",
-	-- ["Take the boat to Theramore from the far pier."] = "Uzaktaki iskeleden Theramore gemisine bin.",
-	-- ["{npc:5638}'s next task, {item:6245}, is a drop on the far coast: skip it."] = "{npc:5638} adlı NPC'nin sonraki görevi {item:6245}, uzak kıyıda düşen bir eşya: atla.",
-	-- ["{npc:12277} is held in the centaur camp west of the graveyard. Free her and keep her alive on the walk out; she stops by the graveyard."] = "{npc:12277}, mezarlığın batısındaki centaur kampında tutsak. Onu kurtar ve çıkış yürüyüşünde hayatta tut; mezarlığın yanında durur.",
-	-- ["{npc:11626}'s caravan stops on the road east of {area:606}. Take the quest and walk with the kodos past the {area:602}, killing the demons that jump them; talk to {npc:11596} at his camp east of the {area:596} afterwards."] = "{npc:11626} adlı NPC'nin kervanı {area:606} köyünün doğusunda, yolda duruyor. Görevi al ve kodolarla birlikte {area:602} çukurunu geçerek yürü, onlara saldıran iblisleri öldür; ardından {area:596} mezarlığının doğusundaki kampında {npc:11596} ile konuş.",
-	-- maybe now: ["The demons gather at the {area:602} in southern {zone:1443}: felhounds (Mana Eaters, Mage and Ley Hunters), Nether Maidens and Sisters, and Doomwarder Captains around the pit.\nCareful: Most of the mobs here walk patrol routes, so you can easily pull extra mobs."]
-	-- ["The demons gather at the {area:602} in southern {zone:1443}: felhounds (Mana Eaters, Mage and Ley Hunters), Nether Maidens and Sisters, and Doomwarder Captains around the pit."] = "İblisler {zone:1443} bölgesinin güneyindeki {area:602} çukurunda toplanıyor: felhound yaratıkları (Mana Eater, Mage Hunter ve Ley Hunter), Nether Maiden ve Nether Sister, çukurun çevresinde de Doomwarder Captain yaratıkları.",
 }

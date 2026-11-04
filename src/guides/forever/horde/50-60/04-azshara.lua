@@ -112,16 +112,4 @@ return {
 	-- {quest:79095} The Apothecary's Metaphysical Primer · {area:159} Brill
 	-- plural, as words: Library Books = {object:386691} Library Book
 	["Only with {quest:79095} from {area:159}'s alchemy shop in your bags (the Library Books guide)"] = "Yalnızca {area:159} kasabasının Alchemy dükkânından aldığın {quest:79095} çantandaysa (Library Books rehberi)",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Fly to the {area:380}"] = "{area:380} kavşağına uç",
-	-- ["In the {object:172961}. Have the Wool, Silk and Mageweave in your bags."] = "{object:172961} içinde. Wool, Silk ve Mageweave çantanda olsun.",
-	-- ["Both {item:14047} donations are handed in later in the route: start saving {item:14047}."] = "İki {item:14047} bağışı da rotanın ilerleyen kısmında teslim edilir: {item:14047} biriktirmeye başla.",
-	-- ["Rimtori's camp is at the east end of the base camp. Read the {object:151286} there, then kill the Magus."] = "Rimtori'nin kampı ana kampın doğu ucunda. Oradaki {object:151286} kitabını oku, sonra Magus'u öldür.",
-	-- maybe now: ["Fly to {zone:1454}; {npc:4485} is in the {object:172958}."]
-	-- ["Fly to {area:1637}; {npc:4485} is in the {object:172958}."] = "{area:1637} şehrine uç; {npc:4485}, {object:172958} içinde.",
-	-- maybe now: ["Zeppelin to {zone:1458}"]
-	-- ["Zeppelin to the {zone:1458}"] = "Zeplinle {zone:1458} şehrine",
-	-- ["The zeppelin tower stands just north-east of {zone:1454}'s main gate; take the {zone:1458} zeppelin."] = "Zeplin kulesi {zone:1454} ana kapısının hemen kuzeydoğusunda; {zone:1458} zeplinine bin.",
-	-- ["Zeppelin tower"] = "Zeplin kulesi",
 }

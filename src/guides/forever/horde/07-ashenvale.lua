@@ -281,26 +281,4 @@ return {
 	-- Step 74: Freewind Post
 	-- {zone:1454} Orgrimmar
 	["The next guide flies on from here to {zone:1454}."] = "Sonraki rehber buradan {zone:1454} şehrine uçarak devam ediyor.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Fly from {area:392} to {area:2897} on the {zone:1440} coast."] = "{area:392} limanından {zone:1440} kıyısındaki {area:2897} karakoluna uç.",
-	-- ["East of Zoram'gar, the Thistlefur furbolgs fill the village and the hills around their hold."] = "Zoram'gar'ın doğusunda Thistlefur furbolgları köyü ve kalelerinin çevresindeki tepeleri dolduruyor.",
-	-- ["Inside the hold, Troll Chests lie along the tunnels. {npc:12818} is held deep inside: free him and protect him all the way out, then he runs home to {area:428}."] = "Hold'un içinde, tüneller boyunca Troll Chest sandıkları duruyor. {npc:12818} derinlerde tutsak: onu kurtar ve çıkışa kadar koru, sonra o koşarak {area:428} kampına döner.",
-	-- maybe now: ["{npc:210995} may not offer these to every class; if he doesn't, carry on.; walks around {area:1276}: the map marks where to look"]
-	-- ["{npc:210995} may not offer these to every class; if he doesn't, carry on."] = "{npc:210995} bunları her sınıfa vermeyebilir; vermezse devam et.",
-	-- ["{npc:12867} stands at the lumber camp. The night elf Outrunners stalk the woods south-east of it; they stealth, so watch for them."] = "{npc:12867} kereste kampında duruyor. Night Elf Outrunner yaratıkları kampın güneydoğusundaki ormanda sinsice dolaşıyor; gizlenirler, dikkatli ol.",
-	-- ["North up the road to {area:431} and {area:428} beside it."] = "Yoldan kuzeye, {area:431} karakoluna ve yanındaki {area:428} kampına git.",
-	-- maybe now: ["Fly to {area:1638} if you know the flight path. If not, fly to {area:378}, head west into {area:215} past {area:222} to {area:1638} and take its flight path from {npc:2995} on the central rise."]
-	-- ["Fly to {area:1638} if you know the flight path. If not, fly to {area:378}, head west into {zone:1412} past {area:222} to {area:1638} and take its flight path from {npc:2995} on the central rise."] = "Uçuş noktasını biliyorsan {area:1638} şehrine uç. Bilmiyorsan {area:378} kampına uç, batıya {zone:1412} bölgesine geç, {area:222} köyünü geçip {area:1638} şehrine git ve ortadaki tepede {npc:2995} adlı NPC'den uçuş noktasını aç.",
-	-- maybe now: ["Fly from {zone:1456} to {area:378}. {npc:5899}'s hut stands on the ridge above the quilboar watering hole south of the camp, on the road to the {area:485}."]
-	-- ["Fly from {zone:1456} to {area:378}. {npc:5899}'s hut stands on the ridge above the quilboar watering hole south of the camp, on the road to the {area:1718}."] = "{zone:1456} şehrinden {area:378} kampına uç. {npc:5899} adlı NPC'nin kulübesi kampın güneyinde, {area:1718} yolunda, quilboar su birikintisinin yukarısındaki sırtta.",
-	-- ["Fly from {zone:1456} to {area:378} and take the road south to the {area:1718} at the bottom of the {zone:1413}."] = "{zone:1456} şehrinden {area:378} kampına uç ve yolu güneye, {zone:1413} bölgesinin en altındaki {area:1718} asansörüne kadar izle.",
-	-- ["{npc:10079}, at the top of the lift"] = "{npc:10079}, asansörün tepesinde",
-	-- maybe now: ["{npc:4877}, the trade supplies vendor: the Screeching harpies of {area:487}; inside"]
-	-- ["{npc:4877}, the trade supplies vendor: the Screeching harpies of {area:487}"] = "{npc:4877}, meslek malzemeleri satıcısı: {area:487} inindeki Screeching harpy yaratıkları",
-	-- ["Grimtotem camps"] = "Grimtotem kampları",
-	-- ["Follow the canyon west to {area:2237}."] = "Kanyonu batıya izleyerek {area:2237} karakoluna git.",
-	-- maybe now: ["West of Whitereach the wyverns nest on the {area:482} cliffs; the eggs lie in the nests. {npc:10427} waits on the east side of the nesting grounds: free him and keep him alive on the walk back to {area:2237}.\nCareful: Wyverns at level 28-29 fly overhead and can be pulled without warning. A group of three wyverns can ambush you once you pass the first pillar at the bottom."]
-	-- ["West of Whitereach the wyverns nest on the {area:482} cliffs; the eggs lie in the nests. {npc:10427} waits on the east side of the nesting grounds: free him and keep him alive on the walk back to {area:2237}."] = "Whitereach'in batısında wyvern yaratıkları {area:482} uçurumlarında yuva yapmış; yumurtalar yuvalarda. {npc:10427} yuvalama alanının doğu yakasında bekliyor: onu kurtar ve {area:2237} karakoluna dönüş yürüyüşünde hayatta tut.",
-	-- ["The salt flats"] = "Tuz düzlükleri",
 }

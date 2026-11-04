@@ -171,7 +171,7 @@ return {
 	-- Step 37: Green Hills pages
 	["Green Hills pages"] = "Green Hills sayfaları",
 	-- {item:2755} Green Hills of Stranglethorn · {npc:716} Barnil Stonepot
-	["Pages of The {item:2755} drop at about 1% each from the Bloodscalp and Skullsplitter trolls; keep every page you loot and look on the auction house for the rest. {npc:716} takes the chapters later in this guide."] = "The {item:2755} sayfaları Bloodscalp ve Skullsplitter trollarından her biri yaklaşık yüzde 1 olasılıkla düşer; loot ettiğin her sayfayı sakla, kalanlara Auction House'ta bak. Bölümleri bu rehberin ilerleyen kısmında {npc:716} alır.",
+	["Pages of The {item:2755} drop at about 1% each from the Bloodscalp and Skullsplitter trolls; keep every page you loot and look on the auction house for the rest. {npc:716} takes the chapters later in this guide."] = "The {item:2755} sayfaları Bloodscalp ve Skullsplitter trollarından her biri yaklaşık yüzde 1 olasılıkla düşer; loot ettiğin her sayfayı sakla, kalanlara müzayede evinde bak. Bölümleri bu rehberin ilerleyen kısmında {npc:716} alır.",
 
 	-- Step 38: Shadowmaw panthers
 	["Shadowmaw panthers"] = "Shadowmaw panterleri",
@@ -200,42 +200,4 @@ return {
 	["Top up here to level 36 before the hand-ins at {area:321}: they take you to level 37."] = "{area:321} teslimlerinden önce burada seviye 36 olana kadar kas: teslimler seni seviye 37 yapar.",
 	-- {npc:1142} Mosh'Ogg Brute
 	["grind on {npc:1142}"] = "Kas: {npc:1142}",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Leave the {zone:1458} by the lift and walk up through the ruins to the zeppelin towers; the {object:3202} zeppelin is the one on the south-west tower."] = "Asansörle {zone:1458} şehrinden çık ve harabelerden geçerek zeplin kulelerine yürü; {object:3202} zeplini güneybatı kulesindeki.",
-	-- ["Zeppelin towers"] = "Zeplin kuleleri",
-	-- ["Take the {zone:1454} zeppelin from the tower on the west side of {object:3202} and train in the city before you fly on."] = "{object:3202} kampının batı yakasındaki kuleden {zone:1454} zeplinine bin ve uçmaya devam etmeden önce şehirde eğitimini al.",
-	-- maybe now: ["Take the {area:1637} zeppelin from the tower on the west side of {object:3202} and fly to {area:392}. {npc:5901} camps on the coast a short walk south of it."]
-	-- ["Take the {zone:1454} zeppelin from the tower on the west side of {object:3202} and fly to {area:392}. {npc:5901} camps on the coast a short walk south of it."] = "{object:3202} kampının batı yakasındaki kuleden {zone:1454} zeplinine bin ve {area:392} limanına uç. {npc:5901} limanın biraz güneyinde, kıyıda kamp kurmuş.",
-	-- ["Back to {object:3202}"] = "{object:3202} kampına dön",
-	-- ["Young tigers and panthers"] = "Genç kaplanlar ve panterler",
-	-- ["Young Stranglethorn Tigers prowl west of the camp, Young Panthers south and east of it."] = "Young Stranglethorn Tiger yaratıkları kampın batısında, Young Panther yaratıkları güneyinde ve doğusunda dolaşıyor.",
-	-- ["Tigers and panthers"] = "Kaplanlar ve panterler",
-	-- ["Raptors and the Bloodscalp trolls"] = "Raptorlar ve Bloodscalp trolları",
-	-- maybe now: ["Young Stranglethorn Tigers prowl west of the camp, Young Panthers south and east of it.\nHead west past the camp. Stranglethorn Raptors (33-34) hunt the clearings, and the Bloodscalp trolls hold the ruins on the coast: every Bloodscalp can drop a tusk. A {item:4614} is a very rare drop from them: if one drops, read it.\nCareful: The troll camps have many patrolling mobs, so other trolls often join a fight."]
-	-- ["Head west past the camp. Stranglethorn Raptors (33-34) hunt the clearings, and the Bloodscalp trolls hold the ruins on the coast: every Bloodscalp can drop a tusk. A {item:4614} is a very rare drop from them: if one drops, read it."] = "Kampı geçerek batıya git. Stranglethorn Raptor yaratıkları (33-34) açıklıklarda avlanıyor, kıyıdaki harabeleri de Bloodscalp trolları tutuyor: her Bloodscalp bir diş düşürebilir. Onlardan çok nadiren {item:4614} düşer: düşerse oku.",
-	-- maybe now: ["The Elder Stranglethorn Tigers (34-35) roam the hills south-west of the camp; the Lashtail Raptors (35-36) hunt further south, towards {object:3202}.\nCareful: Troll camps are close to the tiger area, and trolls can join a fight if you pull carelessly."]
-	-- ["The Elder Stranglethorn Tigers (34-35) roam the hills south-west of the camp; the Lashtail Raptors (35-36) hunt further south, towards {object:3202}."] = "Elder Stranglethorn Tiger yaratıkları (34-35) kampın güneybatısındaki tepelerde dolaşıyor; Lashtail Raptor yaratıkları (35-36) daha güneyde, {object:3202} yönünde avlanıyor.",
-	-- ["{npc:729}, a level 37 tiger, prowls the hilltop south-west of the camp."] = "Seviye 37 bir kaplan olan {npc:729}, kampın güneybatısındaki tepenin üstünde dolaşıyor.",
-	-- ["Bloodscalp headhunters"] = "Bloodscalp kelle avcıları",
-	-- ["The Bloodscalp Headhunters (36-37) in the village on the coast carry the shrunken heads."] = "Küçültülmüş kafaları kıyıdaki köyde bulunan Bloodscalp Headhunter yaratıkları (36-37) taşıyor.",
-	-- ["Hearth to {object:3202}"] = "Hearthstone ile {object:3202} kampına dön",
-	-- ["Basilisks and the Bloodscalp village"] = "Basiliskler ve Bloodscalp köyü",
-	-- ["West past the camp, Crystal Spine Basilisks (34-35) sit on the rocks; every Bloodscalp in the village beyond can drop an ear."] = "Kampın batısında Crystal Spine Basilisk yaratıkları (34-35) kayaların üzerinde duruyor; ilerideki köydeki her Bloodscalp bir kulak düşürebilir.",
-	-- ["Lashtail raptors"] = "Lashtail raptorları",
-	-- ["Shadowmaw jungle and the Snapjaw river"] = "Shadowmaw ormanı ve Snapjaw nehri",
-	-- maybe now: ["East of the ogres, Shadowmaw Panthers (37-38) stalk unseen until they strike; the Stranglethorn Tigresses roam the same ground and now and then drop a pristine fang. Snapjaw Crocolisks line the river just west of the jungle; keep their skins for {npc:2495}.\nCareful: Shadowmaw Panthers (level 37-38) and Elder Shadowmaw Panthers (level 42-43) use Sneak while out of combat, so they remain hidden until you get near them."]
-	-- ["East of the ogres, Shadowmaw Panthers (37-38) stalk unseen until they strike; the Stranglethorn Tigresses roam the same ground and now and then drop a pristine fang. Snapjaw Crocolisks line the river just west of the jungle; keep their skins for {npc:2495}."] = "Ogreların doğusunda Shadowmaw Panther yaratıkları (37-38) saldırana kadar görünmeden dolaşır; Stranglethorn Tigress yaratıkları da aynı yerde dolaşır ve arada bir kusursuz bir diş düşürür. Snapjaw Crocolisk yaratıkları ormanın hemen batısında nehir boyunca diziliyor; derilerini {npc:2495} için sakla.",
-	-- ["Bloodscalp ruins"] = "Bloodscalp harabeleri",
-	-- maybe now: ["The Bloodscalp Headhunters (36-37) in the village on the coast carry the shrunken heads.\nThe Bloodscalp trolls hold the ruins up the coast north of the reef and the village beyond; every one can drop a {item:3915}. Keep looting pages of {quest:338}."]
-	-- ["The Bloodscalp trolls hold the ruins up the coast north of the reef and the village beyond; every one can drop a {item:3915}. Keep looting pages of {quest:338}."] = "Bloodscalp trolları resifin kuzeyinde kıyıdaki harabeleri ve ilerideki köyü tutuyor; her biri {item:3915} düşürebilir. {quest:338} sayfalarını loot etmeye devam et.",
-	-- ["Head back south to {object:3202}."] = "Güneye, {object:3202} kampına dön.",
-	-- ["Pages of The {item:2755} drop at about 1% each from the Bloodscalp and Skullsplitter trolls; take what drops and check the Auction House for the rest."] = "The {item:2755} sayfaları Bloodscalp ve Skullsplitter trollarından her biri yaklaşık yüzde 1 olasılıkla düşer; düşenleri al, kalanlar için Auction House'a bak.",
-	-- ["Jungle Stalkers"] = "Jungle Stalker yaratıkları",
-	-- ["The Jungle Stalkers (40-41) hunt the coast south of {object:3202}. They are well above you: pull one at a time and rest between fights."] = "Jungle Stalker yaratıkları (40-41) {object:3202} kampının güneyindeki kıyıda avlanıyor. Senden epey yüksekler: tek tek çek ve dövüşler arasında dinlen.",
-	-- ["Mistvale gorillas"] = "Mistvale gorilleri",
-	-- ["Take the road south towards {area:35}. The Elder Mistvale Gorillas (40-41) live in {area:1737}, east of the road; about one in twenty carries an aged sinew."] = "Güneye, {area:35} yönüne giden yolu tut. Elder Mistvale Gorilla yaratıkları (40-41) yolun doğusundaki {area:1737} vadisinde yaşıyor; yaklaşık yirmide birinde yaşlı bir kiriş var.",
-	-- ["Follow the road on south into {area:35}."] = "Yolu güneye izleyerek {area:35} limanına gir.",
-	-- ["{npc:2495}: the Snapjaw skins gathered earlier"] = "{npc:2495}: daha önce topladığın Snapjaw derileri",
-	-- ["The next guide flies you north to {area:272} and into the {zone:1417}."] = "Sonraki rehber seni kuzeye, {area:272} kasabasına ve {zone:1417} bölgesine uçuruyor.",
 }

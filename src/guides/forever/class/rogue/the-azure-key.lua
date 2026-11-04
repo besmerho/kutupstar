@@ -52,15 +52,4 @@ return {
 	["Lord Ravenholdt"] = "Lord Ravenholdt",
 	-- {item:19982} Duskbat Drape · {item:19984} Ebon Mask · {item:20255} Whisperwalk Boots
 	["Look at the reward window before you hand in: Classic offered the {item:19982}, the {item:19984} or the {item:20255}, and Forever's notes say the choice may be gone."] = "Teslim etmeden önce ödül penceresine bak: Classic {item:19982}, {item:19984} ya da {item:20255} öneriyordu, Forever'ın notları ise seçimin kalkmış olabileceğini söylüyor.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["Ravenholdt reputation and experience at 50; Classic's item choice may be gone on Forever."]
-	-- ["Ravenholdt reputation and experience at 50; Forever removed the Classic item choice."] = "Seviye 50'de Ravenholdt itibarı ve deneyim puanı; Forever Classic'teki eşya seçimini kaldırdı.",
-	-- maybe now: ["At 50 {npc:918} in {zone:1453}'s {object:2100} has it; so do Syurna in {zone:1457} and {npc:5165} in {zone:1455}."]
-	-- ["At 50 {npc:918} in {zone:1453}'s {object:2100} has it; so do Syurna in {zone:1457} and {npc:5165} and Fenthwick in {zone:1455}."] = "Seviye 50'de {zone:1453} şehrinin {object:2100} semtindeki {npc:918} verir; {zone:1457} şehrinde Syurna, {zone:1455} şehrinde {npc:5165} ve Fenthwick de verir.",
-	-- ["{area:3486} hides in the hills east of {area:272}, up a path into the {zone:1416}. Horde fly to {area:272}, Alliance to {area:271}."] = "{area:3486}, {area:272} kasabasının doğusundaki tepelerde, {zone:1416} bölgesine çıkan bir patikanın yukarısında saklı. Horde {area:272} kasabasına, Alliance {area:271} kasabasına uçar.",
-	-- ["Alliance fly to {area:3137}, Horde to {area:1237}. The Timbermaw Shamans in {zone:1447}'s northern hills drop the bag, about one in thirty."] = "Alliance {area:3137} burnuna, Horde {area:1237} kampına uçar. Çantayı {zone:1447} bölgesinin kuzey tepelerindeki Timbermaw Shaman yaratıkları düşürür, yaklaşık otuzda bir.",
-	-- ["The Forest Oozes of southern {zone:1447} drop the fragments."] = "Parçaları {zone:1447} bölgesinin güneyindeki Forest Ooze yaratıkları düşürür.",
-	-- ["Morphaz, a green drake, is an elite boss deep in the {area:1417}, a level 50 dungeon: bring a group of five. The temple stands in the {area:74}; swim down to the entrance. Horde: fly to {area:75}; Alliance: fly to {area:1438} and ride on."] = "Yeşil bir ejder olan Morphaz, seviye 50 bir zindan olan {area:1417} içinin derinliklerinde elit bir boss: beş kişilik bir grup getir. Tapınak {area:74} gölünde; girişe dalarak in. Horde: {area:75} kasabasına uç; Alliance: {area:1438} kalesine uç ve devam et.",
-	-- ["{npc:6768}: no item choices in Forever"] = "{npc:6768}: Forever'da eşya seçimi yok",
 }

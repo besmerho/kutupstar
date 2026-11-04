@@ -186,9 +186,9 @@ return {
 
 	-- Step 42: Undercity
 	-- {quest:515} Elixir of Agony · {item:3388} Strong Troll's Blood Potion · {skill:171} Alchemy · {area:287} Hillsbrad
-	["{quest:515} needs a {item:3388}, an {skill:171} item: buy one at the auction house here if you can (or ask an alchemist). No potion: skip the Elixir steps in {area:287}."] = "{quest:515} için bir {item:3388} gerekir; bu bir {skill:171} ürünü: elinden gelirse buradaki Auction House'tan bir tane al (ya da bir Alchemy ustasına sor). İksir yoksa {area:287} bölgesindeki Elixir adımlarını atla.",
+	["{quest:515} needs a {item:3388}, an {skill:171} item: buy one at the auction house here if you can (or ask an alchemist). No potion: skip the Elixir steps in {area:287}."] = "{quest:515} için bir {item:3388} gerekir; bu bir {skill:171} ürünü: elinden gelirse buradaki müzayede evinden bir tane al (ya da bir Alchemy ustasına sor). İksir yoksa {area:287} bölgesindeki Elixir adımlarını atla.",
 	-- {item:3388} Strong Troll's Blood Potion · {quest:515} Elixir of Agony
-	["{item:3388}: auction house or an alchemist, for {quest:515}."] = "{item:3388}: {quest:515} için Auction House ya da bir Alchemy ustası.",
+	["{item:3388}: auction house or an alchemist, for {quest:515}."] = "{item:3388}: {quest:515} için müzayede evi ya da bir Alchemy ustası.",
 
 	-- Step 43: Brazier of Everfount
 	-- {zone:1458} Undercity · {area:228} Sepulcher · {object:113791} Brazier of Everfount · {npc:5895} Minor Manifestation of Water · {item:7813} Shard of Water · {npc:5901} Islen Waterseer · {area:272} Tarren Mill
@@ -281,36 +281,4 @@ return {
 	-- Step 65: Tarren Mill
 	-- {area:272} Tarren Mill
 	["Head back south to {area:272}."] = "Güneye, {area:272} kasabasına dön.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["From {area:484}, fly to {area:1637}."] = "{area:484} karakolundan {area:1637} şehrine uç.",
-	-- ["Your trainer is in {area:1638}, one flight away: {npc:3033} (Druids) on {area:1639}, {npc:246344} (Paladins). Fly on to {area:460} from there."] = "Eğitmenin bir uçuş uzaklıktaki {area:1638} şehrinde: {area:1639} tepesinde {npc:3033} (Druid), {npc:246344} (Paladin). Oradan {area:460} sığınağına uç.",
-	-- ["Gizelton caravan"] = "Gizelton kervanı",
-	-- ["Follow the road south-west out of Sun Rock into {zone:1443} and on south past {area:608}. {npc:11625}'s kodo caravan waits by the road north of {area:609}; if it has already left, head on."] = "Yolu güneybatıya izleyerek Sun Rock'tan çık, {zone:1443} bölgesine gir ve {area:608} karakolunu geçip güneye devam et. {npc:11625} adlı NPC'nin kodo kervanı {area:609} köyünün kuzeyinde, yolun kenarında bekliyor; çoktan yola çıktıysa devam et.",
-	-- ["The caravan rolls south past {area:609}. Kolkar raiders ambush it in waves: kill them before they reach {npc:11625}. It stops by {area:2617}, east of {area:597}."] = "Kervan {area:609} köyünü geçerek güneye ilerliyor. Kolkar akıncıları dalgalar halinde pusu kurar: {npc:11625} adlı NPC'ye ulaşmadan onları öldür. Kervan {area:597} karakolunun doğusunda, {area:2617} kampının yanında durur.",
-	-- maybe now: ["North along the eastern hills, the satyrs hold the ruins of {area:603}. The Shadowstalkers walk unseen; the four kinds you need do not.\nCareful: Hatefury Rogues use Hide when they spawn, so they are stealthed until you find them."]
-	-- ["North along the eastern hills, the satyrs hold the ruins of {area:603}. The Shadowstalkers walk unseen; the four kinds you need do not."] = "Doğu tepeleri boyunca kuzeyde, satirler {area:603} harabelerini tutuyor. Shadowstalker yaratıkları görünmeden dolaşır; ihtiyacın olan dört tür ise görünür.",
-	-- ["Back at {area:609}, every Kolkar can drop an ear."] = "Yine {area:609} köyünde: her Kolkar bir kulak düşürebilir.",
-	-- ["The Seer stands on the south side of {area:599}, east of {area:2405}. Clear the cultists around it first."] = "Seer, {area:2405} harabelerinin doğusunda, {area:599} kalesinin güney yakasında duruyor. Önce çevresindeki tarikatçıları temizle.",
-	-- ["His next errand is not on this route."] = "Sonraki işi bu rotada değil.",
-	-- ["Head south-west towards Shadowprey. The Gelkis centaurs (32-35) around their village are a good camp; fight them until level 32."] = "Güneybatıya, Shadowprey yönüne git. Köylerinin çevresindeki Gelkis centaurları (32-35) seviye kasmak için iyi bir yer; seviye 32 olana kadar onlarla dövüş.",
-	-- ["grind on Gelkis Stampers and Windchasers at the {area:606}, {zone:1443}"] = "{zone:1443} bölgesindeki {area:606} köyünde Gelkis Stamper ve Gelkis Windchaser yaratıklarıyla seviye kas",
-	-- ["Zeppelin to the {area:1497}"] = "Zeplinle {area:1497} şehrine",
-	-- ["Leave {zone:1454} by the main gate; the zeppelin tower stands just north-east of it. Take the {area:1497} zeppelin."] = "{zone:1454} şehrinden ana kapıdan çık; zeplin kulesi kapının hemen kuzeydoğusunda. {area:1497} zeplinine bin.",
-	-- ["Zeppelin tower"] = "Zeplin kulesi",
-	-- maybe now: ["{npc:260093} trains Paladins in the {zone:1458}."]
-	-- ["{npc:260093} trains Paladins in the {area:1497}."] = "{npc:260093}, {area:1497} şehrinde Paladin eğitiyor.",
-	-- maybe now: ["Do your shopping in the {zone:1458} first, then fly to the {area:228}. The {object:113791} stands on the hill just south-west of it: beat the Corrupt Manifestation of Water beside it, place its bracers in the brazier, speak to the {npc:5895} and keep the {item:7813} for {npc:5901}. Fly on to {area:272} from the {area:228}."]
-	-- ["Do your shopping in the {area:1497} first, then fly to the {area:228}. The {object:113791} stands on the hill just south-west of it: beat the Corrupt Manifestation of Water beside it, place its bracers in the brazier, speak to the {npc:5895} and keep the {item:7813} for {npc:5901}. Fly on to {area:272} from the {area:228}."] = "Önce {area:1497} şehrinde alışverişini yap, sonra {area:228} mezarlığına uç. {object:113791} onun hemen güneybatısındaki tepede duruyor: yanındaki Corrupt Manifestation of Water yaratığını yen, bileziklerini mangala koy, {npc:5895} ile konuş ve {item:7813} eşyasını {npc:5901} için sakla. {area:228} mezarlığından {area:272} kasabasına uç.",
-	-- ["{npc:4551}, the bat handler"] = "{npc:4551}, yarasa bakıcısı",
-	-- ["Hearth back (or head north if it is on cooldown)."] = "Hearthstone ile dön (bekleme süresindeyse kuzeye yürü).",
-	-- maybe now: ["Place the {object:1729} on the {object:1728} beside the inn; upstairs"]
-	-- ["Place the {object:1729} on the {object:1728} beside the inn"] = "{object:1729} fıçısını hanın yanındaki {object:1728} halısının üzerine koy",
-	-- maybe now: ["Head west along the foot of the mountains to the violet dome of {area:279}. {npc:2411}, {npc:2412} and {npc:2413} (33-34) stand together inside the crater's eastern rim, {npc:2414} (35) a little west of them; each carries one Bloodstone piece. The Shield Guards and Theurgists (31-32) around them drop the Worn Stone Tokens.\nCareful: Many guards stand in linked pairs and others patrol alone around the camp."]
-	-- ["Head west along the foot of the mountains to the violet dome of {area:279}. {npc:2411}, {npc:2412} and {npc:2413} (33-34) stand together inside the crater's eastern rim, {npc:2414} (35) a little west of them; each carries one Bloodstone piece. The Shield Guards and Theurgists (31-32) around them drop the Worn Stone Tokens."] = "Dağların eteği boyunca batıya, {area:279} şehrinin mor kubbesine git. {npc:2411}, {npc:2412} ve {npc:2413} (33-34) kraterin doğu kenarının içinde birlikte duruyor, {npc:2414} (35) biraz batılarında; her birinde bir Bloodstone parçası var. Worn Stone Token eşyalarını çevrelerindeki Shield Guard ve Theurgist yaratıkları (31-32) düşürür.",
-	-- maybe now: ["Head north past {quest:535}'s camp to {area:280}, the Syndicate-held village (35-37). {npc:2431} carries the {item:3704}; {quest:503} sits in a cage in the house on the north side.\nCareful: Stealthed Syndicate spies roam {area:280}, and the buildings hold many Syndicate mobs, mages among them."]
-	-- ["Head north past {quest:535}'s camp to {area:280}, the Syndicate-held village (35-37). {npc:2431} carries the {item:3704}; {quest:503} sits in a cage in the house on the north side."] = "Kuzeye, {quest:535} kampını geçerek Syndicate'in tuttuğu köy {area:280} köyüne (35-37) git. {item:3704} eşyası {npc:2431} adlı NPC'de; {quest:503} kuzey yakadaki evde bir kafeste oturuyor.",
-	-- maybe now: ["Fly to {area:1497}"]
-	-- ["Fly to the {area:1497}"] = "{area:1497} şehrine uç",
-	-- ["The next guide starts in the {area:1497}, at the {object:3202} zeppelin."] = "Sonraki rehber {area:1497} şehrinde, {object:3202} zeplininde başlıyor.",
 }

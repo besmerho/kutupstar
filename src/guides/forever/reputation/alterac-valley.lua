@@ -166,26 +166,4 @@ return {
 	["Exalted gives the Legacy Point \"Master of Alterac Valley\" and the last two insignia, 400 reputation that no longer counts for anything but the insignia. {npc:13219} sells the {item:19029} (200g, level 60; its own guide), {item:19325} and {item:21563} (75g56s), {item:19323} (156g49s), {item:19321} (79g53s), {item:19324} (125g66s) and the 50g tomes and off-hands."] = "Exalted, \"Master of Alterac Valley\" Legacy Point'ini ve son iki nişanı verir; bu, artık nişan dışında hiçbir şeye sayılmayan 400 itibar. {npc:13219}, {item:19029} (200g, seviye 60; kendi rehberi var), {item:19325} ve {item:21563} (75g56s), {item:19323} (156g49s), {item:19321} (79g53s), {item:19324} (125g66s) ile 50g'lık kitapları ve yan el eşyalarını satıyor.",
 	-- {npc:13219} Jekyll Flandring
 	["{npc:13219}: Exalted rewards"] = "{npc:13219}: Exalted ödülleri",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["The {faction:730} holds {area:2959} in the north of {zone:1459}. Destroying towers, taking graveyards and mines, and killing captains and generals all pay reputation to the whole team. Loot {quest:7223} from fallen enemies for {npc:13257}. Forever's Legacy Diplomat perk increases reputation gains."] = "{faction:730}, {zone:1459} bölgesinin kuzeyindeki {area:2959} kalesini tutuyor. Kuleleri yıkmak, mezarlıkları ve madenleri almak, kaptanları ve generalleri öldürmek takımın tamamına itibar kazandırır. {npc:13257} için düşen düşmanlardan {quest:7223} loot et. Forever'ın Legacy Diplomat ayrıcalığı itibar kazancını artırır.",
-	-- ["{npc:12096}: Irondeep and {item:17542} from the mines"] = "{npc:12096}: madenlerden Irondeep ve {item:17542}",
-	-- ["{faction:730} to Honored"] = "{faction:730}: Honored olana kadar",
-	-- ["Keep winning {zone:1459}. More {quest:7223} ({npc:13257}), Storm Crystals for {npc:13442} (they summon {npc:13419}) and Frostwolf Hides for the {npc:13577} all repeat."] = "{zone:1459} kazanmaya devam et. More {quest:7223} ({npc:13257}), {npc:13442} için Storm Crystal ({npc:13419} yaratığını çağırırlar) ve {npc:13577} için Frostwolf Hide görevlerinin hepsi tekrarlanır.",
-	-- ["{npc:13257}: More {quest:7223}"] = "{npc:13257}: More {quest:7223}",
-	-- ["{npc:13442}: Crystal Cluster"] = "{npc:13442}: Crystal Cluster",
-	-- ["{faction:730} to Revered"] = "{faction:730}: Revered olana kadar",
-	-- ["Full games that kill {npc:11946} after the towers fall pay the most."] = "En çok, kuleler düştükten sonra {npc:11946} öldürülen tam maçlar kazandırır.",
-	-- ["{faction:730} to Exalted"] = "{faction:730}: Exalted olana kadar",
-	-- ["Exalted with the {faction:730} earns a Legacy Point."] = "{faction:730} ile Exalted olmak bir Legacy Point kazandırır.",
-	-- ["The {faction:729} holds {area:2978} in the south of {zone:1459}. Destroying towers, taking graveyards and mines, and killing captains and generals all pay reputation to the whole team. Loot {item:17422} from fallen enemies for {npc:13176}. Forever's Legacy Diplomat perk increases reputation gains."] = "{faction:729}, {zone:1459} bölgesinin güneyindeki {area:2978} kalesini tutuyor. Kuleleri yıkmak, mezarlıkları ve madenleri almak, kaptanları ve generalleri öldürmek takımın tamamına itibar kazandırır. {npc:13176} için düşen düşmanlardan {item:17422} loot et. Forever'ın Legacy Diplomat ayrıcalığı itibar kazancını artırır.",
-	-- ["{npc:12097}: Coldtooth and {item:17522} from the mines"] = "{npc:12097}: madenlerden Coldtooth ve {item:17522}",
-	-- ["{faction:729} to Honored"] = "{faction:729}: Honored olana kadar",
-	-- ["Keep winning {zone:1459}. More Booty! ({npc:13176}), {item:17306} for {npc:13236} (it summons {npc:13256}) and Alterac Ram Hides for the {npc:13441} all repeat."] = "{zone:1459} kazanmaya devam et. More Booty! ({npc:13176}), {npc:13236} için {item:17306} ({npc:13256} yaratığını çağırır) ve {npc:13441} için Alterac Ram Hide görevlerinin hepsi tekrarlanır.",
-	-- ["{npc:13176}: More Booty!"] = "{npc:13176}: More Booty!",
-	-- ["{npc:13236}: A Gallon of Blood"] = "{npc:13236}: A Gallon of Blood",
-	-- ["{faction:729} to Revered"] = "{faction:729}: Revered olana kadar",
-	-- ["Full games that kill {npc:11948} after the towers fall pay the most."] = "En çok, kuleler düştükten sonra {npc:11948} öldürülen tam maçlar kazandırır.",
-	-- ["{faction:729} to Exalted"] = "{faction:729}: Exalted olana kadar",
-	-- ["Exalted with the {faction:729} earns a Legacy Point."] = "{faction:729} ile Exalted olmak bir Legacy Point kazandırır.",
 }

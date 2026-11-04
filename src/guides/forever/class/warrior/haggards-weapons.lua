@@ -100,13 +100,4 @@ return {
 	-- Step 20: Back to Marshal Haggard
 	-- {npc:294} Marshal Haggard
 	["Back to {npc:294}"] = "{npc:294} yanına dön",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Haggard's Weapons"] = "Haggard'ın silahları",
-	-- maybe now: ["{spell:71} at 10 and a one-hand weapon of your choice from {zone:1453}, {zone:1455} or {zone:1457}."]
-	-- ["{spell:71} and a one-hand weapon of your choice at 10."] = "Seviye 10'da {spell:71} ve seçeceğin tek elli bir silah.",
-	-- ["{npc:5480} trains warriors in {object:2100}; {npc:6089} and {npc:6090} stand together by the {object:2152} there. {npc:6090} fights you for his mug."] = "{npc:5480}, {object:2100} semtinde Warrior eğitiyor; {npc:6089} ve {npc:6090} oradaki {object:2152} yanında birlikte duruyor. {npc:6090} kupası için seninle dövüşür.",
-	-- ["{npc:294}'s house is in eastern {zone:1429}, south of the road from {zone:1453} to Redridge."] = "{npc:294} adlı NPC'nin evi {zone:1429} bölgesinin doğusunda, {zone:1453} şehrinden Redridge'e giden yolun güneyinde.",
-	-- ["{npc:6093} camps in the far south-east of {zone:1429}, south-east of {npc:294}. He carries the key to the strongbox in his camp."] = "{npc:6093}, {zone:1429} bölgesinin en güneydoğusunda, {npc:294} adlı NPC'nin güneydoğusunda kamp kurmuş. Kampındaki kasanın anahtarını taşıyor.",
-	-- ["{npc:6093}: his key opens the strongbox"] = "{npc:6093}: anahtarı kasayı açar",
 }

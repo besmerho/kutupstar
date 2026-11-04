@@ -36,9 +36,9 @@ return {
 
 	-- Step 6: Raw Brilliant Smallfish
 	-- {item:6291} Raw Brilliant Smallfish · {npc:8674} Auctioneer Stampi · {npc:3028} Kah Mistrunner · {skill:356} Fishing · {npc:3029} Sewa Mistrunner · {item:6256} Fishing Pole · {item:6529} Shiny Bauble
-	["Buy a {item:6291} at the Auction House ({npc:8674}, north of the pool), or fish one yourself: {npc:3028} trains {skill:356} and {npc:3029} beside him sells the {item:6256} and a {item:6529}; the pool on the main mesa gives smallfish at any skill."] = "Auction House'dan ({npc:8674}, havuzun kuzeyinde) bir {item:6291} al ya da kendin tut: {npc:3028} {skill:356} öğretir, yanındaki {npc:3029} de {item:6256} ve bir {item:6529} satar; ana tepedeki havuz her beceride smallfish verir.",
+	["Buy a {item:6291} at the Auction House ({npc:8674}, north of the pool), or fish one yourself: {npc:3028} trains {skill:356} and {npc:3029} beside him sells the {item:6256} and a {item:6529}; the pool on the main mesa gives smallfish at any skill."] = "Müzayede evinden ({npc:8674}, havuzun kuzeyinde) bir {item:6291} al ya da kendin tut: {npc:3028} {skill:356} öğretir, yanındaki {npc:3029} de {item:6256} ve bir {item:6529} satar; ana tepedeki havuz her beceride smallfish verir.",
 	-- {item:6291} Raw Brilliant Smallfish
-	["{item:6291}: the Auction House, or the pool"] = "{item:6291}: Auction House ya da havuz",
+	["{item:6291}: the Auction House, or the pool"] = "{item:6291}: müzayede evi ya da havuz",
 
 	-- Step 7: Fish Chunks
 	["Fish Chunks"] = "Balık parçaları",

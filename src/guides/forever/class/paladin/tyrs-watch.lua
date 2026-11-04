@@ -104,7 +104,7 @@ return {
 	-- Step 17: Linen Cloth
 	-- {npc:257648} Tanis Alderwood · {item:2589} Linen Cloth
 	-- plural, as words: Scarlet Zealots = {npc:1537} Scarlet Zealot
-	["{npc:257648} needs 10 {item:2589}. Humanoids drop it: the Scarlet Zealots and Friars of the glades about three kills in ten. The Undercity Auction House sells it too."] = "{npc:257648} 10 {item:2589} istiyor. İnsansılar düşürür: bozkırlardaki Scarlet Zealot ve Friar'lar aşağı yukarı on öldürmede üç. Undercity Auction House da satar.",
+	["{npc:257648} needs 10 {item:2589}. Humanoids drop it: the Scarlet Zealots and Friars of the glades about three kills in ten. The Undercity Auction House sells it too."] = "{npc:257648} 10 {item:2589} istiyor. İnsansılar düşürür: bozkırlardaki Scarlet Zealot ve Friar'lar aşağı yukarı on öldürmede üç. Undercity müzayede evi da satar.",
 	-- {item:2589} Linen Cloth
 	["{item:2589} x10"] = "{item:2589} x10",
 
@@ -130,32 +130,4 @@ return {
 	-- Step 22: Redemption
 	-- {area:16602} Bandarion Keep · {npc:246378} Danitha Morr · {spell:7328} Redemption
 	["Back to {area:16602}, across the whole glades: Billmuth downstairs takes the plans, {npc:246378} teaches you {spell:7328}."] = "Bütün bozkırları aşarak {area:16602} kalesine dön: alt kattaki Billmuth planları alır, {npc:246378} sana {spell:7328} öğretir.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["Tyr's Watch and {spell:7328} (Forsaken)"]
-	-- ["Tyr's Watch and {spell:7328}"] = "Tyr's Watch ve {spell:7328}",
-	-- ["{npc:246152}, who trains Paladins in {area:159}, sends you to the order's keep on the west coast."] = "{area:159} kasabasında Paladin eğiten {npc:246152} seni tarikatın batı kıyısındaki kalesine gönderir.",
-	-- ["{area:16602} stands on the bluffs north-west of the {area:156}. {npc:246349} waits at the gate."] = "{area:16602}, {area:156} çiftliğinin kuzeybatısındaki yamaçlarda. {npc:246349} kapıda bekliyor.",
-	-- maybe now: ["The Vile Fin murlocs (level 9-11) lurk on the bluffs along the road east of the keep and in the camps around the lake to the south-west, on the way down to {area:16881}."]
-	-- ["The Vile Fin murlocs lurk on the bluffs along the road east of the keep and in the camps around the lake to the west."] = "Vile Fin murlocları kalenin doğusundaki yol boyunca yamaçlarda ve batıdaki gölün çevresindeki kamplarda pusuda bekliyor.",
-	-- maybe now: ["Vile Fin Attackers x8"]
-	-- ["Vile Fin Attackers"] = "Vile Fin Attacker yaratıkları",
-	-- maybe now: ["Vile Fin Seers x8"]
-	-- ["Vile Fin Seers"] = "Vile Fin Seer yaratıkları",
-	-- maybe now: ["{npc:246378} leads the order from inside the keep; {npc:246393} stands beside it. {quest:91317} need level 9."]
-	-- ["{npc:246378} leads the order from inside the keep; {npc:246393} stands beside it."] = "{npc:246378} tarikatı kalenin içinden yönetiyor; {npc:246393} yanında duruyor.",
-	-- ["{quest:91317} hold the ruined village of {area:16881} in the {area:16616}, south-west of the keep. The {item:246213} is piled in the root cellar of one of its houses; Commander {npc:259431} walks among his Tarnished."] = "{quest:91317}, kalenin güneybatısında, {area:16616} ormanındaki yıkık köy {area:16881} yerini tutuyor. {item:246213}, evlerinden birinin kilerinde yığılı; komutan {npc:259431} Tarnished'larının arasında dolaşıyor.",
-	-- ["{object:554626}, in the root cellar"] = "{object:554626}, kilerde",
-	-- maybe now: ["Tarnished Drudges x8"]
-	-- ["Tarnished Drudges"] = "Tarnished Drudge yaratıkları",
-	-- maybe now: ["Tarnished Zealots x6"]
-	-- ["Tarnished Zealots"] = "Tarnished Zealot yaratıkları",
-	-- ["{npc:246378} offers the first Lesson in Divinity at level 12."] = "{npc:246378} ilk Lesson in Divinity görevini seviye 12'de verir.",
-	-- ["{npc:257648} needs 10 {item:2589}. Scarlet Zealots and Scarlet Friars drop it about three times in ten; bring it along if you already carry some."] = "{npc:257648} 10 {item:2589} istiyor. Scarlet Zealot ve Scarlet Friar yaratıkları onda üç kadar düşürür; zaten biraz taşıyorsan yanında getir.",
-	-- maybe now: ["Back to {area:16602}. {npc:246378} gives you the {item:6866}; {npc:257655} waits downstairs in the keep. If you lose the symbol, {npc:246378} gives you another."]
-	-- ["Back to {area:16602}. {npc:246378} gives you the {item:6866}; {npc:257655} waits downstairs in the keep."] = "{area:16602} kalesine dön. {npc:246378} sana {item:6866} verir; {npc:257655} kalenin alt katında bekliyor.",
-	-- ["{area:812} is at the far east end of the glades. Use the {item:6866} on {npc:257663}, then speak to him. If you lose the symbol, {npc:246378} gives you another."] = "{area:812}, ormanlık açıklıkların en doğu ucunda. {npc:257663} üzerinde {item:6866} kullan, sonra onunla konuş. Sembolü kaybedersen {npc:246378} sana bir tane daha verir.",
-	-- ["The Scarlet Crusaders camped around {area:812} carry the attack plans."] = "Saldırı planları {area:812} vadisinin çevresinde kamp kurmuş Scarlet Crusader yaratıklarında.",
-	-- maybe now: ["Back to {area:16602}, across the whole glades: Billmuth downstairs takes the plans, {npc:246378} teaches you {spell:7328}."]
-	-- ["Back to {area:16602}: Billmuth takes the plans, {npc:246378} teaches you {spell:7328}."] = "{area:16602} kalesine dön: Billmuth planları alır, {npc:246378} sana {spell:7328} öğretir.",
 }

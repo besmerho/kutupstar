@@ -23,10 +23,4 @@ return {
 	["Back to the dead drop"] = "Gizli teslim noktasına dön",
 	-- {object:410369} Dead Drop
 	["Place the eye in the {object:410369} near Pyrewood. Check a capital mailbox for C's payment letter on your next planned city visit, then return here for the reward quest. The payment may not be available immediately; do not repeat the infiltration just because the reward has not appeared."] = "Gözü Pyrewood yakınındaki {object:410369} sandığına koy. Planladığın bir sonraki şehir ziyaretinde C'nin ödeme mektubu için bir başkent posta kutusuna bak, sonra ödül görevi için buraya dön. Ödeme hemen gelmeyebilir; ödül görünmedi diye sızmayı tekrarlama.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["The {object:410369} is a chest near {area:204} in southern Silverpine, just south of {area:236}. C's next note waits there once you are 25."] = "{object:410369}, Silverpine'ın güneyinde, {area:236} kalesinin hemen güneyinde, {area:204} köyünün yakınında bir sandık. Seviye 25 olunca C'nin sonraki notu orada bekler.",
-	-- ["The monastery stands in the far north-east of {zone:1420}. Go in alone; C advises a disguise from the monastery's grounds before you enter."] = "Manastır {zone:1420} bölgesinin en kuzeydoğusunda. Tek başına gir; C girmeden önce manastırın arazisinden bir kılık edinmeni öneriyor.",
-	-- ["Find the Eye of Bhossca inside the {area:796}."] = "{area:796} içinde Eye of Bhossca'yı bul.",
-	-- ["Place the eye in the {object:410369} near Pyrewood. C's payment is the second Eye of Bhossca quest at the same chest."] = "Gözü Pyrewood yakınındaki {object:410369} içine koy. C'nin ödemesi aynı sandıktaki ikinci Eye of Bhossca görevi.",
 }

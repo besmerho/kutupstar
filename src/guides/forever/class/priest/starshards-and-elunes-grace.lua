@@ -112,10 +112,4 @@ return {
 	["{quest:5675}: Rohan's letter"] = "{quest:5675}: Rohan'ın mektubu",
 	-- {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {area:17203} Stormwind Harbor · {area:150} Menethil Harbor · {area:442} Auberdine · {area:702} Rut'theran Village
 	["Hand Rohan's letter to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "Rohan'ın mektubunu {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} ile teslim et: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemi, oradan {area:702} köyüne gemi, sonra portalla yukarı, {zone:1457} şehrine.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["The Night Elf priest spells: {spell:10797} at 10, {spell:2651} at 20. Free, no objectives."]
-	-- ["The Night Elf priest spells: {spell:10797} at 10, {spell:2651} at 20."] = "Night Elf Priest büyüleri: seviye 10'da {spell:10797}, seviye 20'de {spell:2651}.",
-	-- ["At 10, go to {npc:11401} in the Temple of the Moon. Priest trainers elsewhere ({npc:3600} in {area:186}, {npc:377} in {area:87}, {npc:1226} in {area:131}) send you to her with {quest:5628}."] = "Seviye 10'da Temple of the Moon içindeki {npc:11401} yanına git. Başka yerlerdeki Priest eğitmenleri ({area:186} köyünde {npc:3600}, {area:87} kasabasında {npc:377}, {area:131} kasabasında {npc:1226}) seni {quest:5628} göreviyle ona gönderir.",
-	-- ["At 20, {npc:11401} teaches {quest:5672}. {npc:376} in {zone:1453} and {npc:11406} in {zone:1455} send you to her with a quest of the same name."] = "Seviye 20'de {npc:11401} {quest:5672} öğretir. {zone:1453} şehrindeki {npc:376} ve {zone:1455} şehrindeki {npc:11406} seni aynı adlı bir görevle ona gönderir.",
 }

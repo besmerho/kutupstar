@@ -414,39 +414,4 @@ return {
 	["Take the boat to {zone:1453} from {area:442}'s docks."] = "{area:442} iskelelerinden {zone:1453} gemisine bin.",
 	-- {area:17203} Stormwind Harbor · {zone:1429} Elwynn Forest · {zone:1436} Westfall
 	["From {area:17203}, head through the city gates into {zone:1429} and follow the road west to {zone:1436}."] = "{area:17203} limanından şehir kapılarından geçerek {zone:1429} bölgesine çık ve yolu batıya izleyerek {zone:1436} bölgesine git.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["{npc:3595}: in at the tree's front entrance and up the ramp; upstairs"]
-	-- ["{npc:3595}: in at the tree's front entrance and up the ramp"] = "{npc:3595}: ağacın ön girişinden gir ve rampayı çık",
-	-- maybe now: ["Mangy Nightsabers and Thistle Boars roam north of {area:256}, on the way to the cave. {npc:1994} sits deep inside."]
-	-- ["Mangy Nightsabers and Thistle Boars roam north of {area:256}, on the way to the cave. {npc:8584} waits in the trees west of the cave mouth; {npc:1994} sits deep inside."] = "Mangy Nightsaber ve Thistle Boar yaratıkları {area:256} ağacının kuzeyinde, mağaraya giden yolda dolaşıyor. {npc:8584} mağara ağzının batısındaki ağaçların arasında bekliyor; {npc:1994} mağaranın derinliklerinde.",
-	-- ["Webwood Spiders"] = "Webwood Spider yaratıkları",
-	-- maybe now: ["{npc:3593}, the warrior trainer; inside"]
-	-- ["{npc:3593}, the warrior trainer"] = "{npc:3593}, Warrior eğitmeni",
-	-- maybe now: ["{npc:8584} is a little further north-west. {quest:3522} lasts five minutes: fill the phial and go straight on to him."]
-	-- ["The moonwell sits north of {area:256}; {npc:8584} is a little further north-west. {quest:3522} lasts five minutes: fill the phial and go straight on to him."] = "Ay kuyusu {area:256} ağacının kuzeyinde; {npc:8584} biraz daha kuzeybatıda. {quest:3522} beş dakika sürer: şişeyi doldur ve doğruca onun yanına git.",
-	-- ["{quest:488} and the Starbreeze moonwell"] = "{quest:488} ve Starbreeze ay kuyusu",
-	-- maybe now: ["Nightsabers, Strigid Owls and Webwood Lurkers roam all around {area:186} and along the road east; the lurkers also drop the recipe's spider legs. The moonwell is at the west edge of {area:260}."]
-	-- ["Nightsabers, Strigid Owls and Webwood Lurkers roam all around {area:186} and along the road east. The moonwell is at the west edge of {area:260}."] = "Nightsaber, Strigid Owl ve Webwood Lurker yaratıkları {area:186} köyünün her yanında ve doğuya giden yol boyunca dolaşıyor. Ay kuyusu {area:260} köyünün batı kenarında.",
-	-- ["{npc:2150}, on the way back"] = "{npc:2150}, dönüş yolunda",
-	-- ["{area:186} quests"] = "{area:186} görevleri",
-	-- ["Speak with {npc:6286}, south of the inn"] = "Hanın güneyindeki {npc:6286} ile konuş",
-	-- ["East to {area:260}"] = "Doğuya, {area:260} köyüne",
-	-- ["Fel Cones lie under the trees all around {area:186} and {npc:2150}. Nightsabers and Webwood Lurkers keep roaming the road east. {object:126158} is in the house on the hill at the east end of the village."] = "Fel Cone nesneleri {area:186} köyünün ve {npc:2150} adlı NPC'nin çevresindeki ağaçların altında duruyor. Nightsaber ve Webwood Lurker yaratıkları doğuya giden yolda dolaşmayı sürdürüyor. {object:126158}, köyün doğu ucundaki tepede bulunan evin içinde.",
-	-- maybe now: ["South-west of Starbreeze, south of {npc:2150}. {npc:2080} tends his saplings on the shore; Lasher Sproutlings and Timberlings wander around him, and the {quest:919} grow among them."]
-	-- ["South of Zenn. {npc:2080} tends his saplings on the shore; Lasher Sproutlings and Timberlings wander around him, and the {quest:919} grow among them."] = "Zenn'in güneyinde. {npc:2080} kıyıda fidanlarıyla ilgileniyor; Lasher Sproutling ve Timberling yaratıkları çevresinde dolaşıyor, {quest:919} filizleri de onların arasında yetişiyor.",
-	-- ["{npc:7318}, in the den"] = "{npc:7318}, inin içinde",
-	-- ["Gnarlpine Mystics and Ferocitas camp north-east of {area:260}. Ferocitas drops the {item:8049}: open it for the jewel."] = "Gnarlpine Mystic yaratıkları ve Ferocitas, {area:260} köyünün kuzeydoğusunda kamp kurmuş. Ferocitas {item:8049} düşürür: mücevher için onu aç.",
-	-- maybe now: ["{npc:3567}, back in {area:186}; upstairs"]
-	-- ["{npc:3567}, back in {area:186}"] = "{npc:3567}, yine {area:186} köyünde",
-	-- ["Take the road north-west from {area:186} towards the {area:264}; she lies hurt beside it."] = "{area:186} köyünden kuzeybatıya, {area:264} yönüne giden yolu tut; yolun kenarında yaralı yatıyor.",
-	-- maybe now: ["Use the {item:18152} at the moonwell"]
-	-- ["Use the {item:5623} at the moonwell"] = "{item:5623} eşyasını ay kuyusunda kullan",
-	-- ["The Bloodfeather harpies nest on the slopes west and north of the glade."] = "Bloodfeather harpy yaratıkları açıklığın batısındaki ve kuzeyindeki yamaçlarda yuva yapmış.",
-	-- ["Walk south along the west side of the island. Ursal prowls the far south, below the {area:478}."] = "Adanın batı yakası boyunca güneye yürü. Ursal en güneyde, {area:478} havuzlarının aşağısında dolaşıyor.",
-	-- maybe now: ["Learn the flight path from {npc:3841} where you land. {npc:4200}'s fish stall is just north of her, by the docks.\nThe boat docks west of the village. The flight master stands on the hill south of the inn; the quest givers are spread along the main street."]
-	-- ["Learn the flight path from {npc:3841} where you land. {npc:4200}'s fish stall is just north of her, by the docks."] = "İndiğin yerde {npc:3841} adlı NPC'den uçuş noktasını aç. {npc:4200} balık tezgâhı onun hemen kuzeyinde, iskelelerin yanında.",
-	-- maybe now: ["Cast {spell:18960}. {npc:11802} is in {area:2361}; the {quest:5929} sits in the woods to the north-west. Then {npc:11800} in {area:2361} flies Druids straight to {area:702}, no flight path needed."]
-	-- ["Cast {spell:18960}. {npc:11802} is in {area:2361}; the {quest:5929} sits in the woods to the north-west. Learn the {area:493} flight path in {area:2361} and fly to {area:702} (by way of {area:442})."] = "{spell:18960} büyüsünü kullan. {npc:11802}, {area:2361} köyünde; {quest:5929} kuzeybatıdaki ormanda. {area:2361} köyünde {area:493} uçuş noktasını aç ve {area:702} köyüne uç ({area:442} üzerinden).",
-	-- ["From the harbour walk into {object:2100}. {npc:5480} trains warriors there; {npc:6089} and {npc:6090} stand together by the {object:2152}. {npc:6090} fights you for his mug."] = "Limandan {object:2100} semtine yürü. {npc:5480} orada Warrior eğitiyor; {npc:6089} ve {npc:6090} {object:2152} meyhanesinin yanında birlikte duruyor. {npc:6090} kupası için seninle dövüşür.",
 }

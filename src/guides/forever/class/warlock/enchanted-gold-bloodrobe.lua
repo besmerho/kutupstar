@@ -28,11 +28,11 @@ return {
 	["{item:5770} and a {item:3577}"] = "{item:5770} ve bir {item:3577}",
 	-- {item:5770} Robes of Arcana · {item:2776} Gold Ore · {npc:6266} Menara Voidrender
 	-- plural, as words: Gold Bars = {item:3577} Gold Bar
-	["Tailors sew the {item:5770} from a rare pattern; miners smelt Gold Bars from {item:2776}. Everyone else buys both at the Auction House. If you wear the robe, take it off: {npc:6266} keeps it."] = "Terziler {item:5770} cübbesini nadir bir kalıptan diker; madenciler {item:2776} eritip Gold Bar yapar. Diğer herkes ikisini de Auction House'dan alır. Cübbeyi giyiyorsan çıkar: {npc:6266} onu alıkoyar.",
+	["Tailors sew the {item:5770} from a rare pattern; miners smelt Gold Bars from {item:2776}. Everyone else buys both at the Auction House. If you wear the robe, take it off: {npc:6266} keeps it."] = "Terziler {item:5770} cübbesini nadir bir kalıptan diker; madenciler {item:2776} eritip Gold Bar yapar. Diğer herkes ikisini de müzayede evinden alır. Cübbeyi giyiyorsan çıkar: {npc:6266} onu alıkoyar.",
 	-- {item:5770} Robes of Arcana
-	["{item:5770}: the Auction House"] = "{item:5770}: Auction House",
+	["{item:5770}: the Auction House"] = "{item:5770}: müzayede evi",
 	-- {item:3577} Gold Bar
-	["{item:3577}: the Auction House"] = "{item:3577}: Auction House",
+	["{item:3577}: the Auction House"] = "{item:3577}: müzayede evi",
 
 	-- Step 6: Menara Voidrender
 	-- {npc:6266} Menara Voidrender · {npc:6251} Strahad Farsan · {area:392} Ratchet · {npc:2670} Xizk Goodstitch · {area:35} Booty Bay
@@ -76,22 +76,4 @@ return {
 	["Back to {npc:6266} with the thread, the coals and a {item:6265}. Then wait beside her while she works the robe (do not attack her: the quest log calls it a kill), and speak to her again."] = "İplik, kömürler ve bir {item:6265} ile {npc:6266} yanına dön. Sonra o cübbe üzerinde çalışırken yanında bekle (ona saldırma: görev günlüğü buna öldürme diyor) ve onunla yeniden konuş.",
 	-- {npc:6266} Menara Voidrender
 	["Wait beside {npc:6266} while she finishes the robe"] = "{npc:6266} cübbeyi bitirirken yanında bekle",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["At 31 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:6266} in {area:392}. Buy a {item:5770} and a {item:3577} first (next steps) to save a trip."]
-	-- ["At 31 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:6266} in {area:392}."] = "Seviye 31'de {object:2101} semtindeki {object:2164} içinde bulunan {npc:461}, seni {area:392} kasabasındaki {npc:6266} yanına gönderir.",
-	-- ["At 31 {npc:5172} in {zone:1455} sends you to {npc:6266} in {area:392}."] = "Seviye 31'de {zone:1455} şehrindeki {npc:5172}, seni {area:392} kasabasındaki {npc:6266} yanına gönderir.",
-	-- maybe now: ["At 31 {npc:3326} in the {object:172960} sends you to {npc:6266} in {area:392}. Buy a {item:5770} and a {item:3577} first (next steps) to save a trip."]
-	-- ["At 31 {npc:3326} in the {object:172960} sends you to {npc:6266} in {area:392}."] = "Seviye 31'de {object:172960} içindeki {npc:3326}, seni {area:392} kasabasındaki {npc:6266} yanına gönderir.",
-	-- maybe now: ["At 31 {npc:4563} in the {object:36082} sends you to {npc:6266} in {area:392}; the zeppelin from {zone:1420} flies to {zone:1411}. Buy a {item:5770} and a {item:3577} first (next steps) to save a trip."]
-	-- ["At 31 {npc:4563} in the {object:36082} sends you to {npc:6266} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}."] = "Seviye 31'de {object:36082} semtindeki {npc:4563}, seni {area:392} kasabasındaki {npc:6266} yanına gönderir. {zone:1420} bölgesinden kalkan zeplin {zone:1411} bölgesine gider.",
-	-- ["{npc:6266} stands in the tower on the hill above {area:392}, beside {npc:6251}."] = "{npc:6266}, {area:392} kasabasının yukarısındaki tepede, kulede {npc:6251} adlı NPC'nin yanında duruyor.",
-	-- ["Bring {npc:6266} a {item:5770}: tailors sew it from a pattern that drops; otherwise buy one at the Auction House. Her next errand needs a {item:3577}: smelted from {item:2776}, or from the Auction House."] = "{npc:6266} adlı NPC'ye bir {item:5770} getir: terziler bunu düşen bir kalıptan diker; yoksa müzayede evinden satın al. Sonraki işi bir {item:3577} gerektirir: {item:2776} eritilerek yapılır ya da müzayede evinden alınır.",
-	-- ["{npc:2670} sells tailoring supplies in {area:35}. Bring him the {item:3577}."] = "{npc:2670}, {area:35} limanında terzilik malzemesi satıyor. Ona {item:3577} getir.",
-	-- ["The Hatefury satyrs of {area:603}, in north-eastern {zone:1443}, carry the blood; the Lesser Infernals of Mannoroc Coven, in the south, the stone."] = "Kanı {zone:1443} bölgesinin kuzeydoğusundaki {area:603} içindeki Hatefury satirleri, taşı güneydeki Mannoroc Coven'in Lesser Infernal yaratıkları taşıyor.",
-	-- ["{npc:2670} in {area:35} has the thread for you."] = "{area:35} limanındaki {npc:2670} ipliği sana verir.",
-	-- ["The Burning Exiles, fire elementals in western {zone:1417}, drop the coal."] = "Kömürü {zone:1417} bölgesinin batısındaki ateş elementalleri, Burning Exile yaratıkları düşürür.",
-	-- maybe now: ["Back to {npc:6266} with the thread, the coals and a {item:6265}. Then wait beside her while she works the robe (do not attack her: the quest log calls it a kill), and speak to her again."]
-	-- ["Back to {npc:6266} with the thread, the coal and a {item:6265}. Wait while she completes the robe, then speak to her again."] = "İplik, kömür ve bir {item:6265} ile {npc:6266} yanına dön. Cüppeyi bitirene kadar bekle, sonra onunla yeniden konuş.",
-	-- ["Wait for the robe"] = "Cüppeyi bekle",
 }

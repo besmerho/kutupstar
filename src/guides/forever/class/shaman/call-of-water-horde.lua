@@ -102,18 +102,4 @@ return {
 	["Back to {npc:5901} south of {area:392}. Keep the {item:5177} in your bags for good: every water totem needs it."] = "{area:392} kasabasının güneyindeki {npc:5901} yanına dön. {item:5177} eşyasını sürekli çantanda tut: her water totem ona ihtiyaç duyar.",
 	-- {npc:5901} Islen Waterseer · {spell:5394} Healing Stream Totem · {item:5177} Water Totem
 	["{npc:5901}: {spell:5394} and your {item:5177}"] = "{npc:5901}: {spell:5394} ve {item:5177} eşyan",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["At 20 {npc:5892} in the {object:172957} sends you to {npc:5901} in the {zone:1413}. (Swart in {area:362} gives the same letter: carry either.)"]
-	-- ["At 20 {npc:5892} in the {object:172957} sends you to {npc:5901} in the {zone:1413}."] = "Seviye 20'de {object:172957} vadisindeki {npc:5892}, seni {zone:1413} bölgesindeki {npc:5901} yanına gönderir.",
-	-- maybe now: ["At 20 {npc:5906}, a shaman trainer on {area:1640} in {zone:1456}, sends you to {npc:5901} in the {zone:1413}. ({npc:3066} in {area:222} gives the same letter: carry either.)"]
-	-- ["At 20 {npc:5906}, a shaman trainer in {zone:1456}, sends you to {npc:5901} in the {zone:1413}."] = "Seviye 20'de {zone:1456} şehrindeki bir Shaman eğitmeni olan {npc:5906}, seni {zone:1413} bölgesindeki {npc:5901} yanına gönderir.",
-	-- ["{npc:5901} waits on the hill south of {area:392}."] = "{npc:5901}, {area:392} kasabasının güneyindeki tepede bekliyor.",
-	-- ["{npc:5899}'s hut stands on the ridge above the quilboar watering hole, south of {area:378}."] = "{npc:5899} adlı NPC'nin kulübesi {area:378} kampının güneyinde, quilboar sulağının yukarısındaki sırtta.",
-	-- ["Fill the {item:7766} at the quilboar watering hole"] = "{item:7766} eşyasını quilboar sulağında doldur",
-	-- ["Take the zeppelin from {zone:1454} to {zone:1420} and travel south to {area:272}. The {object:107045} stands beside the inn."] = "{zone:1454} şehrinden zeplinle {zone:1420} bölgesine geç ve güneye, {area:272} kasabasına git. {object:107045} hanın yanında.",
-	-- ["Fill the {item:7768} at the {object:107045}"] = "{item:7768} eşyasını {object:107045} başında doldur",
-	-- ["The fountain stands in the middle of the {area:418}, in south-western {zone:1440}."] = "Çeşme {zone:1440} bölgesinin güneybatısındaki {area:418} harabelerinin ortasında.",
-	-- ["Fill the {item:7767} at the fountain"] = "{item:7767} eşyasını çeşmede doldur",
-	-- ["Fly to the {area:228}: the {object:113791} stands on the hill just south-west of it. Drink the {item:6637} there, beat the {npc:5894} for its bracers and place them in the brazier, then speak to the {npc:5895} and keep the {item:7813} for {npc:5901}."] = "{area:228} kasabasına uç: {object:113791} kasabanın hemen güneybatısındaki tepede. Orada {item:6637} iç, bileklikleri için {npc:5894} yaratığını yen ve bileklikleri mangala koy, sonra {npc:5895} ile konuş ve {item:7813} eşyasını {npc:5901} için sakla.",
 }

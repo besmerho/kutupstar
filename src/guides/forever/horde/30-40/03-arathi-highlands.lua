@@ -188,7 +188,7 @@ return {
 
 	-- Step 45: The Dustbowl
 	-- {npc:2920} Lucien Tosselwrench · {item:2868} Patterned Bronze Bracers · {skill:164} Blacksmithing
-	["{npc:2920}: only if you carry {item:2868} ({skill:164} or the Auction House)"] = "{npc:2920}: yalnızca sende {item:2868} varsa ({skill:164} ya da Auction House)",
+	["{npc:2920}: only if you carry {item:2868} ({skill:164} or the Auction House)"] = "{npc:2920}: yalnızca sende {item:2868} varsa ({skill:164} ya da müzayede evi)",
 
 	-- Step 46: Kargath
 	-- {area:340} Kargath
@@ -223,37 +223,4 @@ return {
 	-- Step 57: Regthar Deathgate
 	-- {area:380} Crossroads · {area:386} Forgotten Pools · {npc:3389} Regthar Deathgate
 	["Head north up the road from the {area:380} to the {area:386}; {npc:3389} keeps watch on the rise above the water."] = "{area:380} kavşağından yolu kuzeye izleyerek {area:386} havuzlarına git; {npc:3389} suyun yukarısındaki yükseltide nöbet tutuyor.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["From {area:35}, fly to {object:3202}. {object:1661} zeppelin leaves from the tower on the west side of the camp."] = "{area:35} limanından {object:3202} kampına uç. {object:1661} zeplini kampın batı yakasındaki kuleden kalkıyor.",
-	-- maybe now: ["Zeppelin to {zone:1458}"]
-	-- ["Zeppelin to the {zone:1458}"] = "Zeplinle {zone:1458} şehrine",
-	-- ["The zeppelin lands at the towers outside the {zone:1458}: head down into the city and fly to {area:272}."] = "Zeplin {zone:1458} şehrinin dışındaki kulelere iner: aşağıya, şehre in ve {area:272} kasabasına uç.",
-	-- maybe now: ["North-east of Hammerfall the Drywhisker kobolds mine the gorge; the Kobolds at the mouth and the Diggers and Surveyors deeper in all drop the Motes of Myzrael.\nCareful: Every kobold type runs off for help when low on health (Kobolds at 30%, Surveyors and Diggers at 15%), which can pull more of them."]
-	-- ["North-east of Hammerfall the Drywhisker kobolds mine the gorge; the Kobolds at the mouth and the Diggers and Surveyors deeper in all drop the Motes of Myzrael."] = "Hammerfall'un kuzeydoğusunda Drywhisker koboldları boğazda maden kazıyor; ağızdaki Drywhisker Kobold ve daha içerideki Drywhisker Digger ve Drywhisker Surveyor yaratıklarının hepsi Mote of Myzrael düşürür.",
-	-- ["Each {object:180105} is a ring of standing stones; the key sits on the stone at its heart. The eastern circle is on the hills north-west of {area:321}."] = "Her {object:180105} bir dikili taş halkası; anahtar ortadaki taşın üstünde duruyor. Doğu çemberi {area:321} kasabasının kuzeybatısındaki tepelerde.",
-	-- maybe now: ["The Witherbark trolls hold the village in the south-eastern hills. Axe Throwers guard the outer huts; the Witch Doctors and Headhunters hold the heart of the village.\nCareful: All three troll types flee for help at 15% health, which can pull more trolls from the nearby camps."]
-	-- ["The Witherbark trolls hold the village in the south-eastern hills. Axe Throwers guard the outer huts; the Witch Doctors and Headhunters hold the heart of the village."] = "Witherbark trolları güneydoğu tepelerindeki köyü tutuyor. Dış kulübeleri Witherbark Axe Thrower, köyün ortasını ise Witherbark Witch Doctor ve Witherbark Headhunter yaratıkları tutuyor.",
-	-- ["Escort the professor down to the shore. Two Daggerspine naga ambush him on the way: stay close."] = "Profesöre kıyıya kadar eşlik et. Yolda iki Daggerspine nagası pusu kurar: yakınında kal.",
-	-- ["Daggerspine shore"] = "Daggerspine kıyısı",
-	-- ["The Syndicate hold the walled manor and its farm in the north-west; their Highwaymen, Mercenaries and Pathstalkers carry the Bloodstone Amulets."] = "Syndicate kuzeybatıdaki surlu malikâneyi ve çiftliğini tutuyor; Bloodstone Amulet eşyalarını Syndicate Highwayman, Syndicate Mercenary ve Syndicate Pathstalker yaratıkları taşıyor.",
-	-- ["The {object:2689}"] = "{object:2689}",
-	-- ["The western circle is near {area:1857}, where you came in."] = "Batı çemberi, girdiğin yer olan {area:1857} surunun yakınında.",
-	-- ["Rock Elementals"] = "Rock Elemental yaratıkları",
-	-- ["The bigger Rock Elementals stand on the slopes north-west of the {area:1878}; each one drops a slab."] = "Daha büyük Rock Elemental yaratıkları {area:1878} alanının kuzeybatısındaki yamaçlarda duruyor; her biri bir levha düşürür.",
-	-- ["Coyotes and buzzards"] = "Çakallar ve akbabalar",
-	-- maybe now: ["The Elder Crag Coyotes and Giant Buzzards roam the basin south of the {area:1878}. Coyotes drop both the jawbones and the fangs; only the buzzards drop wings and gizzards.\nThe bigger Rock Elementals stand on the slopes north-west of the {area:1878}; each one drops a slab."]
-	-- ["The Elder Crag Coyotes and Giant Buzzards roam the basin south of the {area:1878}. Coyotes drop both the jawbones and the fangs; only the buzzards drop wings and gizzards."] = "Elder Crag Coyote ve Giant Buzzard yaratıkları {area:1878} alanının güneyindeki havzada dolaşıyor. Çakallar hem çene kemiklerini hem dişleri düşürür; kanatları ve taşlıkları yalnızca akbabalar düşürür.",
-	-- ["Greater Rock Elementals"] = "Greater Rock Elemental yaratıkları",
-	-- maybe now: ["Every rock elemental in the {zone:1418} drops {npc:6868}'s shards: the Lesser Rock Elementals (37) on the flats west of {npc:2921}'s camp are the safe ones, about one kill in five. Only the Greater Rock Elementals (42-44, well above you) in the south-western gulches drop {npc:2921}'s bracers, also about one kill in five: pull one at a time and rest between fights, or leave them. Keep killing coyotes and buzzards you still need on the way."]
-	-- ["The Greater Rock Elementals (42-44, well above you) wander the gulches in the south-west; the bracers drop about one kill in five. Pull one at a time and rest between fights, or leave them. Keep killing coyotes and buzzards you still need on the way."] = "Greater Rock Elemental yaratıkları (42-44, senden epey yüksek) güneybatıdaki dere yataklarında dolaşıyor; bilezikler yaklaşık beş öldürmede bir düşer. Tek tek çek ve dövüşler arasında dinlen ya da onları bırak. Yolda hâlâ ihtiyacın olan çakalları ve akbabaları öldürmeye devam et.",
-	-- ["Follow the road north; {npc:4618}'s camp is on the way."] = "Yolu kuzeye izle; {npc:4618} kampı yolun üzerinde.",
-	-- ["Hearth to {area:340}"] = "Hearthstone ile {area:340} kalesine dön",
-	-- ["Take the {zone:1454} zeppelin from the tower on the west side of {object:3202}."] = "{object:3202} kampının batı yakasındaki kuleden {zone:1454} zeplinine bin.",
-	-- ["Zeppelin tower"] = "Zeplin kulesi",
-	-- ["for {npc:5395} in {zone:1443}, in the next guide"] = "{zone:1443} bölgesindeki {npc:5395} için, sonraki rehberde",
-	-- ["Head back south to the {area:380} and fly to {area:392}."] = "Güneye, {area:380} kavşağına dön ve {area:392} limanına uç.",
-	-- ["{item:3713}, for \"Swamp Eye\" Jarl in {zone:1445}"] = "{item:3713}, {zone:1445} bölgesindeki \"Swamp Eye\" Jarl için",
-	-- ["The next guide heads into {zone:1445}."] = "Sonraki rehber {zone:1445} bölgesine gidiyor.",
-	-- ["Head south along the coast from {area:392} to {area:720}. {npc:6236} stands by the arena: step on the grate to start the fight; the challengers come one at a time, then {npc:6238} (33)."] = "Kıyı boyunca {area:392} limanından güneye, {area:720} adasına git. {npc:6236} arenanın yanında duruyor: dövüşü başlatmak için ızgaranın üstüne çık; rakipler teker teker gelir, sonra {npc:6238} (33).",
 }

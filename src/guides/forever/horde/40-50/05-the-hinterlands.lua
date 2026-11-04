@@ -161,38 +161,4 @@ return {
 	-- Step 36: The bloodmages
 	["Ride back north to the bloodmages."] = "Kuzeye, kan büyücülerine dön.",
 	["Their follow-ups ask for the same parts again for a buff item and pay no experience: leave them."] = "Devam görevleri aynı parçaları bir güçlendirme eşyası karşılığında yeniden istiyor ve deneyim puanı vermiyor: bırak.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["{area:1446} flight master"]
-	-- ["From {area:1446}'s flight master."] = "{area:1446} karakolunun uçuş ustasından.",
-	-- ["The northern beasts"] = "Kuzeydeki hayvanlar",
-	-- maybe now: ["The five quests share the same parts: gather them all in one sweep. West of the road the {npc:5982} vultures, Starving Snickerfangs, Scorpok Stingers and Deatheye basilisks share the hills.\nEast of the road the Ashmane boars and Grunters root on the slopes beside the Redstone basilisks. Stay away from the level 52 Helboars further south.\nCareful: Scorpok Stingers use {spell:5416}; {npc:8301} adds Knockdown."]
-	-- ["The five quests share the same parts: gather them all in one sweep. West of the road the {npc:5982} vultures, Starving Snickerfangs, Scorpok Stingers and Deatheye basilisks share the hills."] = "Beş görev aynı parçaları istiyor: hepsini tek turda topla. Yolun batısındaki tepeleri {npc:5982} akbabaları, Starving Snickerfang, Scorpok Stinger ve Deatheye basilisk yaratıkları paylaşıyor.",
-	-- ["The eastern slopes"] = "Doğu yamaçları",
-	-- ["East of the road the Ashmane boars and Grunters root on the slopes beside the Redstone basilisks. Stay away from the level 52 Helboars further south."] = "Yolun doğusunda Ashmane Boar ve Grunter yaratıkları, Redstone basiliskleri ile birlikte yamaçlarda toprağı eşeliyor. Daha güneydeki seviye 52 Helboar yaratıklarından uzak dur.",
-	-- ["Grind to 48"] = "Seviye 48'e kadar kas",
-	-- ["Only if you are not level 48 yet."] = "Yalnızca henüz seviye 48 değilsen.",
-	-- ["Vulture hills"] = "Akbaba tepeleri",
-	-- ["grind on {npc:5982} at the northern hills, {zone:1419}"] = "{zone:1419} bölgesinin kuzey tepelerinde {npc:5982} yaratıklarıyla seviye kas",
-	-- ["Fly to the {area:1497}"] = "{area:1497} şehrine uç",
-	-- ["Ride north back to {area:75} and fly to the {area:1497}."] = "Kuzeye, {area:75} kasabasına dön ve {area:1497} şehrine uç.",
-	-- ["{npc:7825}, the {object:36126}"] = "{npc:7825}, {object:36126}",
-	-- ["{npc:6741}: for {zone:1456}, around level 50"] = "{npc:6741}: {zone:1456} için, seviye 50 civarında",
-	-- maybe now: ["Ride north-east from {area:272} into the {area:47} and east along the road; {npc:7801} camps on the hill south of the elves' {area:350}."]
-	-- ["Ride north-east from {area:272} into the {zone:1425} and east along the road; {npc:7801} camps on the hill south of the elves' {area:350}."] = "{area:272} kasabasından kuzeydoğuya, {zone:1425} bölgesine git ve yol boyunca doğuya ilerle; {npc:7801} elflerin {area:350} köşkünün güneyindeki tepede kamp kurmuş.",
-	-- maybe now: ["The Highvale elves camp around {area:350}. Burn the report, the notes and the records in their camps. {npc:7780} is held inside the lodge: lead him out and fight off the ambush on the way.\nCareful: Groups of about three elves ambush the escort, usually twice."]
-	-- ["The Highvale elves camp around {area:350}. Burn the report, the notes and the records in their camps. {npc:7780} is held inside the lodge: lead him out and fight off the ambush on the way."] = "Highvale elfleri {area:350} köşkünün çevresinde kamp kurmuş. Kamplarındaki raporu, notları ve kayıtları yak. {npc:7780} köşkün içinde tutsak: onu dışarı çıkar ve yoldaki pusuyu püskürt.",
-	-- maybe now: ["Follow the roads east across the {area:47} to the troll village on the eastern coast."]
-	-- ["Follow the roads east across the {zone:1425} to the troll village on the eastern coast."] = "Yolları doğuya izleyerek {zone:1425} bölgesini geç ve doğu kıyısındaki troll köyüne git.",
-	-- ["Saltwater Snapjaws"] = "Saltwater Snapjaw yaratıkları",
-	-- ["The Vilebranch temples"] = "Vilebranch tapınakları",
-	-- ["West of the island, the Vilebranch scalpers hold the temples of {area:1884} and {area:1917}. Slagtree's tools lie at one of the temples."] = "Adanın batısında Vilebranch kafa derisi yüzücüleri {area:1884} ve {area:1917} tapınaklarını tutuyor. Slagtree'nin aletleri tapınaklardan birinde duruyor.",
-	-- ["The central hills"] = "Orta tepeler",
-	-- ["The Silvermane Stalkers, Savage Owlbeasts and Razorbeak Skylords share the hills between the temples and {area:351}. Use the {item:9618} on the owlbeasts you kill. The Skylords also drop Long Elegant Feathers: keep ten for {npc:14738}'s second message."] = "Silvermane Stalker, Savage Owlbeast ve Razorbeak Skylord yaratıkları tapınaklar ile {area:351} arasındaki tepeleri paylaşıyor. Öldürdüğün baykuş yaratıklarının üzerinde {item:9618} kullan. Skylord yaratıkları Long Elegant Feather da düşürür: {npc:14738} adlı NPC'nin ikinci mesajı için on tane sakla.",
-	-- ["Only with the distress beacon: the robot sits at the head of the river west of {area:351}. Escort it east to the shore beyond the {area:307}; its reward waits with Oglethorpe in {area:35}."] = "Yalnızca imdat işareti varsa: robot {area:351} kayasının batısında, nehrin kaynağında. Ona doğuya, {area:307} uçurumlarının ötesindeki kıyıya kadar eşlik et; ödülü {area:35} limanında Oglethorpe'ta.",
-	-- ["Silvermane Howlers"] = "Silvermane Howler yaratıkları",
-	-- ["South-west, the Silvermane Howlers roam the hills east of the Witherbark villages."] = "Güneybatıda Silvermane Howler yaratıkları Witherbark köylerinin doğusundaki tepelerde dolaşıyor.",
-	-- ["Vilebranch soothsayers"] = "Vilebranch kâhinleri",
-	-- maybe now: ["On the way back east, the Vilebranch soothsayers hold the {area:355}, the troll temple south of the central hills. Qiaga and {npc:8636} (elite, 50) stand at its top: take the soothsayers on the lower steps.\nSouth-west, the Silvermane Howlers roam the hills east of the Witherbark villages."]
-	-- ["On the way back east, the Vilebranch soothsayers hold the {area:355}, the troll temple south of the central hills. Qiaga and {npc:8636} (elite, 50) stand at its top: take the soothsayers on the lower steps."] = "Doğuya dönerken: Vilebranch kâhinleri orta tepelerin güneyindeki troll tapınağı {area:355} sunağını tutuyor. Qiaga ve {npc:8636} (elit, 50) tepesinde duruyor: kâhinleri alt basamaklarda hallet.",
 }

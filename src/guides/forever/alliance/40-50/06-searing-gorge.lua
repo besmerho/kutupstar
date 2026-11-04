@@ -126,19 +126,4 @@ return {
 
 	-- Step 39: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["{npc:6734}: the last guide hearths you here, so this usually ticks at once"] = "{npc:6734}: önceki rehber seni Hearthstone ile buraya getirir, bu yüzden bu genelde hemen tamamlanır",
-	-- maybe now: ["From {area:144} ride south into the {zone:1418}, then west past the Horde town of {area:340} (give it room) and up the trail into {area:51}. {area:1446} is the scaffolded camp on the north-west rim."]
-	-- ["From {area:144} ride south into the {zone:1418}, then west past the Horde town of {area:340} (give it room) and up the trail into {zone:1427}. {area:1446} is the scaffolded camp on the north-west rim."] = "{area:144} kasabasından güneye, {zone:1418} bölgesine in, sonra batıya, Horde kasabası {area:340} kalesini (uzak durarak) geç ve patikadan {zone:1427} bölgesine çık. {area:1446}, kuzeybatı kenarındaki iskeleli kamp.",
-	-- ["Golems and elementals"] = "Golemler ve elementaller",
-	-- ["Heavy War Golems patrol the floor of the Cauldron below Kalaran; Magma Elementals drift among them. Golems and elementals drop the oil, elementals the hearts."] = "Heavy War Golem yaratıkları Kalaran'ın aşağısında, Cauldron'un tabanında devriye geziyor; aralarında Magma Elemental yaratıkları süzülüyor. Yağı golemler ve elementaller, yürekleri elementaller düşürür.",
-	-- ["Taskmasters and Slavers drive the slaves all over the Cauldron, and any of them can carry a {item:10551}. The Steamsmiths work at the furnaces in the middle (the {item:18959}), the Lookouts stand on the southern ridges (the Spyglass). Any {object:147516} may drop the {item:11818}: keep it."] = "Taskmaster ve Slaver yaratıkları Cauldron'un her yanında köleleri çalıştırıyor; herhangi biri {item:10551} taşıyor olabilir. Steamsmith yaratıkları ortadaki ocaklarda ({item:18959}), Lookout yaratıkları güney sırtlarında (Spyglass) duruyor. Herhangi bir {object:147516} cücesi {item:11818} düşürebilir: sakla.",
-	-- ["Greater Lava Spiders"] = "Greater Lava Spider yaratıkları",
-	-- ["The spiders roam the plateaus and lava pools in the south-west of the gorge."] = "Örümcekler boğazın güneybatısındaki platolarda ve lav havuzlarında dolaşıyor.",
-	-- maybe now: ["Ride east across the Cauldron to the {area:247} in the south-east. The prisoner in the wooden outhouse wants 15 {item:4306} and eight dead Dark Iron Geologists from the dig site around it. The outhouse also opens with the key, if you found one.\nThe dwarf stands by the road at the dig site. When it is over, read the {object:175704} he leaves on the road in {area:1959}."]
-	-- ["Ride east across the Cauldron to the {area:247} in the south-east. The prisoner in the wooden outhouse wants 15 {item:4306} and eight dead Dark Iron Geologists from the dig site around it. The outhouse also opens with the key, if you found one."] = "Cauldron'u geçerek doğuya, güneydoğudaki {area:247} kazı alanına git. Tahta helanın içindeki tutsak 15 {item:4306} ve çevredeki kazı alanından sekiz ölü Dark Iron Geologist istiyor. Bulduysan hela anahtarla da açılır.",
-	-- ["The dwarf stands by the road at the dig site. Follow him north along the road and fight off the {object:147516} ambushes. When it is over, read the {object:175704} he leaves on the road in {area:1959}."] = "Cüce kazı alanında, yolun kenarında duruyor. Onu yol boyunca kuzeye izle ve {object:147516} pusularını püskürt. Bitince, {area:1959} vadisinde yolda bıraktığı {object:175704} mektubunu oku.",
-	-- maybe now: ["For {npc:8256} in {area:1537}, later"]
-	-- ["For {npc:8256} in {zone:1455}, later"] = "{zone:1455} şehrindeki {npc:8256} için, daha sonra",
 }

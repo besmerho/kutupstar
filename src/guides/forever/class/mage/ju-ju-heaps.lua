@@ -44,9 +44,4 @@ return {
 	["Back to Anastasia"] = "Anastasia'ya dön",
 	-- {npc:4568} Anastasia Hartwell · {item:7507} Arcane Orb · {item:9514} Arcane Staff
 	["{npc:4568}: {item:7507} or {item:9514}"] = "{npc:4568}: {item:7507} ya da {item:9514}",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["A staff or an orb at 10 for Horde mages, worth a short trip back to the {area:368}."] = "Seviye 10'daki Horde Mage'ler için bir asa ya da küre; {area:368} adalarına kısa bir dönüşe değer.",
-	-- ["Un'thuwa stands in {area:367}, on the {zone:1411} coast south of {area:362}."] = "Un'thuwa, {area:362} kasabasının güneyinde, {zone:1411} kıyısındaki {area:367} köyünde duruyor.",
-	-- ["Wade across to the {area:368}, south-east of Sen'jin. Zalazane placed the heaps among his huts on the main isle: click a heap to destroy it."] = "Sığ sudan yürüyerek Sen'jin köyünün güneydoğusundaki {area:368} adalarına geç. Zalazane yığınları ana adadaki kulübelerinin arasına koymuş: yok etmek için bir yığına tıkla.",
 }

@@ -14,7 +14,7 @@ return {
 	["Your first {item:248549} or writ"] = "İlk {item:248549} ya da writ'in",
 	-- {quest:98247} Shipping Label
 	-- plural, as words: Waylaid Crates = {item:248549} Waylaid Crate
-	["From level 10, mobs anywhere drop Waylaid Crates and sealed writs (Journeyman's, Expert's and Artisan's). Fill a crate with one of the bundles it lists (right-click it), or open a sealed writ: by beta reports, the first time you do either you also get a {quest:98247}. Right-click the label to start its quest. Crates and writs can be traded, so the Auction House sells them too."] = "Seviye 10'dan itibaren her yerdeki yaratıklar Waylaid Crate ve mühürlü writ'ler (Journeyman's, Expert's ve Artisan's) düşürür. Bir sandığı listelediği demetlerden biriyle doldur (sağ tıkla) ya da mühürlü bir writ aç: beta raporlarına göre ikisinden birini ilk yaptığında ayrıca bir {quest:98247} da alırsın. Görevini başlatmak için etikete sağ tıkla. Sandıklar ve writ'ler takas edilebilir, bu yüzden Auction House'ta da satılıyor.",
+	["From level 10, mobs anywhere drop Waylaid Crates and sealed writs (Journeyman's, Expert's and Artisan's). Fill a crate with one of the bundles it lists (right-click it), or open a sealed writ: by beta reports, the first time you do either you also get a {quest:98247}. Right-click the label to start its quest. Crates and writs can be traded, so the Auction House sells them too."] = "Seviye 10'dan itibaren her yerdeki yaratıklar Waylaid Crate ve mühürlü writ'ler (Journeyman's, Expert's ve Artisan's) düşürür. Bir sandığı listelediği demetlerden biriyle doldur (sağ tıkla) ya da mühürlü bir writ aç: beta raporlarına göre ikisinden birini ilk yaptığında ayrıca bir {quest:98247} da alırsın. Görevini başlatmak için etikete sağ tıkla. Sandıklar ve writ'ler takas edilebilir, bu yüzden müzayede evinde da satılıyor.",
 
 	-- Step 2: Three Corners: the Shipping Label
 	-- {area:1002} Three Corners · {quest:98247} Shipping Label
@@ -31,7 +31,7 @@ return {
 	-- Step 4: Gather your writs
 	["Gather your writs"] = "Writ'lerini topla",
 	-- {spell:3176} Lesser Troll's Blood Elixir · {item:3388} Strong Troll's Blood Potion
-	["Craftsman's Writs are the camp's reputation: 75 for a Journeyman writ, 125 for an Expert, 200 for an Artisan. Each asks for one crafted item, named in its quest (not always the writ's title: a {spell:3176} writ wants a {item:3388}). Make it or buy it on the Auction House; you need not know the profession. Each writ can be done once a day, and any number of different ones. Take the quest only of writs whose item you have or will buy on the way (right-click the writ), keep the writ in your bags, then tick this: the next steps lead to each customer you hold a writ for."] = "Craftsman's Writ'ler kampın itibarıdır: Journeyman writ için 75, Expert için 125, Artisan için 200. Her biri görevinde adı geçen üretilmiş bir eşya ister (her zaman writ'in başlığı değil: bir {spell:3176} writ'i {item:3388} ister). Yap ya da Auction House'tan al; mesleği bilmen gerekmez. Her writ günde bir kez yapılabilir ve farklı olanlardan istediğin kadar. Yalnızca eşyası sende olan ya da yolda alacağın writ'lerin görevini al (writ'e sağ tıkla), writ'i çantanda tut, sonra bunu işaretle: sonraki adımlar seni writ'ini taşıdığın her müşteriye götürür.",
+	["Craftsman's Writs are the camp's reputation: 75 for a Journeyman writ, 125 for an Expert, 200 for an Artisan. Each asks for one crafted item, named in its quest (not always the writ's title: a {spell:3176} writ wants a {item:3388}). Make it or buy it on the Auction House; you need not know the profession. Each writ can be done once a day, and any number of different ones. Take the quest only of writs whose item you have or will buy on the way (right-click the writ), keep the writ in your bags, then tick this: the next steps lead to each customer you hold a writ for."] = "Craftsman's Writ'ler kampın itibarıdır: Journeyman writ için 75, Expert için 125, Artisan için 200. Her biri görevinde adı geçen üretilmiş bir eşya ister (her zaman writ'in başlığı değil: bir {spell:3176} writ'i {item:3388} ister). Yap ya da müzayede evinden al; mesleği bilmen gerekmez. Her writ günde bir kez yapılabilir ve farklı olanlardan istediğin kadar. Yalnızca eşyası sende olan ya da yolda alacağın writ'lerin görevini al (writ'e sağ tıkla), writ'i çantanda tut, sonra bunu işaretle: sonraki adımlar seni writ'ini taşıdığın her müşteriye götürür.",
 	["Take the quests of the writs you can fill"] = "Doldurabileceğin writ'lerin görevlerini al",
 
 	-- Step 5: Duskwood writ customers
@@ -84,7 +84,7 @@ return {
 	-- {item:4384} Explosive Sheep
 	["An {item:4384} for the writ"] = "Writ için bir {item:4384}",
 	-- {item:4384} Explosive Sheep · {npc:789} Kimberly Hiett · {area:69} Lakeshire
-	["Engineers make the {item:4384}; {npc:789} sells it in {area:69} (Alliance). Otherwise buy one at the Auction House."] = "{item:4384} eşyasını mühendisler yapar; {npc:789} onu {area:69} kasabasında satıyor (Alliance). Yoksa Auction House'tan bir tane al.",
+	["Engineers make the {item:4384}; {npc:789} sells it in {area:69} (Alliance). Otherwise buy one at the Auction House."] = "{item:4384} eşyasını mühendisler yapar; {npc:789} onu {area:69} kasabasında satıyor (Alliance). Yoksa müzayede evinden bir tane al.",
 
 	-- Step 9: Arathi Highlands writ customers
 	-- {zone:1417} Arathi Highlands
@@ -95,7 +95,7 @@ return {
 	["{item:3383}, 75 reputation"] = "{item:3383}, 75 itibar",
 	-- {item:11128} Golden Rod
 	["{item:11128}, 75 reputation"] = "{item:11128}, 75 itibar",
-	["bring it: craft it or buy it at the Auction House"] = "getir: üret ya da Auction House'tan al",
+	["bring it: craft it or buy it at the Auction House"] = "getir: üret ya da müzayede evinden al",
 	-- {item:4384} Explosive Sheep
 	["{item:4384}, 75 reputation"] = "{item:4384}, 75 itibar",
 	-- {item:5958} Fine Leather Pants
@@ -121,7 +121,7 @@ return {
 	-- {item:18662} Heavy Leather Ball
 	["A {item:18662} for the writ"] = "Writ için bir {item:18662}",
 	-- {item:18662} Heavy Leather Ball · {npc:14860} Flik
-	["Leatherworkers make the {item:18662}, and the Auction House has it. Its only vendor is {npc:14860} at the Darkmoon Faire, which Forever has not shown yet: go there only if the Faire is in town."] = "{item:18662} eşyasını Leatherworker'lar yapar ve Auction House'ta bulunur. Tek satıcısı, Forever'ın henüz göstermediği Darkmoon Faire'deki {npc:14860}: yalnızca Faire kasabadaysa oraya git.",
+	["Leatherworkers make the {item:18662}, and the Auction House has it. Its only vendor is {npc:14860} at the Darkmoon Faire, which Forever has not shown yet: go there only if the Faire is in town."] = "{item:18662} eşyasını Leatherworker'lar yapar ve müzayede evinde bulunur. Tek satıcısı, Forever'ın henüz göstermediği Darkmoon Faire'deki {npc:14860}: yalnızca Faire kasabadaysa oraya git.",
 
 	-- Step 12: Alterac Mountains writ customers
 	-- {zone:1416} Alterac Mountains
@@ -161,7 +161,7 @@ return {
 	-- {item:7371} Heavy Quiver
 	["A {item:7371} for the writ"] = "Writ için bir {item:7371}",
 	-- {item:7371} Heavy Quiver · {zone:1453} Stormwind · {zone:1455} Ironforge · {zone:1458} Undercity
-	["Leatherworkers make the {item:7371}; the bow and gun vendors of {zone:1453}, {zone:1455} and the {zone:1458} sell it. Otherwise buy one at the Auction House."] = "{item:7371} eşyasını Leatherworker'lar yapar; {zone:1453}, {zone:1455} ve {zone:1458} şehirlerinin yay ve tüfek satıcıları satıyor. Yoksa Auction House'tan bir tane al.",
+	["Leatherworkers make the {item:7371}; the bow and gun vendors of {zone:1453}, {zone:1455} and the {zone:1458} sell it. Otherwise buy one at the Auction House."] = "{item:7371} eşyasını Leatherworker'lar yapar; {zone:1453}, {zone:1455} ve {zone:1458} şehirlerinin yay ve tüfek satıcıları satıyor. Yoksa müzayede evinden bir tane al.",
 
 	-- Step 15: Stonetalon Mountains writ customers
 	-- {zone:1442} Stonetalon Mountains
@@ -256,7 +256,7 @@ return {
 	-- Step 31: Friendly to Honored
 	["Friendly to Honored"] = "Friendly → Honored",
 	-- {skill:197} Tailoring · {skill:165} Leatherworking · {skill:333} Enchanting · {skill:164} Blacksmithing · {skill:202} Engineering · {skill:171} Alchemy · {skill:185} Cooking · {npc:256742} Dianne Softstep · {area:1002} Three Corners · {npc:256672} Kurvelk Shadowhoof · {area:380} The Crossroads · {item:262902} Forged Delivery Receipt · {item:248549} Waylaid Crate · {item:262917} Notarized Shipping Container · {npc:256390} Marcy Baker · {npc:256386} Dokimi · {quest:93862} Crate Return
-	["Friendly opens the first gated recipes at the camp's profession vendors ({skill:197} 25, {skill:165} 17, {skill:333} 13, {skill:164} 10, {skill:202} 10, {skill:171} 5, {skill:185} 2) and the Uncertified Scribe: {npc:256742} at {area:1002}, {npc:256672} at the south end of the {area:380} camp. The scribe's {item:262902} (15 Merchant's Favor) turns an empty {item:248549} into a {item:262917}; hand it to {npc:256390} or {npc:256386} for 50 reputation ({quest:93862}). Any crate works, so buy the cheapest one the Auction House has. Honored is 6000 more: 80 Journeyman writs, 48 Expert, 30 Artisan, or 120 crate returns (1,800 Favor and 120 crates). Mix both: every writ you can fill, returns with spare Favor. The Legacy perk Diplomat adds up to 10% to every gain."] = "Friendly, kampın meslek satıcılarında ilk kilitli tarifleri ({skill:197} 25, {skill:165} 17, {skill:333} 13, {skill:164} 10, {skill:202} 10, {skill:171} 5, {skill:185} 2) ve Uncertified Scribe'ı açar: {area:1002} kesiminde {npc:256742}, {area:380} kampının güney ucunda {npc:256672}. Scribe'ın {item:262902} eşyası (15 Merchant's Favor) boş bir {item:248549} eşyasını {item:262917} eşyasına çevirir; 50 itibar için {npc:256390} ya da {npc:256386} yanına ver ({quest:93862}). Her sandık olur, bu yüzden Auction House'taki en ucuzunu al. Honored 6000 daha: 80 Journeyman writ, 48 Expert, 30 Artisan ya da 120 sandık iadesi (1.800 Favor ve 120 sandık). İkisini karıştır: doldurabildiğin her writ, artan Favor ile de iadeler. Legacy yeteneği Diplomat her kazanca %10'a kadar ekler.",
+	["Friendly opens the first gated recipes at the camp's profession vendors ({skill:197} 25, {skill:165} 17, {skill:333} 13, {skill:164} 10, {skill:202} 10, {skill:171} 5, {skill:185} 2) and the Uncertified Scribe: {npc:256742} at {area:1002}, {npc:256672} at the south end of the {area:380} camp. The scribe's {item:262902} (15 Merchant's Favor) turns an empty {item:248549} into a {item:262917}; hand it to {npc:256390} or {npc:256386} for 50 reputation ({quest:93862}). Any crate works, so buy the cheapest one the Auction House has. Honored is 6000 more: 80 Journeyman writs, 48 Expert, 30 Artisan, or 120 crate returns (1,800 Favor and 120 crates). Mix both: every writ you can fill, returns with spare Favor. The Legacy perk Diplomat adds up to 10% to every gain."] = "Friendly, kampın meslek satıcılarında ilk kilitli tarifleri ({skill:197} 25, {skill:165} 17, {skill:333} 13, {skill:164} 10, {skill:202} 10, {skill:171} 5, {skill:185} 2) ve Uncertified Scribe'ı açar: {area:1002} kesiminde {npc:256742}, {area:380} kampının güney ucunda {npc:256672}. Scribe'ın {item:262902} eşyası (15 Merchant's Favor) boş bir {item:248549} eşyasını {item:262917} eşyasına çevirir; 50 itibar için {npc:256390} ya da {npc:256386} yanına ver ({quest:93862}). Her sandık olur, bu yüzden müzayede evindeki en ucuzunu al. Honored 6000 daha: 80 Journeyman writ, 48 Expert, 30 Artisan ya da 120 sandık iadesi (1.800 Favor ve 120 sandık). İkisini karıştır: doldurabildiğin her writ, artan Favor ile de iadeler. Legacy yeteneği Diplomat her kazanca %10'a kadar ekler.",
 	-- {item:262902} Forged Delivery Receipt
 	["{item:262902}, 15 Merchant's Favor"] = "{item:262902}, 15 Merchant's Favor",
 	-- {quest:93862} Crate Return
@@ -292,22 +292,4 @@ return {
 	["{item:262765}, 200 Merchant's Favor"] = "{item:262765}, 200 Merchant's Favor",
 	-- {item:262764} Durotar Supply and Logistics Tabard
 	["{item:262764}, 200 Merchant's Favor"] = "{item:262764}, 200 Merchant's Favor",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Merchant's Favor Reputation"] = "Merchant's Favor itibarı",
-	-- ["{faction:2586} to Friendly"] = "{faction:2586}: Friendly olana kadar",
-	-- ["The {faction:2586} is the Alliance's tradeskill faction in Forever. Its camp is at {area:1002} in western {zone:1433}. From level 10 mobs drop Waylaid Crates: fill each with the goods its label asks for and hand the {object:1561} to {npc:214101} at the camp for reputation and Merchant's Favor. Forever's Legacy Diplomat perk increases reputation gains."] = "{faction:2586}, Forever'da Alliance'ın meslek grubu. Kampı {zone:1433} bölgesinin batısındaki {area:1002} kavşağında. Seviye 10'dan itibaren yaratıklar Waylaid Crate düşürür: her birini etiketinin istediği mallarla doldur ve itibar ile Merchant's Favor karşılığında {object:1561} eşyasını kamptaki {npc:214101} adlı NPC'ye teslim et. Forever'ın Legacy Diplomat ayrıcalığı itibar kazancını artırır.",
-	-- ["{faction:2586} to Honored"] = "{faction:2586}: Honored olana kadar",
-	-- ["Keep filling Waylaid Crates for {npc:214101}."] = "{npc:214101} için Waylaid Crate doldurmaya devam et.",
-	-- ["{faction:2586} to Revered"] = "{faction:2586}: Revered olana kadar",
-	-- ["{faction:2586} to Exalted"] = "{faction:2586}: Exalted olana kadar",
-	-- ["Keep filling Waylaid Crates for {npc:214101} until Exalted."] = "Exalted olana kadar {npc:214101} için Waylaid Crate doldurmaya devam et.",
-	-- ["{faction:2587} to Friendly"] = "{faction:2587}: Friendly olana kadar",
-	-- ["{faction:2587} is the Horde's tradeskill faction in Forever. Its camp is just outside the {area:380} in the {zone:1413}. From level 10 mobs drop Waylaid Crates: fill each with the goods its label asks for and hand the {object:1561} to Dokimi at the camp for reputation and Merchant's Favor. Forever's Legacy Diplomat perk increases reputation gains."] = "{faction:2587}, Forever'da Horde'un meslek grubu. Kampı {zone:1413} bölgesinde, {area:380} kasabasının hemen dışında. Seviye 10'dan itibaren yaratıklar Waylaid Crate düşürür: her birini etiketinin istediği mallarla doldur ve itibar ile Merchant's Favor karşılığında {object:1561} eşyasını kamptaki Dokimi'ye teslim et. Forever'ın Legacy Diplomat ayrıcalığı itibar kazancını artırır.",
-	-- ["Dokimi"] = "Dokimi",
-	-- ["{faction:2587} to Honored"] = "{faction:2587}: Honored olana kadar",
-	-- ["Keep filling Waylaid Crates for Dokimi."] = "Dokimi için Waylaid Crate doldurmaya devam et.",
-	-- ["{faction:2587} to Revered"] = "{faction:2587}: Revered olana kadar",
-	-- ["{faction:2587} to Exalted"] = "{faction:2587}: Exalted olana kadar",
-	-- ["Keep filling Waylaid Crates for Dokimi until Exalted."] = "Exalted olana kadar Dokimi için Waylaid Crate doldurmaya devam et.",
 }

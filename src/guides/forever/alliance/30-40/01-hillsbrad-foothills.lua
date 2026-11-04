@@ -198,30 +198,4 @@ return {
 	["Fly to {area:415}"] = "Uç: {area:415}",
 	-- {area:442} Auberdine
 	["{area:442} flight master"] = "{area:442} uçuş ustası",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["{npc:2104} stands in {area:2103}; {npc:2094} stands by the north gate."] = "{npc:2104}, {area:2103} kalesinde duruyor; {npc:2094} kuzey kapısının yanında.",
-	-- ["{npc:2104}: for {npc:270637}"] = "{npc:2104}: {npc:270637} için",
-	-- ["Follow the road east to {area:118}."] = "Yolu doğuya izleyerek {area:118} kazı alanına git.",
-	-- ["The Goaz Warders stand just west of Whelgar's camp: use the {item:279996} he gave you beside one."] = "Goaz Warder nesneleri Whelgar'ın kampının hemen batısında duruyor: sana verdiği {item:279996} eşyasını birinin yanında kullan.",
-	-- ["A new {item:279996}, for the four titan watchers around the {zone:1437}"] = "{zone:1437} bölgesinin dört bir yanındaki dört titan gözcüsü için yeni bir {item:279996}",
-	-- ["Follow the road north-east into the {area:1025}: {npc:270637} camps beside it, {npc:1244} a short way east."] = "Yolu kuzeydoğuya izleyerek {area:1025} bölgesine gir: {npc:270637} yolun kenarında kamp kurmuş, {npc:1244} biraz doğuda.",
-	-- ["{npc:1244}: {quest:98283}, an elite raptor"] = "{npc:1244}: elit bir raptor olan {quest:98283}",
-	-- maybe now: ["The next step, {quest:474}, pits you against an elite chieftain: skip it."]
-	-- ["The next step, Defeat Nek'rosh, pits you against an elite chieftain: skip it."] = "Sonraki adım Defeat Nek'rosh seni elit bir şefle karşı karşıya getirir: atla.",
-	-- ["Whelps, raptors and {npc:271458}"] = "Ejderha yavruları, raptorlar ve {npc:271458}",
-	-- ["Red whelps fill the hills west of the gates, Maddened Rotclaws the {area:1025}, Razormaws the northern slopes; {npc:271458} stands in the north-east (use the {item:279996}).\n{quest:98283} is elite: grouping up is advised."] = "Kapıların batısındaki tepeler kırmızı ejderha yavrularıyla, {area:1025} bölgesi Maddened Rotclaw yaratıklarıyla, kuzey yamaçları da Razormaw yaratıklarıyla dolu; {npc:271458} kuzeydoğuda duruyor ({item:279996} eşyasını kullan).\n{quest:98283} elit: grup kurman önerilir.",
-	-- maybe now: ["{npc:5683} waits north of {area:205} by the {area:880}; {npc:271322} a short walk further north-east."]
-	-- ["{npc:5683} waits north of {area:205} by the {area:881}; {npc:271322} a short walk further north-east."] = "{npc:5683}, {area:205} karakolunun kuzeyinde, {area:881} köprüsünün yanında bekliyor; {npc:271322} biraz daha kuzeydoğuda.",
-	-- ["Back south down the road to the excavation site."] = "Yoldan güneye, kazı alanına dön.",
-	-- ["For {npc:2916} in {zone:1455}, at the end of this guide"] = "{zone:1455} şehrindeki {npc:2916} için, bu rehberin sonunda",
-	-- maybe now: ["Pick up everything in town before heading out. {npc:2381} and {npc:2438} stand between the flight master and the inn, Farren and {npc:2366} at the inn, Maleb in the town hall."]
-	-- ["Pick up everything in town before heading out. Off the boat, {npc:251493} is the first you meet, north-west of the flight master; {npc:2381} and {npc:2438} stand between the flight master and the inn, Farren and {npc:2366} at the inn, Maleb in the town hall."] = "Yola çıkmadan önce kasabadaki her şeyi al. Gemiden inince ilk karşılaştığın kişi, uçuş ustasının kuzeybatısındaki {npc:251493}; {npc:2381} ve {npc:2438} uçuş ustası ile han arasında, Farren ve {npc:2366} handa, Maleb ise belediye binasında duruyor.",
-	-- ["The Torn Fin murlocs crowd the {area:295}, south-west of {area:271}."] = "Torn Fin murlocları {area:271} kasabasının güneybatısındaki {area:295} sahilini dolduruyor.",
-	-- maybe now: ["A report for {object:2117}; inside"]
-	-- ["A report for {object:2117}"] = "{object:2117} kalesi için bir rapor",
-	-- ["{area:287}'s town hall"] = "{area:287} belediye binası",
-	-- ["West to the farms of {area:287}: place the {item:279386} on the bookkeeping table in the town hall, where {npc:2335} and the councilmen stand."] = "Batıya, {area:287} çiftliklerine git: {item:279386} eşyasını belediye binasında, {npc:2335} ve meclis üyelerinin durduğu yerdeki muhasebe masasına bırak.",
-	-- ["{area:287} town hall"] = "{area:287} belediye binası",
-	-- ["From {npc:2432} in {area:271}"] = "{area:271} kasabasındaki {npc:2432} adlı NPC'den",
 }

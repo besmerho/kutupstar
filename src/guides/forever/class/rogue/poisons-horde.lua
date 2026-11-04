@@ -58,15 +58,4 @@ return {
 	["{npc:2391}: Poisons"] = "{npc:2391}: Poisons",
 	-- {item:8095} Hinott's Oil · {spell:9810} Touch of Zanzil
 	["{item:8095}: clears the {spell:9810}"] = "{item:8095}: {spell:9810} etkisini kaldırır",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["{spell:2842} (Horde)"] = "{spell:2842} (Horde)",
-	-- maybe now: ["Forever teaches Poisons through this chain, not the trainer; the {item:7676} recipe comes with it."]
-	-- ["Forever teaches {spell:2842} through this chain, not the trainer; the {item:7676} recipe comes with it."] = "Forever {spell:2842} becerisini eğitmen yerine bu zincirle öğretiyor; {item:7676} tarifi de onunla geliyor.",
-	-- ["At 20 {npc:3401} stands in the {object:172960}, the canyon under the {object:172982}. Target him and type /salute."] = "Seviye 20'de {npc:3401}, {object:172982} vadisinin altındaki kanyon {object:172960} içinde duruyor. Onu hedef al ve /salute yaz.",
-	-- ["Fly to the {area:380} and head north to the Venture Co. tower north of the {area:382}. In sight of the tower, fire the {item:8051} twice, then /salute {npc:7233} before he attacks you."] = "{area:380} kasabasına uç ve kuzeye, {area:382} bataklığının kuzeyindeki Venture Co. kulesine git. Kuleyi görünce {item:8051} eşyasını iki kez ateşle, sonra sana saldırmadan önce {npc:7233} adlı NPC'ye /salute yap.",
-	-- ["{item:8051}, twice, in sight of the tower"] = "{item:8051}, iki kez, kule görünürken",
-	-- ["Stay stealthed. {npc:7287} carries the tower key; Gallywix (elite) and his lockbox are at the top of the tower. Kill two each of the drones, patrollers and lookouts around it."] = "Gizlilikte kal. Kule anahtarı {npc:7287} üzerinde; Gallywix (elit) ve kasası kulenin tepesinde. Çevresindeki işçilerden, devriyelerden ve gözcülerden ikişer tane öldür.",
-	-- ["Fly back to {zone:1454}."] = "{zone:1454} şehrine geri uç.",
-	-- ["Take the zeppelin from {zone:1454} to the {zone:1458} and head south through {zone:1421} to {area:272} in {area:287}. {npc:2391} stands in {area:272}; wait beside him while he brews the cure."] = "{zone:1454} şehrinden zeplinle {zone:1458} şehrine geç ve {zone:1421} üzerinden güneye, {area:287} bölgesindeki {area:272} kasabasına git. {npc:2391} {area:272} kasabasında duruyor; ilacı hazırlarken yanında bekle.",
 }
