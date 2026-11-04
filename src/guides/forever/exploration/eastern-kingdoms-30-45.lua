@@ -9,7 +9,7 @@ return {
 
 	-- Step 1: Alterac Mountains (1/2)
 	-- {zone:1416} Alterac Mountains · {zone:1424} Hillsbrad Foothills · {zone:1434} Stranglethorn Vale
-	["Starts in the {zone:1416}, north of {zone:1424}, and ends in {zone:1434}. 15 areas to discover here, levels 27-39."] = "",
+	["Starts in the {zone:1416}, north of {zone:1424}, and ends in {zone:1434}. 15 areas to discover here, levels 27-39."] = "{zone:1424} bölgesinin kuzeyindeki {zone:1416} bölgesinde başlar ve {zone:1434} bölgesinde biter. Burada keşfedilecek 15 alan var, seviye 27-39.",
 	["Exploring the entire world map on one character is a Forever Legacy Challenge (1 account-wide Legacy Point)."] = "Tek bir karakterle tüm dünya haritasını keşfetmek bir Forever Legacy Challenge'ı (hesap geneli 1 Legacy Point).",
 	-- {area:271} Southshore · {zone:1424} Hillsbrad Foothills · {zone:1416} Alterac Mountains
 	["Fly to {area:271} in {zone:1424} and walk north into the {zone:1416}."] = "{zone:1424} bölgesindeki {area:271} kasabasına uç ve kuzeye, {zone:1416} bölgesine yürü.",
@@ -48,14 +48,14 @@ return {
 
 	-- Step 7: Riverglades (1/2)
 	-- {area:16724} Farholde Keep · {area:16743} Rog'mar
-	["14 areas to discover here, levels 36-44. Flight paths: {area:16724} in the south-east (Alliance), {area:16743} in the middle (Horde)."] = "",
+	["14 areas to discover here, levels 36-44. Flight paths: {area:16724} in the south-east (Alliance), {area:16743} in the middle (Horde)."] = "Burada keşfedilecek 14 alan var, seviye 36-44. Uçuş noktaları: güneydoğuda {area:16724} (Alliance), ortada {area:16743} (Horde).",
 	-- {zone:1418} Badlands · {area:345} Agmond's End · {zone:2548} Riverglades · {area:16685} Twilight's Shroud · {area:2417} Blackrock Pass · {area:977} Steamwheedle Port · {zone:1446} Tanaris · {area:16727} Powderfuse Port · {area:17780} Krol'dok Stronghold
-	["From the south of the {zone:1418}, past {area:345}, a way leads down into the {zone:2548} by {area:16685}. (The {zone:2548} also open off northern Redridge through {area:2417}, and a ship runs from {area:977} in {zone:1446} to {area:16727}, the neutral goblin port on its coast.) {area:17780} is an ogre clan's outdoor dungeon."] = "",
+	["From the south of the {zone:1418}, past {area:345}, a way leads down into the {zone:2548} by {area:16685}. (The {zone:2548} also open off northern Redridge through {area:2417}, and a ship runs from {area:977} in {zone:1446} to {area:16727}, the neutral goblin port on its coast.) {area:17780} is an ogre clan's outdoor dungeon."] = "{zone:1418} bölgesinin güneyinden, {area:345} kesimini geçince bir yol {area:16685} yanında {zone:2548} bölgesine iner. ({zone:2548} ayrıca Redridge'in kuzeyinden {area:2417} üzerinden de açılır ve {zone:1446} bölgesindeki {area:977} limanından kıyısındaki tarafsız goblin limanı {area:16727} limanına bir gemi işler.) {area:17780} bir ogre klanının açık hava zindanı.",
 
 	-- Step 9: Swamp of Sorrows (1/2)
 	["11 areas to discover here, levels 36-43."] = "Burada keşfedilecek 11 alan var, seviye 36-43.",
 	-- {zone:1435} Swamp of Sorrows · {zone:2548} Riverglades · {area:16725} Wheeler's Grange · {area:16737} Bristle Hills
-	["The {zone:1435} lies south of the {zone:2548}: swim south from {area:16725}, or walk through Redridge Pass, south of the {area:16737}."] = "",
+	["The {zone:1435} lies south of the {zone:2548}: swim south from {area:16725}, or walk through Redridge Pass, south of the {area:16737}."] = "{zone:1435}, {zone:2548} bölgesinin güneyinde: {area:16725} kesiminden güneye yüz ya da {area:16737} güneyindeki Redridge Pass'ten yürü.",
 	-- {area:75} Stonard
 	["{area:75} is the Horde town."] = "{area:75} Horde kasabası.",
 	-- {area:75} Stonard
@@ -65,9 +65,9 @@ return {
 	-- {area:35} Booty Bay · {area:392} Ratchet
 	["27 areas to discover here, levels 30-50. {area:35} at the southern tip is a neutral goblin port with a boat to {area:392}."] = "Burada keşfedilecek 27 alan var, seviye 30-50. Güney ucundaki {area:35}, {area:392} kasabasına gemisi olan tarafsız bir goblin limanı.",
 	-- {zone:1435} Swamp of Sorrows · {zone:1430} Deadwind Pass · {zone:1431} Duskwood · {zone:1434} Stranglethorn Vale
-	["Ride west out of the {zone:1435} through {zone:1430} (level 50+ creatures off the road) into {zone:1431} and take the road south into northern {zone:1434}."] = "",
+	["Ride west out of the {zone:1435} through {zone:1430} (level 50+ creatures off the road) into {zone:1431} and take the road south into northern {zone:1434}."] = "{zone:1435} bölgesinden batıya, {zone:1430} üzerinden (yol dışında seviye 50+ yaratıklar) {zone:1431} bölgesine sür ve güneye giden yolla {zone:1434} bölgesinin kuzeyine gir.",
 	-- {zone:1454} Orgrimmar · {zone:1458} Undercity · {area:117} Grom'gol Base Camp
-	["Or take the zeppelin from {zone:1454} or the {zone:1458} to {area:117}."] = "",
+	["Or take the zeppelin from {zone:1454} or the {zone:1458} to {area:117}."] = "Ya da {zone:1454} ya da {zone:1458} şehrinden zeplinle {area:117} kampına geç.",
 	-- {area:35} Booty Bay
 	["Flight path here: {area:35} (Gyll)."] = "Uçuş noktası: {area:35} (Gyll).",
 	-- {area:35} Booty Bay · {object:3202} Grom'gol (no name in this language: may be words)
@@ -79,14 +79,4 @@ return {
 
 	-- Step 13: Stranglethorn Vale (3/4)
 	["elite ogres: discover it from the edge"] = "elit ogrelar: kenarından keşfet",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["Picks up in {zone:1424}, where the 1-30 guide leaves the Horde and passes the Alliance. 15 areas to discover here, levels 27-39."] = "1-30 rehberinin Horde'u bıraktığı ve Alliance'ın içinden geçtiği {zone:1424} bölgesinden devam eder. Burada keşfedilecek 15 alan var, seviye 27-39.",
-	-- ["14 areas to discover here, levels 36-44."] = "Burada keşfedilecek 14 alan var, seviye 36-44.",
-	-- maybe now: ["From the south of the {zone:1418}, past {area:345}, a way leads down into the {zone:2548} by {area:16685}. (The {zone:2548} also open off northern Redridge through {area:2417}, and a ship runs from {area:977} in {zone:1446} to {area:16727}, the neutral goblin port on its coast.) {area:17780} is an ogre clan's outdoor dungeon."]
-	-- ["The {zone:2548} lie east of the {zone:1418} and the {zone:1428}: the way in is the fork east off the {zone:1433} road (a ship also runs from {zone:1446} to {area:16727}, the neutral goblin port on its coast). {area:17780} is an ogre clan's outdoor dungeon."] = "{zone:2548}, {zone:1418} ve {zone:1428} bölgelerinin doğusunda: giriş {zone:1433} yolundan doğuya ayrılan yol (ayrıca {zone:1446} bölgesinden kıyısındaki tarafsız goblin limanı {area:16727} limanına bir gemi işliyor). {area:17780} bir ogre klanının açık hava zindanı.",
-	-- ["Fly to {area:42} (or {zone:1453}) and take the road south out of {zone:1431} into northern {zone:1434}."] = "{area:42} kasabasına (ya da {zone:1453} şehrine) uç ve güneye giden yoldan {zone:1431} bölgesinden çıkıp {zone:1434} bölgesinin kuzeyine gir.",
-	-- maybe now: ["Or take the zeppelin from {zone:1454} or the {zone:1458} to {area:117}."]
-	-- ["Take the zeppelin from {zone:1454} or the {zone:1458} to {area:117}."] = "{zone:1454} ya da {zone:1458} şehrinden zeplinle {area:117} kampına geç.",
-	-- ["Go back north into {zone:1431} and follow its road east through {zone:1430} (level 50+ creatures off the road) into the {zone:1435}."] = "Kuzeye, {zone:1431} bölgesine dön ve yolunu doğuya, {zone:1430} üzerinden (yol dışında seviye 50+ yaratıklar) {zone:1435} bölgesine kadar izle.",
 }

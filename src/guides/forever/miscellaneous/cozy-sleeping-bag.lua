@@ -11,7 +11,7 @@ return {
 	-- {zone:1436} Westfall
 	["The note in {zone:1436}"] = "{zone:1436} bölgesindeki not",
 	-- {zone:1436} Westfall
-	["The chain opens at level 14. A burned-out campfire in western {zone:1436}, with a nailed plank beside it."] = "",
+	["The chain opens at level 14. A burned-out campfire in western {zone:1436}, with a nailed plank beside it."] = "Zincir seviye 14'te açılır. {zone:1436} bölgesinin batısında, yanında çivilenmiş bir tahta bulunan sönmüş bir kamp ateşi.",
 
 	-- Step 2: Its twin in the Barrens
 	-- {zone:1413} Barrens
@@ -23,7 +23,7 @@ return {
 	-- {zone:1413} Barrens
 	["The note in the {zone:1413}"] = "{zone:1413} bölgesindeki not",
 	-- {zone:1413} Barrens
-	["The chain opens at level 14. A burned-out campfire in the southern {zone:1413}, with a nailed plank beside it."] = "",
+	["The chain opens at level 14. A burned-out campfire in the southern {zone:1413}, with a nailed plank beside it."] = "Zincir seviye 14'te açılır. {zone:1413} bölgesinin güneyinde, yanında çivilenmiş bir tahta bulunan sönmüş bir kamp ateşi.",
 
 	-- Step 4: Its twin in Westfall
 	-- {zone:1436} Westfall
@@ -33,10 +33,10 @@ return {
 
 	-- Step 5: Stonetalon Mountains
 	-- {area:460} Sun Rock Retreat · {zone:1442} Stonetalon Mountains · {object:424005} Pocket Litter
-	["The next hideout is a small camp in the hills north-west of {area:460}, in the middle of the {zone:1442}. Leave the road where a path climbs west into the hills and follow it to the camp; the {object:424005} lies on a crate beside its tent."] = "",
+	["The next hideout is a small camp in the hills north-west of {area:460}, in the middle of the {zone:1442}. Leave the road where a path climbs west into the hills and follow it to the camp; the {object:424005} lies on a crate beside its tent."] = "Sonraki saklanma yeri {zone:1442} bölgesinin ortasında, {area:460} kuzeybatısındaki tepelerde küçük bir kamp. Bir patikanın batıya, tepelere tırmandığı yerde yoldan ayrıl ve onu kampa kadar izle; {object:424005} çadırın yanındaki bir sandığın üzerinde duruyor.",
 	-- {area:1702} Honor's Stand
-	["The road west runs through {area:1702}, a Horde post; this way goes round it."] = "",
-	["North of Honor's Stand"] = "",
+	["The road west runs through {area:1702}, a Horde post; this way goes round it."] = "Batıya giden yol bir Horde karakolu olan {area:1702} içinden geçer; bu yol onun çevresinden dolanır.",
+	["North of Honor's Stand"] = "Honor's Stand'in kuzeyi",
 	["Path into the hills"] = "Tepelere çıkan patika",
 
 	-- Step 6: A hundred paces north
@@ -57,12 +57,4 @@ return {
 
 	-- Step 9: The hidden camp
 	["The hidden camp"] = "Gizli kamp",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["The chain opens at level 14. A burned-out campfire in western {zone:1436}, with a nailed plank beside it."]
-	-- ["A burned-out campfire in western {zone:1436}, with a nailed plank beside it."] = "{zone:1436} bölgesinin batısında, yanında çivilenmiş bir tahta bulunan sönmüş bir kamp ateşi.",
-	-- maybe now: ["The chain opens at level 14. A burned-out campfire in the southern {zone:1413}, with a nailed plank beside it."]
-	-- ["A burned-out campfire in the southern {zone:1413}, with a nailed plank beside it."] = "{zone:1413} bölgesinin güneyinde, yanında çivilenmiş bir tahta bulunan sönmüş bir kamp ateşi.",
-	-- maybe now: ["The next hideout is a small camp in the hills north-west of {area:460}, in the middle of the {zone:1442}. Leave the road where a path climbs west into the hills and follow it to the camp; the {object:424005} lies on a crate beside its tent."]
-	-- ["The next hideout is a small camp in the hills of eastern Stonetalon. Leave the road where a path climbs into the hills and follow it to the camp; the {object:424005} lies on a crate beside its tent."] = "Sonraki saklanma yeri Stonetalon'un doğusundaki tepelerde küçük bir kamp. Bir patikanın tepelere tırmandığı yerde yoldan ayrıl ve onu kampa kadar izle; {object:424005} çadırın yanındaki bir sandığın üzerinde duruyor.",
 }

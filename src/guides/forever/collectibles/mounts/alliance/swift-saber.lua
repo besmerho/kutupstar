@@ -10,7 +10,7 @@ return {
 	-- {skill:762} Riding
 	["Journeyman {skill:762}"] = "Journeyman {skill:762}",
 	-- {npc:4753} Jartsam · {npc:4730} Lelanai · {area:1658} Cenarion Enclave · {faction:69} Darnassus · {skill:762} Riding
-	["{npc:4753} and {npc:4730}'s sabers are in the {area:1658}'s riding grounds in {faction:69}. At 60 {npc:4753} teaches Journeyman {skill:762} to Night Elves for 1,000g (10% less at Honored with {faction:69}); Blizzard says it comes with a mount. Other races train it at their own race's riding trainer. Each swift saber costs 200g here."] = "",
+	["{npc:4753} and {npc:4730}'s sabers are in the {area:1658}'s riding grounds in {faction:69}. At 60 {npc:4753} teaches Journeyman {skill:762} to Night Elves for 1,000g (10% less at Honored with {faction:69}); Blizzard says it comes with a mount. Other races train it at their own race's riding trainer. Each swift saber costs 200g here."] = "{npc:4753} ve {npc:4730} adlı NPC'nin saber'ları {faction:69} şehrindeki {area:1658} binicilik alanında. Seviye 60'ta {npc:4753}, Night Elf'lere 1.000g karşılığında Journeyman {skill:762} öğretir ({faction:69} ile Honored'da %10 daha az); Blizzard bununla bir binek geldiğini söylüyor. Diğer ırklar bunu kendi ırklarının binicilik eğitmeninde öğrenir. Her hızlı saber burada 200g.",
 	-- {npc:4753} Jartsam
 	["{npc:4753}, riding trainer"] = "{npc:4753}, binicilik eğitmeni",
 
@@ -18,7 +18,7 @@ return {
 	-- {spell:828} Tiger Riding
 	["{spell:828} for other races"] = "{spell:828}, diğer ırklar için",
 	-- {spell:828} Tiger Riding · {skill:762} Riding · {npc:4753} Jartsam · {faction:69} Darnassus
-	["Any Alliance race can buy these sabers, but riding one also takes {spell:828}, which only Night Elves get with {skill:762}. {npc:4753} teaches it to other races once they are Exalted with {faction:69} (the Darnassus Reputation guide shows the way). Until then, don't buy a saber for this character."] = "",
+	["Any Alliance race can buy these sabers, but riding one also takes {spell:828}, which only Night Elves get with {skill:762}. {npc:4753} teaches it to other races once they are Exalted with {faction:69} (the Darnassus Reputation guide shows the way). Until then, don't buy a saber for this character."] = "Her Alliance ırkı bu saber'ları alabilir, ama birine binmek ayrıca yalnızca Night Elf'lerin {skill:762} ile aldığı {spell:828} ister. {npc:4753}, {faction:69} ile Exalted olunca bunu diğer ırklara da öğretir (yolu Darnassus itibar rehberi gösterir). O zamana kadar bu karakter için saber alma.",
 
 	-- Step 3: Pick a colour
 	["Pick a colour"] = "Bir renk seç",
@@ -30,7 +30,4 @@ return {
 	["{item:18767}, 200g"] = "{item:18767}, 200g",
 	-- {item:18902} Reins of the Swift Stormsaber
 	["{item:18902}, 200g"] = "{item:18902}, 200g",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["{npc:4753} and {npc:4730}'s sabers are in the {area:1658}'s riding grounds in {zone:1457}. At 60 {npc:4753} teaches Journeyman {skill:762} (1,000g per Blizzard's designers); Blizzard says learning riding grants a mount. The Forever client sells each swift saber for 200g at level 60."] = "{npc:4753} ve {npc:4730} adlı NPC'nin saber'ları {zone:1457} şehrindeki {area:1658} binicilik alanında. Seviye 60'ta {npc:4753} Journeyman {skill:762} öğretir (Blizzard'ın tasarımcılarına göre 1.000g); Blizzard binicilik öğrenince bir binek verildiğini söylüyor. Forever istemcisi her hızlı saber'ı seviye 60'ta 200g'a satıyor.",
 }

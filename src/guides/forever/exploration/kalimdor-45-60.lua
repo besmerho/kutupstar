@@ -28,7 +28,7 @@ return {
 	-- Step 5: Silithus
 	["7 areas to discover here, level 55."] = "Burada keşfedilecek 7 alan var, seviye 55.",
 	-- {zone:1451} Silithus · {zone:1449} Un'Goro Crater · {area:3425} Cenarion Hold
-	["{zone:1451} is west of {zone:1449}, through the pass in its north-west. {area:3425} is neutral."] = "",
+	["{zone:1451} is west of {zone:1449}, through the pass in its north-west. {area:3425} is neutral."] = "{zone:1451}, {zone:1449} kraterinin batısında, kuzeybatısındaki geçidin ötesinde. {area:3425} tarafsız.",
 	-- {area:3425} Cenarion Hold · {npc:15177} Cloud Skydancer
 	["Flight path here: {area:3425} ({npc:15177})."] = "Uçuş noktası: {area:3425} ({npc:15177}).",
 	-- {area:3425} Cenarion Hold · {npc:15178} Runk Windtamer
@@ -78,12 +78,7 @@ return {
 	["Flight path here: {area:2255} (Yugrek)."] = "Uçuş noktası: {area:2255} (Yugrek).",
 
 	-- Step 14: Mount Hyjal (1/2)
-	["9 areas to discover here. Its creatures are level 54-60."] = "",
+	["9 areas to discover here. Its creatures are level 54-60."] = "Burada keşfedilecek 9 alan var. Yaratıkları seviye 54-60.",
 	-- {zone:2482} Mount Hyjal · {zone:1452} Winterspring · {area:2256} Darkwhisper Gorge
 	["{zone:2482} is reached from {zone:1452} through {area:2256} in the south. It is Forever's endgame leveling zone."] = "{zone:2482} bölgesine {zone:1452} bölgesinden, güneydeki {area:2256} boğazından ulaşılır. Forever'ın oyun sonu seviye bölgesi.",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["{zone:1451} is west of {zone:1449}, through the pass in its north-west. {area:3425} is neutral."]
-	-- ["{zone:1451} is west of {zone:1449}. {area:3425} is neutral."] = "{zone:1451}, {zone:1449} kraterinin batısında. {area:3425} tarafsız.",
-	-- ["9 areas to discover here."] = "Burada keşfedilecek 9 alan var.",
 }

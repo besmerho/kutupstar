@@ -20,40 +20,40 @@ return {
 	-- Step 3: Dun Morogh (1/3)
 	["18 areas to discover here, levels 4-12."] = "Burada keşfedilecek 18 alan var, seviye 4-12.",
 	-- {area:2257} Deeprun Tram · {zone:1453} Stormwind City · {object:28027} Dwarven District · {zone:1455} Ironforge
-	["Take the {area:2257} from {zone:1453}'s {object:28027} to {zone:1455}, then leave the city through its gates."] = "",
+	["Take the {area:2257} from {zone:1453}'s {object:28027} to {zone:1455}, then leave the city through its gates."] = "{zone:1453} şehrinin {object:28027} semtinden {area:2257} trenine binip {zone:1455} şehrine git, sonra şehirden kapılarından çık.",
 
 	-- Step 6: Loch Modan (1/2)
 	["11 areas to discover here, levels 10-18."] = "Burada keşfedilecek 11 alan var, seviye 10-18.",
 	-- {zone:1426} Dun Morogh · {zone:1432} Loch Modan · {area:924} Valley of Kings
-	["Leave {zone:1426} east through the South Gate tunnel; it opens into {zone:1432} by the dwarf king statues of the {area:924}."] = "",
+	["Leave {zone:1426} east through the South Gate tunnel; it opens into {zone:1432} by the dwarf king statues of the {area:924}."] = "{zone:1426} bölgesinden doğuya, South Gate tünelinden çık; tünel {area:924} kesimindeki cüce kral heykellerinin yanında {zone:1432} bölgesine açılır.",
 	-- {area:144} Thelsamar · {npc:1572} Thorgrum Borrelson
 	["Flight path here: {area:144} ({npc:1572})."] = "Uçuş noktası: {area:144} ({npc:1572}).",
 
 	-- Step 8: Westfall (1/2)
 	["14 areas to discover here, levels 9-18."] = "Burada keşfedilecek 14 alan var, seviye 9-18.",
 	-- {area:144} Thelsamar · {zone:1453} Stormwind City · {zone:1455} Ironforge · {area:2257} Deeprun Tram · {zone:1429} Elwynn Forest · {area:120} Westbrook Garrison · {zone:1436} Westfall
-	["Fly from {area:144} to {zone:1453} if you have its flight path; otherwise ride back to {zone:1455} and take the {area:2257}. Walk west out of {zone:1429} past the {area:120} into {zone:1436}."] = "",
+	["Fly from {area:144} to {zone:1453} if you have its flight path; otherwise ride back to {zone:1455} and take the {area:2257}. Walk west out of {zone:1429} past the {area:120} into {zone:1436}."] = "Uçuş noktası sende varsa {area:144} kasabasından {zone:1453} şehrine uç; yoksa {zone:1455} şehrine geri sür ve {area:2257} trenine bin. {zone:1429} bölgesinden batıya, {area:120} karakolunu geçerek {zone:1436} bölgesine yürü.",
 	-- {area:108} Sentinel Hill
 	["Flight path here: {area:108} (Thor)."] = "Uçuş noktası: {area:108} (Thor).",
 
 	-- Step 10: Redridge Mountains (1/2)
 	["11 areas to discover here, levels 15-24."] = "Burada keşfedilecek 11 alan var, seviye 15-24.",
 	-- {zone:1429} Elwynn Forest · {area:88} Eastvale Logging Camp · {area:1002} Three Corners · {zone:1431} Duskwood
-	["Go back east through {zone:1429}: the road past the {area:88} enters Redridge at {area:1002}, where the roads from {zone:1429} and {zone:1431} meet."] = "",
+	["Go back east through {zone:1429}: the road past the {area:88} enters Redridge at {area:1002}, where the roads from {zone:1429} and {zone:1431} meet."] = "{zone:1429} bölgesinden doğuya geri dön: {area:88} kampını geçen yol, {zone:1429} ve {zone:1431} yollarının buluştuğu {area:1002} kavşağında Redridge'e girer.",
 	-- {area:69} Lakeshire · {npc:931} Ariena Stormfeather
 	["Flight path here: {area:69} ({npc:931})."] = "Uçuş noktası: {area:69} ({npc:931}).",
 
 	-- Step 12: Duskwood (1/2)
 	["13 areas to discover here, levels 10-30."] = "Burada keşfedilecek 13 alan var, seviye 10-30.",
 	-- {area:1002} Three Corners · {zone:1431} Duskwood · {area:42} Darkshire
-	["From {area:1002} take the road south into {zone:1431}; {area:42} is east along its main road. Most of Duskwood is level 24-30: come with Redridge behind you."] = "",
+	["From {area:1002} take the road south into {zone:1431}; {area:42} is east along its main road. Most of Duskwood is level 24-30: come with Redridge behind you."] = "{area:1002} kavşağından güneye giden yolla {zone:1431} bölgesine gir; {area:42}, ana yolu boyunca doğuda. Duskwood'un çoğu seviye 24-30: Redridge'i bitirmiş olarak gel.",
 	-- {area:42} Darkshire · {npc:2409} Felicia Maline
 	["Flight path here: {area:42} ({npc:2409})."] = "Uçuş noktası: {area:42} ({npc:2409}).",
 
 	-- Step 14: Wetlands (1/2)
 	["15 areas to discover here, levels 20-30."] = "Burada keşfedilecek 15 alan var, seviye 20-30.",
 	-- {area:42} Darkshire · {area:144} Thelsamar · {zone:1432} Loch Modan · {area:836} Dun Algaz · {zone:1437} Wetlands
-	["Fly from {area:42} to {area:144} in {zone:1432} and ride north through the {area:836} pass into the {zone:1437}."] = "",
+	["Fly from {area:42} to {area:144} in {zone:1432} and ride north through the {area:836} pass into the {zone:1437}."] = "{area:42} kasabasından {zone:1432} bölgesindeki {area:144} kasabasına uç ve {area:836} geçidinden kuzeye, {zone:1437} bölgesine sür.",
 	-- {area:150} Menethil Harbor · {npc:1571} Shellei Brondir
 	["Flight path here: {area:150} ({npc:1571})."] = "Uçuş noktası: {area:150} ({npc:1571}).",
 	-- {area:1038} Dragonmaw Gates · {area:1037} Grim Batol
@@ -62,7 +62,7 @@ return {
 	-- Step 16: Hillsbrad Foothills (1/2)
 	["12 areas to discover here, levels 20-31."] = "Burada keşfedilecek 12 alan var, seviye 20-31.",
 	-- {area:150} Menethil Harbor · {area:271} Southshore
-	["Take the boat from {area:150} to {area:271}."] = "",
+	["Take the boat from {area:150} to {area:271}."] = "{area:150} limanından {area:271} limanına gemiye bin.",
 	-- {area:271} Southshore · {npc:2432} Darla Harris
 	["Flight path here: {area:271} ({npc:2432})."] = "Uçuş noktası: {area:271} ({npc:2432}).",
 	-- {area:272} Tarren Mill
@@ -126,7 +126,7 @@ return {
 
 	-- Step 34: Dun Morogh (1/3)
 	-- {area:925} Algaz Station · {area:807} North Gate Pass · {zone:1426} Dun Morogh · {area:131} Kharanos · {zone:1455} Ironforge
-	["From {area:925} take the {area:807} tunnel west into {zone:1426}. {area:131} and {zone:1455}'s gates are Alliance ground."] = "",
+	["From {area:925} take the {area:807} tunnel west into {zone:1426}. {area:131} and {zone:1455}'s gates are Alliance ground."] = "{area:925} karakolundan batıya, {area:807} tünelinden {zone:1426} bölgesine geç. {area:131} ve {zone:1455} kapıları Alliance toprağı.",
 
 	-- Step 35: Dun Morogh (2/3)
 	-- {area:809} Gates of Ironforge
@@ -168,18 +168,4 @@ return {
 	["Go east through {zone:1429} to {area:1002}, where Redridge starts. {area:69} is an Alliance town."] = "{zone:1429} üzerinden doğuya, Redridge'in başladığı {area:1002} kavşağına git. {area:69} bir Alliance kasabası.",
 	-- {area:69} Lakeshire
 	["Alliance guards: touch the edge of {area:69} and move on"] = "Alliance muhafızları: {area:69} kenarına dokun ve devam et",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["{zone:1436} borders {zone:1429} to the west: follow the road out past the {area:120}."] = "{zone:1436}, {zone:1429} bölgesinin batısında sınır komşusu: yolu {area:120} karakolunu geçerek dışarı izle.",
-	-- ["{zone:1431} is east of {zone:1436} and south of {zone:1429}. Its road runs east to {area:42}."] = "{zone:1431}, {zone:1436} bölgesinin doğusunda ve {zone:1429} bölgesinin güneyinde. Yolu doğuya, {area:42} kasabasına uzanır.",
-	-- maybe now: ["Go back east through {zone:1429}: the road past the {area:88} enters Redridge at {area:1002}, where the roads from {zone:1429} and {zone:1431} meet."]
-	-- ["Redridge starts at {area:1002}, where the roads from {zone:1429} and {zone:1431} meet."] = "Redridge, {zone:1429} ve {zone:1431} yollarının buluştuğu {area:1002} kavşağında başlar.",
-	-- maybe now: ["Take the {area:2257} from {zone:1453}'s {object:28027} to {zone:1455}, then leave the city through its gates."]
-	-- ["Take the {area:2257} from {zone:1453}'s {object:28027} to {zone:1455} (or fly to {zone:1455}), then leave the city through its gates."] = "{zone:1453} şehrinin {object:28027} semtinden {area:2257} trenine binip {zone:1455} şehrine git (ya da {zone:1455} şehrine uç), sonra şehirden kapılarından çık.",
-	-- maybe now: ["Leave {zone:1426} east through the South Gate tunnel; it opens into {zone:1432} by the dwarf king statues of the {area:924}."]
-	-- ["Leave {zone:1426} east through the gate tunnel; it opens into {zone:1432} at {area:925}."] = "{zone:1426} bölgesinden doğuya, kapı tünelinden çık; tünel {area:925} karakolunda {zone:1432} bölgesine açılır.",
-	-- ["From {area:925}, the road north through the {area:836} pass leads into the {zone:1437}."] = "{area:925} karakolundan kuzeye, {area:836} geçidinden geçen yol {zone:1437} bölgesine çıkar.",
-	-- ["Cross the {area:881} in northern {zone:1437} into the {zone:1417} (level 30+ creatures off the road), follow the road west past {area:320} and on into {zone:1424}."] = "{zone:1437} bölgesinin kuzeyinde {area:881} köprüsünü geçip {zone:1417} bölgesine gir (yol dışında seviye 30+ yaratıklar), yolu batıya, {area:320} karakolunu geçerek {zone:1424} bölgesine kadar izle.",
-	-- maybe now: ["From {area:925} take the {area:807} tunnel west into {zone:1426}. {area:131} and {zone:1455}'s gates are Alliance ground."]
-	-- ["From {area:925} take the tunnel west into {zone:1426}. {area:131} and {zone:1455}'s gates are Alliance ground."] = "{area:925} karakolundan batıya, tünelden {zone:1426} bölgesine geç. {area:131} ve {zone:1455} kapıları Alliance toprağı.",
 }

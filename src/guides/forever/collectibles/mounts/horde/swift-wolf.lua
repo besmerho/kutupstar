@@ -10,7 +10,7 @@ return {
 	-- {skill:762} Riding
 	["Journeyman {skill:762}"] = "Journeyman {skill:762}",
 	-- {npc:4752} Kildar · {npc:3362} Ogunaro Wolfrunner · {faction:76} Orgrimmar · {object:172958} Valley of Honor · {skill:762} Riding
-	["{npc:4752} and {npc:3362}'s kennel are in {faction:76}'s {object:172958}. At 60 {npc:4752} teaches Journeyman {skill:762} to Orcs for 1,000g (10% less at Honored with {faction:76}); Blizzard says it comes with a mount. Other races train it at their own race's riding trainer. Each swift wolf costs 200g here."] = "",
+	["{npc:4752} and {npc:3362}'s kennel are in {faction:76}'s {object:172958}. At 60 {npc:4752} teaches Journeyman {skill:762} to Orcs for 1,000g (10% less at Honored with {faction:76}); Blizzard says it comes with a mount. Other races train it at their own race's riding trainer. Each swift wolf costs 200g here."] = "{npc:4752} ve {npc:3362} adlı NPC'nin kulübesi {faction:76} şehrinin {object:172958} vadisinde. Seviye 60'ta {npc:4752}, Orc'lara 1.000g karşılığında Journeyman {skill:762} öğretir ({faction:76} ile Honored'da %10 daha az); Blizzard bununla bir binek geldiğini söylüyor. Diğer ırklar bunu kendi ırklarının binicilik eğitmeninde öğrenir. Her hızlı kurt burada 200g.",
 	-- {npc:4752} Kildar
 	["{npc:4752}, riding trainer"] = "{npc:4752}, binicilik eğitmeni",
 
@@ -18,7 +18,7 @@ return {
 	-- {spell:825} Wolf Riding
 	["{spell:825} for other races"] = "{spell:825}, diğer ırklar için",
 	-- {spell:825} Wolf Riding · {skill:762} Riding · {npc:4752} Kildar · {faction:76} Orgrimmar
-	["Any Horde race can buy these wolves, but riding one also takes {spell:825}, which only Orcs get with {skill:762}. {npc:4752} teaches it to other races once they are Exalted with {faction:76} (the Orgrimmar Reputation guide shows the way). Until then, don't buy a wolf for this character."] = "",
+	["Any Horde race can buy these wolves, but riding one also takes {spell:825}, which only Orcs get with {skill:762}. {npc:4752} teaches it to other races once they are Exalted with {faction:76} (the Orgrimmar Reputation guide shows the way). Until then, don't buy a wolf for this character."] = "Her Horde ırkı bu kurtları alabilir, ama birine binmek ayrıca yalnızca Orc'ların {skill:762} ile aldığı {spell:825} ister. {npc:4752}, {faction:76} ile Exalted olunca bunu diğer ırklara da öğretir (yolu Orgrimmar itibar rehberi gösterir). O zamana kadar bu karakter için kurt alma.",
 
 	-- Step 3: Pick a colour
 	["Pick a colour"] = "Bir renk seç",
@@ -30,7 +30,4 @@ return {
 	["{item:18797}, 200g"] = "{item:18797}, 200g",
 	-- {item:18798} Horn of the Swift Gray Wolf
 	["{item:18798}, 200g"] = "{item:18798}, 200g",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- ["{npc:4752} and {npc:3362}'s kennel are in {zone:1454}'s {object:172958}. At 60 {npc:4752} teaches Journeyman {skill:762} (1,000g per Blizzard's designers); Blizzard says learning riding grants a mount. The Forever client sells each swift wolf for 200g at level 60."] = "{npc:4752} ve {npc:3362} adlı NPC'nin kulübesi {zone:1454} şehrinin {object:172958} vadisinde. Seviye 60'ta {npc:4752} Journeyman {skill:762} öğretir (Blizzard'ın tasarımcılarına göre 1.000g); Blizzard binicilik öğrenince bir binek verildiğini söylüyor. Forever istemcisi her hızlı kurdu seviye 60'ta 200g'a satıyor.",
 }

@@ -10,12 +10,8 @@ return {
 
 	-- Step 1: Halpa
 	-- {npc:8401} Halpa · {zone:1456} Thunder Bluff
-	["{npc:8401} sells three whistles in {zone:1456} (50s each, 1g 50s for all three); the two ground squirrels are new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."] = "",
+	["{npc:8401} sells three whistles in {zone:1456} (50s each, 1g 50s for all three); the two ground squirrels are new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."] = "{npc:8401}, {zone:1456} şehrinde üç düdük satıyor (her biri 50s, üçü birden 1g 50s); iki yer sincabı Forever'da yeni. Her evcil hayvan eşyası kullanınca yoldaşını öğretir; hedefler sonrasında da işaretli kalır.",
 	-- {item:10394} Prairie Dog Whistle
 	["{item:10394}, 50s"] = "{item:10394}, 50s",
 	["50s"] = "50s",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["{npc:8401} sells three whistles in {zone:1456} (50s each, 1g 50s for all three); the two ground squirrels are new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."]
-	-- ["{npc:8401} sells three whistles in {zone:1456} (50s each); the two ground squirrels are new in Forever. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."] = "{npc:8401}, {zone:1456} şehrinde üç düdük satıyor (her biri 50s); iki yer sincabı Forever'da yeni. Her evcil hayvan eşyası kullanınca yoldaşını öğretir; hedefler sonrasında da işaretli kalır.",
 }

@@ -12,7 +12,7 @@ return {
 	["Picks up west of the {zone:1413}, in {zone:1443}, and ends in {zone:1445}. 15 areas to discover here, levels 30-39."] = "{zone:1413} bölgesinin batısında, {zone:1443} bölgesinde devam eder ve {zone:1445} bölgesinde biter. Burada keşfedilecek 15 alan var, seviye 30-39.",
 	["Exploring the entire world map on one character is a Forever Legacy Challenge (1 account-wide Legacy Point)."] = "Tek bir karakterle tüm dünya haritasını keşfetmek bir Forever Legacy Challenge'ı (hesap geneli 1 Legacy Point).",
 	-- {area:467} Stonetalon Peak · {area:608} Nijel's Point · {zone:1442} Stonetalon Mountains · {zone:1443} Desolace
-	["Fly to {area:467} (or to {area:608} if you have it) and take the road south-west out of the {zone:1442} into {zone:1443}; {area:608} in the north is the Alliance town."] = "",
+	["Fly to {area:467} (or to {area:608} if you have it) and take the road south-west out of the {zone:1442} into {zone:1443}; {area:608} in the north is the Alliance town."] = "{area:467} kasabasına (ya da sende varsa {area:608} karakoluna) uç ve güneybatıya giden yoldan {zone:1442} bölgesinden çıkıp {zone:1443} bölgesine gir; kuzeydeki {area:608} Alliance kasabası.",
 	-- {area:460} Sun Rock Retreat · {zone:1443} Desolace · {area:2408} Shadowprey Village
 	["Fly to {area:460} and take the road south-west into {zone:1443}; {area:2408} on the west coast is the Horde town."] = "{area:460} kampına uç ve güneybatıya giden yoldan {zone:1443} bölgesine gir; batı kıyısındaki {area:2408} Horde kasabası.",
 	-- {area:608} Nijel's Point · {npc:6706} Baritanas Skyriver
@@ -44,9 +44,9 @@ return {
 
 	-- Step 6: Feralas: level 60+ areas
 	-- {zone:1444} Feralas
-	["{zone:1444}: level 60+ areas"] = "",
+	["{zone:1444}: level 60+ areas"] = "{zone:1444}: seviye 60+ alanlar",
 	-- {area:1113} Oneiros · {area:1111} Dream Bough
-	["{area:1113} and {area:1111} are level 60 areas, far above this guide. Skip this step for now and come back near that level: exploring the whole map needs them."] = "",
+	["{area:1113} and {area:1111} are level 60 areas, far above this guide. Skip this step for now and come back near that level: exploring the whole map needs them."] = "{area:1113} ve {area:1111} seviye 60 alanları, bu rehberin çok üstünde. Bu adımı şimdilik atla ve o seviyeye yaklaşınca geri gel: bütün haritayı keşfetmek için gerekiyorlar.",
 	["level 60 area, well above this guide's range"] = "seviye 60 alan, bu rehberin aralığının çok üstünde",
 
 	-- Step 7: Dustwallow Marsh
@@ -64,12 +64,8 @@ return {
 
 	-- Step 8: Dustwallow Marsh: level 61+ area
 	-- {zone:1445} Dustwallow Marsh
-	["{zone:1445}: level 61+ area"] = "",
+	["{zone:1445}: level 61+ area"] = "{zone:1445}: seviye 61+ alan",
 	-- {area:2079} Alcaz Island
-	["{area:2079} is a level 61 area, far above this guide. Skip this step for now and come back near that level: exploring the whole map needs it."] = "",
+	["{area:2079} is a level 61 area, far above this guide. Skip this step for now and come back near that level: exploring the whole map needs it."] = "{area:2079} seviye 61 bir alan, bu rehberin çok üstünde. Bu adımı şimdilik atla ve o seviyeye yaklaşınca geri gel: bütün haritayı keşfetmek için gerekiyor.",
 	["level 61 area, well above this guide's range"] = "seviye 61 alan, bu rehberin aralığının çok üstünde",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["Fly to {area:467} (or to {area:608} if you have it) and take the road south-west out of the {zone:1442} into {zone:1443}; {area:608} in the north is the Alliance town."]
-	-- ["Take the road south-west out of the {zone:1442} into {zone:1443}; {area:608} in the north is the Alliance town."] = "Güneybatıya giden yoldan {zone:1442} bölgesinden çıkıp {zone:1443} bölgesine gir; kuzeydeki {area:608} Alliance kasabası.",
 }

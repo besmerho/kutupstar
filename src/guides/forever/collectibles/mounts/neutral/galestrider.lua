@@ -9,7 +9,7 @@ return {
 	-- Step 1: Learn to ride
 	["Learn to ride"] = "Binmeyi öğren",
 	-- {skill:762} Riding
-	["Galestriders need level 40 and {skill:762}. Train it at your own race's riding trainer; see the Level 40 mount guides for where."] = "",
+	["Galestriders need level 40 and {skill:762}. Train it at your own race's riding trainer; see the Level 40 mount guides for where."] = "Galestrider'lar seviye 40 ve {skill:762} gerektirir. Bunu kendi ırkının binicilik eğitmeninden öğren; nerede olduklarını seviye 40 binek rehberlerinde bul.",
 
 	-- Step 2: Skyboat from Dalaran
 	-- {area:279} Dalaran
@@ -27,26 +27,20 @@ return {
 
 	-- Step 4: Riding with Genn Fairweather
 	-- {skill:762} Riding · {npc:265756} Genn Fairweather
-	["{skill:762} with {npc:265756}"] = "",
+	["{skill:762} with {npc:265756}"] = "{npc:265756} ile {skill:762}",
 	-- {skill:762} Riding · {npc:265756} Genn Fairweather · {area:17684} Fairweather Stables · {area:16638} Valanaar
-	["Skyborne learn {skill:762} from {npc:265756} himself for 100g, and it comes with a Galestrider. He stands at the {area:17684} in {area:16638}, near the skyboat docks."] = "",
+	["Skyborne learn {skill:762} from {npc:265756} himself for 100g, and it comes with a Galestrider. He stands at the {area:17684} in {area:16638}, near the skyboat docks."] = "Skyborne'lar {skill:762} becerisini 100g karşılığında doğrudan {npc:265756} yanında öğrenir ve bununla bir Galestrider da gelir. {area:16638} içinde {area:17684} kesiminde, gök gemisi iskelelerinin yakınında duruyor.",
 	-- {npc:265756} Genn Fairweather
-	["{npc:265756}, riding trainer"] = "",
+	["{npc:265756}, riding trainer"] = "{npc:265756}, binicilik eğitmeni",
 
 	-- Step 5: Galestrider Riding for other races
 	-- {spell:1285849} Galestrider Riding
 	["{spell:1285849} for other races"] = "{spell:1285849}, diğer ırklar için",
 	-- {spell:1285849} Galestrider Riding · {skill:762} Riding · {npc:265756} Genn Fairweather
-	["Any race can buy Galestriders, but riding one also takes {spell:1285849}, which only the Skyborne get with {skill:762}. Other races can learn it too, but how is not known yet: in Classic another race's riding needed Exalted with its home faction, here the High Order (Alliance) or the Windshapers (Horde). Ask {npc:265756} before you buy."] = "",
+	["Any race can buy Galestriders, but riding one also takes {spell:1285849}, which only the Skyborne get with {skill:762}. Other races can learn it too, but how is not known yet: in Classic another race's riding needed Exalted with its home faction, here the High Order (Alliance) or the Windshapers (Horde). Ask {npc:265756} before you buy."] = "Her ırk Galestrider alabilir, ama birine binmek ayrıca yalnızca Skyborne'ların {skill:762} ile aldığı {spell:1285849} ister. Diğer ırklar da öğrenebilir, ama nasıl olduğu henüz bilinmiyor: Classic'te başka bir ırkın biniciliği o ırkın ana grubuyla Exalted isterdi, burada High Order (Alliance) ya da Windshapers (Horde). Almadan önce {npc:265756} ile konuş.",
 
 	-- Step 6: Genn Fairweather
 	-- {npc:265756} Genn Fairweather · {area:17684} Fairweather Stables · {area:16638} Valanaar
-	["{npc:265756} is at the {area:17684} in {area:16638}, the island's harbour town, near the skyboat docks. The Forever client lists each Galestrider at 20g; choose one."] = "",
+	["{npc:265756} is at the {area:17684} in {area:16638}, the island's harbour town, near the skyboat docks. The Forever client lists each Galestrider at 20g; choose one."] = "{npc:265756}, adanın liman kasabası {area:16638} içinde {area:17684} kesiminde, gök gemisi iskelelerinin yakınında. Forever istemcisi her Galestrider'ı 20g olarak gösteriyor; birini seç.",
 	["20g"] = "20g",
-
-	-- No longer in the guide (its English changed or it went away): reuse or delete.
-	-- maybe now: ["Galestriders need level 40 and {skill:762}. Train it at your own race's riding trainer; see the Level 40 mount guides for where."]
-	-- ["Galestriders need level 40 and {skill:762} ({spell:1285849} comes with it in the Forever client). Any riding trainer of your faction teaches it; see the Level 40 mount guides for where."] = "Galestrider'lar seviye 40 ve {skill:762} gerektirir (Forever istemcisinde {spell:1285849} onunla birlikte gelir). Tarafının herhangi bir binicilik eğitmeni öğretir; nerede olduklarını seviye 40 binek rehberlerinde bul.",
-	-- maybe now: ["{npc:265756} is at the {area:17684} in {area:16638}, the island's harbour town, near the skyboat docks. The Forever client lists each Galestrider at 20g; choose one."]
-	-- ["{npc:265756} is in {area:16638}, the island's harbour town, near the skyboat docks. The Forever client lists each Galestrider at 20g; choose one."] = "{npc:265756}, adanın liman kasabası {area:16638} içinde, gök gemisi iskelelerinin yakınında. Forever istemcisi her Galestrider'ı 20g olarak gösteriyor; birini seç.",
 }
