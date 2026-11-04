@@ -98,7 +98,7 @@ return {
 	-- {area:3425} Cenarion Hold
 	["Back to {area:3425}"] = "{area:3425} kalesine dön",
 	-- {quest:8304} Dearest Natalia · {area:2744} Hive'Regal
-	["Mar'alith's {quest:8304} needs level 58 and leads into {area:2744} among elites. Skip it."] = "",
+	["Mar'alith's {quest:8304} needs level 58 and leads into {area:2744} among elites. Skip it."] = "Mar'alith'in {quest:8304} görevi seviye 58 ister ve elitlerin arasında {area:2744} kovanına götürür. Atla.",
 
 	-- Step 28: Layo Starstrike
 	-- {area:3077} Valor's Rest · {zone:1451} Silithus
@@ -106,7 +106,7 @@ return {
 
 	-- Step 30: Marshal's Refuge
 	-- {area:541} Marshal's Refuge · {npc:8737} Linken
-	["Through the pass and east along the northern cliffs to {area:541}. {npc:8737} stands by the cave; J.D."] = "",
+	["Through the pass and east along the northern cliffs to {area:541}. {npc:8737} stands by the cave; J.D."] = "Geçitten geç ve kuzey uçurumları boyunca doğuya, {area:541} sığınağına git. {npc:8737} mağaranın yanında duruyor; J.D.",
 	-- {npc:9997} Spraggle Frock
 	["The wooden sign beside {npc:9997}"] = "{npc:9997} adlı NPC'nin yanındaki tahta tabela",
 
@@ -138,10 +138,10 @@ return {
 	-- {area:490} Un'Goro Crater
 	["{area:490}: kill these as you meet them"] = "{area:490}: bunları karşılaştıkça öldür",
 	-- plural, as words: Un'Goro Gorillas = {npc:6514} Un'Goro Gorilla
-	["Careful: Un'Goro Gorillas (level 50-51) call for help from allies within 20 yd once they drop to 25% health. There is a cave full of apes in the area, and fighting there brings many adds."] = "",
+	["Careful: Un'Goro Gorillas (level 50-51) call for help from allies within 20 yd once they drop to 25% health. There is a cave full of apes in the area, and fighting there brings many adds."] = "Dikkat: Un'Goro Gorilla yaratıkları (seviye 50-51) canları %25'e düşünce 20 yarda içindeki müttefiklerinden yardım çağırır. Bölgede maymunlarla dolu bir mağara var, orada dövüşmek çok sayıda ek yaratık getirir.",
 
 	-- Step 39: Marshal's Refuge
-	["Collie is inside it."] = "",
+	["Collie is inside it."] = "Collie onun içinde.",
 	-- {npc:9117} J.D. Collie
 	["{npc:9117}, below ground"] = "{npc:9117}, yer altında",
 	-- {quest:3942} Linken's Memory · {npc:9116} Eridan Bluewind · {area:2479} Emerald Sanctuary · {zone:1448} Felwood
@@ -188,7 +188,7 @@ return {
 	-- Step 54: Radley and Durgen
 	["Radley and Durgen"] = "Radley ve Durgen",
 	-- {npc:11613} Huntsman Radley · {npc:11611} Cavalier Durgen · {npc:11610} Kirsta Deepshadow · {area:190} Hearthglen
-	["{npc:11613} stands east of the lumber camp; {npc:11611} guards the road north-east of {npc:11610}, toward {area:190}.\nCareful: Guards stand at the tower's base and one more circles it on patrol. Clear them before you engage Durgen so they don't join the fight."] = "",
+	["{npc:11613} stands east of the lumber camp; {npc:11611} guards the road north-east of {npc:11610}, toward {area:190}.\nCareful: Guards stand at the tower's base and one more circles it on patrol. Clear them before you engage Durgen so they don't join the fight."] = "{npc:11613} kereste kampının doğusunda duruyor; {npc:11611}, {npc:11610} yerinin kuzeydoğusunda, {area:190} yönündeki yolu koruyor.\nDikkat: Kulenin dibinde muhafızlar duruyor, bir tanesi de devriye gezerek çevresinde dönüyor. Durgen ile dövüşmeden önce onları temizle ki dövüşe katılmasınlar.",
 
 	-- Step 56: Davil's Libram
 	-- {area:190} Hearthglen
@@ -196,7 +196,7 @@ return {
 
 	-- Step 57: Hearthglen
 	-- {area:190} Hearthglen
-	["{area:190}'s Scarlets are level 58-60. Ride in to the high point marked on your map, look over the town, and get out.\nCareful: Sentinels posted at the gate can detect stealthed players. Additional sentinels are found within the town, and an elite walks a patrol route nearby."] = "",
+	["{area:190}'s Scarlets are level 58-60. Ride in to the high point marked on your map, look over the town, and get out.\nCareful: Sentinels posted at the gate can detect stealthed players. Additional sentinels are found within the town, and an elite walks a patrol route nearby."] = "{area:190} kasabasının Scarlet'leri seviye 58-60. Haritanda işaretli yüksek noktaya sür, kasabaya bak ve çık.\nDikkat: Kapıya yerleştirilmiş nöbetçiler gizlenmiş oyuncuları fark edebilir. Kasabanın içinde başka nöbetçiler de var, yakında da bir elit devriye geziyor.",
 
 	-- Step 59: Andorhal watchtowers and silos
 	["Andorhal watchtowers and silos"] = "Andorhal gözetleme kuleleri ve siloları",
@@ -216,7 +216,7 @@ return {
 
 	-- Step 61: The Bulwark
 	-- {quest:964} Skeletal Fragments · {quest:838} Scholomance
-	["Dithers offers {quest:964} ({quest:838}). Skip it."] = "",
+	["Dithers offers {quest:964} ({quest:838}). Skip it."] = "Dithers {quest:964} görevini öneriyor ({quest:838}). Atla.",
 
 	-- Step 63: Dalson's Tears
 	-- {npc:11077} Cauldron Lord Malvinious · {area:200} Dalson's Tears
@@ -247,9 +247,9 @@ return {
 
 	-- Step 73: Pamela and the Undercroft
 	-- {area:2261} Undercroft
-	["Pamela and the {area:2261}"] = "",
+	["Pamela and the {area:2261}"] = "Pamela ve {area:2261}",
 	-- {area:2262} Darrowshire · {npc:11886} Mercutio Filthgorger · {area:2261} Undercroft
-	["Ride to {area:2262} in the south-west; Pamela plays among the houses. {npc:11886} lurks in the {area:2261}, the crypt just west of the town.\nCareful: About four non-elite adds come with Mercutio. They walk to the grave instead of appearing on the spot."] = "",
+	["Ride to {area:2262} in the south-west; Pamela plays among the houses. {npc:11886} lurks in the {area:2261}, the crypt just west of the town.\nCareful: About four non-elite adds come with Mercutio. They walk to the grave instead of appearing on the spot."] = "Güneybatıdaki {area:2262} köyüne sür; Pamela evlerin arasında oynuyor. {npc:11886}, kasabanın hemen batısındaki mahzen {area:2261} içinde pusuda.\nDikkat: Mercutio ile birlikte yaklaşık dört elit olmayan ek yaratık gelir. Olduğu yerde belirmek yerine mezara yürüyerek gelirler.",
 
 	-- Step 75: Tirion Fordring
 	-- {npc:1855} Tirion Fordring
@@ -270,7 +270,7 @@ return {
 	["{npc:10667}'s Battle of Darrowshire ends against elites. Skip it."] = "{npc:10667} adlı NPC'nin Battle of Darrowshire görevi elitlere karşı bitiyor. Atla.",
 
 	-- Step 80: Counting Out Time
-	["Careful: Ghouls and skeletons usually stand next to the boxes and attack when you come close. Searing ghouls also hurt anyone nearby and will break stealth."] = "",
+	["Careful: Ghouls and skeletons usually stand next to the boxes and attack when you come close. Searing ghouls also hurt anyone nearby and will break stealth."] = "Dikkat: Ghoul'lar ve iskeletler genelde kutuların yanında durur ve yaklaşınca saldırır. Searing ghoul'lar yakındaki herkese de hasar verir ve gizliliği bozar.",
 
 	-- Step 82: The Bulwark
 	-- {area:152} The Bulwark · {zone:1458} Undercity
@@ -285,7 +285,7 @@ return {
 
 	-- Step 86: Infiltrator Hameya
 	-- {area:2273} Zul'Mashar
-	["Hameya hides among the Mossflayer trolls of {area:2273}, in the north-east corner.\nCareful: The trolls along the path to {area:2273} are level 57-59. They run away at low health and call for help, so they often bring adds with them."] = "",
+	["Hameya hides among the Mossflayer trolls of {area:2273}, in the north-east corner.\nCareful: The trolls along the path to {area:2273} are level 57-59. They run away at low health and call for help, so they often bring adds with them."] = "Hameya, kuzeydoğu köşedeki {area:2273} kesiminde Mossflayer troll'lerinin arasında saklanıyor.\nDikkat: {area:2273} yolundaki troll'ler seviye 57-59. Canları azalınca kaçıp yardım çağırırlar, bu yüzden çoğu zaman yanlarında ek yaratık getirirler.",
 
 	-- Step 89: Hameya's mound
 	["Hameya's mound"] = "Hameya'nın tümseği",

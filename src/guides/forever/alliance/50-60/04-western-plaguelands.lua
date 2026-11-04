@@ -8,7 +8,7 @@ return {
 	["{area:197}: kill these as you meet them"] = "{area:197}: bunları karşılaştıkça öldür",
 	-- {npc:10411} Eye of Naxxramas
 	-- plural, as words: Skeletal Flayers = {npc:1783} Skeletal Flayer · Slavering Ghouls = {npc:1791} Slavering Ghoul · Rockwing Gargoyles = {npc:10408} Rockwing Gargoyle
-	["Skeletal Flayers and Slavering Ghouls roam the fields north of the camp; all the Scourge here drop Scourgestones.\nCareful: These undead notice you from far away, and other undead nearby join the fight when one is pulled.\nCareful: The {npc:10411} (3 spawns, 15 min respawn) turns invisible when out of combat and calls in Rockwing Gargoyles once a fight starts."] = "",
+	["Skeletal Flayers and Slavering Ghouls roam the fields north of the camp; all the Scourge here drop Scourgestones.\nCareful: These undead notice you from far away, and other undead nearby join the fight when one is pulled.\nCareful: The {npc:10411} (3 spawns, 15 min respawn) turns invisible when out of combat and calls in Rockwing Gargoyles once a fight starts."] = "Skeletal Flayer ve Slavering Ghoul yaratıkları kampın kuzeyindeki tarlalarda dolaşıyor; buradaki bütün Scourge'lar Scourgestone düşürür.\nDikkat: Bu undead'ler seni çok uzaktan fark eder, biri çekilince yakındaki diğer undead'ler de dövüşe katılır.\nDikkat: {npc:10411} (3 doğma noktası, 15 dakikada yeniden doğar) savaş dışındayken görünmez olur ve dövüş başlayınca Rockwing Gargoyle çağırır.",
 
 	-- Step 3: Marlene Redpath
 	-- {npc:10927} Marlene Redpath · {npc:10936} Joseph Redpath
@@ -34,7 +34,7 @@ return {
 
 	-- Step 7: Dalson's Tears
 	-- {object:175924} Locked Cabinet
-	["{object:175924}, in the farmhouse; inside"] = "",
+	["{object:175924}, in the farmhouse; inside"] = "{object:175924}, çiftlik evinde; içeride",
 
 	-- Step 8: Chillwind Camp
 	["Ride back south to the camp."] = "Güneye, kampa dön.",
@@ -107,7 +107,7 @@ return {
 
 	-- Step 25: Sorrow Hill: kill these as you meet them
 	-- {npc:1852} Araj the Summoner
-	["{npc:1852} is elite: grouping up is advised. He guards his phylactery in the middle of Andorhal.\nSmall lockboxes lie in the rubble all over Andorhal; each holds a watch.\nCareful: Ghouls and skeletons usually stand next to the boxes and attack when you come close. Searing ghouls also hurt anyone nearby and will break stealth."] = "",
+	["{npc:1852} is elite: grouping up is advised. He guards his phylactery in the middle of Andorhal.\nSmall lockboxes lie in the rubble all over Andorhal; each holds a watch.\nCareful: Ghouls and skeletons usually stand next to the boxes and attack when you come close. Searing ghouls also hurt anyone nearby and will break stealth."] = "{npc:1852} elit: grup kurman önerilir. Andorhal'ın ortasında phylactery'sini koruyor.\nKüçük kilitli kutular Andorhal'ın her yanında molozların arasında duruyor; her birinde bir saat var.\nDikkat: Ghoul'lar ve iskeletler genelde kutuların yanında durur ve yaklaşınca saldırır. Searing ghoul'lar yakındaki herkese de hasar verir ve gizliliği bozar.",
 
 	-- Step 27: More watches
 	["More watches"] = "Daha fazla saat",
@@ -131,13 +131,13 @@ return {
 	-- Step 33: Radley and Durgen
 	["Radley and Durgen"] = "Radley ve Durgen",
 	-- {npc:11613} Huntsman Radley · {npc:11610} Kirsta Deepshadow · {npc:11611} Cavalier Durgen · {area:190} Hearthglen
-	["{npc:11613} walks the Northridge camp east of {npc:11610}; {npc:11611} guards the tower at {area:190}'s southern approach.\nCareful: Guards stand at the tower's base and one more circles it on patrol. Clear them before you engage Durgen so they don't join the fight."] = "",
+	["{npc:11613} walks the Northridge camp east of {npc:11610}; {npc:11611} guards the tower at {area:190}'s southern approach.\nCareful: Guards stand at the tower's base and one more circles it on patrol. Clear them before you engage Durgen so they don't join the fight."] = "{npc:11613}, {npc:11610} yerinin doğusundaki Northridge kampında dolaşıyor; {npc:11611}, {area:190} kasabasının güney girişindeki kuleyi koruyor.\nDikkat: Kulenin dibinde muhafızlar duruyor, bir tanesi de devriye gezerek çevresinde dönüyor. Durgen ile dövüşmeden önce onları temizle ki dövüşe katılmasınlar.",
 
 	-- Step 35: Hearthglen overlook
 	-- {area:190} Hearthglen
 	["{area:190} overlook"] = "{area:190} seyir noktası",
 	-- {area:190} Hearthglen
-	["Climb the hill west of {area:190} to look down on the town.\nCareful: Sentinels posted at the gate can detect stealthed players. Additional sentinels are found within the town, and an elite walks a patrol route nearby."] = "",
+	["Climb the hill west of {area:190} to look down on the town.\nCareful: Sentinels posted at the gate can detect stealthed players. Additional sentinels are found within the town, and an elite walks a patrol route nearby."] = "Kasabaya yukarıdan bakmak için {area:190} kasabasının batısındaki tepeye tırman.\nDikkat: Kapıya yerleştirilmiş nöbetçiler gizlenmiş oyuncuları fark edebilir. Kasabanın içinde başka nöbetçiler de var, yakında da bir elit devriye geziyor.",
 
 	-- Step 37: Tirion Fordring
 	-- {npc:1855} Tirion Fordring
@@ -188,7 +188,7 @@ return {
 
 	-- Step 47: Augustus the Touched
 	-- {area:2627} Terrordale · {npc:12384} Augustus the Touched · {npc:11140} Egan
-	["Ride north to {area:2627}. {npc:12384} lives in the ruined hut, and his receipt book lies in the ruined inn nearby.\n{npc:11140} stands by {npc:12384}' hut in {area:2627}."] = "",
+	["Ride north to {area:2627}. {npc:12384} lives in the ruined hut, and his receipt book lies in the ruined inn nearby.\n{npc:11140} stands by {npc:12384}' hut in {area:2627}."] = "Kuzeye, {area:2627} bölgesine sür. {npc:12384} yıkık kulübede yaşıyor, makbuz defteri de yakındaki yıkık handa duruyor.\n{npc:11140}, {area:2627} içinde {npc:12384} kulübesinin yanında duruyor.",
 
 	-- Step 49: Plaguewood: kill these as you meet them
 	-- {area:2277} Plaguewood
@@ -239,7 +239,7 @@ return {
 
 	-- Step 63: Darnassus
 	-- {area:702} Rut'theran Village · {zone:1457} Darnassus
-	["The portal in {area:702} leads up to {zone:1457}."] = "",
+	["The portal in {area:702} leads up to {zone:1457}."] = "{area:702} köyündeki portal {zone:1457} şehrine çıkarır.",
 	-- {npc:9047} Jenal · {area:1658} Cenarion Enclave
 	["{npc:9047}, in the {area:1658}"] = "{npc:9047}, {area:1658} içinde",
 	-- {zone:1455} Ironforge
@@ -247,7 +247,7 @@ return {
 	-- {item:11040} Morrowgrain · {item:11020} Evergreen Pouch
 	["Ten {item:11040} from the {item:11020}"] = "{item:11020} içinden on {item:11040}",
 	-- {quest:6762} Rabine Saturna · {area:493} Moonglade
-	["{quest:6762} in {area:493}: keep it"] = "",
+	["{quest:6762} in {area:493}: keep it"] = "{area:493} içindeki {quest:6762}: sakla",
 
 	-- Step 64: Portal to Teldrassil
 	-- {zone:1438} Teldrassil
@@ -255,13 +255,13 @@ return {
 
 	-- Step 65: Rut'theran Village
 	-- {area:618} Winterspring
-	["Ranshalla in {area:618}: keep it"] = "",
+	["Ranshalla in {area:618}: keep it"] = "{area:618} bölgesindeki Ranshalla: sakla",
 
 	-- Step 66: Feathermoon Stronghold
 	-- {area:702} Rut'theran Village · {area:1116} Feathermoon Stronghold
 	["From {area:702}, fly to {area:1116}."] = "{area:702} köyünden {area:1116} kalesine uç.",
 	-- {npc:7900} Angelas Moonbreeze · {area:440} Tanaris
-	["{npc:7900}: keep it for {area:440}"] = "",
+	["{npc:7900}: keep it for {area:440}"] = "{npc:7900}: {area:440} için sakla",
 
 	-- Step 68: Boat to The Forgotten Coast
 	-- {area:1108} The Forgotten Coast
@@ -294,7 +294,7 @@ return {
 	-- {zone:1448} Felwood
 	["For {zone:1448}: keep it"] = "{zone:1448} için: sakla",
 	-- {npc:8496} Liv Rizzlefix
-	["{npc:8496}: keep it for Un'Goro; inside"] = "",
+	["{npc:8496}: keep it for Un'Goro; inside"] = "{npc:8496}: Un'Goro için sakla; içeride",
 
 	-- Step 77: Fly to Everlook
 	-- {area:2255} Everlook
@@ -305,13 +305,13 @@ return {
 	-- Step 79: Donova Snowden
 	["Ride west along the road to the hot springs."] = "Yol boyunca batıya, kaplıcalara git.",
 	-- {npc:9299} Gaeriyan · {area:976} Gadgetzan
-	["{npc:9299} in {area:976}: keep it"] = "",
+	["{npc:9299} in {area:976}: keep it"] = "{area:976} kasabasındaki {npc:9299}: sakla",
 
 	-- Step 81: Rabine Saturna
 	-- {area:1769} Timbermaw Hold · {area:493} Moonglade · {area:2361} Nighthaven
-	["Walk into {area:1769} and take the {area:493} branch of the tunnel to {area:2361}."] = "",
+	["Walk into {area:1769} and take the {area:493} branch of the tunnel to {area:2361}."] = "{area:1769} sığınağına yürü ve tünelin {area:493} koluyla {area:2361} köyüne git.",
 	-- {area:1377} Silithus
-	["For {area:1377}: keep it"] = "",
+	["For {area:1377}: keep it"] = "{area:1377} için: sakla",
 
 	-- Step 82: Hearth to Ratchet
 	-- {area:392} Ratchet
@@ -347,13 +347,13 @@ return {
 
 	-- Step 89: Linken
 	-- {area:976} Gadgetzan · {area:541} Marshal's Refuge · {npc:8737} Linken · {area:538} Lakkari Tar Pits · {npc:9997} Spraggle Frock · {npc:9999} Ringo
-	["Fly from {area:976} to {area:541}. {npc:8737}'s hut stands at the {area:538}, west of the refuge; J.D.\n{npc:9997}'s friend {npc:9999} has gone missing."] = "",
+	["Fly from {area:976} to {area:541}. {npc:8737}'s hut stands at the {area:538}, west of the refuge; J.D.\n{npc:9997}'s friend {npc:9999} has gone missing."] = "{area:976} kasabasından {area:541} sığınağına uç. {npc:8737} kulübesi sığınağın batısında, {area:538} katran çukurlarında; J.D.\n{npc:9997} dostu {npc:9999} kayboldu.",
 	-- {npc:9997} Spraggle Frock
 	["The wooden sign beside {npc:9997}"] = "{npc:9997} adlı NPC'nin yanındaki tahta tabela",
 
 	-- Step 91: Cenarion Hold
 	-- {area:1377} Silithus · {area:3425} Cenarion Hold
-	["Ride out of the crater's north-western pass into {area:1377} and on to {area:3425}."] = "",
+	["Ride out of the crater's north-western pass into {area:1377} and on to {area:3425}."] = "Kraterin kuzeybatı geçidinden {area:1377} bölgesine çık ve {area:3425} karakoluna devam et.",
 
 	-- Step 92: Silithus: kill these as you meet them
 	-- {area:1377} Silithus
@@ -364,7 +364,7 @@ return {
 	-- Step 93: Level 56.89
 	["Level 56.89"] = "Seviye 56.89",
 	-- {item:9328} Super Snapper FX
-	["If you skipped The {item:9328}, grind here to level 56.89 to stay on the route's plan."] = "",
+	["If you skipped The {item:9328}, grind here to level 56.89 to stay on the route's plan."] = "{item:9328} görevini atladıysan rotanın planında kalmak için burada seviye 56.89 olana kadar kas.",
 	-- {npc:11740} Dredge Striker
 	["grind on {npc:11740}"] = "Kas: {npc:11740}",
 
@@ -396,7 +396,7 @@ return {
 
 	-- Step 100: Layo Starstrike
 	-- {area:493} Moonglade
-	["Umber in {area:493}: keep it"] = "",
+	["Umber in {area:493}: keep it"] = "{area:493} içindeki Umber: sakla",
 
 	-- Step 102: Un'Goro Crater: kill these as you meet them
 	-- {area:490} Un'Goro Crater
@@ -412,7 +412,7 @@ return {
 
 	-- Step 105: Krakle
 	-- {npc:9298} Donova Snowden · {area:618} Winterspring
-	["Ends with {npc:9298} in {area:618}: keep it"] = "",
+	["Ends with {npc:9298} in {area:618}: keep it"] = "{area:618} bölgesindeki {npc:9298} ile biter: sakla",
 
 	-- Step 106: Super Sticky Tar on the way
 	-- {item:11834} Super Sticky Tar
@@ -422,7 +422,7 @@ return {
 	["Northern Pylon"] = "Northern Pylon",
 
 	-- Step 108: J.D. Collie
-	["Collie is up the hill behind it."] = "",
+	["Collie is up the hill behind it."] = "Collie onun arkasındaki tepenin yukarısında.",
 	-- {npc:9117} J.D. Collie
 	["{npc:9117}, below ground"] = "{npc:9117}, yer altında",
 
@@ -430,7 +430,7 @@ return {
 	["The crater"] = "Krater",
 	-- {area:538} Lakkari Tar Pits · {area:537} Fire Plume Ridge · {area:540} Slithering Scar · {item:11018} Un'Goro Soil
 	-- plural, as words: Tar Beasts = {npc:6517} Tar Beast · Gorishi Workers = {npc:6552} Gorishi Worker
-	["Tar Beasts wallow in the {area:538}; the fire elementals of {area:537} in the middle carry the ash; the Gorishi wasps of the {area:540} in the south carry the gland. Every creature in the crater can drop {item:11018}.\nCareful: Gorishi Workers that drop below 45% health have a 50% chance to call for help from allies within 25 yd."] = "",
+	["Tar Beasts wallow in the {area:538}; the fire elementals of {area:537} in the middle carry the ash; the Gorishi wasps of the {area:540} in the south carry the gland. Every creature in the crater can drop {item:11018}.\nCareful: Gorishi Workers that drop below 45% health have a 50% chance to call for help from allies within 25 yd."] = "Tar Beast yaratıkları {area:538} çukurlarında yuvarlanıyor; ortadaki {area:537} sırtının ateş elementalleri külü, güneydeki {area:540} yarığının Gorishi eşekarıları bezi taşıyor. Kraterdeki her yaratık {item:11018} düşürebilir.\nDikkat: Canı %45'in altına düşen Gorishi Worker yaratıkları %50 olasılıkla 25 yarda içindeki müttefiklerinden yardım çağırır.",
 
 	-- Step 112: Torwa Pathfinder
 	-- {npc:9619} Torwa Pathfinder
@@ -442,7 +442,7 @@ return {
 	["{area:538}: kill these as you meet them"] = "{area:538}: bunları karşılaştıkça öldür",
 	-- {area:1943} Ironstone Plateau · {area:541} Marshal's Refuge · {npc:9619} Torwa Pathfinder · {npc:9622} U'cha
 	-- plural, as words: Un'Goro Gorillas = {npc:6514} Un'Goro Gorilla
-	["The gorillas live on {area:1943}, east of {area:541}. Keep their pelts for {npc:9619}. Stay out of the deepest cave: {npc:9622} is level 55.\nCareful: Un'Goro Gorillas (level 50-51) call for help from allies within 20 yd once they drop to 25% health. There is a cave full of apes in the area, and fighting there brings many adds."] = "",
+	["The gorillas live on {area:1943}, east of {area:541}. Keep their pelts for {npc:9619}. Stay out of the deepest cave: {npc:9622} is level 55.\nCareful: Un'Goro Gorillas (level 50-51) call for help from allies within 20 yd once they drop to 25% health. There is a cave full of apes in the area, and fighting there brings many adds."] = "Goriller {area:541} sığınağının doğusundaki {area:1943} platosunda yaşıyor. Postlarını {npc:9619} için sakla. En derindeki mağaradan uzak dur: {npc:9622} seviye 55.\nDikkat: Un'Goro Gorilla yaratıkları (seviye 50-51) canları %25'e düşünce 20 yarda içindeki müttefiklerinden yardım çağırır. Bölgede maymunlarla dolu bir mağara var, orada dövüşmek çok sayıda ek yaratık getirir.",
 	-- {item:11478} Un'Goro Gorilla Pelt
 	["{item:11478}; below ground"] = "{item:11478}; yer altında",
 	-- {item:11479} Un'Goro Stomper Pelt

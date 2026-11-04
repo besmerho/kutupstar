@@ -38,13 +38,13 @@ return {
 
 	-- Step 7: Vehena
 	-- {object:172961} Valley of Spirits
-	["In the {object:172961}. Each donation takes sixty Wool, Silk or Mageweave from your bags: hand in what you carry, skip the rest."] = "",
+	["In the {object:172961}. Each donation takes sixty Wool, Silk or Mageweave from your bags: hand in what you carry, skip the rest."] = "{object:172961} içinde. Her bağış çantandan altmış Wool, Silk ya da Mageweave alır: taşıdığını teslim et, gerisini atla.",
 
 	-- Step 8: Rashona Straglash
 	-- {object:172958} Valley of Honor
 	["In the {object:172958}."] = "{object:172958} içinde.",
 	-- {item:14047} Runecloth
-	["Both {item:14047} donations are handed in later in the route: save sixty {item:14047} for each if you want them."] = "",
+	["Both {item:14047} donations are handed in later in the route: save sixty {item:14047} for each if you want them."] = "İki {item:14047} bağışı da rotanın ilerisinde teslim ediliyor: istiyorsan her biri için altmış {item:14047} biriktir.",
 
 	-- Step 9: Fly to Valormok
 	-- {area:1237} Valormok
@@ -61,7 +61,7 @@ return {
 	-- {npc:8578} Magus Rimtori
 	["{npc:8578}'s camp"] = "{npc:8578} kampı",
 	-- {object:151286} Kaldorei Tome of Summoning
-	["Rimtori's camp is at the east end of the base camp. Read the {object:151286} there, then kill the Magus.\nCareful: Which crystal is linked to Rimtori is random. Each of the other two summons a hostile infernal instead."] = "",
+	["Rimtori's camp is at the east end of the base camp. Read the {object:151286} there, then kill the Magus.\nCareful: Which crystal is linked to Rimtori is random. Each of the other two summons a hostile infernal instead."] = "Rimtori'nin kampı ana kampın doğu ucunda. Oradaki {object:151286} kitabını oku, sonra Magus'u öldür.\nDikkat: Hangi kristalin Rimtori'ye bağlı olduğu rastgele. Diğer ikisinin her biri bunun yerine düşman bir infernal çağırır.",
 
 	-- Step 14: Ag'tor Bloodfist
 	-- {area:1237} Valormok
@@ -80,11 +80,11 @@ return {
 
 	-- Step 17: Orgrimmar
 	-- {zone:1454} Orgrimmar
-	["Fly to {zone:1454} and train."] = "",
+	["Fly to {zone:1454} and train."] = "{zone:1454} şehrine uç ve eğitim al.",
 
 	-- Step 18: Belgrom Rockmaul
 	-- {zone:1454} Orgrimmar · {npc:4485} Belgrom Rockmaul · {object:172958} Valley of Honor
-	["Fly to {zone:1454}; {npc:4485} is in the {object:172958}."] = "",
+	["Fly to {zone:1454}; {npc:4485} is in the {object:172958}."] = "{zone:1454} şehrine uç; {npc:4485}, {object:172958} kesiminde.",
 
 	-- Step 19: Into Durotar
 	-- {zone:1411} Durotar
@@ -102,7 +102,7 @@ return {
 
 	-- Step 22: The Undercity
 	-- {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades · {zone:1458} Undercity · {object:36126} Royal Quarter
-	["Take the zeppelin from the tower outside {zone:1454} to {zone:1420} and ride into the {zone:1458}. Lady Sylvanas holds the {object:36126}."] = "",
+	["Take the zeppelin from the tower outside {zone:1454} to {zone:1420} and ride into the {zone:1458}. Lady Sylvanas holds the {object:36126}."] = "{zone:1454} şehrinin dışındaki kuleden {zone:1420} zeplinine bin ve {zone:1458} içine sür. Lady Sylvanas {object:36126} kesimini yönetiyor.",
 
 	-- Step 23: Royal Quarter
 	-- {npc:8403} Jeremiah Payson

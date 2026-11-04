@@ -5,7 +5,7 @@
 return {
 	-- Guide
 	-- {zone:1451} Silithus · {area:361} Felwood · {area:618} Winterspring
-	["{zone:1451}, {area:361}, {area:618} & the Plaguelands"] = "",
+	["{zone:1451}, {area:361}, {area:618} & the Plaguelands"] = "{zone:1451}, {area:361}, {area:618} ve Plaguelands",
 
 	-- Step 1: Hearth to Ratchet
 	-- {area:392} Ratchet
@@ -25,7 +25,7 @@ return {
 	-- {area:2479} Emerald Sanctuary
 	["The {area:2479}"] = "{area:2479} sığınağı",
 	-- {area:415} Astranaar · {area:361} Felwood
-	["Ride north out of {area:415} into {area:361} to the druids' camp on the road just past the border."] = "",
+	["Ride north out of {area:415} into {area:361} to the druids' camp on the road just past the border."] = "{area:415} kasabasından kuzeye, {area:361} bölgesine, sınırı az geçince yolun üstündeki druid kampına sür.",
 	["Inside"] = "İçeride",
 	-- {npc:9116} Eridan Bluewind
 	["Wait a moment for {npc:9116}"] = "{npc:9116} için biraz bekle",
@@ -34,7 +34,7 @@ return {
 	-- {area:1770} Shadow Hold
 	["{area:1770} braziers"] = "{area:1770} mangalları",
 	-- {area:1770} Shadow Hold · {area:1763} Jaedenar · {item:12906} Purified Moonwell Water · {item:11172} Silvery Claws
-	["{area:1770} is the cave at the back of {area:1763}, west of the road. Use the {item:12906} on the four braziers inside. Kill the Angerclaw bears and Felpaw wolves you pass for the {item:11172}.\nCareful: Shadow Council mobs of level 53-55 fill the cave and often come in large linked groups, many with stuns. A group of 2-3 players is recommended."] = "",
+	["{area:1770} is the cave at the back of {area:1763}, west of the road. Use the {item:12906} on the four braziers inside. Kill the Angerclaw bears and Felpaw wolves you pass for the {item:11172}.\nCareful: Shadow Council mobs of level 53-55 fill the cave and often come in large linked groups, many with stuns. A group of 2-3 players is recommended."] = "{area:1770}, yolun batısında, {area:1763} kesiminin arkasındaki mağara. İçerideki dört mangalda {item:12906} kullan. {item:11172} için geçtiğin Angerclaw ayılarını ve Felpaw kurtlarını öldür.\nDikkat: Mağarayı seviye 53-55 Shadow Council yaratıkları dolduruyor ve çoğu zaman büyük bağlı gruplar halinde, çoğu sersemletme kullanarak gelirler. 2-3 kişilik bir grup önerilir.",
 	["Angerclaw bears and Felpaw wolves"] = "Angerclaw ayıları ve Felpaw kurtları",
 	-- {object:176159} Brazier of Malice
 	["{object:176159}, below ground"] = "{object:176159}, yer altında",
@@ -54,19 +54,19 @@ return {
 
 	-- Step 9: Arei
 	-- {npc:9598} Arei · {area:1767} Irontree Woods · {quest:5086} Toxic Horrors
-	["{npc:9598} waits in {area:1767}. Escort her out of the woods and keep her alive.\nCareful: Three {quest:5086} ambush you soon after the escort starts."] = "",
+	["{npc:9598} waits in {area:1767}. Escort her out of the woods and keep her alive.\nCareful: Three {quest:5086} ambush you soon after the escort starts."] = "{npc:9598}, {area:1767} ormanında bekliyor. Ona ormanın dışına kadar eşlik et ve hayatta tut.\nDikkat: Eşlik başladıktan kısa süre sonra üç {quest:5086} pusu kurar.",
 
 	-- Step 10: Felpaw Village
 	-- {area:1769} Timbermaw Hold
 	["Ride north to the Deadwood furbolgs' village by the {area:1769} cave mouth."] = "Kuzeye, {area:1769} mağara ağzının yanındaki Deadwood furbolg köyüne git.",
 	-- {object:176091} Deadwood Cauldron · {area:618} Winterspring
-	["{object:176091}, if you found the Firewater flask in {area:618}"] = "",
+	["{object:176091}, if you found the Firewater flask in {area:618}"] = "{object:176091}, {area:618} içinde Firewater şişesini bulduysan",
 	-- {quest:5085} Mystery Goo · {npc:9298} Donova Snowden · {area:618} Winterspring
-	["{quest:5085}: {npc:9298} in {area:618}, keep it"] = "",
+	["{quest:5085}: {npc:9298} in {area:618}, keep it"] = "{quest:5085}: {area:618} bölgesindeki {npc:9298}, sakla",
 
 	-- Step 11: A Final Blow
 	-- {area:1770} Shadow Hold · {npc:9861} Moora · {npc:9860} Salia · {npc:9517} Shadow Lord Fel'dan
-	["Back into {area:1770}: {npc:9861} and {npc:9860} guard {npc:9517} in its deepest chamber.\nCareful: The three bosses fight as a group. Kill the nearby mobs first so you don't pull extra enemies."] = "",
+	["Back into {area:1770}: {npc:9861} and {npc:9860} guard {npc:9517} in its deepest chamber.\nCareful: The three bosses fight as a group. Kill the nearby mobs first so you don't pull extra enemies."] = "{area:1770} içine geri dön: {npc:9861} ve {npc:9860}, en derindeki odada {npc:9517} yaratığını koruyor.\nDikkat: Üç boss birlikte dövüşür. Fazladan düşman çekmemek için önce yakındaki yaratıkları öldür.",
 	-- {npc:9861} Moora
 	["{npc:9861}, below ground"] = "{npc:9861}, yer altında",
 	-- {npc:9860} Salia
@@ -140,7 +140,7 @@ return {
 
 	-- Step 25: Hive'Zora
 	-- {npc:17080} Marshal Bluewall · {area:2743} Hive'Zora · {spell:642} Divine Shield · {spell:5384} Feign Death · {spell:17} Power Word: Shield
-	["{npc:17080} camps outside {area:2743}, the western hive. Pick up a Silithyst at one of the red geysers nearby and carry it to the Alliance extractor at his camp.\nCareful: You lose the Silithyst if you mount, stealth, use {spell:642}, {spell:5384} or Vanish. Blink and {spell:17} do not drop it."] = "",
+	["{npc:17080} camps outside {area:2743}, the western hive. Pick up a Silithyst at one of the red geysers nearby and carry it to the Alliance extractor at his camp.\nCareful: You lose the Silithyst if you mount, stealth, use {spell:642}, {spell:5384} or Vanish. Blink and {spell:17} do not drop it."] = "{npc:17080}, batıdaki kovan {area:2743} dışında kamp kurmuş. Yakındaki kırmızı gayzerlerden birinden bir Silithyst al ve kampındaki Alliance çıkarıcısına taşı.\nDikkat: Bineğe binersen, gizlenirsen, {spell:642}, {spell:5384} ya da Vanish kullanırsan Silithyst'i kaybedersin. Blink ve {spell:17} onu düşürmez.",
 
 	-- Step 28: Southwind Village
 	-- {area:2738} Southwind Village · {object:179565} Dusty Reliquary
@@ -184,7 +184,7 @@ return {
 
 	-- Step 37: Forest Song
 	-- {area:3137} Talrendis Point · {area:16} Azshara · {area:2358} Forest Song · {zone:1440} Ashenvale
-	["Fly to {area:3137} in {area:16} and ride west along the road to {area:2358}, just over the {zone:1440} border."] = "",
+	["Fly to {area:3137} in {area:16} and ride west along the road to {area:2358}, just over the {zone:1440} border."] = "{area:16} bölgesindeki {area:3137} burnuna uç ve yol boyunca batıya, {zone:1440} sınırının hemen ötesindeki {area:2358} köyüne sür.",
 
 	-- Step 38: Fly to Everlook
 	-- {area:2255} Everlook
@@ -196,7 +196,7 @@ return {
 
 	-- Step 41: Ranshalla
 	-- {npc:10300} Ranshalla · {area:2250} Owl Wing Thicket · {area:2255} Everlook · {object:177404} Altar of Elune
-	["{npc:10300} waits at {area:2250}, south of {area:2255}.\nProtect {npc:10300} while she lights the torches on the way to the {object:177404}."] = "",
+	["{npc:10300} waits at {area:2250}, south of {area:2255}.\nProtect {npc:10300} while she lights the torches on the way to the {object:177404}."] = "{npc:10300}, {area:2255} kasabasının güneyindeki {area:2250} çalılığında bekliyor.\n{object:177404} yolunda meşaleleri yakarken {npc:10300} yaratığını koru.",
 	-- {npc:10300} Ranshalla
 	["{npc:10300}: her escort comes later on the route"] = "{npc:10300}: eşlik görevi rotanın ilerleyen kısmında",
 
@@ -218,19 +218,19 @@ return {
 
 	-- Step 48: Felpaw Village
 	-- {npc:11558} Kernda
-	["{npc:11558}, just inside the cave: only from Neutral with the Timbermaw; walks around here: look inside the circle on the map"] = "",
+	["{npc:11558}, just inside the cave: only from Neutral with the Timbermaw; walks around here: look inside the circle on the map"] = "{npc:11558}, mağaranın hemen içinde: yalnızca Timbermaw ile Neutral'dan itibaren; buralarda dolaşıyor: haritadaki çemberin içine bak",
 	-- {npc:11557} Meilosh · {quest:6031} Runecloth
-	["{npc:11557}, if you have thirty {quest:6031}; below ground"] = "",
+	["{npc:11557}, if you have thirty {quest:6031}; below ground"] = "{npc:11557}, otuz {quest:6031} varsa; yer altında",
 
 	-- Step 52: Winterspring: kill these as you meet them
 	-- {area:618} Winterspring
 	["{area:618}: kill these as you meet them"] = "{area:618}: bunları karşılaştıkça öldür",
 	-- {spell:5384} Feign Death
-	["The western Winterfall furbolgs drop the beads.\nCareful: Turning in spawns three or four level 56-57 Winterfall ambushers that attack you; you can escape them while mounted, in stealth or with {spell:5384}, and they then gather by the lake so you can take the next quest."] = "",
+	["The western Winterfall furbolgs drop the beads.\nCareful: Turning in spawns three or four level 56-57 Winterfall ambushers that attack you; you can escape them while mounted, in stealth or with {spell:5384}, and they then gather by the lake so you can take the next quest."] = "Batıdaki Winterfall furbolg'ları boncukları düşürür.\nDikkat: Teslim edince üç dört seviye 56-57 Winterfall pusucusu doğar ve saldırır; binekteyken, gizlenerek ya da {spell:5384} ile onlardan kaçabilirsin, sonra gölün yanında toplanırlar ve sıradaki görevi alabilirsin.",
 
 	-- Step 56: Umber
 	-- {area:1769} Timbermaw Hold · {area:618} Winterspring · {npc:9298} Donova Snowden · {area:493} Moonglade · {area:2361} Nighthaven · {npc:11939} Umber
-	["Take the {area:1769} tunnel from its {area:618} mouth, west of {npc:9298}, and follow the {area:493} branch to {area:2361}. {npc:11939} studies by the lake shore."] = "",
+	["Take the {area:1769} tunnel from its {area:618} mouth, west of {npc:9298}, and follow the {area:493} branch to {area:2361}. {npc:11939} studies by the lake shore."] = "{npc:9298} yerinin batısındaki {area:618} ağzından {area:1769} tüneline gir ve {area:493} kolunu izleyerek {area:2361} köyüne git. {npc:11939} göl kıyısında çalışıyor.",
 	-- {npc:11939} Umber · {area:2361} Nighthaven
 	["{npc:11939} walks around {area:2361}: look inside the circle on the map"] = "{npc:11939}, {area:2361} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
@@ -294,7 +294,7 @@ return {
 
 	-- Step 72: Stormwind
 	-- {npc:14722} Clavicus Knavingham · {quest:6031} Runecloth
-	["{npc:14722} takes sixty Silk, sixty Mageweave and sixty {quest:6031}: hand in what you carry (or buy at the Auction House), skip the rest."] = "",
+	["{npc:14722} takes sixty Silk, sixty Mageweave and sixty {quest:6031}: hand in what you carry (or buy at the Auction House), skip the rest."] = "{npc:14722} altmış Silk, altmış Mageweave ve altmış {quest:6031} alıyor: taşıdığını teslim et (ya da Auction House'dan al), gerisini atla.",
 	-- {item:4306} Silk Cloth
 	["{item:4306}, from your bags"] = "{item:4306}, çantandan",
 	-- {item:4338} Mageweave Cloth
@@ -305,7 +305,7 @@ return {
 	-- Step 73: Ironforge
 	-- {area:2257} Deeprun Tram · {zone:1455} Ironforge · {npc:14724} Bubulo Acerbus · {npc:14723} Mistina Steelshield · {item:14047} Runecloth · {spell:7992} Slowing Poison · {area:1997} Bloodvenom Post
 	-- plural, as words: Jadefire Shadowstalkers = {npc:7110} Jadefire Shadowstalker
-	["Take the {area:2257} to {zone:1455}. {npc:14724} and {npc:14723} each take sixty Wool, sixty Silk and sixty Mageweave, then sixty {item:14047}: hand in what you carry (or buy at the Auction House), skip the rest.\nCareful: Jadefire Shadowstalkers are level 51-52 and move stealthed. They use {spell:7992} and are found about 550 yd south of {area:1997}.\nCareful: Jadefire Shadowstalkers sneak around and use {spell:7992}."] = "",
+	["Take the {area:2257} to {zone:1455}. {npc:14724} and {npc:14723} each take sixty Wool, sixty Silk and sixty Mageweave, then sixty {item:14047}: hand in what you carry (or buy at the Auction House), skip the rest.\nCareful: Jadefire Shadowstalkers are level 51-52 and move stealthed. They use {spell:7992} and are found about 550 yd south of {area:1997}.\nCareful: Jadefire Shadowstalkers sneak around and use {spell:7992}."] = "{area:2257} ile {zone:1455} şehrine git. {npc:14724} ve {npc:14723} her biri altmış Wool, altmış Silk ve altmış Mageweave, sonra altmış {item:14047} alıyor: taşıdığını teslim et (ya da Auction House'dan al), gerisini atla.\nDikkat: Jadefire Shadowstalker yaratıkları seviye 51-52 ve gizlenerek dolaşır. {spell:7992} kullanırlar ve {area:1997} karakolunun yaklaşık 550 yarda güneyinde bulunurlar.\nDikkat: Jadefire Shadowstalker yaratıkları sinsice dolaşır ve {spell:7992} kullanır.",
 	-- {item:2592} Wool Cloth
 	["{item:2592}, from your bags"] = "{item:2592}, çantandan",
 	-- {item:14047} Runecloth
@@ -358,7 +358,7 @@ return {
 	-- {area:2057} Scholomance
 	["{area:2057} (optional)"] = "{area:2057} (isteğe bağlı)",
 	-- {area:2057} Scholomance · {area:2298} Caer Darrow · {area:28} Western Plaguelands · {area:2279} Stratholme
-	["Running {area:2057} ({area:2298}, south-east {area:28}) or {area:2279} instead of grinding gets you there faster in a group. Skip this step to grind solo."] = "",
+	["Running {area:2057} ({area:2298}, south-east {area:28}) or {area:2279} instead of grinding gets you there faster in a group. Skip this step to grind solo."] = "Kasmak yerine {area:2057} ({area:2298}, güneydoğu {area:28}) ya da {area:2279} zindanına girmek, grupla oraya daha çabuk ulaştırır. Tek başına kasmak için bu adımı atla.",
 	-- {area:2057} Scholomance · {quest:5505} The Key to Scholomance · {area:3197} Chillwind Camp
 	["{area:2057} fits levels 58 to 60; {quest:5505} is handed in at {area:3197} below."] = "{area:2057} 58-60 seviyelerine uygun; {quest:5505} aşağıda {area:3197} kampında teslim edilir.",
 

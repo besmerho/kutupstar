@@ -62,7 +62,7 @@ return {
 
 	-- Step 13: Salfa
 	-- {npc:11556} Salfa · {area:618} Winterspring · {area:1769} Timbermaw Hold
-	["{npc:11556} stands by the {area:618} exit of {area:1769}'s tunnel, north of the hot springs."] = "",
+	["{npc:11556} stands by the {area:618} exit of {area:1769}'s tunnel, north of the hot springs."] = "{npc:11556}, sıcak su kaynaklarının kuzeyinde, {area:1769} tünelinin {area:618} çıkışının yanında duruyor.",
 
 	-- Step 14: Winterfall Den Watcher on the way
 	-- {npc:7440} Winterfall Den Watcher
@@ -112,7 +112,7 @@ return {
 
 	-- Step 24: Bluff Runner Windstrider
 	-- {area:1641} Hunter Rise
-	["He stands on {area:1641}. Each donation wants sixty cloth from your bags: take them if you save cloth, and hand in what you carry later in the route."] = "",
+	["He stands on {area:1641}. Each donation wants sixty cloth from your bags: take them if you save cloth, and hand in what you carry later in the route."] = "O, {area:1641} tepesinde duruyor. Her bağış çantandan altmış kumaş ister: kumaş biriktiriyorsan al, taşıdığını da rotanın ilerisinde teslim et.",
 
 	-- Step 25: Elder Rise
 	-- {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {npc:246344} Alodan the Hopeful
@@ -123,7 +123,7 @@ return {
 	-- Step 26: Bashana Runetotem
 	-- {npc:9087} Bashana Runetotem · {item:11040} Morrowgrain · {quest:3761} Un'Goro Soil · {spell:8137} Silithid Pox · {spell:14120} Tunneler Acid
 	-- plural, as words: Gorishi Workers = {npc:6552} Gorishi Worker
-	["{npc:9087} buys {item:11040} grown from your {quest:3761}.\nCareful: Gorishi Workers and Stingers cast {spell:8137}, and Hive Guards cast {spell:14120}. When a Worker drops to 45% health, it has a 50% chance to call for help from mobs within 25 yd."] = "",
+	["{npc:9087} buys {item:11040} grown from your {quest:3761}.\nCareful: Gorishi Workers and Stingers cast {spell:8137}, and Hive Guards cast {spell:14120}. When a Worker drops to 45% health, it has a 50% chance to call for help from mobs within 25 yd."] = "{npc:9087}, {quest:3761} ile yetiştirdiğin {item:11040} tanelerini satın alır.\nDikkat: Gorishi Worker ve Stinger'lar {spell:8137}, Hive Guard'lar {spell:14120} kullanır. Bir Worker canı %45'e düşünce %50 olasılıkla 25 yarda içindeki yaratıklardan yardım çağırır.",
 
 	-- Step 27: Fly to Orgrimmar
 	-- {area:1637} Orgrimmar

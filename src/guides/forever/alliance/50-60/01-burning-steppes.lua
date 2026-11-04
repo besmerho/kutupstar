@@ -5,7 +5,7 @@
 return {
 	-- Step 1: Shadowsong Shrine
 	-- {area:16} Azshara · {area:3137} Talrendis Point
-	["The shrine lies in the south-west corner of {area:16}, south of {area:3137}."] = "",
+	["The shrine lies in the south-west corner of {area:16}, south of {area:3137}."] = "Tapınak {area:16} bölgesinin güneybatı köşesinde, {area:3137} burnunun güneyinde.",
 
 	-- Step 2: On the way
 	["On the way"] = "Yol üstünde",
@@ -55,7 +55,7 @@ return {
 
 	-- Step 18: Ravencrest Monument
 	-- {area:16} Azshara · {npc:8392} Pilot Xiggs Fuselighter
-	["Swim to the small island off the southern tip of {area:16}: {npc:8392} waits by the monument."] = "",
+	["Swim to the small island off the southern tip of {area:16}: {npc:8392} waits by the monument."] = "{area:16} bölgesinin güney ucunun açığındaki küçük adaya yüz: {npc:8392} anıtın yanında bekliyor.",
 
 	-- Step 19: Level 50.89
 	["Level 50.89"] = "Seviye 50.89",
@@ -84,7 +84,7 @@ return {
 
 	-- Step 25: Morgan's Vigil
 	-- {area:2418} Morgan's Vigil
-	["{area:2418} sits in the south-east of the Steppes, at the top of the pass up from Redridge."] = "",
+	["{area:2418} sits in the south-east of the Steppes, at the top of the pass up from Redridge."] = "{area:2418}, Steppes'in güneydoğusunda, Redridge'den çıkan geçidin tepesinde.",
 
 	-- Step 26: Dreadmaul Rock
 	["The Firegut ogres hold the great rock north of the Vigil, with the Brutes on its east side."] = "Firegut ogreları Vigil'in kuzeyindeki büyük kayayı tutuyor, Brute yaratıkları da doğu yakasında.",
@@ -123,7 +123,7 @@ return {
 	-- {area:250} Ruins of Thaurissan
 	["{area:250}: kill these as you meet them"] = "{area:250}: bunları karşılaştıkça öldür",
 	-- {area:250} Ruins of Thaurissan · {area:251} Flame Crest · {object:147516} Dark Iron · {item:12284} Draco-Incarcinatrix 900 · {npc:7047} Black Broodling
-	["The relics are the carved stones scattered through the {area:250} around {area:251}: click them until the information is recovered.\nRead the tablet in the {object:147516} camp among the ruins, south-west of {area:251}, to copy the transcript.\nUse the {item:12284} on a {npc:7047} on the slopes east of {area:251} just before it dies, then loot the essence it leaves."] = "",
+	["The relics are the carved stones scattered through the {area:250} around {area:251}: click them until the information is recovered.\nRead the tablet in the {object:147516} camp among the ruins, south-west of {area:251}, to copy the transcript.\nUse the {item:12284} on a {npc:7047} on the slopes east of {area:251} just before it dies, then loot the essence it leaves."] = "Kalıntılar, {area:251} çevresinde {area:250} harabelerine dağılmış oymalı taşlar: bilgi toplanana kadar onlara tıkla.\nTutanağı kopyalamak için harabelerin arasında, {area:251} tepesinin güneybatısındaki {object:147516} kampında tableti oku.\n{area:251} tepesinin doğusundaki yamaçlarda bir {npc:7047} ölmek üzereyken onun üzerinde {item:12284} kullan, sonra bıraktığı özü loot'la.",
 
 	-- Step 34: Flame Crest
 	-- {quest:4808} Felnok Steelspring · {area:2255} Everlook · {zone:1452} Winterspring
@@ -145,7 +145,7 @@ return {
 
 	-- Step 39: Blackrock Stronghold
 	-- {npc:9176} Gor'tesh · {area:254} Blackrock Mountain · {area:251} Flame Crest
-	["{npc:9176} and the Blackrock orcs hold the camps and the stronghold at the foot of {area:254}, west of {area:251}. Pull them one at a time; every orc and worg may drop a medallion, so kill them until you have fifty.\nCareful: {npc:9176} has a guard linked to him that joins the fight, and a second soldier patrols close by; clear the patrol before pulling."] = "",
+	["{npc:9176} and the Blackrock orcs hold the camps and the stronghold at the foot of {area:254}, west of {area:251}. Pull them one at a time; every orc and worg may drop a medallion, so kill them until you have fifty.\nCareful: {npc:9176} has a guard linked to him that joins the fight, and a second soldier patrols close by; clear the patrol before pulling."] = "{npc:9176} ve Blackrock orc'ları, {area:251} tepesinin batısında, {area:254} dağının eteğindeki kampları ve kaleyi tutuyor. Onları tek tek çek; her orc ve worg madalyon düşürebilir, bu yüzden elli tane olana kadar öldür.\nDikkat: {npc:9176} yaratığının ona bağlı ve dövüşe katılan bir muhafızı var, ikinci bir asker de yakında devriye geziyor; çekmeden önce devriyeyi temizle.",
 	-- {item:11467} Blackrock Medallion
 	["{item:11467}; inside"] = "{item:11467}; içeride",
 
@@ -165,7 +165,7 @@ return {
 	-- Step 44: Kum'isha the Collector
 	-- {area:2517} Rise of the Defiler · {zone:1419} Blasted Lands · {npc:7664} Razelikh the Defiler · {spell:2691} Mana Burn · {spell:8255} Strong Cleave · {object:141891} Razelikh's Tear (no name in this language: may be words) · {spell:10854} Flames of Chaos
 	-- plural, as words: Imperfect Draenethyst Fragments = {item:10593} Imperfect Draenethyst Fragment
-	["Kum'isha waits at the {area:2517}, the hill south-west of the keep. The {zone:1419} mobs on the way drop the Imperfect Draenethyst Fragments; bring her what you have.\nCareful: Felcular, {npc:7664} and Ilifar are all level 60 elites. Razelikh casts {spell:2691}, {spell:8255} and Decimate, and as its health drops it adds {object:141891}, {spell:10854} and then Enrage at 15%."] = "",
+	["Kum'isha waits at the {area:2517}, the hill south-west of the keep. The {zone:1419} mobs on the way drop the Imperfect Draenethyst Fragments; bring her what you have.\nCareful: Felcular, {npc:7664} and Ilifar are all level 60 elites. Razelikh casts {spell:2691}, {spell:8255} and Decimate, and as its health drops it adds {object:141891}, {spell:10854} and then Enrage at 15%."] = "Kum'isha, kalenin güneybatısındaki tepe olan {area:2517} üzerinde bekliyor. Yoldaki {zone:1419} yaratıkları Imperfect Draenethyst Fragment düşürür; elindekileri ona getir.\nDikkat: Felcular, {npc:7664} ve Ilifar, hepsi seviye 60 elit. Razelikh {spell:2691}, {spell:8255} ve Decimate kullanır, canı azaldıkça buna {object:141891}, {spell:10854} ve %15'te Enrage ekler.",
 	-- {npc:7363} Kum'isha the Collector
 	["{npc:7363} walks around here: look inside the circle on the map"] = "{npc:7363} buralarda dolaşıyor: haritadaki çemberin içine bak",
 
@@ -177,7 +177,7 @@ return {
 	["Wildkin feathers"] = "Wildkin tüyleri",
 	-- {area:47} Hinterlands · {area:348} Aerie Peak
 	-- plural, as words: Wildkin Feathers = {item:10819} Wildkin Feather
-	["The Wildkin Feathers lie on the ground across the {area:47}, south and east of {area:348}, where the owlbeasts roam; the mobs here are well below you now."] = "",
+	["The Wildkin Feathers lie on the ground across the {area:47}, south and east of {area:348}, where the owlbeasts roam; the mobs here are well below you now."] = "Wildkin Feather tüyleri {area:47} bölgesinin her yanında, {area:348} tepesinin güneyinde ve doğusunda, owlbeast'lerin dolaştığı yerlerde yerde duruyor; buradaki yaratıklar artık senden epey düşük.",
 
 	-- Step 55: The Super Snapper FX
 	-- {npc:7977} Gammerita

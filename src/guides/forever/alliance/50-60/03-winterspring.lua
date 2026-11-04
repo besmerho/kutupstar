@@ -15,9 +15,9 @@ return {
 	-- {npc:11118} Innkeeper Vizzie
 	["{npc:11118}: the last guide binds here, so this usually ticks at once"] = "{npc:11118}: önceki rehber Hearthstone'u burada bağlar, bu yüzden bu genelde hemen tamamlanır",
 	-- {npc:11629} Jessica Redpath · {area:2262} Darrowshire
-	["{npc:11629}: keep it for {area:2262}; inside"] = "",
+	["{npc:11629}: keep it for {area:2262}; inside"] = "{npc:11629}: {area:2262} için sakla; içeride",
 	-- {npc:10431} Gregor Greystone
-	["{npc:10431}: keep both for the Plaguelands; inside"] = "",
+	["{npc:10431}: keep both for the Plaguelands; inside"] = "{npc:10431}: ikisini de Plaguelands için sakla; içeride",
 	-- {npc:11754} Meggi Peppinrocker · {area:2255} Everlook
 	["{npc:11754} walks around {area:2255}: look inside the circle on the map"] = "{npc:11754}, {area:2255} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
@@ -147,7 +147,7 @@ return {
 
 	-- Step 33: Pamela Redpath
 	-- {area:139} Eastern Plaguelands · {area:2262} Darrowshire · {npc:10926} Pamela Redpath
-	["Follow the southern road east into the {area:139}; the ruins of {area:2262} lie south of it. {npc:10926}'s ghost plays by the ruined house at the south end."] = "",
+	["Follow the southern road east into the {area:139}; the ruins of {area:2262} lie south of it. {npc:10926}'s ghost plays by the ruined house at the south end."] = "Güneydeki yolu doğuya izleyerek {area:139} bölgesine git; {area:2262} harabeleri yolun güneyinde. {npc:10926} hayaleti güney ucundaki yıkık evin yanında oynuyor.",
 
 	-- Step 34: Pamela Redpath's doll
 	-- {npc:10926} Pamela Redpath
@@ -161,12 +161,12 @@ return {
 
 	-- Step 35: Pamela Redpath
 	-- {quest:5152} Auntie Marlene · {area:28} Western Plaguelands
-	["{quest:5152}, in the {area:28}: keep it"] = "",
+	["{quest:5152}, in the {area:28}: keep it"] = "{quest:5152}, {area:28} içinde: sakla",
 
 	-- Step 36: Light's Hope Chapel
 	["Follow the road east across the zone to the chapel."] = "Yolu doğuya izleyerek bölgeyi geç ve şapele git.",
 	-- {npc:11038} Caretaker Alen
-	["{npc:11038}: Zaeldarr is a level 54 elite"] = "",
+	["{npc:11038}: Zaeldarr is a level 54 elite"] = "{npc:11038}: Zaeldarr seviye 54 bir elit",
 
 	-- Step 37: Light's Hope Chapel
 	-- {npc:11038} Caretaker Alen
@@ -181,7 +181,7 @@ return {
 
 	-- Step 40: The Undercroft
 	-- {area:2261} The Undercroft
-	["Zaeldarr is elite: grouping up is advised. He waits at the bottom of the {area:2261}, the crypt in the south-west of the zone."] = "",
+	["Zaeldarr is elite: grouping up is advised. He waits at the bottom of the {area:2261}, the crypt in the south-west of the zone."] = "Zaeldarr elit: grup kurman önerilir. Bölgenin güneybatısındaki mahzen {area:2261} dibinde bekliyor.",
 	-- {item:15785} Zaeldarr's Head
 	["{item:15785}; below ground"] = "{item:15785}; yer altında",
 
@@ -190,7 +190,7 @@ return {
 	["{area:2269}: kill these as you meet them"] = "{area:2269}: bunları karşılaştıkça öldür",
 	-- {npc:10411} Eye of Naxxramas
 	-- plural, as words: Rockwing Gargoyles = {npc:10408} Rockwing Gargoyle
-	["Careful: {npc:10411} goes invisible when out of combat and calls Rockwing Gargoyles once a fight starts. Only 3 exist and they respawn every 15 min."] = "",
+	["Careful: {npc:10411} goes invisible when out of combat and calls Rockwing Gargoyles once a fight starts. Only 3 exist and they respawn every 15 min."] = "Dikkat: {npc:10411} savaş dışındayken görünmez olur ve dövüş başlayınca Rockwing Gargoyle çağırır. Yalnızca 3 tane var ve 15 dakikada bir yeniden doğarlar.",
 
 	-- Step 42: Hearth to Light's Hope Chapel
 	-- {area:2268} Light's Hope Chapel

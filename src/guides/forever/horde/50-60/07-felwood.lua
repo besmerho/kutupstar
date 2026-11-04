@@ -11,7 +11,7 @@ return {
 	-- {zone:1458} Undercity · {zone:1454} Orgrimmar
 	["From the {zone:1458}, take the zeppelin from the tower outside the city to {zone:1454}."] = "{zone:1458} şehrinin dışındaki kuleden zeplinle {zone:1454} şehrine geç.",
 	-- {item:14047} Runecloth
-	["sixty {item:14047}, if you carry them"] = "",
+	["sixty {item:14047}, if you carry them"] = "Taşıyorsan altmış {item:14047}",
 
 	-- Step 5: Fly to Splintertree Post
 	-- {area:431} Splintertree Post
@@ -23,15 +23,15 @@ return {
 	-- {area:2479} Emerald Sanctuary
 	["The {area:2479}"] = "{area:2479} sığınağı",
 	-- {area:431} Splintertree Post · {zone:1440} Ashenvale · {area:361} Felwood · {area:2479} Emerald Sanctuary
-	["Fly to {area:431} and ride north-west along the road out of {zone:1440} into {area:361}. The {area:2479} is the druids' camp just past the border."] = "",
+	["Fly to {area:431} and ride north-west along the road out of {zone:1440} into {area:361}. The {area:2479} is the druids' camp just past the border."] = "{area:431} karakoluna uç ve yol boyunca kuzeybatıya, {zone:1440} bölgesinden {area:361} bölgesine sür. {area:2479}, sınırın hemen ötesindeki druid kampı.",
 	-- {npc:9116} Eridan Bluewind
 	["{npc:9116}, inside"] = "{npc:9116}, içeride",
 	-- {npc:9116} Eridan Bluewind · {item:11173} Irontree Heart · {area:361} Felwood
-	["{npc:9116}'s Silver Heart needs an {item:11173} from northern {area:361} and a ride back here. Skip it."] = "",
+	["{npc:9116}'s Silver Heart needs an {item:11173} from northern {area:361} and a ride back here. Skip it."] = "{npc:9116} verdiği Silver Heart görevi kuzey {area:361} bölgesinden bir {item:11173} ve buraya geri dönüş ister. Atla.",
 
 	-- Step 8: Dousing the Flames of Protection
 	-- {area:1763} Jaedenar
-	["Ride north-west to {area:1763}. The four braziers stand among the Shadow Council's buildings; use the Cleansed Water on each one.\nCareful: Shadow Council mobs of level 53-55 fill the cave and often come in large linked groups, many with stuns. A group of 2-3 players is recommended."] = "",
+	["Ride north-west to {area:1763}. The four braziers stand among the Shadow Council's buildings; use the Cleansed Water on each one.\nCareful: Shadow Council mobs of level 53-55 fill the cave and often come in large linked groups, many with stuns. A group of 2-3 players is recommended."] = "Kuzeybatıya, {area:1763} kesimine sür. Dört mangal Shadow Council'in binalarının arasında duruyor; her birinin üzerinde Cleansed Water kullan.\nDikkat: Mağarayı seviye 53-55 Shadow Council yaratıkları dolduruyor ve çoğu zaman büyük bağlı gruplar halinde, çoğu sersemletme kullanarak gelirler. 2-3 kişilik bir grup önerilir.",
 	["Below ground"] = "Yer altında",
 
 	-- Step 9: Greta Mosshoof
@@ -40,7 +40,7 @@ return {
 	-- Step 10: Level 59.54
 	["Level 59.54"] = "Seviye 59.54",
 	-- {area:1997} Bloodvenom Post
-	["Top up here to level 59.54 before the hand-ins at {area:1997} : they take you to level 60."] = "",
+	["Top up here to level 59.54 before the hand-ins at {area:1997} : they take you to level 60."] = "{area:1997} teslimlerinden önce burada seviye 59.54 olana kadar kas: teslimler seni seviye 60 yapar.",
 	-- {npc:7441} Winterfall Totemic
 	["grind on {npc:7441}"] = "Kas: {npc:7441}",
 
@@ -48,22 +48,22 @@ return {
 	-- {area:1763} Jaedenar · {area:1997} Bloodvenom Post
 	["Ride north along the road, past {area:1763}, to {area:1997}."] = "Yol boyunca kuzeye, {area:1763} tapınağını geçerek {area:1997} karakoluna git.",
 	-- {npc:10306} Trull Failbane · {quest:4741} Wild Guardians · {area:618} Winterspring
-	["{npc:10306}'s next {quest:4741} would bring you back here from {area:618}. Skip it."] = "",
+	["{npc:10306}'s next {quest:4741} would bring you back here from {area:618}. Skip it."] = "{npc:10306} verdiği sonraki {quest:4741} görevi seni {area:618} bölgesinden buraya geri getirirdi. Atla.",
 
 	-- Step 12: A Final Blow
 	-- {npc:9861} Moora · {npc:9860} Salia · {npc:9517} Shadow Lord Fel'dan · {area:1770} Shadow Hold · {area:1763} Jaedenar
-	["{npc:9861}, {npc:9860} and {npc:9517} wait at the back of {area:1770}, the cave in {area:1763}'s north. Clear the tunnel as you go.\nCareful: The three bosses fight as a group. Kill the nearby mobs first so you don't pull extra enemies."] = "",
+	["{npc:9861}, {npc:9860} and {npc:9517} wait at the back of {area:1770}, the cave in {area:1763}'s north. Clear the tunnel as you go.\nCareful: The three bosses fight as a group. Kill the nearby mobs first so you don't pull extra enemies."] = "{npc:9861}, {npc:9860} ve {npc:9517}, {area:1763} kesiminin kuzeyindeki mağara {area:1770} arkasında bekliyor. İlerlerken tüneli temizle.\nDikkat: Üç boss birlikte dövüşür. Fazladan düşman çekmemek için önce yakındaki yaratıkları öldür.",
 
 	-- Step 13: Greta Mosshoof
 	["South to the Sanctuary once more."] = "Bir kez daha güneye, Sanctuary'ye git.",
 
 	-- Step 14: Toxic Horrors
 	-- {npc:9298} Donova Snowden · {quest:5086} Toxic Horrors · {area:361} Felwood · {area:1767} Irontree Woods
-	["Only if {npc:9298} gave you {quest:5086}: ride north up the {area:361} road to {area:1767}; the {quest:5086} ooze between the trees."] = "",
+	["Only if {npc:9298} gave you {quest:5086}: ride north up the {area:361} road to {area:1767}; the {quest:5086} ooze between the trees."] = "Yalnızca {npc:9298} sana {quest:5086} görevini verdiyse: {area:361} yolunu kuzeye, {area:1767} ormanına sür; {quest:5086} ağaçların arasında sızıyor.",
 
 	-- Step 16: Umber
 	-- {area:493} Moonglade · {npc:11939} Umber · {area:2361} Nighthaven
-	["Through the Timbermaw tunnel to {area:493}. {npc:11939} reads in a house in {area:2361}."] = "",
+	["Through the Timbermaw tunnel to {area:493}. {npc:11939} reads in a house in {area:2361}."] = "Timbermaw tünelinden {area:493} vadisine geç. {npc:11939}, {area:2361} köyünde bir evde okuyor.",
 	-- {npc:11939} Umber · {area:2361} Nighthaven
 	["{npc:11939} walks around {area:2361}: look inside the circle on the map"] = "{npc:11939}, {area:2361} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
@@ -79,11 +79,11 @@ return {
 
 	-- Step 23: Donova Snowden
 	-- {area:618} Winterspring · {npc:9298} Donova Snowden
-	["Back into the Timbermaw tunnel and take the {area:618} exit; {npc:9298} camps by the hot springs just outside."] = "",
+	["Back into the Timbermaw tunnel and take the {area:618} exit; {npc:9298} camps by the hot springs just outside."] = "Timbermaw tüneline geri gir ve {area:618} çıkışını kullan; {npc:9298} hemen dışarıdaki sıcak su kaynaklarının yanında kamp kurmuş.",
 
 	-- Step 24: Winterfall Runners
 	-- {quest:5087} Winterfall Runners · {area:1769} Timbermaw Hold · {area:2244} Winterfall Village · {npc:9298} Donova Snowden · {spell:5384} Feign Death
-	["Only if you carry {quest:5087}: the runners walk the road from {area:1769} toward {area:2244} in small groups; wait by the road near {npc:9298} and kill them as they pass. Each one carries a crate.\nCareful: Turning in spawns three or four level 56-57 Winterfall ambushers that attack you; you can escape them while mounted, in stealth or with {spell:5384}, and they then gather by the lake so you can take the next quest."] = "",
+	["Only if you carry {quest:5087}: the runners walk the road from {area:1769} toward {area:2244} in small groups; wait by the road near {npc:9298} and kill them as they pass. Each one carries a crate.\nCareful: Turning in spawns three or four level 56-57 Winterfall ambushers that attack you; you can escape them while mounted, in stealth or with {spell:5384}, and they then gather by the lake so you can take the next quest."] = "Yalnızca {quest:5087} görevini taşıyorsan: koşucular {area:1769} sığınağından {area:2244} köyüne giden yolda küçük gruplar halinde yürüyor; {npc:9298} yakınında yolun kenarında bekle ve geçerken onları öldür. Her biri bir sandık taşıyor.\nDikkat: Teslim edince üç dört seviye 56-57 Winterfall pusucusu doğar ve saldırır; binekteyken, gizlenerek ya da {spell:5384} ile onlardan kaçabilirsin, sonra gölün yanında toplanırlar ve sıradaki görevi alabilirsin.",
 
 	-- Step 26: Beads for Salfa
 	-- {npc:11556} Salfa
@@ -94,7 +94,7 @@ return {
 	-- {quest:6031} Runecloth · {area:1769} Timbermaw Hold · {npc:11557} Meilosh
 	["Only with 30 {quest:6031}, and only at Neutral with the Timbermaw: follow the road north to {area:1769}; {npc:11557} trades just inside the entrance."] = "Yalnızca 30 {quest:6031} varsa ve Timbermaw ile Neutral itibardaysan: yolu kuzeye izleyerek {area:1769} mağarasına git; {npc:11557} girişin hemen içinde alışveriş yapıyor.",
 	-- {npc:11558} Kernda
-	["{npc:11558}, at the tunnel mouth; walks around here: look inside the circle on the map"] = "",
+	["{npc:11558}, at the tunnel mouth; walks around here: look inside the circle on the map"] = "{npc:11558}, tünelin ağzında; buralarda dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 29: Level 59.9
 	["Level 59.9"] = "Seviye 59.9",
@@ -125,7 +125,7 @@ return {
 	["Grind to 60"] = "Seviye 60'a kadar kas",
 	-- {area:2249} Frostwhisper Gorge · {area:618} Winterspring · {area:2255} Everlook
 	-- plural, as words: Rabid Shardtooths = {npc:7446} Rabid Shardtooth
-	["The quests run out here. Rabid Shardtooths prowl {area:2249} in southern {area:618}, south of the road from {area:2255}."] = "",
+	["The quests run out here. Rabid Shardtooths prowl {area:2249} in southern {area:618}, south of the road from {area:2255}."] = "Görevler burada bitiyor. Rabid Shardtooth yaratıkları güney {area:618} bölgesinde, {area:2255} yolunun güneyindeki {area:2249} geçidinde dolaşıyor.",
 	-- {npc:7446} Rabid Shardtooth · {area:2249} Frostwhisper Gorge · {area:618} Winterspring
 	["grind on {npc:7446} at {area:2249}, {area:618}"] = "Kas: {npc:7446} ({area:2249}, {area:618})",
 	-- {zone:1454} Orgrimmar · {area:2255} Everlook

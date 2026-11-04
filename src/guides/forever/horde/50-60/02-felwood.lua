@@ -11,7 +11,7 @@ return {
 
 	-- Step 3: Sorrow Hill
 	-- {area:202} Writhing Haunt · {area:197} Sorrow Hill
-	["Ride south past the {area:202} to {area:197}. Kill the Diseased Wolves you meet in the fields on the way."] = "",
+	["Ride south past the {area:202} to {area:197}. Kill the Diseased Wolves you meet in the fields on the way."] = "Güneye, {area:202} yanından geçerek {area:197} tepesine sür. Yoldaki tarlalarda karşılaştığın Diseased Wolf yaratıklarını öldür.",
 	-- {npc:10840} Argent Officer Pureheart
 	["{npc:10840}, at the graveyard's south end"] = "{npc:10840}, mezarlığın güney ucunda",
 
@@ -22,11 +22,11 @@ return {
 
 	-- Step 5: Sorrow Hill
 	-- {npc:10927} Marlene Redpath · {npc:10936} Joseph Redpath
-	["{npc:10927}'s house stands by the road, and {npc:10936}'s monument is in the graveyard behind it."] = "",
+	["{npc:10927}'s house stands by the road, and {npc:10936}'s monument is in the graveyard behind it."] = "{npc:10927} evi yolun yanında, {npc:10936} anıtı da arkasındaki mezarlıkta.",
 	-- {npc:10927} Marlene Redpath
 	["{npc:10927}, upstairs"] = "{npc:10927}, üst katta",
 	-- {area:2262} Darrowshire
-	["Keep Little Pamela: Pamela is in {area:2262}, visited again later."] = "",
+	["Keep Little Pamela: Pamela is in {area:2262}, visited again later."] = "Little Pamela'yı sakla: Pamela, sonra yeniden uğranacak olan {area:2262} köyünde.",
 
 	-- Step 6: Chromie
 	-- {npc:10667} Chromie
@@ -220,14 +220,14 @@ return {
 	-- {npc:9462} Chieftain Bloodmaw · {npc:11557} Meilosh
 	["The Deadwood furbolg village just west of the tunnel. {npc:9462} (56) stands among them. {npc:11557}, a friendly furbolg, sits at the north end of the village."] = "Tünelin hemen batısındaki Deadwood furbolg köyü. {npc:9462} (56) onların arasında duruyor. Dost bir furbolg olan {npc:11557} köyün kuzey ucunda oturuyor.",
 	-- {npc:11557} Meilosh · {quest:6031} Runecloth
-	["{npc:11557}: keep 30 {quest:6031} for him; he trades only at Neutral with the Timbermaw; below ground"] = "",
+	["{npc:11557}: keep 30 {quest:6031} for him; he trades only at Neutral with the Timbermaw; below ground"] = "{npc:11557}: onun için 30 {quest:6031} sakla; yalnızca Timbermaw ile Neutral olunca alışveriş yapar; yer altında",
 
 	-- Step 46: Nafien
 	-- {npc:15395} Nafien · {area:1769} Timbermaw Hold
 	["The road ends at {npc:15395}, outside the {area:1769} tunnel in the far north-east."] = "Yol en kuzeydoğuda, {area:1769} tünelinin dışında, {npc:15395} adlı NPC'nin yanında bitiyor.",
 
 	-- Step 47: Felpaw Village
-	["Careful: Den Watchers are level 53-54; they call nearby allies within 25 yd once below 50% health and run off for help below 15%."] = "",
+	["Careful: Den Watchers are level 53-54; they call nearby allies within 25 yd once below 50% health and run off for help below 15%."] = "Dikkat: Den Watcher'lar seviye 53-54; canları %50'nin altına düşünce 25 yarda içindeki yakın müttefiklerini çağırır, %15'in altında da yardım için kaçarlar.",
 
 	-- Step 49: Level 54.45
 	["Level 54.45"] = "Seviye 54.45",
@@ -251,7 +251,7 @@ return {
 
 	-- Step 53: Emerald Sanctuary
 	-- {area:361} Felwood
-	["Ride the road south through {area:361} to the Sanctuary."] = "",
+	["Ride the road south through {area:361} to the Sanctuary."] = "Yolu güneye izleyerek {area:361} içinden Sanctuary'ye sür.",
 
 	-- Step 54: Overlord Ror
 	-- {area:1761} Deadwood Village
@@ -266,7 +266,7 @@ return {
 	-- Step 56: Level 54.7
 	["Level 54.7"] = "Seviye 54.7",
 	-- {area:1997} Bloodvenom Post
-	["Top up here to level 54.7 before the hand-ins at {area:1997} : they take you to level 55."] = "",
+	["Top up here to level 54.7 before the hand-ins at {area:1997} : they take you to level 55."] = "{area:1997} teslimlerinden önce burada seviye 54.7 olana kadar kas: teslimler seni seviye 55 yapar.",
 
 	-- Step 57: The Jadefire moonwell
 	["The Jadefire moonwell"] = "Jadefire ay kuyusu",

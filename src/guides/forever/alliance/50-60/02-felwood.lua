@@ -19,7 +19,7 @@ return {
 
 	-- Step 4: Grazle
 	-- {area:415} Astranaar · {area:361} Felwood · {npc:11554} Grazle · {area:2479} Emerald Sanctuary
-	["Ride north out of {area:415} into {area:361}. {npc:11554} the furbolg stands by the road just south of the {area:2479}."] = "",
+	["Ride north out of {area:415} into {area:361}. {npc:11554} the furbolg stands by the road just south of the {area:2479}."] = "{area:415} kasabasından kuzeye, {area:361} bölgesine sür. Furbolg {npc:11554}, {area:2479} sığınağının hemen güneyinde yolun yanında duruyor.",
 
 	-- Step 5: Deadwood Village
 	-- {npc:11554} Grazle
@@ -29,13 +29,13 @@ return {
 	-- Step 6: Level 52.58
 	["Level 52.58"] = "Seviye 52.58",
 	-- {item:9328} Super Snapper FX
-	["If you skipped The Horn of the Beast or The {item:9328}, grind here to level 52.58 to stay on the route's plan."] = "",
+	["If you skipped The Horn of the Beast or The {item:9328}, grind here to level 52.58 to stay on the route's plan."] = "The Horn of the Beast ya da {item:9328} görevini atladıysan rotanın planında kalmak için burada seviye 52.58 olana kadar kas.",
 	-- {npc:7153} Deadwood Warrior
 	["grind on {npc:7153}"] = "Kas: {npc:7153}",
 
 	-- Step 7: Grazle
 	-- {npc:15395} Nafien · {area:361} Felwood
-	["{npc:15395} waits at the north end of {area:361}"] = "",
+	["{npc:15395} waits at the north end of {area:361}"] = "{npc:15395}, {area:361} bölgesinin kuzey ucunda bekliyor",
 	["Five feathers buy a little Timbermaw reputation"] = "Beş tüy biraz Timbermaw itibarı kazandırır",
 
 	-- Step 8: Level 52.69
@@ -48,7 +48,7 @@ return {
 	-- Step 9: Jadefire Glen
 	-- {npc:9454} Xavathras · {spell:7992} Slowing Poison
 	-- plural, as words: Jadefire Shadowstalkers = {npc:7110} Jadefire Shadowstalker
-	["The Jadefire satyrs hold the glen west of the road, with {npc:9454} at its back.\nCareful: Jadefire Shadowstalkers (level 51-52) use Sneak and {spell:7992} and are stealthed, so they often join fights uninvited."] = "",
+	["The Jadefire satyrs hold the glen west of the road, with {npc:9454} at its back.\nCareful: Jadefire Shadowstalkers (level 51-52) use Sneak and {spell:7992} and are stealthed, so they often join fights uninvited."] = "Jadefire satyr'ları yolun batısındaki vadiyi tutuyor, {npc:9454} vadinin dibinde.\nDikkat: Jadefire Shadowstalker yaratıkları (seviye 51-52) Sneak ve {spell:7992} kullanır ve gizlidir, bu yüzden sık sık davetsiz olarak dövüşlere katılırlar.",
 	-- {npc:7109} Jadefire Felsworn
 	["grind on {npc:7109}"] = "Kas: {npc:7109}",
 
@@ -58,7 +58,7 @@ return {
 	-- {item:13140} Blood Red Key
 	["{item:13140}, a rare drop"] = "{item:13140}, nadiren düşer",
 	-- {npc:11016} Captured Arko'narin · {area:1770} Shadow Hold
-	["{npc:11016}, in {area:1770}; below ground"] = "",
+	["{npc:11016}, in {area:1770}; below ground"] = "{npc:11016}, {area:1770} içinde; yer altında",
 	-- {npc:7125} Jaedenar Hound
 	["grind on {npc:7125}"] = "Kas: {npc:7125}",
 
@@ -88,7 +88,7 @@ return {
 
 	-- Step 18: Felpaw Village
 	-- {area:1762} Felpaw Village · {quest:8470} Deadwood Ritual Totem
-	["The Deadwood furbolgs of {area:1762} fill the hills west of the cave. The Avengers can drop a {quest:8470}.\nCareful: Den Watchers are level 53-54; they call nearby allies within 25 yd once below 50% health and run off for help below 15%."] = "",
+	["The Deadwood furbolgs of {area:1762} fill the hills west of the cave. The Avengers can drop a {quest:8470}.\nCareful: Den Watchers are level 53-54; they call nearby allies within 25 yd once below 50% health and run off for help below 15%."] = "{area:1762} köyünün Deadwood furbolg'ları mağaranın batısındaki tepeleri dolduruyor. Avenger'lar {quest:8470} düşürebilir.\nDikkat: Den Watcher'lar seviye 53-54; canları %50'nin altına düşünce 25 yarda içindeki yakın müttefiklerini çağırır, %15'in altında da yardım için kaçarlar.",
 
 	-- Step 19: Nafien
 	-- {zone:1452} Winterspring
@@ -102,9 +102,9 @@ return {
 	-- {npc:11558} Kernda · {npc:11557} Meilosh
 	["Step into the cave: {npc:11558} and {npc:11557} stand just inside."] = "Mağaraya gir: {npc:11558} ve {npc:11557} girişin hemen içinde duruyor.",
 	-- {npc:11558} Kernda
-	["{npc:11558}: the Timbermaw speak to you only from Neutral; walks around here: look inside the circle on the map"] = "",
+	["{npc:11558}: the Timbermaw speak to you only from Neutral; walks around here: look inside the circle on the map"] = "{npc:11558}: Timbermaw'lar seninle ancak Neutral'dan itibaren konuşur; buralarda dolaşıyor: haritadaki çemberin içine bak",
 	-- {npc:11557} Meilosh · {quest:6031} Runecloth
-	["{npc:11557}: thirty {quest:6031}, handed in when you pass through again at 57; below ground"] = "",
+	["{npc:11557}: thirty {quest:6031}, handed in when you pass through again at 57; below ground"] = "{npc:11557}: otuz {quest:6031}, 57. seviyede yeniden geçerken teslim edilir; yer altında",
 
 	-- Step 23: Jadefire Run: kill these as you meet them
 	-- {area:2618} Jadefire Run
@@ -116,7 +116,7 @@ return {
 	-- {area:1763} Jaedenar
 	["{area:1763} again"] = "Yine {area:1763}",
 	-- {item:12922} Empty Canteen · {area:1763} Jaedenar · {npc:11018} Arko'narin · {area:1770} Shadow Hold · {npc:9518} Rakaiah
-	["Use the {item:12922} at the corrupted moonwell in the middle of {area:1763}. If you freed {npc:11018}, go back into {area:1770} for the succubus {npc:9518}."] = "",
+	["Use the {item:12922} at the corrupted moonwell in the middle of {area:1763}. If you freed {npc:11018}, go back into {area:1770} for the succubus {npc:9518}."] = "{item:12922} eşyasını {area:1763} ortasındaki bozulmuş ay kuyusunda kullan. {npc:11018} yaratığını kurtardıysan succubus {npc:9518} için {area:1770} içine geri gir.",
 
 	-- Step 25: Oozes
 	["Oozes"] = "Ooze yaratıkları",
@@ -125,7 +125,7 @@ return {
 	["The Cursed and Tainted Oozes slide about the streams and fel pools around {area:1763} and {area:1765}: kill them and use Laris's Empty Ooze Jars on their remains."] = "Cursed Ooze ve Tainted Ooze yaratıkları {area:1763} ve {area:1765} çevresindeki derelerde ve fel havuzlarında kayıyor: onları öldür ve kalıntılarının üzerinde Laris'in Empty Ooze Jar kavanozlarını kullan.",
 
 	-- Step 26: Jaedenar again
-	["Trey Lightforge's remains lie beside her."] = "",
+	["Trey Lightforge's remains lie beside her."] = "Trey Lightforge'un kalıntıları onun yanında yatıyor.",
 	-- {npc:9518} Rakaiah
 	["{npc:9518}, below ground"] = "{npc:9518}, yer altında",
 	-- {npc:11020} Remains of Trey Lightforge
@@ -137,7 +137,7 @@ return {
 
 	-- Step 29: The Emerald Sanctuary
 	-- {zone:1457} Darnassus
-	["The vial is filled in {zone:1457}: keep it; inside"] = "",
+	["The vial is filled in {zone:1457}: keep it; inside"] = "Şişe {zone:1457} şehrinde doldurulur: sakla; içeride",
 	-- {zone:1413} Barrens
 	["Ends in the {zone:1413}: keep it"] = "{zone:1413} bölgesinde biter: sakla",
 

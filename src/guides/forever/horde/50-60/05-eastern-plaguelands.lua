@@ -6,7 +6,7 @@ return {
 	-- Step 2: Felstone Field
 	-- {npc:10778} Janice Felstone · {area:152} Bulwark · {npc:11075} Cauldron Lord Bilemaw
 	-- plural, as words: Jabbering Ghouls = {npc:10801} Jabbering Ghoul
-	["{npc:10778}'s farm is the first one east of the {area:152}. Jabbering Ghouls on the farm carry the other half of her charm; {npc:11075} guards the cauldron in the field.\nCareful: One or two undead usually fight alongside him, and more cauldron lords can attack after you use the cauldron."] = "",
+	["{npc:10778}'s farm is the first one east of the {area:152}. Jabbering Ghouls on the farm carry the other half of her charm; {npc:11075} guards the cauldron in the field.\nCareful: One or two undead usually fight alongside him, and more cauldron lords can attack after you use the cauldron."] = "{npc:10778} çiftliği {area:152} surlarının doğusundaki ilk çiftlik. Çiftlikteki Jabbering Ghoul yaratıkları tılsımının öbür yarısını taşıyor; {npc:11075} tarladaki kazanı koruyor.\nDikkat: Genelde bir iki undead onunla birlikte dövüşür, kazanı kullandıktan sonra da başka cauldron lord'lar saldırabilir.",
 	["Upstairs"] = "Üst katta",
 
 	-- Step 3: Fly to Light's Hope Chapel
@@ -31,7 +31,7 @@ return {
 	-- {zone:1423} Eastern Plaguelands
 	["{zone:1423}: kill these as you meet them"] = "{zone:1423}: bunları karşılaştıkça öldür",
 	-- plural, as words: Plaguehounds = {npc:8597} Plaguehound
-	["Plaguehounds and their runts roam the shores of the lake south-west of the chapel.\nThe shattered sword lies on the ground north-west of the lake."] = "",
+	["Plaguehounds and their runts roam the shores of the lake south-west of the chapel.\nThe shattered sword lies on the ground north-west of the lake."] = "Plaguehound'lar ve yavruları şapelin güneybatısındaki gölün kıyılarında dolaşıyor.\nKırık kılıç gölün kuzeybatısında yerde yatıyor.",
 
 	-- Step 8: Nathanos Blightcaller
 	-- {npc:15193} The Banshee Queen · {area:2260} Marris Stead · {area:2261} Undercroft
@@ -57,7 +57,7 @@ return {
 	-- Step 12: Eastern Plaguelands: kill these as you meet them
 	-- {area:2275} Northpass Tower · {area:2622} Pestilent Scar
 	-- plural, as words: Rangers = {npc:8564} Ranger · Pathstriders = {npc:8565} Pathstrider · Noxious Plaguebats = {npc:8601} Noxious Plaguebat · Blighted Horrors = {npc:8521} Blighted Horror
-	["The high elf Rangers, Pathstriders and Woodsmen guard the lodge by {area:2275}; the Registry lies inside. Rangers reach 60: pull one at a time. Noxious Plaguebats fly over the fields on the way.\nThe skull sits in the {area:2622}, among Blighted Horrors and Plague Monstrosities."] = "",
+	["The high elf Rangers, Pathstriders and Woodsmen guard the lodge by {area:2275}; the Registry lies inside. Rangers reach 60: pull one at a time. Noxious Plaguebats fly over the fields on the way.\nThe skull sits in the {area:2622}, among Blighted Horrors and Plague Monstrosities."] = "High elf Ranger, Pathstrider ve Woodsman'ler {area:2275} kulesinin yanındaki köşkü koruyor; Registry içeride. Ranger'lar 60'a kadar çıkıyor: tek tek çek. Noxious Plaguebat yaratıkları yoldaki tarlaların üstünde uçuyor.\nKafatası {area:2622} içinde, Blighted Horror ve Plague Monstrosity yaratıklarının arasında.",
 	["Underwater"] = "Su altında",
 
 	-- Step 13: Pathstrider
@@ -71,7 +71,7 @@ return {
 	-- Step 15: Corin's Crossing
 	-- {item:15447} Living Rot · {item:15454} Mortar and Pestle · {spell:10228} Greater Invisibility
 	-- plural, as words: Unseen Servants = {npc:8538} Unseen Servant
-	["{item:15447} spoils within ten minutes: kill the town's Scourge quickly and grind the seven pieces with the {item:15454} at once.\nCareful: Unseen Servants call for help within 25 yd once they drop to 40% health. Out of combat they also turn invisible with {spell:10228}. If a call for help happens inside the town, a large number of mobs can join the fight. Fighting near the outskirts lowers this risk."] = "",
+	["{item:15447} spoils within ten minutes: kill the town's Scourge quickly and grind the seven pieces with the {item:15454} at once.\nCareful: Unseen Servants call for help within 25 yd once they drop to 40% health. Out of combat they also turn invisible with {spell:10228}. If a call for help happens inside the town, a large number of mobs can join the fight. Fighting near the outskirts lowers this risk."] = "{item:15447} on dakika içinde bozulur: kasabanın Scourge'larını çabuk öldür ve yedi parçayı hemen {item:15454} ile öğüt.\nDikkat: Unseen Servant yaratıkları canları %40'a düşünce 25 yarda içinden yardım çağırır. Savaş dışındayken {spell:10228} ile görünmez de olurlar. Yardım çağrısı kasabanın içinde olursa dövüşe çok sayıda yaratık katılabilir. Kenar mahallelerde dövüşmek bu riski azaltır.",
 
 	-- Step 18: Duskwing, Oh How I Hate Thee...
 	-- {npc:11897} Duskwing
@@ -108,13 +108,13 @@ return {
 	-- {zone:1456} Thunder Bluff
 	["Fly to {zone:1456}"] = "Uç: {zone:1456}",
 	-- {area:1497} Undercity · {zone:1454} Orgrimmar · {zone:1456} Thunder Bluff
-	["Fly to the {area:1497}, take the zeppelin to {zone:1454} and fly on to {zone:1456}."] = "",
+	["Fly to the {area:1497}, take the zeppelin to {zone:1454} and fly on to {zone:1456}."] = "{area:1497} şehrine uç, {zone:1454} zeplinine bin ve {zone:1456} şehrine uçarak devam et.",
 	-- {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {npc:246344} Alodan the Hopeful
 	["{npc:3033} on {area:1639}; {npc:246344}"] = "{area:1639} tepesinde {npc:3033}; {npc:246344}",
 
 	-- Step 28: Rumstag Proudstrider
 	-- {area:1641} Hunter Rise
-	["On {area:1641}. Each donation takes sixty Wool, Silk or Mageweave from your bags: hand in what you carry, skip the rest."] = "",
+	["On {area:1641}. Each donation takes sixty Wool, Silk or Mageweave from your bags: hand in what you carry, skip the rest."] = "{area:1641} tepesinde. Her bağış çantandan altmış Wool, Silk ya da Mageweave alır: taşıdığını teslim et, gerisini atla.",
 
 	-- Step 29: Fly to Bloodvenom Post
 	-- {zone:1456} Thunder Bluff
@@ -122,7 +122,7 @@ return {
 
 	-- Step 31: Deadwood Cauldron
 	-- {item:12820} Winterfall Firewater · {area:618} Winterspring · {area:1762} Felpaw Village · {area:1769} Timbermaw Hold
-	["Only if you found a {item:12820} flask in {area:618}: ride north up the road. The cauldron stands in {area:1762}, just south-west of {area:1769}; the Deadwood furbolgs there are hostile."] = "",
+	["Only if you found a {item:12820} flask in {area:618}: ride north up the road. The cauldron stands in {area:1762}, just south-west of {area:1769}; the Deadwood furbolgs there are hostile."] = "Yalnızca {area:618} içinde bir {item:12820} şişesi bulduysan: yolu kuzeye sür. Kazan {area:1769} sığınağının hemen güneybatısındaki {area:1762} köyünde duruyor; oradaki Deadwood furbolg'ları düşman.",
 
 	-- Step 32: Kernda
 	-- {quest:8471} Winterfall Ritual Totem · {npc:11558} Kernda · {zone:1448} Felwood · {area:1769} Timbermaw Hold
@@ -132,7 +132,7 @@ return {
 
 	-- Step 34: Rabine Saturna
 	-- {area:1769} Timbermaw Hold · {area:493} Moonglade · {npc:11801} Rabine Saturna · {area:2361} Nighthaven
-	["Go through {area:1769} and take the {area:493} branch of the tunnel. {npc:11801} is in {area:2361}."] = "",
+	["Go through {area:1769} and take the {area:493} branch of the tunnel. {npc:11801} is in {area:2361}."] = "{area:1769} içinden geç ve tünelin {area:493} kolunu tut. {npc:11801}, {area:2361} köyünde.",
 
 	-- Step 35: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
@@ -143,7 +143,7 @@ return {
 
 	-- Step 38: Donova Snowden
 	-- {area:618} Winterspring · {area:2246} Frostfire Hot Springs
-	["Back through the tunnel and take the {area:618} exit, then ride south to {area:2246}."] = "",
+	["Back through the tunnel and take the {area:618} exit, then ride south to {area:2246}."] = "Tünelden geri geç ve {area:618} çıkışını kullan, sonra güneye, {area:2246} kaynaklarına sür.",
 	-- {quest:5086} Toxic Horrors · {zone:1448} Felwood
 	["{quest:5086} are in {zone:1448}, on a later trip: keep it if you have it."] = "{quest:5086} daha sonraki bir gezide {zone:1448} bölgesinde: sende varsa sakla.",
 
@@ -166,7 +166,7 @@ return {
 
 	-- Step 43: Sprinkle
 	-- {item:12928} Umi's Mechanical Yeti · {npc:7583} Sprinkle · {area:976} Gadgetzan · {npc:10977} Quixxil · {npc:10978} Legacki
-	["Use {item:12928} on {npc:7583}, the goblin girl in {area:976}. {npc:10977} and {npc:10978} are scared later in the route."] = "",
+	["Use {item:12928} on {npc:7583}, the goblin girl in {area:976}. {npc:10977} and {npc:10978} are scared later in the route."] = "{area:976} kasabasındaki goblin kız {npc:7583} üzerinde {item:12928} kullan. {npc:10977} ve {npc:10978} rotanın ilerisinde korkutulur.",
 
 	-- Step 44: Gadgetzan
 	-- {object:142071} Egg-O-Matic
