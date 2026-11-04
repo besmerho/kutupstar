@@ -34,7 +34,7 @@ Barış's two hard requirements:
 Polestar is pinned at **v0.2.6** on `main` (`package.json` → `config.polestarTag`), the version installed in
 Barış's game.
 
-### Branch `polestar-v0.3.0` (4 Nov 2026, Kutupstar 0.1.2)
+### Branch `polestar-v0.3.0` (4 Nov 2026, Kutupstar 0.2.0)
 
 Polestar **v0.3.0** is pinned on its own branch `polestar-v0.3.0` through the `polestar-sync` skill (sync
 report: `reports/sync-v0.2.6-v0.3.0.md`). State at the last commit:
@@ -47,11 +47,12 @@ report: `reports/sync-v0.2.6-v0.3.0.md`). State at the last commit:
   auction house everywhere, as in the UI.
 - `check`: 0 errors, 3 STIL 3.1 warnings (suffix after a name token) in `collectibles/pets/smolderweb-carrier`,
   `reputation/darkspear-trolls`, `reputation/orgrimmar`; worth a look. `build` succeeds.
-- TOC `## Version: 0.1.2`; `build` fills `X-Polestar-Version` from `package.json` and `Interface` from the
+- TOC `## Version: 0.2.0`; `build` fills `X-Polestar-Version` from `package.json` and `Interface` from the
   installed Polestar, or with no game (CI, cloud) from the pinned Polestar's TOC in `upstream/`.
 
-Left, all needing Barış: an in-game test once his game has Polestar v0.3.0 (`build --install` on his PC),
-the CurseForge upload of 0.1.2 (his OK, then the tag `v0.1.2`), and merging the branch into `main` (when he asks).
+Released: Kutupstar **0.2.0** to CurseForge as a **release** (4 Nov, tag `v0.2.0`, through the release workflow).
+Left, needing Barış: an in-game test once his game has Polestar v0.3.0 (`build --install` on his PC) and merging
+the branch into `main` (when he asks).
 A cloud session can polish wording and the 3 warnings, run `check`/`build`, and commit/push on this branch.
 
 The repo `github.com/besmerho/kutupstar` is **public** since 22 Oct (GPL-3.0 source for the CurseForge release).
