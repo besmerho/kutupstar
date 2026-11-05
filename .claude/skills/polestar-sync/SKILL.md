@@ -17,7 +17,7 @@ Everything runs through `node tools/kutup.js`; nothing of Polestar's own runs (i
 - The working tree must be clean (`git status`). If it is not, stop and say so.
 - Start from `main`, up to date (`git switch main && git pull --ff-only` when there is a remote).
 - `npm ci` when `node_modules/` is missing, then `node tools/kutup.js setup` (clones Polestar into `upstream/`
-  when missing).
+  when missing, and moves an older checkout to the pinned tag).
 
 ## 2. Compare
 
@@ -40,6 +40,11 @@ node tools/kutup.js audit
 `reports/sync-<old>-<new>.md`: new texts, gone texts, guides added or gone, and **lost translations** (their English
 changed), each with a "maybe now" guess at its new English.
 
+Read the report's totals first. A mass of guides "gone" means Polestar moved something, not that the guides went
+away: v0.3.0 split them into three addons, and the first pin dropped 136 of them. Then stop, revert
+(`git checkout -- src reports package.json addon && git clean -fdq src reports`), fix `UP_GUIDES_LUA` in
+`tools/kutup.js` or `tools/lib/extract.js`, and pin again.
+
 `audit` checks the Polestar internals `addon/Kutupstar/Core.lua` hooks into. A `CHANGED` line is the one case
 where Kutupstar may stop translating part of Polestar (it never breaks Polestar: each hook steps aside). Then read
 that Polestar code in `upstream/addon/Polestar/` and adapt `Core.lua` with the least change, keeping its rules:
@@ -56,6 +61,8 @@ For each lost translation in the report:
 - Otherwise translate the new text fresh.
 - Then delete its two commented lines (`-- maybe now: ...` and the old `-- L[...]` / `-- [...]`) from the end
   block of its file. A lost line whose text went away for good can go too.
+- In a big sync, leave the blocks until the translating is done (`tools/batch.js view` shows them as hints), then
+  delete them all with `node tools/batch.js prune`.
 
 ## 5. Translate what is new
 
@@ -64,7 +71,9 @@ node tools/kutup.js pending ui > /tmp/ui.json
 node tools/kutup.js pending <guide id> > /tmp/g.json     # for each guide the report lists with new texts
 ```
 
-Fill in the Turkish, then `node tools/kutup.js apply /tmp/ui.json` (and each guide file). The rules, in short
+Fill in the Turkish, then `node tools/kutup.js apply /tmp/ui.json` (and each guide file). For hundreds of guide
+texts, use `tools/batch.js` instead (`docs/HANDOFF.md`, "How to translate"): `templates`, `fill`, then `view` and
+`apply` folder by folder. The rules, in short
 (STIL.md has them all):
 - Name tokens `{npc:123}` stay exactly as they are. Never glue a suffix to one: use a classifier word
   (`{zone:1} bölgesine`, `{quest:2} görevini al`, `{npc:3} ile konuş`). The comment above a guide line gives
@@ -81,6 +90,7 @@ Fill in the Turkish, then `node tools/kutup.js apply /tmp/ui.json` (and each gui
 ```
 node tools/kutup.js check            # must end with 0 error(s)
 node tools/kutup.js check --glossary # judge each question; many are Turkish inflection, not mistakes
+                                     # a warning on {npc:1}'s Wisdom is an English quest name: leave it
 node tools/kutup.js stats            # UI and guides should be complete again
 node tools/kutup.js build            # must parse as Lua 5.1
 ```
@@ -96,7 +106,11 @@ game alone, because keys from a newer Polestar would not match the one installed
 
 - Commit on `polestar-vX.Y.Z`, including `src/`, `reports/`, `package.json`, the TOC and any `Core.lua` change.
   End the message with the attribution line your environment gives.
-- Push the branch, or merge into `main`, only when the request said so; otherwise ask.
-- Report to Barış briefly (he wants short summaries): Polestar old → new, how many UI and guide texts were new,
+- In the same branch, update `docs/HANDOFF.md` ("Where it stands", the phase table, "Open items", "Branches") and
+  the status line in `ROADMAP.md`. A session in the cloud knows only what is committed.
+- Push the branch, or merge into `main`, only when the request said so; otherwise ask. Ask for the merge as soon as a
+  release has shipped from the branch: `main` is what every new session clones, and a shipped sync left off `main`
+  sends them to the old Polestar.
+- Report to Barış briefly (short summaries are the rule), in Turkish: Polestar old → new, how many UI and guide texts were new,
   lost and re-translated, the audit result, whether `Core.lua` changed, what was installed, and what needs an
   in-game test. Then one line on where the project stands.

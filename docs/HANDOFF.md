@@ -1,8 +1,11 @@
 # Handoff: Kutupstar (Polestar TR)
 
-For a session picking this up with no other context, such as a cloud session working from a fresh clone of
-`main` or of the branch `polestar-v0.3.0` (see "Branch `polestar-v0.3.0`" below). Read this first, then [ROADMAP.md](../ROADMAP.md) (status and design) and [STIL.md](STIL.md)
-(the translation rules, in Turkish). Owner: Barış (Turkish native speaker; writes in English or Turkish).
+For a session picking this up with no other context, such as a cloud session working from a fresh clone of `main`.
+Read this first, then [ROADMAP.md](../ROADMAP.md) (design and history) and [STIL.md](STIL.md) (the translation
+rules, in Turkish). Owner: Barış (Turkish native speaker; writes in English or Turkish).
+
+This file is the project's memory. When the state changes, update "Where it stands" and "Open items" in the same
+branch: nothing a session knows reaches the next one unless it is committed.
 
 ## What this is
 
@@ -18,42 +21,71 @@ Barış's two hard requirements:
 2. **No UI of its own.** Load silently: no window, no slash command, no chat line. The only UI is the
    "Dil · Language" dropdown it adds to Polestar's Options (Appearance > Colour & type).
 
-## Where it stands (22 Oct 2026, v0.1.0)
+## Where it stands (5 Nov 2026)
+
+| | |
+|---|---|
+| Polestar pinned | **v0.3.0** on `main` (`package.json` → `config.polestarTag`) |
+| Polestar's newest release | **v0.3.1** (4 Nov), **not synced yet: the next job** (see Open items) |
+| Kutupstar released | **0.2.0**, a full *release* on CurseForge (4 Nov; project 1759256, file 9433209, WoW Forever 1.60.1, required dependency `polestar`), tag `v0.2.0` |
+| Barış's game | Polestar 0.3.1 and Kutupstar 0.2.0, in the `_forever_` folder (read from the installed TOCs on 5 Nov) |
+| UI texts at v0.3.0 | 2402/2532 Turkish; the other 130 stay English on purpose (`src/keep-english.json`); 0 to do |
+| Guide texts at v0.3.0 | 9859/9859 in 256 guides plus the pack's folder names; every folder complete |
+| `check` | 0 errors, 3 warnings. All three are English quest names that start with a name token (`{npc:3144}'s Wisdom`, `{npc:10260}'s Exotic Pets`), so they are right as they are |
+| `check --glossary` | about 120 questions. A sample of each kind was false alarms ("Inn" in a place name, "route" worded as "yol"); not read one by one |
+| `Core.lua` | unchanged since v0.1.1; the 20 Polestar internals it hooks into were all present at v0.3.0 (`audit`) |
+
+**v0.2.6 is history.** It was the pin until 4 Nov. If your clone says v0.2.6, it is stale: `git pull`, then
+`node tools/kutup.js setup` (it moves `upstream/` to the pinned tag). The reason this note exists: 0.2.0 shipped from
+the branch `polestar-v0.3.0` while `main` stayed at v0.2.6, so sessions cloning `main` kept checking the old release.
+`main` was brought up to the branch on 5 Nov.
+
+With Polestar 0.3.1 in the game, Kutupstar 0.2.0 keeps working by design: unchanged texts are Turkish, and new or
+changed ones show in English until the sync. `audit` has not been run against 0.3.1 yet.
 
 | Phase | State |
 |---|---|
-| 0 Skeleton + proof | done, tested in game (diag `fill = early`, all hooks on) |
+| 0 Skeleton + proof | done, tested in game |
 | 1 Glossary + style guide | done: Barış's decisions are marked **[KARAR]** in STIL.md |
 | 2 Tooling | done: keys from Polestar's code, `sync`/`pin`, checks |
-| 3 UI | done: 2016/2124; the other 108 stay English on purpose (`src/keep-english.json`) |
-| 4 Guides | done: 6308/6308, merged into `main` (23 Oct) |
-| 5 Leftovers | done, merged into `main` (23 Oct): the "Teslim et:: " double colon in turn-in map marker tooltips is fixed by a GameTooltip:AddLine post-hook (Core.lua, Joins). Optional, not sent: an upstream PR making Polestar's verb+name joins translatable |
-| **6 QA** | **ongoing**: the in-game test of the full build (22 Oct) was clean: `fill = early`, every hook on (`prepare`, `packText`, `registerPack`, `font`, `joins`), 222 guides / 6952 texts translated, no error; the font fallback swapped the client's `FRIZQT__.TTF` (no ş) for Fira Sans in Polestar's windows. Waiting for Barış's visual feedback (wording, cut-off text, boxes) |
-| 7 Release | **done**: Kutupstar **0.1.0** uploaded to CurseForge as **beta** (22 Oct; project 1759256, file 9285916, WoW Forever 1.60.1; may still be under CurseForge review), git tag `v0.1.0`. Recorder (33 strings) skipped |
+| 3 UI | done (now 2402/2532 at v0.3.0) |
+| 4 Guides | done (now 9859/9859 at v0.3.0) |
+| 5 Leftovers | done: the "Teslim et:: " double colon in turn-in map marker tooltips is fixed by a `GameTooltip:AddLine` post-hook (Core.lua, Joins). Optional, not sent: an upstream PR making Polestar's verb+name joins translatable |
+| **6 In-game QA** | **open.** The last recorded test is the v0.2.6 build (22 Oct): `fill = early`, every hook on, 222 guides / 6952 texts translated, no error, and the font fallback swapped `FRIZQT__.TTF` (no ş) for Fira Sans. **No test of a v0.3.x build is on record**: on 5 Nov there was no `Kutupstar.lua` in the game's SavedVariables under `_forever_`. Barış's visual feedback (wording, cut-off text, boxes) is still waiting |
+| 7 Release | done: 0.1.0 beta (22 Oct), 0.1.1 (23 Oct), **0.2.0 release** (4 Nov) |
+| 8 Sync to Polestar v0.3.0 | done (4 Nov, merged into `main` 5 Nov): report in `reports/sync-v0.2.6-v0.3.0.md` |
+| **9 Sync to Polestar v0.3.1** | **next** |
 
-Polestar is pinned at **v0.2.6** on `main` (`package.json` → `config.polestarTag`), the version installed in
-Barış's game.
+## Open items
 
-### Branch `polestar-v0.3.0` (4 Nov 2026, Kutupstar 0.2.0)
+1. **Sync Polestar v0.3.1** with the `polestar-sync` skill, on a branch `polestar-v0.3.1`. Its release notes promise
+   route changes: a window when a guide ends, Orcs and Trolls no longer wait for Lazy Peons at the Den, Sarkoth is
+   handed in on the way, and the Barrens is one guide for every Horde race. Expect moved and rewritten texts in the
+   Horde starters. Barış's game already has 0.3.1, so `build --install` is allowed on the PC.
+2. **Merge and release after that sync**, each only when Barış says so. Ask for the merge as soon as a release has
+   shipped: `main` is what every new session clones, and a shipped sync left off `main` is what caused the 0.2.6 mixup.
+3. **In-game test** of the current build (Barış; see "What a cloud session cannot do"), then read `KutupstarDB.diag`.
+4. **Wording polish, safe for a cloud session** (`check` after each, commit and push on a branch). The v0.3.0 work
+   left a few terms in two forms; line counts are from 5 Nov, and STIL.md §7 names the form to keep:
+   - `humanoid` (19 lines) → `insansı` (31)
+   - `skyboat` (3) → `gök gemisi` (31)
+   - `battleground` (9) → `savaş alanı` (20; the UI says "Savaş alanlarında"), and the pack folder "İtibar · Battleground'lar"
+   - `3 nişan için` for Marks of Honor (16 lines) → `3 marka için`; `nişan` is for insignia and badges
+   - `Legacy ayrıcalığı` (1) → `Legacy yeteneği` (13)
+   - `yüzde 5` (8) and `%5` (97) are both in use; `%5` is the more common
+5. **`curseforge-description` branch**: the English and Turkish CurseForge project page (`docs/CURSEFORGE.md` and an
+   HTML version, 22 Oct). Never merged. Barış decides; it may need updating for the 0.2.0 release.
+6. Optional and not sent: the upstream PR for translatable joins (STIL.md §4).
 
-Polestar **v0.3.0** is pinned on its own branch `polestar-v0.3.0` through the `polestar-sync` skill (sync
-report: `reports/sync-v0.2.6-v0.3.0.md`). State at the last commit:
+## Branches
 
-- Tools adapted for v0.3.0 (guides split into several addons, the `_forever_` game folder, reuse of a
-  translation across guides).
-- UI: 2402/2532 Türkçe; the other 130 stay English on purpose (`src/keep-english.json`). `pending ui` is empty.
-- Guides: 9859/9859 texts in 256 guides, every folder complete (leveling 1-60 both factions, class,
-  professions, reputation, collectibles, exploration, legacy, miscellaneous, packs). "müzayede evi" for the
-  auction house everywhere, as in the UI.
-- `check`: 0 errors, 3 STIL 3.1 warnings (suffix after a name token) in `collectibles/pets/smolderweb-carrier`,
-  `reputation/darkspear-trolls`, `reputation/orgrimmar`; worth a look. `build` succeeds.
-- TOC `## Version: 0.2.0`; `build` fills `X-Polestar-Version` from `package.json` and `Interface` from the
-  installed Polestar, or with no game (CI, cloud) from the pinned Polestar's TOC in `upstream/`.
-
-Released: Kutupstar **0.2.0** to CurseForge as a **release** (4 Nov, tag `v0.2.0`, through the release workflow).
-Left, needing Barış: an in-game test once his game has Polestar v0.3.0 (`build --install` on his PC) and merging
-the branch into `main` (when he asks).
-A cloud session can polish wording and the 3 warnings, run `check`/`build`, and commit/push on this branch.
+| Branch | State |
+|---|---|
+| `main` | current: start here |
+| `polestar-v0.3.0` | the v0.3.0 sync, merged into `main`; tag `v0.2.0` is on it |
+| `ci/curseforge-release` | the release workflow, merged |
+| `faz-0-1`, `faz-2`, `faz-4`, `faz-4-30-40`, `faz-5` | history, merged |
+| `curseforge-description` | **not merged** (Open items 5) |
 
 The repo `github.com/besmerho/kutupstar` is **public** since 22 Oct (GPL-3.0 source for the CurseForge release).
 
@@ -61,41 +93,43 @@ The repo `github.com/besmerho/kutupstar` is **public** since 22 Oct (GPL-3.0 sou
 
 - **A new Polestar release:** run the **`polestar-sync` skill** (`.claude/skills/polestar-sync/SKILL.md`).
   `node tools/kutup.js latest` compares Polestar's newest GitHub release with the pinned one; on an update the
-  skill pins it on a branch `polestar-vX.Y.Z`, runs `audit` (the 20 Polestar internals `Core.lua` hooks into;
-  all present at v0.2.6 and on Polestar's development head), re-translates what changed, checks, builds and
-  commits. It installs into the game only when Barış's game already has that release.
+  skill pins it on a branch `polestar-vX.Y.Z`, runs `audit` (the 20 Polestar internals `Core.lua` hooks into),
+  re-translates what changed, checks, builds and commits. It installs into the game only when Barış's game
+  already has that release.
 - **A new Kutupstar release (GitHub Actions, `.github/workflows/release.yml`):** raise `## Version` in
   `addon/Kutupstar/Kutupstar.toc`, commit and push. Pushing the tag `vX.Y.Z` uploads to CurseForge, so it is
   the go-ahead: push a tag **only after Barış's explicit OK for that upload**. The workflow clones the pinned
   Polestar, runs `check`, refuses a tag that does not match the TOC's `## Version`, then runs
   `publish --yes` and keeps the zip as a workflow artifact. An annotated tag's message is the CurseForge
-  changelog (markdown; `git tag -a v0.1.2 -m "..."`); a lightweight tag gets `publish`'s default. Release
-  type: repository variable `CURSEFORGE_RELEASE_TYPE`, beta when unset. Run by hand (Actions > Release to
-  CurseForge > Run workflow) it is a dry run that uploads nothing. The token is the GitHub secret
+  changelog (markdown; `git tag -a v0.2.1 -m "..."`); a lightweight tag gets `publish`'s default. Release
+  type: repository variable `CURSEFORGE_RELEASE_TYPE`, set to `release` since 4 Nov. Run by hand (Actions > Release
+  to CurseForge > Run workflow) it is a dry run that uploads nothing. The token is the GitHub secret
   `CURSEFORGE_API_TOKEN` (repository or `curseforge` environment); sessions never see it.
   `.github/workflows/check.yml` builds every pushed branch.
-- **The same by hand, on Barış's PC:** `node tools/kutup.js publish --type beta` (a dry run: shows project,
-  file, game version and changelog) and, only after his OK, the same with `--yes`, then tag `vX.Y.Z`.
+- **The same by hand, on Barış's PC:** `node tools/kutup.js publish --type release` (a dry run: shows project,
+  file, game version and changelog) and, only after Barış's OK, the same with `--yes`, then tag `vX.Y.Z`.
   The token is the user environment variable `CURSEFORGE_API_TOKEN` there (never print it). A cloud session
   has no token: it uses the tag route. `package` alone builds
   `releases/Kutupstar-<version>.zip` (gitignored). The game version comes from the TOC's Interface
   (16001 = WoW Forever 1.60.1, CurseForge type `wow-forever`).
+- Polestar's CurseForge slug is now `polestar` (project 1744437). The old `polestar-guides` is refused with
+  errorCode 1018: that failed the first 0.2.0 upload, and the tag moved to the fixed commit.
 - Logo: `media/kutupstar-logo.png` (Polestar's logo with a gold Turkish flag; `python -I media/make-logo.py`).
 
 ## Setup in a fresh clone
 
 ```bash
 npm ci                          # luaparse, the only dependency (Lua 5.1 parser)
-node tools/kutup.js setup       # clones the pinned Polestar (package.json polestarTag) into upstream/ (gitignored, read as data only)
+node tools/kutup.js setup       # clones the pinned Polestar into upstream/ (gitignored, read as data only)
 node tools/kutup.js check       # must end with "0 error(s)"
 node tools/kutup.js stats --guides
 ```
 
-`setup` is a sparse clone (only `addon/`, `guides/locales/deDE/` and the root files, ~114 MB, ~15 s). Tested on
-22 Oct from a fresh clone of this repo: setup → check → pending → build all worked, and a `pin` round trip
-v0.2.6 → v0.2.5 → v0.2.6 brought every translation back, including a guide parked in `src/guides-removed/`.
+`setup` is a sparse clone (only `addon/`, `guides/locales/deDE/` and the root files). In a clone that already has
+`upstream/` at an older release, it moves it to the pinned tag; `check` asks for this when they differ. Don't use
+`pin` for that: `pin` is for moving to a new release, and it rewrites `src/` and writes a report.
 
-## How to translate (guides were Phase 4; the same for new texts after a Polestar update)
+## How to translate (for new texts after a Polestar update)
 
 1. Pick a guide or folder, and see what is open:
    `node tools/kutup.js pending forever/alliance/human > /tmp/p.json`
@@ -107,15 +141,46 @@ v0.2.6 → v0.2.5 → v0.2.6 brought every translation back, including a guide p
    `node tools/kutup.js apply /tmp/p.json` and `node tools/kutup.js check`.
    `check` refuses lost or extra tokens, changed line breaks and stale keys, and warns about a suffix glued to
    a token. `check --glossary` lists glossary questions (often false alarms from Turkish inflection; judge each).
-4. `node tools/kutup.js build` (without `--install`: there is no game here) must succeed. It parses all
+4. `node tools/kutup.js build` (without `--install` when there is no game) must succeed. It parses all
    output as Lua 5.1.
 5. Commit per folder (or per few guides), push, and say what was done.
 
-**Order** (most players first): the four Alliance and four Horde starter guides (`forever/alliance/{human,
-dwarf-gnome,nightelf,skyborne}`, `forever/horde/{orc-troll,tauren,undead,skyborne}`), then `forever/alliance/0*`
-and `forever/horde/0*` (to level 30), then the 30-40, 40-50 and 50-60 folders for both factions, then
-`forever/class`, `forever/professions`, `forever/reputation`, `forever/collectibles`, `forever/exploration`,
-`forever/legacy` and `forever/miscellaneous`. `stats --guides` shows the progress per folder.
+**For a big sync, use `tools/batch.js`** (it prepares JSON for `apply`; `src/` still changes only through `apply`):
+
+```bash
+node tools/batch.js templates forever          # the compiler's repeated phrases (lib/templates.js)
+node tools/batch.js fill                       # the same English already translated in another guide
+node tools/batch.js view forever/reputation    # numbered texts, with token names and old translations as hints
+node tools/batch.js apply my-lines.txt         # lines "n= Turkish" for the numbers of the last view
+node tools/batch.js prune                      # at the very end: drop the "No longer in the guide" blocks
+```
+
+A new `view` replaces the last one's numbers, so apply before viewing another folder. At v0.3.0 `templates` covered
+2247 texts, and `sync` itself reused 590 from other guide files. Write the lines file with an editor tool, not a shell
+heredoc: Turkish text full of apostrophes breaks shell quoting.
+
+**Order** (most players first): the starter guides (`forever/alliance/{human,dwarf,gnome,nightelf,skyborne}`,
+`forever/horde/{orc,tauren,skyborne,…}`), then the numbered leveling guides to 30, then the 30-40, 40-50 and 50-60
+folders for both factions, then `forever/class`, `forever/professions`, `forever/reputation`,
+`forever/collectibles`, `forever/exploration`, `forever/legacy` and `forever/miscellaneous`. `stats --guides` shows
+the progress per folder. The pack's own texts are in `src/guides/_pack.lua` (`pending _pack`).
+
+### What the 0.2.6 → 0.3.0 sync taught
+
+- **A mass of "guides gone" after a pin means Polestar moved things.** v0.3.0 split the guides into
+  `Polestar_Guides`, `Polestar_Guides_Alliance` and `Polestar_Guides_Horde` (same pack id `guides`), and the race
+  addons hold only `Legs.lua` (walking paths). The first pin read only `Polestar_Guides` and dropped 136 guides. So
+  stop, revert (`git checkout -- src reports package.json addon && git clean -fdq src reports`), fix the extractor
+  (`UP_GUIDES_LUA` in `tools/kutup.js`, `guideKeys` in `tools/lib/extract.js`) and pin again.
+- Deferred guide steps (`stepsSrc`, `PrepareSteps`) exist in Polestar's engine, but the official guides use inline
+  steps. The extractor throws on a deferred guide rather than miss it silently. If that fires, teach `collect` to read it.
+- Scale of that sync: UI 428 new, 20 lost. Guides went from 222 to 256 and 6308 to 9859 texts, and only 3931 survived
+  the route rebuild, so most guide texts were new. Old translations are hints in `view`; don't paste them unread,
+  because the English around them changed.
+- Guides that disappear are parked in `src/guides-removed/`; `sync` takes their translations back for the same English.
+- The game folder moved from `_classic_beta_` to `_forever_` at launch; `tools/kutup.js` finds whichever exists
+  (`KUTUP_ADDONS` overrides it).
+- `build` counts fewer guide texts than `stats` by exactly the pack's 17 texts. That is not a loss.
 
 ### The rules that matter most (STIL.md has all of them)
 
@@ -152,26 +217,29 @@ and `forever/horde/0*` (to level 30), then the 30-40, 40-50 and 50-60 folders fo
 - Don't edit `upstream/`, and don't run Polestar's own tools: it is read as data only (`tools/lib/extract.js`).
 - Don't `pin` another Polestar release on `main`. A new release goes through the **`polestar-sync` skill**
   (`.claude/skills/polestar-sync/SKILL.md`): its own branch `polestar-vX.Y.Z`, and installed into the game only
-  once Barış's game has that release (the keys must match his installed Polestar).
+  once Barış's game has that release (the keys must match the installed Polestar).
 - Don't translate the keys in `src/keep-english.json`.
 - Don't add UI, commands or chat output to the addon (requirement 2). Don't change `Core.lua`'s design without
   a reason; it was tested in game. Never replace a Blizzard function (taint); only `hooksecurefunc`.
 - Don't hand-edit `dist/` (generated).
-- Merges into `main` happen when Barış asks; work on a branch and push it. Commit and push only when he asks.
-- Don't upload to CurseForge, change the repo's visibility or tag a release without his explicit OK.
+- Merges into `main` happen when Barış asks; work on a branch and push it. Commit and push only when Barış asks.
+- Don't upload to CurseForge, change the repo's visibility or tag a release without Barış's explicit OK.
 
 ## What a cloud session cannot do
 
-There is no game here. Barış tests by pulling and running `node tools/kutup.js build --install` on his
-machine (it installs into his `_classic_beta_\Interface\AddOns\Kutupstar`), then `/reload`. After a test he can
-share his `WTF\Account\<account>\SavedVariables\Kutupstar.lua`; its `KutupstarDB.diag` says whether the fill
-was early, which hooks ran, and how many guides and texts were translated.
+There is no game there. Barış tests by pulling and running `node tools/kutup.js build --install` on the PC (it
+installs into the game's `_forever_\Interface\AddOns\Kutupstar`), then `/reload`. After a test Barış can share
+`WTF\Account\<account>\SavedVariables\Kutupstar.lua`; its `KutupstarDB.diag` says whether the fill was early, which
+hooks ran, and how many guides and texts were translated. The file appears after a `/reload` or logout.
+
+`build` works without a game (CI, cloud): it takes the Interface version from the pinned Polestar's TOC in `upstream/`.
+A cloud session can translate, polish, `check`, `build`, and commit and push on a branch.
 
 ## Working with Barış
 
-- At the end of each task: a short summary plus the phase roadmap and "where we are now", not a long text.
+- At the end of each task: a short summary in Turkish plus the phase roadmap and "where we are now", not a long text.
 - Commits end with the attribution line the session's environment gives (so far:
   `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`).
-- The repo (`github.com/besmerho/kutupstar`) is **public**; only this repo, not his other ones. Commit authors
-  show his email; history was checked clean of secrets before it went public, so keep it that way (no tokens,
-  account numbers or local user paths in commits).
+- The repo (`github.com/besmerho/kutupstar`) is **public**; only this repo, not Barış's other ones. History was
+  checked clean of secrets before it went public, so keep it that way (no tokens, account numbers or local user paths
+  in commits). Paths on Barış's PC stay in that machine's local notes, not here.

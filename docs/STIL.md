@@ -46,6 +46,14 @@ Eki, adın ardından gelen bir **sınıflandırıcı sözcüğe** ver ya da ek g
 | yaratık (öldürülecek) | sayı ile: `8 {npc} öldür`, ya da `{npc} yaratıklarını` | 8 {npc:6} öldür |
 | eşya (`item`) | sayı ile: `5 {item} topla`, ya da `{item} eşyasını` | {item:752} eşyasını topla |
 | nesne (`object`) | `{object} nesnesine tıkla` ya da `Sağ tık: {object}` | Sağ tık: {object:83763} |
+| dost NPC'nin yeri | `{npc} yanına/yanında` | {npc:13841} yanına teslim et |
+| dost NPC'nin malı, görevi | `{npc} adlı NPC'nin …`, `{npc} satıcısında` | {npc:13217} satıcısında açılır |
+| düşman yaratık, boss | `{npc} yaratığının/yaratığını/yaratığından` | {npc:12017} yaratığının kafası |
+
+“Yaratık” yalnızca düşmanlar için: bir satıcıya ya da görev verene `{npc} yaratığında` yazılmaz. Türü belli olmayan
+alt bölgede `{area} kesiminde` ya da `{area} içinde` güvenli kalıptır.
+
+`{npc:3144}'s Wisdom` gibi görev adları İngilizce olduğu gibi kalır; `check` burada uyarı verir, doğrusu budur.
 
 Ek gerektirmeyen bağlaçlar ve edatlar serbest: `ile`, `için`, `ve`, `veya`, `gibi`. Virgül ve iki nokta da
 kullanılabilir: “{npc:459}, manastırın dışında”.
@@ -114,6 +122,10 @@ Ek alan biçim metinleri:
 - Tırnak: “…”. Polestar'ın ayırıcısı `·` korunur.
 - Tuşlar: Shift, Ctrl, Alt; sağ tık, sol tık, “sağ tıkla”.
 - Seviye: “seviye 12”, “12. seviye”; aralık “12–17”.
+- Sayı: binlik ayırıcı nokta: “2.000”. Yüzde: “%5”.
+- Para: etikette ve parantezde `10g 50s`, cümle içinde “10 altın”, “50 gümüş”.
+- İtibar kademeleri İngilizce kalır (Neutral, Friendly, Honored, Revered, Exalted). Başlıkta `Neutral → Friendly`,
+  cümlede “Neutral'dan Friendly'ye 3.000 itibar”.
 - Kısaltmalar oyuncu dilinde: XP, PvP, FP yerine “uçuş noktası”.
 - Polestar özellik adları: Polestar çevrilmez. **[KARAR]** Lookup → “Arama”. Arayüz çevirisinde seçilen sayfa
   adları: Questing → “Görevler”, Quality of Life → “Kolaylıklar”, Skin → “Görünüm teması”.
@@ -137,6 +149,21 @@ Ek alan biçim metinleri:
 | buff | güçlendirme (buff) |
 | grind | kasmak: “seviye kasmak” |
 | tick (checkbox) / untick | işaretle / işareti kaldır |
+| Auction House | müzayede evi (arayüzdeki gibi) |
+| quartermaster | levazımcı |
+| hub (görev merkezi) | merkez: “isteğe bağlı merkez” |
+| turn-in, hand-in | teslim: “120 teslim”, “teslim et” |
+| trash (zindanda) | sıradan yaratık |
+| run / clear (zindan) | koşu / temizleme |
+| humanoid | insansı |
+| battleground | savaş alanı (arayüzdeki gibi) |
+| skyboat | gök gemisi |
+| insignia, badge | nişan |
+| token (ödül jetonu) | jeton |
+| Mark of Honor | adı İngilizce; sayarken “3 marka” |
+| writ, crate (Forever'ın ticaret kampları) | writ, sandık |
+| perk (Legacy) | yetenek: “Legacy yeteneği Diplomat” |
+| a fifth at 60 | “60'ta beşte bir” |
 
 ## 8. Kontrol
 
