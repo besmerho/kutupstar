@@ -4,8 +4,8 @@ Upstream: https://github.com/fitzforge/polestar, cloned into `upstream/` at the 
 
 ## Status (5 Nov 2026, branch `main`)
 
-- Polestar pinned at **v0.3.0**; Kutupstar **0.2.0** released on CurseForge. UI 2402/2532 (the other 130 stay English on purpose), guides 9859/9859 in 256 guides.
-- **Next:** sync to Polestar **v0.3.1** (out on 4 Nov, already in Barış's game), then the in-game test. Open items and details: [docs/HANDOFF.md](docs/HANDOFF.md), which is the place to look first and to keep current.
+- Polestar pinned at **v0.3.1**, its newest release; Kutupstar **0.3.1** in the repo and in Barış's game, while CurseForge still has **0.2.0**. UI 2421/2551 (the other 130 stay English on purpose), guides 9845/9845 in 254 guides plus the pack's texts.
+- **Next:** the in-game test, then the 0.3.1 upload once Barış says so. Open items and details: [docs/HANDOFF.md](docs/HANDOFF.md), which is the place to look first and to keep current.
 
 ### History (the numbers of that time, at Polestar v0.2.6)
 
@@ -18,6 +18,7 @@ Upstream: https://github.com/fitzforge/polestar, cloned into `upstream/` at the 
 - **Phase 5 (leftovers) done**, merged into `main` on 23 Oct: the "Teslim et:: " double colon is fixed in Kutupstar (see Joins). The fallback path (late fill) is unchanged by design: texts Polestar reads at load stay English only if a Polestar update moves the load order, and the bindings are fixed again there. The upstream PR for translatable joins stays optional (not sent). Next: Phase 6, Barış's in-game read.
 - **Phase 7 (release): 0.1.0 beta uploaded** to CurseForge on 22 Oct (project 1759256, file 9285916, WoW Forever 1.60.1) with `node tools/kutup.js publish --type beta --yes`. The GitHub repo is public for the GPL source. Logo: `media/kutupstar-logo.png` (`media/make-logo.py`). Phase 6 (in-game testing) goes on.
 - **Phase 8 (sync to Polestar v0.3.0) done** on 4 Nov, on branch `polestar-v0.3.0`: the route rebuild took the guides from 222 to 256 and from 6,308 to 9,859 texts, of which only 3,931 survived. **0.2.0 released** on 4 Nov as a full release through the GitHub Actions workflow. `main` caught up with the branch on 5 Nov.
+- **Phase 9 (sync to Polestar v0.3.1) done** on 5 Nov: 21 new UI texts and 8 new guide texts. Kutupstar's version now follows Polestar's (0.3.1).
 
 ## When Polestar updates
 
@@ -33,7 +34,7 @@ there?), re-translates what changed, checks, builds and commits. By hand:
 
 Until step 4, Kutupstar keeps working with the new Polestar: unchanged texts stay Turkish, and new or changed ones show in English.
 
-At v0.3.0 the pinned totals are **2,532 UI keys and 9,859 guide texts**.
+At v0.3.1 the pinned totals are **2,551 UI keys and 9,845 guide texts**.
 
 ## Key facts from the analysis
 
@@ -94,7 +95,8 @@ Sources stay in upstream's file formats. That lets upstream's `i18n check` and `
 | 6 | In-game QA | Barış plays with a checklist (windows, options, a guide per faction, tooltips, chat output) | ongoing |
 | 7 | Release + maintenance | zip, "for Polestar x.y.z" versioning, CurseForge/Wago if wanted; each upstream release: sync → translate delta | per release |
 | 8 | Sync to Polestar v0.3.0 + release 0.2.0 | done | |
-| 9 | Sync to Polestar v0.3.1 | next | |
+| 9 | Sync to Polestar v0.3.1 | done | |
+| 10 | Release 0.3.1 | waiting for Barış's OK, after the in-game test | |
 
 ## Open decisions
 

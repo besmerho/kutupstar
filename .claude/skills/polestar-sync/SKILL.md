@@ -95,8 +95,9 @@ node tools/kutup.js stats            # UI and guides should be complete again
 node tools/kutup.js build            # must parse as Lua 5.1
 ```
 
-Raise Kutupstar's own version by one patch in `addon/Kutupstar/Kutupstar.toc` (`## Version: 0.1.0` → `0.1.1`).
-The TOC's `X-Polestar-Version` and `Interface` are filled in by `build`.
+Set Kutupstar's own version to the new Polestar release, in `addon/Kutupstar/Kutupstar.toc` (`## Version`) and in
+`package.json` (`version`): Barış's rule since 5 Nov, so Polestar 0.3.1 means Kutupstar 0.3.1.
+`pin` sets the TOC's `X-Polestar-Version`; `build` fills in `Interface`.
 
 **Install into the game only when it can be tested:** `node tools/kutup.js build --install` only on Barış's
 machine and only when `latest` showed the game already has this Polestar release installed. Otherwise leave the

@@ -25,47 +25,49 @@ Barış's two hard requirements:
 
 | | |
 |---|---|
-| Polestar pinned | **v0.3.0** on `main` (`package.json` → `config.polestarTag`) |
-| Polestar's newest release | **v0.3.1** (4 Nov), **not synced yet: the next job** (see Open items) |
-| Kutupstar released | **0.2.0**, a full *release* on CurseForge (4 Nov; project 1759256, file 9433209, WoW Forever 1.60.1, required dependency `polestar`), tag `v0.2.0` |
-| Barış's game | Polestar 0.3.1 and Kutupstar 0.2.0, in the `_forever_` folder (read from the installed TOCs on 5 Nov) |
-| UI texts at v0.3.0 | 2402/2532 Turkish; the other 130 stay English on purpose (`src/keep-english.json`); 0 to do |
-| Guide texts at v0.3.0 | 9859/9859 in 256 guides plus the pack's folder names; every folder complete |
+| Polestar pinned | **v0.3.1** on `main` (`package.json` → `config.polestarTag`), Polestar's newest release on 5 Nov |
+| Kutupstar in the repo | **0.3.1**, the same version as Polestar (TOC `## Version`, `package.json`) |
+| Kutupstar on CurseForge | still **0.2.0**, a full *release* (4 Nov; project 1759256, file 9433209, WoW Forever 1.60.1, required dependency `polestar`), tag `v0.2.0`. **0.3.1 is not uploaded**: it waits for Barış's OK |
+| Barış's game | Polestar 0.3.1 and Kutupstar 0.3.1, the latter from this repo with `build --install` on 5 Nov, in the `_forever_` folder. Not tested in game yet |
+| UI texts at v0.3.1 | 2421/2551 Turkish; the other 130 stay English on purpose (`src/keep-english.json`); 0 to do |
+| Guide texts at v0.3.1 | 9845/9845 in 254 guides plus the pack's 17 texts; every folder complete |
 | `check` | 0 errors, 3 warnings. All three are English quest names that start with a name token (`{npc:3144}'s Wisdom`, `{npc:10260}'s Exotic Pets`), so they are right as they are |
 | `check --glossary` | about 120 questions. A sample of each kind was false alarms ("Inn" in a place name, "route" worded as "yol"); not read one by one |
-| `Core.lua` | unchanged since v0.1.1; the 20 Polestar internals it hooks into were all present at v0.3.0 (`audit`) |
+| `Core.lua` | unchanged since v0.1.1; `audit` found every Polestar internal it hooks into at v0.3.1, and Polestar's `Core/GuideTexts.lua` did not change from v0.3.0 |
 
-**v0.2.6 is history.** It was the pin until 4 Nov. If your clone says v0.2.6, it is stale: `git pull`, then
+**v0.2.6 is history.** It was the pin until 4 Nov. If your clone says v0.2.6 or v0.3.0, it is stale: `git pull`, then
 `node tools/kutup.js setup` (it moves `upstream/` to the pinned tag). The reason this note exists: 0.2.0 shipped from
 the branch `polestar-v0.3.0` while `main` stayed at v0.2.6, so sessions cloning `main` kept checking the old release.
-`main` was brought up to the branch on 5 Nov.
+`main` caught up on 5 Nov and has carried each sync since.
 
-With Polestar 0.3.1 in the game, Kutupstar 0.2.0 keeps working by design: unchanged texts are Turkish, and new or
-changed ones show in English until the sync. `audit` has not been run against 0.3.1 yet.
+Players on CurseForge's 0.2.0 with Polestar 0.3.1 are fine by design: unchanged texts are Turkish, and what v0.3.1
+added shows in English until 0.3.1 is uploaded (the new guide-end window, for one).
+
+**Version rule (Barış, 5 Nov):** Kutupstar's version follows the pinned Polestar's, so Polestar 0.3.1 means Kutupstar
+0.3.1. There is no rule yet for a Kutupstar-only release between two Polestar releases (a wording fix): ask Barış.
 
 | Phase | State |
 |---|---|
 | 0 Skeleton + proof | done, tested in game |
 | 1 Glossary + style guide | done: Barış's decisions are marked **[KARAR]** in STIL.md |
 | 2 Tooling | done: keys from Polestar's code, `sync`/`pin`, checks |
-| 3 UI | done (now 2402/2532 at v0.3.0) |
-| 4 Guides | done (now 9859/9859 at v0.3.0) |
+| 3 UI | done (now 2421/2551 at v0.3.1) |
+| 4 Guides | done (now 9845/9845 at v0.3.1) |
 | 5 Leftovers | done: the "Teslim et:: " double colon in turn-in map marker tooltips is fixed by a `GameTooltip:AddLine` post-hook (Core.lua, Joins). Optional, not sent: an upstream PR making Polestar's verb+name joins translatable |
-| **6 In-game QA** | **open.** The last recorded test is the v0.2.6 build (22 Oct): `fill = early`, every hook on, 222 guides / 6952 texts translated, no error, and the font fallback swapped `FRIZQT__.TTF` (no ş) for Fira Sans. **No test of a v0.3.x build is on record**: on 5 Nov there was no `Kutupstar.lua` in the game's SavedVariables under `_forever_`. Barış's visual feedback (wording, cut-off text, boxes) is still waiting |
+| **6 In-game QA** | **open: the next step.** The last recorded test is the v0.2.6 build (22 Oct): `fill = early`, every hook on, 222 guides / 6952 texts translated, no error, and the font fallback swapped `FRIZQT__.TTF` (no ş) for Fira Sans. **No test of a v0.3.x build is on record**: on 5 Nov there was no `Kutupstar.lua` in the game's SavedVariables under `_forever_`. Barış's visual feedback (wording, cut-off text, boxes) is still waiting |
 | 7 Release | done: 0.1.0 beta (22 Oct), 0.1.1 (23 Oct), **0.2.0 release** (4 Nov) |
-| 8 Sync to Polestar v0.3.0 | done (4 Nov, merged into `main` 5 Nov): report in `reports/sync-v0.2.6-v0.3.0.md` |
-| **9 Sync to Polestar v0.3.1** | **next** |
+| 8 Sync to Polestar v0.3.0 | done (4 Nov): report in `reports/sync-v0.2.6-v0.3.0.md` |
+| 9 Sync to Polestar v0.3.1 | done (5 Nov): report in `reports/sync-v0.3.0-v0.3.1.md` |
+| **10 Release 0.3.1** | **waiting for Barış's OK** |
 
 ## Open items
 
-1. **Sync Polestar v0.3.1** with the `polestar-sync` skill, on a branch `polestar-v0.3.1`. Its release notes promise
-   route changes: a window when a guide ends, Orcs and Trolls no longer wait for Lazy Peons at the Den, Sarkoth is
-   handed in on the way, and the Barrens is one guide for every Horde race. Expect moved and rewritten texts in the
-   Horde starters. Barış's game already has 0.3.1, so `build --install` is allowed on the PC.
-2. **Merge and release after that sync**, each only when Barış says so. Ask for the merge as soon as a release has
-   shipped: `main` is what every new session clones, and a shipped sync left off `main` is what caused the 0.2.6 mixup.
-3. **In-game test** of the current build (Barış; see "What a cloud session cannot do"), then read `KutupstarDB.diag`.
-4. **Wording polish, safe for a cloud session** (`check` after each, commit and push on a branch). The v0.3.0 work
+1. **In-game test of the 0.3.1 build**, already installed (Barış; see "What a cloud session cannot do"), then read
+   `KutupstarDB.diag`. First in-game look at v0.3.1's new texts: the window at a guide's end, the "When a leveling guide
+   ends" option, the "Coming soon" talents page, and the Horde start (Durotar, the merged Barrens guide).
+2. **Upload 0.3.1 to CurseForge**, only after Barış's explicit OK for it. `main` is ready: push the tag and the workflow
+   uploads (see "Polestar updates and releases"). Until then CurseForge has 0.2.0.
+3. **Wording polish, safe for a cloud session** (`check` after each, commit and push on a branch). The v0.3.0 work
    left a few terms in two forms; line counts are from 5 Nov, and STIL.md §7 names the form to keep:
    - `humanoid` (19 lines) → `insansı` (31)
    - `skyboat` (3) → `gök gemisi` (31)
@@ -73,19 +75,20 @@ changed ones show in English until the sync. `audit` has not been run against 0.
    - `3 nişan için` for Marks of Honor (16 lines) → `3 marka için`; `nişan` is for insignia and badges
    - `Legacy ayrıcalığı` (1) → `Legacy yeteneği` (13)
    - `yüzde 5` (8) and `%5` (97) are both in use; `%5` is the more common
-5. **`curseforge-description` branch**: the English and Turkish CurseForge project page (`docs/CURSEFORGE.md` and an
+4. **`curseforge-description` branch**: the English and Turkish CurseForge project page (`docs/CURSEFORGE.md` and an
    HTML version, 22 Oct). Never merged. Barış decides; it may need updating for the 0.2.0 release.
-6. Optional and not sent: the upstream PR for translatable joins (STIL.md §4).
+5. Optional and not sent: the upstream PR for translatable joins (STIL.md §4).
 
 ## Branches
 
 | Branch | State |
 |---|---|
 | `main` | current: start here |
-| `polestar-v0.3.0` | the v0.3.0 sync, merged into `main`; tag `v0.2.0` is on it |
+| `polestar-v0.3.1` | the v0.3.1 sync, merged into `main` |
+| `polestar-v0.3.0` | the v0.3.0 sync, merged; tag `v0.2.0` is on it |
 | `ci/curseforge-release` | the release workflow, merged |
 | `faz-0-1`, `faz-2`, `faz-4`, `faz-4-30-40`, `faz-5` | history, merged |
-| `curseforge-description` | **not merged** (Open items 5) |
+| `curseforge-description` | **not merged** (Open items 4) |
 
 The repo `github.com/besmerho/kutupstar` is **public** since 22 Oct (GPL-3.0 source for the CurseForge release).
 
@@ -96,12 +99,12 @@ The repo `github.com/besmerho/kutupstar` is **public** since 22 Oct (GPL-3.0 sou
   skill pins it on a branch `polestar-vX.Y.Z`, runs `audit` (the 20 Polestar internals `Core.lua` hooks into),
   re-translates what changed, checks, builds and commits. It installs into the game only when Barış's game
   already has that release.
-- **A new Kutupstar release (GitHub Actions, `.github/workflows/release.yml`):** raise `## Version` in
+- **A new Kutupstar release (GitHub Actions, `.github/workflows/release.yml`):** set `## Version` in
   `addon/Kutupstar/Kutupstar.toc`, commit and push. Pushing the tag `vX.Y.Z` uploads to CurseForge, so it is
   the go-ahead: push a tag **only after Barış's explicit OK for that upload**. The workflow clones the pinned
   Polestar, runs `check`, refuses a tag that does not match the TOC's `## Version`, then runs
   `publish --yes` and keeps the zip as a workflow artifact. An annotated tag's message is the CurseForge
-  changelog (markdown; `git tag -a v0.2.1 -m "..."`); a lightweight tag gets `publish`'s default. Release
+  changelog (markdown; `git tag -a v0.3.1 -m "..."`); a lightweight tag gets `publish`'s default. Release
   type: repository variable `CURSEFORGE_RELEASE_TYPE`, set to `release` since 4 Nov. Run by hand (Actions > Release
   to CurseForge > Run workflow) it is a dry run that uploads nothing. The token is the GitHub secret
   `CURSEFORGE_API_TOKEN` (repository or `curseforge` environment); sessions never see it.
@@ -157,7 +160,8 @@ node tools/batch.js prune                      # at the very end: drop the "No l
 
 A new `view` replaces the last one's numbers, so apply before viewing another folder. At v0.3.0 `templates` covered
 2247 texts, and `sync` itself reused 590 from other guide files. Write the lines file with an editor tool, not a shell
-heredoc: Turkish text full of apostrophes breaks shell quoting.
+heredoc: Turkish text full of apostrophes breaks shell quoting. A small sync doesn't need any of this: v0.3.1 was 21 UI
+and 4 open guide texts, one JSON file for `apply` (keys `ui` and `guides`), then `prune`.
 
 **Order** (most players first): the starter guides (`forever/alliance/{human,dwarf,gnome,nightelf,skyborne}`,
 `forever/horde/{orc,tauren,skyborne,…}`), then the numbered leveling guides to 30, then the 30-40, 40-50 and 50-60
@@ -165,7 +169,13 @@ folders for both factions, then `forever/class`, `forever/professions`, `forever
 `forever/collectibles`, `forever/exploration`, `forever/legacy` and `forever/miscellaneous`. `stats --guides` shows
 the progress per folder. The pack's own texts are in `src/guides/_pack.lua` (`pending _pack`).
 
-### What the 0.2.6 → 0.3.0 sync taught
+### What the syncs taught
+
+- **v0.3.1** was small: UI 21 new, 2 lost; guides 8 new (4 reused), 3 lost. The Orc and Troll Barrens guides merged into
+  `forever/horde/02-the-barrens`, so `orc/02-the-barrens` and `troll/02-the-barrens` are parked in `src/guides-removed/`.
+
+From the big one, v0.2.6 → v0.3.0:
+
 
 - **A mass of "guides gone" after a pin means Polestar moved things.** v0.3.0 split the guides into
   `Polestar_Guides`, `Polestar_Guides_Alliance` and `Polestar_Guides_Horde` (same pack id `guides`), and the race
