@@ -175,7 +175,7 @@ function runChecks({ quiet, glossary } = {}) {
 	needLuaparse();
 	const problems = [], warnings = [], pairs = [];
 	const tag = checkedOut();
-	if (tag !== pinned()) problems.push(`upstream/ is at ${tag || 'no tag'}, package.json pins ${pinned()}: run pin ${pinned()}`);
+	if (tag !== pinned()) problems.push(`upstream/ is at ${tag || 'no tag'}, package.json pins ${pinned()}: run node tools/kutup.js setup`);
 	problems.push(...luaSyntax([UI_SRC, ...S.luaFiles(GUIDES_SRC), ...S.luaFiles(ADDON_SRC)].filter((f) => fs.existsSync(f))));
 	const ui = checkUI(problems, pairs);
 	const guides = checkGuides(problems, warnings, pairs);
@@ -379,6 +379,9 @@ function pin(tag) {
 	const p = pkg();
 	p.config.polestarTag = tag;
 	fs.writeFileSync(PACKAGE, JSON.stringify(p, null, '\t') + '\n');
+	// build writes this line into dist/; kept right here too, so the source TOC never names an old release.
+	const toc = path.join(ADDON_SRC, 'Kutupstar.toc');
+	fs.writeFileSync(toc, fs.readFileSync(toc, 'utf8').replace(/^## X-Polestar-Version:.*$/m, `## X-Polestar-Version: ${tag.replace(/^v/, '')}`));
 	console.log(`pin: upstream/ at ${tag} (${git('rev-parse', '--short', 'HEAD')}), was ${from}`);
 	runSync(from);
 	const installedToc = path.join(ADDONS, 'Polestar', 'Polestar.toc');
@@ -389,10 +392,16 @@ function pin(tag) {
 }
 
 // setup: a fresh clone (a cloud session, another machine) has no upstream/: clone Polestar at the pinned release.
+// A clone that pulled a newer pin still has the old release in upstream/: move it, src/ is already right.
 const UPSTREAM_URL = 'https://github.com/fitzforge/polestar';
 function setup() {
 	if (fs.existsSync(path.join(UPSTREAM, '.git'))) {
-		console.log(`setup: upstream/ is there, at ${checkedOut() || 'no tag'} (pinned: ${pinned()})`);
+		const at = checkedOut();
+		if (at === pinned()) { console.log(`setup: upstream/ is there, at ${at}`); return; }
+		if (git('status', '--porcelain')) { console.log('setup: upstream/ has local changes; it must stay a clean checkout'); process.exit(1); }
+		git('fetch', '--depth', '1', 'origin', 'tag', pinned(), '--no-tags');
+		git('-c', 'advice.detachedHead=false', 'checkout', '-q', pinned());
+		console.log(`setup: upstream/ moved from ${at || 'no tag'} to ${pinned()}`);
 		return;
 	}
 	// Sparse: only what the tool reads (the addons, the deDE locale files, LICENSE at the root). Polestar's
