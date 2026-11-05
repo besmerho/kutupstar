@@ -28,8 +28,6 @@ return {
 	-- Step 10: The Sepulcher
 	-- {area:228} The Sepulcher · {npc:2226} Karos Razok
 	["{area:228} is the Forsaken crypt-town in the middle of the forest. Everyone you need stands around the crypt entrance; {npc:2226}, the bat handler, is just east of it.\nSwim back and follow the road west to the {area:228}."] = "{area:228}, ormanın ortasındaki Forsaken mahzen kasabası. İhtiyacın olan herkes mahzen girişinin çevresinde duruyor; yarasa bakıcısı {npc:2226} girişin hemen doğusunda.\nYüzerek geri dön ve yolu batıya, {area:228} kasabasına izle.",
-	-- {npc:2121} Shadow Priest Allister · {quest:516} Beren's Peril
-	["{npc:2121}: {quest:516}, on the south loop"] = "{npc:2121}: {quest:516}, güney turunda",
 	-- {npc:1952} High Executor Hadrec
 	["{npc:1952}, below ground"] = "{npc:1952}, yer altında",
 
@@ -159,6 +157,8 @@ return {
 	-- Step 41: The Sepulcher
 	-- {npc:1937} Apothecary Renferrel
 	["{npc:1937}: for Quinn, on the road north at the end"] = "{npc:1937}: sonunda kuzeye giden yoldaki Quinn için",
+	-- {npc:2121} Shadow Priest Allister · {quest:516} Beren's Peril
+	["{npc:2121}: {quest:516}, on the south loop"] = "{npc:2121}: {quest:516}, güney turunda",
 
 	-- Step 42: Dalaran Pendant on the way
 	-- {item:3354} Dalaran Pendant

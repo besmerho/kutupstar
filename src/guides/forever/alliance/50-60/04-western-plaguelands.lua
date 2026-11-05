@@ -48,13 +48,17 @@ return {
 	-- {npc:10903} Andorhal Tower Two · {item:12815} Beacon Torch
 	["Mark {npc:10903} with the {item:12815}"] = "{npc:10903} kulesini {item:12815} ile işaretle",
 
-	-- Step 10: Felstone Field cauldron
+	-- Step 10: Chromie
+	-- {npc:10667} Chromie
+	["{npc:10667} waits in the ruined inn on the west side of Andorhal."] = "{npc:10667}, Andorhal'ın batı yakasındaki yıkık handa bekliyor.",
+
+	-- Step 11: Felstone Field cauldron
 	-- {area:199} Felstone Field
 	["{area:199} cauldron"] = "{area:199} kazanı",
 	-- {npc:11075} Cauldron Lord Bilemaw · {area:199} Felstone Field
 	["{npc:11075} guards the cauldron in {area:199}, west of Andorhal."] = "{npc:11075}, Andorhal'ın batısındaki {area:199} çiftliğinde kazanı koruyor.",
 
-	-- Step 11: Janice Felstone
+	-- Step 12: Janice Felstone
 	-- {npc:10778} Janice Felstone · {area:199} Felstone Field · {area:200} Dalson's Tears
 	["{npc:10778}'s ghost wanders by the farmhouse of {area:199}, west of {area:200}; her parcel lies inside."] = "{npc:10778} adlı NPC'nin hayaleti {area:200} çiftliğinin batısında, {area:199} çiftlik evinin yanında dolaşıyor; paketi içeride.",
 	-- {object:175894} Janice's Parcel
@@ -62,25 +66,21 @@ return {
 	-- {zone:1453} Stormwind
 	["For {zone:1453}: keep it"] = "{zone:1453} için: sakla",
 
-	-- Step 12: The Andorhal watchtowers
+	-- Step 13: The Andorhal watchtowers
 	-- {npc:10904} Andorhal Tower Three · {item:12815} Beacon Torch
 	["Mark {npc:10904} with the {item:12815}"] = "{npc:10904} kulesini {item:12815} ile işaretle",
 	-- {npc:10905} Andorhal Tower Four · {item:12815} Beacon Torch
 	["Mark {npc:10905} with the {item:12815}"] = "{npc:10905} kulesini {item:12815} ile işaretle",
 
-	-- Step 13: Chillwind Camp
+	-- Step 14: Chillwind Camp
 	-- {npc:1852} Araj the Summoner
 	["{npc:1852} is a level 61 elite"] = "{npc:1852} seviye 61 bir elit",
 
-	-- Step 14: Dalson's Tears cauldron
+	-- Step 15: Dalson's Tears cauldron
 	-- {area:200} Dalson's Tears
 	["{area:200} cauldron"] = "{area:200} kazanı",
 	-- {area:200} Dalson's Tears
 	["The cauldron sits at {area:200}, north-east of Felstone; its Cauldron Lord stands beside it."] = "Kazan Felstone'un kuzeydoğusunda, {area:200} çiftliğinde; Cauldron Lord yanında duruyor.",
-
-	-- Step 15: Chromie
-	-- {npc:10667} Chromie
-	["{npc:10667} waits in the ruined inn on the west side of Andorhal."] = "{npc:10667}, Andorhal'ın batı yakasındaki yıkık handa bekliyor.",
 
 	-- Step 16: Andorhal
 	["Andorhal"] = "Andorhal",

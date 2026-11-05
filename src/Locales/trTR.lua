@@ -448,6 +448,10 @@ L["The guide trains you in %d steps"] = "Rehber seni %d adım sonra eğitir"
 L["Another race's starting zone"] = "Başka bir ırkın başlangıç bölgesi"
 L["This is the %s starting zone. Polestar won't guide you there: make your own way to %s, and the guide picks up when you arrive."] = "Bu, %s başlangıç bölgesi. Polestar seni oraya götürmez: %s bölgesine kendin git, vardığında rehber devam eder."
 L["Your class trainer may be elsewhere (check your capital)."] = "Sınıf eğitmenin başka bir yerde olabilir (başkentine bak)."
+L["%s complete — continuing with %s"] = "%s tamamlandı — devam: %s"
+L["You've reached the end of this guide."] = "Bu rehberin sonuna geldin."
+L["Choose where to go next"] = "Sonra nereye gideceğini seç"
+L["Start %s"] = "Başlat: %s"
 
 -- UI/Lookup.lua
 L["Both factions"] = "İki taraf da"
@@ -856,8 +860,6 @@ L["Turn in guide quests"] = "Rehber görevlerini teslim et"
 L["Never picks between rewards. Hold Shift to skip."] = "Ödüller arasında asla seçim yapmaz. Atlamak için Shift'e basılı tut."
 L["Skip grey quests"] = "Gri görevleri atla"
 L["Pick a guide for me"] = "Benim için rehber seç"
-L["Continue to the next guide"] = "Sonraki rehbere geç"
-L["Loads the follow-up guide in the same tab when one finishes."] = "Bir rehber bitince devamını aynı sekmede açar."
 L["Where to level next"] = "Sonra nerede seviye atlanacak"
 L["Where a guide offers more than one zone to continue in (/polestar path)."] = "Bir rehber devam etmek için birden çok bölge sunduğunda (/polestar path)."
 L["Let me choose"] = "Ben seçeyim"
@@ -1097,6 +1099,13 @@ L["A short chime the first time a class quest chain's card shows. Off while the 
 L["Run"] = "Çalıştır"
 L["Reset this page?"] = "Bu sayfa sıfırlansın mı?"
 L["Every setting on %s goes back to its default."] = "%s sayfasındaki her ayar varsayılanına döner."
+L["When a leveling guide ends"] = "Bir seviye rehberi bittiğinde"
+L["Ask me: a window says the guide is done and offers the next one. Continue automatically: the next guide loads in the same tab."] = "Bana sor: bir pencere rehberin bittiğini söyler ve sonrakini önerir. Otomatik devam et: sonraki rehber aynı sekmede açılır."
+L["Ask me"] = "Bana sor"
+L["Continue automatically"] = "Otomatik devam et"
+L["%d KiB"] = "%d KiB"
+L["%.1f MB"] = "%.1f MB"
+L["%d KB"] = "%d KB"
 
 -- UI/Dungeons.lua
 L["Ready to turn in"] = "Teslime hazır"
@@ -2035,6 +2044,9 @@ L["Picks from %s (%s), checked against the game's talent tree; notes in Polestar
 L["Keep this plan"] = "Bu planda kal"
 L["Follow this plan whatever spec gear advice uses."] = "Ekipman önerisi hangi uzmanlığı kullanırsa kullansın bu planı izle."
 L["There is no talent plan for your class yet."] = "Sınıfın için henüz bir yetenek planı yok."
+L["Coming soon"] = "Yakında"
+L["Talent plans for every class are on their way. We're taking the time to get every pick right before Polestar suggests one."] = "Her sınıf için yetenek planları yolda. Polestar bir seçim önermeden önce her seçimi doğru yapmak için zaman ayırıyoruz."
+L["Gear advice still follows the talents you choose."] = "Ekipman önerileri yine seçtiğin yetenekleri izler."
 
 -- Maps/MinimapButton.lua
 L["Click: show or hide the guide"] = "Tıkla: rehberi göster ya da gizle"
@@ -2731,3 +2743,12 @@ L["Show the class quest heads-up again (the next one due, or a quest id)"] = "S�
 L["Show me"] = "Göster"
 L["Summon %s"] = "Çağır: %s"
 L["%s ready"] = "%s hazır"
+
+-- UI/GuideEnd.lua
+L["You've completed %s"] = "%s tamamlandı"
+L["You've reached the end of %s"] = "%s rehberinin sonuna geldin"
+L["1 step was left undone."] = "1 adım yapılmadan kaldı."
+L["%d steps were left undone."] = "%d adım yapılmadan kaldı."
+L["Next: %s"] = "Sonraki: %s"
+L["Pick a guide"] = "Bir rehber seç"
+L["Not now"] = "Şimdi değil"

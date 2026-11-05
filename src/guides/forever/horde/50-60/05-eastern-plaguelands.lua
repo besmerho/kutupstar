@@ -81,30 +81,27 @@ return {
 	-- {area:2268} Light's Hope Chapel
 	["Hearth to {area:2268}"] = "Hearthstone ile dön: {area:2268}",
 
-	-- Step 21: Light's Hope Chapel
-	["Ride east across the plaguelands to the chapel."] = "Veba topraklarını doğuya geçerek şapele git.",
-
-	-- Step 22: Fly to Undercity
+	-- Step 21: Fly to Undercity
 	-- {area:1497} Undercity
 	["Fly to {area:1497}"] = "Uç: {area:1497}",
 	-- {area:2268} Light's Hope Chapel
 	["{area:2268} flight master"] = "{area:2268} uçuş ustası",
 
-	-- Step 23: Zeppelin to Orgrimmar
+	-- Step 22: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
 	["Zeppelin to {zone:1454}"] = "Zeplinle {zone:1454} şehrine",
 
-	-- Step 25: Fly to Bloodvenom Post
+	-- Step 24: Fly to Bloodvenom Post
 	-- {area:1997} Bloodvenom Post
 	["Fly to {area:1997}"] = "Uç: {area:1997}",
 	-- {zone:1454} Orgrimmar
 	["{zone:1454} flight master"] = "{zone:1454} uçuş ustası",
 
-	-- Step 26: Fly to Thunder Bluff
+	-- Step 25: Fly to Thunder Bluff
 	-- {area:1638} Thunder Bluff
 	["Fly to {area:1638}"] = "{area:1638} şehrine uç",
 
-	-- Step 27: Fly to Thunder Bluff
+	-- Step 26: Fly to Thunder Bluff
 	-- {zone:1456} Thunder Bluff
 	["Fly to {zone:1456}"] = "Uç: {zone:1456}",
 	-- {area:1497} Undercity · {zone:1454} Orgrimmar · {zone:1456} Thunder Bluff
@@ -112,81 +109,81 @@ return {
 	-- {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {npc:246344} Alodan the Hopeful
 	["{npc:3033} on {area:1639}; {npc:246344}"] = "{area:1639} tepesinde {npc:3033}; {npc:246344}",
 
-	-- Step 28: Rumstag Proudstrider
+	-- Step 27: Rumstag Proudstrider
 	-- {area:1641} Hunter Rise
 	["On {area:1641}. Each donation takes sixty Wool, Silk or Mageweave from your bags: hand in what you carry, skip the rest."] = "{area:1641} tepesinde. Her bağış çantandan altmış Wool, Silk ya da Mageweave alır: taşıdığını teslim et, gerisini atla.",
 
-	-- Step 29: Fly to Bloodvenom Post
+	-- Step 28: Fly to Bloodvenom Post
 	-- {zone:1456} Thunder Bluff
 	["{zone:1456} flight master"] = "{zone:1456} uçuş ustası",
 
-	-- Step 31: Deadwood Cauldron
+	-- Step 30: Deadwood Cauldron
 	-- {item:12820} Winterfall Firewater · {area:618} Winterspring · {area:1762} Felpaw Village · {area:1769} Timbermaw Hold
 	["Only if you found a {item:12820} flask in {area:618}: ride north up the road. The cauldron stands in {area:1762}, just south-west of {area:1769}; the Deadwood furbolgs there are hostile."] = "Yalnızca {area:618} içinde bir {item:12820} şişesi bulduysan: yolu kuzeye sür. Kazan {area:1769} sığınağının hemen güneybatısındaki {area:1762} köyünde duruyor; oradaki Deadwood furbolg'ları düşman.",
 
-	-- Step 32: Kernda
+	-- Step 31: Kernda
 	-- {quest:8471} Winterfall Ritual Totem · {npc:11558} Kernda · {zone:1448} Felwood · {area:1769} Timbermaw Hold
 	["Only if a {quest:8471} dropped for you: {npc:11558} waits at the {zone:1448} entrance of {area:1769}, and speaks to you only at Neutral with the Timbermaw."] = "Yalnızca sana {quest:8471} düştüyse: {npc:11558}, {area:1769} mağarasının {zone:1448} girişinde bekliyor ve seninle ancak Timbermaw ile Neutral itibardayken konuşur.",
 	-- {npc:11558} Kernda
 	["{npc:11558} walks around here: look inside the circle on the map"] = "{npc:11558} buralarda dolaşıyor: haritadaki çemberin içine bak",
 
-	-- Step 34: Rabine Saturna
+	-- Step 33: Rabine Saturna
 	-- {area:1769} Timbermaw Hold · {area:493} Moonglade · {npc:11801} Rabine Saturna · {area:2361} Nighthaven
 	["Go through {area:1769} and take the {area:493} branch of the tunnel. {npc:11801} is in {area:2361}."] = "{area:1769} içinden geç ve tünelin {area:493} kolunu tut. {npc:11801}, {area:2361} köyünde.",
 
-	-- Step 35: Class trainer
+	-- Step 34: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
 
-	-- Step 36: Rabine Saturna
+	-- Step 35: Rabine Saturna
 	-- {zone:1451} Silithus
 	["Both quests lead to {zone:1451}: keep them."] = "İki görev de {zone:1451} bölgesine gidiyor: sakla.",
 
-	-- Step 38: Donova Snowden
+	-- Step 37: Donova Snowden
 	-- {area:618} Winterspring · {area:2246} Frostfire Hot Springs
 	["Back through the tunnel and take the {area:618} exit, then ride south to {area:2246}."] = "Tünelden geri geç ve {area:618} çıkışını kullan, sonra güneye, {area:2246} kaynaklarına sür.",
 	-- {quest:5086} Toxic Horrors · {zone:1448} Felwood
 	["{quest:5086} are in {zone:1448}, on a later trip: keep it if you have it."] = "{quest:5086} daha sonraki bir gezide {zone:1448} bölgesinde: sende varsa sakla.",
 
-	-- Step 39: Moontouched Owlbeasts
+	-- Step 38: Moontouched Owlbeasts
 	-- plural, as words: Moontouched Owlbeasts = {npc:7453} Moontouched Owlbeast
 	["Moontouched Owlbeasts"] = "Moontouched Owlbeast yaratıkları",
 	-- {area:2255} Everlook · {area:2241} Frostsaber Rock
 	-- plural, as words: Moontouched Owlbeasts = {npc:7453} Moontouched Owlbeast
 	["Ride east to {area:2255} and north out of it; the Moontouched Owlbeasts roam the hills of {area:2241}'s southern slopes. Pull them one at a time."] = "Doğuya, {area:2255} kasabasına git ve oradan kuzeye çık; Moontouched Owlbeast yaratıkları {area:2241} kayasının güney yamaçlarındaki tepelerde dolaşıyor. Tek tek çek.",
 
-	-- Step 41: Fly to Gadgetzan
+	-- Step 40: Fly to Gadgetzan
 	-- {area:976} Gadgetzan
 	["Fly to {area:976}"] = "{area:976} kasabasına uç",
 	-- {area:2255} Everlook
 	["{area:2255} flight master"] = "{area:2255} uçuş ustası",
 
-	-- Step 42: Gaeriyan
+	-- Step 41: Gaeriyan
 	-- {npc:9299} Gaeriyan · {area:976} Gadgetzan
 	["{npc:9299} is a ghost at the graveyard just north of {area:976}; the Conspicuous Gravestone is south of it, outside the town wall."] = "{npc:9299}, {area:976} kasabasının hemen kuzeyindeki mezarlıkta bir hayalet; Conspicuous Gravestone onun güneyinde, kasaba surunun dışında.",
 
-	-- Step 43: Sprinkle
+	-- Step 42: Sprinkle
 	-- {item:12928} Umi's Mechanical Yeti · {npc:7583} Sprinkle · {area:976} Gadgetzan · {npc:10977} Quixxil · {npc:10978} Legacki
 	["Use {item:12928} on {npc:7583}, the goblin girl in {area:976}. {npc:10977} and {npc:10978} are scared later in the route."] = "{area:976} kasabasındaki goblin kız {npc:7583} üzerinde {item:12928} kullan. {npc:10977} ve {npc:10978} rotanın ilerisinde korkutulur.",
 
-	-- Step 44: Gadgetzan
+	-- Step 43: Gadgetzan
 	-- {object:142071} Egg-O-Matic
 	["The {object:142071} machine"] = "{object:142071} makinesi",
 
-	-- Step 45: Gaeriyan
+	-- Step 44: Gaeriyan
 	-- {quest:3914} Linken's Sword
 	["{quest:3914} goes back to Linken in Un'Goro: keep it."] = "{quest:3914}, Un'Goro'daki Linken'e geri gidiyor: sakla.",
 
-	-- Step 46: Marvon Rivetseeker
+	-- Step 45: Marvon Rivetseeker
 	-- {npc:7771} Marvon Rivetseeker · {area:1336} Lost Rigger Cove · {area:976} Gadgetzan
 	["{npc:7771} camps by the {area:1336} road, south of {area:976}."] = "{npc:7771}, {area:976} kasabasının güneyinde, {area:1336} yolunun kenarında kamp kurmuş.",
 
-	-- Step 47: Fly to Camp Mojache
+	-- Step 46: Fly to Camp Mojache
 	-- {area:1099} Camp Mojache
 	["Fly to {area:1099}"] = "{area:1099} kampına uç",
 	-- {area:976} Gadgetzan
 	["{area:976} flight master"] = "{area:976} uçuş ustası",
 
-	-- Step 48: Ruins of Isildien
+	-- Step 47: Ruins of Isildien
 	-- {area:1099} Camp Mojache · {zone:1444} Feralas · {object:142071} Egg-O-Matic
 	["Fly to {area:1099}. The hippogryph nests are in the south of {zone:1444}; each holds an egg for the {object:142071}."] = "{area:1099} kampına uç. Hipogrif yuvaları {zone:1444} bölgesinin güneyinde; her birinde {object:142071} için bir yumurta var.",
 }

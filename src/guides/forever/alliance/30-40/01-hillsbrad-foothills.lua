@@ -160,8 +160,8 @@ return {
 	-- {npc:2784} King Magni Bronzebeard · {object:171709} High Seat
 	["{npc:2784}, the {object:171709}"] = "{npc:2784}, {object:171709}",
 
-	-- Step 50: Fly to Stormwind City
-	-- {zone:1453} Stormwind City
+	-- Step 50: Fly to Stormwind
+	-- {zone:1453} Stormwind
 	["Fly to {zone:1453}"] = "{zone:1453} şehrine uç",
 	-- {zone:1455} Ironforge
 	["{zone:1455} flight master"] = "{zone:1455} uçuş ustası",
@@ -176,7 +176,7 @@ return {
 
 	-- Step 53: Druid training
 	["Druid training"] = "Druid eğitimi",
-	-- {zone:1455} Ironforge · {npc:5504} Sheldras Moontree · {zone:1453} Stormwind City
+	-- {zone:1455} Ironforge · {npc:5504} Sheldras Moontree · {zone:1453} Stormwind
 	["{zone:1455} has no druid trainer: train with {npc:5504} in {zone:1453} before the tram."] = "{zone:1455} şehrinde Druid eğitmeni yok: trene binmeden önce {zone:1453} şehrindeki {npc:5504} adlı NPC'den eğitimini al.",
 
 	-- Step 55: Dashel Stonefist
