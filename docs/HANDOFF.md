@@ -27,8 +27,8 @@ Barış's two hard requirements:
 |---|---|
 | Polestar pinned | **v0.3.1** on `main` (`package.json` → `config.polestarTag`), Polestar's newest release on 5 Nov |
 | Kutupstar in the repo | **0.3.1**, the same version as Polestar (TOC `## Version`, `package.json`) |
-| Kutupstar on CurseForge | still **0.2.0**, a full *release* (4 Nov; project 1759256, file 9433209, WoW Forever 1.60.1, required dependency `polestar`), tag `v0.2.0`. **0.3.1 is not uploaded**: it waits for Barış's OK |
-| Barış's game | Polestar 0.3.1 and Kutupstar 0.3.1, the latter from this repo with `build --install` on 5 Nov, in the `_forever_` folder. Not tested in game yet |
+| Kutupstar on CurseForge | **0.3.1**, a full *release* (5 Nov; project 1759256, file 9450094, WoW Forever 1.60.1, required dependency `polestar`), tag `v0.3.1` |
+| Barış's game | Polestar 0.3.1 and Kutupstar 0.3.1 (from this repo with `build --install`), in the `_forever_` folder. **Barış tested it on 5 Nov: no problems** |
 | UI texts at v0.3.1 | 2421/2551 Turkish; the other 130 stay English on purpose (`src/keep-english.json`); 0 to do |
 | Guide texts at v0.3.1 | 9845/9845 in 254 guides plus the pack's 17 texts; every folder complete |
 | `check` | 0 errors, 3 warnings. All three are English quest names that start with a name token (`{npc:3144}'s Wisdom`, `{npc:10260}'s Exotic Pets`), so they are right as they are |
@@ -39,9 +39,6 @@ Barış's two hard requirements:
 `node tools/kutup.js setup` (it moves `upstream/` to the pinned tag). The reason this note exists: 0.2.0 shipped from
 the branch `polestar-v0.3.0` while `main` stayed at v0.2.6, so sessions cloning `main` kept checking the old release.
 `main` caught up on 5 Nov and has carried each sync since.
-
-Players on CurseForge's 0.2.0 with Polestar 0.3.1 are fine by design: unchanged texts are Turkish, and what v0.3.1
-added shows in English until 0.3.1 is uploaded (the new guide-end window, for one).
 
 **Version rule (Barış, 5 Nov):** Kutupstar's version follows the pinned Polestar's, so Polestar 0.3.1 means Kutupstar
 0.3.1. There is no rule yet for a Kutupstar-only release between two Polestar releases (a wording fix): ask Barış.
@@ -54,20 +51,19 @@ added shows in English until 0.3.1 is uploaded (the new guide-end window, for on
 | 3 UI | done (now 2421/2551 at v0.3.1) |
 | 4 Guides | done (now 9845/9845 at v0.3.1) |
 | 5 Leftovers | done: the "Teslim et:: " double colon in turn-in map marker tooltips is fixed by a `GameTooltip:AddLine` post-hook (Core.lua, Joins). Optional, not sent: an upstream PR making Polestar's verb+name joins translatable |
-| **6 In-game QA** | **open: the next step.** The last recorded test is the v0.2.6 build (22 Oct): `fill = early`, every hook on, 222 guides / 6952 texts translated, no error, and the font fallback swapped `FRIZQT__.TTF` (no ş) for Fira Sans. **No test of a v0.3.x build is on record**: on 5 Nov there was no `Kutupstar.lua` in the game's SavedVariables under `_forever_`. Barış's visual feedback (wording, cut-off text, boxes) is still waiting |
-| 7 Release | done: 0.1.0 beta (22 Oct), 0.1.1 (23 Oct), **0.2.0 release** (4 Nov) |
+| 6 In-game QA | goes on with each release. **The 0.3.1 build: Barış tested it on 5 Nov, no problems.** That is Barış's report: the game had written no `Kutupstar.lua` to SavedVariables under `_forever_` when it was checked, so no `KutupstarDB.diag` figures are on record for a v0.3.x build. The last recorded ones are from the v0.2.6 build (22 Oct): `fill = early`, every hook on, 222 guides / 6952 texts, no error, and the font fallback swapped `FRIZQT__.TTF` (no ş) for Fira Sans |
+| 7 Release | done: 0.1.0 beta (22 Oct), 0.1.1 (23 Oct), 0.2.0 release (4 Nov) |
 | 8 Sync to Polestar v0.3.0 | done (4 Nov): report in `reports/sync-v0.2.6-v0.3.0.md` |
 | 9 Sync to Polestar v0.3.1 | done (5 Nov): report in `reports/sync-v0.3.0-v0.3.1.md` |
-| **10 Release 0.3.1** | **waiting for Barış's OK** |
+| 10 Release 0.3.1 | done (5 Nov) on Barış's OK |
+
+**Up to date on 5 Nov: nothing is waiting.** The next job comes when `node tools/kutup.js latest` says `update: yes`.
 
 ## Open items
 
-1. **In-game test of the 0.3.1 build**, already installed (Barış; see "What a cloud session cannot do"), then read
-   `KutupstarDB.diag`. First in-game look at v0.3.1's new texts: the window at a guide's end, the "When a leveling guide
-   ends" option, the "Coming soon" talents page, and the Horde start (Durotar, the merged Barrens guide).
-2. **Upload 0.3.1 to CurseForge**, only after Barış's explicit OK for it. `main` is ready: push the tag and the workflow
-   uploads (see "Polestar updates and releases"). Until then CurseForge has 0.2.0.
-3. **Wording polish, safe for a cloud session** (`check` after each, commit and push on a branch). The v0.3.0 work
+None of these block anything.
+
+1. **Wording polish, safe for a cloud session** (`check` after each, commit and push on a branch). The v0.3.0 work
    left a few terms in two forms; line counts are from 5 Nov, and STIL.md §7 names the form to keep:
    - `humanoid` (19 lines) → `insansı` (31)
    - `skyboat` (3) → `gök gemisi` (31)
@@ -75,20 +71,22 @@ added shows in English until 0.3.1 is uploaded (the new guide-end window, for on
    - `3 nişan için` for Marks of Honor (16 lines) → `3 marka için`; `nişan` is for insignia and badges
    - `Legacy ayrıcalığı` (1) → `Legacy yeteneği` (13)
    - `yüzde 5` (8) and `%5` (97) are both in use; `%5` is the more common
-4. **`curseforge-description` branch**: the English and Turkish CurseForge project page (`docs/CURSEFORGE.md` and an
-   HTML version, 22 Oct). Never merged. Barış decides; it may need updating for the 0.2.0 release.
-5. Optional and not sent: the upstream PR for translatable joins (STIL.md §4).
+2. **`curseforge-description` branch**: the English and Turkish CurseForge project page (`docs/CURSEFORGE.md` and an
+   HTML version, 22 Oct). Never merged. Barış decides; it may need updating since 0.1.x.
+3. **`KutupstarDB.diag` for a v0.3.x build**: worth reading when the file appears (after a `/reload` or logout). See
+   "What a cloud session cannot do".
+4. Optional and not sent: the upstream PR for translatable joins (STIL.md §4).
 
 ## Branches
 
 | Branch | State |
 |---|---|
 | `main` | current: start here |
-| `polestar-v0.3.1` | the v0.3.1 sync, merged into `main` |
+| `polestar-v0.3.1` | the v0.3.1 sync, merged; tag `v0.3.1` is on it |
 | `polestar-v0.3.0` | the v0.3.0 sync, merged; tag `v0.2.0` is on it |
 | `ci/curseforge-release` | the release workflow, merged |
 | `faz-0-1`, `faz-2`, `faz-4`, `faz-4-30-40`, `faz-5` | history, merged |
-| `curseforge-description` | **not merged** (Open items 4) |
+| `curseforge-description` | **not merged** (Open items 2) |
 
 The repo `github.com/besmerho/kutupstar` is **public** since 22 Oct (GPL-3.0 source for the CurseForge release).
 
