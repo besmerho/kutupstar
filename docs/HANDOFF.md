@@ -88,7 +88,7 @@ None of these block anything.
 | Branch | State |
 |---|---|
 | `main` | current: start here |
-| `polestar-v0.3.5` | the v0.3.5 sync; tag `v0.3.5` is on it. Merge into `main` when Barış says so |
+| `polestar-v0.3.5` | the v0.3.5 sync, merged (8 Nov); tag `v0.3.5` is on it |
 | `polestar-v0.3.1` | the v0.3.1 sync, merged; tag `v0.3.1` is on it |
 | `polestar-v0.3.0` | the v0.3.0 sync, merged; tag `v0.2.0` is on it |
 | `ci/curseforge-release` | the release workflow, merged |
