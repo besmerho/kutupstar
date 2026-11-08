@@ -5,19 +5,15 @@
 return {
 	-- Guide
 	["Kirin Tor Reputation"] = "Kirin Tor itibarı",
-	-- {area:279} Dalaran
-	["New in Forever: {area:279}'s mages sell Azure armour recipes at Friendly and their tabard at Exalted."] = "Forever'da yeni: {area:279} büyücüleri Friendly'de Azure zırh tariflerini, Exalted'da tabard'larını satar.",
 	-- {skill:164} Blacksmithing · {skill:165} Leatherworking · {skill:197} Tailoring
 	["Eight Azure helm and shoulder recipes at Friendly ({skill:164}, {skill:165}, {skill:197})"] = "Friendly'de sekiz Azure miğfer ve omuzluk tarifi ({skill:164}, {skill:165}, {skill:197})",
 
 	-- Step 1: Skyborne: the recipes now
 	["Skyborne: the recipes now"] = "Skyborne: tarifler hemen",
-	-- {faction:2740} Kirin Tor · {npc:32287} Archmage Alvareaux · {area:279} Dalaran
-	["Alliance Skyborne start Friendly with the {faction:2740}, and their arrival quests The Magical City of Dalaran and Exploring the Alliance pay 100 more each, so {npc:32287} sells you the Azure recipes at once (10g each, they need skill 175). He stands upstairs in the building with the {faction:2740} banners in {area:279}, past the Sky Enclave. Buy the ones for your profession."] = "Alliance Skyborne, {faction:2740} ile Friendly'de başlar ve varış görevleri The Magical City of Dalaran ile Exploring the Alliance her biri 100 daha öder, bu yüzden {npc:32287} Azure tariflerini sana hemen satar (her biri 10g, 175 beceri ister). {area:279} içinde {faction:2740} sancaklı binanın üst katında, Sky Enclave'in ötesinde duruyor. Mesleğine uyanları al.",
+	-- {faction:2740} Kirin Tor · {npc:32287} Archmage Alvareaux
 
 	-- Step 2: An Alarming Request
-	-- {npc:247264} Emissary Jacques · {faction:2740} Kirin Tor · {area:271} Southshore · {npc:246748} Archmage Modera · {area:1338} Lordamere Lake · {area:279} Dalaran
-	["{npc:247264} of the {faction:2740} waits in {area:271}. He sends you to {npc:246748}'s image by the shore of {area:1338}, outside {area:279}'s walls. The {faction:2740} quests start at level 24 to 30 and pay full reputation while they are at most 5 levels below you; in Classic a quest 6+ levels below you pays less (a fifth at 60)."] = "{faction:2740} grubundan {npc:247264}, {area:271} içinde bekliyor. Seni {area:279} surlarının dışında, {area:1338} kıyısındaki {npc:246748} suretinin yanına gönderir. {faction:2740} görevleri seviye 24 ila 30'da başlar ve senden en fazla 5 seviye aşağıdayken tam itibar öder; Classic'te senden 6+ seviye aşağıdaki bir görev daha az öder (60'ta beşte bir).",
+	-- {npc:247264} Emissary Jacques · {faction:2740} Kirin Tor · {npc:246748} Archmage Modera
 
 	-- Step 3: Archmage Modera's image
 	-- {npc:246748} Archmage Modera
@@ -36,16 +32,13 @@ return {
 	["Back to Modera's image"] = "Modera'nın suretine dönüş",
 
 	-- Step 6: Archmage Celindra
-	-- {npc:252085} Archmage Celindra · {area:279} Dalaran
-	["{npc:252085} waits in the Violet Citadel in {area:279}."] = "{npc:252085}, {area:279} içinde Violet Citadel'de bekliyor.",
+	-- {npc:252085} Archmage Celindra
 
 	-- Step 7: Past Due
-	-- {npc:264265} Magus Olvek · {area:279} Dalaran · {npc:6487} Arcanist Doan · {area:796} Scarlet Monastery · {zone:1420} Tirisfal Glades
-	["{npc:264265} in {area:279} wants a book back from {npc:6487}, the last boss of the {area:796}'s Library (levels 33 to 41), in {zone:1420}."] = "{area:279} içindeki {npc:264265}, {zone:1420} bölgesinde {area:796} Library kanadının (seviye 33 ila 41) son boss'u {npc:6487} yaratığından bir kitabı geri istiyor.",
+	-- {npc:264265} Magus Olvek · {npc:6487} Arcanist Doan · {zone:1420} Tirisfal Glades
 
 	-- Step 8: Arcanist Doan
-	-- {area:796} Scarlet Monastery · {zone:1420} Tirisfal Glades
-	["The {area:796} stands in the north-east of {zone:1420}; Doan waits at the end of the Library wing. Group of five advised below level 40."] = "{area:796}, {zone:1420} bölgesinin kuzeydoğusunda duruyor; Doan, Library kanadının sonunda bekliyor. Seviye 40'ın altında beş kişilik grup önerilir.",
+	-- {zone:1420} Tirisfal Glades
 	-- {item:273169} The Lost Magic of the Runemasters · {npc:6487} Arcanist Doan
 	["{item:273169}, from {npc:6487}"] = "{item:273169}, kaynak: {npc:6487}",
 
@@ -60,8 +53,7 @@ return {
 	-- Step 11: Archmage Alvareaux: the Azure recipes
 	-- {npc:32287} Archmage Alvareaux
 	["{npc:32287}: the Azure recipes"] = "{npc:32287}: Azure tarifleri",
-	-- {npc:32287} Archmage Alvareaux · {faction:2740} Kirin Tor · {area:279} Dalaran
-	["{npc:32287} sells the Azure helm and shoulder recipes at Friendly, 10g each (skill 175). He stands upstairs in the building with the {faction:2740} banners in {area:279}. Buy the ones for your profession."] = "{npc:32287}, Friendly'de Azure miğfer ve omuzluk tariflerini satar, her biri 10g (175 beceri). {area:279} içinde {faction:2740} sancaklı binanın üst katında duruyor. Mesleğine uyanları al.",
+	-- {npc:32287} Archmage Alvareaux · {faction:2740} Kirin Tor
 
 	-- Step 12: City of Dalaran runs to Exalted
 	["City of Dalaran runs to Exalted"] = "Exalted'a kadar City of Dalaran koşuları",
@@ -70,6 +62,15 @@ return {
 	-- Step 13: The Kirin Tor Tabard
 	-- {item:285327} Kirin Tor Tabard
 	["The {item:285327}"] = "{item:285327}",
-	-- {npc:32287} Archmage Alvareaux · {npc:28776} Elizabeth Ross · {area:279} Dalaran · {item:285327} Kirin Tor Tabard
+	-- {npc:32287} Archmage Alvareaux · {npc:28776} Elizabeth Ross · {item:285327} Kirin Tor Tabard
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["New in Forever: {area:279}'s mages sell Azure armour recipes at Friendly and their tabard at Exalted."] = "Forever'da yeni: {area:279} büyücüleri Friendly'de Azure zırh tariflerini, Exalted'da tabard'larını satar.",
+	["Alliance Skyborne start Friendly with the {faction:2740}, and their arrival quests The Magical City of Dalaran and Exploring the Alliance pay 100 more each, so {npc:32287} sells you the Azure recipes at once (10g each, they need skill 175). He stands upstairs in the building with the {faction:2740} banners in {area:279}, past the Sky Enclave. Buy the ones for your profession."] = "Alliance Skyborne, {faction:2740} ile Friendly'de başlar ve varış görevleri The Magical City of Dalaran ile Exploring the Alliance her biri 100 daha öder, bu yüzden {npc:32287} Azure tariflerini sana hemen satar (her biri 10g, 175 beceri ister). {area:279} içinde {faction:2740} sancaklı binanın üst katında, Sky Enclave'in ötesinde duruyor. Mesleğine uyanları al.",
+	["{npc:247264} of the {faction:2740} waits in {area:271}. He sends you to {npc:246748}'s image by the shore of {area:1338}, outside {area:279}'s walls. The {faction:2740} quests start at level 24 to 30 and pay full reputation while they are at most 5 levels below you; in Classic a quest 6+ levels below you pays less (a fifth at 60)."] = "{faction:2740} grubundan {npc:247264}, {area:271} içinde bekliyor. Seni {area:279} surlarının dışında, {area:1338} kıyısındaki {npc:246748} suretinin yanına gönderir. {faction:2740} görevleri seviye 24 ila 30'da başlar ve senden en fazla 5 seviye aşağıdayken tam itibar öder; Classic'te senden 6+ seviye aşağıdaki bir görev daha az öder (60'ta beşte bir).",
+	["{npc:252085} waits in the Violet Citadel in {area:279}."] = "{npc:252085}, {area:279} içinde Violet Citadel'de bekliyor.",
+	["{npc:264265} in {area:279} wants a book back from {npc:6487}, the last boss of the {area:796}'s Library (levels 33 to 41), in {zone:1420}."] = "{area:279} içindeki {npc:264265}, {zone:1420} bölgesinde {area:796} Library kanadının (seviye 33 ila 41) son boss'u {npc:6487} yaratığından bir kitabı geri istiyor.",
+	["The {area:796} stands in the north-east of {zone:1420}; Doan waits at the end of the Library wing. Group of five advised below level 40."] = "{area:796}, {zone:1420} bölgesinin kuzeydoğusunda duruyor; Doan, Library kanadının sonunda bekliyor. Seviye 40'ın altında beş kişilik grup önerilir.",
+	["{npc:32287} sells the Azure helm and shoulder recipes at Friendly, 10g each (skill 175). He stands upstairs in the building with the {faction:2740} banners in {area:279}. Buy the ones for your profession."] = "{npc:32287}, Friendly'de Azure miğfer ve omuzluk tariflerini satar, her biri 10g (175 beceri). {area:279} içinde {faction:2740} sancaklı binanın üst katında duruyor. Mesleğine uyanları al.",
 	["{npc:32287} and {npc:28776}, the tabard vendor in {area:279}, sell the {item:285327} at Exalted for 25g."] = "{npc:32287} ve {area:279} içindeki tabard satıcısı {npc:28776}, Exalted'da {item:285327} eşyasını 25g'a satar.",
 }

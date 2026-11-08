@@ -21,19 +21,19 @@ Barış's two hard requirements:
 2. **No UI of its own.** Load silently: no window, no slash command, no chat line. The only UI is the
    "Dil · Language" dropdown it adds to Polestar's Options (Appearance > Colour & type).
 
-## Where it stands (5 Nov 2026)
+## Where it stands (8 Nov 2026)
 
 | | |
 |---|---|
-| Polestar pinned | **v0.3.1** on `main` (`package.json` → `config.polestarTag`), Polestar's newest release on 5 Nov |
-| Kutupstar in the repo | **0.3.1**, the same version as Polestar (TOC `## Version`, `package.json`) |
-| Kutupstar on CurseForge | **0.3.1**, a full *release* (5 Nov; project 1759256, file 9450094, WoW Forever 1.60.1, required dependency `polestar`), tag `v0.3.1` |
-| Barış's game | Polestar 0.3.1 and Kutupstar 0.3.1 (from this repo with `build --install`), in the `_forever_` folder. **Barış tested it on 5 Nov: no problems** |
-| UI texts at v0.3.1 | 2421/2551 Turkish; the other 130 stay English on purpose (`src/keep-english.json`); 0 to do |
-| Guide texts at v0.3.1 | 9845/9845 in 254 guides plus the pack's 17 texts; every folder complete |
+| Polestar pinned | **v0.3.5** (`package.json` → `config.polestarTag`), Polestar's newest release on 8 Nov |
+| Kutupstar in the repo | **0.3.5**, the same version as Polestar (TOC `## Version`, `package.json`) |
+| Kutupstar on CurseForge | **0.3.5** uploaded on 8 Nov on Barış's OK, by pushing tag `v0.3.5` (the release workflow). 0.3.1 before it (5 Nov; project 1759256, file 9450094) |
+| Barış's game | Polestar **0.3.4** and Kutupstar 0.3.1 in the `_forever_` folder on 8 Nov. Kutupstar 0.3.5 was **not** installed there (its keys follow Polestar 0.3.5) and **not tested in game yet** |
+| UI texts at v0.3.5 | 2625/2755 Turkish; the other 130 stay English on purpose (`src/keep-english.json`); 0 to do |
+| Guide texts at v0.3.5 | 10101/10101 in 260 guides plus the pack's texts; every folder complete |
 | `check` | 0 errors, 3 warnings. All three are English quest names that start with a name token (`{npc:3144}'s Wisdom`, `{npc:10260}'s Exotic Pets`), so they are right as they are |
-| `check --glossary` | about 120 questions. A sample of each kind was false alarms ("Inn" in a place name, "route" worded as "yol"); not read one by one |
-| `Core.lua` | unchanged since v0.1.1; `audit` found every Polestar internal it hooks into at v0.3.1, and Polestar's `Core/GuideTexts.lua` did not change from v0.3.0 |
+| `check --glossary` | about 130 questions, the same kinds as before (false alarms: "route" worded as "yol", "Inn" in names); not read one by one |
+| `Core.lua` | unchanged since v0.1.1; `audit` found every Polestar internal it hooks into at v0.3.5 |
 
 **v0.2.6 is history.** It was the pin until 4 Nov. If your clone says v0.2.6 or v0.3.0, it is stale: `git pull`, then
 `node tools/kutup.js setup` (it moves `upstream/` to the pinned tag). The reason this note exists: 0.2.0 shipped from
@@ -56,13 +56,19 @@ the branch `polestar-v0.3.0` while `main` stayed at v0.2.6, so sessions cloning 
 | 8 Sync to Polestar v0.3.0 | done (4 Nov): report in `reports/sync-v0.2.6-v0.3.0.md` |
 | 9 Sync to Polestar v0.3.1 | done (5 Nov): report in `reports/sync-v0.3.0-v0.3.1.md` |
 | 10 Release 0.3.1 | done (5 Nov) on Barış's OK |
+| 11 Sync to Polestar v0.3.5 | done (8 Nov): report in `reports/sync-v0.3.1-v0.3.5.md`. A big one: UI 221 new, 17 lost; guides 1810 new (503 reused), 1314 lost, 4 gone. Much of the guide churn is Polestar rewording "{area:380}" to "the Crossroads" and adding detail to step notes |
+| 12 Release 0.3.5 | uploaded (8 Nov) on Barış's OK, before an in-game test: the in-game check is open (Open items 0) |
 
-**Up to date on 5 Nov: nothing is waiting.** The next job comes when `node tools/kutup.js latest` says `update: yes`.
+The next job comes when `node tools/kutup.js latest` says `update: yes`.
 
 ## Open items
 
 None of these block anything.
 
+0. **In-game test of 0.3.5**: once Barış's game has Polestar 0.3.5, `node tools/kutup.js build --install`, `/reload`,
+   look over the new texts (party panel, "Hazır buradayken", dungeon heads-up card, quest log cleanup) and read
+   `KutupstarDB.diag`. Party chat lines are Turkish now (other locales translate them too); the marker
+   `{rt1} Polestar: ` stays as it is because Polestar's chat filter looks for it.
 1. **Wording polish, safe for a cloud session** (`check` after each, commit and push on a branch). The v0.3.0 work
    left a few terms in two forms; line counts are from 5 Nov, and STIL.md §7 names the form to keep:
    - `humanoid` (19 lines) → `insansı` (31)
@@ -82,6 +88,7 @@ None of these block anything.
 | Branch | State |
 |---|---|
 | `main` | current: start here |
+| `polestar-v0.3.5` | the v0.3.5 sync; tag `v0.3.5` is on it. Merge into `main` when Barış says so |
 | `polestar-v0.3.1` | the v0.3.1 sync, merged; tag `v0.3.1` is on it |
 | `polestar-v0.3.0` | the v0.3.0 sync, merged; tag `v0.2.0` is on it |
 | `ci/curseforge-release` | the release workflow, merged |

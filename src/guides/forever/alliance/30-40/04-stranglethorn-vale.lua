@@ -3,95 +3,66 @@
 -- oyun orada adı İngilizce gösterir (yukarıdaki yorum satırında yazıyor). Belirtecin hemen ardına ek getirme;
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
-	-- Step 2: Tram to Stormwind
-	-- {zone:1453} Stormwind
-	["Tram to {zone:1453}"] = "Tramvayla: {zone:1453}",
+	-- Step 1: Fly to Darkshire
+	-- {object:1162} Menethil Harbor (no name in this language: may be words)
 
-	-- Step 3: Druid training
-	["Druid training"] = "Druid eğitimi",
-	-- {zone:1455} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town · {zone:1453} Stormwind · {npc:5504} Sheldras Moontree
-	["{zone:1455} has no druid trainer: take the {area:2257} from {object:171524} to {zone:1453} and train with {npc:5504}."] = "{zone:1455} şehrinde Druid eğitmeni yok: {object:171524} semtinden {area:2257} ile {zone:1453} şehrine git ve {npc:5504} ile eğitim al.",
-
-	-- Step 4: Fly to Stormwind
-	-- {zone:1453} Stormwind
-	["Fly to {zone:1453}"] = "{zone:1453} şehrine uç",
-	-- {area:150} Menethil Harbor
-	["{area:150} flight master"] = "{area:150} uçuş ustası",
-
-	-- Step 6: Nesingwary's Expedition
-	-- {zone:1431} Duskwood · {area:99} Rebel Camp
-	["From {zone:1431} take the road south into Stranglethorn; the hunters' tents stand just west of the road past the {area:99} turn-off."] = "{zone:1431} bölgesinden güneye giden yolu tutarak Stranglethorn'a gir; avcıların çadırları {area:99} sapağını geçince yolun hemen batısında.",
+	-- Step 3: Nesingwary's Expedition
+	-- {zone:1431} Duskwood
 	-- {npc:715} Hemet Nesingwary · {zone:1441} Thousand Needles
 	["{npc:715}, from {zone:1441}"] = "{npc:715}, {zone:1441} bölgesinden",
 
-	-- Step 7: Young tigers and panthers
+	-- Step 4: Young tigers and panthers
 	["Young tigers and panthers"] = "Genç kaplanlar ve panterler",
 	["Both roam the grass around the camp and along the road north."] = "İkisi de kampın çevresindeki çimenlerde ve kuzeye giden yol boyunca dolaşıyor.",
 
-	-- Step 11: Stranglethorn Tigers
+	-- Step 8: Stranglethorn Tigers
 	-- plural, as words: Stranglethorn Tigers = {npc:682} Stranglethorn Tiger
 	["Stranglethorn Tigers"] = "Stranglethorn Tiger yaratıkları",
 	["The adult tigers prowl the hills just south and west of the camp."] = "Yetişkin kaplanlar kampın hemen güneyindeki ve batısındaki tepelerde dolaşıyor.",
 
-	-- Step 12: Ajeck Rouack
-	-- {area:99} Rebel Camp
-	["The elder tigers come later, on the way back from the {area:99}"] = "Yaşlı kaplanlar daha sonra, {area:99} kampından dönerken",
+	-- Step 9: Ajeck Rouack
 
-	-- Step 13: Panthers, raptors and elder tigers
+	-- Step 10: Panthers, raptors and elder tigers
 	["Panthers, raptors and elder tigers"] = "Panterler, raptorlar ve yaşlı kaplanlar",
 	-- plural, as words: Stranglethorn Raptors = {npc:685} Stranglethorn Raptor
 	["Back south past Nesingwary: Panthers and Stranglethorn Raptors run in the clearings west of the camp toward the coast; the elder tigers hold the hills south-west."] = "Nesingwary'yi geçerek güneye dön: Panther ve Stranglethorn Raptor yaratıkları kampın batısında, kıyıya doğru açıklıklarda koşuyor; yaşlı kaplanlar güneybatıdaki tepeleri tutuyor.",
 	-- {item:4614} Pendant of Myzrael
 	["Gluggle, a rare murloc on the coast west of camp, drops the {item:4614}: take it if you meet him"] = "Kampın batısındaki kıyıda dolaşan rare bir murloc olan Gluggle, {item:4614} düşürür: karşılaşırsan al",
 
-	-- Step 14: Rebel Camp
+	-- Step 11: Rebel Camp
 	-- {npc:738} Private Thorsen
 	["Take the road north; {npc:738} patrols it, the camp sits in the hills to the west."] = "Kuzeye giden yolu tut; {npc:738} yolda devriye geziyor, kamp batıdaki tepelerde.",
 	-- {npc:469} Lieutenant Doren
 	["{npc:469}, in the hut"] = "{npc:469}, kulübede",
+	-- {npc:469} Lieutenant Doren · {quest:200} Bookie Herod
+	["{npc:469}: {quest:200}'s records, on the northern loop (04b)"] = "{npc:469}: kuzey turunda (04b) {quest:200} kayıtları",
 
-	-- Step 15: Bookie Herod
-	["Herod's records lie in a hut on the compound's west side; his strongbox sits farther east, by the cave mouth."] = "Herod'un kayıtları yerleşkenin batı yakasındaki bir kulübede; kasası daha doğuda, mağara ağzının yanında.",
-	-- {object:287} Bookie Herod's Records
-	["{object:287}, upstairs"] = "{object:287}, üst katta",
-
-	-- Step 16: Kurzen's Compound: kill these as you meet them
-	-- {area:101} Kurzen's Compound
-	["{area:101}: kill these as you meet them"] = "{area:101}: bunları karşılaştıkça öldür",
-	-- {area:99} Rebel Camp
-	["The Kurzen rebels hold the camp east of the {area:99}; work its outer edge, where Jungle Fighters and Medicine Men stand, and loot the supply crates by the tents."] = "Kurzen asileri {area:99} kampının doğusundaki kampı tutuyor; Kurzen Jungle Fighter ve Kurzen Medicine Man yaratıklarının durduğu dış kenarda çalış ve çadırların yanındaki erzak sandıklarını yağmala.",
+	-- Step 12: Kurzen's Compound: kill these as you meet them
 	-- {item:2634} Venom Fern Extract · {object:263} Kurzen Supplies
 	["{item:2634}, from a {object:263} crate"] = "{item:2634}: bir {object:263} sandığından",
 
-	-- Step 17: Bookie Herod
-	-- {object:288} Bookie Herod's Strongbox
-	["{object:288}, below ground"] = "{object:288}, yer altında",
-
-	-- Step 19: Stranglethorn Vale: kill these as you meet them
-	-- {area:33} Stranglethorn Vale
-	["{area:33}: kill these as you meet them"] = "{area:33}: bunları karşılaştıkça öldür",
+	-- Step 14: Stranglethorn Vale: kill these as you meet them
+	-- {zone:1434} Stranglethorn Vale
 	["Careful: Troll camps are close to the tiger area, and trolls can join a fight if you pull carelessly.\nCareful: The raptor nest has young raptors that join the fight when you attack the adults."] = "Dikkat: Troll kampları kaplan alanına yakın, dikkatsizce çekersen troll'ler dövüşe katılabilir.\nDikkat: Raptor yuvasında, yetişkinlere saldırınca dövüşe katılan genç raptor'lar var.",
 
-	-- Step 20: Nesingwary's Expedition
+	-- Step 15: Level 34
+	["Level 34"] = "Seviye 34",
+	-- {npc:1085} Elder Stranglethorn Tiger
+	["grind on {npc:1085}"] = "Kas: {npc:1085}",
+
+	-- Step 16: Nesingwary's Expedition
 	-- {npc:716} Barnil Stonepot · {item:2755} Green Hills of Stranglethorn
 	["{npc:716} collects the {item:2755}: the pages drop from almost every humanoid in the jungle. Turn the pages into chapters as you go."] = "{npc:716}, {item:2755} topluyor: sayfalar ormandaki neredeyse her insansı yaratıktan düşer. Giderken sayfaları bölümlere dönüştür.",
 
-	-- Step 21: Shadowmaw Panther on the way
-	-- {npc:684} Shadowmaw Panther
-	["{npc:684} on the way"] = "Yol üstünde: {npc:684}",
-
-	-- Step 22: Sin'Dall and the Lashtail raptors
+	-- Step 17: Sin'Dall and the Lashtail raptors
 	-- {npc:729} Sin'Dall
 	["{npc:729} and the Lashtail raptors"] = "{npc:729} ve Lashtail raptorları",
-	-- {npc:729} Sin'Dall · {area:35} Booty Bay
+	-- {npc:729} Sin'Dall · {object:3204} Booty Bay (no name in this language: may be words)
 	-- plural, as words: Lashtail Raptors = {npc:686} Lashtail Raptor
-	["{npc:729}, the great tiger, lairs on the hilltop south-west of the camp; Lashtail Raptors run south of it, along the way to {area:35}."] = "Büyük kaplan {npc:729}, kampın güneybatısındaki tepenin üstünde inini kurmuş; Lashtail Raptor yaratıkları onun güneyinde, {area:35} yolu boyunca koşuyor.",
 
-	-- Step 23: Down to Booty Bay
-	-- {area:35} Booty Bay
-	["Down to {area:35}"] = "Aşağıya, {area:35} limanına",
-	-- {object:3202} Grom'gol (no name in this language: may be words) · {area:35} Booty Bay
-	["Follow the main road south the length of the jungle, past the {object:3202} turn-off, to {area:35} on the southern cape."] = "Ana yolu güneye, ormanın bir ucundan öbür ucuna izle; {object:3202} sapağını geçerek güney burnundaki {area:35} limanına git.",
+	-- Step 18: Down to Booty Bay
+	-- {object:3204} Booty Bay (no name in this language: may be words)
+	-- {object:3202} Grom'gol (no name in this language: may be words) · {object:3204} Booty Bay (no name in this language: may be words)
 	-- {npc:2495} Drizzlik
 	["{npc:2495}, by the bank; inside"] = "{npc:2495}, bankanın yanında; içeride",
 	-- {npc:2498} Crank Fizzlebub
@@ -103,118 +74,81 @@ return {
 	-- {npc:773} Krazek
 	["{npc:773}, in the tavern; upstairs"] = "{npc:773}, meyhanede; üst katta",
 	-- {npc:737} Kebok
-	["{npc:737}, upstairs"] = "{npc:737}, üst katta",
-	-- {npc:737} Kebok
 	["{npc:737}, in the tavern"] = "{npc:737}, meyhanede",
+	-- {npc:737} Kebok
+	-- plural, as words: Tumbled Crystals = {item:4106} Tumbled Crystal
+	["{npc:737}: the Tumbled Crystals, on the northern loop"] = "{npc:737}: kuzey turunda Tumbled Crystal taşları",
 	-- {npc:2496} Baron Revilgaz
 	["{npc:2496}, upstairs in the tavern"] = "{npc:2496}, meyhanenin üst katında",
 
-	-- Step 24: Fly to Sentinel Hill
-	-- {area:108} Sentinel Hill
-	["Fly to {area:108}"] = "Uç: {area:108}",
-	-- {area:35} Booty Bay
-	["{area:35} flight master"] = "{area:35} uçuş ustası",
+	-- Step 19: Fly to Sentinel Hill
+	-- {object:81} Sentinel Hill (no name in this language: may be words)
+	-- {object:3204} Booty Bay (no name in this language: may be words)
 
-	-- Step 26: The Savage Coast: kill these as you meet them
-	-- {area:301} The Savage Coast
-	["{area:301}: kill these as you meet them"] = "{area:301}: bunları karşılaştıkça öldür",
-	-- {area:310} Crystalvein Mine
+	-- Step 21: The Savage Coast: kill these as you meet them
+	-- {object:81} Sentinel Hill (no name in this language: may be words) · {zone:1436} Westfall
 	-- plural, as words: Crystal Spine Basilisks = {npc:689} Crystal Spine Basilisk
-	["Walk back north; the {area:310} lies west of the road in the middle of the jungle. The Crystal Spine Basilisks there drop the shards.\nThe Bloodscalp trolls hold the ruins on the coast west of Nesingwary's camp."] = "Kuzeye geri yürü; {area:310} madeni ormanın ortasında, yolun batısında. Oradaki Crystal Spine Basilisk yaratıkları kırıkları düşürür.\nBloodscalp troll'leri Nesingwary'nin kampının batısında, kıyıdaki harabeleri tutuyor.",
+	["The haunted island"] = "Lanetli ada",
 
-	-- Step 27: River crocolisks
+	-- Step 22: River crocolisks
 	["River crocolisks"] = "Nehir crocoliskleri",
-	-- {area:99} Rebel Camp
 	-- plural, as words: River Crocolisks = {npc:1150} River Crocolisk
-	["River Crocolisks swim the river by the {area:99}."] = "River Crocolisk yaratıkları {area:99} kampının yanındaki nehirde yüzüyor.",
 
-	-- Step 28: Private Thorsen
-	-- {area:99} Rebel Camp
-	["Thorsen patrols the road north of camp, toward the {area:99}."] = "Thorsen kampın kuzeyinde, {area:99} kampına doğru giden yolda devriye geziyor.",
+	-- Step 23: Private Thorsen
 
-	-- Step 29: Nesingwary's Expedition
+	-- Step 24: Nesingwary's Expedition
 	-- {quest:201} Investigate the Camp
 	["{quest:201}: just look around the hunters' camp"] = "{quest:201}: avcıların kampında biraz dolaşman yeterli",
 
-	-- Step 30: Hearth to Booty Bay
-	-- {area:35} Booty Bay
-	["Hearth to {area:35}"] = "Hearthstone ile {area:35} limanına dön",
-
-	-- Step 31: Booty Bay
+	-- Step 25: Booty Bay
 	-- {npc:2495} Drizzlik
 	["{npc:2495}, inside"] = "{npc:2495}, içeride",
+	-- {npc:2495} Drizzlik
+	-- plural, as words: Snapjaw Crocolisks = {npc:1152} Snapjaw Crocolisk
+	["{npc:2495}: the Snapjaw Crocolisks, on the northern loop"] = "{npc:2495}: kuzey turunda Snapjaw Crocolisk yaratıkları",
 	-- {npc:773} Krazek
 	["{npc:773}, upstairs"] = "{npc:773}, üst katta",
+	-- {npc:737} Kebok
+	["{npc:737}, upstairs"] = "{npc:737}, üst katta",
+	-- {npc:2496} Baron Revilgaz
+	["{npc:2496}: the water elementals rise around the haunted island, on the northern loop"] = "{npc:2496}: su elementalleri kuzey turunda, perili adanın çevresinde yükselir",
 
-	-- Step 32: Snapjaw Crocolisks
-	-- plural, as words: Snapjaw Crocolisks = {npc:1152} Snapjaw Crocolisk
-	["Snapjaw Crocolisks"] = "Snapjaw Crocolisk yaratıkları",
-	-- {area:35} Booty Bay
-	-- plural, as words: Snapjaw Crocolisks = {npc:1152} Snapjaw Crocolisk
-	["Snapjaw Crocolisks bask on the shore and islands along the coast north of {area:35}."] = "Snapjaw Crocolisk yaratıkları {area:35} limanının kuzeyinde, kıyıda ve adalarda güneşleniyor.",
+	-- Step 26: Fly to Stormwind
+	-- {zone:1453} Stormwind
+	["Fly to {zone:1453}"] = "{zone:1453} şehrine uç",
 
-	-- Step 34: Fly to Darkshire
-	-- {area:42} Darkshire
+	-- Step 28: Druid training
+	["Druid training"] = "Druid eğitimi",
+	-- {npc:5504} Sheldras Moontree · {zone:1453} Stormwind · {object:2101} Mage Quarter
+	["{npc:5504}, the druid trainer, stands in {zone:1453}, north-west of the {object:2101}."] = "Druid eğitmeni {npc:5504}, {zone:1453} şehrinde, {object:2101} semtinin kuzeybatısında duruyor.",
+
+	-- Step 30: Fly to Astranaar
+
+	-- Step 31: Heartswood
+	-- {quest:1738} Heartswood · {object:19863} Maestra's Post (no name in this language: may be words) · {quest:65602} What Is Love? · {item:190309} Wooden Figurine
+	-- {item:190309} Wooden Figurine · {object:19863} Maestra's Post (no name in this language: may be words)
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
 	["Fly to {area:42}"] = "{area:42} kasabasına uç",
-
-	-- Step 35: Into Stranglethorn Vale
-	-- {area:33} Stranglethorn Vale
-	["Into {area:33}"] = "{area:33} içine",
-
-	-- Step 37: Kurzen's Compound
-	-- {spell:7964} Smoke Bomb
-	-- plural, as words: Kurzen Commandos = {npc:938} Kurzen Commando
-	["Headshrinkers stand deeper in the compound; the Commandos lurk stealthed around it and in the cave. Pick up Green Hills pages as they drop.\nCareful: Kurzen Commandos are level 34-35, not elite, and often spawn stealthed; near death they use {spell:7964}."] = "Headshrinker'lar yerleşkenin daha içinde duruyor; Commando'lar çevresinde ve mağarada gizlenerek pusuda bekliyor. Green Hills sayfalarını düştükçe topla.\nDikkat: Kurzen Commando yaratıkları seviye 34-35, elit değil ve sık sık gizlenmiş olarak doğar; ölmek üzereyken {spell:7964} kullanırlar.",
-	-- {npc:941} Kurzen Headshrinker
-	["{npc:941}, below ground"] = "{npc:941}, yer altında",
-
-	-- Step 38: The jungle ruins
-	["The jungle ruins"] = "Orman harabeleri",
-	-- {area:37} Lake Nazferiti
-	-- plural, as words: Shadowmaw Panthers = {npc:684} Shadowmaw Panther · Tumbled Crystals = {item:4106} Tumbled Crystal
-	["Loop through the troll ruins of the north and centre: each holds one stone tablet of the troll legends. Shadowmaw Panthers prowl stealthed in the jungle around them; the Venture Co. camp on {area:37} carries the Tumbled Crystals."] = "Kuzeydeki ve ortadaki troll harabelerini tur halinde dolaş: her birinde troll efsanelerine ait bir taş tablet var. Shadowmaw Panther yaratıkları çevredeki ormanda gizlenerek dolaşıyor; Tumbled Crystal eşyalarını {area:37} gölündeki Venture Co. kampı taşıyor.",
-	-- {item:2006} The Second Troll Legend · {object:58} Gri'lek the Wanderer
-	["{item:2006}: {object:58}; underwater"] = "{item:2006}: {object:58}; su altında",
-
-	-- Step 39: The haunted island
-	["The haunted island"] = "Lanetli ada",
-	["Follow the west coast north; the haunted island lies off the shore west of Nesingwary's camp. Just reach it."] = "Batı kıyısını kuzeye izle; lanetli ada Nesingwary kampının batısında, kıyının açığında. Oraya ulaşman yeterli.",
-
-	-- Step 40: Stranglethorn Vale: kill these as you meet them
-	-- {npc:1096} Venture Co. Geologist
-	["grind on {npc:1096}"] = "Kas: {npc:1096}",
-
-	-- Step 41: Rebel Camp
-	-- {npc:770} Corporal Kaleb · {npc:773} Krazek · {area:35} Booty Bay
-	["{npc:770}: for {npc:773} in {area:35}"] = "{npc:770}: {area:35} limanındaki {npc:773} için",
-
-	-- Step 44: Jungle Stalker on the way
-	-- {npc:687} Jungle Stalker
-	["{npc:687} on the way"] = "Yol üstünde: {npc:687}",
-
-	-- Step 45: Skullsplitter trolls
-	["Skullsplitter trolls"] = "Skullsplitter trolları",
-	-- {object:3202} Grom'gol (no name in this language: may be words)
-	["The Skullsplitter trolls hold the ruins east of the road between Nesingwary and {object:3202}."] = "Skullsplitter trolları, Nesingwary ile {object:3202} arasında, yolun doğusundaki harabeleri tutuyor.",
-
-	-- Step 48: Booty Bay
-	-- {object:56910} The Salty Sailor Tavern
-	["{object:56910} is the tall building over the harbour; most of the quest givers are on its floors or the docks below."] = "{object:56910}, limana bakan yüksek bina; görev verenlerin çoğu onun katlarında ya da aşağıdaki iskelelerde.",
-	-- {zone:1417} Arathi Highlands
-	["The ore drops from Drywhisker kobolds in {zone:1417}"] = "Cevher {zone:1417} bölgesindeki Drywhisker koboldlarından düşer",
-	["\"Sea Wolf\" MacKinley, on the top floor"] = "\"Sea Wolf\" MacKinley, en üst katta",
-
-	-- Step 50: Into Westfall
-	-- {area:40} Westfall
-	["Into {area:40}"] = "{area:40} içine",
-
-	-- Step 52: Fly to Booty Bay
-	-- {area:35} Booty Bay
-	["Fly to {area:35}"] = "{area:35} limanına uç",
-	-- {area:108} Sentinel Hill
-	["{area:108} flight master"] = "{area:108} uçuş ustası",
-
-	-- Step 53: Baron Revilgaz
-	-- {zone:1416} Alterac Mountains
-	["For Archmage Ansirem in {zone:1416}"] = "{zone:1416} bölgesindeki Archmage Ansirem için",
+	["{area:150} flight master"] = "{area:150} uçuş ustası",
+	["From {zone:1431} take the road south into Stranglethorn; the hunters' tents stand just west of the road past the {area:99} turn-off."] = "{zone:1431} bölgesinden güneye giden yolu tutarak Stranglethorn'a gir; avcıların çadırları {area:99} sapağını geçince yolun hemen batısında.",
+	["The elder tigers come later, on the way back from the {area:99}"] = "Yaşlı kaplanlar daha sonra, {area:99} kampından dönerken",
+	["{area:101}: kill these as you meet them"] = "{area:101}: bunları karşılaştıkça öldür",
+	["The Kurzen rebels hold the camp east of the {area:99}; work its outer edge, where Jungle Fighters and Medicine Men stand, and loot the supply crates by the tents."] = "Kurzen asileri {area:99} kampının doğusundaki kampı tutuyor; Kurzen Jungle Fighter ve Kurzen Medicine Man yaratıklarının durduğu dış kenarda çalış ve çadırların yanındaki erzak sandıklarını yağmala.",
+	["{area:33}: kill these as you meet them"] = "{area:33}: bunları karşılaştıkça öldür",
+	["The quests from here on are 37: if you are short of 34, keep on the elder tigers in the hills south-west of Nesingwary's camp until level 34. Or, with a group, run the {area:796} dungeon (Library or Armory) instead."] = "Buradan sonraki görevler 37. seviye: 34'e ulaşmadıysan seviye 34 olana kadar Nesingwary'nin kampının güneybatısındaki tepelerde yaşlı kaplanları kasmaya devam et. Ya da grupla, bunun yerine {area:796} zindanına (Library ya da Armory) gir.",
+	["{npc:729}, the great tiger, lairs on the hilltop south-west of the camp; Lashtail Raptors run south of it, along the way to {area:35}."] = "Büyük kaplan {npc:729}, kampın güneybatısındaki tepenin üstünde inini kurmuş; Lashtail Raptor yaratıkları onun güneyinde, {area:35} yolu boyunca koşuyor.",
+	["Down to {area:35}"] = "Aşağıya, {area:35} limanına",
+	["Follow the main road south the length of the jungle, past the {object:3202} turn-off, to {area:35} on the southern cape."] = "Ana yolu güneye, ormanın bir ucundan öbür ucuna izle; {object:3202} sapağını geçerek güney burnundaki {area:35} limanına git.",
+	["Fly to {area:108}"] = "Uç: {area:108}",
+	["{area:35} flight master"] = "{area:35} uçuş ustası",
+	["{area:301}: kill these as you meet them"] = "{area:301}: bunları karşılaştıkça öldür",
+	["From {area:108} the way leads south out of {zone:1436} into Stranglethorn's north-west, to the {area:310} near the coast; the Crystal Spine Basilisks around it drop the shards.\nThe haunted island lies just off the coast south-west of the mine: just reach it. The Bloodscalp trolls hold the ruins on the coast to the north."] = "{area:108} tepesinden yol güneye, {zone:1436} bölgesinden çıkıp Stranglethorn'un kuzeybatısına, kıyıya yakın {area:310} madenine gider; çevresindeki Crystal Spine Basilisk yaratıkları parçaları düşürür.\nPerili ada, madenin güneybatısında, kıyının hemen açığında: oraya varman yeterli. Bloodscalp troll'leri kuzeydeki kıyı harabelerini tutuyor.",
+	["River Crocolisks swim the river by the {area:99}."] = "River Crocolisk yaratıkları {area:99} kampının yanındaki nehirde yüzüyor.",
+	["Thorsen patrols the road north of camp, toward the {area:99}."] = "Thorsen kampın kuzeyinde, {area:99} kampına doğru giden yolda devriye geziyor.",
+	["Fly to {area:415}"] = "Uç: {area:415}",
+	["{area:442} flight master"] = "{area:442} uçuş ustası",
+	["From {area:415} head north-west into the hills: the {quest:1738} is a glowing tree north of the road to {area:413}. If you took {quest:65602}, the {item:190309} lies in a house among the trees north of {area:413} (26.6,22.0). Then take the road west to Stonetalon."] = "{area:415} köyünden kuzeybatıya, tepelere git: {quest:1738}, {area:413} yolunun kuzeyinde parlayan bir ağaç. {quest:65602} görevini aldıysan {item:190309}, {area:413} karakolunun kuzeyinde, ağaçların arasındaki bir evde duruyor (26.6,22.0). Sonra batı yolundan Stonetalon'a git.",
+	["{item:190309}, north of {area:413}"] = "{item:190309}, {area:413} karakolunun kuzeyinde",
 }

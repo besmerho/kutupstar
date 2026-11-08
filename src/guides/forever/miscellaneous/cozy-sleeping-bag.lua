@@ -32,10 +32,7 @@ return {
 	["The note's \"twin land\" is {zone:1436}: the same burned-out campfire stands in western {zone:1436}."] = "Notun \"ikiz toprak\" dediği yer {zone:1436}: aynı sönmüş kamp ateşi {zone:1436} bölgesinin batısında duruyor.",
 
 	-- Step 5: Stonetalon Mountains
-	-- {area:460} Sun Rock Retreat · {zone:1442} Stonetalon Mountains · {object:424005} Pocket Litter
-	["The next hideout is a small camp in the hills north-west of {area:460}, in the middle of the {zone:1442}. Leave the road where a path climbs west into the hills and follow it to the camp; the {object:424005} lies on a crate beside its tent."] = "Sonraki saklanma yeri {zone:1442} bölgesinin ortasında, {area:460} kuzeybatısındaki tepelerde küçük bir kamp. Bir patikanın batıya, tepelere tırmandığı yerde yoldan ayrıl ve onu kampa kadar izle; {object:424005} çadırın yanındaki bir sandığın üzerinde duruyor.",
-	-- {area:1702} Honor's Stand
-	["The road west runs through {area:1702}, a Horde post; this way goes round it."] = "Batıya giden yol bir Horde karakolu olan {area:1702} içinden geçer; bu yol onun çevresinden dolanır.",
+	-- {object:19559} Sun Rock Retreat (no name in this language: may be words) · {zone:1442} Stonetalon Mountains · {object:424005} Pocket Litter
 	["North of Honor's Stand"] = "Honor's Stand'in kuzeyi",
 	["Path into the hills"] = "Tepelere çıkan patika",
 
@@ -47,14 +44,17 @@ return {
 	-- Step 7: The dam in Loch Modan
 	-- {zone:1432} Loch Modan
 	["The dam in {zone:1432}"] = "{zone:1432} bölgesindeki baraj",
-	-- {area:146} Stonewrought Dam
-	["The figurine is on a ledge just below the top of the {area:146}, on its north face. Step off slowly; walking backwards keeps you from overshooting the ledge."] = "Heykelcik {area:146} barajının tepesinin hemen altında, kuzey yüzündeki bir çıkıntıda. Yavaşça in; geri geri yürümek çıkıntıyı aşmanı önler.",
 
 	-- Step 8: Thoradin's Wall
-	-- {area:1057} Thoradin's Wall · {area:287} Hillsbrad
-	["At the gate in {area:1057} between Arathi and {area:287}, turn north and follow the wall on the {area:287} side to a fallen cart leaning against it. Jump up the cart and its ladder onto the wall, then over the rocks to the hidden camp. Some characters cannot fit under the cargo netting at the camp; another race or a smaller form gets through."] = "Arathi ile {area:287} arasındaki {area:1057} surundaki kapıda kuzeye dön ve duvarı {area:287} tarafından, ona yaslanmış devrik bir arabaya kadar izle. Arabadan ve merdiveninden duvara zıpla, sonra kayaların üzerinden gizli kampa geç. Bazı karakterler kamptaki kargo ağının altına sığmaz; başka bir ırk ya da daha küçük bir form geçer.",
 	["Fallen cart"] = "Devrik araba",
 
 	-- Step 9: The hidden camp
 	["The hidden camp"] = "Gizli kamp",
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["The next hideout is a small camp in the hills north-west of {area:460}, in the middle of the {zone:1442}. Leave the road where a path climbs west into the hills and follow it to the camp; the {object:424005} lies on a crate beside its tent."] = "Sonraki saklanma yeri {zone:1442} bölgesinin ortasında, {area:460} kuzeybatısındaki tepelerde küçük bir kamp. Bir patikanın batıya, tepelere tırmandığı yerde yoldan ayrıl ve onu kampa kadar izle; {object:424005} çadırın yanındaki bir sandığın üzerinde duruyor.",
+	["The road west runs through {area:1702}, a Horde post; this way goes round it."] = "Batıya giden yol bir Horde karakolu olan {area:1702} içinden geçer; bu yol onun çevresinden dolanır.",
+	["The figurine is on a ledge just below the top of the {area:146}, on its north face. Step off slowly; walking backwards keeps you from overshooting the ledge."] = "Heykelcik {area:146} barajının tepesinin hemen altında, kuzey yüzündeki bir çıkıntıda. Yavaşça in; geri geri yürümek çıkıntıyı aşmanı önler.",
+	["At the gate in {area:1057} between Arathi and {area:287}, turn north and follow the wall on the {area:287} side to a fallen cart leaning against it. Jump up the cart and its ladder onto the wall, then over the rocks to the hidden camp. Some characters cannot fit under the cargo netting at the camp; another race or a smaller form gets through."] = "Arathi ile {area:287} arasındaki {area:1057} surundaki kapıda kuzeye dön ve duvarı {area:287} tarafından, ona yaslanmış devrik bir arabaya kadar izle. Arabadan ve merdiveninden duvara zıpla, sonra kayaların üzerinden gizli kampa geç. Bazı karakterler kamptaki kargo ağının altına sığmaz; başka bir ırk ya da daha küçük bir form geçer.",
 }

@@ -4,33 +4,24 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Step 1: Nijel's Point
-	-- {area:460} Sun Rock Retreat · {area:465} Charred Vale · {zone:1443} Desolace · {area:608} Nijel's Point
-	["Follow the road west past {area:460} (Horde) and south-west through the {area:465} into {zone:1443}; {area:608} stands at the top of the pass."] = "Yolu batıya izleyerek {area:460} sığınağını (Horde) geç, güneybatıya, {area:465} vadisinden {zone:1443} bölgesine gir; {area:608} geçidin tepesinde.",
+	-- {object:19559} Sun Rock Retreat (no name in this language: may be words) · {object:19556} Charred Vale (no name in this language: may be words) · {zone:1443} Desolace · {object:176948} Nijel's Point (no name in this language: may be words)
 
 	-- Step 2: Malem chest
 	["Malem chest"] = "Malem sandığı",
-	-- {area:608} Nijel's Point
-	["The chest lies in the ruins south-west of {area:608}."] = "Sandık {area:608} karakolunun güneybatısındaki harabelerde duruyor.",
+	-- {object:176948} Nijel's Point (no name in this language: may be words)
 
 	-- Step 3: Sargeron
-	-- {area:603} Sargeron · {area:608} Nijel's Point
+	-- {object:176948} Nijel's Point (no name in this language: may be words)
 	-- plural, as words: Hatefury Rogues = {npc:4670} Hatefury Rogue · Hatefury Tricksters = {npc:4671} Hatefury Trickster
-	["The Hatefury satyrs hold the ruins of {area:603}, east of {area:608}.\nCareful: Hatefury Rogues spawn stealthed, and Hatefury Tricksters have a poison proc on their attacks."] = "Hatefury satyr'ları {area:608} karakolunun doğusundaki {area:603} harabelerini tutuyor.\nDikkat: Hatefury Rogue yaratıkları gizlenmiş olarak doğar, Hatefury Trickster yaratıklarının saldırıları da zehirleyebilir.",
 
-	-- Step 5: Aged Kodo Hide on the way
-	-- {item:6249} Aged Kodo Hide
-	["{item:6249} on the way"] = "Yol üstünde: {item:6249}",
+	-- Step 6: Azore Aldamort
+	-- {npc:11863} Azore Aldamort
 
-	-- Step 7: Azore Aldamort
-	-- {npc:11863} Azore Aldamort · {area:599} Thunder Axe Fortress
-	["{npc:11863}'s tower stands on the hill west of {area:599}: take his quest first, the sceptre he wants is in the fortress."] = "{npc:11863} adlı NPC'nin kulesi {area:599} kalesinin batısındaki tepede: önce onun görevini al, istediği asa kalenin içinde.",
-
-	-- Step 8: Dalinda Malem
-	-- {npc:5644} Dalinda Malem · {area:608} Nijel's Point
-	["{npc:5644} hides inside the Burning Blade's fortress south-west of {area:608}."] = "{npc:5644}, {area:608} karakolunun güneybatısındaki Burning Blade kalesinin içinde saklanıyor.",
+	-- Step 7: Dalinda Malem
+	-- {npc:5644} Dalinda Malem · {object:176948} Nijel's Point (no name in this language: may be words)
 	["Inside"] = "İçeride",
 
-	-- Step 9: Tyranis Malem and the Seer
+	-- Step 8: Tyranis Malem and the Seer
 	-- {npc:5643} Tyranis Malem
 	["{npc:5643} and the Seer"] = "{npc:5643} ve Seer",
 	-- {npc:5643} Tyranis Malem · {npc:13019} Burning Blade Seer
@@ -40,50 +31,41 @@ return {
 	-- {quest:5741} Sceptre of Light
 	["{quest:5741}; on the top floor"] = "{quest:5741}; en üst katta",
 
-	-- Step 10: Escort Dalinda Malem
+	-- Step 9: Escort Dalinda Malem
 	-- {npc:5644} Dalinda Malem
 	["Escort {npc:5644}"] = "{npc:5644} adlı NPC'ye eşlik et",
 	-- {npc:5644} Dalinda Malem
 	["{npc:5644}, inside"] = "{npc:5644}, içeride",
 	["Out of Thunder Axe Fortress"] = "Thunder Axe Fortress'tan çıkış",
-	-- {npc:5644} Dalinda Malem · {npc:5642} Vahlarriel Demonslayer · {area:608} Nijel's Point
-	["Lead {npc:5644} out of the fortress; she walks off once you are clear of it. {npc:5642} takes the turn-in at {area:608} at the end of the guide."] = "{npc:5644} adlı NPC'yi kaleden çıkar; kaleden uzaklaşınca kendi yoluna gider. Rehberin sonunda teslimi {area:608} karakolundaki {npc:5642} alır.",
+	-- {npc:5644} Dalinda Malem · {npc:5642} Vahlarriel Demonslayer · {object:176948} Nijel's Point (no name in this language: may be words)
 
-	-- Step 11: Smeed Scrabblescrew
-	-- {npc:11596} Smeed Scrabblescrew · {area:609} Kolkar Village · {area:596} Kodo Graveyard
-	["{npc:11596}'s camp is on the road south of {area:609}, by the {area:596}."] = "{npc:11596} kampı {area:609} köyünün güneyinde, yolun üzerinde, {area:596} mezarlığının yanında.",
+	-- Step 10: Smeed Scrabblescrew
+	-- {npc:11596} Smeed Scrabblescrew
 
-	-- Step 12: Kodo Graveyard
+	-- Step 11: Kodo Graveyard
 	-- {npc:11596} Smeed Scrabblescrew · {item:13892} Kodo Kombobulator · {npc:4700} Aged Kodo
-	-- plural, as words: Aged Kodos = {npc:4700} Aged Kodo
-	["Use {npc:11596}'s {item:13892} on an {npc:4700} and walk the tamed kodo back to his camp, five times; Aged Kodos also drop the hides."] = "{npc:11596} adlı NPC'nin {item:13892} eşyasını bir {npc:4700} üzerinde kullan ve evcilleşen kodoyu onun kampına götür; bunu beş kez yap. Postları da Aged Kodo yaratıkları düşürür.",
+	-- plural, as words: Aged Kodos = {npc:4700} Aged Kodo · Scorpashi Lashers = {npc:4697} Scorpashi Lasher
+	["Use {npc:11596}'s {item:13892} on an {npc:4700} and walk the tamed kodo back to his camp. There, talk to the kodo: that counts it and lets you tame the next. Five kodos, one at a time; Aged Kodos also drop the hides, and the Scorpashi Lashers that hunt around the graveyard carry the venom."] = "{npc:11596} adlı NPC'nin {item:13892} eşyasını bir {npc:4700} üzerinde kullan ve evcilleşen kodo'yu onun kampına yürüt. Orada kodo ile konuş: bu onu sayar ve sonrakini evcilleştirmeni sağlar. Beş kodo, birer birer; Aged Kodo yaratıkları deri de düşürür, mezarlığın çevresinde avlanan Scorpashi Lasher yaratıkları da zehri taşır.",
 
-	-- Step 14: Scorpashi venom
-	["Scorpashi venom"] = "Scorpashi zehri",
-	-- {area:2407} Kormek's Hut
-	["The Scorpashi scorpids hunt the hills around {area:2407} on the road south."] = "Scorpashi scorpidleri, güneye giden yolda {area:2407} kulübesinin çevresindeki tepelerde avlanıyor.",
+	-- Step 13: Kolkar Village
+	-- {npc:5752} Corporal Melkins
 
-	-- Step 16: Kolkar Village
-	-- {area:609} Kolkar Village · {npc:5752} Corporal Melkins
+	-- Step 15: Fly to Auberdine
+	-- {object:176948} Nijel's Point (no name in this language: may be words)
+
+	-- Step 16: Boat to Stormwind Harbor
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["Follow the road west past {area:460} (Horde) and south-west through the {area:465} into {zone:1443}; {area:608} stands at the top of the pass."] = "Yolu batıya izleyerek {area:460} sığınağını (Horde) geç, güneybatıya, {area:465} vadisinden {zone:1443} bölgesine gir; {area:608} geçidin tepesinde.",
+	["The chest lies in the ruins south-west of {area:608}."] = "Sandık {area:608} karakolunun güneybatısındaki harabelerde duruyor.",
+	["The Hatefury satyrs hold the ruins of {area:603}, east of {area:608}.\nCareful: Hatefury Rogues spawn stealthed, and Hatefury Tricksters have a poison proc on their attacks."] = "Hatefury satyr'ları {area:608} karakolunun doğusundaki {area:603} harabelerini tutuyor.\nDikkat: Hatefury Rogue yaratıkları gizlenmiş olarak doğar, Hatefury Trickster yaratıklarının saldırıları da zehirleyebilir.",
+	["{npc:11863}'s tower stands on the hill west of {area:599}: take his quest first, the sceptre he wants is in the fortress."] = "{npc:11863} adlı NPC'nin kulesi {area:599} kalesinin batısındaki tepede: önce onun görevini al, istediği asa kalenin içinde.",
+	["{npc:5644} hides inside the Burning Blade's fortress south-west of {area:608}."] = "{npc:5644}, {area:608} karakolunun güneybatısındaki Burning Blade kalesinin içinde saklanıyor.",
+	["Lead {npc:5644} out of the fortress; she walks off once you are clear of it. {npc:5642} takes the turn-in at {area:608} at the end of the guide."] = "{npc:5644} adlı NPC'yi kaleden çıkar; kaleden uzaklaşınca kendi yoluna gider. Rehberin sonunda teslimi {area:608} karakolundaki {npc:5642} alır.",
+	["{npc:11596}'s camp is on the road south of {area:609}, by the {area:596}."] = "{npc:11596} kampı {area:609} köyünün güneyinde, yolun üzerinde, {area:596} mezarlığının yanında.",
 	["The Kolkar roam the plains around {area:609}; their ears are for {npc:5752}."] = "Kolkar'lar {area:609} köyünün çevresindeki düzlüklerde dolaşıyor; kulakları {npc:5752} için.",
-
-	-- Step 17: Hearth to Nijel's Point
-	-- {area:608} Nijel's Point
-	["Hearth to {area:608}"] = "Hearthstone ile dön: {area:608}",
-
-	-- Step 19: Fly to Astranaar
-	-- {area:415} Astranaar
-	["Fly to {area:415}"] = "Uç: {area:415}",
-	-- {area:608} Nijel's Point
+	["Fly to {area:442}"] = "Uç: {area:442}",
 	["{area:608} flight master"] = "{area:608} uçuş ustası",
-
-	-- Step 20: Delgren the Purifier
-	-- {area:415} Astranaar · {area:413} Maestra's Post
-	["Follow the road west out of {area:415}; {area:413} lies north of it."] = "Yolu batıya izleyerek {area:415} kasabasından çık; {area:413} yolun kuzeyinde.",
-
-	-- Step 21: Heartswood
-	-- {area:415} Astranaar · {quest:1738} Heartswood · {area:413} Maestra's Post · {quest:65602} What Is Love? · {item:190309} Wooden Figurine · {area:1276} Talondeep Path
-	["From {area:415} head north-west into the hills: the {quest:1738} is a glowing tree north of the road to {area:413}. If you took {quest:65602}, the {item:190309} lies in a house among the trees north of {area:413} (26.6,22.0). Then back past {area:415} to the {area:1276}."] = "{area:415} kasabasından kuzeybatıya, tepelere git: {quest:1738}, {area:413} karakoluna giden yolun kuzeyindeki parlayan bir ağaç. {quest:65602} görevini aldıysan {item:190309}, {area:413} karakolunun kuzeyinde ağaçların arasındaki bir evde (26.6,22.0). Sonra {area:415} kasabasını geçerek {area:1276} tüneline dön.",
-	-- {item:190309} Wooden Figurine · {area:413} Maestra's Post
-	["{item:190309}, north of {area:413}"] = "{item:190309}, {area:413} karakolunun kuzeyinde",
+	["Boat to {area:17203}"] = "Gemiyle: {area:17203}",
 }

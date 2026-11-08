@@ -10,28 +10,23 @@ return {
 	-- Step 1: Gakin's Summons (Gnomes)
 	-- {quest:1717} Gakin's Summons
 	["{quest:1717} (Gnomes)"] = "{quest:1717} (Gnome'lar)",
-	-- {npc:6120} Lago Blackwrench · {zone:1455} Ironforge · {object:32383} Forlorn Cavern · {npc:6122} Gakin the Darkbinder · {zone:1453} Stormwind · {area:2257} Deeprun Tram
-	["At 20 {npc:6120}, the warlock trainer in {zone:1455}'s {object:32383}, sends you to {npc:6122} in {zone:1453}. Take the {area:2257}."] = "20'de {zone:1455} şehrinin {object:32383} kesimindeki warlock eğitmeni {npc:6120}, seni {zone:1453} şehrindeki {npc:6122} yanına gönderir. {area:2257} ile git.",
+	-- {npc:6120} Lago Blackwrench · {zone:1455} Ironforge · {object:32383} Forlorn Cavern · {npc:6122} Gakin the Darkbinder · {zone:1453} Stormwind
 
 	-- Step 2: Devourer of Souls
-	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6244} Takar the Seer · {zone:1413} Barrens · {area:150} Menethil Harbor · {zone:1445} Dustwallow Marsh · {area:35} Booty Bay · {area:392} Ratchet
-	["At 20 {npc:6122}, in the cellar of the {object:2164} in the {object:2101}, sends you to {npc:6244} in the {zone:1413}: a long trip for the Alliance. Take the boat from {area:150} to Theramore and head west through {zone:1445}, or the boat from {area:35} to {area:392}."] = "20'de {object:2101} kesimindeki {object:2164} mahzeninde duran {npc:6122}, seni {zone:1413} bölgesindeki {npc:6244} yanına gönderir: Alliance için uzun bir yol. {area:150} limanından Theramore'a gemiye bin ve batıya, {zone:1445} içinden git, ya da {area:35} kasabasından {area:392} kasabasına gemiye bin.",
+	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6244} Takar the Seer · {zone:1413} Barrens · {object:1162} Menethil Harbor (no name in this language: may be words) · {zone:1445} Dustwallow Marsh · {object:3204} Booty Bay (no name in this language: may be words)
 
 	-- Step 3: Takar the Seer
-	-- {npc:6244} Takar the Seer · {area:378} Camp Taurajo · {npc:6247} Doan Karhan · {item:6898} Orb of Soran'ruk
-	["{npc:6244} camps at a tent with a campfire just north-east of {area:378}, by a fork in the road: Horde ground, so come in from the east and keep clear of the Taurajo guards. {npc:6247} beside him starts the {item:6898}. Takar offers both branches: take both."] = "{npc:6244}, {area:378} kampının hemen kuzeydoğusunda, bir yol çatalının yanında kamp ateşli bir çadırda kalıyor: Horde toprağı, bu yüzden doğudan gel ve Taurajo muhafızlarından uzak dur. Yanındaki {npc:6247} {item:6898} görevini başlatır. Takar iki kolu da öneriyor: ikisini de al.",
+	-- {npc:6244} Takar the Seer · {npc:6247} Doan Karhan · {item:6898} Orb of Soran'ruk
 	["the succubus"] = "Succubus",
 	["the incubus"] = "Incubus",
 
 	-- Step 4: Heartswood
-	-- {zone:1440} Ashenvale · {area:415} Astranaar · {zone:1439} Darkshore · {quest:1738} Heartswood · {npc:6122} Gakin the Darkbinder
-	["Ordil'Aran lies in north-west {zone:1440}, north of {area:415} along the road toward {zone:1439}. About twenty Dark Strand cultists hold the ruins around the great tree: keep to the outer wall, and click the {quest:1738} from as far away as it lets you. It is turned in to {npc:6122}, not to Takar."] = "Ordil'Aran, kuzeybatı {zone:1440} bölgesinde, {area:415} kasabasının kuzeyinde, {zone:1439} yönündeki yol boyunca. Büyük ağacın çevresindeki harabeleri yirmi kadar Dark Strand tarikatçısı tutuyor: dış duvarda kal ve {quest:1738} nesnesine izin verdiği en uzak yerden tıkla. Takar'a değil, {npc:6122} yanına teslim edilir.",
+	-- {zone:1440} Ashenvale · {zone:1439} Darkshore · {quest:1738} Heartswood · {npc:6122} Gakin the Darkbinder
 
 	-- Step 5: The Wooden Figurine
 	-- {item:190309} Wooden Figurine
 	["The {item:190309}"] = "{item:190309}",
-	-- {zone:1440} Ashenvale · {area:413} Maestra's Post · {quest:1738} Heartswood · {item:190307} Unlit Torch · {object:29784} Basic Campfire · {area:414} Zoram Strand · {item:190308} Burning Torch
-	["The house stands alone in the trees of north-western {zone:1440}, north-west of Ordil'Aran and well north of {area:413}: do it on the same trip as the {quest:1738}. Take the {item:190307} from the table outside, light it at a campfire (a {object:29784} of your own, or Talen's fire on {area:414}), and go straight back: the {item:190308} burns out after five minutes, so a fire of your own beside the house is quickest. Without it the figure in the house stops you. The figurine is upstairs."] = "Ev, kuzeybatı {zone:1440} bölgesinin ağaçları arasında, Ordil'Aran'ın kuzeybatısında ve {area:413} karakolunun epey kuzeyinde tek başına duruyor: {quest:1738} ile aynı yolculukta yap. Dışarıdaki masadan {item:190307} al, bir kamp ateşinde yak (kendi {object:29784} ateşin ya da {area:414} kıyısındaki Talen'in ateşi) ve doğruca geri dön: {item:190308} beş dakika sonra söner, bu yüzden evin yanında yakacağın kendi ateşin en hızlısı. O olmadan evdeki figür seni durdurur. Heykelcik üst katta.",
+	-- {zone:1440} Ashenvale · {object:19863} Maestra's Post (no name in this language: may be words) · {quest:1738} Heartswood · {item:190307} Unlit Torch · {object:29784} Basic Campfire · {item:190308} Burning Torch
 	-- {item:190307} Unlit Torch
 	["{item:190307}, on the table outside"] = "{item:190307}, dışarıdaki masada",
 	-- {item:190309} Wooden Figurine
@@ -52,4 +47,12 @@ return {
 	["Give Gakin the figurine, then use the {item:190309} at the middle of the same circle and defeat the incubus it calls (level 20, not elite; it can charm you) with your voidwalker tanking. Keep the figurine: {npc:6122} takes it back."] = "Heykelciği Gakin'e ver, sonra {item:190309} eşyasını aynı çemberin ortasında kullan ve çağırdığı incubus'u (seviye 20, elit değil; seni etki altına alabilir) voidwalker'ın tank olurken yen. Heykelciği sakla: {npc:6122} geri alır.",
 	-- {npc:185335} Summoned Incubus
 	["{npc:185335}, at the circle in the crypt"] = "{npc:185335}, mahzendeki çemberde",
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["At 20 {npc:6120}, the warlock trainer in {zone:1455}'s {object:32383}, sends you to {npc:6122} in {zone:1453}. Take the {area:2257}."] = "20'de {zone:1455} şehrinin {object:32383} kesimindeki warlock eğitmeni {npc:6120}, seni {zone:1453} şehrindeki {npc:6122} yanına gönderir. {area:2257} ile git.",
+	["At 20 {npc:6122}, in the cellar of the {object:2164} in the {object:2101}, sends you to {npc:6244} in the {zone:1413}: a long trip for the Alliance. Take the boat from {area:150} to Theramore and head west through {zone:1445}, or the boat from {area:35} to {area:392}."] = "20'de {object:2101} kesimindeki {object:2164} mahzeninde duran {npc:6122}, seni {zone:1413} bölgesindeki {npc:6244} yanına gönderir: Alliance için uzun bir yol. {area:150} limanından Theramore'a gemiye bin ve batıya, {zone:1445} içinden git, ya da {area:35} kasabasından {area:392} kasabasına gemiye bin.",
+	["{npc:6244} camps at a tent with a campfire just north-east of {area:378}, by a fork in the road: Horde ground, so come in from the east and keep clear of the Taurajo guards. {npc:6247} beside him starts the {item:6898}. Takar offers both branches: take both."] = "{npc:6244}, {area:378} kampının hemen kuzeydoğusunda, bir yol çatalının yanında kamp ateşli bir çadırda kalıyor: Horde toprağı, bu yüzden doğudan gel ve Taurajo muhafızlarından uzak dur. Yanındaki {npc:6247} {item:6898} görevini başlatır. Takar iki kolu da öneriyor: ikisini de al.",
+	["Ordil'Aran lies in north-west {zone:1440}, north of {area:415} along the road toward {zone:1439}. About twenty Dark Strand cultists hold the ruins around the great tree: keep to the outer wall, and click the {quest:1738} from as far away as it lets you. It is turned in to {npc:6122}, not to Takar."] = "Ordil'Aran, kuzeybatı {zone:1440} bölgesinde, {area:415} kasabasının kuzeyinde, {zone:1439} yönündeki yol boyunca. Büyük ağacın çevresindeki harabeleri yirmi kadar Dark Strand tarikatçısı tutuyor: dış duvarda kal ve {quest:1738} nesnesine izin verdiği en uzak yerden tıkla. Takar'a değil, {npc:6122} yanına teslim edilir.",
+	["The house stands alone in the trees of north-western {zone:1440}, north-west of Ordil'Aran and well north of {area:413}: do it on the same trip as the {quest:1738}. Take the {item:190307} from the table outside, light it at a campfire (a {object:29784} of your own, or Talen's fire on {area:414}), and go straight back: the {item:190308} burns out after five minutes, so a fire of your own beside the house is quickest. Without it the figure in the house stops you. The figurine is upstairs."] = "Ev, kuzeybatı {zone:1440} bölgesinin ağaçları arasında, Ordil'Aran'ın kuzeybatısında ve {area:413} karakolunun epey kuzeyinde tek başına duruyor: {quest:1738} ile aynı yolculukta yap. Dışarıdaki masadan {item:190307} al, bir kamp ateşinde yak (kendi {object:29784} ateşin ya da {area:414} kıyısındaki Talen'in ateşi) ve doğruca geri dön: {item:190308} beş dakika sonra söner, bu yüzden evin yanında yakacağın kendi ateşin en hızlısı. O olmadan evdeki figür seni durdurur. Heykelcik üst katta.",
 }

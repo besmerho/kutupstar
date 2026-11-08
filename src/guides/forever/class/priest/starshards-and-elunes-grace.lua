@@ -10,20 +10,17 @@ return {
 	["The Night Elf priest spells: {spell:10797} at 10, {spell:2651} at 20. Free, no objectives."] = "Night Elf priest büyüleri: 10'da {spell:10797}, 20'de {spell:2651}. Ücretsiz, hedefsiz.",
 
 	-- Step 1: Starshards: Laurna Morninglight
-	-- {npc:3600} Laurna Morninglight · {area:186} Dolanaar · {quest:5628} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus
-	["At 10, {npc:3600}, the priest trainer in the building at the north edge of {area:186}, hands you {quest:5628}, a letter for {npc:11401} in {zone:1457}. {area:186} is on the road west to {zone:1457}."] = "10'da {area:186} köyünün kuzey kenarındaki binada bulunan priest eğitmeni {npc:3600}, sana {zone:1457} şehrindeki {npc:11401} için bir mektup olan {quest:5628} görevini verir. {area:186}, batıya {zone:1457} şehrine giden yolun üstünde.",
+	-- {npc:3600} Laurna Morninglight · {quest:5628} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus
 	-- {npc:3600} Laurna Morninglight · {quest:5628} Returning Home
 	["{npc:3600}: take {quest:5628}"] = "{npc:3600}: {quest:5628} görevini al",
 
 	-- Step 2: Starshards: Priestess Josetta
-	-- {zone:1429} Elwynn Forest · {npc:377} Priestess Josetta · {area:87} Goldshire · {quest:5628} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus
-	["At 10 in {zone:1429}, {npc:377}, upstairs in the Lion's Pride Inn in {area:87}, hands you {quest:5628}, a letter for {npc:11401} in {zone:1457}."] = "10'da {zone:1429} bölgesinde, {area:87} kasabasındaki Lion's Pride Inn'in üst katında duran {npc:377}, sana {zone:1457} şehrindeki {npc:11401} için bir mektup olan {quest:5628} görevini verir.",
+	-- {zone:1429} Elwynn Forest · {npc:377} Priestess Josetta · {quest:5628} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus
 	-- {npc:377} Priestess Josetta · {quest:5628} Returning Home
 	["{npc:377}: take {quest:5628}"] = "{npc:377}: {quest:5628} görevini al",
 
 	-- Step 3: Starshards: Maxan Anvol
-	-- {zone:1426} Dun Morogh · {npc:1226} Maxan Anvol · {area:2102} Thunderbrew Distillery · {area:131} Kharanos · {quest:5628} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus
-	["At 10 in {zone:1426}, {npc:1226}, the priest trainer inside the {area:2102} in {area:131}, hands you {quest:5628}, a letter for {npc:11401} in {zone:1457}."] = "10'da {zone:1426} bölgesinde, {area:131} köyündeki {area:2102} içinde bulunan priest eğitmeni {npc:1226}, sana {zone:1457} şehrindeki {npc:11401} için bir mektup olan {quest:5628} görevini verir.",
+	-- {zone:1426} Dun Morogh · {npc:1226} Maxan Anvol · {quest:5628} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus
 	-- {npc:1226} Maxan Anvol · {quest:5628} Returning Home
 	["{npc:1226}: take {quest:5628}"] = "{npc:1226}: {quest:5628} görevini al",
 
@@ -46,38 +43,32 @@ return {
 	-- Step 7: Starshards: Laurna Morninglight's letter
 	-- {spell:10797} Starshards · {npc:3600} Laurna Morninglight
 	["{spell:10797}: {npc:3600}'s letter"] = "{spell:10797}: mektup ({npc:3600})",
-	-- {area:186} Dolanaar · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {npc:11401} Priestess Alathea · {quest:5629} Returning Home · {spell:10797} Starshards
-	["Take the road west from {area:186} into {zone:1457} and go up to the upper balcony of the Temple of the Moon, beside {npc:7999}: {npc:11401} takes {quest:5629} and teaches {spell:10797}."] = "Yolu {area:186} köyünden batıya, {zone:1457} şehrine izle ve Temple of the Moon'un üst balkonuna, {npc:7999} yanına çık: {npc:11401} {quest:5629} görevini alır ve {spell:10797} öğretir.",
+	-- {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {npc:11401} Priestess Alathea · {quest:5629} Returning Home · {spell:10797} Starshards
 
 	-- Step 8: Starshards: Josetta's letter
 	-- {spell:10797} Starshards
 	["{spell:10797}: Josetta's letter"] = "{spell:10797}: Josetta'nın mektubu",
-	-- {quest:5628} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {area:17203} Stormwind Harbor · {area:150} Menethil Harbor · {area:442} Auberdine · {area:702} Rut'theran Village
-	["{quest:5628} goes to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: take the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "{quest:5628}, {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} yanına gider: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemiye, oradan {area:702} köyüne gemiye bin, sonra portalla yukarı, {zone:1457} şehrine çık.",
+	-- {quest:5628} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {object:1162} Menethil Harbor (no name in this language: may be words)
 
 	-- Step 9: Starshards: Maxan Anvol's letter
 	-- {spell:10797} Starshards · {npc:1226} Maxan Anvol
 	["{spell:10797}: {npc:1226}'s letter"] = "{spell:10797}: mektup ({npc:1226})",
-	-- {quest:5630} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {area:17203} Stormwind Harbor · {area:150} Menethil Harbor · {area:442} Auberdine · {area:702} Rut'theran Village
-	["{quest:5630} goes to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: take the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "{quest:5630}, {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} yanına gider: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemiye, oradan {area:702} köyüne gemiye bin, sonra portalla yukarı, {zone:1457} şehrine çık.",
+	-- {quest:5630} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {object:1162} Menethil Harbor (no name in this language: may be words)
 
 	-- Step 10: Starshards: Joshua's letter
 	-- {spell:10797} Starshards
 	["{spell:10797}: Joshua's letter"] = "{spell:10797}: Joshua'nın mektubu",
-	-- {quest:5631} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {area:17203} Stormwind Harbor · {area:150} Menethil Harbor · {area:442} Auberdine · {area:702} Rut'theran Village
-	["{quest:5631} goes to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: take the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "{quest:5631}, {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} yanına gider: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemiye, oradan {area:702} köyüne gemiye bin, sonra portalla yukarı, {zone:1457} şehrine çık.",
+	-- {quest:5631} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {object:1162} Menethil Harbor (no name in this language: may be words)
 
 	-- Step 11: Starshards: Nara's letter
 	-- {spell:10797} Starshards
 	["{spell:10797}: Nara's letter"] = "{spell:10797}: Nara'nın mektubu",
-	-- {quest:5632} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {area:17203} Stormwind Harbor · {area:150} Menethil Harbor · {area:442} Auberdine · {area:702} Rut'theran Village
-	["{quest:5632} goes to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: take the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "{quest:5632}, {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} yanına gider: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemiye, oradan {area:702} köyüne gemiye bin, sonra portalla yukarı, {zone:1457} şehrine çık.",
+	-- {quest:5632} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {object:1162} Menethil Harbor (no name in this language: may be words)
 
 	-- Step 12: Starshards: Braenna Flintcrag's letter
 	-- {spell:10797} Starshards · {npc:5142} Braenna Flintcrag
 	["{spell:10797}: {npc:5142}'s letter"] = "{spell:10797}: mektup ({npc:5142})",
-	-- {quest:5633} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {area:17203} Stormwind Harbor · {area:150} Menethil Harbor · {area:442} Auberdine · {area:702} Rut'theran Village
-	["{quest:5633} goes to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: take the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "{quest:5633}, {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} yanına gider: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemiye, oradan {area:702} köyüne gemiye bin, sonra portalla yukarı, {zone:1457} şehrine çık.",
+	-- {quest:5633} Returning Home · {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {object:1162} Menethil Harbor (no name in this language: may be words)
 
 	-- Step 13: Elune's Grace: High Priestess Laurena
 	-- {zone:1453} Stormwind · {npc:376} High Priestess Laurena · {spell:2651} Elune's Grace · {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:11397} Nara Meideros
@@ -98,18 +89,30 @@ return {
 	-- Step 16: Elune's Grace: Laurena's letter
 	-- {quest:5673} Elune's Grace
 	["{quest:5673}: Laurena's letter"] = "{quest:5673}: Laurena'nın mektubu",
-	-- {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {area:17203} Stormwind Harbor · {area:150} Menethil Harbor · {area:442} Auberdine · {area:702} Rut'theran Village
-	["Hand Laurena's letter to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "Laurena'nın mektubunu {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} ile teslim et: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemi, oradan {area:702} köyüne gemi, sonra portalla yukarı, {zone:1457} şehrine.",
+	-- {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {object:1162} Menethil Harbor (no name in this language: may be words)
 
 	-- Step 17: Elune's Grace: Nara's letter
 	-- {quest:5674} Elune's Grace
 	["{quest:5674}: Nara's letter"] = "{quest:5674}: Nara'nın mektubu",
-	-- {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {area:17203} Stormwind Harbor · {area:150} Menethil Harbor · {area:442} Auberdine · {area:702} Rut'theran Village
-	["Hand Nara's letter to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "Nara'nın mektubunu {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} ile teslim et: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemi, oradan {area:702} köyüne gemi, sonra portalla yukarı, {zone:1457} şehrine.",
+	-- {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {object:1162} Menethil Harbor (no name in this language: may be words)
 
 	-- Step 18: Elune's Grace: Rohan's letter
 	-- {quest:5675} Elune's Grace
 	["{quest:5675}: Rohan's letter"] = "{quest:5675}: Rohan'ın mektubu",
-	-- {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {area:17203} Stormwind Harbor · {area:150} Menethil Harbor · {area:442} Auberdine · {area:702} Rut'theran Village
+	-- {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {object:1162} Menethil Harbor (no name in this language: may be words)
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["At 10, {npc:3600}, the priest trainer in the building at the north edge of {area:186}, hands you {quest:5628}, a letter for {npc:11401} in {zone:1457}. {area:186} is on the road west to {zone:1457}."] = "10'da {area:186} köyünün kuzey kenarındaki binada bulunan priest eğitmeni {npc:3600}, sana {zone:1457} şehrindeki {npc:11401} için bir mektup olan {quest:5628} görevini verir. {area:186}, batıya {zone:1457} şehrine giden yolun üstünde.",
+	["At 10 in {zone:1429}, {npc:377}, upstairs in the Lion's Pride Inn in {area:87}, hands you {quest:5628}, a letter for {npc:11401} in {zone:1457}."] = "10'da {zone:1429} bölgesinde, {area:87} kasabasındaki Lion's Pride Inn'in üst katında duran {npc:377}, sana {zone:1457} şehrindeki {npc:11401} için bir mektup olan {quest:5628} görevini verir.",
+	["At 10 in {zone:1426}, {npc:1226}, the priest trainer inside the {area:2102} in {area:131}, hands you {quest:5628}, a letter for {npc:11401} in {zone:1457}."] = "10'da {zone:1426} bölgesinde, {area:131} köyündeki {area:2102} içinde bulunan priest eğitmeni {npc:1226}, sana {zone:1457} şehrindeki {npc:11401} için bir mektup olan {quest:5628} görevini verir.",
+	["Take the road west from {area:186} into {zone:1457} and go up to the upper balcony of the Temple of the Moon, beside {npc:7999}: {npc:11401} takes {quest:5629} and teaches {spell:10797}."] = "Yolu {area:186} köyünden batıya, {zone:1457} şehrine izle ve Temple of the Moon'un üst balkonuna, {npc:7999} yanına çık: {npc:11401} {quest:5629} görevini alır ve {spell:10797} öğretir.",
+	["{quest:5628} goes to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: take the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "{quest:5628}, {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} yanına gider: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemiye, oradan {area:702} köyüne gemiye bin, sonra portalla yukarı, {zone:1457} şehrine çık.",
+	["{quest:5630} goes to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: take the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "{quest:5630}, {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} yanına gider: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemiye, oradan {area:702} köyüne gemiye bin, sonra portalla yukarı, {zone:1457} şehrine çık.",
+	["{quest:5631} goes to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: take the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "{quest:5631}, {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} yanına gider: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemiye, oradan {area:702} köyüne gemiye bin, sonra portalla yukarı, {zone:1457} şehrine çık.",
+	["{quest:5632} goes to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: take the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "{quest:5632}, {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} yanına gider: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemiye, oradan {area:702} köyüne gemiye bin, sonra portalla yukarı, {zone:1457} şehrine çık.",
+	["{quest:5633} goes to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: take the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "{quest:5633}, {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} yanına gider: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemiye, oradan {area:702} köyüne gemiye bin, sonra portalla yukarı, {zone:1457} şehrine çık.",
+	["Hand Laurena's letter to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "Laurena'nın mektubunu {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} ile teslim et: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemi, oradan {area:702} köyüne gemi, sonra portalla yukarı, {zone:1457} şehrine.",
+	["Hand Nara's letter to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "Nara'nın mektubunu {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} ile teslim et: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemi, oradan {area:702} köyüne gemi, sonra portalla yukarı, {zone:1457} şehrine.",
 	["Hand Rohan's letter to {npc:11401}, on the upper balcony of the Temple of the Moon in {zone:1457}, beside {npc:7999}: the boat from {area:17203} (or {area:150}) to {area:442}, the boat on to {area:702}, then the portal up into {zone:1457}."] = "Rohan'ın mektubunu {zone:1457} şehrindeki Temple of the Moon'un üst balkonunda {npc:7999} yanında duran {npc:11401} ile teslim et: {area:17203} (ya da {area:150}) limanından {area:442} kasabasına gemi, oradan {area:702} köyüne gemi, sonra portalla yukarı, {zone:1457} şehrine.",
 }

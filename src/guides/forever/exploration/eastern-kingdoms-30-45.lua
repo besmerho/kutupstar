@@ -11,24 +11,19 @@ return {
 	-- {zone:1416} Alterac Mountains · {zone:1424} Hillsbrad Foothills · {zone:1434} Stranglethorn Vale
 	["Starts in the {zone:1416}, north of {zone:1424}, and ends in {zone:1434}. 15 areas to discover here, levels 27-39."] = "{zone:1424} bölgesinin kuzeyindeki {zone:1416} bölgesinde başlar ve {zone:1434} bölgesinde biter. Burada keşfedilecek 15 alan var, seviye 27-39.",
 	["Exploring the entire world map on one character is a Forever Legacy Challenge (1 account-wide Legacy Point)."] = "Tek bir karakterle tüm dünya haritasını keşfetmek bir Forever Legacy Challenge'ı (hesap geneli 1 Legacy Point).",
-	-- {area:271} Southshore · {zone:1424} Hillsbrad Foothills · {zone:1416} Alterac Mountains
-	["Fly to {area:271} in {zone:1424} and walk north into the {zone:1416}."] = "{zone:1424} bölgesindeki {area:271} kasabasına uç ve kuzeye, {zone:1416} bölgesine yürü.",
-	-- {area:272} Tarren Mill · {zone:1424} Hillsbrad Foothills · {zone:1416} Alterac Mountains
-	["Fly to {area:272} in {zone:1424} and walk north into the {zone:1416}."] = "{zone:1424} bölgesindeki {area:272} kasabasına uç ve kuzeye, {zone:1416} bölgesine yürü.",
+	-- {zone:1424} Hillsbrad Foothills · {zone:1416} Alterac Mountains
+	-- {object:1772} Tarren Mill (no name in this language: may be words) · {zone:1424} Hillsbrad Foothills · {zone:1416} Alterac Mountains
 	["any one of these names counts"] = "bu adlardan herhangi biri sayılır",
+
+	-- Step 2: Alterac Mountains (2/2)
 
 	-- Step 3: Arathi Highlands (1/2)
 	["16 areas to discover here, levels 30-40."] = "Burada keşfedilecek 16 alan var, seviye 30-40.",
 	-- {zone:1417} Arathi Highlands · {zone:1416} Alterac Mountains · {zone:1424} Hillsbrad Foothills
 	["The {zone:1417} lie east of the {zone:1416} and {zone:1424}."] = "{zone:1417}, {zone:1416} ve {zone:1424} bölgelerinin doğusunda.",
-	-- {area:320} Refuge Pointe · {area:321} Hammerfall
-	["{area:320} in the middle is the Alliance town; {area:321} in the east is Horde."] = "Ortadaki {area:320} Alliance kasabası; doğudaki {area:321} Horde.",
-	-- {area:321} Hammerfall · {area:320} Refuge Pointe
-	["{area:321} in the east is the Horde town; {area:320} in the middle is Alliance."] = "Doğudaki {area:321} Horde kasabası; ortadaki {area:320} Alliance.",
-	-- {area:320} Refuge Pointe · {npc:2835} Cedrik Prose
-	["Flight path here: {area:320} ({npc:2835})."] = "Uçuş noktası: {area:320} ({npc:2835}).",
-	-- {area:321} Hammerfall
-	["Flight path here: {area:321} (Urda)."] = "Uçuş noktası: {area:321} (Urda).",
+	-- {object:2685} Refuge Pointe (no name in this language: may be words)
+	-- {object:2685} Refuge Pointe (no name in this language: may be words)
+	-- {object:2685} Refuge Pointe (no name in this language: may be words) · {npc:2835} Cedrik Prose
 	["Alliance town: Horde characters only need to touch its edge (guards)"] = "Alliance kasabası: Horde karakterlerinin yalnızca kenarına dokunması yeterli (muhafızlar)",
 
 	-- Step 4: Arathi Highlands (2/2)
@@ -37,41 +32,29 @@ return {
 
 	-- Step 5: Badlands (1/2)
 	["14 areas to discover here, levels 36-45."] = "Burada keşfedilecek 14 alan var, seviye 36-45.",
-	-- {area:880} Thandol Span · {zone:1437} Wetlands · {object:1668} Dun Algaz (no name in this language: may be words) · {zone:1432} Loch Modan · {zone:1418} Badlands
-	["Cross the {area:880} south into the {zone:1437}, go through the {object:1668} pass into {zone:1432} and take the road south out of {zone:1432} into the {zone:1418}."] = "{area:880} köprüsünü güneye geçip {zone:1437} bölgesine gir, {object:1668} geçidinden {zone:1432} bölgesine geç ve güneye giden yoldan {zone:1432} bölgesinden çıkıp {zone:1418} bölgesine gir.",
-	-- {area:144} Thelsamar · {zone:1432} Loch Modan
-	["Faster: fly to {area:144} in {zone:1432}."] = "Daha hızlısı: {zone:1432} bölgesindeki {area:144} kasabasına uç.",
-	-- {area:340} Kargath
-	["{area:340} in the west is the Horde town."] = "Batıdaki {area:340} Horde kasabası.",
-	-- {area:340} Kargath
-	["Flight path here: {area:340} (Gorrik)."] = "Uçuş noktası: {area:340} (Gorrik).",
+	-- {object:2673} Thandol Span (no name in this language: may be words) · {zone:1437} Wetlands · {object:1668} Dun Algaz (no name in this language: may be words) · {zone:1432} Loch Modan · {zone:1418} Badlands
+	-- {zone:1432} Loch Modan
+
+	-- Step 6: Badlands (2/2)
 
 	-- Step 7: Riverglades (1/2)
-	-- {area:16724} Farholde Keep · {area:16743} Rog'mar
-	["14 areas to discover here, levels 36-44. Flight paths: {area:16724} in the south-east (Alliance), {area:16743} in the middle (Horde)."] = "Burada keşfedilecek 14 alan var, seviye 36-44. Uçuş noktaları: güneydoğuda {area:16724} (Alliance), ortada {area:16743} (Horde).",
-	-- {zone:1418} Badlands · {area:345} Agmond's End · {zone:2548} Riverglades · {area:16685} Twilight's Shroud · {area:2417} Blackrock Pass · {area:977} Steamwheedle Port · {zone:1446} Tanaris · {area:16727} Powderfuse Port · {area:17780} Krol'dok Stronghold
-	["From the south of the {zone:1418}, past {area:345}, a way leads down into the {zone:2548} by {area:16685}. (The {zone:2548} also open off northern Redridge through {area:2417}, and a ship runs from {area:977} in {zone:1446} to {area:16727}, the neutral goblin port on its coast.) {area:17780} is an ogre clan's outdoor dungeon."] = "{zone:1418} bölgesinin güneyinden, {area:345} kesimini geçince bir yol {area:16685} yanında {zone:2548} bölgesine iner. ({zone:2548} ayrıca Redridge'in kuzeyinden {area:2417} üzerinden de açılır ve {zone:1446} bölgesindeki {area:977} limanından kıyısındaki tarafsız goblin limanı {area:16727} limanına bir gemi işler.) {area:17780} bir ogre klanının açık hava zindanı.",
+	-- {zone:1418} Badlands · {zone:2548} Riverglades · {object:151975} Steamwheedle Port (no name in this language: may be words) · {zone:1446} Tanaris
+
+	-- Step 8: Riverglades (2/2)
 
 	-- Step 9: Swamp of Sorrows (1/2)
 	["11 areas to discover here, levels 36-43."] = "Burada keşfedilecek 11 alan var, seviye 36-43.",
-	-- {zone:1435} Swamp of Sorrows · {zone:2548} Riverglades · {area:16725} Wheeler's Grange · {area:16737} Bristle Hills
-	["The {zone:1435} lies south of the {zone:2548}: swim south from {area:16725}, or walk through Redridge Pass, south of the {area:16737}."] = "{zone:1435}, {zone:2548} bölgesinin güneyinde: {area:16725} kesiminden güneye yüz ya da {area:16737} güneyindeki Redridge Pass'ten yürü.",
-	-- {area:75} Stonard
-	["{area:75} is the Horde town."] = "{area:75} Horde kasabası.",
-	-- {area:75} Stonard
-	["Flight path here: {area:75} (Breyk)."] = "Uçuş noktası: {area:75} (Breyk).",
+	-- {zone:1435} Swamp of Sorrows · {zone:2548} Riverglades
+
+	-- Step 10: Swamp of Sorrows (2/2)
 
 	-- Step 11: Stranglethorn Vale (1/4)
-	-- {area:35} Booty Bay · {area:392} Ratchet
-	["27 areas to discover here, levels 30-50. {area:35} at the southern tip is a neutral goblin port with a boat to {area:392}."] = "Burada keşfedilecek 27 alan var, seviye 30-50. Güney ucundaki {area:35}, {area:392} kasabasına gemisi olan tarafsız bir goblin limanı.",
+	-- {object:3204} Booty Bay (no name in this language: may be words)
 	-- {zone:1435} Swamp of Sorrows · {zone:1430} Deadwind Pass · {zone:1431} Duskwood · {zone:1434} Stranglethorn Vale
 	["Ride west out of the {zone:1435} through {zone:1430} (level 50+ creatures off the road) into {zone:1431} and take the road south into northern {zone:1434}."] = "{zone:1435} bölgesinden batıya, {zone:1430} üzerinden (yol dışında seviye 50+ yaratıklar) {zone:1431} bölgesine sür ve güneye giden yolla {zone:1434} bölgesinin kuzeyine gir.",
-	-- {zone:1454} Orgrimmar · {zone:1458} Undercity · {area:117} Grom'gol Base Camp
-	["Or take the zeppelin from {zone:1454} or the {zone:1458} to {area:117}."] = "Ya da {zone:1454} ya da {zone:1458} şehrinden zeplinle {area:117} kampına geç.",
-	-- {area:35} Booty Bay
-	["Flight path here: {area:35} (Gyll)."] = "Uçuş noktası: {area:35} (Gyll).",
-	-- {area:35} Booty Bay · {object:3202} Grom'gol (no name in this language: may be words)
-	["Flight paths here: {area:35} (Gringer), {object:3202} (Thysta)."] = "Uçuş noktaları: {area:35} (Gringer), {object:3202} (Thysta).",
+	-- {zone:1454} Orgrimmar · {zone:1458} Undercity
+	-- {object:3204} Booty Bay (no name in this language: may be words)
+	-- {object:3204} Booty Bay (no name in this language: may be words) · {object:3202} Grom'gol (no name in this language: may be words)
 	["free-for-all PvP inside the arena ring"] = "arena halkasının içinde herkese açık PvP",
 
 	-- Step 12: Stranglethorn Vale (2/4)
@@ -79,4 +62,28 @@ return {
 
 	-- Step 13: Stranglethorn Vale (3/4)
 	["elite ogres: discover it from the edge"] = "elit ogrelar: kenarından keşfet",
+
+	-- Step 14: Stranglethorn Vale (4/4)
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["Fly to {area:271} in {zone:1424} and walk north into the {zone:1416}."] = "{zone:1424} bölgesindeki {area:271} kasabasına uç ve kuzeye, {zone:1416} bölgesine yürü.",
+	["Fly to {area:272} in {zone:1424} and walk north into the {zone:1416}."] = "{zone:1424} bölgesindeki {area:272} kasabasına uç ve kuzeye, {zone:1416} bölgesine yürü.",
+	["{area:320} in the middle is the Alliance town; {area:321} in the east is Horde."] = "Ortadaki {area:320} Alliance kasabası; doğudaki {area:321} Horde.",
+	["{area:321} in the east is the Horde town; {area:320} in the middle is Alliance."] = "Doğudaki {area:321} Horde kasabası; ortadaki {area:320} Alliance.",
+	["Flight path here: {area:320} ({npc:2835})."] = "Uçuş noktası: {area:320} ({npc:2835}).",
+	["Flight path here: {area:321} (Urda)."] = "Uçuş noktası: {area:321} (Urda).",
+	["Cross the {area:880} south into the {zone:1437}, go through the {object:1668} pass into {zone:1432} and take the road south out of {zone:1432} into the {zone:1418}."] = "{area:880} köprüsünü güneye geçip {zone:1437} bölgesine gir, {object:1668} geçidinden {zone:1432} bölgesine geç ve güneye giden yoldan {zone:1432} bölgesinden çıkıp {zone:1418} bölgesine gir.",
+	["Faster: fly to {area:144} in {zone:1432}."] = "Daha hızlısı: {zone:1432} bölgesindeki {area:144} kasabasına uç.",
+	["{area:340} in the west is the Horde town."] = "Batıdaki {area:340} Horde kasabası.",
+	["Flight path here: {area:340} (Gorrik)."] = "Uçuş noktası: {area:340} (Gorrik).",
+	["14 areas to discover here, levels 36-44. Flight paths: {area:16724} in the south-east (Alliance), {area:16743} in the middle (Horde)."] = "Burada keşfedilecek 14 alan var, seviye 36-44. Uçuş noktaları: güneydoğuda {area:16724} (Alliance), ortada {area:16743} (Horde).",
+	["From the south of the {zone:1418}, past {area:345}, a way leads down into the {zone:2548} by {area:16685}. (The {zone:2548} also open off northern Redridge through {area:2417}, and a ship runs from {area:977} in {zone:1446} to {area:16727}, the neutral goblin port on its coast.) {area:17780} is an ogre clan's outdoor dungeon."] = "{zone:1418} bölgesinin güneyinden, {area:345} kesimini geçince bir yol {area:16685} yanında {zone:2548} bölgesine iner. ({zone:2548} ayrıca Redridge'in kuzeyinden {area:2417} üzerinden de açılır ve {zone:1446} bölgesindeki {area:977} limanından kıyısındaki tarafsız goblin limanı {area:16727} limanına bir gemi işler.) {area:17780} bir ogre klanının açık hava zindanı.",
+	["The {zone:1435} lies south of the {zone:2548}: swim south from {area:16725}, or walk through Redridge Pass, south of the {area:16737}."] = "{zone:1435}, {zone:2548} bölgesinin güneyinde: {area:16725} kesiminden güneye yüz ya da {area:16737} güneyindeki Redridge Pass'ten yürü.",
+	["{area:75} is the Horde town."] = "{area:75} Horde kasabası.",
+	["Flight path here: {area:75} (Breyk)."] = "Uçuş noktası: {area:75} (Breyk).",
+	["27 areas to discover here, levels 30-50. {area:35} at the southern tip is a neutral goblin port with a boat to {area:392}."] = "Burada keşfedilecek 27 alan var, seviye 30-50. Güney ucundaki {area:35}, {area:392} kasabasına gemisi olan tarafsız bir goblin limanı.",
+	["Or take the zeppelin from {zone:1454} or the {zone:1458} to {area:117}."] = "Ya da {zone:1454} ya da {zone:1458} şehrinden zeplinle {area:117} kampına geç.",
+	["Flight path here: {area:35} (Gyll)."] = "Uçuş noktası: {area:35} (Gyll).",
+	["Flight paths here: {area:35} (Gringer), {object:3202} (Thysta)."] = "Uçuş noktaları: {area:35} (Gringer), {object:3202} (Thysta).",
 }

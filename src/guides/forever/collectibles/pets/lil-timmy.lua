@@ -10,6 +10,9 @@ return {
 	["{item:8489}, 60s"] = "{item:8489}, 60s",
 
 	-- Step 2: Xaphod Bizznox
-	-- {npc:7386} White Kitten · {npc:262471} Xaphod Bizznox · {area:2539} Malaka'jin · {zone:1442} Stonetalon Mountains · {zone:1413} Barrens
+	-- {npc:7386} White Kitten · {npc:262471} Xaphod Bizznox · {zone:1442} Stonetalon Mountains · {zone:1413} Barrens
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
 	["Horde players buy the {npc:7386} (60s) from {npc:262471}, a trader new in Forever, at {area:2539}, the Darkspear camp at the southern tip of {zone:1442}, on the way up from the {zone:1413}. Each pet item teaches its companion when you use it; the goal stays ticked afterwards."] = "Horde oyuncuları {npc:7386} kedisini (60s) Forever'da yeni bir tüccar olan {npc:262471} yanından alır; {zone:1413} bölgesinden yukarı çıkan yolda, {zone:1442} bölgesinin güney ucundaki Darkspear kampı {area:2539} içinde. Her evcil hayvan eşyası kullanınca yoldaşını öğretir; hedef sonrasında da işaretli kalır.",
 }

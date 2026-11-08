@@ -12,30 +12,23 @@ return {
 	["48 {skill:164}, {skill:165} and {skill:197} patterns"] = "48 {skill:164}, {skill:165} ve {skill:197} kalıbı",
 
 	-- Step 1: Skyboat from Dalaran
-	-- {area:279} Dalaran
-	["Skyboat from {area:279}"] = "{area:279} şehrinden gök gemisi",
-	-- {zone:2521} Zephras Isle · {area:279} Dalaran · {zone:1456} Thunder Bluff
-	["{zone:2521} is the Skyborne starting island, open to everyone. A skyboat leaves the north side of {area:279} about every five minutes; another flies from north of {zone:1456}, and either faction may take either."] = "{zone:2521}, herkese açık Skyborne başlangıç adası. {area:279} kuzey yakasından yaklaşık beş dakikada bir bir skyboat kalkar; bir diğeri {zone:1456} kuzeyinden uçar ve iki taraf da ikisine binebilir.",
+	-- {zone:2521} Zephras Isle · {zone:1456} Thunder Bluff
 	-- {zone:2521} Zephras Isle
 	["Skyboat to {zone:2521}"] = "Gök gemisiyle {zone:2521} adasına",
 
 	-- Step 2: Skyboat from Thunder Bluff
 	-- {zone:1456} Thunder Bluff
 	["Skyboat from {zone:1456}"] = "{zone:1456} şehrinden gök gemisi",
-	-- {zone:2521} Zephras Isle · {area:17045} Skywatcher Plateau · {zone:1456} Thunder Bluff · {area:279} Dalaran
-	["{zone:2521} is the Skyborne starting island, open to everyone. A skyboat leaves the cliffs south of {area:17045}, north of {zone:1456}, about every five minutes; another flies from {area:279}, and either faction may take either."] = "{zone:2521}, herkese açık Skyborne başlangıç adası. {zone:1456} kuzeyinde, {area:17045} güneyindeki yamaçlardan yaklaşık beş dakikada bir bir skyboat kalkar; bir diğeri {area:279} kasabasından uçar ve iki taraf da ikisine binebilir.",
+	-- {zone:2521} Zephras Isle · {zone:1456} Thunder Bluff
 
 	-- Step 3: Lotheluum Starbreeze
-	-- {npc:252359} Lotheluum Starbreeze · {area:16638} Valanaar
-	["{npc:252359} stands in {area:16638}, the Skyborne town in the south of the isle, and has heard nothing from the druids up north. His errand is the start of the Nightclaw storyline (level 8 and up, any race). Every quest of it pays Nightclaw reputation: 4100 in all, enough for Friendly. Come early: in Classic a quest pays less once you are 6 levels above it, a fifth at most from 9 levels up, and these are level 11 to 13 quests."] = "{npc:252359}, adanın güneyindeki Skyborne kasabası olan {area:16638} içinde duruyor ve kuzeydeki druid'lerden hiç haber alamamış. Ayak işi, Nightclaw hikâyesinin başlangıcı (seviye 8 ve üstü, her ırk). Hikâyenin her görevi Nightclaw itibarı öder: toplam 4100, Friendly için yeterli. Erken gel: Classic'te bir görev 6 seviye üstüne çıkınca daha az öder, 9 seviye üstünden itibaren en çok beşte bir, bunlar da seviye 11 ila 13 görevleri.",
+	-- {npc:252359} Lotheluum Starbreeze
 
 	-- Step 4: Elegael Thornpaw
-	-- {area:16631} Shadowgale Forest · {npc:257944} Elegael Thornpaw
-	["Head north into the {area:16631}. {npc:257944} holds the druids' camp in its north-east."] = "Kuzeye, {area:16631} içine git. {npc:257944}, druid'lerin kampını orada kuzeydoğuda tutuyor.",
+	-- {npc:257944} Elegael Thornpaw
 
 	-- Step 5: Vayn Moongaze
-	-- {npc:254151} Vayn Moongaze · {npc:257944} Elegael Thornpaw · {area:16720} Nightclaw Cavern
-	["{npc:254151}, the druids' quartermaster, waits inside their den: the cave just across the clearing north-east of {npc:257944} ({area:16720} on the map; {npc:257944} calls it the Nightfang Den). Take his ear quest now: the cultists you fight for {npc:257944} drop ears for it."] = "Druid'lerin levazımcısı {npc:254151}, inlerinin içinde bekliyor: {npc:257944} kuzeydoğusundaki açıklığın hemen karşısındaki mağara (haritada {area:16720}; {npc:257944} ona Nightfang Den diyor). Kulak görevini şimdi al: {npc:257944} için dövüştüğün tarikatçılar onun için kulak düşürür.",
+	-- {npc:254151} Vayn Moongaze · {npc:257944} Elegael Thornpaw
 
 	-- Step 6: Shadowgale Forest
 	-- {npc:257944} Elegael Thornpaw · {item:265105} Lady's Tear Moss
@@ -63,21 +56,14 @@ return {
 	["1000 reputation"] = "1000 itibar",
 
 	-- Step 10: Ears at the Shrine of Akir
-	-- {area:16629} Shrine of Akir
-	["Ears at the {area:16629}"] = "{area:16629} kesiminde kulaklar",
-	-- {area:16629} Shrine of Akir · {area:16626} Gustberry Lowlands · {area:16638} Valanaar
 	-- plural, as words: Honor Guards = {npc:3083} Honor Guard
-	["The best ears are south of the forest at the {area:16629}: Skypriests drop one in more than half their kills, Guardians in four of ten, Spiritcallers and Honor Guards in a third. The {area:16626} just north-west of {area:16638} are next best (Brawlers and Pillagers, about four in ten). All cultists are level 8 to 10."] = "En iyi kulaklar ormanın güneyinde, {area:16629} kesiminde: Skypriest'ler öldürmelerinin yarısından fazlasında, Guardian'lar ondan dördünde, Spiritcaller ve Honor Guard'lar üçte birinde bir tane düşürür. {area:16638} kuzeybatısındaki {area:16626} ikinci en iyisi (Brawler ve Pillager'lar, yaklaşık ondan dördü). Bütün tarikatçılar seviye 8 ila 10.",
 
 	-- Step 11: Mercy Falls on Deaf Ears
 	-- {npc:254151} Vayn Moongaze
 	["Back to {npc:254151} inside the den. Ten ears for 1000 reputation and a green piece: leather gloves, cloth pants or mail boots. {npc:254151} then takes ears five at a time, for 1000 each, as often as you like, up to level 18; in Classic the pay drops from level 19 and is 200 from level 22. The Legacy perk Diplomat adds up to 10% to every gain."] = "İnin içindeki {npc:254151} yanına dön. 1000 itibar ve yeşil bir parça için on kulak: leather eldiven, cloth pantolon ya da mail bot. Sonra {npc:254151} kulakları beşer beşer alır, her biri 1000 karşılığında, istediğin kadar sık, seviye 18'e kadar; Classic'te ödeme seviye 19'dan düşer ve seviye 22'den itibaren 200 olur. Legacy yeteneği Diplomat her kazanca %10'a kadar ekler.",
 
 	-- Step 12: Back to Valanaar
-	-- {area:16638} Valanaar
-	["Back to {area:16638}"] = "{area:16638} kasabasına dön",
-	-- {npc:252359} Lotheluum Starbreeze · {area:16638} Valanaar · {area:16626} Gustberry Lowlands
-	["{npc:252359} waits in {area:16638}. Hand in on your way to a skyboat or to the {area:16626}."] = "{npc:252359}, {area:16638} içinde bekliyor. Bir skyboat'a ya da {area:16626} kesimine giderken teslim et.",
+	-- {npc:252359} Lotheluum Starbreeze
 
 	-- Step 13: Friendly to Honored
 	["Friendly to Honored"] = "Friendly → Honored",
@@ -105,4 +91,16 @@ return {
 	["The {item:280363}"] = "{item:280363}",
 	-- {item:280363} Nightclaw Mantle
 	["Exalted opens the {item:280363}, green cloth shoulders for level 15, for 8s 16c."] = "Exalted, seviye 15 için yeşil cloth omuzluk {item:280363} eşyasını 8s 16c karşılığında açar.",
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["Skyboat from {area:279}"] = "{area:279} şehrinden gök gemisi",
+	["{zone:2521} is the Skyborne starting island, open to everyone. A skyboat leaves the north side of {area:279} about every five minutes; another flies from north of {zone:1456}, and either faction may take either."] = "{zone:2521}, herkese açık Skyborne başlangıç adası. {area:279} kuzey yakasından yaklaşık beş dakikada bir bir skyboat kalkar; bir diğeri {zone:1456} kuzeyinden uçar ve iki taraf da ikisine binebilir.",
+	["{zone:2521} is the Skyborne starting island, open to everyone. A skyboat leaves the cliffs south of {area:17045}, north of {zone:1456}, about every five minutes; another flies from {area:279}, and either faction may take either."] = "{zone:2521}, herkese açık Skyborne başlangıç adası. {zone:1456} kuzeyinde, {area:17045} güneyindeki yamaçlardan yaklaşık beş dakikada bir bir skyboat kalkar; bir diğeri {area:279} kasabasından uçar ve iki taraf da ikisine binebilir.",
+	["{npc:252359} stands in {area:16638}, the Skyborne town in the south of the isle, and has heard nothing from the druids up north. His errand is the start of the Nightclaw storyline (level 8 and up, any race). Every quest of it pays Nightclaw reputation: 4100 in all, enough for Friendly. Come early: in Classic a quest pays less once you are 6 levels above it, a fifth at most from 9 levels up, and these are level 11 to 13 quests."] = "{npc:252359}, adanın güneyindeki Skyborne kasabası olan {area:16638} içinde duruyor ve kuzeydeki druid'lerden hiç haber alamamış. Ayak işi, Nightclaw hikâyesinin başlangıcı (seviye 8 ve üstü, her ırk). Hikâyenin her görevi Nightclaw itibarı öder: toplam 4100, Friendly için yeterli. Erken gel: Classic'te bir görev 6 seviye üstüne çıkınca daha az öder, 9 seviye üstünden itibaren en çok beşte bir, bunlar da seviye 11 ila 13 görevleri.",
+	["Head north into the {area:16631}. {npc:257944} holds the druids' camp in its north-east."] = "Kuzeye, {area:16631} içine git. {npc:257944}, druid'lerin kampını orada kuzeydoğuda tutuyor.",
+	["{npc:254151}, the druids' quartermaster, waits inside their den: the cave just across the clearing north-east of {npc:257944} ({area:16720} on the map; {npc:257944} calls it the Nightfang Den). Take his ear quest now: the cultists you fight for {npc:257944} drop ears for it."] = "Druid'lerin levazımcısı {npc:254151}, inlerinin içinde bekliyor: {npc:257944} kuzeydoğusundaki açıklığın hemen karşısındaki mağara (haritada {area:16720}; {npc:257944} ona Nightfang Den diyor). Kulak görevini şimdi al: {npc:257944} için dövüştüğün tarikatçılar onun için kulak düşürür.",
+	["Ears at the {area:16629}"] = "{area:16629} kesiminde kulaklar",
+	["The best ears are south of the forest at the {area:16629}: Skypriests drop one in more than half their kills, Guardians in four of ten, Spiritcallers and Honor Guards in a third. The {area:16626} just north-west of {area:16638} are next best (Brawlers and Pillagers, about four in ten). All cultists are level 8 to 10."] = "En iyi kulaklar ormanın güneyinde, {area:16629} kesiminde: Skypriest'ler öldürmelerinin yarısından fazlasında, Guardian'lar ondan dördünde, Spiritcaller ve Honor Guard'lar üçte birinde bir tane düşürür. {area:16638} kuzeybatısındaki {area:16626} ikinci en iyisi (Brawler ve Pillager'lar, yaklaşık ondan dördü). Bütün tarikatçılar seviye 8 ila 10.",
+	["Back to {area:16638}"] = "{area:16638} kasabasına dön",
+	["{npc:252359} waits in {area:16638}. Hand in on your way to a skyboat or to the {area:16626}."] = "{npc:252359}, {area:16638} içinde bekliyor. Bir skyboat'a ya da {area:16626} kesimine giderken teslim et.",
 }

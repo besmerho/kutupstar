@@ -14,10 +14,9 @@ return {
 	["{npc:4752}, riding trainer"] = "{npc:4752}, binicilik eğitmeni",
 
 	-- Step 2: Wolf Riding for other races
-	-- {spell:825} Wolf Riding
-	["{spell:825} for other races"] = "{spell:825}, diğer ırklar için",
-	-- {spell:825} Wolf Riding · {skill:762} Riding · {npc:4752} Kildar · {faction:76} Orgrimmar
-	["Any Horde race can buy these wolves, but riding one also takes {spell:825}, which only Orcs get with {skill:762}. {npc:4752} teaches it to other races once they are Exalted with {faction:76} (the Orgrimmar Reputation guide shows the way). Until then, don't buy a wolf for this character."] = "Her Horde ırkı bu kurtları alabilir, ama birine binmek ayrıca yalnızca Orc'ların {skill:762} ile aldığı {spell:825} ister. {npc:4752}, {faction:76} ile Exalted olunca bunu diğer ırklara da öğretir (yolu Orgrimmar itibar rehberi gösterir). O zamana kadar bu karakter için kurt alma.",
+	-- {skill:762} Riding
+	-- {skill:762} Riding · {npc:4752} Kildar · {faction:76} Orgrimmar
+	-- {npc:4752} Kildar
 
 	-- Step 3: Pick a colour
 	["Pick a colour"] = "Bir renk seç",
@@ -31,4 +30,9 @@ return {
 	["{item:5668}, 20g"] = "{item:5668}, 20g",
 	-- {item:1041} Horn of the Black Wolf
 	["{item:1041} is in the client (20g) but our data has no vendor selling it."] = "{item:1041} istemcide var (20g), ama verimizde onu satan bir satıcı yok.",
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["{spell:825} for other races"] = "{spell:825}, diğer ırklar için",
+	["Any Horde race can buy these wolves, but riding one also takes {spell:825}, which only Orcs get with {skill:762}. {npc:4752} teaches it to other races once they are Exalted with {faction:76} (the Orgrimmar Reputation guide shows the way). Until then, don't buy a wolf for this character."] = "Her Horde ırkı bu kurtları alabilir, ama birine binmek ayrıca yalnızca Orc'ların {skill:762} ile aldığı {spell:825} ister. {npc:4752}, {faction:76} ile Exalted olunca bunu diğer ırklara da öğretir (yolu Orgrimmar itibar rehberi gösterir). O zamana kadar bu karakter için kurt alma.",
 }

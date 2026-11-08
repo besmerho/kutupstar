@@ -14,14 +14,20 @@ return {
 	-- {skill:356} Fishing · {skill:185} Cooking
 	["Fish here until skill 50, about 50 catches: below 75 every catch raises the skill. Cast {skill:356} from your spellbook, click the bobber when it splashes. Keep the fish: they are your first {skill:185} ingredients. Fish get away here below skill 25; a lure on the pole adds to your skill for ten minutes and closes the gap."] = "Beceri 50 olana kadar burada balık tut, yaklaşık 50 av: 75'in altında her av beceriyi artırır. {skill:356} becerisini büyü kitabından kullan, şamandıra sıçrayınca ona tıkla. Balıkları sakla: ilk {skill:185} malzemelerin onlar. Burada beceri 25'in altındayken balık kaçar; oltadaki bir yem on dakika boyunca becerine ekler ve farkı kapatır.",
 
+	-- Step 3: Fishing: Dun Morogh (1-50)
+
+	-- Step 4: Fishing: Teldrassil (1-50)
+
 	-- Step 5: Fishing: Zephras Isle (1-50)
 	-- {skill:356} Fishing · {skill:185} Cooking
 	["Fish here until skill 50, about 50 catches: below 75 every catch raises the skill. Cast {skill:356} from your spellbook, click the bobber when it splashes. Keep the fish: they are your first {skill:185} ingredients."] = "Beceri 50 olana kadar burada balık tut, yaklaşık 50 av: 75'in altında her av beceriyi artırır. {skill:356} becerisini büyü kitabından kullan, şamandıra sıçrayınca ona tıkla. Balıkları sakla: ilk {skill:185} malzemelerin onlar.",
-	-- {area:16638} Valanaar
-	["{area:16638} shore"] = "{area:16638} kıyısı",
 
 	-- Step 6: Fishing: Durotar (1-50)
 	["Sen'jin coast"] = "Sen'jin kıyısı",
+
+	-- Step 7: Fishing: Mulgore (1-50)
+
+	-- Step 8: Fishing: Tirisfal Glades (1-50)
 
 	-- Step 10: Journeyman Fishing
 	-- {skill:356} Fishing
@@ -35,6 +41,8 @@ return {
 	-- {zone:1436} Westfall
 	["{zone:1436} coast"] = "{zone:1436} kıyısı",
 
+	-- Step 12: Fishing: Loch Modan (50-125)
+
 	-- Step 13: Fishing: Darkshore (50-125)
 	-- {zone:1439} Darkshore
 	["{zone:1439} coast"] = "{zone:1439} kıyısı",
@@ -43,17 +51,17 @@ return {
 	-- {zone:1413} The Barrens
 	["{zone:1413} oasis"] = "{zone:1413} vahası",
 
+	-- Step 15: Fishing: Silverpine Forest (50-125)
+
 	-- Step 16: Expert Fishing
 	-- {skill:356} Fishing
 	["Expert {skill:356}"] = "Expert {skill:356}",
-	-- {skill:356} Fishing · {npc:2626} Old Man Heming · {item:16083} Expert Fishing - The Bass and You · {area:35} Booty Bay · {zone:1434} Stranglethorn Vale · {area:392} Ratchet · {zone:1413} The Barrens · {item:6532} Bright Baubles
-	["Expert {skill:356} (cap 225) is a book, not a trainer rank: {npc:2626} sells {item:16083} (1g) on the lowest dock of {area:35}, at the south tip of {zone:1434}, to both factions. Buy it and read it; it needs skill 125 and level 20. At level 20 the safe way in is the boat from {area:392} in {zone:1413}, not the road through Stranglethorn. He also sells {item:6532} (+75 from skill 100, 2s 50c each), the lure for the rest of the way."] = "Expert {skill:356} (sınır 225) bir eğitmen kademesi değil, bir kitap: {npc:2626}, {zone:1434} bölgesinin güney ucundaki {area:35} kasabasının en alt iskelesinde iki tarafa da {item:16083} satıyor (1g). Al ve oku; beceri 125 ve seviye 20 ister. 20. seviyede güvenli yol Stranglethorn içinden giden yol değil, {zone:1413} bölgesindeki {area:392} kasabasından kalkan gemi. Yolun geri kalanı için yem olan {item:6532} da satar (+75, beceri 100'den, tanesi 2s 50c).",
+	-- {skill:356} Fishing · {npc:2626} Old Man Heming · {item:16083} Expert Fishing - The Bass and You · {object:3204} Booty Bay (no name in this language: may be words) · {zone:1434} Stranglethorn Vale · {zone:1413} The Barrens · {item:6532} Bright Baubles
 	-- {item:16083} Expert Fishing - The Bass and You · {skill:356} Fishing
 	["Buy and read {item:16083} (Expert {skill:356})"] = "{item:16083} satın al ve oku (Expert {skill:356})",
 
 	-- Step 17: Fishing: Wetlands (125-225)
-	-- {item:279965} Fishing Rack · {area:2797} Blackfathom Deeps
-	["Fish the pools here until skill 225, about 500 catches: one in three raises the skill at 125, one in seven by 225, so this is the long stretch. Forever's second camping item, the {item:279965} (from skill 140), is a blueprint that drops from Gelihast in {area:2797}. Fish get away here below skill 150; a lure on the pole adds to your skill for ten minutes and closes the gap."] = "Beceri 225 olana kadar buradaki sürülerde balık tut, yaklaşık 500 av: 125'te üçte biri, 225'te yedide biri beceriyi artırır, bu yüzden bu uzun kısım. Forever'ın ikinci kamp eşyası {item:279965} (140 puandan), {area:2797} içinde Gelihast'tan düşen bir şema. Burada beceri 150'nin altındayken balık kaçar; oltadaki bir yem on dakika boyunca becerine ekler ve farkı kapatır.",
+	-- {item:279965} Fishing Rack
 	-- {zone:1437} Wetlands
 	["{zone:1437} coast"] = "{zone:1437} kıyısı",
 
@@ -61,9 +69,9 @@ return {
 	-- {zone:1440} Ashenvale
 	["{zone:1440} waters"] = "{zone:1440} suları",
 
+	-- Step 19: Fishing: Stonetalon Mountains (125-225)
+
 	-- Step 20: Fishing: Hillsbrad Foothills (125-225)
-	-- {area:287} Hillsbrad
-	["{area:287} coast"] = "{area:287} kıyısı",
 
 	-- Step 21: Nat Pagle, Angler Extreme
 	-- {skill:356} Fishing · {npc:12919} Nat Pagle · {zone:1445} Dustwallow Marsh · {zone:1455} Ironforge
@@ -78,20 +86,16 @@ return {
 	["{npc:12919} fishes from the shore of a small island off the east coast, south of Theramore; swim over from the coast."] = "{npc:12919}, Theramore'un güneyinde, doğu kıyısının açığındaki küçük bir adanın kıyısından balık tutuyor; kıyıdan yüzerek geç.",
 
 	-- Step 24: Sar'theris Striker
-	-- {zone:1443} Desolace · {area:598} Sar'theris Strand · {area:2408} Shadowprey Village · {item:16968} Sar'theris Striker
-	["Fish along the coast of {zone:1443} ({area:598} in the north-west, or the shore west of {area:2408}) until you catch a {item:16968}: about one catch in five there brings it up, and it bites nowhere else. At skill 225 nothing gets away here."] = "Bir {item:16968} yakalayana kadar {zone:1443} kıyısı boyunca (kuzeybatıda {area:598} ya da {area:2408} köyünün batısındaki kıyı) balık tut: orada aşağı yukarı beş avda bir çıkar ve başka hiçbir yerde oltaya gelmez. Beceri 225'te burada hiçbir şey kaçmaz.",
+	-- {zone:1443} Desolace · {object:176946} Shadowprey Village (no name in this language: may be words) · {item:16968} Sar'theris Striker
 
 	-- Step 26: Feralas Ahi
-	-- {area:2521} Verdantis River · {zone:1444} Feralas · {area:2577} Dire Maul · {item:16967} Feralas Ahi · {item:6532} Bright Baubles
-	["Fish along the {area:2521} in {zone:1444} (south-east of {area:2577}) until you catch a {item:16967}: about one catch in five there brings it up, and it bites nowhere else. This water loses fish below skill 300: at 225 most get away, so put {item:6532} (+75) on the pole first."] = "Bir {item:16967} yakalayana kadar {zone:1444} bölgesinde {area:2521} boyunca ({area:2577} zindanının güneydoğusu) balık tut: orada aşağı yukarı beş avda bir çıkar ve başka hiçbir yerde oltaya gelmez. Bu su beceri 300'ün altında balık kaçırır: 225'te çoğu kaçar, bu yüzden önce oltaya {item:6532} (+75) tak.",
+	-- {zone:1444} Feralas · {item:16967} Feralas Ahi · {item:6532} Bright Baubles
 
 	-- Step 27: Savage Coast Blue Sailfin
-	-- {zone:1434} Stranglethorn Vale · {area:301} Savage Coast · {item:16969} Savage Coast Blue Sailfin
-	["Fish along {zone:1434}'s {area:301} (the west shore) until you catch a {item:16969}: about one catch in five there brings it up, and it bites nowhere else. At skill 225 nothing gets away here."] = "Bir {item:16969} yakalayana kadar {zone:1434} bölgesinin {area:301} kıyısı boyunca (batı kıyısı) balık tut: orada aşağı yukarı beş avda bir çıkar ve başka hiçbir yerde oltaya gelmez. Beceri 225'te burada hiçbir şey kaçmaz.",
+	-- {zone:1434} Stranglethorn Vale · {item:16969} Savage Coast Blue Sailfin
 
 	-- Step 29: Misty Reed Mahi Mahi
-	-- {area:300} Misty Reed Strand · {zone:1435} Swamp of Sorrows · {item:16970} Misty Reed Mahi Mahi
-	["Fish along the {area:300} (the east shore of {zone:1435}) until you catch a {item:16970}: about one catch in five there brings it up, and it bites nowhere else. At skill 225 nothing gets away here."] = "Bir {item:16970} yakalayana kadar {area:300} boyunca ({zone:1435} bölgesinin doğu kıyısı) balık tut: orada aşağı yukarı beş avda bir çıkar ve başka hiçbir yerde oltaya gelmez. Beceri 225'te burada hiçbir şey kaçmaz.",
+	-- {zone:1435} Swamp of Sorrows · {item:16970} Misty Reed Mahi Mahi
 
 	-- Step 30: Nat Pagle
 	-- {skill:356} Fishing
@@ -100,6 +104,17 @@ return {
 	-- Step 31: Fishing: Stranglethorn Vale (225-300)
 	-- {item:6533} Aquadynamic Fish Attractor · {item:6532} Bright Baubles
 	["Fish the pools along the coast here (eels, snappers, wreckage) until skill 300, about 650 catches (one in seven raises the skill at 225, one in ten by 300). Harder water levels no faster: a catch counts the same anywhere. From skill 225 this water loses no fish, so no lure is needed. The {item:6533} (+100 from skill 100, 2s 50c) and {item:6532} are for harder water and rare fish, not for skill."] = "Beceri 300 olana kadar buradaki kıyı boyunca sürülerde (yılan balıkları, snapper'lar, enkaz) balık tut, yaklaşık 650 av (225'te yedide biri, 300'de onda biri beceriyi artırır). Daha zor su daha hızlı seviye atlatmaz: bir av her yerde aynı sayılır. Beceri 225'ten itibaren bu su balık kaçırmaz, bu yüzden yem gerekmez. {item:6533} (+100, beceri 100'den, 2s 50c) ve {item:6532} beceri için değil, daha zor su ve nadir balıklar için.",
-	-- {area:35} Booty Bay
+	-- {object:3204} Booty Bay (no name in this language: may be words)
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["{area:16638} shore"] = "{area:16638} kıyısı",
+	["Expert {skill:356} (cap 225) is a book, not a trainer rank: {npc:2626} sells {item:16083} (1g) on the lowest dock of {area:35}, at the south tip of {zone:1434}, to both factions. Buy it and read it; it needs skill 125 and level 20. At level 20 the safe way in is the boat from {area:392} in {zone:1413}, not the road through Stranglethorn. He also sells {item:6532} (+75 from skill 100, 2s 50c each), the lure for the rest of the way."] = "Expert {skill:356} (sınır 225) bir eğitmen kademesi değil, bir kitap: {npc:2626}, {zone:1434} bölgesinin güney ucundaki {area:35} kasabasının en alt iskelesinde iki tarafa da {item:16083} satıyor (1g). Al ve oku; beceri 125 ve seviye 20 ister. 20. seviyede güvenli yol Stranglethorn içinden giden yol değil, {zone:1413} bölgesindeki {area:392} kasabasından kalkan gemi. Yolun geri kalanı için yem olan {item:6532} da satar (+75, beceri 100'den, tanesi 2s 50c).",
+	["Fish the pools here until skill 225, about 500 catches: one in three raises the skill at 125, one in seven by 225, so this is the long stretch. Forever's second camping item, the {item:279965} (from skill 140), is a blueprint that drops from Gelihast in {area:2797}. Fish get away here below skill 150; a lure on the pole adds to your skill for ten minutes and closes the gap."] = "Beceri 225 olana kadar buradaki sürülerde balık tut, yaklaşık 500 av: 125'te üçte biri, 225'te yedide biri beceriyi artırır, bu yüzden bu uzun kısım. Forever'ın ikinci kamp eşyası {item:279965} (140 puandan), {area:2797} içinde Gelihast'tan düşen bir şema. Burada beceri 150'nin altındayken balık kaçar; oltadaki bir yem on dakika boyunca becerine ekler ve farkı kapatır.",
+	["{area:287} coast"] = "{area:287} kıyısı",
+	["Fish along the coast of {zone:1443} ({area:598} in the north-west, or the shore west of {area:2408}) until you catch a {item:16968}: about one catch in five there brings it up, and it bites nowhere else. At skill 225 nothing gets away here."] = "Bir {item:16968} yakalayana kadar {zone:1443} kıyısı boyunca (kuzeybatıda {area:598} ya da {area:2408} köyünün batısındaki kıyı) balık tut: orada aşağı yukarı beş avda bir çıkar ve başka hiçbir yerde oltaya gelmez. Beceri 225'te burada hiçbir şey kaçmaz.",
+	["Fish along the {area:2521} in {zone:1444} (south-east of {area:2577}) until you catch a {item:16967}: about one catch in five there brings it up, and it bites nowhere else. This water loses fish below skill 300: at 225 most get away, so put {item:6532} (+75) on the pole first."] = "Bir {item:16967} yakalayana kadar {zone:1444} bölgesinde {area:2521} boyunca ({area:2577} zindanının güneydoğusu) balık tut: orada aşağı yukarı beş avda bir çıkar ve başka hiçbir yerde oltaya gelmez. Bu su beceri 300'ün altında balık kaçırır: 225'te çoğu kaçar, bu yüzden önce oltaya {item:6532} (+75) tak.",
+	["Fish along {zone:1434}'s {area:301} (the west shore) until you catch a {item:16969}: about one catch in five there brings it up, and it bites nowhere else. At skill 225 nothing gets away here."] = "Bir {item:16969} yakalayana kadar {zone:1434} bölgesinin {area:301} kıyısı boyunca (batı kıyısı) balık tut: orada aşağı yukarı beş avda bir çıkar ve başka hiçbir yerde oltaya gelmez. Beceri 225'te burada hiçbir şey kaçmaz.",
+	["Fish along the {area:300} (the east shore of {zone:1435}) until you catch a {item:16970}: about one catch in five there brings it up, and it bites nowhere else. At skill 225 nothing gets away here."] = "Bir {item:16970} yakalayana kadar {area:300} boyunca ({zone:1435} bölgesinin doğu kıyısı) balık tut: orada aşağı yukarı beş avda bir çıkar ve başka hiçbir yerde oltaya gelmez. Beceri 225'te burada hiçbir şey kaçmaz.",
 	["{area:35} coast"] = "{area:35} kıyısı",
 }

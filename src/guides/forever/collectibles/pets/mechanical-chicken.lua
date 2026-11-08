@@ -6,14 +6,12 @@ return {
 	-- Step 1: OOX-22/FE Distress Beacon in Feralas
 	-- {item:8705} OOX-22/FE Distress Beacon · {zone:1444} Feralas
 	["{item:8705} in {zone:1444}"] = "{zone:1444} bölgesinde {item:8705}",
-	-- {zone:1444} Feralas · {area:1108} Forgotten Coast
+	-- {zone:1444} Feralas
 	-- plural, as words: Coast Crawl Snapclaws = {npc:5327} Coast Crawl Snapclaw · Sprite Dragons = {npc:5276} Sprite Dragon
-	["Each robot starts with a distress beacon that mobs in its zone drop, about one kill in 40 to 100 in Classic's data. In {zone:1444} the best are the Coast Crawl Snapclaws and Deepseers (levels 43-45) on the {area:1108} and the Sprite Dragons (47-48), about 2.5%; ogres, harpies, naga and Grimtotems drop it about 1%. You can loot it from level 40."] = "Her robot, kendi bölgesindeki yaratıkların düşürdüğü bir imdat işaretiyle başlar; Classic verisinde yaklaşık 40 ila 100 öldürmede bir. {zone:1444} bölgesinde en iyileri {area:1108} kıyısındaki Coast Crawl Snapclaw ve Deepseer'lar (seviye 43-45) ile Sprite Dragon'lar (47-48), yaklaşık yüzde 2,5; ogre'lar, harpy'ler, naga'lar ve Grimtotem'ler yaklaşık yüzde 1 düşürür. Seviye 40'tan itibaren loot'layabilirsin.",
 
 	-- Step 2: Rescue OOX-22/FE
 	["Rescue OOX-22/FE"] = "OOX-22/FE'yi kurtar",
-	-- {area:1105} Feral Scar Vale · {area:1108} Forgotten Coast · {area:35} Booty Bay
-	["Right-click the beacon. OOX-22/FE sits in a cave near {area:1105}, among yetis and apes. Its escort runs west along the road to the dock on the {area:1108} with three ambushes: three yetis, then three gorillas, then four or five gnolls with a caster. Bring a friend if you are under 47. The robot keeps walking unless it is hit, so stay close; if it will not move, another player has it: wait for it to come back. Its turn-in is in {area:35}; keep the quest for later."] = "İşarete sağ tıkla. OOX-22/FE, {area:1105} yakınında yetiler ve maymunlar arasındaki bir mağarada oturuyor. Eşliği yol boyunca batıya, {area:1108} kıyısındaki iskeleye uzanır ve üç pusu var: üç yeti, sonra üç goril, sonra bir büyücüyle dört beş gnoll. 47'nin altındaysan bir arkadaş getir. Robot vurulmadıkça yürümeye devam eder, bu yüzden yakın dur; kıpırdamıyorsa onu başka bir oyuncu almıştır: geri gelmesini bekle. Teslimi {area:35} limanında; görevi sonraya sakla.",
+	-- {object:3204} Booty Bay (no name in this language: may be words)
 	["Escort OOX-22/FE"] = "OOX-22/FE'ye eşlik et",
 
 	-- Step 3: OOX-17/TN Distress Beacon in Tanaris
@@ -25,8 +23,7 @@ return {
 
 	-- Step 4: Rescue OOX-17/TN
 	["Rescue OOX-17/TN"] = "OOX-17/TN'yi kurtar",
-	-- {area:981} Gaping Chasm · {zone:1446} Tanaris · {area:977} Steamwheedle Port · {area:35} Booty Bay
-	["OOX-17/TN stands in the hills near the {area:981} in south-east {zone:1446}. Its escort to {area:977} has two ambushes: three scorpids near the start, three Wastewander bandits near the end. The robot has about 3,000 health and stops to fight what you attack, so it can tank for a moment while you recover. Its turn-in is in {area:35} too."] = "OOX-17/TN, {zone:1446} bölgesinin güneydoğusunda {area:981} yakınındaki tepelerde duruyor. {area:977} limanına eşliğinde iki pusu var: başlangıç yakınında üç scorpid, sona yakın üç Wastewander haydudu. Robotun yaklaşık 3.000 canı var ve senin saldırdığınla dövüşmek için durur, bu yüzden sen toparlanırken bir süre tank yapabilir. Onun teslimi de {area:35} limanında.",
+	-- {zone:1446} Tanaris · {object:151975} Steamwheedle Port (no name in this language: may be words) · {object:3204} Booty Bay (no name in this language: may be words)
 	["Escort OOX-17/TN"] = "OOX-17/TN'ye eşlik et",
 
 	-- Step 5: OOX-09/HL Distress Beacon in the Hinterlands
@@ -37,14 +34,19 @@ return {
 
 	-- Step 6: Rescue OOX-09/HL
 	["Rescue OOX-09/HL"] = "OOX-09/HL'yi kurtar",
-	-- {area:351} Skulk Rock
 	-- plural, as words: Marauding Owlbeasts = {npc:7808} Marauding Owlbeast · Vilebranch Ambushers = {npc:7809} Vilebranch Ambusher
-	["OOX-09/HL waits on the largest island of the lake west of {area:351}. Its escort to the shore beyond Overlook Cliff has two ambushes of three: Marauding Owlbeasts, then Vilebranch Ambushers; the robot warns you just before each."] = "OOX-09/HL, {area:351} batısındaki gölün en büyük adasında bekliyor. Overlook Cliff'in ötesindeki kıyıya eşliğinde üçerli iki pusu var: Marauding Owlbeast'ler, sonra Vilebranch Ambusher'lar; robot her birinden hemen önce seni uyarır.",
 	["Escort OOX-09/HL"] = "OOX-09/HL'ye eşlik et",
 
 	-- Step 7: Oglethorpe Obnoticus in Booty Bay
-	-- {npc:7406} Oglethorpe Obnoticus · {area:35} Booty Bay
+	-- {npc:7406} Oglethorpe Obnoticus · {object:3204} Booty Bay (no name in this language: may be words)
+	-- {npc:7406} Oglethorpe Obnoticus · {object:3204} Booty Bay (no name in this language: may be words) · {npc:2490} First Mate Crazz · {quest:3721} An OOX of Your Own · {item:10398} Mechanical Chicken
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["Each robot starts with a distress beacon that mobs in its zone drop, about one kill in 40 to 100 in Classic's data. In {zone:1444} the best are the Coast Crawl Snapclaws and Deepseers (levels 43-45) on the {area:1108} and the Sprite Dragons (47-48), about 2.5%; ogres, harpies, naga and Grimtotems drop it about 1%. You can loot it from level 40."] = "Her robot, kendi bölgesindeki yaratıkların düşürdüğü bir imdat işaretiyle başlar; Classic verisinde yaklaşık 40 ila 100 öldürmede bir. {zone:1444} bölgesinde en iyileri {area:1108} kıyısındaki Coast Crawl Snapclaw ve Deepseer'lar (seviye 43-45) ile Sprite Dragon'lar (47-48), yaklaşık yüzde 2,5; ogre'lar, harpy'ler, naga'lar ve Grimtotem'ler yaklaşık yüzde 1 düşürür. Seviye 40'tan itibaren loot'layabilirsin.",
+	["Right-click the beacon. OOX-22/FE sits in a cave near {area:1105}, among yetis and apes. Its escort runs west along the road to the dock on the {area:1108} with three ambushes: three yetis, then three gorillas, then four or five gnolls with a caster. Bring a friend if you are under 47. The robot keeps walking unless it is hit, so stay close; if it will not move, another player has it: wait for it to come back. Its turn-in is in {area:35}; keep the quest for later."] = "İşarete sağ tıkla. OOX-22/FE, {area:1105} yakınında yetiler ve maymunlar arasındaki bir mağarada oturuyor. Eşliği yol boyunca batıya, {area:1108} kıyısındaki iskeleye uzanır ve üç pusu var: üç yeti, sonra üç goril, sonra bir büyücüyle dört beş gnoll. 47'nin altındaysan bir arkadaş getir. Robot vurulmadıkça yürümeye devam eder, bu yüzden yakın dur; kıpırdamıyorsa onu başka bir oyuncu almıştır: geri gelmesini bekle. Teslimi {area:35} limanında; görevi sonraya sakla.",
+	["OOX-17/TN stands in the hills near the {area:981} in south-east {zone:1446}. Its escort to {area:977} has two ambushes: three scorpids near the start, three Wastewander bandits near the end. The robot has about 3,000 health and stops to fight what you attack, so it can tank for a moment while you recover. Its turn-in is in {area:35} too."] = "OOX-17/TN, {zone:1446} bölgesinin güneydoğusunda {area:981} yakınındaki tepelerde duruyor. {area:977} limanına eşliğinde iki pusu var: başlangıç yakınında üç scorpid, sona yakın üç Wastewander haydudu. Robotun yaklaşık 3.000 canı var ve senin saldırdığınla dövüşmek için durur, bu yüzden sen toparlanırken bir süre tank yapabilir. Onun teslimi de {area:35} limanında.",
+	["OOX-09/HL waits on the largest island of the lake west of {area:351}. Its escort to the shore beyond Overlook Cliff has two ambushes of three: Marauding Owlbeasts, then Vilebranch Ambushers; the robot warns you just before each."] = "OOX-09/HL, {area:351} batısındaki gölün en büyük adasında bekliyor. Overlook Cliff'in ötesindeki kıyıya eşliğinde üçerli iki pusu var: Marauding Owlbeast'ler, sonra Vilebranch Ambusher'lar; robot her birinden hemen önce seni uyarır.",
 	["{npc:7406} in {area:35}"] = "{area:35} limanında {npc:7406}",
-	-- {npc:7406} Oglethorpe Obnoticus · {area:35} Booty Bay · {npc:2490} First Mate Crazz · {quest:3721} An OOX of Your Own · {item:10398} Mechanical Chicken
 	["{npc:7406} is in {area:35}, upstairs in the building north of the inn, above {npc:2490}. Hand in all three rescues; at level 45 he then offers {quest:3721}, which you turn straight back in for the {item:10398}."] = "{npc:7406}, {area:35} limanında, hanın kuzeyindeki binanın üst katında, {npc:2490} üstünde. Üç kurtarmanın hepsini teslim et; seviye 45'te sana {quest:3721} görevini önerir, {item:10398} için onu hemen geri teslim edersin.",
 }

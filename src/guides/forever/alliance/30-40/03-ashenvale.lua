@@ -3,105 +3,91 @@
 -- oyun orada adı İngilizce gösterir (yukarıdaki yorum satırında yazıyor). Belirtecin hemen ardına ek getirme;
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
-	-- Step 1: Astranaar
-	-- {npc:3894} Pelturas Whitemoon
-	["{npc:3894}, inside"] = "{npc:3894}, içeride",
+	-- Step 1: Fly to Menethil Harbor
+	-- {object:1162} Menethil Harbor (no name in this language: may be words)
 
-	-- Step 2: Dartol's Rod
-	["Dartol's Rod"] = "Dartol's Rod",
-	-- {item:5475} Wooden Key
-	-- plural, as words: Withered Ancients = {npc:3919} Withered Ancient
-	["The Crazed and Withered Ancients north of the moonwell carry the {item:5475}; the worn chest it opens stands among them."] = "{item:5475}, ay kuyusunun kuzeyindeki Crazed Ancient ve Withered Ancient yaratıklarında; açtığı yıpranmış sandık da onların arasında duruyor.",
-
-	-- Step 3: The Howling Vale
-	-- {area:419} Howling Vale
-	["Take the tunnel into the {area:419}; the tome lies in the ruins at its west end."] = "Tünelden {area:419} vadisine gir; kitap vadinin batı ucundaki harabelerde duruyor.",
-
-	-- Step 5: Anilia
-	-- {area:429} Xavian · {npc:3920} Anilia
-	["Follow the road east to the satyr camps of {area:429}; {npc:3920} hides at their edge."] = "Yolu doğuya izleyerek {area:429} satir kamplarına git; {npc:3920} kampların kenarında saklanıyor.",
-
-	-- Step 6: Geltharis
-	-- {npc:4619} Geltharis · {area:429} Xavian
-	["{npc:4619} leads the {area:429} satyrs; he carries the branch."] = "{npc:4619}, {area:429} satirlerine önderlik ediyor; dal onda.",
-
-	-- Step 7: Forest Song
-	-- {area:2358} Forest Song · {npc:3848} Kayneth Stillwind
-	["{area:2358}, the Night Elf outpost at the eastern end of the road: {npc:3848} stands there."] = "Yolun doğu ucundaki Night Elf karakolu {area:2358}: {npc:3848} orada duruyor.",
-
-	-- Step 8: The Dor'Danil Barrow Den: kill these as you meet them
-	-- {area:432} The Dor'Danil Barrow Den
-	["{area:432}: kill these as you meet them"] = "{area:432}: bunları karşılaştıkça öldür",
-	-- {area:2358} Forest Song
-	["The Forsaken's camp lies in the woods south of {area:2358}.\nRusty chests lie around the Shadethicket furbolg camps west of the Forsaken; open them until one holds the pommel.\nCareful: Non-elite Forsaken of about level 28-30 guard the camp. Some of them are stealthed, and the ones around the table often aggro together."] = "Forsaken kampı {area:2358} köyünün güneyindeki ormanda.\nPaslı sandıklar Forsaken'ların batısındaki Shadethicket furbolg kamplarının çevresinde duruyor; biri kabzayı verene kadar aç.\nDikkat: Kampı seviye 28-30 civarı elit olmayan Forsaken'lar koruyor. Bazıları gizli, masanın çevresindekiler de çoğu zaman birlikte saldırır.",
-
-	-- Step 9: Fallen Sky Lake
-	-- {npc:3931} Shadethicket Oracle · {quest:1035} Fallen Sky Lake · {object:669176} Gleaming Crescent Pendant
-	["The {npc:3931} walks the shore of {quest:1035}, south-west of the chests; the {object:669176} lies north of the lake, on the way.\nCareful: Other mobs, some of them underwater, sit near the island. Clear them first so they don't join the fight when you pull the Oracle."] = "{npc:3931}, sandıkların güneybatısında, {quest:1035} gölünün kıyısında dolaşıyor; {object:669176} gölün kuzeyinde, yolun üstünde duruyor.\nDikkat: Adanın yakınında bazıları su altında olan başka yaratıklar var. Oracle'ı çektiğinde dövüşe katılmasınlar diye önce onları temizle.",
-	-- {object:669176} Gleaming Crescent Pendant · {npc:3961} Maliynn · {area:415} Astranaar
-	["{object:669176}: for {npc:3961} in {area:415}"] = "{object:669176}: {area:415} kasabasındaki {npc:3961} için",
-
-	-- Step 11: Insane druids
-	["Insane druids"] = "Delirmiş druidler",
-	-- {area:2358} Forest Song
-	["The three druids stand together at the Forsaken camp south of {area:2358}.\nCareful: The den has many mobs that respawn quickly, including stealthed undead and patrols, so extra mobs often join a fight."] = "Üç druid, {area:2358} köyünün güneyindeki Forsaken kampında birlikte duruyor.\nDikkat: İnde çabuk yeniden doğan, gizlenmiş undead'ler ve devriyeler dahil çok sayıda yaratık var, bu yüzden dövüşe sık sık fazladan yaratık katılır.",
-	-- {npc:3940} Taneel Darkwood · {area:432} The Dor'Danil Barrow Den
-	["{npc:3940}, inside {area:432}"] = "{npc:3940}, {area:432} içinde",
-	-- {npc:3941} Uthil Mooncall · {area:432} The Dor'Danil Barrow Den
-	["{npc:3941}, inside {area:432}"] = "{npc:3941}, {area:432} içinde",
-	-- {npc:3942} Mavoris Cloudsbreak · {area:432} The Dor'Danil Barrow Den
-	["{npc:3942}, inside {area:432}"] = "{npc:3942}, {area:432} içinde",
-
-	-- Step 12: Satyrnaar
-	-- {object:19901} Circle of Imprisonment · {area:430} Satyrnaar · {area:428} Night Run
-	-- plural, as words: Felmusk Rogues = {npc:3759} Felmusk Rogue
-	["The {object:19901} stands in the satyr camp of {area:430}, further east along the road.\nCareful: The Felmusk Rogues in {area:428} often go stealthed, and {area:430} has satyr casters."] = "{object:19901}, yol boyunca daha doğudaki {area:430} satyr kampında duruyor.\nDikkat: {area:428} içindeki Felmusk Rogue yaratıkları sık sık gizlenir, {area:430} içinde de satyr büyücüleri var.",
-
-	-- Step 14: Night Run
-	-- {object:19901} Circle of Imprisonment · {area:428} Night Run
-	["The second {object:19901} lies in the valley of {area:428}, on the way west."] = "İkinci {object:19901}, batıya giden yolda, {area:428} vadisinde.",
-
-	-- Step 16: Hidden Shrine
-	["The shrine sits on the hill just south-east of the moonwell; follow the winding path up."] = "Tapınak ay kuyusunun hemen güneydoğusundaki tepede; kıvrımlı patikadan yukarı çık.",
-
-	-- Step 19: Krolg
-	-- {npc:3897} Krolg · {area:421} Mystral Lake
-	["{npc:3897}, a furbolg untouched by the corruption, sits south of the road below {area:421}."] = "Bozulmaya uğramamış bir furbolg olan {npc:3897}, {area:421} gölünün aşağısında, yolun güneyinde oturuyor.",
-
-	-- Step 20: Ran Bloodtooth
-	-- {npc:3696} Ran Bloodtooth · {npc:3897} Krolg
-	["{npc:3696} and his guards camp just east of {npc:3897}.\nCareful: Wolves and spiders roam near the camp and can join a fight. Some of the wolves come in pairs."] = "{npc:3696} ve muhafızları {npc:3897} yerinin hemen doğusunda kamp kurmuş.\nDikkat: Kampın yakınında kurtlar ve örümcekler dolaşıyor ve dövüşe katılabilir. Kurtların bazıları çift halinde gelir.",
-
-	-- Step 22: Hearth to Astranaar
-	-- {area:415} Astranaar
-	["Hearth to {area:415}"] = "Hearthstone ile dön: {area:415}",
-
-	-- Step 25: Melyria and Illiyana
-	-- {npc:3901} Illiyana
-	["Melyria and {npc:3901}"] = "Melyria ve {npc:3901}",
-
-	-- Step 27: Fly to Auberdine
-	-- {area:442} Auberdine
-	["Fly to {area:442}"] = "Uç: {area:442}",
-	-- {area:415} Astranaar
-	["{area:415} flight master"] = "{area:415} uçuş ustası",
-
-	-- Step 28: Boat to Menethil Harbor
-	-- {area:150} Menethil Harbor
-	["Boat to {area:150}"] = "Gemiyle {area:150} limanına",
-
-	-- Step 29: Glorin Steelbrow
+	-- Step 2: Glorin Steelbrow
 	-- {npc:1217} Glorin Steelbrow
 	["{npc:1217} stands on the upper floor of Menethil's keep."] = "{npc:1217}, Menethil kalesinin üst katında duruyor.",
 	["Inside"] = "İçeride",
 
-	-- Step 31: Waterlogged Chest
+	-- Step 3: Deepwater Tavern
+
+	-- Step 4: Waterlogged Chest
 	["The wreck of the Flying Osprey lies in the shallows south of the keep."] = "Flying Osprey'in enkazı kalenin güneyindeki sığ sularda.",
 
-	-- Step 32: Lightforge Ingots
-	-- plural, as words: Lightforge Ingots = {item:2702} Lightforge Ingot
-	["Lightforge Ingots"] = "Lightforge Ingot",
+	-- Step 5: Lightforge Ingots
 	["The Bluegill murlocs on the beach south-west of Menethil carry the ingots."] = "Külçeleri Menethil'in güneybatısındaki kumsalda bulunan Bluegill murlocları taşıyor.",
 	-- {item:2702} Lightforge Ingot
 	["{item:2702}; underwater"] = "{item:2702}; su altında",
+
+	-- Step 6: Glorin Steelbrow
+	-- {npc:1416} Grimand Elmore · {zone:1453} Stormwind
+	["For {npc:1416} in {zone:1453}, after Stranglethorn"] = "Stranglethorn'dan sonra, {zone:1453} şehrindeki {npc:1416} için",
+
+	-- Step 8: Theramore
+	["Theramore"] = "Theramore",
+	-- {object:21057} Foothold Citadel (no name in this language: may be words) · {npc:5083} Clerk Lendry · {npc:4964} Commander Samaul
+	-- {npc:5083} Clerk Lendry
+	["{npc:5083}, on the top floor"] = "{npc:5083}, en üst katta",
+	-- {npc:4964} Commander Samaul
+	["{npc:4964}, on the top floor"] = "{npc:4964}, en üst katta",
+	-- {npc:4456} Fiora Longears · {zone:1441} Thousand Needles
+
+	-- Step 9: The Shady Rest Inn
+	-- {zone:1413} Barrens
+	["Follow the road west out of Theramore to the burned inn on the road toward the {zone:1413}: the black shield lies in the ashes and the hoofprints are in the mud beside the inn."] = "Yolu Theramore'dan batıya, {zone:1413} yönündeki yolun üstündeki yanmış hana izle: siyah kalkan küllerin içinde, toynak izleri hanın yanındaki çamurda.",
+
+	-- Step 10: Into Barrens
+	-- {zone:1413} Barrens
+	["Into {zone:1413}"] = "{zone:1413} bölgesine",
+
+	-- Step 11: Takar the Seer
+	-- {zone:1413} Barrens · {npc:6244} Takar the Seer
+	-- {quest:1738} Heartswood · {zone:1440} Ashenvale · {zone:1443} Desolace
+	["{quest:1738}: in {zone:1440}, on the way to {zone:1443}"] = "{quest:1738}: {zone:1443} yolunda, {zone:1440} bölgesinde",
+	-- {quest:65602} What Is Love? · {item:190309} Wooden Figurine · {quest:1738} Heartswood
+	["{quest:65602}: the incubus, beside the succubus; the {item:190309} is near the {quest:1738}"] = "{quest:65602}: succubus yaratığının yanındaki incubus; {item:190309} da {quest:1738} yakınında",
+
+	-- Step 12: Highperch
+	-- {object:19844} Great Lift · {zone:1441} Thousand Needles
+
+	-- Step 15: Mirage Raceway
+	-- {quest:5762} Hemet Nesingwary
+	["For {quest:5762} in Stranglethorn, later"] = "Stranglethorn'daki {quest:5762} için, daha sonra",
+
+	-- Step 16: Mirage Raceway: kill these as you meet them
+	-- {object:19868} Rocket Car Rubble
+	-- plural, as words: Scorpid Reavers = {npc:4140} Scorpid Reaver · Salt Flats Scavengers = {npc:4154} Salt Flats Scavenger · Sparkleshell Snappers = {npc:4143} Sparkleshell Snapper · Saltstone Basilisks = {npc:4147} Saltstone Basilisk
+	["{object:19868} lies all over the flats. Scorpid Reavers and Salt Flats Scavengers roam the north half, Sparkleshell Snappers (tortoises) the whole flats. Saltstone Basilisks and Crystalhides hold the middle; the Gazers (34-35) only the far south."] = "{object:19868} düzlüğün her yanında duruyor. Scorpid Reaver ve Salt Flats Scavenger yaratıkları kuzey yarısında, Sparkleshell Snapper yaratıkları (kaplumbağalar) bütün düzlükte dolaşıyor. Saltstone Basilisk ve Crystalhide yaratıkları ortayı tutuyor; Gazer'lar (34-35) yalnızca en güneyde.",
+
+	-- Step 17: Mirage Raceway
+	-- {npc:4454} Fizzle Brassbolts · {zone:1418} Badlands
+	["{npc:4454}: for Martek in the {zone:1418}, at the end of 30-40"] = "{npc:4454}: 30-40 sonunda, {zone:1418} bölgesindeki Martek için",
+
+	-- Step 18: Gadgetzan
+	-- {object:151976} Shimmering Flats (no name in this language: may be words) · {zone:1446} Tanaris · {npc:7823} Bera Stonehammer
+
+	-- Step 19: Fly to Theramore
+	["Fly to Theramore"] = "Theramore'a uç",
+
+	-- Step 20: Theramore
+	-- {npc:4456} Fiora Longears · {object:21057} Foothold Citadel (no name in this language: may be words) · {npc:4941} Caz Twosprocket
+
+	-- Step 21: Boat to Menethil Harbor
+	-- {object:1162} Menethil Harbor (no name in this language: may be words)
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["Fly to {area:150}"] = "Uç: {area:150}",
+	["The flight master stands by the gate of {area:514}; {npc:5083} and {npc:4964} are inside the citadel."] = "Uçuş ustası {area:514} kalesinin kapısının yanında duruyor; {npc:5083} ve {npc:4964} kalenin içinde.",
+	["{npc:4456}: the wyverns are in {area:400}, later in this guide"] = "{npc:4456}: wyvern'ler bu rehberde daha sonra, {area:400} bölgesinde",
+	["On the road south through the {zone:1413}, {npc:6244} camps east of the road, north-east of {area:378}; come in from the east and keep clear of the Horde guards."] = "{zone:1413} bölgesinden güneye giden yolda, {npc:6244} yolun doğusunda, {area:378} kampının kuzeydoğusunda kamp kurmuş; doğu tarafından yaklaş ve Horde muhafızlarından uzak dur.",
+	["Down the {area:485} into {area:400}, then west to the wyverns' cliffs at {area:482}. Every wyvern there can drop a venom sac."] = "{area:485} üzerinden {area:400} bölgesine in, sonra batıya, {area:482} kesimindeki wyvern uçurumlarına git. Oradaki her wyvern bir zehir kesesi düşürebilir.",
+	["Follow the canyons east to the salt flats. The goblins and gnomes of the {area:2240} are neutral and give quests to both factions."] = "Kanyonları doğuya izleyerek tuz düzlüklerine git. {area:2240} pistindeki goblinler ve gnomlar tarafsızdır ve iki tarafa da görev verir.",
+	["{area:2240}: kill these as you meet them"] = "{area:2240}: bunları karşılaştıkça öldür",
+	["From the raceway follow the road south out of the {area:439} into {zone:1446}; {area:976} is a short walk down it. Keep to the road. {npc:7823}, the Alliance flight master, stands inside the walls."] = "Yarış pistinden yolu güneye izleyerek {area:439} düzlüklerinden {zone:1446} bölgesine çık; {area:976} kasabası yolun biraz aşağısında. Yoldan ayrılma. Alliance uçuş ustası {npc:7823} surların içinde duruyor.",
+	["{area:976} flight master"] = "{area:976} uçuş ustası",
+	["{npc:4456} is in the north of town, Captain Vimes in {area:514}; {npc:4941} stands in the town."] = "{npc:4456} kasabanın kuzeyinde, Captain Vimes {area:514} kesiminde; {npc:4941} kasabada duruyor.",
+	["Boat to {area:150}"] = "Gemiyle {area:150} limanına",
 }

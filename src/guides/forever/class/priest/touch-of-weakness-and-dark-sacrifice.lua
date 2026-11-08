@@ -10,8 +10,7 @@ return {
 	["The Undead priest spells: {spell:2652} at 10, {quest:5644} (new in Forever) at 20. Free, no objectives."] = "Undead priest büyüleri: 10'da {spell:2652}, 20'de {quest:5644} (Forever'da yeni). Ücretsiz, hedefsiz.",
 
 	-- Step 1: Touch of Weakness: Tai'jin
-	-- {zone:1411} Durotar · {npc:3706} Tai'jin · {area:362} Razor Hill · {spell:2652} Touch of Weakness · {npc:4606} Aelthalyste · {zone:1458} Undercity
-	["At 10 in {zone:1411}, {npc:3706}, the priest trainer inside the barracks of {area:362}, hands you a {spell:2652} letter for {npc:4606} in the {zone:1458}."] = "10'da {zone:1411} bölgesinde, {area:362} kasabasının kışlasındaki priest eğitmeni {npc:3706}, sana {zone:1458} şehrindeki {npc:4606} için bir {spell:2652} mektubu verir.",
+	-- {zone:1411} Durotar · {npc:3706} Tai'jin · {object:3224} Razor Hill (no name in this language: may be words) · {spell:2652} Touch of Weakness · {npc:4606} Aelthalyste · {zone:1458} Undercity
 	-- {npc:3706} Tai'jin · {spell:2652} Touch of Weakness
 	["{npc:3706}: take his {spell:2652} letter"] = "{npc:3706}: {spell:2652} mektubunu al",
 
@@ -22,20 +21,17 @@ return {
 	["{npc:6018}: take his {spell:2652} letter"] = "{npc:6018}: {spell:2652} mektubunu al",
 
 	-- Step 3: Touch of Weakness: Var'jun
-	-- {zone:1412} Mulgore · {npc:11407} Var'jun · {area:222} Bloodhoof Village · {spell:2652} Touch of Weakness · {npc:4606} Aelthalyste · {zone:1458} Undercity
-	["At 10 in {zone:1412}, {npc:11407}, just south-west of {area:222}, hands you a {spell:2652} letter for {npc:4606} in the {zone:1458}."] = "10'da {zone:1412} bölgesinde, {area:222} köyünün hemen güneybatısındaki {npc:11407}, sana {zone:1458} şehrindeki {npc:4606} için bir {spell:2652} mektubu verir.",
+	-- {zone:1412} Mulgore · {npc:11407} Var'jun · {object:2968} Bloodhoof Village (no name in this language: may be words) · {spell:2652} Touch of Weakness · {npc:4606} Aelthalyste · {zone:1458} Undercity
 	-- {npc:11407} Var'jun · {spell:2652} Touch of Weakness
 	["{npc:11407}: take the {spell:2652} letter"] = "{npc:11407}: {spell:2652} mektubunu al",
 
 	-- Step 4: Touch of Weakness: Miles Welsh
-	-- {zone:1456} Thunder Bluff · {npc:3044} Miles Welsh · {area:1640} Spirit Rise · {spell:2652} Touch of Weakness · {npc:4606} Aelthalyste · {zone:1458} Undercity
-	["At 10 in {zone:1456}, {npc:3044}, the priest trainer in the cave under {area:1640}, hands you a {spell:2652} letter for {npc:4606} in the {zone:1458}."] = "10'da {zone:1456} şehrinde, {area:1640} tepesinin altındaki mağarada bulunan priest eğitmeni {npc:3044}, sana {zone:1458} şehrindeki {npc:4606} için bir {spell:2652} mektubu verir.",
+	-- {zone:1456} Thunder Bluff · {npc:3044} Miles Welsh · {object:50495} Spirit Rise (no name in this language: may be words) · {spell:2652} Touch of Weakness · {npc:4606} Aelthalyste · {zone:1458} Undercity
 	-- {npc:3044} Miles Welsh · {spell:2652} Touch of Weakness
 	["{npc:3044}: take his {spell:2652} letter"] = "{npc:3044}: {spell:2652} mektubunu al",
 
 	-- Step 5: Touch of Weakness: Aelthalyste
-	-- {npc:4606} Aelthalyste · {zone:1458} Undercity · {object:36070} War Quarter · {quest:5658} Touch of Weakness · {area:159} Brill
-	["At 10, go to {npc:4606}, the priest trainer in the {zone:1458}'s {object:36070}: she gives {quest:5658} and takes it back at once. No letter needed. From {area:159}, follow the road south to the ruined city of Lordaeron; the {zone:1458}'s lifts are at the back of the throne room. {quest:5658} strikes the next melee attacker for Shadow damage and lowers its melee attack power for 2 minutes."] = "10'da {zone:1458} şehrinin {object:36070} kesimindeki priest eğitmeni {npc:4606} yanına git: {quest:5658} görevini verir ve hemen geri alır. Mektup gerekmez. {area:159} kasabasından yolu güneye, yıkık Lordaeron şehrine izle; {zone:1458} asansörleri taht salonunun arkasında. {quest:5658} sana yakın dövüşte saldıran sonraki yaratığa Shadow hasarı verir ve 2 dakika boyunca yakın dövüş saldırı gücünü düşürür.",
+	-- {npc:4606} Aelthalyste · {zone:1458} Undercity · {object:36070} War Quarter · {quest:5658} Touch of Weakness
 
 	-- Step 6: Touch of Weakness: Tai'jin's letter
 	-- {quest:5660} Touch of Weakness · {npc:3706} Tai'jin
@@ -66,14 +62,12 @@ return {
 	["{npc:6018}: take his {quest:5644} letter"] = "{npc:6018}: {quest:5644} mektubunu al",
 
 	-- Step 11: Dark Sacrifice: Miles Welsh
-	-- {zone:1456} Thunder Bluff · {npc:3044} Miles Welsh · {area:1640} Spirit Rise · {quest:5644} Dark Sacrifice · {npc:4606} Aelthalyste · {zone:1458} Undercity
-	["At 20 in {zone:1456}, {npc:3044} in the cave under {area:1640} hands you a {quest:5644} letter for {npc:4606} in the {zone:1458}."] = "20'de {zone:1456} şehrinde, {area:1640} tepesinin altındaki mağaradaki {npc:3044}, sana {zone:1458} şehrindeki {npc:4606} için bir {quest:5644} mektubu verir.",
+	-- {zone:1456} Thunder Bluff · {npc:3044} Miles Welsh · {object:50495} Spirit Rise (no name in this language: may be words) · {quest:5644} Dark Sacrifice · {npc:4606} Aelthalyste · {zone:1458} Undercity
 	-- {npc:3044} Miles Welsh · {quest:5644} Dark Sacrifice
 	["{npc:3044}: take his {quest:5644} letter"] = "{npc:3044}: {quest:5644} mektubunu al",
 
 	-- Step 12: Dark Sacrifice: Aelthalyste
-	-- {npc:4606} Aelthalyste · {object:36070} War Quarter · {quest:5644} Dark Sacrifice · {spell:2944} Devouring Plague
-	["At 20, {npc:4606} in the {object:36070} teaches {quest:5644} with a quest she gives and takes back at once (its text still speaks of {spell:2944}, which every priest now learns from the trainer)."] = "20'de {object:36070} kesimindeki {npc:4606}, verip hemen geri aldığı bir görevle {quest:5644} öğretir (metni hâlâ artık her priest'in eğitmenden öğrendiği {spell:2944} büyüsünden söz ediyor).",
+	-- {npc:4606} Aelthalyste · {object:36070} War Quarter · {quest:5644} Dark Sacrifice
 
 	-- Step 13: Dark Sacrifice: Ur'kyo's letter
 	-- {quest:5646} Dark Sacrifice · {npc:6018} Ur'kyo
@@ -82,4 +76,13 @@ return {
 	-- Step 14: Dark Sacrifice: Miles Welsh's letter
 	-- {quest:5644} Dark Sacrifice · {npc:3044} Miles Welsh
 	["{quest:5644}: {npc:3044}'s letter"] = "{quest:5644}: mektup ({npc:3044})",
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["At 10 in {zone:1411}, {npc:3706}, the priest trainer inside the barracks of {area:362}, hands you a {spell:2652} letter for {npc:4606} in the {zone:1458}."] = "10'da {zone:1411} bölgesinde, {area:362} kasabasının kışlasındaki priest eğitmeni {npc:3706}, sana {zone:1458} şehrindeki {npc:4606} için bir {spell:2652} mektubu verir.",
+	["At 10 in {zone:1412}, {npc:11407}, just south-west of {area:222}, hands you a {spell:2652} letter for {npc:4606} in the {zone:1458}."] = "10'da {zone:1412} bölgesinde, {area:222} köyünün hemen güneybatısındaki {npc:11407}, sana {zone:1458} şehrindeki {npc:4606} için bir {spell:2652} mektubu verir.",
+	["At 10 in {zone:1456}, {npc:3044}, the priest trainer in the cave under {area:1640}, hands you a {spell:2652} letter for {npc:4606} in the {zone:1458}."] = "10'da {zone:1456} şehrinde, {area:1640} tepesinin altındaki mağarada bulunan priest eğitmeni {npc:3044}, sana {zone:1458} şehrindeki {npc:4606} için bir {spell:2652} mektubu verir.",
+	["At 10, go to {npc:4606}, the priest trainer in the {zone:1458}'s {object:36070}: she gives {quest:5658} and takes it back at once. No letter needed. From {area:159}, follow the road south to the ruined city of Lordaeron; the {zone:1458}'s lifts are at the back of the throne room. {quest:5658} strikes the next melee attacker for Shadow damage and lowers its melee attack power for 2 minutes."] = "10'da {zone:1458} şehrinin {object:36070} kesimindeki priest eğitmeni {npc:4606} yanına git: {quest:5658} görevini verir ve hemen geri alır. Mektup gerekmez. {area:159} kasabasından yolu güneye, yıkık Lordaeron şehrine izle; {zone:1458} asansörleri taht salonunun arkasında. {quest:5658} sana yakın dövüşte saldıran sonraki yaratığa Shadow hasarı verir ve 2 dakika boyunca yakın dövüş saldırı gücünü düşürür.",
+	["At 20 in {zone:1456}, {npc:3044} in the cave under {area:1640} hands you a {quest:5644} letter for {npc:4606} in the {zone:1458}."] = "20'de {zone:1456} şehrinde, {area:1640} tepesinin altındaki mağaradaki {npc:3044}, sana {zone:1458} şehrindeki {npc:4606} için bir {quest:5644} mektubu verir.",
+	["At 20, {npc:4606} in the {object:36070} teaches {quest:5644} with a quest she gives and takes back at once (its text still speaks of {spell:2944}, which every priest now learns from the trainer)."] = "20'de {object:36070} kesimindeki {npc:4606}, verip hemen geri aldığı bir görevle {quest:5644} öğretir (metni hâlâ artık her priest'in eğitmenden öğrendiği {spell:2944} büyüsünden söz ediyor).",
 }

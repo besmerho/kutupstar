@@ -87,10 +87,8 @@ return {
 	-- Step 15: Adventure: Lord Valthalak
 	-- {npc:16042} Lord Valthalak
 	["Adventure: {npc:16042}"] = "Macera: {npc:16042}",
-	-- {npc:16042} Lord Valthalak · {quest:8999} Saving the Best for Last · {npc:16013} Deliana · {zone:1455} Ironforge · {npc:16012} Mokvar · {zone:1454} Orgrimmar · {npc:16033} Bodley · {area:254} Blackrock Mountain · {quest:8995} Mea Culpa, Lord Valthalak · {quest:8996} Return to Bodley · {quest:8997} Back to the Beginning
-	["The {npc:16042} questline is a point. It is the level 60 dungeon-set chain, from An Earnest Proposition to your class's {quest:8999}: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of Lord Valthalak's Amulet, Final Preparations and {quest:8995} end with {quest:8996}. {quest:8997} then leads to {quest:8999}."] = "{npc:16042} görev zinciri bir puan. Bu, An Earnest Proposition'dan sınıfının {quest:8999} görevine uzanan seviye 60 zindan seti zinciri: {npc:16013} ({zone:1455}) ya da {npc:16012} ({zone:1454}) seni In Search of Anthion ve Anthion's Parting Words üzerinden {area:254} dağındaki {npc:16033} yanına gönderir; onun Three Kings of Flame, Lord Valthalak's Amulet'in sol ve sağ parçaları, Final Preparations ve {quest:8995} görevleri {quest:8996} ile biter. Ardından {quest:8997}, {quest:8999} görevine götürür.",
-	-- {npc:16073} Spirit of Lord Valthalak · {npc:16033} Bodley · {area:254} Blackrock Mountain
-	["{npc:16073}, inside Upper Blackrock Spire after Mea Culpa (no spawn in the data: the arrow leads to {npc:16033}'s {area:254})"] = "{npc:16073}, Mea Culpa'dan sonra Upper Blackrock Spire içinde (veride doğma noktası yok: ok {npc:16033} adlı NPC'nin bulunduğu {area:254} dağını gösteriyor)",
+	-- {npc:16042} Lord Valthalak · {quest:8999} Saving the Best for Last · {npc:16013} Deliana · {zone:1455} Ironforge · {npc:16012} Mokvar · {zone:1454} Orgrimmar · {npc:16033} Bodley · {quest:8995} Mea Culpa, Lord Valthalak · {quest:8996} Return to Bodley · {quest:8997} Back to the Beginning
+	-- {npc:16073} Spirit of Lord Valthalak · {npc:16033} Bodley
 	-- {npc:16033} Bodley · {quest:8996} Return to Bodley
 	["{npc:16033} offers it once {quest:8996} is turned in"] = "{quest:8996} teslim edilince {npc:16033} verir",
 
@@ -108,63 +106,32 @@ return {
 
 	-- Step 18: Dungeons: level 15-25
 	["Dungeons: level 15-25"] = "Zindanlar: seviye 15-25",
-	-- {area:2437} Ragefire Chasm · {area:16919} Hall of Thanes · {zone:1455} Ironforge
-	["The final boss of every level 15-25 dungeon earns one point together. {area:2437} and Forever's {area:16919} (in {zone:1455}) count as one: either final boss does. Tick each boss off when you kill it, and check the in-game Legacy panel for the list."] = "Seviye 15-25 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır. {area:2437} ve Forever'ın {area:16919} zindanı ({zone:1455} içinde) bir sayılır: ikisinden birinin son boss'u yeter. Her boss'u öldürünce işaretle, liste için de oyun içi Legacy paneline bak.",
-	-- {area:2437} Ragefire Chasm · {npc:11519} Bazzalan · {area:16919} Hall of Thanes
-	["{area:2437}: {npc:11519} (or {area:16919})"] = "{area:2437}: {npc:11519} (ya da {area:16919})",
-	-- {area:16919} Hall of Thanes · {npc:261319} Durgen Dirgehammer · {area:2437} Ragefire Chasm
-	["{area:16919}: {npc:261319} (or {area:2437})"] = "{area:16919}: {npc:261319} (ya da {area:2437})",
-	-- {area:153} Ruins of Lordaeron · {zone:1420} Tirisfal Glades · {npc:256035} Viktor the Vile
-	["{area:153} (Forever's, {zone:1420}): {npc:256035}"] = "{area:153} (Forever'ın, {zone:1420}): {npc:256035}",
-	-- {area:718} Wailing Caverns · {npc:3678} Disciple of Naralex
-	["{area:718} (appears after the {npc:3678}'s event)"] = "{area:718} ({npc:3678} etkinliğinden sonra ortaya çıkar)",
-	-- {area:17732} Excavation Site: Wetlands · {npc:260326} Relic Guardian
-	["{area:17732} (Forever's): {npc:260326}"] = "{area:17732} (Forever'ın): {npc:260326}",
+	-- {zone:1455} Ironforge
+	-- {npc:11519} Bazzalan
+	-- {npc:261319} Durgen Dirgehammer
+	-- {zone:1420} Tirisfal Glades · {npc:256035} Viktor the Vile
+	-- {npc:3678} Disciple of Naralex
+	-- {zone:1437} Wetlands · {npc:260326} Relic Guardian
 
 	-- Step 19: Dungeons: level 26-45
 	["Dungeons: level 26-45"] = "Zindanlar: seviye 26-45",
-	-- {area:17780} Krol'dok Stronghold · {zone:2548} Riverglades
-	["The final boss of every level 26-45 dungeon earns one point together. The Drowned City and {area:17780} (in the {zone:2548}) are new in Forever and not in our data: tick them off yourself."] = "Seviye 26-45 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır. Drowned City ve {area:17780} ({zone:2548} içinde) Forever'da yeni ve verimizde yok: onları kendin işaretle.",
+	-- {zone:2548} Riverglades
 	-- {zone:1416} Alterac Mountains · {npc:246020} Shade of the Archmage
 	["City of Dalaran (Forever's, {zone:1416}): {npc:246020}"] = "City of Dalaran (Forever'ın, {zone:1416}): {npc:246020}",
 	["the final boss of the Drowned City"] = "Drowned City'nin son boss'u",
-	-- {area:796} Scarlet Monastery
-	["{area:796}: Graveyard"] = "{area:796}: Graveyard",
-	-- {area:796} Scarlet Monastery
-	["{area:796}: Library"] = "{area:796}: Library",
-	-- {area:796} Scarlet Monastery
-	["{area:796}: Armory"] = "{area:796}: Armory",
-	-- {area:796} Scarlet Monastery
-	["{area:796}: Cathedral"] = "{area:796}: Cathedral",
-	-- {area:17780} Krol'dok Stronghold
-	["the final boss of {area:17780}"] = "{area:17780} zindanının son boss'u",
 
 	-- Step 20: Dungeons: level 46-60
 	["Dungeons: level 46-60"] = "Zindanlar: seviye 46-60",
-	-- {area:1216} Blackmaw Hold · {area:16985} Shaper's Terrace
-	["The final boss of every level 46-60 dungeon earns one point together. Alcaz Prison, {area:1216} and the {area:16985} are new in Forever and not in our data: tick them off yourself."] = "Seviye 46-60 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır. Alcaz Prison, {area:1216} ve {area:16985} Forever'da yeni ve verimizde yok: onları kendin işaretle.",
 	["the final boss of Alcaz Prison"] = "Alcaz Prison'ın son boss'u",
-	-- {area:1216} Blackmaw Hold
-	["the final boss of {area:1216}"] = "{area:1216} zindanının son boss'u",
-	-- {area:1583} Blackrock Spire
-	["Lower {area:1583}"] = "Lower {area:1583}",
-	-- {area:1583} Blackrock Spire
-	["Upper {area:1583}"] = "Upper {area:1583}",
-	-- {area:2279} Stratholme
-	["{area:2279}, Live side"] = "{area:2279}, yaşayanlar tarafı",
-	-- {area:2279} Stratholme
-	["{area:2279}, Undead side"] = "{area:2279}, undead tarafı",
 	["Dire Maul East"] = "Dire Maul East",
 	["Dire Maul North"] = "Dire Maul North",
 	["Dire Maul West"] = "Dire Maul West",
-	-- {area:16985} Shaper's Terrace
-	["the final boss of the {area:16985}"] = "{area:16985} zindanının son boss'u",
 
 	-- Step 21: Raids: Onyxia
 	-- {npc:10184} Onyxia
 	["Raids: {npc:10184}"] = "Raid'ler: {npc:10184}",
-	-- {npc:10184} Onyxia · {area:2159} Onyxia's Lair · {zone:1445} Dustwallow Marsh · {item:16309} Drakefire Amulet · {zone:1428} Burning Steppes · {area:340} Kargath · {zone:1418} Badlands · {npc:10363} General Drakkisath
-	["Killing {npc:10184} is a point. {area:2159} is a 40-player raid in {zone:1445}, open from 9 December. Every raider needs the {item:16309} in the bags: the Alliance chain starts with Dragonkin Menace in the {zone:1428}, the Horde chain with Blood and Thunder in {area:340} ({zone:1418}); both end in Upper Blackrock Spire with {npc:10363}."] = "{npc:10184} yaratığını öldürmek bir puan. {area:2159}, {zone:1445} bölgesinde 9 Aralık'tan itibaren açık 40 kişilik bir raid. Her raid üyesinin çantasında {item:16309} olmalı: Alliance zinciri {zone:1428} bölgesinde Dragonkin Menace ile, Horde zinciri {area:340} ({zone:1418}) kasabasında Blood and Thunder ile başlar; ikisi de Upper Blackrock Spire'da {npc:10363} ile biter.",
+	-- {npc:10184} Onyxia · {zone:1445} Dustwallow Marsh · {item:16309} Drakefire Amulet · {zone:1428} Burning Steppes · {zone:1418} Badlands · {npc:10363} General Drakkisath
+	-- {npc:10184} Onyxia · {zone:1445} Dustwallow Marsh
 
 	-- Step 22: Raids: Hyjal Summit
 	["Raids: Hyjal Summit"] = "Raid'ler: Hyjal Summit",
@@ -174,7 +141,32 @@ return {
 
 	-- Step 23: Raids: Barrow Deeps
 	["Raids: Barrow Deeps"] = "Raid'ler: Barrow Deeps",
-	-- {zone:2482} Mount Hyjal · {zone:1452} Winterspring · {area:1216} Blackmaw Hold
-	["All 8 Barrow Deeps bosses are a point. Barrow Deeps is a new 10-player Forever raid beneath {zone:2482}, entered from {zone:2482}, {zone:1452} or {area:1216} and open from 9 December; its bosses are not in our data, so tick it off once all 8 are down."] = "Barrow Deeps'in 8 boss'unun hepsi bir puan. Barrow Deeps, {zone:2482} altında, {zone:2482}, {zone:1452} ya da {area:1216} üzerinden girilen ve 9 Aralık'tan itibaren açık yeni 10 kişilik bir Forever raid'i; boss'ları verimizde yok, bu yüzden 8'i de yenilince kendin işaretle.",
+	-- {zone:2482} Mount Hyjal · {zone:1452} Winterspring
 	["all 8 Barrow Deeps bosses"] = "Barrow Deeps'in 8 boss'unun hepsi",
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["The {npc:16042} questline is a point. It is the level 60 dungeon-set chain, from An Earnest Proposition to your class's {quest:8999}: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of Lord Valthalak's Amulet, Final Preparations and {quest:8995} end with {quest:8996}. {quest:8997} then leads to {quest:8999}."] = "{npc:16042} görev zinciri bir puan. Bu, An Earnest Proposition'dan sınıfının {quest:8999} görevine uzanan seviye 60 zindan seti zinciri: {npc:16013} ({zone:1455}) ya da {npc:16012} ({zone:1454}) seni In Search of Anthion ve Anthion's Parting Words üzerinden {area:254} dağındaki {npc:16033} yanına gönderir; onun Three Kings of Flame, Lord Valthalak's Amulet'in sol ve sağ parçaları, Final Preparations ve {quest:8995} görevleri {quest:8996} ile biter. Ardından {quest:8997}, {quest:8999} görevine götürür.",
+	["{npc:16073}, inside Upper Blackrock Spire after Mea Culpa (no spawn in the data: the arrow leads to {npc:16033}'s {area:254})"] = "{npc:16073}, Mea Culpa'dan sonra Upper Blackrock Spire içinde (veride doğma noktası yok: ok {npc:16033} adlı NPC'nin bulunduğu {area:254} dağını gösteriyor)",
+	["The final boss of every level 15-25 dungeon earns one point together. {area:2437} and Forever's {area:16919} (in {zone:1455}) count as one: either final boss does. Tick each boss off when you kill it, and check the in-game Legacy panel for the list."] = "Seviye 15-25 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır. {area:2437} ve Forever'ın {area:16919} zindanı ({zone:1455} içinde) bir sayılır: ikisinden birinin son boss'u yeter. Her boss'u öldürünce işaretle, liste için de oyun içi Legacy paneline bak.",
+	["{area:2437}: {npc:11519} (or {area:16919})"] = "{area:2437}: {npc:11519} (ya da {area:16919})",
+	["{area:16919}: {npc:261319} (or {area:2437})"] = "{area:16919}: {npc:261319} (ya da {area:2437})",
+	["{area:153} (Forever's, {zone:1420}): {npc:256035}"] = "{area:153} (Forever'ın, {zone:1420}): {npc:256035}",
+	["{area:718} (appears after the {npc:3678}'s event)"] = "{area:718} ({npc:3678} etkinliğinden sonra ortaya çıkar)",
+	["{area:17732} (Forever's): {npc:260326}"] = "{area:17732} (Forever'ın): {npc:260326}",
+	["The final boss of every level 26-45 dungeon earns one point together. The Drowned City and {area:17780} (in the {zone:2548}) are new in Forever and not in our data: tick them off yourself."] = "Seviye 26-45 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır. Drowned City ve {area:17780} ({zone:2548} içinde) Forever'da yeni ve verimizde yok: onları kendin işaretle.",
+	["{area:796}: Graveyard"] = "{area:796}: Graveyard",
+	["{area:796}: Library"] = "{area:796}: Library",
+	["{area:796}: Armory"] = "{area:796}: Armory",
+	["{area:796}: Cathedral"] = "{area:796}: Cathedral",
+	["the final boss of {area:17780}"] = "{area:17780} zindanının son boss'u",
+	["The final boss of every level 46-60 dungeon earns one point together. Alcaz Prison, {area:1216} and the {area:16985} are new in Forever and not in our data: tick them off yourself."] = "Seviye 46-60 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır. Alcaz Prison, {area:1216} ve {area:16985} Forever'da yeni ve verimizde yok: onları kendin işaretle.",
+	["the final boss of {area:1216}"] = "{area:1216} zindanının son boss'u",
+	["Lower {area:1583}"] = "Lower {area:1583}",
+	["Upper {area:1583}"] = "Upper {area:1583}",
+	["{area:2279}, Live side"] = "{area:2279}, yaşayanlar tarafı",
+	["{area:2279}, Undead side"] = "{area:2279}, undead tarafı",
+	["the final boss of the {area:16985}"] = "{area:16985} zindanının son boss'u",
+	["Killing {npc:10184} is a point. {area:2159} is a 40-player raid in {zone:1445}, open from 9 December. Every raider needs the {item:16309} in the bags: the Alliance chain starts with Dragonkin Menace in the {zone:1428}, the Horde chain with Blood and Thunder in {area:340} ({zone:1418}); both end in Upper Blackrock Spire with {npc:10363}."] = "{npc:10184} yaratığını öldürmek bir puan. {area:2159}, {zone:1445} bölgesinde 9 Aralık'tan itibaren açık 40 kişilik bir raid. Her raid üyesinin çantasında {item:16309} olmalı: Alliance zinciri {zone:1428} bölgesinde Dragonkin Menace ile, Horde zinciri {area:340} ({zone:1418}) kasabasında Blood and Thunder ile başlar; ikisi de Upper Blackrock Spire'da {npc:10363} ile biter.",
+	["All 8 Barrow Deeps bosses are a point. Barrow Deeps is a new 10-player Forever raid beneath {zone:2482}, entered from {zone:2482}, {zone:1452} or {area:1216} and open from 9 December; its bosses are not in our data, so tick it off once all 8 are down."] = "Barrow Deeps'in 8 boss'unun hepsi bir puan. Barrow Deeps, {zone:2482} altında, {zone:2482}, {zone:1452} ya da {area:1216} üzerinden girilen ve 9 Aralık'tan itibaren açık yeni 10 kişilik bir Forever raid'i; boss'ları verimizde yok, bu yüzden 8'i de yenilince kendin işaretle.",
 }

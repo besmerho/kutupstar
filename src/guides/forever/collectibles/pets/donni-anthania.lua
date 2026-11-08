@@ -8,8 +8,7 @@ return {
 	["{npc:6367}'s Cats"] = "{npc:6367} adlı NPC'nin kedileri",
 
 	-- Step 1: Donni Anthania
-	-- {npc:6367} Donni Anthania · {area:87} Goldshire
-	["{npc:6367} has a farmhouse north of {area:87}. Each cat carrier costs 40s, 1g 60s for all four. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."] = "{npc:6367} adlı NPC'nin {area:87} kasabasının kuzeyinde bir çiftlik evi var. Her kedi taşıma kafesi 40s, dördü birden 1g 60s. Her evcil hayvan eşyası kullanınca yoldaşını öğretir; hedefler sonrasında da işaretli kalır.",
+	-- {npc:6367} Donni Anthania
 	-- {item:8485} Cat Carrier (Bombay)
 	["{item:8485}, 40s"] = "{item:8485}, 40s",
 	-- {item:8486} Cat Carrier (Cornish Rex)
@@ -18,4 +17,8 @@ return {
 	["{item:8487}, 40s"] = "{item:8487}, 40s",
 	-- {item:8488} Cat Carrier (Silver Tabby)
 	["{item:8488}, 40s"] = "{item:8488}, 40s",
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["{npc:6367} has a farmhouse north of {area:87}. Each cat carrier costs 40s, 1g 60s for all four. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."] = "{npc:6367} adlı NPC'nin {area:87} kasabasının kuzeyinde bir çiftlik evi var. Her kedi taşıma kafesi 40s, dördü birden 1g 60s. Her evcil hayvan eşyası kullanınca yoldaşını öğretir; hedefler sonrasında da işaretli kalır.",
 }

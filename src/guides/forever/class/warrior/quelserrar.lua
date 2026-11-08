@@ -4,13 +4,11 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Guide
-	-- {area:2577} Dire Maul · {npc:10184} Onyxia
-	["A tank sword at 60: a {area:2577} book, then {npc:10184}'s breath tempers the blade (the sword is not in Forever's items yet)."] = "60'ta bir tank kılıcı: bir {area:2577} kitabı, sonra {npc:10184} nefesi bıçağı sertleştirir (kılıç henüz Forever'ın eşyalarında yok).",
+	-- {npc:10184} Onyxia
 	["Shen'dralar reputation"] = "Shen'dralar itibarı",
 
 	-- Step 1: Nostro's Compendium of Dragon Slaying
-	-- {area:2577} Dire Maul · {npc:11496} Immol'thar · {npc:11501} King Gordok · {zone:1444} Feralas
-	["The book is a rare random drop from the bosses of all three {area:2577} wings (Alzzin, Hydrospawn and the rest of the East, Tendris, Illyanna, Kalendris, {npc:11496} and the West, {npc:11501} and the North's guards) and very rarely from the tribute chest; it can be traded, so the auction house may have one. {area:2577} is a five-player dungeon in the ruins of central {zone:1444}: needs a group of five. Right-click the book to start the quest; it stays in your bags."] = "Kitap, üç {area:2577} kanadının da boss'larından (Alzzin, Hydrospawn ve East'in diğerleri, Tendris, Illyanna, Kalendris, {npc:11496} ve West, {npc:11501} ve North'un muhafızları) nadir, rastgele düşer, çok nadiren de haraç sandığından çıkar; takas edilebilir, müzayede evinde olabilir. {area:2577}, orta {zone:1444} bölgesindeki harabelerde beş kişilik bir zindan: beş kişilik bir grup gerekir. Görevi başlatmak için kitaba sağ tıkla; çantanda kalır.",
+	-- {npc:11496} Immol'thar · {npc:11501} King Gordok · {zone:1444} Feralas
 	-- {item:18401} Nostro's Compendium of Dragon Slaying
 	["from {item:18401}"] = "kaynak: {item:18401}",
 
@@ -25,8 +23,7 @@ return {
 	-- Step 3: Onyxia's breath
 	-- {npc:10184} Onyxia
 	["{npc:10184}'s breath"] = "{npc:10184} nefesi",
-	-- {npc:10184} Onyxia · {area:2159} Onyxia's Lair · {area:511} Wyrmbog · {zone:1445} Dustwallow Marsh · {item:18489} Unfired Ancient Blade · {object:179562} Ancient Heated Blade · {item:18488} Heated Ancient Blade
-	["{npc:10184} is the 40-player raid boss of {area:2159}, a cave in the {area:511} of southern {zone:1445}; she returns once a week. Tell the raid first. Late in the fight (around 10-15% health, when she has landed again) use the {item:18489} to plant it in the path of her fire breath, usually by the main tank's feet. When her breath has heated it, click the {object:179562} to take the {item:18488}: from then you have 20 minutes. Her breath can kill you while you plant or pick up the blade; if you die and nobody brings you back before she dies, wait for next week. Planted in the wrong place? Abandon the quest, take it again from Lydros for a new blade."] = "{npc:10184}, güney {zone:1445} bölgesindeki {area:511} içinde bir mağara olan {area:2159} raid'inin 40 kişilik boss'u; haftada bir geri gelir. Önce raide söyle. Dövüşün sonlarına doğru (yaklaşık %10-15 canda, yeniden yere indiğinde) {item:18489} kullanarak onu ateş nefesinin yoluna, genellikle ana tankın ayaklarının dibine dik. Nefesi onu ısıtınca {item:18488} almak için {object:179562} üzerine tıkla: o andan itibaren 20 dakikan var. Kılıcı dikerken ya da alırken nefesi seni öldürebilir; ölürsen ve o ölmeden kimse seni diriltmezse gelecek haftayı bekle. Yanlış yere mi diktin? Görevi bırak, yeni bir kılıç için Lydros'tan yeniden al.",
+	-- {npc:10184} Onyxia · {zone:1445} Dustwallow Marsh · {item:18489} Unfired Ancient Blade · {object:179562} Ancient Heated Blade · {item:18488} Heated Ancient Blade
 	-- {item:18489} Unfired Ancient Blade
 	["{item:18489}: plant it in her breath"] = "{item:18489}: nefesine dik",
 	["click the heated blade on the ground"] = "Yerdeki ısınmış kılıca tıkla",
@@ -42,4 +39,9 @@ return {
 	-- Step 5: The Forging of Quel'Serrar
 	-- {npc:14368} Lorekeeper Lydros · {item:18249} Crescent Key
 	["Back to {npc:14368} in the Athenaeum of Dire Maul West: through the West door with the {item:18249} again, and a group to reach the library."] = "Dire Maul West'in Athenaeum'undaki {npc:14368} yanına dön: West kapısından yine {item:18249} ile ve kütüphaneye ulaşmak için bir grupla.",
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["A tank sword at 60: a {area:2577} book, then {npc:10184}'s breath tempers the blade (the sword is not in Forever's items yet)."] = "60'ta bir tank kılıcı: bir {area:2577} kitabı, sonra {npc:10184} nefesi bıçağı sertleştirir (kılıç henüz Forever'ın eşyalarında yok).",
+	["The book is a rare random drop from the bosses of all three {area:2577} wings (Alzzin, Hydrospawn and the rest of the East, Tendris, Illyanna, Kalendris, {npc:11496} and the West, {npc:11501} and the North's guards) and very rarely from the tribute chest; it can be traded, so the auction house may have one. {area:2577} is a five-player dungeon in the ruins of central {zone:1444}: needs a group of five. Right-click the book to start the quest; it stays in your bags."] = "Kitap, üç {area:2577} kanadının da boss'larından (Alzzin, Hydrospawn ve East'in diğerleri, Tendris, Illyanna, Kalendris, {npc:11496} ve West, {npc:11501} ve North'un muhafızları) nadir, rastgele düşer, çok nadiren de haraç sandığından çıkar; takas edilebilir, müzayede evinde olabilir. {area:2577}, orta {zone:1444} bölgesindeki harabelerde beş kişilik bir zindan: beş kişilik bir grup gerekir. Görevi başlatmak için kitaba sağ tıkla; çantanda kalır.",
+	["{npc:10184} is the 40-player raid boss of {area:2159}, a cave in the {area:511} of southern {zone:1445}; she returns once a week. Tell the raid first. Late in the fight (around 10-15% health, when she has landed again) use the {item:18489} to plant it in the path of her fire breath, usually by the main tank's feet. When her breath has heated it, click the {object:179562} to take the {item:18488}: from then you have 20 minutes. Her breath can kill you while you plant or pick up the blade; if you die and nobody brings you back before she dies, wait for next week. Planted in the wrong place? Abandon the quest, take it again from Lydros for a new blade."] = "{npc:10184}, güney {zone:1445} bölgesindeki {area:511} içinde bir mağara olan {area:2159} raid'inin 40 kişilik boss'u; haftada bir geri gelir. Önce raide söyle. Dövüşün sonlarına doğru (yaklaşık %10-15 canda, yeniden yere indiğinde) {item:18489} kullanarak onu ateş nefesinin yoluna, genellikle ana tankın ayaklarının dibine dik. Nefesi onu ısıtınca {item:18488} almak için {object:179562} üzerine tıkla: o andan itibaren 20 dakikan var. Kılıcı dikerken ya da alırken nefesi seni öldürebilir; ölürsen ve o ölmeden kimse seni diriltmezse gelecek haftayı bekle. Yanlış yere mi diktin? Görevi bırak, yeni bir kılıç için Lydros'tan yeniden al.",
 }

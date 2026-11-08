@@ -11,14 +11,10 @@ return {
 	-- {zone:1413} Barrens · {zone:1443} Desolace · {zone:1445} Dustwallow Marsh
 	["Picks up west of the {zone:1413}, in {zone:1443}, and ends in {zone:1445}. 15 areas to discover here, levels 30-39."] = "{zone:1413} bölgesinin batısında, {zone:1443} bölgesinde devam eder ve {zone:1445} bölgesinde biter. Burada keşfedilecek 15 alan var, seviye 30-39.",
 	["Exploring the entire world map on one character is a Forever Legacy Challenge (1 account-wide Legacy Point)."] = "Tek bir karakterle tüm dünya haritasını keşfetmek bir Forever Legacy Challenge'ı (hesap geneli 1 Legacy Point).",
-	-- {area:467} Stonetalon Peak · {area:608} Nijel's Point · {zone:1442} Stonetalon Mountains · {zone:1443} Desolace
-	["Fly to {area:467} (or to {area:608} if you have it) and take the road south-west out of the {zone:1442} into {zone:1443}; {area:608} in the north is the Alliance town."] = "{area:467} kasabasına (ya da sende varsa {area:608} karakoluna) uç ve güneybatıya giden yoldan {zone:1442} bölgesinden çıkıp {zone:1443} bölgesine gir; kuzeydeki {area:608} Alliance kasabası.",
-	-- {area:460} Sun Rock Retreat · {zone:1443} Desolace · {area:2408} Shadowprey Village
-	["Fly to {area:460} and take the road south-west into {zone:1443}; {area:2408} on the west coast is the Horde town."] = "{area:460} kampına uç ve güneybatıya giden yoldan {zone:1443} bölgesine gir; batı kıyısındaki {area:2408} Horde kasabası.",
-	-- {area:608} Nijel's Point · {npc:6706} Baritanas Skyriver
-	["Flight path here: {area:608} ({npc:6706})."] = "Uçuş noktası: {area:608} ({npc:6706}).",
-	-- {area:2408} Shadowprey Village
-	["Flight path here: {area:2408} (Thalon)."] = "Uçuş noktası: {area:2408} (Thalon).",
+	-- {object:19554} Stonetalon Peak (no name in this language: may be words) · {object:176948} Nijel's Point (no name in this language: may be words) · {zone:1442} Stonetalon Mountains · {zone:1443} Desolace
+	-- {object:19559} Sun Rock Retreat (no name in this language: may be words) · {zone:1443} Desolace · {object:176946} Shadowprey Village (no name in this language: may be words)
+	-- {object:176948} Nijel's Point (no name in this language: may be words) · {npc:6706} Baritanas Skyriver
+	-- {object:176946} Shadowprey Village (no name in this language: may be words)
 	["Alliance town: Horde characters only need to touch its edge (guards)"] = "Alliance kasabası: Horde karakterlerinin yalnızca kenarına dokunması yeterli (muhafızlar)",
 
 	-- Step 2: Desolace (2/2)
@@ -26,46 +22,55 @@ return {
 
 	-- Step 3: Shen'dralas
 	["7 areas to discover here."] = "Burada keşfedilecek 7 alan var.",
-	-- {zone:2652} Shen'dralas · {zone:1443} Desolace · {zone:1412} Mulgore · {area:2657} Valley of Bones
-	["{zone:2652}, the ruins between {zone:1443} and {zone:1412}, is entered from southern {zone:1443} through the {area:2657}."] = "{zone:1443} ile {zone:1412} arasındaki harabeler olan {zone:2652} bölgesine {zone:1443} bölgesinin güneyinden, {area:2657} vadisinden girilir.",
+	-- {zone:2652} Shen'dralas · {zone:1443} Desolace · {zone:1412} Mulgore
 
 	-- Step 4: Feralas (1/2)
 	["16 areas to discover here, levels 41-60."] = "Burada keşfedilecek 16 alan var, seviye 41-60.",
 	-- {zone:1443} Desolace · {zone:1444} Feralas
 	["Go back into southern {zone:1443}; the road continues south into {zone:1444}."] = "{zone:1443} bölgesinin güneyine dön; yol güneye, {zone:1444} bölgesine devam eder.",
-	-- {area:1116} Feathermoon Stronghold · {area:1120} Sardor Isle · {area:1108} Forgotten Coast
-	["{area:1116} on {area:1120} is the Alliance town (boat from the {area:1108})."] = "{area:1120} adasındaki {area:1116} Alliance kasabası ({area:1108} kıyısından gemiyle).",
-	-- {area:1099} Camp Mojache
-	["{area:1099} in the east is the Horde town."] = "Doğudaki {area:1099} Horde kasabası.",
-	-- {area:489} Thalanaar · {npc:8019} Fyldren Moonfeather
-	["Flight paths here: {area:489} (Thyssiana), Feathermoon ({npc:8019})."] = "Uçuş noktaları: {area:489} (Thyssiana), Feathermoon ({npc:8019}).",
-	-- {area:1099} Camp Mojache
-	["Flight path here: {area:1099} (Shyn)."] = "Uçuş noktası: {area:1099} (Shyn).",
+	-- {object:152576} Feathermoon Stronghold (no name in this language: may be words)
+	-- {object:176945} Camp Mojache (no name in this language: may be words)
+	-- {npc:8019} Fyldren Moonfeather
+	-- {object:176945} Camp Mojache (no name in this language: may be words)
+
+	-- Step 5: Feralas (2/2)
 
 	-- Step 6: Feralas: level 60+ areas
 	-- {zone:1444} Feralas
 	["{zone:1444}: level 60+ areas"] = "{zone:1444}: seviye 60+ alanlar",
-	-- {area:1113} Oneiros · {area:1111} Dream Bough
-	["{area:1113} and {area:1111} are level 60 areas, far above this guide. Skip this step for now and come back near that level: exploring the whole map needs them."] = "{area:1113} ve {area:1111} seviye 60 alanları, bu rehberin çok üstünde. Bu adımı şimdilik atla ve o seviyeye yaklaşınca geri gel: bütün haritayı keşfetmek için gerekiyorlar.",
 	["level 60 area, well above this guide's range"] = "seviye 60 alan, bu rehberin aralığının çok üstünde",
 
 	-- Step 7: Dustwallow Marsh
 	["7 areas to discover here, levels 36-61."] = "Burada keşfedilecek 7 alan var, seviye 36-61.",
-	-- {area:150} Menethil Harbor · {area:513} Theramore Isle
-	["Fly to Theramore (or take the boat from {area:150}); {area:513} is the Alliance town."] = "Theramore'a uç (ya da {area:150} limanından gemiye bin); {area:513} Alliance kasabası.",
-	-- {zone:1445} Dustwallow Marsh · {zone:1413} Barrens · {area:496} Brackenwall Village
-	["{zone:1445} is east of the southern {zone:1413}; {area:496} in the north-west is the Horde town."] = "{zone:1445}, {zone:1413} bölgesinin güneyinin doğusunda; kuzeybatıdaki {area:496} Horde kasabası.",
+	-- {object:1162} Menethil Harbor (no name in this language: may be words) · {object:21056} Theramore Isle (no name in this language: may be words)
+	-- {zone:1445} Dustwallow Marsh · {zone:1413} Barrens · {object:21082} Brackenwall Village (no name in this language: may be words)
 	["Flight path here: Theramore (Baldruc)."] = "Uçuş noktası: Theramore (Baldruc).",
-	-- {area:496} Brackenwall Village
-	["Flight path here: {area:496} (Shardi)."] = "Uçuş noktası: {area:496} (Shardi).",
+	-- {object:21082} Brackenwall Village (no name in this language: may be words)
 	["any one of these names counts"] = "bu adlardan herhangi biri sayılır",
 	["Horde town: Alliance characters only need to touch its edge (guards); any one of these names counts"] = "Horde kasabası: Alliance karakterlerinin yalnızca kenarına dokunması yeterli (muhafızlar); bu adlardan herhangi biri sayılır",
+	-- {object:21082} Brackenwall Village (no name in this language: may be words)
+	-- {object:21054} North Point Tower (no name in this language: may be words)
 	["Alliance town: Horde characters only need to touch its edge (guards); any one of these names counts"] = "Alliance kasabası: Horde karakterlerinin yalnızca kenarına dokunması yeterli (muhafızlar); bu adlardan herhangi biri sayılır",
 
 	-- Step 8: Dustwallow Marsh: level 61+ area
 	-- {zone:1445} Dustwallow Marsh
 	["{zone:1445}: level 61+ area"] = "{zone:1445}: seviye 61+ alan",
-	-- {area:2079} Alcaz Island
-	["{area:2079} is a level 61 area, far above this guide. Skip this step for now and come back near that level: exploring the whole map needs it."] = "{area:2079} seviye 61 bir alan, bu rehberin çok üstünde. Bu adımı şimdilik atla ve o seviyeye yaklaşınca geri gel: bütün haritayı keşfetmek için gerekiyor.",
 	["level 61 area, well above this guide's range"] = "seviye 61 alan, bu rehberin aralığının çok üstünde",
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["Fly to {area:467} (or to {area:608} if you have it) and take the road south-west out of the {zone:1442} into {zone:1443}; {area:608} in the north is the Alliance town."] = "{area:467} kasabasına (ya da sende varsa {area:608} karakoluna) uç ve güneybatıya giden yoldan {zone:1442} bölgesinden çıkıp {zone:1443} bölgesine gir; kuzeydeki {area:608} Alliance kasabası.",
+	["Fly to {area:460} and take the road south-west into {zone:1443}; {area:2408} on the west coast is the Horde town."] = "{area:460} kampına uç ve güneybatıya giden yoldan {zone:1443} bölgesine gir; batı kıyısındaki {area:2408} Horde kasabası.",
+	["Flight path here: {area:608} ({npc:6706})."] = "Uçuş noktası: {area:608} ({npc:6706}).",
+	["Flight path here: {area:2408} (Thalon)."] = "Uçuş noktası: {area:2408} (Thalon).",
+	["{zone:2652}, the ruins between {zone:1443} and {zone:1412}, is entered from southern {zone:1443} through the {area:2657}."] = "{zone:1443} ile {zone:1412} arasındaki harabeler olan {zone:2652} bölgesine {zone:1443} bölgesinin güneyinden, {area:2657} vadisinden girilir.",
+	["{area:1116} on {area:1120} is the Alliance town (boat from the {area:1108})."] = "{area:1120} adasındaki {area:1116} Alliance kasabası ({area:1108} kıyısından gemiyle).",
+	["{area:1099} in the east is the Horde town."] = "Doğudaki {area:1099} Horde kasabası.",
+	["Flight paths here: {area:489} (Thyssiana), Feathermoon ({npc:8019})."] = "Uçuş noktaları: {area:489} (Thyssiana), Feathermoon ({npc:8019}).",
+	["Flight path here: {area:1099} (Shyn)."] = "Uçuş noktası: {area:1099} (Shyn).",
+	["{area:1113} and {area:1111} are level 60 areas, far above this guide. Skip this step for now and come back near that level: exploring the whole map needs them."] = "{area:1113} ve {area:1111} seviye 60 alanları, bu rehberin çok üstünde. Bu adımı şimdilik atla ve o seviyeye yaklaşınca geri gel: bütün haritayı keşfetmek için gerekiyorlar.",
+	["Fly to Theramore (or take the boat from {area:150}); {area:513} is the Alliance town."] = "Theramore'a uç (ya da {area:150} limanından gemiye bin); {area:513} Alliance kasabası.",
+	["{zone:1445} is east of the southern {zone:1413}; {area:496} in the north-west is the Horde town."] = "{zone:1445}, {zone:1413} bölgesinin güneyinin doğusunda; kuzeybatıdaki {area:496} Horde kasabası.",
+	["Flight path here: {area:496} (Shardi)."] = "Uçuş noktası: {area:496} (Shardi).",
+	["{area:2079} is a level 61 area, far above this guide. Skip this step for now and come back near that level: exploring the whole map needs it."] = "{area:2079} seviye 61 bir alan, bu rehberin çok üstünde. Bu adımı şimdilik atla ve o seviyeye yaklaşınca geri gel: bütün haritayı keşfetmek için gerekiyor.",
 }

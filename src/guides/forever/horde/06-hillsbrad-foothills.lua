@@ -4,23 +4,16 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Step 1: Tarren Mill
-	-- {area:272} Tarren Mill
-	["{area:272} is your base for this guide: the hearth brings you back here twice. Everyone stands around the town square."] = "Bu rehberde üssün {area:272} kasabası: Hearthstone seni iki kez buraya geri getirir. Herkes kasaba meydanının çevresinde duruyor.",
-	["Inside"] = "İçeride",
+	-- {object:1772} Tarren Mill (no name in this language: may be words)
 	-- {item:7768} Empty Red Waterskin · {object:107045} Spring Well
 	["Fill the {item:7768} at the {object:107045} beside the inn"] = "{item:7768} eşyasını hanın yanındaki {object:107045} kuyusunda doldur",
-	-- {npc:2388} Innkeeper Shay
-	["{npc:2388}: the last guide binds here, so this usually ticks at once"] = "{npc:2388}: önceki rehber Hearthstone'u burada bağlar, bu yüzden bu genelde hemen tamamlanır",
 	-- {object:556670} WANTED
 	["The {object:556670} poster by the inn"] = "Hanın yanındaki {object:556670} afişi",
 	-- {npc:2229} Krusk
 	["{npc:2229}, inside"] = "{npc:2229}, içeride",
-	-- {quest:567} Dangerous!
-	["The {quest:567} poster: its targets come up along the way; inside"] = "{quest:567} afişi: hedefleri yol boyunca çıkar; içeride",
 
 	-- Step 2: Serge Hinott
-	-- {quest:2479} Hinott's Assistance · {npc:2391} Serge Hinott · {area:272} Tarren Mill
-	["After returning Mission: Possible But Not Probable to Shenthul, bring {quest:2479} to {npc:2391} in {area:272}. Stay beside him until the brewing objective completes, then hand in the follow-up to learn Poisons. Finish it even if the Zanzil poison has already been removed; removing the debuff alone does not teach the skill."] = "Mission: Possible But Not Probable görevini Shenthul'a teslim ettikten sonra {quest:2479} görevini {area:272} kasabasındaki {npc:2391} yanına götür. Demleme hedefi tamamlanana kadar yanında kal, sonra Poisons öğrenmek için devam görevini teslim et. Zanzil zehri zaten kalkmış olsa bile görevi bitir; yalnızca zayıflatıcı etkiyi kaldırmak beceriyi öğretmez.",
+	-- {quest:2479} Hinott's Assistance · {npc:2391} Serge Hinott · {object:1772} Tarren Mill (no name in this language: may be words)
 	-- {npc:2391} Serge Hinott
 	["{npc:2391}: Poisons"] = "{npc:2391}: Poisons",
 	["Poison chain unfinished? Resume your current stage in the Class guide Poisons (Horde); completed quests do not need restarting. Arrange a group for Gallywix, finish the Hinott follow-up, then return to this leveling guide."] = "Zehir zinciri bitmedi mi? Bulunduğun aşamaya Sınıf rehberi Poisons (Horde) içinde devam et; tamamladığın görevleri yeniden başlatman gerekmez. Gallywix için bir grup ayarla, Hinott devam görevini bitir, sonra bu seviye rehberine dön.",
@@ -31,183 +24,144 @@ return {
 	-- plural, as words: Gray Bears = {npc:2351} Gray Bear · Forest Moss Creepers = {npc:2350} Forest Moss Creeper · Starving Mountain Lions = {npc:2384} Starving Mountain Lion
 	["West of Tarren Mill, Gray Bears, Forest Moss Creepers and Starving Mountain Lions roam the hills on the way down to the farms. The creepers drop {item:3477} rarely; you need only one."] = "Tarren Mill'in batısında, çiftliklere inen yoldaki tepelerde Gray Bear, Forest Moss Creeper ve Starving Mountain Lion yaratıkları dolaşıyor. Creeper yaratıkları {item:3477} eşyasını nadiren düşürür; yalnızca bir tane gerekiyor.",
 
-	-- Step 4: Tarren Mill
+	-- Step 4: Hillsbrad Fields
+	-- {npc:232} Farmer Ray · {npc:2403} Farmer Getz · {npc:2451} Farmer Kalaba
+
+	-- Step 5: Mountain Lion Blood
+	["Careful: When one lion is attacked, nearby lions come to its aid, and the Vicious Black Bears sharing those fields can also join the fight."] = "Dikkat: Bir aslana saldırıldığında yakındaki aslanlar yardımına gelir, aynı tarlaları paylaşan Vicious Black Bear yaratıkları da dövüşe katılabilir.",
+
+	-- Step 6: Tarren Mill
 	-- {npc:2216} Apothecary Lydon
 	["{npc:2216}, inside"] = "{npc:2216}, içeride",
 	-- {npc:2230} Umpi
 	["{npc:2230}, next to Lydon; inside"] = "{npc:2230}, Lydon'ın yanında; içeride",
+	-- {quest:567} Dangerous!
+	["The {quest:567} poster: Kalaba with the peasants, Wilkes at the smithy; the clerk and the miner on the visit at about 30; inside"] = "{quest:567} ilanı: köylülerle Kalaba, demirhanede Wilkes; katip ve madenci yaklaşık 30. seviyedeki ziyarette; içeride",
 
-	-- Step 5: Tarren Mill
-	-- {area:272} Tarren Mill
-	["Follow the road east along the river, then north-east up into the hills to {area:272}."] = "Yolu nehir boyunca doğuya, sonra kuzeydoğuya, tepelerdeki {area:272} kasabasına doğru izle.",
+	-- Step 7: Stanley
+	-- {npc:2274} Stanley · {npc:232} Farmer Ray
 
-	-- Step 6: Mountain Lion Blood
-	["Careful: When one lion is attacked, nearby lions come to its aid, and the Vicious Black Bears sharing those fields can also join the fight."] = "Dikkat: Bir aslana saldırıldığında yakındaki aslanlar yardımına gelir, aynı tarlaları paylaşan Vicious Black Bear yaratıkları da dövüşe katılabilir.",
-
-	-- Step 7: Hillsbrad Fields
-	-- {area:287} Hillsbrad · {npc:232} Farmer Ray · {npc:2403} Farmer Getz · {npc:2451} Farmer Kalaba
-	["The farms east of {area:287} town. {npc:232} works the field by the northern farmhouse, {npc:2403} the one further south-east; Farmhands and Farmers are everywhere. {npc:2451} tends the field south of the farms."] = "{area:287} kasabasının doğusundaki çiftlikler. {npc:232} kuzeydeki çiftlik evinin yanındaki tarlada, {npc:2403} ise daha güneydoğudakinde çalışıyor; her yer Farmhand ve Farmer yaratıklarıyla dolu. {npc:2451} çiftliklerin güneyindeki tarlayla ilgileniyor.",
-	-- {npc:2451} Farmer Kalaba · {area:286} Hillsbrad Fields
-	["{npc:2451} walks around {area:286}: look inside the circle on the map"] = "{npc:2451}, {area:286} çevresinde dolaşıyor: haritadaki çemberin içine bak",
-
-	-- Step 9: Stanley
-	-- {npc:2274} Stanley · {npc:232} Farmer Ray · {area:286} Hillsbrad Fields
-	["{npc:2274} is {npc:232}'s dog, at the northern farmhouse in {area:286}."] = "{npc:2274}, {npc:232} adlı NPC'nin köpeği; {area:286} tarlalarındaki kuzey çiftlik evinde.",
-
-	-- Step 10: Hillsbrad Fields: kill these as you meet them
-	-- {area:286} Hillsbrad Fields
-	["{area:286}: kill these as you meet them"] = "{area:286}: bunları karşılaştıkça öldür",
-	-- {area:287} Hillsbrad
-	["The Peasants work the fields south of the farmhouses. Every {area:287} human drops skulls; the Peasants drop them most often.\nCareful: A fleeing peasant that reaches the town hall can bring back many adds, including {area:287} footmen; snares, roots or similar effects keep them from escaping."] = "Peasant'lar çiftlik evlerinin güneyindeki tarlalarda çalışıyor. {area:287} kasabasının her insanı kafatası düşürür; en sık Peasant'lar düşürür.\nDikkat: Kaçan bir peasant belediye binasına ulaşırsa aralarında {area:287} piyadelerinin de bulunduğu çok sayıda ek yaratık getirebilir; yavaşlatma, kök salma ya da benzeri etkiler kaçmalarını önler.",
+	-- Step 8: Hillsbrad Fields: kill these as you meet them
 	-- {item:3692} Hillsbrad Human Skull
 	["{item:3692}: the Peasants in the fields"] = "{item:3692}: tarlalardaki Peasant yaratıkları",
+	-- {npc:2451} Farmer Kalaba
 
-	-- Step 11: Hearth to Tarren Mill
-	-- {area:272} Tarren Mill
-	["Hearth to {area:272}"] = "Hearthstone ile dön: {area:272}",
-
-	-- Step 12: Tarren Mill
+	-- Step 9: Tarren Mill
 	-- {npc:2215} High Executor Darthalia · {npc:270438} Deathstalker Masoj
 	["{npc:2215}: orders for {npc:270438}, on the way to Durnholde"] = "{npc:2215}: Durnholde yolundaki {npc:270438} için emirler",
+	-- {npc:2216} Apothecary Lydon · {item:3502} Mudsnout Blossoms
+	["{npc:2216}, inside: the {item:3502} grow south-west of Durnholde, on the walk there"] = "{npc:2216}, içeride: {item:3502} Durnholde'un güneybatısında, oraya yürürken yolda yetişiyor",
 
-	-- Step 13: Durnholde Keep: kill these as you meet them
-	-- {area:275} Durnholde Keep
-	["{area:275}: kill these as you meet them"] = "{area:275}: bunları karşılaştıkça öldür",
-	-- {npc:2238} Tog'thar · {area:275} Durnholde Keep · {area:272} Tarren Mill
-	["Drull and {npc:2238} are chained inside {area:275}'s courtyard buildings; open both locks.\nFrom {area:272} go south-east into the hills on the way to {area:275}. Rogues and Watchmen hold the camps along the way."] = "Drull ve {npc:2238}, {area:275} kalesinin avlusundaki binaların içinde zincirli; iki kilidi de aç.\n{area:272} kasabasından güneydoğuya, {area:275} kalesine giden yoldaki tepelere git. Yol boyunca kampları Rogue ve Watchman yaratıkları tutuyor.",
+	-- Step 10: Durnholde Keep: kill these as you meet them
+	-- {object:1776} Durnholde Keep (no name in this language: may be words)
+	-- {npc:2238} Tog'thar · {object:1776} Durnholde Keep (no name in this language: may be words) · {object:1772} Tarren Mill (no name in this language: may be words)
 	-- {npc:2261} Syndicate Watchman
 	["{npc:2261} walks around here: look inside the circle on the map"] = "{npc:2261} buralarda dolaşıyor: haritadaki çemberin içine bak",
 	["Drull's ball and chain"] = "Drull'un pranga ve zinciri",
 	-- {npc:2238} Tog'thar
 	["{npc:2238}'s ball and chain"] = "{npc:2238} adlı NPC'nin pranga ve zinciri",
 
-	-- Step 14: Mudsnout Blossoms
+	-- Step 11: Mudsnout Blossoms
 	-- {item:3502} Mudsnout Blossoms
 	["South-west of Durnholde, the {item:3502} grow on the hillsides above the river."] = "Durnholde'un güneybatısında, {item:3502} nehrin yukarısındaki yamaçlarda yetişiyor.",
 
-	-- Step 15: Deathstalker Masoj
-	-- {area:290} Dun Garok
-	["Masoj hides on the hillside above {area:290}, south of Durnholde, on the way down to the blossoms."] = "Masoj, Durnholde'un güneyinde, çiçeklere inen yolda, {area:290} kalesinin yukarısındaki yamaçta saklanıyor.",
+	-- Step 12: Deathstalker Masoj
+	-- {object:1784} Dun Garok (no name in this language: may be words)
+	-- {npc:270438} Deathstalker Masoj · {quest:98094} Scout Support
+	["{npc:270438}, once {quest:98094} is in"] = "{npc:270438}, {quest:98094} teslim edildikten sonra",
 
-	-- Step 16: The smithy
+	-- Step 13: The southern peak
+	["The southern peak"] = "Güney tepesi",
+	-- {object:1784} Dun Garok (no name in this language: may be words)
+
+	-- Step 14: The smithy
 	["The smithy"] = "Demirhane",
-	-- {area:287} Hillsbrad · {npc:2404} Blacksmith Verringtan · {object:1736} Shipment of Iron · {npc:2449} Citizen Wilkes
-	["The smithy stands in the middle of {area:287} town. {npc:2404} and his apprentices work at the forge; the {object:1736} is stacked beside it. {npc:2449} walks the street north of it."] = "Demirhane {area:287} kasabasının ortasında. {npc:2404} ve çırakları ocakta çalışıyor; {object:1736} hemen yanında istiflenmiş. {npc:2449} onun kuzeyindeki sokakta dolaşıyor.",
+	-- {npc:2404} Blacksmith Verringtan · {object:1736} Shipment of Iron · {npc:2449} Citizen Wilkes
+	["Inside"] = "İçeride",
+
+	-- Step 15: The western peak
+	["The western peak"] = "Batı tepesi",
+
+	-- Step 16: Back to Tarren Mill
+	-- {object:1772} Tarren Mill (no name in this language: may be words)
+	-- {object:1772} Tarren Mill (no name in this language: may be words)
 
 	-- Step 17: Tarren Mill
 	-- {npc:2055} Master Apothecary Faranell · {zone:1458} Undercity
 	["{npc:2055}, in the {zone:1458}"] = "{npc:2055}, {zone:1458} şehrinde",
 
-	-- Step 18: Town hall
-	["Town hall"] = "Belediye binası",
-	-- {area:287} Hillsbrad · {npc:2335} Magistrate Burnside · {npc:2448} Clerk Horrace Whitesteed
-	["The town hall is on the west side of {area:287}. {npc:2335} (30) and {npc:2448} are inside with the Town Registry; the Proclamation is pinned up beside it. Councilmen walk the town."] = "Belediye binası {area:287} kasabasının batı yakasında. {npc:2335} (30) ve {npc:2448}, Town Registry ile birlikte içeride; Proclamation hemen yanına asılmış. Kasabada Councilman yaratıkları dolaşıyor.",
-	-- {object:1761} Hillsbrad Proclamation
-	["{object:1761}, inside"] = "{object:1761}, içeride",
+	-- Step 18: The northern peak
+	["The northern peak"] = "Kuzey tepesi",
+	-- {object:1772} Tarren Mill (no name in this language: may be words)
 
-	-- Step 20: Azurelode Mine
-	-- {area:288} Azurelode Mine · {area:287} Hillsbrad · {npc:2305} Foreman Bonds · {npc:2450} Miner Hackett
-	["The {area:288} lies south of {area:287} town. Miners work the tunnels; {npc:2305} (30) and {npc:2450} (29) are deep inside."] = "{area:288}, {area:287} kasabasının güneyinde. Tünellerde Miner yaratıkları çalışıyor; {npc:2305} (30) ve {npc:2450} (29) derinlerde.",
-	-- {area:288} Azurelode Mine
-	["Inside {area:288}"] = "{area:288} içinde",
+	-- Step 19: Deathstalker Masoj
+	-- {object:1784} Dun Garok (no name in this language: may be words)
 
-	-- Step 24: To the Undercity
+	-- Step 20: The Sepulcher
+	-- {object:1772} Tarren Mill (no name in this language: may be words) · {npc:2121} Shadow Priest Allister
+	-- {object:1772} Tarren Mill (no name in this language: may be words)
+
+	-- Step 21: Fly to the Undercity
 	-- {zone:1458} Undercity
-	["To the {zone:1458}"] = "Git: {zone:1458}",
-	-- {area:380} Crossroads · {zone:1454} Orgrimmar · {area:85} Tirisfal Glades · {zone:1458} Undercity · {area:153} Ruins of Lordaeron · {object:36078} Trade Quarter
-	["Head east to the {area:380} and fly to {zone:1454}. Take the zeppelin from the towers outside {zone:1454} to {area:85}; the {zone:1458} lies below the {area:153}. The bat handler is in the {object:36078}."] = "Doğuya, {area:380} kasabasına git ve {zone:1454} şehrine uç. {zone:1454} şehrinin dışındaki kulelerden {area:85} zeplinine bin; {zone:1458}, {area:153} harabelerinin altında. Yarasa bakıcısı {object:36078} kesiminde.",
-	-- {npc:10181} Lady Sylvanas Windrunner · {object:36126} Royal Quarter · {quest:93739} Exploring the Horde
-	["Speak with {npc:10181}, in the {object:36126}: {quest:93739}"] = "{object:36126} semtindeki {npc:10181} ile konuş: {quest:93739}",
-	-- {npc:10181} Lady Sylvanas Windrunner
-	["Talk to {npc:10181}"] = "Konuş: {npc:10181}",
+	-- {npc:2226} Karos Razok · {zone:1458} Undercity
 
-	-- Step 25: Aelthalyste
+	-- Step 22: Aelthalyste
 	-- {npc:4606} Aelthalyste · {object:36070} War Quarter
 	["{npc:4606} stands in the {object:36070}."] = "{npc:4606}, {object:36070} semtinde duruyor.",
 
-	-- Step 26: Master Apothecary Faranell
+	-- Step 23: Master Apothecary Faranell
 	-- {npc:2055} Master Apothecary Faranell
 	["{npc:2055}, in the Apothecarium"] = "{npc:2055}, Apothecarium içinde",
-	-- {area:287} Hillsbrad
-	["Keep it: the {area:287} coast, later on the route"] = "Sakla: {area:287} kıyısı, rotanın ilerleyen kısmında",
 
-	-- Step 27: Archibald
-	-- {spell:202} Two-Handed Swords · {npc:11870} Archibald · {object:36070} War Quarter
-	["While you're here: learn {spell:202} from {npc:11870} ({object:36070}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11870} sana {spell:202} öğretir ({object:36070}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
+	-- Step 24: Archibald
+	-- {npc:11870} Archibald · {object:36070} War Quarter
 
-	-- Step 28: Archibald
+	-- Step 25: Archibald
 	-- {npc:11870} Archibald · {object:36070} War Quarter
 	["While you're here: learn Polearms from {npc:11870} ({object:36070}, 1 gold); two-handers level a Warrior fastest."] = "Buradayken: {npc:11870} sana Polearms öğretir ({object:36070}, 1 altın); Warrior en hızlı iki elli silahla seviye atlar.",
 
-	-- Step 29: Archibald
-	-- {spell:202} Two-Handed Swords · {npc:11870} Archibald · {object:36070} War Quarter
-	["While you're here: learn {spell:202} from {npc:11870} ({object:36070}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11870} sana {spell:202} öğretir ({object:36070}, 10 gümüş); Paladin en hızlı iki elli silahla seviye atlar.",
+	-- Step 26: Archibald
+	-- {npc:11870} Archibald · {object:36070} War Quarter
 
-	-- Step 30: Archibald
+	-- Step 27: Archibald
 	-- {npc:11870} Archibald · {object:36070} War Quarter
 	["While you're here: learn Polearms from {npc:11870} ({object:36070}, 1 gold); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11870} sana Polearms öğretir ({object:36070}, 1 altın); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
-	-- Step 31: Archibald
+	-- Step 28: Archibald
 	-- {npc:11870} Archibald · {object:36070} War Quarter
 	["While you're here: learn Swords from {npc:11870} ({object:36070}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "Buradayken: {npc:11870} sana Swords öğretir ({object:36070}, 10 gümüş); ana elde bir kılıçla Rogue istikrarla seviye atlar.",
 
-	-- Step 32: Zeppelin to Orgrimmar
+	-- Step 29: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
 	["Zeppelin to {zone:1454}"] = "Zeplinle {zone:1454} şehrine",
 
-	-- Step 34: Orgrimmar
-	-- {zone:1458} Undercity · {zone:1454} Orgrimmar
-	["Take the zeppelin from the towers outside the {zone:1458} to {zone:1454} and train before you fly on."] = "{zone:1458} şehrinin dışındaki kulelerden {zone:1454} zeplinine bin ve uçmaya devam etmeden önce eğitimini al.",
+	-- Step 31: Orgrimmar
+	["Train before you fly on: the next guide flies from here to the Crossroads."] = "Uçmadan önce eğitimini al: sonraki rehber buradan Crossroads'a uçar.",
 
-	-- Step 35: Camp Taurajo
-	-- {zone:1454} Orgrimmar · {zone:1458} Undercity · {area:378} Camp Taurajo
-	["From {zone:1454} (zeppelin from the towers outside the {zone:1458}) fly to {area:378}."] = "{zone:1454} şehrinden ({zone:1458} dışındaki kulelerden zeplinle) {area:378} kampına uç.",
 
-	-- Step 37: Brine
-	-- {npc:5899} Brine · {area:378} Camp Taurajo · {area:359} Bael Modan
-	["{npc:5899}'s hut stands on the ridge above the quilboar watering hole, south of {area:378}, on the way to {area:359}."] = "{npc:5899} adlı NPC'nin kulübesi {area:378} kampının güneyinde, {area:359} yolunda, quilboar su birikintisinin yukarısındaki sırtta.",
-	-- {npc:5899} Brine · {area:272} Tarren Mill
-	["{npc:5899}: the red waterskin from {area:272}"] = "{npc:5899}: {area:272} kasabasından getirdiğin kırmızı su tulumu",
-	-- {npc:5899} Brine · {zone:1440} Ashenvale
-	["{npc:5899}: the blue waterskin is filled in {zone:1440}, next guide"] = "{npc:5899}: mavi su tulumu {zone:1440} bölgesinde doldurulur; sonraki rehber",
-
-	-- Step 38: Tear of the Moons
-	-- {area:359} Bael Modan · {npc:3421} Feegly the Exiled · {object:3646} General Twinbraid's Strongbox
-	["Follow the road south to the dwarf dig site at {area:359}. {npc:3421} hides at the south edge of the dig; {object:3646} sits at the bottom of the excavation."] = "Yolu güneye izleyerek {area:359} alanındaki cüce kazısına git. {npc:3421} kazı alanının güney kenarında saklanıyor; {object:3646} kazının dibinde duruyor.",
-	-- {object:3646} General Twinbraid's Strongbox
-	["{object:3646}; below ground"] = "{object:3646}; yer altında",
-
-	-- Step 39: Great Lift
-	-- {npc:12576} Grish Longrunner · {area:1718} Great Lift
-	["South-west of Bael Modan, {npc:12576} waits at the top of the {area:1718}."] = "Bael Modan'ın güneybatısında {npc:12576}, {area:1718} asansörünün tepesinde bekliyor.",
-
-	-- Step 40: The Great Lift
-	-- {area:1718} Great Lift
-	["The {area:1718}"] = "{area:1718}",
-	-- {zone:1456} Thunder Bluff · {area:378} Camp Taurajo · {area:1718} Great Lift · {area:17} The Barrens
-	["Fly from {zone:1456} to {area:378} and take the road south to the {area:1718} at the bottom of the {area:17}."] = "{zone:1456} şehrinden {area:378} kampına uç ve yolu güneye, {area:17} bölgesinin dibindeki {area:1718} asansörüne izle.",
-	-- {npc:10079} Brave Moonhorn
-	["{npc:10079}, at the top of the lift"] = "{npc:10079}, asansörün tepesinde",
-
-	-- Step 41: Hearth to Camp Taurajo
-	-- {area:378} Camp Taurajo
-	["Hearth to {area:378}"] = "Hearthstone ile dön: {area:378}",
-
-	-- Step 42: Fly to Ratchet
-	-- {area:392} Ratchet
-	["Fly to {area:392}"] = "{area:392} limanına uç",
-	-- {area:378} Camp Taurajo
-	["{area:378} flight master"] = "{area:378} uçuş ustası",
-
-	-- Step 43: Ratchet
-	-- {npc:3442} Sputtervalve · {area:392} Ratchet
-	["{npc:3442}, by the docks in {area:392}"] = "{npc:3442}, {area:392} limanında iskelelerin yanında",
-
-	-- Step 44: Merchant Coast
-	-- {area:378} Camp Taurajo · {area:392} Ratchet · {quest:874} Mahren Skyseer
-	["Hearth to {area:378} and fly to {area:392}. {quest:874} camps on the shore north of {area:392}."] = "Hearthstone ile {area:378} kampına dön ve {area:392} limanına uç. {quest:874}, {area:392} limanının kuzeyindeki kıyıda kamp kurmuş.",
-
-	-- Step 45: Isha Awak
-	-- {quest:873} Isha Awak · {area:391} Merchant Coast · {npc:3388} Mahren Skyseer
-	["{quest:873}, a big threshadon, swims in the shallows off the {area:391}, east of {npc:3388}."] = "Büyük bir threshadon olan {quest:873}, {npc:3388} adlı NPC'nin doğusunda, {area:391} kıyısının açığındaki sığ sularda yüzüyor.",
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["{area:272} is your base for this guide: the hearth brings you back here twice. Everyone stands around the town square."] = "Bu rehberde üssün {area:272} kasabası: Hearthstone seni iki kez buraya geri getirir. Herkes kasaba meydanının çevresinde duruyor.",
+	["After returning Mission: Possible But Not Probable to Shenthul, bring {quest:2479} to {npc:2391} in {area:272}. Stay beside him until the brewing objective completes, then hand in the follow-up to learn Poisons. Finish it even if the Zanzil poison has already been removed; removing the debuff alone does not teach the skill."] = "Mission: Possible But Not Probable görevini Shenthul'a teslim ettikten sonra {quest:2479} görevini {area:272} kasabasındaki {npc:2391} yanına götür. Demleme hedefi tamamlanana kadar yanında kal, sonra Poisons öğrenmek için devam görevini teslim et. Zanzil zehri zaten kalkmış olsa bile görevi bitir; yalnızca zayıflatıcı etkiyi kaldırmak beceriyi öğretmez.",
+	["The farms east of {area:287} town. {npc:232} works the field by the northern farmhouse, {npc:2403} the one further south-east; Farmhands and Farmers are everywhere. {npc:2451} tends the field south of the farms."] = "{area:287} kasabasının doğusundaki çiftlikler. {npc:232} kuzeydeki çiftlik evinin yanındaki tarlada, {npc:2403} ise daha güneydoğudakinde çalışıyor; her yer Farmhand ve Farmer yaratıklarıyla dolu. {npc:2451} çiftliklerin güneyindeki tarlayla ilgileniyor.",
+	["{npc:2274} is {npc:232}'s dog, at the northern farmhouse in {area:286}."] = "{npc:2274}, {npc:232} adlı NPC'nin köpeği; {area:286} tarlalarındaki kuzey çiftlik evinde.",
+	["{area:286}: kill these as you meet them"] = "{area:286}: bunları karşılaştıkça öldür",
+	["The Peasants work the fields south of the farmhouses. Every {area:287} human drops skulls; the Peasants drop them most often.\nCareful: A fleeing peasant that reaches the town hall can bring back many adds, including {area:287} footmen; snares, roots or similar effects keep them from escaping."] = "Peasant'lar çiftlik evlerinin güneyindeki tarlalarda çalışıyor. {area:287} kasabasının her insanı kafatası düşürür; en sık Peasant'lar düşürür.\nDikkat: Kaçan bir peasant belediye binasına ulaşırsa aralarında {area:287} piyadelerinin de bulunduğu çok sayıda ek yaratık getirebilir; yavaşlatma, kök salma ya da benzeri etkiler kaçmalarını önler.",
+	["{npc:2451} walks around {area:286}: look inside the circle on the map"] = "{npc:2451}, {area:286} çevresinde dolaşıyor: haritadaki çemberin içine bak",
+	["{area:275}: kill these as you meet them"] = "{area:275}: bunları karşılaştıkça öldür",
+	["Drull and {npc:2238} are chained inside {area:275}'s courtyard buildings; open both locks.\nFrom {area:272} go south-east into the hills on the way to {area:275}. Rogues and Watchmen hold the camps along the way."] = "Drull ve {npc:2238}, {area:275} kalesinin avlusundaki binaların içinde zincirli; iki kilidi de aç.\n{area:272} kasabasından güneydoğuya, {area:275} kalesine giden yoldaki tepelere git. Yol boyunca kampları Rogue ve Watchman yaratıkları tutuyor.",
+	["Masoj hides on the hillside above {area:290}, south of Durnholde, on the way down to the blossoms."] = "Masoj, Durnholde'un güneyinde, çiçeklere inen yolda, {area:290} kalesinin yukarısındaki yamaçta saklanıyor.",
+	["Masoj wants an Apothecary Vial placed on three peaks. The southern one is the hilltop above {area:290}, just south of him: use a vial at the top."] = "Masoj üç tepeye birer Apothecary Vial konmasını istiyor. Güneydeki, onun hemen güneyinde, {area:290} kalesinin yukarısındaki tepe: tepede bir şişe kullan.",
+	["The smithy stands in the middle of {area:287} town. {npc:2404} and his apprentices work at the forge; the {object:1736} is stacked beside it. {npc:2449} walks the street north of it."] = "Demirhane {area:287} kasabasının ortasında. {npc:2404} ve çırakları ocakta çalışıyor; {object:1736} hemen yanında istiflenmiş. {npc:2449} onun kuzeyindeki sokakta dolaşıyor.",
+	["From {area:287} town go north into the foothills of Alterac: the western vial goes on the hilltop just past the border."] = "{area:287} kasabasından kuzeye, Alterac'ın eteklerine git: batı şişesi sınırın hemen ötesindeki tepeye konur.",
+	["Back to {area:272}"] = "{area:272} kasabasına dön",
+	["East along the foothills, then down into {area:272}."] = "Eteklerde doğuya ilerle, sonra {area:272} kasabasına in.",
+	["The northern peak rises south-east of {area:272}, on the way down towards Durnholde."] = "Kuzey tepesi, Durnholde'a inerken yolda, {area:272} kasabasının güneydoğusunda yükseliyor.",
+	["Back down to Masoj on the hillside above {area:290}."] = "{area:290} kalesinin yukarısındaki yamaçta bulunan Masoj yanına in.",
+	["Walk back up to {area:272} and fly to the {area:228}: {npc:2121} stands by the crypt entrance."] = "Yukarı, {area:272} kasabasına yürü ve {area:228} kasabasına uç: {npc:2121} mahzen girişinin yanında duruyor.",
+	["{area:272} flight master"] = "{area:272} uçuş ustası",
+	["Fly to the {area:1497}"] = "{area:1497} şehrine uç",
+	["Fly on from {npc:2226}, the bat handler just east of the crypt, to the {area:1497}."] = "Mahzenin hemen doğusundaki yarasa bakıcısı {npc:2226} ile {area:1497} şehrine uç.",
+	["Keep it: the {area:287} coast, later on the route"] = "Sakla: {area:287} kıyısı, rotanın ilerleyen kısmında",
+	["While you're here: learn {spell:202} from {npc:11870} ({object:36070}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11870} sana {spell:202} öğretir ({object:36070}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
+	["While you're here: learn {spell:202} from {npc:11870} ({object:36070}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11870} sana {spell:202} öğretir ({object:36070}, 10 gümüş); Paladin en hızlı iki elli silahla seviye atlar.",
 }

@@ -5,9 +5,11 @@
 return {
 	-- Step 1: Black whelps
 	["Black whelps"] = "Kara ejder yavruları",
-	-- {area:511} Wyrmbog · {zone:1445} Dustwallow Marsh · {zone:1418} Badlands
+	-- {zone:1445} Dustwallow Marsh · {zone:1418} Badlands
 	-- plural, as words: Searing Whelps = {npc:4324} Searing Whelp · Scalding Whelps = {npc:2725} Scalding Whelp
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
 	["The Searing Whelps of the {area:511} in southern {zone:1445} (level 42-43) and the Scalding Whelps of eastern {zone:1418} (level 41-43) drop it about once in 900 kills. The waypoint is the {area:511}, where the whelps stand thickest; the {zone:1418} whelps are the same grind. The whelpling can be traded, so the Auction House may be quicker."] = "{zone:1445} bölgesinin güneyindeki {area:511} bataklığının Searing Whelp yaratıkları (seviye 42-43) ve {zone:1418} bölgesinin doğusundaki Scalding Whelp yaratıkları (seviye 41-43) onu yaklaşık 900 öldürmede bir düşürür. Yol noktası, yavruların en yoğun olduğu {area:511}; {zone:1418} yavruları da aynı farm. Yavru takas edilebilir, bu yüzden müzayede evi daha hızlı olabilir.",
-	-- {area:511} Wyrmbog
 	["The {area:511}"] = "{area:511}",
 }

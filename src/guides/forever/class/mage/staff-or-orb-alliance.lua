@@ -9,15 +9,13 @@ return {
 	["A staff or an off-hand orb at 10 from your home town's mage trainer; Skyborne add a wand."] = "10'da memleketinin mage eğitmeninden bir asa ya da yan el küresi; Skyborne'lar bir wand da ekler.",
 
 	-- Step 1: Anathamaas Aetherwind (Valanaar)
-	-- {npc:252373} Anathamaas Aetherwind · {area:16638} Valanaar · {npc:256507} Belann Windwood
-	["At 10 {npc:252373}, the {area:16638} mage trainer, sends you to {npc:256507}, the staff merchant a few steps away in the same town."] = "10'da {area:16638} mage eğitmeni {npc:252373}, seni aynı kasabada birkaç adım ötedeki asa satıcısı {npc:256507} yanına gönderir.",
+	-- {npc:252373} Anathamaas Aetherwind
+	-- {npc:252373} Anathamaas Aetherwind · {npc:256507} Belann Windwood
 
 	-- Step 2: The Windstone Formations
 	-- plural, as words: Windstone Formations = {object:697118} Windstone Formation
 	["The Windstone Formations"] = "Windstone Formation nesneleri",
-	-- {area:16636} Falaath Village
 	-- plural, as words: Windstone Formations = {object:697118} Windstone Formation
-	["The bough lies on the ground among the Windstone Formations, the wind shrine on the rise west of Fillion's camp, south of {area:16636}. It does not sparkle, so look at the ground by the stones; there are two spots for it."] = "Dal, Fillion'un kampının batısındaki tepede bulunan rüzgâr tapınağı Windstone Formation taşlarının arasında, {area:16636} köyünün güneyinde yerde duruyor. Parıldamaz, bu yüzden taşların yanındaki yere bak; iki yeri var.",
 
 	-- Step 3: Back to Belann Windwood
 	-- {npc:256507} Belann Windwood
@@ -26,12 +24,12 @@ return {
 	["{quest:1861} (the next steps) waits for you with {npc:5497} in {zone:1453}, at about 15."] = "{quest:1861} (sonraki adımlar), 15 civarında {zone:1453} şehrinde {npc:5497} yanında seni bekliyor.",
 
 	-- Step 4: Zaldimar Wefhellt (Goldshire)
-	-- {npc:328} Zaldimar Wefhellt · {area:87} Goldshire · {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {npc:5144} Bink · {zone:1455} Ironforge
-	["At 10 {npc:328}, the {area:87} mage trainer, upstairs in the Lion's Pride Inn, sends you to {npc:5497} in {zone:1453}. Taking it shuts out {npc:5144}'s quest in {zone:1455}; you get one staff-or-orb quest."] = "10'da Lion's Pride Inn'in üst katındaki {area:87} mage eğitmeni {npc:328}, seni {zone:1453} şehrindeki {npc:5497} yanına gönderir. Bunu almak {zone:1455} şehrindeki {npc:5144} görevini kapatır; tek bir asa-ya-da-küre görevi alırsın.",
+	-- {npc:328} Zaldimar Wefhellt
+	-- {npc:328} Zaldimar Wefhellt · {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {npc:5144} Bink · {zone:1455} Ironforge
 
 	-- Step 5: Magis Sparkmantle (Kharanos)
-	-- {npc:1228} Magis Sparkmantle · {area:131} Kharanos · {area:2102} Thunderbrew Distillery · {npc:5144} Bink · {zone:1455} Ironforge · {npc:5497} Jennea Cannon · {quest:1861} Mirror Lake · {npc:328} Zaldimar Wefhellt · {area:87} Goldshire
-	["At 10 {npc:1228}, the {area:131} mage trainer in the {area:2102}, sends you to {npc:5144} in {zone:1455}. Taking it shuts out {npc:5497}'s {quest:1861}; you get one staff-or-orb quest. (A Gnome who took {npc:328}'s quest in {area:87} instead follows the {quest:1861} steps; a Human who took this one, the Gizmonitor steps.)"] = "10'da {area:2102} içindeki {area:131} mage eğitmeni {npc:1228}, seni {zone:1455} şehrindeki {npc:5144} yanına gönderir. Bunu almak {npc:5497} verdiği {quest:1861} görevini kapatır; tek bir asa-ya-da-küre görevi alırsın. (Bunun yerine {area:87} kasabasında {npc:328} görevini alan bir Gnome {quest:1861} adımlarını, bunu alan bir Human ise Gizmonitor adımlarını izler.)",
+	-- {npc:1228} Magis Sparkmantle
+	-- {npc:1228} Magis Sparkmantle · {npc:5144} Bink · {zone:1455} Ironforge · {npc:5497} Jennea Cannon · {quest:1861} Mirror Lake · {npc:328} Zaldimar Wefhellt
 
 	-- Step 6: Jennea Cannon
 	-- {zone:1453} Stormwind · {object:2101} Mage Quarter · {npc:5497} Jennea Cannon · {item:7207} Jennea's Flask · {quest:1861} Mirror Lake
@@ -57,9 +55,7 @@ return {
 	["{npc:5144} teaches mages in the {object:32362}, at the back of {zone:1455} past the {object:32386}."] = "{npc:5144}, {zone:1455} şehrinin arkasında, {object:32386} ötesindeki {object:32362} semtinde mage eğitiyor.",
 
 	-- Step 10: Bink's Toolbox
-	-- {area:133} Gnomeregan
 	-- plural, as words: Leper Gnomes = {npc:1211} Leper Gnome
-	["Head west along the road to {area:133}. Just north of its entrance stand two huts; the toolbox is in the taller, eastern one, the hut with the lift: a small grey box on the ground floor, half under the table beside the lift. Leper Gnomes (level 8) guard the huts: pull them singly. There is only one toolbox and it takes 15 minutes to come back after someone opens it, so wait nearby if it is gone."] = "Yol boyunca batıya, {area:133} şehrine git. Girişinin hemen kuzeyinde iki kulübe duruyor; alet kutusu daha yüksek olan doğudakinde, asansörlü kulübede: zemin katta, asansörün yanındaki masanın yarı altında küçük gri bir kutu. Leper Gnome yaratıkları (seviye 8) kulübeleri koruyor: tek tek çek. Yalnızca bir alet kutusu var ve biri açtıktan sonra geri gelmesi 15 dakika sürer, bu yüzden yoksa yakında bekle.",
 
 	-- Step 11: Back to Bink
 	-- {npc:5144} Bink
@@ -70,7 +66,14 @@ return {
 	-- Step 12: Belann Windwood's wand (optional)
 	-- {npc:256507} Belann Windwood
 	["{npc:256507}'s wand (optional)"] = "{npc:256507} wand'ı (isteğe bağlı)",
-	-- {npc:256507} Belann Windwood · {area:16638} Valanaar · {zone:2521} Zephras Isle · {npc:252373} Anathamaas Aetherwind · {item:262668} Wind-Infused Bough · {area:16636} Falaath Village · {item:263430} Windbough Wand
+	-- {npc:256507} Belann Windwood · {zone:2521} Zephras Isle · {npc:252373} Anathamaas Aetherwind · {item:262668} Wind-Infused Bough · {item:263430} Windbough Wand
 	-- plural, as words: Windstone Formations = {object:697118} Windstone Formation
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["At 10 {npc:252373}, the {area:16638} mage trainer, sends you to {npc:256507}, the staff merchant a few steps away in the same town."] = "10'da {area:16638} mage eğitmeni {npc:252373}, seni aynı kasabada birkaç adım ötedeki asa satıcısı {npc:256507} yanına gönderir.",
+	["The bough lies on the ground among the Windstone Formations, the wind shrine on the rise west of Fillion's camp, south of {area:16636}. It does not sparkle, so look at the ground by the stones; there are two spots for it."] = "Dal, Fillion'un kampının batısındaki tepede bulunan rüzgâr tapınağı Windstone Formation taşlarının arasında, {area:16636} köyünün güneyinde yerde duruyor. Parıldamaz, bu yüzden taşların yanındaki yere bak; iki yeri var.",
+	["At 10 {npc:328}, the {area:87} mage trainer, upstairs in the Lion's Pride Inn, sends you to {npc:5497} in {zone:1453}. Taking it shuts out {npc:5144}'s quest in {zone:1455}; you get one staff-or-orb quest."] = "10'da Lion's Pride Inn'in üst katındaki {area:87} mage eğitmeni {npc:328}, seni {zone:1453} şehrindeki {npc:5497} yanına gönderir. Bunu almak {zone:1455} şehrindeki {npc:5144} görevini kapatır; tek bir asa-ya-da-küre görevi alırsın.",
+	["At 10 {npc:1228}, the {area:131} mage trainer in the {area:2102}, sends you to {npc:5144} in {zone:1455}. Taking it shuts out {npc:5497}'s {quest:1861}; you get one staff-or-orb quest. (A Gnome who took {npc:328}'s quest in {area:87} instead follows the {quest:1861} steps; a Human who took this one, the Gizmonitor steps.)"] = "10'da {area:2102} içindeki {area:131} mage eğitmeni {npc:1228}, seni {zone:1455} şehrindeki {npc:5144} yanına gönderir. Bunu almak {npc:5497} verdiği {quest:1861} görevini kapatır; tek bir asa-ya-da-küre görevi alırsın. (Bunun yerine {area:87} kasabasında {npc:328} görevini alan bir Gnome {quest:1861} adımlarını, bunu alan bir Human ise Gizmonitor adımlarını izler.)",
+	["Head west along the road to {area:133}. Just north of its entrance stand two huts; the toolbox is in the taller, eastern one, the hut with the lift: a small grey box on the ground floor, half under the table beside the lift. Leper Gnomes (level 8) guard the huts: pull them singly. There is only one toolbox and it takes 15 minutes to come back after someone opens it, so wait nearby if it is gone."] = "Yol boyunca batıya, {area:133} şehrine git. Girişinin hemen kuzeyinde iki kulübe duruyor; alet kutusu daha yüksek olan doğudakinde, asansörlü kulübede: zemin katta, asansörün yanındaki masanın yarı altında küçük gri bir kutu. Leper Gnome yaratıkları (seviye 8) kulübeleri koruyor: tek tek çek. Yalnızca bir alet kutusu var ve biri açtıktan sonra geri gelmesi 15 dakika sürer, bu yüzden yoksa yakında bekle.",
 	["{npc:256507}'s quest is open to Human and Gnome mages too, if you ever visit {area:16638} on {zone:2521}, the Skyborne home: {npc:252373}, the town's mage trainer, sends you to {npc:256507} next door, who wants a {item:262668} from the ground by the Windstone Formations south of {area:16636}, for the {item:263430}. It does not shut out the staff or the orb."] = "{npc:256507} görevi Human ve Gnome mage'lere de açık, Skyborne'ların yurdu {zone:2521} adasındaki {area:16638} kasabasını ziyaret edersen: kasabanın mage eğitmeni {npc:252373} seni yan taraftaki {npc:256507} yanına gönderir; o da {item:263430} için {area:16636} köyünün güneyindeki Windstone Formation taşlarının yanından yerden bir {item:262668} ister. Asayı ya da küreyi kapatmaz.",
 }

@@ -22,8 +22,6 @@ return {
 	-- {npc:14984} Sergeant Maclear · {zone:1461} Arathi Basin
 	["Assaulting a base means clicking its banner until it turns: you need not hold it. Four marks in all: one for {npc:14984}, three for the Brigadier General. Forever's PvP gear also costs Marks of Honor along with honor: decide what you want before you hand them in. You can carry at most 30 {zone:1461} marks: hand in or spend them before you reach that."] = "Bir üsse saldırmak, sancağı dönene kadar ona tıklamak demek: onu tutman gerekmez. Toplam dört marka: biri {npc:14984} için, üçü Brigadier General için. Forever'ın PvP ekipmanı da honor'la birlikte Mark of Honor ister: teslim etmeden önce ne istediğine karar ver. En fazla 30 {zone:1461} markası taşıyabilirsin: o sayıya ulaşmadan teslim et ya da harca.",
 	["Assault the Mine banner"] = "Mine sancağına saldır",
-	-- {area:3422} Lumber Mill
-	["Assault the {area:3422} banner"] = "{area:3422} sancağına saldır",
 	["Assault the Blacksmith banner"] = "Blacksmith sancağına saldır",
 	["Assault the Farm banner"] = "Farm sancağına saldır",
 	-- {item:20559} Arathi Basin Mark of Honor
@@ -31,14 +29,12 @@ return {
 	["three more marks"] = "Üç marka daha",
 
 	-- Step 3: Back to Refuge Pointe
-	-- {area:320} Refuge Pointe
-	["Back to {area:320}"] = "Dönüş: {area:320}",
+	-- {object:2685} Refuge Pointe (no name in this language: may be words)
 	["hand in the three marks first"] = "Önce üç markayı teslim et",
 
 	-- Step 4: League of Arathor to Friendly
 	["League of Arathor to Friendly"] = "League of Arathor: Friendly olana kadar",
-	-- {quest:8374} Claiming Arathi Basin · {area:320} Refuge Pointe
-	["Neutral to Friendly is 3000 reputation. In Classic a win paid 100 and its 3 marks bring 50 more at the Brigadier General ({quest:8374}, again and again): about 150 a win, some 20 wins. Forever has not published its battleground rates, so count the games as a rough guide. Below level 50 the quests at {area:320} come in a version for your bracket (from level 20): 200 for assaulting the bases, 200 for one mark, then 100 and 50 per 3 marks at the Brigadier General."] = "Neutral'dan Friendly'ye 3000 itibar. Classic'te bir galibiyet 100 öderdi ve 3 markası Brigadier General'da 50 daha getirir ({quest:8374}, tekrar tekrar): galibiyet başına yaklaşık 150, yaklaşık 20 galibiyet. Forever savaş alanı oranlarını yayımlamadı, bu yüzden oyun sayılarını kaba bir yol gösterici say. 50. seviyenin altında {area:320} karakolundaki görevler senin aralığına göre bir sürümle gelir (20. seviyeden): üslere saldırmak için 200, bir marka için 200, sonra Brigadier General'da her 3 marka için 100 ve 50.",
+	-- {quest:8374} Claiming Arathi Basin · {object:2685} Refuge Pointe (no name in this language: may be words)
 	-- {npc:15351} Alliance Brigadier General · {quest:8374} Claiming Arathi Basin
 	["{npc:15351}: {quest:8374} again, 50 reputation for 3 marks"] = "{npc:15351}: yine {quest:8374}, 3 nişan için 50 itibar",
 
@@ -93,14 +89,11 @@ return {
 	["Assault the Stables banner"] = "Stables sancağına saldır",
 
 	-- Step 13: Back to Hammerfall
-	-- {area:321} Hammerfall
-	["Back to {area:321}"] = "{area:321} kasabasına dön",
 
 	-- Step 14: The Defilers to Friendly
 	-- {faction:510} The Defilers
 	["{faction:510} to Friendly"] = "{faction:510}: Friendly olana kadar",
-	-- {quest:8370} Conquering Arathi Basin · {area:321} Hammerfall
-	["Neutral to Friendly is 3000 reputation. In Classic a win paid 100 and its 3 marks bring 50 more at the Warbringer ({quest:8370}, again and again): about 150 a win, some 20 wins. Forever has not published its battleground rates, so count the games as a rough guide. Below level 50 the quests at {area:321} come in a version for your bracket (from level 20): 200 for assaulting the bases, 200 for one mark, then 100 and 50 per 3 marks at the Warbringer."] = "Neutral'dan Friendly'ye 3000 itibar. Classic'te bir galibiyet 100 öderdi ve 3 markası Warbringer'da 50 daha getirir ({quest:8370}, tekrar tekrar): galibiyet başına yaklaşık 150, yaklaşık 20 galibiyet. Forever savaş alanı oranlarını yayımlamadı, bu yüzden oyun sayılarını kaba bir yol gösterici say. 50. seviyenin altında {area:321} kasabasındaki görevler senin aralığına göre bir sürümle gelir (20. seviyeden): üslere saldırmak için 200, bir marka için 200, sonra Warbringer'da her 3 marka için 100 ve 50.",
+	-- {quest:8370} Conquering Arathi Basin
 	-- {npc:15350} Horde Warbringer · {quest:8370} Conquering Arathi Basin
 	["{npc:15350}: {quest:8370} again, 50 reputation for 3 marks"] = "{npc:15350}: yine {quest:8370}, 3 nişan için 50 itibar",
 
@@ -141,4 +134,12 @@ return {
 	-- Step 20: Take Five Bases
 	-- {npc:15021} Deathmaster Dwire · {item:20131} Battle Tabard of the Defilers
 	["At Exalted, {npc:15021} asks your team to hold all five bases at the same time. It pays 200 reputation and the {item:20131}, the only way to get it."] = "Exalted'da {npc:15021}, takımından beş üssün hepsini aynı anda tutmasını ister. 200 itibar ve {item:20131} öder, onu almanın tek yolu bu.",
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["Assault the {area:3422} banner"] = "{area:3422} sancağına saldır",
+	["Back to {area:320}"] = "Dönüş: {area:320}",
+	["Neutral to Friendly is 3000 reputation. In Classic a win paid 100 and its 3 marks bring 50 more at the Brigadier General ({quest:8374}, again and again): about 150 a win, some 20 wins. Forever has not published its battleground rates, so count the games as a rough guide. Below level 50 the quests at {area:320} come in a version for your bracket (from level 20): 200 for assaulting the bases, 200 for one mark, then 100 and 50 per 3 marks at the Brigadier General."] = "Neutral'dan Friendly'ye 3000 itibar. Classic'te bir galibiyet 100 öderdi ve 3 markası Brigadier General'da 50 daha getirir ({quest:8374}, tekrar tekrar): galibiyet başına yaklaşık 150, yaklaşık 20 galibiyet. Forever savaş alanı oranlarını yayımlamadı, bu yüzden oyun sayılarını kaba bir yol gösterici say. 50. seviyenin altında {area:320} karakolundaki görevler senin aralığına göre bir sürümle gelir (20. seviyeden): üslere saldırmak için 200, bir marka için 200, sonra Brigadier General'da her 3 marka için 100 ve 50.",
+	["Back to {area:321}"] = "{area:321} kasabasına dön",
+	["Neutral to Friendly is 3000 reputation. In Classic a win paid 100 and its 3 marks bring 50 more at the Warbringer ({quest:8370}, again and again): about 150 a win, some 20 wins. Forever has not published its battleground rates, so count the games as a rough guide. Below level 50 the quests at {area:321} come in a version for your bracket (from level 20): 200 for assaulting the bases, 200 for one mark, then 100 and 50 per 3 marks at the Warbringer."] = "Neutral'dan Friendly'ye 3000 itibar. Classic'te bir galibiyet 100 öderdi ve 3 markası Warbringer'da 50 daha getirir ({quest:8370}, tekrar tekrar): galibiyet başına yaklaşık 150, yaklaşık 20 galibiyet. Forever savaş alanı oranlarını yayımlamadı, bu yüzden oyun sayılarını kaba bir yol gösterici say. 50. seviyenin altında {area:321} kasabasındaki görevler senin aralığına göre bir sürümle gelir (20. seviyeden): üslere saldırmak için 200, bir marka için 200, sonra Warbringer'da her 3 marka için 100 ve 50.",
 }
