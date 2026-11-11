@@ -2,10 +2,10 @@
 
 Upstream: https://github.com/fitzforge/polestar, cloned into `upstream/` at the release in `package.json` → `config.polestarTag`. Interface 16001, GPL-3.0-only.
 
-## Status (11 Nov 2026, branch `polestar-v0.3.6`)
+## Status (11 Nov 2026, branch `main`)
 
-- Polestar pinned at **v0.3.6**, its newest release, on the branch `polestar-v0.3.6`; Kutupstar **0.3.6** built and installed in Barış's game, uploaded to CurseForge on 11 Nov (file 9553830), not yet tested in game. UI 2801/2930 (the other 129 stay English on purpose), guides 10673/10673 in 260 guides.
-- **Next:** merging the branch into `main`, the in-game test. Open items and details: [docs/HANDOFF.md](docs/HANDOFF.md), which is the place to look first and to keep current.
+- Polestar pinned at **v0.3.6**, its newest release; Kutupstar **0.3.6** built and installed in Barış's game, uploaded to CurseForge on 11 Nov (file 9553830), not yet tested in game. UI 2801/2930 (the other 129 stay English on purpose), guides 10673/10673 in 260 guides.
+- **Next:** the in-game test of 0.3.6, then the next Polestar release (`node tools/kutup.js latest`). Open items and details: [docs/HANDOFF.md](docs/HANDOFF.md), which is the place to look first and to keep current.
 
 ### History (the numbers of that time, at Polestar v0.2.6)
 
