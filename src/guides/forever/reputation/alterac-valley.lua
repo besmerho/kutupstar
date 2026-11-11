@@ -13,21 +13,27 @@ return {
 	["{zone:1459} is a 40 against 40 battle for level 51 and up, and the fastest of the four battleground reputations: it has about 2,000 reputation of one-time quests, and a full win pays several hundred. The same one-time quests also pay 1,870 {zone:1455} reputation. {npc:13843} recruits outside the {object:32372}. Forever's Legacy Diplomat perk adds up to 10% to every number in this guide."] = "{zone:1459}, seviye 51 ve üstü için 40'a 40 bir savaş ve dört savaş alanı itibarının en hızlısı: yaklaşık 2.000 itibarlık tek seferlik görevi var, tam bir galibiyet de birkaç yüz öder. Aynı tek seferlik görevler 1.870 {zone:1455} itibarı da öder. {npc:13843}, {object:32372} dışında asker topluyor. Forever'ın Legacy Diplomat yeteneği bu rehberdeki her sayıya %10'a kadar ekler.",
 
 	-- Step 2: Lieutenant Haggerdin
-	-- {zone:1459} Alterac Valley · {zone:1416} Alterac Mountains
-	-- {quest:7162} Proving Grounds · {item:17849} Stormpike Banner
+	-- {zone:1459} Alterac Valley · {zone:1416} Alterac Mountains · {area:287} Hillsbrad
+	["The Stormpike camp stands outside the {zone:1459} gate, on the {zone:1416} side above {area:287}. Take every quest here: they all pay 100 or more, once."] = "Stormpike kampı {zone:1459} kapısının dışında, {zone:1416} tarafında {area:287} bölgesinin yukarısında duruyor. Buradaki her görevi al: hepsi bir kez 100 ya da daha fazla öder.",
+	-- {quest:7162} Proving Grounds · {item:17849} Stormpike Banner · {area:3058} Icewing Cavern
+	["{quest:7162}: the {item:17849} in {area:3058}, 100"] = "{quest:7162}: {area:3058} içindeki {item:17849}, 100",
 	-- {npc:13777} Sergeant Durgen Stormpike
 	["{npc:13777}: assault a graveyard, 100"] = "{npc:13777}: bir mezarlığa saldır, 100",
 	["destroy a tower or bunker banner, 100"] = "Bir kule ya da sığınak sancağını yok et, 100",
 	["capture a mine, 100"] = "Bir maden ele geçir, 100",
 
 	-- Step 3: Dun Baldar
+	-- {area:2959} Dun Baldar
+	["Queue at the gate, at any battlemaster or from the battleground screen; you enter at {area:2959} in the north. Before the gates open, take the quests in the town: they are done during the battle."] = "Kapıda, herhangi bir battlemaster'da ya da savaş alanı ekranından sıraya gir; kuzeydeki {area:2959} içine girersin. Kapılar açılmadan önce kasabadaki görevleri al: savaş sırasında yapılırlar.",
 
 	-- Step 4: Icewing Cavern
-	-- {item:17849} Stormpike Banner
+	-- {area:3058} Icewing Cavern · {area:2959} Dun Baldar · {item:17849} Stormpike Banner
+	["{area:3058} lies southwest of {area:2959}. The {item:17849} stands at the back of the cave, past the yetis and harpies."] = "{area:3058}, {area:2959} kalesinin güneybatısında. {item:17849}, yetilerin ve harpy'lerin ötesinde, mağaranın dibinde duruyor.",
 
 	-- Step 5: The battle
 	["The battle"] = "Savaş",
-	-- {npc:11946} Drek'Thar · {quest:7223} Armor Scraps · {npc:13154} Commander Louis Philips · {npc:13597} Frostwolf Explosives Expert · {quest:7301} Fallen Sky Lords · {npc:11947} Captain Galvangar
+	-- {npc:11946} Drek'Thar · {quest:7223} Armor Scraps · {area:3301} Snowfall Graveyard · {area:2963} Coldtooth Mine · {npc:13154} Commander Louis Philips · {area:2962} Tower Point · {npc:13597} Frostwolf Explosives Expert · {area:2961} Frostwolf Village · {quest:7301} Fallen Sky Lords · {npc:11947} Captain Galvangar
+	["Most of this happens on the way to {npc:11946}. Loot {quest:7223} from Horde players and guards you kill. Assault the {area:3301} or any Horde graveyard, burn a Horde tower (click its banner), and take {area:2963}. {npc:13154} stands at {area:2962}; the {npc:13597} at {area:2961}. {quest:7301} asks you to find where the three wing commanders landed. In Classic every tower, graveyard or mine paid 12 reputation, {npc:11947} 125 and {npc:11946} about 300."] = "Bunun çoğu {npc:11946} yolunda olur. Öldürdüğün Horde oyuncularından ve muhafızlardan {quest:7223} loot'la. {area:3301} ya da herhangi bir Horde mezarlığına saldır, bir Horde kulesini yak (sancağına tıkla) ve {area:2963} madenini al. {npc:13154}, {area:2962} yanında; {npc:13597}, {area:2961} içinde duruyor. {quest:7301} senden üç kanat komutanının nereye indiğini bulmanı istiyor. Classic'te her kule, mezarlık ya da maden 12 itibar, {npc:11947} 125 ve {npc:11946} yaklaşık 300 öderdi.",
 	["assault a graveyard"] = "Bir mezarlığa saldır",
 	["Iceblood Tower banner"] = "Iceblood Tower sancağı",
 	-- {npc:13437} Wing Commander Ichman
@@ -38,6 +44,8 @@ return {
 	["{npc:13438}'s spot"] = "{npc:13438} yeri",
 
 	-- Step 6: Back in Dun Baldar
+	-- {area:2959} Dun Baldar
+	["Back in {area:2959}"] = "{area:2959} içine dönüş",
 
 	-- Step 7: Back at the gate
 	["Back at the gate"] = "Kapıya dönüş",
@@ -89,18 +97,25 @@ return {
 	-- Step 14: Warmaster Laggrond
 	-- {zone:1459} Alterac Valley · {zone:1416} Alterac Mountains
 	["The Frostwolf camp stands outside the {zone:1459} gate in the {zone:1416}. Take every quest here: they all pay 100 or more, once."] = "Frostwolf kampı {zone:1416} bölgesinde {zone:1459} kapısının dışında duruyor. Buradaki her görevi al: hepsi bir kez 100 ya da daha fazla öder.",
-	-- {quest:7161} Proving Grounds · {item:17850} Frostwolf Banner
+	-- {quest:7161} Proving Grounds · {item:17850} Frostwolf Banner · {area:3337} Wildpaw Cavern
+	["{quest:7161}: the {item:17850} in {area:3337}, 100"] = "{quest:7161}: {area:3337} içindeki {item:17850}, 100",
 	-- {npc:13776} Corporal Teeka Bloodsnarl
 	["{npc:13776}: assault a graveyard, 100"] = "{npc:13776}: bir mezarlığa saldır, 100",
 	["capture a tower or bunker, 100"] = "Bir kule ya da sığınak ele geçir, 100",
 
 	-- Step 15: Frostwolf Village
+	-- {area:2961} Frostwolf Village
+	["Queue at the gate, at any battlemaster or from the battleground screen; you enter at {area:2961} in the south. Before the gates open, take the quests in the village: they are done during the battle."] = "Kapıda, herhangi bir battlemaster'da ya da savaş alanı ekranından sıraya gir; güneydeki {area:2961} içine girersin. Kapılar açılmadan önce köydeki görevleri al: savaş sırasında yapılırlar.",
 
 	-- Step 16: Wildpaw Cavern
-	-- {item:17850} Frostwolf Banner
+	-- {area:3337} Wildpaw Cavern · {area:2978} Frostwolf Keep · {item:17850} Frostwolf Banner
+	["{area:3337} lies south of {area:2978}. The {item:17850} stands at the back of the cave, past the gnolls."] = "{area:3337}, {area:2978} güneyinde. {item:17850}, gnoll'ların ötesinde, mağaranın dibinde duruyor.",
 
 	-- Step 17: The battle
-	-- {npc:11948} Vanndar Stormpike · {item:17422} Armor Scraps · {npc:13320} Commander Karl Philips · {npc:13598} Stormpike Explosives Expert · {quest:7302} Fallen Sky Lords · {npc:11949} Captain Balinda Stonehearth
+	-- {npc:11948} Vanndar Stormpike · {item:17422} Armor Scraps · {area:3301} Snowfall Graveyard · {area:2957} Irondeep Mine · {npc:13320} Commander Karl Philips · {area:3304} Icewing Bunker · {npc:13598} Stormpike Explosives Expert · {area:2959} Dun Baldar · {quest:7302} Fallen Sky Lords · {npc:11949} Captain Balinda Stonehearth
+	["Most of this happens on the way to {npc:11948}. Loot {item:17422} from Alliance players and guards you kill. Assault the {area:3301} or any Alliance graveyard, burn an Alliance bunker (click its banner), and take {area:2957}. {npc:13320} stands at {area:3304}; the {npc:13598} in {area:2959}. {quest:7302} asks you to find where the three wing commanders landed. In Classic every tower, graveyard or mine paid 12 reputation, {npc:11949} 125 and Vanndar about 300."] = "Bunun çoğu {npc:11948} yolunda olur. Öldürdüğün Alliance oyuncularından ve muhafızlardan {item:17422} loot'la. {area:3301} ya da herhangi bir Alliance mezarlığına saldır, bir Alliance sığınağını yak (sancağına tıkla) ve {area:2957} madenini al. {npc:13320}, {area:3304} yanında; {npc:13598}, {area:2959} içinde duruyor. {quest:7302} senden üç kanat komutanının nereye indiğini bulmanı istiyor. Classic'te her kule, mezarlık ya da maden 12 itibar, {npc:11949} 125 ve Vanndar yaklaşık 300 öderdi.",
+	-- {area:3305} Stonehearth Bunker
+	["{area:3305} banner"] = "{area:3305} sancağı",
 	-- {npc:13179} Wing Commander Guse
 	["{npc:13179}'s spot"] = "{npc:13179} yeri",
 	-- {npc:13180} Wing Commander Jeztor
@@ -109,6 +124,8 @@ return {
 	["{npc:13181}'s spot"] = "{npc:13181} yeri",
 
 	-- Step 18: Back in Frostwolf Village
+	-- {area:2961} Frostwolf Village
+	["Back in {area:2961}"] = "{area:2961} içine dönüş",
 
 	-- Step 19: Back at the gate
 	-- {npc:15350} Horde Warbringer · {quest:8369} Invaders of Alterac Valley · {zone:1459} Alterac Valley
@@ -149,19 +166,4 @@ return {
 	["Exalted gives the Legacy Point \"Master of Alterac Valley\" and the last two insignia, 400 reputation that no longer counts for anything but the insignia. {npc:13219} sells the {item:19029} (200g, level 60; its own guide), {item:19325} and {item:21563} (75g56s), {item:19323} (156g49s), {item:19321} (79g53s), {item:19324} (125g66s) and the 50g tomes and off-hands."] = "Exalted, \"Master of Alterac Valley\" Legacy Point'ini ve son iki nişanı verir; bu, artık nişan dışında hiçbir şeye sayılmayan 400 itibar. {npc:13219}, {item:19029} (200g, seviye 60; kendi rehberi var), {item:19325} ve {item:21563} (75g56s), {item:19323} (156g49s), {item:19321} (79g53s), {item:19324} (125g66s) ile 50g'lık kitapları ve yan el eşyalarını satıyor.",
 	-- {npc:13219} Jekyll Flandring
 	["{npc:13219}: Exalted rewards"] = "{npc:13219}: Exalted ödülleri",
-
-
-	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
-	["The Stormpike camp stands outside the {zone:1459} gate, on the {zone:1416} side above {area:287}. Take every quest here: they all pay 100 or more, once."] = "Stormpike kampı {zone:1459} kapısının dışında, {zone:1416} tarafında {area:287} bölgesinin yukarısında duruyor. Buradaki her görevi al: hepsi bir kez 100 ya da daha fazla öder.",
-	["{quest:7162}: the {item:17849} in {area:3058}, 100"] = "{quest:7162}: {area:3058} içindeki {item:17849}, 100",
-	["Queue at the gate, at any battlemaster or from the battleground screen; you enter at {area:2959} in the north. Before the gates open, take the quests in the town: they are done during the battle."] = "Kapıda, herhangi bir battlemaster'da ya da savaş alanı ekranından sıraya gir; kuzeydeki {area:2959} içine girersin. Kapılar açılmadan önce kasabadaki görevleri al: savaş sırasında yapılırlar.",
-	["{area:3058} lies southwest of {area:2959}. The {item:17849} stands at the back of the cave, past the yetis and harpies."] = "{area:3058}, {area:2959} kalesinin güneybatısında. {item:17849}, yetilerin ve harpy'lerin ötesinde, mağaranın dibinde duruyor.",
-	["Most of this happens on the way to {npc:11946}. Loot {quest:7223} from Horde players and guards you kill. Assault the {area:3301} or any Horde graveyard, burn a Horde tower (click its banner), and take {area:2963}. {npc:13154} stands at {area:2962}; the {npc:13597} at {area:2961}. {quest:7301} asks you to find where the three wing commanders landed. In Classic every tower, graveyard or mine paid 12 reputation, {npc:11947} 125 and {npc:11946} about 300."] = "Bunun çoğu {npc:11946} yolunda olur. Öldürdüğün Horde oyuncularından ve muhafızlardan {quest:7223} loot'la. {area:3301} ya da herhangi bir Horde mezarlığına saldır, bir Horde kulesini yak (sancağına tıkla) ve {area:2963} madenini al. {npc:13154}, {area:2962} yanında; {npc:13597}, {area:2961} içinde duruyor. {quest:7301} senden üç kanat komutanının nereye indiğini bulmanı istiyor. Classic'te her kule, mezarlık ya da maden 12 itibar, {npc:11947} 125 ve {npc:11946} yaklaşık 300 öderdi.",
-	["Back in {area:2959}"] = "{area:2959} içine dönüş",
-	["{quest:7161}: the {item:17850} in {area:3337}, 100"] = "{quest:7161}: {area:3337} içindeki {item:17850}, 100",
-	["Queue at the gate, at any battlemaster or from the battleground screen; you enter at {area:2961} in the south. Before the gates open, take the quests in the village: they are done during the battle."] = "Kapıda, herhangi bir battlemaster'da ya da savaş alanı ekranından sıraya gir; güneydeki {area:2961} içine girersin. Kapılar açılmadan önce köydeki görevleri al: savaş sırasında yapılırlar.",
-	["{area:3337} lies south of {area:2978}. The {item:17850} stands at the back of the cave, past the gnolls."] = "{area:3337}, {area:2978} güneyinde. {item:17850}, gnoll'ların ötesinde, mağaranın dibinde duruyor.",
-	["Most of this happens on the way to {npc:11948}. Loot {item:17422} from Alliance players and guards you kill. Assault the {area:3301} or any Alliance graveyard, burn an Alliance bunker (click its banner), and take {area:2957}. {npc:13320} stands at {area:3304}; the {npc:13598} in {area:2959}. {quest:7302} asks you to find where the three wing commanders landed. In Classic every tower, graveyard or mine paid 12 reputation, {npc:11949} 125 and Vanndar about 300."] = "Bunun çoğu {npc:11948} yolunda olur. Öldürdüğün Alliance oyuncularından ve muhafızlardan {item:17422} loot'la. {area:3301} ya da herhangi bir Alliance mezarlığına saldır, bir Alliance sığınağını yak (sancağına tıkla) ve {area:2957} madenini al. {npc:13320}, {area:3304} yanında; {npc:13598}, {area:2959} içinde duruyor. {quest:7302} senden üç kanat komutanının nereye indiğini bulmanı istiyor. Classic'te her kule, mezarlık ya da maden 12 itibar, {npc:11949} 125 ve Vanndar yaklaşık 300 öderdi.",
-	["{area:3305} banner"] = "{area:3305} sancağı",
-	["Back in {area:2961}"] = "{area:2961} içine dönüş",
 }

@@ -22,15 +22,16 @@ return {
 	["{npc:3363} keeps {object:173018} on the main street east of the {object:172960}. He asks you to look for his mate Krilge in {zone:1440}."] = "{npc:3363}, {object:172960} kesiminin doğusundaki ana caddede {object:173018} dükkânını işletiyor. Senden {zone:1440} bölgesinde eşi Krilge'yi aramanı istiyor.",
 
 	-- Step 4: Gazrog
-	-- {npc:3464} Gazrog · {npc:4197} Ken'zigla · {zone:1442} Stonetalon Mountains
+	-- {npc:3464} Gazrog · {npc:4197} Ken'zigla · {area:2539} Malaka'jin · {zone:1442} Stonetalon Mountains
+	["{npc:3464} waits in front of the inn at the Crossroads. He sends you on to {npc:4197} at {area:2539}, in {zone:1442}."] = "{npc:3464}, Crossroads'taki hanın önünde bekliyor. Seni {zone:1442} bölgesindeki {area:2539} köyünde bulunan {npc:4197} yanına gönderir.",
 
 	-- Step 5: Ken'zigla
-	-- {zone:1442} Stonetalon Mountains · {npc:4197} Ken'zigla · {npc:5911} Grunt Logmar
-	-- {npc:4197} Ken'zigla
+	-- {zone:1442} Stonetalon Mountains · {area:2539} Malaka'jin · {npc:4197} Ken'zigla · {npc:5911} Grunt Logmar
+	["Take the road west from the Crossroads into {zone:1442} and, just past the border, the faint trail up to the left (south): {area:2539} cannot be reached from the main road. {npc:4197} hands you her draught for {npc:5911}."] = "Crossroads'tan batı yolunu izleyerek {zone:1442} bölgesine gir ve sınırı geçer geçmez sola (güneye) çıkan silik patikaya sap: {area:2539} köyüne ana yoldan ulaşılmaz. {npc:4197} sana {npc:5911} için iksirini verir.",
 
 	-- Step 6: Grunt Dogran
-	-- {npc:5911} Grunt Logmar · {npc:5875} Gan'rul Bloodeye
-	-- {npc:5911} Grunt Logmar
+	-- {npc:5911} Grunt Logmar · {area:378} Camp Taurajo · {npc:5875} Gan'rul Bloodeye
+	["{npc:5911} stands at {area:378}, south down the road from the Crossroads. He sends you north to the quilboar camp where Dogran is held: the camp with two huts side by side, north-west of a decoy camp whose huts stand apart. A rare level 22 elite quilboar sometimes guards the huts: send your voidwalker in, sacrifice it if you must, and talk to Dogran. He gives you a pendant for {npc:5875}. Keep it."] = "{npc:5911}, Crossroads'tan yoldan güneye inince {area:378} kampında duruyor. Seni kuzeye, Dogran'ın tutulduğu quilboar kampına gönderir: kulübeleri birbirinden ayrı duran bir tuzak kampın kuzeybatısında, iki kulübesi yan yana olan kamp. Kulübeleri bazen 22. seviye nadir elit bir quilboar korur: voidwalker'ını içeri gönder, gerekirse kurban et ve Dogran ile konuş. Sana {npc:5875} için bir kolye verir. Sakla.",
 
 	-- Step 7: The Binding: succubus (Orgrimmar)
 	-- {quest:1513} The Binding · {zone:1454} Orgrimmar
@@ -41,8 +42,9 @@ return {
 	["{item:6626}, on the circle in Neeru's tent"] = "{item:6626}, Neeru'nun çadırındaki çemberin üzerinde",
 
 	-- Step 8: Fallen Sky Lake
-	-- {zone:1440} Ashenvale · {item:190232} Withered Scarf · {npc:3931} Shadethicket Oracle
+	-- {area:422} Fallen Sky Lake · {zone:1440} Ashenvale · {area:431} Splintertree Post · {item:190232} Withered Scarf · {npc:3931} Shadethicket Oracle
 	-- plural, as words: Shadethicket Stone Movers = {npc:3782} Shadethicket Stone Mover
+	["{area:422} lies in southern {zone:1440}, south-west of {area:431}. The Shadethicket Stone Movers and Bark Rippers (level 25-26) around the lake drop the {item:190232} about one time in twenty, and the lone {npc:3931} (30) can drop it too: plan on a good number of kills, so come at 25 or later (Forever made this quest level 27); with the succubus already bound you can leave it for your 20s leveling in {zone:1440}. They respawn in five minutes."] = "{area:422}, güney {zone:1440} bölgesinde, {area:431} karakolunun güneybatısında. Gölün çevresindeki Shadethicket Stone Mover ve Bark Ripper yaratıkları (seviye 25-26) {item:190232} eşyasını yaklaşık yirmide bir düşürür, yalnız {npc:3931} (30) da düşürebilir: epey öldürme planla, bu yüzden 25'te ya da sonra gel (Forever bu görevi seviye 27 yaptı); succubus zaten bağlıysa bunu 20'lerinde {zone:1440} seviye atlamana bırakabilirsin. Beş dakikada yeniden doğarlar.",
 
 	-- Step 9: The Binding: incubus (Orgrimmar)
 	-- {quest:65604} The Binding · {zone:1454} Orgrimmar
@@ -58,20 +60,24 @@ return {
 
 	-- Step 11: Silverpine hearts
 	["Silverpine hearts"] = "Silverpine kalpleri",
-	-- {npc:185333} Avelina Lilly · {npc:5682} Dalin Forgewright
+	-- {npc:185333} Avelina Lilly · {area:279} Dalaran · {area:233} Ambermill · {npc:5682} Dalin Forgewright · {area:230} Greymane Wall
+	["{npc:185333} (level 22) works as a tailor for the {area:279} wizards at {area:233}, in eastern Silverpine: the wizards around her are hostile. {npc:5682} (level 20, not elite) patrols near the {area:230} in the far south. Both are Alliance-friendly humans: attacking them can flag you for PvP. Each drops her or his heart."] = "{npc:185333} (seviye 22), doğu Silverpine'daki {area:233} kasabasında {area:279} büyücüleri için terzi olarak çalışıyor: çevresindeki büyücüler düşman. {npc:5682} (seviye 20, elit değil) en güneyde {area:230} yakınında devriye geziyor. İkisi de Alliance dostu insanlar: onlara saldırmak seni PvP'ye açabilir. Her biri kendi kalbini düşürür.",
 
 	-- Step 12: Corma Villard
-	-- {zone:1437} Wetlands · {object:2673} Thandol Span (no name in this language: may be words) · {zone:1458} Undercity · {zone:1417} Arathi Highlands
+	-- {npc:5683} Corma Villard · {zone:1437} Wetlands · {area:881} Thandol Span · {zone:1458} Undercity · {area:287} Hillsbrad · {zone:1417} Arathi Highlands
+	["{npc:5683} (level 22, not elite; Comar in older records) wanders the north of the {zone:1437} just past the {area:881}, to the right as you come off the bridge. From the {zone:1458} head through {area:287} and {zone:1417}, where the mobs are 30 and up. Attacking her flags you for PvP."] = "{npc:5683} (seviye 22, elit değil; eski kayıtlarda Comar), {area:881} köprüsünü geçince, köprüden inerken sağda, {zone:1437} bölgesinin kuzeyinde dolaşıyor. {zone:1458} şehrinden {area:287} ve {zone:1417} üzerinden git; oradaki yaratıklar 30 ve üstü. Ona saldırmak seni PvP'ye açar.",
 
 	-- Step 13: The Binding: succubus (Undercity)
 	-- {quest:1474} The Binding · {zone:1458} Undercity
 	["{quest:1474}: succubus ({zone:1458})"] = "{quest:1474}: succubus ({zone:1458})",
-	-- {npc:5675} Carendin Halgar · {item:6286} Pure Hearts
+	-- {npc:5675} Carendin Halgar · {npc:5683} Corma Villard · {item:6286} Pure Hearts
+	["Back to {npc:5675} with Dalin's and {npc:5683}'s hearts. He hands you the {item:6286}: go down to the summoning circle below him, stand on it and use them. Summon your voidwalker first and keep the fight on the circle, or the guards may kill her and the kill does not count. If she wins, use the hearts again; keep them, {npc:5675} takes them back."] = "Dalin'in ve {npc:5683} adlı NPC'nin kalpleriyle {npc:5675} yanına dön. Sana {item:6286} verir: onun altındaki çağırma çemberine in, üstünde dur ve onları kullan. Önce voidwalker'ını çağır ve dövüşü çemberin üstünde tut, yoksa muhafızlar onu öldürebilir ve öldürme sayılmaz. O kazanırsa kalpleri yeniden kullan; onları sakla, {npc:5675} geri alır.",
 	-- {item:6286} Pure Hearts · {npc:5675} Carendin Halgar
 	["{item:6286}, on the circle below {npc:5675}"] = "{item:6286}, {npc:5675} aşağısındaki çemberin üzerinde",
 
 	-- Step 14: Isaac Pearson
-	-- {npc:185334} Isaac Pearson · {zone:1413} Barrens · {zone:1411} Durotar · {zone:1454} Orgrimmar
+	-- {npc:185334} Isaac Pearson · {area:392} Ratchet · {zone:1413} Barrens · {zone:1411} Durotar · {zone:1454} Orgrimmar
+	["{npc:185334} (level 22) works in {area:392}, on the {zone:1413} coast, at one of two spots in town: take the zeppelin to {zone:1411} and head south, or fly from {zone:1454}. He is an Alliance-friendly human: attacking him can flag you for PvP."] = "{npc:185334} (seviye 22), {zone:1413} kıyısındaki {area:392} kasabasında, kasabanın iki noktasından birinde çalışıyor: {zone:1411} zeplinine bin ve güneye git, ya da {zone:1454} şehrinden uç. Alliance dostu bir insan: ona saldırmak seni PvP'ye açabilir.",
 
 	-- Step 15: The Binding: incubus (Undercity)
 	-- {quest:65597} The Binding · {zone:1458} Undercity
@@ -80,15 +86,4 @@ return {
 	["Back to {npc:5675} with the lovers' hearts, then place the {item:190181} on the same circle and defeat the incubus they call (level 20, not elite; it can charm you). Keep the hearts: {npc:5675} takes them back."] = "Âşıkların kalpleriyle {npc:5675} yanına dön, sonra {item:190181} eşyasını aynı çembere koy ve çağırdıkları incubus'u (seviye 20, elit değil; seni etki altına alabilir) yen. Kalpleri sakla: {npc:5675} geri alır.",
 	-- {npc:185335} Summoned Incubus · {npc:5675} Carendin Halgar
 	["{npc:185335}, at the circle below {npc:5675}"] = "{npc:185335}, {npc:5675} aşağısındaki çemberde",
-
-
-	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
-	["{npc:3464} waits in front of the inn at the Crossroads. He sends you on to {npc:4197} at {area:2539}, in {zone:1442}."] = "{npc:3464}, Crossroads'taki hanın önünde bekliyor. Seni {zone:1442} bölgesindeki {area:2539} köyünde bulunan {npc:4197} yanına gönderir.",
-	["Take the road west from the Crossroads into {zone:1442} and, just past the border, the faint trail up to the left (south): {area:2539} cannot be reached from the main road. {npc:4197} hands you her draught for {npc:5911}."] = "Crossroads'tan batı yolunu izleyerek {zone:1442} bölgesine gir ve sınırı geçer geçmez sola (güneye) çıkan silik patikaya sap: {area:2539} köyüne ana yoldan ulaşılmaz. {npc:4197} sana {npc:5911} için iksirini verir.",
-	["{npc:5911} stands at {area:378}, south down the road from the Crossroads. He sends you north to the quilboar camp where Dogran is held: the camp with two huts side by side, north-west of a decoy camp whose huts stand apart. A rare level 22 elite quilboar sometimes guards the huts: send your voidwalker in, sacrifice it if you must, and talk to Dogran. He gives you a pendant for {npc:5875}. Keep it."] = "{npc:5911}, Crossroads'tan yoldan güneye inince {area:378} kampında duruyor. Seni kuzeye, Dogran'ın tutulduğu quilboar kampına gönderir: kulübeleri birbirinden ayrı duran bir tuzak kampın kuzeybatısında, iki kulübesi yan yana olan kamp. Kulübeleri bazen 22. seviye nadir elit bir quilboar korur: voidwalker'ını içeri gönder, gerekirse kurban et ve Dogran ile konuş. Sana {npc:5875} için bir kolye verir. Sakla.",
-	["{area:422} lies in southern {zone:1440}, south-west of {area:431}. The Shadethicket Stone Movers and Bark Rippers (level 25-26) around the lake drop the {item:190232} about one time in twenty, and the lone {npc:3931} (30) can drop it too: plan on a good number of kills, so come at 25 or later (Forever made this quest level 27); with the succubus already bound you can leave it for your 20s leveling in {zone:1440}. They respawn in five minutes."] = "{area:422}, güney {zone:1440} bölgesinde, {area:431} karakolunun güneybatısında. Gölün çevresindeki Shadethicket Stone Mover ve Bark Ripper yaratıkları (seviye 25-26) {item:190232} eşyasını yaklaşık yirmide bir düşürür, yalnız {npc:3931} (30) da düşürebilir: epey öldürme planla, bu yüzden 25'te ya da sonra gel (Forever bu görevi seviye 27 yaptı); succubus zaten bağlıysa bunu 20'lerinde {zone:1440} seviye atlamana bırakabilirsin. Beş dakikada yeniden doğarlar.",
-	["{npc:185333} (level 22) works as a tailor for the {area:279} wizards at {area:233}, in eastern Silverpine: the wizards around her are hostile. {npc:5682} (level 20, not elite) patrols near the {area:230} in the far south. Both are Alliance-friendly humans: attacking them can flag you for PvP. Each drops her or his heart."] = "{npc:185333} (seviye 22), doğu Silverpine'daki {area:233} kasabasında {area:279} büyücüleri için terzi olarak çalışıyor: çevresindeki büyücüler düşman. {npc:5682} (seviye 20, elit değil) en güneyde {area:230} yakınında devriye geziyor. İkisi de Alliance dostu insanlar: onlara saldırmak seni PvP'ye açabilir. Her biri kendi kalbini düşürür.",
-	["{npc:5683} (level 22, not elite; Comar in older records) wanders the north of the {zone:1437} just past the {area:881}, to the right as you come off the bridge. From the {zone:1458} head through {area:287} and {zone:1417}, where the mobs are 30 and up. Attacking her flags you for PvP."] = "{npc:5683} (seviye 22, elit değil; eski kayıtlarda Comar), {area:881} köprüsünü geçince, köprüden inerken sağda, {zone:1437} bölgesinin kuzeyinde dolaşıyor. {zone:1458} şehrinden {area:287} ve {zone:1417} üzerinden git; oradaki yaratıklar 30 ve üstü. Ona saldırmak seni PvP'ye açar.",
-	["Back to {npc:5675} with Dalin's and {npc:5683}'s hearts. He hands you the {item:6286}: go down to the summoning circle below him, stand on it and use them. Summon your voidwalker first and keep the fight on the circle, or the guards may kill her and the kill does not count. If she wins, use the hearts again; keep them, {npc:5675} takes them back."] = "Dalin'in ve {npc:5683} adlı NPC'nin kalpleriyle {npc:5675} yanına dön. Sana {item:6286} verir: onun altındaki çağırma çemberine in, üstünde dur ve onları kullan. Önce voidwalker'ını çağır ve dövüşü çemberin üstünde tut, yoksa muhafızlar onu öldürebilir ve öldürme sayılmaz. O kazanırsa kalpleri yeniden kullan; onları sakla, {npc:5675} geri alır.",
-	["{npc:185334} (level 22) works in {area:392}, on the {zone:1413} coast, at one of two spots in town: take the zeppelin to {zone:1411} and head south, or fly from {zone:1454}. He is an Alliance-friendly human: attacking him can flag you for PvP."] = "{npc:185334} (seviye 22), {zone:1413} kıyısındaki {area:392} kasabasında, kasabanın iki noktasından birinde çalışıyor: {zone:1411} zeplinine bin ve güneye git, ya da {zone:1454} şehrinden uç. Alliance dostu bir insan: ona saldırmak seni PvP'ye açabilir.",
 }

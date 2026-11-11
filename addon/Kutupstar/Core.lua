@@ -7,9 +7,10 @@
 -- functions (no taint):
 --   - the interface. This addon loads before Polestar (no dependency; the
 --     folder name sorts first). A secure post-hook on GetLocale waits for the
---     first call after Polestar's Init.lua has made Polestar.L: Polestar's
---     first Locales file makes it, before any other Polestar file reads a
---     text. The Turkish goes into L there, where a translation of Polestar's
+--     first call after Polestar's Init.lua has made Polestar.L: since
+--     Polestar 0.3.6 Core/Names.lua makes it as it loads (the interface
+--     strings moved to load-on-demand Polestar_<locale> addons), before any
+--     other Polestar file reads a text. The Turkish goes into L there, where a translation of Polestar's
 --     own would go, so texts read at load (the Options window, slash command
 --     help, key bindings) are Turkish too. Should a Polestar update change
 --     that, L is filled once Polestar is in (ADDON_LOADED) instead: the

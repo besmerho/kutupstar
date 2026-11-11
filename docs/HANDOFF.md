@@ -21,19 +21,19 @@ Barış's two hard requirements:
 2. **No UI of its own.** Load silently: no window, no slash command, no chat line. The only UI is the
    "Dil · Language" dropdown it adds to Polestar's Options (Appearance > Colour & type).
 
-## Where it stands (8 Nov 2026)
+## Where it stands (11 Nov 2026)
 
 | | |
 |---|---|
-| Polestar pinned | **v0.3.5** (`package.json` → `config.polestarTag`), Polestar's newest release on 8 Nov |
-| Kutupstar in the repo | **0.3.5**, the same version as Polestar (TOC `## Version`, `package.json`) |
+| Polestar pinned | **v0.3.6** (`package.json` → `config.polestarTag`), Polestar's newest release on 11 Nov, on the branch `polestar-v0.3.6` (not merged yet) |
+| Kutupstar in the repo | **0.3.6** on `polestar-v0.3.6` (`main` has 0.3.5), the same version as Polestar (TOC `## Version`, `package.json`) |
 | Kutupstar on CurseForge | **0.3.5** uploaded on 8 Nov on Barış's OK, by pushing tag `v0.3.5` (the release workflow). 0.3.1 before it (5 Nov; project 1759256, file 9450094) |
-| Barış's game | Polestar **0.3.4** and Kutupstar 0.3.1 in the `_forever_` folder on 8 Nov. Kutupstar 0.3.5 was **not** installed there (its keys follow Polestar 0.3.5) and **not tested in game yet** |
-| UI texts at v0.3.5 | 2625/2755 Turkish; the other 130 stay English on purpose (`src/keep-english.json`); 0 to do |
-| Guide texts at v0.3.5 | 10101/10101 in 260 guides plus the pack's texts; every folder complete |
+| Barış's game | Polestar **0.3.6** in the `_forever_` folder on 11 Nov; Kutupstar **0.3.6 installed** there by `build --install`, **not tested in game yet** |
+| UI texts at v0.3.6 | 2801/2930 Turkish; the other 129 stay English on purpose (`src/keep-english.json`); 0 to do |
+| Guide texts at v0.3.6 | 10673/10673 in 260 guides plus the pack's texts; every folder complete |
 | `check` | 0 errors, 3 warnings. All three are English quest names that start with a name token (`{npc:3144}'s Wisdom`, `{npc:10260}'s Exotic Pets`), so they are right as they are |
-| `check --glossary` | about 130 questions, the same kinds as before (false alarms: "route" worded as "yol", "Inn" in names); not read one by one |
-| `Core.lua` | unchanged since v0.1.1; `audit` found every Polestar internal it hooks into at v0.3.5 |
+| `check --glossary` | about 140 questions, the same kinds as before (false alarms: "route" worded as "yol", "Inn" in names); not read one by one |
+| `Core.lua` | code unchanged since v0.1.1 (v0.3.6 only touched its header comment). Polestar 0.3.6 moved its interface strings out of `Polestar/Locales/` into load-on-demand addons `Polestar_<locale>` (Interface.lua, Names.lua, Texts.lua), loaded by `Core/Locale.lua`. The early fill still works: the first `GetLocale()` after Init.lua is now in `Core/Names.lua` (line 54), before any load-time L read. `audit` checks that order in `Core/Core.xml` and that line; the tools read the German strings from `Polestar_deDE/Interface.lua` (`deUIFile` in `tools/lib/sync.js`) |
 
 **v0.2.6 is history.** It was the pin until 4 Nov. If your clone says v0.2.6 or v0.3.0, it is stale: `git pull`, then
 `node tools/kutup.js setup` (it moves `upstream/` to the pinned tag). The reason this note exists: 0.2.0 shipped from
@@ -57,7 +57,9 @@ the branch `polestar-v0.3.0` while `main` stayed at v0.2.6, so sessions cloning 
 | 9 Sync to Polestar v0.3.1 | done (5 Nov): report in `reports/sync-v0.3.0-v0.3.1.md` |
 | 10 Release 0.3.1 | done (5 Nov) on Barış's OK |
 | 11 Sync to Polestar v0.3.5 | done (8 Nov): report in `reports/sync-v0.3.1-v0.3.5.md`. A big one: UI 221 new, 17 lost; guides 1810 new (503 reused), 1314 lost, 4 gone. Much of the guide churn is Polestar rewording "{area:380}" to "the Crossroads" and adding detail to step notes |
-| 12 Release 0.3.5 | uploaded (8 Nov) on Barış's OK, before an in-game test: the in-game check is open (Open items 0) |
+| 12 Release 0.3.5 | uploaded (8 Nov) on Barış's OK, before an in-game test |
+| 13 Sync to Polestar v0.3.6 | done (11 Nov) on `polestar-v0.3.6`: report in `reports/sync-v0.3.5-v0.3.6.md`. UI 195 new, 20 gone, 19 lost; guides 1306 new (112 reused), 734 lost. Most guide churn: "Forever pays these old quests in full" replacing the Classic fifth-pay notes in reputation guides, and reworded step notes. Polestar's locale architecture changed (see `Core.lua` above); the tooling and `audit` were adapted |
+| 14 Release 0.3.6 | waits for Barış's OK to upload; the in-game check is open (Open items 0) |
 
 The next job comes when `node tools/kutup.js latest` says `update: yes`.
 
@@ -65,9 +67,9 @@ The next job comes when `node tools/kutup.js latest` says `update: yes`.
 
 None of these block anything.
 
-0. **In-game test of 0.3.5**: once Barış's game has Polestar 0.3.5, `node tools/kutup.js build --install`, `/reload`,
-   look over the new texts (party panel, "Hazır buradayken", dungeon heads-up card, quest log cleanup) and read
-   `KutupstarDB.diag`. Party chat lines are Turkish now (other locales translate them too); the marker
+0. **In-game test of 0.3.6** (installed on 11 Nov): `/reload`, check that the Options window and slash help are Turkish
+   (the early fill now hangs on `Core/Names.lua`, Polestar 0.3.6's new load order), look over the new texts and read
+   `KutupstarDB.diag` (`fill` should be `early`). Party chat lines are Turkish now (other locales translate them too); the marker
    `{rt1} Polestar: ` stays as it is because Polestar's chat filter looks for it.
 1. **Wording polish, safe for a cloud session** (`check` after each, commit and push on a branch). The v0.3.0 work
    left a few terms in two forms; line counts are from 5 Nov, and STIL.md §7 names the form to keep:
@@ -88,6 +90,7 @@ None of these block anything.
 | Branch | State |
 |---|---|
 | `main` | current: start here |
+| `polestar-v0.3.6` | the v0.3.6 sync (11 Nov), **not merged yet** |
 | `polestar-v0.3.5` | the v0.3.5 sync, merged (8 Nov); tag `v0.3.5` is on it |
 | `polestar-v0.3.1` | the v0.3.1 sync, merged; tag `v0.3.1` is on it |
 | `polestar-v0.3.0` | the v0.3.0 sync, merged; tag `v0.2.0` is on it |

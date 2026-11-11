@@ -14,22 +14,30 @@ return {
 
 	-- Step 1: Pick your clan
 	["Pick your clan"] = "Klanını seç",
-	-- {zone:1443} Desolace · {npc:5396} Captain Pentigast · {object:176948} Nijel's Point (no name in this language: may be words) · {quest:1382} Strange Alliance · {quest:1385} Brutal Politics · {npc:5412} Gurda Wildmane · {quest:1368} Gelkis Alliance · {quest:1367} Magram Alliance
+	-- {zone:1443} Desolace · {npc:5396} Captain Pentigast · {area:608} Nijel's Point · {quest:1382} Strange Alliance · {quest:1385} Brutal Politics · {npc:5412} Gurda Wildmane · {quest:1368} Gelkis Alliance · {quest:1367} Magram Alliance
+	["The Gelkis (south-west {zone:1443}) and the Magram (south-east) are at war: every kill of one clan gives the other 20 and costs its own clan 100, so you can only climb with one. Both start Neutral. Forever's quests are worth far more than kills now, and the choice quests no longer cost the other clan anything. Alliance: {npc:5396} at {area:608} offers {quest:1382} (Gelkis) and {quest:1385} (Magram). Horde: {npc:5412}, east of Shadowprey, offers {quest:1368} and {quest:1367}. Take the one of your clan and its Buying Friendship (3,000 for carrying a tote of totems), then tick the task. The guide goes on with the Gelkis; take the Magram's quests instead and it jumps to the Magram half. Forever pays these quests in full at any level."] = "Gelkis ({zone:1443} bölgesinin güneybatısı) ve Magram (güneydoğu) savaşta: bir klandan her öldürme diğerine 20 verir ve kendi klanından 100 düşürür, bu yüzden yalnızca biriyle yükselebilirsin. İkisi de Neutral başlar. Forever'ın görevleri artık öldürmelerden çok daha değerli ve seçim görevleri artık diğer klana hiçbir şey kaybettirmiyor. Alliance: {area:608} kampındaki {npc:5396}, {quest:1382} (Gelkis) ve {quest:1385} (Magram) görevlerini verir. Horde: Shadowprey'in doğusundaki {npc:5412}, {quest:1368} ve {quest:1367} görevlerini verir. Klanınınkini ve onun Buying Friendship görevini (bir totem çantası taşımak için 3.000) al, sonra görevi işaretle. Rehber Gelkis ile devam eder; onun yerine Magram'ın görevlerini alırsan Magram yarısına atlar. Forever bu görevleri her seviyede tam öder.",
 	-- {quest:1382} Strange Alliance
 	["{quest:1382}: Gelkis"] = "{quest:1382}: Gelkis",
 	["Take the quests of one clan"] = "Bir klanın görevlerini al",
 
 	-- Step 2: Gelkis Village: Uthek the Wise and Molkar
-	-- {npc:5397} Uthek the Wise · {npc:253140} Molkar
-	-- {zone:1443} Desolace · {npc:5397} Uthek the Wise · {npc:253140} Molkar
+	-- {area:606} Gelkis Village · {npc:5397} Uthek the Wise · {npc:253140} Molkar
+	["{area:606}: {npc:5397} and {npc:253140}"] = "{area:606}: {npc:5397} ve {npc:253140}",
+	-- {area:606} Gelkis Village · {zone:1443} Desolace · {npc:5397} Uthek the Wise · {npc:253140} Molkar
+	["{area:606} sits in the hills of south-west {zone:1443}; {npc:5397} stands at its heart. {npc:253140}, the Gelkis quartermaster, is at the south end of the village. Buying Friendship alone takes you from Neutral to Friendly."] = "{area:606}, {zone:1443} bölgesinin güneybatısındaki tepelerde; {npc:5397} köyün ortasında duruyor. Gelkis levazımcısı {npc:253140}, köyün güney ucunda. Buying Friendship tek başına seni Neutral'dan Friendly'ye taşır.",
 
 	-- Step 3: Gelkis: the Kolkar camps
 	["Gelkis: the Kolkar camps"] = "Gelkis: Kolkar kampları",
-	-- {object:176948} Nijel's Point (no name in this language: may be words) · {item:6079} Crude Charm
+	-- {area:608} Nijel's Point · {item:6079} Crude Charm
+	["The Kolkar centaurs (level 30-33) hold the camps south of {area:608}, along the eastern road. About one in four drops a {item:6079}."] = "Kolkar centaur'ları (seviye 30-33), {area:608} güneyinde, doğu yolu boyunca kampları tutuyor. Yaklaşık dörtte biri bir {item:6079} düşürür.",
 	-- {item:6079} Crude Charm
 	["{item:6079}: Kolkar centaurs"] = "{item:6079}: Kolkar centaur'ları",
 
 	-- Step 4: Gelkis: Magram Village
+	-- {area:604} Magram Village
+	["Gelkis: {area:604}"] = "Gelkis: {area:604}",
+	-- {area:604} Magram Village
+	["The Sacks of Meat lie about {area:604}, in the south-east. Every Magram you kill on the way pays the Gelkis 20."] = "Sacks of Meat, güneydoğuda {area:604} çevresinde yatıyor. Yolda öldürdüğün her Magram, Gelkis'e 20 öder.",
 	-- {item:6069} Crudely Dried Meat
 	["{item:6069}: Sacks of Meat"] = "{item:6069}: Sacks of Meat",
 	-- {npc:4640} Magram Wrangler
@@ -40,7 +48,8 @@ return {
 	-- Step 5: Gelkis: Ongeku
 	-- {quest:1373} Ongeku
 	["Gelkis: {quest:1373}"] = "Gelkis: {quest:1373}",
-	-- {npc:5397} Uthek the Wise · {zone:1435} Swamp of Sorrows · {quest:1373} Ongeku
+	-- {npc:5397} Uthek the Wise · {zone:1435} Swamp of Sorrows · {quest:1373} Ongeku · {area:76} Fallow Sanctuary · {area:75} Stonard
+	["Back to {npc:5397}, then east to the {zone:1435}: {quest:1373} (level 37) waits by a black cauldron in {area:76}, north-east of {area:75}."] = "{npc:5397} yanına dön, sonra doğuya, {zone:1435} bölgesine: {quest:1373} (seviye 37), {area:75} kuzeydoğusundaki {area:76} içinde kara bir kazanın yanında bekliyor.",
 
 	-- Step 6: Gelkis: totems and kills to Honored
 	["Gelkis: totems and kills to Honored"] = "Gelkis: Honored'a kadar totemler ve öldürmeler",
@@ -59,7 +68,8 @@ return {
 	-- Step 8: Gelkis: Khan Jehn
 	-- {npc:5601} Khan Jehn
 	["Gelkis: {npc:5601}"] = "Gelkis: {npc:5601}",
-	-- {npc:5601} Khan Jehn · {npc:5397} Uthek the Wise · {item:271801} Abandoned Ferocity · {item:271802} Bludgeon of Betrayed Virtues · {item:271805} Thrice-Damned Effigy
+	-- {npc:5601} Khan Jehn · {area:604} Magram Village · {npc:5397} Uthek the Wise · {item:271801} Abandoned Ferocity · {item:271802} Bludgeon of Betrayed Virtues · {item:271805} Thrice-Damned Effigy
+	["{npc:5601} (level 37) leads the Magram from the west side of {area:604}, with his bodyguards. The kill costs the Magram 500. {npc:5397} pays 6,000, a title, and your pick of three rare level 35 weapons: {item:271801} (two-handed axe: Strength, Stamina, Agility), {item:271802} (one-handed mace: Strength, Stamina, Agility) or {item:271805} (off-hand: Spirit, Intellect, Stamina)."] = "{npc:5601} (seviye 37), Magram'ı {area:604} köyünün batı yakasından korumalarıyla birlikte yönetiyor. Öldürmek Magram'a 500'e mal olur. {npc:5397} 6.000, bir unvan ve üç nadir seviye 35 silahtan istediğini öder: {item:271801} (iki elli balta: Strength, Stamina, Agility), {item:271802} (tek elli topuz: Strength, Stamina, Agility) ya da {item:271805} (yan el: Spirit, Intellect, Stamina).",
 
 	-- Step 9: Gelkis: totems to Exalted
 	["Gelkis: totems to Exalted"] = "Gelkis: Exalted'a kadar totemler",
@@ -67,16 +77,21 @@ return {
 	["From Revered on only {quest:92812} is left: Revered to Exalted is 21,000, 28 turn-ins, 140 totems. Nothing is sold for standing; the recipes below need only totems."] = "Revered'dan itibaren yalnızca {quest:92812} kalır: Revered'dan Exalted'a 21.000, 28 teslim, 140 totem. İtibar karşılığı hiçbir şey satılmıyor; aşağıdaki tarifler yalnızca totem ister.",
 
 	-- Step 10: Magram Village: Warug and Gorhak
-	-- {npc:5398} Warug · {npc:253139} Gorhak
-	-- {zone:1443} Desolace · {npc:5398} Warug · {npc:253139} Gorhak
+	-- {area:604} Magram Village · {npc:5398} Warug · {npc:253139} Gorhak
+	["{area:604}: {npc:5398} and {npc:253139}"] = "{area:604}: {npc:5398} ve {npc:253139}",
+	-- {area:604} Magram Village · {zone:1443} Desolace · {npc:5398} Warug · {npc:253139} Gorhak
+	["{area:604} fills the valley of south-east {zone:1443}; {npc:5398} stands on its north side, {npc:253139}, the Magram quartermaster, near the lake. Buying Friendship alone takes you from Neutral to Friendly."] = "{area:604}, {zone:1443} bölgesinin güneydoğusundaki vadiyi dolduruyor; {npc:5398} kuzey yakasında, Magram levazımcısı {npc:253139} de gölün yanında duruyor. Buying Friendship tek başına seni Neutral'dan Friendly'ye taşır.",
 
 	-- Step 11: Magram: the Kolkar camps
 	["Magram: the Kolkar camps"] = "Magram: Kolkar kampları",
-	-- {object:176948} Nijel's Point (no name in this language: may be words)
+	-- {area:608} Nijel's Point
+	["The Kolkar centaurs (level 30-33) hold the camps south of {area:608}."] = "Kolkar centaur'ları (seviye 30-33), {area:608} güneyindeki kampları tutuyor.",
 
 	-- Step 12: Magram: Broken Tears
 	-- {quest:1369} Broken Tears
 	["Magram: {quest:1369}"] = "Magram: {quest:1369}",
+	-- {area:606} Gelkis Village
+	["The Tears of Theradras are crystals in the cave behind {area:606}, in the south-west. Every Gelkis you kill on the way pays the Magram 20."] = "Tears of Theradras, güneybatıda {area:606} arkasındaki mağarada bulunan kristaller. Yolda öldürdüğün her Gelkis, Magram'a 20 öder.",
 	-- {quest:1369} Broken Tears · {object:22246} Tear of Theradras
 	["{quest:1369}: the {object:22246} crystals"] = "{quest:1369}: {object:22246} kristalleri",
 	-- {npc:4648} Gelkis Stamper
@@ -101,12 +116,14 @@ return {
 	-- Step 15: Magram: the Valley of Bones
 	-- {quest:92841} Valley of Bones
 	["Magram: the {quest:92841}"] = "Magram: {quest:92841}",
-	-- {quest:92743} A Conqueror's Crown · {npc:5398} Warug · {npc:253136} Orgrul · {quest:92841} Valley of Bones · {zone:2652} Shen'dralas · {quest:92844} Mountain of Bones · {quest:92846} Outcast Necromancers · {npc:5601} Khan Jehn · {quest:92811} Economic Warfare
+	-- {quest:92743} A Conqueror's Crown · {npc:5398} Warug · {npc:253136} Orgrul · {quest:92841} Valley of Bones · {zone:2652} Shen'dralas · {quest:92844} Mountain of Bones · {quest:92846} Outcast Necromancers · {area:16675} Magram Front · {area:16677} Bristleback Retreat · {npc:5601} Khan Jehn · {area:604} Magram Village · {quest:92811} Economic Warfare
+	["At Honored, and after {quest:92743}, {npc:5398} sends you to {npc:253136} at the northern entrance of the {quest:92841}, in {zone:2652}. {npc:253136}'s quests (500 each: {quest:92844}, {quest:92846}, Corrupting Tears, Proof of Concept, No Mercy for the Weak, Bone Raising) and Hagiak's at the {area:16675} ({area:16677}, Long-Term Solutions, Threat of Starvation, Return to {npc:253136}) end with {npc:5601}: raise the dead khan with {npc:253136}'s staff at the tent by the lake in {area:604}, for 6,000, a title and a rare level 35 weapon. They all ask you to stay Honored or better. Honored to Revered is 12,000: the valley's quests pay about 11,000 of it, two {quest:92811} turn-ins the rest."] = "Honored'da ve {quest:92743} sonrasında {npc:5398} seni {zone:2652} bölgesinde {quest:92841} vadisinin kuzey girişindeki {npc:253136} yanına gönderir. {npc:253136} görevleri (her biri 500: {quest:92844}, {quest:92846}, Corrupting Tears, Proof of Concept, No Mercy for the Weak, Bone Raising) ve Hagiak'ın {area:16675} kesimindeki görevleri ({area:16677}, Long-Term Solutions, Threat of Starvation, Return to {npc:253136}) {npc:5601} ile biter: ölü hanı {npc:253136} asasıyla {area:604} içinde gölün yanındaki çadırda dirilt; 6.000, bir unvan ve nadir bir seviye 35 silah için. Hepsi Honored ya da daha iyi kalmanı ister. Honored'dan Revered'a 12.000: vadinin görevleri bunun yaklaşık 11.000'ini, iki {quest:92811} teslimi de geri kalanını öder.",
 
 	-- Step 16: Magram: Khan Jehn
 	-- {quest:93196} Khan Jehn
 	["Magram: {quest:93196}"] = "Magram: {quest:93196}",
-	-- {npc:253136} Orgrul · {item:271800} Scavenged Magram Armament · {item:271803} Greatstaff of the Necrokhans · {item:271804} Soulsplatter Mace
+	-- {area:604} Magram Village · {npc:253136} Orgrul · {item:271800} Scavenged Magram Armament · {item:271803} Greatstaff of the Necrokhans · {item:271804} Soulsplatter Mace
+	["The ritual site is a tent by the lake in the middle of {area:604}. {npc:253136} pays 6,000, a title, and your pick of three rare level 35 weapons: {item:271800} (polearm: Stamina, attack power, Agility), {item:271803} (staff: Intellect, Stamina, Spirit) or {item:271804} (main-hand mace: Intellect, Stamina, Spirit)."] = "Ritüel yeri, {area:604} ortasındaki gölün yanında bir çadır. {npc:253136} 6.000, bir unvan ve üç nadir seviye 35 silahtan istediğini öder: {item:271800} (polearm: Stamina, attack power, Agility), {item:271803} (asa: Intellect, Stamina, Spirit) ya da {item:271804} (ana el topuz: Intellect, Stamina, Spirit).",
 
 	-- Step 17: Magram: totems to Exalted
 	["Magram: totems to Exalted"] = "Magram: Exalted'a kadar totemler",
@@ -118,22 +135,4 @@ return {
 	-- {item:273613} Enchant Bracer - Lesser Agility · {item:250941} Greater Frenzy Potion · {item:250538} Hard Gold Gauntlet · {item:250606} Iron Morningstar · {item:252462} Mystic Thick Armor Kit · {item:253973} Silk Reagent Bag · {item:10011} Stormcloth Gloves · {item:274490} Centaur Hoofwarmers · {item:269900} Centaur Banner Deployment Device · {item:269902} Hoof-Shaped Foot Pedal
 	-- plural, as words: Carved Centaur Totems = {item:254432} Carved Centaur Totem
 	["Both quartermasters sell the same 12 recipes for Carved Centaur Totems, no standing needed: {item:273613} and - Lesser Healing Power; Greater Spellblasting and {item:250941}; {item:250538} and {item:250606} plans; {item:252462}, {item:253973}, {item:10011} and {item:274490} patterns; the {item:269900} and {item:269902} schematics. Keep the totems you need for them before you hand the rest in."] = "İki levazımcı da Carved Centaur Totem karşılığında aynı 12 tarifi satıyor, itibar gerekmez: {item:273613} ve - Lesser Healing Power; Greater Spellblasting ve {item:250941}; {item:250538} ve {item:250606} planları; {item:252462}, {item:253973}, {item:10011} ve {item:274490} kalıpları; {item:269900} ve {item:269902} şemaları. Geri kalanını teslim etmeden önce bunlar için gereken totemleri sakla.",
-	-- {npc:253139} Gorhak
-	-- {npc:253140} Molkar
-
-	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
-	["The Gelkis (south-west {zone:1443}) and the Magram (south-east) are at war: every kill of one clan gives the other 20 and costs its own clan 100, so you can only climb with one. Both start Neutral. Forever's quests are worth far more than kills now, and the choice quests no longer cost the other clan anything. Alliance: {npc:5396} at {area:608} offers {quest:1382} (Gelkis) and {quest:1385} (Magram). Horde: {npc:5412}, east of Shadowprey, offers {quest:1368} and {quest:1367}. Take the one of your clan and its Buying Friendship (3,000 for carrying a tote of totems), then tick the task. The guide goes on with the Gelkis; take the Magram's quests instead and it jumps to the Magram half. Do the clan's quests by level 50 if you can: in Classic a quest pays less once it is 6 or more levels below you, down to a fifth."] = "Gelkis ({zone:1443} bölgesinin güneybatısı) ve Magram (güneydoğusu) savaşta: bir klanın her öldürmesi diğerine 20 verir ve kendi klanına 100'e mal olur, bu yüzden yalnızca biriyle tırmanabilirsin. İkisi de Neutral'da başlar. Forever'ın görevleri artık öldürmelerden çok daha değerli ve seçim görevleri artık diğer klana hiçbir şeye mal olmuyor. Alliance: {area:608} karakolundaki {npc:5396}, {quest:1382} (Gelkis) ve {quest:1385} (Magram) görevlerini verir. Horde: Shadowprey'in doğusundaki {npc:5412}, {quest:1368} ve {quest:1367} görevlerini verir. Klanının görevini ve onun Buying Friendship görevini al (bir torba totem taşımak için 3.000), sonra adımı işaretle. Rehber Gelkis ile devam eder; onun yerine Magram görevlerini alırsan Magram yarısına atlar. Yapabiliyorsan klanın görevlerini 50. seviyeye kadar yap: Classic'te bir görev senden 6 ya da daha fazla seviye aşağıdaysa beşte bire kadar daha az öder.",
-	["{area:606}: {npc:5397} and {npc:253140}"] = "{area:606}: {npc:5397} ve {npc:253140}",
-	["{area:606} sits in the hills of south-west {zone:1443}; {npc:5397} stands at its heart. {npc:253140}, the Gelkis quartermaster, is at the south end of the village. Buying Friendship alone takes you from Neutral to Friendly."] = "{area:606}, {zone:1443} bölgesinin güneybatısındaki tepelerde; {npc:5397} köyün ortasında duruyor. Gelkis levazımcısı {npc:253140}, köyün güney ucunda. Buying Friendship tek başına seni Neutral'dan Friendly'ye taşır.",
-	["The Kolkar centaurs (level 30-33) hold the camps south of {area:608}, along the eastern road. About one in four drops a {item:6079}."] = "Kolkar centaur'ları (seviye 30-33), {area:608} güneyinde, doğu yolu boyunca kampları tutuyor. Yaklaşık dörtte biri bir {item:6079} düşürür.",
-	["Gelkis: {area:604}"] = "Gelkis: {area:604}",
-	["The Sacks of Meat lie about {area:604}, in the south-east. Every Magram you kill on the way pays the Gelkis 20."] = "Sacks of Meat, güneydoğuda {area:604} çevresinde yatıyor. Yolda öldürdüğün her Magram, Gelkis'e 20 öder.",
-	["Back to {npc:5397}, then east to the {zone:1435}: {quest:1373} (level 37) waits by a black cauldron in {area:76}, north-east of {area:75}."] = "{npc:5397} yanına dön, sonra doğuya, {zone:1435} bölgesine: {quest:1373} (seviye 37), {area:75} kuzeydoğusundaki {area:76} içinde kara bir kazanın yanında bekliyor.",
-	["{npc:5601} (level 37) leads the Magram from the west side of {area:604}, with his bodyguards. The kill costs the Magram 500. {npc:5397} pays 6,000, a title, and your pick of three rare level 35 weapons: {item:271801} (two-handed axe: Strength, Stamina, Agility), {item:271802} (one-handed mace: Strength, Stamina, Agility) or {item:271805} (off-hand: Spirit, Intellect, Stamina)."] = "{npc:5601} (seviye 37), Magram'ı {area:604} köyünün batı yakasından korumalarıyla birlikte yönetiyor. Öldürmek Magram'a 500'e mal olur. {npc:5397} 6.000, bir unvan ve üç nadir seviye 35 silahtan istediğini öder: {item:271801} (iki elli balta: Strength, Stamina, Agility), {item:271802} (tek elli topuz: Strength, Stamina, Agility) ya da {item:271805} (yan el: Spirit, Intellect, Stamina).",
-	["{area:604}: {npc:5398} and {npc:253139}"] = "{area:604}: {npc:5398} ve {npc:253139}",
-	["{area:604} fills the valley of south-east {zone:1443}; {npc:5398} stands on its north side, {npc:253139}, the Magram quartermaster, near the lake. Buying Friendship alone takes you from Neutral to Friendly."] = "{area:604}, {zone:1443} bölgesinin güneydoğusundaki vadiyi dolduruyor; {npc:5398} kuzey yakasında, Magram levazımcısı {npc:253139} de gölün yanında duruyor. Buying Friendship tek başına seni Neutral'dan Friendly'ye taşır.",
-	["The Kolkar centaurs (level 30-33) hold the camps south of {area:608}."] = "Kolkar centaur'ları (seviye 30-33), {area:608} güneyindeki kampları tutuyor.",
-	["The Tears of Theradras are crystals in the cave behind {area:606}, in the south-west. Every Gelkis you kill on the way pays the Magram 20."] = "Tears of Theradras, güneybatıda {area:606} arkasındaki mağarada bulunan kristaller. Yolda öldürdüğün her Gelkis, Magram'a 20 öder.",
-	["At Honored, and after {quest:92743}, {npc:5398} sends you to {npc:253136} at the northern entrance of the {quest:92841}, in {zone:2652}. {npc:253136}'s quests (500 each: {quest:92844}, {quest:92846}, Corrupting Tears, Proof of Concept, No Mercy for the Weak, Bone Raising) and Hagiak's at the {area:16675} ({area:16677}, Long-Term Solutions, Threat of Starvation, Return to {npc:253136}) end with {npc:5601}: raise the dead khan with {npc:253136}'s staff at the tent by the lake in {area:604}, for 6,000, a title and a rare level 35 weapon. They all ask you to stay Honored or better. Honored to Revered is 12,000: the valley's quests pay about 11,000 of it, two {quest:92811} turn-ins the rest."] = "Honored'da ve {quest:92743} sonrasında {npc:5398} seni {zone:2652} bölgesinde {quest:92841} vadisinin kuzey girişindeki {npc:253136} yanına gönderir. {npc:253136} görevleri (her biri 500: {quest:92844}, {quest:92846}, Corrupting Tears, Proof of Concept, No Mercy for the Weak, Bone Raising) ve Hagiak'ın {area:16675} kesimindeki görevleri ({area:16677}, Long-Term Solutions, Threat of Starvation, Return to {npc:253136}) {npc:5601} ile biter: ölü hanı {npc:253136} asasıyla {area:604} içinde gölün yanındaki çadırda dirilt; 6.000, bir unvan ve nadir bir seviye 35 silah için. Hepsi Honored ya da daha iyi kalmanı ister. Honored'dan Revered'a 12.000: vadinin görevleri bunun yaklaşık 11.000'ini, iki {quest:92811} teslimi de geri kalanını öder.",
-	["The ritual site is a tent by the lake in the middle of {area:604}. {npc:253136} pays 6,000, a title, and your pick of three rare level 35 weapons: {item:271800} (polearm: Stamina, attack power, Agility), {item:271803} (staff: Intellect, Stamina, Spirit) or {item:271804} (main-hand mace: Intellect, Stamina, Spirit)."] = "Ritüel yeri, {area:604} ortasındaki gölün yanında bir çadır. {npc:253136} 6.000, bir unvan ve üç nadir seviye 35 silahtan istediğini öder: {item:271800} (polearm: Stamina, attack power, Agility), {item:271803} (asa: Intellect, Stamina, Spirit) ya da {item:271804} (ana el topuz: Intellect, Stamina, Spirit).",
 }

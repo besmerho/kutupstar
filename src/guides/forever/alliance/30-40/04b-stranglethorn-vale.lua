@@ -3,10 +3,15 @@
 -- oyun orada adı İngilizce gösterir (yukarıdaki yorum satırında yazıyor). Belirtecin hemen ardına ek getirme;
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
-	-- Step 1: Stormwind
-	["Mauren, from Stonetalon"] = "Mauren, Stonetalon'dan",
+	-- Step 1: Collin Mauren
+	-- {object:2164} Slaughtered Lamb
+	["In the {object:2164}, if you still carry it"] = "Hâlâ taşıyorsan {object:2164} içinde",
 
 	-- Step 2: Fly to Darkshire
+	-- {area:42} Darkshire
+	["Fly to {area:42}"] = "{area:42} kasabasına uç",
+	-- {zone:1453} Stormwind
+	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 
 	-- Step 3: Stranglethorn Vale
 	-- {zone:1434} Stranglethorn Vale
@@ -15,39 +20,55 @@ return {
 	-- Step 4: Rebel Camp
 	-- {zone:1431} Duskwood
 	["From {zone:1431} take the road south; the camp sits in the hills west of the road."] = "{zone:1431} bölgesinden güney yolunu izle; kamp yolun batısındaki tepelerde.",
-	-- {npc:770} Corporal Kaleb · {npc:773} Krazek · {object:3204} Booty Bay (no name in this language: may be words)
+	-- {npc:770} Corporal Kaleb · {npc:773} Krazek · {area:35} Booty Bay
+	["{npc:770}: for {npc:773} in {area:35}"] = "{npc:770}: {area:35} limanındaki {npc:773} için",
 
-	-- Step 5: Bookie Herod
+	-- Step 5: Nesingwary's Expedition
+	["South along the road: the hunters' tents stand just west of it."] = "Yol boyunca güneye git: avcıların çadırları yolun hemen batısında.",
+	-- {npc:718} Sir S. J. Erlgadin · {area:37} Lake Nazferiti · {area:101} Kurzen's Compound
+	-- plural, as words: Shadowmaw Panthers = {npc:684} Shadowmaw Panther
+	["{npc:718}: the Shadowmaw Panthers prowl around {area:37}, after {area:101}"] = "{npc:718}: Shadowmaw Panther yaratıkları {area:101} sonrasında, {area:37} gölünün çevresinde dolaşıyor",
+
+	-- Step 6: Bookie Herod
+	-- {area:101} Kurzen's Compound
+	["East to {area:101}: Herod's records lie in a hut on its west side."] = "Doğuya, {area:101} yerleşkesine git: Herod'un kayıtları batı tarafındaki bir kulübede.",
 	-- {object:287} Bookie Herod's Records
 	["{object:287}, upstairs"] = "{object:287}, üst katta",
 
-	-- Step 6: Kurzen's Compound
+	-- Step 7: Kurzen's Compound
+	-- {spell:7964} Smoke Bomb
 	-- plural, as words: Kurzen Commandos = {npc:938} Kurzen Commando
+	["Headshrinkers stand deeper in the compound; the Commandos lurk stealthed around it and in the cave, and Herod's strongbox sits by the cave mouth. Pick up Green Hills pages as they drop.\nCareful: Kurzen Commandos are level 34-35, not elite, and often spawn stealthed; near death they use {spell:7964}."] = "Headshrinker'lar yerleşkenin daha içinde duruyor; Commando'lar çevresinde ve mağarada gizlice pusuda, Herod'un kasası da mağara ağzının yanında. Green Hills sayfaları düştükçe topla.\nDikkat: Kurzen Commando yaratıkları 34-35. seviye, elit değil ve çoğu zaman gizli doğar; ölmek üzereyken {spell:7964} kullanırlar.",
 	-- {npc:941} Kurzen Headshrinker
 	["{npc:941}, below ground"] = "{npc:941}, yer altında",
 	-- {object:288} Bookie Herod's Strongbox
 	["{object:288}, below ground"] = "{object:288}, yer altında",
 
-	-- Step 7: Rebel Camp
-	-- {npc:733} Sergeant Yohwa
-	["{npc:733}: the Commandos and Headshrinkers fell in the compound"] = "{npc:733}: yerleşkede öldürdüğün Commando ve Headshrinker yaratıkları",
-
-	-- Step 8: Nesingwary's Expedition
-	["South along the road: the hunters' tents stand just west of it."] = "Yol boyunca güneye git: avcıların çadırları yolun hemen batısında.",
+	-- Step 8: Lake Nazferiti
+	-- {area:37} Lake Nazferiti
+	-- plural, as words: Venture Co. Geologists = {npc:1096} Venture Co. Geologist · Tumbled Crystals = {item:4106} Tumbled Crystal · Shadowmaw Panthers = {npc:684} Shadowmaw Panther
+	["South from the compound to {area:37}: the Venture Co. Geologists in the camps on its shore carry the Tumbled Crystals, and the Shadowmaw Panthers prowl stealthed in the jungle south and east of it."] = "Yerleşkeden güneye, {area:37} gölüne git: kıyısındaki kamplarda bulunan Venture Co. Geologist yaratıklarında Tumbled Crystal var; Shadowmaw Panther yaratıkları da gölün güneyindeki ve doğusundaki ormanda gizlenerek dolaşıyor.",
 
 	-- Step 9: The jungle ruins
 	["The jungle ruins"] = "Orman harabeleri",
-	-- plural, as words: Shadowmaw Panthers = {npc:684} Shadowmaw Panther · Tumbled Crystals = {item:4106} Tumbled Crystal
+	["West across the jungle to the troll ruins: each holds one stone tablet of the troll legends, the first two in the ruins south-west of Nesingwary's camp, the last two on the hill in the north-west."] = "Ormanın içinden batıya, troll harabelerine git: her birinde troll efsanelerinden bir taş tablet var; ilk ikisi Nesingwary'nin kampının güneybatısındaki harabelerde, son ikisi kuzeybatıdaki tepede.",
 	-- {item:2006} The Second Troll Legend · {object:58} Gri'lek the Wanderer
 	["{item:2006}: {object:58}; underwater"] = "{item:2006}: {object:58}; su altında",
 
 	-- Step 10: Water Elementals
 	-- plural, as words: Lesser Water Elementals = {npc:691} Lesser Water Elemental
-	["Follow the west coast north to the haunted island off the shore west of Nesingwary's camp: the Lesser Water Elementals rise from the water around it."] = "Batı kıyısını kuzeye, Nesingwary'nin kampının batısında, kıyının açığındaki perili adaya kadar izle: Lesser Water Elemental yaratıkları adanın çevresinde sudan yükseliyor.",
+	["The haunted island lies just off the shore west of the second tablet: the Lesser Water Elementals rise from the water around it."] = "Lanetli ada, ikinci tabletin batısında, kıyının hemen açığında: Lesser Water Elemental yaratıkları adanın çevresindeki sudan yükseliyor.",
 
-	-- Step 11: Stranglethorn Vale: kill these as you meet them
-	-- {zone:1434} Stranglethorn Vale
-	["{zone:1434}: kill these as you meet them"] = "{zone:1434}: bunları karşılaştıkça öldür",
+	-- Step 11: The Ruins of Zul'Kunda
+	-- {area:102} Ruins of Zul'Kunda
+	["The {area:102}"] = "{area:102}",
+	["North along the coast to the ruins on the hill: the last two tablets lie there. Pick up Green Hills pages as they drop."] = "Kıyı boyunca kuzeye, tepedeki harabelere git: son iki tablet orada. Green Hills sayfalarını düştükçe topla.",
+
+	-- Step 12: Rebel Camp
+	-- {area:99} Rebel Camp
+	["East to the {area:99}, on the way back to Nesingwary's camp."] = "Nesingwary'nin kampına dönüş yolunda doğuya, {area:99} kampına git.",
+	-- {npc:733} Sergeant Yohwa
+	["{npc:733}: the Commandos and Headshrinkers fell in the compound"] = "{npc:733}: yerleşkede öldürdüğün Commando ve Headshrinker yaratıkları",
 
 	-- Step 15: Snapjaw Crocolisks
 	-- plural, as words: Snapjaw Crocolisks = {npc:1152} Snapjaw Crocolisk
@@ -57,8 +78,9 @@ return {
 
 	-- Step 16: Level 36
 	["Level 36"] = "Seviye 36",
-	-- {quest:205} Troll Witchery
+	-- {quest:205} Troll Witchery · {area:796} Scarlet Monastery · {area:1316} Razorfen Downs
 	-- plural, as words: Snapjaw Crocolisks = {npc:1152} Snapjaw Crocolisk
+	["{quest:205}'s Skullsplitter trolls are 39-42. Below 36? Keep killing the Snapjaw Crocolisks along the river until level 36. Or, with a group, run the {area:796} dungeon (Armory) or the {area:1316} dungeon instead."] = "{quest:205} için Skullsplitter troll'leri 39-42. seviye. 36'nın altında mısın? Seviye 36 olana kadar nehir boyundaki Snapjaw Crocolisk yaratıklarını öldürmeye devam et. Ya da grupla, bunun yerine {area:796} zindanına (Armory) ya da {area:1316} zindanına gir.",
 	-- {npc:1152} Snapjaw Crocolisk
 	["grind on {npc:1152}"] = "Kas: {npc:1152}",
 
@@ -81,12 +103,4 @@ return {
 	-- {npc:2498} Crank Fizzlebub
 	["{npc:2498}, inside"] = "{npc:2498}, içeride",
 	["\"Sea Wolf\" MacKinley, on the top floor"] = "\"Sea Wolf\" MacKinley, en üst katta",
-
-	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
-	["Fly to {area:42}"] = "{area:42} kasabasına uç",
-	["{npc:770}: for {npc:773} in {area:35}"] = "{npc:770}: {area:35} limanındaki {npc:773} için",
-	["Herod's records lie in a hut on the west side of {area:101}, east of the {area:99}."] = "Herod'un kayıtları {area:99} kesiminin doğusunda, {area:101} kesiminin batı yakasındaki bir kulübede.",
-	["Headshrinkers stand deeper in the compound; the Commandos lurk stealthed around it and in the cave, and Herod's strongbox sits by the cave mouth. Pick up Green Hills pages as they drop.\nCareful: Kurzen Commandos are level 34-35, not elite, and often spawn stealthed; near death they use {spell:7964}."] = "Headshrinker'lar yerleşkenin daha içinde duruyor; Commando'lar çevresinde ve mağarada gizlice pusuda, Herod'un kasası da mağara ağzının yanında. Green Hills sayfaları düştükçe topla.\nDikkat: Kurzen Commando yaratıkları 34-35. seviye, elit değil ve çoğu zaman gizli doğar; ölmek üzereyken {spell:7964} kullanırlar.",
-	["Loop through the troll ruins of the north and centre: each holds one stone tablet of the troll legends. Shadowmaw Panthers prowl stealthed in the jungle around them; the Venture Co. camp on {area:37} carries the Tumbled Crystals."] = "Kuzeydeki ve ortadaki troll harabelerini tur halinde dolaş: her birinde troll efsanelerine ait bir taş tablet var. Shadowmaw Panther yaratıkları çevredeki ormanda gizlenerek dolaşıyor; Tumbled Crystal eşyalarını {area:37} gölündeki Venture Co. kampı taşıyor.",
-	["{quest:205}'s Skullsplitter trolls are 39-42. Below 36? Keep killing the Snapjaw Crocolisks along the river until level 36. Or, with a group, run the {area:796} dungeon (Armory) or the {area:1316} dungeon instead."] = "{quest:205} için Skullsplitter troll'leri 39-42. seviye. 36'nın altında mısın? Seviye 36 olana kadar nehir boyundaki Snapjaw Crocolisk yaratıklarını öldürmeye devam et. Ya da grupla, bunun yerine {area:796} zindanına (Armory) ya da {area:1316} zindanına gir.",
 }

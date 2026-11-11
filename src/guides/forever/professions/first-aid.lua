@@ -46,7 +46,8 @@ return {
 	["humanoids of level 15-30 drop {item:2592} (or buy it at the Auction House)."] = "Seviye 15-30 insansılar {item:2592} düşürür (ya da müzayede evinden al).",
 
 	-- Step 10: Wool Bandage (80-115)
-	-- {spell:3277} Wool Bandage · {skill:129} First Aid · {item:6452} Anti-Venom · {item:1475} Small Venom Sac
+	-- {spell:3277} Wool Bandage · {skill:129} First Aid · {item:6452} Anti-Venom · {item:1475} Small Venom Sac · {spell:9810} Touch of Zanzil
+	["{spell:3277} is yellow from 80 (yellow at 80, green at 115, grey at 150): about 49 crafts to 115. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 80 for 2s 50c; the arrow picks the nearest. {item:6452} ({item:1475}, from spiders) is taught at 80 too: Rogues need it for {spell:9810}, and it sells."] = "{spell:3277}: 80 puandan sarı (sarı 80, yeşil 115, gri 150): 115 puana kadar yaklaşık 49 üretim. Sargılar ateş istemez: her yerde yap. Tarafının her {skill:129} eğitmeni bunu 80 puandan 2s 50c karşılığında öğretir; ok en yakınını seçer. {item:6452} (örümceklerden {item:1475}) da 80 puanda öğretilir: Rogue'ların {spell:9810} için ona ihtiyacı var ve satılır.",
 
 	-- Step 11: Heavy Wool Bandage: cloth
 	-- {spell:3278} Heavy Wool Bandage
@@ -102,7 +103,8 @@ return {
 	["Artisan {skill:129} comes from the {quest:6624} quest. It needs skill 225 and level 35; the {skill:129} trainer in {zone:1455} sends you to the doctor in Theramore. Bring the Mageweave (about 74) and {item:14047} (about 65) for 225-300 now: bandages need no fire, so you craft 225-300 beside the doctor, who teaches the Artisan bandages."] = "Artisan {skill:129}, {quest:6624} görevinden gelir. Beceri 225 ve seviye 35 ister; {zone:1455} şehrindeki {skill:129} eğitmeni seni Theramore'daki doktora gönderir. 225-300 için Mageweave'i (yaklaşık 74) ve {item:14047} kumaşını (yaklaşık 65) şimdi getir: sargılar ateş istemez, bu yüzden 225-300'ü Artisan sargılarını öğreten doktorun yanında yaparsın.",
 
 	-- Step 23: Trauma
-	-- {skill:129} First Aid · {quest:6622} Triage · {zone:1454} Orgrimmar · {item:14047} Runecloth
+	-- {skill:129} First Aid · {quest:6622} Triage · {zone:1454} Orgrimmar · {area:321} Hammerfall · {item:14047} Runecloth
+	["Artisan {skill:129} comes from the {quest:6622} quest. It needs skill 225 and level 35; the {skill:129} trainer in {zone:1454} sends you to the doctor in {area:321}. Bring the Mageweave (about 74) and {item:14047} (about 65) for 225-300 now: bandages need no fire, so you craft 225-300 beside the doctor, who teaches the Artisan bandages."] = "Artisan {skill:129}, {quest:6622} görevinden gelir. Beceri 225 ve seviye 35 ister; {zone:1454} şehrindeki {skill:129} eğitmeni seni {area:321} kasabasındaki doktora gönderir. 225-300 için Mageweave'i (yaklaşık 74) ve {item:14047} kumaşını (yaklaşık 65) şimdi getir: sargılar ateş istemez, bu yüzden 225-300'ü Artisan sargılarını öğreten doktorun yanında yaparsın.",
 
 	-- Step 24: Triage
 	-- {quest:6624} Triage
@@ -115,7 +117,6 @@ return {
 	-- {quest:6622} Triage
 	-- plural, as words: Triage Bandages = {item:16991} Triage Bandage
 	["{quest:6622}: the doctor hands you Triage Bandages; use those, not your own. Fifteen wounded soldiers lie on the floor inside: bandage the critically injured first, then the badly injured, then the injured, before any die (show the health bars with Ctrl+V). Turn the quest in the moment fifteen are saved: the others keep dying, and too many deaths fail it even after it reads complete. If it fails, abandon it and take it again."] = "{quest:6622}: doktor sana Triage Bandage verir; kendi sargılarını değil, onları kullan. İçeride yerde on beş yaralı asker yatıyor: hiçbiri ölmeden önce önce ağır yaralıları (critically injured), sonra kötü yaralıları (badly injured), sonra yaralıları (injured) sar (can çubuklarını Ctrl+V ile göster). On beşi kurtarılır kurtarılmaz görevi teslim et: diğerleri ölmeyi sürdürür ve tamamlandı yazsa bile çok fazla ölüm görevi başarısız kılar. Başarısız olursa görevi bırak ve yeniden al.",
-	-- {npc:12920} Doctor Gregory Victor
 
 	-- Step 27: Mageweave Bandage (225-240)
 	-- {item:8544} Mageweave Bandage
@@ -123,7 +124,8 @@ return {
 	["{item:8544} is yellow from 225 (yellow at 210, green at 240, grey at 270): about 24 crafts to 240. Bandages need no fire: craft them anywhere. {item:8544} turns green at 240: switch to Heavy Mageweave there, which costs less cloth than green Mageweave Bandages to 260."] = "{item:8544}: 225 puandan sarı (sarı 210, yeşil 240, gri 270): 240 puana kadar yaklaşık 24 üretim. Sargılar ateş istemez: her yerde yap. {item:8544} 240 puanda yeşile döner: orada, 260 puana kadar yeşil Mageweave Bandage'lardan daha az kumaş harcayan Heavy Mageweave'e geç.",
 
 	-- Step 28: Heavy Mageweave Bandage
-	-- {spell:10841} Heavy Mageweave Bandage · {quest:6622} Triage · {npc:12939} Doctor Gustaf VanHowzen · {npc:12920} Doctor Gregory Victor
+	-- {spell:10841} Heavy Mageweave Bandage · {quest:6622} Triage · {npc:12939} Doctor Gustaf VanHowzen · {npc:12920} Doctor Gregory Victor · {area:321} Hammerfall
+	["{spell:10841} (skill 240) is an Artisan recipe: only the {quest:6622} doctor teaches it ({npc:12939} in Theramore, {npc:12920} in {area:321})."] = "{spell:10841} (beceri 240) bir Artisan tarifi: yalnızca {quest:6622} doktoru öğretir (Theramore'da {npc:12939}, {area:321} kasabasında {npc:12920}).",
 
 	-- Step 29: Heavy Mageweave Bandage: cloth
 	-- {item:8545} Heavy Mageweave Bandage
@@ -134,7 +136,8 @@ return {
 	["{item:8545} is yellow from 240 (yellow at 240, green at 270, grey at 300): about 25 crafts to 260. Bandages need no fire: craft them anywhere."] = "{item:8545}: 240 puandan sarı (sarı 240, yeşil 270, gri 300): 260 puana kadar yaklaşık 25 üretim. Sargılar ateş istemez: her yerde yap.",
 
 	-- Step 31: Runecloth Bandage
-	-- {spell:18629} Runecloth Bandage · {quest:6622} Triage · {npc:12939} Doctor Gustaf VanHowzen · {npc:12920} Doctor Gregory Victor
+	-- {spell:18629} Runecloth Bandage · {quest:6622} Triage · {npc:12939} Doctor Gustaf VanHowzen · {npc:12920} Doctor Gregory Victor · {area:321} Hammerfall
+	["{spell:18629} (skill 260) is an Artisan recipe: only the {quest:6622} doctor teaches it ({npc:12939} in Theramore, {npc:12920} in {area:321})."] = "{spell:18629} (260 puan) bir Artisan tarifi: yalnızca {quest:6622} doktoru öğretir (Theramore'da {npc:12939}, {area:321} kalesinde {npc:12920}).",
 
 	-- Step 32: Runecloth Bandage: cloth
 	-- {item:14529} Runecloth Bandage
@@ -145,11 +148,4 @@ return {
 	-- Step 33: Runecloth Bandage (260-300)
 	-- {item:14529} Runecloth Bandage · {item:14047} Runecloth · {item:14530} Heavy Runecloth Bandage
 	["{item:14529} is yellow from 260 (yellow at 260, green at 290, grey at 320): about 65 crafts to 300. Bandages need no fire: craft them anywhere. {item:14529} turns green at 290, yet to 300 it takes about the same {item:14047} as switching to {item:14530} (the doctor teaches it at 290): one recipe is enough."] = "{item:14529}: 260 puandan sarı (sarı 260, yeşil 290, gri 320): 300 puana kadar yaklaşık 65 üretim. Sargılar ateş istemez: her yerde yap. {item:14529} 290 puanda yeşile döner, yine de 300 puana kadar {item:14530} tarifine geçmekle (doktor 290 puanda öğretir) aşağı yukarı aynı {item:14047} harcar: tek tarif yeter.",
-
-
-	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
-	["{spell:3277} is yellow from 80 (yellow at 80, green at 115, grey at 150): about 49 crafts to 115. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 80 for 2s 50c; the arrow picks the nearest. {item:6452} ({item:1475}, from spiders) is taught at 80 too: Rogues need it for {spell:9810}, and it sells."] = "{spell:3277}: 80 puandan sarı (sarı 80, yeşil 115, gri 150): 115 puana kadar yaklaşık 49 üretim. Sargılar ateş istemez: her yerde yap. Tarafının her {skill:129} eğitmeni bunu 80 puandan 2s 50c karşılığında öğretir; ok en yakınını seçer. {item:6452} (örümceklerden {item:1475}) da 80 puanda öğretilir: Rogue'ların {spell:9810} için ona ihtiyacı var ve satılır.",
-	["Artisan {skill:129} comes from the {quest:6622} quest. It needs skill 225 and level 35; the {skill:129} trainer in {zone:1454} sends you to the doctor in {area:321}. Bring the Mageweave (about 74) and {item:14047} (about 65) for 225-300 now: bandages need no fire, so you craft 225-300 beside the doctor, who teaches the Artisan bandages."] = "Artisan {skill:129}, {quest:6622} görevinden gelir. Beceri 225 ve seviye 35 ister; {zone:1454} şehrindeki {skill:129} eğitmeni seni {area:321} kasabasındaki doktora gönderir. 225-300 için Mageweave'i (yaklaşık 74) ve {item:14047} kumaşını (yaklaşık 65) şimdi getir: sargılar ateş istemez, bu yüzden 225-300'ü Artisan sargılarını öğreten doktorun yanında yaparsın.",
-	["{spell:10841} (skill 240) is an Artisan recipe: only the {quest:6622} doctor teaches it ({npc:12939} in Theramore, {npc:12920} in {area:321})."] = "{spell:10841} (beceri 240) bir Artisan tarifi: yalnızca {quest:6622} doktoru öğretir (Theramore'da {npc:12939}, {area:321} kasabasında {npc:12920}).",
-	["{spell:18629} (skill 260) is an Artisan recipe: only the {quest:6622} doctor teaches it ({npc:12939} in Theramore, {npc:12920} in {area:321})."] = "{spell:18629} (260 puan) bir Artisan tarifi: yalnızca {quest:6622} doktoru öğretir (Theramore'da {npc:12939}, {area:321} kalesinde {npc:12920}).",
 }

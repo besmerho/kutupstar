@@ -23,16 +23,13 @@ return {
 	-- Step 4: Flesh Picker in Desolace
 	-- {npc:217590} Flesh Picker · {zone:1443} Desolace
 	["{npc:217590} in {zone:1443}"] = "{npc:217590}, {zone:1443} bölgesinde",
-	-- {zone:1443} Desolace
+	-- {area:596} Kodo Graveyard · {zone:1443} Desolace
 	-- plural, as words: Flesh Pickers = {npc:217590} Flesh Picker
+	["The Flesh Pickers feed in the {area:596} in the middle of southern {zone:1443}. Use the kit's tool on one."] = "Flesh Picker'lar {zone:1443} bölgesinin güneyinin ortasındaki {area:596} içinde besleniyor. Kitin aletini birinin üzerinde kullan.",
 
 	-- Step 5: Back to Amaryllis Webb
 	-- {npc:217412} Amaryllis Webb
 	["Back to {npc:217412}"] = "Dönüş: {npc:217412}",
 	-- {npc:217412} Amaryllis Webb · {item:280456} Weevil K. Neevil
 	["Hand {npc:217412} the three specimens: she gives you {item:280456} and 35s."] = "Üç örneği {npc:217412} yanına ver: sana {item:280456} ve 35s verir.",
-
-
-	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
-	["The Flesh Pickers feed in the {area:596} in the middle of southern {zone:1443}. Use the kit's tool on one."] = "Flesh Picker'lar {zone:1443} bölgesinin güneyinin ortasındaki {area:596} içinde besleniyor. Kitin aletini birinin üzerinde kullan.",
 }

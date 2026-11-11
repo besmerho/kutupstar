@@ -8,19 +8,24 @@ return {
 	["An off-hand orb or a staff for your late 30s, down the felhound's or the infernal's path, your pick."] = "30'lu seviyelerinin sonu için felhound ya da infernal yolundan bir yan el küresi ya da bir asa; seçim senin.",
 
 	-- Step 1: Knowledge of the Orb of Orahil (Stormwind)
-	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6266} Menara Voidrender
+	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6266} Menara Voidrender · {area:392} Ratchet
+	["At 35 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:6266} in {area:392}."] = "Seviye 35'te {object:2101} semtindeki {object:2164} içinde bulunan {npc:461}, seni {area:392} kasabasındaki {npc:6266} yanına gönderir.",
 
 	-- Step 2: Knowledge of the Orb of Orahil (Ironforge)
-	-- {npc:5172} Briarthorn · {zone:1455} Ironforge · {npc:6266} Menara Voidrender
+	-- {npc:5172} Briarthorn · {zone:1455} Ironforge · {npc:6266} Menara Voidrender · {area:392} Ratchet
+	["At 35 {npc:5172} in {zone:1455} sends you to {npc:6266} in {area:392}."] = "Seviye 35'te {zone:1455} şehrindeki {npc:5172}, seni {area:392} kasabasındaki {npc:6266} yanına gönderir.",
 
 	-- Step 3: Knowledge of the Orb of Orahil (Orgrimmar)
-	-- {npc:3326} Zevrost · {object:172960} Cleft of Shadow · {npc:6266} Menara Voidrender
+	-- {npc:3326} Zevrost · {object:172960} Cleft of Shadow · {npc:6266} Menara Voidrender · {area:392} Ratchet
+	["At 35 {npc:3326} in the {object:172960} sends you to {npc:6266} in {area:392}."] = "Seviye 35'te {object:172960} içindeki {npc:3326}, seni {area:392} kasabasındaki {npc:6266} yanına gönderir.",
 
 	-- Step 4: Knowledge of the Orb of Orahil (Undercity)
-	-- {npc:4563} Kaal Soulreaper · {object:36082} Magic Quarter · {npc:6266} Menara Voidrender · {zone:1420} Tirisfal Glades · {zone:1411} Durotar
+	-- {npc:4563} Kaal Soulreaper · {object:36082} Magic Quarter · {npc:6266} Menara Voidrender · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar
+	["At 35 {npc:4563} in the {object:36082} sends you to {npc:6266} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}."] = "Seviye 35'te {object:36082} semtindeki {npc:4563}, seni {area:392} kasabasındaki {npc:6266} yanına gönderir. {zone:1420} bölgesinden kalkan zeplin {zone:1411} bölgesine gider.",
 
 	-- Step 5: Menara Voidrender
-	-- {npc:6266} Menara Voidrender · {npc:6251} Strahad Farsan
+	-- {npc:6266} Menara Voidrender · {npc:6251} Strahad Farsan · {area:392} Ratchet
+	["{npc:6266} and her two acolytes stand in {npc:6251}'s tower on the hill above {area:392}."] = "{npc:6266} ve iki yardımcısı, {area:392} kasabasının yukarısındaki tepede {npc:6251} kulesinde duruyor.",
 
 	-- Step 6: Choose an acolyte
 	["Choose an acolyte"] = "Bir çırak seç",
@@ -32,8 +37,9 @@ return {
 	["{npc:6252}: he gives you the {item:12646}"] = "{npc:6252}: sana {item:12646} verir",
 
 	-- Step 7: Mannoroc Coven
-	-- {zone:1443} Desolace · {object:176946} Shadowprey Village (no name in this language: may be words) · {item:7291} Infernal Orb
+	-- {area:602} Mannoroc Coven · {zone:1443} Desolace · {area:2408} Shadowprey Village · {item:7291} Infernal Orb · {spell:1120} Drain Soul
 	-- plural, as words: Burning Blade Summoners = {npc:4668} Burning Blade Summoner · Mana Eaters = {npc:4678} Mana Eater · Mage Hunters = {npc:4681} Mage Hunter · Ley Hunters = {npc:4685} Ley Hunter · Lesser Infernals = {npc:4676} Lesser Infernal
+	["{area:602} fills south-central {zone:1443}, east of {area:2408}. The Burning Blade Summoners (level 38-39, warlocks with imps) carry the {item:7291} every time. For the spirit, bring your demon to low health with your damage over time, then channel the ruby or the emerald on it and keep channelling while it dies, as with {spell:1120}: the gem does no damage of its own. The ruby works on the coven's felhounds: the two Mana Eaters (37-38) in the north, and the Mage Hunters (38) and Ley Hunters (39) further south. The emerald works on the Lesser Infernals (36-37, sixteen of them, fire-resistant)."] = "{area:602}, güney-orta {zone:1443} bölgesini, {area:2408} köyünün doğusunu dolduruyor. Burning Blade Summoner yaratıkları (seviye 38-39, imp'li warlock'lar) her seferinde {item:7291} taşır. Ruh için iblisinin canını zamanla hasar büyülerinle düşür, sonra yakutu ya da zümrüdü onun üzerinde kanalize et ve {spell:1120} gibi o ölürken kanalize etmeyi sürdür: mücevherin kendi hasarı yok. Yakut covenin felhound'larında işe yarar: kuzeydeki iki Mana Eater (37-38) ve daha güneydeki Mage Hunter (38) ve Ley Hunter (39) yaratıkları. Zümrüt Lesser Infernal yaratıklarında (36-37, on altı tane, fire'a dirençli) işe yarar.",
 	-- {item:7291} Infernal Orb
 	-- plural, as words: Burning Blade Summoners = {npc:4668} Burning Blade Summoner
 	["{item:7291}, from the Burning Blade Summoners"] = "{item:7291}, Burning Blade Summoner yaratıklarından",
@@ -44,15 +50,18 @@ return {
 
 	-- Step 8: The demon's spirit
 	["The demon's spirit"] = "İblisin ruhu",
-	-- {npc:6266} Menara Voidrender
+	-- {npc:6266} Menara Voidrender · {area:392} Ratchet
+	["Back to {npc:6266} in the tower above {area:392} with the spirit and the gem first: her orb follows from it."] = "Önce ruh ve mücevherle {area:392} kasabasının yukarısındaki kuledeki {npc:6266} yanına dön: küresi bundan çıkar.",
 
 	-- Step 9: Tabetha
-	-- {npc:6546} Tabetha · {zone:1445} Dustwallow Marsh · {zone:1413} Barrens · {npc:6549} Demon of the Orb
+	-- {npc:6546} Tabetha · {zone:1445} Dustwallow Marsh · {zone:1413} Barrens · {npc:6549} Demon of the Orb · {spell:710} Banish
+	["{npc:6546} lives at her farm in the middle of {zone:1445}, south of the road from the {zone:1413} and south-west of Theramore; a spirit healer stands beside it. Deadmire, a level 45 crocolisk, patrols the creeks just north-east. Before you accept Cleansing, clear the spiders and crocolisks around her paddock. Accepting starts a 3-minute timer: she walks to the paddock and lets the {npc:6549} out. It is elite (level 40): grouping up is encouraged; a warlock of about 40 can solo it with Fear or {spell:710} and damage over time, a level 35-38 one brings a friend. The timer keeps running after the kill, so hand in at once. If time runs out, abandon the quest and take it from {npc:6546} again."] = "{npc:6546}, {zone:1445} bölgesinin ortasındaki çiftliğinde, {zone:1413} yolunun güneyinde ve Theramore'un güneybatısında yaşıyor; yanında bir spirit healer duruyor. Seviye 45 bir crocolisk olan Deadmire, hemen kuzeydoğudaki derelerde devriye geziyor. Cleansing'i kabul etmeden önce ağılının çevresindeki örümcekleri ve crocolisk'leri temizle. Kabul etmek 3 dakikalık bir süre başlatır: ağıla yürür ve {npc:6549} iblisini serbest bırakır. Elit (seviye 40): grup kurman önerilir; 40 civarı bir warlock onu Fear ya da {spell:710} ve zamanla hasarla tek başına yapabilir, 35-38'lik biri bir arkadaş getirsin. Süre öldürmeden sonra da işlemeye devam eder, bu yüzden hemen teslim et. Süre biterse görevi bırak ve {npc:6546} ile konuşup yeniden al.",
 
 	-- Step 10: The Orb of Dar'Orahil
 	-- {item:15108} Orb of Dar'Orahil
 	["The {item:15108}"] = "{item:15108}",
-	-- {npc:6266} Menara Voidrender · {item:15108} Orb of Dar'Orahil
+	-- {npc:6266} Menara Voidrender · {area:392} Ratchet · {item:15108} Orb of Dar'Orahil
+	["Back to {npc:6266} in the tower above {area:392} with the cleansed orb. On the felhound path, accept her last quest and wait beside her while she completes the {item:15108} (do not attack her: the quest log calls it a kill), then speak to her again and pick the off-hand orb or the staff."] = "Arındırılmış küreyle {area:392} kasabasının yukarısındaki kuledeki {npc:6266} yanına dön. Felhound yolunda son görevini kabul et ve {item:15108} küresini tamamlarken yanında bekle (ona saldırma: görev günlüğü buna öldürme diyor), sonra onunla yeniden konuş ve yan el küresini ya da asayı seç.",
 	-- {npc:6266} Menara Voidrender
 	["Wait beside {npc:6266} while she makes the orb"] = "{npc:6266} küreyi yaparken yanında bekle",
 
@@ -61,16 +70,4 @@ return {
 	["The {item:15107}"] = "{item:15107}",
 	-- {npc:6266} Menara Voidrender · {item:15107} Orb of Noh'Orahil
 	["On the infernal path, accept her last quest and wait beside {npc:6266} while she completes the {item:15107}, then speak to her again and pick the off-hand orb or the staff."] = "Infernal yolunda son görevini kabul et ve {item:15107} küresini tamamlarken {npc:6266} yanında bekle, sonra onunla yeniden konuş ve yan el küresini ya da asayı seç.",
-
-
-	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
-	["At 35 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:6266} in {area:392}."] = "Seviye 35'te {object:2101} semtindeki {object:2164} içinde bulunan {npc:461}, seni {area:392} kasabasındaki {npc:6266} yanına gönderir.",
-	["At 35 {npc:5172} in {zone:1455} sends you to {npc:6266} in {area:392}."] = "Seviye 35'te {zone:1455} şehrindeki {npc:5172}, seni {area:392} kasabasındaki {npc:6266} yanına gönderir.",
-	["At 35 {npc:3326} in the {object:172960} sends you to {npc:6266} in {area:392}."] = "Seviye 35'te {object:172960} içindeki {npc:3326}, seni {area:392} kasabasındaki {npc:6266} yanına gönderir.",
-	["At 35 {npc:4563} in the {object:36082} sends you to {npc:6266} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}."] = "Seviye 35'te {object:36082} semtindeki {npc:4563}, seni {area:392} kasabasındaki {npc:6266} yanına gönderir. {zone:1420} bölgesinden kalkan zeplin {zone:1411} bölgesine gider.",
-	["{npc:6266} and her two acolytes stand in {npc:6251}'s tower on the hill above {area:392}."] = "{npc:6266} ve iki yardımcısı, {area:392} kasabasının yukarısındaki tepede {npc:6251} kulesinde duruyor.",
-	["{area:602} fills south-central {zone:1443}, east of {area:2408}. The Burning Blade Summoners (level 38-39, warlocks with imps) carry the {item:7291} every time. For the spirit, bring your demon to low health with your damage over time, then channel the ruby or the emerald on it and keep channelling while it dies, as with {spell:1120}: the gem does no damage of its own. The ruby works on the coven's felhounds: the two Mana Eaters (37-38) in the north, and the Mage Hunters (38) and Ley Hunters (39) further south. The emerald works on the Lesser Infernals (36-37, sixteen of them, fire-resistant)."] = "{area:602}, güney-orta {zone:1443} bölgesini, {area:2408} köyünün doğusunu dolduruyor. Burning Blade Summoner yaratıkları (seviye 38-39, imp'li warlock'lar) her seferinde {item:7291} taşır. Ruh için iblisinin canını zamanla hasar büyülerinle düşür, sonra yakutu ya da zümrüdü onun üzerinde kanalize et ve {spell:1120} gibi o ölürken kanalize etmeyi sürdür: mücevherin kendi hasarı yok. Yakut covenin felhound'larında işe yarar: kuzeydeki iki Mana Eater (37-38) ve daha güneydeki Mage Hunter (38) ve Ley Hunter (39) yaratıkları. Zümrüt Lesser Infernal yaratıklarında (36-37, on altı tane, fire'a dirençli) işe yarar.",
-	["Back to {npc:6266} in the tower above {area:392} with the spirit and the gem first: her orb follows from it."] = "Önce ruh ve mücevherle {area:392} kasabasının yukarısındaki kuledeki {npc:6266} yanına dön: küresi bundan çıkar.",
-	["{npc:6546} lives at her farm in the middle of {zone:1445}, south of the road from the {zone:1413} and south-west of Theramore; a spirit healer stands beside it. Deadmire, a level 45 crocolisk, patrols the creeks just north-east. Before you accept Cleansing, clear the spiders and crocolisks around her paddock. Accepting starts a 3-minute timer: she walks to the paddock and lets the {npc:6549} out. It is elite (level 40): grouping up is encouraged; a warlock of about 40 can solo it with Fear or {spell:710} and damage over time, a level 35-38 one brings a friend. The timer keeps running after the kill, so hand in at once. If time runs out, abandon the quest and take it from {npc:6546} again."] = "{npc:6546}, {zone:1445} bölgesinin ortasındaki çiftliğinde, {zone:1413} yolunun güneyinde ve Theramore'un güneybatısında yaşıyor; yanında bir spirit healer duruyor. Seviye 45 bir crocolisk olan Deadmire, hemen kuzeydoğudaki derelerde devriye geziyor. Cleansing'i kabul etmeden önce ağılının çevresindeki örümcekleri ve crocolisk'leri temizle. Kabul etmek 3 dakikalık bir süre başlatır: ağıla yürür ve {npc:6549} iblisini serbest bırakır. Elit (seviye 40): grup kurman önerilir; 40 civarı bir warlock onu Fear ya da {spell:710} ve zamanla hasarla tek başına yapabilir, 35-38'lik biri bir arkadaş getirsin. Süre öldürmeden sonra da işlemeye devam eder, bu yüzden hemen teslim et. Süre biterse görevi bırak ve {npc:6546} ile konuşup yeniden al.",
-	["Back to {npc:6266} in the tower above {area:392} with the cleansed orb. On the felhound path, accept her last quest and wait beside her while she completes the {item:15108} (do not attack her: the quest log calls it a kill), then speak to her again and pick the off-hand orb or the staff."] = "Arındırılmış küreyle {area:392} kasabasının yukarısındaki kuledeki {npc:6266} yanına dön. Felhound yolunda son görevini kabul et ve {item:15108} küresini tamamlarken yanında bekle (ona saldırma: görev günlüğü buna öldürme diyor), sonra onunla yeniden konuş ve yan el küresini ya da asayı seç.",
 }

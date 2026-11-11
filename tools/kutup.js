@@ -50,7 +50,8 @@ const UI_SRC = path.join(SRC, 'Locales', 'trTR.lua');
 const GUIDES_SRC = path.join(SRC, 'guides');
 const GLOSSARY = path.join(SRC, 'glossary.json');
 const UP_ADDON = path.join(UPSTREAM, 'addon', 'Polestar');
-const UP_UI_DE = path.join(UP_ADDON, 'Locales', 'deDE.lua');
+// The German interface strings (the UI data keys); upstream/ moves during pin, so asked each time.
+const UP_UI_DE = () => require('./lib/sync').deUIFile(UPSTREAM);
 const UP_GUIDES_DE = path.join(UPSTREAM, 'guides', 'locales', 'deDE');
 // The compiled guides: Polestar_Guides, and since v0.3.0 also its faction parts (Polestar_Guides_Alliance,
 // _Horde). The race parts (Polestar_Guides_Human...) hold only walking paths (Legs.lua), no text.
@@ -88,7 +89,7 @@ function extract() {
 	if (extraction) return extraction;
 	const X = require('./lib/extract');
 	const uiKeys = X.uiKeys(UP_ADDON);
-	const deKeys = S.readUI(UP_UI_DE).all;
+	const deKeys = S.readUI(UP_UI_DE()).all;
 	const ui = new Set([...uiKeys.keys(), ...deKeys]);
 	const guideKeys = X.guideKeys(UP_GUIDES_LUA(), UP_PACK_LUA);
 	extraction = { uiKeys, deKeys, ui, guideKeys };
@@ -465,8 +466,11 @@ function latest() {
 const AUDIT = [
 	['must', 'Core/Init.lua', /^Polestar = ns$/m, 'the global Polestar table Core.lua reads'],
 	['must', 'Core/Init.lua', /^ns\.L = L$/m, 'Polestar.L, the table the Turkish goes into'],
-	['must', 'Core/Core.xml', /Init\.lua"\/>\s*<Script file="\.\.\\Locales\\/, "a Locales file loads right after Init.lua (the early fill's moment)"],
-	['must', 'Locales/deDE.lua', /^if not \(GetLocale and GetLocale\(\) == "deDE"\) then return end$/m, 'the Locales files call GetLocale() first (the early fill hooks it)'],
+	// The early fill: the first GetLocale() call after Init.lua made L, before any file reads L at load. Since
+	// v0.3.6 that is Names.lua (the Locales files went to the load-on-demand Polestar_<locale> folders); the files
+	// between Init.lua and Names.lua read L only inside functions. A new file in between needs a look.
+	['must', 'Core/Core.xml', /<Script file="Init\.lua"\/>\s*<Script file="Compat\.lua"\/>\s*<Script file="Data\.lua"\/>\s*<Script file="LuaChunks\.lua"\/>\s*<Script file="Credits\.lua"\/>\s*<Script file="Names\.lua"\/>/, "Init.lua, then only files that read no L at load, then Names.lua (the early fill's moment)"],
+	['must', 'Core/Names.lua', /^local locale = \(GetLocale and GetLocale\(\)\) or "enUS"$/m, 'Names.lua calls GetLocale() as it loads (the early fill hooks it)'],
 	['must', 'Core/Guides.lua', /ns\.GuideTexts\.Prepare\(def,/, 'RegisterGuide calls GuideTexts.Prepare through the table (wrapped)'],
 	['must', 'Core/GuideTexts.lua', /^function GuideTexts\.Prepare\(def, live\)$/m, 'GuideTexts.Prepare (wrapped)'],
 	['must', 'Core/GuideTexts.lua', /^function GuideTexts\.PackText\(packId, s\)$/m, 'GuideTexts.PackText (wrapped: folder names)'],

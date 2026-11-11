@@ -23,20 +23,26 @@ return {
 	["Optional, and needed only for the Dredge quests later: {npc:15188} sends you to {zone:1451} with {quest:8275}, a 10-reputation letter. Skip it if you are already in {zone:1451}."] = "İsteğe bağlı ve yalnızca sonraki Dredge görevleri için gerekli: {npc:15188} seni 10 itibarlık bir mektup olan {quest:8275} ile {zone:1451} bölgesine gönderir. Zaten {zone:1451} bölgesindeysen atla.",
 
 	-- Step 3: Cenarion Hold
-	-- {zone:1451} Silithus · {faction:609} Cenarion Circle · {npc:15270} Huum Wildmane · {quest:8318} Secret Communication · {item:20404} Encrypted Twilight Text
+	-- {area:3425} Cenarion Hold · {zone:1451} Silithus · {faction:609} Cenarion Circle · {npc:15270} Huum Wildmane · {quest:8318} Secret Communication · {item:20404} Encrypted Twilight Text
+	["{area:3425} is the walled druid camp in north-central {zone:1451}, with flight points for both sides. Everyone starts Neutral with the {faction:609} (druids at 2,000 of 3,000). Bor and {npc:15270} stand together in the main building. {quest:8318} opens the {item:20404} turn-ins for good. The Legacy perk Diplomat adds up to 10% to every gain; the numbers in this guide are without it."] = "{area:3425}, {zone:1451} bölgesinin kuzey-ortasında, iki taraf için de uçuş noktası olan surlu druid kampı. Herkes {faction:609} ile Neutral'da başlar (druid'ler 3.000'in 2.000'inde). Bor ve {npc:15270} ana binada birlikte duruyor. {quest:8318}, {item:20404} teslimlerini kalıcı olarak açar. Legacy yeteneği Diplomat her kazanca %10'a kadar ekler; bu rehberdeki sayılar onsuz.",
 	-- {npc:15270} Huum Wildmane
 	["{npc:15270}, level 60"] = "{npc:15270}, seviye 60",
 
 	-- Step 4: The cultist camp west of Cenarion Hold
+	-- {area:3425} Cenarion Hold
+	["The cultist camp west of {area:3425}"] = "{area:3425} batısındaki tarikatçı kampı",
 	-- {item:20404} Encrypted Twilight Text · {npc:11804} Twilight Keeper Havunth
 	-- plural, as words: Wind Stones = {object:180461} Wind Stone
 	["The nearest Twilight's Hammer camp lies just south-west of the Hold. Avengers, Geolords and Stonecallers (level 57 to 59) each drop an {item:20404} about a third of the time, and every cultist kill is 1 reputation. {npc:11804} walks the edge of the camp. Keep every cultist robe, cowl and mantle you loot: they are the Twilight Trappings for the Wind Stones later."] = "En yakın Twilight's Hammer kampı Hold'un hemen güneybatısında. Avenger, Geolord ve Stonecaller'lar (seviye 57 ila 59) aşağı yukarı üçte bir olasılıkla bir {item:20404} düşürür ve her tarikatçı öldürmesi 1 itibar verir. {npc:11804} kampın kenarında dolaşıyor. Loot'ladığın her tarikatçı cüppesini, başlığını ve omuzluğunu sakla: sonraki Wind Stone'lar için Twilight Trappings onlar.",
 
 	-- Step 5: Back to Cenarion Hold
+	-- {area:3425} Cenarion Hold
+	["Back to {area:3425}"] = "{area:3425} kalesine dön",
 
 	-- Step 6: Cultists until the top of Friendly, texts saved
 	["Cultists until the top of Friendly, texts saved"] = "Friendly'nin sonuna kadar tarikatçılar, metinler saklanır",
-	-- {npc:11880} Twilight Avenger · {item:20404} Encrypted Twilight Text · {npc:15308} Twilight Prophet · {npc:15306} Bor Wildmane
+	-- {npc:11880} Twilight Avenger · {item:20404} Encrypted Twilight Text · {area:2742} Hive'Ashi · {npc:15308} Twilight Prophet · {npc:15306} Bor Wildmane
+	["Neutral to Honored is 9,000 reputation (7,000 for druids). Every {npc:11880}, Geolord, Stonecaller, Master and Overlord gives 1 reputation until 5,999 of 6,000 Friendly, one point short of Honored; there they stop. Save every {item:20404} and leave the quests of the next steps for later: each kill below that point is a free point on top of its text, and the texts and quests pay the same at any standing. A text drops about every third kill, so 30 kills make 30 reputation and 10 texts (100 reputation later). Four camps: south-west of the Hold (39,44), the far west (26,34), the far south-west (19,84) and the north-east below {area:2742} (66,18: Overlords, and Flamereavers that count until the top of Honored). The {npc:15308} (87% text) walks between 18,31 and 23,69. Texts sell on the auction house if you would rather buy. At 5,999 Friendly the last point into Honored comes from a Flamereaver, Twilight Keeper or Marauder, or from your first 10 texts at {npc:15306}."] = "Neutral'dan Honored'a 9.000 itibar (druid'ler için 7.000). Her {npc:11880}, Geolord, Stonecaller, Master ve Overlord, Friendly'nin 6.000'inin 5.999'una, Honored'a bir puan kalana kadar 1 itibar verir; orada dururlar. Her {item:20404} eşyasını sakla ve sonraki adımların görevlerini sonraya bırak: o noktanın altındaki her öldürme, metninin üstüne bedava bir puandır, metinler ve görevler de her itibarda aynı öder. Yaklaşık her üç öldürmede bir metin düşer, bu yüzden 30 öldürme 30 itibar ve 10 metin eder (sonra 100 itibar). Dört kamp: Hold'un güneybatısı (39,44), en batı (26,34), en güneybatı (19,84) ve {area:2742} altındaki kuzeydoğu (66,18: Overlord'lar ve Honored'ın sonuna kadar sayılan Flamereaver'lar). {npc:15308} (%87 metin) 18,31 ile 23,69 arasında dolaşıyor. Satın almayı tercih edersen metinler müzayede evinde satılıyor. Friendly 5.999'da Honored'a son puan bir Flamereaver, Twilight Keeper ya da Marauder'dan ya da {npc:15306} yanındaki ilk 10 metninden gelir.",
 	["Kills alone to the top of Friendly is 8,999 kills (6,999 for druids), but the texts they drop (about 3,000) are worth 30,000 more: most of the way to Exalted."] = "Friendly'nin sonuna kadar yalnızca öldürmeyle 8.999 öldürme gerekir (druid'ler için 6.999), ama düşürdükleri metinler (yaklaşık 3.000) 30.000 daha değerinde: Exalted yolunun çoğu.",
 	-- {item:20732} Formula: Enchant Cloak - Greater Fire Resistance · {item:22251} Cenarion Herb Bag · {item:22758} Sylvan Shoulders
 	["Friendly (3,000) opens Kania's {item:20732} (10g), Mishta's {item:22251} (2g) and {item:22758} (5g), and Forever's new Friendly gloves patterns (7g 50s)."] = "Friendly (3.000), Kania'nın {item:20732} (10g), Mishta'nın {item:22251} (2g) ve {item:22758} (5g) eşyalarını ve Forever'ın yeni Friendly eldiven kalıplarını (7g 50s) açar.",
@@ -48,11 +54,13 @@ return {
 	["{npc:15306}: 10 texts, 100, for the last point"] = "{npc:15306}: 10 metin, 100, son puan için",
 
 	-- Step 7: Vyral the Vile
-	-- {quest:8321} Vyral the Vile · {zone:1451} Silithus
+	-- {quest:8321} Vyral the Vile · {area:3446} Twilight's Run · {zone:1451} Silithus
 	-- plural, as words: Twilight Masters = {npc:11883} Twilight Master
+	["{quest:8321} (level 61, not elite) waits at the back of {area:3446}, the cave in the north-east of {zone:1451}. Flamereavers and Twilight Masters guard the way: the Flamereavers count until the top of Honored, the Masters stop at the top of Friendly like the other cultists."] = "{quest:8321} (seviye 61, elit değil), {zone:1451} bölgesinin kuzeydoğusundaki mağara olan {area:3446} içinde, en arkada bekliyor. Flamereaver ve Twilight Master'lar yolu koruyor: Flamereaver'lar Honored'ın sonuna kadar sayılır, Master'lar diğer tarikatçılar gibi Friendly'nin sonunda durur.",
 
 	-- Step 8: Silithus quests at Cenarion Hold
-	-- {zone:1451} Silithus
+	-- {zone:1451} Silithus · {area:3425} Cenarion Hold
+	["{zone:1451} quests at {area:3425}"] = "{area:3425} kampında {zone:1451} görevleri",
 	-- {quest:8280} Securing the Supply Lines · {quest:8275} Taking Back Silithus · {npc:15196} Deathclasp · {npc:15174} Calandrath · {quest:8307} Desert Recipe · {item:20452} Smoked Desert Dumplings · {npc:15189} Beetix Ficklespragg
 	["Now cash in the one-time quests: about 1,700 reputation alone, 2,400 with the group quests. They are level 55 to 60, so they pay in full at 60. {quest:8280} needs {quest:8275} first. {npc:15196} is an elite scorpid with two guards (group of 2 or 3). {npc:15174}'s {quest:8307} is for Cooks: its recipe makes the {item:20452} he wants. {npc:15189} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "Şimdi tek seferlik görevleri bozdur: tek başına yaklaşık 1.700 itibar, grup görevleriyle 2.400. Seviye 55 ila 60'lar, bu yüzden 60'ta tam öderler. {quest:8280} önce {quest:8275} ister. {npc:15196}, iki muhafızlı elit bir scorpid (2 ya da 3 kişilik grup). {npc:15174} sana {quest:8307} görevini verir, Cook'lar için: tarifi onun istediği {item:20452} yemeğini yapar. {npc:15189} binasının üst katında duruyor: içeriden yukarı çık, ok katları birbirinden ayıramaz.",
 	-- {npc:15191} Windcaller Proudhorn · {quest:8275} Taking Back Silithus
@@ -63,6 +71,8 @@ return {
 	["{npc:15174}, for Cooks"] = "{npc:15174}, Cook'lar için",
 
 	-- Step 9: Around Cenarion Hold
+	-- {area:3425} Cenarion Hold
+	["Around {area:3425}"] = "{area:3425} çevresi",
 	-- {object:180503} Sandy Cookbook
 	-- plural, as words: Stonelash Scorpids = {npc:11735} Stonelash Scorpid · Sand Skitterers = {npc:11738} Sand Skitterer · Dredge Strikers = {npc:11740} Dredge Striker
 	["Stonelash Scorpids and Sand Skitterers roam the sands around the Hold; Dredge Strikers dig north-east of it. The {object:180503} lies in the cultist camp south-west of the Hold."] = "Stonelash Scorpid ve Sand Skitterer'lar Hold'un çevresindeki kumlarda dolaşıyor; Dredge Striker'lar kuzeydoğusunda kazıyor. {object:180503}, Hold'un güneybatısındaki tarikatçı kampında yatıyor.",
@@ -89,6 +99,8 @@ return {
 	["{npc:15189} and {npc:15190} stand upstairs in their building: go up inside, the arrow cannot tell the floors apart."] = "{npc:15189} ve {npc:15190} binalarının üst katında duruyor: içeriden yukarı çık, ok katları birbirinden ayıramaz.",
 
 	-- Step 13: The Ravaged Twilight Camp
+	-- {area:3100} Ravaged Twilight Camp
+	["The {area:3100}"] = "{area:3100}",
 	-- {zone:1451} Silithus
 	-- plural, as words: Twilight Tablet Fragments = {item:20378} Twilight Tablet Fragment
 	["The broken camp in the far north-west of {zone:1451}: the Twilight Tablet Fragments lie on the ground among the ruins."] = "{zone:1451} bölgesinin en kuzeybatısındaki yıkık kamp: Twilight Tablet Fragment'lar yıkıntıların arasında yerde yatıyor.",
@@ -109,55 +121,69 @@ return {
 
 	-- Step 18: Bronzebeard's Encampment
 	["Bronzebeard's Encampment"] = "Bronzebeard's Encampment",
-	-- {zone:1451} Silithus · {npc:15171} Frankal Stonebridge · {npc:15170} Rutgar Glyphshaper · {quest:8304} Dearest Natalia · {item:20379} Noggle's Satchel · {npc:15196} Deathclasp
+	-- {zone:1451} Silithus · {npc:15171} Frankal Stonebridge · {npc:15170} Rutgar Glyphshaper · {quest:8304} Dearest Natalia · {item:20379} Noggle's Satchel · {npc:15196} Deathclasp · {spell:10101} Knock Away
+	["The dwarves' camp in the south of {zone:1451}. Talk {npc:15171} and {npc:15170} through their whole stories for {quest:8304}. {item:20379} lies on the mountain south-east of the camp. {npc:15196} lives up the trail east of the camp: an elite, and his {spell:10101} can throw you off the cliff."] = "{zone:1451} bölgesinin güneyindeki cücelerin kampı. {quest:8304} için {npc:15171} ve {npc:15170} ile konuş, bütün hikâyelerini dinle. {item:20379}, kampın güneydoğusundaki dağda yatıyor. {npc:15196}, kampın doğusundaki patikanın yukarısında yaşıyor: elit, {spell:10101} büyüsü de seni uçurumdan atabilir.",
 	-- {npc:15171} Frankal Stonebridge · {npc:15170} Rutgar Glyphshaper
 	["{npc:15171} and {npc:15170}"] = "{npc:15171} ve {npc:15170}",
 	-- {item:20385} Deathclasp's Pincer
 	["{item:20385}, elite: group of 2 or 3"] = "{item:20385}, elit: 2 ya da 3 kişilik grup",
 
 	-- Step 19: Back to Cenarion Hold with news
+	-- {area:3425} Cenarion Hold
+	["Back to {area:3425} with news"] = "Haberlerle {area:3425} kampına dönüş",
 	-- {npc:15190} Noggle Ficklespragg
 	["{npc:15190} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "{npc:15190} binasının üst katında duruyor: içeriden yukarı çık, ok katları birbirinden ayıramaz.",
 	["Natalia, elite: group up"] = "Natalia, elit: grup kur",
 
 	-- Step 20: Rubbings and brains
 	["Rubbings and brains"] = "Kopyalar ve beyinler",
-	-- {object:210337} Glyphed Crystal (no name in this language: may be words) · {item:20453} Geologist's Transcription Kit · {quest:8308} Brann Bronzebeard's Lost Letter
-	-- {item:20456} Hive'Regal Rubbing
+	-- {object:210337} Glyphed Crystal (no name in this language: may be words) · {item:20453} Geologist's Transcription Kit · {area:2742} Hive'Ashi · {area:2743} Hive'Zora · {area:2744} Hive'Regal · {quest:8308} Brann Bronzebeard's Lost Letter
+	["Rutgar and Frankal hand out the next two quests at their camp. Each hive has a {object:210337} to rub with the {item:20453}, and its silithid drop the brains: {area:2742} north of the Hold, {area:2743} in the west, {area:2744} in the south. Inside {area:2744} waits Mistress Natalia (level 62 elite, mind control and fear; group of 3 to 5). Now and then a hive silithid drops {quest:8308}: it starts a quest for Rutgar worth 100."] = "Rutgar ve Frankal sonraki iki görevi kamplarında verir. Her kovanda {item:20453} ile kopyası çıkarılacak bir {object:210337} var ve silithid'leri beyinleri düşürür: Hold'un kuzeyinde {area:2742}, batıda {area:2743}, güneyde {area:2744}. {area:2744} içinde Mistress Natalia bekliyor (seviye 62 elit, akıl kontrolü ve korku; 3 ila 5 kişilik grup). Arada bir bir kovan silithid'i {quest:8308} düşürür: Rutgar için 100 değerinde bir görev başlatır.",
+	-- {item:20456} Hive'Regal Rubbing · {area:2744} Hive'Regal
+	["{item:20456}, deep in {area:2744}"] = "{item:20456}, {area:2744} içinde, derinlerde",
 	-- {quest:8308} Brann Bronzebeard's Lost Letter
 	["{quest:8308}, a rare drop"] = "{quest:8308}, nadir bir düşüş",
 
 	-- Step 21: Mistress Natalia
 	["Mistress Natalia"] = "Mistress Natalia",
-	-- {zone:1451} Silithus
+	-- {area:2744} Hive'Regal · {zone:1451} Silithus
+	["Optional: Natalia waits deep in {area:2744}, the hive in the south of {zone:1451}. She is a level 62 elite who mind-controls, fears and heals herself below half health: bring a group of 3 to 5 and interrupt her heals."] = "İsteğe bağlı: Natalia, {zone:1451} bölgesinin güneyindeki kovan olan {area:2744} içinde, derinlerde bekliyor. Akıl kontrolü yapan, korkutan ve canı yarının altına inince kendini iyileştiren seviye 62 bir elit: 3 ila 5 kişilik bir grup getir ve iyileştirmelerini kes.",
 	["Mistress Natalia: group of 3 to 5"] = "Mistress Natalia: 3 ila 5 kişilik grup",
 
 	-- Step 22: The Calling
-	-- {quest:8314} Unraveling the Mystery · {quest:8315} The Calling · {npc:15183} Geologist Larksbane · {npc:14862} Emissary Roman'khan
+	-- {quest:8314} Unraveling the Mystery · {quest:8315} The Calling · {npc:15183} Geologist Larksbane · {area:3257} Bones of Grakkarond · {npc:14862} Emissary Roman'khan
+	["{quest:8314} leads to {quest:8315}: {npc:15183} sends you to the {area:3257} to summon {npc:14862}, a level 63 boss for a raid of about 20. Take it only with a raid."] = "{quest:8314}, {quest:8315} görevine götürür: {npc:15183} seni yaklaşık 20 kişilik bir raid için seviye 63 bir boss olan {npc:14862} yaratığını çağırmaya {area:3257} içine gönderir. Yalnızca bir raidle al.",
 	["raid of 20"] = "20 kişilik raid",
 	-- {item:20465} Crystal Unlocking Mechanism · {npc:14862} Emissary Roman'khan
 	["{item:20465}, {npc:14862}: raid of 20"] = "{item:20465}, {npc:14862}: 20 kişilik raid",
 
 	-- Step 23: The New Frontier, Thunder Bluff
-	-- {quest:1123} Rabine Saturna · {npc:10881} Bluff Runner Windstrider · {npc:5769} Arch Druid Hamuul Runetotem · {object:50507} Elder Rise (no name in this language: may be words) · {zone:1450} Moonglade
+	-- {quest:1123} Rabine Saturna · {npc:10881} Bluff Runner Windstrider · {npc:5769} Arch Druid Hamuul Runetotem · {area:1639} Elder Rise · {area:2361} Nighthaven · {zone:1450} Moonglade
+	["Optional: {quest:1123}'s chain pays 525 Cenarion reputation over seven quests of level 55 to 57, full at 60. {npc:10881} sends you to {npc:5769} on {area:1639}, who sends you to {quest:1123} in {area:2361}, {zone:1450}."] = "İsteğe bağlı: {quest:1123} zinciri, seviye 55 ila 57 yedi görevde 525 Cenarion itibarı öder, 60'ta tam. {npc:10881} seni {area:1639} üzerindeki {npc:5769} yanına, o da {zone:1450} bölgesinde {area:2361} içindeki {quest:1123} yanına gönderir.",
 
 	-- Step 24: The New Frontier, Darnassus
-	-- {quest:6762} Rabine Saturna · {npc:10878} Herald Moonstalker · {npc:3516} Arch Druid Fandral Staghelm · {npc:4217} Mathrengyl Bearwalker · {zone:1450} Moonglade
+	-- {quest:6762} Rabine Saturna · {npc:10878} Herald Moonstalker · {npc:3516} Arch Druid Fandral Staghelm · {npc:4217} Mathrengyl Bearwalker · {area:2361} Nighthaven · {zone:1450} Moonglade
+	["Optional: {quest:6762}'s chain pays 525 Cenarion reputation over seven quests of level 55 to 57, full at 60. {npc:10878} sends you to {npc:3516}, who sends you to {npc:4217}, who sends you to {quest:6762} in {area:2361}, {zone:1450}."] = "İsteğe bağlı: {quest:6762} zinciri, seviye 55 ila 57 yedi görevde 525 Cenarion itibarı öder, 60'ta tam. {npc:10878} seni {npc:3516} yanına, o {npc:4217} yanına, o da {zone:1450} bölgesinde {area:2361} içindeki {quest:6762} yanına gönderir.",
 
 	-- Step 25: Rabine Saturna
-	-- {quest:1123} Rabine Saturna · {npc:13220} Layo Starstrike · {zone:1451} Silithus
+	-- {quest:1123} Rabine Saturna · {area:2361} Nighthaven · {npc:13220} Layo Starstrike · {area:3077} Valor's Rest · {zone:1451} Silithus
+	["{quest:1123} lives in {area:2361}. She sends you to {npc:13220} at {area:3077}, the camp in the north-east corner of {zone:1451}."] = "{quest:1123}, {area:2361} içinde yaşıyor. Seni {zone:1451} bölgesinin kuzeydoğu köşesindeki kamp olan {area:3077} içindeki {npc:13220} yanına gönderir.",
 
 	-- Step 26: Southwind Village
-	-- {object:178553} Hive'Ashi Pod
+	-- {area:2738} Southwind Village · {area:3425} Cenarion Hold · {object:178553} Hive'Ashi Pod
 	-- plural, as words: Tortured Druids = {npc:12178} Tortured Druid
+	["The Tortured Druids and Sentinels roam the ruins of {area:2738}, south-east of {area:3425}; the {object:178553} sits on the top floor of its wasp-circled tower."] = "Tortured Druid ve Sentinel'ler {area:3425} güneydoğusundaki {area:2738} yıkıntılarında dolaşıyor; {object:178553}, eşekarılarıyla çevrili kulesinin en üst katında duruyor.",
 
 	-- Step 27: Umber in Nighthaven
-	-- {npc:11939} Umber
+	-- {npc:11939} Umber · {area:2361} Nighthaven
+	["{npc:11939} in {area:2361}"] = "{npc:11939}, {area:2361} içinde",
 
 	-- Step 28: Quests elsewhere
 	["Quests elsewhere"] = "Başka yerlerdeki görevler",
-	-- {faction:609} Cenarion Circle · {zone:1414} Kalimdor · {npc:10739} Mulgris Deepriver · {zone:1422} Western Plaguelands · {quest:1123} Rabine Saturna · {item:18501} Felvine Shard
-	-- {zone:1422} Western Plaguelands
+	-- {faction:609} Cenarion Circle · {zone:1414} Kalimdor · {npc:10739} Mulgris Deepriver · {zone:1422} Western Plaguelands · {area:2100} Maraudon · {quest:1123} Rabine Saturna · {item:18501} Felvine Shard · {area:2577} Dire Maul
+	["The {faction:609}'s other quests are spread over {zone:1414} and the Plaguelands. Forever pays them in full at any level: The Wildlife Suffers Too ({npc:10739}, {zone:1422}, levels 54 and 56) 75 and 75, Corruption of Earth and Seed ({area:2100}, level 51) 150. Shards of the Felvine ({quest:1123}, level 60, the {item:18501} from Alzzin in {area:2577}) pays 150 and its Reliquary 100 at any level."] = "{faction:609} diğer görevleri {zone:1414} ve Plaguelands boyunca dağılmış. Forever onları her seviyede tam öder: The Wildlife Suffers Too ({npc:10739}, {zone:1422}, seviye 54 ve 56) 75 ve 75, Corruption of Earth and Seed ({area:2100}, seviye 51) 150. Shards of the Felvine ({quest:1123}, seviye 60, {area:2577} içinde Alzzin'den {item:18501}) her seviyede 150, Reliquary'si de 100 öder.",
+	-- {zone:1422} Western Plaguelands · {area:2100} Maraudon
+	["Do the {zone:1422} and {area:2100} quests while you level; at 60 they may pay a fraction."] = "{zone:1422} ve {area:2100} görevlerini seviye atlarken yap; 60'ta yalnızca bir kısmını ödeyebilirler.",
 
 	-- Step 29: Encrypted Twilight Texts to Revered
 	-- {quest:8319} Encrypted Twilight Texts
@@ -170,15 +196,17 @@ return {
 	-- Step 30: Field Duty, level 60
 	-- {quest:8507} Field Duty
 	["{quest:8507}, level 60"] = "{quest:8507}, seviye 60",
-	-- {npc:15540} Windcaller Kaldon · {quest:8507} Field Duty · {npc:15440} Captain Blackanvil · {npc:15612} Krug Skullsplit · {item:20809} Tactical Assignment · {item:7936} Ornate Mithril Boots · {npc:15542} Twilight Marauder · {quest:9338} Allegiance to Cenarion Circle
+	-- {npc:15540} Windcaller Kaldon · {area:3425} Cenarion Hold · {quest:8507} Field Duty · {npc:15440} Captain Blackanvil · {area:2743} Hive'Zora · {npc:15612} Krug Skullsplit · {area:2744} Hive'Regal · {item:20809} Tactical Assignment · {item:7936} Ornate Mithril Boots · {npc:15542} Twilight Marauder · {quest:9338} Allegiance to Cenarion Circle
 	-- plural, as words: Heavy Runecloth Bandages = {item:14530} Heavy Runecloth Bandage
+	["{npc:15540} stands by the moonwell of {area:3425}. {quest:8507} (25 reputation, repeatable) sends you with unsigned papers to your side's captain: {npc:15440}'s Ironforge Brigade outside {area:2743} (Alliance) or {npc:15612}'s Orgrimmar Legion outside {area:2744} (Horde). Use the papers first, then talk to the captain: a level 60 elite silithid attacks; keep the captain alive and he signs. Kaldon then lets you pick a Combat, Logistics or {item:20809}, each holding a random briefing worth 50 reputation and a badge: 30 hive silithid kills (elites), goods such as 30 Heavy Runecloth Bandages or 3 {item:7936}, or one Templar, {npc:15542} or scout report. One badge of each kind buys {quest:9338} at Kaldon: 200 reputation, repeatable. A full round is about 375 reputation."] = "{npc:15540}, {area:3425} kampının ay kuyusunun yanında duruyor. {quest:8507} (25 itibar, tekrarlanabilir) seni imzasız kâğıtlarla tarafının kaptanına gönderir: {area:2743} dışında {npc:15440} ile Ironforge Brigade (Alliance) ya da {area:2744} dışında {npc:15612} ile Orgrimmar Legion (Horde). Önce kâğıtları kullan, sonra kaptanla konuş: seviye 60 elit bir silithid saldırır; kaptanı hayatta tut, o da imzalar. Sonra Kaldon bir Combat, Logistics ya da {item:20809} seçmene izin verir; her biri 50 itibar ve bir nişan değerinde rastgele bir brifing taşır: 30 kovan silithid'i öldürmek (elitler), 30 Heavy Runecloth Bandage ya da 3 {item:7936} gibi mallar, ya da bir Templar, {npc:15542} veya keşif raporu. Her türden bir nişan Kaldon'da {quest:9338} alır: 200 itibar, tekrarlanabilir. Tam bir tur yaklaşık 375 itibar.",
 	["Allegiance: one Combat, Logistics and Tactical badge, 200"] = "Allegiance: birer Combat, Logistics ve Tactical nişanı, 200",
 	-- {quest:8800} Cenarion Battlegear · {npc:15176} Vargus
 	["{quest:8800}: {npc:15176}'s badge gear"] = "{quest:8800}: {npc:15176} satıcısındaki nişan ekipmanı",
 
 	-- Step 31: Silithyst
 	["Silithyst"] = "Silithyst",
-	-- {quest:9419} Scouring the Desert · {npc:17080} Marshal Bluewall · {npc:17079} General Kirika
+	-- {quest:9419} Scouring the Desert · {npc:17080} Marshal Bluewall · {area:2743} Hive'Zora · {npc:17079} General Kirika · {area:2744} Hive'Regal
+	["Optional, 100 reputation once: {quest:9419}. Your side's camp sits by a hive: {npc:17080}'s by {area:2743} (Alliance), {npc:17079}'s by {area:2744} (Horde). Silithyst rises from glowing geysers around the desert: walk through one, carry the Silithyst to your camp's Silithyst Extractor, then talk to the camp's leader. It is a world PvP objective: players of the other side can take it from you."] = "İsteğe bağlı, bir kez 100 itibar: {quest:9419}. Tarafının kampı bir kovanın yanında: {area:2743} yanında {npc:17080} kampı (Alliance), {area:2744} yanında {npc:17079} kampı (Horde). Silithyst, çölün dört bir yanındaki parlayan gayzerlerden yükselir: birinin içinden yürü, Silithyst'i kampının Silithyst Extractor'ına taşı, sonra kampın lideriyle konuş. Bu bir dünya PvP hedefi: diğer tarafın oyuncuları onu senden alabilir.",
 	["deliver Silithyst at the extractor"] = "Silithyst'i extractor'a teslim et",
 
 	-- Step 32: Templars and the Abyssal Council
@@ -212,40 +240,14 @@ return {
 	["3 {quest:8364}: 150, Revered"] = "3 {quest:8364}: 150, Revered",
 
 	-- Step 34: The Ruins of Ahn'Qiraj, when they open
-	-- {zone:1451} Silithus · {quest:8791} The Fall of Ossirian · {npc:15185} Brood of Nozdormu · {npc:15498} Windcaller Yessendra · {npc:15500} Keyl Swiftclaw · {npc:15499} Warden Haro · {npc:16091} Dirk Thunderwood · {quest:9023} The Perfect Poison · {item:22217} Kurinnaxx's Venom Sac · {npc:15471} Lieutenant General Andorov · {item:22219} Plans: Jagged Obsidian Shield · {item:22191} Obsidian Mail Tunic
+	-- {area:3454} Ruins of Ahn'Qiraj
+	["The {area:3454}, when they open"] = "Açıldığında {area:3454}",
+	-- {area:2737} Scarab Wall · {zone:1451} Silithus · {quest:8791} The Fall of Ossirian · {npc:15185} Brood of Nozdormu · {npc:15498} Windcaller Yessendra · {npc:15500} Keyl Swiftclaw · {npc:15499} Warden Haro · {npc:16091} Dirk Thunderwood · {quest:9023} The Perfect Poison · {item:22217} Kurinnaxx's Venom Sac · {area:19} Zul'Gurub · {npc:15471} Lieutenant General Andorov · {item:22219} Plans: Jagged Obsidian Shield · {item:22191} Obsidian Mail Tunic
+	["A 20-player raid behind the {area:2737} in the far south-west of {zone:1451}. A full clear is about 1,600 Cenarion reputation: the trash 3 each until 20,999 of 21,000 Revered, Kurinnaxx, Moam, Buru and Ayamiss 150 each and Ossirian 300, to Exalted. Ossirian's head starts {quest:8791} (200 here and 200 {npc:15185}). Their drops buy the ring (Honored), cloak (Revered) and weapon (Exalted) quests of {npc:15498}, {npc:15500} and {npc:15499} in the Hold, 100 reputation each. {npc:16091} in the Hold pays 100 once for {quest:9023}: {item:22217} from here and Venoxis's from {area:19}. {npc:15471} sells {item:22219} (Revered, 5g) and {item:22191} (Exalted, 8g) inside."] = "{zone:1451} bölgesinin en güneybatısında, {area:2737} ardında 20 kişilik bir raid. Tam bir temizleme yaklaşık 1.600 Cenarion itibarı: sıradan yaratıklar Revered'ın 21.000'inin 20.999'una kadar 3'er, Kurinnaxx, Moam, Buru ve Ayamiss her biri 150, Ossirian 300, Exalted'a kadar. Ossirian'ın kafası {quest:8791} görevini başlatır (burada 200 ve 200 {npc:15185}). Düşürdükleri, Hold'daki {npc:15498}, {npc:15500} ve {npc:15499} yanında yüzük (Honored), pelerin (Revered) ve silah (Exalted) görevlerini alır, her biri 100 itibar. Hold'daki {npc:16091}, {quest:9023} için bir kez 100 öder: buradan {item:22217} ve {area:19} içinden Venoxis'inki. {npc:15471} içeride {item:22219} (Revered, 5g) ve {item:22191} (Exalted, 8g) satıyor.",
 
 	-- Step 35: Venoxis's Venom Sac, Zul'Gurub
-	-- {item:22216} Venoxis's Venom Sac
-	-- {quest:9023} The Perfect Poison · {npc:14507} High Priest Venoxis · {zone:1434} Stranglethorn Vale
+	-- {quest:9023} The Perfect Poison · {npc:14507} High Priest Venoxis · {area:19} Zul'Gurub · {zone:1434} Stranglethorn Vale
+	["Optional, for {quest:9023}: {npc:14507} is the first boss of {area:19}, a 20-player raid in north-east {zone:1434}."] = "İsteğe bağlı, {quest:9023} için: {npc:14507}, {zone:1434} bölgesinin kuzeydoğusundaki 20 kişilik bir raid olan {area:19} zindanının ilk boss'u.",
 	-- {item:22216} Venoxis's Venom Sac
 	["{item:22216}: raid of 20"] = "{item:22216}: 20 kişilik raid",
-
-
-	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
-	["{area:3425} is the walled druid camp in north-central {zone:1451}, with flight points for both sides. Everyone starts Neutral with the {faction:609} (druids at 2,000 of 3,000). Bor and {npc:15270} stand together in the main building. {quest:8318} opens the {item:20404} turn-ins for good. The Legacy perk Diplomat adds up to 10% to every gain; the numbers in this guide are without it."] = "{area:3425}, {zone:1451} bölgesinin kuzey-ortasında, iki taraf için de uçuş noktası olan surlu druid kampı. Herkes {faction:609} ile Neutral'da başlar (druid'ler 3.000'in 2.000'inde). Bor ve {npc:15270} ana binada birlikte duruyor. {quest:8318}, {item:20404} teslimlerini kalıcı olarak açar. Legacy yeteneği Diplomat her kazanca %10'a kadar ekler; bu rehberdeki sayılar onsuz.",
-	["The cultist camp west of {area:3425}"] = "{area:3425} batısındaki tarikatçı kampı",
-	["Back to {area:3425}"] = "{area:3425} kalesine dön",
-	["Neutral to Honored is 9,000 reputation (7,000 for druids). Every {npc:11880}, Geolord, Stonecaller, Master and Overlord gives 1 reputation until 5,999 of 6,000 Friendly, one point short of Honored; there they stop. Save every {item:20404} and leave the quests of the next steps for later: each kill below that point is a free point on top of its text, and the texts and quests pay the same at any standing. A text drops about every third kill, so 30 kills make 30 reputation and 10 texts (100 reputation later). Four camps: south-west of the Hold (39,44), the far west (26,34), the far south-west (19,84) and the north-east below {area:2742} (66,18: Overlords, and Flamereavers that count until the top of Honored). The {npc:15308} (87% text) walks between 18,31 and 23,69. Texts sell on the auction house if you would rather buy. At 5,999 Friendly the last point into Honored comes from a Flamereaver, Twilight Keeper or Marauder, or from your first 10 texts at {npc:15306}."] = "Neutral'dan Honored'a 9.000 itibar (druid'ler için 7.000). Her {npc:11880}, Geolord, Stonecaller, Master ve Overlord, Friendly'nin 6.000'inin 5.999'una, Honored'a bir puan kalana kadar 1 itibar verir; orada dururlar. Her {item:20404} eşyasını sakla ve sonraki adımların görevlerini sonraya bırak: o noktanın altındaki her öldürme, metninin üstüne bedava bir puandır, metinler ve görevler de her itibarda aynı öder. Yaklaşık her üç öldürmede bir metin düşer, bu yüzden 30 öldürme 30 itibar ve 10 metin eder (sonra 100 itibar). Dört kamp: Hold'un güneybatısı (39,44), en batı (26,34), en güneybatı (19,84) ve {area:2742} altındaki kuzeydoğu (66,18: Overlord'lar ve Honored'ın sonuna kadar sayılan Flamereaver'lar). {npc:15308} (%87 metin) 18,31 ile 23,69 arasında dolaşıyor. Satın almayı tercih edersen metinler müzayede evinde satılıyor. Friendly 5.999'da Honored'a son puan bir Flamereaver, Twilight Keeper ya da Marauder'dan ya da {npc:15306} yanındaki ilk 10 metninden gelir.",
-	["{quest:8321} (level 61, not elite) waits at the back of {area:3446}, the cave in the north-east of {zone:1451}. Flamereavers and Twilight Masters guard the way: the Flamereavers count until the top of Honored, the Masters stop at the top of Friendly like the other cultists."] = "{quest:8321} (seviye 61, elit değil), {zone:1451} bölgesinin kuzeydoğusundaki mağara olan {area:3446} içinde, en arkada bekliyor. Flamereaver ve Twilight Master'lar yolu koruyor: Flamereaver'lar Honored'ın sonuna kadar sayılır, Master'lar diğer tarikatçılar gibi Friendly'nin sonunda durur.",
-	["{zone:1451} quests at {area:3425}"] = "{area:3425} kampında {zone:1451} görevleri",
-	["Around {area:3425}"] = "{area:3425} çevresi",
-	["The {area:3100}"] = "{area:3100}",
-	["The dwarves' camp in the south of {zone:1451}. Talk {npc:15171} and {npc:15170} through their whole stories for {quest:8304}. {item:20379} lies on the mountain south-east of the camp. {npc:15196} lives up the trail east of the camp: an elite, and his {spell:10101} can throw you off the cliff."] = "{zone:1451} bölgesinin güneyindeki cücelerin kampı. {quest:8304} için {npc:15171} ve {npc:15170} ile konuş, bütün hikâyelerini dinle. {item:20379}, kampın güneydoğusundaki dağda yatıyor. {npc:15196}, kampın doğusundaki patikanın yukarısında yaşıyor: elit, {spell:10101} büyüsü de seni uçurumdan atabilir.",
-	["Back to {area:3425} with news"] = "Haberlerle {area:3425} kampına dönüş",
-	["Rutgar and Frankal hand out the next two quests at their camp. Each hive has a {object:210337} to rub with the {item:20453}, and its silithid drop the brains: {area:2742} north of the Hold, {area:2743} in the west, {area:2744} in the south. Inside {area:2744} waits Mistress Natalia (level 62 elite, mind control and fear; group of 3 to 5). Now and then a hive silithid drops {quest:8308}: it starts a quest for Rutgar worth 100."] = "Rutgar ve Frankal sonraki iki görevi kamplarında verir. Her kovanda {item:20453} ile kopyası çıkarılacak bir {object:210337} var ve silithid'leri beyinleri düşürür: Hold'un kuzeyinde {area:2742}, batıda {area:2743}, güneyde {area:2744}. {area:2744} içinde Mistress Natalia bekliyor (seviye 62 elit, akıl kontrolü ve korku; 3 ila 5 kişilik grup). Arada bir bir kovan silithid'i {quest:8308} düşürür: Rutgar için 100 değerinde bir görev başlatır.",
-	["{item:20456}, deep in {area:2744}"] = "{item:20456}, {area:2744} içinde, derinlerde",
-	["Optional: Natalia waits deep in {area:2744}, the hive in the south of {zone:1451}. She is a level 62 elite who mind-controls, fears and heals herself below half health: bring a group of 3 to 5 and interrupt her heals."] = "İsteğe bağlı: Natalia, {zone:1451} bölgesinin güneyindeki kovan olan {area:2744} içinde, derinlerde bekliyor. Akıl kontrolü yapan, korkutan ve canı yarının altına inince kendini iyileştiren seviye 62 bir elit: 3 ila 5 kişilik bir grup getir ve iyileştirmelerini kes.",
-	["{quest:8314} leads to {quest:8315}: {npc:15183} sends you to the {area:3257} to summon {npc:14862}, a level 63 boss for a raid of about 20. Take it only with a raid."] = "{quest:8314}, {quest:8315} görevine götürür: {npc:15183} seni yaklaşık 20 kişilik bir raid için seviye 63 bir boss olan {npc:14862} yaratığını çağırmaya {area:3257} içine gönderir. Yalnızca bir raidle al.",
-	["Optional: {quest:1123}'s chain pays 525 Cenarion reputation over seven quests of level 55 to 57, full at 60. {npc:10881} sends you to {npc:5769} on {area:1639}, who sends you to {quest:1123} in {area:2361}, {zone:1450}."] = "İsteğe bağlı: {quest:1123} zinciri, seviye 55 ila 57 yedi görevde 525 Cenarion itibarı öder, 60'ta tam. {npc:10881} seni {area:1639} üzerindeki {npc:5769} yanına, o da {zone:1450} bölgesinde {area:2361} içindeki {quest:1123} yanına gönderir.",
-	["Optional: {quest:6762}'s chain pays 525 Cenarion reputation over seven quests of level 55 to 57, full at 60. {npc:10878} sends you to {npc:3516}, who sends you to {npc:4217}, who sends you to {quest:6762} in {area:2361}, {zone:1450}."] = "İsteğe bağlı: {quest:6762} zinciri, seviye 55 ila 57 yedi görevde 525 Cenarion itibarı öder, 60'ta tam. {npc:10878} seni {npc:3516} yanına, o {npc:4217} yanına, o da {zone:1450} bölgesinde {area:2361} içindeki {quest:6762} yanına gönderir.",
-	["{quest:1123} lives in {area:2361}. She sends you to {npc:13220} at {area:3077}, the camp in the north-east corner of {zone:1451}."] = "{quest:1123}, {area:2361} içinde yaşıyor. Seni {zone:1451} bölgesinin kuzeydoğu köşesindeki kamp olan {area:3077} içindeki {npc:13220} yanına gönderir.",
-	["The Tortured Druids and Sentinels roam the ruins of {area:2738}, south-east of {area:3425}; the {object:178553} sits on the top floor of its wasp-circled tower."] = "Tortured Druid ve Sentinel'ler {area:3425} güneydoğusundaki {area:2738} yıkıntılarında dolaşıyor; {object:178553}, eşekarılarıyla çevrili kulesinin en üst katında duruyor.",
-	["{npc:11939} in {area:2361}"] = "{npc:11939}, {area:2361} içinde",
-	["The {faction:609}'s other quests are spread over {zone:1414} and the Plaguelands. In Classic a quest pays less once it is 6 or more levels below you (a fifth less per level, down to a fifth): at 60, The Wildlife Suffers Too ({npc:10739}, {zone:1422}, levels 54 and 56) would pay 60 and 75 instead of 75 and 75, and Corruption of Earth and Seed ({area:2100}, level 51) 30 instead of 150. Your first turn-in shows which rule Forever uses. Shards of the Felvine ({quest:1123}, level 60, the {item:18501} from Alzzin in {area:2577}) pays 150 and its Reliquary 100 at any level."] = "{faction:609} grubunun diğer görevleri {zone:1414} ve Plaguelands'e dağılmış. Classic'te bir görev senden 6 ya da daha fazla seviye aşağıdaysa daha az öder (seviye başına beşte bir daha az, beşte bire kadar): 60'ta The Wildlife Suffers Too ({npc:10739}, {zone:1422}, seviye 54 ve 56) 75 ve 75 yerine 60 ve 75, Corruption of Earth and Seed ({area:2100}, seviye 51) de 150 yerine 30 öder. İlk teslimin Forever'ın hangi kuralı kullandığını gösterir. Shards of the Felvine ({quest:1123}, seviye 60, {area:2577} içinde Alzzin'den {item:18501}) her seviyede 150, Reliquary'si de 100 öder.",
-	["Do the {zone:1422} and {area:2100} quests while you level; at 60 they may pay a fraction."] = "{zone:1422} ve {area:2100} görevlerini seviye atlarken yap; 60'ta yalnızca bir kısmını ödeyebilirler.",
-	["{npc:15540} stands by the moonwell of {area:3425}. {quest:8507} (25 reputation, repeatable) sends you with unsigned papers to your side's captain: {npc:15440}'s Ironforge Brigade outside {area:2743} (Alliance) or {npc:15612}'s Orgrimmar Legion outside {area:2744} (Horde). Use the papers first, then talk to the captain: a level 60 elite silithid attacks; keep the captain alive and he signs. Kaldon then lets you pick a Combat, Logistics or {item:20809}, each holding a random briefing worth 50 reputation and a badge: 30 hive silithid kills (elites), goods such as 30 Heavy Runecloth Bandages or 3 {item:7936}, or one Templar, {npc:15542} or scout report. One badge of each kind buys {quest:9338} at Kaldon: 200 reputation, repeatable. A full round is about 375 reputation."] = "{npc:15540}, {area:3425} kampının ay kuyusunun yanında duruyor. {quest:8507} (25 itibar, tekrarlanabilir) seni imzasız kâğıtlarla tarafının kaptanına gönderir: {area:2743} dışında {npc:15440} ile Ironforge Brigade (Alliance) ya da {area:2744} dışında {npc:15612} ile Orgrimmar Legion (Horde). Önce kâğıtları kullan, sonra kaptanla konuş: seviye 60 elit bir silithid saldırır; kaptanı hayatta tut, o da imzalar. Sonra Kaldon bir Combat, Logistics ya da {item:20809} seçmene izin verir; her biri 50 itibar ve bir nişan değerinde rastgele bir brifing taşır: 30 kovan silithid'i öldürmek (elitler), 30 Heavy Runecloth Bandage ya da 3 {item:7936} gibi mallar, ya da bir Templar, {npc:15542} veya keşif raporu. Her türden bir nişan Kaldon'da {quest:9338} alır: 200 itibar, tekrarlanabilir. Tam bir tur yaklaşık 375 itibar.",
-	["Optional, 100 reputation once: {quest:9419}. Your side's camp sits by a hive: {npc:17080}'s by {area:2743} (Alliance), {npc:17079}'s by {area:2744} (Horde). Silithyst rises from glowing geysers around the desert: walk through one, carry the Silithyst to your camp's Silithyst Extractor, then talk to the camp's leader. It is a world PvP objective: players of the other side can take it from you."] = "İsteğe bağlı, bir kez 100 itibar: {quest:9419}. Tarafının kampı bir kovanın yanında: {area:2743} yanında {npc:17080} kampı (Alliance), {area:2744} yanında {npc:17079} kampı (Horde). Silithyst, çölün dört bir yanındaki parlayan gayzerlerden yükselir: birinin içinden yürü, Silithyst'i kampının Silithyst Extractor'ına taşı, sonra kampın lideriyle konuş. Bu bir dünya PvP hedefi: diğer tarafın oyuncuları onu senden alabilir.",
-	["The {area:3454}, when they open"] = "Açıldığında {area:3454}",
-	["A 20-player raid behind the {area:2737} in the far south-west of {zone:1451}. A full clear is about 1,600 Cenarion reputation: the trash 3 each until 20,999 of 21,000 Revered, Kurinnaxx, Moam, Buru and Ayamiss 150 each and Ossirian 300, to Exalted. Ossirian's head starts {quest:8791} (200 here and 200 {npc:15185}). Their drops buy the ring (Honored), cloak (Revered) and weapon (Exalted) quests of {npc:15498}, {npc:15500} and {npc:15499} in the Hold, 100 reputation each. {npc:16091} in the Hold pays 100 once for {quest:9023}: {item:22217} from here and Venoxis's from {area:19}. {npc:15471} sells {item:22219} (Revered, 5g) and {item:22191} (Exalted, 8g) inside."] = "{zone:1451} bölgesinin en güneybatısında, {area:2737} ardında 20 kişilik bir raid. Tam bir temizleme yaklaşık 1.600 Cenarion itibarı: sıradan yaratıklar Revered'ın 21.000'inin 20.999'una kadar 3'er, Kurinnaxx, Moam, Buru ve Ayamiss her biri 150, Ossirian 300, Exalted'a kadar. Ossirian'ın kafası {quest:8791} görevini başlatır (burada 200 ve 200 {npc:15185}). Düşürdükleri, Hold'daki {npc:15498}, {npc:15500} ve {npc:15499} yanında yüzük (Honored), pelerin (Revered) ve silah (Exalted) görevlerini alır, her biri 100 itibar. Hold'daki {npc:16091}, {quest:9023} için bir kez 100 öder: buradan {item:22217} ve {area:19} içinden Venoxis'inki. {npc:15471} içeride {item:22219} (Revered, 5g) ve {item:22191} (Exalted, 8g) satıyor.",
-	["Optional, for {quest:9023}: {npc:14507} is the first boss of {area:19}, a 20-player raid in north-east {zone:1434}."] = "İsteğe bağlı, {quest:9023} için: {npc:14507}, {zone:1434} bölgesinin kuzeydoğusundaki 20 kişilik bir raid olan {area:19} zindanının ilk boss'u.",
 }

@@ -18,7 +18,8 @@ return {
 	["Take the zeppelin from the tower outside {zone:1454}'s gate to {zone:1420} and walk into the {zone:1458}. {npc:2492}, the portal trainer, stands in the {object:36082} with the mage trainers: {spell:3563}, 20 silver. {npc:4575} beside him sells the runes."] = "{zone:1454} şehrinin kapısının dışındaki kuleden {zone:1420} zeplinine bin ve yürüyerek {zone:1458} içine gir. Portal eğitmeni {npc:2492}, {object:36082} kesiminde mage eğitmenleriyle birlikte duruyor: {spell:3563}, 20 gümüş. Yanındaki {npc:4575} rünleri satıyor.",
 
 	-- Step 3: Teleport: Thunder Bluff
-	-- {zone:1456} Thunder Bluff · {zone:1412} Mulgore · {zone:1454} Orgrimmar · {npc:5957} Birgitte Cranston · {object:50495} Spirit Rise (no name in this language: may be words) · {spell:3566} Teleport: Thunder Bluff
+	-- {zone:1456} Thunder Bluff · {zone:1412} Mulgore · {zone:1454} Orgrimmar · {npc:5957} Birgitte Cranston · {area:2197} Pools of Vision · {area:1640} Spirit Rise · {spell:3566} Teleport: Thunder Bluff
+	["At 30. {zone:1456} is in {zone:1412}: fly there from {zone:1454} or the Crossroads. {npc:5957}, the portal trainer, stands with the mage trainers in the {area:2197}, the cave under {area:1640}: go down inside, the arrow cannot tell the floors apart. She teaches {spell:3566} for 80 silver."] = "30. seviyede. {zone:1456} şehri {zone:1412} bölgesinde: oraya {zone:1454} şehrinden ya da Crossroads'tan uç. Portal eğitmeni {npc:5957}, Mage eğitmenleriyle birlikte {area:1640} tepesinin altındaki mağarada, {area:2197} içinde duruyor: içeriden aşağı in, ok katları birbirinden ayıramaz. 80 gümüşe {spell:3566} öğretir.",
 
 	-- Step 4: Portals to Orgrimmar and the Undercity
 	-- {zone:1454} Orgrimmar · {zone:1458} Undercity
@@ -29,9 +30,6 @@ return {
 	["{item:17032}, 20s each"] = "{item:17032}, tanesi 20s",
 
 	-- Step 5: Portal: Thunder Bluff
-	-- {npc:5957} Birgitte Cranston · {object:50495} Spirit Rise (no name in this language: may be words) · {zone:1456} Thunder Bluff · {spell:11420} Portal: Thunder Bluff · {spell:3566} Teleport: Thunder Bluff
-
-	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
-	["At 30. {zone:1456} is in {zone:1412}: fly there from {zone:1454} or the Crossroads. {npc:5957}, the portal trainer, stands with the mage trainers in the {area:2197}, the cave under {area:1640}: go down inside, the arrow cannot tell the floors apart. She teaches {spell:3566} for 80 silver."] = "30. seviyede. {zone:1456} şehri {zone:1412} bölgesinde: oraya {zone:1454} şehrinden ya da Crossroads'tan uç. Portal eğitmeni {npc:5957}, Mage eğitmenleriyle birlikte {area:1640} tepesinin altındaki mağarada, {area:2197} içinde duruyor: içeriden aşağı in, ok katları birbirinden ayıramaz. 80 gümüşe {spell:3566} öğretir.",
+	-- {npc:5957} Birgitte Cranston · {area:2197} Pools of Vision · {area:1640} Spirit Rise · {zone:1456} Thunder Bluff · {spell:11420} Portal: Thunder Bluff · {spell:3566} Teleport: Thunder Bluff
 	["At 50 {npc:5957}, down in the {area:2197} under {area:1640} in {zone:1456}, teaches the last one, {spell:11420}, for 3 gold 20 silver. Use your {spell:3566} to get there."] = "50. seviyede {zone:1456} şehrinde, {area:1640} tepesinin altında, {area:2197} içinde bulunan {npc:5957} sonuncusunu, {spell:11420} büyüsünü 3 altın 20 gümüşe öğretir. Oraya gitmek için {spell:3566} kullan.",
 }

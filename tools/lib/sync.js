@@ -167,11 +167,19 @@ function syncGuide({ id, deFile, keys, srcFile, changed, memory }) {
 	};
 }
 
+// Polestar's German interface file: since v0.3.6 Interface.lua in the load-on-demand language folder
+// Polestar_deDE; before, Polestar's own Locales/deDE.lua.
+function deUIFile(upstreamDir) {
+	const now = path.join(upstreamDir, 'addon', 'Polestar_deDE', 'Interface.lua');
+	const before = path.join(upstreamDir, 'addon', 'Polestar', 'Locales', 'deDE.lua');
+	return fs.existsSync(now) || !fs.existsSync(before) ? now : before;
+}
+
 // sync(paths, extraction) -> report data
 function sync({ upstreamDir, srcDir }, { uiKeys, guideKeys }) {
 	const changed = [];
 	const ui = syncUI({
-		deFile: path.join(upstreamDir, 'addon', 'Polestar', 'Locales', 'deDE.lua'),
+		deFile: deUIFile(upstreamDir),
 		codeKeys: uiKeys,
 		srcFile: path.join(srcDir, 'Locales', 'trTR.lua'),
 		changed,
@@ -263,4 +271,4 @@ function report(r, { from, to, date }) {
 	return out.join('\n') + '\n';
 }
 
-module.exports = { sync, report, similarity };
+module.exports = { sync, report, similarity, deUIFile };
