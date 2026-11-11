@@ -5,7 +5,7 @@
 return {
 	-- Guide
 	-- {npc:6266} Menara Voidrender
-	["A rare cloth robe for your 30s, which {npc:6266} makes from the parts you bring her."] = "30'lu seviyelerin için nadir bir kumaş cüppe; getirdiğin parçalardan {npc:6266} yapar.",
+	["A rare cloth robe for your 30s from {npc:6266}; its last parts wait for levels 35 and 37."] = "{npc:6266} adlı NPC'den 30'lu seviyelerin için nadir bir kumaş cüppe; son parçaları seviye 35 ve 37'yi bekliyor.",
 
 	-- Step 1: In Search of Menara Voidrender (Stormwind)
 	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6266} Menara Voidrender · {area:392} Ratchet · {item:5770} Robes of Arcana · {item:3577} Gold Bar
@@ -48,30 +48,35 @@ return {
 	-- {npc:6266} Menara Voidrender · {zone:1443} Desolace
 	["You need no thread yet: {npc:6266} wants demon parts from {zone:1443} next."] = "Henüz iplik gerekmiyor: {npc:6266} sırada {zone:1443} bölgesinden iblis parçaları istiyor.",
 
-	-- Step 9: Desolace demons
-	-- {zone:1443} Desolace
-	["{zone:1443} demons"] = "{zone:1443} iblisleri",
-	-- {area:603} Sargeron · {zone:1443} Desolace · {area:608} Nijel's Point · {area:602} Mannoroc Coven · {spell:686} Shadow Bolt
-	-- plural, as words: Lesser Infernals = {npc:4676} Lesser Infernal · Demon Portal Guardians = {npc:11937} Demon Portal Guardian
-	["The Hatefury satyrs (level 31-32) hold {area:603} in the far north-east of {zone:1443}, past {area:608}: two kills in five give a vial, so plan on about 25. The Lesser Infernals (36-37) and Demon Portal Guardians (38) of {area:602}, in the south, drop the stone half the time; they resist fire, so use {spell:686} and Corruption."] = "Hatefury satyr'ları (seviye 31-32), {zone:1443} bölgesinin en kuzeydoğusunda, {area:608} karakolunun ötesindeki {area:603} harabelerini tutuyor: beşte iki öldürme bir şişe verir, bu yüzden yaklaşık 25 planla. Güneydeki {area:602} içindeki Lesser Infernal (36-37) ve Demon Portal Guardian (38) yaratıkları taşı yarı yarıya düşürür; fire'a dirençliler, bu yüzden {spell:686} ve Corruption kullan.",
+	-- Step 9: Hatefury satyrs
+	["Hatefury satyrs"] = "Hatefury satyr'ları",
+	-- {area:603} Sargeron · {zone:1443} Desolace · {area:608} Nijel's Point
+	["The Hatefury satyrs (level 31-32) hold {area:603} in the far north-east of {zone:1443}, past {area:608}: two kills in five give a vial, so plan on about 25."] = "Hatefury satyr'ları (seviye 31-32), {zone:1443} bölgesinin en kuzeydoğusunda, {area:608} karakolunun ötesindeki {area:603} harabelerini tutuyor: beşte iki öldürme bir şişe verir, bu yüzden yaklaşık 25 planla.",
 	["Vials of Hatefury Blood"] = "Vial of Hatefury Blood",
 
-	-- Step 10: Menara Voidrender again
+	-- Step 10: Mannoroc Coven
+	-- {area:602} Mannoroc Coven · {zone:1443} Desolace · {spell:686} Shadow Bolt
+	-- plural, as words: Lesser Infernals = {npc:4676} Lesser Infernal · Demon Portal Guardians = {npc:11937} Demon Portal Guardian
+	["The Lesser Infernals (36-37) and Demon Portal Guardians (38) of {area:602}, in the south of {zone:1443}, drop the stone half the time. The guide waits for level 35 first: at 31 they are too strong to solo. They resist fire, so use {spell:686} and Corruption."] = "Güney {zone:1443} bölgesindeki {area:602} içindeki Lesser Infernal (36-37) ve Demon Portal Guardian (38) yaratıkları taşı yarı yarıya düşürür. Rehber önce seviye 35'i bekler: 31'de tek başına yenilemeyecek kadar güçlüler. Fire'a dirençliler, bu yüzden {spell:686} ve Corruption kullan.",
+
+	-- Step 11: Menara Voidrender again
 	-- {npc:6266} Menara Voidrender
 	["{npc:6266} again"] = "Yine {npc:6266}",
 
-	-- Step 11: Fine Gold Thread
+	-- Step 12: Fine Gold Thread
 	-- {npc:2670} Xizk Goodstitch · {area:35} Booty Bay · {quest:4785} Fine Gold Thread
 	["Back to {npc:2670} in {area:35}: he offers {quest:4785} as a quest you hand straight back to him. He may show no quest marker; talk to him anyway."] = "{area:35} kasabasındaki {npc:2670} yanına dön: sana hemen geri teslim ettiğin bir görev olarak {quest:4785} önerir. Görev işareti görünmeyebilir; yine de onunla konuş.",
+	-- {npc:2670} Xizk Goodstitch · {quest:4785} Fine Gold Thread
+	["{npc:2670}: {quest:4785}, handed straight back"] = "{npc:2670}: {quest:4785}, hemen geri teslim edilir",
 
-	-- Step 12: Smoldering Coal
+	-- Step 13: Smoldering Coal
 	-- {area:334} Circle of West Binding · {zone:1417} Arathi Highlands · {spell:686} Shadow Bolt · {area:321} Hammerfall · {item:6265} Soul Shard · {spell:1120} Drain Soul
 	-- plural, as words: Burning Exiles = {npc:2760} Burning Exile · Cresting Charms = {item:4481} Cresting Charm · Cresting Exiles = {npc:2761} Cresting Exile
-	["The Burning Exiles (level 38-39), fire elementals at the {area:334} in western {zone:1417}, drop the coal about one time in three. They resist fire: {spell:686} and Corruption. Below 38 they hit hard; the Cresting Charms from the Cresting Exiles near {area:321} finish one off once you have hurt it. Make a {item:6265} with {spell:1120} on the way."] = "Batı {zone:1417} bölgesindeki {area:334} çemberindeki ateş elementalleri Burning Exile yaratıkları (seviye 38-39) aşağı yukarı üçte bir kömür düşürür. Fire'a dirençliler: {spell:686} ve Corruption. 38'in altında sert vururlar; {area:321} kasabasının yakınındaki Cresting Exile yaratıklarından düşen Cresting Charm'lar, yaraladığın birini bitirir. Yolda {spell:1120} ile bir {item:6265} yap.",
+	["The Burning Exiles (level 38-39), fire elementals at the {area:334} in western {zone:1417}, drop the coal about one time in three. The guide waits for level 37 first: below it they hit too hard to solo. They resist fire: {spell:686} and Corruption. The Cresting Charms from the Cresting Exiles near {area:321} finish one off once you have hurt it. Make a {item:6265} with {spell:1120} on the way."] = "Batı {zone:1417} bölgesindeki {area:334} çemberindeki ateş elementalleri Burning Exile yaratıkları (seviye 38-39) aşağı yukarı üçte bir kömür düşürür. Rehber önce seviye 37'yi bekler: altında tek başına yenilemeyecek kadar sert vururlar. Fire'a dirençliler: {spell:686} ve Corruption. {area:321} kasabasının yakınındaki Cresting Exile yaratıklarından düşen Cresting Charm'lar, yaraladığın birini bitirir. Yolda {spell:1120} ile bir {item:6265} yap.",
 	-- {item:6265} Soul Shard · {spell:1120} Drain Soul
 	["{item:6265}: {spell:1120} on an Exile as it dies"] = "{item:6265}: ölürken bir Exile üzerinde {spell:1120}",
 
-	-- Step 13: The Completed Robe
+	-- Step 14: The Completed Robe
 	-- {npc:6266} Menara Voidrender · {item:6265} Soul Shard
 	["Back to {npc:6266} with the thread, the coals and a {item:6265}. Then wait beside her while she works the robe (do not attack her: the quest log calls it a kill), and speak to her again."] = "İplik, kömürler ve bir {item:6265} ile {npc:6266} yanına dön. Sonra o cübbe üzerinde çalışırken yanında bekle (ona saldırma: görev günlüğü buna öldürme diyor) ve onunla yeniden konuş.",
 	-- {npc:6266} Menara Voidrender

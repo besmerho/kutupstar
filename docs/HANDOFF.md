@@ -25,15 +25,15 @@ Barış's two hard requirements:
 
 | | |
 |---|---|
-| Polestar pinned | **v0.3.6** (`package.json` → `config.polestarTag`), Polestar's newest release on 11 Nov, merged into `main` on 11 Nov |
-| Kutupstar in the repo | **0.3.6**, the same version as Polestar (TOC `## Version`, `package.json`) |
-| Kutupstar on CurseForge | **0.3.6** uploaded on 11 Nov on Barış's request, straight through the API (`publish --yes`, file 9553830; no tag pushed). **0.3.5** uploaded on 8 Nov on Barış's OK, by pushing tag `v0.3.5` (the release workflow). 0.3.1 before it (5 Nov; project 1759256, file 9450094) |
-| Barış's game | Polestar **0.3.6** in the `_forever_` folder on 11 Nov; Kutupstar **0.3.6 installed** there by `build --install`, **not tested in game yet** |
-| UI texts at v0.3.6 | 2801/2930 Turkish; the other 129 stay English on purpose (`src/keep-english.json`); 0 to do |
-| Guide texts at v0.3.6 | 10673/10673 in 260 guides plus the pack's texts; every folder complete |
+| Polestar pinned | **v0.3.7** (`package.json` → `config.polestarTag`), Polestar's newest release on 11 Nov, on the branch `polestar-v0.3.7` (not merged yet) |
+| Kutupstar in the repo | **0.3.7** on `polestar-v0.3.7` (`main` has 0.3.6), the same version as Polestar (TOC `## Version`, `package.json`) |
+| Kutupstar on CurseForge | **0.3.7** uploaded on 11 Nov on Barış's request, straight through the API (`publish --yes`, file 9561909; no tag pushed). **0.3.6** uploaded on 11 Nov on Barış's request, straight through the API (`publish --yes`, file 9553830; no tag pushed). **0.3.5** uploaded on 8 Nov on Barış's OK, by pushing tag `v0.3.5` (the release workflow). 0.3.1 before it (5 Nov; project 1759256, file 9450094) |
+| Barış's game | Polestar **0.3.7** in the `_forever_` folder on 11 Nov; Kutupstar **0.3.7 installed** there by `build --install`, **not tested in game yet** |
+| UI texts at v0.3.7 | 2945/3074 Turkish; the other 129 stay English on purpose (`src/keep-english.json`); 0 to do |
+| Guide texts at v0.3.7 | 10687/10687 in 260 guides plus the pack's texts; every folder complete |
 | `check` | 0 errors, 3 warnings. All three are English quest names that start with a name token (`{npc:3144}'s Wisdom`, `{npc:10260}'s Exotic Pets`), so they are right as they are |
-| `check --glossary` | about 140 questions, the same kinds as before (false alarms: "route" worded as "yol", "Inn" in names); not read one by one |
-| `Core.lua` | code unchanged since v0.1.1 (v0.3.6 only touched its header comment). Polestar 0.3.6 moved its interface strings out of `Polestar/Locales/` into load-on-demand addons `Polestar_<locale>` (Interface.lua, Names.lua, Texts.lua), loaded by `Core/Locale.lua`. The early fill still works: the first `GetLocale()` after Init.lua is now in `Core/Names.lua` (line 54), before any load-time L read. `audit` checks that order in `Core/Core.xml` and that line; the tools read the German strings from `Polestar_deDE/Interface.lua` (`deUIFile` in `tools/lib/sync.js`) |
+| `check --glossary` | about 145 questions, the same kinds as before (false alarms: "route" worded as "yol", "Inn" in names); not read one by one |
+| `Core.lua` | code unchanged since v0.1.1 (v0.3.6 only touched its header comment); `audit` found every hook point at v0.3.7. Polestar 0.3.6 moved its interface strings out of `Polestar/Locales/` into load-on-demand addons `Polestar_<locale>` (Interface.lua, Names.lua, Texts.lua), loaded by `Core/Locale.lua`. The early fill still works: the first `GetLocale()` after Init.lua is now in `Core/Names.lua` (line 54), before any load-time L read. `audit` checks that order in `Core/Core.xml` and that line; the tools read the German strings from `Polestar_deDE/Interface.lua` (`deUIFile` in `tools/lib/sync.js`) |
 
 **v0.2.6 is history.** It was the pin until 4 Nov. If your clone says v0.2.6 or v0.3.0, it is stale: `git pull`, then
 `node tools/kutup.js setup` (it moves `upstream/` to the pinned tag). The reason this note exists: 0.2.0 shipped from
@@ -60,6 +60,8 @@ the branch `polestar-v0.3.0` while `main` stayed at v0.2.6, so sessions cloning 
 | 12 Release 0.3.5 | uploaded (8 Nov) on Barış's OK, before an in-game test |
 | 13 Sync to Polestar v0.3.6 | done (11 Nov), merged into `main`: report in `reports/sync-v0.3.5-v0.3.6.md`. UI 195 new, 20 gone, 19 lost; guides 1306 new (112 reused), 734 lost. Most guide churn: "Forever pays these old quests in full" replacing the Classic fifth-pay notes in reputation guides, and reworded step notes. Polestar's locale architecture changed (see `Core.lua` above); the tooling and `audit` were adapted |
 | 14 Release 0.3.6 | uploaded (11 Nov, file 9553830) on Barış's request, before an in-game test: the in-game check is open (Open items 0). No `v0.3.6` tag yet: pushing one would start a second upload |
+| 15 Sync to Polestar v0.3.7 | done (11 Nov) on `polestar-v0.3.7`: report in `reports/sync-v0.3.6-v0.3.7.md`. UI 166 new, 22 gone, 22 lost; guides 202 new (3 reused), 188 lost, none gone. New UI: hiding all of Polestar from the minimap button, the update notice, level-up spell cards and old-rank upgrades, Train All, Boosted Rest, timed quests. Guide churn: "the guide waits for level N first" notes, "Careful:" lines, trainer lists in the profession guides |
+| 16 Release 0.3.7 | uploaded (11 Nov, file 9561909) on Barış's request, before an in-game test: the in-game check is open (Open items 0). No `v0.3.7` tag: pushing one would start a second upload |
 
 The next job comes when `node tools/kutup.js latest` says `update: yes`.
 
@@ -67,8 +69,8 @@ The next job comes when `node tools/kutup.js latest` says `update: yes`.
 
 None of these block anything.
 
-0. **In-game test of 0.3.6** (installed on 11 Nov): `/reload`, check that the Options window and slash help are Turkish
-   (the early fill now hangs on `Core/Names.lua`, Polestar 0.3.6's new load order), look over the new texts and read
+0. **In-game test of 0.3.7** (installed on 11 Nov; 0.3.6 was never tested either): `/reload`, check that the Options window and slash help are Turkish
+   (the early fill hangs on `Core/Names.lua` since Polestar 0.3.6), look over the new texts (minimap menu, update card, level-up spell card, Train All) and read
    `KutupstarDB.diag` (`fill` should be `early`). Party chat lines are Turkish now (other locales translate them too); the marker
    `{rt1} Polestar: ` stays as it is because Polestar's chat filter looks for it.
 1. **Wording polish, safe for a cloud session** (`check` after each, commit and push on a branch). The v0.3.0 work
@@ -90,6 +92,7 @@ None of these block anything.
 | Branch | State |
 |---|---|
 | `main` | current: start here |
+| `polestar-v0.3.7` | the v0.3.7 sync (11 Nov), **not merged yet**; 0.3.7 is uploaded from it |
 | `polestar-v0.3.6` | the v0.3.6 sync, merged (11 Nov); no tag (0.3.6 was uploaded through the API) |
 | `polestar-v0.3.5` | the v0.3.5 sync, merged (8 Nov); tag `v0.3.5` is on it |
 | `polestar-v0.3.1` | the v0.3.1 sync, merged; tag `v0.3.1` is on it |

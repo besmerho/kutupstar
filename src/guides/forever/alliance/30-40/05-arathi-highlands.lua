@@ -25,8 +25,10 @@ return {
 	["Follow the road north to the draenei of the {area:657}."] = "Yolu kuzeye izleyerek {area:657} içindeki draeneilere git.",
 
 	-- Step 7: Fallow Sanctuary
-	-- {area:76} Fallow Sanctuary · {npc:256028} The Lost One
-	["East along the road to the {area:76}. {npc:256028} mobs drop the crystals; Noboru walks the ruins and drops his cudgel."] = "Yol boyunca doğuya, {area:76} sığınağına git. Kristalleri {npc:256028} yaratıkları düşürür; Noboru harabelerde dolaşıyor ve sopasını düşürür.",
+	-- {area:76} Fallow Sanctuary · {npc:256028} The Lost One · {quest:1392} Noboru the Cudgel · {npc:1776} Magtoor
+	["East along the road to the {area:76}. {npc:256028} mobs drop the crystals. {quest:1392} walks a long path through the ruins: if you meet him, kill him, his cudgel starts a quest for {npc:1776}. Don't wait for him."] = "Yol boyunca doğuya, {area:76} sığınağına git. Kristalleri {npc:256028} yaratıkları düşürür. {quest:1392} harabelerin içinden uzun bir yol yürür: karşılaşırsan onu öldür, sopası {npc:1776} için bir görev başlatır. Onu bekleme.",
+	-- {quest:1392} Noboru the Cudgel
+	["from {quest:1392}: he walks a path through the ruins"] = "kaynak: {quest:1392}: harabelerin içinden bir yol yürür",
 
 	-- Step 8: The Lost Caravan
 	-- {area:76} Fallow Sanctuary · {npc:5391} Galen Goodward
@@ -88,8 +90,10 @@ return {
 	["{zone:1455} flight master"] = "{zone:1455} uçuş ustası",
 
 	-- Step 22: Shadowy Assassin
-	-- {npc:2434} Shadowy Assassin · {area:271} Southshore
-	["A {npc:2434} lurks unseen on the edge of {area:271}; kill him and read the contract he carries."] = "Bir {npc:2434}, {area:271} kasabasının kenarında görünmeden pusuda bekliyor; onu öldür ve üzerindeki sözleşmeyi oku.",
+	-- {npc:2434} Shadowy Assassin · {area:271} Southshore · {npc:2276} Magistrate Henry Maleb
+	["A {npc:2434} lurks stealthed on the edge of {area:271}, and few players find him. If you spot him, kill him and read the contract he carries: {npc:2276} takes it. Don't wait for him: the rest of this step doesn't need him."] = "Bir {npc:2434}, {area:271} kasabasının kenarında gizlenmiş pusuda bekliyor ve onu pek az oyuncu bulur. Görürsen onu öldür ve üzerindeki sözleşmeyi oku: {npc:2276} onu alır. Onu bekleme: bu adımın geri kalanı ona bağlı değil.",
+	-- {npc:2434} Shadowy Assassin
+	["{npc:2434}, if you spot him"] = "{npc:2434}, görürsen",
 	-- {npc:2276} Magistrate Henry Maleb
 	["{npc:2276}, inside"] = "{npc:2276}, içeride",
 
@@ -116,8 +120,9 @@ return {
 	-- Step 29: Drywhisker Gorge: kill these as you meet them
 	-- {area:318} Drywhisker Gorge
 	["{area:318}: kill these as you meet them"] = "{area:318}: bunları karşılaştıkça öldür",
-	-- {area:321} Hammerfall
-	["The Drywhisker kobolds dig in the gorge east of {area:321} (Horde); skirt the town to the north. They drop both the motes and Krazek's ore.\nCareful: Every kobold type runs off for help when low on health (Kobolds at 30%, Surveyors and Diggers at 15%), which can pull more of them."] = "Drywhisker kobold'ları {area:321} kasabasının (Horde) doğusundaki geçitte kazı yapıyor; kasabayı kuzeyden dolaş. Hem zerreleri hem de Krazek'in cevherini düşürürler.\nDikkat: Her kobold türü canı azalınca yardım için kaçar (Kobold'lar %30'da, Surveyor ve Digger'lar %15'te), bu da daha fazlasını çekebilir.",
+	-- {area:321} Hammerfall · {skill:186} Mining
+	-- plural, as words: Lesser Bloodstone Deposits = {object:2653} Lesser Bloodstone Deposit
+	["The Drywhisker kobolds dig in the gorge east of {area:321} (Horde); skirt the town to the north. They drop the Motes of Myzrael, not Krazek's ore. Lesser Bloodstone Deposits need {skill:186} 75: mine four ore, buy them at the Auction House, or ask a miner friend. The ore goal is optional; continue with Myzrael if you cannot get it. Careful: Every kobold type runs off for help when low on health (Kobolds at 30%, Surveyors and Diggers at 15%), which can pull more of them."] = "Drywhisker kobold'ları {area:321} kasabasının (Horde) doğusundaki geçitte kazı yapıyor; kasabayı kuzeyden dolaş. Motes of Myzrael düşürürler, Krazek'in cevherini değil. Lesser Bloodstone Deposit için {skill:186} 75 gerekir: dört cevher kaz, müzayede evinden al ya da madenci bir arkadaşından iste. Cevher hedefi isteğe bağlı; bulamıyorsan Myzrael ile devam et. Dikkat: Her kobold türü canı azalınca yardım için kaçar (Kobold'lar %30'da, Surveyor ve Digger'lar %15'te), bu da daha fazlasını çekebilir.",
 	-- {item:4435} Mote of Myzrael · {npc:2572} Drywhisker Kobold · {npc:2573} Drywhisker Surveyor · {npc:2574} Drywhisker Digger
 	["{item:4435} from {npc:2572}, {npc:2573} and {npc:2574}, by this stop"] = "{item:4435}: bu durağın yakınındaki {npc:2572}, {npc:2573} ve {npc:2574} yaratıklarından",
 

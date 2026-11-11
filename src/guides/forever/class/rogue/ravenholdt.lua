@@ -20,8 +20,6 @@ return {
 	["Horde fly to {area:272}, Alliance to {area:271}. The trail to the manor is hard to see: it starts behind the plateau north of {area:275}, east of {area:272}, climbs into the hills and bends twice to a small tunnel. A chest sits in the tunnel: do not open it. Cast {spell:1846} near it and walk up close; that is the Rite of Cunning (it comes back after 5 minutes). Opening the chest calls Milton, an elite rogue of about level 32. Through the tunnel lies {area:3486}: {npc:6707} is upstairs inside. Do not attack anyone at the manor: it costs {npc:13936} reputation."] = "Horde {area:272} kasabasına, Alliance {area:271} kasabasına uçar. Malikâneye giden patikayı görmek zor: {area:272} kasabasının doğusunda, {area:275} kalesinin kuzeyindeki platonun arkasından başlar, tepelere tırmanır ve iki kez dönerek küçük bir tünele ulaşır. Tünelde bir sandık duruyor: açma. Yakınında {spell:1846} kullan ve yanına kadar yürü; Rite of Cunning bu (5 dakika sonra geri gelir). Sandığı açmak seviye 32 civarı elit bir rogue olan Milton'u çağırır. Tünelin ötesinde {area:3486} var: {npc:6707} içeride üst katta. Malikânede kimseye saldırma: {npc:13936} itibarına mal olur.",
 	-- {spell:1846} Detect Traps
 	["Rite of Cunning: {spell:1846} beside the tunnel chest"] = "Rite of Cunning: tünel sandığının yanında {spell:1846}",
-	-- {npc:6766} Ravenholdt Guard · {quest:6701} Syndicate Emblems
-	["{npc:6766}: {quest:6701}, repeatable; take it now, the emblems are quest items"] = "{npc:6766}: {quest:6701}, tekrarlanabilir; şimdi al, armalar görev eşyası",
 
 	-- Step 3: Lord Tomas
 	-- {npc:266216} Lord Tomas · {area:275} Durnholde Keep · {npc:13085} Myrokos Silentform · {quest:6701} Syndicate Emblems

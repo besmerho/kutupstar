@@ -79,7 +79,7 @@ return {
 	-- {item:17124} Syndicate Emblem
 	["{item:17124}: pickpocket Syndicate"] = "{item:17124}: Syndicate'lerin cebini kes",
 	-- {npc:6766} Ravenholdt Guard
-	["a {npc:6766}: 100 per emblem"] = "bir {npc:6766}: amblem başına 100",
+	["a {npc:6766}: 100 per emblem, handed in from his window"] = "bir {npc:6766}: amblem başına 100, penceresinden teslim edilir",
 
 	-- Step 11: Syndicate kills to the end of Honored
 	["Syndicate kills to the end of Honored"] = "Honored'ın sonuna kadar Syndicate öldürmeleri",
@@ -115,5 +115,5 @@ return {
 	-- {item:16885} Heavy Junkbox · {area:1445} Blackrock Mountain
 	["{item:16885}: pickpocket level 50+ humanoids, {area:1445}"] = "{item:16885}: seviye 50+ humanoid'lerin cebini kes, {area:1445}",
 	-- {npc:6707} Fahrad
-	["{npc:6707}: 50 per five boxes"] = "{npc:6707}: beş kutu başına 50",
+	["{npc:6707}: 50 per five boxes, handed in from his window"] = "{npc:6707}: beş kutu başına 50, penceresinden teslim edilir",
 }

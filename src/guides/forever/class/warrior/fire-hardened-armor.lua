@@ -45,7 +45,7 @@ return {
 	["Charred and Galvanized Horns"] = "Charred ve Galvanized Horn",
 	-- {area:460} Sun Rock Retreat · {area:465} Charred Vale · {item:6840} Galvanized Horn · {npc:6167} Chimaera Matriarch · {spell:3396} Corrosive Poison · {spell:403} Lightning Bolt · {area:467} Stonetalon Peak
 	-- plural, as words: Charred Horns = {item:6839} Charred Horn · Young Chimaeras = {npc:4032} Young Chimaera
-	["The chimaeras live south-west of {area:460} in the {area:465}: you need 12 Charred Horns from the Fledgling (level 25-27) and Young Chimaeras (23-25), four kills in five, and the {item:6840} from the {npc:6167} (28, the big one), also four in five. Only three Fledglings, two Young and one Matriarch live there, each back in 5 minutes, so expect to wait. Fledglings and the Matriarch spit {spell:3396}, the Young cast {spell:403}. Alliance: fly to {area:467} and head south."] = "Kimeralar {area:460} tepesinin güneybatısındaki {area:465} vadisinde yaşıyor: Fledgling (seviye 25-27) ve Young Chimaera (23-25) yaratıklarından beşte dört olasılıkla düşen 12 Charred Horn ve {npc:6167} (28, büyük olan) yaratığından yine beşte dört olasılıkla düşen {item:6840} gerekiyor. Orada yalnızca üç Fledgling, iki Young ve bir Matriarch yaşıyor, her biri 5 dakikada geri gelir, bu yüzden beklemeyi göze al. Fledgling'ler ve Matriarch {spell:3396} tükürür, Young'lar {spell:403} kullanır. Alliance: {area:467} zirvesine uç ve güneye git.",
+	["The chimaeras live south-west of {area:460} in the {area:465}; the guide waits for level 26 first. You need 12 Charred Horns from the Fledgling (level 25-27) and Young Chimaeras (23-25), four kills in five, and the {item:6840} from the {npc:6167} (28, the big one), also four in five. Only three Fledglings, two Young and one Matriarch live there, each back in 5 minutes, so expect to wait. Fledglings and the Matriarch spit {spell:3396}, the Young cast {spell:403}. Alliance: fly to {area:467} and head south."] = "Kimeralar {area:460} tepesinin güneybatısındaki {area:465} vadisinde yaşıyor; rehber önce seviye 26'yı bekler. Fledgling (seviye 25-27) ve Young Chimaera (23-25) yaratıklarından beşte dört olasılıkla düşen 12 Charred Horn ve {npc:6167} (28, büyük olan) yaratığından yine beşte dört olasılıkla düşen {item:6840} gerekiyor. Orada yalnızca üç Fledgling, iki Young ve bir Matriarch yaşıyor, her biri 5 dakikada geri gelir, bu yüzden beklemeyi göze al. Fledgling'ler ve Matriarch {spell:3396} tükürür, Young'lar {spell:403} kullanır. Alliance: {area:467} zirvesine uç ve güneye git.",
 	-- {item:6839} Charred Horn
 	["{item:6839}, from the young chimaeras"] = "{item:6839}, genç kimeralardan",
 	-- {item:6840} Galvanized Horn · {npc:6167} Chimaera Matriarch
@@ -68,27 +68,31 @@ return {
 	["{npc:1416} keeps the weapon shop in the north-west of the {object:28027}, a short walk from {npc:5413}. He wants 20 {quest:1705} and the {item:6845}."] = "{npc:1416}, {object:28027} semtinin kuzeybatısında, {npc:5413} yerinden kısa bir yürüyüş uzaklıkta silah dükkânını işletiyor. 20 {quest:1705} ve {item:6845} istiyor.",
 
 	-- Step 12: Burning Blood
-	-- {zone:1431} Duskwood · {area:42} Darkshire · {quest:1705} Burning Blood · {npc:6170} Gutspill · {item:6845} Burning Rock · {area:2161} Roland's Doom · {spell:3427} Infected Wound
-	["The Nightbane worgen of {zone:1431} (Dark Runners, Vile Fangs, Shadow Weavers, Worgen and Tainted Ones, level 26-31) south and west of {area:42} drop the {quest:1705} four kills in five. {npc:6170} (level 32, not elite) carries the {item:6845} (also four in five): he walks between the inside and the mouth of the {area:2161} mine south-east of {area:42}, so wait at the entrance and pull him outside. {npc:6170} and the Tainted Ones poison and howl; Vile Fangs cause {spell:3427}."] = "{zone:1431} bölgesinin Nightbane worgen'ları (Dark Runner, Vile Fang, Shadow Weaver, Worgen ve Tainted One, seviye 26-31) {area:42} kasabasının güneyinde ve batısında beşte dört olasılıkla {quest:1705} düşürür. {npc:6170} (seviye 32, elit değil) {item:6845} taşıyor (o da beşte dört): {area:42} kasabasının güneydoğusundaki {area:2161} madeninin içi ile ağzı arasında gidip geliyor, bu yüzden girişte bekle ve onu dışarı çek. {npc:6170} ve Tainted One'lar zehirler ve uluyarak korkutur; Vile Fang'ler {spell:3427} verir.",
+	-- {zone:1431} Duskwood · {area:42} Darkshire · {quest:1705} Burning Blood · {spell:3427} Infected Wound
+	["The Nightbane worgen of {zone:1431} (Dark Runners, Vile Fangs, Shadow Weavers, Worgen and Tainted Ones, level 26-31) south and west of {area:42} drop the {quest:1705} four kills in five. The Tainted Ones poison and howl; Vile Fangs cause {spell:3427}."] = "{zone:1431} bölgesinin Nightbane worgen'ları (Dark Runner, Vile Fang, Shadow Weaver, Worgen ve Tainted One, seviye 26-31) {area:42} kasabasının güneyinde ve batısında beşte dört olasılıkla {quest:1705} düşürür. Tainted One'lar zehirler ve uluyarak korkutur; Vile Fang'ler {spell:3427} verir.",
 	-- {quest:1705} Burning Blood
 	["{quest:1705}, from the Nightbane worgen"] = "{quest:1705}, Nightbane worgen'larından",
+
+	-- Step 13: Gutspill
+	-- {npc:6170} Gutspill · {item:6845} Burning Rock · {area:2161} Roland's Doom · {area:42} Darkshire
+	["{npc:6170} (level 32, not elite) carries the {item:6845}, four kills in five; the guide waits for level 30 first. He walks between the inside and the mouth of the {area:2161} mine south-east of {area:42}, so wait at the entrance and pull him outside. He poisons and howls."] = "{npc:6170} (seviye 32, elit değil) beşte dört olasılıkla {item:6845} taşıyor; rehber önce seviye 30'u bekler. {area:42} kasabasının güneydoğusundaki {area:2161} madeninin içi ile ağzı arasında gidip geliyor, bu yüzden girişte bekle ve onu dışarı çek. Zehirler ve uluyarak korkutur.",
 	-- {item:6845} Burning Rock · {npc:6170} Gutspill
 	["{item:6845}, from {npc:6170}"] = "{item:6845}, kaynak: {npc:6170}",
 
-	-- Step 14: Mathiel
+	-- Step 15: Mathiel
 	-- {quest:1703} Mathiel · {area:1660} Warrior's Terrace · {zone:1457} Darnassus · {quest:1710} Sunscorched Shells
 	["{quest:1703} works on the south side of the {area:1660} in {zone:1457}. He wants 20 {quest:1710}."] = "{quest:1703}, {zone:1457} şehrinde {area:1660} terasının güney yakasında çalışıyor. 20 {quest:1710} istiyor.",
 
-	-- Step 15: Sunscorched Shells
+	-- Step 16: Sunscorched Shells
 	-- {area:482} Highperch · {zone:1441} Thousand Needles
 	-- plural, as words: Highperch Wyverns = {npc:4107} Highperch Wyvern
 	["The shells lie on the ground under the wyvern nests at {area:482} in western {zone:1441}, deeper into the gorge. Only nine exist and each returns 3 minutes after you pick it, so you will wait; some shell-like things there cannot be looted. Highperch Wyverns (level 28-31) guard them and sometimes come several at once."] = "Kabuklar batı {zone:1441} bölgesinde {area:482} uçurumlarındaki wyvern yuvalarının altında, geçidin daha içerisinde yerde duruyor. Yalnızca dokuz tane var ve her biri aldıktan 3 dakika sonra geri gelir, bu yüzden bekleyeceksin; oradaki kabuğa benzer bazı şeyler loot'lanamaz. Highperch Wyvern yaratıkları (seviye 28-31) onları koruyor ve bazen birkaçı birden gelir.",
 
-	-- Step 17: Klockmort Spannerspan
+	-- Step 18: Klockmort Spannerspan
 	-- {area:2257} Deeprun Tram · {zone:1453} Stormwind · {zone:1455} Ironforge · {quest:1704} Klockmort Spannerspan · {object:171524} Tinker Town · {item:6848} Searing Coral
 	["Ride the {area:2257} from {zone:1453} to {zone:1455}. {quest:1704}, a gnome smith, works in {object:171524} near the engineering trainers. He wants 20 {item:6848}."] = "{zone:1453} şehrinden {area:2257} ile {zone:1455} şehrine git. Gnom bir demirci olan {quest:1704}, {object:171524} semtinde mühendislik eğitmenlerinin yakınında çalışıyor. 20 {item:6848} istiyor.",
 
-	-- Step 18: Iron Coral
+	-- Step 19: Iron Coral
 	-- {quest:1708} Iron Coral · {area:150} Menethil Harbor · {item:5996} Draught of Water Breathing
 	["The {quest:1708} grows on the sea floor just south of {area:150}, by the murloc huts and a wrecked boat: eight there and two south-east of the harbor, each back in 3 minutes, so you will wait for respawns to reach 20. The murlocs can net you underwater: watch your breath, and a {item:5996} removes the risk."] = "{quest:1708}, {area:150} limanının hemen güneyinde, murloc kulübelerinin ve batık bir teknenin yanında deniz dibinde yetişiyor: orada sekiz, limanın güneydoğusunda iki tane var, her biri 3 dakikada geri gelir, bu yüzden 20'ye ulaşmak için yeniden doğmalarını beklersin. Murloc'lar su altında sana ağ atabilir: nefesine dikkat et; bir {item:5996} bu riski kaldırır.",
 	-- {item:6848} Searing Coral · {quest:1708} Iron Coral

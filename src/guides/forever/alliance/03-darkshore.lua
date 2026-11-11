@@ -164,9 +164,9 @@ return {
 	["Moonstalker Fangs"] = "Moonstalker Fang",
 
 	-- Step 31: The Tower of Althalaxx
-	-- {npc:3661} Balthule Shadowstrike · {zone:1440} Ashenvale
-	-- plural, as words: Dark Strand Fanatics = {npc:2336} Dark Strand Fanatic
-	["East of Buzzbox 323, {npc:3661} hides at the foot of the tower among the Dark Strand Fanatics. Keep his letter for Delgren in {zone:1440}."] = "Buzzbox 323'ün doğusunda {npc:3661}, Dark Strand Fanatic yaratıklarının arasında, kulenin dibinde saklanıyor. Mektubunu {zone:1440} bölgesindeki Delgren için sakla.",
+	-- {npc:3661} Balthule Shadowstrike · {zone:1440} Ashenvale · {npc:3660} Athrikus Narassin
+	-- plural, as words: Dark Strand Fanatics = {npc:2336} Dark Strand Fanatic · Dark Strand Voidcallers = {npc:2337} Dark Strand Voidcaller
+	["East of Buzzbox 323, {npc:3661} hides at the foot of the tower among the Dark Strand Fanatics. Keep his letter for Delgren in {zone:1440}.\nCareful: Dark Strand Voidcallers (28-29) with their voidwalkers and {npc:3660} (31) stand in the tower itself: take the parchments from the Fanatics south of it and keep away from the tower."] = "Buzzbox 323'ün doğusunda {npc:3661}, Dark Strand Fanatic yaratıklarının arasında, kulenin dibinde saklanıyor. Mektubunu {zone:1440} bölgesindeki Delgren için sakla.\nDikkat: Dark Strand Voidcaller yaratıkları (28-29) voidwalker'larıyla ve {npc:3660} (31) kulenin içinde duruyor: parşömenleri kulenin güneyindeki Fanatic'lerden al ve kuleden uzak dur.",
 	-- {item:5348} Worn Parchment
 	-- plural, as words: Dark Strand Fanatics = {npc:2336} Dark Strand Fanatic
 	["{item:5348}: Dark Strand Fanatics"] = "{item:5348}: Dark Strand Fanatic yaratıkları",

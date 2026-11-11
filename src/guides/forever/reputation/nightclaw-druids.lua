@@ -84,8 +84,8 @@ return {
 	-- {npc:254151} Vayn Moongaze
 	["The storyline and {npc:254151}'s first quest leave you at Friendly with 2100 to spare. Honored is 3900 more: four turn-ins of five ears up to level 18, twenty from level 22. Friendly opens 32 of {npc:254151}'s patterns, in two colours, Cloudy and Azure: Blacksmithing Skyforged Wristguards and Chain (skill 50, 9s 50c), Gauntlets and Greaves (55, 11s); Leatherworking Gustwoven and Windraveled bracers and belts (50) and gloves and boots (55); Tailoring Stormsewn Cuffs and Cord (50), Handwraps and Shoes (55). They bind when you buy them, so buy them on the crafter."] = "Hikâye ve {npc:254151} yanındaki ilk görev seni Friendly'de 2100 artıyla bırakır. Honored 3900 daha: seviye 18'e kadar beş kulaklık dört teslim, seviye 22'den itibaren yirmi. Friendly, {npc:254151} satıcısının kalıplarından 32'sini iki renkte, Cloudy ve Azure olarak açar: Blacksmithing Skyforged Wristguards ve Chain (beceri 50, 9s 50c), Gauntlets ve Greaves (55, 11s); Leatherworking Gustwoven ve Windraveled bileklikler ve kemerler (50), eldivenler ve botlar (55); Tailoring Stormsewn Cuffs ve Cord (50), Handwraps ve Shoes (55). Satın alınca bağlanırlar, bu yüzden onları üretecek karakterle al.",
 	["five ears per turn-in"] = "teslim başına beş kulak",
-	-- {quest:93459} More Al'Aketh Ears
-	["{quest:93459}: 1000 reputation"] = "{quest:93459}: 1000 itibar",
+	-- {quest:93459} More Al'Aketh Ears · {npc:254151} Vayn Moongaze
+	["{quest:93459}: 1000 reputation, handed in from {npc:254151}'s window"] = "{quest:93459}: 1000 itibar, {npc:254151} penceresinden teslim edilir",
 	-- {npc:254151} Vayn Moongaze
 	["{npc:254151}'s patterns"] = "{npc:254151}: kalıplar",
 

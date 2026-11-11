@@ -81,8 +81,8 @@ return {
 	-- Step 15: Journeyman Engineering
 	-- {skill:202} Engineering
 	["Journeyman {skill:202}"] = "Journeyman {skill:202}",
-	-- {skill:202} Engineering · {npc:8736} Buzzek Bracketswing · {zone:1446} Tanaris · {npc:1676} Finbus Geargrind · {zone:1431} Duskwood · {npc:5518} Lilliam Sparkspindle · {zone:1453} Stormwind City · {npc:5174} Springspindle Fizzlegear · {zone:1455} Ironforge · {npc:11029} Trixie Quikswitch · {npc:11031} Franklin Lloyd · {zone:1458} Undercity · {npc:3412} Nogg · {zone:1454} Orgrimmar · {spell:3929} Coarse Blasting Powder · {spell:3930} Crafted Heavy Shot · {item:2836} Coarse Stone · {item:2838} Heavy Stone · {item:2840} Copper Bar · {item:2841} Bronze Bar · {item:2842} Silver Bar
-	["Journeyman raises the cap from 75 to 150 for 5s (Classic's price; Forever's is not in the data); it needs {skill:202} 50 and character level 10, so you can take it on any visit from 50. Not every {skill:202} trainer teaches it: Alliance {npc:8736} ({zone:1446}), {npc:1676} ({zone:1431}), {npc:5518} ({zone:1453}), {npc:5174} ({zone:1455}) and {npc:11029} ({zone:1455}); Horde {npc:8736} ({zone:1446}), {npc:11031} ({zone:1458}), {npc:3412} ({zone:1454}) and Roxxik ({zone:1454}). The arrow picks the nearest of your faction. Learn now: {spell:3929} (from 75, 2s 50c) and {spell:3930} (from 75, 2s 50c). 75-150 takes about 5s of recipes and 45s of vendor goods, plus 15 {item:2836}, 27 {item:2838}, 72 {item:2840}, 61 {item:2841} and 2 {item:2842} to gather or buy."] = "Journeyman, 5s karşılığında sınırı 75 puandan 150 puana çıkarır (Classic fiyatı; Forever'ınki veride yok); {skill:202} 50 ve karakter seviyesi 10 ister, böylece 50 puandan itibaren herhangi bir ziyarette alabilirsin. Her {skill:202} eğitmeni öğretmez: Alliance {npc:8736} ({zone:1446}), {npc:1676} ({zone:1431}), {npc:5518} ({zone:1453}), {npc:5174} ({zone:1455}) ve {npc:11029} ({zone:1455}); Horde {npc:8736} ({zone:1446}), {npc:11031} ({zone:1458}), {npc:3412} ({zone:1454}) ve Roxxik ({zone:1454}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:3929} (75 puandan, 2s 50c) ve {spell:3930} (75 puandan, 2s 50c). 75-150 yaklaşık 5s tarif ve 45s satıcı malı, ayrıca toplanacak ya da alınacak 15 {item:2836}, 27 {item:2838}, 72 {item:2840}, 61 {item:2841} ve 2 {item:2842} tutar.",
+	-- {skill:202} Engineering · {npc:1676} Finbus Geargrind · {zone:1431} Duskwood · {npc:5518} Lilliam Sparkspindle · {zone:1453} Stormwind City · {npc:11029} Trixie Quikswitch · {zone:1455} Ironforge · {npc:11031} Franklin Lloyd · {zone:1458} Undercity · {npc:3412} Nogg · {zone:1454} Orgrimmar · {spell:3929} Coarse Blasting Powder · {spell:3930} Crafted Heavy Shot · {item:2836} Coarse Stone · {item:2838} Heavy Stone · {item:2840} Copper Bar · {item:2841} Bronze Bar · {item:2842} Silver Bar
+	["Journeyman raises the cap from 75 to 150 for 5s (Classic's price; Forever's is not in the data); it needs {skill:202} 50 and character level 10, so you can take it on any visit from 50. Not every {skill:202} trainer teaches it: Alliance {npc:1676} ({zone:1431}), {npc:5518} ({zone:1453}) and {npc:11029} ({zone:1455}); Horde {npc:11031} ({zone:1458}) and {npc:3412} ({zone:1454}). The arrow picks the nearest of your faction. Learn now: {spell:3929} (from 75, 2s 50c) and {spell:3930} (from 75, 2s 50c). 75-150 takes about 5s of recipes and 45s of vendor goods, plus 15 {item:2836}, 27 {item:2838}, 72 {item:2840}, 61 {item:2841} and 2 {item:2842} to gather or buy."] = "Journeyman, 5s karşılığında sınırı 75 puandan 150 puana çıkarır (Classic fiyatı; Forever'ınki veride yok); {skill:202} 50 ve karakter seviyesi 10 ister, böylece 50 puandan itibaren herhangi bir ziyarette alabilirsin. Her {skill:202} eğitmeni öğretmez: Alliance {npc:1676} ({zone:1431}), {npc:5518} ({zone:1453}) ve {npc:11029} ({zone:1455}); Horde {npc:11031} ({zone:1458}) ve {npc:3412} ({zone:1454}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:3929} (75 puandan, 2s 50c) ve {spell:3930} (75 puandan, 2s 50c). 75-150 yaklaşık 5s tarif ve 45s satıcı malı, ayrıca toplanacak ya da alınacak 15 {item:2836}, 27 {item:2838}, 72 {item:2840}, 61 {item:2841} ve 2 {item:2842} tutar.",
 
 	-- Step 16: Engineering 75-150: vendor goods
 	-- {skill:202} Engineering
@@ -176,8 +176,8 @@ return {
 	-- Step 34: Expert Engineering
 	-- {skill:202} Engineering
 	["Expert {skill:202}"] = "Expert {skill:202}",
-	-- {skill:202} Engineering · {npc:8736} Buzzek Bracketswing · {zone:1446} Tanaris · {npc:5174} Springspindle Fizzlegear · {zone:1455} Ironforge · {zone:1454} Orgrimmar · {spell:9271} Aquadynamic Fish Attractor · {spell:3953} Bronze Framework · {item:2319} Medium Leather · {item:2592} Wool Cloth · {item:2836} Coarse Stone · {item:2838} Heavy Stone · {item:2841} Bronze Bar · {item:2842} Silver Bar · {item:3575} Iron Bar · {item:3860} Mithril Bar · {item:7912} Solid Stone
-	["Expert raises the cap from 150 to 225 for 50s (Classic's price; Forever's is not in the data); it needs {skill:202} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:8736} ({zone:1446}) and {npc:5174} ({zone:1455}); Horde {npc:8736} ({zone:1446}) and Roxxik ({zone:1454}). The arrow picks the nearest of your faction. Learn now: {spell:9271} (from 150) and {spell:3953} (from 145). 150-225 takes about 31s of vendor goods, plus 19 {item:2319}, 19 {item:2592}, 31 {item:2836}, 74 {item:2838}, 100 {item:2841}, 6 {item:2842}, 81 {item:3575}, 19 {item:3860} and 62 {item:7912} to gather or buy."] = "Expert, 50s karşılığında sınırı 150 puandan 225 puana çıkarır (Classic fiyatı; Forever'ınki veride yok); {skill:202} 125 ve karakter seviyesi 20 ister, böylece 125 puandan itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:8736} ({zone:1446}) ve {npc:5174} ({zone:1455}); Horde {npc:8736} ({zone:1446}) ve Roxxik ({zone:1454}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:9271} (150 puandan) ve {spell:3953} (145 puandan). 150-225 yaklaşık 31s satıcı malı, ayrıca toplanacak ya da alınacak 19 {item:2319}, 19 {item:2592}, 31 {item:2836}, 74 {item:2838}, 100 {item:2841}, 6 {item:2842}, 81 {item:3575}, 19 {item:3860} ve 62 {item:7912} tutar.",
+	-- {skill:202} Engineering · {npc:5174} Springspindle Fizzlegear · {zone:1455} Ironforge · {npc:11017} Roxxik · {zone:1454} Orgrimmar · {spell:9271} Aquadynamic Fish Attractor · {spell:3953} Bronze Framework · {item:2319} Medium Leather · {item:2592} Wool Cloth · {item:2836} Coarse Stone · {item:2838} Heavy Stone · {item:2841} Bronze Bar · {item:2842} Silver Bar · {item:3575} Iron Bar · {item:3860} Mithril Bar · {item:7912} Solid Stone
+	["Expert raises the cap from 150 to 225 for 50s (Classic's price; Forever's is not in the data); it needs {skill:202} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:5174} ({zone:1455}); Horde {npc:11017} ({zone:1454}). The arrow picks the nearest of your faction. Learn now: {spell:9271} (from 150) and {spell:3953} (from 145). 150-225 takes about 31s of vendor goods, plus 19 {item:2319}, 19 {item:2592}, 31 {item:2836}, 74 {item:2838}, 100 {item:2841}, 6 {item:2842}, 81 {item:3575}, 19 {item:3860} and 62 {item:7912} to gather or buy."] = "Expert, 50s karşılığında sınırı 150 puandan 225 puana çıkarır (Classic fiyatı; Forever'ınki veride yok); {skill:202} 125 ve karakter seviyesi 20 ister, böylece 125 puandan itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:5174} ({zone:1455}); Horde {npc:11017} ({zone:1454}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:9271} (150 puandan) ve {spell:3953} (145 puandan). 150-225 yaklaşık 31s satıcı malı, ayrıca toplanacak ya da alınacak 19 {item:2319}, 19 {item:2592}, 31 {item:2836}, 74 {item:2838}, 100 {item:2841}, 6 {item:2842}, 81 {item:3575}, 19 {item:3860} ve 62 {item:7912} tutar.",
 
 	-- Step 35: Engineering 150-225: vendor goods
 	-- {skill:202} Engineering
@@ -199,7 +199,7 @@ return {
 
 	-- Step 38: Wool Cloth
 	-- {item:2592} Wool Cloth · {spell:3953} Bronze Framework
-	["19 {item:2592} for {spell:3953}: humanoids of level 15-30 drop it; or the Auction House. The arrow picks a farm spot for your level and faction."] = "{spell:3953} için 19 {item:2592}: seviye 15-30 insansılar düşürür; ya da müzayede evi. Ok seviyene ve tarafına göre bir kasma yeri seçer.",
+	["19 {item:2592} for {spell:3953}: humanoids of level 15-30 drop it. Keep what you loot as you level, take it from your bank, or buy it at the Auction House."] = "{spell:3953} için 19 {item:2592}: seviye 15-30 insansılar düşürür. Seviye atlarken loot'ladıklarını sakla, bankandan al ya da müzayede evinden satın al.",
 
 	-- Step 39: Coarse Stone (Alliance)
 	-- {item:2836} Coarse Stone
@@ -300,7 +300,7 @@ return {
 
 	-- Step 55: Schematic: Thorium Tube
 	-- {item:16047} Schematic: Thorium Tube · {item:16000} Thorium Tube · {skill:202} Engineering · {npc:260565} Kor'gar · {zone:2548} Riverglades · {npc:11185} Xizzer Fizzbolt · {zone:1452} Winterspring
-	["{item:16047} teaches {item:16000} ({skill:202} 275) for 1g 60s. Sold by Alliance: {npc:260565} ({zone:2548}) and {npc:11185} ({zone:1452}), limited stock; Horde: {npc:11185} ({zone:1452}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; it binds when picked up, so the Auction House never has it."] = "{item:16047}, 1g 60s karşılığında {item:16000} ({skill:202} 275) öğretir. Satanlar Alliance: {npc:260565} ({zone:2548}) ve {npc:11185} ({zone:1452}), sınırlı stok; Horde: {npc:11185} ({zone:1452}), sınırlı stok. Satıcıları bir iki tane tutar, satıştan bir süre sonra yeniden gelir; alınınca bağlanır, bu yüzden müzayede evinde hiç olmaz.",
+	["{item:16047} teaches {item:16000} ({skill:202} 275) for 1g 60s. Sold by {npc:260565} ({zone:2548}) and {npc:11185} ({zone:1452}), limited stock."] = "{item:16047}, 1g 60s karşılığında {item:16000} ({skill:202} 275) öğretir. Satanlar {npc:260565} ({zone:2548}) ve {npc:11185} ({zone:1452}), sınırlı stok.",
 
 	-- Step 56: Solid Stone (Alliance)
 	-- {item:7912} Solid Stone · {item:10512} Hi-Impact Mithril Slugs · {item:10513} Mithril Gyro-Shot · {skill:186} Mining · {object:2040} Mithril Deposit · {zone:1425} The Hinterlands · {zone:1444} Feralas · {zone:1447} Azshara
@@ -310,38 +310,30 @@ return {
 	-- {item:7912} Solid Stone · {item:10512} Hi-Impact Mithril Slugs · {item:10513} Mithril Gyro-Shot · {skill:186} Mining · {object:2040} Mithril Deposit · {zone:1443} Desolace · {zone:1425} The Hinterlands · {zone:1444} Feralas
 	["212 {item:7912} for {item:10512} and {item:10513}: {skill:186}: {object:2040} (skill 175) in {zone:1443} (30-40), {zone:1425} (40-50) and {zone:1444} (40-50); or the Auction House. The densest cluster of {object:2040} in {zone:1443} is marked."] = "{item:10512} ve {item:10513} için 212 {item:7912}: {skill:186}: {object:2040} (beceri 175), {zone:1443} (30-40), {zone:1425} (40-50) ve {zone:1444} (40-50) bölgelerinde; ya da müzayede evi. En yoğun {object:2040} kümesi {zone:1443} bölgesinde işaretli.",
 
-	-- Step 58: Runecloth (Alliance)
-	-- {item:14047} Runecloth
-	["{item:14047} (Alliance)"] = "{item:14047} (Alliance)",
-	-- {item:14047} Runecloth · {item:15994} Thorium Widget · {npc:7027} Blackrock Slayer
-	["24 {item:14047} for {item:15994}: humanoids of level 45-60 drop it; or the Auction House. It drops from {npc:7027} (level 56-57) here."] = "{item:15994} için 24 {item:14047}: seviye 45-60 insansı yaratıklar düşürür; ya da müzayede evi. Burada {npc:7027} (seviye 56-57) düşürür.",
+	-- Step 58: Runecloth
+	-- {item:14047} Runecloth · {item:15994} Thorium Widget
+	["24 {item:14047} for {item:15994}: humanoids of level 45-60 drop it. Keep what you loot as you level, take it from your bank, or buy it at the Auction House."] = "{item:15994} için 24 {item:14047}: seviye 45-60 insansılar düşürür. Seviye atlarken loot'ladıklarını sakla, bankandan al ya da müzayede evinden satın al.",
 
-	-- Step 59: Runecloth (Horde)
-	-- {item:14047} Runecloth
-	["{item:14047} (Horde)"] = "{item:14047} (Horde)",
-	-- {item:14047} Runecloth · {item:15994} Thorium Widget · {npc:11880} Twilight Avenger
-	["24 {item:14047} for {item:15994}: humanoids of level 45-60 drop it; or the Auction House. It drops from {npc:11880} (level 57-59) here."] = "{item:15994} için 24 {item:14047}: seviye 45-60 insansı yaratıklar düşürür; ya da müzayede evi. Burada {npc:11880} (seviye 57-59) düşürür.",
-
-	-- Step 60: Hi-Impact Mithril Slugs to 245
+	-- Step 59: Hi-Impact Mithril Slugs to 245
 	-- {item:10512} Hi-Impact Mithril Slugs
 	["{item:10512} to 245"] = "{item:10512}: 245 puana kadar",
 	-- {item:10512} Hi-Impact Mithril Slugs · {item:3860} Mithril Bar · {item:10505} Solid Blasting Powder · {skill:186} Mining · {item:3858} Mithril Ore
 	["{item:10512} is yellow at 225 (yellow 210, green 230, grey 250): about 62 crafts to 245. Each takes 1 {item:3860} and 1 {item:10505} and makes 200. Make the 50 {item:10505} first. Use the 12 {item:10505} you made earlier; the counts above leave them out. One {item:3860} and one {item:10505} a craft; hunters buy the slugs. Needs an anvil nearby. {item:3860} (118 for 225-300): {skill:186}: smelt {item:3858}; or the Auction House."] = "{item:10512}: 225 puanda sarı (sarı 210, yeşil 230, gri 250): 245 puana kadar yaklaşık 62 üretim. Her biri 1 {item:3860} ve 1 {item:10505} ister ve 200 tane yapar. Önce 50 {item:10505} yap. Daha önce yaptığın 12 {item:10505} eşyasını kullan; yukarıdaki sayılar onları içermiyor. Üretim başına bir {item:3860} ve bir {item:10505}; mermileri hunter'lar alır. Yakında bir örs gerekir. {item:3860} (225-300 için 118): {skill:186}: {item:3858} erit; ya da müzayede evi.",
 
-	-- Step 61: Engineering recipes at 245
+	-- Step 60: Engineering recipes at 245
 	-- {skill:202} Engineering
 	["{skill:202} recipes at 245"] = "245 puanda {skill:202} tarifleri",
 	-- {skill:202} Engineering · {spell:12621} Mithril Gyro-Shot
 	["Back to an {skill:202} trainer: {spell:12621} (from 245)."] = "Yeniden bir {skill:202} eğitmenine: {spell:12621} (245 puandan itibaren).",
 
-	-- Step 62: Mithril Gyro-Shot to 265
+	-- Step 61: Mithril Gyro-Shot to 265
 	-- {item:10513} Mithril Gyro-Shot
 	["{item:10513} to 265"] = "{item:10513}: 265 puana kadar",
 	-- {item:10513} Mithril Gyro-Shot · {item:3860} Mithril Bar · {item:10505} Solid Blasting Powder
 	-- plural, as words: Mithril Bars = {item:3860} Mithril Bar
 	["{item:10513} is yellow at 245 (yellow 245, green 265, grey 285): about 28 crafts to 265. Each takes 2 {item:3860} and 2 {item:10505} and makes 200. Make the 56 {item:10505} first. Two Mithril Bars and two {item:10505} a craft. Needs an anvil nearby."] = "{item:10513}: 245 puanda sarı (sarı 245, yeşil 265, gri 285): 265 puana kadar yaklaşık 28 üretim. Her biri 2 {item:3860} ve 2 {item:10505} ister ve 200 tane yapar. Önce 56 {item:10505} yap. Üretim başına iki Mithril Bar ve iki {item:10505}. Yakında bir örs gerekir.",
 
-	-- Step 63: Thorium Widget to 287
+	-- Step 62: Thorium Widget to 287
 	-- {item:15994} Thorium Widget
 	["{item:15994} to 287"] = "{item:15994}: 287 puana kadar",
 	-- {item:15994} Thorium Widget · {item:12359} Thorium Bar · {item:14047} Runecloth · {skill:186} Mining · {item:10620} Thorium Ore
@@ -349,7 +341,7 @@ return {
 	["{item:15994} is orange at 265 (yellow 280, green 290, grey 300): about 24 crafts to 287. Each takes 3 {item:12359} and 1 {item:14047}. Three Thorium Bars and a {item:14047} a craft; the widgets are parts for the later Thorium gadgets. Needs an anvil nearby. {item:12359} (156 for 225-300): {skill:186}: smelt {item:10620}; or the Auction House."] = "{item:15994}: 265 puanda turuncu (sarı 280, yeşil 290, gri 300): 287 puana kadar yaklaşık 24 üretim. Her biri 3 {item:12359} ve 1 {item:14047} ister. Üretim başına üç Thorium Bar ve bir {item:14047}; bu parçalar sonraki Thorium aletlerinin parçaları. Yakında bir örs gerekir. {item:12359} (225-300 için 156): {skill:186}: {item:10620} erit; ya da müzayede evi.",
 	["from the recipe in your bags"] = "çantandaki tariften",
 
-	-- Step 64: Thorium Tube to 300
+	-- Step 63: Thorium Tube to 300
 	-- {item:16000} Thorium Tube
 	["{item:16000} to 300"] = "{item:16000}: 300 puana kadar",
 	-- {item:16000} Thorium Tube · {item:12359} Thorium Bar · {skill:202} Engineering

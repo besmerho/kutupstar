@@ -199,6 +199,8 @@ return {
 	["Neutral to Friendly is 3,000 reputation. Every trash mob of the {area:16076} (a 40-player raid behind the {area:2737}) gives 100, and the Twin Emperors 210 each, until 2,999 of 3,000 Neutral, one point short of Friendly; there they stop. Then hand in one saved {item:21230} (1,000, to {npc:15502}) or {item:21229} (500, to {npc:15503}) to tip you over. The shoulder and boot exchanges of the Temple's tier set need no standing: the token, two idols and ten scarabs to {npc:15502} (shoulders) or {npc:15503} (boots) pay 200 each. The {area:3454} (20 players) give a little from bosses: Kurinnaxx, Moam, Buru and Ayamiss 50 each, Rajaxx 34, Ossirian 100, to Exalted."] = "Neutral'dan Friendly'ye 3.000 itibar. {area:16076} zindanının ({area:2737} ardındaki 40 kişilik bir raid) her sıradan yaratığı 100, Twin Emperors da her biri 210 verir; Neutral'ın 3.000'inin 2.999'una, Friendly'ye bir puan kalana kadar; orada dururlar. Sonra seni aşırmak için sakladığın bir {item:21230} (1.000, {npc:15502} yanına) ya da {item:21229} (500, {npc:15503} yanına) teslim et. Temple'ın tier setinin omuzluk ve bot takasları itibar istemez: jeton, iki idol ve on scarab {npc:15502} (omuzluk) ya da {npc:15503} (bot) yanına her biri 200 öder. {area:3454} (20 oyuncu) boss'lardan biraz verir: Kurinnaxx, Moam, Buru ve Ayamiss her biri 50, Rajaxx 34, Ossirian 100, Exalted'a kadar.",
 	-- {item:21229} Qiraji Lord's Insignia
 	["{item:21229}, Temple bosses"] = "{item:21229}, Temple boss'ları",
+	-- {npc:15503} Kandrostrasz
+	["{npc:15503}: 500, handed in from his window"] = "{npc:15503}: 500, penceresinden teslim edilir",
 
 	-- Step 35: The ring at Friendly
 	["The ring at Friendly"] = "Friendly'de yüzük",

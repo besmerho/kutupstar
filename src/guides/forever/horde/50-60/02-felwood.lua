@@ -52,10 +52,6 @@ return {
 	["{area:200} farmhouse"] = "{area:200} çiftlik evi",
 	-- {npc:10816} Wandering Skeleton · {npc:10836} Farmer Dalson
 	["The diary lies in the farmhouse, the cabinet stands inside and the outhouse is behind it. A {npc:10816} carries the outhouse key; {npc:10836} comes out when you open the outhouse and carries the cabinet key."] = "Günlük çiftlik evinde, dolap içeride, hela da arkada. Hela anahtarını bir {npc:10816} taşıyor; helayı açınca {npc:10836} dışarı çıkar ve dolap anahtarını taşır.",
-	-- {object:175924} Locked Cabinet
-	["{object:175924}, inside"] = "{object:175924}, içeride",
-	-- {quest:5058} Mrs. Dalson's Diary
-	["{quest:5058}, inside"] = "{quest:5058}, içeride",
 
 	-- Step 10: Diseased Grizzlies
 	["Diseased Grizzlies"] = "Diseased Grizzly yaratıkları",
@@ -155,10 +151,6 @@ return {
 	-- Step 32: Jessir Moonbow
 	-- {area:2479} Emerald Sanctuary
 	["Back at the {area:2479}."] = "{area:2479} kampına geri dön.",
-
-	-- Step 34: Emerald Sanctuary
-	-- plural, as words: Deadwood Headdress Feathers = {item:21377} Deadwood Headdress Feather
-	["Only with 5 Deadwood Headdress Feathers"] = "Yalnızca 5 Deadwood Headdress Feather varsa",
 
 	-- Step 35: The Jaedenar moonwell
 	-- {area:1763} Jaedenar

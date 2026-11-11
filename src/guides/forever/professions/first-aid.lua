@@ -8,13 +8,13 @@ return {
 	["Learn {skill:129}"] = "{skill:129} öğren",
 	-- {skill:129} First Aid · {item:118} Minor Healing Potion · {item:2447} Peacebloom · {item:2678} Mild Spices · {item:3371} Empty Vial · {skill:182} Herbalism
 	-- plural, as words: Linen Bandages = {item:1251} Linen Bandage
-	["Any {skill:129} trainer of your faction teaches Apprentice {skill:129} (character level 5, 1s); the arrow picks the nearest. Forever teaches {item:118} with it: {item:2447}, {item:2678} and an {item:3371}, orange to 55. With {skill:182} it can replace the Linen Bandages below."] = "Tarafının her {skill:129} eğitmeni Apprentice {skill:129} öğretir (karakter seviyesi 5, 1s); ok en yakınını seçer. Forever onunla birlikte {item:118} öğretir: {item:2447}, {item:2678} ve bir {item:3371}, 55 puana kadar turuncu. {skill:182} ile aşağıdaki Linen Bandage'ların yerini tutabilir.",
+	["Any {skill:129} trainer of your faction teaches Apprentice {skill:129} (any character level, 1s); the arrow picks the nearest. Forever teaches {item:118} with it: {item:2447}, {item:2678} and an {item:3371}, orange to 55. With {skill:182} it can replace the Linen Bandages below."] = "Tarafının her {skill:129} eğitmeni Apprentice {skill:129} öğretir (her karakter seviyesinde, 1s); ok en yakınını seçer. Forever onunla birlikte {item:118} öğretir: {item:2447}, {item:2678} ve bir {item:3371}, 55 puana kadar turuncu. {skill:182} ile aşağıdaki Linen Bandage'ların yerini tutabilir.",
 
 	-- Step 2: Linen Bandage: cloth
 	-- {item:1251} Linen Bandage
 	["{item:1251}: cloth"] = "{item:1251}: kumaş",
 	-- {item:2589} Linen Cloth
-	["humanoids of level 5-20 drop {item:2589} (or buy it at the Auction House)."] = "Seviye 5-20 insansılar {item:2589} düşürür (ya da müzayede evinden al).",
+	["{item:2589} drops from humanoids of level 5-20: keep what you loot as you level, take it from your bank, or buy it at the Auction House."] = "{item:2589} seviye 5-20 insansılardan düşer: seviye atlarken loot'ladıklarını sakla, bankandan al ya da müzayede evinden satın al.",
 
 	-- Step 3: Linen Bandage (1-40)
 	-- {item:1251} Linen Bandage · {item:279968} First Aid Kit · {skill:129} First Aid · {item:159} Refreshing Spring Water
@@ -33,7 +33,7 @@ return {
 	-- {skill:129} First Aid
 	["Journeyman {skill:129}"] = "Journeyman {skill:129}",
 	-- {skill:129} First Aid
-	["Journeyman {skill:129} raises the cap to 150; it needs skill 50 and character level 10: the arrow picks the nearest {skill:129} trainer of your faction; training costs 5s."] = "Journeyman {skill:129}, sınırı 150 puana çıkarır; beceri 50 ve karakter seviyesi 10 ister: ok tarafının en yakın {skill:129} eğitmenini seçer; eğitim 5s.",
+	["Journeyman {skill:129} raises the cap to 150; it needs skill 50 and no character level: the arrow picks the nearest {skill:129} trainer of your faction; training costs 5s."] = "Journeyman {skill:129}, sınırı 150 puana çıkarır; beceri 50 ister, karakter seviyesi istemez: ok tarafının en yakın {skill:129} eğitmenini seçer; eğitim 5s.",
 
 	-- Step 8: Heavy Linen Bandage (50-80)
 	-- {item:2581} Heavy Linen Bandage · {item:858} Lesser Healing Potion · {item:2450} Briarthorn · {item:2678} Mild Spices · {item:3371} Empty Vial
@@ -43,7 +43,7 @@ return {
 	-- {spell:3277} Wool Bandage
 	["{spell:3277}: cloth"] = "{spell:3277}: kumaş",
 	-- {item:2592} Wool Cloth
-	["humanoids of level 15-30 drop {item:2592} (or buy it at the Auction House)."] = "Seviye 15-30 insansılar {item:2592} düşürür (ya da müzayede evinden al).",
+	["{item:2592} drops from humanoids of level 15-30: keep what you loot as you level, take it from your bank, or buy it at the Auction House."] = "{item:2592} seviye 15-30 insansılardan düşer: seviye atlarken loot'ladıklarını sakla, bankandan al ya da müzayede evinden satın al.",
 
 	-- Step 10: Wool Bandage (80-115)
 	-- {spell:3277} Wool Bandage · {skill:129} First Aid · {item:6452} Anti-Venom · {item:1475} Small Venom Sac · {spell:9810} Touch of Zanzil
@@ -73,7 +73,7 @@ return {
 	-- {item:6450} Silk Bandage
 	["{item:6450}: cloth"] = "{item:6450}: kumaş",
 	-- {item:4306} Silk Cloth
-	["humanoids of level 25-45 drop {item:4306} (or buy it at the Auction House)."] = "Seviye 25-45 insansılar {item:4306} düşürür (ya da müzayede evinden al).",
+	["{item:4306} drops from humanoids of level 25-45: keep what you loot as you level, take it from your bank, or buy it at the Auction House."] = "{item:4306} seviye 25-45 insansılardan düşer: seviye atlarken loot'ladıklarını sakla, bankandan al ya da müzayede evinden satın al.",
 
 	-- Step 17: Silk Bandage (150-180)
 	-- {item:6450} Silk Bandage · {skill:129} First Aid
@@ -91,7 +91,7 @@ return {
 	-- {item:8544} Mageweave Bandage
 	["{item:8544}: cloth"] = "{item:8544}: kumaş",
 	-- {item:4338} Mageweave Cloth
-	["humanoids of level 35-50 drop {item:4338} (or buy it at the Auction House)."] = "Seviye 35-50 insansılar {item:4338} düşürür (ya da müzayede evinden al).",
+	["{item:4338} drops from humanoids of level 35-50: keep what you loot as you level, take it from your bank, or buy it at the Auction House."] = "{item:4338} seviye 35-50 insansılardan düşer: seviye atlarken loot'ladıklarını sakla, bankandan al ya da müzayede evinden satın al.",
 
 	-- Step 21: Mageweave Bandage (210-225)
 	-- {item:8544} Mageweave Bandage
@@ -143,7 +143,7 @@ return {
 	-- {item:14529} Runecloth Bandage
 	["{item:14529}: cloth"] = "{item:14529}: kumaş",
 	-- {item:14047} Runecloth
-	["humanoids of level 45-60 drop {item:14047} (or buy it at the Auction House)."] = "Seviye 45-60 insansılar {item:14047} düşürür (ya da müzayede evinden al).",
+	["{item:14047} drops from humanoids of level 45-60: keep what you loot as you level, take it from your bank, or buy it at the Auction House."] = "{item:14047} seviye 45-60 insansılardan düşer: seviye atlarken loot'ladıklarını sakla, bankandan al ya da müzayede evinden satın al.",
 
 	-- Step 33: Runecloth Bandage (260-300)
 	-- {item:14529} Runecloth Bandage · {item:14047} Runecloth · {item:14530} Heavy Runecloth Bandage

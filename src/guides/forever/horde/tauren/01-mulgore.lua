@@ -31,21 +31,23 @@ return {
 	["Inside"] = "İçeride",
 
 	-- Step 5: The Hunt Continues
-	-- {npc:6775} Antur Fallow · {npc:2980} Grull Hawkwind
+	-- {npc:6775} Antur Fallow
 	-- plural, as words: Mountain Cougars = {npc:2961} Mountain Cougar
-	["{npc:6775} stands at the west end of the camp, at the north-west corner of the hills where the Mountain Cougars prowl: take his quest, hunt the cougars from there south and east, then come back up to {npc:2980}."] = "{npc:6775} kampın batı ucunda, Mountain Cougar yaratıklarının dolaştığı tepelerin kuzeybatı köşesinde duruyor: görevini al, oradan güneye ve doğuya doğru pumaları avla, sonra yukarı, {npc:2980} yanına dön.",
+	["{npc:6775} stands at the west end of the camp, at the north-west corner of the hills where the Mountain Cougars prowl: take his quest, then hunt the cougars south through the hills towards the Seer's tent at their foot."] = "{npc:6775} kampın batı ucunda, Mountain Cougar yaratıklarının dolaştığı tepelerin kuzeybatı köşesinde duruyor: görevini al, sonra pumaları tepelerin içinden güneye, eteklerindeki Seer çadırına doğru avla.",
 
-	-- Step 6: Grull Hawkwind
-	-- {npc:3209} Brave Windfeather · {npc:2980} Grull Hawkwind · {area:221} Camp Narache
-	["{npc:3209}, next to {npc:2980}; walks around {area:221}: look inside the circle on the map"] = "{npc:3209}, {npc:2980} yanında; {area:221} çevresinde dolaşıyor: haritadaki çemberin içine bak",
+	-- Step 6: Seer Graytongue
+	["The Seer's tent stands at the foot of the cougars' hills."] = "Seer çadırı, pumaların tepelerinin eteğinde duruyor.",
 
-	-- Step 7: Seer Graytongue
-	["Follow the path south out of camp to the Seer's tent at the foot of the hills."] = "Patikayı güneye izleyerek kamptan çık ve tepelerin eteğindeki Seer çadırına git.",
-
-	-- Step 8: The shrine of An'she and Mu'sha
+	-- Step 7: The shrine of An'she and Mu'sha
 	["The shrine of An'she and Mu'sha"] = "An'she ve Mu'sha tapınağı",
 	-- {object:660739} Ritual Fire
 	["The incense burns out in ten minutes: run straight east along the southern hills to the {object:660739}."] = "Tütsü on dakikada söner: güney tepeleri boyunca doğruca doğuya, {object:660739} yanına koş.",
+
+	-- Step 8: Grull Hawkwind
+	-- {area:221} Camp Narache
+	["Back north-west up to {area:221}."] = "Kuzeybatıya, {area:221} kampına geri çık.",
+	-- {npc:3209} Brave Windfeather · {npc:2980} Grull Hawkwind · {area:221} Camp Narache
+	["{npc:3209}, next to {npc:2980}; walks around {area:221}: look inside the circle on the map"] = "{npc:3209}, {npc:2980} yanında; {area:221} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 9: Red Cloud Mesa: kill these as you meet them
 	-- {area:220} Red Cloud Mesa
@@ -348,6 +350,8 @@ return {
 	["{npc:3418} stands at {area:378}, where the road from {zone:1412} meets the {area:458} north to the Crossroads."] = "{npc:3418}, {zone:1412} bölgesinden gelen yolun kuzeye, Crossroads'a giden {area:458} yoluna kavuştuğu yerde, {area:378} kampında duruyor.",
 	-- {npc:3418} Kirge Sternhorn · {npc:3429} Thork
 	["{npc:3418}: for {npc:3429} at the Crossroads"] = "{npc:3418}: Crossroads'taki {npc:3429} için",
+	-- {npc:10378} Omusa Thunderhorn · {npc:3418} Kirge Sternhorn
+	["{npc:10378}, beside {npc:3418}"] = "{npc:10378}, {npc:3418} yanında",
 
 	-- Step 83: The Crossroads
 	-- {zone:1412} Mulgore · {npc:3448} Tonga Runetotem · {quest:860} Sergra Darkthorn · {npc:3615} Devrak · {area:380} The Crossroads · {zone:1421} Silverpine Forest · {zone:1413} The Barrens

@@ -3,6 +3,9 @@
 -- oyun orada adı İngilizce gösterir (yukarıdaki yorum satırında yazıyor). Belirtecin hemen ardına ek getirme;
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
+	-- Guide
+	["For characters of 49 to 50, but most quests here are level 51-53: on purpose, for their experience. The crater's beasts are 48-55 and the Gorishi silithids 51-54, so pull them one at a time."] = "49-50 seviyesindeki karakterler için, ama buradaki görevlerin çoğu seviye 51-53: deneyimleri için bilerek. Kraterin hayvanları 48-55, Gorishi silithid'leri 51-54, bu yüzden onları tek tek çek.",
+
 	-- Step 1: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
 	["Fly to {area:150}"] = "Uç: {area:150}",

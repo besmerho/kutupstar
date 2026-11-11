@@ -14,7 +14,7 @@ return {
 	["Beasts 1-9: {zone:1429} (1-50)"] = "Hayvanlar 1-9: {zone:1429} (1-50)",
 	-- {npc:1922} Gray Forest Wolf · {npc:525} Mangy Wolf · {npc:524} Rockhide Boar · {npc:113} Stonetusk Boar · {npc:69} Timber Wolf · {npc:822} Young Forest Bear · {npc:299} Young Wolf · {skill:393} Skinning · {npc:6306} Helene Peltskinner
 	-- plural, as words: Rough Wolf Pelts = {item:247877} Rough Wolf Pelt
-	["Kill and skin {npc:1922} (7), {npc:525} (5), Prowler (9), {npc:524} (7), {npc:113} (5), {npc:69} (2), {npc:822} (8), {npc:299} (1) along the loop until {skill:393} 50; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. A quest here needs {skill:393}: Rough Wolf Pelts (level 7, {npc:6306}). Zone level 1-10. Expect about 60 beasts for these 49 points."] = "Tur boyunca {npc:1922} (7), {npc:525} (5), Prowler (9), {npc:524} (7), {npc:113} (5), {npc:69} (2), {npc:822} (8), {npc:299} (1) yaratıklarını öldür ve {skill:393} 50 olana kadar derilerini yüz; her cesedi loot'la, sonra derisini yüz ve becerinin izin verdiği en yüksek seviyeli hayvanları yüz. Seviyesi L olan bir hayvan seviye 20'ye kadar (L-10)x10, üstünde Lx5 beceri ister. Burada bir görev {skill:393} ister: Rough Wolf Pelts (seviye 7, {npc:6306}). Bölge seviyesi 1-10. Bu 49 puan için yaklaşık 60 hayvan bekle.",
+	["Kill and skin {npc:1922} (7), {npc:525} (5), Prowler (9), {npc:524} (7), {npc:113} (5), {npc:69} (2), {npc:822} (8), {npc:299} (1) along the loop until {skill:393} 50; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. A quest here needs {skill:393}: Rough Wolf Pelts (level 8, {npc:6306}). Zone level 1-10. Expect about 60 beasts for these 49 points."] = "Tur boyunca {npc:1922} (7), {npc:525} (5), Prowler (9), {npc:524} (7), {npc:113} (5), {npc:69} (2), {npc:822} (8), {npc:299} (1) yaratıklarını öldür ve {skill:393} 50 olana kadar derilerini yüz; her cesedi loot'la, sonra derisini yüz ve becerinin izin verdiği en yüksek seviyeli hayvanları yüz. Seviyesi L olan bir hayvan seviye 20'ye kadar (L-10)x10, üstünde Lx5 beceri ister. Burada bir görev {skill:393} ister: Rough Wolf Pelts (seviye 8, {npc:6306}). Bölge seviyesi 1-10. Bu 49 puan için yaklaşık 60 hayvan bekle.",
 	-- {npc:822} Young Forest Bear
 	["{npc:822}, Prowler"] = "{npc:822}, Prowler",
 	-- {npc:822} Young Forest Bear
@@ -38,10 +38,11 @@ return {
 	["Beasts 1-10: {zone:2521} (1-50)"] = "Hayvanlar 1-10: {zone:2521} (1-50)",
 	-- {npc:250928} Highlands Ursera · {npc:251284} Hippogryph Protector · {npc:251291} Hippogryph Youth · {npc:250873} Juvenile Vuldren · {npc:251707} Ornery Galestrider · {npc:250926} Scrawny Ursera · {npc:256092} Shadowgale Shriekling · {npc:253282} Shriekling Fledgling · {npc:250937} Ursera Scavenger · {npc:250874} Vuldren Alpha · {npc:254588} Windsong Crawler · {skill:393} Skinning
 	["Kill and skin Cloudrunner (6), Galestrider (5), {npc:250928} (7), {npc:251284} (6), {npc:251291} (6), {npc:250873} (1), {npc:251707} (8), Prideclaw (5), {npc:250926} (3), {npc:256092} (10), {npc:253282} (8), {npc:250937} (4), Vuldren (6), {npc:250874} (10), {npc:254588} (8) along the loop until {skill:393} 50; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 1-15. Expect about 60 beasts for these 49 points."] = "Tur boyunca Cloudrunner (6), Galestrider (5), {npc:250928} (7), {npc:251284} (6), {npc:251291} (6), {npc:250873} (1), {npc:251707} (8), Prideclaw (5), {npc:250926} (3), {npc:256092} (10), {npc:253282} (8), {npc:250937} (4), Vuldren (6), {npc:250874} (10), {npc:254588} (8) yaratıklarını öldür ve {skill:393} 50 olana kadar derilerini yüz; her cesedi loot'la, sonra derisini yüz ve becerinin izin verdiği en yüksek seviyeli hayvanları yüz. Seviyesi L olan bir hayvan seviye 20'ye kadar (L-10)x10, üstünde Lx5 beceri ister. Bölge seviyesi 1-15. Bu 49 puan için yaklaşık 60 hayvan bekle.",
-	["Galestrider, Prideclaw"] = "Galestrider, Prideclaw",
-	["Prideclaw, Galestrider"] = "Prideclaw, Galestrider",
-	["Vuldren, Galestrider"] = "Vuldren, Galestrider",
+	-- {npc:251291} Hippogryph Youth
+	["{npc:251291}, Prideclaw"] = "{npc:251291}, Prideclaw",
 	["Prideclaw, Vuldren"] = "Prideclaw, Vuldren",
+	["Prideclaw, Galestrider"] = "Prideclaw, Galestrider",
+	["Galestrider, Vuldren"] = "Galestrider, Vuldren",
 
 	-- Step 6: Beasts 1-9: Durotar (1-50)
 	-- {zone:1411} Durotar
@@ -56,7 +57,10 @@ return {
 	["Kill and skin {npc:2956} (6), Battleboar (3), {npc:2957} (8), {npc:3035} (7), {npc:3566} (9), {npc:2972} (7), {npc:2961} (3), Plainstrider (1), {npc:2959} (7), {npc:2958} (5), {npc:2960} (9) along the loop until {skill:393} 50; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. A quest here needs {skill:393}: Gathering Leather (level 8, {npc:3050}). Zone level 1-10. Expect about 60 beasts for these 49 points."] = "Tur boyunca {npc:2956} (6), Battleboar (3), {npc:2957} (8), {npc:3035} (7), {npc:3566} (9), {npc:2972} (7), {npc:2961} (3), Plainstrider (1), {npc:2959} (7), {npc:2958} (5), {npc:2960} (9) yaratıklarını öldür ve {skill:393} 50 olana kadar derilerini yüz; her cesedi loot'la, sonra derisini yüz ve becerinin izin verdiği en yüksek seviyeli hayvanları yüz. Seviyesi L olan bir hayvan seviye 20'ye kadar (L-10)x10, üstünde Lx5 beceri ister. Burada bir görev {skill:393} ister: Gathering Leather (seviye 8, {npc:3050}). Bölge seviyesi 1-10. Bu 49 puan için yaklaşık 60 hayvan bekle.",
 	["Battleboar, Plainstrider"] = "Battleboar, Plainstrider",
 	-- {npc:2961} Mountain Cougar
+	["Battleboar, {npc:2961}"] = "Battleboar, {npc:2961}",
+	-- {npc:2961} Mountain Cougar
 	["{npc:2961}, Plainstrider"] = "{npc:2961}, Plainstrider",
+	["Plainstrider"] = "Plainstrider",
 
 	-- Step 8: Beasts 1-9: Tirisfal Glades (1-50)
 	-- {zone:1420} Tirisfal Glades
@@ -98,8 +102,8 @@ return {
 	-- Step 12: Beasts 11-19: Darkshore (50-100)
 	-- {zone:1439} Darkshore
 	["Beasts 11-19: {zone:1439} (50-100)"] = "Hayvanlar 11-19: {zone:1439} (50-100)",
-	-- {npc:2163} Thistle Bear · {npc:2164} Rabid Thistle Bear · {npc:2165} Grizzled Thistle Bear · {npc:2070} Moonstalker Runt · {npc:2237} Moonstalker Sire · {npc:3823} Ghostpaw Runner · {npc:2071} Moonstalker Matriarch · {skill:393} Skinning
-	["Kill and skin {npc:2163} (11), {npc:2164} (13), Moonstalker (14), {npc:2165} (16, needs 60), {npc:2070} (16, needs 60), {npc:2237} (17, needs 70), {npc:3823} (19, needs 90), {npc:2071} (19, needs 90) along the loop until {skill:393} 100; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 10-20. Expect about 100 beasts for these 50 points."] = "Tur boyunca {npc:2163} (11), {npc:2164} (13), Moonstalker (14), {npc:2165} (16, 60 ister), {npc:2070} (16, 60 ister), {npc:2237} (17, 70 ister), {npc:3823} (19, 90 ister), {npc:2071} (19, 90 ister) yaratıklarını öldür ve {skill:393} 100 olana kadar derilerini yüz; her cesedi loot'la, sonra derisini yüz ve becerinin izin verdiği en yüksek seviyeli hayvanları yüz. Seviyesi L olan bir hayvan seviye 20'ye kadar (L-10)x10, üstünde Lx5 beceri ister. Bölge seviyesi 10-20. Bu 50 puan için yaklaşık 100 hayvan bekle.",
+	-- {npc:2070} Moonstalker Runt · {npc:2163} Thistle Bear · {npc:2164} Rabid Thistle Bear · {npc:2165} Grizzled Thistle Bear · {npc:2237} Moonstalker Sire · {npc:3823} Ghostpaw Runner · {npc:2071} Moonstalker Matriarch · {skill:393} Skinning
+	["Kill and skin {npc:2070} (11), {npc:2163} (11), {npc:2164} (13), Moonstalker (14), {npc:2165} (16, needs 60), {npc:2237} (17, needs 70), {npc:3823} (19, needs 90), {npc:2071} (19, needs 90) along the loop until {skill:393} 100; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 10-20. Expect about 120 beasts for these 50 points."] = "Tur boyunca {npc:2070} (11), {npc:2163} (11), {npc:2164} (13), Moonstalker (14), {npc:2165} (16, 60 ister), {npc:2237} (17, 70 ister), {npc:3823} (19, 90 ister), {npc:2071} (19, 90 ister) yaratıklarını öldür ve {skill:393} 100 olana kadar derilerini yüz; her cesedi loot'la, sonra derisini yüz ve becerinin izin verdiği en yüksek seviyeli hayvanları yüz. Seviyesi L olan bir hayvan seviye 20'ye kadar (L-10)x10, üstünde Lx5 beceri ister. Bölge seviyesi 10-20. Bu 50 puan için yaklaşık 120 hayvan bekle.",
 	-- {npc:2164} Rabid Thistle Bear
 	["{npc:2164}, Moonstalker"] = "{npc:2164}, Moonstalker",
 	-- {npc:2165} Grizzled Thistle Bear

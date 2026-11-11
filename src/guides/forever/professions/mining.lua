@@ -23,11 +23,9 @@ return {
 	-- {zone:1426} Dun Morogh
 	["Copper & Poor Copper: {zone:1426} (1-50)"] = "Copper ve Poor Copper: {zone:1426} (1-50)",
 
-	-- Step 4: Copper: Darkshore (1-50)
-	-- {zone:1439} Darkshore
-	["Copper: {zone:1439} (1-50)"] = "Copper: {zone:1439} (1-50)",
-	-- {skill:186} Mining · {spell:2657} Smelt Copper
-	["Mine every Copper (1, orange) node you pass and circle the waypoints until {skill:186} 50. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 10-20. Expect about 60 nodes for these 49 points."] = "Geçtiğin her Copper (1, turuncu) damarını kaz ve {skill:186} 50 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:2657} (25'e kadar turuncu, 70'te gri) de puan verir. Bölge seviyesi 10-20. Bu 49 puan için yaklaşık 60 damar bekle.",
+	-- Step 4: Chunk of Amber & Large Chunk of Amber: Teldrassil (1-50)
+	-- {object:656332} Chunk of Amber · {object:656333} Large Chunk of Amber · {skill:186} Mining · {spell:2657} Smelt Copper
+	["Mine every {object:656332} (1, orange), {object:656333} (1, orange) node you pass and circle the waypoints until {skill:186} 50. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 1-10. Expect about 60 nodes for these 49 points."] = "Geçtiğin her {object:656332} (1, turuncu), {object:656333} (1, turuncu) damarını kaz ve {skill:186} 50 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:2657} (25'e kadar turuncu, 70'te gri) de puan verir. Bölge seviyesi 1-10. Bu 49 puan için yaklaşık 60 damar bekle.",
 
 	-- Step 5: Copper: Zephras Isle (1-50)
 	-- {zone:2521} Zephras Isle
@@ -43,7 +41,7 @@ return {
 	-- {zone:1412} Mulgore
 	["Copper: {zone:1412} (1-50)"] = "Copper: {zone:1412} (1-50)",
 	-- {skill:186} Mining · {spell:2657} Smelt Copper
-	["Mine every Copper (1, orange) node you pass and circle the waypoints until {skill:186} 50. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 1-10. Expect about 60 nodes for these 49 points."] = "Geçtiğin her Copper (1, turuncu) damarını kaz ve {skill:186} 50 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:2657} (25'e kadar turuncu, 70'te gri) de puan verir. Bölge seviyesi 1-10. Bu 49 puan için yaklaşık 60 damar bekle.",
+	["Mine every Copper (1, orange), Poor Copper (1, orange, rare) node you pass and circle the waypoints until {skill:186} 50. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 1-10. Expect about 60 nodes for these 49 points."] = "Geçtiğin her Copper (1, turuncu), Poor Copper (1, turuncu, nadir) damarını kaz ve {skill:186} 50 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:2657} (25'e kadar turuncu, 70'te gri) de puan verir. Bölge seviyesi 1-10. Bu 49 puan için yaklaşık 60 damar bekle.",
 
 	-- Step 8: Copper & Poor Copper: Tirisfal Glades (1-50)
 	-- {zone:1420} Tirisfal Glades
@@ -66,11 +64,11 @@ return {
 	-- {zone:1426} Dun Morogh
 	["Copper & Poor Copper: {zone:1426} (50-65) cont."] = "Copper ve Poor Copper: {zone:1426} (50-65) devam",
 
-	-- Step 12: Copper: Darkshore (50-65) cont.
-	-- {zone:1439} Darkshore
-	["Copper: {zone:1439} (50-65) cont."] = "Copper: {zone:1439} (50-65) devam",
-	-- {skill:186} Mining · {spell:2657} Smelt Copper
-	["Mine every Copper (1, yellow) node you pass and circle the waypoints until {skill:186} 65. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 10-20. Expect about 80 nodes for these 15 points."] = "Geçtiğin her Copper (1, sarı) damarını kaz ve {skill:186} 65 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:2657} (25'e kadar turuncu, 70'te gri) de puan verir. Bölge seviyesi 10-20. Bu 15 puan için yaklaşık 80 damar bekle.",
+	-- Step 12: Chunk of Amber & Large Chunk of Amber: Teldrassil (50-65) cont.
+	-- {object:656332} Chunk of Amber · {object:656333} Large Chunk of Amber · {zone:1438} Teldrassil
+	["{object:656332} & {object:656333}: {zone:1438} (50-65) cont."] = "{object:656332} ve {object:656333}: {zone:1438} (50-65) devam",
+	-- {object:656332} Chunk of Amber · {object:656333} Large Chunk of Amber · {skill:186} Mining · {spell:2657} Smelt Copper
+	["Mine every {object:656332} (1, yellow), {object:656333} (1, yellow) node you pass and circle the waypoints until {skill:186} 65. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 1-10. Expect about 80 nodes for these 15 points."] = "Geçtiğin her {object:656332} (1, sarı), {object:656333} (1, sarı) damarını kaz ve {skill:186} 65 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:2657} (25'e kadar turuncu, 70'te gri) de puan verir. Bölge seviyesi 1-10. Bu 15 puan için yaklaşık 80 damar bekle.",
 
 	-- Step 13: Copper: Zephras Isle (50-65) cont.
 	-- {zone:2521} Zephras Isle
@@ -86,7 +84,7 @@ return {
 	-- {zone:1412} Mulgore
 	["Copper: {zone:1412} (50-65) cont."] = "Copper: {zone:1412} (50-65) devam",
 	-- {skill:186} Mining · {spell:2657} Smelt Copper
-	["Mine every Copper (1, yellow) node you pass and circle the waypoints until {skill:186} 65. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 1-10. Expect about 80 nodes for these 15 points."] = "Geçtiğin her Copper (1, sarı) damarını kaz ve {skill:186} 65 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:2657} (25'e kadar turuncu, 70'te gri) de puan verir. Bölge seviyesi 1-10. Bu 15 puan için yaklaşık 80 damar bekle.",
+	["Mine every Copper (1, yellow), Poor Copper (1, yellow, rare) node you pass and circle the waypoints until {skill:186} 65. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 1-10. Expect about 80 nodes for these 15 points."] = "Geçtiğin her Copper (1, sarı), Poor Copper (1, sarı, nadir) damarını kaz ve {skill:186} 65 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:2657} (25'e kadar turuncu, 70'te gri) de puan verir. Bölge seviyesi 1-10. Bu 15 puan için yaklaşık 80 damar bekle.",
 
 	-- Step 16: Copper & Poor Copper: Tirisfal Glades (50-65) cont.
 	-- {zone:1420} Tirisfal Glades
@@ -109,7 +107,6 @@ return {
 	["Tin: {zone:1440} (65-125)"] = "Tin: {zone:1440} (65-125)",
 	-- {skill:186} Mining · {spell:2657} Smelt Copper · {spell:3304} Smelt Tin · {spell:2659} Smelt Bronze · {item:2840} Copper Bar · {item:3576} Tin Bar · {spell:2658} Smelt Silver
 	["Mine every Copper (1, green), Tin (65, orange), Silver (from 75, rare) node you pass and circle the waypoints until {skill:186} 125. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70), {spell:3304} (grey at 75), {spell:2659} (grey at 115) give points too. {spell:2659} takes a {item:2840} and a {item:3576} each: keep bars from the smelts before it. Zone level 18-30. Expect about 130 nodes for these 60 points. {spell:2658} (2s; orange to 100, grey at 125) is taught from 75: learn it if you pass a {skill:186} trainer, it is not worth a trip of its own."] = "Geçtiğin her Copper (1, yeşil), Tin (65, turuncu), Silver (75'ten, nadir) damarını kaz ve {skill:186} 125 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:2657} (25'e kadar turuncu, 70'te gri), {spell:3304} (75'te gri), {spell:2659} (115'te gri) de puan verir. {spell:2659} her seferinde bir {item:2840} ve bir {item:3576} ister: ondan önceki eritmelerden külçe sakla. Bölge seviyesi 18-30. Bu 60 puan için yaklaşık 130 damar bekle. {spell:2658} (2s; 100'e kadar turuncu, 125'te gri) 75'ten öğretilir: bir {skill:186} eğitmeninin yanından geçersen öğren, ayrı bir yolculuğa değmez.",
-	["Tin, Silver"] = "Tin, Silver",
 	["Tin"] = "Tin",
 
 	-- Step 20: Copper & Tin: The Barrens (65-125)
@@ -137,14 +134,13 @@ return {
 	-- {skill:186} Mining · {spell:3307} Smelt Iron
 	["Mine every Tin (65, green), Lesser Bloodstone (75, green), Silver (75, green, rare), Iron (125, orange) node you pass and circle the waypoints until {skill:186} 155. Smelt at a forge when your bags fill: {spell:3307} (orange to 130, grey at 140) gives points too. Zone level 30-40. Expect about 50 nodes for these 30 points."] = "Geçtiğin her Tin (65, yeşil), Lesser Bloodstone (75, yeşil), Silver (75, yeşil, nadir), Iron (125, turuncu) damarını kaz ve {skill:186} 155 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:3307} (130'a kadar turuncu, 140'ta gri) de puan verir. Bölge seviyesi 30-40. Bu 30 puan için yaklaşık 50 damar bekle.",
 	["Iron, Tin"] = "Iron, Tin",
-	["Lesser Bloodstone, Silver"] = "Lesser Bloodstone, Silver",
+	["Lesser Bloodstone"] = "Lesser Bloodstone",
 
 	-- Step 24: Iron: Arathi Highlands (155-175)
 	-- {zone:1417} Arathi Highlands
 	["Iron: {zone:1417} (155-175)"] = "Iron: {zone:1417} (155-175)",
 	-- {skill:186} Mining · {spell:3308} Smelt Gold
 	["Mine every Tin (65, green), Lesser Bloodstone (75, green), Silver (75, green, rare), Iron (125, yellow), Gold (155, orange, rare) node you pass and circle the waypoints until {skill:186} 175. Smelt at a forge when your bags fill: {spell:3308} (orange to 170, grey at 185) gives points too. Zone level 30-40. Expect about 40 nodes for these 20 points. {spell:3308} (25s; orange to 170, grey at 185) is taught from 155: learn it if you pass a {skill:186} trainer, it is not worth a trip of its own."] = "Geçtiğin her Tin (65, yeşil), Lesser Bloodstone (75, yeşil), Silver (75, yeşil, nadir), Iron (125, sarı), Gold (155, turuncu, nadir) damarını kaz ve {skill:186} 175 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:3308} (170'e kadar turuncu, 185'te gri) de puan verir. Bölge seviyesi 30-40. Bu 20 puan için yaklaşık 40 damar bekle. {spell:3308} (25s; 170'e kadar turuncu, 185'te gri) 155'ten öğretilir: bir {skill:186} eğitmeninin yanından geçersen öğren, ayrı bir yolculuğa değmez.",
-	["Lesser Bloodstone, Gold"] = "Lesser Bloodstone, Gold",
 
 	-- Step 25: Mithril: Badlands (175-200)
 	-- {zone:1418} Badlands

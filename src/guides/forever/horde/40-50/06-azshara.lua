@@ -26,7 +26,6 @@ return {
 	["Continue south to {area:35}. {npc:7406} has his workshop on the upper ring of the bay."] = "Güneye, {area:35} limanına devam et. {npc:7406} adlı NPC'nin atölyesi koyun üst halkasında.",
 	-- {npc:7406} Oglethorpe Obnoticus
 	["{npc:7406}, inside"] = "{npc:7406}, içeride",
-	["Only once all three robots are home"] = "Yalnızca üç robot da evine döndükten sonra",
 	-- {npc:2491} Whiskey Slim
 	["{npc:2491}, in the inn"] = "{npc:2491}, handa",
 	["\"Sea Wolf\" MacKinley, on the top floor"] = "\"Sea Wolf\" MacKinley, en üst katta",

@@ -48,8 +48,11 @@ return {
 	["Back east to Nesingwary's camp on the way north to the {area:99}."] = "{area:99} kampına giden kuzey yolunda Nesingwary'nin kampına, doğuya dön.",
 
 	-- Step 13: Rebel Camp
-	-- {npc:738} Private Thorsen · {area:99} Rebel Camp
-	["Take the road north; the camp sits in the hills to the west.\n{npc:738} spends most of his time at the top of the {area:99}'s path, by the huts, and now and then walks down it to the road and back (about eight minutes). If he isn't at the arrow, look along that path."] = "Kuzeye giden yolu tut; kamp batıdaki tepelerde.\n{npc:738} zamanının çoğunu {area:99} kampının patikasının tepesinde, kulübelerin yanında geçirir; ara sıra patikadan yola inip geri döner (yaklaşık sekiz dakika). Okta değilse o patika boyunca bak.",
+	-- {npc:738} Private Thorsen · {quest:215} Jungle Secrets · {quest:200} Bookie Herod
+	-- plural, as words: Kurzen's Agents = {npc:775} Kurzen's Agent
+	["Take the road north; the camp sits in the hills to the west.\n{npc:738} offers {quest:215} only while he is out of the camp: about every half hour he walks down the path to the road, where two Kurzen's Agents ambush him. Help him kill them and take the quest at once, before he walks back up. He isn't there? Leave it: the guide passes {quest:200}, which follows from it, as well."] = "Kuzeye giden yolu tut; kamp batıdaki tepelerde.\n{npc:738}, {quest:215} görevini yalnızca kampın dışındayken verir: yaklaşık yarım saatte bir patikadan yola iner, orada iki Kurzen's Agent onu pusuya düşürür. Onları öldürmesine yardım et ve o geri çıkmadan görevi hemen al. Orada değil mi? Bırak: rehber, bundan devam eden {quest:200} görevine de uğruyor.",
+	-- {npc:738} Private Thorsen
+	["{npc:738}, at the foot of the path"] = "{npc:738}, patikanın dibinde",
 	-- {npc:469} Lieutenant Doren
 	["{npc:469}, in the hut"] = "{npc:469}, kulübede",
 	-- {npc:469} Lieutenant Doren · {quest:200} Bookie Herod · {area:101} Kurzen's Compound

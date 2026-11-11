@@ -4,10 +4,8 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Step 1: Riggle Bassbait
-	-- {item:276275} Bitter Baitling · {item:274026} Extravagant Extravaganza Coin · {area:35} Booty Bay · {quest:8193} Master Angler · {npc:15077} Riggle Bassbait · {skill:356} Fishing
-	["The {item:276275} costs one {item:274026}, the prize for winning the Stranglethorn Fishing Extravaganza. The contest runs on Sundays from 2 to 4 pm server time: be on the {area:35} docks when it starts and take {quest:8193} from {npc:15077}. Bring your best {skill:356} skill and lures so no fish gets away, a mount and empty bags, and bind your hearthstone in {area:35}."] = "{item:276275}, Stranglethorn Fishing Extravaganza'yı kazanmanın ödülü olan bir {item:274026} tutar. Yarışma pazar günleri sunucu saatiyle 14.00 ile 16.00 arasında yapılır: başladığında {area:35} iskelelerinde ol ve {npc:15077} yanından {quest:8193} görevini al. Hiçbir balık kaçmasın diye en iyi {skill:356} becerini ve yemlerini, bir binek ve boş çantalar getir, hearthstone'unu da {area:35} limanına bağla.",
-	-- {npc:15077} Riggle Bassbait
-	["{npc:15077}, during the contest"] = "{npc:15077}, yarışma sırasında",
+	-- {item:276275} Bitter Baitling · {item:274026} Extravagant Extravaganza Coin · {area:35} Booty Bay · {npc:15077} Riggle Bassbait · {quest:8193} Master Angler · {skill:356} Fishing
+	["The {item:276275} costs one {item:274026}, the prize for winning the Stranglethorn Fishing Extravaganza. The contest runs on Sundays from 2 to 4 pm server time: be on the {area:35} docks by {npc:15077} when it starts. {quest:8193} is not a quest you take: {npc:15077} takes the fish straight from his window when you bring them. Bring your best {skill:356} skill and lures so no fish gets away, a mount and empty bags, and bind your hearthstone in {area:35}."] = "{item:276275}, Stranglethorn Fishing Extravaganza'yı kazanmanın ödülü olan bir {item:274026} tutar. Yarışma pazar günleri sunucu saatiyle 14.00 ile 16.00 arasında yapılır: başladığında {area:35} iskelelerinde, {npc:15077} yanında ol. {quest:8193} alacağın bir görev değil: balıkları getirince {npc:15077} onları doğrudan penceresinden alır. Hiçbir balık kaçmasın diye en iyi {skill:356} becerini ve yemlerini, bir binek ve boş çantalar getir, hearthstone'unu da {area:35} limanına bağla.",
 
 	-- Step 2: Schools of Tastyfish
 	["Schools of Tastyfish"] = "Tastyfish sürüleri",

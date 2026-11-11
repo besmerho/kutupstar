@@ -3,6 +3,10 @@
 -- oyun orada adı İngilizce gösterir (yukarıdaki yorum satırında yazıyor). Belirtecin hemen ardına ek getirme;
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
+	-- Guide
+	-- {quest:205} Troll Witchery
+	["For characters of 35 to 36, but several quests here are level 37-41: on purpose, for their experience. {quest:205}'s Skullsplitter trolls are 39-42, so pull them one at a time."] = "35-36 seviyesindeki karakterler için, ama buradaki birkaç görev seviye 37-41: deneyimleri için bilerek. {quest:205} görevinin Skullsplitter troll'ları 39-42, bu yüzden onları tek tek çek.",
+
 	-- Step 1: Collin Mauren
 	-- {object:2164} Slaughtered Lamb
 	["In the {object:2164}, if you still carry it"] = "Hâlâ taşıyorsan {object:2164} içinde",
@@ -98,8 +102,9 @@ return {
 	["For Archmage Ansirem in {zone:1416}"] = "{zone:1416} bölgesindeki Archmage Ansirem için",
 	-- {npc:773} Krazek
 	["{npc:773}, upstairs"] = "{npc:773}, üst katta",
-	-- {npc:773} Krazek · {zone:1417} Arathi Highlands
-	["{npc:773}: the ore drops from Drywhisker kobolds in {zone:1417}, next"] = "{npc:773}: cevher, sıradaki {zone:1417} bölgesindeki Drywhisker kobold'larından düşer",
+	-- {npc:773} Krazek · {item:4278} Lesser Bloodstone Ore · {zone:1417} Arathi Highlands · {skill:186} Mining
+	-- plural, as words: Lesser Bloodstone Deposits = {object:2653} Lesser Bloodstone Deposit
+	["{npc:773}, upstairs: this optional quest needs four {item:4278}. Mine Lesser Bloodstone Deposits in {zone:1417} with {skill:186} 75, or buy the ore at the Auction House or ask a miner friend. The kobolds do not drop it; skip this quest if you cannot get the ore."] = "{npc:773}, üst katta: bu isteğe bağlı görev dört {item:4278} istiyor. {zone:1417} bölgesinde {skill:186} 75 ile Lesser Bloodstone Deposit kaz, ya da cevheri müzayede evinden al veya madenci bir arkadaşından iste. Kobold'lar onu düşürmez; cevheri bulamıyorsan bu görevi atla.",
 	-- {npc:2498} Crank Fizzlebub
 	["{npc:2498}, inside"] = "{npc:2498}, içeride",
 	["\"Sea Wolf\" MacKinley, on the top floor"] = "\"Sea Wolf\" MacKinley, en üst katta",

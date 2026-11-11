@@ -15,7 +15,7 @@ return {
 	-- {area:188} Shadowglen
 	["{area:188}: kill these as you meet them"] = "{area:188}: bunları karşılaştıkça öldür",
 	-- {area:256} Aldrassil · {item:3297} Fel Moss
-	-- plural, as words: Young Nightsabers = {npc:2031} Young Nightsaber · Young Thistle Boars = {npc:1984} Young Thistle Boar · Gnarlpine Totems = {item:279082} Gnarlpine Totem
+	-- plural, as words: Young Nightsabers = {npc:2031} Young Nightsaber · Young Thistle Boars = {npc:1984} Young Thistle Boar · Grells = {npc:1988} Grell · Gnarlpine Totems = {item:279082} Gnarlpine Totem
 	["Young Nightsabers and Young Thistle Boars roam around {area:256}. Grells carry {item:3297} in the woods west of the tree, where the Gnarlpine Totems stand."] = "Young Nightsaber ve Young Thistle Boar yaratıkları {area:256} ağacının çevresinde dolaşıyor. Ağacın batısındaki ormanda, Gnarlpine totemlerinin durduğu yerde Grell yaratıkları {item:3297} taşıyor.",
 
 	-- Step 3: Back at Aldrassil
@@ -59,8 +59,9 @@ return {
 	-- {quest:917} Webwood Egg
 	["{quest:917} and the antidote"] = "{quest:917} ve panzehir",
 	-- {object:4406} Webwood Eggs · {area:257} Shadowthread Cave · {area:256} Aldrassil
-	-- plural, as words: Hyacinth Mushrooms = {item:10639} Hyacinth Mushroom
+	-- plural, as words: Hyacinth Mushrooms = {item:10639} Hyacinth Mushroom · Grells = {npc:1988} Grell
 	["The {object:4406} lie at the back of {area:257}: take the central path, then left where it splits, up to the high ledge. Hyacinth Mushrooms drop from Grells, Moonpetal Lilies grow by the ponds north of {area:256}."] = "{object:4406}, {area:257} mağarasının dibinde: ortadaki yolu tut, ayrıldığı yerde sola dön ve yüksek çıkıntıya çık. Hyacinth Mushroom, Grell yaratıklarından düşer; Moonpetal Lily ise {area:256} ağacının kuzeyindeki göletlerin kenarında yetişir.",
+	-- plural, as words: Grells = {npc:1988} Grell
 	["Grells"] = "Grell'ler",
 
 	-- Step 8: Shadowglen
@@ -379,8 +380,6 @@ return {
 	-- {npc:2080} Denalan
 	-- plural, as words: Lasher Sproutlings = {npc:275703} Lasher Sproutling
 	["South-east of Dolanaar, to {npc:2080}. Lasher Sproutlings wander around him on the shore."] = "Dolanaar köyünün güneydoğusuna, {npc:2080} yanına. Lasher Sproutling yaratıkları kıyıda onun çevresinde dolaşıyor.",
-	-- {object:7510} Sprouted Frond
-	["{object:7510}, beside him"] = "{object:7510}, onun yanında",
 
 	-- Step 63: Dolanaar again
 	-- {area:186} Dolanaar

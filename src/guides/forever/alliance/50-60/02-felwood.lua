@@ -40,7 +40,6 @@ return {
 	-- Step 7: Grazle
 	-- {npc:15395} Nafien · {zone:1448} Felwood
 	["{npc:15395} waits at the north end of {zone:1448}"] = "{npc:15395}, {zone:1448} bölgesinin kuzey ucunda bekliyor",
-	["Five feathers buy a little Timbermaw reputation"] = "Beş tüy biraz Timbermaw itibarı kazandırır",
 
 	-- Step 8: Level 52.69
 	["Level 52.69"] = "Seviye 52.69",

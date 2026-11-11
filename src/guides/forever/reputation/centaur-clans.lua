@@ -7,33 +7,48 @@ return {
 	["Gelkis and Magram Centaur Reputation"] = "Gelkis ve Magram Centaur itibarı",
 	-- {zone:1443} Desolace
 	["{zone:1443}'s feuding clans, reworked in Forever: pick one, buy its friendship, and trade totems for recipes."] = "{zone:1443} bölgesinin birbirine düşman klanları, Forever'da yeniden yapıldı: birini seç, dostluğunu satın al ve tarifler için totem takas et.",
-	-- plural, as words: Carved Centaur Totems = {item:254432} Carved Centaur Totem
-	["12 recipes for Carved Centaur Totems at the clan quartermasters, no standing needed"] = "Klan levazımcılarında Carved Centaur Totem karşılığında 12 tarif, itibar gerekmez",
+	-- {quest:93224} Carved Centaur Totems
+	["12 recipes for {quest:93224} at the clan quartermasters, no standing needed"] = "Klan levazımcılarında {quest:93224} karşılığında 12 tarif, itibar gerekmez",
 	-- {npc:5601} Khan Jehn
 	["{npc:5601}'s quest: a clan title and a choice of three rare level 35 weapons"] = "{npc:5601} görevi: bir klan unvanı ve üç nadir seviye 35 silah arasında bir seçim",
 
 	-- Step 1: Pick your clan
 	["Pick your clan"] = "Klanını seç",
-	-- {zone:1443} Desolace · {npc:5396} Captain Pentigast · {area:608} Nijel's Point · {quest:1382} Strange Alliance · {quest:1385} Brutal Politics · {npc:5412} Gurda Wildmane · {quest:1368} Gelkis Alliance · {quest:1367} Magram Alliance
-	["The Gelkis (south-west {zone:1443}) and the Magram (south-east) are at war: every kill of one clan gives the other 20 and costs its own clan 100, so you can only climb with one. Both start Neutral. Forever's quests are worth far more than kills now, and the choice quests no longer cost the other clan anything. Alliance: {npc:5396} at {area:608} offers {quest:1382} (Gelkis) and {quest:1385} (Magram). Horde: {npc:5412}, east of Shadowprey, offers {quest:1368} and {quest:1367}. Take the one of your clan and its Buying Friendship (3,000 for carrying a tote of totems), then tick the task. The guide goes on with the Gelkis; take the Magram's quests instead and it jumps to the Magram half. Forever pays these quests in full at any level."] = "Gelkis ({zone:1443} bölgesinin güneybatısı) ve Magram (güneydoğu) savaşta: bir klandan her öldürme diğerine 20 verir ve kendi klanından 100 düşürür, bu yüzden yalnızca biriyle yükselebilirsin. İkisi de Neutral başlar. Forever'ın görevleri artık öldürmelerden çok daha değerli ve seçim görevleri artık diğer klana hiçbir şey kaybettirmiyor. Alliance: {area:608} kampındaki {npc:5396}, {quest:1382} (Gelkis) ve {quest:1385} (Magram) görevlerini verir. Horde: Shadowprey'in doğusundaki {npc:5412}, {quest:1368} ve {quest:1367} görevlerini verir. Klanınınkini ve onun Buying Friendship görevini (bir totem çantası taşımak için 3.000) al, sonra görevi işaretle. Rehber Gelkis ile devam eder; onun yerine Magram'ın görevlerini alırsan Magram yarısına atlar. Forever bu görevleri her seviyede tam öder.",
+	-- {zone:1443} Desolace · {npc:5396} Captain Pentigast · {area:608} Nijel's Point · {quest:1382} Strange Alliance · {quest:1385} Brutal Politics · {npc:5412} Gurda Wildmane · {quest:1368} Gelkis Alliance · {quest:1367} Magram Alliance · {quest:93224} Carved Centaur Totems
+	["The Gelkis (south-west {zone:1443}) and the Magram (south-east) are at war: every kill of one clan gives the other 20 and costs its own clan 100, so you can only climb with one. Both start Neutral. Forever's quests are worth far more than kills now, and the choice quests no longer cost the other clan anything. Alliance: {npc:5396} at {area:608} offers {quest:1382} (Gelkis) and {quest:1385} (Magram). Horde: {npc:5412} offers {quest:1368} and {quest:1367}. Take the one of your clan, and {quest:93224}: each clan's Buying Friendship (3,000) is offered once you bring the totems back. Then tick the task. The guide goes on with the Gelkis; take the Magram's quests instead and it goes to the Magram half. Forever pays these quests in full at any level."] = "Gelkis ({zone:1443} bölgesinin güneybatısı) ve Magram (güneydoğu) savaşta: bir klandan her öldürme diğerine 20 verir ve kendi klanından 100 düşürür, bu yüzden yalnızca biriyle yükselebilirsin. İkisi de Neutral başlar. Forever'ın görevleri artık öldürmelerden çok daha değerli ve seçim görevleri artık diğer klana hiçbir şey kaybettirmiyor. Alliance: {area:608} kampındaki {npc:5396}, {quest:1382} (Gelkis) ve {quest:1385} (Magram) görevlerini verir. Horde: {npc:5412}, {quest:1368} ve {quest:1367} görevlerini verir. Klanınınkini ve {quest:93224} görevini al: totemleri geri getirdiğinde her klanın Buying Friendship görevi (3.000) önerilir. Sonra görevi işaretle. Rehber Gelkis ile devam eder; onun yerine Magram'ın görevlerini alırsan Magram yarısına geçer. Forever bu görevleri her seviyede tam öder.",
 	-- {quest:1382} Strange Alliance
 	["{quest:1382}: Gelkis"] = "{quest:1382}: Gelkis",
 	["Take the quests of one clan"] = "Bir klanın görevlerini al",
 
-	-- Step 2: Gelkis Village: Uthek the Wise and Molkar
+	-- Step 2: Carved Centaur Totems
+	-- {area:608} Nijel's Point
+	["The Kolkar centaurs (level 30-33) in the camps along the eastern road, south of {area:608}, drop the totems, and so do the Magram and the Maraudine. Bring five back, then take your clan's Buying Friendship (Gelkis below; the Magram's instead for the Magram)."] = "Doğu yolu boyunca, {area:608} kampının güneyindeki kamplarda bulunan Kolkar centaur'ları (seviye 30-33) totemleri düşürür; Magram ve Maraudine'ler de düşürür. Beş tane geri getir, sonra klanının Buying Friendship görevini al (Gelkis aşağıda; Magram için onun yerine Magram'ınkini).",
+	-- {item:254432} Carved Centaur Totem
+	["{item:254432}: Kolkar centaurs"] = "{item:254432}: Kolkar centaur'ları",
+
+	-- Step 3: Gelkis or Magram
+	["Gelkis or Magram"] = "Gelkis ya da Magram",
+	["No clan's quests in your log: the guide goes on with the Gelkis. For the Magram, take their choice quest and Buying Friendship and the guide goes to the Magram half."] = "Günlüğünde hiçbir klanın görevi yok: rehber Gelkis ile devam eder. Magram için onların seçim görevini ve Buying Friendship görevini al, rehber Magram yarısına geçer.",
+
+	-- Step 4: Gelkis: the choice quest
+	["Gelkis: the choice quest"] = "Gelkis: seçim görevi",
+	-- {npc:5397} Uthek the Wise · {area:606} Gelkis Village
+	["The Gelkis half starts with the clan's choice quest from the giver you just handed the totems to: {npc:5397}'s quests in {area:606} follow from it, and Buying Friendship alone does not open them."] = "Gelkis yarısı, totemleri az önce teslim ettiğin görev verenden alınan klanın seçim göreviyle başlar: {area:606} köyündeki {npc:5397} adlı NPC'nin görevleri ondan devam eder, Buying Friendship tek başına onları açmaz.",
+
+	-- Step 5: Gelkis Village: Uthek the Wise and Molkar
 	-- {area:606} Gelkis Village · {npc:5397} Uthek the Wise · {npc:253140} Molkar
 	["{area:606}: {npc:5397} and {npc:253140}"] = "{area:606}: {npc:5397} ve {npc:253140}",
 	-- {area:606} Gelkis Village · {zone:1443} Desolace · {npc:5397} Uthek the Wise · {npc:253140} Molkar
 	["{area:606} sits in the hills of south-west {zone:1443}; {npc:5397} stands at its heart. {npc:253140}, the Gelkis quartermaster, is at the south end of the village. Buying Friendship alone takes you from Neutral to Friendly."] = "{area:606}, {zone:1443} bölgesinin güneybatısındaki tepelerde; {npc:5397} köyün ortasında duruyor. Gelkis levazımcısı {npc:253140}, köyün güney ucunda. Buying Friendship tek başına seni Neutral'dan Friendly'ye taşır.",
 
-	-- Step 3: Gelkis: the Kolkar camps
+	-- Step 6: Gelkis: the Kolkar camps
 	["Gelkis: the Kolkar camps"] = "Gelkis: Kolkar kampları",
 	-- {area:608} Nijel's Point · {item:6079} Crude Charm
 	["The Kolkar centaurs (level 30-33) hold the camps south of {area:608}, along the eastern road. About one in four drops a {item:6079}."] = "Kolkar centaur'ları (seviye 30-33), {area:608} güneyinde, doğu yolu boyunca kampları tutuyor. Yaklaşık dörtte biri bir {item:6079} düşürür.",
 	-- {item:6079} Crude Charm
 	["{item:6079}: Kolkar centaurs"] = "{item:6079}: Kolkar centaur'ları",
 
-	-- Step 4: Gelkis: Magram Village
+	-- Step 7: Gelkis: Magram Village
 	-- {area:604} Magram Village
 	["Gelkis: {area:604}"] = "Gelkis: {area:604}",
 	-- {area:604} Magram Village
@@ -45,49 +60,53 @@ return {
 	-- {npc:4641} Magram Windchaser
 	["{npc:4641}: 20 Gelkis"] = "{npc:4641}: 20 Gelkis",
 
-	-- Step 5: Gelkis: Ongeku
+	-- Step 8: Gelkis: Ongeku
 	-- {quest:1373} Ongeku
 	["Gelkis: {quest:1373}"] = "Gelkis: {quest:1373}",
 	-- {npc:5397} Uthek the Wise · {zone:1435} Swamp of Sorrows · {quest:1373} Ongeku · {area:76} Fallow Sanctuary · {area:75} Stonard
 	["Back to {npc:5397}, then east to the {zone:1435}: {quest:1373} (level 37) waits by a black cauldron in {area:76}, north-east of {area:75}."] = "{npc:5397} yanına dön, sonra doğuya, {zone:1435} bölgesine: {quest:1373} (seviye 37), {area:75} kuzeydoğusundaki {area:76} içinde kara bir kazanın yanında bekliyor.",
 
-	-- Step 6: Gelkis: totems and kills to Honored
+	-- Step 9: Gelkis: totems and kills to Honored
 	["Gelkis: totems and kills to Honored"] = "Gelkis: Honored'a kadar totemler ve öldürmeler",
-	-- {npc:253140} Molkar · {quest:92812} Economic Warfare · {zone:1443} Desolace · {item:10008} White Bandit Mask · {item:5739} Barbaric Harness
-	-- plural, as words: Carved Centaur Totems = {item:254432} Carved Centaur Totem · Greater Mystic Essences = {item:11135} Greater Mystic Essence
-	["Friendly to Honored is 6,000; after the clan's quests you are about 4,000 into it, so 2,000 to go. {npc:253140}'s {quest:92812} takes 5 Carved Centaur Totems for 750, again and again: three turn-ins, 15 totems. The Maraudine centaurs (level 36-40) of western {zone:1443} drop them; the totems do not bind, so the auction house is the other source. Magram kills add 20 each, but Forever's kill data stops them at the end of Friendly, 1 short of Honored. At Friendly the village also has three craft orders for 1,000 each: Halea wants 3 Greater Mystic Essences, {npc:253140} a {item:10008} (tailoring) and Talra a {item:5739} (leatherworking). Legacy Diplomat adds up to 10%."] = "Friendly'den Honored'a 6.000; klanın görevlerinden sonra yaklaşık 4.000'indesin, yani 2.000 kaldı. {npc:253140} yanındaki {quest:92812}, 750 karşılığında 5 Carved Centaur Totem alır, tekrar tekrar: üç teslim, 15 totem. {zone:1443} bölgesinin batısındaki Maraudine centaur'ları (seviye 36-40) onları düşürür; totemler bağlanmaz, bu yüzden diğer kaynak müzayede evi. Magram öldürmeleri her biri 20 ekler, ama Forever'ın öldürme verisi onları Friendly'nin sonunda, Honored'a 1 kala durdurur. Friendly'de köyde ayrıca her biri 1.000 değerinde üç zanaat siparişi var: Halea 3 Greater Mystic Essence, {npc:253140} bir {item:10008} (tailoring), Talra da bir {item:5739} (leatherworking) istiyor. Legacy Diplomat %10'a kadar ekler.",
+	-- {npc:253140} Molkar · {quest:92812} Economic Warfare · {quest:93224} Carved Centaur Totems · {zone:1443} Desolace · {item:10008} White Bandit Mask · {item:5739} Barbaric Harness
+	-- plural, as words: Greater Mystic Essences = {item:11135} Greater Mystic Essence
+	["Friendly to Honored is 6,000; after the clan's quests you are about 4,000 into it, so 2,000 to go. {npc:253140}'s {quest:92812} takes 5 {quest:93224} for 750, again and again: three turn-ins, 15 totems. The Maraudine centaurs (level 36-40) of western {zone:1443} drop them; the totems do not bind, so the auction house is the other source. Magram kills add 20 each, but Forever's kill data stops them at the end of Friendly, 1 short of Honored. At Friendly the village also has three craft orders for 1,000 each: Halea wants 3 Greater Mystic Essences, {npc:253140} a {item:10008} (tailoring) and Talra a {item:5739} (leatherworking). Legacy Diplomat adds up to 10%."] = "Friendly'den Honored'a 6.000; klanın görevlerinden sonra yaklaşık 4.000'indesin, yani 2.000 kaldı. {npc:253140} yanındaki {quest:92812}, 750 karşılığında 5 {quest:93224} alır, tekrar tekrar: üç teslim, 15 totem. {zone:1443} bölgesinin batısındaki Maraudine centaur'ları (seviye 36-40) onları düşürür; totemler bağlanmaz, bu yüzden diğer kaynak müzayede evi. Magram öldürmeleri her biri 20 ekler, ama Forever'ın öldürme verisi onları Friendly'nin sonunda, Honored'a 1 kala durdurur. Friendly'de köyde ayrıca her biri 1.000 değerinde üç zanaat siparişi var: Halea 3 Greater Mystic Essence, {npc:253140} bir {item:10008} (tailoring), Talra da bir {item:5739} (leatherworking) istiyor. Legacy Diplomat %10'a kadar ekler.",
 	-- {item:254432} Carved Centaur Totem
 	["{item:254432}: Maraudine centaurs"] = "{item:254432}: Maraudine centaur'ları",
 
-	-- Step 7: Gelkis: the Valley of Bones
+	-- Step 10: Gelkis: the Valley of Bones
 	-- {quest:93034} Valley of Bones
 	["Gelkis: the {quest:93034}"] = "Gelkis: {quest:93034}",
 	-- {npc:5397} Uthek the Wise · {npc:253177} Nerlokh · {quest:93034} Valley of Bones · {zone:2652} Shen'dralas · {quest:93035} Ravaging Ravagers · {quest:93037} Outing Outcasts · {quest:93041} Facing the Truth · {npc:5601} Khan Jehn · {quest:92811} Economic Warfare
 	["At Honored, {npc:5397} sends you east to {npc:253177} at the southern entrance of the {quest:93034}, in {zone:2652}. {npc:253177}'s quests (500 each) take you among the undead and the outcasts there: {quest:93035}, {quest:93037} and {quest:93041}, then A Cleansing Cry from {npc:5397}, and a second line (Saving Our Own, Bone Burying, Checking Things Out) that ends with {npc:5601}: kill the Magram khan in his own village for 6,000, a title and a rare level 35 weapon. They all ask you to stay Honored or better. Honored to Revered is 12,000: the valley's quests pay about 10,600 of it, two or three {quest:92811} turn-ins the rest."] = "Honored'da {npc:5397} seni doğuya, {zone:2652} bölgesinde {quest:93034} vadisinin güney girişindeki {npc:253177} yanına gönderir. {npc:253177} sana her biri 500 değerinde görevler verir ve seni oradaki ölümsüzlerin ve dışlanmışların arasına götürür: {quest:93035}, {quest:93037} ve {quest:93041}, sonra {npc:5397} yanından A Cleansing Cry ve {npc:5601} ile biten ikinci bir dizi (Saving Our Own, Bone Burying, Checking Things Out): Magram hanını kendi köyünde 6.000, bir unvan ve nadir bir seviye 35 silah için öldür. Hepsi Honored ya da daha iyi kalmanı ister. Honored'dan Revered'a 12.000: vadinin görevleri bunun yaklaşık 10.600'ünü, iki üç {quest:92811} teslimi de geri kalanını öder.",
 
-	-- Step 8: Gelkis: Khan Jehn
+	-- Step 11: Gelkis: Khan Jehn
 	-- {npc:5601} Khan Jehn
 	["Gelkis: {npc:5601}"] = "Gelkis: {npc:5601}",
 	-- {npc:5601} Khan Jehn · {area:604} Magram Village · {npc:5397} Uthek the Wise · {item:271801} Abandoned Ferocity · {item:271802} Bludgeon of Betrayed Virtues · {item:271805} Thrice-Damned Effigy
 	["{npc:5601} (level 37) leads the Magram from the west side of {area:604}, with his bodyguards. The kill costs the Magram 500. {npc:5397} pays 6,000, a title, and your pick of three rare level 35 weapons: {item:271801} (two-handed axe: Strength, Stamina, Agility), {item:271802} (one-handed mace: Strength, Stamina, Agility) or {item:271805} (off-hand: Spirit, Intellect, Stamina)."] = "{npc:5601} (seviye 37), Magram'ı {area:604} köyünün batı yakasından korumalarıyla birlikte yönetiyor. Öldürmek Magram'a 500'e mal olur. {npc:5397} 6.000, bir unvan ve üç nadir seviye 35 silahtan istediğini öder: {item:271801} (iki elli balta: Strength, Stamina, Agility), {item:271802} (tek elli topuz: Strength, Stamina, Agility) ya da {item:271805} (yan el: Spirit, Intellect, Stamina).",
 
-	-- Step 9: Gelkis: totems to Exalted
+	-- Step 12: Gelkis: totems to Exalted
 	["Gelkis: totems to Exalted"] = "Gelkis: Exalted'a kadar totemler",
 	-- {quest:92812} Economic Warfare
 	["From Revered on only {quest:92812} is left: Revered to Exalted is 21,000, 28 turn-ins, 140 totems. Nothing is sold for standing; the recipes below need only totems."] = "Revered'dan itibaren yalnızca {quest:92812} kalır: Revered'dan Exalted'a 21.000, 28 teslim, 140 totem. İtibar karşılığı hiçbir şey satılmıyor; aşağıdaki tarifler yalnızca totem ister.",
 
-	-- Step 10: Magram Village: Warug and Gorhak
+	-- Step 13: Gelkis done
+	["Gelkis done"] = "Gelkis tamam",
+	["No Gelkis quests done: on to the Magram, south-east."] = "Hiç Gelkis görevi yapılmadı: güneydoğuya, Magram'a geç.",
+
+	-- Step 14: Magram Village: Warug and Gorhak
 	-- {area:604} Magram Village · {npc:5398} Warug · {npc:253139} Gorhak
 	["{area:604}: {npc:5398} and {npc:253139}"] = "{area:604}: {npc:5398} ve {npc:253139}",
 	-- {area:604} Magram Village · {zone:1443} Desolace · {npc:5398} Warug · {npc:253139} Gorhak
 	["{area:604} fills the valley of south-east {zone:1443}; {npc:5398} stands on its north side, {npc:253139}, the Magram quartermaster, near the lake. Buying Friendship alone takes you from Neutral to Friendly."] = "{area:604}, {zone:1443} bölgesinin güneydoğusundaki vadiyi dolduruyor; {npc:5398} kuzey yakasında, Magram levazımcısı {npc:253139} de gölün yanında duruyor. Buying Friendship tek başına seni Neutral'dan Friendly'ye taşır.",
 
-	-- Step 11: Magram: the Kolkar camps
+	-- Step 15: Magram: the Kolkar camps
 	["Magram: the Kolkar camps"] = "Magram: Kolkar kampları",
 	-- {area:608} Nijel's Point
 	["The Kolkar centaurs (level 30-33) hold the camps south of {area:608}."] = "Kolkar centaur'ları (seviye 30-33), {area:608} güneyindeki kampları tutuyor.",
 
-	-- Step 12: Magram: Broken Tears
+	-- Step 16: Magram: Broken Tears
 	-- {quest:1369} Broken Tears
 	["Magram: {quest:1369}"] = "Magram: {quest:1369}",
 	-- {area:606} Gelkis Village
@@ -99,7 +118,7 @@ return {
 	-- {npc:4649} Gelkis Windchaser
 	["{npc:4649}: 20 Magram"] = "{npc:4649}: 20 Magram",
 
-	-- Step 13: Magram: Gizmo for Warug
+	-- Step 17: Magram: Gizmo for Warug
 	-- {quest:1371} Gizmo for Warug
 	["Magram: {quest:1371}"] = "Magram: {quest:1371}",
 	-- {npc:5398} Warug · {item:4392} Advanced Target Dummy · {item:4234} Heavy Leather · {item:4389} Gyrochronatom · {item:4382} Bronze Framework · {item:4387} Iron Strut · {item:269900} Centaur Banner Deployment Device · {item:269902} Hoof-Shaped Foot Pedal
@@ -107,32 +126,31 @@ return {
 	-- {item:4392} Advanced Target Dummy
 	["{item:4392}: made by engineers, or bought"] = "{item:4392}: mühendisler yapar ya da satın alınır",
 
-	-- Step 14: Magram: totems and kills to Honored
+	-- Step 18: Magram: totems and kills to Honored
 	["Magram: totems and kills to Honored"] = "Magram: Honored'a kadar totemler ve öldürmeler",
-	-- {quest:1371} Gizmo for Warug · {npc:253139} Gorhak · {quest:92811} Economic Warfare · {zone:1443} Desolace · {npc:5398} Warug · {quest:92743} A Conqueror's Crown · {item:254392} Conqueror's Helm · {zone:1418} Badlands · {quest:92841} Valley of Bones
-	-- plural, as words: Carved Centaur Totems = {item:254432} Carved Centaur Totem · Greater Shadow Protection Potions = {item:13459} Greater Shadow Protection Potion · Massive Iron Axes = {item:3855} Massive Iron Axe
-	["Friendly to Honored is 6,000; after the clan's quests you are about 3,000 into it (4,000 with {quest:1371}), so 2,000 to 3,000 to go. {npc:253139}'s {quest:92811} takes 5 Carved Centaur Totems for 750, again and again; the Maraudine centaurs (level 36-40) of western {zone:1443} drop them, and the totems do not bind, so the auction house is the other source. Gelkis kills add 20 each, but Forever's kill data stops them at the end of Friendly, 1 short of Honored. At Friendly the village has two craft orders for 1,000 each: Mirda's 3 Greater Shadow Protection Potions and Grolkar's 2 Massive Iron Axes (blacksmithing). {npc:5398}'s {quest:92743} (1,000) is no craft order: he wants a {item:254392} from a crypt in the {zone:1418}, and Forever's quest pages put it in his chain before the {quest:92841}, so bring it before you reach Honored. Legacy Diplomat adds up to 10%."] = "Friendly'den Honored'a 6.000; klanın görevlerinden sonra yaklaşık 3.000'indesin ({quest:1371} ile 4.000), yani 2.000 ila 3.000 kaldı. {npc:253139} yanındaki {quest:92811}, 750 karşılığında 5 Carved Centaur Totem alır, tekrar tekrar; {zone:1443} bölgesinin batısındaki Maraudine centaur'ları (seviye 36-40) onları düşürür, totemler bağlanmaz, bu yüzden diğer kaynak müzayede evi. Gelkis öldürmeleri her biri 20 ekler, ama Forever'ın öldürme verisi onları Friendly'nin sonunda, Honored'a 1 kala durdurur. Friendly'de köyde her biri 1.000 değerinde iki zanaat siparişi var: Mirda'nın 3 Greater Shadow Protection Potion'ı ve Grolkar'ın 2 Massive Iron Axe'i (blacksmithing). {npc:5398} sana {quest:92743} görevini de verir (1.000), bu bir zanaat siparişi değil: {zone:1418} bölgesindeki bir mezar odasından bir {item:254392} istiyor ve Forever'ın görev sayfaları onu zincirinde {quest:92841} öncesine koyuyor, bu yüzden Honored'a ulaşmadan getir. Legacy Diplomat %10'a kadar ekler.",
+	-- {quest:1371} Gizmo for Warug · {npc:253139} Gorhak · {quest:92811} Economic Warfare · {quest:93224} Carved Centaur Totems · {zone:1443} Desolace · {npc:5398} Warug · {quest:92743} A Conqueror's Crown · {item:254392} Conqueror's Helm · {zone:1418} Badlands · {quest:92841} Valley of Bones
+	-- plural, as words: Greater Shadow Protection Potions = {item:13459} Greater Shadow Protection Potion · Massive Iron Axes = {item:3855} Massive Iron Axe
+	["Friendly to Honored is 6,000; after the clan's quests you are about 3,000 into it (4,000 with {quest:1371}), so 2,000 to 3,000 to go. {npc:253139}'s {quest:92811} takes 5 {quest:93224} for 750, again and again; the Maraudine centaurs (level 36-40) of western {zone:1443} drop them, and the totems do not bind, so the auction house is the other source. Gelkis kills add 20 each, but Forever's kill data stops them at the end of Friendly, 1 short of Honored. At Friendly the village has two craft orders for 1,000 each: Mirda's 3 Greater Shadow Protection Potions and Grolkar's 2 Massive Iron Axes (blacksmithing). {npc:5398}'s {quest:92743} (1,000) is no craft order: he wants a {item:254392} from a crypt in the {zone:1418}, and Forever's quest pages put it in his chain before the {quest:92841}, so bring it before you reach Honored. Legacy Diplomat adds up to 10%."] = "Friendly'den Honored'a 6.000; klanın görevlerinden sonra yaklaşık 3.000'indesin ({quest:1371} ile 4.000), yani 2.000 ila 3.000 kaldı. {npc:253139} yanındaki {quest:92811}, 750 karşılığında 5 {quest:93224} alır, tekrar tekrar; {zone:1443} bölgesinin batısındaki Maraudine centaur'ları (seviye 36-40) onları düşürür, totemler bağlanmaz, bu yüzden diğer kaynak müzayede evi. Gelkis öldürmeleri her biri 20 ekler, ama Forever'ın öldürme verisi onları Friendly'nin sonunda, Honored'a 1 kala durdurur. Friendly'de köyde her biri 1.000 değerinde iki zanaat siparişi var: Mirda'nın 3 Greater Shadow Protection Potion'ı ve Grolkar'ın 2 Massive Iron Axe'i (blacksmithing). {npc:5398} sana {quest:92743} görevini de verir (1.000), bu bir zanaat siparişi değil: {zone:1418} bölgesindeki bir mezar odasından bir {item:254392} istiyor ve Forever'ın görev sayfaları onu zincirinde {quest:92841} öncesine koyuyor, bu yüzden Honored'a ulaşmadan getir. Legacy Diplomat %10'a kadar ekler.",
 
-	-- Step 15: Magram: the Valley of Bones
+	-- Step 19: Magram: the Valley of Bones
 	-- {quest:92841} Valley of Bones
 	["Magram: the {quest:92841}"] = "Magram: {quest:92841}",
 	-- {quest:92743} A Conqueror's Crown · {npc:5398} Warug · {npc:253136} Orgrul · {quest:92841} Valley of Bones · {zone:2652} Shen'dralas · {quest:92844} Mountain of Bones · {quest:92846} Outcast Necromancers · {area:16675} Magram Front · {area:16677} Bristleback Retreat · {npc:5601} Khan Jehn · {area:604} Magram Village · {quest:92811} Economic Warfare
 	["At Honored, and after {quest:92743}, {npc:5398} sends you to {npc:253136} at the northern entrance of the {quest:92841}, in {zone:2652}. {npc:253136}'s quests (500 each: {quest:92844}, {quest:92846}, Corrupting Tears, Proof of Concept, No Mercy for the Weak, Bone Raising) and Hagiak's at the {area:16675} ({area:16677}, Long-Term Solutions, Threat of Starvation, Return to {npc:253136}) end with {npc:5601}: raise the dead khan with {npc:253136}'s staff at the tent by the lake in {area:604}, for 6,000, a title and a rare level 35 weapon. They all ask you to stay Honored or better. Honored to Revered is 12,000: the valley's quests pay about 11,000 of it, two {quest:92811} turn-ins the rest."] = "Honored'da ve {quest:92743} sonrasında {npc:5398} seni {zone:2652} bölgesinde {quest:92841} vadisinin kuzey girişindeki {npc:253136} yanına gönderir. {npc:253136} görevleri (her biri 500: {quest:92844}, {quest:92846}, Corrupting Tears, Proof of Concept, No Mercy for the Weak, Bone Raising) ve Hagiak'ın {area:16675} kesimindeki görevleri ({area:16677}, Long-Term Solutions, Threat of Starvation, Return to {npc:253136}) {npc:5601} ile biter: ölü hanı {npc:253136} asasıyla {area:604} içinde gölün yanındaki çadırda dirilt; 6.000, bir unvan ve nadir bir seviye 35 silah için. Hepsi Honored ya da daha iyi kalmanı ister. Honored'dan Revered'a 12.000: vadinin görevleri bunun yaklaşık 11.000'ini, iki {quest:92811} teslimi de geri kalanını öder.",
 
-	-- Step 16: Magram: Khan Jehn
+	-- Step 20: Magram: Khan Jehn
 	-- {quest:93196} Khan Jehn
 	["Magram: {quest:93196}"] = "Magram: {quest:93196}",
 	-- {area:604} Magram Village · {npc:253136} Orgrul · {item:271800} Scavenged Magram Armament · {item:271803} Greatstaff of the Necrokhans · {item:271804} Soulsplatter Mace
 	["The ritual site is a tent by the lake in the middle of {area:604}. {npc:253136} pays 6,000, a title, and your pick of three rare level 35 weapons: {item:271800} (polearm: Stamina, attack power, Agility), {item:271803} (staff: Intellect, Stamina, Spirit) or {item:271804} (main-hand mace: Intellect, Stamina, Spirit)."] = "Ritüel yeri, {area:604} ortasındaki gölün yanında bir çadır. {npc:253136} 6.000, bir unvan ve üç nadir seviye 35 silahtan istediğini öder: {item:271800} (polearm: Stamina, attack power, Agility), {item:271803} (asa: Intellect, Stamina, Spirit) ya da {item:271804} (ana el topuz: Intellect, Stamina, Spirit).",
 
-	-- Step 17: Magram: totems to Exalted
+	-- Step 21: Magram: totems to Exalted
 	["Magram: totems to Exalted"] = "Magram: Exalted'a kadar totemler",
 	-- {quest:92811} Economic Warfare
 	["From Revered on only {quest:92811} is left: Revered to Exalted is 21,000, 28 turn-ins, 140 totems."] = "Revered'dan itibaren yalnızca {quest:92811} kalır: Revered'dan Exalted'a 21.000, 28 teslim, 140 totem.",
 
-	-- Step 18: The totem recipes
+	-- Step 22: The totem recipes
 	["The totem recipes"] = "Totem tarifleri",
-	-- {item:273613} Enchant Bracer - Lesser Agility · {item:250941} Greater Frenzy Potion · {item:250538} Hard Gold Gauntlet · {item:250606} Iron Morningstar · {item:252462} Mystic Thick Armor Kit · {item:253973} Silk Reagent Bag · {item:10011} Stormcloth Gloves · {item:274490} Centaur Hoofwarmers · {item:269900} Centaur Banner Deployment Device · {item:269902} Hoof-Shaped Foot Pedal
-	-- plural, as words: Carved Centaur Totems = {item:254432} Carved Centaur Totem
-	["Both quartermasters sell the same 12 recipes for Carved Centaur Totems, no standing needed: {item:273613} and - Lesser Healing Power; Greater Spellblasting and {item:250941}; {item:250538} and {item:250606} plans; {item:252462}, {item:253973}, {item:10011} and {item:274490} patterns; the {item:269900} and {item:269902} schematics. Keep the totems you need for them before you hand the rest in."] = "İki levazımcı da Carved Centaur Totem karşılığında aynı 12 tarifi satıyor, itibar gerekmez: {item:273613} ve - Lesser Healing Power; Greater Spellblasting ve {item:250941}; {item:250538} ve {item:250606} planları; {item:252462}, {item:253973}, {item:10011} ve {item:274490} kalıpları; {item:269900} ve {item:269902} şemaları. Geri kalanını teslim etmeden önce bunlar için gereken totemleri sakla.",
+	-- {quest:93224} Carved Centaur Totems · {item:273613} Enchant Bracer - Lesser Agility · {item:250941} Greater Frenzy Potion · {item:250538} Hard Gold Gauntlet · {item:250606} Iron Morningstar · {item:252462} Mystic Thick Armor Kit · {item:253973} Silk Reagent Bag · {item:10011} Stormcloth Gloves · {item:274490} Centaur Hoofwarmers · {item:269900} Centaur Banner Deployment Device · {item:269902} Hoof-Shaped Foot Pedal
+	["Both quartermasters sell the same 12 recipes for {quest:93224}, no standing needed: {item:273613} and - Lesser Healing Power; Greater Spellblasting and {item:250941}; {item:250538} and {item:250606} plans; {item:252462}, {item:253973}, {item:10011} and {item:274490} patterns; the {item:269900} and {item:269902} schematics. Keep the totems you need for them before you hand the rest in."] = "İki levazımcı da {quest:93224} karşılığında aynı 12 tarifi satıyor, itibar gerekmez: {item:273613} ve - Lesser Healing Power; Greater Spellblasting ve {item:250941}; {item:250538} ve {item:250606} planları; {item:252462}, {item:253973}, {item:10011} ve {item:274490} kalıpları; {item:269900} ve {item:269902} şemaları. Geri kalanını teslim etmeden önce bunlar için gereken totemleri sakla.",
 }

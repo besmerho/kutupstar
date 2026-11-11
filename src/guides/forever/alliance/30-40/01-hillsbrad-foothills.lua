@@ -185,8 +185,9 @@ return {
 
 	-- Step 40: Yeti cave
 	["Yeti cave"] = "Yeti mağarası",
-	-- {area:271} Southshore
-	["The yetis live in the cave in the hills north of {area:271}, on the way north to the Syndicate camp."] = "Yeti'ler, kuzeydeki Syndicate kampına giden yol üstünde, {area:271} kasabasının kuzeyindeki tepelerde bulunan mağarada yaşıyor.",
+	-- {area:271} Southshore · {area:277} Foothill Caverns · {npc:13602} The Abominable Greench
+	-- plural, as words: Giant Yetis = {npc:2251} Giant Yeti
+	["The yetis live in the cave in the hills north of {area:271}, on the way north to the Syndicate camp.\nStay in the {area:277}: the cave further north has Mountain and Giant Yetis (32-34) in pairs and {npc:13602}, a level 36 elite."] = "Yeti'ler, kuzeydeki Syndicate kampına giden yol üstünde, {area:271} kasabasının kuzeyindeki tepelerde bulunan mağarada yaşıyor.\n{area:277} içinde kal: daha kuzeydeki mağarada ikişerli Mountain Yeti ve Giant Yeti yaratıkları (32-34) ve seviye 36 elit {npc:13602} var.",
 
 	-- Step 41: Alterac Mountains
 	["Syndicate camp"] = "Syndicate kampı",

@@ -8,8 +8,8 @@ return {
 	["Follow the road west past {area:460} (Horde) and south-west through the {area:465} into {zone:1443}; {area:608} stands at the top of the pass."] = "Yolu batıya izleyerek {area:460} sığınağını (Horde) geç, güneybatıya, {area:465} vadisinden {zone:1443} bölgesine gir; {area:608} geçidin tepesinde.",
 	-- {npc:5638} Kreldig Ungor · {npc:11863} Azore Aldamort · {area:599} Thunder Axe Fortress
 	["{npc:5638}: the wreck's chest lies below {npc:11863}'s tower, on the way to {area:599}"] = "{npc:5638}: enkazın sandığı {area:599} yolunda, {npc:11863} adlı NPC'nin kulesinin aşağısında",
-	-- {npc:5642} Vahlarriel Demonslayer · {area:599} Thunder Axe Fortress
-	["{npc:5642}: the Burning Blade in {area:599}, where her search leads"] = "{npc:5642}: aramasının vardığı {area:599} kalesindeki Burning Blade",
+	-- {npc:5396} Captain Pentigast · {npc:5752} Corporal Melkins
+	["{npc:5396}, beside {npc:5752}"] = "{npc:5396}, {npc:5752} yanında",
 
 	-- Step 2: Malem chest
 	["Malem chest"] = "Malem sandığı",
@@ -20,6 +20,10 @@ return {
 	-- {area:603} Sargeron · {area:608} Nijel's Point
 	-- plural, as words: Hatefury Rogues = {npc:4670} Hatefury Rogue · Hatefury Tricksters = {npc:4671} Hatefury Trickster
 	["The Hatefury satyrs hold the ruins of {area:603}, east of {area:608}.\nCareful: Hatefury Rogues spawn stealthed, and Hatefury Tricksters have a poison proc on their attacks."] = "Hatefury satyr'ları {area:608} karakolunun doğusundaki {area:603} harabelerini tutuyor.\nDikkat: Hatefury Rogue yaratıkları gizlenmiş olarak doğar, Hatefury Trickster yaratıklarının saldırıları da zehirleyebilir.",
+
+	-- Step 5: Nijel's Point
+	-- {npc:5642} Vahlarriel Demonslayer · {area:599} Thunder Axe Fortress
+	["{npc:5642}: the Burning Blade in {area:599}, where her search leads"] = "{npc:5642}: aramasının vardığı {area:599} kalesindeki Burning Blade",
 
 	-- Step 6: Azore Aldamort
 	-- {npc:11863} Azore Aldamort · {area:599} Thunder Axe Fortress
