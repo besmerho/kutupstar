@@ -28,6 +28,8 @@ return {
 	["The wreck of the Flying Osprey lies in the shallows south of the keep."] = "Flying Osprey'in enkazı kalenin güneyindeki sığ sularda.",
 
 	-- Step 6: Lightforge Ingots
+	-- plural, as words: Lightforge Ingots = {item:2702} Lightforge Ingot
+	["Lightforge Ingots"] = "Lightforge Ingot eşyaları",
 	["The Bluegill murlocs on the beach south-west of Menethil carry the ingots."] = "Külçeleri Menethil'in güneybatısındaki kumsalda bulunan Bluegill murlocları taşıyor.",
 	-- {item:2702} Lightforge Ingot
 	["{item:2702}; underwater"] = "{item:2702}; su altında",
@@ -69,7 +71,7 @@ return {
 
 	-- Step 13: Highperch
 	-- {area:485} Great Lift · {zone:1441} Thousand Needles · {area:482} Highperch
-	["Down the {area:485} into {zone:1441}, then west to the wyverns' cliffs at {area:482}. Every wyvern there can drop a venom sac."] = "{area:485} ile aşağı, {zone:1441} bölgesine in, sonra batıya, {area:482} kayalıklarındaki wyvern'lere git. Oradaki her wyvern zehir kesesi düşürebilir.",
+	["Down the {area:485} into {zone:1441}, then west to the wyverns' cliffs at {area:482}. Every wyvern there can drop a venom sac. Careful: wait on the platform until the lift is level with it before you step on, and stay on it until it stops; the drop beside it kills."] = "{area:485} ile {zone:1441} bölgesine in, sonra batıya, {area:482} yöresindeki wyvern kayalıklarına git. Oradaki her wyvern zehir kesesi düşürebilir. Dikkat: asansöre binmeden önce platformla aynı hizaya gelene kadar platformda bekle ve durana kadar üstünde kal; yanındaki uçurum öldürür.",
 
 	-- Step 14: Thousand Needles
 	-- {area:484} Freewind Post
@@ -87,8 +89,11 @@ return {
 	-- {area:2240} Mirage Raceway
 	["{area:2240}: kill these as you meet them"] = "{area:2240}: bunları karşılaştıkça öldür",
 	-- {object:19868} Rocket Car Rubble
-	-- plural, as words: Scorpid Reavers = {npc:4140} Scorpid Reaver · Salt Flats Scavengers = {npc:4154} Salt Flats Scavenger · Sparkleshell Snappers = {npc:4143} Sparkleshell Snapper · Saltstone Basilisks = {npc:4147} Saltstone Basilisk
-	["{object:19868} lies all over the flats. Scorpid Reavers and Salt Flats Scavengers roam the north half, Sparkleshell Snappers (tortoises) the whole flats. Saltstone Basilisks and Crystalhides hold the middle; the Gazers (34-35) only the far south."] = "{object:19868} düzlüğün her yanında duruyor. Scorpid Reaver ve Salt Flats Scavenger yaratıkları kuzey yarısında, Sparkleshell Snapper yaratıkları (kaplumbağalar) bütün düzlükte dolaşıyor. Saltstone Basilisk ve Crystalhide yaratıkları ortayı tutuyor; Gazer'lar (34-35) yalnızca en güneyde.",
+	-- plural, as words: Scorpid Reavers = {npc:4140} Scorpid Reaver · Salt Flats Scavengers = {npc:4154} Salt Flats Scavenger · Sparkleshell Tortoises = {npc:4142} Sparkleshell Tortoise · Sparkleshell Snappers = {npc:4143} Sparkleshell Snapper · Saltstone Gazers = {npc:4150} Saltstone Gazer · Scorpid Terrors = {npc:4139} Scorpid Terror
+	["{object:19868} lies all over the flats. Scorpid Reavers and Salt Flats Scavengers roam the north half, Sparkleshell Tortoises (30-31) the middle of the flats: hunt them for the shells. Careful: Sparkleshell Snappers (34-35) wander the whole flats, and the Saltstone Gazers (34-35) and Scorpid Terrors (33-34) hold the far south: leave them and keep to the north half."] = "{object:19868} düzlüklerin her yanında. Scorpid Reaver ve Salt Flats Scavenger yaratıkları kuzey yarısında, Sparkleshell Tortoise yaratıkları (30-31) düzlüklerin ortasında dolaşıyor: kabuklar için onları avla. Dikkat: Sparkleshell Snapper yaratıkları (34-35) bütün düzlükte dolaşıyor, Saltstone Gazer (34-35) ve Scorpid Terror (33-34) yaratıkları da en güneyi tutuyor: onları bırak ve kuzey yarısında kal.",
+	-- {item:5795} Hardened Tortoise Shell
+	-- plural, as words: Sparkleshell Tortoises = {npc:4142} Sparkleshell Tortoise
+	["{item:5795}, from the Sparkleshell Tortoises"] = "{item:5795}, Sparkleshell Tortoise yaratıklarından",
 	-- {npc:4078} Collin Mauren · {zone:1453} Stormwind
 	-- plural, as words: Saltstone Basilisks = {npc:4147} Saltstone Basilisk
 	["Crystalized Scale, from the Saltstone Basilisks: eight for {npc:4078} in {zone:1453}"] = "Saltstone Basilisk yaratıklarından Crystalized Scale: {zone:1453} şehrindeki {npc:4078} için sekiz tane",

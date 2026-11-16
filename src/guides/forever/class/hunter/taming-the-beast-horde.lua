@@ -12,8 +12,8 @@ return {
 	-- Step 1: Thotar in Razor Hill
 	-- {npc:3171} Thotar · {area:362} Razor Hill
 	["{npc:3171} in {area:362}"] = "{npc:3171}, {area:362} içinde",
-	-- {npc:3171} Thotar · {area:362} Razor Hill · {npc:3407} Sian'dur · {zone:1454} Orgrimmar · {npc:11814} Kali Remik · {area:367} Sen'jin Village · {npc:3038} Kary Thunderhorn · {zone:1456} Thunder Bluff
-	["At 10 go to {npc:3171}, the hunter trainer inside the barracks in {area:362}. If {npc:3407} in {zone:1454}, {npc:11814} in {area:367} or {npc:3038} in {zone:1456} hands you The Hunter's Path, take it and hand it to {npc:3171} for a little experience; it is only a pointer, and you can take the first rod without it."] = "10. seviyede {area:362} kasabasındaki kışlanın içinde bulunan Hunter eğitmeni {npc:3171} yanına git. {zone:1454} şehrindeki {npc:3407}, {area:367} köyündeki {npc:11814} ya da {zone:1456} şehrindeki {npc:3038} sana The Hunter's Path verirse al ve biraz deneyim için {npc:3171} ile teslim et; yalnızca bir yönlendirme, ilk çubuğu onsuz da alabilirsin.",
+	-- {npc:3171} Thotar · {area:362} Razor Hill · {npc:3407} Sian'dur · {zone:1454} Orgrimmar · {npc:11814} Kali Remik · {area:367} Sen'jin Village · {npc:3038} Kary Thunderhorn · {zone:1456} Thunder Bluff · {quest:6068} The Hunter's Path
+	["At 10 go to {npc:3171}, the hunter trainer inside the barracks in {area:362}. If {npc:3407} in {zone:1454}, {npc:11814} in {area:367} or {npc:3038} in {zone:1456} hands you {quest:6068}, take it and hand it to {npc:3171} for a little experience; it is only a pointer, and you can take the first rod without it."] = "10'da {area:362} kasabasında kışlanın içindeki avcı eğitmeni {npc:3171} yanına git. {zone:1454} şehrindeki {npc:3407}, {area:367} köyündeki {npc:11814} ya da {zone:1456} şehrindeki {npc:3038} sana {quest:6068} verirse al ve biraz deneyim için {npc:3171} yanına teslim et; yalnızca bir yönlendirme, ilk asayı onsuz da alabilirsin.",
 	-- {npc:3171} Thotar · {item:15908} Taming Rod
 	["{npc:3171}: the first {item:15908}"] = "{npc:3171}: ilk {item:15908}",
 
@@ -47,8 +47,8 @@ return {
 	-- Step 6: Yaw Sharpmane at Bloodhoof
 	-- {npc:3065} Yaw Sharpmane
 	["{npc:3065} at Bloodhoof"] = "Bloodhoof'ta {npc:3065}",
-	-- {npc:3065} Yaw Sharpmane · {area:222} Bloodhoof Village · {npc:3038} Kary Thunderhorn · {zone:1456} Thunder Bluff · {npc:3407} Sian'dur · {zone:1454} Orgrimmar · {npc:3171} Thotar · {area:362} Razor Hill
-	["At 10 go to {npc:3065}, who stands at the north edge of {area:222}. The Hunter's Path from {npc:3038} in {zone:1456}, {npc:3407} in {zone:1454} or {npc:3171} in {area:362} also leads here, for a little experience; it is only a pointer."] = "10. seviyede {area:222} köyünün kuzey kenarında duran {npc:3065} yanına git. {zone:1456} şehrindeki {npc:3038}, {zone:1454} şehrindeki {npc:3407} ya da {area:362} kasabasındaki {npc:3171} verdiği The Hunter's Path da biraz deneyim karşılığı buraya götürür; yalnızca bir yönlendirme.",
+	-- {npc:3065} Yaw Sharpmane · {area:222} Bloodhoof Village · {quest:6065} The Hunter's Path · {npc:3038} Kary Thunderhorn · {zone:1456} Thunder Bluff · {npc:3407} Sian'dur · {zone:1454} Orgrimmar · {npc:3171} Thotar · {area:362} Razor Hill
+	["At 10 go to {npc:3065}, who stands at the north edge of {area:222}. {quest:6065} from {npc:3038} in {zone:1456}, {npc:3407} in {zone:1454} or {npc:3171} in {area:362} also leads here, for a little experience; it is only a pointer."] = "10'da {area:222} köyünün kuzey kenarında duran {npc:3065} yanına git. {zone:1456} şehrindeki {npc:3038}, {zone:1454} şehrindeki {npc:3407} ya da {area:362} kasabasındaki {npc:3171} adlı NPC'den gelen {quest:6065} de biraz deneyim için buraya yönlendirir; yalnızca bir yönlendirme.",
 	-- {npc:3065} Yaw Sharpmane · {item:15908} Taming Rod
 	["{npc:3065}: the first {item:15908}"] = "{npc:3065}: ilk {item:15908}",
 

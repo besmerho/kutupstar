@@ -93,7 +93,7 @@ return {
 
 	-- Step 15: A Lesson to Learn
 	-- {area:442} Auberdine · {area:702} Rut'theran Village · {npc:4217} Mathrengyl Bearwalker · {area:1658} Cenarion Enclave
-	["Fly from {area:442} to {area:702} and take the portal up to {npc:4217} in the {area:1658}."] = "{area:442} kasabasından {area:702} köyüne uç ve portalla yukarı, {area:1658} içindeki {npc:4217} yanına çık.",
+	["Night Elves fly from {area:442} to {area:702}; Skyborne take the boat from the {area:442} dock and learn the Rut'theran flight path. Then take the portal up to {npc:4217} in the {area:1658}."] = "Night Elf'ler {area:442} kasabasından {area:702} köyüne uçar; Skyborne'lar {area:442} iskelesinden gemiye biner ve Rut'theran uçuş noktasını öğrenir. Sonra portaldan yukarı, {area:1658} içindeki {npc:4217} yanına çık.",
 
 	-- Step 18: Moonglade
 	-- {spell:18960} Teleport: Moonglade
@@ -187,8 +187,8 @@ return {
 	-- {area:456} Cliffspring River · {item:12347} Filled Cleansing Bowl · {item:12346} Empty Cleansing Bowl · {object:174795} Auberdine Moonwell · {item:12355} Talisman of Corruption
 	["The furbolg camp south of the {area:456} keeps its Nut, Fruit and Grain Stores by the bonfires. With a sample of each and the {item:12347} in your bags (the {item:12346} is filled at the {object:174795}), use the bowl by the bonfire closest to the river: it summons Xabraxxis, the satyr corruptor, and the {item:12355} lies in his Demon Bag."] = "{area:456} nehrinin güneyindeki furbolg kampı Nut, Fruit ve Grain Store erzaklarını şenlik ateşlerinin yanında tutuyor. Çantanda her birinden bir örnek ve {item:12347} varken ({item:12346}, {object:174795} kuyusunda doldurulur), kâseyi nehre en yakın şenlik ateşinin yanında kullan: satir bozucusu Xabraxxis çağrılır; {item:12355} onun Demon Bag çantasında.",
 	["By the bonfire closest to the river: summons Xabraxxis"] = "Nehre en yakın şenlik ateşinin yanında: Xabraxxis'i çağırır",
-	-- {item:12355} Talisman of Corruption · {object:177624} Xabraxxis' Demon Bag
-	["{item:12355}, in {object:177624}"] = "{item:12355}, {object:177624} içinde",
+	-- {item:12347} Filled Cleansing Bowl
+	["After using the {item:12347}, kill Xabraxxis, then click his Demon Bag on the ground to collect the talisman. If Xabraxxis despawns before you get it, retake the quest for a new bowl."] = "{item:12347} eşyasını kullandıktan sonra Xabraxxis'i öldür, sonra tılsımı almak için yerdeki Demon Bag'ine tıkla. Xabraxxis sen almadan kaybolursa yeni bir kâse için görevi yeniden al.",
 
 	-- Step 34: The cave and the Den Mother
 	["Careful: If you attack one cub, the other cubs and often the mother join the fight, so expect to take on several at the same time."] = "Dikkat: Bir yavruya saldırırsan diğer yavrular ve çoğu zaman anneleri de dövüşe katılır, bu yüzden aynı anda birkaçıyla dövüşmeyi bekle.",

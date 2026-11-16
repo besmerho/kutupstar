@@ -4,7 +4,7 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Guide
-	["For characters of 49 to 50, but most quests here are level 51-53: on purpose, for their experience. The crater's beasts are 48-55 and the Gorishi silithids 51-54, so pull them one at a time."] = "49-50 seviyesindeki karakterler için, ama buradaki görevlerin çoğu seviye 51-53: deneyimleri için bilerek. Kraterin hayvanları 48-55, Gorishi silithid'leri 51-54, bu yüzden onları tek tek çek.",
+	["For characters of 49 to 50, but most quests here are level 51-53: on purpose, for their experience. This first visit keeps to the crater's eastern half, where the beasts are 48-52, so pull them one at a time; the pylons, the bones and the hive wait for the later Un'Goro visit at about 56."] = "49-50. seviyedeki karakterler için, ama buradaki görevlerin çoğu 51-53. seviye: deneyimleri için bilerek. Bu ilk ziyaret, hayvanların 48-52 olduğu kraterin doğu yarısında kalır, bu yüzden onları tek tek çek; pilonlar, kemikler ve kovan yaklaşık 56'daki sonraki Un'Goro ziyaretini bekler.",
 
 	-- Step 1: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
@@ -12,32 +12,70 @@ return {
 	-- {zone:1455} Ironforge
 	["{zone:1455} flight master"] = "{zone:1455} uçuş ustası",
 
-	-- Step 3: Fly to Gadgetzan
+	-- Step 3: Theramore
+	["Theramore"] = "Theramore",
+	-- {npc:2616} Privateer Groy
+	["{npc:2616} stands on the docks where the boat lands."] = "{npc:2616} geminin yanaştığı iskelede duruyor.",
+
+	-- Step 4: Fly to Gadgetzan
 	-- {area:976} Gadgetzan
 	["Fly to {area:976}"] = "{area:976} kasabasına uç",
 	["Theramore flight master"] = "Theramore uçuş ustası",
 
-	-- Step 4: Gadgetzan
+	-- Step 5: Gadgetzan
 	-- {area:976} Gadgetzan
 	["The flight from Theramore lands in {area:976}."] = "Theramore'dan kalkan uçuş {area:976} kasabasına iner.",
 
-	-- Step 6: Sprinkle
-	-- {npc:7564} Marin Noggenfogger
-	["{npc:7564}, once he has brewed the elixir: a few seconds"] = "{npc:7564}, iksiri demledikten sonra: birkaç saniye",
+	-- Step 7: The Noxious Lair
+	-- {npc:4196} Silithid Swarm
+	-- plural, as words: Centipaar Swarmers = {npc:5457} Centipaar Swarmer
+	["Ride west to the Centipaar hive in the dunes. Any Centipaar can drop insect parts.\nCareful: Centipaar Swarmers cast {npc:4196} both in and out of combat, which brings small adds that interrupt you."] = "Batıya, kumullardaki Centipaar kovanına sür. Her Centipaar böcek parçası düşürebilir.\nDikkat: Centipaar Swarmer yaratıkları dövüşte de dövüş dışında da {npc:4196} kullanır; bu da seni kesintiye uğratan küçük yaratıklar getirir.",
 
-	-- Step 8: Torwa Pathfinder
+	-- Step 8: Dunemaul Compound
+	-- {npc:12046} Gor'marok the Ravager
+	["Ride south to the ogre compound. Brutes and Enforcers (46-48) fill it; {npc:12046} (49) stands in the middle with guards around him: clear them first."] = "Güneye, ogre yerleşkesine sür. İçini Brute ve Enforcer yaratıkları (46-48) dolduruyor; {npc:12046} (49) ortada, çevresinde muhafızlarla duruyor: önce onları temizle.",
+	-- {npc:12046} Gor'marok the Ravager
+	["{npc:12046}, below ground"] = "{npc:12046}, yer altında",
+
+	-- Step 9: Thistleshrub Valley: kill these as you meet them
+	-- {quest:3362} Thistleshrub Valley
+	["{quest:3362}: kill these as you meet them"] = "{quest:3362}: bunları karşılaştıkça öldür",
+	-- {quest:3362} Thistleshrub Valley
+	-- plural, as words: Gnarled Thistleshrubs = {npc:5490} Gnarled Thistleshrub
+	["Ride west into {quest:3362}. The Dew Collectors drop the glands; only some are full, so keep the Laden one. Gnarled Thistleshrubs and Rootshapers share the valley.\nCareful: the thistleshrubs wander a lot, so you can easily pull extra mobs."] = "Batıya, {quest:3362} içine sür. Dew Collector yaratıkları bezleri düşürür; yalnızca bazıları dolu, bu yüzden Laden olanı sakla. Vadiyi Gnarled Thistleshrub ve Rootshaper yaratıkları paylaşıyor.\nDikkat: thistleshrub'lar çok dolaşır, bu yüzden kolayca fazladan yaratık çekebilirsin.",
+
+	-- Step 10: Gadgetzan
+	-- {area:976} Gadgetzan · {npc:11758} Andi Lynn
+	["Ride back north-east to {area:976}: {npc:11758} stands on the east side of town."] = "Kuzeydoğuya, {area:976} kasabasına geri sür: {npc:11758} kasabanın doğu yakasında duruyor.",
+	-- {npc:5594} Alchemist Pestlezugg
+	["{npc:5594}, inside"] = "{npc:5594}, içeride",
+
+	-- Step 11: The Gaping Chasm
+	-- {area:1938} Broken Pillar · {area:981} The Gaping Chasm
+	["Ride south past the {area:1938} to the {area:981}, the Hazzali tunnels; Scrimshank's gear lies deep inside.\nCareful: One bug guards the gear. Many bugs patrol the tunnels, some of them level 50, so fights often pull extra adds."] = "Güneye, {area:1938} yanından geçerek Hazzali tünelleri olan {area:981} uçurumuna sür; Scrimshank'in eşyaları derinlerde.\nDikkat: Eşyaları bir böcek koruyor. Tünellerde bazıları seviye 50 olan çok sayıda böcek devriye geziyor, bu yüzden dövüşler sık sık fazladan yaratık çeker.",
+	-- {item:8593} Scrimshank's Surveying Gear
+	["{item:8593}; below ground"] = "{item:8593}; yer altında",
+
+	-- Step 12: Gadgetzan
+	-- {npc:7740} Gracina Spiritmight · {zone:1457} Darnassus · {zone:1428} Burning Steppes
+	["For {npc:7740} in {zone:1457}, at the end of the {zone:1428} guide: keep it"] = "{zone:1428} rehberinin sonunda {zone:1457} şehrindeki {npc:7740} için: sakla",
+
+	-- Step 14: Torwa Pathfinder
 	-- {area:976} Gadgetzan · {zone:1449} Un'Goro Crater · {npc:9619} Torwa Pathfinder
 	["Ride west out of {area:976} to the long ramp down into {zone:1449}. {npc:9619} camps at the foot of the ramp, in the south-east corner of the crater."] = "{area:976} kasabasından batıya, {zone:1449} kraterine inen uzun rampaya sür. {npc:9619} rampanın dibinde, kraterin güneydoğu köşesinde kamp kurmuş.",
 
-	-- Step 9: Fresh Threshadon Carcass
-	-- {npc:9619} Torwa Pathfinder
-	["The dead Threshadon lies by the water north of {npc:9619}."] = "Ölü Threshadon, {npc:9619} adlı NPC'nin kuzeyinde, suyun kenarında yatıyor.",
+	-- Step 15: Fresh Threshadon Carcass
+	-- {npc:9619} Torwa Pathfinder · {item:280459} Crystal Infused Scale
+	-- plural, as words: Venomhide Ravasaurs = {npc:6508} Venomhide Ravasaur
+	["The dead Threshadon lies by the water north of {npc:9619}.\nCareful: Venomhide Ravasaurs (50-51) hunt along the water there: pull them one at a time before you loot the carcass.\nAny ravasaur may drop a {item:280459}: right-click it, {npc:9619} takes it."] = "Ölü Threshadon {npc:9619} yanının kuzeyinde, suyun kenarında yatıyor.\nDikkat: Venomhide Ravasaur yaratıkları (50-51) oradaki su boyunca avlanıyor: leşi yağmalamadan önce onları tek tek çek.\nHerhangi bir ravasaur {item:280459} düşürebilir: ona sağ tıkla, {npc:9619} teslim alır.",
 
-	-- Step 10: Torwa Pathfinder
+	-- Step 16: Torwa Pathfinder
+	-- {quest:87494} Microcrystal Contamination
+	["{quest:87494}, if a ravasaur dropped the scale"] = "{quest:87494}, bir ravasaur pulu düşürdüyse",
 	-- {area:1943} Ironstone Plateau
 	["The gorillas on {area:1943} carry the pelts: keep it for the second Un'Goro visit, around 56"] = "{area:1943} platosundaki gorillerde post var: 56 civarındaki ikinci Un'Goro ziyareti için sakla",
 
-	-- Step 11: Lar'korwi Mates and the raft
+	-- Step 17: Lar'korwi Mates and the raft
 	-- plural, as words: Lar'korwi Mates = {npc:9683} Lar'korwi Mate
 	["Lar'korwi Mates and the raft"] = "Lar'korwi Mate yaratıkları ve sal",
 	-- {npc:9619} Torwa Pathfinder · {npc:8737} Linken · {item:11116} A Mangled Journal
@@ -46,88 +84,53 @@ return {
 	-- {object:161504} A Small Pack
 	["{object:161504}, underwater"] = "{object:161504}, su altında",
 
-	-- Step 12: Karna Remtravel
-	-- {npc:9618} Karna Remtravel
-	["{npc:9618} stands just outside the refuge."] = "{npc:9618} sığınağın hemen dışında duruyor.",
+	-- Step 18: Torwa Pathfinder
+	-- {npc:9619} Torwa Pathfinder
+	["Back east to {npc:9619} with the glands."] = "Bezlerle doğuya, {npc:9619} yanına dön.",
 
-	-- Step 13: Marshal's Refuge
-	-- {object:157936} Un'Goro Dirt Pile
-	["Ride west back to the refuge.\nGive the elite devilsaurs and stegodons a wide berth. Pick up every Power Crystal and {object:157936} you pass from here on."] = "Batıya, sığınağa geri sür.\nElit devilsaur ve stegodon'lardan uzak dur. Buradan sonra geçtiğin her Power Crystal ve {object:157936} öbeğini topla.",
+	-- Step 19: Marshal's Refuge
+	-- {npc:271301} Power Crystal · {object:157936} Un'Goro Dirt Pile
+	["Ride north-west to the refuge.\nGive the elite devilsaurs and stegodons a wide berth. Pick up every {npc:271301} and {object:157936} you pass from here on."] = "Kuzeybatıya, sığınağa sür.\nElit devilsaur ve stegodon'lardan geniş bir mesafe bırak. Bundan sonra yanından geçtiğin her {npc:271301} ve {object:157936} nesnesini topla.",
 	-- {npc:9998} Shizzle
-	["{npc:9998}, at the refuge entrance"] = "{npc:9998}, sığınağın girişinde",
+	["{npc:9998}: his scales come from the young beasts of the eastern jungle"] = "{npc:9998}: pulları doğu ormanının genç hayvanlarından gelir",
 	-- {npc:8737} Linken
 	["{npc:8737}, at the back of the refuge"] = "{npc:8737}, sığınağın arkasında",
 	-- {npc:9298} Donova Snowden · {zone:1452} Winterspring
 	["Ends with {npc:9298} in {zone:1452}: keep it"] = "{zone:1452} bölgesindeki {npc:9298} ile biter: sakla",
 	-- {npc:9117} J.D. Collie
 	["{npc:9117}, at the back of the cave; below ground"] = "{npc:9117}, mağaranın dibinde; yer altında",
+	-- {npc:9272} Spark Nilminer · {npc:9271} Hol'anyee Marshal · {npc:9270} Williden Marshal · {npc:9618} Karna Remtravel
+	["{npc:9272}, {npc:9271}, {npc:9270} and {npc:9618} have quests among mobs of 51-55: leave them for the later Un'Goro visit, at about 56."] = "{npc:9272}, {npc:9271}, {npc:9270} ve {npc:9618}, 51-55. seviye yaratıkların arasında görevler verir: onları yaklaşık 56'daki sonraki Un'Goro ziyaretine bırak.",
 
-	-- Step 14: Fire Plume Ridge and the eastern jungle
+	-- Step 20: Fire Plume Ridge and the eastern jungle
 	-- {area:537} Fire Plume Ridge
 	["{area:537} and the eastern jungle"] = "{area:537} sırtı ve doğu ormanı",
-	-- {area:537} Fire Plume Ridge · {item:11113} Crate of Foodstuffs
-	-- plural, as words: Bloodpetal Lashers = {npc:6509} Bloodpetal Lasher
-	["Ride south to {area:537} in the middle of the crater, then east into the eastern jungle. Crystal clusters stand all over the crater, many of them around {area:537}: take a few extra of each colour. Bloodpetal Lashers and Threshers drop the petals; the expedition's {item:11113} sits at an abandoned camp in the eastern jungle."] = "Güneye, kraterin ortasındaki {area:537} sırtına, sonra doğuya, doğu ormanına git. Kristal kümeleri kraterin her yanında, çoğu {area:537} sırtının çevresinde: her renkten birkaç fazla al. Taç yaprakları Bloodpetal Lasher ve Bloodpetal Thresher yaratıkları düşürür; keşif ekibinin {item:11113} sandığı doğu ormanındaki terk edilmiş bir kampta.",
+	-- {quest:3764} Un'Goro Soil · {area:537} Fire Plume Ridge · {npc:9998} Shizzle · {npc:9165} Fledgling Pterrordax
+	-- plural, as words: Bloodpetal Lashers = {npc:6509} Bloodpetal Lasher · Living Blazes = {npc:6521} Living Blaze · Bloodpetal Flayers = {npc:6510} Bloodpetal Flayer · Young Diemetradons = {npc:9162} Young Diemetradon
+	["Ride east into the eastern jungle: Bloodpetal Lashers and Threshers (48-50) drop the petals and {quest:3764}. Crystal clusters stand all over the crater, many around the foot of {area:537}: take a few extra of each colour.\nCareful: the Living Blazes (54-55) walk the top of {area:537}, and the Bloodpetal Flayers and Trappers (51-53) hold the jungle's south: take your crystals from the ridge's foot and your petals in the north.\n{npc:9998}'s scales: the {npc:9165} (48-50) glide over the north-east of the jungle and the Young Diemetradons (49-50) graze beside them. There are only ten of those: the Diemetradons (51) on the jungle's western edge, a short way west of the Threshers, drop the scales too. They are a level over you: take them one at a time."] = "Doğuya, doğu ormanına sür: Bloodpetal Lasher ve Thresher yaratıkları (48-50) taç yaprağı ve {quest:3764} düşürür. Kristal kümeleri kraterin her yanında, birçoğu {area:537} eteğinin çevresinde: her renkten birkaç fazla al.\nDikkat: Living Blaze yaratıkları (54-55) {area:537} tepesinde dolaşıyor, Bloodpetal Flayer ve Trapper yaratıkları (51-53) da ormanın güneyini tutuyor: kristallerini sırtın eteğinden, taç yapraklarını kuzeyden al.\n{npc:9998} için pullar: {npc:9165} yaratıkları (48-50) ormanın kuzeydoğusu üzerinde süzülüyor, Young Diemetradon yaratıkları (49-50) da yanlarında otluyor. Onlardan yalnızca on tane var: ormanın batı kenarında, Thresher'ların biraz batısındaki Diemetradon yaratıkları (51) da pul düşürür. Senden bir seviye yüksekler: tek tek al.",
+	-- {item:11316} Bloodpetal
+	["{item:11316}, from the Lashers and Threshers"] = "{item:11316}, Lasher ve Thresher'lardan",
+	-- {quest:3764} Un'Goro Soil
+	["{quest:3764}, from the Threshers and the dirt piles"] = "{quest:3764}, Thresher'lardan ve toprak yığınlarından",
 
-	-- Step 16: Marshal's Refuge
+	-- Step 21: Lakkari Tar Pits
+	-- plural, as words: Tar Lords = {npc:6519} Tar Lord
+	["Crystal clusters stand all over the crater. The pits' Tar Lords (53-54) and the oozes around them (50-54) are over you: take the clusters on the jungle's north-eastern edge, among the Lashers and young beasts (48-50)."] = "Kristal kümeleri kraterin her yanında. Çukurların Tar Lord yaratıkları (53-54) ve çevrelerindeki balçıklar (50-54) senden yüksek: kümeleri ormanın kuzeydoğu kenarında, Lasher'ların ve genç hayvanların (48-50) arasında al.",
+
+	-- Step 22: Marshal's Refuge
 	-- {npc:9117} J.D. Collie
 	["{npc:9117}, below ground"] = "{npc:9117}, yer altında",
 	-- {npc:7775} Gregan Brewspewer · {zone:1444} Feralas
 	["For {npc:7775} in {zone:1444}: keep it"] = "{zone:1444} bölgesindeki {npc:7775} için: sakla",
 
-	-- Step 17: Northern Pylon
-	["Northern Pylon"] = "Northern Pylon",
-	-- {npc:9998} Shizzle
-	["The pylon stands on the slope east of the refuge. Pterrordax circle the slopes around it: they count for Spraggle and drop {npc:9998}'s scales."] = "Pylon sığınağın doğusundaki yamaçta duruyor. Pterrordax'lar çevresindeki yamaçların üstünde dönüyor: Spraggle için sayılırlar ve {npc:9998} için pul düşürürler.",
+	-- Step 23: Level 49.79
+	["Level 49.79"] = "Seviye 49.79",
+	-- plural, as words: Bloodpetal Lashers = {npc:6509} Bloodpetal Lasher
+	["Still short of level 49.79 after the refuge's hand-ins? Top up on the Bloodpetal Lashers and Threshers (48-50) of the eastern jungle, where you took the petals, before you leave the crater."] = "Sığınaktaki teslimlerden sonra hâlâ 49.79'un altında mısın? Kraterden ayrılmadan önce taç yaprakları aldığın doğu ormanındaki Bloodpetal Lasher ve Thresher yaratıklarıyla (48-50) seviyeni tamamla.",
+	-- {npc:6511} Bloodpetal Thresher
+	["grind on {npc:6511}"] = "Kas: {npc:6511}",
 
-	-- Step 18: A-Me 01
-	-- {area:1943} Ironstone Plateau
-	["Ride east to {area:1943}, where the robot stands among the gorillas. Stay out of the deep cave there."] = "Doğuya, robotun gorillerin arasında durduğu {area:1943} platosuna sür. Oradaki derin mağaraya girme.",
-	["Below ground"] = "Yer altında",
-
-	-- Step 19: Level 49.51
-	["Level 49.51"] = "Seviye 49.51",
-	-- {area:541} Marshal's Refuge · {area:2100} Maraudon
-	["Top up here to level 49.51 before the hand-ins at {area:541}: they take you to level 50. Or, with a group, run the {area:2100} dungeon instead."] = "{area:541} kesimindeki teslimlerden önce burada seviye 49.51 olana kadar kas: teslimler seni seviye 50 yapar. Ya da grupla, bunun yerine {area:2100} zindanına gir.",
-	["Pterrordax"] = "Pterrordax",
-	["grind on Pterrordax"] = "Kas: Pterrordax",
-
-	-- Step 20: Crate of Foodstuffs
-	-- {npc:9165} Fledgling Pterrordax · {npc:9998} Shizzle
-	-- plural, as words: Young Diemetradons = {npc:9162} Young Diemetradon
-	["Ride south down the east side. Young Diemetradons graze the eastern jungle and {npc:9165} fly near the eastern cliffs; both drop {npc:9998}'s scales. The crate sits at the abandoned camp in the eastern jungle."] = "Doğu yakasından güneye sür. Young Diemetradon yaratıkları doğu ormanında otluyor, {npc:9165} yaratıkları doğu uçurumlarının yakınında uçuyor; ikisi de {npc:9998} için pul düşürür. Sandık doğu ormanındaki terk edilmiş kampta duruyor.",
-
-	-- Step 21: Eastern Pylon
-	["Eastern Pylon"] = "Eastern Pylon",
-	["The pylon stands on the eastern cliffs."] = "Pilon doğu uçurumlarında duruyor.",
-
-	-- Step 22: The Gorishi hive
-	["The Gorishi hive"] = "Gorishi kovanı",
-	-- {npc:9619} Torwa Pathfinder · {quest:3764} Un'Goro Soil · {spell:8137} Silithid Pox · {spell:14120} Tunneler Acid
-	-- plural, as words: Gorishi Workers = {npc:6552} Gorishi Worker
-	["Ride south-west past {npc:9619}: the silithid hive fills the south of the crater. Use the Scraping Vial on a hatchery, a chamber with hanging larvae. Gorishi wasps and workers drop {quest:3764}; Pterrordax nest on the southern cliffs if you still need kills.\nCareful: Gorishi silithids are level 51-54 and cast {spell:8137} or {spell:14120} in melee; Gorishi Workers have a 50% chance to call for help within 25 yd once they fall below 45% health."] = "{npc:9619} yanından güneybatıya sür: silithid kovanı kraterin güneyini dolduruyor. Scraping Vial'ı bir kuluçkahanede, larvaların asılı olduğu bir odada kullan. Gorishi eşek arıları ve işçileri {quest:3764} düşürür; hâlâ öldürmen gerekiyorsa Pterrordax'lar güney uçurumlarında yuva yapmış.\nDikkat: Gorishi silithid'leri 51-54. seviye ve yakın dövüşte {spell:8137} ya da {spell:14120} kullanır; Gorishi Worker yaratıkları canları %45'in altına inince %50 olasılıkla 25 yard içinde yardım çağırır.",
-	-- {npc:9167} Frenzied Pterrordax
-	["grind on {npc:9167}"] = "Kas: {npc:9167}",
-
-	-- Step 23: Bones and equipment
-	["Bones and equipment"] = "Kemikler ve ekipman",
-	-- {item:11112} Research Equipment
-	-- plural, as words: Dinosaur Bones = {item:11114} Dinosaur Bone
-	["Dinosaur Bones lie on the ground in the south-west, among the stegodons: those are elite, pick the bones up around them and take the rest from Diemetradons. The expedition's {item:11112} lies in the south-west jungle."] = "Dinosaur Bone kemikleri güneybatıda, stegodonların arasında yerde duruyor: stegodonlar elit, kemikleri onların çevresinden topla, kalanını Diemetradon yaratıklarından al. Keşif ekibinin {item:11112} eşyası güneybatı ormanında.",
-	-- {npc:9164} Elder Diemetradon
-	["grind on {npc:9164}"] = "Kas: {npc:9164}",
-
-	-- Step 24: Western Pylon
-	["Western Pylon"] = "Western Pylon",
-	-- {npc:9167} Frenzied Pterrordax
-	["The pylon stands on the western cliffs. {npc:9167} fly over the whole west side."] = "Pilon batı uçurumlarında duruyor. {npc:9167} yaratıkları bütün batı yakasının üzerinde uçuyor.",
-
-	-- Step 25: Marshal's Refuge
-	["Ride north along the western jungle back to the refuge."] = "Batı ormanı boyunca kuzeye, sığınağa dön.",
-	-- {npc:9998} Shizzle
-	["{npc:9998}, at the refuge's entrance"] = "{npc:9998}, sığınağın girişinde",
-
-	-- Step 26: Fly to Astranaar
+	-- Step 24: Fly to Astranaar
 	-- {area:415} Astranaar
 	["Fly to {area:415}"] = "Uç: {area:415}",
 	-- {zone:1455} Ironforge · {zone:1427} Searing Gorge · {zone:1440} Ashenvale · {zone:1447} Azshara
@@ -135,30 +138,17 @@ return {
 	-- {area:541} Marshal's Refuge
 	["{area:541} flight master"] = "{area:541} uçuş ustası",
 
-	-- Step 27: To Stoutlager Inn
-	-- {area:2101} Stoutlager Inn
-	["To {area:2101}"] = "Git: {area:2101}",
+	-- Step 25: To Ironforge
+	-- {zone:1455} Ironforge
+	["To {zone:1455}"] = "Git: {zone:1455}",
 
-	-- Step 28: Fly to Ironforge
-	-- {area:1537} Ironforge
-	["Fly to {area:1537}"] = "Uç: {area:1537}",
-	-- {area:144} Thelsamar
-	["{area:144} flight master"] = "{area:144} uçuş ustası",
-
-	-- Step 29: Mystic Ward
+	-- Step 26: Mystic Ward
 	-- {npc:11406} High Priest Rohan · {zone:1447} Azshara
 	["{npc:11406}: for Ogtinc in {zone:1447}, keep it"] = "{npc:11406}: {zone:1447} bölgesindeki Ogtinc için, sakla",
 	-- {npc:7312} Dink · {npc:8395} Sanath Lim-yo · {zone:1447} Azshara
 	["{npc:7312}, the mage trainer: for {npc:8395} in {zone:1447}, keep it"] = "Mage eğitmeni {npc:7312}: {zone:1447} bölgesindeki {npc:8395} için, sakla",
 
-	-- Step 32: Fly to Astranaar
+	-- Step 29: Fly to Astranaar
 	-- {area:442} Auberdine
 	["{area:442} flight master"] = "{area:442} uçuş ustası",
-
-	-- Step 33: Level 50.4
-	["Level 50.4"] = "Seviye 50.4",
-	-- {area:3137} Talrendis Point · {area:2100} Maraudon · {area:1417} Sunken Temple
-	["Top up here to level 50.4 before the hand-ins at {area:3137}: they take you to level 51. Or, with a group, run the {area:2100} dungeon or the {area:1417} dungeon instead."] = "{area:3137} burnundaki teslimlerden önce burada seviye 50.4 olana kadar kas: teslimler seni seviye 51 yapar. Ya da grupla, bunun yerine {area:2100} zindanına ya da {area:1417} zindanına gir.",
-	-- {npc:6116} Highborne Apparition
-	["grind on {npc:6116}"] = "Kas: {npc:6116}",
 }

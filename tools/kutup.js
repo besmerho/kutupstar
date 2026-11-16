@@ -479,7 +479,9 @@ const AUDIT = [
 	['must', 'Theme/Widgets.lua', /^function ns\.RegisterOptions\(spec\)$/m, 'RegisterOptions (the Dil · Language dropdown)'],
 	['must', 'Core/Init.lua', /^function ns\.RegisterDefaults\(section, tbl\)$/m, 'RegisterDefaults (the dropdown needs a default to show)'],
 	['must', 'Core/Init.lua', /^function ns\.On\(msg, fn\)$/m, "ns.On (Reset page resets the language)"],
-	['must', 'UI/Options.lua', /L\["Appearance"\][\s\S]*tab = L\["Colour & type"\]/, 'the Appearance page and its Colour & type tab (where the dropdown goes)'],
+	// Since v0.4.0 the settings window is its own load-on-demand addon, Polestar_Options; the font settings (and
+	// the dropdown) are on its Theme page, Text tab. Before that: Polestar/UI/Options.lua, Appearance > Colour & type.
+	['must', '../Polestar_Options/UI/Looks/Theme.lua', /^local PAGE = L\["Theme"\]$[\s\S]*page = PAGE, tab = L\["Text"\], section = L\["Text"\]/m, 'the Theme page and its Text tab, in Polestar_Options (where the dropdown goes)'],
 	['must', 'Theme/Theme.lua', /^function Theme\.FontSpec\(role\)$/m, 'Theme.FontSpec (wrapped: the font fallback for ş)'],
 	['must', 'Theme/Theme.lua', /^function Theme\.FontKey\(\)$/m, 'Theme.FontKey (the font fallback asks for Fira Sans)'],
 	['must', 'Theme/Theme.lua', /^function Theme\.FollowsEllesmereFont\(\)$/m, 'Theme.FollowsEllesmereFont (the font fallback)'],

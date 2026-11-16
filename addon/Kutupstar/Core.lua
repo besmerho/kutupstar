@@ -21,7 +21,7 @@
 --     first, tokens and all, so the names still come out as the client
 --     shows them. It is in place once Polestar is in, before Polestar_Guides
 --     loads.
---   - the choice. A dropdown on Polestar's Appearance page, "Dil · Language":
+--   - the choice. A dropdown on Polestar's Theme page (Text tab), "Dil · Language":
 --     Türkçe (the default) or English, which leaves Polestar as it is. It
 --     takes effect on the next reload. It lives in KutupstarDB, not in
 --     Polestar's settings: those load after Polestar's files, too late.
@@ -214,7 +214,7 @@ local function hookGuides(P)
 end
 
 ---------------------------------------------------------------------------
--- The choice, on Polestar's Appearance page
+-- The choice, on Polestar's Theme page
 ---------------------------------------------------------------------------
 
 local function registerOption(P)
@@ -223,14 +223,16 @@ local function registerOption(P)
 	-- available); the value itself is read and written in KutupstarDB.
 	if type(P.RegisterDefaults) == "function" then P.RegisterDefaults("kutupstar", { language = "trTR" }) end
 	local L = P.L
-	-- The page and tab as Polestar named them while its files loaded: in
-	-- Turkish after an early fill, in English otherwise.
-	local early = diag.fill == "early"
-	local page = early and L["Appearance"] or "Appearance"
-	local tab = early and L["Colour & type"] or "Colour & type"
+	-- The page and tab as Polestar names them. Since Polestar 0.4.0 the
+	-- settings window is its own load-on-demand addon, Polestar_Options
+	-- (UI/Looks/Theme.lua: the Theme page, its Text tab, where the font is).
+	-- It loads long after this runs, so it names them from L as it is now:
+	-- Turkish after either fill, English when none.
+	local page = type(L) == "table" and L["Theme"] or "Theme"
+	local tab = type(L) == "table" and L["Text"] or "Text"
 	local turkish = diag.fill == "early" or diag.fill == "late"
 	local ok = P.RegisterOptions({
-		page = page, key = "appearance", tab = tab, section = turkish and "Dil" or "Language",
+		page = page, key = "theme", tab = tab, section = turkish and "Dil" or "Language",
 		controls = {
 			{ kind = "dropdown", key = OPTION_KEY, label = "Dil · Language",
 				help = turkish

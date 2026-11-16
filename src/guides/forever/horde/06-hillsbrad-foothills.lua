@@ -5,9 +5,14 @@
 return {
 	-- Step 1: Tarren Mill
 	-- {area:272} Tarren Mill
-	["{area:272} is your base for this guide: the hearth brings you back here twice. Everyone stands around the town square."] = "Bu rehberde üssün {area:272} kasabası: Hearthstone seni iki kez buraya geri getirir. Herkes kasaba meydanının çevresinde duruyor.",
+	["{area:272} is your base for this guide: you come back here between each loop. Everyone stands around the town square."] = "Bu rehberde üssün {area:272}: her turun arasında buraya dönersin. Herkes kasaba meydanının çevresinde duruyor.",
 	-- {item:7768} Empty Red Waterskin · {object:107045} Spring Well
 	["Fill the {item:7768} at the {object:107045} beside the inn"] = "{item:7768} eşyasını hanın yanındaki {object:107045} kuyusunda doldur",
+	-- {npc:2216} Apothecary Lydon
+	["{npc:2216}: Zamah's note"] = "{npc:2216}: Zamah'ın notu",
+	-- {npc:2216} Apothecary Lydon
+	-- plural, as words: Syndicate Shadow Mages = {npc:2244} Syndicate Shadow Mage
+	["{npc:2216}: the vials come from the Syndicate Shadow Mages on the way to Durnholde"] = "{npc:2216}: şişeler Durnholde yolundaki Syndicate Shadow Mage yaratıklarından gelir",
 	-- {object:556670} WANTED
 	["The {object:556670} poster by the inn"] = "Hanın yanındaki {object:556670} afişi",
 	-- {npc:2229} Krusk
@@ -28,7 +33,8 @@ return {
 
 	-- Step 4: Hillsbrad Fields
 	-- {area:287} Hillsbrad · {npc:232} Farmer Ray · {npc:2403} Farmer Getz · {npc:2451} Farmer Kalaba
-	["The farms east of {area:287} town. {npc:232} works the field by the northern farmhouse, {npc:2403} the one further south-east; Farmhands and Farmers are everywhere. {npc:2451} tends the field south of the farms."] = "{area:287} kasabasının doğusundaki çiftlikler. {npc:232} kuzeydeki çiftlik evinin yanındaki tarlada, {npc:2403} ise daha güneydoğudakinde çalışıyor; her yer Farmhand ve Farmer yaratıklarıyla dolu. {npc:2451} çiftliklerin güneyindeki tarlayla ilgileniyor.",
+	-- plural, as words: Kirin Tor Guards = {npc:246848} Kirin Tor Guard
+	["The farms east of {area:287} town. {npc:232} works the field by the northern farmhouse, {npc:2403} the one further south-east; Farmhands and Farmers are everywhere. {npc:2451} tends the field south of the farms. Careful: Kirin Tor Guards (55) stand north of the farms, on the road up toward Alterac: keep to the fields."] = "{area:287} kasabasının doğusundaki çiftlikler. {npc:232} kuzeydeki çiftlik evinin yanındaki tarlada, {npc:2403} daha güneydoğudakinde çalışıyor; Farmhand ve Farmer'lar her yerde. {npc:2451} çiftliklerin güneyindeki tarlayla ilgileniyor. Dikkat: Kirin Tor Guard yaratıkları (55) çiftliklerin kuzeyinde, Alterac'a çıkan yolda duruyor: tarlalarda kal.",
 
 	-- Step 5: Mountain Lion Blood
 	["Careful: When one lion is attacked, nearby lions come to its aid, and the Vicious Black Bears sharing those fields can also join the fight."] = "Dikkat: Bir aslana saldırıldığında yakındaki aslanlar yardımına gelir, aynı tarlaları paylaşan Vicious Black Bear yaratıkları da dövüşe katılabilir.",
@@ -38,8 +44,6 @@ return {
 	["{npc:2216}, inside"] = "{npc:2216}, içeride",
 	-- {npc:2230} Umpi
 	["{npc:2230}, next to Lydon; inside"] = "{npc:2230}, Lydon'ın yanında; içeride",
-	-- {quest:567} Dangerous!
-	["The {quest:567} poster: Kalaba with the peasants, Wilkes at the smithy; the clerk and the miner on the visit at about 30; inside"] = "{quest:567} ilanı: köylülerle Kalaba, demirhanede Wilkes; katip ve madenci yaklaşık 30. seviyedeki ziyarette; içeride",
 
 	-- Step 7: Stanley
 	-- {npc:2274} Stanley · {npc:232} Farmer Ray · {area:286} Hillsbrad Fields
@@ -49,146 +53,139 @@ return {
 	-- {area:286} Hillsbrad Fields
 	["{area:286}: kill these as you meet them"] = "{area:286}: bunları karşılaştıkça öldür",
 	-- {area:287} Hillsbrad
-	["The Peasants work the fields south of the farmhouses. Every {area:287} human drops skulls; the Peasants drop them most often.\nCareful: A fleeing peasant that reaches the town hall can bring back many adds, including {area:287} footmen; snares, roots or similar effects keep them from escaping."] = "Peasant'lar çiftlik evlerinin güneyindeki tarlalarda çalışıyor. {area:287} kasabasının her insanı kafatası düşürür; en sık Peasant'lar düşürür.\nDikkat: Kaçan bir peasant belediye binasına ulaşırsa aralarında {area:287} piyadelerinin de bulunduğu çok sayıda ek yaratık getirebilir; yavaşlatma, kök salma ya da benzeri etkiler kaçmalarını önler.",
+	-- plural, as words: Kirin Tor Guards = {npc:246848} Kirin Tor Guard
+	["The Peasants work the fields south of the farmhouses. Every {area:287} human drops skulls; the Peasants drop them most often.\nCareful: A fleeing peasant that reaches the town hall can bring back many adds, including {area:287} footmen; snares, roots or similar effects keep them from escaping. Kirin Tor Guards (55) stand north of the farms, on the road up toward Alterac: keep to the fields."] = "Peasant'lar çiftlik evlerinin güneyindeki tarlalarda çalışıyor. Her {area:287} insanı kafatası düşürür; en sık Peasant'lar düşürür.\nDikkat: belediye binasına ulaşan kaçak bir köylü, {area:287} piyadeleri dahil pek çok yaratık getirebilir; yavaşlatma, kök salma veya benzeri etkiler kaçmalarını önler. Kirin Tor Guard yaratıkları (55) çiftliklerin kuzeyinde, Alterac'a çıkan yolda duruyor: tarlalarda kal.",
 	-- {item:3692} Hillsbrad Human Skull
 	["{item:3692}: the Peasants in the fields"] = "{item:3692}: tarlalardaki Peasant yaratıkları",
-	-- {npc:2451} Farmer Kalaba · {area:286} Hillsbrad Fields
-	["{npc:2451} walks around {area:286}: look inside the circle on the map"] = "{npc:2451}, {area:286} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 9: Tarren Mill
-	-- {npc:2215} High Executor Darthalia · {npc:270438} Deathstalker Masoj
-	["{npc:2215}: orders for {npc:270438}, on the way to Durnholde"] = "{npc:2215}: Durnholde yolundaki {npc:270438} için emirler",
-	-- {npc:2216} Apothecary Lydon · {item:3502} Mudsnout Blossoms
-	["{npc:2216}, inside: the {item:3502} grow south-west of Durnholde, on the walk there"] = "{npc:2216}, içeride: {item:3502} Durnholde'un güneybatısında, oraya yürürken yolda yetişiyor",
+	-- {quest:528} Battle of Hillsbrad
+	["Darthalia's next {quest:528} and Lydon's Elixir of Agony are for the next visit, at about 30."] = "Darthalia'nın bir sonraki {quest:528} görevi ve Lydon'un Elixir of Agony görevi yaklaşık 30'daki bir sonraki ziyaret için.",
 
 	-- Step 10: Durnholde Keep: kill these as you meet them
 	-- {area:275} Durnholde Keep
 	["{area:275}: kill these as you meet them"] = "{area:275}: bunları karşılaştıkça öldür",
 	-- {npc:2238} Tog'thar · {area:275} Durnholde Keep · {npc:2427} Jailor Eston · {item:3467} Dull Iron Key · {npc:2428} Jailor Marlgen · {item:3499} Burnished Gold Key · {area:272} Tarren Mill
-	["Drull and {npc:2238} are chained inside {area:275}'s courtyard buildings. Their locks need keys: {npc:2427} carries the {item:3467} and {npc:2428} the {item:3499}, both in the keep. Kill them, then open both locks.\nFrom {area:272} go south-east into the hills on the way to {area:275}. Rogues and Watchmen hold the camps along the way."] = "Drull ve {npc:2238}, {area:275} avlusundaki binalarda zincirli. Kilitleri anahtar istiyor: {npc:2427} {item:3467}, {npc:2428} de {item:3499} taşıyor; ikisi de kalede. Onları öldür, sonra iki kilidi de aç.\n{area:272} kasabasından {area:275} yolunda güneydoğuya, tepelere git. Yol boyunca kampları Rogue'lar ve Watchman'ler tutuyor.",
+	["Drull and {npc:2238} are chained inside {area:275}'s courtyard buildings. Their locks need keys: {npc:2427} carries the {item:3467} and {npc:2428} the {item:3499}, both in the keep. Kill them, then open both locks.\nFrom {area:272} go south-east into the hills on the way to {area:275}. Rogues, Watchmen and Shadow Mages hold the camps along the way; the Shadow Mages carry Lydon's Vials of Innocent Blood."] = "Drull ve {npc:2238}, {area:275} kalesinin avlusundaki binalarda zincirli. Kilitleri anahtar ister: {item:3467} eşyası {npc:2427} yanında, {item:3499} eşyası {npc:2428} yanında; ikisi de kalede. Onları öldür, sonra iki kilidi de aç.\n{area:272} kasabasından güneydoğuya, {area:275} yolundaki tepelere git. Yol boyunca kampları Rogue, Watchman ve Shadow Mage'ler tutuyor; Lydon'un Vial of Innocent Blood şişeleri Shadow Mage'lerde.",
 	-- {npc:2261} Syndicate Watchman
 	["{npc:2261} walks around here: look inside the circle on the map"] = "{npc:2261} buralarda dolaşıyor: haritadaki çemberin içine bak",
 	["Drull's ball and chain"] = "Drull'un pranga ve zinciri",
 	-- {npc:2238} Tog'thar
 	["{npc:2238}'s ball and chain"] = "{npc:2238} adlı NPC'nin pranga ve zinciri",
+	-- {item:5620} Vial of Innocent Blood
+	-- plural, as words: Syndicate Shadow Mages = {npc:2244} Syndicate Shadow Mage
+	["{item:5620}, from the Syndicate Shadow Mages"] = "{item:5620}, Syndicate Shadow Mage yaratıklarından",
 
-	-- Step 11: Deathstalker Masoj
-	-- {area:290} Dun Garok
-	["Masoj hides on the hillside above {area:290}, south-west of Durnholde, on the way down to the blossoms."] = "Masoj, Durnholde'un güneybatısında, {area:290} yukarısındaki yamaçta, çiçeklere inen yolda saklanıyor.",
-	-- {npc:270438} Deathstalker Masoj · {quest:98094} Scout Support
-	["{npc:270438}, once {quest:98094} is in"] = "{npc:270438}, {quest:98094} teslim edildikten sonra",
+	-- Step 11: Tarren Mill
+	-- {npc:2216} Apothecary Lydon · {npc:3419} Apothecary Zamah · {zone:1413} Barrens · {zone:1456} Thunder Bluff
+	["{npc:2216}: his toxin is for {npc:3419}, on the {zone:1413} & Stonetalon guide's {zone:1456} stop"] = "{npc:2216}: toksini {zone:1413} ve Stonetalon rehberinin {zone:1456} durağında {npc:3419} için",
 
-	-- Step 12: Mudsnout Blossoms
-	-- {item:3502} Mudsnout Blossoms
-	["Just south of Masoj, the {item:3502} grow on the hillsides above the river."] = "Masoj'un hemen güneyinde {item:3502} nehrin yukarısındaki yamaçlarda yetişiyor.",
-
-	-- Step 13: The southern peak
-	["The southern peak"] = "Güney tepesi",
-	-- {area:290} Dun Garok
-	["Masoj wants an Apothecary Vial placed on three peaks. The southern one is the hilltop above {area:290}, south-east of the blossoms: use a vial at the top."] = "Masoj üç zirveye birer Apothecary Vial konmasını istiyor. Güneydeki, çiçeklerin güneydoğusunda {area:290} yukarısındaki tepe: tepede bir şişe kullan.",
-
-	-- Step 14: The smithy
-	["The smithy"] = "Demirhane",
-	-- {area:287} Hillsbrad · {npc:2404} Blacksmith Verringtan · {object:1736} Shipment of Iron · {npc:2449} Citizen Wilkes
-	["The smithy stands in the middle of {area:287} town. {npc:2404} and his apprentices work at the forge; the {object:1736} is stacked beside it. {npc:2449} walks the street north of it."] = "Demirhane {area:287} kasabasının ortasında. {npc:2404} ve çırakları ocakta çalışıyor; {object:1736} hemen yanında istiflenmiş. {npc:2449} onun kuzeyindeki sokakta dolaşıyor.",
-	["Inside"] = "İçeride",
-
-	-- Step 15: The western peak
-	["The western peak"] = "Batı tepesi",
-	-- {area:287} Hillsbrad
-	["From {area:287} town climb the mountain to the north, right up to its top on the Alterac border: the western vial goes there, not on the lower slope."] = "{area:287} kasabasından kuzeydeki dağa, Alterac sınırındaki zirvesine kadar tırman: batı şişesi alt yamaca değil oraya konur.",
-
-	-- Step 16: Back to Tarren Mill
-	-- {area:272} Tarren Mill
-	["Back to {area:272}"] = "{area:272} kasabasına dön",
-	-- {area:272} Tarren Mill
-	["East along the foothills, then down into {area:272}."] = "Eteklerde doğuya ilerle, sonra {area:272} kasabasına in.",
-
-	-- Step 17: Tarren Mill
-	-- {npc:2055} Master Apothecary Faranell · {zone:1458} Undercity
-	["{npc:2055}, in the {zone:1458}"] = "{npc:2055}, {zone:1458} şehrinde",
-
-	-- Step 18: The northern peak
-	["The northern peak"] = "Kuzey tepesi",
-	-- {area:272} Tarren Mill
-	["The northern peak rises south-east of {area:272}, on the way down towards Durnholde."] = "Kuzey tepesi, Durnholde'a inerken yolda, {area:272} kasabasının güneydoğusunda yükseliyor.",
-
-	-- Step 19: Deathstalker Masoj
-	-- {area:290} Dun Garok
-	["Back down to Masoj on the hillside above {area:290}."] = "{area:290} kalesinin yukarısındaki yamaçta bulunan Masoj yanına in.",
-
-	-- Step 20: The Sepulcher
+	-- Step 12: The Sepulcher
 	-- {area:272} Tarren Mill · {area:228} The Sepulcher · {npc:2121} Shadow Priest Allister
-	["Walk back up to {area:272} and fly to the {area:228}: {npc:2121} stands by the crypt entrance."] = "Yukarı, {area:272} kasabasına yürü ve {area:228} kasabasına uç: {npc:2121} mahzen girişinin yanında duruyor.",
+	["From {area:272} fly to the {area:228}: {npc:2121} stands by the crypt entrance."] = "{area:272} kasabasından {area:228} yöresine uç: {npc:2121} mezar girişinin yanında duruyor.",
 	-- {area:272} Tarren Mill
 	["{area:272} flight master"] = "{area:272} uçuş ustası",
+	-- {npc:2121} Shadow Priest Allister · {area:233} Ambermill
+	["{npc:2121}: {area:233}'s pendants"] = "{npc:2121}: {area:233} kolyeleri",
 
-	-- Step 21: Fly to the Undercity
+	-- Step 13: Hadrec and Dalar Dawnweaver
+	-- {npc:1938} Dalar Dawnweaver
+	["Hadrec and {npc:1938}"] = "Hadrec ve {npc:1938}",
+	-- {area:236} Shadowfang Keep · {npc:1952} High Executor Hadrec · {npc:1938} Dalar Dawnweaver
+	["For your {area:236} run: {npc:1952} stands below ground in the crypt, {npc:1938} just north of Allister."] = "{area:236} koşun için: {npc:1952} mezarda yerin altında, {npc:1938} Allister'in hemen kuzeyinde duruyor.",
+	-- {npc:1952} High Executor Hadrec
+	["{npc:1952}, below ground"] = "{npc:1952}, yer altında",
+
+	-- Step 14: Shadowfang Keep
+	-- {area:236} Shadowfang Keep · {area:228} The Sepulcher · {area:204} Pyrewood Village · {npc:4444} Deathstalker Vincent · {quest:1098} Deathstalkers in Shadowfang · {npc:3886} Razorclaw the Butcher · {npc:3887} Baron Silverlaine · {npc:4278} Commander Springvale · {npc:4279} Odo the Blindwatcher · {npc:4274} Fenrus the Devourer · {npc:3927} Wolf Master Nandos · {npc:4275} Archmage Arugal · {npc:1938} Dalar Dawnweaver
+	["{area:236} is a dungeon for a group of five, about levels 20 to 30, and a full run takes about an hour. Follow the road south from the {area:228}: the keep stands on the hill above {area:204}, its gate at the top of the path.\nInside: Rethilgore first; the Deathstalker freed from the cells after him opens the courtyard door, and {npc:4444} lies just inside the courtyard, to the right: hand {quest:1098} in to him there. Then {npc:3886}, {npc:3887}, {npc:4278}, {npc:4279}, {npc:4274} and {npc:3927}; {npc:4275} at the top drops his head for {npc:1938}."] = "{area:236}, yaklaşık 20-30. seviyedeki beş kişilik bir grup için bir zindan; tam bir koşu yaklaşık bir saat sürer. {area:228} yöresinden yolu güneye izle: kale {area:204} köyünün üstündeki tepede, kapısı patikanın sonunda.\nİçeride: önce Rethilgore; ondan sonra hücrelerden kurtarılan Deathstalker avlu kapısını açar, {npc:4444} de avlunun hemen içinde, sağda yatıyor: {quest:1098} görevini orada ona teslim et. Sonra {npc:3886}, {npc:3887}, {npc:4278}, {npc:4279}, {npc:4274} ve {npc:3927}; en tepedeki {npc:4275}, {npc:1938} için başını düşürür.",
+	-- {quest:1014} Arugal Must Die · {item:5442} Head of Arugal
+	["{quest:1014}: the {item:5442}"] = "{quest:1014}: {item:5442}",
+
+	-- Step 15: Dalar Dawnweaver
+	-- {area:228} The Sepulcher · {npc:1938} Dalar Dawnweaver
+	["Back north up the road to the {area:228}: {npc:1938} stands just north of Allister."] = "Yoldan kuzeye, {area:228} yöresine geri çık: {npc:1938} Allister'in hemen kuzeyinde duruyor.",
+
+	-- Step 16: Fly to the Undercity
 	-- {area:1497} Undercity
 	["Fly to the {area:1497}"] = "{area:1497} şehrine uç",
 	-- {npc:2226} Karos Razok · {area:1497} Undercity
 	["Fly on from {npc:2226}, the bat handler just east of the crypt, to the {area:1497}."] = "Mahzenin hemen doğusundaki yarasa bakıcısı {npc:2226} ile {area:1497} şehrine uç.",
 
-	-- Step 22: Aelthalyste
+	-- Step 17: Aelthalyste
 	-- {npc:4606} Aelthalyste · {object:36070} War Quarter
 	["{npc:4606} stands in the {object:36070}."] = "{npc:4606}, {object:36070} semtinde duruyor.",
 
-	-- Step 23: Master Apothecary Faranell
+	-- Step 18: The Undercity
+	-- {zone:1458} Undercity
+	["Train and restock in the {zone:1458} before the zeppelin."] = "Zeplinden önce {zone:1458} şehrinde eğitim al ve ikmal yap.",
+
+	-- Step 19: Master Apothecary Faranell
+	-- {item:280438} Abominable Head · {area:153} Ruins of Lordaeron
+	["The {item:280438} from the {area:153}: Faranell takes it here."] = "{area:153} zindanından gelen {item:280438}: Faranell onu burada teslim alır.",
 	-- {npc:2055} Master Apothecary Faranell
 	["{npc:2055}, in the Apothecarium"] = "{npc:2055}, Apothecarium içinde",
-	-- {area:287} Hillsbrad
-	["Keep it: the {area:287} coast, later on the route"] = "Sakla: {area:287} kıyısı, rotanın ilerleyen kısmında",
 
-	-- Step 24: Archibald
+	-- Step 20: Morbin Lightbane
+	-- {area:153} Ruins of Lordaeron · {npc:266484} Morbin Lightbane · {object:36126} Royal Quarter
+	["Your {area:153} limbs: {npc:266484} stands in the {object:36126}, just past the Apothecarium."] = "{area:153} uzuvların: {npc:266484}, {object:36126} içinde, Apothecarium'un hemen ötesinde duruyor.",
+
+	-- Step 21: Oran Snakewrithe
+	-- {quest:95204} Crest of Lordaeron · {area:153} Ruins of Lordaeron · {npc:7825} Oran Snakewrithe
+	["The {quest:95204} from your {area:153} run: {npc:7825} takes it."] = "{area:153} koşundan gelen {quest:95204}: {npc:7825} onu teslim alır.",
+
+	-- Step 22: Archibald
 	-- {spell:202} Two-Handed Swords · {npc:11870} Archibald · {object:36070} War Quarter
 	["While you're here: learn {spell:202} from {npc:11870} ({object:36070}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11870} sana {spell:202} öğretir ({object:36070}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
 
-	-- Step 25: Archibald
+	-- Step 23: Archibald
 	-- {npc:11870} Archibald · {object:36070} War Quarter
 	["While you're here: learn Polearms from {npc:11870} ({object:36070}, 1 gold); two-handers level a Warrior fastest."] = "Buradayken: {npc:11870} sana Polearms öğretir ({object:36070}, 1 altın); Warrior en hızlı iki elli silahla seviye atlar.",
 
-	-- Step 26: Archibald
+	-- Step 24: Archibald
 	-- {spell:202} Two-Handed Swords · {npc:11870} Archibald · {object:36070} War Quarter
 	["While you're here: learn {spell:202} from {npc:11870} ({object:36070}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11870} sana {spell:202} öğretir ({object:36070}, 10 gümüş); Paladin en hızlı iki elli silahla seviye atlar.",
 
-	-- Step 27: Archibald
+	-- Step 25: Archibald
 	-- {npc:11870} Archibald · {object:36070} War Quarter
 	["While you're here: learn Polearms from {npc:11870} ({object:36070}, 1 gold); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11870} sana Polearms öğretir ({object:36070}, 1 altın); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
-	-- Step 28: Archibald
+	-- Step 26: Archibald
 	-- {npc:11870} Archibald · {object:36070} War Quarter
 	["While you're here: learn Swords from {npc:11870} ({object:36070}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "Buradayken: {npc:11870} sana Swords öğretir ({object:36070}, 10 gümüş); ana elde bir kılıçla Rogue istikrarla seviye atlar.",
 
-	-- Step 29: Trial of the Sea Lion
+	-- Step 27: Trial of the Sea Lion
 	-- {spell:18960} Teleport: Moonglade · {area:2362} Shrine of Remulos · {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven
 	["Cast {spell:18960}. Join the two pendant halves at the {area:2362}, on the north-west shore of the lake, before you see {npc:11802} in {area:2361}. {npc:11802} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "{spell:18960} kullan. {area:2361} köyündeki {npc:11802} ile görüşmeden önce iki kolye yarımını gölün kuzeybatı kıyısındaki {area:2362} tapınağında birleştir. {npc:11802} binasının üst katında duruyor: içeriden yukarı çık, ok katları ayırt edemez.",
 	-- {item:15885} Pendant of the Sea Lion · {area:2362} Shrine of Remulos
 	["{item:15885}: use a half at the {area:2362}"] = "{item:15885}: {area:2362} tapınağında bir yarıyı kullan",
 
-	-- Step 30: Aquatic Form
+	-- Step 28: Aquatic Form
 	-- {quest:31} Aquatic Form · {npc:11802} Dendrite Starblaze · {npc:11798} Bunthen Plainswind · {area:2361} Nighthaven · {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise
 	["Take {quest:31} from {npc:11802}, who stands upstairs in his building. Then {npc:11798} in {area:2361} flies druids to {area:1638}: {npc:3033} is on {area:1639}."] = "Binasının üst katında duran {npc:11802} adlı NPC'den {quest:31} görevini al. Sonra {area:2361} köyündeki {npc:11798}, druid'leri {area:1638} şehrine uçurur: {npc:3033}, {area:1639} tepesinde.",
 	-- {npc:11798} Bunthen Plainswind · {area:2361} Nighthaven
 	["{npc:11798} in {area:2361} flies druids there"] = "{area:2361} köyündeki {npc:11798} Druid'leri oraya uçurur",
 
-	-- Step 31: Back to the Crossroads
+	-- Step 29: Back to the Crossroads
 	["Back to the Crossroads"] = "Crossroads'a dön",
-	-- {npc:3033} Turak Runetotem · {npc:3024} Tah Winterhoof · {npc:4721} Zangen Stonehoof
-	["Train with {npc:3033}. Before you fly on, {npc:3024} and {npc:4721}, a short walk east of the wind rider master, give two quests worked on the next guides' walks; then fly on to the Crossroads, where the next guide starts."] = "{npc:3033} ile eğitim al. Uçmadan önce wind rider ustasının kısa bir yürüyüş doğusundaki {npc:3024} ve {npc:4721}, sonraki rehberlerin yürüyüşlerinde yapılan iki görev verir; sonra sonraki rehberin başladığı Crossroads'a uç.",
+	-- {npc:3033} Turak Runetotem · {npc:3419} Apothecary Zamah · {area:2197} Pools of Vision · {area:1640} Spirit Rise · {npc:3024} Tah Winterhoof · {npc:4721} Zangen Stonehoof
+	["Train with {npc:3033}. {npc:3419}, in the {area:2197} under {area:1640}, takes Lydon's toxin if you carry it. Before you fly on, {npc:3024} and {npc:4721}, a short walk east of the wind rider master, give two quests worked on the next guides' walks; then fly on to the Crossroads, where the next guide starts."] = "{npc:3033} ile eğitim al. {area:1640} altındaki {area:2197} içindeki {npc:3419}, yanındaysa Lydon'un toksinini teslim alır. Uçmadan önce rüzgâr süvarisi ustasının biraz doğusundaki {npc:3024} ve {npc:4721}, sonraki rehberlerin yürüyüşlerinde yapılan iki görev verir; sonra sonraki rehberin başladığı Crossroads'a uç.",
+	-- {npc:3419} Apothecary Zamah · {item:5638} Toxic Fogger · {area:461} Windshear Crag
+	["{npc:3419}: the {item:5638}, for {area:461} in the next guide"] = "{npc:3419}: {item:5638}, sonraki rehberde {area:461} için",
 	-- {npc:3024} Tah Winterhoof · {quest:97538} Pigments for Paints · {area:464} Mirkfallon Lake
 	["{npc:3024}: {quest:97538}, the Mirkweed in {area:464} by Sun Rock"] = "{npc:3024}: {quest:97538}, Sun Rock yanındaki {area:464} gölünde Mirkweed",
 	-- {npc:4721} Zangen Stonehoof · {quest:1195} The Sacred Flame · {zone:1440} Ashenvale
 	-- plural, as words: Laughing Sisters = {npc:4054} Laughing Sister
 	["{npc:4721}: {quest:1195}, the phial from {zone:1440}'s Laughing Sisters"] = "{npc:4721}: {quest:1195}, {zone:1440} bölgesindeki Laughing Sister'lardan şişe",
 
-	-- Step 32: Zeppelin to Orgrimmar
+	-- Step 30: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
 	["Zeppelin to {zone:1454}"] = "Zeplinle {zone:1454} şehrine",
 
-	-- Step 33: Orgrimmar
+	-- Step 31: Orgrimmar
 	-- {zone:1454} Orgrimmar
 	["The middle of {zone:1454}"] = "{zone:1454} şehrinin ortası",
 
-	-- Step 34: Orgrimmar
-	["Train before you fly on: the next guide flies from here to the Crossroads."] = "Uçmadan önce eğitimini al: sonraki rehber buradan Crossroads'a uçar.",
+	-- Step 32: Orgrimmar
+	["Train before you fly on: the next guide flies from here."] = "Uçmadan önce eğitim al: sonraki rehber buradan uçar.",
 }

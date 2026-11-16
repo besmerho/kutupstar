@@ -129,7 +129,7 @@ return {
 	-- Step 22: Dirge Quikcleave's Chops
 	-- {npc:8125} Dirge Quikcleave
 	["{npc:8125}'s Chops"] = "{npc:8125} pirzolaları",
-	-- {npc:8125} Dirge Quikcleave · {item:9061} Goblin Rocket Fuel · {item:8150} Deeprock Salt · {npc:11811} Narain Soothfancy · {item:18562} Elementium Ore · {item:21136} Arcanite Buoy · {object:180669} Swirling Maelstrom (no name in this language: may be words) · {zone:1447} Azshara · {area:1227} Bay of Storms · {npc:15571} Maws · {item:21137} Blue Scepter Shard
+	-- {npc:8125} Dirge Quikcleave · {item:9061} Goblin Rocket Fuel · {item:8150} Deeprock Salt · {npc:11811} Narain Soothfancy · {item:18562} Elementium Ore · {item:21136} Arcanite Buoy · {object:180669} Swirling Maelstrom · {zone:1447} Azshara · {area:1227} Bay of Storms · {npc:15571} Maws · {item:21137} Blue Scepter Shard
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar · Azerothian Diamonds = {item:12800} Azerothian Diamond · Blue Sapphires = {item:12361} Blue Sapphire
 	["{npc:8125} wants 20 {item:9061} and 20 {item:8150} with the meat. {npc:11811} then wants 20 Arcanite Bars, 10 {item:18562}, 10 Azerothian Diamonds and 10 Blue Sapphires, and gives you an {item:21136}: placed at the {object:180669} in {zone:1447}'s {area:1227}, it calls up {npc:15571}, a level 63 boss for a raid. {npc:15571} drops the {item:21137} for one raider on the quest each kill."] = "{npc:8125}, etle birlikte 20 {item:9061} ve 20 {item:8150} istiyor. Sonra {npc:11811}, 20 Arcanite Bar, 10 {item:18562}, 10 Azerothian Diamond ve 10 Blue Sapphire istiyor ve sana bir {item:21136} veriyor: {zone:1447} bölgesinin {area:1227} kesimindeki {object:180669} yanına konunca bir raid için seviye 63 bir boss olan {npc:15571} yaratığını çağırır. {npc:15571} her öldürmede görevdeki bir raid üyesine {item:21137} düşürür.",
 	-- {item:12360} Arcanite Bar
@@ -155,8 +155,8 @@ return {
 	["{npc:15624}: 25 (and 25 Cenarion Circle)"] = "{npc:15624}: 25 (ve 25 Cenarion Circle)",
 
 	-- Step 26: Keeper Remulos
-	-- {quest:8735} The Nightmare's Corruption · {zone:1440} Ashenvale · {zone:1444} Feralas · {zone:1425} Hinterlands · {npc:15625} Twilight Corrupter · {zone:1431} Duskwood
-	["{quest:8735} wants a fragment from each of the four Dragons of Nightmare portals: elite dragonkin at the {zone:1440}, {zone:1444} and {zone:1425} portals (5% each) and the {npc:15625} in {zone:1431}. Raid content."] = "{quest:8735}, dört Dragons of Nightmare portalının her birinden bir parça istiyor: {zone:1440}, {zone:1444} ve {zone:1425} portallarındaki elit dragonkin'ler (her biri %5) ve {zone:1431} bölgesindeki {npc:15625}. Raid içeriği.",
+	-- {quest:8735} The Nightmare's Corruption · {npc:235289} Dragons of Nightmare · {zone:1440} Ashenvale · {zone:1444} Feralas · {zone:1425} Hinterlands · {npc:15625} Twilight Corrupter · {zone:1431} Duskwood
+	["{quest:8735} wants a fragment from each of the four {npc:235289} portals: elite dragonkin at the {zone:1440}, {zone:1444} and {zone:1425} portals (5% each) and the {npc:15625} in {zone:1431}. Raid content."] = "{quest:8735}, dört {npc:235289} portalının her birinden bir parça istiyor: {zone:1440}, {zone:1444} ve {zone:1425} portallarındaki elit dragonkin'ler (her biri %5) ve {zone:1431} bölgesindeki {npc:15625}. Raid içeriği.",
 	["10 (and 100 Cenarion Circle)"] = "10 (ve 100 Cenarion Circle)",
 
 	-- Step 27: The Ashenvale portal

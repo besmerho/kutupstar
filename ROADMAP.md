@@ -2,10 +2,10 @@
 
 Upstream: https://github.com/fitzforge/polestar, cloned into `upstream/` at the release in `package.json` → `config.polestarTag`. Interface 16001, GPL-3.0-only.
 
-## Status (11 Nov 2026, branch `main`)
+## Status (16 Nov 2026, branch `polestar-v0.4.0`)
 
-- Polestar pinned at **v0.3.7**, its newest release; Kutupstar **0.3.7** built and installed in Barış's game, uploaded to CurseForge on 11 Nov (file 9561909), not yet tested in game. UI 2945/3074 (the other 129 stay English on purpose), guides 10687/10687 in 260 guides.
-- **Next:** the in-game test of 0.3.7, then the next Polestar release (`node tools/kutup.js latest`). Open items and details: [docs/HANDOFF.md](docs/HANDOFF.md), which is the place to look first and to keep current.
+- Polestar pinned at **v0.4.0**, its newest release, on the branch `polestar-v0.4.0` (not merged into `main`, which still has v0.3.7). Kutupstar **0.4.0** built and installed in Barış's game, not yet tested in game and not uploaded. UI 4203/4325 (the other 122 stay English on purpose), guides 11790/11790 in 263 guides. The language dropdown moved to Polestar's Theme page, Text tab.
+- **Next:** the in-game test of 0.4.0 (the dropdown first), then merge and, on Barış's OK, the upload; then the next Polestar release (`node tools/kutup.js latest`). Open items and details: [docs/HANDOFF.md](docs/HANDOFF.md), which is the place to look first and to keep current.
 
 ### History (the numbers of that time, at Polestar v0.2.6)
 
@@ -54,7 +54,7 @@ The folder is `Kutupstar`, with the title "Kutupstar (Polestar TR)". It has **no
 - **Interface text, early:** a secure post-hook on `GetLocale` (`hooksecurefunc`, which doesn't taint) fills `Polestar.L` on the first call after Polestar's `Init.lua` made it, which is the top of Polestar's first Locales file. Texts Polestar reads at load (the whole Options window, slash help, bindings) are therefore Turkish too.
 - **Fallback, late:** if a Polestar update changes that sequence, L is filled at `ADDON_LOADED("Polestar")`. Texts read at load then stay English, and the bindings are set again.
 - **Guides:** `GuideTexts.Prepare`, `PackText` and `RegisterPack` are wrapped at `ADDON_LOADED("Polestar")`, before `Polestar_Guides` loads.
-- **Language choice:** a "Dil · Language" dropdown (Türkçe/English) on Polestar's Appearance page, tab "Colour & type", through the public `RegisterOptions`. It is stored in `KutupstarDB.language` because Polestar's settings load too late, and it takes effect on reload. English leaves Polestar untouched.
+- **Language choice:** a "Dil · Language" dropdown (Türkçe/English) on Polestar's Appearance page, tab "Colour & type" (since Polestar 0.4.0: the Theme page, tab "Text", in the `Polestar_Options` addon), through the public `RegisterOptions`. It is stored in `KutupstarDB.language` because Polestar's settings load too late, and it takes effect on reload. English leaves Polestar untouched.
 - **Update-proof:** every hook type-checks what it wraps and runs under `pcall`. A text whose English changed, a new guide or a renamed function falls back to Polestar's English. The TOC's Interface is copied from the installed Polestar at build time, or with no game (CI, a cloud session) from the pinned Polestar's TOC.
 - **Font:** some fonts Polestar may draw in have no `ş` (a box in game): the enUS game font (FRIZQT__), perhaps EllesmereUI's. While Turkish is on, a wrapper on `Theme.FontSpec` measures each font once (is `ş` as wide as a missing glyph and unlike `s`?) and gives text whose font lacks `ş` Polestar's own Fira Sans at the role's weight (what Polestar itself does on ruRU). A font that draws `ş` stays, whoever chose it; the fonts set aside are listed in `KutupstarDB.diag.fonts`. Text in the game's own frames (tooltips, chat) keeps the game's fonts.
 - **Joins:** Polestar's turn-in map marker tooltip is `L["Turn in"] .. ": " .. title` (Quests/Tracker.lua), so the Turkish verb, which carries its own colon, came out as "Teslim et:: …". While Turkish is on, a post-hook (`hooksecurefunc`) on `GameTooltip:AddLine` sets that one line again with a single colon; other lines are untouched. `KutupstarDB.diag.hooks.joins` shows it is in. A scan of Polestar v0.2.6 found no other `L[...] .. ": "` join whose Turkish ends in a colon (not repeated on v0.3.0).

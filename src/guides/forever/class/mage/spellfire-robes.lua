@@ -8,7 +8,7 @@ return {
 	["A robe at 15 for Horde mages, from the {zone:1458} and {zone:1421}."] = "Seviye 15'teki Horde Mage'ler için {zone:1458} ve {zone:1421} bölgelerinden bir cüppe.",
 
 	-- Step 1: Uthel'nay (Orgrimmar)
-	-- {npc:7311} Uthel'nay · {zone:1454} Orgrimmar · {object:173161} Darkbriar Lodge (no name in this language: may be words) · {object:172961} Valley of Spirits · {zone:1420} Tirisfal Glades
+	-- {npc:7311} Uthel'nay · {zone:1454} Orgrimmar · {object:173161} Darkbriar Lodge · {object:172961} Valley of Spirits · {zone:1420} Tirisfal Glades
 	["{npc:7311} is one of {zone:1454}'s mage trainers, in {object:173161} in the {object:172961}. Then take the zeppelin to {zone:1420} from the tower outside {zone:1454}'s main gate."] = "{npc:7311}, {zone:1454} şehrinin mage eğitmenlerinden biri, {object:172961} kesimindeki {object:173161} içinde. Sonra {zone:1454} şehrinin ana kapısının dışındaki kuleden {zone:1420} zeplinine bin.",
 
 	-- Step 2: Cain Firesong (Brill)

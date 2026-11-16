@@ -38,7 +38,8 @@ return {
 	-- {area:307} The Overlook Cliffs
 	["{area:307}: kill these as you meet them"] = "{area:307}: bunları karşılaştıkça öldür",
 	-- {npc:2491} Whiskey Slim · {area:307} The Overlook Cliffs
-	["The big turtles crawl along the beaches north of the village, and {npc:2491}'s bottles of port lie on the same beaches, from the village up to the {area:307}: pick them up as you go. A snapjaw can drop OOX-09/HL's distress beacon, rarely: keep it."] = "Büyük kaplumbağalar köyün kuzeyindeki sahillerde sürünüyor; {npc:2491} adlı NPC'nin porto şişeleri de köyden {area:307} kayalıklarına kadar aynı sahillerde duruyor: giderken topla. Bir snapjaw nadiren OOX-09/HL'nin imdat işaretçisini düşürebilir: sakla.",
+	-- plural, as words: Saltwater Snapjaws = {npc:2505} Saltwater Snapjaw
+	["The big turtles crawl along the beaches north of the village, and {npc:2491}'s bottles of port lie on the same beaches, from the village up to the {area:307}: pick them up as you go. A snapjaw can drop OOX-09/HL's distress beacon, rarely: keep it.\nCareful: the biggest Saltwater Snapjaws are 50: pull them one at a time."] = "Büyük kaplumbağalar köyün kuzeyindeki kumsallar boyunca sürünüyor, {npc:2491} adlı NPC'nin porto şişeleri de köyden {area:307} uçurumlarına kadar aynı kumsallarda yatıyor: geçerken topla. Bir snapjaw nadiren OOX-09/HL'nin imdat işaretçisini düşürebilir: sakla.\nDikkat: en büyük Saltwater Snapjaw yaratıkları 50: tek tek çek.",
 	-- {object:2068} Pupellyverbos Port
 	["{object:2068}, on the beaches"] = "{object:2068}, sahillerde",
 	-- {item:8704} OOX-09/HL Distress Beacon
@@ -113,8 +114,8 @@ return {
 
 	-- Step 25: Level 49.02
 	["Level 49.02"] = "Seviye 49.02",
-	-- {quest:7816} Gammerita, Mon! · {area:354} Jintha'Alor · {area:2100} Maraudon
-	["If you skipped {quest:7816} or the {area:354} group quests, grind here to level 49.02 to stay on the route's plan. Or, with a group, run the {area:2100} dungeon instead."] = "{quest:7816} görevini ya da {area:354} grup görevlerini atladıysan rotanın planında kalmak için burada seviye 49.02 olana kadar kas. Ya da grupla, bunun yerine {area:2100} zindanına gir.",
+	-- {quest:7816} Gammerita, Mon! · {area:354} Jintha'Alor
+	["If you skipped {quest:7816} or the {area:354} group quests, grind here to level 49.02 to stay on the route's plan."] = "{quest:7816} ya da {area:354} grup görevlerini atladıysan, rotanın planında kalmak için burada 49.02. seviyeye kadar kas.",
 	-- {npc:2505} Saltwater Snapjaw
 	["grind on {npc:2505}"] = "Kas: {npc:2505}",
 
@@ -122,21 +123,27 @@ return {
 	-- {area:353} Shadra'Alor
 	["South-west again, the exile hides by the ruins of {area:353}."] = "Yine güneybatıda sürgün, {area:353} harabelerinin yanında saklanıyor.",
 
-	-- Step 28: Grim Message
+	-- Step 27: Grim Message
 	-- {item:15002} Nimboya's Pike
 	["South of the lodge the Witherbark trolls hold their villages. Every one of them carries a skull: with twenty, use {item:15002} to make the Laden Pike, then plant it inside the village."] = "Köşkün güneyinde Witherbark trolları köylerini tutuyor. Her biri bir kafatası taşıyor: yirmi tane olunca Laden Pike yapmak için {item:15002} kullan, sonra onu köyün içine dik.",
 
-	-- Step 29: Aerie Peak
+	-- Step 28: Aerie Peak
 	-- {area:348} Aerie Peak
 	["Ride all the way west to the Wildhammer town of {area:348} and place the message by the well in its centre. The town is full of Alliance guards: get in, place it and get out."] = "Batıya, Wildhammer kasabası {area:348} yuvasına kadar git ve mesajı ortadaki kuyunun yanına bırak. Kasaba Alliance muhafızlarıyla dolu: gir, bırak ve çık.",
 	-- {area:348} Aerie Peak
 	["{area:348} well"] = "{area:348} kuyusu",
 
-	-- Step 31: Fly to Stonard
+	-- Step 30: Fly to Stonard
 	-- {area:75} Stonard
 	["Fly to {area:75}"] = "{area:75} kasabasına uç",
 	-- {area:3317} Revantusk Village
 	["{area:3317} flight master"] = "{area:3317} uçuş ustası",
+
+	-- Step 31: To Stonard
+	-- {area:75} Stonard
+	["To {area:75}"] = "Git: {area:75}",
+	-- {area:75} Stonard · {object:3202} Grom'gol (no name in this language: may be words) · {zone:1431} Duskwood · {zone:1430} Deadwind Pass
+	["No flight path to {area:75} yet: the arrow takes the quickest way there (by the {object:3202} flight and the road through {zone:1431} and {zone:1430}). Learn {area:75}'s flight path when you arrive."] = "Henüz {area:75} uçuş noktası yok: ok oraya en hızlı yoldan götürür ({object:3202} uçuşu ve {zone:1431} ile {zone:1430} içinden geçen yolla). Varınca {area:75} uçuş hattını öğren.",
 
 	-- Step 32: Fel'zerul
 	["On the top floor"] = "En üst katta",
@@ -159,7 +166,7 @@ return {
 	["{area:1440}: kill these as you meet them"] = "{area:1440}: bunları karşılaştıkça öldür",
 	-- {npc:5982} Black Slayer · {spell:5416} Venom Sting · {npc:8301} Clack the Reaver
 	-- plural, as words: Starving Snickerfangs = {npc:5984} Starving Snickerfang · Scorpok Stingers = {npc:5988} Scorpok Stinger
-	["The five quests share the same parts: gather them all in one sweep. West of the road the {npc:5982} vultures, Starving Snickerfangs, Scorpok Stingers and Deatheye basilisks share the hills.\nEast of the road the Ashmane boars and Grunters root on the slopes beside the Redstone basilisks. Stay away from the level 52 Helboars further south.\nCareful: Scorpok Stingers use {spell:5416}; {npc:8301} adds Knockdown."] = "Beş görev aynı parçaları paylaşıyor: hepsini tek turda topla. Yolun batısında {npc:5982} akbabaları, Starving Snickerfang, Scorpok Stinger ve Deatheye basilisk'leri tepeleri paylaşıyor.\nYolun doğusunda Ashmane domuzları ve Grunter'lar Redstone basilisk'lerinin yanındaki yamaçlarda toprağı eşeliyor. Daha güneydeki seviye 52 Helboar'lardan uzak dur.\nDikkat: Scorpok Stinger'lar {spell:5416} kullanır; {npc:8301} buna Knockdown ekler.",
+	["The five quests share the same parts: gather them all in one sweep. West of the road the {npc:5982} vultures, Starving Snickerfangs, Scorpok Stingers and Deatheye basilisks share the hills.\nEast of the road the Ashmane boars and Grunters root on the slopes beside the Redstone basilisks. Stay away from the level 52 Helboars further south.\nCareful: Scorpok Stingers (50-51) use {spell:5416}; {npc:8301} adds Knockdown. Pull the Stingers one at a time."] = "Beş görev aynı parçaları paylaşıyor: hepsini tek turda topla. Yolun batısında {npc:5982} akbabaları, Starving Snickerfang, Scorpok Stinger ve Deatheye basilisk'leri tepeleri paylaşıyor.\nYolun doğusunda Ashmane yaban domuzları ve Grunter'lar Redstone basilisk'lerinin yanındaki yamaçlarda eşeleniyor. Daha güneydeki 52. seviye Helboar'lardan uzak dur.\nDikkat: Scorpok Stinger yaratıkları (50-51) {spell:5416} kullanır; {npc:8301} buna Knockdown ekler. Stinger'ları tek tek çek.",
 
 	-- Step 38: The bloodmages
 	["Ride back north to the bloodmages."] = "Kuzeye, kan büyücülerine dön.",

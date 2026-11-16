@@ -99,6 +99,34 @@ return {
 	-- {npc:263664} Raan Wildwind · {spell:1229451} Boosted Rest
 	["/sit by {npc:263664}'s campfire until you get {spell:1229451}"] = "{spell:1229451} gelene kadar {npc:263664} kamp ateşinin yanında otur (/sit)",
 
+	-- Step 15: Camping 101: Skinning
+	-- {npc:257024} Mendalass Tattermend · {skill:393} Skinning
+	["{npc:257024} takes it once your {skill:393} skill is 20: gather or craft until then, the guide carries on meanwhile."] = "{npc:257024}, {skill:393} becerin 20 olunca görevi kabul eder: o zamana kadar topla ya da üret, rehber bu arada devam eder.",
+
+	-- Step 16: Camping 101: First Aid
+	-- {npc:257018} Naleeia Tattermend · {skill:129} First Aid
+	["{npc:257018} takes it once your {skill:129} skill is 20: gather or craft until then, the guide carries on meanwhile."] = "{npc:257018}, {skill:129} becerin 20 olunca görevi kabul eder: o zamana kadar topla ya da üret, rehber bu arada devam eder.",
+
+	-- Step 17: Camping 101: Leatherworking
+	-- {npc:251993} Indari Sunseam · {skill:165} Leatherworking
+	["{npc:251993} takes it once your {skill:165} skill is 20: gather or craft until then, the guide carries on meanwhile."] = "{npc:251993}, {skill:165} becerin 20 olunca görevi kabul eder: o zamana kadar topla ya da üret, rehber bu arada devam eder.",
+
+	-- Step 18: Camping 101: Mining
+	-- {npc:257022} Messana Crestwind · {skill:186} Mining
+	["{npc:257022} takes it once your {skill:186} skill is 20: gather or craft until then, the guide carries on meanwhile."] = "{npc:257022}, {skill:186} becerin 20 olunca görevi kabul eder: o zamana kadar topla ya da üret, rehber bu arada devam eder.",
+
+	-- Step 19: Camping 101: Alchemy
+	-- {npc:257019} Nyassa Swiftdraught · {skill:171} Alchemy
+	["{npc:257019} takes it once your {skill:171} skill is 20: gather or craft until then, the guide carries on meanwhile."] = "{npc:257019}, {skill:171} becerin 20 olunca görevi kabul eder: o zamana kadar topla ya da üret, rehber bu arada devam eder.",
+
+	-- Step 20: Camping 101: Blacksmithing
+	-- {npc:251913} Aedi Thriceforged · {skill:164} Blacksmithing
+	["{npc:251913} takes it once your {skill:164} skill is 20: gather or craft until then, the guide carries on meanwhile."] = "{npc:251913}, {skill:164} becerin 20 olunca görevi kabul eder: o zamana kadar topla ya da üret, rehber bu arada devam eder.",
+
+	-- Step 21: Camping 101: Fishing
+	-- {npc:251992} Fenn Fairweather · {skill:356} Fishing
+	["{npc:251992} takes it once your {skill:356} skill is 20: gather or craft until then, the guide carries on meanwhile."] = "{npc:251992}, {skill:356} becerin 20 olunca görevi kabul eder: o zamana kadar topla ya da üret, rehber bu arada devam eder.",
+
 	-- Step 22: Shen'dar Village
 	-- {npc:251905} Zerril Softbreeze
 	["{npc:251905}: Camping 101 asks you to learn it"] = "{npc:251905}: Camping 101 bunu öğrenmeni istiyor",
@@ -114,7 +142,7 @@ return {
 	-- {area:16624} Shen'dar Village
 	["{area:16624} hand-ins"] = "{area:16624} teslimleri",
 	-- {npc:251905} Zerril Softbreeze · {npc:251906} Teeri Wellwind · {npc:251991} Taleen Shimmerthread · {npc:252172} Danarii Bellowveil · {npc:251523} Constable Aonda · {area:16624} Shen'dar Village · {item:5469} Strider Meat
-	["{npc:251905}, {npc:251906}, {npc:251991}, {npc:252172} and {npc:251523} all stand in {area:16624}. If you are still short of {item:5469}, the Galestriders graze just south of the village."] = "{npc:251905}, {npc:251906}, {npc:251991}, {npc:252172} ve {npc:251523}, hepsi {area:16624} köyünde duruyor. Hâlâ {item:5469} eksiğin varsa Galestrider'lar köyün hemen güneyinde otluyor.",
+	["{npc:251905}, {npc:251906}, {npc:251991}, {npc:252172} and {npc:251523} all stand in {area:16624}. If you are still short of {item:5469}, the Galestriders graze just west of the village; the Al'Aketh camps south and south-east of it are a level or two higher."] = "{npc:251905}, {npc:251906}, {npc:251991}, {npc:252172} ve {npc:251523}, hepsi {area:16624} köyünde duruyor. Hâlâ {item:5469} eksikse Galestrider yaratıkları köyün hemen batısında otluyor; köyün güneyindeki ve güneydoğusundaki Al'Aketh kampları bir iki seviye daha yüksek.",
 
 	-- Step 32: Shen'dar Highlands: kill these as you meet them
 	-- {area:16623} Shen'dar Highlands
@@ -184,8 +212,6 @@ return {
 	["Skyhoppers hop about the fields just west of Valennia."] = "Skyhopper yaratıkları Valennia'nın hemen batısındaki tarlalarda zıplıyor.",
 
 	-- Step 48: Ayessa Dawnsinger
-	-- {npc:260628} Valennia Stormfist
-	["{npc:260628}, upstairs"] = "{npc:260628}, üst katta",
 	-- {npc:251968} Ayessa Dawnsinger
 	["talk to {npc:251968}"] = "{npc:251968} ile konuş",
 	-- {npc:252382} Sessaria Skystride · {npc:251968} Ayessa Dawnsinger · {quest:97243} Call of Fire
@@ -324,6 +350,10 @@ return {
 	-- {npc:252476} Talaanis Shadowsong
 	["talk to {npc:252476}"] = "{npc:252476} ile konuş",
 
+	-- Step 75: Desperate Times
+	-- {npc:251968} Ayessa Dawnsinger · {npc:252475} Elaadrin Evengale
+	["Valennia asks you to hear out both leaders: {npc:251968} of the Horde and {npc:252475} of the Alliance. {npc:252475}'s name shows red to you, but he talks to you all the same, and the quest needs both."] = "Valennia senden iki liderin de sözünü dinlemeni istiyor: Horde'dan {npc:251968} ve Alliance'tan {npc:252475}. {npc:252475} adı sana kırmızı görünür, ama yine de seninle konuşur ve görev ikisini de ister.",
+
 	-- Step 77: Desperate Times
 	-- {npc:253844} Valennia Stormfist
 	["talk to {npc:253844}"] = "{npc:253844} ile konuş",
@@ -452,16 +482,22 @@ return {
 	-- Step 105: Into Mulgore
 	-- {zone:1412} Mulgore
 	["Into {zone:1412}"] = "{zone:1412} bölgesine",
+	-- {zone:1456} Thunder Bluff · {zone:1412} Mulgore · {zone:1413} Barrens
+	["Take {zone:1456}'s west lift down: the road at its foot runs south-east across {zone:1412} to the {zone:1413}."] = "{zone:1456} şehrinin batı asansörüyle aşağı in: dibindeki yol {zone:1412} bölgesinin içinden güneydoğuya, {zone:1413} bölgesine uzanır.",
 
-	-- Step 106: Into The Barrens
-	-- {zone:1413} The Barrens
+	-- Step 106: Into Barrens
+	-- {zone:1413} Barrens
 	["Into {zone:1413}"] = "{zone:1413} bölgesine",
 
-	-- Step 108: The Crossroads
-	-- {npc:3615} Devrak · {area:380} The Crossroads · {zone:1421} Silverpine Forest · {zone:1413} The Barrens
+	-- Step 107: Camp Taurajo
+	-- {zone:1412} Mulgore · {area:458} Gold Road · {area:378} Camp Taurajo · {npc:10378} Omusa Thunderhorn · {npc:3418} Kirge Sternhorn
+	["The road from {zone:1412} meets the {area:458} at {area:378}: {npc:10378}, the wind rider master, stands beside {npc:3418} on your way north to the Crossroads."] = "{zone:1412} yolu {area:378} kampında {area:458} yoluna kavuşur: rüzgâr süvarisi ustası {npc:10378}, kuzeye Crossroads'a giderken yolunun üstünde, {npc:3418} yanında duruyor.",
+
+	-- Step 109: The Crossroads
+	-- {npc:3615} Devrak · {area:380} The Crossroads · {zone:1421} Silverpine Forest · {zone:1413} Barrens
 	["Learn the flight path from {npc:3615} on the tower platform. {area:380}' own quests come after {zone:1421}, in the {zone:1413} guide."] = "Kule platformundaki {npc:3615} adlı NPC'den uçuş noktasını öğren. {area:380} kasabasının kendi görevleri {zone:1421} bölgesinden sonra, {zone:1413} rehberinde gelir.",
 
-	-- Step 109: To Orgrimmar
+	-- Step 110: To Orgrimmar
 	-- {zone:1454} Orgrimmar
 	["To {zone:1454}"] = "Git: {zone:1454}",
 	-- {area:379} Far Watch Post · {area:815} Southfury River · {zone:1411} Durotar · {zone:1454} Orgrimmar · {quest:95350} Welcome to Azeroth · {zone:1420} Tirisfal Glades · {zone:1421} Silverpine Forest

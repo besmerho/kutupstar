@@ -40,8 +40,8 @@ return {
 	["{npc:11401}: take her {quest:5634} letter"] = "{npc:11401}: {quest:5634} mektubunu al",
 
 	-- Step 6: Desperate Prayer: High Priest Rohan
-	-- {npc:11406} High Priest Rohan · {object:32386} Hall of Mysteries (no name in this language: may be words) · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words) · {quest:5634} Desperate Prayer
-	["At 10, go to {npc:11406} in the {object:32386}, in {zone:1455}'s {object:32362} (north-west of the city): he gives {quest:5634} and takes it back at once. No letter needed. {quest:5634} heals you instantly, costs no mana and has a long cooldown: keep it for emergencies."] = "10'da {zone:1455} şehrinin {object:32362} semtindeki (şehrin kuzeybatısı) {object:32386} içinde duran {npc:11406} yanına git: {quest:5634} görevini verir ve hemen geri alır. Mektup gerekmez. {quest:5634} seni anında iyileştirir, mana harcamaz ve uzun bir bekleme süresi var: acil durumlar için sakla.",
+	-- {npc:11406} High Priest Rohan · {object:32386} Hall of Mysteries (no name in this language: may be words) · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words) · {quest:5639} Desperate Prayer
+	["At 10, go to {npc:11406} in the {object:32386}, in {zone:1455}'s {object:32362} (north-west of the city): he gives {quest:5639} and takes it back at once. No letter needed. {quest:5639} heals you instantly, costs no mana and has a long cooldown: keep it for emergencies."] = "10'da {zone:1455} şehrinin {object:32362} içindeki (şehrin kuzeybatısı) {object:32386} salonunda {npc:11406} yanına git: {quest:5639} görevini verir ve hemen geri alır. Mektuba gerek yok. {quest:5639} seni anında iyileştirir, mana harcamaz ve bekleme süresi uzundur: acil durumlara sakla.",
 
 	-- Step 7: Desperate Prayer: Maxan Anvol's letter
 	-- {quest:5637} Desperate Prayer · {npc:1226} Maxan Anvol

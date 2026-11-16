@@ -13,8 +13,8 @@ return {
 	["At 30 {npc:5875}, in the {object:172960} under the {object:172982}, sends you to {npc:6251} in {area:392}."] = "Seviye 30'da {object:172982} vadisinin altındaki {object:172960} içinde bulunan {npc:5875}, seni {area:392} kasabasındaki {npc:6251} yanına gönderir.",
 
 	-- Step 2: Seeking Strahad (Undercity)
-	-- {npc:5675} Carendin Halgar · {object:36082} Magic Quarter · {npc:6251} Strahad Farsan · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar · {quest:2996} Seeking Strahad
-	["At 30 {npc:5675}, in the {object:36082}, sends you to {npc:6251} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}. Take only one {quest:2996}: if {npc:6251} offers nothing, drop the duplicate from your log."] = "30'da {object:36082} kesimindeki {npc:5675}, seni {area:392} kasabasındaki {npc:6251} yanına gönderir. {zone:1420} zeplini {zone:1411} bölgesine uçar. Yalnızca bir {quest:2996} al: {npc:6251} bir şey önermezse kopyasını günlüğünden sil.",
+	-- {npc:5675} Carendin Halgar · {object:36082} Magic Quarter · {npc:6251} Strahad Farsan · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar · {quest:3001} Seeking Strahad
+	["At 30 {npc:5675}, in the {object:36082}, sends you to {npc:6251} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}. Take only one {quest:3001}: if {npc:6251} offers nothing, drop the duplicate from your log."] = "30'da {object:36082} içindeki {npc:5675} seni {area:392} limanındaki {npc:6251} yanına yollar. {zone:1420} zeplini {zone:1411} bölgesine uçar. Yalnızca bir {quest:3001} al: {npc:6251} bir şey sunmuyorsa kopyasını günlüğünden sil.",
 
 	-- Step 3: Strahad Farsan
 	-- {area:392} Ratchet · {zone:1454} Orgrimmar · {npc:6251} Strahad Farsan · {npc:6266} Menara Voidrender · {npc:6293} Jorah Annison · {zone:1458} Undercity

@@ -8,12 +8,13 @@ return {
 	["Starts now at 22 at the {area:444}; its mobs are 28-30, so go nearer 30 or with a friend. Alliance only for now."] = "Artık 22'de {area:444} kulesinde başlıyor; yaratıkları 28-30, bu yüzden 30'a yakın ya da bir arkadaşınla git. Şimdilik yalnızca Alliance.",
 
 	-- Step 1: The Strange Orb
-	["The Strange Orb"] = "Strange Orb",
-	-- {area:444} Tower of Althalaxx · {zone:1439} Darkshore · {spell:686} Shadow Bolt · {object:409311} Spear of Mannoroth
+	-- {object:409289} Strange Orb (no name in this language: may be words)
+	["The {object:409289}"] = "{object:409289}",
+	-- {area:444} Tower of Althalaxx · {zone:1439} Darkshore · {spell:686} Shadow Bolt · {object:409289} Strange Orb (no name in this language: may be words) · {item:209748} Althalaxx Orb · {object:409311} Spear of Mannoroth
 	-- plural, as words: Dark Strand Fanatics = {npc:2336} Dark Strand Fanatic · Dark Strand Voidcallers = {npc:2337} Dark Strand Voidcaller
-	["Climb to the top of the {area:444} in northern {zone:1439}. The Dark Strand Fanatics around it are easy (level 16-17), but four Dark Strand Voidcallers (level 28-29) stand in the tower on the way to the orb: each calls a voidwalker and casts {spell:686} from range. At 22-25 bring a friend or two, pull them one at a time and step behind a wall so they have to come to you. Loot the Strange Orb at the top: it gives you the Althalaxx Orb; right-click it to start the quest. Keep the orb in your bags until the {object:409311}: three later quests need it."] = "Kuzey {zone:1439} bölgesindeki {area:444} kulesinin tepesine tırman. Çevresindeki Dark Strand Fanatic yaratıkları kolay (seviye 16-17), ama küreye giden yolda kulede dört Dark Strand Voidcaller (seviye 28-29) duruyor: her biri bir voidwalker çağırır ve uzaktan {spell:686} atar. 22-25'te bir iki arkadaş getir, onları tek tek çek ve sana gelmek zorunda kalsınlar diye bir duvarın arkasına geç. Tepedeki Strange Orb'u loot'la: sana Althalaxx Orb'u verir; görevi başlatmak için ona sağ tıkla. Küreyi {object:409311} adımına kadar çantanda sakla: sonraki üç görev ona ihtiyaç duyuyor.",
-	-- {area:444} Tower of Althalaxx
-	["Strange Orb atop the {area:444}: right-click the Althalaxx Orb it gives"] = "{area:444} kulesinin tepesindeki Strange Orb: verdiği Althalaxx Orb'a sağ tıkla",
+	["Climb to the top of the {area:444} in northern {zone:1439}. The Dark Strand Fanatics around it are easy (level 16-17), but four Dark Strand Voidcallers (level 28-29) stand in the tower on the way to the orb: each calls a voidwalker and casts {spell:686} from range. At 22-25 bring a friend or two, pull them one at a time and step behind a wall so they have to come to you. Loot the {object:409289} at the top: it gives you the {item:209748}; right-click it to start the quest. Keep the orb in your bags until the {object:409311}: three later quests need it."] = "{zone:1439} bölgesinin kuzeyindeki {area:444} tepesine tırman. Çevresindeki Dark Strand Fanatic yaratıkları kolay (16-17. seviye), ama küreye giden yolda kulede dört Dark Strand Voidcaller (28-29. seviye) duruyor: her biri bir voidwalker çağırır ve uzaktan {spell:686} atar. 22-25'te bir iki arkadaş getir, onları tek tek çek ve sana gelmek zorunda kalsınlar diye bir duvarın arkasına geç. Tepedeki {object:409289} küresini lootla: sana {item:209748} verir; görevi başlatmak için ona sağ tıkla. Küreyi {object:409311} adımına kadar çantanda tut: sonraki üç görev ona ihtiyaç duyar.",
+	-- {object:409289} Strange Orb (no name in this language: may be words) · {area:444} Tower of Althalaxx · {item:209748} Althalaxx Orb
+	["{object:409289} atop the {area:444}: right-click the {item:209748} it gives"] = "{area:444} tepesindeki {object:409289}: verdiği {item:209748} eşyasına sağ tıkla",
 
 	-- Step 2: Delgren the Purifier
 	-- {npc:3663} Delgren the Purifier · {area:413} Maestra's Post · {zone:1440} Ashenvale · {zone:1439} Darkshore · {zone:1453} Stormwind
@@ -45,8 +46,8 @@ return {
 	-- Step 8: The Spear of Mannoroth
 	-- {object:409311} Spear of Mannoroth
 	["The {object:409311}"] = "{object:409311}",
-	-- {object:409311} Spear of Mannoroth · {area:435} Demon Fall Canyon · {object:409315} Shattered Orb
-	["The {object:409311} stands at the east end of {area:435}. Hand in the motes at the spear with the Althalaxx Orb in your bags: the orb shatters, and the {object:409315} beside it starts the last quest."] = "{object:409311}, {area:435} kanyonunun doğu ucunda duruyor. Çantanda Althalaxx Orb varken zerreleri mızrakta teslim et: küre parçalanır ve yanındaki {object:409315} son görevi başlatır.",
+	-- {object:409311} Spear of Mannoroth · {area:435} Demon Fall Canyon · {item:209748} Althalaxx Orb · {object:409315} Shattered Orb
+	["The {object:409311} stands at the east end of {area:435}. Hand in the motes at the spear with the {item:209748} in your bags: the orb shatters, and the {object:409315} beside it starts the last quest."] = "{object:409311}, {area:435} kanyonunun doğu ucunda duruyor. Çantanda {item:209748} varken zerreleri mızrakta teslim et: küre parçalanır, yanındaki {object:409315} da son görevi başlatır.",
 	-- {object:409315} Shattered Orb
 	["from the {object:409315}"] = "{object:409315} üzerinden",
 

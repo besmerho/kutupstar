@@ -19,8 +19,8 @@ return {
 	["Both diamonds are rare: the auction house is the quick way. Miners find the {item:12800} in about one Thorium vein in a hundred (the Small Thorium Veins north of {area:2418} in the {zone:1428} respawn every five minutes). The {item:18335} drops from high-level elites at about one in a hundred, best from the rare elite Revanchion (about one in nine)."] = "İki elmas da nadir: müzayede evi hızlı yol. Madenciler {item:12800} elmasını yaklaşık yüz Thorium damarında bir bulur ({zone:1428} bölgesinde {area:2418} karakolunun kuzeyindeki Small Thorium Vein damarları beş dakikada bir yeniden doğar). {item:18335} yüksek seviyeli elitlerden yaklaşık yüzde bir düşer, en iyi rare elit Revanchion'dan (yaklaşık dokuzda bir).",
 
 	-- Step 3: Sagorne Creststrider
-	-- {quest:7668} The Darkreaver Menace
-	["{quest:7668} needs level 60."] = "{quest:7668} seviye 60 gerektirir.",
+	-- {quest:8258} The Darkreaver Menace
+	["{quest:8258} needs level 60."] = "{quest:8258} 60. seviye ister.",
 	-- {item:18746} Divination Scryer
 	["he hands you the {item:18746}"] = "sana {item:18746} verir",
 

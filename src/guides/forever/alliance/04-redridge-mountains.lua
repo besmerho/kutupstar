@@ -6,7 +6,7 @@ return {
 	-- Step 1: Stormwind
 	-- {zone:1429} Elwynn Forest · {quest:174} Look to the Stars · {area:42} Darkshire · {item:4371} Bronze Tube · {npc:3133} Herble Baubbletump · {object:2096} Trade District
 	["Train, then leave by the main gate and follow the road east through {zone:1429}.\n{quest:174} in {area:42} needs a {item:4371}. Its vendors keep only one or two, and {npc:3133} in {area:42} is nearly always sold out: buy one at the Auction House in the {object:2096} on your way out. An engineer can make one too."] = "Eğitimini al, sonra ana kapıdan çık ve yolu doğuya, {zone:1429} içinden izle.\n{area:42} kasabasındaki {quest:174} görevi bir {item:4371} ister. Satıcılarında yalnızca bir iki tane olur ve {area:42} kasabasındaki {npc:3133} neredeyse her zaman tükenmiştir: çıkarken {object:2096} semtindeki müzayede evinden bir tane al. Bir engineer da yapabilir.",
-	["Level 18 and 20 spells"] = "Seviye 18 ve 20 büyüleri",
+	["Your new spells"] = "Yeni büyülerin",
 	-- {item:4371} Bronze Tube · {quest:174} Look to the Stars · {area:42} Darkshire
 	["{item:4371}: the Auction House, for {quest:174} in {area:42}"] = "{item:4371}: müzayede evi; {area:42} kasabasındaki {quest:174} görevi için",
 
@@ -18,41 +18,26 @@ return {
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn Polearms from {npc:11867} ({object:2096}, 1 gold); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11867} sana Polearms öğretir ({object:2096}, 1 altın); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
-	-- Step 4: Tram to Ironforge
-	-- {zone:1455} Ironforge
-	["Tram to {zone:1455}"] = "Tramvayla: {zone:1455}",
-
-	-- Step 5: Shaman training
-	["Shaman training"] = "Shaman eğitimi",
-	-- {zone:1453} Stormwind · {area:2257} Deeprun Tram · {object:28027} Dwarven District · {zone:1455} Ironforge · {npc:258098} Eldrun Stormbreaker
-	["{zone:1453} has no shaman trainer: take the {area:2257} from the {object:28027} to {zone:1455}, train with {npc:258098}, then ride the tram back."] = "{zone:1453} şehrinde Shaman eğitmeni yok: {object:28027} semtinden {area:2257} trenine binip {zone:1455} şehrine git, {npc:258098} adlı NPC'den eğitimini al, sonra trenle geri dön.",
-
-	-- Step 6: Fly to Sentinel Hill
+	-- Step 4: Fly to Sentinel Hill
 	-- {area:108} Sentinel Hill
 	["Fly to {area:108}"] = "Uç: {area:108}",
 	-- {zone:1453} Stormwind
 	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 
-	-- Step 7: Half Pendant of Aquatic Endurance
+	-- Step 5: Half Pendant of Aquatic Endurance
 	-- {area:108} Sentinel Hill · {object:177790} Strange Lockbox
 	["Fly to {area:108} and head north-west to the coast: the {object:177790} lies on the sea floor off the shore. Then head east along the road through Elwynn."] = "{area:108} tepesine uç ve kuzeybatıya, kıyıya git: {object:177790} kıyının açığında, deniz tabanında duruyor. Sonra Elwynn boyunca yolu doğuya izle.",
 	-- {item:15882} Half Pendant of Aquatic Endurance · {object:177790} Strange Lockbox
 	["{item:15882}: the {object:177790}"] = "{item:15882}: {object:177790}",
 
-	-- Step 8: Back to Elwynn Forest
-	-- {zone:1429} Elwynn Forest
-	["Back to {zone:1429}"] = "Dönüş: {zone:1429}",
-	-- {zone:1429} Elwynn Forest
-	["The road into {zone:1429}"] = "{zone:1429} bölgesine giden yol",
-
-	-- Step 9: Elwynn Forest
+	-- Step 6: Elwynn Forest
 	-- {area:91} Tower of Azora
 	["The {area:91}"] = "{area:91} kulesi",
 
-	-- Step 10: Theocritus
+	-- Step 7: Theocritus
 	["On the top floor"] = "En üst katta",
 
-	-- Step 11: Henze Faulk
+	-- Step 8: Henze Faulk
 	-- {area:91} Tower of Azora · {area:86} Stone Cairn Lake · {npc:6172} Henze Faulk · {item:6866} Symbol of Life · {item:6846} Defias Script
 	-- plural, as words: Defias Rogue Wizards = {npc:474} Defias Rogue Wizard
 	["On the road east, past the {area:91}, head north from the bridge to {area:86}. {npc:6172} lies south of the lake: use the {item:6866} on him. The Defias Rogue Wizards around him carry the {item:6846}."] = "Doğuya giden yolda, {area:91} kulesini geçince köprüden kuzeye, {area:86} gölüne git. {npc:6172} gölün güneyinde yatıyor: {item:6866} eşyasını onun üzerinde kullan. Çevresindeki Defias Rogue Wizard yaratıkları {item:6846} taşıyor.",
@@ -62,13 +47,13 @@ return {
 	-- plural, as words: Defias Rogue Wizards = {npc:474} Defias Rogue Wizard
 	["{item:6846}: Defias Rogue Wizards"] = "{item:6846}: Defias Rogue Wizard yaratıkları",
 
-	-- Step 12: Three Corners
+	-- Step 9: Three Corners
 	-- {area:1002} Three Corners · {zone:1431} Duskwood
 	["The road east through Elwynn crosses into Redridge at {area:1002}, where the roads to Redridge, {zone:1431} and Elwynn meet: south to {zone:1431} first."] = "Elwynn'den doğuya giden yol, Redridge, {zone:1431} ve Elwynn yollarının kesiştiği {area:1002} kavşağında Redridge'e geçer: önce güneye, {zone:1431} bölgesine.",
 
-	-- Step 14: Darkshire
-	-- {area:1002} Three Corners · {zone:1431} Duskwood · {area:42} Darkshire · {item:4371} Bronze Tube · {quest:174} Look to the Stars · {npc:3133} Herble Baubbletump · {npc:276} Viktori Prism'Antras
-	["Follow the road south from {area:1002} into {zone:1431}; {area:42} lies on the east side of the forest.\nNo {item:4371} for {quest:174}? {npc:3133}, in the house beside {npc:276}, keeps only one and is usually sold out. Without one, right-click the quest in the guide window and skip it.\n{npc:276}'s house stands at the east end of town. {npc:3133} sells engineering goods in the house beside it."] = "{area:1002} kavşağından güneye giden yolu izleyerek {zone:1431} bölgesine gir; {area:42} ormanın doğu tarafında.\n{quest:174} için {item:4371} yok mu? {npc:276} adlı NPC'nin yanındaki evde {npc:3133} yalnızca bir tane tutar ve genelde tükenmiştir. Yoksa rehber penceresinde göreve sağ tıklayıp atla.\n{npc:276} adlı NPC'nin evi kasabanın doğu ucunda. {npc:3133} hemen yanındaki evde engineering malzemeleri satıyor.",
+	-- Step 11: Darkshire
+	-- {area:1002} Three Corners · {zone:1431} Duskwood · {area:42} Darkshire
+	["Follow the road south from {area:1002} into {zone:1431}; {area:42} lies on the east side of the forest."] = "{area:1002} kavşağından yolu güneye izleyerek {zone:1431} bölgesine gir; {area:42} ormanın doğu yakasında.",
 	-- {npc:2409} Felicia Maline
 	["{npc:2409}, at the north end of town"] = "{npc:2409}, kasabanın kuzey ucunda",
 	-- {npc:265} Madame Eva
@@ -87,12 +72,20 @@ return {
 	["{npc:633}, at the south end of town; inside"] = "{npc:633}, kasabanın güney ucunda; içeride",
 	-- {npc:633} Elaine Carevin · {npc:288} Jitters · {quest:163} Raven Hill
 	["{npc:633}: {npc:288}, at {quest:163}"] = "{npc:633}: {npc:288}, {quest:163} içinde",
-	-- {item:4371} Bronze Tube · {npc:3133} Herble Baubbletump
-	["{item:4371}, from {npc:3133}, if you have none"] = "{item:4371}, kaynak: {npc:3133}; yoksa",
+
+	-- Step 12: Viktori Prism'Antras
+	-- {npc:276} Viktori Prism'Antras · {quest:174} Look to the Stars · {item:4371} Bronze Tube
+	["{npc:276} is in her house at the east end of town. {quest:174} needs a {item:4371}, so this step shows only while you carry one: without a tube the guide passes {npc:276} and her chain."] = "{npc:276} kasabanın doğu ucundaki evinde. {quest:174} bir {item:4371} ister, bu yüzden bu adım yalnızca üstünde bir tane varken görünür: tüp yoksa rehber {npc:276} ve görev zincirini geçer.",
 	-- {npc:276} Viktori Prism'Antras
 	["{npc:276}, inside"] = "{npc:276}, içeride",
+
+	-- Step 13: Viktori Prism'Antras
 	-- {npc:302} Blind Mary
 	["For {npc:302}, on the hill south-east of town"] = "Kasabanın güneydoğusundaki tepede bulunan {npc:302} için",
+
+	-- Step 14: Councilman Millstipe
+	-- {area:717} Stockade · {zone:1453} Stormwind · {npc:270} Councilman Millstipe
+	["For your {area:717} run, in {zone:1453} at about 29: {npc:270} is in the town hall. Keep it until then."] = "Yaklaşık 29. seviyede {zone:1453} şehrindeki {area:717} koşun için: {npc:270} belediye binasında. O zamana kadar sakla.",
 
 	-- Step 15: Tranquil Gardens Cemetery: kill these as you meet them
 	-- {area:121} Tranquil Gardens Cemetery
@@ -137,8 +130,8 @@ return {
 	-- {area:492} Raven Hill Cemetery
 	["{area:492}: kill these as you meet them"] = "{area:492}: bunları karşılaştıkça öldür",
 	-- {npc:522} Mor'Ladim
-	-- plural, as words: Skeletal Horrors = {npc:202} Skeletal Horror · Skeletal Fiends = {npc:531} Skeletal Fiend
-	["The cemetery lies north of the village. Skeletal Horrors and Skeletal Fiends walk its southern half. {npc:522}, an elite, wanders the graves: keep away from him."] = "Mezarlık köyün kuzeyinde. Güney yarısında Skeletal Horror ve Skeletal Fiend yaratıkları dolaşıyor. Elit bir yaratık olan {npc:522} mezarların arasında geziniyor: ondan uzak dur.",
+	-- plural, as words: Skeletal Horrors = {npc:202} Skeletal Horror · Skeletal Fiends = {npc:531} Skeletal Fiend · Flesh Eaters = {npc:3} Flesh Eater · Bone Chewers = {npc:210} Bone Chewer · Plague Spreaders = {npc:604} Plague Spreader · Fetid Corpses = {npc:1270} Fetid Corpse
+	["The cemetery lies north of the village. Skeletal Horrors and Skeletal Fiends (23-25) walk its southern half and carry the fingers; for the fangs, Flesh Eaters (24-25) drop the most, so leave the Bone Chewers, Plague Spreaders and Fetid Corpses (26-30) further in alone. {npc:522}, an elite, wanders the graves: keep away from him.\nCareful: Eliza, a level 31 elite, rises from her grave at the cemetery's north end: keep away from it."] = "Mezarlık köyün kuzeyinde. Skeletal Horror ve Skeletal Fiend yaratıkları (23-25) güney yarısında dolaşır ve parmakları taşır; dişler için en çok Flesh Eater yaratıkları (24-25) düşürür, bu yüzden daha içerideki Bone Chewer, Plague Spreader ve Fetid Corpse yaratıklarını (26-30) rahat bırak. Elit {npc:522} mezarların arasında dolaşıyor: ondan uzak dur.\nDikkat: 31. seviye elit Eliza, mezarlığın kuzey ucundaki mezarından kalkar: oradan uzak dur.",
 
 	-- Step 22: Watcher Dodds
 	-- {area:245} Yorgen Farmstead
@@ -177,10 +170,14 @@ return {
 	["Murloc Flesheaters and Tidecallers line the south shore of {area:68}, just east of the gryphons and the bridge. Any of them can carry a fin."] = "Murloc Flesheater ve Tidecaller yaratıkları {area:68} gölünün güney kıyısını, grifonların ve köprünün hemen doğusunda dolduruyor. Herhangi biri bir yüzgeç taşıyor olabilir.",
 
 	-- Step 29: Lakeshire
-	-- {npc:381} Dockmaster Baren · {npc:900} Bailiff Conacher · {npc:342} Martie Jainrose · {npc:382} Marshal Marris · {quest:98386} Alther's Mill
-	["Cross the long bridge north into town: {npc:381} on the docks, {npc:900} in the town hall, {npc:342} in her garden at the west end. {npc:382}'s Blackrock quests and {quest:98386} came with you from your first Redridge visit."] = "Uzun köprüden kuzeye, kasabaya geç: {npc:381} iskelede, {npc:900} belediye binasında, {npc:342} batı ucundaki bahçesinde. {npc:382} adlı NPC'nin Blackrock görevleri ve {quest:98386} ilk Redridge ziyaretinden seninle geldi.",
+	-- {npc:381} Dockmaster Baren · {npc:900} Bailiff Conacher · {npc:342} Martie Jainrose · {npc:382} Marshal Marris · {npc:341} Foreman Oslow · {quest:98386} Alther's Mill
+	["Cross the long bridge north into town: {npc:381} on the docks, {npc:900} in the town hall, {npc:342} in her garden at the west end. {npc:382} and {npc:341} stand at the north end of the bridge: the Blackrock camps' quests and {quest:98386} are worked on this visit's loop east of the lake."] = "Uzun köprüden kuzeye, kasabaya geç: {npc:381} iskelede, {npc:900} belediye binasında, {npc:342} batı ucundaki bahçesinde. {npc:382} ve {npc:341} köprünün kuzey ucunda duruyor: Blackrock kamplarının görevleri ve {quest:98386} bu ziyaretin gölün doğusundaki turunda yapılır.",
 	-- {npc:415} Verner Osgood
 	["{npc:415}, by the road at the north end of the bridge"] = "{npc:415}, köprünün kuzey ucunda, yolun kenarında",
+	-- {npc:382} Marshal Marris
+	["{npc:382}, at the north end of the bridge"] = "{npc:382}, köprünün kuzey ucunda",
+	-- {npc:341} Foreman Oslow
+	["{npc:341}, beside him"] = "{npc:341}, onun yanında",
 	-- {npc:900} Bailiff Conacher
 	["{npc:900}, in the town hall"] = "{npc:900}, belediye binasında",
 	["The Wanted poster by the inn"] = "Hanın yanındaki Wanted ilanı",

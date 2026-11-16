@@ -3,6 +3,15 @@
 -- oyun orada adı İngilizce gösterir (yukarıdaki yorum satırında yazıyor). Belirtecin hemen ardına ek getirme;
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
+	-- Guide
+	-- {area:1121} Isle of Dread
+	["Feathermoon's isle, ogres, yetis and the {area:1121}."] = "Feathermoon adası, ogre'lar, yetiler ve {area:1121}.",
+	["Two new flight paths for later"] = "Sonrası için iki yeni uçuş noktası",
+	-- {zone:1446} Tanaris
+	["Then on to {zone:1446}"] = "Sonra {zone:1446} bölgesine devam",
+	["Stays on the main route"] = "Ana rotada kalır",
+	["Boats to and from the island"] = "Adaya gidiş geliş gemileri",
+
 	-- Step 1: Into The Barrens
 	-- {zone:1413} The Barrens
 	["Into {zone:1413}"] = "{zone:1413} bölgesine",
@@ -50,7 +59,8 @@ return {
 
 	-- Step 12: Gordunni ogres
 	["Gordunni ogres"] = "Gordunni ogreları",
-	["Ride east to the Gordunni camp in the hills south-east of the yeti valley: Warlocks and Shaman hold the camp, Brutes wander the slopes around it and further north."] = "Doğuya, yeti vadisinin güneydoğusundaki tepelerde bulunan Gordunni kampına git: kampı Gordunni Warlock ve Gordunni Shaman yaratıkları tutuyor, Gordunni Brute yaratıkları çevredeki yamaçlarda ve daha kuzeyde dolaşıyor.",
+	-- {npc:5236} Gordunni Shaman
+	["Ride east to the Gordunni camp in the hills south-east of the yeti valley: Warlocks and Shaman hold the camp, Brutes wander the slopes around it and further north.\nCareful: the {npc:5236} are 44-45 and the Warlocks 43-44, casters a level or two over you here: pull them one at a time from the camp's edge, and take the Brutes (42-43) on the slopes first."] = "Doğuya, yeti vadisinin güneydoğusundaki tepelerde bulunan Gordunni kampına sür: kampı Warlock ve Shaman'lar tutuyor, Brute'lar çevresindeki ve daha kuzeydeki yamaçlarda dolaşıyor.\nDikkat: {npc:5236} yaratıkları 44-45, Warlock'lar 43-44; burada senden bir iki seviye yüksek büyücüler: onları kampın kenarından tek tek çek ve önce yamaçlardaki Brute'ları (42-43) al.",
 
 	-- Step 13: Feral Scar Vale
 	-- {npc:5346} Bloodroar the Stalker
@@ -68,28 +78,37 @@ return {
 	["Coming from the south: {npc:7877} and {npc:7878} first, then {npc:7900} beside {npc:7880}'s building, then the stairs. {npc:7880} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart. {npc:7852} is by the flight master, on the way out."] = "Güneyden geliyorsan: önce {npc:7877} ve {npc:7878}, sonra {npc:7880} adlı NPC'nin binasının yanındaki {npc:7900}, sonra merdivenler. {npc:7880} binasının üst katında duruyor: içeriden yukarı çık, ok katları ayırt edemez. {npc:7852} çıkış yolunda, uçuş ustasının yanında.",
 	-- {npc:7879} Quintis Jonespyre
 	["{npc:7879}, upstairs"] = "{npc:7879}, üst katta",
+	-- {npc:7852} Pratt McGrubben
+	["{npc:7852}'s next order, Improved Quality, wants Rage Scar hides from yetis of 46-49: skip it."] = "{npc:7852} adlı NPC'nin sonraki siparişi Improved Quality, 46-49. seviye yetilerden Rage Scar postları istiyor: atla.",
 
 	-- Step 16: Fly to Thalanaar
 	-- {area:489} Thalanaar
 	["Fly to {area:489}"] = "Uç: {area:489}",
 	["Feathermoon flight master"] = "Feathermoon uçuş ustası",
 
-	-- Step 17: Feralas
+	-- Step 17: Back to the coast
+	["Back to the coast"] = "Kıyıya dön",
+	-- {zone:1444} Feralas · {zone:2652} Shen'dralas · {area:489} Thalanaar
+	["You came into {zone:1444} from {zone:2652}, so {area:489}'s flight path is still to learn: take the boat back to the coast and ride east along the road; you pick up the flight path when this guide ends at {area:489}."] = "{zone:1444} bölgesine {zone:2652} yöresinden geldin, bu yüzden {area:489} uçuş noktası hâlâ öğrenilecek: gemiyle kıyıya dön ve yol boyunca doğuya sür; bu rehber {area:489} karakolunda bittiğinde uçuş noktasını alırsın.",
+
+	-- Step 18: Feralas
 	["Grimtotem camp"] = "Grimtotem kampı",
 
-	-- Step 18: Grimtotem camp
+	-- Step 19: Grimtotem camp
 	-- {area:489} Thalanaar · {npc:7956} Kindal Moonweaver
 	-- plural, as words: Sprite Darters = {npc:5278} Sprite Darter
 	["From {area:489} ride west along the road to the Grimtotem camp north of it. {npc:7956} waits outside it; free the Sprite Darters from the pen in the middle and keep {npc:7956} and at least six of them alive."] = "{area:489} kesiminden yol boyunca batıya, onun kuzeyindeki Grimtotem kampına sür. {npc:7956} kampın dışında bekliyor; ortadaki ağıldan Sprite Darter'ları serbest bırak ve {npc:7956} ile en az altısını hayatta tut.",
 
-	-- Step 19: Grimtotem tauren
+	-- Step 20: Grimtotem tauren
 	["Grimtotem tauren"] = "Grimtotem taurenleri",
+	-- {npc:222286} Namida Grimtotem
+	["Careful: {npc:222286}, an elite of level 43, stands at the camp's north-east edge, around 67,39: pull the Naturalists, Raiders and Shamans away from her."] = "Dikkat: 43. seviye elit {npc:222286}, kampın kuzeydoğu kenarında, yaklaşık 67,39 çevresinde duruyor: Naturalist, Raider ve Shaman yaratıklarını ondan uzağa çek.",
 
-	-- Step 20: Jer'kai Moonweaver
+	-- Step 21: Jer'kai Moonweaver
 	-- {zone:1457} Darnassus
 	["for Tyrande in {zone:1457}: the route takes you there at 47"] = "{zone:1457} şehrindeki Tyrande için: rota seni seviye 47'de oraya götürüyor",
 
-	-- Step 21: The Writhing Deep
+	-- Step 22: The Writhing Deep
 	-- {area:489} Thalanaar
 	["Ride south-east to the Woodpaw gnolls; the courier's backpacks lie in their southern camp, and a parcel inside them starts a delivery to {area:489}. The Zukk'ash hive is just south: fight down to the pod that holds Raschal, free him and keep him alive on the way out."] = "Güneydoğuya, Woodpaw gnollarına git; ulağın sırt çantaları onların güney kampında, içlerinden çıkan bir paket {area:489} karakoluna bir teslimat başlatıyor. Zukk'ash kovanı hemen güneyde: savaşarak Raschal'ı tutan koza kadar in, onu kurtar ve çıkışta hayatta tut.",
 	-- {item:11463} Undelivered Parcel
@@ -97,51 +116,34 @@ return {
 	-- {object:164954} Zukk'ash Pod
 	["{object:164954}, inside"] = "{object:164954}, içeride",
 
-	-- Step 22: High Wilderness: kill these as you meet them
-	-- {area:1136} High Wilderness
-	["{area:1136}: kill these as you meet them"] = "{area:1136}: bunları karşılaştıkça öldür",
-	-- {quest:7735} Pristine Yeti Hide · {npc:7852} Pratt McGrubben · {npc:14637} Zorbin Fandazzle · {area:978} Zul'Farrak
-	["Ride back west along the road, then north into the Rage Scar hills. Every yeti here can drop a hide, and about one in thirty a {quest:7735}, which {npc:7852} pays for too.\n{npc:14637}'s quests on the coast need level 45: grind the yetis here until level 44.5, so the kills also bring {npc:7852}'s hides. Or, with a group, run the {area:978} dungeon instead."] = "Yol boyunca batıya geri sür, sonra kuzeye, Rage Scar tepelerine git. Buradaki her yeti deri düşürebilir; yaklaşık otuzda biri de {npc:7852} adlı NPC'nin ayrıca para verdiği bir {quest:7735} düşürür.\n{npc:14637} adlı NPC'nin kıyıdaki görevleri seviye 45 ister: seviye 44.5 olana dek buradaki yetileri kas; böylece öldürmeler {npc:7852} için deri de getirir. Ya da grupla onun yerine {area:978} zindanını yap.",
-	-- {npc:5296} Rage Scar Yeti
-	["grind on {npc:5296}"] = "Kas: {npc:5296}",
-
-	-- Step 23: Rage Scar Hold
-	-- {quest:7735} Pristine Yeti Hide
-	["No {quest:7735} yet? Keep killing the Rage Scar yetis until one drops, then right-click it."] = "Henüz {quest:7735} yok mu? Biri düşürene dek Rage Scar yetilerini öldürmeye devam et, sonra ona sağ tıkla.",
-
-	-- Step 24: Feathermoon Stronghold
-	-- {npc:7880} Ginro Hearthkindle
-	["{npc:7880} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "{npc:7880} binasının üst katında duruyor: içeriden yukarı çık, ok katları birbirinden ayıramaz.",
-
-	-- Step 25: Feathermoon Stronghold
-	-- {npc:3936} Shandris Feathermoon · {zone:1457} Darnassus · {area:976} Gadgetzan
-	["{npc:3936} then asks you to carry news to {zone:1457}: skip it, {area:976} sends you there instead."] = "{npc:3936} ardından {zone:1457} şehrine haber götürmeni ister: atla, oraya seni {area:976} gönderecek.",
-
-	-- Step 27: Grind to 45
+	-- Step 23: Grind to 45
 	["Grind to 45"] = "Seviye 45'e kadar kas",
-	-- {area:1105} Feral Scar Vale · {npc:14637} Zorbin Fandazzle · {area:978} Zul'Farrak · {area:1517} Uldaman
-	["Ride east into {area:1105}. {npc:14637}'s quests on the coast need level 45. Or, with a group, run the {area:978} dungeon or the {area:1517} dungeon instead."] = "Doğuya, {area:1105} vadisine sür. {npc:14637} adlı NPC'nin kıyıdaki görevleri 45. seviye ister. Ya da grupla, bunun yerine {area:978} zindanına ya da {area:1517} zindanına gir.",
+	-- {area:1105} Feral Scar Vale · {area:978} Zul'Farrak
+	["Ride west into {area:1105}: its yetis are 43-45. The Rage Scar yetis in the hills to the north are 46-49: leave them. Or, with a group, run the {area:978} dungeon instead."] = "Batıya, {area:1105} vadisine sür: yetileri 43-45. Kuzeydeki tepelerde Rage Scar yetileri 46-49: onları bırak. Ya da grubun varsa onun yerine {area:978} zindanına koş.",
 	-- {npc:5292} Feral Scar Yeti · {area:1105} Feral Scar Vale · {zone:1444} Feralas
 	["grind on {npc:5292} at {area:1105}, {zone:1444}"] = "Kas: {npc:5292} ({area:1105}, {zone:1444})",
 
-	-- Step 28: Zorbin Fandazzle
-	-- {area:1108} Forgotten Coast
-	["Ride back to the {area:1108}; the goblin stands by the dock."] = "{area:1108} kıyısına dön; goblin iskelenin yanında duruyor.",
+	-- Step 24: Ironfur bears
+	["Ironfur bears"] = "Ironfur ayıları",
+	-- {area:1105} Feral Scar Vale · {area:1136} High Wilderness
+	-- plural, as words: Ironfur Bears = {npc:5268} Ironfur Bear · Ironfur Patriarchs = {npc:5274} Ironfur Patriarch
+	["Ride north out of {area:1105}: the Ironfur Bears (41-42) at the foot of the {area:1136} drop Rhapsody's last liver.\nCareful: Ironfur Patriarchs (48-49) and the Rage Scar yetis (46-49) roam the hills further north: stay at their edge."] = "{area:1105} vadisinden kuzeye sür: {area:1136} eteğindeki Ironfur Bear yaratıkları (41-42) Rhapsody'nin son ciğerini düşürür.\nDikkat: Ironfur Patriarch (48-49) ve Rage Scar yetileri (46-49) daha kuzeydeki tepelerde dolaşıyor: onların kenarında kal.",
 
-	-- Step 29: Forgotten Coast: kill these as you meet them
-	-- {area:1108} Forgotten Coast
-	["{area:1108}: kill these as you meet them"] = "{area:1108}: bunları karşılaştıkça öldür",
-	-- {item:18904} Zorbin's Ultra-Shrinker
-	-- plural, as words: Shore Striders = {npc:5359} Shore Strider · Deep Striders = {npc:5360} Deep Strider · Wave Striders = {npc:5361} Wave Strider · Sea Elementals = {npc:5461} Sea Elemental · Sea Sprays = {npc:5462} Sea Spray
-	["Shore Striders, Deep Striders and Wave Striders (elite giants) wade along the coast north of the dock: zap one with {item:18904} and kill the shrunken giant. Sea Elementals and Sea Sprays drift in the same surf."] = "Shore Strider, Deep Strider ve Wave Strider yaratıkları (elit devler) iskelenin kuzeyinde kıyı boyunca suda yürüyor: birini {item:18904} ile vur ve küçülen devi öldür. Sea Elemental ve Sea Spray yaratıkları aynı dalgalarda süzülüyor.",
+	-- Step 25: Feathermoon Stronghold
+	-- {npc:7880} Ginro Hearthkindle
+	["{npc:7880} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "{npc:7880} binasının üst katında duruyor: içeriden yukarı çık, ok katları birbirinden ayıramaz.",
 
-	-- Step 30: Zorbin Fandazzle
-	-- {npc:14637} Zorbin Fandazzle
-	["{npc:14637}'s refills are level 55: skip them."] = "{npc:14637} adlı NPC'nin yeniden doldurma görevleri seviye 55: atla.",
-	-- {zone:1446} Tanaris · {area:489} Thalanaar
-	["The {zone:1446} guide starts with the trip east, past {area:489}."] = "{zone:1446} rehberi, {area:489} kesiminin ötesine doğu gezisiyle başlar.",
+	-- Step 26: Feathermoon Stronghold
+	-- {npc:3936} Shandris Feathermoon · {zone:1457} Darnassus · {area:976} Gadgetzan
+	["{npc:3936} then asks you to carry news to {zone:1457}: skip it, {area:976} sends you there instead."] = "{npc:3936} ardından {zone:1457} şehrine haber götürmeni ister: atla, oraya seni {area:976} gönderecek.",
 
-	-- Step 31: Thalanaar
+	-- Step 28: Ride to Thalanaar
+	-- {area:489} Thalanaar
+	["Ride to {area:489}"] = "{area:489} karakoluna sür",
+	-- {area:489} Thalanaar · {zone:1441} Thousand Needles
+	["No flight path to {area:489} yet: take the boat back to the coast and ride east along the road to {area:489}, on the {zone:1441} border."] = "Henüz {area:489} uçuş noktası yok: gemiyle kıyıya dön ve yol boyunca doğuya, {zone:1441} sınırındaki {area:489} karakoluna sür.",
+
+	-- Step 29: Thalanaar
 	-- {zone:1441} Thousand Needles
 	["Ride north-east to the night elf outpost on the {zone:1441} border."] = "Kuzeydoğuya, {zone:1441} sınırındaki Night Elf karakoluna git.",
 	-- {npc:4048} Falfindel Waywarder · {area:489} Thalanaar

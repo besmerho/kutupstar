@@ -61,7 +61,8 @@ return {
 	["Around {area:159}"] = "{area:159} çevresi",
 	-- {item:286176} Executor's Motivator · {area:159} Brill · {quest:99141} Patience · {npc:1496} Deathguard Dillinger · {npc:251001} Deathguard Kristof · {npc:10666} Gordo · {npc:1525} Rotting Dead
 	["Use the {item:286176} on five Deathguards around {area:159}. For {quest:99141}, talk to {npc:1496} west of {area:159}, {npc:251001} at the waystation east of it and {npc:10666} on the road. The Rot Hide gnolls dig at the mass grave north of {area:159}. The {npc:1525} walk around the old bridge west of {area:159}; the dry branches lie under the trees there. Darkhounds roam everywhere."] = "{item:286176} eşyasını {area:159} çevresindeki beş Deathguard üzerinde kullan. {quest:99141} için {area:159} batısındaki {npc:1496}, doğusundaki konaklama yerinde {npc:251001} ve yoldaki {npc:10666} ile konuş. Rot Hide gnoll'ları {area:159} kuzeyindeki toplu mezarda kazıyor. {npc:1525}, {area:159} batısındaki eski köprünün çevresinde yürüyor; kuru dallar oradaki ağaçların altında yatıyor. Darkhound'lar her yerde dolaşıyor.",
-	["Motivate 5 Deathguards"] = "5 Deathguard'ı cesaretlendir",
+	-- {area:159} Brill
+	["Motivate 5 Deathguards: the Deathguards around {area:159}"] = "5 Deathguard'ı motive et: {area:159} çevresindeki Deathguard'lar",
 
 	-- Step 10: Agamand Mills
 	-- {npc:1657} Devlin Agamand · {area:157} Agamand Mills
@@ -103,8 +104,8 @@ return {
 	["{item:14047}: the Scarlet outside {area:2266}"] = "{item:14047}: {area:2266} dışındaki Scarlet'lar",
 
 	-- Step 17: Undercity: Harbinger Balthazad
-	-- {area:152} Bulwark · {npc:10879} Harbinger Balthazad · {faction:68} Undercity
-	["The level 55 to 60 quests pay in full. First the {area:152}: {npc:10879}, by the {faction:68}'s elevators, sends you there."] = "Seviye 55 ila 60 görevleri tam öder. Önce {area:152}: {faction:68} asansörlerinin yanındaki {npc:10879} seni oraya gönderir.",
+	-- {area:152} Bulwark · {npc:10879} Harbinger Balthazad · {faction:68} Undercity · {object:36126} Royal Quarter · {quest:5961} The Champion of the Banshee Queen · {npc:11878} Nathanos Blightcaller · {quest:6136} The Corpulent One
+	["The level 55 to 60 quests pay in full. First the {area:152}: {npc:10879}, by the {faction:68}'s elevators, sends you there. Lady Sylvanas in the {object:36126} gives {quest:5961}, an introduction to {npc:11878}: {quest:6136}, his last quest here, needs it handed in."] = "55-60. seviye görevler tam ödül verir. Önce {area:152}: {faction:68} asansörlerinin yanındaki {npc:10879} seni oraya yollar. {object:36126} içindeki Lady Sylvanas, {npc:11878} için bir tanıştırma olan {quest:5961} görevini verir: buradaki son görevi {quest:6136}, onun teslim edilmiş olmasını ister.",
 
 	-- Step 18: Bulwark: Scarlet Diversions
 	-- {area:152} Bulwark · {zone:1422} Western Plaguelands · {npc:10837} High Executor Derrington · {faction:68} Undercity · {item:12814} Flame in a Bottle · {area:200} Dalson's Tears · {area:199} Felstone Field · {item:12807} Scourge Banner
@@ -168,7 +169,7 @@ return {
 
 	-- Step 28: Nathanos Blightcaller
 	-- {npc:11878} Nathanos Blightcaller · {zone:1423} Eastern Plaguelands · {faction:68} Undercity
-	["{npc:11878}, the Ranger Lord, keeps his camp on the western edge of the {zone:1423}. His quests are level 58 to 60 and pay in full: 500 {faction:68} reputation."] = "Ranger Lord {npc:11878}, kampını {zone:1423} bölgesinin batı kenarında tutuyor. Görevleri seviye 58 ila 60 ve tam öder: 500 {faction:68} itibarı.",
+	["{npc:11878}, the Ranger Lord, keeps his camp on the western edge of the {zone:1423}. His quests are level 58 to 60 and pay in full: 525 {faction:68} reputation with Sylvanas's introduction."] = "Ranger Lord {npc:11878}, kampını {zone:1423} bölgesinin batı kenarında tutuyor. Görevleri 58-60. seviye ve tam ödül verir: Sylvanas'ın tanıştırmasıyla 525 {faction:68} itibarı.",
 
 	-- Step 29: Plaguebats, Quel'Lithien Lodge and Corin's Crossing
 	-- {area:2276} Quel'Lithien Lodge · {area:2264} Corin's Crossing
@@ -189,7 +190,7 @@ return {
 	-- {npc:11897} Duskwing · {area:2260} Marris Stead · {npc:11896} Borelgore · {area:2272} Northdale
 	["{npc:11897}, an elite bat, roams the fields north of {area:2260}. {npc:11896} paces a long valley west of {area:2272}."] = "Elit bir yarasa olan {npc:11897}, {area:2260} kuzeyindeki tarlalarda dolaşıyor. {npc:11896}, {area:2272} batısındaki uzun bir vadide volta atıyor.",
 	-- {npc:11878} Nathanos Blightcaller · {faction:68} Undercity · {area:2279} Stratholme · {npc:12337} Crimson Courier
-	["{npc:11878}: 500 {faction:68} reputation. His {area:2279} quests (The {npc:12337}, The Scarlet Oracle, Demetria, Ramstein) need a group."] = "{npc:11878}: 500 {faction:68} itibarı. {area:2279} görevleri (The {npc:12337}, The Scarlet Oracle, Demetria, Ramstein) bir grup ister.",
+	["{npc:11878}: 525 {faction:68} reputation with Sylvanas's introduction. His {area:2279} quests (The {npc:12337}, The Scarlet Oracle, Demetria, Ramstein) need a group."] = "{npc:11878}: Sylvanas'ın tanıştırmasıyla 525 {faction:68} itibarı. {area:2279} görevleri ({npc:12337}, The Scarlet Oracle, Demetria, Ramstein) bir grup ister.",
 
 	-- Step 32: The Spider God (optional chain)
 	-- {quest:2936} The Spider God

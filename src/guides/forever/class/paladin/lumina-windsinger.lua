@@ -40,12 +40,12 @@ return {
 	-- Step 6: Back to the Sepulcher
 	-- {area:228} Sepulcher
 	["Back to the {area:228}"] = "{area:228} kasabasına dön",
-	-- {npc:259620} Lumina Windsinger · {npc:248840} Trevan Rol · {area:228} Sepulcher · {quest:95034} The Debt
-	["{npc:259620} waits beside {npc:248840} in the {area:228} (a different {npc:259620} from the one you escorted). For {quest:95034}, click through every line of her story."] = "{npc:259620}, {area:228} kasabasında {npc:248840} yanında bekliyor (eşlik ettiğin {npc:259620} değil, başka biri). {quest:95034} için hikâyesinin her satırını tıklayarak geç.",
-	-- {npc:259620} Lumina Windsinger · {area:228} Sepulcher
-	["{npc:259620}, the {area:228}"] = "{npc:259620}, {area:228}",
-	-- {npc:259620} Lumina Windsinger
-	["{npc:259620}: hear her story to the end"] = "{npc:259620}: hikâyesini sonuna kadar dinle",
+	-- {npc:248840} Trevan Rol · {area:228} Sepulcher · {quest:95034} The Debt
+	["Lumina waits beside {npc:248840} in the {area:228} (a different Lumina from the one you escorted). For {quest:95034}, click through every line of her story."] = "Lumina, {area:228} içinde {npc:248840} yanında bekliyor (eskortladığın Lumina'dan farklı biri). {quest:95034} için hikâyesinin her satırını tıklayarak geç.",
+	-- {npc:248755} Lumina Windsinger · {area:228} Sepulcher
+	["{npc:248755}, the {area:228}"] = "{npc:248755}, {area:228}",
+	-- {npc:248755} Lumina Windsinger
+	["{npc:248755}: hear her story to the end"] = "{npc:248755}: hikâyesini sonuna kadar dinle",
 
 	-- Step 7: A Moon-Kissed Blade
 	-- {npc:259620} Lumina Windsinger · {quest:95140} Old Fire-Eye · {npc:248840} Trevan Rol
@@ -108,7 +108,9 @@ return {
 
 	-- Step 17: Old Fire-Eye
 	-- {item:268484} Moonsilver Blade · {quest:95140} Old Fire-Eye · {area:228} Sepulcher · {area:17065} Gilneas
-	["Equip the {item:268484}. {quest:95140}, the great worgen, roams the woods south of the {area:228} toward the gates of {area:17065}. He is elite (level 25): the guide waits for level 22 first, and grouping up is encouraged; players have killed him from 22 up, one needed a second, another soloed him at 25. A purple shield guards him until your first swing with the blade lands: a message tells you it broke."] = "{item:268484} kılıcını kuşan. Büyük worgen {quest:95140}, {area:228} kasabasının güneyindeki ormanda, {area:17065} kapılarına doğru dolaşıyor. Elit (seviye 25): rehber önce seviye 22'yi bekler ve grup kurman önerilir; oyuncular onu 22'den itibaren öldürdü, biri ikinci birine ihtiyaç duydu, bir başkası 25'te onu tek başına kesti. Kılıçla ilk vuruşun isabet edene kadar mor bir kalkan onu korur: kırıldığını bir mesaj söyler.",
+	["Equip the {item:268484}. {quest:95140}, the great worgen, roams the woods south of the {area:228} toward the gates of {area:17065}. He is elite (level 25): the guide waits for level 25 first, and grouping up is encouraged; players have killed him from 22 up, one needed a second, another soloed him at 25. A purple shield guards him until your first swing with the blade lands: a message tells you it broke."] = "{item:268484} eşyasını kuşan. Büyük worgen {quest:95140}, {area:228} yöresinin güneyindeki ormanda {area:17065} kapılarına doğru dolaşıyor. Elit (25. seviye): rehber önce 25. seviyeyi bekler ve grup kurmak tavsiye edilir; oyuncular onu 22'den itibaren öldürdü, biri ikinci kişiye ihtiyaç duydu, bir diğeri 25'te tek başına kesti. Kılıçla ilk vuruşun isabet edene kadar onu mor bir kalkan korur: kırıldığını bir mesaj söyler.",
+	-- {npc:259620} Lumina Windsinger · {area:228} Sepulcher
+	["{npc:259620}, the {area:228}"] = "{npc:259620}, {area:228}",
 	-- {quest:95140} Old Fire-Eye · {item:268484} Moonsilver Blade
 	["{quest:95140}, with the {item:268484} equipped"] = "{quest:95140}, {item:268484} kuşanmışken",
 

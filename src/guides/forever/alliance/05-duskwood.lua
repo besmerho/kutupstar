@@ -63,9 +63,9 @@ return {
 	-- Step 13: Ghoul Ribs
 	-- plural, as words: Ghoul Ribs = {item:884} Ghoul Rib
 	["Ghoul Ribs"] = "Ghoul Rib",
-	-- {area:492} Raven Hill Cemetery · {npc:948} Rotted One · {spell:3428} Summon Flesh Eating Worms
+	-- {area:492} Raven Hill Cemetery · {npc:522} Mor'Ladim · {npc:948} Rotted One · {spell:3428} Summon Flesh Eating Worms
 	-- plural, as words: Flesh Eaters = {npc:3} Flesh Eater · Bone Chewers = {npc:210} Bone Chewer · Plague Spreaders = {npc:604} Plague Spreader · Brain Eaters = {npc:570} Brain Eater
-	["Every ghoul of the {area:492}'s northern half can drop a rib: Flesh Eaters, Bone Chewers, Plague Spreaders and Brain Eaters.\nCareful: A {npc:948} casts {spell:3428} as it dies, which brings extra adds."] = "{area:492} mezarlığının kuzey yarısındaki her ghoul bir kaburga düşürebilir: Flesh Eater, Bone Chewer, Plague Spreader ve Brain Eater yaratıkları.\nDikkat: Bir {npc:948} ölürken {spell:3428} kullanır, bu da fazladan yaratık getirir.",
+	["Every ghoul of the {area:492}'s northern half can drop a rib: Flesh Eaters and Bone Chewers (24-27) are the easier kills; Plague Spreaders and Brain Eaters (27-29) drop them too. {npc:522}, an elite, wanders the graves: keep away from him.\nCareful: A {npc:948} casts {spell:3428} as it dies, which brings extra adds."] = "{area:492} mezarlığının kuzey yarısındaki her ghoul kaburga düşürebilir: Flesh Eater ve Bone Chewer yaratıkları (24-27) daha kolay ölür; Plague Spreader ve Brain Eater yaratıkları (27-29) da düşürür. Elit {npc:522} mezarların arasında dolaşıyor: ondan uzak dur.\nDikkat: bir {npc:948} ölürken {spell:3428} kullanır ve fazladan yaratık getirir.",
 
 	-- Step 15: Raven Hill Cemetery: kill these as you meet them
 	-- {area:492} Raven Hill Cemetery
@@ -108,7 +108,7 @@ return {
 
 	-- Step 23: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
-	["Level 22 and 24 spells"] = "Seviye 22 ve 24 büyüleri",
+	["Your new spells"] = "Yeni büyülerin",
 
 	-- Step 24: Gazin Tenorm
 	-- {zone:1453} Stormwind · {npc:6173} Gazin Tenorm · {npc:6171} Duthorian Rall

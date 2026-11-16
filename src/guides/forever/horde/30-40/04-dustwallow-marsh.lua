@@ -42,21 +42,17 @@ return {
 	-- {npc:4503} Mudcrush Durtfeet
 	["{npc:4503}, at the south edge of the village where the road comes in"] = "{npc:4503}, köyün güney kenarında, yolun köye girdiği yerde",
 
-	-- Step 11: Questioning Reethe
-	-- {npc:4983} Ogron · {area:2302} Quagmire
-	["{npc:4983} waits in the {area:2302} east of the village. Follow him to Reethe and keep him alive through the fight that breaks out."] = "{npc:4983}, köyün doğusundaki {area:2302} bataklığında bekliyor. Onu Reethe'ye kadar izle ve çıkan dövüş boyunca hayatta tut.",
-
-	-- Step 12: Stinky Ignatz
+	-- Step 11: Stinky Ignatz
 	["Stinky Ignatz"] = "Stinky Ignatz",
 	-- {area:502} Witch Hill
 	["Head north to {area:502}. Stinky stands at the foot of the hill; escort him while he gathers Bogbean Leaves just south of it."] = "Kuzeye, {area:502} tepesine git. Stinky tepenin eteğinde duruyor; tepenin hemen güneyinde Bogbean Leaf toplarken ona eşlik et.",
 
-	-- Step 13: Mirefin murlocs
+	-- Step 12: Mirefin murlocs
 	["Mirefin murlocs"] = "Mirefin murlocları",
 	-- {area:502} Witch Hill
 	["The Mirefin murlocs crowd the coast east and north-east of {area:502}; every kind drops heads."] = "Mirefin murlocları {area:502} tepesinin doğusundaki ve kuzeydoğusundaki kıyıyı dolduruyor; her türü kafa düşürür.",
 
-	-- Step 14: Swamp Eye Jarl
+	-- Step 13: Swamp Eye Jarl
 	["Swamp Eye Jarl"] = "Swamp Eye Jarl",
 	-- {area:497} Swamplight Manor · {area:502} Witch Hill
 	["Jarl lives in the {area:497} south-east of {area:502}."] = "Jarl, {area:502} tepesinin güneydoğusundaki {area:497} malikânesinde yaşıyor.",
@@ -65,15 +61,20 @@ return {
 	-- {quest:1218} Soothing Spices · {zone:1454} Orgrimmar
 	["{quest:1218}, if you did not buy them in {zone:1454}"] = "{zone:1454} şehrinde almadıysan {quest:1218}",
 
-	-- Step 15: Brackenwall Village: kill these as you meet them
+	-- Step 14: Brackenwall Village: kill these as you meet them
 	-- {area:496} Brackenwall Village
 	["{area:496}: kill these as you meet them"] = "{area:496}: bunları karşılaştıkça öldür",
-	-- plural, as words: Darkfang Venomspitters = {npc:4414} Darkfang Venomspitter · Theramore Infiltrators = {npc:4834} Theramore Infiltrator · Darkfang Lurkers = {npc:4411} Darkfang Lurker · Darkmist Lurkers = {npc:4377} Darkmist Lurker
-	["Head west back across the marsh. The Darkfang Venomspitters on the ridges north of Brackenwall drop the venom sacs. Theramore Infiltrators (35-36) sneak through the same woods: they are stealthed, so look closely.\nThe Darkmist spiders swarm the cavern mouth north-west of Brackenwall; every kind drops eyes.\nCareful: Darkfang Lurkers (level 36-37) use Sneak to stealth while out of combat and cast Poison once fighting.\nCareful: Stealthed spiders in the same area will attack you on sight.\nCareful: Darkmist Lurkers move about stealthed and use poison once in combat. The spiders stand close together, so adds are common; pulling single targets from the outer edge cuts down on them."] = "Bataklığı batıya geri geç. Brackenwall'ın kuzeyindeki sırtlarda bulunan Darkfang Venomspitter yaratıkları zehir keselerini düşürür. Theramore Infiltrator yaratıkları (35-36) aynı ormanda sinsice dolaşıyor: gizliler, dikkatli bak.\nDarkmist örümcekleri Brackenwall'ın kuzeybatısındaki mağara ağzında kaynıyor; her türü göz düşürür.\nDikkat: Darkfang Lurker yaratıkları (seviye 36-37) savaş dışındayken Sneak ile gizlenir, dövüşünce de Poison kullanır.\nDikkat: Aynı alandaki gizli örümcekler seni görür görmez saldırır.\nDikkat: Darkmist Lurker yaratıkları gizlenerek dolaşır ve savaşa girince zehir kullanır. Örümcekler birbirine yakın durduğu için ek yaratık yaygın; dış kenardan tek hedef çekmek bunu azaltır.",
+	-- plural, as words: Darkfang Lurkers = {npc:4411} Darkfang Lurker · Theramore Infiltrators = {npc:4834} Theramore Infiltrator · Darkmist Lurkers = {npc:4377} Darkmist Lurker
+	["Head west back across the marsh. The Darkfang Lurkers (36-37) and Venomspitters (37-38) on the ridges north of Brackenwall drop the venom sacs. Theramore Infiltrators (35-36) sneak through the same woods: they are stealthed, so look closely.\nThe Darkmist spiders swarm the cavern mouth north-west of Brackenwall; every kind drops eyes. Work its outer edge, where the Spiders and Recluses (35-37) stand: the Lurkers and Silkspinners (37-39) deeper in are two or three over you.\nCareful: Darkfang Lurkers (level 36-37) use Sneak to stealth while out of combat and cast Poison once fighting.\nCareful: Stealthed spiders in the same area will attack you on sight.\nCareful: Darkmist Lurkers move about stealthed and use poison once in combat. The spiders stand close together, so adds are common; pulling single targets from the outer edge cuts down on them."] = "Bataklığı geçip batıya dön. Brackenwall'un kuzeyindeki sırtlarda Darkfang Lurker (36-37) ve Venomspitter (37-38) yaratıkları zehir keselerini düşürür. Theramore Infiltrator yaratıkları (35-36) aynı ormanda sinsice dolaşıyor: gizliler, dikkatli bak.\nDarkmist örümcekleri Brackenwall'un kuzeybatısındaki mağara ağzını sarmış; her türü göz düşürür. Spider ve Recluse'ların (35-37) durduğu dış kenarında çalış: daha içerideki Lurker ve Silkspinner'lar (37-39) senden iki-üç seviye yüksek.\nDikkat: Darkfang Lurker yaratıkları (36-37. seviye) dövüş dışında Sneak ile gizlenir ve dövüşte Poison kullanır.\nDikkat: aynı bölgedeki gizli örümcekler seni görür görmez saldırır.\nDikkat: Darkmist Lurker yaratıkları gizli dolaşır ve dövüşte zehir kullanır. Örümcekler birbirine yakın durur, yani ek yaratık çekmek sık olur; dış kenardan tek hedef çekmek bunu azaltır.",
+
+	-- Step 16: Questioning Reethe
+	-- {npc:4983} Ogron · {area:2302} Quagmire · {npc:5045} Private Hallan
+	-- plural, as words: Theramore Skirmishers = {npc:5044} Theramore Skirmisher
+	["On the way east, {npc:4983} waits in the {area:2302} east of the village. Follow him to Reethe and keep him alive through the fight that breaks out: {npc:5045} and Theramore Skirmishers (36) join it."] = "Doğuya giderken {npc:4983}, köyün doğusundaki {area:2302} içinde bekliyor. Onu Reethe'ye kadar izle ve çıkan dövüşte hayatta tut: {npc:5045} ve Theramore Skirmisher yaratıkları (36) dövüşe katılır.",
 
 	-- Step 17: Swamp Eye Jarl
 	-- {area:497} Swamplight Manor
-	["Head east back to the {area:497}."] = "Doğuya, {area:497} malikânesine dön.",
+	["On east to the {area:497}."] = "Doğuya, {area:497} yöresine devam et.",
 	-- {object:20985} Loose Dirt · {npc:4791} Nazeer Bloodpike
 	["{object:20985}, now that {npc:4791} has read the report"] = "{object:20985}; {npc:4791} raporu okuduğuna göre",
 	-- {item:3853} Moonsteel Broadsword · {skill:164} Blacksmithing
@@ -81,22 +82,25 @@ return {
 
 	-- Step 18: The Theramore Docks
 	-- {area:513} Theramore Isle · {object:20925} Captain's Footlocker
-	["South-east from the manor to {area:513}: the {object:20925} lies on the sea floor off the docks on the isle's east side. Swim in and out and keep off the piers and the town: Theramore's guards are level 53-57."] = "Malikaneden güneydoğuya, {area:513} adasına git: {object:20925}, adanın doğu tarafındaki iskelenin açığında deniz dibinde duruyor. Yüzerek gir çık ve iskelelerden ve kasabadan uzak dur: Theramore muhafızları seviye 53-57.",
+	-- plural, as words: Young Murk Threshers = {npc:4388} Young Murk Thresher
+	["South-east from the manor to {area:513}: the {object:20925} lies on the sea floor off the docks on the isle's east side. Swim in and out and keep off the piers and the town: Theramore's guards are level 53-57, and a death here is a long run back from the spirit healer. Young Murk Threshers (40-41) circle in the water around the docks: grab the footlocker and swim straight out."] = "Malikâneden güneydoğuya, {area:513} adasına: {object:20925} adanın doğu yakasındaki iskelelerin açığında deniz tabanında yatıyor. Yüzerek gir çık, iskelelerden ve kasabadan uzak dur: Theramore muhafızları 53-57. seviye ve burada ölmek ruh şifacısından uzun bir koşu demek. Young Murk Thresher yaratıkları (40-41) iskelelerin çevresinde suda dönüyor: sandığı kap ve doğrudan dışarı yüz.",
 	["Underwater"] = "Su altında",
 
 	-- Step 19: Brackenwall Village
-	-- {npc:4503} Mudcrush Durtfeet · {npc:4791} Nazeer Bloodpike
-	["Head back west to Brackenwall with the head: {npc:4503} stands at the south edge of the village where the road comes in, {npc:4791} in the village."] = "Kafayla batıya, Brackenwall'a dön: {npc:4503} köyün güney kenarında, yolun girdiği yerde, {npc:4791} köyün içinde duruyor.",
+	-- {npc:4503} Mudcrush Durtfeet · {npc:4791} Nazeer Bloodpike · {npc:4926} Krog
+	["Head back west to Brackenwall with the head: {npc:4503} stands at the south edge of the village where the road comes in, {npc:4791} and {npc:4926} in the village."] = "Kafayla batıya, Brackenwall'a dön: {npc:4503} yolun girdiği köyün güney kenarında, {npc:4791} ve {npc:4926} köyde duruyor.",
 	-- {npc:2519} Kin'weelay · {object:3202} Grom'gol (no name in this language: may be words)
 	["For {npc:2519} at {object:3202}, in forever/horde/40-50/01-stranglethorn-vale"] = "forever/horde/40-50/01-stranglethorn-vale rehberinde, {object:3202} kampındaki {npc:2519} için",
 
-	-- Step 20: Level 37.5
-	["Level 37.5"] = "Seviye 37.5",
-	-- {zone:1443} Desolace · {area:1316} Razorfen Downs · {area:796} Scarlet Monastery
-	["{zone:1443}'s last quests and Alterac are 38-41. Still below 37.5 after Brackenwall's hand-ins? The Darkmist spiders and Lurkers (35-38) by the cavern north-west of the village are the closest: kill them until level 37.5. Or, with a group, run the {area:1316} dungeon or the {area:796} dungeon (Armory) instead."] = "{zone:1443} son görevleri ve Alterac 38-41. Brackenwall teslimlerinden sonra hâlâ 37.5'in altında mısın? Köyün kuzeybatısındaki mağaranın yanındaki Darkmist örümcekleri ve Lurker'lar (35-38) en yakını: seviye 37.5 olana dek onları öldür. Ya da grupla onun yerine {area:1316} zindanını ya da {area:796} zindanını (Armory) yap.",
-	["Darkmist cavern"] = "Darkmist mağarası",
-	-- {npc:4377} Darkmist Lurker
-	["grind on {npc:4377}"] = "Kas: {npc:4377}",
+	-- Step 20: Level 36
+	["Level 36"] = "Seviye 36",
+	-- {zone:1443} Desolace
+	-- plural, as words: Drywallow Crocolisks = {npc:4341} Drywallow Crocolisk
+	["{zone:1443}'s last quests are 36-39. Still below 36 after Brackenwall's hand-ins? The Drywallow Crocolisks (35-36) along the river east of the village are the closest at your level: kill them until level 36."] = "{zone:1443} bölgesinin son görevleri 36-39. Brackenwall teslimlerinden sonra hâlâ 36'nın altında mısın? Köyün doğusundaki nehrin boyundaki Drywallow Crocolisk yaratıkları (35-36) senin seviyendeki en yakın yaratıklar: 36. seviyeye kadar onları öldür.",
+	-- plural, as words: Drywallow Crocolisks = {npc:4341} Drywallow Crocolisk
+	["Drywallow Crocolisks"] = "Drywallow Crocolisk yaratıkları",
+	-- {npc:4341} Drywallow Crocolisk
+	["grind on {npc:4341}"] = "Kas: {npc:4341}",
 
 	-- Step 21: Fly to Ratchet
 	-- {area:392} Ratchet
@@ -112,28 +116,36 @@ return {
 	-- {area:392} Ratchet · {area:720} Fray Island · {npc:6236} Klannoc Macleod · {npc:6238} Big Will
 	["Head south along the coast from {area:392} to {area:720}. {npc:6236} stands by the arena: step on the grate to start the fight; the challengers come one at a time, then {npc:6238} (33)."] = "{area:392} kasabasından kıyı boyunca güneye, {area:720} adasına git. {npc:6236} arenanın yanında duruyor: dövüşü başlatmak için ızgaranın üzerine bas; rakipler teker teker gelir, sonra {npc:6238} (33).",
 
-	-- Step 24: Fly to Shadowprey Village
-	-- {area:2408} Shadowprey Village
-	["Fly to {area:2408}"] = "Uç: {area:2408}",
+	-- Step 24: Ratchet flight master
 	-- {area:392} Ratchet
 	["{area:392} flight master"] = "{area:392} uçuş ustası",
+	-- {area:392} Ratchet
+	["Back north along the coast to {area:392}'s flight master."] = "Kıyı boyunca kuzeye, {area:392} uçuş ustasına dön.",
 
-	-- Step 25: Shadowprey Village
-	-- {npc:11624} Taiga Wisemane
-	["{npc:11624} stands in the village."] = "{npc:11624} köyde duruyor.",
+	-- Step 25: Fly to Shadowprey Village
+	-- {area:2408} Shadowprey Village
+	["Fly to {area:2408}"] = "Uç: {area:2408}",
+	-- {area:2408} Shadowprey Village · {area:392} Ratchet
+	["Fly to {area:2408} from the flight master you are next to: {area:392}'s, or Brackenwall's if you had no errand in {area:392}."] = "Yanında olduğun uçuş ustasından {area:2408} köyüne uç: {area:392} uçuş ustası, ya da {area:392} limanında işin olmadıysa Brackenwall'unki.",
 
-	-- Step 26: Portals of the Legion
-	-- {area:602} Mannoroc Coven · {quest:5381} Hand of Iruxos · {npc:11624} Taiga Wisemane · {npc:11937} Demon Portal Guardian
-	-- plural, as words: Burning Blade Summoners = {npc:4668} Burning Blade Summoner
-	["Head east to {area:602}. With the {quest:5381} from {npc:11624} in your bags, open a demon portal's ring: a {npc:11937} (38-39) comes out; kill it to close that portal. Six portals. Careful: Infernals, Doomguards and Burning Blade Summoners walk close by many portals and may join in; kill nearby mobs first or drag the guardian away, for example toward the coven's central lake."] = "Doğuya, {area:602} içine git. {npc:11624} adlı NPC'den aldığın {quest:5381} çantandayken bir iblis portalının halkasını aç: bir {npc:11937} (38-39) çıkar; o portalı kapatmak için onu öldür. Altı portal. Dikkat: Birçok portalın yakınında Infernal, Doomguard ve Burning Blade Summoner yaratıkları dolaşıyor ve dövüşe katılabilir; önce yakındaki yaratıkları öldür ya da muhafızı uzağa, örneğin covenin ortasındaki göle doğru sürükle.",
+	-- Step 26: Shadowprey Village
+	-- {npc:11624} Taiga Wisemane · {npc:12340} Drulzegar Skraghook
+	["{npc:11624} and {npc:12340} stand in the village."] = "{npc:11624} ve {npc:12340} köyde duruyor.",
+	-- {npc:11624} Taiga Wisemane · {quest:5381} Hand of Iruxos · {area:599} Thunder Axe Fortress
+	["{npc:11624}: the {quest:5381}, at {area:599} later on this visit"] = "{npc:11624}: {quest:5381}, bu ziyarette daha sonra {area:599} kalesinde",
+	-- {npc:12340} Drulzegar Skraghook · {area:599} Thunder Axe Fortress
+	["{npc:12340}: the Slitherblade of Sar'theris Strand, on the way back from {area:599}"] = "{npc:12340}: {area:599} dönüşünde Sar'theris Strand'in Slitherblade'leri",
 
 	-- Step 27: Ghost Walker Post
-	-- {npc:5412} Gurda Wildmane · {npc:5395} Felgur Twocuts
-	["North to the post; {npc:5412} stands beside {npc:5395}."] = "Kuzeye, karakola git; {npc:5412}, {npc:5395} yanında duruyor.",
+	-- {area:597} Ghost Walker Post · {npc:5412} Gurda Wildmane · {npc:5395} Felgur Twocuts
+	["East along the road to {area:597}; {npc:5412} stands beside {npc:5395}."] = "Yol boyunca doğuya, {area:597} karakoluna git; {npc:5412}, {npc:5395} yanında duruyor.",
+	-- {npc:5395} Felgur Twocuts · {quest:1366} Centaur Bounty
+	["{npc:5395}: his {quest:1366}, from the same Maraudine as Gurda's totems"] = "{npc:5395}: {quest:1366} görevi, Gurda'nın totemleriyle aynı Maraudine'lerden",
 
 	-- Step 28: Valley of Spears
-	-- {area:607} Valley of Spears · {item:254432} Carved Centaur Totem · {npc:5395} Felgur Twocuts · {quest:1366} Centaur Bounty
-	["West of the post, the Maraudine centaurs hold the {area:607}. Every Maraudine can drop a {item:254432} and an ear for {npc:5395}'s {quest:1366}."] = "Karakolun batısında, Maraudine centaur'ları {area:607} vadisini tutuyor. Her Maraudine bir {item:254432} ve {npc:5395} adlı NPC'nin {quest:1366} görevi için bir kulak düşürebilir.",
+	-- {area:607} Valley of Spears · {item:254432} Carved Centaur Totem · {npc:5395} Felgur Twocuts · {quest:1366} Centaur Bounty · {npc:5402} Khan Hratha
+	-- plural, as words: Rock Worms = {npc:11788} Rock Worm
+	["West of the post, the Maraudine centaurs hold the {area:607}; every Maraudine can drop a {item:254432} and an ear for {npc:5395}'s {quest:1366}. Stay with the Scouts and Wranglers (36-38) at the valley's eastern edge; the Maulers and Windchasers (38-39) a little further in are up to two over you at 37: pull them one at a time.\nCareful: {npc:5402} and the Rock Worms (41-42, elite) hold the valley's north-western end with the Khan Guards and Marauders (39-40), and the Magram's village in the south-east has Necromancers (42-43): keep east of the arrow."] = "Karakolun batısında Maraudine centaur'ları {area:607} vadisini tutuyor; her Maraudine bir {item:254432} ve {npc:5395} adlı NPC'nin {quest:1366} görevi için bir kulak düşürebilir. Vadinin doğu kenarındaki Scout ve Wrangler'larla (36-38) kal; biraz daha içerideki Mauler ve Windchaser'lar (38-39) 37'de senden iki seviyeye kadar yüksek: tek tek çek.\nDikkat: {npc:5402} ve Rock Worm yaratıkları (41-42, elit) Khan Guard ve Marauder'larla (39-40) vadinin kuzeybatı ucunu tutuyor, güneydoğudaki Magram köyünde de Necromancer'lar (42-43) var: okun doğusunda kal.",
 
 	-- Step 29: Melizza Brimbuzzle
 	-- {npc:12277} Melizza Brimbuzzle
@@ -142,47 +154,69 @@ return {
 	-- Step 30: Hornizz Brimbuzzle
 	-- {npc:6019} Hornizz Brimbuzzle · {area:596} Kodo Graveyard
 	["{npc:6019} waits at the goblin camp on the west side of the {area:596}."] = "{npc:6019}, {area:596} mezarlığının batı yakasındaki goblin kampında bekliyor.",
+	-- {npc:6019} Hornizz Brimbuzzle · {area:602} Mannoroc Coven
+	["{npc:6019}: the ghost-o-plasm, after {area:602} at the end of this visit"] = "{npc:6019}: bu ziyaretin sonunda {area:602} sonrası ghost-o-plasm",
 
-	-- Step 31: The Valley of Bones
+	-- Step 32: Thunder Axe Fortress
+	-- {area:599} Thunder Axe Fortress · {item:14523} Demon Pick · {object:176581} Hand of Iruxos Crystal · {npc:11876} Demon Spirit · {item:13542} Demon Box
+	["North up the road to {area:599}. Clear the middle of the largest building, then use the {item:14523} on the red {object:176581} there. A {npc:11876} (37) comes out: kill it for the {item:13542}. The Burning Blade around it are well under you now."] = "Yoldan kuzeye, {area:599} kalesine çık. En büyük binanın ortasını temizle, sonra oradaki kırmızı {object:176581} kristalinde {item:14523} eşyasını kullan. Bir {npc:11876} (37) çıkar: {item:13542} için onu öldür. Çevresindeki Burning Blade'ler artık senden epey düşük.",
+	-- {item:14523} Demon Pick · {object:176581} Hand of Iruxos Crystal
+	["{item:14523}, on the {object:176581}"] = "{item:14523}, {object:176581} üzerinde",
+
+	-- Step 33: Sar'theris Strand
+	-- {area:598} Sar'theris Strand
+	-- plural, as words: Slitherblade Myrmidons = {npc:4714} Slitherblade Myrmidon
+	["West from the fortress to the coast at {area:598}: the Slitherblade Myrmidons, Naga and Sorceresses hold the beach. Pull them one at a time; the Sea Witches and Oracles (34-36) cast from range."] = "Kaleden batıya, {area:598} kıyısına git: Slitherblade Myrmidon, Naga ve Sorceress yaratıkları kumsalı tutuyor. Tek tek çek; Sea Witch ve Oracle'lar (34-36) uzaktan büyü yapar.",
+
+	-- Step 34: Shadowprey Village
+	-- {npc:11624} Taiga Wisemane · {area:602} Mannoroc Coven · {npc:12340} Drulzegar Skraghook
+	["South down the coast to Shadowprey: {npc:11624} takes the box and sends you to {area:602} with it; {npc:12340} takes the naga."] = "Kıyı boyunca güneye, Shadowprey'e in: {npc:11624} kutuyu alır ve seni onunla {area:602} yöresine yollar; {npc:12340} naga'ları teslim alır.",
+
+	-- Step 35: Portals of the Legion
+	-- {area:602} Mannoroc Coven · {quest:5381} Hand of Iruxos · {npc:11624} Taiga Wisemane · {npc:11937} Demon Portal Guardian
+	-- plural, as words: Burning Blade Summoners = {npc:4668} Burning Blade Summoner
+	["Head east to {area:602}. With the {quest:5381} from {npc:11624} in your bags, open a demon portal's ring: a {npc:11937} (38-39) comes out; kill it to close that portal. Six portals. Careful: Infernals, Doomguards and Burning Blade Summoners walk close by many portals and may join in; kill nearby mobs first or drag the guardian away, for example toward the coven's central lake."] = "Doğuya, {area:602} içine git. {npc:11624} adlı NPC'den aldığın {quest:5381} çantandayken bir iblis portalının halkasını aç: bir {npc:11937} (38-39) çıkar; o portalı kapatmak için onu öldür. Altı portal. Dikkat: Birçok portalın yakınında Infernal, Doomguard ve Burning Blade Summoner yaratıkları dolaşıyor ve dövüşe katılabilir; önce yakındaki yaratıkları öldür ya da muhafızı uzağa, örneğin covenin ortasındaki göle doğru sürükle.",
+
+	-- Step 36: The Valley of Bones
 	-- {area:2657} Valley of Bones
 	["The {area:2657}"] = "{area:2657} vadisi",
-	-- {area:2657} Valley of Bones · {item:15848} Crate of Ghost Magnets
-	-- plural, as words: Undead Ravagers = {npc:11561} Undead Ravager · Magrami Spectres = {npc:11560} Magrami Spectre
-	["Head south-east to the bone fields of the {area:2657}, where Undead Ravagers roam. At the far south-east, use the {item:15848} to draw the Magrami Spectres: they drop the ghost-o-plasm."] = "Güneydoğuya, Undead Ravager yaratıklarının dolaştığı {area:2657} vadisinin kemik tarlalarına git. En güneydoğuda, Magrami Spectre yaratıklarını çekmek için {item:15848} kullan: ghost-o-plasm onlardan düşer.",
+	-- {area:2657} Valley of Bones · {zone:1443} Desolace · {item:15848} Crate of Ghost Magnets
+	-- plural, as words: Undead Ravagers = {npc:11561} Undead Ravager · Magram Necrokhans = {npc:253274} Magram Necrokhan
+	["South-east of the coven, the bone fields of the {area:2657}, where Undead Ravagers roam, at {zone:1443}'s southern edge: keep south of the Magram's village on the way. Use the {item:15848} at the arrow to draw the Magrami Spectres (38-39): they come in numbers, so fight them with your back to the valley's edge. They drop the ghost-o-plasm.\nCareful: Magram Necrokhans and Corpsefeeders (45, elite) walk the bone fields just west of the arrow, well above you: use the crate at the arrow, on the valley's eastern side, and pull the spectres away from them."] = "Coven'ın güneydoğusunda, {zone:1443} bölgesinin güney kenarında, Undead Ravager yaratıklarının dolaştığı {area:2657} kemik tarlaları: yolda Magram köyünün güneyinde kal. Magrami Spectre yaratıklarını (38-39) çekmek için oktaki yerde {item:15848} eşyasını kullan: kalabalık gelirler, sırtını vadinin kenarına vererek dövüş. Ghost-o-plasm düşürürler.\nDikkat: Magram Necrokhan ve Corpsefeeder yaratıkları (45, elit) okun hemen batısındaki kemik tarlalarında yürüyor, senden çok yüksek: sandığı vadinin doğu yakasında, okun yerinde kullan ve hayaletleri onlardan uzağa çek.",
 
-	-- Step 32: Hornizz Brimbuzzle
-	-- {area:596} Kodo Graveyard
-	["North to the goblin camp on the west side of the {area:596}."] = "Kuzeye, {area:596} mezarlığının batı yakasındaki goblin kampına git.",
+	-- Step 37: Hornizz Brimbuzzle
+	-- {area:596} Kodo Graveyard · {area:602} Mannoroc Coven
+	["North-west to the goblin camp on the west side of the {area:596}, back past {area:602}: keep west of the Magram's village."] = "Kuzeybatıya, {area:602} yöresini geri geçip {area:596} mezarlığının batı yakasındaki goblin kampına git: Magram köyünün batısında kal.",
 
-	-- Step 34: Shadowprey
+	-- Step 38: Shadowprey
 	["Shadowprey"] = "Shadowprey",
-	["West to Shadowprey."] = "Batıya, Shadowprey'e git.",
+	["Hearth to Shadowprey: your hearthstone is still bound there."] = "Shadowprey'e Hearthstone ile dön: Hearthstone'un hâlâ oraya bağlı.",
 
-	-- Step 35: Thunder Bluff
+	-- Step 39: Thunder Bluff
 	-- {area:2408} Shadowprey Village · {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {zone:1454} Orgrimmar
 	["Fly from {area:2408} to {area:1638} and train with {npc:3033} on {area:1639}; fly on to {zone:1454} from there."] = "{area:2408} köyünden {area:1638} şehrine uç ve {area:1639} tepesinde {npc:3033} ile eğitimini al; oradan {zone:1454} şehrine uç.",
 
-	-- Step 36: Fly to Orgrimmar
+	-- Step 40: Fly to Orgrimmar
 	-- {area:1637} Orgrimmar
 	["Fly to {area:1637}"] = "{area:1637} şehrine uç",
 	-- {area:2408} Shadowprey Village
 	["{area:2408} flight master"] = "{area:2408} uçuş ustası",
 
-	-- Step 37: Back to Orgrimmar
+	-- Step 41: Back to Orgrimmar
 	-- {area:1637} Orgrimmar
 	["Back to {area:1637}"] = "Dönüş: {area:1637}",
 	-- {zone:1456} Thunder Bluff
 	["{zone:1456} flight master"] = "{zone:1456} uçuş ustası",
 
-	-- Step 38: Belgrom Rockmaul
+	-- Step 42: Belgrom Rockmaul
 	-- {npc:4485} Belgrom Rockmaul · {object:172958} Valley of Honor
 	["{npc:4485} stands in the {object:172958}."] = "{npc:4485}, {object:172958} vadisinde duruyor.",
 
-	-- Step 39: Nogg
+	-- Step 43: Nogg
 	-- {npc:3412} Nogg · {object:172958} Valley of Honor · {npc:4485} Belgrom Rockmaul · {quest:2841} Rig Wars · {area:133} Gnomeregan
 	["{npc:3412}'s workshop is in the {object:172958} beside {npc:4485}: hand in {quest:2841} if you ran {area:133}."] = "{npc:3412} adlı NPC'nin atölyesi {object:172958} içinde, {npc:4485} yanında: {area:133} yaptıysan {quest:2841} görevini teslim et.",
 
-	-- Step 40: Orgrimmar trainers
+	-- Step 44: Orgrimmar trainers
 	-- {zone:1454} Orgrimmar
 	["{zone:1454} trainers"] = "{zone:1454} eğitmenleri",
 	-- {zone:1458} Undercity

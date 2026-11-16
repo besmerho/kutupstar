@@ -14,8 +14,8 @@ return {
 	["Dredge Strikers, Stonelash Scorpids and Sand Skitterers share the sands just north of the hold."] = "Dredge Striker, Stonelash Scorpid ve Sand Skitterer yaratıkları kalenin hemen kuzeyindeki kumları paylaşıyor.",
 
 	-- Step 3: Twilight Base Camp
-	-- plural, as words: Dust Stormers = {npc:11744} Dust Stormer · Desert Rumblers = {npc:11746} Desert Rumbler
-	["The glowing tablet fragments lie around the Twilight camp in the far north-west; the Dust Stormers and Desert Rumblers there drop them too."] = "Parlayan tablet parçaları en kuzeybatıdaki Twilight kampının çevresinde duruyor; oradaki Dust Stormer ve Desert Rumbler yaratıkları da onları düşürür.",
+	-- plural, as words: Dust Stormers = {npc:11744} Dust Stormer · Desert Rumblers = {npc:11746} Desert Rumbler · Whirling Invaders = {npc:14455} Whirling Invader
+	["The glowing tablet fragments lie around the Twilight camp in the far north-west; the Dust Stormers and Desert Rumblers there drop them too. Careful: the biggest Rumblers and the Whirling Invaders are 58: pull them one at a time."] = "Parlayan tablet parçaları en kuzeybatıdaki Twilight kampının çevresinde yatıyor; oradaki Dust Stormer ve Desert Rumbler yaratıkları da onları düşürür. Dikkat: en büyük Rumbler'lar ve Whirling Invader yaratıkları 58: tek tek çek.",
 
 	-- Step 4: Cenarion Hold
 	-- {npc:15189} Beetix Ficklespragg
@@ -30,14 +30,32 @@ return {
 	["The Spirits of Southwind"] = "The Spirits of Southwind",
 	["Inside"] = "İçeride",
 
-	-- Step 7: Hermit Ortell
+	-- Step 7: Level 57
+	["Level 57"] = "Seviye 57",
+	-- {area:3425} Cenarion Hold · {area:1583} Blackrock Spire · {quest:838} Scholomance
+	-- plural, as words: Dredge Crushers = {npc:11741} Dredge Crusher · Dredge Strikers = {npc:11740} Dredge Striker · Sand Skitterers = {npc:11738} Sand Skitterer · Stonelash Scorpids = {npc:11735} Stonelash Scorpid · Silithid Darters = {npc:231984} Silithid Darter
+	["The Dredge Crushers (57-58) of the south-east are two over you below 57. First top up to 57 on the Dredge Strikers (55-56) on the sands east of {area:3425}, where Sand Skitterers and Stonelash Scorpids (54-56) roam among them, away from the Silithid Darters of the northern sands. Or, with a group, run the {area:1583} dungeon (Lower) or the {quest:838} dungeon instead."] = "Güneydoğunun Dredge Crusher yaratıkları (57-58) 57'nin altındaysan senden iki seviye yüksek. Önce {area:3425} doğusundaki kumlarda, aralarında Sand Skitterer ve Stonelash Scorpid yaratıklarının (54-56) dolaştığı Dredge Striker yaratıklarında (55-56) 57'ye tamamla; kuzey kumlarının Silithid Darter yaratıklarından uzak dur. Ya da bir grupla onun yerine {area:1583} (Lower) veya {quest:838} zindanını koş.",
+	-- plural, as words: Dredge Strikers = {npc:11740} Dredge Striker
+	["Dredge Strikers"] = "Dredge Striker yaratıkları",
+	-- {npc:11740} Dredge Striker
+	["grind on {npc:11740}"] = "Kas: {npc:11740}",
+
+	-- Step 8: Level 58
+	["Level 58"] = "Seviye 58",
+	-- {npc:15181} Commander Mar'alith · {quest:8304} Dearest Natalia · {area:3425} Cenarion Hold · {npc:15191} Windcaller Proudhorn · {area:1583} Blackrock Spire · {quest:838} Scholomance
+	-- plural, as words: Rock Stalkers = {npc:11739} Rock Stalker · Dredge Crushers = {npc:11741} Dredge Crusher
+	["Top up here to level 58 before Ortell's Rock Stalkers (57-59) and the south; {npc:15181}'s {quest:8304}, back at {area:3425}, needs level 58 too. The Dredge Crushers (57-58) on the way south-east are the ones {npc:15191} wants: leave the Twilight cultists around them be. Or, with a group, run the {area:1583} dungeon (Lower) or the {quest:838} dungeon instead."] = "Ortell'in Rock Stalker yaratıklarından (57-59) ve güneyden önce burada 58. seviyeye tamamla; {area:3425} karakolundaki {npc:15181} adlı NPC'nin {quest:8304} görevi de 58. seviye ister. Güneydoğuya giderken karşına çıkan Dredge Crusher yaratıkları (57-58) {npc:15191} adlı NPC'nin istedikleri: çevrelerindeki Twilight tarikatçılarına dokunma. Ya da bir grupla onun yerine {area:1583} (Lower) veya {quest:838} zindanını koş.",
+	-- {npc:11741} Dredge Crusher
+	["grind on {npc:11741}"] = "Kas: {npc:11741}",
+
+	-- Step 9: Hermit Ortell
 	-- {area:3447} Ortell's Hideout
 	["Ride south-east to {area:3447} under the Un'Goro cliffs."] = "Güneydoğuya, Un'Goro uçurumlarının altındaki {area:3447} saklanma yerine git.",
 	["Below ground"] = "Yer altında",
 	-- {item:20377} Rock Stalker Fang · {npc:11739} Rock Stalker
 	["{item:20377} from {npc:11739}, 130 yd south-west"] = "{item:20377}: 130 yard güneybatıdaki {npc:11739} yaratıklarından",
 
-	-- Step 8: Dredge Crushers and Pincers
+	-- Step 10: Dredge Crushers and Pincers
 	-- plural, as words: Dredge Crushers = {npc:11741} Dredge Crusher
 	["Dredge Crushers and Pincers"] = "Dredge Crusher ve Pincer yaratıkları",
 	-- plural, as words: Dredge Crushers = {npc:11741} Dredge Crusher · Stonelash Pincers = {npc:11736} Stonelash Pincer
@@ -45,69 +63,61 @@ return {
 	-- {npc:11741} Dredge Crusher · {area:2738} Southwind Village
 	["{npc:11741} walks around {area:2738}: look inside the circle on the map"] = "{npc:11741}, {area:2738} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
-	-- Step 9: General Kirika
+	-- Step 11: General Kirika
 	-- {area:2744} Hive'Regal
 	["Ride west to the Horde camp north of {area:2744}."] = "Batıya, {area:2744} kovanının kuzeyindeki Horde kampına git.",
 
-	-- Step 10: Scouring the Desert
+	-- Step 12: Scouring the Desert
 	["Silithyst geysers erupt across the southern desert. Walk into the Silithyst one leaves behind and carry it to the Horde's Silithyst Extractor at Kirika's camp; fighting or mounting drops it."] = "Güney çölünde Silithyst gayzerleri fışkırıyor. Bir gayzerin geride bıraktığı Silithyst'in içine yürü ve onu Kirika'nın kampındaki Horde Silithyst Extractor'ına taşı; dövüşmek ya da bineğe binmek onu düşürür.",
 
-	-- Step 11: Flayers and Rock Stalkers
+	-- Step 13: Flayers and Rock Stalkers
 	-- plural, as words: Rock Stalkers = {npc:11739} Rock Stalker
 	["Flayers and Rock Stalkers"] = "Flayer ve Rock Stalker yaratıkları",
 	-- plural, as words: Stonelash Flayers = {npc:11737} Stonelash Flayer · Rock Stalkers = {npc:11739} Rock Stalker
 	["Stonelash Flayers and Rock Stalkers roam the dunes south-west of Kirika's camp."] = "Stonelash Flayer ve Rock Stalker yaratıkları Kirika'nın kampının güneybatısındaki kum tepelerinde dolaşıyor.",
 
-	-- Step 12: Twilight Vanguard
+	-- Step 14: Twilight Vanguard
 	["Twilight Vanguard"] = "Twilight Vanguard",
 	-- {npc:11803} Twilight Keeper Exeter · {item:20404} Encrypted Twilight Text · {npc:15306} Bor Wildmane
 	["{npc:11803} walks the Vanguard camp in the far south-west. Keep every {item:20404} the cultists drop: {npc:15306} and Ortell want ten each later."] = "{npc:11803}, en güneybatıdaki Vanguard kampında dolaşıyor. Tarikatçıların düşürdüğü her {item:20404} eşyasını sakla: {npc:15306} ve Ortell daha sonra her biri on tane ister.",
 
-	-- Step 14: Twilight Post
+	-- Step 16: Twilight Post
 	-- {npc:15200} Twilight Keeper Mayna
 	["{npc:15200} holds the camp in the west."] = "{npc:15200} batıdaki kampı tutuyor.",
 
-	-- Step 15: Twilight Outpost
+	-- Step 17: Twilight Outpost
 	-- {npc:11804} Twilight Keeper Havunth · {area:3425} Cenarion Hold
 	-- plural, as words: Encrypted Twilight Texts = {item:20404} Encrypted Twilight Text
 	["{npc:11804} stands in the outpost west of {area:3425}. Keep any Encrypted Twilight Texts that drop here too."] = "{npc:11804}, {area:3425} kalesinin batısındaki karakolda duruyor. Burada düşen Encrypted Twilight Text eşyalarını da sakla.",
 
-	-- Step 16: Level 58
-	["Level 58"] = "Seviye 58",
-	-- {npc:15181} Commander Mar'alith · {quest:8304} Dearest Natalia · {area:3425} Cenarion Hold · {area:1583} Blackrock Spire · {quest:838} Scholomance
-	-- plural, as words: Twilight Avengers = {npc:11880} Twilight Avenger
-	["{npc:15181}'s {quest:8304}, at {area:3425}, needs level 58: top up on the Twilight Avengers, Geolords and Stonecallers west of the outpost. Or, with a group, run the {area:1583} dungeon (Lower) or the {quest:838} dungeon instead."] = "{area:3425} kalesindeki {npc:15181} adlı NPC'nin {quest:8304} görevi 58. seviye ister: karakolun batısındaki Twilight Avenger, Geolord ve Stonecaller yaratıklarında kas. Ya da grupla, bunun yerine {area:1583} zindanına (Lower) ya da {quest:838} zindanına gir.",
-	-- {npc:11880} Twilight Avenger
-	["grind on {npc:11880}"] = "Kas: {npc:11880}",
-
-	-- Step 17: Cenarion Hold
+	-- Step 18: Cenarion Hold
 	-- {npc:15189} Beetix Ficklespragg · {npc:15190} Noggle Ficklespragg
 	["{npc:15189} and {npc:15190} stand upstairs in their building: go up inside, the arrow cannot tell the floors apart."] = "{npc:15189} ve {npc:15190} binalarının üst katında duruyor: içeriden yukarı çık, ok katları birbirinden ayıramaz.",
 	-- {npc:15306} Bor Wildmane
 	["{npc:15306}, on the west side of the Hold"] = "{npc:15306}, Hold'un batı tarafında",
 
-	-- Step 18: Hermit Ortell
+	-- Step 19: Hermit Ortell
 	-- {area:3447} Ortell's Hideout
 	["Ride north-east to {area:3447}."] = "Kuzeydoğuya, {area:3447} saklanma yerine git.",
 
-	-- Step 19: Noggle's Lost Satchel
+	-- Step 20: Noggle's Lost Satchel
 	["The satchel lies in the mountains of the far south, past Bronzebeard's Encampment. Deathclasp, an elite scorpid, patrols near it: grab it while he is away."] = "Çanta en güneydeki dağlarda, Bronzebeard's Encampment'ın ilerisinde. Elit bir scorpid olan Deathclasp yakınında devriye geziyor: o uzaktayken kap.",
 
-	-- Step 20: Dearest Natalia
+	-- Step 21: Dearest Natalia
 	-- {npc:15171} Frankal Stonebridge · {npc:15170} Rutgar Glyphshaper
 	["{npc:15171} and {npc:15170} camp at Bronzebeard's Encampment, just north of the satchel's mountains. Question them: go through each one's whole conversation; there is no need to fight them."] = "{npc:15171} ve {npc:15170}, çantanın bulunduğu dağların hemen kuzeyinde, Bronzebeard's Encampment'ta kamp kurmuş. Onları sorgula: her birinin konuşmasını sonuna kadar götür; onlarla dövüşmene gerek yok.",
 
-	-- Step 21: Twilight Base Camp
+	-- Step 22: Twilight Base Camp
 	-- {npc:15306} Bor Wildmane
-	-- plural, as words: Encrypted Twilight Texts = {item:20404} Encrypted Twilight Text
-	["Collect twenty Encrypted Twilight Texts from the cultists here, ten for {npc:15306} and ten for Ortell."] = "Buradaki tarikatçılardan yirmi Encrypted Twilight Text topla: onu {npc:15306}, onu da Ortell için.",
+	-- plural, as words: Encrypted Twilight Texts = {item:20404} Encrypted Twilight Text · Twilight Avengers = {npc:11880} Twilight Avenger
+	["Collect twenty Encrypted Twilight Texts from the cultists here, ten for {npc:15306} and ten for Ortell. Take them from the Twilight Avengers and Geolords; leave the Flamereavers and Stonecallers (59-60)."] = "Buradaki tarikatçılardan yirmi Encrypted Twilight Text topla, on tanesi {npc:15306} için, on tanesi Ortell için. Onları Twilight Avenger ve Geolord'lardan al; Flamereaver ve Stonecaller'ları (59-60) bırak.",
 	-- {npc:15306} Bor Wildmane
 	["ten for each quest: {npc:15306} takes his ten before Ortell"] = "Her görev için on tane: {npc:15306} kendi onunu Ortell'den önce alır",
 
-	-- Step 22: Twilight Base Camp
+	-- Step 23: Twilight Base Camp
 	["The spare texts from the cultists"] = "Tarikatçılardan gelen fazla metinler",
 
-	-- Step 23: Back to Cenarion Hold
+	-- Step 24: Back to Cenarion Hold
 	-- {area:3425} Cenarion Hold
 	["Back to {area:3425}"] = "{area:3425} kalesine dön",
 	-- {npc:15190} Noggle Ficklespragg
@@ -115,45 +125,43 @@ return {
 	-- {area:2744} Hive'Regal
 	["Mar'alith's next errand, Into the Maw of Madness, leads into {area:2744} among elites. Skip it."] = "Mar'alith'in sonraki işi Into the Maw of Madness, seni elitlerin arasına, {area:2744} içine götürür. Atla.",
 
-	-- Step 25: Layo Starstrike
+	-- Step 26: Layo Starstrike
 	-- {area:3077} Valor's Rest · {zone:1451} Silithus
 	["Ride north-east to {area:3077}; you leave {zone:1451} through the pass beside it."] = "Kuzeydoğuya, {area:3077} noktasına git; {zone:1451} bölgesinden yanındaki geçitle çıkarsın.",
 
-	-- Step 27: Marshal's Refuge
+	-- Step 28: Marshal's Refuge
 	-- {area:541} Marshal's Refuge · {npc:9997} Spraggle Frock
 	["Through the pass and east along the northern cliffs to {area:541}. {npc:9997} stands beside the flight master."] = "Geçitten geç ve kuzey uçurumları boyunca doğuya, {area:541} kampına git. {npc:9997} uçuş ustasının yanında duruyor.",
 
-	-- Step 28: Krakle
+	-- Step 29: Krakle
 	-- {npc:10302} Krakle · {area:543} Golakka Hot Springs
 	["{npc:10302} the goblin sits at {area:543}, just east of the pylon."] = "Goblin {npc:10302}, pilonun hemen doğusundaki {area:543} kaplıcalarında oturuyor.",
 
-	-- Step 29: Krakle's Thermometer
+	-- Step 30: Krakle's Thermometer
 	-- {area:537} Fire Plume Ridge · {npc:10541} Krakle's Thermometer · {npc:10302} Krakle
 	["Ride east to {area:537}, climb it and use {npc:10541} at the lava vent near the top, then ride back west to {npc:10302}."] = "Doğuya, {area:537} sırtına git, tırman ve tepeye yakın lav bacasında {npc:10541} kullan, sonra batıya, {npc:10302} yanına dön.",
 
-	-- Step 30: Krakle
+	-- Step 31: Krakle
 	-- {npc:10302} Krakle · {npc:9298} Donova Snowden · {zone:1452} Winterspring
 	["{npc:10302} sends you to {npc:9298} in {zone:1452}: keep it."] = "{npc:10302} seni {zone:1452} bölgesindeki {npc:9298} yanına gönderir: sakla.",
 
-	-- Step 31: Pawn Captures Queen
+	-- Step 32: Bungle in the Jungle
+	-- {quest:4496} Bungle in the Jungle · {area:976} Gadgetzan · {area:540} Slithering Scar · {area:537} Fire Plume Ridge · {item:11018} Un'Goro Soil
+	["Only if you took {quest:4496} in {area:976} on the way here: the Gorishi of the {area:540}, south of {area:537}, drop the Scent Gland, and most of the crater's beasts and plants drop {item:11018}."] = "Yalnızca buraya gelirken {area:976} kasabasında {quest:4496} görevini aldıysan: {area:537} güneyindeki {area:540} içindeki Gorishi'ler Scent Gland düşürür, kraterin çoğu hayvanı ve bitkisi de {item:11018} düşürür.",
+
+	-- Step 33: Pawn Captures Queen
 	-- {item:11833} Gorishi Queen Lure · {area:540} Slithering Scar · {npc:10041} Gorishi Hive Queen
 	["Use the {item:11833} where the arrow points, inside the Gorishi hive of the {area:540}, to call the {npc:10041} (level 56)."] = "{npc:10041} (seviye 56) yaratığını çağırmak için {item:11833} eşyasını okun gösterdiği yerde, {area:540} yarığındaki Gorishi kovanının içinde kullan.",
 
-	-- Step 32: Torwa Pathfinder
+	-- Step 34: Torwa Pathfinder
 	-- {npc:9684} Lar'korwi
 	["Keep the bait: {npc:9684} is level 56, and the second loop passes his lair."] = "Yemi sakla: {npc:9684} seviye 56 ve ikinci tur onun ininden geçiyor.",
 
-	-- Step 33: Lar'korwi
+	-- Step 35: Lar'korwi
 	-- {npc:9684} Lar'korwi · {npc:9619} Torwa Pathfinder
 	["{npc:9684}'s lair is just south of the pylon. Use {npc:9619}'s bait there; {npc:9684} is level 56 and hits hard, so start at full health."] = "{npc:9684} adlı yaratığın ini pilonun hemen güneyinde. Orada {npc:9619} adlı NPC'nin yemini kullan; {npc:9684} seviye 56 ve sert vurur, canın tamken başla.",
 
-	-- Step 34: Un'Goro Crater: kill these as you meet them
-	-- {zone:1449} Un'Goro Crater
-	["{zone:1449}: kill these as you meet them"] = "{zone:1449}: bunları karşılaştıkça öldür",
-	-- plural, as words: Un'Goro Gorillas = {npc:6514} Un'Goro Gorilla
-	["Careful: Un'Goro Gorillas (level 50-51) call for help from allies within 20 yd once they drop to 25% health. There is a cave full of apes in the area, and fighting there brings many adds."] = "Dikkat: Un'Goro Gorilla yaratıkları (seviye 50-51) canları %25'e düşünce 20 yarda içindeki müttefiklerinden yardım çağırır. Bölgede maymunlarla dolu bir mağara var, orada dövüşmek çok sayıda ek yaratık getirir.",
-
-	-- Step 35: Marshal's Refuge
+	-- Step 36: Marshal's Refuge
 	-- {npc:9117} J.D. Collie
 	["{npc:9117} is inside the cave."] = "{npc:9117} mağaranın içinde.",
 	-- {npc:9117} J.D. Collie
@@ -165,60 +173,69 @@ return {
 	-- {npc:10977} Quixxil · {npc:10980} Umi's Mechanical Yeti
 	["Scare {npc:10977} with {npc:10980}"] = "{npc:10977} adlı NPC'yi {npc:10980} ile korkut",
 
-	-- Step 36: Ringo
+	-- Step 37: Ringo
 	-- {npc:9999} Ringo
 	["{npc:9999} sits on the ridge, lost and exhausted."] = "{npc:9999} sırtta kaybolmuş ve bitkin halde oturuyor.",
 
-	-- Step 37: Escort Ringo
+	-- Step 38: Escort Ringo
 	-- {npc:9999} Ringo
 	["Escort {npc:9999}"] = "{npc:9999} adlı NPC'ye eşlik et",
 	-- {npc:9999} Ringo · {area:541} Marshal's Refuge · {item:11804} Spraggle's Canteen
 	["Lead {npc:9999} north to {area:541}. When he faints, use {item:11804} on him to wake him."] = "{npc:9999} adlı NPC'yi kuzeye, {area:541} sığınağına götür. Bayıldığında onu uyandırmak için üzerinde {item:11804} kullan.",
 
-	-- Step 39: Torwa Pathfinder
+	-- Step 40: Torwa Pathfinder
 	-- {npc:9619} Torwa Pathfinder · {npc:9622} U'cha
 	["{npc:9619} now asks for {npc:9622}'s pelt, back in the north-east cave: skip it."] = "{npc:9619} şimdi kuzeydoğu mağarasındaki {npc:9622} adlı yaratığın postunu istiyor: atla.",
 
-	-- Step 41: Gadgetzan
+	-- Step 42: Gadgetzan
 	-- {area:976} Gadgetzan · {quest:2741} The Super Egg-O-Matic
 	["Fly to {area:976}. Still carrying {quest:2741}? The machine stands in the middle of town."] = "{area:976} kasabasına uç. {quest:2741} hâlâ yanında mı? Makine kasabanın ortasında duruyor.",
 
-	-- Step 42: Fly to Orgrimmar
+	-- Step 45: Fly to Orgrimmar
 	-- {area:1637} Orgrimmar
 	["Fly to {area:1637}"] = "{area:1637} şehrine uç",
 	-- {area:976} Gadgetzan
 	["{area:976} flight master"] = "{area:976} uçuş ustası",
 
-	-- Step 43: Class trainer
+	-- Step 46: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
 
-	-- Step 44: Paladin trainer
+	-- Step 47: Paladin trainer
 	["Paladin trainer"] = "Paladin eğitmeni",
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {zone:1454} Orgrimmar
 	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde; {zone:1454} bölgesinde Paladin eğitmeni yok",
 
-	-- Step 47: Zeppelin to Undercity
+	-- Step 50: Zeppelin to Undercity
 	-- {zone:1458} Undercity
 	["Zeppelin to {zone:1458}"] = "Zeplinle: {zone:1458}",
 
-	-- Step 50: Radley and Durgen
+	-- Step 51: The Bulwark
+	-- {area:152} The Bulwark · {zone:1422} Western Plaguelands
+	["From the zeppelin tower ride east along the road to the {area:152}, on the way into the {zone:1422}."] = "Zeplin kulesinden yol boyunca doğuya, {zone:1422} yolunun üstündeki {area:152} yöresine sür.",
+
+	-- Step 53: Kirsta Deepshadow
+	-- {npc:11610} Kirsta Deepshadow · {area:192} Northridge Lumber Camp
+	["{npc:11610} hides on the hill north-east of the {area:192}."] = "{npc:11610}, {area:192} kampının kuzeydoğusundaki tepede saklanıyor.",
+
+	-- Step 54: Scarlet Crusade
+	["Scarlet Crusade"] = "Scarlet Crusade",
+	-- {area:192} Northridge Lumber Camp · {npc:11615} Mickey Levine · {npc:10996} Fallen Hero · {zone:1422} Western Plaguelands
+	["Knights and magi work the {area:192}; the medics and hunters camp south of it. Set {npc:11615}'s termite barrel down in the middle of the lumber mill while you are there.\nCareful: a {npc:10996}, a level 58-59 elite, can stand at the lumber camp, as at many other spots of the {zone:1422}: give it room."] = "Şövalyeler ve büyücüler {area:192} kampında çalışıyor; sıhhiyeciler ve avcılar güneyinde kamp kurmuş. Oradayken {npc:11615} adlı NPC'nin termit fıçısını kereste fabrikasının ortasına koy.\nDikkat: {zone:1422} bölgesinin pek çok yerinde olduğu gibi kereste kampında da 58-59. seviye elit bir {npc:10996} durabilir: ona mesafe bırak.",
+
+	-- Step 56: Radley and Durgen
 	["Radley and Durgen"] = "Radley ve Durgen",
 	-- {npc:11613} Huntsman Radley · {npc:11611} Cavalier Durgen · {npc:11610} Kirsta Deepshadow · {area:190} Hearthglen
 	["{npc:11613} stands east of the lumber camp; {npc:11611} guards the road north-east of {npc:11610}, toward {area:190}.\nCareful: Guards stand at the tower's base and one more circles it on patrol. Clear them before you engage Durgen so they don't join the fight."] = "{npc:11613} kereste kampının doğusunda duruyor; {npc:11611}, {npc:11610} yerinin kuzeydoğusunda, {area:190} yönündeki yolu koruyor.\nDikkat: Kulenin dibinde muhafızlar duruyor, bir tanesi de devriye gezerek çevresinde dönüyor. Durgen ile dövüşmeden önce onları temizle ki dövüşe katılmasınlar.",
 
-	-- Step 51: Northridge Lumber Camp
-	-- {npc:11615} Mickey Levine
-	["The lumber mill is right beside Radley: set {npc:11615}'s termite barrel down in the middle of it."] = "Kereste fabrikası Radley'in hemen yanında: {npc:11615} adlı NPC'nin termit fıçısını onun ortasına koy.",
-
-	-- Step 53: Davil's Libram
+	-- Step 58: Davil's Libram
 	-- {area:190} Hearthglen
 	["The libram lies further north, on the way to {area:190}."] = "Libram daha kuzeyde, {area:190} yolunda.",
 
-	-- Step 54: Hearthglen
+	-- Step 59: Hearthglen
 	-- {area:190} Hearthglen
 	["{area:190}'s Scarlets are level 58-60. Ride in to the high point marked on your map, look over the town, and get out.\nCareful: Sentinels posted at the gate can detect stealthed players. Additional sentinels are found within the town, and an elite walks a patrol route nearby."] = "{area:190} kasabasının Scarlet'leri seviye 58-60. Haritanda işaretli yüksek noktaya sür, kasabaya bak ve çık.\nDikkat: Kapıya yerleştirilmiş nöbetçiler gizlenmiş oyuncuları fark edebilir. Kasabanın içinde başka nöbetçiler de var, yakında da bir elit devriye geziyor.",
 
-	-- Step 56: Andorhal watchtowers and silos
+	-- Step 61: Andorhal watchtowers and silos
 	["Andorhal watchtowers and silos"] = "Andorhal gözetleme kuleleri ve siloları",
 	-- {npc:10667} Chromie · {item:12815} Beacon Torch · {item:12627} Temporal Displacer
 	-- plural, as words: Temporal Parasites = {npc:10717} Temporal Parasite
@@ -234,97 +251,122 @@ return {
 	-- {npc:10902} Andorhal Tower One · {item:12815} Beacon Torch
 	["Mark {npc:10902} with the {item:12815}"] = "{npc:10902} kulesini {item:12815} ile işaretle",
 
-	-- Step 57: Chromie
+	-- Step 62: Chromie
 	["Upstairs"] = "Üst katta",
 
-	-- Step 58: Counting Out Time
+	-- Step 63: Counting Out Time
 	-- {npc:10667} Chromie
 	["The lockboxes sit in Andorhal's ruined houses around {npc:10667}'s inn. Careful: Ghouls and skeletons usually stand next to the boxes and attack when you come close. Searing ghouls also hurt anyone nearby and will break stealth."] = "Kilitli kutular, {npc:10667} adlı NPC'nin hanının çevresinde, Andorhal'ın yıkık evlerinde duruyor. Dikkat: ghoul'lar ve iskeletler genellikle kutuların yanında durur ve yaklaşınca saldırır. Searing ghoul'lar da yakındaki herkese hasar verir ve gizliliği bozar.",
 
-	-- Step 63: Dalson's Tears
+	-- Step 67: High Executor Derrington
+	-- {quest:105} Alas, Andorhal · {npc:1852} Araj the Summoner
+	-- plural, as words: Skeletal Warlords = {npc:1788} Skeletal Warlord
+	["{quest:105}'s shard lies at {npc:1852}'s feet, in the middle of Andorhal: he is a level 61 elite with elite Skeletal Warlords about him, a fight for a group."] = "{quest:105} görevinin parçası Andorhal'ın ortasında {npc:1852} yaratığının ayaklarının dibinde yatıyor: o, çevresinde elit Skeletal Warlord'lar olan 61. seviye bir elit; bir grup dövüşü.",
+
+	-- Step 69: Dalson's Tears
 	-- {npc:11077} Cauldron Lord Malvinious · {area:200} Dalson's Tears
 	["East along the road, {npc:11077} guards the cauldron at {area:200}."] = "Yol boyunca doğuda {npc:11077}, {area:200} çiftliğindeki kazanı koruyor.",
 
-	-- Step 65: Redpath's Shield
+	-- Step 71: Redpath's Shield
 	-- {area:201} Gahrron's Withering · {npc:1855} Tirion Fordring
 	["The shield lies at {area:201}, south of {npc:1855}'s hut."] = "Kalkan {npc:1855} kulübesinin güneyinde, {area:201} çiftliğinde duruyor.",
 
-	-- Step 66: Tirion Fordring
+	-- Step 72: Tirion Fordring
 	-- {npc:1855} Tirion Fordring · {area:2619} Thondroril River
 	["Ride east to {npc:1855}'s hut by the {area:2619} and hear him out."] = "Doğuya, {area:2619} nehrinin kenarındaki {npc:1855} kulübesine git ve onu dinle.",
 
-	-- Step 69: Scourge Champions
+	-- Step 75: Scourge Champions
 	-- plural, as words: Scourge Champions = {npc:8529} Scourge Champion
 	["Scourge Champions"] = "Scourge Champion yaratıkları",
 	-- {area:2270} Noxious Glade · {npc:11063} Carlin Redpath · {item:13156} Mystic Crystal
 	-- plural, as words: Scourge Champions = {npc:8529} Scourge Champion
 	["Scourge Champions roam the {area:2270}, north of the chapel. Pass {npc:11063}'s {item:13156} over each one you kill: the skulls that resonate are the ones he wants."] = "Scourge Champion yaratıkları şapelin kuzeyindeki {area:2270} açıklığında dolaşıyor. Öldürdüğün her birinin üzerinde {npc:11063} adlı NPC'nin {item:13156} eşyasını gezdir: istediği, titreşen kafataslarıdır.",
 
-	-- Step 71: Hameya's scroll
+	-- Step 77: Hameya's scroll
 	["Hameya's scroll"] = "Hameya'nın tomarı",
 	-- {area:2261} Undercroft · {area:2260} Marris Stead
 	["A torn scroll lies at the entrance of the {area:2261}, the crypt south of the {area:2260}."] = "{area:2260} çiftliğinin güneyindeki mahzen {area:2261} girişinde yırtık bir tomar duruyor.",
 
-	-- Step 72: Pamela and the Undercroft
+	-- Step 78: Pamela and the Undercroft
 	-- {area:2261} Undercroft
 	["Pamela and the {area:2261}"] = "Pamela ve {area:2261}",
 	-- {area:2262} Darrowshire · {npc:11886} Mercutio Filthgorger · {area:2261} Undercroft
 	["Ride to {area:2262} in the south-west; Pamela plays among the houses. {npc:11886} lurks in the {area:2261}, the crypt just west of the town.\nCareful: About four non-elite adds come with Mercutio. They walk to the grave instead of appearing on the spot."] = "Güneybatıdaki {area:2262} köyüne sür; Pamela evlerin arasında oynuyor. {npc:11886}, kasabanın hemen batısındaki mahzen {area:2261} içinde pusuda.\nDikkat: Mercutio ile birlikte yaklaşık dört elit olmayan ek yaratık gelir. Olduğu yerde belirmek yerine mezara yürüyerek gelirler.",
 
-	-- Step 74: Tirion Fordring
+	-- Step 79: Tirion Fordring
 	-- {npc:1855} Tirion Fordring
 	["Ride north-west to {npc:1855}'s hut."] = "Kuzeybatıya, {npc:1855} kulübesine git.",
 
-	-- Step 77: Level 59.14
-	["Level 59.14"] = "Seviye 59.14",
-	-- {quest:6135} Duskwing, Oh How I Hate Thee... · {quest:838} Scholomance · {area:2279} Stratholme
-	["If you skipped {quest:6135}, grind here to level 59.14 to stay on the route's plan. Or, with a group, run the {quest:838} dungeon or the {area:2279} dungeon instead."] = "{quest:6135} görevini atladıysan rotanın planında kalmak için burada seviye 59.14 olana kadar kas. Ya da grupla, bunun yerine {quest:838} zindanına ya da {area:2279} zindanına gir.",
-	-- {npc:10717} Temporal Parasite
-	["grind on {npc:10717}"] = "Kas: {npc:10717}",
+	-- Step 81: Alas, Andorhal
+	-- {npc:1852} Araj the Summoner · {object:177241} Araj's Phylactery
+	-- plural, as words: Skeletal Warlords = {npc:1788} Skeletal Warlord
+	["{npc:1852} (61, elite) stands in the middle of Andorhal among Skeletal Warlords (56-57, elite): kill him with your group, then take the shard from {object:177241} there."] = "{npc:1852} (61, elit) Andorhal'ın ortasında Skeletal Warlord yaratıklarının (56-57, elit) arasında duruyor: grubunla onu öldür, sonra parçayı oradaki {object:177241} içinden al.",
 
-	-- Step 78: Chromie
+	-- Step 82: Chromie
 	-- {npc:10667} Chromie
 	["Ride south-west to {npc:10667} in Andorhal."] = "Güneybatıya, Andorhal'daki {npc:10667} yanına git.",
 	-- {npc:10667} Chromie
 	["{npc:10667}'s Battle of Darrowshire ends against elites. Skip it."] = "{npc:10667} adlı NPC'nin Battle of Darrowshire görevi elitlere karşı bitiyor. Atla.",
 
-	-- Step 79: The Bulwark
+	-- Step 83: The Bulwark
 	-- {area:152} The Bulwark
 	["West to the {area:152}."] = "Batıya, {area:152} surlarına git.",
 
-	-- Step 80: Into Eastern Plaguelands
+	-- Step 85: Into Eastern Plaguelands
 	-- {zone:1423} Eastern Plaguelands
 	["Into {zone:1423}"] = "{zone:1423} bölgesine",
 
-	-- Step 81: Eastern Plaguelands
+	-- Step 86: Pathstrider
+	-- {area:2276} Quel'Lithien Lodge · {area:2275} Northpass Tower
+	-- plural, as words: Rangers = {npc:8564} Ranger · Pathstriders = {npc:8565} Pathstrider
+	["Ride north-east to {area:2276} by {area:2275}: the high elf Rangers, Pathstriders and Woodsmen guard it and the Registry lies inside. Careful: the Pathstriders are 57-58 but the Rangers reach 60: pull one at a time and take the Rangers last."] = "Kuzeydoğuya, {area:2275} yanındaki {area:2276} köşküne sür: high elf Ranger, Pathstrider ve Woodsman'leri onu koruyor, Registry de içeride yatıyor. Dikkat: Pathstrider'lar 57-58 ama Ranger'lar 60'a kadar çıkar: tek tek çek ve Ranger'ları sona bırak.",
+	-- {npc:8565} Pathstrider · {area:2276} Quel'Lithien Lodge
+	["{npc:8565} walks around {area:2276}: look inside the circle on the map"] = "{npc:8565}, {area:2276} çevresinde dolaşıyor: haritadaki çemberin içine bak",
+
+	-- Step 87: Eastern Plaguelands
 	-- {quest:5845} Of Lost Honor
 	["The lake for {quest:5845}"] = "{quest:5845} için göl",
 
-	-- Step 82: Of Lost Honor
+	-- Step 88: Of Lost Honor
 	["Underwater"] = "Su altında",
 
-	-- Step 83: Infiltrator Hameya
+	-- Step 89: Infiltrator Hameya
 	-- {area:2273} Zul'Mashar
 	["Hameya hides among the Mossflayer trolls of {area:2273}, in the north-east corner.\nCareful: The trolls along the path to {area:2273} are level 57-59. They run away at low health and call for help, so they often bring adds with them."] = "Hameya, kuzeydoğu köşedeki {area:2273} kesiminde Mossflayer troll'lerinin arasında saklanıyor.\nDikkat: {area:2273} yolundaki troll'ler seviye 57-59. Canları azalınca kaçıp yardım çağırırlar, bu yüzden çoğu zaman yanlarında ek yaratık getirirler.",
 
-	-- Step 85: Hameya's mound
-	["Hameya's mound"] = "Hameya'nın tümseği",
-	-- {npc:1855} Tirion Fordring · {area:2261} Undercroft · {object:177675} Mound of Dirt
-	["Ride south-east from {npc:1855} to the {area:2261}; the {object:177675} is just behind it."] = "{npc:1855} adlı NPC'den güneydoğuya, {area:2261} yapısına sür; {object:177675} hemen arkasında.",
+	-- Step 91: Nathanos Blightcaller
+	-- {npc:1855} Tirion Fordring · {area:2260} Marris Stead
+	["Ride south-east from {npc:1855} to the {area:2260} farmhouse."] = "{npc:1855} yanından güneydoğuya, {area:2260} çiftlik evine sür.",
 
-	-- Step 86: Into Western Plaguelands
+	-- Step 93: Hameya's mound
+	["Hameya's mound"] = "Hameya'nın tümseği",
+	-- {object:177675} Mound of Dirt · {area:2261} Undercroft
+	["The {object:177675} is just south, behind the {area:2261}."] = "{object:177675}, hemen güneyde, {area:2261} arkasında.",
+
+	-- Step 94: Duskwing, Oh How I Hate Thee...
+	-- {npc:11897} Duskwing
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:11897} is a level 60 elite: skip it if you are alone."] = "Bunlar elit yaratıklar: grup kurmak tavsiye edilir, birlikte yapacak kişiler ara. {npc:11897} 60. seviye bir elit: yalnızsan atla.",
+
+	-- Step 96: Into Western Plaguelands
 	-- {zone:1422} Western Plaguelands
 	["Into {zone:1422}"] = "{zone:1422} bölgesine",
 
-	-- Step 89: Target: Writhing Haunt
+	-- Step 99: Target: Writhing Haunt
 	-- {npc:11055} Shadow Priestess Vandis · {area:152} The Bulwark
 	["from the cauldron, for {npc:11055} at the {area:152}"] = "Kazandan, {area:152} kalesindeki {npc:11055} için",
 
-	-- Step 91: Target: Gahrron's Withering
+	-- Step 100: Mulgris Deepriver
+	-- {npc:10739} Mulgris Deepriver · {area:202} Writhing Haunt · {area:201} Gahrron's Withering
+	["{npc:10739} camps by the {area:202}, beside the cauldron; his bears roam the hills north and east of it, on the way to {area:201}."] = "{npc:10739}, {area:202} yanında, kazanın yanında kamp kurmuş; ayıları {area:201} yolunda, onun kuzeyindeki ve doğusundaki tepelerde dolaşıyor.",
+
+	-- Step 101: Diseased Grizzlies
+	["Diseased Grizzlies"] = "Diseased Grizzly yaratıkları",
+
+	-- Step 104: Target: Gahrron's Withering
 	-- {area:202} Writhing Haunt · {area:201} Gahrron's Withering · {npc:11078} Cauldron Lord Soulwrath
 	["Back east past the {area:202} to {area:201}, the farm under the eastern hills: {npc:11078} guards its cauldron. Kill him for the key, then use the cauldron."] = "Doğuya, {area:202} yanından geçerek doğu tepelerinin altındaki çiftlik {area:201} içine dön: {npc:11078} kazanını koruyor. Anahtar için onu öldür, sonra kazanı kullan.",
 
-	-- Step 92: The Bulwark
+	-- Step 105: The Bulwark
 	-- {area:152} The Bulwark
 	["West to the {area:152} one last time."] = "Son bir kez batıya, {area:152} kalesine git.",
 }

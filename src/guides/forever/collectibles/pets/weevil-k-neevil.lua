@@ -4,8 +4,8 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Step 1: My Little Friends
-	-- {npc:217412} Amaryllis Webb · {zone:1435} Swamp of Sorrows · {zone:1417} Arathi Highlands · {zone:1443} Desolace
-	["{npc:217412}, a Forsaken bug collector, keeps her menagerie in western {zone:1435}. She hands you an Entomology Starter Kit: open it for the tools that catch the three bugs. The bugs are far apart (northern Stranglethorn, {zone:1417} and {zone:1443}), so do them while you pass. If you lose the kit, she sells another for 50s."] = "Forsaken bir böcek koleksiyoncusu olan {npc:217412}, hayvan koleksiyonunu {zone:1435} bölgesinin batısında tutuyor. Sana bir Entomology Starter Kit verir: üç böceği yakalayan aletler için aç. Böcekler birbirinden uzak (kuzey Stranglethorn, {zone:1417} ve {zone:1443}), bu yüzden yolun düştükçe yap. Kiti kaybedersen 50s'ye bir tane daha satar.",
+	-- {npc:217412} Amaryllis Webb · {zone:1435} Swamp of Sorrows · {item:213565} Entomology Starter Kit · {zone:1417} Arathi Highlands · {zone:1443} Desolace
+	["{npc:217412}, a Forsaken bug collector, keeps her menagerie in western {zone:1435}. She hands you an {item:213565}: open it for the tools that catch the three bugs. The bugs are far apart (northern Stranglethorn, {zone:1417} and {zone:1443}), so do them while you pass. If you lose the kit, she sells another for 50s."] = "Forsaken bir böcek koleksiyoncusu olan {npc:217412}, hayvan koleksiyonunu {zone:1435} bölgesinin batısında tutuyor. Sana bir {item:213565} verir: üç böceği yakalayan araçlar için onu aç. Böcekler birbirinden uzak (kuzey Stranglethorn, {zone:1417} ve {zone:1443}), yani geçerken yap. Kiti kaybedersen 50s'e yenisini satar.",
 
 	-- Step 2: Arbor Tarantula in Stranglethorn Vale
 	-- {npc:217588} Arbor Tarantula · {zone:1434} Stranglethorn Vale

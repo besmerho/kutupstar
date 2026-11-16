@@ -28,7 +28,14 @@ return {
 	-- {item:12289} Sea Turtle Remains
 	["{item:12289}, on the beach west of the docks; underwater"] = "{item:12289}, iskelelerin batısındaki kumsalda; su altında",
 
-	-- Step 6: Bears and the Blackwood camp
+	-- Step 6: Buzzbox 827
+	-- {quest:983} Buzzbox 827
+	-- plural, as words: Tide Crawlers = {npc:2232} Tide Crawler
+	["Only if you still carry {quest:983}'s quest: the Tide Crawlers scuttle along the shore below the village, and {quest:983} stands on the beach just south of the docks."] = "Yalnızca {quest:983} görevi hâlâ sendeyse: Tide Crawler yaratıkları köyün aşağısındaki kıyıda geziniyor, {quest:983} da iskelelerin hemen güneyindeki kumsalda duruyor.",
+	-- plural, as words: Crawler Legs = {item:5385} Crawler Leg · Tide Crawlers = {npc:2232} Tide Crawler
+	["Crawler Legs: the Tide Crawlers"] = "Crawler Leg: Tide Crawler yaratıkları",
+
+	-- Step 7: Bears and the Blackwood camp
 	["Bears and the Blackwood camp"] = "Ayılar ve Blackwood kampı",
 	-- {area:442} Auberdine · {item:7586} Tharnariun's Hope
 	-- plural, as words: Rabid Thistle Bears = {npc:2164} Rabid Thistle Bear
@@ -37,7 +44,7 @@ return {
 	-- plural, as words: Rabid Thistle Bears = {npc:2164} Rabid Thistle Bear
 	["the Rabid Thistle Bears nearest {npc:3701}"] = "{npc:3701} yerine en yakın Rabid Thistle Bear yaratıkları",
 
-	-- Step 7: Ameth'Aran
+	-- Step 8: Ameth'Aran
 	-- {npc:3639} Sentinel Tysha Moonblade · {npc:2178} Wailing Highborne · {npc:3667} Anaya Dawnrunner · {npc:270196} Jai'vhanel · {quest:4722} Beached Sea Turtle
 	["{npc:3639} stands at the north edge of the ruins. Cursed, Writhing and {npc:2178} haunt them; {npc:3667}'s ghost walks among them, {npc:270196} the owl circles east of them. The two tablets lie in the ruins; a {quest:4722} lies on the shore west of them."] = "{npc:3639} harabelerin kuzey kenarında duruyor. Harabelerde Cursed Highborne, Writhing Highborne ve {npc:2178} yaratıkları dolaşıyor; {npc:3667} adlı NPC'nin hayaleti aralarında geziyor, baykuş {npc:270196} ise harabelerin doğusunda daireler çiziyor. İki tablet harabelerin içinde; bir {quest:4722} de harabelerin batısındaki kıyıda yatıyor.",
 	-- plural, as words: Highborne Relics = {item:5360} Highborne Relic
@@ -47,12 +54,12 @@ return {
 	-- {object:17189} Fall of Ameth'Aran
 	["Read the {object:17189}"] = "{object:17189} tabletini oku",
 
-	-- Step 8: The red crystal
+	-- Step 9: The red crystal
 	["The red crystal"] = "Kırmızı kristal",
 	-- {area:447} Ameth'Aran · {object:175524} Mysterious Red Crystal
 	["Climb the eastern mountains east of {area:447}; the {object:175524} sits on a ledge."] = "{area:447} harabelerinin doğusundaki dağlara tırman; {object:175524} bir çıkıntının üzerinde duruyor.",
 
-	-- Step 9: Bashal'Aran
+	-- Step 10: Bashal'Aran
 	-- {npc:3650} Asterion · {quest:954} Bashal'Aran · {object:17183} Buzzbox 411 · {quest:4723} Beached Sea Creature
 	-- plural, as words: Wild Grells = {npc:2190} Wild Grell · Vile Sprites = {npc:2189} Vile Sprite · Deth'ryll Satyrs = {npc:2212} Deth'ryll Satyr
 	["North along the hills. {npc:3650} waits in the ruins of {quest:954}; Wild Grells and Vile Sprites fill them, Deth'ryll Satyrs the eastern edge. {object:17183} stands by the road west of the ruins; a {quest:4723} lies on the shore on the way to him."] = "Tepeler boyunca kuzeye git. {npc:3650}, {quest:954} harabelerinde bekliyor; harabeleri Wild Grell ve Vile Sprite yaratıkları, doğu kenarını Deth'ryll Satyr yaratıkları doldurmuş. {object:17183} harabelerin batısındaki yolun yanında duruyor; ona giderken kıyıda bir {quest:4723} yatıyor.",
@@ -62,41 +69,41 @@ return {
 	-- plural, as words: Deth'ryll Satyrs = {npc:2212} Deth'ryll Satyr
 	["{item:5338}: Deth'ryll Satyrs"] = "{item:5338}: Deth'ryll Satyr yaratıkları",
 
-	-- Step 11: Auberdine
+	-- Step 12: Auberdine
 	["Fill the tube at the moonwell in the village"] = "Tüpü köydeki ay kuyusunda doldur",
 
-	-- Step 12: Blackwood furbolgs
+	-- Step 13: Blackwood furbolgs
 	["Blackwood furbolgs"] = "Blackwood furbolgları",
 	-- {area:442} Auberdine
 	-- plural, as words: Blackwood Pathfinders = {npc:2167} Blackwood Pathfinder
-	["Blackwood Pathfinders and Windtalkers hold the camp south-east of {area:442}."] = "Blackwood Pathfinder ve Blackwood Windtalker yaratıkları {area:442} kasabasının güneydoğusundaki kampı tutuyor.",
+	["Blackwood Pathfinders and Windtalkers hold the camp south-east of {area:442}.\nCareful: the Windtalkers (13-14) cast from range and the furbolgs stand in pairs: pull them one at a time."] = "Blackwood Pathfinder ve Blackwood Windtalker yaratıkları {area:442} kasabasının güneydoğusundaki kampı tutuyor.\nDikkat: Windtalker yaratıkları (13-14) uzaktan büyü yapar ve furbolg'lar çift çift durur: onları tek tek çek.",
 
-	-- Step 13: The southern beaches
+	-- Step 14: The southern beaches
 	["The southern beaches"] = "Güney kumsalları",
 	-- {area:447} Ameth'Aran · {quest:4728} Beached Sea Creature · {area:450} Remtravel's Excavation
 	-- plural, as words: Greymist Oracles = {npc:2207} Greymist Oracle
 	["Follow the coast south past {area:447}: one {quest:4728} lies on the shore west of the Grove, another further south near {area:450}. Three more remains lie further south-west among Greymist Oracles and Tidehunters (18-20): the guide leaves them for the last loop, when you are closer to their level."] = "Kıyıyı güneye izleyerek {area:447} harabelerini geç: bir {quest:4728} Grove'un batısındaki kıyıda, bir diğeri daha güneyde, {area:450} kazısının yakınında yatıyor. Üç kalıntı daha güneybatıda, Greymist Oracle ve Greymist Tidehunter yaratıklarının (18-20) arasında: rehber onları, seviyelerine daha yakın olacağın son tura bırakıyor.",
 
-	-- Step 14: Ameth'Aran
+	-- Step 15: Ameth'Aran
 	-- {area:447} Ameth'Aran
 	["Back north to {area:447}: the flame burns in the south of the ruins."] = "Kuzeye, {area:447} harabelerine dön: alev harabelerin güneyinde yanıyor.",
 
-	-- Step 15: The red crystal
+	-- Step 16: The red crystal
 	["Back north-east into the mountains to the crystal."] = "Kuzeydoğuya, dağlardaki kristale dön.",
 
-	-- Step 16: Bashal'Aran
+	-- Step 17: Bashal'Aran
 	-- {npc:3650} Asterion · {area:442} Auberdine
 	["North along the hills to {npc:3650}, then west down to {area:442}."] = "Tepeler boyunca kuzeye, {npc:3650} yanına git, sonra batıya inip {area:442} kasabasına dön.",
 
-	-- Step 18: Boat to Stormwind Harbor
+	-- Step 19: Boat to Stormwind Harbor
 	-- {area:17203} Stormwind Harbor
 	["Boat to {area:17203}"] = "Gemiyle: {area:17203}",
 
-	-- Step 19: Manifest Clerk Philmor
+	-- Step 20: Manifest Clerk Philmor
 	-- {npc:268511} Manifest Clerk Philmor · {npc:483} Elaine Trias · {object:2096} Trade District
 	["Off the boat, {npc:268511} stands on the harbor: his shipment goes to {npc:483}' cheese shop in the {object:2096}, beside the flight master."] = "Gemiden inince {npc:268511} limanda duruyor: sevkiyatı, {object:2096} içinde, uçuş ustasının yanındaki {npc:483} adlı NPC'nin peynir dükkânına gidiyor.",
 
-	-- Step 20: Stormwind flight master
+	-- Step 21: Stormwind flight master
 	-- {zone:1453} Stormwind
 	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 	-- {npc:483} Elaine Trias
@@ -104,27 +111,27 @@ return {
 	-- {object:460004} Gatehouse Door (no name in this language: may be words)
 	["Up the stairs in her shop: leave the shipment at the {object:460004}"] = "Dükkânındaki merdivenden çık: sevkiyatı {object:460004} önüne bırak",
 
-	-- Step 21: Baros Alexston
+	-- Step 22: Baros Alexston
 	-- {npc:1646} Baros Alexston · {object:2098} Cathedral Square · {object:2096} Trade District · {zone:1436} Westfall
 	["{npc:1646} stands in {object:2098}, west of the {object:2096}: his compass is in his old house in {zone:1436}, on the way."] = "{npc:1646}, {object:2096} semtinin batısında, {object:2098} meydanında duruyor: pusulası yol üstündeki {zone:1436} bölgesinde, eski evinde.",
 
-	-- Step 22: Woo Ping
+	-- Step 23: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
 
-	-- Step 23: Woo Ping
+	-- Step 24: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn Swords from {npc:11867} ({object:2096}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "Buradayken: {npc:11867} sana Swords öğretir ({object:2096}, 10 gümüş); ana elde bir kılıçla Rogue istikrarla seviye atlar.",
 
-	-- Step 24: Druid trainer
+	-- Step 25: Druid trainer
 	["Druid trainer"] = "Druid eğitmeni",
 	-- {npc:5504} Sheldras Moontree · {zone:1453} Stormwind · {area:87} Goldshire
 	["{npc:5504} in {zone:1453}; {area:87} has no druid trainer"] = "{npc:5504}, {zone:1453} bölgesinde; {area:87} içinde Druid eğitmeni yok",
 
-	-- Step 26: Class trainer
+	-- Step 27: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
 
-	-- Step 27: Shaman trainer
+	-- Step 28: Shaman trainer
 	["Shaman trainer"] = "Shaman eğitmeni",
 	-- {npc:257446} Teo Hammerstorm · {zone:1426} Dun Morogh · {area:87} Goldshire
 	["{npc:257446} in {zone:1426}; {area:87} has no shaman trainer"] = "{npc:257446}, {zone:1426} bölgesinde; {area:87} içinde Shaman eğitmeni yok",

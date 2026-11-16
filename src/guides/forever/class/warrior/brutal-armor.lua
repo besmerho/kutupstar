@@ -31,7 +31,7 @@ return {
 
 	-- Step 6: Thun'grim Firegaze
 	-- {npc:5878} Thun'grim Firegaze · {area:1699} Thorn Hill · {quest:1838} Brutal Armor · {item:7587} Thun'grim's Instructions
-	["{npc:5878}'s hut sits on top of {area:1699}, east of the Crossroads: climb the broad ridge on the north or east side. {quest:1838} is a level 30 quest; take it now and gather on the way. {item:7587} list where each material comes from."] = "{npc:5878} adlı NPC'nin kulübesi, Crossroads'un doğusunda, {area:1699} tepesinin üstünde: kuzey ya da doğu yakasındaki geniş sırttan tırman. {quest:1838} 30. seviye bir görev; şimdi al ve yolda topla. {item:7587} her malzemenin nereden geldiğini listeler.",
+	["{npc:5878}'s hut sits on top of {area:1699}, east of the Crossroads: climb the broad ridge on the north or east side. {quest:1838} is a level 30 quest, so the guide waits for level 29 before you take it. {item:7587} list where each material comes from."] = "{npc:5878} adlı NPC'nin kulübesi Crossroads'un doğusunda {area:1699} tepesinin üstünde: kuzey ya da doğu yakasındaki geniş sırta tırman. {quest:1838} 30. seviye bir görev, yani rehber almadan önce 29. seviyeyi bekler. {item:7587} her malzemenin nereden geldiğini listeler.",
 
 	-- Step 7: Windshear Mine
 	-- {area:2160} Windshear Mine · {area:461} Windshear Crag · {area:460} Sun Rock Retreat · {spell:116} Frostbolt
@@ -43,9 +43,9 @@ return {
 	-- Step 8: Hillsbrad Miners
 	-- plural, as words: Hillsbrad Miners = {npc:2269} Hillsbrad Miner
 	["Hillsbrad Miners"] = "Hillsbrad Miner yaratıkları",
-	-- {item:7127} Powdered Azurite · {area:271} Southshore · {spell:71} Defensive Stance · {area:272} Tarren Mill
+	-- {item:7127} Powdered Azurite · {quest:1838} Brutal Armor · {area:271} Southshore · {spell:71} Defensive Stance · {area:272} Tarren Mill
 	-- plural, as words: Hillsbrad Miners = {npc:2269} Hillsbrad Miner
-	["You need 10 {item:7127}. The guide waits for level 25 first. The Hillsbrad Miners (level 26-27) work the mine in the hills west of {area:271} and drop the azurite four kills in five; they fight in {spell:71}, sunder your armor and run for help at 30% health. Fly to {area:272} and head south-west."] = "10 {item:7127} gerekiyor. Rehber önce seviye 25'i bekler. Hillsbrad Miner yaratıkları (seviye 26-27) {area:271} kasabasının batısındaki tepelerde madende çalışıyor ve beşte dört azurit düşürüyor; {spell:71} duruşunda dövüşürler, zırhını yarar ve %30 canda yardım için kaçarlar. {area:272} kasabasına uç ve güneybatıya git.",
+	["You need 10 {item:7127}. The guide waits for level 30 first ({quest:1838} is a level 30 quest). The Hillsbrad Miners (level 26-27) work the mine in the hills west of {area:271} and drop the azurite four kills in five; they fight in {spell:71}, sunder your armor and run for help at 30% health. Fly to {area:272} and head south-west."] = "10 {item:7127} gerekiyor. Rehber önce 30. seviyeyi bekler ({quest:1838} 30. seviye bir görev). Hillsbrad Miner yaratıkları (26-27. seviye) {area:271} kasabasının batısındaki tepelerdeki madende çalışır ve azuriti beşte dört öldürmede düşürür; {spell:71} ile dövüşür, zırhını yarar ve %30 canda yardım için kaçarlar. {area:272} kasabasına uç ve güneybatıya git.",
 	-- {item:7127} Powdered Azurite
 	-- plural, as words: Hillsbrad Miners = {npc:2269} Hillsbrad Miner
 	["{item:7127}, from the Hillsbrad Miners"] = "{item:7127}, Hillsbrad Miner yaratıklarından",
@@ -54,7 +54,7 @@ return {
 	-- {area:1717} Razorfen Kraul
 	["Roogug in {area:1717}"] = "{area:1717} içinde Roogug",
 	-- {area:1717} Razorfen Kraul · {zone:1413} Barrens · {spell:403} Lightning Bolt
-	["Roogug is an elite quilboar (level 28) inside {area:1717}, the dungeon at the south end of the {zone:1413}; a five-player dungeon: needs a group of five, his guards come with him. The guide waits for level 26 first. Inside take the left path at the first fork, cross the vine bridge over the pig pens, go past the room with the big cauldron: he waits in the room on the right. He casts {spell:403} and calls Earth Rumblers. The vial always drops."] = "Roogug, {zone:1413} bölgesinin güney ucundaki zindan {area:1717} içinde elit bir quilboar (seviye 28); beş kişilik bir zindan: beş kişilik bir grup gerekir, muhafızları onunla gelir. Rehber önce seviye 26'yı bekler. İçeride ilk çatalda soldaki yolu tut, domuz ağıllarının üstündeki sarmaşık köprüyü geç, büyük kazanlı odayı geç: sağdaki odada bekliyor. {spell:403} kullanır ve Earth Rumbler çağırır. Şişe her zaman düşer.",
+	["Roogug is an elite quilboar (level 28) inside {area:1717}, the dungeon at the south end of the {zone:1413}; a five-player dungeon: needs a group of five, his guards come with him. The guide waits for level 30 first. Inside take the left path at the first fork, cross the vine bridge over the pig pens, go past the room with the big cauldron: he waits in the room on the right. He casts {spell:403} and calls Earth Rumblers. The vial always drops."] = "Roogug, {zone:1413} bölgesinin güney ucundaki zindan {area:1717} içinde elit bir quilboar (28. seviye); beş kişilik bir zindan: beş kişilik bir grup ister, muhafızları onunla gelir. Rehber önce 30. seviyeyi bekler. İçeride ilk çatalda sol yolu al, domuz ağıllarının üstündeki sarmaşık köprüyü geç, büyük kazanın olduğu odayı geç: sağdaki odada bekliyor. {spell:403} atar ve Earth Rumbler'lar çağırır. Şişe her zaman düşer.",
 	-- {item:6841} Vial of Phlogiston
 	["{item:6841}, from Roogug"] = "{item:6841}, Roogug'dan",
 

@@ -15,148 +15,230 @@ return {
 	-- {item:6217} Copper Rod · {item:247786} Mote of Magic · {zone:1453} Stormwind City · {npc:1286} Edna Mullby · {npc:1318} Jessara Cordell · {zone:1454} Orgrimmar · {npc:3367} Felika · {npc:3346} Kithas · {npc:5817} Shimra
 	["Buy the whole bracket's share in one go: 1 {item:6217} (1s 24c) and 32 {item:247786} (3s 20c); about 4s 44c in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286} and {npc:1318}; {zone:1454}: {npc:3367}, {npc:3346} and {npc:5817})."] = "Bu aralığın payını tek seferde al: 1 {item:6217} (1s 24c) ve 32 {item:247786} (3s 20c); toplam yaklaşık 4s 44c. Ok tarafının en yakın satıcısını seçer ({zone:1453}: {npc:1286} ve {npc:1318}; {zone:1454}: {npc:3367}, {npc:3346} ve {npc:5817}).",
 
-	-- Step 3: Enchant Bracer - Inferior Stamina to 25
+	-- Step 3: Enchanting 1-75: Auction House
+	-- {skill:333} Enchanting
+	["{skill:333} 1-75: Auction House"] = "{skill:333} 1-75: Müzayede Evi",
+	-- {item:10940} Strange Dust
+	["What 1-75 takes that the Auction House sells: 51 {item:10940}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden Müzayede Evi'nin sattıkları: 51 {item:10940}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+
+	-- Step 4: Strange Dust
+	-- {item:10940} Strange Dust · {spell:7420} Enchant Chest - Inferior Stamina · {skill:333} Enchanting
+	["51 {item:10940} for {spell:7420}: {skill:333}: disenchant green items of item level 5-20."] = "{spell:7420} için 51 {item:10940}: {skill:333}: eşya seviyesi 5-20 olan yeşil eşyaları disenchant et.",
+
+	-- Step 5: Enchant Bracer - Inferior Stamina to 25
 	-- {spell:7418} Enchant Bracer - Inferior Stamina
 	["{spell:7418} to 25"] = "{spell:7418}: 25 puana kadar",
 	-- {spell:7418} Enchant Bracer - Inferior Stamina · {item:247786} Mote of Magic · {item:6218} Runed Copper Rod
 	["{spell:7418} is orange at 1 (yellow 20, green 22, grey 25): about 31 crafts to 25. Each takes 1 {item:247786}. One {item:247786} (10c) a craft; grey at 25 on Forever. Make the {item:6218} first: the recipe needs it in your bags, so keep it there. Enchant any item for that slot in your bags, even a grey one."] = "{spell:7418}: 1 puanda turuncu (sarı 20, yeşil 22, gri 25): 25 puana kadar yaklaşık 31 üretim. Her biri 1 {item:247786} ister. Üretim başına bir {item:247786} (10c); Forever'da 25 puanda gri. Önce {item:6218} yap: tarif onun çantanda olmasını ister, orada tut. O yuva için çantandaki herhangi bir eşyayı, gri bir eşyayı bile büyüle.",
 	["a tool: keep it in your bags"] = "bir alet: çantanda tut",
 
-	-- Step 4: Enchanting recipes at 25
+	-- Step 6: Enchanting recipes at 25
 	-- {skill:333} Enchanting
 	["{skill:333} recipes at 25"] = "25 puanda {skill:333} tarifleri",
 	-- {skill:333} Enchanting · {spell:7420} Enchant Chest - Inferior Stamina · {spell:1230643} Enchanted Lute · {item:4470} Simple Wood · {item:10940} Strange Dust
 	["Back to an {skill:333} trainer: {spell:7420} (from 15, 50c). Also learn {spell:1230643} (1s): Forever's {skill:333} camp item, 1 {item:4470} and 1 {item:10940}, placed at a campsite beside a campfire for its buff. The Camping 101: {skill:333} quest from your starting area's camping guide (after The Great Outdoors) sends you to an enchanting trainer who teaches it free."] = "Bir {skill:333} eğitmenine dön: {spell:7420} (15 puandan, 50c). {spell:1230643} da öğren (1s): Forever'ın {skill:333} kamp eşyası, 1 {item:4470} ve 1 {item:10940}; güçlendirmesi için bir kamp yerinde kamp ateşinin yanına konur. Başlangıç bölgendeki kamp rehberinden (The Great Outdoors'tan sonra) alınan Camping 101: {skill:333} görevi seni bunu ücretsiz öğreten bir büyücülük eğitmenine gönderir.",
 
-	-- Step 5: Enchant Chest - Inferior Stamina to 75
+	-- Step 7: Enchant Chest - Inferior Stamina to 75
 	-- {spell:7420} Enchant Chest - Inferior Stamina
 	["{spell:7420} to 75"] = "{spell:7420}: 75 puana kadar",
-	-- {spell:7420} Enchant Chest - Inferior Stamina · {item:10940} Strange Dust · {item:10938} Lesser Magic Essence · {spell:7423} Minor Absorption · {skill:333} Enchanting
-	["{spell:7420} is orange at 25 (yellow 70, green 90, grey 110): about 51 crafts to 75. Each takes 1 {item:10940}. One {item:10940} a craft: the dust most level 5-20 greens break into, armour above all. {item:10938} (from weapons) does the same job through Bracer - Minor Deflect or Chest - {spell:7423} if you have more of it. {item:10940} (51 for 1-75): {skill:333}: disenchant green items of item level 5-20; or the Auction House. Enchant any item for that slot in your bags, even a grey one."] = "{spell:7420}: 25 puanda turuncu (sarı 70, yeşil 90, gri 110): 75 puana kadar yaklaşık 51 üretim. Her biri 1 {item:10940} ister. Üretim başına bir {item:10940}: seviye 5-20 yeşillerin çoğunun, özellikle zırhların ayrıştığı toz. Elinde daha çok {item:10938} (silahlardan) varsa Bracer - Minor Deflect ya da Chest - {spell:7423} aynı işi görür. {item:10940} (1-75 için 51): {skill:333}: eşya seviyesi 5-20 yeşil eşyaları disenchant et; ya da müzayede evi. O yuva için çantandaki herhangi bir eşyayı, gri bir eşyayı bile büyüle.",
+	-- {spell:7420} Enchant Chest - Inferior Stamina · {item:10940} Strange Dust · {item:10938} Lesser Magic Essence · {spell:7423} Minor Absorption
+	["{spell:7420} is orange at 25 (yellow 70, green 90, grey 110): about 51 crafts to 75. Each takes 1 {item:10940}. One {item:10940} a craft: the dust most level 5-20 greens break into, armour above all. {item:10938} (from weapons) does the same job through Bracer - Minor Deflect or Chest - {spell:7423} if you have more of it. Enchant any item for that slot in your bags, even a grey one."] = "{spell:7420}: 25 puanda turuncu (sarı 70, yeşil 90, gri 110): 75 puana kadar yaklaşık 51 üretim. Her biri 1 {item:10940} ister. Üretim başına bir {item:10940}: çoğu 5-20 seviye yeşil eşyanın, en çok da zırhın kırılınca verdiği toz. Elinde daha çoksa {item:10938} (silahlardan) Bracer - Minor Deflect ya da Chest - {spell:7423} ile aynı işi görür. O yuvaya uygun çantandaki herhangi bir eşyayı, gri olsa bile, büyüle.",
 
-	-- Step 6: Journeyman Enchanting
+	-- Step 8: Journeyman Enchanting
 	-- {skill:333} Enchanting
 	["Journeyman {skill:333}"] = "Journeyman {skill:333}",
 	-- {skill:333} Enchanting · {npc:5157} Gimble Thistlefuzz · {zone:1455} Ironforge · {npc:1317} Lucan Cordell · {zone:1453} Stormwind City · {npc:4213} Taladan · {zone:1457} Darnassus · {npc:7949} Xylinnia Starshine · {zone:1444} Feralas · {npc:3345} Godan · {zone:1454} Orgrimmar · {npc:4616} Lavinia Crowe · {zone:1458} Undercity · {npc:3011} Teg Dawnstrider · {zone:1456} Thunder Bluff · {spell:7771} Enchant Cloak - Minor Protection · {item:1210} Shadowgem · {item:6338} Silver Rod · {item:10938} Lesser Magic Essence · {item:10940} Strange Dust · {item:11083} Soul Dust
 	["Journeyman raises the cap from 75 to 150 for 5s (Classic's price; Forever's is not in the data); it needs {skill:333} 50 and character level 10, so you can take it on any visit from 50. Not every {skill:333} trainer teaches it: Alliance {npc:5157} ({zone:1455}), {npc:1317} ({zone:1453}), {npc:4213} ({zone:1457}) and {npc:7949} ({zone:1444}); Horde {npc:3345} ({zone:1454}), {npc:4616} ({zone:1458}) and {npc:3011} ({zone:1456}). The arrow picks the nearest of your faction. Learn now: {spell:7771} (from 70, 2s). 75-150 takes about 2s of recipes, plus 1 {item:1210}, 1 {item:6338}, 4 {item:10938}, 121 {item:10940} and 20 {item:11083} to gather or buy."] = "Journeyman, 5s karşılığında sınırı 75 puandan 150 puana çıkarır (Classic fiyatı; Forever'ınki veride yok); {skill:333} 50 ve karakter seviyesi 10 ister, böylece 50 puandan itibaren herhangi bir ziyarette alabilirsin. Her {skill:333} eğitmeni öğretmez: Alliance {npc:5157} ({zone:1455}), {npc:1317} ({zone:1453}), {npc:4213} ({zone:1457}) ve {npc:7949} ({zone:1444}); Horde {npc:3345} ({zone:1454}), {npc:4616} ({zone:1458}) ve {npc:3011} ({zone:1456}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:7771} (70 puandan, 2s). 75-150 yaklaşık 2s tarif, ayrıca toplanacak ya da alınacak 1 {item:1210}, 1 {item:6338}, 4 {item:10938}, 121 {item:10940} ve 20 {item:11083} tutar.",
 
-	-- Step 7: Enchant Chest - Inferior Stamina to 90
+	-- Step 9: Enchanting 75-150: vendor goods
+	-- {skill:333} Enchanting
+	["{skill:333} 75-150: vendor goods"] = "{skill:333} 75-150: satıcı malları",
+	-- {item:10938} Lesser Magic Essence
+	["Buy the whole bracket's share in one go: 4 {item:10938} (32s). The arrow picks the nearest seller of your faction. {item:10938}: no vendor of the other faction sells it; that side gathers or buys it at the Auction House (next steps)."] = "Bu aralığın payını tek seferde al: 4 {item:10938} (32s). Ok tarafının en yakın satıcısını seçer. {item:10938}: diğer tarafın hiçbir satıcısı satmaz; o taraf onu toplar ya da Müzayede Evi'nden alır (sonraki adımlar).",
+
+	-- Step 10: Enchanting 75-150: Auction House
+	-- {skill:333} Enchanting
+	["{skill:333} 75-150: Auction House"] = "{skill:333} 75-150: Müzayede Evi",
+	-- {item:1210} Shadowgem · {item:6338} Silver Rod · {item:10938} Lesser Magic Essence · {item:10940} Strange Dust · {item:11083} Soul Dust
+	["What 75-150 takes that the Auction House sells: 1 {item:1210}, 1 {item:6338}, 4 {item:10938}, 121 {item:10940} and 20 {item:11083}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden Müzayede Evi'nin sattıkları: 1 {item:1210}, 1 {item:6338}, 4 {item:10938}, 121 {item:10940} ve 20 {item:11083}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+
+	-- Step 11: Shadowgem
+	-- {item:1210} Shadowgem · {item:6339} Runed Silver Rod · {object:1731} Copper Vein · {object:1732} Tin Vein · {object:1733} Silver Vein
+	["1 {item:1210} for {item:6339}: {item:1210} turns up in about one {object:1731}, {object:1732} or {object:1733} in 100: keep the ones you find while mining."] = "{item:6339} için 1 {item:1210}: {item:1210} yaklaşık her 100 {object:1731}, {object:1732} ya da {object:1733} damarından birinde çıkar: maden kazarken bulduklarını sakla.",
+
+	-- Step 12: Silver Rod
+	-- {item:6338} Silver Rod · {item:6339} Runed Silver Rod · {skill:164} Blacksmithing
+	["1 {item:6338} for {item:6339}: {skill:164}: {item:6338}."] = "{item:6339} için 1 {item:6338}: {skill:164}: {item:6338}.",
+
+	-- Step 13: Strange Dust
+	-- {item:10940} Strange Dust · {spell:7420} Enchant Chest - Inferior Stamina · {spell:7771} Enchant Cloak - Minor Protection · {item:6339} Runed Silver Rod · {skill:333} Enchanting
+	["121 {item:10940} for {spell:7420}, {spell:7771} and {item:6339}: {skill:333}: disenchant green items of item level 5-20."] = "{spell:7420}, {spell:7771} ve {item:6339} için 121 {item:10940}: {skill:333}: eşya seviyesi 5-20 olan yeşil eşyaları disenchant et.",
+
+	-- Step 14: Soul Dust
+	-- {item:11083} Soul Dust · {spell:13501} Enchant Bracer - Lesser Stamina · {skill:333} Enchanting
+	["20 {item:11083} for {spell:13501}: {skill:333}: disenchant green items of item level 21-30."] = "{spell:13501} için 20 {item:11083}: {skill:333}: eşya seviyesi 21-30 olan yeşil eşyaları disenchant et.",
+
+	-- Step 15: Enchant Chest - Inferior Stamina to 90
 	-- {spell:7420} Enchant Chest - Inferior Stamina
 	["{spell:7420} to 90"] = "{spell:7420}: 90 puana kadar",
-	-- {spell:7420} Enchant Chest - Inferior Stamina · {item:10940} Strange Dust · {item:10938} Lesser Magic Essence · {spell:7423} Minor Absorption · {skill:333} Enchanting
-	["{spell:7420} is yellow at 75 (yellow 70, green 90, grey 110): about 22 crafts to 90. Each takes 1 {item:10940}. One {item:10940} a craft: the dust most level 5-20 greens break into, armour above all. {item:10938} (from weapons) does the same job through Bracer - Minor Deflect or Chest - {spell:7423} if you have more of it. {item:10940} (121 for 75-150): {skill:333}: disenchant green items of item level 5-20; or the Auction House. Enchant any item for that slot in your bags, even a grey one."] = "{spell:7420}: 75 puanda sarı (sarı 70, yeşil 90, gri 110): 90 puana kadar yaklaşık 22 üretim. Her biri 1 {item:10940} ister. Üretim başına bir {item:10940}: seviye 5-20 yeşillerin çoğunun, özellikle zırhların ayrıştığı toz. Elinde daha çok {item:10938} (silahlardan) varsa Bracer - Minor Deflect ya da Chest - {spell:7423} aynı işi görür. {item:10940} (75-150 için 121): {skill:333}: eşya seviyesi 5-20 yeşil eşyaları disenchant et; ya da müzayede evi. O yuva için çantandaki herhangi bir eşyayı, gri bir eşyayı bile büyüle.",
+	-- {spell:7420} Enchant Chest - Inferior Stamina · {item:10940} Strange Dust · {item:10938} Lesser Magic Essence · {spell:7423} Minor Absorption
+	["{spell:7420} is yellow at 75 (yellow 70, green 90, grey 110): about 22 crafts to 90. Each takes 1 {item:10940}. One {item:10940} a craft: the dust most level 5-20 greens break into, armour above all. {item:10938} (from weapons) does the same job through Bracer - Minor Deflect or Chest - {spell:7423} if you have more of it. Enchant any item for that slot in your bags, even a grey one."] = "{spell:7420}: 75 puanda sarı (sarı 70, yeşil 90, gri 110): 90 puana kadar yaklaşık 22 üretim. Her biri 1 {item:10940} ister. Üretim başına bir {item:10940}: çoğu 5-20 seviye yeşil eşyanın, en çok da zırhın kırılınca verdiği toz. Elinde daha çoksa {item:10938} (silahlardan) Bracer - Minor Deflect ya da Chest - {spell:7423} ile aynı işi görür. O yuvaya uygun çantandaki herhangi bir eşyayı, gri olsa bile, büyüle.",
 
-	-- Step 8: Enchant Cloak - Minor Protection to 130
+	-- Step 16: Enchant Cloak - Minor Protection to 130
 	-- {spell:7771} Enchant Cloak - Minor Protection
 	["{spell:7771} to 130"] = "{spell:7771}: 130 puana kadar",
 	-- {spell:7771} Enchant Cloak - Minor Protection · {item:10940} Strange Dust
 	["{spell:7771} is orange at 90 (yellow 110, green 130, grey 150): about 48 crafts to 130. Each takes 2 {item:10940}. Two {item:10940} a craft (the trainer teaches it from 70 for 2s); keep disenchanting the greens of the 10-20 zones. Enchant any item for that slot in your bags, even a grey one."] = "{spell:7771}: 90 puanda turuncu (sarı 110, yeşil 130, gri 150): 130 puana kadar yaklaşık 48 üretim. Her biri 2 {item:10940} ister. Üretim başına iki {item:10940} (eğitmen 70 puandan 2s karşılığında öğretir); 10-20 bölgelerinin yeşillerini disenchant etmeyi sürdür. O yuva için çantandaki herhangi bir eşyayı, gri bir eşyayı bile büyüle.",
 
-	-- Step 9: Enchanting recipes at 130
+	-- Step 17: Enchanting recipes at 130
 	-- {skill:333} Enchanting
 	["{skill:333} recipes at 130"] = "130 puanda {skill:333} tarifleri",
 	-- {skill:333} Enchanting · {spell:7795} Runed Silver Rod · {spell:13501} Enchant Bracer - Lesser Stamina
 	["Back to an {skill:333} trainer: {spell:7795} (from 100) and {spell:13501} (from 130)."] = "Bir {skill:333} eğitmenine dön: {spell:7795} (100 puandan) ve {spell:13501} (130 puandan).",
 
-	-- Step 10: Enchant Bracer - Lesser Stamina to 150
+	-- Step 18: Enchant Bracer - Lesser Stamina to 150
 	-- {spell:13501} Enchant Bracer - Lesser Stamina
 	["{spell:13501} to 150"] = "{spell:13501}: 150 puana kadar",
-	-- {spell:13501} Enchant Bracer - Lesser Stamina · {item:11083} Soul Dust · {item:6339} Runed Silver Rod · {item:1210} Shadowgem · {object:1731} Copper Vein · {object:1732} Tin Vein · {object:1733} Silver Vein · {item:6338} Silver Rod · {skill:164} Blacksmithing · {item:10938} Lesser Magic Essence · {skill:333} Enchanting
-	["{spell:13501} is orange at 130 (yellow 155, green 175, grey 195): about 20 crafts to 150, a point every craft. Each takes 1 {item:11083}. One {item:11083} a craft (level 21-30 greens). Make the {item:6339} first: the recipe needs it in your bags, so keep it there. {item:1210} (1 for 75-150): {item:1210} turns up in about one {object:1731}, {object:1732} or {object:1733} in 100: buy it at the Auction House, or keep the ones you find while mining. {item:6338} (1 for 75-150): {skill:164}: {item:6338}; or the Auction House. {item:10938} (4 for 75-150): {skill:333}: disenchant green items of item level 5-15; or the Auction House. {item:11083} (20 for 75-150): {skill:333}: disenchant green items of item level 21-30; or the Auction House. Enchant any item for that slot in your bags, even a grey one. {skill:333} 150 is a Legacy System milestone."] = "{spell:13501}: 130 puanda turuncu (sarı 155, yeşil 175, gri 195): 150 puana kadar yaklaşık 20 üretim, her üretimde bir puan. Her biri 1 {item:11083} ister. Üretim başına bir {item:11083} (seviye 21-30 yeşiller). Önce {item:6339} yap: tarif onun çantanda olmasını ister, orada tut. {item:1210} (75-150 için 1): {item:1210} yaklaşık 100 {object:1731}, {object:1732} ya da {object:1733} damarında bir çıkar: müzayede evinden al ya da maden kazarken bulduklarını sakla. {item:6338} (75-150 için 1): {skill:164}: {item:6338}; ya da müzayede evi. {item:10938} (75-150 için 4): {skill:333}: eşya seviyesi 5-15 yeşil eşyaları disenchant et; ya da müzayede evi. {item:11083} (75-150 için 20): {skill:333}: eşya seviyesi 21-30 yeşil eşyaları disenchant et; ya da müzayede evi. O yuva için çantandaki herhangi bir eşyayı, gri bir eşyayı bile büyüle. {skill:333} 150 bir Legacy System kilometre taşı.",
+	-- {spell:13501} Enchant Bracer - Lesser Stamina · {item:11083} Soul Dust · {item:6339} Runed Silver Rod · {item:10938} Lesser Magic Essence · {skill:333} Enchanting
+	["{spell:13501} is orange at 130 (yellow 155, green 175, grey 195): about 20 crafts to 150, a point every craft. Each takes 1 {item:11083}. One {item:11083} a craft (level 21-30 greens). Make the {item:6339} first: the recipe needs it in your bags, so keep it there. {item:10938} (4 for 75-150): Alliance: {skill:333}: disenchant green items of item level 5-15; or the Auction House. Enchant any item for that slot in your bags, even a grey one. {skill:333} 150 is a Legacy System milestone."] = "{spell:13501}: 130 puanda turuncu (sarı 155, yeşil 175, gri 195): 150 puana kadar yaklaşık 20 üretim, her üretim bir puan. Her biri 1 {item:11083} ister. Üretim başına bir {item:11083} (21-30 seviye yeşiller). Önce {item:6339} yap: tarif onun çantanda olmasını ister, yani orada tut. {item:10938} (75-150 için 4): Alliance: {skill:333}: eşya seviyesi 5-15 olan yeşil eşyaları disenchant et; ya da Müzayede Evi. O yuvaya uygun çantandaki herhangi bir eşyayı, gri olsa bile, büyüle. {skill:333} 150 bir Legacy System kilometre taşı.",
 
-	-- Step 11: Iridescent Pearl (Alliance)
+	-- Step 19: Enchanting 150-225: Auction House
+	-- {skill:333} Enchanting
+	["{skill:333} 150-225: Auction House"] = "{skill:333} 150-225: Müzayede Evi",
+	-- {item:5500} Iridescent Pearl · {item:7971} Black Pearl · {item:11082} Greater Astral Essence · {item:11083} Soul Dust · {item:11128} Golden Rod · {item:11135} Greater Mystic Essence · {item:11137} Vision Dust · {item:11144} Truesilver Rod
+	["What 150-225 takes that the Auction House sells: 1 {item:5500}, 1 {item:7971}, 1 {item:11082}, 71 {item:11083}, 1 {item:11128}, 1 {item:11135}, 21 {item:11137} and 1 {item:11144}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden Müzayede Evi'nin sattıkları: 1 {item:5500}, 1 {item:7971}, 1 {item:11082}, 71 {item:11083}, 1 {item:11128}, 1 {item:11135}, 21 {item:11137} ve 1 {item:11144}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+
+	-- Step 20: Iridescent Pearl (Alliance)
 	-- {item:5500} Iridescent Pearl
 	["{item:5500} (Alliance)"] = "{item:5500} (Alliance)",
 	-- {item:5500} Iridescent Pearl · {item:11130} Runed Golden Rod
 	-- plural, as words: Giant Clams = {object:2744} Giant Clam
-	["1 {item:5500} for {item:11130}: open the Giant Clams at the marked spot, or buy it at the Auction House."] = "{item:11130} için 1 {item:5500}: işaretli yerdeki Giant Clam midyelerini aç ya da müzayede evinden al.",
+	["1 {item:5500} for {item:11130}: open the Giant Clams at the marked spot."] = "{item:11130} için 1 {item:5500}: işaretli yerdeki Giant Clam'leri aç.",
 
-	-- Step 12: Iridescent Pearl (Horde)
+	-- Step 21: Iridescent Pearl (Horde)
 	-- {item:5500} Iridescent Pearl
 	["{item:5500} (Horde)"] = "{item:5500} (Horde)",
 
-	-- Step 13: Expert Enchanting
+	-- Step 22: Greater Astral Essence
+	-- {item:11082} Greater Astral Essence · {item:11130} Runed Golden Rod · {skill:333} Enchanting
+	["1 {item:11082} for {item:11130}: {skill:333}: disenchant green items of item level 16-25."] = "{item:11130} için 1 {item:11082}: {skill:333}: eşya seviyesi 16-25 olan yeşil eşyaları disenchant et.",
+
+	-- Step 23: Soul Dust
+	-- {item:11083} Soul Dust · {item:11130} Runed Golden Rod · {spell:13501} Enchant Bracer - Lesser Stamina · {spell:13637} Enchant Boots - Lesser Agility · {skill:333} Enchanting
+	["71 {item:11083} for {item:11130}, {spell:13501} and {spell:13637}: {skill:333}: disenchant green items of item level 21-30."] = "{item:11130}, {spell:13501} ve {spell:13637} için 71 {item:11083}: {skill:333}: eşya seviyesi 21-30 olan yeşil eşyaları disenchant et.",
+
+	-- Step 24: Golden Rod
+	-- {item:11128} Golden Rod · {item:11130} Runed Golden Rod · {skill:164} Blacksmithing
+	["1 {item:11128} for {item:11130}: {skill:164}: {item:11128}."] = "{item:11130} için 1 {item:11128}: {skill:164}: {item:11128}.",
+
+	-- Step 25: Greater Mystic Essence
+	-- {item:11135} Greater Mystic Essence · {item:11145} Runed Truesilver Rod · {skill:333} Enchanting
+	["1 {item:11135} for {item:11145}: {skill:333}: disenchant green items of item level 26-35."] = "{item:11145} için 1 {item:11135}: {skill:333}: eşya seviyesi 26-35 olan yeşil eşyaları disenchant et.",
+
+	-- Step 26: Vision Dust
+	-- {item:11137} Vision Dust · {item:11145} Runed Truesilver Rod · {spell:13746} Enchant Cloak - Greater Defense · {skill:333} Enchanting
+	["21 {item:11137} for {item:11145} and {spell:13746}: {skill:333}: disenchant green items of item level 31-40."] = "{item:11145} ve {spell:13746} için 21 {item:11137}: {skill:333}: eşya seviyesi 31-40 olan yeşil eşyaları disenchant et.",
+
+	-- Step 27: Truesilver Rod
+	-- {item:11144} Truesilver Rod · {item:11145} Runed Truesilver Rod · {skill:164} Blacksmithing
+	["1 {item:11144} for {item:11145}: {skill:164}: {item:11144}."] = "{item:11145} için 1 {item:11144}: {skill:164}: {item:11144}.",
+
+	-- Step 28: Expert Enchanting
 	-- {skill:333} Enchanting
 	["Expert {skill:333}"] = "Expert {skill:333}",
 	-- {skill:333} Enchanting · {npc:11072} Kitta Firewind · {zone:1429} Elwynn Forest · {npc:11074} Hgarth · {zone:1442} Stonetalon Mountains · {spell:13628} Runed Golden Rod · {item:5500} Iridescent Pearl · {item:7971} Black Pearl · {item:11082} Greater Astral Essence · {item:11083} Soul Dust · {item:11128} Golden Rod · {item:11135} Greater Mystic Essence · {item:11137} Vision Dust · {item:11144} Truesilver Rod · {spell:13637} Enchant Boots - Lesser Agility · {item:11145} Runed Truesilver Rod · {spell:13746} Enchant Cloak - Greater Defense
 	["Expert raises the cap from 150 to 225 for 50s (Classic's price; Forever's is not in the data); it needs {skill:333} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:11072} ({zone:1429}); Horde {npc:11074} ({zone:1442}). The arrow picks the nearest of your faction. Learn now: {spell:13628} (from 150). 150-225 takes 1 {item:5500}, 1 {item:7971}, 1 {item:11082}, 71 {item:11083}, 1 {item:11128}, 1 {item:11135}, 21 {item:11137} and 1 {item:11144} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {spell:13637} (from 160), {item:11145} (from 200) and {spell:13746} (from 205), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3."] = "Expert, 50s karşılığında sınırı 150 puandan 225 puana çıkarır (Classic fiyatı; Forever'ınki veride yok); {skill:333} 125 ve karakter seviyesi 20 ister, böylece 125 puandan itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:11072} ({zone:1429}); Horde {npc:11074} ({zone:1442}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:13628} (150 puandan). 150-225, toplanacak ya da alınacak 1 {item:5500}, 1 {item:7971}, 1 {item:11082}, 71 {item:11083}, 1 {item:11128}, 1 {item:11135}, 21 {item:11137} ve 1 {item:11144} tutar. Hepsi çantanda gel (yukarıdaki adımlar, gerisi müzayede evinden): bu eğitmenler {spell:13637} (160 puandan), {item:11145} (200 puandan) ve {spell:13746} (205 puandan) da öğretir ve üretimler istasyon istemez, bu yüzden tam burada üret ve her tarife becerisine ulaştıkça öğren. 3 yolculuk yerine tek yolculuk.",
 
-	-- Step 14: Enchant Bracer - Lesser Stamina to 160
+	-- Step 29: Enchant Bracer - Lesser Stamina to 160
 	-- {spell:13501} Enchant Bracer - Lesser Stamina
 	["{spell:13501} to 160"] = "{spell:13501}: 160 puana kadar",
-	-- {spell:13501} Enchant Bracer - Lesser Stamina · {item:11083} Soul Dust · {item:11130} Runed Golden Rod · {item:11082} Greater Astral Essence · {skill:333} Enchanting · {item:11128} Golden Rod · {skill:164} Blacksmithing
-	["{spell:13501} is orange at 150 (yellow 155, green 175, grey 195): about 11 crafts to 160. Each takes 1 {item:11083}. One {item:11083} a craft (level 21-30 greens). Make the {item:11130} now, while it still gives a point: a later recipe needs it in your bags, so keep it there. {item:11082} (1 for 150-225): {skill:333}: disenchant green items of item level 16-25; or the Auction House. {item:11083} (71 for 150-225): {skill:333}: disenchant green items of item level 21-30; or the Auction House. {item:11128} (1 for 150-225): {skill:164}: {item:11128}; or the Auction House. Enchant any item for that slot in your bags, even a grey one."] = "{spell:13501}: 150 puanda turuncu (sarı 155, yeşil 175, gri 195): 160 puana kadar yaklaşık 11 üretim. Her biri 1 {item:11083} ister. Üretim başına bir {item:11083} (seviye 21-30 yeşiller). Hâlâ puan verirken {item:11130} şimdi yap: sonraki bir tarif onun çantanda olmasını ister, orada tut. {item:11082} (150-225 için 1): {skill:333}: eşya seviyesi 16-25 yeşil eşyaları disenchant et; ya da müzayede evi. {item:11083} (150-225 için 71): {skill:333}: eşya seviyesi 21-30 yeşil eşyaları disenchant et; ya da müzayede evi. {item:11128} (150-225 için 1): {skill:164}: {item:11128}; ya da müzayede evi. O yuva için çantandaki herhangi bir eşyayı, gri bir eşyayı bile büyüle.",
+	-- {spell:13501} Enchant Bracer - Lesser Stamina · {item:11083} Soul Dust · {item:11130} Runed Golden Rod
+	["{spell:13501} is orange at 150 (yellow 155, green 175, grey 195): about 11 crafts to 160. Each takes 1 {item:11083}. One {item:11083} a craft (level 21-30 greens). Make the {item:11130} now, while it still gives a point: a later recipe needs it in your bags, so keep it there. Enchant any item for that slot in your bags, even a grey one."] = "{spell:13501}: 150 puanda turuncu (sarı 155, yeşil 175, gri 195): 160 puana kadar yaklaşık 11 üretim. Her biri 1 {item:11083} ister. Üretim başına bir {item:11083} (21-30 seviye yeşiller). Hâlâ puan verirken {item:11130} yap: sonraki bir tarif onun çantanda olmasını ister, yani orada tut. O yuvaya uygun çantandaki herhangi bir eşyayı, gri olsa bile, büyüle.",
 
-	-- Step 15: Enchanting recipes at 160
+	-- Step 30: Enchanting recipes at 160
 	-- {skill:333} Enchanting
 	["{skill:333} recipes at 160"] = "160 puanda {skill:333} tarifleri",
 	-- {spell:13637} Enchant Boots - Lesser Agility
 	["Still at the Expert trainer: {spell:13637} (from 160)."] = "Hâlâ Expert eğitmeninde: {spell:13637} (160 puandan itibaren).",
 
-	-- Step 16: Enchant Boots - Lesser Agility to 205
+	-- Step 31: Enchant Boots - Lesser Agility to 205
 	-- {spell:13637} Enchant Boots - Lesser Agility
 	["{spell:13637} to 205"] = "{spell:13637}: 205 puana kadar",
 	-- {spell:13637} Enchant Boots - Lesser Agility · {item:11083} Soul Dust
 	["{spell:13637} is orange at 160 (yellow 180, green 200, grey 220): about 59 crafts to 205. Each takes 1 {item:11083}. {item:11083} again. Enchant any item for that slot in your bags, even a grey one."] = "{spell:13637}: 160 puanda turuncu (sarı 180, yeşil 200, gri 220): 205 puana kadar yaklaşık 59 üretim. Her biri 1 {item:11083} ister. Yine {item:11083}. O yuva için çantandaki herhangi bir eşyayı, gri bir eşyayı bile büyüle.",
 
-	-- Step 17: Enchanting recipes at 205
+	-- Step 32: Enchanting recipes at 205
 	-- {skill:333} Enchanting
 	["{skill:333} recipes at 205"] = "205 puanda {skill:333} tarifleri",
 	-- {spell:13702} Runed Truesilver Rod · {spell:13746} Enchant Cloak - Greater Defense
 	["Still at the Expert trainer: {spell:13702} (from 200) and {spell:13746} (from 205)."] = "Hâlâ Expert eğitmeninde: {spell:13702} (200 puandan) ve {spell:13746} (205 puandan).",
 
-	-- Step 18: Enchant Cloak - Greater Defense to 225
+	-- Step 33: Enchant Cloak - Greater Defense to 225
 	-- {spell:13746} Enchant Cloak - Greater Defense
 	["{spell:13746} to 225"] = "{spell:13746}: 225 puana kadar",
-	-- {spell:13746} Enchant Cloak - Greater Defense · {item:11137} Vision Dust · {item:11145} Runed Truesilver Rod · {item:7971} Black Pearl · {item:11135} Greater Mystic Essence · {skill:333} Enchanting · {item:11144} Truesilver Rod · {skill:164} Blacksmithing
-	["{spell:13746} is orange at 205 (yellow 225, green 245, grey 265): about 20 crafts to 225, a point every craft. Each takes 1 {item:11137}. One {item:11137} a craft (level 31-40 greens). Make the {item:11145} first: the recipe needs it in your bags, so keep it there. {item:7971} (1 for 150-225): {item:7971} is a rare drop (no mob gives it one time in 50): buy it at the Auction House, or keep the ones you find. {item:11135} (1 for 150-225): {skill:333}: disenchant green items of item level 26-35; or the Auction House. {item:11137} (21 for 150-225): {skill:333}: disenchant green items of item level 31-40; or the Auction House. {item:11144} (1 for 150-225): {skill:164}: {item:11144}; or the Auction House. Enchant any item for that slot in your bags, even a grey one. {skill:333} 225 is a Legacy System milestone."] = "{spell:13746}: 205 puanda turuncu (sarı 225, yeşil 245, gri 265): 225 puana kadar yaklaşık 20 üretim, her üretimde bir puan. Her biri 1 {item:11137} ister. Üretim başına bir {item:11137} (seviye 31-40 yeşiller). Önce {item:11145} yap: tarif onun çantanda olmasını ister, orada tut. {item:7971} (150-225 için 1): {item:7971} nadir düşer (hiçbir yaratık 50'de bir bile vermez): müzayede evinden al ya da bulduklarını sakla. {item:11135} (150-225 için 1): {skill:333}: eşya seviyesi 26-35 yeşil eşyaları disenchant et; ya da müzayede evi. {item:11137} (150-225 için 21): {skill:333}: eşya seviyesi 31-40 yeşil eşyaları disenchant et; ya da müzayede evi. {item:11144} (150-225 için 1): {skill:164}: {item:11144}; ya da müzayede evi. O yuva için çantandaki herhangi bir eşyayı, gri bir eşyayı bile büyüle. {skill:333} 225 bir Legacy System kilometre taşı.",
+	-- {spell:13746} Enchant Cloak - Greater Defense · {item:11137} Vision Dust · {item:11145} Runed Truesilver Rod · {item:7971} Black Pearl · {skill:333} Enchanting
+	["{spell:13746} is orange at 205 (yellow 225, green 245, grey 265): about 20 crafts to 225, a point every craft. Each takes 1 {item:11137}. One {item:11137} a craft (level 31-40 greens). Make the {item:11145} first: the recipe needs it in your bags, so keep it there. {item:7971} (1 for 150-225): {item:7971} is a rare drop (no mob gives it one time in 50): buy it at the Auction House, or keep the ones you find. Enchant any item for that slot in your bags, even a grey one. {skill:333} 225 is a Legacy System milestone."] = "{spell:13746}: 205 puanda turuncu (sarı 225, yeşil 245, gri 265): 225 puana kadar yaklaşık 20 üretim, her üretim bir puan. Her biri 1 {item:11137} ister. Üretim başına bir {item:11137} (31-40 seviye yeşiller). Önce {item:11145} yap: tarif onun çantanda olmasını ister, yani orada tut. {item:7971} (150-225 için 1): {item:7971} nadir bir düşüş (hiçbir yaratık 50'de bir bile vermez): Müzayede Evi'nden al ya da bulduklarını sakla. O yuvaya uygun çantandaki herhangi bir eşyayı, gri olsa bile, büyüle. {skill:333} 225 bir Legacy System kilometre taşı.",
 
-	-- Step 19: Artisan Enchanting
+	-- Step 34: Artisan Enchanting
 	-- {skill:333} Enchanting
 	["Artisan {skill:333}"] = "Artisan {skill:333}",
 	-- {skill:333} Enchanting · {npc:11073} Annora · {area:1517} Uldaman · {zone:1418} Badlands · {spell:13815} Enchant Gloves - Agility · {item:8831} Purple Lotus · {item:11137} Vision Dust · {item:11176} Dream Dust
 	["Artisan raises the cap from 225 to 300 for 5g (Classic's price; Forever's is not in the data); it needs {skill:333} 200 and character level 35, so you can take it on any visit from 200. {npc:11073} teaches Artisan {skill:333} inside the {area:1517} dungeon ({zone:1418}); bring a group. Learn now: {spell:13815} (from 210). 225-300 takes about 2g 20s of recipes and 1g 70s of vendor goods, plus 34 {item:8831}, 39 {item:11137} and 208 {item:11176} to gather or buy."] = "Artisan, 5g karşılığında sınırı 225 puandan 300 puana çıkarır (Classic fiyatı; Forever'ınki veride yok); {skill:333} 200 ve karakter seviyesi 35 ister, böylece 200 puandan itibaren herhangi bir ziyarette alabilirsin. {npc:11073}, Artisan {skill:333} becerisini {area:1517} zindanının içinde öğretir ({zone:1418}); bir grup getir. Şimdi öğren: {spell:13815} (210 puandan). 225-300 yaklaşık 2g 20s tarif ve 1g 70s satıcı malı, ayrıca toplanacak ya da alınacak 34 {item:8831}, 39 {item:11137} ve 208 {item:11176} tutar.",
 
-	-- Step 20: Enchanting 225-300: vendor goods
+	-- Step 35: Enchanting 225-300: vendor goods
 	-- {skill:333} Enchanting
 	["{skill:333} 225-300: vendor goods"] = "{skill:333} 225-300: satıcı malları",
 	-- {item:8925} Crystal Vial · {zone:1453} Stormwind City · {npc:1286} Edna Mullby · {npc:1325} Jasper Fel · {zone:1454} Orgrimmar · {npc:3367} Felika · {npc:3348} Kor'geld · {npc:3334} Rekkul
 	["Buy the whole bracket's share in one go: 34 {item:8925} (1g 70s); about 1g 70s in all. The arrow picks the nearest seller of your faction ({zone:1453}: {npc:1286}, Eldraeith and {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} and {npc:3334})."] = "Bu aralığın payını tek seferde al: 34 {item:8925} (1g 70s); toplam yaklaşık 1g 70s. Ok tarafının en yakın satıcısını seçer ({zone:1453}: {npc:1286}, Eldraeith ve {npc:1325}; {zone:1454}: {npc:3367}, {npc:3348} ve {npc:3334}).",
 
-	-- Step 21: Formula: Lesser Mana Oil
+	-- Step 36: Formula: Lesser Mana Oil
 	-- {item:20754} Formula: Lesser Mana Oil · {item:20747} Lesser Mana Oil · {skill:333} Enchanting · {npc:15419} Kania · {zone:1451} Silithus
 	["{item:20754} teaches {item:20747} ({skill:333} 250) for 1g. Sold by {npc:15419} ({zone:1451})."] = "{item:20754}, 1g karşılığında {item:20747} ({skill:333} 250) öğretir. Satan {npc:15419} ({zone:1451}).",
 
-	-- Step 22: Formula: Enchant Shield - Greater Stamina
+	-- Step 37: Formula: Enchant Shield - Greater Stamina
 	-- {item:16217} Formula: Enchant Shield - Greater Stamina · {spell:20017} Enchant Shield - Greater Stamina · {skill:333} Enchanting · {npc:4229} Mythrin'dir · {zone:1457} Darnassus · {npc:4561} Daniel Bartlett · {zone:1458} Undercity
 	["{item:16217} teaches {spell:20017} ({skill:333} 265) for 1g 20s. Sold by Alliance: {npc:4229} ({zone:1457}), limited stock; Horde: {npc:4561} ({zone:1458}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; it binds when picked up, so the Auction House never has it."] = "{item:16217}, 1g 20s karşılığında {spell:20017} ({skill:333} 265) öğretir. Satanlar Alliance: {npc:4229} ({zone:1457}), sınırlı stok; Horde: {npc:4561} ({zone:1458}), sınırlı stok. Satıcıları bir iki tane tutar, satıştan bir süre sonra yeniden gelir; alınınca bağlanır, bu yüzden müzayede evinde hiç olmaz.",
 
-	-- Step 23: Purple Lotus (Alliance)
+	-- Step 38: Enchanting 225-300: Auction House
+	-- {skill:333} Enchanting
+	["{skill:333} 225-300: Auction House"] = "{skill:333} 225-300: Müzayede Evi",
+	-- {item:8831} Purple Lotus · {item:11137} Vision Dust · {item:11176} Dream Dust
+	["What 225-300 takes that the Auction House sells: 34 {item:8831}, 39 {item:11137} and 208 {item:11176}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden Müzayede Evi'nin sattıkları: 34 {item:8831}, 39 {item:11137} ve 208 {item:11176}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+
+	-- Step 39: Purple Lotus (Alliance)
 	-- {item:8831} Purple Lotus
 	["{item:8831} (Alliance)"] = "{item:8831} (Alliance)",
 	-- {item:8831} Purple Lotus · {item:20747} Lesser Mana Oil · {skill:182} Herbalism · {zone:1425} The Hinterlands · {zone:1444} Feralas · {zone:1447} Azshara
-	["34 {item:8831} for {item:20747}: {skill:182}: {item:8831} (skill 210) in {zone:1425} (40-50), {zone:1444} (40-50) and {zone:1447} (45-55); or the Auction House. The densest patch of {item:8831} in {zone:1425} is marked."] = "{item:20747} için 34 {item:8831}: {skill:182}: {item:8831} (beceri 210), {zone:1425} (40-50), {zone:1444} (40-50) ve {zone:1447} (45-55) bölgelerinde; ya da müzayede evi. En yoğun {item:8831} öbeği {zone:1425} bölgesinde işaretli.",
+	["34 {item:8831} for {item:20747}: {skill:182}: {item:8831} (skill 210) in {zone:1425} (40-50), {zone:1444} (40-50) and {zone:1447} (45-55). The densest patch of {item:8831} in {zone:1425} is marked."] = "{item:20747} için 34 {item:8831}: {skill:182}: {item:8831} (beceri 210), {zone:1425} (40-50), {zone:1444} (40-50) ve {zone:1447} (45-55) içinde. {zone:1425} içindeki en yoğun {item:8831} alanı işaretli.",
 
-	-- Step 24: Purple Lotus (Horde)
+	-- Step 40: Purple Lotus (Horde)
 	-- {item:8831} Purple Lotus
 	["{item:8831} (Horde)"] = "{item:8831} (Horde)",
 	-- {item:8831} Purple Lotus · {item:20747} Lesser Mana Oil · {skill:182} Herbalism · {zone:1425} The Hinterlands · {zone:1444} Feralas · {zone:1447} Azshara
-	["34 {item:8831} for {item:20747}: {skill:182}: {item:8831} (skill 210) in {zone:1425} (40-50), {zone:1444} (40-50) and {zone:1447} (45-55); or the Auction House. The densest patch of {item:8831} in {zone:1444} is marked."] = "{item:20747} için 34 {item:8831}: {skill:182}: {item:8831} (beceri 210), {zone:1425} (40-50), {zone:1444} (40-50) ve {zone:1447} (45-55) bölgelerinde; ya da müzayede evi. En yoğun {item:8831} öbeği {zone:1444} bölgesinde işaretli.",
+	["34 {item:8831} for {item:20747}: {skill:182}: {item:8831} (skill 210) in {zone:1425} (40-50), {zone:1444} (40-50) and {zone:1447} (45-55). The densest patch of {item:8831} in {zone:1444} is marked."] = "{item:20747} için 34 {item:8831}: {skill:182}: {item:8831} (beceri 210), {zone:1425} (40-50), {zone:1444} (40-50) ve {zone:1447} (45-55) içinde. {zone:1444} içindeki en yoğun {item:8831} alanı işaretli.",
 
-	-- Step 25: Enchant Gloves - Agility to 253
+	-- Step 41: Vision Dust
+	-- {item:11137} Vision Dust · {spell:13815} Enchant Gloves - Agility · {skill:333} Enchanting
+	["39 {item:11137} for {spell:13815}: {skill:333}: disenchant green items of item level 31-40."] = "{spell:13815} için 39 {item:11137}: {skill:333}: eşya seviyesi 31-40 olan yeşil eşyaları disenchant et.",
+
+	-- Step 42: Dream Dust
+	-- {item:11176} Dream Dust · {item:20747} Lesser Mana Oil · {spell:20017} Enchant Shield - Greater Stamina · {skill:333} Enchanting
+	["208 {item:11176} for {item:20747} and {spell:20017}: {skill:333}: disenchant green items of item level 41-50."] = "{item:20747} ve {spell:20017} için 208 {item:11176}: {skill:333}: eşya seviyesi 41-50 olan yeşil eşyaları disenchant et.",
+
+	-- Step 43: Enchant Gloves - Agility to 253
 	-- {spell:13815} Enchant Gloves - Agility
 	["{spell:13815} to 253"] = "{spell:13815}: 253 puana kadar",
-	-- {spell:13815} Enchant Gloves - Agility · {item:11137} Vision Dust · {npc:11073} Annora · {skill:333} Enchanting
-	["{spell:13815} is orange at 225 (yellow 230, green 250, grey 270): about 39 crafts to 253. Each takes 1 {item:11137}. {npc:11073} teaches it with Artisan: learn it on that visit. {item:11137} again; bring about 40. {item:11137} (39 for 225-300): {skill:333}: disenchant green items of item level 31-40; or the Auction House. Enchant any item for that slot in your bags, even a grey one."] = "{spell:13815}: 225 puanda turuncu (sarı 230, yeşil 250, gri 270): 253 puana kadar yaklaşık 39 üretim. Her biri 1 {item:11137} ister. {npc:11073} bunu Artisan ile öğretir: o ziyarette öğren. Yine {item:11137}; yaklaşık 40 tane getir. {item:11137} (225-300 için 39): {skill:333}: eşya seviyesi 31-40 yeşil eşyaları disenchant et; ya da müzayede evi. O yuva için çantandaki herhangi bir eşyayı, gri bir eşyayı bile büyüle.",
+	-- {spell:13815} Enchant Gloves - Agility · {item:11137} Vision Dust · {npc:11073} Annora
+	["{spell:13815} is orange at 225 (yellow 230, green 250, grey 270): about 39 crafts to 253. Each takes 1 {item:11137}. {npc:11073} teaches it with Artisan: learn it on that visit. {item:11137} again; bring about 40. Enchant any item for that slot in your bags, even a grey one."] = "{spell:13815}: 225 puanda turuncu (sarı 230, yeşil 250, gri 270): 253 puana kadar yaklaşık 39 üretim. Her biri 1 {item:11137} ister. {npc:11073} onu Artisan ile birlikte öğretir: o ziyarette öğren. Yine {item:11137}; yaklaşık 40 tane getir. O yuvaya uygun çantandaki herhangi bir eşyayı, gri olsa bile, büyüle.",
 
-	-- Step 26: Lesser Mana Oil to 275
+	-- Step 44: Lesser Mana Oil to 275
 	-- {item:20747} Lesser Mana Oil
 	["{item:20747} to 275"] = "{item:20747}: 275 puana kadar",
-	-- {item:20747} Lesser Mana Oil · {item:11176} Dream Dust · {item:8831} Purple Lotus · {item:8925} Crystal Vial · {npc:15419} Kania · {area:3425} Cenarion Hold · {zone:1451} Silithus · {skill:333} Enchanting
-	["{item:20747} is orange at 253 (yellow 260, green 270, grey 280): about 34 crafts to 275. Each takes 1 {item:11176}, 1 {item:8831} and 1 {item:8925}. One {item:11176} (level 41-50 greens) and one {item:8831} (herbalists) a craft; the oil sells well. {npc:15419} sells the formula at the inn of {area:3425} ({zone:1451}): fly there, the mobs around it are level 55 and up. {item:11176} (208 for 225-300): {skill:333}: disenchant green items of item level 41-50; or the Auction House."] = "{item:20747}: 253 puanda turuncu (sarı 260, yeşil 270, gri 280): 275 puana kadar yaklaşık 34 üretim. Her biri 1 {item:11176}, 1 {item:8831} ve 1 {item:8925} ister. Üretim başına bir {item:11176} (seviye 41-50 yeşiller) ve bir {item:8831} (bitki toplayıcılar); yağ iyi satar. {npc:15419} formülü {area:3425} hanında satıyor ({zone:1451}): oraya uç, çevresindeki yaratıklar seviye 55 ve üstü. {item:11176} (225-300 için 208): {skill:333}: eşya seviyesi 41-50 yeşil eşyaları disenchant et; ya da müzayede evi.",
+	-- {item:20747} Lesser Mana Oil · {item:11176} Dream Dust · {item:8831} Purple Lotus · {item:8925} Crystal Vial · {npc:15419} Kania · {area:3425} Cenarion Hold · {zone:1451} Silithus
+	["{item:20747} is orange at 253 (yellow 260, green 270, grey 280): about 34 crafts to 275. Each takes 1 {item:11176}, 1 {item:8831} and 1 {item:8925}. One {item:11176} (level 41-50 greens) and one {item:8831} (herbalists) a craft; the oil sells well. {npc:15419} sells the formula at the inn of {area:3425} ({zone:1451}): fly there, the mobs around it are level 55 and up."] = "{item:20747}: 253 puanda turuncu (sarı 260, yeşil 270, gri 280): 275 puana kadar yaklaşık 34 üretim. Her biri 1 {item:11176}, 1 {item:8831} ve 1 {item:8925} ister. Üretim başına bir {item:11176} (41-50 seviye yeşiller) ve bir {item:8831} (bitkiciler); yağ iyi satar. {npc:15419} tarifi {zone:1451} bölgesindeki {area:3425} hanında satar: oraya uç, çevresindeki yaratıklar 55. seviye ve üstü.",
 	["from the recipe in your bags"] = "çantandaki tariften",
 
-	-- Step 27: Enchant Shield - Greater Stamina to 300
+	-- Step 45: Enchant Shield - Greater Stamina to 300
 	-- {spell:20017} Enchant Shield - Greater Stamina
 	["{spell:20017} to 300"] = "{spell:20017}: 300 puana kadar",
 	-- {spell:20017} Enchant Shield - Greater Stamina · {item:11176} Dream Dust · {skill:333} Enchanting

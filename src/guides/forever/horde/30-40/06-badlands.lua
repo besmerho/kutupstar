@@ -6,7 +6,7 @@ return {
 	-- Step 1: Into the Badlands
 	-- {zone:1418} Badlands
 	["Into the {zone:1418}"] = "{zone:1418} bölgesine",
-	-- {object:2673} Thandol Span (no name in this language: may be words) · {zone:1437} Wetlands · {object:1668} Dun Algaz (no name in this language: may be words) · {zone:1432} Loch Modan · {area:144} Thelsamar · {zone:1418} Badlands · {area:1877} Valley of Fangs
+	-- {object:2673} Thandol Span · {zone:1437} Wetlands · {object:1668} Dun Algaz (no name in this language: may be words) · {zone:1432} Loch Modan · {area:144} Thelsamar · {zone:1418} Badlands · {area:1877} Valley of Fangs
 	["Head for the {object:2673}, the great bridge at Arathi's southern edge, cross it and follow the road south through the {zone:1437} to the {object:1668} tunnel into {zone:1432}. {area:144}, the dwarf town on the road in the middle of {zone:1432}, has guards who attack the Horde: leave the road before it and pass the town on the hills to its west. The road leaves {zone:1432} to the south into the {zone:1418}; follow it to the goblin camp in the {area:1877}."] = "Arathi'nin güney kenarındaki büyük köprü {object:2673} yönüne git, onu geç ve yolu güneye, {zone:1437} içinden {zone:1432} bölgesine açılan {object:1668} tüneline kadar izle. {zone:1432} ortasında yolun üzerindeki cüce kasabası {area:144} Horde'a saldıran muhafızlara sahip: ondan önce yoldan ayrıl ve kasabayı batısındaki tepelerden geç. Yol {zone:1432} bölgesinden güneye, {zone:1418} içine çıkar; onu {area:1877} vadisindeki goblin kampına kadar izle.",
 
 	-- Step 2: Valley of Fangs
@@ -18,8 +18,8 @@ return {
 	["Head west along the road towards {area:340}; {npc:2921}'s camp sits in the {area:1878} halfway there."] = "Yol boyunca batıya, {area:340} yönüne git; {npc:2921} adlı NPC'nin kampı yolun yarısında, {area:1878} kesiminde.",
 
 	-- Step 4: Kargath
-	-- {area:340} Kargath · {npc:5394} Neeka Bloodscar
-	["{area:340} is the Horde fortress built into the cliffs at the zone's western edge. {npc:5394} stands on {area:340}'s upper level, high above the flight master: take the ramps up, the arrow cannot tell the levels apart."] = "{area:340}, bölgenin batı kenarındaki uçurumlara oyulmuş Horde kalesi. {npc:5394}, {area:340} kalesinin üst katında, uçuş ustasının çok yukarısında duruyor: rampalardan yukarı çık, ok katları birbirinden ayıramaz.",
+	-- {area:340} Kargath · {quest:1418} Neeka Bloodscar
+	["{area:340} is the Horde fortress built into the cliffs at the zone's western edge. {quest:1418} stands on {area:340}'s upper level, high above the flight master: take the ramps up, the arrow cannot tell the levels apart."] = "{area:340}, bölgenin batı kenarında uçurumlara oyulmuş Horde kalesi. {quest:1418}, uçuş ustasının çok yukarısında, {area:340} kalesinin üst katında duruyor: rampalardan çık, ok katları ayırt edemez.",
 	-- {area:75} Stonard
 	["for Helgrum in {area:75}, around level 42"] = "{area:75} kasabasındaki Helgrum için, seviye 42 civarında",
 	-- {npc:6868} Jarkal Mossmeld
@@ -35,20 +35,20 @@ return {
 	-- Step 7: Badlands: kill these as you meet them
 	-- {zone:1418} Badlands
 	["{zone:1418}: kill these as you meet them"] = "{zone:1418}: bunları karşılaştıkça öldür",
-	-- {area:1878} The Dustbowl
-	-- plural, as words: Elder Crag Coyotes = {npc:2729} Elder Crag Coyote · Giant Buzzards = {npc:2831} Giant Buzzard
-	["The Elder Crag Coyotes and Giant Buzzards roam the basin south of the {area:1878}. Coyotes drop both the jawbones and the fangs; the Giant Buzzards drop the gizzards."] = "Elder Crag Coyote ve Giant Buzzard yaratıkları {area:1878} güneyindeki havzada dolaşıyor. Çakallar hem çene kemiği hem diş düşürür; Giant Buzzard'lar taşlık düşürür.",
+	-- {area:1878} The Dustbowl · {zone:1418} Badlands · {npc:2817} Rigglefuzz
+	-- plural, as words: Elder Crag Coyotes = {npc:2729} Elder Crag Coyote · Giant Buzzards = {npc:2831} Giant Buzzard · Malevolent Mirages = {npc:269756} Malevolent Mirage
+	["The Elder Crag Coyotes and Giant Buzzards roam the basin south of the {area:1878}. Coyotes drop both the jawbones and the fangs; the Giant Buzzards drop the gizzards. Careful: Malevolent Mirages (42, elite) drift across the {zone:1418}: give them a wide berth.\nCareful: the Giant Buzzards are 39-41, and the 41s are two over you at 39: pick the 39s and 40s and pull them one at a time. The Buzzards (37) you kill later for {npc:2817}'s wings drop gizzards too, more rarely."] = "Elder Crag Coyote ve Giant Buzzard yaratıkları {area:1878} yöresinin güneyindeki havzada dolaşıyor. Coyote'lar hem çene kemiklerini hem dişleri düşürür; Giant Buzzard'lar taşlıkları düşürür. Dikkat: Malevolent Mirage yaratıkları (42, elit) {zone:1418} boyunca süzülüyor: onlardan geniş bir mesafe bırak.\nDikkat: Giant Buzzard'lar 39-41, 41'ler de 39'da senden iki seviye yüksek: 39 ve 40'ları seç ve tek tek çek. Daha sonra {npc:2817} adlı NPC'nin kanatları için öldürdüğün Buzzard'lar (37) da daha seyrek olarak taşlık düşürür.",
 
 	-- Step 8: Rock Elementals
 	-- plural, as words: Rock Elementals = {npc:92} Rock Elemental
 	["Rock Elementals"] = "Rock Elemental yaratıkları",
 	-- {area:345} Agmond's End · {npc:6868} Jarkal Mossmeld
-	-- plural, as words: Rock Elementals = {npc:92} Rock Elemental · Rock Elemental Shards = {item:7848} Rock Elemental Shard
-	["South-east across the basin, the bigger Rock Elementals (39) stand on the slopes west of {area:345}; each one drops a slab. Every rock elemental can drop {npc:6868}'s Rock Elemental Shards."] = "Havzanın üzerinden güneydoğuya; büyük Rock Elemental yaratıkları (39) {area:345} batısındaki yamaçlarda duruyor; her biri bir levha düşürür. Her kaya elementali {npc:6868} için Rock Elemental Shard düşürebilir.",
+	-- plural, as words: Rock Elementals = {npc:92} Rock Elemental · Rock Elemental Shards = {item:7848} Rock Elemental Shard · Malevolent Mirages = {npc:269756} Malevolent Mirage
+	["South-east across the basin, the bigger Rock Elementals (39) stand on the slopes west of {area:345}; each one drops a slab. Every rock elemental can drop {npc:6868}'s Rock Elemental Shards. Careful: Malevolent Mirages (42, elite) drift across these slopes too."] = "Havzayı geçip güneydoğuya: daha büyük Rock Elemental yaratıkları (39) {area:345} yöresinin batısındaki yamaçlarda duruyor; her biri bir levha düşürür. Her kaya elementali {npc:6868} adlı NPC'nin Rock Elemental Shard parçalarını düşürebilir. Dikkat: Malevolent Mirage yaratıkları (42, elit) bu yamaçlarda da süzülüyor.",
 
 	-- Step 9: Agmond's End
-	-- {area:345} Agmond's End
-	["Theldurin sits among the dwarven ruins at {area:345}, just east of the elementals."] = "Theldurin, elementallerin hemen doğusunda, {area:345} içindeki cüce harabelerinin arasında oturuyor.",
+	-- {area:345} Agmond's End · {area:1517} Uldaman
+	["Theldurin sits among the dwarven ruins at {area:345}, just east of the elementals. His tablet lies just inside {area:1517}'s cave mouth, beside level 38 elites: a quest for a group."] = "Theldurin, elementallerin hemen doğusunda, {area:345} yöresindeki cüce harabelerinin arasında oturuyor. Tableti 38. seviye elitlerin yanında, {area:1517} mağara ağzının hemen içinde yatıyor: bir grup görevi.",
 
 	-- Step 10: Stonevault troggs
 	["Stonevault troggs"] = "Stonevault troggları",
@@ -62,8 +62,9 @@ return {
 	["for Fizzle at the {area:2240}, on the way from {area:484} to {zone:1446} around level 43"] = "43 civarında {area:484} içinden {zone:1446} bölgesine giden yolda, {area:2240} içindeki Fizzle için",
 
 	-- Step 12: Ancient Chest
-	-- {area:1517} Uldaman
-	["Keep north on the road; the chest lies in the {area:1517} dig site, at the foot of the ruins north-west of the road."] = "Yolda kuzeye devam et; sandık {area:1517} kazı alanında, yolun kuzeybatısındaki harabelerin dibinde duruyor.",
+	-- {area:1517} Uldaman · {zone:1418} Badlands · {npc:2932} Magregan Deepshadow
+	-- plural, as words: Obsidian Golems = {npc:4872} Obsidian Golem · Shadowforge Diggers = {npc:4846} Shadowforge Digger
+	["Keep north on the road to {area:1517}'s entrance, in the north of the {zone:1418}: the chest lies just inside the cave mouth. {npc:2932} and the Obsidian Golems (38) stand beside it and Shadowforge Diggers (35-36) work the tunnel, all elite: keep your group together."] = "Yoldan kuzeye, {zone:1418} bölgesinin kuzeyindeki {area:1517} girişine devam et: sandık mağara ağzının hemen içinde yatıyor. {npc:2932} ve Obsidian Golem yaratıkları (38) yanında duruyor, Shadowforge Digger yaratıkları (35-36) da tünelde çalışıyor, hepsi elit: grubunu bir arada tut.",
 	["Below ground"] = "Yer altında",
 
 	-- Step 13: Agmond's End

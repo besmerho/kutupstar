@@ -126,8 +126,8 @@ return {
 	["Level 5.77"] = "Seviye 5.77",
 	-- {quest:91752} The Big Picture
 	["If you skipped {quest:91752}, grind here to level 5.77 to stay on the route's plan."] = "{quest:91752} görevini atladıysan rotanın planında kalmak için burada seviye 5.77 olana kadar kas.",
-	-- {npc:40} Kobold Miner
-	["grind on {npc:40}"] = "Kas: {npc:40}",
+	-- {npc:113} Stonetusk Boar
+	["grind on {npc:113}"] = "Kas: {npc:113}",
 
 	-- Step 23: Sam Sarsaparilla
 	-- {npc:263399} Sam Sarsaparilla · {skill:129} First Aid · {area:87} Goldshire
@@ -136,22 +136,32 @@ return {
 	["Sit (/sit) by his campfire until you have {spell:1229451}"] = "{spell:1229451} gelene kadar onun kamp ateşinin yanında otur (/sit)",
 
 	-- Step 24: Camping 101: Skinning
+	-- {npc:6306} Helene Peltskinner · {skill:393} Skinning
+	["{npc:6306} takes it once your {skill:393} skill is 20: gather or craft until then, the guide carries on meanwhile."] = "{npc:6306}, {skill:393} becerin 20 olunca görevi kabul eder: o zamana kadar topla ya da üret, rehber bu arada devam eder.",
 	-- {npc:263399} Sam Sarsaparilla · {npc:6306} Helene Peltskinner
 	["{npc:263399}: for {npc:6306} on the lake shore"] = "{npc:263399}: göl kıyısındaki {npc:6306} için",
 
 	-- Step 25: Camping 101: Leatherworking
+	-- {npc:1632} Adele Fielder · {skill:165} Leatherworking
+	["{npc:1632} takes it once your {skill:165} skill is 20: gather or craft until then, the guide carries on meanwhile."] = "{npc:1632}, {skill:165} becerin 20 olunca görevi kabul eder: o zamana kadar topla ya da üret, rehber bu arada devam eder.",
 	-- {npc:263399} Sam Sarsaparilla · {npc:1632} Adele Fielder
 	["{npc:263399}: for {npc:1632} on the lake shore"] = "{npc:263399}: göl kıyısındaki {npc:1632} için",
 
 	-- Step 26: Camping 101: Fishing
+	-- {npc:1651} Lee Brown · {skill:356} Fishing
+	["{npc:1651} takes it once your {skill:356} skill is 20: gather or craft until then, the guide carries on meanwhile."] = "{npc:1651}, {skill:356} becerin 20 olunca görevi kabul eder: o zamana kadar topla ya da üret, rehber bu arada devam eder.",
 	-- {npc:263399} Sam Sarsaparilla · {npc:1651} Lee Brown
 	["{npc:263399}: for {npc:1651} on the lake shore"] = "{npc:263399}: göl kıyısındaki {npc:1651} için",
 
 	-- Step 27: Camping 101: First Aid
+	-- {npc:2329} Michelle Belle · {skill:129} First Aid
+	["{npc:2329} takes it once your {skill:129} skill is 20: gather or craft until then, the guide carries on meanwhile."] = "{npc:2329}, {skill:129} becerin 20 olunca görevi kabul eder: o zamana kadar topla ya da üret, rehber bu arada devam eder.",
 	-- {npc:263399} Sam Sarsaparilla · {npc:2329} Michelle Belle
 	["{npc:263399}: for {npc:2329} in the Lion's Pride Inn"] = "{npc:263399}: Lion's Pride Inn'deki {npc:2329} için",
 
 	-- Step 28: Camping 101: Blacksmithing
+	-- {npc:514} Smith Argus · {skill:164} Blacksmithing
+	["{npc:514} takes it once your {skill:164} skill is 20: gather or craft until then, the guide carries on meanwhile."] = "{npc:514}, {skill:164} becerin 20 olunca görevi kabul eder: o zamana kadar topla ya da üret, rehber bu arada devam eder.",
 	-- {npc:263399} Sam Sarsaparilla · {npc:514} Smith Argus · {area:87} Goldshire
 	["{npc:263399}: for {npc:514} at the {area:87} smithy"] = "{npc:263399}: {area:87} demirhanesindeki {npc:514} için",
 
@@ -267,6 +277,8 @@ return {
 	["Level 8.39"] = "Seviye 8.39",
 	-- {quest:91775} Book Return
 	["If you skipped {quest:91775}, grind here to level 8.39 to stay on the route's plan."] = "{quest:91775} görevini atladıysan rotanın planında kalmak için burada seviye 8.39 olana kadar kas.",
+	-- {npc:40} Kobold Miner
+	["grind on {npc:40}"] = "Kas: {npc:40}",
 
 	-- Step 54: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
@@ -286,9 +298,9 @@ return {
 	["Head east out of {area:87} along the lake shore. {npc:383} stands on the shore north-east of town."] = "Göl kıyısı boyunca {area:87} kasabasından doğuya çık. {npc:383} kasabanın kuzeydoğusunda, kıyıda duruyor.",
 
 	-- Step 58: Crystal Lake: kill these as you meet them
-	-- {area:91} Tower of Azora
+	-- {area:91} Tower of Azora · {npc:276180} Elder Finseer · {npc:261} Guard Thomas
 	-- plural, as words: Prowlers = {npc:118} Prowler
-	["The murlocs on the east shore drop the kelp. Skinners: Gray Forest Wolves roam the woods between the lake and the {area:91}; Prowlers further east give pelts too."] = "Yosunu doğu kıyısındaki murloclar düşürür. Skinning yapanlar için: Gray Forest Wolf yaratıkları gölle {area:91} kulesi arasındaki ormanda dolaşıyor; daha doğudaki Prowler yaratıkları da post verir.",
+	["The murlocs on the east shore drop the kelp. Skinners: Gray Forest Wolves roam the woods between the lake and the {area:91}; Prowlers further east give pelts too.\nCareful: {npc:276180}, a level 11 rare murloc, walks the river by {npc:261}' bridge, east of the Prowlers' woods: leave him be."] = "Yosunu doğu kıyısındaki murloclar düşürür. Skinning yapanlar için: Gray Forest Wolf yaratıkları gölle {area:91} kulesi arasındaki ormanda dolaşıyor; daha doğudaki Prowler yaratıkları da post verir.\nDikkat: 11. seviye rare bir murloc olan {npc:276180}, Prowler ormanının doğusunda, {npc:261} adlı NPC'nin beklediği köprünün yanında nehir boyunca yürür: ona bulaşma.",
 	-- plural, as words: Crystal Kelp Fronds = {item:1256} Crystal Kelp Frond
 	["Crystal Kelp Fronds"] = "Crystal Kelp Frond",
 
@@ -306,9 +318,9 @@ return {
 	-- Step 61: Downstream and Princess
 	-- {quest:91733} Downstream · {npc:330} Princess
 	["{quest:91733} and {npc:330}"] = "{quest:91733} ve {npc:330}",
-	-- {item:247813} Waterlogged Saw · {npc:330} Princess · {area:62} Brackwell Pumpkin Patch · {npc:390} Porcine Entourage · {npc:248278} Croaky
-	-- plural, as words: Prowlers = {npc:118} Prowler · Young Forest Bears = {npc:822} Young Forest Bear
-	["The {item:247813}, Axe and Toolbox lie in the river south of the bridge. {npc:330}, a big boar, roots in the {area:62} west of the river with her {npc:390}: pull the piglets away first. Kill Prowlers and Young Forest Bears on the way. Careful: {npc:248278} is a level 11 elite on the murloc shore. Only go for his head with a group or once you're level 10; otherwise leave him: it's optional."] = "{item:247813}, balta ve alet kutusu köprünün güneyinde, nehrin içinde. Büyük bir yaban domuzu olan {npc:330}, nehrin batısındaki {area:62} tarlasında {npc:390} ile birlikte toprağı eşeliyor: önce yavruları ondan uzağa çek. Yolda Prowler ve Young Forest Bear yaratıklarını öldür. Dikkat: {npc:248278} murloc kıyısında 11. seviye elit bir yaratık. Kafası için yalnızca grupla ya da 10. seviyeye gelince git; yoksa onu bırak: isteğe bağlı.",
+	-- {item:247813} Waterlogged Saw · {npc:330} Princess · {area:62} Brackwell Pumpkin Patch · {npc:390} Porcine Entourage · {npc:261} Guard Thomas · {npc:248278} Croaky
+	-- plural, as words: Young Forest Bears = {npc:822} Young Forest Bear · Prowlers = {npc:118} Prowler
+	["The {item:247813}, Axe and Toolbox lie in the river south of the bridge. {npc:330}, a big boar, roots in the {area:62} west of the river with her {npc:390}: pull the piglets away first. Kill Young Forest Bears on the way; the Prowlers (level 9-10) wait for the walk back to {npc:261}, after the logging camp and the mine. Careful: {npc:248278} is a level 11 elite on the murloc shore. Only go for his head with a group; otherwise leave him: it's optional."] = "{item:247813}, balta ve alet kutusu köprünün güneyinde, nehrin içinde. Büyük bir yaban domuzu olan {npc:330}, nehrin batısındaki {area:62} tarlasında {npc:390} ile birlikte toprağı eşeliyor: önce yavruları ondan uzağa çek. Yolda Young Forest Bear yaratıklarını öldür; Prowler yaratıkları (seviye 9-10), kereste kampı ve madenden sonra {npc:261} yanına dönüş yolunu bekler. Dikkat: {npc:248278} murloc kıyısında 11. seviye elit bir yaratık. Kafası için yalnızca grupla git; yoksa onu bırak: isteğe bağlı.",
 
 	-- Step 62: Croaky
 	-- {npc:248278} Croaky · {quest:91740} Croaky's Head
@@ -318,13 +330,14 @@ return {
 	["Level 8.85"] = "Seviye 8.85",
 	-- {quest:91740} Croaky's Head
 	["If you skipped {quest:91740}, grind here to level 8.85 to stay on the route's plan."] = "{quest:91740} görevini atladıysan rotanın planında kalmak için burada seviye 8.85 olana kadar kas.",
-	-- {npc:118} Prowler
-	["grind on {npc:118}"] = "Kas: {npc:118}",
+	-- {npc:1922} Gray Forest Wolf
+	["grind on {npc:1922}"] = "Kas: {npc:1922}",
 
 	-- Step 66: The Eastvale Logging Camp
 	-- {area:88} Eastvale Logging Camp
 	["The {area:88}"] = "{area:88} kampı",
-	["The camp is north-east of the bridge. Bundles of Wood lie around the camp and in the woods north of it."] = "Kamp köprünün kuzeydoğusunda. Bundle of Wood eşyaları kampın çevresinde ve kuzeyindeki ormanda duruyor.",
+	-- {area:86} Stone Cairn Lake
+	["The camp is north-east of the bridge. Bundles of Wood lie around the camp and in the woods north of it.\nCareful: Elmpaw, a level 12 elite gnoll, walks the woods and hills from the logging camp north to {area:86} and the gnoll camps: keep clear of him when you see him coming."] = "Kamp köprünün kuzeydoğusunda. Bundle of Wood eşyaları kampın çevresinde ve kuzeyindeki ormanda duruyor.\nDikkat: 12. seviye elit bir gnoll olan Elmpaw, kereste kampından kuzeye, {area:86} gölüne ve gnoll kamplarına kadar orman ve tepelerde dolaşır: geldiğini görünce uzak dur.",
 	-- {npc:278} Sara Timberlain
 	["{npc:278}, inside"] = "{npc:278}, içeride",
 
@@ -332,9 +345,9 @@ return {
 	["It lies by the river north-west of the logging camp."] = "Kereste kampının kuzeybatısında, nehrin kenarında yatıyor.",
 
 	-- Step 68: Stone Cairn Lake
-	-- {area:86} Stone Cairn Lake · {object:56} Rolf's corpse
+	-- {area:86} Stone Cairn Lake · {object:56} Rolf's corpse · {npc:6866} Defias Bodyguard
 	-- plural, as words: Defias Rogue Wizards = {npc:474} Defias Rogue Wizard · Red Linen Bandanas = {item:1019} Red Linen Bandana
-	["Defias Rogue Wizards camp on the shores of {area:86}; they drop the Red Linen Bandanas too. {object:56} lies in the murloc village on the north-east shore."] = "Defias Rogue Wizard yaratıkları {area:86} gölünün kıyılarında kamp kurmuş; Red Linen Bandana eşyalarını da onlar düşürür. {object:56}, kuzeydoğu kıyısındaki murloc köyünde yatıyor.",
+	["Defias Rogue Wizards camp on the shores of {area:86}; they drop the Red Linen Bandanas too. {object:56} lies in the murloc village on the north-east shore.\nCareful: the Rogue Wizards cast from range and a {npc:6866} (10) walks the shore with them: pull them one at a time."] = "Defias Rogue Wizard yaratıkları {area:86} gölünün kıyılarında kamp kurmuş; Red Linen Bandana eşyalarını da onlar düşürür. {object:56}, kuzeydoğu kıyısındaki murloc köyünde yatıyor.\nDikkat: Rogue Wizard yaratıkları uzaktan büyü yapar ve onlarla birlikte bir {npc:6866} (10) kıyıda dolaşır: onları tek tek çek.",
 	-- plural, as words: Red Linen Bandanas = {item:1019} Red Linen Bandana
 	["Red Linen Bandanas"] = "Red Linen Bandana",
 
@@ -366,8 +379,9 @@ return {
 	["Follow the road east past the {area:91} to the bridge. Finish the Prowlers and Young Forest Bears around the river south of it."] = "Yolu doğuya izle; {area:91} kulesini geçip köprüye var. Köprünün güneyinde, nehrin çevresindeki Prowler ve Young Forest Bear yaratıklarını bitir.",
 
 	-- Step 75: Stone Cairn Lake
+	-- {npc:6866} Defias Bodyguard
 	-- plural, as words: Defias Rogue Wizards = {npc:474} Defias Rogue Wizard
-	["North-east of the logging camp. Defias Rogue Wizards camp on the shores of the lake."] = "Kereste kampının kuzeydoğusunda. Defias Rogue Wizard yaratıkları gölün kıyılarında kamp kurmuş.",
+	["North-east of the logging camp. Defias Rogue Wizards camp on the shores of the lake.\nCareful: the Rogue Wizards cast from range and a {npc:6866} (10) walks the shore with them: pull them one at a time."] = "Kereste kampının kuzeydoğusunda. Defias Rogue Wizard yaratıkları gölün kıyılarında kamp kurmuş.\nDikkat: Rogue Wizard yaratıkları uzaktan büyü yapar ve onlarla birlikte bir {npc:6866} (10) kıyıda dolaşır: onları tek tek çek.",
 
 	-- Step 76: The Tower of Azora
 	["Follow the hills south to the tower, on the road west."] = "Tepeleri izleyerek güneye, batıya giden yolun üzerindeki kuleye git.",

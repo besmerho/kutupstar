@@ -5,7 +5,7 @@
 return {
 	-- Guide
 	-- {npc:6266} Menara Voidrender
-	["A rare cloth robe for your 30s from {npc:6266}; its last parts wait for levels 35 and 37."] = "{npc:6266} adlı NPC'den 30'lu seviyelerin için nadir bir kumaş cüppe; son parçaları seviye 35 ve 37'yi bekliyor.",
+	["A rare cloth robe for your 30s from {npc:6266}; its last parts wait for levels 37 and 39."] = "30'larında {npc:6266} adlı NPC'den nadir bir kumaş cübbe; son parçaları 37 ve 39. seviyeleri bekler.",
 
 	-- Step 1: In Search of Menara Voidrender (Stormwind)
 	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6266} Menara Voidrender · {area:392} Ratchet · {item:5770} Robes of Arcana · {item:3577} Gold Bar
@@ -39,7 +39,7 @@ return {
 	["{npc:6266} stands by {npc:6251}'s tower on the hill above {area:392}, behind the engineers' hut. She takes the robe, then sends the gold bar to {npc:2670} in {area:35}."] = "{npc:6266}, {area:392} kasabasının yukarısındaki tepede, mühendislerin kulübesinin arkasında {npc:6251} kulesinin yanında duruyor. Cübbeyi alır, sonra altın külçeyi {area:35} kasabasındaki {npc:2670} yanına gönderir.",
 
 	-- Step 7: Xizk Goodstitch
-	-- {area:392} Ratchet · {area:35} Booty Bay · {npc:2670} Xizk Goodstitch · {object:59851} A Tailor to Cities (no name in this language: may be words) · {item:3577} Gold Bar
+	-- {area:392} Ratchet · {area:35} Booty Bay · {npc:2670} Xizk Goodstitch · {object:59851} A Tailor to Cities · {item:3577} Gold Bar
 	["The boat from {area:392} sails to {area:35}. {npc:2670} runs {object:59851} on an upper level of the town. Give him the {item:3577}; he will spin the thread later."] = "{area:392} kasabasından kalkan gemi {area:35} kasabasına gider. {npc:2670}, kasabanın üst katlarından birinde {object:59851} dükkânını işletiyor. Ona {item:3577} ver; ipliği sonra eğirecek.",
 
 	-- Step 8: Back to Menara Voidrender
@@ -57,7 +57,7 @@ return {
 	-- Step 10: Mannoroc Coven
 	-- {area:602} Mannoroc Coven · {zone:1443} Desolace · {spell:686} Shadow Bolt
 	-- plural, as words: Lesser Infernals = {npc:4676} Lesser Infernal · Demon Portal Guardians = {npc:11937} Demon Portal Guardian
-	["The Lesser Infernals (36-37) and Demon Portal Guardians (38) of {area:602}, in the south of {zone:1443}, drop the stone half the time. The guide waits for level 35 first: at 31 they are too strong to solo. They resist fire, so use {spell:686} and Corruption."] = "Güney {zone:1443} bölgesindeki {area:602} içindeki Lesser Infernal (36-37) ve Demon Portal Guardian (38) yaratıkları taşı yarı yarıya düşürür. Rehber önce seviye 35'i bekler: 31'de tek başına yenilemeyecek kadar güçlüler. Fire'a dirençliler, bu yüzden {spell:686} ve Corruption kullan.",
+	["The Lesser Infernals (36-37) and Demon Portal Guardians (38) of {area:602}, in the south of {zone:1443}, drop the stone half the time. The guide waits for level 39 first: at 31 they are too strong to solo. They resist fire, so use {spell:686} and Corruption."] = "{zone:1443} bölgesinin güneyindeki {area:602} içindeki Lesser Infernal (36-37) ve Demon Portal Guardian (38) yaratıkları taşı yarı yarıya düşürür. Rehber önce 39. seviyeyi bekler: 31'de tek başına kesilemeyecek kadar güçlüler. Ateşe dirençliler, yani {spell:686} ve Corruption kullan.",
 
 	-- Step 11: Menara Voidrender again
 	-- {npc:6266} Menara Voidrender
@@ -72,7 +72,7 @@ return {
 	-- Step 13: Smoldering Coal
 	-- {area:334} Circle of West Binding · {zone:1417} Arathi Highlands · {spell:686} Shadow Bolt · {area:321} Hammerfall · {item:6265} Soul Shard · {spell:1120} Drain Soul
 	-- plural, as words: Burning Exiles = {npc:2760} Burning Exile · Cresting Charms = {item:4481} Cresting Charm · Cresting Exiles = {npc:2761} Cresting Exile
-	["The Burning Exiles (level 38-39), fire elementals at the {area:334} in western {zone:1417}, drop the coal about one time in three. The guide waits for level 37 first: below it they hit too hard to solo. They resist fire: {spell:686} and Corruption. The Cresting Charms from the Cresting Exiles near {area:321} finish one off once you have hurt it. Make a {item:6265} with {spell:1120} on the way."] = "Batı {zone:1417} bölgesindeki {area:334} çemberindeki ateş elementalleri Burning Exile yaratıkları (seviye 38-39) aşağı yukarı üçte bir kömür düşürür. Rehber önce seviye 37'yi bekler: altında tek başına yenilemeyecek kadar sert vururlar. Fire'a dirençliler: {spell:686} ve Corruption. {area:321} kasabasının yakınındaki Cresting Exile yaratıklarından düşen Cresting Charm'lar, yaraladığın birini bitirir. Yolda {spell:1120} ile bir {item:6265} yap.",
+	["The Burning Exiles (level 38-39), fire elementals at the {area:334} in western {zone:1417}, drop the coal about one time in three. The guide waits for level 39 first: below it they hit too hard to solo. They resist fire: {spell:686} and Corruption. The Cresting Charms from the Cresting Exiles near {area:321} finish one off once you have hurt it. Make a {item:6265} with {spell:1120} on the way."] = "{zone:1417} bölgesinin batısındaki {area:334} yerinde ateş elementalleri olan Burning Exile yaratıkları (38-39. seviye) kömürü yaklaşık üçte bir düşürür. Rehber önce 39. seviyeyi bekler: altında tek başına kesilemeyecek kadar sert vururlar. Ateşe dirençliler: {spell:686} ve Corruption. {area:321} yakınındaki Cresting Exile yaratıklarından düşen Cresting Charm'lar, birini hırpaladıktan sonra işini bitirir. Yolda {spell:1120} ile bir {item:6265} yap.",
 	-- {item:6265} Soul Shard · {spell:1120} Drain Soul
 	["{item:6265}: {spell:1120} on an Exile as it dies"] = "{item:6265}: ölürken bir Exile üzerinde {spell:1120}",
 

@@ -57,43 +57,52 @@ return {
 	-- plural, as words: Corrupted Soul Shards = {item:11515} Corrupted Soul Shard
 	["Corrupted Soul Shards from the cultists, {quest:5887}"] = "Tarikatçılardan Corrupted Soul Shard'lar, {quest:5887}",
 
-	-- Step 13: Maybess Riverbreeze
-	-- {npc:10922} Greta Mosshoof · {npc:9529} Maybess Riverbreeze
-	["On the way back south to {npc:10922}, {npc:9529} takes the shards on the west side of the Sanctuary."] = "Güneye, {npc:10922} adlı NPC'ye dönerken {npc:9529}, Sanctuary'nin batı tarafında parçaları alır.",
+	-- Step 13: A Strange Red Key
+	-- {item:13140} Blood Red Key · {npc:11018} Arko'narin
+	-- plural, as words: Jaedenar Enforcers = {npc:7114} Jaedenar Enforcer
+	["A {item:13140} dropped: the Jaedenar Enforcers, Darkweavers, Warlocks and Legionnaires of Shadow Hold carry one now and then. Use it to start the quest, then free {npc:11018} from her cage in the cave's south end on your way out."] = "Bir {item:13140} düştü: Shadow Hold'un Jaedenar Enforcer, Darkweaver, Warlock ve Legionnaire'leri arada bir taşır. Görevi başlatmak için onu kullan, sonra çıkarken mağaranın güney ucundaki kafesinden {npc:11018} adlı NPC'yi serbest bırak.",
 
-	-- Step 14: Greta Mosshoof
+	-- Step 14: Captured Arko'narin
+	-- {npc:11016} Captured Arko'narin
+	["{npc:11016}, below ground"] = "{npc:11016}, yer altında",
+
+	-- Step 15: Maybess Riverbreeze
+	-- {npc:9529} Maybess Riverbreeze
+	["On the way back south to Greta, {npc:9529} takes the shards on the west side of the Sanctuary."] = "Güneye, Greta'ya dönerken Sanctuary'nin batı yakasındaki {npc:9529} kırıkları teslim alır.",
+
+	-- Step 16: Greta Mosshoof
 	["South to the Sanctuary once more."] = "Bir kez daha güneye, Sanctuary'ye git.",
 
-	-- Step 15: Toxic Horrors
-	-- {zone:1448} Felwood · {area:1767} Irontree Woods · {quest:5086} Toxic Horrors
-	["Ride north up the {zone:1448} road to {area:1767}; the {quest:5086} ooze between the trees, and most of them drop a droplet."] = "{zone:1448} yolu boyunca kuzeye, {area:1767} içine sür; {quest:5086} yaratıkları ağaçların arasında süzülüyor ve çoğu bir damla düşürür.",
+	-- Step 17: Toxic Horrors
+	-- {zone:1448} Felwood · {area:1767} Irontree Woods · {quest:5086} Toxic Horrors · {npc:14524} Vartrus the Ancient
+	-- plural, as words: Ancient Irontree Walkers = {npc:235912} Ancient Irontree Walker
+	["Ride north up the {zone:1448} road to {area:1767}; the {quest:5086} ooze between the trees, and most of them drop a droplet.\nCareful: Ancient Irontree Walkers, level 59 elites, walk among the {quest:5086}, and {npc:14524} (63, elite) roams the woods: work the Horrors at the north tip of {area:1767}, one at a time."] = "{zone:1448} yolundan kuzeye, {area:1767} ormanına sür; {quest:5086} ağaçların arasında sızıyor, çoğu da bir damla düşürür.\nDikkat: 59. seviye elitler olan Ancient Irontree Walker yaratıkları {quest:5086} arasında yürüyor, {npc:14524} (63, elit) de ormanda dolaşıyor: Horror'larla {area:1767} kuzey ucunda, tek tek uğraş.",
 
-	-- Step 17: Umber
+	-- Step 19: Umber
 	-- {zone:1450} Moonglade · {npc:11939} Umber · {area:2361} Nighthaven
 	["Through the Timbermaw tunnel to {zone:1450}. {npc:11939} reads in a house in {area:2361}."] = "Timbermaw tünelinden {zone:1450} bölgesine geç. {npc:11939}, {area:2361} köyündeki bir evde okuyor.",
 	-- {npc:11939} Umber · {area:2361} Nighthaven
 	["{npc:11939} walks around {area:2361}: look inside the circle on the map"] = "{npc:11939}, {area:2361} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
-	-- Step 19: Class trainer
+	-- Step 21: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
 
-	-- Step 20: Rabine Saturna
+	-- Step 22: Rabine Saturna
 	-- {npc:11801} Rabine Saturna · {area:2577} Dire Maul
 	["{npc:11801}'s Shards of the Felvine needs {area:2577}. Skip it."] = "{npc:11801} adlı NPC'nin Shards of the Felvine görevi {area:2577} gerektiriyor. Atla.",
 
-	-- Step 23: Donova Snowden
+	-- Step 25: Donova Snowden
 	-- {zone:1452} Winterspring · {npc:9298} Donova Snowden
 	["Back into the Timbermaw tunnel and take the {zone:1452} exit; {npc:9298} camps by the hot springs just outside."] = "Timbermaw tüneline geri gir ve {zone:1452} çıkışını al; {npc:9298} hemen dışarıdaki kaplıcaların yanında kamp kurmuş.",
 	["From Krakle in Un'Goro"] = "Un'Goro'daki Krakle'dan",
 
-	-- Step 24: Winterfall Runners
+	-- Step 26: Winterfall Runners
 	-- {area:1769} Timbermaw Hold · {area:2244} Winterfall Village · {npc:9298} Donova Snowden · {spell:5384} Feign Death
 	["The runners walk the road from {area:1769} toward {area:2244} in small groups; wait by the road near {npc:9298} and kill them as they pass. Each one carries a crate.\nCareful: Turning in spawns three or four level 56-57 Winterfall ambushers that attack you; you can escape them while mounted, in stealth or with {spell:5384}, and they then gather by the lake so you can take the next quest."] = "Koşucular küçük gruplar hâlinde {area:1769} girişinden {area:2244} köyüne doğru yolda yürüyor; {npc:9298} yakınında yolun kenarında bekle ve geçerken onları öldür. Her biri bir sandık taşıyor.\nDikkat: Teslim etmek sana saldıran üç dört tane seviye 56-57 Winterfall pusucusu çıkarır; binekteyken, gizlilikteyken ya da {spell:5384} ile onlardan kaçabilirsin, sonra gölün yanında toplanırlar ve sonraki görevi alabilirsin.",
 
-	-- Step 26: Beads for Salfa
-	-- {npc:11556} Salfa
-	["Any Winterfall furbolg can carry the beads; the camps just south of {npc:11556} are the closest."] = "Herhangi bir Winterfall furbolgu boncukları taşıyor olabilir; en yakın kamplar {npc:11556} adlı NPC'nin hemen güneyinde.",
-	["Frostfire Winterfall camp"] = "Frostfire Winterfall kampı",
+	-- Step 27: Salfa
+	-- {quest:8464} Winterfall Activity · {area:2255} Everlook · {area:2256} Darkwhisper Gorge
+	["{quest:8464}'s village is north-east of {area:2255}, on this guide's way back from {area:2256}."] = "{quest:8464} köyü {area:2255} kasabasının kuzeydoğusunda, bu rehberin {area:2256} dönüş yolunda.",
 
 	-- Step 28: Meilosh
 	-- {quest:6031} Runecloth · {area:1769} Timbermaw Hold · {npc:11557} Meilosh
@@ -117,27 +126,32 @@ return {
 	-- {npc:7446} Rabid Shardtooth
 	["grind on {npc:7446}"] = "Kas: {npc:7446}",
 
-	-- Step 33: Donova Snowden
-	-- {area:2246} Frostfire Hot Springs
-	["Ride back west to {area:2246}."] = "Batıya, {area:2246} kaplıcalarına dön.",
-	-- {npc:9298} Donova Snowden · {npc:10738} High Chief Winterfall
-	["{npc:9298} next sends you after {npc:10738}, an elite in his cave. Skip it."] = "{npc:9298} sonra seni mağarasındaki elit {npc:10738} peşine gönderir. Atla.",
-
-	-- Step 34: Are We There, Yeti?
+	-- Step 33: Are We There, Yeti?
+	-- {area:2255} Everlook
+	["Ride north to {area:2255}."] = "Kuzeye, {area:2255} kasabasına sür.",
 	-- {npc:10978} Legacki · {npc:10980} Umi's Mechanical Yeti
 	["Scare {npc:10978} with {npc:10980}"] = "{npc:10978} adlı NPC'yi {npc:10980} ile korkut",
 
-	-- Step 35: Everlook
-	-- {area:2255} Everlook
-	["Ride east along the road to {area:2255}."] = "Yol boyunca doğuya, {area:2255} kasabasına git.",
+	-- Step 35: Winterfall Village
+	-- {area:2255} Everlook · {npc:10738} High Chief Winterfall
+	["The furbolg village fills the valley north-east of {area:2255}. Kill Shamans first; they heal. {npc:10738} (59, elite) and Xandivious (62) are in the cave at the back: stay out."] = "Furbolg köyü {area:2255} kasabasının kuzeydoğusundaki vadiyi dolduruyor. Önce Shaman'ları öldür; iyileştirirler. {npc:10738} (59, elit) ve Xandivious (62) arkadaki mağarada: içeri girme.",
 
-	-- Step 36: Dungeon instead of grinding
-	["Dungeon instead of grinding"] = "Seviye kasmak yerine zindan",
-	-- {area:2279} Stratholme · {area:2057} Scholomance · {area:1584} Blackrock Depths
-	["Optional. Running {area:2279}, {area:2057}, Lower Blackrock Spire or {area:1584} with a group instead of grinding gets you there faster."] = "İsteğe bağlı. Seviye kasmak yerine grupla {area:2279}, {area:2057}, Lower Blackrock Spire ya da {area:1584} zindanına girmek seni oraya daha hızlı götürür.",
-	["Optional: with a group, a 55-60 dungeon replaces the grind below."] = "İsteğe bağlı: grupla gireceğin 55-60 seviyesindeki bir zindan, aşağıdaki seviye kasmanın yerini tutar.",
+	-- Step 36: Donova Snowden
+	-- {area:2246} Frostfire Hot Springs
+	["Ride back west along the road to {area:2246}."] = "Yol boyunca batıya, {area:2246} yöresine dön.",
+	-- {npc:9298} Donova Snowden · {npc:10738} High Chief Winterfall
+	["{npc:9298} next sends you after {npc:10738}, an elite in his cave. Skip it."] = "{npc:9298} sonra seni mağarasındaki elit {npc:10738} peşine gönderir. Atla.",
 
-	-- Step 37: Grind to 60
+	-- Step 37: Salfa
+	-- {zone:1452} Winterspring
+	["North of Donova, at the tunnel's {zone:1452} exit."] = "Donova'nın kuzeyinde, tünelin {zone:1452} çıkışında.",
+
+	-- Step 38: Beads for Salfa
+	-- {npc:11556} Salfa · {quest:8464} Winterfall Activity
+	["{npc:11556} takes the beads only once {quest:8464} is handed in: any Winterfall furbolg can carry them, and the camps just south of {npc:11556} are the closest."] = "{npc:11556} boncukları yalnızca {quest:8464} teslim edildikten sonra alır: herhangi bir Winterfall furbolg'u onları taşıyabilir, {npc:11556} yanının hemen güneyindeki kamplar en yakını.",
+	["Frostfire Winterfall camp"] = "Frostfire Winterfall kampı",
+
+	-- Step 40: Grind to 60
 	["Grind to 60"] = "Seviye 60'a kadar kas",
 	-- {area:2249} Frostwhisper Gorge · {zone:1452} Winterspring · {area:2255} Everlook
 	-- plural, as words: Rabid Shardtooths = {npc:7446} Rabid Shardtooth

@@ -8,8 +8,8 @@ return {
 	["Your epic mount at 60, summoned at will: the faster step up from the Warhorse."] = "Seviye 60'ta dilediğinde çağırdığın epik bineğin: Warhorse'tan daha hızlı bir basamak.",
 
 	-- Step 1: Lord Grayson Shadowbreaker (Ironforge)
-	-- {npc:5149} Brandur Ironhammer · {object:32362} Mystic Ward (no name in this language: may be words) · {quest:7638} Lord Grayson Shadowbreaker · {zone:1453} Stormwind
-	["At 60 {npc:5149} in the {object:32362} sends you to {quest:7638} in {zone:1453}'s Cathedral of Light."] = "Seviye 60'ta {object:32362} semtindeki {npc:5149}, seni {zone:1453} şehrinin Cathedral of Light'ındaki {quest:7638} yanına gönderir.",
+	-- {npc:5149} Brandur Ironhammer · {object:32362} Mystic Ward (no name in this language: may be words) · {quest:7670} Lord Grayson Shadowbreaker · {zone:1453} Stormwind
+	["At 60 {npc:5149} in the {object:32362} sends you to {quest:7670} in {zone:1453}'s Cathedral of Light."] = "60'ta {object:32362} içindeki {npc:5149} seni {zone:1453} şehrinin Cathedral of Light'ındaki {quest:7670} yanına yollar.",
 
 	-- Step 2: Lord Grayson Shadowbreaker
 	-- {spell:23214} Summon Charger · {area:2279} Stratholme · {area:2057} Scholomance · {item:14047} Runecloth · {item:8836} Arthas' Tears · {npc:6171} Duthorian Rall
@@ -30,7 +30,7 @@ return {
 	["Lord Grayson blesses the censer into the {item:18752} for {area:2627}."] = "Lord Grayson, buhurdanı {area:2627} için {item:18752} olarak kutsar.",
 
 	-- Step 5: Exorcising Terrordale
-	-- {area:2627} Terrordale · {zone:1423} Eastern Plaguelands · {area:2279} Stratholme · {object:179747} Terrordale Haunting Spirit (no name in this language: may be words) · {item:18752} Exorcism Censer · {spell:7713} Wailing Dead · {spell:2878} Turn Undead
+	-- {area:2627} Terrordale · {zone:1423} Eastern Plaguelands · {area:2279} Stratholme · {object:179747} Terrordale Haunting Spirit · {item:18752} Exorcism Censer · {spell:7713} Wailing Dead · {spell:2878} Turn Undead
 	-- plural, as words: Terrordale Spirits = {npc:14564} Terrordale Spirit
 	["{area:2627} lies in the far north-west of the {zone:1423}, west of the {area:2279} gates. Stand inside a green glowing patch on the ground (a {object:179747}; some are inside the ruined houses) and use the {item:18752}: up to three Terrordale Spirits (level 59-60) rise and attack. Their {spell:7713} lowers all your stats by 30%: fight them one at a time and use {spell:2878}. The patches come back quickly; several paladins can work side by side."] = "{area:2627}, {zone:1423} bölgesinin en kuzeybatısında, {area:2279} kapılarının batısında. Yerde yeşil parlayan bir alanın içinde dur (bir {object:179747}; bazıları yıkık evlerin içinde) ve {item:18752} kullan: en fazla üç Terrordale Spirit (seviye 59-60) yükselip saldırır. {spell:7713} bütün niteliklerini %30 düşürür: onlarla tek tek dövüş ve {spell:2878} kullan. Alanlar çabuk geri gelir; birkaç paladin yan yana çalışabilir.",
 	-- {item:18752} Exorcism Censer

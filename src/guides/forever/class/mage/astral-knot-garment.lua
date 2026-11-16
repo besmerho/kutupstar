@@ -15,10 +15,10 @@ return {
 	["{npc:5497} stands at the top of the Wizard's Sanctum, the violet tower of the {object:2101}; the portal near the top of the spiral ramp takes you to her."] = "{npc:5497}, {object:2101} kesiminin mor kulesi Wizard's Sanctum'un tepesinde duruyor; sarmal rampanın tepesine yakın portal seni onun yanına götürür.",
 
 	-- Step 3: High Sorcerer Andromath (Skyborne)
-	-- {npc:5694} High Sorcerer Andromath
-	["{npc:5694} (Skyborne)"] = "{npc:5694} (Skyborne)",
-	-- {zone:1453} Stormwind · {object:2101} Mage Quarter · {npc:5694} High Sorcerer Andromath · {npc:5497} Jennea Cannon
-	["You do not need a letter: at 26 climb the Wizard's Sanctum, the violet tower of {zone:1453}'s {object:2101}. {npc:5694} waits on the spiral walkway, just past the door of the portal room near the top, and has the quest for you. ({npc:5497} may also offer you {npc:5694}, the pointer quest; it is only a pointer and you can skip it.)"] = "Mektuba gerek yok: 26'da {zone:1453} şehrinin {object:2101} kesimindeki mor kule Wizard's Sanctum'a tırman. {npc:5694}, tepeye yakın portal odasının kapısının hemen ötesinde, sarmal yürüyüş yolunda bekliyor ve görevin onda. ({npc:5497} sana yönlendirme görevi olan {npc:5694} görevini de önerebilir; yalnızca bir yönlendirme, atlayabilirsin.)",
+	-- {quest:1939} High Sorcerer Andromath
+	["{quest:1939} (Skyborne)"] = "{quest:1939} (Skyborne)",
+	-- {zone:1453} Stormwind · {object:2101} Mage Quarter · {quest:1939} High Sorcerer Andromath · {npc:5497} Jennea Cannon
+	["You do not need a letter: at 26 climb the Wizard's Sanctum, the violet tower of {zone:1453}'s {object:2101}. {quest:1939} waits on the spiral walkway, just past the door of the portal room near the top, and has the quest for you. ({npc:5497} may also offer you {quest:1939}, the pointer quest; it is only a pointer and you can skip it.)"] = "Mektuba gerek yok: 26'da {zone:1453} şehrinin {object:2101} içindeki mor kule Wizard's Sanctum'a tırman. {quest:1939} spiral geçitte, tepeye yakın portal odasının kapısının hemen ötesinde bekliyor ve görevi sana veriyor. ({npc:5497} da sana yönlendirme görevi {quest:1939} görevini verebilir; yalnızca bir yönlendirme, atlayabilirsin.)",
 
 	-- Step 4: High Sorcerer Andromath
 	-- {quest:1939} High Sorcerer Andromath

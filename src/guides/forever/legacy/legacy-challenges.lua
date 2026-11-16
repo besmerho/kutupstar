@@ -108,8 +108,8 @@ return {
 
 	-- Step 18: Dungeons: level 15-25
 	["Dungeons: level 15-25"] = "Zindanlar: seviye 15-25",
-	-- {area:2437} Ragefire Chasm · {area:16919} Hall of Thanes · {zone:1455} Ironforge
-	["The final boss of every level 15-25 dungeon earns one point together. {area:2437} and Forever's {area:16919} (in {zone:1455}) count as one: either final boss does. Tick each boss off when you kill it, and check the in-game Legacy panel for the list."] = "Seviye 15-25 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır. {area:2437} ve Forever'ın {area:16919} zindanı ({zone:1455} içinde) bir sayılır: ikisinden birinin son boss'u yeter. Her boss'u öldürünce işaretle, liste için de oyun içi Legacy paneline bak.",
+	-- {area:2437} Ragefire Chasm · {area:16919} Hall of Thanes · {zone:1455} Ironforge · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {zone:1454} Orgrimmar
+	["The final boss of every level 15-25 dungeon earns one point together. {area:2437} and Forever's {area:16919} (in {zone:1455}) count as one: either final boss does. Tick each boss off when you kill it, and check the in-game Legacy panel for the list.\nAlliance: the {area:153}'s entrance is in the ruins beside the {zone:1458}, among Horde guards: go with a group. {area:2437} is inside {zone:1454}: the {area:16919} counts for it. Horde: the {area:16919} is inside {zone:1455}: {area:2437} counts for it."] = "Seviye 15-25 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır. {area:2437} ve Forever'ın {area:16919} zindanı ({zone:1455} içinde) bir sayılır: ikisinden birinin son boss'u yeter. Her boss'u öldürünce işaretle, liste için de oyun içi Legacy paneline bak.\nAlliance: {area:153} girişi {zone:1458} şehrinin yanındaki harabelerde, Horde muhafızlarının arasında: bir grupla git. {area:2437}, {zone:1454} şehrinin içinde: {area:16919} onun yerine sayılır. Horde: {area:16919}, {zone:1455} şehrinin içinde: {area:2437} onun yerine sayılır.",
 	-- {area:2437} Ragefire Chasm · {npc:11519} Bazzalan · {area:16919} Hall of Thanes
 	["{area:2437}: {npc:11519} (or {area:16919})"] = "{area:2437}: {npc:11519} (ya da {area:16919})",
 	-- {area:16919} Hall of Thanes · {npc:261319} Durgen Dirgehammer · {area:2437} Ragefire Chasm
@@ -123,11 +123,12 @@ return {
 
 	-- Step 19: Dungeons: level 26-45
 	["Dungeons: level 26-45"] = "Zindanlar: seviye 26-45",
-	-- {area:17780} Krol'dok Stronghold · {zone:2548} Riverglades
-	["The final boss of every level 26-45 dungeon earns one point together. The Drowned City and {area:17780} (in the {zone:2548}) are new in Forever and not in our data: tick them off yourself."] = "Seviye 26-45 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır. Drowned City ve {area:17780} ({zone:2548} içinde) Forever'da yeni ve verimizde yok: onları kendin işaretle.",
+	-- {area:16550} The Drowned City · {area:17780} Krol'dok Stronghold · {zone:2548} Riverglades
+	["The final boss of every level 26-45 dungeon earns one point together. {area:16550} and {area:17780} (in the {zone:2548}) are new in Forever and not in our data: tick them off yourself."] = "Seviye 26-45 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır. {area:16550} ve {area:17780} ({zone:2548} içinde) Forever'da yeni ve verimizde yok: onları kendin işaretle.",
 	-- {zone:1416} Alterac Mountains · {npc:246020} Shade of the Archmage
 	["City of Dalaran (Forever's, {zone:1416}): {npc:246020}"] = "City of Dalaran (Forever'ın, {zone:1416}): {npc:246020}",
-	["the final boss of the Drowned City"] = "Drowned City'nin son boss'u",
+	-- {area:16550} The Drowned City
+	["the final boss of the {area:16550}"] = "{area:16550} zindanının son boss'u",
 	-- {area:796} Scarlet Monastery
 	["{area:796}: Graveyard"] = "{area:796}: Graveyard",
 	-- {area:796} Scarlet Monastery
@@ -141,9 +142,10 @@ return {
 
 	-- Step 20: Dungeons: level 46-60
 	["Dungeons: level 46-60"] = "Zindanlar: seviye 46-60",
-	-- {area:1216} Blackmaw Hold · {area:16985} Shaper's Terrace
-	["The final boss of every level 46-60 dungeon earns one point together. Alcaz Prison, {area:1216} and the {area:16985} are new in Forever and not in our data: tick them off yourself."] = "Seviye 46-60 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır. Alcaz Prison, {area:1216} ve {area:16985} Forever'da yeni ve verimizde yok: onları kendin işaretle.",
-	["the final boss of Alcaz Prison"] = "Alcaz Prison'ın son boss'u",
+	-- {area:16620} Alcaz Prison · {area:1216} Blackmaw Hold · {area:16985} Shaper's Terrace
+	["The final boss of every level 46-60 dungeon earns one point together. {area:16620}, {area:1216} and the {area:16985} are new in Forever and not in our data: tick them off yourself."] = "Seviye 46-60 zindanlarının son boss'larının hepsi birlikte bir puan kazandırır. {area:16620}, {area:1216} ve {area:16985} Forever'da yeni ve verimizde yok: onları kendin işaretle.",
+	-- {area:16620} Alcaz Prison
+	["the final boss of {area:16620}"] = "{area:16620} zindanının son boss'u",
 	-- {area:1216} Blackmaw Hold
 	["the final boss of {area:1216}"] = "{area:1216} zindanının son boss'u",
 	-- {area:1583} Blackrock Spire

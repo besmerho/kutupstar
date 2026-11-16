@@ -24,16 +24,16 @@ return {
 	["{npc:6171}, Cathedral of Light"] = "{npc:6171}, Cathedral of Light",
 
 	-- Step 5: The Tome of Divinity
-	-- {npc:6171} Duthorian Rall · {item:6775} Tome of Divinity · {item:2589} Linen Cloth
-	["{npc:6171} stands inside the Cathedral of Light. He hands you the {item:6775}: right-click it in your bags to start the next quest. If the book says the quest is already done, destroy it and ask {npc:6171} for a new copy. Bring 10 {item:2589} for the next step if you have it."] = "{npc:6171}, Cathedral of Light içinde duruyor. Sana {item:6775} verir: sonraki görevi başlatmak için çantanda ona sağ tıkla. Kitap görevin zaten yapıldığını söylerse onu yok et ve {npc:6171} ile konuşup yeni bir kopya iste. Varsa sonraki adım için 10 {item:2589} getir.",
-	-- {item:6775} Tome of Divinity
-	["Right-click the {item:6775}"] = "{item:6775} eşyasına sağ tıkla",
+	-- {npc:6171} Duthorian Rall · {quest:2998} Tome of Divinity · {item:2589} Linen Cloth
+	["{npc:6171} stands inside the Cathedral of Light. He hands you the {quest:2998}: right-click it in your bags to start the next quest. If the book says the quest is already done, destroy it and ask {npc:6171} for a new copy. Bring 10 {item:2589} for the next step if you have it."] = "{npc:6171}, Cathedral of Light'ın içinde duruyor. Sana {quest:2998} kitabını verir: bir sonraki görevi başlatmak için çantanda ona sağ tıkla. Kitap görevin zaten yapıldığını söylerse onu yok et ve {npc:6171} adlı NPC'den yeni bir kopya iste. Sende varsa bir sonraki adım için 10 {item:2589} getir.",
+	-- {quest:2998} Tome of Divinity
+	["Right-click the {quest:2998}"] = "{quest:2998} kitabına sağ tıkla",
 
 	-- Step 6: Stephanie Turner
 	-- {npc:6174} Stephanie Turner · {object:2096} Trade District · {item:2589} Linen Cloth · {zone:1436} Westfall
 	["{npc:6174} stands at a corner in the middle of the {object:2096}, outside a general goods store. She wants 10 {item:2589}: humanoids drop it (Riverpaw gnolls in {zone:1436} about every other kill, Defias and kobolds a little less), or buy it at the Auction House a few steps away in the {object:2096}."] = "{npc:6174}, {object:2096} semtinin ortasında, bir genel mallar dükkânının önündeki köşede duruyor. 10 {item:2589} istiyor: insansılar düşürür ({zone:1436} bölgesindeki Riverpaw gnoll'ları aşağı yukarı ikide bir, Defias ve kobold'lar biraz daha az), ya da {object:2096} semtinde birkaç adım ötedeki müzayede evinden al.",
 	-- {item:2589} Linen Cloth
-	["{item:2589} x10"] = "{item:2589} x10",
+	["{item:2589} x10: humanoids, or the Auction House"] = "{item:2589} x10: humanoid'ler ya da Müzayede Evi",
 
 	-- Step 7: The Symbol of Life
 	-- {item:6866} Symbol of Life
@@ -67,15 +67,15 @@ return {
 	["{npc:6179}, upstairs in the {object:32386}"] = "{npc:6179}, {object:32386} içinde üst katta",
 
 	-- Step 14: The Tome of Divinity
-	-- {npc:6179} Tiza Battleforge · {object:32386} Hall of Mysteries (no name in this language: may be words) · {object:32362} Mystic Ward (no name in this language: may be words) · {item:6916} Tome of Divinity · {item:2589} Linen Cloth
-	["{npc:6179} stands upstairs in the {object:32386}, in the {object:32362}: take the ramp at the back of the hall. She hands you the {item:6916}: right-click it in your bags to start the next quest. If the book says the quest is already done, destroy it and ask {npc:6179} for a new copy. Bring 10 {item:2589} for the next step if you have it."] = "{npc:6179}, {object:32362} semtindeki {object:32386} içinde üst katta duruyor: salonun arkasındaki rampayı kullan. Sana {item:6916} verir: sonraki görevi başlatmak için çantanda ona sağ tıkla. Kitap görevin zaten yapıldığını söylerse onu yok et ve {npc:6179} ile konuşup yeni bir kopya iste. Varsa sonraki adım için 10 {item:2589} getir.",
-	-- {item:6916} Tome of Divinity
-	["Right-click the {item:6916}"] = "{item:6916} eşyasına sağ tıkla",
+	-- {npc:6179} Tiza Battleforge · {object:32386} Hall of Mysteries (no name in this language: may be words) · {object:32362} Mystic Ward (no name in this language: may be words) · {quest:2997} Tome of Divinity · {item:2589} Linen Cloth
+	["{npc:6179} stands upstairs in the {object:32386}, in the {object:32362}: take the ramp at the back of the hall. She hands you the {quest:2997}: right-click it in your bags to start the next quest. If the book says the quest is already done, destroy it and ask {npc:6179} for a new copy. Bring 10 {item:2589} for the next step if you have it."] = "{npc:6179}, {object:32362} içindeki {object:32386} salonunun üst katında duruyor: salonun arkasındaki rampadan çık. Sana {quest:2997} kitabını verir: bir sonraki görevi başlatmak için çantanda ona sağ tıkla. Kitap görevin zaten yapıldığını söylerse onu yok et ve {npc:6179} adlı NPC'den yeni bir kopya iste. Sende varsa bir sonraki adım için 10 {item:2589} getir.",
+	-- {quest:2997} Tome of Divinity
+	["Right-click the {quest:2997}"] = "{quest:2997} kitabına sağ tıkla",
 
 	-- Step 15: John Turner
-	-- {npc:6175} John Turner · {item:2589} Linen Cloth · {npc:1245} Kogan Forgestone · {area:131} Kharanos
+	-- {npc:6175} John Turner · {item:2589} Linen Cloth · {zone:1432} Loch Modan
 	-- plural, as words: Dark Iron Ambushers = {npc:1981} Dark Iron Ambusher
-	["{npc:6175} walks the outer ring of the Commons, past the front gate, the bank and the Auction House. He wants 10 {item:2589}: humanoids drop it ({npc:1245} in {area:131} every time, Dark Iron Ambushers about two kills in five), or buy it at the Auction House on his ring."] = "{npc:6175}, Commons'ın dış halkasında, ön kapının, bankanın ve müzayede evinin önünden geçerek dolaşıyor. 10 {item:2589} istiyor: insansılar düşürür ({area:131} köyündeki {npc:1245} her seferinde, Dark Iron Ambusher yaratıkları yaklaşık beş öldürmede iki), ya da onun halkasındaki müzayede evinden al.",
+	["{npc:6175} walks the outer ring of the Commons, past the front gate, the bank and the Auction House. He wants 10 {item:2589}: humanoids drop it (in {zone:1432} the Dark Iron Ambushers, Tunnel Rat kobolds and Stonesplinter troggs about two kills in five), or buy it at the Auction House on his ring."] = "{npc:6175}, ön kapıyı, bankayı ve Müzayede Evi'ni geçerek Commons'ın dış halkasında yürüyor. 10 {item:2589} istiyor: humanoid'ler düşürür ({zone:1432} bölgesinde Dark Iron Ambusher yaratıkları, Tunnel Rat kobold'ları ve Stonesplinter trogg'ları yaklaşık beşte iki öldürmede), ya da onun halkasındaki Müzayede Evi'nden satın al.",
 
 	-- Step 16: The Symbol of Life
 	-- {object:32386} Hall of Mysteries (no name in this language: may be words) · {npc:6179} Tiza Battleforge · {item:6866} Symbol of Life · {npc:6178} Muiredon Battleforge · {npc:6177} Narm Faulk

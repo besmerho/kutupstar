@@ -27,12 +27,10 @@ return {
 	["{npc:266216} is inside {area:275}, the Syndicate fortress east of {area:271}. Stealth past the guards in the courtyard."] = "{npc:266216}, {area:271} doğusundaki Syndicate kalesi olan {area:275} içinde. Avludaki muhafızların yanından stealth ile geç.",
 
 	-- Step 4: Strahnbrad: Barton
-	-- {area:280} Strahnbrad
-	["{area:280}: Barton"] = "{area:280}: Barton",
-	-- {area:280} Strahnbrad
-	["Barton hides in a house in {area:280}, among stealthed Syndicate. Pick his pocket for the report; Distract turns him around if you are under his level."] = "Barton, {area:280} içinde, stealth'teki Syndicate'lerin arasında bir evde saklanıyor. Rapor için cebini kes; onun seviyesinin altındaysan Distract onu çevirir.",
-	-- {item:275482} Barton's Scouting Report
-	["{item:275482}: pickpocket Barton"] = "{item:275482}: Barton'un cebini kes",
+	-- {npc:266357} Barton · {area:280} Strahnbrad
+	["{npc:266357} hides in a house in {area:280}, among stealthed Syndicate. Pick his pocket for the report; Distract turns him around if you are under his level."] = "{npc:266357}, {area:280} içinde bir evde, gizli Syndicate'lerin arasında saklanıyor. Rapor için cebini kes; onun seviyesinin altındaysan Distract onu arkasını dönmeye zorlar.",
+	-- {item:275482} Barton's Scouting Report · {npc:266357} Barton
+	["{item:275482}: pickpocket {npc:266357}"] = "{item:275482}: {npc:266357} adlı NPC'nin cebini kes",
 
 	-- Step 5: Northfold Manor: a uniform
 	-- {area:313} Northfold Manor
