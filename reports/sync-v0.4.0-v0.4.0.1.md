@@ -1,0 +1,141 @@
+# Sync: Polestar v0.4.0 → v0.4.0.1
+
+2026-11-16. Written by `node tools/kutup.js pin v0.4.0.1`.
+
+## Interface
+
+- 4203/4325 translated; 0 new text(s), 0 gone.
+- **124 translation(s) lost** (their English changed or went away; kept at the end of src/Locales/trTR.lua):
+
+  - `Make bag room: delete the cheapest junk (press twice)`
+  - `Train`
+  - `Train at`
+  - `Hide the guide window`
+  - `Clears your manual check-offs and skipped steps for this guide.`
+  - `Click the minimap button or press %s to show it.`
+  - `Click the minimap button to show it.`
+  - `After the run: open this dungeon's page (/polestar dungeons %s) and choose Hand in the quests.`
+  - `Learn new spells`
+  - `Learns every spell a class trainer offers that you can afford, and prints the total. Profession trainers are left alone. Hold Shift to skip.`
+  - `Manual check-offs and skips, current guide.`
+  - `Your manual check-offs and skipped steps in %s are cleared. Quests you have done stay done.`
+  - `Your manual check-offs and skipped steps in the current guide are cleared. Quests you have done stay done.`
+  - `How near its spawn area must be for a suggestion to show. It goes again a little further out.`
+  - `What the window, its buttons and alerts do in dungeons, raids, battlegrounds and arenas. The minimap button, the key binding or /polestar opens it there until you leave.`
+  - `A small Polestar button you can put anywhere on the screen. Click to show or hide the guide, right-click for a menu, drag to move it. It hides with the window in combat and in dungeons when those are set to Hide.`
+  - `When %s comes into sight, a card says so and the rare button targets him and waves. At most once every half hour, never in combat or instances.`
+  - `A Polestar button on the edge of the minimap. Click to show or hide the guide, right-click for settings, drag to move it.`
+  - `%s has Polestar %s; you have %s. A newer version is out.`
+  - `Party sync is on: your party sees your quest progress (Options > Questing > Quests > Group to turn it off).`
+  - `Click: show or hide the guide`
+  - `Show window`
+  - `Show the welcome again`
+  - `%.1f km`
+  - `%.1fk yd`
+  - `You have %d g.`
+  - `Behind: %s (%d) at step %d, you're %s; grind ~%s first`
+  - `Behind by %s: step %d grinds to level %s (~%s)`
+  - `Behind by %s for level %s by step %d: grind ~%s before then`
+  - `On pace, but %s (%d) at step %d is hard: you're %s; grind ~%s first`
+  - `How deep the night runs. Dusk is the default, Night the darkest, Graphite a neutral grey; EllesmereUI takes its panel colour and accent.`
+  - `None for %s; switch the filter to All.`
+  - `All factions`
+  - `~%d min away`
+  - `Make it yours`
+  - `Every style keeps you out of the other faction's towns and away from zones far above your level.`
+  - `The background of every Polestar window. It changes as you pick.`
+  - `Skip keeps these as they are.`
+  - `How the arrow walks you. Change it any time in Options.`
+  - `A few choices to start with. Everything else is in %s.`
+  - `How the way to your goal shows on the world map and the minimap. The line is the easiest to follow; sparkles show as dots while Reduce motion is on.`
+  - `Adds a Train All button to the trainer window to learn all available skills.`
+  - `Auto-learn new spells`
+  - `Automatically learns every spell a class trainer offers that you can afford, and prints the total. Profession trainers are left alone. Hold Shift to skip.`
+  - `Learned %d spell for %s.`
+  - `Learned %d spells for %s.`
+  - `Not enough money for %d more (%s).`
+  - `Train %d skill for %s`
+  - `Train %d skills for %s`
+  - `Train All`
+  - `Train all button`
+  - `Appearance`
+  - `Points to the current goal. Its look and colours are under Appearance, Arrow.`
+  - `Colour & type`
+  - `Colours, type, window frames and the arrow. Everything repaints as you change it; right-click a setting to reset it.`
+  - `Accent colour`
+  - `Background opacity`
+  - `Type & motion`
+  - `Frame`
+  - `Border thickness`
+  - `Window scale`
+  - `Window opacity`
+  - `The whole guide window, text included. The background's own opacity is under Colour & type.`
+  - `Menus`
+  - `Arrow style`
+  - `Arrow scale`
+  - `Arrow opacity`
+  - `Colours`
+  - `Arrival colour`
+  - `The arrow as it closes on the target, and the ring when you arrive. Right-click to go back to jade.`
+  - `Rares & travel`
+  - `Tooltips and quest log`
+  - `Comparison`
+  - `History`
+  - `Instance limits`
+  - `Routes may start with a Teleport spell you know (a mage's city teleports, a druid's Moonglade) when it is faster. A city teleport needs a Rune of Teleportation in your bags.`
+  - `Polestar's own look (the default), Halo (no frame, a soft dark veil, Fira Sans), Hearth (warm game colours), or the game's own art: WoW Forever, Blizzard and Classic. Style, compact mode and the colours you pick work in each.`
+  - `Every Polestar setting goes back to its default. Your guides and progress are kept.`
+  - `Preview`
+  - `Collect Doom Weed`
+  - `Map icons`
+  - `A short chime the first time a class quest chain's card shows. Off while the game's sound effects are off.`
+  - `Minimap icon size`
+  - `Polestar's marks on the minimap; the world map keeps its own. A mark over your arrow fades so the arrow shows through it. Right-click to reset.`
+  - `Dungeons and battlegrounds`
+  - `Button in the game menu`
+  - `Keep the bar shown`
+  - `The Dungeons section is turned off. Turn it on under Options > Discovery > Dungeons.`
+  - `Hearthstone button`
+  - `Shows your Hearthstone while the guide says to hearth. Bindable.`
+  - `Button size`
+  - `Target name position`
+  - `Scale of the quest item, Hearthstone, target and rare buttons. Drag one to move them all.`
+  - `Loot and merchants`
+  - `The target button and the step key ping the mob they target, so your group sees it behind rocks and buildings. Never in a raid unless you lead or assist. The rare buttons always ping.`
+  - `Dungeons are turned off (Options > Discovery > Dungeons).`
+  - `Run back to your corpse: %s (~%s). The Spirit Healer costs %s of resurrection sickness.`
+  - `Run back to your corpse: %s (~%s).`
+  - `Level %d %.1f%%` → maybe `level %d`
+  - `The XP tracker is off (Options > Quality of Life > Trackers).`
+  - `Session: %s XP in %s (%s XP/h), %d kills, %d quests`
+  - `Level %d: %s, %d kills, %d quests%s`
+  - `Taking %s closes %s for good.`
+  - `When the route says to hearth or teleport, a button under the arrow casts it. Right-click the arrow to skip a leg.`
+  - `Off: the guide skips this group quest and keeps to the solo route. Until you choose, it asks when it gets there.`
+  - `When a level-up opens a dungeon's quests to this character, a card on the guide window says so, once per dungeon, with a button that picks up its quests in a new tab.`
+  - `Leveling guides take you through this dungeon where they have steps for it. Off: they keep to the solo route. More dungeons join this list as they are added to the guides' route.`
+  - `Sparkle`
+  - `How bright each sparkle and its glow are.`
+  - `How close together the sparkles sit, the same at any zoom.`
+  - `Flow toward goal`
+  - `Most sparkles shown`
+  - `Route line style`
+  - `Route colours tint each leg by how you travel it. Cyan, magenta and white stand apart from the minimap's yellow herb and ore dots and its gold quest marks. Right-click to reset.`
+  - `Line thickness`
+  - `How thick the solid line is on the world map; the minimap's follows its size. Right-click to reset.`
+  - `How strongly the route shows on the minimap, line, dots or sparkles; the world map keeps its own. Right-click to reset.`
+  - `The route's line, dots or sparkles on the minimap, each style its own size; the world map keeps its own. Right-click to reset.`
+  - `Characters is turned off. Turn it on under Options > Discovery > Characters.`
+  - `Run back to %s, your corpse is inside: %s (~%s).`
+  - `Dungeon heads-ups are off. Turn them back on under Options > Discovery > Dungeons.`
+  - `%s, %s or %s on map and minimap: set on the Welcome page or in Options.`
+  - `A level-up card lists what to train; %s learns it (thanks RikyZ90); %s updates your bars.`
+  - `%s ~%s · this guide doesn't go there`
+
+## Guides
+
+- 11790/11791 guide texts translated in 264 guide files.
+
+| Guide | New texts | Lost translations |
+|---|---|---|
+| `forever/horde/40-50/06-azshara` | 1 | 0 |

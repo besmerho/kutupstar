@@ -204,4 +204,8 @@ return {
 	-- {quest:3362} Thistleshrub Valley · {npc:7876} Tran'rek · {zone:1446} Tanaris · {area:976} Gadgetzan · {npc:11758} Andi Lynn
 	-- plural, as words: Gnarled Thistleshrubs = {npc:5490} Gnarled Thistleshrub
 	["West from the compound, on the way to Un'Goro's ramp: {quest:3362}'s Gnarled Thistleshrubs and Rootshapers (48-50) are {npc:7876}'s, carried from your first {zone:1446} visit. They wander a lot: pull them one at a time. {npc:7876} takes them on the next guide's {area:976} stop, with {npc:11758}'s."] = "Yerleşkeden batıya, Un'Goro rampasına giderken: {quest:3362} görevinin Gnarled Thistleshrub ve Rootshaper yaratıkları (48-50) ilk {zone:1446} ziyaretinden taşıdığın {npc:7876} görevi için. Çok dolaşırlar: tek tek çek. {npc:7876} onları {npc:11758} görevleriyle birlikte sonraki rehberin {area:976} durağında teslim alır.",
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["The {object:142071}"] = "{object:142071}",
 }

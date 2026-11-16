@@ -444,14 +444,14 @@ function pending(prefix, max) {
 	console.error(`pending: ${n} text(s)${n >= max ? ` (stopped at --max ${max})` : ''}`);
 }
 
-// latest: Polestar's newest release on GitHub (tags vX.Y.Z; test tags such as v0.2.5-test.1 are left
+// latest: Polestar's newest release on GitHub (tags vX.Y.Z, and hotfix tags vX.Y.Z.W; test tags such as v0.2.5-test.1 are left
 // out) against the pinned one and the one installed in the game. The last line is for scripts:
 // "update: yes <tag>" or "update: no".
 function latest() {
 	const out = execFileSync('git', ['ls-remote', '--tags', '--refs', UPSTREAM_URL], { encoding: 'utf8' });
-	const tags = [...out.matchAll(/refs\/tags\/(v(\d+)\.(\d+)\.(\d+))$/gm)]
-		.map((m) => ({ tag: m[1], v: [Number(m[2]), Number(m[3]), Number(m[4])] }))
-		.sort((a, b) => a.v[0] - b.v[0] || a.v[1] - b.v[1] || a.v[2] - b.v[2]);
+	const tags = [...out.matchAll(/refs\/tags\/(v(\d+)\.(\d+)\.(\d+)(?:\.(\d+))?)\r?$/gm)]
+		.map((m) => ({ tag: m[1], v: [Number(m[2]), Number(m[3]), Number(m[4]), Number(m[5] || 0)] }))
+		.sort((a, b) => a.v[0] - b.v[0] || a.v[1] - b.v[1] || a.v[2] - b.v[2] || a.v[3] - b.v[3]);
 	if (!tags.length) { console.log('latest: no release tags found'); process.exit(1); }
 	const newest = tags[tags.length - 1].tag;
 	const installedToc = path.join(ADDONS, 'Polestar', 'Polestar.toc');
