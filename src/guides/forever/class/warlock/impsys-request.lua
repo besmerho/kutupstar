@@ -40,7 +40,7 @@ return {
 	["{item:20613} and Bloodvenom"] = "{item:20613} ve Bloodvenom",
 	-- {area:1767} Irontree Woods · {zone:1448} Felwood · {area:1998} Talonbranch Glade · {item:20613} Rotting Wood · {npc:7149} Withered Protector · {npc:14470} Impsy
 	-- plural, as words: Tainted Oozes = {npc:7092} Tainted Ooze
-	["The Irontree treants (level 52) of {area:1767}, in northern {zone:1448} west of {area:1998}, drop {item:20613} one time in four; the big {npc:7149} (55) often drops three at once but hits hard and dazes. The Tainted Oozes (51) around {npc:14470} and along the Bloodvenom drop the essence one time in five."] = "Kuzey {zone:1448} bölgesinde, {area:1998} vadisinin batısındaki {area:1767} ormanının Irontree treant'ları (seviye 52) dörtte bir {item:20613} düşürür; büyük {npc:7149} (55) çoğu zaman birden üç tane düşürür ama sert vurur ve sersemletir. {npc:14470} yerinin çevresindeki ve Bloodvenom boyunca dolaşan Tainted Ooze yaratıkları (51) beşte bir öz düşürür.",
+	["The Irontree treants (level 52) of {area:1767}, in northern {zone:1448} west of {area:1998}, drop {item:20613} one time in four; the big {npc:7149} (55) often drops three at once but hits hard and dazes. The Tainted Oozes (51) around {npc:14470} and along the Bloodvenom drop the essence one time in five."] = "Kuzey {zone:1448} bölgesinde, {area:1998} vadisinin batısındaki {area:1767} ormanının Irontree treant'ları (seviye 52) dörtte bir {item:20613} düşürür; büyük {npc:7149} (55) çoğu zaman birden üç tane düşürür ama sert vurur ve sersemletir. {npc:14470} adlı NPC'nin çevresindeki ve Bloodvenom boyunca dolaşan Tainted Ooze yaratıkları (51) beşte bir öz düşürür.",
 
 	-- Step 9: Impsy again
 	-- {npc:14470} Impsy

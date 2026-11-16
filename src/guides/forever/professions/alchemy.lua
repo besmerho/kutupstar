@@ -18,9 +18,9 @@ return {
 
 	-- Step 3: Alchemy 1-75: Auction House
 	-- {skill:171} Alchemy
-	["{skill:171} 1-75: Auction House"] = "{skill:171} 1-75: Müzayede Evi",
+	["{skill:171} 1-75: Auction House"] = "{skill:171} 1-75: müzayede evi",
 	-- {item:765} Silverleaf · {item:2447} Peacebloom
-	["What 1-75 takes that the Auction House sells: 82 {item:765} and 110 {item:2447}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden Müzayede Evi'nin sattıkları: 82 {item:765} ve 110 {item:2447}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 1-75 takes that the Auction House sells: 82 {item:765} and 110 {item:2447}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden müzayede evinin sattıkları: 82 {item:765} ve 110 {item:2447}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 4: Silverleaf (Elwynn Forest)
 	-- {item:765} Silverleaf · {item:5997} Elixir of Minor Defense · {skill:182} Herbalism · {zone:1429} Elwynn Forest
@@ -98,9 +98,9 @@ return {
 
 	-- Step 21: Alchemy 75-150: Auction House
 	-- {skill:171} Alchemy
-	["{skill:171} 75-150: Auction House"] = "{skill:171} 75-150: Müzayede Evi",
+	["{skill:171} 75-150: Auction House"] = "{skill:171} 75-150: müzayede evi",
 	-- {item:785} Mageroyal · {item:2450} Briarthorn · {item:2453} Bruiseweed
-	["What 75-150 takes that the Auction House sells: 77 {item:785}, 152 {item:2450} and 54 {item:2453}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden Müzayede Evi'nin sattıkları: 77 {item:785}, 152 {item:2450} ve 54 {item:2453}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 75-150 takes that the Auction House sells: 77 {item:785}, 152 {item:2450} and 54 {item:2453}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden müzayede evinin sattıkları: 77 {item:785}, 152 {item:2450} ve 54 {item:2453}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 22: Mageroyal (Westfall)
 	-- {item:785} Mageroyal · {spell:2331} Minor Mana Potion · {spell:3171} Elixir of Wisdom · {skill:182} Herbalism · {zone:1436} Westfall
@@ -204,9 +204,9 @@ return {
 
 	-- Step 44: Alchemy 150-225: Auction House
 	-- {skill:171} Alchemy
-	["{skill:171} 150-225: Auction House"] = "{skill:171} 150-225: Müzayede Evi",
+	["{skill:171} 150-225: Auction House"] = "{skill:171} 150-225: müzayede evi",
 	-- {item:3355} Wild Steelbloom · {item:3356} Kingsblood · {item:3820} Stranglekelp · {item:3821} Goldthorn
-	["What 150-225 takes that the Auction House sells: 40 {item:3355}, 39 {item:3356}, 39 {item:3820} and 40 {item:3821}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden Müzayede Evi'nin sattıkları: 40 {item:3355}, 39 {item:3356}, 39 {item:3820} ve 40 {item:3821}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 150-225 takes that the Auction House sells: 40 {item:3355}, 39 {item:3356}, 39 {item:3820} and 40 {item:3821}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden müzayede evinin sattıkları: 40 {item:3355}, 39 {item:3356}, 39 {item:3820} ve 40 {item:3821}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 45: Wild Steelbloom (Alliance)
 	-- {object:1623} Wild Steelbloom
@@ -304,9 +304,9 @@ return {
 
 	-- Step 61: Alchemy 225-300: Auction House
 	-- {skill:171} Alchemy
-	["{skill:171} 225-300: Auction House"] = "{skill:171} 225-300: Müzayede Evi",
+	["{skill:171} 225-300: Auction House"] = "{skill:171} 225-300: müzayede evi",
 	-- {item:8836} Arthas' Tears · {item:8838} Sungrass · {item:13422} Stonescale Eel
-	["What 225-300 takes that the Auction House sells: 43 {item:8836}, 43 {item:8838} and 43 {item:13422}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden Müzayede Evi'nin sattıkları: 43 {item:8836}, 43 {item:8838} ve 43 {item:13422}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 225-300 takes that the Auction House sells: 43 {item:8836}, 43 {item:8838} and 43 {item:13422}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden müzayede evinin sattıkları: 43 {item:8836}, 43 {item:8838} ve 43 {item:13422}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 62: Arthas' Tears (Alliance)
 	-- {item:8836} Arthas' Tears

@@ -97,7 +97,7 @@ return {
 	-- Step 19: Grimtotem camp
 	-- {area:489} Thalanaar · {npc:7956} Kindal Moonweaver
 	-- plural, as words: Sprite Darters = {npc:5278} Sprite Darter
-	["From {area:489} ride west along the road to the Grimtotem camp north of it. {npc:7956} waits outside it; free the Sprite Darters from the pen in the middle and keep {npc:7956} and at least six of them alive."] = "{area:489} kesiminden yol boyunca batıya, onun kuzeyindeki Grimtotem kampına sür. {npc:7956} kampın dışında bekliyor; ortadaki ağıldan Sprite Darter'ları serbest bırak ve {npc:7956} ile en az altısını hayatta tut.",
+	["From {area:489} ride west along the road to the Grimtotem camp north of it. {npc:7956} waits outside it; free the Sprite Darters from the pen in the middle and keep {npc:7956} and at least six of them alive."] = "{area:489} kesiminden yol boyunca batıya, yolun kuzeyindeki Grimtotem kampına sür. {npc:7956} kampın dışında bekliyor; ortadaki ağıldan Sprite Darter'ları serbest bırak ve {npc:7956} ile en az altısını hayatta tut.",
 
 	-- Step 20: Grimtotem tauren
 	["Grimtotem tauren"] = "Grimtotem taurenleri",

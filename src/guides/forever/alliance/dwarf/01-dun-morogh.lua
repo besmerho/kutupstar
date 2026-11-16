@@ -240,7 +240,7 @@ return {
 
 	-- Step 38: Brewnall Village
 	-- {area:137} Brewnall Village · {area:131} Kharanos · {npc:8508} Gretta Ganter · {npc:1374} Rejold Barleybrew · {npc:1375} Marleth Barleybrew
-	["{area:137} sits on the lake west of {area:131}. {npc:8508}'s dock is the first stop; {npc:1374} and {npc:1375} are in the village beyond it."] = "{area:137} köyü, {area:131} köyünün batısında, göl kıyısında. İlk durak {npc:8508} iskelesi; {npc:1374} ve {npc:1375} onun ötesindeki köyde.",
+	["{area:137} sits on the lake west of {area:131}. {npc:8508}'s dock is the first stop; {npc:1374} and {npc:1375} are in the village beyond it."] = "{area:137} köyü, {area:131} köyünün batısında, göl kıyısında. İlk durak {npc:8508} iskelesi; {npc:1374} ve {npc:1375} iskelenin ötesindeki köyde.",
 	-- {npc:8508} Gretta Ganter
 	["{npc:8508}, on the dock"] = "{npc:8508}, iskelede",
 
@@ -570,7 +570,7 @@ return {
 	-- {area:2257} Deeprun Tram
 	["The {area:2257}"] = "{area:2257} treni",
 	-- {object:171524} Tinker Town · {area:2257} Deeprun Tram · {zone:1453} Stormwind
-	["East back into {object:171524}: the {area:2257} leaves from its east end. Ride it to {zone:1453}."] = "Doğuya, yeniden {object:171524} semtine git: {area:2257} treni onun doğu ucundan kalkıyor. Onunla {zone:1453} şehrine git.",
+	["East back into {object:171524}: the {area:2257} leaves from its east end. Ride it to {zone:1453}."] = "Doğuya, yeniden {object:171524} semtine git: {area:2257} treni semtin doğu ucundan kalkıyor. Onunla {zone:1453} şehrine git.",
 
 	-- Step 109: Tram to Stormwind
 	-- {zone:1453} Stormwind
@@ -613,7 +613,7 @@ return {
 
 	-- Step 116: Defensive Stance
 	-- {npc:5480} Ilsa Corbin · {object:2100} Old Town · {zone:1455} Ironforge · {object:28027} Dwarven District · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern · {quest:1638} A Warrior's Training · {quest:1639} Bartleby the Drunk
-	["{npc:5480} trains warriors in {object:2100}, near Osric's shop; the tram from {zone:1455} arrives in the {object:28027}, north of it. {npc:6089} and {npc:6090} stand together by the {object:2152} there. {npc:6090} fights you for his mug. If {npc:5480} doesn't offer {quest:1638}, go straight to {npc:6089}: he gives {quest:1639} without it."] = "{npc:5480}, {object:2100} semtinde, Osric'in dükkânının yakınında Warrior eğitiyor; {zone:1455} şehrinden gelen tren onun kuzeyindeki {object:28027} semtine varıyor. {npc:6089} ve {npc:6090} oradaki {object:2152} meyhanesinin yanında birlikte duruyor. {npc:6090} kupası için seninle dövüşür. {npc:5480} sana {quest:1638} görevini vermezse doğrudan {npc:6089} ile konuş: o, {quest:1639} görevini onsuz da verir.",
+	["{npc:5480} trains warriors in {object:2100}, near Osric's shop; the tram from {zone:1455} arrives in the {object:28027}, north of it. {npc:6089} and {npc:6090} stand together by the {object:2152} there. {npc:6090} fights you for his mug. If {npc:5480} doesn't offer {quest:1638}, go straight to {npc:6089}: he gives {quest:1639} without it."] = "{npc:5480}, {object:2100} semtinde, Osric'in dükkânının yakınında Warrior eğitiyor; {zone:1455} şehrinden gelen tren, semtin kuzeyindeki {object:28027} semtine varıyor. {npc:6089} ve {npc:6090} oradaki {object:2152} meyhanesinin yanında birlikte duruyor. {npc:6090} kupası için seninle dövüşür. {npc:5480} sana {quest:1638} görevini vermezse doğrudan {npc:6089} ile konuş: o, {quest:1639} görevini onsuz da verir.",
 
 	-- Step 117: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District

@@ -267,7 +267,7 @@ return {
 	["The road to {area:16638}"] = "{area:16638} yolu",
 	-- {npc:257006} Nyalah Brightfire · {npc:252448} Alvarion Windfield · {area:16638} Valanaar · {npc:252377} Seena Skybreaker · {npc:252389} Quel'ana Quickgale
 	-- plural, as words: Windsong Crawlers = {npc:254588} Windsong Crawler
-	["{npc:257006} and {npc:252448} stand on {area:16638}'s west side, beside the inn; {npc:252377} and {npc:252389} train just west of {npc:257006}. Windsong Crawlers line the shore further west, around 51,70."] = "{npc:257006} ve {npc:252448}, {area:16638} kasabasının batı yakasında, hanın yanında duruyor; {npc:252377} ve {npc:252389}, {npc:257006} yerinin hemen batısında eğitim veriyor. Windsong Crawler yaratıkları daha batıda, 51,70 civarında kıyı boyunca diziliyor.",
+	["{npc:257006} and {npc:252448} stand on {area:16638}'s west side, beside the inn; {npc:252377} and {npc:252389} train just west of {npc:257006}. Windsong Crawlers line the shore further west, around 51,70."] = "{npc:257006} ve {npc:252448}, {area:16638} kasabasının batı yakasında, hanın yanında duruyor; {npc:252377} ve {npc:252389}, {npc:257006} adlı NPC'nin hemen batısında eğitim veriyor. Windsong Crawler yaratıkları daha batıda, 51,70 civarında kıyı boyunca diziliyor.",
 	-- {npc:252377} Seena Skybreaker · {npc:257006} Nyalah Brightfire · {npc:257196} Zaal Stormshield · {area:16629} Shrine of Akir
 	["{npc:252377}, beside {npc:257006}: {npc:257196} holds the Bulwark at the {area:16629}"] = "{npc:252377}, {npc:257006} yanında: {npc:257196}, {area:16629} tapınağında Bulwark'ı elinde tutuyor",
 	-- {npc:252389} Quel'ana Quickgale · {npc:257006} Nyalah Brightfire · {item:15908} Taming Rod

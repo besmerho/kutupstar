@@ -117,7 +117,7 @@ return {
 	-- Step 23: Naga Explorers
 	-- plural, as words: Naga Explorers = {npc:1907} Naga Explorer
 	["Naga Explorers"] = "Naga Explorer yaratıkları",
-	["Leave town by the tunnel and ride north along the coast past the Bloodsail camp: the naga comb the beaches beyond it and drop the reeds."] = "Kasabadan tünelden çık ve kıyı boyunca kuzeye, Bloodsail kampını geçerek sür: nagalar onun ötesindeki kumsalları tarıyor ve sazları düşürüyor.",
+	["Leave town by the tunnel and ride north along the coast past the Bloodsail camp: the naga comb the beaches beyond it and drop the reeds."] = "Kasabadan tünelden çık ve kıyı boyunca kuzeye, Bloodsail kampını geçerek sür: nagalar kampın ötesindeki kumsalları tarıyor ve sazları düşürüyor.",
 
 	-- Step 24: Zanzil's village
 	["Zanzil's village"] = "Zanzil'in köyü",

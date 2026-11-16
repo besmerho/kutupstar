@@ -12,9 +12,9 @@ return {
 
 	-- Step 2: Blacksmithing 1-75: Auction House
 	-- {skill:164} Blacksmithing
-	["{skill:164} 1-75: Auction House"] = "{skill:164} 1-75: Müzayede Evi",
+	["{skill:164} 1-75: Auction House"] = "{skill:164} 1-75: müzayede evi",
 	-- {item:2835} Rough Stone
-	["What 1-75 takes that the Auction House sells: 286 {item:2835}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden Müzayede Evi'nin sattıkları: 286 {item:2835}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 1-75 takes that the Auction House sells: 286 {item:2835}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden müzayede evinin sattıkları: 286 {item:2835}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 3: Rough Stone (Elwynn Forest)
 	-- {item:2835} Rough Stone · {spell:2660} Rough Sharpening Stone · {spell:3320} Rough Grinding Stone · {skill:186} Mining · {object:1731} Copper Vein · {zone:1429} Elwynn Forest
@@ -77,9 +77,9 @@ return {
 
 	-- Step 15: Blacksmithing 75-150: Auction House
 	-- {skill:164} Blacksmithing
-	["{skill:164} 75-150: Auction House"] = "{skill:164} 75-150: Müzayede Evi",
+	["{skill:164} 75-150: Auction House"] = "{skill:164} 75-150: müzayede evi",
 	-- {item:2836} Coarse Stone · {item:2838} Heavy Stone · {item:2840} Copper Bar · {item:2841} Bronze Bar
-	["What 75-150 takes that the Auction House sells: 256 {item:2836}, 28 {item:2838}, 210 {item:2840} and 320 {item:2841}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden Müzayede Evi'nin sattıkları: 256 {item:2836}, 28 {item:2838}, 210 {item:2840} ve 320 {item:2841}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 75-150 takes that the Auction House sells: 256 {item:2836}, 28 {item:2838}, 210 {item:2840} and 320 {item:2841}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden müzayede evinin sattıkları: 256 {item:2836}, 28 {item:2838}, 210 {item:2840} ve 320 {item:2841}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 16: Coarse Stone (Westfall)
 	-- {item:2836} Coarse Stone · {spell:2672} Patterned Bronze Bracers · {skill:186} Mining · {object:1732} Tin Vein · {zone:1436} Westfall
@@ -174,9 +174,9 @@ return {
 
 	-- Step 35: Blacksmithing 150-225: Auction House
 	-- {skill:164} Blacksmithing
-	["{skill:164} 150-225: Auction House"] = "{skill:164} 150-225: Müzayede Evi",
+	["{skill:164} 150-225: Auction House"] = "{skill:164} 150-225: müzayede evi",
 	-- {item:2838} Heavy Stone · {item:3575} Iron Bar · {item:3859} Steel Bar · {item:3860} Mithril Bar · {item:7912} Solid Stone
-	["What 150-225 takes that the Auction House sells: 234 {item:2838}, 168 {item:3575}, 195 {item:3859}, 320 {item:3860} and 30 {item:7912}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden Müzayede Evi'nin sattıkları: 234 {item:2838}, 168 {item:3575}, 195 {item:3859}, 320 {item:3860} ve 30 {item:7912}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 150-225 takes that the Auction House sells: 234 {item:2838}, 168 {item:3575}, 195 {item:3859}, 320 {item:3860} and 30 {item:7912}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden müzayede evinin sattıkları: 234 {item:2838}, 168 {item:3575}, 195 {item:3859}, 320 {item:3860} ve 30 {item:7912}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 36: Heavy Stone (Alliance)
 	-- {item:2838} Heavy Stone
@@ -276,9 +276,9 @@ return {
 
 	-- Step 53: Blacksmithing 225-300: Auction House
 	-- {skill:164} Blacksmithing
-	["{skill:164} 225-300: Auction House"] = "{skill:164} 225-300: Müzayede Evi",
+	["{skill:164} 225-300: Auction House"] = "{skill:164} 225-300: müzayede evi",
 	-- {item:1210} Shadowgem · {item:3860} Mithril Bar · {item:4304} Thick Leather · {item:7909} Aquamarine · {item:7910} Star Ruby · {item:7912} Solid Stone · {item:7971} Black Pearl · {item:8170} Rugged Leather · {item:12359} Thorium Bar · {item:12365} Dense Stone · {item:12799} Large Opal
-	["What 225-300 takes that the Auction House sells: 44 {item:1210}, 596 {item:3860}, 142 {item:4304}, 19 {item:7909}, 19 {item:7910}, 44 {item:7912}, 11 {item:7971}, 206 {item:8170}, 2026 {item:12359}, 801 {item:12365} and 10 {item:12799}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden Müzayede Evi'nin sattıkları: 44 {item:1210}, 596 {item:3860}, 142 {item:4304}, 19 {item:7909}, 19 {item:7910}, 44 {item:7912}, 11 {item:7971}, 206 {item:8170}, 2026 {item:12359}, 801 {item:12365} ve 10 {item:12799}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 225-300 takes that the Auction House sells: 44 {item:1210}, 596 {item:3860}, 142 {item:4304}, 19 {item:7909}, 19 {item:7910}, 44 {item:7912}, 11 {item:7971}, 206 {item:8170}, 2026 {item:12359}, 801 {item:12365} and 10 {item:12799}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden müzayede evinin sattıkları: 44 {item:1210}, 596 {item:3860}, 142 {item:4304}, 19 {item:7909}, 19 {item:7910}, 44 {item:7912}, 11 {item:7971}, 206 {item:8170}, 2026 {item:12359}, 801 {item:12365} ve 10 {item:12799}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 54: Shadowgem
 	-- {item:1210} Shadowgem · {item:7945} Big Black Mace · {object:1731} Copper Vein · {object:1732} Tin Vein · {object:1733} Silver Vein
@@ -359,20 +359,20 @@ return {
 	["{item:7933} to 247"] = "{item:7933}: 247 puana kadar",
 	-- {item:7933} Heavy Mithril Boots · {item:3860} Mithril Bar · {item:4304} Thick Leather
 	-- plural, as words: Mithril Bars = {item:3860} Mithril Bar · Mithril Deposits = {object:2040} Mithril Deposit
-	["{item:7933} is yellow at 235 (yellow 230, green 240, grey 250): about 30 crafts to 247. Each takes 14 {item:3860} and 4 {item:4304}. Mithril Bars from Mithril Deposits; {item:4304} from skinners or the Auction House. Needs an anvil nearby."] = "{item:7933}: 235 puanda sarı (sarı 230, yeşil 240, gri 250): 247 puana kadar yaklaşık 30 üretim. Her biri 14 {item:3860} ve 4 {item:4304} ister. Mithril Bar'lar Mithril Deposit damarlarından; {item:4304} derici oyunculardan ya da Müzayede Evi'nden. Yakında bir örs gerekir.",
+	["{item:7933} is yellow at 235 (yellow 230, green 240, grey 250): about 30 crafts to 247. Each takes 14 {item:3860} and 4 {item:4304}. Mithril Bars from Mithril Deposits; {item:4304} from skinners or the Auction House. Needs an anvil nearby."] = "{item:7933}: 235 puanda sarı (sarı 230, yeşil 240, gri 250): 247 puana kadar yaklaşık 30 üretim. Her biri 14 {item:3860} ve 4 {item:4304} ister. Mithril Bar'lar Mithril Deposit damarlarından; {item:4304} derici oyunculardan ya da müzayede evinden. Yakında bir örs gerekir.",
 
 	-- Step 70: Big Black Mace to 250
 	-- {item:7945} Big Black Mace
 	["{item:7945} to 250"] = "{item:7945}: 250 puana kadar",
 	-- {item:7945} Big Black Mace · {item:3860} Mithril Bar · {item:7971} Black Pearl · {item:1210} Shadowgem · {item:7966} Solid Grinding Stone · {item:4304} Thick Leather · {object:1732} Tin Vein
 	-- plural, as words: Shadowgems = {item:1210} Shadowgem
-	["{item:7945} is green at 247 (yellow 230, green 242, grey 255): about 11 crafts to 250. Each takes 16 {item:3860}, 1 {item:7971}, 4 {item:1210}, 1 {item:7966} and 2 {item:4304}. Make the 11 {item:7966} first. Only about 11 crafts to bridge 247-250, but each wants four Shadowgems (about one {object:1732} in a hundred) and a {item:7971}: buy those at the Auction House unless your bags already hold them. Needs an anvil nearby. {item:7971} (11 for 225-300): {item:7971} is a rare drop (no mob gives it one time in 50): buy it at the Auction House, or keep the ones you find."] = "{item:7945}: 247 puanda yeşil (sarı 230, yeşil 242, gri 255): 250 puana kadar yaklaşık 11 üretim. Her biri 16 {item:3860}, 1 {item:7971}, 4 {item:1210}, 1 {item:7966} ve 2 {item:4304} ister. Önce 11 {item:7966} yap. 247-250 arasını kapatmak için yalnızca yaklaşık 11 üretim, ama her biri dört Shadowgem (yaklaşık yüz {object:1732} damarında bir) ve bir {item:7971} ister: çantanda zaten yoksa bunları Müzayede Evi'nden al. Yakında bir örs gerekir. {item:7971} (225-300 için 11): {item:7971} nadir bir düşüş (hiçbir yaratık 50'de bir bile vermez): Müzayede Evi'nden al ya da bulduklarını sakla.",
+	["{item:7945} is green at 247 (yellow 230, green 242, grey 255): about 11 crafts to 250. Each takes 16 {item:3860}, 1 {item:7971}, 4 {item:1210}, 1 {item:7966} and 2 {item:4304}. Make the 11 {item:7966} first. Only about 11 crafts to bridge 247-250, but each wants four Shadowgems (about one {object:1732} in a hundred) and a {item:7971}: buy those at the Auction House unless your bags already hold them. Needs an anvil nearby. {item:7971} (11 for 225-300): {item:7971} is a rare drop (no mob gives it one time in 50): buy it at the Auction House, or keep the ones you find."] = "{item:7945}: 247 puanda yeşil (sarı 230, yeşil 242, gri 255): 250 puana kadar yaklaşık 11 üretim. Her biri 16 {item:3860}, 1 {item:7971}, 4 {item:1210}, 1 {item:7966} ve 2 {item:4304} ister. Önce 11 {item:7966} yap. 247-250 arasını kapatmak için yalnızca yaklaşık 11 üretim, ama her biri dört Shadowgem (yaklaşık yüz {object:1732} damarında bir) ve bir {item:7971} ister: çantanda zaten yoksa bunları müzayede evinden al. Yakında bir örs gerekir. {item:7971} (225-300 için 11): {item:7971} nadir bir düşüş (hiçbir yaratık 50'de bir bile vermez): müzayede evinden al ya da bulduklarını sakla.",
 
 	-- Step 71: Ornate Thorium Handaxe to 255
 	-- {item:12773} Ornate Thorium Handaxe
 	["{item:12773} to 255"] = "{item:12773}: 255 puana kadar",
 	-- {item:12773} Ornate Thorium Handaxe · {item:12359} Thorium Bar · {item:12799} Large Opal · {item:12644} Dense Grinding Stone · {item:8170} Rugged Leather
-	["{item:12773} is orange at 250 (yellow 275, green 287, grey 300): about 5 crafts to 255, a point every craft. Each takes 20 {item:12359}, 2 {item:12799}, 2 {item:12644} and 4 {item:8170}. Make the 10 {item:12644} first. {item:12799} turns up in about one Thorium vein in 130: buy the ten at the Auction House. Five crafts only, until the battleaxe plans can be used at 255. Needs an anvil nearby."] = "{item:12773}: 250 puanda turuncu (sarı 275, yeşil 287, gri 300): 255 puana kadar yaklaşık 5 üretim, her üretim bir puan. Her biri 20 {item:12359}, 2 {item:12799}, 2 {item:12644} ve 4 {item:8170} ister. Önce 10 {item:12644} yap. {item:12799} yaklaşık her 130 Thorium damarından birinde çıkar: on tanesini Müzayede Evi'nden al. Savaş baltası planları 255'te kullanılabilene kadar yalnızca beş üretim. Yakında bir örs gerekir.",
+	["{item:12773} is orange at 250 (yellow 275, green 287, grey 300): about 5 crafts to 255, a point every craft. Each takes 20 {item:12359}, 2 {item:12799}, 2 {item:12644} and 4 {item:8170}. Make the 10 {item:12644} first. {item:12799} turns up in about one Thorium vein in 130: buy the ten at the Auction House. Five crafts only, until the battleaxe plans can be used at 255. Needs an anvil nearby."] = "{item:12773}: 250 puanda turuncu (sarı 275, yeşil 287, gri 300): 255 puana kadar yaklaşık 5 üretim, her üretim bir puan. Her biri 20 {item:12359}, 2 {item:12799}, 2 {item:12644} ve 4 {item:8170} ister. Önce 10 {item:12644} yap. {item:12799} yaklaşık her 130 Thorium damarından birinde çıkar: on tanesini müzayede evinden al. Savaş baltası planları 255'te kullanılabilene kadar yalnızca beş üretim. Yakında bir örs gerekir.",
 	["from the recipe in your bags"] = "çantandaki tariften",
 
 	-- Step 72: Huge Thorium Battleaxe to 285

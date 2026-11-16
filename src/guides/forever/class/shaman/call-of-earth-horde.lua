@@ -85,7 +85,7 @@ return {
 
 	-- Step 14: Signet of Akir
 	-- {item:251924} Signet of Akir · {npc:252095} Hanaa Nightwind
-	["Any Al'Aketh cultist can carry the {item:251924}: the Converts (level 2-3) around the standing stones just east of the village, or the Brutes and Neophytes (level 4) in the camp beyond {npc:252095}, south-west of the village. Keep killing until one drops it."] = "Her Al'Aketh tarikatçısı {item:251924} taşıyabilir: köyün hemen doğusundaki dikilitaşların çevresindeki Convert'ler (seviye 2-3) ya da köyün güneybatısında, {npc:252095} yerinin ötesindeki kamptaki Brute ve Neophyte'lar (seviye 4). Biri düşürene kadar öldürmeyi sürdür.",
+	["Any Al'Aketh cultist can carry the {item:251924}: the Converts (level 2-3) around the standing stones just east of the village, or the Brutes and Neophytes (level 4) in the camp beyond {npc:252095}, south-west of the village. Keep killing until one drops it."] = "Her Al'Aketh tarikatçısı {item:251924} taşıyabilir: köyün hemen doğusundaki dikilitaşların çevresindeki Convert'ler (seviye 2-3) ya da köyün güneybatısında, {npc:252095} adlı NPC'nin ötesindeki kamptaki Brute ve Neophyte'lar (seviye 4). Biri düşürene kadar öldürmeyi sürdür.",
 
 	-- Step 15: Windshaper Boro
 	-- {area:16635} Thendal Village · {quest:1462} Earth Sapta

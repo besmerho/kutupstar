@@ -17,9 +17,9 @@ return {
 
 	-- Step 3: Tailoring 1-75: Auction House
 	-- {skill:197} Tailoring
-	["{skill:197} 1-75: Auction House"] = "{skill:197} 1-75: Müzayede Evi",
+	["{skill:197} 1-75: Auction House"] = "{skill:197} 1-75: müzayede evi",
 	-- {item:2589} Linen Cloth
-	["What 1-75 takes that the Auction House sells: 144 {item:2589}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden Müzayede Evi'nin sattıkları: 144 {item:2589}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 1-75 takes that the Auction House sells: 144 {item:2589}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden müzayede evinin sattıkları: 144 {item:2589}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 4: Linen Cloth
 	-- {item:2589} Linen Cloth · {spell:2387} Linen Cloak · {item:7026} Linen Belt
@@ -57,9 +57,9 @@ return {
 
 	-- Step 10: Tailoring 75-150: Auction House
 	-- {skill:197} Tailoring
-	["{skill:197} 75-150: Auction House"] = "{skill:197} 75-150: Müzayede Evi",
+	["{skill:197} 75-150: Auction House"] = "{skill:197} 75-150: müzayede evi",
 	-- {item:2592} Wool Cloth · {item:4306} Silk Cloth
-	["What 75-150 takes that the Auction House sells: 567 {item:2592} and 204 {item:4306}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden Müzayede Evi'nin sattıkları: 567 {item:2592} ve 204 {item:4306}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 75-150 takes that the Auction House sells: 567 {item:2592} and 204 {item:4306}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden müzayede evinin sattıkları: 567 {item:2592} ve 204 {item:4306}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 11: Wool Cloth
 	-- {item:2592} Wool Cloth · {spell:2402} Woolen Cape · {spell:3866} Stylish Red Shirt
@@ -111,9 +111,9 @@ return {
 
 	-- Step 20: Tailoring 150-225: Auction House
 	-- {skill:197} Tailoring
-	["{skill:197} 150-225: Auction House"] = "{skill:197} 150-225: Müzayede Evi",
+	["{skill:197} 150-225: Auction House"] = "{skill:197} 150-225: müzayede evi",
 	-- {item:4306} Silk Cloth · {item:4338} Mageweave Cloth
-	["What 150-225 takes that the Auction House sells: 264 {item:4306} and 900 {item:4338}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden Müzayede Evi'nin sattıkları: 264 {item:4306} ve 900 {item:4338}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 150-225 takes that the Auction House sells: 264 {item:4306} and 900 {item:4338}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden müzayede evinin sattıkları: 264 {item:4306} ve 900 {item:4338}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 21: Silk Cloth
 	-- {item:4306} Silk Cloth · {item:7053} Azure Silk Cloak
@@ -127,7 +127,7 @@ return {
 	-- {skill:197} Tailoring
 	["Expert {skill:197}"] = "Expert {skill:197}",
 	-- {skill:197} Tailoring · {npc:1346} Georgio Bolero · {zone:1453} Stormwind City · {npc:4576} Josef Gregorian · {zone:1458} Undercity · {spell:3865} Bolt of Mageweave · {item:4306} Silk Cloth · {item:4338} Mageweave Cloth · {item:9998} Black Mageweave Vest · {item:10024} Black Mageweave Headband
-	["Expert raises the cap from 150 to 225; it needs {skill:197} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:1346} ({zone:1453}); Horde {npc:4576} ({zone:1458}). The arrow picks the nearest of your faction. Learn now: {spell:3865} (from 140). 150-225 takes about 15s of recipes and 21g 16s of vendor goods, plus 264 {item:4306} and 900 {item:4338} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {item:9998} (from 170), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 2. {item:10024} (from 190) takes a second trip, to other trainers (below)."] = "Expert sınırı 150'den 225'e çıkarır; {skill:197} 125 ve 20. karakter seviyesi ister, yani 125'ten itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:1346} ({zone:1453}); Horde {npc:4576} ({zone:1458}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:3865} (140'tan itibaren). 150-225 yaklaşık 15s tarif ve 21g 16s satıcı malı, ayrıca toplanacak ya da satın alınacak 264 {item:4306} ve 900 {item:4338} ister. Hepsi çantanda gel (yukarıdaki adımlar, kalanı Müzayede Evi'nden): bu eğitmenler {item:9998} (170'ten itibaren) tarifini de öğretir, üretimler de istasyon istemez, yani tam burada üret ve her tarifi becerisine ulaştıkça öğren. 2 yolculuk yerine bir. {item:10024} (190'dan itibaren) başka eğitmenlere ikinci bir yolculuk ister (aşağıda).",
+	["Expert raises the cap from 150 to 225; it needs {skill:197} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:1346} ({zone:1453}); Horde {npc:4576} ({zone:1458}). The arrow picks the nearest of your faction. Learn now: {spell:3865} (from 140). 150-225 takes about 15s of recipes and 21g 16s of vendor goods, plus 264 {item:4306} and 900 {item:4338} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {item:9998} (from 170), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 2. {item:10024} (from 190) takes a second trip, to other trainers (below)."] = "Expert sınırı 150'den 225'e çıkarır; {skill:197} 125 ve 20. karakter seviyesi ister, yani 125'ten itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:1346} ({zone:1453}); Horde {npc:4576} ({zone:1458}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:3865} (140'tan itibaren). 150-225 yaklaşık 15s tarif ve 21g 16s satıcı malı, ayrıca toplanacak ya da satın alınacak 264 {item:4306} ve 900 {item:4338} ister. Hepsi çantanda gel (yukarıdaki adımlar, kalanı müzayede evinden): bu eğitmenler {item:9998} (170'ten itibaren) tarifini de öğretir, üretimler de istasyon istemez, yani tam burada üret ve her tarifi becerisine ulaştıkça öğren. 2 yolculuk yerine bir. {item:10024} (190'dan itibaren) başka eğitmenlere ikinci bir yolculuk ister (aşağıda).",
 
 	-- Step 24: Azure Silk Cloak to 170
 	-- {item:7053} Azure Silk Cloak
@@ -178,9 +178,9 @@ return {
 
 	-- Step 32: Tailoring 225-300: Auction House
 	-- {skill:197} Tailoring
-	["{skill:197} 225-300: Auction House"] = "{skill:197} 225-300: Müzayede Evi",
+	["{skill:197} 225-300: Auction House"] = "{skill:197} 225-300: müzayede evi",
 	-- {item:8170} Rugged Leather · {item:14047} Runecloth · {item:14227} Ironweb Spider Silk · {item:14504} Pattern: Runecloth Shoulders
-	["What 225-300 takes that the Auction House sells: 420 {item:8170}, 3195 {item:14047}, 124 {item:14227} and a {item:14504}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden Müzayede Evi'nin sattıkları: 420 {item:8170}, 3195 {item:14047}, 124 {item:14227} ve a {item:14504}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 225-300 takes that the Auction House sells: 420 {item:8170}, 3195 {item:14047}, 124 {item:14227} and a {item:14504}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden müzayede evinin sattıkları: 420 {item:8170}, 3195 {item:14047}, 124 {item:14227} ve a {item:14504}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 33: Rugged Leather (Alliance)
 	-- {item:8170} Rugged Leather

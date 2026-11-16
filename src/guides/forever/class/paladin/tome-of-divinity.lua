@@ -33,7 +33,7 @@ return {
 	-- {npc:6174} Stephanie Turner · {object:2096} Trade District · {item:2589} Linen Cloth · {zone:1436} Westfall
 	["{npc:6174} stands at a corner in the middle of the {object:2096}, outside a general goods store. She wants 10 {item:2589}: humanoids drop it (Riverpaw gnolls in {zone:1436} about every other kill, Defias and kobolds a little less), or buy it at the Auction House a few steps away in the {object:2096}."] = "{npc:6174}, {object:2096} semtinin ortasında, bir genel mallar dükkânının önündeki köşede duruyor. 10 {item:2589} istiyor: insansılar düşürür ({zone:1436} bölgesindeki Riverpaw gnoll'ları aşağı yukarı ikide bir, Defias ve kobold'lar biraz daha az), ya da {object:2096} semtinde birkaç adım ötedeki müzayede evinden al.",
 	-- {item:2589} Linen Cloth
-	["{item:2589} x10: humanoids, or the Auction House"] = "{item:2589} x10: humanoid'ler ya da Müzayede Evi",
+	["{item:2589} x10: humanoids, or the Auction House"] = "{item:2589} x10: humanoid'ler ya da müzayede evi",
 
 	-- Step 7: The Symbol of Life
 	-- {item:6866} Symbol of Life
@@ -53,7 +53,7 @@ return {
 	["The {item:6846}"] = "{item:6846}",
 	-- {npc:6172} Henze Faulk · {item:6846} Defias Script
 	-- plural, as words: Defias Rogue Wizards = {npc:474} Defias Rogue Wizard
-	["The Defias Rogue Wizards around the big stone tablet east of {npc:6172} carry the {item:6846}: about one kill in two drops it, but some players need many kills. They respawn in three minutes."] = "{npc:6172} yerinin doğusundaki büyük taş tabletin çevresindeki Defias Rogue Wizard yaratıkları {item:6846} taşıyor: aşağı yukarı ikide bir düşer, ama bazı oyuncular çok sayıda öldürmeye ihtiyaç duyuyor. Üç dakikada yeniden doğarlar.",
+	["The Defias Rogue Wizards around the big stone tablet east of {npc:6172} carry the {item:6846}: about one kill in two drops it, but some players need many kills. They respawn in three minutes."] = "{npc:6172} adlı NPC'nin doğusundaki büyük taş tabletin çevresindeki Defias Rogue Wizard yaratıkları {item:6846} taşıyor: aşağı yukarı ikide bir düşer, ama bazı oyuncular çok sayıda öldürmeye ihtiyaç duyuyor. Üç dakikada yeniden doğarlar.",
 	-- {item:6846} Defias Script
 	-- plural, as words: Defias Rogue Wizards = {npc:474} Defias Rogue Wizard
 	["{item:6846}: Defias Rogue Wizards"] = "{item:6846}: Defias Rogue Wizard yaratıkları",
@@ -75,7 +75,7 @@ return {
 	-- Step 15: John Turner
 	-- {npc:6175} John Turner · {item:2589} Linen Cloth · {zone:1432} Loch Modan
 	-- plural, as words: Dark Iron Ambushers = {npc:1981} Dark Iron Ambusher
-	["{npc:6175} walks the outer ring of the Commons, past the front gate, the bank and the Auction House. He wants 10 {item:2589}: humanoids drop it (in {zone:1432} the Dark Iron Ambushers, Tunnel Rat kobolds and Stonesplinter troggs about two kills in five), or buy it at the Auction House on his ring."] = "{npc:6175}, ön kapıyı, bankayı ve Müzayede Evi'ni geçerek Commons'ın dış halkasında yürüyor. 10 {item:2589} istiyor: humanoid'ler düşürür ({zone:1432} bölgesinde Dark Iron Ambusher yaratıkları, Tunnel Rat kobold'ları ve Stonesplinter trogg'ları yaklaşık beşte iki öldürmede), ya da onun halkasındaki Müzayede Evi'nden satın al.",
+	["{npc:6175} walks the outer ring of the Commons, past the front gate, the bank and the Auction House. He wants 10 {item:2589}: humanoids drop it (in {zone:1432} the Dark Iron Ambushers, Tunnel Rat kobolds and Stonesplinter troggs about two kills in five), or buy it at the Auction House on his ring."] = "{npc:6175}, ön kapıyı, bankayı ve müzayede evini geçerek Commons'ın dış halkasında yürüyor. 10 {item:2589} istiyor: humanoid'ler düşürür ({zone:1432} bölgesinde Dark Iron Ambusher yaratıkları, Tunnel Rat kobold'ları ve Stonesplinter trogg'ları yaklaşık beşte iki öldürmede), ya da onun halkasındaki müzayede evinden satın al.",
 
 	-- Step 16: The Symbol of Life
 	-- {object:32386} Hall of Mysteries (no name in this language: may be words) · {npc:6179} Tiza Battleforge · {item:6866} Symbol of Life · {npc:6178} Muiredon Battleforge · {npc:6177} Narm Faulk

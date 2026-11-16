@@ -227,7 +227,7 @@ return {
 	-- {npc:252448} Alvarion Windfield
 	["Listen to {npc:252448}'s story"] = "{npc:252448} adlı NPC'nin hikâyesini dinle",
 	-- {npc:252389} Quel'ana Quickgale · {npc:257006} Nyalah Brightfire · {quest:94978} Taming the Beast
-	["{npc:252389}, a few steps west of {npc:257006}: {quest:94978}, the first rod"] = "{npc:252389}, {npc:257006} yerinin birkaç adım batısında: {quest:94978}, ilk çubuk",
+	["{npc:252389}, a few steps west of {npc:257006}: {quest:94978}, the first rod"] = "{npc:252389}, {npc:257006} adlı NPC'nin birkaç adım batısında: {quest:94978}, ilk çubuk",
 	-- {npc:257006} Nyalah Brightfire
 	["{npc:257006}, inside"] = "{npc:257006}, içeride",
 
@@ -267,7 +267,7 @@ return {
 
 	-- Step 56: Shen'dar Highlands: kill these as you meet them
 	-- {item:260881} Crystallized Lightning · {npc:256083} Riaani Nightwind
-	["The {item:260881} lies in a cave in the hills north-west of {npc:256083}."] = "{item:260881}, {npc:256083} yerinin kuzeybatısındaki tepelerde bir mağarada duruyor.",
+	["The {item:260881} lies in a cave in the hills north-west of {npc:256083}."] = "{item:260881}, {npc:256083} adlı NPC'nin kuzeybatısındaki tepelerde bir mağarada duruyor.",
 	-- {npc:252389} Quel'ana Quickgale · {item:15908} Taming Rod
 	["tame one with {npc:252389}'s first {item:15908} while you are among them"] = "Aralarındayken {npc:252389} verdiği ilk {item:15908} ile birini evcilleştir",
 	-- {npc:254588} Windsong Crawler

@@ -47,7 +47,7 @@ return {
 	-- {npc:263367} Sleebo Fizzlespout
 	["{npc:263367}'s workshop"] = "{npc:263367} atölyesi",
 	-- {npc:263367} Sleebo Fizzlespout · {npc:258031} Neza Bloodsnout
-	["West up the road from the port: {npc:263367} has his workshop on the hill. The gas vents are in the marsh south-west of it, on your first hunt for {npc:258031}."] = "Limandan yol boyunca batıya: {npc:263367} adlı NPC'nin atölyesi tepede. Gaz delikleri onun güneybatısındaki bataklıkta, {npc:258031} için yaptığın ilk avda.",
+	["West up the road from the port: {npc:263367} has his workshop on the hill. The gas vents are in the marsh south-west of it, on your first hunt for {npc:258031}."] = "Limandan yol boyunca batıya: {npc:263367} adlı NPC'nin atölyesi tepede. Gaz delikleri atölyenin güneybatısındaki bataklıkta, {npc:258031} için yaptığın ilk avda.",
 
 	-- Step 8: Rog'mar
 	-- {area:16743} Rog'mar · {npc:258031} Neza Bloodsnout · {npc:256657} Kreza Darkthorn · {npc:256418} Krom'rosh · {npc:255993} Grakna · {npc:256675} Innkeeper Toka · {npc:263190} Tan'jani
@@ -65,7 +65,7 @@ return {
 
 	-- Step 10: Sleebo Fizzlespout's workshop
 	-- {area:16727} Powderfuse Port · {npc:263367} Sleebo Fizzlespout · {npc:258031} Neza Bloodsnout
-	["East of Rog'mar, on the hill above the road to {area:16727}: {npc:263367} has his workshop there. The gas vents are in the marsh south-west of it, on your first hunt for {npc:258031}."] = "Rog'mar'ın doğusunda, {area:16727} yolunun üstündeki tepede: {npc:263367} adlı NPC'nin atölyesi orada. Gaz delikleri onun güneybatısındaki bataklıkta, {npc:258031} için yaptığın ilk avda.",
+	["East of Rog'mar, on the hill above the road to {area:16727}: {npc:263367} has his workshop there. The gas vents are in the marsh south-west of it, on your first hunt for {npc:258031}."] = "Rog'mar'ın doğusunda, {area:16727} yolunun üstündeki tepede: {npc:263367} adlı NPC'nin atölyesi orada. Gaz delikleri atölyenin güneybatısındaki bataklıkta, {npc:258031} için yaptığın ilk avda.",
 
 	-- Step 11: The plains and the marsh
 	["The plains and the marsh"] = "Ovalar ve bataklık",

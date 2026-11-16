@@ -120,7 +120,7 @@ return {
 
 	-- Step 27: Ashenvale Moonwell
 	-- {area:421} Mystral Lake · {item:5867} Etched Phial
-	["South from Raynewood, the moonwell sits in a hollow west of the river, hard to see from the road; {area:421} is west of it. Use the {item:5867} at the moonwell to fill it."] = "Raynewood'un güneyinde ay kuyusu nehrin batısındaki bir çukurda, yoldan zor görünüyor; {area:421} onun batısında. Doldurmak için ay kuyusunda {item:5867} kullan.",
+	["South from Raynewood, the moonwell sits in a hollow west of the river, hard to see from the road; {area:421} is west of it. Use the {item:5867} at the moonwell to fill it."] = "Raynewood'un güneyinde ay kuyusu nehrin batısındaki bir çukurda, yoldan zor görünüyor; {area:421} kuyunun batısında. Doldurmak için ay kuyusunda {item:5867} kullan.",
 	-- {item:5867} Etched Phial · {object:20806} Ashenvale Moonwell
 	["{item:5867}, at the {object:20806}"] = "{item:5867}, {object:20806} başında",
 

@@ -36,7 +36,7 @@ return {
 	["{area:363}: kill these as you meet them"] = "{area:363}: bunları karşılaştıkça öldür",
 	-- {npc:3287} Hana'zua · {quest:792} Vile Familiars · {area:365} Burning Blade Coven
 	-- plural, as words: Scorpid Workers = {npc:3124} Scorpid Worker · Cactus Apples = {item:11583} Cactus Apple
-	["The Scorpid Workers roam the slope south of {npc:3287}; pick the Cactus Apples by the cactuses on the way.\nThe {quest:792} swarm the slope below the {area:365}, the cave on the valley's north side."] = "Scorpid Worker yaratıkları {npc:3287} yerinin güneyindeki yamaçta dolaşıyor; yolda kaktüslerin yanındaki Cactus Apple meyvelerini topla.\n{quest:792} sürüsü, vadinin kuzey yakasındaki mağara olan {area:365} altındaki yamaçta kaynıyor.",
+	["The Scorpid Workers roam the slope south of {npc:3287}; pick the Cactus Apples by the cactuses on the way.\nThe {quest:792} swarm the slope below the {area:365}, the cave on the valley's north side."] = "Scorpid Worker yaratıkları {npc:3287} adlı NPC'nin güneyindeki yamaçta dolaşıyor; yolda kaktüslerin yanındaki Cactus Apple meyvelerini topla.\n{quest:792} sürüsü, vadinin kuzey yakasındaki mağara olan {area:365} altındaki yamaçta kaynıyor.",
 
 	-- Step 6: Galgar
 	-- {npc:9796} Galgar
@@ -66,7 +66,7 @@ return {
 
 	-- Step 13: Sarkoth
 	-- {quest:790} Sarkoth · {npc:3287} Hana'zua · {area:365} Burning Blade Coven
-	["{quest:790}, a large scorpid (level 4), prowls the slope just west of the Den, below {npc:3287}, on the way north to the {area:365}."] = "Büyük bir scorpid olan {quest:790} (seviye 4), kuzeye {area:365} mağarasına giderken, Den'in hemen batısındaki yamaçta, {npc:3287} yerinin aşağısında dolaşıyor.",
+	["{quest:790}, a large scorpid (level 4), prowls the slope just west of the Den, below {npc:3287}, on the way north to the {area:365}."] = "Büyük bir scorpid olan {quest:790} (seviye 4), kuzeye {area:365} mağarasına giderken, Den'in hemen batısındaki yamaçta, {npc:3287} adlı NPC'nin aşağısında dolaşıyor.",
 
 	-- Step 14: Canaga Earthcaller
 	-- {npc:3143} Gornek · {quest:804} Sarkoth · {npc:5887} Canaga Earthcaller · {quest:1516} Call of Earth
@@ -279,12 +279,12 @@ return {
 
 	-- Step 62: Rezlak
 	-- {zone:1454} Orgrimmar · {npc:3293} Rezlak
-	["Head north-east to the road toward {zone:1454}. {npc:3293} camps beside it; the stolen sacks lie along the road south of him."] = "Kuzeydoğuya, {zone:1454} yönüne giden yola git. {npc:3293} yolun kenarında kamp kurmuş; çalınan çuvallar onun güneyinde yol boyunca duruyor.",
+	["Head north-east to the road toward {zone:1454}. {npc:3293} camps beside it; the stolen sacks lie along the road south of him."] = "Kuzeydoğuya, {zone:1454} yönüne giden yola git. {npc:3293} yolun kenarında kamp kurmuş; çalınan çuvallar kampın güneyinde yol boyunca duruyor.",
 
 	-- Step 63: Drygulch Ravine
 	-- {area:370} Drygulch Ravine · {npc:3293} Rezlak · {item:277661} Dull Storm Orb · {area:371} Dustwind Cave · {item:6652} Reagent Pouch
 	-- plural, as words: Burning Blade Cultists = {npc:3199} Burning Blade Cultist
-	["Savages and Storm Witches nest in {area:370}, east of {npc:3293}. A Storm Witch drops the {item:277661}. Shamans: the Burning Blade Cultists by {area:371}, at the ravine's south end, drop the {item:6652}."] = "Savage ve Storm Witch yaratıkları {npc:3293} yerinin doğusunda, {area:370} vadisinde yuva yapmış. Bir Storm Witch {item:277661} düşürür. Shaman'lar: vadinin güney ucundaki {area:371} yanında bulunan Burning Blade Cultist yaratıkları {item:6652} düşürür.",
+	["Savages and Storm Witches nest in {area:370}, east of {npc:3293}. A Storm Witch drops the {item:277661}. Shamans: the Burning Blade Cultists by {area:371}, at the ravine's south end, drop the {item:6652}."] = "Savage ve Storm Witch yaratıkları {npc:3293} adlı NPC'nin doğusunda, {area:370} vadisinde yuva yapmış. Bir Storm Witch {item:277661} düşürür. Shaman'lar: vadinin güney ucundaki {area:371} yanında bulunan Burning Blade Cultist yaratıkları {item:6652} düşürür.",
 
 	-- Step 64: Deathskip to Northern Durotar
 	["Deathskip to Northern Durotar"] = "Ölerek kestirme: Kuzey Durotar",
@@ -296,7 +296,7 @@ return {
 	["{area:369}: kill these as you meet them"] = "{area:369}: bunları karşılaştıkça öldür",
 	-- {area:369} Thunder Ridge · {npc:3293} Rezlak
 	-- plural, as words: Thunder Lizards = {npc:3130} Thunder Lizard · Lightning Hides = {npc:3131} Lightning Hide
-	["Thunder Lizards and Lightning Hides graze on {area:369}, just west and south-west of {npc:3293}.\nCareful: Halikor, a level 12 elite, roams {area:369} among the lizards: watch for him before you pull."] = "Thunder Lizard ve Lightning Hide yaratıkları {npc:3293} yerinin hemen batısında ve güneybatısında, {area:369} sırtında otluyor.\nDikkat: seviye 12 elit Halikor, {area:369} sırtında kertenkelelerin arasında dolaşıyor: çekmeden önce ona dikkat et.",
+	["Thunder Lizards and Lightning Hides graze on {area:369}, just west and south-west of {npc:3293}.\nCareful: Halikor, a level 12 elite, roams {area:369} among the lizards: watch for him before you pull."] = "Thunder Lizard ve Lightning Hide yaratıkları {npc:3293} adlı NPC'nin hemen batısında ve güneybatısında, {area:369} sırtında otluyor.\nDikkat: seviye 12 elit Halikor, {area:369} sırtında kertenkelelerin arasında dolaşıyor: çekmeden önce ona dikkat et.",
 
 	-- Step 69: Misha Tor'kren
 	-- {area:814} Southfury River · {item:4891} Kron's Amulet

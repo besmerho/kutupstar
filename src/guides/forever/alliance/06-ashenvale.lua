@@ -19,7 +19,7 @@ return {
 
 	-- Step 6: Astranaar
 	-- {area:413} Maestra's Post · {npc:3845} Shindrell Swiftfire · {npc:4079} Sentinel Thenysil · {npc:3691} Raene Wolfrunner · {npc:3894} Pelturas Whitemoon
-	["The road from {area:413} comes in by the flight master: {npc:3845} and {npc:4079} stand there, {npc:3691} in the inn, {npc:3894} inside the building beyond it."] = "{area:413} karakolundan gelen yol uçuş ustasının yanından girer: {npc:3845} ve {npc:4079} orada, {npc:3691} handa, {npc:3894} onun ötesindeki binanın içinde duruyor.",
+	["The road from {area:413} comes in by the flight master: {npc:3845} and {npc:4079} stand there, {npc:3691} in the inn, {npc:3894} inside the building beyond it."] = "{area:413} karakolundan gelen yol uçuş ustasının yanından girer: {npc:3845} ve {npc:4079} orada, {npc:3691} handa, {npc:3894} hanın ötesindeki binanın içinde duruyor.",
 	-- {npc:3691} Raene Wolfrunner
 	["{npc:3691}, in the inn"] = "{npc:3691}, handa",
 	-- {npc:3691} Raene Wolfrunner · {quest:990} Trek to Ashenvale · {area:442} Auberdine
@@ -141,7 +141,7 @@ return {
 
 	-- Step 33: Menethil Harbor
 	-- {npc:1242} Karl Boran · {npc:2094} James Halloran · {npc:2086} Valstag Ironjaw · {npc:1239} First Mate Fitzsimmons · {npc:1480} Caitlin Grassman · {npc:2111} Sida · {npc:2096} Tarrel Rockweaver
-	["Off the boat, walk up the pier: {npc:1242} on the pier, {npc:2094} by the docks to the north, {npc:2086} in the keep, the inn ({npc:1239}) east of it with {npc:1480} and {npc:2111} beside it, {npc:2096} by the north gate on the way out east."] = "Gemiden inince iskeleden yukarı yürü: {npc:1242} iskelede, {npc:2094} kuzeydeki rıhtımın yanında, {npc:2086} kalede, han ({npc:1239}) onun doğusunda, {npc:1480} ve {npc:2111} hanın yanında, {npc:2096} doğuya çıkış yolunda, kuzey kapısının yanında.",
+	["Off the boat, walk up the pier: {npc:1242} on the pier, {npc:2094} by the docks to the north, {npc:2086} in the keep, the inn ({npc:1239}) east of it with {npc:1480} and {npc:2111} beside it, {npc:2096} by the north gate on the way out east."] = "Gemiden inince iskeleden yukarı yürü: {npc:1242} iskelede, {npc:2094} kuzeydeki rıhtımın yanında, {npc:2086} kalede, han ({npc:1239}) kalenin doğusunda, {npc:1480} ve {npc:2111} hanın yanında, {npc:2096} doğuya çıkış yolunda, kuzey kapısının yanında.",
 	-- {npc:1242} Karl Boran
 	["{npc:1242}, on the pier north of the inn"] = "{npc:1242}, hanın kuzeyindeki iskelede",
 	-- {npc:2086} Valstag Ironjaw

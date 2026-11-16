@@ -12,9 +12,9 @@ return {
 
 	-- Step 2: Linen Bandage: Auction House
 	-- {item:1251} Linen Bandage
-	["{item:1251}: Auction House"] = "{item:1251}: Müzayede Evi",
+	["{item:1251}: Auction House"] = "{item:1251}: müzayede evi",
 	-- {item:1251} Linen Bandage · {item:2589} Linen Cloth
-	["What {item:1251} takes that the Auction House sells: 41 {item:2589}. The counts drop by what your bags, bank and mail hold."] = "{item:1251} için gerekenlerden Müzayede Evi'nin sattıkları: 41 {item:2589}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What {item:1251} takes that the Auction House sells: 41 {item:2589}. The counts drop by what your bags, bank and mail hold."] = "{item:1251} için gerekenlerden müzayede evinin sattıkları: 41 {item:2589}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 3: Linen Bandage: cloth
 	-- {item:1251} Linen Bandage
@@ -29,9 +29,9 @@ return {
 
 	-- Step 5: Heavy Linen Bandage: Auction House
 	-- {item:2581} Heavy Linen Bandage
-	["{item:2581}: Auction House"] = "{item:2581}: Müzayede Evi",
+	["{item:2581}: Auction House"] = "{item:2581}: müzayede evi",
 	-- {item:2581} Heavy Linen Bandage · {item:2589} Linen Cloth
-	["What {item:2581} takes that the Auction House sells: 20 {item:2589}. The counts drop by what your bags, bank and mail hold."] = "{item:2581} için gerekenlerden Müzayede Evi'nin sattıkları: 20 {item:2589}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What {item:2581} takes that the Auction House sells: 20 {item:2589}. The counts drop by what your bags, bank and mail hold."] = "{item:2581} için gerekenlerden müzayede evinin sattıkları: 20 {item:2589}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 6: Heavy Linen Bandage: cloth
 	-- {item:2581} Heavy Linen Bandage
@@ -49,7 +49,7 @@ return {
 
 	-- Step 9: Heavy Linen Bandage: Auction House
 	-- {item:2581} Heavy Linen Bandage · {item:2589} Linen Cloth
-	["What {item:2581} takes that the Auction House sells: 92 {item:2589}. The counts drop by what your bags, bank and mail hold."] = "{item:2581} için gerekenlerden Müzayede Evi'nin sattıkları: 92 {item:2589}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What {item:2581} takes that the Auction House sells: 92 {item:2589}. The counts drop by what your bags, bank and mail hold."] = "{item:2581} için gerekenlerden müzayede evinin sattıkları: 92 {item:2589}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 11: Heavy Linen Bandage (50-80)
 	-- {item:2581} Heavy Linen Bandage · {item:858} Lesser Healing Potion · {item:2450} Briarthorn · {item:2678} Mild Spices · {item:3371} Empty Vial
@@ -57,9 +57,9 @@ return {
 
 	-- Step 12: Wool Bandage: Auction House
 	-- {spell:3277} Wool Bandage
-	["{spell:3277}: Auction House"] = "{spell:3277}: Müzayede Evi",
+	["{spell:3277}: Auction House"] = "{spell:3277}: müzayede evi",
 	-- {spell:3277} Wool Bandage · {item:2592} Wool Cloth
-	["What {spell:3277} takes that the Auction House sells: 49 {item:2592}. The counts drop by what your bags, bank and mail hold."] = "{spell:3277} için gerekenlerden Müzayede Evi'nin sattıkları: 49 {item:2592}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What {spell:3277} takes that the Auction House sells: 49 {item:2592}. The counts drop by what your bags, bank and mail hold."] = "{spell:3277} için gerekenlerden müzayede evinin sattıkları: 49 {item:2592}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 13: Wool Bandage: cloth
 	-- {spell:3277} Wool Bandage
@@ -73,9 +73,9 @@ return {
 
 	-- Step 15: Heavy Wool Bandage: Auction House
 	-- {spell:3278} Heavy Wool Bandage
-	["{spell:3278}: Auction House"] = "{spell:3278}: Müzayede Evi",
+	["{spell:3278}: Auction House"] = "{spell:3278}: müzayede evi",
 	-- {spell:3278} Heavy Wool Bandage · {item:2592} Wool Cloth
-	["What {spell:3278} takes that the Auction House sells: 22 {item:2592}. The counts drop by what your bags, bank and mail hold."] = "{spell:3278} için gerekenlerden Müzayede Evi'nin sattıkları: 22 {item:2592}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What {spell:3278} takes that the Auction House sells: 22 {item:2592}. The counts drop by what your bags, bank and mail hold."] = "{spell:3278} için gerekenlerden müzayede evinin sattıkları: 22 {item:2592}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 16: Heavy Wool Bandage: cloth
 	-- {spell:3278} Heavy Wool Bandage
@@ -95,7 +95,7 @@ return {
 
 	-- Step 19: Heavy Wool Bandage: Auction House
 	-- {spell:3278} Heavy Wool Bandage · {item:2592} Wool Cloth
-	["What {spell:3278} takes that the Auction House sells: 76 {item:2592}. The counts drop by what your bags, bank and mail hold."] = "{spell:3278} için gerekenlerden Müzayede Evi'nin sattıkları: 76 {item:2592}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What {spell:3278} takes that the Auction House sells: 76 {item:2592}. The counts drop by what your bags, bank and mail hold."] = "{spell:3278} için gerekenlerden müzayede evinin sattıkları: 76 {item:2592}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 21: Heavy Wool Bandage (125-150)
 	-- {spell:3278} Heavy Wool Bandage
@@ -103,9 +103,9 @@ return {
 
 	-- Step 22: Silk Bandage: Auction House
 	-- {item:6450} Silk Bandage
-	["{item:6450}: Auction House"] = "{item:6450}: Müzayede Evi",
+	["{item:6450}: Auction House"] = "{item:6450}: müzayede evi",
 	-- {item:6450} Silk Bandage · {item:4306} Silk Cloth
-	["What {item:6450} takes that the Auction House sells: 42 {item:4306}. The counts drop by what your bags, bank and mail hold."] = "{item:6450} için gerekenlerden Müzayede Evi'nin sattıkları: 42 {item:4306}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What {item:6450} takes that the Auction House sells: 42 {item:4306}. The counts drop by what your bags, bank and mail hold."] = "{item:6450} için gerekenlerden müzayede evinin sattıkları: 42 {item:4306}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 23: Silk Bandage: cloth
 	-- {item:6450} Silk Bandage
@@ -119,9 +119,9 @@ return {
 
 	-- Step 25: Heavy Silk Bandage: Auction House
 	-- {item:6451} Heavy Silk Bandage
-	["{item:6451}: Auction House"] = "{item:6451}: Müzayede Evi",
+	["{item:6451}: Auction House"] = "{item:6451}: müzayede evi",
 	-- {item:6451} Heavy Silk Bandage · {item:4306} Silk Cloth
-	["What {item:6451} takes that the Auction House sells: 84 {item:4306}. The counts drop by what your bags, bank and mail hold."] = "{item:6451} için gerekenlerden Müzayede Evi'nin sattıkları: 84 {item:4306}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What {item:6451} takes that the Auction House sells: 84 {item:4306}. The counts drop by what your bags, bank and mail hold."] = "{item:6451} için gerekenlerden müzayede evinin sattıkları: 84 {item:4306}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 26: Heavy Silk Bandage: cloth
 	-- {item:6451} Heavy Silk Bandage
@@ -133,9 +133,9 @@ return {
 
 	-- Step 28: Mageweave Bandage: Auction House
 	-- {item:8544} Mageweave Bandage
-	["{item:8544}: Auction House"] = "{item:8544}: Müzayede Evi",
+	["{item:8544}: Auction House"] = "{item:8544}: müzayede evi",
 	-- {item:8544} Mageweave Bandage · {item:4338} Mageweave Cloth
-	["What {item:8544} takes that the Auction House sells: 18 {item:4338}. The counts drop by what your bags, bank and mail hold."] = "{item:8544} için gerekenlerden Müzayede Evi'nin sattıkları: 18 {item:4338}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What {item:8544} takes that the Auction House sells: 18 {item:4338}. The counts drop by what your bags, bank and mail hold."] = "{item:8544} için gerekenlerden müzayede evinin sattıkları: 18 {item:4338}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 29: Mageweave Bandage: cloth
 	-- {item:8544} Mageweave Bandage
@@ -170,7 +170,7 @@ return {
 
 	-- Step 35: Mageweave Bandage: Auction House
 	-- {item:8544} Mageweave Bandage · {item:4338} Mageweave Cloth
-	["What {item:8544} takes that the Auction House sells: 24 {item:4338}. The counts drop by what your bags, bank and mail hold."] = "{item:8544} için gerekenlerden Müzayede Evi'nin sattıkları: 24 {item:4338}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What {item:8544} takes that the Auction House sells: 24 {item:4338}. The counts drop by what your bags, bank and mail hold."] = "{item:8544} için gerekenlerden müzayede evinin sattıkları: 24 {item:4338}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 37: Mageweave Bandage (225-240)
 	-- {item:8544} Mageweave Bandage
@@ -183,9 +183,9 @@ return {
 
 	-- Step 39: Heavy Mageweave Bandage: Auction House
 	-- {item:8545} Heavy Mageweave Bandage
-	["{item:8545}: Auction House"] = "{item:8545}: Müzayede Evi",
+	["{item:8545}: Auction House"] = "{item:8545}: müzayede evi",
 	-- {item:8545} Heavy Mageweave Bandage · {item:4338} Mageweave Cloth
-	["What {item:8545} takes that the Auction House sells: 50 {item:4338}. The counts drop by what your bags, bank and mail hold."] = "{item:8545} için gerekenlerden Müzayede Evi'nin sattıkları: 50 {item:4338}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What {item:8545} takes that the Auction House sells: 50 {item:4338}. The counts drop by what your bags, bank and mail hold."] = "{item:8545} için gerekenlerden müzayede evinin sattıkları: 50 {item:4338}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 40: Heavy Mageweave Bandage: cloth
 	-- {item:8545} Heavy Mageweave Bandage
@@ -201,9 +201,9 @@ return {
 
 	-- Step 43: Runecloth Bandage: Auction House
 	-- {item:14529} Runecloth Bandage
-	["{item:14529}: Auction House"] = "{item:14529}: Müzayede Evi",
+	["{item:14529}: Auction House"] = "{item:14529}: müzayede evi",
 	-- {item:14529} Runecloth Bandage · {item:14047} Runecloth
-	["What {item:14529} takes that the Auction House sells: 65 {item:14047}. The counts drop by what your bags, bank and mail hold."] = "{item:14529} için gerekenlerden Müzayede Evi'nin sattıkları: 65 {item:14047}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What {item:14529} takes that the Auction House sells: 65 {item:14047}. The counts drop by what your bags, bank and mail hold."] = "{item:14529} için gerekenlerden müzayede evinin sattıkları: 65 {item:14047}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 44: Runecloth Bandage: cloth
 	-- {item:14529} Runecloth Bandage

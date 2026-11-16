@@ -225,7 +225,7 @@ return {
 	-- Step 56: Radley and Durgen
 	["Radley and Durgen"] = "Radley ve Durgen",
 	-- {npc:11613} Huntsman Radley · {npc:11611} Cavalier Durgen · {npc:11610} Kirsta Deepshadow · {area:190} Hearthglen
-	["{npc:11613} stands east of the lumber camp; {npc:11611} guards the road north-east of {npc:11610}, toward {area:190}.\nCareful: Guards stand at the tower's base and one more circles it on patrol. Clear them before you engage Durgen so they don't join the fight."] = "{npc:11613} kereste kampının doğusunda duruyor; {npc:11611}, {npc:11610} yerinin kuzeydoğusunda, {area:190} yönündeki yolu koruyor.\nDikkat: Kulenin dibinde muhafızlar duruyor, bir tanesi de devriye gezerek çevresinde dönüyor. Durgen ile dövüşmeden önce onları temizle ki dövüşe katılmasınlar.",
+	["{npc:11613} stands east of the lumber camp; {npc:11611} guards the road north-east of {npc:11610}, toward {area:190}.\nCareful: Guards stand at the tower's base and one more circles it on patrol. Clear them before you engage Durgen so they don't join the fight."] = "{npc:11613} kereste kampının doğusunda duruyor; {npc:11611}, {npc:11610} adlı NPC'nin kuzeydoğusunda, {area:190} yönündeki yolu koruyor.\nDikkat: Kulenin dibinde muhafızlar duruyor, bir tanesi de devriye gezerek çevresinde dönüyor. Durgen ile dövüşmeden önce onları temizle ki dövüşe katılmasınlar.",
 
 	-- Step 58: Davil's Libram
 	-- {area:190} Hearthglen
@@ -357,7 +357,7 @@ return {
 
 	-- Step 100: Mulgris Deepriver
 	-- {npc:10739} Mulgris Deepriver · {area:202} Writhing Haunt · {area:201} Gahrron's Withering
-	["{npc:10739} camps by the {area:202}, beside the cauldron; his bears roam the hills north and east of it, on the way to {area:201}."] = "{npc:10739}, {area:202} yanında, kazanın yanında kamp kurmuş; ayıları {area:201} yolunda, onun kuzeyindeki ve doğusundaki tepelerde dolaşıyor.",
+	["{npc:10739} camps by the {area:202}, beside the cauldron; his bears roam the hills north and east of it, on the way to {area:201}."] = "{npc:10739}, {area:202} yanında, kazanın yanında kamp kurmuş; ayıları {area:201} yolunda, kazanın kuzeyindeki ve doğusundaki tepelerde dolaşıyor.",
 
 	-- Step 101: Diseased Grizzlies
 	["Diseased Grizzlies"] = "Diseased Grizzly yaratıkları",

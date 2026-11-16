@@ -17,9 +17,9 @@ return {
 
 	-- Step 3: Enchanting 1-75: Auction House
 	-- {skill:333} Enchanting
-	["{skill:333} 1-75: Auction House"] = "{skill:333} 1-75: Müzayede Evi",
+	["{skill:333} 1-75: Auction House"] = "{skill:333} 1-75: müzayede evi",
 	-- {item:10940} Strange Dust
-	["What 1-75 takes that the Auction House sells: 51 {item:10940}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden Müzayede Evi'nin sattıkları: 51 {item:10940}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 1-75 takes that the Auction House sells: 51 {item:10940}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden müzayede evinin sattıkları: 51 {item:10940}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 4: Strange Dust
 	-- {item:10940} Strange Dust · {spell:7420} Enchant Chest - Inferior Stamina · {skill:333} Enchanting
@@ -54,13 +54,13 @@ return {
 	-- {skill:333} Enchanting
 	["{skill:333} 75-150: vendor goods"] = "{skill:333} 75-150: satıcı malları",
 	-- {item:10938} Lesser Magic Essence
-	["Buy the whole bracket's share in one go: 4 {item:10938} (32s). The arrow picks the nearest seller of your faction. {item:10938}: no vendor of the other faction sells it; that side gathers or buys it at the Auction House (next steps)."] = "Bu aralığın payını tek seferde al: 4 {item:10938} (32s). Ok tarafının en yakın satıcısını seçer. {item:10938}: diğer tarafın hiçbir satıcısı satmaz; o taraf onu toplar ya da Müzayede Evi'nden alır (sonraki adımlar).",
+	["Buy the whole bracket's share in one go: 4 {item:10938} (32s). The arrow picks the nearest seller of your faction. {item:10938}: no vendor of the other faction sells it; that side gathers or buys it at the Auction House (next steps)."] = "Bu aralığın payını tek seferde al: 4 {item:10938} (32s). Ok tarafının en yakın satıcısını seçer. {item:10938}: diğer tarafın hiçbir satıcısı satmaz; o taraf onu toplar ya da müzayede evinden alır (sonraki adımlar).",
 
 	-- Step 10: Enchanting 75-150: Auction House
 	-- {skill:333} Enchanting
-	["{skill:333} 75-150: Auction House"] = "{skill:333} 75-150: Müzayede Evi",
+	["{skill:333} 75-150: Auction House"] = "{skill:333} 75-150: müzayede evi",
 	-- {item:1210} Shadowgem · {item:6338} Silver Rod · {item:10938} Lesser Magic Essence · {item:10940} Strange Dust · {item:11083} Soul Dust
-	["What 75-150 takes that the Auction House sells: 1 {item:1210}, 1 {item:6338}, 4 {item:10938}, 121 {item:10940} and 20 {item:11083}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden Müzayede Evi'nin sattıkları: 1 {item:1210}, 1 {item:6338}, 4 {item:10938}, 121 {item:10940} ve 20 {item:11083}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 75-150 takes that the Auction House sells: 1 {item:1210}, 1 {item:6338}, 4 {item:10938}, 121 {item:10940} and 20 {item:11083}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden müzayede evinin sattıkları: 1 {item:1210}, 1 {item:6338}, 4 {item:10938}, 121 {item:10940} ve 20 {item:11083}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 11: Shadowgem
 	-- {item:1210} Shadowgem · {item:6339} Runed Silver Rod · {object:1731} Copper Vein · {object:1732} Tin Vein · {object:1733} Silver Vein
@@ -100,13 +100,13 @@ return {
 	-- {spell:13501} Enchant Bracer - Lesser Stamina
 	["{spell:13501} to 150"] = "{spell:13501}: 150 puana kadar",
 	-- {spell:13501} Enchant Bracer - Lesser Stamina · {item:11083} Soul Dust · {item:6339} Runed Silver Rod · {item:10938} Lesser Magic Essence · {skill:333} Enchanting
-	["{spell:13501} is orange at 130 (yellow 155, green 175, grey 195): about 20 crafts to 150, a point every craft. Each takes 1 {item:11083}. One {item:11083} a craft (level 21-30 greens). Make the {item:6339} first: the recipe needs it in your bags, so keep it there. {item:10938} (4 for 75-150): Alliance: {skill:333}: disenchant green items of item level 5-15; or the Auction House. Enchant any item for that slot in your bags, even a grey one. {skill:333} 150 is a Legacy System milestone."] = "{spell:13501}: 130 puanda turuncu (sarı 155, yeşil 175, gri 195): 150 puana kadar yaklaşık 20 üretim, her üretim bir puan. Her biri 1 {item:11083} ister. Üretim başına bir {item:11083} (21-30 seviye yeşiller). Önce {item:6339} yap: tarif onun çantanda olmasını ister, yani orada tut. {item:10938} (75-150 için 4): Alliance: {skill:333}: eşya seviyesi 5-15 olan yeşil eşyaları disenchant et; ya da Müzayede Evi. O yuvaya uygun çantandaki herhangi bir eşyayı, gri olsa bile, büyüle. {skill:333} 150 bir Legacy System kilometre taşı.",
+	["{spell:13501} is orange at 130 (yellow 155, green 175, grey 195): about 20 crafts to 150, a point every craft. Each takes 1 {item:11083}. One {item:11083} a craft (level 21-30 greens). Make the {item:6339} first: the recipe needs it in your bags, so keep it there. {item:10938} (4 for 75-150): Alliance: {skill:333}: disenchant green items of item level 5-15; or the Auction House. Enchant any item for that slot in your bags, even a grey one. {skill:333} 150 is a Legacy System milestone."] = "{spell:13501}: 130 puanda turuncu (sarı 155, yeşil 175, gri 195): 150 puana kadar yaklaşık 20 üretim, her üretim bir puan. Her biri 1 {item:11083} ister. Üretim başına bir {item:11083} (21-30 seviye yeşiller). Önce {item:6339} yap: tarif onun çantanda olmasını ister, yani orada tut. {item:10938} (75-150 için 4): Alliance: {skill:333}: eşya seviyesi 5-15 olan yeşil eşyaları disenchant et; ya da müzayede evi. O yuvaya uygun çantandaki herhangi bir eşyayı, gri olsa bile, büyüle. {skill:333} 150 bir Legacy System kilometre taşı.",
 
 	-- Step 19: Enchanting 150-225: Auction House
 	-- {skill:333} Enchanting
-	["{skill:333} 150-225: Auction House"] = "{skill:333} 150-225: Müzayede Evi",
+	["{skill:333} 150-225: Auction House"] = "{skill:333} 150-225: müzayede evi",
 	-- {item:5500} Iridescent Pearl · {item:7971} Black Pearl · {item:11082} Greater Astral Essence · {item:11083} Soul Dust · {item:11128} Golden Rod · {item:11135} Greater Mystic Essence · {item:11137} Vision Dust · {item:11144} Truesilver Rod
-	["What 150-225 takes that the Auction House sells: 1 {item:5500}, 1 {item:7971}, 1 {item:11082}, 71 {item:11083}, 1 {item:11128}, 1 {item:11135}, 21 {item:11137} and 1 {item:11144}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden Müzayede Evi'nin sattıkları: 1 {item:5500}, 1 {item:7971}, 1 {item:11082}, 71 {item:11083}, 1 {item:11128}, 1 {item:11135}, 21 {item:11137} ve 1 {item:11144}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 150-225 takes that the Auction House sells: 1 {item:5500}, 1 {item:7971}, 1 {item:11082}, 71 {item:11083}, 1 {item:11128}, 1 {item:11135}, 21 {item:11137} and 1 {item:11144}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden müzayede evinin sattıkları: 1 {item:5500}, 1 {item:7971}, 1 {item:11082}, 71 {item:11083}, 1 {item:11128}, 1 {item:11135}, 21 {item:11137} ve 1 {item:11144}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 20: Iridescent Pearl (Alliance)
 	-- {item:5500} Iridescent Pearl
@@ -177,7 +177,7 @@ return {
 	-- {spell:13746} Enchant Cloak - Greater Defense
 	["{spell:13746} to 225"] = "{spell:13746}: 225 puana kadar",
 	-- {spell:13746} Enchant Cloak - Greater Defense · {item:11137} Vision Dust · {item:11145} Runed Truesilver Rod · {item:7971} Black Pearl · {skill:333} Enchanting
-	["{spell:13746} is orange at 205 (yellow 225, green 245, grey 265): about 20 crafts to 225, a point every craft. Each takes 1 {item:11137}. One {item:11137} a craft (level 31-40 greens). Make the {item:11145} first: the recipe needs it in your bags, so keep it there. {item:7971} (1 for 150-225): {item:7971} is a rare drop (no mob gives it one time in 50): buy it at the Auction House, or keep the ones you find. Enchant any item for that slot in your bags, even a grey one. {skill:333} 225 is a Legacy System milestone."] = "{spell:13746}: 205 puanda turuncu (sarı 225, yeşil 245, gri 265): 225 puana kadar yaklaşık 20 üretim, her üretim bir puan. Her biri 1 {item:11137} ister. Üretim başına bir {item:11137} (31-40 seviye yeşiller). Önce {item:11145} yap: tarif onun çantanda olmasını ister, yani orada tut. {item:7971} (150-225 için 1): {item:7971} nadir bir düşüş (hiçbir yaratık 50'de bir bile vermez): Müzayede Evi'nden al ya da bulduklarını sakla. O yuvaya uygun çantandaki herhangi bir eşyayı, gri olsa bile, büyüle. {skill:333} 225 bir Legacy System kilometre taşı.",
+	["{spell:13746} is orange at 205 (yellow 225, green 245, grey 265): about 20 crafts to 225, a point every craft. Each takes 1 {item:11137}. One {item:11137} a craft (level 31-40 greens). Make the {item:11145} first: the recipe needs it in your bags, so keep it there. {item:7971} (1 for 150-225): {item:7971} is a rare drop (no mob gives it one time in 50): buy it at the Auction House, or keep the ones you find. Enchant any item for that slot in your bags, even a grey one. {skill:333} 225 is a Legacy System milestone."] = "{spell:13746}: 205 puanda turuncu (sarı 225, yeşil 245, gri 265): 225 puana kadar yaklaşık 20 üretim, her üretim bir puan. Her biri 1 {item:11137} ister. Üretim başına bir {item:11137} (31-40 seviye yeşiller). Önce {item:11145} yap: tarif onun çantanda olmasını ister, yani orada tut. {item:7971} (150-225 için 1): {item:7971} nadir bir düşüş (hiçbir yaratık 50'de bir bile vermez): müzayede evinden al ya da bulduklarını sakla. O yuvaya uygun çantandaki herhangi bir eşyayı, gri olsa bile, büyüle. {skill:333} 225 bir Legacy System kilometre taşı.",
 
 	-- Step 34: Artisan Enchanting
 	-- {skill:333} Enchanting
@@ -201,9 +201,9 @@ return {
 
 	-- Step 38: Enchanting 225-300: Auction House
 	-- {skill:333} Enchanting
-	["{skill:333} 225-300: Auction House"] = "{skill:333} 225-300: Müzayede Evi",
+	["{skill:333} 225-300: Auction House"] = "{skill:333} 225-300: müzayede evi",
 	-- {item:8831} Purple Lotus · {item:11137} Vision Dust · {item:11176} Dream Dust
-	["What 225-300 takes that the Auction House sells: 34 {item:8831}, 39 {item:11137} and 208 {item:11176}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden Müzayede Evi'nin sattıkları: 34 {item:8831}, 39 {item:11137} ve 208 {item:11176}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 225-300 takes that the Auction House sells: 34 {item:8831}, 39 {item:11137} and 208 {item:11176}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden müzayede evinin sattıkları: 34 {item:8831}, 39 {item:11137} ve 208 {item:11176}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 39: Purple Lotus (Alliance)
 	-- {item:8831} Purple Lotus

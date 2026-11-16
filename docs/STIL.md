@@ -121,7 +121,8 @@ Ek alan biçim metinleri:
 - Koordinat: `45.3, 60.1` (nokta ile, oyundaki gibi).
 - Tırnak: “…”. Polestar'ın ayırıcısı `·` korunur.
 - Tuşlar: Shift, Ctrl, Alt; sağ tık, sol tık, “sağ tıkla”.
-- Seviye: “seviye 12”, “12. seviye”; aralık “12–17”.
+- Seviye: “seviye 12”, “12. seviye”; aralık kısa çizgiyle “12-17” (TDK; orta çizgi “–” ve uzun çizgi “—” kullanılmaz).
+- Arayüzde bir düğmeden söz ederken adı tırnak içinde yazılır: “Giy” düğmesine bas.
 - Sayı: binlik ayırıcı nokta: “2.000”. Yüzde: “%5”.
 - Para: etikette ve parantezde `10g 50s`, cümle içinde “10 altın”, “50 gümüş”.
 - İtibar kademeleri İngilizce kalır (Neutral, Friendly, Honored, Revered, Exalted). Başlıkta `Neutral → Friendly`,
@@ -145,6 +146,8 @@ Ek alan biçim metinleri:
 | road / path | yol / patika |
 | bridge, tower, farm | köprü, kule, çiftlik |
 | zeppelin, tram | zeplin; Deeprun Tram bir ad |
+| upgrade (ekipman) | iyileştirme: “iyileştirme okları” (“yükseltme” değil) |
+| … and more (liste sonu) | “vb.” ya da “ve benzerleri” (“ve dahası” değil) |
 | cooldown | bekleme süresi |
 | buff | güçlendirme (buff) |
 | grind | kasmak: “seviye kasmak” |

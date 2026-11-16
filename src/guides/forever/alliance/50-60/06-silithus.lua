@@ -449,7 +449,7 @@ return {
 	-- Step 98: Radley and Durgen
 	["Radley and Durgen"] = "Radley ve Durgen",
 	-- {npc:11613} Huntsman Radley · {npc:11610} Kirsta Deepshadow · {npc:11611} Cavalier Durgen · {area:190} Hearthglen
-	["{npc:11613} walks the Northridge camp east of {npc:11610}; {npc:11611} guards the tower at {area:190}'s southern approach.\nCareful: Guards stand at the tower's base and one more circles it on patrol. Clear them before you engage Durgen so they don't join the fight."] = "{npc:11613}, {npc:11610} yerinin doğusundaki Northridge kampında dolaşıyor; {npc:11611}, {area:190} kasabasının güney girişindeki kuleyi koruyor.\nDikkat: Kulenin dibinde muhafızlar duruyor, bir tanesi de devriye gezerek çevresinde dönüyor. Durgen ile dövüşmeden önce onları temizle ki dövüşe katılmasınlar.",
+	["{npc:11613} walks the Northridge camp east of {npc:11610}; {npc:11611} guards the tower at {area:190}'s southern approach.\nCareful: Guards stand at the tower's base and one more circles it on patrol. Clear them before you engage Durgen so they don't join the fight."] = "{npc:11613}, {npc:11610} adlı NPC'nin doğusundaki Northridge kampında dolaşıyor; {npc:11611}, {area:190} kasabasının güney girişindeki kuleyi koruyor.\nDikkat: Kulenin dibinde muhafızlar duruyor, bir tanesi de devriye gezerek çevresinde dönüyor. Durgen ile dövüşmeden önce onları temizle ki dövüşe katılmasınlar.",
 
 	-- Step 99: Kirsta Deepshadow
 	-- {npc:11610} Kirsta Deepshadow

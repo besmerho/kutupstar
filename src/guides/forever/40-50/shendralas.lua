@@ -62,7 +62,7 @@ return {
 	-- Step 9: The temple of Shen'dralas: the third pylon
 	-- {zone:2652} Shen'dralas
 	["The temple of {zone:2652}: the third pylon"] = "{zone:2652} tapınağı: üçüncü pylon",
-	["South to the Shen'dralar temple at the zone's heart, keeping west of Kog'thug's bodyguards: the third pylon stands inside. The temple's guards are neutral: leave them be."] = "Kog'thug'un korumalarının batısında kalarak güneye, bölgenin kalbindeki Shen'dralar tapınağına git: üçüncü pylon içeride duruyor. Tapınağın muhafızları tarafsız: onlara dokunma.",
+	["South to the Shen'dralar temple at the zone's heart, keeping west of Kog'thug's bodyguards: the third pylon stands inside. The temple's guards are neutral: leave them be."] = "Kog'thug'un korumalarının batısında kalarak güneye, bölgenin ortasındaki Shen'dralar tapınağına git: üçüncü pylon içeride duruyor. Tapınağın muhafızları tarafsız: onlara dokunma.",
 
 	-- Step 10: Evenshade's Overlook
 	-- {npc:253471} Mordent Evenshade · {quest:93644} Tattered Journal

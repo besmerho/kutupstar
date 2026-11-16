@@ -28,7 +28,7 @@ return {
 
 	-- Step 5: Half Pendant of Aquatic Endurance
 	-- {area:442} Auberdine · {zone:1453} Stormwind · {area:108} Sentinel Hill · {object:177790} Strange Lockbox
-	["Take the boat from {area:442} to {zone:1453} and fly to {area:108}. Head west to the coast: the {object:177790} lies far out on the sea floor beside a bubbling fissure (air), west of a sunken anchor. Sharks roam here; do not swim on past the wreck beyond it, the deep water brings fatigue."] = "{area:442} kasabasından {zone:1453} şehrine giden gemiye bin ve {area:108} tepesine uç. Batıya, kıyıya git: {object:177790}, batık bir çapanın batısında, köpüren bir yarığın (hava) yanında, çok açıkta deniz dibinde duruyor. Burada köpekbalıkları dolaşıyor; onun ötesindeki batığı geçip yüzmeye devam etme, derin su yorgunluk getirir.",
+	["Take the boat from {area:442} to {zone:1453} and fly to {area:108}. Head west to the coast: the {object:177790} lies far out on the sea floor beside a bubbling fissure (air), west of a sunken anchor. Sharks roam here; do not swim on past the wreck beyond it, the deep water brings fatigue."] = "{area:442} kasabasından {zone:1453} şehrine giden gemiye bin ve {area:108} tepesine uç. Batıya, kıyıya git: {object:177790}, batık bir çapanın batısında, köpüren bir yarığın (hava) yanında, çok açıkta deniz dibinde duruyor. Burada köpekbalıkları dolaşıyor; ötesindeki batığı geçip yüzmeye devam etme, derin su yorgunluk getirir.",
 	-- {item:15882} Half Pendant of Aquatic Endurance · {object:177790} Strange Lockbox
 	["{item:15882}, from the {object:177790}"] = "{item:15882}, kaynak: {object:177790}",
 

@@ -17,9 +17,9 @@ return {
 
 	-- Step 3: Leatherworking 1-75: Auction House
 	-- {skill:165} Leatherworking
-	["{skill:165} 1-75: Auction House"] = "{skill:165} 1-75: Müzayede Evi",
+	["{skill:165} 1-75: Auction House"] = "{skill:165} 1-75: müzayede evi",
 	-- {item:2318} Light Leather
-	["What 1-75 takes that the Auction House sells: 349 {item:2318}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden Müzayede Evi'nin sattıkları: 349 {item:2318}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 1-75 takes that the Auction House sells: 349 {item:2318}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden müzayede evinin sattıkları: 349 {item:2318}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 4: Light Leather (Elwynn Forest)
 	-- {item:2318} Light Leather · {spell:2152} Light Armor Kit · {spell:3756} Embossed Leather Gloves · {spell:3763} Fine Leather Belt · {skill:393} Skinning · {npc:1922} Gray Forest Wolf · {npc:525} Mangy Wolf · {npc:524} Rockhide Boar · {npc:113} Stonetusk Boar · {npc:822} Young Forest Bear
@@ -81,9 +81,9 @@ return {
 
 	-- Step 16: Leatherworking 75-150: Auction House
 	-- {skill:165} Leatherworking
-	["{skill:165} 75-150: Auction House"] = "{skill:165} 75-150: Müzayede Evi",
+	["{skill:165} 75-150: Auction House"] = "{skill:165} 75-150: müzayede evi",
 	-- {item:2319} Medium Leather · {item:2457} Elixir of Minor Agility · {item:4234} Heavy Leather
-	["What 75-150 takes that the Auction House sells: 144 {item:2319}, 24 {item:2457} and 321 {item:4234}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden Müzayede Evi'nin sattıkları: 144 {item:2319}, 24 {item:2457} ve 321 {item:4234}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 75-150 takes that the Auction House sells: 144 {item:2319}, 24 {item:2457} and 321 {item:4234}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden müzayede evinin sattıkları: 144 {item:2319}, 24 {item:2457} ve 321 {item:4234}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 17: Medium Leather (Hillsbrad Foothills)
 	-- {item:2319} Medium Leather · {item:7285} Nimble Leather Gloves · {skill:393} Skinning · {npc:2248} Cave Yeti · {npc:2356} Elder Gray Bear · {npc:2385} Feral Mountain Lion · {npc:2351} Gray Bear · {npc:2384} Starving Mountain Lion · {npc:2354} Vicious Gray Bear
@@ -125,7 +125,7 @@ return {
 	-- {item:7285} Nimble Leather Gloves
 	["{item:7285} to 125"] = "{item:7285}: 125 puana kadar",
 	-- {item:7285} Nimble Leather Gloves · {item:2457} Elixir of Minor Agility · {item:2319} Medium Leather · {item:2321} Fine Thread · {item:2452} Swiftthistle · {item:765} Silverleaf · {spell:3763} Fine Leather Belt · {item:2316} Dark Leather Cloak · {item:4340} Gray Dye
-	["{item:7285} is orange at 102 (yellow 120, green 132, grey 145): about 24 crafts to 125. Each takes 1 {item:2457}, 6 {item:2319} and 1 {item:2321}. Each takes an {item:2457}: an alchemist makes it from a {item:2452} and a {item:765}, and the Auction House has it cheap. With no elixirs, take {spell:3763} on to 105 and {item:2316} (from 85: 8 {item:2319}, a {item:4340} and a {item:2321}) to 125: about 28 cloaks, 224 {item:2319} in all."] = "{item:7285}: 102 puanda turuncu (sarı 120, yeşil 132, gri 145): 125 puana kadar yaklaşık 24 üretim. Her biri 1 {item:2457}, 6 {item:2319} ve 1 {item:2321} ister. Her biri bir {item:2457} ister: bir simyacı onu bir {item:2452} ve bir {item:765} ile yapar, Müzayede Evi'nde de ucuzdur. İksir yoksa {spell:3763} ile 105'e, {item:2316} ile (85'ten itibaren: 8 {item:2319}, bir {item:4340} ve bir {item:2321}) 125'e çık: toplam yaklaşık 28 pelerin, 224 {item:2319}.",
+	["{item:7285} is orange at 102 (yellow 120, green 132, grey 145): about 24 crafts to 125. Each takes 1 {item:2457}, 6 {item:2319} and 1 {item:2321}. Each takes an {item:2457}: an alchemist makes it from a {item:2452} and a {item:765}, and the Auction House has it cheap. With no elixirs, take {spell:3763} on to 105 and {item:2316} (from 85: 8 {item:2319}, a {item:4340} and a {item:2321}) to 125: about 28 cloaks, 224 {item:2319} in all."] = "{item:7285}: 102 puanda turuncu (sarı 120, yeşil 132, gri 145): 125 puana kadar yaklaşık 24 üretim. Her biri 1 {item:2457}, 6 {item:2319} ve 1 {item:2321} ister. Her biri bir {item:2457} ister: bir simyacı onu bir {item:2452} ve bir {item:765} ile yapar, müzayede evinde de ucuzdur. İksir yoksa {spell:3763} ile 105'e, {item:2316} ile (85'ten itibaren: 8 {item:2319}, bir {item:4340} ve bir {item:2321}) 125'e çık: toplam yaklaşık 28 pelerin, 224 {item:2319}.",
 
 	-- Step 29: Leatherworking recipes at 125
 	-- {skill:165} Leatherworking
@@ -147,9 +147,9 @@ return {
 
 	-- Step 32: Leatherworking 150-225: Auction House
 	-- {skill:165} Leatherworking
-	["{skill:165} 150-225: Auction House"] = "{skill:165} 150-225: Müzayede Evi",
+	["{skill:165} 150-225: Auction House"] = "{skill:165} 150-225: müzayede evi",
 	-- {item:4235} Heavy Hide · {item:4304} Thick Leather
-	["What 150-225 takes that the Auction House sells: 22 {item:4235} and 373 {item:4304}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden Müzayede Evi'nin sattıkları: 22 {item:4235} ve 373 {item:4304}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 150-225 takes that the Auction House sells: 22 {item:4235} and 373 {item:4304}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden müzayede evinin sattıkları: 22 {item:4235} ve 373 {item:4304}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 33: Heavy Hide (Alliance)
 	-- {item:4235} Heavy Hide
@@ -179,7 +179,7 @@ return {
 	-- {skill:165} Leatherworking
 	["Expert {skill:165}"] = "Expert {skill:165}",
 	-- {skill:165} Leatherworking · {npc:4212} Telonis · {zone:1457} Darnassus · {npc:3007} Una · {zone:1456} Thunder Bluff · {spell:3818} Cured Heavy Hide · {spell:7151} Barbaric Shoulders · {item:4235} Heavy Hide · {item:4304} Thick Leather · {item:5966} Guardian Gloves · {item:8176} Nightscape Headband · {item:8193} Nightscape Pants
-	["Expert raises the cap from 150 to 225; it needs {skill:165} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:4212} ({zone:1457}); Horde {npc:3007} ({zone:1456}). The arrow picks the nearest of your faction. Learn now: {spell:3818} (from 125, 5s) and {spell:7151} (from 150). 150-225 takes about 5s of recipes and 7g 87s of vendor goods, plus 22 {item:4235} and 373 {item:4304} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {item:5966} (from 165) and {item:8176} (from 180), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3. {item:8193} (from 210) takes a second trip, to other trainers (below)."] = "Expert sınırı 150'den 225'e çıkarır; {skill:165} 125 ve 20. karakter seviyesi ister, yani 125'ten itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:4212} ({zone:1457}); Horde {npc:3007} ({zone:1456}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:3818} (125'ten itibaren, 5s) ve {spell:7151} (150'den itibaren). 150-225 yaklaşık 5s tarif ve 7g 87s satıcı malı, ayrıca toplanacak ya da satın alınacak 22 {item:4235} ve 373 {item:4304} ister. Hepsi çantanda gel (yukarıdaki adımlar, kalanı Müzayede Evi'nden): bu eğitmenler {item:5966} (165'ten itibaren) ve {item:8176} (180'den itibaren) tariflerini de öğretir, üretimler de istasyon istemez, yani tam burada üret ve her tarifi becerisine ulaştıkça öğren. 3 yolculuk yerine bir. {item:8193} (210'dan itibaren) başka eğitmenlere ikinci bir yolculuk ister (aşağıda).",
+	["Expert raises the cap from 150 to 225; it needs {skill:165} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:4212} ({zone:1457}); Horde {npc:3007} ({zone:1456}). The arrow picks the nearest of your faction. Learn now: {spell:3818} (from 125, 5s) and {spell:7151} (from 150). 150-225 takes about 5s of recipes and 7g 87s of vendor goods, plus 22 {item:4235} and 373 {item:4304} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {item:5966} (from 165) and {item:8176} (from 180), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3. {item:8193} (from 210) takes a second trip, to other trainers (below)."] = "Expert sınırı 150'den 225'e çıkarır; {skill:165} 125 ve 20. karakter seviyesi ister, yani 125'ten itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:4212} ({zone:1457}); Horde {npc:3007} ({zone:1456}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:3818} (125'ten itibaren, 5s) ve {spell:7151} (150'den itibaren). 150-225 yaklaşık 5s tarif ve 7g 87s satıcı malı, ayrıca toplanacak ya da satın alınacak 22 {item:4235} ve 373 {item:4304} ister. Hepsi çantanda gel (yukarıdaki adımlar, kalanı müzayede evinden): bu eğitmenler {item:5966} (165'ten itibaren) ve {item:8176} (180'den itibaren) tariflerini de öğretir, üretimler de istasyon istemez, yani tam burada üret ve her tarifi becerisine ulaştıkça öğren. 3 yolculuk yerine bir. {item:8193} (210'dan itibaren) başka eğitmenlere ikinci bir yolculuk ister (aşağıda).",
 
 	-- Step 38: Heavy Armor Kit to 158
 	-- {spell:3780} Heavy Armor Kit
@@ -251,9 +251,9 @@ return {
 
 	-- Step 50: Leatherworking 225-300: Auction House
 	-- {skill:165} Leatherworking
-	["{skill:165} 225-300: Auction House"] = "{skill:165} 225-300: Müzayede Evi",
+	["{skill:165} 225-300: Auction House"] = "{skill:165} 225-300: müzayede evi",
 	-- {item:8170} Rugged Leather · {item:14047} Runecloth
-	["What 225-300 takes that the Auction House sells: 1029 {item:8170} and 430 {item:14047}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden Müzayede Evi'nin sattıkları: 1029 {item:8170} ve 430 {item:14047}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 225-300 takes that the Auction House sells: 1029 {item:8170} and 430 {item:14047}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden müzayede evinin sattıkları: 1029 {item:8170} ve 430 {item:14047}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 51: Rugged Leather (Alliance)
 	-- {item:8170} Rugged Leather

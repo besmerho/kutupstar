@@ -300,7 +300,7 @@ return {
 
 	-- Step 65: Trouble in the Valley
 	-- {npc:262119} Corporal Adamore · {npc:261366} Walton
-	["{npc:262119} and his marines hold the wrecked caravan south of {npc:261366}. The marines are linked: pulling one calls the rest. Pull from the edge and run; they leash short, so you can thin the camp one at a time before tackling the Corporal."] = "{npc:262119} ve marine'leri {npc:261366} yerinin güneyindeki parçalanmış kervanı tutuyor. Marine'ler birbirine bağlı: birini çekmek diğerlerini de çağırır. Kenardan çek ve kaç; kısa mesafede geri dönerler, böylece Corporal'a girişmeden önce kampı tek tek azaltabilirsin.",
+	["{npc:262119} and his marines hold the wrecked caravan south of {npc:261366}. The marines are linked: pulling one calls the rest. Pull from the edge and run; they leash short, so you can thin the camp one at a time before tackling the Corporal."] = "{npc:262119} ve marine'leri {npc:261366} adlı NPC'nin güneyindeki parçalanmış kervanı tutuyor. Marine'ler birbirine bağlı: birini çekmek diğerlerini de çağırır. Kenardan çek ve kaç; kısa mesafede geri dönerler, böylece Corporal'a girişmeden önce kampı tek tek azaltabilirsin.",
 
 	-- Step 66: Walton
 	-- {npc:261366} Walton · {npc:261367} Terry Longdrink · {area:21} Kul Tiras

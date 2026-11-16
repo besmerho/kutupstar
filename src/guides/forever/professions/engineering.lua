@@ -18,9 +18,9 @@ return {
 
 	-- Step 3: Engineering 1-75: Auction House
 	-- {skill:202} Engineering
-	["{skill:202} 1-75: Auction House"] = "{skill:202} 1-75: Müzayede Evi",
+	["{skill:202} 1-75: Auction House"] = "{skill:202} 1-75: müzayede evi",
 	-- {item:2835} Rough Stone · {item:2840} Copper Bar
-	["What 1-75 takes that the Auction House sells: 46 {item:2835} and 75 {item:2840}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden Müzayede Evi'nin sattıkları: 46 {item:2835} ve 75 {item:2840}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 1-75 takes that the Auction House sells: 46 {item:2835} and 75 {item:2840}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden müzayede evinin sattıkları: 46 {item:2835} ve 75 {item:2840}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 4: Rough Stone (Elwynn Forest)
 	-- {item:2835} Rough Stone · {spell:3918} Rough Blasting Powder · {skill:186} Mining · {object:1731} Copper Vein · {zone:1429} Elwynn Forest
@@ -102,9 +102,9 @@ return {
 
 	-- Step 19: Engineering 75-150: Auction House
 	-- {skill:202} Engineering
-	["{skill:202} 75-150: Auction House"] = "{skill:202} 75-150: Müzayede Evi",
+	["{skill:202} 75-150: Auction House"] = "{skill:202} 75-150: müzayede evi",
 	-- {item:2836} Coarse Stone · {item:2838} Heavy Stone · {item:2840} Copper Bar · {item:2841} Bronze Bar · {item:2842} Silver Bar
-	["What 75-150 takes that the Auction House sells: 15 {item:2836}, 27 {item:2838}, 72 {item:2840}, 61 {item:2841} and 2 {item:2842}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden Müzayede Evi'nin sattıkları: 15 {item:2836}, 27 {item:2838}, 72 {item:2840}, 61 {item:2841} ve 2 {item:2842}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 75-150 takes that the Auction House sells: 15 {item:2836}, 27 {item:2838}, 72 {item:2840}, 61 {item:2841} and 2 {item:2842}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden müzayede evinin sattıkları: 15 {item:2836}, 27 {item:2838}, 72 {item:2840}, 61 {item:2841} ve 2 {item:2842}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 20: Coarse Stone (Westfall)
 	-- {item:2836} Coarse Stone · {spell:3930} Crafted Heavy Shot · {skill:186} Mining · {object:1732} Tin Vein · {zone:1436} Westfall
@@ -215,9 +215,9 @@ return {
 
 	-- Step 42: Engineering 150-225: Auction House
 	-- {skill:202} Engineering
-	["{skill:202} 150-225: Auction House"] = "{skill:202} 150-225: Müzayede Evi",
+	["{skill:202} 150-225: Auction House"] = "{skill:202} 150-225: müzayede evi",
 	-- {item:2319} Medium Leather · {item:2592} Wool Cloth · {item:2836} Coarse Stone · {item:2838} Heavy Stone · {item:2841} Bronze Bar · {item:2842} Silver Bar · {item:3575} Iron Bar · {item:3860} Mithril Bar · {item:7912} Solid Stone
-	["What 150-225 takes that the Auction House sells: 19 {item:2319}, 19 {item:2592}, 31 {item:2836}, 74 {item:2838}, 100 {item:2841}, 6 {item:2842}, 81 {item:3575}, 19 {item:3860} and 62 {item:7912}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden Müzayede Evi'nin sattıkları: 19 {item:2319}, 19 {item:2592}, 31 {item:2836}, 74 {item:2838}, 100 {item:2841}, 6 {item:2842}, 81 {item:3575}, 19 {item:3860} ve 62 {item:7912}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 150-225 takes that the Auction House sells: 19 {item:2319}, 19 {item:2592}, 31 {item:2836}, 74 {item:2838}, 100 {item:2841}, 6 {item:2842}, 81 {item:3575}, 19 {item:3860} and 62 {item:7912}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden müzayede evinin sattıkları: 19 {item:2319}, 19 {item:2592}, 31 {item:2836}, 74 {item:2838}, 100 {item:2841}, 6 {item:2842}, 81 {item:3575}, 19 {item:3860} ve 62 {item:7912}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 43: Medium Leather (Alliance)
 	-- {item:2319} Medium Leather
@@ -354,9 +354,9 @@ return {
 
 	-- Step 67: Engineering 225-300: Auction House
 	-- {skill:202} Engineering
-	["{skill:202} 225-300: Auction House"] = "{skill:202} 225-300: Müzayede Evi",
+	["{skill:202} 225-300: Auction House"] = "{skill:202} 225-300: müzayede evi",
 	-- {item:3860} Mithril Bar · {item:7912} Solid Stone · {item:12359} Thorium Bar · {item:14047} Runecloth
-	["What 225-300 takes that the Auction House sells: 118 {item:3860}, 212 {item:7912}, 156 {item:12359} and 24 {item:14047}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden Müzayede Evi'nin sattıkları: 118 {item:3860}, 212 {item:7912}, 156 {item:12359} ve 24 {item:14047}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 225-300 takes that the Auction House sells: 118 {item:3860}, 212 {item:7912}, 156 {item:12359} and 24 {item:14047}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden müzayede evinin sattıkları: 118 {item:3860}, 212 {item:7912}, 156 {item:12359} ve 24 {item:14047}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 68: Mithril Bar
 	-- {item:3860} Mithril Bar · {item:10512} Hi-Impact Mithril Slugs · {item:10513} Mithril Gyro-Shot · {skill:186} Mining · {item:3858} Mithril Ore

@@ -302,7 +302,7 @@ return {
 
 	-- Step 63: Image of Archmage Modera
 	-- {npc:269127} Image of Archmage Modera · {quest:92458} Heart of Disruption · {item:277507} Dalaran Sewer Key
-	["For your City of Dalaran run, next: the {npc:269127} wants the arcane remnants in the city thinned out and a mote from the heart of the disruption. {quest:92458} brings the {item:277507}, which opens the grate."] = "Sıradaki City of Dalaran koşun için: {npc:269127}, şehirdeki arcane kalıntılarının seyreltilmesini ve bozulmanın kalbinden bir zerre istiyor. {quest:92458} ızgarayı açan {item:277507} eşyasını verir.",
+	["For your City of Dalaran run, next: the {npc:269127} wants the arcane remnants in the city thinned out and a mote from the heart of the disruption. {quest:92458} brings the {item:277507}, which opens the grate."] = "Sıradaki City of Dalaran koşun için: {npc:269127}, şehirdeki arcane kalıntılarının seyreltilmesini ve bozulmanın merkezinden bir zerre istiyor. {quest:92458} ızgarayı açan {item:277507} eşyasını verir.",
 
 	-- Step 64: City of Dalaran
 	["City of Dalaran"] = "City of Dalaran",

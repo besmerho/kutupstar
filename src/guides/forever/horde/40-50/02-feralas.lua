@@ -245,7 +245,7 @@ return {
 	-- Step 56: Feralas: kill these as you meet them
 	-- {zone:1444} Feralas
 	["{zone:1444}: kill these as you meet them"] = "{zone:1444}: bunları karşılaştıkça öldür",
-	["The sprite darters flit over the grove just west of Mojache; nearly every one drops a wing. The Woodpaw alphas lead the camps south-west of it: kill them within the hour.\nCareful: Most Alphas sit in small tent camps with 2-4 other gnolls that join the fight, and other gnolls patrol between the camps."] = "Sprite darter'lar Mojache'nin hemen batısındaki korunun üstünde uçuşuyor; neredeyse hepsi kanat düşürür. Woodpaw alpha'ları onun güneybatısındaki kampları yönetiyor: onları bir saat içinde öldür.\nDikkat: Alpha'ların çoğu dövüşe katılan 2-4 başka gnoll'la küçük çadır kamplarında oturuyor, kamplar arasında da başka gnoll'lar devriye geziyor.",
+	["The sprite darters flit over the grove just west of Mojache; nearly every one drops a wing. The Woodpaw alphas lead the camps south-west of it: kill them within the hour.\nCareful: Most Alphas sit in small tent camps with 2-4 other gnolls that join the fight, and other gnolls patrol between the camps."] = "Sprite darter'lar Mojache'nin hemen batısındaki korunun üstünde uçuşuyor; neredeyse hepsi kanat düşürür. Woodpaw alpha'ları korunun güneybatısındaki kampları yönetiyor: onları bir saat içinde öldür.\nDikkat: Alpha'ların çoğu dövüşe katılan 2-4 başka gnoll'la küçük çadır kamplarında oturuyor, kamplar arasında da başka gnoll'lar devriye geziyor.",
 
 	-- Step 58: Grimtotem camp
 	["Grimtotem camp"] = "Grimtotem kampı",

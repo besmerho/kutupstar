@@ -207,7 +207,7 @@ return {
 	-- Step 32: Lake Al'Ameth
 	-- {npc:2150} Zenn Foulhoof · {npc:2080} Denalan · {quest:919} Timberling Sprouts
 	-- plural, as words: Lasher Sproutlings = {npc:275703} Lasher Sproutling
-	["South-west of Starbreeze, south of {npc:2150}. {npc:2080} tends his saplings on the shore; Lasher Sproutlings and Timberlings wander around him, and the {quest:919} grow among them."] = "Starbreeze'in güneybatısında, {npc:2150} yerinin güneyinde. {npc:2080} kıyıda fidanlarıyla ilgileniyor; Lasher Sproutling ve Timberling yaratıkları çevresinde dolaşıyor, {quest:919} filizleri de onların arasında yetişiyor.",
+	["South-west of Starbreeze, south of {npc:2150}. {npc:2080} tends his saplings on the shore; Lasher Sproutlings and Timberlings wander around him, and the {quest:919} grow among them."] = "Starbreeze'in güneybatısında, {npc:2150} adlı NPC'nin güneyinde. {npc:2080} kıyıda fidanlarıyla ilgileniyor; Lasher Sproutling ve Timberling yaratıkları çevresinde dolaşıyor, {quest:919} filizleri de onların arasında yetişiyor.",
 	-- {npc:2080} Denalan · {quest:922} Rellian Greenspyre · {zone:1457} Darnassus
 	["{npc:2080}: {quest:922} in {zone:1457} takes it"] = "{npc:2080}: {zone:1457} şehrindeki {quest:922} teslim alır",
 
@@ -300,7 +300,7 @@ return {
 	-- Step 49: Seek Redemption!
 	-- {area:186} Dolanaar · {npc:2150} Zenn Foulhoof · {npc:7234} Ferocitas the Dream Eater
 	-- plural, as words: Fel Cones = {object:1673} Fel Cone
-	["Fel Cones lie under the trees all around {area:186} and {npc:2150}: pick them up on the road east and hand them to {npc:2150} on the way to {npc:7234}."] = "Fel Cone nesneleri {area:186} köyünün ve {npc:2150} yerinin çevresindeki ağaçların altında duruyor: doğuya giden yolda topla ve {npc:7234} yanına giderken {npc:2150} ile teslim et.",
+	["Fel Cones lie under the trees all around {area:186} and {npc:2150}: pick them up on the road east and hand them to {npc:2150} on the way to {npc:7234}."] = "Fel Cone nesneleri {area:186} köyünün ve {npc:2150} adlı NPC'nin çevresindeki ağaçların altında duruyor: doğuya giden yolda topla ve {npc:7234} yanına giderken {npc:2150} ile teslim et.",
 
 	-- Step 50: Ferocitas the Dream Eater
 	-- {npc:7234} Ferocitas the Dream Eater · {area:260} Starbreeze Village · {item:8049} Gnarlpine Necklace
