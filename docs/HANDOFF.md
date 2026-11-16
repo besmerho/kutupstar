@@ -26,8 +26,8 @@ Barış's two hard requirements:
 
 | | |
 |---|---|
-| Polestar pinned | **v0.4.0** on the branch `polestar-v0.4.0` (16 Nov), **not merged into `main` yet**: `main` still pins **v0.3.7** (`package.json` → `config.polestarTag`) |
-| Kutupstar in the repo | **0.4.0** on `polestar-v0.4.0`, the same version as Polestar (TOC `## Version`, `package.json`); `main` has 0.3.7 |
+| Polestar pinned | **v0.4.0** (`package.json` → `config.polestarTag`), Polestar's newest release on 16 Nov, merged into `main` on 16 Nov |
+| Kutupstar in the repo | **0.4.0**, the same version as Polestar (TOC `## Version`, `package.json`); not uploaded to CurseForge |
 | Kutupstar on CurseForge | **0.3.7** uploaded on 11 Nov on Barış's request, straight through the API (`publish --yes`, file 9561909; no tag pushed). **0.3.6** uploaded on 11 Nov on Barış's request, straight through the API (`publish --yes`, file 9553830; no tag pushed). **0.3.5** uploaded on 8 Nov on Barış's OK, by pushing tag `v0.3.5` (the release workflow). 0.3.1 before it (5 Nov; project 1759256, file 9450094) |
 | Barış's game | Polestar **0.4.0** in the `_forever_` folder on 16 Nov; Kutupstar **0.4.0 installed** there by `build --install`, **not tested in game yet** |
 | UI texts at v0.4.0 | 4203/4325 Turkish; the other 122 stay English on purpose (`src/keep-english.json`, 7 keys no longer in the code dropped on 16 Nov); 0 to do |
@@ -63,7 +63,7 @@ the branch `polestar-v0.3.0` while `main` stayed at v0.2.6, so sessions cloning 
 | 14 Release 0.3.6 | uploaded (11 Nov, file 9553830) on Barış's request, before an in-game test: the in-game check is open (Open items 0). No `v0.3.6` tag yet: pushing one would start a second upload |
 | 15 Sync to Polestar v0.3.7 | done (11 Nov), merged into `main`: report in `reports/sync-v0.3.6-v0.3.7.md`. UI 166 new, 22 gone, 22 lost; guides 202 new (3 reused), 188 lost, none gone. New UI: hiding all of Polestar from the minimap button, the update notice, level-up spell cards and old-rank upgrades, Train All, Boosted Rest, timed quests. Guide churn: "the guide waits for level N first" notes, "Careful:" lines, trainer lists in the profession guides |
 | 16 Release 0.3.7 | uploaded (11 Nov, file 9561909) on Barış's request, before an in-game test. No `v0.3.7` tag: pushing one would start a second upload |
-| 17 Sync to Polestar v0.4.0 | done (16 Nov) on the branch `polestar-v0.4.0`, **not merged**: report in `reports/sync-v0.3.7-v0.4.0.md`. The biggest so far: UI 1360 new, 109 gone, 124 lost (Polestar's new settings window with search, Install, profiles, Move frames, the target list, pause, materials and auction-house buys); guides 2256 new (211 reused), 1342 lost, 4 new guides (Shendralas, Riverglades ×2, Desolace 06b), `alliance/50-60/05-silithus` gone (kept in `src/guides-removed/`). `Core.lua`'s dropdown moved to Theme > Text |
+| 17 Sync to Polestar v0.4.0 | done (16 Nov), merged into `main` on Barış's request before the in-game test: report in `reports/sync-v0.3.7-v0.4.0.md`. The biggest so far: UI 1360 new, 109 gone, 124 lost (Polestar's new settings window with search, Install, profiles, Move frames, the target list, pause, materials and auction-house buys); guides 2256 new (211 reused), 1342 lost, 4 new guides (Shendralas, Riverglades ×2, Desolace 06b), `alliance/50-60/05-silithus` gone (kept in `src/guides-removed/`). `Core.lua`'s dropdown moved to Theme > Text |
 | 18 Release 0.4.0 | not uploaded: waits for the in-game test and Barış's OK (Open items 0) |
 
 The next job comes when `node tools/kutup.js latest` says `update: yes`.
@@ -98,8 +98,8 @@ None of these block anything.
 
 | Branch | State |
 |---|---|
-| `main` | current: start here (still Polestar v0.3.7 until `polestar-v0.4.0` is merged) |
-| `polestar-v0.4.0` | the v0.4.0 sync (16 Nov), **not merged, not pushed** (local only until Barış asks) |
+| `main` | current: start here |
+| `polestar-v0.4.0` | the v0.4.0 sync, merged (16 Nov); no tag (0.4.0 is not uploaded) |
 | `polestar-v0.3.7` | the v0.3.7 sync, merged (11 Nov); no tag (0.3.7 was uploaded through the API) |
 | `polestar-v0.3.6` | the v0.3.6 sync, merged (11 Nov); no tag (0.3.6 was uploaded through the API) |
 | `polestar-v0.3.5` | the v0.3.5 sync, merged (8 Nov); tag `v0.3.5` is on it |

@@ -2,10 +2,10 @@
 
 Upstream: https://github.com/fitzforge/polestar, cloned into `upstream/` at the release in `package.json` → `config.polestarTag`. Interface 16001, GPL-3.0-only.
 
-## Status (16 Nov 2026, branch `polestar-v0.4.0`)
+## Status (16 Nov 2026, branch `main`)
 
-- Polestar pinned at **v0.4.0**, its newest release, on the branch `polestar-v0.4.0` (not merged into `main`, which still has v0.3.7). Kutupstar **0.4.0** built and installed in Barış's game, not yet tested in game and not uploaded. UI 4203/4325 (the other 122 stay English on purpose), guides 11790/11790 in 263 guides. The language dropdown moved to Polestar's Theme page, Text tab.
-- **Next:** the in-game test of 0.4.0 (the dropdown first), then merge and, on Barış's OK, the upload; then the next Polestar release (`node tools/kutup.js latest`). Open items and details: [docs/HANDOFF.md](docs/HANDOFF.md), which is the place to look first and to keep current.
+- Polestar pinned at **v0.4.0**, its newest release (the `polestar-v0.4.0` sync, merged on 16 Nov). Kutupstar **0.4.0** built and installed in Barış's game, not yet tested in game and not uploaded. UI 4203/4325 (the other 122 stay English on purpose), guides 11790/11790 in 263 guides. The language dropdown moved to Polestar's Theme page, Text tab.
+- **Next:** the in-game test of 0.4.0 (the dropdown first), then the upload on Barış's OK; then the next Polestar release (`node tools/kutup.js latest`). Open items and details: [docs/HANDOFF.md](docs/HANDOFF.md), which is the place to look first and to keep current.
 
 ### History (the numbers of that time, at Polestar v0.2.6)
 
