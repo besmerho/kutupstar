@@ -11,7 +11,7 @@ return {
 
 	-- Step 3: Hammertoe's Digsite
 	-- {zone:1432} Loch Modan · {zone:1418} Badlands · {npc:2860} Sigrun Ironhew
-	["Ride south out of {zone:1432} through the pass into the {zone:1418}; {npc:2860} camps at the dig."] = "{zone:1432} bölgesinden geçitle güneye, {zone:1418} bölgesine sür; {npc:2860} kazı alanında kamp kurmuş.",
+	["Ride south out of {zone:1432} through the pass into the {zone:1418}; {npc:2860} camps at the dig."] = "{zone:1432} bölgesinden geçitle güneye, {zone:1418} bölgesine sür. {npc:2860} kazı alanında kamp kurmuş.",
 	-- {quest:706} Fiery Blaze Enchantments · {item:4612} Black Drake's Heart
 	["{quest:706}: its {item:4612} is a rare drop, so the work and hand-in are optional too"] = "{quest:706}: {item:4612} nadir düşer, bu yüzden işi ve teslimi de isteğe bağlı",
 
@@ -32,7 +32,7 @@ return {
 
 	-- Step 7: Boss Tho'grun
 	-- {npc:2944} Boss Tho'grun · {area:342} Camp Boff · {zone:1418} Badlands
-	["{npc:2944} does not stay at {area:342}: he walks a long loop around the {zone:1418} with his guards, from the camp in the west along the south of the zone to about 61,69, north to about 49,49 and back west to the camp. The arrow follows his loop west from here until you meet him."] = "{npc:2944}, {area:342} kampında durmuyor: muhafızlarıyla {zone:1418} çevresinde uzun bir tur atıyor; batıdaki kamptan bölgenin güneyi boyunca yaklaşık 61,69'a, kuzeye yaklaşık 49,49'a ve batıya, kampa geri. Onunla karşılaşana dek ok buradan batıya, onun turunu izler.",
+	["{npc:2944} does not stay at {area:342}: he walks a long loop around the {zone:1418} with his guards, from the camp in the west along the south of the zone to about 61,69, north to about 49,49 and back west to the camp. The arrow follows his loop west from here until you meet him."] = "{npc:2944}, {area:342} kampında durmuyor: muhafızlarıyla {zone:1418} çevresinde uzun bir tur atıyor. Batıdaki kamptan bölgenin güneyi boyunca yaklaşık 61,69'a, kuzeye yaklaşık 49,49'a ve batıya, kampa geri. Onunla karşılaşana dek ok buradan batıya, onun turunu izler.",
 
 	-- Step 8: Garek
 	-- {area:1898} Dustwind Gulch
@@ -43,7 +43,7 @@ return {
 	-- Step 9: Lethlor Ravine
 	-- {npc:2888} Garek · {item:4612} Black Drake's Heart
 	-- plural, as words: Scalding Whelps = {npc:2725} Scalding Whelp · Scorched Guardians = {npc:2726} Scorched Guardian
-	["The Scalding Whelps nest in the ravine east of {npc:2888}; leave the Scorched Guardians (elite) alone. The {item:4612} drops rarely: take it if it comes while you grind."] = "Scalding Whelp yaratıkları {npc:2888} adlı NPC'nin doğusundaki vadide yuva yapmış; Scorched Guardian yaratıklarına (elit) dokunma. {item:4612} nadiren düşer: seviye kasarken düşerse al.",
+	["The Scalding Whelps nest in the ravine east of {npc:2888}; leave the Scorched Guardians (elite) alone. The {item:4612} drops rarely: take it if it comes while you grind."] = "Scalding Whelp yaratıkları {npc:2888} adlı NPC'nin doğusundaki vadide yuva yapmış. Scorched Guardian yaratıklarına (elit) dokunma. {item:4612} nadiren düşer: seviye kasarken düşerse al.",
 
 	-- Step 11: Dorgaron
 	-- {npc:269577} Dorgaron · {zone:1432} Loch Modan
@@ -69,9 +69,9 @@ return {
 	-- {area:1517} Uldaman · {zone:1418} Badlands
 	["Back through the pass: the Stonevault troggs dig outside {area:1517} at the {zone:1418}' northern edge. The carved urns and the magenta mushroom clusters sit in their caves and tunnels, outside the dungeon itself."] = "Geçitten geri dön: Stonevault trogg'ları {zone:1418} bölgesinin kuzey kenarında, {area:1517} dışında kazı yapıyor. Oymalı küpler ve macenta mantar kümeleri zindanın kendisinde değil, onların mağaralarında ve tünellerinde.",
 	-- {item:8047} Magenta Fungus Cap
-	["{item:8047}; below ground"] = "{item:8047}; yer altında",
+	["{item:8047}; below ground"] = "{item:8047}, yer altında",
 	-- {object:2743} Carved Stone Urn
-	["{object:2743}; below ground"] = "{object:2743}; yer altında",
+	["{object:2743}; below ground"] = "{object:2743}, yer altında",
 
 	-- Step 17: Back to Loch Modan
 	-- {zone:1432} Loch Modan
@@ -104,7 +104,7 @@ return {
 
 	-- Step 24: Aerie Peak
 	-- {area:271} Southshore · {zone:1425} The Hinterlands · {area:348} Aerie Peak · {npc:5635} Falstad Wildhammer · {quest:1450} Gryphon Master Talonaxe · {npc:7884} Fraggar Thundermantle
-	["Ride north-east out of {area:271} on the road into the {zone:1425}; {area:348} sits just past the border. {npc:5635} holds court at the top, {quest:1450} tends the aviary and {npc:7884} stands by the inn."] = "{area:271} kasabasından kuzeydoğuya, {zone:1425} bölgesine giden yola sür; {area:348} sınırın hemen ötesinde. {npc:5635} tepede divan kuruyor, {quest:1450} kuşhaneye bakıyor, {npc:7884} hanın yanında duruyor.",
+	["Ride north-east out of {area:271} on the road into the {zone:1425}; {area:348} sits just past the border. {npc:5635} holds court at the top, {quest:1450} tends the aviary and {npc:7884} stands by the inn."] = "{area:271} kasabasından kuzeydoğuya, {zone:1425} bölgesine giden yola sür. {area:348} sınırın hemen ötesinde. {npc:5635} tepede divan kuruyor, {quest:1450} kuşhaneye bakıyor, {npc:7884} hanın yanında duruyor.",
 	-- {quest:1450} Gryphon Master Talonaxe
 	["{quest:1450}, inside"] = "{quest:1450}, içeride",
 	-- {npc:7884} Fraggar Thundermantle
@@ -117,11 +117,11 @@ return {
 	-- Step 26: Witherbark villages
 	["Witherbark villages"] = "Witherbark köyleri",
 	-- {npc:5634} Rhapsody Shindigger · {npc:270772} Witch Doctor Ti'ik
-	["The first two cages stand together in the Witherbark village south of {npc:5634}; the third is in the next village to the east. Every Witherbark troll can drop a necklace.\nCareful: {npc:270772} (49) and his Hexed Larvae (45) keep to the huts of the western village, around 25,64: take the necklaces from the trolls outside."] = "İlk iki kafes {npc:5634} yanının güneyindeki Witherbark köyünde yan yana duruyor; üçüncüsü doğudaki sonraki köyde. Her Witherbark trolü kolye düşürebilir.\nDikkat: {npc:270772} (49) ve Hexed Larva yaratıkları (45) batı köyünün kulübelerinde, yaklaşık 25,64 çevresinde kalıyor: kolyeleri dışarıdaki trollerden al.",
+	["The first two cages stand together in the Witherbark village south of {npc:5634}; the third is in the next village to the east. Every Witherbark troll can drop a necklace.\nCareful: {npc:270772} (49) and his Hexed Larvae (45) keep to the huts of the western village, around 25,64: take the necklaces from the trolls outside."] = "İlk iki kafes {npc:5634} yanının güneyindeki Witherbark köyünde yan yana duruyor. Üçüncüsü doğudaki sonraki köyde. Her Witherbark trolü kolye düşürebilir.\nDikkat: {npc:270772} (49) ve Hexed Larva yaratıkları (45) batı köyünün kulübelerinde, yaklaşık 25,64 çevresinde kalıyor: kolyeleri dışarıdaki trollerden al.",
 
 	-- Step 27: Aerie Peak
 	-- {npc:5636} Gryphon Master Talonaxe
-	["{npc:5636}, beside the flight master at the top; inside"] = "{npc:5636}, tepedeki uçuş ustasının yanında; içeride",
+	["{npc:5636}, beside the flight master at the top; inside"] = "{npc:5636}, tepedeki uçuş ustasının yanında, içeride",
 	-- {zone:1425} The Hinterlands
 	["Talonaxe's next task waits for a later {zone:1425} guide."] = "Talonaxe'in sonraki işi daha sonraki bir {zone:1425} rehberini bekliyor.",
 
@@ -152,7 +152,7 @@ return {
 	["The {area:511}"] = "{area:511}",
 	-- {item:280092} Wyrmtail
 	-- plural, as words: Searing Hatchlings = {npc:4323} Searing Hatchling · Firemane Scalebanes = {npc:4328} Firemane Scalebane
-	["The {item:280092} grows in the bog east of the camp: gather it first. Then the Searing Hatchlings and Whelps (41-43) and the Firemane dragonkin nest in the bog north and west of Mudsprocket, on the way back; all of them drop the shed scales.\nCareful: the Firemane Scalebanes and Flamecallers are 43-44 and cast fire: pull them one at a time."] = "{item:280092} kampın doğusundaki bataklıkta yetişiyor: önce onu topla. Sonra Searing Hatchling ve Whelp yaratıkları (41-43) ile Firemane ejderhaları, dönüş yolunda Mudsprocket'in kuzeyindeki ve batısındaki bataklıkta yuva yapmış; hepsi dökülmüş pul düşürür.\nDikkat: Firemane Scalebane ve Flamecaller yaratıkları 43-44 ve ateş büyüsü yapar: onları tek tek çek.",
+	["The {item:280092} grows in the bog east of the camp: gather it first. Then the Searing Hatchlings and Whelps (41-43) and the Firemane dragonkin nest in the bog north and west of Mudsprocket, on the way back; all of them drop the shed scales.\nCareful: the Firemane Scalebanes and Flamecallers are 43-44 and cast fire: pull them one at a time."] = "{item:280092} kampın doğusundaki bataklıkta yetişiyor: önce onu topla. Sonra Searing Hatchling ve Whelp yaratıkları (41-43) ile Firemane ejderhaları, dönüş yolunda Mudsprocket'in kuzeyindeki ve batısındaki bataklıkta yuva yapmış. Hepsi dökülmüş pul düşürür.\nDikkat: Firemane Scalebane ve Flamecaller yaratıkları 43-44 ve ateş büyüsü yapar: onları tek tek çek.",
 
 	-- Step 34: Mudsprocket
 	["Then ride back north-east to Theramore's flight master."] = "Sonra kuzeydoğuya, Theramore'un uçuş ustasına geri sür.",

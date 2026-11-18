@@ -35,7 +35,7 @@ return {
 	["{npc:7764}: his answer waits in {area:702}, later"] = "{npc:7764}: cevabı daha sonra {area:702} köyünde",
 
 	-- Step 5: Ruins of Solarsal
-	["Walk south along the island to the naga ruins; the gazebo stands among them."] = "Ada boyunca güneye, naga harabelerine yürü; çardak onların arasında.",
+	["Walk south along the island to the naga ruins; the gazebo stands among them."] = "Ada boyunca güneye, naga harabelerine yürü, çardak onların arasında.",
 
 	-- Step 7: Hatecrest naga
 	["Hatecrest naga"] = "Hatecrest nagaları",
@@ -60,18 +60,18 @@ return {
 	-- Step 12: Gordunni ogres
 	["Gordunni ogres"] = "Gordunni ogreları",
 	-- {npc:5236} Gordunni Shaman
-	["Ride east to the Gordunni camp in the hills south-east of the yeti valley: Warlocks and Shaman hold the camp, Brutes wander the slopes around it and further north.\nCareful: the {npc:5236} are 44-45 and the Warlocks 43-44, casters a level or two over you here: pull them one at a time from the camp's edge, and take the Brutes (42-43) on the slopes first."] = "Doğuya, yeti vadisinin güneydoğusundaki tepelerde bulunan Gordunni kampına sür: kampı Warlock ve Shaman'lar tutuyor, Brute'lar çevresindeki ve daha kuzeydeki yamaçlarda dolaşıyor.\nDikkat: {npc:5236} yaratıkları 44-45, Warlock'lar 43-44; burada senden bir iki seviye yüksek büyücüler: onları kampın kenarından tek tek çek ve önce yamaçlardaki Brute'ları (42-43) al.",
+	["Ride east to the Gordunni camp in the hills south-east of the yeti valley: Warlocks and Shaman hold the camp, Brutes wander the slopes around it and further north.\nCareful: the {npc:5236} are 44-45 and the Warlocks 43-44, casters a level or two over you here: pull them one at a time from the camp's edge, and take the Brutes (42-43) on the slopes first."] = "Doğuya, yeti vadisinin güneydoğusundaki tepelerde bulunan Gordunni kampına sür: kampı Warlock ve Shaman'lar tutuyor, Brute'lar çevresindeki ve daha kuzeydeki yamaçlarda dolaşıyor.\nDikkat: {npc:5236} yaratıkları 44-45, Warlock'lar 43-44. Burada senden bir iki seviye yüksek büyücüler: onları kampın kenarından tek tek çek ve önce yamaçlardaki Brute'ları (42-43) al.",
 
 	-- Step 13: Feral Scar Vale
 	-- {npc:5346} Bloodroar the Stalker
-	["Ride north into the yeti valley. Every Feral Scar yeti can drop a thick hide; {npc:5346} (level 48) prowls the middle."] = "Kuzeye, yeti vadisine git. Her Feral Scar yetisi kalın post düşürebilir; {npc:5346} (seviye 48) vadinin ortasında dolaşıyor.",
+	["Ride north into the yeti valley. Every Feral Scar yeti can drop a thick hide; {npc:5346} (level 48) prowls the middle."] = "Kuzeye, yeti vadisine git. Her Feral Scar yetisi kalın post düşürebilir. {npc:5346} (seviye 48) vadinin ortasında dolaşıyor.",
 
 	-- Step 14: Isle of Dread
 	-- {area:1121} Isle of Dread · {area:1120} Sardor Isle · {npc:8136} Lord Shalzaru
 	-- plural, as words: Hatecrest Serpent Guards = {npc:5333} Hatecrest Serpent Guard
-	["The {area:1121} is the island just south of {area:1120}: swim over. Hatecrest Serpent Guards and Sorceresses hold it; {npc:8136} (level 47) waits in the cave at its south end. Pull his guards first."] = "{area:1121}, {area:1120} adasının hemen güneyindeki ada: yüzerek geç. Hatecrest Serpent Guard ve Hatecrest Sorceress yaratıkları adayı tutuyor; {npc:8136} (seviye 47) güney ucundaki mağarada bekliyor. Önce muhafızlarını çek.",
+	["The {area:1121} is the island just south of {area:1120}: swim over. Hatecrest Serpent Guards and Sorceresses hold it; {npc:8136} (level 47) waits in the cave at its south end. Pull his guards first."] = "{area:1121}, {area:1120} adasının hemen güneyindeki ada: yüzerek geç. Hatecrest Serpent Guard ve Hatecrest Sorceress yaratıkları adayı tutuyor. {npc:8136} (seviye 47) güney ucundaki mağarada bekliyor. Önce muhafızlarını çek.",
 	-- {item:9248} Mysterious Relic
-	["{item:9248}; below ground"] = "{item:9248}; yer altında",
+	["{item:9248}; below ground"] = "{item:9248}, yer altında",
 
 	-- Step 15: Feathermoon Stronghold
 	-- {npc:7877} Latronicus Moonspear · {npc:7878} Vestia Moonspear · {npc:7900} Angelas Moonbreeze · {npc:7880} Ginro Hearthkindle · {npc:7852} Pratt McGrubben
@@ -89,7 +89,7 @@ return {
 	-- Step 17: Back to the coast
 	["Back to the coast"] = "Kıyıya dön",
 	-- {zone:1444} Feralas · {zone:2652} Shen'dralas · {area:489} Thalanaar
-	["You came into {zone:1444} from {zone:2652}, so {area:489}'s flight path is still to learn: take the boat back to the coast and ride east along the road; you pick up the flight path when this guide ends at {area:489}."] = "{zone:1444} bölgesine {zone:2652} yöresinden geldin, bu yüzden {area:489} uçuş noktası hâlâ öğrenilecek: gemiyle kıyıya dön ve yol boyunca doğuya sür; bu rehber {area:489} karakolunda bittiğinde uçuş noktasını alırsın.",
+	["You came into {zone:1444} from {zone:2652}, so {area:489}'s flight path is still to learn: take the boat back to the coast and ride east along the road; you pick up the flight path when this guide ends at {area:489}."] = "{zone:1444} bölgesine {zone:2652} yöresinden geldin, bu yüzden {area:489} uçuş noktası hâlâ öğrenilecek: gemiyle kıyıya dön ve yol boyunca doğuya sür. Bu rehber {area:489} karakolunda bittiğinde uçuş noktasını alırsın.",
 
 	-- Step 18: Feralas
 	["Grimtotem camp"] = "Grimtotem kampı",
@@ -97,7 +97,7 @@ return {
 	-- Step 19: Grimtotem camp
 	-- {area:489} Thalanaar · {npc:7956} Kindal Moonweaver
 	-- plural, as words: Sprite Darters = {npc:5278} Sprite Darter
-	["From {area:489} ride west along the road to the Grimtotem camp north of it. {npc:7956} waits outside it; free the Sprite Darters from the pen in the middle and keep {npc:7956} and at least six of them alive."] = "{area:489} kesiminden yol boyunca batıya, yolun kuzeyindeki Grimtotem kampına sür. {npc:7956} kampın dışında bekliyor; ortadaki ağıldan Sprite Darter'ları serbest bırak ve {npc:7956} ile en az altısını hayatta tut.",
+	["From {area:489} ride west along the road to the Grimtotem camp north of it. {npc:7956} waits outside it; free the Sprite Darters from the pen in the middle and keep {npc:7956} and at least six of them alive."] = "{area:489} kesiminden yol boyunca batıya, yolun kuzeyindeki Grimtotem kampına sür. {npc:7956} kampın dışında bekliyor. Ortadaki ağıldan Sprite Darter'ları serbest bırak ve {npc:7956} ile en az altısını hayatta tut.",
 
 	-- Step 20: Grimtotem tauren
 	["Grimtotem tauren"] = "Grimtotem taurenleri",
@@ -110,7 +110,7 @@ return {
 
 	-- Step 22: The Writhing Deep
 	-- {area:489} Thalanaar
-	["Ride south-east to the Woodpaw gnolls; the courier's backpacks lie in their southern camp, and a parcel inside them starts a delivery to {area:489}. The Zukk'ash hive is just south: fight down to the pod that holds Raschal, free him and keep him alive on the way out."] = "Güneydoğuya, Woodpaw gnollarına git; ulağın sırt çantaları onların güney kampında, içlerinden çıkan bir paket {area:489} karakoluna bir teslimat başlatıyor. Zukk'ash kovanı hemen güneyde: savaşarak Raschal'ı tutan koza kadar in, onu kurtar ve çıkışta hayatta tut.",
+	["Ride south-east to the Woodpaw gnolls; the courier's backpacks lie in their southern camp, and a parcel inside them starts a delivery to {area:489}. The Zukk'ash hive is just south: fight down to the pod that holds Raschal, free him and keep him alive on the way out."] = "Güneydoğuya, Woodpaw gnollarına git. Ulağın sırt çantaları onların güney kampında, içlerinden çıkan bir paket {area:489} karakoluna bir teslimat başlatıyor. Zukk'ash kovanı hemen güneyde: savaşarak Raschal'ı tutan koza kadar in, onu kurtar ve çıkışta hayatta tut.",
 	-- {item:11463} Undelivered Parcel
 	["{item:11463}, from the backpacks"] = "{item:11463}, sırt çantalarından",
 	-- {object:164954} Zukk'ash Pod
@@ -119,7 +119,7 @@ return {
 	-- Step 23: Grind to 45
 	["Grind to 45"] = "Seviye 45'e kadar kas",
 	-- {area:1105} Feral Scar Vale · {area:978} Zul'Farrak
-	["Ride west into {area:1105}: its yetis are 43-45. The Rage Scar yetis in the hills to the north are 46-49: leave them. Or, with a group, run the {area:978} dungeon instead."] = "Batıya, {area:1105} vadisine sür: yetileri 43-45. Kuzeydeki tepelerde Rage Scar yetileri 46-49: onları bırak. Ya da grubun varsa onun yerine {area:978} zindanına koş.",
+	["Ride west into {area:1105}: its yetis are 43-45. The Rage Scar yetis in the hills to the north are 46-49: leave them. Or, with a group, run the {area:978} dungeon instead."] = "Batıya, {area:1105} vadisine sür: yetileri 43-45. Kuzeydeki tepelerde Rage Scar yetileri 46-49: onları bırak. Ya da grubun varsa onun yerine {area:978} zindanını yap.",
 	-- {npc:5292} Feral Scar Yeti · {area:1105} Feral Scar Vale · {zone:1444} Feralas
 	["grind on {npc:5292} at {area:1105}, {zone:1444}"] = "Kas: {npc:5292} ({area:1105}, {zone:1444})",
 

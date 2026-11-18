@@ -22,7 +22,7 @@ return {
 
 	-- Step 4: Rebel Camp
 	-- {zone:1431} Duskwood
-	["From {zone:1431} take the road south; the camp sits in the hills west of the road."] = "{zone:1431} bölgesinden güney yolunu izle; kamp yolun batısındaki tepelerde.",
+	["From {zone:1431} take the road south; the camp sits in the hills west of the road."] = "{zone:1431} bölgesinden güney yolunu izle. Kamp yolun batısındaki tepelerde.",
 	-- {npc:770} Corporal Kaleb · {npc:773} Krazek · {area:35} Booty Bay
 	["{npc:770}, if 30-40/04 didn't give it: for {npc:773} in {area:35}"] = "{npc:770}, 30-40/04 vermediyse: {area:35} limanındaki {npc:773} için",
 
@@ -44,7 +44,7 @@ return {
 	-- Step 7: Kurzen's Compound
 	-- {npc:218230} Wendel Mathers · {spell:7964} Smoke Bomb · {npc:813} Colonel Kurzen
 	-- plural, as words: Kurzen Commandos = {npc:938} Kurzen Commando
-	["{npc:218230}, a cook, is caged at the compound's western edge: take his quest now and keep it, his cage key and the fighter's uniform come on the 40-50 Stranglethorn guide, when the Subchiefs and Elites are your level. Headshrinkers stand deeper in the compound; the Commandos lurk stealthed around it and in the cave, and Herod's strongbox sits by the cave mouth. Pick up Green Hills pages as they drop.\nCareful: Kurzen Commandos are level 34-35, not elite, and often spawn stealthed; near death they use {spell:7964}. {npc:813}, an elite of 39-40, stands at the compound's north end: leave him be."] = "Bir aşçı olan {npc:218230}, yerleşkenin batı kenarında kafeste: görevini şimdi al ve sakla; kafes anahtarı ve dövüşçü üniforması, Subchief ve Elite yaratıkları senin seviyende olduğunda 40-50 Stranglethorn rehberinde gelir. Headshrinker yaratıkları yerleşkenin daha içinde duruyor; Commando'lar çevresinde ve mağarada gizlenmiş pusuda bekliyor, Herod'un kasası da mağara ağzının yanında. Düştükçe Green Hills sayfalarını topla.\nDikkat: Kurzen Commando yaratıkları 34-35. seviye, elit değil ve çoğu zaman gizlenmiş doğar; ölmek üzereyken {spell:7964} kullanırlar. 39-40. seviye elit {npc:813} yerleşkenin kuzey ucunda duruyor: ona bulaşma.",
+	["{npc:218230}, a cook, is caged at the compound's western edge: take his quest now and keep it, his cage key and the fighter's uniform come on the 40-50 Stranglethorn guide, when the Subchiefs and Elites are your level. Headshrinkers stand deeper in the compound; the Commandos lurk stealthed around it and in the cave, and Herod's strongbox sits by the cave mouth. Pick up Green Hills pages as they drop.\nCareful: Kurzen Commandos are level 34-35, not elite, and often spawn stealthed; near death they use {spell:7964}. {npc:813}, an elite of 39-40, stands at the compound's north end: leave him be."] = "Bir aşçı olan {npc:218230}, yerleşkenin batı kenarında kafeste: görevini şimdi al ve sakla. Kafes anahtarı ve dövüşçü üniforması, Subchief ve Elite yaratıkları senin seviyende olduğunda 40-50 Stranglethorn rehberinde gelir. Headshrinker yaratıkları yerleşkenin daha içinde duruyor. Commando'lar çevresinde ve mağarada gizlenmiş pusuda bekliyor, Herod'un kasası da mağara ağzının yanında. Düştükçe Green Hills sayfalarını topla.\nDikkat: Kurzen Commando yaratıkları 34-35. seviye, elit değil ve çoğu zaman gizlenmiş doğar. Ölmek üzereyken {spell:7964} kullanırlar. 39-40. seviye elit {npc:813} yerleşkenin kuzey ucunda duruyor: ona bulaşma.",
 	-- {npc:218230} Wendel Mathers
 	["{npc:218230}, in his cage"] = "{npc:218230}, kafesinde",
 	-- {npc:941} Kurzen Headshrinker
@@ -59,9 +59,9 @@ return {
 
 	-- Step 9: The jungle ruins
 	["The jungle ruins"] = "Orman harabeleri",
-	["West across the jungle to the troll ruins: each holds one stone tablet of the troll legends, the first two in the ruins south-west of Nesingwary's camp, the last two on the hill in the north-west.\nCareful: the Saltscale murlocs on the shore near the second tablet are elite (35-37): swim to the tablet from the water and keep clear of them."] = "Ormanın içinden batıya, troll harabelerine: her birinde troll efsanelerinin bir taş tableti var; ilk ikisi Nesingwary'nin kampının güneybatısındaki harabelerde, son ikisi kuzeybatıdaki tepede.\nDikkat: ikinci tabletin yakınındaki kıyıda Saltscale murlocları elit (35-37): tablete sudan yüz ve onlardan uzak dur.",
+	["West across the jungle to the troll ruins: each holds one stone tablet of the troll legends, the first two in the ruins south-west of Nesingwary's camp, the last two on the hill in the north-west.\nCareful: the Saltscale murlocs on the shore near the second tablet are elite (35-37): swim to the tablet from the water and keep clear of them."] = "Ormanın içinden batıya, troll harabelerine: her birinde troll efsanelerinin bir taş tableti var. İlk ikisi Nesingwary'nin kampının güneybatısındaki harabelerde, son ikisi kuzeybatıdaki tepede.\nDikkat: ikinci tabletin yakınındaki kıyıda Saltscale murlocları elit (35-37): tablete sudan yüz ve onlardan uzak dur.",
 	-- {item:2006} The Second Troll Legend · {object:58} Gri'lek the Wanderer
-	["{item:2006}: {object:58}; underwater"] = "{item:2006}: {object:58}; su altında",
+	["{item:2006}: {object:58}; underwater"] = "{item:2006}: {object:58}, su altında",
 
 	-- Step 10: Water Elementals
 	-- plural, as words: Lesser Water Elementals = {npc:691} Lesser Water Elemental
@@ -119,7 +119,7 @@ return {
 	["{npc:773}, upstairs"] = "{npc:773}, üst katta",
 	-- {npc:773} Krazek · {item:4278} Lesser Bloodstone Ore · {zone:1417} Arathi Highlands · {skill:186} Mining
 	-- plural, as words: Lesser Bloodstone Deposits = {object:2653} Lesser Bloodstone Deposit
-	["{npc:773}, upstairs: this optional quest needs four {item:4278}. Mine Lesser Bloodstone Deposits in {zone:1417} with {skill:186} 75, or buy the ore at the Auction House or ask a miner friend. The kobolds do not drop it; skip this quest if you cannot get the ore."] = "{npc:773}, üst katta: bu isteğe bağlı görev dört {item:4278} istiyor. {zone:1417} bölgesinde {skill:186} 75 ile Lesser Bloodstone Deposit kaz, ya da cevheri müzayede evinden al veya madenci bir arkadaşından iste. Kobold'lar onu düşürmez; cevheri bulamıyorsan bu görevi atla.",
+	["{npc:773}, upstairs: this optional quest needs four {item:4278}. Mine Lesser Bloodstone Deposits in {zone:1417} with {skill:186} 75, or buy the ore at the Auction House or ask a miner friend. The kobolds do not drop it; skip this quest if you cannot get the ore."] = "{npc:773}, üst katta: bu isteğe bağlı görev dört {item:4278} istiyor. {zone:1417} bölgesinde {skill:186} 75 ile Lesser Bloodstone Deposit kaz ya da cevheri Auction House'tan al veya madenci bir arkadaşından iste. Kobold'lar onu düşürmez. Cevheri bulamıyorsan bu görevi atla.",
 	-- {npc:2498} Crank Fizzlebub
 	["{npc:2498}, inside"] = "{npc:2498}, içeride",
 	["\"Sea Wolf\" MacKinley, on the top floor"] = "\"Sea Wolf\" MacKinley, en üst katta",

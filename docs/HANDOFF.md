@@ -42,8 +42,9 @@ Barış's two hard requirements:
 the branch `polestar-v0.3.0` while `main` stayed at v0.2.6, so sessions cloning `main` kept checking the old release.
 `main` caught up on 5 Nov and has carried each sync since.
 
-**Version rule (Barış, 5 Nov):** Kutupstar's version follows the pinned Polestar's, so Polestar 0.3.1 means Kutupstar
-0.3.1. There is no rule yet for a Kutupstar-only release between two Polestar releases (a wording fix): ask Barış.
+**Version rule (Barış, 5 Nov; 18 Nov):** Kutupstar's version follows the pinned Polestar's, so Polestar 0.3.1 means
+Kutupstar 0.3.1. A change to Kutupstar alone (a wording fix, a polish) is not released by itself: it waits on `main` and
+ships with the next Polestar sync.
 
 | Phase | State |
 |---|---|
@@ -70,6 +71,8 @@ the branch `polestar-v0.3.0` while `main` stayed at v0.2.6, so sessions cloning 
 | 20 Sync to Polestar v0.4.0.1 | done (16 Nov), merged into `main`: report in `reports/sync-v0.4.0-v0.4.0.1.md`. A hotfix: UI 0 new (the 124 "lost" in the report are the old block kept from v0.4.0), guides 1 new (`The {object:142071}` in `horde/40-50/06-azshara`). `audit` all ok, `Core.lua` unchanged |
 | 22 `turkce-yazim` skill | done (18 Nov, on `main`, Barış's request): `.claude/skills/turkce-yazim/SKILL.md` blends two MIT skills, [insanca](https://github.com/tahiryildiz/insanca) and [turkish-anti-ai-skill](https://github.com/yucezerey/turkish-anti-ai-skill), cut down to game UI and guide notes. Every Turkish text follows it, `polestar-sync` included. New check `check --dogal [--changed[=ref]]` (`tools/lib/dogal.js`) lists its patterns as questions. Run on the whole repo on 18 Nov: 817 questions, most of them `onun` (269) and the known semicolons (365); real finds: 35 "Yakında" for "nearby" in profession guides ("Needs an anvil nearby"), "kilometre taşı" (18). Left for a polish (Open items 1) |
 | 23 Sync to Polestar v0.4.1 | done (18 Nov), merged into `main`: report in `reports/sync-v0.4.0.1-v0.4.1.md`. UI 129 new (3 kept English: profession ranks), guides 151 new (9 reused), 46 lost, none gone. New: Freedoom Arcade on flights, quest XP on the XP bar, target list styles and portraits, a spare-bag offer, "left out here" lines, quest tooltips, "Ride to" travel lines, The Drowned City guides (Alliance, Horde). The 10 Alterac Valley kill targets (`Graveyard Assaulted`…) stay English: they match the quest log (`logLine`). The first sync written by `turkce-yazim`; a meaning error found on the way and fixed: Private Thorsen's note said the guide "visits" Bookie Herod where the English says it passes over it. `Core.lua` unchanged; installed in Barış's game |
+| 25 Targeted polish | done (18 Nov) on the branch `cila-hedefli`, **not merged**: 172 texts changed by the `turkce-yazim` rules. "Yakında" for "nearby" (35, read as "soon"), "{area} yerine" (21, read as "instead of"), "onun dışında" for "outside it" (2), "ihtiyaç duyar" / "-mesini sağlar" / "tarafından" calques, comma before ve/ya da (TDK), needless "Sen/Onun" openers, "cooldown" as a duration, 7 dropped genitives ("{npc:6182} çiftlik evi"). Reviewed and left as right: most of the 243 `onun` (spatial "onun yanında" next to a token is natural) and the "{npc} kampı" names. Not touched (Barış decides): 362 semicolons, "kilometre taşı" (18), "X'lar" plurals (740) |
+| 26 Barış's 18 Nov decisions | done on `cila-hedefli`, **not merged**: STIL.md §6, §7, 3.1 and 3.3 rewritten. Player jargon stays English: humanoid, quartermaster, Auction House, token, insignia, trash, battleground, "3 mark" (403 texts changed); gök gemisi, Legacy yeteneği, "yükseltme" for a gear upgrade, "eşik" for a Legacy milestone, "%5". "Run it" is "Gir". Semicolons: 2500 in 2254 texts became a full stop or a comma; kept only for lists whose items have commas. "{npc} kampı" allowed for places; "Fleshripper'lar" allowed, with the suffix by English pronunciation (17 fixed: Ogre'lar, Highwayman'lar…) |
 | 24 Release 0.4.1 | uploaded (18 Nov, file 9679688) on Barış's request, before an in-game test, by the tag `v0.4.1` (release workflow). Its changelog says the translations were "baştan gözden geçirildi": true of the 16 Nov review that 0.4.0.1 already carried, not new in 0.4.1 |
 | 21 Release 0.4.0.1 | uploaded (16 Nov, file 9654422) on Barış's request, before an in-game test: the in-game check is open (Open items 0). No `v0.4.0.1` tag: pushing one would start a second upload |
 
@@ -89,21 +92,10 @@ None of these block anything.
    pause, materials window) for length and wording, and read `KutupstarDB.diag` (`fill` should be `early`).
    Party chat lines are Turkish (other locales translate them too); the marker `{rt1} Polestar: ` stays as it is
    because Polestar's chat filter looks for it.
-1. **Wording polish, safe for a cloud session** (`check` after each, commit and push on a branch). The v0.3.0 work
-   left a few terms in two forms; line counts are from 5 Nov, and STIL.md §7 names the form to keep:
-   - `humanoid` (19 lines) → `insansı` (31)
-   - `skyboat` (3) → `gök gemisi` (31)
-   - `battleground` (9) → `savaş alanı` (20; the UI says "Savaş alanlarında"), and the pack folder "İtibar · Battleground'lar"
-   - `3 nişan için` for Marks of Honor (16 lines) → `3 marka için`; `nişan` is for insignia and badges
-   - `Legacy ayrıcalığı` (1) → `Legacy yeteneği` (13)
-   - `yüzde 5` (8) and `%5` (97) are both in use; `%5` is the more common
-   - From `check --dogal` (18 Nov): 35 texts write "Yakında" (soon) for "nearby", mostly "Needs an anvil nearby" in
-     the profession guides: a meaning error, safe to fix ("Yakınında bir örs olmalı"). The 269 `onun` and 34 `kendi`
-     questions are worth a pass; many are right as they are
-   - From the anti-AI review (16 Nov), Barış decides: "kilometre taşı" for the Legacy System milestone (18 lines in
-     the profession guides; "eşik" reads more natural), and the 365 texts where the translation joined two sentences
-     with a semicolon the English did not have (a full stop reads better). The 1890 semicolons copied from the English
-     are a bigger, separate question
+1. **A full read of every text against its English** (Barış's option 3, not started): the targeted polish and the
+   18 Nov decisions are done (phases 25-26); what is left is reading each translation for meaning and calques no script
+   finds, folder by folder, most-played first (starter zones, then the UI). Estimated 15-25 hours. Safe for a cloud
+   session: `check --dogal --changed` after each folder, commit and push on a branch.
 2. **`curseforge-description` branch**: the English and Turkish CurseForge project page (`docs/CURSEFORGE.md` and an
    HTML version, 22 Oct). Never merged. Barış decides; it may need updating since 0.1.x.
 3. **`KutupstarDB.diag` for a v0.3.x build**: worth reading when the file appears (after a `/reload` or logout). See

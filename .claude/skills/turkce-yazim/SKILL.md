@@ -48,8 +48,10 @@ Sicil: **teknik doküman + arayüz metni**, okura dönük, kısa. Dolayısıyla:
 8. **Kip.** Sonradan öğrenilen ya da kayıttan okunan olay "-miş": "Görev verisine göre öldürülmüş". Arayüz
    bildirimi ve rehber adımı: emir ya da "-yor".
 9. **Ad tamlaması zinciri** üç adı geçerse sıfat-fiil ya da hal ekiyle aç.
-10. **Anlam tuzakları** (bu projede yakalananlar): "nearby" = "yakınlarda / yakındaki / yakında bir X" değil,
-    "yakında" zaman bildirir ("soon"). "in the heart of" = "ortasında", "kalbinde" değil. "and more" = "vb.",
+10. **Anlam tuzakları** (bu projede yakalananlar): "nearby" için "yakınlarda / yakınında / yakındaki". "Yakında"
+    TDK'de "yakın bir yerde" de demek, ama cümle başında ve fiille ("Yakında bir örs gerekir") "soon" diye okunur.
+    "X yerine git" "instead of X" diye okunur: sınıflandırıcı sözcük kullan ("{object:3202} kampına").
+    "onun dışında" "ondan başka" demek; "outside it" için "kulübenin dışında". "in the heart of" = "ortasında", "kalbinde" değil. "and more" = "vb.",
     "ve dahası" değil. "It is young" gibi deyimsel İngilizceyi kelime kelime çevirme.
 
 ## Yasaklı ve şüpheli kelimeler
@@ -71,8 +73,8 @@ paylaş" ("X'te"), "Umarım", "Elbette". Hal ekine bak: bir şey Discord'dan gö
 - Uzun çizgi (—) ve orta çizgi (–) **hiç**. Ara söz virgülle ya da iki cümleyle; aralık kısa çizgiyle "12-17".
   İngilizcedeki çizgiyi noktalı virgüle çevirmek kalıbı gizlemez: cümleyi yeniden kur.
 - "ve, veya, ya da, yahut" öncesinde virgül yok. "ama, fakat, ancak" öncesindeki virgül serbest.
-- Noktalı virgül: İngilizcede olmayan noktalı virgülü ekleme; iki bağımsız cümleyi noktayla ayır.
-  İngilizceden gelenler ayrı soru (HANDOFF, Open items 1).
+- Noktalı virgül (Barış, 18 Kasım): iki bağımsız cümleyi noktayla ayır, İngilizcede “;” olsa da. Kısa kuyruk ya da
+  parantez içi virgülle. Noktalı virgül yalnız içinde virgül olan öğeleri ayırırken kalır (Alliance/Horde listeleri).
 - Zarf-fiilden sonra virgül yok: "Çıkıp sola dön". Özneden sonra İngilizce alışkanlığıyla virgül yok.
 - Bitişik/ayrı: birçok, birkaç, hiçbir, herhangi bir, pek çok, bir şey, her şey, art arda, yanı sıra, ya da,
   fark etmek, kaydetmek; bağlaç "de/da" ve "ki" ayrı (çünkü, belki, sanki bitişik).
@@ -85,7 +87,10 @@ paylaş" ("X'te"), "Umarım", "Elbette". Hal ekine bak: bir şey Discord'dan gö
 
 ## Terimler
 
-- Oyuncu dilinde yaşayan İngilizce kalır, zorla çevrilmez: loot, buff, rare, elit, XP, PvP, raid, Legacy.
+- Oyuncu dilinde yaşayan İngilizce kalır, zorla çevrilmez: loot, buff, rare, elit, XP, PvP, raid, Legacy,
+  humanoid, quartermaster, Auction House, token, insignia, trash, battleground, mark (Barış, 18 Kasım: “insansı”,
+  “levazımcı”, “jeton” gibi uydurma karşılıklar yapay duruyor). Ek İngilizce okunuşa göre: Auction House'tan,
+  quartermaster'ın, humanoid'ler. Terim sorusu çıkarsa Barış'a “İngilizce kalsın” seçeneğiyle birlikte sor.
 - Yerleşik Türkçesi olan Türkçe yazılır: görev, adım, hedef, ayarlar, arama, güncelleme.
 - Bir kavrama tek karşılık: sözlük ya da STIL.md §7 ne diyorsa metin boyunca o. Öz Türkçeciliğe kaçma
   ("performans", "sistem", "detay" yaşayan sözlerdir).
@@ -113,6 +118,8 @@ paylaş" ("X'te"), "Umarım", "Elbette". Hal ekine bak: bir şey Discord'dan gö
 | İngilizce | Kokan | Doğal |
 |---|---|---|
 | Needs an anvil nearby. | Yakında bir örs gerekir. | Yakınında bir örs olmalı. |
+| Fly back to Grom'gol. | {object:3202} yerine geri uç. | {object:3202} kampına geri uç. |
+| The recipe needs it in your bags. | Tarif onun çantanda olmasını ister. | Tarif için çantanda durması gerekir. |
 | Kill him and loot his key. | Onu öldür ve onun anahtarını loot'la. | Öldürüp anahtarını al. |
 | This talent allows you to heal faster. | Bu yetenek daha hızlı iyileştirmeni sağlar. | Bu yetenekle daha hızlı iyileştirirsin. |
 | A cave that leads to the lake. | Bir mağara, bu mağara göle açılır. | Göle açılan mağara. |

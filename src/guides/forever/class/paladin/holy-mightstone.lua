@@ -4,7 +4,7 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Guide
-	["A one-use stone that makes you much stronger against undead for 10 minutes; the old item choice may be gone in Forever."] = "Undead'lere karşı 10 dakika boyunca seni çok daha güçlü yapan tek kullanımlık bir taş; eski eşya seçimi Forever'da kalkmış olabilir.",
+	["A one-use stone that makes you much stronger against undead for 10 minutes; the old item choice may be gone in Forever."] = "Undead'lere karşı 10 dakika boyunca seni çok daha güçlü yapan tek kullanımlık bir taş. Eski eşya seçimi Forever'da kalkmış olabilir.",
 
 	-- Step 1: Lord Grayson Shadowbreaker
 	-- {npc:928} Lord Grayson Shadowbreaker · {area:3197} Chillwind Camp · {zone:1422} Western Plaguelands · {npc:5149} Brandur Ironhammer · {zone:1455} Ironforge
@@ -16,7 +16,7 @@ return {
 
 	-- Step 3: Chillwind Camp
 	-- {area:3197} Chillwind Camp · {zone:1422} Western Plaguelands · {npc:10838} Commander Ashlam Valorfist · {npc:10840} Argent Officer Pureheart
-	["{area:3197} is the Alliance camp at the south end of the {zone:1422}, north of the Alterac foothills. {npc:10838} commands it; {npc:10840} stands in the same camp."] = "{area:3197}, {zone:1422} bölgesinin güney ucunda, Alterac eteklerinin kuzeyindeki Alliance kampı. Kampı {npc:10838} yönetiyor; {npc:10840} de aynı kampta duruyor.",
+	["{area:3197} is the Alliance camp at the south end of the {zone:1422}, north of the Alterac foothills. {npc:10838} commands it; {npc:10840} stands in the same camp."] = "{area:3197}, {zone:1422} bölgesinin güney ucunda, Alterac eteklerinin kuzeyindeki Alliance kampı. Kampı {npc:10838} yönetiyor. {npc:10840} de aynı kampta duruyor.",
 
 	-- Step 4: The Argent Dawn Commission
 	-- {quest:5401} Argent Dawn Commission
@@ -31,7 +31,7 @@ return {
 	["Minion's Scourgestones"] = "Minion's Scourgestone",
 	-- {zone:1422} Western Plaguelands · {item:12840} Minion's Scourgestone · {area:197} Sorrow Hill · {area:3197} Chillwind Camp · {area:196} Uther's Tomb · {spell:120} Cone of Cold · {spell:1449} Arcane Explosion
 	-- plural, as words: Flesh Golems = {npc:1805} Flesh Golem · Skeletal Guardians = {npc:10390} Skeletal Guardian · Dark Summoners = {npc:8551} Dark Summoner
-	["Kill the Scourge of the {zone:1422} with the Commission on: skeletons, ghouls and cultists (level 50-58) drop a {item:12840} about two kills in five. {area:197}, just east of {area:3197} around {area:196}, is the closest farm. Avoid the Flesh Golems that patrol the fields; Skeletal Guardians cast {spell:120} and {spell:1449} up close, Dark Summoners run for help at low health."] = "Commission takılıyken {zone:1422} bölgesinin Scourge'larını öldür: iskeletler, ghoul'lar ve tarikatçılar (seviye 50-58) yaklaşık beş öldürmede iki {item:12840} düşürür. {area:3197} kampının hemen doğusunda, {area:196} çevresindeki {area:197} en yakın kasma yeri. Tarlalarda devriye gezen Flesh Golem yaratıklarından kaçın; Skeletal Guardian'lar yakından {spell:120} ve {spell:1449} kullanır, Dark Summoner'lar canları azalınca yardım için kaçar.",
+	["Kill the Scourge of the {zone:1422} with the Commission on: skeletons, ghouls and cultists (level 50-58) drop a {item:12840} about two kills in five. {area:197}, just east of {area:3197} around {area:196}, is the closest farm. Avoid the Flesh Golems that patrol the fields; Skeletal Guardians cast {spell:120} and {spell:1449} up close, Dark Summoners run for help at low health."] = "Commission takılıyken {zone:1422} bölgesinin Scourge'larını öldür: iskeletler, ghoul'lar ve tarikatçılar (seviye 50-58) yaklaşık beş öldürmede iki {item:12840} düşürür. {area:3197} kampının hemen doğusunda, {area:196} çevresindeki {area:197} en yakın kasma yeri. Tarlalarda devriye gezen Flesh Golem yaratıklarından kaçın. Skeletal Guardian'lar yakından {spell:120} ve {spell:1449} kullanır, Dark Summoner'lar canları azalınca yardım için kaçar.",
 	-- {item:12840} Minion's Scourgestone
 	["{item:12840} x20"] = "{item:12840} x20",
 
@@ -48,7 +48,7 @@ return {
 	["The {area:1417}"] = "{area:1417}",
 	-- {area:1477} The Temple of Atal'Hakkar · {area:1417} Sunken Temple · {area:74} Pool of Tears · {zone:1435} Swamp of Sorrows · {npc:5716} Zul'Lor
 	-- plural, as words: Shadow Bolt Volleys = {spell:9081} Shadow Bolt Volley
-	["{area:1477}, the {area:1417}, lies in the {area:74} in eastern {zone:1435}: go up the ruin's stairs, dive into the flooded hall and follow the stairs down to the portal. It is a dungeon for a group of five at about 50-55. Six elite troll minibosses (level 51-52) stand on the balconies around the temple's great round room, each behind a pack of elites on its side path. Each drops its feather every time: Gasher and {npc:5716} the Amber, Hukku and Mijan the Blue, Zolo and Loro the Green; you need all six. Hukku calls guardians and throws Shadow Bolt Volleys, Mijan heals: kill them first."] = "{area:1417} olan {area:1477}, doğu {zone:1435} bölgesindeki {area:74} gölünde: harabenin merdivenlerinden çık, su basmış salona dal ve merdivenleri izleyerek portala in. 50-55 civarı beş kişilik bir grup için bir zindan. Tapınağın büyük yuvarlak salonunun çevresindeki balkonlarda, her biri kendi yan yolundaki bir elit sürüsünün arkasında altı elit troll mini boss'u (seviye 51-52) duruyor. Her biri her seferinde tüyünü düşürür: Gasher ve Amber {npc:5716}, Hukku ve Blue Mijan, Zolo ve Green Loro; altısı da gerekiyor. Hukku muhafız çağırır ve Shadow Bolt Volley atar, Mijan iyileştirir: önce onları öldür.",
+	["{area:1477}, the {area:1417}, lies in the {area:74} in eastern {zone:1435}: go up the ruin's stairs, dive into the flooded hall and follow the stairs down to the portal. It is a dungeon for a group of five at about 50-55. Six elite troll minibosses (level 51-52) stand on the balconies around the temple's great round room, each behind a pack of elites on its side path. Each drops its feather every time: Gasher and {npc:5716} the Amber, Hukku and Mijan the Blue, Zolo and Loro the Green; you need all six. Hukku calls guardians and throws Shadow Bolt Volleys, Mijan heals: kill them first."] = "{area:1417} olan {area:1477}, doğu {zone:1435} bölgesindeki {area:74} gölünde: harabenin merdivenlerinden çık, su basmış salona dal ve merdivenleri izleyerek portala in. 50-55 civarı beş kişilik bir grup için bir zindan. Tapınağın büyük yuvarlak salonunun çevresindeki balkonlarda, her biri kendi yan yolundaki bir elit sürüsünün arkasında altı elit troll mini boss'u (seviye 51-52) duruyor. Her biri her seferinde tüyünü düşürür: Gasher ve Amber {npc:5716}, Hukku ve Blue Mijan, Zolo ve Green Loro. Altısı da gerekiyor. Hukku muhafız çağırır ve Shadow Bolt Volley atar, Mijan iyileştirir: önce onları öldür.",
 	-- {item:20606} Amber Voodoo Feather · {npc:5716} Zul'Lor
 	["{item:20606} x2: Gasher, {npc:5716}"] = "{item:20606} x2: Gasher, {npc:5716}",
 	-- {item:20607} Blue Voodoo Feather

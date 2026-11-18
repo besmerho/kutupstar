@@ -27,7 +27,7 @@ return {
 	["{item:15277}, 20g"] = "{item:15277}, 20g",
 	-- {item:15290} Brown Kodo
 	["{item:15290}, 20g"] = "{item:15290}, 20g",
-	["new in Forever, 20g; beta players found it here"] = "Forever'da yeni, 20g; beta oyuncuları onu burada buldu",
+	["new in Forever, 20g; beta players found it here"] = "Forever'da yeni, 20g, beta oyuncuları onu burada buldu",
 	-- {item:277960} Lavender Kodo
 	["{item:277960} is a new Forever kodo (level 40, 20g in the client) whose source is not known yet."] = "{item:277960}, kaynağı henüz bilinmeyen yeni bir Forever kodosu (seviye 40, istemcide 20g).",
 }

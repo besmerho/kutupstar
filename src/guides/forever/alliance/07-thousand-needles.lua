@@ -7,7 +7,7 @@ return {
 	-- {npc:6790} Innkeeper Trelayne
 	["{npc:6790}, Scarlet Raven Tavern"] = "{npc:6790}, Scarlet Raven Tavern",
 	-- {npc:840} Watcher Backus · {area:42} Darkshire
-	["{npc:840}, at the north entrance of town; walks around {area:42}: look inside the circle on the map"] = "{npc:840}, kasabanın kuzey girişinde; {area:42} çevresinde dolaşıyor: haritadaki çemberin içine bak",
+	["{npc:840}, at the north entrance of town; walks around {area:42}: look inside the circle on the map"] = "{npc:840}, kasabanın kuzey girişinde. {area:42} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 3: Councilman Millstipe
 	-- {quest:377} Crime and Punishment · {area:717} Stockade · {npc:270} Councilman Millstipe
@@ -37,7 +37,7 @@ return {
 	-- plural, as words: Nightbane Vile Fangs = {npc:206} Nightbane Vile Fang
 	["The {npc:511} hides in the small crypt by the {area:121}, south of {area:42}. {npc:663}'s Nightbane Vile Fangs and Tainted Ones (level 29-31) roam the woods around it: they come at the end of this guide, a level later."] = "{npc:511}, {area:42} kasabasının güneyindeki {area:121} mezarlığının yanındaki küçük mahzende saklanıyor. {npc:663} için Nightbane Vile Fang ve Tainted One yaratıkları (seviye 29-31) çevresindeki ormanda dolaşıyor: onlar bir seviye sonra, bu rehberin sonunda gelir.",
 	-- {item:1946} Mary's Looking Glass
-	["{item:1946}; inside"] = "{item:1946}; içeride",
+	["{item:1946}; inside"] = "{item:1946}, içeride",
 
 	-- Step 10: Darkshire
 	-- {npc:276} Viktori Prism'Antras
@@ -47,7 +47,7 @@ return {
 	-- {area:93} Vul'Gol Ogre Mound
 	["{area:93}: kill these as you meet them"] = "{area:93}: bunları karşılaştıkça öldür",
 	-- {area:42} Darkshire · {object:119} Abercrombie's Crate · {npc:300} Zzarc' Vul
-	["Head south-west from {area:42} to the ogre mound. {object:119} sits in the camp at its entrance; Splinter Fist ogres guard it. {npc:300} is inside the ogre mound's cave: go in by the cave mouth on the mound's west side."] = "{area:42} kasabasından güneybatıya, ogre höyüğüne git. {object:119} girişindeki kampta duruyor; onu Splinter Fist ogre'ları koruyor. {npc:300} ogre höyüğünün mağarasının içinde: höyüğün batı yakasındaki mağara ağzından gir.",
+	["Head south-west from {area:42} to the ogre mound. {object:119} sits in the camp at its entrance; Splinter Fist ogres guard it. {npc:300} is inside the ogre mound's cave: go in by the cave mouth on the mound's west side."] = "{area:42} kasabasından güneybatıya, ogre höyüğüne git. {object:119} girişindeki kampta duruyor. Onu Splinter Fist ogre'ları koruyor. {npc:300} ogre höyüğünün mağarasının içinde: höyüğün batı yakasındaki mağara ağzından gir.",
 	-- {npc:272273} Lost Watcher · {quest:96138} Merrick's Bow
 	["Only if a {npc:272273} dropped {quest:96138}: right-click it"] = "Yalnızca bir {npc:272273} {quest:96138} düşürdüyse: ona sağ tıkla",
 	["Below ground"] = "Yer altında",
@@ -56,7 +56,7 @@ return {
 	-- {zone:1431} Duskwood · {area:94} Raven Hill · {zone:1436} Westfall
 	["The Defias camp lies in the south-west of {zone:1431}, south of {area:94} near the {zone:1436} border. The strongbox stands among the tents."] = "Defias kampı {zone:1431} bölgesinin güneybatısında, {area:94} tepesinin güneyinde, {zone:1436} sınırının yakınında. Kasa çadırların arasında duruyor.",
 	-- {item:5947} Defias Docket
-	["{item:5947}; inside"] = "{item:5947}; içeride",
+	["{item:5947}; inside"] = "{item:5947}, içeride",
 
 	-- Step 14: Raven Hill Cemetery: kill these as you meet them
 	-- {area:492} Raven Hill Cemetery
@@ -100,7 +100,7 @@ return {
 	-- {npc:663} Calor · {npc:661} Jonathan Carevin
 	["{npc:663} and {npc:661}"] = "{npc:663} ve {npc:661}",
 	-- {npc:661} Jonathan Carevin · {npc:633} Elaine Carevin
-	["{npc:661}, by {npc:633}'s house; inside"] = "{npc:661}, {npc:633} evinin yanında; içeride",
+	["{npc:661}, by {npc:633}'s house; inside"] = "{npc:661}, {npc:633} evinin yanında, içeride",
 
 	-- Step 20: Viktori Prism'Antras
 	-- {npc:276} Viktori Prism'Antras

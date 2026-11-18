@@ -17,7 +17,7 @@ return {
 
 	-- Step 4: The Crossroads
 	-- {area:379} Far Watch Post · {npc:3489} Zargh · {npc:3338} Sergra Darkthorn · {npc:3464} Gazrog · {npc:3615} Devrak · {npc:3429} Thork · {npc:3449} Darsok Swiftdagger
-	["You arrive from {area:379}. {npc:3489} and {npc:3338} stand by the inn, Helbrim and {npc:3464} by the north gate; {npc:3615}, {npc:3429} and {npc:3449} on the tower platform."] = "{area:379} karakolundan gelirsin. {npc:3489} ve {npc:3338} hanın yanında, Helbrim ve {npc:3464} kuzey kapısının yanında; {npc:3615}, {npc:3429} ve {npc:3449} kule platformunda duruyor.",
+	["You arrive from {area:379}. {npc:3489} and {npc:3338} stand by the inn, Helbrim and {npc:3464} by the north gate; {npc:3615}, {npc:3429} and {npc:3449} on the tower platform."] = "{area:379} karakolundan gelirsin. {npc:3489} ve {npc:3338} hanın yanında, Helbrim ve {npc:3464} kuzey kapısının yanında. {npc:3615}, {npc:3429} ve {npc:3449} kule platformunda duruyor.",
 	-- {npc:3390} Apothecary Helbrim · {quest:1358} Sample for Helbrim
 	["{npc:3390}: {quest:1358}, from Zinge"] = "{npc:3390}: Zinge'den gelen {quest:1358}",
 	-- {npc:3615} Devrak
@@ -32,14 +32,14 @@ return {
 	-- Step 6: Razormane camp
 	["Razormane camp"] = "Razormane kampı",
 	-- {object:58369} Stolen Iron Chest · {item:5026} Fire Tar
-	["The Razormane camp lies east of the Crossroads. Warriors: the {object:58369} stands in the camp. Shamans: the quilboar drop the {item:5026}.\nCareful: The chest stands next to a broken wagon, guarded by a pair of Razormanes, including hunters that can pull more quilboar into the fight."] = "Razormane kampı Crossroads'un doğusunda. Warrior'lar: {object:58369} kampta duruyor. Shaman'lar: quilboar'lar {item:5026} düşürür.\nDikkat: sandık kırık bir arabanın yanında duruyor; onu, dövüşe daha fazla quilboar çekebilen avcılar da dahil, bir çift Razormane koruyor.",
+	["The Razormane camp lies east of the Crossroads. Warriors: the {object:58369} stands in the camp. Shamans: the quilboar drop the {item:5026}.\nCareful: The chest stands next to a broken wagon, guarded by a pair of Razormanes, including hunters that can pull more quilboar into the fight."] = "Razormane kampı Crossroads'un doğusunda. Warrior'lar: {object:58369} kampta duruyor. Shaman'lar: quilboar'lar {item:5026} düşürür.\nDikkat: sandık kırık bir arabanın yanında duruyor. Onu, dövüşe daha fazla quilboar çekebilen avcılar da dahil, bir çift Razormane koruyor.",
 
 	-- Step 7: Razormane camp: Thork's quilboar
 	-- {npc:3429} Thork
 	["Razormane camp: {npc:3429}'s quilboar"] = "Razormane kampı: {npc:3429} için quilboar'lar",
 	-- {npc:3429} Thork
 	-- plural, as words: Razormane Flesheaters = {npc:267308} Razormane Flesheater
-	["While you are in the camp: {npc:3429}'s Water Seekers and Thornweavers in its western half, the Hunters in the middle, the supply crates at its eastern end.\nCareful: Razormane Flesheaters and Berserkers (18-19) are elites; they stand in the camp's north-east, beside the supply crates: pull the quilboar away from them one at a time."] = "Kamptayken: {npc:3429} için Water Seeker ve Thornweaver yaratıkları batı yarısında, Hunter'lar ortada, erzak sandıkları doğu ucunda.\nDikkat: Razormane Flesheater ve Berserker yaratıkları (18-19) elit; kampın kuzeydoğusunda, erzak sandıklarının yanında duruyorlar: quilboar'ları onlardan uzağa tek tek çek.",
+	["While you are in the camp: {npc:3429}'s Water Seekers and Thornweavers in its western half, the Hunters in the middle, the supply crates at its eastern end.\nCareful: Razormane Flesheaters and Berserkers (18-19) are elites; they stand in the camp's north-east, beside the supply crates: pull the quilboar away from them one at a time."] = "Kamptayken: {npc:3429} için Water Seeker ve Thornweaver yaratıkları batı yarısında, Hunter'lar ortada, erzak sandıkları doğu ucunda.\nDikkat: Razormane Flesheater ve Berserker yaratıkları (18-19) elit. Kampın kuzeydoğusunda, erzak sandıklarının yanında duruyorlar: quilboar'ları onlardan uzağa tek tek çek.",
 
 	-- Step 9: Telf Joolam
 	-- {npc:5900} Telf Joolam · {item:6636} Fire Sapta · {npc:5893} Minor Manifestation of Fire · {item:6655} Glowing Ember
@@ -65,11 +65,11 @@ return {
 	-- plural, as words: Plainstrider Beaks = {item:5087} Plainstrider Beak
 	["Plainstrider Beaks as you go"] = "Yol boyunca Plainstrider Beak gagaları",
 	-- {zone:1413} The Barrens
-	["Plainstriders roam the plains all over the {zone:1413}, and about one in four drops a beak: kill the ones you pass on the way."] = "Plainstrider'lar {zone:1413} boyunca ovaların her yerinde dolaşıyor; yaklaşık dörtte biri gaga düşürür: yolda önünden geçtiklerini öldür.",
+	["Plainstriders roam the plains all over the {zone:1413}, and about one in four drops a beak: kill the ones you pass on the way."] = "Plainstrider'lar {zone:1413} boyunca ovaların her yerinde dolaşıyor. Yaklaşık dörtte biri gaga düşürür: yolda önünden geçtiklerini öldür.",
 
 	-- Step 16: Razormane camp
 	-- plural, as words: Razormane Flesheaters = {npc:267308} Razormane Flesheater
-	["In the camp, Water Seekers and Thornweavers hold the western half, Hunters the middle; the supply crates sit at its eastern end.\nPlainstriders here count toward the beaks.\nCareful: Razormane Flesheaters and Berserkers (18-19) are elites; they stand in the camp's north-east, beside the supply crates: pull the quilboar away from them one at a time."] = "Kampta Water Seeker ve Thornweaver yaratıkları batı yarısını, Hunter'lar ortayı tutuyor; erzak sandıkları doğu ucunda duruyor.\nBuradaki Plainstrider'lar gagalara sayılır.\nDikkat: Razormane Flesheater ve Berserker yaratıkları (18-19) elit; kampın kuzeydoğusunda, erzak sandıklarının yanında duruyorlar: quilboar'ları onlardan uzağa tek tek çek.",
+	["In the camp, Water Seekers and Thornweavers hold the western half, Hunters the middle; the supply crates sit at its eastern end.\nPlainstriders here count toward the beaks.\nCareful: Razormane Flesheaters and Berserkers (18-19) are elites; they stand in the camp's north-east, beside the supply crates: pull the quilboar away from them one at a time."] = "Kampta Water Seeker ve Thornweaver yaratıkları batı yarısını, Hunter'lar ortayı tutuyor. Erzak sandıkları doğu ucunda duruyor.\nBuradaki Plainstrider'lar gagalara sayılır.\nDikkat: Razormane Flesheater ve Berserker yaratıkları (18-19) elit. Kampın kuzeydoğusunda, erzak sandıklarının yanında duruyorlar: quilboar'ları onlardan uzağa tek tek çek.",
 
 	-- Step 17: Finish the Plainstrider Beaks
 	-- plural, as words: Plainstrider Beaks = {item:5087} Plainstrider Beak
@@ -118,7 +118,7 @@ return {
 
 	-- Step 25: Gur'ak
 	-- {npc:267310} Gur'ak · {quest:97003} Chol'aruk the Ravener · {npc:267307} Chol'aruk · {area:1699} Thorn Hill · {npc:3438} Kreenig Snarlsnout
-	["{npc:267310} stands on the north-east side of the Crossroads. {quest:97003} is a group quest: {npc:267307} is a level 20 elite boar in the Razormane's {area:1699} cave, east of the town, where the route goes back for {npc:3438} later."] = "{npc:267310}, Crossroads'un kuzeydoğu yakasında duruyor. {quest:97003} bir grup görevi: {npc:267307}, kasabanın doğusundaki Razormane'lerin {area:1699} mağarasında 20. seviye elit bir yaban domuzu; rota {npc:3438} için daha sonra oraya geri döner.",
+	["{npc:267310} stands on the north-east side of the Crossroads. {quest:97003} is a group quest: {npc:267307} is a level 20 elite boar in the Razormane's {area:1699} cave, east of the town, where the route goes back for {npc:3438} later."] = "{npc:267310}, Crossroads'un kuzeydoğu yakasında duruyor. {quest:97003} bir grup görevi: {npc:267307}, kasabanın doğusundaki Razormane'lerin {area:1699} mağarasında 20. seviye elit bir yaban domuzu. Rota {npc:3438} için daha sonra oraya geri döner.",
 
 	-- Step 26: Regthar Deathgate
 	-- {npc:3389} Regthar Deathgate
@@ -127,7 +127,7 @@ return {
 	-- Step 27: The Barrens: kill these as you meet them
 	-- {npc:3389} Regthar Deathgate · {npc:3394} Barak Kodobane
 	-- plural, as words: Laden Mushrooms = {object:3640} Laden Mushroom
-	["The pools lie just north of {npc:3389}. Walk into the water to explore them; the Laden Mushrooms for Helbrim grow around them. Kill every Kolkar you pass for bracers. {npc:3394} stands in the Kolkar camp west of the pools."] = "Gölcükler {npc:3389} yanının hemen kuzeyinde. Keşfetmek için suya gir; Helbrim için Laden Mushroom mantarları çevrelerinde yetişiyor. Bilezikler için geçtiğin her Kolkar'ı öldür. {npc:3394}, gölcüklerin batısındaki Kolkar kampında duruyor.",
+	["The pools lie just north of {npc:3389}. Walk into the water to explore them; the Laden Mushrooms for Helbrim grow around them. Kill every Kolkar you pass for bracers. {npc:3394} stands in the Kolkar camp west of the pools."] = "Gölcükler {npc:3389} yanının hemen kuzeyinde. Keşfetmek için suya gir. Helbrim için Laden Mushroom mantarları çevrelerinde yetişiyor. Bilezikler için geçtiğin her Kolkar'ı öldür. {npc:3394}, gölcüklerin batısındaki Kolkar kampında duruyor.",
 
 	-- Step 28: Regthar Deathgate
 	-- {npc:3389} Regthar Deathgate · {npc:3395} Verog the Dervish · {area:388} Stagnant Oasis
@@ -136,11 +136,11 @@ return {
 	-- Step 29: Dry Hills
 	-- {area:383} Dry Hills · {npc:3389} Regthar Deathgate
 	-- plural, as words: Savannah Prowlers = {npc:3425} Savannah Prowler · Witchwing Ambushers = {npc:3279} Witchwing Ambusher
-	["West to the {area:383}. Any Witchwing harpy drops a talon: keep to the eastern slopes, where the Witchwing Harpies and Roguefeathers (14-15) nest; the Slayers and Windcallers (16-17) hold the western hills. Savannah Prowlers hunt the plains between {npc:3389} and the hills: take their claws on the way.\nCareful: There are 2 Witchwing Ambushers (level 17-18). They stay stealthed with Sneak while out of combat."] = "Batıya, {area:383} tepelerine. Her Witchwing harpy'si pençe düşürür: Witchwing Harpy ve Roguefeather yaratıklarının (14-15) yuva yaptığı doğu yamaçlarında kal; Slayer ve Windcaller yaratıkları (16-17) batı tepelerini tutuyor. Savannah Prowler yaratıkları {npc:3389} ile tepeler arasındaki ovalarda avlanıyor: pençelerini yolda al.\nDikkat: 2 tane Witchwing Ambusher (seviye 17-18) var. Dövüş dışında Sneak ile gizli dururlar.",
+	["West to the {area:383}. Any Witchwing harpy drops a talon: keep to the eastern slopes, where the Witchwing Harpies and Roguefeathers (14-15) nest; the Slayers and Windcallers (16-17) hold the western hills. Savannah Prowlers hunt the plains between {npc:3389} and the hills: take their claws on the way.\nCareful: There are 2 Witchwing Ambushers (level 17-18). They stay stealthed with Sneak while out of combat."] = "Batıya, {area:383} tepelerine. Her Witchwing harpy'si pençe düşürür: Witchwing Harpy ve Roguefeather yaratıklarının (14-15) yuva yaptığı doğu yamaçlarında kal. Slayer ve Windcaller yaratıkları (16-17) batı tepelerini tutuyor. Savannah Prowler yaratıkları {npc:3389} ile tepeler arasındaki ovalarda avlanıyor: pençelerini yolda al.\nDikkat: 2 tane Witchwing Ambusher (seviye 17-18) var. Dövüş dışında Sneak ile gizli dururlar.",
 
 	-- Step 30: Samophlange
 	-- {object:4141} Control Console · {area:382} Sludge Fen · {item:5089} Console Key · {npc:3471} Tinkerer Sniggles
-	["The {object:4141} stands at the Venture Co. research site west of the {area:382}. Close the three valves around the drill, use the console again, then take the {item:5089} from {npc:3471} beside it.\nCareful: Several guards stand within aggro range of the valves, respawn in under about 3 minutes, and run at low health to bring back help; nearby mobs also join if you use a valve while they are close."] = "{object:4141}, {area:382} bataklığının batısındaki Venture Co. araştırma alanında duruyor. Sondajın çevresindeki üç vanayı kapat, konsolu yeniden kullan, sonra yanındaki {npc:3471} yaratığından {item:5089} al.\nDikkat: Vanaların saldırı menzili içinde birkaç muhafız duruyor, yaklaşık 3 dakikadan kısa sürede yeniden doğuyorlar ve canları azalınca yardım getirmek için kaçıyorlar; yakındayken bir vana kullanırsan yakındaki yaratıklar da katılır.",
+	["The {object:4141} stands at the Venture Co. research site west of the {area:382}. Close the three valves around the drill, use the console again, then take the {item:5089} from {npc:3471} beside it.\nCareful: Several guards stand within aggro range of the valves, respawn in under about 3 minutes, and run at low health to bring back help; nearby mobs also join if you use a valve while they are close."] = "{object:4141}, {area:382} bataklığının batısındaki Venture Co. araştırma alanında duruyor. Sondajın çevresindeki üç vanayı kapat, konsolu yeniden kullan, sonra yanındaki {npc:3471} yaratığından {item:5089} al.\nDikkat: Vanaların saldırı menzili içinde birkaç muhafız duruyor, yaklaşık 3 dakikadan kısa sürede yeniden doğuyorlar ve canları azalınca yardım getirmek için kaçıyorlar. Yakındayken bir vana kullanırsan yakındaki yaratıklar da katılır.",
 	["Inside"] = "İçeride",
 	-- {npc:3442} Sputtervalve · {area:392} Ratchet
 	["{npc:3442} in {area:392}: on the next {area:392} stop"] = "{area:392} limanındaki {npc:3442}: sonraki {area:392} durağında",
@@ -148,7 +148,7 @@ return {
 	-- Step 31: The Disruption Ends
 	-- {npc:3438} Kreenig Snarlsnout · {npc:267307} Chol'aruk · {area:1699} Thorn Hill
 	-- plural, as words: Razormane Flesheaters = {npc:267308} Razormane Flesheater
-	["Back to the Razormane camp. Geomancers and Defenders hold its eastern half; {npc:3438} walks among them. Careful: Razormane Flesheaters and Berserkers (18-19) are elites in the camp's north-east, near {npc:3438} and the supply crates, and {npc:267307} (20, elite) lies in the cave under {area:1699} beside them: pull {npc:3438} and the quilboar away from them one at a time, and leave the cave alone unless you are in a group."] = "Razormane kampına dön. Doğu yarısını Geomancer ve Defender'lar tutuyor; {npc:3438} aralarında dolaşıyor. Dikkat: Razormane Flesheater ve Berserker yaratıkları (18-19) kampın kuzeydoğusunda, {npc:3438} ve erzak sandıklarının yanında elit; {npc:267307} (20, elit) de hemen yanlarındaki {area:1699} altındaki mağarada yatıyor: {npc:3438} ve quilboar'ları onlardan uzağa tek tek çek ve grupta değilsen mağaraya girme.",
+	["Back to the Razormane camp. Geomancers and Defenders hold its eastern half; {npc:3438} walks among them. Careful: Razormane Flesheaters and Berserkers (18-19) are elites in the camp's north-east, near {npc:3438} and the supply crates, and {npc:267307} (20, elite) lies in the cave under {area:1699} beside them: pull {npc:3438} and the quilboar away from them one at a time, and leave the cave alone unless you are in a group."] = "Razormane kampına dön. Doğu yarısını Geomancer ve Defender'lar tutuyor, {npc:3438} aralarında dolaşıyor. Dikkat: Razormane Flesheater ve Berserker yaratıkları (18-19) kampın kuzeydoğusunda, {npc:3438} ve erzak sandıklarının yanında elit. {npc:267307} (20, elit) de hemen yanlarındaki {area:1699} altındaki mağarada yatıyor: {npc:3438} ve quilboar'ları onlardan uzağa tek tek çek ve grupta değilsen mağaraya girme.",
 
 	-- Step 32: Chol'aruk
 	-- {npc:267307} Chol'aruk · {area:1699} Thorn Hill
@@ -166,7 +166,7 @@ return {
 	-- Step 35: Harpy Lieutenants
 	-- {area:383} Dry Hills
 	-- plural, as words: Witchwing Slayers = {npc:3278} Witchwing Slayer
-	["North-west to the {area:383}: the Witchwing Slayers hold their western end; they wear the rings.\nCareful: Some stealthed harpy ambushers wait in the area and stay hidden until you get close. A level 19 elite harpy also patrols there."] = "Kuzeybatıya, {area:383} tepelerine git: Witchwing Slayer yaratıkları tepelerin batı ucunu tutuyor; yüzükleri onlar takıyor.\nDikkat: bölgede gizli bazı harpy pusucuları bekliyor ve sen yaklaşana kadar gizli kalıyor. Orada 19. seviye elit bir harpy de devriye geziyor.",
+	["North-west to the {area:383}: the Witchwing Slayers hold their western end; they wear the rings.\nCareful: Some stealthed harpy ambushers wait in the area and stay hidden until you get close. A level 19 elite harpy also patrols there."] = "Kuzeybatıya, {area:383} tepelerine git: Witchwing Slayer yaratıkları tepelerin batı ucunu tutuyor, yüzükleri onlar takıyor.\nDikkat: bölgede gizli bazı harpy pusucuları bekliyor ve sen yaklaşana kadar gizli kalıyor. Orada 19. seviye elit bir harpy de devriye geziyor.",
 
 	-- Step 37: Vrang Wildgore
 	-- {quest:881} Echeyakee · {npc:3682} Vrang Wildgore
@@ -191,7 +191,7 @@ return {
 	["Finish the Raptor Heads"] = "Raptor Head kafalarını tamamla",
 	-- {quest:881} Echeyakee
 	-- plural, as words: Sunscale Lashtails = {npc:3254} Sunscale Lashtail
-	["Still short of twelve? Sunscale Lashtails and Screechers roam the plains north-east of the Crossroads, on the way back south from {quest:881}'s lair."] = "Hâlâ on iki olmadı mı? Sunscale Lashtail ve Screecher yaratıkları Crossroads'un kuzeydoğusundaki ovalarda dolaşıyor; {quest:881} inından güneye dönüş yolunda.",
+	["Still short of twelve? Sunscale Lashtails and Screechers roam the plains north-east of the Crossroads, on the way back south from {quest:881}'s lair."] = "Hâlâ on iki olmadı mı? Sunscale Lashtail ve Screecher yaratıkları Crossroads'un kuzeydoğusundaki ovalarda dolaşıyor. {quest:881} inından güneye dönüş yolunda.",
 
 	-- Step 42: The Crossroads
 	-- {npc:3464} Gazrog · {npc:3338} Sergra Darkthorn · {npc:3449} Darsok Swiftdagger · {npc:3429} Thork
@@ -230,7 +230,7 @@ return {
 	-- {npc:11799} Tajarri · {area:2362} Shrine of Remulos
 	["{npc:11799}, at the {area:2362}"] = "{npc:11799}, {area:2362} tapınağında",
 	-- {quest:30} Trial of the Sea Lion · {area:382} Sludge Fen · {area:287} Hillsbrad
-	["{quest:30}, carried: one half pendant in the {area:382} in this guide, the other underwater off Silverpine on the way to {area:287} at 21; the pendant is handed in after {area:287}"] = "{quest:30}, taşınıyor: yarım kolyenin biri bu rehberde {area:382} içinde, diğeri 21'de {area:287} yolunda Silverpine açıklarında su altında; kolye {area:287} sonrasında teslim edilir",
+	["{quest:30}, carried: one half pendant in the {area:382} in this guide, the other underwater off Silverpine on the way to {area:287} at 21; the pendant is handed in after {area:287}"] = "{quest:30}, taşınıyor: yarım kolyenin biri bu rehberde {area:382} içinde, diğeri 21'de {area:287} yolunda Silverpine açıklarında su altında. Kolye {area:287} sonrasında teslim edilir",
 	-- {npc:11798} Bunthen Plainswind · {area:2361} Nighthaven
 	["{npc:11798} in {area:2361} flies druids there"] = "{area:2361} köyündeki {npc:11798} Druid'leri oraya uçurur",
 
@@ -269,14 +269,14 @@ return {
 	["Raptor nests"] = "Raptor yuvaları",
 	-- {area:392} Ratchet · {area:1697} Raptor Grounds · {item:5165} Sunscale Feather
 	-- plural, as words: Sunscale Scytheclaws = {npc:3256} Sunscale Scytheclaw
-	["South-west from {area:392} across the plains to the {area:1697}: the three nests sit together south-west of the oasis, and Sunscale Scytheclaws guard them. Each nest needs a {item:5165}: kill Sunscale raptors (most drop one) until you have three, then use a feather at each nest."] = "{area:392} limanından güneybatıya, ovaların üzerinden {area:1697} içine git: üç yuva vahanın güneybatısında bir arada; onları Sunscale Scytheclaw yaratıkları koruyor. Her yuva bir {item:5165} ister: üç tane olana dek Sunscale raptor'larını öldür (çoğu bir tane düşürür), sonra her yuvada bir tüy kullan.",
+	["South-west from {area:392} across the plains to the {area:1697}: the three nests sit together south-west of the oasis, and Sunscale Scytheclaws guard them. Each nest needs a {item:5165}: kill Sunscale raptors (most drop one) until you have three, then use a feather at each nest."] = "{area:392} limanından güneybatıya, ovaların üzerinden {area:1697} içine git: üç yuva vahanın güneybatısında bir arada. Onları Sunscale Scytheclaw yaratıkları koruyor. Her yuva bir {item:5165} ister: üç tane olana dek Sunscale raptor'larını öldür (çoğu bir tane düşürür), sonra her yuvada bir tüy kullan.",
 
 	-- Step 55: Raptor Grounds: kill these as you meet them
 	-- {area:1697} Raptor Grounds
 	["{area:1697}: kill these as you meet them"] = "{area:1697}: bunları karşılaştıkça öldür",
 	-- {area:1697} Raptor Grounds · {npc:3446} Mebok Mizzyrix · {area:392} Ratchet · {npc:3682} Vrang Wildgore · {area:385} Northwatch Hold
 	-- plural, as words: Sunscale Scytheclaws = {npc:3256} Sunscale Scytheclaw
-	["Sunscale Scytheclaws hunt the plains around the {area:1697}; they drop the horns. {npc:3446} takes them back in {area:392}; any still missing come with {npc:3682}'s hills later.\nSouth-east toward the coast: the stolen silver lies in a raptor nest north-west of {area:385}."] = "Sunscale Scytheclaw yaratıkları {area:1697} çevresindeki ovalarda avlanıyor; boynuzları onlar düşürür. {npc:3446} onları {area:392} limanında teslim alır; hâlâ eksik olanlar daha sonra {npc:3682} tepelerinde gelir.\nKıyıya doğru güneydoğuya: çalınan gümüş, {area:385} kalesinin kuzeybatısındaki bir raptor yuvasında.",
+	["Sunscale Scytheclaws hunt the plains around the {area:1697}; they drop the horns. {npc:3446} takes them back in {area:392}; any still missing come with {npc:3682}'s hills later.\nSouth-east toward the coast: the stolen silver lies in a raptor nest north-west of {area:385}."] = "Sunscale Scytheclaw yaratıkları {area:1697} çevresindeki ovalarda avlanıyor, boynuzları onlar düşürür. {npc:3446} onları {area:392} limanında teslim alır. Hâlâ eksik olanlar daha sonra {npc:3682} tepelerinde gelir.\nKıyıya doğru güneydoğuya: çalınan gümüş, {area:385} kalesinin kuzeybatısındaki bir raptor yuvasında.",
 
 	-- Step 56: Stolen Booty
 	-- {npc:3467} Baron Longshore
@@ -292,13 +292,13 @@ return {
 	-- {area:384} Dreadmist Peak · {item:15842} Empty Dreadmist Peak Sampler · {object:19464} Dreadmist Peak Pool (no name in this language: may be words) · {npc:3448} Tonga Runetotem · {skill:182} Herbalism · {npc:3490} Hula'mahi · {item:2449} Earthroot
 	["Head north from the Crossroads to {area:384} and fill the {item:15842} at the {object:19464}, then back to {npc:3448} in the Crossroads. No {skill:182}? {npc:3490} beside him sells {item:2449}, three at a time until he restocks."] = "Crossroads'tan kuzeye, {area:384} zirvesine git ve {item:15842} eşyasını {object:19464} içinde doldur, sonra Crossroads'taki {npc:3448} yanına dön. {skill:182} yok mu? Yanındaki {npc:3490}, stok yenilenene kadar üçer üçer {item:2449} satıyor.",
 	-- {item:2449} Earthroot · {npc:3490} Hula'mahi
-	["{item:2449} from {npc:3490}; herbalists pick it on the plains"] = "{item:2449}, kaynak: {npc:3490}; Herbalism yapanlar düzlüklerde toplar",
+	["{item:2449} from {npc:3490}; herbalists pick it on the plains"] = "{item:2449}, kaynak: {npc:3490}, Herbalism yapanlar düzlüklerde toplar",
 
 	-- Step 63: Kolkar camp
 	["Kolkar camp"] = "Kolkar kampı",
 	-- {npc:3389} Regthar Deathgate · {item:2449} Earthroot
 	-- plural, as words: Lost Barrens Kodos = {npc:3234} Lost Barrens Kodo
-	["Lost Barrens Kodos roam the plains around the Kolkar camp north-west of {npc:3389}; herbalists pick {item:2449} there too."] = "Lost Barrens Kodo yaratıkları {npc:3389} yanının kuzeybatısındaki Kolkar kampının çevresindeki ovalarda dolaşıyor; Herbalism bilenler orada {item:2449} da toplar.",
+	["Lost Barrens Kodos roam the plains around the Kolkar camp north-west of {npc:3389}; herbalists pick {item:2449} there too."] = "Lost Barrens Kodo yaratıkları {npc:3389} yanının kuzeybatısındaki Kolkar kampının çevresindeki ovalarda dolaşıyor. Herbalism bilenler orada {item:2449} da toplar.",
 
 	-- Step 64: The Barrens: kill these as you meet them
 	-- {area:383} Dry Hills · {quest:876} Serena Bloodfeather
@@ -313,7 +313,7 @@ return {
 
 	-- Step 66: Trouble in the Valley
 	-- {npc:262119} Corporal Adamore · {npc:261366} Walton
-	["{npc:262119} and his marines hold the wrecked caravan south of {npc:261366}. The marines are linked: pulling one calls the rest. Pull from the edge and run; they leash short, so you can thin the camp one at a time before tackling the Corporal."] = "{npc:262119} ve marine'leri {npc:261366} adlı NPC'nin güneyindeki parçalanmış kervanı tutuyor. Marine'ler birbirine bağlı: birini çekmek diğerlerini de çağırır. Kenardan çek ve kaç; kısa mesafede geri dönerler, böylece Corporal'a girişmeden önce kampı tek tek azaltabilirsin.",
+	["{npc:262119} and his marines hold the wrecked caravan south of {npc:261366}. The marines are linked: pulling one calls the rest. Pull from the edge and run; they leash short, so you can thin the camp one at a time before tackling the Corporal."] = "{npc:262119} ve marine'leri {npc:261366} adlı NPC'nin güneyindeki parçalanmış kervanı tutuyor. Marine'ler birbirine bağlı: birini çekmek diğerlerini de çağırır. Kenardan çek ve kaç. Kısa mesafede geri dönerler, böylece Corporal'a girişmeden önce kampı tek tek azaltabilirsin.",
 
 	-- Step 67: Walton
 	-- {npc:261366} Walton · {npc:261367} Terry Longdrink · {area:21} Kul Tiras
@@ -325,7 +325,7 @@ return {
 
 	-- Step 69: Ignition
 	-- {npc:3439} Wizzlecrank's Shredder · {area:382} Sludge Fen · {npc:3445} Supervisor Lugwizzle
-	["{npc:3439} stands inside the Venture Co. camp in the {area:382}; {npc:3445} carries the key."] = "{npc:3439}, {area:382} bataklığındaki Venture Co. kampının içinde duruyor; anahtarı {npc:3445} taşıyor.",
+	["{npc:3439} stands inside the Venture Co. camp in the {area:382}; {npc:3445} carries the key."] = "{npc:3439}, {area:382} bataklığındaki Venture Co. kampının içinde duruyor, anahtarı {npc:3445} taşıyor.",
 
 	-- Step 70: Strange Lockbox
 	-- {object:177794} Strange Lockbox · {area:382} Sludge Fen · {item:15883} Half Pendant of Aquatic Agility · {quest:30} Trial of the Sea Lion
@@ -362,7 +362,7 @@ return {
 	["{npc:3395} doesn't wander on his own: he comes out when you kill the Kolkar centaurs at the {area:388}, south-east of the Crossroads. Keep killing them around the oasis until he appears. Test {npc:3448}'s seeds at the bubbling fissure on the oasis' east bank while you are there."] = "{npc:3395} kendi başına dolaşmaz: Crossroads'un güneydoğusundaki {area:388} vahasında Kolkar centaur'larını öldürünce ortaya çıkar. O görünene kadar vahanın çevresinde onları öldürmeye devam et. Oradayken {npc:3448} adlı NPC'nin tohumlarını vahanın doğu kıyısındaki fokurdayan yarıkta dene.",
 	["Underwater"] = "Su altında",
 	-- {npc:12296} Sickly Gazelle · {item:15826} Curative Animal Salve
-	["{npc:12296}: use the {item:15826} on them; they roam the plains all around the Crossroads"] = "{npc:12296}: onların üzerinde {item:15826} eşyasını kullan; Crossroads'un çevresindeki ovaların her yanında dolaşıyorlar",
+	["{npc:12296}: use the {item:15826} on them; they roam the plains all around the Crossroads"] = "{npc:12296}: onların üzerinde {item:15826} eşyasını kullan. Crossroads'un çevresindeki ovaların her yanında dolaşıyorlar",
 	-- {npc:12296} Sickly Gazelle
 	["Cure {npc:12296}"] = "İyileştir: {npc:12296}",
 
@@ -385,7 +385,7 @@ return {
 	["Level 20"] = "Seviye 20",
 	-- {zone:1454} Orgrimmar · {area:1700} Agama'gor · {area:718} Wailing Caverns
 	-- plural, as words: Bristleback Geomancers = {npc:3263} Bristleback Geomancer
-	["{zone:1454}'s level 20 class quests come right after the Crossroads, and they are offered only from 20. Still short of 20? The Bristleback Geomancers (19-20) hold {area:1700} around you: kill them until level 20. Or, with a group, run the {area:718} dungeon instead."] = "{zone:1454} şehrinin 20. seviye sınıf görevleri Crossroads'tan hemen sonra gelir ve yalnızca 20'den itibaren verilir. Hâlâ 20'nin altında mısın? Çevrendeki {area:1700} içini Bristleback Geomancer yaratıkları (19-20) tutuyor: 20. seviye olana kadar onları öldür. Ya da grubun varsa onun yerine {area:718} zindanına koş.",
+	["{zone:1454}'s level 20 class quests come right after the Crossroads, and they are offered only from 20. Still short of 20? The Bristleback Geomancers (19-20) hold {area:1700} around you: kill them until level 20. Or, with a group, run the {area:718} dungeon instead."] = "{zone:1454} şehrinin 20. seviye sınıf görevleri Crossroads'tan hemen sonra gelir ve yalnızca 20'den itibaren verilir. Hâlâ 20'nin altında mısın? Çevrendeki {area:1700} içini Bristleback Geomancer yaratıkları (19-20) tutuyor: 20. seviye olana kadar onları öldür. Ya da grubun varsa onun yerine {area:718} zindanını yap.",
 	-- plural, as words: Bristleback Geomancers = {npc:3263} Bristleback Geomancer
 	["Bristleback Geomancers"] = "Bristleback Geomancer yaratıkları",
 	-- {npc:3263} Bristleback Geomancer
@@ -440,7 +440,7 @@ return {
 
 	-- Step 92: Thunder Bluff
 	-- {npc:246344} Alodan the Hopeful · {area:1638} Thunder Bluff · {zone:1454} Orgrimmar · {area:378} Camp Taurajo · {zone:1412} Mulgore · {npc:2995} Tal
-	["Train your level 20 ranks: {npc:246344} teaches Paladins in {area:1638}; {zone:1454} has no Paladin trainer. You have no flight path there yet: fly to {area:378}, head west through {zone:1412} and up a lift, and take the flight path from {npc:2995} on the central rise."] = "20. seviye kademelerini öğren: {npc:246344}, {area:1638} şehrinde Paladin'lere eğitim verir; {zone:1454} şehrinde Paladin eğitmeni yok. Henüz oraya uçuş noktan yok: {area:378} kampına uç, {zone:1412} bölgesinin içinden batıya git, bir asansörle yukarı çık ve ortadaki yükseltideki {npc:2995} yanından uçuş noktasını al.",
+	["Train your level 20 ranks: {npc:246344} teaches Paladins in {area:1638}; {zone:1454} has no Paladin trainer. You have no flight path there yet: fly to {area:378}, head west through {zone:1412} and up a lift, and take the flight path from {npc:2995} on the central rise."] = "20. seviye kademelerini öğren: {npc:246344}, {area:1638} şehrinde Paladin'lere eğitim verir. {zone:1454} şehrinde Paladin eğitmeni yok. Henüz oraya uçuş noktan yok: {area:378} kampına uç, {zone:1412} bölgesinin içinden batıya git, bir asansörle yukarı çık ve ortadaki yükseltideki {npc:2995} yanından uçuş noktasını al.",
 
 	-- Step 94: The Great Cat Spirit
 	-- {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {spell:499} Cat Form · {spell:526} Cure Poison · {zone:1450} Moonglade · {npc:11798} Bunthen Plainswind · {area:392} Ratchet
@@ -463,7 +463,7 @@ return {
 	["The {area:2363}"] = "{area:2363} mağaraları",
 	-- {npc:11957} Great Cat Spirit · {npc:272054} Avatar of Saeyleenan · {item:280680} Relic of the Silent Shadow
 	-- plural, as words: Territorial Terrans = {npc:230558} Territorial Terran
-	["Tauren: the {npc:11957} waits on the southern hill above the bridge. Skyborne: the {npc:272054} stands south of the twin bridges. Then the dens east of the lake: leave your form, click the statue at the entrance for five minutes of stealth, keep clear of the spirits inside and take one of each relic; the {item:280680} lies at the foot of the white cat statue. Careful: the spirits are Territorial Terrans (level 60) that kill whoever they see: stay off their paths, and click the statue again before the stealth runs out."] = "Tauren'ler: {npc:11957} köprünün yukarısındaki güney tepesinde bekliyor. Skyborne'lar: {npc:272054} ikiz köprülerin güneyinde duruyor. Sonra gölün doğusundaki inler: formundan çık, beş dakikalık gizlilik için girişteki heykele tıkla, içerideki ruhlardan uzak dur ve her kalıntıdan birer tane al; {item:280680} beyaz kedi heykelinin dibinde. Dikkat: ruhlar, gördükleri herkesi öldüren Territorial Terran yaratıkları (seviye 60): yollarından uzak dur ve gizlilik bitmeden heykele yeniden tıkla.",
+	["Tauren: the {npc:11957} waits on the southern hill above the bridge. Skyborne: the {npc:272054} stands south of the twin bridges. Then the dens east of the lake: leave your form, click the statue at the entrance for five minutes of stealth, keep clear of the spirits inside and take one of each relic; the {item:280680} lies at the foot of the white cat statue. Careful: the spirits are Territorial Terrans (level 60) that kill whoever they see: stay off their paths, and click the statue again before the stealth runs out."] = "Tauren'ler: {npc:11957} köprünün yukarısındaki güney tepesinde bekliyor. Skyborne'lar: {npc:272054} ikiz köprülerin güneyinde duruyor. Sonra gölün doğusundaki inler: formundan çık, beş dakikalık gizlilik için girişteki heykele tıkla, içerideki ruhlardan uzak dur ve her kalıntıdan birer tane al. {item:280680} beyaz kedi heykelinin dibinde. Dikkat: ruhlar, gördükleri herkesi öldüren Territorial Terran yaratıkları (seviye 60): yollarından uzak dur ve gizlilik bitmeden heykele yeniden tıkla.",
 
 	-- Step 102: Fly to Ratchet
 	-- {zone:1456} Thunder Bluff · {area:392} Ratchet
@@ -482,7 +482,7 @@ return {
 	["{area:385}: kill these as you meet them"] = "{area:385}: bunları karşılaştıkça öldür",
 	-- {area:385} Northwatch Hold · {npc:3393} Captain Fairmount
 	-- plural, as words: Theramore Marines = {npc:3385} Theramore Marine
-	["South along the beach past the pirate camp to {area:385}, on the coast. The Theramore Marines and Preservers (15-16) drop the medals; {npc:3393} (20) and the two cannoneers (19) stand in the keep and on its walls.\nCareful: Each named target is linked to a healer and guards, and Fairmount has three extra marines with her. Killing the healer first makes the fight easier."] = "Kumsal boyunca güneye, korsan kampını geçip kıyıdaki {area:385} kalesine git. Theramore Marine ve Preserver yaratıkları (15-16) madalyaları düşürür; {npc:3393} (20) ve iki topçu (19) kalede ve surlarında duruyor.\nDikkat: her hedefin bağlı olduğu bir şifacısı ve muhafızları var, Fairmount'un yanında da üç fazladan deniz piyadesi var. Önce şifacıyı öldürmek dövüşü kolaylaştırır.",
+	["South along the beach past the pirate camp to {area:385}, on the coast. The Theramore Marines and Preservers (15-16) drop the medals; {npc:3393} (20) and the two cannoneers (19) stand in the keep and on its walls.\nCareful: Each named target is linked to a healer and guards, and Fairmount has three extra marines with her. Killing the healer first makes the fight easier."] = "Kumsal boyunca güneye, korsan kampını geçip kıyıdaki {area:385} kalesine git. Theramore Marine ve Preserver yaratıkları (15-16) madalyaları düşürür. {npc:3393} (20) ve iki topçu (19) kalede ve surlarında duruyor.\nDikkat: her hedefin bağlı olduğu bir şifacısı ve muhafızları var, Fairmount'un yanında da üç fazladan deniz piyadesi var. Önce şifacıyı öldürmek dövüşü kolaylaştırır.",
 	["On the top floor"] = "En üst katta",
 	["Upstairs"] = "Üst katta",
 
@@ -505,7 +505,7 @@ return {
 	["{quest:882}, a big Sunscale raptor, only comes to a fresh kill: loot a {item:10338} from a zhevra, then use it at the {object:147538} north-west of {area:392}, north of the road to the Crossroads, and be ready when he arrives."] = "Büyük bir Sunscale raptor'u olan {quest:882} yalnızca taze bir avın yanına gelir: bir zhevra'dan {item:10338} loot et, sonra onu {area:392} limanının kuzeybatısında, Crossroads yolunun kuzeyindeki {object:147538} yanında kullan ve geldiğinde hazır ol.",
 	-- {item:10338} Fresh Zhevra Carcass
 	-- plural, as words: Zhevra Chargers = {npc:3426} Zhevra Charger
-	["{item:10338}, from any zhevra; Zhevra Chargers graze around the tree"] = "{item:10338}, herhangi bir zhevra'dan; Zhevra Charger yaratıkları ağacın çevresinde otluyor",
+	["{item:10338}, from any zhevra; Zhevra Chargers graze around the tree"] = "{item:10338}, herhangi bir zhevra'dan. Zhevra Charger yaratıkları ağacın çevresinde otluyor",
 	-- {object:147538} Dead Tree (no name in this language: may be words) · {quest:882} Ishamuhale
 	["At the {object:147538}: summons {quest:882}"] = "{object:147538} yanında: {quest:882} gelir",
 
@@ -534,7 +534,7 @@ return {
 
 	-- Step 120: Wailing Caverns
 	-- {area:718} Wailing Caverns · {npc:3396} Hezrul Bloodmark · {area:387} Lushwater Oasis · {npc:5767} Nalpak · {npc:3655} Mad Magglish · {item:5334} 99-Year-Old Port · {npc:5768} Ebru · {item:6464} Wailing Essence · {npc:3678} Disciple of Naralex · {npc:3654} Mutanus the Devourer · {item:10441} Glowing Shard · {area:392} Ratchet · {npc:8418} Falla Sagewind
-	["{area:718} is a dungeon for a group of five, about levels 17 to 24, and a full run takes about an hour. Its mouth is just north of {npc:3396}'s shore, at the north end of {area:387}, under {npc:5767}'s cave.\nIn the caves before the portal: {npc:3655}, stealthed, with the {item:5334} (he moves between a few spots and comes back slowly: leave him if he's gone). Inside: the Deviates for {npc:5768}, and their hides for {npc:5767} (they drop rarely: one run may not be enough, so leave the rest for another run), {item:6464} from the Ectoplasms. After the four Fanglords, the {npc:3678} at the entrance leads you to Naralex: {npc:3654} drops the {item:10441}: its quest (someone in {area:392}, then {npc:8418} above the caverns) is not on this route; the Dungeons page's hand-in guide takes it."] = "{area:718}, yaklaşık 17-24. seviyedeki beş kişilik bir grup için bir zindan; tam bir koşu yaklaşık bir saat sürer. Ağzı {npc:3396} kıyısının hemen kuzeyinde, {area:387} vahasının kuzey ucunda, {npc:5767} mağarasının altında.\nPortaldan önceki mağaralarda: gizlenmiş {npc:3655}, yanında {item:5334} ile (birkaç yer arasında gezinir ve yavaş geri gelir: gitmişse bırak). İçeride: {npc:5768} için Deviate'ler, {npc:5767} için de postları (nadir düşer: bir koşu yetmeyebilir, gerisini başka koşuya bırak), Ectoplasm'lardan {item:6464}. Dört Fanglord'dan sonra girişteki {npc:3678} seni Naralex'e götürür: {npc:3654} {item:10441} düşürür; görevi ({area:392} limanında biri, sonra mağaraların yukarısındaki {npc:8418}) bu rotada yok; Zindanlar sayfasının teslim rehberi onu alır.",
+	["{area:718} is a dungeon for a group of five, about levels 17 to 24, and a full run takes about an hour. Its mouth is just north of {npc:3396}'s shore, at the north end of {area:387}, under {npc:5767}'s cave.\nIn the caves before the portal: {npc:3655}, stealthed, with the {item:5334} (he moves between a few spots and comes back slowly: leave him if he's gone). Inside: the Deviates for {npc:5768}, and their hides for {npc:5767} (they drop rarely: one run may not be enough, so leave the rest for another run), {item:6464} from the Ectoplasms. After the four Fanglords, the {npc:3678} at the entrance leads you to Naralex: {npc:3654} drops the {item:10441}: its quest (someone in {area:392}, then {npc:8418} above the caverns) is not on this route; the Dungeons page's hand-in guide takes it."] = "{area:718}, yaklaşık 17-24. seviyedeki beş kişilik bir grup için bir zindan. Tam bir koşu yaklaşık bir saat sürer. Ağzı {npc:3396} kıyısının hemen kuzeyinde, {area:387} vahasının kuzey ucunda, {npc:5767} mağarasının altında.\nPortaldan önceki mağaralarda: gizlenmiş {npc:3655}, yanında {item:5334} ile (birkaç yer arasında gezinir ve yavaş geri gelir: gitmişse bırak). İçeride: {npc:5768} için Deviate'ler, {npc:5767} için de postları (nadir düşer: bir koşu yetmeyebilir, gerisini başka koşuya bırak), Ectoplasm'lardan {item:6464}. Dört Fanglord'dan sonra girişteki {npc:3678} seni Naralex'e götürür: {npc:3654} {item:10441} düşürür, görevi ({area:392} limanında biri, sonra mağaraların yukarısındaki {npc:8418}) bu rotada yok. Zindanlar sayfasının teslim rehberi onu alır.",
 	-- {item:6464} Wailing Essence
 	["{item:6464}: the Ectoplasms"] = "{item:6464}: Ectoplasm'lar",
 
@@ -567,13 +567,13 @@ return {
 	-- Step 128: Jorn Skyseer
 	-- {quest:1824} Trial at the Field of Giants · {npc:6394} Ruga Ragetotem
 	-- plural, as words: Silithid Mounds = {object:3685} Silithid Mound
-	["Warriors: take {quest:1824} from {npc:6394} now: it runs for 30 minutes from the accept. The antennae come first, at the Silithid Mounds south of the camp, then straight back to {npc:6394}; the thunderhawks after."] = "Warrior'lar: {quest:1824} görevini şimdi {npc:6394} yanından al: kabulden itibaren 30 dakika sürer. Önce kampın güneyindeki Silithid Mound yığınlarında antenler, sonra doğruca {npc:6394} yanına dön; thunderhawk'lar sonra.",
+	["Warriors: take {quest:1824} from {npc:6394} now: it runs for 30 minutes from the accept. The antennae come first, at the Silithid Mounds south of the camp, then straight back to {npc:6394}; the thunderhawks after."] = "Warrior'lar: {quest:1824} görevini şimdi {npc:6394} yanından al: kabulden itibaren 30 dakika sürer. Önce kampın güneyindeki Silithid Mound yığınlarında antenler, sonra doğruca {npc:6394} yanına dön, thunderhawk'lar sonra.",
 
 	-- Step 129: Twitching Antennae
 	["Twitching Antennae"] = "Twitching Antenna",
 	-- {area:390} Field of Giants · {area:378} Camp Taurajo · {npc:6394} Ruga Ragetotem · {npc:4196} Silithid Swarm · {npc:5781} Silithid Creeper Egg · {npc:3253} Silithid Harvester
 	-- plural, as words: Silithid Swarmers = {npc:3252} Silithid Swarmer · Silithid Mounds = {object:3685} Silithid Mound · Silithid Creepers = {npc:3250} Silithid Creeper
-	["The antennae vanish fifteen minutes after they drop: kill the Silithid Swarmers and Creepers at the Silithid Mounds in the {area:390}, south of {area:378}, until you have five, then take them straight to {npc:6394} in {area:378}, before the thunderhawks. Careful: Silithid Swarmers (level 21-22) cast {npc:4196} both in and out of combat, which brings several small adds; Silithid Creepers (level 20-21) periodically cast {npc:5781} in combat, which spawns extra adds. A {npc:3253} (24, rare) also wanders the mounds: leave it."] = "Antenler düştükten on beş dakika sonra kaybolur: {area:378} kampının güneyindeki {area:390} içinde, Silithid Mound yığınlarındaki Silithid Swarmer ve Creeper yaratıklarını beş tanen olana kadar öldür, sonra thunderhawk'lardan önce onları doğruca {area:378} kampındaki {npc:6394} yanına götür. Dikkat: Silithid Swarmer yaratıkları (seviye 21-22) dövüşte de dövüş dışında da {npc:4196} kullanır, bu da birkaç küçük yaratık getirir; Silithid Creeper yaratıkları (seviye 20-21) dövüşte ara ara {npc:5781} kullanır, bu da fazladan yaratık doğurur. Yığınlarda bir {npc:3253} (24, rare) da dolaşıyor: onu bırak.",
+	["The antennae vanish fifteen minutes after they drop: kill the Silithid Swarmers and Creepers at the Silithid Mounds in the {area:390}, south of {area:378}, until you have five, then take them straight to {npc:6394} in {area:378}, before the thunderhawks. Careful: Silithid Swarmers (level 21-22) cast {npc:4196} both in and out of combat, which brings several small adds; Silithid Creepers (level 20-21) periodically cast {npc:5781} in combat, which spawns extra adds. A {npc:3253} (24, rare) also wanders the mounds: leave it."] = "Antenler düştükten on beş dakika sonra kaybolur: {area:378} kampının güneyindeki {area:390} içinde, Silithid Mound yığınlarındaki Silithid Swarmer ve Creeper yaratıklarını beş tanen olana kadar öldür, sonra thunderhawk'lardan önce onları doğruca {area:378} kampındaki {npc:6394} yanına götür. Dikkat: Silithid Swarmer yaratıkları (seviye 21-22) dövüşte de dövüş dışında da {npc:4196} kullanır, bu da birkaç küçük yaratık getirir. Silithid Creeper yaratıkları (seviye 20-21) dövüşte ara ara {npc:5781} kullanır, bu da fazladan yaratık doğurur. Yığınlarda bir {npc:3253} (24, rare) da dolaşıyor: onu bırak.",
 	["Twitching Antennae from the silithid"] = "Silithid yaratıklarından Twitching Antenna",
 
 	-- Step 130: Ruga Ragetotem
@@ -648,7 +648,7 @@ return {
 	["{area:1076}: kill these as you meet them"] = "{area:1076}: bunları karşılaştıkça öldür",
 	-- {area:2539} Malaka'jin · {npc:11858} Grundig Darkcloud
 	-- plural, as words: Grimtotem Brutes = {npc:11912} Grimtotem Brute · Deepmoss Creepers = {npc:4005} Deepmoss Creeper
-	["North up the road from {area:2539}: {npc:11858} and his Grimtotem Brutes hold the bend in the road, and the Deepmoss Creepers and Venomspitters lurk in the webs on both sides of the path all the way up."] = "{area:2539} köyünden yoldan kuzeye çık: {npc:11858} ve Grimtotem Brute yaratıkları yoldaki dönemeci tutuyor; Deepmoss Creeper ve Venomspitter yaratıkları da yukarıya kadar patikanın iki yanındaki ağlarda pusuda.",
+	["North up the road from {area:2539}: {npc:11858} and his Grimtotem Brutes hold the bend in the road, and the Deepmoss Creepers and Venomspitters lurk in the webs on both sides of the path all the way up."] = "{area:2539} köyünden yoldan kuzeye çık: {npc:11858} ve Grimtotem Brute yaratıkları yoldaki dönemeci tutuyor. Deepmoss Creeper ve Venomspitter yaratıkları da yukarıya kadar patikanın iki yanındaki ağlarda pusuda.",
 
 	-- Step 145: Ziz Fizziks
 	-- {area:1076} Webwinder Path · {quest:1483} Ziz Fizziks · {area:461} Windshear Crag
@@ -658,13 +658,13 @@ return {
 
 	-- Step 146: Windshear Crag
 	-- {area:461} Windshear Crag
-	["East of Ziz, the Venture Company is clear-cutting {area:461}; one of the Operators carries the blueprints."] = "Ziz'in doğusunda Venture Company {area:461} kayalığındaki ağaçları kesip biçiyor; Operator'lardan birinde planlar var.",
+	["East of Ziz, the Venture Company is clear-cutting {area:461}; one of the Operators carries the blueprints."] = "Ziz'in doğusunda Venture Company {area:461} kayalığındaki ağaçları kesip biçiyor, Operator'lardan birinde planlar var.",
 	-- plural, as words: Venture Co. Loggers = {npc:3989} Venture Co. Logger
 	["Venture Co. Loggers, all over the clear-cut"] = "Kesilmiş ormanın her yanındaki Venture Co. Logger yaratıkları",
 
 	-- Step 147: Piznik
 	-- {npc:4276} Piznik · {area:2160} Windshear Mine
-	["{npc:4276}'s defence is hard alone at this level: grouping up is encouraged, look for people to do it with. Skip it if you are alone.\n{npc:4276} mines at the bottom of the {area:2160} on the east side of the crag, past its kobolds (levels 19-23). Talk to him, then keep him alive for five minutes while he mines: a dozen or more kobolds come at him in waves, melee fighters first, then casters, and the mine's own kobolds respawn into the fight. If he dies, the quest fails."] = "{npc:4276} adlı NPC'yi savunmak bu seviyede tek başına zor: grup kurman önerilir, birlikte yapacak kişiler ara. Yalnızsan atla.\n{npc:4276}, kayalığın doğu tarafındaki {area:2160} madeninin dibinde, kobold'ların (seviye 19-23) ötesinde maden kazıyor. Onunla konuş, sonra o kazarken beş dakika hayatta tut: dalgalar hâlinde bir düzine ya da daha fazla kobold üstüne gelir, önce yakın dövüşçüler, sonra büyücüler; madenin kendi kobold'ları da dövüşe yeniden doğar. Ölürse görev başarısız olur.",
+	["{npc:4276}'s defence is hard alone at this level: grouping up is encouraged, look for people to do it with. Skip it if you are alone.\n{npc:4276} mines at the bottom of the {area:2160} on the east side of the crag, past its kobolds (levels 19-23). Talk to him, then keep him alive for five minutes while he mines: a dozen or more kobolds come at him in waves, melee fighters first, then casters, and the mine's own kobolds respawn into the fight. If he dies, the quest fails."] = "{npc:4276} adlı NPC'yi savunmak bu seviyede tek başına zor: grup kurman önerilir, birlikte yapacak kişiler ara. Yalnızsan atla.\n{npc:4276}, kayalığın doğu tarafındaki {area:2160} madeninin dibinde, kobold'ların (seviye 19-23) ötesinde maden kazıyor. Onunla konuş, sonra o kazarken beş dakika hayatta tut: dalgalar hâlinde bir düzine ya da daha fazla kobold üstüne gelir, önce yakın dövüşçüler, sonra büyücüler. Madenin kendi kobold'ları da dövüşe yeniden doğar. Ölürse görev başarısız olur.",
 	-- {npc:4276} Piznik
 	["{npc:4276}, below ground"] = "{npc:4276}, yer altında",
 
@@ -692,7 +692,7 @@ return {
 	-- {npc:4049} Seereth Stonebreak · {quest:1063} The Elder Crone · {zone:1456} Thunder Bluff
 	["{npc:4049}: {quest:1063}, Magatha in {zone:1456}, on the next guide's way back from Zoram'gar"] = "{npc:4049}: {quest:1063}, sonraki rehberin Zoram'gar dönüşünde {zone:1456} şehrindeki Magatha",
 	-- {npc:11857} Makaba Flathoof · {npc:11864} Tammra Windfield · {area:460} Sun Rock Retreat · {zone:1413} The Barrens
-	["{npc:11857}: keep it, {npc:11864} at {area:460} in the {zone:1413} & Stonetalon guide"] = "{npc:11857}: sakla; {zone:1413} ve Stonetalon rehberinde {area:460} içindeki {npc:11864}",
+	["{npc:11857}: keep it, {npc:11864} at {area:460} in the {zone:1413} & Stonetalon guide"] = "{npc:11857}: sakla, {zone:1413} ve Stonetalon rehberinde {area:460} içindeki {npc:11864}",
 	-- {zone:1413} The Barrens · {area:1703} Mor'shan Rampart · {zone:1440} Ashenvale
 	["The next guide goes north-east across the {zone:1413} to the {area:1703} and {zone:1440}."] = "Sonraki rehber {zone:1413} boyunca kuzeydoğuya, {area:1703} ve {zone:1440} bölgesine gider.",
 }

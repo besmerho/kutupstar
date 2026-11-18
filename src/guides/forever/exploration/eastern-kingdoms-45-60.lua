@@ -12,9 +12,9 @@ return {
 	["Starts in the {zone:1425}, north-east of {zone:1424}. The last area of this guide completes the {zone:1415} map. 14 areas to discover here, levels 41-49."] = "{zone:1424} bölgesinin kuzeydoğusundaki {zone:1425} bölgesinde başlar. Bu rehberin son alanı {zone:1415} haritasını tamamlar. Burada keşfedilecek 14 alan var, seviye 41-49.",
 	["Exploring the entire world map on one character is a Forever Legacy Challenge (1 account-wide Legacy Point)."] = "Tek bir karakterle tüm dünya haritasını keşfetmek bir Forever Legacy Challenge'ı (hesap geneli 1 Legacy Point).",
 	-- {area:348} Aerie Peak · {area:271} Southshore · {zone:1424} Hillsbrad Foothills · {zone:1425} The Hinterlands
-	["Fly to {area:348} if you have it; otherwise fly to {area:271} and walk north-east from {zone:1424} into the {zone:1425}."] = "Açıksa {area:348} zirvesine uç; değilse {area:271} kasabasına uç ve {zone:1424} bölgesinden kuzeydoğuya, {zone:1425} bölgesine yürü.",
+	["Fly to {area:348} if you have it; otherwise fly to {area:271} and walk north-east from {zone:1424} into the {zone:1425}."] = "Açıksa {area:348} zirvesine uç. Değilse {area:271} kasabasına uç ve {zone:1424} bölgesinden kuzeydoğuya, {zone:1425} bölgesine yürü.",
 	-- {area:3317} Revantusk Village · {area:272} Tarren Mill · {zone:1424} Hillsbrad Foothills · {zone:1425} The Hinterlands
-	["Fly to {area:3317} if you have it; otherwise fly to {area:272} and walk east from {zone:1424} into the {zone:1425}."] = "Açıksa {area:3317} köyüne uç; değilse {area:272} kasabasına uç ve {zone:1424} bölgesinden doğuya, {zone:1425} bölgesine yürü.",
+	["Fly to {area:3317} if you have it; otherwise fly to {area:272} and walk east from {zone:1424} into the {zone:1425}."] = "Açıksa {area:3317} köyüne uç. Değilse {area:272} kasabasına uç ve {zone:1424} bölgesinden doğuya, {zone:1425} bölgesine yürü.",
 	-- {area:348} Aerie Peak · {npc:8018} Guthrum Thunderfist
 	["Flight path here: {area:348} ({npc:8018})."] = "Uçuş noktası: {area:348} ({npc:8018}).",
 	-- {area:3317} Revantusk Village
@@ -56,7 +56,7 @@ return {
 	-- Step 7: Blasted Lands (1/2)
 	["9 areas to discover here, levels 46-63."] = "Burada keşfedilecek 9 alan var, seviye 46-63.",
 	-- {zone:1430} Deadwind Pass · {zone:1435} Swamp of Sorrows · {zone:1419} Blasted Lands · {area:1438} Nethergarde Keep
-	["Ride east out of {zone:1430} into the {zone:1435} and take the road south into the {zone:1419}; {area:1438} (Alliance) stands just inside."] = "{zone:1430} bölgesinden doğuya, {zone:1435} bölgesine sür ve güneye giden yolla {zone:1419} bölgesine gir; {area:1438} (Alliance) hemen girişte duruyor.",
+	["Ride east out of {zone:1430} into the {zone:1435} and take the road south into the {zone:1419}; {area:1438} (Alliance) stands just inside."] = "{zone:1430} bölgesinden doğuya, {zone:1435} bölgesine sür ve güneye giden yolla {zone:1419} bölgesine gir. {area:1438} (Alliance) hemen girişte duruyor.",
 	-- {area:1438} Nethergarde Keep · {npc:8609} Alexandra Constantine
 	["Flight path here: {area:1438} ({npc:8609})."] = "Uçuş noktası: {area:1438} ({npc:8609}).",
 	["level 63 area, well above this guide's range"] = "seviye 63 alan, bu rehberin aralığının çok üstünde",
@@ -64,7 +64,7 @@ return {
 	-- Step 9: Western Plaguelands (1/2)
 	["13 areas to discover here, levels 46-57."] = "Burada keşfedilecek 13 alan var, seviye 46-57.",
 	-- {area:3197} Chillwind Camp · {area:271} Southshore · {zone:1416} Alterac Mountains · {zone:1422} Western Plaguelands
-	["Fly to {area:3197} if you have it; otherwise fly to {area:271} and ride north through the {zone:1416} to {area:3197} in southern {zone:1422}."] = "Sende varsa {area:3197} kampına uç; yoksa {area:271} limanına uç ve {zone:1416} üzerinden kuzeye, {zone:1422} bölgesinin güneyindeki {area:3197} kampına sür.",
+	["Fly to {area:3197} if you have it; otherwise fly to {area:271} and ride north through the {zone:1416} to {area:3197} in southern {zone:1422}."] = "Sende varsa {area:3197} kampına uç, yoksa {area:271} limanına uç ve {zone:1416} üzerinden kuzeye, {zone:1422} bölgesinin güneyindeki {area:3197} kampına sür.",
 	-- {area:272} Tarren Mill · {zone:1416} Alterac Mountains · {zone:1422} Western Plaguelands · {zone:1420} Tirisfal Glades · {area:813} The Bulwark
 	["Fly to {area:272} and ride north through the {zone:1416} into southern {zone:1422}, or go east from {zone:1420} past {area:813}."] = "{area:272} kasabasına uç ve {zone:1416} üzerinden kuzeye, {zone:1422} bölgesinin güneyine sür ya da {zone:1420} bölgesinden doğuya, {area:813} siperini geçerek git.",
 	-- {area:3197} Chillwind Camp · {npc:12596} Bibilfaz Featherwhistle

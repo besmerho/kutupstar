@@ -16,7 +16,7 @@ return {
 
 	-- Step 2: Vile Familiars
 	-- {quest:1485} Vile Familiars · {area:365} Burning Blade Coven
-	["The {quest:1485} (level 3-4) swarm the {area:365}, the cave north of the Den, inside and around its mouth. Almost every kill drops a head (80%), so about eight kills does it; they throw small fireballs, so pull them one at a time. They respawn in just over three minutes. Other classes hunt the same imps for their own {quest:1485} quest."] = "{quest:1485} (seviye 3-4), Den'in kuzeyindeki mağara {area:365} içinde ve ağzının çevresinde kaynıyor. Neredeyse her öldürme bir kafa düşürür (%80), bu yüzden yaklaşık sekiz öldürme yeter; küçük ateş topları atarlar, bu yüzden tek tek çek. Üç dakikadan biraz fazla sürede yeniden doğarlar. Diğer sınıflar da kendi {quest:1485} görevleri için aynı imp'leri avlar.",
+	["The {quest:1485} (level 3-4) swarm the {area:365}, the cave north of the Den, inside and around its mouth. Almost every kill drops a head (80%), so about eight kills does it; they throw small fireballs, so pull them one at a time. They respawn in just over three minutes. Other classes hunt the same imps for their own {quest:1485} quest."] = "{quest:1485} (seviye 3-4), Den'in kuzeyindeki mağara {area:365} içinde ve ağzının çevresinde kaynıyor. Neredeyse her öldürme bir kafa düşürür (%80), bu yüzden yaklaşık sekiz öldürme yeter. Küçük ateş topları atarlar, bu yüzden tek tek çek. Üç dakikadan biraz fazla sürede yeniden doğarlar. Diğer sınıflar da kendi {quest:1485} görevleri için aynı imp'leri avlar.",
 	-- plural, as words: Vile Familiar Heads = {item:6487} Vile Familiar Head
 	["Vile Familiar Heads"] = "Vile Familiar Head",
 
@@ -36,7 +36,7 @@ return {
 	["Rattlecage Skulls"] = "Rattlecage Skull",
 	-- {area:154} Deathknell
 	-- plural, as words: Rattlecage Skeletons = {npc:1890} Rattlecage Skeleton
-	["The Rattlecage Skeletons (level 2-3) stand around the old smithy buildings just north of {area:154}, often right against the walls. Four kills in five drop a skull, so plan on about five; twenty of them spawn there and each comes back after five minutes."] = "Rattlecage Skeleton yaratıkları (seviye 2-3), {area:154} köyünün hemen kuzeyindeki eski demirhane binalarının çevresinde, çoğu zaman duvarlara yaslanmış duruyor. Beşte dördü bir kafatası düşürür, bu yüzden yaklaşık beş planla; orada yirmi tane doğar ve her biri beş dakika sonra geri gelir.",
+	["The Rattlecage Skeletons (level 2-3) stand around the old smithy buildings just north of {area:154}, often right against the walls. Four kills in five drop a skull, so plan on about five; twenty of them spawn there and each comes back after five minutes."] = "Rattlecage Skeleton yaratıkları (seviye 2-3), {area:154} köyünün hemen kuzeyindeki eski demirhane binalarının çevresinde, çoğu zaman duvarlara yaslanmış duruyor. Beşte dördü bir kafatası düşürür, bu yüzden yaklaşık beş planla. Orada yirmi tane doğar ve her biri beş dakika sonra geri gelir.",
 
 	-- Step 6: Summon Imp
 	-- {npc:5667} Venya Marthand · {spell:688} Summon Imp

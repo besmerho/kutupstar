@@ -17,29 +17,29 @@ return {
 	["{item:15851} and {item:2449}"] = "{item:15851} ve {item:2449}",
 	-- {area:442} Auberdine · {item:2449} Earthroot · {skill:182} Herbalism · {zone:1439} Darkshore · {zone:1453} Stormwind · {npc:1313} Maria Lumere
 	-- plural, as words: Lunar Fungal Blooms = {object:177750} Lunar Fungal Bloom
-	["On the way south to the Grove: the Lunar Fungal Blooms grow in the moonkin caves in the hills just east of {area:442}, a short way off the road; the moonkin there are irritable. {item:2449} needs {skill:182}: herbalists pick it all over {zone:1439}, anyone else brings it from {zone:1453} ({npc:1313}) or the Auction House."] = "Güneye, Grove'a giderken: Lunar Fungal Bloom mantarları {area:442} kasabasının hemen doğusundaki tepelerde, yoldan biraz uzakta, moonkin mağaralarında yetişiyor; oradaki moonkin'ler huysuzdur. {item:2449} için {skill:182} gerekir: herbalism yapanlar onu {zone:1439} bölgesinin her yerinde toplar, diğerleri {zone:1453} şehrinden ({npc:1313}) ya da müzayede evinden getirir.",
+	["On the way south to the Grove: the Lunar Fungal Blooms grow in the moonkin caves in the hills just east of {area:442}, a short way off the road; the moonkin there are irritable. {item:2449} needs {skill:182}: herbalists pick it all over {zone:1439}, anyone else brings it from {zone:1453} ({npc:1313}) or the Auction House."] = "Güneye, Grove'a giderken: Lunar Fungal Bloom mantarları {area:442} kasabasının hemen doğusundaki tepelerde, yoldan biraz uzakta, moonkin mağaralarında yetişiyor. Oradaki moonkin'ler huysuzdur. {item:2449} için {skill:182} gerekir: herbalism yapanlar onu {zone:1439} bölgesinin her yerinde toplar, diğerleri {zone:1453} şehrinden ({npc:1313}) ya da Auction House'tan getirir.",
 
 	-- Step 4: Onu
 	-- {quest:948} Onu · {npc:270269} Arbal · {npc:11218} Kerlonian Evershade
-	["{quest:948} is the ancient at the Grove; {npc:270269} and {npc:11218} sleep beside him."] = "{quest:948}, Grove'daki kadim; {npc:270269} ve {npc:11218} onun yanında uyuyor.",
+	["{quest:948} is the ancient at the Grove; {npc:270269} and {npc:11218} sleep beside him."] = "{quest:948}, Grove'daki kadim. {npc:270269} ve {npc:11218} onun yanında uyuyor.",
 
 	-- Step 5: The Grove of the Ancients
 	-- {quest:952} Grove of the Ancients
 	["The {quest:952}"] = "{quest:952}",
 	-- {quest:1003} Buzzbox 525
 	-- plural, as words: Grizzled Thistle Bears = {npc:2165} Grizzled Thistle Bear
-	["Grizzled Thistle Bears roam the hills around the Grove; {quest:1003} stands west of it among them."] = "Grizzled Thistle Bear yaratıkları korunun çevresindeki tepelerde dolaşıyor; {quest:1003} korunun batısında, onların arasında duruyor.",
+	["Grizzled Thistle Bears roam the hills around the Grove; {quest:1003} stands west of it among them."] = "Grizzled Thistle Bear yaratıkları korunun çevresindeki tepelerde dolaşıyor. {quest:1003} korunun batısında, onların arasında duruyor.",
 	-- plural, as words: Grizzled Scalps = {item:5414} Grizzled Scalp
 	["Grizzled Scalps"] = "Grizzled Scalp",
 
 	-- Step 6: The Master's Glaive
 	-- {object:12666} Twilight Tome · {npc:3584} Therylune · {quest:948} Onu · {item:5251} Phial of Scrying · {object:10076} Scrying Bowl
 	-- plural, as words: Moonstalker Sires = {npc:2237} Moonstalker Sire
-	["Moonstalker Sires prowl the woods around the glaive. The {object:12666} sits at the bottom of the crater; {npc:3584} stands on its north side. For {quest:948}'s quest, use the {item:5251} at the bottom of the crater: it makes the {object:10076}, and you hand the quest in to the bowl."] = "Moonstalker Sire yaratıkları glaive'in çevresindeki ormanda dolaşıyor. {object:12666} kraterin dibinde duruyor; {npc:3584} kraterin kuzey tarafında. {quest:948} görevi için kraterin dibinde {item:5251} kullan: {object:10076} ortaya çıkar ve görevi kâseye teslim edersin.",
+	["Moonstalker Sires prowl the woods around the glaive. The {object:12666} sits at the bottom of the crater; {npc:3584} stands on its north side. For {quest:948}'s quest, use the {item:5251} at the bottom of the crater: it makes the {object:10076}, and you hand the quest in to the bowl."] = "Moonstalker Sire yaratıkları glaive'in çevresindeki ormanda dolaşıyor. {object:12666} kraterin dibinde duruyor. {npc:3584} kraterin kuzey tarafında. {quest:948} görevi için kraterin dibinde {item:5251} kullan: {object:10076} ortaya çıkar ve görevi kâseye teslim edersin.",
 	-- plural, as words: Fine Moonstalker Pelts = {item:5386} Fine Moonstalker Pelt
 	["Fine Moonstalker Pelts"] = "Fine Moonstalker Pelt",
 	-- {zone:1440} Ashenvale
-	["Escort her out of the glaive; Therysil takes the turn-in in {zone:1440}"] = "Ona glaive dışına kadar eşlik et; teslimi {zone:1440} bölgesinde Therysil alır",
+	["Escort her out of the glaive; Therysil takes the turn-in in {zone:1440}"] = "Ona glaive dışına kadar eşlik et, teslimi {zone:1440} bölgesinde Therysil alır",
 	-- {item:5352} Book: The Powers Below
 	["Only if a Disciple or Thug dropped {item:5352}: right-click it"] = "Yalnızca bir Disciple ya da Thug {item:5352} düşürdüyse: ona sağ tıkla",
 	-- {object:10076} Scrying Bowl
@@ -60,7 +60,7 @@ return {
 	-- {npc:10323} Murkdeep
 	["{npc:10323}'s beach"] = "{npc:10323} kumsalı",
 	-- {npc:10323} Murkdeep · {area:450} Remtravel's Excavation
-	["{npc:10323} camps on the beach west of the glaive: kill the murlocs at the camp fire; he comes in the third wave with his hound. Four beached remains lie on the beaches west and south-west of {area:450}: take them on the way north to his camp."] = "{npc:10323}, glaive'in batısındaki kumsalda kamp kurmuş: kamp ateşindeki murloc'ları öldür; o, üçüncü dalgada köpeğiyle gelir. Karaya vurmuş dört kalıntı {area:450} kesiminin batısındaki ve güneybatısındaki kumsallarda duruyor: kuzeydeki kampına giderken onları al.",
+	["{npc:10323} camps on the beach west of the glaive: kill the murlocs at the camp fire; he comes in the third wave with his hound. Four beached remains lie on the beaches west and south-west of {area:450}: take them on the way north to his camp."] = "{npc:10323}, glaive'in batısındaki kumsalda kamp kurmuş: kamp ateşindeki murloc'ları öldür. O, üçüncü dalgada köpeğiyle gelir. Karaya vurmuş dört kalıntı {area:450} kesiminin batısındaki ve güneybatısındaki kumsallarda duruyor: kuzeydeki kampına giderken onları al.",
 
 	-- Step 11: The shore west of the Grove
 	["The shore west of the Grove"] = "Koru'nun batısındaki kıyı",
@@ -85,7 +85,7 @@ return {
 	["The naga"] = "Nagalar",
 	-- {area:443} Ruins of Mathystra · {quest:951} Mathystra Relics · {npc:270294} Baron Marinous
 	-- plural, as words: Stormscale Myrmidons = {npc:2181} Stormscale Myrmidon
-	["Follow the coast north-east to the {area:443}. {quest:951} lie among the ruins; Stormscale Myrmidons, Sorceresses and Warriors hold them, and Stormscale Beastmistresses walk the shore. Careful: {npc:270294}, an elite naga (21), walks the ruins among them: pull the naga away from him, or fight him at full health."] = "Kıyıyı kuzeydoğuya izleyerek {area:443} harabelerine git. {quest:951} harabelerin arasında duruyor; onları Stormscale Myrmidon, Sorceress ve Warrior yaratıkları tutuyor, Stormscale Beastmistress yaratıkları da kıyıda dolaşıyor. Dikkat: elit bir naga olan {npc:270294} (21) harabelerde onların arasında dolaşıyor: nagaları ondan uzağa çek ya da onunla tam canla dövüş.",
+	["Follow the coast north-east to the {area:443}. {quest:951} lie among the ruins; Stormscale Myrmidons, Sorceresses and Warriors hold them, and Stormscale Beastmistresses walk the shore. Careful: {npc:270294}, an elite naga (21), walks the ruins among them: pull the naga away from him, or fight him at full health."] = "Kıyıyı kuzeydoğuya izleyerek {area:443} harabelerine git. {quest:951} harabelerin arasında duruyor. Onları Stormscale Myrmidon, Sorceress ve Warrior yaratıkları tutuyor, Stormscale Beastmistress yaratıkları da kıyıda dolaşıyor. Dikkat: elit bir naga olan {npc:270294} (21) harabelerde onların arasında dolaşıyor: nagaları ondan uzağa çek ya da onunla tam canla dövüş.",
 
 	-- Step 16: The Ruins of Mathystra
 	-- {area:443} Ruins of Mathystra
@@ -110,12 +110,12 @@ return {
 
 	-- Step 20: Volcor
 	-- {npc:3692} Volcor · {area:449} Master's Glaive · {npc:3693} Terenthis · {area:442} Auberdine
-	["{npc:3692} hides in the hills east of the {area:449}. Help him back to the road; he fights on his way out. {npc:3693} takes the escort in {area:442} on the next visit there."] = "{npc:3692}, {area:449} kesiminin doğusundaki tepelerde saklanıyor. Yola dönmesine yardım et; çıkarken yol boyunca dövüşür. {npc:3693} eskortu bir sonraki ziyaretinde {area:442} kasabasında teslim alır.",
+	["{npc:3692} hides in the hills east of the {area:449}. Help him back to the road; he fights on his way out. {npc:3693} takes the escort in {area:442} on the next visit there."] = "{npc:3692}, {area:449} kesiminin doğusundaki tepelerde saklanıyor. Yola dönmesine yardım et. Çıkarken yol boyunca dövüşür. {npc:3693} eskortu bir sonraki ziyaretinde {area:442} kasabasında teslim alır.",
 	-- {npc:3692} Volcor · {area:455} Blackwood Den
 	["{npc:3692}, inside {area:455}"] = "{npc:3692}, {area:455} içinde",
 	["His walk ends at the road, where Grimclaw waits"] = "Yürüyüşü, Grimclaw'ın beklediği yolda biter",
 	-- {npc:12298} Sickly Deer · {item:15826} Curative Animal Salve · {zone:1439} Darkshore
-	["{npc:12298}: use the {item:15826} on them; they roam all of {zone:1439}"] = "{npc:12298}: üzerlerinde {item:15826} kullan; {zone:1439} bölgesinin her yerinde dolaşıyorlar",
+	["{npc:12298}: use the {item:15826} on them; they roam all of {zone:1439}"] = "{npc:12298}: üzerlerinde {item:15826} kullan, {zone:1439} bölgesinin her yerinde dolaşıyorlar",
 	-- {npc:12298} Sickly Deer
 	["Cure {npc:12298}"] = "İyileştir: {npc:12298}",
 
@@ -131,7 +131,7 @@ return {
 
 	-- Step 23: The Great Cat Spirit
 	-- {area:442} Auberdine · {area:702} Rut'theran Village · {npc:4217} Mathrengyl Bearwalker · {area:1658} Cenarion Enclave
-	["Night Elves fly from {area:442} to {area:702}; Skyborne take the boat from the {area:442} dock and learn the Rut'theran flight path there. Take the portal up to {npc:4217} in the {area:1658}."] = "Night Elf karakterler {area:442} kasabasından {area:702} köyüne uçar; Skyborne karakterler {area:442} iskelesinden gemiye biner ve oradaki Rut'theran uçuş noktasını açar. Portalla yukarı, {area:1658} içindeki {npc:4217} yanına çık.",
+	["Night Elves fly from {area:442} to {area:702}; Skyborne take the boat from the {area:442} dock and learn the Rut'theran flight path there. Take the portal up to {npc:4217} in the {area:1658}."] = "Night Elf karakterler {area:442} kasabasından {area:702} köyüne uçar. Skyborne karakterler {area:442} iskelesinden gemiye biner ve oradaki Rut'theran uçuş noktasını açar. Portalla yukarı, {area:1658} içindeki {npc:4217} yanına çık.",
 
 	-- Step 26: Moonglade
 	-- {spell:18960} Teleport: Moonglade

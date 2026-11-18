@@ -11,7 +11,7 @@ return {
 
 	-- Step 2: Greatmother Hawkwind
 	-- {npc:2991} Greatmother Hawkwind · {object:2907} Water Pitcher
-	["{npc:2991} sits by the tent on the camp's eastern edge; the {object:2907} stands next to her."] = "{npc:2991} kampın doğu kenarındaki çadırın yanında oturuyor; {object:2907} hemen yanında duruyor.",
+	["{npc:2991} sits by the tent on the camp's eastern edge; the {object:2907} stands next to her."] = "{npc:2991} kampın doğu kenarındaki çadırın yanında oturuyor, {object:2907} hemen yanında duruyor.",
 
 	-- Step 3: Camp Narache: kill these as you meet them
 	-- {area:221} Camp Narache
@@ -21,7 +21,7 @@ return {
 
 	-- Step 4: Grull Hawkwind
 	-- {npc:3059} Harutt Thunderhorn
-	["{npc:3059}, the warrior trainer; inside"] = "{npc:3059}, Warrior eğitmeni; içeride",
+	["{npc:3059}, the warrior trainer; inside"] = "{npc:3059}, Warrior eğitmeni, içeride",
 	-- {npc:3061} Lanka Farshot
 	["{npc:3061}, the hunter trainer"] = "{npc:3061}, Hunter eğitmeni",
 	-- {npc:3062} Meela Dawnstrider
@@ -47,14 +47,14 @@ return {
 	-- {area:221} Camp Narache
 	["Back north-west up to {area:221}."] = "Kuzeybatıya, {area:221} kampına geri çık.",
 	-- {npc:3209} Brave Windfeather · {npc:2980} Grull Hawkwind · {area:221} Camp Narache
-	["{npc:3209}, next to {npc:2980}; walks around {area:221}: look inside the circle on the map"] = "{npc:3209}, {npc:2980} yanında; {area:221} çevresinde dolaşıyor: haritadaki çemberin içine bak",
+	["{npc:3209}, next to {npc:2980}; walks around {area:221}: look inside the circle on the map"] = "{npc:3209}, {npc:2980} yanında, {area:221} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 9: Red Cloud Mesa: kill these as you meet them
 	-- {area:220} Red Cloud Mesa
 	["{area:220}: kill these as you meet them"] = "{area:220}: bunları karşılaştıkça öldür",
 	-- {npc:8554} Chief Sharptusk Thornmantle · {object:3076} Dirt-stained Map
 	-- plural, as words: Battleboars = {npc:2966} Battleboar
-	["Battleboars graze north of the shrine; the Bristleback quilboar hold the ravine to the north-east. {npc:8554} stands at its eastern end, and the {object:3076} lies on the ground in the camp."] = "Battleboar yaratıkları tapınağın kuzeyinde otluyor; kuzeydoğudaki vadiyi Bristleback quilboarları tutuyor. {npc:8554} vadinin doğu ucunda duruyor, {object:3076} ise kampta yerde.",
+	["Battleboars graze north of the shrine; the Bristleback quilboar hold the ravine to the north-east. {npc:8554} stands at its eastern end, and the {object:3076} lies on the ground in the camp."] = "Battleboar yaratıkları tapınağın kuzeyinde otluyor. Kuzeydoğudaki vadiyi Bristleback quilboarları tutuyor. {npc:8554} vadinin doğu ucunda duruyor, {object:3076} ise kampta yerde.",
 	["Below ground"] = "Yer altında",
 
 	-- Step 10: Deathskip to Red Cloud Mesa
@@ -70,7 +70,7 @@ return {
 
 	-- Step 12: Seer Ravenfeather
 	-- {npc:5888} Seer Ravenfeather · {area:221} Camp Narache · {quest:1519} Call of Earth
-	["{npc:5888} stands in {area:221}. {quest:1519} needs level 4, which you reach with the turn-ins here."] = "{npc:5888}, {area:221} kampında duruyor. {quest:1519} seviye 4 ister; buradaki teslimlerle o seviyeye ulaşırsın.",
+	["{npc:5888} stands in {area:221}. {quest:1519} needs level 4, which you reach with the turn-ins here."] = "{npc:5888}, {area:221} kampında duruyor. {quest:1519} seviye 4 ister. Buradaki teslimlerle o seviyeye ulaşırsın.",
 
 	-- Step 13: Ritual Salve
 	-- {area:358} Brambleblade Ravine
@@ -85,7 +85,7 @@ return {
 
 	-- Step 15: Kaga Wildhoof
 	-- {area:220} Red Cloud Mesa · {npc:265810} Kaga Wildhoof · {area:222} Bloodhoof Village · {spell:1229451} Boosted Rest · {zone:1456} Thunder Bluff
-	["Follow the road north out of {area:220}. {npc:265810} waits on the road just south of {area:222}; /sit by her campfire until you get {spell:1229451}. With a profession learned, Kaga also offers its Camping 101, which its trainer takes: in Bloodhoof or on the {zone:1456} stop."] = "{area:220} tepesinden kuzeye çıkan yolu izle. {npc:265810}, {area:222} köyünün hemen güneyinde yolda bekliyor; {spell:1229451} gelene dek kamp ateşinin yanında /sit ile otur. Bir meslek öğrendiysen Kaga o mesleğin Camping 101 görevini de verir; görevi mesleğin eğitmeni teslim alır: Bloodhoof'ta ya da {zone:1456} durağında.",
+	["Follow the road north out of {area:220}. {npc:265810} waits on the road just south of {area:222}; /sit by her campfire until you get {spell:1229451}. With a profession learned, Kaga also offers its Camping 101, which its trainer takes: in Bloodhoof or on the {zone:1456} stop."] = "{area:220} tepesinden kuzeye çıkan yolu izle. {npc:265810}, {area:222} köyünün hemen güneyinde yolda bekliyor. {spell:1229451} gelene dek kamp ateşinin yanında /sit ile otur. Bir meslek öğrendiysen Kaga o mesleğin Camping 101 görevini de verir. Görevi mesleğin eğitmeni teslim alır: Bloodhoof'ta ya da {zone:1456} durağında.",
 	-- {spell:1229451} Boosted Rest
 	["/sit by Kaga's campfire until you get {spell:1229451}"] = "{spell:1229451} gelene kadar Kaga'nın kamp ateşinin yanında otur (/sit)",
 
@@ -170,7 +170,7 @@ return {
 
 	-- Step 32: Poison Water
 	-- plural, as words: Wiry Swoops = {npc:2969} Wiry Swoop · Adult Plainstriders = {npc:2956} Adult Plainstrider · Elder Plainstriders = {npc:2957} Elder Plainstrider · Prairie Wolf Alphas = {npc:2960} Prairie Wolf Alpha
-	["Prairie Wolves, Wiry Swoops and Adult Plainstriders roam the plains around the village; the plains just south of it, toward the well, hold them without the Elder Plainstriders (8-9) and Prairie Wolf Alphas (9-10) that roam farther out."] = "Prairie Wolf, Wiry Swoop ve Adult Plainstrider yaratıkları köyün çevresindeki ovalarda dolaşıyor; köyün hemen güneyindeki, kuyuya doğru uzanan ovalarda bunlar var, ama daha uzakta dolaşan Elder Plainstrider (8-9) ve Prairie Wolf Alpha (9-10) yaratıkları yok.",
+	["Prairie Wolves, Wiry Swoops and Adult Plainstriders roam the plains around the village; the plains just south of it, toward the well, hold them without the Elder Plainstriders (8-9) and Prairie Wolf Alphas (9-10) that roam farther out."] = "Prairie Wolf, Wiry Swoop ve Adult Plainstrider yaratıkları köyün çevresindeki ovalarda dolaşıyor. Köyün hemen güneyindeki, kuyuya doğru uzanan ovalarda bunlar var, ama daha uzakta dolaşan Elder Plainstrider (8-9) ve Prairie Wolf Alpha (9-10) yaratıkları yok.",
 	-- {object:2910} Well Stone
 	["{object:2910}, 170 yd east"] = "{object:2910}, 170 yard doğuda",
 
@@ -256,7 +256,7 @@ return {
 
 	-- Step 51: Galak centaurs
 	["Galak centaurs"] = "Galak centaurları",
-	["The Galak centaurs camp on the plains east of the well; Herak leads them."] = "Galak centaur'ları kuyunun doğusundaki ovada kamp kurmuş; onları Herak yönetiyor.",
+	["The Galak centaurs camp on the plains east of the well; Herak leads them."] = "Galak centaur'ları kuyunun doğusundaki ovada kamp kurmuş, onları Herak yönetiyor.",
 
 	-- Step 52: Level 11
 	["Level 11"] = "Seviye 11",
@@ -268,7 +268,7 @@ return {
 
 	-- Step 53: The Venture Co. Mine
 	-- {quest:765} Supervisor Fizsprocket · {item:281031} Mulgore Expansion Plans · {quest:98424} Fizsprocket's Notes
-	["The goblins work the mine in the hills north-east of the well. {quest:765} stands in the back of the mine; his {item:281031} start {quest:98424}, and the other pages lie inside the mine.\nCareful: the goblins stand close together in the tunnels and {quest:765} is level 12: clear the way one pull at a time."] = "Goblinler kuyunun kuzeydoğusundaki tepelerde, madende çalışıyor. {quest:765} madenin dibinde duruyor; düşürdüğü {item:281031} eşyası {quest:98424} görevini başlatır, diğer sayfalar madenin içinde.\nDikkat: goblinler tünellerde birbirine yakın duruyor ve {quest:765} 12. seviye: yolu tek tek çekerek aç.",
+	["The goblins work the mine in the hills north-east of the well. {quest:765} stands in the back of the mine; his {item:281031} start {quest:98424}, and the other pages lie inside the mine.\nCareful: the goblins stand close together in the tunnels and {quest:765} is level 12: clear the way one pull at a time."] = "Goblinler kuyunun kuzeydoğusundaki tepelerde, madende çalışıyor. {quest:765} madenin dibinde duruyor. Düşürdüğü {item:281031} eşyası {quest:98424} görevini başlatır, diğer sayfalar madenin içinde.\nDikkat: goblinler tünellerde birbirine yakın duruyor ve {quest:765} 12. seviye: yolu tek tek çekerek aç.",
 
 	-- Step 54: Morin Cloudstalker
 	-- {area:396} Winterhoof Water Well
@@ -281,7 +281,7 @@ return {
 	-- Step 56: Red Rocks
 	-- {area:225} Red Rocks · {zone:1456} Thunder Bluff · {npc:3233} Lorekeeper Raintotem · {npc:2994} Ancestral Spirit
 	-- plural, as words: Bristleback Interlopers = {npc:3232} Bristleback Interloper
-	["Head north to {area:225}, east of {zone:1456}. {npc:3233} stands at the foot of the rocks; the Bristleback Interlopers dig at the burial ground and the {npc:2994} waits on top."] = "Kuzeye, {zone:1456} şehrinin doğusundaki {area:225} kayalarına git. {npc:3233} kayaların dibinde duruyor; Bristleback Interloper yaratıkları mezarlıkta kazı yapıyor, {npc:2994} ise tepede bekliyor.",
+	["Head north to {area:225}, east of {zone:1456}. {npc:3233} stands at the foot of the rocks; the Bristleback Interlopers dig at the burial ground and the {npc:2994} waits on top."] = "Kuzeye, {zone:1456} şehrinin doğusundaki {area:225} kayalarına git. {npc:3233} kayaların dibinde duruyor. Bristleback Interloper yaratıkları mezarlıkta kazı yapıyor, {npc:2994} ise tepede bekliyor.",
 	-- {item:5203} Flatland Prowler Claw · {area:225} Red Rocks
 	-- plural, as words: Flatland Prowlers = {npc:3566} Flatland Prowler
 	["{item:5203}: Flatland Prowlers roam the plains around {area:225}"] = "{item:5203}: Flatland Prowler yaratıkları {area:225} kayalarının çevresindeki düzlüklerde dolaşıyor",
@@ -292,7 +292,7 @@ return {
 
 	-- Step 58: Thunder Bluff
 	-- {npc:2995} Tal · {npc:3057} Cairne Bloodhoof
-	["Ride a lift up to the mesas. {npc:2995} keeps the wind riders on the central rise; {npc:3057} stands in the great tent there."] = "Bir asansörle platolara çık. {npc:2995} ortadaki tepede rüzgâr binicilerine bakıyor; {npc:3057} oradaki büyük çadırda duruyor.",
+	["Ride a lift up to the mesas. {npc:2995} keeps the wind riders on the central rise; {npc:3057} stands in the great tent there."] = "Bir asansörle platolara çık. {npc:2995} ortadaki tepede rüzgâr binicilerine bakıyor. {npc:3057} oradaki büyük çadırda duruyor.",
 
 	-- Step 59: Traditions of the Bluff
 	-- {npc:269068} Eylah Sunhorn · {npc:3014} Nida Winterhoof · {npc:3012} Nata Dawnstrider · {npc:3005} Mahu · {npc:3027} Naal Mistrunner · {item:278078} Prepared Incense
@@ -324,11 +324,11 @@ return {
 
 	-- Step 68: Ansekhwa
 	-- {spell:199} Two-Handed Maces · {npc:11869} Ansekhwa
-	["While you're here: learn {spell:199} from {npc:11869} (10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11869} sana {spell:199} öğretir (10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
+	["While you're here: learn {spell:199} from {npc:11869} (10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11869} sana {spell:199} öğretir (10 gümüş). Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 69: Ansekhwa
 	-- {npc:11869} Ansekhwa
-	["While you're here: learn Staves from {npc:11869} (10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11869} sana Staves öğretir (10 gümüş); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
+	["While you're here: learn Staves from {npc:11869} (10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11869} sana Staves öğretir (10 gümüş). Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
 	-- Step 70: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
@@ -336,12 +336,12 @@ return {
 	-- Step 71: Rogue trainer
 	["Rogue trainer"] = "Rogue eğitmeni",
 	-- {npc:3155} Rwag · {zone:1411} Durotar · {zone:1412} Mulgore
-	["{npc:3155} in {zone:1411}; {zone:1412} has no rogue trainer"] = "{npc:3155}, {zone:1411} bölgesinde; {zone:1412} bölgesinde Rogue eğitmeni yok",
+	["{npc:3155} in {zone:1411}; {zone:1412} has no rogue trainer"] = "{npc:3155}, {zone:1411} bölgesinde, {zone:1412} bölgesinde Rogue eğitmeni yok",
 
 	-- Step 72: Warlock trainer
 	["Warlock trainer"] = "Warlock eğitmeni",
 	-- {npc:3156} Nartok · {zone:1411} Durotar · {zone:1412} Mulgore
-	["{npc:3156} in {zone:1411}; {zone:1412} has no warlock trainer"] = "{npc:3156}, {zone:1411} bölgesinde; {zone:1412} bölgesinde Warlock eğitmeni yok",
+	["{npc:3156} in {zone:1411}; {zone:1412} has no warlock trainer"] = "{npc:3156}, {zone:1411} bölgesinde, {zone:1412} bölgesinde Warlock eğitmeni yok",
 
 	-- Step 74: Clarice Foster
 	-- {npc:5543} Clarice Foster · {area:2197} Pools of Vision · {area:1640} Spirit Rise
@@ -359,7 +359,7 @@ return {
 
 	-- Step 78: Moonglade
 	-- {spell:18960} Teleport: Moonglade · {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven · {quest:5930} Great Bear Spirit
-	["Cast {spell:18960}. {npc:11802} is in {area:2361}; the {quest:5930} sits in the north-western woods. {npc:11802} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "{spell:18960} büyüsünü kullan. {npc:11802} {area:2361} köyünde; {quest:5930} kuzeybatıdaki ormanda duruyor. {npc:11802} binasının üst katında duruyor: içeriden yukarı çık, ok katları birbirinden ayıramaz.",
+	["Cast {spell:18960}. {npc:11802} is in {area:2361}; the {quest:5930} sits in the north-western woods. {npc:11802} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "{spell:18960} büyüsünü kullan. {npc:11802} {area:2361} köyünde, {quest:5930} kuzeybatıdaki ormanda duruyor. {npc:11802} binasının üst katında duruyor: içeriden yukarı çık, ok katları birbirinden ayıramaz.",
 
 	-- Step 79: Back to Thunder Bluff
 	-- {area:1639} Elder Rise
@@ -399,7 +399,7 @@ return {
 
 	-- Step 86: Jahan Hawkwing
 	-- {npc:3483} Jahan Hawkwing · {npc:3615} Devrak · {zone:1456} Thunder Bluff · {npc:3033} Turak Runetotem
-	["{npc:3483} sells armor on the north side of the Crossroads. His bundle goes to {npc:3615}, who sends it with you on the flight to {zone:1456} you take for {npc:3033} anyway."] = "{npc:3483}, Crossroads'un kuzey yakasında zırh satıyor. Bohçası {npc:3615} yanına gidiyor; o da onu, zaten {npc:3033} için yapacağın {zone:1456} uçuşunda seninle gönderir.",
+	["{npc:3483} sells armor on the north side of the Crossroads. His bundle goes to {npc:3615}, who sends it with you on the flight to {zone:1456} you take for {npc:3033} anyway."] = "{npc:3483}, Crossroads'un kuzey yakasında zırh satıyor. Bohçası {npc:3615} yanına gidiyor. O da onu, zaten {npc:3033} için yapacağın {zone:1456} uçuşunda seninle gönderir.",
 
 	-- Step 87: Class turn-in in Thunder Bluff
 	-- {area:1638} Thunder Bluff
@@ -423,14 +423,14 @@ return {
 	["Thunder lizards on the way north"] = "Kuzey yolundaki thunder lizard'lar",
 	-- {area:369} Thunder Ridge · {zone:1454} Orgrimmar · {item:6486} Singed Scale · {npc:5810} Uzzek · {area:379} Far Watch Post
 	-- plural, as words: Thunder Lizards = {npc:3130} Thunder Lizard · Lightning Hides = {npc:3131} Lightning Hide
-	["Thunder Lizards and Lightning Hides graze on {area:369}, beside the road north to {zone:1454}; any of them can drop a {item:6486}. {npc:5810} takes them when the next guide passes {area:379}.\nCareful: Halikor, a level 12 elite, roams {area:369} among the lizards: watch for him before you pull."] = "Thunder Lizard ve Lightning Hide yaratıkları kuzeye, {zone:1454} şehrine giden yolun yanında, {area:369} sırtında otluyor; herhangi biri {item:6486} düşürebilir. Sonraki rehber {area:379} karakolundan geçerken {npc:5810} onları teslim alır.\nDikkat: seviye 12 elit Halikor, {area:369} sırtında kertenkelelerin arasında dolaşıyor: çekmeden önce ona dikkat et.",
+	["Thunder Lizards and Lightning Hides graze on {area:369}, beside the road north to {zone:1454}; any of them can drop a {item:6486}. {npc:5810} takes them when the next guide passes {area:379}.\nCareful: Halikor, a level 12 elite, roams {area:369} among the lizards: watch for him before you pull."] = "Thunder Lizard ve Lightning Hide yaratıkları kuzeye, {zone:1454} şehrine giden yolun yanında, {area:369} sırtında otluyor, herhangi biri {item:6486} düşürebilir. Sonraki rehber {area:379} karakolundan geçerken {npc:5810} onları teslim alır.\nDikkat: seviye 12 elit Halikor, {area:369} sırtında kertenkelelerin arasında dolaşıyor: çekmeden önce ona dikkat et.",
 
 	-- Step 96: Dustwind Gulch cultists
 	-- {area:1898} Dustwind Gulch
 	["{area:1898} cultists"] = "{area:1898} tarikatçıları",
 	-- {area:1898} Dustwind Gulch · {zone:1454} Orgrimmar · {item:6652} Reagent Pouch · {item:5026} Fire Tar
 	-- plural, as words: Burning Blade Cultists = {npc:3199} Burning Blade Cultist
-	["Burning Blade Cultists hold {area:1898}, east of the road north to {zone:1454}; they drop the {item:6652}. The {item:5026} comes from the Razormane on the next guide's first visit to their camp."] = "Burning Blade Cultist yaratıkları, kuzeye {zone:1454} şehrine giden yolun doğusundaki {area:1898} geçidini tutuyor; {item:6652} eşyasını onlar düşürür. {item:5026}, sonraki rehberin Razormane kampına ilk uğrayışında onlardan gelir.",
+	["Burning Blade Cultists hold {area:1898}, east of the road north to {zone:1454}; they drop the {item:6652}. The {item:5026} comes from the Razormane on the next guide's first visit to their camp."] = "Burning Blade Cultist yaratıkları, kuzeye {zone:1454} şehrine giden yolun doğusundaki {area:1898} geçidini tutuyor, {item:6652} eşyasını onlar düşürür. {item:5026}, sonraki rehberin Razormane kampına ilk uğrayışında onlardan gelir.",
 
 	-- Step 97: To Orgrimmar
 	-- {zone:1454} Orgrimmar

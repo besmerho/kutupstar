@@ -13,7 +13,7 @@ return {
 	-- {npc:3602} Kal · {area:186} Dolanaar · {zone:1457} Darnassus · {zone:1453} Stormwind · {npc:4217} Mathrengyl Bearwalker
 	["At 10 a druid's call reaches you: {npc:3602} in {area:186}, Denatharion in {zone:1457} or Theridran in {zone:1453}. Any one of them sends you to {npc:4217} in the Cenarion Enclave of Darnassus."] = "Seviye 10'da bir druid çağrısı gelir: {area:186} köyünde {npc:3602}, {zone:1457} şehrinde Denatharion ya da {zone:1453} şehrinde Theridran. Hangisi olursa olsun seni Darnassus'taki Cenarion Enclave'de {npc:4217} adlı NPC'ye gönderir.",
 	-- {npc:3602} Kal · {area:186} Dolanaar
-	["{npc:3602}, {area:186}; Denatharion's and Theridran's letters lead to the same place"] = "{npc:3602}, {area:186}; Denatharion'ın ve Theridran'ın mektupları da aynı yere götürür",
+	["{npc:3602}, {area:186}; Denatharion's and Theridran's letters lead to the same place"] = "{npc:3602}, {area:186}, Denatharion'ın ve Theridran'ın mektupları da aynı yere götürür",
 
 	-- Step 2: Cenarion Enclave
 	-- {npc:4217} Mathrengyl Bearwalker · {area:1658} Cenarion Enclave · {spell:18960} Teleport: Moonglade
@@ -42,7 +42,7 @@ return {
 	-- {npc:3064} Gennia Runetotem · {area:222} Bloodhoof Village · {npc:6746} Innkeeper Pala · {zone:1456} Thunder Bluff · {npc:6929} Innkeeper Gryshka · {zone:1454} Orgrimmar · {npc:3033} Turak Runetotem · {area:1639} Elder Rise
 	["At 10 a druid's call reaches you: {npc:3064} in {area:222} or {npc:6746} in {zone:1456} ({npc:6929}'s letter in {zone:1454} works too). Any one of them sends you to {npc:3033} on {area:1639} in {zone:1456}."] = "Seviye 10'da bir druid çağrısı gelir: {area:222} köyünde {npc:3064} ya da {zone:1456} şehrinde {npc:6746} ({zone:1454} şehrindeki {npc:6929} adlı NPC'nin mektubu da olur). Hangisi olursa olsun seni {zone:1456} şehrinde {area:1639} tepesindeki {npc:3033} adlı NPC'ye gönderir.",
 	-- {npc:3064} Gennia Runetotem · {area:222} Bloodhoof Village
-	["{npc:3064}, {area:222}; Pala's and Gryshka's letters lead to the same place"] = "{npc:3064}, {area:222}; Pala'nın ve Gryshka'nın mektupları da aynı yere götürür",
+	["{npc:3064}, {area:222}; Pala's and Gryshka's letters lead to the same place"] = "{npc:3064}, {area:222}, Pala'nın ve Gryshka'nın mektupları da aynı yere götürür",
 
 	-- Step 15: Turak Runetotem
 	-- {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {spell:18960} Teleport: Moonglade
@@ -50,7 +50,7 @@ return {
 
 	-- Step 16: Moonglade
 	-- {spell:18960} Teleport: Moonglade · {npc:11802} Dendrite Starblaze · {quest:5930} Great Bear Spirit · {area:2361} Nighthaven · {quest:5922} Moonglade · {npc:12740} Faustron · {npc:11798} Bunthen Plainswind · {area:1638} Thunder Bluff
-	["Cast {spell:18960}: it lands you beside the building where {npc:11802} stands upstairs. The {quest:5930} sits in the woods to the north-west. Speak to it and go through all of its words (what it represents, the strength of the body, the strength of the heart, then ask for its blessing): the talk is the objective, there is no fight. It blends into the ground, has no quest mark and gives off a faint blue-grey glow by a group of three trees: from {area:2361} go west along the foot of the northern mountains, through the gap between the trees and the hills. If {npc:11802} is missing when you return, step outside and cast {spell:18960} again. Learn the {quest:5922} flight path ({npc:12740}, south-west of the lake); {npc:11798} in {area:2361} flies druids to {area:1638}."] = "{spell:18960} kullan: seni {npc:11802} adlı NPC'nin üst katta durduğu binanın yanına indirir. {quest:5930} kuzeybatıdaki ormanda oturuyor. Onunla konuş ve bütün sözlerini dinle (neyi temsil ettiği, bedenin gücü, yüreğin gücü, sonra kutsamasını iste): konuşma görevin hedefi, dövüş yok. Zemine karışır, görev işareti yoktur ve üç ağaçlık bir öbeğin yanında soluk mavi-gri bir parıltı verir: {area:2361} köyünden kuzey dağların eteği boyunca batıya, ağaçlarla tepeler arasındaki boşluktan geç. Döndüğünde {npc:11802} yoksa dışarı çık ve {spell:18960} büyüsünü yeniden kullan. {quest:5922} uçuş hattını öğren (gölün güneybatısında {npc:12740}); {area:2361} köyündeki {npc:11798} druid'leri {area:1638} şehrine uçurur.",
+	["Cast {spell:18960}: it lands you beside the building where {npc:11802} stands upstairs. The {quest:5930} sits in the woods to the north-west. Speak to it and go through all of its words (what it represents, the strength of the body, the strength of the heart, then ask for its blessing): the talk is the objective, there is no fight. It blends into the ground, has no quest mark and gives off a faint blue-grey glow by a group of three trees: from {area:2361} go west along the foot of the northern mountains, through the gap between the trees and the hills. If {npc:11802} is missing when you return, step outside and cast {spell:18960} again. Learn the {quest:5922} flight path ({npc:12740}, south-west of the lake); {npc:11798} in {area:2361} flies druids to {area:1638}."] = "{spell:18960} kullan: seni {npc:11802} adlı NPC'nin üst katta durduğu binanın yanına indirir. {quest:5930} kuzeybatıdaki ormanda oturuyor. Onunla konuş ve bütün sözlerini dinle (neyi temsil ettiği, bedenin gücü, yüreğin gücü, sonra kutsamasını iste): konuşma görevin hedefi, dövüş yok. Zemine karışır, görev işareti yoktur ve üç ağaçlık bir öbeğin yanında soluk mavi-gri bir parıltı verir: {area:2361} köyünden kuzey dağların eteği boyunca batıya, ağaçlarla tepeler arasındaki boşluktan geç. Döndüğünde {npc:11802} yoksa dışarı çık ve {spell:18960} büyüsünü yeniden kullan. {quest:5922} uçuş hattını öğren (gölün güneybatısında {npc:12740}). {area:2361} köyündeki {npc:11798} druid'leri {area:1638} şehrine uçurur.",
 	-- {quest:5930} Great Bear Spirit
 	["Speak with the {quest:5930}"] = "{quest:5930} ile konuş",
 
@@ -66,7 +66,7 @@ return {
 	-- {area:279} Dalaran
 	["Skyboat from {area:279}"] = "{area:279} şehrinden gök gemisi",
 	-- {spell:5487} Bear Form · {zone:2521} Zephras Isle · {area:279} Dalaran
-	["{spell:5487} is taught on {zone:2521}. Skip this if you are still on the isle; otherwise take the skyboat from the north side of {area:279}."] = "{spell:5487}, {zone:2521} adasında öğretilir. Hâlâ adadaysan bunu atla; değilsen {area:279} şehrinin kuzey yakasından gök gemisine bin.",
+	["{spell:5487} is taught on {zone:2521}. Skip this if you are still on the isle; otherwise take the skyboat from the north side of {area:279}."] = "{spell:5487}, {zone:2521} adasında öğretilir. Hâlâ adadaysan bunu atla, değilsen {area:279} şehrinin kuzey yakasından gök gemisine bin.",
 	-- {zone:2521} Zephras Isle
 	["Skyboat to {zone:2521}"] = "Gök gemisiyle {zone:2521} adasına",
 
@@ -74,7 +74,7 @@ return {
 	-- {zone:1456} Thunder Bluff
 	["Skyboat from {zone:1456}"] = "{zone:1456} şehrinden gök gemisi",
 	-- {spell:5487} Bear Form · {zone:2521} Zephras Isle · {area:17045} Skywatcher Plateau · {zone:1456} Thunder Bluff
-	["{spell:5487} is taught on {zone:2521}. Skip this if you are still on the isle; otherwise take the skyboat from the cliffs south of {area:17045}, north of {zone:1456}."] = "{spell:5487}, {zone:2521} adasında öğretilir. Hâlâ adadaysan bunu atla; değilsen {zone:1456} şehrinin kuzeyinde, {area:17045} platosunun güneyindeki uçurumlardan gök gemisine bin.",
+	["{spell:5487} is taught on {zone:2521}. Skip this if you are still on the isle; otherwise take the skyboat from the cliffs south of {area:17045}, north of {zone:1456}."] = "{spell:5487}, {zone:2521} adasında öğretilir. Hâlâ adadaysan bunu atla, değilsen {zone:1456} şehrinin kuzeyinde, {area:17045} platosunun güneyindeki uçurumlardan gök gemisine bin.",
 
 	-- Step 22: Lotheluum Starbreeze
 	-- {npc:252359} Lotheluum Starbreeze · {area:16638} Valanaar
@@ -104,9 +104,9 @@ return {
 
 	-- Step 28: Sheldras Moontree
 	-- {zone:1453} Stormwind · {npc:5504} Sheldras Moontree · {spell:18960} Teleport: Moonglade
-	["The Skyborne Portal takes you to {zone:1453}. {npc:5504} is the city's druid trainer (the arrow points at him); he teaches you {spell:18960} with the next quest (it stays in your spellbook, Balance tab)."] = "Skyborne Portal seni {zone:1453} şehrine götürür. {npc:5504} şehrin Druid eğitmeni (ok onu gösteriyor); sonraki görevle birlikte sana {spell:18960} öğretir (büyü kitabında, Balance sekmesinde kalır).",
+	["The Skyborne Portal takes you to {zone:1453}. {npc:5504} is the city's druid trainer (the arrow points at him); he teaches you {spell:18960} with the next quest (it stays in your spellbook, Balance tab)."] = "Skyborne Portal seni {zone:1453} şehrine götürür. {npc:5504} şehrin Druid eğitmeni (ok onu gösteriyor). Sonraki görevle birlikte sana {spell:18960} öğretir (büyü kitabında, Balance sekmesinde kalır).",
 
 	-- Step 29: Dendrite Starblaze
 	-- {spell:18960} Teleport: Moonglade · {npc:11802} Dendrite Starblaze · {area:2361} Nighthaven · {area:493} Moonglade · {npc:12740} Faustron · {npc:10897} Sindrayl
-	["Cast {spell:18960}: it lands you beside the building where {npc:11802} stands upstairs, in {area:2361}. Learn the {area:493} flight path while you are here ({npc:12740} for the Horde, south-west of the lake; {npc:10897} for the Alliance, south of it)."] = "{spell:18960} kullan: seni {area:2361} köyünde {npc:11802} adlı NPC'nin üst katta durduğu binanın yanına indirir. Buradayken {area:493} uçuş hattını öğren (Horde için gölün güneybatısında {npc:12740}; Alliance için gölün güneyinde {npc:10897}).",
+	["Cast {spell:18960}: it lands you beside the building where {npc:11802} stands upstairs, in {area:2361}. Learn the {area:493} flight path while you are here ({npc:12740} for the Horde, south-west of the lake; {npc:10897} for the Alliance, south of it)."] = "{spell:18960} kullan: seni {area:2361} köyünde {npc:11802} adlı NPC'nin üst katta durduğu binanın yanına indirir. Buradayken {area:493} uçuş hattını öğren (Horde için gölün güneybatısında {npc:12740}, Alliance için gölün güneyinde {npc:10897}).",
 }

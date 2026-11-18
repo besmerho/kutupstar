@@ -28,7 +28,7 @@ return {
 	["The beach"] = "Kumsal",
 	-- {quest:983} Buzzbox 827 · {object:175207} Beached Sea Creature
 	-- plural, as words: Tide Crawlers = {npc:2232} Tide Crawler · Darkshore Threshers = {npc:2185} Darkshore Thresher
-	["Tide Crawlers scuttle along the shore below the village; {quest:983} stands on the beach just south of the docks. Darkshore Threshers swim in the shallows. The {object:175207} lies on the shore just south of the village."] = "Tide Crawler yaratıkları köyün aşağısındaki kıyı boyunca koşturuyor; {quest:983} iskelelerin hemen güneyinde, kumsalda duruyor. Darkshore Thresher yaratıkları sığ sularda yüzüyor. {object:175207} köyün hemen güneyinde, kıyıda yatıyor.",
+	["Tide Crawlers scuttle along the shore below the village; {quest:983} stands on the beach just south of the docks. Darkshore Threshers swim in the shallows. The {object:175207} lies on the shore just south of the village."] = "Tide Crawler yaratıkları köyün aşağısındaki kıyı boyunca koşturuyor. {quest:983} iskelelerin hemen güneyinde, kumsalda duruyor. Darkshore Thresher yaratıkları sığ sularda yüzüyor. {object:175207} köyün hemen güneyinde, kıyıda yatıyor.",
 	-- {item:12238} Darkshore Grouper
 	["{item:12238}: fish from the pier"] = "{item:12238}: iskeleden balık tut",
 	-- plural, as words: Crawler Legs = {item:5385} Crawler Leg
@@ -42,7 +42,7 @@ return {
 	-- Step 6: The skeletal turtle
 	["The skeletal turtle"] = "İskelet kaplumbağa",
 	-- {item:12289} Sea Turtle Remains
-	["{item:12289}, on the beach west of the docks; underwater"] = "{item:12289}, iskelelerin batısındaki kumsalda; su altında",
+	["{item:12289}, on the beach west of the docks; underwater"] = "{item:12289}, iskelelerin batısındaki kumsalda, su altında",
 
 	-- Step 7: Plagued bears
 	["Plagued bears"] = "Hastalıklı ayılar",
@@ -65,7 +65,7 @@ return {
 
 	-- Step 10: Ameth'Aran
 	-- {npc:3639} Sentinel Tysha Moonblade · {npc:2178} Wailing Highborne · {npc:3667} Anaya Dawnrunner · {npc:270196} Jai'vhanel · {quest:4722} Beached Sea Turtle
-	["{npc:3639} stands at the north edge of the ruins. Cursed, Writhing and {npc:2178} haunt them; {npc:3667}'s ghost walks among them, {npc:270196} the owl circles east of them. The two tablets lie in the ruins; a {quest:4722} lies on the shore west of them."] = "{npc:3639} harabelerin kuzey kenarında duruyor. Harabelerde Cursed Highborne, Writhing Highborne ve {npc:2178} yaratıkları dolaşıyor; {npc:3667} adlı NPC'nin hayaleti aralarında geziyor, baykuş {npc:270196} ise harabelerin doğusunda daireler çiziyor. İki tablet harabelerin içinde; bir {quest:4722} de harabelerin batısındaki kıyıda yatıyor.",
+	["{npc:3639} stands at the north edge of the ruins. Cursed, Writhing and {npc:2178} haunt them; {npc:3667}'s ghost walks among them, {npc:270196} the owl circles east of them. The two tablets lie in the ruins; a {quest:4722} lies on the shore west of them."] = "{npc:3639} harabelerin kuzey kenarında duruyor. Harabelerde Cursed Highborne, Writhing Highborne ve {npc:2178} yaratıkları dolaşıyor. {npc:3667} adlı NPC'nin hayaleti aralarında geziyor, baykuş {npc:270196} ise harabelerin doğusunda daireler çiziyor. İki tablet harabelerin içinde. Bir {quest:4722} de harabelerin batısındaki kıyıda yatıyor.",
 	-- plural, as words: Highborne Relics = {item:5360} Highborne Relic
 	["Highborne Relics"] = "Highborne Relic",
 	-- {object:17188} Lay of Ameth'Aran
@@ -76,12 +76,12 @@ return {
 	-- Step 11: The red crystal
 	["The red crystal"] = "Kırmızı kristal",
 	-- {area:447} Ameth'Aran · {object:175524} Mysterious Red Crystal
-	["Climb the eastern mountains east of {area:447}; the {object:175524} sits on a ledge."] = "{area:447} harabelerinin doğusundaki dağlara tırman; {object:175524} bir çıkıntının üzerinde duruyor.",
+	["Climb the eastern mountains east of {area:447}; the {object:175524} sits on a ledge."] = "{area:447} harabelerinin doğusundaki dağlara tırman. {object:175524} bir çıkıntının üzerinde duruyor.",
 
 	-- Step 13: Bashal'Aran
 	-- {npc:3650} Asterion · {quest:954} Bashal'Aran · {quest:1001} Buzzbox 411 · {quest:4723} Beached Sea Creature
 	-- plural, as words: Wild Grells = {npc:2190} Wild Grell · Vile Sprites = {npc:2189} Vile Sprite · Deth'ryll Satyrs = {npc:2212} Deth'ryll Satyr
-	["North along the hills. {npc:3650} waits in the ruins of {quest:954}; Wild Grells and Vile Sprites fill them, Deth'ryll Satyrs the eastern edge. {quest:1001} stands by the road west of the ruins; a {quest:4723} lies on the shore on the way to him."] = "Tepeler boyunca kuzeye git. {npc:3650}, {quest:954} harabelerinde bekliyor; harabeler Wild Grell ve Vile Sprite yaratıklarıyla, doğu kenarı da Deth'ryll Satyr yaratıklarıyla dolu. {quest:1001} harabelerin batısında, yolun kenarında duruyor; ona giderken kıyıda bir {quest:4723} yatıyor.",
+	["North along the hills. {npc:3650} waits in the ruins of {quest:954}; Wild Grells and Vile Sprites fill them, Deth'ryll Satyrs the eastern edge. {quest:1001} stands by the road west of the ruins; a {quest:4723} lies on the shore on the way to him."] = "Tepeler boyunca kuzeye git. {npc:3650}, {quest:954} harabelerinde bekliyor. Harabeler Wild Grell ve Vile Sprite yaratıklarıyla, doğu kenarı da Deth'ryll Satyr yaratıklarıyla dolu. {quest:1001} harabelerin batısında, yolun kenarında duruyor. Ona giderken kıyıda bir {quest:4723} yatıyor.",
 	-- plural, as words: Grell Earrings = {item:5336} Grell Earring
 	["Grell Earrings"] = "Grell Earring",
 	-- {item:5338} Ancient Moonstone Seal
@@ -93,7 +93,7 @@ return {
 
 	-- Step 15: A Lesson to Learn
 	-- {area:442} Auberdine · {area:702} Rut'theran Village · {npc:4217} Mathrengyl Bearwalker · {area:1658} Cenarion Enclave
-	["Night Elves fly from {area:442} to {area:702}; Skyborne take the boat from the {area:442} dock and learn the Rut'theran flight path. Then take the portal up to {npc:4217} in the {area:1658}."] = "Night Elf'ler {area:442} kasabasından {area:702} köyüne uçar; Skyborne'lar {area:442} iskelesinden gemiye biner ve Rut'theran uçuş noktasını öğrenir. Sonra portaldan yukarı, {area:1658} içindeki {npc:4217} yanına çık.",
+	["Night Elves fly from {area:442} to {area:702}; Skyborne take the boat from the {area:442} dock and learn the Rut'theran flight path. Then take the portal up to {npc:4217} in the {area:1658}."] = "Night Elf'ler {area:442} kasabasından {area:702} köyüne uçar. Skyborne'lar {area:442} iskelesinden gemiye biner ve Rut'theran uçuş noktasını öğrenir. Sonra portaldan yukarı, {area:1658} içindeki {npc:4217} yanına çık.",
 
 	-- Step 18: Moonglade
 	-- {spell:18960} Teleport: Moonglade
@@ -143,17 +143,17 @@ return {
 
 	-- Step 26: Mist's Edge
 	-- plural, as words: Thresher Eyes = {item:5412} Thresher Eye
-	["Thresher Eyes; underwater"] = "Thresher Eye; su altında",
+	["Thresher Eyes; underwater"] = "Thresher Eye, su altında",
 
 	-- Step 27: The bay wrecks
 	["The bay wrecks"] = "Körfezdeki batıklar",
 	-- {area:442} Auberdine
 	-- plural, as words: Reef Crawlers = {npc:2235} Reef Crawler · Encrusted Tide Crawlers = {npc:2233} Encrusted Tide Crawler
-	["Two wrecks lie on the sea floor in the bay north of {area:442}; each holds a lockbox. Reef Crawlers and Encrusted Tide Crawlers line this shore.\nCareful: The murlocs inside the wrecks are close together and fast. They often swim through the hull walls and holes, so you will usually pull extra murlocs."] = "{area:442} kasabasının kuzeyindeki koyda deniz dibinde iki batık yatıyor; her birinde bir kilitli kutu var. Reef Crawler ve Encrusted Tide Crawler yaratıkları bu kıyı boyunca diziliyor.\nDikkat: Batıkların içindeki murloc'lar birbirine yakın ve hızlı. Sık sık gövdenin duvarlarından ve deliklerinden geçip yüzdükleri için genellikle fazladan murloc çekersin.",
+	["Two wrecks lie on the sea floor in the bay north of {area:442}; each holds a lockbox. Reef Crawlers and Encrusted Tide Crawlers line this shore.\nCareful: The murlocs inside the wrecks are close together and fast. They often swim through the hull walls and holes, so you will usually pull extra murlocs."] = "{area:442} kasabasının kuzeyindeki koyda deniz dibinde iki batık yatıyor. Her birinde bir kilitli kutu var. Reef Crawler ve Encrusted Tide Crawler yaratıkları bu kıyı boyunca diziliyor.\nDikkat: Batıkların içindeki murloc'lar birbirine yakın ve hızlı. Sık sık gövdenin duvarlarından ve deliklerinden geçip yüzdükleri için genellikle fazladan murloc çekersin.",
 	-- {item:12191} Silver Dawning's Lockbox
-	["{item:12191}; underwater"] = "{item:12191}; su altında",
+	["{item:12191}; underwater"] = "{item:12191}, su altında",
 	-- {item:12192} Mist Veil's Lockbox
-	["{item:12192}; underwater"] = "{item:12192}; su altında",
+	["{item:12192}; underwater"] = "{item:12192}, su altında",
 
 	-- Step 29: Darkshore: kill these as you meet them
 	-- {zone:1439} Darkshore
@@ -178,14 +178,14 @@ return {
 	-- plural, as words: Scaber Stalks = {item:5271} Scaber Stalk
 	["The cave lies south of the falls: Scaber Stalks grow all through it, the {item:5270} at the very back. The {npc:6788} lairs in the hills south of the falls."] = "Mağara şelalenin güneyinde: Scaber Stalk mantarları mağaranın her yerinde, {item:5270} ise en dipte yetişiyor. {npc:6788} şelalenin güneyindeki tepelerde inini kurmuş.",
 	-- plural, as words: Scaber Stalks = {item:5271} Scaber Stalk
-	["Scaber Stalks; below ground"] = "Scaber Stalk; yer altında",
+	["Scaber Stalks; below ground"] = "Scaber Stalk, yer altında",
 	-- {item:5270} Death Cap
-	["{item:5270}; below ground"] = "{item:5270}; yer altında",
+	["{item:5270}; below ground"] = "{item:5270}, yer altında",
 
 	-- Step 33: The northern Blackwood camp
 	["The northern Blackwood camp"] = "Kuzeydeki Blackwood kampı",
 	-- {area:456} Cliffspring River · {item:12347} Filled Cleansing Bowl · {item:12346} Empty Cleansing Bowl · {object:174795} Auberdine Moonwell · {item:12355} Talisman of Corruption
-	["The furbolg camp south of the {area:456} keeps its Nut, Fruit and Grain Stores by the bonfires. With a sample of each and the {item:12347} in your bags (the {item:12346} is filled at the {object:174795}), use the bowl by the bonfire closest to the river: it summons Xabraxxis, the satyr corruptor, and the {item:12355} lies in his Demon Bag."] = "{area:456} nehrinin güneyindeki furbolg kampı Nut, Fruit ve Grain Store erzaklarını şenlik ateşlerinin yanında tutuyor. Çantanda her birinden bir örnek ve {item:12347} varken ({item:12346}, {object:174795} kuyusunda doldurulur), kâseyi nehre en yakın şenlik ateşinin yanında kullan: satir bozucusu Xabraxxis çağrılır; {item:12355} onun Demon Bag çantasında.",
+	["The furbolg camp south of the {area:456} keeps its Nut, Fruit and Grain Stores by the bonfires. With a sample of each and the {item:12347} in your bags (the {item:12346} is filled at the {object:174795}), use the bowl by the bonfire closest to the river: it summons Xabraxxis, the satyr corruptor, and the {item:12355} lies in his Demon Bag."] = "{area:456} nehrinin güneyindeki furbolg kampı Nut, Fruit ve Grain Store erzaklarını şenlik ateşlerinin yanında tutuyor. Çantanda her birinden bir örnek ve {item:12347} varken ({item:12346}, {object:174795} kuyusunda doldurulur), kâseyi nehre en yakın şenlik ateşinin yanında kullan: satir bozucusu Xabraxxis çağrılır. {item:12355} onun Demon Bag çantasında.",
 	["By the bonfire closest to the river: summons Xabraxxis"] = "Nehre en yakın şenlik ateşinin yanında: Xabraxxis'i çağırır",
 	-- {item:12347} Filled Cleansing Bowl
 	["After using the {item:12347}, kill Xabraxxis, then click his Demon Bag on the ground to collect the talisman. If Xabraxxis despawns before you get it, retake the quest for a new bowl."] = "{item:12347} eşyasını kullandıktan sonra Xabraxxis'i öldür, sonra tılsımı almak için yerdeki Demon Bag'ine tıkla. Xabraxxis sen almadan kaybolursa yeni bir kâse için görevi yeniden al.",
@@ -197,5 +197,5 @@ return {
 
 	-- Step 35: Auberdine
 	-- {quest:948} Onu · {zone:1439} Darkshore
-	["For {quest:948} at the Grove, on {zone:1439}'s southern loop after the trip east"] = "Koru'daki {quest:948} için; doğu gezisinden sonra {zone:1439} bölgesinin güney turunda",
+	["For {quest:948} at the Grove, on {zone:1439}'s southern loop after the trip east"] = "Koru'daki {quest:948} için, doğu gezisinden sonra {zone:1439} bölgesinin güney turunda",
 }

@@ -14,7 +14,7 @@ return {
 
 	-- Step 2: The Venture Co. Mine
 	-- {zone:1412} Mulgore · {area:360} The Venture Co. Mine · {object:403041} Blasting Supplies (no name in this language: may be words)
-	["Ride down the lift and south-east across {zone:1412} to the {area:360}. Put on the disguise, then open the carts of {object:403041} inside the mine and on the slope outside it; stay on the upper levels where you can, the lower tunnels are packed. Five charges."] = "Asansörle aşağı in ve {zone:1412} boyunca güneydoğuya, {area:360} madenine sür. Kılığı giy, sonra madenin içindeki ve dışındaki yamaçtaki {object:403041} arabalarını aç; olabildiğince üst katlarda kal, alt tüneller dolu. Beş patlayıcı.",
+	["Ride down the lift and south-east across {zone:1412} to the {area:360}. Put on the disguise, then open the carts of {object:403041} inside the mine and on the slope outside it; stay on the upper levels where you can, the lower tunnels are packed. Five charges."] = "Asansörle aşağı in ve {zone:1412} boyunca güneydoğuya, {area:360} madenine sür. Kılığı giy, sonra madenin içindeki ve dışındaki yamaçtaki {object:403041} arabalarını aç. Olabildiğince üst katlarda kal, alt tüneller dolu. Beş patlayıcı.",
 	-- {item:206157} Seaforium Mining Charge · {object:403041} Blasting Supplies (no name in this language: may be words)
 	["{item:206157}, from the {object:403041}"] = "{item:206157}, kaynak: {object:403041}",
 
@@ -27,7 +27,7 @@ return {
 	["Windfury Cones"] = "Windfury Cone",
 	-- {area:819} Windfury Ridge · {zone:1456} Thunder Bluff · {item:206176} Mortar and Pestle
 	-- plural, as words: Windfury Cones = {item:206170} Windfury Cone
-	["Windfury Cones lie on the ground under the harpies' nest trees on {area:819}, north-west of {zone:1456}; the harpies do not drop them. The Windfury Sorceresses (level 9-10) and Matriarchs (10-11) there stand close together: pick the cones from the edges. Once you have eight, use the {item:206176} to grind them."] = "Windfury Cone kozalakları, {zone:1456} şehrinin kuzeybatısındaki {area:819} sırtında harpy'lerin yuva ağaçlarının altında yerde duruyor; harpy'ler onları düşürmez. Oradaki Windfury Sorceress (seviye 9-10) ve Matriarch'lar (10-11) birbirine yakın duruyor: kozalakları kenarlardan topla. Sekiz tane olunca onları öğütmek için {item:206176} kullan.",
+	["Windfury Cones lie on the ground under the harpies' nest trees on {area:819}, north-west of {zone:1456}; the harpies do not drop them. The Windfury Sorceresses (level 9-10) and Matriarchs (10-11) there stand close together: pick the cones from the edges. Once you have eight, use the {item:206176} to grind them."] = "Windfury Cone kozalakları, {zone:1456} şehrinin kuzeybatısındaki {area:819} sırtında harpy'lerin yuva ağaçlarının altında yerde duruyor, harpy'ler onları düşürmez. Oradaki Windfury Sorceress (seviye 9-10) ve Matriarch'lar (10-11) birbirine yakın duruyor: kozalakları kenarlardan topla. Sekiz tane olunca onları öğütmek için {item:206176} kullan.",
 	["the mortar takes all eight"] = "Havan sekizini de alır",
 	-- {item:206175} Pine Salve
 	["grind the eight cones into the {item:206175}"] = "Sekiz kozalağı öğüterek {item:206175} yap",
@@ -38,9 +38,9 @@ return {
 
 	-- Step 6: Raw Brilliant Smallfish
 	-- {item:6291} Raw Brilliant Smallfish · {npc:8674} Auctioneer Stampi · {npc:3028} Kah Mistrunner · {skill:356} Fishing · {npc:3029} Sewa Mistrunner · {item:6256} Fishing Pole · {item:6529} Shiny Bauble · {item:206344} Knife Set
-	["Buy a {item:6291} at the Auction House ({npc:8674}, north of the pool), or fish one yourself: {npc:3028} trains {skill:356} and {npc:3029} beside him sells the {item:6256} and a {item:6529}; the pool on the main mesa gives smallfish at any skill. Then use the {item:206344} on it, wherever you are."] = "Auction House'tan ({npc:8674}, havuzun kuzeyinde) bir {item:6291} satın al ya da kendin tut: {npc:3028} {skill:356} öğretir, yanındaki {npc:3029} de {item:6256} ve bir {item:6529} satar; ana platodaki havuz her beceri seviyesinde smallfish verir. Sonra nerede olursan ol onun üzerinde {item:206344} kullan.",
+	["Buy a {item:6291} at the Auction House ({npc:8674}, north of the pool), or fish one yourself: {npc:3028} trains {skill:356} and {npc:3029} beside him sells the {item:6256} and a {item:6529}; the pool on the main mesa gives smallfish at any skill. Then use the {item:206344} on it, wherever you are."] = "Auction House'tan ({npc:8674}, havuzun kuzeyinde) bir {item:6291} satın al ya da kendin tut: {npc:3028} {skill:356} öğretir, yanındaki {npc:3029} de {item:6256} ve bir {item:6529} satar. Ana platodaki havuz her beceri seviyesinde smallfish verir. Sonra nerede olursan ol onun üzerinde {item:206344} kullan.",
 	-- {item:6291} Raw Brilliant Smallfish
-	["{item:6291}: the Auction House, or the pool; the knife takes it"] = "{item:6291}: Auction House ya da havuz; bıçak onu alır",
+	["{item:6291}: the Auction House, or the pool; the knife takes it"] = "{item:6291}: Auction House ya da havuz, bıçak onu alır",
 	-- {item:206345} Fish Chunks · {npc:205729} Boarton Shadetotem
 	["fillet the smallfish into {item:206345} (where players did it, on the way back to {npc:205729})"] = "Smallfish'i {item:206345} olarak fileto yap (oyuncuların yaptığı yer, {npc:205729} adlı NPC'ye dönüş yolunda)",
 

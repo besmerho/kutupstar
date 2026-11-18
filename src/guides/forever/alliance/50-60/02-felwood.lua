@@ -30,7 +30,7 @@ return {
 	-- Step 5: Deadwood Village
 	-- {npc:11554} Grazle
 	-- plural, as words: Deadwood Headdress Feathers = {item:21377} Deadwood Headdress Feather
-	["The Deadwood furbolgs live in the village just south-west of {npc:11554}; keep the Deadwood Headdress Feathers they drop."] = "Deadwood furbolgları {npc:11554} adlı NPC'nin hemen güneybatısındaki köyde yaşıyor; düşürdükleri Deadwood Headdress Feather tüylerini sakla.",
+	["The Deadwood furbolgs live in the village just south-west of {npc:11554}; keep the Deadwood Headdress Feathers they drop."] = "Deadwood furbolgları {npc:11554} adlı NPC'nin hemen güneybatısındaki köyde yaşıyor. Düşürdükleri Deadwood Headdress Feather tüylerini sakla.",
 
 	-- Step 6: Level 52.58
 	["Level 52.58"] = "Seviye 52.58",
@@ -84,7 +84,7 @@ return {
 	-- Step 15: Shatter Scar Vale
 	-- {npc:7136} Infernal Sentry
 	-- plural, as words: Entropic Beasts = {npc:9878} Entropic Beast
-	["Follow the road north to the cratered vale and walk to each crater, killing the Entropic Beasts and Horrors between them.\nCareful: an {npc:7136} (53, elite) stands among the craters: walk round it."] = "Yolu kuzeye, kraterli vadiye izle ve her kratere yürü; aralarındaki Entropic Beast ve Horror yaratıklarını öldür.\nDikkat: kraterlerin arasında bir {npc:7136} (53, elit) duruyor: çevresinden dolaş.",
+	["Follow the road north to the cratered vale and walk to each crater, killing the Entropic Beasts and Horrors between them.\nCareful: an {npc:7136} (53, elite) stands among the craters: walk round it."] = "Yolu kuzeye, kraterli vadiye izle ve her kratere yürü, aralarındaki Entropic Beast ve Horror yaratıklarını öldür.\nDikkat: kraterlerin arasında bir {npc:7136} (53, elit) duruyor: çevresinden dolaş.",
 	["First crater"] = "Birinci krater",
 	["Second crater"] = "İkinci krater",
 	["Third crater"] = "Üçüncü krater",
@@ -98,7 +98,7 @@ return {
 	-- {area:2618} Jadefire Run
 	["{area:2618}: kill these as you meet them"] = "{area:2618}: bunları karşılaştıkça öldür",
 	-- {area:2618} Jadefire Run · {npc:10648} Xavaric · {quest:939} Flute of Xavaric · {item:11674} Jadefire Felbind
-	["{area:2618} is the satyr valley in the north-west, with {npc:10648} at its far end. He drops the {quest:939}; every Jadefire satyr can drop {item:11674}.\nCareful: {npc:10648} (55) stands at the valley's far end with Hellcallers (53-54) around him: clear them one at a time before you pull him."] = "{area:2618}, kuzeybatıdaki satyr vadisi; en ucunda {npc:10648} var. O {quest:939} düşürür; her Jadefire satyr'ı {item:11674} düşürebilir.\nDikkat: {npc:10648} (55) vadinin en ucunda, çevresinde Hellcaller'larla (53-54) duruyor: onu çekmeden önce onları tek tek temizle.",
+	["{area:2618} is the satyr valley in the north-west, with {npc:10648} at its far end. He drops the {quest:939}; every Jadefire satyr can drop {item:11674}.\nCareful: {npc:10648} (55) stands at the valley's far end with Hellcallers (53-54) around him: clear them one at a time before you pull him."] = "{area:2618}, kuzeybatıdaki satyr vadisi. En ucunda {npc:10648} var. O {quest:939} düşürür. Her Jadefire satyr'ı {item:11674} düşürebilir.\nDikkat: {npc:10648} (55) vadinin en ucunda, çevresinde Hellcaller'larla (53-54) duruyor: onu çekmeden önce onları tek tek temizle.",
 
 	-- Step 18: Jaedenar again
 	-- {area:1763} Jaedenar
@@ -112,7 +112,7 @@ return {
 
 	-- Step 20: The Emerald Sanctuary
 	-- {zone:1457} Darnassus
-	["The vial is filled in {zone:1457}: keep it; inside"] = "Şişe {zone:1457} şehrinde doldurulur: sakla; içeride",
+	["The vial is filled in {zone:1457}: keep it; inside"] = "Şişe {zone:1457} şehrinde doldurulur: sakla, içeride",
 	-- {zone:1413} Barrens
 	["Ends in the {zone:1413}: keep it"] = "{zone:1413} bölgesinde biter: sakla",
 	-- {npc:10924} Ivy Leafrunner · {npc:11079} Wynd Nightchaser · {zone:1452} Winterspring
@@ -120,11 +120,11 @@ return {
 
 	-- Step 21: Nafien
 	-- {area:1769} Timbermaw Hold · {npc:15395} Nafien
-	["Ride north up the road from the Sanctuary, all the way to the cave mouth of {area:1769}; {npc:15395} guards it."] = "Sanctuary'den yolu kuzeye, {area:1769} mağara ağzına kadar sür; {npc:15395} orayı koruyor.",
+	["Ride north up the road from the Sanctuary, all the way to the cave mouth of {area:1769}; {npc:15395} guards it."] = "Sanctuary'den yolu kuzeye, {area:1769} mağara ağzına kadar sür, {npc:15395} orayı koruyor.",
 
 	-- Step 22: Felpaw Village
 	-- {area:1762} Felpaw Village · {quest:8470} Deadwood Ritual Totem · {npc:11558} Kernda · {area:1769} Timbermaw Hold
-	["The Deadwood furbolgs of {area:1762} fill the hills west of the cave. Keep killing them until one drops a {quest:8470}, about one kill in thirty, then right-click it: {npc:11558} in {area:1769} takes it once the Timbermaw are Neutral to you, now if they already are, or when the last guide passes the cave again at 58.\nCareful: Den Watchers are level 53-54 and the Avengers 54-55; they call nearby allies within 25 yd once below 50% health and run off for help below 15%."] = "{area:1762} köyünün Deadwood furbolg'ları mağaranın batısındaki tepeleri dolduruyor. Biri {quest:8470} düşürene kadar (otuz öldürmede yaklaşık bir) onları öldürmeye devam et, sonra ona sağ tıkla: {area:1769} içindeki {npc:11558}, Timbermaw sana karşı Neutral olunca teslim alır; zaten öyleyse şimdi, değilse son rehber 58'de mağaranın önünden yine geçtiğinde.\nDikkat: Den Watcher yaratıkları 53-54, Avenger'lar 54-55; canları %50'nin altına inince 25 yard içindeki müttefiklerini çağırır, %15'in altında da yardım için kaçarlar.",
+	["The Deadwood furbolgs of {area:1762} fill the hills west of the cave. Keep killing them until one drops a {quest:8470}, about one kill in thirty, then right-click it: {npc:11558} in {area:1769} takes it once the Timbermaw are Neutral to you, now if they already are, or when the last guide passes the cave again at 58.\nCareful: Den Watchers are level 53-54 and the Avengers 54-55; they call nearby allies within 25 yd once below 50% health and run off for help below 15%."] = "{area:1762} köyünün Deadwood furbolg'ları mağaranın batısındaki tepeleri dolduruyor. Biri {quest:8470} düşürene kadar (otuz öldürmede yaklaşık bir) onları öldürmeye devam et, sonra ona sağ tıkla: {area:1769} içindeki {npc:11558}, Timbermaw sana karşı Neutral olunca teslim alır. Zaten öyleyse şimdi, değilse son rehber 58'de mağaranın önünden yine geçtiğinde.\nDikkat: Den Watcher yaratıkları 53-54, Avenger'lar 54-55. Canları %50'nin altına inince 25 yard içindeki müttefiklerini çağırır, %15'in altında da yardım için kaçarlar.",
 
 	-- Step 23: Nafien
 	-- {zone:1452} Winterspring
@@ -134,5 +134,5 @@ return {
 	-- {npc:11558} Kernda
 	["Step into the cave: {npc:11558} stands just inside."] = "Mağaraya gir: {npc:11558} hemen içeride duruyor.",
 	-- {npc:11558} Kernda
-	["{npc:11558}: the Timbermaw speak to you only from Neutral; walks around here: look inside the circle on the map"] = "{npc:11558}: Timbermaw'lar seninle ancak Neutral'dan itibaren konuşur; buralarda dolaşıyor: haritadaki çemberin içine bak",
+	["{npc:11558}: the Timbermaw speak to you only from Neutral; walks around here: look inside the circle on the map"] = "{npc:11558}: Timbermaw'lar seninle ancak Neutral'dan itibaren konuşur, buralarda dolaşıyor: haritadaki çemberin içine bak",
 }

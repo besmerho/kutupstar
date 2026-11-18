@@ -10,7 +10,7 @@ return {
 	-- {skill:762} Riding
 	["Journeyman {skill:762}"] = "Journeyman {skill:762}",
 	-- {npc:4752} Kildar · {npc:3362} Ogunaro Wolfrunner · {faction:76} Orgrimmar · {object:172958} Valley of Honor · {skill:762} Riding
-	["{npc:4752} and {npc:3362}'s kennel are in {faction:76}'s {object:172958}. At 60 {npc:4752} teaches Journeyman {skill:762} to Orcs for 1,000g (10% less at Honored with {faction:76}); Blizzard says it comes with a mount. Other races train it at their own race's riding trainer. Each swift wolf costs 200g here."] = "{npc:4752} ve {npc:3362} adlı NPC'nin kulübesi {faction:76} şehrinin {object:172958} vadisinde. Seviye 60'ta {npc:4752}, Orc'lara 1.000g karşılığında Journeyman {skill:762} öğretir ({faction:76} ile Honored'da %10 daha az); Blizzard bununla bir binek geldiğini söylüyor. Diğer ırklar bunu kendi ırklarının binicilik eğitmeninde öğrenir. Her hızlı kurt burada 200g.",
+	["{npc:4752} and {npc:3362}'s kennel are in {faction:76}'s {object:172958}. At 60 {npc:4752} teaches Journeyman {skill:762} to Orcs for 1,000g (10% less at Honored with {faction:76}); Blizzard says it comes with a mount. Other races train it at their own race's riding trainer. Each swift wolf costs 200g here."] = "{npc:4752} ve {npc:3362} adlı NPC'nin kulübesi {faction:76} şehrinin {object:172958} vadisinde. Seviye 60'ta {npc:4752}, Orc'lara 1.000g karşılığında Journeyman {skill:762} öğretir ({faction:76} ile Honored'da %10 daha az). Blizzard bununla bir binek geldiğini söylüyor. Diğer ırklar bunu kendi ırklarının binicilik eğitmeninde öğrenir. Her hızlı kurt burada 200g.",
 	-- {npc:4752} Kildar
 	["{npc:4752}, riding trainer"] = "{npc:4752}, binicilik eğitmeni",
 

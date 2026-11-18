@@ -9,10 +9,10 @@ return {
 
 	-- Step 1: Elwynn Forest (1/2)
 	-- {zone:1429} Elwynn Forest · {zone:1426} Dun Morogh
-	["Discovering an area gives experience scaled to its level, so this runs alongside leveling. Alliance starts in {zone:1429}; dwarves and gnomes can begin at the {zone:1426} step. 12 areas to discover here, levels 5-10."] = "Bir alanı keşfetmek, seviyesine göre ölçeklenen deneyim puanı verir; yani bu, seviye atlamayla birlikte yürür. Alliance {zone:1429} bölgesinde başlar; Dwarf ve Gnome'lar {zone:1426} adımından başlayabilir. Burada keşfedilecek 12 alan var, seviye 5-10.",
+	["Discovering an area gives experience scaled to its level, so this runs alongside leveling. Alliance starts in {zone:1429}; dwarves and gnomes can begin at the {zone:1426} step. 12 areas to discover here, levels 5-10."] = "Bir alanı keşfetmek, seviyesine göre ölçeklenen deneyim puanı verir, yani bu, seviye atlamayla birlikte yürür. Alliance {zone:1429} bölgesinde başlar. Dwarf ve Gnome'lar {zone:1426} adımından başlayabilir. Burada keşfedilecek 12 alan var, seviye 5-10.",
 	["Exploring the entire world map on one character is a Forever Legacy Challenge (1 account-wide Legacy Point)."] = "Tek bir karakterle tüm dünya haritasını keşfetmek bir Forever Legacy Challenge'ı (hesap geneli 1 Legacy Point).",
 	-- {area:9} Northshire Valley · {zone:1429} Elwynn Forest · {area:87} Goldshire
-	["{area:9} opens onto {zone:1429}; {area:87} is south down the road."] = "{area:9} {zone:1429} bölgesine açılır; {area:87} yolun aşağısında, güneyde.",
+	["{area:9} opens onto {zone:1429}; {area:87} is south down the road."] = "{area:9} {zone:1429} bölgesine açılır, {area:87} yolun aşağısında, güneyde.",
 
 	-- Step 2: Elwynn Forest (2/2)
 	["any one of these names counts"] = "bu adlardan herhangi biri sayılır",
@@ -25,14 +25,14 @@ return {
 	-- Step 6: Loch Modan (1/2)
 	["11 areas to discover here, levels 10-18."] = "Burada keşfedilecek 11 alan var, seviye 10-18.",
 	-- {zone:1426} Dun Morogh · {zone:1432} Loch Modan · {area:924} Valley of Kings
-	["Leave {zone:1426} east through the South Gate tunnel; it opens into {zone:1432} by the dwarf king statues of the {area:924}."] = "{zone:1426} bölgesinden doğuya, South Gate tünelinden çık; tünel {area:924} kesimindeki cüce kral heykellerinin yanında {zone:1432} bölgesine açılır.",
+	["Leave {zone:1426} east through the South Gate tunnel; it opens into {zone:1432} by the dwarf king statues of the {area:924}."] = "{zone:1426} bölgesinden doğuya, South Gate tünelinden çık. Tünel {area:924} kesimindeki cüce kral heykellerinin yanında {zone:1432} bölgesine açılır.",
 	-- {area:144} Thelsamar · {npc:1572} Thorgrum Borrelson
 	["Flight path here: {area:144} ({npc:1572})."] = "Uçuş noktası: {area:144} ({npc:1572}).",
 
 	-- Step 8: Westfall (1/2)
 	["14 areas to discover here, levels 9-18."] = "Burada keşfedilecek 14 alan var, seviye 9-18.",
 	-- {area:144} Thelsamar · {zone:1453} Stormwind City · {zone:1455} Ironforge · {area:2257} Deeprun Tram · {zone:1429} Elwynn Forest · {area:120} Westbrook Garrison · {zone:1436} Westfall
-	["Fly from {area:144} to {zone:1453} if you have its flight path; otherwise ride back to {zone:1455} and take the {area:2257}. Walk west out of {zone:1429} past the {area:120} into {zone:1436}."] = "Uçuş noktası sende varsa {area:144} kasabasından {zone:1453} şehrine uç; yoksa {zone:1455} şehrine geri sür ve {area:2257} trenine bin. {zone:1429} bölgesinden batıya, {area:120} karakolunu geçerek {zone:1436} bölgesine yürü.",
+	["Fly from {area:144} to {zone:1453} if you have its flight path; otherwise ride back to {zone:1455} and take the {area:2257}. Walk west out of {zone:1429} past the {area:120} into {zone:1436}."] = "Uçuş noktası sende varsa {area:144} kasabasından {zone:1453} şehrine uç, yoksa {zone:1455} şehrine geri sür ve {area:2257} trenine bin. {zone:1429} bölgesinden batıya, {area:120} karakolunu geçerek {zone:1436} bölgesine yürü.",
 	-- {area:108} Sentinel Hill
 	["Flight path here: {area:108} (Thor)."] = "Uçuş noktası: {area:108} (Thor).",
 
@@ -46,7 +46,7 @@ return {
 	-- Step 12: Duskwood (1/2)
 	["13 areas to discover here, levels 10-30."] = "Burada keşfedilecek 13 alan var, seviye 10-30.",
 	-- {area:1002} Three Corners · {zone:1431} Duskwood · {area:42} Darkshire
-	["From {area:1002} take the road south into {zone:1431}; {area:42} is east along its main road. Most of Duskwood is level 24-30: come with Redridge behind you."] = "{area:1002} kavşağından güneye giden yolla {zone:1431} bölgesine gir; {area:42}, ana yolu boyunca doğuda. Duskwood'un çoğu seviye 24-30: Redridge'i bitirmiş olarak gel.",
+	["From {area:1002} take the road south into {zone:1431}; {area:42} is east along its main road. Most of Duskwood is level 24-30: come with Redridge behind you."] = "{area:1002} kavşağından güneye giden yolla {zone:1431} bölgesine gir. {area:42}, ana yolu boyunca doğuda. Duskwood'un çoğu seviye 24-30: Redridge'i bitirmiş olarak gel.",
 	-- {area:42} Darkshire · {npc:2409} Felicia Maline
 	["Flight path here: {area:42} ({npc:2409})."] = "Uçuş noktası: {area:42} ({npc:2409}).",
 
@@ -71,7 +71,7 @@ return {
 	-- Step 18: Silverpine Forest (1/2)
 	["15 areas to discover here, levels 10-20."] = "Burada keşfedilecek 15 alan var, seviye 10-20.",
 	-- {area:287} Hillsbrad · {area:285} Southpoint Tower · {zone:1421} Silverpine Forest · {area:228} Sepulcher
-	["Follow the road west from {area:287} past {area:285} into {zone:1421}, Horde country with Horde guards at the {area:228}."] = "{area:287} bölgesinden batıya giden yolu {area:285} kulesini geçerek {zone:1421} bölgesine kadar izle; burası Horde toprağı, {area:228} kasabasında Horde muhafızları var.",
+	["Follow the road west from {area:287} past {area:285} into {zone:1421}, Horde country with Horde guards at the {area:228}."] = "{area:287} bölgesinden batıya giden yolu {area:285} kulesini geçerek {zone:1421} bölgesine kadar izle. Burası Horde toprağı, {area:228} kasabasında Horde muhafızları var.",
 	-- {area:228} Sepulcher
 	["Horde guards: touch the edge of {area:228} and move on"] = "Horde muhafızları: {area:228} kenarına dokun ve devam et",
 
@@ -92,9 +92,9 @@ return {
 
 	-- Step 23: Tirisfal Glades (1/3)
 	-- {zone:1420} Tirisfal Glades · {zone:1454} Orgrimmar
-	["Discovering an area gives experience scaled to its level, so this runs alongside leveling. Horde starts in {zone:1420}; orcs, trolls and tauren arrive by zeppelin from {zone:1454}. 17 areas to discover here, levels 5-10."] = "Bir alanı keşfetmek, seviyesine göre ölçeklenen deneyim puanı verir; yani bu, seviye atlamayla birlikte yürür. Horde {zone:1420} bölgesinde başlar; Orc, Troll ve Tauren'ler {zone:1454} şehrinden zeplinle gelir. Burada keşfedilecek 17 alan var, seviye 5-10.",
+	["Discovering an area gives experience scaled to its level, so this runs alongside leveling. Horde starts in {zone:1420}; orcs, trolls and tauren arrive by zeppelin from {zone:1454}. 17 areas to discover here, levels 5-10."] = "Bir alanı keşfetmek, seviyesine göre ölçeklenen deneyim puanı verir, yani bu, seviye atlamayla birlikte yürür. Horde {zone:1420} bölgesinde başlar. Orc, Troll ve Tauren'ler {zone:1454} şehrinden zeplinle gelir. Burada keşfedilecek 17 alan var, seviye 5-10.",
 	-- {area:154} Deathknell · {zone:1420} Tirisfal Glades · {area:159} Brill · {zone:1458} Undercity
-	["{area:154} opens onto {zone:1420}; {area:159} is east along the road. Orcs, trolls and tauren arrive at the zeppelin tower by the {zone:1458}."] = "{area:154} {zone:1420} bölgesine açılır; {area:159} yol boyunca doğuda. Orc, Troll ve Tauren'ler {zone:1458} yanındaki zeplin kulesine gelir.",
+	["{area:154} opens onto {zone:1420}; {area:159} is east along the road. Orcs, trolls and tauren arrive at the zeppelin tower by the {zone:1458}."] = "{area:154} {zone:1420} bölgesine açılır, {area:159} yol boyunca doğuda. Orc, Troll ve Tauren'ler {zone:1458} yanındaki zeplin kulesine gelir.",
 
 	-- Step 26: Silverpine Forest (1/2)
 	-- {zone:1421} Silverpine Forest · {zone:1420} Tirisfal Glades · {area:159} Brill
@@ -104,7 +104,7 @@ return {
 
 	-- Step 28: Hillsbrad Foothills (1/2)
 	-- {zone:1424} Hillsbrad Foothills · {area:285} Southpoint Tower · {area:272} Tarren Mill · {area:271} Southshore
-	["At the south end of Silverpine the road turns east into {zone:1424} by {area:285}. {area:272} in the north-east is the Horde town; {area:271} is Alliance."] = "Silverpine'ın güney ucunda yol {area:285} kulesinin yanında doğuya, {zone:1424} bölgesine döner. Kuzeydoğudaki {area:272} Horde kasabası; {area:271} Alliance.",
+	["At the south end of Silverpine the road turns east into {zone:1424} by {area:285}. {area:272} in the north-east is the Horde town; {area:271} is Alliance."] = "Silverpine'ın güney ucunda yol {area:285} kulesinin yanında doğuya, {zone:1424} bölgesine döner. Kuzeydoğudaki {area:272} Horde kasabası, {area:271} Alliance.",
 	-- {area:272} Tarren Mill
 	["Flight path here: {area:272} (Zarise)."] = "Uçuş noktası: {area:272} (Zarise).",
 	-- {area:271} Southshore
@@ -130,13 +130,13 @@ return {
 
 	-- Step 35: Dun Morogh (2/3)
 	-- {area:809} Gates of Ironforge
-	["Alliance guards: touch the edge of {area:809} and move on; any one of these names counts"] = "Alliance muhafızları: {area:809} kenarına dokun ve devam et; bu adlardan herhangi biri sayılır",
+	["Alliance guards: touch the edge of {area:809} and move on; any one of these names counts"] = "Alliance muhafızları: {area:809} kenarına dokun ve devam et. Bu adlardan herhangi biri sayılır",
 	-- {area:131} Kharanos
 	["Alliance guards: touch the edge of {area:131} and move on"] = "Alliance muhafızları: {area:131} kenarına dokun ve devam et",
 
 	-- Step 36: Dun Morogh (3/3)
 	-- {area:132} Coldridge Valley
-	["Alliance guards: touch the edge of {area:132} and move on; any one of these names counts"] = "Alliance muhafızları: {area:132} kenarına dokun ve devam et; bu adlardan herhangi biri sayılır",
+	["Alliance guards: touch the edge of {area:132} and move on; any one of these names counts"] = "Alliance muhafızları: {area:132} kenarına dokun ve devam et. Bu adlardan herhangi biri sayılır",
 
 	-- Step 37: Duskwood (1/2)
 	-- {zone:1458} Undercity · {zone:1454} Orgrimmar · {area:117} Grom'gol Base Camp · {zone:1434} Stranglethorn Vale · {zone:1431} Duskwood
@@ -157,7 +157,7 @@ return {
 	-- {zone:1429} Elwynn Forest · {zone:1436} Westfall · {zone:1431} Duskwood · {area:87} Goldshire · {area:9} Northshire Valley · {zone:1453} Stormwind City
 	["{zone:1429} is north of {zone:1436} and {zone:1431}. {area:87}, {area:9} and {zone:1453}'s gates are Alliance ground with guards."] = "{zone:1429}, {zone:1436} ve {zone:1431} bölgelerinin kuzeyinde. {area:87}, {area:9} ve {zone:1453} kapıları muhafızlı Alliance toprağı.",
 	-- {zone:1453} Stormwind City
-	["Alliance guards: touch the edge of {zone:1453} and move on; any one of these names counts"] = "Alliance muhafızları: {zone:1453} kenarına dokun ve devam et; bu adlardan herhangi biri sayılır",
+	["Alliance guards: touch the edge of {zone:1453} and move on; any one of these names counts"] = "Alliance muhafızları: {zone:1453} kenarına dokun ve devam et. Bu adlardan herhangi biri sayılır",
 	-- {area:9} Northshire Valley
 	["Alliance guards: touch the edge of {area:9} and move on"] = "Alliance muhafızları: {area:9} kenarına dokun ve devam et",
 	-- {area:87} Goldshire

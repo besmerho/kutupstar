@@ -25,7 +25,7 @@ return {
 	-- {zone:1454} Orgrimmar · {zone:1458} Undercity
 	["Portals to {zone:1454} and the {zone:1458}"] = "{zone:1454} ve {zone:1458} portalları",
 	-- {item:17032} Rune of Portals · {npc:5958} Thuul · {object:173161} Darkbriar Lodge · {spell:11417} Portal: Orgrimmar · {zone:1458} Undercity · {npc:2492} Lexington Mortaim · {spell:11418} Portal: Undercity
-	["At 40 the portal trainers teach the portals: a gateway your whole group can step through, for 1 gold 50 silver each. Each portal burns one {item:17032} (20 silver at any reagent vendor). {npc:5958} in {object:173161} has {spell:11417}; teleport to the {zone:1458} for {npc:2492}'s {spell:11418}."] = "40'ta portal eğitmenleri portalları öğretir: bütün grubunun içinden geçebileceği bir geçit, her biri 1 altın 50 gümüş. Her portal bir {item:17032} harcar (her reagent satıcısında 20 gümüş). {object:173161} içindeki {npc:5958} {spell:11417} öğretir; {npc:2492} verdiği {spell:11418} için {zone:1458} şehrine ışınlan.",
+	["At 40 the portal trainers teach the portals: a gateway your whole group can step through, for 1 gold 50 silver each. Each portal burns one {item:17032} (20 silver at any reagent vendor). {npc:5958} in {object:173161} has {spell:11417}; teleport to the {zone:1458} for {npc:2492}'s {spell:11418}."] = "40'ta portal eğitmenleri portalları öğretir: bütün grubunun içinden geçebileceği bir geçit, her biri 1 altın 50 gümüş. Her portal bir {item:17032} harcar (her reagent satıcısında 20 gümüş). {object:173161} içindeki {npc:5958} {spell:11417} öğretir. {npc:2492} verdiği {spell:11418} için {zone:1458} şehrine ışınlan.",
 	-- {item:17032} Rune of Portals
 	["{item:17032}, 20s each"] = "{item:17032}, tanesi 20s",
 

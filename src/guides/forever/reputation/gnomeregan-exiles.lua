@@ -16,9 +16,9 @@ return {
 
 	-- Step 1: Bubulo Acerbus, the cloth quartermaster
 	-- {npc:14724} Bubulo Acerbus
-	["{npc:14724}, the cloth quartermaster"] = "{npc:14724}, kumaş levazımcısı",
+	["{npc:14724}, the cloth quartermaster"] = "{npc:14724}, kumaş quartermaster'ı",
 	-- {npc:14724} Bubulo Acerbus · {faction:54} Gnomeregan Exiles · {object:171524} Tinker Town · {zone:1455} Ironforge · {item:14047} Runecloth · {quest:7812} Additional Runecloth · {zone:1426} Dun Morogh · {npc:4077} Gaxim Rustfizzle · {npc:9616} Laris Geardawdle · {quest:4262} Overmaster Pyron · {area:132} Coldridge Valley · {area:131} Kharanos · {area:133} Gnomeregan · {zone:1453} Stormwind · {zone:1457} Darnassus
-	["{npc:14724} takes cloth for the {faction:54}; he stands in {object:171524} in {zone:1455}, by the tram. Each first donation of 60 Wool, Silk, Mageweave and {item:14047} pays 150 reputation once; after the {item:14047} one, {quest:7812} pays 50 for every 20 {item:14047}, as often as you like. The Auction House in the Commons is the quickest source of cloth. In Classic, quests pay full reputation while they are at most 5 levels below you, so do {zone:1426} (levels 1-12) and {npc:4077}'s quests in Stonetalon (20-25) while you level. After the donations come {npc:9616}'s ooze quests and {quest:4262} (400), then the optional {zone:1426} hubs, best rate first: {area:132} (about 38 a minute at full value), {area:131} (26), the quarry (17). Every {area:133} gain also gives a quarter as much to {zone:1453}, {zone:1455} and {zone:1457}, except quests in the level 1-10 start areas. Legacy Diplomat adds up to 10% to every gain."] = "{npc:14724}, {faction:54} için kumaş alır; {zone:1455} şehrinde {object:171524} içinde, tramvayın yanında duruyor. 60 Wool, Silk, Mageweave ve {item:14047} için ilk bağışların her biri bir kez 150 itibar öder; {item:14047} bağışından sonra {quest:7812}, her 20 {item:14047} için 50 öder, istediğin kadar sık. Commons'taki müzayede evi en hızlı kumaş kaynağı. Classic'te görevler senden en fazla 5 seviye aşağıdayken tam itibar öder, bu yüzden {zone:1426} (seviye 1-12) ve Stonetalon'daki {npc:4077} görevlerini (20-25) seviye atlarken yap. Bağışlardan sonra {npc:9616} ooze görevleri ve {quest:4262} (400) gelir, sonra en iyi orandan başlayarak isteğe bağlı {zone:1426} merkezleri: {area:132} (tam değerde dakikada yaklaşık 38), {area:131} (26), taş ocağı (17). Her {area:133} kazancı, 1-10 seviye başlangıç bölgelerindeki görevler dışında, {zone:1453}, {zone:1455} ve {zone:1457} itibarına da dörtte biri kadar verir. Legacy Diplomat her kazanca %10'a kadar ekler.",
+	["{npc:14724} takes cloth for the {faction:54}; he stands in {object:171524} in {zone:1455}, by the tram. Each first donation of 60 Wool, Silk, Mageweave and {item:14047} pays 150 reputation once; after the {item:14047} one, {quest:7812} pays 50 for every 20 {item:14047}, as often as you like. The Auction House in the Commons is the quickest source of cloth. In Classic, quests pay full reputation while they are at most 5 levels below you, so do {zone:1426} (levels 1-12) and {npc:4077}'s quests in Stonetalon (20-25) while you level. After the donations come {npc:9616}'s ooze quests and {quest:4262} (400), then the optional {zone:1426} hubs, best rate first: {area:132} (about 38 a minute at full value), {area:131} (26), the quarry (17). Every {area:133} gain also gives a quarter as much to {zone:1453}, {zone:1455} and {zone:1457}, except quests in the level 1-10 start areas. Legacy Diplomat adds up to 10% to every gain."] = "{npc:14724}, {faction:54} için kumaş alır. {zone:1455} şehrinde {object:171524} içinde, tramvayın yanında duruyor. 60 Wool, Silk, Mageweave ve {item:14047} için ilk bağışların her biri bir kez 150 itibar öder. {item:14047} bağışından sonra {quest:7812}, her 20 {item:14047} için 50 öder, istediğin kadar sık. Commons'taki Auction House en hızlı kumaş kaynağı. Classic'te görevler senden en fazla 5 seviye aşağıdayken tam itibar öder, bu yüzden {zone:1426} (seviye 1-12) ve Stonetalon'daki {npc:4077} görevlerini (20-25) seviye atlarken yap. Bağışlardan sonra {npc:9616} ooze görevleri ve {quest:4262} (400) gelir, sonra en iyi orandan başlayarak isteğe bağlı {zone:1426} merkezleri: {area:132} (tam değerde dakikada yaklaşık 38), {area:131} (26), taş ocağı (17). Her {area:133} kazancı, 1-10 seviye başlangıç bölgelerindeki görevler dışında, {zone:1453}, {zone:1455} ve {zone:1457} itibarına da dörtte biri kadar verir. Legacy Diplomat her kazanca %10'a kadar ekler.",
 	-- {item:2592} Wool Cloth · {zone:1432} Loch Modan · {zone:1437} Wetlands
 	["{item:2592}: troggs, gnolls and kobolds in {zone:1432} and the {zone:1437}"] = "{item:2592}: {zone:1432} ve {zone:1437} bölgelerinde trogg, gnoll ve kobold'lar",
 
@@ -30,7 +30,7 @@ return {
 	-- {npc:8416} Felix Whindlebolt
 	["Coldridge: wolves, troggs and {npc:8416}'s things"] = "Coldridge: kurtlar, trogg'lar ve {npc:8416} eşyaları",
 	-- {area:77} Anvilmar · {npc:8416} Felix Whindlebolt
-	["The wolves roam the valley floor; the troggs dig in the camps east of {area:77}; {npc:8416}'s box, chest and bucket lie in the trogg camps."] = "Kurtlar vadi tabanında dolaşıyor; trogg'lar {area:77} doğusundaki kamplarda kazıyor; {npc:8416} kutusu, sandığı ve kovası trogg kamplarında yatıyor.",
+	["The wolves roam the valley floor; the troggs dig in the camps east of {area:77}; {npc:8416}'s box, chest and bucket lie in the trogg camps."] = "Kurtlar vadi tabanında dolaşıyor. Trogg'lar {area:77} doğusundaki kamplarda kazıyor. {npc:8416} kutusu, sandığı ve kovası trogg kamplarında yatıyor.",
 
 	-- Step 4: Coldridge: Anvilmar and Talin Keeneye
 	-- {area:77} Anvilmar · {npc:714} Talin Keeneye
@@ -40,7 +40,7 @@ return {
 	-- {npc:786} Grelin Whitebeard
 	["Coldridge: {npc:786} and the troll cave"] = "Coldridge: {npc:786} ve trol mağarası",
 	-- {npc:786} Grelin Whitebeard · {area:77} Anvilmar
-	["{npc:786} camps south of {area:77}, at the mouth of the troll cave; the journal lies at the back of the cave."] = "{npc:786}, {area:77} güneyinde, trol mağarasının ağzında kamp kurmuş; günlük mağaranın dibinde yatıyor.",
+	["{npc:786} camps south of {area:77}, at the mouth of the troll cave; the journal lies at the back of the cave."] = "{npc:786}, {area:77} güneyinde, trol mağarasının ağzında kamp kurmuş, günlük mağaranın dibinde yatıyor.",
 
 	-- Step 6: Coldridge: the hot Mornbrew
 	["Coldridge: the hot Mornbrew"] = "Coldridge: sıcak Mornbrew",
@@ -63,7 +63,7 @@ return {
 	-- {area:131} Kharanos
 	["{area:131}: the hills and the depot"] = "{area:131}: tepeler ve depo",
 	-- {area:131} Kharanos · {area:136} Grizzled Den · {area:133} Gnomeregan
-	["The boars and bears roam around {area:131}; the wendigos live in the {area:136} south-west of town; the leper gnomes at the {area:133} road carry the cogs and gears; Rumbleshot's ammo lies at his camp west of town."] = "Domuzlar ve ayılar {area:131} çevresinde dolaşıyor; wendigo'lar kasabanın güneybatısındaki {area:136} içinde yaşıyor; {area:133} yolundaki leper gnome'lar dişlileri ve çarkları taşıyor; Rumbleshot'un cephanesi kasabanın batısındaki kampında yatıyor.",
+	["The boars and bears roam around {area:131}; the wendigos live in the {area:136} south-west of town; the leper gnomes at the {area:133} road carry the cogs and gears; Rumbleshot's ammo lies at his camp west of town."] = "Domuzlar ve ayılar {area:131} çevresinde dolaşıyor. Wendigo'lar kasabanın güneybatısındaki {area:136} içinde yaşıyor. {area:133} yolundaki leper gnome'lar dişlileri ve çarkları taşıyor. Rumbleshot'un cephanesi kasabanın batısındaki kampında yatıyor.",
 
 	-- Step 10: Kharanos: back in town
 	-- {area:131} Kharanos
@@ -73,7 +73,7 @@ return {
 	-- {area:131} Kharanos · {quest:287} Frostmane Hold
 	["{area:131}: Brewnall and {quest:287}"] = "{area:131}: Brewnall ve {quest:287}",
 	-- {npc:1374} Rejold Barleybrew · {area:137} Brewnall Village · {area:131} Kharanos · {quest:287} Frostmane Hold
-	["{npc:1374} stands by {area:137} on the lake north-west of {area:131}; {quest:287} is the troll cave west of it."] = "{npc:1374}, {area:131} kuzeybatısındaki gölde {area:137} yanında duruyor; {quest:287} onun batısındaki trol mağarası.",
+	["{npc:1374} stands by {area:137} on the lake north-west of {area:131}; {quest:287} is the troll cave west of it."] = "{npc:1374}, {area:131} kuzeybatısındaki gölde {area:137} yanında duruyor. {quest:287} onun batısındaki trol mağarası.",
 	["walk to the back of the cave"] = "mağaranın dibine yürü",
 
 	-- Step 12: Kharanos: last hand-in
@@ -90,7 +90,7 @@ return {
 	-- {npc:1388} Vagash
 	["The quarry: troggs, spies and {npc:1388}"] = "Taş ocağı: trogg'lar, casuslar ve {npc:1388}",
 	-- {area:134} Gol'Bolar Quarry · {npc:1388} Vagash · {area:803} Amberstill Ranch
-	["The Dark Iron Spies lurk around Farsen's camp; the troggs dig in the {area:134}; {npc:1388}, a big snow leopard, prowls the hills above {area:803}."] = "Dark Iron Spy'lar Farsen'in kampı çevresinde pusuda; trogg'lar {area:134} içinde kazıyor; büyük bir kar leoparı olan {npc:1388}, {area:803} üzerindeki tepelerde dolaşıyor.",
+	["The Dark Iron Spies lurk around Farsen's camp; the troggs dig in the {area:134}; {npc:1388}, a big snow leopard, prowls the hills above {area:803}."] = "Dark Iron Spy'lar Farsen'in kampı çevresinde pusuda, trogg'lar {area:134} içinde kazıyor. Büyük bir kar leoparı olan {npc:1388}, {area:803} üzerindeki tepelerde dolaşıyor.",
 
 	-- Step 15: The Reports
 	-- {npc:1274} Senator Barin Redstone
@@ -130,7 +130,7 @@ return {
 	["{zone:1449}: Primal Oozes"] = "{zone:1449}: Primal Ooze'lar",
 	-- {area:537} Fire Plume Ridge
 	-- plural, as words: Primal Oozes = {npc:6557} Primal Ooze · Glutinous Oozes = {npc:6559} Glutinous Ooze
-	["The Primal Oozes live in the pools around {area:537} in the middle of the crater; the Muculent and Glutinous Oozes fill the jars too. Kill one and use a jar on its remains."] = "Primal Ooze'lar kraterin ortasındaki {area:537} çevresindeki havuzlarda yaşıyor; Muculent ve Glutinous Ooze'lar da kavanozları doldurur. Birini öldür ve kalıntısının üzerinde bir kavanoz kullan.",
+	["The Primal Oozes live in the pools around {area:537} in the middle of the crater; the Muculent and Glutinous Oozes fill the jars too. Kill one and use a jar on its remains."] = "Primal Ooze'lar kraterin ortasındaki {area:537} çevresindeki havuzlarda yaşıyor. Muculent ve Glutinous Ooze'lar da kavanozları doldurur. Birini öldür ve kalıntısının üzerinde bir kavanoz kullan.",
 
 	-- Step 23: Tinker Town: hand in
 	-- {object:171524} Tinker Town
@@ -152,17 +152,17 @@ return {
 	-- {quest:7812} Additional Runecloth
 	["{quest:7812} to Honored"] = "{quest:7812}: Honored olana kadar",
 	-- {quest:7812} Additional Runecloth · {item:14047} Runecloth · {npc:9616} Laris Geardawdle · {npc:9561} Jalinda Sprig · {zone:1426} Dun Morogh · {npc:4077} Gaxim Rustfizzle · {object:171524} Tinker Town · {area:133} Gnomeregan
-	["{quest:7812}: 50 reputation for 20 {item:14047}, as often as you like. After the four first donations a Human, Dwarf or Night Elf stands at Friendly 700 of 6,000, so Honored is 5,300 away: 106 turn-ins, 2,120 {item:14047} (Gnomes start 900 higher: 88 turn-ins; Skyborne start at Neutral 2,000, so 6,400 away: 128, two fewer after Exploring the Alliance). {npc:9616}'s and {npc:9561}'s quests above take 8 turn-ins off; each {zone:1426} hub you did takes 10 to 26 more off. Outside Dun Morogh Gnomeregan pays little: {npc:4077}'s quests in Stonetalon (about 500) and {object:171524}'s {area:133} dungeon quests. Every city gain also gives a quarter as much to the other three Alliance cities (not counted here). Hand in all your {item:14047} at once."] = "{quest:7812}: 20 {item:14047} karşılığında 50 itibar, istediğin kadar sık. Dört ilk bağıştan sonra bir Human, Dwarf ya da Night Elf, 6.000'in 700'ünde Friendly'dedir, yani Honored 5.300 uzakta: 106 teslim, 2.120 {item:14047} (Gnome'lar 900 yukarıda başlar: 88 teslim; Skyborne Neutral 2.000'de başlar, yani 6.400 uzakta: 128, Exploring the Alliance'tan sonra iki eksik). {npc:9616} ve {npc:9561} adlı NPC'lerin yukarıdaki görevleri 8 teslim düşürür; yaptığın her {zone:1426} merkezi 10 ila 26 daha düşürür. Dun Morogh dışında Gnomeregan az öder: Stonetalon'daki {npc:4077} görevleri (yaklaşık 500) ve {object:171524} içindeki {area:133} zindan görevleri. Her şehir kazancı diğer üç Alliance şehrine de dörtte biri kadar verir (burada sayılmadı). Bütün {item:14047} eşyalarını bir kerede teslim et.",
+	["{quest:7812}: 50 reputation for 20 {item:14047}, as often as you like. After the four first donations a Human, Dwarf or Night Elf stands at Friendly 700 of 6,000, so Honored is 5,300 away: 106 turn-ins, 2,120 {item:14047} (Gnomes start 900 higher: 88 turn-ins; Skyborne start at Neutral 2,000, so 6,400 away: 128, two fewer after Exploring the Alliance). {npc:9616}'s and {npc:9561}'s quests above take 8 turn-ins off; each {zone:1426} hub you did takes 10 to 26 more off. Outside Dun Morogh Gnomeregan pays little: {npc:4077}'s quests in Stonetalon (about 500) and {object:171524}'s {area:133} dungeon quests. Every city gain also gives a quarter as much to the other three Alliance cities (not counted here). Hand in all your {item:14047} at once."] = "{quest:7812}: 20 {item:14047} karşılığında 50 itibar, istediğin kadar sık. Dört ilk bağıştan sonra bir Human, Dwarf ya da Night Elf, 6.000'in 700'ünde Friendly'dedir, yani Honored 5.300 uzakta: 106 teslim, 2.120 {item:14047} (Gnome'lar 900 yukarıda başlar: 88 teslim, Skyborne Neutral 2.000'de başlar, yani 6.400 uzakta: 128, Exploring the Alliance'tan sonra iki eksik). {npc:9616} ve {npc:9561} adlı NPC'lerin yukarıdaki görevleri 8 teslim düşürür. Yaptığın her {zone:1426} merkezi 10 ila 26 daha düşürür. Dun Morogh dışında Gnomeregan az öder: Stonetalon'daki {npc:4077} görevleri (yaklaşık 500) ve {object:171524} içindeki {area:133} zindan görevleri. Her şehir kazancı diğer üç Alliance şehrine de dörtte biri kadar verir (burada sayılmadı). Bütün {item:14047} eşyalarını bir kerede teslim et.",
 
 	-- Step 28: Additional Runecloth to Revered
 	-- {quest:7812} Additional Runecloth
 	["{quest:7812} to Revered"] = "{quest:7812}: Revered olana kadar",
 	-- {faction:54} Gnomeregan Exiles · {npc:7955} Milli Featherwhistle · {item:14047} Runecloth
-	["Honored: in Classic the {faction:54}' vendors take 10% off for you, {npc:7955}'s mechanostriders (20g, the swift ones 200g) included; Forever has not settled it, and guide sites report 5% at Friendly rising to 20% at Exalted. Honored to Revered is 12,000 reputation: 240 turn-ins, 4,800 {item:14047}."] = "Honored: Classic'te {faction:54} satıcıları sana %10 indirim yapar, {npc:7955} satıcısının mechanostrider'ları (20g, swift olanlar 200g) da dahil; Forever bunu netleştirmedi, rehber siteleri de Friendly'de %5'ten Exalted'da %20'ye çıkan bir indirim bildiriyor. Honored'dan Revered'a 12.000 itibar: 240 teslim, 4.800 {item:14047}.",
+	["Honored: in Classic the {faction:54}' vendors take 10% off for you, {npc:7955}'s mechanostriders (20g, the swift ones 200g) included; Forever has not settled it, and guide sites report 5% at Friendly rising to 20% at Exalted. Honored to Revered is 12,000 reputation: 240 turn-ins, 4,800 {item:14047}."] = "Honored: Classic'te {faction:54} satıcıları sana %10 indirim yapar, {npc:7955} satıcısının mechanostrider'ları (20g, swift olanlar 200g) da dahil. Forever bunu netleştirmedi, rehber siteleri de Friendly'de %5'ten Exalted'da %20'ye çıkan bir indirim bildiriyor. Honored'dan Revered'a 12.000 itibar: 240 teslim, 4.800 {item:14047}.",
 
 	-- Step 29: Additional Runecloth to Exalted
 	-- {quest:7812} Additional Runecloth
 	["{quest:7812} to Exalted"] = "{quest:7812}: Exalted olana kadar",
 	-- {item:14047} Runecloth · {npc:7955} Milli Featherwhistle · {area:189} Steelgrill's Depot · {zone:1426} Dun Morogh
-	["Revered to Exalted is 21,000 reputation: 420 turn-ins, 8,400 {item:14047}. At Exalted, {npc:7955} at {area:189} in {zone:1426} sells her mechanostriders to other races in Classic; the Mechanostrider and Swift Mechanostrider guides cover them."] = "Revered'dan Exalted'a 21.000 itibar: 420 teslim, 8.400 {item:14047}. Classic'te Exalted'da {zone:1426} bölgesinde {area:189} kesimindeki {npc:7955} mechanostrider'larını diğer ırklara satar; Mechanostrider ve Swift Mechanostrider rehberleri bunları anlatır.",
+	["Revered to Exalted is 21,000 reputation: 420 turn-ins, 8,400 {item:14047}. At Exalted, {npc:7955} at {area:189} in {zone:1426} sells her mechanostriders to other races in Classic; the Mechanostrider and Swift Mechanostrider guides cover them."] = "Revered'dan Exalted'a 21.000 itibar: 420 teslim, 8.400 {item:14047}. Classic'te Exalted'da {zone:1426} bölgesinde {area:189} kesimindeki {npc:7955} mechanostrider'larını diğer ırklara satar. Mechanostrider ve Swift Mechanostrider rehberleri bunları anlatır.",
 }

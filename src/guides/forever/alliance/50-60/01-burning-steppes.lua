@@ -30,7 +30,7 @@ return {
 	-- {zone:1447} Azshara
 	["{zone:1447}: kill these as you meet them"] = "{zone:1447}: bunları karşılaştıkça öldür",
 	-- {npc:222478} Sentinel Keldara Sunblade
-	["The Highborne ghosts haunt the ruins around the shrine; the Haldarr satyrs hold the camp just north of it. {npc:222478} is held in the satyrs' camp: free her and walk her out."] = "Highborne hayaletleri sunağın çevresindeki harabelerde dolaşıyor; Haldarr satyr'ları da hemen kuzeyindeki kampı tutuyor. {npc:222478} satyr'ların kampında tutsak: onu serbest bırak ve dışarı çıkar.",
+	["The Highborne ghosts haunt the ruins around the shrine; the Haldarr satyrs hold the camp just north of it. {npc:222478} is held in the satyrs' camp: free her and walk her out."] = "Highborne hayaletleri sunağın çevresindeki harabelerde dolaşıyor. Haldarr satyr'ları da hemen kuzeyindeki kampı tutuyor. {npc:222478} satyr'ların kampında tutsak: onu serbest bırak ve dışarı çıkar.",
 	-- {npc:222478} Sentinel Keldara Sunblade
 	["{npc:222478}, in the camp"] = "{npc:222478}, kampta",
 	["Help her escape the camp"] = "Kamptan kaçmasına yardım et",
@@ -71,7 +71,7 @@ return {
 	["Level 51.3 on the way north"] = "Kuzeye giderken seviye 51.3",
 	-- {npc:8395} Sanath Lim-yo · {npc:8420} Kim'jael · {area:1417} Sunken Temple
 	-- plural, as words: Spitelash Myrmidons = {npc:6196} Spitelash Myrmidon
-	["Top up to level 51.3 on the Spitelash Myrmidons (50-51) of the ruins between {npc:8395}'s camp and the north: the blood elves at {npc:8420}'s camp are 51-53. Or, with a group, run the {area:1417} dungeon instead."] = "{npc:8395} kampıyla kuzey arasındaki harabelerde Spitelash Myrmidon yaratıklarıyla (50-51) seviye 51.3 olana kadar kas: {npc:8420} kampındaki kan elfleri 51-53. Ya da grubun varsa onun yerine {area:1417} zindanına koş.",
+	["Top up to level 51.3 on the Spitelash Myrmidons (50-51) of the ruins between {npc:8395}'s camp and the north: the blood elves at {npc:8420}'s camp are 51-53. Or, with a group, run the {area:1417} dungeon instead."] = "{npc:8395} kampıyla kuzey arasındaki harabelerde Spitelash Myrmidon yaratıklarıyla (50-51) seviye 51.3 olana kadar kas: {npc:8420} kampındaki kan elfleri 51-53. Ya da grubun varsa onun yerine {area:1417} zindanını yap.",
 	-- {npc:6196} Spitelash Myrmidon
 	["grind on {npc:6196}"] = "Kas: {npc:6196}",
 
@@ -89,12 +89,12 @@ return {
 	["Mosshoof Coursers"] = "Mosshoof Courser yaratıkları",
 	-- {area:1224} Bear's Head · {area:1219} Legashi Encampment
 	-- plural, as words: Mosshoof Coursers = {npc:8761} Mosshoof Courser
-	["The nearest Mosshoof Coursers graze the hills north-east of the {area:1224}, toward the {area:1219}; a larger herd roams the open ground to the south.\nCareful: the Mosshoof Coursers are 52-53, a level or two over you here: pull them one at a time from the herd's edge."] = "En yakın Mosshoof Courser yaratıkları {area:1224} kuzeydoğusundaki tepelerde, {area:1219} yöresine doğru otluyor; daha büyük bir sürü güneydeki açık arazide dolaşıyor.\nDikkat: Mosshoof Courser yaratıkları 52-53, burada senden bir iki seviye yüksek: onları sürünün kenarından tek tek çek.",
+	["The nearest Mosshoof Coursers graze the hills north-east of the {area:1224}, toward the {area:1219}; a larger herd roams the open ground to the south.\nCareful: the Mosshoof Coursers are 52-53, a level or two over you here: pull them one at a time from the herd's edge."] = "En yakın Mosshoof Courser yaratıkları {area:1224} kuzeydoğusundaki tepelerde, {area:1219} yöresine doğru otluyor. Daha büyük bir sürü güneydeki açık arazide dolaşıyor.\nDikkat: Mosshoof Courser yaratıkları 52-53, burada senden bir iki seviye yüksek: onları sürünün kenarından tek tek çek.",
 
 	-- Step 20: Kim'jael
 	-- {npc:8420} Kim'jael · {area:1219} Legashi Encampment · {area:1220} Thalassian Base Camp · {npc:6647} Magister Hawkhelm · {npc:235903} Ekkal
 	-- plural, as words: Blood Elf Surveyors = {npc:6198} Blood Elf Surveyor · Legashi Soulstealers = {npc:236867} Legashi Soulstealer
-	["{npc:8420} camps at the {area:1219} in the north; his equipment lies all over the {area:1220} just south-east of him.\nCareful: the Blood Elf Surveyors are 51-52 and the Reclaimers 52-53, with {npc:6647} (53) among them: take the equipment from the camp's edge and pull the elves one at a time.\n{npc:235903}'s satyrs, rogues and hellcallers (51-53) are the Legashi around {npc:8420}'s camp; the Legashi Soulstealers, Hellraisers and Blackguards (53) further east are not part of it: stay west of them."] = "{npc:8420} kuzeydeki {area:1219} yöresinde kamp kurmuş; ekipmanı hemen güneydoğusundaki {area:1220} kampının her yanında.\nDikkat: Blood Elf Surveyor yaratıkları 51-52, Reclaimer'lar 52-53 ve aralarında {npc:6647} (53) var: ekipmanı kampın kenarından al ve elfleri tek tek çek.\n{npc:235903} için satyr'lar, rogue'lar ve hellcaller'lar (51-53), {npc:8420} kampının çevresindeki Legashi'ler; daha doğudaki Legashi Soulstealer, Hellraiser ve Blackguard yaratıkları (53) bunun parçası değil: onların batısında kal.",
+	["{npc:8420} camps at the {area:1219} in the north; his equipment lies all over the {area:1220} just south-east of him.\nCareful: the Blood Elf Surveyors are 51-52 and the Reclaimers 52-53, with {npc:6647} (53) among them: take the equipment from the camp's edge and pull the elves one at a time.\n{npc:235903}'s satyrs, rogues and hellcallers (51-53) are the Legashi around {npc:8420}'s camp; the Legashi Soulstealers, Hellraisers and Blackguards (53) further east are not part of it: stay west of them."] = "{npc:8420} kuzeydeki {area:1219} yöresinde kamp kurmuş. Ekipmanı hemen güneydoğusundaki {area:1220} kampının her yanında.\nDikkat: Blood Elf Surveyor yaratıkları 51-52, Reclaimer'lar 52-53 ve aralarında {npc:6647} (53) var: ekipmanı kampın kenarından al ve elfleri tek tek çek.\n{npc:235903} için satyr'lar, rogue'lar ve hellcaller'lar (51-53), {npc:8420} kampının çevresindeki Legashi'ler. Daha doğudaki Legashi Soulstealer, Hellraiser ve Blackguard yaratıkları (53) bunun parçası değil: onların batısında kal.",
 	-- {item:20028} Glittering Dust
 	["{item:20028}, from the blood elf surveyors and reclaimers"] = "{item:20028}, blood elf surveyor ve reclaimer'lardan",
 
@@ -104,7 +104,7 @@ return {
 
 	-- Step 24: Rubbing: Rune of Sael'hai
 	-- {item:7972} Ichor of Undeath · {npc:7864} Lingering Highborne
-	["{item:7972}: the {npc:7864}, about 10%"] = "{item:7972}: {npc:7864} yaratıkları, yaklaşık yüzde 10",
+	["{item:7972}: the {npc:7864}, about 10%"] = "{item:7972}: {npc:7864} yaratıkları, yaklaşık %10",
 
 	-- Step 25: Sanath Lim-yo
 	-- {npc:8395} Sanath Lim-yo
@@ -146,7 +146,7 @@ return {
 	-- Step 35: Royal Historian Archesonus
 	-- {quest:3701} The Smoldering Ruins of Thaurissan · {npc:8978} Thauris Balgarr · {zone:1428} Burning Steppes
 	-- plural, as words: War Reavers = {npc:7039} War Reaver
-	["{quest:3701} is a group quest at this level: its relics stand among War Reavers and Firewalkers of 53-55, with {npc:8978} (57) close by, two to five over you, and the route has no later {zone:1428} visit. Grouping up is encouraged, look for people to do it with. Skip it if you are alone."] = "{quest:3701} bu seviyede bir grup görevi: kalıntıları 53-55. seviye War Reaver ve Firewalker yaratıklarının arasında, yakında da {npc:8978} (57) var, senden iki ila beş seviye yüksek; rotada da sonraki bir {zone:1428} ziyareti yok. Grup kurman önerilir, birlikte yapacak kişiler ara. Yalnızsan atla.",
+	["{quest:3701} is a group quest at this level: its relics stand among War Reavers and Firewalkers of 53-55, with {npc:8978} (57) close by, two to five over you, and the route has no later {zone:1428} visit. Grouping up is encouraged, look for people to do it with. Skip it if you are alone."] = "{quest:3701} bu seviyede bir grup görevi: kalıntıları 53-55. seviye War Reaver ve Firewalker yaratıklarının arasında, yakında da {npc:8978} (57) var, senden iki ila beş seviye yüksek. Rotada da sonraki bir {zone:1428} ziyareti yok. Grup kurman önerilir, birlikte yapacak kişiler ara. Yalnızsan atla.",
 	-- {zone:1428} Burning Steppes
 	["The relics are in the {zone:1428}: keep it"] = "Kalıntılar {zone:1428} bölgesinde: sakla",
 
@@ -185,7 +185,7 @@ return {
 	["{area:197}: kill these as you meet them"] = "{area:197}: bunları karşılaştıkça öldür",
 	-- {npc:10411} Eye of Naxxramas
 	-- plural, as words: Skeletal Flayers = {npc:1783} Skeletal Flayer · Slavering Ghouls = {npc:1791} Slavering Ghoul · Rockwing Gargoyles = {npc:10408} Rockwing Gargoyle
-	["Skeletal Flayers and Slavering Ghouls roam the fields north of the camp; all the Scourge here drop Scourgestones.\nCareful: These undead notice you from far away, and other undead nearby join the fight when one is pulled.\nCareful: The {npc:10411} (3 spawns, 15 min respawn) turns invisible when out of combat and calls in Rockwing Gargoyles once a fight starts."] = "Skeletal Flayer ve Slavering Ghoul yaratıkları kampın kuzeyindeki tarlalarda dolaşıyor; buradaki bütün Scourge'lar Scourgestone düşürür.\nDikkat: Bu undead'ler seni çok uzaktan fark eder, biri çekilince yakındaki diğer undead'ler de dövüşe katılır.\nDikkat: {npc:10411} (3 doğma noktası, 15 dakikada yeniden doğar) savaş dışındayken görünmez olur ve dövüş başlayınca Rockwing Gargoyle çağırır.",
+	["Skeletal Flayers and Slavering Ghouls roam the fields north of the camp; all the Scourge here drop Scourgestones.\nCareful: These undead notice you from far away, and other undead nearby join the fight when one is pulled.\nCareful: The {npc:10411} (3 spawns, 15 min respawn) turns invisible when out of combat and calls in Rockwing Gargoyles once a fight starts."] = "Skeletal Flayer ve Slavering Ghoul yaratıkları kampın kuzeyindeki tarlalarda dolaşıyor. Buradaki bütün Scourge'lar Scourgestone düşürür.\nDikkat: Bu undead'ler seni çok uzaktan fark eder, biri çekilince yakındaki diğer undead'ler de dövüşe katılır.\nDikkat: {npc:10411} (3 doğma noktası, 15 dakikada yeniden doğar) savaş dışındayken görünmez olur ve dövüş başlayınca Rockwing Gargoyle çağırır.",
 
 	-- Step 44: Chillwind Camp
 	["Ride back south to the camp."] = "Güneye, kampa dön.",
@@ -194,7 +194,7 @@ return {
 
 	-- Step 45: Janice Felstone
 	-- {npc:10778} Janice Felstone · {area:199} Felstone Field · {area:200} Dalson's Tears
-	["{npc:10778}'s ghost wanders by the farmhouse of {area:199}, west of {area:200}; her parcel lies inside."] = "{npc:10778} adlı NPC'nin hayaleti {area:200} çiftliğinin batısında, {area:199} çiftlik evinin yanında dolaşıyor; paketi içeride.",
+	["{npc:10778}'s ghost wanders by the farmhouse of {area:199}, west of {area:200}; her parcel lies inside."] = "{npc:10778} adlı NPC'nin hayaleti {area:200} çiftliğinin batısında, {area:199} çiftlik evinin yanında dolaşıyor, paketi içeride.",
 	["Upstairs"] = "Üst katta",
 	-- {object:175894} Janice's Parcel
 	["{object:175894}, inside"] = "{object:175894}, içeride",
@@ -226,7 +226,7 @@ return {
 	["Level 52 at {area:249}"] = "{area:249} kayasında seviye 52",
 	-- {area:249} Dreadmaul Rock · {area:1417} Sunken Temple
 	-- plural, as words: Firegut Ogres = {npc:7033} Firegut Ogre
-	["Top up first to level 52 on the Firegut Ogres (50-51) on the near side of {area:249}, north of the Vigil: the Brutes on its east side are 52-53. Or, with a group, run the {area:1417} dungeon instead."] = "Önce Vigil'in kuzeyinde, {area:249} kayasının yakın yakasındaki Firegut Ogre yaratıklarıyla (50-51) seviye 52 olana kadar kas: doğu yakasındaki Brute'lar 52-53. Ya da grubun varsa onun yerine {area:1417} zindanına koş.",
+	["Top up first to level 52 on the Firegut Ogres (50-51) on the near side of {area:249}, north of the Vigil: the Brutes on its east side are 52-53. Or, with a group, run the {area:1417} dungeon instead."] = "Önce Vigil'in kuzeyinde, {area:249} kayasının yakın yakasındaki Firegut Ogre yaratıklarıyla (50-51) seviye 52 olana kadar kas: doğu yakasındaki Brute'lar 52-53. Ya da grubun varsa onun yerine {area:1417} zindanını yap.",
 	-- {npc:7033} Firegut Ogre
 	["grind on {npc:7033}"] = "Kas: {npc:7033}",
 
@@ -275,7 +275,7 @@ return {
 	-- Step 61: Level 52.08
 	["Level 52.08"] = "Seviye 52.08",
 	-- {quest:4022} A Taste of Flame · {area:1417} Sunken Temple
-	["If you skipped {quest:4022}, grind here to level 52.08 to stay on the route's plan. Or, with a group, run the {area:1417} dungeon instead."] = "{quest:4022} görevini atladıysan, rotanın planında kalmak için burada seviye 52.08 olana kadar kas. Ya da grubun varsa onun yerine {area:1417} zindanına koş.",
+	["If you skipped {quest:4022}, grind here to level 52.08 to stay on the route's plan. Or, with a group, run the {area:1417} dungeon instead."] = "{quest:4022} görevini atladıysan, rotanın planında kalmak için burada seviye 52.08 olana kadar kas. Ya da grubun varsa onun yerine {area:1417} zindanını yap.",
 	-- {npc:9690} Ember Worg
 	["grind on {npc:9690}"] = "Kas: {npc:9690}",
 
@@ -314,7 +314,7 @@ return {
 	-- Step 70: Kum'isha the Collector
 	-- {area:2517} Rise of the Defiler · {zone:1419} Blasted Lands · {npc:7664} Razelikh the Defiler · {spell:2691} Mana Burn · {spell:8255} Strong Cleave · {object:141891} Razelikh's Tear · {spell:10854} Flames of Chaos · {npc:247015} Vek'zol
 	-- plural, as words: Imperfect Draenethyst Fragments = {item:10593} Imperfect Draenethyst Fragment
-	["Kum'isha waits at the {area:2517}, the hill south-west of the keep. The {zone:1419} mobs on the way drop the Imperfect Draenethyst Fragments; bring her what you have. Come at her hill straight from the keep, along the road, and leave by the same way.\nCareful: Felcular, {npc:7664} and Ilifar are all level 60 elites. Razelikh casts {spell:2691}, {spell:8255} and Decimate, and as its health drops it adds {object:141891}, {spell:10854} and then Enrage at 15%.\nCareful: {npc:247015}, a level 55 elite, stands by Kum'isha's hill (about 50,35) and to the west (about 39,32), and the Dreadmaul and Shadowsworn camps around it are 53-55: take the fragments from the mobs on the way from the keep, not beside him."] = "Kum'isha, kalenin güneybatısındaki tepe olan {area:2517} üstünde bekliyor. Yoldaki {zone:1419} yaratıkları Imperfect Draenethyst Fragment düşürür; elinde ne varsa ona getir. Tepesine kaleden doğruca, yol boyunca gel ve aynı yoldan ayrıl.\nDikkat: Felcular, {npc:7664} ve Ilifar, hepsi 60. seviye elit. Razelikh {spell:2691}, {spell:8255} ve Decimate kullanır; canı düştükçe {object:141891}, {spell:10854} ve %15'te Enrage ekler.\nDikkat: 55. seviye elit {npc:247015}, Kum'isha'nın tepesinin yanında (yaklaşık 50,35) ve batısında (yaklaşık 39,32) duruyor, çevresindeki Dreadmaul ve Shadowsworn kampları da 53-55: parçaları onun yanından değil, kaleden gelirken yoldaki yaratıklardan al.",
+	["Kum'isha waits at the {area:2517}, the hill south-west of the keep. The {zone:1419} mobs on the way drop the Imperfect Draenethyst Fragments; bring her what you have. Come at her hill straight from the keep, along the road, and leave by the same way.\nCareful: Felcular, {npc:7664} and Ilifar are all level 60 elites. Razelikh casts {spell:2691}, {spell:8255} and Decimate, and as its health drops it adds {object:141891}, {spell:10854} and then Enrage at 15%.\nCareful: {npc:247015}, a level 55 elite, stands by Kum'isha's hill (about 50,35) and to the west (about 39,32), and the Dreadmaul and Shadowsworn camps around it are 53-55: take the fragments from the mobs on the way from the keep, not beside him."] = "Kum'isha, kalenin güneybatısındaki tepe olan {area:2517} üstünde bekliyor. Yoldaki {zone:1419} yaratıkları Imperfect Draenethyst Fragment düşürür. Elinde ne varsa ona getir. Tepesine kaleden doğruca, yol boyunca gel ve aynı yoldan ayrıl.\nDikkat: Felcular, {npc:7664} ve Ilifar, hepsi 60. seviye elit. Razelikh {spell:2691}, {spell:8255} ve Decimate kullanır. Canı düştükçe {object:141891}, {spell:10854} ve %15'te Enrage ekler.\nDikkat: 55. seviye elit {npc:247015}, Kum'isha'nın tepesinin yanında (yaklaşık 50,35) ve batısında (yaklaşık 39,32) duruyor, çevresindeki Dreadmaul ve Shadowsworn kampları da 53-55: parçaları onun yanından değil, kaleden gelirken yoldaki yaratıklardan al.",
 	-- {npc:7363} Kum'isha the Collector
 	["{npc:7363} walks around here: look inside the circle on the map"] = "{npc:7363} buralarda dolaşıyor: haritadaki çemberin içine bak",
 

@@ -14,5 +14,5 @@ return {
 	-- {skill:762} Riding
 	["Journeyman {skill:762}"] = "Journeyman {skill:762}",
 	-- {skill:762} Riding
-	["The bear runs at full speed: riding it needs level 60 and Journeyman {skill:762} (Forever client), from your race's riding trainer; see the Level 60 mount guides."] = "Ayı tam hızda koşar: binmek seviye 60 ve ırkının binicilik eğitmeninden Journeyman {skill:762} ister (Forever istemcisi); seviye 60 binek rehberlerine bak.",
+	["The bear runs at full speed: riding it needs level 60 and Journeyman {skill:762} (Forever client), from your race's riding trainer; see the Level 60 mount guides."] = "Ayı tam hızda koşar: binmek seviye 60 ve ırkının binicilik eğitmeninden Journeyman {skill:762} ister (Forever istemcisi). Seviye 60 binek rehberlerine bak.",
 }

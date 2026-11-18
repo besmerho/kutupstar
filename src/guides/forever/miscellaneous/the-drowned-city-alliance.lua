@@ -15,7 +15,7 @@ return {
 
 	-- Step 2: Kurzen's Compound
 	-- {area:99} Rebel Camp · {item:2634} Venom Fern Extract · {object:263} Kurzen Supplies
-	["South-east of the {area:99}. The medicine men, headshrinkers and witch doctors drop the remedies; the {item:2634} is in the {object:263}."] = "{area:99} kampının güneydoğusunda. Kurzen Medicine Man, Headshrinker ve Witch Doctor yaratıkları ilaçları düşürür; {item:2634} {object:263} sandığında.",
+	["South-east of the {area:99}. The medicine men, headshrinkers and witch doctors drop the remedies; the {item:2634} is in the {object:263}."] = "{area:99} kampının güneydoğusunda. Kurzen Medicine Man, Headshrinker ve Witch Doctor yaratıkları ilaçları düşürür, {item:2634} {object:263} sandığında.",
 
 	-- Step 4: The Emperor's Tomb
 	-- {item:2008} The Fourth Troll Legend · {area:99} Rebel Camp · {area:102} Ruins of Zul'Kunda
@@ -69,7 +69,7 @@ return {
 	-- Step 17: Var'Taka
 	-- {npc:258924} Var'Taka · {npc:260042} Captain Dreadrise
 	-- plural, as words: Brinescale Explorers = {npc:258799} Brinescale Explorer
-	["Brinescale Explorers and Sorceresses guard the way to {npc:258924}, the second boss. The second tablet is close to him. No Alliance quest asks for him, but once he is dead, disrupt the barrier close to where he fell; you do it once more after {npc:260042}."] = "Brinescale Explorer ve Sorceress yaratıkları ikinci boss {npc:258924} yaratığına giden yolu koruyor. İkinci tablet ona yakın. Onu isteyen bir Alliance görevi yok, ama ölünce düştüğü yerin yakınındaki bariyeri boz; bunu {npc:260042} yaratığından sonra bir kez daha yaparsın.",
+	["Brinescale Explorers and Sorceresses guard the way to {npc:258924}, the second boss. The second tablet is close to him. No Alliance quest asks for him, but once he is dead, disrupt the barrier close to where he fell; you do it once more after {npc:260042}."] = "Brinescale Explorer ve Sorceress yaratıkları ikinci boss {npc:258924} yaratığına giden yolu koruyor. İkinci tablet ona yakın. Onu isteyen bir Alliance görevi yok, ama ölünce düştüğü yerin yakınındaki bariyeri boz. Bunu {npc:260042} yaratığından sonra bir kez daha yaparsın.",
 
 	-- Step 18: Captain Dreadrise
 	["The Saltseer pirates hold his ground: Murderers, Manhunters, Cultists and Coroners, and any of them can drop an artifact. The third tablet is among them, before you reach the captain. After he dies, disrupt the barrier a second time."] = "Kaptanın bölgesini Saltseer korsanları tutuyor: Murderer, Manhunter, Cultist ve Coroner yaratıkları, hepsi bir eser düşürebilir. Üçüncü tablet de aralarında, kaptana varmadan önce. Kaptan ölünce bariyeri ikinci kez boz.",

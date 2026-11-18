@@ -27,7 +27,7 @@ return {
 
 	-- Step 5: Tarren Mill
 	-- {npc:2229} Krusk · {npc:2410} Magus Wordeen Voidglare · {npc:2437} Keeper Bel'varil · {npc:2770} Tallow
-	["{npc:2229}, {npc:2410} and {npc:2437} are inside the inn; {npc:2770} stands outside it."] = "{npc:2229}, {npc:2410} ve {npc:2437} hanın içinde; {npc:2770} dışında duruyor.",
+	["{npc:2229}, {npc:2410} and {npc:2437} are inside the inn; {npc:2770} stands outside it."] = "{npc:2229}, {npc:2410} ve {npc:2437} hanın içinde, {npc:2770} dışında duruyor.",
 	-- {npc:2229} Krusk
 	["{npc:2229}, inside"] = "{npc:2229}, içeride",
 	-- {npc:2410} Magus Wordeen Voidglare
@@ -49,7 +49,7 @@ return {
 	["Syndicate missives"] = "Syndicate mektupları",
 	-- {quest:535} Valik
 	-- plural, as words: Syndicate Footpads = {npc:2240} Syndicate Footpad
-	["Only if {quest:535}'s missive didn't come your way: the Syndicate Footpads and Thieves (32-34) around the camps west of the road carry missives too; about one in three drops one."] = "Yalnızca {quest:535} mektubu eline geçmediyse: yolun batısındaki kampların çevresindeki Syndicate Footpad ve Thief yaratıkları (32-34) da mektup taşır; yaklaşık üçte biri düşürür.",
+	["Only if {quest:535}'s missive didn't come your way: the Syndicate Footpads and Thieves (32-34) around the camps west of the road carry missives too; about one in three drops one."] = "Yalnızca {quest:535} mektubu eline geçmediyse: yolun batısındaki kampların çevresindeki Syndicate Footpad ve Thief yaratıkları (32-34) da mektup taşır, yaklaşık üçte biri düşürür.",
 
 	-- Step 8: Alterac Mountains
 	-- {npc:246848} Kirin Tor Guard
@@ -62,7 +62,7 @@ return {
 	["The {area:279} crater"] = "{area:279} krateri",
 	-- {area:279} Dalaran · {npc:2411} Ricter · {npc:2412} Alina · {npc:2413} Dermot · {npc:2414} Kegan Darkmar
 	-- plural, as words: Worn Stone Tokens = {item:3714} Worn Stone Token · Kirin Tor Guards = {npc:246848} Kirin Tor Guard · Kirin Tor Enforcers = {npc:276215} Kirin Tor Enforcer
-	["From the south, walk up into the camp below the violet dome of {area:279}. {npc:2411}, {npc:2412} and {npc:2413} (33-34) stand together in the camp, {npc:2414} (35) a little west of them; each carries one Bloodstone piece. The Shield Guards and Theurgists (31-33) around them drop the Worn Stone Tokens: the ones on the camp's west side are furthest from the Guard's road.\nCareful: Kirin Tor Guards (55) attack the Horde on sight, and one of them patrols the road that comes down into the camp from the north-east and walks right up to the traitors: he has killed many players here. Watch for him, let him walk back up the road, then pull the traitors. Many of the camp's guards stand in linked pairs and others patrol alone. Arcane Sentries (55, elite) and Kirin Tor Enforcers (55) stand around the violet dome itself: keep to the camp below the rim."] = "Güneyden, {area:279} mor kubbesinin altındaki kampa çık. {npc:2411}, {npc:2412} ve {npc:2413} (33-34) kampta birlikte, {npc:2414} (35) biraz batılarında duruyor; her biri bir Bloodstone parçası taşır. Çevrelerindeki Shield Guard ve Theurgist'ler (31-33) Worn Stone Token düşürür: kampın batı yakasındakiler Guard'ın yolundan en uzak olanlar.\nDikkat: Kirin Tor Guard yaratıkları (55) Horde'a görür görmez saldırır, biri de kuzeydoğudan kampa inen yolda devriye gezip hainlerin dibine kadar yürür: burada çok oyuncu öldürdü. Onu gözle, yoldan geri çıkmasını bekle, sonra hainleri çek. Kamp muhafızlarının çoğu bağlı çiftler halinde durur, diğerleri tek başına devriye gezer. Arcane Sentry (55, elit) ve Kirin Tor Enforcer (55) yaratıkları mor kubbenin kendisinin çevresinde duruyor: kenarın aşağısındaki kampta kal.",
+	["From the south, walk up into the camp below the violet dome of {area:279}. {npc:2411}, {npc:2412} and {npc:2413} (33-34) stand together in the camp, {npc:2414} (35) a little west of them; each carries one Bloodstone piece. The Shield Guards and Theurgists (31-33) around them drop the Worn Stone Tokens: the ones on the camp's west side are furthest from the Guard's road.\nCareful: Kirin Tor Guards (55) attack the Horde on sight, and one of them patrols the road that comes down into the camp from the north-east and walks right up to the traitors: he has killed many players here. Watch for him, let him walk back up the road, then pull the traitors. Many of the camp's guards stand in linked pairs and others patrol alone. Arcane Sentries (55, elite) and Kirin Tor Enforcers (55) stand around the violet dome itself: keep to the camp below the rim."] = "Güneyden, {area:279} mor kubbesinin altındaki kampa çık. {npc:2411}, {npc:2412} ve {npc:2413} (33-34) kampta birlikte, {npc:2414} (35) biraz batılarında duruyor. Her biri bir Bloodstone parçası taşır. Çevrelerindeki Shield Guard ve Theurgist'ler (31-33) Worn Stone Token düşürür: kampın batı yakasındakiler Guard'ın yolundan en uzak olanlar.\nDikkat: Kirin Tor Guard yaratıkları (55) Horde'a görür görmez saldırır, biri de kuzeydoğudan kampa inen yolda devriye gezip hainlerin dibine kadar yürür: burada çok oyuncu öldürdü. Onu gözle, yoldan geri çıkmasını bekle, sonra hainleri çek. Kamp muhafızlarının çoğu bağlı çiftler halinde durur, diğerleri tek başına devriye gezer. Arcane Sentry (55, elit) ve Kirin Tor Enforcer (55) yaratıkları mor kubbenin kendisinin çevresinde duruyor: kenarın aşağısındaki kampta kal.",
 	-- {item:279469} Grimy Key
 	["{item:279469}: an object to loot, by the traitors"] = "{item:279469}: hainlerin yanında loot'lanacak bir nesne",
 	-- plural, as words: Worn Stone Tokens = {item:3714} Worn Stone Token
@@ -74,7 +74,7 @@ return {
 
 	-- Step 13: Gol'dir
 	-- {quest:535} Valik · {area:280} Strahnbrad · {npc:2431} Jailor Borhuin · {item:3704} Rusted Iron Key · {quest:503} Gol'dir
-	["Head north up the road past {quest:535}'s camp to {area:280}, the Syndicate-held village (35-37). {npc:2431} carries the {item:3704}; {quest:503} sits in a cage in the house on the north side.\nCareful: Stealthed Syndicate spies roam {area:280}, and the buildings hold many Syndicate mobs, mages among them."] = "Yoldan kuzeye, {quest:535} kampını geçip Syndicate'in tuttuğu köy {area:280} yerine git (35-37). {item:3704} eşyası {npc:2431} yanında; {quest:503} kuzey yakadaki evde bir kafeste oturuyor.\nDikkat: {area:280} içinde gizli Syndicate casusları dolaşıyor, binalarda da aralarında büyücülerin olduğu çok sayıda Syndicate yaratığı var.",
+	["Head north up the road past {quest:535}'s camp to {area:280}, the Syndicate-held village (35-37). {npc:2431} carries the {item:3704}; {quest:503} sits in a cage in the house on the north side.\nCareful: Stealthed Syndicate spies roam {area:280}, and the buildings hold many Syndicate mobs, mages among them."] = "Yoldan kuzeye, {quest:535} kampını geçip Syndicate'in tuttuğu {area:280} köyüne git (35-37). {item:3704} eşyası {npc:2431} yanında. {quest:503} kuzey yakadaki evde bir kafeste oturuyor.\nDikkat: {area:280} içinde gizli Syndicate casusları dolaşıyor, binalarda da aralarında büyücülerin olduğu çok sayıda Syndicate yaratığı var.",
 	["Inside"] = "İçeride",
 	-- {quest:503} Gol'dir
 	["Find where {quest:503} is held, on the top floor"] = "{quest:503} adlı NPC'nin tutulduğu yeri bul, en üst katta",
@@ -88,13 +88,13 @@ return {
 	["{area:17707}: kill these as you meet them"] = "{area:17707}: bunları karşılaştıkça öldür",
 	-- {area:280} Strahnbrad · {area:1357} Gallows' Corner · {area:279} Dalaran
 	-- plural, as words: Dalaran Summoners = {npc:2358} Dalaran Summoner · Elemental Slaves = {npc:2359} Elemental Slave · Kirin Tor Guards = {npc:246848} Kirin Tor Guard
-	["From {area:280} follow the road south-west to {area:1357} and on west to the ruins north of the {area:279} crater, along the lake shore. The Dalaran Summoners lead Elemental Slaves; the bracers drop from the slaves. Careful: Arcane Sentries (55, elite) and Kirin Tor Guards (55) guard the dome itself and attack the Horde: work the ruins' outer edge and don't go up to the dome."] = "{area:280} yerinden yolu güneybatıya, {area:1357} yerine, oradan da göl kıyısı boyunca batıya, {area:279} kraterinin kuzeyindeki harabelere izle. Dalaran Summoner yaratıkları Elemental Slave'leri yönetiyor; bilezikler kölelerden düşer. Dikkat: Arcane Sentry (55, elit) ve Kirin Tor Guard (55) yaratıkları kubbenin kendisini korur ve Horde'a saldırır: harabelerin dış kenarında çalış, kubbeye çıkma.",
+	["From {area:280} follow the road south-west to {area:1357} and on west to the ruins north of the {area:279} crater, along the lake shore. The Dalaran Summoners lead Elemental Slaves; the bracers drop from the slaves. Careful: Arcane Sentries (55, elite) and Kirin Tor Guards (55) guard the dome itself and attack the Horde: work the ruins' outer edge and don't go up to the dome."] = "{area:280} köyünden yolu güneybatıya, {area:1357} kavşağına, oradan da göl kıyısı boyunca batıya, {area:279} kraterinin kuzeyindeki harabelere izle. Dalaran Summoner yaratıkları Elemental Slave'leri yönetiyor, bilezikler kölelerden düşer. Dikkat: Arcane Sentry (55, elit) ve Kirin Tor Guard (55) yaratıkları kubbenin kendisini korur ve Horde'a saldırır: harabelerin dış kenarında çalış, kubbeye çıkma.",
 
 	-- Step 15: Back to Tarren Mill
 	-- {area:272} Tarren Mill
 	["Back to {area:272}"] = "{area:272} kasabasına dön",
 	-- {area:272} Tarren Mill
-	["Hearth back to {area:272} (your hearthstone is bound there), or walk back south-east along the road out of Alterac."] = "Hearthstone ile {area:272} kasabasına dön (Hearthstone'un oraya bağlı), ya da Alterac'tan çıkan yol boyunca güneydoğuya yürü.",
+	["Hearth back to {area:272} (your hearthstone is bound there), or walk back south-east along the road out of Alterac."] = "Hearthstone ile {area:272} kasabasına dön (Hearthstone'un oraya bağlı) ya da Alterac'tan çıkan yol boyunca güneydoğuya yürü.",
 
 	-- Step 16: Tarren Mill
 	-- {area:272} Tarren Mill
@@ -109,7 +109,7 @@ return {
 	["Boulderfist camp"] = "Boulderfist kampı",
 	-- {area:272} Tarren Mill · {area:1057} Thoradin's Wall · {area:313} Northfold Manor
 	-- plural, as words: Boulderfist Ogres = {npc:2562} Boulderfist Ogre
-	["Head east out of {area:272} through {area:1057} and follow the road east. The Boulderfist Ogres and Enforcers (32-34) camp south of the road, south of {area:313}; the Enforcers stay in the cave there."] = "{area:272} kasabasından doğuya, {area:1057} içinden çık ve yolu doğuya izle. Boulderfist Ogre ve Enforcer yaratıkları (32-34) yolun güneyinde, {area:313} güneyinde kamp kurmuş; Enforcer'lar oradaki mağarada kalıyor.",
+	["Head east out of {area:272} through {area:1057} and follow the road east. The Boulderfist Ogres and Enforcers (32-34) camp south of the road, south of {area:313}; the Enforcers stay in the cave there."] = "{area:272} kasabasından doğuya, {area:1057} içinden çık ve yolu doğuya izle. Boulderfist Ogre ve Enforcer yaratıkları (32-34) yolun güneyinde, {area:313} güneyinde kamp kurmuş, Enforcer'lar oradaki mağarada kalıyor.",
 	["Below ground"] = "Yer altında",
 
 	-- Step 19: The Shards of Myzrael
@@ -132,7 +132,7 @@ return {
 	["{npc:2703}'s {quest:639} drops from the elite Syndicate (35-38) in Stromgarde's ruins, the west of the highlands. Great XP if you have a group for it: the route passes Stromgarde on its way to the inner circle."] = "{npc:2703} adlı NPC'nin {quest:639} görevi, yaylaların batısındaki Stromgarde harabelerinde bulunan elit Syndicate'lerden (35-38) düşer. Grubun varsa çok iyi XP verir: rota, iç çembere giderken Stromgarde'ın yanından geçer.",
 
 	-- Step 22: Drywhisker Gorge
-	["North-east of Hammerfall the Drywhisker kobolds mine the gorge; the Kobolds at the mouth and the Diggers and Surveyors deeper in all drop the Motes of Myzrael.\nCareful: Every kobold type runs off for help when low on health (Kobolds at 30%, Surveyors and Diggers at 15%), which can pull more of them."] = "Hammerfall'ın kuzeydoğusunda Drywhisker kobold'ları geçitte maden kazıyor; ağızdaki Kobold'lar ve daha içerideki Digger ve Surveyor'lar, hepsi Mote of Myzrael düşürür.\nDikkat: Her kobold türü canı azalınca yardım için kaçar (Kobold'lar %30'da, Surveyor ve Digger'lar %15'te), bu da daha fazlasını çekebilir.",
+	["North-east of Hammerfall the Drywhisker kobolds mine the gorge; the Kobolds at the mouth and the Diggers and Surveyors deeper in all drop the Motes of Myzrael.\nCareful: Every kobold type runs off for help when low on health (Kobolds at 30%, Surveyors and Diggers at 15%), which can pull more of them."] = "Hammerfall'ın kuzeydoğusunda Drywhisker kobold'ları geçitte maden kazıyor. Ağızdaki Kobold'lar ve daha içerideki Digger ve Surveyor'lar, hepsi Mote of Myzrael düşürür.\nDikkat: Her kobold türü canı azalınca yardım için kaçar (Kobold'lar %30'da, Surveyor ve Digger'lar %15'te), bu da daha fazlasını çekebilir.",
 
 	-- Step 23: Iridescent Shards
 	-- {object:2701} Iridescent Shards
@@ -143,17 +143,17 @@ return {
 	["The {object:2691}"] = "{object:2691}",
 	-- {object:180105} Circle of Binding · {area:321} Hammerfall
 	-- plural, as words: Burning Exiles = {npc:2760} Burning Exile · Thundering Exiles = {npc:2762} Thundering Exile · Cresting Exiles = {npc:2761} Cresting Exile
-	["Each {object:180105} is a ring of standing stones; the key sits on the stone at its heart. The eastern circle is on the hills north-west of {area:321}.\nCareful: Each center stone is guarded by around three elementals near level 39 that attack together if you click the stone without clearing them: Burning Exiles at West, Thundering Exiles at Outer, Cresting Exiles at East."] = "Her {object:180105} bir dikilitaş halkası; anahtar ortasındaki taşın üstünde. Doğu çemberi {area:321} kasabasının kuzeybatısındaki tepelerde.\nDikkat: Her merkez taşı seviye 39 civarı üç kadar elemental koruyor; onları temizlemeden taşa tıklarsan birlikte saldırırlar: West'te Burning Exile, Outer'da Thundering Exile, East'te Cresting Exile yaratıkları.",
+	["Each {object:180105} is a ring of standing stones; the key sits on the stone at its heart. The eastern circle is on the hills north-west of {area:321}.\nCareful: Each center stone is guarded by around three elementals near level 39 that attack together if you click the stone without clearing them: Burning Exiles at West, Thundering Exiles at Outer, Cresting Exiles at East."] = "Her {object:180105} bir dikilitaş halkası, anahtar ortasındaki taşın üstünde. Doğu çemberi {area:321} kasabasının kuzeybatısındaki tepelerde.\nDikkat: Her merkez taşı seviye 39 civarı üç kadar elemental koruyor. Onları temizlemeden taşa tıklarsan birlikte saldırırlar: West'te Burning Exile, Outer'da Thundering Exile, East'te Cresting Exile yaratıkları.",
 
 	-- Step 25: Witherbark Village
-	["South of Hammerfall, the Witherbark trolls hold the village in the hills. Axe Throwers guard the outer huts; the Witch Doctors and Headhunters hold the heart of the village. Careful: All three troll types flee for help at 15% health, which can pull more trolls from the nearby camps."] = "Hammerfall'ın güneyinde Witherbark troll'leri tepelerdeki köyü tutuyor. Axe Thrower'lar dış kulübeleri koruyor; Witch Doctor ve Headhunter'lar köyün merkezini tutuyor. Dikkat: Üç troll türü de canları %15'e düşünce yardım için kaçar; bu, yakın kamplardan daha fazla troll çekebilir.",
+	["South of Hammerfall, the Witherbark trolls hold the village in the hills. Axe Throwers guard the outer huts; the Witch Doctors and Headhunters hold the heart of the village. Careful: All three troll types flee for help at 15% health, which can pull more trolls from the nearby camps."] = "Hammerfall'ın güneyinde Witherbark troll'leri tepelerdeki köyü tutuyor. Axe Thrower'lar dış kulübeleri koruyor. Witch Doctor ve Headhunter'lar köyün merkezini tutuyor. Dikkat: Üç troll türü de canları %15'e düşünce yardım için kaçar. Bu, yakın kamplardan daha fazla troll çekebilir.",
 
 	-- Step 26: Highland raptors and Plains Creepers
 	-- plural, as words: Plains Creepers = {npc:2563} Plains Creeper
 	["Highland raptors and Plains Creepers"] = "Highland raptor'ları ve Plains Creeper yaratıkları",
 	-- {area:321} Hammerfall
 	-- plural, as words: Highland Striders = {npc:2559} Highland Strider · Plains Creepers = {npc:2563} Plains Creeper
-	["On the way back north, Highland Striders roam the hills all around {area:321} and drop the eyes, and south of it the Plains Creepers (32-33) spin their webs in the grass; they carry the spidersilk."] = "Kuzeye dönerken Highland Strider yaratıkları {area:321} kasabasının çevresindeki tepelerin her yanında dolaşıyor ve göz düşürüyor; güneyinde de Plains Creeper yaratıkları (32-33) çimenlerde ağ örüyor; örümcek ipeğini onlar taşıyor.",
+	["On the way back north, Highland Striders roam the hills all around {area:321} and drop the eyes, and south of it the Plains Creepers (32-33) spin their webs in the grass; they carry the spidersilk."] = "Kuzeye dönerken Highland Strider yaratıkları {area:321} kasabasının çevresindeki tepelerin her yanında dolaşıyor ve göz düşürüyor. Güneyinde de Plains Creeper yaratıkları (32-33) çimenlerde ağ örüyor, örümcek ipeğini onlar taşıyor.",
 	-- {item:278225} Surgical Spidersilk
 	-- plural, as words: Plains Creepers = {npc:2563} Plains Creeper
 	["{item:278225}, from Plains Creepers"] = "{item:278225}: Plains Creeper yaratıklarından",
@@ -169,7 +169,7 @@ return {
 	-- Step 28: Boulderfist Hall
 	-- {area:321} Hammerfall
 	-- plural, as words: Boulderfist Brutes = {npc:2566} Boulderfist Brute
-	["The Boulderfist Brutes camp outside the ogres' hall, far south-west of {area:321}; the Magus stand among them. Pull them one at a time."] = "Boulderfist Brute yaratıkları {area:321} kalesinin çok güneybatısında, ogre salonunun dışında kamp kurmuş; Magus'lar aralarında duruyor. Onları tek tek çek.",
+	["The Boulderfist Brutes camp outside the ogres' hall, far south-west of {area:321}; the Magus stand among them. Pull them one at a time."] = "Boulderfist Brute yaratıkları {area:321} kalesinin çok güneybatısında, ogre salonunun dışında kamp kurmuş, Magus'lar aralarında duruyor. Onları tek tek çek.",
 
 	-- Step 29: Fleshstalker raptors
 	["Fleshstalker raptors"] = "Fleshstalker raptorları",
@@ -180,7 +180,7 @@ return {
 	-- Step 30: Go'shek Farm
 	["Go'shek Farm"] = "Go'shek Farm",
 	-- {npc:2733} Apothecary Jorell · {area:321} Hammerfall · {item:278462} Packaged Tonics
-	["{npc:2733}'s lab shack stands at Go'shek Farm, north-east of the raptors' plain on the way back to {area:321}; the case of {item:278462} is inside."] = "{npc:2733} adlı NPC'nin laboratuvar kulübesi, {area:321} kalesine dönüş yolunda raptor ovasının kuzeydoğusunda, Go'shek Farm'da duruyor; {item:278462} kasası içeride.",
+	["{npc:2733}'s lab shack stands at Go'shek Farm, north-east of the raptors' plain on the way back to {area:321}; the case of {item:278462} is inside."] = "{npc:2733} adlı NPC'nin laboratuvar kulübesi, {area:321} kalesine dönüş yolunda raptor ovasının kuzeydoğusunda, Go'shek Farm'da duruyor, {item:278462} kasası içeride.",
 
 	-- Step 31: Back to Hammerfall
 	-- {area:321} Hammerfall
@@ -191,14 +191,14 @@ return {
 	-- Step 32: Boulderfist quests for a group
 	["Boulderfist quests for a group"] = "Grup için Boulderfist görevleri",
 	-- {npc:2771} Drum Fel · {quest:678} Call to Arms · {npc:2772} Korin Fel · {quest:680} The Real Threat
-	["{npc:2771}'s next {quest:678} and {npc:2772}'s {quest:680} are the elite ogres (38-40) in Stromgarde's ogre quarter, on the same group trip as the Sigil."] = "{npc:2771} adlı NPC'nin sonraki {quest:678} görevi ve {npc:2772} adlı NPC'nin {quest:680} görevi, Stromgarde'ın ogre mahallesindeki elit ogre'lar (38-40); Sigil ile aynı grup gezisinde.",
+	["{npc:2771}'s next {quest:678} and {npc:2772}'s {quest:680} are the elite ogres (38-40) in Stromgarde's ogre quarter, on the same group trip as the Sigil."] = "{npc:2771} adlı NPC'nin sonraki {quest:678} görevi ve {npc:2772} adlı NPC'nin {quest:680} görevi, Stromgarde'ın ogre mahallesindeki elit ogre'lar (38-40). Sigil ile aynı grup gezisinde.",
 	-- {npc:2772} Korin Fel
 	["{npc:2772}, beside him"] = "{npc:2772}, onun yanında",
 
 	-- Step 33: The Stone of Outer Binding
 	-- {object:2690} Stone of Outer Binding
 	["The {object:2690}"] = "{object:2690}",
-	["Head west; the outer circle stands in the middle of the highlands."] = "Batıya git; dış çember yaylaların ortasında duruyor.",
+	["Head west; the outer circle stands in the middle of the highlands."] = "Batıya git, dış çember yaylaların ortasında duruyor.",
 
 	-- Step 34: Circle of West Binding
 	-- {area:1057} Thoradin's Wall
@@ -227,7 +227,7 @@ return {
 	-- {area:328} The Drowned Reef
 	["{area:328}: kill these as you meet them"] = "{area:328}: bunları karşılaştıkça öldür",
 	-- plural, as words: Daggerspine Raiders = {npc:2595} Daggerspine Raider
-	["West of the cove the Daggerspine Raiders and Sorceresses (38-40) hold the shore: pull them one at a time. The two wrecks lie in the shallows off it, the charts and logs inside them; the gems lie on the sea floor around the wrecks."] = "Koyun batısındaki kıyıyı Daggerspine Raider ve Daggerspine Sorceress yaratıkları (38-40) tutuyor: tek tek çek. İki batık kıyının açığındaki sığ sularda, haritalar ve seyir defterleri içlerinde; mücevherler batıkların çevresindeki deniz dibinde.",
+	["West of the cove the Daggerspine Raiders and Sorceresses (38-40) hold the shore: pull them one at a time. The two wrecks lie in the shallows off it, the charts and logs inside them; the gems lie on the sea floor around the wrecks."] = "Koyun batısındaki kıyıyı Daggerspine Raider ve Daggerspine Sorceress yaratıkları (38-40) tutuyor: tek tek çek. İki batık kıyının açığındaki sığ sularda, haritalar ve seyir defterleri içlerinde. Mücevherler batıkların çevresindeki deniz dibinde.",
 	["Underwater"] = "Su altında",
 
 	-- Step 41: Faldir's Cove

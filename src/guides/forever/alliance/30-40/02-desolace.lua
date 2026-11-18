@@ -5,7 +5,7 @@
 return {
 	-- Step 1: Nijel's Point
 	-- {area:460} Sun Rock Retreat · {area:465} Charred Vale · {zone:1443} Desolace · {area:608} Nijel's Point
-	["Follow the road west past {area:460} (Horde) and south-west through the {area:465} into {zone:1443}; {area:608} stands at the top of the pass."] = "Yolu batıya izleyerek {area:460} sığınağını (Horde) geç, güneybatıya, {area:465} vadisinden {zone:1443} bölgesine gir; {area:608} geçidin tepesinde.",
+	["Follow the road west past {area:460} (Horde) and south-west through the {area:465} into {zone:1443}; {area:608} stands at the top of the pass."] = "Yolu batıya izleyerek {area:460} sığınağını (Horde) geç, güneybatıya, {area:465} vadisinden {zone:1443} bölgesine gir. {area:608} geçidin tepesinde.",
 	-- {npc:5638} Kreldig Ungor · {npc:11863} Azore Aldamort · {area:599} Thunder Axe Fortress
 	["{npc:5638}: the wreck's chest lies below {npc:11863}'s tower, on the way to {area:599}"] = "{npc:5638}: enkazın sandığı {area:599} yolunda, {npc:11863} adlı NPC'nin kulesinin aşağısında",
 
@@ -33,11 +33,11 @@ return {
 
 	-- Step 7: Karnitol's Chest
 	-- {npc:11863} Azore Aldamort · {object:177787} Rackmore's Log
-	["The wrecked ship lies just south-west of {npc:11863}'s tower; its chest sits beside {object:177787}."] = "Batık gemi {npc:11863} adlı NPC'nin kulesinin hemen güneybatısında; sandığı {object:177787} nesnesinin yanında.",
+	["The wrecked ship lies just south-west of {npc:11863}'s tower; its chest sits beside {object:177787}."] = "Batık gemi {npc:11863} adlı NPC'nin kulesinin hemen güneybatısında, sandığı {object:177787} nesnesinin yanında.",
 	-- {npc:5638} Kreldig Ungor
 	["For {npc:5638}, at the end of this guide"] = "Bu rehberin sonunda {npc:5638} için",
 	-- {object:177787} Rackmore's Log · {zone:1443} Desolace
-	["{object:177787}, beside the chest: keep it, its keys and chest come on {zone:1443}'s south loop at the end of 30-40"] = "Sandığın yanındaki {object:177787}: sakla; anahtarları ve sandığı 30-40'ın sonunda {zone:1443} bölgesinin güney turunda gelir",
+	["{object:177787}, beside the chest: keep it, its keys and chest come on {zone:1443}'s south loop at the end of 30-40"] = "Sandığın yanındaki {object:177787}: sakla. Anahtarları ve sandığı 30-40'ın sonunda {zone:1443} bölgesinin güney turunda gelir",
 
 	-- Step 8: Dalinda Malem
 	-- {npc:5644} Dalinda Malem · {area:608} Nijel's Point
@@ -50,9 +50,9 @@ return {
 	-- {npc:5643} Tyranis Malem · {npc:13019} Burning Blade Seer · {npc:5642} Vahlarriel Demonslayer
 	["Her brother {npc:5643} (36) walks the fortress with the Burning Blade cultists (30-33): pull him alone. The {npc:13019} keeps the sceptre in the fortress's main building. {npc:5642} wants four of each kind of cultist on the way."] = "Kardeşi {npc:5643} (36), kalede Burning Blade tarikatçılarıyla (30-33) dolaşıyor: onu tek başına çek. {npc:13019} asayı kalenin ana binasında tutuyor. {npc:5642} yolda her tür tarikatçıdan dörder tane istiyor.",
 	-- {item:6767} Tyranis' Pendant
-	["{item:6767}; inside"] = "{item:6767}; içeride",
+	["{item:6767}; inside"] = "{item:6767}, içeride",
 	-- {quest:5741} Sceptre of Light
-	["{quest:5741}; on the top floor"] = "{quest:5741}; en üst katta",
+	["{quest:5741}; on the top floor"] = "{quest:5741}, en üst katta",
 
 	-- Step 10: Escort Dalinda Malem
 	-- {npc:5644} Dalinda Malem
@@ -61,7 +61,7 @@ return {
 	["{npc:5644}, inside"] = "{npc:5644}, içeride",
 	["Out of Thunder Axe Fortress"] = "Thunder Axe Fortress'tan çıkış",
 	-- {npc:5644} Dalinda Malem · {npc:5642} Vahlarriel Demonslayer · {area:608} Nijel's Point
-	["Lead {npc:5644} out of the fortress; she walks off once you are clear of it. {npc:5642} takes the turn-in at {area:608} at the end of the guide."] = "{npc:5644} adlı NPC'yi kaleden çıkar; kaleden uzaklaşınca kendi yoluna gider. Rehberin sonunda teslimi {area:608} karakolundaki {npc:5642} alır.",
+	["Lead {npc:5644} out of the fortress; she walks off once you are clear of it. {npc:5642} takes the turn-in at {area:608} at the end of the guide."] = "{npc:5644} adlı NPC'yi kaleden çıkar, kaleden uzaklaşınca kendi yoluna gider. Rehberin sonunda teslimi {area:608} karakolundaki {npc:5642} alır.",
 
 	-- Step 11: Smeed Scrabblescrew
 	-- {npc:11596} Smeed Scrabblescrew · {area:609} Kolkar Village · {area:596} Kodo Graveyard
@@ -70,15 +70,15 @@ return {
 	-- Step 12: Kodo Graveyard
 	-- {npc:11596} Smeed Scrabblescrew · {item:13892} Kodo Kombobulator · {npc:4702} Ancient Kodo
 	-- plural, as words: Aged Kodos = {npc:4700} Aged Kodo · Scorpashi Lashers = {npc:4697} Scorpashi Lasher
-	["Use {npc:11596}'s {item:13892} on an Aged, Dying or {npc:4702}: it becomes a tamed kodo that follows you. Walk it back to {npc:11596}'s camp; there, talk to the kodo: that counts it and lets you tame the next. Five kodos, one at a time; Aged Kodos also drop the hides, and the Scorpashi Lashers that hunt around the graveyard carry the venom."] = "{npc:11596} adlı NPC'nin {item:13892} eşyasını Aged, Dying ya da {npc:4702} üzerinde kullan: seni izleyen evcil bir kodo olur. Onu {npc:11596} kampına yürüt; orada kodoyla konuş: bu onu sayar ve sıradakini evcilleştirmeni sağlar. Teker teker beş kodo; Aged Kodo yaratıkları deri de düşürür, mezarlığın çevresinde avlanan Scorpashi Lasher yaratıklarında da zehir var.",
+	["Use {npc:11596}'s {item:13892} on an Aged, Dying or {npc:4702}: it becomes a tamed kodo that follows you. Walk it back to {npc:11596}'s camp; there, talk to the kodo: that counts it and lets you tame the next. Five kodos, one at a time; Aged Kodos also drop the hides, and the Scorpashi Lashers that hunt around the graveyard carry the venom."] = "{npc:11596} adlı NPC'nin {item:13892} eşyasını Aged, Dying ya da {npc:4702} üzerinde kullan: seni izleyen evcil bir kodo olur. Onu {npc:11596} kampına yürüt. Orada kodoyla konuş: bu onu sayar ve sıradakini evcilleştirmeni sağlar. Teker teker beş kodo. Aged Kodo yaratıkları deri de düşürür, mezarlığın çevresinde avlanan Scorpashi Lasher yaratıklarında da zehir var.",
 	-- {npc:4702} Ancient Kodo
-	["on an Aged, Dying or {npc:4702} in the graveyard; don't kill it"] = "mezarlıktaki bir Aged, Dying ya da {npc:4702} üzerinde; öldürme",
+	["on an Aged, Dying or {npc:4702} in the graveyard; don't kill it"] = "mezarlıktaki bir Aged, Dying ya da {npc:4702} üzerinde, öldürme",
 	-- {npc:11596} Smeed Scrabblescrew
 	["the tamed kodo, at {npc:11596}'s camp: talk to it, five times"] = "{npc:11596} kampında evcil kodo: onunla beş kez konuş",
 
 	-- Step 14: Kolkar Village
 	-- {area:609} Kolkar Village · {npc:5752} Corporal Melkins
-	["The Kolkar roam the plains around {area:609}; their ears are for {npc:5752}."] = "Kolkar'lar {area:609} köyünün çevresindeki düzlüklerde dolaşıyor; kulakları {npc:5752} için.",
+	["The Kolkar roam the plains around {area:609}; their ears are for {npc:5752}."] = "Kolkar'lar {area:609} köyünün çevresindeki düzlüklerde dolaşıyor. Kulakları {npc:5752} için.",
 
 	-- Step 15: Nijel's Point
 	-- {npc:5638} Kreldig Ungor

@@ -5,7 +5,7 @@
 return {
 	-- Guide
 	-- {npc:6266} Menara Voidrender
-	["A rare cloth robe for your 30s from {npc:6266}; its last parts wait for levels 37 and 39."] = "30'larında {npc:6266} adlı NPC'den nadir bir kumaş cübbe; son parçaları 37 ve 39. seviyeleri bekler.",
+	["A rare cloth robe for your 30s from {npc:6266}; its last parts wait for levels 37 and 39."] = "30'larında {npc:6266} adlı NPC'den nadir bir kumaş cübbe. Son parçaları 37 ve 39. seviyeleri bekler.",
 
 	-- Step 1: In Search of Menara Voidrender (Stormwind)
 	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6266} Menara Voidrender · {area:392} Ratchet · {item:5770} Robes of Arcana · {item:3577} Gold Bar
@@ -21,18 +21,18 @@ return {
 
 	-- Step 4: In Search of Menara Voidrender (Undercity)
 	-- {npc:4563} Kaal Soulreaper · {object:36082} Magic Quarter · {npc:6266} Menara Voidrender · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar · {item:5770} Robes of Arcana · {item:3577} Gold Bar
-	["At 31 {npc:4563} in the {object:36082} sends you to {npc:6266} in {area:392}; the zeppelin from {zone:1420} flies to {zone:1411}. Buy a {item:5770} and a {item:3577} first (next steps) to save a trip."] = "31'de {object:36082} kesimindeki {npc:4563}, seni {area:392} kasabasındaki {npc:6266} yanına gönderir; {zone:1420} zeplini {zone:1411} bölgesine uçar. Yol kazanmak için önce bir {item:5770} ve bir {item:3577} al (sonraki adımlar).",
+	["At 31 {npc:4563} in the {object:36082} sends you to {npc:6266} in {area:392}; the zeppelin from {zone:1420} flies to {zone:1411}. Buy a {item:5770} and a {item:3577} first (next steps) to save a trip."] = "31'de {object:36082} kesimindeki {npc:4563}, seni {area:392} kasabasındaki {npc:6266} yanına gönderir. {zone:1420} zeplini {zone:1411} bölgesine uçar. Yol kazanmak için önce bir {item:5770} ve bir {item:3577} al (sonraki adımlar).",
 
 	-- Step 5: Robes of Arcana and a Gold Bar
 	-- {item:5770} Robes of Arcana · {item:3577} Gold Bar
 	["{item:5770} and a {item:3577}"] = "{item:5770} ve bir {item:3577}",
 	-- {item:5770} Robes of Arcana · {item:2776} Gold Ore · {npc:6266} Menara Voidrender
 	-- plural, as words: Gold Bars = {item:3577} Gold Bar
-	["Tailors sew the {item:5770} from a rare pattern; miners smelt Gold Bars from {item:2776}. Everyone else buys both at the Auction House. If you wear the robe, take it off: {npc:6266} keeps it."] = "Terziler {item:5770} cübbesini nadir bir kalıptan diker; madenciler {item:2776} eritip Gold Bar yapar. Diğer herkes ikisini de müzayede evinden alır. Cübbeyi giyiyorsan çıkar: {npc:6266} onu alıkoyar.",
+	["Tailors sew the {item:5770} from a rare pattern; miners smelt Gold Bars from {item:2776}. Everyone else buys both at the Auction House. If you wear the robe, take it off: {npc:6266} keeps it."] = "Terziler {item:5770} cübbesini nadir bir kalıptan diker. Madenciler {item:2776} eritip Gold Bar yapar. Diğer herkes ikisini de Auction House'tan alır. Cübbeyi giyiyorsan çıkar: {npc:6266} onu alıkoyar.",
 	-- {item:5770} Robes of Arcana
-	["{item:5770}: the Auction House"] = "{item:5770}: müzayede evi",
+	["{item:5770}: the Auction House"] = "{item:5770}: Auction House",
 	-- {item:3577} Gold Bar
-	["{item:3577}: the Auction House"] = "{item:3577}: müzayede evi",
+	["{item:3577}: the Auction House"] = "{item:3577}: Auction House",
 
 	-- Step 6: Menara Voidrender
 	-- {npc:6266} Menara Voidrender · {npc:6251} Strahad Farsan · {area:392} Ratchet · {npc:2670} Xizk Goodstitch · {area:35} Booty Bay
@@ -40,7 +40,7 @@ return {
 
 	-- Step 7: Xizk Goodstitch
 	-- {area:392} Ratchet · {area:35} Booty Bay · {npc:2670} Xizk Goodstitch · {object:59851} A Tailor to Cities · {item:3577} Gold Bar
-	["The boat from {area:392} sails to {area:35}. {npc:2670} runs {object:59851} on an upper level of the town. Give him the {item:3577}; he will spin the thread later."] = "{area:392} kasabasından kalkan gemi {area:35} kasabasına gider. {npc:2670}, kasabanın üst katlarından birinde {object:59851} dükkânını işletiyor. Ona {item:3577} ver; ipliği sonra eğirecek.",
+	["The boat from {area:392} sails to {area:35}. {npc:2670} runs {object:59851} on an upper level of the town. Give him the {item:3577}; he will spin the thread later."] = "{area:392} kasabasından kalkan gemi {area:35} kasabasına gider. {npc:2670}, kasabanın üst katlarından birinde {object:59851} dükkânını işletiyor. Ona {item:3577} ver, ipliği sonra eğirecek.",
 
 	-- Step 8: Back to Menara Voidrender
 	-- {npc:6266} Menara Voidrender
@@ -65,7 +65,7 @@ return {
 
 	-- Step 12: Fine Gold Thread
 	-- {npc:2670} Xizk Goodstitch · {area:35} Booty Bay · {quest:4785} Fine Gold Thread
-	["Back to {npc:2670} in {area:35}: he offers {quest:4785} as a quest you hand straight back to him. He may show no quest marker; talk to him anyway."] = "{area:35} kasabasındaki {npc:2670} yanına dön: sana hemen geri teslim ettiğin bir görev olarak {quest:4785} önerir. Görev işareti görünmeyebilir; yine de onunla konuş.",
+	["Back to {npc:2670} in {area:35}: he offers {quest:4785} as a quest you hand straight back to him. He may show no quest marker; talk to him anyway."] = "{area:35} kasabasındaki {npc:2670} yanına dön: sana hemen geri teslim ettiğin bir görev olarak {quest:4785} önerir. Görev işareti görünmeyebilir, yine de onunla konuş.",
 	-- {npc:2670} Xizk Goodstitch · {quest:4785} Fine Gold Thread
 	["{npc:2670}: {quest:4785}, handed straight back"] = "{npc:2670}: {quest:4785}, hemen geri teslim edilir",
 

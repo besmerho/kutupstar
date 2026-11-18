@@ -15,7 +15,7 @@ return {
 
 	-- Step 3: Gilveradin Sunchaser's camp
 	-- {area:272} Tarren Mill · {zone:1425} The Hinterlands · {npc:7801} Gilveradin Sunchaser · {area:350} Quel'Danil Lodge
-	["Ride north-east from {area:272} into the {zone:1425} and east along the road; {npc:7801} camps on the hill south of the elves' {area:350}."] = "{area:272} kasabasından kuzeydoğuya, {zone:1425} bölgesine sür ve yol boyunca doğuya git; {npc:7801}, elflerin {area:350} köşkünün güneyindeki tepede kamp kurmuş.",
+	["Ride north-east from {area:272} into the {zone:1425} and east along the road; {npc:7801} camps on the hill south of the elves' {area:350}."] = "{area:272} kasabasından kuzeydoğuya, {zone:1425} bölgesine sür ve yol boyunca doğuya git. {npc:7801}, elflerin {area:350} köşkünün güneyindeki tepede kamp kurmuş.",
 
 	-- Step 4: Highvale
 	["Highvale"] = "Highvale",
@@ -32,7 +32,7 @@ return {
 
 	-- Step 8: Revantusk Village
 	-- {quest:7849} Separation Anxiety · {quest:7845} Kidnapped Elder Torntusk! · {quest:7850} Dark Vessels · {area:354} Jintha'Alor · {npc:14736} Primal Torntusk · {npc:14731} Lard
-	["{quest:7849}, {quest:7845} and {quest:7850} are group quests: they send you into {area:354}, whose trolls are elite (46-50). Take them with a group of three or more; skip them if you are alone, the route has you grind the experience back.\n{npc:14736} stands up on top of the inn, above {npc:14731}: go up, the arrow cannot tell the levels apart."] = "{quest:7849}, {quest:7845} ve {quest:7850} grup görevleri: seni trolleri elit (46-50) olan {area:354} tepesine gönderirler. Onları üç ya da daha fazla kişilik bir grupla al; yalnızsan atla, rota o deneyimi kasarak geri kazandırır.\n{npc:14736}, hanın tepesinde, {npc:14731} yanının yukarısında duruyor: yukarı çık, ok katları birbirinden ayıramaz.",
+	["{quest:7849}, {quest:7845} and {quest:7850} are group quests: they send you into {area:354}, whose trolls are elite (46-50). Take them with a group of three or more; skip them if you are alone, the route has you grind the experience back.\n{npc:14736} stands up on top of the inn, above {npc:14731}: go up, the arrow cannot tell the levels apart."] = "{quest:7849}, {quest:7845} ve {quest:7850} grup görevleri: seni trolleri elit (46-50) olan {area:354} tepesine gönderirler. Onları üç ya da daha fazla kişilik bir grupla al. Yalnızsan atla, rota o deneyimi kasarak geri kazandırır.\n{npc:14736}, hanın tepesinde, {npc:14731} yanının yukarısında duruyor: yukarı çık, ok katları birbirinden ayıramaz.",
 
 	-- Step 9: The Overlook Cliffs: kill these as you meet them
 	-- {area:307} The Overlook Cliffs
@@ -59,7 +59,7 @@ return {
 	-- {npc:14731} Lard
 	["{npc:14731}'s lunch"] = "{npc:14731} adlı NPC'nin öğle yemeği",
 	-- {npc:14731} Lard · {npc:14748} Vilebranch Kidnapper
-	["North along the coast, {npc:14731}'s picnic basket is on the small island; a {npc:14748} guards it."] = "Kıyı boyunca kuzeyde, {npc:14731} adlı NPC'nin piknik sepeti küçük adada; onu bir {npc:14748} koruyor.",
+	["North along the coast, {npc:14731}'s picnic basket is on the small island; a {npc:14748} guards it."] = "Kıyı boyunca kuzeyde, {npc:14731} adlı NPC'nin piknik sepeti küçük adada, onu bir {npc:14748} koruyor.",
 
 	-- Step 14: Shaol'watha: kill these as you meet them
 	-- {area:1917} Shaol'watha
@@ -86,7 +86,7 @@ return {
 	-- Step 18: OOX-09/HL
 	["OOX-09/HL"] = "OOX-09/HL",
 	-- {area:351} Skulk Rock · {area:307} The Overlook Cliffs · {area:35} Booty Bay
-	["Only with the distress beacon: the robot sits at the head of the river west of {area:351}. Escort it east to the shore beyond the {area:307}; its reward waits with Oglethorpe in {area:35}.\nCareful: Two ambushes spawn during the escort: first three wildkin owlbeasts, then three trolls. Before each, the robot halts and announces it senses danger. Oozes, stealthed wolves and a large turtle along the path can join fights, and they respawn even if cleared beforehand."] = "Yalnızca imdat işaretiyle: robot {area:351} kayasının batısında, nehrin başında oturuyor. Ona doğuya, {area:307} uçurumlarının ötesindeki kıyıya kadar eşlik et; ödülü {area:35} kasabasında Oglethorpe'ta bekliyor.\nDikkat: Eşlik sırasında iki pusu çıkar: önce üç wildkin owlbeast, sonra üç troll. Her birinden önce robot durur ve tehlike sezdiğini söyler. Yol boyunca ooze'lar, gizlenmiş kurtlar ve büyük bir kaplumbağa dövüşlere katılabilir ve önceden temizlense bile yeniden doğarlar.",
+	["Only with the distress beacon: the robot sits at the head of the river west of {area:351}. Escort it east to the shore beyond the {area:307}; its reward waits with Oglethorpe in {area:35}.\nCareful: Two ambushes spawn during the escort: first three wildkin owlbeasts, then three trolls. Before each, the robot halts and announces it senses danger. Oozes, stealthed wolves and a large turtle along the path can join fights, and they respawn even if cleared beforehand."] = "Yalnızca imdat işaretiyle: robot {area:351} kayasının batısında, nehrin başında oturuyor. Ona doğuya, {area:307} uçurumlarının ötesindeki kıyıya kadar eşlik et. Ödülü {area:35} kasabasında Oglethorpe'ta bekliyor.\nDikkat: Eşlik sırasında iki pusu çıkar: önce üç wildkin owlbeast, sonra üç troll. Her birinden önce robot durur ve tehlike sezdiğini söyler. Yol boyunca ooze'lar, gizlenmiş kurtlar ve büyük bir kaplumbağa dövüşlere katılabilir ve önceden temizlense bile yeniden doğarlar.",
 
 	-- Step 19: Gilveradin Sunchaser's camp
 	-- {npc:6986} Dran Droffers · {zone:1454} Orgrimmar
@@ -94,7 +94,7 @@ return {
 
 	-- Step 20: Highvale
 	-- {area:350} Quel'Danil Lodge
-	["Back west to {area:350}; rangers and marksmen stay near the lodge, scouts and outrunners on the slopes south of it."] = "Batıya, {area:350} köşküne dön; korucular ve nişancılar köşkün yakınında, izciler ve keşifçiler güneyindeki yamaçlarda.",
+	["Back west to {area:350}; rangers and marksmen stay near the lodge, scouts and outrunners on the slopes south of it."] = "Batıya, {area:350} köşküne dön. Korucular ve nişancılar köşkün yakınında, izciler ve keşifçiler güneyindeki yamaçlarda.",
 
 	-- Step 21: Jintha'Alor
 	-- {area:354} Jintha'Alor · {npc:14757} Elder Torntusk
@@ -102,7 +102,7 @@ return {
 	-- {npc:14757} Elder Torntusk · {area:354} Jintha'Alor
 	["{npc:14757}, at the top of {area:354}"] = "{npc:14757}, {area:354} tepesinde",
 	-- {area:355} The Altar of Zul
-	["His next request, going on to the {area:355}, is for a group."] = "Onun {area:355} sunağına devam eden sonraki isteği grup işi.",
+	["His next request, going on to the {area:355}, is for a group."] = "{area:355} sunağına uzanan sonraki isteği grup işi.",
 
 	-- Step 22: Revantusk Village
 	-- {npc:14731} Lard
@@ -159,14 +159,14 @@ return {
 	-- Step 36: The bloodmages
 	["The bloodmages"] = "Kan büyücüleri",
 	-- {area:75} Stonard · {zone:1419} Blasted Lands
-	["Ride west out of {area:75} and south through the canyon into the {zone:1419}; the two bloodmages stand by the road just inside."] = "Batıya, {area:75} kasabasından çık ve kanyondan güneye, {zone:1419} bölgesine geç; iki kan büyücüsü girişin hemen içinde, yolun kenarında duruyor.",
+	["Ride west out of {area:75} and south through the canyon into the {zone:1419}; the two bloodmages stand by the road just inside."] = "Batıya, {area:75} kasabasından çık ve kanyondan güneye, {zone:1419} bölgesine geç. İki kan büyücüsü girişin hemen içinde, yolun kenarında duruyor.",
 
 	-- Step 37: Serpent's Coil: kill these as you meet them
 	-- {area:1440} Serpent's Coil
 	["{area:1440}: kill these as you meet them"] = "{area:1440}: bunları karşılaştıkça öldür",
 	-- {npc:5982} Black Slayer · {spell:5416} Venom Sting · {npc:8301} Clack the Reaver
 	-- plural, as words: Starving Snickerfangs = {npc:5984} Starving Snickerfang · Scorpok Stingers = {npc:5988} Scorpok Stinger
-	["The five quests share the same parts: gather them all in one sweep. West of the road the {npc:5982} vultures, Starving Snickerfangs, Scorpok Stingers and Deatheye basilisks share the hills.\nEast of the road the Ashmane boars and Grunters root on the slopes beside the Redstone basilisks. Stay away from the level 52 Helboars further south.\nCareful: Scorpok Stingers (50-51) use {spell:5416}; {npc:8301} adds Knockdown. Pull the Stingers one at a time."] = "Beş görev aynı parçaları paylaşıyor: hepsini tek turda topla. Yolun batısında {npc:5982} akbabaları, Starving Snickerfang, Scorpok Stinger ve Deatheye basilisk'leri tepeleri paylaşıyor.\nYolun doğusunda Ashmane yaban domuzları ve Grunter'lar Redstone basilisk'lerinin yanındaki yamaçlarda eşeleniyor. Daha güneydeki 52. seviye Helboar'lardan uzak dur.\nDikkat: Scorpok Stinger yaratıkları (50-51) {spell:5416} kullanır; {npc:8301} buna Knockdown ekler. Stinger'ları tek tek çek.",
+	["The five quests share the same parts: gather them all in one sweep. West of the road the {npc:5982} vultures, Starving Snickerfangs, Scorpok Stingers and Deatheye basilisks share the hills.\nEast of the road the Ashmane boars and Grunters root on the slopes beside the Redstone basilisks. Stay away from the level 52 Helboars further south.\nCareful: Scorpok Stingers (50-51) use {spell:5416}; {npc:8301} adds Knockdown. Pull the Stingers one at a time."] = "Beş görev aynı parçaları paylaşıyor: hepsini tek turda topla. Yolun batısında {npc:5982} akbabaları, Starving Snickerfang, Scorpok Stinger ve Deatheye basilisk'leri tepeleri paylaşıyor.\nYolun doğusunda Ashmane yaban domuzları ve Grunter'lar Redstone basilisk'lerinin yanındaki yamaçlarda eşeleniyor. Daha güneydeki 52. seviye Helboar'lardan uzak dur.\nDikkat: Scorpok Stinger yaratıkları (50-51) {spell:5416} kullanır, {npc:8301} buna Knockdown ekler. Stinger'ları tek tek çek.",
 
 	-- Step 38: The bloodmages
 	["Ride back north to the bloodmages."] = "Kuzeye, kan büyücülerine dön.",

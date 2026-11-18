@@ -17,7 +17,7 @@ return {
 
 	-- Step 5: Golm
 	-- {npc:271462} Golm · {npc:271338} Ados · {npc:271458} Neru · {npc:271460} Modr · {item:279996} Goaz Stone
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:271462}, {npc:271338}, {npc:271458} and {npc:271460} are level 32 elites, each called up by using the {item:279996} beside it. Skip them if you are alone. {npc:271462} stands in the south-eastern hills."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:271462}, {npc:271338}, {npc:271458} ve {npc:271460} 32. seviye elitler; her biri yanında {item:279996} kullanılarak çağrılır. Yalnızsan onları atla. {npc:271462} güneydoğu tepelerinde duruyor.",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:271462}, {npc:271338}, {npc:271458} and {npc:271460} are level 32 elites, each called up by using the {item:279996} beside it. Skip them if you are alone. {npc:271462} stands in the south-eastern hills."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:271462}, {npc:271338}, {npc:271458} ve {npc:271460} 32. seviye elitler. Her biri yanında {item:279996} kullanılarak çağrılır. Yalnızsan onları atla. {npc:271462} güneydoğu tepelerinde duruyor.",
 
 	-- Step 6: Ados
 	-- {area:1038} Dragonmaw Gates · {npc:271338} Ados · {item:279996} Goaz Stone
@@ -27,7 +27,7 @@ return {
 	-- {area:1038} Dragonmaw Gates
 	["{area:1038}: kill these as you meet them"] = "{area:1038}: bunları karşılaştıkça öldür",
 	-- {area:1036} Angerfang Encampment · {quest:98283} Carnage · {area:205} Dun Modr
-	["The whelps nest in the hills north-east of the {area:1036}; {quest:98283} prowls further north, and the Razormaw raptors hunt the highlands on the way north to {area:205}.\n{quest:98283} is elite: grouping up is advised."] = "Ejderha yavruları {area:1036} kampının kuzeydoğusundaki tepelerde yuva yapmış; {quest:98283} daha kuzeyde dolaşıyor, Razormaw raptor'ları da {area:205} karakoluna giden kuzey yolunda yaylalarda avlanıyor.\n{quest:98283} elit: grup kurman önerilir.",
+	["The whelps nest in the hills north-east of the {area:1036}; {quest:98283} prowls further north, and the Razormaw raptors hunt the highlands on the way north to {area:205}.\n{quest:98283} is elite: grouping up is advised."] = "Ejderha yavruları {area:1036} kampının kuzeydoğusundaki tepelerde yuva yapmış. {quest:98283} daha kuzeyde dolaşıyor, Razormaw raptor'ları da {area:205} karakoluna giden kuzey yolunda yaylalarda avlanıyor.\n{quest:98283} elit: grup kurman önerilir.",
 
 	-- Step 8: Razormaw nests
 	["Razormaw nests"] = "Razormaw yuvaları",
@@ -42,7 +42,7 @@ return {
 	-- Step 10: The Green Belt
 	-- {area:1025} The Green Belt · {npc:1244} Rethiel the Greenwarden · {quest:98283} Carnage
 	-- plural, as words: Maddened Rotclaws = {npc:271334} Maddened Rotclaw
-	["Maddened Rotclaws roam the {area:1025} around {npc:1244}; one of them drops the flesh. {npc:1244} takes the quest only with {quest:98283}'s head too."] = "Maddened Rotclaw yaratıkları {npc:1244} adlı NPC'nin çevresinde, {area:1025} içinde dolaşıyor; içlerinden biri eti düşürür. {npc:1244} görevi ancak {quest:98283} kafasıyla birlikte alır.",
+	["Maddened Rotclaws roam the {area:1025} around {npc:1244}; one of them drops the flesh. {npc:1244} takes the quest only with {quest:98283}'s head too."] = "Maddened Rotclaw yaratıkları {npc:1244} adlı NPC'nin çevresinde, {area:1025} içinde dolaşıyor. İçlerinden biri eti düşürür. {npc:1244} görevi ancak {quest:98283} kafasıyla birlikte alır.",
 
 	-- Step 11: Rethiel the Greenwarden
 	-- {quest:98283} Carnage
@@ -50,11 +50,11 @@ return {
 
 	-- Step 12: Dun Modr
 	-- {area:205} Dun Modr · {npc:1071} Longbraid the Grim · {npc:1075} Rhag Garmason · {object:147516} Dark Iron
-	["North along the road to {area:205}. {npc:1071} and {npc:1075} stand together in the dwarves' camp on the east side of the road; the {object:147516} ruins west of it are full of elites."] = "Yol boyunca kuzeye, {area:205} kasabasına git. {npc:1071} ve {npc:1075} yolun doğu tarafındaki cüce kampında birlikte duruyor; kampın batısındaki {object:147516} harabeleri elitlerle dolu.",
+	["North along the road to {area:205}. {npc:1071} and {npc:1075} stand together in the dwarves' camp on the east side of the road; the {object:147516} ruins west of it are full of elites."] = "Yol boyunca kuzeye, {area:205} kasabasına git. {npc:1071} ve {npc:1075} yolun doğu tarafındaki cüce kampında birlikte duruyor. Kampın batısındaki {object:147516} harabeleri elitlerle dolu.",
 
 	-- Step 13: Captive Fire Elemental
 	-- {npc:271481} Captive Fire Elemental · {object:147516} Dark Iron · {npc:1364} Balgaras the Foul · {npc:1072} Roggo Harlbarrow
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. The {npc:271481} is held at the far west end of the {object:147516} ruins, past level 27-30 elite dwarves, and {npc:1364} (34, elite) can be among them. Lead it east out of the ruins, then hand it in to {npc:1072} in the camp. Skip it if you are alone."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:271481}, {object:147516} harabelerinin en batı ucunda, seviye 27-30 elit cücelerin ötesinde tutuluyor; {npc:1364} (34, elit) de aralarında olabilir. Onu harabelerden doğuya çıkar, sonra kamptaki {npc:1072} yanında teslim et. Yalnızsan atla.",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. The {npc:271481} is held at the far west end of the {object:147516} ruins, past level 27-30 elite dwarves, and {npc:1364} (34, elite) can be among them. Lead it east out of the ruins, then hand it in to {npc:1072} in the camp. Skip it if you are alone."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:271481}, {object:147516} harabelerinin en batı ucunda, seviye 27-30 elit cücelerin ötesinde tutuluyor. {npc:1364} (34, elit) de aralarında olabilir. Onu harabelerden doğuya çıkar, sonra kamptaki {npc:1072} yanında teslim et. Yalnızsan atla.",
 
 	-- Step 14: Modr
 	-- {npc:271460} Modr · {area:205} Dun Modr · {item:279996} Goaz Stone
@@ -75,7 +75,7 @@ return {
 
 	-- Step 17: The Dark Iron War
 	-- {npc:1364} Balgaras the Foul
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. Dark Iron Dwarves, Tunnelers, Saboteurs and Demolitionists (27-31) fill the ruins west of the camp; {npc:1364} (34, elite) walks among them."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. Kampın batısındaki harabeleri Dark Iron Dwarf, Tunneler, Saboteur ve Demolitionist yaratıkları (27-31) dolduruyor; {npc:1364} (34, elit) aralarında dolaşıyor.",
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. Dark Iron Dwarves, Tunnelers, Saboteurs and Demolitionists (27-31) fill the ruins west of the camp; {npc:1364} (34, elite) walks among them."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. Kampın batısındaki harabeleri Dark Iron Dwarf, Tunneler, Saboteur ve Demolitionist yaratıkları (27-31) dolduruyor. {npc:1364} (34, elit) aralarında dolaşıyor.",
 
 	-- Step 18: Direforge Hill
 	-- {area:1016} Direforge Hill · {item:280806} Stolen Explosives · {area:880} Thandol Span
@@ -158,7 +158,7 @@ return {
 
 	-- Step 35: Menethil Harbor
 	-- {npc:2094} James Halloran · {npc:1239} First Mate Fitzsimmons · {area:2104} Deepwater Tavern
-	["{npc:2094} stands by the docks; {npc:1239} sits in the {area:2104}, south of the keep."] = "{npc:2094} iskelelerin yanında duruyor; {npc:1239} kalenin güneyindeki {area:2104} içinde oturuyor.",
+	["{npc:2094} stands by the docks; {npc:1239} sits in the {area:2104}, south of the keep."] = "{npc:2094} iskelelerin yanında duruyor. {npc:1239} kalenin güneyindeki {area:2104} içinde oturuyor.",
 
 	-- Step 36: Captain Halyndor
 	-- {npc:1160} Captain Halyndor · {npc:270589} Nightveiled Rotheap · {zone:1437} Wetlands
@@ -185,7 +185,7 @@ return {
 
 	-- Step 40: Southshore
 	-- {npc:2711} Phin Odelic · {npc:2430} Chef Jessen · {npc:2382} Darren Malvew · {npc:2381} Micha Yance · {npc:2438} Bartolo Ginsetti · {npc:2366} Barkeep Kelly · {quest:98463} Talk of the Town
-	["Off the boat, walk up the pier into town: {npc:2711} and Lieutenant Farren stand by the inn, {npc:2430} upstairs, {npc:2382} east of it; the flight master is at the north end, {npc:2381} and {npc:2438} between her and the inn, Maleb in the town hall at the west side.\n{npc:2366} may not offer {quest:98463} on Forever: if she doesn't, skip it."] = "Tekneden in, iskeleden yukarı kasabaya yürü: {npc:2711} ve Lieutenant Farren hanın yanında, {npc:2430} üst katta, {npc:2382} hanın doğusunda duruyor; uçuş ustası kuzey ucunda, {npc:2381} ve {npc:2438} onunla han arasında, Maleb batı taraftaki belediye binasında.\n{npc:2366} Forever'da {quest:98463} görevini vermeyebilir: vermezse atla.",
+	["Off the boat, walk up the pier into town: {npc:2711} and Lieutenant Farren stand by the inn, {npc:2430} upstairs, {npc:2382} east of it; the flight master is at the north end, {npc:2381} and {npc:2438} between her and the inn, Maleb in the town hall at the west side.\n{npc:2366} may not offer {quest:98463} on Forever: if she doesn't, skip it."] = "Tekneden in, iskeleden yukarı kasabaya yürü: {npc:2711} ve Lieutenant Farren hanın yanında, {npc:2430} üst katta, {npc:2382} hanın doğusunda duruyor. Uçuş ustası kuzey ucunda, {npc:2381} ve {npc:2438} onunla han arasında, Maleb batı taraftaki belediye binasında.\n{npc:2366} Forever'da {quest:98463} görevini vermeyebilir: vermezse atla.",
 	-- {npc:2711} Phin Odelic
 	["{npc:2711}: his trail leads to Arathi"] = "{npc:2711}: izi Arathi'ye çıkıyor",
 	-- {npc:2228} Lieutenant Farren Orinelle
@@ -199,11 +199,11 @@ return {
 	-- {item:3713} Soothing Spices · {npc:2381} Micha Yance
 	["{item:3713}, from {npc:2381}"] = "{item:3713}, kaynak: {npc:2381}",
 	-- {npc:2276} Magistrate Henry Maleb
-	["{npc:2276}, inside: keep it, the Syndicate camp waits for the road north to Arathi (05-arathi-highlands)"] = "{npc:2276}, içeride: sakla; Syndicate kampı kuzeye Arathi yolunu bekler (05-arathi-highlands)",
+	["{npc:2276}, inside: keep it, the Syndicate camp waits for the road north to Arathi (05-arathi-highlands)"] = "{npc:2276}, içeride: sakla. Syndicate kampı kuzeye Arathi yolunu bekler (05-arathi-highlands)",
 
 	-- Step 41: Bartolo Ginsetti
 	-- {npc:2438} Bartolo Ginsetti · {item:3719} Hillman's Cloak · {skill:165} Leatherworking · {item:2997} Bolt of Woolen Cloth · {skill:197} Tailoring
-	["{npc:2438} makes a yeti fur cloak for anyone who brings a {item:3719} ({skill:165}) and a {item:2997} ({skill:197}); no vendor sells either, so this step shows only when you carry both."] = "{npc:2438}, bir {item:3719} ({skill:165}) ve bir {item:2997} ({skill:197}) getiren herkese yeti kürkünden pelerin yapar; ikisini de satan bir satıcı yok, bu yüzden bu adım yalnızca ikisi de sendeyken görünür.",
+	["{npc:2438} makes a yeti fur cloak for anyone who brings a {item:3719} ({skill:165}) and a {item:2997} ({skill:197}); no vendor sells either, so this step shows only when you carry both."] = "{npc:2438}, bir {item:3719} ({skill:165}) ve bir {item:2997} ({skill:197}) getiren herkese yeti kürkünden pelerin yapar. İkisini de satan bir satıcı yok, bu yüzden bu adım yalnızca ikisi de sendeyken görünür.",
 	-- {npc:2438} Bartolo Ginsetti · {item:3719} Hillman's Cloak · {item:2997} Bolt of Woolen Cloth
 	["{npc:2438}, between the flight master and the inn: he wants a {item:3719} and a {item:2997} too"] = "{npc:2438}, uçuş ustasıyla han arasında: bir {item:3719} ve bir {item:2997} de istiyor",
 
@@ -218,7 +218,7 @@ return {
 
 	-- Step 44: Murloc heads
 	["Murloc heads"] = "Murloc kafaları",
-	["Back to the same murlocs; not every one drops a head."] = "Aynı murloclara dön; her biri kafa düşürmez.",
+	["Back to the same murlocs; not every one drops a head."] = "Aynı murloclara dön, her biri kafa düşürmez.",
 
 	-- Step 46: Daggerspine naga
 	["Daggerspine naga"] = "Daggerspine nagaları",
@@ -227,7 +227,7 @@ return {
 
 	-- Step 47: Farren
 	-- {object:2117} Stormwind Keep
-	["A report for {object:2117}; inside"] = "{object:2117} için bir rapor; içeride",
+	["A report for {object:2117}; inside"] = "{object:2117} için bir rapor, içeride",
 
 	-- Step 49: Southshore
 	-- {npc:251493} Captain McManus · {quest:98059} Hillsbrad's Hoard · {item:279386} Sealed Company Request · {area:287} Hillsbrad · {area:271} Southshore
@@ -281,20 +281,20 @@ return {
 
 	-- Step 63: Dashel Stonefist
 	-- {npc:4961} Dashel Stonefist · {object:2100} Old Town
-	["{npc:4961} waits in the Pig and Whistle tavern in {object:2100}; he and his two thugs fight you, but stop once beaten."] = "{npc:4961}, {object:2100} semtindeki Pig and Whistle meyhanesinde bekliyor; o ve iki haydudu seninle dövüşür ama yenilince dururlar.",
+	["{npc:4961} waits in the Pig and Whistle tavern in {object:2100}; he and his two thugs fight you, but stop once beaten."] = "{npc:4961}, {object:2100} semtindeki Pig and Whistle meyhanesinde bekliyor. O ve iki haydudu seninle dövüşür ama yenilince dururlar.",
 	-- {npc:4961} Dashel Stonefist
 	["Beat {npc:4961} and his thugs: they give up"] = "{npc:4961} ve haydutlarını yen: pes ederler",
 
 	-- Step 64: The Islander
 	-- {npc:5479} Wu Shen · {object:2100} Old Town · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens · {area:392} Ratchet
-	["{npc:5479} trains warriors in {object:2100}, beside the Pig and Whistle. {npc:6236} waits on {area:720} in the {zone:1413}, on the way to {area:392} much later (40-50/01)."] = "{npc:5479}, {object:2100} semtinde, Pig and Whistle'ın yanında Warrior eğitiyor. {npc:6236}, {zone:1413} bölgesindeki {area:720} adasında bekliyor; çok daha sonra {area:392} yolunda (40-50/01).",
+	["{npc:5479} trains warriors in {object:2100}, beside the Pig and Whistle. {npc:6236} waits on {area:720} in the {zone:1413}, on the way to {area:392} much later (40-50/01)."] = "{npc:5479}, {object:2100} semtinde, Pig and Whistle'ın yanında Warrior eğitiyor. {npc:6236}, {zone:1413} bölgesindeki {area:720} adasında bekliyor, çok daha sonra {area:392} yolunda (40-50/01).",
 
 	-- Step 66: Cathedral of Light
 	["Cathedral of Light"] = "Cathedral of Light",
 
 	-- Step 68: Mage Quarter
 	-- {npc:2708} Archmage Malin · {npc:4078} Collin Mauren · {object:2164} Slaughtered Lamb · {npc:5081} Connor Rivers · {object:2101} Mage Quarter
-	["{npc:2708} and {npc:4078} are in the {object:2164}; {npc:5081} south of the {object:2101}."] = "{npc:2708} ve {npc:4078}, {object:2164} içinde; {npc:5081} de {object:2101} güneyinde.",
+	["{npc:2708} and {npc:4078} are in the {object:2164}; {npc:5081} south of the {object:2101}."] = "{npc:2708} ve {npc:4078}, {object:2164} içinde, {npc:5081} de {object:2101} güneyinde.",
 	-- {npc:4078} Collin Mauren · {area:2240} Mirage Raceway
 	-- plural, as words: Saltstone Basilisks = {npc:4147} Saltstone Basilisk
 	["{npc:4078}: the Saltstone Basilisks at the {area:2240} drop the scales, in the next guide"] = "{npc:4078}: sonraki rehberde {area:2240} pistindeki Saltstone Basilisk yaratıkları pulları düşürür",

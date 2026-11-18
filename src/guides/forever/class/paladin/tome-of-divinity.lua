@@ -31,15 +31,15 @@ return {
 
 	-- Step 6: Stephanie Turner
 	-- {npc:6174} Stephanie Turner · {object:2096} Trade District · {item:2589} Linen Cloth · {zone:1436} Westfall
-	["{npc:6174} stands at a corner in the middle of the {object:2096}, outside a general goods store. She wants 10 {item:2589}: humanoids drop it (Riverpaw gnolls in {zone:1436} about every other kill, Defias and kobolds a little less), or buy it at the Auction House a few steps away in the {object:2096}."] = "{npc:6174}, {object:2096} semtinin ortasında, bir genel mallar dükkânının önündeki köşede duruyor. 10 {item:2589} istiyor: insansılar düşürür ({zone:1436} bölgesindeki Riverpaw gnoll'ları aşağı yukarı ikide bir, Defias ve kobold'lar biraz daha az), ya da {object:2096} semtinde birkaç adım ötedeki müzayede evinden al.",
+	["{npc:6174} stands at a corner in the middle of the {object:2096}, outside a general goods store. She wants 10 {item:2589}: humanoids drop it (Riverpaw gnolls in {zone:1436} about every other kill, Defias and kobolds a little less), or buy it at the Auction House a few steps away in the {object:2096}."] = "{npc:6174}, {object:2096} semtinin ortasında, bir genel mallar dükkânının önündeki köşede duruyor. 10 {item:2589} istiyor: humanoid'ler düşürür ({zone:1436} bölgesindeki Riverpaw gnoll'ları aşağı yukarı ikide bir, Defias ve kobold'lar biraz daha az) ya da {object:2096} semtinde birkaç adım ötedeki Auction House'tan al.",
 	-- {item:2589} Linen Cloth
-	["{item:2589} x10: humanoids, or the Auction House"] = "{item:2589} x10: humanoid'ler ya da müzayede evi",
+	["{item:2589} x10: humanoids, or the Auction House"] = "{item:2589} x10: humanoid'ler ya da Auction House",
 
 	-- Step 7: The Symbol of Life
 	-- {item:6866} Symbol of Life
 	["The {item:6866}"] = "{item:6866}",
 	-- {npc:6171} Duthorian Rall · {item:6866} Symbol of Life · {npc:6173} Gazin Tenorm · {npc:6172} Henze Faulk
-	["Back to the Cathedral. {npc:6171} gives you the {item:6866}; {npc:6173} lies wounded by the altar of the same hall. Keep the symbol: you need it on {npc:6172}. If you lose it, {npc:6171} gives you another (The {item:6866})."] = "Katedrale dön. {npc:6171} sana {item:6866} verir; {npc:6173} aynı salonun sunağının yanında yaralı yatıyor. Sembolü sakla: {npc:6172} üzerinde ona ihtiyacın olacak. Kaybedersen {npc:6171} sana bir tane daha verir (The {item:6866}).",
+	["Back to the Cathedral. {npc:6171} gives you the {item:6866}; {npc:6173} lies wounded by the altar of the same hall. Keep the symbol: you need it on {npc:6172}. If you lose it, {npc:6171} gives you another (The {item:6866})."] = "Katedrale dön. {npc:6171} sana {item:6866} verir. {npc:6173} aynı salonun sunağının yanında yaralı yatıyor. Sembolü sakla: {npc:6172} üzerinde ona ihtiyacın olacak. Kaybedersen {npc:6171} sana bir tane daha verir (The {item:6866}).",
 
 	-- Step 8: Henze Faulk
 	-- {npc:6172} Henze Faulk · {area:56} Heroes' Vigil · {area:86} Stone Cairn Lake · {item:6866} Symbol of Life · {spell:116} Frostbolt
@@ -53,7 +53,7 @@ return {
 	["The {item:6846}"] = "{item:6846}",
 	-- {npc:6172} Henze Faulk · {item:6846} Defias Script
 	-- plural, as words: Defias Rogue Wizards = {npc:474} Defias Rogue Wizard
-	["The Defias Rogue Wizards around the big stone tablet east of {npc:6172} carry the {item:6846}: about one kill in two drops it, but some players need many kills. They respawn in three minutes."] = "{npc:6172} adlı NPC'nin doğusundaki büyük taş tabletin çevresindeki Defias Rogue Wizard yaratıkları {item:6846} taşıyor: aşağı yukarı ikide bir düşer, ama bazı oyuncular çok sayıda öldürmeye ihtiyaç duyuyor. Üç dakikada yeniden doğarlar.",
+	["The Defias Rogue Wizards around the big stone tablet east of {npc:6172} carry the {item:6846}: about one kill in two drops it, but some players need many kills. They respawn in three minutes."] = "{npc:6172} adlı NPC'nin doğusundaki büyük taş tabletin çevresindeki Defias Rogue Wizard yaratıkları {item:6846} taşıyor: aşağı yukarı ikide bir düşer, ama bazı oyuncular çok sayıda öldürmek zorunda kalıyor. Üç dakikada yeniden doğarlar.",
 	-- {item:6846} Defias Script
 	-- plural, as words: Defias Rogue Wizards = {npc:474} Defias Rogue Wizard
 	["{item:6846}: Defias Rogue Wizards"] = "{item:6846}: Defias Rogue Wizard yaratıkları",
@@ -75,11 +75,11 @@ return {
 	-- Step 15: John Turner
 	-- {npc:6175} John Turner · {item:2589} Linen Cloth · {zone:1432} Loch Modan
 	-- plural, as words: Dark Iron Ambushers = {npc:1981} Dark Iron Ambusher
-	["{npc:6175} walks the outer ring of the Commons, past the front gate, the bank and the Auction House. He wants 10 {item:2589}: humanoids drop it (in {zone:1432} the Dark Iron Ambushers, Tunnel Rat kobolds and Stonesplinter troggs about two kills in five), or buy it at the Auction House on his ring."] = "{npc:6175}, ön kapıyı, bankayı ve müzayede evini geçerek Commons'ın dış halkasında yürüyor. 10 {item:2589} istiyor: humanoid'ler düşürür ({zone:1432} bölgesinde Dark Iron Ambusher yaratıkları, Tunnel Rat kobold'ları ve Stonesplinter trogg'ları yaklaşık beşte iki öldürmede), ya da onun halkasındaki müzayede evinden satın al.",
+	["{npc:6175} walks the outer ring of the Commons, past the front gate, the bank and the Auction House. He wants 10 {item:2589}: humanoids drop it (in {zone:1432} the Dark Iron Ambushers, Tunnel Rat kobolds and Stonesplinter troggs about two kills in five), or buy it at the Auction House on his ring."] = "{npc:6175}, ön kapıyı, bankayı ve Auction House'u geçerek Commons'ın dış halkasında yürüyor. 10 {item:2589} istiyor: humanoid'ler düşürür ({zone:1432} bölgesinde Dark Iron Ambusher yaratıkları, Tunnel Rat kobold'ları ve Stonesplinter trogg'ları yaklaşık beşte iki öldürmede) ya da onun halkasındaki Auction House'tan satın al.",
 
 	-- Step 16: The Symbol of Life
 	-- {object:32386} Hall of Mysteries (no name in this language: may be words) · {npc:6179} Tiza Battleforge · {item:6866} Symbol of Life · {npc:6178} Muiredon Battleforge · {npc:6177} Narm Faulk
-	["Back upstairs in the {object:32386}. {npc:6179} gives you the {item:6866}; her husband {npc:6178} rests on the same floor. Keep the symbol: you need it on {npc:6177}. If you lose it, {npc:6179} gives you another (The {item:6866})."] = "{object:32386} içinde üst kata dön. {npc:6179} sana {item:6866} verir; kocası {npc:6178} aynı katta dinleniyor. Sembolü sakla: {npc:6177} üzerinde ona ihtiyacın olacak. Kaybedersen {npc:6179} sana bir tane daha verir (The {item:6866}).",
+	["Back upstairs in the {object:32386}. {npc:6179} gives you the {item:6866}; her husband {npc:6178} rests on the same floor. Keep the symbol: you need it on {npc:6177}. If you lose it, {npc:6179} gives you another (The {item:6866})."] = "{object:32386} içinde üst kata dön. {npc:6179} sana {item:6866} verir. Kocası {npc:6178} aynı katta dinleniyor. Sembolü sakla: {npc:6177} üzerinde ona ihtiyacın olacak. Kaybedersen {npc:6179} sana bir tane daha verir (The {item:6866}).",
 
 	-- Step 17: Narm Faulk
 	-- {npc:6177} Narm Faulk · {zone:1426} Dun Morogh · {zone:1432} Loch Modan · {area:131} Kharanos · {area:212} Helm's Bed Lake · {object:147516} Dark Iron · {item:6866} Symbol of Life
@@ -91,7 +91,7 @@ return {
 	-- {item:6847} Dark Iron Script
 	["The {item:6847}"] = "{item:6847}",
 	-- {item:6847} Dark Iron Script
-	["The Dark Iron Spies (level 9-11, twelve of them) sneak around the little house below the lake, just south of Narm; you see them from his hill. About one kill in two drops the {item:6847}. They run for help at low health: finish them or step back. They respawn in three minutes."] = "Dark Iron Spy yaratıkları (seviye 9-11, on iki tane) gölün aşağısındaki küçük evin çevresinde, Narm'ın hemen güneyinde sinsice dolaşıyor; onları onun tepesinden görürsün. Aşağı yukarı ikide bir {item:6847} düşer. Canları azalınca yardım için kaçarlar: bitir ya da geri çekil. Üç dakikada yeniden doğarlar.",
+	["The Dark Iron Spies (level 9-11, twelve of them) sneak around the little house below the lake, just south of Narm; you see them from his hill. About one kill in two drops the {item:6847}. They run for help at low health: finish them or step back. They respawn in three minutes."] = "Dark Iron Spy yaratıkları (seviye 9-11, on iki tane) gölün aşağısındaki küçük evin çevresinde, Narm'ın hemen güneyinde sinsice dolaşıyor. Onları onun tepesinden görürsün. Aşağı yukarı ikide bir {item:6847} düşer. Canları azalınca yardım için kaçarlar: bitir ya da geri çekil. Üç dakikada yeniden doğarlar.",
 	-- {item:6847} Dark Iron Script
 	["{item:6847}: Dark Iron Spies"] = "{item:6847}: Dark Iron Spy yaratıkları",
 

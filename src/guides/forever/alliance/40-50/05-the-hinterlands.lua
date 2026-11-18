@@ -70,7 +70,7 @@ return {
 	-- Step 15: The bloodmages
 	["The bloodmages"] = "Kan büyücüleri",
 	-- {zone:1419} Blasted Lands · {area:1438} Nethergarde Keep
-	["The bloodmages' camp is the first stop beside the road into the {zone:1419}, north-west of {area:1438}."] = "Bloodmage'lerin kampı, {zone:1419} bölgesine giden yolun kenarındaki ilk durak; {area:1438} kalesinin kuzeybatısında.",
+	["The bloodmages' camp is the first stop beside the road into the {zone:1419}, north-west of {area:1438}."] = "Bloodmage'lerin kampı, {zone:1419} bölgesine giden yolun kenarındaki ilk durak, {area:1438} kalesinin kuzeybatısında.",
 	-- {npc:7505} Bloodmage Drazial · {zone:1419} Blasted Lands
 	["{npc:7505}: keep the five, their beasts (48-53) wait for the level-52 {zone:1419} stop"] = "{npc:7505}: beşini de sakla, hayvanları (48-53) 52. seviyedeki {zone:1419} durağını bekler",
 
@@ -104,7 +104,7 @@ return {
 	-- {area:43} Wild Shore
 	["{area:43}: kill these as you meet them"] = "{area:43}: bunları karşılaştıkça öldür",
 	-- {area:43} Wild Shore · {area:35} Booty Bay
-	["The charts and orders lie in the pirate camp on the {area:43}, just south of {area:35}; its Swashbucklers walk the shore. The Warlocks and Swashbucklers (41-43) are under you now."] = "Haritalar ve emirler {area:35} limanının hemen güneyinde, {area:43} kıyısındaki korsan kampında; Swashbuckler'ları kıyıda dolaşıyor. Warlock ve Swashbuckler'lar (41-43) artık senden düşük.",
+	["The charts and orders lie in the pirate camp on the {area:43}, just south of {area:35}; its Swashbucklers walk the shore. The Warlocks and Swashbucklers (41-43) are under you now."] = "Haritalar ve emirler {area:35} limanının hemen güneyinde, {area:43} kıyısındaki korsan kampında. Swashbuckler'ları kıyıda dolaşıyor. Warlock ve Swashbuckler'lar (41-43) artık senden düşük.",
 
 	-- Step 20: Booty Bay
 	-- {npc:2487} Fleet Master Seahorn
@@ -113,7 +113,7 @@ return {
 	-- Step 21: The Bloodsail captains
 	["The Bloodsail captains"] = "Bloodsail kaptanları",
 	-- {area:35} Booty Bay · {npc:2550} Captain Stillwater · {npc:2548} Captain Keelhaul · {npc:2546} Fleet Master Firallon
-	["The three Bloodsail ships lie at anchor off the coast just south of {area:35}: {npc:2550} (45) and {npc:2548} (46) on the nearer decks, {npc:2546} (48) on the flagship, each with a crew of 42-45 pirates. Swim out, clear each deck from the edge and pull one at a time."] = "Üç Bloodsail gemisi {area:35} limanının hemen güneyinde, kıyının açığında demirli: {npc:2550} (45) ve {npc:2548} (46) yakın güvertelerde, {npc:2546} (48) amiral gemisinde; her birinin 42-45 korsandan bir tayfası var. Yüzerek git, her güverteyi kenardan temizle ve tek tek çek.",
+	["The three Bloodsail ships lie at anchor off the coast just south of {area:35}: {npc:2550} (45) and {npc:2548} (46) on the nearer decks, {npc:2546} (48) on the flagship, each with a crew of 42-45 pirates. Swim out, clear each deck from the edge and pull one at a time."] = "Üç Bloodsail gemisi {area:35} limanının hemen güneyinde, kıyının açığında demirli: {npc:2550} (45) ve {npc:2548} (46) yakın güvertelerde, {npc:2546} (48) amiral gemisinde. Her birinin 42-45 korsandan bir tayfası var. Yüzerek git, her güverteyi kenardan temizle ve tek tek çek.",
 
 	-- Step 23: Naga Explorers
 	-- plural, as words: Naga Explorers = {npc:1907} Naga Explorer
@@ -123,7 +123,7 @@ return {
 	-- Step 24: Zanzil's village
 	["Zanzil's village"] = "Zanzil'in köyü",
 	-- {npc:2537} Chucky "Ten Thumbs"
-	["Ride on north along the coast to Zanzil's village. Every Zanzil follower can drop the mixture; {npc:2537} walks the south of the camp."] = "Kıyı boyunca kuzeye, Zanzil'in köyüne devam et. Her Zanzil takipçisi karışımı düşürebilir; {npc:2537} kampın güneyinde dolaşıyor.",
+	["Ride on north along the coast to Zanzil's village. Every Zanzil follower can drop the mixture; {npc:2537} walks the south of the camp."] = "Kıyı boyunca kuzeye, Zanzil'in köyüne devam et. Her Zanzil takipçisi karışımı düşürebilir. {npc:2537} kampın güneyinde dolaşıyor.",
 
 	-- Step 25: Maury "Club Foot" Wilkins and Jon-Jon the Crow
 	-- {npc:2535} Maury "Club Foot" Wilkins · {npc:2536} Jon-Jon the Crow
@@ -163,7 +163,7 @@ return {
 	["{npc:1494}'s bait"] = "{npc:1494} için yem",
 	-- {npc:1494} Negolash · {quest:619} Enticing Negolash · {area:35} Booty Bay · {item:4595} Junglevine Wine · {npc:2832} Nixxrax Fillamug
 	-- plural, as words: Barbecued Buzzard Wings = {item:4457} Barbecued Buzzard Wing
-	["{npc:1494} comes only for his food: hand in {quest:619} at Captain Smotts' ruined lifeboat on the shore south-east of {area:35}, with 10 Barbecued Buzzard Wings and 5 {item:4595}, and he comes to the boat. {npc:2832}, the food and drink vendor at the inn, sells the wine. The wings are a cook's dish: if you don't cook, bring them from the Auction House."] = "{npc:1494} yalnızca yemeği için gelir: {area:35} limanının güneydoğusundaki kıyıda, Captain Smotts'un harap filikasında {quest:619} görevini 10 Barbecued Buzzard Wing ve 5 {item:4595} ile teslim et, o da tekneye gelir. Şarabı handaki yiyecek ve içecek satıcısı {npc:2832} satıyor. Kanatlar aşçılık yemeği: aşçılık yapmıyorsan müzayede evinden al.",
+	["{npc:1494} comes only for his food: hand in {quest:619} at Captain Smotts' ruined lifeboat on the shore south-east of {area:35}, with 10 Barbecued Buzzard Wings and 5 {item:4595}, and he comes to the boat. {npc:2832}, the food and drink vendor at the inn, sells the wine. The wings are a cook's dish: if you don't cook, bring them from the Auction House."] = "{npc:1494} yalnızca yemeği için gelir: {area:35} limanının güneydoğusundaki kıyıda, Captain Smotts'un harap filikasında {quest:619} görevini 10 Barbecued Buzzard Wing ve 5 {item:4595} ile teslim et, o da tekneye gelir. Şarabı handaki yiyecek ve içecek satıcısı {npc:2832} satıyor. Kanatlar aşçılık yemeği: aşçılık yapmıyorsan Auction House'tan al.",
 	-- {item:4457} Barbecued Buzzard Wing
 	["{item:4457}: in your bags already if you cook"] = "{item:4457}: aşçılık yapıyorsan zaten çantanda",
 	-- {object:2289} Ruined Lifeboat · {npc:1494} Negolash

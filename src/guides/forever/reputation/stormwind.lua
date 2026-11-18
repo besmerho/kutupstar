@@ -16,9 +16,9 @@ return {
 
 	-- Step 1: Clavicus Knavingham, the cloth quartermaster
 	-- {npc:14722} Clavicus Knavingham
-	["{npc:14722}, the cloth quartermaster"] = "{npc:14722}, kumaş levazımcısı",
+	["{npc:14722}, the cloth quartermaster"] = "{npc:14722}, kumaş quartermaster'ı",
 	-- {npc:14722} Clavicus Knavingham · {faction:72} Stormwind · {item:14047} Runecloth · {quest:7796} Additional Runecloth · {zone:1436} Westfall · {zone:1431} Duskwood · {zone:1422} Western Plaguelands · {zone:1428} Burning Steppes · {area:717} Stockade · {area:87} Goldshire · {zone:1455} Ironforge · {zone:1457} Darnassus
-	["{npc:14722} takes cloth for {faction:72}. The arrow leads to him; he stands upstairs inside his building. Each first donation of 60 Wool, Silk, Mageweave and {item:14047} pays 150 reputation once; after the {item:14047} one, {quest:7796} pays 50 for every 20 {item:14047}, as often as you like. The Auction House is the quickest source of cloth. In Classic, quests pay full reputation while they are at most 5 levels below you, so do Elwynn (levels 1-10), {zone:1436} (10-18), Redridge (15-25) and {zone:1431} (20-30) while you level through them. After the donations come the level 52-58 quests of the {zone:1422} and the {zone:1428} (about 1,150), then the optional low-level hubs, best rate first: Northshire and the city errands (about 40 a minute at full value), the {area:717} (30), Eastvale and {area:87} (25). Every {faction:72} gain also gives a quarter as much to {zone:1455}, {zone:1457} and the Gnomeregan Exiles, except quests in the level 1-10 start areas. Legacy Diplomat adds up to 10% to every gain."] = "{npc:14722}, {faction:72} için kumaş alır. Ok seni ona götürür; binasının içinde üst katta duruyor. 60 Wool, Silk, Mageweave ve {item:14047} için ilk bağışların her biri bir kez 150 itibar öder; {item:14047} bağışından sonra {quest:7796}, her 20 {item:14047} için 50 öder, istediğin kadar sık. Müzayede evi en hızlı kumaş kaynağı. Classic'te görevler senden en fazla 5 seviye aşağıdayken tam itibar öder, bu yüzden Elwynn (seviye 1-10), {zone:1436} (10-18), Redridge (15-25) ve {zone:1431} (20-30) bölgelerini seviye atlarken yap. Bağışlardan sonra {zone:1422} ve {zone:1428} bölgelerinin seviye 52-58 görevleri (yaklaşık 1.150) gelir, sonra en iyi orandan başlayarak isteğe bağlı düşük seviye merkezler: Northshire ve şehir ayak işleri (tam değerde dakikada yaklaşık 40), {area:717} (30), Eastvale ve {area:87} (25). Her {faction:72} kazancı, 1-10 seviye başlangıç bölgelerindeki görevler dışında, {zone:1455}, {zone:1457} ve Gnomeregan Exiles itibarına da dörtte biri kadar verir. Legacy Diplomat her kazanca %10'a kadar ekler.",
+	["{npc:14722} takes cloth for {faction:72}. The arrow leads to him; he stands upstairs inside his building. Each first donation of 60 Wool, Silk, Mageweave and {item:14047} pays 150 reputation once; after the {item:14047} one, {quest:7796} pays 50 for every 20 {item:14047}, as often as you like. The Auction House is the quickest source of cloth. In Classic, quests pay full reputation while they are at most 5 levels below you, so do Elwynn (levels 1-10), {zone:1436} (10-18), Redridge (15-25) and {zone:1431} (20-30) while you level through them. After the donations come the level 52-58 quests of the {zone:1422} and the {zone:1428} (about 1,150), then the optional low-level hubs, best rate first: Northshire and the city errands (about 40 a minute at full value), the {area:717} (30), Eastvale and {area:87} (25). Every {faction:72} gain also gives a quarter as much to {zone:1455}, {zone:1457} and the Gnomeregan Exiles, except quests in the level 1-10 start areas. Legacy Diplomat adds up to 10% to every gain."] = "{npc:14722}, {faction:72} için kumaş alır. Ok seni ona götürür. Binasının içinde üst katta duruyor. 60 Wool, Silk, Mageweave ve {item:14047} için ilk bağışların her biri bir kez 150 itibar öder. {item:14047} bağışından sonra {quest:7796}, her 20 {item:14047} için 50 öder, istediğin kadar sık. Auction House en hızlı kumaş kaynağı. Classic'te görevler senden en fazla 5 seviye aşağıdayken tam itibar öder, bu yüzden Elwynn (seviye 1-10), {zone:1436} (10-18), Redridge (15-25) ve {zone:1431} (20-30) bölgelerini seviye atlarken yap. Bağışlardan sonra {zone:1422} ve {zone:1428} bölgelerinin seviye 52-58 görevleri (yaklaşık 1.150) gelir, sonra en iyi orandan başlayarak isteğe bağlı düşük seviye merkezler: Northshire ve şehir ayak işleri (tam değerde dakikada yaklaşık 40), {area:717} (30), Eastvale ve {area:87} (25). Her {faction:72} kazancı, 1-10 seviye başlangıç bölgelerindeki görevler dışında, {zone:1455}, {zone:1457} ve Gnomeregan Exiles itibarına da dörtte biri kadar verir. Legacy Diplomat her kazanca %10'a kadar ekler.",
 	-- {item:2592} Wool Cloth · {zone:1436} Westfall
 	["{item:2592}: Defias, gnolls and kobolds in {zone:1436} and Redridge"] = "{item:2592}: {zone:1436} ve Redridge'de Defias, gnoll ve kobold'lar",
 
@@ -35,7 +35,7 @@ return {
 	-- Step 4: Northshire: kobolds, wolves and bandanas
 	["Northshire: kobolds, wolves and bandanas"] = "Northshire: kobold'lar, kurtlar ve bandanalar",
 	-- {npc:6} Kobold Vermin · {item:247834} Nibbled-On Book
-	["The {npc:6} dig at the camp north of the abbey; the wolves roam the valley; the Defias at the vineyard east of the abbey drop the bandanas. Keep any {item:247834} a kobold drops: it starts Forever's book chain."] = "{npc:6} manastırın kuzeyindeki kampta kazıyor; kurtlar vadide dolaşıyor; manastırın doğusundaki bağdaki Defias'lar bandanaları düşürür. Bir kobold'un düşürdüğü her {item:247834} eşyasını sakla: Forever'ın kitap zincirini başlatır.",
+	["The {npc:6} dig at the camp north of the abbey; the wolves roam the valley; the Defias at the vineyard east of the abbey drop the bandanas. Keep any {item:247834} a kobold drops: it starts Forever's book chain."] = "{npc:6} manastırın kuzeyindeki kampta kazıyor, kurtlar vadide dolaşıyor, manastırın doğusundaki bağdaki Defias'lar bandanaları düşürür. Bir kobold'un düşürdüğü her {item:247834} eşyasını sakla: Forever'ın kitap zincirini başlatır.",
 	-- {item:247834} Nibbled-On Book
 	["{item:247834}, from the kobolds"] = "{item:247834}, kobold'lardan",
 
@@ -57,7 +57,7 @@ return {
 	["Northshire: Echo Ridge, {npc:103} and the vineyard"] = "Northshire: Echo Ridge, {npc:103} ve bağ",
 	-- {area:34} Echo Ridge Mine · {npc:103} Garrick Padfoot · {quest:3904} Milly's Harvest · {object:83763} Stolen Books
 	-- plural, as words: Kobold Workers = {npc:257} Kobold Worker
-	["The Kobold Workers are in {area:34} north of the abbey; {npc:103} stands in the Defias camp east of the vineyard; {quest:3904} crates lie in the vineyard; the rats carrying the {object:83763} run about the abbey grounds."] = "Kobold Worker'lar manastırın kuzeyindeki {area:34} içinde; {npc:103} bağın doğusundaki Defias kampında duruyor; {quest:3904} sandıkları bağda yatıyor; {object:83763} taşıyan fareler manastırın bahçesinde koşuşturuyor.",
+	["The Kobold Workers are in {area:34} north of the abbey; {npc:103} stands in the Defias camp east of the vineyard; {quest:3904} crates lie in the vineyard; the rats carrying the {object:83763} run about the abbey grounds."] = "Kobold Worker'lar manastırın kuzeyindeki {area:34} içinde. {npc:103} bağın doğusundaki Defias kampında duruyor, {quest:3904} sandıkları bağda yatıyor. {object:83763} taşıyan fareler manastırın bahçesinde koşuşturuyor.",
 
 	-- Step 9: Northshire: second hand-in
 	["Northshire: second hand-in"] = "Northshire: ikinci teslim",
@@ -77,7 +77,7 @@ return {
 	["Northshire: the books end in {area:87}"] = "Northshire: kitaplar {area:87} kasabasında biter",
 	-- {npc:240} Marshal Dughan · {area:87} Goldshire · {area:57} Fargodeep Mine
 	-- plural, as words: Lost Books = {item:248001} Lost Book
-	["{npc:240} stands in front of the Lion's Pride Inn in {area:87}. The Lost Books drop from the kobolds of {area:57} south of {area:87}; the picture book and the two rare books from the named kobolds there."] = "{npc:240}, {area:87} kasabasında Lion's Pride Inn'in önünde duruyor. Lost Book'lar {area:87} güneyindeki {area:57} kobold'larından düşer; resimli kitap ve iki nadir kitap da oradaki adlı kobold'lardan.",
+	["{npc:240} stands in front of the Lion's Pride Inn in {area:87}. The Lost Books drop from the kobolds of {area:57} south of {area:87}; the picture book and the two rare books from the named kobolds there."] = "{npc:240}, {area:87} kasabasında Lion's Pride Inn'in önünde duruyor. Lost Book'lar {area:87} güneyindeki {area:57} kobold'larından düşer. Resimli kitap ve iki nadir kitap da oradaki adlı kobold'lardan.",
 	["Arcane Explainer"] = "Arcane Explainer",
 	-- {npc:951} Brother Paxton
 	["{npc:951}, back at the abbey"] = "{npc:951}, manastıra dönüş",
@@ -90,7 +90,7 @@ return {
 	-- {area:87} Goldshire
 	["{area:87}: the mines"] = "{area:87}: madenler",
 	-- {area:57} Fargodeep Mine · {area:87} Goldshire · {area:54} Jasperlode Mine · {item:773} Gold Dust
-	["{area:57} is south of {area:87}, {area:54} north-east of it. The kobolds in both drop the candles and the {item:773}; the wolves around {area:87} the pelts."] = "{area:57}, {area:87} güneyinde, {area:54} de kuzeydoğusunda. İkisindeki kobold'lar mumları ve {item:773} düşürür; {area:87} çevresindeki kurtlar da postları.",
+	["{area:57} is south of {area:87}, {area:54} north-east of it. The kobolds in both drop the candles and the {item:773}; the wolves around {area:87} the pelts."] = "{area:57}, {area:87} güneyinde, {area:54} de kuzeydoğusunda. İkisindeki kobold'lar mumları ve {item:773} düşürür. {area:87} çevresindeki kurtlar da postları.",
 
 	-- Step 15: Goldshire: back at the inn
 	-- {area:87} Goldshire
@@ -103,7 +103,7 @@ return {
 	-- {area:87} Goldshire · {npc:448} Hogger
 	["{area:87}: Westbrook and {npc:448}"] = "{area:87}: Westbrook ve {npc:448}",
 	-- {npc:448} Hogger · {area:120} Westbrook Garrison
-	["{npc:448} is an elite gnoll west of {area:120}; at 60 he is no trouble. The Wanted poster hangs on the garrison."] = "{npc:448}, {area:120} batısında elit bir gnoll; 60'ta hiç sorun değil. Aranıyor ilanı garnizonda asılı.",
+	["{npc:448} is an elite gnoll west of {area:120}; at 60 he is no trouble. The Wanted poster hangs on the garrison."] = "{npc:448}, {area:120} batısında elit bir gnoll, 60'ta hiç sorun değil. Aranıyor ilanı garnizonda asılı.",
 	-- {item:782} Painted Gnoll Armband
 	["{item:782}, from the Riverpaw gnolls"] = "{item:782}, Riverpaw gnoll'larından",
 	-- {item:1931} Huge Gnoll Claw · {npc:448} Hogger
@@ -113,7 +113,7 @@ return {
 	-- {area:87} Goldshire
 	["The farms south of {area:87}"] = "{area:87} güneyindeki çiftlikler",
 	-- {area:87} Goldshire · {quest:87} Goldtooth · {area:57} Fargodeep Mine · {npc:330} Princess · {area:62} Brackwell Pumpkin Patch
-	["The Stonefields' farm and the Maclures' farm lie on either side of the road south of {area:87}. {quest:87} guards the back of {area:57}; {npc:330} the boar roams the {area:62}."] = "Stonefield ve Maclure çiftlikleri {area:87} güneyindeki yolun iki yanında. {quest:87}, {area:57} dibini koruyor; domuz {npc:330} de {area:62} içinde dolaşıyor.",
+	["The Stonefields' farm and the Maclures' farm lie on either side of the road south of {area:87}. {quest:87} guards the back of {area:57}; {npc:330} the boar roams the {area:62}."] = "Stonefield ve Maclure çiftlikleri {area:87} güneyindeki yolun iki yanında. {quest:87}, {area:57} dibini koruyor. Domuz {npc:330} de {area:62} içinde dolaşıyor.",
 	-- {item:1006} Brass Collar · {npc:330} Princess
 	["{item:1006}, from {npc:330}"] = "{item:1006}, kaynak: {npc:330}",
 
@@ -142,7 +142,7 @@ return {
 	["Eastvale: the work"] = "Eastvale: iş",
 	-- {area:91} Tower of Azora · {area:54} Jasperlode Mine
 	-- plural, as words: Prowlers = {npc:118} Prowler · Young Forest Bears = {npc:822} Young Forest Bear · Kobold Geomancers = {npc:476} Kobold Geomancer
-	["The murlocs along the river south of the bridge drop the fins; Prowlers and Young Forest Bears roam the woods; the Defias around the Brackwell farm and the {area:91} carry the bandanas; the enchanting supplies lie in their camps north of the tower; the Kobold Geomancers dig at {area:54}; the tools and the river finds lie along the river north of the logging camp."] = "Köprünün güneyinde nehir boyunca murloc'lar yüzgeçleri düşürür; Prowler ve Young Forest Bear'lar ormanda dolaşıyor; Brackwell çiftliği ve {area:91} çevresindeki Defias'lar bandanaları taşıyor; büyü malzemeleri kulenin kuzeyindeki kamplarında yatıyor; Kobold Geomancer'lar {area:54} içinde kazıyor; aletler ve nehir buluntuları kereste kampının kuzeyinde nehir boyunca yatıyor.",
+	["The murlocs along the river south of the bridge drop the fins; Prowlers and Young Forest Bears roam the woods; the Defias around the Brackwell farm and the {area:91} carry the bandanas; the enchanting supplies lie in their camps north of the tower; the Kobold Geomancers dig at {area:54}; the tools and the river finds lie along the river north of the logging camp."] = "Köprünün güneyinde nehir boyunca murloc'lar yüzgeçleri düşürür. Prowler ve Young Forest Bear'lar ormanda dolaşıyor. Brackwell çiftliği ve {area:91} çevresindeki Defias'lar bandanaları taşıyor. Büyü malzemeleri kulenin kuzeyindeki kamplarında yatıyor. Kobold Geomancer'lar {area:54} içinde kazıyor. Aletler ve nehir buluntuları kereste kampının kuzeyinde nehir boyunca yatıyor.",
 
 	-- Step 24: Eastvale: hand in
 	["Eastvale: hand in"] = "Eastvale: teslim et",
@@ -165,7 +165,7 @@ return {
 	["Inside the {area:717}"] = "{area:717} içinde",
 	-- {npc:1716} Bazil Thredd
 	-- plural, as words: Red Wool Bandanas = {item:2909} Red Wool Bandana
-	["Kill the prisoners, convicts and insurgents in the cells; the Red Wool Bandanas drop from the Defias inside. {npc:1716} waits in the far end."] = "Hücrelerdeki mahkûmları, suçluları ve isyancıları öldür; Red Wool Bandana'lar içerideki Defias'lardan düşer. {npc:1716} en uçta bekliyor.",
+	["Kill the prisoners, convicts and insurgents in the cells; the Red Wool Bandanas drop from the Defias inside. {npc:1716} waits in the far end."] = "Hücrelerdeki mahkûmları, suçluları ve isyancıları öldür. Red Wool Bandana'lar içerideki Defias'lardan düşer. {npc:1716} en uçta bekliyor.",
 
 	-- Step 28: Stockade: hand in
 	-- {area:717} Stockade
@@ -192,7 +192,7 @@ return {
 	-- {area:199} Felstone Field
 	["Andorhal and {area:199}"] = "Andorhal ve {area:199}",
 	-- {item:12815} Beacon Torch · {npc:11075} Cauldron Lord Bilemaw · {area:199} Felstone Field · {npc:10778} Janice Felstone · {faction:72} Stormwind
-	["Mark the four watchtowers around Andorhal, north of the camp, with the {item:12815} at each door. {npc:11075} guards the cauldron at {area:199}, west of Andorhal; his key opens it. {npc:10778}'s ghost wanders by the Felstone farmhouse, and her parcel lies inside: it goes to {faction:72} for 150 more."] = "Kampın kuzeyinde Andorhal çevresindeki dört gözetleme kulesini her kapıda {item:12815} ile işaretle. {npc:11075}, Andorhal'ın batısında {area:199} içindeki kazanı koruyor; anahtarı onu açar. {npc:10778} hayaleti Felstone çiftlik evinin yanında dolaşıyor, paketi de içeride yatıyor: 150 daha için {faction:72} şehrine gider.",
+	["Mark the four watchtowers around Andorhal, north of the camp, with the {item:12815} at each door. {npc:11075} guards the cauldron at {area:199}, west of Andorhal; his key opens it. {npc:10778}'s ghost wanders by the Felstone farmhouse, and her parcel lies inside: it goes to {faction:72} for 150 more."] = "Kampın kuzeyinde Andorhal çevresindeki dört gözetleme kulesini her kapıda {item:12815} ile işaretle. {npc:11075}, Andorhal'ın batısında {area:199} içindeki kazanı koruyor, anahtarı onu açar. {npc:10778} hayaleti Felstone çiftlik evinin yanında dolaşıyor, paketi de içeride yatıyor: 150 daha için {faction:72} şehrine gider.",
 	-- {npc:10902} Andorhal Tower One · {item:12815} Beacon Torch
 	["Mark {npc:10902} with the {item:12815}"] = "{npc:10902} kulesini {item:12815} ile işaretle",
 	-- {npc:10903} Andorhal Tower Two · {item:12815} Beacon Torch
@@ -240,12 +240,12 @@ return {
 	-- {faction:72} Stormwind · {npc:10778} Janice Felstone
 	["{faction:72}: {npc:10778}'s parcel"] = "{faction:72}: {npc:10778} paketi",
 	-- {npc:10782} Royal Factor Bathrilor · {object:2098} Cathedral Square · {npc:1646} Baros Alexston · {npc:3520} Ol' Emma
-	["{npc:10782} stands in the city hall on {object:2098}, beside {npc:1646}; {npc:3520} walks the canals."] = "{npc:10782}, {object:2098} üzerindeki belediye binasında {npc:1646} yanında duruyor; {npc:3520} kanallarda yürüyor.",
+	["{npc:10782} stands in the city hall on {object:2098}, beside {npc:1646}; {npc:3520} walks the canals."] = "{npc:10782}, {object:2098} üzerindeki belediye binasında {npc:1646} yanında duruyor, {npc:3520} kanallarda yürüyor.",
 
 	-- Step 42: Morgan's Vigil: Dragonkin Menace
 	-- {npc:9562} Helendis Riverhorn · {area:2418} Morgan's Vigil · {zone:1428} Burning Steppes · {quest:4183} The True Masters · {area:69} Lakeshire · {object:2117} Stormwind Keep · {faction:72} Stormwind · {zone:1457} Darnassus · {npc:7044} Black Drake · {npc:7040} Black Dragonspawn · {npc:7041} Black Wyrmkin
 	-- plural, as words: Black Broodlings = {npc:7047} Black Broodling
-	["{npc:9562} at {area:2418}, in the south-east of the {zone:1428}, starts {quest:4183}: a chain to {area:69} and {object:2117}, 175 {faction:72} and 175 {zone:1457} reputation (level 54). The Black Broodlings and the {npc:7044} live on the slopes north of the Vigil; the {npc:7040} and {npc:7041} west of it, in the middle of the zone."] = "{zone:1428} bölgesinin güneydoğusundaki {area:2418} kesiminde {npc:9562}, {quest:4183} görevini başlatır: {area:69} ve {object:2117} yanına uzanan, 175 {faction:72} ve 175 {zone:1457} itibarı veren bir zincir (seviye 54). Black Broodling'ler ve {npc:7044}, Vigil'in kuzeyindeki yamaçlarda; {npc:7040} ve {npc:7041} batısında, bölgenin ortasında yaşıyor.",
+	["{npc:9562} at {area:2418}, in the south-east of the {zone:1428}, starts {quest:4183}: a chain to {area:69} and {object:2117}, 175 {faction:72} and 175 {zone:1457} reputation (level 54). The Black Broodlings and the {npc:7044} live on the slopes north of the Vigil; the {npc:7040} and {npc:7041} west of it, in the middle of the zone."] = "{zone:1428} bölgesinin güneydoğusundaki {area:2418} kesiminde {npc:9562}, {quest:4183} görevini başlatır: {area:69} ve {object:2117} yanına uzanan, 175 {faction:72} ve 175 {zone:1457} itibarı veren bir zincir (seviye 54). Black Broodling'ler ve {npc:7044}, Vigil'in kuzeyindeki yamaçlarda. {npc:7040} ve {npc:7041} batısında, bölgenin ortasında yaşıyor.",
 
 	-- Step 43: Lakeshire: Magistrate Solomon
 	-- {npc:344} Magistrate Solomon · {area:69} Lakeshire
@@ -261,23 +261,23 @@ return {
 	-- {area:69} Lakeshire
 	["{area:69}: Solomon again"] = "{area:69}: yine Solomon",
 	-- {area:1584} Blackrock Depths · {npc:9023} Marshal Windsor · {faction:72} Stormwind · {area:1583} Blackrock Spire · {npc:11878} Nathanos Blightcaller · {zone:1423} Eastern Plaguelands · {area:2057} Scholomance
-	["With a group the chain goes on into {area:1584}: {npc:9023}, Jail Break! and The Great Masquerade back in {faction:72} pay about 750 {faction:72} more, Maxwell's Mission (Lower {area:1583}) 250, Delivery to Ridgewell 135. Order Must Be Restored ({npc:11878} in the {zone:1423}) pays 200, The Key to {area:2057} 200; Onyxia's head 400 and Nefarian's 200 when the raids open."] = "Bir grupla zincir {area:1584} içine devam eder: {npc:9023}, Jail Break! ve {faction:72} şehrine dönüşteki The Great Masquerade yaklaşık 750 {faction:72} daha, Maxwell's Mission (Lower {area:1583}) 250, Delivery to Ridgewell 135 öder. Order Must Be Restored ({zone:1423} bölgesinde {npc:11878}) 200, The Key to {area:2057} 200; raidler açılınca Onyxia'nın kafası 400 ve Nefarian'ınki 200 öder.",
+	["With a group the chain goes on into {area:1584}: {npc:9023}, Jail Break! and The Great Masquerade back in {faction:72} pay about 750 {faction:72} more, Maxwell's Mission (Lower {area:1583}) 250, Delivery to Ridgewell 135. Order Must Be Restored ({npc:11878} in the {zone:1423}) pays 200, The Key to {area:2057} 200; Onyxia's head 400 and Nefarian's 200 when the raids open."] = "Bir grupla zincir {area:1584} içine devam eder: {npc:9023}, Jail Break! ve {faction:72} şehrine dönüşteki The Great Masquerade yaklaşık 750 {faction:72} daha, Maxwell's Mission (Lower {area:1583}) 250, Delivery to Ridgewell 135 öder. Order Must Be Restored ({zone:1423} bölgesinde {npc:11878}) 200, The Key to {area:2057} 200. Raidler açılınca Onyxia'nın kafası 400 ve Nefarian'ınki 200 öder.",
 
 	-- Step 46: Additional Runecloth to Honored
 	-- {quest:7796} Additional Runecloth
 	["{quest:7796} to Honored"] = "{quest:7796}: Honored olana kadar",
 	-- {quest:7796} Additional Runecloth · {item:14047} Runecloth · {faction:72} Stormwind · {zone:1436} Westfall · {area:69} Lakeshire · {zone:1431} Duskwood · {area:42} Darkshire
-	["{quest:7796}: 50 reputation for 20 {item:14047}, as often as you like. After the four first donations a non-Human stands at Friendly 700 of 6,000, so Honored is 5,300 away: 106 turn-ins, 2,120 {item:14047} (Humans start 900 higher: 88 turn-ins; a Skyborne's Exploring the Alliance paid 100, two fewer). The level 52-58 quests above take 23 turn-ins off; every Elwynn hub you did takes 20 to 30 more off. More quest hubs pay {faction:72}, in full while they are no more than 5 levels below you: {zone:1436} (about 2,500 in all), Redridge's {area:69} (about 3,000) and {zone:1431}'s {area:42} (about 2,900). Every city gain also gives a quarter as much to the other three Alliance cities (not counted here). Hand in all your {item:14047} at once."] = "{quest:7796}: 20 {item:14047} karşılığında 50 itibar, istediğin kadar sık. Dört ilk bağıştan sonra Human olmayan biri 6.000'in 700'ünde Friendly'dedir, yani Honored 5.300 uzakta: 106 teslim, 2.120 {item:14047} (Human'lar 900 yukarıda başlar: 88 teslim; bir Skyborne'un Exploring the Alliance görevi 100 ödedi, iki eksik). Yukarıdaki seviye 52-58 görevleri 23 teslim düşürür; yaptığın her Elwynn merkezi 20 ila 30 daha düşürür. Daha fazla görev merkezi {faction:72} öder, senden en fazla 5 seviye aşağıdayken tam: {zone:1436} (toplam yaklaşık 2.500), Redridge'de {area:69} (yaklaşık 3.000) ve {zone:1431} bölgesinde {area:42} (yaklaşık 2.900). Her şehir kazancı diğer üç Alliance şehrine de dörtte biri kadar verir (burada sayılmadı). Bütün {item:14047} eşyalarını bir kerede teslim et.",
+	["{quest:7796}: 50 reputation for 20 {item:14047}, as often as you like. After the four first donations a non-Human stands at Friendly 700 of 6,000, so Honored is 5,300 away: 106 turn-ins, 2,120 {item:14047} (Humans start 900 higher: 88 turn-ins; a Skyborne's Exploring the Alliance paid 100, two fewer). The level 52-58 quests above take 23 turn-ins off; every Elwynn hub you did takes 20 to 30 more off. More quest hubs pay {faction:72}, in full while they are no more than 5 levels below you: {zone:1436} (about 2,500 in all), Redridge's {area:69} (about 3,000) and {zone:1431}'s {area:42} (about 2,900). Every city gain also gives a quarter as much to the other three Alliance cities (not counted here). Hand in all your {item:14047} at once."] = "{quest:7796}: 20 {item:14047} karşılığında 50 itibar, istediğin kadar sık. Dört ilk bağıştan sonra Human olmayan biri 6.000'in 700'ünde Friendly'dedir, yani Honored 5.300 uzakta: 106 teslim, 2.120 {item:14047} (Human'lar 900 yukarıda başlar: 88 teslim, bir Skyborne'un Exploring the Alliance görevi 100 ödedi, iki eksik). Yukarıdaki seviye 52-58 görevleri 23 teslim düşürür. Yaptığın her Elwynn merkezi 20 ila 30 daha düşürür. Daha fazla görev merkezi {faction:72} öder, senden en fazla 5 seviye aşağıdayken tam: {zone:1436} (toplam yaklaşık 2.500), Redridge'de {area:69} (yaklaşık 3.000) ve {zone:1431} bölgesinde {area:42} (yaklaşık 2.900). Her şehir kazancı diğer üç Alliance şehrine de dörtte biri kadar verir (burada sayılmadı). Bütün {item:14047} eşyalarını bir kerede teslim et.",
 
 	-- Step 47: Additional Runecloth to Revered
 	-- {quest:7796} Additional Runecloth
 	["{quest:7796} to Revered"] = "{quest:7796}: Revered olana kadar",
 	-- {npc:384} Katie Hunter · {item:14047} Runecloth
-	["Honored: in Classic Stormwind's vendors take 10% off for you, {npc:384}'s horses (20g, the swift ones 200g) included; Forever has not settled it, and guide sites report 5% at Friendly rising to 20% at Exalted. Honored to Revered is 12,000 reputation: 240 turn-ins, 4,800 {item:14047}."] = "Honored: Classic'te Stormwind satıcıları sana %10 indirim yapar, {npc:384} satıcısının atları (20g, swift olanlar 200g) da dahil; Forever bunu netleştirmedi, rehber siteleri de Friendly'de %5'ten Exalted'da %20'ye çıkan bir indirim bildiriyor. Honored'dan Revered'a 12.000 itibar: 240 teslim, 4.800 {item:14047}.",
+	["Honored: in Classic Stormwind's vendors take 10% off for you, {npc:384}'s horses (20g, the swift ones 200g) included; Forever has not settled it, and guide sites report 5% at Friendly rising to 20% at Exalted. Honored to Revered is 12,000 reputation: 240 turn-ins, 4,800 {item:14047}."] = "Honored: Classic'te Stormwind satıcıları sana %10 indirim yapar, {npc:384} satıcısının atları (20g, swift olanlar 200g) da dahil. Forever bunu netleştirmedi, rehber siteleri de Friendly'de %5'ten Exalted'da %20'ye çıkan bir indirim bildiriyor. Honored'dan Revered'a 12.000 itibar: 240 teslim, 4.800 {item:14047}.",
 
 	-- Step 48: Additional Runecloth to Exalted
 	-- {quest:7796} Additional Runecloth
 	["{quest:7796} to Exalted"] = "{quest:7796}: Exalted olana kadar",
 	-- {item:14047} Runecloth · {npc:384} Katie Hunter · {area:88} Eastvale Logging Camp
-	["Revered to Exalted is 21,000 reputation: 420 turn-ins, 8,400 {item:14047}. At Exalted, {npc:384} at {area:88} sells her horses to other races in Classic; the Horse and Swift Horse guides cover them."] = "Revered'dan Exalted'a 21.000 itibar: 420 teslim, 8.400 {item:14047}. Classic'te Exalted'da {area:88} kesimindeki {npc:384} atlarını diğer ırklara satar; Horse ve Swift Horse rehberleri bunları anlatır.",
+	["Revered to Exalted is 21,000 reputation: 420 turn-ins, 8,400 {item:14047}. At Exalted, {npc:384} at {area:88} sells her horses to other races in Classic; the Horse and Swift Horse guides cover them."] = "Revered'dan Exalted'a 21.000 itibar: 420 teslim, 8.400 {item:14047}. Classic'te Exalted'da {area:88} kesimindeki {npc:384} atlarını diğer ırklara satar. Horse ve Swift Horse rehberleri bunları anlatır.",
 }

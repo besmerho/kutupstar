@@ -22,9 +22,9 @@ return {
 	-- {zone:1417} Arathi Highlands · {zone:1416} Alterac Mountains · {zone:1424} Hillsbrad Foothills
 	["The {zone:1417} lie east of the {zone:1416} and {zone:1424}."] = "{zone:1417}, {zone:1416} ve {zone:1424} bölgelerinin doğusunda.",
 	-- {area:320} Refuge Pointe · {area:321} Hammerfall
-	["{area:320} in the middle is the Alliance town; {area:321} in the east is Horde."] = "Ortadaki {area:320} Alliance kasabası; doğudaki {area:321} Horde.",
+	["{area:320} in the middle is the Alliance town; {area:321} in the east is Horde."] = "Ortadaki {area:320} Alliance kasabası, doğudaki {area:321} Horde.",
 	-- {area:321} Hammerfall · {area:320} Refuge Pointe
-	["{area:321} in the east is the Horde town; {area:320} in the middle is Alliance."] = "Doğudaki {area:321} Horde kasabası; ortadaki {area:320} Alliance.",
+	["{area:321} in the east is the Horde town; {area:320} in the middle is Alliance."] = "Doğudaki {area:321} Horde kasabası, ortadaki {area:320} Alliance.",
 	-- {area:320} Refuge Pointe · {npc:2835} Cedrik Prose
 	["Flight path here: {area:320} ({npc:2835})."] = "Uçuş noktası: {area:320} ({npc:2835}).",
 	-- {area:321} Hammerfall

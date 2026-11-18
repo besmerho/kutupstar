@@ -52,11 +52,11 @@ return {
 
 	-- Step 10: Thunder Bluff
 	-- {zone:1454} Orgrimmar · {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {area:484} Freewind Post
-	["Fly from {zone:1454} to {area:1638} and train with {npc:3033} on {area:1639}; fly on to {area:484} from there."] = "{zone:1454} şehrinden {area:1638} şehrine uç ve {area:1639} tepesinde {npc:3033} ile eğitimini al; oradan {area:484} karakoluna uç.",
+	["Fly from {zone:1454} to {area:1638} and train with {npc:3033} on {area:1639}; fly on to {area:484} from there."] = "{zone:1454} şehrinden {area:1638} şehrine uç ve {area:1639} tepesinde {npc:3033} ile eğitimini al, oradan {area:484} karakoluna uç.",
 
 	-- Step 11: Islen Waterseer
 	-- {zone:1454} Orgrimmar · {area:392} Ratchet · {npc:5901} Islen Waterseer · {area:484} Freewind Post
-	["Fly from {zone:1454} to {area:392}. {npc:5901} camps on the coast a short walk south of the town; fly on to {area:484} from {area:392}."] = "{zone:1454} şehrinden {area:392} limanına uç. {npc:5901}, kasabanın biraz güneyinde, kıyıda kamp kurmuş; {area:392} limanından {area:484} karakoluna uç.",
+	["Fly from {zone:1454} to {area:392}. {npc:5901} camps on the coast a short walk south of the town; fly on to {area:484} from {area:392}."] = "{zone:1454} şehrinden {area:392} limanına uç. {npc:5901}, kasabanın biraz güneyinde, kıyıda kamp kurmuş. {area:392} limanından {area:484} karakoluna uç.",
 	-- {npc:5901} Islen Waterseer · {npc:3527} Healing Stream Totem · {item:5177} Water Totem
 	["{npc:5901}: {npc:3527} and your {item:5177}"] = "{npc:5901}: {npc:3527} ve {item:5177}",
 
@@ -76,7 +76,7 @@ return {
 	-- {npc:5905} Prate Cloudseer · {item:5178} Air Totem
 	["{npc:5905}: your {item:5178}"] = "{npc:5905}: {item:5178} eşyan",
 	-- {npc:5905} Prate Cloudseer · {area:1717} Razorfen Kraul
-	["{npc:5905} also starts Elemental Aid ({area:1717}), the 33-40 chain to The Tempest's Weapons: forever/class/shaman/call-of-air-horde."] = "{npc:5905} ayrıca Elemental Aid ({area:1717}) görevini başlatır; The Tempest's Weapons'a giden 33-40 zinciri: forever/class/shaman/call-of-air-horde.",
+	["{npc:5905} also starts Elemental Aid ({area:1717}), the 33-40 chain to The Tempest's Weapons: forever/class/shaman/call-of-air-horde."] = "{npc:5905} ayrıca Elemental Aid ({area:1717}) görevini başlatır. The Tempest's Weapons'a giden 33-40 zinciri: forever/class/shaman/call-of-air-horde.",
 
 	-- Step 16: Dorn Plainstalker
 	-- {npc:2986} Dorn Plainstalker · {area:484} Freewind Post · {quest:1149} Test of Faith
@@ -100,7 +100,7 @@ return {
 	-- {area:483} The Screeching Canyon
 	["{area:483}: kill these as you meet them"] = "{area:483}: bunları karşılaştıkça öldür",
 	-- {area:2097} Darkcloud Pinnacle · {area:487} Roguefeather Den · {npc:4877} Jandia · {quest:98069} Stolen Freewind Supplies · {npc:4490} Grenka Bloodscreech · {npc:2986} Dorn Plainstalker
-	["West of Freewind Post, below {area:2097}, the harpies of {area:487} (28-30). The Screeching Harpies, Roguefeathers and Windcallers there are {npc:4877}'s; her {quest:98069} lie on the ground along the foot of the cliff and in the cave up on top. {npc:4490} (31) walks among them: thin out the harpies around her before you pull her, for {npc:2986}'s claw."] = "Freewind Post'un batısında, {area:2097} altında {area:487} harpy'leri (28-30). Oradaki Screeching Harpy, Roguefeather ve Windcaller yaratıkları {npc:4877} için; {quest:98069} malzemeleri uçurumun eteği boyunca yerde ve tepedeki mağarada yatıyor. {npc:4490} (31) aralarında yürüyor: {npc:2986} adlı NPC'nin pençesi için onu çekmeden önce çevresindeki harpy'leri azalt.",
+	["West of Freewind Post, below {area:2097}, the harpies of {area:487} (28-30). The Screeching Harpies, Roguefeathers and Windcallers there are {npc:4877}'s; her {quest:98069} lie on the ground along the foot of the cliff and in the cave up on top. {npc:4490} (31) walks among them: thin out the harpies around her before you pull her, for {npc:2986}'s claw."] = "Freewind Post'un batısında, {area:2097} altında {area:487} harpy'leri (28-30). Oradaki Screeching Harpy, Roguefeather ve Windcaller yaratıkları {npc:4877} için. {quest:98069} malzemeleri uçurumun eteği boyunca yerde ve tepedeki mağarada yatıyor. {npc:4490} (31) aralarında yürüyor: {npc:2986} adlı NPC'nin pençesi için onu çekmeden önce çevresindeki harpy'leri azalt.",
 	-- {quest:98069} Stolen Freewind Supplies
 	["{quest:98069}, on the ground around the den"] = "{quest:98069}, inin çevresinde, yerde",
 	-- {item:5843} Grenka's Claw · {npc:4490} Grenka Bloodscreech
@@ -136,7 +136,7 @@ return {
 	-- {area:439} Shimmering Flats
 	["{area:439}: kill these as you meet them"] = "{area:439}: bunları karşılaştıkça öldür",
 	-- plural, as words: Saltstone Basilisks = {npc:4147} Saltstone Basilisk · Sparkleshell Tortoises = {npc:4142} Sparkleshell Tortoise · Salt Flats Scavengers = {npc:4154} Salt Flats Scavenger · Sparkleshell Snappers = {npc:4143} Sparkleshell Snapper · Scorpid Terrors = {npc:4139} Scorpid Terror
-	["North-east of the raceway onto the flats. The Saltstone Basilisks (30-31) sun themselves north-west of it, and the Sparkleshell Tortoises (30-31) wander among them on the western flats; the Salt Flats Scavengers and Vultures circle the eastern flats. Every vulture drops a bone, about one tortoise in three a shell.\nCareful: Scavengers and Vultures use Execute when your health is low. The Sparkleshell Snappers (34-35) crowd round a half-buried ship in the north-east and are over you here: the Tortoises of the western flats drop the shells just as often, so stay with them. Take the venom from the Reavers (31-32) of the north half and leave the Scorpid Terrors (33-34) further south."] = "Yarış pistinin kuzeydoğusundan düzlüklere çık. Saltstone Basilisk yaratıkları (30-31) pistin kuzeybatısında güneşleniyor, Sparkleshell Tortoise yaratıkları (30-31) da batı düzlüklerinde aralarında dolaşıyor; Salt Flats Scavenger ve Vulture'lar doğu düzlüklerinin üstünde dönüyor. Her akbaba kemik düşürür, yaklaşık üç kaplumbağadan biri de kabuk.\nDikkat: Scavenger ve Vulture'lar canın azaldığında Execute kullanır. Sparkleshell Snapper yaratıkları (34-35) kuzeydoğudaki yarı gömülü bir geminin çevresine toplanmış ve burada senden yüksek: batı düzlüklerinin Tortoise'ları kabukları aynı sıklıkta düşürür, onlarla kal. Zehri kuzey yarının Reaver'larından (31-32) al, daha güneydeki Scorpid Terror yaratıklarını (33-34) bırak.",
+	["North-east of the raceway onto the flats. The Saltstone Basilisks (30-31) sun themselves north-west of it, and the Sparkleshell Tortoises (30-31) wander among them on the western flats; the Salt Flats Scavengers and Vultures circle the eastern flats. Every vulture drops a bone, about one tortoise in three a shell.\nCareful: Scavengers and Vultures use Execute when your health is low. The Sparkleshell Snappers (34-35) crowd round a half-buried ship in the north-east and are over you here: the Tortoises of the western flats drop the shells just as often, so stay with them. Take the venom from the Reavers (31-32) of the north half and leave the Scorpid Terrors (33-34) further south."] = "Yarış pistinin kuzeydoğusundan düzlüklere çık. Saltstone Basilisk yaratıkları (30-31) pistin kuzeybatısında güneşleniyor, Sparkleshell Tortoise yaratıkları (30-31) da batı düzlüklerinde aralarında dolaşıyor. Salt Flats Scavenger ve Vulture'lar doğu düzlüklerinin üstünde dönüyor. Her akbaba kemik düşürür, yaklaşık üç kaplumbağadan biri de kabuk.\nDikkat: Scavenger ve Vulture'lar canın azaldığında Execute kullanır. Sparkleshell Snapper yaratıkları (34-35) kuzeydoğudaki yarı gömülü bir geminin çevresine toplanmış ve burada senden yüksek: batı düzlüklerinin Tortoise'ları kabukları aynı sıklıkta düşürür, onlarla kal. Zehri kuzey yarının Reaver'larından (31-32) al, daha güneydeki Scorpid Terror yaratıklarını (33-34) bırak.",
 	-- {item:5795} Hardened Tortoise Shell
 	-- plural, as words: Sparkleshell Tortoises = {npc:4142} Sparkleshell Tortoise
 	["{item:5795}, from the Sparkleshell Tortoises of the western flats"] = "{item:5795}, batı düzlüklerinin Sparkleshell Tortoise yaratıklarından",
@@ -159,7 +159,7 @@ return {
 	["Level 32"] = "Seviye 32",
 	-- {zone:1443} Desolace · {area:1717} Razorfen Kraul
 	-- plural, as words: Scorpid Reavers = {npc:4140} Scorpid Reaver · Sparkleshell Snappers = {npc:4143} Sparkleshell Snapper · Scorpid Terrors = {npc:4139} Scorpid Terror
-	["The flats' south and the silithid dig are 32-35, {zone:1443}'s quests 32-38. Still below 32 after the raceway's hand-ins? Back north on the flats, the Scorpid Reavers (31-32) roam among the basilisks and tortoises: kill them until level 32; leave the Sparkleshell Snappers (34-35) and the Scorpid Terrors (33-34) alone. Or, with a group, run the {area:1717} dungeon instead."] = "Düzlüklerin güneyi ve silithid kazısı 32-35, {zone:1443} görevleri 32-38. Pistteki teslimlerden sonra hâlâ 32'nin altında mısın? Düzlüklerde kuzeye dön, Scorpid Reaver yaratıkları (31-32) basilisk ve kaplumbağaların arasında dolaşıyor: 32. seviyeye kadar onları öldür; Sparkleshell Snapper (34-35) ve Scorpid Terror (33-34) yaratıklarına dokunma. Ya da bir grupla onun yerine {area:1717} zindanını koş.",
+	["The flats' south and the silithid dig are 32-35, {zone:1443}'s quests 32-38. Still below 32 after the raceway's hand-ins? Back north on the flats, the Scorpid Reavers (31-32) roam among the basilisks and tortoises: kill them until level 32; leave the Sparkleshell Snappers (34-35) and the Scorpid Terrors (33-34) alone. Or, with a group, run the {area:1717} dungeon instead."] = "Düzlüklerin güneyi ve silithid kazısı 32-35, {zone:1443} görevleri 32-38. Pistteki teslimlerden sonra hâlâ 32'nin altında mısın? Düzlüklerde kuzeye dön, Scorpid Reaver yaratıkları (31-32) basilisk ve kaplumbağaların arasında dolaşıyor: 32. seviyeye kadar onları öldür. Sparkleshell Snapper (34-35) ve Scorpid Terror (33-34) yaratıklarına dokunma. Ya da bir grupla onun yerine {area:1717} zindanını yap.",
 	-- plural, as words: Scorpid Reavers = {npc:4140} Scorpid Reaver
 	["Scorpid Reavers"] = "Scorpid Reaver yaratıkları",
 	-- {npc:4140} Scorpid Reaver
@@ -172,7 +172,7 @@ return {
 
 	-- Step 29: The Rustmaul Dig Site
 	-- {item:5877} Cracked Silithid Carapace · {npc:4132} Silithid Ravager
-	["West of them the silithid swarm the dig site. Searchers and Hive Drones walk among the mounds; the Invaders (34-35) stay inside the hive cave. The first silithid you kill drops a {item:5877}: open it.\nCareful: Hive Drones call for help when they fall to 20% health, and the {npc:4132} (37, rare) walks the dig: take the Searchers and Drones (32-34) outside first, then pull the Invaders (34-35) one at a time from the cave mouth."] = "Onların batısında silithid'ler kazı alanını sarmış. Searcher ve Hive Drone'lar tümseklerin arasında yürüyor; Invader'lar (34-35) kovan mağarasının içinde kalıyor. Öldürdüğün ilk silithid bir {item:5877} düşürür: onu aç.\nDikkat: Hive Drone'lar canları %20'ye düşünce yardım çağırır, {npc:4132} (37, rare) de kazıda yürür: önce dışarıdaki Searcher ve Drone'ları (32-34) al, sonra Invader'ları (34-35) mağara ağzından tek tek çek.",
+	["West of them the silithid swarm the dig site. Searchers and Hive Drones walk among the mounds; the Invaders (34-35) stay inside the hive cave. The first silithid you kill drops a {item:5877}: open it.\nCareful: Hive Drones call for help when they fall to 20% health, and the {npc:4132} (37, rare) walks the dig: take the Searchers and Drones (32-34) outside first, then pull the Invaders (34-35) one at a time from the cave mouth."] = "Onların batısında silithid'ler kazı alanını sarmış. Searcher ve Hive Drone'lar tümseklerin arasında yürüyor. Invader'lar (34-35) kovan mağarasının içinde kalıyor. Öldürdüğün ilk silithid bir {item:5877} düşürür: onu aç.\nDikkat: Hive Drone'lar canları %20'ye düşünce yardım çağırır, {npc:4132} (37, rare) de kazıda yürür: önce dışarıdaki Searcher ve Drone'ları (32-34) al, sonra Invader'ları (34-35) mağara ağzından tek tek çek.",
 
 	-- Step 30: Parts of the Swarm
 	["Keep killing silithid at the dig site for the heart, the talons and the carapaces."] = "Kalp, pençeler ve kabuklar için kazı alanındaki silithid'leri öldürmeye devam et.",
@@ -187,7 +187,7 @@ return {
 
 	-- Step 33: Gadgetzan
 	-- {zone:1446} Tanaris · {area:976} Gadgetzan · {area:484} Freewind Post
-	["South from the raceway over the {zone:1446} border to {area:976}, the walled goblin town: learn its flight path and fly back to {area:484} from there, which is quicker than the walk west across the flats, and the next guides fly straight to {area:976}."] = "Pistten güneye, {zone:1446} sınırını geçip surlu goblin kasabası {area:976} kasabasına git: uçuş hattını öğren ve oradan {area:484} karakoluna uç; bu, düzlükler boyunca batıya yürümekten daha hızlı, sonraki rehberler de doğrudan {area:976} kasabasına uçar.",
+	["South from the raceway over the {zone:1446} border to {area:976}, the walled goblin town: learn its flight path and fly back to {area:484} from there, which is quicker than the walk west across the flats, and the next guides fly straight to {area:976}."] = "Pistten güneye, {zone:1446} sınırını geçip surlu goblin kasabası {area:976} kasabasına git: uçuş hattını öğren ve oradan {area:484} karakoluna uç. Bu, düzlükler boyunca batıya yürümekten daha hızlı, sonraki rehberler de doğrudan {area:976} kasabasına uçar.",
 
 	-- Step 35: Freewind Post
 	-- {npc:10537} Cliffwatcher Longhorn
@@ -207,7 +207,7 @@ return {
 
 	-- Step 39: Ghost Walker Post
 	-- {npc:5395} Felgur Twocuts · {npc:11259} Nataka Longhorn · {npc:5641} Takata Steelblade · {npc:4498} Maurin Bonesplitter · {area:596} Kodo Graveyard
-	["{npc:5395} stands in the post, {npc:11259} up on its rise; {npc:5641} and {npc:4498} wait on the rise west of it, above the {area:596}."] = "{npc:5395} karakolda, {npc:11259} yamacın üstünde duruyor; {npc:5641} ve {npc:4498} onun batısındaki yamaçta, {area:596} mezarlığının yukarısında bekliyor.",
+	["{npc:5395} stands in the post, {npc:11259} up on its rise; {npc:5641} and {npc:4498} wait on the rise west of it, above the {area:596}."] = "{npc:5395} karakolda, {npc:11259} yamacın üstünde duruyor. {npc:5641} ve {npc:4498} onun batısındaki yamaçta, {area:596} mezarlığının yukarısında bekliyor.",
 	-- {npc:11259} Nataka Longhorn
 	["{npc:11259}, up on the rise"] = "{npc:11259}, yamacın üstünde",
 
@@ -219,13 +219,13 @@ return {
 	-- {npc:11596} Smeed Scrabblescrew · {item:13892} Kodo Kombobulator · {npc:4702} Ancient Kodo · {npc:11521} Kodo Apparition
 	["Use {npc:11596}'s {item:13892} on an Aged, Dying or {npc:4702} in the graveyard and walk the tamed kodo back to {npc:11596}. At his camp, talk to the kodo: that counts it and lets you tame the next. Five kodos, one at a time. Careful: leave the kodo skulls on the ground alone: opening one raises a {npc:11521} (37-38) that hits hard."] = "{npc:11596} adlı NPC'nin {item:13892} eşyasını mezarlıktaki bir Aged, Dying ya da {npc:4702} üzerinde kullan ve evcilleştirilen kodo'yu {npc:11596} yanına yürüt. Kampında kodo ile konuş: bu onu sayar ve bir sonrakini evcilleştirmeni sağlar. Beş kodo, birer birer. Dikkat: yerdeki kodo kafataslarına dokunma: birini açmak sert vuran bir {npc:11521} (37-38) yaratığını kaldırır.",
 	-- {npc:4702} Ancient Kodo
-	["on an Aged, Dying or {npc:4702} in the graveyard; don't kill it"] = "mezarlıktaki bir Aged, Dying ya da {npc:4702} üzerinde; öldürme",
+	["on an Aged, Dying or {npc:4702} in the graveyard; don't kill it"] = "mezarlıktaki bir Aged, Dying ya da {npc:4702} üzerinde, öldürme",
 	-- {npc:11596} Smeed Scrabblescrew
 	["the tamed kodo, at {npc:11596}'s camp: talk to it, five times"] = "{npc:11596} kampında evcil kodo: onunla beş kez konuş",
 
 	-- Step 44: Shadowprey Village
 	-- {area:606} Gelkis Village · {npc:268705} Aka'rai · {quest:97265} Hate the Hatefury
-	["Head west to the troll village on the coast, keeping clear of the {area:606} on the way. {npc:268705} stands on the path just north of the village.\n{npc:268705} may not be here on Forever: if {npc:268705} doesn't offer {quest:97265}, skip it."] = "Batıya, kıyıdaki troll köyüne git; yolda {area:606} uzak dur. {npc:268705} köyün hemen kuzeyindeki patikada duruyor.\n{npc:268705} Forever'da burada olmayabilir: {npc:268705} sana {quest:97265} görevini vermezse atla.",
+	["Head west to the troll village on the coast, keeping clear of the {area:606} on the way. {npc:268705} stands on the path just north of the village.\n{npc:268705} may not be here on Forever: if {npc:268705} doesn't offer {quest:97265}, skip it."] = "Batıya, kıyıdaki troll köyüne git, yolda {area:606} uzak dur. {npc:268705} köyün hemen kuzeyindeki patikada duruyor.\n{npc:268705} Forever'da burada olmayabilir: {npc:268705} sana {quest:97265} görevini vermezse atla.",
 	-- {npc:268705} Aka'rai · {area:603} Sargeron
 	["{npc:268705}: the Hatefury satyrs of {area:603}, later in this guide"] = "{npc:268705}: bu rehberde daha sonra, {area:603} harabelerinin Hatefury satyr'leri",
 	-- {npc:11877} Roon Wildmane · {quest:5762} Hemet Nesingwary
@@ -239,7 +239,7 @@ return {
 
 	-- Step 46: Thunder Axe Fortress
 	-- {area:599} Thunder Axe Fortress · {item:6436} Burning Gem · {item:6435} Infused Burning Gem · {npc:13019} Burning Blade Seer · {item:20310} Flayed Demon Skin · {object:176581} Hand of Iruxos Crystal · {npc:11876} Demon Spirit · {zone:1443} Desolace
-	["Head east to {area:599}. Beat a Burning Blade cultist down, then use the {item:6436} on it before it dies to fill one {item:6435}. The {npc:13019} stands on the fortress's top floor with the Sceptre. The cultists also drop a {item:20310} now and then (1-5%); if one drops, read it. Leave the red {object:176581} for now: its {npc:11876} is 37, and the second {zone:1443} visit comes back for it."] = "Doğuya, {area:599} kalesine git. Bir Burning Blade tarikatçısını hırpala, sonra ölmeden önce üzerinde {item:6436} eşyasını kullanarak bir {item:6435} doldur. {npc:13019} kalenin en üst katında Sceptre ile duruyor. Tarikatçılar arada bir {item:20310} de düşürür (%1-5); düşerse oku. Kırmızı {object:176581} kristaline şimdilik dokunma: {npc:11876} 37. seviye, ikinci {zone:1443} ziyareti onun için geri gelir.",
+	["Head east to {area:599}. Beat a Burning Blade cultist down, then use the {item:6436} on it before it dies to fill one {item:6435}. The {npc:13019} stands on the fortress's top floor with the Sceptre. The cultists also drop a {item:20310} now and then (1-5%); if one drops, read it. Leave the red {object:176581} for now: its {npc:11876} is 37, and the second {zone:1443} visit comes back for it."] = "Doğuya, {area:599} kalesine git. Bir Burning Blade tarikatçısını hırpala, sonra ölmeden önce üzerinde {item:6436} eşyasını kullanarak bir {item:6435} doldur. {npc:13019} kalenin en üst katında Sceptre ile duruyor. Tarikatçılar arada bir {item:20310} de düşürür (%1-5), düşerse oku. Kırmızı {object:176581} kristaline şimdilik dokunma: {npc:11876} 37. seviye, ikinci {zone:1443} ziyareti onun için geri gelir.",
 	["On the top floor"] = "En üst katta",
 
 	-- Step 47: Ethel Rethor
@@ -273,12 +273,12 @@ return {
 
 	-- Step 51: Rackmore's Chest
 	-- {area:2406} Ranazjar Isle · {object:177786} Rackmore's Chest · {object:177673} Serpent Statue
-	["Swim out to {area:2406} off the far northern tip: {object:177786} stands on the shore beside the {object:177673}. Open it with both keys; leave the statue alone."] = "En kuzey uçtan açıktaki {area:2406} adasına yüz: {object:177786} kıyıda, {object:177673} heykelinin yanında duruyor. İki anahtarla da aç; heykele dokunma.",
+	["Swim out to {area:2406} off the far northern tip: {object:177786} stands on the shore beside the {object:177673}. Open it with both keys; leave the statue alone."] = "En kuzey uçtan açıktaki {area:2406} adasına yüz: {object:177786} kıyıda, {object:177673} heykelinin yanında duruyor. İki anahtarla da aç, heykele dokunma.",
 
 	-- Step 52: Sargeron
 	-- {area:599} Thunder Axe Fortress · {area:603} Sargeron · {npc:268705} Aka'rai
 	-- plural, as words: Hatefury Rogues = {npc:4670} Hatefury Rogue
-	["Head east past {area:599} and along the northern hills to the satyrs' ruins of {area:603}. Kill every kind you meet for {npc:268705}; the Shadowstalkers walk unseen.\nCareful: Hatefury Rogues use Hide when they spawn, so they are stealthed until you find them."] = "{area:599} kalesinin yanından doğuya ve kuzey tepeleri boyunca satyr'lerin {area:603} harabelerine git. {npc:268705} için karşılaştığın her türü öldür; Shadowstalker'lar görünmeden yürür.\nDikkat: Hatefury Rogue yaratıkları doğduklarında Hide kullanır, bu yüzden sen onları bulana kadar gizlidirler.",
+	["Head east past {area:599} and along the northern hills to the satyrs' ruins of {area:603}. Kill every kind you meet for {npc:268705}; the Shadowstalkers walk unseen.\nCareful: Hatefury Rogues use Hide when they spawn, so they are stealthed until you find them."] = "{area:599} kalesinin yanından doğuya ve kuzey tepeleri boyunca satyr'lerin {area:603} harabelerine git. {npc:268705} için karşılaştığın her türü öldür, Shadowstalker'lar görünmeden yürür.\nDikkat: Hatefury Rogue yaratıkları doğduklarında Hide kullanır, bu yüzden sen onları bulana kadar gizlidirler.",
 	-- {npc:4671} Hatefury Trickster
 	["{npc:4671}, on the way south"] = "{npc:4671}, güney yolunda",
 

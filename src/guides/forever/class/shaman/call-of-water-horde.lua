@@ -19,7 +19,7 @@ return {
 
 	-- Step 3: Islen Waterseer
 	-- {npc:5901} Islen Waterseer · {area:392} Ratchet
-	["{npc:5901} is not in {area:392}: take the small coast road south from {area:392} past the pirate camp and over a low hill; her fishing hut, with a shark strung up outside, stands by the water before the pirate ship. If you reach the ship you went too far."] = "{npc:5901}, {area:392} kasabasında değil: {area:392} kasabasından güneye giden küçük kıyı yolunu tut, korsan kampını ve alçak bir tepeyi geç; önünde asılı bir köpekbalığı olan balıkçı kulübesi, korsan gemisinden önce su kenarında duruyor. Gemiye varırsan fazla gittin.",
+	["{npc:5901} is not in {area:392}: take the small coast road south from {area:392} past the pirate camp and over a low hill; her fishing hut, with a shark strung up outside, stands by the water before the pirate ship. If you reach the ship you went too far."] = "{npc:5901}, {area:392} kasabasında değil: {area:392} kasabasından güneye giden küçük kıyı yolunu tut, korsan kampını ve alçak bir tepeyi geç. Önünde asılı bir köpekbalığı olan balıkçı kulübesi, korsan gemisinden önce su kenarında duruyor. Gemiye varırsan fazla gittin.",
 
 	-- Step 4
 	-- {npc:5901} Islen Waterseer · {npc:5892} Searn Firewarder
@@ -39,13 +39,13 @@ return {
 
 	-- Step 9: Brine
 	-- {npc:5899} Brine · {zone:1413} Barrens · {area:378} Camp Taurajo · {area:1701} Blackthorn Ridge
-	["{npc:5899} lives in the southern {zone:1413}, south of {area:378}: her hut sits on a hilltop of {area:1701} with a spinning windmill beside it, and the way up is the ridge by the lone tree. Quilboar camp all around the hill; Stormhides, thunderhawks and hyenas roam the plains on the way."] = "{npc:5899}, güney {zone:1413} bölgesinde, {area:378} kampının güneyinde yaşıyor: kulübesi {area:1701} sırtının bir tepesinde, yanında dönen bir yel değirmeniyle duruyor; çıkış yolu yalnız ağacın yanındaki sırt. Tepenin her yanında quilboar kampları var; yolda ovalarda Stormhide'lar, thunderhawk'lar ve sırtlanlar dolaşıyor.",
+	["{npc:5899} lives in the southern {zone:1413}, south of {area:378}: her hut sits on a hilltop of {area:1701} with a spinning windmill beside it, and the way up is the ridge by the lone tree. Quilboar camp all around the hill; Stormhides, thunderhawks and hyenas roam the plains on the way."] = "{npc:5899}, güney {zone:1413} bölgesinde, {area:378} kampının güneyinde yaşıyor: kulübesi {area:1701} sırtının bir tepesinde, yanında dönen bir yel değirmeniyle duruyor. Çıkış yolu yalnız ağacın yanındaki sırt. Tepenin her yanında quilboar kampları var. Yolda ovalarda Stormhide'lar, thunderhawk'lar ve sırtlanlar dolaşıyor.",
 
 	-- Step 10: The Quilboar Watering Hole
 	-- {object:107046} Quilboar Watering Hole
 	["The {object:107046}"] = "{object:107046}",
 	-- {npc:5899} Brine · {item:7766} Empty Brown Waterskin · {npc:3456} Razormane Pathfinder
-	["The muddy pond below {npc:5899}'s hut. Step right into the puddle before you use the {item:7766} (too far away and it refuses). Filling it calls a hostile {npc:3456} (level 20): kill it, and watch for the quilboar hunter by the pond, who may start shooting afterwards."] = "{npc:5899} kulübesinin aşağısındaki çamurlu gölet. {item:7766} kullanmadan önce su birikintisinin tam içine gir (fazla uzaktan reddeder). Doldurmak düşman bir {npc:3456} (seviye 20) çağırır: onu öldür ve sonra ateş etmeye başlayabilecek olan göletin yanındaki quilboar avcısına dikkat et.",
+	["The muddy pond below {npc:5899}'s hut. Step right into the puddle before you use the {item:7766} (too far away and it refuses). Filling it calls a hostile {npc:3456} (level 20): kill it, and watch for the quilboar hunter by the pond, who may start shooting afterwards."] = "{npc:5899} adlı NPC'nin kulübesinin aşağısındaki çamurlu gölet. {item:7766} kullanmadan önce su birikintisinin tam içine gir (fazla uzaktan reddeder). Doldurmak düşman bir {npc:3456} (seviye 20) çağırır: onu öldür, göletin yanındaki quilboar avcısına da dikkat et: ardından ateş etmeye başlayabilir.",
 	-- {item:7766} Empty Brown Waterskin
 	["{item:7766}, standing in the puddle"] = "{item:7766}, su birikintisinin içinde dururken",
 
@@ -59,7 +59,7 @@ return {
 
 	-- Step 14: The Ruins of Stardust
 	-- {area:415} Astranaar · {zone:1413} Barrens · {area:1703} Mor'shan Rampart · {npc:12836} Wandering Protector · {zone:1440} Ashenvale · {item:7767} Empty Blue Waterskin
-	["The right fountain stands in a ring of standing stones on the island of the small green lake south of {area:415}, west of Lake Mystral (not the island in Lake Mystral itself). From the {zone:1413} take the road north through the {area:1703} and on west. Water elementals and walking treants guard the lake and root you in place; an elite {npc:12836} roams {zone:1440} and can pass close by. Use the {item:7767} beside the fountain."] = "Doğru çeşme, {area:415} kasabasının güneyindeki, Lake Mystral'ın batısındaki küçük yeşil gölün adasında, bir dikilitaş halkasının içinde duruyor (Lake Mystral'ın kendi adası değil). {zone:1413} bölgesinden yolu kuzeye, {area:1703} surundan geçerek tut ve batıya devam et. Gölü su elementalleri ve yürüyen treant'lar koruyor ve seni olduğun yere köklüyor; elit bir {npc:12836} {zone:1440} bölgesinde dolaşıyor ve yakından geçebilir. Çeşmenin yanında {item:7767} kullan.",
+	["The right fountain stands in a ring of standing stones on the island of the small green lake south of {area:415}, west of Lake Mystral (not the island in Lake Mystral itself). From the {zone:1413} take the road north through the {area:1703} and on west. Water elementals and walking treants guard the lake and root you in place; an elite {npc:12836} roams {zone:1440} and can pass close by. Use the {item:7767} beside the fountain."] = "Doğru çeşme, {area:415} kasabasının güneyindeki, Lake Mystral'ın batısındaki küçük yeşil gölün adasında, bir dikilitaş halkasının içinde duruyor (Lake Mystral'ın kendi adası değil). {zone:1413} bölgesinden yolu kuzeye, {area:1703} surundan geçerek tut ve batıya devam et. Gölü su elementalleri ve yürüyen treant'lar koruyor ve seni olduğun yere köklüyor. Elit bir {npc:12836} {zone:1440} bölgesinde dolaşıyor ve yakından geçebilir. Çeşmenin yanında {item:7767} kullan.",
 	-- {item:7767} Empty Blue Waterskin
 	["{item:7767}, beside the fountain"] = "{item:7767}, çeşmenin yanında",
 
@@ -87,7 +87,7 @@ return {
 	-- {object:113791} Brazier of Everfount
 	["The {object:113791}"] = "{object:113791}",
 	-- {area:228} Sepulcher · {item:6637} Water Sapta · {npc:5894} Corrupt Minor Manifestation of Water · {spell:8056} Frost Shock · {spell:122} Frost Nova
-	["Fly to the {area:228}. The shrine lies in a hollow just south-west of it: go round the back of the crypt to the thick tree between the two hills, hop past it onto the rocks and drop west down the slope to the pool (each drop costs a little health). Drink the {item:6637} beside the tall standing stone by the pool: several water elementals appear, and only the corrupt one near the middle can be attacked (Tab picks it). The {npc:5894} is level 22 and casts {spell:8056} and {spell:122}; if someone just killed it, it is back in about three minutes. Its bracers always drop."] = "{area:228} kasabasına uç. Tapınak kasabanın hemen güneybatısındaki bir çukurda: mahzenin arkasından dolaşıp iki tepe arasındaki kalın ağaca git, onu geçip kayalara zıpla ve yamaçtan batıya, havuza in (her düşüş biraz cana mal olur). Havuzun yanındaki uzun dikilitaşın yanında {item:6637} iç: birkaç su elementali belirir, yalnızca ortaya yakın olan yozlaşmış olana saldırılabilir (Tab onu seçer). {npc:5894} seviye 22 ve {spell:8056} ile {spell:122} kullanır; biri az önce öldürdüyse yaklaşık üç dakikada geri gelir. Bilezikleri her zaman düşer.",
+	["Fly to the {area:228}. The shrine lies in a hollow just south-west of it: go round the back of the crypt to the thick tree between the two hills, hop past it onto the rocks and drop west down the slope to the pool (each drop costs a little health). Drink the {item:6637} beside the tall standing stone by the pool: several water elementals appear, and only the corrupt one near the middle can be attacked (Tab picks it). The {npc:5894} is level 22 and casts {spell:8056} and {spell:122}; if someone just killed it, it is back in about three minutes. Its bracers always drop."] = "{area:228} kasabasına uç. Tapınak kasabanın hemen güneybatısındaki bir çukurda: mahzenin arkasından dolaşıp iki tepe arasındaki kalın ağaca git, onu geçip kayalara zıpla ve yamaçtan batıya, havuza in (her düşüş biraz cana mal olur). Havuzun yanındaki uzun dikilitaşın yanında {item:6637} iç: birkaç su elementali belirir, yalnızca ortaya yakın olan yozlaşmış olana saldırılabilir (Tab onu seçer). {npc:5894} seviye 22 ve {spell:8056} ile {spell:122} kullanır. Biri az önce öldürdüyse yaklaşık üç dakikada geri gelir. Bilezikleri her zaman düşer.",
 	-- {item:6637} Water Sapta
 	["{item:6637}, beside the standing stone"] = "{item:6637}, dikilitaşın yanında",
 
@@ -99,7 +99,7 @@ return {
 
 	-- Step 20: Islen Waterseer
 	-- {npc:5901} Islen Waterseer · {area:392} Ratchet · {item:5177} Water Totem
-	["Back to {npc:5901} south of {area:392}. Keep the {item:5177} in your bags for good: every water totem needs it."] = "{area:392} kasabasının güneyindeki {npc:5901} yanına dön. {item:5177} eşyasını sürekli çantanda tut: her water totem ona ihtiyaç duyar.",
+	["Back to {npc:5901} south of {area:392}. Keep the {item:5177} in your bags for good: every water totem needs it."] = "{area:392} kasabasının güneyindeki {npc:5901} yanına dön. {item:5177} eşyasını sürekli çantanda tut: her water totem için gerekir.",
 	-- {npc:5901} Islen Waterseer · {spell:5394} Healing Stream Totem · {item:5177} Water Totem
 	["{npc:5901}: {spell:5394} and your {item:5177}"] = "{npc:5901}: {spell:5394} ve {item:5177} eşyan",
 }

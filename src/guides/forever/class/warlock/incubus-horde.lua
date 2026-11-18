@@ -5,11 +5,11 @@
 return {
 	-- Guide
 	["Succubus and Incubus (Horde)"] = "Succubus ve Incubus (Horde)",
-	["At 20: the succubus and Forever's incubus, its male twin, each with a soul pouch for your shards."] = "20'de: succubus ve Forever'ın incubus'u, onun erkek ikizi; her biri parçaların için bir ruh kesesiyle.",
+	["At 20: the succubus and Forever's incubus, its male twin, each with a soul pouch for your shards."] = "20'de: succubus ve Forever'ın incubus'u, onun erkek ikizi. Her biri parçaların için bir ruh kesesiyle.",
 
 	-- Step 1: Devourer of Souls (Orgrimmar)
 	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength · {npc:5909} Cazul · {npc:5675} Carendin Halgar · {zone:1458} Undercity · {quest:1507} Devourer of Souls · {zone:1454} Orgrimmar
-	["At 20 {npc:5875}, in the {object:172960} under the {object:172982}, sends you to {npc:5909} a few steps away. Two trainers start these demons, {npc:5875} here and {npc:5675} in the {zone:1458}, and you can take only one; this guide follows whichever {quest:1507} you took. {npc:5909} offers both of {zone:1454}'s branches: take both."] = "20'de {object:172982} altındaki {object:172960} içindeki {npc:5875} seni birkaç adım ötedeki {npc:5909} yanına yollar. Bu iblisleri iki eğitmen başlatır, burada {npc:5875} ve {zone:1458} şehrinde {npc:5675}, ama yalnızca birini alabilirsin; bu rehber hangi {quest:1507} görevini aldıysan onu izler. {npc:5909}, {zone:1454} şehrinin iki kolunu da sunar: ikisini de al.",
+	["At 20 {npc:5875}, in the {object:172960} under the {object:172982}, sends you to {npc:5909} a few steps away. Two trainers start these demons, {npc:5875} here and {npc:5675} in the {zone:1458}, and you can take only one; this guide follows whichever {quest:1507} you took. {npc:5909} offers both of {zone:1454}'s branches: take both."] = "20'de {object:172982} altındaki {object:172960} içindeki {npc:5875} seni birkaç adım ötedeki {npc:5909} yanına yollar. Bu iblisleri iki eğitmen başlatır, burada {npc:5875} ve {zone:1458} şehrinde {npc:5675}, ama yalnızca birini alabilirsin. Bu rehber hangi {quest:1507} görevini aldıysan onu izler. {npc:5909}, {zone:1454} şehrinin iki kolunu da sunar: ikisini de al.",
 	["the succubus"] = "Succubus",
 	["the incubus"] = "Incubus",
 
@@ -37,14 +37,14 @@ return {
 	-- {quest:1513} The Binding · {zone:1454} Orgrimmar
 	["{quest:1513}: succubus ({zone:1454})"] = "{quest:1513}: succubus ({zone:1454})",
 	-- {npc:5875} Gan'rul Bloodeye · {item:6626} Dogran's Pendant · {object:172960} Cleft of Shadow · {npc:3216} Neeru Fireblade
-	["Back to {npc:5875} with the pendant. He hands you {item:6626}: take it across the {object:172960} to {npc:3216}'s tent, stand on the purple circle and use it. Summon your voidwalker first and let it tank: the succubus (level 20, not elite) charms and lashes; keep your damage over time on her. If she wins, use the pendant again. Keep the pendant: {npc:5875} takes it back."] = "Kolyeyle {npc:5875} yanına dön. Sana {item:6626} verir: onu {object:172960} boyunca {npc:3216} çadırına götür, mor çemberin üstünde dur ve kullan. Önce voidwalker'ını çağır ve tank olsun: succubus (seviye 20, elit değil) etki altına alır ve kırbaçlar; zamanla hasar büyülerini üzerinde tut. O kazanırsa kolyeyi yeniden kullan. Kolyeyi sakla: {npc:5875} geri alır.",
+	["Back to {npc:5875} with the pendant. He hands you {item:6626}: take it across the {object:172960} to {npc:3216}'s tent, stand on the purple circle and use it. Summon your voidwalker first and let it tank: the succubus (level 20, not elite) charms and lashes; keep your damage over time on her. If she wins, use the pendant again. Keep the pendant: {npc:5875} takes it back."] = "Kolyeyle {npc:5875} yanına dön. Sana {item:6626} verir: onu {object:172960} boyunca {npc:3216} çadırına götür, mor çemberin üstünde dur ve kullan. Önce voidwalker'ını çağır ve tank olsun: succubus (seviye 20, elit değil) etki altına alır ve kırbaçlar. Zamanla hasar büyülerini üzerinde tut. O kazanırsa kolyeyi yeniden kullan. Kolyeyi sakla: {npc:5875} geri alır.",
 	-- {item:6626} Dogran's Pendant
 	["{item:6626}, on the circle in Neeru's tent"] = "{item:6626}, Neeru'nun çadırındaki çemberin üzerinde",
 
 	-- Step 8: Fallen Sky Lake
 	-- {area:422} Fallen Sky Lake · {zone:1440} Ashenvale · {area:431} Splintertree Post · {item:190232} Withered Scarf · {npc:3931} Shadethicket Oracle
 	-- plural, as words: Shadethicket Stone Movers = {npc:3782} Shadethicket Stone Mover
-	["{area:422} lies in southern {zone:1440}, south-west of {area:431}. The Shadethicket Stone Movers and Bark Rippers (level 25-27) around the lake drop the {item:190232} about one time in twenty, and the lone {npc:3931} (30) can drop it too: plan on a good number of kills, so the guide waits for level 27 first (Forever made this quest level 27); with the succubus already bound you can leave it for your 20s leveling in {zone:1440}. They respawn in five minutes."] = "{area:422}, {zone:1440} bölgesinin güneyinde, {area:431} karakolunun güneybatısında. Gölün çevresindeki Shadethicket Stone Mover ve Bark Ripper yaratıkları (25-27. seviye) {item:190232} eşyasını yaklaşık yirmide bir düşürür, tek başına dolaşan {npc:3931} (30) da düşürebilir: epey öldürme hesapla, rehber de bu yüzden önce 27. seviyeyi bekler (Forever bu görevi 27. seviye yaptı); succubus zaten bağlıysa onu 20'lerdeki {zone:1440} seviye atlamana bırakabilirsin. Beş dakikada yeniden doğarlar.",
+	["{area:422} lies in southern {zone:1440}, south-west of {area:431}. The Shadethicket Stone Movers and Bark Rippers (level 25-27) around the lake drop the {item:190232} about one time in twenty, and the lone {npc:3931} (30) can drop it too: plan on a good number of kills, so the guide waits for level 27 first (Forever made this quest level 27); with the succubus already bound you can leave it for your 20s leveling in {zone:1440}. They respawn in five minutes."] = "{area:422}, {zone:1440} bölgesinin güneyinde, {area:431} karakolunun güneybatısında. Gölün çevresindeki Shadethicket Stone Mover ve Bark Ripper yaratıkları (25-27. seviye) {item:190232} eşyasını yaklaşık yirmide bir düşürür, tek başına dolaşan {npc:3931} (30) da düşürebilir: epey öldürme hesapla, rehber de bu yüzden önce 27. seviyeyi bekler (Forever bu görevi 27. seviye yaptı), succubus zaten bağlıysa onu 20'lerdeki {zone:1440} seviye atlamana bırakabilirsin. Beş dakikada yeniden doğarlar.",
 
 	-- Step 9: The Binding: incubus (Orgrimmar)
 	-- {quest:65604} The Binding · {zone:1454} Orgrimmar
@@ -66,25 +66,25 @@ return {
 	-- Step 12: Corma Villard
 	["Corma Villard"] = "Corma Villard",
 	-- {zone:1437} Wetlands · {area:881} Thandol Span · {zone:1458} Undercity · {area:287} Hillsbrad · {zone:1417} Arathi Highlands
-	["Corma Villard (level 22, not elite; Comar in older records) wanders the north of the {zone:1437} just past the {area:881}, to the right as you come off the bridge. From the {zone:1458} head through {area:287} and {zone:1417}, where the mobs are 30 and up. Attacking her flags you for PvP."] = "Corma Villard (22. seviye, elit değil; eski kayıtlarda Comar) {zone:1437} bölgesinin kuzeyinde, {area:881} köprüsünün hemen ötesinde, köprüden inerken sağda dolaşıyor. {zone:1458} şehrinden yaratıkların 30 ve üstü olduğu {area:287} ve {zone:1417} içinden geç. Ona saldırmak seni PvP'ye açar.",
+	["Corma Villard (level 22, not elite; Comar in older records) wanders the north of the {zone:1437} just past the {area:881}, to the right as you come off the bridge. From the {zone:1458} head through {area:287} and {zone:1417}, where the mobs are 30 and up. Attacking her flags you for PvP."] = "Corma Villard (22. seviye, elit değil, eski kayıtlarda Comar) {zone:1437} bölgesinin kuzeyinde, {area:881} köprüsünün hemen ötesinde, köprüden inerken sağda dolaşıyor. {zone:1458} şehrinden yaratıkların 30 ve üstü olduğu {area:287} ve {zone:1417} içinden geç. Ona saldırmak seni PvP'ye açar.",
 
 	-- Step 13: The Binding: succubus (Undercity)
 	-- {quest:1474} The Binding · {zone:1458} Undercity
 	["{quest:1474}: succubus ({zone:1458})"] = "{quest:1474}: succubus ({zone:1458})",
 	-- {npc:5675} Carendin Halgar · {item:6286} Pure Hearts
-	["Back to {npc:5675} with Dalin's and Corma's hearts. He hands you the {item:6286}: go down to the summoning circle below him, stand on it and use them. Summon your voidwalker first and keep the fight on the circle, or the guards may kill her and the kill does not count. If she wins, use the hearts again; keep them, {npc:5675} takes them back."] = "Dalin'in ve Corma'nın kalpleriyle {npc:5675} yanına dön. Sana {item:6286} verir: altındaki çağırma çemberine in, üstünde dur ve onları kullan. Önce voidwalker'ını çağır ve dövüşü çemberin üstünde tut, yoksa muhafızlar onu öldürebilir ve öldürme sayılmaz. O kazanırsa kalpleri yeniden kullan; sakla, {npc:5675} onları geri alır.",
+	["Back to {npc:5675} with Dalin's and Corma's hearts. He hands you the {item:6286}: go down to the summoning circle below him, stand on it and use them. Summon your voidwalker first and keep the fight on the circle, or the guards may kill her and the kill does not count. If she wins, use the hearts again; keep them, {npc:5675} takes them back."] = "Dalin'in ve Corma'nın kalpleriyle {npc:5675} yanına dön. Sana {item:6286} verir: altındaki çağırma çemberine in, üstünde dur ve onları kullan. Önce voidwalker'ını çağır ve dövüşü çemberin üstünde tut, yoksa muhafızlar onu öldürebilir ve öldürme sayılmaz. O kazanırsa kalpleri yeniden kullan. Sakla, {npc:5675} onları geri alır.",
 	-- {item:6286} Pure Hearts · {npc:5675} Carendin Halgar
 	["{item:6286}, on the circle below {npc:5675}"] = "{item:6286}, {npc:5675} aşağısındaki çemberin üzerinde",
 
 	-- Step 14: Isaac Pearson
 	-- {npc:185334} Isaac Pearson · {area:392} Ratchet · {zone:1413} Barrens · {zone:1411} Durotar · {zone:1454} Orgrimmar
-	["{npc:185334} (level 22) works in {area:392}, on the {zone:1413} coast, at one of two spots in town: take the zeppelin to {zone:1411} and head south, or fly from {zone:1454}. He is an Alliance-friendly human: attacking him can flag you for PvP."] = "{npc:185334} (seviye 22), {zone:1413} kıyısındaki {area:392} kasabasında, kasabanın iki noktasından birinde çalışıyor: {zone:1411} zeplinine bin ve güneye git, ya da {zone:1454} şehrinden uç. Alliance dostu bir insan: ona saldırmak seni PvP'ye açabilir.",
+	["{npc:185334} (level 22) works in {area:392}, on the {zone:1413} coast, at one of two spots in town: take the zeppelin to {zone:1411} and head south, or fly from {zone:1454}. He is an Alliance-friendly human: attacking him can flag you for PvP."] = "{npc:185334} (seviye 22), {zone:1413} kıyısındaki {area:392} kasabasında, kasabanın iki noktasından birinde çalışıyor: {zone:1411} zeplinine bin ve güneye git ya da {zone:1454} şehrinden uç. Alliance dostu bir insan: ona saldırmak seni PvP'ye açabilir.",
 
 	-- Step 15: The Binding: incubus (Undercity)
 	-- {quest:65597} The Binding · {zone:1458} Undercity
 	["{quest:65597}: incubus ({zone:1458})"] = "{quest:65597}: incubus ({zone:1458})",
 	-- {npc:5675} Carendin Halgar · {item:190181} Lovers' Hearts
-	["Back to {npc:5675} with the lovers' hearts, then place the {item:190181} on the same circle and defeat the incubus they call (level 20, not elite; it can charm you). Keep the hearts: {npc:5675} takes them back."] = "Âşıkların kalpleriyle {npc:5675} yanına dön, sonra {item:190181} eşyasını aynı çembere koy ve çağırdıkları incubus'u (seviye 20, elit değil; seni etki altına alabilir) yen. Kalpleri sakla: {npc:5675} geri alır.",
+	["Back to {npc:5675} with the lovers' hearts, then place the {item:190181} on the same circle and defeat the incubus they call (level 20, not elite; it can charm you). Keep the hearts: {npc:5675} takes them back."] = "Âşıkların kalpleriyle {npc:5675} yanına dön, sonra {item:190181} eşyasını aynı çembere koy ve çağırdıkları incubus'u (seviye 20, elit değil, seni etki altına alabilir) yen. Kalpleri sakla: {npc:5675} geri alır.",
 	-- {npc:185335} Summoned Incubus · {npc:5675} Carendin Halgar
 	["{npc:185335}, at the circle below {npc:5675}"] = "{npc:185335}, {npc:5675} aşağısındaki çemberde",
 }

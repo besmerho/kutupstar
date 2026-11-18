@@ -20,7 +20,7 @@ return {
 	-- {npc:713} Balir Frosthammer · {npc:658} Sten Stoutarm
 	["{npc:713}, next to {npc:658}"] = "{npc:713}, {npc:658} ile yan yana",
 	-- {npc:912} Thran Khorman
-	["{npc:912}, the warrior trainer; inside"] = "{npc:912}, Warrior eğitmeni; içeride",
+	["{npc:912}, the warrior trainer; inside"] = "{npc:912}, Warrior eğitmeni, içeride",
 	-- {npc:926} Bromos Grummner
 	["{npc:926}, the paladin trainer"] = "{npc:926}, Paladin eğitmeni",
 	-- {npc:895} Thorgas Grimson
@@ -46,11 +46,11 @@ return {
 	-- {area:77} Anvilmar
 	["Back to {area:77}"] = "{area:77} salonuna dön",
 	-- {npc:8416} Felix Whindlebolt · {area:77} Anvilmar
-	["{npc:8416}, by the door of {area:77}; inside"] = "{npc:8416}, {area:77} kapısının yanında; içeride",
+	["{npc:8416}, by the door of {area:77}; inside"] = "{npc:8416}, {area:77} kapısının yanında, içeride",
 
 	-- Step 6: Talin Keeneye
 	-- {npc:714} Talin Keeneye · {item:10438} Felix's Box
-	["{npc:714}'s camp is at the west end of the valley. {item:10438} lies in the snow south of it, his Chest by the troll cave and his Bucket of Bolts east of the cave: grab them as you pass."] = "{npc:714} kampı vadinin batı ucunda. {item:10438} kampın güneyinde, karın içinde; Felix's Chest troll mağarasının yanında, Felix's Bucket of Bolts ise mağaranın doğusunda: geçerken topla.",
+	["{npc:714}'s camp is at the west end of the valley. {item:10438} lies in the snow south of it, his Chest by the troll cave and his Bucket of Bolts east of the cave: grab them as you pass."] = "{npc:714} kampı vadinin batı ucunda. {item:10438} kampın güneyinde, karın içinde. Felix's Chest troll mağarasının yanında, Felix's Bucket of Bolts ise mağaranın doğusunda: geçerken topla.",
 
 	-- Step 7: The boars
 	["The boars"] = "Yaban domuzları",
@@ -73,23 +73,23 @@ return {
 
 	-- Step 11: Grelin Whitebeard
 	-- {npc:12738} Nori Pridedrift · {npc:836} Durnan Furcutter · {area:77} Anvilmar
-	["{npc:12738}: timed, five minutes to reach {npc:836} in {area:77}"] = "{npc:12738}: süreli; {area:77} salonundaki {npc:836} yanına varmak için beş dakikan var",
+	["{npc:12738}: timed, five minutes to reach {npc:836} in {area:77}"] = "{npc:12738}: süreli, {area:77} salonundaki {npc:836} yanına varmak için beş dakikan var",
 
 	-- Step 12: Anvilmar
 	-- {npc:836} Durnan Furcutter · {area:77} Anvilmar
 	["The Scalding Mornbrew lasts five minutes: go straight north to {npc:836} inside {area:77}."] = "Scalding Mornbrew beş dakika dayanır: doğruca kuzeye, {area:77} salonunun içindeki {npc:836} yanına git.",
 	-- {npc:836} Durnan Furcutter · {area:77} Anvilmar
-	["{npc:836}, inside {area:77}; below ground"] = "{npc:836}, {area:77} içinde; yer altında",
+	["{npc:836}, inside {area:77}; below ground"] = "{npc:836}, {area:77} içinde, yer altında",
 	["Level 4 spells"] = "Seviye 4 büyüleri",
 	-- {npc:8416} Felix Whindlebolt
-	["{npc:8416}, at the door on the way out; inside"] = "{npc:8416}, çıkış yolundaki kapıda; içeride",
+	["{npc:8416}, at the door on the way out; inside"] = "{npc:8416}, çıkış yolundaki kapıda, içeride",
 	["The troll cave"] = "Troll mağarası",
 
 	-- Step 13: Grik'nir the Cold
 	-- {npc:808} Grik'nir the Cold · {npc:786} Grelin Whitebeard
 	["{npc:808} is inside the troll cave east of {npc:786}'s camp, not on the hill above it: go in at the mouth and follow the tunnel to the back."] = "{npc:808}, {npc:786} kampının doğusundaki troll mağarasının içinde, üstündeki tepede değil: ağızdan gir ve tüneli en dibe kadar izle.",
 	-- {item:2004} Grelin Whitebeard's Journal
-	["{item:2004}; below ground"] = "{item:2004}; yer altında",
+	["{item:2004}; below ground"] = "{item:2004}, yer altında",
 
 	-- Step 14: Grelin Whitebeard
 	-- {npc:12738} Nori Pridedrift
@@ -99,7 +99,7 @@ return {
 
 	-- Step 15: Grund and Gozwin
 	-- {area:77} Anvilmar · {npc:2756} Grund Drokda · {npc:8416} Felix Whindlebolt · {npc:269075} Snow Leopard Prowler
-	["Back north to {area:77} on the way to the tunnel: {npc:2756} stands by {npc:8416} at its door. Gozwin's camp is in the hills just north-west; the {npc:269075} (level 6) prowls around it."] = "Tünele giderken kuzeye, {area:77} salonuna dön: {npc:2756} kapıda {npc:8416} ile yan yana duruyor. Gozwin kampı hemen kuzeybatıdaki tepelerde; {npc:269075} (seviye 6) çevresinde sinsice dolaşıyor.",
+	["Back north to {area:77} on the way to the tunnel: {npc:2756} stands by {npc:8416} at its door. Gozwin's camp is in the hills just north-west; the {npc:269075} (level 6) prowls around it."] = "Tünele giderken kuzeye, {area:77} salonuna dön: {npc:2756} kapıda {npc:8416} ile yan yana duruyor. Gozwin kampı hemen kuzeybatıdaki tepelerde. {npc:269075} (seviye 6) çevresinde sinsice dolaşıyor.",
 	-- {npc:2756} Grund Drokda
 	["{npc:2756}, inside"] = "{npc:2756}, içeride",
 	-- {item:277976} Gozwin's Mechanic's Log
@@ -122,7 +122,7 @@ return {
 	-- Step 18: The tunnel
 	["The tunnel"] = "Tünel",
 	-- {npc:1965} Mountaineer Thalos · {area:77} Anvilmar · {npc:6782} Hands Springsprocket
-	["{npc:1965} guards the tunnel out of the valley, east of {area:77}; {npc:6782} stands beside him at its mouth."] = "{npc:1965}, {area:77} salonunun doğusunda vadiden çıkan tüneli bekliyor; {npc:6782} tünelin ağzında, onun yanında duruyor.",
+	["{npc:1965} guards the tunnel out of the valley, east of {area:77}; {npc:6782} stands beside him at its mouth."] = "{npc:1965}, {area:77} salonunun doğusunda vadiden çıkan tüneli bekliyor. {npc:6782} tünelin ağzında, onun yanında duruyor.",
 
 	-- Step 19: Kharanos
 	-- {area:131} Kharanos · {npc:1252} Senir Whitebeard · {area:2102} Thunderbrew Distillery
@@ -130,7 +130,7 @@ return {
 
 	-- Step 20: The Great Outdoors
 	-- {npc:1241} Tognus Flintfire · {skill:129} First Aid · {npc:2326} Thamner Pol · {area:131} Kharanos · {area:189} Steelgrill's Depot
-	["Sit by Eric's campfire (type /sit) and wait for the buff. With a profession learned, Eric also offers its Camping 101, which its trainer takes: blacksmithing with {npc:1241} and {skill:129} with {npc:2326} in {area:131}, mining and engineering at {area:189}."] = "Eric'in kamp ateşinin yanına otur (/sit yaz) ve güçlendirmeyi (buff) bekle. Bir meslek öğrendiysen Eric o mesleğin Camping 101 görevini de verir; görevi mesleğin eğitmeni teslim alır: blacksmithing {npc:1241}, {skill:129} {npc:2326} ile {area:131} köyünde; mining ve engineering {area:189} deposunda.",
+	["Sit by Eric's campfire (type /sit) and wait for the buff. With a profession learned, Eric also offers its Camping 101, which its trainer takes: blacksmithing with {npc:1241} and {skill:129} with {npc:2326} in {area:131}, mining and engineering at {area:189}."] = "Eric'in kamp ateşinin yanına otur (/sit yaz) ve güçlendirmeyi (buff) bekle. Bir meslek öğrendiysen Eric o mesleğin Camping 101 görevini de verir. Görevi mesleğin eğitmeni teslim alır: blacksmithing {npc:1241}, {skill:129} {npc:2326} ile {area:131} köyünde. Mining ve engineering {area:189} deposunda.",
 
 	-- Step 21: Camping 101: First Aid
 	-- {npc:2326} Thamner Pol · {skill:129} First Aid
@@ -193,7 +193,7 @@ return {
 	-- Step 31: Mountaineer Gretchen
 	-- {area:136} Grizzled Den · {area:131} Kharanos · {area:137} Brewnall Village
 	-- plural, as words: Elder Wendigos = {npc:271530} Elder Wendigo
-	["Gretchen camps just outside the {area:136}, the wendigo cave south-west of {area:131}. The den comes after {area:137}, once its level 8 Elder Wendigos and Shamans are no longer above you."] = "Gretchen, {area:136} mağarasının hemen dışında kamp kurmuş: {area:131} köyünün güneybatısındaki wendigo mağarası. Mağara {area:137} köyünden sonra gelir; içindeki 8. seviye Elder Wendigo ve Shaman yaratıkları artık senden yüksek olmadığında.",
+	["Gretchen camps just outside the {area:136}, the wendigo cave south-west of {area:131}. The den comes after {area:137}, once its level 8 Elder Wendigos and Shamans are no longer above you."] = "Gretchen, {area:136} mağarasının hemen dışında kamp kurmuş: {area:131} köyünün güneybatısındaki wendigo mağarası. Mağara {area:137} köyünden sonra gelir. İçindeki 8. seviye Elder Wendigo ve Shaman yaratıkları artık senden yüksek olmadığında.",
 
 	-- Step 32: Rumbleshot's Ammo
 	-- {object:176785} Ammo Crate · {npc:271546} Mountaineer Gretchen · {area:136} Grizzled Den
@@ -214,7 +214,7 @@ return {
 
 	-- Step 35: Mountaineer Dolf
 	-- {npc:12427} Mountaineer Dolf · {area:131} Kharanos · {spell:613} Lesser Heal · {spell:1243} Power Word: Fortitude
-	["{npc:12427} kneels wounded on the ridge between two low walls just south of {area:131}, across the road from the hunter pet trainer, on the walk back from Rumbleshot's camp. Cast {spell:613} (Rank 2) on him, then {spell:1243}: Rank 1 of {spell:613} does not count."] = "{npc:12427}, {area:131} köyünün hemen güneyinde, iki alçak duvarın arasındaki sırtta yaralı diz çökmüş; yolun karşısında Hunter evcil hayvan eğitmeni var, Rumbleshot'ın kampından dönüş yolunun üzerinde. Ona {spell:613} (Rank 2), sonra {spell:1243} yap: {spell:613} Rank 1 sayılmaz.",
+	["{npc:12427} kneels wounded on the ridge between two low walls just south of {area:131}, across the road from the hunter pet trainer, on the walk back from Rumbleshot's camp. Cast {spell:613} (Rank 2) on him, then {spell:1243}: Rank 1 of {spell:613} does not count."] = "{npc:12427}, {area:131} köyünün hemen güneyinde, iki alçak duvarın arasındaki sırtta yaralı diz çökmüş. Yolun karşısında Hunter evcil hayvan eğitmeni var, Rumbleshot'ın kampından dönüş yolunun üzerinde. Ona {spell:613} (Rank 2), sonra {spell:1243} yap: {spell:613} Rank 1 sayılmaz.",
 	-- {npc:12427} Mountaineer Dolf
 	["Heal and fortify {npc:12427}"] = "İyileştir ve güçlendir: {npc:12427}",
 
@@ -223,9 +223,9 @@ return {
 	-- plural, as words: Crag Boars = {npc:1125} Crag Boar
 	["Kill the Crag Boars on the way: their ribs drop before you have {npc:1267}'s quest and count toward it. Back in the distillery: {npc:1699} teaches {skill:185}, then the ribs go to {npc:1267}."] = "Yolda Crag Boar yaratıklarını öldür: kaburgaları sen {npc:1267} görevini almadan önce de düşer ve göreve sayılır. Damıtım evine dönünce: {npc:1699} sana {skill:185} öğretir, sonra kaburgalar {npc:1267} ile teslim edilir.",
 	-- {item:2894} Rhapsody Malt · {npc:1247} Innkeeper Belm
-	["{item:2894}, from {npc:1247}; upstairs"] = "{item:2894}, kaynak: {npc:1247}; üst katta",
+	["{item:2894}, from {npc:1247}; upstairs"] = "{item:2894}, kaynak: {npc:1247}, üst katta",
 	-- {npc:1699} Gremlock Pilsnor
-	["{npc:1699}: Camping 101 asks you to learn it; below ground"] = "{npc:1699}: Camping 101 bunu öğrenmeni istiyor; yer altında",
+	["{npc:1699}: Camping 101 asks you to learn it; below ground"] = "{npc:1699}: Camping 101 bunu öğrenmeni istiyor, yer altında",
 	-- {npc:1226} Maxan Anvol · {item:16605} Friar's Robes of the Light
 	["{npc:1226}, upstairs: {item:16605}"] = "{npc:1226}, üst katta: {item:16605}",
 	["Upstairs"] = "Üst katta",
@@ -234,13 +234,13 @@ return {
 	-- {area:131} Kharanos
 	["{area:131} and the depot"] = "{area:131} köyü ve depo",
 	-- {npc:1269} Razzle Sprysprocket · {area:131} Kharanos
-	["The pilots stand at the depot; {npc:1269} is on the road back west, north of {area:131}."] = "Pilotlar depoda duruyor; {npc:1269}, {area:131} köyünün kuzeyinde, batıya dönüş yolunda.",
+	["The pilots stand at the depot; {npc:1269} is on the road back west, north of {area:131}."] = "Pilotlar depoda duruyor. {npc:1269}, {area:131} köyünün kuzeyinde, batıya dönüş yolunda.",
 	-- {npc:1269} Razzle Sprysprocket
-	["{npc:1269}, on the way back; below ground"] = "{npc:1269}, dönüş yolunda; yer altında",
+	["{npc:1269}, on the way back; below ground"] = "{npc:1269}, dönüş yolunda, yer altında",
 
 	-- Step 38: Brewnall Village
 	-- {area:137} Brewnall Village · {area:131} Kharanos · {npc:8508} Gretta Ganter · {npc:1374} Rejold Barleybrew · {npc:1375} Marleth Barleybrew
-	["{area:137} sits on the lake west of {area:131}. {npc:8508}'s dock is the first stop; {npc:1374} and {npc:1375} are in the village beyond it."] = "{area:137} köyü, {area:131} köyünün batısında, göl kıyısında. İlk durak {npc:8508} iskelesi; {npc:1374} ve {npc:1375} iskelenin ötesindeki köyde.",
+	["{area:137} sits on the lake west of {area:131}. {npc:8508}'s dock is the first stop; {npc:1374} and {npc:1375} are in the village beyond it."] = "{area:137} köyü, {area:131} köyünün batısında, göl kıyısında. İlk durak {npc:8508} iskelesi. {npc:1374} ve {npc:1375} iskelenin ötesindeki köyde.",
 	-- {npc:8508} Gretta Ganter
 	["{npc:8508}, on the dock"] = "{npc:8508}, iskelede",
 
@@ -253,21 +253,21 @@ return {
 	-- Step 41: Grizzled Den
 	-- {area:136} Grizzled Den · {area:131} Kharanos · {npc:271546} Mountaineer Gretchen · {npc:278166} Mountaineer Cornelius · {quest:98326} Frosthowl · {item:280426} Sack of Fish
 	-- plural, as words: Elder Wendigos = {npc:271530} Elder Wendigo · Wendigo Shamans = {npc:271486} Wendigo Shaman
-	["Back to the {area:136}, the wendigo cave south-west of {area:131} where {npc:271546} camps. Flintfire's shipments lie on the cave floor, {npc:278166} is missing deep inside, and {quest:98326} (level 9) keeps the {item:280426} at the back.\nCareful: Wendigos, Elder Wendigos and Wendigo Shamans (up to level 8) stand close together inside the cave, so fights easily pull several at once; drawing them out one at a time with ranged attacks avoids this."] = "{npc:271546} adlı NPC'nin kamp kurduğu {area:136} mağarasına dön: {area:131} köyünün güneybatısındaki wendigo mağarası. Flintfire'ın sevkiyatları mağaranın zemininde duruyor, {npc:278166} içeride derinlerde kayıp ve {quest:98326} (seviye 9) {item:280426} eşyasını en dipte tutuyor.\nDikkat: Wendigo, Elder Wendigo ve Wendigo Shaman yaratıkları (8. seviyeye kadar) mağaranın içinde birbirine yakın duruyor, bu yüzden dövüşler kolayca birkaçını birden çeker; onları menzilli saldırılarla tek tek çekmek bunu önler.",
+	["Back to the {area:136}, the wendigo cave south-west of {area:131} where {npc:271546} camps. Flintfire's shipments lie on the cave floor, {npc:278166} is missing deep inside, and {quest:98326} (level 9) keeps the {item:280426} at the back.\nCareful: Wendigos, Elder Wendigos and Wendigo Shamans (up to level 8) stand close together inside the cave, so fights easily pull several at once; drawing them out one at a time with ranged attacks avoids this."] = "{npc:271546} adlı NPC'nin kamp kurduğu {area:136} mağarasına dön: {area:131} köyünün güneybatısındaki wendigo mağarası. Flintfire'ın sevkiyatları mağaranın zemininde duruyor, {npc:278166} içeride derinlerde kayıp ve {quest:98326} (seviye 9) {item:280426} eşyasını en dipte tutuyor.\nDikkat: Wendigo, Elder Wendigo ve Wendigo Shaman yaratıkları (8. seviyeye kadar) mağaranın içinde birbirine yakın duruyor, bu yüzden dövüşler kolayca birkaçını birden çeker. Onları menzilli saldırılarla tek tek çekmek bunu önler.",
 	-- {item:280426} Sack of Fish · {quest:98326} Frosthowl
 	["{item:280426}: {quest:98326}, at the back"] = "{item:280426}: {quest:98326}, en dipte",
 
 	-- Step 43: Kharanos
 	-- {npc:1252} Senir Whitebeard · {area:2102} Thunderbrew Distillery · {npc:1241} Tognus Flintfire · {npc:1373} Jarven Thunderbrew · {item:2686} Thunder Ale · {npc:1247} Innkeeper Belm · {spell:8553} Barleybrew Scalder
-	["{npc:1252} stands by Eric's campfire in front of the {area:2102}; {npc:1241} is in the cellar west of it. {npc:1373} guards the {item:2686} barrels in the distillery basement. Buy a {item:2686} from {npc:1247}, click the guarded barrel, then hand the ale to {npc:1373} from his quest window (there is no quest to accept); after that, the unguarded barrel takes the {spell:8553}."] = "{npc:1252}, {area:2102} önünde Eric'in kamp ateşinin yanında duruyor; {npc:1241} onun batısındaki mahzende. {npc:1373}, imalathanenin bodrumundaki {item:2686} fıçılarını bekliyor. {npc:1247} adlı NPC'den bir {item:2686} satın al, korunan fıçıya tıkla, sonra birayı onun görev penceresinden {npc:1373} adlı NPC'ye ver (alınacak bir görev yok); ardından {spell:8553} korunmayan fıçıya konur.",
+	["{npc:1252} stands by Eric's campfire in front of the {area:2102}; {npc:1241} is in the cellar west of it. {npc:1373} guards the {item:2686} barrels in the distillery basement. Buy a {item:2686} from {npc:1247}, click the guarded barrel, then hand the ale to {npc:1373} from his quest window (there is no quest to accept); after that, the unguarded barrel takes the {spell:8553}."] = "{npc:1252}, {area:2102} önünde Eric'in kamp ateşinin yanında duruyor. {npc:1241} onun batısındaki mahzende. {npc:1373}, imalathanenin bodrumundaki {item:2686} fıçılarını bekliyor. {npc:1247} adlı NPC'den bir {item:2686} satın al, korunan fıçıya tıkla, sonra birayı onun görev penceresinden {npc:1373} adlı NPC'ye ver (alınacak bir görev yok), ardından {spell:8553} korunmayan fıçıya konur.",
 	-- {item:2686} Thunder Ale · {npc:1247} Innkeeper Belm
-	["{item:2686}, from {npc:1247} in the distillery; upstairs"] = "{item:2686}, kaynak: damıtım evindeki {npc:1247}; üst katta",
+	["{item:2686}, from {npc:1247} in the distillery; upstairs"] = "{item:2686}, kaynak: damıtım evindeki {npc:1247}, üst katta",
 	-- {object:269} Guarded Thunder Ale Barrel
 	["The {object:269} in the basement"] = "Bodrumdaki {object:269}",
 	-- {npc:1373} Jarven Thunderbrew
-	["{npc:1373}, beside the barrel; below ground"] = "{npc:1373}, fıçının yanında; yer altında",
+	["{npc:1373}, beside the barrel; below ground"] = "{npc:1373}, fıçının yanında, yer altında",
 	-- {object:270} Unguarded Thunder Ale Barrel
-	["The {object:270} in the distillery; below ground"] = "Damıtım evindeki {object:270}; yer altında",
+	["The {object:270} in the distillery; below ground"] = "Damıtım evindeki {object:270}, yer altında",
 
 	-- Step 44: Shimmerweed
 	-- {item:2676} Shimmerweed · {area:802} Shimmer Ridge · {area:131} Kharanos
@@ -298,7 +298,7 @@ return {
 	-- {npc:1266} Tundra MacGrann · {area:801} Chill Breeze Valley · {area:131} Kharanos · {npc:1271} Old Icebeard
 	["{npc:1266} camps in {area:801}, south of the road back east from Brewnall to {area:131}. His meats are in the locker in {npc:1271}'s cave, east of his camp. {npc:1271} is an elite yeti: wait out of sight until he wanders off on his patrol, then take the meats and leave before he comes back. You don't need to fight him."] = "{npc:1266}, Brewnall'dan {area:131} köyüne doğuya dönen yolun güneyinde, {area:801} vadisinde kamp kurmuş. Etleri, kampının doğusundaki {npc:1271} mağarasında, dolabın içinde. {npc:1271} elit bir yeti: devriyesine çıkıp uzaklaşana kadar görünmeden bekle, sonra etleri al ve o dönmeden çık. Onunla dövüşmen gerekmez.",
 	-- {item:2667} MacGrann's Dried Meats
-	["{item:2667}: the meat locker; below ground"] = "{item:2667}: et dolabı; yer altında",
+	["{item:2667}: the meat locker; below ground"] = "{item:2667}: et dolabı, yer altında",
 
 	-- Step 49: Kharanos
 	-- {area:131} Kharanos · {npc:1252} Senir Whitebeard · {quest:287} Frostmane Hold · {npc:1269} Razzle Sprysprocket
@@ -319,7 +319,7 @@ return {
 
 	-- Step 51: Misty Pine Refuge
 	-- {area:138} Misty Pine Refuge
-	["Follow the road east past the depot to {area:138}."] = "Yolu doğuya izle; depoyu geçip {area:138} sığınağına var.",
+	["Follow the road east past the depot to {area:138}."] = "Yolu doğuya izle, depoyu geçip {area:138} sığınağına var.",
 
 	-- Step 52: Firewood
 	["Firewood"] = "Yakacak odun",
@@ -374,12 +374,12 @@ return {
 	["The quarry troggs"] = "Taş ocağındaki trogglar",
 	-- {item:268548} Empty Powder Keg
 	-- plural, as words: Rockjaw Skullthumpers = {npc:1115} Rockjaw Skullthumper
-	["Rockjaw Skullthumpers, Bonesnappers and Ambushers share the quarry and the slopes north of it; the Ambushers drop the {item:268548}."] = "Rockjaw Skullthumper, Bonesnapper ve Ambusher yaratıkları taş ocağını ve kuzeyindeki yamaçları paylaşıyor; {item:268548} eşyasını Ambusher'lar düşürür.",
+	["Rockjaw Skullthumpers, Bonesnappers and Ambushers share the quarry and the slopes north of it; the Ambushers drop the {item:268548}."] = "Rockjaw Skullthumper, Bonesnapper ve Ambusher yaratıkları taş ocağını ve kuzeyindeki yamaçları paylaşıyor. {item:268548} eşyasını Ambusher'lar düşürür.",
 
 	-- Step 70: Helm's Bed Lake
 	-- {area:212} Helm's Bed Lake · {quest:95214} Stolen Blasting Powder · {item:274268} Dark Iron Map
 	-- plural, as words: Rockjaw Ambushers = {npc:1116} Rockjaw Ambusher · Rockjaw Backbreakers = {npc:1118} Rockjaw Backbreaker
-	["Rockjaw Ambushers by {area:212}, north of the quarry, and Rockjaw Backbreakers further east drop the {quest:95214}. Dark Iron Spies sneak around the lake shore east of the quarry; one of them drops the {item:274268}."] = "Taş ocağının kuzeyinde, {area:212} gölünün yanındaki Rockjaw Ambusher ve daha doğudaki Rockjaw Backbreaker yaratıkları {quest:95214} düşürür. Dark Iron Spy yaratıkları taş ocağının doğusunda, göl kıyısında sinsice geziniyor; casuslardan biri {item:274268} düşürür.",
+	["Rockjaw Ambushers by {area:212}, north of the quarry, and Rockjaw Backbreakers further east drop the {quest:95214}. Dark Iron Spies sneak around the lake shore east of the quarry; one of them drops the {item:274268}."] = "Taş ocağının kuzeyinde, {area:212} gölünün yanındaki Rockjaw Ambusher ve daha doğudaki Rockjaw Backbreaker yaratıkları {quest:95214} düşürür. Dark Iron Spy yaratıkları taş ocağının doğusunda, göl kıyısında sinsice geziniyor. Casuslardan biri {item:274268} düşürür.",
 
 	-- Step 71: Dun Morogh: kill these as you meet them
 	-- {item:2770} Copper Ore
@@ -401,7 +401,7 @@ return {
 
 	-- Step 79: Bruegs Kindleborn
 	-- {npc:257597} Bruegs Kindleborn · {area:806} South Gate Outpost
-	["{npc:257597} waits in a cave above the farm north-west of the {area:806}; the path up starts behind the farm."] = "{npc:257597}, {area:806} karakolunun kuzeybatısındaki çiftliğin üstünde bir mağarada bekliyor; yukarı çıkan patika çiftliğin arkasından başlıyor.",
+	["{npc:257597} waits in a cave above the farm north-west of the {area:806}; the path up starts behind the farm."] = "{npc:257597}, {area:806} karakolunun kuzeybatısındaki çiftliğin üstünde bir mağarada bekliyor. Yukarı çıkan patika çiftliğin arkasından başlıyor.",
 
 	-- Step 81: Braldir Ashmantle
 	-- {zone:1432} Loch Modan · {npc:257808} Braldir Ashmantle
@@ -409,7 +409,7 @@ return {
 
 	-- Step 82: North Gate Outpost
 	-- {npc:1960} Pilot Hammerfoot · {area:808} North Gate Outpost
-	["{npc:1960} waits at the {area:808}, north of the South Gate; the dwarven corpse lies up the pass to the west of him."] = "{npc:1960}, South Gate'in kuzeyindeki {area:808} karakolunda bekliyor; cüce cesedi onun batısındaki geçidin yukarısında yatıyor.",
+	["{npc:1960} waits at the {area:808}, north of the South Gate; the dwarven corpse lies up the pass to the west of him."] = "{npc:1960}, South Gate'in kuzeyindeki {area:808} karakolunda bekliyor. Cüce cesedi onun batısındaki geçidin yukarısında yatıyor.",
 
 	-- Step 83: The tunnel post
 	["The tunnel post"] = "Tünel karakolu",
@@ -426,7 +426,7 @@ return {
 
 	-- Step 86: Thelsamar
 	-- {area:144} Thelsamar · {npc:1340} Mountaineer Kadrell · {npc:1963} Vidra Hearthstove · {area:2101} Stoutlager Inn · {npc:1681} Brock Stoneseeker · {npc:1572} Thorgrum Borrelson
-	["North up the road to {area:144}. {npc:1340} walks the road through town, {npc:1963} stands outside the {area:2101}, {npc:1681} on the east side of town; {npc:1572} keeps the gryphons."] = "Yolu kuzeye izleyerek {area:144} kasabasına çık. {npc:1340} kasabanın içinden geçen yolda yürüyor, {npc:1963} {area:2101} hanının dışında, {npc:1681} kasabanın doğu yakasında duruyor; {npc:1572} grifonlara bakıyor.",
+	["North up the road to {area:144}. {npc:1340} walks the road through town, {npc:1963} stands outside the {area:2101}, {npc:1681} on the east side of town; {npc:1572} keeps the gryphons."] = "Yolu kuzeye izleyerek {area:144} kasabasına çık. {npc:1340} kasabanın içinden geçen yolda yürüyor, {npc:1963} {area:2101} hanının dışında, {npc:1681} kasabanın doğu yakasında duruyor. {npc:1572} grifonlara bakıyor.",
 	-- {npc:1572} Thorgrum Borrelson
 	["{npc:1572}, the gryphon master"] = "{npc:1572}, grifon ustası",
 	-- {npc:1572} Thorgrum Borrelson · {npc:4256} Golnir Bouldertoe · {zone:1455} Ironforge
@@ -437,7 +437,7 @@ return {
 	["The west hills and the {area:925}"] = "Batı tepeleri ve {area:925} istasyonu",
 	-- {npc:1343} Mountaineer Stormpike · {area:925} Algaz Station
 	-- plural, as words: Elder Black Bears = {npc:1186} Elder Black Bear · Mountain Boars = {npc:1190} Mountain Boar · Forest Lurkers = {npc:1195} Forest Lurker
-	["North through the hills west of the road to {npc:1343} at the {area:925}. The Tunnel Rat kobolds dig in the hills on the way; Elder Black Bears, Mountain Boars and Forest Lurkers roam the same ground."] = "Yolun batısındaki tepelerden kuzeye, {area:925} istasyonundaki {npc:1343} yanına git. Tunnel Rat kobold'ları yol üstündeki tepelerde kazı yapıyor; Elder Black Bear, Mountain Boar ve Forest Lurker yaratıkları da aynı yerlerde dolaşıyor.",
+	["North through the hills west of the road to {npc:1343} at the {area:925}. The Tunnel Rat kobolds dig in the hills on the way; Elder Black Bears, Mountain Boars and Forest Lurkers roam the same ground."] = "Yolun batısındaki tepelerden kuzeye, {area:925} istasyonundaki {npc:1343} yanına git. Tunnel Rat kobold'ları yol üstündeki tepelerde kazı yapıyor. Elder Black Bear, Mountain Boar ve Forest Lurker yaratıkları da aynı yerlerde dolaşıyor.",
 	-- {item:3110} Tunnel Rat Ear
 	["{item:3110}: Tunnel Rat kobolds"] = "{item:3110}: Tunnel Rat kobold'ları",
 	-- {item:3172} Boar Intestines
@@ -468,7 +468,7 @@ return {
 
 	-- Step 90: Thelsamar
 	-- {area:144} Thelsamar · {npc:1340} Mountaineer Kadrell
-	["South down the road to {area:144}, finishing the ears, meat and ichor on the way. {npc:1340} walks the road through town."] = "Yolu güneye izleyerek {area:144} kasabasına git; kulakları, eti ve salgıyı yolda tamamla. {npc:1340} kasabadan geçen yolda dolaşıyor.",
+	["South down the road to {area:144}, finishing the ears, meat and ichor on the way. {npc:1340} walks the road through town."] = "Yolu güneye izleyerek {area:144} kasabasına git. Kulakları, eti ve salgıyı yolda tamamla. {npc:1340} kasabadan geçen yolda dolaşıyor.",
 
 	-- Step 91: The Reagent Pouch
 	-- {item:6652} Reagent Pouch
@@ -497,7 +497,7 @@ return {
 
 	-- Step 94: Golnir Bouldertoe
 	-- {npc:4256} Golnir Bouldertoe · {object:32372} Great Forge (no name in this language: may be words) · {npc:1573} Gryth Thurden · {area:144} Thelsamar
-	["{npc:4256} works at the {object:32372}'s north end, and {npc:1573} keeps the gryphons in the {object:32372}, where the flight from {area:144} lands."] = "{npc:4256}, {object:32372} kuzey ucunda çalışıyor; {npc:1573} de {area:144} uçuşunun indiği {object:32372} içinde grifonlara bakıyor.",
+	["{npc:4256} works at the {object:32372}'s north end, and {npc:1573} keeps the gryphons in the {object:32372}, where the flight from {area:144} lands."] = "{npc:4256}, {object:32372} kuzey ucunda çalışıyor. {npc:1573} de {area:144} uçuşunun indiği {object:32372} içinde grifonlara bakıyor.",
 	-- {npc:4256} Golnir Bouldertoe · {object:32372} Great Forge (no name in this language: may be words)
 	["{npc:4256}, in the {object:32372}"] = "{npc:4256}, {object:32372} ocağının başında",
 	-- {npc:1573} Gryth Thurden · {object:32372} Great Forge (no name in this language: may be words)
@@ -511,13 +511,13 @@ return {
 
 	-- Step 96: Forlorn Cavern
 	-- {object:32372} Great Forge (no name in this language: may be words) · {npc:258098} Eldrun Stormbreaker · {object:32383} Forlorn Cavern · {npc:6120} Lago Blackwrench
-	["North of the {object:32372}: {npc:258098}, the shaman trainer, stands at the south end of the {object:32383}, the rogue and warlock trainers and {npc:6120} just north of him."] = "{object:32372} ocağının kuzeyinde: Shaman eğitmeni {npc:258098}, {object:32383} mağarasının güney ucunda duruyor; Rogue ve Warlock eğitmenleri ile {npc:6120} onun hemen kuzeyinde.",
+	["North of the {object:32372}: {npc:258098}, the shaman trainer, stands at the south end of the {object:32383}, the rogue and warlock trainers and {npc:6120} just north of him."] = "{object:32372} ocağının kuzeyinde: Shaman eğitmeni {npc:258098}, {object:32383} mağarasının güney ucunda duruyor. Rogue ve Warlock eğitmenleri ile {npc:6120} onun hemen kuzeyinde.",
 	-- {npc:6120} Lago Blackwrench · {npc:6122} Gakin the Darkbinder · {zone:1453} Stormwind
 	["{npc:6120}: {npc:6122} in {zone:1453} takes it"] = "{npc:6120}: {zone:1453} şehrindeki {npc:6122} teslim alır",
 
 	-- Step 97: The Tome of Divinity
 	-- {object:32383} Forlorn Cavern · {object:32362} Mystic Ward (no name in this language: may be words) · {npc:5149} Brandur Ironhammer · {npc:6179} Tiza Battleforge · {npc:6178} Muiredon Battleforge · {object:32386} Hall of Mysteries (no name in this language: may be words) · {npc:6175} John Turner · {item:2589} Linen Cloth · {zone:1426} Dun Morogh
-	["West from the {object:32383} into the {object:32362}: {npc:5149}, {npc:6179} and {npc:6178} are in the {object:32386}, {npc:6179} and {npc:6178} on its upper floor: the stairs up start just north-east of {npc:5149}. {npc:6175}, a beggar, wanders the city. He asks for ten {item:2589}: the troggs and trolls of {zone:1426} drop it, and the Auction House sells it."] = "{object:32383} mağarasından batıya, {object:32362} semtine git: {npc:5149}, {npc:6179} ve {npc:6178} {object:32386} içinde; {npc:6179} ve {npc:6178} üst katta: üst kata çıkan merdivenler {npc:5149} yanından, hemen kuzeydoğusundan başlıyor. Bir dilenci olan {npc:6175} şehirde dolaşıyor. Senden on {item:2589} istiyor: {zone:1426} bölgesindeki trogg ve troll'ler düşürür, müzayede evi de satar.",
+	["West from the {object:32383} into the {object:32362}: {npc:5149}, {npc:6179} and {npc:6178} are in the {object:32386}, {npc:6179} and {npc:6178} on its upper floor: the stairs up start just north-east of {npc:5149}. {npc:6175}, a beggar, wanders the city. He asks for ten {item:2589}: the troggs and trolls of {zone:1426} drop it, and the Auction House sells it."] = "{object:32383} mağarasından batıya, {object:32362} semtine git: {npc:5149}, {npc:6179} ve {npc:6178} {object:32386} içinde. {npc:6179} ve {npc:6178} üst katta: üst kata çıkan merdivenler {npc:5149} yanından, hemen kuzeydoğusundan başlıyor. Bir dilenci olan {npc:6175} şehirde dolaşıyor. Senden on {item:2589} istiyor: {zone:1426} bölgesindeki trogg ve troll'ler düşürür, Auction House de satar.",
 	-- {quest:2997} Tome of Divinity
 	["From the {quest:2997} she gives you"] = "Sana verdiği {quest:2997} kitabından",
 	-- {item:6866} Symbol of Life · {npc:6177} Narm Faulk
@@ -547,7 +547,7 @@ return {
 
 	-- Step 103: Buliwyf Stonehand
 	-- {spell:197} Two-Handed Axes · {npc:11865} Buliwyf Stonehand · {object:32359} Military Ward (no name in this language: may be words)
-	["While you're here: learn {spell:197} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11865} sana {spell:197} öğretir ({object:32359}, 10 gümüş); Paladin en hızlı iki elli silahla seviye atlar.",
+	["While you're here: learn {spell:197} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11865} sana {spell:197} öğretir ({object:32359}, 10 gümüş). Paladin en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 104: Military Ward
 	-- {object:32359} Military Ward (no name in this language: may be words) · {npc:11865} Buliwyf Stonehand · {object:32390} Hall of Arms (no name in this language: may be words)
@@ -555,16 +555,16 @@ return {
 
 	-- Step 105: Buliwyf Stonehand
 	-- {spell:197} Two-Handed Axes · {npc:11865} Buliwyf Stonehand · {object:32359} Military Ward (no name in this language: may be words)
-	["While you're here: learn {spell:197} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11865} sana {spell:197} öğretir ({object:32359}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
+	["While you're here: learn {spell:197} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11865} sana {spell:197} öğretir ({object:32359}, 10 gümüş). Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 106: Buliwyf Stonehand
 	-- {spell:199} Two-Handed Maces · {npc:11865} Buliwyf Stonehand · {object:32359} Military Ward (no name in this language: may be words)
-	["While you're here: learn {spell:199} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11865} sana {spell:199} öğretir ({object:32359}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
+	["While you're here: learn {spell:199} from {npc:11865} ({object:32359}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11865} sana {spell:199} öğretir ({object:32359}, 10 gümüş). Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 107: Druid trainer
 	["Druid trainer"] = "Druid eğitmeni",
 	-- {npc:5505} Theridran · {zone:1453} Stormwind · {zone:1426} Dun Morogh
-	["{npc:5505} in {zone:1453}; {zone:1426} has no druid trainer"] = "{npc:5505}, {zone:1453} bölgesinde; {zone:1426} bölgesinde Druid eğitmeni yok",
+	["{npc:5505} in {zone:1453}; {zone:1426} has no druid trainer"] = "{npc:5505}, {zone:1453} bölgesinde, {zone:1426} bölgesinde Druid eğitmeni yok",
 
 	-- Step 108: The Deeprun Tram
 	-- {area:2257} Deeprun Tram
@@ -601,27 +601,27 @@ return {
 
 	-- Step 113: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş); Paladin en hızlı iki elli silahla seviye atlar.",
+	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş). Paladin en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 114: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
+	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş). Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
 	-- Step 115: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Swords from {npc:11867} ({object:2096}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "Buradayken: {npc:11867} sana Swords öğretir ({object:2096}, 10 gümüş); ana elde bir kılıçla Rogue istikrarla seviye atlar.",
+	["While you're here: learn Swords from {npc:11867} ({object:2096}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "Buradayken: {npc:11867} sana Swords öğretir ({object:2096}, 10 gümüş). Ana elde bir kılıçla Rogue istikrarla seviye atlar.",
 
 	-- Step 116: Defensive Stance
 	-- {npc:5480} Ilsa Corbin · {object:2100} Old Town · {zone:1455} Ironforge · {object:28027} Dwarven District · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern · {quest:1638} A Warrior's Training · {quest:1639} Bartleby the Drunk
-	["{npc:5480} trains warriors in {object:2100}, near Osric's shop; the tram from {zone:1455} arrives in the {object:28027}, north of it. {npc:6089} and {npc:6090} stand together by the {object:2152} there. {npc:6090} fights you for his mug. If {npc:5480} doesn't offer {quest:1638}, go straight to {npc:6089}: he gives {quest:1639} without it."] = "{npc:5480}, {object:2100} semtinde, Osric'in dükkânının yakınında Warrior eğitiyor; {zone:1455} şehrinden gelen tren, semtin kuzeyindeki {object:28027} semtine varıyor. {npc:6089} ve {npc:6090} oradaki {object:2152} meyhanesinin yanında birlikte duruyor. {npc:6090} kupası için seninle dövüşür. {npc:5480} sana {quest:1638} görevini vermezse doğrudan {npc:6089} ile konuş: o, {quest:1639} görevini onsuz da verir.",
+	["{npc:5480} trains warriors in {object:2100}, near Osric's shop; the tram from {zone:1455} arrives in the {object:28027}, north of it. {npc:6089} and {npc:6090} stand together by the {object:2152} there. {npc:6090} fights you for his mug. If {npc:5480} doesn't offer {quest:1638}, go straight to {npc:6089}: he gives {quest:1639} without it."] = "{npc:5480}, {object:2100} semtinde, Osric'in dükkânının yakınında Warrior eğitiyor. {zone:1455} şehrinden gelen tren, semtin kuzeyindeki {object:28027} semtine varıyor. {npc:6089} ve {npc:6090} oradaki {object:2152} meyhanesinin yanında birlikte duruyor. {npc:6090} kupası için seninle dövüşür. {npc:5480} sana {quest:1638} görevini vermezse doğrudan {npc:6089} ile konuş: o, {quest:1639} görevini onsuz da verir.",
 
 	-- Step 117: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş); Warrior en hızlı iki elli silahla seviye atlar.",
+	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş). Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 118: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş); seviye atlarken bir asa, tek elli bir silahtan daha çok büyü istatistiği taşır.",
+	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş). Seviye atlarken bir asa, tek elli bir silahtan daha çok büyü istatistiği taşır.",
 
 	-- Step 119: Gakin the Darkbinder
 	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter

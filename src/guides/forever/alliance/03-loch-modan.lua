@@ -30,7 +30,7 @@ return {
 	-- Step 6: Silver Stream Mine
 	["East along the hills to the mine: the Miners' League crates sit in its tunnels among the Tunnel Rat kobolds."] = "Tepeler boyunca doğuya, madene git: Miners' League sandıkları, Tunnel Rat kobold'larının arasında, madenin tünellerinde duruyor.",
 	-- {item:2640} Miners' Gear
-	["{item:2640}, from the crates; below ground"] = "{item:2640}, sandıklardan; yer altında",
+	["{item:2640}, from the crates; below ground"] = "{item:2640}, sandıklardan, yer altında",
 
 	-- Step 7: Back to the Algaz Station
 	-- {area:925} Algaz Station
@@ -48,13 +48,13 @@ return {
 	-- Step 11: The loch
 	["The loch"] = "Göl",
 	-- {object:665289} Discarded Fishing Toolbox · {area:144} Thelsamar · {item:278051} Monogrammed Silver Hair Clip
-	["South along the west shore. The {object:665289} lies on the loch bed at one of several places: east of {area:144} (48.1,39.7), a little south-west of there (45.7,43.4), or at the south end of the loch (48.7,54.4 or 50.6,53.3). If it isn't at the arrow, try the next place. Click it for the quest; the {item:278051} comes with it."] = "Batı kıyısı boyunca güneye git. {object:665289} gölün dibinde birkaç yerden birinde duruyor: {area:144} kasabasının doğusunda (48.1,39.7), oranın biraz güneybatısında (45.7,43.4) ya da gölün güney ucunda (48.7,54.4 veya 50.6,53.3). Okta değilse sonraki yeri dene. Görev için ona tıkla; {item:278051} da onunla gelir.",
+	["South along the west shore. The {object:665289} lies on the loch bed at one of several places: east of {area:144} (48.1,39.7), a little south-west of there (45.7,43.4), or at the south end of the loch (48.7,54.4 or 50.6,53.3). If it isn't at the arrow, try the next place. Click it for the quest; the {item:278051} comes with it."] = "Batı kıyısı boyunca güneye git. {object:665289} gölün dibinde birkaç yerden birinde duruyor: {area:144} kasabasının doğusunda (48.1,39.7), oranın biraz güneybatısında (45.7,43.4) ya da gölün güney ucunda (48.7,54.4 veya 50.6,53.3). Okta değilse sonraki yeri dene. Görev için ona tıkla, {item:278051} da onunla gelir.",
 	-- {object:665289} Discarded Fishing Toolbox
-	["{object:665289}; underwater"] = "{object:665289}; su altında",
+	["{object:665289}; underwater"] = "{object:665289}, su altında",
 
 	-- Step 12: Thelsamar
 	-- {npc:1684} Khara Deepwater · {npc:1105} Jern Hornhelm
-	["{npc:1684} stands on the shore north-east of town, {npc:1105} by the inn."] = "{npc:1684} kasabanın kuzeydoğusunda, kıyıda; {npc:1105} hanın yanında duruyor.",
+	["{npc:1684} stands on the shore north-east of town, {npc:1105} by the inn."] = "{npc:1684} kasabanın kuzeydoğusunda, kıyıda, {npc:1105} hanın yanında duruyor.",
 
 	-- Step 13: Ironband's Excavation
 	-- {npc:1345} Magmar Fellhew · {npc:1344} Prospector Ironband
@@ -64,7 +64,7 @@ return {
 	["The dig site"] = "Kazı alanı",
 	-- {item:2636} Carved Stone Idol · {quest:86613} Excavation Tools
 	-- plural, as words: Stonesplinter Diggers = {npc:1167} Stonesplinter Digger · Berserk Troggs = {npc:1393} Berserk Trogg
-	["Stonesplinter Diggers, Geomancers and Berserk Troggs hold the dig east of Ironband; any of them can drop a {item:2636}. Piles of Excavation Tools lie around the dig: open one and right-click the tools to start {quest:86613}, then gather six.\nCareful: Berserk Troggs (19-20) enrage below 40% health."] = "Stonesplinter Digger, Geomancer ve Berserk Trogg yaratıkları Ironband'in doğusundaki kazı alanını tutuyor; herhangi biri {item:2636} düşürebilir. Kazı alanının çevresinde Excavation Tools yığınları duruyor: birini aç ve {quest:86613} görevini başlatmak için aletlere sağ tıkla, sonra altı tane topla.\nDikkat: Berserk Trogg yaratıkları (19-20) canları %40'ın altına inince öfkelenir.",
+	["Stonesplinter Diggers, Geomancers and Berserk Troggs hold the dig east of Ironband; any of them can drop a {item:2636}. Piles of Excavation Tools lie around the dig: open one and right-click the tools to start {quest:86613}, then gather six.\nCareful: Berserk Troggs (19-20) enrage below 40% health."] = "Stonesplinter Digger, Geomancer ve Berserk Trogg yaratıkları Ironband'in doğusundaki kazı alanını tutuyor. Herhangi biri {item:2636} düşürebilir. Kazı alanının çevresinde Excavation Tools yığınları duruyor: birini aç ve {quest:86613} görevini başlatmak için aletlere sağ tıkla, sonra altı tane topla.\nDikkat: Berserk Trogg yaratıkları (19-20) canları %40'ın altına inince öfkelenir.",
 	-- {quest:86613} Excavation Tools
 	["{quest:86613}: open a pile at the dig"] = "{quest:86613}: kazı alanında bir yığını aç",
 	-- {quest:86613} Excavation Tools
@@ -95,7 +95,7 @@ return {
 	["Elder Mountain Boars"] = "Elder Mountain Boar yaratıkları",
 	-- {quest:258} A Hunter's Challenge
 	-- plural, as words: Elder Mountain Boars = {npc:1192} Elder Mountain Boar
-	["The Elder Mountain Boars roam the hills north-west of the lodge, along the east shore. {quest:258} runs for 12 minutes: kill five and go straight back to Daryl; the crocolisks come after."] = "Elder Mountain Boar yaratıkları köşkün kuzeybatısındaki tepelerde, doğu kıyısı boyunca dolaşıyor. {quest:258} 12 dakika sürer: beşini öldür ve doğruca Daryl'e dön; crocolisk'ler sonra gelir.",
+	["The Elder Mountain Boars roam the hills north-west of the lodge, along the east shore. {quest:258} runs for 12 minutes: kill five and go straight back to Daryl; the crocolisks come after."] = "Elder Mountain Boar yaratıkları köşkün kuzeybatısındaki tepelerde, doğu kıyısı boyunca dolaşıyor. {quest:258} 12 dakika sürer: beşini öldür ve doğruca Daryl'e dön, crocolisk'ler sonra gelir.",
 
 	-- Step 21: Daggerfang and the loch crocolisks
 	-- {npc:270693} Daggerfang
@@ -133,7 +133,7 @@ return {
 	-- {area:1537} Ironforge
 	["Fly to {area:1537}"] = "Uç: {area:1537}",
 	-- {area:1537} Ironforge · {area:144} Thelsamar · {zone:1426} Dun Morogh
-	["You have the {area:1537} flight path: back north to {area:144}'s gryphons, quicker than walking through the tunnel and across {zone:1426}."] = "{area:1537} uçuş noktası sende: kuzeye, {area:144} grifonlarına dön; tünelden ve {zone:1426} bölgesinden yürümekten daha çabuk.",
+	["You have the {area:1537} flight path: back north to {area:144}'s gryphons, quicker than walking through the tunnel and across {zone:1426}."] = "{area:1537} uçuş noktası sende: kuzeye, {area:144} grifonlarına dön, tünelden ve {zone:1426} bölgesinden yürümekten daha çabuk.",
 	-- {area:144} Thelsamar
 	["{area:144} flight master"] = "{area:144} uçuş ustası",
 
@@ -149,7 +149,7 @@ return {
 
 	-- Step 30: Ironforge
 	-- {npc:1573} Gryth Thurden · {object:32372} Great Forge (no name in this language: may be words) · {npc:1356} Prospector Stormpike · {object:32356} Hall of Explorers (no name in this language: may be words) · {object:171524} Tinker Town
-	["{npc:1573} keeps the gryphons in the {object:32372}; {npc:1356} is in the {object:32356}, north-east of it, on the way to the tram in {object:171524}."] = "{npc:1573}, {object:32372} içinde grifonlara bakıyor; {npc:1356}, onun kuzeydoğusunda, {object:171524} semtindeki trene giden yol üstünde, {object:32356} içinde.",
+	["{npc:1573} keeps the gryphons in the {object:32372}; {npc:1356} is in the {object:32356}, north-east of it, on the way to the tram in {object:171524}."] = "{npc:1573}, {object:32372} içinde grifonlara bakıyor. {npc:1356}, onun kuzeydoğusunda, {object:171524} semtindeki trene giden yol üstünde, {object:32356} içinde.",
 	-- {npc:1573} Gryth Thurden · {object:32372} Great Forge (no name in this language: may be words)
 	["{npc:1573}, in the {object:32372}"] = "{npc:1573}, {object:32372} ocağının başında",
 
@@ -184,13 +184,13 @@ return {
 
 	-- Step 36: Lakeshire
 	-- {npc:8965} Shawn · {npc:8962} Hilary · {npc:341} Foreman Oslow · {npc:415} Verner Osgood · {npc:344} Magistrate Solomon · {npc:381} Dockmaster Baren · {npc:266} Wiley the Black · {npc:379} Darcy · {npc:343} Chef Breanna
-	["Cross the long bridge north into town: {npc:8965} and {npc:8962} play by the shore at its north end, {npc:341} stands there too, {npc:415} by the smithy, {npc:344} in the town hall, {npc:381} on the docks, {npc:266} upstairs in the inn and {npc:379} and {npc:343} inside it."] = "Uzun köprüden kuzeye, kasabaya geç: {npc:8965} ve {npc:8962} köprünün kuzey ucunda kıyıda oynuyor, {npc:341} de orada duruyor; {npc:415} demirhanenin yanında, {npc:344} belediye binasında, {npc:381} iskelede, {npc:266} hanın üst katında, {npc:379} ve {npc:343} de hanın içinde.",
+	["Cross the long bridge north into town: {npc:8965} and {npc:8962} play by the shore at its north end, {npc:341} stands there too, {npc:415} by the smithy, {npc:344} in the town hall, {npc:381} on the docks, {npc:266} upstairs in the inn and {npc:379} and {npc:343} inside it."] = "Uzun köprüden kuzeye, kasabaya geç: {npc:8965} ve {npc:8962} köprünün kuzey ucunda kıyıda oynuyor, {npc:341} de orada duruyor. {npc:415} demirhanenin yanında, {npc:344} belediye binasında, {npc:381} iskelede, {npc:266} hanın üst katında, {npc:379} ve {npc:343} de hanın içinde.",
 	-- {npc:415} Verner Osgood · {npc:514} Smith Argus · {area:87} Goldshire
 	["{npc:415}: for {npc:514} in {area:87}"] = "{npc:415}: {area:87} kasabasındaki {npc:514} için",
 	-- {npc:344} Magistrate Solomon · {npc:466} General Marcus Jonathan · {zone:1453} Stormwind
 	["{npc:344}, in the town hall: for {npc:466} in {zone:1453}"] = "{npc:344}, belediye binasında: {zone:1453} şehrindeki {npc:466} için",
 	-- {npc:266} Wiley the Black
-	["{npc:266}, in the inn; upstairs"] = "{npc:266}, handa; üst katta",
+	["{npc:266}, in the inn; upstairs"] = "{npc:266}, handa, üst katta",
 	-- {npc:379} Darcy
 	["{npc:379}, inside"] = "{npc:379}, içeride",
 	-- {npc:343} Chef Breanna
@@ -198,14 +198,14 @@ return {
 
 	-- Step 37: Guard Parker
 	-- {area:1002} Three Corners
-	["West along the road to {area:1002} first; the gnolls are on the way back east."] = "Önce yol boyunca batıya, {area:1002} kavşağına git; gnoll'lar doğuya dönüş yolunda.",
+	["West along the road to {area:1002} first; the gnolls are on the way back east."] = "Önce yol boyunca batıya, {area:1002} kavşağına git, gnoll'lar doğuya dönüş yolunda.",
 
 	-- Step 38: Lakeridge Highway: kill these as you meet them
 	-- {area:1001} Lakeridge Highway
 	["{area:1001}: kill these as you meet them"] = "{area:1001}: bunları karşılaştıkça öldür",
 	-- {area:1002} Three Corners
 	-- plural, as words: Redridge Mongrels = {npc:423} Redridge Mongrel · Great Goretusks = {npc:547} Great Goretusk · Dire Condors = {npc:428} Dire Condor
-	["Redridge Mongrels and Thrashers hold the hills east of {area:1002}, north of the road; Poachers camp south of the road. Great Goretusks root around the same hills and Dire Condors circle south of the lake; Tarantulas crawl round {area:1002}."] = "Redridge Mongrel ve Thrasher yaratıkları {area:1002} kavşağının doğusunda, yolun kuzeyindeki tepeleri tutuyor; Poacher'lar yolun güneyinde kamp kurmuş. Great Goretusk yaratıkları aynı tepelerde toprağı eşeliyor, Dire Condor yaratıkları gölün güneyinde daireler çiziyor; Tarantula yaratıkları {area:1002} kavşağının çevresinde dolaşıyor.",
+	["Redridge Mongrels and Thrashers hold the hills east of {area:1002}, north of the road; Poachers camp south of the road. Great Goretusks root around the same hills and Dire Condors circle south of the lake; Tarantulas crawl round {area:1002}."] = "Redridge Mongrel ve Thrasher yaratıkları {area:1002} kavşağının doğusunda, yolun kuzeyindeki tepeleri tutuyor. Poacher'lar yolun güneyinde kamp kurmuş. Great Goretusk yaratıkları aynı tepelerde toprağı eşeliyor, Dire Condor yaratıkları gölün güneyinde daireler çiziyor. Tarantula yaratıkları {area:1002} kavşağının çevresinde dolaşıyor.",
 	-- {item:280911} Spiked Collar
 	-- plural, as words: Redridge Thrashers = {npc:712} Redridge Thrasher
 	["{item:280911}: Redridge Thrashers"] = "{item:280911}: Redridge Thrasher yaratıkları",
@@ -214,26 +214,26 @@ return {
 
 	-- Step 39: Deputy Feldon
 	-- {npc:1070} Deputy Feldon
-	["East along the road to the gryphon master; {npc:1070} stands beside her."] = "Yol boyunca doğuya, grifon ustasına git; {npc:1070} onun yanında duruyor.",
+	["East along the road to the gryphon master; {npc:1070} stands beside her."] = "Yol boyunca doğuya, grifon ustasına git, {npc:1070} onun yanında duruyor.",
 
 	-- Step 40: Sunken Chest
 	-- {area:68} Lake Everstill · {item:1467} Spotted Sunfish
 	-- plural, as words: Murloc Flesheaters = {npc:422} Murloc Flesheater · Lake Threshers = {npc:14357} Lake Thresher
-	["Back toward town, swim east from the bridge into {area:68}; the chest lies on the lake bed beside a sunken boat. Murloc Flesheaters and Tidecallers line the south shore around it: any of them can carry a {item:1467}.\nCareful: Lake Threshers, level 25 elites, swim in the lake: keep your distance from them while you dive for the chest."] = "Kasabaya doğru dönerken köprüden doğuya, {area:68} gölüne yüz; sandık göl yatağında batık bir teknenin yanında. Çevresindeki güney kıyısında Murloc Flesheater ve Tidecaller yaratıkları dizili: herhangi biri {item:1467} taşıyabilir.\nDikkat: 25. seviye elit Lake Thresher yaratıkları gölde yüzüyor: sandık için dalarken onlardan uzak dur.",
+	["Back toward town, swim east from the bridge into {area:68}; the chest lies on the lake bed beside a sunken boat. Murloc Flesheaters and Tidecallers line the south shore around it: any of them can carry a {item:1467}.\nCareful: Lake Threshers, level 25 elites, swim in the lake: keep your distance from them while you dive for the chest."] = "Kasabaya doğru dönerken köprüden doğuya, {area:68} gölüne yüz. Sandık göl yatağında batık bir teknenin yanında. Çevresindeki güney kıyısında Murloc Flesheater ve Tidecaller yaratıkları dizili: herhangi biri {item:1467} taşıyabilir.\nDikkat: 25. seviye elit Lake Thresher yaratıkları gölde yüzüyor: sandık için dalarken onlardan uzak dur.",
 	-- {item:1309} Oslow's Toolbox
-	["{item:1309}; underwater"] = "{item:1309}; su altında",
+	["{item:1309}; underwater"] = "{item:1309}, su altında",
 
 	-- Step 41: Hilary's Necklace
 	-- {object:154357} Glinting Mud
-	["Then west under the bridge: a {object:154357} mound on the lake bed beside town holds the necklace. Only one mound shows at a time, anywhere from under the dock to past the bridge."] = "Sonra batıya, köprünün altına geç: kasabanın yanında, göl yatağındaki bir {object:154357} tümseğinde kolye var. Bir seferde yalnızca bir tümsek görünür; iskelenin altından köprünün ötesine kadar herhangi bir yerde olabilir.",
+	["Then west under the bridge: a {object:154357} mound on the lake bed beside town holds the necklace. Only one mound shows at a time, anywhere from under the dock to past the bridge."] = "Sonra batıya, köprünün altına geç: kasabanın yanında, göl yatağındaki bir {object:154357} tümseğinde kolye var. Bir seferde yalnızca bir tümsek görünür. İskelenin altından köprünün ötesine kadar herhangi bir yerde olabilir.",
 	-- {quest:3741} Hilary's Necklace
-	["{quest:3741}; underwater"] = "{quest:3741}; su altında",
+	["{quest:3741}; underwater"] = "{quest:3741}, su altında",
 
 	-- Step 42: Lakeshire
 	-- {npc:8962} Hilary · {npc:341} Foreman Oslow · {npc:381} Dockmaster Baren · {npc:342} Martie Jainrose · {npc:379} Darcy · {npc:343} Chef Breanna
-	["Through town east to west: {npc:8962} and {npc:341} at the north end of the bridge, {npc:381} on the docks, then {npc:342}'s garden at the west end; {npc:379} and {npc:343} are in the inn."] = "Kasabanın içinden doğudan batıya: {npc:8962} ve {npc:341} köprünün kuzey ucunda, {npc:381} iskelede, sonra batı uçta {npc:342} adlı NPC'nin bahçesi; {npc:379} ve {npc:343} handa.",
+	["Through town east to west: {npc:8962} and {npc:341} at the north end of the bridge, {npc:381} on the docks, then {npc:342}'s garden at the west end; {npc:379} and {npc:343} are in the inn."] = "Kasabanın içinden doğudan batıya: {npc:8962} ve {npc:341} köprünün kuzey ucunda, {npc:381} iskelede, sonra batı uçta {npc:342} adlı NPC'nin bahçesi. {npc:379} ve {npc:343} handa.",
 	-- {zone:1436} Westfall
-	["Its pikes and rivets come from the gnolls north of the lake, on the loop after {zone:1436}"] = "Mızrakları ve perçinleri gölün kuzeyindeki gnoll'lardan gelir; {zone:1436} sonrasındaki turda",
+	["Its pikes and rivets come from the gnolls north of the lake, on the loop after {zone:1436}"] = "Mızrakları ve perçinleri gölün kuzeyindeki gnoll'lardan gelir, {zone:1436} sonrasındaki turda",
 
 	-- Step 43: Dockmaster Baren
 	-- {npc:381} Dockmaster Baren · {quest:150} Murloc Poachers · {area:69} Lakeshire
@@ -275,9 +275,9 @@ return {
 
 	-- Step 50: Stormwind
 	-- {npc:332} Master Mathias Shaw · {object:2100} Old Town · {npc:466} General Marcus Jonathan · {object:2096} Trade District
-	["{npc:332} is upstairs in the SI:7 building in {object:2100}: the stairs are hard to see at first. {npc:466} sits on his horse at the far end of the bridge outside the main gate, then back to the gryphons in the {object:2096}."] = "{npc:332}, {object:2100} semtindeki SI:7 binasının üst katında: merdiveni ilk başta görmek zor. {npc:466}, ana kapının dışındaki köprünün öbür ucunda atının üstünde oturuyor; sonra {object:2096} içindeki grifonlara dön.",
+	["{npc:332} is upstairs in the SI:7 building in {object:2100}: the stairs are hard to see at first. {npc:466} sits on his horse at the far end of the bridge outside the main gate, then back to the gryphons in the {object:2096}."] = "{npc:332}, {object:2100} semtindeki SI:7 binasının üst katında: merdiveni ilk başta görmek zor. {npc:466}, ana kapının dışındaki köprünün öbür ucunda atının üstünde oturuyor, sonra {object:2096} içindeki grifonlara dön.",
 	-- {npc:332} Master Mathias Shaw
-	["{npc:332}, SI:7; upstairs"] = "{npc:332}, SI:7; üst katta",
+	["{npc:332}, SI:7; upstairs"] = "{npc:332}, SI:7, üst katta",
 
 	-- Step 51: Sentinel Hill
 	-- {npc:234} Gryan Stoutmantle
@@ -288,7 +288,7 @@ return {
 	["{area:20} and the Defias hills"] = "{area:20} köyü ve Defias tepeleri",
 	-- {area:20} Moonbrook · {area:1581} The Deadmines
 	-- plural, as words: Defias Pathstalkers = {npc:121} Defias Pathstalker
-	["Defias Pathstalkers and Knuckledusters walk {area:20}; Highwaymen (level 17) patrol the hills south and east of it in pairs: pull them apart. {area:1581} entrance in the smithy is a group dungeon.\nCareful: The camps in the hills hold mixed groups of Defias, so it is easy to pull more than one at a time if you are low level."] = "Defias Pathstalker ve Defias Knuckleduster yaratıkları {area:20} içinde dolaşıyor; Highwayman'ler (seviye 17) güneyindeki ve doğusundaki tepelerde ikişer ikişer devriye geziyor: onları birbirinden ayırarak çek. Demirci dükkânındaki {area:1581} girişi bir grup zindanı.\nDikkat: Tepelerdeki kamplarda karışık Defias grupları var, bu yüzden seviyen düşükse aynı anda birden fazlasını çekmek kolay.",
+	["Defias Pathstalkers and Knuckledusters walk {area:20}; Highwaymen (level 17) patrol the hills south and east of it in pairs: pull them apart. {area:1581} entrance in the smithy is a group dungeon.\nCareful: The camps in the hills hold mixed groups of Defias, so it is easy to pull more than one at a time if you are low level."] = "Defias Pathstalker ve Defias Knuckleduster yaratıkları {area:20} içinde dolaşıyor. Highwayman'lar (seviye 17) güneyindeki ve doğusundaki tepelerde ikişer ikişer devriye geziyor: onları birbirinden ayırarak çek. Demirci dükkânındaki {area:1581} girişi bir grup zindanı.\nDikkat: Tepelerdeki kamplarda karışık Defias grupları var, bu yüzden seviyen düşükse aynı anda birden fazlasını çekmek kolay.",
 	-- {item:254676} Suspicious Industrial Supplies · {area:20} Moonbrook
 	["{item:254676}, from the crates around {area:20}"] = "{item:254676}: {area:20} köyünün çevresindeki sandıklardan",
 
@@ -302,7 +302,7 @@ return {
 
 	-- Step 54: Half Pendant of Aquatic Endurance
 	-- {area:113} Gold Coast Quarry · {object:177790} Strange Lockbox
-	["Druids on Trial of the Sea Lion: from the {area:113}, west to the shore and north along it. The {object:177790} lies on the sea floor off the coast (about 18,33); then back south along the coast to the lighthouse."] = "Trial of the Sea Lion görevindeki Druid'ler için: {area:113} ocağından batıya, kıyıya ve kıyı boyunca kuzeye. {object:177790} kıyının açığında deniz dibinde (yaklaşık 18,33); sonra kıyı boyunca güneye, deniz fenerine dön.",
+	["Druids on Trial of the Sea Lion: from the {area:113}, west to the shore and north along it. The {object:177790} lies on the sea floor off the coast (about 18,33); then back south along the coast to the lighthouse."] = "Trial of the Sea Lion görevindeki Druid'ler için: {area:113} ocağından batıya, kıyıya ve kıyı boyunca kuzeye. {object:177790} kıyının açığında deniz dibinde (yaklaşık 18,33). Sonra kıyı boyunca güneye, deniz fenerine dön.",
 	-- {item:15882} Half Pendant of Aquatic Endurance · {object:177790} Strange Lockbox
 	["{item:15882}: the {object:177790}"] = "{item:15882}: {object:177790}",
 
@@ -319,23 +319,23 @@ return {
 
 	-- Step 57: Sentinel Hill
 	-- {area:108} Sentinel Hill · {npc:467} The Defias Traitor
-	["Back north up the road to {area:108}. {npc:467} waits at the foot of the tower ramp; if he is missing, someone is escorting him and he is back within minutes."] = "Yol boyunca kuzeye, {area:108} tepesine dön. {npc:467} kule rampasının dibinde bekliyor; orada değilse biri ona eşlik ediyordur, birkaç dakika içinde geri gelir.",
+	["Back north up the road to {area:108}. {npc:467} waits at the foot of the tower ramp; if he is missing, someone is escorting him and he is back within minutes."] = "Yol boyunca kuzeye, {area:108} tepesine dön. {npc:467} kule rampasının dibinde bekliyor. Orada değilse biri ona eşlik ediyordur, birkaç dakika içinde geri gelir.",
 
 	-- Step 58: The Defias Traitor
 	-- {area:20} Moonbrook
-	["Stay with the traitor as he walks south to {area:20}; he does not stop for fights, so clear what follows him. His walk ends at the Defias hideout below {area:20}."] = "Hain güneye, {area:20} köyüne yürürken yanında kal; dövüşler için durmaz, bu yüzden peşine düşenleri temizle. Yürüyüşü {area:20} köyünün altındaki Defias sığınağında biter.",
+	["Stay with the traitor as he walks south to {area:20}; he does not stop for fights, so clear what follows him. His walk ends at the Defias hideout below {area:20}."] = "Hain güneye, {area:20} köyüne yürürken yanında kal. Dövüşler için durmaz, bu yüzden peşine düşenleri temizle. Yürüyüşü {area:20} köyünün altındaki Defias sığınağında biter.",
 	-- {npc:467} The Defias Traitor
 	["{npc:467}, at the foot of the tower ramp"] = "{npc:467}, kule rampasının dibinde",
 
 	-- Step 59: Gryan Stoutmantle
 	-- {npc:234} Gryan Stoutmantle · {area:1581} The Deadmines · {npc:639} Edwin VanCleef · {npc:820} Scout Riell · {quest:214} Red Silk Bandanas
-	["Back north to {npc:234}. For your {area:1581} run he then sends you after {npc:639}, and {npc:820}, beside him at the top of the tower, wants {quest:214}. Look for a group now if you have none yet."] = "Kuzeye, {npc:234} yanına dön. {area:1581} koşun için seni {npc:639} peşine gönderir; kulenin tepesinde yanında duran {npc:820} de {quest:214} istiyor. Henüz grubun yoksa şimdi bir grup ara.",
+	["Back north to {npc:234}. For your {area:1581} run he then sends you after {npc:639}, and {npc:820}, beside him at the top of the tower, wants {quest:214}. Look for a group now if you have none yet."] = "Kuzeye, {npc:234} yanına dön. {area:1581} koşun için seni {npc:639} peşine gönderir. Kulenin tepesinde yanında duran {npc:820} de {quest:214} istiyor. Henüz grubun yoksa şimdi bir grup ara.",
 	-- {npc:820} Scout Riell
 	["{npc:820}, at the top of the tower"] = "{npc:820}, kulenin tepesinde",
 
 	-- Step 60: The Deadmines
 	-- {area:1581} The Deadmines · {area:20} Moonbrook · {quest:214} Red Silk Bandanas · {npc:639} Edwin VanCleef · {zone:1453} Stormwind
-	["{area:1581} is a dungeon for a group of five, about levels 17 to 24, and a full run takes about an hour. Its door is the mine below {area:20}, where the traitor led you: the portal is at the far end of the mine's tunnels.\nInside: the Defias drop the {quest:214}, and {npc:639} waits on the ship at the end. Open the Unsent Letter he drops: its quest goes to {zone:1453}, where this guide hands it in."] = "{area:1581}, yaklaşık 17-24. seviyedeki beş kişilik bir grup için bir zindan; tam bir koşu yaklaşık bir saat sürer. Kapısı, hainin seni götürdüğü {area:20} altındaki maden: portal madenin tünellerinin en ucunda.\nİçeride: Defias'lar {quest:214} düşürür, {npc:639} de sondaki gemide bekler. Onun düşürdüğü Unsent Letter'ı aç: görevi {zone:1453} şehrine gider ve bu rehber onu orada teslim eder.",
+	["{area:1581} is a dungeon for a group of five, about levels 17 to 24, and a full run takes about an hour. Its door is the mine below {area:20}, where the traitor led you: the portal is at the far end of the mine's tunnels.\nInside: the Defias drop the {quest:214}, and {npc:639} waits on the ship at the end. Open the Unsent Letter he drops: its quest goes to {zone:1453}, where this guide hands it in."] = "{area:1581}, yaklaşık 17-24. seviyedeki beş kişilik bir grup için bir zindan. Tam bir koşu yaklaşık bir saat sürer. Kapısı, hainin seni götürdüğü {area:20} altındaki maden: portal madenin tünellerinin en ucunda.\nİçeride: Defias'lar {quest:214} düşürür, {npc:639} de sondaki gemide bekler. Düşürdüğü Unsent Letter'ı aç: görevi {zone:1453} şehrine gider ve bu rehber onu orada teslim eder.",
 	-- {item:915} Red Silk Bandana
 	["{item:915}: the Defias"] = "{item:915}: Defias'lar",
 
@@ -364,7 +364,7 @@ return {
 	-- Step 66: Redridge Canyons
 	-- {spell:133} Fireball
 	-- plural, as words: Redridge Brutes = {npc:426} Redridge Brute · Iron Pikes = {item:2856} Iron Pike · Black Dragon Whelps = {npc:441} Black Dragon Whelp
-	["Redridge Brutes and Mystics hold the hills north and north-west of town; both carry the Iron Pikes and Rivets. Black Dragon Whelps nest in the same hills.\nCareful: The whelps cast {spell:133} from range, and the gnolls run for help at low health."] = "Redridge Brute ve Mystic yaratıkları kasabanın kuzeyindeki ve kuzeybatısındaki tepeleri tutuyor; ikisi de Iron Pike ve Rivet taşır. Black Dragon Whelp yaratıkları aynı tepelerde yuva yapmış.\nDikkat: yavrular uzaktan {spell:133} atar, gnoll'lar da canları azalınca yardım çağırmaya kaçar.",
+	["Redridge Brutes and Mystics hold the hills north and north-west of town; both carry the Iron Pikes and Rivets. Black Dragon Whelps nest in the same hills.\nCareful: The whelps cast {spell:133} from range, and the gnolls run for help at low health."] = "Redridge Brute ve Mystic yaratıkları kasabanın kuzeyindeki ve kuzeybatısındaki tepeleri tutuyor. İkisi de Iron Pike ve Rivet taşır. Black Dragon Whelp yaratıkları aynı tepelerde yuva yapmış.\nDikkat: yavrular uzaktan {spell:133} atar, gnoll'lar da canları azalınca yardım çağırmaya kaçar.",
 	-- {item:1221} Underbelly Whelp Scale
 	-- plural, as words: Black Dragon Whelps = {npc:441} Black Dragon Whelp
 	["{item:1221}: Black Dragon Whelps"] = "{item:1221}: Black Dragon Whelp yaratıkları",
@@ -377,7 +377,7 @@ return {
 
 	-- Step 68: Fly to Stormwind
 	-- {area:442} Auberdine · {zone:1439} Darkshore · {zone:1453} Stormwind
-	["Back to {area:442} for {zone:1439}'s southern loops: the gryphon to {zone:1453}, then the boat from the harbour. Hearthstone ready (bound in {area:442} since the first {zone:1439} visit)? Use it instead: these steps drop once you are in {zone:1439}."] = "{zone:1439} bölgesinin güney turları için {area:442} kasabasına dön: grifonla {zone:1453} şehrine, sonra limandan gemiye. Hearthstone hazır mı (ilk {zone:1439} ziyaretinden beri {area:442} kasabasına bağlı)? Onun yerine onu kullan: {zone:1439} bölgesine varınca bu adımlar düşer.",
+	["Back to {area:442} for {zone:1439}'s southern loops: the gryphon to {zone:1453}, then the boat from the harbour. Hearthstone ready (bound in {area:442} since the first {zone:1439} visit)? Use it instead: these steps drop once you are in {zone:1439}."] = "{zone:1439} bölgesinin güney turları için {area:442} kasabasına dön: grifonla {zone:1453} şehrine, sonra limandan gemiye. Hearthstone hazır mı (ilk {zone:1439} ziyaretinden beri {area:442} kasabasına bağlı)? O zaman onu kullan: {zone:1439} bölgesine varınca bu adımlar düşer.",
 	-- {area:69} Lakeshire
 	["{area:69} flight master"] = "{area:69} uçuş ustası",
 
@@ -403,7 +403,7 @@ return {
 
 	-- Step 73: Baros Alexston
 	-- {npc:1646} Baros Alexston · {quest:389} Bazil Thredd · {area:717} Stockade
-	["{npc:1646}, the city architect, is on your way west to the harbour. His next errand, {quest:389}, leads into the {area:717}: it is for a {area:717} run at about 29, so leave it unless you chose that dungeon."] = "Şehrin mimarı {npc:1646}, batıya, limana giden yolunun üstünde. Sonraki işi {quest:389} seni {area:717} içine götürür: yaklaşık 29. seviyedeki bir {area:717} koşusu için; o zindanı seçmediysen bırak.",
+	["{npc:1646}, the city architect, is on your way west to the harbour. His next errand, {quest:389}, leads into the {area:717}: it is for a {area:717} run at about 29, so leave it unless you chose that dungeon."] = "Şehrin mimarı {npc:1646}, batıya, limana giden yolunun üstünde. Sonraki işi {quest:389} seni {area:717} içine götürür: yaklaşık 29. seviyedeki bir {area:717} koşusu için, o zindanı seçmediysen bırak.",
 
 	-- Step 74: Baros Alexston
 	-- {area:717} Stockade · {zone:1453} Stormwind

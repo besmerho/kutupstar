@@ -5,12 +5,12 @@
 return {
 	-- Guide
 	["Arathi Basin Reputation"] = "Arathi Basin itibarı",
-	["Every 200 resources your team gathers pays it; Exalted gives a Legacy Point, epic shoulders and the tabard."] = "Takımının topladığı her 200 kaynak itibar öder; Exalted bir Legacy Point, epik omuzluklar ve tabard verir.",
+	["Every 200 resources your team gathers pays it; Exalted gives a Legacy Point, epic shoulders and the tabard."] = "Takımının topladığı her 200 kaynak itibar öder. Exalted bir Legacy Point, epik omuzluklar ve tabard verir.",
 	["Master of Arathi Basin: a Legacy Point at Exalted"] = "Master of Arathi Basin: Exalted'da bir Legacy Point",
 
 	-- Step 1: Refuge Pointe
 	-- {zone:1461} Arathi Basin
-	["{zone:1461} is a 15 against 15 battle over five bases, from level 20: hold bases to gather resources, and the first team to 2000 wins. Queue at any battlemaster in the capitals or from the battleground screen. In Classic every 200 resources your team gathers pay everyone 10 reputation, so a win pays 100 and a close loss nearly as much; a game also pays 3 Arathi Basin Marks of Honor for a win, 1 for a loss. The three quests here pay 500 reputation together (200, 200 and 100), once. Forever's Legacy Diplomat perk adds up to 10% to every number in this guide."] = "{zone:1461}, seviye 20'den itibaren beş üs için 15'e 15 bir savaş: kaynak toplamak için üsleri tut, 2000'e ilk ulaşan takım kazanır. Başkentlerdeki herhangi bir battlemaster'da ya da savaş alanı ekranından sıraya gir. Classic'te takımının topladığı her 200 kaynak herkese 10 itibar öderdi, bu yüzden bir galibiyet 100, kıl payı bir yenilgi de neredeyse o kadar öder; bir oyun ayrıca galibiyette 3, yenilgide 1 Arathi Basin Mark of Honor öder. Buradaki üç görev bir kez toplam 500 itibar öder (200, 200 ve 100). Forever'ın Legacy Diplomat yeteneği bu rehberdeki her sayıya %10'a kadar ekler.",
+	["{zone:1461} is a 15 against 15 battle over five bases, from level 20: hold bases to gather resources, and the first team to 2000 wins. Queue at any battlemaster in the capitals or from the battleground screen. In Classic every 200 resources your team gathers pay everyone 10 reputation, so a win pays 100 and a close loss nearly as much; a game also pays 3 Arathi Basin Marks of Honor for a win, 1 for a loss. The three quests here pay 500 reputation together (200, 200 and 100), once. Forever's Legacy Diplomat perk adds up to 10% to every number in this guide."] = "{zone:1461}, seviye 20'den itibaren beş üs için 15'e 15 bir savaş: kaynak toplamak için üsleri tut, 2000'e ilk ulaşan takım kazanır. Başkentlerdeki herhangi bir battlemaster'da ya da battleground ekranından sıraya gir. Classic'te takımının topladığı her 200 kaynak herkese 10 itibar öderdi, bu yüzden bir galibiyet 100, kıl payı bir yenilgi de neredeyse o kadar öder. Bir oyun ayrıca galibiyette 3, yenilgide 1 Arathi Basin Mark of Honor öder. Buradaki üç görev bir kez toplam 500 itibar öder (200, 200 ve 100). Forever'ın Legacy Diplomat yeteneği bu rehberdeki her sayıya %10'a kadar ekler.",
 	-- {npc:14983} Field Marshal Oslight
 	["{npc:14983}: assault four bases, 200"] = "{npc:14983}: dört üsse saldır, 200",
 	-- {npc:14984} Sergeant Maclear
@@ -38,9 +38,9 @@ return {
 	-- Step 4: League of Arathor to Friendly
 	["League of Arathor to Friendly"] = "League of Arathor: Friendly olana kadar",
 	-- {quest:8374} Claiming Arathi Basin · {area:320} Refuge Pointe
-	["Neutral to Friendly is 3000 reputation. In Classic a win paid 100 and its 3 marks bring 50 more at the Brigadier General ({quest:8374}, again and again): about 150 a win, some 20 wins. Forever has not published its battleground rates, so count the games as a rough guide. Below level 50 the quests at {area:320} come in a version for your bracket (from level 20): 200 for assaulting the bases, 200 for one mark, then 100 and 50 per 3 marks at the Brigadier General."] = "Neutral'dan Friendly'ye 3000 itibar. Classic'te bir galibiyet 100 öderdi ve 3 markası Brigadier General'da 50 daha getirir ({quest:8374}, tekrar tekrar): galibiyet başına yaklaşık 150, yaklaşık 20 galibiyet. Forever savaş alanı oranlarını yayımlamadı, bu yüzden oyun sayılarını kaba bir yol gösterici say. 50. seviyenin altında {area:320} karakolundaki görevler senin aralığına göre bir sürümle gelir (20. seviyeden): üslere saldırmak için 200, bir marka için 200, sonra Brigadier General'da her 3 marka için 100 ve 50.",
+	["Neutral to Friendly is 3000 reputation. In Classic a win paid 100 and its 3 marks bring 50 more at the Brigadier General ({quest:8374}, again and again): about 150 a win, some 20 wins. Forever has not published its battleground rates, so count the games as a rough guide. Below level 50 the quests at {area:320} come in a version for your bracket (from level 20): 200 for assaulting the bases, 200 for one mark, then 100 and 50 per 3 marks at the Brigadier General."] = "Neutral'dan Friendly'ye 3000 itibar. Classic'te bir galibiyet 100 öderdi ve 3 mark'ı Brigadier General'da 50 daha getirir ({quest:8374}, tekrar tekrar): galibiyet başına yaklaşık 150, yaklaşık 20 galibiyet. Forever battleground oranlarını yayımlamadı, bu yüzden oyun sayılarını kaba bir yol gösterici say. 50. seviyenin altında {area:320} karakolundaki görevler senin aralığına göre bir sürümle gelir (20. seviyeden): üslere saldırmak için 200, bir marka için 200, sonra Brigadier General'da her 3 mark için 100 ve 50.",
 	-- {npc:15351} Alliance Brigadier General · {quest:8374} Claiming Arathi Basin
-	["{npc:15351}: {quest:8374} again, 50 reputation for 3 marks"] = "{npc:15351}: yine {quest:8374}, 3 nişan için 50 itibar",
+	["{npc:15351}: {quest:8374} again, 50 reputation for 3 marks"] = "{npc:15351}: yine {quest:8374}, 3 mark için 50 itibar",
 
 	-- Step 5: Control Four Bases
 	-- {npc:14983} Field Marshal Oslight · {quest:8115} Control Five Bases
@@ -50,11 +50,11 @@ return {
 	-- Step 6: League of Arathor to Honored
 	["League of Arathor to Honored"] = "League of Arathor: Honored olana kadar",
 	-- {npc:15127} Samuel Hawke · {npc:14983} Field Marshal Oslight · {item:20071} Talisman of Arathor · {zone:1461} Arathi Basin
-	["Friendly to Honored is 6000 reputation, about 40 wins at the Classic rate. Friendly opens the first rewards at {npc:15127} beside {npc:14983}: the {item:20071} trinket for levels 28, 38, 48 and 58 (72s to 4g12s), and food and bandages that work in {zone:1461} (10s to 20s). He also gives one Arathor care package at Friendly (pick the one for your level): 10 reputation and a bag of battleground food and bandages."] = "Friendly'den Honored'a 6000 itibar, Classic oranıyla yaklaşık 40 galibiyet. Friendly, {npc:14983} yanındaki {npc:15127} satıcısında ilk ödülleri açar: seviye 28, 38, 48 ve 58 için {item:20071} trinket'i (72s ila 4g12s) ve {zone:1461} içinde işe yarayan yiyecek ve sargılar (10s ila 20s). Friendly'de bir Arathor bakım paketi de verir (seviyene uygun olanı seç): 10 itibar ve bir torba savaş alanı yiyeceği ve sargısı.",
+	["Friendly to Honored is 6000 reputation, about 40 wins at the Classic rate. Friendly opens the first rewards at {npc:15127} beside {npc:14983}: the {item:20071} trinket for levels 28, 38, 48 and 58 (72s to 4g12s), and food and bandages that work in {zone:1461} (10s to 20s). He also gives one Arathor care package at Friendly (pick the one for your level): 10 reputation and a bag of battleground food and bandages."] = "Friendly'den Honored'a 6000 itibar, Classic oranıyla yaklaşık 40 galibiyet. Friendly, {npc:14983} yanındaki {npc:15127} satıcısında ilk ödülleri açar: seviye 28, 38, 48 ve 58 için {item:20071} trinket'i (72s ila 4g12s) ve {zone:1461} içinde işe yarayan yiyecek ve sargılar (10s ila 20s). Friendly'de bir Arathor bakım paketi de verir (seviyene uygun olanı seç): 10 itibar ve bir torba battleground yiyeceği ve sargısı.",
 	-- {npc:15127} Samuel Hawke
 	["{npc:15127}: Friendly rewards"] = "{npc:15127}: Friendly ödülleri",
 	-- {npc:15351} Alliance Brigadier General
-	["{npc:15351}: 50 reputation for 3 marks"] = "{npc:15351}: 3 nişan için 50 itibar",
+	["{npc:15351}: 50 reputation for 3 marks"] = "{npc:15351}: 3 mark için 50 itibar",
 
 	-- Step 7: League of Arathor to Revered
 	["League of Arathor to Revered"] = "League of Arathor: Revered olana kadar",
@@ -100,9 +100,9 @@ return {
 	-- {faction:510} The Defilers
 	["{faction:510} to Friendly"] = "{faction:510}: Friendly olana kadar",
 	-- {quest:8370} Conquering Arathi Basin · {area:321} Hammerfall
-	["Neutral to Friendly is 3000 reputation. In Classic a win paid 100 and its 3 marks bring 50 more at the Warbringer ({quest:8370}, again and again): about 150 a win, some 20 wins. Forever has not published its battleground rates, so count the games as a rough guide. Below level 50 the quests at {area:321} come in a version for your bracket (from level 20): 200 for assaulting the bases, 200 for one mark, then 100 and 50 per 3 marks at the Warbringer."] = "Neutral'dan Friendly'ye 3000 itibar. Classic'te bir galibiyet 100 öderdi ve 3 markası Warbringer'da 50 daha getirir ({quest:8370}, tekrar tekrar): galibiyet başına yaklaşık 150, yaklaşık 20 galibiyet. Forever savaş alanı oranlarını yayımlamadı, bu yüzden oyun sayılarını kaba bir yol gösterici say. 50. seviyenin altında {area:321} kasabasındaki görevler senin aralığına göre bir sürümle gelir (20. seviyeden): üslere saldırmak için 200, bir marka için 200, sonra Warbringer'da her 3 marka için 100 ve 50.",
+	["Neutral to Friendly is 3000 reputation. In Classic a win paid 100 and its 3 marks bring 50 more at the Warbringer ({quest:8370}, again and again): about 150 a win, some 20 wins. Forever has not published its battleground rates, so count the games as a rough guide. Below level 50 the quests at {area:321} come in a version for your bracket (from level 20): 200 for assaulting the bases, 200 for one mark, then 100 and 50 per 3 marks at the Warbringer."] = "Neutral'dan Friendly'ye 3000 itibar. Classic'te bir galibiyet 100 öderdi ve 3 mark'ı Warbringer'da 50 daha getirir ({quest:8370}, tekrar tekrar): galibiyet başına yaklaşık 150, yaklaşık 20 galibiyet. Forever battleground oranlarını yayımlamadı, bu yüzden oyun sayılarını kaba bir yol gösterici say. 50. seviyenin altında {area:321} kasabasındaki görevler senin aralığına göre bir sürümle gelir (20. seviyeden): üslere saldırmak için 200, bir marka için 200, sonra Warbringer'da her 3 mark için 100 ve 50.",
 	-- {npc:15350} Horde Warbringer · {quest:8370} Conquering Arathi Basin
-	["{npc:15350}: {quest:8370} again, 50 reputation for 3 marks"] = "{npc:15350}: yine {quest:8370}, 3 nişan için 50 itibar",
+	["{npc:15350}: {quest:8370} again, 50 reputation for 3 marks"] = "{npc:15350}: yine {quest:8370}, 3 mark için 50 itibar",
 
 	-- Step 15: Take Four Bases
 	-- {npc:15021} Deathmaster Dwire · {quest:8122} Take Five Bases
@@ -112,11 +112,11 @@ return {
 	-- {faction:510} The Defilers
 	["{faction:510} to Honored"] = "{faction:510}: Honored olana kadar",
 	-- {npc:15126} Rutherford Twing · {npc:15021} Deathmaster Dwire · {item:20072} Defiler's Talisman · {zone:1461} Arathi Basin
-	["Friendly to Honored is 6000 reputation, about 40 wins at the Classic rate. Friendly opens the first rewards at {npc:15126} beside {npc:15021}: the {item:20072} trinket for levels 28, 38, 48 and 58 (72s to 4g12s), and food and bandages that work in {zone:1461} (10s to 20s). He also gives one Defiler's care package at Friendly (pick the one for your level): 10 reputation and a bag of battleground food and bandages."] = "Friendly'den Honored'a 6000 itibar, Classic oranıyla yaklaşık 40 galibiyet. Friendly, {npc:15021} yanındaki {npc:15126} satıcısında ilk ödülleri açar: seviye 28, 38, 48 ve 58 için {item:20072} trinket'i (72s ila 4g12s) ve {zone:1461} içinde işe yarayan yiyecek ve sargılar (10s ila 20s). Friendly'de bir Defiler's bakım paketi de verir (seviyene uygun olanı seç): 10 itibar ve bir torba savaş alanı yiyeceği ve sargısı.",
+	["Friendly to Honored is 6000 reputation, about 40 wins at the Classic rate. Friendly opens the first rewards at {npc:15126} beside {npc:15021}: the {item:20072} trinket for levels 28, 38, 48 and 58 (72s to 4g12s), and food and bandages that work in {zone:1461} (10s to 20s). He also gives one Defiler's care package at Friendly (pick the one for your level): 10 reputation and a bag of battleground food and bandages."] = "Friendly'den Honored'a 6000 itibar, Classic oranıyla yaklaşık 40 galibiyet. Friendly, {npc:15021} yanındaki {npc:15126} satıcısında ilk ödülleri açar: seviye 28, 38, 48 ve 58 için {item:20072} trinket'i (72s ila 4g12s) ve {zone:1461} içinde işe yarayan yiyecek ve sargılar (10s ila 20s). Friendly'de bir Defiler's bakım paketi de verir (seviyene uygun olanı seç): 10 itibar ve bir torba battleground yiyeceği ve sargısı.",
 	-- {npc:15126} Rutherford Twing
 	["{npc:15126}: Friendly rewards"] = "{npc:15126}: Friendly ödülleri",
 	-- {npc:15350} Horde Warbringer
-	["{npc:15350}: 50 reputation for 3 marks"] = "{npc:15350}: 3 nişan için 50 itibar",
+	["{npc:15350}: 50 reputation for 3 marks"] = "{npc:15350}: 3 mark için 50 itibar",
 
 	-- Step 17: The Defilers to Revered
 	-- {faction:510} The Defilers

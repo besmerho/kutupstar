@@ -26,7 +26,7 @@ return {
 
 	-- Step 6: Father Tuttle
 	-- {npc:255597} Father Tuttle · {area:657} Harborage
-	["North-west of Watcher Biggs, {npc:255597} (level 34) waits by the road: lead him north to the {area:657}, on your way there. Stay close to him and clear what attacks him; if he falls, abandon the quest and go on."] = "Watcher Biggs'in kuzeybatısında {npc:255597} (seviye 34) yolun kenarında bekliyor: oraya giderken onu kuzeye, {area:657} köyüne götür. Yakınında kal ve ona saldıranı temizle; düşerse görevden vazgeç ve devam et.",
+	["North-west of Watcher Biggs, {npc:255597} (level 34) waits by the road: lead him north to the {area:657}, on your way there. Stay close to him and clear what attacks him; if he falls, abandon the quest and go on."] = "Watcher Biggs'in kuzeybatısında {npc:255597} (seviye 34) yolun kenarında bekliyor: oraya giderken onu kuzeye, {area:657} köyüne götür. Yakınında kal ve ona saldıranı temizle. Düşerse görevden vazgeç ve devam et.",
 
 	-- Step 7: Harborage
 	-- {area:657} Harborage · {npc:254775} Karana · {npc:254770} Pelluk · {npc:1776} Magtoor · {area:76} Fallow Sanctuary
@@ -38,7 +38,7 @@ return {
 	-- Step 8: Fallow Sanctuary
 	-- {area:76} Fallow Sanctuary · {quest:1389} Draenethyst Crystals · {npc:254797} Lost One · {npc:254775} Karana · {npc:254770} Pelluk · {item:258530} Lucky Lure · {quest:1392} Noboru the Cudgel · {npc:1776} Magtoor
 	-- plural, as words: Lost Ones = {npc:254797} Lost One
-	["East along the road to the {area:76}. The {quest:1389} are the glowing blue crystals among the Lost Ones' tents: click them. Any {npc:254797} counts for {npc:254775}, and the Lost One Fishermen on the sanctuary's west side carry {npc:254770}'s {item:258530}. {quest:1392} walks a long path through the ruins; his cudgel starts a quest for {npc:1776}. Don't wait for him.\nCareful: Noboru is level 39, two over you here: fight him only with a friend or from level 38; otherwise let him pass."] = "Yol boyunca doğuya, {area:76} sığınağına git. {quest:1389}, Lost One çadırlarının arasındaki parlayan mavi kristaller: onlara tıkla. Her {npc:254797} {npc:254775} için sayılır; sığınağın batı yakasındaki Lost One Fisherman yaratıkları da {npc:254770} için {item:258530} taşıyor. {quest:1392} harabelerin içinde uzun bir yol yürür; sopası {npc:1776} için bir görev başlatır. Onu bekleme.\nDikkat: Noboru 39. seviye, burada senden iki seviye yüksek: onunla yalnızca bir arkadaşla ya da 38. seviyeden sonra dövüş; yoksa geçmesine izin ver.",
+	["East along the road to the {area:76}. The {quest:1389} are the glowing blue crystals among the Lost Ones' tents: click them. Any {npc:254797} counts for {npc:254775}, and the Lost One Fishermen on the sanctuary's west side carry {npc:254770}'s {item:258530}. {quest:1392} walks a long path through the ruins; his cudgel starts a quest for {npc:1776}. Don't wait for him.\nCareful: Noboru is level 39, two over you here: fight him only with a friend or from level 38; otherwise let him pass."] = "Yol boyunca doğuya, {area:76} sığınağına git. {quest:1389}, Lost One çadırlarının arasındaki parlayan mavi kristaller: onlara tıkla. Her {npc:254797} {npc:254775} için sayılır. Sığınağın batı yakasındaki Lost One Fisherman yaratıkları da {npc:254770} için {item:258530} taşıyor. {quest:1392} harabelerin içinde uzun bir yol yürür. Sopası {npc:1776} için bir görev başlatır. Onu bekleme.\nDikkat: Noboru 39. seviye, burada senden iki seviye yüksek: onunla yalnızca bir arkadaşla ya da 38. seviyeden sonra dövüş, yoksa geçmesine izin ver.",
 	-- {quest:1392} Noboru the Cudgel
 	["from {quest:1392}: he walks a path through the ruins"] = "kaynak: {quest:1392}: harabelerin içinden bir yol yürür",
 	-- {item:6071} Draenethyst Crystal
@@ -56,7 +56,7 @@ return {
 	-- Step 10: Galen Goodward
 	-- {npc:5391} Galen Goodward
 	-- plural, as words: Lost One Riftseekers = {npc:762} Lost One Riftseeker · Lost Ones = {npc:254797} Lost One
-	["{npc:5391} is caged at the north end of the sanctuary. Free him and keep him alive on the walk out; his strongbox waits by the road afterwards. Careful: on the walk out the camp's Lost One Riftseekers (37-38) and their pets, with the Lost Ones around them, turn on {npc:5391}: clear the cage and the start of his path first, stay beside him and pull every attacker onto yourself. Many players lose him the first time; if he dies, abandon the quest and take it again at his cage."] = "{npc:5391} sığınağın kuzey ucunda kafeste. Onu serbest bırak ve çıkış yolunda hayatta tut; kasası sonra yolun kenarında bekler. Dikkat: çıkış yolunda kampın Lost One Riftseeker yaratıkları (37-38) ve evcil hayvanları, çevrelerindeki Lost One'larla birlikte {npc:5391} yaratığına saldırır: önce kafesi ve yolunun başını temizle, yanında kal ve her saldıranı kendi üstüne çek. Çoğu oyuncu ilk seferinde onu kaybeder; ölürse görevden vazgeç ve kafesinde yeniden al.",
+	["{npc:5391} is caged at the north end of the sanctuary. Free him and keep him alive on the walk out; his strongbox waits by the road afterwards. Careful: on the walk out the camp's Lost One Riftseekers (37-38) and their pets, with the Lost Ones around them, turn on {npc:5391}: clear the cage and the start of his path first, stay beside him and pull every attacker onto yourself. Many players lose him the first time; if he dies, abandon the quest and take it again at his cage."] = "{npc:5391} sığınağın kuzey ucunda kafeste. Onu serbest bırak ve çıkış yolunda hayatta tut. Kasası sonra yolun kenarında bekler. Dikkat: çıkış yolunda kampın Lost One Riftseeker yaratıkları (37-38) ve evcil hayvanları, çevrelerindeki Lost One'larla birlikte {npc:5391} yaratığına saldırır: önce kafesi ve yolunun başını temizle, yanında kal ve her saldıranı kendi üstüne çek. Çoğu oyuncu ilk seferinde onu kaybeder. Ölürse görevden vazgeç ve kafesinde yeniden al.",
 
 	-- Step 11: Harborage
 	-- {npc:5391} Galen Goodward · {area:657} Harborage
@@ -116,7 +116,7 @@ return {
 
 	-- Step 23: Shadowy Assassin
 	-- {npc:2434} Shadowy Assassin · {area:271} Southshore · {npc:2276} Magistrate Henry Maleb
-	["A {npc:2434} (37-38) lurks stealthed on the edge of {area:271}, and few players find him. Careful: he is a level or two over you; fight him only at full health, or leave him. His contract goes to {npc:2276}. Don't wait for him: the rest of this step doesn't need him."] = "Bir {npc:2434} (37-38) {area:271} kasabasının kenarında gizlenmiş pusuda bekliyor ve onu az oyuncu bulur. Dikkat: senden bir iki seviye yüksek; onunla yalnızca tam canla dövüş ya da bırak. Sözleşmesi {npc:2276} yanına gider. Onu bekleme: bu adımın geri kalanı ona bağlı değil.",
+	["A {npc:2434} (37-38) lurks stealthed on the edge of {area:271}, and few players find him. Careful: he is a level or two over you; fight him only at full health, or leave him. His contract goes to {npc:2276}. Don't wait for him: the rest of this step doesn't need him."] = "Bir {npc:2434} (37-38) {area:271} kasabasının kenarında gizlenmiş pusuda bekliyor ve onu az oyuncu bulur. Dikkat: senden bir iki seviye yüksek. Onunla yalnızca tam canla dövüş ya da bırak. Sözleşmesi {npc:2276} yanına gider. Onu bekleme: bu adımın geri kalanı ona bağlı değil.",
 	-- {npc:2434} Shadowy Assassin
 	["{npc:2434}, if you spot him"] = "{npc:2434}, görürsen",
 	-- {npc:2276} Magistrate Henry Maleb
@@ -138,7 +138,7 @@ return {
 
 	-- Step 29: Northfold Manor
 	-- {area:320} Refuge Pointe
-	["The Syndicate hold the farm north-west of {area:320}.\nCareful: Syndicate Highwaymen are level 30-31 and can cast Sneak while out of combat, so they are often stealthed and hard to spot."] = "Syndicate, {area:320} kalesinin kuzeybatısındaki çiftliği tutuyor.\nDikkat: Syndicate Highwayman yaratıkları seviye 30-31 ve savaş dışındayken Sneak kullanabilir; sık sık gizlenirler ve fark etmesi zordur.",
+	["The Syndicate hold the farm north-west of {area:320}.\nCareful: Syndicate Highwaymen are level 30-31 and can cast Sneak while out of combat, so they are often stealthed and hard to spot."] = "Syndicate, {area:320} kalesinin kuzeybatısındaki çiftliği tutuyor.\nDikkat: Syndicate Highwayman yaratıkları seviye 30-31 ve savaş dışındayken Sneak kullanabilir, sık sık gizlenirler ve fark etmesi zordur.",
 
 	-- Step 30: Hay Weevil
 	-- {quest:681} Northfold Manor · {npc:217412} Amaryllis Webb · {item:213565} Entomology Starter Kit
@@ -147,7 +147,7 @@ return {
 
 	-- Step 31: Shards of Myzrael
 	-- {quest:681} Northfold Manor · {area:333} Circle of East Binding · {area:314} Go'Shek Farm
-	["East from {quest:681} across the north of the Highlands; the shards glitter on the hill by the {area:333}, north of {area:314}."] = "{quest:681} çiftliğinden doğuya, Highlands'in kuzeyinden geç; parçalar {area:314} çiftliğinin kuzeyinde, {area:333} yanındaki tepede parıldıyor.",
+	["East from {quest:681} across the north of the Highlands; the shards glitter on the hill by the {area:333}, north of {area:314}."] = "{quest:681} çiftliğinden doğuya, Highlands'in kuzeyinden geç. Parçalar {area:314} çiftliğinin kuzeyinde, {area:333} yanındaki tepede parıldıyor.",
 	["Only if Gluggle gave you the pendant in Stranglethorn"] = "Yalnızca Stranglethorn'da Gluggle'dan kolyeyi aldıysan",
 
 	-- Step 32: Drywhisker Gorge: kill these as you meet them
@@ -155,7 +155,7 @@ return {
 	["{area:318}: kill these as you meet them"] = "{area:318}: bunları karşılaştıkça öldür",
 	-- {area:321} Hammerfall · {skill:186} Mining
 	-- plural, as words: Lesser Bloodstone Deposits = {object:2653} Lesser Bloodstone Deposit
-	["The Drywhisker kobolds dig in the gorge east of {area:321} (Horde); skirt the town to the north. They drop the Motes of Myzrael, not Krazek's ore. Lesser Bloodstone Deposits need {skill:186} 75: mine four ore, buy them at the Auction House, or ask a miner friend. The ore goal is optional; continue with Myzrael if you cannot get it. Careful: Every kobold type runs off for help when low on health (Kobolds at 30%, Surveyors and Diggers at 15%), which can pull more of them."] = "Drywhisker kobold'ları {area:321} kasabasının (Horde) doğusundaki geçitte kazı yapıyor; kasabayı kuzeyden dolaş. Motes of Myzrael düşürürler, Krazek'in cevherini değil. Lesser Bloodstone Deposit için {skill:186} 75 gerekir: dört cevher kaz, müzayede evinden al ya da madenci bir arkadaşından iste. Cevher hedefi isteğe bağlı; bulamıyorsan Myzrael ile devam et. Dikkat: Her kobold türü canı azalınca yardım için kaçar (Kobold'lar %30'da, Surveyor ve Digger'lar %15'te), bu da daha fazlasını çekebilir.",
+	["The Drywhisker kobolds dig in the gorge east of {area:321} (Horde); skirt the town to the north. They drop the Motes of Myzrael, not Krazek's ore. Lesser Bloodstone Deposits need {skill:186} 75: mine four ore, buy them at the Auction House, or ask a miner friend. The ore goal is optional; continue with Myzrael if you cannot get it. Careful: Every kobold type runs off for help when low on health (Kobolds at 30%, Surveyors and Diggers at 15%), which can pull more of them."] = "Drywhisker kobold'ları {area:321} kasabasının (Horde) doğusundaki geçitte kazı yapıyor. Kasabayı kuzeyden dolaş. Motes of Myzrael düşürürler, Krazek'in cevherini değil. Lesser Bloodstone Deposit için {skill:186} 75 gerekir: dört cevher kaz, Auction House'tan al ya da madenci bir arkadaşından iste. Cevher hedefi isteğe bağlı. Bulamıyorsan Myzrael ile devam et. Dikkat: Her kobold türü canı azalınca yardım için kaçar (Kobold'lar %30'da, Surveyor ve Digger'lar %15'te), bu da daha fazlasını çekebilir.",
 	-- {item:4435} Mote of Myzrael · {npc:2572} Drywhisker Kobold · {npc:2573} Drywhisker Surveyor · {npc:2574} Drywhisker Digger
 	["{item:4435} from {npc:2572}, {npc:2573} and {npc:2574}, by this stop"] = "{item:4435}: bu durağın yakınındaki {npc:2572}, {npc:2573} ve {npc:2574} yaratıklarından",
 
@@ -173,11 +173,11 @@ return {
 	-- {area:318} Drywhisker Gorge · {area:314} Go'Shek Farm · {area:317} Witherbark Village
 	["South from {area:318}, past {area:314}, to {area:317} in the hills: the Witch Doctors stand among the huts and the Shadow Hunters guard the far end of the valley. Every troll can drop a tusk."] = "{area:318} geçidinden güneye, {area:314} çiftliğini geçip tepelerdeki {area:317} köyüne git: Witch Doctor'lar kulübelerin arasında duruyor, Shadow Hunter'lar da vadinin en ucunu koruyor. Her troll fildişi düşürebilir.",
 	-- {item:5040} Shadow Hunter Knife
-	["{item:5040}; below ground"] = "{item:5040}; yer altında",
+	["{item:5040}; below ground"] = "{item:5040}, yer altında",
 
 	-- Step 36: Quae
 	-- {npc:2712} Quae · {npc:2713} Kinelory · {area:314} Go'Shek Farm
-	["North-west out of the Witherbark valley; {npc:2712} and {npc:2713} camp in the hills just north of {area:314}."] = "Witherbark vadisinden kuzeybatıya çık; {npc:2712} ve {npc:2713}, {area:314} çiftliğinin hemen kuzeyindeki tepelerde kamp kurmuş.",
+	["North-west out of the Witherbark valley; {npc:2712} and {npc:2713} camp in the hills just north of {area:314}."] = "Witherbark vadisinden kuzeybatıya çık. {npc:2712} ve {npc:2713}, {area:314} çiftliğinin hemen kuzeyindeki tepelerde kamp kurmuş.",
 
 	-- Step 37: Forsaken Courier
 	-- {area:314} Go'Shek Farm
@@ -191,7 +191,7 @@ return {
 	-- {npc:2713} Kinelory
 	["{npc:2713}'s errand"] = "{npc:2713} adlı NPC'nin işi",
 	-- {npc:2713} Kinelory · {area:314} Go'Shek Farm
-	["Stay with {npc:2713} while she sneaks into {area:314} and back; Horde orcs jump you on the way.\nCareful: Orcs that drop to low health run away. {npc:2713} follows them and can pull more mobs, so kill or slow runners fast."] = "{npc:2713} gizlice {area:314} çiftliğine girip çıkarken yanında kal; yolda Horde orc'ları üstüne atlar.\nDikkat: Canı azalan orc'lar kaçar. {npc:2713} onların peşinden gider ve daha fazla yaratık çekebilir, bu yüzden kaçanları çabuk öldür ya da yavaşlat.",
+	["Stay with {npc:2713} while she sneaks into {area:314} and back; Horde orcs jump you on the way.\nCareful: Orcs that drop to low health run away. {npc:2713} follows them and can pull more mobs, so kill or slow runners fast."] = "{npc:2713} gizlice {area:314} çiftliğine girip çıkarken yanında kal. Yolda Horde orc'ları üstüne atlar.\nDikkat: Canı azalan orc'lar kaçar. {npc:2713} onların peşinden gider ve daha fazla yaratık çekebilir, bu yüzden kaçanları çabuk öldür ya da yavaşlat.",
 
 	-- Step 41: Quae
 	-- {npc:2711} Phin Odelic · {area:271} Southshore
@@ -210,7 +210,7 @@ return {
 
 	-- Step 45: Faldir's Cove
 	-- {npc:2768} Professor Phizzlethorpe
-	["A group stop: two level 40 water elementals ambush {npc:2768}'s escort, and the Daggerspine naga in the reef are 38-40, with Sorceresses among them. Grouping up is encouraged, look for people to do it with. Skip it if you are alone.\nSouth along the west coast to the goblins' cove; Lolo keeps watch on the rocks above it."] = "Bir grup durağı: {npc:2768} eskortunu iki 40. seviye su elementali pusuya düşürür, resifteki Daggerspine nagaları da 38-40. seviye ve aralarında Sorceress'ler var. Grup kurman önerilir, birlikte yapacak kişiler ara. Yalnızsan atla.\nBatı kıyısı boyunca güneye, goblinlerin koyuna git; Lolo yukarıdaki kayalarda nöbet tutuyor.",
+	["A group stop: two level 40 water elementals ambush {npc:2768}'s escort, and the Daggerspine naga in the reef are 38-40, with Sorceresses among them. Grouping up is encouraged, look for people to do it with. Skip it if you are alone.\nSouth along the west coast to the goblins' cove; Lolo keeps watch on the rocks above it."] = "Bir grup durağı: {npc:2768} eskortunu iki 40. seviye su elementali pusuya düşürür, resifteki Daggerspine nagaları da 38-40. seviye ve aralarında Sorceress'ler var. Grup kurman önerilir, birlikte yapacak kişiler ara. Yalnızsan atla.\nBatı kıyısı boyunca güneye, goblinlerin koyuna git. Lolo yukarıdaki kayalarda nöbet tutuyor.",
 
 	-- Step 46: Phizzlethorpe
 	["Phizzlethorpe"] = "Phizzlethorpe",
@@ -219,21 +219,21 @@ return {
 	-- Step 48: The Drowned Reef: kill these as you meet them
 	-- {area:328} The Drowned Reef
 	["{area:328}: kill these as you meet them"] = "{area:328}: bunları karşılaştıkça öldür",
-	["The two wrecks lie in the bay west of the cove. The charts and logs are inside them; the gems lie on the sea floor around them. Daggerspine naga swim the whole bay."] = "İki batık koyun batısındaki körfezde. Haritalar ve seyir defterleri içlerinde; mücevherler çevrelerindeki deniz dibinde. Körfezin her yanında Daggerspine nagaları yüzüyor.",
+	["The two wrecks lie in the bay west of the cove. The charts and logs are inside them; the gems lie on the sea floor around them. Daggerspine naga swim the whole bay."] = "İki batık koyun batısındaki körfezde. Haritalar ve seyir defterleri içlerinde, mücevherler çevrelerindeki deniz dibinde. Körfezin her yanında Daggerspine nagaları yüzüyor.",
 	-- {npc:2595} Daggerspine Raider
 	["{npc:2595}, underwater"] = "{npc:2595}, su altında",
 	-- {item:4492} Elven Gem
-	["{item:4492}; underwater"] = "{item:4492}; su altında",
+	["{item:4492}; underwater"] = "{item:4492}, su altında",
 	-- {npc:2596} Daggerspine Sorceress
 	["{npc:2596}, underwater"] = "{npc:2596}, su altında",
 	-- {object:2709} Maiden's Folly Log
-	["{object:2709}; underwater"] = "{object:2709}; su altında",
+	["{object:2709}; underwater"] = "{object:2709}, su altında",
 	-- {object:2707} Maiden's Folly Charts
-	["{object:2707}; underwater"] = "{object:2707}; su altında",
+	["{object:2707}; underwater"] = "{object:2707}, su altında",
 	-- {object:2710} Spirit of Silverpine Log
-	["{object:2710}; underwater"] = "{object:2710}; su altında",
+	["{object:2710}; underwater"] = "{object:2710}, su altında",
 	-- {object:2708} Spirit of Silverpine Charts
-	["{object:2708}; underwater"] = "{object:2708}; su altında",
+	["{object:2708}; underwater"] = "{object:2708}, su altında",
 
 	-- Step 49: Faldir's Cove
 	-- {npc:2487} Fleet Master Seahorn · {area:35} Booty Bay
@@ -243,11 +243,11 @@ return {
 	-- {npc:2793} Kor'gresh Coldrage
 	["South-east through the hills: {npc:2793}, an ogre mage, holds the cave at the southern end of the Witherbark valley.\nCareful: {npc:2793} is level 39, a caster, one or two over you here: clear the cave mouth first, then pull him alone at full health."] = "Tepelerin içinden güneydoğuya: bir ogre büyücüsü olan {npc:2793}, Witherbark vadisinin güney ucundaki mağarayı tutuyor.\nDikkat: {npc:2793} 39. seviye, büyücü ve burada senden bir iki seviye yüksek: önce mağara ağzını temizle, sonra onu tam canla tek başına çek.",
 	-- {item:4525} Trelane's Wand of Invocation
-	["{item:4525}; below ground"] = "{item:4525}; yer altında",
+	["{item:4525}; below ground"] = "{item:4525}, yer altında",
 
 	-- Step 51: Foggy MacKreel
 	-- {npc:2793} Kor'gresh Coldrage · {area:880} Thandol Span · {npc:2696} Foggy MacKreel · {quest:647} MacKreel's Moonshine · {npc:2705} Brewmeister Bilger · {area:271} Southshore · {area:320} Refuge Pointe
-	["South-west from {npc:2793}'s cave to the {area:880}: {npc:2696} stands on a broken section of the bridge; jump down to him from its north end. {quest:647} must reach {npc:2705} in {area:271} within 15 minutes: go straight back to {area:320} and fly to {area:271}."] = "{npc:2793} mağarasından güneybatıya, {area:880} köprüsüne git: {npc:2696} köprünün kırık bir bölümünde duruyor; köprünün kuzey ucundan aşağı, onun yanına atla. {quest:647} 15 dakika içinde {area:271} kasabasındaki {npc:2705} yanına ulaşmalı: doğrudan {area:320} kalesine dön ve {area:271} kasabasına uç.",
+	["South-west from {npc:2793}'s cave to the {area:880}: {npc:2696} stands on a broken section of the bridge; jump down to him from its north end. {quest:647} must reach {npc:2705} in {area:271} within 15 minutes: go straight back to {area:320} and fly to {area:271}."] = "{npc:2793} mağarasından güneybatıya, {area:880} köprüsüne git: {npc:2696} köprünün kırık bir bölümünde duruyor. Köprünün kuzey ucundan aşağı, onun yanına atla. {quest:647} 15 dakika içinde {area:271} kasabasındaki {npc:2705} yanına ulaşmalı: doğrudan {area:320} kalesine dön ve {area:271} kasabasına uç.",
 
 	-- Step 53: Fly to Southshore
 	-- {area:320} Refuge Pointe
@@ -265,18 +265,18 @@ return {
 
 	-- Step 56: Gavin's Naze
 	-- {area:271} Southshore · {area:280} Strahnbrad
-	["Follow the road north out of {area:271} into the mountains. Mountain lions roam the slopes; the Syndicate in {area:280} wear the signet rings."] = "Yolu kuzeye, {area:271} kasabasından dağlara izle. Dağ aslanları yamaçlarda dolaşıyor; {area:280} köyündeki Syndicate'ler de mühür yüzüklerini takıyor.",
+	["Follow the road north out of {area:271} into the mountains. Mountain lions roam the slopes; the Syndicate in {area:280} wear the signet rings."] = "Yolu kuzeye, {area:271} kasabasından dağlara izle. Dağ aslanları yamaçlarda dolaşıyor. {area:280} köyündeki Syndicate'ler de mühür yüzüklerini takıyor.",
 
 	-- Step 57: Ruins of Alterac: kill these as you meet them
 	-- {area:281} Ruins of Alterac
 	["{area:281}: kill these as you meet them"] = "{area:281}: bunları karşılaştıkça öldür",
 	-- {area:280} Strahnbrad
 	-- plural, as words: Argus Shadow Mages = {npc:2318} Argus Shadow Mage · Crushridge Warmongers = {npc:2287} Crushridge Warmonger · Crushridge Maulers = {npc:2254} Crushridge Mauler · Crushridge Ogres = {npc:2252} Crushridge Ogre
-	["The tomes lie in the ruined keep west of {area:280}; Argus Shadow Mages hold the ruins.\nCareful: Crushridge Warmongers call nearby allies within 15 yd once they fall below half health.\nThe Crushridge Maulers, Mages, Enforcers and Warmongers (36-39) are elite; the Crushridge Ogres and Brutes (34-35) are not and carry the tomes too: pull one at a time, or group up."] = "Ciltler {area:280} köyünün batısındaki yıkık kalede; harabeleri Argus Shadow Mage yaratıkları tutuyor.\nDikkat: Crushridge Warmonger'lar canları yarının altına düşünce 15 yarda içindeki yakın müttefiklerini çağırır.\nCrushridge Mauler, Mage, Enforcer ve Warmonger yaratıkları (36-39) elit; Crushridge Ogre ve Brute yaratıkları (34-35) elit değil ve onlar da cilt taşıyor: tek tek çek ya da grup kur.",
+	["The tomes lie in the ruined keep west of {area:280}; Argus Shadow Mages hold the ruins.\nCareful: Crushridge Warmongers call nearby allies within 15 yd once they fall below half health.\nThe Crushridge Maulers, Mages, Enforcers and Warmongers (36-39) are elite; the Crushridge Ogres and Brutes (34-35) are not and carry the tomes too: pull one at a time, or group up."] = "Ciltler {area:280} köyünün batısındaki yıkık kalede. Harabeleri Argus Shadow Mage yaratıkları tutuyor.\nDikkat: Crushridge Warmonger'lar canları yarının altına düşünce 15 yarda içindeki yakın müttefiklerini çağırır.\nCrushridge Mauler, Mage, Enforcer ve Warmonger yaratıkları (36-39) elit. Crushridge Ogre ve Brute yaratıkları (34-35) elit değil ve onlar da cilt taşıyor: tek tek çek ya da grup kur.",
 	-- {item:3658} Recovered Tome
 	["{item:3658}: Crushridge ogres"] = "{item:3658}: Crushridge ogreları",
 	-- {item:3659} Worn Leather Book · {object:1760} Weathered Bookcase · {quest:540} Preserving Knowledge
-	["{item:3659}: the {object:1760}, beside Muckrake (40, elite): get it with a group, or abandon {quest:540}; inside"] = "{item:3659}: Muckrake (40, elit) yanındaki {object:1760}: grupla al ya da {quest:540} görevinden vazgeç; içeride",
+	["{item:3659}: the {object:1760}, beside Muckrake (40, elite): get it with a group, or abandon {quest:540}; inside"] = "{item:3659}: Muckrake (40, elit) yanındaki {object:1760}: grupla al ya da {quest:540} görevinden vazgeç, içeride",
 
 	-- Step 58: Ruins of Alterac: kill these as you meet them
 	-- {npc:2417} Grel'borg the Miser
@@ -292,11 +292,11 @@ return {
 	["Crushridge ogres"] = "Crushridge ogreları",
 	-- {area:280} Strahnbrad
 	-- plural, as words: Crushridge Maulers = {npc:2254} Crushridge Mauler · Crushridge Ogres = {npc:2252} Crushridge Ogre
-	["The Crushridge ogres hold the hills north of {area:280}. Careful: Nagaz (40) stands far to the north-west by a worn wooden chest, with Syndicate guards: stay with the ogres.\nThe Crushridge Maulers, Mages, Enforcers and Warmongers (36-39) are elite; the Crushridge Ogres and Brutes (34-35) are not and drop the knucklebones too: pull one at a time, or group up."] = "Crushridge ogre'ları {area:280} köyünün kuzeyindeki tepeleri tutuyor. Dikkat: Nagaz (40) uzak kuzeybatıda, eskimiş tahta bir sandığın yanında Syndicate muhafızlarıyla duruyor: ogre'larda kal.\nCrushridge Mauler, Mage, Enforcer ve Warmonger yaratıkları (36-39) elit; Crushridge Ogre ve Brute yaratıkları (34-35) değil ve onlar da aşık kemiği düşürür: tek tek çek ya da grup kur.",
+	["The Crushridge ogres hold the hills north of {area:280}. Careful: Nagaz (40) stands far to the north-west by a worn wooden chest, with Syndicate guards: stay with the ogres.\nThe Crushridge Maulers, Mages, Enforcers and Warmongers (36-39) are elite; the Crushridge Ogres and Brutes (34-35) are not and drop the knucklebones too: pull one at a time, or group up."] = "Crushridge ogre'ları {area:280} köyünün kuzeyindeki tepeleri tutuyor. Dikkat: Nagaz (40) uzak kuzeybatıda, eskimiş tahta bir sandığın yanında Syndicate muhafızlarıyla duruyor: ogre'larda kal.\nCrushridge Mauler, Mage, Enforcer ve Warmonger yaratıkları (36-39) elit. Crushridge Ogre ve Brute yaratıkları (34-35) değil ve onlar da aşık kemiği düşürür: tek tek çek ya da grup kur.",
 
 	-- Step 62: Dalaran
 	-- {area:279} Dalaran · {zone:1421} Silverpine Forest · {npc:269127} Image of Archmage Modera
-	["South-west to the Kirin Tor camp on the lake shore west of {area:279}, just over the border into {zone:1421}: the {npc:269127} stands there. Archmage Ansirem stands south-east of it, by the dome."] = "Güneybatıya, {area:279} şehrinin batısında, göl kıyısındaki Kirin Tor kampına git; sınırın hemen öbür yanında, {zone:1421} içinde: {npc:269127} orada duruyor. Archmage Ansirem onun güneydoğusunda, kubbenin yanında.",
+	["South-west to the Kirin Tor camp on the lake shore west of {area:279}, just over the border into {zone:1421}: the {npc:269127} stands there. Archmage Ansirem stands south-east of it, by the dome."] = "Güneybatıya, {area:279} şehrinin batısında, göl kıyısındaki Kirin Tor kampına git. Sınırın hemen öbür yanında, {zone:1421} içinde: {npc:269127} orada duruyor. Archmage Ansirem onun güneydoğusunda, kubbenin yanında.",
 	-- {npc:2542} Catelyn the Blade · {area:35} Booty Bay
 	["For {npc:2542} in {area:35}: keep it"] = "{area:35} limanındaki {npc:2542} için: sakla",
 
@@ -308,7 +308,7 @@ return {
 	["City of Dalaran"] = "City of Dalaran",
 	-- {quest:92457} Starving Arcane · {item:251961} Arcane Mote · {quest:92458} Heart of Disruption
 	-- plural, as words: Seeking Remnants = {npc:247003} Seeking Remnant · Saturated Remnants = {npc:247001} Saturated Remnant
-	["The City of Dalaran is a dungeon for a group of five at about level 28 to 33: at your level it goes quickly. Its way in is the sewer grate in the city's western wall, by the lake, 30 yards from Modera's camp.\nInside: the Seeking Remnants, Saturated Remnants and Mana Echoes are Modera's {quest:92457}; the {item:251961} for {quest:92458} drops inside too."] = "City of Dalaran, yaklaşık 28-33. seviyedeki beş kişilik bir grup için bir zindan: senin seviyende çabuk geçer. Girişi şehrin batı surundaki kanalizasyon ızgarası; gölün kenarında, Modera'nın kampından 30 yard ötede.\nİçeride: Seeking Remnant, Saturated Remnant ve Mana Echo yaratıkları Modera'nın {quest:92457} görevi için; {quest:92458} için {item:251961} de içeride düşer.",
+	["The City of Dalaran is a dungeon for a group of five at about level 28 to 33: at your level it goes quickly. Its way in is the sewer grate in the city's western wall, by the lake, 30 yards from Modera's camp.\nInside: the Seeking Remnants, Saturated Remnants and Mana Echoes are Modera's {quest:92457}; the {item:251961} for {quest:92458} drops inside too."] = "City of Dalaran, yaklaşık 28-33. seviyedeki beş kişilik bir grup için bir zindan: senin seviyende çabuk geçer. Girişi şehrin batı surundaki kanalizasyon ızgarası, gölün kenarında, Modera'nın kampından 30 yard ötede.\nİçeride: Seeking Remnant, Saturated Remnant ve Mana Echo yaratıkları Modera'nın {quest:92457} görevi için. {quest:92458} için {item:251961} de içeride düşer.",
 	-- {quest:92457} Starving Arcane
 	["{quest:92457}: the remnants and echoes, inside"] = "{quest:92457}: kalıntılar ve yankılar, içeride",
 	-- {quest:92458} Heart of Disruption · {item:251961} Arcane Mote
@@ -323,7 +323,7 @@ return {
 
 	-- Step 69: Bartolo Ginsetti
 	-- {npc:2438} Bartolo Ginsetti · {npc:2381} Micha Yance · {item:2321} Fine Thread
-	["{npc:2438} stands between the flight master and the inn; {npc:2381} beside him sells {item:2321} if you have none."] = "{npc:2438} uçuş ustasıyla han arasında duruyor; yanındaki {npc:2381}, hiç yoksa {item:2321} satar.",
+	["{npc:2438} stands between the flight master and the inn; {npc:2381} beside him sells {item:2321} if you have none."] = "{npc:2438} uçuş ustasıyla han arasında duruyor. Yanındaki {npc:2381}, hiç yoksa {item:2321} satar.",
 	-- {item:2321} Fine Thread · {npc:2381} Micha Yance
 	["{item:2321}, from {npc:2381}"] = "{item:2321}, kaynak: {npc:2381}",
 

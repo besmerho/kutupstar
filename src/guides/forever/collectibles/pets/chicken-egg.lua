@@ -9,7 +9,7 @@ return {
 
 	-- Step 2: CLUCK!
 	-- {quest:3861} CLUCK! · {item:11110} Chicken Egg
-	["Target one of the chickens around Saldean's farm and type /chicken at it, again and again, until it offers {quest:3861}; this can take several minutes. Then /cheer at a chicken until it turns friendly (green) and hand in the feed; right-clicking a chicken before it is friendly attacks it. The chicken lays an egg on the ground: loot it for your {item:11110}."] = "Saldean'ın çiftliğinin çevresindeki tavuklardan birini hedefle ve {quest:3861} görevini verene kadar ona tekrar tekrar /chicken yaz; bu birkaç dakika sürebilir. Sonra dost (yeşil) olana kadar bir tavuğa /cheer yap ve yemi teslim et; dost olmadan bir tavuğa sağ tıklamak ona saldırır. Tavuk yere bir yumurta bırakır: {item:11110} için onu loot'la.",
+	["Target one of the chickens around Saldean's farm and type /chicken at it, again and again, until it offers {quest:3861}; this can take several minutes. Then /cheer at a chicken until it turns friendly (green) and hand in the feed; right-clicking a chicken before it is friendly attacks it. The chicken lays an egg on the ground: loot it for your {item:11110}."] = "Saldean'ın çiftliğinin çevresindeki tavuklardan birini hedefle ve {quest:3861} görevini verene kadar ona tekrar tekrar /chicken yaz, bu birkaç dakika sürebilir. Sonra dost (yeşil) olana kadar bir tavuğa /cheer yap ve yemi teslim et. Dost olmadan bir tavuğa sağ tıklamak ona saldırır. Tavuk yere bir yumurta bırakır: {item:11110} için onu loot'la.",
 	-- {object:161513} Farm Chicken Egg
 	["Loot the {object:161513} the chicken lays"] = "Tavuğun yumurtladığı {object:161513} eşyasını loot et",
 }

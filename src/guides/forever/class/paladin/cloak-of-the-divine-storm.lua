@@ -5,14 +5,14 @@
 return {
 	-- Guide
 	-- {area:444} Tower of Althalaxx
-	["Starts now at 22 at the {area:444}; its mobs are 28-30, so go nearer 30 or with a friend. Alliance only for now."] = "Artık 22'de {area:444} kulesinde başlıyor; yaratıkları 28-30, bu yüzden 30'a yakın ya da bir arkadaşınla git. Şimdilik yalnızca Alliance.",
+	["Starts now at 22 at the {area:444}; its mobs are 28-30, so go nearer 30 or with a friend. Alliance only for now."] = "Artık 22'de {area:444} kulesinde başlıyor. Yaratıkları 28-30, bu yüzden 30'a yakın ya da bir arkadaşınla git. Şimdilik yalnızca Alliance.",
 
 	-- Step 1: The Strange Orb
 	-- {object:409289} Strange Orb (no name in this language: may be words)
 	["The {object:409289}"] = "{object:409289}",
 	-- {area:444} Tower of Althalaxx · {zone:1439} Darkshore · {spell:686} Shadow Bolt · {object:409289} Strange Orb (no name in this language: may be words) · {item:209748} Althalaxx Orb · {object:409311} Spear of Mannoroth
 	-- plural, as words: Dark Strand Fanatics = {npc:2336} Dark Strand Fanatic · Dark Strand Voidcallers = {npc:2337} Dark Strand Voidcaller
-	["Climb to the top of the {area:444} in northern {zone:1439}. The Dark Strand Fanatics around it are easy (level 16-17), but four Dark Strand Voidcallers (level 28-29) stand in the tower on the way to the orb: each calls a voidwalker and casts {spell:686} from range. At 22-25 bring a friend or two, pull them one at a time and step behind a wall so they have to come to you. Loot the {object:409289} at the top: it gives you the {item:209748}; right-click it to start the quest. Keep the orb in your bags until the {object:409311}: three later quests need it."] = "{zone:1439} bölgesinin kuzeyindeki {area:444} tepesine tırman. Çevresindeki Dark Strand Fanatic yaratıkları kolay (16-17. seviye), ama küreye giden yolda kulede dört Dark Strand Voidcaller (28-29. seviye) duruyor: her biri bir voidwalker çağırır ve uzaktan {spell:686} atar. 22-25'te bir iki arkadaş getir, onları tek tek çek ve sana gelmek zorunda kalsınlar diye bir duvarın arkasına geç. Tepedeki {object:409289} küresini lootla: sana {item:209748} verir; görevi başlatmak için ona sağ tıkla. Küreyi {object:409311} adımına kadar çantanda tut: sonraki üç görev ona ihtiyaç duyar.",
+	["Climb to the top of the {area:444} in northern {zone:1439}. The Dark Strand Fanatics around it are easy (level 16-17), but four Dark Strand Voidcallers (level 28-29) stand in the tower on the way to the orb: each calls a voidwalker and casts {spell:686} from range. At 22-25 bring a friend or two, pull them one at a time and step behind a wall so they have to come to you. Loot the {object:409289} at the top: it gives you the {item:209748}; right-click it to start the quest. Keep the orb in your bags until the {object:409311}: three later quests need it."] = "{zone:1439} bölgesinin kuzeyindeki {area:444} tepesine tırman. Çevresindeki Dark Strand Fanatic yaratıkları kolay (16-17. seviye), ama küreye giden yolda kulede dört Dark Strand Voidcaller (28-29. seviye) duruyor: her biri bir voidwalker çağırır ve uzaktan {spell:686} atar. 22-25'te bir iki arkadaş getir, onları tek tek çek ve sana gelmek zorunda kalsınlar diye bir duvarın arkasına geç. Tepedeki {object:409289} küresini lootla: sana {item:209748} verir. Görevi başlatmak için ona sağ tıkla. Küreyi {object:409311} adımına kadar çantanda tut: sonraki üç görev onu ister.",
 	-- {object:409289} Strange Orb (no name in this language: may be words) · {area:444} Tower of Althalaxx · {item:209748} Althalaxx Orb
 	["{object:409289} atop the {area:444}: right-click the {item:209748} it gives"] = "{area:444} tepesindeki {object:409289}: verdiği {item:209748} eşyasına sağ tıkla",
 
@@ -22,7 +22,7 @@ return {
 
 	-- Step 3: Katherine the Pure
 	-- {npc:5492} Katherine the Pure
-	["{npc:5492} stands in the Cathedral of Light; she sends you to a warlock for a second opinion."] = "{npc:5492} Cathedral of Light içinde duruyor; seni ikinci bir görüş için bir warlock'a gönderir.",
+	["{npc:5492} stands in the Cathedral of Light; she sends you to a warlock for a second opinion."] = "{npc:5492} Cathedral of Light içinde duruyor. Seni ikinci bir görüş için bir warlock'a gönderir.",
 
 	-- Step 4: Ursula Deline
 	-- {npc:5495} Ursula Deline · {object:2101} Mage Quarter · {object:2164} Slaughtered Lamb · {item:209778} Summoner's Salt
@@ -31,7 +31,7 @@ return {
 	-- Step 5: Summoner's Salt
 	-- {item:209778} Summoner's Salt · {area:69} Lakeshire · {npc:334} Gath'Ilzogg
 	-- plural, as words: Blackrock Summoners = {npc:4463} Blackrock Summoner · Blackrock Shadowcasters = {npc:436} Blackrock Shadowcaster
-	["The Blackrock Summoners, Champions and Trackers (level 22-25, not elite) camp in the north-west of Redridge and drop the {item:209778}; you need 14. Two elite Blackrock Shadowcasters (22-23) stand at the cave mouth at the camp's east end: pull around them. The Blackrock camps east of {area:69} drop the salt too, but their Shadowcasters, Sentries and Hunters are elite (level 21-24), and so is {npc:334} (26): stay in the north-west."] = "Blackrock Summoner, Champion ve Tracker yaratıkları (seviye 22-25, elit değil) Redridge'in kuzeybatısında kamp kurmuş ve {item:209778} düşürüyor; 14 tane gerekiyor. Kampın doğu ucundaki mağara ağzında iki elit Blackrock Shadowcaster (22-23) duruyor: onları dolaşarak çek. {area:69} kasabasının doğusundaki Blackrock kampları da tuz düşürür, ama oradaki Shadowcaster, Sentry ve Hunter'lar elit (seviye 21-24), {npc:334} (26) da öyle: kuzeybatıda kal.",
+	["The Blackrock Summoners, Champions and Trackers (level 22-25, not elite) camp in the north-west of Redridge and drop the {item:209778}; you need 14. Two elite Blackrock Shadowcasters (22-23) stand at the cave mouth at the camp's east end: pull around them. The Blackrock camps east of {area:69} drop the salt too, but their Shadowcasters, Sentries and Hunters are elite (level 21-24), and so is {npc:334} (26): stay in the north-west."] = "Blackrock Summoner, Champion ve Tracker yaratıkları (seviye 22-25, elit değil) Redridge'in kuzeybatısında kamp kurmuş ve {item:209778} düşürüyor. 14 tane gerekiyor. Kampın doğu ucundaki mağara ağzında iki elit Blackrock Shadowcaster (22-23) duruyor: onları dolaşarak çek. {area:69} kasabasının doğusundaki Blackrock kampları da tuz düşürür, ama oradaki Shadowcaster, Sentry ve Hunter'lar elit (seviye 21-24), {npc:334} (26) da öyle: kuzeybatıda kal.",
 
 	-- Step 6: Back to Ursula Deline
 	-- {npc:5495} Ursula Deline
@@ -41,7 +41,7 @@ return {
 	["Motes of Mannoroth"] = "Motes of Mannoroth",
 	-- {area:435} Demon Fall Canyon · {zone:1440} Ashenvale · {area:431} Splintertree Post · {spell:686} Shadow Bolt · {spell:348} Immolate
 	-- plural, as words: Mannoroc Lashers = {npc:11697} Mannoroc Lasher · Searing Infernals = {npc:6073} Searing Infernal · Legion Hounds = {npc:6071} Legion Hound
-	["{area:435} is in south-east {zone:1440}, east of {area:431} (a Horde camp: go round it). The Mannoroc Lashers, Searing Infernals, Felguards and Legion Hounds (level 29-30, not elite) drop the Motes of Mannoroth; you need 12. Below about 27 they are hard alone: come with a second player or later. Felguards knock you down, Lashers cast {spell:686} and {spell:348}, Infernals keep a fire shield up. They respawn in five minutes."] = "{area:435}, güneydoğu {zone:1440} bölgesinde, {area:431} karakolunun doğusunda (bir Horde kampı: çevresinden dolaş). Mannoroc Lasher, Searing Infernal, Felguard ve Legion Hound yaratıkları (seviye 29-30, elit değil) Mote of Mannoroth düşürür; 12 tane gerekiyor. 27'nin altında tek başına zorlar: ikinci bir oyuncuyla ya da daha sonra gel. Felguard'lar yere serer, Lasher'lar {spell:686} ve {spell:348} kullanır, Infernal'lar ateş kalkanı tutar. Beş dakikada yeniden doğarlar.",
+	["{area:435} is in south-east {zone:1440}, east of {area:431} (a Horde camp: go round it). The Mannoroc Lashers, Searing Infernals, Felguards and Legion Hounds (level 29-30, not elite) drop the Motes of Mannoroth; you need 12. Below about 27 they are hard alone: come with a second player or later. Felguards knock you down, Lashers cast {spell:686} and {spell:348}, Infernals keep a fire shield up. They respawn in five minutes."] = "{area:435}, güneydoğu {zone:1440} bölgesinde, {area:431} karakolunun doğusunda (bir Horde kampı: çevresinden dolaş). Mannoroc Lasher, Searing Infernal, Felguard ve Legion Hound yaratıkları (seviye 29-30, elit değil) Mote of Mannoroth düşürür. 12 tane gerekiyor. 27'nin altında tek başına zorlar: ikinci bir oyuncuyla ya da daha sonra gel. Felguard'lar yere serer, Lasher'lar {spell:686} ve {spell:348} kullanır, Infernal'lar ateş kalkanı tutar. Beş dakikada yeniden doğarlar.",
 
 	-- Step 8: The Spear of Mannoroth
 	-- {object:409311} Spear of Mannoroth

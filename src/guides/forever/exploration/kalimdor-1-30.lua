@@ -9,10 +9,10 @@ return {
 
 	-- Step 1: Teldrassil (1/2)
 	-- {zone:1438} Teldrassil · {area:442} Auberdine · {zone:1439} Darkshore
-	["Discovering an area gives experience scaled to its level, so this runs alongside leveling. Alliance starts on {zone:1438}; humans, dwarves and gnomes arrive by boat at {area:442} and can begin at the {zone:1439} step. 11 areas to discover here, levels 5-11."] = "Bir alanı keşfetmek, seviyesine göre ölçeklenen deneyim puanı verir; yani bu, seviye atlamayla birlikte yürür. Alliance {zone:1438} adasında başlar; Human, Dwarf ve Gnome'lar gemiyle {area:442} kasabasına gelir ve {zone:1439} adımından başlayabilir. Burada keşfedilecek 11 alan var, seviye 5-11.",
+	["Discovering an area gives experience scaled to its level, so this runs alongside leveling. Alliance starts on {zone:1438}; humans, dwarves and gnomes arrive by boat at {area:442} and can begin at the {zone:1439} step. 11 areas to discover here, levels 5-11."] = "Bir alanı keşfetmek, seviyesine göre ölçeklenen deneyim puanı verir, yani bu, seviye atlamayla birlikte yürür. Alliance {zone:1438} adasında başlar. Human, Dwarf ve Gnome'lar gemiyle {area:442} kasabasına gelir ve {zone:1439} adımından başlayabilir. Burada keşfedilecek 11 alan var, seviye 5-11.",
 	["Exploring the entire world map on one character is a Forever Legacy Challenge (1 account-wide Legacy Point)."] = "Tek bir karakterle tüm dünya haritasını keşfetmek bir Forever Legacy Challenge'ı (hesap geneli 1 Legacy Point).",
 	-- {area:188} Shadowglen · {zone:1438} Teldrassil · {area:186} Dolanaar · {area:702} Rut'theran Village · {zone:1457} Darnassus
-	["{area:188} opens onto {zone:1438}; {area:186} is south along the road. {area:702}, at the foot of the tree, is reached through the portal in {zone:1457}."] = "{area:188} {zone:1438} adasına açılır; {area:186} yol boyunca güneyde. Ağacın dibindeki {area:702} köyüne {zone:1457} şehrindeki portaldan ulaşılır.",
+	["{area:188} opens onto {zone:1438}; {area:186} is south along the road. {area:702}, at the foot of the tree, is reached through the portal in {zone:1457}."] = "{area:188} {zone:1438} adasına açılır, {area:186} yol boyunca güneyde. Ağacın dibindeki {area:702} köyüne {zone:1457} şehrindeki portaldan ulaşılır.",
 	-- {area:702} Rut'theran Village
 	["Flight path here: {area:702} (Vesprystus)."] = "Uçuş noktası: {area:702} (Vesprystus).",
 
@@ -36,7 +36,7 @@ return {
 	-- Step 8: Stonetalon Mountains (1/2)
 	["11 areas to discover here, levels 15-25."] = "Burada keşfedilecek 11 alan var, seviye 15-25.",
 	-- {zone:1442} Stonetalon Mountains · {zone:1440} Ashenvale · {area:467} Stonetalon Peak
-	["The {zone:1442} border {zone:1440} to the south-west; {area:467} in the north is the Alliance flight point."] = "{zone:1442}, {zone:1440} bölgesinin güneybatısında sınır komşusu; kuzeydeki {area:467} Alliance uçuş noktası.",
+	["The {zone:1442} border {zone:1440} to the south-west; {area:467} in the north is the Alliance flight point."] = "{zone:1442}, {zone:1440} bölgesinin güneybatısında sınır komşusu. Kuzeydeki {area:467} Alliance uçuş noktası.",
 	-- {area:467} Stonetalon Peak
 	["Flight path here: {area:467} (Teloren)."] = "Uçuş noktası: {area:467} (Teloren).",
 	-- {area:460} Sun Rock Retreat
@@ -49,7 +49,7 @@ return {
 	-- Step 10: The Barrens (1/4)
 	["25 areas to discover here, levels 10-33."] = "Burada keşfedilecek 25 alan var, seviye 10-33.",
 	-- {zone:1413} The Barrens · {area:1702} Honor's Stand · {area:380} The Crossroads · {area:378} Camp Taurajo · {area:392} Ratchet
-	["The road east out of south-eastern Stonetalon comes down into the {zone:1413} at {area:1702}. {area:380} and {area:378} are Horde towns; {area:392} is a neutral port."] = "Stonetalon'un güneydoğusundan doğuya çıkan yol, {area:1702} kesiminde {zone:1413} bölgesine iner. {area:380} ve {area:378} Horde kasabaları; {area:392} tarafsız bir liman.",
+	["The road east out of south-eastern Stonetalon comes down into the {zone:1413} at {area:1702}. {area:380} and {area:378} are Horde towns; {area:392} is a neutral port."] = "Stonetalon'un güneydoğusundan doğuya çıkan yol, {area:1702} kesiminde {zone:1413} bölgesine iner. {area:380} ve {area:378} Horde kasabaları, {area:392} tarafsız bir liman.",
 	-- {area:392} Ratchet
 	["Flight path here: {area:392} (Bragok)."] = "Uçuş noktası: {area:392} (Bragok).",
 	-- {area:378} Camp Taurajo
@@ -62,7 +62,7 @@ return {
 	-- Step 14: Durotar (1/2)
 	["11 areas to discover here, levels 5-10."] = "Burada keşfedilecek 11 alan var, seviye 5-10.",
 	-- {area:814} Southfury River · {zone:1413} The Barrens · {zone:1411} Durotar · {area:362} Razor Hill · {area:367} Sen'jin Village · {zone:1454} Orgrimmar
-	["Cross the {area:814} east from the northern {zone:1413} into {zone:1411}: Horde country, with guards at {area:362}, {area:367} and {zone:1454}."] = "{zone:1413} bölgesinin kuzeyinden {area:814} nehrini doğuya geçip {zone:1411} bölgesine gir: Horde toprağı; {area:362}, {area:367} ve {zone:1454} içinde muhafızlar var.",
+	["Cross the {area:814} east from the northern {zone:1413} into {zone:1411}: Horde country, with guards at {area:362}, {area:367} and {zone:1454}."] = "{zone:1413} bölgesinin kuzeyinden {area:814} nehrini doğuya geçip {zone:1411} bölgesine gir: Horde toprağı, {area:362}, {area:367} ve {zone:1454} içinde muhafızlar var.",
 	-- {zone:1454} Orgrimmar
 	["Horde guards: touch the edge of {zone:1454} and move on"] = "Horde muhafızları: {zone:1454} kenarına dokun ve devam et",
 	-- {area:362} Razor Hill
@@ -77,7 +77,7 @@ return {
 	-- Step 16: Mulgore (1/2)
 	["16 areas to discover here, levels 5-10."] = "Burada keşfedilecek 16 alan var, seviye 5-10.",
 	-- {zone:1413} The Barrens · {area:378} Camp Taurajo · {zone:1412} Mulgore · {area:222} Bloodhoof Village · {zone:1456} Thunder Bluff
-	["Go back west across the {zone:1413}; the road west from {area:378} climbs through the only pass into {zone:1412}, tauren country with guards at {area:222} and {zone:1456}."] = "{zone:1413} bölgesini batıya geri geç; {area:378} kampından batıya giden yol tek geçitten {zone:1412} bölgesine tırmanır; burası Tauren toprağı, {area:222} ve {zone:1456} içinde muhafızlar var.",
+	["Go back west across the {zone:1413}; the road west from {area:378} climbs through the only pass into {zone:1412}, tauren country with guards at {area:222} and {zone:1456}."] = "{zone:1413} bölgesini batıya geri geç. {area:378} kampından batıya giden yol tek geçitten {zone:1412} bölgesine tırmanır. Burası Tauren toprağı, {area:222} ve {zone:1456} içinde muhafızlar var.",
 
 	-- Step 17: Mulgore (2/2)
 	-- {zone:1456} Thunder Bluff
@@ -97,9 +97,9 @@ return {
 
 	-- Step 20: Durotar (1/2)
 	-- {zone:1411} Durotar · {zone:1412} Mulgore · {zone:1454} Orgrimmar
-	["Discovering an area gives experience scaled to its level, so this runs alongside leveling. Horde starts in {zone:1411}; tauren can begin at the {zone:1412} step, undead arrive by zeppelin at {zone:1454}. 11 areas to discover here, levels 5-10."] = "Bir alanı keşfetmek, seviyesine göre ölçeklenen deneyim puanı verir; yani bu, seviye atlamayla birlikte yürür. Horde {zone:1411} bölgesinde başlar; Tauren'ler {zone:1412} adımından başlayabilir, Undead'ler zeplinle {zone:1454} şehrine gelir. Burada keşfedilecek 11 alan var, seviye 5-10.",
+	["Discovering an area gives experience scaled to its level, so this runs alongside leveling. Horde starts in {zone:1411}; tauren can begin at the {zone:1412} step, undead arrive by zeppelin at {zone:1454}. 11 areas to discover here, levels 5-10."] = "Bir alanı keşfetmek, seviyesine göre ölçeklenen deneyim puanı verir, yani bu, seviye atlamayla birlikte yürür. Horde {zone:1411} bölgesinde başlar. Tauren'ler {zone:1412} adımından başlayabilir, Undead'ler zeplinle {zone:1454} şehrine gelir. Burada keşfedilecek 11 alan var, seviye 5-10.",
 	-- {area:363} Valley of Trials · {zone:1411} Durotar · {area:362} Razor Hill
-	["The {area:363} opens onto {zone:1411}; {area:362} is north along the road."] = "{area:363} {zone:1411} bölgesine açılır; {area:362} yol boyunca kuzeyde.",
+	["The {area:363} opens onto {zone:1411}; {area:362} is north along the road."] = "{area:363} {zone:1411} bölgesine açılır, {area:362} yol boyunca kuzeyde.",
 
 	-- Step 22: The Barrens (1/4)
 	-- {area:814} Southfury River · {zone:1411} Durotar · {zone:1413} The Barrens · {area:385} Northwatch Hold
@@ -113,7 +113,7 @@ return {
 
 	-- Step 28: Stonetalon Mountains (1/2)
 	-- {zone:1412} Mulgore · {zone:1413} The Barrens · {area:1702} Honor's Stand · {zone:1442} Stonetalon Mountains · {area:460} Sun Rock Retreat · {area:467} Stonetalon Peak
-	["Leave {zone:1412} by the same pass, ride north through the {zone:1413} and west at {area:1702} into the {zone:1442}. {area:460} is the Horde town; {area:467} in the north is Alliance."] = "{zone:1412} bölgesinden aynı geçitle çık, {zone:1413} üzerinden kuzeye sür ve {area:1702} kesiminde batıya, {zone:1442} bölgesine dön. {area:460} Horde kasabası; kuzeydeki {area:467} Alliance.",
+	["Leave {zone:1412} by the same pass, ride north through the {zone:1413} and west at {area:1702} into the {zone:1442}. {area:460} is the Horde town; {area:467} in the north is Alliance."] = "{zone:1412} bölgesinden aynı geçitle çık, {zone:1413} üzerinden kuzeye sür ve {area:1702} kesiminde batıya, {zone:1442} bölgesine dön. {area:460} Horde kasabası, kuzeydeki {area:467} Alliance.",
 	-- {area:460} Sun Rock Retreat
 	["Flight path here: {area:460} (Tharm)."] = "Uçuş noktası: {area:460} (Tharm).",
 
@@ -123,7 +123,7 @@ return {
 
 	-- Step 30: Ashenvale (1/3)
 	-- {area:1276} The Talondeep Path · {zone:1440} Ashenvale · {area:431} Splintertree Post · {area:2897} Zoram'gar Outpost · {area:415} Astranaar
-	["{area:1276} tunnel in eastern Stonetalon leads north into {zone:1440}. {area:431} and {area:2897} are Horde; {area:415} is Alliance."] = "Stonetalon'un doğusundaki {area:1276} tüneli kuzeye, {zone:1440} bölgesine çıkar. {area:431} ve {area:2897} Horde; {area:415} Alliance.",
+	["{area:1276} tunnel in eastern Stonetalon leads north into {zone:1440}. {area:431} and {area:2897} are Horde; {area:415} is Alliance."] = "Stonetalon'un doğusundaki {area:1276} tüneli kuzeye, {zone:1440} bölgesine çıkar. {area:431} ve {area:2897} Horde, {area:415} Alliance.",
 	-- {area:2897} Zoram'gar Outpost · {area:431} Splintertree Post
 	["Flight paths here: {area:2897} (Andruk), {area:431} (Vhulgra)."] = "Uçuş noktaları: {area:2897} (Andruk), {area:431} (Vhulgra).",
 
@@ -133,7 +133,7 @@ return {
 
 	-- Step 33: Darkshore (1/2)
 	-- {zone:1440} Ashenvale · {zone:1439} Darkshore · {area:442} Auberdine
-	["Follow {zone:1440}'s road north-west to the coast and into {zone:1439}, Alliance country with guards at {area:442}."] = "{zone:1440} yolunu kuzeybatıya, kıyıya ve {zone:1439} bölgesine kadar izle; burası Alliance toprağı, {area:442} kasabasında muhafızlar var.",
+	["Follow {zone:1440}'s road north-west to the coast and into {zone:1439}, Alliance country with guards at {area:442}."] = "{zone:1440} yolunu kuzeybatıya, kıyıya ve {zone:1439} bölgesine kadar izle. Burası Alliance toprağı, {area:442} kasabasında muhafızlar var.",
 	-- {area:442} Auberdine
 	["Alliance guards: touch the edge of {area:442} and move on"] = "Alliance muhafızları: {area:442} kenarına dokun ve devam et",
 
@@ -148,7 +148,7 @@ return {
 
 	-- Step 36: Teldrassil (2/2)
 	-- {zone:1457} Darnassus
-	["Alliance guards: touch the edge of {zone:1457} and move on; any one of these names counts"] = "Alliance muhafızları: {zone:1457} kenarına dokun ve devam et; bu adlardan herhangi biri sayılır",
+	["Alliance guards: touch the edge of {zone:1457} and move on; any one of these names counts"] = "Alliance muhafızları: {zone:1457} kenarına dokun ve devam et. Bu adlardan herhangi biri sayılır",
 	-- {area:188} Shadowglen
 	["Alliance guards: touch the edge of {area:188} and move on"] = "Alliance muhafızları: {area:188} kenarına dokun ve devam et",
 

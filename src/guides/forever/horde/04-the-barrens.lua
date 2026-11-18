@@ -27,7 +27,7 @@ return {
 	-- {area:378} Camp Taurajo
 	["Fly to {area:378}"] = "{area:378} kampına uç",
 	-- {area:378} Camp Taurajo · {npc:2995} Tal · {zone:1456} Thunder Bluff
-	["Fly to {area:378}: {npc:2995} on {zone:1456}'s central rise, or the Crossroads' wind rider master if you start this guide there."] = "{area:378} kampına uç: {zone:1456} şehrinin ortadaki yükseltisindeki {npc:2995}, ya da bu rehbere orada başlıyorsan Crossroads'un rüzgâr süvarisi ustası.",
+	["Fly to {area:378}: {npc:2995} on {zone:1456}'s central rise, or the Crossroads' wind rider master if you start this guide there."] = "{area:378} kampına uç: {zone:1456} şehrinin ortadaki yükseltisindeki {npc:2995} ya da bu rehbere orada başlıyorsan Crossroads'un rüzgâr süvarisi ustası.",
 
 	-- Step 5: Camp Taurajo
 	-- {area:378} Camp Taurajo · {npc:3433} Tatternack Steelforge · {npc:3387} Jorn Skyseer · {npc:3430} Mangletooth
@@ -40,14 +40,14 @@ return {
 	-- Step 6: Grunt Logmar
 	-- {npc:5911} Grunt Logmar · {npc:268623} Outraged Pillager
 	-- plural, as words: Encroaching Soldiers = {npc:268622} Encroaching Soldier
-	["{npc:5911} stands by the flight master. His {npc:268623} (23) is elite: grouping up is advised; the two Encroaching Soldiers are not."] = "{npc:5911} uçuş ustasının yanında duruyor. Onun {npc:268623} (23) elit: grup kurman önerilir; iki Encroaching Soldier elit değil.",
+	["{npc:5911} stands by the flight master. His {npc:268623} (23) is elite: grouping up is advised; the two Encroaching Soldiers are not."] = "{npc:5911} uçuş ustasının yanında duruyor. Yanındaki {npc:268623} (23) elit: grup kurman önerilir, iki Encroaching Soldier elit değil.",
 	-- {npc:5911} Grunt Logmar · {npc:3341} Gann Stonespire
 	["{npc:5911}: the soldiers and the pillager camp just east of {npc:3341}, on the way south"] = "{npc:5911}: askerler ve yağmacı güney yolunda, {npc:3341} adlı NPC'nin hemen doğusunda kamp kurmuş",
 
 	-- Step 7: Field of Giants
 	-- {npc:3341} Gann Stonespire · {area:390} Field of Giants
 	-- plural, as words: Silithid Mounds = {object:3685} Silithid Mound · Silithid Swarmers = {npc:3252} Silithid Swarmer
-	["South of Camp Taurajo, on the road to {npc:3341}, the Silithid Mounds dot the {area:390}; the eggs lie in them, and Silithid Swarmers come out to defend them.\nCareful: Silithid Swarmers in the area release many tiny adds that interrupt spells; damage shields such as Thorns kill them in one hit."] = "Camp Taurajo'nun güneyinde, {npc:3341} yolunda Silithid Mound yığınları {area:390} her yanına serpilmiş; yumurtalar içlerinde, Silithid Swarmer yaratıkları da onları korumak için dışarı çıkar.\nDikkat: bölgedeki Silithid Swarmer yaratıkları büyüleri kesen çok sayıda minik yaratık salar; Thorns gibi hasar kalkanları onları tek vuruşta öldürür.",
+	["South of Camp Taurajo, on the road to {npc:3341}, the Silithid Mounds dot the {area:390}; the eggs lie in them, and Silithid Swarmers come out to defend them.\nCareful: Silithid Swarmers in the area release many tiny adds that interrupt spells; damage shields such as Thorns kill them in one hit."] = "Camp Taurajo'nun güneyinde, {npc:3341} yolunda Silithid Mound yığınları {area:390} her yanına serpilmiş. Yumurtalar içlerinde, Silithid Swarmer yaratıkları da onları korumak için dışarı çıkar.\nDikkat: bölgedeki Silithid Swarmer yaratıkları büyüleri kesen çok sayıda minik yaratık salar. Thorns gibi hasar kalkanları onları tek vuruşta öldürür.",
 
 	-- Step 9: Brine
 	-- {npc:5899} Brine · {area:378} Camp Taurajo · {area:359} Bael Modan
@@ -55,7 +55,7 @@ return {
 	-- {npc:5899} Brine · {area:272} Tarren Mill
 	["{npc:5899}: the red waterskin from {area:272}"] = "{npc:5899}: {area:272} kasabasından getirdiğin kırmızı su tulumu",
 	-- {npc:5899} Brine · {zone:1440} Ashenvale
-	["{npc:5899}: the blue waterskin is filled in {zone:1440}, next guide"] = "{npc:5899}: mavi su tulumu {zone:1440} bölgesinde doldurulur; sonraki rehber",
+	["{npc:5899}: the blue waterskin is filled in {zone:1440}, next guide"] = "{npc:5899}: mavi su tulumu {zone:1440} bölgesinde doldurulur, sonraki rehber",
 
 	-- Step 10: Gann Stonespire
 	-- {npc:3341} Gann Stonespire · {area:359} Bael Modan · {npc:14242} Sulhasa
@@ -72,14 +72,14 @@ return {
 
 	-- Step 12: Bael Modan
 	-- {area:359} Bael Modan · {npc:3392} Prospector Khazgorm
-	["South of Gann, the Bael'dun dwarves dig at {area:359}. Excavators and Foremen work the pit; {npc:3392} (26) carries the journal: pull him alone.\nCareful: Excavators (level 21-22) and Foremen (level 22-23) run off for help once they fall to 15% health, so more dwarves can join the fight."] = "Gann'in güneyinde Bael'dun cüceleri {area:359} içinde kazı yapıyor. Excavator ve Foreman'ler çukurda çalışıyor; günlüğü {npc:3392} (26) taşıyor: onu tek başına çek.\nDikkat: Excavator (seviye 21-22) ve Foreman (seviye 22-23) yaratıkları canları %15'e düşünce yardım için kaçar, bu yüzden dövüşe daha fazla cüce katılabilir.",
+	["South of Gann, the Bael'dun dwarves dig at {area:359}. Excavators and Foremen work the pit; {npc:3392} (26) carries the journal: pull him alone.\nCareful: Excavators (level 21-22) and Foremen (level 22-23) run off for help once they fall to 15% health, so more dwarves can join the fight."] = "Gann'in güneyinde Bael'dun cüceleri {area:359} içinde kazı yapıyor. Excavator ve Foreman'lar çukurda çalışıyor. Günlüğü {npc:3392} (26) taşıyor: onu tek başına çek.\nDikkat: Excavator (seviye 21-22) ve Foreman (seviye 22-23) yaratıkları canları %15'e düşünce yardım için kaçar, bu yüzden dövüşe daha fazla cüce katılabilir.",
 	-- {npc:3375} Bael'dun Foreman · {area:359} Bael Modan
 	["{npc:3375} walks around {area:359}: look inside the circle on the map"] = "{npc:3375}, {area:359} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 13: Blackthorn Ridge
 	-- {area:1701} Blackthorn Ridge · {npc:3436} Kuz · {npc:3434} Nak · {npc:3435} Lok Orcbane · {npc:5859} Hagg Taurenbane · {quest:885} Washte Pawne · {spell:1752} Sinister Strike
 	-- plural, as words: Razormane Stalkers = {npc:3457} Razormane Stalker
-	["West of Gann, the Razormane hold {area:1701}. {npc:3436} is on the east side, {npc:3434} to the south, {npc:3435} at the west end. Lok (25) and the Warfrenzies (24-25) are a few levels above you; {npc:5859}, a rare elite, sometimes walks the ridge: leave him. Pathfinders and Stalkers drop the Backstabber, Seers the Wand, Warfrenzies the War Shield. {quest:885}, a rare red wind serpent, flies over the ridge: its feather starts a quest.\nCareful: Razormane Stalkers move around in stealth and hit with {spell:1752}, so they can join a fight without warning."] = "Gann'ın batısında, Razormane'ler {area:1701} sırtını tutuyor. {npc:3436} doğu yakasında, {npc:3434} güneyde, {npc:3435} batı uçta. Lok (25) ve Warfrenzy'ler (24-25) senden birkaç seviye yukarıda; nadir bir elit olan {npc:5859} bazen sırtta yürüyor: ona dokunma. Pathfinder ve Stalker'lar Backstabber, Seer'ler Wand, Warfrenzy'ler War Shield düşürür. Nadir kırmızı bir rüzgâr yılanı olan {quest:885} sırtın üstünde uçuyor: tüyü bir görev başlatır.\nDikkat: Razormane Stalker yaratıkları gizlenerek dolaşır ve {spell:1752} ile vurur, bu yüzden dövüşe habersizce katılabilirler.",
+	["West of Gann, the Razormane hold {area:1701}. {npc:3436} is on the east side, {npc:3434} to the south, {npc:3435} at the west end. Lok (25) and the Warfrenzies (24-25) are a few levels above you; {npc:5859}, a rare elite, sometimes walks the ridge: leave him. Pathfinders and Stalkers drop the Backstabber, Seers the Wand, Warfrenzies the War Shield. {quest:885}, a rare red wind serpent, flies over the ridge: its feather starts a quest.\nCareful: Razormane Stalkers move around in stealth and hit with {spell:1752}, so they can join a fight without warning."] = "Gann'ın batısında, Razormane'ler {area:1701} sırtını tutuyor. {npc:3436} doğu yakasında, {npc:3434} güneyde, {npc:3435} batı uçta. Lok (25) ve Warfrenzy'ler (24-25) senden birkaç seviye yukarıda. Nadir bir elit olan {npc:5859} bazen sırtta yürüyor: ona dokunma. Pathfinder ve Stalker'lar Backstabber, Seer'ler Wand, Warfrenzy'ler War Shield düşürür. Nadir kırmızı bir rüzgâr yılanı olan {quest:885} sırtın üstünde uçuyor: tüyü bir görev başlatır.\nDikkat: Razormane Stalker yaratıkları gizlenerek dolaşır ve {spell:1752} ile vurur, bu yüzden dövüşe habersizce katılabilirler.",
 
 	-- Step 14: Field to Clear
 	-- {npc:3341} Gann Stonespire · {npc:3238} Stormhide
@@ -92,7 +92,7 @@ return {
 	["Bael'dun fortress"] = "Bael'dun kalesi",
 	-- {npc:3414} General Twinbraid
 	-- plural, as words: Bael'dun Soldiers = {npc:3376} Bael'dun Soldier
-	["The Bael'dun Soldiers, Riflemen and Officers guard the fortress on the east side of the dig; all three items drop from them. {npc:3414} (30) and his Officers stand on the bottom floor: work the soldiers and riflemen on the upper levels and keep away from him.\nCareful: Riflemen (level 24-25) Shoot from 5-30 yd, so nearby ones can join a fight from range."] = "Bael'dun Soldier, Rifleman ve Officer yaratıkları kazının doğu yakasındaki kaleyi koruyor; üç eşya da onlardan düşer. {npc:3414} (30) ve Officer'ları en alt katta duruyor: üst katlardaki askerleri ve tüfekçileri al ve ondan uzak dur.\nDikkat: Rifleman'lar (seviye 24-25) 5-30 yard'dan Shoot kullanır, yani yakındakiler dövüşe uzaktan katılabilir.",
+	["The Bael'dun Soldiers, Riflemen and Officers guard the fortress on the east side of the dig; all three items drop from them. {npc:3414} (30) and his Officers stand on the bottom floor: work the soldiers and riflemen on the upper levels and keep away from him.\nCareful: Riflemen (level 24-25) Shoot from 5-30 yd, so nearby ones can join a fight from range."] = "Bael'dun Soldier, Rifleman ve Officer yaratıkları kazının doğu yakasındaki kaleyi koruyor. Üç eşya da onlardan düşer. {npc:3414} (30) ve Officer'ları en alt katta duruyor: üst katlardaki askerleri ve tüfekçileri al ve ondan uzak dur.\nDikkat: Rifleman'lar (seviye 24-25) 5-30 yard'dan Shoot kullanır, yani yakındakiler dövüşe uzaktan katılabilir.",
 
 	-- Step 18: The flying machine
 	["The flying machine"] = "Uçan makine",
@@ -178,7 +178,7 @@ return {
 
 	-- Step 36: Sun Rock Retreat
 	-- {area:1076} Webwinder Path · {npc:4201} Ziz Fizziks · {area:460} Sun Rock Retreat
-	["On up the {area:1076} from {npc:4201}' hut to {area:460}."] = "{npc:4201} kulübesinden {area:1076} yokuşunu {area:460} yerine kadar çıkmaya devam et.",
+	["On up the {area:1076} from {npc:4201}' hut to {area:460}."] = "{npc:4201} kulübesinden {area:1076} yokuşunu {area:460} kampına kadar çıkmaya devam et.",
 	-- {npc:11862} Tsunaman · {npc:12736} Je'neu Sancrea
 	["{npc:11862}: {npc:12736} at Zoram'gar, next guide"] = "{npc:11862}: sonraki rehberde, Zoram'gar'daki {npc:12736}",
 	-- {npc:11860} Maggran Earthbinder · {area:1718} Great Lift · {zone:1441} Thousand Needles
@@ -203,14 +203,14 @@ return {
 	-- Step 39: Mirkweed
 	-- {object:667362} Mirkweed · {area:464} Mirkfallon Lake
 	-- plural, as words: Dried Mirkweed Piles = {object:667364} Dried Mirkweed Pile
-	["The {object:667362} grows on the bottom of {area:464}, off the same southern shore: dive to the plants and the Dried Mirkweed Piles; both give pods. Watch your breath."] = "{object:667362}, aynı güney kıyısının açığında, {area:464} gölünün dibinde yetişiyor: bitkilere ve Dried Mirkweed Pile nesnelerine dal; ikisi de kapsül verir. Nefesine dikkat et.",
+	["The {object:667362} grows on the bottom of {area:464}, off the same southern shore: dive to the plants and the Dried Mirkweed Piles; both give pods. Watch your breath."] = "{object:667362}, aynı güney kıyısının açığında, {area:464} gölünün dibinde yetişiyor: bitkilere ve Dried Mirkweed Pile nesnelerine dal, ikisi de kapsül verir. Nefesine dikkat et.",
 
 	-- Step 40: Stonetalon Mountains: kill these as you meet them
 	-- {zone:1442} Stonetalon Mountains
 	["{zone:1442}: kill these as you meet them"] = "{zone:1442}: bunları karşılaştıkça öldür",
 	-- {area:467} Stonetalon Peak
 	-- plural, as words: Antlered Coursers = {npc:4018} Antlered Courser · Sap Beasts = {npc:4020} Sap Beast · Twilight Runners = {npc:4067} Twilight Runner · Fey Dragons = {npc:4016} Fey Dragon
-	["Follow the road north toward {area:467}. Antlered Coursers graze along the way; the Sap Beasts, Twilight Runners and Fey Dragons roam the woods below the Peak, and the Cenarion druids hold the grove there."] = "Yolu kuzeye, {area:467} zirvesine doğru izle. Yol boyunca Antlered Courser yaratıkları otluyor; Sap Beast, Twilight Runner ve Fey Dragon yaratıkları zirvenin aşağısındaki ormanda dolaşıyor, oradaki koruyu da Cenarion druidleri tutuyor.",
+	["Follow the road north toward {area:467}. Antlered Coursers graze along the way; the Sap Beasts, Twilight Runners and Fey Dragons roam the woods below the Peak, and the Cenarion druids hold the grove there."] = "Yolu kuzeye, {area:467} zirvesine doğru izle. Yol boyunca Antlered Courser yaratıkları otluyor. Sap Beast, Twilight Runner ve Fey Dragon yaratıkları zirvenin aşağısındaki ormanda dolaşıyor, oradaki koruyu da Cenarion druidleri tutuyor.",
 
 	-- Step 41: Sun Rock Retreat
 	-- {npc:4198} Braelyn Firehand · {zone:1440} Ashenvale
@@ -221,7 +221,7 @@ return {
 	["{area:465}: kill these as you meet them"] = "{area:465}: bunları karşılaştıkça öldür",
 	-- {area:465} The Charred Vale · {item:16312} Incendrites
 	-- plural, as words: Gaea Seeds = {item:16205} Gaea Seed · Burning Destroyers = {npc:4038} Burning Destroyer · Scorched Basilisks = {npc:4041} Scorched Basilisk
-	["South-west of Sun Rock lies the burned {area:465}. Plant the Gaea Seeds in the dirt mounds on the valley floor; the fire elementals drop {item:16312}. Bloodfury Harpies and Ambushers nest on the north side, Slayers and Roguefeathers to the south. Careful: the Burning Destroyers, Scorched Basilisks and Bloodfury Storm Witches here are level 27 and the valley floor is crowded: pull one at a time and keep to its edges."] = "Sun Rock'un güneybatısında yanmış {area:465} vadisi uzanıyor. Gaea Seed tohumlarını vadi tabanındaki toprak tümseklerine ek; ateş elementalleri {item:16312} düşürür. Bloodfury Harpy ve Ambusher yaratıkları kuzey yakasında, Slayer ve Roguefeather'lar güneyde yuva yapmış. Dikkat: buradaki Burning Destroyer, Scorched Basilisk ve Bloodfury Storm Witch yaratıkları 27. seviye ve vadi tabanı kalabalık: tek tek çek ve kenarlarda kal.",
+	["South-west of Sun Rock lies the burned {area:465}. Plant the Gaea Seeds in the dirt mounds on the valley floor; the fire elementals drop {item:16312}. Bloodfury Harpies and Ambushers nest on the north side, Slayers and Roguefeathers to the south. Careful: the Burning Destroyers, Scorched Basilisks and Bloodfury Storm Witches here are level 27 and the valley floor is crowded: pull one at a time and keep to its edges."] = "Sun Rock'un güneybatısında yanmış {area:465} vadisi uzanıyor. Gaea Seed tohumlarını vadi tabanındaki toprak tümseklerine ek, ateş elementalleri {item:16312} düşürür. Bloodfury Harpy ve Ambusher yaratıkları kuzey yakasında, Slayer ve Roguefeather'lar güneyde yuva yapmış. Dikkat: buradaki Burning Destroyer, Scorched Basilisk ve Bloodfury Storm Witch yaratıkları 27. seviye ve vadi tabanı kalabalık: tek tek çek ve kenarlarda kal.",
 	-- {item:277936} Glittering Sunstone
 	["{item:277936}, from any Bloodfury harpy"] = "{item:277936}: herhangi bir Bloodfury harpy yaratığından",
 	-- plural, as words: Gaea Dirt Mounds = {object:177929} Gaea Dirt Mound
@@ -235,7 +235,7 @@ return {
 
 	-- Step 44: Shredding Machines
 	-- {area:1076} Webwinder Path · {npc:4201} Ziz Fizziks · {area:461} Windshear Crag · {npc:4074} XT:9 · {npc:4073} XT:4
-	["Back down the {area:1076} to {npc:4201}' hut, then east along the road toward {area:461}: {npc:4074} patrols the road just east of the fork, {npc:4073} the slopes further north-east below the crag. Both are lone shredder robots; they roam, so follow the road until you meet them."] = "{area:1076} yokuşundan {npc:4201} kulübesine in, sonra yol boyunca doğuya, {area:461} yöresine git: {npc:4074} ayrımın hemen doğusundaki yolda, {npc:4073} de daha kuzeydoğuda, kayalığın aşağısındaki yamaçlarda devriye geziyor. İkisi de tek başına dolaşan shredder robotları; gezinirler, onlarla karşılaşana kadar yolu izle.",
+	["Back down the {area:1076} to {npc:4201}' hut, then east along the road toward {area:461}: {npc:4074} patrols the road just east of the fork, {npc:4073} the slopes further north-east below the crag. Both are lone shredder robots; they roam, so follow the road until you meet them."] = "{area:1076} yokuşundan {npc:4201} kulübesine in, sonra yol boyunca doğuya, {area:461} yöresine git: {npc:4074} ayrımın hemen doğusundaki yolda, {npc:4073} de daha kuzeydoğuda, kayalığın aşağısındaki yamaçlarda devriye geziyor. İkisi de tek başına dolaşan shredder robotları. Gezinirler, onlarla karşılaşana kadar yolu izle.",
 
 	-- Step 45: Gerenzo Wrenchwhistle
 	-- {area:461} Windshear Crag · {npc:4073} XT:4 · {quest:1096} Gerenzo Wrenchwhistle

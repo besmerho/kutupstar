@@ -10,7 +10,7 @@ return {
 	-- {skill:762} Riding
 	["Journeyman {skill:762}"] = "Journeyman {skill:762}",
 	-- {npc:4753} Jartsam · {npc:4730} Lelanai · {area:1658} Cenarion Enclave · {faction:69} Darnassus · {skill:762} Riding
-	["{npc:4753} and {npc:4730}'s sabers are in the {area:1658}'s riding grounds in {faction:69}. At 60 {npc:4753} teaches Journeyman {skill:762} to Night Elves for 1,000g (10% less at Honored with {faction:69}); Blizzard says it comes with a mount. Other races train it at their own race's riding trainer. Each swift saber costs 200g here."] = "{npc:4753} ve {npc:4730} adlı NPC'nin saber'ları {faction:69} şehrindeki {area:1658} binicilik alanında. Seviye 60'ta {npc:4753}, Night Elf'lere 1.000g karşılığında Journeyman {skill:762} öğretir ({faction:69} ile Honored'da %10 daha az); Blizzard bununla bir binek geldiğini söylüyor. Diğer ırklar bunu kendi ırklarının binicilik eğitmeninde öğrenir. Her hızlı saber burada 200g.",
+	["{npc:4753} and {npc:4730}'s sabers are in the {area:1658}'s riding grounds in {faction:69}. At 60 {npc:4753} teaches Journeyman {skill:762} to Night Elves for 1,000g (10% less at Honored with {faction:69}); Blizzard says it comes with a mount. Other races train it at their own race's riding trainer. Each swift saber costs 200g here."] = "{npc:4753} ve {npc:4730} adlı NPC'nin saber'ları {faction:69} şehrindeki {area:1658} binicilik alanında. Seviye 60'ta {npc:4753}, Night Elf'lere 1.000g karşılığında Journeyman {skill:762} öğretir ({faction:69} ile Honored'da %10 daha az). Blizzard bununla bir binek geldiğini söylüyor. Diğer ırklar bunu kendi ırklarının binicilik eğitmeninde öğrenir. Her hızlı saber burada 200g.",
 	-- {npc:4753} Jartsam
 	["{npc:4753}, riding trainer"] = "{npc:4753}, binicilik eğitmeni",
 

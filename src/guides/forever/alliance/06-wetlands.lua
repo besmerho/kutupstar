@@ -49,7 +49,7 @@ return {
 	-- {item:2594} Flagon of Dwarven Honeymead · {npc:1464} Innkeeper Helbrek
 	["{item:2594}, from {npc:1464}"] = "{item:2594}, kaynak: {npc:1464}",
 	-- {npc:2104} Captain Stoutfist
-	["{npc:2104}, by the keep; on the top floor"] = "{npc:2104}, kalenin yanında; en üst katta",
+	["{npc:2104}, by the keep; on the top floor"] = "{npc:2104}, kalenin yanında, en üst katta",
 	-- {npc:2104} Captain Stoutfist · {quest:98221} From the Ashes · {area:1036} Angerfang Encampment
 	["{npc:2104}: {quest:98221}, the Attack Plans in the {area:1036}"] = "{npc:2104}: {quest:98221}, {area:1036} kampındaki saldırı planları",
 	-- {npc:1242} Karl Boran
@@ -81,9 +81,9 @@ return {
 	["{area:1039}: kill these as you meet them"] = "{area:1039}: bunları karşılaştıkça öldür",
 	-- {npc:1159} First Mate Snellig
 	-- plural, as words: Cursed Sailors = {npc:1157} Cursed Sailor · Cursed Marines = {npc:1158} Cursed Marine · Giant Wetlands Crocolisks = {npc:2089} Giant Wetlands Crocolisk · Fen Creepers = {npc:1040} Fen Creeper
-	["Follow the coast north to the wrecked ship. Cursed Sailors walk the beach, Cursed Marines the deck; {npc:1159} stands on the beach by the bow. Giant Wetlands Crocolisks lurk on the coast just north of it.\nCareful: Fen Creepers hide in stealth where the river splits close to the ghost ship, and they can join a fight."] = "Kıyıyı kuzeye, batık gemiye izle. Cursed Sailor yaratıkları kumsalda, Cursed Marine yaratıkları güvertede dolaşıyor; {npc:1159} pruvanın yanında, kumsalda duruyor. Giant Wetlands Crocolisk yaratıkları onun hemen kuzeyindeki kıyıda pusuda.\nDikkat: Fen Creeper'lar hayalet geminin yakınında nehrin ikiye ayrıldığı yerde gizlenerek saklanıyor ve dövüşe katılabilir.",
+	["Follow the coast north to the wrecked ship. Cursed Sailors walk the beach, Cursed Marines the deck; {npc:1159} stands on the beach by the bow. Giant Wetlands Crocolisks lurk on the coast just north of it.\nCareful: Fen Creepers hide in stealth where the river splits close to the ghost ship, and they can join a fight."] = "Kıyıyı kuzeye, batık gemiye izle. Cursed Sailor yaratıkları kumsalda, Cursed Marine yaratıkları güvertede dolaşıyor. {npc:1159} pruvanın yanında, kumsalda duruyor. Giant Wetlands Crocolisk yaratıkları onun hemen kuzeyindeki kıyıda pusuda.\nDikkat: Fen Creeper'lar hayalet geminin yakınında nehrin ikiye ayrıldığı yerde gizlenerek saklanıyor ve dövüşe katılabilir.",
 	-- {npc:1158} Cursed Marine · {npc:270589} Nightveiled Rotheap
-	["{npc:1158}; careful: {npc:270589}, a level 31 elite, roams this coast"] = "{npc:1158}; dikkat: 31. seviye elit {npc:270589} bu kıyıda dolaşıyor",
+	["{npc:1158}; careful: {npc:270589}, a level 31 elite, roams this coast"] = "{npc:1158}. Dikkat: 31. seviye elit {npc:270589} bu kıyıda dolaşıyor",
 
 	-- Step 19: Menethil Harbor
 	-- {npc:2094} James Halloran · {npc:1242} Karl Boran · {npc:2104} Captain Stoutfist · {npc:1239} First Mate Fitzsimmons
@@ -136,7 +136,7 @@ return {
 
 	-- Step 26: Prospector Whelgar
 	-- {item:279996} Goaz Stone · {zone:1437} Wetlands · {area:205} Dun Modr
-	["A new {item:279996}, for the four titan watchers around the {zone:1437}; below ground. Their hearts drop from level 32 elites on the {area:205} visit"] = "{zone:1437} bölgesinin çevresindeki dört titan gözcüsü için yeni bir {item:279996}; yer altında. Kalpleri {area:205} ziyaretindeki 32. seviye elitlerden düşer",
+	["A new {item:279996}, for the four titan watchers around the {zone:1437}; below ground. Their hearts drop from level 32 elites on the {area:205} visit"] = "{zone:1437} bölgesinin çevresindeki dört titan gözcüsü için yeni bir {item:279996}, yer altında. Kalpleri {area:205} ziyaretindeki 32. seviye elitlerden düşer",
 
 	-- Step 27: Angerfang Encampment
 	-- {zone:1455} Ironforge · {npc:2091} Chieftain Nek'rosh · {quest:98221} From the Ashes
@@ -146,7 +146,7 @@ return {
 
 	-- Step 28: Rethiel the Greenwarden
 	-- {area:1025} Green Belt · {npc:1244} Rethiel the Greenwarden · {quest:277} Fire Taboo · {zone:1437} Wetlands
-	["Follow the road east to the {area:1025}; {npc:1244} stands by the river. {quest:277}'s flint came with you from your last {zone:1437} visit."] = "Yolu doğuya, {area:1025} kuşağına izle; {npc:1244} nehrin yanında duruyor. {quest:277} için çakmaktaşı, son {zone:1437} ziyaretinden seninle geldi.",
+	["Follow the road east to the {area:1025}; {npc:1244} stands by the river. {quest:277}'s flint came with you from your last {zone:1437} visit."] = "Yolu doğuya, {area:1025} kuşağına izle. {npc:1244} nehrin yanında duruyor. {quest:277} için çakmaktaşı, son {zone:1437} ziyaretinden seninle geldi.",
 
 	-- Step 29: Howin Kindfeather
 	-- {npc:270637} Howin Kindfeather · {npc:1244} Rethiel the Greenwarden
@@ -168,7 +168,7 @@ return {
 	["Fen Creepers along the river"] = "Nehir boyunca Fen Creeper yaratıkları",
 	-- {npc:2093} Einar Stonegrip · {area:1024} Sundown Marsh · {npc:1244} Rethiel the Greenwarden
 	-- plural, as words: Fen Creepers = {npc:1040} Fen Creeper
-	["North-west from {npc:2093} to the river: Fen Creepers hide in its pools and along its banks all the way west to {area:1024}. Work west along it until you have twelve, then back east to {npc:1244}.\nCareful: When out of combat, Fen Creepers cast Sneak from time to time, so they are stealthed and hard to see."] = "{npc:2093} yanından kuzeybatıya, nehre git: Fen Creeper yaratıkları nehrin göletlerinde ve kıyılarında, batıda {area:1024} bataklığına kadar saklanıyor. On iki tane olana dek nehir boyunca batıya ilerle, sonra doğuya, {npc:1244} yanına dön.\nDikkat: Fen Creeper'lar savaş dışındayken zaman zaman Sneak kullanır; gizlenirler ve zor görünürler.",
+	["North-west from {npc:2093} to the river: Fen Creepers hide in its pools and along its banks all the way west to {area:1024}. Work west along it until you have twelve, then back east to {npc:1244}.\nCareful: When out of combat, Fen Creepers cast Sneak from time to time, so they are stealthed and hard to see."] = "{npc:2093} yanından kuzeybatıya, nehre git: Fen Creeper yaratıkları nehrin göletlerinde ve kıyılarında, batıda {area:1024} bataklığına kadar saklanıyor. On iki tane olana dek nehir boyunca batıya ilerle, sonra doğuya, {npc:1244} yanına dön.\nDikkat: Fen Creeper'lar savaş dışındayken zaman zaman Sneak kullanır, gizlenirler ve zor görünürler.",
 
 	-- Step 32: Rethiel the Greenwarden
 	-- {quest:98283} Carnage · {zone:1437} Wetlands
@@ -180,7 +180,7 @@ return {
 
 	-- Step 34: Excavation Site: Wetlands
 	-- {area:17732} Excavation Site: Wetlands · {npc:260808} Highland Horror · {npc:1244} Rethiel the Greenwarden · {npc:260326} Relic Guardian · {item:270865} Titan Relic · {npc:1077} Prospector Whelgar
-	["{area:17732} is a dungeon for a group of five at about level 28 to 31. Its entrance lies just south of the road west, east of Whelgar's dig.\nInside: the Thicket raptors and Shadetooth drop the hides for Halloran, a {npc:260808} the root core for {npc:1244}. Saltspine, Shadetooth and the {npc:260326} are the bosses; the {npc:260326} drops a {item:270865}, which starts a quest for {npc:1077}."] = "{area:17732}, yaklaşık 28-31. seviyedeki beş kişilik bir grup için bir zindan. Girişi batıya giden yolun hemen güneyinde, Whelgar'ın kazısının doğusunda.\nİçeride: Thicket raptor'ları ve Shadetooth Halloran için post, bir {npc:260808} de {npc:1244} için kök özü düşürür. Boss'lar Saltspine, Shadetooth ve {npc:260326}; {npc:260326} bir {item:270865} düşürür, bu da {npc:1077} için bir görev başlatır.",
+	["{area:17732} is a dungeon for a group of five at about level 28 to 31. Its entrance lies just south of the road west, east of Whelgar's dig.\nInside: the Thicket raptors and Shadetooth drop the hides for Halloran, a {npc:260808} the root core for {npc:1244}. Saltspine, Shadetooth and the {npc:260326} are the bosses; the {npc:260326} drops a {item:270865}, which starts a quest for {npc:1077}."] = "{area:17732}, yaklaşık 28-31. seviyedeki beş kişilik bir grup için bir zindan. Girişi batıya giden yolun hemen güneyinde, Whelgar'ın kazısının doğusunda.\nİçeride: Thicket raptor'ları ve Shadetooth Halloran için post, bir {npc:260808} de {npc:1244} için kök özü düşürür. Boss'lar Saltspine, Shadetooth ve {npc:260326}. {npc:260326} bir {item:270865} düşürür, bu da {npc:1077} için bir görev başlatır.",
 	-- {quest:98815} Highland Hides
 	["{quest:98815}: the hides, inside"] = "{quest:98815}: postlar, içeride",
 	-- {quest:95646} Horrors in the Highland
@@ -196,7 +196,7 @@ return {
 
 	-- Step 36: Captain Stoutfist
 	-- {area:150} Menethil Harbor · {area:2104} Deepwater Tavern · {npc:2104} Captain Stoutfist · {area:2103} Menethil Keep · {npc:2094} James Halloran
-	["Hearth back to {area:150} if you bound at the {area:2104}, or walk west along the road: {npc:2104} stands on the top floor of {area:2103}, {npc:2094} by the docks on the way to the boat."] = "{area:2104} içinde bağladıysan Hearthstone ile {area:150} limanına dön, yoksa yol boyunca batıya yürü: {npc:2104}, {area:2103} kalesinin en üst katında; {npc:2094} gemiye giderken iskelelerin yanında.",
+	["Hearth back to {area:150} if you bound at the {area:2104}, or walk west along the road: {npc:2104} stands on the top floor of {area:2103}, {npc:2094} by the docks on the way to the boat."] = "{area:2104} içinde bağladıysan Hearthstone ile {area:150} limanına dön, yoksa yol boyunca batıya yürü: {npc:2104}, {area:2103} kalesinin en üst katında. {npc:2094} gemiye giderken iskelelerin yanında.",
 	["On the top floor"] = "En üst katta",
 	-- {zone:1437} Wetlands
 	["For the Dragonmaw catapult, on the {zone:1437} loop of 30-40/01-hillsbrad-foothills"] = "Dragonmaw mancınığı için, 30-40/01-hillsbrad-foothills rehberinin {zone:1437} turunda",
@@ -279,23 +279,23 @@ return {
 
 	-- Step 50: Shael'dryn
 	-- {area:419} Howling Vale · {npc:3916} Shael'dryn
-	["Follow the road east to the {area:419}; {npc:3916} stands by the moonwell."] = "Yolu doğuya, {area:419} kesimine izle; {npc:3916} ay kuyusunun yanında duruyor.",
+	["Follow the road east to the {area:419}; {npc:3916} stands by the moonwell."] = "Yolu doğuya, {area:419} kesimine izle. {npc:3916} ay kuyusunun yanında duruyor.",
 
 	-- Step 51: Dartol's Rod
 	["Dartol's Rod"] = "Dartol's Rod",
 	-- {item:5475} Wooden Key
 	-- plural, as words: Withered Ancients = {npc:3919} Withered Ancient
-	["The Crazed and Withered Ancients north of the moonwell carry the {item:5475}; the worn chest it opens stands among them."] = "{item:5475}, ay kuyusunun kuzeyindeki Crazed Ancient ve Withered Ancient yaratıklarında; açtığı yıpranmış sandık da onların arasında duruyor.",
+	["The Crazed and Withered Ancients north of the moonwell carry the {item:5475}; the worn chest it opens stands among them."] = "{item:5475}, ay kuyusunun kuzeyindeki Crazed Ancient ve Withered Ancient yaratıklarında, açtığı yıpranmış sandık da onların arasında duruyor.",
 
 	-- Step 53: Anilia
 	-- {area:429} Xavian · {npc:3920} Anilia
-	["Follow the road east to the satyr camps of {area:429}; {npc:3920} hides at their edge."] = "Yolu doğuya izleyerek {area:429} satir kamplarına git; {npc:3920} kampların kenarında saklanıyor.",
+	["Follow the road east to the satyr camps of {area:429}; {npc:3920} hides at their edge."] = "Yolu doğuya izleyerek {area:429} satir kamplarına git. {npc:3920} kampların kenarında saklanıyor.",
 	-- {npc:3920} Anilia · {quest:1031} The Branch of Cenarius · {npc:4619} Geltharis
 	["{npc:3920}: {quest:1031}, from {npc:4619} (level 32): a fight for a group at this level"] = "{npc:3920}: {quest:1031}, {npc:4619} (seviye 32) yaratığından: bu seviyede grupla yapılacak bir dövüş",
 
 	-- Step 54: Geltharis
 	-- {npc:4619} Geltharis · {area:429} Xavian
-	["{npc:4619} leads the {area:429} satyrs; he carries the branch. He is level 32, above you here, among level 29-30 satyrs: grouping up is advised."] = "{npc:4619}, {area:429} satyr'larının lideri; dal onda. 32. seviye, buradaki seviyenin üstünde, 29-30. seviye satyr'ların arasında: grup kurman önerilir.",
+	["{npc:4619} leads the {area:429} satyrs; he carries the branch. He is level 32, above you here, among level 29-30 satyrs: grouping up is advised."] = "{npc:4619}, {area:429} satyr'larının lideri, dal onda. 32. seviye, buradaki seviyenin üstünde, 29-30. seviye satyr'ların arasında: grup kurman önerilir.",
 
 	-- Step 55: Forest Song
 	-- {area:2358} Forest Song · {npc:3848} Kayneth Stillwind · {npc:221269} Maseara Autumnmoon
@@ -307,11 +307,11 @@ return {
 	-- {area:432} The Dor'Danil Barrow Den
 	["{area:432}: kill these as you meet them"] = "{area:432}: bunları karşılaştıkça öldür",
 	-- {area:2358} Forest Song
-	["The Forsaken's camp lies in the woods south of {area:2358}.\nRusty chests lie around the Shadethicket furbolg camps west of the Forsaken; open them until one holds the pommel.\nCareful: Non-elite Forsaken of about level 28-30 guard the camp. Some of them are stealthed, and the ones around the table often aggro together."] = "Forsaken kampı {area:2358} köyünün güneyindeki ormanda.\nPaslı sandıklar Forsaken'ların batısındaki Shadethicket furbolg kamplarının çevresinde duruyor; biri kabzayı verene kadar aç.\nDikkat: Kampı seviye 28-30 civarı elit olmayan Forsaken'lar koruyor. Bazıları gizli, masanın çevresindekiler de çoğu zaman birlikte saldırır.",
+	["The Forsaken's camp lies in the woods south of {area:2358}.\nRusty chests lie around the Shadethicket furbolg camps west of the Forsaken; open them until one holds the pommel.\nCareful: Non-elite Forsaken of about level 28-30 guard the camp. Some of them are stealthed, and the ones around the table often aggro together."] = "Forsaken kampı {area:2358} köyünün güneyindeki ormanda.\nPaslı sandıklar Forsaken'ların batısındaki Shadethicket furbolg kamplarının çevresinde duruyor. Biri kabzayı verene kadar aç.\nDikkat: Kampı seviye 28-30 civarı elit olmayan Forsaken'lar koruyor. Bazıları gizli, masanın çevresindekiler de çoğu zaman birlikte saldırır.",
 
 	-- Step 57: Fallen Sky Lake
 	-- {npc:3931} Shadethicket Oracle · {quest:1035} Fallen Sky Lake · {object:669176} Gleaming Crescent Pendant
-	["The {npc:3931} walks the shore of {quest:1035}, south-west of the chests; the {object:669176} lies north of the lake, on the way.\nCareful: Other mobs, some of them underwater, sit near the island. Clear them first so they don't join the fight when you pull the Oracle."] = "{npc:3931}, sandıkların güneybatısında, {quest:1035} gölünün kıyısında dolaşıyor; {object:669176} gölün kuzeyinde, yolun üstünde duruyor.\nDikkat: Adanın yakınında bazıları su altında olan başka yaratıklar var. Oracle'ı çektiğinde dövüşe katılmasınlar diye önce onları temizle.",
+	["The {npc:3931} walks the shore of {quest:1035}, south-west of the chests; the {object:669176} lies north of the lake, on the way.\nCareful: Other mobs, some of them underwater, sit near the island. Clear them first so they don't join the fight when you pull the Oracle."] = "{npc:3931}, sandıkların güneybatısında, {quest:1035} gölünün kıyısında dolaşıyor. {object:669176} gölün kuzeyinde, yolun üstünde duruyor.\nDikkat: Adanın yakınında bazıları su altında olan başka yaratıklar var. Oracle'ı çektiğinde dövüşe katılmasınlar diye önce onları temizle.",
 	-- {object:669176} Gleaming Crescent Pendant · {npc:3961} Maliynn · {area:415} Astranaar
 	["{object:669176}: for {npc:3961} in {area:415}"] = "{object:669176}: {area:415} kasabasındaki {npc:3961} için",
 
@@ -324,7 +324,7 @@ return {
 
 	-- Step 59: Kayneth Stillwind
 	-- {npc:3848} Kayneth Stillwind · {quest:1012} Insane Druids · {area:432} The Dor'Danil Barrow Den
-	["Optional: {npc:3848} also offers {quest:1012}, three level 32 druids deep in {area:432}, a cave of quickly respawning, stealthed mobs, and back to her afterwards. It is above your level here: take it only if you are grouped or want the extra XP; the guide doesn't need it."] = "İsteğe bağlı: {npc:3848} ayrıca {quest:1012} görevini de verir: {area:432} derinlerinde seviye 32 üç druid; hızla yeniden doğan, gizlenen yaratıklarla dolu bir mağara; sonra ona dönüş. Burada seviyenin üstünde: yalnızca gruptaysan ya da fazladan XP istiyorsan al; rehberin buna ihtiyacı yok.",
+	["Optional: {npc:3848} also offers {quest:1012}, three level 32 druids deep in {area:432}, a cave of quickly respawning, stealthed mobs, and back to her afterwards. It is above your level here: take it only if you are grouped or want the extra XP; the guide doesn't need it."] = "İsteğe bağlı: {npc:3848} ayrıca {quest:1012} görevini de verir: {area:432} derinlerinde seviye 32 üç druid, hızla yeniden doğan, gizlenen yaratıklarla dolu bir mağara, sonra ona dönüş. Burada seviyenin üstünde: yalnızca gruptaysan ya da fazladan XP istiyorsan al, rehberin buna ihtiyacı yok.",
 	-- {npc:221269} Maseara Autumnmoon
 	["{npc:221269}, a few steps east"] = "{npc:221269}, birkaç adım doğuda",
 
@@ -335,7 +335,7 @@ return {
 	-- Step 61: Insane druids
 	["Insane druids"] = "Delirmiş druidler",
 	-- {area:432} The Dor'Danil Barrow Den · {npc:3940} Taneel Darkwood · {npc:3941} Uthil Mooncall · {npc:3942} Mavoris Cloudsbreak
-	["The three druids are inside {area:432}, apart from each other: go in at its mouth, south of the Forsaken camp, not over the hill above them. {npc:3940} is in the eastern halls, {npc:3941} deepest down at the north-east end and {npc:3942} at the western end.\nCareful: The den has many mobs that respawn quickly, including stealthed undead and patrols, so extra mobs often join a fight."] = "Üç druid {area:432} içinde, birbirinden ayrı duruyor: mağaraya Forsaken kampının güneyindeki ağzından gir, yukarıdaki tepenin üzerinden değil. {npc:3940} doğu salonlarında, {npc:3941} en derinde, kuzeydoğu ucunda, {npc:3942} batı ucunda.\nDikkat: Mağarada gizlenen undead'ler ve devriyeler dahil hızla yeniden doğan çok sayıda yaratık var; dövüşlere sık sık fazladan yaratık katılır.",
+	["The three druids are inside {area:432}, apart from each other: go in at its mouth, south of the Forsaken camp, not over the hill above them. {npc:3940} is in the eastern halls, {npc:3941} deepest down at the north-east end and {npc:3942} at the western end.\nCareful: The den has many mobs that respawn quickly, including stealthed undead and patrols, so extra mobs often join a fight."] = "Üç druid {area:432} içinde, birbirinden ayrı duruyor: mağaraya Forsaken kampının güneyindeki ağzından gir, yukarıdaki tepenin üzerinden değil. {npc:3940} doğu salonlarında, {npc:3941} en derinde, kuzeydoğu ucunda, {npc:3942} batı ucunda.\nDikkat: Mağarada gizlenen undead'ler ve devriyeler dahil hızla yeniden doğan çok sayıda yaratık var, dövüşlere sık sık fazladan yaratık katılır.",
 	-- {npc:3940} Taneel Darkwood · {area:432} The Dor'Danil Barrow Den
 	["{npc:3940}, inside {area:432}"] = "{npc:3940}, {area:432} içinde",
 	-- {npc:3941} Uthil Mooncall · {area:432} The Dor'Danil Barrow Den
@@ -348,16 +348,16 @@ return {
 	["The second {object:19901} lies in the valley of {area:428}, on the way west."] = "İkinci {object:19901}, batıya giden yolda, {area:428} vadisinde.",
 
 	-- Step 65: Hidden Shrine
-	["The shrine sits on the hill just south-east of the moonwell; follow the winding path up."] = "Tapınak ay kuyusunun hemen güneydoğusundaki tepede; kıvrımlı patikadan yukarı çık.",
+	["The shrine sits on the hill just south-east of the moonwell; follow the winding path up."] = "Tapınak ay kuyusunun hemen güneydoğusundaki tepede, kıvrımlı patikadan yukarı çık.",
 
 	-- Step 67: The Howling Vale
 	-- {area:419} Howling Vale · {npc:3792} Terrowulf Packlord
 	-- plural, as words: Terrowulf Fleshrippers = {npc:3789} Terrowulf Fleshripper
-	["Take the tunnel into the {area:419}; the tome lies in the ruins at its west end. Careful: Terrowulf Fleshrippers and Shadow Weavers (28-30) stand in tight packs around the tome, and the {npc:3792}, a level 32 rare, walks the vale. Pull the wolves one at a time from the tunnel and let the Packlord pass first."] = "Tünelden {area:419} vadisine gir; kitap batı ucundaki harabelerde. Dikkat: Terrowulf Fleshripper ve Shadow Weaver yaratıkları (28-30) kitabın çevresinde sıkı sürüler halinde duruyor, 32. seviye rare {npc:3792} de vadide dolaşıyor. Kurtları tünelden tek tek çek ve önce Packlord'un geçmesine izin ver.",
+	["Take the tunnel into the {area:419}; the tome lies in the ruins at its west end. Careful: Terrowulf Fleshrippers and Shadow Weavers (28-30) stand in tight packs around the tome, and the {npc:3792}, a level 32 rare, walks the vale. Pull the wolves one at a time from the tunnel and let the Packlord pass first."] = "Tünelden {area:419} vadisine gir. Kitap batı ucundaki harabelerde. Dikkat: Terrowulf Fleshripper ve Shadow Weaver yaratıkları (28-30) kitabın çevresinde sıkı sürüler halinde duruyor, 32. seviye rare {npc:3792} de vadide dolaşıyor. Kurtları tünelden tek tek çek ve önce Packlord'un geçmesine izin ver.",
 
 	-- Step 68: Astranaar
 	-- {npc:3691} Raene Wolfrunner · {npc:3961} Maliynn · {npc:3894} Pelturas Whitemoon
-	["{npc:3691} and {npc:3961} are in the inn; {npc:3894} is inside the building just south of it."] = "{npc:3691} ve {npc:3961} handa; {npc:3894} hanın hemen güneyindeki binanın içinde.",
+	["{npc:3691} and {npc:3961} are in the inn; {npc:3894} is inside the building just south of it."] = "{npc:3691} ve {npc:3961} handa. {npc:3894} hanın hemen güneyindeki binanın içinde.",
 	-- {npc:3691} Raene Wolfrunner · {quest:1025} An Aggressive Defense · {npc:3897} Krolg
 	["{npc:3691}: {quest:1025}, the Foulweald on the way to {npc:3897}"] = "{npc:3691}: {quest:1025}, {npc:3897} yanına giderken Foulweald",
 	-- {npc:3691} Raene Wolfrunner · {quest:1054} Culling the Threat · {npc:3987} Dal Bloodclaw · {area:413} Maestra's Post
@@ -375,7 +375,7 @@ return {
 	-- Step 70: Mystral Lake
 	-- {npc:3885} Sentinel Velene Starstrike · {area:420} Silverwind Refuge · {area:421} Mystral Lake · {npc:3897} Krolg · {npc:12759} Tideress
 	-- plural, as words: Befouled Water Elementals = {npc:3917} Befouled Water Elemental
-	["{npc:3885} stands at the {area:420} on the east shore of {area:421}, just north of the road to {npc:3897}. Befouled Water Elementals wade in the lake; {npc:12759}, a level 27 water elemental, walks among them and drops the bracers too."] = "{npc:3885}, {area:421} gölünün doğu kıyısındaki {area:420} sığınağında, {npc:3897} yolunun hemen kuzeyinde duruyor. Befouled Water Elemental yaratıkları gölde dolaşıyor; 27. seviye bir su elementali olan {npc:12759} aralarında yürür ve bilezikleri o da düşürür.",
+	["{npc:3885} stands at the {area:420} on the east shore of {area:421}, just north of the road to {npc:3897}. Befouled Water Elementals wade in the lake; {npc:12759}, a level 27 water elemental, walks among them and drops the bracers too."] = "{npc:3885}, {area:421} gölünün doğu kıyısındaki {area:420} sığınağında, {npc:3897} yolunun hemen kuzeyinde duruyor. Befouled Water Elemental yaratıkları gölde dolaşıyor. 27. seviye bir su elementali olan {npc:12759} aralarında yürür ve bilezikleri o da düşürür.",
 	["Underwater"] = "Su altında",
 	-- {item:5456} Divining Scroll
 	-- plural, as words: Intact Elemental Bracers = {item:12220} Intact Elemental Bracer
@@ -494,7 +494,7 @@ return {
 
 	-- Step 97: Stockade
 	-- {area:717} Stockade · {npc:1719} Warden Thelwater · {object:2098} Cathedral Square · {npc:1663} Dextren Ward · {quest:389} Bazil Thredd
-	["{area:717} is a dungeon for a group of five, about levels 23 to 29, and a run takes under an hour. Its gate is {npc:1719}'s, south of the {object:2098}.\nInside: the Defias prisoners, convicts and insurgents for Thelwater, {npc:1663}'s hand for Millstipe, and {quest:389} at the far end."] = "{area:717}, yaklaşık 23-29. seviyedeki beş kişilik bir grup için bir zindan; bir koşu bir saatten kısa sürer. Kapısı {object:2098} meydanının güneyinde, {npc:1719} kapısı.\nİçeride: Thelwater için Defias tutsakları, mahkûmlar ve isyancılar, Millstipe için {npc:1663} adlı NPC'nin eli, en uçta da {quest:389}.",
+	["{area:717} is a dungeon for a group of five, about levels 23 to 29, and a run takes under an hour. Its gate is {npc:1719}'s, south of the {object:2098}.\nInside: the Defias prisoners, convicts and insurgents for Thelwater, {npc:1663}'s hand for Millstipe, and {quest:389} at the far end."] = "{area:717}, yaklaşık 23-29. seviyedeki beş kişilik bir grup için bir zindan. Bir koşu bir saatten kısa sürer. Kapısı {object:2098} meydanının güneyinde, {npc:1719} kapısı.\nİçeride: Thelwater için Defias tutsakları, mahkûmlar ve isyancılar, Millstipe için {npc:1663} adlı NPC'nin eli, en uçta da {quest:389}.",
 
 	-- Step 98: Warden Thelwater
 	-- {npc:1719} Warden Thelwater

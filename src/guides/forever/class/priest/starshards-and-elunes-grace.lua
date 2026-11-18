@@ -41,7 +41,7 @@ return {
 
 	-- Step 6: Starshards: Priestess Alathea
 	-- {npc:11401} Priestess Alathea · {zone:1457} Darnassus · {npc:7999} Tyrande Whisperwind · {quest:5627} Stars of Elune · {spell:10797} Starshards
-	["At 10, go to {npc:11401} on the upper balcony of the Temple of the Moon, at the south end of {zone:1457}: take the ramp up from the temple floor; she stands beside {npc:7999}. {quest:5627} is given and taken back at once and teaches {spell:10797}. No letter needed. Forever made {spell:10797} hit much harder, on a 30-second cooldown."] = "10'da {zone:1457} şehrinin güney ucundaki Temple of the Moon'un üst balkonunda bulunan {npc:11401} yanına git: tapınağın zemininden rampayla çık; {npc:7999} yanında duruyor. {quest:5627} verilip hemen geri alınır ve {spell:10797} öğretir. Mektup gerekmez. Forever, {spell:10797} büyüsünü 30 saniyelik bekleme süresiyle çok daha sert vurur hale getirdi.",
+	["At 10, go to {npc:11401} on the upper balcony of the Temple of the Moon, at the south end of {zone:1457}: take the ramp up from the temple floor; she stands beside {npc:7999}. {quest:5627} is given and taken back at once and teaches {spell:10797}. No letter needed. Forever made {spell:10797} hit much harder, on a 30-second cooldown."] = "10'da {zone:1457} şehrinin güney ucundaki Temple of the Moon'un üst balkonunda bulunan {npc:11401} yanına git: tapınağın zemininden rampayla çık. {npc:7999} yanında duruyor. {quest:5627} verilip hemen geri alınır ve {spell:10797} öğretir. Mektup gerekmez. Forever, {spell:10797} büyüsünü 30 saniyelik bekleme süresiyle çok daha sert vurur hale getirdi.",
 
 	-- Step 7: Starshards: Laurna Morninglight's letter
 	-- {spell:10797} Starshards · {npc:3600} Laurna Morninglight

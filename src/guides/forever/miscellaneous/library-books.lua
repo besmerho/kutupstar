@@ -19,7 +19,7 @@ return {
 
 	-- Step 3: Duskwood
 	-- {area:2098} Dawning Wood Catacombs · {zone:1431} Duskwood
-	["The spellbook lies in the {area:2098}, the crypt in north-western {zone:1431}. Undead fill it; a corpse run works if you are low."] = "Büyü kitabı {zone:1431} bölgesinin kuzeybatısındaki mahzen {area:2098} içinde. İçi undead dolu; seviyen düşükse ceset koşusu işe yarar.",
+	["The spellbook lies in the {area:2098}, the crypt in north-western {zone:1431}. Undead fill it; a corpse run works if you are low."] = "Büyü kitabı {zone:1431} bölgesinin kuzeybatısındaki mahzen {area:2098} içinde. İçi undead dolu, seviyen düşükse ceset koşusu işe yarar.",
 
 	-- Step 5: Loch Modan
 	-- {area:144} Thelsamar · {area:108} Sentinel Hill
@@ -53,7 +53,7 @@ return {
 	-- {area:718} Wailing Caverns
 	["The {area:718}' cave"] = "{area:718} mağarası",
 	-- {area:387} Lushwater Oasis · {area:718} Wailing Caverns
-	["The scrolls lie underground, in the cave below {area:387} by the {area:718} entrance, not inside the dungeon. Go in at the cave mouth in the oasis and follow the cave down; the arrow points at the scrolls from the surface."] = "Parşömenler yer altında, zindanın içinde değil, {area:718} girişinin yanında {area:387} altındaki mağarada yatıyor. Vahadaki mağara ağzından gir ve mağarayı aşağı izle; ok yüzeyden parşömenleri gösterir.",
+	["The scrolls lie underground, in the cave below {area:387} by the {area:718} entrance, not inside the dungeon. Go in at the cave mouth in the oasis and follow the cave down; the arrow points at the scrolls from the surface."] = "Parşömenler yer altında, zindanın içinde değil, {area:718} girişinin yanında {area:387} altındaki mağarada yatıyor. Vahadaki mağara ağzından gir ve mağarayı aşağı izle, ok yüzeyden parşömenleri gösterir.",
 	-- {area:387} Lushwater Oasis
 	["Cave mouth at {area:387}"] = "{area:387} kesiminde mağara ağzı",
 
@@ -148,13 +148,13 @@ return {
 	-- {zone:1422} Western Plaguelands
 	["Level 60 books: {zone:1422}"] = "Seviye 60 kitapları: {zone:1422}",
 	-- {item:228141} Necromancy 101 · {area:2298} Caer Darrow · {area:2057} Scholomance · {item:228132} Undead Potatoes · {area:199} Felstone Field
-	["Eight more books lie in level 55-60 zones; the mage trainers beside the librarians take them, not the librarians. {item:228141} lies on a table in the ruined keep on {area:2298}, above {area:2057} (outside the dungeon); {item:228132} at {area:199}."] = "Sekiz kitap daha seviye 55-60 bölgelerinde yatıyor; bunları kütüphaneciler değil, onların yanındaki büyücü eğitmenleri alır. {item:228141}, {area:2057} üstünde {area:2298} adasındaki yıkık kalede bir masada yatıyor (zindanın dışında); {item:228132} {area:199} kesiminde.",
+	["Eight more books lie in level 55-60 zones; the mage trainers beside the librarians take them, not the librarians. {item:228141} lies on a table in the ruined keep on {area:2298}, above {area:2057} (outside the dungeon); {item:228132} at {area:199}."] = "Sekiz kitap daha seviye 55-60 bölgelerinde yatıyor. Bunları kütüphaneciler değil, onların yanındaki büyücü eğitmenleri alır. {item:228141}, {area:2057} üstünde {area:2298} adasındaki yıkık kalede bir masada yatıyor (zindanın dışında), {item:228132} {area:199} kesiminde.",
 
 	-- Step 38: Level 60 books: Eastern Plaguelands
 	-- {zone:1423} Eastern Plaguelands
 	["Level 60 books: {zone:1423}"] = "Seviye 60 kitapları: {zone:1423}",
 	-- {item:228135} A Study of the Light · {area:2268} Light's Hope Chapel · {item:228138} The Knight and the Lady · {area:2264} Corin's Crossing · {area:2279} Stratholme · {item:228140} Scourge: Undead Menace or Misunderstood? · {area:2277} Plaguewood
-	["{item:228135} is inside {area:2268}. {item:228138} lies at {area:2264}; other copies lie elsewhere in the zone (one by the {area:2279} gates), and you can take only one. {item:228140} is on a table in {area:2277}: wait for the patrolling elite to clear the creatures beside it and walk on."] = "{item:228135}, {area:2268} içinde. {item:228138}, {area:2264} kesiminde yatıyor; diğer kopyaları bölgenin başka yerlerinde (biri {area:2279} kapılarının yanında) ve yalnızca birini alabilirsin. {item:228140}, {area:2277} içinde bir masada: devriye gezen elitin yanındaki yaratıkları temizleyip geçmesini bekle.",
+	["{item:228135} is inside {area:2268}. {item:228138} lies at {area:2264}; other copies lie elsewhere in the zone (one by the {area:2279} gates), and you can take only one. {item:228140} is on a table in {area:2277}: wait for the patrolling elite to clear the creatures beside it and walk on."] = "{item:228135}, {area:2268} içinde. {item:228138}, {area:2264} kesiminde yatıyor. Diğer kopyaları bölgenin başka yerlerinde (biri {area:2279} kapılarının yanında) ve yalnızca birini alabilirsin. {item:228140}, {area:2277} içinde bir masada: devriye gezen elitin yanındaki yaratıkları temizleyip geçmesini bekle.",
 
 	-- Step 39: Level 60 books: Timbermaw Hold
 	-- {area:1769} Timbermaw Hold

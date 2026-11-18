@@ -19,7 +19,7 @@ return {
 
 	-- Step 5: Everlook
 	-- {npc:10431} Gregor Greystone
-	["{npc:10431}: keep it for the Plaguelands; inside"] = "{npc:10431}: Plaguelands için sakla; içeride",
+	["{npc:10431}: keep it for the Plaguelands; inside"] = "{npc:10431}: Plaguelands için sakla, içeride",
 	-- {npc:11754} Meggi Peppinrocker · {area:2255} Everlook
 	["{npc:11754} walks around {area:2255}: look inside the circle on the map"] = "{npc:11754}, {area:2255} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
@@ -153,17 +153,17 @@ return {
 
 	-- Step 32: Pamela Redpath
 	-- {zone:1423} Eastern Plaguelands · {area:2262} Darrowshire · {npc:10926} Pamela Redpath
-	["Follow the southern road east into the {zone:1423}; the ruins of {area:2262} lie south of it. {npc:10926}'s ghost plays by the ruined house at the south end."] = "Güney yolunu doğuya izleyerek {zone:1423} bölgesine gir; {area:2262} harabeleri yolun güneyinde. {npc:10926} adlı NPC'nin hayaleti güney uçtaki yıkık evin yanında oynuyor.",
+	["Follow the southern road east into the {zone:1423}; the ruins of {area:2262} lie south of it. {npc:10926}'s ghost plays by the ruined house at the south end."] = "Güney yolunu doğuya izleyerek {zone:1423} bölgesine gir. {area:2262} harabeleri yolun güneyinde. {npc:10926} adlı NPC'nin hayaleti güney uçtaki yıkık evin yanında oynuyor.",
 
 	-- Step 33: Pamela Redpath's doll
 	-- {npc:10926} Pamela Redpath
 	["{npc:10926}'s doll"] = "{npc:10926} adlı NPC'nin bebeği",
 	-- {area:2262} Darrowshire
-	["The three pieces of the doll lie in the ruined houses of {area:2262}; picking one up can call out ghosts. Combine them into the doll."] = "Bebeğin üç parçası {area:2262} köyünün yıkık evlerinde; birini almak hayaletleri çağırabilir. Parçaları birleştirip bebeği yap.",
+	["The three pieces of the doll lie in the ruined houses of {area:2262}; picking one up can call out ghosts. Combine them into the doll."] = "Bebeğin üç parçası {area:2262} köyünün yıkık evlerinde. Birini almak hayaletleri çağırabilir. Parçaları birleştirip bebeği yap.",
 	-- {item:12886} Pamela's Doll's Head
-	["{item:12886}; inside"] = "{item:12886}; içeride",
+	["{item:12886}; inside"] = "{item:12886}, içeride",
 	-- {item:12888} Pamela's Doll's Right Side
-	["{item:12888}; inside"] = "{item:12888}; içeride",
+	["{item:12888}; inside"] = "{item:12888}, içeride",
 
 	-- Step 34: Pamela Redpath
 	-- {quest:5152} Auntie Marlene · {zone:1422} Western Plaguelands
@@ -180,7 +180,7 @@ return {
 	-- {area:2261} The Undercroft
 	["Zaeldarr is elite: grouping up is advised. He waits at the bottom of the {area:2261}, the crypt in the south-west of the zone."] = "Zaeldarr elit: grup kurman önerilir. Bölgenin güneybatısındaki mahzen {area:2261} dibinde bekliyor.",
 	-- {item:15785} Zaeldarr's Head
-	["{item:15785}; below ground"] = "{item:15785}; yer altında",
+	["{item:15785}; below ground"] = "{item:15785}, yer altında",
 
 	-- Step 37: Light's Hope Chapel
 	-- {area:3197} Chillwind Camp
