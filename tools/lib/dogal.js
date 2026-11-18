@@ -19,7 +19,7 @@ const RULES = [
 	['kendi', '"kendi" (own): karşıtlık yoksa iyelik eki yeter', (v, k) => W('kendi', '').test(v) && !/\bown\b|\bself\b|yourself|themselves|itself/i.test(k)],
 	['ve-sonra', '"ve sonra" / "ve bu sayede": ulaç (-ıp, -ınca, -arak)', (v) => W('ve (?:sonra|ardından|bu sayede|buna bağlı olarak)').test(v)],
 	['arayuz-kalibi', 'arayüz çeviri kalıbı', (v) => UI_CALQUE.test(v)],
-	['yakinda', '"yakında" zaman bildirir; nearby için "yakınlarda/yakındaki"', (v, k) => /yakında\b/i.test(v) && /\bnear(?:by)?\b/i.test(k)],
+	['yakinda', '"yakında" "soon" diye de okunur; nearby için "yakınlarda/yakınında/yakındaki"', (v, k) => /yakında\b/i.test(v) && /\bnear(?:by)?\b/i.test(k)],
 	['bosluk', 'İngilizcede olmayan çift boşluk', (v, k) => / {2}/.test(v) && !/ {2}/.test(k)],
 ];
 

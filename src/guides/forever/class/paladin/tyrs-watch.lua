@@ -85,7 +85,7 @@ return {
 	-- Step 13: Back to the keep
 	["Back to the keep"] = "Kaleye dön",
 	-- {npc:246378} Danitha Morr · {npc:259431} Rudolph Gelhardt
-	["{npc:246378} hands you {npc:259431}'s head for Sylvanas: keep it in your bags, it is what you hand in."] = "{npc:246378} sana Sylvanas için {npc:259431} kafasını verir: çantanda sakla, teslim edeceğin şey o.",
+	["{npc:246378} hands you {npc:259431}'s head for Sylvanas: keep it in your bags, it is what you hand in."] = "{npc:246378} sana Sylvanas için {npc:259431} yaratığının kafasını verir: çantanda sakla, teslim edeceğin şey o.",
 
 	-- Step 14: Hilda the Breaker
 	-- {npc:246389} Hilda the Breaker · {npc:259190} Ephram Barbaro

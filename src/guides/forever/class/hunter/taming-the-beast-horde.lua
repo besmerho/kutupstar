@@ -69,7 +69,7 @@ return {
 	-- Step 9: Swoop
 	-- {npc:2970} Swoop
 	-- plural, as words: Swoops = {npc:2970} Swoop · Taloned Swoops = {npc:2971} Taloned Swoop
-	["Dismiss the stalker. Swoops (level 7-9) glide over the plains north-west and north-east of Bloodhoof; the Taloned Swoops do not count. A {npc:2970}'s knockdown breaks the channel, but it lands only once per channel: start the rod just after it has used it."] = "Stalker'ı gönder. Swoop yaratıkları (seviye 7-9) Bloodhoof'un kuzeybatısındaki ve kuzeydoğusundaki ovaların üstünde süzülüyor; Taloned Swoop yaratıkları sayılmaz. Bir {npc:2970} yere düşürmesi kanalı bozar, ama her kanalda yalnızca bir kez gelir: çubuğu o bunu kullandıktan hemen sonra başlat.",
+	["Dismiss the stalker. Swoops (level 7-9) glide over the plains north-west and north-east of Bloodhoof; the Taloned Swoops do not count. A {npc:2970}'s knockdown breaks the channel, but it lands only once per channel: start the rod just after it has used it."] = "Stalker'ı gönder. Swoop yaratıkları (seviye 7-9) Bloodhoof'un kuzeybatısındaki ve kuzeydoğusundaki ovaların üstünde süzülüyor; Taloned Swoop yaratıkları sayılmaz. Bir {npc:2970} yaratığının yere düşürmesi kanalı bozar, ama her kanalda yalnızca bir kez gelir: çubuğu o bunu kullandıktan hemen sonra başlat.",
 	-- {item:15908} Taming Rod · {npc:2970} Swoop
 	["Use the {item:15908} on a living {npc:2970}"] = "{item:15908} eşyasını canlı bir {npc:2970} üzerinde kullan",
 

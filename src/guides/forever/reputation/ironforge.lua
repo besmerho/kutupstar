@@ -128,7 +128,7 @@ return {
 	-- {area:2418} Morgan's Vigil
 	["{area:2418}: hand in"] = "{area:2418}: teslim",
 	-- {npc:9176} Gor'tesh · {area:249} Dreadmaul Rock
-	["Plant {npc:9176}'s head on the soft dirt mound at the top of {area:249}."] = "{npc:9176} kafasını {area:249} tepesindeki yumuşak toprak tümseğine dik.",
+	["Plant {npc:9176}'s head on the soft dirt mound at the top of {area:249}."] = "{npc:9176} yaratığının kafasını {area:249} tepesindeki yumuşak toprak tümseğine dik.",
 
 	-- Step 23: Ironforge: Archesonus again
 	-- {faction:47} Ironforge

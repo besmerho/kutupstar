@@ -152,7 +152,7 @@ Ek alan biçim metinleri:
 | zeppelin, tram | zeplin; Deeprun Tram bir ad |
 | upgrade (ekipman) | iyileştirme: “iyileştirme okları” (“yükseltme” değil) |
 | … and more (liste sonu) | “vb.” ya da “ve benzerleri” (“ve dahası” değil) |
-| cooldown | bekleme süresi |
+| cooldown | bekleme süresi (süre: “Frost Nova bekleme süresi”); yetenek türü olarak “cooldown” kalır: “büyük bir hasar cooldown'ı” |
 | buff | güçlendirme (buff) |
 | grind | kasmak: “seviye kasmak” |
 | tick (checkbox) / untick | işaretle / işareti kaldır |

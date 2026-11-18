@@ -59,7 +59,7 @@ return {
 	-- {area:1336} Lost Rigger Cove
 	["{area:1336}: kill these as you meet them"] = "{area:1336}: bunları karşılaştıkça öldür",
 	-- {npc:7883} Andre Firebeard · {npc:7881} Stoley
-	["Follow the coast south to the pirate cove. Southsea pirates crowd the beach and the boats: work along the edge and pull one at a time. {npc:7883} stands on the far side; {npc:7881}'s stolen cargo lies in the camp.\nCareful: Two or three pirates stand with {npc:7883}, and many more pirates from the town join the fight once it starts."] = "Kıyıyı güneye, korsan koyuna izle. Southsea korsanları kumsalı ve tekneleri dolduruyor: kenar boyunca ilerle ve tek tek çek. {npc:7883} öbür yakada duruyor; {npc:7881} çalınan yükü kampta.\nDikkat: {npc:7883} ile iki üç korsan duruyor, dövüş başlayınca kasabadan çok daha fazla korsan katılır.",
+	["Follow the coast south to the pirate cove. Southsea pirates crowd the beach and the boats: work along the edge and pull one at a time. {npc:7883} stands on the far side; {npc:7881}'s stolen cargo lies in the camp.\nCareful: Two or three pirates stand with {npc:7883}, and many more pirates from the town join the fight once it starts."] = "Kıyıyı güneye, korsan koyuna izle. Southsea korsanları kumsalı ve tekneleri dolduruyor: kenar boyunca ilerle ve tek tek çek. {npc:7883} öbür yakada duruyor; {npc:7881} adlı NPC'nin çalınan yükü kampta.\nDikkat: {npc:7883} ile iki üç korsan duruyor, dövüş başlayınca kasabadan çok daha fazla korsan katılır.",
 	-- {quest:2873} Stoley's Shipment
 	["{quest:2873}; upstairs"] = "{quest:2873}; üst katta",
 

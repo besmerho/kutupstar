@@ -48,8 +48,10 @@ Sicil: **teknik doküman + arayüz metni**, okura dönük, kısa. Dolayısıyla:
 8. **Kip.** Sonradan öğrenilen ya da kayıttan okunan olay "-miş": "Görev verisine göre öldürülmüş". Arayüz
    bildirimi ve rehber adımı: emir ya da "-yor".
 9. **Ad tamlaması zinciri** üç adı geçerse sıfat-fiil ya da hal ekiyle aç.
-10. **Anlam tuzakları** (bu projede yakalananlar): "nearby" = "yakınlarda / yakındaki / yakında bir X" değil,
-    "yakında" zaman bildirir ("soon"). "in the heart of" = "ortasında", "kalbinde" değil. "and more" = "vb.",
+10. **Anlam tuzakları** (bu projede yakalananlar): "nearby" için "yakınlarda / yakınında / yakındaki". "Yakında"
+    TDK'de "yakın bir yerde" de demek, ama cümle başında ve fiille ("Yakında bir örs gerekir") "soon" diye okunur.
+    "X yerine git" "instead of X" diye okunur: sınıflandırıcı sözcük kullan ("{object:3202} kampına").
+    "onun dışında" "ondan başka" demek; "outside it" için "kulübenin dışında". "in the heart of" = "ortasında", "kalbinde" değil. "and more" = "vb.",
     "ve dahası" değil. "It is young" gibi deyimsel İngilizceyi kelime kelime çevirme.
 
 ## Yasaklı ve şüpheli kelimeler
@@ -113,6 +115,8 @@ paylaş" ("X'te"), "Umarım", "Elbette". Hal ekine bak: bir şey Discord'dan gö
 | İngilizce | Kokan | Doğal |
 |---|---|---|
 | Needs an anvil nearby. | Yakında bir örs gerekir. | Yakınında bir örs olmalı. |
+| Fly back to Grom'gol. | {object:3202} yerine geri uç. | {object:3202} kampına geri uç. |
+| The recipe needs it in your bags. | Tarif onun çantanda olmasını ister. | Tarif için çantanda durması gerekir. |
 | Kill him and loot his key. | Onu öldür ve onun anahtarını loot'la. | Öldürüp anahtarını al. |
 | This talent allows you to heal faster. | Bu yetenek daha hızlı iyileştirmeni sağlar. | Bu yetenekle daha hızlı iyileştirirsin. |
 | A cave that leads to the lake. | Bir mağara, bu mağara göle açılır. | Göle açılan mağara. |

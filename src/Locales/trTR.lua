@@ -4534,8 +4534,8 @@ L["On a flight with a minute or more to go, Polestar asks if you want to play Fr
 -- Dungeons/Options.lua
 L["Dungeons and characters"] = "Zindanlar ve karakterler"
 L["As for all dungeons"] = "Tüm zindanlardaki gibi"
-L["Run it: the leveling guide picks up its quests on the way and takes you to the door. Skip it: the guide keeps to the solo route. As for all dungeons: Guide, Automation, Dungeons in my route answers."] = "Koş: seviye rehberi yolda görevlerini alır ve seni kapıya götürür. Atla: rehber tek başına rotaya bağlı kalır. Tüm zindanlardaki gibi: Rehber, Otomasyon, Rotamdaki zindanlar cevap verir."
-L["Off: the guide skips this group quest and keeps to the solo route. Until you choose, Guide, Automation, Group quests answers for it; by default the guide asks when it gets there."] = "Kapalı: rehber bu grup görevini atlar ve tek başına rotada kalır. Seçene kadar Rehber, Otomasyon, Grup görevleri onun yerine cevap verir; varsayılan olarak rehber oraya gelince sorar."
+L["Run it: the leveling guide picks up its quests on the way and takes you to the door. Skip it: the guide keeps to the solo route. As for all dungeons: Guide, Automation, Dungeons in my route answers."] = "Koş: seviye rehberi yolda görevlerini alır ve seni kapıya götürür. Atla: rehber tek başına rotaya bağlı kalır. Tüm zindanlar için geçerli olan: Rehber, Otomasyon, Rotamdaki zindanlar ayarı."
+L["Off: the guide skips this group quest and keeps to the solo route. Until you choose, Guide, Automation, Group quests answers for it; by default the guide asks when it gets there."] = "Kapalı: rehber bu grup görevini atlar ve tek başına rotada kalır. Seçimini yapana kadar Rehber, Otomasyon, Grup görevleri ayarı geçerli; varsayılan olarak rehber oraya gelince sorar."
 L["When a level-up opens a dungeon's quests to this character, a card on the guide window says so, once per dungeon, with a button that picks up its quests in a new tab. On a step that grinds to a level, a line under it names a dungeon at your level and its quests."] = "Bir seviye atlaması bu karaktere bir zindanın görevlerini açtığında, rehber penceresindeki bir kart bunu her zindan için bir kez söyler; zindanın görevlerini yeni bir sekmede toplayan bir düğmeyle. Bir seviyeye kadar kasılan bir adımda, altındaki bir satır seviyene uygun bir zindanı ve görevlerini söyler."
 
 -- UI/Presets.lua
@@ -4589,8 +4589,8 @@ L["If you run it later, the dungeon's page has a hand-in guide for them."] = "On
 L["%s next: start looking for a group."] = "Sıradaki %s: grup aramaya başla."
 L["%s in %d steps: start looking for a group."] = "%2$d adım sonra %1$s: grup aramaya başla."
 L["Dungeon on your way: %s, for a group of five."] = "Yolundaki zindan: %s, beş kişilik bir grup için."
-L["The guide picks up 1 quest for it and runs it in about %d steps."] = "Rehber onun için 1 görev alır ve yaklaşık %d adım sonra koşar."
-L["The guide picks up %d quests for it and runs it in about %d steps."] = "Rehber onun için %d görev alır ve yaklaşık %d adım sonra koşar."
+L["The guide picks up 1 quest for it and runs it in about %d steps."] = "Rehber bu zindan için 1 görev alır, zindana yaklaşık %d adım sonra girer."
+L["The guide picks up %d quests for it and runs it in about %d steps."] = "Rehber bu zindan için %d görev alır, zindana yaklaşık %d adım sonra girer."
 L["Skip it and the guide keeps to the solo route."] = "Atlarsan rehber tek başına rotaya bağlı kalır."
 L["Run it"] = "Koş"
 L["%s: a group of five runs it in about an hour."] = "%s: beş kişilik bir grup onu yaklaşık bir saatte koşar."

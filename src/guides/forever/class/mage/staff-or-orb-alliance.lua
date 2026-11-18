@@ -69,7 +69,7 @@ return {
 
 	-- Step 12: Belann Windwood's wand (optional)
 	-- {npc:256507} Belann Windwood
-	["{npc:256507}'s wand (optional)"] = "{npc:256507} wand'ı (isteğe bağlı)",
+	["{npc:256507}'s wand (optional)"] = "{npc:256507} adlı NPC'nin wand'ı (isteğe bağlı)",
 	-- {npc:256507} Belann Windwood · {area:16638} Valanaar · {zone:2521} Zephras Isle · {npc:252373} Anathamaas Aetherwind · {item:262668} Wind-Infused Bough · {area:16636} Falaath Village · {item:263430} Windbough Wand
 	-- plural, as words: Windstone Formations = {object:697118} Windstone Formation
 	["{npc:256507}'s quest is open to Human and Gnome mages too, if you ever visit {area:16638} on {zone:2521}, the Skyborne home: {npc:252373}, the town's mage trainer, sends you to {npc:256507} next door, who wants a {item:262668} from the ground by the Windstone Formations south of {area:16636}, for the {item:263430}. It does not shut out the staff or the orb."] = "{npc:256507} görevi Human ve Gnome mage'lere de açık, Skyborne'ların yurdu {zone:2521} adasındaki {area:16638} kasabasını ziyaret edersen: kasabanın mage eğitmeni {npc:252373} seni yan taraftaki {npc:256507} yanına gönderir; o da {item:263430} için {area:16636} köyünün güneyindeki Windstone Formation taşlarının yanından yerden bir {item:262668} ister. Asayı ya da küreyi kapatmaz.",
