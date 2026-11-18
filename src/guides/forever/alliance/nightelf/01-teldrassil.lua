@@ -508,7 +508,7 @@ return {
 
 	-- Step 87: Rut'theran Village
 	-- {area:702} Rut'theran Village · {npc:10118} Nessa Shadowsong · {npc:3838} Vesprystus · {quest:6342} Flight to Auberdine · {area:442} Auberdine · {npc:4200} Laird
-	["Take the portal down to {area:702}. {npc:10118} stands on the dock, {npc:3838} by the hippogryphs. Once you have {quest:6342}, talk to {npc:3838} again and choose the flight to {area:442}: it is free and lands beside {npc:4200}. If the flight map opens instead, close it and talk to him again holding Shift."] = "Portalla aşağıya, {area:702} köyüne in. {npc:10118} iskelede, {npc:3838} hipogrifflerin yanında duruyor. {quest:6342} görevini aldıktan sonra {npc:3838} ile yeniden konuş ve {area:442} uçuşunu seç: ücretsizdir ve seni {npc:4200} adlı NPC'nin yanına indirir. Onun yerine uçuş haritası açılırsa haritayı kapat ve Shift'e basılı tutarak onunla yeniden konuş.",
+	["Take the portal down to {area:702}. {npc:10118} stands on the dock, {npc:3838} by the hippogryphs. Once you have {quest:6342}, talk to {npc:3838} again and choose the flight to {area:442}: it is free and lands beside {npc:4200}. If the flight map opens instead, close it and talk to him again holding Shift."] = "Portalla aşağıya, {area:702} köyüne in. {npc:10118} iskelede, {npc:3838} hipogrifflerin yanında duruyor. {quest:6342} görevini aldıktan sonra {npc:3838} ile yeniden konuş ve {area:442} uçuşunu seç: ücretsizdir ve seni {npc:4200} adlı NPC'nin yanına indirir. Bunun yerine uçuş haritası açılırsa haritayı kapat ve Shift'e basılı tutarak onunla yeniden konuş.",
 	-- {npc:3838} Vesprystus · {quest:6342} Flight to Auberdine
 	["talk to {npc:3838} again: free with {quest:6342}"] = "{npc:3838} ile yeniden konuş: {quest:6342} görevi varken ücretsiz",
 

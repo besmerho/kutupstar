@@ -141,7 +141,7 @@ return {
 	-- Step 12: Revered to Exalted
 	["Revered to Exalted"] = "Revered → Exalted",
 	-- {quest:5508} Corruptor's Scourgestones · {area:2057} Scholomance · {item:13920} Healthy Dragon Scale
-	["Revered to Exalted is 21,000: 840 Scourgestone or cauldron turn-ins, or the dungeon bosses with their {quest:5508} (a full {area:2057} clear is about 600). Turn in every stone and {item:13920} you saved."] = "Revered'dan Exalted'a 21.000: 840 Scourgestone ya da kazan teslimi, ya da {quest:5508} ile zindan boss'ları (tam bir {area:2057} temizlemesi yaklaşık 600). Biriktirdiğin her taşı ve {item:13920} eşyasını teslim et.",
+	["Revered to Exalted is 21,000: 840 Scourgestone or cauldron turn-ins, or the dungeon bosses with their {quest:5508} (a full {area:2057} clear is about 600). Turn in every stone and {item:13920} you saved."] = "Revered'dan Exalted'a 21.000: 840 Scourgestone ya da kazan teslimi ya da {quest:5508} ile zindan boss'ları (tam bir {area:2057} temizlemesi yaklaşık 600). Biriktirdiğin her taşı ve {item:13920} eşyasını teslim et.",
 
 	-- Step 13: Chromatic Mantle of the Dawn
 	-- {npc:11536} Quartermaster Miranda Breechlock · {quest:5517} Chromatic Mantle of the Dawn

@@ -36,7 +36,7 @@ return {
 	-- Step 6: Rescue OOX-17/TN
 	["Rescue OOX-17/TN"] = "OOX-17/TN'yi kurtar",
 	-- {area:981} Gaping Chasm · {zone:1446} Tanaris · {area:977} Steamwheedle Port · {area:35} Booty Bay
-	["OOX-17/TN stands in the hills near the {area:981} in south-east {zone:1446}. Its escort to {area:977} has two ambushes: three scorpids near the start, three Wastewander bandits near the end. The robot has about 3,000 health and stops to fight what you attack, so it can tank for a moment while you recover. Its turn-in is in {area:35} too."] = "OOX-17/TN, {zone:1446} bölgesinin güneydoğusunda {area:981} yakınındaki tepelerde duruyor. {area:977} limanına eşliğinde iki pusu var: başlangıç yakınında üç scorpid, sona yakın üç Wastewander haydudu. Robotun yaklaşık 3.000 canı var ve senin saldırdığınla dövüşmek için durur, bu yüzden sen toparlanırken bir süre tank yapabilir. Onun teslimi de {area:35} limanında.",
+	["OOX-17/TN stands in the hills near the {area:981} in south-east {zone:1446}. Its escort to {area:977} has two ambushes: three scorpids near the start, three Wastewander bandits near the end. The robot has about 3,000 health and stops to fight what you attack, so it can tank for a moment while you recover. Its turn-in is in {area:35} too."] = "OOX-17/TN, {zone:1446} bölgesinin güneydoğusunda {area:981} yakınındaki tepelerde duruyor. {area:977} limanına eşliğinde iki pusu var: başlangıç yakınında üç scorpid, sona yakın üç Wastewander haydudu. Robotun yaklaşık 3.000 canı var ve senin saldırdığınla dövüşmek için durur, bu yüzden sen toparlanırken bir süre tank yapabilir. Teslimi de {area:35} limanında.",
 	["Escort OOX-17/TN"] = "OOX-17/TN'ye eşlik et",
 
 	-- Step 7: OOX-09/HL Distress Beacon in the Hinterlands

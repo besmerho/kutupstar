@@ -4,7 +4,7 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Guide
-	["A wand of your school for the 30s: frost, arcane or fire."] = "30'lu seviyeler için kendi okulunun asası (wand): frost, arcane ya da fire.",
+	["A wand of your school for the 30s: frost, arcane or fire."] = "30'lu seviyeler için okuluna uygun bir asa (wand): frost, arcane ya da fire.",
 
 	-- Step 1: Journey to the Marsh (Stormwind)
 	-- {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {object:2101} Mage Quarter · {npc:6546} Tabetha · {zone:1455} Ironforge

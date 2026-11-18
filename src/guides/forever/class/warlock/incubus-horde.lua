@@ -78,7 +78,7 @@ return {
 
 	-- Step 14: Isaac Pearson
 	-- {npc:185334} Isaac Pearson · {area:392} Ratchet · {zone:1413} Barrens · {zone:1411} Durotar · {zone:1454} Orgrimmar
-	["{npc:185334} (level 22) works in {area:392}, on the {zone:1413} coast, at one of two spots in town: take the zeppelin to {zone:1411} and head south, or fly from {zone:1454}. He is an Alliance-friendly human: attacking him can flag you for PvP."] = "{npc:185334} (seviye 22), {zone:1413} kıyısındaki {area:392} kasabasında, kasabanın iki noktasından birinde çalışıyor: {zone:1411} zeplinine bin ve güneye git, ya da {zone:1454} şehrinden uç. Alliance dostu bir insan: ona saldırmak seni PvP'ye açabilir.",
+	["{npc:185334} (level 22) works in {area:392}, on the {zone:1413} coast, at one of two spots in town: take the zeppelin to {zone:1411} and head south, or fly from {zone:1454}. He is an Alliance-friendly human: attacking him can flag you for PvP."] = "{npc:185334} (seviye 22), {zone:1413} kıyısındaki {area:392} kasabasında, kasabanın iki noktasından birinde çalışıyor: {zone:1411} zeplinine bin ve güneye git ya da {zone:1454} şehrinden uç. Alliance dostu bir insan: ona saldırmak seni PvP'ye açabilir.",
 
 	-- Step 15: The Binding: incubus (Undercity)
 	-- {quest:65597} The Binding · {zone:1458} Undercity

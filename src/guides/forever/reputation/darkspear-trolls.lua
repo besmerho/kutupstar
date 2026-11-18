@@ -171,13 +171,13 @@ return {
 
 	-- Step 29: A Donation of Silk
 	-- {area:287} Hillsbrad
-	["Silk: the Syndicate in {area:287} and Alterac drop it about one kill in three, or buy it."] = "Silk: {area:287} ve Alterac'taki Syndicate yaklaşık üç öldürmede bir düşürür, ya da satın al.",
+	["Silk: the Syndicate in {area:287} and Alterac drop it about one kill in three, or buy it."] = "Silk: {area:287} ve Alterac'taki Syndicate yaklaşık üç öldürmede bir düşürür ya da satın al.",
 	-- {item:4306} Silk Cloth
 	["{item:4306}: the Syndicate"] = "{item:4306}: Syndicate",
 
 	-- Step 30: A Donation of Mageweave
 	-- {zone:1448} Felwood · {zone:1446} Tanaris
-	["Mageweave: the Jadefire satyrs in southern {zone:1448} and the Dunemaul ogres in {zone:1446} drop it about one kill in three, or buy it."] = "Mageweave: {zone:1448} bölgesinin güneyindeki Jadefire satyr'ları ve {zone:1446} bölgesindeki Dunemaul ogre'ları yaklaşık üç öldürmede bir düşürür, ya da satın al.",
+	["Mageweave: the Jadefire satyrs in southern {zone:1448} and the Dunemaul ogres in {zone:1446} drop it about one kill in three, or buy it."] = "Mageweave: {zone:1448} bölgesinin güneyindeki Jadefire satyr'ları ve {zone:1446} bölgesindeki Dunemaul ogre'ları yaklaşık üç öldürmede bir düşürür ya da satın al.",
 	-- {item:4338} Mageweave Cloth
 	["{item:4338}: the Jadefire satyrs"] = "{item:4338}: Jadefire satyr'ları",
 

@@ -33,7 +33,7 @@ return {
 
 	-- Step 6: Steamwheedle Port
 	["Ride east across the dunes to the goblin harbour on the north-east coast."] = "Kum tepelerini geçerek doğuya, kuzeydoğu kıyısındaki goblin limanına git.",
-	["The Wanted poster beside him"] = "Onun yanındaki Wanted ilanı",
+	["The Wanted poster beside him"] = "Yanındaki Wanted ilanı",
 	-- {npc:7847} Caliph Scorpidsting · {area:976} Gadgetzan
 	["The same poster: {npc:7847} comes much later, after {area:976}"] = "Aynı ilan: {npc:7847} çok daha sonra, {area:976} kasabasından sonra",
 	-- {npc:7882} Security Chief Bilgewhizzle

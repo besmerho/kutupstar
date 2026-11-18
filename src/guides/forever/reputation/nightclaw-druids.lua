@@ -27,7 +27,7 @@ return {
 
 	-- Step 3: Lotheluum Starbreeze
 	-- {npc:252359} Lotheluum Starbreeze · {area:16638} Valanaar
-	["{npc:252359} stands in {area:16638}, the Skyborne town in the south of the isle, and has heard nothing from the druids up north. His errand is the start of the Nightclaw storyline (level 8 and up, any race). Every quest of it pays Nightclaw reputation: 4100 in all, enough for Friendly. Players' turn-ins paid their full reputation well above these quests' level."] = "{npc:252359}, adanın güneyindeki Skyborne kasabası {area:16638} içinde duruyor ve kuzeydeki druid'lerden hiçbir haber almamış. Onun işi Nightclaw hikâyesinin başlangıcı (seviye 8 ve üstü, her ırk). Her görevi Nightclaw itibarı öder: toplam 4100, Friendly için yeterli. Oyuncuların teslimleri bu görevlerin seviyesinin çok üstünde de tam itibar ödedi.",
+	["{npc:252359} stands in {area:16638}, the Skyborne town in the south of the isle, and has heard nothing from the druids up north. His errand is the start of the Nightclaw storyline (level 8 and up, any race). Every quest of it pays Nightclaw reputation: 4100 in all, enough for Friendly. Players' turn-ins paid their full reputation well above these quests' level."] = "{npc:252359}, adanın güneyindeki Skyborne kasabası {area:16638} içinde duruyor ve kuzeydeki druid'lerden hiçbir haber almamış. Verdiği iş Nightclaw hikâyesinin başlangıcı (seviye 8 ve üstü, her ırk). Her görevi Nightclaw itibarı öder: toplam 4100, Friendly için yeterli. Oyuncuların teslimleri bu görevlerin seviyesinin çok üstünde de tam itibar ödedi.",
 
 	-- Step 4: Elegael Thornpaw
 	-- {area:16631} Shadowgale Forest · {npc:257944} Elegael Thornpaw
@@ -40,7 +40,7 @@ return {
 	-- Step 6: Shadowgale Forest
 	-- {npc:257944} Elegael Thornpaw · {item:265105} Lady's Tear Moss
 	-- plural, as words: Al'Aketh Footsoldiers = {npc:252665} Al'Aketh Footsoldier · Bloody Heirlooms = {item:265141} Bloody Heirloom · Shadowgale Shrieklings = {npc:256092} Shadowgale Shriekling
-	["The Al'Aketh Footsoldiers and Stormchasers camp just north of {npc:257944} and drop the Bloody Heirlooms (and ears, about one kill in four). The Shadowgale Shrieklings flying west of her drop the feathers; the {item:265105} grows on the trees along the stream west of her."] = "Al'Aketh Footsoldier ve Stormchaser'lar {npc:257944} kuzeyinde kamp kurmuş ve Bloody Heirloom'ları (ve yaklaşık dört öldürmede bir kulak) düşürür. Onun batısında uçan Shadowgale Shriekling'ler tüyleri düşürür; {item:265105} da onun batısındaki dere boyunca ağaçlarda yetişiyor.",
+	["The Al'Aketh Footsoldiers and Stormchasers camp just north of {npc:257944} and drop the Bloody Heirlooms (and ears, about one kill in four). The Shadowgale Shrieklings flying west of her drop the feathers; the {item:265105} grows on the trees along the stream west of her."] = "Al'Aketh Footsoldier ve Stormchaser'lar {npc:257944} kuzeyinde kamp kurmuş ve Bloody Heirloom'ları (ve yaklaşık dört öldürmede bir kulak) düşürür. Batısında uçan Shadowgale Shriekling'ler tüyleri düşürür; {item:265105} da onun batısındaki dere boyunca ağaçlarda yetişiyor.",
 	-- {npc:254151} Vayn Moongaze
 	["ears for {npc:254151}: keep every one"] = "{npc:254151} için kulaklar: hepsini sakla",
 

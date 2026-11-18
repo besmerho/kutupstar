@@ -102,7 +102,7 @@ return {
 	-- {npc:14757} Elder Torntusk · {area:354} Jintha'Alor
 	["{npc:14757}, at the top of {area:354}"] = "{npc:14757}, {area:354} tepesinde",
 	-- {area:355} The Altar of Zul
-	["His next request, going on to the {area:355}, is for a group."] = "Onun {area:355} sunağına devam eden sonraki isteği grup işi.",
+	["His next request, going on to the {area:355}, is for a group."] = "{area:355} sunağına uzanan sonraki isteği grup işi.",
 
 	-- Step 22: Revantusk Village
 	-- {npc:14731} Lard

@@ -15,7 +15,7 @@ return {
 
 	-- Step 2: Devourer of Souls
 	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6244} Takar the Seer · {zone:1413} Barrens · {area:150} Menethil Harbor · {zone:1445} Dustwallow Marsh · {area:35} Booty Bay · {area:392} Ratchet
-	["At 20 {npc:6122}, in the cellar of the {object:2164} in the {object:2101}, sends you to {npc:6244} in the {zone:1413}: a long trip for the Alliance. Take the boat from {area:150} to Theramore and head west through {zone:1445}, or the boat from {area:35} to {area:392}."] = "20'de {object:2101} kesimindeki {object:2164} mahzeninde duran {npc:6122}, seni {zone:1413} bölgesindeki {npc:6244} yanına gönderir: Alliance için uzun bir yol. {area:150} limanından Theramore'a gemiye bin ve batıya, {zone:1445} içinden git, ya da {area:35} kasabasından {area:392} kasabasına gemiye bin.",
+	["At 20 {npc:6122}, in the cellar of the {object:2164} in the {object:2101}, sends you to {npc:6244} in the {zone:1413}: a long trip for the Alliance. Take the boat from {area:150} to Theramore and head west through {zone:1445}, or the boat from {area:35} to {area:392}."] = "20'de {object:2101} kesimindeki {object:2164} mahzeninde duran {npc:6122}, seni {zone:1413} bölgesindeki {npc:6244} yanına gönderir: Alliance için uzun bir yol. {area:150} limanından Theramore'a gemiye bin ve batıya, {zone:1445} içinden git ya da {area:35} kasabasından {area:392} kasabasına gemiye bin.",
 
 	-- Step 3: Takar the Seer
 	-- {npc:6244} Takar the Seer · {area:378} Camp Taurajo · {npc:6247} Doan Karhan · {item:6898} Orb of Soran'ruk

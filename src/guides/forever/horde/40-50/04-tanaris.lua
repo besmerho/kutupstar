@@ -60,7 +60,7 @@ return {
 
 	-- Step 13: Marvon Rivetseeker
 	-- {npc:7771} Marvon Rivetseeker · {area:1938} Broken Pillar · {item:9978} Gahz'ridian Detector · {area:983} Dunemaul Compound
-	["West along the road south; {npc:7771} camps by the ruins at the {area:1938}. Put on his {item:9978}: it shows the buried ornaments, here and around the {area:983}."] = "Güneye giden yol boyunca batıya git; {npc:7771}, {area:1938} yanındaki harabelerde kamp kurmuş. Onun {item:9978} eşyasını tak: hem burada hem de {area:983} çevresinde gömülü süs eşyalarını gösterir.",
+	["West along the road south; {npc:7771} camps by the ruins at the {area:1938}. Put on his {item:9978}: it shows the buried ornaments, here and around the {area:983}."] = "Güneye giden yol boyunca batıya git; {npc:7771}, {area:1938} yanındaki harabelerde kamp kurmuş. Verdiği {item:9978} eşyasını tak: hem burada hem de {area:983} çevresinde gömülü süs eşyalarını gösterir.",
 
 	-- Step 14: Gahz'ridian ornaments
 	-- {quest:3161} Gahz'ridian

@@ -335,7 +335,7 @@ return {
 
 	-- Step 60: The Deadmines
 	-- {area:1581} The Deadmines · {area:20} Moonbrook · {quest:214} Red Silk Bandanas · {npc:639} Edwin VanCleef · {zone:1453} Stormwind
-	["{area:1581} is a dungeon for a group of five, about levels 17 to 24, and a full run takes about an hour. Its door is the mine below {area:20}, where the traitor led you: the portal is at the far end of the mine's tunnels.\nInside: the Defias drop the {quest:214}, and {npc:639} waits on the ship at the end. Open the Unsent Letter he drops: its quest goes to {zone:1453}, where this guide hands it in."] = "{area:1581}, yaklaşık 17-24. seviyedeki beş kişilik bir grup için bir zindan; tam bir koşu yaklaşık bir saat sürer. Kapısı, hainin seni götürdüğü {area:20} altındaki maden: portal madenin tünellerinin en ucunda.\nİçeride: Defias'lar {quest:214} düşürür, {npc:639} de sondaki gemide bekler. Onun düşürdüğü Unsent Letter'ı aç: görevi {zone:1453} şehrine gider ve bu rehber onu orada teslim eder.",
+	["{area:1581} is a dungeon for a group of five, about levels 17 to 24, and a full run takes about an hour. Its door is the mine below {area:20}, where the traitor led you: the portal is at the far end of the mine's tunnels.\nInside: the Defias drop the {quest:214}, and {npc:639} waits on the ship at the end. Open the Unsent Letter he drops: its quest goes to {zone:1453}, where this guide hands it in."] = "{area:1581}, yaklaşık 17-24. seviyedeki beş kişilik bir grup için bir zindan; tam bir koşu yaklaşık bir saat sürer. Kapısı, hainin seni götürdüğü {area:20} altındaki maden: portal madenin tünellerinin en ucunda.\nİçeride: Defias'lar {quest:214} düşürür, {npc:639} de sondaki gemide bekler. Düşürdüğü Unsent Letter'ı aç: görevi {zone:1453} şehrine gider ve bu rehber onu orada teslim eder.",
 	-- {item:915} Red Silk Bandana
 	["{item:915}: the Defias"] = "{item:915}: Defias'lar",
 
@@ -377,7 +377,7 @@ return {
 
 	-- Step 68: Fly to Stormwind
 	-- {area:442} Auberdine · {zone:1439} Darkshore · {zone:1453} Stormwind
-	["Back to {area:442} for {zone:1439}'s southern loops: the gryphon to {zone:1453}, then the boat from the harbour. Hearthstone ready (bound in {area:442} since the first {zone:1439} visit)? Use it instead: these steps drop once you are in {zone:1439}."] = "{zone:1439} bölgesinin güney turları için {area:442} kasabasına dön: grifonla {zone:1453} şehrine, sonra limandan gemiye. Hearthstone hazır mı (ilk {zone:1439} ziyaretinden beri {area:442} kasabasına bağlı)? Onun yerine onu kullan: {zone:1439} bölgesine varınca bu adımlar düşer.",
+	["Back to {area:442} for {zone:1439}'s southern loops: the gryphon to {zone:1453}, then the boat from the harbour. Hearthstone ready (bound in {area:442} since the first {zone:1439} visit)? Use it instead: these steps drop once you are in {zone:1439}."] = "{zone:1439} bölgesinin güney turları için {area:442} kasabasına dön: grifonla {zone:1453} şehrine, sonra limandan gemiye. Hearthstone hazır mı (ilk {zone:1439} ziyaretinden beri {area:442} kasabasına bağlı)? O zaman onu kullan: {zone:1439} bölgesine varınca bu adımlar düşer.",
 	-- {area:69} Lakeshire
 	["{area:69} flight master"] = "{area:69} uçuş ustası",
 

@@ -47,7 +47,7 @@ return {
 	-- {quest:5655} Hex of Weakness · {npc:11407} Var'jun
 	["{quest:5655}: {npc:11407}'s letter"] = "{quest:5655}: mektup ({npc:11407})",
 	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits · {zone:1454} Orgrimmar · {zone:1412} Mulgore · {zone:1413} Barrens · {zone:1411} Durotar · {zone:1456} Thunder Bluff
-	["Hand the letter to {npc:6018} in the {object:172961}, {zone:1454} (from {zone:1412}: north through the {zone:1413} and east into {zone:1411}, or fly from {zone:1456} once you know {zone:1454}'s flight path)."] = "Mektubu {zone:1454} şehrinin {object:172961} kesimindeki {npc:6018} ile teslim et ({zone:1412} bölgesinden: kuzeye {zone:1413} içinden ve doğuya {zone:1411} bölgesine, ya da {zone:1454} uçuş noktasını biliyorsan {zone:1456} şehrinden uç).",
+	["Hand the letter to {npc:6018} in the {object:172961}, {zone:1454} (from {zone:1412}: north through the {zone:1413} and east into {zone:1411}, or fly from {zone:1456} once you know {zone:1454}'s flight path)."] = "Mektubu {zone:1454} şehrinin {object:172961} kesimindeki {npc:6018} ile teslim et ({zone:1412} bölgesinden: kuzeye {zone:1413} içinden ve doğuya {zone:1411} bölgesine ya da {zone:1454} uçuş noktasını biliyorsan {zone:1456} şehrinden uç).",
 
 	-- Step 8: Hex of Weakness: Miles Welsh's letter
 	-- {quest:5656} Hex of Weakness · {npc:3044} Miles Welsh

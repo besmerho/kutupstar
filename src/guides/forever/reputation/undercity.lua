@@ -87,13 +87,13 @@ return {
 
 	-- Step 14: A Donation of Silk
 	-- {area:287} Hillsbrad
-	["Silk: the Syndicate in {area:287} and Alterac drop it about one kill in three, or buy it."] = "Silk: {area:287} ve Alterac'taki Syndicate yaklaşık üç öldürmede bir düşürür, ya da satın al.",
+	["Silk: the Syndicate in {area:287} and Alterac drop it about one kill in three, or buy it."] = "Silk: {area:287} ve Alterac'taki Syndicate yaklaşık üç öldürmede bir düşürür ya da satın al.",
 	-- {item:4306} Silk Cloth
 	["{item:4306}: the Syndicate"] = "{item:4306}: Syndicate",
 
 	-- Step 15: A Donation of Mageweave
 	-- {zone:1448} Felwood · {zone:1446} Tanaris
-	["Mageweave: the Jadefire satyrs in southern {zone:1448} and the Dunemaul ogres in {zone:1446} drop it about one kill in three, or buy it."] = "Mageweave: {zone:1448} bölgesinin güneyindeki Jadefire satyr'ları ve {zone:1446} bölgesindeki Dunemaul ogre'ları yaklaşık üç öldürmede bir düşürür, ya da satın al.",
+	["Mageweave: the Jadefire satyrs in southern {zone:1448} and the Dunemaul ogres in {zone:1446} drop it about one kill in three, or buy it."] = "Mageweave: {zone:1448} bölgesinin güneyindeki Jadefire satyr'ları ve {zone:1446} bölgesindeki Dunemaul ogre'ları yaklaşık üç öldürmede bir düşürür ya da satın al.",
 	-- {item:4338} Mageweave Cloth
 	["{item:4338}: the Jadefire satyrs"] = "{item:4338}: Jadefire satyr'ları",
 
@@ -222,7 +222,7 @@ return {
 	-- {area:978} Zul'Farrak · {object:142715} Tablet of Theka
 	["{area:978}: the {object:142715}"] = "{area:978}: {object:142715}",
 	-- {area:978} Zul'Farrak · {zone:1446} Tanaris · {npc:7272} Theka the Martyr · {object:142715} Tablet of Theka
-	["{area:978} is a level 44 to 54 dungeon in northern {zone:1446}; a level 60 can clear the way alone, or bring a group. {npc:7272}, an elite troll, guards his tomb in the instance: kill him and read the {object:142715} there."] = "{area:978}, {zone:1446} bölgesinin kuzeyinde seviye 44 ila 54 bir zindan; seviye 60 biri yolu tek başına temizleyebilir, ya da bir grup getir. Elit bir trol olan {npc:7272}, instance içinde mezarını koruyor: onu öldür ve oradaki {object:142715} nesnesini oku.",
+	["{area:978} is a level 44 to 54 dungeon in northern {zone:1446}; a level 60 can clear the way alone, or bring a group. {npc:7272}, an elite troll, guards his tomb in the instance: kill him and read the {object:142715} there."] = "{area:978}, {zone:1446} bölgesinin kuzeyinde seviye 44 ila 54 bir zindan; seviye 60 biri yolu tek başına temizleyebilir ya da bir grup getir. Elit bir trol olan {npc:7272}, instance içinde mezarını koruyor: onu öldür ve oradaki {object:142715} nesnesini oku.",
 	-- {object:142715} Tablet of Theka
 	["read the {object:142715}"] = "{object:142715} nesnesini oku",
 

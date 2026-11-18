@@ -19,7 +19,7 @@ return {
 	["The bridge"] = "Köprü",
 	-- {npc:261} Guard Thomas · {npc:248265} Ormin Pelford
 	-- plural, as words: Prowlers = {npc:118} Prowler
-	["{npc:261} guards the bridge on the road east; {npc:248265} stands just across it. His tools and Thomas's Prowlers and bears are south of the bridge, on the way back."] = "{npc:261} doğuya giden yoldaki köprüyü koruyor; {npc:248265} köprünün hemen karşısında duruyor. Onun aletleri, Thomas'ın Prowler'ları ve ayıları köprünün güneyinde, dönüş yolunda.",
+	["{npc:261} guards the bridge on the road east; {npc:248265} stands just across it. His tools and Thomas's Prowlers and bears are south of the bridge, on the way back."] = "{npc:261} doğuya giden yoldaki köprüyü koruyor; {npc:248265} köprünün hemen karşısında duruyor. Aletleri, Thomas'ın Prowler'ları ve ayıları köprünün güneyinde, dönüş yolunda.",
 
 	-- Step 4: The Eastvale Logging Camp
 	-- {area:88} Eastvale Logging Camp

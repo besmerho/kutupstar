@@ -27,7 +27,7 @@ return {
 	-- {area:378} Camp Taurajo
 	["Fly to {area:378}"] = "{area:378} kampına uç",
 	-- {area:378} Camp Taurajo · {npc:2995} Tal · {zone:1456} Thunder Bluff
-	["Fly to {area:378}: {npc:2995} on {zone:1456}'s central rise, or the Crossroads' wind rider master if you start this guide there."] = "{area:378} kampına uç: {zone:1456} şehrinin ortadaki yükseltisindeki {npc:2995}, ya da bu rehbere orada başlıyorsan Crossroads'un rüzgâr süvarisi ustası.",
+	["Fly to {area:378}: {npc:2995} on {zone:1456}'s central rise, or the Crossroads' wind rider master if you start this guide there."] = "{area:378} kampına uç: {zone:1456} şehrinin ortadaki yükseltisindeki {npc:2995} ya da bu rehbere orada başlıyorsan Crossroads'un rüzgâr süvarisi ustası.",
 
 	-- Step 5: Camp Taurajo
 	-- {area:378} Camp Taurajo · {npc:3433} Tatternack Steelforge · {npc:3387} Jorn Skyseer · {npc:3430} Mangletooth
@@ -40,7 +40,7 @@ return {
 	-- Step 6: Grunt Logmar
 	-- {npc:5911} Grunt Logmar · {npc:268623} Outraged Pillager
 	-- plural, as words: Encroaching Soldiers = {npc:268622} Encroaching Soldier
-	["{npc:5911} stands by the flight master. His {npc:268623} (23) is elite: grouping up is advised; the two Encroaching Soldiers are not."] = "{npc:5911} uçuş ustasının yanında duruyor. Onun {npc:268623} (23) elit: grup kurman önerilir; iki Encroaching Soldier elit değil.",
+	["{npc:5911} stands by the flight master. His {npc:268623} (23) is elite: grouping up is advised; the two Encroaching Soldiers are not."] = "{npc:5911} uçuş ustasının yanında duruyor. Yanındaki {npc:268623} (23) elit: grup kurman önerilir; iki Encroaching Soldier elit değil.",
 	-- {npc:5911} Grunt Logmar · {npc:3341} Gann Stonespire
 	["{npc:5911}: the soldiers and the pillager camp just east of {npc:3341}, on the way south"] = "{npc:5911}: askerler ve yağmacı güney yolunda, {npc:3341} adlı NPC'nin hemen doğusunda kamp kurmuş",
 

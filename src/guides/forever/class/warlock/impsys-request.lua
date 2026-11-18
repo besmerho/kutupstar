@@ -33,7 +33,7 @@ return {
 
 	-- Step 7: Impsy: Hot and Itchy
 	-- {npc:14470} Impsy · {npc:14469} Niby the Almighty · {area:1997} Bloodvenom Post · {area:1765} Bloodvenom Falls · {quest:8420} Hot and Itchy · {item:20613} Rotting Wood · {item:20614} Bloodvenom Essence
-	["{npc:14470} waits beside {npc:14469} on a rise just north-east of {area:1997}: coming north over the {area:1765} bridge, they stand off the road to the east, past a few oozes. Take his own {quest:8420} and hand him the cloth at once. Next he wants ten {item:20613} and four {item:20614}."] = "{npc:14470}, {area:1997} karakolunun hemen kuzeydoğusundaki bir yükseltide {npc:14469} yanında bekliyor: {area:1765} köprüsünden kuzeye gelirken birkaç ooze'u geçince yolun doğusunda duruyorlar. Onun kendi {quest:8420} görevini al ve kumaşı hemen ona teslim et. Sırada on {item:20613} ve dört {item:20614} istiyor.",
+	["{npc:14470} waits beside {npc:14469} on a rise just north-east of {area:1997}: coming north over the {area:1765} bridge, they stand off the road to the east, past a few oozes. Take his own {quest:8420} and hand him the cloth at once. Next he wants ten {item:20613} and four {item:20614}."] = "{npc:14470}, {area:1997} karakolunun hemen kuzeydoğusundaki bir yükseltide {npc:14469} yanında bekliyor: {area:1765} köprüsünden kuzeye gelirken birkaç ooze'u geçince yolun doğusunda duruyorlar. Kendi {quest:8420} görevini al ve kumaşı hemen ona teslim et. Sırada on {item:20613} ve dört {item:20614} istiyor.",
 
 	-- Step 8: Rotting Wood and Bloodvenom
 	-- {item:20613} Rotting Wood

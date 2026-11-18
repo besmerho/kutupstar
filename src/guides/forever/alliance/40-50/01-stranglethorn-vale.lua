@@ -352,7 +352,7 @@ return {
 	["{npc:5464}, by the flight master"] = "{npc:5464}, uçuş ustasının yanında",
 
 	-- Step 74: Misty Valley
-	["The scroll lies in the marsh north of Biggs. The Swampwalkers north of it can drop Khadgar's essays."] = "Tomar Biggs'in kuzeyindeki bataklıkta duruyor. Onun kuzeyindeki Swampwalker yaratıkları Khadgar'ın denemelerini düşürebilir.",
+	["The scroll lies in the marsh north of Biggs. The Swampwalkers north of it can drop Khadgar's essays."] = "Tomar Biggs'in kuzeyindeki bataklıkta duruyor. Tomarın kuzeyindeki Swampwalker yaratıkları Khadgar'ın denemelerini düşürebilir.",
 
 	-- Step 76: Cortello's Riddle
 	-- {npc:217412} Amaryllis Webb · {quest:93176} My Little Friends

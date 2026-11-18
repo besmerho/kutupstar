@@ -128,7 +128,7 @@ return {
 	-- {area:2408} Shadowprey Village
 	["Fly to {area:2408}"] = "Uç: {area:2408}",
 	-- {area:2408} Shadowprey Village · {area:392} Ratchet
-	["Fly to {area:2408} from the flight master you are next to: {area:392}'s, or Brackenwall's if you had no errand in {area:392}."] = "Yanında olduğun uçuş ustasından {area:2408} köyüne uç: {area:392} uçuş ustası, ya da {area:392} limanında işin olmadıysa Brackenwall'unki.",
+	["Fly to {area:2408} from the flight master you are next to: {area:392}'s, or Brackenwall's if you had no errand in {area:392}."] = "Yanında olduğun uçuş ustasından {area:2408} köyüne uç: {area:392} uçuş ustası ya da {area:392} limanında işin olmadıysa Brackenwall'unki.",
 
 	-- Step 26: Shadowprey Village
 	-- {npc:11624} Taiga Wisemane · {npc:12340} Drulzegar Skraghook

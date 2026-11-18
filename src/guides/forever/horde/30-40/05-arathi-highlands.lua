@@ -94,7 +94,7 @@ return {
 	-- {area:272} Tarren Mill
 	["Back to {area:272}"] = "{area:272} kasabasına dön",
 	-- {area:272} Tarren Mill
-	["Hearth back to {area:272} (your hearthstone is bound there), or walk back south-east along the road out of Alterac."] = "Hearthstone ile {area:272} kasabasına dön (Hearthstone'un oraya bağlı), ya da Alterac'tan çıkan yol boyunca güneydoğuya yürü.",
+	["Hearth back to {area:272} (your hearthstone is bound there), or walk back south-east along the road out of Alterac."] = "Hearthstone ile {area:272} kasabasına dön (Hearthstone'un oraya bağlı) ya da Alterac'tan çıkan yol boyunca güneydoğuya yürü.",
 
 	-- Step 16: Tarren Mill
 	-- {area:272} Tarren Mill

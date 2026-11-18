@@ -100,7 +100,7 @@ return {
 	-- {spell:2541} Coyote Steak
 	["{spell:2541}: ingredients"] = "{spell:2541}: malzemeler",
 	-- {npc:833} Coyote Packleader · {zone:1436} Westfall
-	["Coyote (54%), {npc:833} (51%) in {zone:1436}, or wherever the arrow points"] = "Coyote (%54), {zone:1436} bölgesinde {npc:833} (%51), ya da okun gösterdiği yer",
+	["Coyote (54%), {npc:833} (51%) in {zone:1436}, or wherever the arrow points"] = "Coyote (%54), {zone:1436} bölgesinde {npc:833} (%51) ya da okun gösterdiği yer",
 
 	-- Step 27: Coyote Steak (50-90)
 	-- {spell:2541} Coyote Steak · {object:29784} Basic Campfire · {skill:185} Cooking · {zone:1436} Westfall · {npc:235} Salma Saldean · {area:108} Sentinel Hill · {item:733} Westfall Stew · {item:724} Goretusk Liver Pie
