@@ -11,7 +11,7 @@ return {
 
 	-- Step 1: Eldrun Stormbreaker
 	-- {npc:258098} Eldrun Stormbreaker · {zone:1455} Ironforge · {npc:259023} Veyric Thunderhame · {zone:1417} Arathi Highlands · {spell:10596} Nature Resistance · {item:5178} Air Totem
-	["At 30 {npc:258098}, the shaman trainer in {zone:1455}, sends you to {npc:259023} in {zone:1417}. Your level 30 air totems (Grounding, {spell:10596}) need the {item:5178} he gives."] = "30'da {zone:1455} şehrindeki shaman eğitmeni {npc:258098}, seni {zone:1417} bölgesindeki {npc:259023} yanına gönderir. 30. seviye air totem'lerin (Grounding, {spell:10596}) onun verdiği {item:5178} eşyasına ihtiyaç duyar.",
+	["At 30 {npc:258098}, the shaman trainer in {zone:1455}, sends you to {npc:259023} in {zone:1417}. Your level 30 air totems (Grounding, {spell:10596}) need the {item:5178} he gives."] = "30'da {zone:1455} şehrindeki shaman eğitmeni {npc:258098}, seni {zone:1417} bölgesindeki {npc:259023} yanına gönderir. 30. seviye air totem'lerin (Grounding, {spell:10596}) onun verdiği {item:5178} eşyasını ister.",
 
 	-- Step 2: Veyric Thunderhame
 	-- {npc:259023} Veyric Thunderhame · {area:321} Hammerfall · {area:320} Refuge Pointe

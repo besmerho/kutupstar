@@ -63,7 +63,7 @@ return {
 
 	-- Step 13: Norric Lochthane
 	-- {npc:258043} Norric Lochthane · {item:7813} Shard of Water · {item:5177} Water Totem
-	["Back to {npc:258043} with the {item:7813}. Keep the {item:5177} in your bags for good: every water totem needs it."] = "{item:7813} ile {npc:258043} yanına dön. {item:5177} eşyasını sürekli çantanda tut: her water totem ona ihtiyaç duyar.",
+	["Back to {npc:258043} with the {item:7813}. Keep the {item:5177} in your bags for good: every water totem needs it."] = "{item:7813} ile {npc:258043} yanına dön. {item:5177} eşyasını sürekli çantanda tut: her water totem için gerekir.",
 	-- {npc:258043} Norric Lochthane · {spell:5394} Healing Stream Totem · {item:5177} Water Totem
 	["{npc:258043}: {spell:5394} and your {item:5177}"] = "{npc:258043}: {spell:5394} ve {item:5177} eşyan",
 }

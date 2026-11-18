@@ -83,7 +83,7 @@ return {
 
 	-- Step 16: Kranal Fiss
 	-- {npc:5907} Kranal Fiss · {item:5176} Fire Totem
-	["Down the trail, back over the bridge to {npc:5907} by his tower. Keep the {item:5176} in your bags for good: every fire totem needs it."] = "Patikadan in, köprüden geri geçerek kulesinin yanındaki {npc:5907} yanına dön. {item:5176} eşyasını sürekli çantanda tut: her fire totem ona ihtiyaç duyar.",
+	["Down the trail, back over the bridge to {npc:5907} by his tower. Keep the {item:5176} in your bags for good: every fire totem needs it."] = "Patikadan in, köprüden geri geçerek kulesinin yanındaki {npc:5907} yanına dön. {item:5176} eşyasını sürekli çantanda tut: her fire totem için gerekir.",
 	-- {npc:5907} Kranal Fiss · {spell:3599} Searing Totem · {item:5176} Fire Totem · {item:263412} Totem of Charged Flames
 	["{npc:5907}: {spell:3599}, your {item:5176} and the {item:263412}"] = "{npc:5907}: {spell:3599}, {item:5176} ve {item:263412}",
 
@@ -120,7 +120,7 @@ return {
 
 	-- Step 23: Sessaria Skystride
 	-- {item:5176} Fire Totem
-	["Keep the {item:5176} in your bags for good: every fire totem needs it."] = "{item:5176} eşyasını sürekli çantanda tut: her fire totem ona ihtiyaç duyar.",
+	["Keep the {item:5176} in your bags for good: every fire totem needs it."] = "{item:5176} eşyasını sürekli çantanda tut: her fire totem için gerekir.",
 	-- {npc:252382} Sessaria Skystride · {spell:3599} Searing Totem · {item:5176} Fire Totem · {item:263412} Totem of Charged Flames
 	["{npc:252382}: {spell:3599}, your {item:5176} and the {item:263412}"] = "{npc:252382}: {spell:3599}, {item:5176} ve {item:263412}",
 }

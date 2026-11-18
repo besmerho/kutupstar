@@ -41,7 +41,7 @@ return {
 
 	-- Step 6: Canaga Earthcaller
 	-- {item:6656} Rough Quartz · {npc:5887} Canaga Earthcaller · {item:5175} Earth Totem
-	["Bring the {item:6656} back to {npc:5887} outside the Den. Keep the {item:5175} she gives you in your bags for good: every earth totem needs it."] = "{item:6656} eşyasını Den'in dışındaki {npc:5887} yanına geri getir. Sana verdiği {item:5175} eşyasını sürekli çantanda tut: her earth totem ona ihtiyaç duyar.",
+	["Bring the {item:6656} back to {npc:5887} outside the Den. Keep the {item:5175} she gives you in your bags for good: every earth totem needs it."] = "{item:6656} eşyasını Den'in dışındaki {npc:5887} yanına geri getir. Sana verdiği {item:5175} eşyasını sürekli çantanda tut: her earth totem için gerekir.",
 	-- {npc:5887} Canaga Earthcaller · {spell:8071} Stoneskin Totem · {item:5175} Earth Totem
 	["{npc:5887}: {spell:8071} and your {item:5175}"] = "{npc:5887}: {spell:8071} ve {item:5175}",
 	["the level 4 shaman spells"] = "4. seviye shaman büyüleri",
@@ -75,7 +75,7 @@ return {
 
 	-- Step 12: Seer Ravenfeather
 	-- {item:6656} Rough Quartz · {item:5175} Earth Totem
-	["Bring the {item:6656} back to the Seer. Keep the {item:5175} in your bags for good: every earth totem needs it."] = "{item:6656} eşyasını Seer'a geri getir. {item:5175} eşyasını sürekli çantanda tut: her earth totem ona ihtiyaç duyar.",
+	["Bring the {item:6656} back to the Seer. Keep the {item:5175} in your bags for good: every earth totem needs it."] = "{item:6656} eşyasını Seer'a geri getir. {item:5175} eşyasını sürekli çantanda tut: her earth totem için gerekir.",
 	-- {npc:5888} Seer Ravenfeather · {spell:8071} Stoneskin Totem · {item:5175} Earth Totem
 	["{npc:5888}: {spell:8071} and your {item:5175}"] = "{npc:5888}: {spell:8071} ve {item:5175}",
 
@@ -101,7 +101,7 @@ return {
 
 	-- Step 17: Windshaper Boro
 	-- {item:6656} Rough Quartz · {item:5175} Earth Totem
-	["Bring the {item:6656} back to Boro. Keep the {item:5175} in your bags for good: every earth totem needs it."] = "{item:6656} eşyasını Boro'ya geri getir. {item:5175} eşyasını sürekli çantanda tut: her earth totem ona ihtiyaç duyar.",
+	["Bring the {item:6656} back to Boro. Keep the {item:5175} in your bags for good: every earth totem needs it."] = "{item:6656} eşyasını Boro'ya geri getir. {item:5175} eşyasını sürekli çantanda tut: her earth totem için gerekir.",
 	-- {npc:251374} Windshaper Boro · {spell:8071} Stoneskin Totem · {item:5175} Earth Totem
 	["{npc:251374}: {spell:8071} and your {item:5175}"] = "{npc:251374}: {spell:8071} ve {item:5175}",
 }

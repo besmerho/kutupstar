@@ -53,7 +53,7 @@ return {
 	["The {item:6846}"] = "{item:6846}",
 	-- {npc:6172} Henze Faulk · {item:6846} Defias Script
 	-- plural, as words: Defias Rogue Wizards = {npc:474} Defias Rogue Wizard
-	["The Defias Rogue Wizards around the big stone tablet east of {npc:6172} carry the {item:6846}: about one kill in two drops it, but some players need many kills. They respawn in three minutes."] = "{npc:6172} adlı NPC'nin doğusundaki büyük taş tabletin çevresindeki Defias Rogue Wizard yaratıkları {item:6846} taşıyor: aşağı yukarı ikide bir düşer, ama bazı oyuncular çok sayıda öldürmeye ihtiyaç duyuyor. Üç dakikada yeniden doğarlar.",
+	["The Defias Rogue Wizards around the big stone tablet east of {npc:6172} carry the {item:6846}: about one kill in two drops it, but some players need many kills. They respawn in three minutes."] = "{npc:6172} adlı NPC'nin doğusundaki büyük taş tabletin çevresindeki Defias Rogue Wizard yaratıkları {item:6846} taşıyor: aşağı yukarı ikide bir düşer, ama bazı oyuncular çok sayıda öldürmek zorunda kalıyor. Üç dakikada yeniden doğarlar.",
 	-- {item:6846} Defias Script
 	-- plural, as words: Defias Rogue Wizards = {npc:474} Defias Rogue Wizard
 	["{item:6846}: Defias Rogue Wizards"] = "{item:6846}: Defias Rogue Wizard yaratıkları",

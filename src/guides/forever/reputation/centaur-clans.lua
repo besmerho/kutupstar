@@ -294,7 +294,7 @@ return {
 	-- {npc:253136} Orgrul
 	["Magram: {npc:253136}'s ritual"] = "Magram: {npc:253136} adlı NPC'nin ayini",
 	-- {quest:93196} Khan Jehn · {npc:253136} Orgrul
-	["From the quest data: {quest:93196} has been slain by outsiders working for the Gelkis, and {npc:253136} means to raise him."] = "Görev verisine göre: {quest:93196}, Gelkis'ler için çalışan yabancılar tarafından öldürüldü, {npc:253136} de onu diriltmek niyetinde.",
+	["From the quest data: {quest:93196} has been slain by outsiders working for the Gelkis, and {npc:253136} means to raise him."] = "Görev verisine göre: {quest:93196}, Gelkis'ler için çalışan yabancıların elinde ölmüş, {npc:253136} de onu diriltmek niyetinde.",
 
 	-- Step 42: Magram: Khan Jehn
 	-- {quest:93196} Khan Jehn

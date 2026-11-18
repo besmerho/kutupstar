@@ -10,7 +10,7 @@ return {
 
 	-- Step 1: Seek out SI: 7
 	-- {npc:917} Keryn Sylvius · {area:87} Goldshire · {npc:332} Master Mathias Shaw · {zone:1453} Stormwind · {spell:921} Pick Pocket
-	["At 10 {npc:917}, the rogue trainer upstairs in the Lion's Pride Inn in {area:87}, gives you a package for {npc:332} in {zone:1453}. Train {spell:921} if you lack it: this chain needs it."] = "10'da {area:87} kasabasındaki Lion's Pride Inn'in üst katında duran rogue eğitmeni {npc:917}, sana {zone:1453} şehrindeki {npc:332} için bir paket verir. Yoksa {spell:921} öğren: bu zincir ona ihtiyaç duyuyor.",
+	["At 10 {npc:917}, the rogue trainer upstairs in the Lion's Pride Inn in {area:87}, gives you a package for {npc:332} in {zone:1453}. Train {spell:921} if you lack it: this chain needs it."] = "10'da {area:87} kasabasındaki Lion's Pride Inn'in üst katında duran rogue eğitmeni {npc:917}, sana {zone:1453} şehrindeki {npc:332} için bir paket verir. Yoksa {spell:921} öğren: bu zincir onu gerektiriyor.",
 
 	-- Step 2: Master Mathias Shaw
 	-- {zone:1453} Stormwind · {object:2100} Old Town

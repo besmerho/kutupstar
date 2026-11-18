@@ -222,7 +222,7 @@ return {
 	-- {area:366} Kolkar Crag · {npc:275811} Pal'juh
 	["{area:366} lies west of Sen'jin. The three attack plans sit on the ground among the centaur tents. {npc:275811} is held at the crag as well."] = "{area:366}, Sen'jin köyünün batısında. Üç saldırı planı, centaur çadırlarının arasında yerde duruyor. {npc:275811} da orada tutsak.",
 	-- {npc:275811} Pal'juh
-	["Free {npc:275811} and see her safely out of the crag"] = "{npc:275811} adlı NPC'yi kurtar ve oradan güvenle çıkmasını sağla",
+	["Free {npc:275811} and see her safely out of the crag"] = "{npc:275811} adlı NPC'yi kurtarıp kayalıklardan sağ salim çıkar",
 
 	-- Step 46: Sen'jin Village
 	-- {area:368} Echo Isles

@@ -54,7 +54,7 @@ return {
 	-- Step 11: Ruins of Eldarath: kill these as you meet them
 	-- {area:1221} Ruins of Eldarath
 	["{area:1221}: kill these as you meet them"] = "{area:1221}: bunları karşılaştıkça öldür",
-	["Ride east to the ruins on the coast. The four tablets lie among the ruins, guarded by Spitelash naga (52-55): pull them one at a time."] = "Doğuya, kıyıdaki harabelere sür. Dört tablet harabelerin arasında yatıyor ve Spitelash naga'ları (52-55) tarafından korunuyor: tek tek çek.",
+	["Ride east to the ruins on the coast. The four tablets lie among the ruins, guarded by Spitelash naga (52-55): pull them one at a time."] = "Doğuya, kıyıdaki harabelere sür. Dört tablet harabelerin arasında yatıyor, onları Spitelash naga'ları (52-55) koruyor: tek tek çek.",
 
 	-- Step 12: Ruins of Eldarath
 	["Ride east to the ruins on the coast. Fill Cuely's four vials at the tide pools along the shore; Spitelash naga patrol between them."] = "Doğuya, kıyıdaki harabelere git. Cuely'nin dört şişesini kıyı boyunca gelgit havuzlarında doldur; aralarında Spitelash nagaları devriye geziyor.",

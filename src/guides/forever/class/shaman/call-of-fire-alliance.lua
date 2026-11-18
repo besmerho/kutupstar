@@ -60,7 +60,7 @@ return {
 
 	-- Step 10: Bruegs Kindleborn
 	-- {npc:257597} Bruegs Kindleborn · {item:5176} Fire Totem
-	["Back through the South Gate tunnel and up the trail to {npc:257597}' cave. Keep the {item:5176} in your bags for good: every fire totem needs it."] = "South Gate tünelinden geri geç ve patikadan {npc:257597} mağarasına çık. {item:5176} eşyasını sürekli çantanda tut: her fire totem ona ihtiyaç duyar.",
+	["Back through the South Gate tunnel and up the trail to {npc:257597}' cave. Keep the {item:5176} in your bags for good: every fire totem needs it."] = "South Gate tünelinden geri geç ve patikadan {npc:257597} adlı NPC'nin mağarasına çık. {item:5176} eşyasını sürekli çantanda tut: her fire totem için gerekir.",
 	-- {npc:257597} Bruegs Kindleborn · {spell:3599} Searing Totem · {item:5176} Fire Totem · {item:263412} Totem of Charged Flames
 	["{npc:257597}: {spell:3599}, your {item:5176} and the {item:263412}"] = "{npc:257597}: {spell:3599}, {item:5176} ve {item:263412}",
 }

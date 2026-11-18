@@ -48,7 +48,7 @@ const count = (s, re) => (s.match(re) || []).length;
 const W = (word, tail = '(?![a-zçğıöşüâîû])') => new RegExp(`(?<![a-zçğıöşüâîû])${word}${tail}`, 'i');
 // What the rules read: no name tokens, format codes, colour codes, textures or slash commands.
 const strip = (s) => s.replace(/\{[a-z]+:\d+\}/g, 'X').replace(/\|c[0-9a-fA-F]{8}|\|r|\|T[^|]*\|t|\|4[^;]*;/g, '')
-	.replace(/%(?:\d+\$)?[-+ #0]*\d*(?:\.\d+)?[sdfgiuxXcq]/g, 'N').replace(/\/[a-z]+(?: [a-z]+)*/g, '');
+	.replace(/%(?:\d+\$)?[-+ #0]*\d*(?:\.\d+)?[sdfgiuxXcq]/g, 'N').replace(/\/[a-z]+(?: [a-z]+)*/g, '/C');
 
 // pairs: [{ at, key, value }] -> [{ at, key, value, id, what }]
 function dogalWarnings(pairs) {

@@ -45,7 +45,7 @@ return {
 	-- {object:107046} Quilboar Watering Hole
 	["The {object:107046}"] = "{object:107046}",
 	-- {npc:5899} Brine · {item:7766} Empty Brown Waterskin · {npc:3456} Razormane Pathfinder
-	["The muddy pond below {npc:5899}'s hut. Step right into the puddle before you use the {item:7766} (too far away and it refuses). Filling it calls a hostile {npc:3456} (level 20): kill it, and watch for the quilboar hunter by the pond, who may start shooting afterwards."] = "{npc:5899} kulübesinin aşağısındaki çamurlu gölet. {item:7766} kullanmadan önce su birikintisinin tam içine gir (fazla uzaktan reddeder). Doldurmak düşman bir {npc:3456} (seviye 20) çağırır: onu öldür ve sonra ateş etmeye başlayabilecek olan göletin yanındaki quilboar avcısına dikkat et.",
+	["The muddy pond below {npc:5899}'s hut. Step right into the puddle before you use the {item:7766} (too far away and it refuses). Filling it calls a hostile {npc:3456} (level 20): kill it, and watch for the quilboar hunter by the pond, who may start shooting afterwards."] = "{npc:5899} adlı NPC'nin kulübesinin aşağısındaki çamurlu gölet. {item:7766} kullanmadan önce su birikintisinin tam içine gir (fazla uzaktan reddeder). Doldurmak düşman bir {npc:3456} (seviye 20) çağırır: onu öldür, göletin yanındaki quilboar avcısına da dikkat et: ardından ateş etmeye başlayabilir.",
 	-- {item:7766} Empty Brown Waterskin
 	["{item:7766}, standing in the puddle"] = "{item:7766}, su birikintisinin içinde dururken",
 
@@ -99,7 +99,7 @@ return {
 
 	-- Step 20: Islen Waterseer
 	-- {npc:5901} Islen Waterseer · {area:392} Ratchet · {item:5177} Water Totem
-	["Back to {npc:5901} south of {area:392}. Keep the {item:5177} in your bags for good: every water totem needs it."] = "{area:392} kasabasının güneyindeki {npc:5901} yanına dön. {item:5177} eşyasını sürekli çantanda tut: her water totem ona ihtiyaç duyar.",
+	["Back to {npc:5901} south of {area:392}. Keep the {item:5177} in your bags for good: every water totem needs it."] = "{area:392} kasabasının güneyindeki {npc:5901} yanına dön. {item:5177} eşyasını sürekli çantanda tut: her water totem için gerekir.",
 	-- {npc:5901} Islen Waterseer · {spell:5394} Healing Stream Totem · {item:5177} Water Totem
 	["{npc:5901}: {spell:5394} and your {item:5177}"] = "{npc:5901}: {spell:5394} ve {item:5177} eşyan",
 }
