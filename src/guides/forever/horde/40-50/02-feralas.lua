@@ -17,7 +17,7 @@ return {
 
 	-- Step 3: Grom'gol Base Camp
 	-- {object:3202} Grom'gol (no name in this language: may be words) · {area:35} Booty Bay · {npc:1514} Mokk the Savage · {zone:1454} Orgrimmar · {object:2076} Bubbling Cauldron
-	["The flight lands at {object:3202}. Stranglethorn's harder errands, carried from your first visit, fit you now: the Skullsplitter chief, Zanzil's camps, {area:35}'s pirates, the naga coast and {npc:1514}, before the zeppelin to {zone:1454}. The {object:2076} beside Nimboya has the Skullsplitter chief's quest."] = "Uçuş {object:3202} yerine iner. Stranglethorn'un ilk ziyaretinden taşıdığın zor işleri artık sana uygun: {zone:1454} zeplininden önce Skullsplitter şefi, Zanzil'in kampları, {area:35} korsanları, naga kıyısı ve {npc:1514}. Nimboya'nın yanındaki {object:2076} Skullsplitter şefinin görevini veriyor.",
+	["The flight lands at {object:3202}. Stranglethorn's harder errands, carried from your first visit, fit you now: the Skullsplitter chief, Zanzil's camps, {area:35}'s pirates, the naga coast and {npc:1514}, before the zeppelin to {zone:1454}. The {object:2076} beside Nimboya has the Skullsplitter chief's quest."] = "Uçuş {object:3202} kampına iner. Stranglethorn'un ilk ziyaretinden taşıdığın zor işleri artık sana uygun: {zone:1454} zeplininden önce Skullsplitter şefi, Zanzil'in kampları, {area:35} korsanları, naga kıyısı ve {npc:1514}. Nimboya'nın yanındaki {object:2076} Skullsplitter şefinin görevini veriyor.",
 	-- {object:2076} Bubbling Cauldron · {quest:586} Speaking with Gan'zulah
 	["the {object:2076}: {quest:586}"] = "{object:2076}: {quest:586}",
 
@@ -30,7 +30,7 @@ return {
 
 	-- Step 5: Grom'gol Base Camp
 	-- {object:3202} Grom'gol (no name in this language: may be words)
-	["Back west to {object:3202}."] = "Batıya, {object:3202} yerine dön.",
+	["Back west to {object:3202}."] = "Batıya, {object:3202} kampına dön.",
 	-- {object:2076} Bubbling Cauldron
 	["the {object:2076}"] = "{object:2076}",
 	-- {object:2076} Bubbling Cauldron
@@ -89,7 +89,7 @@ return {
 
 	-- Step 14: Grom'gol Base Camp
 	-- {object:3202} Grom'gol (no name in this language: may be words) · {npc:2519} Kin'weelay · {npc:2465} Far Seer Mok'thardin
-	["The flight lands at {object:3202}: {npc:2519} and {npc:2465}, then the zeppelin tower."] = "Uçuş {object:3202} yerine iner: {npc:2519} ve {npc:2465}, sonra zeplin kulesi.",
+	["The flight lands at {object:3202}: {npc:2519} and {npc:2465}, then the zeppelin tower."] = "Uçuş {object:3202} kampına iner: {npc:2519} ve {npc:2465}, sonra zeplin kulesi.",
 
 	-- Step 15: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar

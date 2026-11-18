@@ -275,7 +275,7 @@ return {
 	-- {npc:253851} Hagiak · {area:16675} Magram Front
 	["Magram: {npc:253851} at the {area:16675}"] = "Magram: {area:16675} kampında {npc:253851}",
 	-- {npc:253851} Hagiak · {area:16676} Outcast Hideaway
-	["From the quest data: {npc:253851} sends you south-west to the {area:16676}, the exiles' camp west of the Shen'dralar town."] = "Görev verisine göre: {npc:253851} seni güneybatıya, Shen'dralar kasabasının batısındaki sürgün kampı {area:16676} yerine yollar.",
+	["From the quest data: {npc:253851} sends you south-west to the {area:16676}, the exiles' camp west of the Shen'dralar town."] = "Görev verisine göre: {npc:253851} seni güneybatıya, Shen'dralar kasabasının batısındaki {area:16676} sürgün kampına yollar.",
 
 	-- Step 39: Magram: the Outcast Hideaway
 	-- {area:16676} Outcast Hideaway

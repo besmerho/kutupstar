@@ -493,7 +493,7 @@ return {
 
 	-- Step 86: Paladin: Bandarion Keep
 	-- {npc:259190} Ephram Barbaro · {npc:246389} Hilda the Breaker · {npc:246349} Breton Samuels · {npc:246393} Jorin Croge · {npc:246394} Ander Solliden · {npc:246378} Danitha Morr
-	["{npc:259190} and {npc:246389} at the forest's edge, {npc:246349} at the gate, {npc:246393} and {npc:246394} nearby, {npc:246378} inside."] = "{npc:259190} ve {npc:246389} orman kenarında, {npc:246349} kapıda, {npc:246393} ve {npc:246394} yakında, {npc:246378} içeride.",
+	["{npc:259190} and {npc:246389} at the forest's edge, {npc:246349} at the gate, {npc:246393} and {npc:246394} nearby, {npc:246378} inside."] = "{npc:259190} ve {npc:246389} orman kenarında, {npc:246349} kapıda, {npc:246393} ve {npc:246394} yakınlarda, {npc:246378} içeride.",
 	-- {npc:246378} Danitha Morr
 	["{npc:246378}, inside the keep"] = "{npc:246378}, kalenin içinde",
 

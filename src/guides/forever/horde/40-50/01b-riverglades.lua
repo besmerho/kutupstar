@@ -51,7 +51,7 @@ return {
 
 	-- Step 8: Rog'mar
 	-- {area:16743} Rog'mar · {npc:258031} Neza Bloodsnout · {npc:256657} Kreza Darkthorn · {npc:256418} Krom'rosh · {npc:255993} Grakna · {npc:256675} Innkeeper Toka · {npc:263190} Tan'jani
-	["West to {area:16743}, the Horde's fort in the middle of the zone. {npc:258031} stands on its east side, {npc:256657} and {npc:256418} in the middle with {npc:255993}, the wind rider master; {npc:256675} and {npc:263190} on the west side."] = "Batıya, bölgenin ortasındaki Horde kalesi {area:16743} yerine git. {npc:258031} doğu yakasında, {npc:256657} ve {npc:256418} ortada rüzgâr süvarisi ustası {npc:255993} ile; {npc:256675} ve {npc:263190} batı yakasında duruyor.",
+	["West to {area:16743}, the Horde's fort in the middle of the zone. {npc:258031} stands on its east side, {npc:256657} and {npc:256418} in the middle with {npc:255993}, the wind rider master; {npc:256675} and {npc:263190} on the west side."] = "Batıya, bölgenin ortasındaki Horde kalesine, {area:16743} içine git. {npc:258031} doğu yakasında, {npc:256657} ve {npc:256418} ortada rüzgâr süvarisi ustası {npc:255993} ile; {npc:256675} ve {npc:263190} batı yakasında duruyor.",
 	-- {npc:256418} Krom'rosh · {object:3202} Grom'gol (no name in this language: may be words)
 	["{npc:256418}: Aggro'gosh's report from {object:3202}, if you carry it"] = "{npc:256418}: yanındaysa Aggro'gosh'un {object:3202} raporu",
 	-- {npc:255993} Grakna
@@ -133,7 +133,7 @@ return {
 
 	-- Step 29: Meadowsbrook
 	-- {area:16735} Meadowsbrook · {area:16744} Southern Watch · {npc:263380} Ghostmaw
-	["East to {area:16735}, the Alliance farm by the river: the farmhands work the fields and the feed satchels lie by the barns. {area:16744}, the Alliance outpost on the road, has guards: pass south of it.\nCareful: {npc:263380}, an elite (level 42), hunts along the river by the farm: keep an eye on the riverbank."] = "Doğuya, nehrin yanındaki Alliance çiftliği {area:16735} yerine git: çiftlik işçileri tarlalarda çalışıyor, yem heybeleri de ambarların yanında yatıyor. Yoldaki Alliance karakolu {area:16744} muhafızlı: güneyinden geç.\nDikkat: elit {npc:263380} (42. seviye) çiftliğin yanında nehir boyunca avlanıyor: nehir kıyısına göz kulak ol.",
+	["East to {area:16735}, the Alliance farm by the river: the farmhands work the fields and the feed satchels lie by the barns. {area:16744}, the Alliance outpost on the road, has guards: pass south of it.\nCareful: {npc:263380}, an elite (level 42), hunts along the river by the farm: keep an eye on the riverbank."] = "Doğuya, nehrin yanındaki Alliance çiftliğine, {area:16735} içine git: çiftlik işçileri tarlalarda çalışıyor, yem heybeleri de ambarların yanında yatıyor. Yoldaki Alliance karakolu {area:16744} muhafızlı: güneyinden geç.\nDikkat: elit {npc:263380} (42. seviye) çiftliğin yanında nehir boyunca avlanıyor: nehir kıyısına göz kulak ol.",
 
 	-- Step 30: Rog'mar
 	-- {area:16743} Rog'mar · {npc:263190} Tan'jani · {npc:256418} Krom'rosh · {npc:256655} Gorg · {npc:256657} Kreza Darkthorn · {npc:258031} Neza Bloodsnout
@@ -231,7 +231,7 @@ return {
 
 	-- Step 52: Bolder'ok
 	-- {area:16726} Bolder'ok · {npc:255829} Clugfist
-	["North-west to {area:16726}, the ogres' town. {npc:255829}, its chieftain, sits on the hill. The ogres are friendly while you leave them alone."] = "Kuzeybatıya, ogre'lerin kasabası {area:16726} yerine git. Şefi {npc:255829} tepede oturuyor. Ogre'ler sen onlara dokunmadıkça dosttur.",
+	["North-west to {area:16726}, the ogres' town. {npc:255829}, its chieftain, sits on the hill. The ogres are friendly while you leave them alone."] = "Kuzeybatıya, ogre kasabasına, {area:16726} içine git. Şefi {npc:255829} tepede oturuyor. Ogre'ler sen onlara dokunmadıkça dosttur.",
 
 	-- Step 53: The Twilight ogres' camp
 	["The Twilight ogres' camp"] = "Twilight ogre'lerinin kampı",
@@ -299,7 +299,7 @@ return {
 
 	-- Step 64: Powderfuse Port
 	-- {area:16727} Powderfuse Port · {npc:255897} Friz Frazzlespark · {npc:259962} Fimbo Greasemitz · {npc:259961} Wharfmaster Whizzbuzz
-	["South-east down out of the hills to {area:16727}, the goblins' harbour on the coast. {npc:255897} keeps a stall at the west end of the docks, {npc:259962} cooks by the inn, and {npc:259961} works the north pier."] = "Tepelerden güneydoğuya, kıyıdaki goblin limanı {area:16727} yerine in. {npc:255897} iskelelerin batı ucunda bir tezgâh işletiyor, {npc:259962} hanın yanında yemek pişiriyor, {npc:259961} de kuzey iskelede çalışıyor.",
+	["South-east down out of the hills to {area:16727}, the goblins' harbour on the coast. {npc:255897} keeps a stall at the west end of the docks, {npc:259962} cooks by the inn, and {npc:259961} works the north pier."] = "Tepelerden güneydoğuya, kıyıdaki goblin limanına, {area:16727} içine in. {npc:255897} iskelelerin batı ucunda bir tezgâh işletiyor, {npc:259962} hanın yanında yemek pişiriyor, {npc:259961} de kuzey iskelede çalışıyor.",
 	-- {object:628948} WANTED! (no name in this language: may be words) · {npc:260235} Trapclaw
 	["The {object:628948} poster by the inn: {npc:260235}"] = "Hanın yanındaki {object:628948} ilanı: {npc:260235}",
 
@@ -430,5 +430,5 @@ return {
 
 	-- Step 94: Kargath
 	-- {area:3} Badlands · {area:340} Kargath
-	["Across the {area:3} to {area:340}, the Horde fortress built into the cliffs at the zone's western edge: its flight master stands at the foot of the fortress."] = "{area:3} bölgesini geçip bölgenin batı kenarında uçurumlara oyulmuş Horde kalesi {area:340} yerine git: uçuş ustası kalenin eteğinde duruyor.",
+	["Across the {area:3} to {area:340}, the Horde fortress built into the cliffs at the zone's western edge: its flight master stands at the foot of the fortress."] = "{area:3} bölgesini geçip bölgenin batı kenarında uçurumlara oyulmuş Horde kalesine, {area:340} içine git: uçuş ustası kalenin eteğinde duruyor.",
 }

@@ -178,7 +178,7 @@ return {
 
 	-- Step 36: Sun Rock Retreat
 	-- {area:1076} Webwinder Path · {npc:4201} Ziz Fizziks · {area:460} Sun Rock Retreat
-	["On up the {area:1076} from {npc:4201}' hut to {area:460}."] = "{npc:4201} kulübesinden {area:1076} yokuşunu {area:460} yerine kadar çıkmaya devam et.",
+	["On up the {area:1076} from {npc:4201}' hut to {area:460}."] = "{npc:4201} kulübesinden {area:1076} yokuşunu {area:460} kampına kadar çıkmaya devam et.",
 	-- {npc:11862} Tsunaman · {npc:12736} Je'neu Sancrea
 	["{npc:11862}: {npc:12736} at Zoram'gar, next guide"] = "{npc:11862}: sonraki rehberde, Zoram'gar'daki {npc:12736}",
 	-- {npc:11860} Maggran Earthbinder · {area:1718} Great Lift · {zone:1441} Thousand Needles

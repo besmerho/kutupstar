@@ -21,7 +21,7 @@ return {
 	-- {area:363} Valley of Trials
 	["{area:363} (optional hub)"] = "{area:363} (isteğe bağlı merkez)",
 	-- {area:363} Valley of Trials · {faction:76} Orgrimmar · {npc:3143} Gornek · {npc:10176} Kaltunk
-	["Forever pays these old quests in full at any level. The {area:363} is the best of them: about 1,400 {faction:76} and 1,400 Darkspear reputation in 25 minutes. {npc:3143} waits in the Den, the big hut; {npc:10176} stands outside it."] = "Forever bu eski görevleri her seviyede tam öder. {area:363} en iyisi: 25 dakikada yaklaşık 1.400 {faction:76} ve 1.400 Darkspear itibarı. {npc:3143}, büyük kulübe olan Den'de bekliyor; {npc:10176} onun dışında duruyor.",
+	["Forever pays these old quests in full at any level. The {area:363} is the best of them: about 1,400 {faction:76} and 1,400 Darkspear reputation in 25 minutes. {npc:3143} waits in the Den, the big hut; {npc:10176} stands outside it."] = "Forever bu eski görevleri her seviyede tam öder. {area:363} en iyisi: 25 dakikada yaklaşık 1.400 {faction:76} ve 1.400 Darkspear itibarı. {npc:3143}, büyük kulübe olan Den'de bekliyor; {npc:10176} kulübenin dışında duruyor.",
 	-- {npc:3144} Eitrigg · {faction:76} Orgrimmar · {quest:787} The New Horde
 	["{npc:3144}, in {faction:76}: {quest:787}, +50"] = "{npc:3144}, {faction:76} şehrinde: {quest:787}, +50",
 	-- {npc:5765} Ruzan · {quest:792} Vile Familiars

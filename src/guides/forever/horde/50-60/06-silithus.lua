@@ -233,7 +233,7 @@ return {
 
 	-- Step 59: Hearthglen
 	-- {area:190} Hearthglen
-	["{area:190}'s Scarlets are level 58-60. Ride in to the high point marked on your map, look over the town, and get out.\nCareful: Sentinels posted at the gate can detect stealthed players. Additional sentinels are found within the town, and an elite walks a patrol route nearby."] = "{area:190} kasabasının Scarlet'leri seviye 58-60. Haritanda işaretli yüksek noktaya sür, kasabaya bak ve çık.\nDikkat: Kapıya yerleştirilmiş nöbetçiler gizlenmiş oyuncuları fark edebilir. Kasabanın içinde başka nöbetçiler de var, yakında da bir elit devriye geziyor.",
+	["{area:190}'s Scarlets are level 58-60. Ride in to the high point marked on your map, look over the town, and get out.\nCareful: Sentinels posted at the gate can detect stealthed players. Additional sentinels are found within the town, and an elite walks a patrol route nearby."] = "{area:190} kasabasının Scarlet'leri seviye 58-60. Haritanda işaretli yüksek noktaya sür, kasabaya bak ve çık.\nDikkat: Kapıya yerleştirilmiş nöbetçiler gizlenmiş oyuncuları fark edebilir. Kasabanın içinde başka nöbetçiler de var, yakınlarda da bir elit devriye geziyor.",
 
 	-- Step 61: Andorhal watchtowers and silos
 	["Andorhal watchtowers and silos"] = "Andorhal gözetleme kuleleri ve siloları",

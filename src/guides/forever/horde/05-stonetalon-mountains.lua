@@ -126,7 +126,7 @@ return {
 
 	-- Step 25: Morbin Lightbane
 	-- {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {object:36126} Royal Quarter · {npc:266484} Morbin Lightbane · {npc:10181} Lady Sylvanas Windrunner
-	["For your {area:153} run: the zeppelin lands beside the ruins. Walk into the {zone:1458} through them and down to the {object:36126}: {npc:266484} stands there, near {npc:10181}."] = "{area:153} koşun için: zeplin harabelerin yanına iner. Harabelerin içinden {zone:1458} şehrine gir ve {object:36126} yerine in: {npc:266484} orada, {npc:10181} yakınında duruyor.",
+	["For your {area:153} run: the zeppelin lands beside the ruins. Walk into the {zone:1458} through them and down to the {object:36126}: {npc:266484} stands there, near {npc:10181}."] = "{area:153} koşun için: zeplin harabelerin yanına iner. Harabelerin içinden {zone:1458} şehrine gir ve {object:36126} semtine in: {npc:266484} orada, {npc:10181} yakınında duruyor.",
 
 	-- Step 26: Ruins of Lordaeron
 	-- {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {item:268580} Intact Limbs · {npc:266484} Morbin Lightbane · {npc:250660} The Baron · {item:280438} Abominable Head · {npc:2055} Master Apothecary Faranell · {npc:256102} Crest of Lordaeron · {npc:7825} Oran Snakewrithe

@@ -53,7 +53,7 @@ return {
 	-- {area:75} Stonard
 	["Fly to {area:75}"] = "{area:75} kasabasına uç",
 	-- {object:3202} Grom'gol (no name in this language: may be words) · {area:75} Stonard
-	["The zeppelin lands at {object:3202}: Stranglethorn's errands are done (40-50/02), so fly straight on to {area:75}."] = "Zeplin {object:3202} yerine iner: Stranglethorn işleri bitti (40-50/02), yani doğrudan {area:75} kalesine uç.",
+	["The zeppelin lands at {object:3202}: Stranglethorn's errands are done (40-50/02), so fly straight on to {area:75}."] = "Zeplin {object:3202} kampına iner: Stranglethorn işleri bitti (40-50/02), yani doğrudan {area:75} kalesine uç.",
 	-- {object:3202} Grom'gol (no name in this language: may be words)
 	["{object:3202} flight master"] = "{object:3202} uçuş ustası",
 

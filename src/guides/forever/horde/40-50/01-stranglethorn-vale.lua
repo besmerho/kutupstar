@@ -7,7 +7,7 @@ return {
 	-- {area:1497} Undercity
 	["Fly to the {area:1497}"] = "{area:1497} şehrine uç",
 	-- {area:1497} Undercity · {area:340} Kargath · {object:3202} Grom'gol (no name in this language: may be words)
-	["Your level 40 training is in the {area:1497}: fly there from {area:340}, train, and take the zeppelin from the towers outside the city to {object:3202}."] = "40. seviye eğitimin {area:1497} şehrinde: {area:340} kalesinden oraya uç, eğitim al ve şehrin dışındaki kulelerden zeplinle {object:3202} yerine geç.",
+	["Your level 40 training is in the {area:1497}: fly there from {area:340}, train, and take the zeppelin from the towers outside the city to {object:3202}."] = "40. seviye eğitimin {area:1497} şehrinde: {area:340} kalesinden oraya uç, eğitim al ve şehrin dışındaki kulelerden zeplinle {object:3202} kampına geç.",
 	-- {area:340} Kargath
 	["{area:340} flight master"] = "{area:340} uçuş ustası",
 
@@ -139,7 +139,7 @@ return {
 
 	-- Step 31: Riding at 40
 	-- {zone:2548} Riverglades · {object:3202} Grom'gol (no name in this language: may be words) · {zone:1454} Orgrimmar · {npc:4752} Kildar · {object:172958} Valley of Honor · {npc:3362} Ogunaro Wolfrunner · {zone:1444} Feralas
-	["Riding needs level 40 and costs 100 gold; learning it gives you a mount, and the {zone:2548} after Stranglethorn are a long walk without one. Take the zeppelin from {object:3202}'s tower to {zone:1454}: {npc:4752} teaches Orcs in the {object:172958}, by {npc:3362}'s kennel (wolves 20 gold each). Then the zeppelin back to {object:3202}. Short of gold? Skip this step: the {zone:1444} guide passes {zone:1454} again at about 45."] = "Binicilik 40. seviye ister ve 100 altın tutar; öğrenince bir binek verir, Stranglethorn'dan sonraki {zone:2548} de bineksiz uzun bir yürüyüş. {object:3202} kulesinden zeplinle {zone:1454} şehrine geç: {npc:4752}, Orc'lara {object:172958} içinde, {npc:3362} adlı NPC'nin köpek kulübesinin yanında eğitim verir (kurtlar tanesi 20 altın). Sonra zeplinle {object:3202} yerine dön. Altının yetmiyor mu? Bu adımı atla: {zone:1444} rehberi yaklaşık 45'te yine {zone:1454} şehrinden geçer.",
+	["Riding needs level 40 and costs 100 gold; learning it gives you a mount, and the {zone:2548} after Stranglethorn are a long walk without one. Take the zeppelin from {object:3202}'s tower to {zone:1454}: {npc:4752} teaches Orcs in the {object:172958}, by {npc:3362}'s kennel (wolves 20 gold each). Then the zeppelin back to {object:3202}. Short of gold? Skip this step: the {zone:1444} guide passes {zone:1454} again at about 45."] = "Binicilik 40. seviye ister ve 100 altın tutar; öğrenince bir binek verir, Stranglethorn'dan sonraki {zone:2548} de bineksiz uzun bir yürüyüş. {object:3202} kulesinden zeplinle {zone:1454} şehrine geç: {npc:4752}, Orc'lara {object:172958} içinde, {npc:3362} adlı NPC'nin köpek kulübesinin yanında eğitim verir (kurtlar tanesi 20 altın). Sonra zeplinle {object:3202} kampına dön. Altının yetmiyor mu? Bu adımı atla: {zone:1444} rehberi yaklaşık 45'te yine {zone:1454} şehrinden geçer.",
 	-- {npc:4752} Kildar
 	["{npc:4752}, riding trainer"] = "{npc:4752}, binicilik eğitmeni",
 
@@ -163,7 +163,7 @@ return {
 
 	-- Step 35: Riding at 40
 	-- {zone:2548} Riverglades · {object:3202} Grom'gol (no name in this language: may be words) · {area:1497} Undercity · {npc:4773} Velma Warnam · {area:159} Brill · {npc:4731} Zachariah Post · {zone:1435} Swamp of Sorrows
-	["Riding needs level 40 and costs 100 gold; learning it gives you a mount, and the {zone:2548} after Stranglethorn are a long walk without one. Take the zeppelin from {object:3202}'s tower to the {area:1497}'s towers: {npc:4773} teaches the Forsaken in {area:159}, a short ride north, with {npc:4731}'s skeletal horses (20 gold each). Then the zeppelin back to {object:3202}. Short of gold? Skip this step: the {zone:1435} guide passes the {area:1497} again at about 47."] = "Binicilik 40. seviye ister ve 100 altın tutar; öğrenince bir binek verir, Stranglethorn'dan sonraki {zone:2548} de bineksiz uzun bir yürüyüş. {object:3202} kulesinden zeplinle {area:1497} kulelerine geç: {npc:4773}, kısa bir yolculukla kuzeydeki {area:159} kasabasında Forsaken'lara {npc:4731} adlı NPC'nin iskelet atlarıyla (tanesi 20 altın) eğitim verir. Sonra zeplinle {object:3202} yerine dön. Altının yetmiyor mu? Bu adımı atla: {zone:1435} rehberi yaklaşık 47'de yine {area:1497} şehrinden geçer.",
+	["Riding needs level 40 and costs 100 gold; learning it gives you a mount, and the {zone:2548} after Stranglethorn are a long walk without one. Take the zeppelin from {object:3202}'s tower to the {area:1497}'s towers: {npc:4773} teaches the Forsaken in {area:159}, a short ride north, with {npc:4731}'s skeletal horses (20 gold each). Then the zeppelin back to {object:3202}. Short of gold? Skip this step: the {zone:1435} guide passes the {area:1497} again at about 47."] = "Binicilik 40. seviye ister ve 100 altın tutar; öğrenince bir binek verir, Stranglethorn'dan sonraki {zone:2548} de bineksiz uzun bir yürüyüş. {object:3202} kulesinden zeplinle {area:1497} kulelerine geç: {npc:4773}, kısa bir yolculukla kuzeydeki {area:159} kasabasında Forsaken'lara {npc:4731} adlı NPC'nin iskelet atlarıyla (tanesi 20 altın) eğitim verir. Sonra zeplinle {object:3202} kampına dön. Altının yetmiyor mu? Bu adımı atla: {zone:1435} rehberi yaklaşık 47'de yine {area:1497} şehrinden geçer.",
 
 	-- Step 36: Your mount at 40
 	["Your mount at 40"] = "40'ta bineğin",
@@ -215,7 +215,7 @@ return {
 
 	-- Step 41: Fly to Grom'gol
 	-- {object:3202} Grom'gol (no name in this language: may be words)
-	["Fly back to {object:3202}: Zul'Mamwe's Skullsplitters are just east of it."] = "{object:3202} yerine geri uç: Zul'Mamwe'nin Skullsplitter'ları hemen doğusunda.",
+	["Fly back to {object:3202}: Zul'Mamwe's Skullsplitters are just east of it."] = "{object:3202} kampına geri uç: Zul'Mamwe'nin Skullsplitter'ları hemen doğusunda.",
 	-- {area:35} Booty Bay
 	["{area:35} flight master"] = "{area:35} uçuş ustası",
 

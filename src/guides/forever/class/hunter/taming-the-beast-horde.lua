@@ -77,7 +77,7 @@ return {
 	-- {npc:3039} Holt Thunderhorn · {zone:1456} Thunder Bluff
 	["{npc:3039} in {zone:1456}"] = "{npc:3039}, {zone:1456} bölgesinde",
 	-- {zone:1456} Thunder Bluff · {npc:3039} Holt Thunderhorn · {area:1641} Hunter Rise · {npc:10086} Hesuwa Thunderhorn
-	["Head north to {zone:1456} and take a lift up. {npc:3039} stands with the hunter trainers on {area:1641}; {npc:10086}, the pet trainer, is nearby."] = "Kuzeye, {zone:1456} şehrine git ve bir asansörle yukarı çık. {npc:3039}, {area:1641} tepesinde Hunter eğitmenleriyle birlikte duruyor; pet eğitmeni {npc:10086} yakında.",
+	["Head north to {zone:1456} and take a lift up. {npc:3039} stands with the hunter trainers on {area:1641}; {npc:10086}, the pet trainer, is nearby."] = "Kuzeye, {zone:1456} şehrine git ve bir asansörle yukarı çık. {npc:3039}, {area:1641} tepesinde Hunter eğitmenleriyle birlikte duruyor; pet eğitmeni {npc:10086} yakınlarda.",
 
 	-- Step 11: Elayaa Easewind
 	-- {npc:254084} Elayaa Easewind · {zone:2521} Zephras Isle · {area:16638} Valanaar · {quest:94007} Taming the Beast

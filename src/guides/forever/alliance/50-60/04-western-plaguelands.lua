@@ -324,7 +324,7 @@ return {
 
 	-- Step 82: Gaeriyan
 	-- {npc:9299} Gaeriyan · {item:11243} Videre Elixir
-	["{npc:9299} is a ghost at the graveyard just east of town: drink a {item:11243} there, which kills you, release your spirit and talk to him as a ghost. Then run back to your body to come back to life: the gravestone stands nearby."] = "{npc:9299}, kasabanın hemen doğusundaki mezarlıkta bir hayalet: orada bir {item:11243} iç (seni öldürür), ruhunu serbest bırak ve hayalet olarak onunla konuş. Sonra dirilmek için cesedine geri koş: mezar taşı yakında duruyor.",
+	["{npc:9299} is a ghost at the graveyard just east of town: drink a {item:11243} there, which kills you, release your spirit and talk to him as a ghost. Then run back to your body to come back to life: the gravestone stands nearby."] = "{npc:9299}, kasabanın hemen doğusundaki mezarlıkta bir hayalet: orada bir {item:11243} iç (seni öldürür), ruhunu serbest bırak ve hayalet olarak onunla konuş. Sonra dirilmek için cesedine geri koş: mezar taşı yakınlarda duruyor.",
 
 	-- Step 83: Broken Pillar
 	-- {npc:7771} Marvon Rivetseeker · {area:1938} Broken Pillar
