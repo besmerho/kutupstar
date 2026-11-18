@@ -185,27 +185,29 @@ return {
 	-- Step 52: Gadgetzan
 	-- {npc:7876} Tran'rek
 	["{npc:7876}, beside the wind rider master"] = "{npc:7876}, rüzgâr binicisi ustasının yanında",
+
+	-- Step 53: The Egg-O-Matic
+	-- {object:142071} Egg-O-Matic
+	["The {object:142071}"] = "{object:142071}",
 	-- {object:142071} Egg-O-Matic
 	["The {object:142071}, in the middle of town"] = "Kasabanın ortasındaki {object:142071}",
+
+	-- Step 54: Marin Noggenfogger
 	-- {zone:1449} Un'Goro Crater
 	["Pestlezugg's samples come from {zone:1449}."] = "Pestlezugg'ın örnekleri {zone:1449} bölgesinden gelir.",
 
-	-- Step 53: Marvon Rivetseeker
+	-- Step 55: Marvon Rivetseeker
 	-- {area:1938} Broken Pillar · {npc:7771} Marvon Rivetseeker · {zone:1449} Un'Goro Crater
 	["Ride south along the road to the {area:1938}; {npc:7771} camps beside it. From here the road west leads down into {zone:1449}, where the next guide starts."] = "Yol boyunca güneye, {area:1938} kesimine sür; {npc:7771} onun yanında kamp kurmuş. Buradan batı yolu, sonraki rehberin başladığı {zone:1449} bölgesine iner.",
 	-- {quest:3444} The Stone Circle · {npc:7771} Marvon Rivetseeker
 	["Keep {quest:3444}: {npc:7771}'s chest is opened on a later visit."] = "{quest:3444} görevini sakla: {npc:7771} adlı NPC'nin sandığı daha sonraki bir ziyarette açılır.",
 
-	-- Step 54: The Dunemaul Compound
+	-- Step 56: The Dunemaul Compound
 	-- {area:1938} Broken Pillar · {npc:12046} Gor'marok the Ravager · {npc:11758} Andi Lynn · {zone:1446} Tanaris
 	["South of the {area:1938} the Dunemaul ogres hold their compound, with {npc:12046} at its eastern end: {npc:11758}'s quest, carried from your first {zone:1446} visit."] = "{area:1938} güneyinde Dunemaul ogre'leri yerleşkelerini tutuyor, doğu ucunda da {npc:12046}: ilk {zone:1446} ziyaretinden taşıdığın {npc:11758} görevi.",
 
-	-- Step 55: Thistleshrub Valley
+	-- Step 57: Thistleshrub Valley
 	-- {quest:3362} Thistleshrub Valley · {npc:7876} Tran'rek · {zone:1446} Tanaris · {area:976} Gadgetzan · {npc:11758} Andi Lynn
 	-- plural, as words: Gnarled Thistleshrubs = {npc:5490} Gnarled Thistleshrub
 	["West from the compound, on the way to Un'Goro's ramp: {quest:3362}'s Gnarled Thistleshrubs and Rootshapers (48-50) are {npc:7876}'s, carried from your first {zone:1446} visit. They wander a lot: pull them one at a time. {npc:7876} takes them on the next guide's {area:976} stop, with {npc:11758}'s."] = "Yerleşkeden batıya, Un'Goro rampasına giderken: {quest:3362} görevinin Gnarled Thistleshrub ve Rootshaper yaratıkları (48-50) ilk {zone:1446} ziyaretinden taşıdığın {npc:7876} görevi için. Çok dolaşırlar: tek tek çek. {npc:7876} onları {npc:11758} görevleriyle birlikte sonraki rehberin {area:976} durağında teslim alır.",
-
-
-	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
-	["The {object:142071}"] = "{object:142071}",
 }

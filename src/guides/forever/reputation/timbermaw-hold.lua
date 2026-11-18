@@ -71,35 +71,43 @@ return {
 	-- plural, as words: Mana Potions = {item:3827} Mana Potion
 	["The northern Deadwood rarely drop a {quest:8470} (about 3%). From Neutral, {npc:11558} takes it in the tunnel, on the {zone:1448} side: 150 reputation and two Major Healing and Mana Potions."] = "Kuzey Deadwood'ları nadiren bir {quest:8470} düşürür (yaklaşık %3). Neutral'dan itibaren {npc:11558} onu tünelde, {zone:1448} tarafında alır: 150 itibar ve ikişer Major Healing ve Mana Potion.",
 
-	-- Step 12: Winterfall Ritual Totem
+	-- Step 12: Kernda: the Deadwood totem
+	-- {npc:11558} Kernda
+	["{npc:11558}: the Deadwood totem"] = "{npc:11558}: Deadwood totemi",
+
+	-- Step 13: Winterfall Ritual Totem
 	-- {quest:8471} Winterfall Ritual Totem · {npc:11558} Kernda
 	-- plural, as words: Mana Potions = {item:3827} Mana Potion
 	["The Winterfall furbolgs rarely drop a {quest:8471} (3-4%). {npc:11558} takes it in the tunnel too: 150 reputation and three Major Healing and Mana Potions."] = "Winterfall furbolg'ları nadiren bir {quest:8471} düşürür (%3-4). {npc:11558} onu da tünelde alır: 150 itibar ve üçer Major Healing ve Mana Potion.",
 
-	-- Step 13: Neutral to Friendly
+	-- Step 14: Kernda: the Winterfall totem
+	-- {npc:11558} Kernda
+	["{npc:11558}: the Winterfall totem"] = "{npc:11558}: Winterfall totemi",
+
+	-- Step 15: Neutral to Friendly
 	["Neutral to Friendly"] = "Neutral → Friendly",
 	["Neutral to Friendly is 3,000: 600 kills. Keep all feathers and beads."] = "Neutral'dan Friendly'ye 3.000: 600 öldürme. Bütün tüyleri ve boncukları sakla.",
 
-	-- Step 14: Meilosh
+	-- Step 16: Meilosh
 	-- {npc:11557} Meilosh · {zone:1448} Felwood · {item:13484} Recipe: Transmute Earth to Water · {item:22392} Formula: Enchant 2H Weapon - Agility · {item:20253} Pattern: Warbear Harness · {item:15065} Warbear Woolies · {quest:6031} Runecloth · {item:14342} Mooncloth · {item:15802} Mooncloth Boots
 	["{npc:11557} stands in the tunnel, near its {zone:1448} mouth. From Friendly he sells: {item:13484} (1 gold 50 silver), {item:22392} (2 gold 50 silver), {item:20253} (1 gold 60 silver) and {item:15065} (2 gold). He also takes 30 {quest:6031} once for 100 reputation and a choice of shoulders or gauntlets, and Tailors with skill 290 can bring him 2 {item:14342} for 100 more and the {item:15802} pattern."] = "{npc:11557}, tünelde {zone:1448} ağzının yakınında duruyor. Friendly'den itibaren satar: {item:13484} (1 altın 50 gümüş), {item:22392} (2 altın 50 gümüş), {item:20253} (1 altın 60 gümüş) ve {item:15065} (2 altın). Ayrıca 100 itibar ve omuzluk ya da eldiven seçimi karşılığında bir kez 30 {quest:6031} alır, 290 becerili Tailor'lar da 100 daha ve {item:15802} kalıbı için ona 2 {item:14342} getirebilir.",
 
-	-- Step 15: Runecloth for Meilosh
+	-- Step 17: Runecloth for Meilosh
 	-- {quest:6031} Runecloth · {npc:11557} Meilosh
 	["{quest:6031} for {npc:11557}"] = "{npc:11557} için {quest:6031}",
 	-- {quest:6031} Runecloth
 	["{quest:6031} drops from the humanoids of the level 50-60 zones, the Deadwood and Winterfall furbolgs among them."] = "{quest:6031}, seviye 50-60 bölgelerinin humanoid'lerinden düşer, Deadwood ve Winterfall furbolg'ları da dahil.",
 
-	-- Step 16: Sacred Cloth
+	-- Step 18: Sacred Cloth
 	-- {npc:11557} Meilosh · {item:14342} Mooncloth · {item:15802} Mooncloth Boots
 	["Tailors with skill 290: {npc:11557} takes 2 {item:14342} once for 100 reputation and teaches the {item:15802}."] = "290 becerili Tailor'lar: {npc:11557} bir kez 100 itibar karşılığında 2 {item:14342} alır ve {item:15802} öğretir.",
 
-	-- Step 17: Friendly to Honored
+	-- Step 19: Friendly to Honored
 	["Friendly to Honored"] = "Friendly → Honored",
 	-- {npc:11557} Meilosh · {item:19445} Formula: Enchant Weapon - Agility · {item:19202} Pattern: Heavy Timbermaw Belt · {item:19044} Might of the Timbermaw · {skill:165} Leatherworking · {item:19047} Wisdom of the Timbermaw · {skill:197} Tailoring
 	["Friendly to Honored is 6,000: 1,200 kills. Keep all feathers and beads. Honored opens at {npc:11557}: {item:19445} (3 gold), and for 2 gold 20 silver each {item:19202} and {item:19044} ({skill:165}) and {item:19047} ({skill:197})."] = "Friendly'den Honored'a 6.000: 1.200 öldürme. Bütün tüyleri ve boncukları sakla. Honored, {npc:11557} yanında açılır: {item:19445} (3 altın) ve her biri 2 altın 20 gümüşe {item:19202} ve {item:19044} ({skill:165}) ve {item:19047} ({skill:197}).",
 
-	-- Step 18: Honored to Revered
+	-- Step 20: Honored to Revered
 	["Honored to Revered"] = "Honored → Revered",
 	["Honored to Revered is 12,000: 2,400 kills, the last ones that count. Kills stop at 11,999 of 12,000 Honored and never tip you into Revered: when they stop, hand in one set of 5 feathers or beads to cross over. Saving every feather and bead pays off now: about 4,800 kills from the start to the end of Honored leave you with about 2,100 feathers and beads, and that is all of Revered to Exalted. Turning them in early would cost you about 2,400 more kills."] = "Honored'dan Revered'a 12.000: 2.400 öldürme, sayılan son öldürmeler. Öldürmeler Honored'ın 12.000'inin 11.999'unda durur ve seni asla Revered'a geçirmez: durduklarında geçmek için 5 tüy ya da boncuktan bir takım teslim et. Her tüyü ve boncuğu saklamak şimdi karşılığını verir: başlangıçtan Honored'ın sonuna yaklaşık 4.800 öldürme sana yaklaşık 2.100 tüy ve boncuk bırakır, bu da Revered'dan Exalted'ın tamamı. Onları erken teslim etmek sana yaklaşık 2.400 öldürme daha kaybettirirdi.",
 	-- {item:19445} Formula: Enchant Weapon - Agility · {skill:333} Enchanting
@@ -109,7 +117,7 @@ return {
 	-- {quest:8469} Beads for Salfa
 	["{quest:8469}: or 5 beads"] = "{quest:8469}: ya da 5 boncuk",
 
-	-- Step 19: Revered to Exalted
+	-- Step 21: Revered to Exalted
 	["Revered to Exalted"] = "Revered → Exalted",
 	-- {npc:15395} Nafien · {npc:11554} Grazle · {npc:11556} Salfa · {npc:14342} Ragepaw · {npc:10199} Grizzle Snowpaw · {npc:10738} High Chief Winterfall · {npc:11557} Meilosh · {item:19204} Pattern: Heavy Timbermaw Boots · {item:19049} Timbermaw Brawlers · {skill:165} Leatherworking · {item:19050} Mantle of the Timbermaw · {skill:197} Tailoring
 	["Kills stopped at the end of Honored. Revered to Exalted is 21,000: 420 turn-ins, 2,100 feathers and beads. Hand in the feathers to {npc:15395} at the tunnel or {npc:11554} in the south, the beads to {npc:11556}, five at a time. The named furbolgs (Ror, Bloodmaw, {npc:14342}, {npc:10199}, {npc:10738}) still count. Revered opens at {npc:11557}, for 4 gold each: {item:19204} and {item:19049} ({skill:165}) and {item:19050} ({skill:197})."] = "Öldürmeler Honored'ın sonunda durdu. Revered'dan Exalted'a 21.000: 420 teslim, 2.100 tüy ve boncuk. Tüyleri tüneldeki {npc:15395} ya da güneydeki {npc:11554} yanına, boncukları {npc:11556} yanına beşer beşer teslim et. Adlı furbolg'lar (Ror, Bloodmaw, {npc:14342}, {npc:10199}, {npc:10738}) hâlâ sayılır. Revered, {npc:11557} yanında her biri 4 altına açılır: {item:19204} ve {item:19049} ({skill:165}) ve {item:19050} ({skill:197}).",
@@ -120,11 +128,11 @@ return {
 	-- {quest:8469} Beads for Salfa
 	["{quest:8469}: 5 beads, 50 reputation"] = "{quest:8469}: 5 boncuk, 50 itibar",
 
-	-- Step 20: The Root of All Evil
+	-- Step 22: The Root of All Evil
 	-- {npc:11555} Gorn One Eye · {npc:11557} Meilosh · {quest:8481} The Root of All Evil · {item:21144} Demon Summoning Torch · {npc:10738} High Chief Winterfall · {npc:15623} Xandivious · {item:21326} Defender of the Timbermaw
 	["At Exalted, {npc:11555}, in the tunnel by {npc:11557}, gives {quest:8481}: plant his {item:21144} in the mouth of {npc:10738}'s cave and defeat the demon {npc:15623} (level 62, elite: bring a group). The reward is {item:21326}, a trinket that calls a Timbermaw ally, and 200 reputation."] = "Exalted'da tünelde {npc:11557} yanındaki {npc:11555}, {quest:8481} görevini verir: {item:21144} eşyasını {npc:10738} mağarasının ağzına dik ve iblis {npc:15623} yaratığını yen (seviye 62, elit: bir grup getir). Ödül, bir Timbermaw müttefiki çağıran bir trinket olan {item:21326} ve 200 itibar.",
 
-	-- Step 21: Xandivious
+	-- Step 23: Xandivious
 	-- {area:2244} Winterfall Village · {npc:15623} Xandivious
 	["{area:2244}, the cave at the back. Clear the furbolgs around the mouth first, plant the torch, kill {npc:15623} and loot the Essence from his Demon Bag."] = "{area:2244}, arkadaki mağara. Önce ağzın çevresindeki furbolg'ları temizle, meşaleyi dik, {npc:15623} yaratığını öldür ve Demon Bag'inden Essence'ı loot'la.",
 	-- {npc:15623} Xandivious

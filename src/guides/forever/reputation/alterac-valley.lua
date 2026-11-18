@@ -166,4 +166,17 @@ return {
 	["Exalted gives the Legacy Point \"Master of Alterac Valley\" and the last two insignia, 400 reputation that no longer counts for anything but the insignia. {npc:13219} sells the {item:19029} (200g, level 60; its own guide), {item:19325} and {item:21563} (75g56s), {item:19323} (156g49s), {item:19321} (79g53s), {item:19324} (125g66s) and the 50g tomes and off-hands."] = "Exalted, \"Master of Alterac Valley\" Legacy Point'ini ve son iki nişanı verir; bu, artık nişan dışında hiçbir şeye sayılmayan 400 itibar. {npc:13219}, {item:19029} (200g, seviye 60; kendi rehberi var), {item:19325} ve {item:21563} (75g56s), {item:19323} (156g49s), {item:19321} (79g53s), {item:19324} (125g66s) ile 50g'lık kitapları ve yan el eşyalarını satıyor.",
 	-- {npc:13219} Jekyll Flandring
 	["{npc:13219}: Exalted rewards"] = "{npc:13219}: Exalted ödülleri",
+
+
+	-- Not in Polestar's deDE file yet (added by tools/kutup.js sync)
+	["Graveyard Assaulted"] = "Graveyard Assaulted",
+	["Banner Destroyed"] = "Banner Destroyed",
+	["Mine Captured"] = "Mine Captured",
+	["Ichman's Location Discovered"] = "Ichman's Location Discovered",
+	["Vipore's Location Discovered"] = "Vipore's Location Discovered",
+	["Slidore's Location Discovered"] = "Slidore's Location Discovered",
+	["Tower Captured"] = "Tower Captured",
+	["Guse's Location Discovered"] = "Guse's Location Discovered",
+	["Jeztor's Location Discovered"] = "Jeztor's Location Discovered",
+	["Mulverick's Location Discovered"] = "Mulverick's Location Discovered",
 }

@@ -121,7 +121,11 @@ return {
 	-- {npc:4456} Fiora Longears · {area:514} Foothold Citadel · {npc:4941} Caz Twosprocket
 	["{npc:4456} is in the north of town, Captain Vimes in {area:514}; {npc:4941} stands in the town."] = "{npc:4456} kasabanın kuzeyinde, Captain Vimes {area:514} kesiminde; {npc:4941} kasabada duruyor.",
 
-	-- Step 23: Boat to Menethil Harbor
-	-- {area:150} Menethil Harbor
-	["Boat to {area:150}"] = "Gemiyle {area:150} limanına",
+	-- Step 23: Ratchet
+	-- {zone:1413} Barrens · {area:392} Ratchet · {area:35} Booty Bay
+	["From Theramore follow the road north-west through the marsh into the {zone:1413} and up the coast to {area:392}: Stranglethorn starts at {area:35}, across the sea. {area:392}'s gryphon master stands above the dock."] = "Theramore'dan yolu kuzeybatıya izleyip bataklıktan {zone:1413} bölgesine geç, kıyı boyunca {area:392} kasabasına çık: Stranglethorn denizin karşısında, {area:35} limanında başlıyor. {area:392} kasabasının grifon ustası iskelenin yukarısında duruyor.",
+
+	-- Step 24: Boat to Booty Bay
+	-- {area:35} Booty Bay
+	["Boat to {area:35}"] = "Gemiyle {area:35} limanına",
 }

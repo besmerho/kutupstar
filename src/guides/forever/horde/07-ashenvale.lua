@@ -285,9 +285,10 @@ return {
 
 	-- Step 65: Dorn Plainstalker
 	-- {npc:2986} Dorn Plainstalker · {quest:1149} Test of Faith
-	["{npc:2986} stands on a mesa top east of the Galak camps. For the {quest:1149}, walk off the end of the planks beside him: you land safely."] = "{npc:2986}, Galak kamplarının doğusundaki bir platonun tepesinde duruyor. {quest:1149} için yanındaki tahtaların ucundan boşluğa yürü: güvenle yere inersin.",
+	["{npc:2986} stands on a mesa top east of the Galak camps. Taking his {quest:1149} puts you on a high cliff far to the west: follow the stone path to the end of the wooden planks and step off there, and you land safely. Jump from anywhere else and you fall to your death."] = "{npc:2986}, Galak kamplarının doğusundaki bir platonun tepesinde duruyor. {quest:1149} görevini alınca seni uzak batıda yüksek bir uçuruma bırakır: taş yolu tahtaların ucuna kadar izleyip oradan boşluğa adım at, güvenle yere inersin. Başka bir yerden atlarsan düşüp ölürsün.",
 	-- {npc:2986} Dorn Plainstalker
 	["{npc:2986}, below ground"] = "{npc:2986}, yer altında",
+	["the end of the planks"] = "tahtaların ucu",
 	-- {npc:2986} Dorn Plainstalker · {npc:4490} Grenka Bloodscreech
 	["{npc:2986}: {npc:4490}, in the harpy den west of the post"] = "{npc:2986}: karakolun batısındaki harpy ininde {npc:4490}",
 	-- {quest:1150} Test of Endurance · {npc:4490} Grenka Bloodscreech

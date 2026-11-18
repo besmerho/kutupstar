@@ -76,7 +76,6 @@ return {
 	-- Step 13: The mine, the centaurs and the plains
 	["The mine, the centaurs and the plains"] = "Maden, centaur'lar ve ovalar",
 	-- {quest:765} Supervisor Fizsprocket · {item:281031} Mulgore Expansion Plans · {quest:98424} Fizsprocket's Notes · {zone:1412} Mulgore
-	-- plural, as words: Swoops = {npc:2970} Swoop
 	["Back to the mine for the workers, supervisors and {quest:765} in the back: his {item:281031} start {quest:98424}, and its other pages lie inside the mine. The Galak centaurs and Herak camp east of the village. Swoops fly all over {zone:1412}; the Windfury harpies roost south-east of the village; the Palemane gnolls camp west of it."] = "İşçiler, ustabaşılar ve arkadaki {quest:765} için madene dön: onun {item:281031} eşyası {quest:98424} görevini başlatır, diğer sayfaları da madenin içinde. Galak centaur'ları ve Herak köyün doğusunda kamp kurmuş. Swoop'lar {zone:1412} bölgesinin her yanında uçuyor; Windfury harpy'leri köyün güneydoğusunda tüneyor; Palemane gnoll'ları da batısında kamp kurmuş.",
 	-- {item:281031} Mulgore Expansion Plans · {quest:765} Supervisor Fizsprocket
 	["{item:281031}, from {quest:765}"] = "{item:281031}, kaynak: {quest:765}",

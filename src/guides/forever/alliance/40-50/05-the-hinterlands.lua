@@ -12,8 +12,9 @@ return {
 	-- plural, as words: Vilebranch Soothsayers = {npc:4467} Vilebranch Soothsayer
 	["Vilebranch Soothsayers"] = "Vilebranch Soothsayer yaratıkları",
 	-- {area:355} Altar of Zul · {npc:7996} Qiaga the Keeper · {npc:8636} Morta'gya the Keeper
-	-- plural, as words: Vilebranch Soothsayers = {npc:4467} Vilebranch Soothsayer
-	["The Vilebranch Soothsayers (46-47) walk the ground around the foot of the {area:355}: their totems are for Maret Firetend. Careful: {npc:7996} and {npc:8636} (50, elites) stand on the altar's south-east side: take the Soothsayers on its west side, away from them, and stay off the altar."] = "Vilebranch Soothsayer yaratıkları (46-47) {area:355} eteğinin çevresinde dolaşıyor: totemleri Maret Firetend için. Dikkat: {npc:7996} ve {npc:8636} (50, elit) sunağın güneydoğu yakasında duruyor: Soothsayer'ları sunağın batı yakasında, onlardan uzakta al ve sunağın üstüne çıkma.",
+	-- plural, as words: Vilebranch Soothsayers = {npc:4467} Vilebranch Soothsayer · Vilebranch Totems = {item:279225} Vilebranch Totem
+	-- was: ["The Vilebranch Soothsayers (46-47) walk the ground around the foot of the {area:355}: their totems are for Maret Firetend. Careful: {npc:7996} and {npc:8636} (50, elites) stand on the altar's south-east side: take the Soothsayers on its west side, away from them, and stay off the altar."] = "Die Sterndeuter der Vilebranch (46-47) laufen rund um den Fuß des {area:355}: Ihre Totems sind für Maret Firetend. Vorsicht: {npc:7996} und {npc:8636} (50, Elite) stehen an der Südostseite des Altars: Nimm dir die Sterndeuter auf seiner Westseite vor, weg von ihnen, und bleib vom Altar runter."
+	["The Vilebranch Soothsayers (46-47) walk the ground around the foot of the {area:355}: their totems are for Maret Firetend, and more Vilebranch Totems lie on the ground among them: pick those up too. Careful: {npc:7996} and {npc:8636} (50, elites) stand on the altar's south-east side: take the Soothsayers on its west side, away from them, and stay off the altar."] = "Vilebranch Soothsayer yaratıkları (46-47) {area:355} sunağının eteğinde dolaşıyor: totemleri Maret Firetend için, aralarında yerde başka Vilebranch Totem eşyaları da var, onları da topla. Dikkat: {npc:7996} ve {npc:8636} (50, elit) sunağın güneydoğu yakasında duruyor. Soothsayer yaratıklarıyla sunağın batı yakasında, onlardan uzakta dövüş ve sunağın üstüne çıkma.",
 
 	-- Step 3: Skulk Rock
 	-- {area:351} Skulk Rock · {zone:1425} The Hinterlands
@@ -143,7 +144,7 @@ return {
 	-- {npc:1449} Witch Doctor Unbagwa · {area:1742} Spirit Den
 	["{npc:1449}, inside {area:1742}"] = "{npc:1449}, {area:1742} içinde",
 
-	-- Step 28: Booty Bay
+	-- Step 29: Booty Bay
 	["Ride back down to town."] = "Kasabaya geri in.",
 	-- {npc:2616} Privateer Groy
 	["for {npc:2616} in Theramore: keep it, the Un'Goro guide lands there"] = "Theramore'daki {npc:2616} için: sakla, Un'Goro rehberi oraya iner",
@@ -153,11 +154,22 @@ return {
 	["{npc:2498}, inside"] = "{npc:2498}, içeride",
 	["MacKinley's next task sends you after elite ogres: skip it."] = "MacKinley'nin sonraki görevi seni elit ogrelerin peşine gönderir: atla.",
 
-	-- Step 29: Monogrammed Sash
+	-- Step 30: Monogrammed Sash
 	-- {quest:8552} The Monogrammed Sash
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:8552} needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {quest:8552} 2 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
-	-- Step 33: Facing Negolash
+	-- Step 34: Negolash's bait
+	-- {npc:1494} Negolash
+	["{npc:1494}'s bait"] = "{npc:1494} için yem",
+	-- {npc:1494} Negolash · {quest:619} Enticing Negolash · {area:35} Booty Bay · {item:4595} Junglevine Wine · {npc:2832} Nixxrax Fillamug
+	-- plural, as words: Barbecued Buzzard Wings = {item:4457} Barbecued Buzzard Wing
+	["{npc:1494} comes only for his food: hand in {quest:619} at Captain Smotts' ruined lifeboat on the shore south-east of {area:35}, with 10 Barbecued Buzzard Wings and 5 {item:4595}, and he comes to the boat. {npc:2832}, the food and drink vendor at the inn, sells the wine. The wings are a cook's dish: if you don't cook, bring them from the Auction House."] = "{npc:1494} yalnızca yemeği için gelir: {area:35} limanının güneydoğusundaki kıyıda, Captain Smotts'un harap filikasında {quest:619} görevini 10 Barbecued Buzzard Wing ve 5 {item:4595} ile teslim et, o da tekneye gelir. Şarabı handaki yiyecek ve içecek satıcısı {npc:2832} satıyor. Kanatlar aşçılık yemeği: aşçılık yapmıyorsan müzayede evinden al.",
+	-- {item:4457} Barbecued Buzzard Wing
+	["{item:4457}: in your bags already if you cook"] = "{item:4457}: aşçılık yapıyorsan zaten çantanda",
+	-- {object:2289} Ruined Lifeboat · {npc:1494} Negolash
+	["{object:2289}: the food goes in, {npc:1494} comes"] = "{object:2289}: yemeği koyunca {npc:1494} gelir",
+
+	-- Step 35: Facing Negolash
 	-- {npc:1494} Negolash
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:1494} (level 52 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:1494} (seviye 52 elit) 2 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 }

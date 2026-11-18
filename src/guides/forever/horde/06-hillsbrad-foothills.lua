@@ -184,7 +184,7 @@ return {
 
 	-- Step 31: Orgrimmar
 	-- {zone:1454} Orgrimmar
-	["The middle of {zone:1454}"] = "{zone:1454} şehrinin ortası",
+	["{zone:1454} flight master"] = "{zone:1454} uçuş ustası",
 
 	-- Step 32: Orgrimmar
 	["Train before you fly on: the next guide flies from here."] = "Uçmadan önce eğitim al: sonraki rehber buradan uçar.",

@@ -122,6 +122,9 @@
 		"Armor",
 		"Quest log %d/%d: %s",
 		"Settings: %s",
-		"Log:"
+		"Log:",
+		"Journeyman %s",
+		"Expert %s",
+		"Artisan %s"
 	]
 }

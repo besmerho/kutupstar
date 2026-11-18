@@ -16,8 +16,8 @@ return {
 	-- {skill:186} Mining · {spell:2657} Smelt Copper
 	["Mine every Copper (1, orange), Poor Copper (1, orange) node you pass and circle the waypoints until {skill:186} 50. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 1-10. Expect about 60 nodes for these 49 points."] = "Geçtiğin her Copper (1, turuncu), Poor Copper (1, turuncu) damarını kaz ve {skill:186} 50 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:2657} (25'e kadar turuncu, 70'te gri) de puan verir. Bölge seviyesi 1-10. Bu 49 puan için yaklaşık 60 damar bekle.",
 	["Copper"] = "Copper",
-	["Poor Copper"] = "Poor Copper",
 	["Copper, Poor Copper"] = "Copper, Poor Copper",
+	["Poor Copper"] = "Poor Copper",
 
 	-- Step 3: Copper & Poor Copper: Dun Morogh (1-50)
 	-- {zone:1426} Dun Morogh
@@ -36,6 +36,7 @@ return {
 	-- Step 6: Copper & Poor Copper: Durotar (1-50)
 	-- {zone:1411} Durotar
 	["Copper & Poor Copper: {zone:1411} (1-50)"] = "Copper ve Poor Copper: {zone:1411} (1-50)",
+	["Poor Copper, Copper"] = "Poor Copper, Copper",
 
 	-- Step 7: Copper: Mulgore (1-50)
 	-- {zone:1412} Mulgore
@@ -46,7 +47,6 @@ return {
 	-- Step 8: Copper & Poor Copper: Tirisfal Glades (1-50)
 	-- {zone:1420} Tirisfal Glades
 	["Copper & Poor Copper: {zone:1420} (1-50)"] = "Copper ve Poor Copper: {zone:1420} (1-50)",
-	["Poor Copper, Copper"] = "Poor Copper, Copper",
 
 	-- Step 9: Journeyman Mining
 	-- {skill:186} Mining
@@ -99,6 +99,7 @@ return {
 	["Incendicite & Tin: {zone:1437} (65-125)"] = "Incendicite ve Tin: {zone:1437} (65-125)",
 	-- {skill:186} Mining · {spell:2657} Smelt Copper · {spell:3304} Smelt Tin · {spell:2659} Smelt Bronze · {item:2840} Copper Bar · {item:3576} Tin Bar · {spell:2658} Smelt Silver
 	["Mine every Copper (1, green), Incendicite (65, orange), Tin (65, orange), Silver (from 75, rare) node you pass and circle the waypoints until {skill:186} 125. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70), {spell:3304} (grey at 75), {spell:2659} (grey at 115) give points too. {spell:2659} takes a {item:2840} and a {item:3576} each: keep bars from the smelts before it. Zone level 20-30. Expect about 130 nodes for these 60 points. {spell:2658} (2s; orange to 100, grey at 125) is taught from 75: learn it if you pass a {skill:186} trainer, it is not worth a trip of its own."] = "Geçtiğin her Copper (1, yeşil), Incendicite (65, turuncu), Tin (65, turuncu), Silver (75'ten, nadir) damarını kaz ve {skill:186} 125 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:2657} (25'e kadar turuncu, 70'te gri), {spell:3304} (75'te gri), {spell:2659} (115'te gri) de puan verir. {spell:2659} her seferinde bir {item:2840} ve bir {item:3576} ister: ondan önceki eritmelerden külçe sakla. Bölge seviyesi 20-30. Bu 60 puan için yaklaşık 130 damar bekle. {spell:2658} (2s; 100'e kadar turuncu, 125'te gri) 75'ten öğretilir: bir {skill:186} eğitmeninin yanından geçersen öğren, ayrı bir yolculuğa değmez.",
+	["Copper, Tin"] = "Copper, Tin",
 	["Tin, Copper"] = "Tin, Copper",
 	["Incendicite, Tin"] = "Incendicite, Tin",
 
@@ -108,13 +109,6 @@ return {
 	-- {skill:186} Mining · {spell:2657} Smelt Copper · {spell:3304} Smelt Tin · {spell:2659} Smelt Bronze · {item:2840} Copper Bar · {item:3576} Tin Bar · {spell:2658} Smelt Silver
 	["Mine every Copper (1, green), Tin (65, orange), Silver (from 75, rare) node you pass and circle the waypoints until {skill:186} 125. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70), {spell:3304} (grey at 75), {spell:2659} (grey at 115) give points too. {spell:2659} takes a {item:2840} and a {item:3576} each: keep bars from the smelts before it. Zone level 18-30. Expect about 130 nodes for these 60 points. {spell:2658} (2s; orange to 100, grey at 125) is taught from 75: learn it if you pass a {skill:186} trainer, it is not worth a trip of its own."] = "Geçtiğin her Copper (1, yeşil), Tin (65, turuncu), Silver (75'ten, nadir) damarını kaz ve {skill:186} 125 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:2657} (25'e kadar turuncu, 70'te gri), {spell:3304} (75'te gri), {spell:2659} (115'te gri) de puan verir. {spell:2659} her seferinde bir {item:2840} ve bir {item:3576} ister: ondan önceki eritmelerden külçe sakla. Bölge seviyesi 18-30. Bu 60 puan için yaklaşık 130 damar bekle. {spell:2658} (2s; 100'e kadar turuncu, 125'te gri) 75'ten öğretilir: bir {skill:186} eğitmeninin yanından geçersen öğren, ayrı bir yolculuğa değmez.",
 	["Tin"] = "Tin",
-
-	-- Step 20: Copper & Tin: The Barrens (65-125)
-	-- {zone:1413} The Barrens
-	["Copper & Tin: {zone:1413} (65-125)"] = "Copper ve Tin: {zone:1413} (65-125)",
-	-- {skill:186} Mining · {spell:2657} Smelt Copper · {spell:3304} Smelt Tin · {spell:2659} Smelt Bronze · {item:2840} Copper Bar · {item:3576} Tin Bar · {spell:2658} Smelt Silver
-	["Mine every Copper (1, green), Tin (65, orange), Silver (from 75, rare) node you pass and circle the waypoints until {skill:186} 125. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70), {spell:3304} (grey at 75), {spell:2659} (grey at 115) give points too. {spell:2659} takes a {item:2840} and a {item:3576} each: keep bars from the smelts before it. Zone level 10-25. Expect about 280 nodes for these 60 points. {spell:2658} (2s; orange to 100, grey at 125) is taught from 75: learn it if you pass a {skill:186} trainer, it is not worth a trip of its own."] = "Geçtiğin her Copper (1, yeşil), Tin (65, turuncu), Silver (75'ten, nadir) damarını kaz ve {skill:186} 125 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:2657} (25'e kadar turuncu, 70'te gri), {spell:3304} (75'te gri), {spell:2659} (115'te gri) de puan verir. {spell:2659} her seferinde bir {item:2840} ve bir {item:3576} ister: ondan önceki eritmelerden külçe sakla. Bölge seviyesi 10-25. Bu 60 puan için yaklaşık 280 damar bekle. {spell:2658} (2s; 100'e kadar turuncu, 125'te gri) 75'ten öğretilir: bir {skill:186} eğitmeninin yanından geçersen öğren, ayrı bir yolculuğa değmez.",
-	["Copper, Tin"] = "Copper, Tin",
 
 	-- Step 21: Tin: Hillsbrad Foothills (65-125)
 	-- {zone:1424} Hillsbrad Foothills
@@ -134,7 +128,7 @@ return {
 	-- {skill:186} Mining · {spell:3307} Smelt Iron
 	["Mine every Tin (65, green), Lesser Bloodstone (75, green), Silver (75, green, rare), Iron (125, orange) node you pass and circle the waypoints until {skill:186} 155. Smelt at a forge when your bags fill: {spell:3307} (orange to 130, grey at 140) gives points too. Zone level 30-40. Expect about 50 nodes for these 30 points."] = "Geçtiğin her Tin (65, yeşil), Lesser Bloodstone (75, yeşil), Silver (75, yeşil, nadir), Iron (125, turuncu) damarını kaz ve {skill:186} 155 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:3307} (130'a kadar turuncu, 140'ta gri) de puan verir. Bölge seviyesi 30-40. Bu 30 puan için yaklaşık 50 damar bekle.",
 	["Iron, Tin"] = "Iron, Tin",
-	["Lesser Bloodstone"] = "Lesser Bloodstone",
+	["Lesser Bloodstone, Iron"] = "Lesser Bloodstone, Iron",
 
 	-- Step 24: Iron: Arathi Highlands (155-175)
 	-- {zone:1417} Arathi Highlands
@@ -147,6 +141,7 @@ return {
 	["Mithril: {zone:1418} (175-200)"] = "Mithril: {zone:1418} (175-200)",
 	-- {skill:186} Mining · {spell:3308} Smelt Gold
 	["Mine every Iron (125, green), Gold (155, orange), Mithril (175, orange) node you pass and circle the waypoints until {skill:186} 200. Smelt at a forge when your bags fill: {spell:3308} (orange to 170, grey at 185) gives points too. Zone level 35-45. Expect about 40 nodes for these 25 points."] = "Geçtiğin her Iron (125, yeşil), Gold (155, turuncu), Mithril (175, turuncu) damarını kaz ve {skill:186} 200 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:3308} (170'e kadar turuncu, 185'te gri) de puan verir. Bölge seviyesi 35-45. Bu 25 puan için yaklaşık 40 damar bekle.",
+	["Mithril, Iron"] = "Mithril, Iron",
 	["Iron, Mithril"] = "Iron, Mithril",
 
 	-- Step 26: Artisan Mining
