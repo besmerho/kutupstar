@@ -212,7 +212,7 @@ return {
 
 	-- Step 43: Blackrock Depths
 	-- {area:1584} Blackrock Depths · {zone:1428} Burning Steppes
-	["{area:1584} is a dungeon for a group of five from about level 48, the biggest in the mountain: its Anvilrage dwarves are this quest's, and you need not go further in than they are. Its portal is deep inside the mountain, down the chain walkways from the bridge.\nInside: the Anvilrage Guardsmen, Wardens and Footmen. Then back out of the portal and on through the mountain's southern exit to the {zone:1428}."] = "{area:1584}, yaklaşık 48. seviyeden itibaren beş kişilik bir grup için bir zindan, dağdaki en büyüğü: Anvilrage cüceleri bu görev için, onlardan daha içeri gitmen gerekmez. Portalı dağın derinliklerinde, köprüden aşağı inen zincir geçitlerin dibinde.\nİçeride: Anvilrage Guardsman, Warden ve Footman'ler. Sonra portaldan geri çık ve dağın güney çıkışından {zone:1428} bölgesine devam et.",
+	["{area:1584} is a dungeon for a group of five from about level 48, the biggest in the mountain: its Anvilrage dwarves are this quest's, and you need not go further in than they are. Its portal is deep inside the mountain, down the chain walkways from the bridge.\nInside: the Anvilrage Guardsmen, Wardens and Footmen. Then back out of the portal and on through the mountain's southern exit to the {zone:1428}."] = "{area:1584}, yaklaşık 48. seviyeden itibaren beş kişilik bir grup için bir zindan, dağdaki en büyüğü: Anvilrage cüceleri bu görev için, onlardan daha içeri gitmen gerekmez. Portalı dağın derinliklerinde, köprüden aşağı inen zincir geçitlerin dibinde.\nİçeride: Anvilrage Guardsman, Warden ve Footman'lar. Sonra portaldan geri çık ve dağın güney çıkışından {zone:1428} bölgesine devam et.",
 	-- {quest:4081} KILL ON SIGHT: Dark Iron Dwarves
 	["{quest:4081}: the Anvilrage dwarves, inside"] = "{quest:4081}: Anvilrage cüceleri, içeride",
 
@@ -226,7 +226,7 @@ return {
 
 	-- Step 46: Sha'ni Proudtusk
 	-- {quest:3822} Krom'Grul · {quest:3821} Dreadmaul Rock
-	["Only from level 53: her next errand is {quest:3822} (54), who walks the caves of {quest:3821} among ogres of 50-53."] = "Yalnızca 53. seviyeden itibaren: bir sonraki işi {quest:3822} (54). O da {quest:3821} mağaralarında 50-53 seviyesindeki ogre'lerin arasında yürüyor.",
+	["Only from level 53: her next errand is {quest:3822} (54), who walks the caves of {quest:3821} among ogres of 50-53."] = "Yalnızca 53. seviyeden itibaren: bir sonraki işi {quest:3822} (54). O da {quest:3821} mağaralarında 50-53 seviyesindeki ogre'ların arasında yürüyor.",
 
 	-- Step 47: Krom'Grul
 	-- {quest:3822} Krom'Grul · {quest:3821} Dreadmaul Rock

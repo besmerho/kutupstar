@@ -204,7 +204,7 @@ return {
 
 	-- Step 56: The Dunemaul Compound
 	-- {area:1938} Broken Pillar · {npc:12046} Gor'marok the Ravager · {npc:11758} Andi Lynn · {zone:1446} Tanaris
-	["South of the {area:1938} the Dunemaul ogres hold their compound, with {npc:12046} at its eastern end: {npc:11758}'s quest, carried from your first {zone:1446} visit."] = "{area:1938} güneyinde Dunemaul ogre'leri yerleşkelerini tutuyor, doğu ucunda da {npc:12046}: ilk {zone:1446} ziyaretinden taşıdığın {npc:11758} görevi.",
+	["South of the {area:1938} the Dunemaul ogres hold their compound, with {npc:12046} at its eastern end: {npc:11758}'s quest, carried from your first {zone:1446} visit."] = "{area:1938} güneyinde Dunemaul ogre'ları yerleşkelerini tutuyor, doğu ucunda da {npc:12046}: ilk {zone:1446} ziyaretinden taşıdığın {npc:11758} görevi.",
 
 	-- Step 57: Thistleshrub Valley
 	-- {quest:3362} Thistleshrub Valley · {npc:7876} Tran'rek · {zone:1446} Tanaris · {area:976} Gadgetzan · {npc:11758} Andi Lynn

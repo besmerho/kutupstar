@@ -199,7 +199,7 @@ return {
 	-- Step 32: Mosh'Ogg camp
 	["Mosh'Ogg camp"] = "Mosh'Ogg kampı",
 	-- {object:3202} Grom'gol (no name in this language: may be words)
-	["The Mosh'Ogg ogres camp in the hills just east of {object:3202}, on your way back. Kill 10 Brutes and 5 Witch Doctors (36-37); pull them one at a time. Careful: the 37s can be two over you: take them from the camp's western edge, never two together."] = "Mosh'Ogg ogre'leri dönüş yolunda, {object:3202} yerinin hemen doğusundaki tepelerde kamp kurmuş. 10 Brute ve 5 Witch Doctor (36-37) öldür, tek tek çek. Dikkat: 37'ler senden iki seviye yüksek olabilir: onları kampın batı kenarından al, asla ikisini birden değil.",
+	["The Mosh'Ogg ogres camp in the hills just east of {object:3202}, on your way back. Kill 10 Brutes and 5 Witch Doctors (36-37); pull them one at a time. Careful: the 37s can be two over you: take them from the camp's western edge, never two together."] = "Mosh'Ogg ogre'ları dönüş yolunda, {object:3202} yerinin hemen doğusundaki tepelerde kamp kurmuş. 10 Brute ve 5 Witch Doctor (36-37) öldür, tek tek çek. Dikkat: 37'ler senden iki seviye yüksek olabilir: onları kampın batı kenarından al, asla ikisini birden değil.",
 
 	-- Step 33: Grom'gol
 	-- {object:3202} Grom'gol (no name in this language: may be words)
@@ -215,7 +215,7 @@ return {
 	["Level 36"] = "Seviye 36",
 	-- {object:3202} Grom'gol (no name in this language: may be words)
 	-- plural, as words: Snapjaw Crocolisks = {npc:1152} Snapjaw Crocolisk
-	["Dustwallow's quests are 35-38. Still below 36 after {object:3202}'s hand-ins? The Snapjaw Crocolisks (35-36) line the river just east of the camp, below the Mosh'Ogg hills: kill them until level 36, then walk back to the zeppelin tower. Leave the Mosh'Ogg ogres (36-37) above them alone."] = "Dustwallow görevleri 35-38. {object:3202} teslimlerinden sonra hâlâ 36'nın altında mısın? Snapjaw Crocolisk yaratıkları (35-36) kampın hemen doğusundaki nehrin boyunca, Mosh'Ogg tepelerinin aşağısında diziliyor: 36. seviyeye kadar onları öldür, sonra zeplin kulesine yürü. Üstlerindeki Mosh'Ogg ogre'lerine (36-37) dokunma.",
+	["Dustwallow's quests are 35-38. Still below 36 after {object:3202}'s hand-ins? The Snapjaw Crocolisks (35-36) line the river just east of the camp, below the Mosh'Ogg hills: kill them until level 36, then walk back to the zeppelin tower. Leave the Mosh'Ogg ogres (36-37) above them alone."] = "Dustwallow görevleri 35-38. {object:3202} teslimlerinden sonra hâlâ 36'nın altında mısın? Snapjaw Crocolisk yaratıkları (35-36) kampın hemen doğusundaki nehrin boyunca, Mosh'Ogg tepelerinin aşağısında diziliyor: 36. seviyeye kadar onları öldür, sonra zeplin kulesine yürü. Üstlerindeki Mosh'Ogg ogre'larına (36-37) dokunma.",
 	-- plural, as words: Snapjaw Crocolisks = {npc:1152} Snapjaw Crocolisk
 	["Snapjaw Crocolisks"] = "Snapjaw Crocolisk yaratıkları",
 	-- {npc:1152} Snapjaw Crocolisk

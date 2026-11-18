@@ -319,7 +319,7 @@ return {
 	-- Step 86: Pathstrider
 	-- {area:2276} Quel'Lithien Lodge · {area:2275} Northpass Tower
 	-- plural, as words: Rangers = {npc:8564} Ranger · Pathstriders = {npc:8565} Pathstrider
-	["Ride north-east to {area:2276} by {area:2275}: the high elf Rangers, Pathstriders and Woodsmen guard it and the Registry lies inside. Careful: the Pathstriders are 57-58 but the Rangers reach 60: pull one at a time and take the Rangers last."] = "Kuzeydoğuya, {area:2275} yanındaki {area:2276} köşküne sür: high elf Ranger, Pathstrider ve Woodsman'leri onu koruyor, Registry de içeride yatıyor. Dikkat: Pathstrider'lar 57-58 ama Ranger'lar 60'a kadar çıkar: tek tek çek ve Ranger'ları sona bırak.",
+	["Ride north-east to {area:2276} by {area:2275}: the high elf Rangers, Pathstriders and Woodsmen guard it and the Registry lies inside. Careful: the Pathstriders are 57-58 but the Rangers reach 60: pull one at a time and take the Rangers last."] = "Kuzeydoğuya, {area:2275} yanındaki {area:2276} köşküne sür: high elf Ranger, Pathstrider ve Woodsman'ları onu koruyor, Registry de içeride yatıyor. Dikkat: Pathstrider'lar 57-58 ama Ranger'lar 60'a kadar çıkar: tek tek çek ve Ranger'ları sona bırak.",
 	-- {npc:8565} Pathstrider · {area:2276} Quel'Lithien Lodge
 	["{npc:8565} walks around {area:2276}: look inside the circle on the map"] = "{npc:8565}, {area:2276} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 

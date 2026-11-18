@@ -19,7 +19,7 @@ return {
 	-- {npc:7876} Tran'rek
 	["{npc:7876}, beside the wind rider master"] = "{npc:7876}, rüzgâr binicisi ustasının yanında",
 	-- {npc:11758} Andi Lynn · {area:1938} Broken Pillar
-	["{npc:11758}: keep it, the Dunemaul ogres and Gor'marok (49) wait for the {area:1938} at about 52, at the end of 40-50/06"] = "{npc:11758}: sakla, Dunemaul ogre'leri ve Gor'marok (49), 40-50/06 sonunda yaklaşık 52'de {area:1938} için bekler",
+	["{npc:11758}: keep it, the Dunemaul ogres and Gor'marok (49) wait for the {area:1938} at about 52, at the end of 40-50/06"] = "{npc:11758}: sakla, Dunemaul ogre'ları ve Gor'marok (49), 40-50/06 sonunda yaklaşık 52'de {area:1938} için bekler",
 
 	-- Step 4: Senior Surveyor Fizzledowser
 	["You missed this on the route's earlier visit here: it comes first now. It is quick and opens the quests after it."] = "Rotanın buraya önceki uğrayışında bunu kaçırdın: şimdi önce bu geliyor. Kısa sürer, sonraki görevleri de açar.",
@@ -66,7 +66,7 @@ return {
 	-- {quest:3161} Gahz'ridian
 	["{quest:3161} ornaments"] = "{quest:3161} süsleri",
 	-- {quest:3161} Gahz'ridian · {area:1938} Broken Pillar · {area:983} Dunemaul Compound · {npc:12046} Gor'marok the Ravager
-	["Dig up the {quest:3161} ornaments around the {area:1938} and north of the {area:983}. Leave the ogres for now: {npc:12046} is 49 and the Brutes 46-48; the {area:983} comes at the end of 40-50/06, at about 52."] = "{quest:3161} süslerini {area:1938} çevresinde ve {area:983} kuzeyinde kazıp çıkar. Ogre'leri şimdilik bırak: {npc:12046} 49, Brute'lar 46-48. {area:983}, 40-50/06 sonunda yaklaşık 52'de gelir.",
+	["Dig up the {quest:3161} ornaments around the {area:1938} and north of the {area:983}. Leave the ogres for now: {npc:12046} is 49 and the Brutes 46-48; the {area:983} comes at the end of 40-50/06, at about 52."] = "{quest:3161} süslerini {area:1938} çevresinde ve {area:983} kuzeyinde kazıp çıkar. Ogre'ları şimdilik bırak: {npc:12046} 49, Brute'lar 46-48. {area:983}, 40-50/06 sonunda yaklaşık 52'de gelir.",
 
 	-- Step 15: The Noxious Lair
 	-- {npc:4196} Silithid Swarm

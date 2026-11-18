@@ -236,7 +236,7 @@ return {
 	-- {npc:2437} Keeper Bel'varil · {quest:556} Stone Tokens
 	["{npc:2437}, inside: {quest:556}, with the crater on the 38-39 visit"] = "{npc:2437}, içeride: {quest:556}, 38-39 ziyaretinde kraterle",
 	-- {npc:2770} Tallow
-	["{npc:2770}, outside the inn: the Boulderfist ogres (32-34) on the 38-39 Arathi visit"] = "{npc:2770}, hanın dışında: 38-39 Arathi ziyaretindeki Boulderfist ogre'leri (32-34)",
+	["{npc:2770}, outside the inn: the Boulderfist ogres (32-34) on the 38-39 Arathi visit"] = "{npc:2770}, hanın dışında: 38-39 Arathi ziyaretindeki Boulderfist ogre'ları (32-34)",
 	-- {area:272} Tarren Mill · {area:321} Hammerfall
 	["Keep these in your log: their camps are two to four levels over you now, and the 38-39 guide works them on its first {area:272} loop and in {area:321}."] = "Bunları günlüğünde tut: kampları şu an senden iki-dört seviye yüksek, 38-39 rehberi onları ilk {area:272} turunda ve {area:321} yöresinde yapar.",
 

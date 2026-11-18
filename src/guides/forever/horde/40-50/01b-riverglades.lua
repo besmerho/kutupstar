@@ -190,7 +190,7 @@ return {
 
 	-- Step 44: Clubtoe
 	-- {area:16723} Sunnyglade · {npc:260931} Clubtoe · {npc:256710} Tran'gul
-	["West to {area:16723} again: {npc:260931}, a Twilight miner who wants out, waits at the town's eastern edge. Talk him round, then hand {npc:256710}'s quest in; one of the missing ogres stands a few steps west."] = "Yine batıya, {area:16723} köyüne git: kaçmak isteyen bir Twilight madencisi olan {npc:260931} kasabanın doğu kenarında bekliyor. Onu ikna et, sonra {npc:256710} adlı NPC'nin görevini teslim et. Kayıp ogre'lerden biri birkaç adım batıda duruyor.",
+	["West to {area:16723} again: {npc:260931}, a Twilight miner who wants out, waits at the town's eastern edge. Talk him round, then hand {npc:256710}'s quest in; one of the missing ogres stands a few steps west."] = "Yine batıya, {area:16723} köyüne git: kaçmak isteyen bir Twilight madencisi olan {npc:260931} kasabanın doğu kenarında bekliyor. Onu ikna et, sonra {npc:256710} adlı NPC'nin görevini teslim et. Kayıp ogre'lardan biri birkaç adım batıda duruyor.",
 	-- {npc:260931} Clubtoe
 	["talk {npc:260931} round"] = "{npc:260931} adlı NPC'yi ikna et",
 	-- {npc:261208} Twilight Brute
@@ -213,7 +213,7 @@ return {
 
 	-- Step 49: Tran'gul
 	-- {area:16743} Rog'mar · {npc:260931} Clubtoe · {npc:256710} Tran'gul · {npc:255829} Clugfist
-	["East back to {area:16743}: {npc:260931}'s word goes to {npc:256710}, and {npc:256710}'s to {npc:255829}, the ogres' chieftain."] = "Doğuya, {area:16743} kalesine dön: {npc:260931} adlı NPC'nin haberi {npc:256710} için, {npc:256710} adlı NPC'ninki de ogre'lerin şefi {npc:255829} için.",
+	["East back to {area:16743}: {npc:260931}'s word goes to {npc:256710}, and {npc:256710}'s to {npc:255829}, the ogres' chieftain."] = "Doğuya, {area:16743} kalesine dön: {npc:260931} adlı NPC'nin haberi {npc:256710} için, {npc:256710} adlı NPC'ninki de ogre'ların şefi {npc:255829} için.",
 	-- {quest:95420} Land of Giants · {npc:255829} Clugfist · {area:16726} Bolder'ok
 	["{quest:95420}: for {npc:255829} in {area:16726}"] = "{quest:95420}: {area:16726} kasabasındaki {npc:255829} için",
 
@@ -231,13 +231,13 @@ return {
 
 	-- Step 52: Bolder'ok
 	-- {area:16726} Bolder'ok · {npc:255829} Clugfist
-	["North-west to {area:16726}, the ogres' town. {npc:255829}, its chieftain, sits on the hill. The ogres are friendly while you leave them alone."] = "Kuzeybatıya, ogre kasabasına, {area:16726} içine git. Şefi {npc:255829} tepede oturuyor. Ogre'ler sen onlara dokunmadıkça dosttur.",
+	["North-west to {area:16726}, the ogres' town. {npc:255829}, its chieftain, sits on the hill. The ogres are friendly while you leave them alone."] = "Kuzeybatıya, ogre kasabasına, {area:16726} içine git. Şefi {npc:255829} tepede oturuyor. Ogre'lar sen onlara dokunmadıkça dosttur.",
 
 	-- Step 53: The Twilight ogres' camp
-	["The Twilight ogres' camp"] = "Twilight ogre'lerinin kampı",
+	["The Twilight ogres' camp"] = "Twilight ogre'larının kampı",
 	-- {npc:256728} Na'zok · {npc:260973} Klunk · {item:269257} Skullbasher · {npc:260211} Scoutmaster Vargas
 	-- plural, as words: Twilight Maulers = {npc:260968} Twilight Mauler · Farholde Ambushers = {npc:260023} Farholde Ambusher
-	["The Twilight Maulers and Firecallers camp on the ridge east of {npc:256728}. {npc:260973}, who carries the {item:269257}, stands among them. Just south of the ogres, {npc:260211} (an Alliance elite, level 42) and his Farholde Ambushers hold the scouts' camp: keep north of it unless you came with a group for him."] = "Twilight Mauler ve Firecaller'lar {npc:256728} kampının doğusundaki sırtta kamp kurmuş. {item:269257} eşyasını taşıyan {npc:260973} aralarında duruyor. Ogre'lerin hemen güneyinde {npc:260211} (bir Alliance eliti, 42. seviye) ve Farholde Ambusher yaratıkları izci kampını tutuyor: onun için bir grupla gelmediysen kampın kuzeyinde kal.",
+	["The Twilight Maulers and Firecallers camp on the ridge east of {npc:256728}. {npc:260973}, who carries the {item:269257}, stands among them. Just south of the ogres, {npc:260211} (an Alliance elite, level 42) and his Farholde Ambushers hold the scouts' camp: keep north of it unless you came with a group for him."] = "Twilight Mauler ve Firecaller'lar {npc:256728} kampının doğusundaki sırtta kamp kurmuş. {item:269257} eşyasını taşıyan {npc:260973} aralarında duruyor. Ogre'ların hemen güneyinde {npc:260211} (bir Alliance eliti, 42. seviye) ve Farholde Ambusher yaratıkları izci kampını tutuyor: onun için bir grupla gelmediysen kampın kuzeyinde kal.",
 	-- {item:269257} Skullbasher · {npc:260973} Klunk
 	["{item:269257}, from {npc:260973}"] = "{item:269257}, kaynak: {npc:260973}",
 

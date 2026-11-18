@@ -72,7 +72,7 @@ return {
 
 	-- Step 12: Bael Modan
 	-- {area:359} Bael Modan · {npc:3392} Prospector Khazgorm
-	["South of Gann, the Bael'dun dwarves dig at {area:359}. Excavators and Foremen work the pit; {npc:3392} (26) carries the journal: pull him alone.\nCareful: Excavators (level 21-22) and Foremen (level 22-23) run off for help once they fall to 15% health, so more dwarves can join the fight."] = "Gann'in güneyinde Bael'dun cüceleri {area:359} içinde kazı yapıyor. Excavator ve Foreman'ler çukurda çalışıyor. Günlüğü {npc:3392} (26) taşıyor: onu tek başına çek.\nDikkat: Excavator (seviye 21-22) ve Foreman (seviye 22-23) yaratıkları canları %15'e düşünce yardım için kaçar, bu yüzden dövüşe daha fazla cüce katılabilir.",
+	["South of Gann, the Bael'dun dwarves dig at {area:359}. Excavators and Foremen work the pit; {npc:3392} (26) carries the journal: pull him alone.\nCareful: Excavators (level 21-22) and Foremen (level 22-23) run off for help once they fall to 15% health, so more dwarves can join the fight."] = "Gann'in güneyinde Bael'dun cüceleri {area:359} içinde kazı yapıyor. Excavator ve Foreman'lar çukurda çalışıyor. Günlüğü {npc:3392} (26) taşıyor: onu tek başına çek.\nDikkat: Excavator (seviye 21-22) ve Foreman (seviye 22-23) yaratıkları canları %15'e düşünce yardım için kaçar, bu yüzden dövüşe daha fazla cüce katılabilir.",
 	-- {npc:3375} Bael'dun Foreman · {area:359} Bael Modan
 	["{npc:3375} walks around {area:359}: look inside the circle on the map"] = "{npc:3375}, {area:359} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 

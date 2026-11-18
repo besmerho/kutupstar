@@ -232,7 +232,7 @@ return {
 
 	-- Step 53: Gordunni Outpost
 	-- {npc:222233} Ohk'zi
-	["North of the gnolls the ogres hold a hilltop outpost; pull the ogre-magi to you. The cobalt is in the dirt mounds around the outpost, and the scroll lies on the ground inside it.\nCareful: {npc:222233} (level 43, elite) stands in the outpost: pull the ogres out to you, away from him."] = "Gnoll'ların kuzeyinde ogre'ler bir tepedeki karakolu tutuyor, ogre-magi'leri kendine çek. Kobalt karakolun çevresindeki toprak tümseklerinde, parşömen de içeride yerde yatıyor.\nDikkat: {npc:222233} (43. seviye, elit) karakolda duruyor: ogre'leri ondan uzağa, kendine çek.",
+	["North of the gnolls the ogres hold a hilltop outpost; pull the ogre-magi to you. The cobalt is in the dirt mounds around the outpost, and the scroll lies on the ground inside it.\nCareful: {npc:222233} (level 43, elite) stands in the outpost: pull the ogres out to you, away from him."] = "Gnoll'ların kuzeyinde ogre'lar bir tepedeki karakolu tutuyor, ogre-magi'leri kendine çek. Kobalt karakolun çevresindeki toprak tümseklerinde, parşömen de içeride yerde yatıyor.\nDikkat: {npc:222233} (43. seviye, elit) karakolda duruyor: ogre'ları ondan uzağa, kendine çek.",
 
 	-- Step 54: Woodpaw north camp
 	["Woodpaw north camp"] = "Woodpaw kuzey kampı",
