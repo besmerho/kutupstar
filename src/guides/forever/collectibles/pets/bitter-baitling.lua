@@ -10,7 +10,7 @@ return {
 	-- Step 2: Schools of Tastyfish
 	["Schools of Tastyfish"] = "Tastyfish sürüleri",
 	-- {item:19807} Speckled Tastyfish · {area:35} Booty Bay
-	["While the contest runs, schools of {item:19807} appear along the Stranglethorn coast, none inside {area:35}. Fish 40 {item:19807} from them; each school lasts only a few casts, so ride on to the next as soon as one is gone. The arrow takes you up the west coast north of {area:35}; more schools lie further north and just south of {area:35}."] = "Yarışma sürerken Stranglethorn kıyısı boyunca {item:19807} sürüleri belirir, {area:35} içinde hiç yok. Onlardan 40 {item:19807} tut; her sürü yalnızca birkaç atış sürer, bu yüzden biri biter bitmez sonrakine sür. Ok seni {area:35} kuzeyindeki batı kıyısından yukarı götürür; daha fazla sürü daha kuzeyde ve {area:35} hemen güneyinde.",
+	["While the contest runs, schools of {item:19807} appear along the Stranglethorn coast, none inside {area:35}. Fish 40 {item:19807} from them; each school lasts only a few casts, so ride on to the next as soon as one is gone. The arrow takes you up the west coast north of {area:35}; more schools lie further north and just south of {area:35}."] = "Yarışma sürerken Stranglethorn kıyısı boyunca {item:19807} sürüleri belirir, {area:35} içinde hiç yok. Onlardan 40 {item:19807} tut. Her sürü yalnızca birkaç atış sürer, bu yüzden biri biter bitmez sonrakine sür. Ok seni {area:35} kuzeyindeki batı kıyısından yukarı götürür. Daha fazla sürü daha kuzeyde ve {area:35} hemen güneyinde.",
 
 	-- Step 3: Back to Riggle Bassbait
 	-- {npc:15077} Riggle Bassbait

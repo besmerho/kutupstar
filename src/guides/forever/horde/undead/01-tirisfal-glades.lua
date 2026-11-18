@@ -9,7 +9,7 @@ return {
 
 	-- Step 2: Shadow Priest Sarvis
 	-- {area:154} Deathknell
-	["Follow the path north into {area:154}; Sarvis stands in front of the church."] = "Patikayı kuzeye, {area:154} köyüne doğru izle; Sarvis kilisenin önünde duruyor.",
+	["Follow the path north into {area:154}; Sarvis stands in front of the church."] = "Patikayı kuzeye, {area:154} köyüne doğru izle, Sarvis kilisenin önünde duruyor.",
 	["Inside"] = "İçeride",
 
 	-- Step 3: Mindless Zombies
@@ -21,9 +21,9 @@ return {
 	-- {npc:1569} Shadow Priest Sarvis · {npc:244808} Aramis Hammerhand
 	["{npc:1569}: the scroll for {npc:244808}"] = "{npc:1569}: {npc:244808} için tomar",
 	-- {npc:1661} Novice Elreth
-	["{npc:1661}, beside the church; inside"] = "{npc:1661}, kilisenin yanında; içeride",
+	["{npc:1661}, beside the church; inside"] = "{npc:1661}, kilisenin yanında, içeride",
 	-- {npc:2119} Dannal Stern
-	["{npc:2119}, the warrior trainer; inside"] = "{npc:2119}, Warrior eğitmeni; içeride",
+	["{npc:2119}, the warrior trainer; inside"] = "{npc:2119}, Warrior eğitmeni, içeride",
 	-- {npc:2122} David Trias
 	["{npc:2122}, the rogue trainer"] = "{npc:2122}, Rogue eğitmeni",
 	-- {npc:2123} Dark Cleric Duesten
@@ -44,7 +44,7 @@ return {
 	["{area:154}: kill these as you meet them"] = "{area:154}: bunları karşılaştıkça öldür",
 	-- {area:154} Deathknell · {npc:1661} Novice Elreth
 	-- plural, as words: Rattlecage Skeletons = {npc:1890} Rattlecage Skeleton · Young Scavengers = {npc:1508} Young Scavenger · Duskbats = {npc:1512} Duskbat · Ragged Scavengers = {npc:1509} Ragged Scavenger · Mangy Duskbats = {npc:1513} Mangy Duskbat
-	["Rattlecage Skeletons wander the ruined houses in the north half of {area:154}. Young Scavengers and Duskbats roam all around the village; the Ragged Scavengers and Mangy Duskbats are on its east side. {npc:1661} wants their paws and wings: kill them as you meet them while you clear the skeletons."] = "Rattlecage Skeleton yaratıkları {area:154} köyünün kuzey yarısındaki yıkık evlerde dolaşıyor. Young Scavenger ve Duskbat yaratıkları köyün her yanında geziniyor; Ragged Scavenger ve Mangy Duskbat yaratıkları doğu yakasında. {npc:1661} onların pençelerini ve kanatlarını istiyor: iskeletleri temizlerken karşılaştıkça onları öldür.",
+	["Rattlecage Skeletons wander the ruined houses in the north half of {area:154}. Young Scavengers and Duskbats roam all around the village; the Ragged Scavengers and Mangy Duskbats are on its east side. {npc:1661} wants their paws and wings: kill them as you meet them while you clear the skeletons."] = "Rattlecage Skeleton yaratıkları {area:154} köyünün kuzey yarısındaki yıkık evlerde dolaşıyor. Young Scavenger ve Duskbat yaratıkları köyün her yanında geziniyor. Ragged Scavenger ve Mangy Duskbat yaratıkları doğu yakasında. {npc:1661} onların pençelerini ve kanatlarını istiyor: iskeletleri temizlerken karşılaştıkça onları öldür.",
 
 	-- Step 7: Back to the church
 	["Back to the church"] = "Kiliseye dön",
@@ -78,9 +78,9 @@ return {
 	-- Step 11: Night Web's Hollow
 	-- {npc:271961} Webbed Forsaken
 	-- plural, as words: Young Night Web Spiders = {npc:1504} Young Night Web Spider · Night Web Spiders = {npc:1505} Night Web Spider
-	["Head west to the cave. The Young Night Web Spiders sit outside; the Night Web Spiders and the cocooned {npc:271961} are inside.\nCareful: A low-level character can die quickly if it pulls several Night Web Spiders in the cave at the same time."] = "Batıya, mağaraya git. Young Night Web Spider yaratıkları dışarıda; Night Web Spider yaratıkları ve kozaya sarılmış {npc:271961} içeride.\nDikkat: Düşük seviyeli bir karakter mağarada aynı anda birkaç Night Web Spider çekerse çabucak ölebilir.",
+	["Head west to the cave. The Young Night Web Spiders sit outside; the Night Web Spiders and the cocooned {npc:271961} are inside.\nCareful: A low-level character can die quickly if it pulls several Night Web Spiders in the cave at the same time."] = "Batıya, mağaraya git. Young Night Web Spider yaratıkları dışarıda. Night Web Spider yaratıkları ve kozaya sarılmış {npc:271961} içeride.\nDikkat: Düşük seviyeli bir karakter mağarada aynı anda birkaç Night Web Spider çekerse çabucak ölebilir.",
 	["Below ground"] = "Yer altında",
-	["attack the cocoons inside the cave to free them; below ground"] = "Onları kurtarmak için mağaranın içindeki kozalara saldır; yer altında",
+	["attack the cocoons inside the cave to free them; below ground"] = "Onları kurtarmak için mağaranın içindeki kozalara saldır, yer altında",
 	-- {npc:271961} Webbed Forsaken
 	["Free the {npc:271961}"] = "Kurtar: {npc:271961}",
 
@@ -98,7 +98,7 @@ return {
 
 	-- Step 16: Meven Korgal
 	-- {npc:1667} Meven Korgal
-	["{npc:1667} stands at the south end of the Scarlet farm.\nCareful: He is flanked by two Scarlet guards, one a convert and the other an initiate, who may join the fight."] = "{npc:1667}, Scarlet çiftliğinin güney ucunda duruyor.\nDikkat: İki yanında, biri convert biri initiate olan iki Scarlet muhafızı var; dövüşe katılabilirler.",
+	["{npc:1667} stands at the south end of the Scarlet farm.\nCareful: He is flanked by two Scarlet guards, one a convert and the other an initiate, who may join the fight."] = "{npc:1667}, Scarlet çiftliğinin güney ucunda duruyor.\nDikkat: İki yanında, biri convert biri initiate olan iki Scarlet muhafızı var, dövüşe katılabilirler.",
 
 	-- Step 18: Dark Cleric Duesten
 	-- {npc:2123} Dark Cleric Duesten · {npc:2129} Dark Cleric Beryl · {area:159} Brill · {spell:613} Lesser Heal
@@ -108,7 +108,7 @@ return {
 
 	-- Step 19: Solliden Farmstead
 	-- {area:154} Deathknell · {npc:6784} Calvin Montague · {area:156} Solliden Farmstead · {npc:1519} Deathguard Simmer
-	["Leave {area:154} by the road north-east. {npc:6784} stands by the farmhouse at the {area:156}; {npc:1519} stands by the road just past it."] = "{area:154} köyünden kuzeydoğu yoluyla çık. {npc:6784}, {area:156} çiftliğinde, çiftlik evinin yanında duruyor; {npc:1519} hemen ötesinde, yolun kenarında.",
+	["Leave {area:154} by the road north-east. {npc:6784} stands by the farmhouse at the {area:156}; {npc:1519} stands by the road just past it."] = "{area:154} köyünden kuzeydoğu yoluyla çık. {npc:6784}, {area:156} çiftliğinde, çiftlik evinin yanında duruyor. {npc:1519} hemen ötesinde, yolun kenarında.",
 
 	-- Step 20: Level 6
 	["Level 6"] = "Seviye 6",
@@ -146,7 +146,7 @@ return {
 
 	-- Step 26: Eleanor Shackleton
 	-- {area:159} Brill · {zone:1458} Undercity
-	["Eleanor camps just south-west of town. With a profession learned, she also offers its Camping 101, which its trainer takes: in {area:159}, at Linnea's camp, or in the {zone:1458} in the next guide."] = "Eleanor kasabanın hemen güneybatısında kamp kurmuş. Bir meslek öğrendiysen o mesleğin Camping 101 görevini de verir; görevi mesleğin eğitmeni teslim alır: {area:159} kasabasında, Linnea'nın kampında ya da sonraki rehberde {zone:1458} şehrinde.",
+	["Eleanor camps just south-west of town. With a profession learned, she also offers its Camping 101, which its trainer takes: in {area:159}, at Linnea's camp, or in the {zone:1458} in the next guide."] = "Eleanor kasabanın hemen güneybatısında kamp kurmuş. Bir meslek öğrendiysen o mesleğin Camping 101 görevini de verir. Görevi mesleğin eğitmeni teslim alır: {area:159} kasabasında, Linnea'nın kampında ya da sonraki rehberde {zone:1458} şehrinde.",
 	-- {spell:1229451} Boosted Rest
 	["/sit by her campfire until you get {spell:1229451}"] = "{spell:1229451} gelene kadar onun kamp ateşinin yanında otur (/sit)",
 
@@ -226,9 +226,9 @@ return {
 
 	-- Step 40: Carolai Anise
 	-- {npc:2132} Carolai Anise · {area:159} Brill
-	["From level 7 {npc:2132}, beside Johaan in the apothecary's house, offers her elixir quest; below 7 it waits for the next {area:159} visit."] = "Seviye 7'den itibaren eczacı evinde, Johaan'ın yanındaki {npc:2132} iksir görevini verir; 7'nin altındaysan görev sonraki {area:159} ziyaretini bekler.",
+	["From level 7 {npc:2132}, beside Johaan in the apothecary's house, offers her elixir quest; below 7 it waits for the next {area:159} visit."] = "Seviye 7'den itibaren eczacı evinde, Johaan'ın yanındaki {npc:2132} iksir görevini verir. 7'nin altındaysan görev sonraki {area:159} ziyaretini bekler.",
 	-- {npc:2132} Carolai Anise
-	["{npc:2132}, beside Johaan; inside"] = "{npc:2132}, Johaan'ın yanında; içeride",
+	["{npc:2132}, beside Johaan; inside"] = "{npc:2132}, Johaan'ın yanında, içeride",
 
 	-- Step 41: Discipline
 	-- {item:286176} Executor's Motivator
@@ -236,7 +236,7 @@ return {
 
 	-- Step 43: Gallows' End Tavern
 	-- {npc:5688} Innkeeper Renee · {npc:265944} William Pickman · {npc:1931} Captured Scarlet Zealot · {npc:2128} Cain Firesong · {npc:2129} Dark Cleric Beryl · {npc:2127} Rupert Boch · {npc:2130} Marion Call
-	["Everything here is inside the inn, through its door on the south side: {npc:5688} at the bar, {npc:265944} at the north end of the ground floor, the {npc:1931} in the cellar under that end, and {npc:2128} (mages), {npc:2129} (priests), {npc:2127} (warlocks) and {npc:2130} (rogues) upstairs: take the stairs inside, the arrow cannot tell the floors apart."] = "Buradaki her şey hanın içinde; kapısı güney yakasında: {npc:5688} barda, {npc:265944} zemin katın kuzey ucunda, {npc:1931} o ucun altındaki mahzende; {npc:2128} (Mage'ler), {npc:2129} (Priest'ler), {npc:2127} (Warlock'lar) ve {npc:2130} (Rogue'lar) üst katta: içerideki merdivenden çık, ok katları birbirinden ayıramaz.",
+	["Everything here is inside the inn, through its door on the south side: {npc:5688} at the bar, {npc:265944} at the north end of the ground floor, the {npc:1931} in the cellar under that end, and {npc:2128} (mages), {npc:2129} (priests), {npc:2127} (warlocks) and {npc:2130} (rogues) upstairs: take the stairs inside, the arrow cannot tell the floors apart."] = "Buradaki her şey hanın içinde. Kapısı güney yakasında: {npc:5688} barda, {npc:265944} zemin katın kuzey ucunda, {npc:1931} o ucun altındaki mahzende. {npc:2128} (Mage'ler), {npc:2129} (Priest'ler), {npc:2127} (Warlock'lar) ve {npc:2130} (Rogue'lar) üst katta: içerideki merdivenden çık, ok katları birbirinden ayıramaz.",
 	-- {npc:265944} William Pickman
 	["{npc:265944}, at the inn's north end: Camping 101 asks you to learn it"] = "{npc:265944}, hanın kuzey ucunda: Camping 101 bunu öğrenmeni ister",
 
@@ -251,7 +251,7 @@ return {
 	-- {npc:1931} Captured Scarlet Zealot
 	["The {npc:1931}, in the inn's cellar"] = "{npc:1931}, hanın mahzeninde",
 	-- {area:159} Brill · {npc:2131} Austil de Mon · {npc:246152} Shari Stilwell
-	["The {area:159} trainers are in the inn ({npc:2131} downstairs, the rest upstairs); {npc:246152}, the Paladin trainer, by the square"] = "{area:159} kasabasının eğitmenleri handa ({npc:2131} alt katta, diğerleri üst katta); Paladin eğitmeni {npc:246152} meydanın yanında",
+	["The {area:159} trainers are in the inn ({npc:2131} downstairs, the rest upstairs); {npc:246152}, the Paladin trainer, by the square"] = "{area:159} kasabasının eğitmenleri handa ({npc:2131} alt katta, diğerleri üst katta). Paladin eğitmeni {npc:246152} meydanın yanında",
 	-- {npc:2129} Dark Cleric Beryl
 	["{npc:2129}, upstairs"] = "{npc:2129}, üst katta",
 
@@ -263,7 +263,7 @@ return {
 	-- {npc:1500} Coleman Farthing · {npc:1521} Gretchen Dedmar
 	["{npc:1500} and {npc:1521}"] = "{npc:1500} ve {npc:1521}",
 	-- {npc:1500} Coleman Farthing · {npc:1521} Gretchen Dedmar · {area:159} Brill
-	["Still in the inn: from level 7 {npc:1500} on the ground floor and {npc:1521} upstairs offer their quests; below 7 they wait for the next {area:159} visit."] = "Hâlâ handa: seviye 7'den itibaren zemin kattaki {npc:1500} ve üst kattaki {npc:1521} görevlerini verir; 7'nin altındaysan sonraki {area:159} ziyaretini beklerler.",
+	["Still in the inn: from level 7 {npc:1500} on the ground floor and {npc:1521} upstairs offer their quests; below 7 they wait for the next {area:159} visit."] = "Hâlâ handa: seviye 7'den itibaren zemin kattaki {npc:1500} ve üst kattaki {npc:1521} görevlerini verir. 7'nin altındaysan sonraki {area:159} ziyaretini beklerler.",
 	-- {npc:1500} Coleman Farthing
 	["{npc:1500}, in the inn"] = "{npc:1500}, handa",
 	-- {npc:1521} Gretchen Dedmar
@@ -292,7 +292,7 @@ return {
 	["{area:166}: kill these as you meet them"] = "{area:166}: bunları karşılaştıkça öldür",
 	-- {npc:1525} Rotting Dead · {area:159} Brill · {npc:10666} Gordo · {npc:3549} Shelene Rhobart
 	-- plural, as words: Ravaged Corpses = {npc:1526} Ravaged Corpse · Decrepit Darkhounds = {npc:1547} Decrepit Darkhound
-	["{npc:1525} and Ravaged Corpses shamble through the fields just west of {area:159}; Decrepit Darkhounds roam there and on west along the road toward {npc:10666}. Johaan wants their blood, {npc:3549} their hides."] = "{npc:1525} ve Ravaged Corpse yaratıkları {area:159} kasabasının hemen batısındaki tarlalarda sendeleyerek dolaşıyor; Decrepit Darkhound yaratıkları orada ve yol boyunca batıya, {npc:10666} yönüne doğru geziniyor. Johaan onların kanını, {npc:3549} derilerini istiyor.",
+	["{npc:1525} and Ravaged Corpses shamble through the fields just west of {area:159}; Decrepit Darkhounds roam there and on west along the road toward {npc:10666}. Johaan wants their blood, {npc:3549} their hides."] = "{npc:1525} ve Ravaged Corpse yaratıkları {area:159} kasabasının hemen batısındaki tarlalarda sendeleyerek dolaşıyor. Decrepit Darkhound yaratıkları orada ve yol boyunca batıya, {npc:10666} yönüne doğru geziniyor. Johaan onların kanını, {npc:3549} derilerini istiyor.",
 
 	-- Step 54: Bowen Brisboise
 	-- {npc:3523} Bowen Brisboise · {area:159} Brill · {quest:97961} Camping 101: Tailoring
@@ -308,7 +308,7 @@ return {
 	-- {npc:6784} Calvin Montague · {area:156} Solliden Farmstead
 	["{npc:6784} stands by the farmhouse at the {area:156}, on the way to the Crusader's Outpost."] = "{npc:6784}, Crusader's Outpost yolu üstünde, {area:156} çiftliğinde, çiftlik evinin yanında duruyor.",
 	-- {npc:6784} Calvin Montague · {npc:5688} Innkeeper Renee
-	["{npc:6784}, by the farmhouse: talk to him for the duel; he offers it once {npc:5688} has his letter"] = "{npc:6784}, çiftlik evinin yanında: düello için onunla konuş; {npc:5688} mektubunu aldıktan sonra düelloyu önerir",
+	["{npc:6784}, by the farmhouse: talk to him for the duel; he offers it once {npc:5688} has his letter"] = "{npc:6784}, çiftlik evinin yanında: düello için onunla konuş. {npc:5688} mektubunu aldıktan sonra düelloyu önerir",
 	-- {npc:6784} Calvin Montague
 	["Beat {npc:6784} in the duel"] = "Düelloda {npc:6784} adlı NPC'yi yen",
 
@@ -326,11 +326,11 @@ return {
 	-- {area:159} Brill · {npc:2128} Cain Firesong · {npc:2129} Dark Cleric Beryl · {npc:2127} Rupert Boch · {npc:2130} Marion Call
 	["Back east along the road to {area:159}. {npc:2128} (mages), {npc:2129} (priests), {npc:2127} (warlocks) and {npc:2130} (rogues) stand upstairs in the inn: take the stairs inside, the arrow cannot tell the floors apart."] = "Yol boyunca doğuya, {area:159} kasabasına dön. {npc:2128} (Mage'ler), {npc:2129} (Priest'ler), {npc:2127} (Warlock'lar) ve {npc:2130} (Rogue'lar) hanın üst katında duruyor: içerideki merdivenden çık, ok katları birbirinden ayıramaz.",
 	-- {item:2320} Coarse Thread · {npc:2118} Abigail Shiel
-	["{item:2320} from {npc:2118}, for Gretchen"] = "{item:2320}, kaynak: {npc:2118}; Gretchen için",
+	["{item:2320} from {npc:2118}, for Gretchen"] = "{item:2320}, kaynak: {npc:2118}, Gretchen için",
 
 	-- Step 59: Deathguard Kel
 	-- {npc:12428} Deathguard Kel · {area:159} Brill · {spell:613} Lesser Heal · {spell:1243} Power Word: Fortitude
-	["{npc:12428} kneels by the north gate of {area:159}'s graveyard, on your way north. Cast {spell:613} (Rank 2) on him, then {spell:1243}: Fortitude first does not count."] = "{npc:12428}, {area:159} mezarlığının kuzey kapısının yanında diz çökmüş; kuzeye giderken yolunun üzerinde. Ona {spell:613} (Rank 2), sonra {spell:1243} yap: önce Fortitude yaparsan sayılmaz.",
+	["{npc:12428} kneels by the north gate of {area:159}'s graveyard, on your way north. Cast {spell:613} (Rank 2) on him, then {spell:1243}: Fortitude first does not count."] = "{npc:12428}, {area:159} mezarlığının kuzey kapısının yanında diz çökmüş, kuzeye giderken yolunun üzerinde. Ona {spell:613} (Rank 2), sonra {spell:1243} yap: önce Fortitude yaparsan sayılmaz.",
 	-- {npc:12428} Deathguard Kel
 	["Heal and fortify {npc:12428}"] = "İyileştir ve güçlendir: {npc:12428}",
 
@@ -339,7 +339,7 @@ return {
 	["{zone:1420}: kill these as you meet them"] = "{zone:1420}: bunları karşılaştıkça öldür",
 	-- {area:159} Brill · {npc:3549} Shelene Rhobart · {quest:5482} Doom Weed · {area:164} Garren's Haunt · {npc:1753} Maggot Eye
 	-- plural, as words: Greater Duskbats = {npc:1553} Greater Duskbat · Vampiric Duskbats = {npc:1554} Vampiric Duskbat · Rot Hide Graverobbers = {npc:1941} Rot Hide Graverobber · Rot Hide Mongrels = {npc:1675} Rot Hide Mongrel
-	["Greater Duskbats (6-7) fly over the fields around {area:159} and along the road north: Gretchen wants their pelts, {npc:3549} their wings. The Vampiric Duskbats (8-9) farther out drop them too, but hit harder.\nThe {quest:5482} grows in the graveyard fields just north of {area:159}, where the Rot Hide Graverobbers dig; all the Rot Hides drop the ichor.\nThe Rot Hide Mongrels hold the hills further north, around {area:164}. Leave {npc:1753} (level 11) in his hut for now: the guide comes back for him at the end.\nThe Vile Fin murlocs line the north shore: they all drop the scales, and the Minor Oracles and Muckdwellers the skins for {npc:3549}. Straight north of {area:159} the shore holds Puddlejumpers and Minor Oracles (7-9) with no Muckdwellers (9-10) close by."] = "Greater Duskbat yaratıkları (6-7) {area:159} kasabasının çevresindeki tarlaların üstünde ve kuzeye giden yol boyunca uçuyor: Gretchen postlarını, {npc:3549} kanatlarını istiyor. Daha uzaktaki Vampiric Duskbat yaratıkları (8-9) da bunları düşürür ama daha sert vurur.\n{quest:5482}, {area:159} kasabasının hemen kuzeyindeki mezarlık tarlalarında, Rot Hide Graverobber yaratıklarının kazdığı yerde yetişiyor; bütün Rot Hide'lar ichor düşürür.\nRot Hide Mongrel yaratıkları daha kuzeydeki tepeleri, {area:164} çevresini tutuyor. {npc:1753} (seviye 11) yaratığını şimdilik kulübesinde bırak: rehber sonunda onun için geri döner.\nVile Fin murlocları kuzey kıyıyı dolduruyor: hepsi pul düşürür, Minor Oracle ve Muckdweller yaratıkları da {npc:3549} için deri. {area:159} kasabasının tam kuzeyindeki kıyıda yakınında Muckdweller (9-10) olmayan Puddlejumper ve Minor Oracle yaratıkları (7-9) var.",
+	["Greater Duskbats (6-7) fly over the fields around {area:159} and along the road north: Gretchen wants their pelts, {npc:3549} their wings. The Vampiric Duskbats (8-9) farther out drop them too, but hit harder.\nThe {quest:5482} grows in the graveyard fields just north of {area:159}, where the Rot Hide Graverobbers dig; all the Rot Hides drop the ichor.\nThe Rot Hide Mongrels hold the hills further north, around {area:164}. Leave {npc:1753} (level 11) in his hut for now: the guide comes back for him at the end.\nThe Vile Fin murlocs line the north shore: they all drop the scales, and the Minor Oracles and Muckdwellers the skins for {npc:3549}. Straight north of {area:159} the shore holds Puddlejumpers and Minor Oracles (7-9) with no Muckdwellers (9-10) close by."] = "Greater Duskbat yaratıkları (6-7) {area:159} kasabasının çevresindeki tarlaların üstünde ve kuzeye giden yol boyunca uçuyor: Gretchen postlarını, {npc:3549} kanatlarını istiyor. Daha uzaktaki Vampiric Duskbat yaratıkları (8-9) da bunları düşürür ama daha sert vurur.\n{quest:5482}, {area:159} kasabasının hemen kuzeyindeki mezarlık tarlalarında, Rot Hide Graverobber yaratıklarının kazdığı yerde yetişiyor. Bütün Rot Hide'lar ichor düşürür.\nRot Hide Mongrel yaratıkları daha kuzeydeki tepeleri, {area:164} çevresini tutuyor. {npc:1753} (seviye 11) yaratığını şimdilik kulübesinde bırak: rehber sonunda onun için geri döner.\nVile Fin murlocları kuzey kıyıyı dolduruyor: hepsi pul düşürür, Minor Oracle ve Muckdweller yaratıkları da {npc:3549} için deri. {area:159} kasabasının tam kuzeyindeki kıyıda yakınında Muckdweller (9-10) olmayan Puddlejumper ve Minor Oracle yaratıkları (7-9) var.",
 	-- {npc:1675} Rot Hide Mongrel · {area:164} Garren's Haunt
 	["{npc:1675} walks around {area:164}: look inside the circle on the map"] = "{npc:1675}, {area:164} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
@@ -372,9 +372,9 @@ return {
 	-- Step 66: Agamand Mills
 	-- {area:157} Agamand Mills · {npc:1657} Devlin Agamand · {npc:1656} Thurman Agamand · {item:2839} A Letter to Yvette
 	-- plural, as words: Cracked Skull Soldiers = {npc:1523} Cracked Skull Soldier · Darkeye Bonecasters = {npc:1522} Darkeye Bonecaster
-	["Follow the road north-west to {area:157}. {npc:1657} walks the graveyard south of the mills; Nissa, Gregor and {npc:1656} haunt the mills themselves. Rattlecage and Cracked Skull Soldiers drop the ribs, Darkeye Bonecasters the skulls, and any of them may drop {item:2839}.\nCareful: Rotting undead and Darkeye Bonecasters near the Agamands can join a fight as adds."] = "Yolu kuzeybatıya izleyerek {area:157} değirmenlerine git. {npc:1657} değirmenlerin güneyindeki mezarlıkta yürüyor; Nissa, Gregor ve {npc:1656} değirmenlerin kendisine musallat. Rattlecage ve Cracked Skull Soldier yaratıkları kaburgaları, Darkeye Bonecaster yaratıkları kafatasları düşürür; herhangi biri {item:2839} düşürebilir.\nDikkat: Agamand'ların yakınındaki çürüyen ölümsüzler ve Darkeye Bonecaster yaratıkları dövüşe ek olarak katılabilir.",
+	["Follow the road north-west to {area:157}. {npc:1657} walks the graveyard south of the mills; Nissa, Gregor and {npc:1656} haunt the mills themselves. Rattlecage and Cracked Skull Soldiers drop the ribs, Darkeye Bonecasters the skulls, and any of them may drop {item:2839}.\nCareful: Rotting undead and Darkeye Bonecasters near the Agamands can join a fight as adds."] = "Yolu kuzeybatıya izleyerek {area:157} değirmenlerine git. {npc:1657} değirmenlerin güneyindeki mezarlıkta yürüyor. Nissa, Gregor ve {npc:1656} değirmenlerin kendisine musallat. Rattlecage ve Cracked Skull Soldier yaratıkları kaburgaları, Darkeye Bonecaster yaratıkları kafatasları düşürür, herhangi biri {item:2839} düşürebilir.\nDikkat: Agamand'ların yakınındaki çürüyen ölümsüzler ve Darkeye Bonecaster yaratıkları dövüşe ek olarak katılabilir.",
 	-- {npc:1655} Nissa Agamand
-	["{npc:1655}; upstairs"] = "{npc:1655}; üst katta",
+	["{npc:1655}; upstairs"] = "{npc:1655}, üst katta",
 	-- {item:2839} A Letter to Yvette
 	["{item:2839}, a rare drop"] = "{item:2839}, nadiren düşer",
 	["Only if the letter dropped"] = "Yalnızca mektup düştüyse",
@@ -412,7 +412,7 @@ return {
 
 	-- Step 72: Tirisfal Glades: kill these as you meet them
 	-- {area:159} Brill · {npc:1662} Captain Perrine
-	["Follow the road south-west from {area:159} to the Scarlet Crusade camp. {npc:1662} stands at its south end; every Scarlet there can drop a ring."] = "Yolu izleyerek {area:159} kasabasından güneybatıya, Scarlet Crusade kampına git. {npc:1662} kampın güney ucunda duruyor; oradaki her Scarlet bir yüzük düşürebilir.",
+	["Follow the road south-west from {area:159} to the Scarlet Crusade camp. {npc:1662} stands at its south end; every Scarlet there can drop a ring."] = "Yolu izleyerek {area:159} kasabasından güneybatıya, Scarlet Crusade kampına git. {npc:1662} kampın güney ucunda duruyor. Oradaki her Scarlet bir yüzük düşürebilir.",
 	-- {npc:1537} Scarlet Zealot
 	["{npc:1537} walks around here: look inside the circle on the map"] = "{npc:1537} buralarda dolaşıyor: haritadaki çemberin içine bak",
 
@@ -429,7 +429,7 @@ return {
 	["{area:165}: kill these as you meet them"] = "{area:165}: bunları karşılaştıkça öldür",
 	-- {quest:99142} Tomb Weed · {npc:1664} Captain Vachon
 	-- plural, as words: Bleeding Horrors = {npc:1529} Bleeding Horror · Wandering Spirits = {npc:1532} Wandering Spirit · Scarlet Friars = {npc:1538} Scarlet Friar
-	["Follow the road east past the cult's farm. Bleeding Horrors and Wandering Spirits haunt the graves on the east side of the farmstead, where the {quest:99142} grows: Linnea wants eight of each.\nThe Scarlet Friars camp just north-east of the graves; {npc:1664} stands among them.\nThe spiders lurk in the woods at the far east end of the glades.\nCareful: Riptear (13) is elite and prowls west and north of the Scarlet Friars' camp: watch for him before you pull."] = "Yolu doğuya izleyerek tarikatın çiftliğini geç. Bleeding Horror ve Wandering Spirit yaratıkları çiftliğin doğu yakasındaki mezarlarda, {quest:99142} otunun yetiştiği yerde dolaşıyor: Linnea her birinden sekiz istiyor.\nScarlet Friar yaratıkları mezarların hemen kuzeydoğusunda kamp kurmuş; {npc:1664} aralarında duruyor.\nÖrümcekler bölgenin en doğu ucundaki ormanda pusuda.\nDikkat: Riptear (13) elit ve Scarlet Friar kampının batısında ve kuzeyinde dolaşıyor: çekmeden önce ona dikkat et.",
+	["Follow the road east past the cult's farm. Bleeding Horrors and Wandering Spirits haunt the graves on the east side of the farmstead, where the {quest:99142} grows: Linnea wants eight of each.\nThe Scarlet Friars camp just north-east of the graves; {npc:1664} stands among them.\nThe spiders lurk in the woods at the far east end of the glades.\nCareful: Riptear (13) is elite and prowls west and north of the Scarlet Friars' camp: watch for him before you pull."] = "Yolu doğuya izleyerek tarikatın çiftliğini geç. Bleeding Horror ve Wandering Spirit yaratıkları çiftliğin doğu yakasındaki mezarlarda, {quest:99142} otunun yetiştiği yerde dolaşıyor: Linnea her birinden sekiz istiyor.\nScarlet Friar yaratıkları mezarların hemen kuzeydoğusunda kamp kurmuş, {npc:1664} aralarında duruyor.\nÖrümcekler bölgenin en doğu ucundaki ormanda pusuda.\nDikkat: Riptear (13) elit ve Scarlet Friar kampının batısında ve kuzeyinde dolaşıyor: çekmeden önce ona dikkat et.",
 	-- {item:7227} Balnir Snapdragons
 	["{item:7227}, in the farmstead's garden"] = "{item:7227}, çiftliğin bahçesinde",
 
@@ -451,7 +451,7 @@ return {
 	-- {area:164} Garren's Haunt · {npc:1753} Maggot Eye
 	["North to {area:164}, the Rot Hide camp on the hill south of the shore. {npc:1753} (level 11) stands in the hut: clear the gnolls around him first.\nCareful: Gnoll guards stand outside the hut and can join the fight. If you slip past them and fight him inside, he fights alone."] = "Kuzeye, kıyının güneyindeki tepede bulunan Rot Hide kampı {area:164} içine git. {npc:1753} (seviye 11) kulübede duruyor: önce çevresindeki gnoll'ları temizle.\nDikkat: gnoll muhafızlar kulübenin dışında duruyor ve dövüşe katılabilir. Onları atlatıp içeride dövüşürsen yalnız dövüşür.",
 	-- {item:3635} Maggot Eye's Paw
-	["{item:3635}; inside"] = "{item:3635}; içeride",
+	["{item:3635}; inside"] = "{item:3635}, içeride",
 
 	-- Step 81: Leonid Barthalomew the Revered
 	-- {area:164} Garren's Haunt · {area:157} Agamand Mills · {area:16616} Whispering Forest · {npc:246389} Hilda the Breaker · {npc:259190} Ephram Barbaro · {quest:96896} A Righteous Cause · {area:16881} Shadowvale
@@ -478,12 +478,12 @@ return {
 	-- Step 84: Shadowvale
 	-- {area:16881} Shadowvale · {area:16616} Whispering Forest
 	-- plural, as words: Shadowvale Lurchers = {npc:260428} Shadowvale Lurcher
-	["{area:16881} is the hollow at the west edge of the glades, south-west of the {area:16616}. Go down into the big basement under the ruined house (only a floor and a few pillars left, not the two-storey house): the bottles lie on its floor among the Shadowvale Lurchers and Mystics."] = "{area:16881}, bozkırların batı kenarında, {area:16616} ormanının güneybatısındaki çukur. Yıkık evin altındaki büyük bodruma in (yalnızca zemini ve birkaç sütunu kalmış olan; iki katlı ev değil): şişeler, Shadowvale Lurcher ve Mystic yaratıklarının arasında bodrumun zemininde duruyor.",
+	["{area:16881} is the hollow at the west edge of the glades, south-west of the {area:16616}. Go down into the big basement under the ruined house (only a floor and a few pillars left, not the two-storey house): the bottles lie on its floor among the Shadowvale Lurchers and Mystics."] = "{area:16881}, bozkırların batı kenarında, {area:16616} ormanının güneybatısındaki çukur. Yıkık evin altındaki büyük bodruma in (yalnızca zemini ve birkaç sütunu kalmış olan, iki katlı ev değil): şişeler, Shadowvale Lurcher ve Mystic yaratıklarının arasında bodrumun zemininde duruyor.",
 	["the basement under the ruined house"] = "yıkık evin altındaki bodrum",
 	-- {item:286269} Glowing Crystal Fragment
 	["the {item:286269}, at the basement's south end"] = "{item:286269}, bodrumun güney ucunda",
 	-- plural, as words: Shadowvale Lurchers = {npc:260428} Shadowvale Lurcher
-	["the Shadowvale Lurchers and Mystics drop the bones; below ground"] = "Shadowvale Lurcher ve Mystic yaratıkları kemikleri düşürür; yer altında",
+	["the Shadowvale Lurchers and Mystics drop the bones; below ground"] = "Shadowvale Lurcher ve Mystic yaratıkları kemikleri düşürür, yer altında",
 
 	-- Step 85: Hilda the Breaker and Ephram Barbaro
 	-- {npc:246389} Hilda the Breaker · {npc:259190} Ephram Barbaro

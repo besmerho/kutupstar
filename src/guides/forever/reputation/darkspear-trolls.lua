@@ -6,7 +6,7 @@ return {
 	-- Guide
 	["Darkspear Trolls Reputation"] = "Darkspear Trolls itibarı",
 	-- {item:14047} Runecloth · {zone:1411} Durotar · {zone:1454} Orgrimmar
-	["{item:14047} to Exalted, with the old {zone:1411} quests as a fast extra that pays {zone:1454} too."] = "Exalted'a kadar {item:14047}; eski {zone:1411} görevleri de {zone:1454} itibarı da veren hızlı bir ek.",
+	["{item:14047} to Exalted, with the old {zone:1411} quests as a fast extra that pays {zone:1454} too."] = "Exalted'a kadar {item:14047}, eski {zone:1411} görevleri de {zone:1454} itibarı da veren hızlı bir ek.",
 	-- {faction:530} Darkspear Trolls
 	["Exalted with the {faction:530}"] = "{faction:530} ile Exalted",
 
@@ -14,14 +14,14 @@ return {
 	-- {npc:14727} Vehena
 	["{npc:14727}: how it works"] = "{npc:14727}: nasıl işler",
 	-- {npc:14727} Vehena · {zone:1454} Orgrimmar · {object:172961} Valley of Spirits · {quest:7837} Additional Runecloth · {item:14047} Runecloth · {faction:530} Darkspear Trolls · {zone:1456} Thunder Bluff · {zone:1458} Undercity · {zone:1411} Durotar · {area:414} Zoram Strand · {zone:1440} Ashenvale · {object:3202} Grom'gol (no name in this language: may be words)
-	["Darkspear reputation comes from quests and cloth. {npc:14727}, the Darkspear cloth quartermaster, stands in {zone:1454}'s {object:172961}. She takes four one-time donations of 60 cloth (150 each) and then {quest:7837}, 20 {item:14047} for 50, as often as you like. Every point you earn with the {faction:530} also gives a quarter as much to {zone:1454}, {zone:1456} and the {zone:1458}. While you level, do the Darkspear quests within 5 levels of them: {zone:1411} at 5 to 12, {area:414} in {zone:1440} at 19 to 27, {object:3202} in Stranglethorn at 34 to 46. The Legacy perk Diplomat adds up to 10%. Rewards: at Honored the Darkspear merchants sell to you for 10% less (the Classic rule), the raptor vendor included; at Exalted other races can buy the raptors: 20 gold for a level 40 raptor, 200 gold for a swift raptor at level 60, once you have mount training. The {faction:530} have no tabard or other reward."] = "Darkspear itibarı görevlerden ve kumaştan gelir. Darkspear kumaş quartermaster'ı {npc:14727}, {zone:1454} şehrinin {object:172961} kesiminde duruyor. 60 kumaşlık dört tek seferlik bağış (her biri 150), sonra da istediğin kadar sık {quest:7837} alır: 50 itibar karşılığında 20 {item:14047}. {faction:530} ile kazandığın her puan, {zone:1454}, {zone:1456} ve {zone:1458} itibarına da dörtte biri kadar verir. Seviye atlarken Darkspear görevlerini 5 seviye yakınındayken yap: 5 ila 12'de {zone:1411}, 19 ila 27'de {zone:1440} içindeki {area:414}, 34 ila 46'da Stranglethorn'daki {object:3202}. Legacy yeteneği Diplomat %10'a kadar ekler. Ödüller: Honored'da Darkspear satıcıları sana %10 daha ucuza satar (Classic kuralı), raptor satıcısı da dahil; Exalted'da diğer ırklar raptor alabilir: binek eğitimin varsa seviye 40 raptor için 20 altın, seviye 60'ta swift raptor için 200 altın. {faction:530} grubunun tabard'ı ya da başka bir ödülü yok.",
+	["Darkspear reputation comes from quests and cloth. {npc:14727}, the Darkspear cloth quartermaster, stands in {zone:1454}'s {object:172961}. She takes four one-time donations of 60 cloth (150 each) and then {quest:7837}, 20 {item:14047} for 50, as often as you like. Every point you earn with the {faction:530} also gives a quarter as much to {zone:1454}, {zone:1456} and the {zone:1458}. While you level, do the Darkspear quests within 5 levels of them: {zone:1411} at 5 to 12, {area:414} in {zone:1440} at 19 to 27, {object:3202} in Stranglethorn at 34 to 46. The Legacy perk Diplomat adds up to 10%. Rewards: at Honored the Darkspear merchants sell to you for 10% less (the Classic rule), the raptor vendor included; at Exalted other races can buy the raptors: 20 gold for a level 40 raptor, 200 gold for a swift raptor at level 60, once you have mount training. The {faction:530} have no tabard or other reward."] = "Darkspear itibarı görevlerden ve kumaştan gelir. Darkspear kumaş quartermaster'ı {npc:14727}, {zone:1454} şehrinin {object:172961} kesiminde duruyor. 60 kumaşlık dört tek seferlik bağış (her biri 150), sonra da istediğin kadar sık {quest:7837} alır: 50 itibar karşılığında 20 {item:14047}. {faction:530} ile kazandığın her puan, {zone:1454}, {zone:1456} ve {zone:1458} itibarına da dörtte biri kadar verir. Seviye atlarken Darkspear görevlerini 5 seviye yakınındayken yap: 5 ila 12'de {zone:1411}, 19 ila 27'de {zone:1440} içindeki {area:414}, 34 ila 46'da Stranglethorn'daki {object:3202}. Legacy yeteneği Diplomat %10'a kadar ekler. Ödüller: Honored'da Darkspear satıcıları sana %10 daha ucuza satar (Classic kuralı), raptor satıcısı da dahil. Exalted'da diğer ırklar raptor alabilir: binek eğitimin varsa seviye 40 raptor için 20 altın, seviye 60'ta swift raptor için 200 altın. {faction:530} grubunun tabard'ı ya da başka bir ödülü yok.",
 	["her donations are handed in from her window and never enter the log"] = "bağışları penceresinden teslim edilir, günlüğe hiç girmez",
 
 	-- Step 2: Valley of Trials (optional hub)
 	-- {area:363} Valley of Trials
 	["{area:363} (optional hub)"] = "{area:363} (isteğe bağlı merkez)",
 	-- {area:363} Valley of Trials · {zone:1454} Orgrimmar · {npc:3143} Gornek · {npc:10176} Kaltunk
-	["Forever pays these old quests in full at any level. The {area:363} is the best of them: about 1,400 {zone:1454} and 1,400 Darkspear reputation in 25 minutes. {npc:3143} waits in the Den, the big hut; {npc:10176} stands outside it."] = "Forever bu eski görevleri her seviyede tam öder. {area:363} en iyisi: 25 dakikada yaklaşık 1.400 {zone:1454} ve 1.400 Darkspear itibarı. {npc:3143}, büyük kulübe olan Den'de bekliyor; {npc:10176} kulübenin dışında duruyor.",
+	["Forever pays these old quests in full at any level. The {area:363} is the best of them: about 1,400 {zone:1454} and 1,400 Darkspear reputation in 25 minutes. {npc:3143} waits in the Den, the big hut; {npc:10176} stands outside it."] = "Forever bu eski görevleri her seviyede tam öder. {area:363} en iyisi: 25 dakikada yaklaşık 1.400 {zone:1454} ve 1.400 Darkspear itibarı. {npc:3143}, büyük kulübe olan Den'de bekliyor, {npc:10176} kulübenin dışında duruyor.",
 	-- {npc:3144} Eitrigg · {zone:1454} Orgrimmar · {quest:787} The New Horde
 	["{npc:3144}, in {zone:1454}: {quest:787}, +50"] = "{npc:3144}, {zone:1454} şehrinde: {quest:787}, +50",
 	-- {npc:5765} Ruzan · {quest:792} Vile Familiars
@@ -43,7 +43,7 @@ return {
 	-- Step 5: North of the Den
 	["North of the Den"] = "Den'in kuzeyi",
 	-- {npc:3287} Hana'zua · {quest:790} Sarkoth · {quest:792} Vile Familiars · {area:365} Burning Blade Coven · {quest:6394} Thazz'ril's Pick
-	["The cactus apples grow beside the cacti north of the Den. {npc:3287} lies wounded by the rocks to the north; {quest:790}, his big scorpid, roams close by. {quest:792} swarm at the mouth of the {area:365}; {quest:6394} lies inside: take the middle tunnel where it splits three ways."] = "Kaktüs elmaları Den'in kuzeyindeki kaktüslerin yanında yetişiyor. {npc:3287}, kuzeydeki kayaların yanında yaralı yatıyor; büyük scorpid'i olan {quest:790} yakınlarda dolaşıyor. {quest:792}, {area:365} ağzında kaynaşıyor; {quest:6394} içeride yatıyor: üçe ayrıldığı yerde ortadaki tünele gir.",
+	["The cactus apples grow beside the cacti north of the Den. {npc:3287} lies wounded by the rocks to the north; {quest:790}, his big scorpid, roams close by. {quest:792} swarm at the mouth of the {area:365}; {quest:6394} lies inside: take the middle tunnel where it splits three ways."] = "Kaktüs elmaları Den'in kuzeyindeki kaktüslerin yanında yetişiyor. {npc:3287}, kuzeydeki kayaların yanında yaralı yatıyor. Büyük scorpid'i olan {quest:790} yakınlarda dolaşıyor. {quest:792}, {area:365} ağzında kaynaşıyor. {quest:6394} içeride yatıyor: üçe ayrıldığı yerde ortadaki tünele gir.",
 	-- {quest:6394} Thazz'ril's Pick
 	["{quest:6394}, in the cave"] = "{quest:6394}, mağarada",
 
@@ -53,7 +53,7 @@ return {
 
 	-- Step 7: Burning Blade Coven
 	-- {npc:3183} Yarrog Baneshadow
-	["Go back into the cave and keep to the right-hand wall all the way, over a small stream, to {npc:3183} on a ledge above a pool."] = "Mağaraya geri dön ve küçük bir dereyi geçerek sağ duvarı sonuna kadar takip et; bir havuzun üstündeki çıkıntıda {npc:3183} var.",
+	["Go back into the cave and keep to the right-hand wall all the way, over a small stream, to {npc:3183} on a ledge above a pool."] = "Mağaraya geri dön ve küçük bir dereyi geçerek sağ duvarı sonuna kadar takip et. Bir havuzun üstündeki çıkıntıda {npc:3183} var.",
 	-- {quest:794} Burning Blade Medallion · {npc:3183} Yarrog Baneshadow
 	["{quest:794}, from {npc:3183}"] = "{quest:794}, kaynak: {npc:3183}",
 	-- {npc:3145} Zureetha Fargaze
@@ -74,7 +74,7 @@ return {
 	["The {area:368}"] = "{area:368}",
 	-- {area:368} Echo Isles · {quest:826} Zalazane
 	-- plural, as words: Durotar Tigers = {npc:3121} Durotar Tiger
-	["Swim to the largest of the {area:368}, south-east of the village. {quest:826}, the idols and the skulls at the circle of power are all there; the Durotar Tigers prowl the smaller islands."] = "Köyün güneydoğusundaki {area:368} adalarının en büyüğüne yüz. {quest:826}, idoller ve güç çemberindeki kafatasları hepsi orada; Durotar Tiger'lar küçük adalarda dolaşıyor.",
+	["Swim to the largest of the {area:368}, south-east of the village. {quest:826}, the idols and the skulls at the circle of power are all there; the Durotar Tigers prowl the smaller islands."] = "Köyün güneydoğusundaki {area:368} adalarının en büyüğüne yüz. {quest:826}, idoller ve güç çemberindeki kafatasları hepsi orada. Durotar Tiger'lar küçük adalarda dolaşıyor.",
 	-- {quest:808} Minshina's Skull · {object:3237} Imprisoned Darkspear
 	["{quest:808}: click an {object:3237} skull"] = "{quest:808}: bir {object:3237} kafatasına tıkla",
 
@@ -101,7 +101,7 @@ return {
 
 	-- Step 15: Tiragarde Keep
 	-- {area:362} Razor Hill · {npc:3192} Lieutenant Benedict · {object:3239} Benedict's Chest · {item:4881} Aged Envelope · {quest:830} The Admiral's Orders · {item:4870} Canvas Scraps
-	["The keep is south of {area:362} on the coast. {npc:3192} is in the keep's only building; his key opens {object:3239} on the roof, and the {item:4881} inside starts {quest:830}. The sailors and marines drop the {item:4870}."] = "Kale, kıyıda {area:362} güneyinde. {npc:3192}, kalenin tek binasında; anahtarı çatıdaki {object:3239} sandığını açar, içindeki {item:4881} de {quest:830} görevini başlatır. Denizciler ve deniz piyadeleri {item:4870} düşürür.",
+	["The keep is south of {area:362} on the coast. {npc:3192} is in the keep's only building; his key opens {object:3239} on the roof, and the {item:4881} inside starts {quest:830}. The sailors and marines drop the {item:4870}."] = "Kale, kıyıda {area:362} güneyinde. {npc:3192}, kalenin tek binasında. Anahtarı çatıdaki {object:3239} sandığını açar, içindeki {item:4881} de {quest:830} görevini başlatır. Denizciler ve deniz piyadeleri {item:4870} düşürür.",
 
 	-- Step 16: Razormane Grounds and the Echo Isles
 	-- {area:816} Razormane Grounds · {area:368} Echo Isles
@@ -155,7 +155,7 @@ return {
 	-- {zone:1454} Orgrimmar · {npc:3216} Neeru Fireblade · {npc:3230} Nazgrel
 	["{zone:1454}: {npc:3216} and {npc:3230}"] = "{zone:1454}: {npc:3216} ve {npc:3230}",
 	-- {quest:829} Neeru Fireblade · {object:172960} Cleft of Shadow · {npc:3230} Nazgrel
-	["{quest:829} is in the {object:172960}; {npc:3230} in Grommash Hold beside Thrall."] = "{quest:829}, {object:172960} içinde; {npc:3230}, Grommash Hold'da Thrall'ın yanında.",
+	["{quest:829} is in the {object:172960}; {npc:3230} in Grommash Hold beside Thrall."] = "{quest:829}, {object:172960} içinde, {npc:3230}, Grommash Hold'da Thrall'ın yanında.",
 
 	-- Step 26: Far Watch Post
 	-- {zone:1454} Orgrimmar · {zone:1413} Barrens · {npc:3337} Kargal Battlescar · {quest:809} Ak'Zeloth · {area:379} Far Watch Post
@@ -203,7 +203,7 @@ return {
 	-- {quest:7837} Additional Runecloth
 	["{quest:7837} to Honored"] = "{quest:7837}: Honored olana kadar",
 	-- {quest:7837} Additional Runecloth · {item:14047} Runecloth
-	["{quest:7837}: 20 {item:14047} for 50 reputation, as often as you like. Friendly to Honored is 6,000: 120 hand-ins, 2,400 {item:14047}, less what the quests gave you (a troll starts at Friendly 1,000: 100 hand-ins; an Undead or Skyborne at Neutral 2,000 first needs 20 more to reach Friendly). Hand in every 20 you carry, one after another."] = "{quest:7837}: 50 itibar karşılığında 20 {item:14047}, istediğin kadar sık. Friendly'den Honored'a 6.000: 120 teslim, 2.400 {item:14047}, eksi görevlerin verdiği (bir troll Friendly 1.000'de başlar: 100 teslim; Neutral 2.000'deki bir Undead ya da Skyborne, Friendly'ye ulaşmak için önce 20 daha ister). Taşıdığın her 20'yi peş peşe teslim et.",
+	["{quest:7837}: 20 {item:14047} for 50 reputation, as often as you like. Friendly to Honored is 6,000: 120 hand-ins, 2,400 {item:14047}, less what the quests gave you (a troll starts at Friendly 1,000: 100 hand-ins; an Undead or Skyborne at Neutral 2,000 first needs 20 more to reach Friendly). Hand in every 20 you carry, one after another."] = "{quest:7837}: 50 itibar karşılığında 20 {item:14047}, istediğin kadar sık. Friendly'den Honored'a 6.000: 120 teslim, 2.400 {item:14047}, eksi görevlerin verdiği (bir troll Friendly 1.000'de başlar: 100 teslim, Neutral 2.000'deki bir Undead ya da Skyborne, Friendly'ye ulaşmak için önce 20 daha ister). Taşıdığın her 20'yi peş peşe teslim et.",
 
 	-- Step 35: Additional Runecloth to Revered
 	-- {quest:7837} Additional Runecloth
@@ -215,7 +215,7 @@ return {
 	-- {quest:7837} Additional Runecloth
 	["{quest:7837} to Exalted"] = "{quest:7837}: Exalted olana kadar",
 	-- {item:14047} Runecloth · {npc:7952} Zjolnir · {area:367} Sen'jin Village
-	["Revered to Exalted is 21,000: 420 hand-ins, 8,400 {item:14047}. At Exalted, {npc:7952} in {area:367} sells the raptors to every Horde race: 20 gold for a level 40 raptor, 200 gold for a swift raptor at level 60 (Forever's prices); in Classic other races needed Exalted to buy them."] = "Revered'dan Exalted'a 21.000: 420 teslim, 8.400 {item:14047}. Exalted'da {area:367} içindeki {npc:7952}, raptor'ları her Horde ırkına satar: seviye 40 raptor için 20 altın, seviye 60'ta swift raptor için 200 altın (Forever'ın fiyatları); Classic'te diğer ırkların onları alması için Exalted gerekiyordu.",
+	["Revered to Exalted is 21,000: 420 hand-ins, 8,400 {item:14047}. At Exalted, {npc:7952} in {area:367} sells the raptors to every Horde race: 20 gold for a level 40 raptor, 200 gold for a swift raptor at level 60 (Forever's prices); in Classic other races needed Exalted to buy them."] = "Revered'dan Exalted'a 21.000: 420 teslim, 8.400 {item:14047}. Exalted'da {area:367} içindeki {npc:7952}, raptor'ları her Horde ırkına satar: seviye 40 raptor için 20 altın, seviye 60'ta swift raptor için 200 altın (Forever'ın fiyatları). Classic'te diğer ırkların onları alması için Exalted gerekiyordu.",
 	-- {npc:7952} Zjolnir
 	["{npc:7952}: the raptors"] = "{npc:7952}: raptor'lar",
 }

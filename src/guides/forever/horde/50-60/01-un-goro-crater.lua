@@ -9,7 +9,7 @@ return {
 	-- {area:1938} Broken Pillar · {zone:1449} Un'Goro Crater · {area:541} Marshal's Refuge
 	["From the {area:1938} ride west to the long ramp that winds down into {zone:1449}, then follow the crater's north wall to {area:541}, a camp in the cliff caves. Everyone here is neutral."] = "{area:1938} noktasından batıya, {zone:1449} içine kıvrılarak inen uzun rampaya sür, sonra kraterin kuzey duvarını izleyerek uçurum mağaralarındaki bir kamp olan {area:541} kampına git. Buradaki herkes tarafsız.",
 	-- {npc:9117} J.D. Collie
-	["{npc:9117}, at the back of the cave; below ground"] = "{npc:9117}, mağaranın dibinde; yer altında",
+	["{npc:9117}, at the back of the cave; below ground"] = "{npc:9117}, mağaranın dibinde, yer altında",
 	-- {npc:9997} Spraggle Frock · {npc:9167} Frenzied Pterrordax
 	["the wooden sign beside {npc:9997}, by the flight master: the {npc:9167} (51-54) come on the pylon loop"] = "uçuş ustasının yanında {npc:9997} yanındaki tahta tabela: {npc:9167} yaratıkları (51-54) pylon turunda gelir",
 
@@ -37,7 +37,7 @@ return {
 
 	-- Step 6: Pterrordax
 	-- {npc:9166} Pterrordax · {npc:9998} Shizzle · {npc:9997} Spraggle Frock · {npc:9167} Frenzied Pterrordax
-	["{npc:9166} (50-52) fly over the east of the crater, from the slopes below the refuge southward; their webbed scales are for {npc:9998}, and {npc:9997}'s sign wants ten of them. Leave the {npc:9167} over the west for the pylon loop."] = "{npc:9166} (50-52) kraterin doğusunda, sığınağın aşağısındaki yamaçlardan güneye doğru uçuyor; perdeli pulları {npc:9998} için, {npc:9997} adlı NPC'nin tabelası da on tane istiyor. Batının üstündeki {npc:9167} yaratıklarını pylon turuna bırak.",
+	["{npc:9166} (50-52) fly over the east of the crater, from the slopes below the refuge southward; their webbed scales are for {npc:9998}, and {npc:9997}'s sign wants ten of them. Leave the {npc:9167} over the west for the pylon loop."] = "{npc:9166} (50-52) kraterin doğusunda, sığınağın aşağısındaki yamaçlardan güneye doğru uçuyor. Perdeli pulları {npc:9998} için, {npc:9997} adlı NPC'nin tabelası da on tane istiyor. Batının üstündeki {npc:9167} yaratıklarını pylon turuna bırak.",
 
 	-- Step 7: Power Crystals and soil
 	-- plural, as words: Power Crystals = {npc:271301} Power Crystal
@@ -50,7 +50,7 @@ return {
 	["{area:538}: kill these as you meet them"] = "{area:538}: bunları karşılaştıkça öldür",
 	-- {area:537} Fire Plume Ridge · {npc:9998} Shizzle · {npc:8659} Jes'rimon
 	-- plural, as words: Bloodpetal Flayers = {npc:6510} Bloodpetal Flayer · Dinosaur Bones = {item:11114} Dinosaur Bone · Elder Diemetradons = {npc:9164} Elder Diemetradon · Bloodpetal Trappers = {npc:6512} Bloodpetal Trapper
-	["Ride south-west to {area:537}, the volcano in the middle of the crater. Bloodpetal Flayers grow around its foot.\nSouth of the hot springs, Dinosaur Bones lie on the ground among the Stegodons and drop from the Diemetradons nearby, which also carry the scales {npc:9998} wants. Careful: the Stegodons are elites (52-53): pick the bones up around them, don't pull them; the Elder Diemetradons are 53-55, take the smaller ones. Ravasaurs hunt in packs in the south-west: their claws are for {npc:8659}, and now and then one carries a Mangled Journal (a rare drop: take its quest only if you get one). Avoid Gruff, a level 57 Stegodon.\nRide south-west along the western cliffs. Bloodpetal Trappers grow in the jungle there. Careful: the biggest Trappers are 53: pull them one at a time."] = "Güneybatıya, kraterin ortasındaki {area:537} yanardağına sür. Bloodpetal Flayer yaratıkları eteğinde büyüyor.\nSıcak kaynakların güneyinde Dinosaur Bone kemikleri Stegodon'ların arasında yerde yatıyor ve yakındaki Diemetradon'lardan da düşüyor; onlar {npc:9998} adlı NPC'nin istediği pulları da taşır. Dikkat: Stegodon'lar elit (52-53): kemikleri çevrelerinden topla, onları çekme; Elder Diemetradon yaratıkları 53-55, küçükleri al. Ravasaur'lar güneybatıda sürü halinde avlanıyor: pençeleri {npc:8659} için, arada bir biri Mangled Journal taşır (nadir düşer: yalnızca eline geçerse görevini al). 57. seviye bir Stegodon olan Gruff'tan uzak dur.\nBatı uçurumları boyunca güneybatıya sür. Bloodpetal Trapper yaratıkları oradaki ormanda büyüyor. Dikkat: en büyük Trapper'lar 53: tek tek çek.",
+	["Ride south-west to {area:537}, the volcano in the middle of the crater. Bloodpetal Flayers grow around its foot.\nSouth of the hot springs, Dinosaur Bones lie on the ground among the Stegodons and drop from the Diemetradons nearby, which also carry the scales {npc:9998} wants. Careful: the Stegodons are elites (52-53): pick the bones up around them, don't pull them; the Elder Diemetradons are 53-55, take the smaller ones. Ravasaurs hunt in packs in the south-west: their claws are for {npc:8659}, and now and then one carries a Mangled Journal (a rare drop: take its quest only if you get one). Avoid Gruff, a level 57 Stegodon.\nRide south-west along the western cliffs. Bloodpetal Trappers grow in the jungle there. Careful: the biggest Trappers are 53: pull them one at a time."] = "Güneybatıya, kraterin ortasındaki {area:537} yanardağına sür. Bloodpetal Flayer yaratıkları eteğinde büyüyor.\nSıcak kaynakların güneyinde Dinosaur Bone kemikleri Stegodon'ların arasında yerde yatıyor ve yakındaki Diemetradon'lardan da düşüyor. Onlar {npc:9998} adlı NPC'nin istediği pulları da taşır. Dikkat: Stegodon'lar elit (52-53): kemikleri çevrelerinden topla, onları çekme. Elder Diemetradon yaratıkları 53-55, küçükleri al. Ravasaur'lar güneybatıda sürü halinde avlanıyor: pençeleri {npc:8659} için, arada bir biri Mangled Journal taşır (nadir düşer: yalnızca eline geçerse görevini al). 57. seviye bir Stegodon olan Gruff'tan uzak dur.\nBatı uçurumları boyunca güneybatıya sür. Bloodpetal Trapper yaratıkları oradaki ormanda büyüyor. Dikkat: en büyük Trapper'lar 53: tek tek çek.",
 
 	-- Step 9: Research Equipment
 	["The expedition's lost equipment lies in the south-west jungle."] = "Keşif ekibinin kayıp ekipmanı güneybatı ormanında.",
@@ -93,7 +93,7 @@ return {
 	["The Lar'korwi Mates prowl the jungle north-west of {npc:9619}."] = "Lar'korwi Mate yaratıkları {npc:9619} adlı NPC'nin kuzeybatısındaki ormanda dolaşıyor.",
 
 	-- Step 18: A Wrecked Raft
-	["The raft lies on the shore of the south-eastern lake; the small pack sits in the water beside it."] = "Sal güneydoğudaki gölün kıyısında; küçük çanta yanında, suyun içinde.",
+	["The raft lies on the shore of the south-eastern lake; the small pack sits in the water beside it."] = "Sal güneydoğudaki gölün kıyısında. Küçük çanta yanında, suyun içinde.",
 	["Underwater"] = "Su altında",
 
 	-- Step 20: Lashers and Threshers
@@ -123,14 +123,14 @@ return {
 	-- {npc:9619} Torwa Pathfinder · {npc:9622} U'cha
 	["The gorillas live on the north-east plateau: {npc:9619} wants two pelts of each kind, and the Thunderers (52-53) are the biggest. Stay out of the deepest cave: {npc:9622} lives there."] = "Goriller kuzeydoğu platosunda yaşıyor: {npc:9619} her türden iki post istiyor, en büyükleri de Thunderer'lar (52-53). En derin mağaradan uzak dur: {npc:9622} orada yaşıyor.",
 	-- {npc:9623} A-Me 01
-	["{npc:9623}, the robot on the plateau; below ground"] = "Platodaki robot {npc:9623}; yer altında",
+	["{npc:9623}, the robot on the plateau; below ground"] = "Platodaki robot {npc:9623}, yer altında",
 	-- {npc:9623} A-Me 01 · {item:10561} Mithril Casing · {skill:202} Engineering
-	["{npc:9623} then wants a {item:10561}, an {skill:202} item. Skip it unless you have one."] = "{npc:9623} ardından bir {item:10561} istiyor; bu bir {skill:202} ürünü. Sende yoksa atla.",
+	["{npc:9623} then wants a {item:10561}, an {skill:202} item. Skip it unless you have one."] = "{npc:9623} ardından bir {item:10561} istiyor, bu bir {skill:202} ürünü. Sende yoksa atla.",
 
 	-- Step 25: Un'Goro Crater: kill these as you meet them
 	-- {spell:8137} Silithid Pox · {spell:14120} Tunneler Acid
 	-- plural, as words: Gorishi Workers = {npc:6552} Gorishi Worker
-	["Careful: Gorishi Workers may call for help within 25 yd when below 45% health; silithids cast {spell:8137} and Tunnelers and the Hive Guard use {spell:14120}."] = "Dikkat: Gorishi Worker yaratıkları canları %45'in altındayken 25 yarda içinden yardım çağırabilir; silithid'ler {spell:8137}, Tunneler'lar ve Hive Guard ise {spell:14120} kullanır.",
+	["Careful: Gorishi Workers may call for help within 25 yd when below 45% health; silithids cast {spell:8137} and Tunnelers and the Hive Guard use {spell:14120}."] = "Dikkat: Gorishi Worker yaratıkları canları %45'in altındayken 25 yarda içinden yardım çağırabilir. Silithid'ler {spell:8137}, Tunneler'lar ve Hive Guard ise {spell:14120} kullanır.",
 
 	-- Step 26: Eastern Pylon
 	["Eastern Pylon"] = "Eastern Pylon",
@@ -166,7 +166,7 @@ return {
 
 	-- Step 34: Gadgetzan
 	-- {area:976} Gadgetzan · {npc:11758} Andi Lynn · {area:983} Dunemaul Compound
-	["The hearth lands in {area:976}: {npc:11758} takes the {area:983} and Tran'rek Thistleshrub Valley, both done on the way into the crater."] = "Hearthstone {area:976} kasabasına iner: {npc:11758}, {area:983} görevini, Tran'rek de Thistleshrub Valley görevini teslim alır; ikisi de kratere giderken yapıldı.",
+	["The hearth lands in {area:976}: {npc:11758} takes the {area:983} and Tran'rek Thistleshrub Valley, both done on the way into the crater."] = "Hearthstone {area:976} kasabasına iner: {npc:11758}, {area:983} görevini, Tran'rek de Thistleshrub Valley görevini teslim alır. İkisi de kratere giderken yapıldı.",
 
 	-- Step 35: Gadgetzan
 	-- {npc:5594} Alchemist Pestlezugg
@@ -206,7 +206,7 @@ return {
 	-- {zone:1427} Searing Gorge
 	["Into the {zone:1427}"] = "{zone:1427} bölgesine",
 	-- {area:340} Kargath · {zone:1427} Searing Gorge · {area:254} Blackrock Mountain
-	["Take the pass out of {area:340}'s west side into the {zone:1427}, then ride south across the gorge to the long bridge into {area:254}. Inside, follow the chain walkways down and leave through the southern exit; stay off the paths to the dungeon portals."] = "{area:340} kalesinin batı yakasındaki geçitten {zone:1427} bölgesine çık, sonra boğazı güneye geçerek {area:254} dağına giden uzun köprüye git. İçeride zincir geçitleri izleyerek aşağı in ve güney çıkışından çık; zindan portallarına giden yollardan uzak dur.",
+	["Take the pass out of {area:340}'s west side into the {zone:1427}, then ride south across the gorge to the long bridge into {area:254}. Inside, follow the chain walkways down and leave through the southern exit; stay off the paths to the dungeon portals."] = "{area:340} kalesinin batı yakasındaki geçitten {zone:1427} bölgesine çık, sonra boğazı güneye geçerek {area:254} dağına giden uzun köprüye git. İçeride zincir geçitleri izleyerek aşağı in ve güney çıkışından çık. Zindan portallarına giden yollardan uzak dur.",
 	-- {area:254} Blackrock Mountain
 	["Bridge into {area:254}"] = "{area:254} köprüsü",
 
@@ -226,11 +226,11 @@ return {
 
 	-- Step 46: Sha'ni Proudtusk
 	-- {quest:3822} Krom'Grul · {quest:3821} Dreadmaul Rock
-	["Only from level 53: her next errand is {quest:3822} (54), who walks the caves of {quest:3821} among ogres of 50-53."] = "Yalnızca 53. seviyeden itibaren: bir sonraki işi {quest:3822} (54); o da {quest:3821} mağaralarında 50-53 seviyesindeki ogre'lerin arasında yürüyor.",
+	["Only from level 53: her next errand is {quest:3822} (54), who walks the caves of {quest:3821} among ogres of 50-53."] = "Yalnızca 53. seviyeden itibaren: bir sonraki işi {quest:3822} (54). O da {quest:3821} mağaralarında 50-53 seviyesindeki ogre'lerin arasında yürüyor.",
 
 	-- Step 47: Krom'Grul
 	-- {quest:3822} Krom'Grul · {quest:3821} Dreadmaul Rock
-	["{quest:3822} walks the caves and mine tunnels of {quest:3821}; if he isn't home, clear the ogres around the entrances until he comes back."] = "{quest:3822}, {quest:3821} kayasının mağaralarında ve maden tünellerinde dolaşıyor; evde değilse dönene kadar girişlerin çevresindeki ogreları temizle.",
+	["{quest:3822} walks the caves and mine tunnels of {quest:3821}; if he isn't home, clear the ogres around the entrances until he comes back."] = "{quest:3822}, {quest:3821} kayasının mağaralarında ve maden tünellerinde dolaşıyor. Evde değilse dönene kadar girişlerin çevresindeki ogreları temizle.",
 
 	-- Step 48: Ruins of Thaurissan: kill these as you meet them
 	-- {area:250} Ruins of Thaurissan
@@ -282,10 +282,10 @@ return {
 
 	-- Step 60: Janice Felstone
 	-- {npc:10778} Janice Felstone
-	["Back a few steps west to Felstone Farm, the first farm along the road; {npc:10778} waits in the house."] = "Birkaç adım batıya, yol boyunca ilk çiftlik olan Felstone Farm'a dön; {npc:10778} evde bekliyor.",
+	["Back a few steps west to Felstone Farm, the first farm along the road; {npc:10778} waits in the house."] = "Birkaç adım batıya, yol boyunca ilk çiftlik olan Felstone Farm'a dön, {npc:10778} evde bekliyor.",
 	["Upstairs"] = "Üst katta",
 	-- {object:175894} Janice's Parcel
-	["{object:175894}, beside the house; inside"] = "{object:175894}, evin yanında; içeride",
+	["{object:175894}, beside the house; inside"] = "{object:175894}, evin yanında, içeride",
 	-- {npc:10781} Royal Overseer Bauhaus · {zone:1458} Undercity · {npc:10739} Mulgris Deepriver · {area:202} Writhing Haunt
 	["Keep the parcel: {npc:10781} is in the {zone:1458}. The next guide starts with {npc:10739} by the {area:202}, south-east of here."] = "Paketi sakla: {npc:10781}, {zone:1458} şehrinde. Sonraki rehber buranın güneydoğusunda, {area:202} yanındaki {npc:10739} ile başlar.",
 }

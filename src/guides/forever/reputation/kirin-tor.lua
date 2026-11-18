@@ -45,7 +45,7 @@ return {
 
 	-- Step 8: Arcanist Doan
 	-- {area:796} Scarlet Monastery · {zone:1420} Tirisfal Glades
-	["The {area:796} stands in the north-east of {zone:1420}; Doan waits at the end of the Library wing. Group of five advised below level 40."] = "{area:796}, {zone:1420} bölgesinin kuzeydoğusunda duruyor; Doan, Library kanadının sonunda bekliyor. Seviye 40'ın altında beş kişilik grup önerilir.",
+	["The {area:796} stands in the north-east of {zone:1420}; Doan waits at the end of the Library wing. Group of five advised below level 40."] = "{area:796}, {zone:1420} bölgesinin kuzeydoğusunda duruyor. Doan, Library kanadının sonunda bekliyor. Seviye 40'ın altında beş kişilik grup önerilir.",
 	-- {item:273169} The Lost Magic of the Runemasters · {npc:6487} Arcanist Doan
 	["{item:273169}, from {npc:6487}"] = "{item:273169}, kaynak: {npc:6487}",
 
@@ -55,7 +55,7 @@ return {
 
 	-- Step 10: City of Dalaran runs to Friendly
 	["City of Dalaran runs to Friendly"] = "Friendly'ye kadar City of Dalaran koşuları",
-	["The quests leave a non-Skyborne at about 320 of the 3,000 Friendly needs. The rest comes from kills in the City of Dalaran dungeon: run it until Friendly. How much each kill pays is not in the game's data; the bosses pay the most. At 60 you clear it alone."] = "Görevler Skyborne olmayan birini Friendly'nin istediği 3.000'in yaklaşık 320'sinde bırakır. Gerisi City of Dalaran zindanındaki öldürmelerden gelir: Friendly olana kadar koş. Her öldürmenin ne kadar ödediği oyunun verisinde yok; en çok boss'lar öder. 60'ta onu tek başına temizlersin.",
+	["The quests leave a non-Skyborne at about 320 of the 3,000 Friendly needs. The rest comes from kills in the City of Dalaran dungeon: run it until Friendly. How much each kill pays is not in the game's data; the bosses pay the most. At 60 you clear it alone."] = "Görevler Skyborne olmayan birini Friendly'nin istediği 3.000'in yaklaşık 320'sinde bırakır. Gerisi City of Dalaran zindanındaki öldürmelerden gelir: Friendly olana kadar koş. Her öldürmenin ne kadar ödediği oyunun verisinde yok, en çok boss'lar öder. 60'ta onu tek başına temizlersin.",
 
 	-- Step 11: Archmage Alvareaux: the Azure recipes
 	-- {npc:32287} Archmage Alvareaux
@@ -65,7 +65,7 @@ return {
 
 	-- Step 12: City of Dalaran runs to Exalted
 	["City of Dalaran runs to Exalted"] = "Exalted'a kadar City of Dalaran koşuları",
-	["Nothing is sold at Honored or Revered in the game's data. Friendly to Exalted is 39,000 reputation, all from City of Dalaran kills. In Classic most dungeon kills stop paying at Honored or Revered; whether these do is not known yet."] = "Oyunun verisinde Honored ya da Revered'da hiçbir şey satılmıyor. Friendly'den Exalted'a 39.000 itibar, hepsi City of Dalaran öldürmelerinden. Classic'te zindan öldürmelerinin çoğu Honored ya da Revered'da ödemeyi bırakır; bunların bırakıp bırakmadığı henüz bilinmiyor.",
+	["Nothing is sold at Honored or Revered in the game's data. Friendly to Exalted is 39,000 reputation, all from City of Dalaran kills. In Classic most dungeon kills stop paying at Honored or Revered; whether these do is not known yet."] = "Oyunun verisinde Honored ya da Revered'da hiçbir şey satılmıyor. Friendly'den Exalted'a 39.000 itibar, hepsi City of Dalaran öldürmelerinden. Classic'te zindan öldürmelerinin çoğu Honored ya da Revered'da ödemeyi bırakır. Bunların bırakıp bırakmadığı henüz bilinmiyor.",
 
 	-- Step 13: The Kirin Tor Tabard
 	-- {item:285327} Kirin Tor Tabard

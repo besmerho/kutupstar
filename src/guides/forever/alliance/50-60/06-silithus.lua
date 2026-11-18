@@ -42,7 +42,7 @@ return {
 	["{area:1770} braziers"] = "{area:1770} mangalları",
 	-- {area:1770} Shadow Hold · {area:1763} Jaedenar · {item:12906} Purified Moonwell Water · {item:11172} Silvery Claws · {item:13140} Blood Red Key · {npc:11018} Arko'narin
 	-- plural, as words: Jaedenar Darkweavers = {npc:7118} Jaedenar Darkweaver
-	["{area:1770} is the cave at the back of {area:1763}, west of the road. Use the {item:12906} on the four braziers inside. Kill the Angerclaw bears and Felpaw wolves you pass for the {item:11172}.\nCareful: Shadow Council mobs of level 53-55 fill the cave and often come in large linked groups, many with stuns. A group of 2-3 players is recommended.\nThe Jaedenar Darkweavers, Warlocks and Enforcers in here drop a {item:13140}, about one kill in thirty: keep killing them until it drops. It opens the cell of {npc:11018}, the night elf held in the cave."] = "{area:1770}, {area:1763} arka tarafındaki, yolun batısındaki mağara. İçerideki dört mangalda {item:12906} kullan. {item:11172} için önünden geçtiğin Angerclaw ayılarını ve Felpaw kurtlarını öldür.\nDikkat: Mağara seviye 53-55 Shadow Council yaratıklarıyla dolu; sık sık büyük, bağlantılı gruplar hâlinde ve çoğu sersemletmeyle gelirler. 2-3 kişilik bir grup önerilir.\nBuradaki Jaedenar Darkweaver, Warlock ve Enforcer yaratıkları yaklaşık otuz öldürmede bir {item:13140} düşürür: düşene dek öldürmeye devam et. Mağarada tutulan night elf {npc:11018} adlı NPC'nin hücresini açar.",
+	["{area:1770} is the cave at the back of {area:1763}, west of the road. Use the {item:12906} on the four braziers inside. Kill the Angerclaw bears and Felpaw wolves you pass for the {item:11172}.\nCareful: Shadow Council mobs of level 53-55 fill the cave and often come in large linked groups, many with stuns. A group of 2-3 players is recommended.\nThe Jaedenar Darkweavers, Warlocks and Enforcers in here drop a {item:13140}, about one kill in thirty: keep killing them until it drops. It opens the cell of {npc:11018}, the night elf held in the cave."] = "{area:1770}, {area:1763} arka tarafındaki, yolun batısındaki mağara. İçerideki dört mangalda {item:12906} kullan. {item:11172} için önünden geçtiğin Angerclaw ayılarını ve Felpaw kurtlarını öldür.\nDikkat: Mağara seviye 53-55 Shadow Council yaratıklarıyla dolu. Sık sık büyük, bağlantılı gruplar hâlinde ve çoğu sersemletmeyle gelirler. 2-3 kişilik bir grup önerilir.\nBuradaki Jaedenar Darkweaver, Warlock ve Enforcer yaratıkları yaklaşık otuz öldürmede bir {item:13140} düşürür: düşene dek öldürmeye devam et. Mağarada tutulan night elf {npc:11018} adlı NPC'nin hücresini açar.",
 	["Angerclaw bears and Felpaw wolves"] = "Angerclaw ayıları ve Felpaw kurtları",
 	-- {object:176159} Brazier of Malice
 	["{object:176159}, below ground"] = "{object:176159}, yer altında",
@@ -53,7 +53,7 @@ return {
 	-- {object:176161} Brazier of Hatred
 	["{object:176161}, below ground"] = "{object:176161}, yer altında",
 	-- {npc:11016} Captured Arko'narin
-	["{npc:11016}, in her cell; below ground"] = "{npc:11016}, hücresinde; yerin altında",
+	["{npc:11016}, in her cell; below ground"] = "{npc:11016}, hücresinde, yerin altında",
 
 	-- Step 6: Arko'narin
 	-- {area:1770} Shadow Hold
@@ -62,7 +62,7 @@ return {
 	-- Step 8: Irontree Woods
 	-- {area:1767} Irontree Woods
 	-- plural, as words: Irontree Stompers = {npc:7139} Irontree Stomper · Felpaw Ravagers = {npc:8961} Felpaw Ravager · Ancient Irontree Walkers = {npc:235912} Ancient Irontree Walker
-	["Follow the road north to {area:1767}. The Irontree Stompers carry the heart; finish the claws on the Angerclaw Grizzlies and Felpaw Ravagers of the north.\nCareful: Ancient Irontree Walkers, level 59 elites, stand among the treants in the middle of {area:1767}: take the Stompers on the north side (about 48,21)."] = "Yolu kuzeye, {area:1767} ormanına izle. Kalbi Irontree Stomper yaratıkları taşıyor; pençeleri kuzeydeki Angerclaw Grizzly ve Felpaw Ravager yaratıklarıyla bitir.\nDikkat: 59. seviye elit Ancient Irontree Walker yaratıkları {area:1767} ortasında treant'ların arasında duruyor: Stomper'ları kuzey yakasında (yaklaşık 48,21) al.",
+	["Follow the road north to {area:1767}. The Irontree Stompers carry the heart; finish the claws on the Angerclaw Grizzlies and Felpaw Ravagers of the north.\nCareful: Ancient Irontree Walkers, level 59 elites, stand among the treants in the middle of {area:1767}: take the Stompers on the north side (about 48,21)."] = "Yolu kuzeye, {area:1767} ormanına izle. Kalbi Irontree Stomper yaratıkları taşıyor. Pençeleri kuzeydeki Angerclaw Grizzly ve Felpaw Ravager yaratıklarıyla bitir.\nDikkat: 59. seviye elit Ancient Irontree Walker yaratıkları {area:1767} ortasında treant'ların arasında duruyor: Stomper'ları kuzey yakasında (yaklaşık 48,21) al.",
 	-- plural, as words: Irontree Stompers = {npc:7139} Irontree Stomper
 	["Irontree Stompers"] = "Irontree Stomper yaratıkları",
 
@@ -78,7 +78,7 @@ return {
 
 	-- Step 11: A Final Blow
 	-- {area:1770} Shadow Hold · {npc:9861} Moora · {npc:9860} Salia · {npc:9517} Shadow Lord Fel'dan · {npc:9518} Rakaiah
-	["Back into {area:1770}: {npc:9861} and {npc:9860} guard {npc:9517} in its deepest chamber. The succubus {npc:9518} waits on the way, with Trey Lightforge's remains beside her.\nCareful: The three bosses fight as a group. Kill the nearby mobs first so you don't pull extra enemies."] = "{area:1770} içine geri dön: {npc:9861} ve {npc:9860}, en derin odada {npc:9517} adlı NPC'yi koruyor. Succubus {npc:9518} yolda bekliyor; Trey Lightforge'un kalıntıları yanında.\nDikkat: Üç boss grup hâlinde dövüşür. Fazladan düşman çekmemek için önce yakındaki yaratıkları öldür.",
+	["Back into {area:1770}: {npc:9861} and {npc:9860} guard {npc:9517} in its deepest chamber. The succubus {npc:9518} waits on the way, with Trey Lightforge's remains beside her.\nCareful: The three bosses fight as a group. Kill the nearby mobs first so you don't pull extra enemies."] = "{area:1770} içine geri dön: {npc:9861} ve {npc:9860}, en derin odada {npc:9517} adlı NPC'yi koruyor. Succubus {npc:9518} yolda bekliyor. Trey Lightforge'un kalıntıları yanında.\nDikkat: Üç boss grup hâlinde dövüşür. Fazladan düşman çekmemek için önce yakındaki yaratıkları öldür.",
 	-- {npc:9518} Rakaiah
 	["{npc:9518}, below ground"] = "{npc:9518}, yer altında",
 	-- {npc:11020} Remains of Trey Lightforge
@@ -88,7 +88,7 @@ return {
 	-- {npc:9860} Salia
 	["{npc:9860}, below ground"] = "{npc:9860}, yer altında",
 	-- {npc:9517} Shadow Lord Fel'dan
-	["{npc:9517}; below ground"] = "{npc:9517}; yer altında",
+	["{npc:9517}; below ground"] = "{npc:9517}, yer altında",
 
 	-- Step 12: The Emerald Sanctuary
 	["Ride back south along the road to the Sanctuary."] = "Yol boyunca güneye, Sanctuary'ye dön.",
@@ -194,7 +194,7 @@ return {
 	-- {zone:1451} Silithus
 	["{zone:1451}: kill these as you meet them"] = "{zone:1451}: bunları karşılaştıkça öldür",
 	-- plural, as words: Dredge Crushers = {npc:11741} Dredge Crusher · Stonelash Pincers = {npc:11736} Stonelash Pincer · Rock Stalkers = {npc:11739} Rock Stalker
-	["From the hold, west into the sands: Dredge Crushers dig there; Stonelash Pincers, Flayers and Rock Stalkers hunt the same sands."] = "Kaleden batıya, kumlara: Dredge Crusher yaratıkları orada kazıyor; Stonelash Pincer, Flayer ve Rock Stalker yaratıkları da aynı kumlarda avlanıyor.",
+	["From the hold, west into the sands: Dredge Crushers dig there; Stonelash Pincers, Flayers and Rock Stalkers hunt the same sands."] = "Kaleden batıya, kumlara: Dredge Crusher yaratıkları orada kazıyor. Stonelash Pincer, Flayer ve Rock Stalker yaratıkları da aynı kumlarda avlanıyor.",
 	-- {npc:11741} Dredge Crusher
 	["{npc:11741} walks around here: look inside the circle on the map"] = "{npc:11741} buralarda dolaşıyor: haritadaki çemberin içine bak",
 
@@ -207,7 +207,7 @@ return {
 	["{area:2742}: kill these as you meet them"] = "{area:2742}: bunları karşılaştıkça öldür",
 	-- {item:20404} Encrypted Twilight Text · {npc:15306} Bor Wildmane · {npc:15194} Hermit Ortell · {area:2742} Hive'Ashi
 	-- plural, as words: Dust Stormers = {npc:11744} Dust Stormer · Desert Rumblers = {npc:11746} Desert Rumbler · Twilight Avengers = {npc:11880} Twilight Avenger · Twilight Flamereavers = {npc:15201} Twilight Flamereaver
-	["The Twilight's Hammer dig fills the north-west corner: tablet fragments lie on the ground and the Dust Stormers and Desert Rumblers carry them too. Every cultist can drop an {item:20404}: keep twenty, ten for {npc:15306} and ten for {npc:15194} later.\nCareful: take the texts from the Twilight Avengers and Geolords; leave the Twilight Flamereavers (60) and stay out of the hive's mouth, where the {area:2742} elites (59-60) wait."] = "Twilight's Hammer kazısı kuzeybatı köşeyi dolduruyor: tablet parçaları yerde duruyor, Dust Stormer ve Desert Rumbler yaratıkları da onları taşıyor. Her tarikatçı bir {item:20404} düşürebilir: yirmi tane sakla, onu {npc:15306} için, onu da sonra {npc:15194} için.\nDikkat: metinleri Twilight Avenger ve Geolord'lardan al; Twilight Flamereaver yaratıklarını (60) bırak ve {area:2742} elitlerinin (59-60) beklediği kovanın ağzından uzak dur.",
+	["The Twilight's Hammer dig fills the north-west corner: tablet fragments lie on the ground and the Dust Stormers and Desert Rumblers carry them too. Every cultist can drop an {item:20404}: keep twenty, ten for {npc:15306} and ten for {npc:15194} later.\nCareful: take the texts from the Twilight Avengers and Geolords; leave the Twilight Flamereavers (60) and stay out of the hive's mouth, where the {area:2742} elites (59-60) wait."] = "Twilight's Hammer kazısı kuzeybatı köşeyi dolduruyor: tablet parçaları yerde duruyor, Dust Stormer ve Desert Rumbler yaratıkları da onları taşıyor. Her tarikatçı bir {item:20404} düşürebilir: yirmi tane sakla, onu {npc:15306} için, onu da sonra {npc:15194} için.\nDikkat: metinleri Twilight Avenger ve Geolord'lardan al. Twilight Flamereaver yaratıklarını (60) bırak ve {area:2742} elitlerinin (59-60) beklediği kovanın ağzından uzak dur.",
 	["Twilight's Hammer cultists"] = "Twilight's Hammer tarikatçıları",
 	-- plural, as words: Twilight Tablet Fragments = {item:20378} Twilight Tablet Fragment
 	["Twilight Tablet Fragments"] = "Twilight Tablet Fragment",
@@ -223,7 +223,7 @@ return {
 	-- plural, as words: Tortured Sentinels = {npc:12179} Tortured Sentinel
 	["Ride east to the ruins of {area:2738}. The {object:179565} lies among the ruined buildings, watched by Tortured Sentinels."] = "Doğuya, {area:2738} köyünün harabelerine git. {object:179565}, Tortured Sentinel yaratıklarının gözetiminde yıkık binaların arasında duruyor.",
 	-- {object:179565} Dusty Reliquary
-	["{object:179565}; inside"] = "{object:179565}; içeride",
+	["{object:179565}; inside"] = "{object:179565}, içeride",
 
 	-- Step 38: Hermit Ortell
 	-- {area:2738} Southwind Village
@@ -270,7 +270,7 @@ return {
 
 	-- Step 49: Winterfall Village
 	-- {npc:11556} Salfa · {quest:8464} Winterfall Activity · {area:2255} Everlook · {npc:10738} High Chief Winterfall
-	["{npc:11556}'s {quest:8464} waited for this visit: the furbolg village lies just east of {area:2255}, with Shaman (56-57), Den Watchers (55-56) and Ursa (57-58). Kill the Shaman first, they heal. {npc:10738} in the cave at the back is elite: stay out."] = "{npc:11556} adlı NPC'nin {quest:8464} görevi bu ziyareti bekledi: furbolg köyü {area:2255} kasabasının hemen doğusunda; Shaman (56-57), Den Watcher (55-56) ve Ursa (57-58) yaratıklarıyla. Önce Shaman'ları öldür, iyileştirirler. Arkadaki mağaradaki {npc:10738} elit: içeri girme.",
+	["{npc:11556}'s {quest:8464} waited for this visit: the furbolg village lies just east of {area:2255}, with Shaman (56-57), Den Watchers (55-56) and Ursa (57-58). Kill the Shaman first, they heal. {npc:10738} in the cave at the back is elite: stay out."] = "{npc:11556} adlı NPC'nin {quest:8464} görevi bu ziyareti bekledi: furbolg köyü {area:2255} kasabasının hemen doğusunda. Shaman (56-57), Den Watcher (55-56) ve Ursa (57-58) yaratıklarıyla. Önce Shaman'ları öldür, iyileştirirler. Arkadaki mağaradaki {npc:10738} elit: içeri girme.",
 
 	-- Step 50: Starfall Village
 	-- {area:2253} Starfall Village
@@ -280,7 +280,7 @@ return {
 	-- {npc:10301} Jaron Stoneshaper
 	["{npc:10301}'s camp"] = "{npc:10301} kampı",
 	-- {area:2255} Everlook · {npc:10301} Jaron Stoneshaper · {area:2245} Mazthoril
-	["Ride back east past {area:2255} and south-east down the valley to {npc:10301}'s damaged crate in the snow at {area:2245}, with his wrecked wagon just east of it."] = "{area:2255} kasabasının yanından doğuya dön ve vadiden güneydoğuya, {area:2245} kesimindeki karda duran {npc:10301} adlı NPC'nin hasarlı sandığına in; parçalanmış arabası hemen doğusunda.",
+	["Ride back east past {area:2255} and south-east down the valley to {npc:10301}'s damaged crate in the snow at {area:2245}, with his wrecked wagon just east of it."] = "{area:2255} kasabasının yanından doğuya dön ve vadiden güneydoğuya, {area:2245} kesimindeki karda duran {npc:10301} adlı NPC'nin hasarlı sandığına in, parçalanmış arabası hemen doğusunda.",
 
 	-- Step 53: Jaron Stoneshaper's supplies
 	-- {npc:10301} Jaron Stoneshaper
@@ -311,7 +311,7 @@ return {
 
 	-- Step 60: Kernda
 	-- {npc:11558} Kernda · {area:1769} Timbermaw Hold · {zone:1452} Winterspring
-	["{npc:11558} stands just inside the {area:1769} cave: she speaks to you from Neutral with the Timbermaw, which the Winterfall furbolgs you ground in {zone:1452} brought you to."] = "{npc:11558}, {area:1769} mağarasının hemen içinde duruyor: Timbermaw ile Neutral olunca seninle konuşur; {zone:1452} bölgesinde kastığın Winterfall furbolg'ları seni oraya getirdi.",
+	["{npc:11558} stands just inside the {area:1769} cave: she speaks to you from Neutral with the Timbermaw, which the Winterfall furbolgs you ground in {zone:1452} brought you to."] = "{npc:11558}, {area:1769} mağarasının hemen içinde duruyor: Timbermaw ile Neutral olunca seninle konuşur. {zone:1452} bölgesinde kastığın Winterfall furbolg'ları seni oraya getirdi.",
 	-- {npc:11558} Kernda
 	["{npc:11558}, just inside the cave: walks around here: look inside the circle on the map"] = "{npc:11558}, mağaranın hemen içinde: burada dolaşıyor: haritadaki çemberin içine bak",
 
@@ -325,13 +325,13 @@ return {
 	-- {npc:11557} Meilosh · {npc:11558} Kernda · {quest:6031} Runecloth · {zone:1452} Winterspring
 	["{npc:11557}, just inside the cave beside {npc:11558}, takes thirty {quest:6031} from Friendly with the Timbermaw: the {zone:1452} top-up on the Winterfall furbolgs gets you both."] = "Mağaranın hemen içinde, {npc:11558} yanındaki {npc:11557}, Timbermaw ile Friendly olunca otuz {quest:6031} alır: Winterfall furbolg'larındaki {zone:1452} takviyesi ikisini de sağlar.",
 	-- {npc:11557} Meilosh
-	["{npc:11557}; below ground"] = "{npc:11557}; yer altında",
+	["{npc:11557}; below ground"] = "{npc:11557}, yer altında",
 
 	-- Step 66: Winterspring: kill these as you meet them
 	-- {zone:1452} Winterspring
 	["{zone:1452}: kill these as you meet them"] = "{zone:1452}: bunları karşılaştıkça öldür",
 	-- {spell:5384} Feign Death
-	["The western Winterfall furbolgs drop the beads.\nCareful: Turning in spawns three or four level 56-57 Winterfall ambushers that attack you; you can escape them while mounted, in stealth or with {spell:5384}, and they then gather by the lake so you can take the next quest."] = "Batıdaki Winterfall furbolg'ları boncukları düşürür.\nDikkat: Teslim edince üç dört seviye 56-57 Winterfall pusucusu doğar ve saldırır; binekteyken, gizlenerek ya da {spell:5384} ile onlardan kaçabilirsin, sonra gölün yanında toplanırlar ve sıradaki görevi alabilirsin.",
+	["The western Winterfall furbolgs drop the beads.\nCareful: Turning in spawns three or four level 56-57 Winterfall ambushers that attack you; you can escape them while mounted, in stealth or with {spell:5384}, and they then gather by the lake so you can take the next quest."] = "Batıdaki Winterfall furbolg'ları boncukları düşürür.\nDikkat: Teslim edince üç dört seviye 56-57 Winterfall pusucusu doğar ve saldırır. Binekteyken, gizlenerek ya da {spell:5384} ile onlardan kaçabilirsin, sonra gölün yanında toplanırlar ve sıradaki görevi alabilirsin.",
 
 	-- Step 70: Umber
 	-- {area:1769} Timbermaw Hold · {zone:1452} Winterspring · {npc:9298} Donova Snowden · {area:493} Moonglade · {area:2361} Nighthaven · {npc:11939} Umber
@@ -449,7 +449,7 @@ return {
 	-- Step 98: Radley and Durgen
 	["Radley and Durgen"] = "Radley ve Durgen",
 	-- {npc:11613} Huntsman Radley · {npc:11610} Kirsta Deepshadow · {npc:11611} Cavalier Durgen · {area:190} Hearthglen
-	["{npc:11613} walks the Northridge camp east of {npc:11610}; {npc:11611} guards the tower at {area:190}'s southern approach.\nCareful: Guards stand at the tower's base and one more circles it on patrol. Clear them before you engage Durgen so they don't join the fight."] = "{npc:11613}, {npc:11610} adlı NPC'nin doğusundaki Northridge kampında dolaşıyor; {npc:11611}, {area:190} kasabasının güney girişindeki kuleyi koruyor.\nDikkat: Kulenin dibinde muhafızlar duruyor, bir tanesi de devriye gezerek çevresinde dönüyor. Durgen ile dövüşmeden önce onları temizle ki dövüşe katılmasınlar.",
+	["{npc:11613} walks the Northridge camp east of {npc:11610}; {npc:11611} guards the tower at {area:190}'s southern approach.\nCareful: Guards stand at the tower's base and one more circles it on patrol. Clear them before you engage Durgen so they don't join the fight."] = "{npc:11613}, {npc:11610} adlı NPC'nin doğusundaki Northridge kampında dolaşıyor. {npc:11611}, {area:190} kasabasının güney girişindeki kuleyi koruyor.\nDikkat: Kulenin dibinde muhafızlar duruyor, bir tanesi de devriye gezerek çevresinde dönüyor. Durgen ile dövüşmeden önce onları temizle ki dövüşe katılmasınlar.",
 
 	-- Step 99: Kirsta Deepshadow
 	-- {npc:11610} Kirsta Deepshadow

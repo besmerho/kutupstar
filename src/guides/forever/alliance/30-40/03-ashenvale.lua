@@ -17,7 +17,7 @@ return {
 
 	-- Step 3: Glorin Steelbrow
 	-- {npc:1217} Glorin Steelbrow · {area:2104} Deepwater Tavern · {npc:4963} Mikhail · {npc:5082} Vincent Hyal
-	["{npc:1217} stands in the {area:2104}, south of the keep, where {npc:4963} and {npc:5082} wait too."] = "{npc:1217}, kalenin güneyindeki {area:2104} hanında duruyor; {npc:4963} ve {npc:5082} de orada bekliyor.",
+	["{npc:1217} stands in the {area:2104}, south of the keep, where {npc:4963} and {npc:5082} wait too."] = "{npc:1217}, kalenin güneyindeki {area:2104} hanında duruyor. {npc:4963} ve {npc:5082} de orada bekliyor.",
 	["Inside"] = "İçeride",
 
 	-- Step 4: Deepwater Tavern
@@ -32,7 +32,7 @@ return {
 	["Lightforge Ingots"] = "Lightforge Ingot eşyaları",
 	["The Bluegill murlocs on the beach south-west of Menethil carry the ingots."] = "Külçeleri Menethil'in güneybatısındaki kumsalda bulunan Bluegill murlocları taşıyor.",
 	-- {item:2702} Lightforge Ingot
-	["{item:2702}; underwater"] = "{item:2702}; su altında",
+	["{item:2702}; underwater"] = "{item:2702}, su altında",
 
 	-- Step 7: Glorin Steelbrow
 	-- {npc:1416} Grimand Elmore · {zone:1453} Stormwind
@@ -41,7 +41,7 @@ return {
 	-- Step 9: Theramore
 	["Theramore"] = "Theramore",
 	-- {area:514} Foothold Citadel · {npc:5083} Clerk Lendry · {npc:4964} Commander Samaul
-	["The flight master stands by the gate of {area:514}; {npc:5083} and {npc:4964} are inside the citadel."] = "Uçuş ustası {area:514} kalesinin kapısının yanında duruyor; {npc:5083} ve {npc:4964} kalenin içinde.",
+	["The flight master stands by the gate of {area:514}; {npc:5083} and {npc:4964} are inside the citadel."] = "Uçuş ustası {area:514} kalesinin kapısının yanında duruyor. {npc:5083} ve {npc:4964} kalenin içinde.",
 	-- {npc:5083} Clerk Lendry
 	["{npc:5083}, on the top floor"] = "{npc:5083}, en üst katta",
 	-- {npc:4964} Commander Samaul
@@ -63,15 +63,15 @@ return {
 
 	-- Step 12: Takar the Seer
 	-- {zone:1413} Barrens · {npc:6244} Takar the Seer · {area:378} Camp Taurajo
-	["On the road south through the {zone:1413}, {npc:6244} camps east of the road, north-east of {area:378}; come in from the east and keep clear of the Horde guards."] = "{zone:1413} bölgesinden güneye giden yolda, {npc:6244} yolun doğusunda, {area:378} kampının kuzeydoğusunda kamp kurmuş; doğu tarafından yaklaş ve Horde muhafızlarından uzak dur.",
+	["On the road south through the {zone:1413}, {npc:6244} camps east of the road, north-east of {area:378}; come in from the east and keep clear of the Horde guards."] = "{zone:1413} bölgesinden güneye giden yolda, {npc:6244} yolun doğusunda, {area:378} kampının kuzeydoğusunda kamp kurmuş. Doğu tarafından yaklaş ve Horde muhafızlarından uzak dur.",
 	-- {quest:1738} Heartswood · {zone:1440} Ashenvale · {zone:1443} Desolace
 	["{quest:1738}: in {zone:1440}, on the way to {zone:1443}"] = "{quest:1738}: {zone:1443} yolunda, {zone:1440} bölgesinde",
 	-- {quest:65602} What Is Love? · {item:190309} Wooden Figurine · {quest:1738} Heartswood
-	["{quest:65602}: the incubus, beside the succubus; the {item:190309} is near the {quest:1738}"] = "{quest:65602}: succubus yaratığının yanındaki incubus; {item:190309} da {quest:1738} yakınında",
+	["{quest:65602}: the incubus, beside the succubus; the {item:190309} is near the {quest:1738}"] = "{quest:65602}: succubus yaratığının yanındaki incubus, {item:190309} da {quest:1738} yakınında",
 
 	-- Step 13: Highperch
 	-- {area:485} Great Lift · {zone:1441} Thousand Needles · {area:482} Highperch
-	["Down the {area:485} into {zone:1441}, then west to the wyverns' cliffs at {area:482}. Every wyvern there can drop a venom sac. Careful: wait on the platform until the lift is level with it before you step on, and stay on it until it stops; the drop beside it kills."] = "{area:485} ile {zone:1441} bölgesine in, sonra batıya, {area:482} yöresindeki wyvern kayalıklarına git. Oradaki her wyvern zehir kesesi düşürebilir. Dikkat: asansöre binmeden önce platformla aynı hizaya gelene kadar platformda bekle ve durana kadar üstünde kal; yanındaki uçurum öldürür.",
+	["Down the {area:485} into {zone:1441}, then west to the wyverns' cliffs at {area:482}. Every wyvern there can drop a venom sac. Careful: wait on the platform until the lift is level with it before you step on, and stay on it until it stops; the drop beside it kills."] = "{area:485} ile {zone:1441} bölgesine in, sonra batıya, {area:482} yöresindeki wyvern kayalıklarına git. Oradaki her wyvern zehir kesesi düşürebilir. Dikkat: asansöre binmeden önce platformla aynı hizaya gelene kadar platformda bekle ve durana kadar üstünde kal. Yanındaki uçurum öldürür.",
 
 	-- Step 14: Thousand Needles
 	-- {area:484} Freewind Post
@@ -110,7 +110,7 @@ return {
 
 	-- Step 20: Gadgetzan
 	-- {area:976} Gadgetzan · {npc:7823} Bera Stonehammer
-	["{area:976} is a short walk down the road; keep to it. {npc:7823}, the Alliance flight master, stands inside the walls."] = "{area:976} yolun biraz aşağısında; yoldan ayrılma. Alliance uçuş ustası {npc:7823} surların içinde duruyor.",
+	["{area:976} is a short walk down the road; keep to it. {npc:7823}, the Alliance flight master, stands inside the walls."] = "{area:976} yolun biraz aşağısında. Yoldan ayrılma. Alliance uçuş ustası {npc:7823} surların içinde duruyor.",
 
 	-- Step 21: Fly to Theramore
 	["Fly to Theramore"] = "Theramore'a uç",
@@ -119,7 +119,7 @@ return {
 
 	-- Step 22: Theramore
 	-- {npc:4456} Fiora Longears · {area:514} Foothold Citadel · {npc:4941} Caz Twosprocket
-	["{npc:4456} is in the north of town, Captain Vimes in {area:514}; {npc:4941} stands in the town."] = "{npc:4456} kasabanın kuzeyinde, Captain Vimes {area:514} kesiminde; {npc:4941} kasabada duruyor.",
+	["{npc:4456} is in the north of town, Captain Vimes in {area:514}; {npc:4941} stands in the town."] = "{npc:4456} kasabanın kuzeyinde, Captain Vimes {area:514} kesiminde. {npc:4941} kasabada duruyor.",
 
 	-- Step 23: Ratchet
 	-- {zone:1413} Barrens · {area:392} Ratchet · {area:35} Booty Bay

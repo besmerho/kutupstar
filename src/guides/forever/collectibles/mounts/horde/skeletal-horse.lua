@@ -26,5 +26,5 @@ return {
 	["{item:13332}, 20g"] = "{item:13332}, 20g",
 	-- {item:13333} Brown Skeletal Horse
 	["{item:13333}, 20g"] = "{item:13333}, 20g",
-	["new in Forever, 20g; beta players found it here"] = "Forever'da yeni, 20g; beta oyuncuları onu burada buldu",
+	["new in Forever, 20g; beta players found it here"] = "Forever'da yeni, 20g, beta oyuncuları onu burada buldu",
 }

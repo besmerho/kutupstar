@@ -5,7 +5,7 @@
 return {
 	-- Guide
 	-- {npc:14470} Impsy
-	["A staff, off-hand or robe for your 50s; {npc:14470}'s own errand, not a step of the Dreadsteed chain."] = "50'li seviyelerin için bir asa, yan el eşyası ya da cüppe; Dreadsteed zincirinin bir adımı değil, {npc:14470} adlı NPC'nin kendi işi.",
+	["A staff, off-hand or robe for your 50s; {npc:14470}'s own errand, not a step of the Dreadsteed chain."] = "50'li seviyelerin için bir asa, yan el eşyası ya da cüppe. Dreadsteed zincirinin bir adımı değil, {npc:14470} adlı NPC'nin kendi işi.",
 
 	-- Step 1: An Imp's Request (Stormwind)
 	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:14470} Impsy · {zone:1448} Felwood · {item:14256} Felcloth
@@ -40,7 +40,7 @@ return {
 	["{item:20613} and Bloodvenom"] = "{item:20613} ve Bloodvenom",
 	-- {area:1767} Irontree Woods · {zone:1448} Felwood · {area:1998} Talonbranch Glade · {item:20613} Rotting Wood · {npc:7149} Withered Protector · {npc:14470} Impsy
 	-- plural, as words: Tainted Oozes = {npc:7092} Tainted Ooze
-	["The Irontree treants (level 52) of {area:1767}, in northern {zone:1448} west of {area:1998}, drop {item:20613} one time in four; the big {npc:7149} (55) often drops three at once but hits hard and dazes. The Tainted Oozes (51) around {npc:14470} and along the Bloodvenom drop the essence one time in five."] = "Kuzey {zone:1448} bölgesinde, {area:1998} vadisinin batısındaki {area:1767} ormanının Irontree treant'ları (seviye 52) dörtte bir {item:20613} düşürür; büyük {npc:7149} (55) çoğu zaman birden üç tane düşürür ama sert vurur ve sersemletir. {npc:14470} adlı NPC'nin çevresindeki ve Bloodvenom boyunca dolaşan Tainted Ooze yaratıkları (51) beşte bir öz düşürür.",
+	["The Irontree treants (level 52) of {area:1767}, in northern {zone:1448} west of {area:1998}, drop {item:20613} one time in four; the big {npc:7149} (55) often drops three at once but hits hard and dazes. The Tainted Oozes (51) around {npc:14470} and along the Bloodvenom drop the essence one time in five."] = "Kuzey {zone:1448} bölgesinde, {area:1998} vadisinin batısındaki {area:1767} ormanının Irontree treant'ları (seviye 52) dörtte bir {item:20613} düşürür. Büyük {npc:7149} (55) çoğu zaman birden üç tane düşürür ama sert vurur ve sersemletir. {npc:14470} adlı NPC'nin çevresindeki ve Bloodvenom boyunca dolaşan Tainted Ooze yaratıkları (51) beşte bir öz düşürür.",
 
 	-- Step 9: Impsy again
 	-- {npc:14470} Impsy
@@ -52,7 +52,7 @@ return {
 	-- {area:1417} Sunken Temple
 	["The {area:1417}"] = "{area:1417}",
 	-- {area:1417} Sunken Temple · {area:1477} Temple of Atal'Hakkar · {area:74} Pool of Tears · {npc:5716} Zul'Lor
-	["The {area:1417} ({area:1477}, level 50-56, a group of five) stands in the middle of the {area:74}: swim down into the temple and take the stairs to the entrance. The six troll guardians (level 51-52, elite) stand on the balconies around the central pit, each with adds; each drops his feather every time: Gasher and {npc:5716} the Amber, Hukku and Mijan the Blue, Zolo and Loro the Green. Not soloable at 52."] = "{area:1417} ({area:1477}, seviye 50-56, beş kişilik bir grup), {area:74} gölünün ortasında duruyor: tapınağın içine yüzerek in ve merdivenlerle girişe git. Altı troll muhafız (seviye 51-52, elit), ortadaki çukurun çevresindeki balkonlarda, her biri ek yaratıklarla duruyor; her biri her seferinde tüyünü düşürür: Gasher ve Amber {npc:5716}, Hukku ve Blue Mijan, Zolo ve Green Loro. 52'de tek başına yapılmaz.",
+	["The {area:1417} ({area:1477}, level 50-56, a group of five) stands in the middle of the {area:74}: swim down into the temple and take the stairs to the entrance. The six troll guardians (level 51-52, elite) stand on the balconies around the central pit, each with adds; each drops his feather every time: Gasher and {npc:5716} the Amber, Hukku and Mijan the Blue, Zolo and Loro the Green. Not soloable at 52."] = "{area:1417} ({area:1477}, seviye 50-56, beş kişilik bir grup), {area:74} gölünün ortasında duruyor: tapınağın içine yüzerek in ve merdivenlerle girişe git. Altı troll muhafız (seviye 51-52, elit), ortadaki çukurun çevresindeki balkonlarda, her biri ek yaratıklarla duruyor. Her biri her seferinde tüyünü düşürür: Gasher ve Amber {npc:5716}, Hukku ve Blue Mijan, Zolo ve Green Loro. 52'de tek başına yapılmaz.",
 	-- {npc:5716} Zul'Lor
 	-- plural, as words: Amber Voodoo Feathers = {item:20606} Amber Voodoo Feather
 	["Amber Voodoo Feathers: Gasher, {npc:5716}"] = "Amber Voodoo Feather: Gasher, {npc:5716}",

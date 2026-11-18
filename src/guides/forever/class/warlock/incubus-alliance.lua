@@ -5,7 +5,7 @@
 return {
 	-- Guide
 	["Succubus and Incubus (Alliance)"] = "Succubus ve Incubus (Alliance)",
-	["At 20: the succubus and Forever's incubus, its male twin, each with a soul pouch for your shards."] = "20'de: succubus ve Forever'ın incubus'u, onun erkek ikizi; her biri parçaların için bir ruh kesesiyle.",
+	["At 20: the succubus and Forever's incubus, its male twin, each with a soul pouch for your shards."] = "20'de: succubus ve Forever'ın incubus'u, onun erkek ikizi. Her biri parçaların için bir ruh kesesiyle.",
 
 	-- Step 1: Gakin's Summons (Gnomes)
 	-- {quest:1717} Gakin's Summons
@@ -41,7 +41,7 @@ return {
 	-- {quest:1739} The Binding
 	["{quest:1739}: succubus"] = "{quest:1739}: succubus",
 	-- {npc:6122} Gakin the Darkbinder · {quest:1738} Heartswood · {item:6913} Heartswood Core
-	["Back to {npc:6122} with the {quest:1738}. He hands you the {item:6913}: take the stairs behind him down to the crypt; part way along the lowest corridor a side stair on the left leads to the room with the purple circle. Stand on it and use the core. Summon your voidwalker first and keep the succubus (level 20, not elite) on the circle, or the guards may kill her and the kill does not count. If she wins, use the core again; keep it, {npc:6122} takes it back."] = "{quest:1738} ile {npc:6122} yanına dön. Sana {item:6913} verir: arkasındaki merdivenlerden mahzene in; en alttaki koridorun ortalarında soldaki bir yan merdiven mor çemberli odaya iner. Çemberin üstünde dur ve çekirdeği kullan. Önce voidwalker'ını çağır ve succubus'u (seviye 20, elit değil) çemberin üzerinde tut, yoksa muhafızlar onu öldürebilir ve öldürme sayılmaz. O kazanırsa çekirdeği yeniden kullan; sakla, {npc:6122} geri alır.",
+	["Back to {npc:6122} with the {quest:1738}. He hands you the {item:6913}: take the stairs behind him down to the crypt; part way along the lowest corridor a side stair on the left leads to the room with the purple circle. Stand on it and use the core. Summon your voidwalker first and keep the succubus (level 20, not elite) on the circle, or the guards may kill her and the kill does not count. If she wins, use the core again; keep it, {npc:6122} takes it back."] = "{quest:1738} ile {npc:6122} yanına dön. Sana {item:6913} verir: arkasındaki merdivenlerden mahzene in. En alttaki koridorun ortalarında soldaki bir yan merdiven mor çemberli odaya iner. Çemberin üstünde dur ve çekirdeği kullan. Önce voidwalker'ını çağır ve succubus'u (seviye 20, elit değil) çemberin üzerinde tut, yoksa muhafızlar onu öldürebilir ve öldürme sayılmaz. O kazanırsa çekirdeği yeniden kullan, sakla, {npc:6122} geri alır.",
 	-- {item:6913} Heartswood Core
 	["{item:6913}, on the circle in the crypt"] = "{item:6913}, mahzendeki çemberin üzerinde",
 
@@ -49,7 +49,7 @@ return {
 	-- {quest:65603} The Binding
 	["{quest:65603}: incubus"] = "{quest:65603}: incubus",
 	-- {item:190309} Wooden Figurine · {npc:6122} Gakin the Darkbinder
-	["Give Gakin the figurine, then use the {item:190309} at the middle of the same circle and defeat the incubus it calls (level 20, not elite; it can charm you) with your voidwalker tanking. Keep the figurine: {npc:6122} takes it back."] = "Heykelciği Gakin'e ver, sonra {item:190309} eşyasını aynı çemberin ortasında kullan ve çağırdığı incubus'u (seviye 20, elit değil; seni etki altına alabilir) voidwalker'ın tank olurken yen. Heykelciği sakla: {npc:6122} geri alır.",
+	["Give Gakin the figurine, then use the {item:190309} at the middle of the same circle and defeat the incubus it calls (level 20, not elite; it can charm you) with your voidwalker tanking. Keep the figurine: {npc:6122} takes it back."] = "Heykelciği Gakin'e ver, sonra {item:190309} eşyasını aynı çemberin ortasında kullan ve çağırdığı incubus'u (seviye 20, elit değil, seni etki altına alabilir) voidwalker'ın tank olurken yen. Heykelciği sakla: {npc:6122} geri alır.",
 	-- {npc:185335} Summoned Incubus
 	["{npc:185335}, at the circle in the crypt"] = "{npc:185335}, mahzendeki çemberde",
 }

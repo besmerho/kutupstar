@@ -19,7 +19,7 @@ return {
 
 	-- Step 3: Kranal Fiss
 	-- {npc:5907} Kranal Fiss · {zone:1411} Durotar · {area:1704} Grol'dom Farm · {area:379} Far Watch Post · {zone:1440} Ashenvale
-	["{npc:5907} is not in the Crossroads: take the road north from the Crossroads and fork east towards {zone:1411}; past {area:1704} he paces by a tall tower east of the road (from {zone:1411}: over the Southfury bridge, past {area:379}). If you reach {zone:1440} you went too far."] = "{npc:5907} Crossroads'ta değil: Crossroads'tan kuzey yolunu izle ve doğuya, {zone:1411} yönüne sap; {area:1704} çiftliğini geçince yolun doğusundaki yüksek bir kulenin yanında volta atıyor ({zone:1411} bölgesinden: Southfury köprüsünü geç, {area:379} karakolunun ötesine). {zone:1440} bölgesine vardıysan çok ileri gittin.",
+	["{npc:5907} is not in the Crossroads: take the road north from the Crossroads and fork east towards {zone:1411}; past {area:1704} he paces by a tall tower east of the road (from {zone:1411}: over the Southfury bridge, past {area:379}). If you reach {zone:1440} you went too far."] = "{npc:5907} Crossroads'ta değil: Crossroads'tan kuzey yolunu izle ve doğuya, {zone:1411} yönüne sap. {area:1704} çiftliğini geçince yolun doğusundaki yüksek bir kulenin yanında volta atıyor ({zone:1411} bölgesinden: Southfury köprüsünü geç, {area:379} karakolunun ötesine). {zone:1440} bölgesine vardıysan çok ileri gittin.",
 
 	-- Step 4
 	-- {npc:5907} Kranal Fiss · {npc:3173} Swart
@@ -43,7 +43,7 @@ return {
 
 	-- Step 9: Telf Joolam
 	-- {zone:1411} Durotar · {npc:5900} Telf Joolam
-	["Back east over the bridge, then south along the {zone:1411} bank of the river to where the mountains meet the water. The trail up starts at the foot of the mountain beside a small dark stone carved with symbols, near the quilboar camp; it is narrow, and a slip costs fall damage. {npc:5900} keeps the shrine at the top."] = "Doğuya, köprüden geri geç, sonra nehrin {zone:1411} kıyısı boyunca güneye, dağların suyla buluştuğu yere git. Yukarı çıkan patika, quilboar kampının yakınında, sembollerle oyulmuş küçük koyu bir taşın yanında, dağın eteğinden başlıyor; dar, ayağın kayarsa düşme hasarı alırsın. {npc:5900} tepedeki tapınağı koruyor.",
+	["Back east over the bridge, then south along the {zone:1411} bank of the river to where the mountains meet the water. The trail up starts at the foot of the mountain beside a small dark stone carved with symbols, near the quilboar camp; it is narrow, and a slip costs fall damage. {npc:5900} keeps the shrine at the top."] = "Doğuya, köprüden geri geç, sonra nehrin {zone:1411} kıyısı boyunca güneye, dağların suyla buluştuğu yere git. Yukarı çıkan patika, quilboar kampının yakınında, sembollerle oyulmuş küçük koyu bir taşın yanında, dağın eteğinden başlıyor. Dar, ayağın kayarsa düşme hasarı alırsın. {npc:5900} tepedeki tapınağı koruyor.",
 
 	-- Step 10: Fire Tar
 	-- {item:5026} Fire Tar
@@ -53,7 +53,7 @@ return {
 	-- Step 11: Reagent Pouch
 	-- {spell:348} Immolate · {area:371} Dustwind Cave · {area:362} Razor Hill · {area:817} Skull Rock · {zone:1454} Orgrimmar
 	-- plural, as words: Burning Blade Cultists = {npc:3199} Burning Blade Cultist
-	["The Burning Blade Cultists (level 10-11, they call imps and cast {spell:348}) live deep in {area:371} north of {area:362}: climb the ramp just north-east of town and stay on the high ground above the ravines. The orcs at the cave mouth are not cultists; the cultists are further in, off to the left. Three kills in four drop a pouch. {area:817} by {zone:1454} is the wrong cave."] = "Burning Blade Cultist yaratıkları (seviye 10-11, imp çağırırlar ve {spell:348} kullanırlar), {area:362} kasabasının kuzeyindeki {area:371} mağarasının derinliklerinde yaşıyor: kasabanın hemen kuzeydoğusundaki rampaya tırman ve vadilerin üstündeki yüksek yerde kal. Mağara ağzındaki orc'lar tarikatçı değil; tarikatçılar daha içeride, solda. Dört öldürmenin üçünde kese düşer. {zone:1454} yanındaki {area:817} yanlış mağara.",
+	["The Burning Blade Cultists (level 10-11, they call imps and cast {spell:348}) live deep in {area:371} north of {area:362}: climb the ramp just north-east of town and stay on the high ground above the ravines. The orcs at the cave mouth are not cultists; the cultists are further in, off to the left. Three kills in four drop a pouch. {area:817} by {zone:1454} is the wrong cave."] = "Burning Blade Cultist yaratıkları (seviye 10-11, imp çağırırlar ve {spell:348} kullanırlar), {area:362} kasabasının kuzeyindeki {area:371} mağarasının derinliklerinde yaşıyor: kasabanın hemen kuzeydoğusundaki rampaya tırman ve vadilerin üstündeki yüksek yerde kal. Mağara ağzındaki orc'lar tarikatçı değil. Tarikatçılar daha içeride, solda. Dört öldürmenin üçünde kese düşer. {zone:1454} yanındaki {area:817} yanlış mağara.",
 
 	-- Step 12: Telf Joolam
 	-- {npc:5900} Telf Joolam · {quest:1464} Fire Sapta
@@ -114,7 +114,7 @@ return {
 	-- {object:148418} Eternal Flame
 	["The {object:148418}"] = "{object:148418}",
 	-- {npc:268592} Olariaan Swiftburn · {npc:268762} Brazier of Offering · {object:148418} Eternal Flame · {npc:268679} Brazier of Eternal Flame · {npc:252382} Sessaria Skystride · {area:16638} Valanaar
-	["Back to {npc:268592}. Accept the last quest, then wait by the {npc:268762} while he performs the ritual; when the fire spirits light the {object:148418}, hold the torch to it. From then you have six minutes: carry the flame straight to the {npc:268679} beside {npc:252382} in {area:16638}, with no detours or fights. Timer out? Abandon the quest and take it again from {npc:268592}."] = "{npc:268592} yanına dön. Son görevi kabul et, sonra o ritüeli yaparken {npc:268762} yanında bekle; ateş ruhları {object:148418} alevini yakınca meşaleyi ona tut. O andan itibaren altı dakikan var: alevi sapmadan ve dövüşmeden doğruca {area:16638} kasabasında {npc:252382} yanındaki {npc:268679} mangalına götür. Süre mi bitti? Görevi bırak ve {npc:268592} ile konuşup yeniden al.",
+	["Back to {npc:268592}. Accept the last quest, then wait by the {npc:268762} while he performs the ritual; when the fire spirits light the {object:148418}, hold the torch to it. From then you have six minutes: carry the flame straight to the {npc:268679} beside {npc:252382} in {area:16638}, with no detours or fights. Timer out? Abandon the quest and take it again from {npc:268592}."] = "{npc:268592} yanına dön. Son görevi kabul et, sonra o ritüeli yaparken {npc:268762} yanında bekle. Ateş ruhları {object:148418} alevini yakınca meşaleyi ona tut. O andan itibaren altı dakikan var: alevi sapmadan ve dövüşmeden doğruca {area:16638} kasabasında {npc:252382} yanındaki {npc:268679} mangalına götür. Süre mi bitti? Görevi bırak ve {npc:268592} ile konuşup yeniden al.",
 	-- {npc:268679} Brazier of Eternal Flame · {area:16638} Valanaar
 	["the ritual, then the {npc:268679} in {area:16638}"] = "Ritüel, sonra {area:16638} kasabasındaki {npc:268679}",
 

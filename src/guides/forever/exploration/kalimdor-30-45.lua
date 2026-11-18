@@ -12,9 +12,9 @@ return {
 	["Picks up west of the {zone:1413}, in {zone:1443}, and ends in {zone:1445}. 15 areas to discover here, levels 30-39."] = "{zone:1413} bölgesinin batısında, {zone:1443} bölgesinde devam eder ve {zone:1445} bölgesinde biter. Burada keşfedilecek 15 alan var, seviye 30-39.",
 	["Exploring the entire world map on one character is a Forever Legacy Challenge (1 account-wide Legacy Point)."] = "Tek bir karakterle tüm dünya haritasını keşfetmek bir Forever Legacy Challenge'ı (hesap geneli 1 Legacy Point).",
 	-- {area:467} Stonetalon Peak · {area:608} Nijel's Point · {zone:1442} Stonetalon Mountains · {zone:1443} Desolace
-	["Fly to {area:467} (or to {area:608} if you have it) and take the road south-west out of the {zone:1442} into {zone:1443}; {area:608} in the north is the Alliance town."] = "{area:467} kasabasına (ya da sende varsa {area:608} karakoluna) uç ve güneybatıya giden yoldan {zone:1442} bölgesinden çıkıp {zone:1443} bölgesine gir; kuzeydeki {area:608} Alliance kasabası.",
+	["Fly to {area:467} (or to {area:608} if you have it) and take the road south-west out of the {zone:1442} into {zone:1443}; {area:608} in the north is the Alliance town."] = "{area:467} kasabasına (ya da sende varsa {area:608} karakoluna) uç ve güneybatıya giden yoldan {zone:1442} bölgesinden çıkıp {zone:1443} bölgesine gir, kuzeydeki {area:608} Alliance kasabası.",
 	-- {area:460} Sun Rock Retreat · {zone:1443} Desolace · {area:2408} Shadowprey Village
-	["Fly to {area:460} and take the road south-west into {zone:1443}; {area:2408} on the west coast is the Horde town."] = "{area:460} kampına uç ve güneybatıya giden yoldan {zone:1443} bölgesine gir; batı kıyısındaki {area:2408} Horde kasabası.",
+	["Fly to {area:460} and take the road south-west into {zone:1443}; {area:2408} on the west coast is the Horde town."] = "{area:460} kampına uç ve güneybatıya giden yoldan {zone:1443} bölgesine gir. Batı kıyısındaki {area:2408} Horde kasabası.",
 	-- {area:608} Nijel's Point · {npc:6706} Baritanas Skyriver
 	["Flight path here: {area:608} ({npc:6706})."] = "Uçuş noktası: {area:608} ({npc:6706}).",
 	-- {area:2408} Shadowprey Village
@@ -32,7 +32,7 @@ return {
 	-- Step 4: Feralas (1/2)
 	["16 areas to discover here, levels 41-60."] = "Burada keşfedilecek 16 alan var, seviye 41-60.",
 	-- {zone:1443} Desolace · {zone:1444} Feralas
-	["Go back into southern {zone:1443}; the road continues south into {zone:1444}."] = "{zone:1443} bölgesinin güneyine dön; yol güneye, {zone:1444} bölgesine devam eder.",
+	["Go back into southern {zone:1443}; the road continues south into {zone:1444}."] = "{zone:1443} bölgesinin güneyine dön. Yol güneye, {zone:1444} bölgesine devam eder.",
 	-- {area:1116} Feathermoon Stronghold · {area:1120} Sardor Isle · {area:1108} Forgotten Coast
 	["{area:1116} on {area:1120} is the Alliance town (boat from the {area:1108})."] = "{area:1120} adasındaki {area:1116} Alliance kasabası ({area:1108} kıyısından gemiyle).",
 	-- {area:1099} Camp Mojache
@@ -52,15 +52,15 @@ return {
 	-- Step 7: Dustwallow Marsh
 	["7 areas to discover here, levels 36-61."] = "Burada keşfedilecek 7 alan var, seviye 36-61.",
 	-- {area:150} Menethil Harbor · {area:513} Theramore Isle
-	["Fly to Theramore (or take the boat from {area:150}); {area:513} is the Alliance town."] = "Theramore'a uç (ya da {area:150} limanından gemiye bin); {area:513} Alliance kasabası.",
+	["Fly to Theramore (or take the boat from {area:150}); {area:513} is the Alliance town."] = "Theramore'a uç (ya da {area:150} limanından gemiye bin), {area:513} Alliance kasabası.",
 	-- {zone:1445} Dustwallow Marsh · {zone:1413} Barrens · {area:496} Brackenwall Village
-	["{zone:1445} is east of the southern {zone:1413}; {area:496} in the north-west is the Horde town."] = "{zone:1445}, {zone:1413} bölgesinin güneyinin doğusunda; kuzeybatıdaki {area:496} Horde kasabası.",
+	["{zone:1445} is east of the southern {zone:1413}; {area:496} in the north-west is the Horde town."] = "{zone:1445}, {zone:1413} bölgesinin güneyinin doğusunda, kuzeybatıdaki {area:496} Horde kasabası.",
 	["Flight path here: Theramore (Baldruc)."] = "Uçuş noktası: Theramore (Baldruc).",
 	-- {area:496} Brackenwall Village
 	["Flight path here: {area:496} (Shardi)."] = "Uçuş noktası: {area:496} (Shardi).",
 	["any one of these names counts"] = "bu adlardan herhangi biri sayılır",
-	["Horde town: Alliance characters only need to touch its edge (guards); any one of these names counts"] = "Horde kasabası: Alliance karakterlerinin yalnızca kenarına dokunması yeterli (muhafızlar); bu adlardan herhangi biri sayılır",
-	["Alliance town: Horde characters only need to touch its edge (guards); any one of these names counts"] = "Alliance kasabası: Horde karakterlerinin yalnızca kenarına dokunması yeterli (muhafızlar); bu adlardan herhangi biri sayılır",
+	["Horde town: Alliance characters only need to touch its edge (guards); any one of these names counts"] = "Horde kasabası: Alliance karakterlerinin yalnızca kenarına dokunması yeterli (muhafızlar). Bu adlardan herhangi biri sayılır",
+	["Alliance town: Horde characters only need to touch its edge (guards); any one of these names counts"] = "Alliance kasabası: Horde karakterlerinin yalnızca kenarına dokunması yeterli (muhafızlar). Bu adlardan herhangi biri sayılır",
 
 	-- Step 8: Dustwallow Marsh: level 61+ area
 	-- {zone:1445} Dustwallow Marsh

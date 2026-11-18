@@ -29,5 +29,5 @@ return {
 	["{item:8631}, 20g"] = "{item:8631}, 20g",
 	-- {item:8632} Reins of the Spotted Frostsaber
 	["{item:8632}, 20g"] = "{item:8632}, 20g",
-	["new in Forever, 20g; beta players found it here"] = "Forever'da yeni, 20g; beta oyuncuları onu burada buldu",
+	["new in Forever, 20g; beta players found it here"] = "Forever'da yeni, 20g, beta oyuncuları onu burada buldu",
 }

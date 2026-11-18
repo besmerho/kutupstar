@@ -8,7 +8,7 @@ return {
 	["Learn {skill:129}"] = "{skill:129} öğren",
 	-- {skill:129} First Aid · {item:118} Minor Healing Potion · {item:2447} Peacebloom · {item:2678} Mild Spices · {item:3371} Empty Vial · {skill:182} Herbalism
 	-- plural, as words: Linen Bandages = {item:1251} Linen Bandage
-	["Any {skill:129} trainer of your faction teaches Apprentice {skill:129} (any character level, 1s); the arrow picks the nearest. Forever teaches {item:118} with it: {item:2447}, {item:2678} and an {item:3371}, orange to 55. With {skill:182} it can replace the Linen Bandages below."] = "Tarafının her {skill:129} eğitmeni Apprentice {skill:129} öğretir (her karakter seviyesinde, 1s); ok en yakınını seçer. Forever onunla birlikte {item:118} öğretir: {item:2447}, {item:2678} ve bir {item:3371}, 55 puana kadar turuncu. {skill:182} ile aşağıdaki Linen Bandage'ların yerini tutabilir.",
+	["Any {skill:129} trainer of your faction teaches Apprentice {skill:129} (any character level, 1s); the arrow picks the nearest. Forever teaches {item:118} with it: {item:2447}, {item:2678} and an {item:3371}, orange to 55. With {skill:182} it can replace the Linen Bandages below."] = "Tarafının her {skill:129} eğitmeni Apprentice {skill:129} öğretir (her karakter seviyesinde, 1s), ok en yakınını seçer. Forever onunla birlikte {item:118} öğretir: {item:2447}, {item:2678} ve bir {item:3371}, 55 puana kadar turuncu. {skill:182} ile aşağıdaki Linen Bandage'ların yerini tutabilir.",
 
 	-- Step 2: Linen Bandage: Auction House
 	-- {item:1251} Linen Bandage
@@ -25,7 +25,7 @@ return {
 	-- Step 4: Linen Bandage (1-40)
 	-- {item:1251} Linen Bandage · {item:279968} First Aid Kit · {skill:129} First Aid · {item:159} Refreshing Spring Water
 	-- plural, as words: Linen Bandages = {item:1251} Linen Bandage
-	["{item:1251} is orange from 1 (yellow at 30, green at 45, grey at 60): about 41 crafts to 40. Bandages need no fire: craft them anywhere. At 20 the trainer also teaches {item:279968} (1s; the Camping 101: {skill:129} quest at your starting area's camp teaches it free), Forever's camping item for {skill:129}: three Linen Bandages and a {item:159}; it gives a few points until 25."] = "{item:1251}: 1 puandan turuncu (sarı 30, yeşil 45, gri 60): 40 puana kadar yaklaşık 41 üretim. Sargılar ateş istemez: her yerde yap. 20 puanda eğitmen Forever'ın {skill:129} kamp eşyası {item:279968} tarifini de öğretir (1s; başlangıç bölgendeki kampta alınan Camping 101: {skill:129} görevi ücretsiz öğretir): üç Linen Bandage ve bir {item:159}; 25 puana kadar birkaç puan verir.",
+	["{item:1251} is orange from 1 (yellow at 30, green at 45, grey at 60): about 41 crafts to 40. Bandages need no fire: craft them anywhere. At 20 the trainer also teaches {item:279968} (1s; the Camping 101: {skill:129} quest at your starting area's camp teaches it free), Forever's camping item for {skill:129}: three Linen Bandages and a {item:159}; it gives a few points until 25."] = "{item:1251}: 1 puandan turuncu (sarı 30, yeşil 45, gri 60): 40 puana kadar yaklaşık 41 üretim. Sargılar ateş istemez: her yerde yap. 20 puanda eğitmen Forever'ın {skill:129} kamp eşyası {item:279968} tarifini de öğretir (1s, başlangıç bölgendeki kampta alınan Camping 101: {skill:129} görevi ücretsiz öğretir): üç Linen Bandage ve bir {item:159}. 25 puana kadar birkaç puan verir.",
 
 	-- Step 5: Heavy Linen Bandage: Auction House
 	-- {item:2581} Heavy Linen Bandage
@@ -39,13 +39,13 @@ return {
 
 	-- Step 7: Heavy Linen Bandage (40-50)
 	-- {item:2581} Heavy Linen Bandage · {skill:129} First Aid
-	["{item:2581} is orange from 40 (yellow at 50, green at 75, grey at 100): about 10 crafts to 50. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 40 for 1s; the arrow picks the nearest."] = "{item:2581}: 40 puandan turuncu (sarı 50, yeşil 75, gri 100): 50 puana kadar yaklaşık 10 üretim. Sargılar ateş istemez: her yerde yap. Tarafının her {skill:129} eğitmeni bunu 40 puandan 1s karşılığında öğretir; ok en yakınını seçer.",
+	["{item:2581} is orange from 40 (yellow at 50, green at 75, grey at 100): about 10 crafts to 50. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 40 for 1s; the arrow picks the nearest."] = "{item:2581}: 40 puandan turuncu (sarı 50, yeşil 75, gri 100): 50 puana kadar yaklaşık 10 üretim. Sargılar ateş istemez: her yerde yap. Tarafının her {skill:129} eğitmeni bunu 40 puandan 1s karşılığında öğretir, ok en yakınını seçer.",
 
 	-- Step 8: Journeyman First Aid
 	-- {skill:129} First Aid
 	["Journeyman {skill:129}"] = "Journeyman {skill:129}",
 	-- {skill:129} First Aid
-	["Journeyman {skill:129} raises the cap to 150; it needs skill 50 and no character level: the arrow picks the nearest {skill:129} trainer of your faction; training costs 5s."] = "Journeyman {skill:129}, sınırı 150 puana çıkarır; beceri 50 ister, karakter seviyesi istemez: ok tarafının en yakın {skill:129} eğitmenini seçer; eğitim 5s.",
+	["Journeyman {skill:129} raises the cap to 150; it needs skill 50 and no character level: the arrow picks the nearest {skill:129} trainer of your faction; training costs 5s."] = "Journeyman {skill:129}, sınırı 150 puana çıkarır. Beceri 50 ister, karakter seviyesi istemez: ok tarafının en yakın {skill:129} eğitmenini seçer, eğitim 5s.",
 
 	-- Step 9: Heavy Linen Bandage: Auction House
 	-- {item:2581} Heavy Linen Bandage · {item:2589} Linen Cloth
@@ -53,7 +53,7 @@ return {
 
 	-- Step 11: Heavy Linen Bandage (50-80)
 	-- {item:2581} Heavy Linen Bandage · {item:858} Lesser Healing Potion · {item:2450} Briarthorn · {item:2678} Mild Spices · {item:3371} Empty Vial
-	["{item:2581} is yellow from 50 (yellow at 50, green at 75, grey at 100): about 46 crafts to 80. Bandages need no fire: craft them anywhere. Herbalists: {item:858} (from 55, 1s 50c; {item:2450}, two {item:2678} and an {item:3371}) is orange to 85."] = "{item:2581}: 50 puandan sarı (sarı 50, yeşil 75, gri 100): 80 puana kadar yaklaşık 46 üretim. Sargılar ateş istemez: her yerde yap. Bitki toplayıcılar: {item:858} (55 puandan, 1s 50c; {item:2450}, iki {item:2678} ve bir {item:3371}) 85 puana kadar turuncu.",
+	["{item:2581} is yellow from 50 (yellow at 50, green at 75, grey at 100): about 46 crafts to 80. Bandages need no fire: craft them anywhere. Herbalists: {item:858} (from 55, 1s 50c; {item:2450}, two {item:2678} and an {item:3371}) is orange to 85."] = "{item:2581}: 50 puandan sarı (sarı 50, yeşil 75, gri 100): 80 puana kadar yaklaşık 46 üretim. Sargılar ateş istemez: her yerde yap. Bitki toplayıcılar: {item:858} (55 puandan, 1s 50c, {item:2450}, iki {item:2678} ve bir {item:3371}) 85 puana kadar turuncu.",
 
 	-- Step 12: Wool Bandage: Auction House
 	-- {spell:3277} Wool Bandage
@@ -69,7 +69,7 @@ return {
 
 	-- Step 14: Wool Bandage (80-115)
 	-- {spell:3277} Wool Bandage · {skill:129} First Aid · {item:6452} Anti-Venom · {item:1475} Small Venom Sac · {spell:9810} Touch of Zanzil
-	["{spell:3277} is yellow from 80 (yellow at 80, green at 115, grey at 150): about 49 crafts to 115. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 80 for 2s 50c; the arrow picks the nearest. {item:6452} ({item:1475}, from spiders) is taught at 80 too: Rogues need it for {spell:9810}, and it sells."] = "{spell:3277}: 80 puandan sarı (sarı 80, yeşil 115, gri 150): 115 puana kadar yaklaşık 49 üretim. Sargılar ateş istemez: her yerde yap. Tarafının her {skill:129} eğitmeni bunu 80 puandan 2s 50c karşılığında öğretir; ok en yakınını seçer. {item:6452} (örümceklerden {item:1475}) da 80 puanda öğretilir: Rogue'ların {spell:9810} için ona ihtiyacı var ve satılır.",
+	["{spell:3277} is yellow from 80 (yellow at 80, green at 115, grey at 150): about 49 crafts to 115. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 80 for 2s 50c; the arrow picks the nearest. {item:6452} ({item:1475}, from spiders) is taught at 80 too: Rogues need it for {spell:9810}, and it sells."] = "{spell:3277}: 80 puandan sarı (sarı 80, yeşil 115, gri 150): 115 puana kadar yaklaşık 49 üretim. Sargılar ateş istemez: her yerde yap. Tarafının her {skill:129} eğitmeni bunu 80 puandan 2s 50c karşılığında öğretir, ok en yakınını seçer. {item:6452} (örümceklerden {item:1475}) da 80 puanda öğretilir: Rogue'ların {spell:9810} için ona ihtiyacı var ve satılır.",
 
 	-- Step 15: Heavy Wool Bandage: Auction House
 	-- {spell:3278} Heavy Wool Bandage
@@ -83,13 +83,13 @@ return {
 
 	-- Step 17: Heavy Wool Bandage (115-125)
 	-- {spell:3278} Heavy Wool Bandage · {skill:129} First Aid · {item:929} Healing Potion · {item:2453} Bruiseweed · {item:2692} Hot Spices · {item:3372} Leaded Vial
-	["{spell:3278} is yellow from 115 (yellow at 115, green at 150, grey at 185): about 11 crafts to 125. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 115 for 10s; the arrow picks the nearest. Herbalists: {item:929} (from 110, 8s; {item:2453}, {item:2692} and a {item:3372}) is orange to 135."] = "{spell:3278}: 115 puandan sarı (sarı 115, yeşil 150, gri 185): 125 puana kadar yaklaşık 11 üretim. Sargılar ateş istemez: her yerde yap. Tarafının her {skill:129} eğitmeni bunu 115 puandan 10s karşılığında öğretir; ok en yakınını seçer. Bitki toplayıcılar: {item:929} (110 puandan, 8s; {item:2453}, {item:2692} ve bir {item:3372}) 135 puana kadar turuncu.",
+	["{spell:3278} is yellow from 115 (yellow at 115, green at 150, grey at 185): about 11 crafts to 125. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 115 for 10s; the arrow picks the nearest. Herbalists: {item:929} (from 110, 8s; {item:2453}, {item:2692} and a {item:3372}) is orange to 135."] = "{spell:3278}: 115 puandan sarı (sarı 115, yeşil 150, gri 185): 125 puana kadar yaklaşık 11 üretim. Sargılar ateş istemez: her yerde yap. Tarafının her {skill:129} eğitmeni bunu 115 puandan 10s karşılığında öğretir, ok en yakınını seçer. Bitki toplayıcılar: {item:929} (110 puandan, 8s, {item:2453}, {item:2692} ve bir {item:3372}) 135 puana kadar turuncu.",
 
 	-- Step 18: Expert First Aid
 	-- {skill:129} First Aid
 	["Expert {skill:129}"] = "Expert {skill:129}",
 	-- {skill:129} First Aid · {item:16084} Expert First Aid - Under Wraps · {item:8544} Mageweave Bandage
-	["Expert {skill:129} raises the cap to 225; it needs skill 125 and character level 20: it is a book, {item:16084} (1g); the arrow picks its nearest seller for your faction. Buy it and read it. The same vendor sells the Heavy Silk and {item:8544} manuals (22s and 50s): buy both now, you read them at 180 and 210."] = "Expert {skill:129}, sınırı 225 puana çıkarır; beceri 125 ve karakter seviyesi 20 ister: bir kitaptır, {item:16084} (1g); ok tarafının en yakın satıcısını seçer. Al ve oku. Aynı satıcı Heavy Silk ve {item:8544} kılavuzlarını da satar (22s ve 50s): ikisini de şimdi al, 180 ve 210 puanda okursun.",
+	["Expert {skill:129} raises the cap to 225; it needs skill 125 and character level 20: it is a book, {item:16084} (1g); the arrow picks its nearest seller for your faction. Buy it and read it. The same vendor sells the Heavy Silk and {item:8544} manuals (22s and 50s): buy both now, you read them at 180 and 210."] = "Expert {skill:129}, sınırı 225 puana çıkarır. Beceri 125 ve karakter seviyesi 20 ister: bir kitaptır, {item:16084} (1g). Ok tarafının en yakın satıcısını seçer. Al ve oku. Aynı satıcı Heavy Silk ve {item:8544} kılavuzlarını da satar (22s ve 50s): ikisini de şimdi al, 180 ve 210 puanda okursun.",
 	-- {item:16084} Expert First Aid - Under Wraps · {skill:129} First Aid
 	["Buy and read {item:16084} (Expert {skill:129})"] = "{item:16084} satın al ve oku (Expert {skill:129})",
 
@@ -115,7 +115,7 @@ return {
 
 	-- Step 24: Silk Bandage (150-180)
 	-- {item:6450} Silk Bandage · {skill:129} First Aid
-	["{item:6450} is yellow from 150 (yellow at 150, green at 180, grey at 210): about 42 crafts to 180. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 150 for 50s; the arrow picks the nearest."] = "{item:6450}: 150 puandan sarı (sarı 150, yeşil 180, gri 210): 180 puana kadar yaklaşık 42 üretim. Sargılar ateş istemez: her yerde yap. Tarafının her {skill:129} eğitmeni bunu 150 puandan 50s karşılığında öğretir; ok en yakınını seçer.",
+	["{item:6450} is yellow from 150 (yellow at 150, green at 180, grey at 210): about 42 crafts to 180. Bandages need no fire: craft them anywhere. Any {skill:129} trainer of your faction teaches it from skill 150 for 50s; the arrow picks the nearest."] = "{item:6450}: 150 puandan sarı (sarı 150, yeşil 180, gri 210): 180 puana kadar yaklaşık 42 üretim. Sargılar ateş istemez: her yerde yap. Tarafının her {skill:129} eğitmeni bunu 150 puandan 50s karşılığında öğretir, ok en yakınını seçer.",
 
 	-- Step 25: Heavy Silk Bandage: Auction House
 	-- {item:6451} Heavy Silk Bandage
@@ -150,23 +150,23 @@ return {
 	-- Step 31: Trauma
 	["Trauma"] = "Trauma",
 	-- {skill:129} First Aid · {quest:6624} Triage · {zone:1455} Ironforge · {item:14047} Runecloth
-	["Artisan {skill:129} comes from the {quest:6624} quest. It needs skill 225 and level 35; the {skill:129} trainer in {zone:1455} sends you to the doctor in Theramore. Bring the Mageweave (about 74) and {item:14047} (about 65) for 225-300 now: bandages need no fire, so you craft 225-300 beside the doctor, who teaches the Artisan bandages."] = "Artisan {skill:129}, {quest:6624} görevinden gelir. Beceri 225 ve seviye 35 ister; {zone:1455} şehrindeki {skill:129} eğitmeni seni Theramore'daki doktora gönderir. 225-300 için Mageweave'i (yaklaşık 74) ve {item:14047} kumaşını (yaklaşık 65) şimdi getir: sargılar ateş istemez, bu yüzden 225-300'ü Artisan sargılarını öğreten doktorun yanında yaparsın.",
+	["Artisan {skill:129} comes from the {quest:6624} quest. It needs skill 225 and level 35; the {skill:129} trainer in {zone:1455} sends you to the doctor in Theramore. Bring the Mageweave (about 74) and {item:14047} (about 65) for 225-300 now: bandages need no fire, so you craft 225-300 beside the doctor, who teaches the Artisan bandages."] = "Artisan {skill:129}, {quest:6624} görevinden gelir. Beceri 225 ve seviye 35 ister. {zone:1455} şehrindeki {skill:129} eğitmeni seni Theramore'daki doktora gönderir. 225-300 için Mageweave'i (yaklaşık 74) ve {item:14047} kumaşını (yaklaşık 65) şimdi getir: sargılar ateş istemez, bu yüzden 225-300'ü Artisan sargılarını öğreten doktorun yanında yaparsın.",
 
 	-- Step 32: Trauma
 	-- {skill:129} First Aid · {quest:6622} Triage · {zone:1454} Orgrimmar · {area:321} Hammerfall · {item:14047} Runecloth
-	["Artisan {skill:129} comes from the {quest:6622} quest. It needs skill 225 and level 35; the {skill:129} trainer in {zone:1454} sends you to the doctor in {area:321}. Bring the Mageweave (about 74) and {item:14047} (about 65) for 225-300 now: bandages need no fire, so you craft 225-300 beside the doctor, who teaches the Artisan bandages."] = "Artisan {skill:129}, {quest:6622} görevinden gelir. Beceri 225 ve seviye 35 ister; {zone:1454} şehrindeki {skill:129} eğitmeni seni {area:321} kasabasındaki doktora gönderir. 225-300 için Mageweave'i (yaklaşık 74) ve {item:14047} kumaşını (yaklaşık 65) şimdi getir: sargılar ateş istemez, bu yüzden 225-300'ü Artisan sargılarını öğreten doktorun yanında yaparsın.",
+	["Artisan {skill:129} comes from the {quest:6622} quest. It needs skill 225 and level 35; the {skill:129} trainer in {zone:1454} sends you to the doctor in {area:321}. Bring the Mageweave (about 74) and {item:14047} (about 65) for 225-300 now: bandages need no fire, so you craft 225-300 beside the doctor, who teaches the Artisan bandages."] = "Artisan {skill:129}, {quest:6622} görevinden gelir. Beceri 225 ve seviye 35 ister. {zone:1454} şehrindeki {skill:129} eğitmeni seni {area:321} kasabasındaki doktora gönderir. 225-300 için Mageweave'i (yaklaşık 74) ve {item:14047} kumaşını (yaklaşık 65) şimdi getir: sargılar ateş istemez, bu yüzden 225-300'ü Artisan sargılarını öğreten doktorun yanında yaparsın.",
 
 	-- Step 33: Triage
 	-- {quest:6624} Triage
 	-- plural, as words: Triage Bandages = {item:16991} Triage Bandage
-	["{quest:6624}: the doctor hands you Triage Bandages; use those, not your own. Fifteen wounded soldiers lie inside: bandage the critically injured first, then the badly injured, then the injured, before any die (show the health bars with Ctrl+V). Turn the quest in the moment fifteen are saved: the others keep dying, and too many deaths fail it even after it reads complete. If it fails, abandon it and take it again."] = "{quest:6624}: doktor sana Triage Bandage verir; kendi sargılarını değil, onları kullan. İçeride on beş yaralı asker yatıyor: hiçbiri ölmeden önce önce ağır yaralıları (critically injured), sonra kötü yaralıları (badly injured), sonra yaralıları (injured) sar (can çubuklarını Ctrl+V ile göster). On beşi kurtarılır kurtarılmaz görevi teslim et: diğerleri ölmeyi sürdürür ve tamamlandı yazsa bile çok fazla ölüm görevi başarısız kılar. Başarısız olursa görevi bırak ve yeniden al.",
+	["{quest:6624}: the doctor hands you Triage Bandages; use those, not your own. Fifteen wounded soldiers lie inside: bandage the critically injured first, then the badly injured, then the injured, before any die (show the health bars with Ctrl+V). Turn the quest in the moment fifteen are saved: the others keep dying, and too many deaths fail it even after it reads complete. If it fails, abandon it and take it again."] = "{quest:6624}: doktor sana Triage Bandage verir. Kendi sargılarını değil, onları kullan. İçeride on beş yaralı asker yatıyor: hiçbiri ölmeden önce önce ağır yaralıları (critically injured), sonra kötü yaralıları (badly injured), sonra yaralıları (injured) sar (can çubuklarını Ctrl+V ile göster). On beşi kurtarılır kurtarılmaz görevi teslim et: diğerleri ölmeyi sürdürür ve tamamlandı yazsa bile çok fazla ölüm görevi başarısız kılar. Başarısız olursa görevi bırak ve yeniden al.",
 	-- {skill:129} First Aid
 	["Artisan {skill:129}"] = "Artisan {skill:129}",
 
 	-- Step 34: Triage
 	-- {quest:6622} Triage
 	-- plural, as words: Triage Bandages = {item:16991} Triage Bandage
-	["{quest:6622}: the doctor hands you Triage Bandages; use those, not your own. Fifteen wounded soldiers lie on the floor inside: bandage the critically injured first, then the badly injured, then the injured, before any die (show the health bars with Ctrl+V). Turn the quest in the moment fifteen are saved: the others keep dying, and too many deaths fail it even after it reads complete. If it fails, abandon it and take it again."] = "{quest:6622}: doktor sana Triage Bandage verir; kendi sargılarını değil, onları kullan. İçeride yerde on beş yaralı asker yatıyor: hiçbiri ölmeden önce önce ağır yaralıları (critically injured), sonra kötü yaralıları (badly injured), sonra yaralıları (injured) sar (can çubuklarını Ctrl+V ile göster). On beşi kurtarılır kurtarılmaz görevi teslim et: diğerleri ölmeyi sürdürür ve tamamlandı yazsa bile çok fazla ölüm görevi başarısız kılar. Başarısız olursa görevi bırak ve yeniden al.",
+	["{quest:6622}: the doctor hands you Triage Bandages; use those, not your own. Fifteen wounded soldiers lie on the floor inside: bandage the critically injured first, then the badly injured, then the injured, before any die (show the health bars with Ctrl+V). Turn the quest in the moment fifteen are saved: the others keep dying, and too many deaths fail it even after it reads complete. If it fails, abandon it and take it again."] = "{quest:6622}: doktor sana Triage Bandage verir. Kendi sargılarını değil, onları kullan. İçeride yerde on beş yaralı asker yatıyor: hiçbiri ölmeden önce önce ağır yaralıları (critically injured), sonra kötü yaralıları (badly injured), sonra yaralıları (injured) sar (can çubuklarını Ctrl+V ile göster). On beşi kurtarılır kurtarılmaz görevi teslim et: diğerleri ölmeyi sürdürür ve tamamlandı yazsa bile çok fazla ölüm görevi başarısız kılar. Başarısız olursa görevi bırak ve yeniden al.",
 
 	-- Step 35: Mageweave Bandage: Auction House
 	-- {item:8544} Mageweave Bandage · {item:4338} Mageweave Cloth

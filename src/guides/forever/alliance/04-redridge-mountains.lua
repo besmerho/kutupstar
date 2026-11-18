@@ -8,15 +8,15 @@ return {
 	["Train, then leave by the main gate and follow the road east through {zone:1429}.\n{quest:174} in {area:42} needs a {item:4371}. Its vendors keep only one or two, and {npc:3133} in {area:42} is nearly always sold out: buy one at the Auction House in the {object:2096} on your way out. An engineer can make one too."] = "Eğitimini al, sonra ana kapıdan çık ve yolu doğuya, {zone:1429} içinden izle.\n{area:42} kasabasındaki {quest:174} görevi bir {item:4371} ister. Satıcılarında yalnızca bir iki tane olur ve {area:42} kasabasındaki {npc:3133} neredeyse her zaman tükenmiştir: çıkarken {object:2096} semtindeki Auction House'tan bir tane al. Bir engineer da yapabilir.",
 	["Your new spells"] = "Yeni büyülerin",
 	-- {item:4371} Bronze Tube · {quest:174} Look to the Stars · {area:42} Darkshire
-	["{item:4371}: the Auction House, for {quest:174} in {area:42}"] = "{item:4371}: Auction House; {area:42} kasabasındaki {quest:174} görevi için",
+	["{item:4371}: the Auction House, for {quest:174} in {area:42}"] = "{item:4371}: Auction House, {area:42} kasabasındaki {quest:174} görevi için",
 
 	-- Step 2: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Polearms from {npc:11867} ({object:2096}, 1 gold); two-handers level a Warrior fastest."] = "Buradayken: {npc:11867} sana Polearms öğretir ({object:2096}, 1 altın); Warrior en hızlı iki elli silahla seviye atlar.",
+	["While you're here: learn Polearms from {npc:11867} ({object:2096}, 1 gold); two-handers level a Warrior fastest."] = "Buradayken: {npc:11867} sana Polearms öğretir ({object:2096}, 1 altın). Warrior en hızlı iki elli silahla seviye atlar.",
 
 	-- Step 3: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Polearms from {npc:11867} ({object:2096}, 1 gold); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11867} sana Polearms öğretir ({object:2096}, 1 altın); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
+	["While you're here: learn Polearms from {npc:11867} ({object:2096}, 1 gold); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11867} sana Polearms öğretir ({object:2096}, 1 altın). Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
 	-- Step 4: Fly to Sentinel Hill
 	-- {area:108} Sentinel Hill
@@ -53,11 +53,11 @@ return {
 
 	-- Step 11: Darkshire
 	-- {area:1002} Three Corners · {zone:1431} Duskwood · {area:42} Darkshire
-	["Follow the road south from {area:1002} into {zone:1431}; {area:42} lies on the east side of the forest."] = "{area:1002} kavşağından yolu güneye izleyerek {zone:1431} bölgesine gir; {area:42} ormanın doğu yakasında.",
+	["Follow the road south from {area:1002} into {zone:1431}; {area:42} lies on the east side of the forest."] = "{area:1002} kavşağından yolu güneye izleyerek {zone:1431} bölgesine gir. {area:42} ormanın doğu yakasında.",
 	-- {npc:2409} Felicia Maline
 	["{npc:2409}, at the north end of town"] = "{npc:2409}, kasabanın kuzey ucunda",
 	-- {npc:265} Madame Eva
-	["{npc:265}, in her house by the tavern; inside"] = "{npc:265}, meyhanenin yanındaki evinde; içeride",
+	["{npc:265}, in her house by the tavern; inside"] = "{npc:265}, meyhanenin yanındaki evinde, içeride",
 	-- {npc:265} Madame Eva
 	["{npc:265}, inside"] = "{npc:265}, içeride",
 	-- {npc:6790} Innkeeper Trelayne
@@ -69,7 +69,7 @@ return {
 	-- {npc:268} Sirra Von'Indi
 	["{npc:268}, in the house behind the town hall"] = "{npc:268}, belediye binasının arkasındaki evde",
 	-- {npc:633} Elaine Carevin
-	["{npc:633}, at the south end of town; inside"] = "{npc:633}, kasabanın güney ucunda; içeride",
+	["{npc:633}, at the south end of town; inside"] = "{npc:633}, kasabanın güney ucunda, içeride",
 	-- {npc:633} Elaine Carevin · {npc:288} Jitters · {quest:163} Raven Hill
 	["{npc:633}: {npc:288}, at {quest:163}"] = "{npc:633}: {npc:288}, {quest:163} içinde",
 
@@ -100,7 +100,7 @@ return {
 
 	-- Step 17: Raven Hill
 	-- {quest:163} Raven Hill · {object:673515} Memory of Valor · {npc:288} Jitters
-	["Continue west to {quest:163}. The {object:673515} glows by the ruined house south of the road; {npc:288} hides in the house at the west end of the village."] = "Batıya, {quest:163} köyüne devam et. {object:673515}, yolun güneyindeki yıkık evin yanında parlıyor; {npc:288} köyün batı ucundaki evde saklanıyor.",
+	["Continue west to {quest:163}. The {object:673515} glows by the ruined house south of the road; {npc:288} hides in the house at the west end of the village."] = "Batıya, {quest:163} köyüne devam et. {object:673515}, yolun güneyindeki yıkık evin yanında parlıyor. {npc:288} köyün batı ucundaki evde saklanıyor.",
 	-- {item:281046} Raven Hill Tome · {object:673515} Memory of Valor
 	["{item:281046}, from the {object:673515}"] = "{item:281046}, kaynak: {object:673515}",
 	-- {npc:272} Chef Grual · {area:42} Darkshire
@@ -115,7 +115,7 @@ return {
 	["{area:1097}: kill these as you meet them"] = "{area:1097}: bunları karşılaştıkça öldür",
 	-- {npc:289} Abercrombie · {area:1097} The Hushed Bank · {quest:163} Raven Hill · {npc:311} Sven Yorgen · {zone:1436} Westfall
 	-- plural, as words: Pygmy Venom Web Spiders = {npc:539} Pygmy Venom Web Spider
-	["Rabid Dire Wolves roam the woods around the cemetery and {npc:289}, Starving Dire Wolves the hills north-east of him. Pygmy Venom Web Spiders are the small spiders, and few: most crawl along the {area:1097} west of {quest:163}, fewer up north towards {npc:311}'s camp; they drop the venom too. Every ghoul of the cemetery's northern half can drop a fang. Wolves and the bigger spiders share the {zone:1436} border, so pull with care."] = "Rabid Dire Wolf yaratıkları mezarlığın ve {npc:289} yanının çevresindeki ormanda, Starving Dire Wolf yaratıkları onun kuzeydoğusundaki tepelerde dolaşıyor. Pygmy Venom Web Spider yaratıkları küçük örümceklerdir ve azdır: çoğu {quest:163} köyünün batısında, {area:1097} boyunca dolaşıyor, daha azı kuzeyde, {npc:311} adlı NPC'nin kampına doğru; zehri onlar da düşürür. Mezarlığın kuzey yarısındaki her ghoul bir diş düşürebilir. Kurtlar ve büyük örümcekler {zone:1436} sınırını paylaşıyor, bu yüzden dikkatli çek.",
+	["Rabid Dire Wolves roam the woods around the cemetery and {npc:289}, Starving Dire Wolves the hills north-east of him. Pygmy Venom Web Spiders are the small spiders, and few: most crawl along the {area:1097} west of {quest:163}, fewer up north towards {npc:311}'s camp; they drop the venom too. Every ghoul of the cemetery's northern half can drop a fang. Wolves and the bigger spiders share the {zone:1436} border, so pull with care."] = "Rabid Dire Wolf yaratıkları mezarlığın ve {npc:289} yanının çevresindeki ormanda, Starving Dire Wolf yaratıkları onun kuzeydoğusundaki tepelerde dolaşıyor. Pygmy Venom Web Spider yaratıkları küçük örümceklerdir ve azdır: çoğu {quest:163} köyünün batısında, {area:1097} boyunca dolaşıyor, daha azı kuzeyde, {npc:311} adlı NPC'nin kampına doğru. Zehri onlar da düşürür. Mezarlığın kuzey yarısındaki her ghoul bir diş düşürebilir. Kurtlar ve büyük örümcekler {zone:1436} sınırını paylaşıyor, bu yüzden dikkatli çek.",
 	-- {item:1130} Vial of Spider Venom
 	-- plural, as words: Pygmy Venom Web Spiders = {npc:539} Pygmy Venom Web Spider · Venom Web Spiders = {npc:217} Venom Web Spider · Green Recluses = {npc:569} Green Recluse
 	["{item:1130}: Pygmy Venom Web Spiders, Venom Web Spiders and Green Recluses"] = "{item:1130}: Pygmy Venom Web Spider, Venom Web Spider ve Green Recluse yaratıkları",
@@ -131,7 +131,7 @@ return {
 	["{area:492}: kill these as you meet them"] = "{area:492}: bunları karşılaştıkça öldür",
 	-- {npc:522} Mor'Ladim
 	-- plural, as words: Skeletal Horrors = {npc:202} Skeletal Horror · Skeletal Fiends = {npc:531} Skeletal Fiend · Flesh Eaters = {npc:3} Flesh Eater · Bone Chewers = {npc:210} Bone Chewer · Plague Spreaders = {npc:604} Plague Spreader · Fetid Corpses = {npc:1270} Fetid Corpse
-	["The cemetery lies north of the village. Skeletal Horrors and Skeletal Fiends (23-25) walk its southern half and carry the fingers; for the fangs, Flesh Eaters (24-25) drop the most, so leave the Bone Chewers, Plague Spreaders and Fetid Corpses (26-30) further in alone. {npc:522}, an elite, wanders the graves: keep away from him.\nCareful: Eliza, a level 31 elite, rises from her grave at the cemetery's north end: keep away from it."] = "Mezarlık köyün kuzeyinde. Skeletal Horror ve Skeletal Fiend yaratıkları (23-25) güney yarısında dolaşır ve parmakları taşır; dişler için en çok Flesh Eater yaratıkları (24-25) düşürür, bu yüzden daha içerideki Bone Chewer, Plague Spreader ve Fetid Corpse yaratıklarını (26-30) rahat bırak. Elit {npc:522} mezarların arasında dolaşıyor: ondan uzak dur.\nDikkat: 31. seviye elit Eliza, mezarlığın kuzey ucundaki mezarından kalkar: oradan uzak dur.",
+	["The cemetery lies north of the village. Skeletal Horrors and Skeletal Fiends (23-25) walk its southern half and carry the fingers; for the fangs, Flesh Eaters (24-25) drop the most, so leave the Bone Chewers, Plague Spreaders and Fetid Corpses (26-30) further in alone. {npc:522}, an elite, wanders the graves: keep away from him.\nCareful: Eliza, a level 31 elite, rises from her grave at the cemetery's north end: keep away from it."] = "Mezarlık köyün kuzeyinde. Skeletal Horror ve Skeletal Fiend yaratıkları (23-25) güney yarısında dolaşır ve parmakları taşır. Dişler için en çok Flesh Eater yaratıkları (24-25) düşürür, bu yüzden daha içerideki Bone Chewer, Plague Spreader ve Fetid Corpse yaratıklarını (26-30) rahat bırak. Elit {npc:522} mezarların arasında dolaşıyor: ondan uzak dur.\nDikkat: 31. seviye elit Eliza, mezarlığın kuzey ucundaki mezarından kalkar: oradan uzak dur.",
 
 	-- Step 22: Watcher Dodds
 	-- {area:245} Yorgen Farmstead
@@ -147,7 +147,7 @@ return {
 	["{npc:272}, in the Scarlet Raven Tavern"] = "{npc:272}, Scarlet Raven Tavern içinde",
 	-- {npc:272} Chef Grual · {zone:1431} Duskwood
 	-- plural, as words: Gooey Spider Legs = {item:2251} Gooey Spider Leg
-	["{npc:272}: six Gooey Spider Legs, which {zone:1431}'s spiders drop even without the quest"] = "{npc:272}: altı Gooey Spider Leg; {zone:1431} bölgesindeki örümcekler bunları görev olmadan da düşürür",
+	["{npc:272}: six Gooey Spider Legs, which {zone:1431}'s spiders drop even without the quest"] = "{npc:272}: altı Gooey Spider Leg. {zone:1431} bölgesindeki örümcekler bunları görev olmadan da düşürür",
 	["Already carrying six? Hand them in now"] = "Altısı zaten sende mi? Şimdi teslim et",
 	-- {npc:288} Jitters · {quest:163} Raven Hill · {zone:1431} Duskwood
 	["For {npc:288}, at {quest:163} on the next {zone:1431} loop"] = "Sonraki {zone:1431} turunda, {quest:163} görevinde {npc:288} için",
@@ -199,23 +199,23 @@ return {
 	-- Step 33: Alther's Mill
 	-- {quest:98386} Alther's Mill
 	-- plural, as words: Greater Tarantulas = {npc:505} Greater Tarantula · Tarantula Eggs = {object:673101} Tarantula Egg
-	["Greater Tarantulas crawl on the slopes around {quest:98386}, north-east of the lake; their Tarantula Eggs lie on the ground among them: click six."] = "Greater Tarantula yaratıkları gölün kuzeydoğusunda, {quest:98386} çevresindeki yamaçlarda sürünüyor; Tarantula Egg nesneleri aralarında yerde duruyor: altısına tıkla.",
+	["Greater Tarantulas crawl on the slopes around {quest:98386}, north-east of the lake; their Tarantula Eggs lie on the ground among them: click six."] = "Greater Tarantula yaratıkları gölün kuzeydoğusunda, {quest:98386} çevresindeki yamaçlarda sürünüyor. Tarantula Egg nesneleri aralarında yerde duruyor: altısına tıkla.",
 
 	-- Step 34: Blackrock camps
 	["Blackrock camps"] = "Blackrock kampları",
 	-- {area:1000} Galardell Valley · {area:2099} Stonewatch Keep
-	["South-east from the mill, west of {area:1000}'s gnolls, to the Blackrock camps east of {area:2099}. Renegades, Grunts and Outrunners fill them; keep east of the keep, whose orcs are elite. Weapon racks and swords lie about the camps; meat haunches, grain sacks and water barrels hold the supplies."] = "Değirmenden güneydoğuya, {area:1000} vadisindeki gnoll'ların batısından {area:2099} kalesinin doğusundaki Blackrock kamplarına git. Kamplar Renegade, Grunt ve Outrunner yaratıklarıyla dolu; kalenin doğusunda kal, oradaki orc'lar elit. Silah rafları ve kılıçlar kampların her yanında duruyor; malzemeler but parçalarında, tahıl çuvallarında ve su fıçılarında.",
+	["South-east from the mill, west of {area:1000}'s gnolls, to the Blackrock camps east of {area:2099}. Renegades, Grunts and Outrunners fill them; keep east of the keep, whose orcs are elite. Weapon racks and swords lie about the camps; meat haunches, grain sacks and water barrels hold the supplies."] = "Değirmenden güneydoğuya, {area:1000} vadisindeki gnoll'ların batısından {area:2099} kalesinin doğusundaki Blackrock kamplarına git. Kamplar Renegade, Grunt ve Outrunner yaratıklarıyla dolu. Kalenin doğusunda kal, oradaki orc'lar elit. Silah rafları ve kılıçlar kampların her yanında duruyor. Malzemeler but parçalarında, tahıl çuvallarında ve su fıçılarında.",
 	-- {item:280841} Stolen Weapon
 	["{item:280841}: weapon racks and swords on the ground"] = "{item:280841}: silah rafları ve yerdeki kılıçlar",
 	-- {item:280839} Blackrock Supplies
 	["{item:280839}: meat haunches, grain sacks, water barrels"] = "{item:280839}: but parçaları, tahıl çuvalları, su fıçıları",
 
 	-- Step 35: Incinerator Gar'im
-	["Gar'im keeps to the cave at the camps' south end with his imp and two orcs. Elite: group up if you can; solo, pull the orcs at the mouth first and interrupt his fire cast."] = "Gar'im, imp'i ve iki orc ile birlikte kampların güney ucundaki mağarada duruyor. Elit: elinden gelirse grup kur; tekken önce ağızdaki orc'ları çek ve ateş büyüsünü kes.",
+	["Gar'im keeps to the cave at the camps' south end with his imp and two orcs. Elite: group up if you can; solo, pull the orcs at the mouth first and interrupt his fire cast."] = "Gar'im, imp'i ve iki orc ile birlikte kampların güney ucundaki mağarada duruyor. Elit: elinden gelirse grup kur. Tekken önce ağızdaki orc'ları çek ve ateş büyüsünü kes.",
 
 	-- Step 36: Galardell Valley
 	-- {npc:703} Lieutenant Fangore · {area:2099} Stonewatch Keep
-	["North up the valley's east side. Shadowhide gnolls fill it; {npc:703} (26) and his two guards stand at its north end: clear the gnolls around him first and fight at full health. Stay out of {area:2099} to the west until the watch tower: its orcs are elite."] = "Vadinin doğu yakasından kuzeye çık. Vadi Shadowhide gnoll'larıyla dolu; {npc:703} (26) ve iki muhafızı kuzey ucunda duruyor: önce çevresindeki gnoll'ları temizle ve canın tamken dövüş. Gözetleme kulesine kadar batıdaki {area:2099} kalesinden uzak dur: oradaki orc'lar elit.",
+	["North up the valley's east side. Shadowhide gnolls fill it; {npc:703} (26) and his two guards stand at its north end: clear the gnolls around him first and fight at full health. Stay out of {area:2099} to the west until the watch tower: its orcs are elite."] = "Vadinin doğu yakasından kuzeye çık. Vadi Shadowhide gnoll'larıyla dolu. {npc:703} (26) ve iki muhafızı kuzey ucunda duruyor: önce çevresindeki gnoll'ları temizle ve canın tamken dövüş. Gözetleme kulesine kadar batıdaki {area:2099} kalesinden uzak dur: oradaki orc'lar elit.",
 	-- {item:1075} Shadowhide Pendant
 	["{item:1075}: any Shadowhide gnoll"] = "{item:1075}: herhangi bir Shadowhide gnollu",
 
@@ -230,7 +230,7 @@ return {
 	-- Step 39: Stonewatch Keep
 	-- {npc:334} Gath'Ilzogg
 	-- plural, as words: Blackrock Shadowcasters = {npc:436} Blackrock Shadowcaster
-	["The keep stands beside the tower. {npc:334} (elite) waits in the keep's top room with two guards and a dragon; Blackrock Shadowcasters (elite) and Sentries stand on its west side, so pull one at a time on the way in, and hug the right wall as you enter his room so you don't pull him at once. Elite: group up if you can."] = "Kale, kulenin yanında duruyor. {npc:334} (elit), kalenin en üst odasında iki muhafız ve bir ejderhayla bekliyor; Blackrock Shadowcaster (elit) ve Sentry yaratıkları batı yakasında duruyor, bu yüzden içeri girerken tek tek çek, onu hemen çekmemek için odasına girerken sağ duvara yapış. Elit: elinden gelirse grup kur.",
+	["The keep stands beside the tower. {npc:334} (elite) waits in the keep's top room with two guards and a dragon; Blackrock Shadowcasters (elite) and Sentries stand on its west side, so pull one at a time on the way in, and hug the right wall as you enter his room so you don't pull him at once. Elite: group up if you can."] = "Kale, kulenin yanında duruyor. {npc:334} (elit), kalenin en üst odasında iki muhafız ve bir ejderhayla bekliyor. Blackrock Shadowcaster (elit) ve Sentry yaratıkları batı yakasında duruyor, bu yüzden içeri girerken tek tek çek, onu hemen çekmemek için odasına girerken sağ duvara yapış. Elit: elinden gelirse grup kur.",
 
 	-- Step 40: Yowler
 	-- {area:95} Redridge Canyons · {area:997} Render's Valley · {npc:518} Yowler
@@ -240,13 +240,13 @@ return {
 	-- Step 41: Render's Valley
 	-- {area:95} Redridge Canyons · {area:997} Render's Valley · {area:69} Lakeshire
 	-- plural, as words: Blackrock Champions = {npc:435} Blackrock Champion
-	["From the keep head back west along the lake's north shore and north up the {area:95} to {area:997}; {area:69}'s hand-ins wait for Keeshan's escort, which ends there. Blackrock Champions camp in the valley."] = "Kaleden gölün kuzey kıyısı boyunca batıya dön ve {area:95} kesiminden kuzeye, {area:997} kesimine çık; {area:69} kasabasındaki teslimler, orada biten Keeshan eskortunu bekler. Blackrock Champion yaratıkları vadide kamp kurmuş.",
+	["From the keep head back west along the lake's north shore and north up the {area:95} to {area:997}; {area:69}'s hand-ins wait for Keeshan's escort, which ends there. Blackrock Champions camp in the valley."] = "Kaleden gölün kuzey kıyısı boyunca batıya dön ve {area:95} kesiminden kuzeye, {area:997} kesimine çık. {area:69} kasabasındaki teslimler, orada biten Keeshan eskortunu bekler. Blackrock Champion yaratıkları vadide kamp kurmuş.",
 	-- {npc:435} Blackrock Champion
 	["{npc:435}, below ground"] = "{npc:435}, yer altında",
 
 	-- Step 42: Corporal Keeshan
 	-- {zone:1428} Burning Steppes · {area:69} Lakeshire
-	["Keeshan hides at the very north end of the valley, by the {zone:1428} border. Escort him down to {area:69}; Blackrock orcs ambush you on the way."] = "Keeshan vadinin en kuzey ucunda, {zone:1428} sınırının yakınında saklanıyor. Ona {area:69} kasabasına kadar eşlik et; yolda Blackrock orkları pusu kurar.",
+	["Keeshan hides at the very north end of the valley, by the {zone:1428} border. Escort him down to {area:69}; Blackrock orcs ambush you on the way."] = "Keeshan vadinin en kuzey ucunda, {zone:1428} sınırının yakınında saklanıyor. Ona {area:69} kasabasına kadar eşlik et, yolda Blackrock orkları pusu kurar.",
 	-- {npc:349} Corporal Keeshan
 	["{npc:349}, below ground"] = "{npc:349}, yer altında",
 

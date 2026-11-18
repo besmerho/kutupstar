@@ -38,7 +38,7 @@ return {
 
 	-- Step 9: Dousing the Flames of Protection
 	-- {area:1763} Jaedenar
-	["Ride north-west to {area:1763}. The four braziers stand among the Shadow Council's buildings; use the Cleansed Water on each one.\nCareful: Shadow Council mobs of level 53-55 fill the cave and often come in large linked groups, many with stuns. A group of 2-3 players is recommended."] = "Kuzeybatıya, {area:1763} kesimine sür. Dört mangal Shadow Council'in binalarının arasında duruyor; her birinin üzerinde Cleansed Water kullan.\nDikkat: Mağarayı seviye 53-55 Shadow Council yaratıkları dolduruyor ve çoğu zaman büyük bağlı gruplar halinde, çoğu sersemletme kullanarak gelirler. 2-3 kişilik bir grup önerilir.",
+	["Ride north-west to {area:1763}. The four braziers stand among the Shadow Council's buildings; use the Cleansed Water on each one.\nCareful: Shadow Council mobs of level 53-55 fill the cave and often come in large linked groups, many with stuns. A group of 2-3 players is recommended."] = "Kuzeybatıya, {area:1763} kesimine sür. Dört mangal Shadow Council'in binalarının arasında duruyor. Her birinin üzerinde Cleansed Water kullan.\nDikkat: Mağarayı seviye 53-55 Shadow Council yaratıkları dolduruyor ve çoğu zaman büyük bağlı gruplar halinde, çoğu sersemletme kullanarak gelirler. 2-3 kişilik bir grup önerilir.",
 	["Below ground"] = "Yer altında",
 
 	-- Step 10: Greta Mosshoof
@@ -76,7 +76,7 @@ return {
 	-- Step 17: Toxic Horrors
 	-- {zone:1448} Felwood · {area:1767} Irontree Woods · {quest:5086} Toxic Horrors · {npc:14524} Vartrus the Ancient
 	-- plural, as words: Ancient Irontree Walkers = {npc:235912} Ancient Irontree Walker
-	["Ride north up the {zone:1448} road to {area:1767}; the {quest:5086} ooze between the trees, and most of them drop a droplet.\nCareful: Ancient Irontree Walkers, level 59 elites, walk among the {quest:5086}, and {npc:14524} (63, elite) roams the woods: work the Horrors at the north tip of {area:1767}, one at a time."] = "{zone:1448} yolundan kuzeye, {area:1767} ormanına sür; {quest:5086} ağaçların arasında sızıyor, çoğu da bir damla düşürür.\nDikkat: 59. seviye elitler olan Ancient Irontree Walker yaratıkları {quest:5086} arasında yürüyor, {npc:14524} (63, elit) de ormanda dolaşıyor: Horror'larla {area:1767} kuzey ucunda, tek tek uğraş.",
+	["Ride north up the {zone:1448} road to {area:1767}; the {quest:5086} ooze between the trees, and most of them drop a droplet.\nCareful: Ancient Irontree Walkers, level 59 elites, walk among the {quest:5086}, and {npc:14524} (63, elite) roams the woods: work the Horrors at the north tip of {area:1767}, one at a time."] = "{zone:1448} yolundan kuzeye, {area:1767} ormanına sür. {quest:5086} ağaçların arasında sızıyor, çoğu da bir damla düşürür.\nDikkat: 59. seviye elitler olan Ancient Irontree Walker yaratıkları {quest:5086} arasında yürüyor, {npc:14524} (63, elit) de ormanda dolaşıyor: Horror'larla {area:1767} kuzey ucunda, tek tek uğraş.",
 
 	-- Step 19: Umber
 	-- {zone:1450} Moonglade · {npc:11939} Umber · {area:2361} Nighthaven
@@ -93,12 +93,12 @@ return {
 
 	-- Step 25: Donova Snowden
 	-- {zone:1452} Winterspring · {npc:9298} Donova Snowden
-	["Back into the Timbermaw tunnel and take the {zone:1452} exit; {npc:9298} camps by the hot springs just outside."] = "Timbermaw tüneline geri gir ve {zone:1452} çıkışını al; {npc:9298} hemen dışarıdaki kaplıcaların yanında kamp kurmuş.",
+	["Back into the Timbermaw tunnel and take the {zone:1452} exit; {npc:9298} camps by the hot springs just outside."] = "Timbermaw tüneline geri gir ve {zone:1452} çıkışını al. {npc:9298} hemen dışarıdaki kaplıcaların yanında kamp kurmuş.",
 	["From Krakle in Un'Goro"] = "Un'Goro'daki Krakle'dan",
 
 	-- Step 26: Winterfall Runners
 	-- {area:1769} Timbermaw Hold · {area:2244} Winterfall Village · {npc:9298} Donova Snowden · {spell:5384} Feign Death
-	["The runners walk the road from {area:1769} toward {area:2244} in small groups; wait by the road near {npc:9298} and kill them as they pass. Each one carries a crate.\nCareful: Turning in spawns three or four level 56-57 Winterfall ambushers that attack you; you can escape them while mounted, in stealth or with {spell:5384}, and they then gather by the lake so you can take the next quest."] = "Koşucular küçük gruplar hâlinde {area:1769} girişinden {area:2244} köyüne doğru yolda yürüyor; {npc:9298} yakınında yolun kenarında bekle ve geçerken onları öldür. Her biri bir sandık taşıyor.\nDikkat: Teslim etmek sana saldıran üç dört tane seviye 56-57 Winterfall pusucusu çıkarır; binekteyken, gizlilikteyken ya da {spell:5384} ile onlardan kaçabilirsin, sonra gölün yanında toplanırlar ve sonraki görevi alabilirsin.",
+	["The runners walk the road from {area:1769} toward {area:2244} in small groups; wait by the road near {npc:9298} and kill them as they pass. Each one carries a crate.\nCareful: Turning in spawns three or four level 56-57 Winterfall ambushers that attack you; you can escape them while mounted, in stealth or with {spell:5384}, and they then gather by the lake so you can take the next quest."] = "Koşucular küçük gruplar hâlinde {area:1769} girişinden {area:2244} köyüne doğru yolda yürüyor. {npc:9298} yakınında yolun kenarında bekle ve geçerken onları öldür. Her biri bir sandık taşıyor.\nDikkat: Teslim etmek sana saldıran üç dört tane seviye 56-57 Winterfall pusucusu çıkarır. Binekteyken, gizlilikteyken ya da {spell:5384} ile onlardan kaçabilirsin, sonra gölün yanında toplanırlar ve sonraki görevi alabilirsin.",
 
 	-- Step 27: Salfa
 	-- {quest:8464} Winterfall Activity · {area:2255} Everlook · {area:2256} Darkwhisper Gorge
@@ -106,7 +106,7 @@ return {
 
 	-- Step 28: Meilosh
 	-- {quest:6031} Runecloth · {area:1769} Timbermaw Hold · {npc:11557} Meilosh
-	["With 30 {quest:6031} in your bags: follow the road north to {area:1769}; {npc:11557} trades just inside the entrance."] = "Çantanda 30 {quest:6031} varken: yolu kuzeye, {area:1769} girişine izle; {npc:11557} girişin hemen içinde ticaret yapıyor.",
+	["With 30 {quest:6031} in your bags: follow the road north to {area:1769}; {npc:11557} trades just inside the entrance."] = "Çantanda 30 {quest:6031} varken: yolu kuzeye, {area:1769} girişine izle. {npc:11557} girişin hemen içinde ticaret yapıyor.",
 
 	-- Step 29: Kernda
 	-- {area:1762} Felpaw Village · {npc:11558} Kernda · {area:1769} Timbermaw Hold · {zone:1448} Felwood
@@ -134,7 +134,7 @@ return {
 
 	-- Step 35: Winterfall Village
 	-- {area:2255} Everlook · {npc:10738} High Chief Winterfall
-	["The furbolg village fills the valley north-east of {area:2255}. Kill Shamans first; they heal. {npc:10738} (59, elite) and Xandivious (62) are in the cave at the back: stay out."] = "Furbolg köyü {area:2255} kasabasının kuzeydoğusundaki vadiyi dolduruyor. Önce Shaman'ları öldür; iyileştirirler. {npc:10738} (59, elit) ve Xandivious (62) arkadaki mağarada: içeri girme.",
+	["The furbolg village fills the valley north-east of {area:2255}. Kill Shamans first; they heal. {npc:10738} (59, elite) and Xandivious (62) are in the cave at the back: stay out."] = "Furbolg köyü {area:2255} kasabasının kuzeydoğusundaki vadiyi dolduruyor. Önce Shaman'ları öldür, iyileştirirler. {npc:10738} (59, elit) ve Xandivious (62) arkadaki mağarada: içeri girme.",
 
 	-- Step 36: Donova Snowden
 	-- {area:2246} Frostfire Hot Springs

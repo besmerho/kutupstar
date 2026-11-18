@@ -12,15 +12,15 @@ return {
 	-- Step 2: Booty Bay
 	["Bind your hearthstone at the inn: it is your way back here from the north of the jungle at the end of the loop."] = "Hearthstone'unu handa bağla: turun sonunda ormanın kuzeyinden buraya dönüş yolun bu.",
 	-- {npc:2495} Drizzlik
-	["{npc:2495}, by the bank; inside"] = "{npc:2495}, bankanın yanında; içeride",
+	["{npc:2495}, by the bank; inside"] = "{npc:2495}, bankanın yanında, içeride",
 	-- {npc:2498} Crank Fizzlebub
 	["{npc:2498}, inside"] = "{npc:2498}, içeride",
 	-- {npc:6807} Innkeeper Skindle · {object:56910} The Salty Sailor Tavern
-	["{npc:6807}, {object:56910}; upstairs"] = "{npc:6807}, {object:56910}; üst katta",
+	["{npc:6807}, {object:56910}; upstairs"] = "{npc:6807}, {object:56910}, üst katta",
 	-- {npc:2832} Nixxrax Fillamug · {object:56910} The Salty Sailor Tavern
-	["{npc:2832}, in the {object:56910}; upstairs"] = "{npc:2832}, {object:56910} içinde; üst katta",
+	["{npc:2832}, in the {object:56910}; upstairs"] = "{npc:2832}, {object:56910} içinde, üst katta",
 	-- {npc:773} Krazek · {npc:738} Private Thorsen · {area:99} Rebel Camp
-	["{npc:773}, in the tavern; upstairs: {npc:738} is at the {area:99}, on the way"] = "{npc:773}, meyhanede; üst katta: {npc:738} yol üstünde, {area:99} kampında",
+	["{npc:773}, in the tavern; upstairs: {npc:738} is at the {area:99}, on the way"] = "{npc:773}, meyhanede, üst katta: {npc:738} yol üstünde, {area:99} kampında",
 	-- {npc:773} Krazek
 	["{npc:773}: Nesingwary's camp, on the way"] = "{npc:773}: Nesingwary'nin kampı, yol üstünde",
 	-- {npc:737} Kebok
@@ -67,7 +67,7 @@ return {
 	-- Step 12: Panthers, raptors and elder tigers
 	["Panthers, raptors and elder tigers"] = "Panterler, raptorlar ve yaşlı kaplanlar",
 	-- plural, as words: Stranglethorn Raptors = {npc:685} Stranglethorn Raptor
-	["Back south past Nesingwary: Panthers and Stranglethorn Raptors run in the clearings west of the camp toward the coast; the elder tigers hold the hills south-west."] = "Nesingwary'yi geçerek güneye dön: Panther ve Stranglethorn Raptor yaratıkları kampın batısında, kıyıya doğru açıklıklarda koşuyor; yaşlı kaplanlar güneybatıdaki tepeleri tutuyor.",
+	["Back south past Nesingwary: Panthers and Stranglethorn Raptors run in the clearings west of the camp toward the coast; the elder tigers hold the hills south-west."] = "Nesingwary'yi geçerek güneye dön: Panther ve Stranglethorn Raptor yaratıkları kampın batısında, kıyıya doğru açıklıklarda koşuyor. Yaşlı kaplanlar güneybatıdaki tepeleri tutuyor.",
 	-- {item:4614} Pendant of Myzrael
 	["Gluggle (37, rare) on the coast west of camp drops the {item:4614}: four levels over you, leave him unless you are grouped"] = "Kampın batısındaki kıyıdaki Gluggle (37, rare) {item:4614} düşürür: senden dört seviye yüksek, grupta değilsen onu bırak",
 	-- {object:661516} Thoroughly Scavenged Supplies
@@ -83,7 +83,7 @@ return {
 	-- Step 14: Rebel Camp
 	-- {npc:738} Private Thorsen · {quest:215} Jungle Secrets · {quest:200} Bookie Herod · {area:99} Rebel Camp
 	-- plural, as words: Kurzen's Agents = {npc:775} Kurzen's Agent
-	["Take the road north; the camp sits in the hills to the west.\n{npc:738} offers {quest:215} only while he is out of the camp: about every half hour he walks down the path to the road, where two Kurzen's Agents ambush him. Help him kill them and take the quest at once, before he walks back up. He isn't there? Leave it: the guide passes {quest:200}, which follows from it, as well.\n{npc:738} spends most of his time at the top of the {area:99}'s path, by the huts, and now and then walks down it to the road and back (about eight minutes). If he isn't at the arrow, look along that path."] = "Kuzeye giden yolu tut; kamp batıdaki tepelerde.\n{npc:738}, {quest:215} görevini yalnızca kampın dışındayken verir: yaklaşık yarım saatte bir patikadan yola iner, orada iki Kurzen's Agent onu pusuya düşürür. Onları öldürmesine yardım edip o geri çıkmadan görevi hemen al. Orada değil mi? Bırak: rehber ondan devam eden {quest:200} görevini de atlar.\n{npc:738} zamanının çoğunu {area:99} kampının patikasının tepesinde, kulübelerin yanında geçirir, ara sıra patikadan yola inip geri döner (yaklaşık sekiz dakika). Okun gösterdiği yerde değilse o patika boyunca bak.",
+	["Take the road north; the camp sits in the hills to the west.\n{npc:738} offers {quest:215} only while he is out of the camp: about every half hour he walks down the path to the road, where two Kurzen's Agents ambush him. Help him kill them and take the quest at once, before he walks back up. He isn't there? Leave it: the guide passes {quest:200}, which follows from it, as well.\n{npc:738} spends most of his time at the top of the {area:99}'s path, by the huts, and now and then walks down it to the road and back (about eight minutes). If he isn't at the arrow, look along that path."] = "Kuzeye giden yolu tut. Kamp batıdaki tepelerde.\n{npc:738}, {quest:215} görevini yalnızca kampın dışındayken verir: yaklaşık yarım saatte bir patikadan yola iner, orada iki Kurzen's Agent onu pusuya düşürür. Onları öldürmesine yardım edip o geri çıkmadan görevi hemen al. Orada değil mi? Bırak: rehber ondan devam eden {quest:200} görevini de atlar.\n{npc:738} zamanının çoğunu {area:99} kampının patikasının tepesinde, kulübelerin yanında geçirir, ara sıra patikadan yola inip geri döner (yaklaşık sekiz dakika). Okun gösterdiği yerde değilse o patika boyunca bak.",
 	-- {npc:738} Private Thorsen
 	["{npc:738}, at the foot of the path"] = "{npc:738}, patikanın dibinde",
 	-- {npc:738} Private Thorsen
@@ -100,7 +100,7 @@ return {
 	["{area:101}: kill these as you meet them"] = "{area:101}: bunları karşılaştıkça öldür",
 	-- {area:99} Rebel Camp · {quest:200} Bookie Herod
 	-- plural, as words: Kurzen Elites = {npc:939} Kurzen Elite
-	["The Kurzen rebels hold the camp east of the {area:99}; work its outer edge, where Jungle Fighters and Medicine Men stand, and loot the supply crates by the tents. {quest:200}'s records lie in a hut on the compound's west side. Careful: Kurzen Elites and Witch Doctors (36) hold the compound's eastern half, by the cave: stay on its west side."] = "Kurzen asileri {area:99} kampının doğusundaki kampı tutuyor; Jungle Fighter ve Medicine Man yaratıklarının durduğu dış kenarında çalış ve çadırların yanındaki erzak sandıklarını yağmala. {quest:200} kayıtları yerleşkenin batı yakasındaki bir kulübede. Dikkat: Kurzen Elite ve Witch Doctor yaratıkları (36) yerleşkenin doğu yarısını, mağaranın yanını tutuyor: batı yakasında kal.",
+	["The Kurzen rebels hold the camp east of the {area:99}; work its outer edge, where Jungle Fighters and Medicine Men stand, and loot the supply crates by the tents. {quest:200}'s records lie in a hut on the compound's west side. Careful: Kurzen Elites and Witch Doctors (36) hold the compound's eastern half, by the cave: stay on its west side."] = "Kurzen asileri {area:99} kampının doğusundaki kampı tutuyor. Jungle Fighter ve Medicine Man yaratıklarının durduğu dış kenarında çalış ve çadırların yanındaki erzak sandıklarını yağmala. {quest:200} kayıtları yerleşkenin batı yakasındaki bir kulübede. Dikkat: Kurzen Elite ve Witch Doctor yaratıkları (36) yerleşkenin doğu yarısını, mağaranın yanını tutuyor: batı yakasında kal.",
 	-- {object:287} Bookie Herod's Records
 	["{object:287}, in the hut"] = "{object:287}, kulübede",
 	["The strongbox is deeper in, by the cave: on the northern loop (04b)"] = "Kasa daha içeride, mağaranın yanında: kuzey turunda (04b)",
@@ -133,7 +133,7 @@ return {
 	-- {area:310} Crystalvein Mine
 	-- plural, as words: Crystal Spine Basilisks = {npc:689} Crystal Spine Basilisk · Lesser Water Elementals = {npc:691} Lesser Water Elemental
 	-- was: ["From {area:108} the way leads south out of {zone:1436} into Stranglethorn's north-west, to the {area:310} near the coast; the Crystal Spine Basilisks around it drop the shards.\nThe haunted island lies just off the coast south-west of the mine: just reach its edge. Careful: its Lesser Water Elementals are 36-37: don't stay. The Bloodscalp ruins of Zul'Kunda to the north wait for the second Stranglethorn loop."] = "Von {area:108} führt der Weg nach Süden aus {zone:1436} in den Nordwesten von Schlingendorntal, zur {area:310} nahe der Küste; die Kristallrückenbasilisken rundherum lassen die Splitter fallen.\nDie Geisterinsel liegt direkt vor der Küste südwestlich der Mine: Erreiche einfach ihren Rand. Vorsicht: Ihre Geringen Wasserelementare sind 36-37: Bleib nicht dort. Die Bloodscalp-Ruinen von Zul'Kunda im Norden warten auf die zweite Runde durch Schlingendorn."
-	["From Nesingwary's camp head west to the {area:310} near the coast; the Crystal Spine Basilisks around it drop the shards.\nThe haunted island lies just off the coast south-west of the mine: just reach its edge. Careful: its Lesser Water Elementals are 36-37: don't stay. The Bloodscalp ruins of Zul'Kunda to the north wait for the second Stranglethorn loop."] = "Nesingwary'nin kampından batıya, kıyıya yakın {area:310} madenine git; çevresindeki Crystal Spine Basilisk yaratıkları kristal parçalarını düşürür.\nPerili ada madenin güneybatısında, kıyının hemen açığında: kenarına varman yeter. Dikkat: oradaki Lesser Water Elemental yaratıkları 36-37, kalma. Kuzeydeki Bloodscalp harabeleri Zul'Kunda ikinci Stranglethorn turunu bekler.",
+	["From Nesingwary's camp head west to the {area:310} near the coast; the Crystal Spine Basilisks around it drop the shards.\nThe haunted island lies just off the coast south-west of the mine: just reach its edge. Careful: its Lesser Water Elementals are 36-37: don't stay. The Bloodscalp ruins of Zul'Kunda to the north wait for the second Stranglethorn loop."] = "Nesingwary'nin kampından batıya, kıyıya yakın {area:310} madenine git. Çevresindeki Crystal Spine Basilisk yaratıkları kristal parçalarını düşürür.\nPerili ada madenin güneybatısında, kıyının hemen açığında: kenarına varman yeter. Dikkat: oradaki Lesser Water Elemental yaratıkları 36-37, kalma. Kuzeydeki Bloodscalp harabeleri Zul'Kunda ikinci Stranglethorn turunu bekler.",
 	["The haunted island"] = "Lanetli ada",
 
 	-- Step 21: Booty Bay
@@ -166,7 +166,7 @@ return {
 	-- Step 25: Class training
 	["Class training"] = "Sınıf eğitimi",
 	-- {object:2096} Trade District · {object:2100} Old Town · {object:2101} Mage Quarter · {npc:5504} Sheldras Moontree · {zone:1455} Ironforge
-	["Your level 34 ranks: the class trainers stand around the {object:2096}, {object:2100}, the Cathedral and the {object:2101}; {npc:5504}, the druid trainer, stands north-west of the {object:2101}. Shamans train in {zone:1455}, later in 30-40."] = "Seviye 34 kademelerin: sınıf eğitmenleri {object:2096}, {object:2100}, Cathedral ve {object:2101} çevresinde duruyor; Druid eğitmeni {npc:5504} de {object:2101} kuzeybatısında. Shaman'lar daha sonra, 30-40 içinde {zone:1455} şehrinde eğitim alır.",
+	["Your level 34 ranks: the class trainers stand around the {object:2096}, {object:2100}, the Cathedral and the {object:2101}; {npc:5504}, the druid trainer, stands north-west of the {object:2101}. Shamans train in {zone:1455}, later in 30-40."] = "Seviye 34 kademelerin: sınıf eğitmenleri {object:2096}, {object:2100}, Cathedral ve {object:2101} çevresinde duruyor. Druid eğitmeni {npc:5504} de {object:2101} kuzeybatısında. Shaman'lar daha sonra, 30-40 içinde {zone:1455} şehrinde eğitim alır.",
 
 	-- Step 27: Fly to Stonetalon Peak
 	-- {area:467} Stonetalon Peak

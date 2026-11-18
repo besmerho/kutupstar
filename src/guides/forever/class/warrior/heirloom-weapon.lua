@@ -37,7 +37,7 @@ return {
 	-- {npc:5810} Uzzek · {area:379} Far Watch Post
 	["{npc:5810} at {area:379}"] = "{area:379} karakolunda {npc:5810}",
 	-- {npc:5810} Uzzek · {area:379} Far Watch Post · {zone:1411} Durotar · {zone:1412} Mulgore
-	["{npc:5810} is easy to miss: he stands under a small canopy by a large tree just west of {area:379}, below the road's south side, with the post in sight to his east. Going straight south from the post does not lead to him. From {zone:1411} cross the bridge west; from {zone:1412} head north past the Crossroads."] = "{npc:5810} gözden kaçması kolay: {area:379} karakolunun hemen batısında, yolun güney yakasının aşağısında, büyük bir ağacın yanındaki küçük bir tentenin altında duruyor; karakol onun doğusunda görünüyor. Karakoldan doğruca güneye gitmek seni ona götürmez. {zone:1411} bölgesinden köprüyü batıya geç; {zone:1412} bölgesinden Crossroads'un yanından kuzeye git.",
+	["{npc:5810} is easy to miss: he stands under a small canopy by a large tree just west of {area:379}, below the road's south side, with the post in sight to his east. Going straight south from the post does not lead to him. From {zone:1411} cross the bridge west; from {zone:1412} head north past the Crossroads."] = "{npc:5810} gözden kaçması kolay: {area:379} karakolunun hemen batısında, yolun güney yakasının aşağısında, büyük bir ağacın yanındaki küçük bir tentenin altında duruyor, karakol onun doğusunda görünüyor. Karakoldan doğruca güneye gitmek seni ona götürmez. {zone:1411} bölgesinden köprüyü batıya geç. {zone:1412} bölgesinden Crossroads'un yanından kuzeye git.",
 
 	-- Step 7: Singed Scales in Thunder Ridge
 	-- {area:369} Thunder Ridge
@@ -45,7 +45,7 @@ return {
 	["Singed Scales in {area:369}"] = "{area:369} içinde Singed Scale",
 	-- {area:369} Thunder Ridge · {zone:1411} Durotar · {zone:1454} Orgrimmar · {zone:1413} Barrens · {spell:5401} Lizard Bolt
 	-- plural, as words: Singed Scales = {item:6486} Singed Scale · Thunder Lizards = {npc:3130} Thunder Lizard · Lightning Hides = {npc:3131} Lightning Hide
-	["You need five Singed Scales. Thunder Lizards (level 9-10) and Lightning Hides (10-11) live down in the {area:369} crevasse in north-west {zone:1411}, south of {zone:1454}: from the {zone:1413} bridge turn left and follow the river north into it. Both drop a scale about four kills in five; both cast {spell:5401}."] = "Beş Singed Scale gerekiyor. Thunder Lizard (seviye 9-10) ve Lightning Hide (10-11) yaratıkları kuzeybatı {zone:1411} bölgesinde, {zone:1454} şehrinin güneyindeki {area:369} yarığının aşağısında yaşıyor: {zone:1413} köprüsünden sola dön ve nehri kuzeye, yarığa izle. İkisi de aşağı yukarı beşte dört pul düşürür; ikisi de {spell:5401} kullanır.",
+	["You need five Singed Scales. Thunder Lizards (level 9-10) and Lightning Hides (10-11) live down in the {area:369} crevasse in north-west {zone:1411}, south of {zone:1454}: from the {zone:1413} bridge turn left and follow the river north into it. Both drop a scale about four kills in five; both cast {spell:5401}."] = "Beş Singed Scale gerekiyor. Thunder Lizard (seviye 9-10) ve Lightning Hide (10-11) yaratıkları kuzeybatı {zone:1411} bölgesinde, {zone:1454} şehrinin güneyindeki {area:369} yarığının aşağısında yaşıyor: {zone:1413} köprüsünden sola dön ve nehri kuzeye, yarığa izle. İkisi de aşağı yukarı beşte dört pul düşürür, ikisi de {spell:5401} kullanır.",
 	-- {item:6486} Singed Scale
 	["{item:6486}, from the lizards"] = "{item:6486}, kertenkelelerden",
 
@@ -73,7 +73,7 @@ return {
 
 	-- Step 13: Ulag the Cleaver
 	-- {npc:6390} Ulag the Cleaver
-	["{npc:6390} sleeps in the mausoleum in the graveyard just north of Dillinger. To wake him, click the flat skull plaque on the ground, left of the path to the mausoleum door; the seal lifts and {npc:6390} (level 11, not elite) walks out. Start at full health."] = "{npc:6390}, Dillinger'ın hemen kuzeyindeki mezarlıkta türbede uyuyor. Onu uyandırmak için türbe kapısına giden yolun solunda yerdeki düz kafatası plakasına tıkla; mühür kalkar ve {npc:6390} (seviye 11, elit değil) dışarı yürür. Canın tamken başla.",
+	["{npc:6390} sleeps in the mausoleum in the graveyard just north of Dillinger. To wake him, click the flat skull plaque on the ground, left of the path to the mausoleum door; the seal lifts and {npc:6390} (level 11, not elite) walks out. Start at full health."] = "{npc:6390}, Dillinger'ın hemen kuzeyindeki mezarlıkta türbede uyuyor. Onu uyandırmak için türbe kapısına giden yolun solunda yerdeki düz kafatası plakasına tıkla. Mühür kalkar ve {npc:6390} (seviye 11, elit değil) dışarı yürür. Canın tamken başla.",
 
 	-- Step 14: Coleman Farthing
 	-- {npc:1500} Coleman Farthing · {area:2119} Gallows' End Tavern · {area:159} Brill
@@ -84,7 +84,7 @@ return {
 	["The {area:158}"] = "{area:158}",
 	-- {area:158} Agamand Family Crypt · {area:157} Agamand Mills · {area:159} Brill
 	-- plural, as words: Agamand Weapon Racks = {object:105169} Agamand Weapon Rack
-	["The four Agamand Weapon Racks are inside the {area:158} at the north end of {area:157}, north of {area:159}, one rack per room: one in the lowest room, two in the pair of rooms up the stairs, one in the room above those. The axe rack stands in a dark corner. The crypt's undead come in packs of three or more and return quickly; the ones in the top room are not linked. The axe, dagger and mace racks take 15 minutes to refill after someone loots them."] = "Dört Agamand Weapon Rack, {area:159} kasabasının kuzeyinde, {area:157} değirmenlerinin kuzey ucundaki {area:158} içinde, her odada bir raf: biri en alttaki odada, ikisi merdivenlerin yukarısındaki oda çiftinde, biri de onların üstündeki odada. Balta rafı karanlık bir köşede duruyor. Mahzenin undead'leri üç ya da daha fazlalık gruplar halinde gelir ve çabuk geri döner; en üst odadakiler birbirine bağlı değil. Balta, hançer ve topuz rafları biri loot'ladıktan sonra 15 dakikada dolar.",
+	["The four Agamand Weapon Racks are inside the {area:158} at the north end of {area:157}, north of {area:159}, one rack per room: one in the lowest room, two in the pair of rooms up the stairs, one in the room above those. The axe rack stands in a dark corner. The crypt's undead come in packs of three or more and return quickly; the ones in the top room are not linked. The axe, dagger and mace racks take 15 minutes to refill after someone loots them."] = "Dört Agamand Weapon Rack, {area:159} kasabasının kuzeyinde, {area:157} değirmenlerinin kuzey ucundaki {area:158} içinde, her odada bir raf: biri en alttaki odada, ikisi merdivenlerin yukarısındaki oda çiftinde, biri de onların üstündeki odada. Balta rafı karanlık bir köşede duruyor. Mahzenin undead'leri üç ya da daha fazlalık gruplar halinde gelir ve çabuk geri döner. En üst odadakiler birbirine bağlı değil. Balta, hançer ve topuz rafları biri loot'ladıktan sonra 15 dakikada dolar.",
 
 	-- Step 16: Back to Coleman Farthing
 	-- {npc:1500} Coleman Farthing

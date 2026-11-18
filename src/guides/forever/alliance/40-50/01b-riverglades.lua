@@ -11,7 +11,7 @@ return {
 	-- {zone:1455} Ironforge
 	["{zone:1455} flight master"] = "{zone:1455} uçuş ustası",
 	-- {zone:1426} Dun Morogh · {zone:1455} Ironforge · {area:69} Lakeshire
-	["The Stranglethorn guide leaves Dwarves and Gnomes at their riding trainer in {zone:1426}: ride back west into {zone:1455}, where the flight to {area:69} leaves from the gryphon master."] = "Stranglethorn rehberi Dwarf ve Gnome'ları {zone:1426} bölgesindeki binicilik eğitmenlerinde bırakır: batıya, {zone:1455} şehrine geri sür; {area:69} uçuşu grifon ustasından kalkar.",
+	["The Stranglethorn guide leaves Dwarves and Gnomes at their riding trainer in {zone:1426}: ride back west into {zone:1455}, where the flight to {area:69} leaves from the gryphon master."] = "Stranglethorn rehberi Dwarf ve Gnome'ları {zone:1426} bölgesindeki binicilik eğitmenlerinde bırakır: batıya, {zone:1455} şehrine geri sür. {area:69} uçuşu grifon ustasından kalkar.",
 
 	-- Step 2: Into the Riverglades
 	-- {zone:2548} Riverglades
@@ -37,7 +37,7 @@ return {
 
 	-- Step 6: Turner's Logging Camp
 	-- {npc:256438} Halligan Turner
-	["North up the road to the lumber camp. {npc:256438} runs it; his third job, the saplings, comes once his plant food is in."] = "Yoldan kuzeye, kereste kampına git. Kampı {npc:256438} işletiyor; üçüncü işi, fidanlar, bitki besini teslim edilince gelir.",
+	["North up the road to the lumber camp. {npc:256438} runs it; his third job, the saplings, comes once his plant food is in."] = "Yoldan kuzeye, kereste kampına git. Kampı {npc:256438} işletiyor. Üçüncü işi, fidanlar, bitki besini teslim edilince gelir.",
 
 	-- Step 7: The Bristle Hills
 	-- {area:16737} Bristle Hills
@@ -56,7 +56,7 @@ return {
 	-- Step 12: The Cinderscale hollow
 	["The Cinderscale hollow"] = "Cinderscale çukuru",
 	-- {item:271611} Cubic Draconia
-	["The whelps nest all over the hollow; the warriors (level 41-42) guard its back, by the {item:271611}. Scaldaron, a rare elite drake, can be up here too: leave him be unless you have a group."] = "Yavrular çukurun her yanında yuva yapmış; savaşçılar (seviye 41-42) arkasını, {item:271611} yanını koruyor. Rare elit bir drake olan Scaldaron da burada olabilir: grubun yoksa ona bulaşma.",
+	["The whelps nest all over the hollow; the warriors (level 41-42) guard its back, by the {item:271611}. Scaldaron, a rare elite drake, can be up here too: leave him be unless you have a group."] = "Yavrular çukurun her yanında yuva yapmış. Savaşçılar (seviye 41-42) arkasını, {item:271611} yanını koruyor. Rare elit bir drake olan Scaldaron da burada olabilir: grubun yoksa ona bulaşma.",
 
 	-- Step 14: Holmsby farm
 	["Holmsby farm"] = "Holmsby çiftliği",
@@ -65,14 +65,14 @@ return {
 
 	-- Step 15: Benjy Wheeler
 	-- {area:16725} Wheeler's Grange · {npc:258317} Benjy Wheeler · {npc:256438} Halligan Turner
-	["North-east across the fields to {area:16725}: {npc:258317} wants the Mudfin murlocs on the river thinned out, the same murlocs whose heads {npc:256438} needs, so one pass along the river does both."] = "Tarlaların içinden kuzeydoğuya, {area:16725} çiftliğine git: {npc:258317} nehirdeki Mudfin murloclarının azaltılmasını istiyor; {npc:256438} adlı NPC'nin kafalarını istediği murloclar da bunlar, yani nehir boyunca bir tur ikisini birden yapar.",
+	["North-east across the fields to {area:16725}: {npc:258317} wants the Mudfin murlocs on the river thinned out, the same murlocs whose heads {npc:256438} needs, so one pass along the river does both."] = "Tarlaların içinden kuzeydoğuya, {area:16725} çiftliğine git: {npc:258317} nehirdeki Mudfin murloclarının azaltılmasını istiyor. {npc:256438} adlı NPC'nin kafalarını istediği murloclar da bunlar, yani nehir boyunca bir tur ikisini birden yapar.",
 
 	-- Step 16: Meadowsbrook and the river
 	-- {area:16735} Meadowsbrook
 	["{area:16735} and the river"] = "{area:16735} ve nehir",
 	-- {npc:258317} Benjy Wheeler · {npc:256438} Halligan Turner · {npc:258588} Jumbo Crawfish · {npc:258935} Curly · {npc:259049} Robbie Holmsby · {area:16735} Meadowsbrook · {npc:263380} Ghostmaw
 	-- plural, as words: Mudfin Warriors = {npc:258574} Mudfin Warrior
-	["Back south-west along the river: kill the Mudfin Warriors and Oracles on the banks for {npc:258317} (they drop {npc:256438}'s heads) and the {npc:258588} in the shallows for the shells. {npc:258935}, one of {npc:256438}'s lumberjacks, is stuck on the bank just north-west of the murlocs; {npc:259049}'s hat lies on the riverbank among them; the fresh manure is in the fields of {area:16735}, between the river and the farm. {npc:263380}, an elite (level 42), prowls the river: if he comes your way, back off and let him pass."] = "Nehir boyunca güneybatıya dön: {npc:258317} için kıyılardaki Mudfin Warrior ve Oracle yaratıklarını öldür ({npc:256438} için kafaları onlar düşürür), kabuklar için de sığlıklardaki {npc:258588} yaratıklarını. {npc:256438} adlı NPC'nin oduncularından {npc:258935}, murlocların hemen kuzeybatısında kıyıda mahsur kalmış; {npc:259049} adlı NPC'nin şapkası aralarında nehir kıyısında yatıyor; taze gübre de nehirle çiftlik arasındaki {area:16735} tarlalarında. Elit {npc:263380} (seviye 42) nehirde dolaşıyor: sana doğru gelirse geri çekil ve geçmesine izin ver.",
+	["Back south-west along the river: kill the Mudfin Warriors and Oracles on the banks for {npc:258317} (they drop {npc:256438}'s heads) and the {npc:258588} in the shallows for the shells. {npc:258935}, one of {npc:256438}'s lumberjacks, is stuck on the bank just north-west of the murlocs; {npc:259049}'s hat lies on the riverbank among them; the fresh manure is in the fields of {area:16735}, between the river and the farm. {npc:263380}, an elite (level 42), prowls the river: if he comes your way, back off and let him pass."] = "Nehir boyunca güneybatıya dön: {npc:258317} için kıyılardaki Mudfin Warrior ve Oracle yaratıklarını öldür ({npc:256438} için kafaları onlar düşürür), kabuklar için de sığlıklardaki {npc:258588} yaratıklarını. {npc:256438} adlı NPC'nin oduncularından {npc:258935}, murlocların hemen kuzeybatısında kıyıda mahsur kalmış. {npc:259049} adlı NPC'nin şapkası aralarında nehir kıyısında yatıyor. Taze gübre de nehirle çiftlik arasındaki {area:16735} tarlalarında. Elit {npc:263380} (seviye 42) nehirde dolaşıyor: sana doğru gelirse geri çekil ve geçmesine izin ver.",
 
 	-- Step 18: Watcher Fredericks
 	-- {npc:259051} Watcher Fredericks · {area:16744} Southern Watch
@@ -88,7 +88,7 @@ return {
 
 	-- Step 21: Hurley
 	-- {npc:258963} Hurley · {npc:258935} Curly · {quest:94861} Helping Hands · {npc:263380} Ghostmaw
-	["{npc:258963} stands at the camp's south end. He sets off for {npc:258935}, south-east of the camp, as soon as you take {quest:94861}: go with him and keep the attackers off, and wait if {npc:263380} is in sight. If it fails, {npc:258963} offers the quest again."] = "{npc:258963} kampın güney ucunda duruyor. {quest:94861} görevini alır almaz kampın güneydoğusundaki {npc:258935} yanına yola çıkar: onunla git ve saldıranları ondan uzak tut; {npc:263380} görünürdeyse bekle. Başarısız olursa {npc:258963} görevi yeniden verir.",
+	["{npc:258963} stands at the camp's south end. He sets off for {npc:258935}, south-east of the camp, as soon as you take {quest:94861}: go with him and keep the attackers off, and wait if {npc:263380} is in sight. If it fails, {npc:258963} offers the quest again."] = "{npc:258963} kampın güney ucunda duruyor. {quest:94861} görevini alır almaz kampın güneydoğusundaki {npc:258935} yanına yola çıkar: onunla git ve saldıranları ondan uzak tut. {npc:263380} görünürdeyse bekle. Başarısız olursa {npc:258963} görevi yeniden verir.",
 	-- {npc:258963} Hurley · {npc:258935} Curly
 	["go with {npc:258963} to save {npc:258935}"] = "{npc:258935} yaratığını kurtarmak için {npc:258963} ile git",
 
@@ -98,7 +98,7 @@ return {
 
 	-- Step 24: Farholde Keep
 	-- {area:16724} Farholde Keep · {npc:257087} Gretchen Mayberry · {npc:260070} Bertrand Ironbrow · {npc:260080} Ember Bladewhisper · {npc:263613} Brother Lowley · {npc:257558} Demar Brant · {npc:257591} Ashe Amberhall
-	["On east along the road to {area:16724}. {npc:257087}, the gryphon master, stands at its western gate; {npc:260070} and {npc:260080} are on the way in, {npc:263613} tends the wounded by the barracks, {npc:257558} and {npc:257591} wait in the keep at the east end, and the inn is in the south of the walls."] = "Yol boyunca doğuya, {area:16724} kalesine devam et. Grifon ustası {npc:257087} batı kapısında duruyor; {npc:260070} ve {npc:260080} giriş yolunda, {npc:263613} kışlanın yanında yaralılara bakıyor, {npc:257558} ve {npc:257591} doğu ucundaki kalede bekliyor, han da surların güneyinde.",
+	["On east along the road to {area:16724}. {npc:257087}, the gryphon master, stands at its western gate; {npc:260070} and {npc:260080} are on the way in, {npc:263613} tends the wounded by the barracks, {npc:257558} and {npc:257591} wait in the keep at the east end, and the inn is in the south of the walls."] = "Yol boyunca doğuya, {area:16724} kalesine devam et. Grifon ustası {npc:257087} batı kapısında duruyor. {npc:260070} ve {npc:260080} giriş yolunda, {npc:263613} kışlanın yanında yaralılara bakıyor, {npc:257558} ve {npc:257591} doğu ucundaki kalede bekliyor, han da surların güneyinde.",
 	-- {npc:257087} Gretchen Mayberry
 	["{npc:257087}, at the western gate"] = "{npc:257087}, batı kapısında",
 	-- {npc:257558} Demar Brant
@@ -117,7 +117,7 @@ return {
 	-- Step 25: The cathedral
 	["The cathedral"] = "Katedral",
 	-- {npc:262031} Sister Rowland · {area:16724} Farholde Keep · {npc:272437} Marla Bell · {npc:271742} Abbot Schuncke
-	["{npc:262031} keeps the old cathedral at the south-west corner of {area:16724}. The bats roost in its upper floor; {npc:272437} sells the holy candles beside it; the graves are in the chapel graveyard.\n{npc:271742}, an elite of level 53, stands in the cathedral: he leaves you be, so never attack him, and pull the bats away from him."] = "{npc:262031}, {area:16724} kalesinin güneybatı köşesindeki eski katedrale bakıyor. Yarasalar üst katında tüneyor; {npc:272437} yanında kutsal mumları satıyor; mezarlar şapelin mezarlığında.\n53. seviye elit {npc:271742} katedralde duruyor: sana bulaşmaz, o yüzden ona asla saldırma ve yarasaları ondan uzağa çek.",
+	["{npc:262031} keeps the old cathedral at the south-west corner of {area:16724}. The bats roost in its upper floor; {npc:272437} sells the holy candles beside it; the graves are in the chapel graveyard.\n{npc:271742}, an elite of level 53, stands in the cathedral: he leaves you be, so never attack him, and pull the bats away from him."] = "{npc:262031}, {area:16724} kalesinin güneybatı köşesindeki eski katedrale bakıyor. Yarasalar üst katında tüneyor. {npc:272437} yanında kutsal mumları satıyor. Mezarlar şapelin mezarlığında.\n53. seviye elit {npc:271742} katedralde duruyor: sana bulaşmaz, o yüzden ona asla saldırma ve yarasaları ondan uzağa çek.",
 	-- {item:17028} Holy Candle · {npc:272437} Marla Bell
 	["{item:17028}, from {npc:272437}"] = "{item:17028}, kaynak: {npc:272437}",
 	-- {item:269997} Bundle of Candles
@@ -129,13 +129,13 @@ return {
 
 	-- Step 27: The stables
 	["The stables"] = "Ahırlar",
-	["Search around the stables south of the farmhouse for the horses' tracks; the bundles of hay lie around the farm."] = "Atların izleri için çiftlik evinin güneyindeki ahırların çevresini ara; saman balyaları çiftliğin çevresinde duruyor.",
+	["Search around the stables south of the farmhouse for the horses' tracks; the bundles of hay lie around the farm."] = "Atların izleri için çiftlik evinin güneyindeki ahırların çevresini ara. Saman balyaları çiftliğin çevresinde duruyor.",
 
 	-- Step 29: The coyote den
 	["The coyote den"] = "Çakal ini",
 	-- {npc:258522} Sootfur
 	-- plural, as words: Plains Coyotes = {npc:259267} Plains Coyote
-	["The coyotes den in the hills south of the farm: {npc:258522}, the big dark one, sits at the back of it; the Plains Coyotes around it drop the pelts."] = "Çakallar çiftliğin güneyindeki tepelerde inlerini kurmuş: büyük, koyu renkli {npc:258522} inin dibinde oturuyor; çevresindeki Plains Coyote yaratıkları postları düşürür.",
+	["The coyotes den in the hills south of the farm: {npc:258522}, the big dark one, sits at the back of it; the Plains Coyotes around it drop the pelts."] = "Çakallar çiftliğin güneyindeki tepelerde inlerini kurmuş: büyük, koyu renkli {npc:258522} inin dibinde oturuyor. Çevresindeki Plains Coyote yaratıkları postları düşürür.",
 
 	-- Step 30: The lost horse
 	["The lost horse"] = "Kayıp at",
@@ -155,13 +155,13 @@ return {
 	["The plains"] = "Ovalar",
 	-- {quest:95983} A Feast for Buzzards · {npc:263380} Ghostmaw
 	-- plural, as words: Rog'mar Poachers = {npc:259052} Rog'mar Poacher
-	["The Rog'mar Poachers hunt the plains north of the tower; the Wildplains lions roam among them. A picked carcass lies in the grass east of the tower: its skull starts {quest:95983}.\nCareful: {npc:263380}, an elite (level 42), hunts along the river west of the plains: keep an eye on the riverbank."] = "Rog'mar Poacher yaratıkları kulenin kuzeyindeki ovalarda avlanıyor; Wildplains aslanları da aralarında dolaşıyor. Kulenin doğusundaki çimenlerde didiklenmiş bir leş yatıyor: kafatası {quest:95983} görevini başlatır.\nDikkat: elit {npc:263380} (seviye 42) ovaların batısında nehir boyunca avlanıyor: nehir kıyısına göz kulak ol.",
+	["The Rog'mar Poachers hunt the plains north of the tower; the Wildplains lions roam among them. A picked carcass lies in the grass east of the tower: its skull starts {quest:95983}.\nCareful: {npc:263380}, an elite (level 42), hunts along the river west of the plains: keep an eye on the riverbank."] = "Rog'mar Poacher yaratıkları kulenin kuzeyindeki ovalarda avlanıyor. Wildplains aslanları da aralarında dolaşıyor. Kulenin doğusundaki çimenlerde didiklenmiş bir leş yatıyor: kafatası {quest:95983} görevini başlatır.\nDikkat: elit {npc:263380} (seviye 42) ovaların batısında nehir boyunca avlanıyor: nehir kıyısına göz kulak ol.",
 
 	-- Step 35: Terral's Watch
 	-- {quest:94928} A Few Furs for Friz · {area:16727} Powderfuse Port
 	["{quest:94928}: for {area:16727}, keep it"] = "{quest:94928}: {area:16727} için, sakla",
 	-- {quest:95984} Song of the Strider · {npc:263367} Sleebo Fizzlespout
-	["{quest:95984}: for later, where the tallstriders graze by {npc:263367}'s workshop; keep it"] = "{quest:95984}: sonrası için, tallstrider'ların {npc:263367} adlı NPC'nin atölyesinin yanında otladığı yerde; sakla",
+	["{quest:95984}: for later, where the tallstriders graze by {npc:263367}'s workshop; keep it"] = "{quest:95984}: sonrası için, tallstrider'ların {npc:263367} adlı NPC'nin atölyesinin yanında otladığı yerde, sakla",
 	-- {quest:95064} Preventative Measures · {area:16743} Rog'mar
 	["{quest:95064}: for later, at the Horde's training grounds north of {area:16743}"] = "{quest:95064}: sonrası için, {area:16743} kuzeyindeki Horde talim alanında",
 	-- {quest:96125} In Need of Relief · {npc:259057} Dunston Willis · {area:16726} Bolder'ok
@@ -177,7 +177,7 @@ return {
 
 	-- Step 37: WANTED: Ghostmaw
 	-- {npc:263380} Ghostmaw · {area:16725} Wheeler's Grange · {area:16729} Terral's Watch · {npc:259859} Wheatley
-	["{npc:263380} is an elite (level 42) who hunts along the river between {area:16725} and {area:16729}, on your way north later in this guide: grouping up is advised. The poster hangs by the keep; {npc:259859}, who takes the fang, stands south of the inn."] = "{npc:263380}, {area:16725} ile {area:16729} arasında nehir boyunca avlanan elit bir yaratık (seviye 42); bu rehberde daha sonra kuzeye giderken yolunun üstünde: grup kurman önerilir. İlan kalenin yanında asılı; dişi teslim alan {npc:259859} hanın güneyinde duruyor.",
+	["{npc:263380} is an elite (level 42) who hunts along the river between {area:16725} and {area:16729}, on your way north later in this guide: grouping up is advised. The poster hangs by the keep; {npc:259859}, who takes the fang, stands south of the inn."] = "{npc:263380}, {area:16725} ile {area:16729} arasında nehir boyunca avlanan elit bir yaratık (seviye 42). Bu rehberde daha sonra kuzeye giderken yolunun üstünde: grup kurman önerilir. İlan kalenin yanında asılı. Dişi teslim alan {npc:259859} hanın güneyinde duruyor.",
 	-- {object:645166} WANTED! (no name in this language: may be words)
 	["the {object:645166} poster"] = "{object:645166} ilanı",
 
@@ -193,13 +193,13 @@ return {
 
 	-- Step 40: Sunnyglade
 	-- {area:16724} Farholde Keep · {area:16729} Terral's Watch · {area:16723} Sunnyglade · {area:16743} Rog'mar · {npc:259158} Fuzzle · {npc:256831} Apprentice Claire · {npc:258697} Farmer Elbrim
-	["North from {area:16724}, past {area:16729} and across the river, to {area:16723}, the farm town the Twilight cult holds; keep clear of {area:16743}, the Horde's fort east of the town. {npc:259158} the kobold hides in the middle of the town, {npc:256831} at its eastern edge, and {npc:258697} waits at his farm on the north-eastern edge."] = "{area:16724} kalesinden kuzeye, {area:16729} kulesini geçip nehrin karşısına, Twilight tarikatının tuttuğu çiftlik kasabası {area:16723} içine git; kasabanın doğusundaki Horde kalesi {area:16743} yöresinden uzak dur. Kobold {npc:259158} kasabanın ortasında saklanıyor, {npc:256831} doğu kenarında, {npc:258697} de kuzeydoğu kenarındaki çiftliğinde bekliyor.",
+	["North from {area:16724}, past {area:16729} and across the river, to {area:16723}, the farm town the Twilight cult holds; keep clear of {area:16743}, the Horde's fort east of the town. {npc:259158} the kobold hides in the middle of the town, {npc:256831} at its eastern edge, and {npc:258697} waits at his farm on the north-eastern edge."] = "{area:16724} kalesinden kuzeye, {area:16729} kulesini geçip nehrin karşısına, Twilight tarikatının tuttuğu çiftlik kasabası {area:16723} içine git. Kasabanın doğusundaki Horde kalesi {area:16743} yöresinden uzak dur. Kobold {npc:259158} kasabanın ortasında saklanıyor, {npc:256831} doğu kenarında, {npc:258697} de kuzeydoğu kenarındaki çiftliğinde bekliyor.",
 
 	-- Step 41: The Twilight cult
 	["The Twilight cult"] = "Twilight tarikatı",
 	-- {area:16723} Sunnyglade · {item:266148} Farmers' Mementos · {item:4338} Mageweave Cloth · {npc:263613} Brother Lowley · {area:16724} Farholde Keep · {quest:94885} Field Marshal's Log · {npc:256899} Chogg'Zac · {npc:263380} Ghostmaw
 	-- plural, as words: Twilight Raiders = {npc:256952} Twilight Raider
-	["The cultists fill the streets and fields of {area:16723}. Start at the ritual circles in the middle (fill Claire's catalyst there), work west through the burnt houses to the edge of town, then back north-east to the loose soil west of Elbrim's farm: bury the {item:266148} the Twilight Raiders drop there. The charms, pages and finger bones drop from the cultists.\nKeep the {item:4338} they drop: {npc:263613} in {area:16724} asks for twenty when you are back there. Now and then a cultist drops the {quest:94885}: right-click it to start the quest.\nCareful: {npc:256899}, an elite ogre (level 41), walks the western streets of {area:16723}, around 44-47,47-52. Pull the cultists out towards you and let him pass; players died here more than anywhere else in the zone.\n{npc:263380}, the river's elite (level 42), can wander up from the south-western fields: let him pass."] = "Tarikatçılar {area:16723} kasabasının sokaklarını ve tarlalarını dolduruyor. Ortadaki ayin çemberlerinden başla (Claire'in katalizörünü orada doldur), yanık evlerin arasından batıya, kasabanın kenarına kadar çalış, sonra kuzeydoğuya, Elbrim'in çiftliğinin batısındaki gevşek toprağa dön: Twilight Raider yaratıklarının düşürdüğü {item:266148} eşyalarını oraya göm. Tılsımlar, sayfalar ve parmak kemikleri tarikatçılardan düşer.\nDüşürdükleri {item:4338} kumaşını sakla: {area:16724} kalesindeki {npc:263613} oraya döndüğünde yirmi tane ister. Arada bir tarikatçı {quest:94885} düşürür: görevi başlatmak için ona sağ tıkla.\nDikkat: elit bir ogre (seviye 41) olan {npc:256899}, {area:16723} kasabasının batı sokaklarında, yaklaşık 44-47,47-52 çevresinde dolaşıyor. Tarikatçıları kendine doğru çek ve onun geçmesine izin ver; bölgede oyuncuların en çok öldüğü yer burası.\nNehrin elit yaratığı {npc:263380} (seviye 42) güneybatı tarlalarından yukarı gelebilir: geçmesine izin ver.",
+	["The cultists fill the streets and fields of {area:16723}. Start at the ritual circles in the middle (fill Claire's catalyst there), work west through the burnt houses to the edge of town, then back north-east to the loose soil west of Elbrim's farm: bury the {item:266148} the Twilight Raiders drop there. The charms, pages and finger bones drop from the cultists.\nKeep the {item:4338} they drop: {npc:263613} in {area:16724} asks for twenty when you are back there. Now and then a cultist drops the {quest:94885}: right-click it to start the quest.\nCareful: {npc:256899}, an elite ogre (level 41), walks the western streets of {area:16723}, around 44-47,47-52. Pull the cultists out towards you and let him pass; players died here more than anywhere else in the zone.\n{npc:263380}, the river's elite (level 42), can wander up from the south-western fields: let him pass."] = "Tarikatçılar {area:16723} kasabasının sokaklarını ve tarlalarını dolduruyor. Ortadaki ayin çemberlerinden başla (Claire'in katalizörünü orada doldur), yanık evlerin arasından batıya, kasabanın kenarına kadar çalış, sonra kuzeydoğuya, Elbrim'in çiftliğinin batısındaki gevşek toprağa dön: Twilight Raider yaratıklarının düşürdüğü {item:266148} eşyalarını oraya göm. Tılsımlar, sayfalar ve parmak kemikleri tarikatçılardan düşer.\nDüşürdükleri {item:4338} kumaşını sakla: {area:16724} kalesindeki {npc:263613} oraya döndüğünde yirmi tane ister. Arada bir tarikatçı {quest:94885} düşürür: görevi başlatmak için ona sağ tıkla.\nDikkat: elit bir ogre (seviye 41) olan {npc:256899}, {area:16723} kasabasının batı sokaklarında, yaklaşık 44-47,47-52 çevresinde dolaşıyor. Tarikatçıları kendine doğru çek ve onun geçmesine izin ver. Bölgede oyuncuların en çok öldüğü yer burası.\nNehrin elit yaratığı {npc:263380} (seviye 42) güneybatı tarlalarından yukarı gelebilir: geçmesine izin ver.",
 	-- {item:269990} Crystal Catalyst
 	["fill the {item:269990} at the ritual circles"] = "{item:269990} eşyasını ayin çemberlerinde doldur",
 	-- {object:621813} Loose Soil (no name in this language: may be words) · {item:266148} Farmers' Mementos
@@ -228,7 +228,7 @@ return {
 	["The {area:16743} training grounds"] = "{area:16743} talim alanı",
 	-- {area:16743} Rog'mar · {npc:263071} Blademaster Kaijo · {npc:263615} Krek the Noxious
 	-- plural, as words: Rog'mar Grunts = {npc:255996} Rog'mar Grunt
-	["North-east of Elbrim's farm, the Horde drills its trainees in the fields north of {area:16743}. Stay north of the fort: its guards are far above your level. The supply crates lie around the drill grounds. Three elites work this ground: {npc:263071} (42) walks among the trainees, {npc:263615} (42) lurks at the north end, and Komuk (45), a Horde elite, patrols the hills to the east; give each of them room.\nCareful: Rog'mar Grunts (55) guard the fort's north wall, around 59,39 to 61,41. Leave the crates and trainees by the wall and take the ones further north, around 57-61,34-37."] = "Elbrim'in çiftliğinin kuzeydoğusunda Horde, {area:16743} kuzeyindeki tarlalarda acemilerini eğitiyor. Kalenin kuzeyinde kal: muhafızları senin seviyenin çok üstünde. Erzak sandıkları talim alanlarının çevresinde. Bu alanda üç elit var: {npc:263071} (42) acemilerin arasında dolaşıyor, {npc:263615} (42) kuzey uçta pusuda, bir Horde eliti olan Komuk (45) da doğudaki tepelerde devriye geziyor; her birine yol ver.\nDikkat: Rog'mar Grunt yaratıkları (55) kalenin kuzey surunu, yaklaşık 59,39 ile 61,41 arasını koruyor. Surun yanındaki sandıkları ve acemileri bırak, daha kuzeydekileri, yaklaşık 57-61,34-37 çevresindekileri al.",
+	["North-east of Elbrim's farm, the Horde drills its trainees in the fields north of {area:16743}. Stay north of the fort: its guards are far above your level. The supply crates lie around the drill grounds. Three elites work this ground: {npc:263071} (42) walks among the trainees, {npc:263615} (42) lurks at the north end, and Komuk (45), a Horde elite, patrols the hills to the east; give each of them room.\nCareful: Rog'mar Grunts (55) guard the fort's north wall, around 59,39 to 61,41. Leave the crates and trainees by the wall and take the ones further north, around 57-61,34-37."] = "Elbrim'in çiftliğinin kuzeydoğusunda Horde, {area:16743} kuzeyindeki tarlalarda acemilerini eğitiyor. Kalenin kuzeyinde kal: muhafızları senin seviyenin çok üstünde. Erzak sandıkları talim alanlarının çevresinde. Bu alanda üç elit var: {npc:263071} (42) acemilerin arasında dolaşıyor, {npc:263615} (42) kuzey uçta pusuda, bir Horde eliti olan Komuk (45) da doğudaki tepelerde devriye geziyor. Her birine yol ver.\nDikkat: Rog'mar Grunt yaratıkları (55) kalenin kuzey surunu, yaklaşık 59,39 ile 61,41 arasını koruyor. Surun yanındaki sandıkları ve acemileri bırak, daha kuzeydekileri, yaklaşık 57-61,34-37 çevresindekileri al.",
 
 	-- Step 47: Blademaster Kaijo
 	-- {npc:263071} Blademaster Kaijo
@@ -243,7 +243,7 @@ return {
 	-- Step 49: The tallstriders and the marsh
 	["The tallstriders and the marsh"] = "Tallstrider'lar ve bataklık",
 	-- plural, as words: Roving Tallstriders = {npc:263348} Roving Tallstrider
-	["The Roving Tallstriders graze the meadows south-west of the workshop; further south-west the marsh bubbles with gas: fill the vials at the vents."] = "Roving Tallstrider yaratıkları atölyenin güneybatısındaki çayırlarda otluyor; daha güneybatıda bataklık gazla fokurduyor: şişeleri gaz çıkışlarında doldur.",
+	["The Roving Tallstriders graze the meadows south-west of the workshop; further south-west the marsh bubbles with gas: fill the vials at the vents."] = "Roving Tallstrider yaratıkları atölyenin güneybatısındaki çayırlarda otluyor. Daha güneybatıda bataklık gazla fokurduyor: şişeleri gaz çıkışlarında doldur.",
 
 	-- Step 50: Terral's Watch
 	-- {npc:259352} Watcher Cornelius
@@ -253,7 +253,7 @@ return {
 
 	-- Step 51: Farholde Keep
 	-- {area:16724} Farholde Keep · {npc:257591} Ashe Amberhall · {npc:257558} Demar Brant · {area:16723} Sunnyglade · {npc:263089} Tessa Dawnbright · {npc:263613} Brother Lowley
-	["South across the plains to {area:16724}: {npc:257591} and {npc:257558} stand together in the keep at the east end, {npc:257591} first, her news is what Brant's next orders wait on. With {area:16723} saved, {npc:263089} by the orchard and {npc:263613} by the barracks have work for you too."] = "Ovaların içinden güneye, {area:16724} kalesine: {npc:257591} ve {npc:257558} doğu ucundaki kalede birlikte duruyor; önce {npc:257591}: Brant'in sonraki emirleri onun haberlerini bekliyor. {area:16723} kurtarıldığı için meyve bahçesinin yanındaki {npc:263089} ve kışlanın yanındaki {npc:263613} de sana iş veriyor.",
+	["South across the plains to {area:16724}: {npc:257591} and {npc:257558} stand together in the keep at the east end, {npc:257591} first, her news is what Brant's next orders wait on. With {area:16723} saved, {npc:263089} by the orchard and {npc:263613} by the barracks have work for you too."] = "Ovaların içinden güneye, {area:16724} kalesine: {npc:257591} ve {npc:257558} doğu ucundaki kalede birlikte duruyor. Önce {npc:257591}: Brant'in sonraki emirleri onun haberlerini bekliyor. {area:16723} kurtarıldığı için meyve bahçesinin yanındaki {npc:263089} ve kışlanın yanındaki {npc:263613} de sana iş veriyor.",
 	-- {quest:94907} A Small Favor
 	["{quest:94907}: for later in this guide"] = "{quest:94907}: bu rehberde daha sonrası için",
 	-- {quest:95329} Out in the Field · {npc:259352} Watcher Cornelius · {area:16729} Terral's Watch
@@ -261,7 +261,7 @@ return {
 	-- {quest:94886} The Western Front
 	["{quest:94886}: for later in this guide"] = "{quest:94886}: bu rehberde daha sonrası için",
 	-- {npc:263613} Brother Lowley · {item:4338} Mageweave Cloth · {area:16723} Sunnyglade
-	["{npc:263613}: twenty {item:4338}, from {area:16723}'s cultists and the pirates; hand it in when you are back"] = "{npc:263613}: {area:16723} tarikatçılarından ve korsanlardan yirmi {item:4338}; döndüğünde teslim et",
+	["{npc:263613}: twenty {item:4338}, from {area:16723}'s cultists and the pirates; hand it in when you are back"] = "{npc:263613}: {area:16723} tarikatçılarından ve korsanlardan yirmi {item:4338}, döndüğünde teslim et",
 
 	-- Step 52: Tessa Dawnbright
 	-- {npc:263089} Tessa Dawnbright
@@ -288,7 +288,7 @@ return {
 
 	-- Step 58: Powderfuse Port
 	-- {area:16727} Powderfuse Port · {npc:255897} Friz Frazzlespark · {npc:263120} Gray Dawnbright · {npc:255894} Innkeeper Zizplink · {npc:259962} Fimbo Greasemitz · {npc:259961} Wharfmaster Whizzbuzz · {npc:260487} Gritta Chumwater · {npc:260565} Kor'gar · {npc:260560} Krikshank
-	["East down the road to {area:16727}, the goblins' harbour. {npc:255897} keeps a stall at the west end of the docks; {npc:263120}, {npc:255894} and {npc:259962} are at the inn, and {npc:259961} works the north pier. Zizplink's drink needs three things the port's traders sell: the chum from {npc:260487}, the degreaser and the old poison from {npc:260565} and {npc:260560}, by {npc:255897}'s stall."] = "Yoldan doğuya, goblinlerin limanı {area:16727} içine in. {npc:255897} iskelelerin batı ucunda bir tezgâh tutuyor; {npc:263120}, {npc:255894} ve {npc:259962} handa, {npc:259961} de kuzey iskelede çalışıyor. Zizplink'in içkisi limanın tüccarlarının sattığı üç şey ister: {npc:260487} yanından yem, {npc:255897} tezgâhının yanındaki {npc:260565} ve {npc:260560} yanından yağ çözücü ve eski zehir.",
+	["East down the road to {area:16727}, the goblins' harbour. {npc:255897} keeps a stall at the west end of the docks; {npc:263120}, {npc:255894} and {npc:259962} are at the inn, and {npc:259961} works the north pier. Zizplink's drink needs three things the port's traders sell: the chum from {npc:260487}, the degreaser and the old poison from {npc:260565} and {npc:260560}, by {npc:255897}'s stall."] = "Yoldan doğuya, goblinlerin limanı {area:16727} içine in. {npc:255897} iskelelerin batı ucunda bir tezgâh tutuyor. {npc:263120}, {npc:255894} ve {npc:259962} handa, {npc:259961} de kuzey iskelede çalışıyor. Zizplink'in içkisi limanın tüccarlarının sattığı üç şey ister: {npc:260487} yanından yem, {npc:255897} tezgâhının yanındaki {npc:260565} ve {npc:260560} yanından yağ çözücü ve eski zehir.",
 	-- {quest:95059} Frazzlespark's Crate · {npc:257558} Demar Brant · {area:16724} Farholde Keep
 	["{quest:95059}: for {npc:257558} in {area:16724}, keep it"] = "{quest:95059}: {area:16724} kalesindeki {npc:257558} için, sakla",
 	-- {item:271657} Fresh Chum · {npc:260487} Gritta Chumwater
@@ -315,7 +315,7 @@ return {
 	["Back through the port"] = "Limandan geri geç",
 	["Back north along the shore: hand in the murlocs and the hide on the docks on your way to the crawlers."] = "Kıyı boyunca kuzeye dön: crawler'lara giderken iskelelerde murlocları ve postu teslim et.",
 	-- {quest:95261} It Takes Guts
-	["{quest:95261}: the beasts' entrails come as you go; the mushrooms are for later"] = "{quest:95261}: hayvanların bağırsakları yolda gelir; mantarlar sonrası için",
+	["{quest:95261}: the beasts' entrails come as you go; the mushrooms are for later"] = "{quest:95261}: hayvanların bağırsakları yolda gelir, mantarlar sonrası için",
 
 	-- Step 63: The crawlers and Trapclaw
 	-- {npc:260235} Trapclaw
@@ -367,7 +367,7 @@ return {
 	-- Step 72: The pirates' ships
 	["The pirates' ships"] = "Korsan gemileri",
 	-- {quest:95124} Admiral Lamora · {npc:259758} Gul'gash
-	["Out to the pirates' cliffs once more. Plant Whizzbuzz's charges on the three ships moored below the camp, south to north; {quest:95124} (level 45) stands by the middle one, with her loot chest beside her. Keep an eye out for {npc:259758} on the way."] = "Bir kez daha korsanların kayalıklarına çık. Whizzbuzz'ın patlayıcılarını kampın aşağısında demirli üç gemiye, güneyden kuzeye yerleştir; {quest:95124} (seviye 45) ortadakinin yanında, ganimet sandığıyla birlikte duruyor. Yolda {npc:259758} yaratığına göz kulak ol.",
+	["Out to the pirates' cliffs once more. Plant Whizzbuzz's charges on the three ships moored below the camp, south to north; {quest:95124} (level 45) stands by the middle one, with her loot chest beside her. Keep an eye out for {npc:259758} on the way."] = "Bir kez daha korsanların kayalıklarına çık. Whizzbuzz'ın patlayıcılarını kampın aşağısında demirli üç gemiye, güneyden kuzeye yerleştir. {quest:95124} (seviye 45) ortadakinin yanında, ganimet sandığıyla birlikte duruyor. Yolda {npc:259758} yaratığına göz kulak ol.",
 	-- {item:268505} Remote Explosive Charge
 	["{item:268505}, the southern ship"] = "{item:268505}, güneydeki gemi",
 	["the middle ship"] = "ortadaki gemi",
@@ -381,7 +381,7 @@ return {
 
 	-- Step 74: Bolder'ok
 	-- {area:16726} Bolder'ok · {npc:259057} Dunston Willis
-	["North-west to {area:16726}, the ogres' town. Its ogres side with the Horde and attack you on sight, and Clugfist on his hill in the middle is an elite (level 50): keep to the town's north-eastern edge, where {npc:259057} hides."] = "Kuzeybatıya, ogre'ların kasabası {area:16726} içine git. Ogre'ları Horde'un yanında ve seni görür görmez saldırır; ortadaki tepesindeki Clugfist de elit (seviye 50): {npc:259057} adlı NPC'nin saklandığı kasabanın kuzeydoğu kenarında kal.",
+	["North-west to {area:16726}, the ogres' town. Its ogres side with the Horde and attack you on sight, and Clugfist on his hill in the middle is an elite (level 50): keep to the town's north-eastern edge, where {npc:259057} hides."] = "Kuzeybatıya, ogre'ların kasabası {area:16726} içine git. Ogre'ları Horde'un yanında ve seni görür görmez saldırır. Ortadaki tepesindeki Clugfist de elit (seviye 50): {npc:259057} adlı NPC'nin saklandığı kasabanın kuzeydoğu kenarında kal.",
 
 	-- Step 75: Gronok's Key
 	-- {npc:263749} Gronok the Butcher · {npc:259057} Dunston Willis · {item:275043} Bloodmaster's Ring
@@ -528,7 +528,7 @@ return {
 	-- Step 111: Shaman trainer
 	["Shaman trainer"] = "Shaman eğitmeni",
 	-- {zone:2548} Riverglades · {zone:1453} Stormwind · {zone:1418} Badlands · {zone:1425} Hinterlands · {area:1537} Ironforge · {area:144} Thelsamar
-	["No shaman trainer stands in the {zone:2548} or in {zone:1453}, and the {zone:1418} & {zone:1425} guide passes none: fly to {area:1537} and train there; {area:144} is a short flight on."] = "Ne {zone:2548} bölgesinde ne de {zone:1453} şehrinde Shaman eğitmeni var, {zone:1418} ve {zone:1425} rehberi de hiçbirinin yanından geçmez: {area:1537} şehrine uç ve orada eğitim al; {area:144} oradan kısa bir uçuş.",
+	["No shaman trainer stands in the {zone:2548} or in {zone:1453}, and the {zone:1418} & {zone:1425} guide passes none: fly to {area:1537} and train there; {area:144} is a short flight on."] = "Ne {zone:2548} bölgesinde ne de {zone:1453} şehrinde Shaman eğitmeni var, {zone:1418} ve {zone:1425} rehberi de hiçbirinin yanından geçmez: {area:1537} şehrine uç ve orada eğitim al. {area:144} oradan kısa bir uçuş.",
 
 	-- Step 112: Leave Stormwind
 	-- {zone:1453} Stormwind

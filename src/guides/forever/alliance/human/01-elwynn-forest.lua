@@ -29,20 +29,20 @@ return {
 	-- Step 5: Northshire Abbey
 	["Inside"] = "İçeride",
 	-- {npc:247229} Daniel
-	["{npc:247229}, in the library; inside"] = "{npc:247229}, kütüphanede; içeride",
+	["{npc:247229}, in the library; inside"] = "{npc:247229}, kütüphanede, içeride",
 
 	-- Step 6: Echo Ridge Mine: kill these as you meet them
 	-- {area:34} Echo Ridge Mine
 	["{area:34}: kill these as you meet them"] = "{area:34}: bunları karşılaştıkça öldür",
 	-- {object:83763} Stolen Books
 	-- plural, as words: Kobold Workers = {npc:257} Kobold Worker
-	["Follow the path north to the mine. Kobold Workers swarm outside it; every kobold in the valley can drop the {object:83763}."] = "Kuzeydeki patikayı izleyerek madene git. Önünde Kobold Worker yaratıkları kaynıyor; vadideki her kobold {object:83763} düşürebilir.",
+	["Follow the path north to the mine. Kobold Workers swarm outside it; every kobold in the valley can drop the {object:83763}."] = "Kuzeydeki patikayı izleyerek madene git. Önünde Kobold Worker yaratıkları kaynıyor. Vadideki her kobold {object:83763} düşürebilir.",
 
 	-- Step 7: Northshire Abbey
 	-- {npc:248415} Tordrin Sternblade · {npc:198} Khelden Bremen
 	["{npc:248415} stands behind the Abbey, by the stables. {npc:198}, the mage trainer, stands upstairs in the Abbey: take the stairs inside, the arrow cannot tell the floors apart."] = "{npc:248415} manastırın arkasında, ahırların yanında duruyor. Mage eğitmeni {npc:198} manastırın üst katında: içerideki merdivenden çık, ok katları birbirinden ayıramaz.",
 	-- {npc:911} Llane Beshere
-	["{npc:911}, the warrior trainer; inside"] = "{npc:911}, Warrior eğitmeni; içeride",
+	["{npc:911}, the warrior trainer; inside"] = "{npc:911}, Warrior eğitmeni, içeride",
 	-- {npc:925} Brother Sammuel
 	["{npc:925}, the paladin trainer"] = "{npc:925}, Paladin eğitmeni",
 	-- {npc:248415} Tordrin Sternblade
@@ -131,7 +131,7 @@ return {
 
 	-- Step 23: Sam Sarsaparilla
 	-- {npc:263399} Sam Sarsaparilla · {skill:129} First Aid · {area:87} Goldshire
-	["{npc:263399} camps north-east of the inn. With a profession learned, he also offers its Camping 101, which its trainer takes: skinning, leatherworking and fishing on the lake shore, {skill:129} and blacksmithing in {area:87}."] = "{npc:263399} hanın kuzeydoğusunda kamp kurmuş. Bir meslek öğrendiysen o mesleğin Camping 101 görevini de verir; görevi mesleğin eğitmeni teslim alır: skinning, leatherworking ve fishing göl kıyısında, {skill:129} ve blacksmithing {area:87} kasabasında.",
+	["{npc:263399} camps north-east of the inn. With a profession learned, he also offers its Camping 101, which its trainer takes: skinning, leatherworking and fishing on the lake shore, {skill:129} and blacksmithing in {area:87}."] = "{npc:263399} hanın kuzeydoğusunda kamp kurmuş. Bir meslek öğrendiysen o mesleğin Camping 101 görevini de verir. Görevi mesleğin eğitmeni teslim alır: skinning, leatherworking ve fishing göl kıyısında, {skill:129} ve blacksmithing {area:87} kasabasında.",
 	-- {spell:1229451} Boosted Rest
 	["Sit (/sit) by his campfire until you have {spell:1229451}"] = "{spell:1229451} gelene kadar onun kamp ateşinin yanında otur (/sit)",
 
@@ -168,7 +168,7 @@ return {
 	-- Step 29: Helene Peltskinner
 	["talk to the trainer"] = "eğitmenle konuş",
 	-- {npc:6306} Helene Peltskinner
-	["{npc:6306}, on the lake shore east of town; inside"] = "{npc:6306}, kasabanın doğusunda göl kıyısında; içeride",
+	["{npc:6306}, on the lake shore east of town; inside"] = "{npc:6306}, kasabanın doğusunda göl kıyısında, içeride",
 
 	-- Step 30: Adele Fielder
 	-- {npc:1632} Adele Fielder · {npc:6306} Helene Peltskinner
@@ -179,7 +179,7 @@ return {
 	-- {npc:6306} Helene Peltskinner · {npc:383} Jason Mathers · {npc:1651} Lee Brown · {area:18} Crystal Lake
 	["{npc:6306}, {npc:383} and {npc:1651} stand on the shore of {area:18} east of town."] = "{npc:6306}, {npc:383} ve {npc:1651} kasabanın doğusunda, {area:18} gölünün kıyısında duruyor.",
 	-- {npc:6306} Helene Peltskinner
-	["{npc:6306}: skinners only, the pelts are skinned; inside"] = "{npc:6306}: yalnızca Skinning mesleği olanlar için, postları yüzerek alırsın; içeride",
+	["{npc:6306}: skinners only, the pelts are skinned; inside"] = "{npc:6306}: yalnızca Skinning mesleği olanlar için, postları yüzerek alırsın, içeride",
 
 	-- Step 33: Crystal Lake
 	-- plural, as words: Fishing Traps = {object:694772} Fishing Trap
@@ -196,13 +196,13 @@ return {
 	-- {area:18} Crystal Lake
 	["{area:18}: kill these as you meet them"] = "{area:18}: bunları karşılaştıkça öldür",
 	-- plural, as words: Murloc Streamrunners = {npc:735} Murloc Streamrunner · Junk Piles = {object:694785} Junk Pile
-	["Murlocs and Murloc Streamrunners hold the east shore; the Junk Piles lie in their camp. Careful: the murlocs stand close together, so a fight easily pulls two or three at once: pull them one at a time from the edge of the camp, and don't chase one into the next group."] = "Murloc ve Murloc Streamrunner yaratıkları doğu kıyısını tutuyor; Junk Pile nesneleri onların kampında. Dikkat: murloclar birbirine yakın duruyor, bu yüzden bir dövüş kolayca iki üçünü birden çeker: kampın kenarından tek tek çek ve birinin peşinden sonraki gruba dalma.",
+	["Murlocs and Murloc Streamrunners hold the east shore; the Junk Piles lie in their camp. Careful: the murlocs stand close together, so a fight easily pulls two or three at once: pull them one at a time from the edge of the camp, and don't chase one into the next group."] = "Murloc ve Murloc Streamrunner yaratıkları doğu kıyısını tutuyor. Junk Pile nesneleri onların kampında. Dikkat: murloclar birbirine yakın duruyor, bu yüzden bir dövüş kolayca iki üçünü birden çeker: kampın kenarından tek tek çek ve birinin peşinden sonraki gruba dalma.",
 
 	-- Step 38: Goldshire
 	-- {npc:1430} Tomas · {npc:377} Priestess Josetta · {npc:328} Zaldimar Wefhellt · {npc:917} Keryn Sylvius
 	["{npc:1430} cooks in the inn's kitchen. {npc:377} (priests), {npc:328} (mages) and {npc:917} (rogues) stand upstairs in the inn: take the stairs inside, the arrow cannot tell the floors apart."] = "{npc:1430} hanın mutfağında yemek pişiriyor. {npc:377} (Priest'ler), {npc:328} (Mage'ler) ve {npc:917} (Rogue'lar) hanın üst katında duruyor: içerideki merdivenden çık, ok katları birbirinden ayıramaz.",
 	-- {npc:1430} Tomas
-	["{npc:1430}: Camping 101 asks you to learn it; below ground"] = "{npc:1430}: Camping 101 bunu öğrenmeni istiyor; yer altında",
+	["{npc:1430}: Camping 101 asks you to learn it; below ground"] = "{npc:1430}: Camping 101 bunu öğrenmeni istiyor, yer altında",
 	-- {npc:377} Priestess Josetta · {item:16605} Friar's Robes of the Light
 	["{npc:377}, upstairs: {item:16605}"] = "{npc:377}, üst katta: {item:16605}",
 
@@ -233,7 +233,7 @@ return {
 	["{zone:1429}: kill these as you meet them"] = "{zone:1429}: bunları karşılaştıkça öldür",
 	-- {object:694855} Overgrown Duskweed
 	-- plural, as words: Stonetusk Boars = {npc:113} Stonetusk Boar
-	["{object:694855} grows in the fields around the vineyards and the Stonefield farm; Stonetusk Boars around them give the blood.\nStonetusk Boars graze between the vineyards and the farm."] = "{object:694855} bağların ve Stonefield çiftliğinin çevresindeki tarlalarda yetişiyor; kanı çevredeki Stonetusk Boar yaratıklarından alırsın.\nStonetusk Boar yaratıkları bağlarla çiftlik arasında otluyor.",
+	["{object:694855} grows in the fields around the vineyards and the Stonefield farm; Stonetusk Boars around them give the blood.\nStonetusk Boars graze between the vineyards and the farm."] = "{object:694855} bağların ve Stonefield çiftliğinin çevresindeki tarlalarda yetişiyor. Kanı çevredeki Stonetusk Boar yaratıklarından alırsın.\nStonetusk Boar yaratıkları bağlarla çiftlik arasında otluyor.",
 	-- {item:286215} Vial of Animal Blood
 	-- plural, as words: Stonetusk Boars = {npc:113} Stonetusk Boar
 	["{item:286215}: Stonetusk Boars"] = "{item:286215}: Stonetusk Boar yaratıkları",
@@ -247,7 +247,7 @@ return {
 	["{area:64}: kill these as you meet them"] = "{area:64}: bunları karşılaştıkça öldür",
 	-- {npc:248464} Nimsy
 	-- plural, as words: Kobold Miners = {npc:40} Kobold Miner
-	["The mine is west of the vineyards. Kobold Miners and Tunnelers fill both levels; {npc:248464}, a named kobold, holds the picture book in the lower tunnels. {npc:248464} is elite: grouping up is advised."] = "Maden, bağların batısında. Kobold Miner ve Kobold Tunneler yaratıkları iki katı da dolduruyor; resimli kitap, alt tünellerdeki isimli bir kobold olan {npc:248464} yaratığında. {npc:248464} elit: grup kurman önerilir.",
+	["The mine is west of the vineyards. Kobold Miners and Tunnelers fill both levels; {npc:248464}, a named kobold, holds the picture book in the lower tunnels. {npc:248464} is elite: grouping up is advised."] = "Maden, bağların batısında. Kobold Miner ve Kobold Tunneler yaratıkları iki katı da dolduruyor. Resimli kitap, alt tünellerdeki isimli bir kobold olan {npc:248464} yaratığında. {npc:248464} elit: grup kurman önerilir.",
 	["Walk through the mine"] = "Madenin içinden geç",
 	-- plural, as words: Large Candles = {item:772} Large Candle
 	["Large Candles"] = "Large Candle",
@@ -263,9 +263,9 @@ return {
 	-- Step 50: Goldtooth
 	-- {quest:87} Goldtooth · {area:57} Fargodeep Mine · {item:1972} Westfall Deed · {npc:248464} Nimsy · {npc:79} Narg the Taskmaster
 	-- plural, as words: Defias Bandits = {npc:116} Defias Bandit
-	["{quest:87} is inside the {area:57}, not on the hill above it: go in at the mouth and keep left to the back of the mine floor; don't take the stairs up. Defias Bandits around the vineyards drop a {item:1972} now and then: right-click it.\nCareful: {npc:248464} (6), a kobold deep in the mine, is elite, and {npc:79} (10, rare) walks the tunnels: pull the kobolds one at a time."] = "{quest:87} görevinin hedefi tepede değil, {area:57} madeninin içinde: girişten gir ve solda kalarak maden tabanının en dibine git; merdivenlerden yukarı çıkma. Bağların çevresindeki Defias Bandit yaratıkları arada bir {item:1972} düşürür: ona sağ tıkla.\nDikkat: madenin derinlerindeki bir kobold olan {npc:248464} (6) elit, {npc:79} (10, rare) da tünellerde dolaşıyor: kobold'ları tek tek çek.",
+	["{quest:87} is inside the {area:57}, not on the hill above it: go in at the mouth and keep left to the back of the mine floor; don't take the stairs up. Defias Bandits around the vineyards drop a {item:1972} now and then: right-click it.\nCareful: {npc:248464} (6), a kobold deep in the mine, is elite, and {npc:79} (10, rare) walks the tunnels: pull the kobolds one at a time."] = "{quest:87} görevinin hedefi tepede değil, {area:57} madeninin içinde: girişten gir ve solda kalarak maden tabanının en dibine git. Merdivenlerden yukarı çıkma. Bağların çevresindeki Defias Bandit yaratıkları arada bir {item:1972} düşürür: ona sağ tıkla.\nDikkat: madenin derinlerindeki bir kobold olan {npc:248464} (6) elit, {npc:79} (10, rare) da tünellerde dolaşıyor: kobold'ları tek tek çek.",
 	-- {item:981} Bernice's Necklace
-	["{item:981}; below ground"] = "{item:981}; yer altında",
+	["{item:981}; below ground"] = "{item:981}, yer altında",
 
 	-- Step 51: Goldshire
 	-- {npc:377} Priestess Josetta · {npc:328} Zaldimar Wefhellt · {npc:917} Keryn Sylvius
@@ -286,12 +286,12 @@ return {
 	-- Step 55: Shaman trainer
 	["Shaman trainer"] = "Shaman eğitmeni",
 	-- {npc:257446} Teo Hammerstorm · {zone:1426} Dun Morogh · {area:87} Goldshire
-	["{npc:257446} in {zone:1426}; {area:87} has no shaman trainer"] = "{npc:257446}, {zone:1426} bölgesinde; {area:87} içinde Shaman eğitmeni yok",
+	["{npc:257446} in {zone:1426}; {area:87} has no shaman trainer"] = "{npc:257446}, {zone:1426} bölgesinde, {area:87} içinde Shaman eğitmeni yok",
 
 	-- Step 56: Druid trainer
 	["Druid trainer"] = "Druid eğitmeni",
 	-- {npc:5504} Sheldras Moontree · {zone:1453} Stormwind · {area:87} Goldshire
-	["{npc:5504} in {zone:1453}; {area:87} has no druid trainer"] = "{npc:5504}, {zone:1453} bölgesinde; {area:87} içinde Druid eğitmeni yok",
+	["{npc:5504} in {zone:1453}; {area:87} has no druid trainer"] = "{npc:5504}, {zone:1453} bölgesinde, {area:87} içinde Druid eğitmeni yok",
 
 	-- Step 57: Jason Mathers
 	-- {area:87} Goldshire · {npc:383} Jason Mathers
@@ -300,7 +300,7 @@ return {
 	-- Step 58: Crystal Lake: kill these as you meet them
 	-- {area:91} Tower of Azora · {npc:276180} Elder Finseer · {npc:261} Guard Thomas
 	-- plural, as words: Prowlers = {npc:118} Prowler
-	["The murlocs on the east shore drop the kelp. Skinners: Gray Forest Wolves roam the woods between the lake and the {area:91}; Prowlers further east give pelts too.\nCareful: {npc:276180}, a level 11 rare murloc, walks the river by {npc:261}' bridge, east of the Prowlers' woods: leave him be."] = "Yosunu doğu kıyısındaki murloclar düşürür. Skinning yapanlar için: Gray Forest Wolf yaratıkları gölle {area:91} kulesi arasındaki ormanda dolaşıyor; daha doğudaki Prowler yaratıkları da post verir.\nDikkat: 11. seviye rare bir murloc olan {npc:276180}, Prowler ormanının doğusunda, {npc:261} adlı NPC'nin beklediği köprünün yanında nehir boyunca yürür: ona bulaşma.",
+	["The murlocs on the east shore drop the kelp. Skinners: Gray Forest Wolves roam the woods between the lake and the {area:91}; Prowlers further east give pelts too.\nCareful: {npc:276180}, a level 11 rare murloc, walks the river by {npc:261}' bridge, east of the Prowlers' woods: leave him be."] = "Yosunu doğu kıyısındaki murloclar düşürür. Skinning yapanlar için: Gray Forest Wolf yaratıkları gölle {area:91} kulesi arasındaki ormanda dolaşıyor. Daha doğudaki Prowler yaratıkları da post verir.\nDikkat: 11. seviye rare bir murloc olan {npc:276180}, Prowler ormanının doğusunda, {npc:261} adlı NPC'nin beklediği köprünün yanında nehir boyunca yürür: ona bulaşma.",
 	-- plural, as words: Crystal Kelp Fronds = {item:1256} Crystal Kelp Frond
 	["Crystal Kelp Fronds"] = "Crystal Kelp Frond",
 
@@ -313,14 +313,14 @@ return {
 	-- Step 60: The bridge
 	["The bridge"] = "Köprü",
 	-- {npc:261} Guard Thomas · {npc:248265} Ormin Pelford
-	["{npc:261} guards the bridge on the road east; {npc:248265} stands just across it."] = "{npc:261} doğuya giden yoldaki köprüyü bekliyor; {npc:248265} hemen karşı yakada duruyor.",
+	["{npc:261} guards the bridge on the road east; {npc:248265} stands just across it."] = "{npc:261} doğuya giden yoldaki köprüyü bekliyor. {npc:248265} hemen karşı yakada duruyor.",
 
 	-- Step 61: Downstream and Princess
 	-- {quest:91733} Downstream · {npc:330} Princess
 	["{quest:91733} and {npc:330}"] = "{quest:91733} ve {npc:330}",
 	-- {item:247813} Waterlogged Saw · {npc:330} Princess · {area:62} Brackwell Pumpkin Patch · {npc:390} Porcine Entourage · {npc:261} Guard Thomas · {npc:248278} Croaky
 	-- plural, as words: Young Forest Bears = {npc:822} Young Forest Bear · Prowlers = {npc:118} Prowler
-	["The {item:247813}, Axe and Toolbox lie in the river south of the bridge. {npc:330}, a big boar, roots in the {area:62} west of the river with her {npc:390}: pull the piglets away first. Kill Young Forest Bears on the way; the Prowlers (level 9-10) wait for the walk back to {npc:261}, after the logging camp and the mine. Careful: {npc:248278} is a level 11 elite on the murloc shore. Only go for his head with a group; otherwise leave him: it's optional."] = "{item:247813}, balta ve alet kutusu köprünün güneyinde, nehrin içinde. Büyük bir yaban domuzu olan {npc:330}, nehrin batısındaki {area:62} tarlasında {npc:390} ile birlikte toprağı eşeliyor: önce yavruları ondan uzağa çek. Yolda Young Forest Bear yaratıklarını öldür; Prowler yaratıkları (seviye 9-10), kereste kampı ve madenden sonra {npc:261} yanına dönüş yolunu bekler. Dikkat: {npc:248278} murloc kıyısında 11. seviye elit bir yaratık. Kafası için yalnızca grupla git; yoksa onu bırak: isteğe bağlı.",
+	["The {item:247813}, Axe and Toolbox lie in the river south of the bridge. {npc:330}, a big boar, roots in the {area:62} west of the river with her {npc:390}: pull the piglets away first. Kill Young Forest Bears on the way; the Prowlers (level 9-10) wait for the walk back to {npc:261}, after the logging camp and the mine. Careful: {npc:248278} is a level 11 elite on the murloc shore. Only go for his head with a group; otherwise leave him: it's optional."] = "{item:247813}, balta ve alet kutusu köprünün güneyinde, nehrin içinde. Büyük bir yaban domuzu olan {npc:330}, nehrin batısındaki {area:62} tarlasında {npc:390} ile birlikte toprağı eşeliyor: önce yavruları ondan uzağa çek. Yolda Young Forest Bear yaratıklarını öldür. Prowler yaratıkları (seviye 9-10), kereste kampı ve madenden sonra {npc:261} yanına dönüş yolunu bekler. Dikkat: {npc:248278} murloc kıyısında 11. seviye elit bir yaratık. Kafası için yalnızca grupla git, yoksa onu bırak: isteğe bağlı.",
 
 	-- Step 62: Croaky
 	-- {npc:248278} Croaky · {quest:91740} Croaky's Head
@@ -347,14 +347,14 @@ return {
 	-- Step 68: Stone Cairn Lake
 	-- {area:86} Stone Cairn Lake · {object:56} Rolf's corpse · {npc:6866} Defias Bodyguard
 	-- plural, as words: Defias Rogue Wizards = {npc:474} Defias Rogue Wizard · Red Linen Bandanas = {item:1019} Red Linen Bandana
-	["Defias Rogue Wizards camp on the shores of {area:86}; they drop the Red Linen Bandanas too. {object:56} lies in the murloc village on the north-east shore.\nCareful: the Rogue Wizards cast from range and a {npc:6866} (10) walks the shore with them: pull them one at a time."] = "Defias Rogue Wizard yaratıkları {area:86} gölünün kıyılarında kamp kurmuş; Red Linen Bandana eşyalarını da onlar düşürür. {object:56}, kuzeydoğu kıyısındaki murloc köyünde yatıyor.\nDikkat: Rogue Wizard yaratıkları uzaktan büyü yapar ve onlarla birlikte bir {npc:6866} (10) kıyıda dolaşır: onları tek tek çek.",
+	["Defias Rogue Wizards camp on the shores of {area:86}; they drop the Red Linen Bandanas too. {object:56} lies in the murloc village on the north-east shore.\nCareful: the Rogue Wizards cast from range and a {npc:6866} (10) walks the shore with them: pull them one at a time."] = "Defias Rogue Wizard yaratıkları {area:86} gölünün kıyılarında kamp kurmuş. Red Linen Bandana eşyalarını da onlar düşürür. {object:56}, kuzeydoğu kıyısındaki murloc köyünde yatıyor.\nDikkat: Rogue Wizard yaratıkları uzaktan büyü yapar ve onlarla birlikte bir {npc:6866} (10) kıyıda dolaşır: onları tek tek çek.",
 	-- plural, as words: Red Linen Bandanas = {item:1019} Red Linen Bandana
 	["Red Linen Bandanas"] = "Red Linen Bandana",
 
 	-- Step 69: The gnoll camps
 	["The gnoll camps"] = "Gnoll kampları",
 	-- {area:86} Stone Cairn Lake · {quest:91725} Stolen Enchanting Supplies
-	["Riverpaw gnolls camp in the hills west of {area:86}; the {quest:91725} lie in their camps."] = "Riverpaw gnolları {area:86} gölünün batısındaki tepelerde kamp kurmuş; {quest:91725} malzemeleri onların kamplarında duruyor.",
+	["Riverpaw gnolls camp in the hills west of {area:86}; the {quest:91725} lie in their camps."] = "Riverpaw gnolları {area:86} gölünün batısındaki tepelerde kamp kurmuş, {quest:91725} malzemeleri onların kamplarında duruyor.",
 
 	-- Step 70: The Jasperlode Mine's entrance
 	-- {quest:76} The Jasperlode Mine
@@ -365,7 +365,7 @@ return {
 	["{area:54}: kill these as you meet them"] = "{area:54}: bunları karşılaştıkça öldür",
 	-- {item:247816} Mining Tools · {npc:471} Mother Fang · {npc:248474} Geosculptor Yip
 	-- plural, as words: Kobold Geomancers = {npc:476} Kobold Geomancer · Mine Spiders = {npc:43} Mine Spider
-	["The mine is south-west of the gnoll camps. {item:247816} lie near the entrance; Kobold Geomancers hold the tunnels.\nCareful: {npc:471} (7-10), the Mine Spiders (7-9) and {npc:248474} (7) are elites deep in the mine: pull the kobolds one at a time near the entrance and back out if an elite comes; they're easier with a friend."] = "Maden, gnoll kamplarının güneybatısında. {item:247816} girişin yakınında duruyor; tünelleri Kobold Geomancer yaratıkları tutuyor.\nDikkat: {npc:471} (7-10), Mine Spider yaratıkları (7-9) ve {npc:248474} (7) madenin derinlerindeki elitler: kobold'ları girişin yakınında tek tek çek, bir elit gelirse geri çekil; bir arkadaşla daha kolaylar.",
+	["The mine is south-west of the gnoll camps. {item:247816} lie near the entrance; Kobold Geomancers hold the tunnels.\nCareful: {npc:471} (7-10), the Mine Spiders (7-9) and {npc:248474} (7) are elites deep in the mine: pull the kobolds one at a time near the entrance and back out if an elite comes; they're easier with a friend."] = "Maden, gnoll kamplarının güneybatısında. {item:247816} girişin yakınında duruyor. Tünelleri Kobold Geomancer yaratıkları tutuyor.\nDikkat: {npc:471} (7-10), Mine Spider yaratıkları (7-9) ve {npc:248474} (7) madenin derinlerindeki elitler: kobold'ları girişin yakınında tek tek çek, bir elit gelirse geri çekil, bir arkadaşla daha kolaylar.",
 	["Walk into the mine"] = "Madene gir",
 	-- {npc:476} Kobold Geomancer · {area:54} Jasperlode Mine
 	["{npc:476} walks around {area:54}: look inside the circle on the map"] = "{npc:476}, {area:54} çevresinde dolaşıyor: haritadaki çemberin içine bak",
@@ -376,7 +376,7 @@ return {
 	-- Step 73: Guard Thomas
 	-- {area:91} Tower of Azora
 	-- plural, as words: Prowlers = {npc:118} Prowler · Young Forest Bears = {npc:822} Young Forest Bear
-	["Follow the road east past the {area:91} to the bridge. Finish the Prowlers and Young Forest Bears around the river south of it."] = "Yolu doğuya izle; {area:91} kulesini geçip köprüye var. Köprünün güneyinde, nehrin çevresindeki Prowler ve Young Forest Bear yaratıklarını bitir.",
+	["Follow the road east past the {area:91} to the bridge. Finish the Prowlers and Young Forest Bears around the river south of it."] = "Yolu doğuya izle, {area:91} kulesini geçip köprüye var. Köprünün güneyinde, nehrin çevresindeki Prowler ve Young Forest Bear yaratıklarını bitir.",
 
 	-- Step 75: Stone Cairn Lake
 	-- {npc:6866} Defias Bodyguard
@@ -388,7 +388,7 @@ return {
 
 	-- Step 77: Goldshire
 	-- {area:87} Goldshire · {npc:6306} Helene Peltskinner · {npc:377} Priestess Josetta · {npc:328} Zaldimar Wefhellt · {npc:917} Keryn Sylvius
-	["Follow the road west back to {area:87}; {npc:6306} stands on the lake shore before town. {npc:377} (priests), {npc:328} (mages) and {npc:917} (rogues) stand upstairs in the inn: take the stairs inside, the arrow cannot tell the floors apart."] = "Yolu batıya izleyerek {area:87} kasabasına dön; {npc:6306} kasabaya varmadan, göl kıyısında duruyor. {npc:377} (Priest'ler), {npc:328} (Mage'ler) ve {npc:917} (Rogue'lar) hanın üst katında duruyor: içerideki merdivenden çık, ok katları birbirinden ayıramaz.",
+	["Follow the road west back to {area:87}; {npc:6306} stands on the lake shore before town. {npc:377} (priests), {npc:328} (mages) and {npc:917} (rogues) stand upstairs in the inn: take the stairs inside, the arrow cannot tell the floors apart."] = "Yolu batıya izleyerek {area:87} kasabasına dön. {npc:6306} kasabaya varmadan, göl kıyısında duruyor. {npc:377} (Priest'ler), {npc:328} (Mage'ler) ve {npc:917} (Rogue'lar) hanın üst katında duruyor: içerideki merdivenden çık, ok katları birbirinden ayıramaz.",
 	-- {npc:6306} Helene Peltskinner
 	["{npc:6306}, inside"] = "{npc:6306}, içeride",
 	-- {npc:240} Marshal Dughan
@@ -406,7 +406,7 @@ return {
 
 	-- Step 79: Jennea Cannon
 	-- {area:87} Goldshire · {zone:1453} Stormwind · {npc:5497} Jennea Cannon · {object:2101} Mage Quarter · {quest:1861} Mirror Lake
-	["Follow the road north from {area:87} into {zone:1453}. {npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}; she gives you a flask for the {quest:1861} waterfall."] = "Yolu izleyerek {area:87} kasabasından kuzeye, {zone:1453} şehrine git. {npc:5497}, {object:2101} semtinin kulesinde, Wizard's Sanctum içinde duruyor; sana {quest:1861} şelalesi için bir şişe verir.",
+	["Follow the road north from {area:87} into {zone:1453}. {npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}; she gives you a flask for the {quest:1861} waterfall."] = "Yolu izleyerek {area:87} kasabasından kuzeye, {zone:1453} şehrine git. {npc:5497}, {object:2101} semtinin kulesinde, Wizard's Sanctum içinde duruyor. Sana {quest:1861} şelalesi için bir şişe verir.",
 
 	-- Step 81: Gakin the Darkbinder
 	-- {area:87} Goldshire · {zone:1453} Stormwind · {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter
@@ -414,7 +414,7 @@ return {
 
 	-- Step 82: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
-	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş); seviye atlarken bir asa, tek elli bir silahtan daha çok büyü istatistiği taşır.",
+	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş). Seviye atlarken bir asa, tek elli bir silahtan daha çok büyü istatistiği taşır.",
 
 	-- Step 83: Mirror Lake
 	-- {zone:1453} Stormwind · {quest:1861} Mirror Lake · {zone:1436} Westfall · {item:7207} Jennea's Flask
@@ -481,7 +481,7 @@ return {
 
 	-- Step 92: Sergeant De Vries
 	-- {npc:955} Sergeant De Vries · {item:247824} Thunder Applejack
-	["{npc:955}: he wants your {item:247824}; inside"] = "{npc:955}: senden {item:247824} istiyor; içeride",
+	["{npc:955}: he wants your {item:247824}; inside"] = "{npc:955}: senden {item:247824} istiyor, içeride",
 
 	-- Step 93: Forest's Edge
 	-- {zone:1436} Westfall

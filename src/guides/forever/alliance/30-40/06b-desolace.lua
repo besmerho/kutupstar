@@ -35,7 +35,7 @@ return {
 
 	-- Step 6: Kodo Graveyard
 	-- {npc:6019} Hornizz Brimbuzzle · {area:596} Kodo Graveyard · {area:2407} Kormek's Hut · {object:176751} Kodo Bones
-	["{npc:6019} stands at the edge of the {area:596}, south-west of {area:2407}; {object:176751} lie among the skeletons."] = "{npc:6019}, {area:2407} kulübesinin güneybatısında, {area:596} mezarlığının kenarında duruyor; {object:176751} iskeletlerin arasında.",
+	["{npc:6019} stands at the edge of the {area:596}, south-west of {area:2407}; {object:176751} lie among the skeletons."] = "{npc:6019}, {area:2407} kulübesinin güneybatısında, {area:596} mezarlığının kenarında duruyor. {object:176751} iskeletlerin arasında.",
 
 	-- Step 7: Hornizz Brimbuzzle
 	-- {quest:6134} Ghost-o-plasm Round Up · {area:2657} Valley of Bones
@@ -49,18 +49,18 @@ return {
 	-- Step 9: Maraudine centaurs
 	["Maraudine centaurs"] = "Maraudine centaurları",
 	-- {area:607} Valley of Spears
-	["The Maraudine centaurs hold the {area:607} west of the graveyard; every kind drops the totems."] = "Maraudine centaurları mezarlığın batısındaki {area:607} vadisini tutuyor; her türü totem düşürür.",
+	["The Maraudine centaurs hold the {area:607} west of the graveyard; every kind drops the totems."] = "Maraudine centaurları mezarlığın batısındaki {area:607} vadisini tutuyor. Her türü totem düşürür.",
 
 	-- Step 10: Melizza Brimbuzzle
 	-- {npc:12277} Melizza Brimbuzzle
-	["{npc:12277} is held in the centaur camp west of the graveyard. Free her and keep her alive on the walk out; she stops by the graveyard.\nCareful: The scripted groups are linked and only appear during the escort, so you cannot clear them in advance or pull them one at a time. Clearing the normal centaurs on the path before you start does help."] = "{npc:12277}, mezarlığın batısındaki centaur kampında tutuluyor. Onu serbest bırak ve dışarı yürüyüşte hayatta tut; mezarlığın yanında durur.\nDikkat: Senaryolu gruplar birbirine bağlı ve yalnızca eşlik sırasında çıkar, bu yüzden onları önceden temizleyemez ya da tek tek çekemezsin. Başlamadan önce yol üstündeki normal centaur'ları temizlemek işe yarar.",
+	["{npc:12277} is held in the centaur camp west of the graveyard. Free her and keep her alive on the walk out; she stops by the graveyard.\nCareful: The scripted groups are linked and only appear during the escort, so you cannot clear them in advance or pull them one at a time. Clearing the normal centaurs on the path before you start does help."] = "{npc:12277}, mezarlığın batısındaki centaur kampında tutuluyor. Onu serbest bırak ve dışarı yürüyüşte hayatta tut. Mezarlığın yanında durur.\nDikkat: Senaryolu gruplar birbirine bağlı ve yalnızca eşlik sırasında çıkar, bu yüzden onları önceden temizleyemez ya da tek tek çekemezsin. Başlamadan önce yol üstündeki normal centaur'ları temizlemek işe yarar.",
 	-- {npc:12277} Melizza Brimbuzzle
 	["escort {npc:12277} back toward the graveyard"] = "{npc:12277} adlı NPC'ye mezarlığa kadar eşlik et",
 
 	-- Step 11: Mannoroc Coven
 	-- {area:602} Mannoroc Coven · {zone:1443} Desolace · {npc:5760} Lord Azrethoc
 	-- plural, as words: Nether Maidens = {npc:4679} Nether Maiden · Doomwarder Captains = {npc:4680} Doomwarder Captain
-	["The demons gather at the {area:602} in southern {zone:1443}. Nether Maidens (37-38) hold its north-west side and drop the wings; Doomwarder Captains (38) stand at the south end and drop the blood.\nCareful: Nether Sorceresses (39-40) stand beside the Doomwarder Captains, and {npc:5760}, a level 40 elite, walks the coven's middle: pull the captains away from them. Most of the mobs here walk patrol routes, so you can easily pull extra mobs."] = "İblisler güney {zone:1443} bölgesindeki {area:602} içinde toplanıyor. Nether Maiden yaratıkları (37-38) kuzeybatı yakasını tutar ve kanat düşürür; Doomwarder Captain yaratıkları (38) güney ucunda durur ve kan düşürür.\nDikkat: Doomwarder Captain'ların yanında Nether Sorceress yaratıkları (39-40) duruyor, 40. seviye elit {npc:5760} de meclisin ortasında dolaşıyor: kaptanları onlardan uzağa çek. Buradaki yaratıkların çoğu devriye yollarında yürür, bu yüzden kolayca fazladan yaratık çekebilirsin.",
+	["The demons gather at the {area:602} in southern {zone:1443}. Nether Maidens (37-38) hold its north-west side and drop the wings; Doomwarder Captains (38) stand at the south end and drop the blood.\nCareful: Nether Sorceresses (39-40) stand beside the Doomwarder Captains, and {npc:5760}, a level 40 elite, walks the coven's middle: pull the captains away from them. Most of the mobs here walk patrol routes, so you can easily pull extra mobs."] = "İblisler güney {zone:1443} bölgesindeki {area:602} içinde toplanıyor. Nether Maiden yaratıkları (37-38) kuzeybatı yakasını tutar ve kanat düşürür. Doomwarder Captain yaratıkları (38) güney ucunda durur ve kan düşürür.\nDikkat: Doomwarder Captain'ların yanında Nether Sorceress yaratıkları (39-40) duruyor, 40. seviye elit {npc:5760} de meclisin ortasında dolaşıyor: kaptanları onlardan uzağa çek. Buradaki yaratıkların çoğu devriye yollarında yürür, bu yüzden kolayca fazladan yaratık çekebilirsin.",
 	-- {item:6251} Nether Wing
 	-- plural, as words: Nether Maidens = {npc:4679} Nether Maiden
 	["{item:6251}, from the Nether Maidens"] = "{item:6251}, Nether Maiden yaratıklarından",
@@ -78,7 +78,7 @@ return {
 	["The ghost magnets"] = "Hayalet mıknatısları",
 	-- {item:15848} Crate of Ghost Magnets
 	-- plural, as words: Magrami Spectres = {npc:11560} Magrami Spectre
-	["Use the {item:15848} at its arrow, on the fields' eastern side, to draw the Magrami Spectres; the Necrokhans and Corpsefeeders (45, elite) walk close by: keep the group together."] = "Magrami Spectre yaratıklarını çekmek için {item:15848} eşyasını tarlaların doğu yakasında, okunun gösterdiği yerde kullan; Necrokhan ve Corpsefeeder yaratıkları (45, elit) yakında dolaşıyor: grubu bir arada tut.",
+	["Use the {item:15848} at its arrow, on the fields' eastern side, to draw the Magrami Spectres; the Necrokhans and Corpsefeeders (45, elite) walk close by: keep the group together."] = "Magrami Spectre yaratıklarını çekmek için {item:15848} eşyasını tarlaların doğu yakasında, okunun gösterdiği yerde kullan. Necrokhan ve Corpsefeeder yaratıkları (45, elit) yakında dolaşıyor: grubu bir arada tut.",
 
 	-- Step 14: Mannoroc Coven
 	-- {npc:5760} Lord Azrethoc
@@ -97,7 +97,7 @@ return {
 
 	-- Step 19: Claim Rackmore's Treasure!
 	-- {object:177787} Rackmore's Log · {object:35251} Karnitol's Chest · {zone:1443} Desolace
-	["{object:177787} lies beside {object:35251}, if you didn't take it on your first {zone:1443} visit. His silver key drops from the Drysnap crabs around the wreck; the golden one comes from the Slitherblade naga on the north-west coast, next."] = "İlk {zone:1443} ziyaretinde almadıysan {object:177787}, {object:35251} yanında duruyor. Gümüş anahtarı enkazın çevresindeki Drysnap yengeçlerinden düşer; altın olanı sıradaki kuzeybatı kıyısındaki Slitherblade nagalarından gelir.",
+	["{object:177787} lies beside {object:35251}, if you didn't take it on your first {zone:1443} visit. His silver key drops from the Drysnap crabs around the wreck; the golden one comes from the Slitherblade naga on the north-west coast, next."] = "İlk {zone:1443} ziyaretinde almadıysan {object:177787}, {object:35251} yanında duruyor. Gümüş anahtarı enkazın çevresindeki Drysnap yengeçlerinden düşer. Altın olanı sıradaki kuzeybatı kıyısındaki Slitherblade nagalarından gelir.",
 	-- {object:177787} Rackmore's Log
 	["{object:177787}, if 30-40/02 didn't take it"] = "{object:177787}, 30-40/02 almadıysa",
 	["Underwater"] = "Su altında",
@@ -106,7 +106,7 @@ return {
 	-- {area:598} Sar'theris Strand
 	["{area:598}: kill these as you meet them"] = "{area:598}: bunları karşılaştıkça öldür",
 	-- {npc:11863} Azore Aldamort · {area:2406} Ranazjar Isle · {item:15766} Gem of the Serpent · {object:177673} Serpent Statue · {npc:12369} Lord Kragaru · {quest:6027} Book of the Ancients
-	["The Slitherblade naga hold the north-west coast north of {npc:11863}'s tower; Karnitol's satchel lies on the sea floor off it, and any naga can drop Rackmore's golden key. Swim out to {area:2406} off the far northern tip and use the {item:15766} on the {object:177673}: {npc:12369} (38) rises; kill him for the {quest:6027}."] = "Slitherblade naga'ları {npc:11863} adlı NPC'nin kulesinin kuzeyindeki kuzeybatı kıyısını tutuyor; Karnitol'ün çantası kıyının açığında deniz dibinde duruyor ve herhangi bir naga Rackmore'un altın anahtarını düşürebilir. En kuzey ucun açığındaki {area:2406} adasına yüz ve {object:177673} üzerinde {item:15766} kullan: {npc:12369} (38) ortaya çıkar; {quest:6027} için onu öldür.",
+	["The Slitherblade naga hold the north-west coast north of {npc:11863}'s tower; Karnitol's satchel lies on the sea floor off it, and any naga can drop Rackmore's golden key. Swim out to {area:2406} off the far northern tip and use the {item:15766} on the {object:177673}: {npc:12369} (38) rises; kill him for the {quest:6027}."] = "Slitherblade naga'ları {npc:11863} adlı NPC'nin kulesinin kuzeyindeki kuzeybatı kıyısını tutuyor. Karnitol'ün çantası kıyının açığında deniz dibinde duruyor ve herhangi bir naga Rackmore'un altın anahtarını düşürebilir. En kuzey ucun açığındaki {area:2406} adasına yüz ve {object:177673} üzerinde {item:15766} kullan: {npc:12369} (38) ortaya çıkar. {quest:6027} için onu öldür.",
 	-- {item:15881} Rackmore's Golden Key
 	["{item:15881}, from the Slitherblade naga"] = "{item:15881}, Slitherblade naga'larından",
 	-- {item:15766} Gem of the Serpent · {object:177673} Serpent Statue

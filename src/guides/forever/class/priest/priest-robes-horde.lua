@@ -19,7 +19,7 @@ return {
 
 	-- Step 3: Grunt Kor'ja
 	-- {npc:12430} Grunt Kor'ja · {area:362} Razor Hill · {spell:613} Lesser Heal · {spell:1243} Power Word: Fortitude
-	["{npc:12430} kneels behind a group of rocks just off the road, a short walk south of {area:362}. Cast {spell:613} (Rank 2) on her first, then {spell:1243}. Rank 1 of {spell:613} does not count; drag Rank 2 onto your bar from the spellbook. She leaves once both land and is back in about 5 minutes."] = "{npc:12430}, {area:362} kasabasının kısa bir yürüyüş güneyinde, yolun hemen dışında bir kaya grubunun arkasında diz çökmüş. Önce onun üzerinde {spell:613} (Rank 2), sonra {spell:1243} kullan. {spell:613} büyüsünün 1. kademesi sayılmaz; 2. kademeyi büyü kitabından çubuğuna sürükle. İkisi de isabet edince gider ve yaklaşık 5 dakikada geri gelir.",
+	["{npc:12430} kneels behind a group of rocks just off the road, a short walk south of {area:362}. Cast {spell:613} (Rank 2) on her first, then {spell:1243}. Rank 1 of {spell:613} does not count; drag Rank 2 onto your bar from the spellbook. She leaves once both land and is back in about 5 minutes."] = "{npc:12430}, {area:362} kasabasının kısa bir yürüyüş güneyinde, yolun hemen dışında bir kaya grubunun arkasında diz çökmüş. Önce onun üzerinde {spell:613} (Rank 2), sonra {spell:1243} kullan. {spell:613} büyüsünün 1. kademesi sayılmaz. 2. kademeyi büyü kitabından çubuğuna sürükle. İkisi de isabet edince gider ve yaklaşık 5 dakikada geri gelir.",
 	-- {npc:12430} Grunt Kor'ja
 	["Heal and fortify {npc:12430}"] = "İyileştir ve güçlendir: {npc:12430}",
 

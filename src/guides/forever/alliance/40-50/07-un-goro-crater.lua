@@ -4,7 +4,7 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Guide
-	["For characters of 49 to 50, but most quests here are level 51-53: on purpose, for their experience. This first visit keeps to the crater's eastern half, where the beasts are 48-52, so pull them one at a time; the pylons, the bones and the hive wait for the later Un'Goro visit at about 56."] = "49-50. seviyedeki karakterler için, ama buradaki görevlerin çoğu 51-53. seviye: deneyimleri için bilerek. Bu ilk ziyaret, hayvanların 48-52 olduğu kraterin doğu yarısında kalır, bu yüzden onları tek tek çek; pilonlar, kemikler ve kovan yaklaşık 56'daki sonraki Un'Goro ziyaretini bekler.",
+	["For characters of 49 to 50, but most quests here are level 51-53: on purpose, for their experience. This first visit keeps to the crater's eastern half, where the beasts are 48-52, so pull them one at a time; the pylons, the bones and the hive wait for the later Un'Goro visit at about 56."] = "49-50. seviyedeki karakterler için, ama buradaki görevlerin çoğu 51-53. seviye: deneyimleri için bilerek. Bu ilk ziyaret, hayvanların 48-52 olduğu kraterin doğu yarısında kalır, bu yüzden onları tek tek çek. Pilonlar, kemikler ve kovan yaklaşık 56'daki sonraki Un'Goro ziyaretini bekler.",
 
 	-- Step 1: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
@@ -32,11 +32,11 @@ return {
 	-- Step 8: The Noxious Lair
 	-- {npc:4196} Silithid Swarm
 	-- plural, as words: Centipaar Swarmers = {npc:5457} Centipaar Swarmer
-	["Ride west to the Centipaar hive in the dunes. Any Centipaar can drop insect parts.\nCareful: Centipaar Swarmers cast {npc:4196} both in and out of combat, which brings small adds that interrupt you."] = "Batıya, kumullardaki Centipaar kovanına sür. Her Centipaar böcek parçası düşürebilir.\nDikkat: Centipaar Swarmer yaratıkları dövüşte de dövüş dışında da {npc:4196} kullanır; bu da seni kesintiye uğratan küçük yaratıklar getirir.",
+	["Ride west to the Centipaar hive in the dunes. Any Centipaar can drop insect parts.\nCareful: Centipaar Swarmers cast {npc:4196} both in and out of combat, which brings small adds that interrupt you."] = "Batıya, kumullardaki Centipaar kovanına sür. Her Centipaar böcek parçası düşürebilir.\nDikkat: Centipaar Swarmer yaratıkları dövüşte de dövüş dışında da {npc:4196} kullanır, bu da seni kesintiye uğratan küçük yaratıklar getirir.",
 
 	-- Step 9: Dunemaul Compound
 	-- {npc:12046} Gor'marok the Ravager
-	["Ride south to the ogre compound. Brutes and Enforcers (46-48) fill it; {npc:12046} (49) stands in the middle with guards around him: clear them first."] = "Güneye, ogre yerleşkesine sür. İçini Brute ve Enforcer yaratıkları (46-48) dolduruyor; {npc:12046} (49) ortada, çevresinde muhafızlarla duruyor: önce onları temizle.",
+	["Ride south to the ogre compound. Brutes and Enforcers (46-48) fill it; {npc:12046} (49) stands in the middle with guards around him: clear them first."] = "Güneye, ogre yerleşkesine sür. İçini Brute ve Enforcer yaratıkları (46-48) dolduruyor. {npc:12046} (49) ortada, çevresinde muhafızlarla duruyor: önce onları temizle.",
 	-- {npc:12046} Gor'marok the Ravager
 	["{npc:12046}, below ground"] = "{npc:12046}, yer altında",
 
@@ -45,7 +45,7 @@ return {
 	["{quest:3362}: kill these as you meet them"] = "{quest:3362}: bunları karşılaştıkça öldür",
 	-- {quest:3362} Thistleshrub Valley
 	-- plural, as words: Gnarled Thistleshrubs = {npc:5490} Gnarled Thistleshrub
-	["Ride west into {quest:3362}. The Dew Collectors drop the glands; only some are full, so keep the Laden one. Gnarled Thistleshrubs and Rootshapers share the valley.\nCareful: the thistleshrubs wander a lot, so you can easily pull extra mobs."] = "Batıya, {quest:3362} içine sür. Dew Collector yaratıkları bezleri düşürür; yalnızca bazıları dolu, bu yüzden Laden olanı sakla. Vadiyi Gnarled Thistleshrub ve Rootshaper yaratıkları paylaşıyor.\nDikkat: thistleshrub'lar çok dolaşır, bu yüzden kolayca fazladan yaratık çekebilirsin.",
+	["Ride west into {quest:3362}. The Dew Collectors drop the glands; only some are full, so keep the Laden one. Gnarled Thistleshrubs and Rootshapers share the valley.\nCareful: the thistleshrubs wander a lot, so you can easily pull extra mobs."] = "Batıya, {quest:3362} içine sür. Dew Collector yaratıkları bezleri düşürür. Yalnızca bazıları dolu, bu yüzden Laden olanı sakla. Vadiyi Gnarled Thistleshrub ve Rootshaper yaratıkları paylaşıyor.\nDikkat: thistleshrub'lar çok dolaşır, bu yüzden kolayca fazladan yaratık çekebilirsin.",
 
 	-- Step 11: Gadgetzan
 	-- {area:976} Gadgetzan · {npc:11758} Andi Lynn
@@ -55,9 +55,9 @@ return {
 
 	-- Step 12: The Gaping Chasm
 	-- {area:1938} Broken Pillar · {area:981} The Gaping Chasm
-	["Ride south past the {area:1938} to the {area:981}, the Hazzali tunnels; Scrimshank's gear lies deep inside.\nCareful: One bug guards the gear. Many bugs patrol the tunnels, some of them level 50, so fights often pull extra adds."] = "Güneye, {area:1938} yanından geçerek Hazzali tünelleri olan {area:981} uçurumuna sür; Scrimshank'in eşyaları derinlerde.\nDikkat: Eşyaları bir böcek koruyor. Tünellerde bazıları seviye 50 olan çok sayıda böcek devriye geziyor, bu yüzden dövüşler sık sık fazladan yaratık çeker.",
+	["Ride south past the {area:1938} to the {area:981}, the Hazzali tunnels; Scrimshank's gear lies deep inside.\nCareful: One bug guards the gear. Many bugs patrol the tunnels, some of them level 50, so fights often pull extra adds."] = "Güneye, {area:1938} yanından geçerek Hazzali tünelleri olan {area:981} uçurumuna sür. Scrimshank'in eşyaları derinlerde.\nDikkat: Eşyaları bir böcek koruyor. Tünellerde bazıları seviye 50 olan çok sayıda böcek devriye geziyor, bu yüzden dövüşler sık sık fazladan yaratık çeker.",
 	-- {item:8593} Scrimshank's Surveying Gear
-	["{item:8593}; below ground"] = "{item:8593}; yer altında",
+	["{item:8593}; below ground"] = "{item:8593}, yer altında",
 
 	-- Step 13: Gadgetzan
 	-- {npc:7740} Gracina Spiritmight · {zone:1457} Darnassus · {zone:1428} Burning Steppes
@@ -83,7 +83,7 @@ return {
 	["Lar'korwi Mates and the raft"] = "Lar'korwi Mate yaratıkları ve sal",
 	-- {npc:9619} Torwa Pathfinder · {npc:8737} Linken · {item:11116} A Mangled Journal
 	-- plural, as words: Lar'korwi Mates = {npc:9683} Lar'korwi Mate
-	["The Lar'korwi Mates prowl the jungle west of {npc:9619}. The wrecked raft lies on the shore of the lake there; the small pack sits in the water beside it. Keep the compass, map and key for {npc:8737}. Any beast in the crater may drop {item:11116}: right-click it."] = "Lar'korwi Mate yaratıkları {npc:9619} adlı NPC'nin batısındaki ormanda dolaşıyor. Parçalanmış sal oradaki gölün kıyısında; küçük çanta yanında, suyun içinde. Pusulayı, haritayı ve anahtarı {npc:8737} için sakla. Kraterdeki herhangi bir hayvan {item:11116} düşürebilir: ona sağ tıkla.",
+	["The Lar'korwi Mates prowl the jungle west of {npc:9619}. The wrecked raft lies on the shore of the lake there; the small pack sits in the water beside it. Keep the compass, map and key for {npc:8737}. Any beast in the crater may drop {item:11116}: right-click it."] = "Lar'korwi Mate yaratıkları {npc:9619} adlı NPC'nin batısındaki ormanda dolaşıyor. Parçalanmış sal oradaki gölün kıyısında, küçük çanta yanında, suyun içinde. Pusulayı, haritayı ve anahtarı {npc:8737} için sakla. Kraterdeki herhangi bir hayvan {item:11116} düşürebilir: ona sağ tıkla.",
 	-- {object:161504} A Small Pack
 	["{object:161504}, underwater"] = "{object:161504}, su altında",
 
@@ -101,7 +101,7 @@ return {
 	-- {npc:9298} Donova Snowden · {zone:1452} Winterspring
 	["Ends with {npc:9298} in {zone:1452}: keep it"] = "{zone:1452} bölgesindeki {npc:9298} ile biter: sakla",
 	-- {npc:9117} J.D. Collie
-	["{npc:9117}, at the back of the cave; below ground"] = "{npc:9117}, mağaranın dibinde; yer altında",
+	["{npc:9117}, at the back of the cave; below ground"] = "{npc:9117}, mağaranın dibinde, yer altında",
 	-- {npc:9272} Spark Nilminer · {npc:9271} Hol'anyee Marshal · {npc:9270} Williden Marshal · {npc:9618} Karna Remtravel
 	["{npc:9272}, {npc:9271}, {npc:9270} and {npc:9618} have quests among mobs of 51-55: leave them for the later Un'Goro visit, at about 56."] = "{npc:9272}, {npc:9271}, {npc:9270} ve {npc:9618}, 51-55. seviye yaratıkların arasında görevler verir: onları yaklaşık 56'daki sonraki Un'Goro ziyaretine bırak.",
 

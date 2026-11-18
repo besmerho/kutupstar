@@ -12,18 +12,18 @@ return {
 	["{area:197}: kill these as you meet them"] = "{area:197}: bunları karşılaştıkça öldür",
 	-- {quest:5401} Argent Dawn Commission · {npc:10411} Eye of Naxxramas
 	-- plural, as words: Skeletal Flayers = {npc:1783} Skeletal Flayer · Slavering Ghouls = {npc:1791} Slavering Ghoul · Rockwing Gargoyles = {npc:10408} Rockwing Gargoyle
-	["Skeletal Flayers and Slavering Ghouls roam the fields north of the camp; all the Scourge here drop Scourgestones while you wear the {quest:5401} (equip it as a trinket first).\nCareful: These undead notice you from far away, and other undead nearby join the fight when one is pulled.\nCareful: The {npc:10411} (3 spawns, 15 min respawn) turns invisible when out of combat and calls in Rockwing Gargoyles once a fight starts."] = "Skeletal Flayer ve Slavering Ghoul yaratıkları kampın kuzeyindeki tarlalarda dolaşıyor; {quest:5401} takılıyken buradaki bütün Scourge'lar Scourgestone düşürür (önce tılsım olarak tak).\nDikkat: bu ölümsüzler seni uzaktan fark eder ve biri çekildiğinde yakındaki diğer ölümsüzler dövüşe katılır.\nDikkat: {npc:10411} (3 doğma noktası, 15 dakikada yeniden doğar) dövüş dışında görünmez olur ve dövüş başlayınca Rockwing Gargoyle yaratıklarını çağırır.",
+	["Skeletal Flayers and Slavering Ghouls roam the fields north of the camp; all the Scourge here drop Scourgestones while you wear the {quest:5401} (equip it as a trinket first).\nCareful: These undead notice you from far away, and other undead nearby join the fight when one is pulled.\nCareful: The {npc:10411} (3 spawns, 15 min respawn) turns invisible when out of combat and calls in Rockwing Gargoyles once a fight starts."] = "Skeletal Flayer ve Slavering Ghoul yaratıkları kampın kuzeyindeki tarlalarda dolaşıyor. {quest:5401} takılıyken buradaki bütün Scourge'lar Scourgestone düşürür (önce tılsım olarak tak).\nDikkat: bu ölümsüzler seni uzaktan fark eder ve biri çekildiğinde yakındaki diğer ölümsüzler dövüşe katılır.\nDikkat: {npc:10411} (3 doğma noktası, 15 dakikada yeniden doğar) dövüş dışında görünmez olur ve dövüş başlayınca Rockwing Gargoyle yaratıklarını çağırır.",
 
 	-- Step 4: Marlene Redpath
 	-- {npc:10927} Marlene Redpath · {npc:10936} Joseph Redpath
-	["{npc:10927}'s farmhouse stands on the hill east of the camp; {npc:10936}'s monument is just north of it."] = "{npc:10927} adlı NPC'nin çiftlik evi kampın doğusundaki tepede; {npc:10936} adlı NPC'nin anıtı hemen kuzeyinde.",
+	["{npc:10927}'s farmhouse stands on the hill east of the camp; {npc:10936}'s monument is just north of it."] = "{npc:10927} adlı NPC'nin çiftlik evi kampın doğusundaki tepede. {npc:10936} adlı NPC'nin anıtı hemen kuzeyinde.",
 	["Upstairs"] = "Üst katta",
 	-- {item:12894} Joseph's Wedding Ring
 	["{item:12894}, at the monument"] = "{item:12894}, anıtta",
 
 	-- Step 5: Dalson's Tears
 	-- {npc:10836} Farmer Dalson
-	["Ride north-west to the Dalson farm. The diary lies in the barn; a wandering skeleton carries the outhouse key, and {npc:10836} waits in the outhouse with the cabinet key."] = "Kuzeybatıya, Dalson çiftliğine git. Günlük ahırda duruyor; hela anahtarını dolaşan bir iskelet taşıyor, {npc:10836} ise dolap anahtarıyla helada bekliyor.",
+	["Ride north-west to the Dalson farm. The diary lies in the barn; a wandering skeleton carries the outhouse key, and {npc:10836} waits in the outhouse with the cabinet key."] = "Kuzeybatıya, Dalson çiftliğine git. Günlük ahırda duruyor. Hela anahtarını dolaşan bir iskelet taşıyor, {npc:10836} ise dolap anahtarıyla helada bekliyor.",
 
 	-- Step 6: The Writhing Haunt: kill these as you meet them
 	-- {area:202} The Writhing Haunt
@@ -35,7 +35,7 @@ return {
 	-- {object:177289} Scourge Cauldron
 	["After the farm's keys: the {object:177289} stands just south-west of the farmhouse, and its Cauldron Lord beside it carries the key."] = "Çiftliğin anahtarlarından sonra: {object:177289} çiftlik evinin hemen güneybatısında duruyor, yanındaki Cauldron Lord da anahtarı taşıyor.",
 	-- {object:175924} Locked Cabinet
-	["{object:175924}, in the farmhouse; inside"] = "{object:175924}, çiftlik evinde; içeride",
+	["{object:175924}, in the farmhouse; inside"] = "{object:175924}, çiftlik evinde, içeride",
 
 	-- Step 8: Chillwind Camp
 	["Ride back south to the camp."] = "Güneye, kampa dön.",
@@ -97,14 +97,14 @@ return {
 
 	-- Step 24: Sorrow Hill: kill these as you meet them
 	-- {npc:1852} Araj the Summoner
-	["{npc:1852} is elite: grouping up is advised. He guards his phylactery in the middle of Andorhal.\nSmall lockboxes lie in the rubble all over Andorhal; each holds a watch.\nCareful: Ghouls and skeletons usually stand next to the boxes and attack when you come close. Searing ghouls also hurt anyone nearby and will break stealth."] = "{npc:1852} elit: grup kurman önerilir. Andorhal'ın ortasında phylactery'sini koruyor.\nKüçük kilitli kutular Andorhal'ın her yanında molozların arasında duruyor; her birinde bir saat var.\nDikkat: Ghoul'lar ve iskeletler genelde kutuların yanında durur ve yaklaşınca saldırır. Searing ghoul'lar yakındaki herkese de hasar verir ve gizliliği bozar.",
+	["{npc:1852} is elite: grouping up is advised. He guards his phylactery in the middle of Andorhal.\nSmall lockboxes lie in the rubble all over Andorhal; each holds a watch.\nCareful: Ghouls and skeletons usually stand next to the boxes and attack when you come close. Searing ghouls also hurt anyone nearby and will break stealth."] = "{npc:1852} elit: grup kurman önerilir. Andorhal'ın ortasında phylactery'sini koruyor.\nKüçük kilitli kutular Andorhal'ın her yanında molozların arasında duruyor. Her birinde bir saat var.\nDikkat: Ghoul'lar ve iskeletler genelde kutuların yanında durur ve yaklaşınca saldırır. Searing ghoul'lar yakındaki herkese de hasar verir ve gizliliği bozar.",
 
 	-- Step 26: More watches
 	["More watches"] = "Daha fazla saat",
 
 	-- Step 28: Kirsta Deepshadow
 	-- {npc:11610} Kirsta Deepshadow
-	["Ride north up the road to the Northridge lumber mill; {npc:11610} hides at the camp's edge."] = "Yolu kuzeye izleyerek Northridge kereste fabrikasına git; {npc:11610} kampın kenarında saklanıyor.",
+	["Ride north up the road to the Northridge lumber mill; {npc:11610} hides at the camp's edge."] = "Yolu kuzeye izleyerek Northridge kereste fabrikasına git. {npc:11610} kampın kenarında saklanıyor.",
 
 	-- Step 29: The Scarlet Crusade
 	["The Scarlet Crusade"] = "Scarlet Crusade",
@@ -138,16 +138,16 @@ return {
 	-- Step 36: Villains of Darrowshire
 	-- {area:2624} Blackwood Lake · {area:2623} Infectis Scar
 	-- plural, as words: Plaguehounds = {npc:8597} Plaguehound
-	["Horgus' skull lies at {area:2624} and Marduk's sword in the {area:2623}, each where ghosts fight; grown Plaguehounds hunt the plains between."] = "Horgus'un kafatası {area:2624} gölünde, Marduk'un kılıcı {area:2623} yarığında; ikisi de hayaletlerin dövüştüğü yerde. Aradaki düzlüklerde yetişkin Plaguehound yaratıkları avlanıyor.",
+	["Horgus' skull lies at {area:2624} and Marduk's sword in the {area:2623}, each where ghosts fight; grown Plaguehounds hunt the plains between."] = "Horgus'un kafatası {area:2624} gölünde, Marduk'un kılıcı {area:2623} yarığında. İkisi de hayaletlerin dövüştüğü yerde. Aradaki düzlüklerde yetişkin Plaguehound yaratıkları avlanıyor.",
 	-- {item:12956} Skull of Horgus
-	["{item:12956}; underwater"] = "{item:12956}; su altında",
+	["{item:12956}; underwater"] = "{item:12956}, su altında",
 
 	-- Step 37: Eastern Plaguelands: kill these as you meet them
 	-- {zone:1423} Eastern Plaguelands
 	["{zone:1423}: kill these as you meet them"] = "{zone:1423}: bunları karşılaştıkça öldür",
 	-- {area:2627} Terrordale · {item:15042} Empty Termite Jar
 	-- plural, as words: Plaguehound Runts = {npc:8596} Plaguehound Runt · Plaguebats = {npc:8600} Plaguebat · Carrion Grubs = {npc:8603} Carrion Grub · Frenzied Plaguehounds = {npc:8598} Frenzied Plaguehound
-	["Ride west to {area:2627}. Plaguehound Runts, Plaguebats and Carrion Grubs roam its woods; fill the {item:15042} at the big termite mounds and kill the Frenzied Plaguehounds further north."] = "Batıya, {area:2627} kasabasına git. Ormanında Plaguehound Runt, Plaguebat ve Carrion Grub yaratıkları dolaşıyor; {item:15042} eşyasını büyük termit tepelerinde doldur ve daha kuzeydeki Frenzied Plaguehound yaratıklarını öldür.",
+	["Ride west to {area:2627}. Plaguehound Runts, Plaguebats and Carrion Grubs roam its woods; fill the {item:15042} at the big termite mounds and kill the Frenzied Plaguehounds further north."] = "Batıya, {area:2627} kasabasına git. Ormanında Plaguehound Runt, Plaguebat ve Carrion Grub yaratıkları dolaşıyor. {item:15042} eşyasını büyük termit tepelerinde doldur ve daha kuzeydeki Frenzied Plaguehound yaratıklarını öldür.",
 
 	-- Step 38: Augustus the Touched
 	-- {area:2627} Terrordale · {npc:12384} Augustus the Touched
@@ -177,7 +177,7 @@ return {
 	-- {item:12954} Davil's Libram · {area:190} Hearthglen · {npc:1855} Tirion Fordring
 	["{item:12954} lies in the town hall of {area:190}, west of {npc:1855}: the Scarlet guards stand close together."] = "{item:12954}, {npc:1855} adlı NPC'nin batısında, {area:190} kasabasının belediye binasında: Scarlet muhafızları birbirine yakın duruyor.",
 	-- {item:12954} Davil's Libram
-	["{item:12954}; inside"] = "{item:12954}; içeride",
+	["{item:12954}; inside"] = "{item:12954}, içeride",
 
 	-- Step 46: The Undercroft
 	-- {area:2261} The Undercroft · {object:177667} Torn Scroll · {npc:12248} Infiltrator Hameya
@@ -205,7 +205,7 @@ return {
 
 	-- Step 53: The Temple Gardens
 	-- {npc:10878} Herald Moonstalker · {npc:7740} Gracina Spiritmight · {item:11682} Eridan's Vial
-	["{npc:10878} and {npc:7740} stand by the Temple of the Moon; fill {item:11682} at the moonwell inside."] = "{npc:10878} ve {npc:7740} Temple of the Moon yanında duruyor; {item:11682} şişesini içerideki ay kuyusunda doldur.",
+	["{npc:10878} and {npc:7740} stand by the Temple of the Moon; fill {item:11682} at the moonwell inside."] = "{npc:10878} ve {npc:7740} Temple of the Moon yanında duruyor. {item:11682} şişesini içerideki ay kuyusunda doldur.",
 	-- {npc:7740} Gracina Spiritmight · {area:976} Gadgetzan
 	["{npc:7740}: keep it for {area:976}"] = "{npc:7740}: {area:976} için sakla",
 
@@ -281,7 +281,7 @@ return {
 	-- {zone:1448} Felwood
 	["For {zone:1448}: keep it"] = "{zone:1448} için: sakla",
 	-- {npc:8496} Liv Rizzlefix
-	["{npc:8496}: keep it for Un'Goro; inside"] = "{npc:8496}: Un'Goro için sakla; içeride",
+	["{npc:8496}: keep it for Un'Goro; inside"] = "{npc:8496}: Un'Goro için sakla, içeride",
 
 	-- Step 74: Fly to Everlook
 	-- {area:2255} Everlook
@@ -302,7 +302,7 @@ return {
 
 	-- Step 79: Sindrayl
 	-- {npc:10897} Sindrayl · {area:493} Moonglade · {area:2361} Nighthaven · {zone:2482} Mount Hyjal · {zone:1451} Silithus
-	["{npc:10897}, {area:493}'s flight master, stands south of the lake, outside {area:2361}: learn the flight path now; the {zone:2482} guide flies to {area:493}, and the {zone:1451} guide comes back here."] = "{area:493} uçuş ustası {npc:10897}, gölün güneyinde, {area:2361} köyünün dışında duruyor: uçuş noktasını şimdi öğren; {zone:2482} rehberi {area:493} yöresine uçar, {zone:1451} rehberi de buraya geri gelir.",
+	["{npc:10897}, {area:493}'s flight master, stands south of the lake, outside {area:2361}: learn the flight path now; the {zone:2482} guide flies to {area:493}, and the {zone:1451} guide comes back here."] = "{area:493} uçuş ustası {npc:10897}, gölün güneyinde, {area:2361} köyünün dışında duruyor: uçuş noktasını şimdi öğren. {zone:2482} rehberi {area:493} yöresine uçar, {zone:1451} rehberi de buraya geri gelir.",
 
 	-- Step 80: Fly to Gadgetzan
 	-- {area:976} Gadgetzan
@@ -340,7 +340,7 @@ return {
 
 	-- Step 86: Linken
 	-- {area:976} Gadgetzan · {area:541} Marshal's Refuge · {npc:8737} Linken · {npc:9117} J.D. Collie · {npc:9997} Spraggle Frock · {npc:9999} Ringo
-	["Fly from {area:976} to {area:541}. {npc:8737} stands at the back of the refuge; {npc:9117} is in the cave behind him.\n{npc:9997}'s friend {npc:9999} has gone missing."] = "{area:976} kasabasından {area:541} sığınağına uç. {npc:8737} sığınağın arka tarafında duruyor; {npc:9117} onun arkasındaki mağarada.\n{npc:9997} adlı NPC'nin arkadaşı {npc:9999} kaybolmuş.",
+	["Fly from {area:976} to {area:541}. {npc:8737} stands at the back of the refuge; {npc:9117} is in the cave behind him.\n{npc:9997}'s friend {npc:9999} has gone missing."] = "{area:976} kasabasından {area:541} sığınağına uç. {npc:8737} sığınağın arka tarafında duruyor. {npc:9117} onun arkasındaki mağarada.\n{npc:9997} adlı NPC'nin arkadaşı {npc:9999} kaybolmuş.",
 	-- {npc:9117} J.D. Collie
 	["{npc:9117}, below ground"] = "{npc:9117}, yer altında",
 	-- {npc:9997} Spraggle Frock
@@ -362,7 +362,7 @@ return {
 	-- {zone:1451} Silithus
 	["{zone:1451}: kill these as you meet them"] = "{zone:1451}: bunları karşılaştıkça öldür",
 	-- plural, as words: Dredge Strikers = {npc:11740} Dredge Striker · Stonelash Scorpids = {npc:11735} Stonelash Scorpid · Sand Skitterers = {npc:11738} Sand Skitterer
-	["Dredge Strikers dig in the dunes north-west of the hold; Stonelash Scorpids and Sand Skitterers roam all around."] = "Dredge Striker yaratıkları kalenin kuzeybatısındaki kum tepelerinde kazı yapıyor; Stonelash Scorpid ve Sand Skitterer yaratıkları her yanda dolaşıyor.",
+	["Dredge Strikers dig in the dunes north-west of the hold; Stonelash Scorpids and Sand Skitterers roam all around."] = "Dredge Striker yaratıkları kalenin kuzeybatısındaki kum tepelerinde kazı yapıyor. Stonelash Scorpid ve Sand Skitterer yaratıkları her yanda dolaşıyor.",
 
 	-- Step 92: Level 56.89
 	["Level 56.89"] = "Seviye 56.89",
@@ -386,7 +386,7 @@ return {
 	-- {area:2742} Hive'Ashi
 	["The {area:2742} tower"] = "{area:2742} kulesi",
 	-- {area:2742} Hive'Ashi · {area:2738} Southwind Village
-	["Ride back south-west to the {area:2742} tower in {area:2738}; climb it and kill the ambushers that rise for the encrusted object."] = "Güneybatıya, {area:2738} köyündeki {area:2742} kulesine geri sür; kuleye tırman ve kabuklu nesne için ortaya çıkan pusucuları öldür.",
+	["Ride back south-west to the {area:2742} tower in {area:2738}; climb it and kill the ambushers that rise for the encrusted object."] = "Güneybatıya, {area:2738} köyündeki {area:2742} kulesine geri sür. Kuleye tırman ve kabuklu nesne için ortaya çıkan pusucuları öldür.",
 
 	-- Step 97: Layo Starstrike
 	-- {area:493} Moonglade
@@ -410,7 +410,7 @@ return {
 
 	-- Step 103: Marshal's Refuge
 	-- {npc:9618} Karna Remtravel · {npc:9117} J.D. Collie
-	["North to the refuge, for the quests the first Un'Goro visit left: {npc:9618} stands just outside and {npc:9117} in the cave at the back; the expedition's other three wait for your next stop here."] = "İlk Un'Goro ziyaretinin bıraktığı görevler için kuzeye, sığınağa: {npc:9618} hemen dışarıda, {npc:9117} de arkadaki mağarada duruyor; seferin diğer üçü buradaki sonraki durağını bekler.",
+	["North to the refuge, for the quests the first Un'Goro visit left: {npc:9618} stands just outside and {npc:9117} in the cave at the back; the expedition's other three wait for your next stop here."] = "İlk Un'Goro ziyaretinin bıraktığı görevler için kuzeye, sığınağa: {npc:9618} hemen dışarıda, {npc:9117} de arkadaki mağarada duruyor. Seferin diğer üçü buradaki sonraki durağını bekler.",
 
 	-- Step 104: Northern Pylon
 	["Northern Pylon"] = "Northern Pylon",
@@ -427,13 +427,13 @@ return {
 	["{area:1943}: kill these as you meet them"] = "{area:1943}: bunları karşılaştıkça öldür",
 	-- {area:1943} Ironstone Plateau · {npc:9619} Torwa Pathfinder · {npc:9622} U'cha
 	-- plural, as words: Un'Goro Gorillas = {npc:6514} Un'Goro Gorilla
-	["The gorillas live on {area:1943}, just east of the pylon: take the pelts for {npc:9619} now, while you are up here. Stay out of the deepest cave: {npc:9622} is level 55.\nCareful: Un'Goro Gorillas (level 50-51) call for help from allies within 20 yd once they drop to 25% health. There is a cave full of apes in the area, and fighting there brings many adds."] = "Goriller pilonun hemen doğusundaki {area:1943} platosunda yaşıyor: madem buradasın, {npc:9619} için postları şimdi al. En derin mağaraya girme: {npc:9622} seviye 55.\nDikkat: Un'Goro Gorilla yaratıkları (seviye 50-51) canları %25'e düşünce 20 yarda içindeki müttefiklerinden yardım ister. Bölgede maymunlarla dolu bir mağara var; orada dövüşmek çok sayıda ek yaratık getirir.",
+	["The gorillas live on {area:1943}, just east of the pylon: take the pelts for {npc:9619} now, while you are up here. Stay out of the deepest cave: {npc:9622} is level 55.\nCareful: Un'Goro Gorillas (level 50-51) call for help from allies within 20 yd once they drop to 25% health. There is a cave full of apes in the area, and fighting there brings many adds."] = "Goriller pilonun hemen doğusundaki {area:1943} platosunda yaşıyor: madem buradasın, {npc:9619} için postları şimdi al. En derin mağaraya girme: {npc:9622} seviye 55.\nDikkat: Un'Goro Gorilla yaratıkları (seviye 50-51) canları %25'e düşünce 20 yarda içindeki müttefiklerinden yardım ister. Bölgede maymunlarla dolu bir mağara var. Orada dövüşmek çok sayıda ek yaratık getirir.",
 	-- {item:11478} Un'Goro Gorilla Pelt
-	["{item:11478}; below ground"] = "{item:11478}; yer altında",
+	["{item:11478}; below ground"] = "{item:11478}, yer altında",
 	-- {item:11479} Un'Goro Stomper Pelt
-	["{item:11479}; below ground"] = "{item:11479}; yer altında",
+	["{item:11479}; below ground"] = "{item:11479}, yer altında",
 	-- {item:11480} Un'Goro Thunderer Pelt
-	["{item:11480}; below ground"] = "{item:11480}; yer altında",
+	["{item:11480}; below ground"] = "{item:11480}, yer altında",
 
 	-- Step 108: Lakkari Tar Pits: kill these as you meet them
 	-- {area:538} Lakkari Tar Pits
@@ -446,7 +446,7 @@ return {
 	["The crater"] = "Krater",
 	-- {area:538} Lakkari Tar Pits · {area:537} Fire Plume Ridge · {area:540} Slithering Scar · {item:11018} Un'Goro Soil
 	-- plural, as words: Tar Beasts = {npc:6517} Tar Beast · Gorishi Workers = {npc:6552} Gorishi Worker
-	["Tar Beasts wallow in the {area:538}; the fire elementals of {area:537} in the middle carry the ash; the Gorishi wasps of the {area:540} in the south carry the gland. Every creature in the crater can drop {item:11018}.\nCareful: Gorishi Workers that drop below 45% health have a 50% chance to call for help from allies within 25 yd."] = "Tar Beast yaratıkları {area:538} çukurlarında yuvarlanıyor; ortadaki {area:537} sırtının ateş elementalleri külü, güneydeki {area:540} yarığının Gorishi eşekarıları bezi taşıyor. Kraterdeki her yaratık {item:11018} düşürebilir.\nDikkat: Canı %45'in altına düşen Gorishi Worker yaratıkları %50 olasılıkla 25 yarda içindeki müttefiklerinden yardım çağırır.",
+	["Tar Beasts wallow in the {area:538}; the fire elementals of {area:537} in the middle carry the ash; the Gorishi wasps of the {area:540} in the south carry the gland. Every creature in the crater can drop {item:11018}.\nCareful: Gorishi Workers that drop below 45% health have a 50% chance to call for help from allies within 25 yd."] = "Tar Beast yaratıkları {area:538} çukurlarında yuvarlanıyor. Ortadaki {area:537} sırtının ateş elementalleri külü, güneydeki {area:540} yarığının Gorishi eşekarıları bezi taşıyor. Kraterdeki her yaratık {item:11018} düşürebilir.\nDikkat: Canı %45'in altına düşen Gorishi Worker yaratıkları %50 olasılıkla 25 yarda içindeki müttefiklerinden yardım çağırır.",
 
 	-- Step 110: Torwa Pathfinder
 	-- {npc:9619} Torwa Pathfinder
@@ -478,7 +478,7 @@ return {
 	-- Step 118: Eastern Pylon and the crate
 	["Eastern Pylon and the crate"] = "Doğu pilonu ve sandık",
 	-- {npc:9684} Lar'korwi · {item:11113} Crate of Foodstuffs
-	["The pylon stands on the eastern cliffs above {npc:9684}'s lair; the expedition's {item:11113} sits at the abandoned camp in the eastern jungle."] = "Pilon {npc:9684} ininin yukarısındaki doğu kayalıklarında duruyor; seferin {item:11113} sandığı da doğu ormanındaki terk edilmiş kampta.",
+	["The pylon stands on the eastern cliffs above {npc:9684}'s lair; the expedition's {item:11113} sits at the abandoned camp in the eastern jungle."] = "Pilon {npc:9684} ininin yukarısındaki doğu kayalıklarında duruyor. Seferin {item:11113} sandığı da doğu ormanındaki terk edilmiş kampta.",
 
 	-- Step 119: Torwa Pathfinder
 	-- {npc:9619} Torwa Pathfinder

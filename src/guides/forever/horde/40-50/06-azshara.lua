@@ -38,7 +38,7 @@ return {
 
 	-- Step 12: Grom'gol Base Camp
 	-- {area:117} Grom'gol Base Camp · {npc:2497} Nimboya · {object:2076} Bubbling Cauldron
-	["The flight lands at {area:117}; {npc:2497} stands by the {object:2076}."] = "Uçuş {area:117} kampına iner; {npc:2497}, {object:2076} yanında duruyor.",
+	["The flight lands at {area:117}; {npc:2497} stands by the {object:2076}."] = "Uçuş {area:117} kampına iner, {npc:2497}, {object:2076} yanında duruyor.",
 
 	-- Step 13: Back to Grom'gol
 	-- {object:3202} Grom'gol (no name in this language: may be words)
@@ -74,13 +74,13 @@ return {
 	-- Step 23: Haldarr Encampment: kill these as you meet them
 	-- {area:1236} Haldarr Encampment
 	["{area:1236}: kill these as you meet them"] = "{area:1236}: bunları karşılaştıkça öldür",
-	["The Highborne ghosts haunt the ruins just north of the shrine; the Haldarr satyrs camp a little further north."] = "Highborne hayaletleri tapınağın hemen kuzeyindeki harabelerde dolaşıyor; Haldarr satirleri biraz daha kuzeyde kamp kurmuş.",
+	["The Highborne ghosts haunt the ruins just north of the shrine; the Haldarr satyrs camp a little further north."] = "Highborne hayaletleri tapınağın hemen kuzeyindeki harabelerde dolaşıyor. Haldarr satirleri biraz daha kuzeyde kamp kurmuş.",
 	-- {npc:6117} Highborne Lichling · {area:1235} Shadowsong Shrine
 	["{npc:6117} walks around {area:1235}: look inside the circle on the map"] = "{npc:6117}, {area:1235} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 24: Loh'atu
 	-- {npc:11548} Loh'atu · {area:3137} Talrendis Point
-	["Back to {npc:11548} at the shrine; stay west of the {area:3137} guards."] = "Tapınaktaki {npc:11548} yanına dön; {area:3137} muhafızlarının batısında kal.",
+	["Back to {npc:11548} at the shrine; stay west of the {area:3137} guards."] = "Tapınaktaki {npc:11548} yanına dön, {area:3137} muhafızlarının batısında kal.",
 
 	-- Step 25: Valormok
 	-- {area:1237} Valormok
@@ -103,7 +103,7 @@ return {
 	-- Step 30: Paladin trainer
 	["Paladin trainer"] = "Paladin eğitmeni",
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {zone:1454} Orgrimmar
-	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde; {zone:1454} bölgesinde Paladin eğitmeni yok",
+	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde, {zone:1454} bölgesinde Paladin eğitmeni yok",
 
 	-- Step 31: Fly to Thunder Bluff
 	-- {area:1638} Thunder Bluff
@@ -113,7 +113,7 @@ return {
 
 	-- Step 32: Thunder Bluff
 	-- {zone:1456} Thunder Bluff · {area:1099} Camp Mojache · {area:378} Camp Taurajo · {zone:1412} Mulgore · {area:1639} Elder Rise · {npc:3033} Turak Runetotem · {npc:246344} Alodan the Hopeful
-	["Fly to {zone:1456}; it is on the way to {area:1099}. No flight path there yet? Fly to {area:378} and ride west through {zone:1412}. Hamuul and Magatha are on the {area:1639}; Druids and Paladins train here ({npc:3033}, {npc:246344})."] = "{zone:1456} şehrine uç; {area:1099} yolunun üstünde. Orada henüz uçuş noktan yok mu? {area:378} kampına uç ve {zone:1412} içinden batıya sür. Hamuul ve Magatha {area:1639} yükseltisinde; Druid ve Paladin'ler burada eğitim alır ({npc:3033}, {npc:246344}).",
+	["Fly to {zone:1456}; it is on the way to {area:1099}. No flight path there yet? Fly to {area:378} and ride west through {zone:1412}. Hamuul and Magatha are on the {area:1639}; Druids and Paladins train here ({npc:3033}, {npc:246344})."] = "{zone:1456} şehrine uç, {area:1099} yolunun üstünde. Orada henüz uçuş noktan yok mu? {area:378} kampına uç ve {zone:1412} içinden batıya sür. Hamuul ve Magatha {area:1639} yükseltisinde. Druid ve Paladin'ler burada eğitim alır ({npc:3033}, {npc:246344}).",
 	-- {npc:6746} Innkeeper Pala
 	["{npc:6746}, at the inn: for Hamuul"] = "{npc:6746}, handa: Hamuul için",
 	-- {npc:5769} Arch Druid Hamuul Runetotem · {area:1639} Elder Rise
@@ -144,7 +144,7 @@ return {
 	-- Step 38: Hippogryph nests
 	["Hippogryph nests"] = "Hippogryph yuvaları",
 	-- {area:2522} Ruins of Isildien · {object:142071} Egg-O-Matic
-	["The hippogryph nests are on the hills to the south, around the {area:2522}; each holds an egg for the {object:142071}."] = "Hippogryph yuvaları güneydeki tepelerde, {area:2522} çevresinde; her birinde {object:142071} için bir yumurta var.",
+	["The hippogryph nests are on the hills to the south, around the {area:2522}; each holds an egg for the {object:142071}."] = "Hippogryph yuvaları güneydeki tepelerde, {area:2522} çevresinde. Her birinde {object:142071} için bir yumurta var.",
 
 	-- Step 40: Sprite Darters
 	-- plural, as words: Sprite Darters = {npc:5278} Sprite Darter
@@ -155,14 +155,14 @@ return {
 	-- plural, as words: Wandering Forest Walkers = {npc:7584} Wandering Forest Walker
 	["Wandering Forest Walkers"] = "Wandering Forest Walker yaratıkları",
 	-- {zone:1444} Feralas
-	["The treants wander the forest roads between the camp and the middle of {zone:1444}; there are only a few, so look along the paths."] = "Treant yaratıkları kamp ile {zone:1444} bölgesinin ortası arasındaki orman yollarında dolaşıyor; sayıları az, patikalar boyunca bak.",
+	["The treants wander the forest roads between the camp and the middle of {zone:1444}; there are only a few, so look along the paths."] = "Treant yaratıkları kamp ile {zone:1444} bölgesinin ortası arasındaki orman yollarında dolaşıyor. Sayıları az, patikalar boyunca bak.",
 
 	-- Step 45: The Forgotten Coast: kill these as you meet them
 	-- {area:1108} The Forgotten Coast
 	["{area:1108}: kill these as you meet them"] = "{area:1108}: bunları karşılaştıkça öldür",
 	-- {item:18904} Zorbin's Ultra-Shrinker
 	-- plural, as words: Sea Elementals = {npc:5461} Sea Elemental · Sea Sprays = {npc:5462} Sea Spray · Land Walkers = {npc:5357} Land Walker · Cliff Giants = {npc:5358} Cliff Giant
-	["The Sea Elementals and Sea Sprays wash along the shore around the dock.\nThe Land Walkers and Cliff Giants roam the hills north of the dock. Zap each one with {item:18904} first: shrunken, they are no longer elite. Every zapped giant drops residue; use the Muisek Vessel on its body too."] = "Sea Elemental ve Sea Spray yaratıkları iskelenin çevresindeki kıyı boyunca dalgalanıyor.\nLand Walker ve Cliff Giant yaratıkları iskelenin kuzeyindeki tepelerde dolaşıyor. Her birini önce {item:18904} ile vur: küçülünce artık elit değiller. Vurulan her dev kalıntı düşürür; cesedinin üzerinde Muisek Vessel'ı da kullan.",
+	["The Sea Elementals and Sea Sprays wash along the shore around the dock.\nThe Land Walkers and Cliff Giants roam the hills north of the dock. Zap each one with {item:18904} first: shrunken, they are no longer elite. Every zapped giant drops residue; use the Muisek Vessel on its body too."] = "Sea Elemental ve Sea Spray yaratıkları iskelenin çevresindeki kıyı boyunca dalgalanıyor.\nLand Walker ve Cliff Giant yaratıkları iskelenin kuzeyindeki tepelerde dolaşıyor. Her birini önce {item:18904} ile vur: küçülünce artık elit değiller. Vurulan her dev kalıntı düşürür. Cesedinin üzerinde Muisek Vessel'ı da kullan.",
 
 	-- Step 47: Northspring harpies
 	["Northspring harpies"] = "Northspring harpy yaratıkları",
@@ -198,7 +198,7 @@ return {
 
 	-- Step 55: Marvon Rivetseeker
 	-- {area:1938} Broken Pillar · {npc:7771} Marvon Rivetseeker · {zone:1449} Un'Goro Crater
-	["Ride south along the road to the {area:1938}; {npc:7771} camps beside it. From here the road west leads down into {zone:1449}, where the next guide starts."] = "Yol boyunca güneye, {area:1938} kesimine sür; {npc:7771} onun yanında kamp kurmuş. Buradan batı yolu, sonraki rehberin başladığı {zone:1449} bölgesine iner.",
+	["Ride south along the road to the {area:1938}; {npc:7771} camps beside it. From here the road west leads down into {zone:1449}, where the next guide starts."] = "Yol boyunca güneye, {area:1938} kesimine sür. {npc:7771} onun yanında kamp kurmuş. Buradan batı yolu, sonraki rehberin başladığı {zone:1449} bölgesine iner.",
 	-- {quest:3444} The Stone Circle · {npc:7771} Marvon Rivetseeker
 	["Keep {quest:3444}: {npc:7771}'s chest is opened on a later visit."] = "{quest:3444} görevini sakla: {npc:7771} adlı NPC'nin sandığı daha sonraki bir ziyarette açılır.",
 

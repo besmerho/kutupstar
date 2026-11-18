@@ -30,7 +30,7 @@ return {
 
 	-- Step 4: Gather your writs
 	["Gather your writs"] = "Writ'lerini topla",
-	["Craftsman's Writs are the camp's reputation: 75 for a Journeyman writ, 125 for an Expert, 200 for an Artisan. Each asks for one crafted item, the one its title names. Make it or buy it on the Auction House; you need not know the profession. Each writ can be done once a day, and any number of different ones. Take the quest only of writs whose item you have or will buy on the way (right-click the writ), keep the writ in your bags, then tick this: the next steps lead to each customer you hold a writ for."] = "Craftsman's Writ'ler kampın itibarıdır: Journeyman writ için 75, Expert için 125, Artisan için 200. Her biri başlığında adı geçen tek bir üretilmiş eşya ister. Onu yap ya da Auction House'tan al; mesleği bilmen gerekmez. Her writ günde bir kez yapılabilir, farklı olanlardan istediğin kadar. Yalnızca eşyası sende olan ya da yolda alacağın writ'lerin görevini al (writ'e sağ tıkla), writ'i çantanda tut, sonra bunu işaretle: sonraki adımlar elinde writ'i olan her müşteriye götürür.",
+	["Craftsman's Writs are the camp's reputation: 75 for a Journeyman writ, 125 for an Expert, 200 for an Artisan. Each asks for one crafted item, the one its title names. Make it or buy it on the Auction House; you need not know the profession. Each writ can be done once a day, and any number of different ones. Take the quest only of writs whose item you have or will buy on the way (right-click the writ), keep the writ in your bags, then tick this: the next steps lead to each customer you hold a writ for."] = "Craftsman's Writ'ler kampın itibarıdır: Journeyman writ için 75, Expert için 125, Artisan için 200. Her biri başlığında adı geçen tek bir üretilmiş eşya ister. Onu yap ya da Auction House'tan al, mesleği bilmen gerekmez. Her writ günde bir kez yapılabilir, farklı olanlardan istediğin kadar. Yalnızca eşyası sende olan ya da yolda alacağın writ'lerin görevini al (writ'e sağ tıkla), writ'i çantanda tut, sonra bunu işaretle: sonraki adımlar elinde writ'i olan her müşteriye götürür.",
 	["Take the quests of the writs you can fill"] = "Doldurabileceğin writ'lerin görevlerini al",
 
 	-- Step 5: Duskwood writ customers
@@ -51,7 +51,7 @@ return {
 	-- {zone:1434} Stranglethorn Vale
 	["{zone:1434} writ customers"] = "{zone:1434} sipariş müşterileri",
 	-- {area:35} Booty Bay · {npc:7853} Scooty · {npc:2663} Narkk · {npc:14508} Short John Mithril · {area:1741} Gurubashi Arena · {object:3202} Grom'gol (no name in this language: may be words) · {npc:261961} Hekshi
-	["{area:35} holds three customers: \"Sea Wolf\" MacKinley (on the inn's top floor), {npc:7853}, the goblin transporter's engineer, and {npc:2663}. {npc:14508} stands at the {area:1741}, about 800 yards south of {object:3202}; {npc:261961} is in northern Stranglethorn. Customers show no quest mark: right-click them anyway."] = "{area:35} limanında üç müşteri var: \"Sea Wolf\" MacKinley (hanın en üst katında), goblin ışınlayıcısının mühendisi {npc:7853} ve {npc:2663}. {npc:14508}, {object:3202} kampının yaklaşık 800 yard güneyinde, {area:1741} kesiminde duruyor; {npc:261961} Stranglethorn'un kuzeyinde. Müşterilerde görev işareti görünmez: yine de onlara sağ tıkla.",
+	["{area:35} holds three customers: \"Sea Wolf\" MacKinley (on the inn's top floor), {npc:7853}, the goblin transporter's engineer, and {npc:2663}. {npc:14508} stands at the {area:1741}, about 800 yards south of {object:3202}; {npc:261961} is in northern Stranglethorn. Customers show no quest mark: right-click them anyway."] = "{area:35} limanında üç müşteri var: \"Sea Wolf\" MacKinley (hanın en üst katında), goblin ışınlayıcısının mühendisi {npc:7853} ve {npc:2663}. {npc:14508}, {object:3202} kampının yaklaşık 800 yard güneyinde, {area:1741} kesiminde duruyor, {npc:261961} Stranglethorn'un kuzeyinde. Müşterilerde görev işareti görünmez: yine de onlara sağ tıkla.",
 	-- {item:3485} Green Iron Gauntlets
 	["{item:3485}, 75 reputation"] = "{item:3485}, 75 itibar",
 	-- {item:7506} Gnomish Universal Remote
@@ -89,7 +89,7 @@ return {
 	-- {item:11128} Golden Rod
 	["{item:11128}, 75 reputation"] = "{item:11128}, 75 itibar",
 	-- {npc:789} Kimberly Hiett · {area:69} Lakeshire
-	["bring it: engineers make it; {npc:789} in {area:69} lists it (not yet seen in her window up to level 30), or the Auction House"] = "Getir: engineer'lar yapar; {area:69} kasabasındaki {npc:789} listeler (seviye 30'a kadar penceresinde henüz görülmedi) ya da Auction House",
+	["bring it: engineers make it; {npc:789} in {area:69} lists it (not yet seen in her window up to level 30), or the Auction House"] = "Getir: engineer'lar yapar, {area:69} kasabasındaki {npc:789} listeler (seviye 30'a kadar penceresinde henüz görülmedi) ya da Auction House",
 	-- {item:4384} Explosive Sheep
 	["{item:4384}, 75 reputation"] = "{item:4384}, 75 itibar",
 	-- {item:5958} Fine Leather Pants
@@ -101,7 +101,7 @@ return {
 	-- {zone:1424} Hillsbrad Foothills
 	["{zone:1424} writ customers"] = "{zone:1424} sipariş müşterileri",
 	-- {npc:261932} Gorgrash · {npc:3536} Kris Legace · {npc:261928} Webbed Mudsnout Gnoll · {area:271} Southshore
-	["{npc:261932} and {npc:3536} are in the east of the foothills; the {npc:261928} hangs in a spider cocoon about 500 yards south-east of {area:271}. Customers show no quest mark: right-click them anyway."] = "{npc:261932} ve {npc:3536} eteklerin doğusunda; {npc:261928}, {area:271} güneydoğusunda yaklaşık 500 yarda uzakta bir örümcek kozasında asılı duruyor. Müşterilerde görev işareti görünmez: yine de sağ tıkla.",
+	["{npc:261932} and {npc:3536} are in the east of the foothills; the {npc:261928} hangs in a spider cocoon about 500 yards south-east of {area:271}. Customers show no quest mark: right-click them anyway."] = "{npc:261932} ve {npc:3536} eteklerin doğusunda. {npc:261928}, {area:271} güneydoğusunda yaklaşık 500 yarda uzakta bir örümcek kozasında asılı duruyor. Müşterilerde görev işareti görünmez: yine de sağ tıkla.",
 	-- {item:3491} Heavy Bronze Mace
 	["{item:3491}, 75 reputation"] = "{item:3491}, 75 itibar",
 	["bring it: craft it or buy it at the Auction House"] = "getir: üret ya da Auction House'tan al",
@@ -116,7 +116,7 @@ return {
 	-- {zone:1416} Alterac Mountains
 	["{zone:1416} writ customers"] = "{zone:1416} sipariş müşterileri",
 	-- {npc:257281} Sos'mol · {npc:257282} Alan Sneeks · {npc:6176} Bath'rah the Windwatcher · {area:272} Tarren Mill
-	["{npc:257281} and {npc:257282} are close together in the south-west of the mountains; Syndicate thugs roam around {npc:257282}. {npc:6176} stands on the eastern edge, above {area:272}. Customers show no quest mark: right-click them anyway."] = "{npc:257281} ve {npc:257282}, dağların güneybatısında birbirine yakın; {npc:257282} çevresinde Syndicate haydutları dolaşıyor. {npc:6176}, doğu kenarında, {area:272} üzerinde duruyor. Müşterilerde görev işareti görünmez: yine de sağ tıkla.",
+	["{npc:257281} and {npc:257282} are close together in the south-west of the mountains; Syndicate thugs roam around {npc:257282}. {npc:6176} stands on the eastern edge, above {area:272}. Customers show no quest mark: right-click them anyway."] = "{npc:257281} ve {npc:257282}, dağların güneybatısında birbirine yakın. {npc:257282} çevresinde Syndicate haydutları dolaşıyor. {npc:6176}, doğu kenarında, {area:272} üzerinde duruyor. Müşterilerde görev işareti görünmez: yine de sağ tıkla.",
 	-- {item:3391} Elixir of Ogre Strength
 	["{item:3391}, 75 reputation"] = "{item:3391}, 75 itibar",
 	["bring it: leatherworkers make it, or buy it at the Auction House"] = "Getir: leatherworker'lar yapar ya da Auction House'tan al",
@@ -151,7 +151,7 @@ return {
 	-- {item:7371} Heavy Quiver
 	["A {item:7371} for the writ"] = "Writ için bir {item:7371}",
 	-- {item:7371} Heavy Quiver · {zone:1453} Stormwind · {zone:1455} Ironforge · {zone:1458} Undercity
-	["Leatherworkers make the {item:7371}; the bow and gun vendors of {zone:1453}, {zone:1455} and the {zone:1458} sell it. Otherwise buy one at the Auction House."] = "{item:7371} eşyasını Leatherworker'lar yapar; {zone:1453}, {zone:1455} ve {zone:1458} şehirlerinin yay ve tüfek satıcıları satıyor. Yoksa Auction House'tan bir tane al.",
+	["Leatherworkers make the {item:7371}; the bow and gun vendors of {zone:1453}, {zone:1455} and the {zone:1458} sell it. Otherwise buy one at the Auction House."] = "{item:7371} eşyasını Leatherworker'lar yapar. {zone:1453}, {zone:1455} ve {zone:1458} şehirlerinin yay ve tüfek satıcıları satıyor. Yoksa Auction House'tan bir tane al.",
 
 	-- Step 13: Stonetalon Mountains writ customers
 	-- {zone:1442} Stonetalon Mountains
@@ -201,7 +201,7 @@ return {
 	-- {zone:1434} Stranglethorn Vale
 	["{zone:1434} writ customers again"] = "{zone:1434} sipariş müşterileri, yeniden",
 	-- {area:35} Booty Bay · {npc:7853} Scooty · {npc:2663} Narkk · {npc:14508} Short John Mithril · {object:3202} Grom'gol (no name in this language: may be words) · {area:1741} Gurubashi Arena · {npc:261961} Hekshi
-	["{area:35} holds three customers: \"Sea Wolf\" MacKinley (on the inn's top floor), {npc:7853} at the zeppelin-style transporter pad and {npc:2663}. {npc:14508} stands about 800 yards south of {object:3202}, by the {area:1741}; {npc:261961} is in northern Stranglethorn. Customers show no quest mark: right-click them anyway."] = "{area:35} limanında üç müşteri var: \"Sea Wolf\" MacKinley (hanın en üst katında), zeplin tarzı ışınlayıcı platformundaki {npc:7853} ve {npc:2663}. {npc:14508}, {object:3202} kampının yaklaşık 800 yard güneyinde, {area:1741} kesiminin yanında duruyor; {npc:261961} Stranglethorn'un kuzeyinde. Müşterilerde görev işareti görünmez: yine de onlara sağ tıkla.",
+	["{area:35} holds three customers: \"Sea Wolf\" MacKinley (on the inn's top floor), {npc:7853} at the zeppelin-style transporter pad and {npc:2663}. {npc:14508} stands about 800 yards south of {object:3202}, by the {area:1741}; {npc:261961} is in northern Stranglethorn. Customers show no quest mark: right-click them anyway."] = "{area:35} limanında üç müşteri var: \"Sea Wolf\" MacKinley (hanın en üst katında), zeplin tarzı ışınlayıcı platformundaki {npc:7853} ve {npc:2663}. {npc:14508}, {object:3202} kampının yaklaşık 800 yard güneyinde, {area:1741} kesiminin yanında duruyor, {npc:261961} Stranglethorn'un kuzeyinde. Müşterilerde görev işareti görünmez: yine de onlara sağ tıkla.",
 
 	-- Step 19: Wetlands writ customers again
 	-- {zone:1437} Wetlands
@@ -238,7 +238,7 @@ return {
 	-- Step 27: Friendly to Honored
 	["Friendly to Honored"] = "Friendly → Honored",
 	-- {skill:197} Tailoring · {skill:165} Leatherworking · {skill:333} Enchanting · {skill:164} Blacksmithing · {skill:202} Engineering · {skill:171} Alchemy · {skill:185} Cooking · {npc:256742} Dianne Softstep · {area:1002} Three Corners · {npc:256672} Kurvelk Shadowhoof · {item:262902} Forged Delivery Receipt · {item:248549} Waylaid Crate · {item:262917} Notarized Shipping Container · {npc:256390} Marcy Baker · {npc:256386} Dokimi · {quest:93862} Crate Return
-	["Friendly opens the first gated recipes at the camp's profession vendors ({skill:197} 25, {skill:165} 17, {skill:333} 13, {skill:164} 10, {skill:202} 10, {skill:171} 5, {skill:185} 2) and the Uncertified Scribe: {npc:256742} at {area:1002}, {npc:256672} at the south end of the Crossroads camp. The scribe's {item:262902} (15 Merchant's Favor) turns an empty {item:248549} into a {item:262917}; hand it to {npc:256390} or {npc:256386} for 50 reputation ({quest:93862}). Any crate works, so buy the cheapest one the Auction House has. Honored is 6000 more: 80 Journeyman writs, 48 Expert, 30 Artisan, or 120 crate returns (1,800 Favor and 120 crates). Mix both: every writ you can fill, returns with spare Favor. The Legacy perk Diplomat adds up to 10% to every gain."] = "Friendly, kampın meslek satıcılarında ilk kilitli tarifleri ({skill:197} 25, {skill:165} 17, {skill:333} 13, {skill:164} 10, {skill:202} 10, {skill:171} 5, {skill:185} 2) ve Uncertified Scribe'ı açar: {area:1002} kesiminde {npc:256742}, Crossroads kampının güney ucunda {npc:256672}. Scribe'ın {item:262902} eşyası (15 Merchant's Favor) boş bir {item:248549} eşyasını {item:262917} eşyasına çevirir; 50 itibar için {npc:256390} ya da {npc:256386} yanına ver ({quest:93862}). Her sandık olur, bu yüzden Auction House'taki en ucuzunu al. Honored 6000 daha: 80 Journeyman writ, 48 Expert, 30 Artisan ya da 120 sandık iadesi (1.800 Favor ve 120 sandık). İkisini karıştır: doldurabildiğin her writ, artan Favor ile de iadeler. Legacy yeteneği Diplomat her kazanca %10'a kadar ekler.",
+	["Friendly opens the first gated recipes at the camp's profession vendors ({skill:197} 25, {skill:165} 17, {skill:333} 13, {skill:164} 10, {skill:202} 10, {skill:171} 5, {skill:185} 2) and the Uncertified Scribe: {npc:256742} at {area:1002}, {npc:256672} at the south end of the Crossroads camp. The scribe's {item:262902} (15 Merchant's Favor) turns an empty {item:248549} into a {item:262917}; hand it to {npc:256390} or {npc:256386} for 50 reputation ({quest:93862}). Any crate works, so buy the cheapest one the Auction House has. Honored is 6000 more: 80 Journeyman writs, 48 Expert, 30 Artisan, or 120 crate returns (1,800 Favor and 120 crates). Mix both: every writ you can fill, returns with spare Favor. The Legacy perk Diplomat adds up to 10% to every gain."] = "Friendly, kampın meslek satıcılarında ilk kilitli tarifleri ({skill:197} 25, {skill:165} 17, {skill:333} 13, {skill:164} 10, {skill:202} 10, {skill:171} 5, {skill:185} 2) ve Uncertified Scribe'ı açar: {area:1002} kesiminde {npc:256742}, Crossroads kampının güney ucunda {npc:256672}. Scribe'ın {item:262902} eşyası (15 Merchant's Favor) boş bir {item:248549} eşyasını {item:262917} eşyasına çevirir. 50 itibar için {npc:256390} ya da {npc:256386} yanına ver ({quest:93862}). Her sandık olur, bu yüzden Auction House'taki en ucuzunu al. Honored 6000 daha: 80 Journeyman writ, 48 Expert, 30 Artisan ya da 120 sandık iadesi (1.800 Favor ve 120 sandık). İkisini karıştır: doldurabildiğin her writ, artan Favor ile de iadeler. Legacy yeteneği Diplomat her kazanca %10'a kadar ekler.",
 	-- {item:262902} Forged Delivery Receipt
 	["{item:262902}, 15 Merchant's Favor"] = "{item:262902}, 15 Merchant's Favor",
 	-- {quest:93862} Crate Return
@@ -269,7 +269,7 @@ return {
 	-- Step 31: Exalted
 	["Exalted"] = "Exalted",
 	-- {npc:256389} Tamelyn Aldridge · {npc:256384} Gishah · {item:262766} Reins of the Pack Kodo · {npc:256736} Huey Sunnydale · {area:1002} Three Corners · {npc:10636} Pack Kodo
-	["Exalted opens the camp's tabard (200 Favor) at {npc:256389} or {npc:256384}, and the {item:262766} (6,000 Favor; the mount needs level 60 and Journeyman mount training) at {npc:256736} in {area:1002} or Okamache at the Crossroads camp. The {npc:10636} guide under Collectibles leads you there."] = "Exalted, {npc:256389} ya da {npc:256384} yanında kampın tabard'ını (200 Favor) ve {area:1002} kesiminde {npc:256736} ya da Crossroads kampında Okamache yanında {item:262766} eşyasını (6.000 Favor; binek seviye 60 ve Journeyman binek eğitimi ister) açar. Collectibles altındaki {npc:10636} rehberi seni oraya götürür.",
+	["Exalted opens the camp's tabard (200 Favor) at {npc:256389} or {npc:256384}, and the {item:262766} (6,000 Favor; the mount needs level 60 and Journeyman mount training) at {npc:256736} in {area:1002} or Okamache at the Crossroads camp. The {npc:10636} guide under Collectibles leads you there."] = "Exalted, {npc:256389} ya da {npc:256384} yanında kampın tabard'ını (200 Favor) ve {area:1002} kesiminde {npc:256736} ya da Crossroads kampında Okamache yanında {item:262766} eşyasını (6.000 Favor, binek seviye 60 ve Journeyman binek eğitimi ister) açar. Collectibles altındaki {npc:10636} rehberi seni oraya götürür.",
 	-- {item:262765} Azeroth Commerce Authority Tabard
 	["{item:262765}, 200 Merchant's Favor"] = "{item:262765}, 200 Merchant's Favor",
 	-- {item:262764} Durotar Supply and Logistics Tabard

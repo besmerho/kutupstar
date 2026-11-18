@@ -15,7 +15,7 @@ return {
 	-- {area:279} Dalaran
 	["Skyboat from {area:279}"] = "{area:279} şehrinden gök gemisi",
 	-- {zone:2521} Zephras Isle · {area:279} Dalaran · {zone:1456} Thunder Bluff
-	["{zone:2521} is the Skyborne starting island, open to everyone. A skyboat leaves the north side of {area:279} about every five minutes; another flies from north of {zone:1456}, and either faction may take either."] = "{zone:2521}, herkese açık Skyborne başlangıç adası. {area:279} kuzey yakasından yaklaşık beş dakikada bir bir gök gemisi kalkar; bir diğeri {zone:1456} kuzeyinden uçar ve iki taraf da ikisine binebilir.",
+	["{zone:2521} is the Skyborne starting island, open to everyone. A skyboat leaves the north side of {area:279} about every five minutes; another flies from north of {zone:1456}, and either faction may take either."] = "{zone:2521}, herkese açık Skyborne başlangıç adası. {area:279} kuzey yakasından yaklaşık beş dakikada bir bir gök gemisi kalkar. Bir diğeri {zone:1456} kuzeyinden uçar ve iki taraf da ikisine binebilir.",
 	-- {zone:2521} Zephras Isle
 	["Skyboat to {zone:2521}"] = "Gök gemisiyle {zone:2521} adasına",
 
@@ -23,7 +23,7 @@ return {
 	-- {zone:1456} Thunder Bluff
 	["Skyboat from {zone:1456}"] = "{zone:1456} şehrinden gök gemisi",
 	-- {zone:2521} Zephras Isle · {area:17045} Skywatcher Plateau · {zone:1456} Thunder Bluff · {area:279} Dalaran
-	["{zone:2521} is the Skyborne starting island, open to everyone. A skyboat leaves the cliffs south of {area:17045}, north of {zone:1456}, about every five minutes; another flies from {area:279}, and either faction may take either."] = "{zone:2521}, herkese açık Skyborne başlangıç adası. {zone:1456} kuzeyinde, {area:17045} güneyindeki yamaçlardan yaklaşık beş dakikada bir bir gök gemisi kalkar; bir diğeri {area:279} kasabasından uçar ve iki taraf da ikisine binebilir.",
+	["{zone:2521} is the Skyborne starting island, open to everyone. A skyboat leaves the cliffs south of {area:17045}, north of {zone:1456}, about every five minutes; another flies from {area:279}, and either faction may take either."] = "{zone:2521}, herkese açık Skyborne başlangıç adası. {zone:1456} kuzeyinde, {area:17045} güneyindeki yamaçlardan yaklaşık beş dakikada bir bir gök gemisi kalkar. Bir diğeri {area:279} kasabasından uçar ve iki taraf da ikisine binebilir.",
 
 	-- Step 3: Lotheluum Starbreeze
 	-- {npc:252359} Lotheluum Starbreeze · {area:16638} Valanaar
@@ -35,12 +35,12 @@ return {
 
 	-- Step 5: Vayn Moongaze
 	-- {npc:254151} Vayn Moongaze · {npc:257944} Elegael Thornpaw · {area:16720} Nightclaw Cavern
-	["{npc:254151}, the druids' quartermaster, waits inside their den: the cave just across the clearing north-east of {npc:257944} ({area:16720} on the map; {npc:257944} calls it the Nightfang Den). Take his ear quest now: the cultists you fight for {npc:257944} drop ears for it."] = "Druid'lerin quartermaster'ı {npc:254151}, inlerinin içinde bekliyor: {npc:257944} kuzeydoğusundaki açıklığın hemen karşısındaki mağara (haritada {area:16720}; {npc:257944} ona Nightfang Den diyor). Kulak görevini şimdi al: {npc:257944} için dövüştüğün tarikatçılar onun için kulak düşürür.",
+	["{npc:254151}, the druids' quartermaster, waits inside their den: the cave just across the clearing north-east of {npc:257944} ({area:16720} on the map; {npc:257944} calls it the Nightfang Den). Take his ear quest now: the cultists you fight for {npc:257944} drop ears for it."] = "Druid'lerin quartermaster'ı {npc:254151}, inlerinin içinde bekliyor: {npc:257944} kuzeydoğusundaki açıklığın hemen karşısındaki mağara (haritada {area:16720}, {npc:257944} ona Nightfang Den diyor). Kulak görevini şimdi al: {npc:257944} için dövüştüğün tarikatçılar onun için kulak düşürür.",
 
 	-- Step 6: Shadowgale Forest
 	-- {npc:257944} Elegael Thornpaw · {item:265105} Lady's Tear Moss
 	-- plural, as words: Al'Aketh Footsoldiers = {npc:252665} Al'Aketh Footsoldier · Bloody Heirlooms = {item:265141} Bloody Heirloom · Shadowgale Shrieklings = {npc:256092} Shadowgale Shriekling
-	["The Al'Aketh Footsoldiers and Stormchasers camp just north of {npc:257944} and drop the Bloody Heirlooms (and ears, about one kill in four). The Shadowgale Shrieklings flying west of her drop the feathers; the {item:265105} grows on the trees along the stream west of her."] = "Al'Aketh Footsoldier ve Stormchaser'lar {npc:257944} kuzeyinde kamp kurmuş ve Bloody Heirloom'ları (ve yaklaşık dört öldürmede bir kulak) düşürür. Batısında uçan Shadowgale Shriekling'ler tüyleri düşürür; {item:265105} da onun batısındaki dere boyunca ağaçlarda yetişiyor.",
+	["The Al'Aketh Footsoldiers and Stormchasers camp just north of {npc:257944} and drop the Bloody Heirlooms (and ears, about one kill in four). The Shadowgale Shrieklings flying west of her drop the feathers; the {item:265105} grows on the trees along the stream west of her."] = "Al'Aketh Footsoldier ve Stormchaser'lar {npc:257944} kuzeyinde kamp kurmuş ve Bloody Heirloom'ları (ve yaklaşık dört öldürmede bir kulak) düşürür. Batısında uçan Shadowgale Shriekling'ler tüyleri düşürür. {item:265105} da onun batısındaki dere boyunca ağaçlarda yetişiyor.",
 	-- {npc:254151} Vayn Moongaze
 	["ears for {npc:254151}: keep every one"] = "{npc:254151} için kulaklar: hepsini sakla",
 
@@ -53,7 +53,7 @@ return {
 	-- {npc:253622} Commander Haalien
 	["The Nightfang Den and {npc:253622}"] = "Nightfang Den ve {npc:253622}",
 	-- {npc:257944} Elegael Thornpaw · {npc:258134} Naaleos Leafwhisper · {npc:258130} Jorel Windsinger · {npc:253622} Commander Haalien · {quest:94490} Ripped Missive
-	["The Nightfang Den is the cave north across the clearing from {npc:257944}. Heal the seven injured druids inside ({npc:258134} among them) and find {npc:258130}. {npc:253622} stands east of the den: he drops his head and a {quest:94490}; right-click the missive to start its quest."] = "Nightfang Den, {npc:257944} karşısında açıklığın kuzeyindeki mağara. İçerideki yedi yaralı druid'i iyileştir (aralarında {npc:258134}) ve {npc:258130} yanına git. {npc:253622} inin doğusunda duruyor: kafasını ve bir {quest:94490} düşürür; görevini başlatmak için mektuba sağ tıkla.",
+	["The Nightfang Den is the cave north across the clearing from {npc:257944}. Heal the seven injured druids inside ({npc:258134} among them) and find {npc:258130}. {npc:253622} stands east of the den: he drops his head and a {quest:94490}; right-click the missive to start its quest."] = "Nightfang Den, {npc:257944} karşısında açıklığın kuzeyindeki mağara. İçerideki yedi yaralı druid'i iyileştir (aralarında {npc:258134}) ve {npc:258130} yanına git. {npc:253622} inin doğusunda duruyor: kafasını ve bir {quest:94490} düşürür. Görevini başlatmak için mektuba sağ tıkla.",
 	-- {npc:253622} Commander Haalien
 	["from {npc:253622}"] = "kaynak: {npc:253622}",
 
@@ -71,7 +71,7 @@ return {
 
 	-- Step 11: Mercy Falls on Deaf Ears
 	-- {npc:254151} Vayn Moongaze
-	["Back to {npc:254151} inside the den. Ten ears for 1000 reputation and a green piece: leather gloves, cloth pants or mail boots. {npc:254151} then takes ears five at a time, for 1000 each, as often as you like, up to level 18; in Classic the pay drops from level 19 and is 200 from level 22. The Legacy perk Diplomat adds up to 10% to every gain."] = "İnin içindeki {npc:254151} yanına dön. 1000 itibar ve yeşil bir parça için on kulak: leather eldiven, cloth pantolon ya da mail bot. Sonra {npc:254151} kulakları beşer beşer alır, her biri 1000 karşılığında, istediğin kadar sık, seviye 18'e kadar; Classic'te ödeme seviye 19'dan düşer ve seviye 22'den itibaren 200 olur. Legacy yeteneği Diplomat her kazanca %10'a kadar ekler.",
+	["Back to {npc:254151} inside the den. Ten ears for 1000 reputation and a green piece: leather gloves, cloth pants or mail boots. {npc:254151} then takes ears five at a time, for 1000 each, as often as you like, up to level 18; in Classic the pay drops from level 19 and is 200 from level 22. The Legacy perk Diplomat adds up to 10% to every gain."] = "İnin içindeki {npc:254151} yanına dön. 1000 itibar ve yeşil bir parça için on kulak: leather eldiven, cloth pantolon ya da mail bot. Sonra {npc:254151} kulakları beşer beşer alır, her biri 1000 karşılığında, istediğin kadar sık, seviye 18'e kadar. Classic'te ödeme seviye 19'dan düşer ve seviye 22'den itibaren 200 olur. Legacy yeteneği Diplomat her kazanca %10'a kadar ekler.",
 
 	-- Step 12: Back to Valanaar
 	-- {area:16638} Valanaar

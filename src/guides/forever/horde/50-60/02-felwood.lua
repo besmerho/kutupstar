@@ -17,7 +17,7 @@ return {
 	-- {area:200} Dalson's Tears
 	["{area:200} farmhouse"] = "{area:200} çiftlik evi",
 	-- {npc:10816} Wandering Skeleton · {npc:10836} Farmer Dalson
-	["The diary lies in the farmhouse, the cabinet stands inside and the outhouse is behind it. A {npc:10816} carries the outhouse key; {npc:10836} comes out when you open the outhouse and carries the cabinet key."] = "Günlük çiftlik evinde, dolap içeride, hela da arkada. Hela anahtarını bir {npc:10816} taşıyor; helayı açınca {npc:10836} dışarı çıkar ve dolap anahtarını taşır.",
+	["The diary lies in the farmhouse, the cabinet stands inside and the outhouse is behind it. A {npc:10816} carries the outhouse key; {npc:10836} comes out when you open the outhouse and carries the cabinet key."] = "Günlük çiftlik evinde, dolap içeride, hela da arkada. Hela anahtarını bir {npc:10816} taşıyor. Helayı açınca {npc:10836} dışarı çıkar ve dolap anahtarını taşır.",
 
 	-- Step 4: Mulgris Deepriver
 	["His next hunt, the Diseased Grizzlies (55-56), waits for the Plaguelands visit at about 58."] = "Bir sonraki avı, Diseased Grizzly'ler (55-56), yaklaşık 58'deki Plaguelands ziyaretini bekler.",
@@ -39,7 +39,7 @@ return {
 	-- Step 10: Paladin trainer
 	["Paladin trainer"] = "Paladin eğitmeni",
 	-- {npc:246152} Shari Stilwell · {zone:1420} Tirisfal Glades · {zone:1454} Orgrimmar
-	["{npc:246152} in {zone:1420}; {zone:1454} has no paladin trainer"] = "{npc:246152}, {zone:1420} bölgesinde; {zone:1454} bölgesinde Paladin eğitmeni yok",
+	["{npc:246152} in {zone:1420}; {zone:1454} has no paladin trainer"] = "{npc:246152}, {zone:1420} bölgesinde, {zone:1454} bölgesinde Paladin eğitmeni yok",
 
 	-- Step 11: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
@@ -51,7 +51,7 @@ return {
 
 	-- Step 13: Jes'rimon
 	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow
-	["{npc:8659} takes the ravasaur claws from Un'Goro; he stands in the {object:172960}, a short walk from the middle of the city."] = "{npc:8659}, Un'Goro'dan gelen ravasaur pençelerini alır; şehrin ortasından kısa bir yürüyüş ötedeki {object:172960} içinde duruyor.",
+	["{npc:8659} takes the ravasaur claws from Un'Goro; he stands in the {object:172960}, a short walk from the middle of the city."] = "{npc:8659}, Un'Goro'dan gelen ravasaur pençelerini alır. Şehrin ortasından kısa bir yürüyüş ötedeki {object:172960} içinde duruyor.",
 	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow
 	["{npc:8659}, the {object:172960}"] = "{npc:8659}, {object:172960}",
 
@@ -61,7 +61,7 @@ return {
 	-- Step 15: Druid trainer
 	["Druid trainer"] = "Druid eğitmeni",
 	-- {npc:3034} Sheal Runetotem · {zone:1412} Mulgore · {zone:1454} Orgrimmar
-	["{npc:3034} in {zone:1412}; {zone:1454} has no druid trainer"] = "{npc:3034}, {zone:1412} bölgesinde; {zone:1454} bölgesinde Druid eğitmeni yok",
+	["{npc:3034} in {zone:1412}; {zone:1454} has no druid trainer"] = "{npc:3034}, {zone:1412} bölgesinde, {zone:1454} bölgesinde Druid eğitmeni yok",
 
 	-- Step 16: Fly to Splintertree Post
 	-- {area:431} Splintertree Post
@@ -80,7 +80,7 @@ return {
 
 	-- Step 19: Deadwood Village
 	-- {area:1769} Timbermaw Hold
-	["The Deadwood furbolg village lies just south of the Sanctuary. Every Deadwood kill also raises your {area:1769} reputation; keep the headdress feathers."] = "Deadwood furbolg köyü Sanctuary'nin hemen güneyinde. Her Deadwood öldürmen {area:1769} itibarını da artırır; başlık tüylerini sakla.",
+	["The Deadwood furbolg village lies just south of the Sanctuary. Every Deadwood kill also raises your {area:1769} reputation; keep the headdress feathers."] = "Deadwood furbolg köyü Sanctuary'nin hemen güneyinde. Her Deadwood öldürmen {area:1769} itibarını da artırır, başlık tüylerini sakla.",
 
 	-- Step 20: Southern Jaedenar
 	-- {area:1763} Jaedenar
@@ -114,7 +114,7 @@ return {
 	-- Step 26: Irontree Woods
 	-- {area:1767} Irontree Woods · {item:11503} Blood Amber · {npc:10920} Kelek Skykeeper · {area:1762} Felpaw Village · {area:1769} Timbermaw Hold · {area:2479} Emerald Sanctuary · {area:1997} Bloodvenom Post · {area:1417} Sunken Temple · {area:1584} Blackrock Depths
 	-- plural, as words: Warpwood Moss Flayers = {npc:7100} Warpwood Moss Flayer · Felpaw Ravagers = {npc:8961} Felpaw Ravager · Deadwood Den Watchers = {npc:7156} Deadwood Den Watcher
-	["Follow the road north-east to {area:1767}. The Warpwood Moss Flayers and Shredders on the east side of the woods each carry a {item:11503}; Angerclaw Grizzlies and Felpaw Ravagers roam the same woods for Talo, and their organs are {npc:10920}'s.\n{area:1762}'s Deadwood Den Watchers (53-54) and Avengers (54-55) are next: below level 54, keep hunting the grizzlies and ravagers (51-52) here until 54. The hand-ins at {area:1769}, the {area:2479} and {area:1997} that follow take you most of the way to 55. Or, with a group, run the {area:1417} dungeon or the {area:1584} dungeon instead."] = "Yolu kuzeydoğuya, {area:1767} ormanına izle. Ormanın doğu yakasındaki Warpwood Moss Flayer ve Shredder'ların her biri bir {item:11503} taşır; Angerclaw Grizzly ve Felpaw Ravager yaratıkları Talo için aynı ormanda dolaşıyor, organları da {npc:10920} için.\nSırada {area:1762} köyünün Deadwood Den Watcher (53-54) ve Avenger (54-55) yaratıkları var: 54. seviyenin altındaysan 54'e kadar burada grizzly ve ravager'ları (51-52) avlamaya devam et. Ardından gelen {area:1769}, {area:2479} ve {area:1997} teslimleri seni 55'e epey yaklaştırır. Ya da bir grupla onun yerine {area:1417} veya {area:1584} zindanını yap.",
+	["Follow the road north-east to {area:1767}. The Warpwood Moss Flayers and Shredders on the east side of the woods each carry a {item:11503}; Angerclaw Grizzlies and Felpaw Ravagers roam the same woods for Talo, and their organs are {npc:10920}'s.\n{area:1762}'s Deadwood Den Watchers (53-54) and Avengers (54-55) are next: below level 54, keep hunting the grizzlies and ravagers (51-52) here until 54. The hand-ins at {area:1769}, the {area:2479} and {area:1997} that follow take you most of the way to 55. Or, with a group, run the {area:1417} dungeon or the {area:1584} dungeon instead."] = "Yolu kuzeydoğuya, {area:1767} ormanına izle. Ormanın doğu yakasındaki Warpwood Moss Flayer ve Shredder'ların her biri bir {item:11503} taşır. Angerclaw Grizzly ve Felpaw Ravager yaratıkları Talo için aynı ormanda dolaşıyor, organları da {npc:10920} için.\nSırada {area:1762} köyünün Deadwood Den Watcher (53-54) ve Avenger (54-55) yaratıkları var: 54. seviyenin altındaysan 54'e kadar burada grizzly ve ravager'ları (51-52) avlamaya devam et. Ardından gelen {area:1769}, {area:2479} ve {area:1997} teslimleri seni 55'e epey yaklaştırır. Ya da bir grupla onun yerine {area:1417} veya {area:1584} zindanını yap.",
 	-- {item:277958} Putrescent Bear Organs
 	["{item:277958}, from the Angerclaw bears"] = "{item:277958}, Angerclaw ayılarından",
 	-- {item:277959} Putrescent Wolf Organs
@@ -129,7 +129,7 @@ return {
 	-- {npc:9462} Chieftain Bloodmaw · {npc:11557} Meilosh
 	["The Deadwood furbolg village just west of the tunnel. {npc:9462} (56) stands among them. {npc:11557}, a friendly furbolg, sits at the north end of the village."] = "Tünelin hemen batısındaki Deadwood furbolg köyü. {npc:9462} (56) onların arasında duruyor. Dost bir furbolg olan {npc:11557} köyün kuzey ucunda oturuyor.",
 	-- {npc:11557} Meilosh · {quest:6031} Runecloth
-	["{npc:11557}: keep 30 {quest:6031} for him; he trades only at Neutral with the Timbermaw; below ground"] = "{npc:11557}: onun için 30 {quest:6031} sakla; yalnızca Timbermaw ile Neutral olunca alışveriş yapar; yer altında",
+	["{npc:11557}: keep 30 {quest:6031} for him; he trades only at Neutral with the Timbermaw; below ground"] = "{npc:11557}: onun için 30 {quest:6031} sakla. Yalnızca Timbermaw ile Neutral olunca alışveriş yapar, yer altında",
 
 	-- Step 29: Nafien
 	-- {npc:15395} Nafien · {area:1769} Timbermaw Hold
@@ -138,7 +138,7 @@ return {
 	-- Step 30: Felpaw Village
 	-- {quest:8470} Deadwood Ritual Totem · {npc:11558} Kernda · {area:1769} Timbermaw Hold
 	-- plural, as words: Deadwood Avengers = {npc:7157} Deadwood Avenger
-	["Careful: Den Watchers are level 53-54 and the Deadwood Avengers 54-55; they call nearby allies within 25 yd once below 50% health and run off for help below 15%.\nKeep killing them until one drops a {quest:8470}, about one kill in thirty, then right-click it: {npc:11558} in {area:1769} takes it once the Timbermaw are Neutral to you, now if they already are, or when the last guide passes the cave again at 59."] = "Dikkat: Den Watcher'lar 53-54, Deadwood Avenger yaratıkları 54-55. seviye; canları %50'nin altına düşünce 25 yard içindeki müttefiklerini çağırır, %15'in altında da yardım için kaçarlar.\nBiri {quest:8470} düşürene kadar (yaklaşık otuzda bir) öldürmeye devam et, sonra ona sağ tıkla: {area:1769} içindeki {npc:11558}, Timbermaw sana karşı Neutral olunca onu teslim alır; zaten öyleyse şimdi, değilse son rehber 59'da mağaradan yeniden geçerken.",
+	["Careful: Den Watchers are level 53-54 and the Deadwood Avengers 54-55; they call nearby allies within 25 yd once below 50% health and run off for help below 15%.\nKeep killing them until one drops a {quest:8470}, about one kill in thirty, then right-click it: {npc:11558} in {area:1769} takes it once the Timbermaw are Neutral to you, now if they already are, or when the last guide passes the cave again at 59."] = "Dikkat: Den Watcher'lar 53-54, Deadwood Avenger yaratıkları 54-55. seviye, canları %50'nin altına düşünce 25 yard içindeki müttefiklerini çağırır, %15'in altında da yardım için kaçarlar.\nBiri {quest:8470} düşürene kadar (yaklaşık otuzda bir) öldürmeye devam et, sonra ona sağ tıkla: {area:1769} içindeki {npc:11558}, Timbermaw sana karşı Neutral olunca onu teslim alır. Zaten öyleyse şimdi, değilse son rehber 59'da mağaradan yeniden geçerken.",
 
 	-- Step 31: Nafien
 	-- {quest:8465} Speak to Salfa · {zone:1452} Winterspring
@@ -148,7 +148,7 @@ return {
 	-- {npc:11558} Kernda
 	["Step into the cave: {npc:11558} stands just inside."] = "Mağaraya gir: {npc:11558} hemen içeride duruyor.",
 	-- {npc:11558} Kernda
-	["{npc:11558}: the Timbermaw speak to you only from Neutral; walks around here: look inside the circle on the map"] = "{npc:11558}: Timbermaw'lar seninle ancak Neutral'dan itibaren konuşur; buralarda dolaşıyor: haritadaki çemberin içine bak",
+	["{npc:11558}: the Timbermaw speak to you only from Neutral; walks around here: look inside the circle on the map"] = "{npc:11558}: Timbermaw'lar seninle ancak Neutral'dan itibaren konuşur, buralarda dolaşıyor: haritadaki çemberin içine bak",
 
 	-- Step 33: Emerald Sanctuary
 	-- {zone:1448} Felwood
@@ -176,7 +176,7 @@ return {
 	-- {npc:9996} Winna Hazzard
 	["{npc:9996}'s kitten"] = "{npc:9996} adlı NPC'nin yavru kedisi",
 	-- {item:12565} Winna's Kitten Carrier · {npc:10042} Corrupted Saber · {npc:9996} Winna Hazzard
-	["Take the kitten to the same moonwell and release it there with {item:12565}; once it has turned into a {npc:10042}, bring it back to {npc:9996} and click on it to hand it over."] = "Yavru kediyi aynı ay kuyusuna götür ve orada {item:12565} ile serbest bırak; bir {npc:10042} yaratığına dönüşünce onu {npc:9996} adlı NPC'ye geri getir ve teslim etmek için üzerine tıkla.",
+	["Take the kitten to the same moonwell and release it there with {item:12565}; once it has turned into a {npc:10042}, bring it back to {npc:9996} and click on it to hand it over."] = "Yavru kediyi aynı ay kuyusuna götür ve orada {item:12565} ile serbest bırak. Bir {npc:10042} yaratığına dönüşünce onu {npc:9996} adlı NPC'ye geri getir ve teslim etmek için üzerine tıkla.",
 	-- {item:12565} Winna's Kitten Carrier
 	["{item:12565}, at the Jadefire moonwell"] = "{item:12565}, Jadefire ay kuyusunda",
 

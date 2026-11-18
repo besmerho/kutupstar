@@ -13,7 +13,7 @@ return {
 	-- {npc:258113} Ingrid Dunwald · {area:131} Kharanos · {npc:258098} Eldrun Stormbreaker · {zone:1455} Ironforge · {npc:257597} Bruegs Kindleborn
 	["At 10 {npc:258113}, the shaman trainer in {area:131}, or {npc:258098}, the shaman trainer in {zone:1455}, sends you to {npc:257597}."] = "10'da {area:131} köyündeki shaman eğitmeni {npc:258113} ya da {zone:1455} şehrindeki shaman eğitmeni {npc:258098}, seni {npc:257597} yanına gönderir.",
 	-- {npc:258113} Ingrid Dunwald · {area:131} Kharanos · {npc:258098} Eldrun Stormbreaker · {zone:1455} Ironforge
-	["{npc:258113}, {area:131}; or {npc:258098}, {zone:1455}"] = "{npc:258113}, {area:131}; ya da {npc:258098}, {zone:1455}",
+	["{npc:258113}, {area:131}; or {npc:258098}, {zone:1455}"] = "{npc:258113}, {area:131} ya da {npc:258098}, {zone:1455}",
 
 	-- Step 2: Bruegs Kindleborn
 	-- {area:806} South Gate Outpost · {npc:1959} Mountaineer Barleybrew · {npc:257597} Bruegs Kindleborn · {item:6653} Torch of the Dormant Flame

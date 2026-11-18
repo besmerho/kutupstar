@@ -16,7 +16,7 @@ return {
 	["Her house stands on the hill south-east of {area:42}, above the {area:121}."] = "Evi {area:42} kasabasının güneydoğusundaki tepede, {area:121} mezarlığının yukarısında.",
 	["Inside"] = "İçeride",
 	-- {item:1946} Mary's Looking Glass · {npc:511} Insane Ghoul · {zone:1431} Duskwood
-	["{item:1946}: the {npc:511} in the cemetery's crypt is level 26; it waits for the {zone:1431} return"] = "{item:1946}: mezarlığın mahzenindeki {npc:511} 26. seviye; {zone:1431} dönüşünü bekler",
+	["{item:1946}: the {npc:511} in the cemetery's crypt is level 26; it waits for the {zone:1431} return"] = "{item:1946}: mezarlığın mahzenindeki {npc:511} 26. seviye, {zone:1431} dönüşünü bekler",
 
 	-- Step 3: Tranquil Gardens Cemetery
 	-- {quest:337} An Old History Book · {zone:1431} Duskwood
@@ -30,7 +30,7 @@ return {
 	["Gooey Spider Legs"] = "Gooey Spider Leg",
 	-- {npc:311} Sven Yorgen
 	-- plural, as words: Carrion Recluses = {npc:949} Carrion Recluse · Venom Web Spiders = {npc:217} Venom Web Spider · Pygmy Venom Web Spiders = {npc:539} Pygmy Venom Web Spider · Green Recluses = {npc:569} Green Recluse
-	["Carrion Recluses lurk in the woods on the way west, and Venom Web Spiders, Pygmy Venom Web Spiders and Green Recluses crawl just south of {npc:311}'s camp: each can drop a leg."] = "Carrion Recluse yaratıkları batıya giden yoldaki ormanda pusuda; Venom Web Spider, Pygmy Venom Web Spider ve Green Recluse yaratıkları da {npc:311} kampının hemen güneyinde sürünüyor: her biri bacak düşürebilir.",
+	["Carrion Recluses lurk in the woods on the way west, and Venom Web Spiders, Pygmy Venom Web Spiders and Green Recluses crawl just south of {npc:311}'s camp: each can drop a leg."] = "Carrion Recluse yaratıkları batıya giden yoldaki ormanda pusuda. Venom Web Spider, Pygmy Venom Web Spider ve Green Recluse yaratıkları da {npc:311} kampının hemen güneyinde sürünüyor: her biri bacak düşürebilir.",
 
 	-- Step 8: Back to Darkshire
 	-- {area:42} Darkshire
@@ -55,7 +55,7 @@ return {
 	["Rot Blossoms"] = "Rot Blossom",
 	-- {area:42} Darkshire · {area:121} Tranquil Gardens Cemetery
 	-- plural, as words: Skeletal Horrors = {npc:202} Skeletal Horror · Rot Blossoms = {item:1598} Rot Blossom
-	["Skeletal Horrors walk the hillside between {area:42} and the {area:121}, south-east of town; they drop the Rot Blossoms."] = "Skeletal Horror yaratıkları kasabanın güneydoğusunda, {area:42} kasabası ile {area:121} mezarlığı arasındaki yamaçta dolaşıyor; Rot Blossom eşyalarını onlar düşürür.",
+	["Skeletal Horrors walk the hillside between {area:42} and the {area:121}, south-east of town; they drop the Rot Blossoms."] = "Skeletal Horror yaratıkları kasabanın güneydoğusunda, {area:42} kasabası ile {area:121} mezarlığı arasındaki yamaçta dolaşıyor, Rot Blossom eşyalarını onlar düşürür.",
 
 	-- Step 12: Abercrombie
 	["Head west to the hermit once more."] = "Bir kez daha batıya, münzeviye git.",
@@ -65,7 +65,7 @@ return {
 	["Ghoul Ribs"] = "Ghoul Rib",
 	-- {area:492} Raven Hill Cemetery · {npc:522} Mor'Ladim · {npc:948} Rotted One · {spell:3428} Summon Flesh Eating Worms
 	-- plural, as words: Flesh Eaters = {npc:3} Flesh Eater · Bone Chewers = {npc:210} Bone Chewer · Plague Spreaders = {npc:604} Plague Spreader · Brain Eaters = {npc:570} Brain Eater
-	["Every ghoul of the {area:492}'s northern half can drop a rib: Flesh Eaters and Bone Chewers (24-27) are the easier kills; Plague Spreaders and Brain Eaters (27-29) drop them too. {npc:522}, an elite, wanders the graves: keep away from him.\nCareful: A {npc:948} casts {spell:3428} as it dies, which brings extra adds."] = "{area:492} mezarlığının kuzey yarısındaki her ghoul kaburga düşürebilir: Flesh Eater ve Bone Chewer yaratıkları (24-27) daha kolay ölür; Plague Spreader ve Brain Eater yaratıkları (27-29) da düşürür. Elit {npc:522} mezarların arasında dolaşıyor: ondan uzak dur.\nDikkat: bir {npc:948} ölürken {spell:3428} kullanır ve fazladan yaratık getirir.",
+	["Every ghoul of the {area:492}'s northern half can drop a rib: Flesh Eaters and Bone Chewers (24-27) are the easier kills; Plague Spreaders and Brain Eaters (27-29) drop them too. {npc:522}, an elite, wanders the graves: keep away from him.\nCareful: A {npc:948} casts {spell:3428} as it dies, which brings extra adds."] = "{area:492} mezarlığının kuzey yarısındaki her ghoul kaburga düşürebilir: Flesh Eater ve Bone Chewer yaratıkları (24-27) daha kolay ölür. Plague Spreader ve Brain Eater yaratıkları (27-29) da düşürür. Elit {npc:522} mezarların arasında dolaşıyor: ondan uzak dur.\nDikkat: bir {npc:948} ölürken {spell:3428} kullanır ve fazladan yaratık getirir.",
 
 	-- Step 15: Raven Hill Cemetery: kill these as you meet them
 	-- {area:492} Raven Hill Cemetery
@@ -84,13 +84,13 @@ return {
 
 	-- Step 20: Agent Kearnen
 	-- {area:94} Raven Hill · {zone:1436} Westfall · {npc:7024} Agent Kearnen · {npc:7053} Klaven Mortwake · {npc:7051} Malformed Defias Drone
-	["Head west along the road out of {area:94} into {zone:1436}. {npc:7024} watches {npc:7053}'s tower from the hills just inside the border. The {npc:7051} (level 23) guarding the tower carries its key; Klaven's journal is in the chest at the top."] = "Yolu izleyerek {area:94} tepesinden batıya, {zone:1436} bölgesine geç. {npc:7024}, sınırın hemen içindeki tepelerden {npc:7053} adlı NPC'nin kulesini gözlüyor. Kuleyi koruyan {npc:7051} (seviye 23) kulenin anahtarını taşıyor; Klaven'ın günlüğü tepedeki sandıkta.",
+	["Head west along the road out of {area:94} into {zone:1436}. {npc:7024} watches {npc:7053}'s tower from the hills just inside the border. The {npc:7051} (level 23) guarding the tower carries its key; Klaven's journal is in the chest at the top."] = "Yolu izleyerek {area:94} tepesinden batıya, {zone:1436} bölgesine geç. {npc:7024}, sınırın hemen içindeki tepelerden {npc:7053} adlı NPC'nin kulesini gözlüyor. Kuleyi koruyan {npc:7051} (seviye 23) kulenin anahtarını taşıyor. Klaven'ın günlüğü tepedeki sandıkta.",
 	-- {item:7908} Klaven Mortwake's Journal
 	["{item:7908}, in the chest"] = "{item:7908}, sandıkta",
 
 	-- Step 21: Master Mathias Shaw
 	-- {zone:1453} Stormwind · {object:2100} Old Town
-	["Head north through Elwynn to {zone:1453}; Mathias Shaw is at SI:7 in {object:2100}."] = "Elwynn'den geçerek kuzeye, {zone:1453} şehrine git; Mathias Shaw {object:2100} semtinde, SI:7 binasında.",
+	["Head north through Elwynn to {zone:1453}; Mathias Shaw is at SI:7 in {object:2100}."] = "Elwynn'den geçerek kuzeye, {zone:1453} şehrine git. Mathias Shaw {object:2100} semtinde, SI:7 binasında.",
 	-- {npc:332} Master Mathias Shaw · {item:18160} Recipe: Thistle Tea
 	["{npc:332}: Poisons, and {item:18160}"] = "{npc:332}: Poisons ve {item:18160}",
 	-- {quest:2607} The Touch of Zanzil · {npc:7207} Doc Mixilpixil
@@ -100,7 +100,7 @@ return {
 	-- {item:3372} Leaded Vial · {npc:1313} Maria Lumere
 	["{item:3372}: {npc:1313}, Alchemy Supplies"] = "{item:3372}: {npc:1313}, Alchemy Supplies",
 	-- {item:4371} Bronze Tube · {object:2096} Trade District · {npc:5519} Billibub Cogspinner
-	["{item:4371}: the Auction House, {object:2096}; {npc:5519} keeps one and is nearly always sold out"] = "{item:4371}: Auction House, {object:2096}; {npc:5519} bir tane tutar ve neredeyse her zaman tükenmiştir",
+	["{item:4371}: the Auction House, {object:2096}; {npc:5519} keeps one and is nearly always sold out"] = "{item:4371}: Auction House, {object:2096}. {npc:5519} bir tane tutar ve neredeyse her zaman tükenmiştir",
 
 	-- Step 22: Elwynn Forest
 	-- {area:94} Raven Hill · {area:87} Goldshire · {zone:1453} Stormwind

@@ -39,7 +39,7 @@ return {
 	-- {item:6866} Symbol of Life
 	["The {item:6866}"] = "{item:6866}",
 	-- {npc:6171} Duthorian Rall · {item:6866} Symbol of Life · {npc:6173} Gazin Tenorm · {npc:6172} Henze Faulk
-	["Back to the Cathedral. {npc:6171} gives you the {item:6866}; {npc:6173} lies wounded by the altar of the same hall. Keep the symbol: you need it on {npc:6172}. If you lose it, {npc:6171} gives you another (The {item:6866})."] = "Katedrale dön. {npc:6171} sana {item:6866} verir; {npc:6173} aynı salonun sunağının yanında yaralı yatıyor. Sembolü sakla: {npc:6172} üzerinde ona ihtiyacın olacak. Kaybedersen {npc:6171} sana bir tane daha verir (The {item:6866}).",
+	["Back to the Cathedral. {npc:6171} gives you the {item:6866}; {npc:6173} lies wounded by the altar of the same hall. Keep the symbol: you need it on {npc:6172}. If you lose it, {npc:6171} gives you another (The {item:6866})."] = "Katedrale dön. {npc:6171} sana {item:6866} verir. {npc:6173} aynı salonun sunağının yanında yaralı yatıyor. Sembolü sakla: {npc:6172} üzerinde ona ihtiyacın olacak. Kaybedersen {npc:6171} sana bir tane daha verir (The {item:6866}).",
 
 	-- Step 8: Henze Faulk
 	-- {npc:6172} Henze Faulk · {area:56} Heroes' Vigil · {area:86} Stone Cairn Lake · {item:6866} Symbol of Life · {spell:116} Frostbolt
@@ -79,7 +79,7 @@ return {
 
 	-- Step 16: The Symbol of Life
 	-- {object:32386} Hall of Mysteries (no name in this language: may be words) · {npc:6179} Tiza Battleforge · {item:6866} Symbol of Life · {npc:6178} Muiredon Battleforge · {npc:6177} Narm Faulk
-	["Back upstairs in the {object:32386}. {npc:6179} gives you the {item:6866}; her husband {npc:6178} rests on the same floor. Keep the symbol: you need it on {npc:6177}. If you lose it, {npc:6179} gives you another (The {item:6866})."] = "{object:32386} içinde üst kata dön. {npc:6179} sana {item:6866} verir; kocası {npc:6178} aynı katta dinleniyor. Sembolü sakla: {npc:6177} üzerinde ona ihtiyacın olacak. Kaybedersen {npc:6179} sana bir tane daha verir (The {item:6866}).",
+	["Back upstairs in the {object:32386}. {npc:6179} gives you the {item:6866}; her husband {npc:6178} rests on the same floor. Keep the symbol: you need it on {npc:6177}. If you lose it, {npc:6179} gives you another (The {item:6866})."] = "{object:32386} içinde üst kata dön. {npc:6179} sana {item:6866} verir. Kocası {npc:6178} aynı katta dinleniyor. Sembolü sakla: {npc:6177} üzerinde ona ihtiyacın olacak. Kaybedersen {npc:6179} sana bir tane daha verir (The {item:6866}).",
 
 	-- Step 17: Narm Faulk
 	-- {npc:6177} Narm Faulk · {zone:1426} Dun Morogh · {zone:1432} Loch Modan · {area:131} Kharanos · {area:212} Helm's Bed Lake · {object:147516} Dark Iron · {item:6866} Symbol of Life
@@ -91,7 +91,7 @@ return {
 	-- {item:6847} Dark Iron Script
 	["The {item:6847}"] = "{item:6847}",
 	-- {item:6847} Dark Iron Script
-	["The Dark Iron Spies (level 9-11, twelve of them) sneak around the little house below the lake, just south of Narm; you see them from his hill. About one kill in two drops the {item:6847}. They run for help at low health: finish them or step back. They respawn in three minutes."] = "Dark Iron Spy yaratıkları (seviye 9-11, on iki tane) gölün aşağısındaki küçük evin çevresinde, Narm'ın hemen güneyinde sinsice dolaşıyor; onları onun tepesinden görürsün. Aşağı yukarı ikide bir {item:6847} düşer. Canları azalınca yardım için kaçarlar: bitir ya da geri çekil. Üç dakikada yeniden doğarlar.",
+	["The Dark Iron Spies (level 9-11, twelve of them) sneak around the little house below the lake, just south of Narm; you see them from his hill. About one kill in two drops the {item:6847}. They run for help at low health: finish them or step back. They respawn in three minutes."] = "Dark Iron Spy yaratıkları (seviye 9-11, on iki tane) gölün aşağısındaki küçük evin çevresinde, Narm'ın hemen güneyinde sinsice dolaşıyor. Onları onun tepesinden görürsün. Aşağı yukarı ikide bir {item:6847} düşer. Canları azalınca yardım için kaçarlar: bitir ya da geri çekil. Üç dakikada yeniden doğarlar.",
 	-- {item:6847} Dark Iron Script
 	["{item:6847}: Dark Iron Spies"] = "{item:6847}: Dark Iron Spy yaratıkları",
 

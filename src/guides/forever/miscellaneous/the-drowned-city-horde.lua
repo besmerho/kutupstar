@@ -46,7 +46,7 @@ return {
 	-- Step 12: Var'Taka
 	-- {npc:258924} Var'Taka · {npc:260042} Captain Dreadrise
 	-- plural, as words: Brinescale Explorers = {npc:258799} Brinescale Explorer
-	["Brinescale Explorers and Sorceresses guard the way to {npc:258924}, the second boss. The second tablet is close to him. Once he is dead, disrupt the barrier close to where he fell; you do it once more after {npc:260042}."] = "Brinescale Explorer ve Sorceress yaratıkları ikinci boss {npc:258924} yaratığına giden yolu koruyor. İkinci tablet ona yakın. Ölünce düştüğü yerin yakınındaki bariyeri boz; bunu {npc:260042} yaratığından sonra bir kez daha yaparsın.",
+	["Brinescale Explorers and Sorceresses guard the way to {npc:258924}, the second boss. The second tablet is close to him. Once he is dead, disrupt the barrier close to where he fell; you do it once more after {npc:260042}."] = "Brinescale Explorer ve Sorceress yaratıkları ikinci boss {npc:258924} yaratığına giden yolu koruyor. İkinci tablet ona yakın. Ölünce düştüğü yerin yakınındaki bariyeri boz. Bunu {npc:260042} yaratığından sonra bir kez daha yaparsın.",
 
 	-- Step 13: Captain Dreadrise
 	["The Saltseer pirates hold his ground: Murderers, Manhunters, Cultists and Coroners, and any of them can drop an artifact. The third tablet is among them, before you reach the captain. After he dies, disrupt the barrier a second time."] = "Kaptanın bölgesini Saltseer korsanları tutuyor: Murderer, Manhunter, Cultist ve Coroner yaratıkları, hepsi bir eser düşürebilir. Üçüncü tablet de aralarında, kaptana varmadan önce. Kaptan ölünce bariyeri ikinci kez boz.",

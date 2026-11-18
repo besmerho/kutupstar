@@ -9,7 +9,7 @@ return {
 	-- Step 1: Learn to ride
 	["Learn to ride"] = "Binmeyi öğren",
 	-- {area:189} Steelgrill's Depot · {area:131} Kharanos · {npc:7954} Binjy Featherwhistle · {npc:7955} Milli Featherwhistle · {skill:762} Riding · {faction:54} Gnomeregan Exiles
-	["{area:189} is just east of {area:131}; {npc:7954} stands beside {npc:7955}'s mechanostriders. At 40 {npc:7954} teaches {skill:762} to Gnomes for 100g (10% less at Honored with {faction:54}), and it comes with a mechanostrider. Other races learn {skill:762}, with their own first mount, at their own race's riding trainer."] = "{area:189}, {area:131} kasabasının hemen doğusunda; {npc:7954}, {npc:7955} adlı NPC'nin mechanostrider'larının yanında duruyor. Seviye 40'ta {npc:7954}, Gnome'lara 100g karşılığında {skill:762} öğretir ({faction:54} ile Honored'da %10 daha az) ve bununla bir mechanostrider da gelir. Diğer ırklar {skill:762} becerisini, kendi ilk bineğiyle birlikte, kendi ırklarının binicilik eğitmeninden öğrenir.",
+	["{area:189} is just east of {area:131}; {npc:7954} stands beside {npc:7955}'s mechanostriders. At 40 {npc:7954} teaches {skill:762} to Gnomes for 100g (10% less at Honored with {faction:54}), and it comes with a mechanostrider. Other races learn {skill:762}, with their own first mount, at their own race's riding trainer."] = "{area:189}, {area:131} kasabasının hemen doğusunda. {npc:7954}, {npc:7955} adlı NPC'nin mechanostrider'larının yanında duruyor. Seviye 40'ta {npc:7954}, Gnome'lara 100g karşılığında {skill:762} öğretir ({faction:54} ile Honored'da %10 daha az) ve bununla bir mechanostrider da gelir. Diğer ırklar {skill:762} becerisini, kendi ilk bineğiyle birlikte, kendi ırklarının binicilik eğitmeninden öğrenir.",
 	-- {npc:7954} Binjy Featherwhistle
 	["{npc:7954}, riding trainer"] = "{npc:7954}, binicilik eğitmeni",
 
@@ -32,5 +32,5 @@ return {
 	-- {item:13322} Unpainted Mechanostrider
 	["{item:13322}, 20g"] = "{item:13322}, 20g",
 	-- {spell:10907} Mechanostrider Piloting
-	["In Classic only Dwarves and Gnomes could ride mechanostriders; in Forever every Alliance race can learn {spell:10907}."] = "Classic'te mechanostrider'lara yalnızca Dwarf ve Gnome'lar binebiliyordu; Forever'da her Alliance ırkı {spell:10907} öğrenebilir.",
+	["In Classic only Dwarves and Gnomes could ride mechanostriders; in Forever every Alliance race can learn {spell:10907}."] = "Classic'te mechanostrider'lara yalnızca Dwarf ve Gnome'lar binebiliyordu. Forever'da her Alliance ırkı {spell:10907} öğrenebilir.",
 }

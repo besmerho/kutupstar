@@ -11,5 +11,5 @@ return {
 
 	-- Step 2: WRIGGLE.
 	-- {npc:269452} Excitable Slime · {npc:4612} Boyle · {quest:97583} WRIGGLE.
-	["Find an {npc:269452}, a little critter in the canal water beside {npc:4612}, target it and /dance at it, again and again, until it dances back and offers {quest:97583}; this takes many tries. Hand in the sludge right away. If the slime seems tired, /dance with it again before you hand in."] = "{npc:4612} yanındaki kanal suyunda küçük bir hayvan olan bir {npc:269452} bul, hedefle ve karşılık olarak dans edip {quest:97583} görevini önerene kadar ona tekrar tekrar /dance yap; bu çok deneme sürer. Çamuru hemen teslim et. Balçık yorgun görünürse teslim etmeden önce onunla yeniden /dance yap.",
+	["Find an {npc:269452}, a little critter in the canal water beside {npc:4612}, target it and /dance at it, again and again, until it dances back and offers {quest:97583}; this takes many tries. Hand in the sludge right away. If the slime seems tired, /dance with it again before you hand in."] = "{npc:4612} yanındaki kanal suyunda küçük bir hayvan olan bir {npc:269452} bul, hedefle ve karşılık olarak dans edip {quest:97583} görevini önerene kadar ona tekrar tekrar /dance yap, bu çok deneme sürer. Çamuru hemen teslim et. Balçık yorgun görünürse teslim etmeden önce onunla yeniden /dance yap.",
 }

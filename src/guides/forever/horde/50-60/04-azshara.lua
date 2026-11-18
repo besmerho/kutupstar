@@ -27,7 +27,7 @@ return {
 
 	-- Step 6: Liv Rizzlefix
 	-- {area:392} Ratchet · {object:149036} Marvon's Chest
-	["Liv's workshop is at the north end of {area:392}'s docks; {object:149036} stands inside it."] = "Liv'in atölyesi {area:392} iskelelerinin kuzey ucunda; {object:149036} içeride duruyor.",
+	["Liv's workshop is at the north end of {area:392}'s docks; {object:149036} stands inside it."] = "Liv'in atölyesi {area:392} iskelelerinin kuzey ucunda, {object:149036} içeride duruyor.",
 	["Inside"] = "İçeride",
 
 	-- Step 7: Islen Waterseer
@@ -40,7 +40,7 @@ return {
 	-- {npc:256386} Dokimi
 	["{npc:256386}'s crates"] = "{npc:256386} adlı NPC'nin sandıkları",
 	-- {npc:256386} Dokimi · {area:1237} Valormok
-	["Ride north up the road to the Crossroads; {npc:256386} stands there. Open each crate she hands you and bring back what is inside. Fly on to {area:1237} from the Crossroads."] = "Yoldan kuzeye, Crossroads'a sür; {npc:256386} orada duruyor. Sana verdiği her sandığı aç ve içindekini geri getir. Crossroads'tan {area:1237} kampına uç.",
+	["Ride north up the road to the Crossroads; {npc:256386} stands there. Open each crate she hands you and bring back what is inside. Fly on to {area:1237} from the Crossroads."] = "Yoldan kuzeye, Crossroads'a sür, {npc:256386} orada duruyor. Sana verdiği her sandığı aç ve içindekini geri getir. Crossroads'tan {area:1237} kampına uç.",
 
 	-- Step 9: Fly to Valormok
 	-- {area:1237} Valormok
@@ -57,13 +57,13 @@ return {
 	["Ride east to the ruins on the coast. The four tablets lie among the ruins, guarded by Spitelash naga (52-55): pull them one at a time."] = "Doğuya, kıyıdaki harabelere sür. Dört tablet harabelerin arasında yatıyor, onları Spitelash naga'ları (52-55) koruyor: tek tek çek.",
 
 	-- Step 12: Ruins of Eldarath
-	["Ride east to the ruins on the coast. Fill Cuely's four vials at the tide pools along the shore; Spitelash naga patrol between them."] = "Doğuya, kıyıdaki harabelere git. Cuely'nin dört şişesini kıyı boyunca gelgit havuzlarında doldur; aralarında Spitelash nagaları devriye geziyor.",
+	["Ride east to the ruins on the coast. Fill Cuely's four vials at the tide pools along the shore; Spitelash naga patrol between them."] = "Doğuya, kıyıdaki harabelere git. Cuely'nin dört şişesini kıyı boyunca gelgit havuzlarında doldur. Aralarında Spitelash nagaları devriye geziyor.",
 
 	-- Step 13: Makrinni Burrowers
 	-- plural, as words: Makrinni Burrowers = {npc:247470} Makrinni Burrower
 	["Makrinni Burrowers"] = "Makrinni Burrower yaratıkları",
 	-- plural, as words: Makrinni Burrowers = {npc:247470} Makrinni Burrower · Highborne Treasure Fragments = {item:246684} Highborne Treasure Fragment
-	["The Makrinni Burrowers (50-51) dig in the sands just east of the ruins, on the way north-east; they and the buried caches there give up the Highborne Treasure Fragments."] = "Makrinni Burrower yaratıkları (50-51) harabelerin hemen doğusunda, kuzeydoğuya giden yolda kumları kazıyor; onlardan ve oradaki gömülü sandıklardan Highborne Treasure Fragment parçaları çıkar.",
+	["The Makrinni Burrowers (50-51) dig in the sands just east of the ruins, on the way north-east; they and the buried caches there give up the Highborne Treasure Fragments."] = "Makrinni Burrower yaratıkları (50-51) harabelerin hemen doğusunda, kuzeydoğuya giden yolda kumları kazıyor. Onlardan ve oradaki gömülü sandıklardan Highborne Treasure Fragment parçaları çıkar.",
 
 	-- Step 14: Ekkal
 	-- {zone:1447} Azshara · {npc:235903} Ekkal
@@ -78,7 +78,7 @@ return {
 	-- Step 16: Thalassian Base Camp
 	-- {area:1227} Bay of Storms · {npc:8420} Kim'jael · {npc:247473} Izvi Gildfizz · {npc:250023} Blackmaw Thrall
 	-- plural, as words: Blood Elf Arcanists = {npc:246920} Blood Elf Arcanist
-	["The blood elves camp on the cliffs in the north-east, by the {area:1227}. {npc:8420}'s four pieces of equipment lie in the crates around the camp; the Blood Elf Arcanists carry {npc:247473}'s wand.\nCareful: a {npc:250023}, a level 55-57 elite, stands at the west edge of the camp: work the blood elves from its east side."] = "Blood elf'ler kuzeydoğuda, {area:1227} yanındaki uçurumlarda kamp kurmuş. {npc:8420} adlı NPC'nin dört teçhizat parçası kampın çevresindeki sandıklarda yatıyor; Blood Elf Arcanist yaratıkları {npc:247473} adlı NPC'nin asasını taşıyor.\nDikkat: 55-57. seviye elit bir {npc:250023} kampın batı kenarında duruyor: blood elf'lerle doğu yakasından uğraş.",
+	["The blood elves camp on the cliffs in the north-east, by the {area:1227}. {npc:8420}'s four pieces of equipment lie in the crates around the camp; the Blood Elf Arcanists carry {npc:247473}'s wand.\nCareful: a {npc:250023}, a level 55-57 elite, stands at the west edge of the camp: work the blood elves from its east side."] = "Blood elf'ler kuzeydoğuda, {area:1227} yanındaki uçurumlarda kamp kurmuş. {npc:8420} adlı NPC'nin dört teçhizat parçası kampın çevresindeki sandıklarda yatıyor. Blood Elf Arcanist yaratıkları {npc:247473} adlı NPC'nin asasını taşıyor.\nDikkat: 55-57. seviye elit bir {npc:250023} kampın batı kenarında duruyor: blood elf'lerle doğu yakasından uğraş.",
 	-- {item:246680} Mana-Siphoning Wand
 	-- plural, as words: Blood Elf Arcanists = {npc:246920} Blood Elf Arcanist
 	["{item:246680}, from the Blood Elf Arcanists"] = "{item:246680}, Blood Elf Arcanist yaratıklarından",
@@ -117,7 +117,7 @@ return {
 	-- Step 22: Ruins of Eldarath: Some Rune
 	-- {area:1221} Ruins of Eldarath · {npc:8420} Kim'jael
 	-- plural, as words: Spitelash Sirens = {npc:6195} Spitelash Siren
-	["Ride south to the northern edge of the {area:1221}. The Spitelash Sirens and Myrmidons (50-52) there carry {npc:8420}'s rune; it doesn't drop often, so work your way along the edge until it does."] = "Güneye, {area:1221} harabelerinin kuzey kenarına sür. Oradaki Spitelash Siren ve Myrmidon'lar (50-52) {npc:8420} adlı NPC'nin rününü taşıyor; sık düşmez, düşene kadar kenar boyunca ilerle.",
+	["Ride south to the northern edge of the {area:1221}. The Spitelash Sirens and Myrmidons (50-52) there carry {npc:8420}'s rune; it doesn't drop often, so work your way along the edge until it does."] = "Güneye, {area:1221} harabelerinin kuzey kenarına sür. Oradaki Spitelash Siren ve Myrmidon'lar (50-52) {npc:8420} adlı NPC'nin rününü taşıyor. Sık düşmez, düşene kadar kenar boyunca ilerle.",
 
 	-- Step 23: Kim'jael
 	-- {npc:8420} Kim'jael
@@ -139,7 +139,7 @@ return {
 
 	-- Step 26: Archmage Xylem
 	-- {area:1237} Valormok · {npc:8395} Sanath Lim-yo
-	["Xylem's tower stands on the cliff just north of {area:1237}: {npc:8395}, in {area:1237}, teleports you up for free (talk to him); otherwise the path winds up its north side."] = "Xylem'in kulesi {area:1237} kampının hemen kuzeyindeki uçurumda duruyor: {area:1237} kampındaki {npc:8395} seni ücretsiz yukarı ışınlar (onunla konuş); yoksa patika kulenin kuzey yakasından kıvrılarak çıkar.",
+	["Xylem's tower stands on the cliff just north of {area:1237}: {npc:8395}, in {area:1237}, teleports you up for free (talk to him); otherwise the path winds up its north side."] = "Xylem'in kulesi {area:1237} kampının hemen kuzeyindeki uçurumda duruyor: {area:1237} kampındaki {npc:8395} seni ücretsiz yukarı ışınlar (onunla konuş), yoksa patika kulenin kuzey yakasından kıvrılarak çıkar.",
 	["Upstairs"] = "Üst katta",
 
 	-- Step 28: Fly to Orgrimmar
@@ -151,7 +151,7 @@ return {
 	-- Step 29: Paladin trainer
 	["Paladin trainer"] = "Paladin eğitmeni",
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {zone:1454} Orgrimmar
-	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde; {zone:1454} bölgesinde Paladin eğitmeni yok",
+	["{npc:246344} in {zone:1456}; {zone:1454} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde, {zone:1454} bölgesinde Paladin eğitmeni yok",
 
 	-- Step 30: Orgrimmar
 	-- {zone:1454} Orgrimmar
@@ -159,7 +159,7 @@ return {
 
 	-- Step 31: Belgrom Rockmaul
 	-- {zone:1454} Orgrimmar · {npc:4485} Belgrom Rockmaul · {object:172958} Valley of Honor · {npc:3326} Zevrost · {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow
-	["Fly to {zone:1454}; {npc:4485} is in the {object:172958}, {npc:3326} and {npc:8659} in the {object:172960}."] = "{zone:1454} şehrine uç; {npc:4485}, {object:172958} içinde, {npc:3326} ve {npc:8659} de {object:172960} içinde.",
+	["Fly to {zone:1454}; {npc:4485} is in the {object:172958}, {npc:3326} and {npc:8659} in the {object:172960}."] = "{zone:1454} şehrine uç, {npc:4485}, {object:172958} içinde, {npc:3326} ve {npc:8659} de {object:172960} içinde.",
 	-- {npc:3326} Zevrost · {object:172960} Cleft of Shadow
 	["{npc:3326}, the {object:172960}"] = "{npc:3326}, {object:172960}",
 
@@ -200,12 +200,12 @@ return {
 
 	-- Step 43: The Bulwark
 	-- {zone:1458} Undercity · {area:152} The Bulwark · {zone:1422} Western Plaguelands
-	["Ride east out of the {zone:1458} along the road; the {area:152} guards the way into the {zone:1422}."] = "{zone:1458} şehrinden yol boyunca doğuya çık; {area:152}, {zone:1422} bölgesine giden yolu koruyor.",
+	["Ride east out of the {zone:1458} along the road; the {area:152} guards the way into the {zone:1422}."] = "{zone:1458} şehrinden yol boyunca doğuya çık. {area:152}, {zone:1422} bölgesine giden yolu koruyor.",
 	-- {npc:11615} Mickey Levine · {area:2627} Terrordale
 	["{npc:11615}: the termites are in {area:2627}, on the next guide"] = "{npc:11615}: termitler sonraki rehberde {area:2627} içinde",
 
 	-- Step 45: Felstone Field
 	-- {npc:10778} Janice Felstone · {area:152} The Bulwark · {npc:11075} Cauldron Lord Bilemaw
 	-- plural, as words: Jabbering Ghouls = {npc:10801} Jabbering Ghoul
-	["{npc:10778}'s farm is the first one east of the {area:152}. Jabbering Ghouls on the farm carry the other half of her charm; {npc:11075} guards the cauldron in the field.\nCareful: One or two undead usually fight alongside him, and more cauldron lords can attack after you use the cauldron."] = "{npc:10778} çiftliği {area:152} surlarının doğusundaki ilk çiftlik. Çiftlikteki Jabbering Ghoul yaratıkları tılsımının öbür yarısını taşıyor; {npc:11075} tarladaki kazanı koruyor.\nDikkat: Genelde bir iki undead onunla birlikte dövüşür, kazanı kullandıktan sonra da başka cauldron lord'lar saldırabilir.",
+	["{npc:10778}'s farm is the first one east of the {area:152}. Jabbering Ghouls on the farm carry the other half of her charm; {npc:11075} guards the cauldron in the field.\nCareful: One or two undead usually fight alongside him, and more cauldron lords can attack after you use the cauldron."] = "{npc:10778} çiftliği {area:152} surlarının doğusundaki ilk çiftlik. Çiftlikteki Jabbering Ghoul yaratıkları tılsımının öbür yarısını taşıyor, {npc:11075} tarladaki kazanı koruyor.\nDikkat: Genelde bir iki undead onunla birlikte dövüşür, kazanı kullandıktan sonra da başka cauldron lord'lar saldırabilir.",
 }

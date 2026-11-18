@@ -9,7 +9,7 @@ return {
 
 	-- Step 2: Tirion Fordring
 	-- {zone:1423} Eastern Plaguelands · {npc:1855} Tirion Fordring · {area:2619} Thondroril River
-	["Ride east along the road into the {zone:1423}. {npc:1855} lives in a small house by the {area:2619}, just north of the road at the border; his three hunts are on this guide's ground."] = "Yol boyunca doğuya, {zone:1423} bölgesine sür. {npc:1855}, sınırda yolun hemen kuzeyinde, {area:2619} yanındaki küçük bir evde yaşıyor; üç avı bu rehberin bölgesinde.",
+	["Ride east along the road into the {zone:1423}. {npc:1855} lives in a small house by the {area:2619}, just north of the road at the border; his three hunts are on this guide's ground."] = "Yol boyunca doğuya, {zone:1423} bölgesine sür. {npc:1855}, sınırda yolun hemen kuzeyinde, {area:2619} yanındaki küçük bir evde yaşıyor. Üç avı bu rehberin bölgesinde.",
 
 	-- Step 4: Light's Hope Chapel
 	-- {zone:1422} Western Plaguelands · {zone:1423} Eastern Plaguelands · {object:92525} Argent Dawn
@@ -21,7 +21,7 @@ return {
 
 	-- Step 6: Pamela's Doll
 	-- {npc:10926} Pamela Redpath
-	["The doll's head and its two sides lie in the houses around {npc:10926}; join them from your bags."] = "Bebeğin başı ve iki yanı {npc:10926} adlı NPC'nin çevresindeki evlerde; onları çantanda birleştir.",
+	["The doll's head and its two sides lie in the houses around {npc:10926}; join them from your bags."] = "Bebeğin başı ve iki yanı {npc:10926} adlı NPC'nin çevresindeki evlerde, onları çantanda birleştir.",
 	["Inside"] = "İçeride",
 
 	-- Step 7: Pamela Redpath
@@ -64,13 +64,13 @@ return {
 
 	-- Step 14: Chromie
 	-- {npc:10667} Chromie
-	["Ride north-west into Andorhal. {npc:10667} waits in the ruined inn on the west side of town; the skeletons inside are 54-57, so keep to the edges."] = "Kuzeybatıya, Andorhal'a git. {npc:10667} kasabanın batı yakasındaki yıkık handa bekliyor; içerideki iskeletler 54-57 seviyesinde, kenarlardan ilerle.",
+	["Ride north-west into Andorhal. {npc:10667} waits in the ruined inn on the west side of town; the skeletons inside are 54-57, so keep to the edges."] = "Kuzeybatıya, Andorhal'a git. {npc:10667} kasabanın batı yakasındaki yıkık handa bekliyor. İçerideki iskeletler 54-57 seviyesinde, kenarlardan ilerle.",
 	["Upstairs"] = "Üst katta",
 
 	-- Step 15: The Annals of Darrowshire
 	-- {npc:10996} Fallen Hero · {zone:1422} Western Plaguelands
 	-- plural, as words: Musty Tomes = {object:176150} Musty Tome
-	["The Annals lie among the Musty Tomes in Andorhal's town hall; open them until you find the right one.\nCareful: a {npc:10996}, a level 58-59 elite, can stand in Andorhal, as at many other spots of the {zone:1422}: give it room."] = "Annals, Andorhal belediye binasındaki Musty Tome kitaplarının arasında yatıyor; doğrusunu bulana kadar aç.\nDikkat: {zone:1422} bölgesinin pek çok yerinde olduğu gibi Andorhal'da da 58-59. seviye elit bir {npc:10996} durabilir: ona mesafe bırak.",
+	["The Annals lie among the Musty Tomes in Andorhal's town hall; open them until you find the right one.\nCareful: a {npc:10996}, a level 58-59 elite, can stand in Andorhal, as at many other spots of the {zone:1422}: give it room."] = "Annals, Andorhal belediye binasındaki Musty Tome kitaplarının arasında yatıyor, doğrusunu bulana kadar aç.\nDikkat: {zone:1422} bölgesinin pek çok yerinde olduğu gibi Andorhal'da da 58-59. seviye elit bir {npc:10996} durabilir: ona mesafe bırak.",
 
 	-- Step 17: Fly to Light's Hope Chapel
 	-- {area:2268} Light's Hope Chapel
@@ -88,7 +88,7 @@ return {
 	-- {zone:1423} Eastern Plaguelands
 	["{zone:1423}: kill these as you meet them"] = "{zone:1423}: bunları karşılaştıkça öldür",
 	-- plural, as words: Plaguehounds = {npc:8597} Plaguehound · Plaguebats = {npc:8600} Plaguebat · Carrion Grubs = {npc:8603} Carrion Grub
-	["Plaguehounds and their runts roam the shores of the lake south-west of the chapel; Plaguebats and Carrion Grubs share the ground. Careful: the biggest Plaguehounds are 56, pull them one at a time.\nThe shattered sword lies on the ground north-west of the lake."] = "Plaguehound yaratıkları ve yavruları şapelin güneybatısındaki gölün kıyılarında dolaşıyor; Plaguebat ve Carrion Grub yaratıkları da aynı yeri paylaşıyor. Dikkat: en büyük Plaguehound'lar 56, tek tek çek.\nKırık kılıç gölün kuzeybatısında yerde yatıyor.",
+	["Plaguehounds and their runts roam the shores of the lake south-west of the chapel; Plaguebats and Carrion Grubs share the ground. Careful: the biggest Plaguehounds are 56, pull them one at a time.\nThe shattered sword lies on the ground north-west of the lake."] = "Plaguehound yaratıkları ve yavruları şapelin güneybatısındaki gölün kıyılarında dolaşıyor. Plaguebat ve Carrion Grub yaratıkları da aynı yeri paylaşıyor. Dikkat: en büyük Plaguehound'lar 56, tek tek çek.\nKırık kılıç gölün kuzeybatısında yerde yatıyor.",
 
 	-- Step 20: Nathanos Blightcaller
 	-- {npc:15193} The Banshee Queen · {area:2260} Marris Stead · {area:2261} Undercroft · {npc:8564} Ranger
@@ -99,11 +99,11 @@ return {
 	-- Step 21: Eastern Plaguelands: kill these as you meet them
 	-- {area:2260} Marris Stead · {area:2627} Terrordale
 	-- plural, as words: Plaguehound Runts = {npc:8596} Plaguehound Runt · Plaguebats = {npc:8600} Plaguebat · Carrion Grubs = {npc:8603} Carrion Grub
-	["Plaguehound Runts and Plaguebats roam the hills north of the {area:2260}, Carrion Grubs crawl among them; work north toward {area:2627}."] = "Plaguehound Runt ve Plaguebat yaratıkları {area:2260} çiftliğinin kuzeyindeki tepelerde dolaşıyor, aralarında Carrion Grub yaratıkları sürünüyor; kuzeye, {area:2627} yönüne ilerle.",
+	["Plaguehound Runts and Plaguebats roam the hills north of the {area:2260}, Carrion Grubs crawl among them; work north toward {area:2627}."] = "Plaguehound Runt ve Plaguebat yaratıkları {area:2260} çiftliğinin kuzeyindeki tepelerde dolaşıyor, aralarında Carrion Grub yaratıkları sürünüyor, kuzeye, {area:2627} yönüne ilerle.",
 
 	-- Step 22: Egan
 	-- {npc:11140} Egan · {area:2627} Terrordale · {npc:12384} Augustus the Touched
-	["{npc:11140} the ghost stands by a hut in {area:2627}, in the north-west corner; {npc:12384} sits inside the hut."] = "Hayalet {npc:11140}, kuzeybatı köşesinde {area:2627} içindeki bir kulübenin yanında duruyor; {npc:12384} kulübenin içinde oturuyor.",
+	["{npc:11140} the ghost stands by a hut in {area:2627}, in the north-west corner; {npc:12384} sits inside the hut."] = "Hayalet {npc:11140}, kuzeybatı köşesinde {area:2627} içindeki bir kulübenin yanında duruyor, {npc:12384} kulübenin içinde oturuyor.",
 	-- {npc:12384} Augustus the Touched
 	["{npc:12384}, inside"] = "{npc:12384}, içeride",
 
@@ -112,7 +112,7 @@ return {
 	["{area:2627}: kill these as you meet them"] = "{area:2627}: bunları karşılaştıkça öldür",
 	-- {area:2627} Terrordale · {item:15042} Empty Termite Jar
 	-- plural, as words: Large Termite Mounds = {object:177464} Large Termite Mound · Ziggurat Protectors = {npc:12262} Ziggurat Protector
-	["The book lies in the ruined inn of {area:2627}; the undead in the town are 54-56, so pull them one at a time.\nThe Large Termite Mounds stand all over the hills east of {area:2627}. Use the {item:15042} on each mound you pass.\nCareful: Ziggurat Protectors (58, elite) stand by the ziggurats east and north-east of the town: take the mounds nearer the town and stay clear of them."] = "Kitap {area:2627} içindeki yıkık handa yatıyor; kasabadaki undead'ler 54-56, tek tek çek.\nLarge Termite Mound yığınları {area:2627} doğusundaki tepelerin her yerinde duruyor. Geçtiğin her yığında {item:15042} kullan.\nDikkat: Ziggurat Protector yaratıkları (58, elit) kasabanın doğusundaki ve kuzeydoğusundaki zigguratların yanında duruyor: kasabaya yakın yığınları al ve onlardan uzak dur.",
+	["The book lies in the ruined inn of {area:2627}; the undead in the town are 54-56, so pull them one at a time.\nThe Large Termite Mounds stand all over the hills east of {area:2627}. Use the {item:15042} on each mound you pass.\nCareful: Ziggurat Protectors (58, elite) stand by the ziggurats east and north-east of the town: take the mounds nearer the town and stay clear of them."] = "Kitap {area:2627} içindeki yıkık handa yatıyor. Kasabadaki undead'ler 54-56, tek tek çek.\nLarge Termite Mound yığınları {area:2627} doğusundaki tepelerin her yerinde duruyor. Geçtiğin her yığında {item:15042} kullan.\nDikkat: Ziggurat Protector yaratıkları (58, elit) kasabanın doğusundaki ve kuzeydoğusundaki zigguratların yanında duruyor: kasabaya yakın yığınları al ve onlardan uzak dur.",
 	-- {quest:5510} Minion's Scourgestones · {area:2627} Terrordale · {item:12846} Argent Dawn Commission
 	["{quest:5510}: the {area:2627} undead drop them while you wear the {item:12846}"] = "{quest:5510}: {item:12846} takılıyken {area:2627} undead'leri bunları düşürür",
 
@@ -133,7 +133,7 @@ return {
 	["{area:2277}: kill these as you meet them"] = "{area:2277}: bunları karşılaştıkça öldür",
 	-- {area:2272} Northdale · {area:2271} Eastwall Tower · {area:2273} Zul'Mashar
 	-- plural, as words: Frenzied Plaguehounds = {npc:8598} Frenzied Plaguehound · Noxious Plaguebats = {npc:8601} Noxious Plaguebat · Monstrous Plaguebats = {npc:8602} Monstrous Plaguebat
-	["Frenzied Plaguehounds share the fields around {area:2272} and {area:2271}, south of {area:2273}; Noxious Plaguebats fly over the fields of the north, and Monstrous Plaguebats around {area:2272} and {area:2271}. Careful: the hounds are 57-58 and the biggest Monstrous Plaguebats 58: pull them one at a time."] = "Frenzied Plaguehound yaratıkları {area:2273} güneyinde {area:2272} ve {area:2271} çevresindeki tarlaları paylaşıyor; Noxious Plaguebat yaratıkları kuzeyin tarlalarının üstünde, Monstrous Plaguebat yaratıkları da {area:2272} ve {area:2271} çevresinde uçuyor. Dikkat: köpekler 57-58, en büyük Monstrous Plaguebat'lar 58: tek tek çek.",
+	["Frenzied Plaguehounds share the fields around {area:2272} and {area:2271}, south of {area:2273}; Noxious Plaguebats fly over the fields of the north, and Monstrous Plaguebats around {area:2272} and {area:2271}. Careful: the hounds are 57-58 and the biggest Monstrous Plaguebats 58: pull them one at a time."] = "Frenzied Plaguehound yaratıkları {area:2273} güneyinde {area:2272} ve {area:2271} çevresindeki tarlaları paylaşıyor. Noxious Plaguebat yaratıkları kuzeyin tarlalarının üstünde, Monstrous Plaguebat yaratıkları da {area:2272} ve {area:2271} çevresinde uçuyor. Dikkat: köpekler 57-58, en büyük Monstrous Plaguebat'lar 58: tek tek çek.",
 
 	-- Step 27: Eastern Plaguelands: kill these as you meet them
 	-- {area:2622} Pestilent Scar
@@ -175,7 +175,7 @@ return {
 	-- {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {npc:246344} Alodan the Hopeful
 	["{npc:3033} (Druids) trains on {area:1639}, {npc:246344} (Paladins) in the city too."] = "{npc:3033} (Druid'ler) {area:1639} tepesinde eğitim veriyor, {npc:246344} (Paladin'ler) de şehirde.",
 	-- {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {npc:246344} Alodan the Hopeful
-	["{npc:3033} on {area:1639}; {npc:246344}"] = "{area:1639} tepesinde {npc:3033}; {npc:246344}",
+	["{npc:3033} on {area:1639}; {npc:246344}"] = "{area:1639} tepesinde {npc:3033}, {npc:246344}",
 
 	-- Step 35: Fly to Bloodvenom Post
 	-- {zone:1456} Thunder Bluff
@@ -183,7 +183,7 @@ return {
 
 	-- Step 37: Deadwood Cauldron
 	-- {area:1762} Felpaw Village · {area:1769} Timbermaw Hold
-	["Ride north up the road. The cauldron stands in {area:1762}, just south-west of {area:1769}; the Deadwood furbolgs there are hostile."] = "Yol boyunca kuzeye sür. Kazan, {area:1769} girişinin hemen güneybatısındaki {area:1762} içinde duruyor; oradaki Deadwood furbolg'ları düşman.",
+	["Ride north up the road. The cauldron stands in {area:1762}, just south-west of {area:1769}; the Deadwood furbolgs there are hostile."] = "Yol boyunca kuzeye sür. Kazan, {area:1769} girişinin hemen güneybatısındaki {area:1762} içinde duruyor, oradaki Deadwood furbolg'ları düşman.",
 
 	-- Step 38: Kernda
 	-- {quest:8471} Winterfall Ritual Totem · {npc:11558} Kernda · {zone:1448} Felwood · {area:1769} Timbermaw Hold
@@ -210,7 +210,7 @@ return {
 	["Moontouched Owlbeasts"] = "Moontouched Owlbeast yaratıkları",
 	-- {area:2255} Everlook · {area:2241} Frostsaber Rock
 	-- plural, as words: Moontouched Owlbeasts = {npc:7453} Moontouched Owlbeast
-	["Ride east to {area:2255} and north out of it; the Moontouched Owlbeasts roam the hills of {area:2241}'s southern slopes. Careful: they are 57-58: pull them one at a time.\nCareful: Hailspite, level 60 elites, gather in the snowfields south-east of {area:2255}, where a few Moontouched Owlbeasts roam too: stay on the slopes north of town."] = "Doğuya, {area:2255} kasabasına sür ve oradan kuzeye çık; Moontouched Owlbeast yaratıkları {area:2241} güney yamaçlarının tepelerinde dolaşıyor. Dikkat: 57-58'ler: tek tek çek.\nDikkat: 60. seviye elitler olan Hailspite'lar {area:2255} güneydoğusundaki kar tarlalarında toplanıyor, orada birkaç Moontouched Owlbeast da dolaşıyor: kasabanın kuzeyindeki yamaçlarda kal.",
+	["Ride east to {area:2255} and north out of it; the Moontouched Owlbeasts roam the hills of {area:2241}'s southern slopes. Careful: they are 57-58: pull them one at a time.\nCareful: Hailspite, level 60 elites, gather in the snowfields south-east of {area:2255}, where a few Moontouched Owlbeasts roam too: stay on the slopes north of town."] = "Doğuya, {area:2255} kasabasına sür ve oradan kuzeye çık. Moontouched Owlbeast yaratıkları {area:2241} güney yamaçlarının tepelerinde dolaşıyor. Dikkat: 57-58'ler: tek tek çek.\nDikkat: 60. seviye elitler olan Hailspite'lar {area:2255} güneydoğusundaki kar tarlalarında toplanıyor, orada birkaç Moontouched Owlbeast da dolaşıyor: kasabanın kuzeyindeki yamaçlarda kal.",
 
 	-- Step 45: Pristine Yeti Horns
 	-- plural, as words: Pristine Yeti Horns = {item:12367} Pristine Yeti Horn

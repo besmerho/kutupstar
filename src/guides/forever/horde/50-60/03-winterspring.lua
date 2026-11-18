@@ -23,9 +23,9 @@ return {
 	["{area:2246}: kill these as you meet them"] = "{area:2246}: bunları karşılaştıkça öldür",
 	-- {item:14047} Runecloth
 	-- plural, as words: Ragged Owlbeasts = {npc:7450} Ragged Owlbeast
-	["Pathfinders, Den Watchers and Totemics share the furbolg camps around the hot springs; Ragged Owlbeasts roam the slopes between them. Kill Totemics first. Save every {item:14047} you loot for Meilosh.\nCareful: the Den Watchers reach 56: pull one at a time and keep clear of the camps' totems."] = "Pathfinder, Den Watcher ve Totemic'ler sıcak kaynakların çevresindeki furbolg kamplarını paylaşıyor; Ragged Owlbeast yaratıkları aralarındaki yamaçlarda dolaşıyor. Önce Totemic'leri öldür. Lootladığın her {item:14047} eşyasını Meilosh için sakla.\nDikkat: Den Watcher'lar 56'ya kadar çıkar: tek tek çek ve kampların totemlerinden uzak dur.",
+	["Pathfinders, Den Watchers and Totemics share the furbolg camps around the hot springs; Ragged Owlbeasts roam the slopes between them. Kill Totemics first. Save every {item:14047} you loot for Meilosh.\nCareful: the Den Watchers reach 56: pull one at a time and keep clear of the camps' totems."] = "Pathfinder, Den Watcher ve Totemic'ler sıcak kaynakların çevresindeki furbolg kamplarını paylaşıyor. Ragged Owlbeast yaratıkları aralarındaki yamaçlarda dolaşıyor. Önce Totemic'leri öldür. Lootladığın her {item:14047} eşyasını Meilosh için sakla.\nDikkat: Den Watcher'lar 56'ya kadar çıkar: tek tek çek ve kampların totemlerinden uzak dur.",
 	-- {item:12771} Empty Firewater Flask
-	["{item:12771}: about one Winterfall furbolg in ten carries one; keep killing them until it drops"] = "{item:12771}: yaklaşık on Winterfall furbolg'undan biri taşır; düşene dek onları öldürmeye devam et",
+	["{item:12771}: about one Winterfall furbolg in ten carries one; keep killing them until it drops"] = "{item:12771}: yaklaşık on Winterfall furbolg'undan biri taşır. Düşene dek onları öldürmeye devam et",
 	-- {quest:8471} Winterfall Ritual Totem
 	["{quest:8471}, a rare drop from the Winterfall furbolgs"] = "{quest:8471}: Winterfall furbolglarından nadiren düşer",
 
@@ -76,7 +76,7 @@ return {
 
 	-- Step 15: The Videre Elixir
 	-- {npc:7775} Gregan Brewspewer · {area:976} Gadgetzan
-	["Back south to {npc:7775}. Keep the elixir and don't drink it yet: it kills you, and that is how you meet Gaeriyan by {area:976} later."] = "Güneye, {npc:7775} adlı NPC'ye dön. İksiri sakla ve henüz içme: seni öldürür; Gaeriyan ile daha sonra {area:976} yanında böyle karşılaşırsın.",
+	["Back south to {npc:7775}. Keep the elixir and don't drink it yet: it kills you, and that is how you meet Gaeriyan by {area:976} later."] = "Güneye, {npc:7775} adlı NPC'ye dön. İksiri sakla ve henüz içme: seni öldürür, Gaeriyan ile daha sonra {area:976} yanında böyle karşılaşırsın.",
 	-- {item:11243} Videre Elixir · {npc:7775} Gregan Brewspewer
 	["{item:11243}, {npc:7775}'s reward"] = "{item:11243}, {npc:7775} adlı NPC'nin ödülü",
 
@@ -92,7 +92,7 @@ return {
 
 	-- Step 19: Elder Rise
 	-- {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {npc:246344} Alodan the Hopeful
-	["{npc:3033} on {area:1639}; {npc:246344}"] = "{area:1639} tepesinde {npc:3033}; {npc:246344}",
+	["{npc:3033} on {area:1639}; {npc:246344}"] = "{area:1639} tepesinde {npc:3033}, {npc:246344}",
 	-- {quest:1123} Rabine Saturna · {zone:1450} Moonglade
 	["{quest:1123} waits in {zone:1450}: keep it for later."] = "{quest:1123}, {zone:1450} bölgesinde bekliyor: sonrası için sakla.",
 

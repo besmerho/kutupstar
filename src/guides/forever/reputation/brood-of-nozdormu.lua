@@ -5,7 +5,7 @@
 return {
 	-- Guide
 	["Brood of Nozdormu Reputation"] = "Brood of Nozdormu itibarı",
-	["The Bronze Dragonflight's ring, upgraded at every standing; a long climb from Hated, mostly in raids."] = "Bronze Dragonflight'ın her itibarda yükseltilen yüzüğü; Hated'dan uzun bir tırmanış, çoğu raidlerde.",
+	["The Bronze Dragonflight's ring, upgraded at every standing; a long climb from Hated, mostly in raids."] = "Bronze Dragonflight'ın her itibarda yükseltilen yüzüğü. Hated'dan uzun bir tırmanış, çoğu raidlerde.",
 	-- {item:21175} The Scepter of the Shifting Sands
 	["{item:21175} quest chain"] = "{item:21175} görev zinciri",
 
@@ -13,7 +13,7 @@ return {
 	-- {area:3425} Cenarion Hold
 	["Baristolth in {area:3425}"] = "{area:3425} karakolunda Baristolth",
 	-- {faction:910} Brood of Nozdormu · {npc:15192} Anachronos · {npc:15180} Baristolth of the Shifting Sands · {area:3425} Cenarion Hold · {area:2677} Blackwing Lair · {area:16076} Temple of Ahn'Qiraj
-	["The {faction:910} is not in your reputation list until you meet {npc:15192}. {npc:15180}, in the main building of {area:3425}, sends you to him. Meeting him sets you at Hated, 0 of 36,000: Neutral is 42,000 reputation away, and almost all of it comes from raids. {area:2677} and the {area:16076} are not among the first raids Blizzard has announced for Forever: until one of them opens, the 100 from Baristolth's first quest is all the Brood reputation there is. The Legacy perk Diplomat adds up to 10% to every gain; the numbers in this guide are without it."] = "{faction:910}, {npc:15192} ile tanışana kadar itibar listende yok. {area:3425} karakolunun ana binasındaki {npc:15180} seni onun yanına gönderir. Onunla tanışmak seni Hated'a, 36.000'in 0'ına koyar: Neutral 42.000 itibar uzakta ve neredeyse hepsi raidlerden gelir. {area:2677} ve {area:16076}, Blizzard'ın Forever için duyurduğu ilk raidler arasında değil: biri açılana kadar Baristolth'un ilk görevinden gelen 100, Brood itibarının hepsi. Legacy yeteneği Diplomat her kazanca %10'a kadar ekler; bu rehberdeki sayılar onsuz.",
+	["The {faction:910} is not in your reputation list until you meet {npc:15192}. {npc:15180}, in the main building of {area:3425}, sends you to him. Meeting him sets you at Hated, 0 of 36,000: Neutral is 42,000 reputation away, and almost all of it comes from raids. {area:2677} and the {area:16076} are not among the first raids Blizzard has announced for Forever: until one of them opens, the 100 from Baristolth's first quest is all the Brood reputation there is. The Legacy perk Diplomat adds up to 10% to every gain; the numbers in this guide are without it."] = "{faction:910}, {npc:15192} ile tanışana kadar itibar listende yok. {area:3425} karakolunun ana binasındaki {npc:15180} seni onun yanına gönderir. Onunla tanışmak seni Hated'a, 36.000'in 0'ına koyar: Neutral 42.000 itibar uzakta ve neredeyse hepsi raidlerden gelir. {area:2677} ve {area:16076}, Blizzard'ın Forever için duyurduğu ilk raidler arasında değil: biri açılana kadar Baristolth'un ilk görevinden gelen 100, Brood itibarının hepsi. Legacy yeteneği Diplomat her kazanca %10'a kadar ekler, bu rehberdeki sayılar onsuz.",
 
 	-- Step 2: Anachronos at the Caverns of Time
 	-- {npc:15192} Anachronos · {area:2300} Caverns of Time
@@ -67,7 +67,7 @@ return {
 	-- Step 11: The red shard: Vaelastrasz
 	["The red shard: Vaelastrasz"] = "Kırmızı parça: Vaelastrasz",
 	-- {npc:13020} Vaelastrasz the Corrupt · {area:2677} Blackwing Lair · {quest:8730} Nefarius's Corruption · {item:21138} Red Scepter Shard
-	["The red shard: {npc:13020}, the second boss of {area:2677}, gives {quest:8730} before his fight; Nefarian, the last boss, drops the {item:21138} for one raider on the quest each kill. The quest lasts five hours."] = "Kırmızı parça: {area:2677} zindanının ikinci boss'u {npc:13020}, dövüşünden önce {quest:8730} görevini verir; son boss Nefarian her öldürmede görevdeki bir raid üyesine {item:21138} düşürür. Görev beş saat sürer.",
+	["The red shard: {npc:13020}, the second boss of {area:2677}, gives {quest:8730} before his fight; Nefarian, the last boss, drops the {item:21138} for one raider on the quest each kill. The quest lasts five hours."] = "Kırmızı parça: {area:2677} zindanının ikinci boss'u {npc:13020}, dövüşünden önce {quest:8730} görevini verir. Son boss Nefarian her öldürmede görevdeki bir raid üyesine {item:21138} düşürür. Görev beş saat sürer.",
 	-- {npc:13020} Vaelastrasz the Corrupt · {area:2677} Blackwing Lair
 	["{npc:13020}, {area:2677}: raid of 40"] = "{npc:13020}, {area:2677}: 40 kişilik raid",
 	-- {item:21138} Red Scepter Shard
@@ -162,7 +162,7 @@ return {
 	-- Step 27: The Ashenvale portal
 	-- {zone:1440} Ashenvale
 	["The {zone:1440} portal"] = "{zone:1440} portalı",
-	["The four dream portals sit in groves guarded by elite dragonkin of level 60 to 62 that respawn every 30 minutes; each drops the portal's fragment one time in twenty. Raid content."] = "Dört rüya portalı, 30 dakikada bir yeniden doğan seviye 60 ila 62 elit dragonkin'lerin koruduğu korularda duruyor; her biri yirmide bir olasılıkla portalın parçasını düşürür. Raid içeriği.",
+	["The four dream portals sit in groves guarded by elite dragonkin of level 60 to 62 that respawn every 30 minutes; each drops the portal's fragment one time in twenty. Raid content."] = "Dört rüya portalı, 30 dakikada bir yeniden doğan seviye 60 ila 62 elit dragonkin'lerin koruduğu korularda duruyor. Her biri yirmide bir olasılıkla portalın parçasını düşürür. Raid içeriği.",
 
 	-- Step 28: The Duskwood portal
 	-- {zone:1431} Duskwood
@@ -187,7 +187,7 @@ return {
 
 	-- Step 32: The Scepter of the Shifting Sands
 	-- {npc:15192} Anachronos · {object:180717} Scarab Gong · {area:3428} Ahn'Qiraj
-	["With the three shards, {npc:15192} makes the Scepter of the Shifting Sands. In Classic its first holder rings the {object:180717} once for the whole realm, opening the gates of {area:3428}, and those who finish within ten hours earn the black qiraji crystal mount; whether Forever's realms get that event is not known."] = "Üç parçayla {npc:15192}, Scepter of the Shifting Sands'i yapar. Classic'te ilk sahibi bütün realm için {object:180717} gongunu bir kez çalar ve {area:3428} kapılarını açar, on saat içinde bitirenler de kara qiraji kristal bineğini kazanır; Forever realm'lerinde bu olayın olup olmayacağı bilinmiyor.",
+	["With the three shards, {npc:15192} makes the Scepter of the Shifting Sands. In Classic its first holder rings the {object:180717} once for the whole realm, opening the gates of {area:3428}, and those who finish within ten hours earn the black qiraji crystal mount; whether Forever's realms get that event is not known."] = "Üç parçayla {npc:15192}, Scepter of the Shifting Sands'i yapar. Classic'te ilk sahibi bütün realm için {object:180717} gongunu bir kez çalar ve {area:3428} kapılarını açar, on saat içinde bitirenler de kara qiraji kristal bineğini kazanır. Forever realm'lerinde bu olayın olup olmayacağı bilinmiyor.",
 
 	-- Step 33: Scarab Gong
 	-- {object:180717} Scarab Gong · {area:3428} Ahn'Qiraj · {npc:15693} Jonathan the Revelator · {quest:8745} Treasure of the Timeless One
@@ -196,7 +196,7 @@ return {
 	-- Step 34: Neutral to Friendly in the Temple
 	["Neutral to Friendly in the Temple"] = "Temple'da Neutral → Friendly",
 	-- {area:16076} Temple of Ahn'Qiraj · {area:2737} Scarab Wall · {item:21230} Ancient Qiraji Artifact · {npc:15502} Andorgos · {item:21229} Qiraji Lord's Insignia · {npc:15503} Kandrostrasz · {area:3454} Ruins of Ahn'Qiraj
-	["Neutral to Friendly is 3,000 reputation. Every trash mob of the {area:16076} (a 40-player raid behind the {area:2737}) gives 100, and the Twin Emperors 210 each, until 2,999 of 3,000 Neutral, one point short of Friendly; there they stop. Then hand in one saved {item:21230} (1,000, to {npc:15502}) or {item:21229} (500, to {npc:15503}) to tip you over. The shoulder and boot exchanges of the Temple's tier set need no standing: the token, two idols and ten scarabs to {npc:15502} (shoulders) or {npc:15503} (boots) pay 200 each. The {area:3454} (20 players) give a little from bosses: Kurinnaxx, Moam, Buru and Ayamiss 50 each, Rajaxx 34, Ossirian 100, to Exalted."] = "Neutral'dan Friendly'ye 3.000 itibar. {area:16076} zindanının ({area:2737} ardındaki 40 kişilik bir raid) her sıradan yaratığı 100, Twin Emperors da her biri 210 verir; Neutral'ın 3.000'inin 2.999'una, Friendly'ye bir puan kalana kadar; orada dururlar. Sonra seni aşırmak için sakladığın bir {item:21230} (1.000, {npc:15502} yanına) ya da {item:21229} (500, {npc:15503} yanına) teslim et. Temple'ın tier setinin omuzluk ve bot takasları itibar istemez: token, iki idol ve on scarab {npc:15502} (omuzluk) ya da {npc:15503} (bot) yanına her biri 200 öder. {area:3454} (20 oyuncu) boss'lardan biraz verir: Kurinnaxx, Moam, Buru ve Ayamiss her biri 50, Rajaxx 34, Ossirian 100, Exalted'a kadar.",
+	["Neutral to Friendly is 3,000 reputation. Every trash mob of the {area:16076} (a 40-player raid behind the {area:2737}) gives 100, and the Twin Emperors 210 each, until 2,999 of 3,000 Neutral, one point short of Friendly; there they stop. Then hand in one saved {item:21230} (1,000, to {npc:15502}) or {item:21229} (500, to {npc:15503}) to tip you over. The shoulder and boot exchanges of the Temple's tier set need no standing: the token, two idols and ten scarabs to {npc:15502} (shoulders) or {npc:15503} (boots) pay 200 each. The {area:3454} (20 players) give a little from bosses: Kurinnaxx, Moam, Buru and Ayamiss 50 each, Rajaxx 34, Ossirian 100, to Exalted."] = "Neutral'dan Friendly'ye 3.000 itibar. {area:16076} zindanının ({area:2737} ardındaki 40 kişilik bir raid) her sıradan yaratığı 100, Twin Emperors da her biri 210 verir, Neutral'ın 3.000'inin 2.999'una, Friendly'ye bir puan kalana kadar, orada dururlar. Sonra seni aşırmak için sakladığın bir {item:21230} (1.000, {npc:15502} yanına) ya da {item:21229} (500, {npc:15503} yanına) teslim et. Temple'ın tier setinin omuzluk ve bot takasları itibar istemez: token, iki idol ve on scarab {npc:15502} (omuzluk) ya da {npc:15503} (bot) yanına her biri 200 öder. {area:3454} (20 oyuncu) boss'lardan biraz verir: Kurinnaxx, Moam, Buru ve Ayamiss her biri 50, Rajaxx 34, Ossirian 100, Exalted'a kadar.",
 	-- {item:21229} Qiraji Lord's Insignia
 	["{item:21229}, Temple bosses"] = "{item:21229}, Temple boss'ları",
 	-- {npc:15503} Kandrostrasz
@@ -205,7 +205,7 @@ return {
 	-- Step 35: The ring at Friendly
 	["The ring at Friendly"] = "Friendly'de yüzük",
 	-- {npc:15192} Anachronos
-	["At Friendly, {npc:15192} upgrades the ring of the path you chose: The Path of the Protector, Conqueror or Invoker. Bring the ring you wear; 100 reputation."] = "Friendly'de {npc:15192}, seçtiğin yolun yüzüğünü yükseltir: The Path of the Protector, Conqueror ya da Invoker. Taktığın yüzüğü getir; 100 itibar.",
+	["At Friendly, {npc:15192} upgrades the ring of the path you chose: The Path of the Protector, Conqueror or Invoker. Bring the ring you wear; 100 reputation."] = "Friendly'de {npc:15192}, seçtiğin yolun yüzüğünü yükseltir: The Path of the Protector, Conqueror ya da Invoker. Taktığın yüzüğü getir, 100 itibar.",
 	-- {npc:15192} Anachronos
 	["{npc:15192}: the Friendly ring quest of your path"] = "{npc:15192}: yolunun Friendly yüzük görevi",
 
@@ -221,7 +221,7 @@ return {
 	-- Step 37: The ring at Honored
 	["The ring at Honored"] = "Honored'da yüzük",
 	-- {npc:15192} Anachronos
-	["At Honored, {npc:15192} upgrades the ring of the path you chose: The Path of the Protector, Conqueror or Invoker. Bring the ring you wear; 100 reputation."] = "Honored'da {npc:15192}, seçtiğin yolun yüzüğünü yükseltir: The Path of the Protector, Conqueror ya da Invoker. Taktığın yüzüğü getir; 100 itibar.",
+	["At Honored, {npc:15192} upgrades the ring of the path you chose: The Path of the Protector, Conqueror or Invoker. Bring the ring you wear; 100 reputation."] = "Honored'da {npc:15192}, seçtiğin yolun yüzüğünü yükseltir: The Path of the Protector, Conqueror ya da Invoker. Taktığın yüzüğü getir, 100 itibar.",
 	-- {npc:15192} Anachronos
 	["{npc:15192}: the Honored ring quest of your path"] = "{npc:15192}: yolunun Honored yüzük görevi",
 
@@ -239,7 +239,7 @@ return {
 	-- Step 39: The ring at Revered
 	["The ring at Revered"] = "Revered'da yüzük",
 	-- {npc:15192} Anachronos
-	["At Revered, {npc:15192} upgrades the ring of the path you chose: The Path of the Protector, Conqueror or Invoker. Bring the ring you wear; 100 reputation."] = "Revered'da {npc:15192}, seçtiğin yolun yüzüğünü yükseltir: The Path of the Protector, Conqueror ya da Invoker. Taktığın yüzüğü getir; 100 itibar.",
+	["At Revered, {npc:15192} upgrades the ring of the path you chose: The Path of the Protector, Conqueror or Invoker. Bring the ring you wear; 100 reputation."] = "Revered'da {npc:15192}, seçtiğin yolun yüzüğünü yükseltir: The Path of the Protector, Conqueror ya da Invoker. Taktığın yüzüğü getir, 100 itibar.",
 	-- {npc:15192} Anachronos
 	["{npc:15192}: the Revered ring quest of your path"] = "{npc:15192}: yolunun Revered yüzük görevi",
 
@@ -251,7 +251,7 @@ return {
 	-- Step 41: The Exalted ring
 	["The Exalted ring"] = "Exalted yüzük",
 	-- {npc:15192} Anachronos
-	["At Exalted, {npc:15192} gives the last ring of your path: The Protector of Kalimdor, The Qiraji Conqueror or The Grand Invoker. Bring the Revered ring; 100 reputation."] = "Exalted'da {npc:15192}, yolunun son yüzüğünü verir: The Protector of Kalimdor, The Qiraji Conqueror ya da The Grand Invoker. Revered yüzüğünü getir; 100 itibar.",
+	["At Exalted, {npc:15192} gives the last ring of your path: The Protector of Kalimdor, The Qiraji Conqueror or The Grand Invoker. Bring the Revered ring; 100 reputation."] = "Exalted'da {npc:15192}, yolunun son yüzüğünü verir: The Protector of Kalimdor, The Qiraji Conqueror ya da The Grand Invoker. Revered yüzüğünü getir, 100 itibar.",
 	-- {npc:15192} Anachronos
 	["{npc:15192}: the Exalted ring quest of your path"] = "{npc:15192}: yolunun Exalted yüzük görevi",
 }

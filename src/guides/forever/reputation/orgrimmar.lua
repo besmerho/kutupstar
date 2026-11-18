@@ -14,14 +14,14 @@ return {
 	-- {faction:76} Orgrimmar
 	["{faction:76}: how it works"] = "{faction:76}: nasıl işler",
 	-- {faction:76} Orgrimmar · {npc:14726} Rashona Straglash · {quest:7832} Additional Runecloth · {item:14047} Runecloth · {zone:1456} Thunder Bluff · {zone:1458} Undercity · {zone:1411} Durotar · {npc:4949} Thrall · {quest:5726} Hidden Enemies
-	["{faction:76} reputation comes from quests and cloth. {npc:14726}, the cloth quartermaster, stands in the Drag beside the cloth and leather armor shop. She takes four one-time donations of 60 cloth (150 each) and then {quest:7832}, 20 {item:14047} for 50, as often as you like. Every point you earn with {faction:76} also gives a quarter as much to {zone:1456}, the {zone:1458} and the Darkspear Trolls. While you level, do {faction:76}'s quests within 5 levels of them: {zone:1411} at 5 to 12, the Crossroads at 12 to 20, {npc:4949}'s {quest:5726} at 12 to 16. The Legacy perk Diplomat adds up to 10%. Rewards: at Honored Orgrimmar's merchants sell to you for 10% less (the Classic rule), the wolf vendor included; at Exalted other races can buy the wolves: 20 gold for a level 40 wolf, 200 gold for a swift wolf at level 60, once you have mount training. {faction:76} has no tabard or other reward."] = "{faction:76} itibarı görevlerden ve kumaştan gelir. Kumaş quartermaster'ı {npc:14726}, Drag'de kumaş ve deri zırh dükkânının yanında duruyor. 60 kumaşlık dört tek seferlik bağış (her biri 150), sonra da istediğin kadar sık {quest:7832} alır: 50 itibar karşılığında 20 {item:14047}. {faction:76} ile kazandığın her puan, {zone:1456}, {zone:1458} ve Darkspear Trolls itibarına da dörtte biri kadar verir. Seviye atlarken {faction:76} görevlerini 5 seviye yakınındayken yap: 5 ila 12'de {zone:1411}, 12 ila 20'de Crossroads, 12 ila 16'da {npc:4949} ile {quest:5726}. Legacy yeteneği Diplomat %10'a kadar ekler. Ödüller: Honored'da Orgrimmar satıcıları sana %10 daha ucuza satar (Classic kuralı), kurt satıcısı da dahil; Exalted'da diğer ırklar kurt alabilir: binek eğitimin varsa seviye 40 kurt için 20 altın, seviye 60'ta swift kurt için 200 altın. {faction:76} grubunun tabard'ı ya da başka bir ödülü yok.",
+	["{faction:76} reputation comes from quests and cloth. {npc:14726}, the cloth quartermaster, stands in the Drag beside the cloth and leather armor shop. She takes four one-time donations of 60 cloth (150 each) and then {quest:7832}, 20 {item:14047} for 50, as often as you like. Every point you earn with {faction:76} also gives a quarter as much to {zone:1456}, the {zone:1458} and the Darkspear Trolls. While you level, do {faction:76}'s quests within 5 levels of them: {zone:1411} at 5 to 12, the Crossroads at 12 to 20, {npc:4949}'s {quest:5726} at 12 to 16. The Legacy perk Diplomat adds up to 10%. Rewards: at Honored Orgrimmar's merchants sell to you for 10% less (the Classic rule), the wolf vendor included; at Exalted other races can buy the wolves: 20 gold for a level 40 wolf, 200 gold for a swift wolf at level 60, once you have mount training. {faction:76} has no tabard or other reward."] = "{faction:76} itibarı görevlerden ve kumaştan gelir. Kumaş quartermaster'ı {npc:14726}, Drag'de kumaş ve deri zırh dükkânının yanında duruyor. 60 kumaşlık dört tek seferlik bağış (her biri 150), sonra da istediğin kadar sık {quest:7832} alır: 50 itibar karşılığında 20 {item:14047}. {faction:76} ile kazandığın her puan, {zone:1456}, {zone:1458} ve Darkspear Trolls itibarına da dörtte biri kadar verir. Seviye atlarken {faction:76} görevlerini 5 seviye yakınındayken yap: 5 ila 12'de {zone:1411}, 12 ila 20'de Crossroads, 12 ila 16'da {npc:4949} ile {quest:5726}. Legacy yeteneği Diplomat %10'a kadar ekler. Ödüller: Honored'da Orgrimmar satıcıları sana %10 daha ucuza satar (Classic kuralı), kurt satıcısı da dahil. Exalted'da diğer ırklar kurt alabilir: binek eğitimin varsa seviye 40 kurt için 20 altın, seviye 60'ta swift kurt için 200 altın. {faction:76} grubunun tabard'ı ya da başka bir ödülü yok.",
 	["her donations are handed in from her window and never enter the log"] = "bağışları penceresinden teslim edilir, günlüğe hiç girmez",
 
 	-- Step 2: Valley of Trials (optional hub)
 	-- {area:363} Valley of Trials
 	["{area:363} (optional hub)"] = "{area:363} (isteğe bağlı merkez)",
 	-- {area:363} Valley of Trials · {faction:76} Orgrimmar · {npc:3143} Gornek · {npc:10176} Kaltunk
-	["Forever pays these old quests in full at any level. The {area:363} is the best of them: about 1,400 {faction:76} and 1,400 Darkspear reputation in 25 minutes. {npc:3143} waits in the Den, the big hut; {npc:10176} stands outside it."] = "Forever bu eski görevleri her seviyede tam öder. {area:363} en iyisi: 25 dakikada yaklaşık 1.400 {faction:76} ve 1.400 Darkspear itibarı. {npc:3143}, büyük kulübe olan Den'de bekliyor; {npc:10176} kulübenin dışında duruyor.",
+	["Forever pays these old quests in full at any level. The {area:363} is the best of them: about 1,400 {faction:76} and 1,400 Darkspear reputation in 25 minutes. {npc:3143} waits in the Den, the big hut; {npc:10176} stands outside it."] = "Forever bu eski görevleri her seviyede tam öder. {area:363} en iyisi: 25 dakikada yaklaşık 1.400 {faction:76} ve 1.400 Darkspear itibarı. {npc:3143}, büyük kulübe olan Den'de bekliyor, {npc:10176} kulübenin dışında duruyor.",
 	-- {npc:3144} Eitrigg · {faction:76} Orgrimmar · {quest:787} The New Horde
 	["{npc:3144}, in {faction:76}: {quest:787}, +50"] = "{npc:3144}, {faction:76} şehrinde: {quest:787}, +50",
 	-- {npc:5765} Ruzan · {quest:792} Vile Familiars
@@ -43,7 +43,7 @@ return {
 	-- Step 5: North of the Den
 	["North of the Den"] = "Den'in kuzeyi",
 	-- {npc:3287} Hana'zua · {quest:790} Sarkoth · {quest:792} Vile Familiars · {area:365} Burning Blade Coven · {quest:6394} Thazz'ril's Pick
-	["The cactus apples grow beside the cacti north of the Den. {npc:3287} lies wounded by the rocks to the north; {quest:790}, his big scorpid, roams close by. {quest:792} swarm at the mouth of the {area:365}; {quest:6394} lies inside: take the middle tunnel where it splits three ways."] = "Kaktüs elmaları Den'in kuzeyindeki kaktüslerin yanında yetişiyor. {npc:3287}, kuzeydeki kayaların yanında yaralı yatıyor; büyük scorpid'i olan {quest:790} yakınlarda dolaşıyor. {quest:792}, {area:365} ağzında kaynaşıyor; {quest:6394} içeride yatıyor: üçe ayrıldığı yerde ortadaki tünele gir.",
+	["The cactus apples grow beside the cacti north of the Den. {npc:3287} lies wounded by the rocks to the north; {quest:790}, his big scorpid, roams close by. {quest:792} swarm at the mouth of the {area:365}; {quest:6394} lies inside: take the middle tunnel where it splits three ways."] = "Kaktüs elmaları Den'in kuzeyindeki kaktüslerin yanında yetişiyor. {npc:3287}, kuzeydeki kayaların yanında yaralı yatıyor. Büyük scorpid'i olan {quest:790} yakınlarda dolaşıyor. {quest:792}, {area:365} ağzında kaynaşıyor. {quest:6394} içeride yatıyor: üçe ayrıldığı yerde ortadaki tünele gir.",
 	-- {quest:6394} Thazz'ril's Pick
 	["{quest:6394}, in the cave"] = "{quest:6394}, mağarada",
 
@@ -53,7 +53,7 @@ return {
 
 	-- Step 7: Burning Blade Coven
 	-- {npc:3183} Yarrog Baneshadow
-	["Go back into the cave and keep to the right-hand wall all the way, over a small stream, to {npc:3183} on a ledge above a pool."] = "Mağaraya geri dön ve küçük bir dereyi geçerek sağ duvarı sonuna kadar takip et; bir havuzun üstündeki çıkıntıda {npc:3183} var.",
+	["Go back into the cave and keep to the right-hand wall all the way, over a small stream, to {npc:3183} on a ledge above a pool."] = "Mağaraya geri dön ve küçük bir dereyi geçerek sağ duvarı sonuna kadar takip et. Bir havuzun üstündeki çıkıntıda {npc:3183} var.",
 	-- {quest:794} Burning Blade Medallion · {npc:3183} Yarrog Baneshadow
 	["{quest:794}, from {npc:3183}"] = "{quest:794}, kaynak: {npc:3183}",
 	-- {npc:3145} Zureetha Fargaze
@@ -74,7 +74,7 @@ return {
 	["The {area:368}"] = "{area:368}",
 	-- {area:368} Echo Isles · {quest:826} Zalazane
 	-- plural, as words: Durotar Tigers = {npc:3121} Durotar Tiger
-	["Swim to the largest of the {area:368}, south-east of the village. {quest:826}, the idols and the skulls at the circle of power are all there; the Durotar Tigers prowl the smaller islands."] = "Köyün güneydoğusundaki {area:368} adalarının en büyüğüne yüz. {quest:826}, idoller ve güç çemberindeki kafatasları hepsi orada; Durotar Tiger'lar küçük adalarda dolaşıyor.",
+	["Swim to the largest of the {area:368}, south-east of the village. {quest:826}, the idols and the skulls at the circle of power are all there; the Durotar Tigers prowl the smaller islands."] = "Köyün güneydoğusundaki {area:368} adalarının en büyüğüne yüz. {quest:826}, idoller ve güç çemberindeki kafatasları hepsi orada. Durotar Tiger'lar küçük adalarda dolaşıyor.",
 	-- {quest:808} Minshina's Skull · {object:3237} Imprisoned Darkspear
 	["{quest:808}: click an {object:3237} skull"] = "{quest:808}: bir {object:3237} kafatasına tıkla",
 
@@ -132,13 +132,13 @@ return {
 
 	-- Step 20: Tiragarde Keep
 	-- {area:362} Razor Hill · {npc:3192} Lieutenant Benedict · {object:3239} Benedict's Chest · {item:4881} Aged Envelope · {quest:830} The Admiral's Orders · {item:4870} Canvas Scraps · {item:275713} Raider's Bow
-	["The keep is south of {area:362} on the coast. {npc:3192} is in the keep's only building; his key opens {object:3239} on the roof, and the {item:4881} inside starts {quest:830}. The sailors and marines drop the {item:4870}; the {item:275713}, Battleaxe and Shield lie outside the keep."] = "Kale, kıyıda {area:362} güneyinde. {npc:3192}, kalenin tek binasında; anahtarı çatıdaki {object:3239} sandığını açar, içindeki {item:4881} de {quest:830} görevini başlatır. Denizciler ve deniz piyadeleri {item:4870} düşürür; {item:275713}, Battleaxe ve Shield kalenin dışında yatıyor.",
+	["The keep is south of {area:362} on the coast. {npc:3192} is in the keep's only building; his key opens {object:3239} on the roof, and the {item:4881} inside starts {quest:830}. The sailors and marines drop the {item:4870}; the {item:275713}, Battleaxe and Shield lie outside the keep."] = "Kale, kıyıda {area:362} güneyinde. {npc:3192}, kalenin tek binasında. Anahtarı çatıdaki {object:3239} sandığını açar, içindeki {item:4881} de {quest:830} görevini başlatır. Denizciler ve deniz piyadeleri {item:4870} düşürür. {item:275713}, Battleaxe ve Shield kalenin dışında yatıyor.",
 
 	-- Step 21: Razormane Grounds and the Echo Isles
 	-- {area:816} Razormane Grounds · {area:368} Echo Isles
 	["{area:816} and the {area:368}"] = "{area:816} ve {area:368}",
 	-- {area:362} Razor Hill · {area:368} Echo Isles · {object:3240} Taillasher Eggs
-	["The Razormane camps are south-west and west of {area:362}; the Prickly Pear cacti grow among them. Then head to the {area:368} for the {object:3240}: each nest gives an egg every time."] = "Razormane kampları {area:362} güneybatısında ve batısında; Prickly Pear kaktüsleri aralarında yetişiyor. Sonra {object:3240} için {area:368} adalarına git: her yuva her seferinde bir yumurta verir.",
+	["The Razormane camps are south-west and west of {area:362}; the Prickly Pear cacti grow among them. Then head to the {area:368} for the {object:3240}: each nest gives an egg every time."] = "Razormane kampları {area:362} güneybatısında ve batısında. Prickly Pear kaktüsleri aralarında yetişiyor. Sonra {object:3240} için {area:368} adalarına git: her yuva her seferinde bir yumurta verir.",
 
 	-- Step 22: Razor Hill: hand in
 	-- {area:362} Razor Hill
@@ -186,7 +186,7 @@ return {
 	-- {faction:76} Orgrimmar · {npc:3216} Neeru Fireblade · {npc:3230} Nazgrel
 	["{faction:76}: {npc:3216} and {npc:3230}"] = "{faction:76}: {npc:3216} ve {npc:3230}",
 	-- {quest:829} Neeru Fireblade · {object:172960} Cleft of Shadow · {npc:3230} Nazgrel · {npc:4949} Thrall
-	["{quest:829} is in the {object:172960}; {npc:3230} in Grommash Hold beside {npc:4949}."] = "{quest:829}, {object:172960} içinde; {npc:3230}, Grommash Hold'da {npc:4949} yanında.",
+	["{quest:829} is in the {object:172960}; {npc:3230} in Grommash Hold beside {npc:4949}."] = "{quest:829}, {object:172960} içinde, {npc:3230}, Grommash Hold'da {npc:4949} yanında.",
 
 	-- Step 31: Far Watch Post
 	-- {faction:76} Orgrimmar · {zone:1413} Barrens · {npc:3337} Kargal Battlescar · {quest:809} Ak'Zeloth · {area:379} Far Watch Post
@@ -203,7 +203,7 @@ return {
 	-- Step 34: Around the Crossroads
 	["Around the Crossroads"] = "Crossroads çevresinde",
 	-- {npc:267307} Chol'aruk · {area:1699} Thorn Hill · {npc:10668} Beaten Corpse · {area:378} Camp Taurajo
-	["The Razormane camps and the supply crates are north-east of the town; {npc:267307}, an elite boar, sits deep in the {area:1699} cave there. The Witchwing harpies nest far to the north-west. The {npc:10668} lies north-east of {area:378}, in the south: right-click it. Raptors and plainstriders are everywhere."] = "Razormane kampları ve erzak sandıkları kasabanın kuzeydoğusunda; elit bir domuz olan {npc:267307}, oradaki {area:1699} mağarasının derinlerinde duruyor. Witchwing harpy'leri çok kuzeybatıda yuva yapıyor. {npc:10668}, güneyde {area:378} kuzeydoğusunda yatıyor: sağ tıkla. Raptor ve plainstrider'lar her yerde.",
+	["The Razormane camps and the supply crates are north-east of the town; {npc:267307}, an elite boar, sits deep in the {area:1699} cave there. The Witchwing harpies nest far to the north-west. The {npc:10668} lies north-east of {area:378}, in the south: right-click it. Raptors and plainstriders are everywhere."] = "Razormane kampları ve erzak sandıkları kasabanın kuzeydoğusunda. Elit bir domuz olan {npc:267307}, oradaki {area:1699} mağarasının derinlerinde duruyor. Witchwing harpy'leri çok kuzeybatıda yuva yapıyor. {npc:10668}, güneyde {area:378} kuzeydoğusunda yatıyor: sağ tıkla. Raptor ve plainstrider'lar her yerde.",
 	-- {npc:10668} Beaten Corpse
 	["{npc:10668}: right-click it"] = "{npc:10668}: sağ tıkla",
 
@@ -233,14 +233,14 @@ return {
 	-- {quest:819} Chen's Empty Keg
 	["{quest:819} (optional hub)"] = "{quest:819} (isteğe bağlı merkez)",
 	-- {quest:819} Chen's Empty Keg · {zone:1413} Barrens · {npc:3292} Brewmaster Drohn · {area:392} Ratchet · {faction:76} Orgrimmar
-	["Forever pays it in full at any level. {quest:819} lies on the ground at one of several spots in the central and northern {zone:1413}, most of them by the roads around the Crossroads; once someone takes it, it turns up at another. {npc:3292} in {area:392} pays 250 {faction:76} reputation for the keg and its first filling, then 50 for every filling after, as often as you like."] = "Forever bunu her seviyede tam öder. {quest:819}, {zone:1413} bölgesinin orta ve kuzey kesiminde, çoğu Crossroads çevresindeki yollar boyunca olan birkaç noktadan birinde yerde yatıyor; biri onu alınca başka birinde belirir. {area:392} limanındaki {npc:3292}, fıçı ve ilk doldurması için 250 {faction:76} itibarı, sonraki her doldurma için 50 öder, istediğin kadar sık.",
+	["Forever pays it in full at any level. {quest:819} lies on the ground at one of several spots in the central and northern {zone:1413}, most of them by the roads around the Crossroads; once someone takes it, it turns up at another. {npc:3292} in {area:392} pays 250 {faction:76} reputation for the keg and its first filling, then 50 for every filling after, as often as you like."] = "Forever bunu her seviyede tam öder. {quest:819}, {zone:1413} bölgesinin orta ve kuzey kesiminde, çoğu Crossroads çevresindeki yollar boyunca olan birkaç noktadan birinde yerde yatıyor. Biri onu alınca başka birinde belirir. {area:392} limanındaki {npc:3292}, fıçı ve ilk doldurması için 250 {faction:76} itibarı, sonraki her doldurma için 50 öder, istediğin kadar sık.",
 	-- {quest:819} Chen's Empty Keg
 	["{quest:819}: look for it by the roads"] = "{quest:819}: yolların yanında ara",
 
 	-- Step 41: Lions, plainstriders and a thunder lizard
 	["Lions, plainstriders and a thunder lizard"] = "Aslanlar, plainstrider'lar ve bir thunder lizard",
 	-- {zone:1413} Barrens
-	["Savannah lions, plainstriders and thunder lizards roam the whole northern {zone:1413}. The lions drop a tusk about every other kill, the plainstriders a kidney about two kills in five; any thunder lizard may drop the horn, about one in five."] = "Savannah aslanları, plainstrider'lar ve thunder lizard'lar {zone:1413} bölgesinin bütün kuzeyinde dolaşıyor. Aslanlar yaklaşık iki öldürmede bir diş, plainstrider'lar yaklaşık beş öldürmede iki böbrek düşürür; herhangi bir thunder lizard yaklaşık beşte bir boynuzu düşürebilir.",
+	["Savannah lions, plainstriders and thunder lizards roam the whole northern {zone:1413}. The lions drop a tusk about every other kill, the plainstriders a kidney about two kills in five; any thunder lizard may drop the horn, about one in five."] = "Savannah aslanları, plainstrider'lar ve thunder lizard'lar {zone:1413} bölgesinin bütün kuzeyinde dolaşıyor. Aslanlar yaklaşık iki öldürmede bir diş, plainstrider'lar yaklaşık beş öldürmede iki böbrek düşürür. Herhangi bir thunder lizard yaklaşık beşte bir boynuzu düşürebilir.",
 
 	-- Step 42: Ratchet: the repeatable keg
 	-- {area:392} Ratchet
@@ -283,7 +283,7 @@ return {
 
 	-- Step 47: Bloodvenom Post: Wild Guardians
 	-- {npc:10306} Trull Failbane · {area:1997} Bloodvenom Post · {zone:1452} Winterspring · {zone:1448} Felwood
-	["These quests are level 56 to 59, so they pay in full at 60. {npc:10306} stands at {area:1997}; the owlbeasts live in {zone:1452}, through the Timbermaw tunnel north of {zone:1448}."] = "Bu görevler seviye 56 ila 59, bu yüzden 60'ta tam öder. {npc:10306}, {area:1997} kesiminde duruyor; owlbeast'ler {zone:1448} kuzeyindeki Timbermaw tünelinden geçince {zone:1452} bölgesinde yaşıyor.",
+	["These quests are level 56 to 59, so they pay in full at 60. {npc:10306} stands at {area:1997}; the owlbeasts live in {zone:1452}, through the Timbermaw tunnel north of {zone:1448}."] = "Bu görevler seviye 56 ila 59, bu yüzden 60'ta tam öder. {npc:10306}, {area:1997} kesiminde duruyor. Owlbeast'ler {zone:1448} kuzeyindeki Timbermaw tünelinden geçince {zone:1452} bölgesinde yaşıyor.",
 
 	-- Step 48: Winterspring: owlbeasts
 	-- {zone:1452} Winterspring
@@ -349,7 +349,7 @@ return {
 	-- Step 57: Blackrock Mountain, with a group
 	["Blackrock Mountain, with a group"] = "Blackrock Mountain, bir grupla",
 	-- {area:340} Kargath · {zone:1418} Badlands · {faction:76} Orgrimmar · {area:1584} Blackrock Depths · {area:1583} Blackrock Spire · {quest:4724} The Pack Mistress · {item:12652} Bijou's Reconnaissance Report · {quest:4903} Warlord's Command · {npc:3144} Eitrigg
-	["{area:340} in the {zone:1418} hands out {faction:76} quests for {area:1584} and {area:1583}, all level 58 to 60 and paid in full: Precarious Predicament and Operation: Death to Angerforge (150 each), {quest:4724} and {item:12652} (100 each), {quest:4903} (150), {npc:3144}'s Wisdom (100) and For The Horde! (Rend's head, 200 to every Horde city). These are dungeon quests: take them when your group goes."] = "{zone:1418} bölgesindeki {area:340} kasabası {area:1584} ve {area:1583} için {faction:76} görevleri verir; hepsi seviye 58 ila 60 ve tam öder: Precarious Predicament ve Operation: Death to Angerforge (her biri 150), {quest:4724} ve {item:12652} (her biri 100), {quest:4903} (150), {npc:3144}'s Wisdom (100) ve For The Horde! (Rend'in kafası, her Horde şehrine 200). Bunlar zindan görevleri: grubun gittiğinde al.",
+	["{area:340} in the {zone:1418} hands out {faction:76} quests for {area:1584} and {area:1583}, all level 58 to 60 and paid in full: Precarious Predicament and Operation: Death to Angerforge (150 each), {quest:4724} and {item:12652} (100 each), {quest:4903} (150), {npc:3144}'s Wisdom (100) and For The Horde! (Rend's head, 200 to every Horde city). These are dungeon quests: take them when your group goes."] = "{zone:1418} bölgesindeki {area:340} kasabası {area:1584} ve {area:1583} için {faction:76} görevleri verir. Hepsi seviye 58 ila 60 ve tam öder: Precarious Predicament ve Operation: Death to Angerforge (her biri 150), {quest:4724} ve {item:12652} (her biri 100), {quest:4903} (150), {npc:3144}'s Wisdom (100) ve For The Horde! (Rend'in kafası, her Horde şehrine 200). Bunlar zindan görevleri: grubun gittiğinde al.",
 	-- {npc:9077} Warlord Goretooth · {quest:4903} Warlord's Command
 	["{npc:9077}: {quest:4903}, +150, a group of five"] = "{npc:9077}: {quest:4903}, +150, beş kişilik grup",
 	-- {npc:9081} Galamav the Marksman · {quest:4724} The Pack Mistress
@@ -359,7 +359,7 @@ return {
 	-- {quest:7832} Additional Runecloth
 	["{quest:7832} to Honored"] = "{quest:7832}: Honored olana kadar",
 	-- {quest:7832} Additional Runecloth · {item:14047} Runecloth
-	["{quest:7832}: 20 {item:14047} for 50 reputation, as often as you like. Friendly to Honored is 6,000: 120 hand-ins, 2,400 {item:14047}, less what the quests gave you (an orc starts at Friendly 1,000: 100 hand-ins; an Undead or Skyborne starts at Neutral 2,000 and first needs 20 hand-ins, 400 {item:14047}, to reach Friendly). Hand in every 20 you carry, one after another."] = "{quest:7832}: 50 itibar karşılığında 20 {item:14047}, istediğin kadar sık. Friendly'den Honored'a 6.000: 120 teslim, 2.400 {item:14047}, eksi görevlerin verdiği (bir orc Friendly 1.000'de başlar: 100 teslim; bir Undead ya da Skyborne Neutral 2.000'de başlar ve Friendly'ye ulaşmak için önce 20 teslim, 400 {item:14047} ister). Taşıdığın her 20'yi peş peşe teslim et.",
+	["{quest:7832}: 20 {item:14047} for 50 reputation, as often as you like. Friendly to Honored is 6,000: 120 hand-ins, 2,400 {item:14047}, less what the quests gave you (an orc starts at Friendly 1,000: 100 hand-ins; an Undead or Skyborne starts at Neutral 2,000 and first needs 20 hand-ins, 400 {item:14047}, to reach Friendly). Hand in every 20 you carry, one after another."] = "{quest:7832}: 50 itibar karşılığında 20 {item:14047}, istediğin kadar sık. Friendly'den Honored'a 6.000: 120 teslim, 2.400 {item:14047}, eksi görevlerin verdiği (bir orc Friendly 1.000'de başlar: 100 teslim, bir Undead ya da Skyborne Neutral 2.000'de başlar ve Friendly'ye ulaşmak için önce 20 teslim, 400 {item:14047} ister). Taşıdığın her 20'yi peş peşe teslim et.",
 
 	-- Step 59: Additional Runecloth to Revered
 	-- {quest:7832} Additional Runecloth
@@ -371,7 +371,7 @@ return {
 	-- {quest:7832} Additional Runecloth
 	["{quest:7832} to Exalted"] = "{quest:7832}: Exalted olana kadar",
 	-- {item:14047} Runecloth · {faction:76} Orgrimmar · {npc:3362} Ogunaro Wolfrunner · {object:172958} Valley of Honor
-	["Revered to Exalted is 21,000: 420 hand-ins, 8,400 {item:14047}. Raid heads pay too: The Lord of Blackrock (Nefarian) 200 to every Horde city and Victory for the Horde (Onyxia) 400 to {faction:76}. At Exalted, {npc:3362} in the {object:172958} sells the wolves to every Horde race: 20 gold for a level 40 wolf, 200 gold for a swift wolf at level 60 (Forever's prices); in Classic other races needed Exalted to buy them."] = "Revered'dan Exalted'a 21.000: 420 teslim, 8.400 {item:14047}. Raid kafaları da öder: The Lord of Blackrock (Nefarian) her Horde şehrine 200, Victory for the Horde (Onyxia) da {faction:76} için 400. Exalted'da {object:172958} içindeki {npc:3362}, kurtları her Horde ırkına satar: seviye 40 kurt için 20 altın, seviye 60'ta swift kurt için 200 altın (Forever'ın fiyatları); Classic'te diğer ırkların onları alması için Exalted gerekiyordu.",
+	["Revered to Exalted is 21,000: 420 hand-ins, 8,400 {item:14047}. Raid heads pay too: The Lord of Blackrock (Nefarian) 200 to every Horde city and Victory for the Horde (Onyxia) 400 to {faction:76}. At Exalted, {npc:3362} in the {object:172958} sells the wolves to every Horde race: 20 gold for a level 40 wolf, 200 gold for a swift wolf at level 60 (Forever's prices); in Classic other races needed Exalted to buy them."] = "Revered'dan Exalted'a 21.000: 420 teslim, 8.400 {item:14047}. Raid kafaları da öder: The Lord of Blackrock (Nefarian) her Horde şehrine 200, Victory for the Horde (Onyxia) da {faction:76} için 400. Exalted'da {object:172958} içindeki {npc:3362}, kurtları her Horde ırkına satar: seviye 40 kurt için 20 altın, seviye 60'ta swift kurt için 200 altın (Forever'ın fiyatları). Classic'te diğer ırkların onları alması için Exalted gerekiyordu.",
 	-- {npc:3362} Ogunaro Wolfrunner
 	["{npc:3362}: the wolves"] = "{npc:3362}: kurtlar",
 }

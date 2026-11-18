@@ -44,7 +44,7 @@ return {
 	["The {area:2657}: a {quest:93644}"] = "{area:2657}: bir {quest:93644}",
 	-- {quest:93644} Tattered Journal · {zone:2652} Shen'dralas · {area:2657} Valley of Bones
 	-- plural, as words: Outcast Necromancers = {npc:11559} Outcast Necromancer · Magram Necromancers = {npc:253272} Magram Necromancer · Magram Necrokhans = {npc:253274} Magram Necrokhan
-	["New in Forever: if a step is wrong, tell us on Polestar's Discord or GitHub and name the step.\nThe Outcast Necromancers and the Magram Necromancers of the valley drop a {quest:93644} whose writer lives in {zone:2652}: players got it within a few kills. The Magram centaurs leave you be until you attack; the Magram Necrokhans among them (level 45) are elites: leave them be.\nThe Gelkis and Magram centaurs have {area:2657} quest chains of their own, worth about 20,000 to 30,000 more experience, but each chain asks for Honored with its clan. The two clans are rivals, so work for one of them: the Gelkis and Magram Centaur Reputation guide, under Reputation, shows how."] = "Forever'da yeni: bir adım yanlışsa Polestar'ın Discord'unda ya da GitHub'ında adımı belirterek bize bildir.\nVadinin Outcast Necromancer ve Magram Necromancer yaratıkları, yazarı {zone:2652} bölgesinde yaşayan bir {quest:93644} düşürür: oyuncular onu birkaç öldürmede aldı. Magram centaur'ları sen saldırana kadar sana dokunmaz; aralarındaki Magram Necrokhan yaratıkları (45. seviye) elit: onlara dokunma.\nGelkis ve Magram centaur'larının kendi {area:2657} görev zincirleri var, yaklaşık 20.000-30.000 ek deneyim değerinde, ama her zincir kendi klanıyla Honored ister. İki klan rakip, yani birinin için çalış: Reputation altındaki Gelkis and Magram Centaur Reputation rehberi nasıl yapılacağını gösterir.",
+	["New in Forever: if a step is wrong, tell us on Polestar's Discord or GitHub and name the step.\nThe Outcast Necromancers and the Magram Necromancers of the valley drop a {quest:93644} whose writer lives in {zone:2652}: players got it within a few kills. The Magram centaurs leave you be until you attack; the Magram Necrokhans among them (level 45) are elites: leave them be.\nThe Gelkis and Magram centaurs have {area:2657} quest chains of their own, worth about 20,000 to 30,000 more experience, but each chain asks for Honored with its clan. The two clans are rivals, so work for one of them: the Gelkis and Magram Centaur Reputation guide, under Reputation, shows how."] = "Forever'da yeni: bir adım yanlışsa Polestar'ın Discord'unda ya da GitHub'ında adımı belirterek bize bildir.\nVadinin Outcast Necromancer ve Magram Necromancer yaratıkları, yazarı {zone:2652} bölgesinde yaşayan bir {quest:93644} düşürür: oyuncular onu birkaç öldürmede aldı. Magram centaur'ları sen saldırana kadar sana dokunmaz, aralarındaki Magram Necrokhan yaratıkları (45. seviye) elit: onlara dokunma.\nGelkis ve Magram centaur'larının kendi {area:2657} görev zincirleri var, yaklaşık 20.000-30.000 ek deneyim değerinde, ama her zincir kendi klanıyla Honored ister. İki klan rakip, yani birinin için çalış: Reputation altındaki Gelkis and Magram Centaur Reputation rehberi nasıl yapılacağını gösterir.",
 
 	-- Step 7: The western pylon
 	["The western pylon"] = "Batı pylon'u",
@@ -56,7 +56,7 @@ return {
 	-- {area:16677} Bristleback Retreat
 	["{area:16677}: the eastern pylon"] = "{area:16677}: doğu pylon'u",
 	-- {area:16677} Bristleback Retreat · {npc:253527} Kog'thug the Brave
-	["East along the valley road to the quilboar of {area:16677}: the second pylon stands at the eastern end of their camp. A Corpsefeeder (level 45, elite) walks this road: let it pass. The Bristlebacks (levels 42-43) attack on sight; {npc:253527} (level 43, elite) and his bodyguards hold the south side of the camp."] = "Vadi yolu boyunca doğuya, {area:16677} quilboar'larına git: ikinci pylon kamplarının doğu ucunda duruyor. Bu yolda bir Corpsefeeder (45. seviye, elit) yürüyor: geçmesine izin ver. Bristleback'ler (42-43. seviye) görür görmez saldırır; {npc:253527} (43. seviye, elit) ve korumaları kampın güney yakasını tutuyor.",
+	["East along the valley road to the quilboar of {area:16677}: the second pylon stands at the eastern end of their camp. A Corpsefeeder (level 45, elite) walks this road: let it pass. The Bristlebacks (levels 42-43) attack on sight; {npc:253527} (level 43, elite) and his bodyguards hold the south side of the camp."] = "Vadi yolu boyunca doğuya, {area:16677} quilboar'larına git: ikinci pylon kamplarının doğu ucunda duruyor. Bu yolda bir Corpsefeeder (45. seviye, elit) yürüyor: geçmesine izin ver. Bristleback'ler (42-43. seviye) görür görmez saldırır. {npc:253527} (43. seviye, elit) ve korumaları kampın güney yakasını tutuyor.",
 	["the eastern pylon"] = "doğu pylon'u",
 
 	-- Step 9: The temple of Shen'dralas: the third pylon
@@ -75,7 +75,7 @@ return {
 	-- Step 12: Magram Village
 	-- {item:255656} Pylon Fragment
 	-- plural, as words: Magram Guardians = {npc:255560} Magram Guardian
-	["The {item:255656} lies at the western edge of the village; Magram Guardians (levels 39-41) watch over it."] = "{item:255656} köyün batı kenarında yatıyor; Magram Guardian yaratıkları (39-41. seviye) onu gözlüyor.",
+	["The {item:255656} lies at the western edge of the village; Magram Guardians (levels 39-41) watch over it."] = "{item:255656} köyün batı kenarında yatıyor, Magram Guardian yaratıkları (39-41. seviye) onu gözlüyor.",
 
 	-- Step 13: Gelkis Village
 	-- {area:405} Desolace · {area:606} Gelkis Village · {item:255657} Pylon Shard
@@ -136,7 +136,7 @@ return {
 	["The {quest:93341}"] = "{quest:93341}",
 	-- {npc:254674} Woodwyrd · {area:2100} Maraudon
 	-- plural, as words: Rowdy Roses = {npc:254566} Rowdy Rose · Terrible Tulips = {npc:254567} Terrible Tulip · Malevolent Marigolds = {npc:254572} Malevolent Marigold · Nascent Pylon Protectors = {npc:276401} Nascent Pylon Protector
-	["Rowdy Roses and Terrible Tulips grow all over the gardens; the Malevolent Marigolds keep to the northern part. {npc:254674}, the treant in the middle of the gardens, has a request of his own that needs water from {area:2100}, a dungeon: this guide leaves it.\nThe Shen'dralar who wander the gardens are neutral, like the temple's guards: leave them be and pull the flowers away from them. Careful: Nascent Pylon Protectors (elites, 43) wander the zone's middle, the gardens too: keep clear of them."] = "Rowdy Rose ve Terrible Tulip yaratıkları bahçelerin her yerinde büyüyor; Malevolent Marigold yaratıkları kuzey kısımda kalıyor. Bahçelerin ortasındaki treant {npc:254674} adlı NPC'nin bir zindan olan {area:2100} suyu isteyen kendi ricası var: bu rehber onu dışarıda bırakır.\nBahçelerde dolaşan Shen'dralar'lar tapınağın muhafızları gibi tarafsız: onlara dokunma ve çiçekleri onlardan uzağa çek. Dikkat: Nascent Pylon Protector yaratıkları (elit, 43) bölgenin ortasında, bahçelerde de dolaşıyor: onlardan uzak dur.",
+	["Rowdy Roses and Terrible Tulips grow all over the gardens; the Malevolent Marigolds keep to the northern part. {npc:254674}, the treant in the middle of the gardens, has a request of his own that needs water from {area:2100}, a dungeon: this guide leaves it.\nThe Shen'dralar who wander the gardens are neutral, like the temple's guards: leave them be and pull the flowers away from them. Careful: Nascent Pylon Protectors (elites, 43) wander the zone's middle, the gardens too: keep clear of them."] = "Rowdy Rose ve Terrible Tulip yaratıkları bahçelerin her yerinde büyüyor, Malevolent Marigold yaratıkları kuzey kısımda kalıyor. Bahçelerin ortasındaki treant {npc:254674} adlı NPC'nin bir zindan olan {area:2100} suyu isteyen kendi ricası var: bu rehber onu dışarıda bırakır.\nBahçelerde dolaşan Shen'dralar'lar tapınağın muhafızları gibi tarafsız: onlara dokunma ve çiçekleri onlardan uzağa çek. Dikkat: Nascent Pylon Protector yaratıkları (elit, 43) bölgenin ortasında, bahçelerde de dolaşıyor: onlardan uzak dur.",
 
 	-- Step 25: Mithera
 	-- {npc:255486} Historian Biraxas · {npc:254656} Magister Kirandis · {npc:252711} Decrepit Pylon Protector
@@ -149,7 +149,7 @@ return {
 
 	-- Step 27: Historian Biraxas
 	-- {zone:2652} Shen'dralas · {area:2657} Valley of Bones
-	["{zone:2652} is done: ride back north through the {area:2657}; the next step says where your route goes on from there."] = "{zone:2652} bitti: {area:2657} içinden kuzeye dön; sonraki adım rotanın oradan nereye gittiğini söyler.",
+	["{zone:2652} is done: ride back north through the {area:2657}; the next step says where your route goes on from there."] = "{zone:2652} bitti: {area:2657} içinden kuzeye dön, sonraki adım rotanın oradan nereye gittiğini söyler.",
 
 	-- Step 28: Shadowprey Village
 	-- {zone:2652} Shen'dralas · {area:2657} Valley of Bones · {area:405} Desolace · {area:2408} Shadowprey Village · {area:1637} Orgrimmar · {zone:1444} Feralas · {area:1099} Camp Mojache

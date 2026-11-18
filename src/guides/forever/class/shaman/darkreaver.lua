@@ -5,12 +5,12 @@
 return {
 	-- Guide
 	-- {area:2057} Scholomance · {item:20134} Skyfury Helm
-	["A {area:2057} fight at 60 for Horde reputation; the {item:20134} may be gone in Forever."] = "60'ta Horde itibarı için bir {area:2057} dövüşü; {item:20134} Forever'da kalkmış olabilir.",
+	["A {area:2057} fight at 60 for Horde reputation; the {item:20134} may be gone in Forever."] = "60'ta Horde itibarı için bir {area:2057} dövüşü. {item:20134} Forever'da kalkmış olabilir.",
 	["200 Horde reputation"] = "200 Horde itibarı",
 
 	-- Step 1: Sagorne Creststrider
 	-- {npc:13417} Sagorne Creststrider · {object:172957} Valley of Wisdom
-	["At 58 {npc:13417}, the shaman trainer in the {object:172957}, asks for two rare diamonds; every Horde shaman goes to him. Skyborne: Forever's quest page lists this quest for Orcs, Tauren and Trolls only: ask before you buy the diamonds."] = "58'de {object:172957} kesimindeki shaman eğitmeni {npc:13417} iki nadir elmas istiyor; her Horde shaman'ı ona gider. Skyborne: Forever'ın görev sayfası bu görevi yalnızca Orc, Tauren ve Troll'ler için listeliyor: elmasları almadan önce sor.",
+	["At 58 {npc:13417}, the shaman trainer in the {object:172957}, asks for two rare diamonds; every Horde shaman goes to him. Skyborne: Forever's quest page lists this quest for Orcs, Tauren and Trolls only: ask before you buy the diamonds."] = "58'de {object:172957} kesimindeki shaman eğitmeni {npc:13417} iki nadir elmas istiyor. Her Horde shaman'ı ona gider. Skyborne: Forever'ın görev sayfası bu görevi yalnızca Orc, Tauren ve Troll'ler için listeliyor: elmasları almadan önce sor.",
 
 	-- Step 2: Two diamonds
 	["Two diamonds"] = "İki elmas",
@@ -31,5 +31,5 @@ return {
 
 	-- Step 5: Sagorne Creststrider
 	-- {npc:13417} Sagorne Creststrider · {item:20134} Skyfury Helm
-	["{npc:13417}: 200 Horde reputation; the {item:20134} may be gone"] = "{npc:13417}: 200 Horde itibarı; {item:20134} kalkmış olabilir",
+	["{npc:13417}: 200 Horde reputation; the {item:20134} may be gone"] = "{npc:13417}: 200 Horde itibarı, {item:20134} kalkmış olabilir",
 }

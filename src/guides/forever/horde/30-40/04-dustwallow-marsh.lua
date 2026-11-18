@@ -35,7 +35,7 @@ return {
 
 	-- Step 8: Shady Rest Inn
 	-- {area:378} Camp Taurajo · {area:403} Shady Rest Inn
-	["Head east from {area:378} along the road into the marsh. The burned-out {area:403} stands beside it just past the border; the shield, the badge and the hoofprints are in and beside the ruin."] = "{area:378} kampından yol boyunca doğuya, bataklığa git. Yanıp kül olmuş {area:403} hanı sınırı geçer geçmez yolun kenarında; kalkan, rozet ve toynak izleri harabenin içinde ve yanında.",
+	["Head east from {area:378} along the road into the marsh. The burned-out {area:403} stands beside it just past the border; the shield, the badge and the hoofprints are in and beside the ruin."] = "{area:378} kampından yol boyunca doğuya, bataklığa git. Yanıp kül olmuş {area:403} hanı sınırı geçer geçmez yolun kenarında. Kalkan, rozet ve toynak izleri harabenin içinde ve yanında.",
 
 	-- Step 10: Brackenwall Village
 	["Take the road north at the fork to the ogre village of Brackenwall."] = "Ayrımda kuzeye giden yolu tutarak ogre köyü Brackenwall'a git.",
@@ -45,12 +45,12 @@ return {
 	-- Step 11: Stinky Ignatz
 	["Stinky Ignatz"] = "Stinky Ignatz",
 	-- {area:502} Witch Hill
-	["Head north to {area:502}. Stinky stands at the foot of the hill; escort him while he gathers Bogbean Leaves just south of it."] = "Kuzeye, {area:502} tepesine git. Stinky tepenin eteğinde duruyor; tepenin hemen güneyinde Bogbean Leaf toplarken ona eşlik et.",
+	["Head north to {area:502}. Stinky stands at the foot of the hill; escort him while he gathers Bogbean Leaves just south of it."] = "Kuzeye, {area:502} tepesine git. Stinky tepenin eteğinde duruyor. Tepenin hemen güneyinde Bogbean Leaf toplarken ona eşlik et.",
 
 	-- Step 12: Mirefin murlocs
 	["Mirefin murlocs"] = "Mirefin murlocları",
 	-- {area:502} Witch Hill
-	["The Mirefin murlocs crowd the coast east and north-east of {area:502}; every kind drops heads."] = "Mirefin murlocları {area:502} tepesinin doğusundaki ve kuzeydoğusundaki kıyıyı dolduruyor; her türü kafa düşürür.",
+	["The Mirefin murlocs crowd the coast east and north-east of {area:502}; every kind drops heads."] = "Mirefin murlocları {area:502} tepesinin doğusundaki ve kuzeydoğusundaki kıyıyı dolduruyor, her türü kafa düşürür.",
 
 	-- Step 13: Swamp Eye Jarl
 	["Swamp Eye Jarl"] = "Swamp Eye Jarl",
@@ -65,7 +65,7 @@ return {
 	-- {area:496} Brackenwall Village
 	["{area:496}: kill these as you meet them"] = "{area:496}: bunları karşılaştıkça öldür",
 	-- plural, as words: Darkfang Lurkers = {npc:4411} Darkfang Lurker · Theramore Infiltrators = {npc:4834} Theramore Infiltrator · Darkmist Lurkers = {npc:4377} Darkmist Lurker
-	["Head west back across the marsh. The Darkfang Lurkers (36-37) and Venomspitters (37-38) on the ridges north of Brackenwall drop the venom sacs. Theramore Infiltrators (35-36) sneak through the same woods: they are stealthed, so look closely.\nThe Darkmist spiders swarm the cavern mouth north-west of Brackenwall; every kind drops eyes. Work its outer edge, where the Spiders and Recluses (35-37) stand: the Lurkers and Silkspinners (37-39) deeper in are two or three over you.\nCareful: Darkfang Lurkers (level 36-37) use Sneak to stealth while out of combat and cast Poison once fighting.\nCareful: Stealthed spiders in the same area will attack you on sight.\nCareful: Darkmist Lurkers move about stealthed and use poison once in combat. The spiders stand close together, so adds are common; pulling single targets from the outer edge cuts down on them."] = "Bataklığı geçip batıya dön. Brackenwall'un kuzeyindeki sırtlarda Darkfang Lurker (36-37) ve Venomspitter (37-38) yaratıkları zehir keselerini düşürür. Theramore Infiltrator yaratıkları (35-36) aynı ormanda sinsice dolaşıyor: gizliler, dikkatli bak.\nDarkmist örümcekleri Brackenwall'un kuzeybatısındaki mağara ağzını sarmış; her türü göz düşürür. Spider ve Recluse'ların (35-37) durduğu dış kenarında çalış: daha içerideki Lurker ve Silkspinner'lar (37-39) senden iki-üç seviye yüksek.\nDikkat: Darkfang Lurker yaratıkları (36-37. seviye) dövüş dışında Sneak ile gizlenir ve dövüşte Poison kullanır.\nDikkat: aynı bölgedeki gizli örümcekler seni görür görmez saldırır.\nDikkat: Darkmist Lurker yaratıkları gizli dolaşır ve dövüşte zehir kullanır. Örümcekler birbirine yakın durur, yani ek yaratık çekmek sık olur; dış kenardan tek hedef çekmek bunu azaltır.",
+	["Head west back across the marsh. The Darkfang Lurkers (36-37) and Venomspitters (37-38) on the ridges north of Brackenwall drop the venom sacs. Theramore Infiltrators (35-36) sneak through the same woods: they are stealthed, so look closely.\nThe Darkmist spiders swarm the cavern mouth north-west of Brackenwall; every kind drops eyes. Work its outer edge, where the Spiders and Recluses (35-37) stand: the Lurkers and Silkspinners (37-39) deeper in are two or three over you.\nCareful: Darkfang Lurkers (level 36-37) use Sneak to stealth while out of combat and cast Poison once fighting.\nCareful: Stealthed spiders in the same area will attack you on sight.\nCareful: Darkmist Lurkers move about stealthed and use poison once in combat. The spiders stand close together, so adds are common; pulling single targets from the outer edge cuts down on them."] = "Bataklığı geçip batıya dön. Brackenwall'un kuzeyindeki sırtlarda Darkfang Lurker (36-37) ve Venomspitter (37-38) yaratıkları zehir keselerini düşürür. Theramore Infiltrator yaratıkları (35-36) aynı ormanda sinsice dolaşıyor: gizliler, dikkatli bak.\nDarkmist örümcekleri Brackenwall'un kuzeybatısındaki mağara ağzını sarmış, her türü göz düşürür. Spider ve Recluse'ların (35-37) durduğu dış kenarında çalış: daha içerideki Lurker ve Silkspinner'lar (37-39) senden iki-üç seviye yüksek.\nDikkat: Darkfang Lurker yaratıkları (36-37. seviye) dövüş dışında Sneak ile gizlenir ve dövüşte Poison kullanır.\nDikkat: aynı bölgedeki gizli örümcekler seni görür görmez saldırır.\nDikkat: Darkmist Lurker yaratıkları gizli dolaşır ve dövüşte zehir kullanır. Örümcekler birbirine yakın durur, yani ek yaratık çekmek sık olur. Dış kenardan tek hedef çekmek bunu azaltır.",
 	-- plural, as words: Giant Darkfang Spiders = {npc:4415} Giant Darkfang Spider
 	["Every Darkfang spider drops them: Lurkers, Spiders, Venomspitters and the Giant Darkfang Spiders"] = "Her Darkfang örümceği bunları düşürür: Lurker, Spider, Venomspitter ve Giant Darkfang Spider yaratıkları",
 
@@ -78,7 +78,7 @@ return {
 	-- {area:497} Swamplight Manor
 	["On east to the {area:497}."] = "Doğuya, {area:497} yöresine devam et.",
 	-- {object:20985} Loose Dirt · {npc:4791} Nazeer Bloodpike
-	["{object:20985}, now that {npc:4791} has read the report"] = "{object:20985}; {npc:4791} raporu okuduğuna göre",
+	["{object:20985}, now that {npc:4791} has read the report"] = "{object:20985}, {npc:4791} raporu okuduğuna göre",
 	-- {item:3853} Moonsteel Broadsword · {skill:164} Blacksmithing
 	["only if you carry a {item:3853} ({skill:164} or the Auction House)"] = "yalnızca sende bir {item:3853} varsa ({skill:164} ya da Auction House)",
 
@@ -116,7 +116,7 @@ return {
 
 	-- Step 23: The Affray
 	-- {area:392} Ratchet · {area:720} Fray Island · {npc:6236} Klannoc Macleod · {npc:6238} Big Will
-	["Head south along the coast from {area:392} to {area:720}. {npc:6236} stands by the arena: step on the grate to start the fight; the challengers come one at a time, then {npc:6238} (33)."] = "{area:392} kasabasından kıyı boyunca güneye, {area:720} adasına git. {npc:6236} arenanın yanında duruyor: dövüşü başlatmak için ızgaranın üzerine bas; rakipler teker teker gelir, sonra {npc:6238} (33).",
+	["Head south along the coast from {area:392} to {area:720}. {npc:6236} stands by the arena: step on the grate to start the fight; the challengers come one at a time, then {npc:6238} (33)."] = "{area:392} kasabasından kıyı boyunca güneye, {area:720} adasına git. {npc:6236} arenanın yanında duruyor: dövüşü başlatmak için ızgaranın üzerine bas. Rakipler teker teker gelir, sonra {npc:6238} (33).",
 
 	-- Step 24: Ratchet flight master
 	-- {area:392} Ratchet
@@ -140,18 +140,18 @@ return {
 
 	-- Step 27: Ghost Walker Post
 	-- {area:597} Ghost Walker Post · {npc:5412} Gurda Wildmane · {npc:5395} Felgur Twocuts
-	["East along the road to {area:597}; {npc:5412} stands beside {npc:5395}."] = "Yol boyunca doğuya, {area:597} karakoluna git; {npc:5412}, {npc:5395} yanında duruyor.",
+	["East along the road to {area:597}; {npc:5412} stands beside {npc:5395}."] = "Yol boyunca doğuya, {area:597} karakoluna git, {npc:5412}, {npc:5395} yanında duruyor.",
 	-- {npc:5395} Felgur Twocuts · {quest:1366} Centaur Bounty
 	["{npc:5395}: his {quest:1366}, from the same Maraudine as Gurda's totems"] = "{npc:5395}: {quest:1366} görevi, Gurda'nın totemleriyle aynı Maraudine'lerden",
 
 	-- Step 28: Valley of Spears
 	-- {area:607} Valley of Spears · {item:254432} Carved Centaur Totem · {npc:5395} Felgur Twocuts · {quest:1366} Centaur Bounty · {npc:5402} Khan Hratha
 	-- plural, as words: Rock Worms = {npc:11788} Rock Worm
-	["West of the post, the Maraudine centaurs hold the {area:607}; every Maraudine can drop a {item:254432} and an ear for {npc:5395}'s {quest:1366}. Stay with the Scouts and Wranglers (36-38) at the valley's eastern edge; the Maulers and Windchasers (38-39) a little further in are up to two over you at 37: pull them one at a time.\nCareful: {npc:5402} and the Rock Worms (41-42, elite) hold the valley's north-western end with the Khan Guards and Marauders (39-40), and the Magram's village in the south-east has Necromancers (42-43): keep east of the arrow."] = "Karakolun batısında Maraudine centaur'ları {area:607} vadisini tutuyor; her Maraudine bir {item:254432} ve {npc:5395} adlı NPC'nin {quest:1366} görevi için bir kulak düşürebilir. Vadinin doğu kenarındaki Scout ve Wrangler'larla (36-38) kal; biraz daha içerideki Mauler ve Windchaser'lar (38-39) 37'de senden iki seviyeye kadar yüksek: tek tek çek.\nDikkat: {npc:5402} ve Rock Worm yaratıkları (41-42, elit) Khan Guard ve Marauder'larla (39-40) vadinin kuzeybatı ucunu tutuyor, güneydoğudaki Magram köyünde de Necromancer'lar (42-43) var: okun doğusunda kal.",
+	["West of the post, the Maraudine centaurs hold the {area:607}; every Maraudine can drop a {item:254432} and an ear for {npc:5395}'s {quest:1366}. Stay with the Scouts and Wranglers (36-38) at the valley's eastern edge; the Maulers and Windchasers (38-39) a little further in are up to two over you at 37: pull them one at a time.\nCareful: {npc:5402} and the Rock Worms (41-42, elite) hold the valley's north-western end with the Khan Guards and Marauders (39-40), and the Magram's village in the south-east has Necromancers (42-43): keep east of the arrow."] = "Karakolun batısında Maraudine centaur'ları {area:607} vadisini tutuyor. Her Maraudine bir {item:254432} ve {npc:5395} adlı NPC'nin {quest:1366} görevi için bir kulak düşürebilir. Vadinin doğu kenarındaki Scout ve Wrangler'larla (36-38) kal. Biraz daha içerideki Mauler ve Windchaser'lar (38-39) 37'de senden iki seviyeye kadar yüksek: tek tek çek.\nDikkat: {npc:5402} ve Rock Worm yaratıkları (41-42, elit) Khan Guard ve Marauder'larla (39-40) vadinin kuzeybatı ucunu tutuyor, güneydoğudaki Magram köyünde de Necromancer'lar (42-43) var: okun doğusunda kal.",
 
 	-- Step 29: Melizza Brimbuzzle
 	-- {npc:12277} Melizza Brimbuzzle
-	["{npc:12277} is held in the Maraudine camp at the valley's western end; free her and escort her out east of the valley.\nCareful: The scripted groups are linked and only appear during the escort, so you cannot clear them in advance or pull them one at a time. Clearing the normal centaurs on the path before you start does help."] = "{npc:12277}, vadinin batı ucundaki Maraudine kampında tutsak; onu serbest bırak ve vadinin doğusuna kadar eşlik et.\nDikkat: senaryolu gruplar birbirine bağlı ve yalnızca eskort sırasında çıkar, bu yüzden onları önceden temizleyemez ya da tek tek çekemezsin. Başlamadan önce patikadaki normal centaur'ları temizlemek yine de işe yarar.",
+	["{npc:12277} is held in the Maraudine camp at the valley's western end; free her and escort her out east of the valley.\nCareful: The scripted groups are linked and only appear during the escort, so you cannot clear them in advance or pull them one at a time. Clearing the normal centaurs on the path before you start does help."] = "{npc:12277}, vadinin batı ucundaki Maraudine kampında tutsak. Onu serbest bırak ve vadinin doğusuna kadar eşlik et.\nDikkat: senaryolu gruplar birbirine bağlı ve yalnızca eskort sırasında çıkar, bu yüzden onları önceden temizleyemez ya da tek tek çekemezsin. Başlamadan önce patikadaki normal centaur'ları temizlemek yine de işe yarar.",
 
 	-- Step 30: Hornizz Brimbuzzle
 	-- {npc:6019} Hornizz Brimbuzzle · {area:596} Kodo Graveyard
@@ -168,16 +168,16 @@ return {
 	-- Step 33: Sar'theris Strand
 	-- {area:598} Sar'theris Strand
 	-- plural, as words: Slitherblade Myrmidons = {npc:4714} Slitherblade Myrmidon
-	["West from the fortress to the coast at {area:598}: the Slitherblade Myrmidons, Naga and Sorceresses hold the beach. Pull them one at a time; the Sea Witches and Oracles (34-36) cast from range."] = "Kaleden batıya, {area:598} kıyısına git: Slitherblade Myrmidon, Naga ve Sorceress yaratıkları kumsalı tutuyor. Tek tek çek; Sea Witch ve Oracle'lar (34-36) uzaktan büyü yapar.",
+	["West from the fortress to the coast at {area:598}: the Slitherblade Myrmidons, Naga and Sorceresses hold the beach. Pull them one at a time; the Sea Witches and Oracles (34-36) cast from range."] = "Kaleden batıya, {area:598} kıyısına git: Slitherblade Myrmidon, Naga ve Sorceress yaratıkları kumsalı tutuyor. Tek tek çek, Sea Witch ve Oracle'lar (34-36) uzaktan büyü yapar.",
 
 	-- Step 34: Shadowprey Village
 	-- {npc:11624} Taiga Wisemane · {area:602} Mannoroc Coven · {npc:12340} Drulzegar Skraghook
-	["South down the coast to Shadowprey: {npc:11624} takes the box and sends you to {area:602} with it; {npc:12340} takes the naga."] = "Kıyı boyunca güneye, Shadowprey'e in: {npc:11624} kutuyu alır ve seni onunla {area:602} yöresine yollar; {npc:12340} naga'ları teslim alır.",
+	["South down the coast to Shadowprey: {npc:11624} takes the box and sends you to {area:602} with it; {npc:12340} takes the naga."] = "Kıyı boyunca güneye, Shadowprey'e in: {npc:11624} kutuyu alır ve seni onunla {area:602} yöresine yollar, {npc:12340} naga'ları teslim alır.",
 
 	-- Step 35: Portals of the Legion
 	-- {area:602} Mannoroc Coven · {quest:5381} Hand of Iruxos · {npc:11624} Taiga Wisemane · {npc:11937} Demon Portal Guardian
 	-- plural, as words: Burning Blade Summoners = {npc:4668} Burning Blade Summoner
-	["Head east to {area:602}. With the {quest:5381} from {npc:11624} in your bags, open a demon portal's ring: a {npc:11937} (38-39) comes out; kill it to close that portal. Six portals. Careful: Infernals, Doomguards and Burning Blade Summoners walk close by many portals and may join in; kill nearby mobs first or drag the guardian away, for example toward the coven's central lake."] = "Doğuya, {area:602} içine git. {npc:11624} adlı NPC'den aldığın {quest:5381} çantandayken bir iblis portalının halkasını aç: bir {npc:11937} (38-39) çıkar; o portalı kapatmak için onu öldür. Altı portal. Dikkat: Birçok portalın yakınında Infernal, Doomguard ve Burning Blade Summoner yaratıkları dolaşıyor ve dövüşe katılabilir; önce yakındaki yaratıkları öldür ya da muhafızı uzağa, örneğin covenin ortasındaki göle doğru sürükle.",
+	["Head east to {area:602}. With the {quest:5381} from {npc:11624} in your bags, open a demon portal's ring: a {npc:11937} (38-39) comes out; kill it to close that portal. Six portals. Careful: Infernals, Doomguards and Burning Blade Summoners walk close by many portals and may join in; kill nearby mobs first or drag the guardian away, for example toward the coven's central lake."] = "Doğuya, {area:602} içine git. {npc:11624} adlı NPC'den aldığın {quest:5381} çantandayken bir iblis portalının halkasını aç: bir {npc:11937} (38-39) çıkar. O portalı kapatmak için onu öldür. Altı portal. Dikkat: Birçok portalın yakınında Infernal, Doomguard ve Burning Blade Summoner yaratıkları dolaşıyor ve dövüşe katılabilir. Önce yakındaki yaratıkları öldür ya da muhafızı uzağa, örneğin covenin ortasındaki göle doğru sürükle.",
 
 	-- Step 36: The Valley of Bones
 	-- {area:2657} Valley of Bones
@@ -196,7 +196,7 @@ return {
 
 	-- Step 39: Thunder Bluff
 	-- {area:2408} Shadowprey Village · {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {zone:1454} Orgrimmar
-	["Fly from {area:2408} to {area:1638} and train with {npc:3033} on {area:1639}; fly on to {zone:1454} from there."] = "{area:2408} köyünden {area:1638} şehrine uç ve {area:1639} tepesinde {npc:3033} ile eğitimini al; oradan {zone:1454} şehrine uç.",
+	["Fly from {area:2408} to {area:1638} and train with {npc:3033} on {area:1639}; fly on to {zone:1454} from there."] = "{area:2408} köyünden {area:1638} şehrine uç ve {area:1639} tepesinde {npc:3033} ile eğitimini al, oradan {zone:1454} şehrine uç.",
 
 	-- Step 40: Fly to Orgrimmar
 	-- {area:1637} Orgrimmar
@@ -222,7 +222,7 @@ return {
 	-- {zone:1454} Orgrimmar
 	["{zone:1454} trainers"] = "{zone:1454} eğitmenleri",
 	-- {zone:1458} Undercity
-	["Train while you are in the city; everyone else trains in the {zone:1458}, next."] = "Şehirdeyken eğitimini al; diğer herkes sıradaki {zone:1458} şehrinde eğitim alır.",
+	["Train while you are in the city; everyone else trains in the {zone:1458}, next."] = "Şehirdeyken eğitimini al, diğer herkes sıradaki {zone:1458} şehrinde eğitim alır.",
 	-- {zone:1458} Undercity
 	["The next guide takes the {zone:1458} zeppelin from the tower outside the main gate."] = "Sonraki rehber, ana kapının dışındaki kuleden {zone:1458} zeplinine biner.",
 }

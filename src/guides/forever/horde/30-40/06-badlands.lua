@@ -7,7 +7,7 @@ return {
 	-- {zone:1418} Badlands
 	["Into the {zone:1418}"] = "{zone:1418} bölgesine",
 	-- {object:2673} Thandol Span · {zone:1437} Wetlands · {object:1668} Dun Algaz (no name in this language: may be words) · {zone:1432} Loch Modan · {area:144} Thelsamar · {zone:1418} Badlands · {area:1877} Valley of Fangs
-	["Head for the {object:2673}, the great bridge at Arathi's southern edge, cross it and follow the road south through the {zone:1437} to the {object:1668} tunnel into {zone:1432}. {area:144}, the dwarf town on the road in the middle of {zone:1432}, has guards who attack the Horde: leave the road before it and pass the town on the hills to its west. The road leaves {zone:1432} to the south into the {zone:1418}; follow it to the goblin camp in the {area:1877}."] = "Arathi'nin güney kenarındaki büyük köprü {object:2673} yönüne git, onu geç ve yolu güneye, {zone:1437} içinden {zone:1432} bölgesine açılan {object:1668} tüneline kadar izle. {zone:1432} ortasında yolun üzerindeki cüce kasabası {area:144} Horde'a saldıran muhafızlara sahip: ondan önce yoldan ayrıl ve kasabayı batısındaki tepelerden geç. Yol {zone:1432} bölgesinden güneye, {zone:1418} içine çıkar; onu {area:1877} vadisindeki goblin kampına kadar izle.",
+	["Head for the {object:2673}, the great bridge at Arathi's southern edge, cross it and follow the road south through the {zone:1437} to the {object:1668} tunnel into {zone:1432}. {area:144}, the dwarf town on the road in the middle of {zone:1432}, has guards who attack the Horde: leave the road before it and pass the town on the hills to its west. The road leaves {zone:1432} to the south into the {zone:1418}; follow it to the goblin camp in the {area:1877}."] = "Arathi'nin güney kenarındaki büyük köprü {object:2673} yönüne git, onu geç ve yolu güneye, {zone:1437} içinden {zone:1432} bölgesine açılan {object:1668} tüneline kadar izle. {zone:1432} ortasında yolun üzerindeki cüce kasabası {area:144} Horde'a saldıran muhafızlara sahip: ondan önce yoldan ayrıl ve kasabayı batısındaki tepelerden geç. Yol {zone:1432} bölgesinden güneye, {zone:1418} içine çıkar. Onu {area:1877} vadisindeki goblin kampına kadar izle.",
 
 	-- Step 2: Valley of Fangs
 	-- {quest:1106} Martek the Exiled · {area:439} Shimmering Flats
@@ -15,7 +15,7 @@ return {
 
 	-- Step 3: The Dustbowl
 	-- {area:340} Kargath · {npc:2921} Lotwil Veriatus · {area:1878} The Dustbowl
-	["Head west along the road towards {area:340}; {npc:2921}'s camp sits in the {area:1878} halfway there."] = "Yol boyunca batıya, {area:340} yönüne git; {npc:2921} adlı NPC'nin kampı yolun yarısında, {area:1878} kesiminde.",
+	["Head west along the road towards {area:340}; {npc:2921}'s camp sits in the {area:1878} halfway there."] = "Yol boyunca batıya, {area:340} yönüne git. {npc:2921} adlı NPC'nin kampı yolun yarısında, {area:1878} kesiminde.",
 
 	-- Step 4: Kargath
 	-- {area:340} Kargath · {quest:1418} Neeka Bloodscar
@@ -37,14 +37,14 @@ return {
 	["{zone:1418}: kill these as you meet them"] = "{zone:1418}: bunları karşılaştıkça öldür",
 	-- {area:1878} The Dustbowl · {zone:1418} Badlands · {npc:2817} Rigglefuzz
 	-- plural, as words: Elder Crag Coyotes = {npc:2729} Elder Crag Coyote · Giant Buzzards = {npc:2831} Giant Buzzard · Malevolent Mirages = {npc:269756} Malevolent Mirage
-	["The Elder Crag Coyotes and Giant Buzzards roam the basin south of the {area:1878}. Coyotes drop both the jawbones and the fangs; the Giant Buzzards drop the gizzards. Careful: Malevolent Mirages (42, elite) drift across the {zone:1418}: give them a wide berth.\nCareful: the Giant Buzzards are 39-41, and the 41s are two over you at 39: pick the 39s and 40s and pull them one at a time. The Buzzards (37) you kill later for {npc:2817}'s wings drop gizzards too, more rarely."] = "Elder Crag Coyote ve Giant Buzzard yaratıkları {area:1878} yöresinin güneyindeki havzada dolaşıyor. Coyote'lar hem çene kemiklerini hem dişleri düşürür; Giant Buzzard'lar taşlıkları düşürür. Dikkat: Malevolent Mirage yaratıkları (42, elit) {zone:1418} boyunca süzülüyor: onlardan geniş bir mesafe bırak.\nDikkat: Giant Buzzard'lar 39-41, 41'ler de 39'da senden iki seviye yüksek: 39 ve 40'ları seç ve tek tek çek. Daha sonra {npc:2817} adlı NPC'nin kanatları için öldürdüğün Buzzard'lar (37) da daha seyrek olarak taşlık düşürür.",
+	["The Elder Crag Coyotes and Giant Buzzards roam the basin south of the {area:1878}. Coyotes drop both the jawbones and the fangs; the Giant Buzzards drop the gizzards. Careful: Malevolent Mirages (42, elite) drift across the {zone:1418}: give them a wide berth.\nCareful: the Giant Buzzards are 39-41, and the 41s are two over you at 39: pick the 39s and 40s and pull them one at a time. The Buzzards (37) you kill later for {npc:2817}'s wings drop gizzards too, more rarely."] = "Elder Crag Coyote ve Giant Buzzard yaratıkları {area:1878} yöresinin güneyindeki havzada dolaşıyor. Coyote'lar hem çene kemiklerini hem dişleri düşürür, Giant Buzzard'lar taşlıkları düşürür. Dikkat: Malevolent Mirage yaratıkları (42, elit) {zone:1418} boyunca süzülüyor: onlardan geniş bir mesafe bırak.\nDikkat: Giant Buzzard'lar 39-41, 41'ler de 39'da senden iki seviye yüksek: 39 ve 40'ları seç ve tek tek çek. Daha sonra {npc:2817} adlı NPC'nin kanatları için öldürdüğün Buzzard'lar (37) da daha seyrek olarak taşlık düşürür.",
 
 	-- Step 8: Rock Elementals
 	-- plural, as words: Rock Elementals = {npc:92} Rock Elemental
 	["Rock Elementals"] = "Rock Elemental yaratıkları",
 	-- {area:345} Agmond's End · {npc:6868} Jarkal Mossmeld
 	-- plural, as words: Rock Elementals = {npc:92} Rock Elemental · Rock Elemental Shards = {item:7848} Rock Elemental Shard · Malevolent Mirages = {npc:269756} Malevolent Mirage
-	["South-east across the basin, the bigger Rock Elementals (39) stand on the slopes west of {area:345}; each one drops a slab. Every rock elemental can drop {npc:6868}'s Rock Elemental Shards. Careful: Malevolent Mirages (42, elite) drift across these slopes too."] = "Havzayı geçip güneydoğuya: daha büyük Rock Elemental yaratıkları (39) {area:345} yöresinin batısındaki yamaçlarda duruyor; her biri bir levha düşürür. Her kaya elementali {npc:6868} adlı NPC'nin Rock Elemental Shard parçalarını düşürebilir. Dikkat: Malevolent Mirage yaratıkları (42, elit) bu yamaçlarda da süzülüyor.",
+	["South-east across the basin, the bigger Rock Elementals (39) stand on the slopes west of {area:345}; each one drops a slab. Every rock elemental can drop {npc:6868}'s Rock Elemental Shards. Careful: Malevolent Mirages (42, elite) drift across these slopes too."] = "Havzayı geçip güneydoğuya: daha büyük Rock Elemental yaratıkları (39) {area:345} yöresinin batısındaki yamaçlarda duruyor. Her biri bir levha düşürür. Her kaya elementali {npc:6868} adlı NPC'nin Rock Elemental Shard parçalarını düşürebilir. Dikkat: Malevolent Mirage yaratıkları (42, elit) bu yamaçlarda da süzülüyor.",
 
 	-- Step 9: Agmond's End
 	-- {area:345} Agmond's End · {area:1517} Uldaman
@@ -53,7 +53,7 @@ return {
 	-- Step 10: Stonevault troggs
 	["Stonevault troggs"] = "Stonevault troggları",
 	-- {area:1877} Valley of Fangs · {area:345} Agmond's End · {npc:2817} Rigglefuzz
-	["The Stonevault troggs dig around the cave mouths south of the {area:1877}, on the way north from {area:345}; the Bonesnappers and Shamans drop the flakes. The Buzzards for {npc:2817}'s wings circle the hills between the {area:1877} and {area:345}."] = "Stonevault trogg'ları {area:1877} vadisinin güneyindeki mağara ağızlarının çevresinde kazı yapıyor; {area:345} içinden kuzeye giden yolda; Bonesnapper ve Shaman'lar pulları düşürür. {npc:2817} için kanatları veren Buzzard'lar {area:1877} ile {area:345} arasındaki tepelerin üzerinde dönüyor.",
+	["The Stonevault troggs dig around the cave mouths south of the {area:1877}, on the way north from {area:345}; the Bonesnappers and Shamans drop the flakes. The Buzzards for {npc:2817}'s wings circle the hills between the {area:1877} and {area:345}."] = "Stonevault trogg'ları {area:1877} vadisinin güneyindeki mağara ağızlarının çevresinde kazı yapıyor. {area:345} içinden kuzeye giden yolda. Bonesnapper ve Shaman'lar pulları düşürür. {npc:2817} için kanatları veren Buzzard'lar {area:1877} ile {area:345} arasındaki tepelerin üzerinde dönüyor.",
 
 	-- Step 11: Valley of Fangs
 	-- {area:1517} Uldaman · {area:1877} Valley of Fangs · {npc:2817} Rigglefuzz · {npc:4618} Martek the Exiled

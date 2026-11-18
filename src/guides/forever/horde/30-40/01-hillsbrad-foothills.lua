@@ -13,11 +13,11 @@ return {
 
 	-- Step 2: Thunder Bluff
 	-- {area:484} Freewind Post · {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise
-	["Fly from {area:484} to {area:1638} and train with {npc:3033} on {area:1639}; fly on to the Crossroads from there."] = "{area:484} karakolundan {area:1638} şehrine uç ve {area:1639} tepesinde {npc:3033} ile eğitimini al; oradan Crossroads'a uç.",
+	["Fly from {area:484} to {area:1638} and train with {npc:3033} on {area:1639}; fly on to the Crossroads from there."] = "{area:484} karakolundan {area:1638} şehrine uç ve {area:1639} tepesinde {npc:3033} ile eğitimini al, oradan Crossroads'a uç.",
 
 	-- Step 3: Ratchet
 	-- {area:484} Freewind Post · {area:392} Ratchet · {npc:5901} Islen Waterseer
-	["Fly from {area:484} to {area:392}. {npc:5901} camps on the coast a short walk south of the town; fly on to the Crossroads from {area:392}."] = "{area:484} karakolundan {area:392} limanına uç. {npc:5901}, kasabanın biraz güneyinde, kıyıda kamp kurmuş; {area:392} limanından Crossroads'a uç.",
+	["Fly from {area:484} to {area:392}. {npc:5901} camps on the coast a short walk south of the town; fly on to the Crossroads from {area:392}."] = "{area:484} karakolundan {area:392} limanına uç. {npc:5901}, kasabanın biraz güneyinde, kıyıda kamp kurmuş, {area:392} limanından Crossroads'a uç.",
 	-- {npc:5901} Islen Waterseer · {item:6637} Water Sapta
 	["{npc:5901}: your {item:6637}, for the brazier"] = "{npc:5901}: mangal için {item:6637}",
 
@@ -32,7 +32,7 @@ return {
 
 	-- Step 7: Korran
 	-- {npc:3428} Korran · {quest:1145} The Swarm Grows · {zone:1454} Orgrimmar
-	["{npc:3428} stands beside the Crossroads flight master. {quest:1145} is offered from level 29; below it, the next guide's {zone:1454} stop takes it."] = "{npc:3428} Crossroads uçuş ustasının yanında duruyor. {quest:1145} 29. seviyeden verilir; altındaysan sonraki rehberin {zone:1454} durağı onu alır.",
+	["{npc:3428} stands beside the Crossroads flight master. {quest:1145} is offered from level 29; below it, the next guide's {zone:1454} stop takes it."] = "{npc:3428} Crossroads uçuş ustasının yanında duruyor. {quest:1145} 29. seviyeden verilir, altındaysan sonraki rehberin {zone:1454} durağı onu alır.",
 	-- {npc:3428} Korran · {npc:4485} Belgrom Rockmaul · {zone:1454} Orgrimmar
 	["{npc:3428}: for {npc:4485} in {zone:1454}"] = "{npc:3428}: {zone:1454} şehrindeki {npc:4485} için",
 
@@ -45,7 +45,7 @@ return {
 	-- {npc:4949} Thrall · {object:172957} Valley of Wisdom
 	["{npc:4949} waits in Grommash Hold, in the {object:172957}."] = "{npc:4949}, {object:172957} vadisinde, Grommash Hold içinde bekliyor.",
 	-- {npc:4949} Thrall
-	["{npc:4949}, Grommash Hold, if you carry it"] = "{npc:4949}, Grommash Hold; sende varsa",
+	["{npc:4949}, Grommash Hold, if you carry it"] = "{npc:4949}, Grommash Hold, sende varsa",
 
 	-- Step 10: Train
 	["Train"] = "Eğitim",
@@ -85,7 +85,7 @@ return {
 
 	-- Step 18: Tarren Mill
 	-- {quest:567} Dangerous! · {npc:2216} Apothecary Lydon · {npc:2393} Christoph Jeffcoat
-	["The {quest:567} poster hangs by the inn; {npc:2216} stands inside it. {npc:2393}, the cook by the inn, wants turtle meat and sells the spices for it."] = "{quest:567} ilanı hanın yanında asılı; {npc:2216} içinde duruyor. Hanın yanındaki aşçı {npc:2393} kaplumbağa eti istiyor ve onun baharatlarını satıyor.",
+	["The {quest:567} poster hangs by the inn; {npc:2216} stands inside it. {npc:2393}, the cook by the inn, wants turtle meat and sells the spices for it."] = "{quest:567} ilanı hanın yanında asılı, {npc:2216} içinde duruyor. Hanın yanındaki aşçı {npc:2393} kaplumbağa eti istiyor ve onun baharatlarını satıyor.",
 	-- {quest:567} Dangerous!
 	["{quest:567}, the poster by the inn"] = "{quest:567}, hanın yanındaki ilan",
 	-- {npc:2216} Apothecary Lydon
@@ -97,7 +97,7 @@ return {
 
 	-- Step 19: High Executor Darthalia
 	-- {area:287} Hillsbrad · {quest:527} Battle of Hillsbrad
-	["You missed Darthalia's first errands, from the 22-25 {area:287} guide: they come first now. They are a few levels below you and quick, and they open the rest of the {quest:527} in this guide."] = "Darthalia'nın 22-25 {area:287} rehberindeki ilk işlerini kaçırdın: artık önce onlar geliyor. Senden birkaç seviye aşağıdalar ve çabuk biterler; bu rehberdeki {quest:527} zincirinin gerisini de açarlar.",
+	["You missed Darthalia's first errands, from the 22-25 {area:287} guide: they come first now. They are a few levels below you and quick, and they open the rest of the {quest:527} in this guide."] = "Darthalia'nın 22-25 {area:287} rehberindeki ilk işlerini kaçırdın: artık önce onlar geliyor. Senden birkaç seviye aşağıdalar ve çabuk biterler. Bu rehberdeki {quest:527} zincirinin gerisini de açarlar.",
 
 	-- Step 20: Krusk
 	-- {npc:2229} Krusk · {area:275} Durnholde Keep
@@ -108,7 +108,7 @@ return {
 	-- Step 21: Hillsbrad Fields
 	-- {area:287} Hillsbrad · {npc:232} Farmer Ray · {npc:2403} Farmer Getz
 	-- plural, as words: Kirin Tor Guards = {npc:246848} Kirin Tor Guard
-	["West past the hills to the farms east of {area:287} town. {npc:232} works the field by the northern farmhouse, {npc:2403} the one further south-east; Farmhands and Farmers are everywhere.\nCareful: Kirin Tor Guards (55) patrol {area:287}'s fields and roads and attack the Horde: keep an eye out for them and stay out of their way."] = "Tepeleri geçip batıya, {area:287} kasabasının doğusundaki çiftliklere git. {npc:232} kuzeydeki çiftlik evinin yanındaki tarlada, {npc:2403} daha güneydoğudakinde çalışıyor; Farmhand ve Farmer'lar her yerde.\nDikkat: Kirin Tor Guard yaratıkları (55) {area:287} tarlalarında ve yollarında devriye gezer ve Horde'a saldırır: onlara göz kulak ol ve yollarından uzak dur.",
+	["West past the hills to the farms east of {area:287} town. {npc:232} works the field by the northern farmhouse, {npc:2403} the one further south-east; Farmhands and Farmers are everywhere.\nCareful: Kirin Tor Guards (55) patrol {area:287}'s fields and roads and attack the Horde: keep an eye out for them and stay out of their way."] = "Tepeleri geçip batıya, {area:287} kasabasının doğusundaki çiftliklere git. {npc:232} kuzeydeki çiftlik evinin yanındaki tarlada, {npc:2403} daha güneydoğudakinde çalışıyor. Farmhand ve Farmer'lar her yerde.\nDikkat: Kirin Tor Guard yaratıkları (55) {area:287} tarlalarında ve yollarında devriye gezer ve Horde'a saldırır: onlara göz kulak ol ve yollarından uzak dur.",
 
 	-- Step 22: Tarren Mill
 	-- {area:272} Tarren Mill
@@ -117,7 +117,7 @@ return {
 	-- Step 23: Hillsbrad Peasants
 	-- plural, as words: Hillsbrad Peasants = {npc:2267} Hillsbrad Peasant
 	["Hillsbrad Peasants"] = "Hillsbrad Peasant yaratıkları",
-	["Back to the fields: the Peasants work south of the farmhouses. Careful: A fleeing peasant that reaches the town hall can bring back adds; snares or roots keep them from escaping."] = "Tarlalara dön: Peasant'lar çiftlik evlerinin güneyinde çalışıyor. Dikkat: Belediye binasına ulaşan kaçak bir köylü yanında başkalarını getirebilir; yavaşlatmalar ya da köklemeler kaçmalarını önler.",
+	["Back to the fields: the Peasants work south of the farmhouses. Careful: A fleeing peasant that reaches the town hall can bring back adds; snares or roots keep them from escaping."] = "Tarlalara dön: Peasant'lar çiftlik evlerinin güneyinde çalışıyor. Dikkat: Belediye binasına ulaşan kaçak bir köylü yanında başkalarını getirebilir. Yavaşlatmalar ya da köklemeler kaçmalarını önler.",
 
 	-- Step 26: Durnholde Keep
 	-- {npc:2238} Tog'thar · {npc:2427} Jailor Eston · {item:3467} Dull Iron Key · {npc:2428} Jailor Marlgen · {item:3499} Burnished Gold Key
@@ -144,7 +144,7 @@ return {
 
 	-- Step 29: Mudsnout Blossoms
 	-- {area:290} Dun Garok
-	["South of the river's bend, the Mudsnout gnolls (26-28) camp in the hills above {area:290}; the blossoms grow among their tents. The Shamans heal and call their friends: pull them first."] = "Nehrin dönemecinin güneyinde Mudsnout gnoll'ları (26-28) {area:290} üstündeki tepelerde kamp kurmuş; çiçekler çadırlarının arasında büyüyor. Shaman'lar iyileştirir ve arkadaşlarını çağırır: önce onları çek.",
+	["South of the river's bend, the Mudsnout gnolls (26-28) camp in the hills above {area:290}; the blossoms grow among their tents. The Shamans heal and call their friends: pull them first."] = "Nehrin dönemecinin güneyinde Mudsnout gnoll'ları (26-28) {area:290} üstündeki tepelerde kamp kurmuş, çiçekler çadırlarının arasında büyüyor. Shaman'lar iyileştirir ve arkadaşlarını çağırır: önce onları çek.",
 
 	-- Step 30: North of Southshore
 	["North of Southshore"] = "Southshore'un kuzeyi",
@@ -154,7 +154,7 @@ return {
 	-- Step 31: The smithy
 	["The smithy"] = "Demirhane",
 	-- {area:287} Hillsbrad · {npc:2404} Blacksmith Verringtan · {object:1736} Shipment of Iron · {npc:2449} Citizen Wilkes · {npc:2451} Farmer Kalaba
-	["West across the foothills to {area:287} town: the smithy stands in the middle of it. {npc:2404} and his apprentices work at the forge; the {object:1736} is stacked beside it. {npc:2449} walks the west side of the town; {npc:2451} works the field south-east of the town."] = "Tepeleri geçip batıya, {area:287} kasabasına git: demirhane tam ortasında duruyor. {npc:2404} ve çırakları ocakta çalışıyor; {object:1736} hemen yanında yığılı. {npc:2449} kasabanın batı yakasında dolaşıyor; {npc:2451} kasabanın güneydoğusundaki tarlada çalışıyor.",
+	["West across the foothills to {area:287} town: the smithy stands in the middle of it. {npc:2404} and his apprentices work at the forge; the {object:1736} is stacked beside it. {npc:2449} walks the west side of the town; {npc:2451} works the field south-east of the town."] = "Tepeleri geçip batıya, {area:287} kasabasına git: demirhane tam ortasında duruyor. {npc:2404} ve çırakları ocakta çalışıyor, {object:1736} hemen yanında yığılı. {npc:2449} kasabanın batı yakasında dolaşıyor. {npc:2451} kasabanın güneydoğusundaki tarlada çalışıyor.",
 	["Inside"] = "İçeride",
 	-- {npc:2449} Citizen Wilkes
 	["{npc:2449}, on the west side of the town"] = "{npc:2449}, kasabanın batı yakasında",
@@ -168,12 +168,12 @@ return {
 	-- Step 33: Helcular's Rod
 	-- {area:277} Foothill Caverns
 	-- plural, as words: Ferocious Yetis = {npc:2249} Ferocious Yeti · Giant Yetis = {npc:2251} Giant Yeti
-	["West of Tarren Mill, the Cave and Ferocious Yetis (30-32) fill the {area:277} in the hills; about one in sixteen carries the rod. Stay in these caverns: the Mountain and Giant Yetis (32-34) of the cave further north carry it too, but they hit hard and come in pairs."] = "Tarren Mill'in batısında, tepelerdeki {area:277} mağaralarını Cave ve Ferocious Yeti yaratıkları (30-32) dolduruyor; yaklaşık on altıda biri asayı taşır. Bu mağaralarda kal: daha kuzeydeki mağaranın Mountain ve Giant Yeti yaratıkları (32-34) da onu taşır, ama sert vururlar ve çift gelirler.",
+	["West of Tarren Mill, the Cave and Ferocious Yetis (30-32) fill the {area:277} in the hills; about one in sixteen carries the rod. Stay in these caverns: the Mountain and Giant Yetis (32-34) of the cave further north carry it too, but they hit hard and come in pairs."] = "Tarren Mill'in batısında, tepelerdeki {area:277} mağaralarını Cave ve Ferocious Yeti yaratıkları (30-32) dolduruyor. Yaklaşık on altıda biri asayı taşır. Bu mağaralarda kal: daha kuzeydeki mağaranın Mountain ve Giant Yeti yaratıkları (32-34) da onu taşır, ama sert vururlar ve çift gelirler.",
 
 	-- Step 34: Town hall
 	["Town hall"] = "Belediye binası",
 	-- {area:287} Hillsbrad · {npc:2335} Magistrate Burnside · {npc:2448} Clerk Horrace Whitesteed
-	["On to {area:287} town, south-west of the yeti caves. The town hall is on the town's west side: {npc:2335} (30) and {npc:2448} are inside with the Town Registry; the Proclamation is pinned up beside it. Councilmen walk the town."] = "Yeti mağaralarının güneybatısındaki {area:287} kasabasına devam et. Belediye binası kasabanın batı yakasında: {npc:2335} (30) ve {npc:2448}, Town Registry ile birlikte içeride; Proclamation da onun yanına asılı. Meclis üyeleri kasabada dolaşıyor.",
+	["On to {area:287} town, south-west of the yeti caves. The town hall is on the town's west side: {npc:2335} (30) and {npc:2448} are inside with the Town Registry; the Proclamation is pinned up beside it. Councilmen walk the town."] = "Yeti mağaralarının güneybatısındaki {area:287} kasabasına devam et. Belediye binası kasabanın batı yakasında: {npc:2335} (30) ve {npc:2448}, Town Registry ile birlikte içeride. Proclamation da onun yanına asılı. Meclis üyeleri kasabada dolaşıyor.",
 	-- {object:1761} Hillsbrad Proclamation
 	["{object:1761}, inside"] = "{object:1761}, içeride",
 
@@ -195,7 +195,7 @@ return {
 
 	-- Step 39: Azurelode Mine
 	-- {area:287} Hillsbrad · {area:288} Azurelode Mine · {npc:2305} Foreman Bonds · {npc:2450} Miner Hackett
-	["Head south-west past {area:287} town to the {area:288}. Miners work the tunnels; {npc:2305} (30) and {npc:2450} (29) are deep inside."] = "{area:287} kasabasını geçip güneybatıya, {area:288} madenine git. Madenciler tünellerde çalışıyor; {npc:2305} (30) ve {npc:2450} (29) en derinde.",
+	["Head south-west past {area:287} town to the {area:288}. Miners work the tunnels; {npc:2305} (30) and {npc:2450} (29) are deep inside."] = "{area:287} kasabasını geçip güneybatıya, {area:288} madenine git. Madenciler tünellerde çalışıyor, {npc:2305} (30) ve {npc:2450} (29) en derinde.",
 	-- {area:288} Azurelode Mine
 	["Inside {area:288}"] = "{area:288} içinde",
 
@@ -228,7 +228,7 @@ return {
 	-- {npc:2770} Tallow
 	["Voidglare, Bel'varil and {npc:2770}"] = "Voidglare, Bel'varil ve {npc:2770}",
 	-- {npc:2410} Magus Wordeen Voidglare · {npc:2437} Keeper Bel'varil · {npc:2770} Tallow · {area:272} Tarren Mill
-	["{npc:2410} and {npc:2437} are inside the inn, {npc:2770} just outside it. Their quests are offered from level 30; below it, the 38-39 guide's first {area:272} stop takes them."] = "{npc:2410} ve {npc:2437} hanın içinde, {npc:2770} hemen dışında. Görevleri 30. seviyeden verilir; altındaysan 38-39 rehberinin ilk {area:272} durağı onları alır.",
+	["{npc:2410} and {npc:2437} are inside the inn, {npc:2770} just outside it. Their quests are offered from level 30; below it, the 38-39 guide's first {area:272} stop takes them."] = "{npc:2410} ve {npc:2437} hanın içinde, {npc:2770} hemen dışında. Görevleri 30. seviyeden verilir, altındaysan 38-39 rehberinin ilk {area:272} durağı onları alır.",
 	-- {npc:2410} Magus Wordeen Voidglare · {quest:544} Prison Break In · {area:279} Dalaran
 	["{npc:2410}, inside: {quest:544}, for the 38-39 visit (the {area:279} crater's traitors are 33-35)"] = "{npc:2410}, içeride: {quest:544}, 38-39 ziyareti için ({area:279} kraterinin hainleri 33-35)",
 	-- {npc:2410} Magus Wordeen Voidglare · {quest:93680} Key to the City · {quest:544} Prison Break In
@@ -258,7 +258,7 @@ return {
 
 	-- Step 47: Dun Garok
 	-- {area:290} Dun Garok
-	["Clear {area:290} from the gate in; the dwarves run for help at 30% health."] = "{area:290} kalesini kapıdan başlayarak temizle; cüceler canları %30'a inince yardım çağırmaya kaçar.",
+	["Clear {area:290} from the gate in; the dwarves run for help at 30% health."] = "{area:290} kalesini kapıdan başlayarak temizle. Cüceler canları %30'a inince yardım çağırmaya kaçar.",
 
 	-- Step 48: Tarren Mill
 	-- {npc:2425} Varimathras · {zone:1458} Undercity
@@ -284,7 +284,7 @@ return {
 
 	-- Step 53: Calder Gray
 	-- {npc:270038} Calder Gray · {quest:97985} Thundering Hearts · {area:484} Freewind Post · {area:439} Shimmering Flats
-	["{npc:270038} stands in the Apothecarium. His {quest:97985} is for Stormheart, a level 30 elite who walks the canyon east of {area:484}, on the next guide's way to the {area:439}."] = "{npc:270038} Apothecarium'da duruyor. {quest:97985} görevi Stormheart için; bu, sonraki rehberin {area:439} yolunda {area:484} karakolunun doğusundaki kanyonda yürüyen 30. seviye bir elit.",
+	["{npc:270038} stands in the Apothecarium. His {quest:97985} is for Stormheart, a level 30 elite who walks the canyon east of {area:484}, on the next guide's way to the {area:439}."] = "{npc:270038} Apothecarium'da duruyor. {quest:97985} görevi Stormheart için. Bu, sonraki rehberin {area:439} yolunda {area:484} karakolunun doğusundaki kanyonda yürüyen 30. seviye bir elit.",
 	-- {npc:270038} Calder Gray · {zone:1458} Undercity
 	["{npc:270038}: back to him on the next {zone:1458} stop, at about 38"] = "{npc:270038}: yaklaşık 38'deki bir sonraki {zone:1458} durağında ona dön",
 

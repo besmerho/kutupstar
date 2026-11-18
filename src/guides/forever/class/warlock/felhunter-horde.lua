@@ -18,7 +18,7 @@ return {
 
 	-- Step 3: Strahad Farsan
 	-- {area:392} Ratchet · {zone:1454} Orgrimmar · {npc:6251} Strahad Farsan · {npc:6266} Menara Voidrender · {npc:6293} Jorah Annison · {zone:1458} Undercity
-	["{area:392}'s flight point is a short flight from {zone:1454}'s. {npc:6251} stands on the hill above the town, behind the engineers' hut, by his little tower; {npc:6266} and two acolytes are with him. He sends you to {npc:6293} in the {zone:1458}."] = "{area:392} uçuş noktası {zone:1454} uçuş noktasından kısa bir uçuş. {npc:6251}, kasabanın yukarısındaki tepede, mühendislerin kulübesinin arkasında, küçük kulesinin yanında duruyor; {npc:6266} ve iki yardımcı onunla birlikte. Seni {zone:1458} şehrindeki {npc:6293} yanına gönderir.",
+	["{area:392}'s flight point is a short flight from {zone:1454}'s. {npc:6251} stands on the hill above the town, behind the engineers' hut, by his little tower; {npc:6266} and two acolytes are with him. He sends you to {npc:6293} in the {zone:1458}."] = "{area:392} uçuş noktası {zone:1454} uçuş noktasından kısa bir uçuş. {npc:6251}, kasabanın yukarısındaki tepede, mühendislerin kulübesinin arkasında, küçük kulesinin yanında duruyor. {npc:6266} ve iki yardımcı onunla birlikte. Seni {zone:1458} şehrindeki {npc:6293} yanına gönderir.",
 
 	-- Step 4: Jorah Annison
 	-- {npc:6293} Jorah Annison · {object:36082} Magic Quarter · {zone:1458} Undercity · {quest:1801} Tome of the Cabal · {area:287} Hillsbrad · {zone:1441} Thousand Needles
@@ -26,7 +26,7 @@ return {
 
 	-- Step 5: Moldy Tome
 	-- {area:271} Southshore
-	["The tome is a small grey-blue book lying in the sand of a murloc camp on the shore south-west of {area:271}, near the water's edge. Six or seven murlocs guard it and more lurk underwater: they come in groups, so Fear one and keep your voidwalker on the rest. Walk down to the water to click it; from the hillside the crates block the cursor."] = "Kitap, {area:271} kasabasının güneybatısındaki kıyıda bir murloc kampının kumunda, su kenarına yakın yatan küçük gri-mavi bir kitap. Altı yedi murloc onu koruyor, daha fazlası su altında pusuda: gruplar halinde gelirler, bu yüzden birini Fear ile korkut ve voidwalker'ını diğerlerinin üzerinde tut. Tıklamak için suya kadar in; yamaçtan sandıklar imleci engelliyor.",
+	["The tome is a small grey-blue book lying in the sand of a murloc camp on the shore south-west of {area:271}, near the water's edge. Six or seven murlocs guard it and more lurk underwater: they come in groups, so Fear one and keep your voidwalker on the rest. Walk down to the water to click it; from the hillside the crates block the cursor."] = "Kitap, {area:271} kasabasının güneybatısındaki kıyıda bir murloc kampının kumunda, su kenarına yakın yatan küçük gri-mavi bir kitap. Altı yedi murloc onu koruyor, daha fazlası su altında pusuda: gruplar halinde gelirler, bu yüzden birini Fear ile korkut ve voidwalker'ını diğerlerinin üzerinde tut. Tıklamak için suya kadar in, yamaçtan sandıklar imleci engelliyor.",
 	-- {item:6931} Moldy Tome · {quest:1803} Tome of the Cabal
 	["{item:6931}, from the {quest:1803} on the sand"] = "{item:6931}, kumdaki {quest:1803} kitabından",
 

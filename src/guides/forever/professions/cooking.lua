@@ -7,7 +7,7 @@ return {
 	-- {skill:185} Cooking
 	["Learn {skill:185}"] = "{skill:185} öğren",
 	-- {skill:185} Cooking · {object:29784} Basic Campfire · {item:279981} Basic Campfire Kit · {item:4470} Simple Wood · {item:4471} Flint and Tinder
-	["Any {skill:185} trainer of your faction teaches Apprentice {skill:185} (any character level, 1s); the arrow picks the nearest. Forever: every cook knows {object:29784}. Craft a {item:279981} from one {item:4470} (38c) with {item:4471} (1s 35c, kept in your bags), then place the kit to light a cooking fire anywhere; make a few in advance (one use every 5 minutes). The first kits also raise {skill:185} to about 5. The Camping 101: {skill:185} quest at your starting area's camp sends you to this trainer."] = "Tarafının her {skill:185} eğitmeni Apprentice {skill:185} öğretir (her karakter seviyesinde, 1s); ok en yakınını seçer. Forever: her aşçı {object:29784} bilir. Bir {item:4470} (38c) ve {item:4471} (1s 35c, çantanda tutulur) ile bir {item:279981} yap, sonra kiti koyarak her yerde bir yemek ateşi yak; önceden birkaç tane yap (5 dakikada bir kullanım). İlk kitler {skill:185} becerini yaklaşık 5'e de çıkarır. Başlangıç bölgendeki kampta alınan Camping 101: {skill:185} görevi seni bu eğitmene gönderir.",
+	["Any {skill:185} trainer of your faction teaches Apprentice {skill:185} (any character level, 1s); the arrow picks the nearest. Forever: every cook knows {object:29784}. Craft a {item:279981} from one {item:4470} (38c) with {item:4471} (1s 35c, kept in your bags), then place the kit to light a cooking fire anywhere; make a few in advance (one use every 5 minutes). The first kits also raise {skill:185} to about 5. The Camping 101: {skill:185} quest at your starting area's camp sends you to this trainer."] = "Tarafının her {skill:185} eğitmeni Apprentice {skill:185} öğretir (her karakter seviyesinde, 1s), ok en yakınını seçer. Forever: her aşçı {object:29784} bilir. Bir {item:4470} (38c) ve {item:4471} (1s 35c, çantanda tutulur) ile bir {item:279981} yap, sonra kiti koyarak her yerde bir yemek ateşi yak. Önceden birkaç tane yap (5 dakikada bir kullanım). İlk kitler {skill:185} becerini yaklaşık 5'e de çıkarır. Başlangıç bölgendeki kampta alınan Camping 101: {skill:185} görevi seni bu eğitmene gönderir.",
 
 	-- Step 2: Charred Wolf Meat: Auction House
 	-- {spell:2538} Charred Wolf Meat
@@ -62,7 +62,7 @@ return {
 	-- Step 11: Herb Baked Egg (1-50)
 	-- {item:6888} Herb Baked Egg · {object:29784} Basic Campfire · {skill:185} Cooking · {item:2678} Mild Spices · {zone:1438} Teldrassil · {item:6889} Small Egg · {zone:1439} Darkshore · {item:6290} Brilliant Smallfish · {npc:6286} Zarrin · {area:186} Dolanaar · {item:5472} Kaldorei Spider Kabob
 	-- plural, as words: Small Spider Legs = {item:5465} Small Spider Leg
-	["{item:6888} is orange from 1 (yellow at 45, green at 65, grey at 85): about 50 crafts to 50. Cook at any fire: a town hearth or your own {object:29784}. {item:6888} comes with {skill:185} (the client teaches it with the skill); {item:2678} are a cooking vendor's. The Strigid owls of {zone:1438} drop a {item:6889} more often than not, and {zone:1439}'s moonkin drop them too. Fishers can cook {item:6290} (recipe 40c) from Rut'theran's waters instead, and {npc:6286} in {area:186} gives Recipe of the Kaldorei (seven Small Spider Legs from the Webwood spiders) for {item:5472}, orange from 10 to 50."] = "{item:6888}: 1 puandan turuncu (sarı 45, yeşil 65, gri 85): 50 puana kadar yaklaşık 50 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:6888}, {skill:185} ile gelir (istemci beceriyle birlikte öğretir); {item:2678} bir yemek satıcısından alınır. {zone:1438} bölgesinin Strigid baykuşları çoğu zaman {item:6889} düşürür, {zone:1439} bölgesinin moonkin'leri de düşürür. Balıkçılar bunun yerine Rut'theran sularından {item:6290} pişirebilir (tarif 40c), {area:186} köyündeki {npc:6286} de {item:5472} için Recipe of the Kaldorei görevini verir (Webwood örümceklerinden yedi Small Spider Leg); 10 puandan 50 puana kadar turuncu.",
+	["{item:6888} is orange from 1 (yellow at 45, green at 65, grey at 85): about 50 crafts to 50. Cook at any fire: a town hearth or your own {object:29784}. {item:6888} comes with {skill:185} (the client teaches it with the skill); {item:2678} are a cooking vendor's. The Strigid owls of {zone:1438} drop a {item:6889} more often than not, and {zone:1439}'s moonkin drop them too. Fishers can cook {item:6290} (recipe 40c) from Rut'theran's waters instead, and {npc:6286} in {area:186} gives Recipe of the Kaldorei (seven Small Spider Legs from the Webwood spiders) for {item:5472}, orange from 10 to 50."] = "{item:6888}: 1 puandan turuncu (sarı 45, yeşil 65, gri 85): 50 puana kadar yaklaşık 50 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:6888}, {skill:185} ile gelir (istemci beceriyle birlikte öğretir). {item:2678} bir yemek satıcısından alınır. {zone:1438} bölgesinin Strigid baykuşları çoğu zaman {item:6889} düşürür, {zone:1439} bölgesinin moonkin'leri de düşürür. Balıkçılar bunun yerine Rut'theran sularından {item:6290} pişirebilir (tarif 40c), {area:186} köyündeki {npc:6286} de {item:5472} için Recipe of the Kaldorei görevini verir (Webwood örümceklerinden yedi Small Spider Leg). 10 puandan 50 puana kadar turuncu.",
 
 	-- Step 13: Charred Wolf Meat: ingredients
 	-- {npc:250873} Juvenile Vuldren
@@ -88,7 +88,7 @@ return {
 	-- {skill:185} Cooking
 	["Journeyman {skill:185}"] = "Journeyman {skill:185}",
 	-- {skill:185} Cooking
-	["Journeyman {skill:185} raises the cap to 150; it needs skill 50 and no character level: the arrow picks the nearest {skill:185} trainer of your faction; training costs 5s."] = "Journeyman {skill:185}, sınırı 150 puana çıkarır; beceri 50 ister, karakter seviyesi istemez: ok tarafının en yakın {skill:185} eğitmenini seçer; eğitim 5s.",
+	["Journeyman {skill:185} raises the cap to 150; it needs skill 50 and no character level: the arrow picks the nearest {skill:185} trainer of your faction; training costs 5s."] = "Journeyman {skill:185}, sınırı 150 puana çıkarır. Beceri 50 ister, karakter seviyesi istemez: ok tarafının en yakın {skill:185} eğitmenini seçer, eğitim 5s.",
 
 	-- Step 25: Coyote Steak: Auction House
 	-- {spell:2541} Coyote Steak
@@ -104,7 +104,7 @@ return {
 
 	-- Step 27: Coyote Steak (50-90)
 	-- {spell:2541} Coyote Steak · {object:29784} Basic Campfire · {skill:185} Cooking · {zone:1436} Westfall · {npc:235} Salma Saldean · {area:108} Sentinel Hill · {item:733} Westfall Stew · {item:724} Goretusk Liver Pie
-	["{spell:2541} is orange from 50 (yellow at 90, green at 110, grey at 130): about 40 crafts to 90. Cook at any fire: a town hearth or your own {object:29784}. Any {skill:185} trainer teaches it from skill 50 for 1s. Coyotes roam the middle of {zone:1436}; {npc:235} on the farm north of {area:108} also gives {item:733} and {item:724} quests that use what you loot here."] = "{spell:2541}: 50 puandan turuncu (sarı 90, yeşil 110, gri 130): 90 puana kadar yaklaşık 40 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. Her {skill:185} eğitmeni bunu 50 puandan 1s karşılığında öğretir. Coyote'ler {zone:1436} bölgesinin ortasında dolaşıyor; {area:108} tepesinin kuzeyindeki çiftlikteki {npc:235} de burada loot'ladıklarını kullanan {item:733} ve {item:724} görevlerini verir.",
+	["{spell:2541} is orange from 50 (yellow at 90, green at 110, grey at 130): about 40 crafts to 90. Cook at any fire: a town hearth or your own {object:29784}. Any {skill:185} trainer teaches it from skill 50 for 1s. Coyotes roam the middle of {zone:1436}; {npc:235} on the farm north of {area:108} also gives {item:733} and {item:724} quests that use what you loot here."] = "{spell:2541}: 50 puandan turuncu (sarı 90, yeşil 110, gri 130): 90 puana kadar yaklaşık 40 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. Her {skill:185} eğitmeni bunu 50 puandan 1s karşılığında öğretir. Coyote'ler {zone:1436} bölgesinin ortasında dolaşıyor. {area:108} tepesinin kuzeyindeki çiftlikteki {npc:235} de burada loot'ladıklarını kullanan {item:733} ve {item:724} görevlerini verir.",
 
 	-- Step 28: Crab Cake: shopping
 	-- {spell:2544} Crab Cake
@@ -147,7 +147,7 @@ return {
 
 	-- Step 35: Smoked Bear Meat (50-80)
 	-- {item:6890} Smoked Bear Meat · {object:29784} Basic Campfire · {item:6892} Recipe: Smoked Bear Meat · {zone:1432} Loch Modan
-	["{item:6890} is orange from 50 (yellow at 80, green at 100, grey at 120): about 30 crafts to 80. Cook at any fire: a town hearth or your own {object:29784}. {item:6892} costs 2s 50c at its vendor; the arrow picks the nearest one of your faction. Black bears roam the hills of {zone:1432}."] = "{item:6890}: 50 puandan turuncu (sarı 80, yeşil 100, gri 120): 80 puana kadar yaklaşık 30 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:6892} satıcısında 2s 50c; ok tarafının en yakın satıcısını seçer. Kara ayılar {zone:1432} tepelerinde dolaşıyor.",
+	["{item:6890} is orange from 50 (yellow at 80, green at 100, grey at 120): about 30 crafts to 80. Cook at any fire: a town hearth or your own {object:29784}. {item:6892} costs 2s 50c at its vendor; the arrow picks the nearest one of your faction. Black bears roam the hills of {zone:1432}."] = "{item:6890}: 50 puandan turuncu (sarı 80, yeşil 100, gri 120): 80 puana kadar yaklaşık 30 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:6892} satıcısında 2s 50c. Ok tarafının en yakın satıcısını seçer. Kara ayılar {zone:1432} tepelerinde dolaşıyor.",
 
 	-- Step 36: Dry Pork Ribs: shopping
 	-- {spell:2546} Dry Pork Ribs
@@ -181,7 +181,7 @@ return {
 	-- {item:5525} Boiled Clams
 	["{item:5525}: ingredients"] = "{item:5525}: malzemeler",
 	-- {npc:3812} Clattering Crawler · {npc:3814} Spined Crawler · {npc:3944} Wrathtail Priestess · {zone:1439} Darkshore · {item:5523} Small Barnacled Clam · {item:5503} Clam Meat
-	["{npc:3812} (42%), {npc:3814} (42%), {npc:3944} (42%) in {zone:1439}, or wherever the arrow points; open each {item:5523} for its {item:5503}"] = "{zone:1439} bölgesinde {npc:3812} (42%), {npc:3814} (42%), {npc:3944} (42%) ya da okun gösterdiği yer; {item:5503} için her {item:5523} eşyasını aç",
+	["{npc:3812} (42%), {npc:3814} (42%), {npc:3944} (42%) in {zone:1439}, or wherever the arrow points; open each {item:5523} for its {item:5503}"] = "{zone:1439} bölgesinde {npc:3812} (42%), {npc:3814} (42%), {npc:3944} (42%) ya da okun gösterdiği yer. {item:5503} için her {item:5523} eşyasını aç",
 
 	-- Step 42: Boiled Clams (50-90)
 	-- {item:5525} Boiled Clams · {object:29784} Basic Campfire · {skill:185} Cooking · {item:2674} Crawler Meat · {spell:2544} Crab Cake
@@ -215,7 +215,7 @@ return {
 
 	-- Step 50: Strider Stew (50-100)
 	-- {item:5477} Strider Stew · {object:29784} Basic Campfire · {item:5486} Recipe: Strider Stew
-	["{item:5477} is orange from 50 (yellow at 90, green at 110, grey at 130): about 52 crafts to 100. Cook at any fire: a town hearth or your own {object:29784}. {item:5486} costs 4s 40c at its vendor; the arrow picks the nearest one of your faction."] = "{item:5477}: 50 puandan turuncu (sarı 90, yeşil 110, gri 130): 100 puana kadar yaklaşık 52 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:5486} satıcısında 4s 40c; ok tarafının en yakın satıcısını seçer.",
+	["{item:5477} is orange from 50 (yellow at 90, green at 110, grey at 130): about 52 crafts to 100. Cook at any fire: a town hearth or your own {object:29784}. {item:5486} costs 4s 40c at its vendor; the arrow picks the nearest one of your faction."] = "{item:5477}: 50 puandan turuncu (sarı 90, yeşil 110, gri 130): 100 puana kadar yaklaşık 52 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:5486} satıcısında 4s 40c. Ok tarafının en yakın satıcısını seçer.",
 
 	-- Step 51: Crispy Lizard Tail: shopping
 	-- {item:5479} Crispy Lizard Tail
@@ -237,13 +237,13 @@ return {
 
 	-- Step 54: Crispy Lizard Tail (100-130)
 	-- {item:5479} Crispy Lizard Tail · {object:29784} Basic Campfire · {item:5488} Recipe: Crispy Lizard Tail · {npc:3489} Zargh · {item:3735} Recipe: Hot Lion Chops
-	["{item:5479} is orange from 100 (yellow at 140, green at 160, grey at 180): about 30 crafts to 130. Cook at any fire: a town hearth or your own {object:29784}. {item:5488} costs 4s at its vendor; the arrow picks the nearest one of your faction. {npc:3489}, the butcher beside this vendor at the Crossroads, sells {item:3735} (18s), the recipe after Expert: buy it now."] = "{item:5479}: 100 puandan turuncu (140'ta sarı, 160'ta yeşil, 180'de gri): 130 puana kadar yaklaşık 30 üretim. Herhangi bir ateşte pişir: bir kasaba ocağı ya da kendi {object:29784}. {item:5488} satıcısında 4s tutar; ok tarafının en yakınını seçer. Crossroads'ta bu satıcının yanındaki kasap {npc:3489}, Expert'ten sonraki tarif olan {item:3735} satıyor (18s): şimdi al.",
+	["{item:5479} is orange from 100 (yellow at 140, green at 160, grey at 180): about 30 crafts to 130. Cook at any fire: a town hearth or your own {object:29784}. {item:5488} costs 4s at its vendor; the arrow picks the nearest one of your faction. {npc:3489}, the butcher beside this vendor at the Crossroads, sells {item:3735} (18s), the recipe after Expert: buy it now."] = "{item:5479}: 100 puandan turuncu (140'ta sarı, 160'ta yeşil, 180'de gri): 130 puana kadar yaklaşık 30 üretim. Herhangi bir ateşte pişir: bir kasaba ocağı ya da kendi {object:29784}. {item:5488} satıcısında 4s tutar. Ok tarafının en yakınını seçer. Crossroads'ta bu satıcının yanındaki kasap {npc:3489}, Expert'ten sonraki tarif olan {item:3735} satıyor (18s): şimdi al.",
 
 	-- Step 55: Expert Cooking
 	-- {skill:185} Cooking
 	["Expert {skill:185}"] = "Expert {skill:185}",
 	-- {skill:185} Cooking · {item:16072} Expert Cookbook
-	["Expert {skill:185} raises the cap to 225; it needs skill 125 and character level 20: it is a book, {item:16072} (1g); the arrow picks its nearest seller for your faction. Buy it and read it."] = "Expert {skill:185}, sınırı 225 puana çıkarır; beceri 125 ve karakter seviyesi 20 ister: bir kitaptır, {item:16072} (1g); ok tarafının en yakın satıcısını seçer. Al ve oku.",
+	["Expert {skill:185} raises the cap to 225; it needs skill 125 and character level 20: it is a book, {item:16072} (1g); the arrow picks its nearest seller for your faction. Buy it and read it."] = "Expert {skill:185}, sınırı 225 puana çıkarır. Beceri 125 ve karakter seviyesi 20 ister: bir kitaptır, {item:16072} (1g). Ok tarafının en yakın satıcısını seçer. Al ve oku.",
 	-- {item:16072} Expert Cookbook · {skill:185} Cooking
 	["Buy and read {item:16072} (Expert {skill:185})"] = "{item:16072} satın al ve oku (Expert {skill:185})",
 
@@ -267,7 +267,7 @@ return {
 
 	-- Step 59: Curiously Tasty Omelet (130-175)
 	-- {spell:3376} Curiously Tasty Omelet · {object:29784} Basic Campfire · {item:3682} Recipe: Curiously Tasty Omelet · {zone:1437} Wetlands · {item:3685} Raptor Egg · {npc:340} Kendor Kabonka · {zone:1453} Stormwind
-	["{spell:3376} is orange from 130 (yellow at 170, green at 190, grey at 210): about 46 crafts to 175. Cook at any fire: a town hearth or your own {object:29784}. {item:3682} costs 16s at its vendor; the arrow picks the nearest one of your faction. The raptors of the {zone:1437} drop a {item:3685} about two kills in three. {npc:340} in {zone:1453} sells the recipe."] = "{spell:3376}: 130 puandan turuncu (sarı 170, yeşil 190, gri 210): 175 puana kadar yaklaşık 46 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:3682} satıcısında 16s; ok tarafının en yakın satıcısını seçer. {zone:1437} bölgesinin raptor'ları aşağı yukarı üç öldürmede iki {item:3685} düşürür. {zone:1453} şehrindeki {npc:340} tarifi satıyor.",
+	["{spell:3376} is orange from 130 (yellow at 170, green at 190, grey at 210): about 46 crafts to 175. Cook at any fire: a town hearth or your own {object:29784}. {item:3682} costs 16s at its vendor; the arrow picks the nearest one of your faction. The raptors of the {zone:1437} drop a {item:3685} about two kills in three. {npc:340} in {zone:1453} sells the recipe."] = "{spell:3376}: 130 puandan turuncu (sarı 170, yeşil 190, gri 210): 175 puana kadar yaklaşık 46 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:3682} satıcısında 16s, ok tarafının en yakın satıcısını seçer. {zone:1437} bölgesinin raptor'ları aşağı yukarı üç öldürmede iki {item:3685} düşürür. {zone:1453} şehrindeki {npc:340} tarifi satıyor.",
 
 	-- Step 60: Hot Lion Chops: shopping
 	-- {spell:3398} Hot Lion Chops
@@ -290,7 +290,7 @@ return {
 	-- Step 63: Hot Lion Chops (130-175)
 	-- {spell:3398} Hot Lion Chops · {object:29784} Basic Campfire · {item:3735} Recipe: Hot Lion Chops · {item:3731} Lion Meat
 	-- plural, as words: Hulking Mountain Lions = {npc:2407} Hulking Mountain Lion
-	["{spell:3398} is orange from 130 (yellow at 175, green at 195, grey at 215): about 45 crafts to 175. Cook at any fire: a town hearth or your own {object:29784}. {item:3735} costs 18s at its vendor; the arrow picks the nearest one of your faction. The Feral and Hulking Mountain Lions of Hillsbrad Foothills drop {item:3731} more often than the Starving ones."] = "{spell:3398}: 130 puandan turuncu (sarı 175, yeşil 195, gri 215): 175 puana kadar yaklaşık 45 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:3735} satıcısında 18s; ok tarafının en yakın satıcısını seçer. Hillsbrad Foothills'in Feral ve Hulking Mountain Lion yaratıkları {item:3731} düşürmede Starving olanlardan daha cömert.",
+	["{spell:3398} is orange from 130 (yellow at 175, green at 195, grey at 215): about 45 crafts to 175. Cook at any fire: a town hearth or your own {object:29784}. {item:3735} costs 18s at its vendor; the arrow picks the nearest one of your faction. The Feral and Hulking Mountain Lions of Hillsbrad Foothills drop {item:3731} more often than the Starving ones."] = "{spell:3398}: 130 puandan turuncu (sarı 175, yeşil 195, gri 215): 175 puana kadar yaklaşık 45 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:3735} satıcısında 18s, ok tarafının en yakın satıcısını seçer. Hillsbrad Foothills'in Feral ve Hulking Mountain Lion yaratıkları {item:3731} düşürmede Starving olanlardan daha cömert.",
 
 	-- Step 64: Roast Raptor: shopping
 	-- {item:12210} Roast Raptor
@@ -312,15 +312,15 @@ return {
 
 	-- Step 67: Roast Raptor (175-225)
 	-- {item:12210} Roast Raptor · {object:29784} Basic Campfire · {item:12228} Recipe: Roast Raptor · {zone:1417} Arathi Highlands · {npc:2810} Hammon Karwn · {area:320} Refuge Pointe · {npc:2821} Keena · {area:321} Hammerfall · {item:2692} Hot Spices · {item:17222} Spider Sausage · {item:12205} White Spider Meat
-	["{item:12210} is orange from 175 (yellow at 215, green at 235, grey at 255): about 52 crafts to 225. Cook at any fire: a town hearth or your own {object:29784}. {item:12228} costs 50s at its vendor; the arrow picks the nearest one of your faction. {zone:1417}: {npc:2810} at {area:320} (Alliance) and {npc:2821} at {area:321} (Horde) sell the recipe and {item:2692} beside the raptors. {item:17222} (any trainer from 200, 40s) is the alternative, but it takes two {item:12205} a craft and Dustwallow's spiders drop one about two kills in five."] = "{item:12210}: 175 puandan turuncu (sarı 215, yeşil 235, gri 255): 225 puana kadar yaklaşık 52 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:12228} satıcısında 50s; ok tarafının en yakın satıcısını seçer. {zone:1417}: {area:320} karakolunda {npc:2810} (Alliance) ve {area:321} kasabasında {npc:2821} (Horde), raptor'ların yanında tarifi ve {item:2692} satıyor. {item:17222} (200 puandan her eğitmen, 40s) alternatif, ama üretim başına iki {item:12205} ister ve Dustwallow'un örümcekleri aşağı yukarı beşte iki düşürür.",
+	["{item:12210} is orange from 175 (yellow at 215, green at 235, grey at 255): about 52 crafts to 225. Cook at any fire: a town hearth or your own {object:29784}. {item:12228} costs 50s at its vendor; the arrow picks the nearest one of your faction. {zone:1417}: {npc:2810} at {area:320} (Alliance) and {npc:2821} at {area:321} (Horde) sell the recipe and {item:2692} beside the raptors. {item:17222} (any trainer from 200, 40s) is the alternative, but it takes two {item:12205} a craft and Dustwallow's spiders drop one about two kills in five."] = "{item:12210}: 175 puandan turuncu (sarı 215, yeşil 235, gri 255): 225 puana kadar yaklaşık 52 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:12228} satıcısında 50s, ok tarafının en yakın satıcısını seçer. {zone:1417}: {area:320} karakolunda {npc:2810} (Alliance) ve {area:321} kasabasında {npc:2821} (Horde), raptor'ların yanında tarifi ve {item:2692} satıyor. {item:17222} (200 puandan her eğitmen, 40s) alternatif, ama üretim başına iki {item:12205} ister ve Dustwallow'un örümcekleri aşağı yukarı beşte iki düşürür.",
 
 	-- Step 68: Dirge Quikcleave
 	-- {skill:185} Cooking · {npc:8125} Dirge Quikcleave · {area:976} Gadgetzan · {zone:1446} Tanaris · {zone:1455} Ironforge
-	["Artisan {skill:185} comes from {npc:8125} in {area:976} ({zone:1446}). The cooking trainer in {zone:1455} sends you; it needs skill 225 and level 35."] = "Artisan {skill:185}, {area:976} kasabasındaki {npc:8125} adlı NPC'den gelir ({zone:1446}). Seni {zone:1455} şehrindeki aşçılık eğitmeni gönderir; 225 puan ve seviye 35 gerekir.",
+	["Artisan {skill:185} comes from {npc:8125} in {area:976} ({zone:1446}). The cooking trainer in {zone:1455} sends you; it needs skill 225 and level 35."] = "Artisan {skill:185}, {area:976} kasabasındaki {npc:8125} adlı NPC'den gelir ({zone:1446}). Seni {zone:1455} şehrindeki aşçılık eğitmeni gönderir. 225 puan ve seviye 35 gerekir.",
 
 	-- Step 69: Dirge Quikcleave
 	-- {skill:185} Cooking · {npc:8125} Dirge Quikcleave · {area:976} Gadgetzan · {zone:1446} Tanaris · {zone:1454} Orgrimmar
-	["Artisan {skill:185} comes from {npc:8125} in {area:976} ({zone:1446}). The cooking trainer in {zone:1454} sends you; it needs skill 225 and level 35."] = "Artisan {skill:185}, {area:976} kasabasındaki {npc:8125} adlı NPC'den gelir ({zone:1446}). Seni {zone:1454} şehrindeki aşçılık eğitmeni gönderir; 225 puan ve seviye 35 gerekir.",
+	["Artisan {skill:185} comes from {npc:8125} in {area:976} ({zone:1446}). The cooking trainer in {zone:1454} sends you; it needs skill 225 and level 35."] = "Artisan {skill:185}, {area:976} kasabasındaki {npc:8125} adlı NPC'den gelir ({zone:1446}). Seni {zone:1454} şehrindeki aşçılık eğitmeni gönderir. 225 puan ve seviye 35 gerekir.",
 
 	-- Step 70: Giant Eggs
 	-- plural, as words: Giant Eggs = {item:12207} Giant Egg
@@ -331,7 +331,7 @@ return {
 
 	-- Step 71: Alterac Swiss
 	-- {item:8932} Alterac Swiss
-	["Innkeepers and food vendors sell {item:8932}; the arrow picks the nearest."] = "Hancılar ve yemek satıcıları {item:8932} satar; ok en yakınını seçer.",
+	["Innkeepers and food vendors sell {item:8932}; the arrow picks the nearest."] = "Hancılar ve yemek satıcıları {item:8932} satar, ok en yakınını seçer.",
 
 	-- Step 72: Zesty Clam Meat
 	-- {item:7974} Zesty Clam Meat · {zone:1445} Dustwallow Marsh · {zone:1446} Tanaris
@@ -362,5 +362,5 @@ return {
 
 	-- Step 77: Monster Omelet (225-300)
 	-- {item:12218} Monster Omelet · {object:29784} Basic Campfire · {item:16110} Recipe: Monster Omelet · {item:13931} Nightfin Soup · {npc:8137} Gikkix · {area:977} Steamwheedle Port · {item:13932} Poached Sunscale Salmon · {item:279982} Iron Oven
-	["{item:12218} is orange from 225 (yellow at 265, green at 285, grey at 305): about 120 crafts to 300. Cook at any fire: a town hearth or your own {object:29784}. {item:16110} costs 1g 20s at its vendor; the arrow picks the nearest one of your faction. {item:12218} is orange to 265 and green from 285, yet it still carries you to 300. Fishers can finish on {item:13931} ({npc:8137}, {area:977}; yellow to 310) instead; {item:13932} needs an {item:279982} on Forever."] = "{item:12218}: 225 puandan turuncu (sarı 265, yeşil 285, gri 305): 300 puana kadar yaklaşık 120 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:16110} satıcısında 1g 20s; ok tarafının en yakın satıcısını seçer. {item:12218} 265 puana kadar turuncu ve 285 puandan yeşil, yine de seni 300 puana taşır. Balıkçılar bunun yerine {item:13931} ile bitirebilir ({npc:8137}, {area:977}; 310 puana kadar sarı); {item:13932} Forever'da bir {item:279982} ister.",
+	["{item:12218} is orange from 225 (yellow at 265, green at 285, grey at 305): about 120 crafts to 300. Cook at any fire: a town hearth or your own {object:29784}. {item:16110} costs 1g 20s at its vendor; the arrow picks the nearest one of your faction. {item:12218} is orange to 265 and green from 285, yet it still carries you to 300. Fishers can finish on {item:13931} ({npc:8137}, {area:977}; yellow to 310) instead; {item:13932} needs an {item:279982} on Forever."] = "{item:12218}: 225 puandan turuncu (sarı 265, yeşil 285, gri 305): 300 puana kadar yaklaşık 120 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:16110} satıcısında 1g 20s. Ok tarafının en yakın satıcısını seçer. {item:12218} 265 puana kadar turuncu ve 285 puandan yeşil, yine de seni 300 puana taşır. Balıkçılar bunun yerine {item:13931} ile bitirebilir ({npc:8137}, {area:977}, 310 puana kadar sarı). {item:13932} Forever'da bir {item:279982} ister.",
 }

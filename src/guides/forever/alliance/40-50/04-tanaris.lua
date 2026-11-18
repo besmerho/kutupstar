@@ -41,14 +41,14 @@ return {
 	-- {npc:7882} Security Chief Bilgewhizzle · {quest:97530} Dunemaul Dues
 	["{npc:7882}: {quest:97530}, the bangles come from the ogres on your way south"] = "{npc:7882}: {quest:97530}, bilezikler güneye giderken ogre'lardan gelir",
 	-- {npc:7881} Stoley
-	["{npc:7881}, in the port's tavern; inside"] = "{npc:7881}, limanın meyhanesinde; içeride",
+	["{npc:7881}, in the port's tavern; inside"] = "{npc:7881}, limanın meyhanesinde, içeride",
 
 	-- Step 7: Noonshade Ruins: kill these as you meet them
 	-- {area:1937} Noonshade Ruins
 	["{area:1937}: kill these as you meet them"] = "{area:1937}: bunları karşılaştıkça öldür",
 	-- {area:976} Gadgetzan
 	-- plural, as words: Wastewander Rogues = {npc:5615} Wastewander Rogue
-	["Ride back west toward {area:976}. The Wastewander bandits and thieves hold the dunes on the way; any of them can carry a water pouch.\nCareful: Wastewander Rogues (level 43-44) move stealthed, so they can approach unseen."] = "Batıya, {area:976} kasabasına doğru geri sür. Yoldaki kum tepelerini Wastewander haydutları ve hırsızları tutuyor; herhangi biri su kesesi taşıyabilir.\nDikkat: Wastewander Rogue yaratıkları (seviye 43-44) gizlenerek dolaşır, bu yüzden görünmeden yaklaşabilirler.",
+	["Ride back west toward {area:976}. The Wastewander bandits and thieves hold the dunes on the way; any of them can carry a water pouch.\nCareful: Wastewander Rogues (level 43-44) move stealthed, so they can approach unseen."] = "Batıya, {area:976} kasabasına doğru geri sür. Yoldaki kum tepelerini Wastewander haydutları ve hırsızları tutuyor. Herhangi biri su kesesi taşıyabilir.\nDikkat: Wastewander Rogue yaratıkları (seviye 43-44) gizlenerek dolaşır, bu yüzden görünmeden yaklaşabilirler.",
 
 	-- Step 9: Waterspring Field
 	-- {area:976} Gadgetzan · {npc:7847} Caliph Scorpidsting
@@ -59,9 +59,9 @@ return {
 	-- {area:1336} Lost Rigger Cove
 	["{area:1336}: kill these as you meet them"] = "{area:1336}: bunları karşılaştıkça öldür",
 	-- {npc:7883} Andre Firebeard · {npc:7881} Stoley
-	["Follow the coast south to the pirate cove. Southsea pirates crowd the beach and the boats: work along the edge and pull one at a time. {npc:7883} stands on the far side; {npc:7881}'s stolen cargo lies in the camp.\nCareful: Two or three pirates stand with {npc:7883}, and many more pirates from the town join the fight once it starts."] = "Kıyıyı güneye, korsan koyuna izle. Southsea korsanları kumsalı ve tekneleri dolduruyor: kenar boyunca ilerle ve tek tek çek. {npc:7883} öbür yakada duruyor; {npc:7881} adlı NPC'nin çalınan yükü kampta.\nDikkat: {npc:7883} ile iki üç korsan duruyor, dövüş başlayınca kasabadan çok daha fazla korsan katılır.",
+	["Follow the coast south to the pirate cove. Southsea pirates crowd the beach and the boats: work along the edge and pull one at a time. {npc:7883} stands on the far side; {npc:7881}'s stolen cargo lies in the camp.\nCareful: Two or three pirates stand with {npc:7883}, and many more pirates from the town join the fight once it starts."] = "Kıyıyı güneye, korsan koyuna izle. Southsea korsanları kumsalı ve tekneleri dolduruyor: kenar boyunca ilerle ve tek tek çek. {npc:7883} öbür yakada duruyor. {npc:7881} adlı NPC'nin çalınan yükü kampta.\nDikkat: {npc:7883} ile iki üç korsan duruyor, dövüş başlayınca kasabadan çok daha fazla korsan katılır.",
 	-- {quest:2873} Stoley's Shipment
-	["{quest:2873}; upstairs"] = "{quest:2873}; üst katta",
+	["{quest:2873}; upstairs"] = "{quest:2873}, üst katta",
 
 	-- Step 11: Steamwheedle Port
 	-- {npc:7881} Stoley
@@ -76,7 +76,7 @@ return {
 	-- {area:979} Sandsorrow Watch
 	["The pool by {area:979}"] = "{area:979} yanındaki havuz",
 	-- {area:979} Sandsorrow Watch · {item:8584} Untapped Dowsing Widget
-	["Ride north-west to the Sandfury troll camp at {area:979}. Use the {item:8584} at the edge of its pool to tap it; the trolls stand close, so pull the nearest first.\nCareful: tapping the pool brings Scarabs (level 44-47) out of the sand to attack you: tap it, then step away from the trolls and fight the Scarabs one by one."] = "Kuzeybatıya, {area:979} karakolundaki Sandfury troll kampına sür. Gölünü açmak için {item:8584} eşyasını kenarında kullan; troller yakında duruyor, önce en yakınını çek.\nDikkat: gölü açmak kumdan sana saldıran Scarab yaratıklarını (seviye 44-47) çıkarır: aç, sonra trollerden uzaklaş ve Scarab'larla tek tek dövüş.",
+	["Ride north-west to the Sandfury troll camp at {area:979}. Use the {item:8584} at the edge of its pool to tap it; the trolls stand close, so pull the nearest first.\nCareful: tapping the pool brings Scarabs (level 44-47) out of the sand to attack you: tap it, then step away from the trolls and fight the Scarabs one by one."] = "Kuzeybatıya, {area:979} karakolundaki Sandfury troll kampına sür. Gölünü açmak için {item:8584} eşyasını kenarında kullan. Troller yakında duruyor, önce en yakınını çek.\nDikkat: gölü açmak kumdan sana saldıran Scarab yaratıklarını (seviye 44-47) çıkarır: aç, sonra trollerden uzaklaş ve Scarab'larla tek tek dövüş.",
 	-- {item:8585} Tapped Dowsing Widget
 	["Gives the {item:8585}"] = "{item:8585} verir",
 	-- {area:979} Sandsorrow Watch
@@ -84,7 +84,7 @@ return {
 
 	-- Step 16: Zul'Farrak
 	-- {area:978} Zul'Farrak · {quest:3042} Troll Temper · {npc:7604} Sergeant Bly · {quest:2768} Divino-matic Rod
-	["{area:978} is a dungeon for a group of five; its quests here are level 45 to 47. Its gate lies about 400 yards north of the pool.\nInside: the Scarabs drop the shells, every Sandfury troll can drop {quest:3042}, and {npc:7604} carries the {quest:2768}."] = "{area:978}, beş kişilik bir grup için bir zindan; buradaki görevleri 45-47. seviye. Kapısı gölün yaklaşık 400 yard kuzeyinde.\nİçeride: Scarab'lar kabukları düşürür, her Sandfury trolü {quest:3042} düşürebilir, {quest:2768} de {npc:7604} yaratığında.",
+	["{area:978} is a dungeon for a group of five; its quests here are level 45 to 47. Its gate lies about 400 yards north of the pool.\nInside: the Scarabs drop the shells, every Sandfury troll can drop {quest:3042}, and {npc:7604} carries the {quest:2768}."] = "{area:978}, beş kişilik bir grup için bir zindan, buradaki görevleri 45-47. seviye. Kapısı gölün yaklaşık 400 yard kuzeyinde.\nİçeride: Scarab'lar kabukları düşürür, her Sandfury trolü {quest:3042} düşürebilir, {quest:2768} de {npc:7604} yaratığında.",
 	-- {quest:2865} Scarab Shells
 	["{quest:2865}: the Scarabs, inside"] = "{quest:2865}: Scarab'lar, içeride",
 	-- {quest:3042} Troll Temper
@@ -112,12 +112,12 @@ return {
 	-- {area:1938} Broken Pillar
 	["The {area:1938}"] = "{area:1938}",
 	-- {area:1938} Broken Pillar · {npc:7771} Marvon Rivetseeker · {quest:3161} Gahz'ridian
-	["Ride south to the dig camp at the {area:1938}. {npc:7771} hands you a detector helm: wear it to see the {quest:3161} mounds, which lie thick in the sand around the camp and south-west toward the ogres."] = "Güneye, {area:1938} yanındaki kazı kampına git. {npc:7771} sana bir dedektör miğferi verir: {quest:3161} tümseklerini görmek için onu giy; tümsekler kampın çevresinde ve güneybatıda, ogrelere doğru kumda sık sık duruyor.",
+	["Ride south to the dig camp at the {area:1938}. {npc:7771} hands you a detector helm: wear it to see the {quest:3161} mounds, which lie thick in the sand around the camp and south-west toward the ogres."] = "Güneye, {area:1938} yanındaki kazı kampına git. {npc:7771} sana bir dedektör miğferi verir: {quest:3161} tümseklerini görmek için onu giy. Tümsekler kampın çevresinde ve güneybatıda, ogrelere doğru kumda sık sık duruyor.",
 
 	-- Step 23: Dunemaul Compound
 	-- {npc:5955} Tooga · {quest:3362} Thistleshrub Valley
 	-- plural, as words: Dunemaul Ogres = {npc:5471} Dunemaul Ogre
-	["Ride south-west to the ogre compound and keep to its south end; the compound's quest waits for the Un'Goro guide.\nWhy the grind to 47: {npc:5955} waits at the edge of the {quest:3362} (mobs of 48-50). Grind it on the Dunemaul Ogres (45-46) at the compound's south end, the safer camp, not on the Brutes and Enforcers (46-48) inside."] = "Güneybatıya, ogre yerleşkesine sür ve güney ucunda kal; yerleşkenin görevi Un'Goro rehberini bekler.\nNeden 47'ye kadar kasılıyor: {npc:5955}, {quest:3362} (48-50. seviye yaratıklar) kenarında bekliyor. Seviyeyi içerideki Brute ve Enforcer yaratıklarıyla (46-48) değil, yerleşkenin güney ucundaki daha güvenli kampta Dunemaul Ogre yaratıklarıyla (45-46) kas.",
+	["Ride south-west to the ogre compound and keep to its south end; the compound's quest waits for the Un'Goro guide.\nWhy the grind to 47: {npc:5955} waits at the edge of the {quest:3362} (mobs of 48-50). Grind it on the Dunemaul Ogres (45-46) at the compound's south end, the safer camp, not on the Brutes and Enforcers (46-48) inside."] = "Güneybatıya, ogre yerleşkesine sür ve güney ucunda kal. Yerleşkenin görevi Un'Goro rehberini bekler.\nNeden 47'ye kadar kasılıyor: {npc:5955}, {quest:3362} (48-50. seviye yaratıklar) kenarında bekliyor. Seviyeyi içerideki Brute ve Enforcer yaratıklarıyla (46-48) değil, yerleşkenin güney ucundaki daha güvenli kampta Dunemaul Ogre yaratıklarıyla (45-46) kas.",
 	-- {item:278186} Brilliantly Polished Bangle
 	["{item:278186}, from any Dunemaul ogre"] = "{item:278186}, herhangi bir Dunemaul ogre'sinden",
 	-- {npc:5471} Dunemaul Ogre
@@ -144,13 +144,13 @@ return {
 	-- {area:442} Auberdine
 	["Fly to {area:442}"] = "Uç: {area:442}",
 	-- {zone:1457} Darnassus · {npc:7763} Curgle Cranklehop · {area:442} Auberdine · {area:150} Menethil Harbor · {area:348} Aerie Peak
-	["{zone:1457} first, while you are on this side of the sea: Troyas' answer, {npc:7763}'s crate, Tyrande and the soil errand, then the boat from {area:442} to {area:150} and the gryphon to {area:348}."] = "Denizin bu yakasındayken önce {zone:1457}: Troyas'ın cevabı, {npc:7763} adlı NPC'nin sandığı, Tyrande ve toprak işi; sonra {area:442} kasabasından {area:150} limanına gemi ve {area:348} için grifon.",
+	["{zone:1457} first, while you are on this side of the sea: Troyas' answer, {npc:7763}'s crate, Tyrande and the soil errand, then the boat from {area:442} to {area:150} and the gryphon to {area:348}."] = "Denizin bu yakasındayken önce {zone:1457}: Troyas'ın cevabı, {npc:7763} adlı NPC'nin sandığı, Tyrande ve toprak işi. Sonra {area:442} kasabasından {area:150} limanına gemi ve {area:348} için grifon.",
 	-- {area:976} Gadgetzan
 	["{area:976} flight master"] = "{area:976} uçuş ustası",
 
 	-- Step 29: Teldrassil
 	-- {area:442} Auberdine · {area:702} Rut'theran Village · {npc:3838} Vesprystus
-	["Take the boat from {area:442}'s dock to {area:702}; {npc:3838}, the hippogryph master, stands on the rise just east of the landing: learn the flight path on the way up to the village."] = "{area:442} iskelesinden {area:702} köyüne gemiye bin; hipogrif ustası {npc:3838} iskelenin hemen doğusundaki yükseltide duruyor: köye çıkarken uçuş noktasını öğren.",
+	["Take the boat from {area:442}'s dock to {area:702}; {npc:3838}, the hippogryph master, stands on the rise just east of the landing: learn the flight path on the way up to the village."] = "{area:442} iskelesinden {area:702} köyüne gemiye bin. Hipogrif ustası {npc:3838} iskelenin hemen doğusundaki yükseltide duruyor: köye çıkarken uçuş noktasını öğren.",
 	-- {area:702} Rut'theran Village
 	["{area:702} flight master"] = "{area:702} uçuş ustası",
 
@@ -199,7 +199,7 @@ return {
 
 	-- Step 44: Hinterlands
 	-- {area:348} Aerie Peak · {area:271} Southshore · {zone:1425} Hinterlands
-	["No flight path to {area:348} yet: ride north-east out of {area:271} on the road into the {zone:1425}; {area:348} sits just past the border."] = "Henüz {area:348} uçuş noktası yok: {area:271} kasabasından kuzeydoğuya, {zone:1425} yoluna sür; {area:348} sınırın hemen ötesinde.",
+	["No flight path to {area:348} yet: ride north-east out of {area:271} on the road into the {zone:1425}; {area:348} sits just past the border."] = "Henüz {area:348} uçuş noktası yok: {area:271} kasabasından kuzeydoğuya, {zone:1425} yoluna sür. {area:348} sınırın hemen ötesinde.",
 
 	-- Step 45: Aerie Peak
 	-- {npc:5636} Gryphon Master Talonaxe

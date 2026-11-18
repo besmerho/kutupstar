@@ -23,7 +23,7 @@ return {
 
 	-- Step 3: Shari Stilwell
 	-- {area:154} Deathknell · {area:159} Brill · {npc:246152} Shari Stilwell
-	["Follow the road east out of {area:154} to {area:159}. {npc:246152}, the paladin trainer, stands in town; she trains you from here on."] = "Yolu doğuya izleyerek {area:154} köyünden {area:159} kasabasına git. Paladin eğitmeni {npc:246152} kasabada duruyor; bundan sonra seni o eğitir.",
+	["Follow the road east out of {area:154} to {area:159}. {npc:246152}, the paladin trainer, stands in town; she trains you from here on."] = "Yolu doğuya izleyerek {area:154} köyünden {area:159} kasabasına git. Paladin eğitmeni {npc:246152} kasabada duruyor. Bundan sonra seni o eğitir.",
 
 	-- Step 4: A Second Home
 	-- {npc:246152} Shari Stilwell · {area:159} Brill · {quest:91317} The Tarnished · {area:16881} Shadowvale
@@ -31,7 +31,7 @@ return {
 
 	-- Step 5: Bandarion Keep
 	-- {area:16602} Bandarion Keep · {area:156} Solliden Farmstead · {npc:246349} Breton Samuels · {npc:246389} Hilda the Breaker · {npc:259190} Ephram Barbaro · {quest:96896} A Righteous Cause · {npc:267009} Hadric Harlson · {area:159} Brill
-	["{area:16602} stands on the bluffs north-west of the {area:156} (the road west starts near 29,46). {npc:246349} waits at the gate. {npc:246389}, the keep's trainer, and {npc:259190}, its stable master, stand at the forest's edge just south of him. They only have work for you from level 10 and after {quest:96896} from Leonid at the keep, the end of {npc:267009}'s chain that starts south-east of {area:159}; take their quests when you see them."] = "{area:16602} kalesi, {area:156} çiftliğinin kuzeybatısındaki yamaçlarda duruyor (batı yolu 29,46 yakınında başlar). {npc:246349} kapıda bekliyor. Kalenin eğitmeni {npc:246389} ve ahır ustası {npc:259190}, onun hemen güneyinde, ormanın kenarında duruyor. Sana ancak 10. seviyeden itibaren ve kaledeki Leonid'den alınan {quest:96896} görevinden sonra iş verirler; bu, {area:159} kasabasının güneydoğusunda başlayan {npc:267009} zincirinin sonu; görevlerini gördüğünde al.",
+	["{area:16602} stands on the bluffs north-west of the {area:156} (the road west starts near 29,46). {npc:246349} waits at the gate. {npc:246389}, the keep's trainer, and {npc:259190}, its stable master, stand at the forest's edge just south of him. They only have work for you from level 10 and after {quest:96896} from Leonid at the keep, the end of {npc:267009}'s chain that starts south-east of {area:159}; take their quests when you see them."] = "{area:16602} kalesi, {area:156} çiftliğinin kuzeybatısındaki yamaçlarda duruyor (batı yolu 29,46 yakınında başlar). {npc:246349} kapıda bekliyor. Kalenin eğitmeni {npc:246389} ve ahır ustası {npc:259190}, onun hemen güneyinde, ormanın kenarında duruyor. Sana ancak 10. seviyeden itibaren ve kaledeki Leonid'den alınan {quest:96896} görevinden sonra iş verirler. Bu, {area:159} kasabasının güneydoğusunda başlayan {npc:267009} zincirinin sonu. Görevlerini gördüğünde al.",
 
 	-- Step 6: Murlocs at the Gates
 	-- {area:16881} Shadowvale
@@ -49,7 +49,7 @@ return {
 
 	-- Step 8: Danitha Morr
 	-- {npc:246378} Danitha Morr · {npc:246393} Jorin Croge · {quest:91317} The Tarnished
-	["{npc:246378} leads the order from inside the keep; {npc:246393} stands beside it. {quest:91317} need level 9."] = "{npc:246378} tarikatı kalenin içinden yönetiyor; {npc:246393} onun yanında duruyor. {quest:91317} seviye 9 ister.",
+	["{npc:246378} leads the order from inside the keep; {npc:246393} stands beside it. {quest:91317} need level 9."] = "{npc:246378} tarikatı kalenin içinden yönetiyor. {npc:246393} onun yanında duruyor. {quest:91317} seviye 9 ister.",
 
 	-- Step 9: Shadowvale
 	-- {quest:91317} The Tarnished · {area:16881} Shadowvale · {area:16616} Whispering Forest · {npc:259431} Rudolph Gelhardt
@@ -101,7 +101,7 @@ return {
 
 	-- Step 17: The Undercity
 	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:10181} Lady Sylvanas Windrunner · {object:36126} Royal Quarter · {npc:257648} Tanis Alderwood · {object:36078} Trade Quarter
-	["Walk south from {area:159} to the {area:153} and down into the {zone:1458}. {npc:10181} holds court in the {object:36126}; {npc:257648} begs in the {object:36078}."] = "{area:159} kasabasından güneye, {area:153} harabelerine yürü ve {zone:1458} şehrine in. {npc:10181} {object:36126} semtinde divan kuruyor; {npc:257648} {object:36078} semtinde dileniyor.",
+	["Walk south from {area:159} to the {area:153} and down into the {zone:1458}. {npc:10181} holds court in the {object:36126}; {npc:257648} begs in the {object:36078}."] = "{area:159} kasabasından güneye, {area:153} harabelerine yürü ve {zone:1458} şehrine in. {npc:10181} {object:36126} semtinde divan kuruyor. {npc:257648} {object:36078} semtinde dileniyor.",
 
 	-- Step 18: Linen Cloth
 	-- {npc:257648} Tanis Alderwood · {item:2589} Linen Cloth
@@ -114,14 +114,14 @@ return {
 	-- {item:6866} Symbol of Life
 	["The {item:6866}"] = "{item:6866}",
 	-- {area:16602} Bandarion Keep · {npc:246378} Danitha Morr · {item:6866} Symbol of Life · {npc:257655} Deathguard Billmuth
-	["Back to {area:16602}. {npc:246378} gives you the {item:6866}; {npc:257655} waits downstairs in the keep. If you lose the symbol, {npc:246378} gives you another."] = "{area:16602} kalesine dön. {npc:246378} sana {item:6866} verir; {npc:257655} kalenin alt katında bekliyor. Sembolü kaybedersen {npc:246378} sana bir tane daha verir.",
+	["Back to {area:16602}. {npc:246378} gives you the {item:6866}; {npc:257655} waits downstairs in the keep. If you lose the symbol, {npc:246378} gives you another."] = "{area:16602} kalesine dön. {npc:246378} sana {item:6866} verir. {npc:257655} kalenin alt katında bekliyor. Sembolü kaybedersen {npc:246378} sana bir tane daha verir.",
 	-- {npc:257655} Deathguard Billmuth
 	["{npc:257655}, downstairs"] = "{npc:257655}, alt katta",
 
 	-- Step 21: Deathguard Falgan
 	-- {area:812} Venomweb Vale · {item:6866} Symbol of Life
 	-- plural, as words: Scarlet Crusaders = {npc:238286} Scarlet Crusader
-	["{area:812} is at the far east end of the glades, a long walk. Falgan lies dead among the Scarlet Crusaders there: target his body and use the {item:6866}, then talk to him at once, as he does not stay alive long. If he is already up (another player), just talk to him; if he died again, raise him again."] = "{area:812}, bozkırların en doğu ucunda, uzun bir yürüyüş. Falgan oradaki Scarlet Crusader yaratıklarının arasında ölü yatıyor: cesedini hedef al ve {item:6866} kullan, sonra hemen onunla konuş, çünkü uzun süre hayatta kalmaz. Zaten ayaktaysa (başka bir oyuncu), sadece onunla konuş; yeniden öldüyse yeniden dirilt.",
+	["{area:812} is at the far east end of the glades, a long walk. Falgan lies dead among the Scarlet Crusaders there: target his body and use the {item:6866}, then talk to him at once, as he does not stay alive long. If he is already up (another player), just talk to him; if he died again, raise him again."] = "{area:812}, bozkırların en doğu ucunda, uzun bir yürüyüş. Falgan oradaki Scarlet Crusader yaratıklarının arasında ölü yatıyor: cesedini hedef al ve {item:6866} kullan, sonra hemen onunla konuş, çünkü uzun süre hayatta kalmaz. Zaten ayaktaysa (başka bir oyuncu), sadece onunla konuş. Yeniden öldüyse yeniden dirilt.",
 
 	-- Step 22: The Scarlet attack plans
 	["The Scarlet attack plans"] = "Scarlet saldırı planları",

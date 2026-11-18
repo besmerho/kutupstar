@@ -51,7 +51,7 @@ return {
 
 	-- Step 8: Rog'mar
 	-- {area:16743} Rog'mar · {npc:258031} Neza Bloodsnout · {npc:256657} Kreza Darkthorn · {npc:256418} Krom'rosh · {npc:255993} Grakna · {npc:256675} Innkeeper Toka · {npc:263190} Tan'jani
-	["West to {area:16743}, the Horde's fort in the middle of the zone. {npc:258031} stands on its east side, {npc:256657} and {npc:256418} in the middle with {npc:255993}, the wind rider master; {npc:256675} and {npc:263190} on the west side."] = "Batıya, bölgenin ortasındaki Horde kalesine, {area:16743} içine git. {npc:258031} doğu yakasında, {npc:256657} ve {npc:256418} ortada rüzgâr süvarisi ustası {npc:255993} ile; {npc:256675} ve {npc:263190} batı yakasında duruyor.",
+	["West to {area:16743}, the Horde's fort in the middle of the zone. {npc:258031} stands on its east side, {npc:256657} and {npc:256418} in the middle with {npc:255993}, the wind rider master; {npc:256675} and {npc:263190} on the west side."] = "Batıya, bölgenin ortasındaki Horde kalesine, {area:16743} içine git. {npc:258031} doğu yakasında, {npc:256657} ve {npc:256418} ortada rüzgâr süvarisi ustası {npc:255993} ile. {npc:256675} ve {npc:263190} batı yakasında duruyor.",
 	-- {npc:256418} Krom'rosh · {object:3202} Grom'gol (no name in this language: may be words)
 	["{npc:256418}: Aggro'gosh's report from {object:3202}, if you carry it"] = "{npc:256418}: yanındaysa Aggro'gosh'un {object:3202} raporu",
 	-- {npc:255993} Grakna
@@ -71,7 +71,7 @@ return {
 	["The plains and the marsh"] = "Ovalar ve bataklık",
 	-- {area:16729} Terral's Watch · {quest:96103} A Feast for Buzzards
 	-- plural, as words: Low Plains Buzzards = {npc:263343} Low Plains Buzzard
-	["South-east of Rog'mar the plains run down to {area:16729}. The Low Plains Buzzards circle everywhere; a picked carcass lies in the grass (its skull starts {quest:96103}), and the marsh vents are just past it."] = "Rog'mar'ın güneydoğusunda ovalar {area:16729} yöresine kadar iner. Low Plains Buzzard yaratıkları her yerde dönüyor; otların arasında didiklenmiş bir leş yatıyor (kafatası {quest:96103} görevini başlatır), bataklık delikleri de hemen ötesinde.",
+	["South-east of Rog'mar the plains run down to {area:16729}. The Low Plains Buzzards circle everywhere; a picked carcass lies in the grass (its skull starts {quest:96103}), and the marsh vents are just past it."] = "Rog'mar'ın güneydoğusunda ovalar {area:16729} yöresine kadar iner. Low Plains Buzzard yaratıkları her yerde dönüyor. Otların arasında didiklenmiş bir leş yatıyor (kafatası {quest:96103} görevini başlatır), bataklık delikleri de hemen ötesinde.",
 
 	-- Step 12: Sleebo Fizzlespout
 	-- {npc:263367} Sleebo Fizzlespout
@@ -86,7 +86,7 @@ return {
 	["The vipers and the tallstriders"] = "Engerekler ve tallstrider'lar",
 	-- {npc:257079} Cavalry Scout Alturin · {area:16729} Terral's Watch · {area:16725} Wheeler's Grange
 	-- plural, as words: Glade Vipers = {npc:263307} Glade Viper · Roving Tallstriders = {npc:263348} Roving Tallstrider
-	["The Glade Vipers hide in the long grass south-east of town; the Roving Tallstriders graze beside them. {npc:257079}, an Alliance elite (level 45), rides the road from {area:16729} to {area:16725} along the grass's south-west edge: keep clear of him."] = "Glade Viper yaratıkları kasabanın güneydoğusundaki uzun otlarda saklanıyor; Roving Tallstrider yaratıkları yanlarında otluyor. Alliance eliti {npc:257079} (45. seviye) otların güneybatı kenarı boyunca {area:16729} ile {area:16725} arasındaki yolda at sürüyor: ondan uzak dur.",
+	["The Glade Vipers hide in the long grass south-east of town; the Roving Tallstriders graze beside them. {npc:257079}, an Alliance elite (level 45), rides the road from {area:16729} to {area:16725} along the grass's south-west edge: keep clear of him."] = "Glade Viper yaratıkları kasabanın güneydoğusundaki uzun otlarda saklanıyor. Roving Tallstrider yaratıkları yanlarında otluyor. Alliance eliti {npc:257079} (45. seviye) otların güneybatı kenarı boyunca {area:16729} ile {area:16725} arasındaki yolda at sürüyor: ondan uzak dur.",
 
 	-- Step 16: King of the Wild Plains
 	-- {npc:263315} Ombassa · {area:16743} Rog'mar
@@ -129,7 +129,7 @@ return {
 	-- Step 27: The Cinderscale hollow
 	["The Cinderscale hollow"] = "Cinderscale çukuru",
 	-- {item:271611} Cubic Draconia
-	["The whelps nest all over the hollow; the warriors guard its back, by the {item:271611}. The warriors are level 41-42: pull them one at a time. Scaldaron, a rare elite drake, can be up here too: leave him be unless you have a group."] = "Yavrular çukurun her yerinde yuva yapmış; savaşçılar arka tarafı, {item:271611} yanını koruyor. Savaşçılar 41-42. seviye: tek tek çek. Rare elit bir drake olan Scaldaron da burada olabilir: grubun yoksa ona dokunma.",
+	["The whelps nest all over the hollow; the warriors guard its back, by the {item:271611}. The warriors are level 41-42: pull them one at a time. Scaldaron, a rare elite drake, can be up here too: leave him be unless you have a group."] = "Yavrular çukurun her yerinde yuva yapmış. Savaşçılar arka tarafı, {item:271611} yanını koruyor. Savaşçılar 41-42. seviye: tek tek çek. Rare elit bir drake olan Scaldaron da burada olabilir: grubun yoksa ona dokunma.",
 
 	-- Step 29: Meadowsbrook
 	-- {area:16735} Meadowsbrook · {area:16744} Southern Watch · {npc:263380} Ghostmaw
@@ -174,7 +174,7 @@ return {
 
 	-- Step 41: Sunnyglade
 	-- {npc:256899} Chogg'Zac · {area:16723} Sunnyglade
-	["The cultists fill the streets and fields; the Shadowmancers on the town's northern side carry the missives. The finger bones drop from all of them.\nCareful: {npc:256899}, an elite ogre (level 41), walks the western streets of {area:16723}, around 44-47,47-52. Pull the cultists out towards you and let him pass."] = "Tarikatçılar sokakları ve tarlaları dolduruyor; mektupları kasabanın kuzey yakasındaki Shadowmancer'lar taşıyor. Parmak kemikleri hepsinden düşer.\nDikkat: elit bir ogre olan {npc:256899} (41. seviye) {area:16723} köyünün batı sokaklarında, 44-47,47-52 çevresinde yürüyor. Tarikatçıları kendine doğru çek ve onun geçmesine izin ver.",
+	["The cultists fill the streets and fields; the Shadowmancers on the town's northern side carry the missives. The finger bones drop from all of them.\nCareful: {npc:256899}, an elite ogre (level 41), walks the western streets of {area:16723}, around 44-47,47-52. Pull the cultists out towards you and let him pass."] = "Tarikatçılar sokakları ve tarlaları dolduruyor. Mektupları kasabanın kuzey yakasındaki Shadowmancer'lar taşıyor. Parmak kemikleri hepsinden düşer.\nDikkat: elit bir ogre olan {npc:256899} (41. seviye) {area:16723} köyünün batı sokaklarında, 44-47,47-52 çevresinde yürüyor. Tarikatçıları kendine doğru çek ve onun geçmesine izin ver.",
 
 	-- Step 42: Fuzzle
 	-- {npc:259158} Fuzzle · {area:16723} Sunnyglade
@@ -190,7 +190,7 @@ return {
 
 	-- Step 44: Clubtoe
 	-- {area:16723} Sunnyglade · {npc:260931} Clubtoe · {npc:256710} Tran'gul
-	["West to {area:16723} again: {npc:260931}, a Twilight miner who wants out, waits at the town's eastern edge. Talk him round, then hand {npc:256710}'s quest in; one of the missing ogres stands a few steps west."] = "Yine batıya, {area:16723} köyüne git: kaçmak isteyen bir Twilight madencisi olan {npc:260931} kasabanın doğu kenarında bekliyor. Onu ikna et, sonra {npc:256710} adlı NPC'nin görevini teslim et; kayıp ogre'lerden biri birkaç adım batıda duruyor.",
+	["West to {area:16723} again: {npc:260931}, a Twilight miner who wants out, waits at the town's eastern edge. Talk him round, then hand {npc:256710}'s quest in; one of the missing ogres stands a few steps west."] = "Yine batıya, {area:16723} köyüne git: kaçmak isteyen bir Twilight madencisi olan {npc:260931} kasabanın doğu kenarında bekliyor. Onu ikna et, sonra {npc:256710} adlı NPC'nin görevini teslim et. Kayıp ogre'lerden biri birkaç adım batıda duruyor.",
 	-- {npc:260931} Clubtoe
 	["talk {npc:260931} round"] = "{npc:260931} adlı NPC'yi ikna et",
 	-- {npc:261208} Twilight Brute
@@ -205,7 +205,7 @@ return {
 
 	-- Step 47: Chogg'Zac
 	-- {npc:256899} Chogg'Zac · {area:16723} Sunnyglade · {npc:255829} Clugfist · {area:16726} Bolder'ok · {quest:95420} Land of Giants · {npc:258570} Da'grosh
-	["Careful: {npc:256899}, the two-headed ogre at the western edge of {area:16723}, is an elite (level 41): grouping up is advised under 43. Clear the cultists around him first and come in with full health and mana: recorded players of 42-43 killed him alone. {npc:255829}'s quests in {area:16726} wait on this one: skip him and {quest:95420}, the {area:16726} quests and {npc:258570}'s camp in the west go with him (about 21,000 XP); the guide then leaves them out."] = "Dikkat: {area:16723} köyünün batı kenarındaki iki başlı ogre {npc:256899} bir elit (41. seviye): 43'ün altındaysan grup kurman tavsiye edilir. Önce çevresindeki tarikatçıları temizle ve tam can ve manayla gir: kaydedilen 42-43 seviyesindeki oyuncular onu tek başına öldürdü. {npc:255829} adlı NPC'nin {area:16726} kasabasındaki görevleri buna bağlı: onu atlarsan {quest:95420}, {area:16726} görevleri ve batıdaki {npc:258570} kampı da onunla gider (yaklaşık 21.000 XP); rehber de bunları dışarıda bırakır.",
+	["Careful: {npc:256899}, the two-headed ogre at the western edge of {area:16723}, is an elite (level 41): grouping up is advised under 43. Clear the cultists around him first and come in with full health and mana: recorded players of 42-43 killed him alone. {npc:255829}'s quests in {area:16726} wait on this one: skip him and {quest:95420}, the {area:16726} quests and {npc:258570}'s camp in the west go with him (about 21,000 XP); the guide then leaves them out."] = "Dikkat: {area:16723} köyünün batı kenarındaki iki başlı ogre {npc:256899} bir elit (41. seviye): 43'ün altındaysan grup kurman tavsiye edilir. Önce çevresindeki tarikatçıları temizle ve tam can ve manayla gir: kaydedilen 42-43 seviyesindeki oyuncular onu tek başına öldürdü. {npc:255829} adlı NPC'nin {area:16726} kasabasındaki görevleri buna bağlı: onu atlarsan {quest:95420}, {area:16726} görevleri ve batıdaki {npc:258570} kampı da onunla gider (yaklaşık 21.000 XP). Rehber de bunları dışarıda bırakır.",
 
 	-- Step 48: Clubtoe
 	-- {quest:95418} Spread the Word · {npc:256710} Tran'gul · {area:16743} Rog'mar
@@ -219,7 +219,7 @@ return {
 
 	-- Step 50: WANTED: Scoutmaster Vargas
 	-- {npc:260211} Scoutmaster Vargas · {npc:256728} Na'zok · {npc:258031} Neza Bloodsnout
-	["{npc:260211} is an elite (level 42) at the Alliance scouts' camp in the hills south-east of {npc:256728}, where you go next: grouping up is advised. The poster hangs in the middle of the fort; {npc:258031} takes the eye, later in this guide."] = "{npc:260211}, sıradaki durağın {npc:256728} kampının güneydoğusundaki tepelerde bulunan Alliance izci kampında bir elit (42. seviye): grup kurman tavsiye edilir. İlan kalenin ortasında asılı; gözü bu rehberde daha sonra {npc:258031} teslim alır.",
+	["{npc:260211} is an elite (level 42) at the Alliance scouts' camp in the hills south-east of {npc:256728}, where you go next: grouping up is advised. The poster hangs in the middle of the fort; {npc:258031} takes the eye, later in this guide."] = "{npc:260211}, sıradaki durağın {npc:256728} kampının güneydoğusundaki tepelerde bulunan Alliance izci kampında bir elit (42. seviye): grup kurman tavsiye edilir. İlan kalenin ortasında asılı. Gözü bu rehberde daha sonra {npc:258031} teslim alır.",
 	-- {object:707249} Wanted (no name in this language: may be words)
 	["the {object:707249} poster"] = "{object:707249} ilanı",
 
@@ -245,7 +245,7 @@ return {
 	["The paletusks"] = "Paletusk'lar",
 	-- {npc:256728} Na'zok
 	-- plural, as words: Young Paletusks = {npc:258331} Young Paletusk · Mature Paletusks = {npc:255851} Mature Paletusk
-	["South down the hills, round the west side of the Alliance scouts' camp: tap the Young Paletusks with {npc:256728}'s staff to send them home; the Mature Paletusks around the hills drop the boar meat."] = "Tepelerden güneye, Alliance izci kampının batı yakasından dolaşarak in: Young Paletusk yaratıklarına {npc:256728} adlı NPC'nin asasıyla dokunup onları eve yolla; tepelerin çevresindeki Mature Paletusk yaratıkları yaban domuzu eti düşürür.",
+	["South down the hills, round the west side of the Alliance scouts' camp: tap the Young Paletusks with {npc:256728}'s staff to send them home; the Mature Paletusks around the hills drop the boar meat."] = "Tepelerden güneye, Alliance izci kampının batı yakasından dolaşarak in: Young Paletusk yaratıklarına {npc:256728} adlı NPC'nin asasıyla dokunup onları eve yolla. Tepelerin çevresindeki Mature Paletusk yaratıkları yaban domuzu eti düşürür.",
 	-- {item:268521} Swineherd's Staff
 	-- plural, as words: Young Paletusks = {npc:258331} Young Paletusk
 	["{item:268521}, on the Young Paletusks"] = "{item:268521}, Young Paletusk yaratıklarında",
@@ -267,13 +267,13 @@ return {
 	-- {quest:95428} Clugfist's Decree · {npc:256418} Krom'rosh · {area:16743} Rog'mar
 	["{quest:95428}: for {npc:256418} in {area:16743}, later in this guide"] = "{quest:95428}: bu rehberde daha sonra {area:16743} kalesindeki {npc:256418} için",
 	-- {quest:94669} Pay to Play
-	["{quest:94669}: the Ring's bouts, one-on-one fights with elites (41-45); a deposit first"] = "{quest:94669}: Ring'in maçları, elitlerle (41-45) bire bir dövüşler; önce bir depozito",
+	["{quest:94669}: the Ring's bouts, one-on-one fights with elites (41-45); a deposit first"] = "{quest:94669}: Ring'in maçları, elitlerle (41-45) bire bir dövüşler, önce bir depozito",
 
 	-- Step 60: The Bloodmaster's Ring: Buzzbeak
 	-- {quest:94670} Bloodmaster's Ring
 	["The {quest:94670}: Buzzbeak"] = "{quest:94670}: Buzzbeak",
 	-- {npc:255829} Clugfist · {npc:258626} Mog'thar · {npc:257059} Chub'chob · {npc:257062} Jezap Jinglesprocket
-	["Each bout is a fight in the ring below {npc:255829}'s hill against an elite: Buzzbeak (41), Kronk and Bonegnaw (42), {npc:258626} (43), Snufflesnout (44) and {npc:257059} (45). Come in rested, with full health and mana; if a bout goes wrong, {npc:257062} offers it again."] = "Her maç, {npc:255829} adlı NPC'nin tepesinin altındaki arenada bir elite karşı bir dövüş: Buzzbeak (41), Kronk ve Bonegnaw (42), {npc:258626} (43), Snufflesnout (44) ve {npc:257059} (45). Dinlenmiş olarak, tam can ve manayla gir; bir maç kötü giderse {npc:257062} onu yeniden verir.",
+	["Each bout is a fight in the ring below {npc:255829}'s hill against an elite: Buzzbeak (41), Kronk and Bonegnaw (42), {npc:258626} (43), Snufflesnout (44) and {npc:257059} (45). Come in rested, with full health and mana; if a bout goes wrong, {npc:257062} offers it again."] = "Her maç, {npc:255829} adlı NPC'nin tepesinin altındaki arenada bir elite karşı bir dövüş: Buzzbeak (41), Kronk ve Bonegnaw (42), {npc:258626} (43), Snufflesnout (44) ve {npc:257059} (45). Dinlenmiş olarak, tam can ve manayla gir. Bir maç kötü giderse {npc:257062} onu yeniden verir.",
 	-- {quest:94670} Bloodmaster's Ring
 	["{quest:94670}: Buzzbeak"] = "{quest:94670}: Buzzbeak",
 	["beat Buzzbeak"] = "Buzzbeak'i yen",
@@ -322,7 +322,7 @@ return {
 	["Back through the port"] = "Limandan geri geç",
 	["Back north along the shore: hand in the murlocs and the hide on the docks on your way to the crawlers."] = "Kıyı boyunca kuzeye dön: crawler'lara giderken iskelelerde murlocları ve postu teslim et.",
 	-- {quest:95261} It Takes Guts
-	["{quest:95261}: the beasts' entrails come as you go; the mushrooms grow on the ridge west of the pirates"] = "{quest:95261}: hayvanların bağırsakları yolda gelir; mantarlar korsanların batısındaki sırtta büyüyor",
+	["{quest:95261}: the beasts' entrails come as you go; the mushrooms grow on the ridge west of the pirates"] = "{quest:95261}: hayvanların bağırsakları yolda gelir. Mantarlar korsanların batısındaki sırtta büyüyor",
 
 	-- Step 70: Beast Entrails as you go
 	-- {item:268632} Beast Entrails
@@ -364,7 +364,7 @@ return {
 	-- Step 78: The pirates' ships
 	["The pirates' ships"] = "Korsan gemileri",
 	-- {quest:95124} Admiral Lamora · {npc:259758} Gul'gash
-	["Out to the pirates' cliffs once more. Plant Whizzbuzz's charges on the three ships moored below the camp, south to north; {quest:95124} stands by the middle one, with her loot chest beside her. Keep an eye out for {npc:259758} on the way.\nCareful: {quest:95124} is level 45, a level or two over you here: clear the deck around her first and come in with full health."] = "Bir kez daha korsanların uçurumlarına çık. Whizzbuzz'ın patlayıcılarını kampın aşağısında demirli üç gemiye güneyden kuzeye yerleştir; {quest:95124} ortadakinin yanında, ganimet sandığı yanında duruyor. Yolda {npc:259758} yaratığına göz kulak ol.\nDikkat: {quest:95124} 45. seviye, burada senden bir-iki seviye yüksek: önce çevresindeki güverteyi temizle ve tam canla gir.",
+	["Out to the pirates' cliffs once more. Plant Whizzbuzz's charges on the three ships moored below the camp, south to north; {quest:95124} stands by the middle one, with her loot chest beside her. Keep an eye out for {npc:259758} on the way.\nCareful: {quest:95124} is level 45, a level or two over you here: clear the deck around her first and come in with full health."] = "Bir kez daha korsanların uçurumlarına çık. Whizzbuzz'ın patlayıcılarını kampın aşağısında demirli üç gemiye güneyden kuzeye yerleştir. {quest:95124} ortadakinin yanında, ganimet sandığı yanında duruyor. Yolda {npc:259758} yaratığına göz kulak ol.\nDikkat: {quest:95124} 45. seviye, burada senden bir-iki seviye yüksek: önce çevresindeki güverteyi temizle ve tam canla gir.",
 	-- {item:268505} Remote Explosive Charge
 	["{item:268505}, the southern ship"] = "{item:268505}, güneydeki gemi",
 	["the middle ship"] = "ortadaki gemi",

@@ -22,7 +22,7 @@ return {
 	["Iceclaw Bear Pendants"] = "Iceclaw Bear Pendant",
 	-- {area:77} Anvilmar
 	-- plural, as words: Frostmane Troll Whelps = {npc:706} Frostmane Troll Whelp · Frostmane Novices = {npc:946} Frostmane Novice · Frostbolts = {spell:116} Frostbolt
-	["The Frostmane Troll Whelps (level 3-4) hold the snowy slopes west and south-west of {area:77}, and the Frostmane Novices (level 3-4, they throw Frostbolts from range) camp south of it. Both carry the pendants; they respawn in about three minutes."] = "Frostmane Troll Whelp yaratıkları (seviye 3-4) {area:77} salonunun batısındaki ve güneybatısındaki karlı yamaçları tutuyor, Frostmane Novice yaratıkları (seviye 3-4, uzaktan Frostbolt atarlar) da güneyinde kamp kurmuş. İkisi de kolyeleri taşıyor; yaklaşık üç dakikada yeniden doğarlar.",
+	["The Frostmane Troll Whelps (level 3-4) hold the snowy slopes west and south-west of {area:77}, and the Frostmane Novices (level 3-4, they throw Frostbolts from range) camp south of it. Both carry the pendants; they respawn in about three minutes."] = "Frostmane Troll Whelp yaratıkları (seviye 3-4) {area:77} salonunun batısındaki ve güneybatısındaki karlı yamaçları tutuyor, Frostmane Novice yaratıkları (seviye 3-4, uzaktan Frostbolt atarlar) da güneyinde kamp kurmuş. İkisi de kolyeleri taşıyor. Yaklaşık üç dakikada yeniden doğarlar.",
 
 	-- Step 4: Teo Hammerstorm
 	-- {area:77} Anvilmar · {item:6635} Earth Sapta
@@ -39,7 +39,7 @@ return {
 	-- Step 6: The Spirit Stone
 	["The Spirit Stone"] = "Spirit Stone",
 	-- {area:77} Anvilmar · {item:6635} Earth Sapta · {npc:5891} Minor Manifestation of Earth
-	["The Spirit Stone stands on a snowy ridge north-west of {area:77}. The trail is easy to miss: it climbs the hill from the valley floor; at the small camp near the top turn left and the stone comes into view. Stand beside it, drink the {item:6635} and speak to the {npc:5891} before it fades."] = "Spirit Stone, {area:77} salonunun kuzeybatısında karlı bir sırtta duruyor. Patikayı gözden kaçırmak kolay: vadi tabanından tepeye tırmanıyor; tepeye yakın küçük kampta sola dön, taş görünür. Yanında dur, {item:6635} iç ve kaybolmadan {npc:5891} ile konuş.",
+	["The Spirit Stone stands on a snowy ridge north-west of {area:77}. The trail is easy to miss: it climbs the hill from the valley floor; at the small camp near the top turn left and the stone comes into view. Stand beside it, drink the {item:6635} and speak to the {npc:5891} before it fades."] = "Spirit Stone, {area:77} salonunun kuzeybatısında karlı bir sırtta duruyor. Patikayı gözden kaçırmak kolay: vadi tabanından tepeye tırmanıyor. Tepeye yakın küçük kampta sola dön, taş görünür. Yanında dur, {item:6635} iç ve kaybolmadan {npc:5891} ile konuş.",
 	-- {item:6635} Earth Sapta
 	["{item:6635}, beside the Spirit Stone"] = "{item:6635}, Spirit Stone taşının yanında",
 	-- {item:6656} Rough Quartz

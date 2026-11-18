@@ -5,7 +5,7 @@
 return {
 	-- Guide
 	-- {spell:5502} Sense Undead
-	["The Alliance paladin's rare two-handed mace for the 20s, with a shield and {spell:5502} on the way."] = "Alliance paladin'inin 20'ler için nadir iki elli topuzu; yolda bir kalkan ve {spell:5502} ile birlikte.",
+	["The Alliance paladin's rare two-handed mace for the 20s, with a shield and {spell:5502} on the way."] = "Alliance paladin'inin 20'ler için nadir iki elli topuzu, yolda bir kalkan ve {spell:5502} ile birlikte.",
 
 	-- Step 1: The Tome of Valor (Ironforge)
 	-- {npc:6179} Tiza Battleforge · {object:32386} Hall of Mysteries (no name in this language: may be words) · {object:32362} Mystic Ward (no name in this language: may be words) · {item:6776} Tome of Valor · {npc:6171} Duthorian Rall · {zone:1453} Stormwind · {area:2257} Deeprun Tram · {zone:1455} Ironforge
@@ -38,7 +38,7 @@ return {
 
 	-- Step 7: Bailor's Ore
 	-- {zone:1432} Loch Modan
-	["The crate of ore sits outdoors in the middle of the Mo'grosh ogre camp in north-east {zone:1432}, beside a big tree and a broken wagon, between the caves. The camp holds about fifteen Mo'grosh ogres, elite (level 18-19), who knock you down and come back after five minutes: grouping up is encouraged; at 20-22 it needs a group of about three. The crate is back two seconds after each loot, so every paladin in the group gets one."] = "Cevher sandığı, kuzeydoğu {zone:1432} bölgesindeki Mo'grosh ogre kampının ortasında, açık havada, büyük bir ağacın ve kırık bir arabanın yanında, mağaraların arasında duruyor. Kampta yaklaşık on beş elit Mo'grosh ogre'u (seviye 18-19) var; seni yere sererler ve beş dakika sonra geri gelirler: grup kurman önerilir; 20-22'de yaklaşık üç kişilik bir grup ister. Sandık her loot'tan iki saniye sonra yerine gelir, böylece gruptaki her paladin bir tane alır.",
+	["The crate of ore sits outdoors in the middle of the Mo'grosh ogre camp in north-east {zone:1432}, beside a big tree and a broken wagon, between the caves. The camp holds about fifteen Mo'grosh ogres, elite (level 18-19), who knock you down and come back after five minutes: grouping up is encouraged; at 20-22 it needs a group of about three. The crate is back two seconds after each loot, so every paladin in the group gets one."] = "Cevher sandığı, kuzeydoğu {zone:1432} bölgesindeki Mo'grosh ogre kampının ortasında, açık havada, büyük bir ağacın ve kırık bir arabanın yanında, mağaraların arasında duruyor. Kampta yaklaşık on beş elit Mo'grosh ogre'u (seviye 18-19) var. Seni yere sererler ve beş dakika sonra geri gelirler: grup kurman önerilir. 20-22'de yaklaşık üç kişilik bir grup ister. Sandık her loot'tan iki saniye sonra yerine gelir, böylece gruptaki her paladin bir tane alır.",
 	-- {object:92420} Bailor's Ore
 	["{object:92420} crate"] = "{object:92420} sandığı",
 
@@ -51,7 +51,7 @@ return {
 	-- Step 9: Whitestone Oak Lumber
 	-- {area:1581} Deadmines · {area:20} Moonbrook
 	-- plural, as words: Goblin Woodcarvers = {npc:641} Goblin Woodcarver
-	["{area:1581} is a group of five under {area:20}; the instance portal is at the bottom of the {area:20} mine. The Goblin Woodcarvers (elite, level 18-19) in the mast room with Sneed drop the lumber every time."] = "{area:1581}, {area:20} köyünün altında beş kişilik bir grup zindanı; instance portalı {area:20} madeninin dibinde. Sneed'le birlikte direk odasındaki Goblin Woodcarver yaratıkları (elit, seviye 18-19) keresteyi her zaman düşürür.",
+	["{area:1581} is a group of five under {area:20}; the instance portal is at the bottom of the {area:20} mine. The Goblin Woodcarvers (elite, level 18-19) in the mast room with Sneed drop the lumber every time."] = "{area:1581}, {area:20} köyünün altında beş kişilik bir grup zindanı. İnstance portalı {area:20} madeninin dibinde. Sneed'le birlikte direk odasındaki Goblin Woodcarver yaratıkları (elit, seviye 18-19) keresteyi her zaman düşürür.",
 	-- {area:1581} Deadmines · {area:20} Moonbrook
 	["{area:1581}, in the {area:20} mine"] = "{area:1581}, {area:20} madeninde",
 	-- plural, as words: Goblin Woodcarvers = {npc:641} Goblin Woodcarver
@@ -59,7 +59,7 @@ return {
 
 	-- Step 10: Jordan's Smithing Hammer
 	-- {area:236} Shadowfang Keep · {zone:1421} Silverpine Forest · {zone:1437} Wetlands · {area:287} Hillsbrad
-	["{area:236} is a dungeon for a group of five in the low to mid 20s, in southern {zone:1421}, Horde land: a long trip for the Alliance, through the {zone:1437}, Arathi and {area:287}. The hammer lies on a crate across from the horses in the stables, early in the dungeon, at the far end of the courtyard before the ramp up; it is back five minutes after someone takes it."] = "{area:236}, Horde toprağı güney {zone:1421} bölgesinde, 20'lerin başı ile ortası arasında beş kişilik bir grup için bir zindan: Alliance için {zone:1437}, Arathi ve {area:287} üzerinden uzun bir yol. Çekiç zindanın başlarında, ahırlarda atların karşısındaki bir sandığın üstünde, yukarı çıkan rampadan önceki avlunun en ucunda duruyor; biri aldıktan beş dakika sonra geri gelir.",
+	["{area:236} is a dungeon for a group of five in the low to mid 20s, in southern {zone:1421}, Horde land: a long trip for the Alliance, through the {zone:1437}, Arathi and {area:287}. The hammer lies on a crate across from the horses in the stables, early in the dungeon, at the far end of the courtyard before the ramp up; it is back five minutes after someone takes it."] = "{area:236}, Horde toprağı güney {zone:1421} bölgesinde, 20'lerin başı ile ortası arasında beş kişilik bir grup için bir zindan: Alliance için {zone:1437}, Arathi ve {area:287} üzerinden uzun bir yol. Çekiç zindanın başlarında, ahırlarda atların karşısındaki bir sandığın üstünde, yukarı çıkan rampadan önceki avlunun en ucunda duruyor. Biri aldıktan beş dakika sonra geri gelir.",
 	-- {object:91138} Jordan's Hammer
 	["{object:91138}, inside"] = "{object:91138}, içeride",
 
@@ -77,7 +77,7 @@ return {
 	-- {item:6995} Corrupted Kor Gem
 	["The {item:6995}"] = "{item:6995}",
 	-- {area:2797} Blackfathom Deeps · {zone:1440} Ashenvale · {item:6995} Corrupted Kor Gem · {spell:122} Frost Nova
-	["The Blackfathom naga in the flooded passages around the {area:2797} entrance, on {zone:1440}'s north-west coast, drop the {item:6995}: Tide Priestesses (level 20-21), Oracles (21-22) and Sea Witches (23-24), one in two. You do not need to enter the instance. All are elite: grouping up is encouraged; players solo them one at a time, with difficulty. They heal themselves, run for help at low health, satyrs stand near some, and the Sea Witches cast {spell:122} up close. Some players report no drop while in a raid group."] = "{zone:1440} bölgesinin kuzeybatı kıyısında, {area:2797} girişinin çevresindeki su basmış geçitlerde bulunan Blackfathom naga'ları {item:6995} düşürür: Tide Priestess (seviye 20-21), Oracle (21-22) ve Sea Witch (23-24) yaratıkları, ikide bir. Instance'a girmen gerekmez. Hepsi elit: grup kurman önerilir; oyuncular onları tek tek, zorlukla tek başına keser. Kendilerini iyileştirirler, canları azalınca yardım için kaçarlar, bazılarının yakınında satyr'lar durur, Sea Witch'ler de yakından {spell:122} kullanır. Bazı oyuncular raid grubundayken düşmediğini söylüyor.",
+	["The Blackfathom naga in the flooded passages around the {area:2797} entrance, on {zone:1440}'s north-west coast, drop the {item:6995}: Tide Priestesses (level 20-21), Oracles (21-22) and Sea Witches (23-24), one in two. You do not need to enter the instance. All are elite: grouping up is encouraged; players solo them one at a time, with difficulty. They heal themselves, run for help at low health, satyrs stand near some, and the Sea Witches cast {spell:122} up close. Some players report no drop while in a raid group."] = "{zone:1440} bölgesinin kuzeybatı kıyısında, {area:2797} girişinin çevresindeki su basmış geçitlerde bulunan Blackfathom naga'ları {item:6995} düşürür: Tide Priestess (seviye 20-21), Oracle (21-22) ve Sea Witch (23-24) yaratıkları, ikide bir. Instance'a girmen gerekmez. Hepsi elit: grup kurman önerilir. Oyuncular onları tek tek, zorlukla tek başına keser. Kendilerini iyileştirirler, canları azalınca yardım için kaçarlar, bazılarının yakınında satyr'lar durur, Sea Witch'ler de yakından {spell:122} kullanır. Bazı oyuncular raid grubundayken düşmediğini söylüyor.",
 
 	-- Step 14: The Purified Kor Gem
 	-- {item:7083} Purified Kor Gem

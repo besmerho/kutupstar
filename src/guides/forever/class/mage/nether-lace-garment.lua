@@ -18,7 +18,7 @@ return {
 	-- {object:174797} Xavian Waterfall (no name in this language: may be words)
 	["The {object:174797}"] = "{object:174797}",
 	-- {area:431} Splintertree Post · {area:429} Xavian
-	["Fly to {area:431} and swim north up the river past the big lake to its far northern end, where the zone text reads {area:429}; satyrs hold the ruins around it and a few river beasts are in the way. Swim right in under the highest waterfall until you touch the rock wall, then use the flask (you can stay in the water). The waterfalls on the western Falfarren fork do not work."] = "{area:431} karakoluna uç ve nehri kuzeye yüzerek büyük gölü geçip bölge yazısının {area:429} gösterdiği en kuzey ucuna var; çevresindeki harabeleri satyr'lar tutuyor, yolda birkaç nehir canavarı da var. En yüksek şelalenin altına, kaya duvarına dokunana kadar yüz, sonra şişeyi kullan (suda kalabilirsin). Batıdaki Falfarren kolundaki şelaleler işe yaramaz.",
+	["Fly to {area:431} and swim north up the river past the big lake to its far northern end, where the zone text reads {area:429}; satyrs hold the ruins around it and a few river beasts are in the way. Swim right in under the highest waterfall until you touch the rock wall, then use the flask (you can stay in the water). The waterfalls on the western Falfarren fork do not work."] = "{area:431} karakoluna uç ve nehri kuzeye yüzerek büyük gölü geçip bölge yazısının {area:429} gösterdiği en kuzey ucuna var. Çevresindeki harabeleri satyr'lar tutuyor, yolda birkaç nehir canavarı da var. En yüksek şelalenin altına, kaya duvarına dokunana kadar yüz, sonra şişeyi kullan (suda kalabilirsin). Batıdaki Falfarren kolundaki şelaleler işe yaramaz.",
 	-- {item:7269} Deino's Flask
 	["{item:7269}, under the falls"] = "{item:7269}, şelalenin altında",
 
@@ -30,9 +30,9 @@ return {
 	-- {quest:1945} Laughing Sisters
 	["The {quest:1945}"] = "{quest:1945}",
 	-- {quest:1945} Laughing Sisters · {area:426} Raynewood Retreat · {zone:1440} Ashenvale
-	["The {quest:1945}, dryads of level 24-25, roam around the {area:426} in central {zone:1440}; every one drops a hair and they come back after 5 minutes. They often resist fire (and some frost and shadow): arcane spells land best. Each runs for help at low health. Keep clear of the guards by the white tower of the retreat, who hit hard."] = "Seviye 24-25 dryad'lar olan {quest:1945}, orta {zone:1440} bölgesinde {area:426} çevresinde dolaşıyor; her biri bir saç düşürür ve 5 dakika sonra geri gelirler. Çoğu zaman fire'a (bazıları frost ve shadow'a da) direnirler: en iyi arcane büyüler işler. Her biri canı azalınca yardım için kaçar. Sığınağın beyaz kulesinin yanındaki, sert vuran muhafızlardan uzak dur.",
+	["The {quest:1945}, dryads of level 24-25, roam around the {area:426} in central {zone:1440}; every one drops a hair and they come back after 5 minutes. They often resist fire (and some frost and shadow): arcane spells land best. Each runs for help at low health. Keep clear of the guards by the white tower of the retreat, who hit hard."] = "Seviye 24-25 dryad'lar olan {quest:1945}, orta {zone:1440} bölgesinde {area:426} çevresinde dolaşıyor. Her biri bir saç düşürür ve 5 dakika sonra geri gelirler. Çoğu zaman fire'a (bazıları frost ve shadow'a da) direnirler: en iyi arcane büyüler işler. Her biri canı azalınca yardım için kaçar. Sığınağın beyaz kulesinin yanındaki, sert vuran muhafızlardan uzak dur.",
 
 	-- Step 6: Kil'hala
 	-- {npc:3484} Kil'hala
-	["{npc:3484}, a troll tailor, works at the Crossroads. The robe gives intellect, stamina and spirit; the tunic more intellect and stamina but no spirit."] = "Troll terzi {npc:3484}, Crossroads'ta çalışıyor. Cüppe zekâ, dayanıklılık ve ruh verir; tunik daha fazla zekâ ve dayanıklılık verir ama ruh vermez.",
+	["{npc:3484}, a troll tailor, works at the Crossroads. The robe gives intellect, stamina and spirit; the tunic more intellect and stamina but no spirit."] = "Troll terzi {npc:3484}, Crossroads'ta çalışıyor. Cüppe zekâ, dayanıklılık ve ruh verir. Tunik daha fazla zekâ ve dayanıklılık verir ama ruh vermez.",
 }

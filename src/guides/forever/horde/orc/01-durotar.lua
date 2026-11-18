@@ -13,7 +13,7 @@ return {
 	-- Step 2: Training weapons and boars
 	["Training weapons and boars"] = "Eğitim silahları ve yaban domuzları",
 	-- plural, as words: Mottled Boars = {npc:3098} Mottled Boar
-	["The weapons lie around the Den and the training grounds; the Mottled Boars roam the whole valley floor."] = "Silahlar Den binasının ve eğitim alanının çevresinde duruyor; Mottled Boar yaratıkları vadinin her yerinde dolaşıyor.",
+	["The weapons lie around the Den and the training grounds; the Mottled Boars roam the whole valley floor."] = "Silahlar Den binasının ve eğitim alanının çevresinde duruyor. Mottled Boar yaratıkları vadinin her yerinde dolaşıyor.",
 
 	-- Step 3: The Den
 	-- {npc:3143} Gornek · {npc:3159} Kzan Thornslash
@@ -33,7 +33,7 @@ return {
 	-- {npc:5884} Mai'ah
 	["{npc:5884}, the mage trainer, at the entrance to the Den"] = "{npc:5884}, Mage eğitmeni, Den girişinde",
 	-- {npc:3159} Kzan Thornslash
-	["{npc:3159}, at the back of the cave; below ground"] = "{npc:3159}, mağaranın dibinde; yer altında",
+	["{npc:3159}, at the back of the cave; below ground"] = "{npc:3159}, mağaranın dibinde, yer altında",
 	-- {npc:9796} Galgar
 	["{npc:9796}, by the cooking fire"] = "{npc:9796}, yemek ateşinin yanında",
 
@@ -46,7 +46,7 @@ return {
 	["{area:363}: kill these as you meet them"] = "{area:363}: bunları karşılaştıkça öldür",
 	-- {npc:3287} Hana'zua · {quest:792} Vile Familiars · {area:365} Burning Blade Coven
 	-- plural, as words: Scorpid Workers = {npc:3124} Scorpid Worker · Cactus Apples = {item:11583} Cactus Apple
-	["The Scorpid Workers roam the slope south of {npc:3287}; pick the Cactus Apples by the cactuses on the way.\nThe {quest:792} swarm the slope below the {area:365}, the cave on the valley's north side."] = "Scorpid Worker yaratıkları {npc:3287} adlı NPC'nin güneyindeki yamaçta dolaşıyor; yolda kaktüslerin yanındaki Cactus Apple meyvelerini topla.\n{quest:792} sürüsü, vadinin kuzey yakasındaki mağara olan {area:365} altındaki yamaçta kaynıyor.",
+	["The Scorpid Workers roam the slope south of {npc:3287}; pick the Cactus Apples by the cactuses on the way.\nThe {quest:792} swarm the slope below the {area:365}, the cave on the valley's north side."] = "Scorpid Worker yaratıkları {npc:3287} adlı NPC'nin güneyindeki yamaçta dolaşıyor. Yolda kaktüslerin yanındaki Cactus Apple meyvelerini topla.\n{quest:792} sürüsü, vadinin kuzey yakasındaki mağara olan {area:365} altındaki yamaçta kaynıyor.",
 
 	-- Step 6: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
@@ -54,12 +54,12 @@ return {
 	-- Step 7: Paladin trainer
 	["Paladin trainer"] = "Paladin eğitmeni",
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {area:363} Valley of Trials
-	["{npc:246344} in {zone:1456}; {area:363} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde; {area:363} içinde Paladin eğitmeni yok",
+	["{npc:246344} in {zone:1456}; {area:363} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde, {area:363} içinde Paladin eğitmeni yok",
 
 	-- Step 8: Druid trainer
 	["Druid trainer"] = "Druid eğitmeni",
 	-- {npc:3034} Sheal Runetotem · {zone:1412} Mulgore · {area:363} Valley of Trials
-	["{npc:3034} in {zone:1412}; {area:363} has no druid trainer"] = "{npc:3034}, {zone:1412} bölgesinde; {area:363} içinde Druid eğitmeni yok",
+	["{npc:3034} in {zone:1412}; {area:363} has no druid trainer"] = "{npc:3034}, {zone:1412} bölgesinde, {area:363} içinde Druid eğitmeni yok",
 
 	-- Step 9: Back to the Den
 	["Back to the Den"] = "Den mağarasına dön",
@@ -76,7 +76,7 @@ return {
 
 	-- Step 13: Canaga Earthcaller
 	-- {npc:3143} Gornek · {quest:804} Sarkoth · {npc:5887} Canaga Earthcaller · {quest:1516} Call of Earth
-	["Back to the Den: {npc:3143} takes {quest:804}'s claw and {npc:5887}, just outside, has {quest:1516} now that you are level 4."] = "Den'e dön: {npc:3143}, {quest:804} görevinin pençesini teslim alır; hemen dışarıdaki {npc:5887} de artık seviye 4 olduğun için {quest:1516} görevini verir.",
+	["Back to the Den: {npc:3143} takes {quest:804}'s claw and {npc:5887}, just outside, has {quest:1516} now that you are level 4."] = "Den'e dön: {npc:3143}, {quest:804} görevinin pençesini teslim alır. Hemen dışarıdaki {npc:5887} de artık seviye 4 olduğun için {quest:1516} görevini verir.",
 
 	-- Step 15: Thazz'ril's Pick
 	["Inside the cave, go straight on at the first split, then right and follow the stream on your left to the waterfall: the pick glows by the water, behind a column of rock."] = "Mağaranın içinde ilk ayrımda düz devam et, sonra sağa dön ve solundaki dereyi şelaleye kadar izle: kazma suyun yanında, bir kaya sütununun arkasında parlıyor.",
@@ -113,7 +113,7 @@ return {
 	["Careful: Ukorsbane (8) is elite and walks among the Ridgeshade spiders in the camp south of {area:362}: pull the spiders away from him."] = "Dikkat: Ukorsbane (8) elit ve {area:362} kasabasının güneyindeki kampta Ridgeshade örümcekleri arasında dolaşıyor: örümcekleri ondan uzağa çek.",
 	-- {npc:266881} Pa'zula
 	-- plural, as words: Hexed Pendants = {item:275724} Hexed Pendant
-	["{npc:266881}: enchanters only, the residue is disenchanted from Hexed Pendants"] = "{npc:266881}: yalnızca Enchanting mesleği olanlar için; kalıntı, Hexed Pendant eşyalarının disenchant edilmesiyle çıkar",
+	["{npc:266881}: enchanters only, the residue is disenchanted from Hexed Pendants"] = "{npc:266881}: yalnızca Enchanting mesleği olanlar için. Kalıntı, Hexed Pendant eşyalarının disenchant edilmesiyle çıkar",
 	-- {npc:5880} Un'Thuwa
 	["{npc:5880}, the mage trainer in Sen'jin"] = "{npc:5880}, Sen'jin'deki Mage eğitmeni",
 
@@ -121,7 +121,7 @@ return {
 	-- {npc:265809} Brakk
 	["{npc:265809}'s campfire"] = "{npc:265809} kamp ateşi",
 	-- {npc:265809} Brakk · {area:362} Razor Hill · {spell:1229451} Boosted Rest · {zone:1454} Orgrimmar
-	["{npc:265809} camps just south of {area:362}. Sit by his campfire (/sit) until the {spell:1229451} buff appears. With a profession learned, {npc:265809} also offers its Camping 101, which its trainer takes: in {area:362} or in {zone:1454} at the start of the next guide."] = "{npc:265809}, {area:362} kasabasının hemen güneyinde kamp kurmuş. {spell:1229451} güçlendirmesi gelene dek kamp ateşinin yanında otur (/sit). Bir meslek öğrendiysen {npc:265809} o mesleğin Camping 101 görevini de verir; görevi mesleğin eğitmeni teslim alır: {area:362} kasabasında ya da sonraki rehberin başında {zone:1454} şehrinde.",
+	["{npc:265809} camps just south of {area:362}. Sit by his campfire (/sit) until the {spell:1229451} buff appears. With a profession learned, {npc:265809} also offers its Camping 101, which its trainer takes: in {area:362} or in {zone:1454} at the start of the next guide."] = "{npc:265809}, {area:362} kasabasının hemen güneyinde kamp kurmuş. {spell:1229451} güçlendirmesi gelene dek kamp ateşinin yanında otur (/sit). Bir meslek öğrendiysen {npc:265809} o mesleğin Camping 101 görevini de verir. Görevi mesleğin eğitmeni teslim alır: {area:362} kasabasında ya da sonraki rehberin başında {zone:1454} şehrinde.",
 
 	-- Step 23: Camping 101: Mining
 	-- {npc:3175} Krunn · {skill:186} Mining
@@ -163,7 +163,7 @@ return {
 
 	-- Step 31: Razor Hill
 	-- {npc:266940} Turroc
-	["{npc:266940}, on the east side of town; inside"] = "{npc:266940}, kasabanın doğu yakasında; içeride",
+	["{npc:266940}, on the east side of town; inside"] = "{npc:266940}, kasabanın doğu yakasında, içeride",
 
 	-- Step 32: Razor Hill
 	-- {npc:3191} Cook Torka
@@ -190,7 +190,7 @@ return {
 
 	-- Step 39: Lieutenant Benedict
 	-- {npc:3192} Lieutenant Benedict · {item:4881} Aged Envelope
-	["{npc:3192} waits at the top of the keep; his key opens the chest beside him, which holds the {item:4881}."] = "{npc:3192} kalenin tepesinde bekliyor; anahtarı yanındaki sandığı açar, {item:4881} o sandıkta.",
+	["{npc:3192} waits at the top of the keep; his key opens the chest beside him, which holds the {item:4881}."] = "{npc:3192} kalenin tepesinde bekliyor. Anahtarı yanındaki sandığı açar, {item:4881} o sandıkta.",
 	["Upstairs"] = "Üst katta",
 
 	-- Step 40: Razor Hill
@@ -224,7 +224,7 @@ return {
 	-- {area:368} Echo Isles
 	["{area:368}: kill these as you meet them"] = "{area:368}: bunları karşılaştıkça öldür",
 	-- plural, as words: Durotar Tigers = {npc:3121} Durotar Tiger
-	["Wade across to the northern Echo Isle. The Matriarch prowls among the raptors there.\nDurotar Tigers roam the isle as well as the shore south of Sen'jin, and the Taillasher eggs sit in nests on the isles and along the beach."] = "Sığ sudan yürüyerek kuzeydeki Echo Isle adasına geç. Matriarch oradaki raptor'ların arasında dolaşıyor.\nDurotar Tiger yaratıkları adada ve Sen'jin'in güneyindeki kıyıda dolaşıyor; Taillasher yumurtaları adalardaki ve sahil boyundaki yuvalarda duruyor.",
+	["Wade across to the northern Echo Isle. The Matriarch prowls among the raptors there.\nDurotar Tigers roam the isle as well as the shore south of Sen'jin, and the Taillasher eggs sit in nests on the isles and along the beach."] = "Sığ sudan yürüyerek kuzeydeki Echo Isle adasına geç. Matriarch oradaki raptor'ların arasında dolaşıyor.\nDurotar Tiger yaratıkları adada ve Sen'jin'in güneyindeki kıyıda dolaşıyor. Taillasher yumurtaları adalardaki ve sahil boyundaki yuvalarda duruyor.",
 
 	-- Step 46: Level 9
 	["Level 9"] = "Seviye 9",
@@ -237,7 +237,7 @@ return {
 	-- Step 47: Echo Isles: kill these as you meet them
 	-- {quest:826} Zalazane
 	-- plural, as words: Hexed Trolls = {npc:3207} Hexed Troll · Hexed Pendants = {item:275724} Hexed Pendant · Voodoo Trolls = {npc:3206} Voodoo Troll
-	["Head south through the isles. The Loa idols lie all over the southern isles; Voodoo and Hexed Trolls hold them and drop the Hexed Pendants. {quest:826} and Minshina's cage are on the southernmost isle.\nCareful: the trolls stand close together and the Voodoo Trolls cast from range: pull one at a time. {quest:826} himself is level 10."] = "Adaların arasından güneye ilerle. Loa putları güneydeki adaların her yanında; onları Voodoo Troll ve Hexed Troll yaratıkları tutuyor, Hexed Pendant eşyalarını da onlar düşürür. {quest:826} ve Minshina'nın kafesi en güneydeki adada.\nDikkat: trollar birbirine yakın duruyor ve Voodoo Troll yaratıkları uzaktan büyü yapar: tek tek çek. {quest:826} kendisi 10. seviye.",
+	["Head south through the isles. The Loa idols lie all over the southern isles; Voodoo and Hexed Trolls hold them and drop the Hexed Pendants. {quest:826} and Minshina's cage are on the southernmost isle.\nCareful: the trolls stand close together and the Voodoo Trolls cast from range: pull one at a time. {quest:826} himself is level 10."] = "Adaların arasından güneye ilerle. Loa putları güneydeki adaların her yanında. Onları Voodoo Troll ve Hexed Troll yaratıkları tutuyor, Hexed Pendant eşyalarını da onlar düşürür. {quest:826} ve Minshina'nın kafesi en güneydeki adada.\nDikkat: trollar birbirine yakın duruyor ve Voodoo Troll yaratıkları uzaktan büyü yapar: tek tek çek. {quest:826} kendisi 10. seviye.",
 
 	-- Step 48: Deathskip to Sen'jin Village
 	-- {area:367} Sen'jin Village
@@ -271,11 +271,11 @@ return {
 	["Back over the bridge and south along the {zone:1411} bank of the river to where a narrow trail climbs the mountain: {npc:5900} keeps the shrine at the top. Mind the edges on the way up, and come back down the same trail."] = "Köprüden geri geç ve nehrin {zone:1411} yakasından güneye, dağa tırmanan dar bir patikaya kadar git: {npc:5900} tepedeki tapınağa bakıyor. Çıkarken kenarlara dikkat et ve aynı patikadan geri in.",
 
 	-- Step 60: Razormane Grounds
-	["Quilboars and scouts hold the huts west of town, where the prickly pears grow; dustrunners and battleguards hold the camps farther west."] = "Quilboar ve izciler kasabanın batısındaki, frenk incirlerinin yetiştiği kulübeleri tutuyor; daha batıdaki kampları ise Dustrunner ve Battleguard yaratıkları tutuyor.",
+	["Quilboars and scouts hold the huts west of town, where the prickly pears grow; dustrunners and battleguards hold the camps farther west."] = "Quilboar ve izciler kasabanın batısındaki, frenk incirlerinin yetiştiği kulübeleri tutuyor. Daha batıdaki kampları ise Dustrunner ve Battleguard yaratıkları tutuyor.",
 
 	-- Step 61: Rezlak
 	-- {zone:1454} Orgrimmar · {npc:3293} Rezlak
-	["Head north-east to the road toward {zone:1454}. {npc:3293} camps beside it; the stolen sacks lie along the road south of him."] = "Kuzeydoğuya, {zone:1454} yönüne giden yola git. {npc:3293} yolun kenarında kamp kurmuş; çalınan çuvallar kampın güneyinde yol boyunca duruyor.",
+	["Head north-east to the road toward {zone:1454}. {npc:3293} camps beside it; the stolen sacks lie along the road south of him."] = "Kuzeydoğuya, {zone:1454} yönüne giden yola git. {npc:3293} yolun kenarında kamp kurmuş. Çalınan çuvallar kampın güneyinde yol boyunca duruyor.",
 
 	-- Step 62: Drygulch Ravine
 	-- {area:370} Drygulch Ravine · {npc:3293} Rezlak · {item:277661} Dull Storm Orb · {area:371} Dustwind Cave · {item:6652} Reagent Pouch
@@ -318,11 +318,11 @@ return {
 
 	-- Step 73: Paladin trainer
 	-- {npc:246344} Alodan the Hopeful · {zone:1456} Thunder Bluff · {area:362} Razor Hill
-	["{npc:246344} in {zone:1456}; {area:362} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde; {area:362} içinde Paladin eğitmeni yok",
+	["{npc:246344} in {zone:1456}; {area:362} has no paladin trainer"] = "{npc:246344}, {zone:1456} bölgesinde, {area:362} içinde Paladin eğitmeni yok",
 
 	-- Step 74: Druid trainer
 	-- {npc:3034} Sheal Runetotem · {zone:1412} Mulgore · {area:362} Razor Hill
-	["{npc:3034} in {zone:1412}; {area:362} has no druid trainer"] = "{npc:3034}, {zone:1412} bölgesinde; {area:362} içinde Druid eğitmeni yok",
+	["{npc:3034} in {zone:1412}; {area:362} has no druid trainer"] = "{npc:3034}, {zone:1412} bölgesinde, {area:362} içinde Druid eğitmeni yok",
 
 	-- Step 75: Razor Hill
 	-- {area:362} Razor Hill · {npc:3139} Gar'Thok · {npc:3142} Orgnil Soulscar
@@ -344,7 +344,7 @@ return {
 
 	-- Step 80: Hanashi
 	-- {npc:2704} Hanashi · {object:172958} Valley of Honor
-	["While you're here: learn Staves from {npc:2704} ({object:172958}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "Buradayken: {npc:2704} sana Staves öğretir ({object:172958}, 10 gümüş); seviye atlarken bir asa, tek elli bir silahtan daha çok büyü istatistiği taşır.",
+	["While you're here: learn Staves from {npc:2704} ({object:172958}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "Buradayken: {npc:2704} sana Staves öğretir ({object:172958}, 10 gümüş). Seviye atlarken bir asa, tek elli bir silahtan daha çok büyü istatistiği taşır.",
 
 	-- Step 81: Back to Durotar
 	-- {zone:1411} Durotar
@@ -356,7 +356,7 @@ return {
 
 	-- Step 83: Skull Rock
 	-- {quest:827} Skull Rock · {item:4871} Searing Collar · {npc:3204} Gazz'uz · {item:4903} Eye of Burning Shadow
-	["Burning Blade cultists hold the caves of {quest:827}; any of them drops a {item:4871}. {npc:3204}, a level 14 warlock, stands deep inside and drops the {item:4903}.\nCareful: voidwalkers fight beside the Burning Blade cultists in {quest:827} and {npc:3204} (14) waits at the back with his own: pull one cultist at a time near the entrance for the collars. The {item:4903} is optional: leave {npc:3204} unless you are 13 or have a friend."] = "{quest:827} mağaralarını Burning Blade tarikatçıları tutuyor; herhangi biri {item:4871} düşürebilir. Seviye 14 bir Warlock olan {npc:3204} derinlerde duruyor ve {item:4903} düşürür.\nDikkat: {quest:827} içinde Burning Blade tarikatçılarının yanında voidwalker'lar dövüşüyor ve {npc:3204} (14) kendininkiyle en dipte bekliyor: tasmalar için girişe yakın tarikatçıları tek tek çek. {item:4903} isteğe bağlı: 13. seviye değilsen ya da yanında bir arkadaşın yoksa {npc:3204} yaratığını bırak.",
+	["Burning Blade cultists hold the caves of {quest:827}; any of them drops a {item:4871}. {npc:3204}, a level 14 warlock, stands deep inside and drops the {item:4903}.\nCareful: voidwalkers fight beside the Burning Blade cultists in {quest:827} and {npc:3204} (14) waits at the back with his own: pull one cultist at a time near the entrance for the collars. The {item:4903} is optional: leave {npc:3204} unless you are 13 or have a friend."] = "{quest:827} mağaralarını Burning Blade tarikatçıları tutuyor, herhangi biri {item:4871} düşürebilir. Seviye 14 bir Warlock olan {npc:3204} derinlerde duruyor ve {item:4903} düşürür.\nDikkat: {quest:827} içinde Burning Blade tarikatçılarının yanında voidwalker'lar dövüşüyor ve {npc:3204} (14) kendininkiyle en dipte bekliyor: tasmalar için girişe yakın tarikatçıları tek tek çek. {item:4903} isteğe bağlı: 13. seviye değilsen ya da yanında bir arkadaşın yoksa {npc:3204} yaratığını bırak.",
 
 	-- Step 84: Tablet of Verga
 	-- {object:58595} Burning Blade Stash · {area:817} Skull Rock
@@ -391,7 +391,7 @@ return {
 	["Thunder lizards on the way north"] = "Kuzey yolundaki thunder lizard'lar",
 	-- {area:369} Thunder Ridge · {zone:1454} Orgrimmar · {item:6486} Singed Scale · {npc:5810} Uzzek · {area:379} Far Watch Post
 	-- plural, as words: Thunder Lizards = {npc:3130} Thunder Lizard · Lightning Hides = {npc:3131} Lightning Hide
-	["Thunder Lizards and Lightning Hides graze on {area:369}, beside the road north to {zone:1454}; any of them can drop a {item:6486}. {npc:5810} takes it when the next guide passes {area:379}.\nCareful: Halikor, a level 12 elite, roams {area:369} among the lizards: watch for him before you pull."] = "Thunder Lizard ve Lightning Hide yaratıkları, {zone:1454} şehrine giden kuzey yolunun yanında, {area:369} sırtında otluyor; herhangi biri {item:6486} düşürebilir. Sonraki rehber {area:379} karakolundan geçerken {npc:5810} onu teslim alır.\nDikkat: seviye 12 elit Halikor, {area:369} sırtında kertenkelelerin arasında dolaşıyor: çekmeden önce ona dikkat et.",
+	["Thunder Lizards and Lightning Hides graze on {area:369}, beside the road north to {zone:1454}; any of them can drop a {item:6486}. {npc:5810} takes it when the next guide passes {area:379}.\nCareful: Halikor, a level 12 elite, roams {area:369} among the lizards: watch for him before you pull."] = "Thunder Lizard ve Lightning Hide yaratıkları, {zone:1454} şehrine giden kuzey yolunun yanında, {area:369} sırtında otluyor, herhangi biri {item:6486} düşürebilir. Sonraki rehber {area:379} karakolundan geçerken {npc:5810} onu teslim alır.\nDikkat: seviye 12 elit Halikor, {area:369} sırtında kertenkelelerin arasında dolaşıyor: çekmeden önce ona dikkat et.",
 
 	-- Step 93: Ormak Grimshot
 	-- {area:379} Far Watch Post · {zone:1454} Orgrimmar · {area:817} Skull Rock · {npc:3352} Ormak Grimshot · {object:172958} Valley of Honor
@@ -399,7 +399,7 @@ return {
 
 	-- Step 94: Hanashi
 	-- {npc:2704} Hanashi · {object:172958} Valley of Honor
-	["While you're here: learn Staves from {npc:2704} ({object:172958}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:2704} sana Staves öğretir ({object:172958}, 10 gümüş); Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
+	["While you're here: learn Staves from {npc:2704} ({object:172958}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:2704} sana Staves öğretir ({object:172958}, 10 gümüş). Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
 	-- Step 95: To Orgrimmar
 	-- {zone:1454} Orgrimmar

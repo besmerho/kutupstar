@@ -17,7 +17,7 @@ return {
 	["Felstalker Hooves"] = "Felstalker toynakları",
 	-- {area:365} Burning Blade Coven · {npc:3102} Felstalker
 	-- plural, as words: Felstalkers = {npc:3102} Felstalker · Vile Familiars = {npc:3101} Vile Familiar
-	["Felstalkers (level 3-4) prowl the slope below the {area:365}, the cave in the north of the valley, and just inside its mouth among the Vile Familiars. Nearly every {npc:3102} drops a hoof (four kills in five); they respawn in a little over three minutes."] = "Felstalker yaratıkları (seviye 3-4), vadinin kuzeyindeki mağara {area:365} altındaki yamaçta ve ağzının hemen içinde, Vile Familiar yaratıklarının arasında dolaşıyor. Neredeyse her {npc:3102} bir toynak düşürür (beşte dört); üç dakikadan biraz fazla sürede yeniden doğarlar.",
+	["Felstalkers (level 3-4) prowl the slope below the {area:365}, the cave in the north of the valley, and just inside its mouth among the Vile Familiars. Nearly every {npc:3102} drops a hoof (four kills in five); they respawn in a little over three minutes."] = "Felstalker yaratıkları (seviye 3-4), vadinin kuzeyindeki mağara {area:365} altındaki yamaçta ve ağzının hemen içinde, Vile Familiar yaratıklarının arasında dolaşıyor. Neredeyse her {npc:3102} bir toynak düşürür (beşte dört). Üç dakikadan biraz fazla sürede yeniden doğarlar.",
 
 	-- Step 3: Canaga Earthcaller
 	-- {npc:5887} Canaga Earthcaller · {quest:1462} Earth Sapta
@@ -33,7 +33,7 @@ return {
 
 	-- Step 5: Spirit Rock
 	-- {area:639} Spirit Rock · {area:638} Hidden Path · {item:6635} Earth Sapta · {npc:5891} Minor Manifestation of Earth
-	["{area:639} sits on a ledge in the hills just south of the Den. The {area:638} up starts at the foot of the hills south-west of the Den, between two idle peons; it climbs south-west into the hills, then bends back east to the rock. Stand right beside the stone and drink the {item:6635}: the {npc:5891} appears for a short while, so speak to it at once (walk almost under it if it does not answer). Coming back, you can drop down the ledge towards the Den instead of walking the path."] = "{area:639}, Den'in hemen güneyindeki tepelerde bir çıkıntıda. Yukarı çıkan {area:638}, Den'in güneybatısında tepelerin eteğinde, iki boş duran peon'un arasından başlar; güneybatıya, tepelere tırmanır, sonra doğuya, kayaya geri döner. Taşın hemen yanında dur ve {item:6635} iç: {npc:5891} kısa bir süre belirir, bu yüzden hemen onunla konuş (cevap vermezse neredeyse altına kadar yürü). Dönerken patikayı yürümek yerine çıkıntıdan Den'e doğru aşağı atlayabilirsin.",
+	["{area:639} sits on a ledge in the hills just south of the Den. The {area:638} up starts at the foot of the hills south-west of the Den, between two idle peons; it climbs south-west into the hills, then bends back east to the rock. Stand right beside the stone and drink the {item:6635}: the {npc:5891} appears for a short while, so speak to it at once (walk almost under it if it does not answer). Coming back, you can drop down the ledge towards the Den instead of walking the path."] = "{area:639}, Den'in hemen güneyindeki tepelerde bir çıkıntıda. Yukarı çıkan {area:638}, Den'in güneybatısında tepelerin eteğinde, iki boş duran peon'un arasından başlar. Güneybatıya, tepelere tırmanır, sonra doğuya, kayaya geri döner. Taşın hemen yanında dur ve {item:6635} iç: {npc:5891} kısa bir süre belirir, bu yüzden hemen onunla konuş (cevap vermezse neredeyse altına kadar yürü). Dönerken patikayı yürümek yerine çıkıntıdan Den'e doğru aşağı atlayabilirsin.",
 	-- {item:6635} Earth Sapta · {area:639} Spirit Rock
 	["{item:6635}, beside {area:639}"] = "{item:6635}, {area:639} yanında",
 	-- {item:6656} Rough Quartz
@@ -53,7 +53,7 @@ return {
 	-- Step 8: Ritual Salve
 	-- {area:358} Brambleblade Ravine · {spell:403} Lightning Bolt
 	-- plural, as words: Bristleback Shamans = {npc:2953} Bristleback Shaman
-	["The Bristleback Shamans (level 3-4) stand among the quilboar huts of {area:358}, east of the camp, and throw the odd {spell:403}. Four kills in five drop a salve; they respawn in about four minutes."] = "Bristleback Shaman yaratıkları (seviye 3-4), kampın doğusundaki {area:358} vadisinde quilboar kulübelerinin arasında duruyor ve arada bir {spell:403} atıyor. Beş öldürmenin dördünde merhem düşer; yaklaşık dört dakikada yeniden doğarlar.",
+	["The Bristleback Shamans (level 3-4) stand among the quilboar huts of {area:358}, east of the camp, and throw the odd {spell:403}. Four kills in five drop a salve; they respawn in about four minutes."] = "Bristleback Shaman yaratıkları (seviye 3-4), kampın doğusundaki {area:358} vadisinde quilboar kulübelerinin arasında duruyor ve arada bir {spell:403} atıyor. Beş öldürmenin dördünde merhem düşer. Yaklaşık dört dakikada yeniden doğarlar.",
 
 	-- Step 9: Seer Ravenfeather
 	-- {area:221} Camp Narache · {quest:1462} Earth Sapta
@@ -69,7 +69,7 @@ return {
 
 	-- Step 11: Kodo Rock
 	-- {area:637} Kodo Rock · {npc:2991} Greatmother Hawkwind · {item:6635} Earth Sapta · {npc:5891} Minor Manifestation of Earth
-	["{area:637} is a small pillar on a low mound due east of {npc:2991}'s well, east of the camp; it only shows from about fifteen yards away, and hostile boars graze around it. Stand beside it and drink the {item:6635}, then speak to the {npc:5891} before it fades (drink again if it does)."] = "{area:637}, kampın doğusunda, {npc:2991} kuyusunun tam doğusundaki alçak bir tümsekte küçük bir sütun; ancak yaklaşık on beş yardadan görünür, çevresinde düşman domuzlar otluyor. Yanında dur ve {item:6635} iç, sonra kaybolmadan {npc:5891} ile konuş (kaybolursa yeniden iç).",
+	["{area:637} is a small pillar on a low mound due east of {npc:2991}'s well, east of the camp; it only shows from about fifteen yards away, and hostile boars graze around it. Stand beside it and drink the {item:6635}, then speak to the {npc:5891} before it fades (drink again if it does)."] = "{area:637}, kampın doğusunda, {npc:2991} kuyusunun tam doğusundaki alçak bir tümsekte küçük bir sütun. Ancak yaklaşık on beş yardadan görünür, çevresinde düşman domuzlar otluyor. Yanında dur ve {item:6635} iç, sonra kaybolmadan {npc:5891} ile konuş (kaybolursa yeniden iç).",
 	-- {item:6635} Earth Sapta · {area:637} Kodo Rock
 	["{item:6635}, beside {area:637}"] = "{item:6635}, {area:637} yanında",
 
