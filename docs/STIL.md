@@ -4,6 +4,10 @@ Bu kılavuz Kutupstar'ın tüm Türkçe metinleri için geçerli: arayüz (`src/
 Terimler `src/glossary.json` dosyasında (Polestar'ın sözlük biçimiyle). **[KARAR]** ile işaretli maddeleri Barış
 22 Ekim 2026'da onayladı.
 
+Cümlenin Türkçe kurulması (çeviri ve yapay zekâ kokusu, noktalama) **`turkce-yazim` skill'inde**
+(`.claude/skills/turkce-yazim/SKILL.md`): **[KARAR]** Barış 18 Kasım 2026'da her çeviride kullanılmasını istedi.
+Denetimi `node tools/kutup.js check --dogal --changed`. Bu kılavuzla çatışırsa bu kılavuz kazanır.
+
 ## 1. Temel ilke: istemci İngilizce
 
 Türkçe WoW istemcisi yok; oyuncu oyunu İngilizce oynuyor. Görev günlüğü, isim plakaları, tooltip'ler, haritalar ve
@@ -171,4 +175,5 @@ Ek alan biçim metinleri:
 ## 8. Kontrol
 
 `node tools/kutup.js check` her çeviride biçim kodlarını, belirteçleri, satır sonlarını ve eskimiş anahtarları
-denetler; derleme hatalı bir çeviriyi almaz.
+denetler; derleme hatalı bir çeviriyi almaz. `check --dogal --changed` yeni yazılan satırlarda `turkce-yazim`
+kalıplarını soru olarak listeler (hata değil; her birini İngilizcesiyle karşılaştırıp yargıla).

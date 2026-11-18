@@ -23,6 +23,7 @@ Then read, in order:
 1. [docs/HANDOFF.md](docs/HANDOFF.md): where things stand, what is open, setup, how to translate, the rules.
 2. [ROADMAP.md](ROADMAP.md): design and history.
 3. [docs/STIL.md](docs/STIL.md): the translation rules (Turkish) and `src/glossary.json`, before translating anything.
+4. The **`turkce-yazim` skill** (`.claude/skills/turkce-yazim/SKILL.md`), before writing any Turkish.
 
 If `latest` says `update: yes`, the job is the **`polestar-sync` skill** (`.claude/skills/polestar-sync/SKILL.md`).
 
@@ -35,6 +36,8 @@ If `latest` says `update: yes`, the job is the **`polestar-sync` skill** (`.clau
 - A new Polestar release is pinned on its own branch `polestar-vX.Y.Z`, never on `main`.
 - Commit, push and merge into `main` only when Barış asks. Upload to CurseForge, tag a release or change the repo's
   visibility only after Barış's explicit OK for that action. Pushing a tag `vX.Y.Z` is an upload.
+- Every Turkish text (a sync, a fix, a polish) is written by the **`turkce-yazim` skill** (natural Turkish, no
+  calques or AI patterns) and checked with `node tools/kutup.js check --dogal --changed`. STIL.md wins where they differ.
 - The repo is public: no tokens, account numbers or local user paths in commits. Never print `CURSEFORGE_API_TOKEN`.
 
 ## Keep the notes here

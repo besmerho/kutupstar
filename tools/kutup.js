@@ -9,8 +9,10 @@
 //                                           -- upload the package to CurseForge (dry run without --yes)
 //   node tools/kutup.js pending <ui | guide id or folder> [--max N]
 //                                           -- the untranslated texts as a JSON skeleton for apply
-//   node tools/kutup.js check [--glossary]  -- validates src/: Lua syntax, formats, tokens, line breaks,
-//                                              stale keys; --glossary also lists glossary questions
+//   node tools/kutup.js check [--glossary] [--dogal]  -- validates src/: Lua syntax, formats, tokens, line
+//                                              breaks, stale keys; --glossary also lists glossary questions,
+//                                              --dogal the turkce-yazim skill's patterns (tools/lib/dogal.js);
+//                                              --changed[=ref] keeps only lines changed since ref (main)
 //   node tools/kutup.js build [--install]   -- check, then dist/Kutupstar; --install copies it into the
 //                                              game's AddOns folder (KUTUP_ADDONS overrides it)
 //   node tools/kutup.js stats [--guides]    -- translated / total; --guides per guide folder
@@ -172,7 +174,7 @@ function checkGuides(problems, warnings, pairs) {
 	return { done, total, ours };
 }
 
-function runChecks({ quiet, glossary } = {}) {
+function runChecks({ quiet, glossary, dogal, changed } = {}) {
 	needLuaparse();
 	const problems = [], warnings = [], pairs = [];
 	const tag = checkedOut();
@@ -185,12 +187,24 @@ function runChecks({ quiet, glossary } = {}) {
 		const G = require('./lib/glossary');
 		questions = G.glossaryWarnings(G.readGlossary(GLOSSARY), pairs);
 	}
+	let natural = dogal ? require('./lib/dogal').dogalWarnings(pairs) : [];
+	if (dogal && changed) {
+		const lines = require('./lib/dogal').changedLines(ROOT, changed);
+		natural = natural.filter((d) => lines.has(d.at));
+	}
 	if (!quiet) {
 		for (const w of warnings) console.log('warning: ' + w);
 		for (const q of questions) console.log(`glossary: ${q.at}: "${q.id}" is "${q.term}" in the glossary: ${q.value}`);
+		for (const d of natural) console.log(`dogal: ${d.at}: [${d.id}] ${d.what}: ${d.value}`);
+		if (dogal) {
+			const by = {};
+			for (const d of natural) by[d.id] = (by[d.id] || 0) + 1;
+			console.log('dogal by rule: ' + (Object.entries(by).map(([id, n]) => `${id} ${n}`).join(' · ') || 'none'));
+		}
 		for (const p of problems) console.log('error:   ' + p);
 		console.log(`UI ${ui.done}/${ui.total} · guide texts ${guides.done}/${guides.total} · ${problems.length} error(s), ${warnings.length} warning(s)`
-			+ (glossary ? `, ${questions.length} glossary question(s)` : ''));
+			+ (glossary ? `, ${questions.length} glossary question(s)` : '')
+			+ (dogal ? `, ${natural.length} dogal question(s)` : ''));
 	}
 	return { problems, warnings, ui, guides };
 }
@@ -583,7 +597,8 @@ module.exports = { extract, runChecks };
 if (require.main !== module) return;
 
 const [cmd, ...args] = process.argv.slice(2);
-if (cmd === 'check') process.exit(runChecks({ glossary: args.includes('--glossary') }).problems.length ? 1 : 0);
+if (cmd === 'check') process.exit(runChecks({ glossary: args.includes('--glossary'), dogal: args.includes('--dogal'),
+	changed: (args.find((a) => a.startsWith('--changed')) || '').replace(/^--changed=?/, '') || (args.includes('--changed') ? 'main' : '') }).problems.length ? 1 : 0);
 else if (cmd === 'build') build(args.includes('--install'));
 else if (cmd === 'stats') stats(args.includes('--guides'));
 else if (cmd === 'apply' && args[0]) apply(args[0]);
@@ -603,4 +618,4 @@ else if (cmd === 'pending' && args[0]) {
 	const i = args.indexOf('--max');
 	pending(args[0], i !== -1 ? Number(args[i + 1]) : Infinity);
 }
-else console.log('usage: node tools/kutup.js setup | latest | audit | package | publish [--type alpha|beta|release] [--changelog text] [--yes] | check [--glossary] | build [--install] | stats [--guides] | apply <file.json> | pending <ui|guide-or-folder> [--max N] | keys | sync | pin <tag>');
+else console.log('usage: node tools/kutup.js setup | latest | audit | package | publish [--type alpha|beta|release] [--changelog text] [--yes] | check [--glossary] [--dogal [--changed[=ref]]] | build [--install] | stats [--guides] | apply <file.json> | pending <ui|guide-or-folder> [--max N] | keys | sync | pin <tag>');

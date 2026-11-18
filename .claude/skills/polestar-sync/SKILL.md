@@ -8,7 +8,9 @@ description: Checks whether Polestar (github.com/fitzforge/polestar) has a newer
 Kutupstar (this repo) is the Turkish localization of the WoW: Forever addon Polestar. It is synced to one Polestar
 release, `package.json` → `config.polestarTag`. This skill compares that with Polestar's newest release on GitHub
 and, when there is a newer one, updates the translations to it. Read `docs/HANDOFF.md` (what Kutupstar is, its
-two hard requirements) and `docs/STIL.md` (the translation rules, Turkish) before translating anything.
+two hard requirements), `docs/STIL.md` (the translation rules, Turkish) and the **`turkce-yazim` skill**
+(`.claude/skills/turkce-yazim/SKILL.md`: natural Turkish, no calques or AI patterns) before translating anything.
+Every Turkish text this skill writes, new or re-translated, follows `turkce-yazim`; that is not optional.
 
 Everything runs through `node tools/kutup.js`; nothing of Polestar's own runs (it is read as data).
 
@@ -66,6 +68,9 @@ For each lost translation in the report:
 
 ## 5. Translate what is new
 
+Load the `turkce-yazim` skill first and write by it (Turkish sentence order, converbs instead of "ve", no needless
+pronouns, no dashes, no Tier-1 words, "nearby" is not "yakında"). STIL.md wins where they differ.
+
 ```
 node tools/kutup.js pending ui > /tmp/ui.json
 node tools/kutup.js pending <guide id> > /tmp/g.json     # for each guide the report lists with new texts
@@ -91,6 +96,10 @@ texts, use `tools/batch.js` instead (`docs/HANDOFF.md`, "How to translate"): `te
 node tools/kutup.js check            # must end with 0 error(s)
 node tools/kutup.js check --glossary # judge each question; many are Turkish inflection, not mistakes
                                      # a warning on {npc:1}'s Wisdom is an English quest name: leave it
+node tools/kutup.js check --dogal --changed
+                                     # turkce-yazim's patterns in the lines this sync changed (vs main):
+                                     # judge each against the English, fix and apply again, until what is
+                                     # left is right on purpose
 node tools/kutup.js stats            # UI and guides should be complete again
 node tools/kutup.js build            # must parse as Lua 5.1
 ```
@@ -113,5 +122,5 @@ game alone, because keys from a newer Polestar would not match the one installed
   release has shipped from the branch: `main` is what every new session clones, and a shipped sync left off `main`
   sends them to the old Polestar.
 - Report to Barış briefly (short summaries are the rule), in Turkish: Polestar old → new, how many UI and guide texts were new,
-  lost and re-translated, the audit result, whether `Core.lua` changed, what was installed, and what needs an
+  lost and re-translated, the `check --dogal --changed` count (found, fixed, left on purpose), the audit result, whether `Core.lua` changed, what was installed, and what needs an
   in-game test. Then one line on where the project stands.

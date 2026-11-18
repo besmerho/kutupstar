@@ -67,6 +67,7 @@ the branch `polestar-v0.3.0` while `main` stayed at v0.2.6, so sessions cloning 
 | 18 Release 0.4.0 | uploaded (16 Nov, file 9653725) on Barış's request, before an in-game test: the in-game check is open (Open items 0). No `v0.4.0` tag: pushing one would start a second upload |
 | 19 Anti-AI review | done (16 Nov, on `main` before the v0.4.0.1 sync): every translation checked against the `turkce-yazim` skill's rules. 219 texts fixed: 4 meaning errors ("nearby" was "yakında", "It is young", the Wear it / Not this one sentence, "kendi tarafından"), calques ("kalbinde", "-mesini sağlar" in talent texts, "ve dahası", "{npc} yerinin", needless "onun"/"Sen"), comma before "ve", dashes, "müzayede evi" and "iyileştirme" made consistent. STIL.md §6 and §7 updated. Left for a decision: "kilometre taşı" for the Legacy milestone (18 lines) and 365 semicolons the translation added where the English has a comma (Open items 1) |
 | 20 Sync to Polestar v0.4.0.1 | done (16 Nov), merged into `main`: report in `reports/sync-v0.4.0-v0.4.0.1.md`. A hotfix: UI 0 new (the 124 "lost" in the report are the old block kept from v0.4.0), guides 1 new (`The {object:142071}` in `horde/40-50/06-azshara`). `audit` all ok, `Core.lua` unchanged |
+| 22 `turkce-yazim` skill | done (18 Nov, on `main`, Barış's request): `.claude/skills/turkce-yazim/SKILL.md` blends two MIT skills, [insanca](https://github.com/tahiryildiz/insanca) and [turkish-anti-ai-skill](https://github.com/yucezerey/turkish-anti-ai-skill), cut down to game UI and guide notes. Every Turkish text follows it, `polestar-sync` included. New check `check --dogal [--changed[=ref]]` (`tools/lib/dogal.js`) lists its patterns as questions. Run on the whole repo on 18 Nov: 817 questions, most of them `onun` (269) and the known semicolons (365); real finds: 35 "Yakında" for "nearby" in profession guides ("Needs an anvil nearby"), "kilometre taşı" (18). Left for a polish (Open items 1) |
 | 21 Release 0.4.0.1 | uploaded (16 Nov, file 9654422) on Barış's request, before an in-game test: the in-game check is open (Open items 0). No `v0.4.0.1` tag: pushing one would start a second upload |
 
 The next job comes when `node tools/kutup.js latest` says `update: yes`.
@@ -91,6 +92,9 @@ None of these block anything.
    - `3 nişan için` for Marks of Honor (16 lines) → `3 marka için`; `nişan` is for insignia and badges
    - `Legacy ayrıcalığı` (1) → `Legacy yeteneği` (13)
    - `yüzde 5` (8) and `%5` (97) are both in use; `%5` is the more common
+   - From `check --dogal` (18 Nov): 35 texts write "Yakında" (soon) for "nearby", mostly "Needs an anvil nearby" in
+     the profession guides: a meaning error, safe to fix ("Yakınında bir örs olmalı"). The 269 `onun` and 34 `kendi`
+     questions are worth a pass; many are right as they are
    - From the anti-AI review (16 Nov), Barış decides: "kilometre taşı" for the Legacy System milestone (18 lines in
      the profession guides; "eşik" reads more natural), and the 365 texts where the translation joined two sentences
      with a semicolon the English did not have (a full stop reads better). The 1890 semicolons copied from the English
@@ -220,6 +224,10 @@ From the big one, v0.2.6 → v0.3.0:
 - `build` counts fewer guide texts than `stats` by exactly the pack's 17 texts. That is not a loss.
 
 ### The rules that matter most (STIL.md has all of them)
+
+- **Every Turkish text follows the `turkce-yazim` skill** (`.claude/skills/turkce-yazim/SKILL.md`; Barış, 18 Nov):
+  Turkish sentence order, converbs instead of "ve", no needless "onun"/"kendi"/"Sen", no dashes, no AI words. After
+  `apply`: `node tools/kutup.js check --dogal --changed`, and judge each question.
 
 - **Tokens stay exactly as they are**, as many times as in the English. Never translate a name.
 - **No suffix glued to a token.** Put the suffix on a classifier word instead: `{zone:1436} bölgesine`,
