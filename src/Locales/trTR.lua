@@ -10,6 +10,7 @@ local L = ns.L
 
 -- Core/Automation.lua
 L["Choose a reward to finish the turn-in."] = "Teslimi bitirmek için bir ödül seç."
+L["%s is an escort: it starts as soon as it is taken. Accept it yourself when your group is ready."] = "%s bir eskort görevi: alındığı anda başlar. Grubun hazır olunca kendin al."
 
 -- Core/Commands.lua
 L["Toggle guide window"] = "Rehber penceresini aç/kapat"
@@ -221,6 +222,23 @@ L["Repair before heading out: gear at %d%%"] = "Yola çıkmadan tamir et: ekipma
 L["The guide heads out of town next and your gear is worn: repair it here before it breaks."] = "Rehber sıradaki adımda kasabadan çıkıyor ve ekipmanın yıpranmış: kırılmadan önce burada tamir et."
 L["Sell before heading out: %s"] = "Yola çıkmadan sat: %s"
 L["The guide heads out of town next and your bags are nearly full: sell what you don't need here."] = "Rehber sıradaki adımda kasabadan çıkıyor ve çantaların neredeyse dolu: gerekmeyenleri burada sat."
+L["Pays %d%% XP at your level and is out of the way (Skip grey quests)"] = "Seviyende %%%d XP veriyor ve yolun üstünde değil (Gri görevleri atla)"
+L["Grey for you: pays %d%% XP (Skip grey quests)"] = "Senin için gri: %%%d XP veriyor (Gri görevleri atla)"
+L["Put in the bank"] = "Bankaya koy:"
+L["Take off"] = "Çıkar:"
+L["Equip"] = "Kuşan:"
+L["Reach %d points into %s with"] = "%2$s kademesinde %1$d puana ulaş:"
+L["Lose"] = "Kaybet:"
+L["Gain"] = "Kazan:"
+-- L["Journeyman %s"] = ""
+-- L["Expert %s"] = ""
+-- L["Artisan %s"] = ""
+L["Not offered by %s: you can take %s without it"] = "%s bunu vermiyor: %s görevini onsuz da alabilirsin"
+L["Your Hearthstone is bound to %s, not %s: ride to the inn"] = "Hearthstone'unun bağlı olduğu yer %s, %s değil: binekle hana git"
+L["No Hearthstone in your bags: ride to the inn"] = "Çantanda Hearthstone yok: binekle hana git"
+L["Hearthstone ready in %s: ride to the inn, or wait for it"] = "Hearthstone %s sonra hazır: binekle hana git ya da bekle"
+L["Ride to %s"] = "Binekle git: %s"
+L["Ride to the flight master"] = "Binekle uçuş ustasına git"
 
 -- Core/Guides.lua
 L["Needs Polestar %s or newer."] = "Polestar %s ya da daha yenisi gerekir."
@@ -278,10 +296,17 @@ L["Treasures"] = "Hazineler"
 -- Gear/Tooltip.lua
 -- L["Polestar"] = ""
 L["Item"] = "Eşya"
+L["Your ranged damage uses this weapon's stats, not its damage"] = "Uzak mesafe hasarın bu silahın hasarını değil, istatistiklerini kullanır"
 
 -- Lookup/Guide.lua
 -- L["NPC"] = ""
 L["%s: click through what they say until the quest's line is done."] = "%s: görevin satırı tamamlanana dek konuşmasını tıklayarak geç."
+L["%s: use %s to call it up."] = "%s: çağırmak için %s kullan."
+L["Use %s to learn it."] = "Öğrenmek için %s kullan."
+L["After an earlier quest"] = "Önceki bir görevden sonra"
+L["Chain: finished, %d skipped"] = "Zincir: bitti, %d atlandı"
+L["Chain: all %d done"] = "Zincir: %d görevin hepsi yapıldı"
+L["Chain: %d of %d"] = "Zincir: %d/%d"
 
 -- Lookup/Sources.lua
 L["Reputation"] = "İtibar"
@@ -371,6 +396,17 @@ L["Detour around %s"] = "Dolanma: %s"
 L["Walk to the airship dock"] = "Hava gemisi iskelesine yürü"
 L["Take the airship to %s"] = "Hava gemisiyle %s noktasına git"
 L["Learn the flight path at %s, then fly to %s"] = "%s uçuş noktasını öğren, sonra %s noktasına uç"
+L["Ride to the boat"] = "Binekle gemiye git"
+L["Ride to the zeppelin tower"] = "Binekle zeplin kulesine git"
+L["Ride to the airship dock"] = "Binekle hava gemisi iskelesine git"
+L["Ride to the Deeprun Tram"] = "Binekle git: Deeprun Tram"
+L["Ride to the portal"] = "Binekle portala git"
+L["Ride to the %s cave mouth"] = "Binekle mağara ağzına git: %s"
+L["Ride to the %s entrance"] = "Binekle girişe git: %s"
+L["Ride to the cave mouth in %s"] = "Binekle mağara ağzına git (%s)"
+L["Ride to the entrance in %s"] = "Binekle girişe git (%s)"
+L["Ride to the cave mouth"] = "Binekle mağara ağzına git"
+L["Ride to the entrance"] = "Binekle girişe git"
 
 -- QoL/Options.lua
 L["Experience"] = "Tecrübe"
@@ -673,6 +709,16 @@ L["A later guide of your route hands these in: keep them. Click to see each with
 L["No guide of your route takes, works or hands these in. Click to see them and keep or abandon each."] = "Rotandaki hiçbir rehber bunları almıyor, yapmıyor ya da teslim etmiyor. Görmek ve her birini saklamak ya da bırakmak için tıkla."
 L["Click to see its quests in Dungeons"] = "Görevlerini Zindanlar'da görmek için tıkla"
 L["Click to open it in Dungeons"] = "Zindanlar'da açmak için tıkla"
+L["Click for a guide to it, through what it needs first"] = "Önce gerekenlerden geçerek oraya götüren rehber için tıkla"
+L["Brings back the quests it leaves out. Options, Automation turns it on again."] = "Dışarıda bıraktığı görevleri geri getirir. Yeniden açmak için: Seçenekler, Otomasyon."
+L["Click to see them, each with an Abandon button"] = "Görmek için tıkla, her birinin yanında “Bırak” düğmesi var"
+L["Too far below the next quests: the guide has you grind to the level they need. Or do what's around you first."] = "Sonraki görevlerin çok altındasın: rehber seni gereken seviyeye kadar kastırır. Ya da önce çevrendekileri yap."
+L["Click to see its step"] = "Adımını görmek için tıkla"
+L["You're %d: the quests after this are level %s"] = "Seviyen %d: bundan sonraki görevler seviye %s"
+L["Worth doing near here: %s"] = "Buralarda yapmaya değer: %s"
+L["%d left out here"] = "Burada %d görev dışarıda bırakıldı"
+L["Left out here"] = "Burada dışarıda bırakılanlar"
+L["Turn off Skip grey quests"] = "“Gri görevleri atla” ayarını kapat"
 
 -- UI/Lookup.lua
 L["Both factions"] = "İki taraf da"
@@ -946,6 +992,7 @@ L["For a party levelling together: every one is in the route."] = "Birlikte sevi
 L["Point at a look to see it here; click it to wear it."] = "Burada görmek için bir görünümün üstüne gel; giymek için tıkla."
 L["Built in"] = "Yerleşik"
 L["Concept looks"] = "Konsept görünümler"
+L["Leaves out grey quests, and quests behind you that pay less than full XP when going back for them costs more time than they give. A quest still paying full XP stays, and so does one a later quest needs. The guide window says what it left out."] = "Gri görevleri ve geride kalıp tam XP'den az veren görevleri, onlara dönmek kazandırdığından çok zaman alıyorsa dışarıda bırakır. Hâlâ tam XP veren görev kalır, sonraki bir görevin gerektirdiği görev de. Neyi dışarıda bıraktığını rehber penceresi söyler."
 
 -- New on the next branch
 L["%d of %d done"] = "%d/%d tamamlandı"
@@ -998,7 +1045,6 @@ L["Keep the bottom edge in place, so longer steps extend the window up."] = "Alt
 L["Key"] = "Anahtar"
 L["Kill %s for %s"] = "%2$s için öldür: %1$s"
 L["Kill it for %s"] = "%s için öldür"
-L["Leaves out grey quests and their turn-ins, unless a later quest needs them first."] = "Sonraki bir görev önce onları gerektirmedikçe gri görevleri ve teslimlerini dışarıda bırakır."
 L["Left %d %s (%s) for you to buy."] = "%d %s (%s) almayı sana bıraktı."
 L["Needs %s with %s"] = "%2$s ile %1$s itibarı gerekir"
 L["No known source"] = "Bilinen kaynak yok"
@@ -1367,7 +1413,6 @@ L["Glyphs only"] = "Yalnızca semboller"
 L["Use deathskips"] = "Ölerek kestirme (deathskip) kullan"
 L["Where dying on purpose and taking the Spirit Healer's resurrection gets you there sooner, the guide shows a step for it. It costs durability and, from level 11, resurrection sickness. Always off on Hardcore characters."] = "Bilerek ölüp Spirit Healer'dan dirilmek seni oraya daha çabuk götürüyorsa, rehber bunun için bir adım gösterir. Dayanıklılığa mal olur ve 11. seviyeden itibaren resurrection sickness verir. Hardcore karakterlerde her zaman kapalı."
 L["Text size"] = "Yazı boyutu"
-L["The size of Polestar's text, apart from the window scale. Changes at once. Right-click to reset."] = "Polestar yazılarının boyutu, pencere ölçeğinden ayrı. Hemen değişir. Sıfırlamak için sağ tıkla."
 L["Numbered pins for the steps ahead"] = "Sıradaki adımlar için numaralı iğneler"
 L["A small pin with its step number where each of the next steps takes you, fainter the further ahead. As many as Up next shows, else five."] = "Sıradaki her adımın seni götürdüğü yerde adım numarasıyla küçük bir iğne; ilerideki daha soluk. Sıradaki'nin gösterdiği kadar, yoksa beş."
 L["Run"] = "Çalıştır"
@@ -1509,6 +1554,8 @@ L["Sell: fewer free bag slots than"] = "Sat: boş çanta yeri şundan az olunca"
 L["Reminds you to sell when fewer bag slots are free than this, or than the items the next steps collect. 0 counts those items alone."] = "Boş çanta yeri bundan ya da sonraki adımların toplayacağı eşyalardan azsa satmanı hatırlatır. 0 yalnızca o eşyaları sayar."
 L["Repair: gear worn below"] = "Tamir: ekipman şunun altına yıpranınca"
 L["Reminds you to repair when a piece of your gear is below this share of its durability. 0: never."] = "Ekipmanından bir parça dayanıklılığının bu oranının altına düşünce tamir etmeni hatırlatır. 0: asla."
+L["play Freedoom Arcade by petllama"] = "petllama'nın Freedoom Arcade oyununu oyna"
+L["Freedoom Arcade by petllama (GPL-2.0 or later) plays three levels of Freedoom by the Freedoom project (BSD License), from the Polestar_Arcade folder."] = "petllama'nın Freedoom Arcade eklentisi (GPL-2.0 veya sonrası), Freedoom projesinin (BSD Lisansı) Freedoom oyunundan üç bölümü Polestar_Arcade klasöründen oynatır."
 
 -- UI/Dungeons.lua
 L["Ready to turn in"] = "Teslime hazır"
@@ -1612,6 +1659,8 @@ L["best at %d"] = "en iyisi seviye %d"
 L["Tough at your level"] = "Seviyene göre zor"
 L["The Dungeons section is turned off. Turn it on under Options > Discovery > Lookup."] = "Zindanlar bölümü kapalı. Seçenekler > Keşif > Arama altında aç."
 L["%d-%d players"] = "%d-%d oyuncu"
+L["No boss drops known"] = "Boss loot'u bilinmiyor"
+L["Drops (%d)"] = "Düşürdükleri (%d)"
 
 -- UI/Lookup.lua
 L["Mount"] = "Binek"
@@ -1706,6 +1755,14 @@ L["Opens Lookup with this search."] = "Arama'yı bu aramayla açar."
 L["No guide to this mount yet: the sources above say where it comes from and what it takes. Guide on one leads you there."] = "Bu binek için henüz rehber yok: yukarıdaki kaynaklar nereden geldiğini ve ne gerektirdiğini söylüyor. Birindeki Rehber seni oraya götürür."
 L["Origin"] = "Köken"
 L["Builds a guide to %s, the quickest of these to reach, and opens it in a new tab."] = "Bunlardan ulaşması en hızlı olan %s için bir rehber oluşturur ve yeni bir sekmede açar."
+L["In your quest log"] = "Görev günlüğünde"
+L["You can take it now"] = "Şimdi alabilirsin"
+L["Not yet"] = "Henüz değil"
+L["Skipped"] = "Atlandı"
+L["Finished, %d skipped"] = "Bitti, %d atlandı"
+L["All %d done"] = "%d görevin hepsi yapıldı"
+L["Click to open its page."] = "Sayfasını açmak için tıkla."
+L["Then any of: %s"] = "Sonra şunlardan biri: %s"
 
 -- QoL/Options.lua
 L["Off by default: %s does this too."] = "Varsayılan olarak kapalı: %s de bunu yapıyor."
@@ -1848,6 +1905,23 @@ L["Lists the quest items you can buy at an auction house instead of farming them
 L["Lists the current step's mobs, or the NPCs it sends you to when it has no mob, with their portraits and what they drop; click a name to target that one. Its key binding targets the first one close by."] = "Geçerli adımın yaratıklarını ya da yaratığı yoksa seni gönderdiği NPC'leri, portreleri ve düşürdükleriyle listeler; o birini hedef almak için bir ada tıkla. Tuş ataması yakındaki ilkini hedef alır."
 L["Names in the target list"] = "Hedef listesindeki adlar"
 L["How many of the step's mobs the target list shows, in guide order."] = "Hedef listesinin adımın yaratıklarından kaçını rehber sırasıyla gösterdiği."
+L["Completed quest XP"] = "Tamamlanan görev XP'si"
+L["Shows XP from completed quests you can turn in on the game's XP bar and in its tooltip."] = "Teslim edebileceğin tamamlanmış görevlerin XP'sini oyunun XP çubuğunda ve ipucunda gösterir."
+L["Target list style"] = "Hedef listesi stili"
+L["Full rows show each name, what it drops and the goal's count. Slim rows are shorter, with a small face, the name and the count; names only leaves the face out. Portraits show the faces alone, in a column or a row, each with how many are left; hover one for its name."] = "Tam satırlar her adı, düşürdüğü eşyayı ve hedefin sayısını gösterir. İnce satırlar daha kısa: küçük bir yüz, ad ve sayı; “Yalnızca adlar” yüzü de kaldırır. Portreler yalnız yüzleri bir sütunda ya da satırda, her birinden kaç tane kaldığıyla gösterir. Adını görmek için birinin üstüne gel."
+L["Full"] = "Tam"
+L["Slim"] = "İnce"
+L["Names only"] = "Yalnızca adlar"
+L["Portraits in a column"] = "Sütunda portreler"
+L["Portraits in a row"] = "Satırda portreler"
+L["Portraits"] = "Portreler"
+L["3D draws each creature's model. 2D shows the game's flat portrait once you have seen that one (your target, or its nameplate up), and an icon for what you do with it until then."] = "3D her yaratığın modelini çizer. 2D, o yaratığı gördükten sonra (hedefin olunca ya da isim plakası açıkken) oyunun düz portresini, o zamana kadar da onunla ne yapacağını gösteren bir simgeyi gösterir."
+L["3D models"] = "3D modeller"
+L["2D portraits"] = "2D portreler"
+L["Name the one that's close"] = "Yakındakinin adını göster"
+L["With portraits, the name of the one close enough to target shows beside its face in a column, under it in a row (above it when the list goes up over the buttons)."] = "Portreler açıkken hedef alınacak kadar yakın olanın adı yüzünün yanında çıkar: sütunda yanında, satırda altında (liste düğmelerin üstüne doğru açılıyorsa üstünde)."
+L["Equip a spare bag first"] = "Önce yedek çantayı tak"
+L["When your bags are nearly full and a bag sits in them while a bag slot is empty, the bag button and the guide window offer to put it on before any junk. Nothing happens until you press."] = "Çantaların neredeyse doluyken içlerinde bir çanta duruyor ve bir çanta yuvası boşsa, çanta düğmesi ve rehber penceresi çöpten önce onu takmayı önerir. Basana kadar hiçbir şey olmaz."
 
 -- Rares/View.lua, Rares/Options.lua
 L["Seen"] = "Görülen"
@@ -2037,6 +2111,11 @@ L["The size of every quest marker on the world map and the minimap."] = "Dünya 
 L["Timed quest alerts"] = "Süreli görev uyarıları"
 L["A chat line and a sound when a timed quest has 5 minutes left, again at 1 minute, and if it fails. The guide window always shows the time left."] = "Süreli bir görevin 5 dakikası kalınca, 1 dakika kalınca yine ve başarısız olursa sohbette bir satır ve bir ses. Rehber penceresi kalan süreyi her zaman gösterir."
 L["Party chat"] = "Grup sohbeti"
+L["On a mob that drops a quest item you still need, or an object it comes out of, show how often."] = "Hâlâ ihtiyacın olan bir görev eşyasını düşüren yaratıkta ya da eşyanın çıktığı nesnede ne sıklıkla düştüğünü göster."
+L["Quest givers and turn-ins"] = "Görev verenler ve teslimler"
+L["On an NPC, name the quests it has for you now and the finished quests you can hand in to it."] = "Bir NPC'de, şu an sana verebileceği görevleri ve ona teslim edebileceğin bitmiş görevleri adlarıyla göster."
+L["Replace the game's quest lines"] = "Oyunun görev satırlarının yerini al"
+L["On mobs and objects, leave out the game's own lines for the quests these tooltips name, so each quest shows once. In a group the game's lines stay: they show your party's progress."] = "Yaratıklarda ve nesnelerde, bu ipuçlarının adını verdiği görevler için oyunun kendi satırlarını çıkarır, böylece her görev bir kez görünür. Grupta oyunun satırları kalır: grubunun ilerlemesini gösterirler."
 
 -- UI/Packs.lua (the pack report lines stay English: authors read them)
 L["turned off in the AddOns list"] = "AddOns listesinde kapalı"
@@ -2072,6 +2151,7 @@ L["Read more: docs/GUIDE_PACKS.md in Polestar's source"] = "Devamı: Polestar ka
 -- L["Problems:"] = ""
 L["Turn on and reload"] = "Aç ve yeniden yükle"
 L["Polestar Guides is turned off in the AddOns list, so Polestar has no guides to show. Turn it on for all your characters and reload?"] = "Polestar Guides, AddOns listesinde kapalı; bu yüzden Polestar'ın gösterecek rehberi yok. Tüm karakterlerin için açılıp yeniden yüklensin mi?"
+L["Part of Polestar is turned off in the AddOns list (%s), so its settings cannot open. Turn it on for all your characters and reload?"] = "Polestar'ın bir parçası AddOns listesinde kapalı (%s), bu yüzden ayarları açılamıyor. Tüm karakterlerin için açıp arayüzü yeniden yükleyelim mi?"
 
 -- UI/Report.lua (the report text itself stays English: the maintainers read it)
 L["What the guide said, and what you found in the game."] = "Rehberin ne dediği ve oyunda ne bulduğun."
@@ -2128,6 +2208,8 @@ L["Install: %s"] = "Kurulum: %s"
 L["While here: %s"] = "Hazır buradayken: %s"
 L["Travel: %s"] = "Yolculuk: %s"
 L["The report lists the settings you changed and your profile's name: no character names, chat, account or realm."] = "Rapor değiştirdiğin ayarları ve profilinin adını listeler: karakter adı, sohbet, hesap ya da realm yok."
+L["Left out here: %d more"] = "Burada dışarıda bırakılanlar: %d tane daha"
+L["Left out here: %s"] = "Burada dışarıda bırakılan: %s"
 
 -- Maps/Instances.lua
 L["Instance history cleared."] = "Instance geçmişi temizlendi."
@@ -2406,6 +2488,7 @@ L["Arrows"] = "Oklar"
 L["Bullets"] = "Mermiler"
 L["Bows & guns"] = "Yaylar ve tüfekler"
 L["Mailbox"] = "Posta kutusu"
+L["Transmogrifier"] = "Transmog NPC'si"
 
 -- Nav/Prompts.lua
 L["Right-click to skip this leg."] = "Bu bacağı atlamak için sağ tıkla."
@@ -2908,6 +2991,7 @@ L["Opens the inner doors of Dire Maul's North and West wings."] = "Dire Maul'un 
 L["Opens Gnomeregan's back door, the Workshop entrance."] = "Gnomeregan'ın arka kapısını, Workshop girişini açar."
 L["Opens the doors of the Armory and the Cathedral."] = "Armory ve Cathedral'ın kapılarını açar."
 L["Opens the gate of the Horde's way into the City of Dalaran; one key opens it for the group. The Alliance walks in through the sewer pipe in Cantrips & Crows."] = "Horde'un City of Dalaran'a giden yolunun kapısını açar; bir anahtar grup için açar. Alliance, Cantrips & Crows'daki kanalizasyon borusundan içeri yürür."
+L["Rings the gong by the sacred pool in Zul'Farrak to call Gahz'rilla; one mallet does it for the group. Qiaga the Keeper (elite) on top of the Altar of Zul in the Hinterlands drops the Sacred Mallet: use it at the altar at the very top of Jintha'Alor and it becomes the Mallet of Zul'Farrak. Both places are full of elites."] = "Zul'Farrak'taki kutsal havuzun yanındaki gongu çalarak Gahz'rilla'yı çağırır; grup için tek tokmak yeter. Hinterlands'deki Altar of Zul'un tepesinde duran Qiaga the Keeper (elit) Sacred Mallet'i düşürür: Jintha'Alor'un en tepesindeki sunakta kullanınca Mallet of Zul'Farrak'a dönüşür. İki yer de elitlerle dolu."
 
 -- Nav/Handoff.lua
 L["Hand guiding to Shortest Path Forever"] = "Yol göstermeyi Shortest Path Forever'a bırak"
@@ -2948,6 +3032,9 @@ L["Left-click to fold the list to one row."] = "Listeyi tek satıra katlamak iç
 L["Right-click for its settings. Shift-drag to move."] = "Ayarları için sağ tıkla. Taşımak için Shift ile sürükle."
 L["Right-click for its settings. Drag to move."] = "Ayarları için sağ tıkla. Taşımak için sürükle."
 L["Targets the first name in the list that is close. Click a name to target that one."] = "Listedeki yakın olan ilk adı hedef alır. O birini hedef almak için bir ada tıkla."
+L["Dragging the Polestar mark in combat places the buttons after the fight."] = "Savaşta Polestar işaretini sürüklersen düğmeler savaştan sonra yerleşir."
+L["Press to equip"] = "Takmak için bas"
+L["Press to equip it."] = "Takmak için bas."
 
 -- Core/Import.lua
 L["Imported"] = "İçe aktarılanlar"
@@ -3182,6 +3269,7 @@ L["Marks friendly service NPCs and mailboxes on zone and city maps using Polesta
 L["Shows the enabled NPC service categories on the minimap as well."] = "Açık NPC hizmet kategorilerini mini haritada da gösterir."
 L["Shows trainers for your character's class."] = "Karakterinin sınıfının eğitmenlerini gösterir."
 L["Shows this service category on the map."] = "Bu hizmet kategorisini haritada gösterir."
+L["Transmogrifiers"] = "Transmog NPC'leri"
 
 -- UI/GearScales.lua
 -- L["Strength"] = ""
@@ -3331,6 +3419,8 @@ L["Deleted %s."] = "%s silindi."
 L["Free slots: %d of %d"] = "Boş yuva: %d / %d"
 L["Cheapest junk: %s (%s)"] = "En ucuz çöp: %s (%s)"
 L["Free bag slots and the cheapest junk"] = "Boş çanta yuvaları ve en ucuz çöp"
+L["Equipped %s."] = "%s takıldı."
+L["Spare bag: %s"] = "Yedek çanta: %s"
 
 -- QoL/Restock.lua
 L["Restock"] = "Stok tamamla"
@@ -3438,6 +3528,8 @@ L["%d/%d (not accepted)"] = "%d/%d (alınmadı)"
 
 -- Quests/BagMarks.lua
 L["Polestar quest items"] = "Polestar görev eşyaları"
+L["Polestar quest leftovers"] = "Polestar görev artıkları"
+L["Related quests completed (likely safe to delete)"] = "İlgili görevler tamamlandı (büyük olasılıkla silinebilir)"
 
 -- Quests/DeleteWarning.lua
 L["Needed for:"] = "Şunun için gerekli:"
@@ -3913,6 +4005,8 @@ L["Button set"] = "Düğme seti"
 L["Scale of the quest item, Hearthstone, target and rare buttons. Drag one to move them all. Sizes and layout change once a fight ends."] = "Görev eşyası, Hearthstone, hedef ve rare düğmelerinin ölçeği. Hepsini taşımak için birini sürükle. Boyut ve düzen bir savaş bitince değişir."
 L["Direction"] = "Yön"
 L["How the set lines up from the quest item button: a column (Hearthstone above, target below) or a row either way. In a row, names read best above or below."] = "Setin görev eşyası düğmesinden nasıl dizildiği: bir sütun (Hearthstone üstte, hedef altta) ya da iki yönden birinde bir satır. Satırda adlar en iyi üstte ya da altta okunur."
+L["Target list upward"] = "Hedef listesi yukarı doğru"
+L["The target list's names go up from the target button instead of down, for buttons near the bottom of the screen."] = "Hedef listesindeki adlar hedef düğmesinden aşağı değil yukarı doğru dizilir. Ekranın altına yakın düğmeler için."
 L["Column"] = "Sütun"
 L["Row"] = "Satır"
 L["Row, reversed"] = "Satır, ters"
@@ -4109,6 +4203,7 @@ L["Shadow strength"] = "Gölge gücü"
 L["More looks"] = "Daha fazla görünüm"
 L["Game looks"] = "Oyun görünümleri"
 L["Polestar looks"] = "Polestar görünümleri"
+L["The size of Polestar's text, apart from the window scale. The guide window has its own, on its page. Changes at once. Right-click to reset."] = "Polestar yazılarının boyutu, pencere ölçeğinden ayrı. Rehber penceresinin ayrı bir ayarı var, kendi sayfasında. Hemen değişir. Sıfırlamak için sağ tıkla."
 
 -- UI/Looks/GuideWindow.lua
 L["Marshal Dughan"] = "Marshal Dughan"
@@ -4154,6 +4249,8 @@ L["The guide's progress at the bottom of the window."] = "Rehberin ilerlemesi, p
 L["Progress colour"] = "İlerleme rengi"
 L["Percent"] = "Yüzde"
 L["The percent beside the progress bar."] = "İlerleme çubuğunun yanındaki yüzde."
+L["Pace line"] = "Gidişat satırı"
+L["The line above the progress bar: on pace for a level by a step, or how far behind the route you are."] = "İlerleme çubuğunun üstündeki satır: bu gidişle hangi adımda hangi seviyede olacağın ya da rotanın ne kadar gerisinde kaldığın."
 L["The next person or step slides up into place as it fades in. Off: it is simply there."] = "Sıradaki kişi ya da adım belirirken yukarı kayarak yerine oturur. Kapalı: yalnızca orada olur."
 L["A goal you finish shuts like a drawer into the done line. Off: it fades and goes."] = "Bitirdiğin bir hedef bir çekmece gibi bitti satırına kapanır. Kapalı: solar ve gider."
 L["The guide window's frame, bars, step card, tips and progress bar."] = "Rehber penceresinin çerçevesi, çubukları, adım kartı, ipuçları ve ilerleme çubuğu."
@@ -4202,6 +4299,9 @@ L["Fargodeep Mine"] = "Fargodeep Mine"
 L["Lion's Pride Inn"] = "Lion's Pride Inn"
 L["Stonefield Farm"] = "Stonefield Farm"
 L["Jasperlode Mine"] = "Jasperlode Mine"
+L["What it leaves out"] = "Dışarıda bıraktıkları"
+L["A dim line where the guide passes over quests: open it to see each one and why, with a way to bring it back. Grind steps say what else is worth doing, and a line offers to clean up quests that aren't part of your route."] = "Rehberin görevleri atladığı yerde soluk bir satır çıkar: açınca her birini nedeniyle görür, istersen geri getirirsin. Kasma adımları başka neyin yapmaya değer olduğunu söyler, bir satır da rotanda olmayan görevleri temizlemeyi önerir."
+L["The size of the guide window's text, apart from its scale and the rest of Polestar's text (Theme > Text). The class quest card keeps that general size. Changes at once. Right-click to reset."] = "Rehber penceresindeki yazıların boyutu, pencerenin ölçeğinden ve Polestar'ın diğer yazılarından (Tema > Yazı) ayrı. Sınıf görevi kartı o genel boyutta kalır. Hemen değişir. Sıfırlamak için sağ tıkla."
 
 -- UI/Looks/Toasts.lua
 L["Alert line"] = "Uyarı sırası"
@@ -4428,6 +4528,8 @@ L["Rares, travel & zones"] = "Rare'ler, yolculuk ve bölgeler"
 L["Zones and coordinates"] = "Bölgeler ve koordinatlar"
 L["Trackers & map"] = "Takipçiler ve harita"
 L["Minimap and coordinates"] = "Mini harita ve koordinatlar"
+L["Offer Freedoom Arcade on flights"] = "Uçuşlarda Freedoom Arcade öner"
+L["On a flight with a minute or more to go, Polestar asks if you want to play Freedoom Arcade by petllama while you wait: three levels of Freedoom, or the whole game when the Freedoom Arcade addon is installed. 10 seconds before you land, the game is saved, paused and closed. /polestar arcade opens it any time."] = "Bir dakika ya da daha uzun sürecek bir uçuşta Polestar, beklerken petllama'nın Freedoom Arcade oyununu oynamak isteyip istemediğini sorar: Freedoom'dan üç bölüm, Freedoom Arcade eklentisi kuruluysa oyunun tamamı. İnişe 10 saniye kala oyun kaydedilir, duraklatılır ve kapanır. /polestar arcade onu istediğin zaman açar."
 
 -- Dungeons/Options.lua
 L["Dungeons and characters"] = "Zindanlar ve karakterler"
@@ -4454,6 +4556,9 @@ L["%s isn't in your quest log."] = "%s görev günlüğünde değil."
 L["That quest isn't in your quest log."] = "O görev günlüğünde değil."
 L["The quest log opens when combat ends."] = "Görev günlüğü savaş bitince açılır."
 L["Show in quest log"] = "Görev günlüğünde göster"
+L["Link in chat"] = "Sohbete bağlantı ekle"
+L["Middle-click: show in quest log. Shift-click: link in chat."] = "Orta tık: görev günlüğünde göster. Shift+tık: sohbete bağlantı ekle."
+L["Shift-click: link in chat."] = "Shift+tık: sohbete bağlantı ekle."
 
 -- Dungeons/Mark.lua
 L["Needed for %s in %s"] = "%2$s içinde %1$s için gerekli"
@@ -4497,6 +4602,7 @@ L["Jump anyway? They stay in your log, and the guide lists who takes each in."] 
 L["Jump anyway"] = "Yine de atla"
 L["Open any flight master's map once on this continent so Polestar knows your flight paths."] = "Polestar uçuş noktalarını bilsin diye bu kıtada bir uçuş ustasının haritasını bir kez aç."
 L["This guide is for %s characters. Polestar won't guide you through it."] = "Bu rehber %s karakterleri için. Polestar sana bunda yol göstermez."
+L["Equip it"] = "Tak"
 
 -- Core/Pause.lua
 L["Press %s to resume, or open the guide window."] = "Devam etmek için %s tuşuna bas ya da rehber penceresini aç."
@@ -4637,6 +4743,31 @@ L["Not moved"] = "Taşınmadı"
 L["From the look"] = "Görünümden"
 L["Nothing to apply: the parts ticked are the same as yours."] = "Uygulanacak bir şey yok: işaretli parçalar seninkilerle aynı."
 
+-- Maps/Arcade.lua
+L["Freedoom Arcade can't open: its folder Polestar_Arcade is missing or turned off."] = "Freedoom Arcade açılamıyor: Polestar_Arcade klasörü eksik ya da kapalı."
+L["Freedoom Arcade opens after the fight."] = "Freedoom Arcade savaştan sonra açılır."
+L["Play Freedoom Arcade"] = "Freedoom Arcade oyna"
+L["Freedoom Arcade by petllama"] = "Freedoom Arcade (petllama)"
+L["3 levels of Freedoom Phase 1. Esc: menu, P: pause, F6/F9: save/load."] = "Freedoom Phase 1'den 3 bölüm. Esc: menü, P: duraklat, F6/F9: kaydet/yükle."
+L["a game: Play"] = "Oyna"
+L["Do you want to play Doom while waiting?"] = "Beklerken Doom oynamak ister misin?"
+L["Don't ask again"] = "Bir daha sorma"
+L["Freedoom Arcade is saved and paused for the fight: type %s to continue."] = "Freedoom Arcade savaş için kaydedildi ve duraklatıldı: devam etmek için %s yaz."
+L["Landing in 10 seconds"] = "10 saniye sonra iniş"
+L["Freedoom Arcade is saved and paused."] = "Freedoom Arcade kaydedildi ve duraklatıldı."
+L["Close Freedoom Arcade to get your keys back."] = "Tuşlarını geri almak için Freedoom Arcade penceresini kapat."
+L["Landed. Freedoom Arcade is saved and paused: type %s to continue."] = "İndin. Freedoom Arcade kaydedildi ve duraklatıldı: devam etmek için %s yaz."
+
+-- QoL/QuestXP.lua
+L["+1 level"] = "+1 seviye"
+L["Current XP"] = "Şu anki XP"
+L["Rested XP"] = "Dinlenmiş XP"
+L["Completed quests"] = "Tamamlanan görevler"
+L["Pending quest XP"] = "Bekleyen görev XP'si"
+L["After turn-ins: at least +1 level"] = "Teslimlerden sonra: en az +1 seviye"
+L["XP after turn-ins"] = "Teslimlerden sonra XP"
+L["XP remaining after turn-ins"] = "Teslimlerden sonra kalan XP"
+
 -- No longer in the code (its English changed or it went away): reuse or delete.
 -- L["Make bag room: delete the cheapest junk (press twice)"] = "Çantada yer aç: en ucuz çöpü sil (iki kez bas)"
 -- L["Train"] = "Öğren:"
@@ -4763,3 +4894,6 @@ L["Nothing to apply: the parts ticked are the same as yours."] = "Uygulanacak bi
 -- L["%s, %s or %s on map and minimap: set on the Welcome page or in Options."] = "Haritada ve mini haritada %s, %s ya da %s: Hoş geldin sayfasında ya da Seçenekler'de ayarla."
 -- L["A level-up card lists what to train; %s learns it (thanks RikyZ90); %s updates your bars."] = "Seviye atlayınca bir kart neyi öğreneceğini listeler; %s hepsini öğrenir (teşekkürler RikyZ90); %s çubuklarını günceller."
 -- L["%s ~%s · this guide doesn't go there"] = "%s ~%s · bu rehber oraya gitmiyor"
+-- L["Leaves out grey quests and their turn-ins, unless a later quest needs them first."] = "Sonraki bir görev önce onları gerektirmedikçe gri görevleri ve teslimlerini dışarıda bırakır."
+-- maybe now: L["The size of Polestar's text, apart from the window scale. The guide window has its own, on its page. Changes at once. Right-click to reset."]
+-- L["The size of Polestar's text, apart from the window scale. Changes at once. Right-click to reset."] = "Polestar yazılarının boyutu, pencere ölçeğinden ayrı. Hemen değişir. Sıfırlamak için sağ tıkla."

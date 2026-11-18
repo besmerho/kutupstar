@@ -23,4 +23,5 @@ return {
 	["Reputation · Cities"] = "İtibar · Şehirler",
 	["Reputation · Raids and dungeons"] = "İtibar · Raidler ve zindanlar",
 	["Reputation · World"] = "İtibar · Dünya",
+	["The Drowned City"] = "The Drowned City",
 }

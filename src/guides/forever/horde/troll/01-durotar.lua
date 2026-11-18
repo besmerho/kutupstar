@@ -147,35 +147,35 @@ return {
 	-- {npc:265809} Brakk
 	["{npc:265809}: for Karolek"] = "{npc:265809}: Karolek için",
 
-	-- Step 29: Camping 101: Tailoring
-	-- {npc:265809} Brakk
-	["{npc:265809}: for Snang"] = "{npc:265809}: Snang için",
-
-	-- Step 30: Camping 101: Herbalism
+	-- Step 29: Camping 101: Herbalism
 	-- {npc:265809} Brakk
 	["{npc:265809}: for Jandi"] = "{npc:265809}: Jandi için",
 
-	-- Step 31: Camping 101: Enchanting
+	-- Step 30: Camping 101: Enchanting
 	-- {npc:265809} Brakk
 	["{npc:265809}: for Jhag"] = "{npc:265809}: Jhag için",
 
-	-- Step 32: Camping 101: Alchemy
+	-- Step 31: Camping 101: Alchemy
 	-- {npc:265809} Brakk
 	["{npc:265809}: for Whuut"] = "{npc:265809}: Whuut için",
 
-	-- Step 33: Razor Hill
+	-- Step 32: Razor Hill
 	-- {npc:266940} Turroc
 	["{npc:266940}, on the east side of town; inside"] = "{npc:266940}, kasabanın doğu yakasında; içeride",
 	-- {npc:3706} Tai'jin · {npc:266940} Turroc
 	["{npc:3706}, in the barracks beside {npc:266940}"] = "{npc:3706}, kışlada {npc:266940} yanında",
 
-	-- Step 34: Razor Hill
+	-- Step 33: Razor Hill
 	-- {npc:3191} Cook Torka
 	["{npc:3191}: Camping 101 asks you to learn it"] = "{npc:3191}: Camping 101 bunu öğrenmeni istiyor",
 	-- {npc:6928} Innkeeper Grosk
 	["{npc:6928}, inside"] = "{npc:6928}, içeride",
 	-- {npc:3147} Furl Scornbrow
 	["{npc:3147}, in the watchtower"] = "{npc:3147}, gözetleme kulesinde",
+
+	-- Step 37: Camping 101: Tailoring
+	-- {npc:265809} Brakk
+	["{npc:265809}: for Snang"] = "{npc:265809}: Snang için",
 
 	-- Step 38: Grunt Kor'ja
 	-- {npc:12430} Grunt Kor'ja · {area:362} Razor Hill · {spell:613} Lesser Heal · {spell:1243} Power Word: Fortitude

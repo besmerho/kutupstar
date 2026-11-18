@@ -356,17 +356,20 @@ return {
 	["from the cauldron, for {npc:11055} at the {area:152}"] = "Kazandan, {area:152} kalesindeki {npc:11055} için",
 
 	-- Step 100: Mulgris Deepriver
-	-- {npc:10739} Mulgris Deepriver · {area:202} Writhing Haunt · {area:201} Gahrron's Withering
+	["You missed this on the route's earlier visit here: it comes first now. It is quick and opens the quests after it."] = "Rotanın buraya önceki uğrayışında bunu kaçırdın: şimdi önce bu geliyor. Kısa sürer, sonraki görevleri de açar.",
+
+	-- Step 103: Mulgris Deepriver
+	-- {npc:10739} Mulgris Deepriver · {area:202} The Writhing Haunt · {area:201} Gahrron's Withering
 	["{npc:10739} camps by the {area:202}, beside the cauldron; his bears roam the hills north and east of it, on the way to {area:201}."] = "{npc:10739}, {area:202} yanında, kazanın yanında kamp kurmuş; ayıları {area:201} yolunda, kazanın kuzeyindeki ve doğusundaki tepelerde dolaşıyor.",
 
-	-- Step 101: Diseased Grizzlies
+	-- Step 104: Diseased Grizzlies
 	["Diseased Grizzlies"] = "Diseased Grizzly yaratıkları",
 
-	-- Step 104: Target: Gahrron's Withering
-	-- {area:202} Writhing Haunt · {area:201} Gahrron's Withering · {npc:11078} Cauldron Lord Soulwrath
+	-- Step 107: Target: Gahrron's Withering
+	-- {area:202} The Writhing Haunt · {area:201} Gahrron's Withering · {npc:11078} Cauldron Lord Soulwrath
 	["Back east past the {area:202} to {area:201}, the farm under the eastern hills: {npc:11078} guards its cauldron. Kill him for the key, then use the cauldron."] = "Doğuya, {area:202} yanından geçerek doğu tepelerinin altındaki çiftlik {area:201} içine dön: {npc:11078} kazanını koruyor. Anahtar için onu öldür, sonra kazanı kullan.",
 
-	-- Step 105: The Bulwark
+	-- Step 108: The Bulwark
 	-- {area:152} The Bulwark
 	["West to the {area:152} one last time."] = "Son bir kez batıya, {area:152} kalesine git.",
 }

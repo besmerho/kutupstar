@@ -121,10 +121,14 @@ return {
 
 	-- Step 26: Durnholde Keep
 	-- {npc:2238} Tog'thar · {npc:2427} Jailor Eston · {item:3467} Dull Iron Key · {npc:2428} Jailor Marlgen · {item:3499} Burnished Gold Key
-	["South-east of Tarren Mill. Drull and {npc:2238} are chained in the keep's courtyard buildings: {npc:2427} carries the {item:3467} and {npc:2428} the {item:3499}, both in the keep. Kill them, then open both locks."] = "Tarren Mill'in güneydoğusunda. Drull ve {npc:2238} kalenin avlusundaki binalarda zincirli: {item:3467} {npc:2427} yaratığında, {item:3499} de {npc:2428} yaratığında; ikisi de kalede. Onları öldür, sonra iki kilidi de aç.",
-	["Drull's ball and chain"] = "Drull'un pranga ve zinciri",
+	["South-east of Tarren Mill. Drull and {npc:2238} are chained in the keep's courtyard buildings, and each lock needs its key: {npc:2427} carries the {item:3467} for Drull's, {npc:2428} the {item:3499} for {npc:2238}'s, both in the keep. Kill them first, then open both locks."] = "Tarren Mill'in güneydoğusunda. Drull ve {npc:2238} kalenin avlusundaki binalarda zincirli, her kilidin ayrı anahtarı var: Drull'un kilidini açan {item:3467} {npc:2427} yaratığında, {npc:2238} adlı NPC'nin kilidini açan {item:3499} de {npc:2428} yaratığında, ikisi de kalede. Önce onları öldür, sonra iki kilidi de aç.",
+	-- {item:3467} Dull Iron Key · {npc:2427} Jailor Eston
+	["{item:3467}, from {npc:2427}"] = "{item:3467}, kaynak: {npc:2427}",
+	-- {item:3499} Burnished Gold Key · {npc:2428} Jailor Marlgen
+	["{item:3499}, from {npc:2428}"] = "{item:3499}, kaynak: {npc:2428}",
 	-- {npc:2238} Tog'thar
 	["{npc:2238}'s ball and chain"] = "{npc:2238} adlı NPC'nin pranga ve zinciri",
+	["Drull's ball and chain"] = "Drull'un pranga ve zinciri",
 
 	-- Step 27: Krusk
 	-- {area:272} Tarren Mill
@@ -150,8 +154,10 @@ return {
 	-- Step 31: The smithy
 	["The smithy"] = "Demirhane",
 	-- {area:287} Hillsbrad · {npc:2404} Blacksmith Verringtan · {object:1736} Shipment of Iron · {npc:2449} Citizen Wilkes · {npc:2451} Farmer Kalaba
-	["West across the foothills to {area:287} town: the smithy stands in the middle of it. {npc:2404} and his apprentices work at the forge; the {object:1736} is stacked beside it. {npc:2449} walks by the smithy; {npc:2451} works the field south-east of the town."] = "Tepeleri geçip batıya, {area:287} kasabasına git: demirhane tam ortasında duruyor. {npc:2404} ve çırakları ocakta çalışıyor; {object:1736} hemen yanında yığılı. {npc:2449} demirhanenin yanında yürüyor; {npc:2451} kasabanın güneydoğusundaki tarlada çalışıyor.",
+	["West across the foothills to {area:287} town: the smithy stands in the middle of it. {npc:2404} and his apprentices work at the forge; the {object:1736} is stacked beside it. {npc:2449} walks the west side of the town; {npc:2451} works the field south-east of the town."] = "Tepeleri geçip batıya, {area:287} kasabasına git: demirhane tam ortasında duruyor. {npc:2404} ve çırakları ocakta çalışıyor; {object:1736} hemen yanında yığılı. {npc:2449} kasabanın batı yakasında dolaşıyor; {npc:2451} kasabanın güneydoğusundaki tarlada çalışıyor.",
 	["Inside"] = "İçeride",
+	-- {npc:2449} Citizen Wilkes
+	["{npc:2449}, on the west side of the town"] = "{npc:2449}, kasabanın batı yakasında",
 
 	-- Step 32: Tarren Mill
 	-- {npc:2055} Master Apothecary Faranell · {zone:1458} Undercity

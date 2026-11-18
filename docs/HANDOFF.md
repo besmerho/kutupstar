@@ -22,19 +22,20 @@ Barış's two hard requirements:
    "Dil · Language" dropdown it adds to Polestar's settings (Theme > Text since Polestar 0.4.0; Appearance >
    Colour & type before).
 
-## Where it stands (16 Nov 2026)
+## Where it stands (18 Nov 2026)
 
 | | |
 |---|---|
-| Polestar pinned | **v0.4.0.1** (`package.json` → `config.polestarTag`), Polestar's newest release on 16 Nov (a four-part hotfix tag: `latest` read only vX.Y.Z tags until 16 Nov, so it had missed v0.3.7.2 too), merged into `main` on 16 Nov |
-| Kutupstar in the repo | **0.4.0.1**, the same version as Polestar (TOC `## Version`, `package.json`) |
-| Kutupstar on CurseForge | **0.4.0.1** uploaded on 16 Nov on Barış's request, before an in-game test, straight through the API (`publish --yes`, file 9654422; no tag pushed). **0.4.0** uploaded on 16 Nov on Barış's request, before an in-game test, straight through the API (`publish --yes`, file 9653725; no tag pushed). **0.3.7** uploaded on 11 Nov on Barış's request, straight through the API (`publish --yes`, file 9561909; no tag pushed). **0.3.6** uploaded on 11 Nov on Barış's request, straight through the API (`publish --yes`, file 9553830; no tag pushed). **0.3.5** uploaded on 8 Nov on Barış's OK, by pushing tag `v0.3.5` (the release workflow). 0.3.1 before it (5 Nov; project 1759256, file 9450094) |
-| Barış's game | Polestar **0.4.0.1** in the `_forever_` folder on 16 Nov; Kutupstar **0.4.0.1 installed** there by `build --install`, **not tested in game yet** |
-| UI texts at v0.4.0.1 | 4203/4325 Turkish; the other 122 stay English on purpose (`src/keep-english.json`, 7 keys no longer in the code dropped on 16 Nov); 0 to do |
-| Guide texts at v0.4.0.1 | 11791/11791 in 263 guides plus the pack's texts; every folder complete |
+| Polestar pinned | **v0.4.1** (`package.json` → `config.polestarTag`), Polestar's newest release (17 Nov), on the branch `polestar-v0.4.1`, **not merged into `main` yet** |
+| Kutupstar in the repo | **0.4.1** on `polestar-v0.4.1`, the same version as Polestar (TOC `## Version`, `package.json`); `main` is still 0.4.0.1 |
+| Kutupstar on CurseForge | **0.4.0.1** uploaded on 16 Nov on Barış's request, before an in-game test, straight through the API (`publish --yes`, file 9654422; no tag pushed); 0.4.1 not uploaded. **0.4.0** uploaded on 16 Nov on Barış's request, before an in-game test, straight through the API (`publish --yes`, file 9653725; no tag pushed). **0.3.7** uploaded on 11 Nov on Barış's request, straight through the API (`publish --yes`, file 9561909; no tag pushed). **0.3.6** uploaded on 11 Nov on Barış's request, straight through the API (`publish --yes`, file 9553830; no tag pushed). **0.3.5** uploaded on 8 Nov on Barış's OK, by pushing tag `v0.3.5` (the release workflow). 0.3.1 before it (5 Nov; project 1759256, file 9450094) |
+| Barış's game | Polestar **0.4.1** in the `_forever_` folder on 18 Nov; Kutupstar **0.4.1 installed** there by `build --install` on 18 Nov, **not tested in game yet** |
+| UI texts at v0.4.1 | 4327/4452 Turkish; the other 125 stay English on purpose (`src/keep-english.json`; Journeyman/Expert/Artisan %s added on 18 Nov); 0 to do |
+| Guide texts at v0.4.1 | 11905/11905 in 265 guides plus the pack's texts; every folder complete |
 | `check` | 0 errors, 3 warnings. All three are English quest names that start with a name token (`{npc:3144}'s Wisdom`, `{npc:10260}'s Exotic Pets`), so they are right as they are |
-| `check --glossary` | 139 questions, the same kinds as before (false alarms: "route" worded as "yol", "Inn" in names); the UI ones were read on 16 Nov |
-| `Core.lua` | **changed at v0.4.0** (`registerOption` only): Polestar 0.4.0 moved its settings window into the load-on-demand addon `Polestar_Options`, and the font now lives on the Theme page, Text tab (`UI/Looks/Theme.lua`). The dropdown registers with `page = L["Theme"]`, `tab = L["Text"]`, `key = "theme"`; `audit` points there and passes. **Not tested in game yet** (Open items 0). The hooks themselves are unchanged since v0.1.1; `audit` found every hook point at v0.4.0.1 (unchanged for that sync). Polestar 0.3.6 moved its interface strings out of `Polestar/Locales/` into load-on-demand addons `Polestar_<locale>` (Interface.lua, Names.lua, Texts.lua), loaded by `Core/Locale.lua`. The early fill still works: the first `GetLocale()` after Init.lua is now in `Core/Names.lua` (line 54), before any load-time L read. `audit` checks that order in `Core/Core.xml` and that line; the tools read the German strings from `Polestar_deDE/Interface.lua` (`deUIFile` in `tools/lib/sync.js`) |
+| `check --dogal --changed` | 0 questions at v0.4.1 (11 found in the sync's lines and fixed: a "Kısa sürer ve ardından" line used in 10 guides, one "kendi") |
+| `check --glossary` | 141 questions, the same kinds as before (false alarms: "route" worded as "yol", "Inn" in names); the UI ones were read on 16 Nov |
+| `Core.lua` | **changed at v0.4.0** (`registerOption` only): Polestar 0.4.0 moved its settings window into the load-on-demand addon `Polestar_Options`, and the font now lives on the Theme page, Text tab (`UI/Looks/Theme.lua`). The dropdown registers with `page = L["Theme"]`, `tab = L["Text"]`, `key = "theme"`; `audit` points there and passes. **Not tested in game yet** (Open items 0). The hooks themselves are unchanged since v0.1.1; `audit` found every hook point at v0.4.1: `Theme.FontSpec` took an optional `scale` (`FontSpec(role, scale)`), and the wrapper already passes `...` on, so only the audit pattern changed, not `Core.lua`. Polestar 0.3.6 moved its interface strings out of `Polestar/Locales/` into load-on-demand addons `Polestar_<locale>` (Interface.lua, Names.lua, Texts.lua), loaded by `Core/Locale.lua`. The early fill still works: the first `GetLocale()` after Init.lua is now in `Core/Names.lua` (line 54), before any load-time L read. `audit` checks that order in `Core/Core.xml` and that line; the tools read the German strings from `Polestar_deDE/Interface.lua` (`deUIFile` in `tools/lib/sync.js`) |
 
 **v0.2.6 is history.** It was the pin until 4 Nov. If your clone says v0.2.6 or v0.3.0, it is stale: `git pull`, then
 `node tools/kutup.js setup` (it moves `upstream/` to the pinned tag). The reason this note exists: 0.2.0 shipped from
@@ -68,6 +69,7 @@ the branch `polestar-v0.3.0` while `main` stayed at v0.2.6, so sessions cloning 
 | 19 Anti-AI review | done (16 Nov, on `main` before the v0.4.0.1 sync): every translation checked against the `turkce-yazim` skill's rules. 219 texts fixed: 4 meaning errors ("nearby" was "yakında", "It is young", the Wear it / Not this one sentence, "kendi tarafından"), calques ("kalbinde", "-mesini sağlar" in talent texts, "ve dahası", "{npc} yerinin", needless "onun"/"Sen"), comma before "ve", dashes, "müzayede evi" and "iyileştirme" made consistent. STIL.md §6 and §7 updated. Left for a decision: "kilometre taşı" for the Legacy milestone (18 lines) and 365 semicolons the translation added where the English has a comma (Open items 1) |
 | 20 Sync to Polestar v0.4.0.1 | done (16 Nov), merged into `main`: report in `reports/sync-v0.4.0-v0.4.0.1.md`. A hotfix: UI 0 new (the 124 "lost" in the report are the old block kept from v0.4.0), guides 1 new (`The {object:142071}` in `horde/40-50/06-azshara`). `audit` all ok, `Core.lua` unchanged |
 | 22 `turkce-yazim` skill | done (18 Nov, on `main`, Barış's request): `.claude/skills/turkce-yazim/SKILL.md` blends two MIT skills, [insanca](https://github.com/tahiryildiz/insanca) and [turkish-anti-ai-skill](https://github.com/yucezerey/turkish-anti-ai-skill), cut down to game UI and guide notes. Every Turkish text follows it, `polestar-sync` included. New check `check --dogal [--changed[=ref]]` (`tools/lib/dogal.js`) lists its patterns as questions. Run on the whole repo on 18 Nov: 817 questions, most of them `onun` (269) and the known semicolons (365); real finds: 35 "Yakında" for "nearby" in profession guides ("Needs an anvil nearby"), "kilometre taşı" (18). Left for a polish (Open items 1) |
+| 23 Sync to Polestar v0.4.1 | done (18 Nov) on `polestar-v0.4.1`, **not merged**: report in `reports/sync-v0.4.0.1-v0.4.1.md`. UI 129 new (3 kept English: profession ranks), guides 151 new (9 reused), 46 lost, none gone. New: Freedoom Arcade on flights, quest XP on the XP bar, target list styles and portraits, a spare-bag offer, "left out here" lines, quest tooltips, "Ride to" travel lines, The Drowned City guides (Alliance, Horde). The 10 Alterac Valley kill targets (`Graveyard Assaulted`…) stay English: they match the quest log (`logLine`). The first sync written by `turkce-yazim`; a meaning error found on the way and fixed: Private Thorsen's note said the guide "visits" Bookie Herod where the English says it passes over it. `Core.lua` unchanged; installed in Barış's game |
 | 21 Release 0.4.0.1 | uploaded (16 Nov, file 9654422) on Barış's request, before an in-game test: the in-game check is open (Open items 0). No `v0.4.0.1` tag: pushing one would start a second upload |
 
 The next job comes when `node tools/kutup.js latest` says `update: yes`.
@@ -76,7 +78,9 @@ The next job comes when `node tools/kutup.js latest` says `update: yes`.
 
 None of these block anything.
 
-0. **In-game test of 0.4.0.1** (installed on 16 Nov; 0.3.6, 0.3.7 and 0.4.0 were never tested either). First of all: the
+0. **In-game test of 0.4.1** (installed on 18 Nov; 0.3.6 to 0.4.0.1 were never tested either). New in 0.4.1 to look
+   at: the Freedoom Arcade card on a flight ("Beklerken Doom oynamak ister misin?"), the XP bar tooltip, the target
+   list styles, and the "Binekle ... git" travel lines. First of all: the
    **"Dil · Language" dropdown** must show in Polestar's settings on the **Tema** page, **Yazı** tab (Core.lua
    changed for 0.4.0, see "Where it stands"); switching it to English and back must work after a `/reload`. Then
    check that the settings window, Install and slash help are Turkish (the early fill hangs on `Core/Names.lua`
@@ -110,6 +114,7 @@ None of these block anything.
 | Branch | State |
 |---|---|
 | `main` | current: start here |
+| `polestar-v0.4.1` | the v0.4.1 sync (18 Nov), **not merged**; not uploaded |
 | `polestar-v0.4.0.1` | the v0.4.0.1 sync, merged (16 Nov); no tag (uploaded through the API) |
 | `polestar-v0.4.0` | the v0.4.0 sync, merged (16 Nov); no tag (0.4.0 was uploaded through the API) |
 | `polestar-v0.3.7` | the v0.3.7 sync, merged (11 Nov); no tag (0.3.7 was uploaded through the API) |

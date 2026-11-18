@@ -65,8 +65,8 @@ return {
 	["{item:6888} is orange from 1 (yellow at 45, green at 65, grey at 85): about 50 crafts to 50. Cook at any fire: a town hearth or your own {object:29784}. {item:6888} comes with {skill:185} (the client teaches it with the skill); {item:2678} are a cooking vendor's. The Strigid owls of {zone:1438} drop a {item:6889} more often than not, and {zone:1439}'s moonkin drop them too. Fishers can cook {item:6290} (recipe 40c) from Rut'theran's waters instead, and {npc:6286} in {area:186} gives Recipe of the Kaldorei (seven Small Spider Legs from the Webwood spiders) for {item:5472}, orange from 10 to 50."] = "{item:6888}: 1 puandan turuncu (sarı 45, yeşil 65, gri 85): 50 puana kadar yaklaşık 50 üretim. Her ateşte pişir: bir kasaba ocağı ya da kendi {object:29784} ateşin. {item:6888}, {skill:185} ile gelir (istemci beceriyle birlikte öğretir); {item:2678} bir yemek satıcısından alınır. {zone:1438} bölgesinin Strigid baykuşları çoğu zaman {item:6889} düşürür, {zone:1439} bölgesinin moonkin'leri de düşürür. Balıkçılar bunun yerine Rut'theran sularından {item:6290} pişirebilir (tarif 40c), {area:186} köyündeki {npc:6286} de {item:5472} için Recipe of the Kaldorei görevini verir (Webwood örümceklerinden yedi Small Spider Leg); 10 puandan 50 puana kadar turuncu.",
 
 	-- Step 13: Charred Wolf Meat: ingredients
-	-- {npc:250874} Vuldren Alpha
-	["Vuldren, {npc:250874} in Zephras Isle, or wherever the arrow points"] = "Vuldren, Zephras Isle'daki {npc:250874}, ya da okun gösterdiği yer",
+	-- {npc:250873} Juvenile Vuldren
+	["{npc:250873} in Zephras Isle, or wherever the arrow points"] = "{npc:250873}, Zephras Isle'da ya da okun gösterdiği yerde",
 
 	-- Step 14: Charred Wolf Meat (1-50)
 	-- {spell:2538} Charred Wolf Meat · {object:29784} Basic Campfire · {item:2672} Stringy Wolf Meat
