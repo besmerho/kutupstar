@@ -7,7 +7,7 @@ return {
 	-- {skill:197} Tailoring
 	["Learn {skill:197}"] = "Öğren: {skill:197}",
 	-- {skill:197} Tailoring · {item:2589} Linen Cloth
-	["Apprentice {skill:197} lets you craft up to 75 for 10c, at any character level. Any {skill:197} trainer of your faction teaches it; the arrow picks the nearest. Keep every {item:2589} you loot: humanoids of level 5-20 drop it. 1-75 takes about 50c of recipes and 7s 20c of vendor goods, plus 144 {item:2589} to gather or buy."] = "Apprentice {skill:197}, her karakter seviyesinde 10c karşılığında 75 puana kadar üretim yapmanı sağlar. Tarafının her {skill:197} eğitmeni öğretir; ok en yakınını seçer. Loot'ladığın her {item:2589} kumaşını sakla: seviye 5-20 insansılar düşürür. 1-75 yaklaşık 50c tarif ve 7s 20c satıcı malı, ayrıca toplanacak ya da alınacak 144 {item:2589} tutar.",
+	["Apprentice {skill:197} lets you craft up to 75 for 10c, at any character level. Any {skill:197} trainer of your faction teaches it; the arrow picks the nearest. Keep every {item:2589} you loot: humanoids of level 5-20 drop it. 1-75 takes about 50c of recipes and 7s 20c of vendor goods, plus 144 {item:2589} to gather or buy."] = "Apprentice {skill:197}, her karakter seviyesinde 10c karşılığında 75 puana kadar üretim yapmanı sağlar. Tarafının her {skill:197} eğitmeni öğretir; ok en yakınını seçer. Loot'ladığın her {item:2589} kumaşını sakla: seviye 5-20 humanoid'ler düşürür. 1-75 yaklaşık 50c tarif ve 7s 20c satıcı malı, ayrıca toplanacak ya da alınacak 144 {item:2589} tutar.",
 
 	-- Step 2: Tailoring 1-75: vendor goods
 	-- {skill:197} Tailoring
@@ -17,13 +17,13 @@ return {
 
 	-- Step 3: Tailoring 1-75: Auction House
 	-- {skill:197} Tailoring
-	["{skill:197} 1-75: Auction House"] = "{skill:197} 1-75: müzayede evi",
+	["{skill:197} 1-75: Auction House"] = "{skill:197} 1-75: Auction House",
 	-- {item:2589} Linen Cloth
-	["What 1-75 takes that the Auction House sells: 144 {item:2589}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden müzayede evinin sattıkları: 144 {item:2589}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 1-75 takes that the Auction House sells: 144 {item:2589}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden Auction House'un sattıkları: 144 {item:2589}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 4: Linen Cloth
 	-- {item:2589} Linen Cloth · {spell:2387} Linen Cloak · {item:7026} Linen Belt
-	["144 {item:2589} for {spell:2387} and {item:7026}: humanoids of level 5-20 drop it. Keep what you loot as you level, or take it from your bank."] = "{spell:2387} ve {item:7026} için 144 {item:2589}: 5-20 seviyesindeki insansılar düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
+	["144 {item:2589} for {spell:2387} and {item:7026}: humanoids of level 5-20 drop it. Keep what you loot as you level, or take it from your bank."] = "{spell:2387} ve {item:7026} için 144 {item:2589}: 5-20 seviyesindeki humanoid'ler düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
 
 	-- Step 5: Linen Cloak to 15
 	-- {spell:2387} Linen Cloak
@@ -57,17 +57,17 @@ return {
 
 	-- Step 10: Tailoring 75-150: Auction House
 	-- {skill:197} Tailoring
-	["{skill:197} 75-150: Auction House"] = "{skill:197} 75-150: müzayede evi",
+	["{skill:197} 75-150: Auction House"] = "{skill:197} 75-150: Auction House",
 	-- {item:2592} Wool Cloth · {item:4306} Silk Cloth
-	["What 75-150 takes that the Auction House sells: 567 {item:2592} and 204 {item:4306}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden müzayede evinin sattıkları: 567 {item:2592} ve 204 {item:4306}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 75-150 takes that the Auction House sells: 567 {item:2592} and 204 {item:4306}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden Auction House'un sattıkları: 567 {item:2592} ve 204 {item:4306}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 11: Wool Cloth
 	-- {item:2592} Wool Cloth · {spell:2402} Woolen Cape · {spell:3866} Stylish Red Shirt
-	["567 {item:2592} for {spell:2402} and {spell:3866}: humanoids of level 15-30 drop it. Keep what you loot as you level, or take it from your bank."] = "{spell:2402} ve {spell:3866} için 567 {item:2592}: 15-30 seviyesindeki insansılar düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
+	["567 {item:2592} for {spell:2402} and {spell:3866}: humanoids of level 15-30 drop it. Keep what you loot as you level, or take it from your bank."] = "{spell:2402} ve {spell:3866} için 567 {item:2592}: 15-30 seviyesindeki humanoid'ler düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
 
 	-- Step 12: Silk Cloth
 	-- {item:4306} Silk Cloth · {spell:3871} Formal White Shirt
-	["204 {item:4306} for {spell:3871}: humanoids of level 25-45 drop it. Keep what you loot as you level, or take it from your bank."] = "{spell:3871} için 204 {item:4306}: 25-45 seviyesindeki insansılar düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
+	["204 {item:4306} for {spell:3871}: humanoids of level 25-45 drop it. Keep what you loot as you level, or take it from your bank."] = "{spell:3871} için 204 {item:4306}: 25-45 seviyesindeki humanoid'ler düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
 
 	-- Step 13: Woolen Cape to 104
 	-- {spell:2402} Woolen Cape
@@ -85,7 +85,7 @@ return {
 	-- {spell:3866} Stylish Red Shirt
 	["{spell:3866} to 135"] = "{spell:3866}: 135 puana kadar",
 	-- {spell:3866} Stylish Red Shirt · {spell:2964} Bolt of Woolen Cloth · {item:2604} Red Dye · {item:2321} Fine Thread · {item:2592} Wool Cloth
-	["{spell:3866} is orange at 104 (yellow 110, green 127, grey 145): about 49 crafts to 135. Each takes 3 {spell:2964}, 2 {item:2604} and 1 {item:2321}. Make the 147 {spell:2964} first. Three woolen bolts and two {item:2604} a shirt; {item:2592} drops from humanoids of level 15-30."] = "{spell:3866}: 104 puanda turuncu (sarı 110, yeşil 127, gri 145): 135 puana kadar yaklaşık 49 üretim. Her biri 3 {spell:2964}, 2 {item:2604} ve 1 {item:2321} ister. Önce 147 {spell:2964} yap. Gömlek başına üç top yün kumaş ve iki {item:2604}; {item:2592} seviye 15-30 insansılardan düşer.",
+	["{spell:3866} is orange at 104 (yellow 110, green 127, grey 145): about 49 crafts to 135. Each takes 3 {spell:2964}, 2 {item:2604} and 1 {item:2321}. Make the 147 {spell:2964} first. Three woolen bolts and two {item:2604} a shirt; {item:2592} drops from humanoids of level 15-30."] = "{spell:3866}: 104 puanda turuncu (sarı 110, yeşil 127, gri 145): 135 puana kadar yaklaşık 49 üretim. Her biri 3 {spell:2964}, 2 {item:2604} ve 1 {item:2321} ister. Önce 147 {spell:2964} yap. Gömlek başına üç top yün kumaş ve iki {item:2604}; {item:2592} seviye 15-30 humanoid'lerden düşer.",
 
 	-- Step 16: Tailoring recipes at 135
 	-- {skill:197} Tailoring
@@ -97,7 +97,7 @@ return {
 	-- {spell:3871} Formal White Shirt
 	["{spell:3871} to 150"] = "{spell:3871}: 150 puana kadar",
 	-- {spell:3871} Formal White Shirt · {spell:3839} Bolt of Silk Cloth · {item:2324} Bleach · {item:2321} Fine Thread · {item:4306} Silk Cloth · {skill:197} Tailoring
-	["{spell:3871} is orange at 135 (yellow 145, green 150, grey 155): about 17 crafts to 150. Each takes 3 {spell:3839}, 2 {item:2324} and 1 {item:2321}. Make the 51 {spell:3839} first. Silk bolts from here on: {item:4306} drops from humanoids of level 25-45. {item:2324} from tailoring and trade supplies vendors. {skill:197} 150 is a Legacy System milestone."] = "{spell:3871}: 135 puanda turuncu (sarı 145, yeşil 150, gri 155): 150 puana kadar yaklaşık 17 üretim. Her biri 3 {spell:3839}, 2 {item:2324} ve 1 {item:2321} ister. Önce 51 {spell:3839} yap. Buradan sonra ipek toplar: {item:4306} seviye 25-45 insansılardan düşer. {item:2324} terzilik ve ticaret malzemeleri satıcılarından. {skill:197} 150 bir Legacy System kilometre taşı.",
+	["{spell:3871} is orange at 135 (yellow 145, green 150, grey 155): about 17 crafts to 150. Each takes 3 {spell:3839}, 2 {item:2324} and 1 {item:2321}. Make the 51 {spell:3839} first. Silk bolts from here on: {item:4306} drops from humanoids of level 25-45. {item:2324} from tailoring and trade supplies vendors. {skill:197} 150 is a Legacy System milestone."] = "{spell:3871}: 135 puanda turuncu (sarı 145, yeşil 150, gri 155): 150 puana kadar yaklaşık 17 üretim. Her biri 3 {spell:3839}, 2 {item:2324} ve 1 {item:2321} ister. Önce 51 {spell:3839} yap. Buradan sonra ipek toplar: {item:4306} seviye 25-45 humanoid'lerden düşer. {item:2324} terzilik ve ticaret malzemeleri satıcılarından. {skill:197} 150 bir Legacy System eşiği.",
 
 	-- Step 18: Tailoring 150-225: vendor goods
 	-- {skill:197} Tailoring
@@ -111,23 +111,23 @@ return {
 
 	-- Step 20: Tailoring 150-225: Auction House
 	-- {skill:197} Tailoring
-	["{skill:197} 150-225: Auction House"] = "{skill:197} 150-225: müzayede evi",
+	["{skill:197} 150-225: Auction House"] = "{skill:197} 150-225: Auction House",
 	-- {item:4306} Silk Cloth · {item:4338} Mageweave Cloth
-	["What 150-225 takes that the Auction House sells: 264 {item:4306} and 900 {item:4338}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden müzayede evinin sattıkları: 264 {item:4306} ve 900 {item:4338}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 150-225 takes that the Auction House sells: 264 {item:4306} and 900 {item:4338}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden Auction House'un sattıkları: 264 {item:4306} ve 900 {item:4338}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 21: Silk Cloth
 	-- {item:4306} Silk Cloth · {item:7053} Azure Silk Cloak
-	["264 {item:4306} for {item:7053}: humanoids of level 25-45 drop it. Keep what you loot as you level, or take it from your bank."] = "{item:7053} için 264 {item:4306}: 25-45 seviyesindeki insansılar düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
+	["264 {item:4306} for {item:7053}: humanoids of level 25-45 drop it. Keep what you loot as you level, or take it from your bank."] = "{item:7053} için 264 {item:4306}: 25-45 seviyesindeki humanoid'ler düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
 
 	-- Step 22: Mageweave Cloth
 	-- {item:4338} Mageweave Cloth · {item:9998} Black Mageweave Vest · {item:10024} Black Mageweave Headband
-	["900 {item:4338} for {item:9998} and {item:10024}: humanoids of level 35-50 drop it. Keep what you loot as you level, or take it from your bank."] = "{item:9998} ve {item:10024} için 900 {item:4338}: 35-50 seviyesindeki insansılar düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
+	["900 {item:4338} for {item:9998} and {item:10024}: humanoids of level 35-50 drop it. Keep what you loot as you level, or take it from your bank."] = "{item:9998} ve {item:10024} için 900 {item:4338}: 35-50 seviyesindeki humanoid'ler düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
 
 	-- Step 23: Expert Tailoring
 	-- {skill:197} Tailoring
 	["Expert {skill:197}"] = "Expert {skill:197}",
 	-- {skill:197} Tailoring · {npc:1346} Georgio Bolero · {zone:1453} Stormwind City · {npc:4576} Josef Gregorian · {zone:1458} Undercity · {spell:3865} Bolt of Mageweave · {item:4306} Silk Cloth · {item:4338} Mageweave Cloth · {item:9998} Black Mageweave Vest · {item:10024} Black Mageweave Headband
-	["Expert raises the cap from 150 to 225; it needs {skill:197} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:1346} ({zone:1453}); Horde {npc:4576} ({zone:1458}). The arrow picks the nearest of your faction. Learn now: {spell:3865} (from 140). 150-225 takes about 15s of recipes and 21g 16s of vendor goods, plus 264 {item:4306} and 900 {item:4338} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {item:9998} (from 170), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 2. {item:10024} (from 190) takes a second trip, to other trainers (below)."] = "Expert sınırı 150'den 225'e çıkarır; {skill:197} 125 ve 20. karakter seviyesi ister, yani 125'ten itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:1346} ({zone:1453}); Horde {npc:4576} ({zone:1458}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:3865} (140'tan itibaren). 150-225 yaklaşık 15s tarif ve 21g 16s satıcı malı, ayrıca toplanacak ya da satın alınacak 264 {item:4306} ve 900 {item:4338} ister. Hepsi çantanda gel (yukarıdaki adımlar, kalanı müzayede evinden): bu eğitmenler {item:9998} (170'ten itibaren) tarifini de öğretir, üretimler de istasyon istemez, yani tam burada üret ve her tarifi becerisine ulaştıkça öğren. 2 yolculuk yerine bir. {item:10024} (190'dan itibaren) başka eğitmenlere ikinci bir yolculuk ister (aşağıda).",
+	["Expert raises the cap from 150 to 225; it needs {skill:197} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:1346} ({zone:1453}); Horde {npc:4576} ({zone:1458}). The arrow picks the nearest of your faction. Learn now: {spell:3865} (from 140). 150-225 takes about 15s of recipes and 21g 16s of vendor goods, plus 264 {item:4306} and 900 {item:4338} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {item:9998} (from 170), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 2. {item:10024} (from 190) takes a second trip, to other trainers (below)."] = "Expert sınırı 150'den 225'e çıkarır; {skill:197} 125 ve 20. karakter seviyesi ister, yani 125'ten itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:1346} ({zone:1453}); Horde {npc:4576} ({zone:1458}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:3865} (140'tan itibaren). 150-225 yaklaşık 15s tarif ve 21g 16s satıcı malı, ayrıca toplanacak ya da satın alınacak 264 {item:4306} ve 900 {item:4338} ister. Hepsi çantanda gel (yukarıdaki adımlar, kalanı Auction House'tan): bu eğitmenler {item:9998} (170'ten itibaren) tarifini de öğretir, üretimler de istasyon istemez, yani tam burada üret ve her tarifi becerisine ulaştıkça öğren. 2 yolculuk yerine bir. {item:10024} (190'dan itibaren) başka eğitmenlere ikinci bir yolculuk ister (aşağıda).",
 
 	-- Step 24: Azure Silk Cloak to 170
 	-- {item:7053} Azure Silk Cloak
@@ -158,7 +158,7 @@ return {
 	-- {item:10024} Black Mageweave Headband
 	["{item:10024} to 225"] = "{item:10024}: 225 puana kadar",
 	-- {item:10024} Black Mageweave Headband · {spell:3865} Bolt of Mageweave · {item:8343} Heavy Silken Thread · {skill:197} Tailoring
-	["{item:10024} is orange at 197 (yellow 205, green 220, grey 235): about 40 crafts to 225. Each takes 3 {spell:3865} and 2 {item:8343}. Make the 120 {spell:3865} first. The trainer teaches it, and it is the cheapest way through these points in the data. {skill:197} 225 is a Legacy System milestone."] = "{item:10024}: 197 puanda turuncu (sarı 205, yeşil 220, gri 235): 225 puana kadar yaklaşık 40 üretim. Her biri 3 {spell:3865} ve 2 {item:8343} ister. Önce 120 {spell:3865} yap. Eğitmen öğretir ve veriye göre bu puanları geçmenin en ucuz yolu. {skill:197} 225 bir Legacy System kilometre taşı.",
+	["{item:10024} is orange at 197 (yellow 205, green 220, grey 235): about 40 crafts to 225. Each takes 3 {spell:3865} and 2 {item:8343}. Make the 120 {spell:3865} first. The trainer teaches it, and it is the cheapest way through these points in the data. {skill:197} 225 is a Legacy System milestone."] = "{item:10024}: 197 puanda turuncu (sarı 205, yeşil 220, gri 235): 225 puana kadar yaklaşık 40 üretim. Her biri 3 {spell:3865} ve 2 {item:8343} ister. Önce 120 {spell:3865} yap. Eğitmen öğretir ve veriye göre bu puanları geçmenin en ucuz yolu. {skill:197} 225 bir Legacy System eşiği.",
 
 	-- Step 29: Artisan Tailoring
 	-- {skill:197} Tailoring
@@ -174,13 +174,13 @@ return {
 
 	-- Step 31: Pattern: Runecloth Gloves
 	-- {item:14481} Pattern: Runecloth Gloves · {item:13863} Runecloth Gloves · {skill:197} Tailoring · {npc:11189} Qia · {zone:1452} Winterspring
-	["{item:14481} teaches {item:13863} ({skill:197} 230) for 1g 60s. Sold by {npc:11189} ({zone:1452}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; it binds when picked up, so the Auction House never has it."] = "{item:14481}, 1g 60s karşılığında {item:13863} ({skill:197} 230) öğretir. Satan {npc:11189} ({zone:1452}), sınırlı stok. Satıcıları bir iki tane tutar, satıştan bir süre sonra yeniden gelir; alınınca bağlanır, bu yüzden müzayede evinde hiç olmaz.",
+	["{item:14481} teaches {item:13863} ({skill:197} 230) for 1g 60s. Sold by {npc:11189} ({zone:1452}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; it binds when picked up, so the Auction House never has it."] = "{item:14481}, 1g 60s karşılığında {item:13863} ({skill:197} 230) öğretir. Satan {npc:11189} ({zone:1452}), sınırlı stok. Satıcıları bir iki tane tutar, satıştan bir süre sonra yeniden gelir; alınınca bağlanır, bu yüzden Auction House'ta hiç olmaz.",
 
 	-- Step 32: Tailoring 225-300: Auction House
 	-- {skill:197} Tailoring
-	["{skill:197} 225-300: Auction House"] = "{skill:197} 225-300: müzayede evi",
+	["{skill:197} 225-300: Auction House"] = "{skill:197} 225-300: Auction House",
 	-- {item:8170} Rugged Leather · {item:14047} Runecloth · {item:14227} Ironweb Spider Silk · {item:14504} Pattern: Runecloth Shoulders
-	["What 225-300 takes that the Auction House sells: 420 {item:8170}, 3195 {item:14047}, 124 {item:14227} and a {item:14504}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden müzayede evinin sattıkları: 420 {item:8170}, 3195 {item:14047}, 124 {item:14227} ve a {item:14504}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 225-300 takes that the Auction House sells: 420 {item:8170}, 3195 {item:14047}, 124 {item:14227} and a {item:14504}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden Auction House'un sattıkları: 420 {item:8170}, 3195 {item:14047}, 124 {item:14227} ve a {item:14504}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 33: Rugged Leather (Alliance)
 	-- {item:8170} Rugged Leather
@@ -196,7 +196,7 @@ return {
 
 	-- Step 35: Runecloth
 	-- {item:14047} Runecloth · {item:13856} Runecloth Belt · {item:13863} Runecloth Gloves · {item:13867} Runecloth Shoulders
-	["3195 {item:14047} for {item:13856}, {item:13863} and {item:13867}: humanoids of level 45-60 drop it. Keep what you loot as you level, or take it from your bank."] = "{item:13856}, {item:13863} ve {item:13867} için 3195 {item:14047}: 45-60 seviyesindeki insansılar düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
+	["3195 {item:14047} for {item:13856}, {item:13863} and {item:13867}: humanoids of level 45-60 drop it. Keep what you loot as you level, or take it from your bank."] = "{item:13856}, {item:13863} ve {item:13867} için 3195 {item:14047}: 45-60 seviyesindeki humanoid'ler düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
 
 	-- Step 36: Ironweb Spider Silk (Alliance)
 	-- {item:14227} Ironweb Spider Silk
@@ -226,6 +226,6 @@ return {
 	-- {item:13867} Runecloth Shoulders
 	["{item:13867} to 300"] = "{item:13867}: 300 puana kadar",
 	-- {item:13867} Runecloth Shoulders · {item:14048} Bolt of Runecloth · {item:14227} Ironweb Spider Silk · {item:8170} Rugged Leather · {item:14341} Rune Thread · {item:14504} Pattern: Runecloth Shoulders · {zone:1422} Western Plaguelands · {zone:1451} Silithus · {item:13863} Runecloth Gloves · {item:13864} Runecloth Boots · {npc:7940} Darnall · {zone:1450} Moonglade · {item:14342} Mooncloth · {npc:11189} Qia · {npc:11188} Evie Whirlbrew · {area:2255} Everlook · {item:14256} Felcloth · {item:279943} Spinning Wheel · {npc:248202} Jim'bek · {npc:256735} Mivin Shadowweave · {npc:246017} Unstable Sentinel · {item:254123} Runecloth Cuffs · {zone:2482} Mount Hyjal · {skill:197} Tailoring
-	["{item:13867} is orange at 265 (yellow 275, green 290, grey 305): about 62 crafts to 300. Each takes 7 {item:14048}, 2 {item:14227}, 4 {item:8170} and 1 {item:14341}. Make the 434 {item:14048} first. Its pattern ({item:14504}) drops from mobs all over the world and does not bind: buy it at the Auction House. Seven bolts, two {item:14227} and four {item:8170} a craft: the dearest stretch. The spiders of {zone:1422} and {zone:1451} drop the silk (the marked spots), or the Auction House. No pattern on the Auction House? {item:13863} still give a point now and then to 275, and {item:13864} ({npc:7940}, {zone:1450}) to 280, at 4 bolts a craft. {item:14342} (pattern from {npc:11189} or {npc:11188} in {area:2255}; 2 {item:14256} at a Moonwell) stays orange to 270 and yellow to 285, but it can be made once every four days. The {item:279943} patterns (Merchant's Favor sandals and waistcords from {npc:248202} or {npc:256735}; the wheel's blueprint drops from the {npc:246017} in the City of Dalaran) and {item:254123} (Pexmit in {zone:2482}, 10g; we could not confirm that vendor yet) are the other ways on. {skill:197} 300 is a Legacy System milestone."] = "{item:13867}: 265 puanda turuncu (sarı 275, yeşil 290, gri 305): 300 puana kadar yaklaşık 62 üretim. Her biri 7 {item:14048}, 2 {item:14227}, 4 {item:8170} ve 1 {item:14341} ister. Önce 434 {item:14048} yap. Kalıbı ({item:14504}) dünyanın her yanındaki yaratıklardan düşer ve bağlanmaz: müzayede evinden al. Üretim başına yedi top kumaş, iki {item:14227} ve dört {item:8170}: en pahalı kısım. İpeği {zone:1422} ve {zone:1451} bölgelerinin örümcekleri düşürür (işaretli yerler) ya da müzayede evi. Müzayede evinde kalıp yok mu? {item:13863} 275 puana kadar arada bir puan vermeyi sürdürür, {item:13864} ({npc:7940}, {zone:1450}) de 280 puana kadar, üretim başına 4 top kumaşla. {item:14342} (kalıbı {area:2255} kasabasında {npc:11189} ya da {npc:11188} yaratığından; bir Moonwell'de 2 {item:14256}) 270 puana kadar turuncu ve 285 puana kadar sarı kalır, ama dört günde bir yapılabilir. {item:279943} kalıpları ({npc:248202} ya da {npc:256735} yaratığından Merchant's Favor sandalet ve bel kordonları; çarkın şeması City of Dalaran'daki {npc:246017} yaratığından düşer) ve {item:254123} ({zone:2482} bölgesinde Pexmit, 10g; bu satıcıyı henüz doğrulayamadık) diğer yollar. {skill:197} 300 bir Legacy System kilometre taşı.",
-	["from the pattern bought at the Auction House"] = "Müzayede evinden alınan kalıptan",
+	["{item:13867} is orange at 265 (yellow 275, green 290, grey 305): about 62 crafts to 300. Each takes 7 {item:14048}, 2 {item:14227}, 4 {item:8170} and 1 {item:14341}. Make the 434 {item:14048} first. Its pattern ({item:14504}) drops from mobs all over the world and does not bind: buy it at the Auction House. Seven bolts, two {item:14227} and four {item:8170} a craft: the dearest stretch. The spiders of {zone:1422} and {zone:1451} drop the silk (the marked spots), or the Auction House. No pattern on the Auction House? {item:13863} still give a point now and then to 275, and {item:13864} ({npc:7940}, {zone:1450}) to 280, at 4 bolts a craft. {item:14342} (pattern from {npc:11189} or {npc:11188} in {area:2255}; 2 {item:14256} at a Moonwell) stays orange to 270 and yellow to 285, but it can be made once every four days. The {item:279943} patterns (Merchant's Favor sandals and waistcords from {npc:248202} or {npc:256735}; the wheel's blueprint drops from the {npc:246017} in the City of Dalaran) and {item:254123} (Pexmit in {zone:2482}, 10g; we could not confirm that vendor yet) are the other ways on. {skill:197} 300 is a Legacy System milestone."] = "{item:13867}: 265 puanda turuncu (sarı 275, yeşil 290, gri 305): 300 puana kadar yaklaşık 62 üretim. Her biri 7 {item:14048}, 2 {item:14227}, 4 {item:8170} ve 1 {item:14341} ister. Önce 434 {item:14048} yap. Kalıbı ({item:14504}) dünyanın her yanındaki yaratıklardan düşer ve bağlanmaz: Auction House'tan al. Üretim başına yedi top kumaş, iki {item:14227} ve dört {item:8170}: en pahalı kısım. İpeği {zone:1422} ve {zone:1451} bölgelerinin örümcekleri düşürür (işaretli yerler) ya da Auction House. Auction House'ta kalıp yok mu? {item:13863} 275 puana kadar arada bir puan vermeyi sürdürür, {item:13864} ({npc:7940}, {zone:1450}) de 280 puana kadar, üretim başına 4 top kumaşla. {item:14342} (kalıbı {area:2255} kasabasında {npc:11189} ya da {npc:11188} yaratığından; bir Moonwell'de 2 {item:14256}) 270 puana kadar turuncu ve 285 puana kadar sarı kalır, ama dört günde bir yapılabilir. {item:279943} kalıpları ({npc:248202} ya da {npc:256735} yaratığından Merchant's Favor sandalet ve bel kordonları; çarkın şeması City of Dalaran'daki {npc:246017} yaratığından düşer) ve {item:254123} ({zone:2482} bölgesinde Pexmit, 10g; bu satıcıyı henüz doğrulayamadık) diğer yollar. {skill:197} 300 bir Legacy System eşiği.",
+	["from the pattern bought at the Auction House"] = "Auction House'tan alınan kalıptan",
 }

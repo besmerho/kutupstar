@@ -106,7 +106,7 @@ return {
 	-- Step 18: Linen Cloth
 	-- {npc:257648} Tanis Alderwood · {item:2589} Linen Cloth
 	-- plural, as words: Scarlet Zealots = {npc:1537} Scarlet Zealot
-	["{npc:257648} needs 10 {item:2589}. Humanoids drop it: the Scarlet Zealots and Friars of the glades about three kills in ten. The Undercity Auction House sells it too."] = "{npc:257648} 10 {item:2589} istiyor. İnsansılar düşürür: bozkırlardaki Scarlet Zealot ve Friar'lar aşağı yukarı on öldürmede üç. Undercity müzayede evi da satar.",
+	["{npc:257648} needs 10 {item:2589}. Humanoids drop it: the Scarlet Zealots and Friars of the glades about three kills in ten. The Undercity Auction House sells it too."] = "{npc:257648} 10 {item:2589} istiyor. İnsansılar düşürür: bozkırlardaki Scarlet Zealot ve Friar'lar aşağı yukarı on öldürmede üç. Undercity Auction House da satar.",
 	-- {item:2589} Linen Cloth
 	["{item:2589} x10"] = "{item:2589} x10",
 

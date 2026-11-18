@@ -87,7 +87,10 @@ paylaş" ("X'te"), "Umarım", "Elbette". Hal ekine bak: bir şey Discord'dan gö
 
 ## Terimler
 
-- Oyuncu dilinde yaşayan İngilizce kalır, zorla çevrilmez: loot, buff, rare, elit, XP, PvP, raid, Legacy.
+- Oyuncu dilinde yaşayan İngilizce kalır, zorla çevrilmez: loot, buff, rare, elit, XP, PvP, raid, Legacy,
+  humanoid, quartermaster, Auction House, token, insignia, trash, battleground, mark (Barış, 18 Kasım: “insansı”,
+  “levazımcı”, “jeton” gibi uydurma karşılıklar yapay duruyor). Ek İngilizce okunuşa göre: Auction House'tan,
+  quartermaster'ın, humanoid'ler. Terim sorusu çıkarsa Barış'a “İngilizce kalsın” seçeneğiyle birlikte sor.
 - Yerleşik Türkçesi olan Türkçe yazılır: görev, adım, hedef, ayarlar, arama, güncelleme.
 - Bir kavrama tek karşılık: sözlük ya da STIL.md §7 ne diyorsa metin boyunca o. Öz Türkçeciliğe kaçma
   ("performans", "sistem", "detay" yaşayan sözlerdir).

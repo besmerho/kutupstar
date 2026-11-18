@@ -49,13 +49,13 @@ return {
 	-- {npc:1416} Grimand Elmore
 	["{npc:1416}'s materials"] = "{npc:1416} adlı NPC'nin malzemeleri",
 	-- {item:14047} Runecloth · {area:2255} Everlook · {area:2577} Dire Maul · {item:8836} Arthas' Tears · {skill:182} Herbalism · {area:3197} Chillwind Camp · {item:12360} Arcanite Bar · {item:12359} Thorium Bar · {item:12363} Arcane Crystal
-	["{item:14047} drops from humanoids of level 50 and up ({area:2255}'s Bruisers, the Scarlet Crusade in the Plaguelands, the {area:2577} ogres). {item:8836} is a Plaguelands herb ({skill:182} 220), common around {area:3197}. An {item:12360} is an alchemist's transmute from a {item:12359} and an {item:12363}, once every two days per alchemist: ask a guild alchemist early, or buy the bars. The Auction House sells all three."] = "{item:14047}, seviye 50 ve üzeri insansılardan düşer ({area:2255} Bruiser'ları, Plaguelands'deki Scarlet Crusade, {area:2577} ogre'ları). {item:8836}, bir Plaguelands bitkisi ({skill:182} 220), {area:3197} çevresinde yaygın. Bir {item:12360}, bir {item:12359} ve bir {item:12363} ile yapılan bir simyacı dönüşümü, simyacı başına iki günde bir: erkenden bir lonca simyacısına sor ya da barları satın al. Müzayede evi üçünü de satıyor.",
+	["{item:14047} drops from humanoids of level 50 and up ({area:2255}'s Bruisers, the Scarlet Crusade in the Plaguelands, the {area:2577} ogres). {item:8836} is a Plaguelands herb ({skill:182} 220), common around {area:3197}. An {item:12360} is an alchemist's transmute from a {item:12359} and an {item:12363}, once every two days per alchemist: ask a guild alchemist early, or buy the bars. The Auction House sells all three."] = "{item:14047}, seviye 50 ve üzeri humanoid'lerden düşer ({area:2255} Bruiser'ları, Plaguelands'deki Scarlet Crusade, {area:2577} ogre'ları). {item:8836}, bir Plaguelands bitkisi ({skill:182} 220), {area:3197} çevresinde yaygın. Bir {item:12360}, bir {item:12359} ve bir {item:12363} ile yapılan bir simyacı dönüşümü, simyacı başına iki günde bir: erkenden bir lonca simyacısına sor ya da barları satın al. Auction House üçünü de satıyor.",
 	-- {item:14047} Runecloth
 	["{item:14047} x40"] = "{item:14047} x40",
 	-- {item:8836} Arthas' Tears
 	["{item:8836} x10"] = "{item:8836} x10",
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar
-	["Arcanite Bars x6: an alchemist, or the Trade District Auction House"] = "Arcanite Bar x6: bir simyacı ya da Trade District müzayede evi",
+	["Arcanite Bars x6: an alchemist, or the Trade District Auction House"] = "Arcanite Bar x6: bir simyacı ya da Trade District Auction House",
 
 	-- Step 9: Stratholme Holy Water
 	-- {area:2279} Stratholme · {zone:1423} Eastern Plaguelands
@@ -80,7 +80,7 @@ return {
 	["Enriched Manna Biscuits"] = "Enriched Manna Biscuit",
 	-- {object:2160} The Argent Dawn · {object:92525} Argent Dawn · {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp · {npc:11536} Quartermaster Miranda Breechlock · {area:2268} Light's Hope Chapel
 	-- plural, as words: Enriched Manna Biscuits = {item:13724} Enriched Manna Biscuit
-	["{object:2160} quartermasters sell Enriched Manna Biscuits, five for 60 silver, once the {object:92525} is Friendly with you: {npc:10857} at {area:3197} or {npc:11536} at {area:2268}. Scourgestones and the Plaguelands quests raise the standing."] = "{object:92525} ile Friendly olunca {object:2160} levazımcıları Enriched Manna Biscuit satar, beşi 60 gümüşe: {area:3197} kampında {npc:10857} ya da {area:2268} şapelinde {npc:11536}. Scourgestone'lar ve Plaguelands görevleri itibarı yükseltir.",
+	["{object:2160} quartermasters sell Enriched Manna Biscuits, five for 60 silver, once the {object:92525} is Friendly with you: {npc:10857} at {area:3197} or {npc:11536} at {area:2268}. Scourgestones and the Plaguelands quests raise the standing."] = "{object:92525} ile Friendly olunca {object:2160} quartermaster'ları Enriched Manna Biscuit satar, beşi 60 gümüşe: {area:3197} kampında {npc:10857} ya da {area:2268} şapelinde {npc:11536}. Scourgestone'lar ve Plaguelands görevleri itibarı yükseltir.",
 	-- {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp
 	-- plural, as words: Enriched Manna Biscuits = {item:13724} Enriched Manna Biscuit
 	["Enriched Manna Biscuits: {npc:10857}, {area:3197}"] = "Enriched Manna Biscuit: {npc:10857}, {area:3197}",
@@ -99,7 +99,7 @@ return {
 	-- Step 16: Two diamonds
 	["Two diamonds"] = "İki elmas",
 	-- {item:12800} Azerothian Diamond · {item:18335} Pristine Black Diamond · {npc:14695} Lord Blackwood
-	["An {item:12800} comes from Thorium veins and obsidian, about one vein in a hundred; a {item:18335} drops rarely from elites of level 59 and up (Revanchion and {npc:14695} about one kill in nine and one in a hundred). The Auction House is the usual source of both."] = "Bir {item:12800}, Thorium damarlarından ve obsidyenden, yaklaşık yüz damarda bir çıkar; bir {item:18335}, seviye 59 ve üstü elitlerden nadiren düşer (Revanchion ve {npc:14695} yaklaşık dokuz öldürmede bir ve yüzde bir). İkisinin de olağan kaynağı müzayede evi.",
+	["An {item:12800} comes from Thorium veins and obsidian, about one vein in a hundred; a {item:18335} drops rarely from elites of level 59 and up (Revanchion and {npc:14695} about one kill in nine and one in a hundred). The Auction House is the usual source of both."] = "Bir {item:12800}, Thorium damarlarından ve obsidyenden, yaklaşık yüz damarda bir çıkar; bir {item:18335}, seviye 59 ve üstü elitlerden nadiren düşer (Revanchion ve {npc:14695} yaklaşık dokuz öldürmede bir ve yüzde bir). İkisinin de olağan kaynağı Auction House.",
 
 	-- Step 17: Lord Grayson Shadowbreaker
 	-- {item:18804} Lord Grayson's Satchel · {item:18746} Divination Scryer · {item:18792} Blessed Arcanite Barding

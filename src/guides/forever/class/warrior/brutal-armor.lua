@@ -63,7 +63,7 @@ return {
 	["Iron Bars"] = "Iron Bar",
 	-- {item:2772} Iron Ore · {spell:3307} Smelt Iron · {skill:186} Mining · {zone:1454} Orgrimmar
 	-- plural, as words: Iron Bars = {item:3575} Iron Bar
-	["You need 10 Iron Bars. Miners smelt them from {item:2772} (one ore a bar, {spell:3307} at {skill:186} 125); everyone else buys them at the auction house in {zone:1454}."] = "10 Iron Bar gerekiyor. Madenciler onları {item:2772} cevherinden eritir (her külçe için bir cevher, {skill:186} 125'te {spell:3307}); diğer herkes {zone:1454} şehrindeki müzayede evinden alır.",
+	["You need 10 Iron Bars. Miners smelt them from {item:2772} (one ore a bar, {spell:3307} at {skill:186} 125); everyone else buys them at the auction house in {zone:1454}."] = "10 Iron Bar gerekiyor. Madenciler onları {item:2772} cevherinden eritir (her külçe için bir cevher, {skill:186} 125'te {spell:3307}); diğer herkes {zone:1454} şehrindeki Auction House'tan alır.",
 	-- {npc:8673} Auctioneer Thathung
 	-- plural, as words: Iron Bars = {item:3575} Iron Bar
 	["Iron Bars: {npc:8673}"] = "Iron Bar: {npc:8673}",

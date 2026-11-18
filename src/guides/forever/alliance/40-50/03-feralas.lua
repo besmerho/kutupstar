@@ -119,7 +119,7 @@ return {
 	-- Step 23: Grind to 45
 	["Grind to 45"] = "Seviye 45'e kadar kas",
 	-- {area:1105} Feral Scar Vale · {area:978} Zul'Farrak
-	["Ride west into {area:1105}: its yetis are 43-45. The Rage Scar yetis in the hills to the north are 46-49: leave them. Or, with a group, run the {area:978} dungeon instead."] = "Batıya, {area:1105} vadisine sür: yetileri 43-45. Kuzeydeki tepelerde Rage Scar yetileri 46-49: onları bırak. Ya da grubun varsa onun yerine {area:978} zindanına koş.",
+	["Ride west into {area:1105}: its yetis are 43-45. The Rage Scar yetis in the hills to the north are 46-49: leave them. Or, with a group, run the {area:978} dungeon instead."] = "Batıya, {area:1105} vadisine sür: yetileri 43-45. Kuzeydeki tepelerde Rage Scar yetileri 46-49: onları bırak. Ya da grubun varsa onun yerine {area:978} zindanını yap.",
 	-- {npc:5292} Feral Scar Yeti · {area:1105} Feral Scar Vale · {zone:1444} Feralas
 	["grind on {npc:5292} at {area:1105}, {zone:1444}"] = "Kas: {npc:5292} ({area:1105}, {zone:1444})",
 

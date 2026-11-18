@@ -266,11 +266,11 @@ return {
 
 	-- Step 52: The Tome of Divinity
 	-- {npc:6171} Duthorian Rall · {npc:6173} Gazin Tenorm · {npc:6174} Stephanie Turner · {object:2096} Trade District · {item:2589} Linen Cloth
-	["{npc:6171} and {npc:6173} are in the Cathedral of Light; {npc:6174} stands in the {object:2096} and asks for ten {item:2589} (humanoids drop it; the Auction House sells it)."] = "{npc:6171} ve {npc:6173} Cathedral of Light içinde; {npc:6174}, {object:2096} semtinde duruyor ve senden on {item:2589} istiyor (insansı yaratıklar düşürür; müzayede evi da satar).",
+	["{npc:6171} and {npc:6173} are in the Cathedral of Light; {npc:6174} stands in the {object:2096} and asks for ten {item:2589} (humanoids drop it; the Auction House sells it)."] = "{npc:6171} ve {npc:6173} Cathedral of Light içinde; {npc:6174}, {object:2096} semtinde duruyor ve senden on {item:2589} istiyor (humanoid yaratıklar düşürür; Auction House da satar).",
 	-- {quest:2998} Tome of Divinity
 	["Right-click the {quest:2998} he gives you"] = "Sana verdiği {quest:2998} eşyasına sağ tıkla",
 	-- {item:2589} Linen Cloth · {zone:1436} Westfall · {object:2096} Trade District · {object:2100} Old Town
-	["{item:2589}: you have it from {zone:1436}'s Defias; if not, the Auction House here in the {object:2096} (not the level 25 thugs in {object:2100})"] = "{item:2589}: {zone:1436} bölgesindeki Defias'lardan sende var; yoksa buradaki {object:2096} içindeki müzayede evinden al ({object:2100} içindeki 25. seviye haydutlardan değil)",
+	["{item:2589}: you have it from {zone:1436}'s Defias; if not, the Auction House here in the {object:2096} (not the level 25 thugs in {object:2100})"] = "{item:2589}: {zone:1436} bölgesindeki Defias'lardan sende var; yoksa buradaki {object:2096} içindeki Auction House'tan al ({object:2100} içindeki 25. seviye haydutlardan değil)",
 	-- {npc:6172} Henze Faulk · {area:86} Stone Cairn Lake
 	["{npc:6172}, by {area:86} in Elwynn, on the road to Redridge"] = "{npc:6172}, Elwynn'de, Redridge yolunun üstünde, {area:86} gölünün yanında",
 

@@ -8,7 +8,7 @@ return {
 	["{item:8705} in {zone:1444}"] = "{zone:1444} bölgesinde {item:8705}",
 	-- {zone:1444} Feralas · {area:1108} Forgotten Coast
 	-- plural, as words: Coast Crawl Snapclaws = {npc:5327} Coast Crawl Snapclaw · Sprite Dragons = {npc:5276} Sprite Dragon
-	["Each robot starts with a distress beacon that mobs in its zone drop, about one kill in 40 to 100 in Classic's data. In {zone:1444} the best are the Coast Crawl Snapclaws and Deepseers (levels 43-45) on the {area:1108} and the Sprite Dragons (47-48), about 2.5%; ogres, harpies, naga and Grimtotems drop it about 1%. You can loot it from level 40."] = "Her robot, kendi bölgesindeki yaratıkların düşürdüğü bir imdat işaretiyle başlar; Classic verisinde yaklaşık 40 ila 100 öldürmede bir. {zone:1444} bölgesinde en iyileri {area:1108} kıyısındaki Coast Crawl Snapclaw ve Deepseer'lar (seviye 43-45) ile Sprite Dragon'lar (47-48), yaklaşık yüzde 2,5; ogre'lar, harpy'ler, naga'lar ve Grimtotem'ler yaklaşık yüzde 1 düşürür. Seviye 40'tan itibaren loot'layabilirsin.",
+	["Each robot starts with a distress beacon that mobs in its zone drop, about one kill in 40 to 100 in Classic's data. In {zone:1444} the best are the Coast Crawl Snapclaws and Deepseers (levels 43-45) on the {area:1108} and the Sprite Dragons (47-48), about 2.5%; ogres, harpies, naga and Grimtotems drop it about 1%. You can loot it from level 40."] = "Her robot, kendi bölgesindeki yaratıkların düşürdüğü bir imdat işaretiyle başlar; Classic verisinde yaklaşık 40 ila 100 öldürmede bir. {zone:1444} bölgesinde en iyileri {area:1108} kıyısındaki Coast Crawl Snapclaw ve Deepseer'lar (seviye 43-45) ile Sprite Dragon'lar (47-48), yaklaşık %2,5; ogre'lar, harpy'ler, naga'lar ve Grimtotem'ler yaklaşık %1 düşürür. Seviye 40'tan itibaren loot'layabilirsin.",
 
 	-- Step 2: OOX-22/FE's beacon
 	["OOX-22/FE's beacon"] = "OOX-22/FE işaret cihazı",
@@ -26,7 +26,7 @@ return {
 	["{item:8623} in {zone:1446}"] = "{zone:1446} bölgesinde {item:8623}",
 	-- {zone:1446} Tanaris
 	-- plural, as words: Treasure Hunting Pirates = {npc:7899} Treasure Hunting Pirate · Ground Pounders = {npc:9396} Ground Pounder
-	["{zone:1446} mobs drop OOX-17/TN's beacon about one kill in 50 to 150. Best: the Treasure Hunting Pirates and Buccaneers on the south shore (44-45) and the Ground Pounders in the north (41-43), about 2%. You can loot it from level 43."] = "{zone:1446} yaratıkları OOX-17/TN'nin işaretini yaklaşık 50 ila 150 öldürmede bir düşürür. En iyileri: güney kıyısındaki Treasure Hunting Pirate ve Buccaneer'lar (44-45) ve kuzeydeki Ground Pounder'lar (41-43), yaklaşık yüzde 2. Seviye 43'ten itibaren loot'layabilirsin.",
+	["{zone:1446} mobs drop OOX-17/TN's beacon about one kill in 50 to 150. Best: the Treasure Hunting Pirates and Buccaneers on the south shore (44-45) and the Ground Pounders in the north (41-43), about 2%. You can loot it from level 43."] = "{zone:1446} yaratıkları OOX-17/TN'nin işaretini yaklaşık 50 ila 150 öldürmede bir düşürür. En iyileri: güney kıyısındaki Treasure Hunting Pirate ve Buccaneer'lar (44-45) ve kuzeydeki Ground Pounder'lar (41-43), yaklaşık %2. Seviye 43'ten itibaren loot'layabilirsin.",
 
 	-- Step 5: OOX-17/TN's beacon
 	["OOX-17/TN's beacon"] = "OOX-17/TN işaret cihazı",

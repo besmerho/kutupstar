@@ -5,10 +5,10 @@
 return {
 	-- Step 1: Stormwind
 	-- {zone:1429} Elwynn Forest · {quest:174} Look to the Stars · {area:42} Darkshire · {item:4371} Bronze Tube · {npc:3133} Herble Baubbletump · {object:2096} Trade District
-	["Train, then leave by the main gate and follow the road east through {zone:1429}.\n{quest:174} in {area:42} needs a {item:4371}. Its vendors keep only one or two, and {npc:3133} in {area:42} is nearly always sold out: buy one at the Auction House in the {object:2096} on your way out. An engineer can make one too."] = "Eğitimini al, sonra ana kapıdan çık ve yolu doğuya, {zone:1429} içinden izle.\n{area:42} kasabasındaki {quest:174} görevi bir {item:4371} ister. Satıcılarında yalnızca bir iki tane olur ve {area:42} kasabasındaki {npc:3133} neredeyse her zaman tükenmiştir: çıkarken {object:2096} semtindeki müzayede evinden bir tane al. Bir engineer da yapabilir.",
+	["Train, then leave by the main gate and follow the road east through {zone:1429}.\n{quest:174} in {area:42} needs a {item:4371}. Its vendors keep only one or two, and {npc:3133} in {area:42} is nearly always sold out: buy one at the Auction House in the {object:2096} on your way out. An engineer can make one too."] = "Eğitimini al, sonra ana kapıdan çık ve yolu doğuya, {zone:1429} içinden izle.\n{area:42} kasabasındaki {quest:174} görevi bir {item:4371} ister. Satıcılarında yalnızca bir iki tane olur ve {area:42} kasabasındaki {npc:3133} neredeyse her zaman tükenmiştir: çıkarken {object:2096} semtindeki Auction House'tan bir tane al. Bir engineer da yapabilir.",
 	["Your new spells"] = "Yeni büyülerin",
 	-- {item:4371} Bronze Tube · {quest:174} Look to the Stars · {area:42} Darkshire
-	["{item:4371}: the Auction House, for {quest:174} in {area:42}"] = "{item:4371}: müzayede evi; {area:42} kasabasındaki {quest:174} görevi için",
+	["{item:4371}: the Auction House, for {quest:174} in {area:42}"] = "{item:4371}: Auction House; {area:42} kasabasındaki {quest:174} görevi için",
 
 	-- Step 2: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District

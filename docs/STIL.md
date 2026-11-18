@@ -52,6 +52,7 @@ Eki, adın ardından gelen bir **sınıflandırıcı sözcüğe** ver ya da ek g
 | nesne (`object`) | `{object} nesnesine tıkla` ya da `Sağ tık: {object}` | Sağ tık: {object:83763} |
 | dost NPC'nin yeri | `{npc} yanına/yanında` | {npc:13841} yanına teslim et |
 | dost NPC'nin malı, görevi | `{npc} adlı NPC'nin …`, `{npc} satıcısında` | {npc:13217} satıcısında açılır |
+| NPC'nin yeri (kamp, kulübe, kule, mağara) | `{npc} kampı` serbest, ad gibi okunur **[KARAR 18 Kas]** | {npc:1495} kampına git |
 | düşman yaratık, boss | `{npc} yaratığının/yaratığını/yaratığından` | {npc:12017} yaratığının kafası |
 
 “Yaratık” yalnızca düşmanlar için: bir satıcıya ya da görev verene `{npc} yaratığında` yazılmaz. Türü belli olmayan
@@ -75,6 +76,9 @@ uyarı olarak listeler.
 **isim plakasındaki tekil adı** kullan ve Türkçe bir sözcükle çoğult:
 “Young Wolf ve Timber Wolf yaratıkları”. Yorumdaki `plural, as words` satırı tekil adı verir. Yaratık adı çevrilmez:
 oyuncu plakada “Kobold Worker” görüyor.
+
+**[KARAR 18 Kas]** Tekil ada Türkçe çoğul eki de serbest: “Fleshripper'lar”, “Plainstrider'lar”. Ek İngilizce okunuşa uyar:
+-er/-or ile biten ad kalın ünlü alır (Fleshripper'lar, Raptor'lar), -y ile biten ince (Harpy'ler).
 
 ## 4. Arayüzde hedef satırları
 
@@ -124,10 +128,12 @@ Ek alan biçim metinleri:
 - Yönler: kuzey, güney, doğu, batı, kuzeydoğu, kuzeybatı, güneydoğu, güneybatı. “kuzey-doğu” değil.
 - Koordinat: `45.3, 60.1` (nokta ile, oyundaki gibi).
 - Tırnak: “…”. Polestar'ın ayırıcısı `·` korunur.
+- Noktalı virgül **[KARAR 18 Kas]**: iki bağımsız cümleyi noktalı virgülle birleştirme, noktayla ayır (İngilizcede “;” olsa da).
+  Noktalı virgül yalnız TDK'nin işi için kalır: içinde virgül olan öğeleri ya da sıralı cümleleri ayırmak.
 - Tuşlar: Shift, Ctrl, Alt; sağ tık, sol tık, “sağ tıkla”.
 - Seviye: “seviye 12”, “12. seviye”; aralık kısa çizgiyle “12-17” (TDK; orta çizgi “–” ve uzun çizgi “—” kullanılmaz).
 - Arayüzde bir düğmeden söz ederken adı tırnak içinde yazılır: “Giy” düğmesine bas.
-- Sayı: binlik ayırıcı nokta: “2.000”. Yüzde: “%5”.
+- Sayı: binlik ayırıcı nokta: “2.000”. Yüzde: “%5” (“yüzde 5” değil) **[KARAR 18 Kas]**.
 - Para: etikette ve parantezde `10g 50s`, cümle içinde “10 altın”, “50 gümüş”.
 - İtibar kademeleri İngilizce kalır (Neutral, Friendly, Honored, Revered, Exalted). Başlıkta `Neutral → Friendly`,
   cümlede “Neutral'dan Friendly'ye 3.000 itibar”.
@@ -136,6 +142,10 @@ Ek alan biçim metinleri:
   adları: Questing → “Görevler”, Quality of Life → “Kolaylıklar”, Skin → “Görünüm teması”.
 
 ## 7. Sık terimler (sözlük dışı)
+
+**[KARAR 18 Kas]** Oyuncuların İngilizce kullandığı WoW terimi İngilizce kalır; yapay Türkçe karşılık uydurulmaz (“insansı”,
+“levazımcı”, “jeton” gibi). Yerleşik, doğal Türkçe olan kalır (“gök gemisi”, “zindan”, “yükseltme”). Ek, İngilizce
+okunuşa göre kesmeyle gelir.
 
 | İngilizce | Türkçe |
 |---|---|
@@ -150,27 +160,28 @@ Ek alan biçim metinleri:
 | road / path | yol / patika |
 | bridge, tower, farm | köprü, kule, çiftlik |
 | zeppelin, tram | zeplin; Deeprun Tram bir ad |
-| upgrade (ekipman) | iyileştirme: “iyileştirme okları” (“yükseltme” değil) |
+| upgrade (ekipman) | yükseltme: “yükseltme okları”; cümlede “daha iyi eşya” **[KARAR 18 Kas]** (“iyileştirme” heal ile karışıyordu) |
 | … and more (liste sonu) | “vb.” ya da “ve benzerleri” (“ve dahası” değil) |
 | cooldown | bekleme süresi (süre: “Frost Nova bekleme süresi”); yetenek türü olarak “cooldown” kalır: “büyük bir hasar cooldown'ı” |
 | buff | güçlendirme (buff) |
 | grind | kasmak: “seviye kasmak” |
 | tick (checkbox) / untick | işaretle / işareti kaldır |
-| Auction House | müzayede evi (arayüzdeki gibi) |
-| quartermaster | levazımcı |
+| Auction House | “Auction House” **[KARAR 18 Kas]**: Auction House'tan, Auction House'a, Auction House'ta (okunuş “haus”) |
+| quartermaster | “quartermaster” **[KARAR 18 Kas]**: quartermaster'ın, quartermaster'lar |
 | hub (görev merkezi) | merkez: “isteğe bağlı merkez” |
 | turn-in, hand-in | teslim: “120 teslim”, “teslim et” |
-| trash (zindanda) | sıradan yaratık |
-| run / clear (zindan) | koşu / temizleme |
-| humanoid | insansı |
-| battleground | savaş alanı (arayüzdeki gibi) |
-| skyboat | gök gemisi |
-| insignia, badge | nişan |
-| token (ödül jetonu) | jeton |
-| Mark of Honor | adı İngilizce; sayarken “3 marka” |
+| trash (zindanda) | “trash” **[KARAR 18 Kas]**: “trash'i temizle” |
+| run / clear (zindan) | ad olarak koşu / temizleme; fiil “zindanını yap”, “Run it” düğmesi “Gir” **[KARAR 18 Kas]** (“koş” koşmak diye okunuyordu) |
+| humanoid | “humanoid” **[KARAR 18 Kas]**: humanoid'ler, humanoid yaratıklar (“insansı” yapay duruyordu) |
+| battleground | “battleground” **[KARAR 18 Kas]**: battleground'lar, battleground'da |
+| skyboat | gök gemisi **[KARAR 18 Kas]** |
+| insignia | “insignia” **[KARAR 18 Kas]**: “insignia rütbesi 3” |
+| token (ödül) | “token” **[KARAR 18 Kas]**: token'lar, token'ı |
+| Mark of Honor | adı İngilizce; sayarken “3 mark” **[KARAR 18 Kas]** |
 | writ, crate (Forever'ın ticaret kampları) | writ, sandık |
-| perk (Legacy) | yetenek: “Legacy yeteneği Diplomat” |
+| perk (Legacy) | yetenek: “Legacy yeteneği Diplomat” **[KARAR 18 Kas]** (“ayrıcalık” değil) |
 | a fifth at 60 | “60'ta beşte bir” |
+| milestone (Legacy System) | eşik: “Legacy System eşiği” **[KARAR 18 Kas]** (“kilometre taşı” değil) |
 
 ## 8. Kontrol
 

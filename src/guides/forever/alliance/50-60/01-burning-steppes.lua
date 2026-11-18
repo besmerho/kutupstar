@@ -71,7 +71,7 @@ return {
 	["Level 51.3 on the way north"] = "Kuzeye giderken seviye 51.3",
 	-- {npc:8395} Sanath Lim-yo · {npc:8420} Kim'jael · {area:1417} Sunken Temple
 	-- plural, as words: Spitelash Myrmidons = {npc:6196} Spitelash Myrmidon
-	["Top up to level 51.3 on the Spitelash Myrmidons (50-51) of the ruins between {npc:8395}'s camp and the north: the blood elves at {npc:8420}'s camp are 51-53. Or, with a group, run the {area:1417} dungeon instead."] = "{npc:8395} kampıyla kuzey arasındaki harabelerde Spitelash Myrmidon yaratıklarıyla (50-51) seviye 51.3 olana kadar kas: {npc:8420} kampındaki kan elfleri 51-53. Ya da grubun varsa onun yerine {area:1417} zindanına koş.",
+	["Top up to level 51.3 on the Spitelash Myrmidons (50-51) of the ruins between {npc:8395}'s camp and the north: the blood elves at {npc:8420}'s camp are 51-53. Or, with a group, run the {area:1417} dungeon instead."] = "{npc:8395} kampıyla kuzey arasındaki harabelerde Spitelash Myrmidon yaratıklarıyla (50-51) seviye 51.3 olana kadar kas: {npc:8420} kampındaki kan elfleri 51-53. Ya da grubun varsa onun yerine {area:1417} zindanını yap.",
 	-- {npc:6196} Spitelash Myrmidon
 	["grind on {npc:6196}"] = "Kas: {npc:6196}",
 
@@ -104,7 +104,7 @@ return {
 
 	-- Step 24: Rubbing: Rune of Sael'hai
 	-- {item:7972} Ichor of Undeath · {npc:7864} Lingering Highborne
-	["{item:7972}: the {npc:7864}, about 10%"] = "{item:7972}: {npc:7864} yaratıkları, yaklaşık yüzde 10",
+	["{item:7972}: the {npc:7864}, about 10%"] = "{item:7972}: {npc:7864} yaratıkları, yaklaşık %10",
 
 	-- Step 25: Sanath Lim-yo
 	-- {npc:8395} Sanath Lim-yo
@@ -226,7 +226,7 @@ return {
 	["Level 52 at {area:249}"] = "{area:249} kayasında seviye 52",
 	-- {area:249} Dreadmaul Rock · {area:1417} Sunken Temple
 	-- plural, as words: Firegut Ogres = {npc:7033} Firegut Ogre
-	["Top up first to level 52 on the Firegut Ogres (50-51) on the near side of {area:249}, north of the Vigil: the Brutes on its east side are 52-53. Or, with a group, run the {area:1417} dungeon instead."] = "Önce Vigil'in kuzeyinde, {area:249} kayasının yakın yakasındaki Firegut Ogre yaratıklarıyla (50-51) seviye 52 olana kadar kas: doğu yakasındaki Brute'lar 52-53. Ya da grubun varsa onun yerine {area:1417} zindanına koş.",
+	["Top up first to level 52 on the Firegut Ogres (50-51) on the near side of {area:249}, north of the Vigil: the Brutes on its east side are 52-53. Or, with a group, run the {area:1417} dungeon instead."] = "Önce Vigil'in kuzeyinde, {area:249} kayasının yakın yakasındaki Firegut Ogre yaratıklarıyla (50-51) seviye 52 olana kadar kas: doğu yakasındaki Brute'lar 52-53. Ya da grubun varsa onun yerine {area:1417} zindanını yap.",
 	-- {npc:7033} Firegut Ogre
 	["grind on {npc:7033}"] = "Kas: {npc:7033}",
 
@@ -275,7 +275,7 @@ return {
 	-- Step 61: Level 52.08
 	["Level 52.08"] = "Seviye 52.08",
 	-- {quest:4022} A Taste of Flame · {area:1417} Sunken Temple
-	["If you skipped {quest:4022}, grind here to level 52.08 to stay on the route's plan. Or, with a group, run the {area:1417} dungeon instead."] = "{quest:4022} görevini atladıysan, rotanın planında kalmak için burada seviye 52.08 olana kadar kas. Ya da grubun varsa onun yerine {area:1417} zindanına koş.",
+	["If you skipped {quest:4022}, grind here to level 52.08 to stay on the route's plan. Or, with a group, run the {area:1417} dungeon instead."] = "{quest:4022} görevini atladıysan, rotanın planında kalmak için burada seviye 52.08 olana kadar kas. Ya da grubun varsa onun yerine {area:1417} zindanını yap.",
 	-- {npc:9690} Ember Worg
 	["grind on {npc:9690}"] = "Kas: {npc:9690}",
 

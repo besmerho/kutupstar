@@ -31,7 +31,7 @@ return {
 	-- Step 5: The Eye of Shadow
 	-- {item:18665} The Eye of Shadow · {npc:12397} Lord Kazzak · {zone:1419} Blasted Lands
 	-- plural, as words: Doomguard Commanders = {npc:12396} Doomguard Commander
-	["The splinter needs {item:18665} as well. {npc:12397}, a world boss in the {zone:1419} (a raid), always drops it; Manahounds and Doomguard Commanders there drop it rarely (about 3% and 2%), the Hederine of Winterspring hardly ever. It can be traded: check the Auction House first."] = "Kıymık {item:18665} da ister. {zone:1419} bölgesindeki bir dünya boss'u olan {npc:12397} (bir raid) onu her zaman düşürür; oradaki Manahound ve Doomguard Commander yaratıkları nadiren düşürür (yaklaşık %3 ve %2), Winterspring'in Hederine'leri neredeyse hiç. Takas edilebilir: önce müzayede evine bak.",
+	["The splinter needs {item:18665} as well. {npc:12397}, a world boss in the {zone:1419} (a raid), always drops it; Manahounds and Doomguard Commanders there drop it rarely (about 3% and 2%), the Hederine of Winterspring hardly ever. It can be traded: check the Auction House first."] = "Kıymık {item:18665} da ister. {zone:1419} bölgesindeki bir dünya boss'u olan {npc:12397} (bir raid) onu her zaman düşürür; oradaki Manahound ve Doomguard Commander yaratıkları nadiren düşürür (yaklaşık %3 ve %2), Winterspring'in Hederine'leri neredeyse hiç. Takas edilebilir: önce Auction House'a bak.",
 
 	-- Step 6: Benediction
 	-- {item:18659} Splinter of Nordrassil · {item:18646} The Eye of Divinity · {item:18665} The Eye of Shadow · {item:18608} Benediction

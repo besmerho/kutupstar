@@ -164,7 +164,7 @@ return {
 	-- Step 31: Level 45.37
 	["Level 45.37"] = "Seviye 45.37",
 	-- {npc:4500} Overlord Mok'Morokk · {area:511} Wyrmbog · {area:978} Zul'Farrak
-	["{npc:4500}'s challenge, back in Brackenwall, needs a group of three. Alone, grind the Firemane scouts here on the {area:511}'s northern edge to level 45.37 before you ride back north, so you don't come back down for it. Or, with a group, run the {area:978} dungeon instead."] = "{npc:4500} adlı NPC'nin Brackenwall'daki meydan okuması üç kişilik bir grup ister. Yalnızsan, buraya bir daha inmemek için kuzeye dönmeden önce {area:511} kuzey kenarındaki Firemane izcilerini 45.37. seviyeye kadar kas. Ya da bir grupla onun yerine {area:978} zindanını koş.",
+	["{npc:4500}'s challenge, back in Brackenwall, needs a group of three. Alone, grind the Firemane scouts here on the {area:511}'s northern edge to level 45.37 before you ride back north, so you don't come back down for it. Or, with a group, run the {area:978} dungeon instead."] = "{npc:4500} adlı NPC'nin Brackenwall'daki meydan okuması üç kişilik bir grup ister. Yalnızsan, buraya bir daha inmemek için kuzeye dönmeden önce {area:511} kuzey kenarındaki Firemane izcilerini 45.37. seviyeye kadar kas. Ya da bir grupla onun yerine {area:978} zindanını yap.",
 	-- {npc:4329} Firemane Scout
 	["grind on {npc:4329}"] = "Kas: {npc:4329}",
 

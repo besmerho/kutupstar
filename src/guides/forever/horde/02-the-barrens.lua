@@ -385,7 +385,7 @@ return {
 	["Level 20"] = "Seviye 20",
 	-- {zone:1454} Orgrimmar · {area:1700} Agama'gor · {area:718} Wailing Caverns
 	-- plural, as words: Bristleback Geomancers = {npc:3263} Bristleback Geomancer
-	["{zone:1454}'s level 20 class quests come right after the Crossroads, and they are offered only from 20. Still short of 20? The Bristleback Geomancers (19-20) hold {area:1700} around you: kill them until level 20. Or, with a group, run the {area:718} dungeon instead."] = "{zone:1454} şehrinin 20. seviye sınıf görevleri Crossroads'tan hemen sonra gelir ve yalnızca 20'den itibaren verilir. Hâlâ 20'nin altında mısın? Çevrendeki {area:1700} içini Bristleback Geomancer yaratıkları (19-20) tutuyor: 20. seviye olana kadar onları öldür. Ya da grubun varsa onun yerine {area:718} zindanına koş.",
+	["{zone:1454}'s level 20 class quests come right after the Crossroads, and they are offered only from 20. Still short of 20? The Bristleback Geomancers (19-20) hold {area:1700} around you: kill them until level 20. Or, with a group, run the {area:718} dungeon instead."] = "{zone:1454} şehrinin 20. seviye sınıf görevleri Crossroads'tan hemen sonra gelir ve yalnızca 20'den itibaren verilir. Hâlâ 20'nin altında mısın? Çevrendeki {area:1700} içini Bristleback Geomancer yaratıkları (19-20) tutuyor: 20. seviye olana kadar onları öldür. Ya da grubun varsa onun yerine {area:718} zindanını yap.",
 	-- plural, as words: Bristleback Geomancers = {npc:3263} Bristleback Geomancer
 	["Bristleback Geomancers"] = "Bristleback Geomancer yaratıkları",
 	-- {npc:3263} Bristleback Geomancer

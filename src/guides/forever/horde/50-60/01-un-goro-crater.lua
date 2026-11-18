@@ -31,7 +31,7 @@ return {
 	["Level 51"] = "Seviye 51",
 	-- {npc:9166} Pterrordax · {npc:9118} Larion · {area:1417} Sunken Temple · {area:2100} Maraudon
 	-- plural, as words: Bloodpetal Flayers = {npc:6510} Bloodpetal Flayer · Bloodpetal Threshers = {npc:6511} Bloodpetal Thresher
-	["Top up here to level 51 before the crater's loop: its {npc:9166} and Bloodpetal Flayers are up to level 52. The Bloodpetal Threshers (49-50) on the slopes south-east of the refuge are under your level, and {npc:9118} wants five of them. Or, with a group, run the {area:1417} dungeon or the {area:2100} dungeon instead."] = "Kraterin turundan önce burada 51. seviyeye tamamla: {npc:9166} ve Bloodpetal Flayer yaratıkları 52. seviyeye kadar çıkar. Sığınağın güneydoğusundaki yamaçlardaki Bloodpetal Thresher yaratıkları (49-50) senin seviyenin altında, {npc:9118} de beş tane istiyor. Ya da bir grupla onun yerine {area:1417} veya {area:2100} zindanını koş.",
+	["Top up here to level 51 before the crater's loop: its {npc:9166} and Bloodpetal Flayers are up to level 52. The Bloodpetal Threshers (49-50) on the slopes south-east of the refuge are under your level, and {npc:9118} wants five of them. Or, with a group, run the {area:1417} dungeon or the {area:2100} dungeon instead."] = "Kraterin turundan önce burada 51. seviyeye tamamla: {npc:9166} ve Bloodpetal Flayer yaratıkları 52. seviyeye kadar çıkar. Sığınağın güneydoğusundaki yamaçlardaki Bloodpetal Thresher yaratıkları (49-50) senin seviyenin altında, {npc:9118} de beş tane istiyor. Ya da bir grupla onun yerine {area:1417} veya {area:2100} zindanını yap.",
 	-- {npc:6511} Bloodpetal Thresher
 	["grind on {npc:6511}"] = "Kas: {npc:6511}",
 

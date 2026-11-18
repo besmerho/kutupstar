@@ -312,7 +312,7 @@ return {
 	-- Step 69: Level 28
 	["Level 28"] = "Seviye 28",
 	-- {npc:10646} Lakota Windsong · {area:2797} Blackfathom Deeps
-	["Short of 28? The Grimtotem around these camps (25-28) are the right level: kill a few more before the climb to {npc:10646}. Past it, this step skips itself. Or, with a group, run the {area:2797} dungeon instead."] = "28'e varmadın mı? Bu kampların çevresindeki Grimtotem'ler (25-28) tam uygun seviyede: {npc:10646} yanına tırmanmadan önce birkaç tane daha öldür. Geçtiysen bu adım kendini atlar. Ya da bir grupla onun yerine {area:2797} zindanını koş.",
+	["Short of 28? The Grimtotem around these camps (25-28) are the right level: kill a few more before the climb to {npc:10646}. Past it, this step skips itself. Or, with a group, run the {area:2797} dungeon instead."] = "28'e varmadın mı? Bu kampların çevresindeki Grimtotem'ler (25-28) tam uygun seviyede: {npc:10646} yanına tırmanmadan önce birkaç tane daha öldür. Geçtiysen bu adım kendini atlar. Ya da bir grupla onun yerine {area:2797} zindanını yap.",
 	-- {area:2097} Darkcloud Pinnacle
 	["Grimtotem camps below {area:2097}"] = "{area:2097} platosunun altındaki Grimtotem kampları",
 	-- {npc:10759} Grimtotem Stomper
@@ -357,7 +357,7 @@ return {
 	["Level 29"] = "Seviye 29",
 	-- {area:484} Freewind Post · {area:2797} Blackfathom Deeps
 	-- plural, as words: Pesterhide Snarlers = {npc:4249} Pesterhide Snarler
-	["The next guide opens with Korran's The Swarm Grows at the Crossroads, offered from level 29. Short of 29? The Pesterhide Snarlers (28-29) prowl the canyon floor just north-west of {area:484}: kill them until level 29. Or, with a group, run the {area:2797} dungeon instead."] = "Sonraki rehber Crossroads'ta Korran'ın 29. seviyeden verilen The Swarm Grows göreviyle açılır. 29'a varmadın mı? Pesterhide Snarler yaratıkları (28-29) {area:484} karakolunun hemen kuzeybatısındaki kanyon tabanında dolaşıyor: 29. seviyeye kadar onları öldür. Ya da bir grupla onun yerine {area:2797} zindanını koş.",
+	["The next guide opens with Korran's The Swarm Grows at the Crossroads, offered from level 29. Short of 29? The Pesterhide Snarlers (28-29) prowl the canyon floor just north-west of {area:484}: kill them until level 29. Or, with a group, run the {area:2797} dungeon instead."] = "Sonraki rehber Crossroads'ta Korran'ın 29. seviyeden verilen The Swarm Grows göreviyle açılır. 29'a varmadın mı? Pesterhide Snarler yaratıkları (28-29) {area:484} karakolunun hemen kuzeybatısındaki kanyon tabanında dolaşıyor: 29. seviyeye kadar onları öldür. Ya da bir grupla onun yerine {area:2797} zindanını yap.",
 	-- plural, as words: Pesterhide Snarlers = {npc:4249} Pesterhide Snarler
 	["Pesterhide Snarlers"] = "Pesterhide Snarler yaratıkları",
 	-- {npc:4249} Pesterhide Snarler

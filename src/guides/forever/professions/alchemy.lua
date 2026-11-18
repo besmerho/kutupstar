@@ -18,9 +18,9 @@ return {
 
 	-- Step 3: Alchemy 1-75: Auction House
 	-- {skill:171} Alchemy
-	["{skill:171} 1-75: Auction House"] = "{skill:171} 1-75: müzayede evi",
+	["{skill:171} 1-75: Auction House"] = "{skill:171} 1-75: Auction House",
 	-- {item:765} Silverleaf · {item:2447} Peacebloom
-	["What 1-75 takes that the Auction House sells: 82 {item:765} and 110 {item:2447}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden müzayede evinin sattıkları: 82 {item:765} ve 110 {item:2447}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 1-75 takes that the Auction House sells: 82 {item:765} and 110 {item:2447}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden Auction House'un sattıkları: 82 {item:765} ve 110 {item:2447}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 4: Silverleaf (Elwynn Forest)
 	-- {item:765} Silverleaf · {item:5997} Elixir of Minor Defense · {skill:182} Herbalism · {zone:1429} Elwynn Forest
@@ -98,9 +98,9 @@ return {
 
 	-- Step 21: Alchemy 75-150: Auction House
 	-- {skill:171} Alchemy
-	["{skill:171} 75-150: Auction House"] = "{skill:171} 75-150: müzayede evi",
+	["{skill:171} 75-150: Auction House"] = "{skill:171} 75-150: Auction House",
 	-- {item:785} Mageroyal · {item:2450} Briarthorn · {item:2453} Bruiseweed
-	["What 75-150 takes that the Auction House sells: 77 {item:785}, 152 {item:2450} and 54 {item:2453}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden müzayede evinin sattıkları: 77 {item:785}, 152 {item:2450} ve 54 {item:2453}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 75-150 takes that the Auction House sells: 77 {item:785}, 152 {item:2450} and 54 {item:2453}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden Auction House'un sattıkları: 77 {item:785}, 152 {item:2450} ve 54 {item:2453}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 22: Mageroyal (Westfall)
 	-- {item:785} Mageroyal · {spell:2331} Minor Mana Potion · {spell:3171} Elixir of Wisdom · {skill:182} Herbalism · {zone:1436} Westfall
@@ -194,7 +194,7 @@ return {
 	-- {spell:3176} Lesser Troll's Blood Elixir
 	["{spell:3176} to 150"] = "{spell:3176}: 150 puana kadar",
 	-- {spell:3176} Lesser Troll's Blood Elixir · {item:2453} Bruiseweed · {item:2450} Briarthorn · {item:3372} Leaded Vial · {skill:171} Alchemy
-	["{spell:3176} is orange at 135 (yellow 150, green 170, grey 190): about 15 crafts to 150, a point every craft. Each takes 2 {item:2453}, 2 {item:2450} and 1 {item:3372}. Two {item:2453} and two {item:2450} a craft; {item:2453} grows in the 15-30 zones. {skill:171} 150 is a Legacy System milestone."] = "{spell:3176}: 135 puanda turuncu (sarı 150, yeşil 170, gri 190): 150 puana kadar yaklaşık 15 üretim, her üretimde bir puan. Her biri 2 {item:2453}, 2 {item:2450} ve 1 {item:3372} ister. Üretim başına iki {item:2453} ve iki {item:2450}; {item:2453} 15-30 bölgelerinde yetişir. {skill:171} 150 bir Legacy System kilometre taşı.",
+	["{spell:3176} is orange at 135 (yellow 150, green 170, grey 190): about 15 crafts to 150, a point every craft. Each takes 2 {item:2453}, 2 {item:2450} and 1 {item:3372}. Two {item:2453} and two {item:2450} a craft; {item:2453} grows in the 15-30 zones. {skill:171} 150 is a Legacy System milestone."] = "{spell:3176}: 135 puanda turuncu (sarı 150, yeşil 170, gri 190): 150 puana kadar yaklaşık 15 üretim, her üretimde bir puan. Her biri 2 {item:2453}, 2 {item:2450} ve 1 {item:3372} ister. Üretim başına iki {item:2453} ve iki {item:2450}; {item:2453} 15-30 bölgelerinde yetişir. {skill:171} 150 bir Legacy System eşiği.",
 
 	-- Step 43: Alchemy 150-225: vendor goods
 	-- {skill:171} Alchemy
@@ -204,9 +204,9 @@ return {
 
 	-- Step 44: Alchemy 150-225: Auction House
 	-- {skill:171} Alchemy
-	["{skill:171} 150-225: Auction House"] = "{skill:171} 150-225: müzayede evi",
+	["{skill:171} 150-225: Auction House"] = "{skill:171} 150-225: Auction House",
 	-- {item:3355} Wild Steelbloom · {item:3356} Kingsblood · {item:3820} Stranglekelp · {item:3821} Goldthorn
-	["What 150-225 takes that the Auction House sells: 40 {item:3355}, 39 {item:3356}, 39 {item:3820} and 40 {item:3821}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden müzayede evinin sattıkları: 40 {item:3355}, 39 {item:3356}, 39 {item:3820} ve 40 {item:3821}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 150-225 takes that the Auction House sells: 40 {item:3355}, 39 {item:3356}, 39 {item:3820} and 40 {item:3821}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden Auction House'un sattıkları: 40 {item:3355}, 39 {item:3356}, 39 {item:3820} ve 40 {item:3821}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 45: Wild Steelbloom (Alliance)
 	-- {object:1623} Wild Steelbloom
@@ -260,7 +260,7 @@ return {
 	-- {skill:171} Alchemy
 	["Expert {skill:171}"] = "Expert {skill:171}",
 	-- {skill:171} Alchemy · {npc:4160} Ainethil · {zone:1457} Darnassus · {npc:4611} Doctor Herbert Halsey · {zone:1458} Undercity · {object:1623} Wild Steelbloom · {item:3356} Kingsblood · {object:2045} Stranglekelp · {object:2046} Goldthorn · {spell:3452} Mana Potion · {item:8951} Elixir of Defense
-	["Expert raises the cap from 150 to 225 for 50s (Classic's price; Forever's is not in the data); it needs {skill:171} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:4160} ({zone:1457}); Horde {npc:4611} ({zone:1458}). The arrow picks the nearest of your faction. 150-225 takes about 33s 20c of vendor goods, plus 40 {object:1623}, 39 {item:3356}, 39 {object:2045} and 40 {object:2046} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {spell:3452} (from 160) and {item:8951} (from 195), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3."] = "Expert, 50s karşılığında sınırı 150 puandan 225 puana çıkarır (Classic fiyatı; Forever'ınki veride yok); {skill:171} 125 ve karakter seviyesi 20 ister, böylece 125 puandan itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:4160} ({zone:1457}); Horde {npc:4611} ({zone:1458}). Ok tarafının en yakınını seçer. 150-225 yaklaşık 33s 20c satıcı malı, ayrıca toplanacak ya da alınacak 40 {object:1623}, 39 {item:3356}, 39 {object:2045} ve 40 {object:2046} tutar. Hepsi çantanda gel (yukarıdaki adımlar, gerisi müzayede evinden): bu eğitmenler {spell:3452} (160 puandan) ve {item:8951} (195 puandan) da öğretir ve üretimler istasyon istemez, bu yüzden tam burada üret ve her tarife becerisine ulaştıkça öğren. 3 yolculuk yerine tek yolculuk.",
+	["Expert raises the cap from 150 to 225 for 50s (Classic's price; Forever's is not in the data); it needs {skill:171} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:4160} ({zone:1457}); Horde {npc:4611} ({zone:1458}). The arrow picks the nearest of your faction. 150-225 takes about 33s 20c of vendor goods, plus 40 {object:1623}, 39 {item:3356}, 39 {object:2045} and 40 {object:2046} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {spell:3452} (from 160) and {item:8951} (from 195), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3."] = "Expert, 50s karşılığında sınırı 150 puandan 225 puana çıkarır (Classic fiyatı; Forever'ınki veride yok); {skill:171} 125 ve karakter seviyesi 20 ister, böylece 125 puandan itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:4160} ({zone:1457}); Horde {npc:4611} ({zone:1458}). Ok tarafının en yakınını seçer. 150-225 yaklaşık 33s 20c satıcı malı, ayrıca toplanacak ya da alınacak 40 {object:1623}, 39 {item:3356}, 39 {object:2045} ve 40 {object:2046} tutar. Hepsi çantanda gel (yukarıdaki adımlar, gerisi Auction House'tan): bu eğitmenler {spell:3452} (160 puandan) ve {item:8951} (195 puandan) da öğretir ve üretimler istasyon istemez, bu yüzden tam burada üret ve her tarife becerisine ulaştıkça öğren. 3 yolculuk yerine tek yolculuk.",
 
 	-- Step 54: Lesser Troll's Blood Elixir to 160
 	-- {spell:3176} Lesser Troll's Blood Elixir
@@ -290,7 +290,7 @@ return {
 	-- {item:8951} Elixir of Defense
 	["{item:8951} to 225"] = "{item:8951}: 225 puana kadar",
 	-- {item:8951} Elixir of Defense · {item:3355} Wild Steelbloom · {item:3821} Goldthorn · {item:3372} Leaded Vial · {zone:1418} Badlands · {skill:171} Alchemy
-	["{item:8951} is orange at 195 (yellow 215, green 235, grey 255): about 32 crafts to 225. Each takes 1 {item:3355}, 1 {item:3821} and 1 {item:3372}. {item:3355} and {item:3821} are the herbs of the 30-45 zones (Stranglethorn, Arathi, the {zone:1418}). {skill:171} 225 is a Legacy System milestone."] = "{item:8951}: 195 puanda turuncu (sarı 215, yeşil 235, gri 255): 225 puana kadar yaklaşık 32 üretim. Her biri 1 {item:3355}, 1 {item:3821} ve 1 {item:3372} ister. {item:3355} ve {item:3821}, 30-45 bölgelerinin (Stranglethorn, Arathi, {zone:1418}) bitkileri. {skill:171} 225 bir Legacy System kilometre taşı.",
+	["{item:8951} is orange at 195 (yellow 215, green 235, grey 255): about 32 crafts to 225. Each takes 1 {item:3355}, 1 {item:3821} and 1 {item:3372}. {item:3355} and {item:3821} are the herbs of the 30-45 zones (Stranglethorn, Arathi, the {zone:1418}). {skill:171} 225 is a Legacy System milestone."] = "{item:8951}: 195 puanda turuncu (sarı 215, yeşil 235, gri 255): 225 puana kadar yaklaşık 32 üretim. Her biri 1 {item:3355}, 1 {item:3821} ve 1 {item:3372} ister. {item:3355} ve {item:3821}, 30-45 bölgelerinin (Stranglethorn, Arathi, {zone:1418}) bitkileri. {skill:171} 225 bir Legacy System eşiği.",
 
 	-- Step 59: Alchemy 225-300: vendor goods
 	-- {skill:171} Alchemy
@@ -300,13 +300,13 @@ return {
 
 	-- Step 60: Recipe: Elixir of Superior Defense
 	-- {item:13478} Recipe: Elixir of Superior Defense · {item:13445} Elixir of Greater Defense · {skill:171} Alchemy · {npc:5178} Soolie Berryfizz · {zone:1455} Ironforge · {npc:3348} Kor'geld · {zone:1454} Orgrimmar
-	["{item:13478} teaches {item:13445} ({skill:171} 265) for 1g 30s. Sold by Alliance: {npc:5178} ({zone:1455}), limited stock; Horde: {npc:3348} ({zone:1454}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; the Auction House often has it too."] = "{item:13478}, 1g 30s karşılığında {item:13445} ({skill:171} 265) öğretir. Satanlar: Alliance: {npc:5178} ({zone:1455}), sınırlı stok; Horde: {npc:3348} ({zone:1454}), sınırlı stok. Satıcıları stokta bir ya da iki tane tutar, satıştan bir süre sonra geri gelir; müzayede evinde de çoğu zaman bulunur.",
+	["{item:13478} teaches {item:13445} ({skill:171} 265) for 1g 30s. Sold by Alliance: {npc:5178} ({zone:1455}), limited stock; Horde: {npc:3348} ({zone:1454}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; the Auction House often has it too."] = "{item:13478}, 1g 30s karşılığında {item:13445} ({skill:171} 265) öğretir. Satanlar: Alliance: {npc:5178} ({zone:1455}), sınırlı stok; Horde: {npc:3348} ({zone:1454}), sınırlı stok. Satıcıları stokta bir ya da iki tane tutar, satıştan bir süre sonra geri gelir; Auction House'ta de çoğu zaman bulunur.",
 
 	-- Step 61: Alchemy 225-300: Auction House
 	-- {skill:171} Alchemy
-	["{skill:171} 225-300: Auction House"] = "{skill:171} 225-300: müzayede evi",
+	["{skill:171} 225-300: Auction House"] = "{skill:171} 225-300: Auction House",
 	-- {item:8836} Arthas' Tears · {item:8838} Sungrass · {item:13422} Stonescale Eel
-	["What 225-300 takes that the Auction House sells: 43 {item:8836}, 43 {item:8838} and 43 {item:13422}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden müzayede evinin sattıkları: 43 {item:8836}, 43 {item:8838} ve 43 {item:13422}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 225-300 takes that the Auction House sells: 43 {item:8836}, 43 {item:8838} and 43 {item:13422}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden Auction House'un sattıkları: 43 {item:8836}, 43 {item:8838} ve 43 {item:13422}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 62: Arthas' Tears (Alliance)
 	-- {item:8836} Arthas' Tears
@@ -346,7 +346,7 @@ return {
 	-- {skill:171} Alchemy
 	["Artisan {skill:171}"] = "Artisan {skill:171}",
 	-- {skill:171} Alchemy · {npc:7948} Kylanna Windwhisper · {zone:1444} Feralas · {npc:1386} Rogvar · {zone:1435} Swamp of Sorrows · {item:8836} Arthas' Tears · {item:8838} Sungrass · {item:13422} Stonescale Eel · {item:9154} Draught of Detect Undead · {item:13423} Stonescale Oil
-	["Artisan raises the cap from 225 to 300 for 4g 50s (Classic's price; Forever's is not in the data); it needs {skill:171} 200 and character level 35, so you can take it on any visit from 200. Only a few trainers teach it: Alliance {npc:7948} ({zone:1444}); Horde {npc:1386} ({zone:1435}). The arrow picks the nearest of your faction. 225-300 takes about 1g 30s of recipes and 4g 50s 40c of vendor goods, plus 43 {item:8836}, 43 {item:8838} and 43 {item:13422} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {item:9154} (from 230) and {item:13423} (from 250), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3."] = "Artisan, 4g 50s karşılığında sınırı 225 puandan 300 puana çıkarır (Classic fiyatı; Forever'ınki veride yok); {skill:171} 200 ve karakter seviyesi 35 ister, böylece 200 puandan itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:7948} ({zone:1444}); Horde {npc:1386} ({zone:1435}). Ok tarafının en yakınını seçer. 225-300 yaklaşık 1g 30s tarif ve 4g 50s 40c satıcı malı, ayrıca toplanacak ya da alınacak 43 {item:8836}, 43 {item:8838} ve 43 {item:13422} tutar. Hepsi çantanda gel (yukarıdaki adımlar, gerisi müzayede evinden): bu eğitmenler {item:9154} (230 puandan) ve {item:13423} (250 puandan) da öğretir ve üretimler istasyon istemez, bu yüzden tam burada üret ve her tarife becerisine ulaştıkça öğren. 3 yolculuk yerine tek yolculuk.",
+	["Artisan raises the cap from 225 to 300 for 4g 50s (Classic's price; Forever's is not in the data); it needs {skill:171} 200 and character level 35, so you can take it on any visit from 200. Only a few trainers teach it: Alliance {npc:7948} ({zone:1444}); Horde {npc:1386} ({zone:1435}). The arrow picks the nearest of your faction. 225-300 takes about 1g 30s of recipes and 4g 50s 40c of vendor goods, plus 43 {item:8836}, 43 {item:8838} and 43 {item:13422} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {item:9154} (from 230) and {item:13423} (from 250), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3."] = "Artisan, 4g 50s karşılığında sınırı 225 puandan 300 puana çıkarır (Classic fiyatı; Forever'ınki veride yok); {skill:171} 200 ve karakter seviyesi 35 ister, böylece 200 puandan itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:7948} ({zone:1444}); Horde {npc:1386} ({zone:1435}). Ok tarafının en yakınını seçer. 225-300 yaklaşık 1g 30s tarif ve 4g 50s 40c satıcı malı, ayrıca toplanacak ya da alınacak 43 {item:8836}, 43 {item:8838} ve 43 {item:13422} tutar. Hepsi çantanda gel (yukarıdaki adımlar, gerisi Auction House'tan): bu eğitmenler {item:9154} (230 puandan) ve {item:13423} (250 puandan) da öğretir ve üretimler istasyon istemez, bu yüzden tam burada üret ve her tarife becerisine ulaştıkça öğren. 3 yolculuk yerine tek yolculuk.",
 
 	-- Step 69: Elixir of Defense to 230
 	-- {item:8951} Elixir of Defense
@@ -377,6 +377,6 @@ return {
 	-- {item:13445} Elixir of Greater Defense
 	["{item:13445} to 300"] = "{item:13445}: 300 puana kadar",
 	-- {item:13445} Elixir of Greater Defense · {item:13423} Stonescale Oil · {item:8838} Sungrass · {item:8925} Crystal Vial · {item:13422} Stonescale Eel · {skill:171} Alchemy
-	["{item:13445} is orange at 265 (yellow 280, green 300, grey 320): about 43 crafts to 300. Each takes 2 {item:13423}, 1 {item:8838} and 1 {item:8925}. Make the 86 {item:13423} (43 crafts) first. {item:13422} comes from the {item:13422} schools on the coasts of the 40-55 zones, or the Auction House (fishers sell them in stacks). {item:8838} grows in the 40-55 zones. {skill:171} 300 is a Legacy System milestone."] = "{item:13445}: 265 puanda turuncu (sarı 280, yeşil 300, gri 320): 300 puana kadar yaklaşık 43 üretim. Her biri 2 {item:13423}, 1 {item:8838} ve 1 {item:8925} ister. Önce 86 {item:13423} yap (43 üretim). {item:13422}, 40-55 bölgelerinin kıyılarındaki {item:13422} sürülerinden ya da müzayede evinden gelir (balıkçılar yığın hâlinde satar). {item:8838} 40-55 bölgelerinde yetişir. {skill:171} 300 bir Legacy System kilometre taşı.",
+	["{item:13445} is orange at 265 (yellow 280, green 300, grey 320): about 43 crafts to 300. Each takes 2 {item:13423}, 1 {item:8838} and 1 {item:8925}. Make the 86 {item:13423} (43 crafts) first. {item:13422} comes from the {item:13422} schools on the coasts of the 40-55 zones, or the Auction House (fishers sell them in stacks). {item:8838} grows in the 40-55 zones. {skill:171} 300 is a Legacy System milestone."] = "{item:13445}: 265 puanda turuncu (sarı 280, yeşil 300, gri 320): 300 puana kadar yaklaşık 43 üretim. Her biri 2 {item:13423}, 1 {item:8838} ve 1 {item:8925} ister. Önce 86 {item:13423} yap (43 üretim). {item:13422}, 40-55 bölgelerinin kıyılarındaki {item:13422} sürülerinden ya da Auction House'tan gelir (balıkçılar yığın hâlinde satar). {item:8838} 40-55 bölgelerinde yetişir. {skill:171} 300 bir Legacy System eşiği.",
 	["from the recipe in your bags"] = "çantandaki tariften",
 }

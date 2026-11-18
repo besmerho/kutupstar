@@ -56,7 +56,7 @@ return {
 
 	-- Step 10: PvP: battleground reputations (Alliance)
 	["PvP: battleground reputations (Alliance)"] = "PvP: battleground itibarları (Alliance)",
-	["Exalted with each of the four battleground factions is worth a point. Follow the Polestar Reputation guides Warsong Gulch Reputation, Arathi Basin Reputation, Alterac Valley Reputation and Darkspear Islands Reputation (Forever's new battleground, open from level 30). The Diplomat Legacy perk increases reputation gains."] = "Dört battleground grubunun her biriyle Exalted olmak bir puan değerinde. Polestar'ın İtibar rehberlerinden Warsong Gulch itibarı, Arathi Basin itibarı, Alterac Valley itibarı ve Darkspear Islands itibarı (Forever'ın seviye 30'dan açık yeni battleground'u) rehberlerini izle. Diplomat Legacy ayrıcalığı itibar kazancını artırır.",
+	["Exalted with each of the four battleground factions is worth a point. Follow the Polestar Reputation guides Warsong Gulch Reputation, Arathi Basin Reputation, Alterac Valley Reputation and Darkspear Islands Reputation (Forever's new battleground, open from level 30). The Diplomat Legacy perk increases reputation gains."] = "Dört battleground grubunun her biriyle Exalted olmak bir puan değerinde. Polestar'ın İtibar rehberlerinden Warsong Gulch itibarı, Arathi Basin itibarı, Alterac Valley itibarı ve Darkspear Islands itibarı (Forever'ın seviye 30'dan açık yeni battleground'u) rehberlerini izle. Diplomat Legacy yeteneği itibar kazancını artırır.",
 
 	-- Step 11: PvP: battleground reputations (Horde)
 	["PvP: battleground reputations (Horde)"] = "PvP: battleground itibarları (Horde)",

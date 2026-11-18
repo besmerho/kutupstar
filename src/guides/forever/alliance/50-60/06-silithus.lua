@@ -138,7 +138,7 @@ return {
 	-- Step 23: Gadgetzan
 	-- {area:976} Gadgetzan · {quest:5801} Fire Plume Forged
 	-- plural, as words: Thorium Bars = {item:12359} Thorium Bar
-	["Fly to {area:976}. Buy two Thorium Bars at the Auction House here for {quest:5801}."] = "{area:976} kasabasına uç. {quest:5801} için buradaki müzayede evinden iki Thorium Bar satın al.",
+	["Fly to {area:976}. Buy two Thorium Bars at the Auction House here for {quest:5801}."] = "{area:976} kasabasına uç. {quest:5801} için buradaki Auction House'tan iki Thorium Bar satın al.",
 	-- {npc:5594} Alchemist Pestlezugg
 	["{npc:5594}, inside"] = "{npc:5594}, içeride",
 
@@ -393,7 +393,7 @@ return {
 
 	-- Step 86: Stormwind
 	-- {npc:14722} Clavicus Knavingham · {item:14047} Runecloth
-	["{npc:14722} takes sixty Silk, sixty Mageweave and sixty {item:14047}: hand in what you carry (or buy at the Auction House), skip the rest."] = "{npc:14722} altmış Silk, altmış Mageweave ve altmış {item:14047} alır: taşıdığını teslim et (ya da müzayede evinden satın al), gerisini atla.",
+	["{npc:14722} takes sixty Silk, sixty Mageweave and sixty {item:14047}: hand in what you carry (or buy at the Auction House), skip the rest."] = "{npc:14722} altmış Silk, altmış Mageweave ve altmış {item:14047} alır: taşıdığını teslim et (ya da Auction House'tan satın al), gerisini atla.",
 	-- {item:4306} Silk Cloth
 	["{item:4306}, from your bags"] = "{item:4306}, çantandan",
 	-- {item:4338} Mageweave Cloth
@@ -411,7 +411,7 @@ return {
 
 	-- Step 88: Ironforge
 	-- {area:2257} Deeprun Tram · {zone:1455} Ironforge · {npc:14724} Bubulo Acerbus · {npc:14723} Mistina Steelshield · {item:14047} Runecloth
-	["Take the {area:2257} to {zone:1455}. {npc:14724} and {npc:14723} each take sixty Wool, sixty Silk and sixty Mageweave, then sixty {item:14047}: hand in what you carry (or buy at the Auction House), skip the rest."] = "{area:2257} treniyle {zone:1455} şehrine git. {npc:14724} ve {npc:14723} her biri altmış Wool, altmış Silk ve altmış Mageweave, sonra da altmış {item:14047} alır: taşıdığını teslim et (ya da müzayede evinden satın al), gerisini atla.",
+	["Take the {area:2257} to {zone:1455}. {npc:14724} and {npc:14723} each take sixty Wool, sixty Silk and sixty Mageweave, then sixty {item:14047}: hand in what you carry (or buy at the Auction House), skip the rest."] = "{area:2257} treniyle {zone:1455} şehrine git. {npc:14724} ve {npc:14723} her biri altmış Wool, altmış Silk ve altmış Mageweave, sonra da altmış {item:14047} alır: taşıdığını teslim et (ya da Auction House'tan satın al), gerisini atla.",
 	-- {zone:1453} Stormwind
 	["{zone:1453} has no shaman trainer"] = "{zone:1453} şehrinde Shaman eğitmeni yok",
 
@@ -515,7 +515,7 @@ return {
 	["Level 59.85"] = "Seviye 59.85",
 	-- {npc:11140} Egan · {area:2627} Terrordale · {area:2261} Undercroft · {area:2298} Caer Darrow · {npc:10667} Chromie · {area:3197} Chillwind Camp · {area:2057} Scholomance · {area:2279} Stratholme
 	-- plural, as words: Terrordale Spirits = {npc:14564} Terrordale Spirit
-	["The Terrordale Spirits haunt the woods around {npc:11140}. Top up here to level 59.85 while you stand in {area:2627}: the hand-ins still to come (the {area:2261}, {area:2298}, {npc:10667} and {area:3197}) take you to level 60. Or, with a group, run the {area:2057} dungeon or the {area:2279} dungeon instead."] = "Terrordale Spirit hayaletleri {npc:11140} yanının çevresindeki ormanda dolaşıyor. {area:2627} içindeyken burada seviye 59.85 olana kadar kas: kalan teslimler ({area:2261}, {area:2298}, {npc:10667} ve {area:3197}) seni 60. seviyeye çıkarır. Ya da grubun varsa onun yerine {area:2057} ya da {area:2279} zindanına koş.",
+	["The Terrordale Spirits haunt the woods around {npc:11140}. Top up here to level 59.85 while you stand in {area:2627}: the hand-ins still to come (the {area:2261}, {area:2298}, {npc:10667} and {area:3197}) take you to level 60. Or, with a group, run the {area:2057} dungeon or the {area:2279} dungeon instead."] = "Terrordale Spirit hayaletleri {npc:11140} yanının çevresindeki ormanda dolaşıyor. {area:2627} içindeyken burada seviye 59.85 olana kadar kas: kalan teslimler ({area:2261}, {area:2298}, {npc:10667} ve {area:3197}) seni 60. seviyeye çıkarır. Ya da grubun varsa onun yerine {area:2057} ya da {area:2279} zindanını yap.",
 	-- {npc:14564} Terrordale Spirit · {area:2627} Terrordale · {zone:1423} Eastern Plaguelands
 	["grind on {npc:14564} at {area:2627}, {zone:1423}"] = "Kas: {npc:14564} ({area:2627}, {zone:1423})",
 

@@ -34,9 +34,9 @@ return {
 
 	-- Step 6: Linen Cloth
 	-- {item:2589} Linen Cloth · {area:149} Silver Stream Mine · {object:2096} Trade District
-	["Any humanoid drops {item:2589}, and the Tunnel Rats in the {area:149} drop it while you gather the gems; the Auction House in the {object:2096} sells it. You hand in ten."] = "Her insansı {item:2589} düşürür, {area:149} madenindeki Tunnel Rat'ler de sen mücevherleri toplarken düşürür; {object:2096} semtindeki müzayede evi da satar. On tane teslim edeceksin.",
+	["Any humanoid drops {item:2589}, and the Tunnel Rats in the {area:149} drop it while you gather the gems; the Auction House in the {object:2096} sells it. You hand in ten."] = "Her humanoid {item:2589} düşürür, {area:149} madenindeki Tunnel Rat'ler de sen mücevherleri toplarken düşürür; {object:2096} semtindeki Auction House da satar. On tane teslim edeceksin.",
 	-- {item:2589} Linen Cloth
-	["{item:2589}: humanoids, or the Auction House"] = "{item:2589}: humanoid'ler ya da müzayede evi",
+	["{item:2589}: humanoids, or the Auction House"] = "{item:2589}: humanoid'ler ya da Auction House",
 
 	-- Step 7: The Silver Stream Mine
 	-- {area:149} Silver Stream Mine

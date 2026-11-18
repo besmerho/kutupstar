@@ -18,9 +18,9 @@ return {
 
 	-- Step 3: Engineering 1-75: Auction House
 	-- {skill:202} Engineering
-	["{skill:202} 1-75: Auction House"] = "{skill:202} 1-75: müzayede evi",
+	["{skill:202} 1-75: Auction House"] = "{skill:202} 1-75: Auction House",
 	-- {item:2835} Rough Stone · {item:2840} Copper Bar
-	["What 1-75 takes that the Auction House sells: 46 {item:2835} and 75 {item:2840}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden müzayede evinin sattıkları: 46 {item:2835} ve 75 {item:2840}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 1-75 takes that the Auction House sells: 46 {item:2835} and 75 {item:2840}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden Auction House'un sattıkları: 46 {item:2835} ve 75 {item:2840}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 4: Rough Stone (Elwynn Forest)
 	-- {item:2835} Rough Stone · {spell:3918} Rough Blasting Powder · {skill:186} Mining · {object:1731} Copper Vein · {zone:1429} Elwynn Forest
@@ -102,9 +102,9 @@ return {
 
 	-- Step 19: Engineering 75-150: Auction House
 	-- {skill:202} Engineering
-	["{skill:202} 75-150: Auction House"] = "{skill:202} 75-150: müzayede evi",
+	["{skill:202} 75-150: Auction House"] = "{skill:202} 75-150: Auction House",
 	-- {item:2836} Coarse Stone · {item:2838} Heavy Stone · {item:2840} Copper Bar · {item:2841} Bronze Bar · {item:2842} Silver Bar
-	["What 75-150 takes that the Auction House sells: 15 {item:2836}, 27 {item:2838}, 72 {item:2840}, 61 {item:2841} and 2 {item:2842}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden müzayede evinin sattıkları: 15 {item:2836}, 27 {item:2838}, 72 {item:2840}, 61 {item:2841} ve 2 {item:2842}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 75-150 takes that the Auction House sells: 15 {item:2836}, 27 {item:2838}, 72 {item:2840}, 61 {item:2841} and 2 {item:2842}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden Auction House'un sattıkları: 15 {item:2836}, 27 {item:2838}, 72 {item:2840}, 61 {item:2841} ve 2 {item:2842}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 20: Coarse Stone (Westfall)
 	-- {item:2836} Coarse Stone · {spell:3930} Crafted Heavy Shot · {skill:186} Mining · {object:1732} Tin Vein · {zone:1436} Westfall
@@ -199,7 +199,7 @@ return {
 	-- {spell:3950} Big Bronze Bomb
 	["{spell:3950} to 150"] = "{spell:3950}: 150 puana kadar",
 	-- {spell:3950} Big Bronze Bomb · {item:4377} Heavy Blasting Powder · {item:2841} Bronze Bar · {spell:3973} Silver Contact · {skill:202} Engineering
-	["{spell:3950} is yellow at 140 (yellow 140, green 165, grey 190): about 10 crafts to 150. Each takes 2 {item:4377}, 3 {item:2841} and 1 {spell:3973} and makes 3. Make the 10 {spell:3973} (2 crafts) first. Use the 20 {item:4377} you made earlier; the counts above leave them out. The trainer teaches it, and it is the cheapest way through these points in the data. Needs an anvil nearby. {skill:202} 150 is a Legacy System milestone."] = "{spell:3950}: 140 puanda sarı (sarı 140, yeşil 165, gri 190): 150 puana kadar yaklaşık 10 üretim. Her biri 2 {item:4377}, 3 {item:2841} ve 1 {spell:3973} ister ve 3 tane yapar. Önce 10 {spell:3973} (2 üretim) yap. Daha önce yaptığın 20 {item:4377} eşyasını kullan; yukarıdaki sayılar onları dışarıda bırakır. Eğitmen öğretir ve veride bu puanları geçmenin en ucuz yolu. Yakınında bir örs olmalı. {skill:202} 150 bir Legacy System kilometre taşı.",
+	["{spell:3950} is yellow at 140 (yellow 140, green 165, grey 190): about 10 crafts to 150. Each takes 2 {item:4377}, 3 {item:2841} and 1 {spell:3973} and makes 3. Make the 10 {spell:3973} (2 crafts) first. Use the 20 {item:4377} you made earlier; the counts above leave them out. The trainer teaches it, and it is the cheapest way through these points in the data. Needs an anvil nearby. {skill:202} 150 is a Legacy System milestone."] = "{spell:3950}: 140 puanda sarı (sarı 140, yeşil 165, gri 190): 150 puana kadar yaklaşık 10 üretim. Her biri 2 {item:4377}, 3 {item:2841} ve 1 {spell:3973} ister ve 3 tane yapar. Önce 10 {spell:3973} (2 üretim) yap. Daha önce yaptığın 20 {item:4377} eşyasını kullan; yukarıdaki sayılar onları dışarıda bırakır. Eğitmen öğretir ve veride bu puanları geçmenin en ucuz yolu. Yakınında bir örs olmalı. {skill:202} 150 bir Legacy System eşiği.",
 
 	-- Step 40: Expert Engineering
 	-- {skill:202} Engineering
@@ -215,9 +215,9 @@ return {
 
 	-- Step 42: Engineering 150-225: Auction House
 	-- {skill:202} Engineering
-	["{skill:202} 150-225: Auction House"] = "{skill:202} 150-225: müzayede evi",
+	["{skill:202} 150-225: Auction House"] = "{skill:202} 150-225: Auction House",
 	-- {item:2319} Medium Leather · {item:2592} Wool Cloth · {item:2836} Coarse Stone · {item:2838} Heavy Stone · {item:2841} Bronze Bar · {item:2842} Silver Bar · {item:3575} Iron Bar · {item:3860} Mithril Bar · {item:7912} Solid Stone
-	["What 150-225 takes that the Auction House sells: 19 {item:2319}, 19 {item:2592}, 31 {item:2836}, 74 {item:2838}, 100 {item:2841}, 6 {item:2842}, 81 {item:3575}, 19 {item:3860} and 62 {item:7912}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden müzayede evinin sattıkları: 19 {item:2319}, 19 {item:2592}, 31 {item:2836}, 74 {item:2838}, 100 {item:2841}, 6 {item:2842}, 81 {item:3575}, 19 {item:3860} ve 62 {item:7912}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 150-225 takes that the Auction House sells: 19 {item:2319}, 19 {item:2592}, 31 {item:2836}, 74 {item:2838}, 100 {item:2841}, 6 {item:2842}, 81 {item:3575}, 19 {item:3860} and 62 {item:7912}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden Auction House'un sattıkları: 19 {item:2319}, 19 {item:2592}, 31 {item:2836}, 74 {item:2838}, 100 {item:2841}, 6 {item:2842}, 81 {item:3575}, 19 {item:3860} ve 62 {item:7912}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 43: Medium Leather (Alliance)
 	-- {item:2319} Medium Leather
@@ -233,7 +233,7 @@ return {
 
 	-- Step 45: Wool Cloth
 	-- {item:2592} Wool Cloth · {spell:3953} Bronze Framework
-	["19 {item:2592} for {spell:3953}: humanoids of level 15-30 drop it. Keep what you loot as you level, or take it from your bank."] = "{spell:3953} için 19 {item:2592}: 15-30 seviyesindeki insansılar düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
+	["19 {item:2592} for {spell:3953}: humanoids of level 15-30 drop it. Keep what you loot as you level, or take it from your bank."] = "{spell:3953} için 19 {item:2592}: 15-30 seviyesindeki humanoid'ler düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
 
 	-- Step 46: Coarse Stone (Alliance)
 	-- {item:2836} Coarse Stone
@@ -336,7 +336,7 @@ return {
 	-- {item:10512} Hi-Impact Mithril Slugs
 	["{item:10512} to 225"] = "{item:10512}: 225 puana kadar",
 	-- {item:10512} Hi-Impact Mithril Slugs · {item:3860} Mithril Bar · {item:10505} Solid Blasting Powder · {skill:202} Engineering
-	["{item:10512} is yellow at 210 (yellow 210, green 230, grey 250): about 19 crafts to 225. Each takes 1 {item:3860} and 1 {item:10505} and makes 200. Use the 19 {item:10505} you made earlier; the counts above leave them out. One {item:3860} and one {item:10505} a craft; hunters buy the slugs. Needs an anvil nearby. {skill:202} 225 is a Legacy System milestone."] = "{item:10512}: 210 puanda sarı (sarı 210, yeşil 230, gri 250): 225 puana kadar yaklaşık 19 üretim. Her biri 1 {item:3860} ve 1 {item:10505} ister ve 200 tane yapar. Daha önce yaptığın 19 {item:10505} eşyasını kullan; yukarıdaki sayılar onları dışarıda bırakır. Üretim başına bir {item:3860} ve bir {item:10505}; mermileri avcılar alır. Yakınında bir örs olmalı. {skill:202} 225 bir Legacy System kilometre taşı.",
+	["{item:10512} is yellow at 210 (yellow 210, green 230, grey 250): about 19 crafts to 225. Each takes 1 {item:3860} and 1 {item:10505} and makes 200. Use the 19 {item:10505} you made earlier; the counts above leave them out. One {item:3860} and one {item:10505} a craft; hunters buy the slugs. Needs an anvil nearby. {skill:202} 225 is a Legacy System milestone."] = "{item:10512}: 210 puanda sarı (sarı 210, yeşil 230, gri 250): 225 puana kadar yaklaşık 19 üretim. Her biri 1 {item:3860} ve 1 {item:10505} ister ve 200 tane yapar. Daha önce yaptığın 19 {item:10505} eşyasını kullan; yukarıdaki sayılar onları dışarıda bırakır. Üretim başına bir {item:3860} ve bir {item:10505}; mermileri avcılar alır. Yakınında bir örs olmalı. {skill:202} 225 bir Legacy System eşiği.",
 
 	-- Step 64: Artisan Engineering
 	-- {skill:202} Engineering
@@ -346,7 +346,7 @@ return {
 
 	-- Step 65: Schematic: Thorium Widget
 	-- {item:16042} Schematic: Thorium Widget · {item:15994} Thorium Widget · {skill:202} Engineering · {npc:5175} Gearcutter Cogspinner · {zone:1455} Ironforge · {npc:3413} Sovik · {zone:1454} Orgrimmar
-	["{item:16042} teaches {item:15994} ({skill:202} 260) for 1g 20s. Sold by Alliance: {npc:5175} ({zone:1455}), limited stock; Horde: {npc:3413} ({zone:1454}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; the Auction House often has it too."] = "{item:16042}, 1g 20s karşılığında {item:15994} ({skill:202} 260) öğretir. Satanlar Alliance: {npc:5175} ({zone:1455}), sınırlı stok; Horde: {npc:3413} ({zone:1454}), sınırlı stok. Satıcıları bir iki tane tutar, satıştan bir süre sonra yeniden gelir; müzayede evinde da çoğu zaman bulunur.",
+	["{item:16042} teaches {item:15994} ({skill:202} 260) for 1g 20s. Sold by Alliance: {npc:5175} ({zone:1455}), limited stock; Horde: {npc:3413} ({zone:1454}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; the Auction House often has it too."] = "{item:16042}, 1g 20s karşılığında {item:15994} ({skill:202} 260) öğretir. Satanlar Alliance: {npc:5175} ({zone:1455}), sınırlı stok; Horde: {npc:3413} ({zone:1454}), sınırlı stok. Satıcıları bir iki tane tutar, satıştan bir süre sonra yeniden gelir; Auction House'ta da çoğu zaman bulunur.",
 
 	-- Step 66: Schematic: Thorium Tube
 	-- {item:16047} Schematic: Thorium Tube · {item:16000} Thorium Tube · {skill:202} Engineering · {npc:260565} Kor'gar · {zone:2548} Riverglades · {npc:11185} Xizzer Fizzbolt · {zone:1452} Winterspring
@@ -354,9 +354,9 @@ return {
 
 	-- Step 67: Engineering 225-300: Auction House
 	-- {skill:202} Engineering
-	["{skill:202} 225-300: Auction House"] = "{skill:202} 225-300: müzayede evi",
+	["{skill:202} 225-300: Auction House"] = "{skill:202} 225-300: Auction House",
 	-- {item:3860} Mithril Bar · {item:7912} Solid Stone · {item:12359} Thorium Bar · {item:14047} Runecloth
-	["What 225-300 takes that the Auction House sells: 118 {item:3860}, 212 {item:7912}, 156 {item:12359} and 24 {item:14047}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden müzayede evinin sattıkları: 118 {item:3860}, 212 {item:7912}, 156 {item:12359} ve 24 {item:14047}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 225-300 takes that the Auction House sells: 118 {item:3860}, 212 {item:7912}, 156 {item:12359} and 24 {item:14047}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden Auction House'un sattıkları: 118 {item:3860}, 212 {item:7912}, 156 {item:12359} ve 24 {item:14047}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 68: Mithril Bar
 	-- {item:3860} Mithril Bar · {item:10512} Hi-Impact Mithril Slugs · {item:10513} Mithril Gyro-Shot · {skill:186} Mining · {item:3858} Mithril Ore
@@ -376,7 +376,7 @@ return {
 
 	-- Step 72: Runecloth
 	-- {item:14047} Runecloth · {item:15994} Thorium Widget
-	["24 {item:14047} for {item:15994}: humanoids of level 45-60 drop it. Keep what you loot as you level, or take it from your bank."] = "{item:15994} için 24 {item:14047}: 45-60 seviyesindeki insansılar düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
+	["24 {item:14047} for {item:15994}: humanoids of level 45-60 drop it. Keep what you loot as you level, or take it from your bank."] = "{item:15994} için 24 {item:14047}: 45-60 seviyesindeki humanoid'ler düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
 
 	-- Step 73: Hi-Impact Mithril Slugs to 245
 	-- {item:10512} Hi-Impact Mithril Slugs
@@ -410,5 +410,5 @@ return {
 	["{item:16000} to 300"] = "{item:16000}: 300 puana kadar",
 	-- {item:16000} Thorium Tube · {item:12359} Thorium Bar · {skill:202} Engineering
 	-- plural, as words: Thorium Bars = {item:12359} Thorium Bar
-	["{item:16000} is orange at 287 (yellow 295, green 305, grey 315): about 14 crafts to 300. Each takes 6 {item:12359}. The schematic binds when picked up; six Thorium Bars a craft. Needs an anvil nearby. {skill:202} 300 is a Legacy System milestone."] = "{item:16000}: 287 puanda turuncu (sarı 295, yeşil 305, gri 315): 300 puana kadar yaklaşık 14 üretim. Her biri 6 {item:12359} ister. Şema alınınca bağlanır; üretim başına altı Thorium Bar. Yakınında bir örs olmalı. {skill:202} 300 bir Legacy System kilometre taşı.",
+	["{item:16000} is orange at 287 (yellow 295, green 305, grey 315): about 14 crafts to 300. Each takes 6 {item:12359}. The schematic binds when picked up; six Thorium Bars a craft. Needs an anvil nearby. {skill:202} 300 is a Legacy System milestone."] = "{item:16000}: 287 puanda turuncu (sarı 295, yeşil 305, gri 315): 300 puana kadar yaklaşık 14 üretim. Her biri 6 {item:12359} ister. Şema alınınca bağlanır; üretim başına altı Thorium Bar. Yakınında bir örs olmalı. {skill:202} 300 bir Legacy System eşiği.",
 }

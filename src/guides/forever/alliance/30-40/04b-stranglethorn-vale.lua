@@ -119,7 +119,7 @@ return {
 	["{npc:773}, upstairs"] = "{npc:773}, üst katta",
 	-- {npc:773} Krazek · {item:4278} Lesser Bloodstone Ore · {zone:1417} Arathi Highlands · {skill:186} Mining
 	-- plural, as words: Lesser Bloodstone Deposits = {object:2653} Lesser Bloodstone Deposit
-	["{npc:773}, upstairs: this optional quest needs four {item:4278}. Mine Lesser Bloodstone Deposits in {zone:1417} with {skill:186} 75, or buy the ore at the Auction House or ask a miner friend. The kobolds do not drop it; skip this quest if you cannot get the ore."] = "{npc:773}, üst katta: bu isteğe bağlı görev dört {item:4278} istiyor. {zone:1417} bölgesinde {skill:186} 75 ile Lesser Bloodstone Deposit kaz ya da cevheri müzayede evinden al veya madenci bir arkadaşından iste. Kobold'lar onu düşürmez; cevheri bulamıyorsan bu görevi atla.",
+	["{npc:773}, upstairs: this optional quest needs four {item:4278}. Mine Lesser Bloodstone Deposits in {zone:1417} with {skill:186} 75, or buy the ore at the Auction House or ask a miner friend. The kobolds do not drop it; skip this quest if you cannot get the ore."] = "{npc:773}, üst katta: bu isteğe bağlı görev dört {item:4278} istiyor. {zone:1417} bölgesinde {skill:186} 75 ile Lesser Bloodstone Deposit kaz ya da cevheri Auction House'tan al veya madenci bir arkadaşından iste. Kobold'lar onu düşürmez; cevheri bulamıyorsan bu görevi atla.",
 	-- {npc:2498} Crank Fizzlebub
 	["{npc:2498}, inside"] = "{npc:2498}, içeride",
 	["\"Sea Wolf\" MacKinley, on the top floor"] = "\"Sea Wolf\" MacKinley, en üst katta",

@@ -17,9 +17,9 @@ return {
 
 	-- Step 3: Leatherworking 1-75: Auction House
 	-- {skill:165} Leatherworking
-	["{skill:165} 1-75: Auction House"] = "{skill:165} 1-75: müzayede evi",
+	["{skill:165} 1-75: Auction House"] = "{skill:165} 1-75: Auction House",
 	-- {item:2318} Light Leather
-	["What 1-75 takes that the Auction House sells: 349 {item:2318}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden müzayede evinin sattıkları: 349 {item:2318}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 1-75 takes that the Auction House sells: 349 {item:2318}. The counts drop by what your bags, bank and mail hold."] = "1-75 için gerekenlerden Auction House'un sattıkları: 349 {item:2318}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 4: Light Leather (Elwynn Forest)
 	-- {item:2318} Light Leather · {spell:2152} Light Armor Kit · {spell:3756} Embossed Leather Gloves · {spell:3763} Fine Leather Belt · {skill:393} Skinning · {npc:1922} Gray Forest Wolf · {npc:525} Mangy Wolf · {npc:524} Rockhide Boar · {npc:113} Stonetusk Boar · {npc:822} Young Forest Bear
@@ -81,9 +81,9 @@ return {
 
 	-- Step 16: Leatherworking 75-150: Auction House
 	-- {skill:165} Leatherworking
-	["{skill:165} 75-150: Auction House"] = "{skill:165} 75-150: müzayede evi",
+	["{skill:165} 75-150: Auction House"] = "{skill:165} 75-150: Auction House",
 	-- {item:2319} Medium Leather · {item:2457} Elixir of Minor Agility · {item:4234} Heavy Leather
-	["What 75-150 takes that the Auction House sells: 144 {item:2319}, 24 {item:2457} and 321 {item:4234}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden müzayede evinin sattıkları: 144 {item:2319}, 24 {item:2457} ve 321 {item:4234}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 75-150 takes that the Auction House sells: 144 {item:2319}, 24 {item:2457} and 321 {item:4234}. The counts drop by what your bags, bank and mail hold."] = "75-150 için gerekenlerden Auction House'un sattıkları: 144 {item:2319}, 24 {item:2457} ve 321 {item:4234}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 17: Medium Leather (Hillsbrad Foothills)
 	-- {item:2319} Medium Leather · {item:7285} Nimble Leather Gloves · {skill:393} Skinning · {npc:2248} Cave Yeti · {npc:2356} Elder Gray Bear · {npc:2385} Feral Mountain Lion · {npc:2351} Gray Bear · {npc:2384} Starving Mountain Lion · {npc:2354} Vicious Gray Bear
@@ -125,7 +125,7 @@ return {
 	-- {item:7285} Nimble Leather Gloves
 	["{item:7285} to 125"] = "{item:7285}: 125 puana kadar",
 	-- {item:7285} Nimble Leather Gloves · {item:2457} Elixir of Minor Agility · {item:2319} Medium Leather · {item:2321} Fine Thread · {item:2452} Swiftthistle · {item:765} Silverleaf · {spell:3763} Fine Leather Belt · {item:2316} Dark Leather Cloak · {item:4340} Gray Dye
-	["{item:7285} is orange at 102 (yellow 120, green 132, grey 145): about 24 crafts to 125. Each takes 1 {item:2457}, 6 {item:2319} and 1 {item:2321}. Each takes an {item:2457}: an alchemist makes it from a {item:2452} and a {item:765}, and the Auction House has it cheap. With no elixirs, take {spell:3763} on to 105 and {item:2316} (from 85: 8 {item:2319}, a {item:4340} and a {item:2321}) to 125: about 28 cloaks, 224 {item:2319} in all."] = "{item:7285}: 102 puanda turuncu (sarı 120, yeşil 132, gri 145): 125 puana kadar yaklaşık 24 üretim. Her biri 1 {item:2457}, 6 {item:2319} ve 1 {item:2321} ister. Her biri bir {item:2457} ister: bir simyacı onu bir {item:2452} ve bir {item:765} ile yapar, müzayede evinde de ucuzdur. İksir yoksa {spell:3763} ile 105'e, {item:2316} ile (85'ten itibaren: 8 {item:2319}, bir {item:4340} ve bir {item:2321}) 125'e çık: toplam yaklaşık 28 pelerin, 224 {item:2319}.",
+	["{item:7285} is orange at 102 (yellow 120, green 132, grey 145): about 24 crafts to 125. Each takes 1 {item:2457}, 6 {item:2319} and 1 {item:2321}. Each takes an {item:2457}: an alchemist makes it from a {item:2452} and a {item:765}, and the Auction House has it cheap. With no elixirs, take {spell:3763} on to 105 and {item:2316} (from 85: 8 {item:2319}, a {item:4340} and a {item:2321}) to 125: about 28 cloaks, 224 {item:2319} in all."] = "{item:7285}: 102 puanda turuncu (sarı 120, yeşil 132, gri 145): 125 puana kadar yaklaşık 24 üretim. Her biri 1 {item:2457}, 6 {item:2319} ve 1 {item:2321} ister. Her biri bir {item:2457} ister: bir simyacı onu bir {item:2452} ve bir {item:765} ile yapar, Auction House'ta de ucuzdur. İksir yoksa {spell:3763} ile 105'e, {item:2316} ile (85'ten itibaren: 8 {item:2319}, bir {item:4340} ve bir {item:2321}) 125'e çık: toplam yaklaşık 28 pelerin, 224 {item:2319}.",
 
 	-- Step 29: Leatherworking recipes at 125
 	-- {skill:165} Leatherworking
@@ -137,7 +137,7 @@ return {
 	-- {spell:3780} Heavy Armor Kit
 	["{spell:3780} to 150"] = "{spell:3780}: 150 puana kadar",
 	-- {spell:3780} Heavy Armor Kit · {item:4234} Heavy Leather · {item:2321} Fine Thread · {skill:165} Leatherworking
-	["{spell:3780} is orange at 125 (yellow 145, green 155, grey 165): about 26 crafts to 150. Each takes 5 {item:4234} and 1 {item:2321}. Five {item:4234} a craft (beasts of level 28-40); the kits sell to vendors. {skill:165} 150 is a Legacy System milestone."] = "{spell:3780}: 125 puanda turuncu (sarı 145, yeşil 155, gri 165): 150 puana kadar yaklaşık 26 üretim. Her biri 5 {item:4234} ve 1 {item:2321} ister. Üretim başına beş {item:4234} (seviye 28-40 hayvanlar); kitler satıcılara satılır. {skill:165} 150 bir Legacy System kilometre taşı.",
+	["{spell:3780} is orange at 125 (yellow 145, green 155, grey 165): about 26 crafts to 150. Each takes 5 {item:4234} and 1 {item:2321}. Five {item:4234} a craft (beasts of level 28-40); the kits sell to vendors. {skill:165} 150 is a Legacy System milestone."] = "{spell:3780}: 125 puanda turuncu (sarı 145, yeşil 155, gri 165): 150 puana kadar yaklaşık 26 üretim. Her biri 5 {item:4234} ve 1 {item:2321} ister. Üretim başına beş {item:4234} (seviye 28-40 hayvanlar); kitler satıcılara satılır. {skill:165} 150 bir Legacy System eşiği.",
 
 	-- Step 31: Leatherworking 150-225: vendor goods
 	-- {skill:165} Leatherworking
@@ -147,9 +147,9 @@ return {
 
 	-- Step 32: Leatherworking 150-225: Auction House
 	-- {skill:165} Leatherworking
-	["{skill:165} 150-225: Auction House"] = "{skill:165} 150-225: müzayede evi",
+	["{skill:165} 150-225: Auction House"] = "{skill:165} 150-225: Auction House",
 	-- {item:4235} Heavy Hide · {item:4304} Thick Leather
-	["What 150-225 takes that the Auction House sells: 22 {item:4235} and 373 {item:4304}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden müzayede evinin sattıkları: 22 {item:4235} ve 373 {item:4304}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 150-225 takes that the Auction House sells: 22 {item:4235} and 373 {item:4304}. The counts drop by what your bags, bank and mail hold."] = "150-225 için gerekenlerden Auction House'un sattıkları: 22 {item:4235} ve 373 {item:4304}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 33: Heavy Hide (Alliance)
 	-- {item:4235} Heavy Hide
@@ -179,7 +179,7 @@ return {
 	-- {skill:165} Leatherworking
 	["Expert {skill:165}"] = "Expert {skill:165}",
 	-- {skill:165} Leatherworking · {npc:4212} Telonis · {zone:1457} Darnassus · {npc:3007} Una · {zone:1456} Thunder Bluff · {spell:3818} Cured Heavy Hide · {spell:7151} Barbaric Shoulders · {item:4235} Heavy Hide · {item:4304} Thick Leather · {item:5966} Guardian Gloves · {item:8176} Nightscape Headband · {item:8193} Nightscape Pants
-	["Expert raises the cap from 150 to 225; it needs {skill:165} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:4212} ({zone:1457}); Horde {npc:3007} ({zone:1456}). The arrow picks the nearest of your faction. Learn now: {spell:3818} (from 125, 5s) and {spell:7151} (from 150). 150-225 takes about 5s of recipes and 7g 87s of vendor goods, plus 22 {item:4235} and 373 {item:4304} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {item:5966} (from 165) and {item:8176} (from 180), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3. {item:8193} (from 210) takes a second trip, to other trainers (below)."] = "Expert sınırı 150'den 225'e çıkarır; {skill:165} 125 ve 20. karakter seviyesi ister, yani 125'ten itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:4212} ({zone:1457}); Horde {npc:3007} ({zone:1456}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:3818} (125'ten itibaren, 5s) ve {spell:7151} (150'den itibaren). 150-225 yaklaşık 5s tarif ve 7g 87s satıcı malı, ayrıca toplanacak ya da satın alınacak 22 {item:4235} ve 373 {item:4304} ister. Hepsi çantanda gel (yukarıdaki adımlar, kalanı müzayede evinden): bu eğitmenler {item:5966} (165'ten itibaren) ve {item:8176} (180'den itibaren) tariflerini de öğretir, üretimler de istasyon istemez, yani tam burada üret ve her tarifi becerisine ulaştıkça öğren. 3 yolculuk yerine bir. {item:8193} (210'dan itibaren) başka eğitmenlere ikinci bir yolculuk ister (aşağıda).",
+	["Expert raises the cap from 150 to 225; it needs {skill:165} 125 and character level 20, so you can take it on any visit from 125. Only a few trainers teach it: Alliance {npc:4212} ({zone:1457}); Horde {npc:3007} ({zone:1456}). The arrow picks the nearest of your faction. Learn now: {spell:3818} (from 125, 5s) and {spell:7151} (from 150). 150-225 takes about 5s of recipes and 7g 87s of vendor goods, plus 22 {item:4235} and 373 {item:4304} to gather or buy. Come with all of it in your bags (the steps above, the rest from the Auction House): these trainers also teach {item:5966} (from 165) and {item:8176} (from 180), and the crafts need no station, so craft right here and learn each recipe as you reach its skill. One trip instead of 3. {item:8193} (from 210) takes a second trip, to other trainers (below)."] = "Expert sınırı 150'den 225'e çıkarır; {skill:165} 125 ve 20. karakter seviyesi ister, yani 125'ten itibaren herhangi bir ziyarette alabilirsin. Yalnızca birkaç eğitmen öğretir: Alliance {npc:4212} ({zone:1457}); Horde {npc:3007} ({zone:1456}). Ok tarafının en yakınını seçer. Şimdi öğren: {spell:3818} (125'ten itibaren, 5s) ve {spell:7151} (150'den itibaren). 150-225 yaklaşık 5s tarif ve 7g 87s satıcı malı, ayrıca toplanacak ya da satın alınacak 22 {item:4235} ve 373 {item:4304} ister. Hepsi çantanda gel (yukarıdaki adımlar, kalanı Auction House'tan): bu eğitmenler {item:5966} (165'ten itibaren) ve {item:8176} (180'den itibaren) tariflerini de öğretir, üretimler de istasyon istemez, yani tam burada üret ve her tarifi becerisine ulaştıkça öğren. 3 yolculuk yerine bir. {item:8193} (210'dan itibaren) başka eğitmenlere ikinci bir yolculuk ister (aşağıda).",
 
 	-- Step 38: Heavy Armor Kit to 158
 	-- {spell:3780} Heavy Armor Kit
@@ -227,7 +227,7 @@ return {
 	-- {item:8193} Nightscape Pants
 	["{item:8193} to 225"] = "{item:8193}: 225 puana kadar",
 	-- {item:8193} Nightscape Pants · {item:4304} Thick Leather · {item:4291} Silken Thread · {skill:165} Leatherworking
-	["{item:8193} is orange at 213 (yellow 225, green 235, grey 245): about 12 crafts to 225, a point every craft. Each takes 14 {item:4304} and 4 {item:4291}. The trainer teaches it, and it is the cheapest way through these points in the data. {skill:165} 225 is a Legacy System milestone."] = "{item:8193}: 213 puanda turuncu (sarı 225, yeşil 235, gri 245): 225 puana kadar yaklaşık 12 üretim, her üretimde bir puan. Her biri 14 {item:4304} ve 4 {item:4291} ister. Eğitmen öğretir ve veriye göre bu puanları geçmenin en ucuz yolu. {skill:165} 225 bir Legacy System kilometre taşı.",
+	["{item:8193} is orange at 213 (yellow 225, green 235, grey 245): about 12 crafts to 225, a point every craft. Each takes 14 {item:4304} and 4 {item:4291}. The trainer teaches it, and it is the cheapest way through these points in the data. {skill:165} 225 is a Legacy System milestone."] = "{item:8193}: 213 puanda turuncu (sarı 225, yeşil 235, gri 245): 225 puana kadar yaklaşık 12 üretim, her üretimde bir puan. Her biri 14 {item:4304} ve 4 {item:4291} ister. Eğitmen öğretir ve veriye göre bu puanları geçmenin en ucuz yolu. {skill:165} 225 bir Legacy System eşiği.",
 
 	-- Step 46: Artisan Leatherworking
 	-- {skill:165} Leatherworking
@@ -243,17 +243,17 @@ return {
 
 	-- Step 48: Pattern: Wicked Leather Gauntlets
 	-- {item:15725} Pattern: Wicked Leather Gauntlets · {item:15083} Wicked Leather Gauntlets · {skill:165} Leatherworking · {npc:12942} Leonard Porter · {zone:1422} Western Plaguelands · {npc:12943} Werg Thickblade
-	["{item:15725} teaches {item:15083} ({skill:165} 235) for 1g 20s. Sold by Alliance: {npc:12942} ({zone:1422}), limited stock; Horde: {npc:12943} ({zone:1422}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; it binds when picked up, so the Auction House never has it."] = "{item:15725}, 1g 20s karşılığında {item:15083} ({skill:165} 235) öğretir. Satanlar Alliance: {npc:12942} ({zone:1422}), sınırlı stok; Horde: {npc:12943} ({zone:1422}), sınırlı stok. Satıcıları bir iki tane tutar, satıştan bir süre sonra yeniden gelir; alınınca bağlanır, bu yüzden müzayede evinde hiç olmaz.",
+	["{item:15725} teaches {item:15083} ({skill:165} 235) for 1g 20s. Sold by Alliance: {npc:12942} ({zone:1422}), limited stock; Horde: {npc:12943} ({zone:1422}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; it binds when picked up, so the Auction House never has it."] = "{item:15725}, 1g 20s karşılığında {item:15083} ({skill:165} 235) öğretir. Satanlar Alliance: {npc:12942} ({zone:1422}), sınırlı stok; Horde: {npc:12943} ({zone:1422}), sınırlı stok. Satıcıları bir iki tane tutar, satıştan bir süre sonra yeniden gelir; alınınca bağlanır, bu yüzden Auction House'ta hiç olmaz.",
 
 	-- Step 49: Pattern: Runic Leather Headband
 	-- {item:15756} Pattern: Runic Leather Headband · {item:15094} Runic Leather Headband · {skill:165} Leatherworking · {npc:12941} Jase Farlane · {zone:1423} Eastern Plaguelands
-	["{item:15756} teaches {item:15094} ({skill:165} 265) for 2g 20s. Sold by {npc:12941} ({zone:1423}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; it binds when picked up, so the Auction House never has it."] = "{item:15756}, 2g 20s karşılığında {item:15094} ({skill:165} 265) öğretir. Satan {npc:12941} ({zone:1423}), sınırlı stok. Satıcıları bir iki tane tutar, satıştan bir süre sonra yeniden gelir; alınınca bağlanır, bu yüzden müzayede evinde hiç olmaz.",
+	["{item:15756} teaches {item:15094} ({skill:165} 265) for 2g 20s. Sold by {npc:12941} ({zone:1423}), limited stock. Its sellers keep one or two in stock that come back some time after a sale; it binds when picked up, so the Auction House never has it."] = "{item:15756}, 2g 20s karşılığında {item:15094} ({skill:165} 265) öğretir. Satan {npc:12941} ({zone:1423}), sınırlı stok. Satıcıları bir iki tane tutar, satıştan bir süre sonra yeniden gelir; alınınca bağlanır, bu yüzden Auction House'ta hiç olmaz.",
 
 	-- Step 50: Leatherworking 225-300: Auction House
 	-- {skill:165} Leatherworking
-	["{skill:165} 225-300: Auction House"] = "{skill:165} 225-300: müzayede evi",
+	["{skill:165} 225-300: Auction House"] = "{skill:165} 225-300: Auction House",
 	-- {item:8170} Rugged Leather · {item:14047} Runecloth
-	["What 225-300 takes that the Auction House sells: 1029 {item:8170} and 430 {item:14047}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden müzayede evinin sattıkları: 1029 {item:8170} ve 430 {item:14047}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
+	["What 225-300 takes that the Auction House sells: 1029 {item:8170} and 430 {item:14047}. The counts drop by what your bags, bank and mail hold."] = "225-300 için gerekenlerden Auction House'un sattıkları: 1029 {item:8170} ve 430 {item:14047}. Sayılar çantanda, bankanda ve postanda olanlar kadar düşer.",
 
 	-- Step 51: Rugged Leather (Alliance)
 	-- {item:8170} Rugged Leather
@@ -269,7 +269,7 @@ return {
 
 	-- Step 53: Runecloth
 	-- {item:14047} Runecloth · {item:15094} Runic Leather Headband
-	["430 {item:14047} for {item:15094}: humanoids of level 45-60 drop it. Keep what you loot as you level, or take it from your bank."] = "{item:15094} için 430 {item:14047}: 45-60 seviyesindeki insansılar düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
+	["430 {item:14047} for {item:15094}: humanoids of level 45-60 drop it. Keep what you loot as you level, or take it from your bank."] = "{item:15094} için 430 {item:14047}: 45-60 seviyesindeki humanoid'ler düşürür. Seviye atlarken lootladıklarını sakla ya da bankandan al.",
 
 	-- Step 54: Rugged Armor Kit to 239
 	-- {item:15564} Rugged Armor Kit
@@ -289,5 +289,5 @@ return {
 	-- {item:15094} Runic Leather Headband
 	["{item:15094} to 300"] = "{item:15094}: 300 puana kadar",
 	-- {item:15094} Runic Leather Headband · {item:8170} Rugged Leather · {item:14047} Runecloth · {item:14341} Rune Thread · {skill:165} Leatherworking
-	["{item:15094} is orange at 269 (yellow 285, green 295, grey 305): about 43 crafts to 300. Each takes 14 {item:8170}, 10 {item:14047} and 1 {item:14341}. 14 {item:8170} and 10 {item:14047} a craft: the dearest stretch. {skill:165} 300 is a Legacy System milestone."] = "{item:15094}: 269 puanda turuncu (sarı 285, yeşil 295, gri 305): 300 puana kadar yaklaşık 43 üretim. Her biri 14 {item:8170}, 10 {item:14047} ve 1 {item:14341} ister. Üretim başına 14 {item:8170} ve 10 {item:14047}: en pahalı kısım. {skill:165} 300 bir Legacy System kilometre taşı.",
+	["{item:15094} is orange at 269 (yellow 285, green 295, grey 305): about 43 crafts to 300. Each takes 14 {item:8170}, 10 {item:14047} and 1 {item:14341}. 14 {item:8170} and 10 {item:14047} a craft: the dearest stretch. {skill:165} 300 is a Legacy System milestone."] = "{item:15094}: 269 puanda turuncu (sarı 285, yeşil 295, gri 305): 300 puana kadar yaklaşık 43 üretim. Her biri 14 {item:8170}, 10 {item:14047} ve 1 {item:14341} ister. Üretim başına 14 {item:8170} ve 10 {item:14047}: en pahalı kısım. {skill:165} 300 bir Legacy System eşiği.",
 }

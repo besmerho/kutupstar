@@ -122,7 +122,7 @@ return {
 
 	-- Step 19: Nesingwary's Expedition
 	-- {npc:716} Barnil Stonepot · {item:2755} Green Hills of Stranglethorn
-	["{npc:716} collects the {item:2755}: the pages drop from almost every humanoid in the jungle. Turn the pages into chapters as you go."] = "{npc:716}, {item:2755} topluyor: sayfalar ormandaki neredeyse her insansı yaratıktan düşer. Giderken sayfaları bölümlere dönüştür.",
+	["{npc:716} collects the {item:2755}: the pages drop from almost every humanoid in the jungle. Turn the pages into chapters as you go."] = "{npc:716}, {item:2755} topluyor: sayfalar ormandaki neredeyse her humanoid yaratıktan düşer. Giderken sayfaları bölümlere dönüştür.",
 	-- {npc:729} Sin'Dall
 	["keep it: {npc:729} (37) comes in the 40-50 Stranglethorn guide, at about 41"] = "sakla: {npc:729} (37) 40-50 Stranglethorn rehberinde, yaklaşık 41. seviyede gelir",
 	-- {npc:729} Sin'Dall

@@ -15,7 +15,7 @@ return {
 	-- {area:279} Dalaran
 	["Skyboat from {area:279}"] = "{area:279} şehrinden gök gemisi",
 	-- {zone:2521} Zephras Isle · {area:279} Dalaran · {zone:1456} Thunder Bluff
-	["{zone:2521} is the Skyborne starting island, open to everyone. A skyboat leaves the north side of {area:279} about every five minutes; another flies from north of {zone:1456}, and either faction may take either."] = "{zone:2521}, herkese açık Skyborne başlangıç adası. {area:279} kuzey yakasından yaklaşık beş dakikada bir bir skyboat kalkar; bir diğeri {zone:1456} kuzeyinden uçar ve iki taraf da ikisine binebilir.",
+	["{zone:2521} is the Skyborne starting island, open to everyone. A skyboat leaves the north side of {area:279} about every five minutes; another flies from north of {zone:1456}, and either faction may take either."] = "{zone:2521}, herkese açık Skyborne başlangıç adası. {area:279} kuzey yakasından yaklaşık beş dakikada bir bir gök gemisi kalkar; bir diğeri {zone:1456} kuzeyinden uçar ve iki taraf da ikisine binebilir.",
 	-- {zone:2521} Zephras Isle
 	["Skyboat to {zone:2521}"] = "Gök gemisiyle {zone:2521} adasına",
 
@@ -23,7 +23,7 @@ return {
 	-- {zone:1456} Thunder Bluff
 	["Skyboat from {zone:1456}"] = "{zone:1456} şehrinden gök gemisi",
 	-- {zone:2521} Zephras Isle · {area:17045} Skywatcher Plateau · {zone:1456} Thunder Bluff · {area:279} Dalaran
-	["{zone:2521} is the Skyborne starting island, open to everyone. A skyboat leaves the cliffs south of {area:17045}, north of {zone:1456}, about every five minutes; another flies from {area:279}, and either faction may take either."] = "{zone:2521}, herkese açık Skyborne başlangıç adası. {zone:1456} kuzeyinde, {area:17045} güneyindeki yamaçlardan yaklaşık beş dakikada bir bir skyboat kalkar; bir diğeri {area:279} kasabasından uçar ve iki taraf da ikisine binebilir.",
+	["{zone:2521} is the Skyborne starting island, open to everyone. A skyboat leaves the cliffs south of {area:17045}, north of {zone:1456}, about every five minutes; another flies from {area:279}, and either faction may take either."] = "{zone:2521}, herkese açık Skyborne başlangıç adası. {zone:1456} kuzeyinde, {area:17045} güneyindeki yamaçlardan yaklaşık beş dakikada bir bir gök gemisi kalkar; bir diğeri {area:279} kasabasından uçar ve iki taraf da ikisine binebilir.",
 
 	-- Step 3: Lotheluum Starbreeze
 	-- {npc:252359} Lotheluum Starbreeze · {area:16638} Valanaar
@@ -35,7 +35,7 @@ return {
 
 	-- Step 5: Vayn Moongaze
 	-- {npc:254151} Vayn Moongaze · {npc:257944} Elegael Thornpaw · {area:16720} Nightclaw Cavern
-	["{npc:254151}, the druids' quartermaster, waits inside their den: the cave just across the clearing north-east of {npc:257944} ({area:16720} on the map; {npc:257944} calls it the Nightfang Den). Take his ear quest now: the cultists you fight for {npc:257944} drop ears for it."] = "Druid'lerin levazımcısı {npc:254151}, inlerinin içinde bekliyor: {npc:257944} kuzeydoğusundaki açıklığın hemen karşısındaki mağara (haritada {area:16720}; {npc:257944} ona Nightfang Den diyor). Kulak görevini şimdi al: {npc:257944} için dövüştüğün tarikatçılar onun için kulak düşürür.",
+	["{npc:254151}, the druids' quartermaster, waits inside their den: the cave just across the clearing north-east of {npc:257944} ({area:16720} on the map; {npc:257944} calls it the Nightfang Den). Take his ear quest now: the cultists you fight for {npc:257944} drop ears for it."] = "Druid'lerin quartermaster'ı {npc:254151}, inlerinin içinde bekliyor: {npc:257944} kuzeydoğusundaki açıklığın hemen karşısındaki mağara (haritada {area:16720}; {npc:257944} ona Nightfang Den diyor). Kulak görevini şimdi al: {npc:257944} için dövüştüğün tarikatçılar onun için kulak düşürür.",
 
 	-- Step 6: Shadowgale Forest
 	-- {npc:257944} Elegael Thornpaw · {item:265105} Lady's Tear Moss
@@ -77,7 +77,7 @@ return {
 	-- {area:16638} Valanaar
 	["Back to {area:16638}"] = "{area:16638} kasabasına dön",
 	-- {npc:252359} Lotheluum Starbreeze · {area:16638} Valanaar · {area:16626} Gustberry Lowlands
-	["{npc:252359} waits in {area:16638}. Hand in on your way to a skyboat or to the {area:16626}."] = "{npc:252359}, {area:16638} içinde bekliyor. Bir skyboat'a ya da {area:16626} kesimine giderken teslim et.",
+	["{npc:252359} waits in {area:16638}. Hand in on your way to a skyboat or to the {area:16626}."] = "{npc:252359}, {area:16638} içinde bekliyor. Bir gök gemisine ya da {area:16626} kesimine giderken teslim et.",
 
 	-- Step 13: Friendly to Honored
 	["Friendly to Honored"] = "Friendly → Honored",

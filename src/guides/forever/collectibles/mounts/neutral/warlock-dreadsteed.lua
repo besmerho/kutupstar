@@ -44,18 +44,18 @@ return {
 	["The ritual pieces"] = "Ritüel parçaları",
 	-- {npc:14437} Gorzeeki Wildeyes · {skill:171} Alchemy · {item:8925} Crystal Vial · {skill:333} Enchanting · {item:11370} Dark Iron Ore · {skill:186} Mining · {zone:1428} Burning Steppes · {area:1584} Blackrock Depths · {skill:393} Skinning · {npc:7043} Flamescale Wyrmkin
 	-- plural, as words: Ghost Mushrooms = {item:8845} Ghost Mushroom · Large Brilliant Shards = {item:14344} Large Brilliant Shard · Dark Iron Deposits = {object:165658} Dark Iron Deposit · Black Dragonscales = {item:15416} Black Dragonscale
-	["{npc:14437} wants 10 Elixirs of Shadow Power ({skill:171}: 3 Ghost Mushrooms and a {item:8925} each), 6 Large Brilliant Shards ({skill:333}: disenchant level 51+ blue items), 25 {item:11370} ({skill:186} 230: the Dark Iron Deposits of the {zone:1428} and {area:1584}) and 35 Black Dragonscales ({skill:393}: the black dragonkin of the {zone:1428}, a few percent a kill, best from the {npc:7043}). Make or gather what your professions allow and buy the rest at the Auction House; it can take a while to find 35 scales."] = "{npc:14437} 10 Elixir of Shadow Power ({skill:171}: her biri 3 Ghost Mushroom ve bir {item:8925}), 6 Large Brilliant Shard ({skill:333}: seviye 51+ mavi eşyaları disenchant et), 25 {item:11370} ({skill:186} 230: {zone:1428} ve {area:1584} içindeki Dark Iron Deposit'ler) ve 35 Black Dragonscale ({skill:393}: {zone:1428} bölgesinin kara dragonkin'leri, öldürme başına yüzde birkaç, en iyisi {npc:7043}) istiyor. Mesleklerinin izin verdiğini yap ya da topla, geri kalanını müzayede evinden al; 35 pul bulmak biraz sürebilir.",
+	["{npc:14437} wants 10 Elixirs of Shadow Power ({skill:171}: 3 Ghost Mushrooms and a {item:8925} each), 6 Large Brilliant Shards ({skill:333}: disenchant level 51+ blue items), 25 {item:11370} ({skill:186} 230: the Dark Iron Deposits of the {zone:1428} and {area:1584}) and 35 Black Dragonscales ({skill:393}: the black dragonkin of the {zone:1428}, a few percent a kill, best from the {npc:7043}). Make or gather what your professions allow and buy the rest at the Auction House; it can take a while to find 35 scales."] = "{npc:14437} 10 Elixir of Shadow Power ({skill:171}: her biri 3 Ghost Mushroom ve bir {item:8925}), 6 Large Brilliant Shard ({skill:333}: seviye 51+ mavi eşyaları disenchant et), 25 {item:11370} ({skill:186} 230: {zone:1428} ve {area:1584} içindeki Dark Iron Deposit'ler) ve 35 Black Dragonscale ({skill:393}: {zone:1428} bölgesinin kara dragonkin'leri, öldürme başına yüzde birkaç, en iyisi {npc:7043}) istiyor. Mesleklerinin izin verdiğini yap ya da topla, geri kalanını Auction House'tan al; 35 pul bulmak biraz sürebilir.",
 	-- {item:9264} Elixir of Shadow Power
-	["{item:9264}: the Auction House"] = "{item:9264}: müzayede evi",
+	["{item:9264}: the Auction House"] = "{item:9264}: Auction House",
 	-- {item:14344} Large Brilliant Shard
-	["{item:14344}: the Auction House"] = "{item:14344}: müzayede evi",
+	["{item:14344}: the Auction House"] = "{item:14344}: Auction House",
 
 	-- Step 9: Arcanite
 	-- {npc:14437} Gorzeeki Wildeyes · {item:18629} Black Lodestone · {item:12363} Arcane Crystal · {item:12359} Thorium Bar
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar
 	["Hand the three pieces to {npc:14437}. He then wants 3 Arcanite Bars for the {item:18629}: alchemists transmute them (an {item:12363} and a {item:12359} each, on a long cooldown); everyone else buys them."] = "Üç parçayı {npc:14437} adlı NPC'ye ver. Ardından {item:18629} için 3 Arcanite Bar istiyor: simyacılar dönüşümle yapar (her biri bir {item:12363} ve bir {item:12359}, uzun bekleme süreli); diğer herkes satın alır.",
 	-- {item:12360} Arcanite Bar
-	["{item:12360}: the Auction House"] = "{item:12360}: müzayede evi",
+	["{item:12360}: the Auction House"] = "{item:12360}: Auction House",
 
 	-- Step 10: Lord Banehollow
 	-- {area:1763} Jaedenar · {area:1997} Bloodvenom Post · {zone:1448} Felwood · {area:1770} Shadow Hold · {item:18802} Shadowy Potion · {spell:23179} Taint of Shadow · {quest:7623} Lord Banehollow

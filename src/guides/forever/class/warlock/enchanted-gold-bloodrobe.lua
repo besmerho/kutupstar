@@ -28,11 +28,11 @@ return {
 	["{item:5770} and a {item:3577}"] = "{item:5770} ve bir {item:3577}",
 	-- {item:5770} Robes of Arcana · {item:2776} Gold Ore · {npc:6266} Menara Voidrender
 	-- plural, as words: Gold Bars = {item:3577} Gold Bar
-	["Tailors sew the {item:5770} from a rare pattern; miners smelt Gold Bars from {item:2776}. Everyone else buys both at the Auction House. If you wear the robe, take it off: {npc:6266} keeps it."] = "Terziler {item:5770} cübbesini nadir bir kalıptan diker; madenciler {item:2776} eritip Gold Bar yapar. Diğer herkes ikisini de müzayede evinden alır. Cübbeyi giyiyorsan çıkar: {npc:6266} onu alıkoyar.",
+	["Tailors sew the {item:5770} from a rare pattern; miners smelt Gold Bars from {item:2776}. Everyone else buys both at the Auction House. If you wear the robe, take it off: {npc:6266} keeps it."] = "Terziler {item:5770} cübbesini nadir bir kalıptan diker; madenciler {item:2776} eritip Gold Bar yapar. Diğer herkes ikisini de Auction House'tan alır. Cübbeyi giyiyorsan çıkar: {npc:6266} onu alıkoyar.",
 	-- {item:5770} Robes of Arcana
-	["{item:5770}: the Auction House"] = "{item:5770}: müzayede evi",
+	["{item:5770}: the Auction House"] = "{item:5770}: Auction House",
 	-- {item:3577} Gold Bar
-	["{item:3577}: the Auction House"] = "{item:3577}: müzayede evi",
+	["{item:3577}: the Auction House"] = "{item:3577}: Auction House",
 
 	-- Step 6: Menara Voidrender
 	-- {npc:6266} Menara Voidrender · {npc:6251} Strahad Farsan · {area:392} Ratchet · {npc:2670} Xizk Goodstitch · {area:35} Booty Bay
