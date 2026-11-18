@@ -73,8 +73,8 @@ paylaş" ("X'te"), "Umarım", "Elbette". Hal ekine bak: bir şey Discord'dan gö
 - Uzun çizgi (—) ve orta çizgi (–) **hiç**. Ara söz virgülle ya da iki cümleyle; aralık kısa çizgiyle "12-17".
   İngilizcedeki çizgiyi noktalı virgüle çevirmek kalıbı gizlemez: cümleyi yeniden kur.
 - "ve, veya, ya da, yahut" öncesinde virgül yok. "ama, fakat, ancak" öncesindeki virgül serbest.
-- Noktalı virgül: İngilizcede olmayan noktalı virgülü ekleme; iki bağımsız cümleyi noktayla ayır.
-  İngilizceden gelenler ayrı soru (HANDOFF, Open items 1).
+- Noktalı virgül (Barış, 18 Kasım): iki bağımsız cümleyi noktayla ayır, İngilizcede “;” olsa da. Kısa kuyruk ya da
+  parantez içi virgülle. Noktalı virgül yalnız içinde virgül olan öğeleri ayırırken kalır (Alliance/Horde listeleri).
 - Zarf-fiilden sonra virgül yok: "Çıkıp sola dön". Özneden sonra İngilizce alışkanlığıyla virgül yok.
 - Bitişik/ayrı: birçok, birkaç, hiçbir, herhangi bir, pek çok, bir şey, her şey, art arda, yanı sıra, ya da,
   fark etmek, kaydetmek; bağlaç "de/da" ve "ki" ayrı (çünkü, belki, sanki bitişik).
