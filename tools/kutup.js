@@ -597,8 +597,9 @@ module.exports = { extract, runChecks };
 if (require.main !== module) return;
 
 const [cmd, ...args] = process.argv.slice(2);
-if (cmd === 'check') process.exit(runChecks({ glossary: args.includes('--glossary'), dogal: args.includes('--dogal'),
-	changed: (args.find((a) => a.startsWith('--changed')) || '').replace(/^--changed=?/, '') || (args.includes('--changed') ? 'main' : '') }).problems.length ? 1 : 0);
+// exitCode, not process.exit(): exit() cuts long output (--glossary, --dogal) short when stdout is a pipe.
+if (cmd === 'check') process.exitCode = runChecks({ glossary: args.includes('--glossary'), dogal: args.includes('--dogal'),
+	changed: (args.find((a) => a.startsWith('--changed')) || '').replace(/^--changed=?/, '') || (args.includes('--changed') ? 'main' : '') }).problems.length ? 1 : 0;
 else if (cmd === 'build') build(args.includes('--install'));
 else if (cmd === 'stats') stats(args.includes('--guides'));
 else if (cmd === 'apply' && args[0]) apply(args[0]);
