@@ -17,9 +17,10 @@ return {
 	["{item:3713}, for \"Swamp Eye\" Jarl"] = "{item:3713}, \"Swamp Eye\" Jarl için",
 
 	-- Step 2: Sentry Point
-	-- {area:503} Sentry Point · {npc:4967} Archmage Tervosh
+	-- {area:503} Sentry Point · {quest:1265} The Missing Diplomat · {npc:4967} Archmage Tervosh
 	-- plural, as words: Mudrock Burrowers = {npc:4398} Mudrock Burrower
-	["Follow the road north-west out of Theramore to the watchtower at {area:503}. Mudrock Burrowers roam the marsh around it.\n{npc:4967} waits at the foot of the tower: once you have looked around, hand the quest in to him there, not in Theramore."] = "Theramore'dan kuzeybatıya çıkan yolu izleyerek {area:503} gözetleme kulesine git. Mudrock Burrower yaratıkları çevresindeki bataklıkta dolaşıyor.\n{npc:4967} kulenin dibinde bekliyor: etrafa bakındıktan sonra görevi Theramore'da değil, orada ona teslim et.",
+	-- was: ["Follow the road north-west out of Theramore to the watchtower at {area:503}. Mudrock Burrowers roam the marsh around it.\n{npc:4967} waits at the foot of the tower: once you have looked around, hand the quest in to him there, not in Theramore."] = "Folge der Straße nach Nordwesten aus Theramore hinaus zum Wachturm bei {area:503}. Schlammpanzereinbuddler streifen durch den Sumpf darum herum.\n{npc:4967} wartet am Fuß des Turms: Sobald du dich umgesehen hast, gib die Quest dort bei ihm ab, nicht in Theramore."
+	["Follow the road north-west out of Theramore to the watchtower at {area:503}. Mudrock Burrowers roam the marsh around it.\nIf {quest:1265} isn't done yet: {npc:4967} waits at the foot of the tower once you have looked around. Hand the quest in to him there, not in Theramore, and take his next errand on the spot."] = "Theramore'dan çıkan yolu kuzeybatıya, {area:503} gözetleme kulesine izle. Çevresindeki bataklıkta Mudrock Burrower yaratıkları dolaşıyor.\n{quest:1265} henüz bitmediyse: çevreye baktıktan sonra {npc:4967} kulenin dibinde bekler. Görevi Theramore'da değil, orada ona teslim edip sonraki işini hemen al.",
 	-- {npc:4967} Archmage Tervosh
 	["{npc:4967}, at the tower"] = "{npc:4967}, kulede",
 
@@ -80,38 +81,55 @@ return {
 	-- {npc:4503} Mudcrush Durtfeet
 	["The deserters camp south of the road, west of {npc:4503}'s hut."] = "Asker kaçakları yolun güneyinde, {npc:4503} kulübesinin batısında kamp kurmuş.",
 
-	-- Step 16: The Affray
-	-- {area:392} Ratchet · {area:720} Fray Island · {area:391} Merchant Coast · {npc:6236} Klannoc Macleod · {npc:6238} Big Will
-	["On the way north to {area:392}, {area:720} lies off the {area:391} south of the town: wade over the sand bar shallows. {npc:6236} sends four challengers and then {npc:6238} (level 33) at you, one at a time."] = "Kuzeye, {area:392} limanına giderken {area:720} kasabanın güneyindeki {area:391} açığında: sığ kum setinden yürüyerek geç. {npc:6236} üstüne tek tek dört rakip, ardından {npc:6238} (seviye 33) gönderir.",
+	-- Step 15: Foothold Citadel
+	-- {npc:4944} Captain Garran Vimes · {area:514} Foothold Citadel
+	["Back east along the road to Theramore: {npc:4944} takes the deserters' news on the top floor of {area:514}, and the flight master stands by its gate."] = "Yol boyunca doğuya, Theramore'a dön: kaçakların haberini {area:514} kalesinin en üst katında {npc:4944} alır, uçuş ustası da kapısının yanında duruyor.",
+	-- {npc:4944} Captain Garran Vimes
+	["{npc:4944}, on the top floor"] = "{npc:4944}, en üst katta",
+
+	-- Step 16: Fly to Ratchet
+	-- {area:392} Ratchet
+	["Fly to {area:392}"] = "{area:392} limanına uç",
+	["Theramore flight master"] = "Theramore uçuş ustası",
+
+	-- Step 18: Fly to Ratchet
+	-- {npc:6236} Klannoc Macleod · {area:720} Fray Island · {area:392} Ratchet · {area:150} Menethil Harbor
+	["{npc:6236}'s Affray first: {area:720} lies just south of {area:392}. The boat to {area:150} leaves from Theramore afterwards."] = "Önce {npc:6236} adlı NPC'nin Affray görevi: {area:720} adası {area:392} kasabasının hemen güneyinde. {area:150} limanına giden gemi sonra Theramore'dan kalkar.",
+
+	-- Step 20: The Affray
+	-- {area:720} Fray Island · {area:391} Merchant Coast · {area:392} Ratchet · {npc:6236} Klannoc Macleod · {npc:6238} Big Will
+	-- was: ["On the ride north to {area:392}, {area:720} lies off the {area:391} south of the town: wade over the sand bar shallows. {npc:6236} sends four challengers and then {npc:6238} (level 33) at you, one at a time."] = "Auf dem Ritt nach Norden nach {area:392} liegt {area:720} vor der {area:391} südlich des Orts: Wate über die Untiefen der Sandbank. {npc:6236} schickt dir nacheinander vier Herausforderer und dann {npc:6238} (Stufe 33) entgegen."
+	["{area:720} lies off the {area:391} just south of {area:392}: wade over the sand bar shallows. {npc:6236} sends four challengers and then {npc:6238} (level 33) at you, one at a time."] = "{area:720} adası, {area:392} kasabasının hemen güneyinde, {area:391} kıyısının açığında: kum setinin sığlıklarından yürüyerek geç. {npc:6236} üstüne tek tek dört rakip, ardından {npc:6238} (seviye 33) gönderir.",
 	-- {npc:6238} Big Will
 	["Defeat the challengers and {npc:6238}"] = "Rakipleri ve {npc:6238} adlı NPC'yi yen",
 	-- {npc:6236} Klannoc Macleod
 	["{npc:6236} offers The Windwatcher next (1791): the Whirlwind weapon chain, with an elite at the end, is in the Warrior class guide Whirlwind Weapon."] = "{npc:6236} sonra The Windwatcher görevini verir (1791): sonunda bir elit olan Whirlwind silah zinciri, Warrior sınıf rehberi Whirlwind Weapon'da.",
 
-	-- Step 17: Foothold Citadel
-	-- {npc:4944} Captain Garran Vimes · {area:514} Foothold Citadel
-	["The boat leaves from Theramore: report to {npc:4944} on the top floor of {area:514} on the way to the docks."] = "Tekne Theramore'dan kalkıyor: iskeleye giderken {area:514} en üst katındaki {npc:4944} yanına rapor ver.",
-	-- {npc:4944} Captain Garran Vimes
-	["{npc:4944}, on the top floor"] = "{npc:4944}, en üst katta",
+	-- Step 21: Fly to Theramore
+	["Fly to Theramore"] = "Theramore'a uç",
+	-- {area:150} Menethil Harbor
+	["Back to Theramore for the boat to {area:150}."] = "{area:150} limanına giden gemi için Theramore'a dön.",
+	-- {area:392} Ratchet
+	["{area:392} flight master"] = "{area:392} uçuş ustası",
 
-	-- Step 18: Boat to Menethil Harbor
+	-- Step 22: Boat to Menethil Harbor
 	-- {area:150} Menethil Harbor
 	["Boat to {area:150}"] = "Gemiyle {area:150} limanına",
 
-	-- Step 19: Fly to Stormwind
+	-- Step 23: Fly to Stormwind
 	-- {zone:1453} Stormwind
 	["Fly to {zone:1453}"] = "{zone:1453} şehrine uç",
 	-- {area:150} Menethil Harbor
 	["{area:150} flight master"] = "{area:150} uçuş ustası",
 
-	-- Step 21: Riding at 40
+	-- Step 25: Riding at 40
 	["Riding at 40"] = "Seviye 40'ta binicilik",
 	-- {npc:4732} Randal Hunter · {area:88} Eastvale Logging Camp · {zone:1429} Elwynn Forest · {npc:384} Katie Hunter
 	["At 40 with 100 gold you can learn to ride, and learning it gives you a mount. {npc:4732} teaches Humans at {area:88} in eastern {zone:1429}, beside {npc:384}'s horses. Forever may let any race learn from any riding trainer (unconfirmed). Collectibles, Mounts · Level 40 lists every colour."] = "40'ta 100 altınla binmeyi öğrenebilirsin, öğrenmek sana bir binek de verir. {npc:4732}, {zone:1429} doğusundaki {area:88} kampında, {npc:384} adlı NPC'nin atlarının yanında Human'lara öğretir. Forever her ırkın her binicilik eğitmeninden öğrenmesine izin veriyor olabilir (doğrulanmadı). Collectibles, Mounts · Level 40 her rengi listeler.",
 	-- {npc:384} Katie Hunter
 	["{npc:384}: other colours, 20g"] = "{npc:384}: diğer renkler, 20 altın",
 
-	-- Step 22: Riding at 40
+	-- Step 26: Riding at 40
 	-- {npc:265756} Genn Fairweather · {area:17684} Fairweather Stables · {area:16638} Valanaar · {area:279} Dalaran
 	["At 40 with 100 gold you can learn to ride, and learning it gives you a mount. Skyborne learn it from {npc:265756}, the stablemaster and riding trainer at the {area:17684} in {area:16638} on Zephras Isle, who also sells the Galestriders: the skyboat to the isle leaves the north side of {area:279} about every five minutes. Collectibles, Mounts · Level 40 lists the Galestriders."] = "Seviye 40'ta 100 altınla binmeyi öğrenebilirsin, öğrenince bir binek de alırsın. Skyborne'lar bunu Zephras Isle'daki {area:16638} kasabasında, {area:17684} ahırlarındaki ahır ustası ve binicilik eğitmeni {npc:265756} ile öğrenir. O Galestrider'ları da satar: adaya giden gökgemisi {area:279} şehrinin kuzey yakasından yaklaşık beş dakikada bir kalkar. Koleksiyon, Binekler · Seviye 40 Galestrider'ları listeler.",
 	-- {npc:265756} Genn Fairweather · {area:17684} Fairweather Stables · {area:16638} Valanaar
@@ -119,94 +137,99 @@ return {
 	-- {area:279} Dalaran
 	["Skyboat to Zephras Isle: the north side of {area:279}, about every five minutes."] = "Zephras Isle'a gökgemisi: {area:279} şehrinin kuzey yakası, yaklaşık beş dakikada bir.",
 
-	-- Step 23: Boat to Booty Bay
+	-- Step 27: Boat to Booty Bay
 	-- {area:35} Booty Bay
 	["Boat to {area:35}"] = "Gemiyle {area:35} limanına",
-	-- {zone:1413} Barrens · {area:392} Ratchet · {area:35} Booty Bay
-	["Head north-west into the {zone:1413} and up the coast to {area:392}: the boat to {area:35} leaves from its dock, and {area:392}'s gryphon master stands just above it."] = "Kuzeybatıya, {zone:1413} bölgesine ve kıyı boyunca {area:392} limanına git: {area:35} gemisi iskelesinden kalkar, {area:392} grifon ustası da hemen yukarısında duruyor.",
+	-- {area:35} Booty Bay · {area:392} Ratchet · {zone:1413} Barrens
+	["The boat to {area:35} leaves from {area:392}'s dock, below the flight master. Without the {area:392} flight path: follow the road west out of the marsh into the {zone:1413} and north up the coast to {area:392}, and learn it there."] = "{area:35} limanına giden gemi, uçuş ustasının aşağısındaki {area:392} iskelesinden kalkar. {area:392} uçuş noktası yoksa: bataklıktan çıkan yolu batıya, {zone:1413} bölgesine izleyip kıyı boyunca kuzeye, {area:392} kasabasına çık ve uçuş noktasını orada aç.",
 
-	-- Step 24: Boat to Booty Bay
+	-- Step 28: Boat to Booty Bay
 	-- {npc:4732} Randal Hunter · {area:88} Eastvale Logging Camp · {zone:1429} Elwynn Forest
 	["Level 40 with 100 gold later on? {npc:4732} teaches riding at {area:88} in {zone:1429}: Collectibles, Mounts · Level 40 has the trip."] = "Daha sonra 40. seviye ve 100 altının mı var? {npc:4732}, {zone:1429} bölgesindeki {area:88} kampında binicilik öğretir: Koleksiyonlar, Binekler · Seviye 40 yolculuğu içerir.",
 
-	-- Step 26: Fly to Booty Bay
+	-- Step 30: Fly to Booty Bay
 	-- {area:35} Booty Bay
 	["Fly to {area:35}"] = "{area:35} limanına uç",
 	-- {area:42} Darkshire
 	["{area:42} flight master"] = "{area:42} uçuş ustası",
 
-	-- Step 27: Booty Bay
+	-- Step 31: Booty Bay
 	-- {npc:773} Krazek
 	["{npc:773}, upstairs"] = "{npc:773}, üst katta",
 	-- {npc:770} Corporal Kaleb · {area:99} Rebel Camp
 	["for {npc:770} at the {area:99}, on the northern loop"] = "{area:99} kampındaki {npc:770} için, kuzey turunda",
 	-- {npc:2494} Privateer Bloads · {area:35} Booty Bay
-	["{npc:2494}: keep it, its naga (43-44) wait for the level-48 {area:35} stop"] = "{npc:2494}: sakla, nagaları (43-44) 48. seviyedeki {area:35} durağını bekler",
+	["{npc:2494}' Akiris by the Bundle waits for the level-48 {area:35} stop (its naga are 43-44): leave it for now."] = "{npc:2494} adlı NPC'nin Akiris by the Bundle görevi 48. seviyedeki {area:35} durağını bekliyor (nagaları 43-44): şimdilik bırak.",
 	-- {npc:2487} Fleet Master Seahorn · {quest:669} Sunken Treasure · {area:327} Faldir's Cove
 	["{npc:2487}, top floor: {quest:669}, if you did {area:327} with a group"] = "{npc:2487}, en üst kat: {area:327} koyunu grupla yaptıysan {quest:669}",
 	-- {npc:737} Kebok
 	["{npc:737}, upstairs: the Skullsplitter trolls, on the northern loop"] = "{npc:737}, üst katta: kuzey turunda Skullsplitter troll'leri",
-	-- {npc:2498} Crank Fizzlebub · {area:35} Booty Bay
-	["{npc:2498}, inside: keep it, Zanzil's village (43-44) waits for the level-48 {area:35} stop"] = "{npc:2498}, içeride: sakla, Zanzil'in köyü (43-44) 48. seviyedeki {area:35} durağını bekler",
+	-- {npc:737} Kebok · {area:37} Lake Nazferiti
+	-- plural, as words: Tumbled Crystals = {item:4106} Tumbled Crystal
+	["{npc:737}: the Tumbled Crystals, at {area:37} on the northern loop"] = "{npc:737}: kuzey turunda {area:37} gölünde Tumbled Crystal taşları",
+	-- {npc:2498} Crank Fizzlebub
+	["{npc:2498}'s Zanzil's Secret waits for the same stop (Zanzil's village is 43-44): leave it for now."] = "{npc:2498} adlı NPC'nin Zanzil's Secret görevi aynı durağı bekliyor (Zanzil'in köyü 43-44): şimdilik bırak.",
 	["Seahorn's next errand goes back to Arathi: skip it."] = "Seahorn'un sonraki işi seni Arathi'ye geri gönderir: atla.",
+
+	-- Step 32: Kebok
+	-- {npc:737} Kebok
+	-- plural, as words: Tumbled Crystals = {item:4106} Tumbled Crystal
+	["Already have all eight Tumbled Crystals? Hand them to {npc:737} now."] = "Sekiz Tumbled Crystal'ın hepsi sende mi? Şimdi {npc:737} adlı NPC'ye ver.",
+
+	-- Step 33: Booty Bay
 	-- {npc:2542} Catelyn the Blade
 	["{npc:2542}, upstairs"] = "{npc:2542}, üst katta",
 	["Upstairs"] = "Üst katta",
 
-	-- Step 28: Bloodsail camp
+	-- Step 34: Bloodsail camp
 	["Bloodsail camp"] = "Bloodsail kampı",
 	-- plural, as words: Bloodsail Mages = {npc:1562} Bloodsail Mage
 	["Leave town by the tunnel and follow the coast north; the letter lies in the Bloodsail camp on the beach, where \"Pretty Boy\" Duncan walks.\nCareful: the Bloodsail Mages and Warlocks here are level 40-43 and cast from range: pull one at a time and fight with your back to the open beach."] = "Kasabadan tünelden çık ve kıyıyı kuzeye izle. Mektup, \"Pretty Boy\" Duncan'ın dolaştığı kumsaldaki Bloodsail kampında.\nDikkat: buradaki Bloodsail Mage ve Warlock yaratıkları 40-43. seviye ve uzaktan büyü yapar: tek tek çek ve sırtını açık kumsala vererek dövüş.",
 
-	-- Step 29: Booty Bay
-	-- {area:43} Wild Shore · {area:35} Booty Bay
-	["keep it: the {area:43} camp's charts and Swashbucklers (41-43) wait for the level-48 {area:35} stop"] = "sakla: {area:43} kampının haritaları ve Swashbuckler'ları (41-43) 48. seviyedeki {area:35} durağını bekler",
+	-- Step 35: Booty Bay
+	-- {quest:597} The Bloodsail Buccaneers · {area:35} Booty Bay · {area:43} Wild Shore
+	["Seahorn's next task, {quest:597}, waits for the level-48 {area:35} stop with the {area:43} camp (41-43): leave it for now."] = "Seahorn'un sonraki görevi {quest:597}, {area:43} kampıyla (41-43) birlikte 48. seviyedeki {area:35} durağını bekliyor: şimdilik bırak.",
 	-- {npc:2488} Deeg
 	["{npc:2488}, on the top floor"] = "{npc:2488}, en üst katta",
 	-- {npc:2624} Gazban
 	["{npc:2624} swims off the north-west coast, on the northern loop"] = "{npc:2624} kuzeybatı kıyısının açığında yüzüyor, kuzey turunda",
 
-	-- Step 30: Bloodsail pirates: kill these as you meet them
-	["Bloodsail pirates: kill these as you meet them"] = "Bloodsail korsanları: bunları karşılaştıkça öldür",
-	-- {npc:2493} Dizzy One-Eye · {area:43} Wild Shore
-	["Every Bloodsail drops Snuff and one of them carries {npc:2493}'s eye: take them from the Raiders and Mages (39-41) at the Bloodsail camp on the beach just north of town, where you found the letter. Leave the {area:43} camp south of town (Warlocks and Swashbucklers 41-43) for the level-48 visit."] = "Her Bloodsail Snuff düşürür, biri de {npc:2493} için gözü taşıyor: onları mektubu bulduğun, kasabanın hemen kuzeyindeki kumsalda bulunan Bloodsail kampındaki Raider ve Mage yaratıklarından (39-41) al. Kasabanın güneyindeki {area:43} kampını (Warlock ve Swashbuckler'lar 41-43) 48. seviye ziyaretine bırak.",
-
-	-- Step 31: Booty Bay
-	-- {npc:2486} Fin Fizracket · {npc:1514} Mokk the Savage · {area:35} Booty Bay
-	["{npc:2486}'s Stranglethorn Fever ({npc:1514}) waits for the level-48 {area:35} stop: leave it for now."] = "{npc:2486} için Stranglethorn Fever ({npc:1514}) 48. seviyedeki {area:35} durağını bekler: şimdilik bırak.",
-	-- {area:35} Booty Bay · {area:43} Wild Shore
-	["Seahorn's Bloodsail Buccaneers: keep it for the level-48 {area:35} stop, with the {area:43} camp."] = "Seahorn'un Bloodsail Buccaneers görevi: {area:43} kampıyla birlikte 48. seviyedeki {area:35} durağı için sakla.",
-
-	-- Step 32: Booty Bay
-	["You missed this on the route's earlier visit here: it comes first now. It is quick and opens the quests after it."] = "Rotanın buraya önceki uğrayışında bunu kaçırdın: şimdi önce bu geliyor. Kısa sürer, sonraki görevleri de açar.",
+	-- Step 36: Booty Bay
+	["You missed this on the route's earlier visit here: take it now, before the Bloodsail camp. Its gorillas live on the hills just above the camp."] = "Rotanın buraya önceki uğrayışında bunu kaçırdın: Bloodsail kampından önce şimdi al. Gorilleri kampın hemen yukarısındaki tepelerde yaşıyor.",
 	["\"Sea Wolf\" MacKinley, on the top floor"] = "\"Sea Wolf\" MacKinley, en üst katta",
 
-	-- Step 33: Gorilla hills
+	-- Step 37: Bloodsail pirates: kill these as you meet them
+	["Bloodsail pirates: kill these as you meet them"] = "Bloodsail korsanları: bunları karşılaştıkça öldür",
+	-- {npc:2493} Dizzy One-Eye · {area:43} Wild Shore
+	-- was: ["Every Bloodsail drops Snuff and one of them carries {npc:2493}'s eye: take them from the Raiders and Mages (39-41) at the Bloodsail camp on the beach just north of town, where you found the letter. Leave the {area:43} camp south of town (Warlocks and Swashbucklers 41-43) for the level-48 visit."] = "Jeder Blutsegelbukanier lässt Schnupftabak fallen, und einer von ihnen trägt das Auge von {npc:2493}: Hol sie dir von den Plünderern und Magiern (39-41) im Lager der Blutsegelbukaniere am Strand direkt nördlich des Ortes, wo du den Brief gefunden hast. Spar dir das Lager an der {area:43} südlich des Ortes (Hexenmeister und Swashbuckler 41-43) für den Besuch auf Stufe 48 auf."
+	["Every Bloodsail drops Snuff and one of them carries {npc:2493}'s eye: take them from the Raiders and Mages (39-41) at the Bloodsail camp on the beach just north of town, where you found the letter. Leave the {area:43} camp south of town (Warlocks and Swashbucklers 41-43) for the level-48 visit.\nCareful: Rippa (44, a rare crocolisk) swims the shore beside the camp: stay out of the water."] = "Her Bloodsail Snuff düşürür, birinde de {npc:2493} adlı NPC'nin gözü var: onları mektubu bulduğun yerde, kasabanın hemen kuzeyindeki kumsalda bulunan Bloodsail kampının Raider ve Mage yaratıklarından (39-41) al. Kasabanın güneyindeki {area:43} kampını (Warlock ve Swashbuckler'lar 41-43) 48. seviyedeki ziyarete bırak.\nDikkat: Rippa (44, rare bir crocolisk) kampın yanındaki kıyıda yüzüyor: sudan uzak dur.",
+
+	-- Step 38: Gorilla hills
 	["Gorilla hills"] = "Goril tepeleri",
 	-- plural, as words: Elder Mistvale Gorillas = {npc:1557} Elder Mistvale Gorilla
-	["Head inland to the Mistvale gorilla hills. Elder Mistvale Gorillas drop the giblets."] = "İç kesimlere, Mistvale goril tepelerine git. Elder Mistvale Gorilla yaratıkları sakatatı düşürür.",
+	["From the Bloodsail camp, climb into the Mistvale hills just east of it: the Elder Mistvale Gorillas (40) there drop the giblets."] = "Bloodsail kampından hemen doğusundaki Mistvale tepelerine tırman: oradaki Elder Mistvale Gorilla yaratıkları (40) sakatatı düşürür.",
 
-	-- Step 34: Booty Bay
-	["Head back down to town; Shaky stands at the tunnel mouth."] = "Kasabaya geri in. Shaky tünel ağzında duruyor.",
+	-- Step 39: Booty Bay
+	-- {npc:2488} Deeg
+	["Back down to town: Shaky stands at the tunnel mouth; {npc:2488} and MacKinley are on the top floor."] = "Kasabaya geri in: Shaky tünelin ağzında duruyor, {npc:2488} ve MacKinley en üst katta.",
+	-- {npc:2486} Fin Fizracket · {npc:1514} Mokk the Savage · {area:35} Booty Bay
+	["{npc:2486}'s Stranglethorn Fever ({npc:1514}) waits for the level-48 {area:35} stop: leave it for now."] = "{npc:2486} için Stranglethorn Fever ({npc:1514}) 48. seviyedeki {area:35} durağını bekler: şimdilik bırak.",
+	-- {area:35} Booty Bay
+	["MacKinley's Voodoo Dues waits for the level-48 {area:35} stop, with Zanzil's village: leave it for now."] = "MacKinley'nin Voodoo Dues görevi, Zanzil'in köyüyle birlikte 48. seviyedeki {area:35} durağını bekliyor: şimdilik bırak.",
+
+	-- Step 40: Stoley's Debt
+	-- {quest:2872} Stoley's Debt · {area:35} Booty Bay
+	["\"Sea Wolf\" MacKinley, on the top floor, offers {quest:2872} from level 40 (under 40, this guide's last {area:35} stop offers it again)."] = "\"Sea Wolf\" MacKinley en üst katta, seviye 40'tan itibaren {quest:2872} görevini veriyor (40'ın altındaysan bu rehberin son {area:35} durağında yine veriyor).",
 	-- {zone:1446} Tanaris
-	["for Stoley in {zone:1446}: keep it; on the top floor"] = "{zone:1446} bölgesindeki Stoley için: sakla, en üst katta",
-	-- {area:35} Booty Bay
-	["\"Sea Wolf\" MacKinley: keep it, for the level-48 {area:35} stop, with Zanzil's village"] = "\"Sea Wolf\" MacKinley: sakla, Zanzil'in köyüyle birlikte 48. seviyedeki {area:35} durağı için",
+	["\"Sea Wolf\" MacKinley: for Stoley in {zone:1446}, keep it"] = "\"Sea Wolf\" MacKinley: {zone:1446} bölgesindeki Stoley için, sakla",
 
-	-- Step 35: Cortello's scroll
-	["Cortello's scroll"] = "Cortello'nun parşömeni",
-	-- {area:35} Booty Bay
-	["Optional: Cortello's scroll lies inside one of the three Bloodsail ships anchored off the coast just south of {area:35}, on a middle or lower deck, and is not always on the same ship. Their crews are 42-45 pirates: clear your way from the edge, one at a time, and leave the captains (45-48), whom the route comes back for at 48."] = "İsteğe bağlı: Cortello'nun parşömeni, {area:35} limanının hemen güneyinde kıyının açığında demirli üç Bloodsail gemisinden birinin içinde, orta ya da alt güvertede. Her zaman aynı gemide değil. Tayfaları 42-45 korsanlar: kenardan başlayarak tek tek temizleyerek ilerle ve rotanın 48'de geri döneceği kaptanları (45-48) rahat bırak.",
-	-- {zone:1435} Swamp of Sorrows
-	["for the {zone:1435} later"] = "daha sonra {zone:1435} için",
-
-	-- Step 36: Jungle Stalkers
+	-- Step 41: Jungle Stalkers
 	-- plural, as words: Jungle Stalkers = {npc:687} Jungle Stalker
 	["Jungle Stalkers"] = "Jungle Stalker yaratıkları",
 	-- plural, as words: Jungle Stalkers = {npc:687} Jungle Stalker
 	["The Jungle Stalkers roam the slopes west of the mine."] = "Jungle Stalker yaratıkları madenin batısındaki yamaçlarda dolaşıyor.",
 
-	-- Step 37: Zul'Mamwe's Mystics and the Shadowmaw Panthers
+	-- Step 42: Zul'Mamwe's Mystics and the Shadowmaw Panthers
 	-- plural, as words: Shadowmaw Panthers = {npc:684} Shadowmaw Panther
 	["Zul'Mamwe's Mystics and the Shadowmaw Panthers"] = "Zul'Mamwe Mystic'leri ve Shadowmaw Panther yaratıkları",
 	-- {npc:739} Brother Nimetz
@@ -216,7 +239,7 @@ return {
 	-- plural, as words: Skullsplitter Mystics = {npc:780} Skullsplitter Mystic
 	["{item:2466}, from the Skullsplitter Mystics"] = "{item:2466}, Skullsplitter Mystic yaratıklarından",
 
-	-- Step 38: The north-west coast
+	-- Step 43: The north-west coast
 	["The north-west coast"] = "Kuzeybatı kıyısı",
 	-- {npc:2624} Gazban · {item:4034} Stone of the Tides
 	-- plural, as words: Giant Clams = {object:2744} Giant Clam
@@ -224,28 +247,30 @@ return {
 	-- {item:4611} Blue Pearl
 	["{item:4611}; underwater"] = "{item:4611}, su altında",
 
-	-- Step 39: Sin'Dall
+	-- Step 44: Sin'Dall
 	-- {npc:729} Sin'Dall
 	["North-east from the bay toward Nesingwary's camp: {npc:729}, the great tiger (37), lairs on the hilltop just south-west of the camp."] = "Koydan kuzeydoğuya, Nesingwary'nin kampına doğru: büyük kaplan {npc:729} (37), kampın hemen güneybatısındaki tepede inini kurmuş.",
 
-	-- Step 40: Hemet Nesingwary
+	-- Step 45: Hemet Nesingwary
 	-- {npc:718} Sir S. J. Erlgadin
 	["{npc:718}, beside him"] = "{npc:718}, onun yanında",
-	-- {npc:717} Ajeck Rouack
-	["{npc:717}, beside them"] = "{npc:717}, onların yanında",
 
-	-- Step 43: Arbor Tarantula
+	-- Step 46: Ajeck Rouack
+	-- {npc:717} Ajeck Rouack
+	["{npc:717}, beside the other hunters"] = "{npc:717}, diğer avcıların yanında",
+
+	-- Step 49: Arbor Tarantula
 	-- {npc:217588} Arbor Tarantula · {area:99} Rebel Camp · {npc:217412} Amaryllis Webb · {item:213565} Entomology Starter Kit
 	["An {npc:217588} crawls in the jungle south-east of Nesingwary's camp, on the way to the {area:99}: catch one with the tool from {npc:217412}'s {item:213565}."] = "Nesingwary'nin kampının güneydoğusundaki ormanda, {area:99} kampına giderken bir {npc:217588} geziniyor: {npc:217412} adlı NPC'nin {item:213565} setindeki aletle bir tane yakala.",
 
-	-- Step 44: Rebel Camp
+	-- Step 50: Rebel Camp
 	["Head north-east past Nesingwary's camp and follow the road north to the camp at the top of the vale."] = "Kuzeydoğuya, Nesingwary'nin kampını geç ve yolu kuzeye, vadinin tepesindeki kampa izle.",
 
-	-- Step 45: Brother Nimetz
+	-- Step 51: Brother Nimetz
 	-- {npc:739} Brother Nimetz · {area:301} Savage Coast · {npc:2277} Loremaster Dibbs · {area:271} Southshore · {zone:1418} Badlands · {zone:1425} Hinterlands
 	["{npc:739}: the {area:301} report bundle for {npc:2277} in {area:271}, on the {zone:1418} & {zone:1425} guide: keep it"] = "{npc:739}: {zone:1418} ve {zone:1425} rehberinde {area:271} kasabasındaki {npc:2277} için {area:301} rapor destesi: sakla",
 
-	-- Step 46: Kurzen's Compound
+	-- Step 52: Kurzen's Compound
 	-- {area:99} Rebel Camp · {area:101} Kurzen's Compound · {npc:218230} Wendel Mathers · {npc:813} Colonel Kurzen
 	-- plural, as words: Kurzen Subchiefs = {npc:978} Kurzen Subchief
 	["East from the {area:99} to {area:101}: {npc:218230} is caged at its western edge. The Kurzen Subchiefs (35-36) and Elites (36-37) carry his cage key; the fighter's uniform lies in a supply crate in the compound's eastern part.\nCareful: {npc:813}, an elite of 39-40, stands at the compound's north end beside three of the Subchiefs: take the key from the Subchiefs and Elites further south and leave him be."] = "{area:99} kampından doğuya, {area:101} yerleşkesine git: {npc:218230} batı kenarında kafeste. Kafes anahtarını Kurzen Subchief (35-36) ve Elite (36-37) yaratıkları taşıyor. Dövüşçü üniforması yerleşkenin doğu kısmındaki bir erzak sandığında.\nDikkat: 39-40. seviye elit {npc:813}, yerleşkenin kuzey ucunda üç Subchief'in yanında duruyor: anahtarı daha güneydeki Subchief ve Elite'lerden al ve ona bulaşma.",
@@ -261,11 +286,16 @@ return {
 	-- {npc:218229} Captain Aransas · {area:35} Booty Bay
 	["For {npc:218229} in {area:35}, at the end of the jungle loop"] = "Orman turunun sonunda {area:35} limanındaki {npc:218229} için",
 
-	-- Step 47: Panther Mastery
+	-- Step 53: Lake Nazferiti
+	-- {area:37} Lake Nazferiti
+	-- plural, as words: Venture Co. Geologists = {npc:1096} Venture Co. Geologist · Tumbled Crystals = {item:4106} Tumbled Crystal · Venture Co. Agents = {npc:260429} Venture Co. Agent · Shadowmaw Panthers = {npc:684} Shadowmaw Panther
+	["Head south from the compound to {area:37}. The Venture Co. Geologists in the shore camps carry the Tumbled Crystals; Venture Co. Agents (39) walk among them. Stay on the shore: stealthed Shadowmaw Panthers prowl the jungle south and east of the lake."] = "Yerleşkeden güneye, {area:37} gölüne git. Kıyı kamplarındaki Venture Co. Geologist yaratıkları Tumbled Crystal taşıyor, aralarında Venture Co. Agent yaratıkları (39) dolaşıyor. Kıyıda kal: gölün güneyindeki ve doğusundaki ormanda gizlenmiş Shadowmaw Panther yaratıkları dolaşıyor.",
+
+	-- Step 54: Panther Mastery
 	-- {npc:728} Bhag'thera
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:728} is a level 40 elite: most classes solo it at level 42, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:728}, seviye 40 bir elit: çoğu sınıf seviye 42 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
-	-- Step 48: Ruins of Zul'Mamwe: kill these as you meet them
+	-- Step 55: Ruins of Zul'Mamwe: kill these as you meet them
 	-- {area:103} Ruins of Zul'Mamwe
 	["{area:103}: kill these as you meet them"] = "{area:103}: bunları karşılaştıkça öldür",
 	-- {area:310} Crystalvein Mine
@@ -274,132 +304,163 @@ return {
 	-- {item:1524} Skullsplitter Tusk
 	["{item:1524}, from the trolls of the ruins"] = "{item:1524}, harabelerdeki trollerden",
 
-	-- Step 49: Raptor Mastery
+	-- Step 56: Raptor Mastery
 	-- {npc:730} Tethis
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:730} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:730}, seviye 43 bir elit: çoğu sınıf seviye 45 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
-	-- Step 53: Big Game Hunter
+	-- Step 60: Big Game Hunter
 	-- {npc:731} King Bangalash
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:731} is a level 43 elite: most classes solo it at level 45, but you may need help. Skip it if you are alone: the route has you grind the XP back.\nCareful: Tigers and stealthed shadowmaw panthers roam close to him. Clear them before you pull him. When he is pulled, {npc:731} calls for help from creatures within 20 yd."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:731}, seviye 43 bir elit: çoğu sınıf seviye 45 olunca onu tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.\nDikkat: Yakınında kaplanlar ve gizlenmiş shadowmaw panterleri dolaşıyor. Onu çekmeden önce onları temizle. Çekildiğinde {npc:731} 20 yarda içindeki yaratıklardan yardım çağırır.",
 
-	-- Step 55: Booty Bay
+	-- Step 62: Booty Bay
 	-- {area:35} Booty Bay
 	["Follow the road south to {area:35}."] = "Yolu güneye, {area:35} limanına izle.",
 	-- {npc:737} Kebok
 	["{npc:737}, upstairs"] = "{npc:737}, üst katta",
+
+	-- Step 63: Kebok
+	-- {area:37} Lake Nazferiti
+	["The crystals gathered at {area:37}"] = "{area:37} gölünde toplanan kristaller",
+
+	-- Step 64: Booty Bay
 	-- {npc:773} Krazek · {quest:2864} Tran'rek · {zone:1446} Tanaris
 	["{npc:773}: for {quest:2864} in {zone:1446}, keep it"] = "{npc:773}: {zone:1446} bölgesindeki {quest:2864} için, sakla",
 
-	-- Step 56: Fly to Stormwind
+	-- Step 65: Stoley's Debt
+	-- {quest:2872} Stoley's Debt
+	["If you didn't take {quest:2872} on the earlier stop: \"Sea Wolf\" MacKinley, on the top floor."] = "{quest:2872} görevini önceki durakta almadıysan: \"Sea Wolf\" MacKinley, en üst katta.",
+
+	-- Step 66: Fly to Stormwind
 	-- {area:35} Booty Bay
 	["{area:35} flight master"] = "{area:35} uçuş ustası",
 
-	-- Step 57: Stormwind
+	-- Step 67: Stormwind
 	-- {npc:1141} Angus Stern · {object:2169} Blue Recluse · {npc:5384} Brohann Caskbelly · {object:28027} Dwarven District
 	["{npc:1141} cooks in the {object:2169}; {npc:5384} is in the {object:28027}."] = "{npc:1141}, {object:2169} içinde yemek pişiriyor. {npc:5384} {object:28027} semtinde.",
 	-- {npc:5694} High Sorcerer Andromath · {npc:5464} Watchmaster Sorigal · {area:42} Darkshire
 	["{npc:5694}: for {npc:5464} in {area:42}, on the way to the swamp"] = "{npc:5694}: bataklığa giden yolda, {area:42} kasabasındaki {npc:5464} için",
 
-	-- Step 58: Stormwind
+	-- Step 68: Stormwind
 	-- {npc:1440} Milton Sheaf · {object:2117} Stormwind Keep
 	["{npc:1440}, the Royal Library in {object:2117}"] = "{npc:1440}, {object:2117} kalesindeki Royal Library",
 
-	-- Step 60: Paladin: The Tome of Nobility
+	-- Step 70: Paladin: The Tome of Nobility
 	-- {quest:1661} The Tome of Nobility
 	["Paladin: {quest:1661}"] = "Paladin: {quest:1661}",
 	-- {npc:6171} Duthorian Rall
 	["{npc:6171}, in the Cathedral of Light"] = "{npc:6171}, Cathedral of Light içinde",
 
-	-- Step 61: Stormwind City
+	-- Step 71: Stormwind City
 	["Stormwind City"] = "Stormwind City",
 
-	-- Step 62: Warlock: Summon Felsteed
+	-- Step 72: Warlock: Summon Felsteed
 	-- {quest:4488} Summon Felsteed
 	["Warlock: {quest:4488}"] = "Warlock: {quest:4488}",
 	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {npc:6251} Strahad Farsan · {area:392} Ratchet
 	["{npc:461}, in the {object:2164}: {npc:6251} in {area:392} takes it at the end of the next guide"] = "{npc:461}, {object:2164} meyhanesinde: sonraki rehberin sonunda {area:392} limanındaki {npc:6251} teslim alır",
 
-	-- Step 64: Fly to Rut'theran Village
+	-- Step 74: Fly to Rut'theran Village
 	-- {area:702} Rut'theran Village
 	["Fly to {area:702}"] = "Uç: {area:702}",
 	-- {area:442} Auberdine
 	["{area:442} flight master"] = "{area:442} uçuş ustası",
 
-	-- Step 67: Riding at 40
+	-- Step 77: Riding at 40
 	-- {npc:4753} Jartsam · {zone:1457} Darnassus · {npc:4730} Lelanai · {area:17203} Stormwind Harbor · {area:442} Auberdine · {area:702} Rut'theran Village · {npc:4732} Randal Hunter · {area:88} Eastvale Logging Camp · {zone:1429} Elwynn Forest
 	["At 40 with 100 gold you can learn to ride, and learning it gives you a mount. {npc:4753} teaches Night Elves in {zone:1457}, beside {npc:4730}'s sabers: the boat from {area:17203} to {area:442}, then the flight to {area:702}. Forever may let any race learn from any riding trainer (unconfirmed), such as {npc:4732} at {area:88} in {zone:1429}. Collectibles, Mounts · Level 40 lists every colour."] = "40'ta 100 altınla binmeyi öğrenebilirsin, öğrenmek sana bir binek de verir. {npc:4753}, {zone:1457} şehrinde, {npc:4730} adlı NPC'nin saber'larının yanında Night Elf'lere öğretir: {area:17203} limanından {area:442} köyüne tekne, sonra {area:702} köyüne uçuş. Forever her ırkın her binicilik eğitmeninden öğrenmesine izin veriyor olabilir (doğrulanmadı). Örneğin {zone:1429} içindeki {area:88} kampında {npc:4732}. Collectibles, Mounts · Level 40 her rengi listeler.",
 	-- {npc:4730} Lelanai
 	["{npc:4730}: other colours, 20g"] = "{npc:4730}: diğer renkler, 20 altın",
 
-	-- Step 69: Fly to Auberdine
+	-- Step 79: Fly to Auberdine
 	-- {area:442} Auberdine
 	["Fly to {area:442}"] = "Uç: {area:442}",
 	-- {area:702} Rut'theran Village
 	["{area:702} flight master"] = "{area:702} uçuş ustası",
 
-	-- Step 70: Boat to Stormwind Harbor
+	-- Step 80: Boat to Stormwind Harbor
 	-- {area:17203} Stormwind Harbor
 	["Boat to {area:17203}"] = "Gemiyle: {area:17203}",
 
-	-- Step 71: Fly to Darkshire
+	-- Step 81: Fly to Darkshire
 	-- {area:42} Darkshire
 	["Fly to {area:42}"] = "{area:42} kasabasına uç",
 	-- {zone:1453} Stormwind
 	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 
-	-- Step 72: Darkshire
+	-- Step 82: Darkshire
 	-- {npc:5464} Watchmaster Sorigal
 	["{npc:5464}, by the flight master"] = "{npc:5464}, uçuş ustasının yanında",
 
-	-- Step 74: Misty Valley
+	-- Step 84: Misty Valley
 	["The scroll lies in the marsh north of Biggs. The Swampwalkers north of it can drop Khadgar's essays."] = "Tomar Biggs'in kuzeyindeki bataklıkta duruyor. Tomarın kuzeyindeki Swampwalker yaratıkları Khadgar'ın denemelerini düşürebilir.",
 
-	-- Step 76: Cortello's Riddle
-	-- {npc:217412} Amaryllis Webb · {quest:93176} My Little Friends
-	["{npc:217412}: {quest:93176}, from 30-40/05-arathi-highlands"] = "{npc:217412}: {quest:93176}, 30-40/05-arathi-highlands rehberinden",
+	-- Step 85: Amaryllis Webb
+	-- {npc:217412} Amaryllis Webb · {quest:93176} My Little Friends · {zone:1417} Arathi Highlands
+	["{npc:217412}: {quest:93176}, from the {zone:1417} guide"] = "{npc:217412}: {zone:1417} rehberinden {quest:93176}",
 
-	-- Step 77: Watcher Biggs
+	-- Step 86: Watcher Biggs
 	-- {npc:5476} Watcher Biggs
 	["{npc:5476} stands by the road junction in the west of the swamp."] = "{npc:5476}, bataklığın batısındaki yol kavşağının yanında duruyor.",
 
-	-- Step 78: The sunken temple
+	-- Step 87: The sunken temple
 	["The sunken temple"] = "Batık tapınak",
 	-- {area:74} Pool of Tears
 	-- plural, as words: Tangled Horrors = {npc:766} Tangled Horror
 	["Head east; the Tangled Horrors along the way also drop the essays. Search the edge of the {area:74}, where the temple's ruins break the water."] = "Doğuya git. Yol üstündeki Tangled Horror yaratıkları da denemeleri düşürür. Tapınağın harabelerinin sudan yükseldiği {area:74} kenarını ara.",
 
-	-- Step 79: Misty Reed Strand
+	-- Step 88: Misty Reed Strand
 	-- plural, as words: Silt Crawlers = {npc:922} Silt Crawler · Monstrous Crawlers = {npc:1088} Monstrous Crawler
 	["The Silt Crawlers (40-41) crowd the north end of the eastern shore, and the driftwood washes up along it from there.\nCareful: the big Monstrous Crawlers (43-44) further south on the shore are over you: take the legs at the north end and pick up the driftwood without pulling them."] = "Silt Crawler yaratıkları (40-41) doğu kıyısının kuzey ucunda kalabalık, sürüklenen odunlar da oradan itibaren kıyı boyunca vuruyor.\nDikkat: kıyının daha güneyindeki büyük Monstrous Crawler yaratıkları (43-44) senden yüksek: bacakları kuzey uçta al ve odunları onları çekmeden topla.",
 	-- {item:5938} Pristine Crawler Leg
 	-- plural, as words: Silt Crawlers = {npc:922} Silt Crawler
 	["{item:5938}, from the Silt Crawlers"] = "{item:5938}, Silt Crawler yaratıklarından",
 
-	-- Step 80: Watcher Biggs
+	-- Step 89: Watcher Biggs
 	-- {area:1438} Nethergarde Keep
-	["for {area:1438}: keep it"] = "{area:1438} için: sakla",
+	["for {area:1438}, just south of the swamp"] = "bataklığın hemen güneyindeki {area:1438} kalesi için",
 
-	-- Step 83: Stormwind
+	-- Step 90: Into the Blasted Lands
+	-- {zone:1419} Blasted Lands
+	["Into the {zone:1419}"] = "{zone:1419} bölgesine",
+	-- {zone:1419} Blasted Lands · {area:75} Stonard · {area:1438} Nethergarde Keep · {npc:5982} Black Slayer
+	-- plural, as words: Starving Snickerfangs = {npc:5984} Starving Snickerfang
+	["Follow the road south-east from Biggs to the pass into the {zone:1419}, keeping clear of {area:75}, the Horde town to the north-east.\nDown the pass, the road bends east to {area:1438}. Careful: {npc:5982} vultures (46) and Starving Snickerfangs (45) hunt in the dry hills south of the road: stay on it and keep moving."] = "Biggs'in yanından yolu güneydoğuya, {zone:1419} bölgesine açılan geçide izle. Kuzeydoğudaki Horde kasabası {area:75} yöresinden uzak dur.\nGeçitten inince yol doğuya, {area:1438} kalesine kıvrılır. Dikkat: {npc:5982} akbabaları (46) ve Starving Snickerfang yaratıkları (45) yolun güneyindeki kuru tepelerde avlanıyor: yoldan ayrılmadan ilerle.",
+	-- {zone:1419} Blasted Lands
+	["The pass to the {zone:1419}"] = "{zone:1419} bölgesine açılan geçit",
+	-- {area:1438} Nethergarde Keep
+	["The road to {area:1438}"] = "{area:1438} kalesine giden yol",
+
+	-- Step 91: Nethergarde Keep
+	-- {npc:5385} Watcher Mahar Ba · {npc:5393} Quartermaster Lungertz
+	["{npc:5385} is upstairs in the keep and {npc:5393} inside it; the gryphon master stands south of the keep."] = "{npc:5385} kalenin üst katında, {npc:5393} içeride. Grifon ustası kalenin güneyinde duruyor.",
+	-- {npc:5385} Watcher Mahar Ba
+	["{npc:5385}, upstairs"] = "{npc:5385}, üst katta",
+
+	-- Step 92: Fly to Stormwind
+	-- {area:1438} Nethergarde Keep
+	["{area:1438} flight master"] = "{area:1438} uçuş ustası",
+
+	-- Step 93: Stormwind
 	-- {npc:5635} Falstad Wildhammer · {area:348} Aerie Peak
 	["for {npc:5635} at {area:348}: keep it"] = "{area:348} yuvasındaki {npc:5635} için: sakla",
 
-	-- Step 84: Tram to Ironforge
+	-- Step 94: Tram to Ironforge
 	-- {zone:1455} Ironforge
 	["Tram to {zone:1455}"] = "Tramvayla: {zone:1455}",
 
-	-- Step 87: Ironforge
+	-- Step 97: Ironforge
 	-- {npc:5637} Roetten Stonehammer · {object:32356} Hall of Explorers (no name in this language: may be words) · {npc:2786} Gerrig Bonegrip · {object:32383} Forlorn Cavern
 	["{npc:5637} is in the Reclaimers' hall by the {object:32356}, {npc:2786} in the {object:32383}."] = "{npc:5637}, {object:32356} yanındaki Reclaimers salonunda, {npc:2786} {object:32383} içinde.",
 	-- {zone:1453} Stormwind
 	["{zone:1453} has no shaman trainer"] = "{zone:1453} şehrinde Shaman eğitmeni yok",
 
-	-- Step 89: Riding at 40
+	-- Step 99: Riding at 40
 	-- {npc:4772} Ultham Ironhorn · {area:803} Amberstill Ranch · {area:131} Kharanos · {zone:1432} Loch Modan · {npc:1261} Veron Amberstill
 	["At 40 with 100 gold you can learn to ride, and learning it gives you a mount. {npc:4772} teaches Dwarves at {area:803}, east of {area:131} on the road to {zone:1432}, beside {npc:1261}'s rams. Forever may let any race learn from any riding trainer (unconfirmed). Collectibles, Mounts · Level 40 lists every colour."] = "Seviye 40'ta 100 altınla binicilik öğrenebilirsin, öğrenince bir binek de verilir. {npc:4772}, {area:131} köyünün doğusunda, {zone:1432} yolundaki {area:803} çiftliğinde, {npc:1261} adlı NPC'nin koçlarının yanında Dwarf karakterlere ders veriyor. Forever her ırkın her binicilik eğitmeninden öğrenmesine izin veriyor olabilir (doğrulanmadı). Collectibles, Mounts · Level 40 tüm renkleri listeliyor.",
 	-- {npc:1261} Veron Amberstill
 	["{npc:1261}: other colours, 20g"] = "{npc:1261}: diğer renkler, 20 altın",
 
-	-- Step 91: Riding at 40
+	-- Step 101: Riding at 40
 	-- {npc:7954} Binjy Featherwhistle · {area:189} Steelgrill's Depot · {area:131} Kharanos · {npc:7955} Milli Featherwhistle
 	["At 40 with 100 gold you can learn to ride, and learning it gives you a mount. {npc:7954} teaches Gnomes at {area:189}, just east of {area:131}, beside {npc:7955}'s mechanostriders. Forever may let any race learn from any riding trainer (unconfirmed). Collectibles, Mounts · Level 40 lists every colour."] = "Seviye 40'ta 100 altınla binicilik öğrenebilirsin, öğrenince bir binek de verilir. {npc:7954}, {area:131} köyünün hemen doğusundaki {area:189} deposunda, {npc:7955} adlı NPC'nin mechanostrider'larının yanında Gnome karakterlere ders veriyor. Forever her ırkın her binicilik eğitmeninden öğrenmesine izin veriyor olabilir (doğrulanmadı). Collectibles, Mounts · Level 40 tüm renkleri listeliyor.",
 	-- {npc:7955} Milli Featherwhistle

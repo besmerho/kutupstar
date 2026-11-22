@@ -232,9 +232,9 @@ return {
 	["For {npc:266} in {area:69}, Redridge"] = "Redridge'deki {area:69} kasabasında {npc:266} için",
 
 	-- Step 45: Jangolode Mine
-	-- {area:918} Molsen Farm
+	-- {area:918} Molsen Farm · {area:111} Jangolode Mine
 	-- plural, as words: Kobold Diggers = {npc:1236} Kobold Digger
-	["Back north past {area:918} to the mine: Kobold Diggers work inside."] = "Kuzeye dön, {area:918} çiftliğini geçip madene git: içeride Kobold Digger yaratıkları çalışıyor.",
+	["Back north past {area:918} to the mine.\nCareful: pull the four Kobold Diggers from the mouth of {area:111}, one at a time. There is no need to go deeper."] = "Kuzeye dön, {area:918} çiftliğini geçip madene git.\nDikkat: {area:111} madeninin ağzındaki dört Kobold Digger yaratığını tek tek çek. Daha derine inmen gerekmiyor.",
 	-- plural, as words: Kobold Diggers = {npc:1236} Kobold Digger
 	["Kobold Diggers"] = "Kobold Digger yaratıkları",
 
@@ -243,16 +243,16 @@ return {
 	["The {area:113}"] = "{area:113} taş ocağı",
 	-- {area:918} Molsen Farm
 	-- plural, as words: Riverpaw Miners = {npc:1426} Riverpaw Miner
-	["South-west to the coast, west of {area:918}. Riverpaw Miners work the quarry."] = "Güneybatıya, {area:918} çiftliğinin batısındaki kıyıya git. Taş ocağında Riverpaw Miner yaratıkları çalışıyor.",
+	["South-west to the coast, west of {area:918}. Riverpaw Miners work the quarry.\nCareful: pull the Riverpaw Miners away from the quarry mouth. The Defias stand close together inside the cave."] = "Güneybatıya, {area:918} çiftliğinin batısındaki kıyıya git. Taş ocağında Riverpaw Miner yaratıkları çalışıyor.\nDikkat: Riverpaw Miner yaratıklarını taş ocağının ağzından uzağa çek. Mağaranın içindeki Defias'lar birbirine yakın duruyor.",
 	-- plural, as words: Riverpaw Miners = {npc:1426} Riverpaw Miner
 	["Riverpaw Miners"] = "Riverpaw Miner yaratıkları",
 
 	-- Step 47: Moonbrook: kill these as you meet them
 	-- {area:20} Moonbrook
 	["{area:20}: kill these as you meet them"] = "{area:20}: bunları karşılaştıkça öldür",
-	-- {area:108} Sentinel Hill · {area:20} Moonbrook · {object:1166} Alexston's Chest · {area:219} Alexston Farmstead · {npc:1646} Baros Alexston · {area:113} Gold Coast Quarry
+	-- {area:108} Sentinel Hill · {area:20} Moonbrook · {object:1166} Alexston's Chest · {area:219} Alexston Farmstead · {npc:1646} Baros Alexston
 	-- plural, as words: Defias Pillagers = {npc:589} Defias Pillager
-	["Defias Pillagers and Looters hold the farms west of {area:108}, between the coast road and {area:20}. {object:1166} stands in the farmhouse at the {area:219}, among them: {npc:1646}' compass is inside.\nCareful: The {area:113} cave holds many Defias packed together, so it is easy to pull several at once there."] = "Defias Pillager ve Looter yaratıkları {area:108} tepesinin batısında, kıyı yolu ile {area:20} köyü arasındaki çiftlikleri tutuyor. {object:1166}, aralarında, {area:219} kesimindeki çiftlik evinde duruyor: {npc:1646} adlı NPC'nin pusulası içeride.\nDikkat: {area:113} mağarasında birbirine sık duran çok sayıda Defias var, bu yüzden orada birkaçını birden çekmek kolay.",
+	["Defias Pillagers and Looters hold the farms west of {area:108}, between the coast road and {area:20}. {object:1166} stands in the farmhouse at the {area:219}, among them: {npc:1646}' compass is inside.\nCareful: the Pillagers and Looters crowd the Alexston farm and the quarry entrance. Pull one out into the open before fighting it."] = "Defias Pillager ve Looter yaratıkları {area:108} tepesinin batısında, kıyı yolu ile {area:20} köyü arasındaki çiftlikleri tutuyor. Aralarında, {area:219} kesimindeki çiftlik evinde {object:1166} duruyor: {npc:1646} adlı NPC'nin pusulası içeride.\nDikkat: Pillager ve Looter'lar Alexston çiftliğini ve taş ocağının girişini dolduruyor. Dövüşmeden önce birini açığa çek.",
 	-- {item:2998} A Simple Compass · {object:1166} Alexston's Chest
 	["{item:2998}, from {object:1166}"] = "{item:2998}, kaynak: {object:1166}",
 

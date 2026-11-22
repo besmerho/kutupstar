@@ -19,48 +19,52 @@ return {
 	-- {npc:259023} Veyric Thunderhame · {item:5178} Air Totem
 	["{npc:259023}: your {item:5178}"] = "{npc:259023}: {item:5178} eşyan",
 
-	-- Step 3: Charlga Razorflank
+	-- Step 3: Veyric Thunderhame
+	-- {quest:96264} Elemental Aid · {npc:4421} Charlga Razorflank · {area:1717} Razorfen Kraul · {npc:259023} Veyric Thunderhame
+	["{quest:96264} sends you to {npc:4421}, a level 33 elite at the end of {area:1717}: {npc:259023}'s next quest waits for 32."] = "{quest:96264} seni {area:1717} içinin sonundaki 33. seviye elit {npc:4421} yaratığına gönderir: {npc:259023} adlı NPC'nin sonraki görevi 32'yi bekliyor.",
+
+	-- Step 4: Charlga Razorflank
 	-- {area:1717} Razorfen Kraul · {zone:1413} Barrens · {npc:4421} Charlga Razorflank · {spell:8292} Chain Bolt · {spell:139} Renew · {item:274463} Tattered Note
 	["{area:1717} is a five-player dungeon at the southern edge of the {zone:1413} (the arrow points at its entrance); {npc:4421} (level 33 elite) is its last boss. She casts {spell:8292}, {spell:139} on her allies and Purity; the {item:274463} drops only from her."] = "{area:1717}, {zone:1413} bölgesinin güney kenarında beş kişilik bir zindan (ok girişini gösteriyor). {npc:4421} (seviye 33 elit) son boss'u. {spell:8292}, müttefiklerine {spell:139} ve Purity kullanır. {item:274463} yalnızca ondan düşer.",
 	-- {item:274463} Tattered Note · {npc:4421} Charlga Razorflank
 	["{item:274463}, from {npc:4421}"] = "{item:274463}, kaynak: {npc:4421}",
 
-	-- Step 5: Twisted Fire Totems
+	-- Step 6: Twisted Fire Totems
 	-- plural, as words: Twisted Fire Totems = {item:274044} Twisted Fire Totem
 	["Twisted Fire Totems"] = "Twisted Fire Totem",
 	-- {area:338} Angor Fortress · {zone:1418} Badlands · {npc:3560} Healing Ward
 	-- plural, as words: Twisted Fire Totems = {item:274044} Twisted Fire Totem · Fire Nova Totems = {npc:5879} Fire Nova Totem
 	["Five Twisted Fire Totems. The Stonevault troggs (Skullthumpers, Bonesnappers and Shamans, level 37-41) south of {area:338} in the {zone:1418} carry them; the Shamans drop Fire Nova Totems and a {npc:3560}, the Bonesnappers run for help when hurt. Respawn about five minutes."] = "Beş Twisted Fire Totem. {zone:1418} bölgesinde {area:338} kalesinin güneyindeki Stonevault trogg'ları (Skullthumper, Bonesnapper ve Shaman, seviye 37-41) taşıyor. Shaman'lar Fire Nova Totem ve bir {npc:3560} bırakır, Bonesnapper'lar yaralanınca yardım için kaçar. Yaklaşık beş dakikada yeniden doğarlar.",
 
-	-- Step 6: Twisted Earth Totems
+	-- Step 7: Twisted Earth Totems
 	-- plural, as words: Twisted Earth Totems = {item:274045} Twisted Earth Totem
 	["Twisted Earth Totems"] = "Twisted Earth Totem",
 	-- {area:75} Stonard · {zone:1435} Swamp of Sorrows
 	-- plural, as words: Twisted Earth Totems = {item:274045} Twisted Earth Totem · The Lost Ones = {npc:256028} The Lost One
 	["Five Twisted Earth Totems. The Lost Ones (murlocs, level 34-39) north and north-east of {area:75} in the {zone:1435} carry them; most run for help when hurt."] = "Beş Twisted Earth Totem. {zone:1435} bölgesinde {area:75} kasabasının kuzeyindeki ve kuzeydoğusundaki The Lost One yaratıkları (murloc'lar, seviye 34-39) taşıyor. Çoğu yaralanınca yardım için kaçar.",
 
-	-- Step 7: Twisted Water Totems
+	-- Step 8: Twisted Water Totems
 	-- plural, as words: Twisted Water Totems = {item:274046} Twisted Water Totem
 	["Twisted Water Totems"] = "Twisted Water Totem",
 	-- {area:496} Brackenwall Village · {zone:1445} Dustwallow Marsh
 	-- plural, as words: Twisted Water Totems = {item:274046} Twisted Water Totem
 	["Five Twisted Water Totems. The Mirefin murlocs (level 35-38) north-east of {area:496} in northern {zone:1445} carry them."] = "Beş Twisted Water Totem. Kuzey {zone:1445} bölgesinde {area:496} köyünün kuzeydoğusundaki Mirefin murloc'ları (seviye 35-38) taşıyor.",
 
-	-- Step 8: Twisted Air Totems
+	-- Step 9: Twisted Air Totems
 	-- plural, as words: Twisted Air Totems = {item:274047} Twisted Air Totem
 	["Twisted Air Totems"] = "Twisted Air Totem",
 	-- {area:2408} Shadowprey Village · {zone:1443} Desolace · {spell:9654} Jumping Lightning
 	-- plural, as words: Twisted Air Totems = {item:274047} Twisted Air Totem
 	["Five Twisted Air Totems. The Maraudine centaurs (level 36-40) north and north-east of {area:2408} in western {zone:1443} carry them; the Scouts drop one nearly every other kill. Wranglers Net and Disarm, Windchasers heal, Stormers throw {spell:9654}: pull one at a time. Respawn about five minutes."] = "Beş Twisted Air Totem. Batı {zone:1443} bölgesinde {area:2408} köyünün kuzeyindeki ve kuzeydoğusundaki Maraudine centaur'ları (seviye 36-40) taşıyor. Scout'lar neredeyse ikide bir düşürür. Wrangler'lar Net ve Disarm kullanır, Windchaser'lar iyileştirir, Stormer'lar {spell:9654} atar: tek tek çek. Yaklaşık beş dakikada yeniden doğarlar.",
 
-	-- Step 10: The steam pools
+	-- Step 11: The steam pools
 	["The steam pools"] = "Buhar havuzları",
 	-- {npc:259023} Veyric Thunderhame · {item:268582} Corrupted Totems · {zone:1441} Thousand Needles · {area:489} Thalanaar · {zone:1444} Feralas · {area:484} Freewind Post · {npc:216474} Ravaging Tempest · {item:212792} Eye of the Tempest
 	["{npc:259023} hands you the {item:268582}. {zone:1441} is far: the boat to Theramore and the road west, or fly to {area:489} on the {zone:1444} border and head east into the canyon. Place the {item:268582} at the steam pools north-west of {area:484} to call the corrupted elementals and then the {npc:216474}; Razormane quilboar join the fight while the ritual runs. A group quest: bring at least one or two friends. The {item:212792} drops about every other kill, and every group member can loot it."] = "{npc:259023} sana {item:268582} verir. {zone:1441} uzak: Theramore'a gemi ve batıya giden yol ya da {zone:1444} sınırındaki {area:489} karakoluna uç ve doğuya, kanyona git. Yozlaşmış elementalleri ve ardından {npc:216474} elementalini çağırmak için {item:268582} eşyasını {area:484} karakolunun kuzeybatısındaki buhar havuzlarına koy. Ritüel sürerken Razormane quilboar'ları dövüşe katılır. Bir grup görevi: en az bir iki arkadaş getir. {item:212792} aşağı yukarı ikide bir düşer ve her grup üyesi loot'layabilir.",
 	-- {item:212792} Eye of the Tempest · {npc:216474} Ravaging Tempest
 	["{item:212792}, from the {npc:216474}"] = "{item:212792}, kaynak: {npc:216474}",
 
-	-- Step 12: Bath'rah the Windwatcher
+	-- Step 13: Bath'rah the Windwatcher
 	-- {npc:6176} Bath'rah the Windwatcher · {zone:1416} Alterac Mountains · {area:272} Tarren Mill · {item:280607} Lightning's Grasp · {item:280605} Tidebringer's Claw · {item:280604} Rage of the Storm
 	["{npc:6176} camps in the ruins in the east of {zone:1416}: from {area:272} follow the river east of town north into the hills. Pick your weapon: {item:280607}, {item:280605} or {item:280604}."] = "{npc:6176}, {zone:1416} bölgesinin doğusundaki harabelerde kamp kurmuş: {area:272} kasabasından kasabanın doğusundaki nehri kuzeye, tepelere izle. Silahını seç: {item:280607}, {item:280605} ya da {item:280604}.",
 	-- {npc:6176} Bath'rah the Windwatcher · {item:280696} Elementalist's Guard

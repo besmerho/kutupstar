@@ -117,6 +117,8 @@ return {
 	-- {npc:269185} Headsplitter · {zone:1418} Badlands
 	-- plural, as words: Stonevault Cave Hunters = {npc:4856} Stonevault Cave Hunter
 	["South of Thelsamar, Ylva lies dead in the mouth of a trogg cave. Take her banner, raise it beside her and hold the spot: troggs come in waves from both sides, then {npc:269185}.\nCareful: Stonevault Cave Hunters (36, elite) hold the pass just south of Ylva, toward the {zone:1418}: stay by the banner and don't chase troggs south."] = "Thelsamar'ın güneyinde Ylva bir trogg mağarasının ağzında ölü yatıyor. Sancağını al, yanına dik ve yeri tut: trogglar iki yandan dalga dalga gelir, ardından {npc:269185}.\nDikkat: Stonevault Cave Hunter yaratıkları (36, elit) Ylva'nın hemen güneyindeki, {zone:1418} bölgesine giden geçidi tutuyor: sancağın yanında kal ve trogg'ları güneye kovalama.",
+	-- {item:253247} Banner of Ironforge · {npc:269185} Headsplitter
+	["{item:253247}: raise it beside Ylva, then hold the spot until {npc:269185} comes"] = "{item:253247}: Ylva'nın yanına dikip {npc:269185} gelene kadar yerini koru",
 
 	-- Step 25: The tunnel post
 	["The tunnel post"] = "Tünel karakolu",
@@ -252,8 +254,9 @@ return {
 	-- Step 46: Stormwind's gate
 	-- {zone:1453} Stormwind
 	["{zone:1453}'s gate"] = "{zone:1453} şehrinin kapısı",
-	-- {npc:234} Gryan Stoutmantle · {zone:1436} Westfall · {area:87} Goldshire · {zone:1453} Stormwind · {npc:466} General Marcus Jonathan · {object:2096} Trade District · {area:69} Lakeshire
-	["No Defias Brotherhood from Wiley (it starts with {npc:234}'s letter in {zone:1436}): skip {zone:1436}. North along the road from {area:87} to {zone:1453}: {npc:466} sits on his horse at the far end of the bridge outside the main gate. Then the gryphons in the {object:2096}, back to {area:69}."] = "Wiley'den Defias Brotherhood yok ({zone:1436} bölgesinde {npc:234} adlı NPC'nin mektubuyla başlar): {zone:1436} bölgesini atla. {area:87} kasabasından yol boyunca kuzeye, {zone:1453} şehrine git: {npc:466} ana kapının dışındaki köprünün öbür ucunda atının üstünde oturuyor. Sonra {object:2096} semtindeki gryphon'larla {area:69} kasabasına dön.",
+	-- {npc:234} Gryan Stoutmantle · {zone:1436} Westfall · {area:87} Goldshire · {zone:1453} Stormwind · {npc:466} General Marcus Jonathan · {object:2096} Trade District · {area:69} Lakeshire · {area:1617} Valley of Heroes
+	-- was: ["No Defias Brotherhood from Wiley (it starts with {npc:234}'s letter in {zone:1436}): skip {zone:1436}. North along the road from {area:87} to {zone:1453}: {npc:466} sits on his horse at the far end of the bridge outside the main gate. Then the gryphons in the {object:2096}, back to {area:69}."] = "Keine Defias-Bruderschaft von Wiley (sie beginnt mit dem Brief von {npc:234} in {zone:1436}): Überspring {zone:1436}. Folge der Straße von {area:87} nach Norden nach {zone:1453}: {npc:466} sitzt auf seinem Pferd am fernen Ende der Brücke vor dem Haupttor. Danach zu den Greifen im {object:2096}, zurück nach {area:69}."
+	["No Defias Brotherhood from Wiley (it starts with {npc:234}'s letter in {zone:1436}): skip {zone:1436}. North along the road from {area:87} to {zone:1453}: {npc:466} sits on his horse at the far end of the bridge outside the main gate. Then the gryphons in the {object:2096}, back to {area:69}.\nIf {npc:466} isn't at the arrow, he is walking his horse along the {area:1617} nearby: look along the avenue or wait a moment."] = "Wiley'den Defias Brotherhood yok ({zone:1436} bölgesinde {npc:234} adlı NPC'nin mektubuyla başlar): {zone:1436} bölgesini atla. {area:87} kasabasından yol boyunca kuzeye, {zone:1453} şehrine git: {npc:466} ana kapının dışındaki köprünün öbür ucunda atının üstünde oturuyor. Sonra {object:2096} semtindeki gryphon'larla {area:69} kasabasına dön.\n{npc:466} okun gösterdiği yerde değilse yakınlardaki {area:1617} boyunca atını yürütüyordur: caddeye bak ya da biraz bekle.",
 	-- {npc:466} General Marcus Jonathan
 	["{npc:466}, outside the main gate"] = "{npc:466}, ana kapının dışında",
 
@@ -274,8 +277,9 @@ return {
 	["{area:108} flight master"] = "{area:108} uçuş ustası",
 
 	-- Step 50: Stormwind
-	-- {npc:332} Master Mathias Shaw · {object:2100} Old Town · {npc:466} General Marcus Jonathan · {object:2096} Trade District
-	["{npc:332} is upstairs in the SI:7 building in {object:2100}: the stairs are hard to see at first. {npc:466} sits on his horse at the far end of the bridge outside the main gate, then back to the gryphons in the {object:2096}."] = "{npc:332}, {object:2100} semtindeki SI:7 binasının üst katında: merdiveni ilk başta görmek zor. {npc:466}, ana kapının dışındaki köprünün öbür ucunda atının üstünde oturuyor, sonra {object:2096} içindeki grifonlara dön.",
+	-- {npc:332} Master Mathias Shaw · {object:2100} Old Town · {npc:466} General Marcus Jonathan · {object:2096} Trade District · {area:1617} Valley of Heroes
+	-- was: ["{npc:332} is upstairs in the SI:7 building in {object:2100}: the stairs are hard to see at first. {npc:466} sits on his horse at the far end of the bridge outside the main gate, then back to the gryphons in the {object:2096}."] = "{npc:332} ist oben im SI:7-Gebäude in {object:2100}: Die Treppe ist zuerst schwer zu sehen. {npc:466} sitzt auf seinem Pferd am fernen Ende der Brücke vor dem Haupttor, danach zurück zu den Greifen im {object:2096}."
+	["{npc:332} is upstairs in the SI:7 building in {object:2100}: the stairs are hard to see at first. {npc:466} sits on his horse at the far end of the bridge outside the main gate, then back to the gryphons in the {object:2096}.\nIf {npc:466} isn't at the arrow, he is walking his horse along the {area:1617} nearby: look along the avenue or wait a moment."] = "{npc:332}, {object:2100} semtindeki SI:7 binasının üst katında: merdiveni ilk başta görmek zor. {npc:466}, ana kapının dışındaki köprünün öbür ucunda atının üstünde oturuyor, sonra {object:2096} içindeki grifonlara dön.\n{npc:466} okun gösterdiği yerde değilse yakınlardaki {area:1617} boyunca atını yürütüyordur: caddeye bak ya da biraz bekle.",
 	-- {npc:332} Master Mathias Shaw
 	["{npc:332}, SI:7; upstairs"] = "{npc:332}, SI:7, üst katta",
 
@@ -410,4 +414,8 @@ return {
 	["For your {area:717} run, later in {zone:1453}: keep it until then."] = "Daha sonra {zone:1453} şehrindeki {area:717} koşun için: o zamana kadar sakla.",
 	-- {npc:1646} Baros Alexston · {npc:1719} Warden Thelwater · {area:717} Stockade
 	["{npc:1646}: for {npc:1719}, at the {area:717}'s gate"] = "{npc:1646}: {area:717} kapısındaki {npc:1719} için",
+
+	-- Step 75: Argos Nightwhisper
+	-- {npc:4984} Argos Nightwhisper · {npc:8997} Gershala Nightwhisper · {area:442} Auberdine
+	["On the way to the harbour: {npc:4984}'s message goes to {npc:8997} in {area:442}, beside Terenthis, where the boat lands."] = "Limana giderken: {npc:4984} adlı NPC'nin mesajı, geminin yanaştığı {area:442} köyünde Terenthis'in yanındaki {npc:8997} için.",
 }

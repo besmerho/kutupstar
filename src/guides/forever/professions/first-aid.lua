@@ -128,8 +128,8 @@ return {
 	["{item:6451}: cloth"] = "{item:6451}: kumaş",
 
 	-- Step 27: Heavy Silk Bandage (180-210)
-	-- {item:6451} Heavy Silk Bandage
-	["{item:6451} is yellow from 180 (yellow at 180, green at 210, grey at 240): about 42 crafts to 210. Bandages need no fire: craft them anywhere."] = "{item:6451}: 180 puandan sarı (sarı 180, yeşil 210, gri 240): 210 puana kadar yaklaşık 42 üretim. Sargılar ateş istemez: her yerde yap.",
+	-- {item:6451} Heavy Silk Bandage · {item:16112} Manual: Heavy Silk Bandage · {skill:129} First Aid
+	["{item:6451} is yellow from 180 (yellow at 180, green at 210, grey at 240): about 42 crafts to 210. Bandages need no fire: craft them anywhere. Read the {item:16112} you bought with Expert {skill:129} to learn it; without one, the vendor who sold you the book sells it too."] = "{item:6451}: 180 puandan sarı (sarı 180, yeşil 210, gri 240): 210 puana kadar yaklaşık 42 üretim. Sargılar ateş istemez: her yerde yap. Expert {skill:129} ile aldığın {item:16112} kitabını okuyup öğren. Sende yoksa kitabı satan satıcı onu da satar.",
 
 	-- Step 28: Mageweave Bandage: Auction House
 	-- {item:8544} Mageweave Bandage
@@ -144,8 +144,8 @@ return {
 	["{item:4338} drops from humanoids of level 35-50: keep what you loot as you level, or take it from your bank."] = "{item:4338}, 35-50 seviyesindeki humanoid'lerden düşer: seviye atlarken lootladıklarını sakla ya da bankandan al.",
 
 	-- Step 30: Mageweave Bandage (210-225)
-	-- {item:8544} Mageweave Bandage
-	["{item:8544} is yellow from 210 (yellow at 210, green at 240, grey at 270): about 18 crafts to 225. Bandages need no fire: craft them anywhere."] = "{item:8544}: 210 puandan sarı (sarı 210, yeşil 240, gri 270): 225 puana kadar yaklaşık 18 üretim. Sargılar ateş istemez: her yerde yap.",
+	-- {item:8544} Mageweave Bandage · {item:16113} Manual: Mageweave Bandage · {skill:129} First Aid
+	["{item:8544} is yellow from 210 (yellow at 210, green at 240, grey at 270): about 18 crafts to 225. Bandages need no fire: craft them anywhere. Read the {item:16113} you bought with Expert {skill:129} to learn it; without one, the vendor who sold you the book sells it too."] = "{item:8544}: 210 puandan sarı (sarı 210, yeşil 240, gri 270): 225 puana kadar yaklaşık 18 üretim. Sargılar ateş istemez: her yerde yap. Expert {skill:129} ile aldığın {item:16113} kitabını okuyup öğren. Sende yoksa kitabı satan satıcı onu da satar.",
 
 	-- Step 31: Trauma
 	["Trauma"] = "Trauma",

@@ -5,11 +5,18 @@
 return {
 	-- Guide
 	-- {area:976} Gadgetzan · {zone:1427} Searing Gorge · {npc:5955} Tooga · {area:1446} Thorium Point
-	["{area:976} and the {zone:1427} at 46-48: the Wastewander camps, {npc:5955}'s escort and {area:1446}."] = "46-48'de {area:976} ve {zone:1427}: Wastewander kampları, {npc:5955} eskortu ve {area:1446}.",
+	-- was: ["{area:976} and the {zone:1427} at 46-48: the Wastewander camps, {npc:5955}'s escort and {area:1446}."] = "{area:976} und {zone:1427} mit 46-48: die Lager der Wastewander, die Eskorte von {npc:5955} und {area:1446}."
+	["{area:976} and the {zone:1427} at 47-49: the Wastewander camps, {npc:5955}'s escort and {area:1446}."] = "47-49. seviyede {area:976} ve {zone:1427}: Wastewander kampları, {npc:5955} eşliği ve {area:1446}.",
 
-	-- Step 2: Fly to Gadgetzan
+	-- Step 1: Fly to Gadgetzan
 	-- {area:976} Gadgetzan
 	["Fly to {area:976}"] = "{area:976} kasabasına uç",
+	-- {zone:1445} Dustwallow Marsh · {area:496} Brackenwall Village · {area:976} Gadgetzan
+	["Coming from {zone:1445}: {area:496}'s flight master flies you to {area:976}."] = "{zone:1445} bölgesinden geliyorsan: {area:496} uçuş ustası seni {area:976} kasabasına uçurur.",
+	-- {area:496} Brackenwall Village
+	["{area:496} flight master"] = "{area:496} uçuş ustası",
+
+	-- Step 2: Fly to Gadgetzan
 	-- {area:1099} Camp Mojache
 	["{area:1099} flight master"] = "{area:1099} uçuş ustası",
 
@@ -18,8 +25,8 @@ return {
 	["The flight lands beside {npc:7876}. Take the town's quests before riding west to {area:979}."] = "Uçuş {npc:7876} adlı NPC'nin yanına iner. Batıya, {area:979} karakoluna sürmeden önce kasabanın görevlerini al.",
 	-- {npc:7876} Tran'rek
 	["{npc:7876}, beside the wind rider master"] = "{npc:7876}, rüzgâr binicisi ustasının yanında",
-	-- {npc:11758} Andi Lynn · {area:1938} Broken Pillar
-	["{npc:11758}: keep it, the Dunemaul ogres and Gor'marok (49) wait for the {area:1938} at about 52, at the end of 40-50/06"] = "{npc:11758}: sakla, Dunemaul ogre'ları ve Gor'marok (49), 40-50/06 sonunda yaklaşık 52'de {area:1938} için bekler",
+	-- {npc:11758} Andi Lynn · {area:983} Dunemaul Compound
+	["{npc:11758}: the {area:983} is on this guide's western loop"] = "{npc:11758}: {area:983} bu rehberin batı turunda",
 
 	-- Step 4: Senior Surveyor Fizzledowser
 	["You missed this on the route's earlier visit here: it comes first now. It is quick and opens the quests after it."] = "Rotanın buraya önceki uğrayışında bunu kaçırdın: şimdi önce bu geliyor. Kısa sürer, sonraki görevleri de açar.",
@@ -65,107 +72,118 @@ return {
 	-- Step 14: Gahz'ridian ornaments
 	-- {quest:3161} Gahz'ridian
 	["{quest:3161} ornaments"] = "{quest:3161} süsleri",
-	-- {quest:3161} Gahz'ridian · {area:1938} Broken Pillar · {area:983} Dunemaul Compound · {npc:12046} Gor'marok the Ravager
-	["Dig up the {quest:3161} ornaments around the {area:1938} and north of the {area:983}. Leave the ogres for now: {npc:12046} is 49 and the Brutes 46-48; the {area:983} comes at the end of 40-50/06, at about 52."] = "{quest:3161} süslerini {area:1938} çevresinde ve {area:983} kuzeyinde kazıp çıkar. Ogre'ları şimdilik bırak: {npc:12046} 49, Brute'lar 46-48. {area:983}, 40-50/06 sonunda yaklaşık 52'de gelir.",
+	-- {quest:3161} Gahz'ridian · {area:1938} Broken Pillar · {area:983} Dunemaul Compound
+	["Dig up the {quest:3161} ornaments around the {area:1938} and north of the {area:983}."] = "{quest:3161} süs eşyalarını {area:1938} çevresinde ve {area:983} kesiminin kuzeyinde kazıp çıkar.",
 
 	-- Step 15: The Noxious Lair
 	-- {npc:4196} Silithid Swarm
 	-- plural, as words: Centipaar Swarmers = {npc:5457} Centipaar Swarmer
 	["West, the Centipaar insects swarm around their hives; any of them drops the parts.\nCareful: Centipaar Swarmers cast {npc:4196} both in and out of combat, which brings small adds that interrupt you. The Sandreavers are 49-50: take the Workers and Tunnelers."] = "Batıda Centipaar böcekleri kovanlarının çevresinde kaynıyor, hepsi parça düşürür.\nDikkat: Centipaar Swarmer yaratıkları dövüş içinde de dışında da {npc:4196} kullanır. Bu da seni kesen küçük ek yaratıklar getirir. Sandreaver'lar 49-50: Worker ve Tunneler'ları al.",
 
-	-- Step 16: Thistleshrub Valley: kill these as you meet them
+	-- Step 16: The Dunemaul Compound
+	-- {area:982} The Noxious Lair · {quest:3362} Thistleshrub Valley · {npc:12046} Gor'marok the Ravager
+	["South of the {area:982}, on the way west to {quest:3362}, the Dunemaul ogres hold their compound: the Brutes (46-48) and Enforcers (45-47) fill it, {npc:12046} (49) stands at its eastern end.\nCareful: {npc:12046} is one to two levels above you here, and the Ogre Mages and Warlocks (46-48) cast from range: pull from the compound's edge, one at a time, and leave {npc:12046} for last with full health."] = "{area:982} inin güneyinde, batıya, {quest:3362} vadisine giderken Dunemaul ogre'ları yerleşkelerini tutuyor: içini Brute (46-48) ve Enforcer (45-47) yaratıkları dolduruyor, {npc:12046} (49) doğu ucunda duruyor.\nDikkat: {npc:12046} burada senden bir iki seviye yüksek, Ogre Mage ve Warlock'lar (46-48) da uzaktan büyü yapıyor: yerleşkenin kenarından tek tek çek, {npc:12046} yaratığını canın tamken sona bırak.",
+	["Below ground"] = "Yer altında",
+
+	-- Step 17: Thistleshrub Valley: kill these as you meet them
 	-- {quest:3362} Thistleshrub Valley
 	["{quest:3362}: kill these as you meet them"] = "{quest:3362}: bunları karşılaştıkça öldür",
 	-- {zone:1446} Tanaris · {quest:2864} Tran'rek · {area:1938} Broken Pillar
 	-- plural, as words: Gnarled Thistleshrubs = {npc:5490} Gnarled Thistleshrub
-	["West of the compound the cactus creatures fill the valley; only the Dew Collectors (47-48) carry a dew gland. Most mobs in {zone:1446} can drop OOX-17/TN's distress beacon, rarely: keep it if you see one.\nCareful: The other thistleshrub mobs in the area are level 48-50 and wander a lot, so you can easily pull extra mobs: take the Dew Collectors at the valley's edge, and leave {quest:2864}'s Gnarled Thistleshrubs and Rootshapers for the {area:1938} ride into Un'Goro at about 51."] = "Yerleşkenin batısında kaktus yaratıkları vadiyi dolduruyor. Çiy bezini yalnızca Dew Collector'lar (47-48) taşır. {zone:1446} bölgesindeki çoğu yaratık nadiren OOX-17/TN'nin imdat işaretçisini düşürebilir: görürsen sakla.\nDikkat: bölgedeki diğer thistleshrub yaratıkları 48-50. seviye ve çok dolaşır, yani kolayca fazladan yaratık çekebilirsin: Dew Collector'ları vadinin kenarında al, {quest:2864} görevinin Gnarled Thistleshrub ve Rootshaper yaratıklarını yaklaşık 51'de Un'Goro'ya giderken {area:1938} yolculuğuna bırak.",
+	-- was: ["West of the compound the cactus creatures fill the valley; only the Dew Collectors (47-48) carry a dew gland. Most mobs in {zone:1446} can drop OOX-17/TN's distress beacon, rarely: keep it if you see one.\nCareful: The other thistleshrub mobs in the area are level 48-50 and wander a lot, so you can easily pull extra mobs: take the Dew Collectors at the valley's edge, and leave {quest:2864}'s Gnarled Thistleshrubs and Rootshapers for the {area:1938} ride into Un'Goro at about 51."] = "Westlich des Geländes füllen die Kaktuswesen das Tal; nur die Tausammler (47-48) tragen eine Tau-Drüse. Die meisten Mobs in {zone:1446} können OOX-17/TNs Notsignal fallen lassen, selten: Behalte es, wenn du eines siehst.\nVorsicht: Die anderen Distelwandler-Mobs in der Gegend sind Stufe 48-50 und laufen viel herum, sodass du leicht zusätzliche Mobs ziehst: Nimm die Tausammler am Rand des Tals und lass die Knorrigen Distelwandler und Wurzelformer für {quest:2864} bis zum Ritt über {area:1938} nach Un'Goro mit etwa 51."
+	["West of the compound the cactus creatures fill the valley; only the Dew Collectors (47-48) carry a dew gland. Most mobs in {zone:1446} can drop OOX-17/TN's distress beacon, rarely: keep it if you see one.\nCareful: The other thistleshrub mobs in the area are level 48-50 and wander a lot, so you can easily pull extra mobs: take the Dew Collectors at the valley's edge, and leave {quest:2864}'s Gnarled Thistleshrubs and Rootshapers (49-50) for the {area:1938} ride into Un'Goro at about 51."] = "Yerleşkenin batısındaki vadiyi kaktüs yaratıkları dolduruyor. Yalnız Dew Collector'lar (47-48) çiy bezi taşıyor. {zone:1446} bölgesindeki çoğu yaratık OOX-17/TN imdat işaretçisini nadiren düşürebilir: görürsen sakla.\nDikkat: bölgedeki diğer thistleshrub yaratıkları 48-50 ve çok dolaşıyor, kolayca fazladan yaratık çekebilirsin: Dew Collector'ları vadinin kenarında al, {quest:2864} görevinin Gnarled Thistleshrub ve Rootshaper yaratıklarını (49-50) yaklaşık 51. seviyede Un'Goro'ya giderken {area:1938} geçişine bırak.",
 	-- {item:8623} OOX-17/TN Distress Beacon
 	["{item:8623}, a rare drop"] = "{item:8623}, nadiren düşer",
 
-	-- Step 17: Tooga's escort
+	-- Step 18: Tooga's escort
 	-- {npc:5955} Tooga
 	["{npc:5955}'s escort"] = "{npc:5955} adlı NPC'ye eşlik",
 	-- {npc:5955} Tooga · {npc:6015} Torta · {area:977} Steamwheedle Port · {npc:8579} Yeh'kinya
 	["{npc:5955} waits in the valley. Walk him all the way to his wife {npc:6015} in {area:977}, north-east across the desert: stay close, slow down for him and fight off what attacks him. Do not mount or hearth out of his reach. {npc:8579} stands in the port too."] = "{npc:5955} vadide bekliyor. Onu çölü kuzeydoğuya geçerek {area:977} limanındaki eşi {npc:6015} adlı NPC'ye kadar yürüt: yakınında kal, onun için yavaşla ve ona saldıranları püskürt. Binek kullanma ya da Hearthstone ile ondan uzaklaşma. {npc:8579} de limanda duruyor.",
 
-	-- Step 19: Slake That Thirst
+	-- Step 20: Slake That Thirst
 	-- {spell:686} Shadow Bolt
 	["Careful: Shadow Mages (level 42-43) call a Voidwalker while out of combat and attack with Immolate and {spell:686}. Thieves can Disarm you, Rogues move around in Sneak, and Assassins use Execute once you are at 20% health or less."] = "Dikkat: Shadow Mage'ler (seviye 42-43) savaş dışındayken bir Voidwalker çağırır ve Immolate ile {spell:686} kullanarak saldırır. Thief'ler seni Disarm edebilir, Rogue'lar Sneak ile dolaşır, Assassin'ler de canın %20 ya da altına düşünce Execute kullanır.",
 
-	-- Step 20: Gadgetzan
+	-- Step 21: Gadgetzan
 	-- {quest:654} Tanaris Field Sampling
 	["Keep the Model 4711-FTZ Power Source Bilgewhizzle gave you: it starts {quest:654}, a two-hour timer, so use it on the way back north from Scrimshank's hive."] = "Bilgewhizzle'ın sana verdiği Model 4711-FTZ Power Source'u sakla: iki saatlik süreli {quest:654} görevini başlatır, bu yüzden onu Scrimshank'in kovanından kuzeye dönüş yolunda kullan.",
 
-	-- Step 21: Gadgetzan
-	-- {quest:2864} Tran'rek · {quest:3362} Thistleshrub Valley · {area:983} Dunemaul Compound · {area:1938} Broken Pillar
-	["Keep {quest:2864}'s {quest:3362}: its Rootshapers (49-50) come with the {area:983} at the {area:1938}, on the way into Un'Goro at about 51."] = "{quest:2864} görevinin {quest:3362} kısmını sakla: Rootshaper'ları (49-50) yaklaşık 51'de Un'Goro'ya giderken {area:1938} yanındaki {area:983} ile gelir.",
+	-- Step 22: Andi Lynn
+	-- {npc:11758} Andi Lynn · {area:983} Dunemaul Compound
+	["{npc:11758} stands a few steps from Bilgewhizzle: the {area:983}."] = "{npc:11758}, Bilgewhizzle'dan birkaç adım ötede duruyor: {area:983}.",
+
+	-- Step 23: Gadgetzan
+	-- {quest:2864} Tran'rek · {quest:3362} Thistleshrub Valley · {area:1938} Broken Pillar
+	-- was: ["Keep {quest:2864}'s {quest:3362}: its Rootshapers (49-50) come with the {area:983} at the {area:1938}, on the way into Un'Goro at about 51."] = "Behalte {quest:3362} von {quest:2864}: Die Wurzelformer (49-50) kommen zusammen mit {area:983} bei {area:1938}, auf dem Weg nach Un'Goro mit etwa 51."
+	["Keep {quest:2864}'s {quest:3362}: its Rootshapers (49-50) come at the {area:1938}, on the way into Un'Goro at about 51."] = "{quest:2864} görevinin {quest:3362} kısmını sakla: Rootshaper'ları (49-50) yaklaşık 51. seviyede Un'Goro'ya giderken {area:1938} kesiminde gelir.",
 	-- {item:8526} Violet Tragan · {zone:1425} Hinterlands
 	["the {item:8526} grows in the {zone:1425}, around level 48"] = "{item:8526}, {zone:1425} bölgesinde yetişiyor, seviye 48 civarında",
 	-- {npc:5594} Alchemist Pestlezugg
 	["{npc:5594}, inside"] = "{npc:5594}, içeride",
-	-- {npc:11758} Andi Lynn · {area:983} Dunemaul Compound · {area:1938} Broken Pillar
-	["{npc:11758}'s {area:983} stays in your log for the {area:1938} at about 52."] = "{npc:11758} adlı NPC'nin {area:983} görevi yaklaşık 52'deki {area:1938} için günlüğünde kalır.",
 
-	-- Step 23: Scrimshank's gear
+	-- Step 25: Scrimshank's gear
 	["Scrimshank's gear"] = "Scrimshank'in eşyaları",
 	["Further south, Junior Surveyor Scrimshank's gear lies at the mouth of a Centipaar hive.\nCareful: One bug guards the gear. Many bugs patrol the tunnels, some of them level 50, so fights often pull extra adds."] = "Daha güneyde Junior Surveyor Scrimshank'in eşyaları bir Centipaar kovanının ağzında duruyor.\nDikkat: Eşyaları bir böcek koruyor. Tünellerde bazıları seviye 50 olan çok sayıda böcek devriye geziyor, bu yüzden dövüşler sık sık fazladan yaratık çeker.",
-	["Below ground"] = "Yer altında",
 
-	-- Step 24: OOX-17/TN
+	-- Step 26: OOX-17/TN
 	["OOX-17/TN"] = "OOX-17/TN",
 	-- {area:977} Steamwheedle Port · {area:35} Booty Bay
 	["Only with the distress beacon: OOX-17/TN sits south-east of Scrimshank's hive. Escort it north to {area:977}; its reward waits with Oglethorpe in {area:35}.\nCareful: The escort has two ambushes. Three level 47 scorpids attack near the start. Near the end, by the beach, three Wastewander humans attack: one mage and two assassins, around level 44."] = "Yalnızca imdat işaretiyle: OOX-17/TN, Scrimshank'in kovanının güneydoğusunda oturuyor. Ona kuzeye, {area:977} limanına kadar eşlik et. Ödülü {area:35} kasabasında Oglethorpe'ta bekliyor.\nDikkat: Eşlikte iki pusu var. Başlangıca yakın üç seviye 47 scorpid saldırır. Sona yakın, kumsalın yanında üç Wastewander insanı saldırır: bir mage ve iki assassin, seviye 44 civarı.",
 
-	-- Step 25: Tanaris Field Sampling
+	-- Step 27: Tanaris Field Sampling
 	-- {area:976} Gadgetzan · {item:8524} Model 4711-FTZ Power Source
 	-- plural, as words: Blisterpaw Hyenas = {npc:5426} Blisterpaw Hyena · Glasshide Basilisks = {npc:5419} Glasshide Basilisk · Scorpid Hunters = {npc:5422} Scorpid Hunter
 	["Back north, just south of {area:976}, use the {item:8524} now: the two-hour timer starts. The Blisterpaw Hyenas, Glasshide Basilisks and Scorpid Hunters share the dunes here. Each can drop an untested sample: use it, and it either passes as an acceptable one or is lost. Keep killing until you have eight of each."] = "Kuzeye dön ve {area:976} kasabasının hemen güneyinde {item:8524} eşyasını şimdi kullan: iki saatlik süre başlar. Blisterpaw Hyena, Glasshide Basilisk ve Scorpid Hunter yaratıkları buradaki kum tepelerini paylaşıyor. Her biri test edilmemiş bir numune düşürebilir: kullan, ya kabul edilebilir bir numune olarak geçer ya da kaybolur. Her birinden sekiz tane olana dek öldürmeye devam et.",
 	-- {item:8524} Model 4711-FTZ Power Source
 	["Use the {item:8524}"] = "{item:8524} eşyasını kullan",
 
-	-- Step 26: Gadgetzan
+	-- Step 28: Gadgetzan
 	-- {npc:5204} Apothecary Zinge · {zone:1458} Undercity
 	["for {npc:5204} in the {zone:1458}, around level 52"] = "52 civarında {zone:1458} şehrindeki {npc:5204} için",
 	-- {npc:7010} Zilzibin Drumlore · {zone:1454} Orgrimmar
 	["for {npc:7010} in {zone:1454}, around level 50"] = "{zone:1454} şehrindeki {npc:7010} için, seviye 50 civarı",
+	-- {item:4306} Silk Cloth · {npc:8661} Auctioneer Beardo · {quest:4449} Caught! · {area:247} Grimesilt Dig Site · {zone:1427} Searing Gorge
+	["{item:4306}: {npc:8661}, for {quest:4449} at the {area:247} in the {zone:1427}"] = "{item:4306}: {zone:1427} bölgesindeki {area:247} kazısında {quest:4449} için {npc:8661}",
 
-	-- Step 27: Boat to Powderfuse Port
+	-- Step 29: Boat to Powderfuse Port
 	-- {area:16727} Powderfuse Port
 	["Boat to {area:16727}"] = "Gemiyle: {area:16727}",
 
-	-- Step 28: Into Searing Gorge
+	-- Step 30: Into Searing Gorge
 	-- {zone:1427} Searing Gorge
 	["Into {zone:1427}"] = "{zone:1427} bölgesine",
 
-	-- Step 29: Searing Gorge
+	-- Step 31: Searing Gorge
 	-- {area:247} Grimesilt Dig Site
 	["The {area:247}"] = "{area:247} kazı alanı",
 
-	-- Step 30: The Grimesilt Dig Site
-	-- {area:16727} Powderfuse Port · {zone:1427} Searing Gorge · {object:173265} Wooden Outhouse · {item:4306} Silk Cloth
+	-- Step 32: The Grimesilt Dig Site
+	-- {area:16727} Powderfuse Port · {zone:1427} Searing Gorge · {object:173265} Wooden Outhouse · {item:4306} Silk Cloth · {area:976} Gadgetzan
 	-- plural, as words: Dark Iron Geologists = {npc:5839} Dark Iron Geologist
-	["From {area:16727}, ride into the {zone:1427} by its eastern pass, then west to the dig site. The {object:173265} stands at its southern end; the Dark Iron Geologists dig just north of it. Bring 15 {item:4306} (the Auction House sells it)."] = "{area:16727} limanından doğu geçidiyle {zone:1427} bölgesine gir, sonra batıya, kazı alanına git. {object:173265} güney ucunda duruyor. Dark Iron Geologist yaratıkları hemen kuzeyinde kazı yapıyor. 15 {item:4306} getir (Auction House'ta satılıyor).",
+	-- was: ["From {area:16727}, ride into the {zone:1427} by its eastern pass, then west to the dig site. The {object:173265} stands at its southern end; the Dark Iron Geologists dig just north of it. Bring 15 {item:4306} (the Auction House sells it)."] = "Reite von {area:16727} über den östlichen Pass in {zone:1427}, dann nach Westen zur Ausgrabungsstätte. {object:173265} steht an ihrem südlichen Ende; die Dark Iron Geologists graben direkt nördlich davon. Bring 15 {item:4306} mit (das Auktionshaus verkauft sie)."
+	["From {area:16727}, ride into the {zone:1427} by its eastern pass, then west to the dig site. The {object:173265} stands at its southern end; the Dark Iron Geologists dig just north of it. Bring the 15 {item:4306} from {area:976}'s Auction House: the Geologists drop it only now and then."] = "{area:16727} limanından doğu geçidiyle {zone:1427} bölgesine sürüp batıya, kazı alanına git. {object:173265} güney ucunda duruyor, Dark Iron Geologist yaratıkları hemen kuzeyinde kazı yapıyor. 15 {item:4306} kumaşı {area:976} Auction House'tan getir: Geologist'ler onu ancak arada bir düşürür.",
 	-- {object:173265} Wooden Outhouse
 	["the {object:173265}"] = "{object:173265}",
 
-	-- Step 32: Thorium Point
+	-- Step 34: Thorium Point
 	-- {area:1446} Thorium Point
 	["Ride north-west across the gorge; {area:1446} is the scaffolded camp in the north-west."] = "Boğazı kuzeybatıya geç, {area:1446}, kuzeybatıdaki iskeleli kamp.",
 	-- {object:179827} Wanted/Missing/Lost & Found
 	["The {object:179827} board"] = "{object:179827} panosu",
 
-	-- Step 33: The Cauldron's slavers and golems
+	-- Step 35: The Cauldron's slavers and golems
 	-- {area:246} The Cauldron
 	["{area:246}'s slavers and golems"] = "{area:246} kesiminin köle tacirleri ve golemleri",
 	-- {area:1446} Thorium Point · {npc:8479} Velarok Windblade
 	-- plural, as words: Dark Iron Taskmasters = {npc:5846} Dark Iron Taskmaster · Heavy War Golems = {npc:5854} Heavy War Golem
 	["Ride south from {area:1446} into the Cauldron: the Dark Iron Taskmasters and Slavers drive the slaves on the paths, and the Heavy War Golems patrol the floor below {npc:8479}. Careful: the biggest golems are 49: pull them one at a time."] = "{area:1446} karakolundan güneye, Cauldron'a sür: Dark Iron Taskmaster ve Slaver yaratıkları patikalarda köleleri sürüyor, Heavy War Golem yaratıkları da {npc:8479} yanının aşağısındaki tabanda devriye geziyor. Dikkat: en büyük golemler 49: tek tek çek.",
 
-	-- Step 34: Velarok Windblade
+	-- Step 36: Velarok Windblade
 	-- {npc:8479} Velarok Windblade · {area:1446} Thorium Point
 	["{npc:8479} stands alone south of {area:1446}, at the edge of the Cauldron. Listen to his story."] = "{npc:8479}, {area:1446} karakolunun güneyinde, Cauldron'un kenarında yalnız duruyor. Hikâyesini dinle.",
 
-	-- Step 37: Searing Gorge: kill these as you meet them
+	-- Step 39: Searing Gorge: kill these as you meet them
 	-- {zone:1427} Searing Gorge
 	["{zone:1427}: kill these as you meet them"] = "{zone:1427}: bunları karşılaştıkça öldür",
 	-- {npc:8479} Velarok Windblade · {item:11818} Grimesilt Outhouse Key · {area:1443} The Slag Pit
@@ -176,28 +194,30 @@ return {
 	-- {area:1443} The Slag Pit
 	["Below ground: the plans, on the {area:1443}'s upper ledge"] = "Yerin altında: planlar, {area:1443} üst çıkıntısında",
 
-	-- Step 39: Thorium Point
+	-- Step 41: Thorium Point
 	-- {area:1446} Thorium Point · {npc:8479} Velarok Windblade
 	["Ride back north to {area:1446}, just past {npc:8479}."] = "Kuzeye, {npc:8479} adlı NPC'nin hemen ötesindeki {area:1446} karakoluna dön.",
 
-	-- Step 40: The Steamsmiths' furnaces
+	-- Step 42: The Steamsmiths' furnaces
 	["The Steamsmiths' furnaces"] = "Steamsmith ocakları",
 	-- {item:10551} Thorium Plated Dagger · {item:18959} Smithing Tuyere
 	-- plural, as words: Dark Iron Steamsmiths = {npc:5840} Dark Iron Steamsmith
 	["The Dark Iron Steamsmiths work the furnaces in the middle of the Cauldron; half of them carry a {item:10551}, one in ten the {item:18959}. Slaves, Slavers and Taskmasters carry daggers too."] = "Dark Iron Steamsmith yaratıkları Cauldron'un ortasındaki ocaklarda çalışıyor. Yarısında {item:10551}, onda birinde {item:18959} var. Köleler, Slaver ve Taskmaster yaratıkları da hançer taşıyor.",
 
-	-- Step 41: Velarok Windblade
+	-- Step 43: Velarok Windblade
+	-- {npc:8479} Velarok Windblade · {quest:3452} The Flame's Casing
+	["{npc:8479}: {quest:3452}, for the next guide's crossing of the gorge at about 52 (its Twilight cultists, elites 47-50, are at your level now)"] = "{npc:8479}: {quest:3452}, sonraki rehberin yaklaşık 52. seviyede vadiyi geçişi için (Twilight tarikatçıları, 47-50 elitler, artık senin seviyende)",
 	-- {item:10552} Symbol of Ragnaros
 	["His next request needs the {item:10552} from elite cultists: leave it."] = "Sonraki isteği elit tarikatçılardan düşen {item:10552} gerektiriyor: bırak.",
 
-	-- Step 42: Dark Iron Lookouts
+	-- Step 44: Dark Iron Lookouts
 	-- plural, as words: Dark Iron Lookouts = {npc:8566} Dark Iron Lookout
 	["Dark Iron Lookouts"] = "Dark Iron Lookout yaratıkları",
 	-- {item:18960} Lookout's Spyglass
 	-- plural, as words: Dark Iron Lookouts = {npc:8566} Dark Iron Lookout
 	["The Dark Iron Lookouts stand on the ridges around the sentry towers south of the Cauldron; about one in ten carries the {item:18960}."] = "Dark Iron Lookout yaratıkları Cauldron'un güneyindeki nöbet kulelerinin çevresindeki sırtlarda duruyor. Yaklaşık onda birinde {item:18960} var.",
 
-	-- Step 43: The Key to Freedom
+	-- Step 45: The Key to Freedom
 	-- {item:11818} Grimesilt Outhouse Key · {object:173265} Wooden Outhouse
 	["Only with the {item:11818}: back east to the {object:173265} at the dig site."] = "Yalnızca {item:11818} varsa: doğuya, kazı alanındaki {object:173265} yanına dön.",
 }

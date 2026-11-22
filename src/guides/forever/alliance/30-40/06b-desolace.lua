@@ -24,18 +24,20 @@ return {
 	["Off the boat, walk up the pier to Baldruc, the flight master by the gate of {area:514}."] = "Gemiden inince iskeleden yukarı, {area:514} kapısının yanındaki uçuş ustası Baldruc'a yürü.",
 
 	-- Step 4: Nijel's Point
-	-- {npc:5638} Kreldig Ungor · {npc:11863} Azore Aldamort
-	["{npc:5638}, if 30-40/02 didn't take it: the wreck lies below {npc:11863}'s tower"] = "{npc:5638}, 30-40/02 onu almadıysa: enkaz {npc:11863} adlı NPC'nin kulesinin aşağısında",
-	-- {npc:5396} Captain Pentigast
-	["{npc:5396}, if 30-40/02 didn't give it"] = "{npc:5396}, 30-40/02 vermediyse",
+	-- {npc:5638} Kreldig Ungor · {zone:1443} Desolace · {npc:11863} Azore Aldamort
+	["{npc:5638}, if the first {zone:1443} visit didn't take it: the wreck lies below {npc:11863}'s tower"] = "{npc:5638}, ilk {zone:1443} ziyareti almadıysa: enkaz {npc:11863} adlı NPC'nin kulesinin aşağısında",
+	-- {npc:5396} Captain Pentigast · {zone:1443} Desolace
+	["{npc:5396}, if the first {zone:1443} visit didn't give it"] = "{npc:5396}, ilk {zone:1443} ziyareti vermediyse",
 
 	-- Step 5: Bibbly F'utzbuckle
 	-- {area:2407} Kormek's Hut
 	["Follow the road south to {area:2407}."] = "Yolu güneye izleyerek {area:2407} kulübesine git.",
+	-- {npc:11438} Bibbly F'utzbuckle · {zone:1443} Desolace
+	["{npc:11438}, if the first {zone:1443} visit didn't give it"] = "{npc:11438}, ilk {zone:1443} ziyareti vermediyse",
 
 	-- Step 6: Kodo Graveyard
 	-- {npc:6019} Hornizz Brimbuzzle · {area:596} Kodo Graveyard · {area:2407} Kormek's Hut · {object:176751} Kodo Bones
-	["{npc:6019} stands at the edge of the {area:596}, south-west of {area:2407}; {object:176751} lie among the skeletons."] = "{npc:6019}, {area:2407} kulübesinin güneybatısında, {area:596} mezarlığının kenarında duruyor. {object:176751} iskeletlerin arasında.",
+	["{npc:6019} stands at the edge of the {area:596}, south-west of {area:2407}; {object:176751} lie among the skeletons.\nCareful: Rexxar (62, elite), the Horde's champion, walks the road past the graveyard with his bear Misha and attacks Alliance players: when he comes by, step well away from the road and let him pass."] = "{npc:6019}, {area:2407} kulübesinin güneybatısında, {area:596} mezarlığının kenarında duruyor. {object:176751} iskeletlerin arasında.\nDikkat: Horde'un şampiyonu Rexxar (62, elit), ayısı Misha ile mezarlığın yanından geçen yolda yürüyor ve Alliance oyuncularına saldırıyor: yanından geçerken yoldan iyice uzaklaşıp geçmesini bekle.",
 
 	-- Step 7: Hornizz Brimbuzzle
 	-- {quest:6134} Ghost-o-plasm Round Up · {area:2657} Valley of Bones
@@ -88,8 +90,12 @@ return {
 	-- Step 17: Azore Aldamort
 	-- {zone:1443} Desolace · {area:2405} Ethel Rethor · {npc:11863} Azore Aldamort
 	["Follow the road west across the north of {zone:1443} to the ruins of {area:2405}. {npc:11863}'s tower stands on the hill there, on the way to the wreck."] = "Yolu batıya izleyerek {zone:1443} bölgesinin kuzeyini geç ve {area:2405} harabelerine git. {npc:11863} adlı NPC'nin kulesi oradaki tepede, batığa giden yolun üzerinde.",
+	-- {npc:11863} Azore Aldamort · {zone:1443} Desolace
+	["{npc:11863}, if the first {zone:1443} visit didn't take the sceptre back to him"] = "{npc:11863}, ilk {zone:1443} ziyaretinde asa ona geri götürülmediyse",
 	-- {npc:11863} Azore Aldamort · {quest:93464} The Visiting Mage · {zone:1435} Swamp of Sorrows
 	["{npc:11863}: {quest:93464}, from Magtoor in the {zone:1435}"] = "{npc:11863}: {quest:93464}, {zone:1435} bölgesindeki Magtoor'dan",
+	-- {npc:11863} Azore Aldamort · {zone:1443} Desolace
+	["{npc:11863}, if the first {zone:1443} visit didn't give it"] = "{npc:11863}, ilk {zone:1443} ziyareti vermediyse",
 
 	-- Step 18: Karnitol's Chest
 	-- {npc:11863} Azore Aldamort
@@ -98,15 +104,15 @@ return {
 	-- Step 19: Claim Rackmore's Treasure!
 	-- {object:177787} Rackmore's Log · {object:35251} Karnitol's Chest · {zone:1443} Desolace
 	["{object:177787} lies beside {object:35251}, if you didn't take it on your first {zone:1443} visit. His silver key drops from the Drysnap crabs around the wreck; the golden one comes from the Slitherblade naga on the north-west coast, next."] = "İlk {zone:1443} ziyaretinde almadıysan {object:177787}, {object:35251} yanında duruyor. Gümüş anahtarı enkazın çevresindeki Drysnap yengeçlerinden düşer. Altın olanı sıradaki kuzeybatı kıyısındaki Slitherblade nagalarından gelir.",
-	-- {object:177787} Rackmore's Log
-	["{object:177787}, if 30-40/02 didn't take it"] = "{object:177787}, 30-40/02 almadıysa",
+	-- {object:177787} Rackmore's Log · {zone:1443} Desolace
+	["{object:177787}, if the first {zone:1443} visit didn't take it"] = "{object:177787}, ilk {zone:1443} ziyareti almadıysa",
 	["Underwater"] = "Su altında",
 
 	-- Step 20: Sar'theris Strand: kill these as you meet them
 	-- {area:598} Sar'theris Strand
 	["{area:598}: kill these as you meet them"] = "{area:598}: bunları karşılaştıkça öldür",
-	-- {npc:11863} Azore Aldamort · {area:2406} Ranazjar Isle · {item:15766} Gem of the Serpent · {object:177673} Serpent Statue · {npc:12369} Lord Kragaru · {quest:6027} Book of the Ancients
-	["The Slitherblade naga hold the north-west coast north of {npc:11863}'s tower; Karnitol's satchel lies on the sea floor off it, and any naga can drop Rackmore's golden key. Swim out to {area:2406} off the far northern tip and use the {item:15766} on the {object:177673}: {npc:12369} (38) rises; kill him for the {quest:6027}."] = "Slitherblade naga'ları {npc:11863} adlı NPC'nin kulesinin kuzeyindeki kuzeybatı kıyısını tutuyor. Karnitol'ün çantası kıyının açığında deniz dibinde duruyor ve herhangi bir naga Rackmore'un altın anahtarını düşürebilir. En kuzey ucun açığındaki {area:2406} adasına yüz ve {object:177673} üzerinde {item:15766} kullan: {npc:12369} (38) ortaya çıkar. {quest:6027} için onu öldür.",
+	-- {npc:11863} Azore Aldamort · {spell:131} Water Breathing · {area:2406} Ranazjar Isle · {item:15766} Gem of the Serpent · {object:177673} Serpent Statue · {npc:12369} Lord Kragaru · {quest:6027} Book of the Ancients
+	["The Slitherblade naga hold the north-west coast north of {npc:11863}'s tower, on the shore and out in the water. Karnitol's satchel drops now and then from their Tidehunters and Sea Witches, most of them underwater ({spell:131} helps): take it if it comes, it is optional. Any naga can drop Rackmore's golden key. Swim out to {area:2406} off the far northern tip and use the {item:15766} on the {object:177673}: {npc:12369} (38) rises; kill him for the {quest:6027}."] = "Slitherblade nagaları {npc:11863} adlı NPC'nin kulesinin kuzeyindeki kuzeybatı kıyısını, kumsalda ve açıkta suyun içinde tutuyor. Karnitol'ün çantası arada bir Tidehunter ve Sea Witch yaratıklarından düşer, çoğu su altında ({spell:131} işe yarar): düşerse al, isteğe bağlı. Herhangi bir naga Rackmore'un altın anahtarını düşürebilir. En kuzey ucun açığındaki {area:2406} adasına yüzüp {object:177673} üzerinde {item:15766} kullan: {npc:12369} (38) ortaya çıkar. {quest:6027} için onu öldür.",
 	-- {item:15881} Rackmore's Golden Key
 	["{item:15881}, from the Slitherblade naga"] = "{item:15881}, Slitherblade naga'larından",
 	-- {item:15766} Gem of the Serpent · {object:177673} Serpent Statue

@@ -337,9 +337,10 @@ return {
 	-- Step 60: Tirisfal Glades: kill these as you meet them
 	-- {zone:1420} Tirisfal Glades
 	["{zone:1420}: kill these as you meet them"] = "{zone:1420}: bunları karşılaştıkça öldür",
-	-- {area:159} Brill · {npc:3549} Shelene Rhobart · {quest:5482} Doom Weed · {area:164} Garren's Haunt · {npc:1753} Maggot Eye
+	-- {area:159} Brill · {npc:3549} Shelene Rhobart · {quest:5482} Doom Weed · {area:164} Garren's Haunt · {npc:1753} Maggot Eye · {area:157} Agamand Mills
 	-- plural, as words: Greater Duskbats = {npc:1553} Greater Duskbat · Vampiric Duskbats = {npc:1554} Vampiric Duskbat · Rot Hide Graverobbers = {npc:1941} Rot Hide Graverobber · Rot Hide Mongrels = {npc:1675} Rot Hide Mongrel
-	["Greater Duskbats (6-7) fly over the fields around {area:159} and along the road north: Gretchen wants their pelts, {npc:3549} their wings. The Vampiric Duskbats (8-9) farther out drop them too, but hit harder.\nThe {quest:5482} grows in the graveyard fields just north of {area:159}, where the Rot Hide Graverobbers dig; all the Rot Hides drop the ichor.\nThe Rot Hide Mongrels hold the hills further north, around {area:164}. Leave {npc:1753} (level 11) in his hut for now: the guide comes back for him at the end.\nThe Vile Fin murlocs line the north shore: they all drop the scales, and the Minor Oracles and Muckdwellers the skins for {npc:3549}. Straight north of {area:159} the shore holds Puddlejumpers and Minor Oracles (7-9) with no Muckdwellers (9-10) close by."] = "Greater Duskbat yaratıkları (6-7) {area:159} kasabasının çevresindeki tarlaların üstünde ve kuzeye giden yol boyunca uçuyor: Gretchen postlarını, {npc:3549} kanatlarını istiyor. Daha uzaktaki Vampiric Duskbat yaratıkları (8-9) da bunları düşürür ama daha sert vurur.\n{quest:5482}, {area:159} kasabasının hemen kuzeyindeki mezarlık tarlalarında, Rot Hide Graverobber yaratıklarının kazdığı yerde yetişiyor. Bütün Rot Hide'lar ichor düşürür.\nRot Hide Mongrel yaratıkları daha kuzeydeki tepeleri, {area:164} çevresini tutuyor. {npc:1753} (seviye 11) yaratığını şimdilik kulübesinde bırak: rehber sonunda onun için geri döner.\nVile Fin murlocları kuzey kıyıyı dolduruyor: hepsi pul düşürür, Minor Oracle ve Muckdweller yaratıkları da {npc:3549} için deri. {area:159} kasabasının tam kuzeyindeki kıyıda yakınında Muckdweller (9-10) olmayan Puddlejumper ve Minor Oracle yaratıkları (7-9) var.",
+	-- was: ["Greater Duskbats (6-7) fly over the fields around {area:159} and along the road north: Gretchen wants their pelts, {npc:3549} their wings. The Vampiric Duskbats (8-9) farther out drop them too, but hit harder.\nThe {quest:5482} grows in the graveyard fields just north of {area:159}, where the Rot Hide Graverobbers dig; all the Rot Hides drop the ichor.\nThe Rot Hide Mongrels hold the hills further north, around {area:164}. Leave {npc:1753} (level 11) in his hut for now: the guide comes back for him at the end.\nThe Vile Fin murlocs line the north shore: they all drop the scales, and the Minor Oracles and Muckdwellers the skins for {npc:3549}. Straight north of {area:159} the shore holds Puddlejumpers and Minor Oracles (7-9) with no Muckdwellers (9-10) close by."] = "Große Nachtsauger (6-7) fliegen über die Felder um {area:159} und entlang der Straße nach Norden: Gretchen will ihre Felle, {npc:3549} ihre Flügel. Die Vampirnachtsauger (8-9) weiter draußen lassen sie auch fallen, schlagen aber härter zu.\nDas {quest:5482} wächst auf den Friedhofsfeldern direkt nördlich von {area:159}, wo die Grabräuber der Moderfelle graben; alle Moderfelle lassen den Eiter fallen.\nDie Bastarde der Moderfelle halten die Hügel weiter nördlich, um {area:164}. Lass {npc:1753} (Stufe 11) vorerst in seiner Hütte: Der Guide kommt am Ende für ihn zurück.\nDie Vile-Fin-Murlocs säumen die Nordküste: Sie lassen alle die Schuppen fallen, und die Minor Oracles und Muckdwellers die Häute für {npc:3549}. Direkt nördlich von {area:159} gibt es an der Küste Puddlejumpers und Minor Oracles (7-9) ohne Muckdwellers (9-10) in der Nähe."
+	["Greater Duskbats (6-7) fly over the fields around {area:159} and along the road north: Gretchen wants their pelts, {npc:3549} their wings. The Vampiric Duskbats (8-9) farther out drop them too, but hit harder.\nThe {quest:5482} grows in the graveyard fields just north of {area:159}, where the Rot Hide Graverobbers dig; all the Rot Hides drop the ichor.\nThe Rot Hide Mongrels hold the hills further north, around {area:164}. Leave {npc:1753} (level 11) in his hut for now: the guide comes back for him after {area:157}.\nThe Vile Fin murlocs line the north shore: they all drop the scales, and the Minor Oracles and Muckdwellers the skins for {npc:3549}. Straight north of {area:159} the shore holds Puddlejumpers and Minor Oracles (7-9) with no Muckdwellers (9-10) close by."] = "Greater Duskbat yaratıkları (6-7) {area:159} köyünün çevresindeki tarlaların ve kuzeye giden yolun üstünde uçuyor: Gretchen postlarını, {npc:3549} kanatlarını istiyor. Daha uzaktaki Vampiric Duskbat yaratıkları (8-9) da düşürür ama daha sert vurur.\n{quest:5482}, {area:159} köyünün hemen kuzeyindeki mezarlık tarlalarında, Rot Hide Graverobber yaratıklarının kazdığı yerde yetişiyor. Bütün Rot Hide'lar ichor düşürür.\nRot Hide Mongrel yaratıkları daha kuzeydeki tepeleri, {area:164} çevresini tutuyor. {npc:1753} (seviye 11) yaratığını şimdilik kulübesinde bırak: rehber {area:157} sonrasında onun için geri gelir.\nVile Fin murlocları kuzey kıyısı boyunca diziliyor: hepsi pul düşürür, Minor Oracle ve Muckdweller'lar da {npc:3549} için deri. {area:159} köyünün tam kuzeyindeki kıyıda Puddlejumper ve Minor Oracle yaratıkları (7-9) var, yakınlarda Muckdweller (9-10) yok.",
 	-- {npc:1675} Rot Hide Mongrel · {area:164} Garren's Haunt
 	["{npc:1675} walks around {area:164}: look inside the circle on the map"] = "{npc:1675}, {area:164} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
@@ -366,8 +367,9 @@ return {
 	["{npc:267009} stands at the camp beside Linnea."] = "{npc:267009}, Linnea'nın yanında, kampta duruyor.",
 
 	-- Step 65: Magistrate Sevren
-	-- {area:159} Brill · {area:157} Agamand Mills
-	["Back up the road to {area:159}, on the way north-west to {area:157}."] = "Kuzeybatıdaki {area:157} değirmenlerine giderken yoldan {area:159} kasabasına geri çık.",
+	-- {area:159} Brill · {area:157} Agamand Mills · {npc:1753} Maggot Eye · {npc:1515} Executor Zygand
+	["Back up the road to {area:159}, on the way north-west to {area:157}. The Wanted poster for {npc:1753} stands beside {npc:1515}, in front of the inn."] = "Yoldan yukarı, kuzeybatıya, {area:157} yolundaki {area:159} köyüne dön. {npc:1753} için Wanted ilanı hanın önünde, {npc:1515} yanında duruyor.",
+	["The Wanted poster beside Zygand"] = "Zygand'ın yanındaki Wanted ilanı",
 
 	-- Step 66: Agamand Mills
 	-- {area:157} Agamand Mills · {npc:1657} Devlin Agamand · {npc:1656} Thurman Agamand · {item:2839} A Letter to Yvette
@@ -379,7 +381,13 @@ return {
 	["{item:2839}, a rare drop"] = "{item:2839}, nadiren düşer",
 	["Only if the letter dropped"] = "Yalnızca mektup düştüyse",
 
-	-- Step 67: Brill
+	-- Step 67: Maggot Eye
+	-- {area:159} Brill · {area:164} Garren's Haunt · {npc:1753} Maggot Eye
+	["On the way back to {area:159}, {area:164} is the Rot Hide camp on the hill east of the mills, south of the shore. {npc:1753} stands in the hut.\nCareful: {npc:1753} is level 11 and gnoll guards stand outside the hut and can join the fight: clear them one at a time first. If you slip past them and fight him inside, he fights alone."] = "{area:159} köyüne dönerken: {area:164}, kıyının güneyinde, değirmenlerin doğusundaki tepedeki Rot Hide kampı. {npc:1753} kulübede duruyor.\nDikkat: {npc:1753} seviye 11, kulübenin dışında duran gnoll muhafızlar da dövüşe katılabilir: önce onları tek tek temizle. Yanlarından sıyrılıp içeride onunla dövüşürsen yalnız dövüşür.",
+	-- {item:3635} Maggot Eye's Paw
+	["{item:3635}; inside"] = "{item:3635}, içeride",
+
+	-- Step 68: Brill
 	-- {npc:1560} Yvette Farthing
 	["{npc:1560}, in the inn"] = "{npc:1560}, handa",
 	-- {npc:2128} Cain Firesong · {npc:4568} Anastasia Hartwell · {zone:1458} Undercity
@@ -389,11 +397,11 @@ return {
 	-- {npc:1738} Deathguard Terrence · {area:159} Brill
 	["{npc:1738}, if you were below 10 on the last {area:159} visit"] = "{npc:1738}, son {area:159} ziyaretinde 10'un altındaysan",
 
-	-- Step 68: Ulag the Cleaver
+	-- Step 69: Ulag the Cleaver
 	-- {npc:6390} Ulag the Cleaver
 	["{npc:6390} waits in the mausoleum on the hill just north of town: open the gate and fight him."] = "{npc:6390}, kasabanın hemen kuzeyindeki tepede, anıt mezarda bekliyor: kapıyı aç ve onunla dövüş.",
 
-	-- Step 69: Carendin Halgar
+	-- Step 70: Carendin Halgar
 	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {area:1497} Undercity · {npc:5675} Carendin Halgar · {object:36082} Magic Quarter
 	["Walk south from {area:159} to the {area:153} and down into the {area:1497}. {npc:5675} stands in the {object:36082}. The Scarlet camp is just west of the ruins."] = "{area:159} kasabasından güneye, {area:153} harabelerine yürü ve aşağı, {area:1497} şehrine in. {npc:5675}, {object:36082} içinde duruyor. Scarlet kampı harabelerin hemen batısında.",
 	-- {npc:4551} Michael Garrett
@@ -401,30 +409,30 @@ return {
 	-- {npc:5675} Carendin Halgar · {quest:1473} Creature of the Void
 	["{npc:5675}: he offers {quest:1473} only once this is handed in"] = "{npc:5675}: {quest:1473} görevini ancak bu teslim edilince verir",
 
-	-- Step 70: Anastasia Hartwell
+	-- Step 71: Anastasia Hartwell
 	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {area:1497} Undercity · {npc:4568} Anastasia Hartwell · {object:36082} Magic Quarter
 	["Walk south from {area:159} to the {area:153} and down into the {area:1497}. {npc:4568} stands in the {object:36082}. The Scarlet camp is just west of the ruins."] = "{area:159} kasabasından güneye, {area:153} harabelerine yürü ve aşağı, {area:1497} şehrine in. {npc:4568}, {object:36082} içinde duruyor. Scarlet kampı harabelerin hemen batısında.",
 
-	-- Step 71: Back to Tirisfal Glades
+	-- Step 72: Back to Tirisfal Glades
 	-- {zone:1420} Tirisfal Glades
 	["Back to {zone:1420}"] = "Dönüş: {zone:1420}",
 	["The Scarlet camp"] = "Scarlet kampı",
 
-	-- Step 72: Tirisfal Glades: kill these as you meet them
+	-- Step 73: Tirisfal Glades: kill these as you meet them
 	-- {area:159} Brill · {npc:1662} Captain Perrine
 	["Follow the road south-west from {area:159} to the Scarlet Crusade camp. {npc:1662} stands at its south end; every Scarlet there can drop a ring."] = "Yolu izleyerek {area:159} kasabasından güneybatıya, Scarlet Crusade kampına git. {npc:1662} kampın güney ucunda duruyor. Oradaki her Scarlet bir yüzük düşürebilir.",
 	-- {npc:1537} Scarlet Zealot
 	["{npc:1537} walks around here: look inside the circle on the map"] = "{npc:1537} buralarda dolaşıyor: haritadaki çemberin içine bak",
 
-	-- Step 73: Perrine's Chest
+	-- Step 74: Perrine's Chest
 	-- {object:37098} Perrine's Chest · {npc:1662} Captain Perrine
 	["{object:37098} stands beside {npc:1662} at the camp's south end."] = "{object:37098}, kampın güney ucunda, {npc:1662} adlı NPC'nin yanında duruyor.",
 
-	-- Step 75: Hadric Harlson
+	-- Step 76: Hadric Harlson
 	-- {npc:267009} Hadric Harlson · {npc:1495} Deathguard Linnea
 	["{npc:267009} stands at {npc:1495}'s camp, on the road to the cult's farm."] = "{npc:267009}, tarikatın çiftliğine giden yol üstünde, {npc:1495} adlı NPC'nin kampında duruyor.",
 
-	-- Step 76: Balnir Farmstead: kill these as you meet them
+	-- Step 77: Balnir Farmstead: kill these as you meet them
 	-- {area:165} Balnir Farmstead
 	["{area:165}: kill these as you meet them"] = "{area:165}: bunları karşılaştıkça öldür",
 	-- {quest:99142} Tomb Weed · {npc:1664} Captain Vachon
@@ -433,29 +441,23 @@ return {
 	-- {item:7227} Balnir Snapdragons
 	["{item:7227}, in the farmstead's garden"] = "{item:7227}, çiftliğin bahçesinde",
 
-	-- Step 77: Tirisfal Glades: kill these as you meet them
+	-- Step 78: Tirisfal Glades: kill these as you meet them
 	-- {npc:1495} Deathguard Linnea
 	-- plural, as words: Necrotic Crystal Fragments = {item:275851} Necrotic Crystal Fragment
 	["On the way back west, the Cult of the Damned holds the farm just south-east of {npc:1495}'s camp. The Necrotic Crystal Fragments lie on the ground among the cultists, and the cultists carry some too.\nCareful: the cultists (10-12) stand close together and the Neophytes cast: pull one at a time from the edge of the farm."] = "Batıya dönerken: Cult of the Damned, {npc:1495} kampının hemen güneydoğusundaki çiftliği tutuyor. Necrotic Crystal Fragment eşyaları tarikatçıların arasında yerde duruyor, tarikatçılar da bazılarını taşıyor.\nDikkat: tarikatçılar (10-12) birbirine yakın duruyor ve Neophyte'lar büyü yapar: çiftliğin kenarından tek tek çek.",
 
-	-- Step 79: Brill
+	-- Step 80: Brill
 	-- {area:159} Brill · {npc:2128} Cain Firesong · {npc:2129} Dark Cleric Beryl · {npc:2127} Rupert Boch · {npc:2130} Marion Call
 	["Back up the road to {area:159}. {npc:2128} (mages), {npc:2129} (priests), {npc:2127} (warlocks) and {npc:2130} (rogues) stand upstairs in the inn: take the stairs inside, the arrow cannot tell the floors apart."] = "Yoldan {area:159} kasabasına geri çık. {npc:2128} (Mage'ler), {npc:2129} (Priest'ler), {npc:2127} (Warlock'lar) ve {npc:2130} (Rogue'lar) hanın üst katında duruyor: içerideki merdivenden çık, ok katları birbirinden ayıramaz.",
 	-- {npc:1518} Apothecary Johaan · {area:228} Sepulcher
 	["{npc:1518}: for Renferrel at the {area:228}"] = "{npc:1518}: {area:228} kasabasındaki Renferrel için",
-	["The Wanted poster beside Zygand"] = "Zygand'ın yanındaki Wanted ilanı",
 	-- {npc:2211} Captured Mountaineer
 	["The {npc:2211}, in the inn's cellar"] = "{npc:2211}, hanın mahzeninde",
 
-	-- Step 80: Maggot Eye
-	-- {area:164} Garren's Haunt · {npc:1753} Maggot Eye
-	["North to {area:164}, the Rot Hide camp on the hill south of the shore. {npc:1753} (level 11) stands in the hut: clear the gnolls around him first.\nCareful: Gnoll guards stand outside the hut and can join the fight. If you slip past them and fight him inside, he fights alone."] = "Kuzeye, kıyının güneyindeki tepede bulunan Rot Hide kampı {area:164} içine git. {npc:1753} (seviye 11) kulübede duruyor: önce çevresindeki gnoll'ları temizle.\nDikkat: gnoll muhafızlar kulübenin dışında duruyor ve dövüşe katılabilir. Onları atlatıp içeride dövüşürsen yalnız dövüşür.",
-	-- {item:3635} Maggot Eye's Paw
-	["{item:3635}; inside"] = "{item:3635}, içeride",
-
 	-- Step 81: Leonid Barthalomew the Revered
-	-- {area:164} Garren's Haunt · {area:157} Agamand Mills · {area:16616} Whispering Forest · {npc:246389} Hilda the Breaker · {npc:259190} Ephram Barbaro · {quest:96896} A Righteous Cause · {area:16881} Shadowvale
-	["West from {area:164} past {area:157} to the {area:16616}. Leonid stands just north of {npc:246389}'s camp.\n{npc:246389} and {npc:259190} camp at the forest's edge just south of Leonid. Every class can take both quests once {quest:96896} is handed in (level 10). They send you into the cellar under {area:16881}, the next stop."] = "{area:164} içinden batıya, {area:157} çiftliğini geçip {area:16616} ormanına git. Leonid, {npc:246389} kampının hemen kuzeyinde duruyor.\n{npc:246389} ve {npc:259190}, Leonid'in hemen güneyinde, ormanın kenarında kamp kurmuş. {quest:96896} teslim edilince (seviye 10) her sınıf iki görevi de alabilir. Seni bir sonraki durak olan {area:16881} altındaki mahzene gönderirler.",
+	-- {area:159} Brill · {area:157} Agamand Mills · {area:16616} Whispering Forest · {npc:246389} Hilda the Breaker · {npc:259190} Ephram Barbaro · {quest:96896} A Righteous Cause · {area:16881} Shadowvale
+	-- was: ["West from {area:164} past {area:157} to the {area:16616}. Leonid stands just north of {npc:246389}'s camp.\n{npc:246389} and {npc:259190} camp at the forest's edge just south of Leonid. Every class can take both quests once {quest:96896} is handed in (level 10). They send you into the cellar under {area:16881}, the next stop."] = "Von {area:164} nach Westen an {area:157} vorbei zum {area:16616}. Leonid steht direkt nördlich vom Lager von {npc:246389}.\n{npc:246389} und {npc:259190} lagern am Waldrand direkt südlich von Leonid. Jede Klasse kann beide Quests annehmen, sobald {quest:96896} abgegeben ist (Stufe 10). Sie schicken dich in den Keller unter {area:16881}, den nächsten Halt."
+	["North-west from {area:159} past {area:157} to the {area:16616}. Leonid stands just north of {npc:246389}'s camp.\n{npc:246389} and {npc:259190} camp at the forest's edge just south of Leonid. Every class can take both quests once {quest:96896} is handed in (level 10). They send you into the cellar under {area:16881}, the next stop."] = "{area:159} köyünden kuzeybatıya, {area:157} değirmenlerini geçip {area:16616} ormanına git. Leonid, {npc:246389} kampının hemen kuzeyinde duruyor.\n{npc:246389} ve {npc:259190}, Leonid'in hemen güneyinde, ormanın kenarında kamp kurmuş. {quest:96896} teslim edilince (seviye 10) her sınıf iki görevi de alabilir. Seni sıradaki durak {area:16881} altındaki mahzene gönderirler.",
 	-- {npc:246378} Danitha Morr
 	["Listen to Leonid and {npc:246378}, then talk to him again"] = "Leonid ve {npc:246378} adlı NPC'leri dinle, sonra Leonid ile yeniden konuş",
 

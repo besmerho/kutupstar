@@ -10,7 +10,17 @@ return {
 	["The boat from {area:392}'s dock crosses to {area:35}, on Stranglethorn's southern cape."] = "{area:392} kasabasının iskelesinden kalkan gemi Stranglethorn'un güney burnundaki {area:35} limanına geçer.",
 
 	-- Step 2: Booty Bay
-	["Bind your hearthstone at the inn: it is your way back here from the north of the jungle at the end of the loop."] = "Hearthstone'unu handa bağla: turun sonunda ormanın kuzeyinden buraya dönüş yolun bu.",
+	-- {npc:4631} Wharfmaster Lozgil
+	-- was: ["Bind your hearthstone at the inn: it is your way back here from the north of the jungle at the end of the loop."] = "Binde deinen Ruhestein im Gasthaus: Er ist dein Weg hierher zurück aus dem Norden des Dschungels am Ende der Runde."
+	["{npc:4631} stands on the dock where the boat lands. Bind your hearthstone at the inn: it is your way back here from the north of the jungle at the end of the loop."] = "{npc:4631}, geminin yanaştığı iskelede duruyor. Hearthstone'unu handa bağla: turun sonunda ormanın kuzeyinden buraya dönüş yolun bu.",
+	-- {npc:4631} Wharfmaster Lozgil
+	["{npc:4631}, on the dock"] = "{npc:4631}, iskelede",
+	-- {npc:4631} Wharfmaster Lozgil · {npc:2496} Baron Revilgaz
+	["{npc:4631}: for {npc:2496}, upstairs in the tavern"] = "{npc:4631}: meyhanenin üst katındaki {npc:2496} için",
+	-- {npc:3945} Caravaneer Ruzzgot
+	["{npc:3945}, on the dock"] = "{npc:3945}, iskelede",
+	-- {npc:3945} Caravaneer Ruzzgot · {npc:267} Clerk Daltry · {area:42} Darkshire
+	["{npc:3945}: for {npc:267} in {area:42}, where the second Stranglethorn loop starts"] = "{npc:3945}: ikinci Stranglethorn turunun başladığı {area:42} kasabasındaki {npc:267} için",
 	-- {npc:2495} Drizzlik
 	["{npc:2495}, by the bank; inside"] = "{npc:2495}, bankanın yanında, içeride",
 	-- {npc:2498} Crank Fizzlebub
@@ -25,11 +35,11 @@ return {
 	["{npc:773}: Nesingwary's camp, on the way"] = "{npc:773}: Nesingwary'nin kampı, yol üstünde",
 	-- {npc:737} Kebok
 	["{npc:737}, in the tavern"] = "{npc:737}, meyhanede",
-	-- {npc:737} Kebok
-	-- plural, as words: Tumbled Crystals = {item:4106} Tumbled Crystal
-	["{npc:737}: the Tumbled Crystals, on the northern loop"] = "{npc:737}: kuzey turunda Tumbled Crystal taşları",
 	-- {npc:2496} Baron Revilgaz
 	["{npc:2496}, upstairs in the tavern"] = "{npc:2496}, meyhanenin üst katında",
+	-- {npc:250660} The Baron · {area:37} Lake Nazferiti
+	-- plural, as words: Venture Co. Agents = {npc:260429} Venture Co. Agent
+	["{npc:250660}'s next errand sends you into the Venture Co. house at {area:37}, among Venture Co. Agents (39): leave it."] = "{npc:250660} adlı NPC'nin sonraki işi seni {area:37} gölündeki Venture Co. evine, Venture Co. Agent yaratıklarının (39) arasına gönderir: bırak.",
 
 	-- Step 3: North to Nesingwary's Expedition
 	-- {area:100} Nesingwary's Expedition
@@ -124,7 +134,7 @@ return {
 	-- {npc:716} Barnil Stonepot · {item:2755} Green Hills of Stranglethorn
 	["{npc:716} collects the {item:2755}: the pages drop from almost every humanoid in the jungle. Turn the pages into chapters as you go."] = "{npc:716}, {item:2755} topluyor: sayfalar ormandaki neredeyse her humanoid yaratıktan düşer. Giderken sayfaları bölümlere dönüştür.",
 	-- {npc:729} Sin'Dall
-	["keep it: {npc:729} (37) comes in the 40-50 Stranglethorn guide, at about 41"] = "sakla: {npc:729} (37) 40-50 Stranglethorn rehberinde, yaklaşık 41. seviyede gelir",
+	["Keep it for another visit: {npc:729} (37) prowls the Lashtail hill."] = "Başka bir ziyaret için sakla: {npc:729} (37) Lashtail tepesinde dolaşıyor.",
 	-- {npc:729} Sin'Dall
 	-- plural, as words: Lashtail Raptors = {npc:686} Lashtail Raptor
 	["keep it: the Lashtail Raptors come on the second loop (04b), around {npc:729}'s hill"] = "sakla: Lashtail Raptor yaratıkları ikinci turda (04b), {npc:729} tepesinin çevresinde gelir",
@@ -132,7 +142,6 @@ return {
 	-- Step 20: The Savage Coast
 	-- {area:310} Crystalvein Mine
 	-- plural, as words: Crystal Spine Basilisks = {npc:689} Crystal Spine Basilisk · Lesser Water Elementals = {npc:691} Lesser Water Elemental
-	-- was: ["From {area:108} the way leads south out of {zone:1436} into Stranglethorn's north-west, to the {area:310} near the coast; the Crystal Spine Basilisks around it drop the shards.\nThe haunted island lies just off the coast south-west of the mine: just reach its edge. Careful: its Lesser Water Elementals are 36-37: don't stay. The Bloodscalp ruins of Zul'Kunda to the north wait for the second Stranglethorn loop."] = "Von {area:108} führt der Weg nach Süden aus {zone:1436} in den Nordwesten von Schlingendorntal, zur {area:310} nahe der Küste; die Kristallrückenbasilisken rundherum lassen die Splitter fallen.\nDie Geisterinsel liegt direkt vor der Küste südwestlich der Mine: Erreiche einfach ihren Rand. Vorsicht: Ihre Geringen Wasserelementare sind 36-37: Bleib nicht dort. Die Bloodscalp-Ruinen von Zul'Kunda im Norden warten auf die zweite Runde durch Schlingendorn."
 	["From Nesingwary's camp head west to the {area:310} near the coast; the Crystal Spine Basilisks around it drop the shards.\nThe haunted island lies just off the coast south-west of the mine: just reach its edge. Careful: its Lesser Water Elementals are 36-37: don't stay. The Bloodscalp ruins of Zul'Kunda to the north wait for the second Stranglethorn loop."] = "Nesingwary'nin kampından batıya, kıyıya yakın {area:310} madenine git. Çevresindeki Crystal Spine Basilisk yaratıkları kristal parçalarını düşürür.\nPerili ada madenin güneybatısında, kıyının hemen açığında: kenarına varman yeter. Dikkat: oradaki Lesser Water Elemental yaratıkları 36-37, kalma. Kuzeydeki Bloodscalp harabeleri Zul'Kunda ikinci Stranglethorn turunu bekler.",
 	["The haunted island"] = "Lanetli ada",
 

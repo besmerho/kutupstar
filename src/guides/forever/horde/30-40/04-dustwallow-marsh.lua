@@ -91,8 +91,8 @@ return {
 	-- Step 19: Brackenwall Village
 	-- {npc:4503} Mudcrush Durtfeet · {npc:4791} Nazeer Bloodpike · {npc:4926} Krog
 	["Head back west to Brackenwall with the head: {npc:4503} stands at the south edge of the village where the road comes in, {npc:4791} and {npc:4926} in the village."] = "Kafayla batıya, Brackenwall'a dön: {npc:4503} yolun girdiği köyün güney kenarında, {npc:4791} ve {npc:4926} köyde duruyor.",
-	-- {npc:2519} Kin'weelay · {object:3202} Grom'gol (no name in this language: may be words)
-	["For {npc:2519} at {object:3202}, in forever/horde/40-50/01-stranglethorn-vale"] = "forever/horde/40-50/01-stranglethorn-vale rehberinde, {object:3202} kampındaki {npc:2519} için",
+	-- {npc:2519} Kin'weelay · {object:3202} Grom'gol (no name in this language: may be words) · {zone:1434} Stranglethorn Vale · {zone:1435} Swamp of Sorrows
+	["For {npc:2519} at {object:3202}, in the {zone:1434} & {zone:1435} guide"] = "{zone:1434} & {zone:1435} rehberinde {object:3202} kampındaki {npc:2519} için",
 
 	-- Step 20: Level 36
 	["Level 36"] = "Seviye 36",
@@ -138,87 +138,97 @@ return {
 	-- {npc:12340} Drulzegar Skraghook · {area:599} Thunder Axe Fortress
 	["{npc:12340}: the Slitherblade of Sar'theris Strand, on the way back from {area:599}"] = "{npc:12340}: {area:599} dönüşünde Sar'theris Strand'in Slitherblade'leri",
 
-	-- Step 27: Ghost Walker Post
+	-- Step 27: Aka'rai
+	-- {npc:268705} Aka'rai · {area:2408} Shadowprey Village · {area:603} Sargeron · {area:599} Thunder Axe Fortress
+	["{npc:268705} stands by the path out of {area:2408}, on your way east: her Hatefury satyrs are at {area:603}, past {area:599} later on this visit."] = "{npc:268705}, doğuya giderken {area:2408} köyünden çıkan patikanın yanında duruyor: Hatefury satyr'ları bu ziyarette daha sonra, {area:599} kalesinin ötesinde, {area:603} harabelerinde.",
+
+	-- Step 28: Ghost Walker Post
 	-- {area:597} Ghost Walker Post · {npc:5412} Gurda Wildmane · {npc:5395} Felgur Twocuts
 	["East along the road to {area:597}; {npc:5412} stands beside {npc:5395}."] = "Yol boyunca doğuya, {area:597} karakoluna git, {npc:5412}, {npc:5395} yanında duruyor.",
 	-- {npc:5395} Felgur Twocuts · {quest:1366} Centaur Bounty
 	["{npc:5395}: his {quest:1366}, from the same Maraudine as Gurda's totems"] = "{npc:5395}: {quest:1366} görevi, Gurda'nın totemleriyle aynı Maraudine'lerden",
 
-	-- Step 28: Valley of Spears
+	-- Step 29: Valley of Spears
 	-- {area:607} Valley of Spears · {item:254432} Carved Centaur Totem · {npc:5395} Felgur Twocuts · {quest:1366} Centaur Bounty · {npc:5402} Khan Hratha
 	-- plural, as words: Rock Worms = {npc:11788} Rock Worm
 	["West of the post, the Maraudine centaurs hold the {area:607}; every Maraudine can drop a {item:254432} and an ear for {npc:5395}'s {quest:1366}. Stay with the Scouts and Wranglers (36-38) at the valley's eastern edge; the Maulers and Windchasers (38-39) a little further in are up to two over you at 37: pull them one at a time.\nCareful: {npc:5402} and the Rock Worms (41-42, elite) hold the valley's north-western end with the Khan Guards and Marauders (39-40), and the Magram's village in the south-east has Necromancers (42-43): keep east of the arrow."] = "Karakolun batısında Maraudine centaur'ları {area:607} vadisini tutuyor. Her Maraudine bir {item:254432} ve {npc:5395} adlı NPC'nin {quest:1366} görevi için bir kulak düşürebilir. Vadinin doğu kenarındaki Scout ve Wrangler'larla (36-38) kal. Biraz daha içerideki Mauler ve Windchaser'lar (38-39) 37'de senden iki seviyeye kadar yüksek: tek tek çek.\nDikkat: {npc:5402} ve Rock Worm yaratıkları (41-42, elit) Khan Guard ve Marauder'larla (39-40) vadinin kuzeybatı ucunu tutuyor, güneydoğudaki Magram köyünde de Necromancer'lar (42-43) var: okun doğusunda kal.",
 
-	-- Step 29: Melizza Brimbuzzle
+	-- Step 30: Melizza Brimbuzzle
 	-- {npc:12277} Melizza Brimbuzzle
 	["{npc:12277} is held in the Maraudine camp at the valley's western end; free her and escort her out east of the valley.\nCareful: The scripted groups are linked and only appear during the escort, so you cannot clear them in advance or pull them one at a time. Clearing the normal centaurs on the path before you start does help."] = "{npc:12277}, vadinin batı ucundaki Maraudine kampında tutsak. Onu serbest bırak ve vadinin doğusuna kadar eşlik et.\nDikkat: senaryolu gruplar birbirine bağlı ve yalnızca eskort sırasında çıkar, bu yüzden onları önceden temizleyemez ya da tek tek çekemezsin. Başlamadan önce patikadaki normal centaur'ları temizlemek yine de işe yarar.",
 
-	-- Step 30: Hornizz Brimbuzzle
+	-- Step 31: Hornizz Brimbuzzle
 	-- {npc:6019} Hornizz Brimbuzzle · {area:596} Kodo Graveyard
 	["{npc:6019} waits at the goblin camp on the west side of the {area:596}."] = "{npc:6019}, {area:596} mezarlığının batı yakasındaki goblin kampında bekliyor.",
 	-- {npc:6019} Hornizz Brimbuzzle · {area:602} Mannoroc Coven
 	["{npc:6019}: the ghost-o-plasm, after {area:602} at the end of this visit"] = "{npc:6019}: bu ziyaretin sonunda {area:602} sonrası ghost-o-plasm",
 
-	-- Step 32: Thunder Axe Fortress
+	-- Step 33: Thunder Axe Fortress
 	-- {area:599} Thunder Axe Fortress · {item:14523} Demon Pick · {object:176581} Hand of Iruxos Crystal · {npc:11876} Demon Spirit · {item:13542} Demon Box
 	["North up the road to {area:599}. Clear the middle of the largest building, then use the {item:14523} on the red {object:176581} there. A {npc:11876} (37) comes out: kill it for the {item:13542}. The Burning Blade around it are well under you now."] = "Yoldan kuzeye, {area:599} kalesine çık. En büyük binanın ortasını temizle, sonra oradaki kırmızı {object:176581} kristalinde {item:14523} eşyasını kullan. Bir {npc:11876} (37) çıkar: {item:13542} için onu öldür. Çevresindeki Burning Blade'ler artık senden epey düşük.",
 	-- {item:14523} Demon Pick · {object:176581} Hand of Iruxos Crystal
 	["{item:14523}, on the {object:176581}"] = "{item:14523}, {object:176581} üzerinde",
 
-	-- Step 33: Sar'theris Strand
+	-- Step 34: Sargeron
+	-- {area:603} Sargeron
+	["East from the fortress to {area:603}, the Hatefury satyrs' ruins in the north-east (32-33, well under you now): two of each kind."] = "Kaleden doğuya, kuzeydoğudaki Hatefury satyr harabeleri {area:603} kesimine git (32-33, artık senden epey düşük): her türden ikişer tane.",
+
+	-- Step 35: Sar'theris Strand
 	-- {area:598} Sar'theris Strand
 	-- plural, as words: Slitherblade Myrmidons = {npc:4714} Slitherblade Myrmidon
-	["West from the fortress to the coast at {area:598}: the Slitherblade Myrmidons, Naga and Sorceresses hold the beach. Pull them one at a time; the Sea Witches and Oracles (34-36) cast from range."] = "Kaleden batıya, {area:598} kıyısına git: Slitherblade Myrmidon, Naga ve Sorceress yaratıkları kumsalı tutuyor. Tek tek çek, Sea Witch ve Oracle'lar (34-36) uzaktan büyü yapar.",
+	-- was: ["West from the fortress to the coast at {area:598}: the Slitherblade Myrmidons, Naga and Sorceresses hold the beach. Pull them one at a time; the Sea Witches and Oracles (34-36) cast from range."] = "Geh von der Festung nach Westen zur Küste am {area:598}: Die Myrmidonen, Naga und Zauberinnen der Zackenkämme halten den Strand. Zieh sie einzeln; die Seehexen und Orakel (34-36) zaubern aus der Ferne."
+	["West past the fortress to the coast at {area:598}: the Slitherblade Myrmidons, Naga and Sorceresses hold the beach. Pull them one at a time; the Sea Witches and Oracles (34-36) cast from range."] = "Kaleyi geçip batıya, {area:598} kıyısına git: kumsalı Slitherblade Myrmidon, Naga ve Sorceress yaratıkları tutuyor. Tek tek çek. Sea Witch ve Oracle'lar (34-36) uzaktan büyü yapıyor.",
 
-	-- Step 34: Shadowprey Village
-	-- {npc:11624} Taiga Wisemane · {area:602} Mannoroc Coven · {npc:12340} Drulzegar Skraghook
-	["South down the coast to Shadowprey: {npc:11624} takes the box and sends you to {area:602} with it; {npc:12340} takes the naga."] = "Kıyı boyunca güneye, Shadowprey'e in: {npc:11624} kutuyu alır ve seni onunla {area:602} yöresine yollar, {npc:12340} naga'ları teslim alır.",
+	-- Step 36: Shadowprey Village
+	-- {npc:268705} Aka'rai · {npc:11624} Taiga Wisemane · {area:602} Mannoroc Coven · {npc:12340} Drulzegar Skraghook
+	-- was: ["South down the coast to Shadowprey: {npc:11624} takes the box and sends you to {area:602} with it; {npc:12340} takes the naga."] = "Geh die Küste nach Süden hinunter nach Schattenflucht: {npc:11624} nimmt den Kasten und schickt dich damit zum {area:602}; {npc:12340} nimmt die Naga."
+	["South down the coast to Shadowprey: {npc:268705} first, on the path into the village; {npc:11624} takes the box and sends you to {area:602} with it; {npc:12340} takes the naga."] = "Kıyı boyunca güneye, Shadowprey'e in: önce köye giden patikadaki {npc:268705}. {npc:11624} kutuyu alıp seni onunla {area:602} kesimine gönderir. Nagaları {npc:12340} alır.",
 
-	-- Step 35: Portals of the Legion
+	-- Step 37: Portals of the Legion
 	-- {area:602} Mannoroc Coven · {quest:5381} Hand of Iruxos · {npc:11624} Taiga Wisemane · {npc:11937} Demon Portal Guardian
 	-- plural, as words: Burning Blade Summoners = {npc:4668} Burning Blade Summoner
 	["Head east to {area:602}. With the {quest:5381} from {npc:11624} in your bags, open a demon portal's ring: a {npc:11937} (38-39) comes out; kill it to close that portal. Six portals. Careful: Infernals, Doomguards and Burning Blade Summoners walk close by many portals and may join in; kill nearby mobs first or drag the guardian away, for example toward the coven's central lake."] = "Doğuya, {area:602} içine git. {npc:11624} adlı NPC'den aldığın {quest:5381} çantandayken bir iblis portalının halkasını aç: bir {npc:11937} (38-39) çıkar. O portalı kapatmak için onu öldür. Altı portal. Dikkat: Birçok portalın yakınında Infernal, Doomguard ve Burning Blade Summoner yaratıkları dolaşıyor ve dövüşe katılabilir. Önce yakındaki yaratıkları öldür ya da muhafızı uzağa, örneğin covenin ortasındaki göle doğru sürükle.",
 
-	-- Step 36: The Valley of Bones
+	-- Step 38: The Valley of Bones
 	-- {area:2657} Valley of Bones
 	["The {area:2657}"] = "{area:2657} vadisi",
 	-- {area:2657} Valley of Bones · {zone:1443} Desolace · {item:15848} Crate of Ghost Magnets
 	-- plural, as words: Undead Ravagers = {npc:11561} Undead Ravager · Magrami Spectres = {npc:11560} Magrami Spectre · Magram Necrokhans = {npc:253274} Magram Necrokhan
 	["South-east of the coven, the bone fields of the {area:2657}, where Undead Ravagers roam, at {zone:1443}'s southern edge: keep south of the Magram's village on the way. Use the {item:15848} at the arrow to draw the Magrami Spectres (38-39): they come in numbers, so fight them with your back to the valley's edge. They drop the ghost-o-plasm.\nCareful: Magram Necrokhans and Corpsefeeders (45, elite) walk the bone fields just west of the arrow, well above you: use the crate at the arrow, on the valley's eastern side, and pull the spectres away from them."] = "Coven'ın güneydoğusunda, {zone:1443} bölgesinin güney kenarında, Undead Ravager yaratıklarının dolaştığı {area:2657} kemik tarlaları: yolda Magram köyünün güneyinde kal. Magrami Spectre yaratıklarını (38-39) çekmek için oktaki yerde {item:15848} eşyasını kullan: kalabalık gelirler, sırtını vadinin kenarına vererek dövüş. Ghost-o-plasm düşürürler.\nDikkat: Magram Necrokhan ve Corpsefeeder yaratıkları (45, elit) okun hemen batısındaki kemik tarlalarında yürüyor, senden çok yüksek: sandığı vadinin doğu yakasında, okun yerinde kullan ve hayaletleri onlardan uzağa çek.",
 
-	-- Step 37: Hornizz Brimbuzzle
+	-- Step 39: Hornizz Brimbuzzle
 	-- {area:596} Kodo Graveyard · {area:602} Mannoroc Coven
 	["North-west to the goblin camp on the west side of the {area:596}, back past {area:602}: keep west of the Magram's village."] = "Kuzeybatıya, {area:602} yöresini geri geçip {area:596} mezarlığının batı yakasındaki goblin kampına git: Magram köyünün batısında kal.",
 
-	-- Step 38: Shadowprey
+	-- Step 40: Shadowprey
 	["Shadowprey"] = "Shadowprey",
 	["Hearth to Shadowprey: your hearthstone is still bound there."] = "Shadowprey'e Hearthstone ile dön: Hearthstone'un hâlâ oraya bağlı.",
 
-	-- Step 39: Thunder Bluff
+	-- Step 41: Thunder Bluff
 	-- {area:2408} Shadowprey Village · {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {zone:1454} Orgrimmar
 	["Fly from {area:2408} to {area:1638} and train with {npc:3033} on {area:1639}; fly on to {zone:1454} from there."] = "{area:2408} köyünden {area:1638} şehrine uç ve {area:1639} tepesinde {npc:3033} ile eğitimini al, oradan {zone:1454} şehrine uç.",
 
-	-- Step 40: Fly to Orgrimmar
+	-- Step 42: Fly to Orgrimmar
 	-- {area:1637} Orgrimmar
 	["Fly to {area:1637}"] = "{area:1637} şehrine uç",
 	-- {area:2408} Shadowprey Village
 	["{area:2408} flight master"] = "{area:2408} uçuş ustası",
 
-	-- Step 41: Back to Orgrimmar
+	-- Step 43: Back to Orgrimmar
 	-- {area:1637} Orgrimmar
 	["Back to {area:1637}"] = "Dönüş: {area:1637}",
 	-- {zone:1456} Thunder Bluff
 	["{zone:1456} flight master"] = "{zone:1456} uçuş ustası",
 
-	-- Step 42: Belgrom Rockmaul
+	-- Step 44: Belgrom Rockmaul
 	-- {npc:4485} Belgrom Rockmaul · {object:172958} Valley of Honor
 	["{npc:4485} stands in the {object:172958}."] = "{npc:4485}, {object:172958} vadisinde duruyor.",
 
-	-- Step 43: Nogg
+	-- Step 45: Nogg
 	-- {npc:3412} Nogg · {object:172958} Valley of Honor · {npc:4485} Belgrom Rockmaul · {quest:2841} Rig Wars · {area:133} Gnomeregan
 	["{npc:3412}'s workshop is in the {object:172958} beside {npc:4485}: hand in {quest:2841} if you ran {area:133}."] = "{npc:3412} adlı NPC'nin atölyesi {object:172958} içinde, {npc:4485} yanında: {area:133} yaptıysan {quest:2841} görevini teslim et.",
 
-	-- Step 44: Orgrimmar trainers
+	-- Step 46: Orgrimmar trainers
 	-- {zone:1454} Orgrimmar
 	["{zone:1454} trainers"] = "{zone:1454} eğitmenleri",
 	-- {zone:1458} Undercity
