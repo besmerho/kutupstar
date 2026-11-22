@@ -12,6 +12,10 @@ return {
 	["{npc:3649}, north end of the village"] = "{npc:3649}, köyün kuzey ucunda",
 	-- {npc:3649} Thundris Windweaver · {npc:1646} Baros Alexston · {zone:1453} Stormwind
 	["{npc:3649}: for {npc:1646} in {zone:1453}"] = "{npc:3649}: {zone:1453} şehrindeki {npc:1646} için",
+	-- {npc:3649} Thundris Windweaver · {npc:1646} Baros Alexston · {zone:1453} Stormwind
+	["{npc:3649}: {npc:1646}'s reply, if you brought it (Night Elves, from Night Elf Darkshore's {zone:1453} walk)"] = "{npc:3649}: getirdiysen {npc:1646} adlı NPC'nin yanıtı (Night Elf'ler için, Night Elf Darkshore rehberinin {zone:1453} yürüyüşünden)",
+	-- {npc:3657} Sentinel Elissa Starbreeze · {npc:3693} Terenthis
+	["{npc:3657}, beside {npc:3693}"] = "{npc:3657}, {npc:3693} yanında",
 	["The WANTED poster outside the inn"] = "Hanın dışındaki WANTED ilanı",
 	-- {npc:3666} Wizbang Cranktoggle
 	["{npc:3666}, upstairs in the inn"] = "{npc:3666}, hanın üst katında",
@@ -81,7 +85,8 @@ return {
 	-- Step 13: Bashal'Aran
 	-- {npc:3650} Asterion · {quest:954} Bashal'Aran · {quest:1001} Buzzbox 411 · {quest:4723} Beached Sea Creature
 	-- plural, as words: Wild Grells = {npc:2190} Wild Grell · Vile Sprites = {npc:2189} Vile Sprite · Deth'ryll Satyrs = {npc:2212} Deth'ryll Satyr
-	["North along the hills. {npc:3650} waits in the ruins of {quest:954}; Wild Grells and Vile Sprites fill them, Deth'ryll Satyrs the eastern edge. {quest:1001} stands by the road west of the ruins; a {quest:4723} lies on the shore on the way to him."] = "Tepeler boyunca kuzeye git. {npc:3650}, {quest:954} harabelerinde bekliyor. Harabeler Wild Grell ve Vile Sprite yaratıklarıyla, doğu kenarı da Deth'ryll Satyr yaratıklarıyla dolu. {quest:1001} harabelerin batısında, yolun kenarında duruyor. Ona giderken kıyıda bir {quest:4723} yatıyor.",
+	-- was: ["North along the hills. {npc:3650} waits in the ruins of {quest:954}; Wild Grells and Vile Sprites fill them, Deth'ryll Satyrs the eastern edge. {quest:1001} stands by the road west of the ruins; a {quest:4723} lies on the shore on the way to him."] = "Nach Norden durch die Hügel. {npc:3650} wartet in den Ruinen von {quest:954}; Wilde Grells und Üble Grimmlinge füllen sie, Satyrn der Deth'ryll den Ostrand. {quest:1001} steht an der Straße westlich der Ruinen; eine {quest:4723} liegt auf dem Weg zu ihm am Ufer."
+	["North along the hills. {npc:3650} waits in the ruins of {quest:954}; Wild Grells and Vile Sprites fill them, Deth'ryll Satyrs the eastern edge. {quest:1001} stands by the road north-north-west of {npc:3650}; a {quest:4723} lies on the shore on the way to him."] = "Tepeler boyunca kuzeye git. {npc:3650}, {quest:954} harabelerinde bekliyor. Harabeler Wild Grell ve Vile Sprite yaratıklarıyla, doğu kenarı da Deth'ryll Satyr yaratıklarıyla dolu. {quest:1001}, {npc:3650} yanının kuzeyinde, biraz batıda, yolun kenarında duruyor. Ona giderken kıyıda bir {quest:4723} yatıyor.",
 	-- plural, as words: Grell Earrings = {item:5336} Grell Earring
 	["Grell Earrings"] = "Grell Earring",
 	-- {item:5338} Ancient Moonstone Seal
@@ -89,6 +94,8 @@ return {
 	["{item:5338}: Deth'ryll Satyrs"] = "{item:5338}: Deth'ryll Satyr yaratıkları",
 
 	-- Step 14: Auberdine
+	-- {npc:3657} Sentinel Elissa Starbreeze · {npc:3693} Terenthis · {npc:3701} Tharnariun Treetender
+	["{npc:3657}, beside {npc:3693} and {npc:3701}"] = "{npc:3657}, {npc:3693} ve {npc:3701} yanında",
 	["Fill the tube at the moonwell in the village"] = "Tüpü köydeki ay kuyusunda doldur",
 
 	-- Step 15: A Lesson to Learn
@@ -154,6 +161,9 @@ return {
 	["{item:12191}; underwater"] = "{item:12191}, su altında",
 	-- {item:12192} Mist Veil's Lockbox
 	["{item:12192}; underwater"] = "{item:12192}, su altında",
+	-- {item:12237} Fine Crab Chunks
+	-- plural, as words: Reef Crawlers = {npc:2235} Reef Crawler · Encrusted Tide Crawlers = {npc:2233} Encrusted Tide Crawler
+	["{item:12237} from the Reef Crawlers and Encrusted Tide Crawlers on this shore, if you still need them"] = "Hâlâ gerekiyorsa bu kıyıdaki Reef Crawler ve Encrusted Tide Crawler yaratıklarından {item:12237}",
 
 	-- Step 29: Darkshore: kill these as you meet them
 	-- {zone:1439} Darkshore
@@ -163,7 +173,11 @@ return {
 	-- plural, as words: Moonstalker Fangs = {item:5413} Moonstalker Fang
 	["Moonstalker Fangs"] = "Moonstalker Fang",
 
-	-- Step 31: The Tower of Althalaxx
+	-- Step 31: Beached Sea Turtle
+	-- {quest:4727} Beached Sea Turtle · {npc:10219} Gwennyth Bly'Leggonde · {area:442} Auberdine
+	["North from the falls to the shore: the {quest:4727} lies on the beach there, for {npc:10219} in {area:442}."] = "Şelaleden kuzeye, kıyıya git: {quest:4727} oradaki kumsalda yatıyor, {area:442} köyündeki {npc:10219} için.",
+
+	-- Step 32: The Tower of Althalaxx
 	-- {npc:3661} Balthule Shadowstrike · {zone:1440} Ashenvale · {npc:3660} Athrikus Narassin
 	-- plural, as words: Dark Strand Fanatics = {npc:2336} Dark Strand Fanatic · Dark Strand Voidcallers = {npc:2337} Dark Strand Voidcaller
 	["East of Buzzbox 323, {npc:3661} hides at the foot of the tower among the Dark Strand Fanatics. Keep his letter for Delgren in {zone:1440}.\nCareful: Dark Strand Voidcallers (28-29) with their voidwalkers and {npc:3660} (31) stand in the tower itself: take the parchments from the Fanatics south of it and keep away from the tower."] = "Buzzbox 323'ün doğusunda {npc:3661}, Dark Strand Fanatic yaratıklarının arasında, kulenin dibinde saklanıyor. Mektubunu {zone:1440} bölgesindeki Delgren için sakla.\nDikkat: Dark Strand Voidcaller yaratıkları (28-29) voidwalker'larıyla ve {npc:3660} (31) kulenin içinde duruyor: parşömenleri kulenin güneyindeki Fanatic'lerden al ve kuleden uzak dur.",
@@ -171,7 +185,7 @@ return {
 	-- plural, as words: Dark Strand Fanatics = {npc:2336} Dark Strand Fanatic
 	["{item:5348}: Dark Strand Fanatics"] = "{item:5348}: Dark Strand Fanatic yaratıkları",
 
-	-- Step 32: The cave and the Den Mother
+	-- Step 33: The cave and the Den Mother
 	-- {npc:6788} Den Mother
 	["The cave and the {npc:6788}"] = "Mağara ve {npc:6788}",
 	-- {item:5270} Death Cap · {npc:6788} Den Mother
@@ -182,7 +196,7 @@ return {
 	-- {item:5270} Death Cap
 	["{item:5270}; below ground"] = "{item:5270}, yer altında",
 
-	-- Step 33: The northern Blackwood camp
+	-- Step 34: The northern Blackwood camp
 	["The northern Blackwood camp"] = "Kuzeydeki Blackwood kampı",
 	-- {area:456} Cliffspring River · {item:12347} Filled Cleansing Bowl · {item:12346} Empty Cleansing Bowl · {object:174795} Auberdine Moonwell · {item:12355} Talisman of Corruption
 	["The furbolg camp south of the {area:456} keeps its Nut, Fruit and Grain Stores by the bonfires. With a sample of each and the {item:12347} in your bags (the {item:12346} is filled at the {object:174795}), use the bowl by the bonfire closest to the river: it summons Xabraxxis, the satyr corruptor, and the {item:12355} lies in his Demon Bag."] = "{area:456} nehrinin güneyindeki furbolg kampı Nut, Fruit ve Grain Store erzaklarını şenlik ateşlerinin yanında tutuyor. Çantanda her birinden bir örnek ve {item:12347} varken ({item:12346}, {object:174795} kuyusunda doldurulur), kâseyi nehre en yakın şenlik ateşinin yanında kullan: satir bozucusu Xabraxxis çağrılır. {item:12355} onun Demon Bag çantasında.",
@@ -190,12 +204,12 @@ return {
 	-- {item:12347} Filled Cleansing Bowl
 	["After using the {item:12347}, kill Xabraxxis, then click his Demon Bag on the ground to collect the talisman. If Xabraxxis despawns before you get it, retake the quest for a new bowl."] = "{item:12347} eşyasını kullandıktan sonra Xabraxxis'i öldür, sonra tılsımı almak için yerdeki Demon Bag'ine tıkla. Xabraxxis sen almadan kaybolursa yeni bir kâse için görevi yeniden al.",
 
-	-- Step 34: The cave and the Den Mother
+	-- Step 35: The cave and the Den Mother
 	["Careful: If you attack one cub, the other cubs and often the mother join the fight, so expect to take on several at the same time."] = "Dikkat: Bir yavruya saldırırsan diğer yavrular ve çoğu zaman anneleri de dövüşe katılır, bu yüzden aynı anda birkaçıyla dövüşmeyi bekle.",
 	-- {npc:6788} Den Mother
 	["{npc:6788}, below ground"] = "{npc:6788}, yer altında",
 
-	-- Step 35: Auberdine
+	-- Step 36: Auberdine
 	-- {quest:948} Onu · {zone:1439} Darkshore
 	["For {quest:948} at the Grove, on {zone:1439}'s southern loop after the trip east"] = "Koru'daki {quest:948} için, doğu gezisinden sonra {zone:1439} bölgesinin güney turunda",
 }

@@ -462,8 +462,9 @@ return {
 	["{item:278083}, from {npc:3027}"] = "{item:278083}, kaynak: {npc:3027}",
 
 	-- Step 100: Turak Runetotem
-	-- {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {spell:18960} Teleport: Moonglade · {npc:11802} Dendrite Starblaze · {spell:499} Cat Form
-	["{npc:3033} trains druids on {area:1639}. He teaches you {spell:18960}; {npc:11802}'s welcome waits for your {spell:499} trip at about 21 (forever/horde/02-the-barrens)."] = "{npc:3033}, {area:1639} tepesinde Druid eğitiyor. Sana {spell:18960} öğretir, {npc:11802} adlı NPC'nin karşılaması, yaklaşık 21. seviyedeki {spell:499} yolculuğunu bekler (forever/horde/02-the-barrens).",
+	-- {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {spell:18960} Teleport: Moonglade · {npc:11802} Dendrite Starblaze · {spell:499} Cat Form · {zone:1413} Barrens
+	-- was: ["{npc:3033} trains druids on {area:1639}. He teaches you {spell:18960}; {npc:11802}'s welcome waits for your {spell:499} trip at about 21 (forever/horde/02-the-barrens)."] = "{npc:3033} bildet Druiden auf der {area:1639} aus. Er lehrt dich {spell:18960}; der Willkommensgruß von {npc:11802} wartet etwa mit 21 auf deine Reise für {spell:499} (forever/horde/02-the-barrens)."
+	["{npc:3033} trains druids on {area:1639}. He teaches you {spell:18960}; {npc:11802}'s welcome waits for your {spell:499} trip at about 21, in the {zone:1413} guide."] = "{npc:3033}, {area:1639} üzerinde druid eğitiyor. Sana {spell:18960} öğretir. {npc:11802} adlı NPC'nin karşılaması yaklaşık 21. seviyede, {zone:1413} rehberindeki {spell:499} yolculuğunu bekliyor.",
 
 	-- Step 101: Hunter Rise
 	-- {item:278078} Prepared Incense · {area:1641} Hunter Rise
@@ -497,11 +498,23 @@ return {
 	-- {npc:3615} Devrak · {area:380} The Crossroads · {zone:1421} Silverpine Forest · {zone:1413} Barrens
 	["Learn the flight path from {npc:3615} on the tower platform. {area:380}' own quests come after {zone:1421}, in the {zone:1413} guide."] = "Kule platformundaki {npc:3615} adlı NPC'den uçuş noktasını öğren. {area:380} kasabasının kendi görevleri {zone:1421} bölgesinden sonra, {zone:1413} rehberinde gelir.",
 
-	-- Step 110: To Orgrimmar
+	-- Step 110: Rezlak
+	-- {npc:3293} Rezlak · {zone:1454} Orgrimmar · {area:370} Drygulch Ravine
+	["{npc:3293} camps beside the road north to {zone:1454}, below {area:370}. The stolen sacks lie along the road just east of him."] = "{npc:3293}, {area:370} vadisinin aşağısında, kuzeye {zone:1454} şehrine giden yolun kenarında kamp kurmuş. Çalınan çuvallar hemen doğusunda yol boyunca yatıyor.",
+
+	-- Step 111: Drygulch Ravine
+	-- {area:370} Drygulch Ravine · {npc:3293} Rezlak · {item:277661} Dull Storm Orb · {quest:97281} A Simmering Storm
+	["Savages and Storm Witches nest in {area:370}, east of {npc:3293}. A Storm Witch drops the {item:277661}, which starts {quest:97281}."] = "Savage ve Storm Witch yaratıkları {npc:3293} yanının doğusundaki {area:370} vadisinde yuva yapıyor. Bir Storm Witch {quest:97281} görevini başlatan {item:277661} düşürür.",
+
+	-- Step 112: Rezlak
+	-- {npc:3293} Rezlak
+	["Back to {npc:3293} by the road."] = "Yolun kenarındaki {npc:3293} yanına dön.",
+
+	-- Step 113: To Orgrimmar
 	-- {zone:1454} Orgrimmar
 	["To {zone:1454}"] = "Git: {zone:1454}",
-	-- {area:379} Far Watch Post · {area:815} Southfury River · {zone:1411} Durotar · {zone:1454} Orgrimmar · {quest:95350} Welcome to Azeroth · {zone:1420} Tirisfal Glades · {zone:1421} Silverpine Forest
-	["From the Crossroads follow the road north-east to {area:379}, cross the {area:815} into {zone:1411} and keep north to {zone:1454}'s main gate. The next guide starts in {zone:1454}: Thrall takes {quest:95350}, and the zeppelin leaves for {zone:1420} and {zone:1421}."] = "Crossroads'tan kuzeydoğuya giden yolu izleyerek {area:379} karakoluna git, {area:815} nehrini geçip {zone:1411} bölgesine gir ve kuzeye, {zone:1454} şehrinin ana kapısına devam et. Sonraki rehber {zone:1454} şehrinde başlıyor: {quest:95350} görevini Thrall teslim alır ve zeplin {zone:1420} ve {zone:1421} bölgelerine kalkar.",
+	-- {npc:3293} Rezlak · {zone:1454} Orgrimmar · {quest:95350} Welcome to Azeroth · {zone:1420} Tirisfal Glades · {zone:1421} Silverpine Forest
+	["From {npc:3293}'s camp, go on to {zone:1454}'s main gate, a few hundred yards away. The next guide starts in {zone:1454}: Thrall takes {quest:95350}, and the zeppelin leaves for {zone:1420} and {zone:1421}."] = "{npc:3293} kampından birkaç yüz yard ötedeki {zone:1454} ana kapısına devam et. Sonraki rehber {zone:1454} şehrinde başlıyor: {quest:95350} görevini Thrall alır, zeplin de {zone:1420} ve {zone:1421} bölgesine kalkar.",
 	-- {zone:1454} Orgrimmar · {object:172982} Valley of Strength
 	["{zone:1454}'s {object:172982}"] = "{zone:1454} şehrindeki {object:172982}",
 }

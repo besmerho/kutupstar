@@ -282,7 +282,8 @@ return {
 	-- Step 46: Frostmane Hold
 	-- {area:135} Frostmane Hold · {area:137} Brewnall Village
 	-- plural, as words: Frostmane Hideskinners = {npc:1122} Frostmane Hideskinner
-	["{area:135} is the troll cave in the hills south-west of {area:137}. Kill Headhunters at its mouth and walk through to its far end.\nCareful: the Frostmane Hideskinners inside the Hold are level 9-10 and stand in pairs: pull them one at a time back to the mouth."] = "{area:135}, {area:137} köyünün güneybatısındaki tepelerde bulunan troll mağarası. Girişteki Headhunter yaratıklarını öldür ve mağaranın en uç noktasına kadar yürü.\nDikkat: içerideki Frostmane Hideskinner yaratıkları 9-10. seviyede ve çift çift duruyor: onları tek tek girişe doğru çek.",
+	-- was: ["{area:135} is the troll cave in the hills south-west of {area:137}. Kill Headhunters at its mouth and walk through to its far end.\nCareful: the Frostmane Hideskinners inside the Hold are level 9-10 and stand in pairs: pull them one at a time back to the mouth."] = "{area:135} ist die Trollhöhle in den Hügeln südwestlich von {area:137}. Töte Kopfjäger an ihrem Eingang und geh bis zu ihrem hinteren Ende durch.\nVorsicht: Die Balgabzieher der Frostmane in der Höhle sind Stufe 9-10 und stehen paarweise: Zieh sie einzeln zurück zum Eingang."
+	["{area:135} is the troll cave in the hills south-west of {area:137}. Kill Headhunters at its mouth, then walk through the cave to its far end: Fully explore {area:135} ticks only in there, not on the hill above it.\nCareful: the Frostmane Hideskinners inside the Hold are level 9-10 and stand in pairs: pull them one at a time back to the mouth."] = "{area:135}, {area:137} köyünün güneybatısındaki tepelerde bulunan troll mağarası. Ağzındaki Headhunter'ları öldürüp mağaranın en ucuna kadar yürü: “Fully explore {area:135}” hedefi tepede değil, yalnız orada işaretlenir.\nDikkat: içerideki Frostmane Hideskinner yaratıkları seviye 9-10 ve çiftler halinde duruyor: tek tek ağza çek.",
 	-- {npc:1123} Frostmane Headhunter
 	["{npc:1123}, below ground"] = "{npc:1123}, yer altında",
 
@@ -364,8 +365,9 @@ return {
 	["Snow Leopards and boars roam the snow between the ranch and the quarry. Blacksmiths: Copper Bars come from smelting {item:2770} or the trade vendors."] = "Snow Leopard yaratıkları ve yaban domuzları çiftlikle taş ocağı arasındaki karda dolaşıyor. Blacksmithing yapanlar için: Copper Bar, {item:2770} eriterek ya da meslek satıcılarından elde edilir.",
 
 	-- Step 72: Protecting the Herd
-	-- {npc:1388} Vagash · {zone:1432} Loch Modan
-	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:1388} is a level 12 elite: take him on with a group. Alone, skip it: the {zone:1432} quests ahead make up the experience."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:1388}, 12. seviye bir elit: ona grupla saldır. Yalnızsan atla: ilerideki {zone:1432} görevleri kaybettiğin XP'yi telafi eder.",
+	-- {npc:1388} Vagash · {area:38} Loch Modan
+	-- was: ["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:1388} is a level 12 elite: take him on with a group. Alone, skip it: the {zone:1432} quests ahead make up the experience."] = "Das sind Elite-Mobs: Gruppenspiel wird empfohlen, such dir Mitspieler. {npc:1388} ist ein Elite der Stufe 12: Geh ihn mit einer Gruppe an. Allein überspringst du das: Die Quests in {zone:1432} gleichen die Erfahrung aus."
+	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:1388} is a level 12 elite: take him on with a group. Alone, skip it: the {area:38} quests ahead make up the experience."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:1388} 12. seviye bir elit: onunla grupla dövüş. Yalnızsan atla: ilerideki {area:38} görevleri XP'yi tamamlar.",
 	["Below ground"] = "Yer altında",
 
 	-- Step 73: Rudra Amberstill
@@ -373,16 +375,18 @@ return {
 	["On the road back west to {zone:1455}."] = "Batıya, {zone:1455} şehrine dönen yolun üstünde.",
 
 	-- Step 76: South Gate Outpost
-	-- {area:806} South Gate Outpost · {zone:1432} Loch Modan
-	["Follow the road all the way east to the {area:806} at the {zone:1432} tunnel."] = "Yolu doğuya sonuna kadar izleyerek {zone:1432} tünelinin ağzındaki {area:806} karakoluna git.",
+	-- {area:806} South Gate Outpost · {area:38} Loch Modan
+	-- was: ["Follow the road all the way east to the {area:806} at the {zone:1432} tunnel."] = "Folge der Straße ganz nach Osten zum {area:806} am Tunnel nach {zone:1432}."
+	["Follow the road all the way east to the {area:806} at the {area:38} tunnel."] = "Yolu doğuya, {area:38} tünelindeki {area:806} karakoluna kadar izle.",
 
 	-- Step 77: Bruegs Kindleborn
 	-- {npc:257597} Bruegs Kindleborn · {area:806} South Gate Outpost
 	["{npc:257597} waits in a cave above the farm north-west of the {area:806}; the path up starts behind the farm."] = "{npc:257597}, {area:806} karakolunun kuzeybatısındaki çiftliğin üstünde bir mağarada bekliyor. Yukarı çıkan patika çiftliğin arkasından başlıyor.",
 
 	-- Step 79: Braldir Ashmantle
-	-- {zone:1432} Loch Modan · {npc:257808} Braldir Ashmantle
-	["Go through the tunnel into {zone:1432}. Just past it, a path marked by stones climbs the hills on the right of the road north to {npc:257808}'s camp."] = "Tünelden geçerek {zone:1432} bölgesine gir. Tünelin hemen ilerisinde, taşlarla işaretli bir patika kuzeye giden yolun sağındaki tepelere, {npc:257808} kampına tırmanıyor.",
+	-- {area:38} Loch Modan · {npc:257808} Braldir Ashmantle
+	-- was: ["Go through the tunnel into {zone:1432}. Just past it, a path marked by stones climbs the hills on the right of the road north to {npc:257808}'s camp."] = "Geh durch den Tunnel nach {zone:1432}. Gleich dahinter führt ein mit Steinen markierter Pfad die Hügel rechts der Straße nach Norden hinauf zum Lager von {npc:257808}."
+	["Go through the tunnel into {area:38}. Just past it, a path marked by stones climbs the hills on the right of the road north to {npc:257808}'s camp."] = "Tünelden {area:38} bölgesine geç. Hemen ötesinde, taşlarla işaretli bir patika yolun sağındaki tepelerden kuzeye, {npc:257808} kampına tırmanıyor.",
 
 	-- Step 80: North Gate Outpost
 	-- {npc:1960} Pilot Hammerfoot · {area:808} North Gate Outpost
@@ -390,13 +394,14 @@ return {
 
 	-- Step 81: The tunnel post
 	["The tunnel post"] = "Tünel karakolu",
-	-- {zone:1432} Loch Modan · {npc:1089} Mountaineer Cobbleflint · {npc:1092} Captain Rugelfuss
-	["East through the South Gate tunnel into {zone:1432}. {npc:1089} and {npc:1092} stand at the dwarven post just past it."] = "South Gate tünelinden doğuya, {zone:1432} bölgesine geç. {npc:1089} ve {npc:1092} tünelin hemen ötesindeki cüce karakolunda duruyor.",
+	-- {area:38} Loch Modan · {npc:1089} Mountaineer Cobbleflint · {npc:1092} Captain Rugelfuss
+	-- was: ["East through the South Gate tunnel into {zone:1432}. {npc:1089} and {npc:1092} stand at the dwarven post just past it."] = "Östlich durch den Tunnel am Südtor nach {zone:1432}. {npc:1089} und {npc:1092} stehen am Zwergenposten gleich dahinter."
+	["East through the South Gate tunnel into {area:38}. {npc:1089} and {npc:1092} stand at the dwarven post just past it."] = "South Gate tünelinden doğuya, {area:38} bölgesine geç. {npc:1089} ve {npc:1092} tünelin hemen ötesindeki cüce karakolunda duruyor.",
 
 	-- Step 82: Stonesplinter troggs
 	["Stonesplinter troggs"] = "Stonesplinter trogg'ları",
-	-- {area:923} Stonesplinter Valley
-	["North of the post, west of the road: the Stonesplinter troggs and scouts camp in the hills. Both drop the Trogg Stone Teeth.\nCareful: Headsplitter, a level 15 trogg, walks {area:923} among the 11-12 troggs: work the camps at its north edge, near the post, and keep clear of him."] = "Karakolun kuzeyinde, yolun batısında: Stonesplinter trogg'ları ve izcileri tepelerde kamp kurmuş. İkisi de Trogg Stone Tooth düşürür.\nDikkat: 15. seviye bir trogg olan Headsplitter, 11-12. seviye trogglar arasında {area:923} vadisinde dolaşır: karakola yakın kuzey kenarındaki kamplarda çalış ve ondan uzak dur.",
+	-- plural, as words: Stonesplinter Scouts = {npc:1162} Stonesplinter Scout
+	["North of the post, west of the road: the Stonesplinter troggs and scouts camp in the hills. Both drop the Trogg Stone Teeth.\nCareful: pull the Stonesplinter Scouts and Troggs one at a time. Stay at the north edge of the valley; Headsplitter patrols the deeper camps."] = "Karakolun kuzeyinde, yolun batısında: Stonesplinter trogg'ları ve izcileri tepelerde kamp kurmuş. İkisi de Trogg Stone Teeth düşürür.\nDikkat: Stonesplinter Scout ve Trogg yaratıklarını tek tek çek. Vadinin kuzey kenarında kal, daha derindeki kamplarda Headsplitter devriye geziyor.",
 
 	-- Step 83: Back to the tunnel post
 	["Back to the tunnel post"] = "Tünel karakoluna dön",
@@ -546,7 +551,8 @@ return {
 	["Tram to {zone:1453}"] = "Tramvayla: {zone:1453}",
 	-- {zone:1455} Ironforge · {area:2257} Deeprun Tram · {npc:12997} Monty · {item:17117} Rat Catcher's Flute · {npc:13018} Nipsy · {zone:1453} Stormwind
 	-- plural, as words: Deeprun Rats = {npc:13016} Deeprun Rat
-	["On the {zone:1455} platform of the {area:2257}, {npc:12997} asks for help with the rats: use his {item:17117} on the Deeprun Rats around the platform, hand them in, then take his letter to his brother {npc:13018} at the {zone:1453} end."] = "{area:2257} treninin {zone:1455} peronunda {npc:12997} sıçanlar için yardım istiyor: onun {item:17117} eşyasını perondaki Deeprun Rat yaratıklarına kullan, onları teslim et, sonra mektubunu {zone:1453} ucundaki kardeşi {npc:13018} yanına götür.",
+	-- was: ["On the {zone:1455} platform of the {area:2257}, {npc:12997} asks for help with the rats: use his {item:17117} on the Deeprun Rats around the platform, hand them in, then take his letter to his brother {npc:13018} at the {zone:1453} end."] = "Auf dem Bahnsteig von {zone:1455} an der {area:2257} bittet {npc:12997} um Hilfe mit den Ratten: Benutze seine {item:17117} an den Deeprun Rats rund um den Bahnsteig, gib sie ab und bring dann seinen Brief zu seinem Bruder {npc:13018} am Ende in {zone:1453}."
+	["On the {zone:1455} platform of the {area:2257}, {npc:12997} asks for help with the rats: use his {item:17117} on the Deeprun Rats around the platform, hand them in, then take his letter to his brother {npc:13018} at the {zone:1453} end. The tram has no map inside. The city markers show the entrances, not the two brothers."] = "{area:2257} istasyonunun {zone:1455} peronunda {npc:12997} farelerle ilgili yardım istiyor: verdiği {item:17117} eşyasını peronun çevresindeki Deeprun Rat yaratıklarında kullanıp teslim et, sonra mektubunu {zone:1453} ucundaki kardeşi {npc:13018} yanına götür. Trenin içinde harita yok. Şehir işaretleri iki kardeşi değil, girişleri gösterir.",
 	-- {npc:12997} Monty · {zone:1455} Ironforge
 	["{npc:12997}, on the {zone:1455} platform"] = "{npc:12997}, {zone:1455} peronunda",
 	-- {npc:13016} Deeprun Rat · {item:17117} Rat Catcher's Flute
@@ -560,53 +566,57 @@ return {
 	-- {npc:13018} Nipsy · {zone:1453} Stormwind
 	["{npc:13018}, on the {zone:1453} platform"] = "{npc:13018}, {zone:1453} peronunda",
 
-	-- Step 108: Baros Alexston
+	-- Step 108: From the tram to Stormwind
+	-- {area:1519} Stormwind
+	["From the tram to {area:1519}"] = "Trenden {area:1519} şehrine",
+
+	-- Step 109: Baros Alexston
 	-- {object:28027} Dwarven District · {object:2098} Cathedral Square · {npc:1646} Baros Alexston · {zone:1436} Westfall · {object:2096} Trade District
 	["From the {object:28027} south-west to {object:2098}: {npc:1646}'s compass is in his old house in {zone:1436}, on the way. The flight master and the {object:2096} are south of the square."] = "{object:28027} semtinden güneybatıya, {object:2098} meydanına git: {npc:1646} adlı NPC'nin pusulası, yol üstündeki {zone:1436} bölgesinde, eski evinde. Uçuş ustası ve {object:2096} meydanın güneyinde.",
 
-	-- Step 109: Stormwind flight master
+	-- Step 110: Stormwind flight master
 	-- {zone:1453} Stormwind
 	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 
-	-- Step 110: Woo Ping
+	-- Step 111: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş). Paladin en hızlı iki elli silahla seviye atlar.",
 
-	-- Step 111: Woo Ping
+	-- Step 112: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş). Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
-	-- Step 112: Woo Ping
+	-- Step 113: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn Swords from {npc:11867} ({object:2096}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "Buradayken: {npc:11867} sana Swords öğretir ({object:2096}, 10 gümüş). Ana elde bir kılıçla Rogue istikrarla seviye atlar.",
 
-	-- Step 113: Defensive Stance
+	-- Step 114: Defensive Stance
 	-- {npc:5480} Ilsa Corbin · {object:2100} Old Town · {zone:1455} Ironforge · {object:28027} Dwarven District · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern · {quest:1638} A Warrior's Training · {quest:1639} Bartleby the Drunk
 	["{npc:5480} trains warriors in {object:2100}, near Osric's shop; the tram from {zone:1455} arrives in the {object:28027}, north of it. {npc:6089} and {npc:6090} stand together by the {object:2152} there. {npc:6090} fights you for his mug. If {npc:5480} doesn't offer {quest:1638}, go straight to {npc:6089}: he gives {quest:1639} without it."] = "{npc:5480}, {object:2100} semtinde, Osric'in dükkânının yakınında Warrior eğitiyor. {zone:1455} şehrinden gelen tren, semtin kuzeyindeki {object:28027} semtine varıyor. {npc:6089} ve {npc:6090} oradaki {object:2152} meyhanesinin yanında birlikte duruyor. {npc:6090} kupası için seninle dövüşür. {npc:5480} sana {quest:1638} görevini vermezse doğrudan {npc:6089} ile konuş: o, {quest:1639} görevini onsuz da verir.",
 
-	-- Step 114: Woo Ping
+	-- Step 115: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş). Warrior en hızlı iki elli silahla seviye atlar.",
 
-	-- Step 115: Gakin the Darkbinder
+	-- Step 116: Gakin the Darkbinder
 	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter
 	["{npc:6122} waits in the cellar of the {object:2164}, in the {object:2101}."] = "{npc:6122}, {object:2101} semtindeki {object:2164} meyhanesinin mahzeninde bekliyor.",
 	-- {quest:1688} Surena Caledon · {zone:1436} Westfall
 	["{quest:1688}: her choker and The Binding are on {zone:1436}'s east-Elwynn loop"] = "{quest:1688}: gerdanlığı ve The Binding, {zone:1436} bölgesinin doğu Elwynn turunda",
 
-	-- Step 116: Woo Ping
+	-- Step 117: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş). Seviye atlarken bir asa, tek elli bir silahtan daha çok büyü istatistiği taşır.",
 
-	-- Step 117: Jennea Cannon
+	-- Step 118: Jennea Cannon
 	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter · {quest:1861} Mirror Lake
 	["{npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}; she gives you a flask for the {quest:1861} waterfall."] = "{npc:5497}, {object:2101} semtinin kulesinde, Wizard's Sanctum içinde duruyor. Sana {quest:1861} şelalesi için bir şişe verir.",
 
-	-- Step 118: Mirror Lake
+	-- Step 119: Mirror Lake
 	-- {zone:1453} Stormwind · {quest:1861} Mirror Lake · {zone:1436} Westfall · {item:7207} Jennea's Flask
 	["Leave {zone:1453} by the main gate. The {quest:1861} waterfall is south-west of the gates, on the way west to {zone:1436}: fill {item:7207} at its base."] = "{zone:1453} şehrinden ana kapıdan çık. {quest:1861} şelalesi kapıların güneybatısında, batıya {zone:1436} bölgesine giden yolun üzerinde: {item:7207} şişesini şelalenin dibinde doldur.",
 
-	-- Step 119: Goldshire
+	-- Step 120: Goldshire
 	-- {zone:1453} Stormwind · {area:87} Goldshire · {zone:1436} Westfall
 	["Leave {zone:1453} by the main gate and follow the road south to {area:87}: east Elwynn comes before {zone:1436}."] = "{zone:1453} şehrinden ana kapıdan çık ve yolu güneye izleyerek {area:87} kasabasına git: doğu Elwynn, {zone:1436} bölgesinden önce gelir.",
 }

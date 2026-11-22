@@ -64,6 +64,8 @@ return {
 	["{npc:6790}, Scarlet Raven Tavern"] = "{npc:6790}, Scarlet Raven Tavern",
 	-- {npc:267} Clerk Daltry
 	["{npc:267}, in the town hall"] = "{npc:267}, belediye binasında",
+	-- {npc:267} Clerk Daltry · {quest:66} The Legend of Stalvan · {zone:1436} Westfall · {area:20} Moonbrook · {zone:1431} Duskwood
+	["{npc:267}: {quest:66}, the footlocker in {zone:1436}'s {area:20}, at the west end of your next {zone:1431} loop (the {zone:1431} guide)"] = "{npc:267}: {quest:66}, {zone:1436} bölgesindeki {area:20} köyünde duran sandık, bir sonraki {zone:1431} turunun batı ucunda ({zone:1431} rehberi)",
 	-- {npc:264} Commander Althea Ebonlocke
 	["{npc:264}, in the town hall"] = "{npc:264}, belediye binasında",
 	-- {npc:268} Sirra Von'Indi
@@ -148,7 +150,8 @@ return {
 	-- {npc:272} Chef Grual · {zone:1431} Duskwood
 	-- plural, as words: Gooey Spider Legs = {item:2251} Gooey Spider Leg
 	["{npc:272}: six Gooey Spider Legs, which {zone:1431}'s spiders drop even without the quest"] = "{npc:272}: altı Gooey Spider Leg. {zone:1431} bölgesindeki örümcekler bunları görev olmadan da düşürür",
-	["Already carrying six? Hand them in now"] = "Altısı zaten sende mi? Şimdi teslim et",
+	-- {npc:272} Chef Grual · {area:1097} The Hushed Bank
+	["{npc:272}: the six legs from the {area:1097}"] = "{npc:272}: {area:1097} kesiminden altı bacak",
 	-- {npc:288} Jitters · {quest:163} Raven Hill · {zone:1431} Duskwood
 	["For {npc:288}, at {quest:163} on the next {zone:1431} loop"] = "Sonraki {zone:1431} turunda, {quest:163} görevinde {npc:288} için",
 	-- {npc:663} Calor
@@ -264,5 +267,5 @@ return {
 	-- {npc:903} Guard Howe
 	["{npc:903}, by the gryphons south of the bridge"] = "{npc:903}, köprünün güneyindeki grifonların yanında",
 	-- {area:42} Darkshire · {zone:1431} Duskwood
-	["Next: the gryphon to {area:42} for {zone:1431}'s second loop (05-duskwood)."] = "Sırada: {zone:1431} bölgesinin ikinci turu için {area:42} kasabasına gryphon (05-duskwood).",
+	["Next: the gryphon to {area:42} for {zone:1431}'s second loop (the {zone:1431} guide)."] = "Sırada: {zone:1431} bölgesinin ikinci turu için {area:42} kasabasına gryphon ({zone:1431} rehberi).",
 }

@@ -138,29 +138,25 @@ return {
 	-- {npc:4794} Morgan Stern
 	["{npc:4794}, inside"] = "{npc:4794}, içeride",
 
-	-- Step 31: Cortello's Riddle
-	-- {area:498} Bloodfen Burrow
-	["Inside {area:498}"] = "{area:498} içinde",
-
-	-- Step 32: Mudsprocket
+	-- Step 31: Mudsprocket
 	["Mudsprocket"] = "Mudsprocket",
 	-- {area:511} Wyrmbog · {npc:270723} Drazzit Dripvalve · {npc:270727} Gizzix Grimegurgle
 	["Take the road south-west out of Theramore to Mudsprocket, the goblin camp at the edge of the {area:511}. {npc:270723} and {npc:270727} stand together in the camp."] = "Theramore'dan güneybatı yoluyla çık ve {area:511} kenarındaki goblin kampı Mudsprocket'e git. {npc:270723} ve {npc:270727} kampta yan yana duruyor.",
 
-	-- Step 33: The Wyrmbog
+	-- Step 32: The Wyrmbog
 	-- {area:511} Wyrmbog
 	["The {area:511}"] = "{area:511}",
 	-- {item:280092} Wyrmtail
 	-- plural, as words: Searing Hatchlings = {npc:4323} Searing Hatchling · Firemane Scalebanes = {npc:4328} Firemane Scalebane
 	["The {item:280092} grows in the bog east of the camp: gather it first. Then the Searing Hatchlings and Whelps (41-43) and the Firemane dragonkin nest in the bog north and west of Mudsprocket, on the way back; all of them drop the shed scales.\nCareful: the Firemane Scalebanes and Flamecallers are 43-44 and cast fire: pull them one at a time."] = "{item:280092} kampın doğusundaki bataklıkta yetişiyor: önce onu topla. Sonra Searing Hatchling ve Whelp yaratıkları (41-43) ile Firemane ejderhaları, dönüş yolunda Mudsprocket'in kuzeyindeki ve batısındaki bataklıkta yuva yapmış. Hepsi dökülmüş pul düşürür.\nDikkat: Firemane Scalebane ve Flamecaller yaratıkları 43-44 ve ateş büyüsü yapar: onları tek tek çek.",
 
-	-- Step 34: Mudsprocket
+	-- Step 33: Mudsprocket
 	["Then ride back north-east to Theramore's flight master."] = "Sonra kuzeydoğuya, Theramore'un uçuş ustasına geri sür.",
 
-	-- Step 35: Theramore flight master
+	-- Step 34: Theramore flight master
 	["Theramore flight master"] = "Theramore uçuş ustası",
 
-	-- Step 37: Warlock: Summon Felsteed
+	-- Step 36: Warlock: Summon Felsteed
 	-- {quest:3631} Summon Felsteed
 	["Warlock: {quest:3631}"] = "Warlock: {quest:3631}",
 	-- {zone:1413} Barrens · {area:392} Ratchet · {npc:6251} Strahad Farsan

@@ -1,6 +1,6 @@
 {
 	"name": "kutupstar",
-	"version": "0.4.1",
+	"version": "0.4.2.1",
 	"private": true,
 	"description": "Kutupstar (Polestar TR): Turkish for the Polestar addon (World of Warcraft: Forever)",
 	"license": "GPL-3.0-only",
@@ -14,7 +14,7 @@
 		"luaparse": "0.3.1"
 	},
 	"config": {
-		"polestarTag": "v0.4.1",
+		"polestarTag": "v0.4.2.1",
 		"curseforgeProjectId": 1759256
 	}
 }

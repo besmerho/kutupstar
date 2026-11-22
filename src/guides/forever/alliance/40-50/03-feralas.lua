@@ -129,21 +129,33 @@ return {
 	-- plural, as words: Ironfur Bears = {npc:5268} Ironfur Bear · Ironfur Patriarchs = {npc:5274} Ironfur Patriarch
 	["Ride north out of {area:1105}: the Ironfur Bears (41-42) at the foot of the {area:1136} drop Rhapsody's last liver.\nCareful: Ironfur Patriarchs (48-49) and the Rage Scar yetis (46-49) roam the hills further north: stay at their edge."] = "{area:1105} vadisinden kuzeye sür: {area:1136} eteğindeki Ironfur Bear yaratıkları (41-42) Rhapsody'nin son ciğerini düşürür.\nDikkat: Ironfur Patriarch (48-49) ve Rage Scar yetileri (46-49) daha kuzeydeki tepelerde dolaşıyor: onların kenarında kal.",
 
-	-- Step 25: Feathermoon Stronghold
+	-- Step 25: OOX-22/FE Distress Beacon
+	-- {zone:1444} Feralas
+	["Only with the distress beacon, a rare drop in {zone:1444}: it starts a quest to find the robot it calls for."] = "Yalnız {zone:1444} bölgesinde nadiren düşen imdat işaretçisi sendeyse: çağırdığı robotu bulma görevini başlatır.",
+
+	-- Step 26: Homing Robot OOX-22/FE
+	-- {area:1105} Feral Scar Vale · {area:1108} Forgotten Coast · {npc:7406} Oglethorpe Obnoticus · {area:35} Booty Bay · {zone:1425} Hinterlands
+	["The robot sits in a small cave on the north side of {area:1105}, just north-west of the ruins. Escort it to the dock on the {area:1108}, where the boat to Feathermoon leaves; its reward waits with {npc:7406} in {area:35}, on the {zone:1425} guide's {area:35} stop.\nCareful: Three ambushes spawn during the escort, and the robot warns you before each one. The first is 3 yetis, just after the robot leaves the cave and climbs toward the road. The second is 3 gorillas, on the path that runs along the cliff. The third is about 4 gnolls, one of them a caster, where the route turns off toward the dock."] = "Robot, {area:1105} vadisinin kuzey yanında, harabelerin hemen kuzeybatısındaki küçük bir mağarada duruyor. Feathermoon gemisinin kalktığı {area:1108} kıyısındaki iskeleye kadar ona eşlik et. Ödülü {zone:1425} rehberinin {area:35} durağında, {area:35} limanındaki {npc:7406} yanında bekliyor.\nDikkat: eşlik ederken üç pusu çıkar, robot her birinden önce seni uyarır. İlki 3 yeti, robot mağaradan çıkıp yola tırmandıktan hemen sonra. İkincisi 3 goril, uçurum boyunca uzanan patikada. Üçüncüsü yaklaşık 4 gnoll, biri büyücü, rotanın iskeleye saptığı yerde.",
+
+	-- Step 27: Feathermoon Stronghold
 	-- {npc:7880} Ginro Hearthkindle
 	["{npc:7880} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "{npc:7880} binasının üst katında duruyor: içeriden yukarı çık, ok katları birbirinden ayıramaz.",
+	-- {npc:3936} Shandris Feathermoon · {quest:4267} Rise of the Silithid · {npc:7740} Gracina Spiritmight · {zone:1446} Tanaris · {zone:1457} Darnassus
+	["{npc:3936}: {quest:4267}, for {npc:7740} on the {zone:1446} guide's {zone:1457} stop: keep it"] = "{npc:3936}: {quest:4267}, {zone:1446} rehberinin {zone:1457} durağındaki {npc:7740} için: sakla",
 
-	-- Step 26: Feathermoon Stronghold
-	-- {npc:3936} Shandris Feathermoon · {zone:1457} Darnassus · {area:976} Gadgetzan
-	["{npc:3936} then asks you to carry news to {zone:1457}: skip it, {area:976} sends you there instead."] = "{npc:3936} ardından {zone:1457} şehrine haber götürmeni ister: atla, oraya seni {area:976} gönderecek.",
+	-- Step 28: Angelas Moonbreeze
+	-- {npc:7900} Angelas Moonbreeze · {area:1116} Feathermoon Stronghold · {npc:7771} Marvon Rivetseeker · {area:1938} Broken Pillar · {zone:1446} Tanaris
+	["{npc:7900} in {area:1116} sends you to {npc:7771} at the {area:1938} in {zone:1446}, where the {zone:1446} guide stops for his dig."] = "{area:1116} kalesindeki {npc:7900} seni {zone:1446} bölgesindeki {area:1938} kesiminde, {npc:7771} yanına gönderir. {zone:1446} rehberi kazısı için orada durur.",
+	-- {npc:7771} Marvon Rivetseeker · {area:1938} Broken Pillar · {zone:1446} Tanaris
+	["for {npc:7771} at the {area:1938} in {zone:1446}: keep it"] = "{zone:1446} bölgesinde {area:1938} kesimindeki {npc:7771} için: sakla",
 
-	-- Step 28: Ride to Thalanaar
+	-- Step 30: Ride to Thalanaar
 	-- {area:489} Thalanaar
 	["Ride to {area:489}"] = "{area:489} karakoluna sür",
 	-- {area:489} Thalanaar · {zone:1441} Thousand Needles
 	["No flight path to {area:489} yet: take the boat back to the coast and ride east along the road to {area:489}, on the {zone:1441} border."] = "Henüz {area:489} uçuş noktası yok: gemiyle kıyıya dön ve yol boyunca doğuya, {zone:1441} sınırındaki {area:489} karakoluna sür.",
 
-	-- Step 29: Thalanaar
+	-- Step 31: Thalanaar
 	-- {zone:1441} Thousand Needles
 	["Ride north-east to the night elf outpost on the {zone:1441} border."] = "Kuzeydoğuya, {zone:1441} sınırındaki Night Elf karakoluna git.",
 	-- {npc:4048} Falfindel Waywarder · {area:489} Thalanaar

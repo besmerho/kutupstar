@@ -21,144 +21,132 @@ return {
 	-- plural, as words: Green Sludges = {npc:2655} Green Sludge · Jade Oozes = {npc:2656} Jade Ooze
 	["Ride north to {area:351} in the middle of the {zone:1425}. Green Sludges and Jade Oozes crawl all around it.\nCareful: Panthers move around the area in stealth."] = "Kuzeye, {zone:1425} bölgesinin ortasındaki {area:351} kayasına sür. Green Sludge ve Jade Ooze yaratıkları çevresinin her yanında sürünüyor.\nDikkat: Bölgede panterler gizlenerek dolaşıyor.",
 
-	-- Step 4: Wildkin feathers
+	-- Step 4: OOX-09/HL Distress Beacon
+	-- {zone:1425} The Hinterlands
+	["Only with the distress beacon, a rare drop in the {zone:1425}: it starts a quest to find the robot it calls for."] = "Yalnız {zone:1425} bölgesinde nadiren düşen imdat işaretçisi sendeyse: çağırdığı robotu bulma görevini başlatır.",
+
+	-- Step 5: OOX-09/HL
+	["OOX-09/HL"] = "OOX-09/HL",
+	-- {area:351} Skulk Rock · {area:307} Overlook Cliffs · {area:348} Aerie Peak · {npc:7406} Oglethorpe Obnoticus · {area:35} Booty Bay
+	["The robot sits at the head of the river west of {area:351}. Escort it east to the shore beyond the {area:307}, then ride back west for {area:348}; its reward waits with {npc:7406} in {area:35}, later in this guide.\nCareful: Two ambushes spawn during the escort: first three wildkin owlbeasts, then three trolls. Before each, the robot halts and announces it senses danger. Oozes, stealthed wolves and a large turtle along the path can join fights, and they respawn even if cleared beforehand."] = "Robot, {area:351} kayasının batısında nehrin başında duruyor. Doğuya, {area:307} kayalıklarının ötesindeki kıyıya kadar ona eşlik et, sonra {area:348} için batıya geri sür. Ödülü bu rehberde daha sonra {area:35} limanındaki {npc:7406} yanında bekliyor.\nDikkat: eşlik ederken iki pusu çıkar: önce üç wildkin owlbeast, sonra üç troll. Her birinden önce robot durup tehlike sezdiğini söyler. Yol boyundaki ooze'lar, gizli kurtlar ve büyük bir kaplumbağa dövüşe katılabilir. Önceden temizlesen de yeniden doğarlar.",
+
+	-- Step 6: Wildkin feathers
 	["Wildkin feathers"] = "Wildkin tüyleri",
 	-- {npc:7916} Erelas Ambersky · {zone:1425} The Hinterlands · {area:348} Aerie Peak · {area:351} Skulk Rock
 	-- plural, as words: Wildkin Feathers = {item:10819} Wildkin Feather
 	["{npc:7916}'s Wildkin Feathers lie on the ground across the {zone:1425}, south and east of {area:348}, where the owlbeasts roam: pick them up as you ride between the altar and {area:351}."] = "{npc:7916} için Wildkin Feather tüyleri {zone:1425} bölgesinin her yanında, {area:348} köyünün güneyinde ve doğusunda, baykuş hayvanlarının dolaştığı yerde yerde duruyor: sunakla {area:351} arasında giderken topla.",
 
-	-- Step 5: Lost Gryphon Eggs
+	-- Step 7: Lost Gryphon Eggs
 	-- plural, as words: Lost Gryphon Eggs = {item:279229} Lost Gryphon Egg
 	["Lost Gryphon Eggs"] = "Lost Gryphon Egg yumurtaları",
 	-- {area:348} Aerie Peak
 	["On the way back to {area:348}: the lost gryphon eggs lie in the hills just east of the aviary."] = "{area:348} köyüne dönerken: kayıp grifon yumurtaları kuş kafesinin hemen doğusundaki tepelerde.",
 
-	-- Step 6: Aerie Peak
+	-- Step 8: Aerie Peak
 	["Inside"] = "İçeride",
 	-- {npc:5636} Gryphon Master Talonaxe
 	["{npc:5636}, inside"] = "{npc:5636}, içeride",
-	-- {quest:2990} Thadius Grimshade · {area:1438} Nethergarde Keep
-	["for {quest:2990} at {area:1438}, later"] = "{area:1438} kalesindeki {quest:2990} için, daha sonra",
+	-- {quest:2990} Thadius Grimshade · {area:1438} Nethergarde Keep · {zone:1428} Burning Steppes
+	["for {quest:2990} at {area:1438}: the {zone:1428} guide hands it in"] = "{area:1438} kalesindeki {quest:2990} için: {zone:1428} rehberi teslim eder",
 	-- {npc:270263} Farseer Maret Firetend
 	["{npc:270263}, just east of the aviary"] = "{npc:270263}, kuş kafesinin hemen doğusunda",
 
-	-- Step 7: Fly to Ironforge
+	-- Step 9: Fly to Ironforge
 	-- {area:1537} Ironforge
 	["Fly to {area:1537}"] = "Uç: {area:1537}",
 	-- {area:348} Aerie Peak
 	["{area:348} flight master"] = "{area:348} uçuş ustası",
 
-	-- Step 8: Class trainer
+	-- Step 10: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
 
-	-- Step 9: Ironforge inn
+	-- Step 11: Ironforge inn
 	-- {area:1537} Ironforge
 	["{area:1537} inn"] = "{area:1537} hanı",
 	-- {object:26486} Stonefire Tavern (no name in this language: may be words) · {zone:1427} Searing Gorge · {area:144} Thelsamar
 	["Set your hearth at the {object:26486}: the {zone:1427} guide starts with the hearth back here and the gryphon to {area:144}."] = "Hearthstone'unu {object:26486} içinde bağla: {zone:1427} rehberi Hearthstone ile buraya dönüş ve {area:144} grifonuyla başlar.",
 
-	-- Step 10: Tram to Stormwind
+	-- Step 12: Tram to Stormwind
 	-- {zone:1453} Stormwind
 	["Tram to {zone:1453}"] = "Tramvayla: {zone:1453}",
 
-	-- Step 12: Fly to Darkshire
-	-- {area:42} Darkshire
-	["Fly to {area:42}"] = "{area:42} kasabasına uç",
+	-- Step 14: Fly to Booty Bay
+	-- {area:35} Booty Bay
+	["Fly to {area:35}"] = "{area:35} limanına uç",
 	-- {zone:1453} Stormwind
 	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 
-	-- Step 15: The bloodmages
-	["The bloodmages"] = "Kan büyücüleri",
-	-- {zone:1419} Blasted Lands · {area:1438} Nethergarde Keep
-	["The bloodmages' camp is the first stop beside the road into the {zone:1419}, north-west of {area:1438}."] = "Bloodmage'lerin kampı, {zone:1419} bölgesine giden yolun kenarındaki ilk durak, {area:1438} kalesinin kuzeybatısında.",
-	-- {npc:7505} Bloodmage Drazial · {zone:1419} Blasted Lands
-	["{npc:7505}: keep the five, their beasts (48-53) wait for the level-52 {zone:1419} stop"] = "{npc:7505}: beşini de sakla, hayvanları (48-53) 52. seviyedeki {zone:1419} durağını bekler",
-
-	-- Step 16: Nethergarde Keep
-	-- {item:6091} Crate of Power Stones · {area:42} Darkshire
-	["Ride on east along the road to the keep first: the {item:6091} expires an hour after {area:42}."] = "Önce yol boyunca doğuya, kaleye sür: {item:6091} {area:42} kasabasından bir saat sonra sona erer.",
-	-- {quest:2990} Thadius Grimshade
-	["{quest:2990}, at the top of the keep"] = "{quest:2990}, kalenin tepesinde",
-	-- {npc:8022} Thadius Grimshade · {item:9471} Nekrum's Medallion · {area:978} Zul'Farrak
-	["{npc:8022}' next task, {item:9471}, is a {area:978} quest: skip it."] = "{npc:8022} adlı NPC'nin sonraki görevi {item:9471} bir {area:978} görevi: atla.",
-	-- {npc:5385} Watcher Mahar Ba
-	["{npc:5385}, upstairs"] = "{npc:5385}, üst katta",
-
-	-- Step 17: Fly to Booty Bay
-	-- {area:35} Booty Bay
-	["Fly to {area:35}"] = "{area:35} limanına uç",
-	-- {area:1438} Nethergarde Keep
-	["{area:1438} flight master"] = "{area:1438} uçuş ustası",
-
-	-- Step 18: Booty Bay
+	-- Step 15: Booty Bay
 	["\"Sea Wolf\" MacKinley, on the top floor"] = "\"Sea Wolf\" MacKinley, en üst katta",
-	["\"Sea Wolf\" MacKinley, if the Stranglethorn guide didn't give it"] = "\"Sea Wolf\" MacKinley, Stranglethorn rehberi vermediyse",
 	-- {npc:2487} Fleet Master Seahorn
-	["{npc:2487}, top floor, if the Stranglethorn guide didn't give it"] = "{npc:2487}, en üst kat, Stranglethorn rehberi vermediyse",
-	-- {npc:2494} Privateer Bloads
-	["{npc:2494}, if the Stranglethorn guide didn't give it"] = "{npc:2494}, Stranglethorn rehberi vermediyse",
+	["{npc:2487}, top floor"] = "{npc:2487}, en üst kat",
 	-- {npc:2498} Crank Fizzlebub
-	["{npc:2498}, inside, if the Stranglethorn guide didn't give it"] = "{npc:2498}, içeride, Stranglethorn rehberi vermediyse",
+	["{npc:2498}, inside"] = "{npc:2498}, içeride",
 
-	-- Step 19: Wild Shore: kill these as you meet them
+	-- Step 16: Oglethorpe Obnoticus
+	-- {zone:1444} Feralas · {npc:7406} Oglethorpe Obnoticus · {area:35} Booty Bay
+	["Only if you escorted the {zone:1444} robot: its reward waits with {npc:7406} here in {area:35}."] = "Yalnız {zone:1444} robotuna eşlik ettiysen: ödülü burada, {area:35} limanında {npc:7406} yanında bekliyor.",
+
+	-- Step 17: Oglethorpe Obnoticus
+	-- {zone:1425} The Hinterlands · {npc:7406} Oglethorpe Obnoticus
+	["Only if you escorted the {zone:1425} robot: {npc:7406} has its reward too."] = "Yalnız {zone:1425} robotuna eşlik ettiysen: {npc:7406} o robotun ödülünü de veriyor.",
+
+	-- Step 18: Wild Shore: kill these as you meet them
 	-- {area:43} Wild Shore
 	["{area:43}: kill these as you meet them"] = "{area:43}: bunları karşılaştıkça öldür",
 	-- {area:43} Wild Shore · {area:35} Booty Bay
 	["The charts and orders lie in the pirate camp on the {area:43}, just south of {area:35}; its Swashbucklers walk the shore. The Warlocks and Swashbucklers (41-43) are under you now."] = "Haritalar ve emirler {area:35} limanının hemen güneyinde, {area:43} kıyısındaki korsan kampında. Swashbuckler'ları kıyıda dolaşıyor. Warlock ve Swashbuckler'lar (41-43) artık senden düşük.",
 
-	-- Step 20: Booty Bay
-	-- {npc:2487} Fleet Master Seahorn
-	["{npc:2487}, top floor"] = "{npc:2487}, en üst kat",
-
-	-- Step 21: The Bloodsail captains
+	-- Step 20: The Bloodsail captains
 	["The Bloodsail captains"] = "Bloodsail kaptanları",
 	-- {area:35} Booty Bay · {npc:2550} Captain Stillwater · {npc:2548} Captain Keelhaul · {npc:2546} Fleet Master Firallon
 	["The three Bloodsail ships lie at anchor off the coast just south of {area:35}: {npc:2550} (45) and {npc:2548} (46) on the nearer decks, {npc:2546} (48) on the flagship, each with a crew of 42-45 pirates. Swim out, clear each deck from the edge and pull one at a time."] = "Üç Bloodsail gemisi {area:35} limanının hemen güneyinde, kıyının açığında demirli: {npc:2550} (45) ve {npc:2548} (46) yakın güvertelerde, {npc:2546} (48) amiral gemisinde. Her birinin 42-45 korsandan bir tayfası var. Yüzerek git, her güverteyi kenardan temizle ve tek tek çek.",
 
-	-- Step 23: Naga Explorers
+	-- Step 22: Naga Explorers
 	-- plural, as words: Naga Explorers = {npc:1907} Naga Explorer
 	["Naga Explorers"] = "Naga Explorer yaratıkları",
 	["Leave town by the tunnel and ride north along the coast past the Bloodsail camp: the naga comb the beaches beyond it and drop the reeds."] = "Kasabadan tünelden çık ve kıyı boyunca kuzeye, Bloodsail kampını geçerek sür: nagalar kampın ötesindeki kumsalları tarıyor ve sazları düşürüyor.",
 
-	-- Step 24: Zanzil's village
+	-- Step 23: Zanzil's village
 	["Zanzil's village"] = "Zanzil'in köyü",
 	-- {npc:2537} Chucky "Ten Thumbs"
 	["Ride on north along the coast to Zanzil's village. Every Zanzil follower can drop the mixture; {npc:2537} walks the south of the camp."] = "Kıyı boyunca kuzeye, Zanzil'in köyüne devam et. Her Zanzil takipçisi karışımı düşürebilir. {npc:2537} kampın güneyinde dolaşıyor.",
 
-	-- Step 25: Maury "Club Foot" Wilkins and Jon-Jon the Crow
-	-- {npc:2535} Maury "Club Foot" Wilkins · {npc:2536} Jon-Jon the Crow
-	["{npc:2535} and {npc:2536}"] = "{npc:2535} ve {npc:2536}",
+	-- Step 24: Maury "Club Foot" Wilkins and Jon-Jon
+	-- {npc:2535} Maury "Club Foot" Wilkins
+	-- was: ["{npc:2535} and {npc:2536}"] = "{npc:2535} und {npc:2536}"
+	["{npc:2535} and Jon-Jon"] = "{npc:2535} ve Jon-Jon",
 	-- {npc:2535} Maury "Club Foot" Wilkins · {npc:2536} Jon-Jon the Crow
 	["{npc:2535} and {npc:2536} stand together in the hills just north of Zanzil's village."] = "{npc:2535} ve {npc:2536}, Zanzil'in köyünün hemen kuzeyindeki tepelerde yan yana duruyor.",
+	-- {item:3925} Jon-Jon's Golden Spyglass · {npc:2536} Jon-Jon the Crow
+	["{item:3925}, from {npc:2536}"] = "{item:3925}, kaynak: {npc:2536}",
 
-	-- Step 26: Gorilla hills
+	-- Step 25: Gorilla hills
 	["Gorilla hills"] = "Goril tepeleri",
 	-- {area:35} Booty Bay · {npc:1449} Witch Doctor Unbagwa
 	-- plural, as words: Gorilla Fangs = {item:2799} Gorilla Fang · Elder Mistvale Gorillas = {npc:1557} Elder Mistvale Gorilla
 	["Ride back south-east to the Mistvale gorilla hills above {area:35}. {npc:1449} sits among the gorillas: take ten Gorilla Fangs from the Elder Mistvale Gorillas first."] = "Güneydoğuya, {area:35} limanının yukarısındaki Mistvale goril tepelerine geri sür. {npc:1449} gorillerin arasında oturuyor: önce Elder Mistvale Gorilla yaratıklarından on Gorilla Fang al.",
 
-	-- Step 27: Unbagwa's ritual
+	-- Step 26: Unbagwa's ritual
 	["Unbagwa's ritual"] = "Unbagwa'nın ayini",
 	-- {npc:1514} Mokk the Savage
 	["Hand in the fangs and stay: three waves of gorillas come, {npc:1514} last.\nCareful: three waves of gorillas come one after another with little rest between, then {npc:1514}. Start at full health and mana, and stay near Unbagwa. Some classes find it hard alone: a friend makes it easy."] = "Dişleri teslim et ve kal: üç dalga goril gelir, en son {npc:1514}.\nDikkat: üç goril dalgası aralarında az dinlenmeyle art arda gelir, ardından {npc:1514}. Tam can ve manayla başla ve Unbagwa'nın yakınında kal. Bazı sınıflara tek başına zor gelir: bir arkadaş işi kolaylaştırır.",
 	-- {npc:1449} Witch Doctor Unbagwa · {area:1742} Spirit Den
 	["{npc:1449}, inside {area:1742}"] = "{npc:1449}, {area:1742} içinde",
 
-	-- Step 29: Booty Bay
+	-- Step 28: Booty Bay
 	["Ride back down to town."] = "Kasabaya geri in.",
 	-- {npc:2616} Privateer Groy
 	["for {npc:2616} in Theramore: keep it, the Un'Goro guide lands there"] = "Theramore'daki {npc:2616} için: sakla, Un'Goro rehberi oraya iner",
 	-- {npc:2498} Crank Fizzlebub · {zone:1441} Thousand Needles
 	["{npc:2498}'s next Zanzil errand starts in {zone:1441}: skip it."] = "{npc:2498} adlı NPC'nin sonraki Zanzil işi {zone:1441} bölgesinde başlıyor: atla.",
-	-- {npc:2498} Crank Fizzlebub
-	["{npc:2498}, inside"] = "{npc:2498}, içeride",
 	["MacKinley's next task sends you after elite ogres: skip it."] = "MacKinley'nin sonraki görevi seni elit ogrelerin peşine gönderir: atla.",
 
-	-- Step 30: Monogrammed Sash
+	-- Step 29: Monogrammed Sash
 	-- {quest:8552} The Monogrammed Sash
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:8552} needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {quest:8552} 2 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
-	-- Step 34: Negolash's bait
+	-- Step 33: Negolash's bait
 	-- {npc:1494} Negolash
 	["{npc:1494}'s bait"] = "{npc:1494} için yem",
 	-- {npc:1494} Negolash · {quest:619} Enticing Negolash · {area:35} Booty Bay · {item:4595} Junglevine Wine · {npc:2832} Nixxrax Fillamug
@@ -169,7 +157,7 @@ return {
 	-- {object:2289} Ruined Lifeboat · {npc:1494} Negolash
 	["{object:2289}: the food goes in, {npc:1494} comes"] = "{object:2289}: yemeği koyunca {npc:1494} gelir",
 
-	-- Step 35: Facing Negolash
+	-- Step 34: Facing Negolash
 	-- {npc:1494} Negolash
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:1494} (level 52 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:1494} (seviye 52 elit) 2 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 }

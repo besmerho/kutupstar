@@ -144,19 +144,27 @@ return {
 	-- {npc:3823} Ghostpaw Runner · {npc:3809} Ashenvale Bear · {npc:3817} Shadowhorn Stag · {skill:393} Skinning
 	["Kill and skin {npc:3823} (19), {npc:3809} (21, needs 105), {npc:3817} (21, needs 105) along the loop until {skill:393} 125; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 18-30. Expect about 30 beasts for these 25 points."] = "Tur boyunca {npc:3823} (19), {npc:3809} (21, 105 ister), {npc:3817} (21, 105 ister) yaratıklarını öldürüp {skill:393} 125 olana kadar derilerini yüz. Her cesedi önce loot'la, sonra yüz ve becerinin yettiği en yüksek seviyeli hayvanları seç. Seviyesi L olan bir hayvan seviye 20'ye kadar (L-10)x10, üstünde Lx5 beceri ister. Bölge seviyesi 18-30. Bu 25 puan için yaklaşık 30 hayvan bekle.",
 
-	-- Step 18: Beasts 21-23: Hillsbrad Foothills (100-125)
-	-- {zone:1424} Hillsbrad Foothills
-	["Beasts 21-23: {zone:1424} (100-125)"] = "Hayvanlar 21-23: {zone:1424} (100-125)",
-	-- {npc:2351} Gray Bear · {npc:2354} Vicious Gray Bear · {npc:2384} Starving Mountain Lion · {skill:393} Skinning
-	["Kill and skin {npc:2351} (21, needs 105), {npc:2354} (22, needs 110), {npc:2384} (23, needs 115) along the loop until {skill:393} 125; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 20-30. Expect about 40 beasts for these 25 points."] = "Tur boyunca {npc:2351} (21, 105 ister), {npc:2354} (22, 110 ister), {npc:2384} (23, 115 ister) yaratıklarını öldür ve {skill:393} 125 olana kadar derilerini yüz. Her cesedi loot'la, sonra derisini yüz ve becerinin izin verdiği en yüksek seviyeli hayvanları yüz. Seviyesi L olan bir hayvan seviye 20'ye kadar (L-10)x10, üstünde Lx5 beceri ister. Bölge seviyesi 20-30. Bu 25 puan için yaklaşık 40 hayvan bekle.",
+	-- Step 18: Beasts 10-16: Silverpine Forest (100-105)
+	-- {zone:1421} Silverpine Forest
+	["Beasts 10-16: {zone:1421} (100-105)"] = "Hayvanlar 10-16: {zone:1421} (100-105)",
+	-- {npc:1778} Ferocious Grizzled Bear · {npc:1766} Mottled Worg · {npc:1797} Giant Grizzled Bear · {npc:1923} Bloodsnout Worg · {skill:393} Skinning
+	-- was: ["Kill and skin Worg (10), {npc:1778} (11), {npc:1766} (11), {npc:1797} (12), {npc:1923} (16, needs 60) along the loop until {skill:393} 100; skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 10-20."] = "Töte und häute Worg (10), {npc:1778} (11), {npc:1766} (11), {npc:1797} (12), {npc:1923} (16, erfordert 60) entlang der Route bis {skill:393} 100; häute die höchststufigen Bestien, die deine Fertigkeit erlaubt. Eine Bestie der Stufe L erfordert bis Stufe 20 Fertigkeit (L-10)x10, darüber Lx5. Gebietsstufe 10-20."
+	["Kill and skin Worg (10), {npc:1778} (11), {npc:1766} (11), {npc:1797} (12), {npc:1923} (16) along the loop until {skill:393} 105; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 10-20. Expect about 30 beasts for these 5 points."] = "Tur boyunca Worg (10), {npc:1778} (11), {npc:1766} (11), {npc:1797} (12), {npc:1923} (16) yaratıklarını öldürüp {skill:393} 105 olana kadar derilerini yüz. Her cesedi loot'la, sonra derisini yüz ve becerinin izin verdiği en yüksek seviyeli hayvanları yüz. Seviyesi L olan bir hayvan seviye 20'ye kadar (L-10)x10, üstünde Lx5 beceri ister. Bölge seviyesi 10-20. Bu 5 puan için yaklaşık 30 hayvan bekle.",
 
-	-- Step 19: Expert Skinning
+	-- Step 19: Beasts 21-23: Hillsbrad Foothills (105-125)
+	-- {zone:1424} Hillsbrad Foothills
+	["Beasts 21-23: {zone:1424} (105-125)"] = "Hayvanlar 21-23: {zone:1424} (105-125)",
+	-- {npc:2351} Gray Bear · {npc:2354} Vicious Gray Bear · {npc:2384} Starving Mountain Lion · {skill:393} Skinning
+	-- was: ["Kill and skin {npc:2351} (21, needs 105), {npc:2354} (22, needs 110), {npc:2384} (23, needs 115) along the loop until {skill:393} 125; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 20-30. Expect about 40 beasts for these 25 points."] = "Töte und häute {npc:2351} (21, braucht 105), {npc:2354} (22, braucht 110), {npc:2384} (23, braucht 115) entlang der Runde, bis {skill:393} 125 erreicht ist; plündere jeden Kadaver und häute ihn dann, und häute die Tiere mit der höchsten Stufe, die deine Fertigkeit erlaubt. Ein Tier der Stufe L braucht Fertigkeit (L-10)x10 bis Stufe 20 und Lx5 darüber. Gebietsstufe 20-30. Rechne mit etwa 40 Tieren für diese 25 Punkte."
+	["Kill and skin {npc:2351} (21), {npc:2354} (22, needs 110), {npc:2384} (23, needs 115) along the loop until {skill:393} 125; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 20-30. Expect about 30 beasts for these 20 points."] = "Tur boyunca {npc:2351} (21), {npc:2354} (22, 110 ister), {npc:2384} (23, 115 ister) yaratıklarını öldürüp {skill:393} 125 olana kadar derilerini yüz. Her cesedi loot'la, sonra derisini yüz ve becerinin izin verdiği en yüksek seviyeli hayvanları yüz. Seviyesi L olan bir hayvan seviye 20'ye kadar (L-10)x10, üstünde Lx5 beceri ister. Bölge seviyesi 20-30. Bu 20 puan için yaklaşık 30 hayvan bekle.",
+
+	-- Step 20: Expert Skinning
 	-- {skill:393} Skinning
 	["Expert {skill:393}"] = "Expert {skill:393}",
 	-- {skill:393} Skinning
 	["Expert {skill:393} raises the cap to 225; it needs skill 125 and no character level, and costs 50s: train it as soon as you reach 125. The arrow picks the nearest {skill:393} trainer of your faction."] = "Expert {skill:393}, sınırı 225 puana çıkarır. Beceri 125 ister, karakter seviyesi istemez ve 50s tutar: 125 puana ulaşır ulaşmaz eğit. Ok tarafının en yakın {skill:393} eğitmenini seçer.",
 
-	-- Step 20: Beasts 21-29: Hillsbrad Foothills (125-150)
+	-- Step 21: Beasts 21-29: Hillsbrad Foothills (125-150)
 	-- {zone:1424} Hillsbrad Foothills
 	["Beasts 21-29: {zone:1424} (125-150)"] = "Hayvanlar 21-29: {zone:1424} (125-150)",
 	-- {npc:2351} Gray Bear · {npc:2354} Vicious Gray Bear · {npc:2384} Starving Mountain Lion · {npc:2356} Elder Gray Bear · {npc:2385} Feral Mountain Lion · {skill:393} Skinning
@@ -164,13 +172,13 @@ return {
 	-- {npc:2351} Gray Bear
 	["{npc:2351}, Snapjaw"] = "{npc:2351}, Snapjaw",
 
-	-- Step 21: Beasts 19-29: Ashenvale (125-150)
+	-- Step 22: Beasts 19-29: Ashenvale (125-150)
 	-- {zone:1440} Ashenvale
 	["Beasts 19-29: {zone:1440} (125-150)"] = "Hayvanlar 19-29: {zone:1440} (125-150)",
 	-- {npc:3823} Ghostpaw Runner · {npc:3809} Ashenvale Bear · {npc:3817} Shadowhorn Stag · {npc:3810} Elder Ashenvale Bear · {npc:3818} Elder Shadowhorn Stag · {npc:3811} Giant Ashenvale Bear · {skill:393} Skinning
 	["Kill and skin {npc:3823} (19), {npc:3809} (21), {npc:3817} (21), {npc:3810} (25), {npc:3818} (26, needs 130), {npc:3811} (29, needs 145) along the loop until {skill:393} 150; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 18-30. Expect about 40 beasts for these 25 points."] = "Tur boyunca {npc:3823} (19), {npc:3809} (21), {npc:3817} (21), {npc:3810} (25), {npc:3818} (26, 130 ister), {npc:3811} (29, 145 ister) yaratıklarını öldürüp {skill:393} 150 olana kadar derilerini yüz. Her cesedi önce loot'la, sonra yüz ve becerinin yettiği en yüksek seviyeli hayvanları seç. Seviyesi L olan bir hayvan seviye 20'ye kadar (L-10)x10, üstünde Lx5 beceri ister. Bölge seviyesi 18-30. Bu 25 puan için yaklaşık 40 hayvan bekle.",
 
-	-- Step 24: Beasts 21-33: Alterac Mountains (150-175)
+	-- Step 25: Beasts 21-33: Alterac Mountains (150-175)
 	-- {zone:1416} Alterac Mountains
 	["Beasts 21-33: {zone:1416} (150-175)"] = "Hayvanlar 21-33: {zone:1416} (150-175)",
 	-- {npc:2351} Gray Bear · {npc:2356} Elder Gray Bear · {npc:2248} Cave Yeti · {npc:2249} Ferocious Yeti · {npc:2406} Mountain Lion · {npc:2250} Mountain Yeti · {npc:2251} Giant Yeti · {npc:2407} Hulking Mountain Lion · {skill:393} Skinning
@@ -183,7 +191,7 @@ return {
 	-- {npc:2406} Mountain Lion
 	["Snapjaw, {npc:2406}"] = "Snapjaw, {npc:2406}",
 
-	-- Step 25: Beasts 30-39: Stranglethorn Vale (175-200)
+	-- Step 26: Beasts 30-39: Stranglethorn Vale (175-200)
 	-- {zone:1434} Stranglethorn Vale
 	["Beasts 30-39: {zone:1434} (175-200)"] = "Hayvanlar 30-39: {zone:1434} (175-200)",
 	-- {npc:1150} River Crocolisk · {npc:683} Young Panther · {npc:855} Young Stranglethorn Raptor · {npc:681} Young Stranglethorn Tiger · {npc:688} Stone Maw Basilisk · {npc:1108} Mistvale Gorilla · {npc:682} Stranglethorn Tiger · {npc:685} Stranglethorn Raptor · {npc:689} Crystal Spine Basilisk · {npc:1085} Elder Stranglethorn Tiger · {npc:686} Lashtail Raptor · {npc:1151} Saltwater Crocolisk · {npc:1152} Snapjaw Crocolisk · {npc:854} Young Jungle Stalker · {npc:684} Shadowmaw Panther · {npc:690} Cold Eye Basilisk · {skill:393} Skinning
@@ -195,25 +203,25 @@ return {
 	-- {npc:682} Stranglethorn Tiger
 	["{npc:682}, Panther"] = "{npc:682}, Panther",
 
-	-- Step 26: Artisan Skinning
+	-- Step 27: Artisan Skinning
 	-- {skill:393} Skinning
 	["Artisan {skill:393}"] = "Artisan {skill:393}",
 	-- {skill:393} Skinning
 	["Artisan {skill:393} raises the cap to 300; it needs skill 200 and no character level, and costs 5g: train it as soon as you reach 200. The arrow picks the nearest {skill:393} trainer of your faction."] = "Artisan {skill:393}, sınırı 300 puana çıkarır. Beceri 200 ister, karakter seviyesi istemez ve 5g tutar: 200 puana ulaşır ulaşmaz eğit. Ok tarafının en yakın {skill:393} eğitmenini seçer.",
 
-	-- Step 27: Beasts 35-41: Swamp of Sorrows (200-225)
+	-- Step 28: Beasts 35-41: Swamp of Sorrows (200-225)
 	-- {zone:1435} Swamp of Sorrows
 	["Beasts 35-41: {zone:1435} (200-225)"] = "Hayvanlar 35-41: {zone:1435} (200-225)",
 	-- {npc:1084} Young Sawtooth Crocolisk · {npc:1082} Sawtooth Crocolisk · {npc:768} Shadow Panther · {npc:1087} Sawtooth Snapper · {skill:393} Skinning
 	["Kill and skin {npc:1084} (35), {npc:1082} (38), {npc:768} (39), {npc:1087} (41, needs 205) along the loop until {skill:393} 225; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 35-45. Expect about 30 beasts for these 25 points."] = "Tur boyunca {npc:1084} (35), {npc:1082} (38), {npc:768} (39), {npc:1087} (41, 205 ister) yaratıklarını öldür ve {skill:393} 225 olana kadar derilerini yüz. Her cesedi loot'la, sonra derisini yüz ve becerinin izin verdiği en yüksek seviyeli hayvanları yüz. Seviyesi L olan bir hayvan seviye 20'ye kadar (L-10)x10, üstünde Lx5 beceri ister. Bölge seviyesi 35-45. Bu 25 puan için yaklaşık 30 hayvan bekle.",
 
-	-- Step 28: Beasts 45-48: Azshara (225-250)
+	-- Step 29: Beasts 45-48: Azshara (225-250)
 	-- {zone:1447} Azshara
 	["Beasts 45-48: {zone:1447} (225-250)"] = "Hayvanlar 45-48: {zone:1447} (225-250)",
 	-- {npc:8759} Mosshoof Runner · {npc:6375} Thunderhead Hippogryph · {npc:6377} Thunderhead Stagwing · {skill:393} Skinning
 	["Kill and skin {npc:8759} (45), {npc:6375} (46, needs 230), {npc:6377} (48, needs 240) along the loop until {skill:393} 250; loot each corpse, then skin it, and skin the highest-level beasts your skill allows. A beast of level L needs skill (L-10)x10 up to level 20 and Lx5 above. Zone level 45-55. Expect about 30 beasts for these 25 points."] = "Döngü boyunca {skill:393} 250 olana kadar {npc:8759} (45), {npc:6375} (46, 230 ister), {npc:6377} (48, 240 ister) yaratıklarını öldür ve derisini yüz. Her cesedi lootla, sonra derisini yüz, becerinin izin verdiği en yüksek seviyeli hayvanların derisini yüz. L seviyesindeki bir hayvan 20. seviyeye kadar (L-10)x10, üstünde Lx5 beceri ister. Bölge seviyesi 45-55. Bu 25 puan için yaklaşık 30 hayvan bekle.",
 
-	-- Step 29: Beasts 48-54: Un'Goro Crater (250-275)
+	-- Step 30: Beasts 48-54: Un'Goro Crater (250-275)
 	-- {zone:1449} Un'Goro Crater
 	["Beasts 48-54: {zone:1449} (250-275)"] = "Hayvanlar 48-54: {zone:1449} (250-275)",
 	-- {npc:9165} Fledgling Pterrordax · {npc:6507} Ravasaur Hunter · {npc:6506} Ravasaur Runner · {npc:9162} Young Diemetradon · {npc:6514} Un'Goro Gorilla · {npc:6508} Venomhide Ravasaur · {npc:9167} Frenzied Pterrordax · {npc:6513} Un'Goro Stomper · {npc:6516} Un'Goro Thunderer · {npc:9164} Elder Diemetradon · {npc:11735} Stonelash Scorpid · {skill:393} Skinning
@@ -225,7 +233,7 @@ return {
 	["Ravasaur, {npc:6506}"] = "Ravasaur, {npc:6506}",
 	["Diemetradon"] = "Diemetradon",
 
-	-- Step 30: Beasts 51-55: Western Plaguelands (275-300)
+	-- Step 31: Beasts 51-55: Western Plaguelands (275-300)
 	-- {zone:1422} Western Plaguelands
 	["Beasts 51-55: {zone:1422} (275-300)"] = "Hayvanlar 51-55: {zone:1422} (275-300)",
 	-- {npc:1815} Diseased Black Bear · {npc:1817} Diseased Wolf · {npc:1816} Diseased Grizzly · {skill:393} Skinning

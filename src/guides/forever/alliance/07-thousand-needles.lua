@@ -9,28 +9,33 @@ return {
 	-- {npc:840} Watcher Backus · {area:42} Darkshire
 	["{npc:840}, at the north entrance of town; walks around {area:42}: look inside the circle on the map"] = "{npc:840}, kasabanın kuzey girişinde. {area:42} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
-	-- Step 3: Councilman Millstipe
+	-- Step 3: Commander Althea Ebonlocke
+	-- {quest:58} The Night Watch · {zone:1431} Duskwood
+	-- plural, as words: Plague Spreaders = {npc:604} Plague Spreader
+	["{quest:58}'s Plague Spreaders, from your last {zone:1431} visit: Commander Althea is in the town hall."] = "Son {zone:1431} ziyaretinden {quest:58} görevinin Plague Spreader yaratıkları: Commander Althea belediye binasında.",
+
+	-- Step 4: Councilman Millstipe
 	-- {quest:377} Crime and Punishment · {area:717} Stockade · {npc:270} Councilman Millstipe
 	["{quest:377}, from your {area:717} run: {npc:270} is in the town hall, beside Commander Althea."] = "{area:717} koşundan {quest:377}: {npc:270} belediye binasında, Commander Althea'nın yanında.",
 
-	-- Step 4: Calor
+	-- Step 5: Calor
 	["You missed this on the route's earlier visit here: it comes first now. It is quick and opens the quests after it."] = "Rotanın buraya önceki uğrayışında bunu kaçırdın: şimdi önce bu geliyor. Kısa sürer, sonraki görevleri de açar.",
 	-- {npc:663} Calor
 	["{npc:663}, by the town hall"] = "{npc:663}, belediye binasının yanında",
 
-	-- Step 5: Nightbane Shadow Weavers
+	-- Step 6: Nightbane Shadow Weavers
 	-- plural, as words: Nightbane Shadow Weavers = {npc:533} Nightbane Shadow Weaver
 	["Nightbane Shadow Weavers"] = "Nightbane Shadow Weaver yaratıkları",
 	-- {area:42} Darkshire
 	["The worgen hold the woods of Brightwood, west of {area:42} and north of the road. Pull them one at a time."] = "Worgenler {area:42} kasabasının batısında, yolun kuzeyindeki Brightwood ormanını tutuyor. Onları tek tek çek.",
 
-	-- Step 7: Nightbane Dark Runners
+	-- Step 8: Nightbane Dark Runners
 	-- plural, as words: Nightbane Dark Runners = {npc:205} Nightbane Dark Runner
 	["Nightbane Dark Runners"] = "Nightbane Dark Runner yaratıkları",
 	-- {area:42} Darkshire
 	["The Dark Runners prowl the woods south of the road, west of {area:42}."] = "Dark Runner yaratıkları {area:42} kasabasının batısında, yolun güneyindeki ormanda dolaşıyor.",
 
-	-- Step 9: The Insane Ghoul
+	-- Step 10: The Insane Ghoul
 	-- {npc:511} Insane Ghoul
 	["The {npc:511}"] = "{npc:511}",
 	-- {npc:511} Insane Ghoul · {area:121} Tranquil Gardens Cemetery · {area:42} Darkshire · {npc:663} Calor
@@ -39,11 +44,11 @@ return {
 	-- {item:1946} Mary's Looking Glass
 	["{item:1946}; inside"] = "{item:1946}, içeride",
 
-	-- Step 10: Darkshire
+	-- Step 11: Darkshire
 	-- {npc:276} Viktori Prism'Antras
 	["{npc:276}, inside"] = "{npc:276}, içeride",
 
-	-- Step 11: Vul'Gol Ogre Mound: kill these as you meet them
+	-- Step 12: Vul'Gol Ogre Mound: kill these as you meet them
 	-- {area:93} Vul'Gol Ogre Mound
 	["{area:93}: kill these as you meet them"] = "{area:93}: bunları karşılaştıkça öldür",
 	-- {area:42} Darkshire · {object:119} Abercrombie's Crate · {npc:300} Zzarc' Vul
@@ -52,30 +57,30 @@ return {
 	["Only if a {npc:272273} dropped {quest:96138}: right-click it"] = "Yalnızca bir {npc:272273} {quest:96138} düşürdüyse: ona sağ tıkla",
 	["Below ground"] = "Yer altında",
 
-	-- Step 12: Defias Strongbox
+	-- Step 13: Defias Strongbox
 	-- {zone:1431} Duskwood · {area:94} Raven Hill · {zone:1436} Westfall
 	["The Defias camp lies in the south-west of {zone:1431}, south of {area:94} near the {zone:1436} border. The strongbox stands among the tents."] = "Defias kampı {zone:1431} bölgesinin güneybatısında, {area:94} tepesinin güneyinde, {zone:1436} sınırının yakınında. Kasa çadırların arasında duruyor.",
 	-- {item:5947} Defias Docket
 	["{item:5947}; inside"] = "{item:5947}, içeride",
 
-	-- Step 14: Raven Hill Cemetery: kill these as you meet them
+	-- Step 15: Raven Hill Cemetery: kill these as you meet them
 	-- {area:492} Raven Hill Cemetery
 	["{area:492}: kill these as you meet them"] = "{area:492}: bunları karşılaştıkça öldür",
 	-- {area:492} Raven Hill Cemetery · {npc:522} Mor'Ladim · {npc:311} Sven Yorgen
 	-- plural, as words: Plague Spreaders = {npc:604} Plague Spreader · Skeletal Raiders = {npc:1110} Skeletal Raider
 	["The Plague Spreaders walk the northern half of the {area:492}. {npc:522}, an elite, wanders the graves: keep away from him.\nSkeletal Raiders, Healers and Warders hold the west part of the cemetery, just east of {npc:311}'s camp.\nCareful: The skeletons in the catacombs are packed close together, so you can easily pull extra mobs."] = "Plague Spreader yaratıkları {area:492} mezarlığının kuzey yarısında dolaşıyor. Elit olan {npc:522} mezarların arasında geziniyor: ondan uzak dur.\nSkeletal Raider, Skeletal Healer ve Skeletal Warder yaratıkları mezarlığın batı kesimini, {npc:311} kampının hemen doğusunu tutuyor.\nDikkat: Katakomplardaki iskeletler sıkışık duruyor, bu yüzden kolayca fazladan yaratık çekebilirsin.",
 
-	-- Step 15: The Weathered Grave
+	-- Step 16: The Weathered Grave
 	-- {npc:311} Sven Yorgen · {npc:268} Sirra Von'Indi · {area:42} Darkshire
 	["The grave stands among the skeletons at the cemetery's north-west corner, on the way to {npc:311}. Its quest and the next are talk-only, to {npc:268} and Commander Althea in {area:42}: level 35 quests, but no fight."] = "Mezar, {npc:311} yanına giderken mezarlığın kuzeybatı köşesinde iskeletlerin arasında duruyor. Görevi ve sonraki yalnızca konuşmalık: {area:42} kasabasındaki {npc:268} ve Commander Althea'ya. 35. seviye görevler ama dövüş yok.",
 
-	-- Step 16: Sven Yorgen's Camp
+	-- Step 17: Sven Yorgen's Camp
 	-- {npc:311} Sven Yorgen
 	["{npc:311}'s Camp"] = "{npc:311} kampı",
 	-- {npc:1212} Bishop Farthing · {zone:1453} Stormwind
 	["For {npc:1212} in {zone:1453}, in the next guide"] = "{zone:1453} şehrindeki {npc:1212} için, sonraki rehberde",
 
-	-- Step 17: Back to Darkshire
+	-- Step 18: Back to Darkshire
 	-- {area:42} Darkshire
 	["Back to {area:42}"] = "{area:42} kasabasına dön",
 	-- {area:42} Darkshire · {npc:311} Sven Yorgen · {zone:1431} Duskwood
@@ -90,24 +95,24 @@ return {
 	-- {npc:482} Elling Trias · {zone:1453} Stormwind
 	["For {npc:482} in {zone:1453}, in the next guide"] = "{zone:1453} şehrindeki {npc:482} için, sonraki rehberde",
 
-	-- Step 18: Nightbane Vile Fangs and Tainted Ones
+	-- Step 19: Nightbane Vile Fangs and Tainted Ones
 	-- plural, as words: Nightbane Vile Fangs = {npc:206} Nightbane Vile Fang
 	["Nightbane Vile Fangs and Tainted Ones"] = "Nightbane Vile Fang ve Tainted One yaratıkları",
 	-- {area:42} Darkshire · {area:121} Tranquil Gardens Cemetery · {spell:8282} Curse of Blood
 	["The strongest worgen roam the woods south of {area:42}, west and south of the {area:121}.\nCareful: {spell:8282} lasts 10 minutes and adds 13 to each hit of physical damage you take.\nCareful: Some worgen outside the cave stand in groups, including one camp of four. To avoid adds, pull them one at a time from the raised ground next to the cave entrance.\nCareful: Gutspill, a level 32 abomination, walks these woods: let it pass."] = "En güçlü worgen'ler {area:42} kasabasının güneyindeki ormanda, {area:121} mezarlığının batısında ve güneyinde dolaşıyor.\nDikkat: {spell:8282} 10 dakika sürer ve aldığın her fiziksel hasar vuruşuna 13 ekler.\nDikkat: mağaranın dışındaki bazı worgen'ler gruplar halinde duruyor, biri dört kişilik bir kamp. Fazladan yaratık çekmemek için onları mağara girişinin yanındaki yüksek yerden tek tek çek.\nDikkat: 32. seviye bir abomination olan Gutspill bu ormanda dolaşıyor: geçmesine izin ver.",
 
-	-- Step 19: Calor and Jonathan Carevin
+	-- Step 20: Calor and Jonathan Carevin
 	-- {npc:663} Calor · {npc:661} Jonathan Carevin
 	["{npc:663} and {npc:661}"] = "{npc:663} ve {npc:661}",
 	-- {npc:661} Jonathan Carevin · {npc:633} Elaine Carevin
 	["{npc:661}, by {npc:633}'s house; inside"] = "{npc:661}, {npc:633} evinin yanında, içeride",
 
-	-- Step 20: Viktori Prism'Antras
+	-- Step 21: Viktori Prism'Antras
 	-- {npc:276} Viktori Prism'Antras
 	["{npc:276}'s house stands at the east end of town, on the way to the flight master."] = "{npc:276} adlı NPC'nin evi, uçuş ustasına giden yol üstünde, kasabanın doğu ucunda.",
 	["Inside"] = "İçeride",
 
-	-- Step 21: Fly to Menethil Harbor
+	-- Step 22: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
 	["Fly to {area:150}"] = "Uç: {area:150}",
 	-- {area:42} Darkshire

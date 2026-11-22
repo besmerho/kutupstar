@@ -4,8 +4,8 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Step 2: Mirage Raceway
-	-- {area:2240} Mirage Raceway · {area:439} Shimmering Flats · {zone:1441} Thousand Needles · {npc:4454} Fizzle Brassbolts
-	["The {area:2240} lies on the {area:439} in south-east {zone:1441}: {npc:4454} is in the gnomes' camp beside the track, Zamek by the goblin camp."] = "{area:2240}, {zone:1441} güneydoğusundaki {area:439} düzlüğünde: {npc:4454} pistin yanındaki gnome kampında, Zamek goblin kampının yanında.",
+	-- {area:2240} Mirage Raceway · {area:439} Shimmering Flats · {zone:1441} Thousand Needles · {npc:4454} Fizzle Brassbolts · {npc:4630} Pozzik · {npc:4709} Zamek · {quest:1137} News for Fizzle
+	["The {area:2240} lies on the {area:439} in south-east {zone:1441}: {npc:4454} is in the gnomes' camp beside the track, {npc:4630} and {npc:4709} by the goblins' camp. With {quest:1137} handed in, {npc:4630} has work: {npc:4630} first, then {npc:4709}, who runs off to keep Rizzle busy; then take Rizzle's plans from the gnomes' camp and bring them back to {npc:4630}."] = "{area:2240}, {zone:1441} bölgesinin güneydoğusundaki {area:439} düzlüğünde: {npc:4454} pistin yanındaki gnome kampında, {npc:4630} ve {npc:4709} goblin kampının yanında. {quest:1137} teslim edildiyse {npc:4630} adlı NPC'nin bir işi var: önce {npc:4630}, sonra Rizzle'ı oyalamak için koşup giden {npc:4709}. Ardından Rizzle'ın planlarını gnome kampından alıp {npc:4630} yanına geri getir.",
 	-- {npc:4454} Fizzle Brassbolts · {quest:1137} News for Fizzle · {zone:1418} Badlands
 	["{npc:4454}: {quest:1137}, from Martek in the {zone:1418}"] = "{npc:4454}: {zone:1418} bölgesindeki Martek'ten gelen {quest:1137}",
 
@@ -69,10 +69,14 @@ return {
 	-- {area:35} Booty Bay · {zone:1425} Hinterlands
 	["\"Sea Wolf\" MacKinley in {area:35}: the route takes you there at the end of the {zone:1425} guide, keep it"] = "{area:35} limanında \"Sea Wolf\" MacKinley: rota seni {zone:1425} rehberinin sonunda oraya götürür, sakla",
 
-	-- Step 12: Noonshade Ruins
+	-- Step 12: Ship Schedules
+	-- {item:9250} Ship Schedule · {npc:7882} Security Chief Bilgewhizzle
+	["Only if a Southsea pirate gave you a {item:9250}: it starts a quest for {npc:7882}, inside, where you stand."] = "Yalnız bir Southsea korsanı sana {item:9250} düşürdüyse: durduğun yerde, içerideki {npc:7882} için bir görev başlatır.",
+
+	-- Step 14: Noonshade Ruins
 	["Careful: Thieves cast Disarm. Rogues stay hidden with Sneak. Assassins use Execute when your health is at 20% or lower."] = "Dikkat: Thief'ler Disarm kullanır. Rogue'lar Sneak ile gizli kalır. Assassin'ler canın %20 ya da altındayken Execute kullanır.",
 
-	-- Step 15: The pool by Sandsorrow Watch
+	-- Step 17: The pool by Sandsorrow Watch
 	-- {area:979} Sandsorrow Watch
 	["The pool by {area:979}"] = "{area:979} yanındaki havuz",
 	-- {area:979} Sandsorrow Watch · {item:8584} Untapped Dowsing Widget
@@ -82,7 +86,7 @@ return {
 	-- {area:979} Sandsorrow Watch
 	["Pool by {area:979}"] = "{area:979} yanındaki havuz",
 
-	-- Step 16: Zul'Farrak
+	-- Step 18: Zul'Farrak
 	-- {area:978} Zul'Farrak · {quest:3042} Troll Temper · {npc:7604} Sergeant Bly · {quest:2768} Divino-matic Rod
 	["{area:978} is a dungeon for a group of five; its quests here are level 45 to 47. Its gate lies about 400 yards north of the pool.\nInside: the Scarabs drop the shells, every Sandfury troll can drop {quest:3042}, and {npc:7604} carries the {quest:2768}."] = "{area:978}, beş kişilik bir grup için bir zindan, buradaki görevleri 45-47. seviye. Kapısı gölün yaklaşık 400 yard kuzeyinde.\nİçeride: Scarab'lar kabukları düşürür, her Sandfury trolü {quest:3042} düşürebilir, {quest:2768} de {npc:7604} yaratığında.",
 	-- {quest:2865} Scarab Shells
@@ -92,29 +96,33 @@ return {
 	-- {quest:2768} Divino-matic Rod · {npc:7604} Sergeant Bly
 	["{quest:2768}: {npc:7604}, inside"] = "{quest:2768}: {npc:7604}, içeride",
 
-	-- Step 17: Gadgetzan
+	-- Step 19: Gadgetzan
 	-- {area:982} Noxious Lair · {area:976} Gadgetzan
 	["keep it: the {area:982}'s Centipaar (48-50) wait for the Un'Goro guide's {area:976} landing at about 49.5"] = "sakla: {area:982} içindeki Centipaar'lar (48-50) Un'Goro rehberinin yaklaşık 49.5'teki {area:976} inişini bekler",
 
-	-- Step 18: Tran'rek
+	-- Step 20: Tran'rek
 	-- {area:978} Zul'Farrak · {npc:7876} Tran'rek
 	["Your {area:978} scarab shells: {npc:7876}, on the north side of town."] = "{area:978} skarabe kabukların: kasabanın kuzey yakasındaki {npc:7876}.",
 
-	-- Step 19: Chief Engineer Bilgewhizzle
+	-- Step 21: Chief Engineer Bilgewhizzle
 	-- {quest:2768} Divino-matic Rod · {npc:7407} Chief Engineer Bilgewhizzle
 	["The {quest:2768}: {npc:7407}, by the water tower."] = "{quest:2768}: su kulesinin yanındaki {npc:7407}.",
 
-	-- Step 20: Trenton Lighthammer
+	-- Step 22: Trenton Lighthammer
 	-- {quest:3042} Troll Temper · {npc:7804} Trenton Lighthammer
 	["The {quest:3042}: {npc:7804}, in town."] = "{quest:3042}: kasabadaki {npc:7804}.",
 
-	-- Step 21: The Broken Pillar
+	-- Step 23: The Broken Pillar
 	-- {area:1938} Broken Pillar
 	["The {area:1938}"] = "{area:1938}",
 	-- {area:1938} Broken Pillar · {npc:7771} Marvon Rivetseeker · {quest:3161} Gahz'ridian
 	["Ride south to the dig camp at the {area:1938}. {npc:7771} hands you a detector helm: wear it to see the {quest:3161} mounds, which lie thick in the sand around the camp and south-west toward the ogres."] = "Güneye, {area:1938} yanındaki kazı kampına git. {npc:7771} sana bir dedektör miğferi verir: {quest:3161} tümseklerini görmek için onu giy. Tümsekler kampın çevresinde ve güneybatıda, ogrelere doğru kumda sık sık duruyor.",
+	-- {npc:7771} Marvon Rivetseeker · {quest:3380} The Sunken Temple
+	["{npc:7771}: {quest:3380}, from Angelas in Feathermoon"] = "{npc:7771}: Feathermoon'daki Angelas'tan {quest:3380}",
+	-- {npc:7771} Marvon Rivetseeker · {item:10556} Stone Circle · {area:392} Ratchet · {area:976} Gadgetzan
+	["{npc:7771}: the {item:10556} is in {area:392}, on the Un'Goro guide's flight to {area:976}, which hands it in here: keep it"] = "{npc:7771}: {item:10556}, Un'Goro rehberinin {area:976} uçuşunda {area:392} kasabasında. O rehber onu burada teslim eder: sakla",
 
-	-- Step 23: Dunemaul Compound
+	-- Step 25: Dunemaul Compound
 	-- {npc:5955} Tooga · {quest:3362} Thistleshrub Valley
 	-- plural, as words: Dunemaul Ogres = {npc:5471} Dunemaul Ogre
 	["Ride south-west to the ogre compound and keep to its south end; the compound's quest waits for the Un'Goro guide.\nWhy the grind to 47: {npc:5955} waits at the edge of the {quest:3362} (mobs of 48-50). Grind it on the Dunemaul Ogres (45-46) at the compound's south end, the safer camp, not on the Brutes and Enforcers (46-48) inside."] = "Güneybatıya, ogre yerleşkesine sür ve güney ucunda kal. Yerleşkenin görevi Un'Goro rehberini bekler.\nNeden 47'ye kadar kasılıyor: {npc:5955}, {quest:3362} (48-50. seviye yaratıklar) kenarında bekliyor. Seviyeyi içerideki Brute ve Enforcer yaratıklarıyla (46-48) değil, yerleşkenin güney ucundaki daha güvenli kampta Dunemaul Ogre yaratıklarıyla (45-46) kas.",
@@ -123,24 +131,25 @@ return {
 	-- {npc:5471} Dunemaul Ogre
 	["grind on {npc:5471}, at the compound's south end"] = "Kas: {npc:5471}, yerleşkenin güney ucunda",
 
-	-- Step 24: Tooga's escort
+	-- Step 26: Tooga's escort
 	-- {npc:5955} Tooga
 	["{npc:5955}'s escort"] = "{npc:5955} adlı NPC'ye eşlik",
 	-- {npc:5955} Tooga · {quest:3362} Thistleshrub Valley · {npc:6015} Torta · {area:977} Steamwheedle Port
-	["The little turtle {npc:5955} hides at the north end of the {quest:3362}: take him from the edge and leave the Thistleshrubs (48-50) alone. Lead him home to his wife {npc:6015}, by the water just east of {area:977}: he walks slowly and the desert's beasts go for him, so keep him alive."] = "Küçük kaplumbağa {npc:5955}, {quest:3362} kuzey ucunda saklanıyor: onu kenardan al ve Thistleshrub'ları (48-50) rahat bırak. Onu {area:977} limanının hemen doğusunda, suyun kenarındaki karısı {npc:6015} yanına, evine götür: yavaş yürür ve çölün hayvanları ona saldırır, onu hayatta tut.",
+	-- was: ["The little turtle {npc:5955} hides at the north end of the {quest:3362}: take him from the edge and leave the Thistleshrubs (48-50) alone. Lead him home to his wife {npc:6015}, by the water just east of {area:977}: he walks slowly and the desert's beasts go for him, so keep him alive."] = "Die kleine Schildkröte {npc:5955} versteckt sich am Nordende des {quest:3362}: Hol ihn vom Rand aus und lass die Distelsträucher (48-50) in Ruhe. Führe ihn heim zu seiner Frau {npc:6015}, am Wasser gleich östlich von {area:977}: Er läuft langsam und die Bestien der Wüste greifen ihn an, also halte ihn am Leben."
+	["The little turtle {npc:5955} wanders the west edge of the {quest:3362}, most often where the arrow leads: take him from the edge and leave the Thistleshrubs (48-50) alone. Lead him home to his wife {npc:6015}, by the water just east of {area:977}: he walks slowly and the desert's beasts go for him, so keep him alive."] = "Küçük kaplumbağa {npc:5955}, {quest:3362} vadisinin batı kenarında, çoğu zaman okun gösterdiği yerde dolaşıyor: onu kenardan al, Thistleshrub'ları (48-50) rahat bırak. Onu {area:977} limanının hemen doğusunda, suyun kenarındaki karısı {npc:6015} yanına, evine götür: yavaş yürür ve çölün hayvanları ona saldırır, onu hayatta tut.",
 	-- {npc:5955} Tooga
 	["{npc:5955}, beside her: Oasis"] = "{npc:5955}, onun yanında: Oasis",
 
-	-- Step 25: Steamwheedle Port
+	-- Step 27: Steamwheedle Port
 	-- {npc:6015} Torta · {area:977} Steamwheedle Port
 	["From {npc:6015}, {area:977} is just west along the shore."] = "{npc:6015} yanından {area:977} kıyı boyunca hemen batıda.",
 
-	-- Step 26: Caliph Scorpidsting
+	-- Step 28: Caliph Scorpidsting
 	-- {area:985} Waterspring Field · {npc:7847} Caliph Scorpidsting
 	-- plural, as words: Wastewander Rogues = {npc:5615} Wastewander Rogue
 	["Ride south-east to {area:985}. {npc:7847} stands in the middle of the southern Wastewander camp: clear around him first.\nCareful: Two stealthed Wastewander Rogues travel with him wherever he goes. At his spawn camp, two shadowmages and their minions are close enough to join a fight with him. Out by the towers you can fight him without them."] = "Güneydoğuya, {area:985} alanına sür. {npc:7847}, güneydeki Wastewander kampının ortasında duruyor: önce çevresini temizle.\nDikkat: Nereye giderse gitsin yanında iki gizli Wastewander Rogue dolaşıyor. Doğduğu kampta iki shadowmage ve hizmetkârları onunla dövüşe katılacak kadar yakın. Kulelerin oralarda onlarsız dövüşebilirsin.",
 
-	-- Step 28: Fly to Auberdine
+	-- Step 30: Fly to Auberdine
 	-- {area:442} Auberdine
 	["Fly to {area:442}"] = "Uç: {area:442}",
 	-- {zone:1457} Darnassus · {npc:7763} Curgle Cranklehop · {area:442} Auberdine · {area:150} Menethil Harbor · {area:348} Aerie Peak
@@ -148,13 +157,13 @@ return {
 	-- {area:976} Gadgetzan
 	["{area:976} flight master"] = "{area:976} uçuş ustası",
 
-	-- Step 29: Teldrassil
+	-- Step 31: Teldrassil
 	-- {area:442} Auberdine · {area:702} Rut'theran Village · {npc:3838} Vesprystus
 	["Take the boat from {area:442}'s dock to {area:702}; {npc:3838}, the hippogryph master, stands on the rise just east of the landing: learn the flight path on the way up to the village."] = "{area:442} iskelesinden {area:702} köyüne gemiye bin. Hipogrif ustası {npc:3838} iskelenin hemen doğusundaki yükseltide duruyor: köye çıkarken uçuş noktasını öğren.",
 	-- {area:702} Rut'theran Village
 	["{area:702} flight master"] = "{area:702} uçuş ustası",
 
-	-- Step 30: Rut'theran Village
+	-- Step 32: Rut'theran Village
 	-- {npc:7907} Daryn Lightwind · {npc:7916} Erelas Ambersky
 	["{npc:7907} stands upstairs, above {npc:7916}: go up inside, the arrow cannot tell the floors apart."] = "{npc:7907} üst katta, {npc:7916} yanının yukarısında duruyor: içeriden yukarı çık, ok katları birbirinden ayıramaz.",
 	-- {npc:7907} Daryn Lightwind · {zone:1446} Tanaris
@@ -163,45 +172,45 @@ return {
 	["{npc:7916}: the feathers lie in the {zone:1425}, next"] = "{npc:7916}: tüyler sıradaki {zone:1425} bölgesinde",
 	["the book on her table"] = "masasındaki kitap",
 
-	-- Step 32: Temple of the Moon
+	-- Step 34: Temple of the Moon
 	["Temple of the Moon"] = "Temple of the Moon",
 	-- {zone:1457} Darnassus
 	["Step through the portal into {zone:1457}. The Temple of the Moon is in the south of the city."] = "Portaldan geçerek {zone:1457} şehrine gir. Temple of the Moon şehrin güneyinde.",
 
-	-- Step 36: Cenarion Enclave
+	-- Step 38: Cenarion Enclave
 	-- {npc:3516} Arch Druid Fandral Staghelm
 	["{npc:3516}, at the top of the tree"] = "{npc:3516}, ağacın tepesinde",
 
-	-- Step 37: Class trainer
+	-- Step 39: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
 
-	-- Step 38: Cenarion Enclave
+	-- Step 40: Cenarion Enclave
 	-- {zone:1449} Un'Goro Crater
 	["the soil comes from {zone:1449}, later"] = "toprak daha sonra {zone:1449} bölgesinden gelecek",
 
-	-- Step 39: Portal to Teldrassil
+	-- Step 41: Portal to Teldrassil
 	-- {zone:1438} Teldrassil
 	["Portal to {zone:1438}"] = "Portalla: {zone:1438}",
 
-	-- Step 41: Boat to Menethil Harbor
+	-- Step 43: Boat to Menethil Harbor
 	-- {area:150} Menethil Harbor
 	["Boat to {area:150}"] = "Gemiyle {area:150} limanına",
 
-	-- Step 42: Fly to Aerie Peak
+	-- Step 44: Fly to Aerie Peak
 	-- {area:348} Aerie Peak
 	["Fly to {area:348}"] = "Uç: {area:348}",
 	-- {area:150} Menethil Harbor
 	["{area:150} flight master"] = "{area:150} uçuş ustası",
 
-	-- Step 43: Fly to Southshore
+	-- Step 45: Fly to Southshore
 	-- {area:271} Southshore
 	["Fly to {area:271}"] = "{area:271} kasabasına uç",
 
-	-- Step 44: Hinterlands
+	-- Step 46: Hinterlands
 	-- {area:348} Aerie Peak · {area:271} Southshore · {zone:1425} Hinterlands
 	["No flight path to {area:348} yet: ride north-east out of {area:271} on the road into the {zone:1425}; {area:348} sits just past the border."] = "Henüz {area:348} uçuş noktası yok: {area:271} kasabasından kuzeydoğuya, {zone:1425} yoluna sür. {area:348} sınırın hemen ötesinde.",
 
-	-- Step 45: Aerie Peak
+	-- Step 47: Aerie Peak
 	-- {npc:5636} Gryphon Master Talonaxe
 	["{npc:5636}, beside the flight master"] = "{npc:5636}, uçuş ustasının yanında",
 	-- {npc:7884} Fraggar Thundermantle

@@ -22,8 +22,9 @@ return {
 	["The western {zone:2548}"] = "Batı {zone:2548}",
 
 	-- Step 3: Scout Bolain
-	-- {npc:260026} Scout Bolain
-	["{npc:260026} waits beside the road east of the pass."] = "{npc:260026}, geçidin doğusunda yolun kenarında bekliyor.",
+	-- {npc:260026} Scout Bolain · {zone:1434} Stranglethorn Vale · {npc:256881} Overlord Kilgar
+	-- plural, as words: Twilight Enforcers = {npc:256800} Twilight Enforcer
+	["{npc:260026} waits beside the road east of the pass.\nThis guide is written for levels 41-45: the route comes here at about 41, after {zone:1434}. The port's second wave and the Western Front's camps in the north are 43-45, with elite Twilight Enforcers (45) on patrol and {npc:256881} (46, elite) for groups only: below 41, do Stranglethorn first."] = "{npc:260026}, geçidin doğusunda yolun kenarında bekliyor.\nBu rehber seviye 41-45 için yazıldı: rota buraya {zone:1434} bölgesinden sonra, yaklaşık 41. seviyede gelir. Limanın ikinci dalgası ve kuzeydeki Western Front kampları 43-45. Devriyede elit Twilight Enforcer yaratıkları (45) var, {npc:256881} (46, elit) yalnız gruplar için: 41'in altındaysan önce Stranglethorn'u yap.",
 
 	-- Step 4: Southern Watch
 	-- {area:16744} Southern Watch
@@ -184,8 +185,7 @@ return {
 	-- Step 38: WANTED: Blademaster Kaijo
 	-- {npc:263071} Blademaster Kaijo · {area:16743} Rog'mar
 	["{npc:263071} is an elite (level 42) at the Horde's training grounds north of {area:16743}, where this guide goes later: grouping up is advised."] = "{npc:263071}, bu rehberin daha sonra gittiği {area:16743} kuzeyindeki Horde talim alanında elit bir yaratık (seviye 42): grup kurman önerilir.",
-	-- {object:707245} Wanted (no name in this language: may be words)
-	["the {object:707245} poster"] = "{object:707245} ilanı",
+	["the Wanted poster"] = "Wanted ilanı",
 
 	-- Step 39: Ghostmaw
 	-- {npc:263380} Ghostmaw · {area:16725} Wheeler's Grange · {area:16729} Terral's Watch
@@ -193,7 +193,9 @@ return {
 
 	-- Step 40: Sunnyglade
 	-- {area:16724} Farholde Keep · {area:16729} Terral's Watch · {area:16723} Sunnyglade · {area:16743} Rog'mar · {npc:259158} Fuzzle · {npc:256831} Apprentice Claire · {npc:258697} Farmer Elbrim
-	["North from {area:16724}, past {area:16729} and across the river, to {area:16723}, the farm town the Twilight cult holds; keep clear of {area:16743}, the Horde's fort east of the town. {npc:259158} the kobold hides in the middle of the town, {npc:256831} at its eastern edge, and {npc:258697} waits at his farm on the north-eastern edge."] = "{area:16724} kalesinden kuzeye, {area:16729} kulesini geçip nehrin karşısına, Twilight tarikatının tuttuğu çiftlik kasabası {area:16723} içine git. Kasabanın doğusundaki Horde kalesi {area:16743} yöresinden uzak dur. Kobold {npc:259158} kasabanın ortasında saklanıyor, {npc:256831} doğu kenarında, {npc:258697} de kuzeydoğu kenarındaki çiftliğinde bekliyor.",
+	["North from {area:16724}, past {area:16729} and across the river, to {area:16723}, the farm town the Twilight cult holds; keep clear of {area:16743}, the Horde's fort east of the town. {npc:259158} the kobold waits in a cage at the arrow, {npc:256831} below ground in a cave at the town's eastern edge (the entrance is at 50.0,46.0), and {npc:258697} waits at his farm on the north-eastern edge."] = "{area:16724} kalesinden kuzeye, {area:16729} kulesini geçip nehrin karşısına, Twilight tarikatının tuttuğu çiftlik kasabası {area:16723} içine git. Kasabanın doğusundaki Horde kalesi {area:16743} yöresinden uzak dur. Kobold {npc:259158} okun gösterdiği yerde bir kafeste bekliyor, {npc:256831} kasabanın doğu kenarında yerin altındaki bir mağarada (giriş 50.0,46.0), {npc:258697} de kuzeydoğu kenarındaki çiftliğinde bekliyor.",
+	-- {npc:259158} Fuzzle · {quest:94961} Biting the Hand
+	["{npc:259158}: {quest:94961}, in his cage"] = "{npc:259158}: {quest:94961}, kafesinde",
 
 	-- Step 41: The Twilight cult
 	["The Twilight cult"] = "Twilight tarikatı",
@@ -207,6 +209,10 @@ return {
 	["{object:621813}, west of Elbrim's farm: each grave takes one of the {item:266148} the Twilight Raiders drop, so loot five first"] = "{object:621813}, Elbrim'in çiftliğinin batısında: her mezar Twilight Raider yaratıklarının düşürdüğü {item:266148} eşyalarından birini alır, o yüzden önce beş tane loot'la",
 	-- {quest:94885} Field Marshal's Log
 	["{quest:94885}: only if a cultist dropped the log"] = "{quest:94885}: yalnızca bir tarikatçı günlüğü düşürdüyse",
+
+	-- Step 42: Apprentice Claire
+	-- {area:16723} Sunnyglade
+	["Claire is in the cave under the eastern edge of {area:16723}: its entrance is at 50.0,46.0."] = "Claire, {area:16723} kasabasının doğu kenarının altındaki mağarada: girişi 50.0,46.0 noktasında.",
 
 	-- Step 43: Cut Off the Heads
 	-- {npc:256899} Chogg'Zac · {area:16723} Sunnyglade · {npc:257591} Ashe Amberhall · {area:16724} Farholde Keep
@@ -345,10 +351,11 @@ return {
 	-- {zone:2548} Riverglades · {item:268632} Beast Entrails · {npc:260231} Argo Brinewhistle · {npc:257001} Old Rot-Chum · {npc:263380} Ghostmaw
 	["Most beasts in the {zone:2548} drop {item:268632} for {npc:260231}: the shore crawlers on this coast and the boars on the ridge west of the pirates.\nCareful: {npc:257001} (elite, 42), Komuk (a Horde elite, 45) and {npc:263380} (elite, 42) range over the zone's wilds: take your beasts away from them."] = "{zone:2548} bölgesindeki hayvanların çoğu {npc:260231} için {item:268632} düşürür: bu kıyıdaki crawler'lar ve korsanların batısındaki sırttaki yaban domuzları.\nDikkat: {npc:257001} (elit, 42), Komuk (Horde eliti, 45) ve {npc:263380} (elit, 42) bölgenin vahşi kesimlerinde dolaşıyor: hayvanlarını onlardan uzakta avla.",
 
-	-- Step 68: Level 44.4 on the Eastsea pirates
-	["Level 44.4 on the Eastsea pirates"] = "Eastsea korsanlarıyla seviye 44.4",
-	-- {npc:259758} Gul'gash · {area:1517} Uldaman
-	["Before the second wave: its raiders and bombardiers (43-45) and the pirates' ships after them are a level over you below 44.4. Top up on the first camp's buccaneers and musketeers (41-43) at its south-west end, away from the port. {npc:259758}, a rare elite of level 49, roams these cliffs: if you see him, keep well away. Or, with a group, run the {area:1517} dungeon instead."] = "İkinci dalgadan önce: akıncıları ve bombardıman topçuları (43-45), ardından da korsan gemileri 44.4'ün altında senden bir seviye yüksek. Limandan uzakta, ilk kampın güneybatı ucundaki Buccaneer ve Musketeer yaratıklarıyla (41-43) seviyeni tamamla. 49. seviye rare elit {npc:259758} bu kayalıklarda dolaşıyor: görürsen ondan iyice uzak dur. Ya da grubun varsa onun yerine {area:1517} zindanını yap.",
+	-- Step 68: Level 44 on the Eastsea pirates
+	["Level 44 on the Eastsea pirates"] = "Eastsea korsanlarıyla seviye 44",
+	-- {quest:95124} Admiral Lamora · {npc:259758} Gul'gash · {area:1517} Uldaman
+	-- was: ["Before the second wave: its raiders and bombardiers (43-45) and the pirates' ships after them are a level over you below 44.4. Top up on the first camp's buccaneers and musketeers (41-43) at its south-west end, away from the port. {npc:259758}, a rare elite of level 49, roams these cliffs: if you see him, keep well away. Or, with a group, run the {area:1517} dungeon instead."] = "Vor der zweiten Welle: Ihre Plünderer und Bombardiere (43-45) und danach die Schiffe der Piraten sind unter 44.4 eine Stufe über dir. Füll an den Freibeutern und Musketieren (41-43) des ersten Lagers an dessen südwestlichem Ende auf, weg vom Hafen. {npc:259758}, ein Rare-Elite der Stufe 49, streift über diese Klippen: Wenn du ihn siehst, halte dich fern. Oder lauf stattdessen mit einer Gruppe den Dungeon {area:1517}."
+	["Before the second wave: its raiders (44-45), bombardiers (43-44) and {quest:95124}'s ships after them (45) are more than a level over you below 44. Top up on the first camp's buccaneers and musketeers (41-43) at its south-west end, away from the port. {npc:259758}, a rare elite of level 49, roams these cliffs: if you see him, keep well away. Or, with a group, run the {area:1517} dungeon instead."] = "İkinci dalgadan önce: akıncıları (44-45), bombardıman topçuları (43-44), ardından da {quest:95124} gemileri (45), 44'ün altındaysan senden bir seviyeden fazla yüksek. Limandan uzakta, ilk kampın güneybatı ucundaki Buccaneer ve Musketeer yaratıklarıyla (41-43) seviyeni tamamla. 49. seviye rare elit {npc:259758} bu kayalıklarda dolaşıyor: görürsen ondan iyice uzak dur. Ya da grubun varsa onun yerine {area:1517} zindanını yap.",
 	-- {npc:257901} Eastsea Buccaneer
 	["grind on {npc:257901}"] = "Kas: {npc:257901}",
 
@@ -367,7 +374,7 @@ return {
 	-- Step 72: The pirates' ships
 	["The pirates' ships"] = "Korsan gemileri",
 	-- {quest:95124} Admiral Lamora · {npc:259758} Gul'gash
-	["Out to the pirates' cliffs once more. Plant Whizzbuzz's charges on the three ships moored below the camp, south to north; {quest:95124} (level 45) stands by the middle one, with her loot chest beside her. Keep an eye out for {npc:259758} on the way."] = "Bir kez daha korsanların kayalıklarına çık. Whizzbuzz'ın patlayıcılarını kampın aşağısında demirli üç gemiye, güneyden kuzeye yerleştir. {quest:95124} (seviye 45) ortadakinin yanında, ganimet sandığıyla birlikte duruyor. Yolda {npc:259758} yaratığına göz kulak ol.",
+	["Out to the pirates' cliffs once more. Plant Whizzbuzz's charges on the three ships moored below the camp, south to north. {quest:95124} (level 45) walks the middle ship's top deck; her loot chest is below deck. Keep an eye out for {npc:259758} on the way."] = "Bir kez daha korsanların kayalıklarına çık. Whizzbuzz'ın patlayıcılarını kampın aşağısında demirli üç gemiye, güneyden kuzeye yerleştir. {quest:95124} (seviye 45) ortadaki geminin üst güvertesinde dolaşıyor, loot sandığı güvertenin altında. Yolda {npc:259758} yaratığına göz kulak ol.",
 	-- {item:268505} Remote Explosive Charge
 	["{item:268505}, the southern ship"] = "{item:268505}, güneydeki gemi",
 	["the middle ship"] = "ortadaki gemi",
@@ -451,11 +458,16 @@ return {
 	-- plural, as words: Peasant Woodpiles = {object:645516} Peasant Woodpile
 	["West across the river to {area:16736}: the Peasant Woodpiles around the camp give the wood bundles.\nCareful: {npc:263380}, an elite (level 42), prowls the river by the camp: if he comes your way, back off and let him pass."] = "Nehrin karşısına, batıya, {area:16736} kampına: kampın çevresindeki Peasant Woodpile yığınları odun demetlerini verir.\nDikkat: elit {npc:263380} (seviye 42) kampın yanındaki nehirde dolaşıyor: sana doğru gelirse geri çekil ve geçmesine izin ver.",
 
-	-- Step 94: Sergeant Riftan
+	-- Step 94: The Western Front
+	-- {npc:256881} Overlord Kilgar
+	-- plural, as words: Twilight Champions = {npc:256799} Twilight Champion · Twilight Enforcers = {npc:256800} Twilight Enforcer
+	["Careful: the Western Front is written for level 44 and up. Its Twilight Champions are 43-44 and its Thralls 44, Twilight Enforcers (elites, 45) patrol through the camps, and {npc:256881} (46, elite) is for a group only. Below 44, top up on the Eastsea pirates by the port first, or come back with a friend."] = "Dikkat: Western Front seviye 44 ve üstü için yazıldı. Twilight Champion yaratıkları 43-44, Thrall'ları 44. Kampların arasında Twilight Enforcer yaratıkları (elit, 45) devriye geziyor, {npc:256881} (46, elit) yalnız grup için. 44'ün altındaysan önce limanın yanındaki Eastsea korsanlarıyla seviyeni tamamla ya da bir arkadaşınla geri gel.",
+
+	-- Step 95: Sergeant Riftan
 	-- {area:16685} Twilight's Shroud · {npc:258023} Sergeant Riftan
 	["North up the long valley towards {area:16685}: {npc:258023} holds a small camp below the Twilight cult's fortress."] = "Uzun vadiden kuzeye, {area:16685} yöresine doğru: {npc:258023}, Twilight tarikatının kalesinin aşağısında küçük bir kamp tutuyor.",
 
-	-- Step 95: The Twilight camps
+	-- Step 96: The Twilight camps
 	["The Twilight camps"] = "Twilight kampları",
 	-- {npc:258652} Twilight Thrall · {npc:257591} Ashe Amberhall · {npc:256881} Overlord Kilgar · {npc:256891} Executioner Morg
 	-- plural, as words: Farholde Scouts = {npc:256904} Farholde Scout · Twilight Enforcers = {npc:256800} Twilight Enforcer
@@ -465,7 +477,7 @@ return {
 	-- {npc:258652} Twilight Thrall
 	["kill a {npc:258652}"] = "bir {npc:258652} öldür",
 
-	-- Step 96: Marshal Ryan
+	-- Step 97: Marshal Ryan
 	-- {npc:257250} Marshal Ryan · {npc:256881} Overlord Kilgar · {npc:256891} Executioner Morg
 	["{npc:257250} lies wounded among the camps at the valley's western edge.\nCareful: {npc:256881} and {npc:256891} (elites, 46) hold the fortress north of him: come at Ryan from the south."] = "{npc:257250}, vadinin batı kenarındaki kampların arasında yaralı yatıyor.\nDikkat: {npc:256881} ve {npc:256891} (elit, 46) onun kuzeyindeki kaleyi tutuyor: Ryan'a güneyden yaklaş.",
 	-- {npc:257250} Marshal Ryan
@@ -473,74 +485,74 @@ return {
 	-- {quest:94892} Dying Wish · {npc:257558} Demar Brant · {area:16724} Farholde Keep
 	["{quest:94892}: for {npc:257558} in {area:16724}"] = "{quest:94892}: {area:16724} kalesindeki {npc:257558} için",
 
-	-- Step 97: The ogre mine
+	-- Step 98: The ogre mine
 	["The ogre mine"] = "Ogre madeni",
 	-- plural, as words: Twilight Subjugators = {npc:260996} Twilight Subjugator · Twilight Enforcers = {npc:256800} Twilight Enforcer
 	["North of the camps the cult works ogre miners in a mine, driven by the Twilight Subjugators.\nCareful: Twilight Enforcers (elites, level 45) walk past the mine's mouth on their way through the camps. Wait for one to pass before you go in, and pull the miners and Subjugators back out to you."] = "Kampların kuzeyinde tarikat, Twilight Subjugator yaratıklarının başında durduğu bir madende ogre madencileri çalıştırıyor.\nDikkat: Twilight Enforcer yaratıkları (elit, seviye 45) kamplar arasında yürürken madenin ağzından geçer. İçeri girmeden önce birinin geçmesini bekle ve madencileri ve Subjugator'ları dışarı, kendine çek.",
 
-	-- Step 99: Bring Me His Head
+	-- Step 100: Bring Me His Head
 	-- {npc:256881} Overlord Kilgar
 	["{npc:256881} is an elite (level 46) in the fortress at the head of the valley, with the Enforcers around him: grouping up is advised."] = "{npc:256881}, vadinin başındaki kalede, çevresinde Enforcer'larla elit bir yaratık (seviye 46): grup kurman önerilir.",
 	-- {quest:94891} News to Farholde · {npc:257591} Ashe Amberhall
 	["{quest:94891}: for {npc:257591}"] = "{quest:94891}: {npc:257591} için",
 
-	-- Step 100: Back to Farholde Keep
+	-- Step 101: Back to Farholde Keep
 	-- {area:16724} Farholde Keep
 	["Back to {area:16724}"] = "Dönüş: {area:16724}",
 	-- {area:16724} Farholde Keep
 	["Your hearthstone is bound at {area:16724}'s inn: use it, or ride back south to the keep."] = "Hearthstone'un {area:16724} hanına bağlı: onu kullan ya da güneye, kaleye geri sür.",
 
-	-- Step 101: Farholde Keep
+	-- Step 102: Farholde Keep
 	-- {npc:260070} Bertrand Ironbrow · {npc:257558} Demar Brant · {npc:257591} Ashe Amberhall
 	["From the inn: {npc:260070} on the way in, then {npc:257558} and {npc:257591} in the keep."] = "Handan: giriş yolunda {npc:260070}, sonra kalede {npc:257558} ve {npc:257591}.",
 
-	-- Step 103: Demar Brant
+	-- Step 104: Demar Brant
 	-- {quest:94893} Delivering Closure · {npc:278088} Abigail Lawson · {zone:1453} Stormwind
 	["{quest:94893}: for {npc:278088} in {zone:1453}"] = "{quest:94893}: {zone:1453} şehrindeki {npc:278088} için",
 
-	-- Step 104: The Twilight Threat
+	-- Step 105: The Twilight Threat
 	-- {npc:257558} Demar Brant · {npc:1748} Highlord Bolvar Fordragon · {object:2117} Stormwind Keep
 	["{npc:257558}: Kilgar's head for {npc:1748} in {object:2117}"] = "{npc:257558}: {object:2117} içindeki {npc:1748} için Kilgar'ın kafası",
 
-	-- Step 105: Sister Rowland
+	-- Step 106: Sister Rowland
 	-- {npc:262031} Sister Rowland
 	["{npc:262031}, in the cathedral at the keep's south-west corner."] = "{npc:262031}, kalenin güneybatı köşesindeki katedralde.",
 
-	-- Step 106: Stormwind
+	-- Step 107: Stormwind
 	-- {npc:257087} Gretchen Mayberry · {zone:1453} Stormwind · {npc:278088} Abigail Lawson · {object:2098} Cathedral Square
 	["{npc:257087} flies to {zone:1453}. {npc:278088} waits in the {object:2098}."] = "{npc:257087} {zone:1453} şehrine uçurur. {npc:278088}, {object:2098} meydanında bekliyor.",
 
-	-- Step 108: Train before the Badlands
+	-- Step 109: Train before the Badlands
 	-- {zone:1418} Badlands
 	["Train before the {zone:1418}"] = "{zone:1418} öncesi eğitim al",
 	-- {zone:2548} Riverglades · {zone:1418} Badlands · {zone:1425} Hinterlands · {npc:257087} Gretchen Mayberry · {zone:1453} Stormwind
 	["No class trainer stands in the {zone:2548}, and the {zone:1418} & {zone:1425} guide passes none: {npc:257087} flies to {zone:1453}, where you train before you go on."] = "{zone:2548} bölgesinde sınıf eğitmeni yok, {zone:1418} ve {zone:1425} rehberi de hiçbirinin yanından geçmez: {npc:257087} seni {zone:1453} şehrine uçurur, devam etmeden önce orada eğitim al.",
 
-	-- Step 109: Your class trainer
+	-- Step 110: Your class trainer
 	["Your class trainer"] = "Sınıf eğitmenin",
 	-- {zone:2548} Riverglades · {zone:1453} Stormwind
 	["No class trainer stands in the {zone:2548}: train here in {zone:1453} before you fly on."] = "{zone:2548} bölgesinde sınıf eğitmeni yok: uçmadan önce burada, {zone:1453} şehrinde eğitim al.",
 
-	-- Step 110: Stormwind flight master
+	-- Step 111: Stormwind flight master
 	-- {zone:1453} Stormwind
 	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 
-	-- Step 111: Shaman trainer
+	-- Step 112: Shaman trainer
 	["Shaman trainer"] = "Shaman eğitmeni",
 	-- {zone:2548} Riverglades · {zone:1453} Stormwind · {zone:1418} Badlands · {zone:1425} Hinterlands · {area:1537} Ironforge · {area:144} Thelsamar
 	["No shaman trainer stands in the {zone:2548} or in {zone:1453}, and the {zone:1418} & {zone:1425} guide passes none: fly to {area:1537} and train there; {area:144} is a short flight on."] = "Ne {zone:2548} bölgesinde ne de {zone:1453} şehrinde Shaman eğitmeni var, {zone:1418} ve {zone:1425} rehberi de hiçbirinin yanından geçmez: {area:1537} şehrine uç ve orada eğitim al. {area:144} oradan kısa bir uçuş.",
 
-	-- Step 112: Leave Stormwind
+	-- Step 113: Leave Stormwind
 	-- {zone:1453} Stormwind
 	["Leave {zone:1453}"] = "{zone:1453} şehrinden ayrıl",
 	-- {zone:1418} Badlands · {zone:1432} Loch Modan · {area:144} Thelsamar · {zone:1453} Stormwind · {object:2096} Trade District
 	["The next guide starts in the {zone:1418}, south of {zone:1432}: fly to {area:144}. {zone:1453}'s gryphon master stands in the {object:2096}."] = "Sonraki rehber {zone:1432} bölgesinin güneyindeki {zone:1418} bölgesinde başlar: {area:144} köyüne uç. {zone:1453} grifon ustası {object:2096} içinde duruyor.",
 
-	-- Step 113: Loch Modan
+	-- Step 114: Loch Modan
 	-- {area:144} Thelsamar · {zone:1455} Ironforge · {area:2257} Deeprun Tram · {zone:1453} Stormwind · {zone:1426} Dun Morogh · {zone:1432} Loch Modan
 	["No flight path to {area:144} yet: go to {zone:1455} (by the {area:2257} from {zone:1453}), ride out of its gates east through {zone:1426} and the tunnel into {zone:1432}, and on along the road to {area:144}."] = "Henüz {area:144} uçuş noktası yok: {zone:1455} şehrine git ({zone:1453} şehrinden {area:2257} ile), kapılarından çıkıp doğuya, {zone:1426} bölgesinden ve tünelden {zone:1432} bölgesine sür, oradan yol boyunca {area:144} köyüne devam et.",
 
-	-- Step 114: Fly to Thelsamar
+	-- Step 115: Fly to Thelsamar
 	-- {area:144} Thelsamar
 	["Fly to {area:144}"] = "Uç: {area:144}",
 	-- {zone:1418} Badlands · {zone:1432} Loch Modan · {area:144} Thelsamar

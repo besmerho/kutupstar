@@ -225,48 +225,56 @@ return {
 	-- {spell:199} Two-Handed Maces · {npc:11869} Ansekhwa
 	["While you're here: learn {spell:199} from {npc:11869} (10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11869} sana {spell:199} öğretir (10 gümüş). Warrior en hızlı iki elli silahla seviye atlar.",
 
-	-- Step 56: Fly to Camp Taurajo
+	-- Step 56: Melor Stonehoof
+	-- {npc:3441} Melor Stonehoof · {area:1641} Hunter Rise · {quest:1131} Steelsnap · {zone:1441} Thousand Needles · {area:2237} Whitereach Post
+	["{npc:3441} stands on {area:1641}, the southern rise, beside the hunter trainers: {quest:1131} prowls the far north-west of {zone:1441}, beyond {area:2237}, later in this guide."] = "{npc:3441}, güneydeki tepe {area:1641} üzerinde, avcı eğitmenlerinin yanında duruyor: {quest:1131} bu rehberde daha sonra, {zone:1441} bölgesinin en kuzeybatısında, {area:2237} karakolunun ötesinde dolaşıyor.",
+
+	-- Step 57: Fly to Camp Taurajo
 	-- {area:378} Camp Taurajo
 	["Fly to {area:378}"] = "{area:378} kampına uç",
 	-- {zone:1456} Thunder Bluff
 	["{zone:1456} flight master"] = "{zone:1456} uçuş ustası",
 
-	-- Step 57: Brine
+	-- Step 58: Tatternack Steelforge
+	-- {npc:3433} Tatternack Steelforge · {area:2237} Whitereach Post
+	["{npc:3433} works at his forge a few steps from the flight master: his ore sample comes from the Gravelsnout kobolds west of {area:2237}, later in this guide."] = "{npc:3433}, uçuş ustasından birkaç adım ötedeki demirhanesinde çalışıyor: maden numunesi bu rehberde daha sonra {area:2237} karakolunun batısındaki Gravelsnout kobold'larından gelir.",
+
+	-- Step 59: Brine
 	-- {npc:5899} Brine · {area:378} Camp Taurajo · {area:485} Great Lift
 	["{npc:5899}'s hut stands on the ridge above the quilboar watering hole south of {area:378}, on the road to the {area:485}."] = "{npc:5899} adlı NPC'nin kulübesi, {area:485} asansörüne giden yolda, {area:378} kampının güneyindeki quilboar sulağının yukarısındaki sırtta duruyor.",
 	-- {npc:5901} Islen Waterseer · {area:392} Ratchet
 	["for {npc:5901}, south of {area:392}: next guide"] = "{area:392} limanının güneyindeki {npc:5901} için: sonraki rehber",
 
-	-- Step 58: Great Lift
+	-- Step 60: Great Lift
 	-- {npc:12576} Grish Longrunner · {npc:10079} Brave Moonhorn · {area:485} Great Lift · {area:484} Freewind Post
 	["{npc:12576} and {npc:10079} wait at the top of the {area:485}: Maggran's letter is for {npc:12576}, and Moonhorn's message goes down to {area:484} with you."] = "{npc:12576} ve {npc:10079}, {area:485} tepesinde bekliyor: Maggran'ın mektubu {npc:12576} için, Moonhorn'un mesajı da seninle {area:484} karakoluna iner.",
 	-- {npc:10079} Brave Moonhorn · {npc:10537} Cliffwatcher Longhorn · {area:484} Freewind Post
 	["{npc:10079}, at the top of the lift: {npc:10537} at {area:484}"] = "{npc:10079}, asansörün tepesinde: {area:484} karakolunda {npc:10537}",
 
-	-- Step 59: Freewind Post's lift
+	-- Step 61: Freewind Post's lift
 	-- {area:484} Freewind Post
 	["{area:484}'s lift"] = "{area:484} asansörü",
 
-	-- Step 60: Freewind Post
+	-- Step 62: Freewind Post
 	-- {area:484} Freewind Post
 	["Ride the lift down, then follow the road east through the canyons to {area:484}, a Tauren village on top of the mesas. Its lift is on the north side."] = "Asansörle aşağı in, sonra yolu doğuya, kanyonların arasından platoların tepesindeki Tauren köyü {area:484} karakoluna kadar izle. Köyün asansörü kuzey tarafında.",
 	-- {npc:10377} Elu
 	["{npc:10377}, by the wind rider master"] = "{npc:10377}, rüzgâr binicisi ustasının yanında",
 	-- {npc:10537} Cliffwatcher Longhorn
 	["The Wanted poster beside {npc:10537}"] = "{npc:10537} adlı NPC'nin yanındaki Wanted ilanı",
-	-- {npc:4877} Jandia
-	["{npc:4877}'s two harpy quests are taken when you leave Freewind; their den comes with the next Freewind visit, at about 30."] = "{npc:4877} adlı NPC'nin iki harpy görevi Freewind'den ayrılırken alınır. İnleri yaklaşık 30'daki bir sonraki Freewind ziyaretiyle gelir.",
+	-- {npc:4877} Jandia · {area:2237} Whitereach Post
+	["{npc:4877}'s two harpy quests come on the next Freewind stop; their den is on the way back from {area:2237}."] = "{npc:4877} adlı NPC'nin iki harpy görevi bir sonraki Freewind durağında gelir. Yuvaları {area:2237} dönüşünde yolun üstünde.",
 
-	-- Step 61: Rau Cliffrunner
+	-- Step 63: Rau Cliffrunner
 	-- {npc:4722} Rau Cliffrunner · {area:484} Freewind Post · {npc:4721} Zangen Stonehoof
 	["{npc:4722} stands in {area:484}: {npc:4721}'s filled phial is for him."] = "{npc:4722}, {area:484} içinde duruyor: {npc:4721} adlı NPC'nin doldurulmuş şişesi onun için.",
 	-- {npc:4722} Rau Cliffrunner · {object:20807} Ancient Brazier · {area:1557} Splithoof Hold
 	["{npc:4722}: the {object:20807} in {area:1557}, among the Galak camps"] = "{npc:4722}: Galak kamplarının arasında, {area:1557} içindeki {object:20807}",
 
-	-- Step 62: Alien Egg
+	-- Step 64: Alien Egg
 	["Take the lift down. The egg lies in a nest on the canyon floor in one of three spots: south-east of the mesas (52.3,55.2), east (56.4,50.4) or south-west (37.6,56.1)."] = "Asansörle aşağı in. Yumurta, kanyon tabanında üç noktadan birindeki bir yuvada: platoların güneydoğusunda (52.3,55.2), doğusunda (56.4,50.4) ya da güneybatısında (37.6,56.1).",
 
-	-- Step 63: Galak centaurs
+	-- Step 65: Galak centaurs
 	["Galak centaurs"] = "Galak centaurları",
 	-- {npc:10617} Galak Messenger · {area:2237} Whitereach Post · {npc:216463} Ailgrha Splittusk
 	-- plural, as words: Ravaging Tempests = {npc:216474} Ravaging Tempest
@@ -274,7 +282,7 @@ return {
 	-- {npc:10617} Galak Messenger · {quest:4881} Assassination Plot
 	["{npc:10617}'s {quest:4881}, if you meet him"] = "Karşılaşırsan {npc:10617} yaratığından {quest:4881}",
 
-	-- Step 64: Splithoof Hold
+	-- Step 66: Splithoof Hold
 	-- {area:1557} Splithoof Hold · {object:20807} Ancient Brazier · {item:5868} Filled Etched Phial · {item:5869} Cloven Hoof · {npc:2986} Dorn Plainstalker
 	-- plural, as words: Galak Flame Guards = {npc:7404} Galak Flame Guard
 	["A short walk north of the Galak camps, the cave of {area:1557} leads down to its deepest chamber, where the {object:20807} burns. Use the {item:5868} on it, then loot the {item:5869} at once: the flame only stays out briefly, and if it relights the phial is gone. Then east to {npc:2986}'s mesa.\nCareful: Two Galak Flame Guards (30) stand by the brazier and a centaur guard walks the cave: pull them away one at a time before you douse the flame."] = "Galak kamplarının kısa bir yürüyüş kuzeyinde {area:1557} mağarası, {object:20807} nesnesinin yandığı en derin odasına iner. Üzerinde {item:5868} kullan, sonra hemen {item:5869} eşyasını loot'la: alev yalnızca kısa bir süre söner, yeniden yanarsa şişe gider. Sonra doğuya, {npc:2986} adlı NPC'nin platosuna git.\nDikkat: Mangalın yanında iki Galak Flame Guard (30) duruyor, mağarada da bir centaur muhafız dolaşıyor: alevi söndürmeden önce onları tek tek uzağa çek.",
@@ -283,7 +291,7 @@ return {
 	-- {item:5869} Cloven Hoof · {object:20807} Ancient Brazier
 	["{item:5869}, from the {object:20807}"] = "{item:5869}, kaynak: {object:20807}",
 
-	-- Step 65: Dorn Plainstalker
+	-- Step 67: Dorn Plainstalker
 	-- {npc:2986} Dorn Plainstalker · {quest:1149} Test of Faith
 	["{npc:2986} stands on a mesa top east of the Galak camps. Taking his {quest:1149} puts you on a high cliff far to the west: follow the stone path to the end of the wooden planks and step off there, and you land safely. Jump from anywhere else and you fall to your death."] = "{npc:2986}, Galak kamplarının doğusundaki bir platonun tepesinde duruyor. {quest:1149} görevini alınca seni uzak batıda yüksek bir uçuruma bırakır: taş yolu tahtaların ucuna kadar izleyip oradan boşluğa adım at, güvenle yere inersin. Başka bir yerden atlarsan düşüp ölürsün.",
 	-- {npc:2986} Dorn Plainstalker
@@ -294,11 +302,13 @@ return {
 	-- {quest:1150} Test of Endurance · {npc:4490} Grenka Bloodscreech
 	["{quest:1150} ({npc:4490}, 31) waits for the next Freewind visit, at about 30: keep it."] = "{quest:1150} ({npc:4490}, 31) yaklaşık 30'daki bir sonraki Freewind ziyaretini bekler: sakla.",
 
-	-- Step 66: Freewind Post
+	-- Step 68: Freewind Post
 	-- {npc:11116} Innkeeper Abeqwa · {npc:4877} Jandia
 	["{npc:11116}, beside {npc:4877}"] = "{npc:11116}, {npc:4877} yanında",
+	-- {npc:4877} Jandia · {area:487} Roguefeather Den
+	["{npc:4877}, inside the inn: {area:487}, south-west of the post, on the way back from Whitereach"] = "{npc:4877}, hanın içinde: karakolun güneybatısındaki {area:487}, Whitereach dönüşünde",
 
-	-- Step 68: Darkcloud Pinnacle
+	-- Step 70: Darkcloud Pinnacle
 	-- {area:2097} Darkcloud Pinnacle
 	-- plural, as words: Document Chests = {object:176344} Document Chest
 	["West of Freewind, the Grimtotem camps below {area:2097}. The Secret Notes are in Document Chests at the south-east, south-west and north-west camps."] = "Freewind'in batısında, {area:2097} zirvesinin aşağısında Grimtotem kampları var. Secret Note eşyaları güneydoğu, güneybatı ve kuzeybatı kamplarındaki Document Chest sandıklarında.",
@@ -309,7 +319,7 @@ return {
 	-- {object:176344} Document Chest
 	["{object:176344}, north-west camp"] = "{object:176344}, kuzeybatı kampı",
 
-	-- Step 69: Level 28
+	-- Step 71: Level 28
 	["Level 28"] = "Seviye 28",
 	-- {npc:10646} Lakota Windsong · {area:2797} Blackfathom Deeps
 	["Short of 28? The Grimtotem around these camps (25-28) are the right level: kill a few more before the climb to {npc:10646}. Past it, this step skips itself. Or, with a group, run the {area:2797} dungeon instead."] = "28'e varmadın mı? Bu kampların çevresindeki Grimtotem'ler (25-28) tam uygun seviyede: {npc:10646} yanına tırmanmadan önce birkaç tane daha öldür. Geçtiysen bu adım kendini atlar. Ya da bir grupla onun yerine {area:2797} zindanını yap.",
@@ -318,48 +328,73 @@ return {
 	-- {npc:10759} Grimtotem Stomper
 	["grind on {npc:10759}"] = "Kas: {npc:10759}",
 
-	-- Step 70: Lakota Windsong
+	-- Step 72: Lakota Windsong
 	-- {area:485} Great Lift · {area:2097} Darkcloud Pinnacle · {npc:10646} Lakota Windsong · {npc:10896} Arnak Grimtotem
 	["{area:485} detour warning: the arrow may miss the path up {area:2097}. If you are on the canyon floor, follow the path and rope bridges up {area:2097}. {npc:10646} is held captive beside {npc:10896} (29): clear the guards and {npc:10896} first, then free her and protect her on the walk down; Grimtotem ambushers come at you on the way."] = "{area:485} sapma uyarısı: ok {area:2097} yukarı çıkan patikayı kaçırabilir. Kanyon tabanındaysan patikayı ve ip köprüleri izleyerek {area:2097} yukarı çık. {npc:10646}, {npc:10896} (29) yanında esir tutuluyor: önce muhafızları ve {npc:10896} yaratığını temizle, sonra onu serbest bırak ve aşağı inerken koru. Yolda Grimtotem pusucuları üstüne gelir.",
 
-	-- Step 71: Highperch
+	-- Step 73: Highperch
 	-- {area:482} Highperch · {npc:10427} Pao'ka Swiftmountain · {area:2237} Whitereach Post
 	-- plural, as words: Highperch Patriarchs = {npc:4110} Highperch Patriarch
 	["West of Whitereach the wyverns nest on the {area:482} cliffs; the eggs lie in the nests. {npc:10427} waits on the east side of the nesting grounds: free him and keep him alive on the walk back to {area:2237}.\nCareful: Wyverns at level 28-29 fly overhead and can be pulled without warning. A group of three wyverns can ambush you once you pass the first pillar at the bottom. Highperch Patriarchs (30-31) and the rare Heartrazor (32) nest here too: pull around them."] = "Whitereach'in batısında wyvern'ler {area:482} uçurumlarında yuva yapmış, yumurtalar yuvalarda. {npc:10427} yuvalama alanının doğu yakasında bekliyor: onu serbest bırak ve {area:2237} karakoluna dönüş yolunda hayatta tut.\nDikkat: 28-29. seviye wyvern'ler tepede uçar ve uyarısız çekilebilir. Alttaki ilk sütunu geçince üç wyvern'lik bir grup sana pusu kurabilir. Highperch Patriarch yaratıkları (30-31) ve rare Heartrazor (32) da burada yuva yapmış: çevrelerinden dolaş.",
 
-	-- Step 72: Whitereach Post
-	-- {npc:10428} Motega Firemane · {zone:1456} Thunder Bluff
-	["{npc:10428}'s next quest, Sacred Fire, ends in {zone:1456}, off this route. Skip it."] = "{npc:10428} adlı NPC'nin sonraki görevi Sacred Fire, bu rotanın dışında, {zone:1456} şehrinde biter. Atla.",
+	-- Step 74: Whitereach Post
+	-- {npc:10428} Motega Firemane · {item:12732} Incendia Agave · {area:2097} Darkcloud Pinnacle
+	["{npc:10428}: the {item:12732} grows among the Grimtotem camps below {area:2097}, on the way back east"] = "{npc:10428}: {item:12732}, doğuya dönerken {area:2097} aşağısındaki Grimtotem kamplarının arasında yetişiyor",
 
-	-- Step 73: Kanati Greycloud
+	-- Step 75: Kanati Greycloud
 	-- {npc:10617} Galak Messenger · {npc:10638} Kanati Greycloud · {area:2237} Whitereach Post
 	["Only if the {npc:10617} dropped his plot for you: {npc:10638} stands at {area:2237}."] = "Yalnızca {npc:10617} sana planını düşürdüyse: {npc:10638}, {area:2237} karakolunda duruyor.",
 
-	-- Step 75: Hypercapacitor Gizmo
+	-- Step 77: Hypercapacitor Gizmo
 	-- {npc:10992} Enraged Panther
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:10992} is a level 30 elite: most classes solo it at level 32, but you may need help. Skip it if you are alone."] = "Bunlar elit yaratıklar: grup kurmak tavsiye edilir, birlikte yapacak kişiler ara. {npc:10992} 30. seviye bir elit: çoğu sınıf onu 32. seviyede tek başına keser, ama yardıma ihtiyacın olabilir. Yalnızsan atla.",
 
-	-- Step 76: Whitereach Post
+	-- Step 78: Whitereach Post
 	-- {npc:10720} Galak Assassin · {npc:10638} Kanati Greycloud
 	["Kill the {npc:10720} that comes for {npc:10638}"] = "{npc:10638} için gelen {npc:10720} yaratığını öldür",
 
-	-- Step 79: Freewind Post
-	-- {area:2237} Whitereach Post · {area:484} Freewind Post
-	["Back east past {area:2237} to {area:484}."] = "{area:2237} karakolunu geçip doğuya, {area:484} karakoluna dön.",
+	-- Step 81: Gravelsnout kobolds and Steelsnap
+	-- {quest:1131} Steelsnap
+	["Gravelsnout kobolds and {quest:1131}"] = "Gravelsnout kobold'ları ve {quest:1131}",
+	-- {quest:1131} Steelsnap · {npc:3441} Melor Stonehoof
+	-- plural, as words: Gravelsnout Diggers = {npc:4113} Gravelsnout Digger · Pesterhide Snarlers = {npc:4249} Pesterhide Snarler
+	["North-west of Whitereach Post the Gravelsnout Diggers and Surveyors dig in the far western hills; one of them drops the ore sample. {quest:1131}, a lone hyena, prowls the same hills with the Pesterhide Snarlers: his rib is {npc:3441}'s.\nCareful: {quest:1131} is level 30 and the kobolds 28-29: pull them one at a time."] = "Whitereach Post'un kuzeybatısında, en batıdaki tepelerde Gravelsnout Digger ve Surveyor yaratıkları kazı yapıyor. Maden numunesini biri düşürür. Yalnız bir sırtlan olan {quest:1131}, aynı tepelerde Pesterhide Snarler yaratıklarıyla dolaşıyor: kaburgası {npc:3441} için.\nDikkat: {quest:1131} seviye 30, kobold'lar 28-29: tek tek çek.",
+	-- plural, as words: Gravelsnout Diggers = {npc:4113} Gravelsnout Digger
+	["Ore Sample, from the Gravelsnout Diggers and Surveyors"] = "Ore Sample, Gravelsnout Digger ve Surveyor yaratıklarından",
+
+	-- Step 82: Incendia Agave
+	-- {area:2237} Whitereach Post · {item:12732} Incendia Agave · {area:2097} Darkcloud Pinnacle · {npc:216463} Ailgrha Splittusk
+	["Back east past {area:2237}: the {item:12732} grows on the ground among the Grimtotem camps below {area:2097}. Start with the three plants close together at the camps' north-western edge, where the arrow points, and stay on that side; the agave comes back while you work.\nCareful: the Ravaging elementals (38-40) and {npc:216463} (38, elite) hold the ground south and east of the camps, from about 36,35: don't follow the agave past them."] = "{area:2237} karakolunu geçip doğuya dön: {item:12732}, {area:2097} aşağısındaki Grimtotem kamplarının arasında yerde yetişiyor. Okun gösterdiği yerde, kampların kuzeybatı kenarında birbirine yakın üç bitkiyle başla, o tarafta kal. Sen çalışırken agave yeniden çıkar.\nDikkat: Ravaging elementaller (38-40) ve {npc:216463} (38, elit) kampların güneyini ve doğusunu, yaklaşık 36,35'ten itibaren tutuyor: agave için onların ötesine geçme.",
+
+	-- Step 83: Roguefeather Den
+	-- {area:487} Roguefeather Den · {npc:4877} Jandia · {npc:4490} Grenka Bloodscreech · {npc:2986} Dorn Plainstalker · {quest:1150} Test of Endurance
+	["South of Darkcloud Pinnacle the Screeching harpies hold {area:487}; {npc:4877}'s stolen supplies lie on the ground around it.\nCareful: the harpies (28-29) stand in packs and the Windcallers cast from range: pull at the edge. {npc:4490} (31) waits deeper in the den: leave her for {npc:2986}'s {quest:1150} at about 30, in the next guide."] = "Darkcloud Pinnacle'ın güneyinde Screeching harpy'leri {area:487} yuvasını tutuyor. {npc:4877} adlı NPC'nin çalınan erzakı çevrede yerde yatıyor.\nDikkat: harpy'ler (28-29) gruplar halinde duruyor, Windcaller'lar uzaktan büyü yapıyor: kenardan çek. {npc:4490} (31) yuvanın derinlerinde bekliyor: onu sonraki rehberde yaklaşık 30. seviyede {npc:2986} adlı NPC'nin {quest:1150} görevine bırak.",
+	-- {quest:98069} Stolen Freewind Supplies
+	["{quest:98069}, on the ground around the den"] = "{quest:98069}, inin çevresinde, yerde",
+
+	-- Step 84: Freewind Post
+	-- {area:484} Freewind Post
+	["Back east to {area:484}."] = "Doğuya, {area:484} karakoluna dön.",
 	-- {npc:10645} Thalia Amberhide
 	["{npc:10645}, inside"] = "{npc:10645}, içeride",
 	-- {npc:4877} Jandia
 	["{npc:4877}, inside the inn"] = "{npc:4877}, hanın içinde",
-	-- {npc:4877} Jandia · {npc:2986} Dorn Plainstalker · {quest:1150} Test of Endurance · {area:487} Roguefeather Den · {area:2240} Mirage Raceway
-	["Keep {npc:4877}'s two harpy quests and {npc:2986}'s {quest:1150}: {area:487} comes with the next Freewind visit, at about 30, with the {area:2240}'s quests."] = "{npc:4877} adlı NPC'nin iki harpy görevini ve {npc:2986} adlı NPC'nin {quest:1150} görevini sakla: {area:487}, {area:2240} görevleriyle birlikte yaklaşık 30'daki bir sonraki Freewind ziyaretiyle gelir.",
+	-- {npc:2986} Dorn Plainstalker · {quest:1150} Test of Endurance
+	["Keep {npc:2986}'s {quest:1150}: Grenka comes with the next Freewind visit, at about 30."] = "{npc:2986} adlı NPC'nin {quest:1150} görevini sakla: Grenka yaklaşık 30. seviyedeki bir sonraki Freewind ziyaretinde gelir.",
 
-	-- Step 80: Level 29
-	["Level 29"] = "Seviye 29",
-	-- {area:484} Freewind Post · {area:2797} Blackfathom Deeps
-	-- plural, as words: Pesterhide Snarlers = {npc:4249} Pesterhide Snarler
-	["The next guide opens with Korran's The Swarm Grows at the Crossroads, offered from level 29. Short of 29? The Pesterhide Snarlers (28-29) prowl the canyon floor just north-west of {area:484}: kill them until level 29. Or, with a group, run the {area:2797} dungeon instead."] = "Sonraki rehber Crossroads'ta Korran'ın 29. seviyeden verilen The Swarm Grows göreviyle açılır. 29'a varmadın mı? Pesterhide Snarler yaratıkları (28-29) {area:484} karakolunun hemen kuzeybatısındaki kanyon tabanında dolaşıyor: 29. seviyeye kadar onları öldür. Ya da bir grupla onun yerine {area:2797} zindanını yap.",
-	-- plural, as words: Pesterhide Snarlers = {npc:4249} Pesterhide Snarler
-	["Pesterhide Snarlers"] = "Pesterhide Snarler yaratıkları",
-	-- {npc:4249} Pesterhide Snarler
-	["grind on {npc:4249}"] = "Kas: {npc:4249}",
+	-- Step 85: Fly to Thunder Bluff
+	-- {area:484} Freewind Post
+	["{area:484} flight master"] = "{area:484} uçuş ustası",
+
+	-- Step 86: Melor Stonehoof
+	-- {npc:3441} Melor Stonehoof · {area:1641} Hunter Rise · {quest:1131} Steelsnap
+	["{npc:3441} on {area:1641} takes {quest:1131}'s rib."] = "{area:1641} üzerindeki {npc:3441}, {quest:1131} yaratığının kaburgasını alır.",
+
+	-- Step 87: Magatha Grimtotem
+	-- {npc:4046} Magatha Grimtotem · {area:1639} Elder Rise · {area:2097} Darkcloud Pinnacle
+	["{npc:4046} stands on the {area:1639}, east across the bridges. Her next quest, Arikara, goes back to {area:2097} and Whitereach: leave it, the route does not go back there."] = "{npc:4046}, köprülerden doğuya geçince {area:1639} üzerinde duruyor. Sonraki görevi Arikara seni {area:2097} ve Whitereach'e geri gönderir: bırak, rota oraya dönmüyor.",
+
+	-- Step 89: Tatternack Steelforge
+	-- {npc:3433} Tatternack Steelforge
+	["{npc:3433} takes the ore sample beside the flight master. The next guide flies on from here."] = "{npc:3433} maden numunesini uçuş ustasının yanında alır. Sonraki rehber buradan uçar.",
 }
