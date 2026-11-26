@@ -343,8 +343,9 @@ return {
 	["{quest:2995}'s work is not in this guide: burn the {object:144073}, Notes and Records in the elves' camps around {area:350}, in {zone:1425} & {zone:1419} (its Highvale step). Load that guide for the arrows."] = "{quest:2995} görevinin işi bu rehberde yok: {zone:1425} & {zone:1419} rehberinde (Highvale adımı) {area:350} çevresindeki elf kamplarında {object:144073}, Notes ve Records belgelerini yak. Oklar için o rehberi aç.",
 
 	-- Step 75: Undercity
-	-- {npc:8390} Chemist Cuely · {zone:1447} Azshara
-	["{npc:8390}, the Apothecarium: the vials fill in {zone:1447} later"] = "{npc:8390}, Apothecarium: şişeler daha sonra {zone:1447} bölgesinde doldurulur",
+	-- {npc:8390} Chemist Cuely · {item:10695} Box of Empty Vials · {zone:1447} Azshara
+	-- plural, as words: Empty Vials = {item:3371} Empty Vial
+	["{npc:8390}, the Apothecarium: a {item:10695} comes with the quest. Keep four bag slots free and open it for Empty Vials Labeled #1 to #4, filled in {zone:1447} later"] = "{npc:8390}, Apothecarium: görevle birlikte bir {item:10695} gelir. Dört çanta yerini boş tutup aç, içinden Empty Vial Labeled #1-#4 şişeleri çıkar. Şişeler daha sonra {zone:1447} bölgesinde doldurulur",
 	-- {npc:5204} Apothecary Zinge
 	["{npc:5204}, near Cuely in the Apothecarium"] = "{npc:5204}, Apothecarium'da Cuely'nin yanında",
 

@@ -80,10 +80,10 @@ return {
 	["{npc:6986}, the Drag"] = "{npc:6986}, Drag",
 
 	-- Step 23: Orgrimmar
-	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow · {quest:4300} Bone-Bladed Weapons · {zone:1447} Azshara
-	["{npc:8659}, in the {object:172960}, has {quest:4300} for later; then your class trainer before you leave for {zone:1447}."] = "{object:172960} içindeki {npc:8659} sonrası için {quest:4300} görevini veriyor. Sonra {zone:1447} yolculuğundan önce sınıf eğitmenin.",
-	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow
-	["{npc:8659}, the {object:172960}"] = "{npc:8659}, {object:172960}",
+	-- {npc:8659} Jes'rimon · {quest:4300} Bone-Bladed Weapons · {zone:1447} Azshara
+	["{npc:8659}, at the top of a tower in the Drag, has {quest:4300} for later; then your class trainer before you leave for {zone:1447}."] = "Drag'da bir kulenin tepesinde duran {npc:8659} sonrası için {quest:4300} görevini veriyor. Ardından, {zone:1447} bölgesine gitmeden önce sınıf eğitmenine uğra.",
+	-- {npc:8659} Jes'rimon
+	["{npc:8659}, at the top of a tower in the Drag"] = "{npc:8659}, Drag'da bir kulenin tepesinde",
 
 	-- Step 24: Zor Lonetree
 	-- {npc:4047} Zor Lonetree · {object:172957} Valley of Wisdom · {npc:4791} Nazeer Bloodpike · {zone:1445} Dustwallow Marsh

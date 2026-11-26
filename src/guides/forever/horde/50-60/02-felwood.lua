@@ -61,10 +61,10 @@ return {
 	["The middle of {zone:1454}"] = "{zone:1454} şehrinin ortası",
 
 	-- Step 14: Jes'rimon
-	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow
-	["{npc:8659} takes the ravasaur claws from Un'Goro; he stands in the {object:172960}, a short walk from the middle of the city."] = "{npc:8659}, Un'Goro'dan gelen ravasaur pençelerini alır. Şehrin ortasından kısa bir yürüyüş ötedeki {object:172960} içinde duruyor.",
-	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow
-	["{npc:8659}, the {object:172960}"] = "{npc:8659}, {object:172960}",
+	-- {npc:8659} Jes'rimon
+	["{npc:8659} takes the ravasaur claws from Un'Goro; he stands at the top of a tower in the Drag."] = "{npc:8659}, Un'Goro'dan gelen ravasaur pençelerini alır. Drag'da bir kulenin tepesinde duruyor.",
+	-- {npc:8659} Jes'rimon
+	["{npc:8659}, at the top of a tower in the Drag"] = "{npc:8659}, Drag'da bir kulenin tepesinde",
 
 	-- Step 15: Fly to Valormok
 	-- {area:1237} Valormok
@@ -84,8 +84,8 @@ return {
 	["Ride east to the ruins on the coast. The four tablets lie among the ruins, guarded by Spitelash naga (52-55): pull them one at a time."] = "Doğuya, kıyıdaki harabelere sür. Dört tablet harabelerin arasında yatıyor, onları Spitelash naga'ları (52-55) koruyor: tek tek çek.",
 
 	-- Step 18: Ruins of Eldarath
-	-- {area:1231} Southridge Beach
-	["Fill Cuely's four vials at the tide pools on the shore, from {area:1231} north up the coast; Spitelash naga patrol between them."] = "Cuely'nin dört şişesini kıyıdaki gelgit havuzlarında, {area:1231} kumsalından kıyı boyunca kuzeye doğru doldur. Aralarında Spitelash nagaları devriye geziyor.",
+	-- {item:10695} Box of Empty Vials · {area:1231} Southridge Beach · {npc:8390} Chemist Cuely · {zone:1458} Undercity
+	["Open Cuely's {item:10695} in your bags for the four labelled vials. The tide pools cannot be clicked: stand in each pool and use its own vial from your bags, from {area:1231} north up the coast; Spitelash naga patrol between them. No vials? Abandon the quest and take it again from {npc:8390} in the {zone:1458}."] = "Cuely'nin verdiği {item:10695} eşyasını çantanda açıp etiketli dört şişeyi al. Gelgit havuzlarına tıklanamaz: {area:1231} kumsalından kıyı boyunca kuzeye doğru her havuzun içinde durup çantandan o havuzun şişesini kullan. Aralarında Spitelash nagaları devriye geziyor. Şişe yok mu? Görevden vazgeçip {zone:1458} şehrindeki {npc:8390} yanından yeniden al.",
 	-- {item:10691} Filled Vial Labeled #1 · {area:1231} Southridge Beach
 	["{item:10691}: the tide pool on {area:1231}"] = "{item:10691}: {area:1231} kumsalındaki gelgit havuzu",
 	["#2, north along the shore"] = "2 numara, kıyı boyunca kuzeyde",
@@ -183,8 +183,8 @@ return {
 	["{area:1237} flight master"] = "{area:1237} uçuş ustası",
 
 	-- Step 36: Belgrom Rockmaul
-	-- {npc:4485} Belgrom Rockmaul · {object:172958} Valley of Honor · {npc:3326} Zevrost · {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow
-	["{npc:4485} is in the {object:172958}, {npc:3326} and {npc:8659} in the {object:172960}."] = "{npc:4485} {object:172958} içinde, {npc:3326} ve {npc:8659} {object:172960} içinde.",
+	-- {npc:4485} Belgrom Rockmaul · {object:172958} Valley of Honor · {npc:3326} Zevrost · {object:172960} Cleft of Shadow · {npc:8659} Jes'rimon
+	["{npc:4485} is in the {object:172958}, {npc:3326} in the {object:172960} and {npc:8659} at the top of a tower in the Drag."] = "{npc:4485} {object:172958} içinde, {npc:3326} {object:172960} içinde, {npc:8659} de Drag'da bir kulenin tepesinde.",
 	-- {npc:3326} Zevrost · {object:172960} Cleft of Shadow
 	["{npc:3326}, the {object:172960}"] = "{npc:3326}, {object:172960}",
 	-- {npc:8659} Jes'rimon · {npc:8587} Jediga

@@ -181,6 +181,8 @@ return {
 	-- Step 42: Fuzzle
 	-- {npc:259158} Fuzzle · {area:16723} Sunnyglade
 	["{npc:259158} wants out of {area:16723}: lead him west to his treasure at the edge of town and keep the cultists off him."] = "{npc:259158}, {area:16723} kasabasından çıkmak istiyor: onu batıya, kasabanın kenarındaki hazinesine götür ve tarikatçıları ondan uzak tut.",
+	-- {npc:259158} Fuzzle
+	["{npc:259158} in his cage"] = "{npc:259158}, kafesinde",
 	-- {npc:259158} Fuzzle · {area:16723} Sunnyglade
 	["lead {npc:259158} out of {area:16723} to his treasure, west of the town"] = "{npc:259158} yaratığını {area:16723} kasabasından, kasabanın batısındaki hazinesine götür",
 

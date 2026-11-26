@@ -115,7 +115,6 @@ return {
 
 	-- Step 17: The Great Outdoors
 	-- {npc:265811} Lyreena Duskblade · {npc:6286} Zarrin · {skill:129} First Aid · {npc:6094} Byancie · {zone:1457} Darnassus · {area:442} Auberdine
-	-- was: ["With a profession learned, {npc:265811} also offers its Camping 101, which its trainer takes: alchemy and herbalism beside {npc:6286}, {skill:129} with {npc:6094} in the inn, skinning and leatherworking at the Maneweavers' camp on the road west."] = "Hast du einen Beruf erlernt, bietet {npc:265811} auch dessen Camping 101 an, das sein Lehrer annimmt: Alchemie und Kräuterkunde neben {npc:6286}, {skill:129} bei {npc:6094} im Gasthaus, Kürschnerei und Lederverarbeitung im Lager der Mähnenweber an der Straße nach Westen."
 	["With a profession learned, {npc:265811} also offers its Camping 101, which its trainer takes: alchemy and herbalism beside {npc:6286}, {skill:129} with {npc:6094} in the inn, skinning and leatherworking at the Maneweavers' camp on the road west, fishing and tailoring in {zone:1457}, enchanting north of the city, blacksmithing, mining and engineering in {area:442}."] = "Bir meslek öğrendiysen {npc:265811} o mesleğin Camping 101 görevini de verir. Görevi mesleğin eğitmeni teslim alır: alchemy ve herbalism {npc:6286} yanında, {skill:129} handa {npc:6094} ile, skinning ve leatherworking batı yolundaki Maneweaver'ların kampında, fishing ve tailoring {zone:1457} şehrinde, enchanting şehrin kuzeyinde, blacksmithing, mining ve engineering {area:442} kasabasında.",
 	-- {npc:265811} Lyreena Duskblade · {spell:1229451} Boosted Rest
 	["/sit by {npc:265811}'s campfire until you get {spell:1229451}"] = "{spell:1229451} gelene kadar {npc:265811} kamp ateşinin yanında otur (/sit)",
@@ -204,6 +203,8 @@ return {
 	["{npc:6094}, in the inn"] = "{npc:6094}, handa",
 
 	-- Step 33: Dolanaar
+	-- {quest:5621} Garments of the Moon · {spell:613} Lesser Heal · {npc:3600} Laurna Morninglight
+	["Priests: {quest:5621} counts only {spell:613} (Rank 2). {npc:3600} trains priests too: learn it from her now if you have not yet."] = "Priest'ler: {quest:5621} yalnız {spell:613} (Rank 2) kullanımını sayar. {npc:3600} Priest'lere de eğitim veriyor: henüz öğrenmediysen şimdi ondan öğren.",
 	-- {npc:3515} Corithras Moonrage
 	["{npc:3515}, south of the inn"] = "{npc:3515}, hanın güneyinde",
 	-- {npc:3608} Aldia

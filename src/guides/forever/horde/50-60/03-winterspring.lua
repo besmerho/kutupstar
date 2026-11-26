@@ -130,8 +130,8 @@ return {
 	["{area:1997} flight master"] = "{area:1997} uçuş ustası",
 
 	-- Step 25: Evoroot
-	-- {item:11242} Evoroot · {npc:7775} Gregan Brewspewer · {area:1114} Ruins of Ravenwind
-	["The {item:11242} grows inside a ruined building north of {npc:7775}'s camp, east of the harpies' {area:1114}: climb in through the broken part of its wall."] = "{item:11242}, {npc:7775} adlı NPC'nin kampının kuzeyinde, harpy'lerin {area:1114} harabelerinin doğusundaki yıkık bir binanın içinde yetişiyor: duvarının yıkık kısmından içeri tırman.",
+	-- {item:11242} Evoroot · {npc:7775} Gregan Brewspewer · {area:1114} Ruins of Ravenwind · {npc:9467} Miblon Snarltooth
+	["The {item:11242} grows inside a ruined building north of {npc:7775}'s camp, east of the harpies' {area:1114}: climb in through the broken part of its wall.\nOr the front door: {npc:9467} guards it, and the Bait Gregan sells draws him off when you use it beside him. Half the players in our recordings went in that way, half through the wall."] = "{item:11242}, {npc:7775} kampının kuzeyinde, harpy'lerin {area:1114} harabelerinin doğusundaki yıkık bir binanın içinde yetişiyor: duvarının yıkık kısmından içeri tırman.\nYa da ön kapıdan: kapıyı {npc:9467} bekliyor, Gregan'ın sattığı Bait'i yanında kullanırsan onu uzaklaştırır. Oyuncu kayıtlarında oyuncuların yarısı bu yoldan, yarısı duvardan girdi.",
 
 	-- Step 26: The Videre Elixir
 	-- {npc:7775} Gregan Brewspewer · {area:976} Gadgetzan

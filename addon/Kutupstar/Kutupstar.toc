@@ -2,8 +2,8 @@
 ## Title: Kutupstar (Polestar TR)
 ## Notes: Polestar'ın Türkçe çevirisi: arayüz ve rehber metinleri. Görev, NPC, eşya ve bölge adları oyunun İngilizce istemcisindeki gibi kalır. Dil seçimi: Polestar ayarları, Tema > Yazı.
 ## Author: Barış
-## Version: 0.4.3
-## X-Polestar-Version: 0.4.3
+## Version: 0.4.3.1
+## X-Polestar-Version: 0.4.3.1
 ## X-License: GPL-3.0-only
 ## Category: Quests
 ## IconTexture: Interface\AddOns\Polestar\Media\UI\logo
