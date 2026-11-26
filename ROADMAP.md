@@ -4,7 +4,7 @@ Upstream: https://github.com/fitzforge/polestar, cloned into `upstream/` at the 
 
 ## Status (26 Nov 2026, branch `main`)
 
-- Polestar pinned at **v0.4.3.1**, its newest release (the `polestar-v0.4.3.1` sync, merged on 26 Nov; a hotfix, `Core.lua` unchanged since v0.4.3, which wraps `GuideTexts.PrepareSteps` for deferred guide steps). Kutupstar **0.4.3.1** built and installed in Barış's game, not tested in game yet.
+- Polestar pinned at **v0.4.3.1**, its newest release (the `polestar-v0.4.3.1` sync, merged on 26 Nov; a hotfix, `Core.lua` unchanged since v0.4.3, which wraps `GuideTexts.PrepareSteps` for deferred guide steps). Kutupstar **0.4.3.1** built and installed in Barış's game, uploaded to CurseForge on 26 Nov (tag `v0.4.3.1`, file 9827116), not tested in game yet.
 - **Next:** the in-game test of 0.4.3 (a deferred guide in Turkish first), the rest of the full read (Open item 1), then the next Polestar release (`node tools/kutup.js latest`). Open items and details: [docs/HANDOFF.md](docs/HANDOFF.md), which is the place to look first and to keep current.
 
 ### History (the numbers of that time, at Polestar v0.2.6)
