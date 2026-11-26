@@ -3,6 +3,10 @@
 -- oyun orada adı İngilizce gösterir (yukarıdaki yorum satırında yazıyor). Belirtecin hemen ardına ek getirme;
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
+	-- Guide
+	-- {zone:1452} Winterspring · {zone:1448} Felwood · {zone:1444} Feralas · {zone:1456} Thunder Bluff
+	["{zone:1452} and {zone:1448}, then {zone:1444} and {zone:1456}."] = "{zone:1452} ve {zone:1448}, sonra {zone:1444} ve {zone:1456}.",
+
 	-- Step 1: Into Winterspring
 	-- {zone:1452} Winterspring
 	["Into {zone:1452}"] = "{zone:1452} bölgesine",
@@ -46,7 +50,6 @@ return {
 	-- Step 8: Everlook
 	-- {zone:1423} Eastern Plaguelands · {area:2255} Everlook
 	-- plural, as words: Pristine Yeti Horns = {item:12367} Pristine Yeti Horn
-	-- was: ["Umi: keep it, the Pristine Yeti Horns come on the {zone:1423} guide's {area:2255} stop at about 57"] = "Umi: behalten, die Makellosen Yetihörner kommen beim Halt in {area:2255} im Guide für {zone:1423} mit etwa 57"
 	["Umi: keep it, the Pristine Yeti Horns come on the {zone:1423} guide's {area:2255} stop at about 56"] = "Umi: sakla, Pristine Yeti Horn'lar yaklaşık 56. seviyede {zone:1423} rehberinin {area:2255} durağında gelir",
 	["The Matriarchs and Patriarchs that carry Umi's horns are 56-58: leave them for that later stop."] = "Umi'nin boynuzlarını taşıyan Matriarch ve Patriarch'lar 56-58: onları o sonraki durağa bırak.",
 
@@ -55,7 +58,6 @@ return {
 	["Raging Owlbeasts"] = "Raging Owlbeast yaratıkları",
 	-- {area:2251} Lake Kel'Theril · {area:2255} Everlook · {area:2246} Frostfire Hot Springs
 	-- plural, as words: Raging Owlbeasts = {npc:7451} Raging Owlbeast
-	-- was: ["Raging Owlbeasts roam the hills north of {area:2251}, by the road between {area:2246} and {area:2255}. Careful: the biggest are level 56: pull them one at a time."] = "Tobende Eulenbestien streifen durch die Hügel nördlich von {area:2251}, an der Straße zwischen {area:2246} und {area:2255}. Vorsicht: Die größten sind Stufe 56: Zieh sie einzeln."
 	["Ride back west: Raging Owlbeasts roam the hills north of {area:2251}, by the road between {area:2255} and {area:2246}. Careful: the biggest are level 56: pull them one at a time."] = "Batıya geri sür: Raging Owlbeast yaratıkları {area:2251} gölünün kuzeyindeki tepelerde, {area:2255} ile {area:2246} arasındaki yolun yanında dolaşıyor. Dikkat: en büyükleri seviye 56: tek tek çek.",
 
 	-- Step 10: Frostfire Hot Springs: kill these as you meet them
@@ -86,19 +88,23 @@ return {
 	-- {zone:1448} Felwood · {area:1761} Deadwood Village
 	["Ride north-west along the road into {zone:1448}. Ror stands at the far south end of {area:1761}, just inside the border."] = "Yol boyunca kuzeybatıya, {zone:1448} bölgesine sür. Ror, sınırın hemen içinde, {area:1761} köyünün en güney ucunda duruyor.",
 
-	-- Step 14: Emerald Sanctuary
+	-- Step 14: Taronn Redfeather
 	["North to the druids' camp."] = "Kuzeye, druid kampına git.",
+
+	-- Step 16: Maybess Riverbreeze
 	-- {npc:9529} Maybess Riverbreeze
 	["{npc:9529}, on the west side of the Sanctuary"] = "{npc:9529}, Sanctuary'nin batı yakasında",
+
+	-- Step 18: Emerald Sanctuary
 	-- {quest:5158} Seeking Spiritual Aid · {npc:5901} Islen Waterseer · {area:392} Ratchet
 	["Keep {quest:5158}: {npc:5901} is by {area:392}, on the next guide."] = "{quest:5158} görevini sakla: {npc:5901} sonraki rehberde {area:392} kasabasının yanında.",
 
-	-- Step 15: The Jadefire moonwell
+	-- Step 19: The Jadefire moonwell
 	["The Jadefire moonwell"] = "Jadefire ay kuyusu",
 	-- {area:1763} Jaedenar · {npc:9996} Winna Hazzard
 	["Ride north-west past {area:1763} to the corrupted moonwell of the Jadefire satyrs and fill {npc:9996}'s flasket there."] = "{area:1763} tapınağını geçip kuzeybatıya, Jadefire satyr'larının bozulmuş ay kuyusuna sür ve {npc:9996} adlı NPC'nin şişesini orada doldur.",
 
-	-- Step 16: Bloodvenom Post
+	-- Step 20: Bloodvenom Post
 	-- {area:1997} Bloodvenom Post
 	["North up the road to {area:1997}."] = "Yol boyunca kuzeye, {area:1997} karakoluna git.",
 	-- {npc:9996} Winna Hazzard · {quest:86612} Stag Lord's Bauble
@@ -107,51 +113,57 @@ return {
 	-- plural, as words: Moontouched Owlbeasts = {npc:7453} Moontouched Owlbeast
 	["{npc:10306}'s Moontouched Owlbeasts are 57-58, in {zone:1452}: keep it for the {zone:1423} guide's {zone:1452} stop."] = "{npc:10306} adlı NPC'nin istediği Moontouched Owlbeast'ler 57-58, {zone:1452} bölgesinde: {zone:1423} rehberinin {zone:1452} durağı için sakla.",
 
-	-- Step 17: Winna Hazzard's kitten
+	-- Step 21: Winna Hazzard's kitten
 	-- {npc:9996} Winna Hazzard
 	["{npc:9996}'s kitten"] = "{npc:9996} adlı NPC'nin yavru kedisi",
 	-- {item:12565} Winna's Kitten Carrier · {npc:10042} Corrupted Saber · {npc:9996} Winna Hazzard
 	["Take the kitten back to the Jadefire moonwell and release it there with {item:12565}; once it has turned into a {npc:10042}, bring it back to {npc:9996} and click on it to hand it over."] = "Yavru kediyi Jadefire ay kuyusuna geri götürüp {item:12565} ile orada serbest bırak. {npc:10042} yaratığına dönüşünce onu {npc:9996} yanına geri getir ve teslim etmek için üzerine tıkla.",
 	-- {item:12565} Winna's Kitten Carrier
 	["{item:12565}, at the Jadefire moonwell"] = "{item:12565}, Jadefire ay kuyusunda",
+	-- {npc:10042} Corrupted Saber · {npc:9996} Winna Hazzard · {area:1997} Bloodvenom Post
+	["Bring the {npc:10042} to {npc:9996} at {area:1997} and click on it to hand it over."] = "{npc:10042} yaratığını {area:1997} karakolundaki {npc:9996} yanına getir, teslim etmek için üstüne tıkla.",
 
-	-- Step 19: Fly to Camp Mojache
+	-- Step 23: Fly to Camp Mojache
 	-- {area:1099} Camp Mojache
 	["Fly to {area:1099}"] = "{area:1099} kampına uç",
 	-- {area:1997} Bloodvenom Post
 	["{area:1997} flight master"] = "{area:1997} uçuş ustası",
 
-	-- Step 21: Evoroot
+	-- Step 25: Evoroot
 	-- {item:11242} Evoroot · {npc:7775} Gregan Brewspewer · {area:1114} Ruins of Ravenwind
 	["The {item:11242} grows inside a ruined building north of {npc:7775}'s camp, east of the harpies' {area:1114}: climb in through the broken part of its wall."] = "{item:11242}, {npc:7775} adlı NPC'nin kampının kuzeyinde, harpy'lerin {area:1114} harabelerinin doğusundaki yıkık bir binanın içinde yetişiyor: duvarının yıkık kısmından içeri tırman.",
 
-	-- Step 22: The Videre Elixir
+	-- Step 26: The Videre Elixir
 	-- {npc:7775} Gregan Brewspewer · {area:976} Gadgetzan
 	["Back south to {npc:7775}. Keep the elixir and don't drink it yet: it kills you, and that is how you meet Gaeriyan by {area:976} later."] = "Güneye, {npc:7775} adlı NPC'ye dön. İksiri sakla ve henüz içme: seni öldürür, Gaeriyan ile daha sonra {area:976} yanında böyle karşılaşırsın.",
 	-- {item:11243} Videre Elixir · {npc:7775} Gregan Brewspewer
 	["{item:11243}, {npc:7775}'s reward"] = "{item:11243}, {npc:7775} adlı NPC'nin ödülü",
 
-	-- Step 24: Fly to Thunder Bluff
+	-- Step 28: Fly to Thunder Bluff
 	-- {area:1638} Thunder Bluff
 	["Fly to {area:1638}"] = "{area:1638} şehrine uç",
 	-- {area:2408} Shadowprey Village
 	["{area:2408} flight master"] = "{area:2408} uçuş ustası",
 
-	-- Step 25: Bluff Runner Windstrider
+	-- Step 29: Bluff Runner Windstrider
 	-- {npc:10881} Bluff Runner Windstrider · {npc:14728} Rumstag Proudstrider · {area:1641} Hunter Rise
 	["{npc:10881} and {npc:14728} stand on {area:1641}. Each of Rumstag's donations takes sixty Wool, Silk or Mageweave from your bags: hand in what you carry, skip the rest."] = "{npc:10881} ve {npc:14728} {area:1641} tepesinde duruyor. Rumstag'in her bağışı çantandan altmış Wool, Silk ya da Mageweave alır: taşıdığını teslim et, gerisini atla.",
 
-	-- Step 26: Elder Rise
+	-- Step 30: Ghede
+	-- {npc:9076} Ghede · {area:1639} Elder Rise
+	["{npc:9076} stands on {area:1639}."] = "{npc:9076}, {area:1639} tepesinde duruyor.",
+
+	-- Step 31: Elder Rise
 	-- {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {npc:246344} Alodan the Hopeful
 	["{npc:3033} on {area:1639}; {npc:246344}"] = "{area:1639} tepesinde {npc:3033}, {npc:246344}",
 	-- {quest:1123} Rabine Saturna · {zone:1450} Moonglade
 	["{quest:1123} waits in {zone:1450}: keep it for later."] = "{quest:1123}, {zone:1450} bölgesinde bekliyor: sonrası için sakla.",
 
-	-- Step 27: Bashana Runetotem
+	-- Step 32: Bashana Runetotem
 	-- {npc:9087} Bashana Runetotem · {item:11040} Morrowgrain · {quest:3761} Un'Goro Soil · {quest:3782} Morrowgrain Research · {item:11020} Evergreen Pouch
 	["{npc:9087} buys {item:11040} grown from your {quest:3761}. {quest:3782} wants ten, and the {item:11020} gives one try every ten minutes: take it only if you already have the grain."] = "{npc:9087}, {quest:3761} ile yetiştirilen {item:11040} satın alır. {quest:3782} on tane ister, {item:11020} de on dakikada bir deneme verir: yalnızca tahıl zaten sendeyse al.",
 
-	-- Step 29: Magatha Grimtotem
+	-- Step 34: Magatha Grimtotem
 	-- {npc:4046} Magatha Grimtotem · {area:1639} Elder Rise
 	["{npc:4046} stands on {area:1639}."] = "{npc:4046}, {area:1639} üzerinde duruyor.",
 	-- {npc:4046} Magatha Grimtotem · {zone:1447} Azshara

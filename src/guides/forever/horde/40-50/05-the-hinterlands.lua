@@ -3,11 +3,13 @@
 -- oyun orada adı İngilizce gösterir (yukarıdaki yorum satırında yazıyor). Belirtecin hemen ardına ek getirme;
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
+	-- Guide
+	-- {zone:1425} The Hinterlands · {area:75} Stonard · {zone:1419} Blasted Lands
+	["{zone:1425} first, then {area:75} and the {zone:1419}."] = "Önce {zone:1425}, sonra {area:75} ve {zone:1419}.",
+
 	-- Step 1: Fly to Tarren Mill
 	-- {area:272} Tarren Mill
 	["Fly to {area:272}"] = "{area:272} kasabasına uç",
-	-- {area:1446} Thorium Point
-	["{area:1446} flight master"] = "{area:1446} uçuş ustası",
 
 	-- Step 2: The Hinterlands
 	-- {npc:7801} Gilveradin Sunchaser

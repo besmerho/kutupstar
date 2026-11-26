@@ -15,8 +15,6 @@ return {
 	-- Step 1: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
 	["Fly to {area:150}"] = "Uç: {area:150}",
-	-- {area:144} Thelsamar
-	["{area:144} flight master"] = "{area:144} uçuş ustası",
 
 	-- Step 3: Theramore flight master
 	["Theramore flight master"] = "Theramore uçuş ustası",
@@ -45,8 +43,10 @@ return {
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:6134}'s magnets draw the Magrami Spectres a few yards from the Magram Necrokhans and Corpsefeeders (45, elite) in the {area:2657}. Skip it if you are alone."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {quest:6134} mıknatısları Magrami Spectre yaratıklarını {area:2657} içindeki Magram Necrokhan ve Corpsefeeder yaratıklarından (45, elit) birkaç yard öteye çeker. Yalnızsan atla.",
 
 	-- Step 8: Flesh Picker
-	-- {npc:217590} Flesh Picker · {area:596} Kodo Graveyard · {npc:217412} Amaryllis Webb · {item:213565} Entomology Starter Kit
-	["A {npc:217590} crawls about the {area:596}: catch one with the tool from {npc:217412}'s {item:213565}."] = "{area:596} içinde bir {npc:217590} geziniyor: {npc:217412} adlı NPC'nin {item:213565} setindeki aletle bir tane yakala.",
+	-- {npc:217590} Flesh Picker · {area:596} Kodo Graveyard · {npc:217412} Amaryllis Webb · {item:213565} Entomology Starter Kit · {item:213562} Bug Catching Net
+	["A {npc:217590} crawls about the {area:596}: open {npc:217412}'s {item:213565} and use its {item:213562} on one. Don't kill it."] = "{area:596} içinde bir {npc:217590} geziniyor: {npc:217412} adlı NPC'nin {item:213565} setini açıp içindeki {item:213562} eşyasını birinin üzerinde kullan. Öldürme.",
+	-- {item:213562} Bug Catching Net · {npc:217590} Flesh Picker · {item:213567} Flesh Picker Specimen
+	["{item:213562}, on a {npc:217590}: the {item:213567}"] = "{item:213562}, bir {npc:217590} üzerinde: {item:213567}",
 
 	-- Step 9: Maraudine centaurs
 	["Maraudine centaurs"] = "Maraudine centaurları",
@@ -55,7 +55,7 @@ return {
 
 	-- Step 10: Melizza Brimbuzzle
 	-- {npc:12277} Melizza Brimbuzzle
-	["{npc:12277} is held in the centaur camp west of the graveyard. Free her and keep her alive on the walk out; she stops by the graveyard.\nCareful: The scripted groups are linked and only appear during the escort, so you cannot clear them in advance or pull them one at a time. Clearing the normal centaurs on the path before you start does help."] = "{npc:12277}, mezarlığın batısındaki centaur kampında tutuluyor. Onu serbest bırak ve dışarı yürüyüşte hayatta tut. Mezarlığın yanında durur.\nDikkat: Senaryolu gruplar birbirine bağlı ve yalnızca eşlik sırasında çıkar, bu yüzden onları önceden temizleyemez ya da tek tek çekemezsin. Başlamadan önce yol üstündeki normal centaur'ları temizlemek işe yarar.",
+	["{npc:12277} is held in the centaur camp west of the graveyard. Free her and keep her alive on the walk out; she stops by the graveyard.\nCareful: six centaurs attack during the escort, and you can't clear them beforehand: they appear only during the escort and come linked. In players' recordings 14 of 30 people who took it failed at least once. Bring a friend, or skip it if you are alone. Clearing the normal centaurs on the path before you start does help."] = "{npc:12277}, mezarlığın batısındaki centaur kampında tutuluyor. Onu serbest bırakıp dışarı yürürken hayatta tut. Mezarlığın yanında durur.\nDikkat: eskort sırasında altı centaur saldırır, onları önceden temizleyemezsin: yalnız eskort sırasında çıkarlar ve birbirine bağlı gelirler. Oyuncu kayıtlarında görevi alan 30 kişiden 14'ü en az bir kez başarısız oldu. Bir arkadaş getir ya da yalnızsan atla. Başlamadan önce yol üstündeki normal centaur'ları temizlemek işe yarar.",
 	-- {npc:12277} Melizza Brimbuzzle
 	["escort {npc:12277} back toward the graveyard"] = "{npc:12277} adlı NPC'ye mezarlığa kadar eşlik et",
 
@@ -88,27 +88,31 @@ return {
 	["Back at the coven on the way west: the Mana Eaters (37-38) on its north edge and the Mage Hunters (38-39) further in drop the brains. {npc:5760} (40, elite) walks among the Mage Hunters: pull them out to you."] = "Batıya giderken yine meclise uğra: kuzey kenarındaki Mana Eater (37-38) ve daha içerideki Mage Hunter (38-39) yaratıkları beyin düşürür. {npc:5760} (40, elit) Mage Hunter'ların arasında dolaşıyor: onları kendine, dışarı çek.",
 
 	-- Step 17: Azore Aldamort
-	-- {zone:1443} Desolace · {area:2405} Ethel Rethor · {npc:11863} Azore Aldamort
-	["Follow the road west across the north of {zone:1443} to the ruins of {area:2405}. {npc:11863}'s tower stands on the hill there, on the way to the wreck."] = "Yolu batıya izleyerek {zone:1443} bölgesinin kuzeyini geç ve {area:2405} harabelerine git. {npc:11863} adlı NPC'nin kulesi oradaki tepede, batığa giden yolun üzerinde.",
+	-- {npc:11863} Azore Aldamort · {area:2405} Ethel Rethor · {zone:1443} Desolace
+	["{npc:11863}'s tower stands on the hill at the ruins of {area:2405}, west across the north of {zone:1443}."] = "{npc:11863} kulesi, {zone:1443} bölgesinin kuzeyinden batıya geçince {area:2405} harabelerindeki tepede duruyor.",
 	-- {npc:11863} Azore Aldamort · {zone:1443} Desolace
 	["{npc:11863}, if the first {zone:1443} visit didn't take the sceptre back to him"] = "{npc:11863}, ilk {zone:1443} ziyaretinde asa ona geri götürülmediyse",
+
+	-- Step 18: Azore Aldamort
+	-- {zone:1443} Desolace · {area:2405} Ethel Rethor · {npc:11863} Azore Aldamort
+	["Follow the road west across the north of {zone:1443} to the ruins of {area:2405}. {npc:11863}'s tower stands on the hill there, on the way to the wreck."] = "Yolu batıya izleyerek {zone:1443} bölgesinin kuzeyini geç ve {area:2405} harabelerine git. {npc:11863} adlı NPC'nin kulesi oradaki tepede, batığa giden yolun üzerinde.",
 	-- {npc:11863} Azore Aldamort · {quest:93464} The Visiting Mage · {zone:1435} Swamp of Sorrows
 	["{npc:11863}: {quest:93464}, from Magtoor in the {zone:1435}"] = "{npc:11863}: {quest:93464}, {zone:1435} bölgesindeki Magtoor'dan",
 	-- {npc:11863} Azore Aldamort · {zone:1443} Desolace
 	["{npc:11863}, if the first {zone:1443} visit didn't give it"] = "{npc:11863}, ilk {zone:1443} ziyareti vermediyse",
 
-	-- Step 18: Karnitol's Chest
+	-- Step 19: Karnitol's Chest
 	-- {npc:11863} Azore Aldamort
 	["The wrecked ship's chest lies just south-west of {npc:11863}'s tower."] = "Batık geminin sandığı {npc:11863} adlı NPC'nin kulesinin hemen güneybatısında.",
 
-	-- Step 19: Claim Rackmore's Treasure!
+	-- Step 20: Claim Rackmore's Treasure!
 	-- {object:177787} Rackmore's Log · {object:35251} Karnitol's Chest · {zone:1443} Desolace
 	["{object:177787} lies beside {object:35251}, if you didn't take it on your first {zone:1443} visit. His silver key drops from the Drysnap crabs around the wreck; the golden one comes from the Slitherblade naga on the north-west coast, next."] = "İlk {zone:1443} ziyaretinde almadıysan {object:177787}, {object:35251} yanında duruyor. Gümüş anahtarı enkazın çevresindeki Drysnap yengeçlerinden düşer. Altın olanı sıradaki kuzeybatı kıyısındaki Slitherblade nagalarından gelir.",
 	-- {object:177787} Rackmore's Log · {zone:1443} Desolace
 	["{object:177787}, if the first {zone:1443} visit didn't take it"] = "{object:177787}, ilk {zone:1443} ziyareti almadıysa",
 	["Underwater"] = "Su altında",
 
-	-- Step 20: Sar'theris Strand: kill these as you meet them
+	-- Step 21: Sar'theris Strand: kill these as you meet them
 	-- {area:598} Sar'theris Strand
 	["{area:598}: kill these as you meet them"] = "{area:598}: bunları karşılaştıkça öldür",
 	-- {npc:11863} Azore Aldamort · {spell:131} Water Breathing · {area:2406} Ranazjar Isle · {item:15766} Gem of the Serpent · {object:177673} Serpent Statue · {npc:12369} Lord Kragaru · {quest:6027} Book of the Ancients
@@ -118,11 +122,11 @@ return {
 	-- {item:15766} Gem of the Serpent · {object:177673} Serpent Statue
 	["{item:15766}, on the {object:177673}"] = "{item:15766}, {object:177673} üzerinde",
 
-	-- Step 21: Rackmore's Chest
+	-- Step 22: Rackmore's Chest
 	-- {object:177673} Serpent Statue
 	["Rackmore's chest lies just south-east of the {object:177673}."] = "Rackmore'un sandığı {object:177673} nesnesinin hemen güneydoğusunda.",
 
-	-- Step 24: Nijel's Point
+	-- Step 25: Nijel's Point
 	-- {area:608} Nijel's Point · {npc:5396} Captain Pentigast · {npc:5638} Kreldig Ungor · {npc:1182} Brother Anton
 	["Follow the road north to {area:608}: {npc:5396} stands at its south end, {npc:5638} in the middle, {npc:1182} to the north."] = "Yolu kuzeye izleyerek {area:608} karakoluna git: {npc:5396} güney ucunda, {npc:5638} ortada, {npc:1182} kuzeyde duruyor.",
 	-- {npc:5637} Roetten Stonehammer · {zone:1455} Ironforge
@@ -130,7 +134,7 @@ return {
 	-- {npc:3980} Raleigh the Devout · {area:271} Southshore
 	["for {npc:3980} in {area:271}: keep it"] = "{area:271} kasabasındaki {npc:3980} için: sakla",
 
-	-- Step 25: Fly to Theramore
+	-- Step 26: Fly to Theramore
 	["Fly to Theramore"] = "Theramore'a uç",
 	["The next guide starts in Theramore."] = "Sonraki rehber Theramore'da başlıyor.",
 }

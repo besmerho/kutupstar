@@ -6,8 +6,6 @@ return {
 	-- Step 1: Fly to Menethil Harbor
 	-- {area:150} Menethil Harbor
 	["Fly to {area:150}"] = "Uç: {area:150}",
-	-- {zone:1453} Stormwind
-	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 
 	-- Step 2: Red Jack Flint
 	-- {npc:4455} Red Jack Flint · {area:2103} Menethil Keep

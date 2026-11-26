@@ -192,7 +192,7 @@ return {
 
 	-- Step 44: Clubtoe
 	-- {area:16723} Sunnyglade · {npc:260931} Clubtoe · {npc:256710} Tran'gul
-	["West to {area:16723} again: {npc:260931}, a Twilight miner who wants out, waits at the town's eastern edge. Talk him round, then hand {npc:256710}'s quest in; one of the missing ogres stands a few steps west."] = "Yine batıya, {area:16723} köyüne git: kaçmak isteyen bir Twilight madencisi olan {npc:260931} kasabanın doğu kenarında bekliyor. Onu ikna et, sonra {npc:256710} adlı NPC'nin görevini teslim et. Kayıp ogre'lardan biri birkaç adım batıda duruyor.",
+	["West to {area:16723} again: {npc:260931}, a Twilight miner who wants out, waits inside the cave under the town's eastern edge, a floor below the street. Talk him round, then hand {npc:256710}'s quest in; one of the missing ogres stands a few steps west."] = "Yine batıya, {area:16723} kasabasına git: kaçmak isteyen bir Twilight madencisi olan {npc:260931}, kasabanın doğu kenarının altındaki mağarada, sokağın bir kat aşağısında bekliyor. Onu ikna et, sonra {npc:256710} adlı NPC'nin görevini teslim et. Kayıp ogre'lardan biri birkaç adım batıda duruyor.",
 	-- {npc:260931} Clubtoe
 	["talk {npc:260931} round"] = "{npc:260931} adlı NPC'yi ikna et",
 	-- {npc:261208} Twilight Brute
@@ -381,10 +381,13 @@ return {
 	-- {quest:95124} Admiral Lamora · {npc:259758} Gul'gash
 	-- was: ["Out to the pirates' cliffs once more. Plant Whizzbuzz's charges on the three ships moored below the camp, south to north; {quest:95124} stands by the middle one, with her loot chest beside her. Keep an eye out for {npc:259758} on the way.\nCareful: {quest:95124} is level 45, a level or two over you here: clear the deck around her first and come in with full health."] = "Noch einmal hinaus zu den Klippen der Piraten. Platziere Whizzbuzz' Sprengladungen auf den drei Schiffen, die unterhalb des Lagers vor Anker liegen, von Süden nach Norden; {quest:95124} steht beim mittleren, ihre Beutetruhe neben ihr. Halte unterwegs Ausschau nach {npc:259758}.\nVorsicht: {quest:95124} ist Stufe 45, hier ein oder zwei Stufen über dir: Räum zuerst das Deck um sie herum und geh mit voller Gesundheit rein."
 	["Out to the pirates' cliffs once more. Plant Whizzbuzz's charges on the three ships moored below the camp, south to north. {quest:95124} walks the middle ship's top deck; her loot chest is below deck. Keep an eye out for {npc:259758} on the way.\nCareful: {quest:95124} is level 45, a level or two over you here: clear the deck around her first and come in with full health."] = "Bir kez daha korsanların kayalıklarına çık. Whizzbuzz'ın patlayıcılarını kampın aşağısında demirli üç gemiye, güneyden kuzeye yerleştir. {quest:95124} ortadaki geminin üst güvertesinde dolaşıyor, loot sandığı güvertenin altında. Yolda {npc:259758} yaratığına göz kulak ol.\nDikkat: {quest:95124} seviye 45, burada senden bir iki seviye yüksek: önce çevresindeki güverteyi temizle, canın tamken gir.",
+	["on board, at the arrow"] = "gemide, okun gösterdiği yerde",
 	-- {item:268505} Remote Explosive Charge
-	["{item:268505}, the southern ship"] = "{item:268505}, güneydeki gemi",
-	["the middle ship"] = "ortadaki gemi",
-	["the northern ship"] = "kuzeydeki gemi",
+	["Plant a {item:268505} on the southern ship"] = "Güneydeki gemiye bir {item:268505} yerleştir",
+	-- {item:268505} Remote Explosive Charge
+	["Plant a {item:268505} on the middle ship"] = "Ortadaki gemiye bir {item:268505} yerleştir",
+	-- {item:268505} Remote Explosive Charge
+	["Plant a {item:268505} on the northern ship"] = "Kuzeydeki gemiye bir {item:268505} yerleştir",
 
 	-- Step 82: Rotflesh Mushrooms
 	-- plural, as words: Rotflesh Mushrooms = {item:268664} Rotflesh Mushroom
@@ -405,7 +408,9 @@ return {
 
 	-- Step 85: The Monster Surfaces
 	-- {npc:260244} Monstrous Threshadon · {npc:257001} Old Rot-Chum
-	["The {npc:260244} prowls the shallows south-west of the port, below the murlocs' beaches. {npc:257001}, an elite, walks the shore close by: give him room."] = "{npc:260244}, limanın güneybatısındaki sığlıklarda, murloc kumsallarının aşağısında dolaşıyor. Elit {npc:257001} yakında kıyıda yürüyor: ona yol ver.",
+	["The {npc:260244} comes up when you call him: right-click the thing floating in the water at the arrow, in the shallows south-west of the port, and he surfaces there. {npc:257001}, an elite, walks the shore close by: give him room."] = "{npc:260244} sen çağırınca yüzeye çıkar: limanın güneybatısındaki sığlıklarda, okun gösterdiği yerde suda yüzen şeye sağ tıkla, orada su yüzüne çıkar. Elit {npc:257001} yakında kıyıda yürüyor: ona yol ver.",
+	-- {item:268633} Sea Monster's Head
+	["{item:268633}, where the Threshadon surfaces when you call him"] = "{item:268633}, Threshadon'u çağırınca su yüzüne çıktığı yerde",
 
 	-- Step 87: The river: Riverweed
 	-- {item:265806} Riverweed
@@ -433,7 +438,6 @@ return {
 
 	-- Step 92: Rog'mar
 	-- {area:16743} Rog'mar · {area:16726} Bolder'ok · {npc:256418} Krom'rosh · {npc:255829} Clugfist · {npc:258570} Da'grosh
-	-- was: ["Back to {area:16743} from the port, where your Hearthstone is set. {npc:256418} in the middle of the fort: {npc:255829}'s word sends him looking for {npc:258570}, his warrior in the west."] = "Vom Hafen zurück nach {area:16743}, wo dein Ruhestein gesetzt ist. {npc:256418} in der Mitte der Festung: {npc:255829}s Wort schickt ihn auf die Suche nach {npc:258570}, seinem Krieger im Westen."
 	["Back to {area:16743}: from {area:16726} south-west down the river, or from the port, where your Hearthstone is set. {npc:256418} in the middle of the fort: {npc:255829}'s word sends him looking for {npc:258570}, his warrior in the west."] = "{area:16743} kalesine dön: {area:16726} kasabasından nehir boyunca güneybatıya ya da Hearthstone'unun bağlı olduğu limandan. Kalenin ortasındaki {npc:256418}: {npc:255829} adlı NPC'nin haberi onu batıdaki savaşçısı {npc:258570} yaratığını aramaya gönderir.",
 	-- {quest:94744} The Wayward Warrior · {npc:258570} Da'grosh · {area:16723} Sunnyglade
 	["{quest:94744}: for {npc:258570}, west of {area:16723}"] = "{quest:94744}: {area:16723} köyünün batısındaki {npc:258570} için",
@@ -454,7 +458,6 @@ return {
 	["The Twilight camps"] = "Twilight kampları",
 	-- {npc:258570} Da'grosh · {item:265821} Twilight Key · {npc:257450} Rog'mar Scout · {npc:256881} Overlord Kilgar · {npc:256891} Executioner Morg · {npc:258023} Sergeant Riftan
 	-- plural, as words: Twilight Champions = {npc:256799} Twilight Champion · Twilight Enforcers = {npc:256800} Twilight Enforcer · Farholde Lookouts = {npc:258686} Farholde Lookout
-	-- was: ["The cult's camps fill the valley south and west of {npc:258570}. Free the captive Rog'mar Scouts as you find them. Twilight Enforcers (elites, level 45) patrol through the camps: watch where they walk before each pull. {npc:256881} and {npc:256891} (elites, 46) hold the fortress at the valley's head: pull the cultists away from them. {npc:258023}'s Alliance camp sits at the valley's south end, and its Farholde Lookouts (level 46) attack the Horde: stay north of it."] = "Die Lager des Kults füllen das Tal südlich und westlich von {npc:258570}. Befreie die gefangenen Späher der Rog'mar, sobald du sie findest. Twilight-Vollstrecker (Elite, Stufe 45) patrouillieren durch die Lager: Achte vor jedem Pull darauf, wo sie langlaufen. {npc:256881} und {npc:256891} (Elite, 46) halten die Festung am Kopf des Tals: Zieh die Kultisten von ihnen weg. Das Lager der Allianz von {npc:258023} liegt am Südende des Tals, und seine Aufklärer von Farholde (Stufe 46) greifen die Horde an: Bleib nördlich davon."
 	["The cult's camps fill the valley south and west of {npc:258570}. Twilight Champions drop the {item:265821} that frees a captive {npc:257450}: free them as you find them. Twilight Enforcers (elites, level 45) patrol through the camps: watch where they walk before each pull. {npc:256881} and {npc:256891} (elites, 46) hold the fortress at the valley's head: pull the cultists away from them. {npc:258023}'s Alliance camp sits at the valley's south end, and its Farholde Lookouts (level 46) attack the Horde: stay north of it."] = "Tarikatın kampları {npc:258570} yanının güneyindeki ve batısındaki vadiyi dolduruyor. Twilight Champion yaratıkları, esir bir {npc:257450} yaratığını kurtaran {item:265821} düşürür: buldukça kurtar. Twilight Enforcer yaratıkları (elit, seviye 45) kampların arasında devriye geziyor: her çekişten önce nerede yürüdüklerine bak. {npc:256881} ve {npc:256891} (elit, 46) vadinin başındaki kaleyi tutuyor: tarikatçıları onlardan uzağa çek. {npc:258023} adlı NPC'nin Alliance kampı vadinin güney ucunda, Farholde Lookout yaratıkları (seviye 46) da Horde'a saldırıyor: kampın kuzeyinde kal.",
 	-- plural, as words: Rog'mar Scouts = {npc:257450} Rog'mar Scout
 	["free five captive Rog'mar Scouts"] = "beş esir Rog'mar Scout'u serbest bırak",

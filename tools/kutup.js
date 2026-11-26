@@ -484,9 +484,11 @@ const AUDIT = [
 	// v0.3.6 that is Names.lua (the Locales files went to the load-on-demand Polestar_<locale> folders); the files
 	// between Init.lua and Names.lua read L only inside functions. A new file in between needs a look.
 	['must', 'Core/Core.xml', /<Script file="Init\.lua"\/>\s*<Script file="Compat\.lua"\/>\s*<Script file="Data\.lua"\/>\s*<Script file="LuaChunks\.lua"\/>\s*<Script file="Credits\.lua"\/>\s*<Script file="Names\.lua"\/>/, "Init.lua, then only files that read no L at load, then Names.lua (the early fill's moment)"],
-	['must', 'Core/Names.lua', /^local locale = \(GetLocale and GetLocale\(\)\) or "enUS"$/m, 'Names.lua calls GetLocale() as it loads (the early fill hooks it)'],
+	['must', 'Core/Names.lua', /^local (?:locale|client) = \(GetLocale and GetLocale\(\)\) or "enUS"$/m, 'Names.lua calls GetLocale() as it loads (the early fill hooks it)'],
 	['must', 'Core/Guides.lua', /ns\.GuideTexts\.Prepare\(def,/, 'RegisterGuide calls GuideTexts.Prepare through the table (wrapped)'],
 	['must', 'Core/GuideTexts.lua', /^function GuideTexts\.Prepare\(def, live\)$/m, 'GuideTexts.Prepare (wrapped)'],
+	['must', 'Core/GuideTexts.lua', /^function GuideTexts\.PrepareSteps\(def\)$/m, "GuideTexts.PrepareSteps (wrapped: a deferred guide's steps, since 0.4.3)"],
+	['must', 'Core/Guides.lua', /ns\.GuideTexts\.PrepareSteps\(def\)/, 'Guides.Steps reads deferred steps in, then calls PrepareSteps through the table'],
 	['must', 'Core/GuideTexts.lua', /^function GuideTexts\.PackText\(packId, s\)$/m, 'GuideTexts.PackText (wrapped: folder names)'],
 	['must', 'Core/GuideTexts.lua', /local GUIDE_FIELDS = \{ "title", "why", "pitch" \}[\s\S]*local GUIDE_LISTS = \{ "pros", "cons" \}[\s\S]*local STEP_FIELDS = \{ "title", "note" \}[\s\S]*local GOAL_FIELDS = \{ "note", "text" \}/, "the guide fields GuideTexts translates (Core.lua's translateGuide lists the same; tools/lib/extract.js's collect too)"],
 	['must', 'Core/Guides.lua', /^function ns\.RegisterPack\(meta\)$/m, 'Polestar.RegisterPack (wrapped: the pack title and notes)'],

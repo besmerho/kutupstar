@@ -91,7 +91,9 @@ function uiKeys(addonDir) {
 }
 
 // A Lua table constructor as plain JS: string keys, a list for positional values; other values null.
-function tableValue(node) {
+// env: local names a deferred guide's steps source declares (stepsFromSrc), as AST nodes.
+function tableValue(node, env) {
+	if (node.type === 'Identifier' && env && env.has(node.name)) return tableValue(env.get(node.name), env);
 	if (node.type === 'StringLiteral') return stringValue(node);
 	if (node.type === 'NumericLiteral') return node.value;
 	if (node.type === 'BooleanLiteral') return node.value;
@@ -99,14 +101,28 @@ function tableValue(node) {
 	if (node.type !== 'TableConstructorExpression') return null;
 	const obj = {}, list = [];
 	for (const f of node.fields) {
-		if (f.type === 'TableValue') list.push(tableValue(f.value));
-		else if (f.type === 'TableKeyString') obj[f.key.name] = tableValue(f.value);
-		else if (f.type === 'TableKey' && f.key.type === 'StringLiteral') obj[stringValue(f.key)] = tableValue(f.value);
-		else if (f.type === 'TableKey' && f.key.type === 'NumericLiteral') list[f.key.value - 1] = tableValue(f.value);
+		if (f.type === 'TableValue') list.push(tableValue(f.value, env));
+		else if (f.type === 'TableKeyString') obj[f.key.name] = tableValue(f.value, env);
+		else if (f.type === 'TableKey' && f.key.type === 'StringLiteral') obj[stringValue(f.key)] = tableValue(f.value, env);
+		else if (f.type === 'TableKey' && f.key.type === 'NumericLiteral') list[f.key.value - 1] = tableValue(f.value, env);
 	}
 	if (list.length && !Object.keys(obj).length) return list;
 	if (list.length) obj.__list = list;
 	return obj;
+}
+
+// A deferred guide's steps (Polestar 0.4.3, Core/Guides.lua Guides.Steps): one Lua source string,
+// local tables then `return { ... }`, run in an empty environment. Read here as data, never run.
+function stepsFromSrc(src, id) {
+	const env = new Map();
+	for (const st of parse(src).body) {
+		if (st.type === 'LocalStatement') st.variables.forEach((v, i) => { if (st.init[i]) env.set(v.name, st.init[i]); });
+		else if (st.type === 'ReturnStatement' && st.arguments.length === 1) {
+			const steps = tableValue(st.arguments[0], env);
+			if (Array.isArray(steps)) return steps;
+		}
+	}
+	throw new Error(`${id}: deferred steps (stepsSrc) give no list of steps`);
 }
 
 const isCall = (n, name) => (n.type === 'CallExpression' || n.type === 'TableCallExpression')
@@ -148,8 +164,8 @@ function guideKeys(guidesLua, packLua) {
 		if (!isCall(n, 'RegisterGuide')) return;
 		const def = tableValue(callTable(n));
 		if (!def || typeof def.id !== 'string') return;
-		// Steps carried as Lua source (a deferred guide, stepsSrc) would hide their texts here.
-		if (def.steps == null && typeof def.stepsSrc === 'string') throw new Error(`${def.id}: deferred steps (stepsSrc) are not read yet`);
+		// Steps carried as Lua source (a deferred guide, stepsSrc, since Polestar 0.4.3): read them from it.
+		if (def.steps == null && typeof def.stepsSrc === 'string') def.steps = stepsFromSrc(def.stepsSrc, def.id);
 		guides.set(def.id, new Set(collect(def)));
 		// A folder named after a class reads as the client's name of it (GuideTexts, apply).
 		if (typeof def.folder === 'string' && def.folder !== '' && !CLASS_FOLDERS.has(def.folder)) pack.add(def.folder);

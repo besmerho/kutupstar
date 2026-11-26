@@ -4,7 +4,7 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Guide
-	-- plural, as words: Library Books = {object:386691} Library Book
+	-- plural, as words: Library Books = {object:386759} Library Book
 	["Library Books"] = "Library Book'lar",
 	["Lost books and scrolls all over the world: each pays experience at the library, and 10, 20 and 25 of them earn a necklace, a ring and an off-hand."] = "Dünyanın her yanında kayıp kitaplar ve parşömenler: her biri kütüphanede deneyim puanı kazandırır, 10, 20 ve 25 tanesi de bir kolye, bir yüzük ve bir yan el eşyası getirir.",
 

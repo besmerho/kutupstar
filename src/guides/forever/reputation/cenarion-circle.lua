@@ -203,13 +203,7 @@ return {
 	-- {quest:8800} Cenarion Battlegear · {npc:15176} Vargus
 	["{quest:8800}: {npc:15176}'s badge gear"] = "{quest:8800}: {npc:15176} satıcısındaki nişan ekipmanı",
 
-	-- Step 31: Silithyst
-	["Silithyst"] = "Silithyst",
-	-- {quest:9419} Scouring the Desert · {npc:17080} Marshal Bluewall · {area:2743} Hive'Zora · {npc:17079} General Kirika · {area:2744} Hive'Regal
-	["Optional, 100 reputation once: {quest:9419}. Your side's camp sits by a hive: {npc:17080}'s by {area:2743} (Alliance), {npc:17079}'s by {area:2744} (Horde). Silithyst rises from glowing geysers around the desert: walk through one, carry the Silithyst to your camp's Silithyst Extractor, then talk to the camp's leader. It is a world PvP objective: players of the other side can take it from you."] = "İsteğe bağlı, bir kez 100 itibar: {quest:9419}. Tarafının kampı bir kovanın yanında: {area:2743} yanında {npc:17080} kampı (Alliance), {area:2744} yanında {npc:17079} kampı (Horde). Silithyst, çölün dört bir yanındaki parlayan gayzerlerden yükselir: birinin içinden yürü, Silithyst'i kampının Silithyst Extractor'ına taşı, sonra kampın lideriyle konuş. Bu bir dünya PvP hedefi: diğer tarafın oyuncuları onu senden alabilir.",
-	["deliver Silithyst at the extractor"] = "Silithyst'i extractor'a teslim et",
-
-	-- Step 32: Templars and the Abyssal Council
+	-- Step 31: Templars and the Abyssal Council
 	["Templars and the Abyssal Council"] = "Templar'lar ve Abyssal Council",
 	-- {object:180456} Lesser Wind Stone · {item:20513} Abyssal Crest · {quest:8361} Abyssal Contacts · {npc:15270} Huum Wildmane · {quest:8331} Aurel Goldleaf · {item:14344} Large Brilliant Shard · {object:180461} Wind Stone · {item:20514} Abyssal Signet
 	["Wearing a full set of Twilight Trappings (cultist Cowl, Mantle and Robe, about 8%, 8% and 6% per cultist) lets you use a {object:180456}: two stand in each of the three western camps. A random Abyssal Templar appears: a level 60 elite for 1 to 3 players, 5 reputation until the top of Honored and an {item:20513} 93% of the time. The summon uses up the set (and later the medallion and ring too), and if the elemental gets away they are gone: summon only when you can win. {quest:8361} pays 100 for the first crest; after that Bor takes 3 crests for 50. From Friendly, {npc:15270} sends you to {quest:8331}: 3 crests and a {item:14344} buy the Medallion of Station that, worn with a set, opens the larger {object:180461} for a Duke (level 62 elite, group of 5; 25 reputation, {item:20514} 85%)."] = "Tam bir Twilight Trappings seti (tarikatçı Cowl, Mantle ve Robe, tarikatçı başına yaklaşık %8, %8 ve %6) giymek, bir {object:180456} kullanmanı sağlar: üç batı kampının her birinde iki tane duruyor. Rastgele bir Abyssal Templar belirir: 1 ila 3 oyuncu için seviye 60 elit, Honored'ın sonuna kadar 5 itibar ve %93 olasılıkla bir {item:20513}. Çağırma seti tüketir (sonra madalyonu ve yüzüğü de), elemental kaçarsa da gider: yalnızca kazanabileceğin zaman çağır. {quest:8361} ilk arma için 100 öder. Ondan sonra Bor 50 karşılığında 3 arma alır. Friendly'den itibaren {npc:15270} seni {quest:8331} görevine gönderir: 3 arma ve bir {item:14344}, bir setle birlikte giyilince bir Duke için daha büyük {object:180461} taşını açan Medallion of Station'ı alır (seviye 62 elit, 5 kişilik grup; 25 itibar, %85 {item:20514}).",
@@ -222,7 +216,7 @@ return {
 	-- {item:20514} Abyssal Signet
 	["{item:20514}: Duke, group of 5"] = "{item:20514}: Duke, 5 kişilik grup",
 
-	-- Step 33: Signets and scepters to Exalted
+	-- Step 32: Signets and scepters to Exalted
 	["Signets and scepters to Exalted"] = "Exalted'a kadar mühürler ve asalar",
 	-- {quest:8363} Abyssal Signets · {npc:15282} Aurel Goldleaf · {item:20515} Abyssal Scepter · {quest:9248} A Humble Offering · {quest:8343} Goldleaf's Discovery · {quest:8341} Lords of the Council · {object:180466} Greater Wind Stone · {item:22252} Satchel of Cenarius · {item:22660} Gaea's Embrace · {item:22756} Sylvan Vest · {npc:15176} Vargus
 	-- plural, as words: Large Brilliant Shards = {item:14344} Large Brilliant Shard
@@ -239,13 +233,13 @@ return {
 	-- {quest:8364} Abyssal Scepters
 	["3 {quest:8364}: 150, Revered"] = "3 {quest:8364}: 150, Revered",
 
-	-- Step 34: The Ruins of Ahn'Qiraj, when they open
+	-- Step 33: The Ruins of Ahn'Qiraj, when they open
 	-- {area:3454} Ruins of Ahn'Qiraj
 	["The {area:3454}, when they open"] = "Açıldığında {area:3454}",
 	-- {area:2737} Scarab Wall · {zone:1451} Silithus · {quest:8791} The Fall of Ossirian · {npc:15185} Brood of Nozdormu · {npc:15498} Windcaller Yessendra · {npc:15500} Keyl Swiftclaw · {npc:15499} Warden Haro · {npc:16091} Dirk Thunderwood · {quest:9023} The Perfect Poison · {item:22217} Kurinnaxx's Venom Sac · {area:19} Zul'Gurub · {npc:15471} Lieutenant General Andorov · {item:22219} Plans: Jagged Obsidian Shield · {item:22191} Obsidian Mail Tunic
 	["A 20-player raid behind the {area:2737} in the far south-west of {zone:1451}. A full clear is about 1,600 Cenarion reputation: the trash 3 each until 20,999 of 21,000 Revered, Kurinnaxx, Moam, Buru and Ayamiss 150 each and Ossirian 300, to Exalted. Ossirian's head starts {quest:8791} (200 here and 200 {npc:15185}). Their drops buy the ring (Honored), cloak (Revered) and weapon (Exalted) quests of {npc:15498}, {npc:15500} and {npc:15499} in the Hold, 100 reputation each. {npc:16091} in the Hold pays 100 once for {quest:9023}: {item:22217} from here and Venoxis's from {area:19}. {npc:15471} sells {item:22219} (Revered, 5g) and {item:22191} (Exalted, 8g) inside."] = "{zone:1451} bölgesinin en güneybatısında, {area:2737} ardında 20 kişilik bir raid. Tam bir temizleme yaklaşık 1.600 Cenarion itibarı: trash yaratıklar Revered'ın 21.000'inin 20.999'una kadar 3'er, Kurinnaxx, Moam, Buru ve Ayamiss her biri 150, Ossirian 300, Exalted'a kadar. Ossirian'ın kafası {quest:8791} görevini başlatır (burada 200 ve 200 {npc:15185}). Düşürdükleri, Hold'daki {npc:15498}, {npc:15500} ve {npc:15499} yanında yüzük (Honored), pelerin (Revered) ve silah (Exalted) görevlerini alır, her biri 100 itibar. Hold'daki {npc:16091}, {quest:9023} için bir kez 100 öder: buradan {item:22217} ve {area:19} içinden Venoxis'inki. {npc:15471} içeride {item:22219} (Revered, 5g) ve {item:22191} (Exalted, 8g) satıyor.",
 
-	-- Step 35: Venoxis's Venom Sac, Zul'Gurub
+	-- Step 34: Venoxis's Venom Sac, Zul'Gurub
 	-- {quest:9023} The Perfect Poison · {npc:14507} High Priest Venoxis · {area:19} Zul'Gurub · {zone:1434} Stranglethorn Vale
 	["Optional, for {quest:9023}: {npc:14507} is the first boss of {area:19}, a 20-player raid in north-east {zone:1434}."] = "İsteğe bağlı, {quest:9023} için: {npc:14507}, {zone:1434} bölgesinin kuzeydoğusundaki 20 kişilik bir raid olan {area:19} zindanının ilk boss'u.",
 	-- {item:22216} Venoxis's Venom Sac

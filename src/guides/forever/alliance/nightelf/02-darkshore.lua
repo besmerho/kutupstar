@@ -179,26 +179,37 @@ return {
 	-- {npc:3649} Thundris Windweaver · {npc:1646} Baros Alexston · {zone:1453} Stormwind
 	["{npc:3649}: for {npc:1646} in {zone:1453}, on the walk from the boat"] = "{npc:3649}: gemiden yürürken {zone:1453} şehrindeki {npc:1646} için",
 
-	-- Step 31: Thundris Windweaver
+	-- Step 31: Elisa Steelhand
+	["talk to the trainer"] = "eğitmenle konuş",
+
+	-- Step 32: Kurdram Stonehammer
+	-- {npc:6297} Kurdram Stonehammer · {npc:6300} Elisa Steelhand · {quest:97948} Camping 101: Mining
+	["{npc:6297}, beside {npc:6300}: {quest:97948}"] = "{npc:6297}, {npc:6300} yanında: {quest:97948}",
+
+	-- Step 33: Jenna Lemkenilli
+	-- {npc:11037} Jenna Lemkenilli · {npc:6300} Elisa Steelhand · {quest:97941} Camping 101: Engineering
+	["{npc:11037}, beside {npc:6300}: {quest:97941}"] = "{npc:11037}, {npc:6300} yanında: {quest:97941}",
+
+	-- Step 34: Thundris Windweaver
 	-- {npc:3649} Thundris Windweaver · {quest:4763} The Blackwood Corrupted · {zone:1439} Darkshore
 	["From level 15 {npc:3649} also has {quest:4763}: its samples come from the northern Blackwood camp on your next {zone:1439} visit. Fill its bowl at the moonwell in the middle of the village now."] = "Seviye 15'ten itibaren {npc:3649} ayrıca {quest:4763} görevini veriyor: numuneleri bir sonraki {zone:1439} ziyaretinde kuzeydeki Blackwood kampından gelir. Kâsesini şimdi köyün ortasındaki ay kuyusunda doldur.",
 	-- {item:12347} Filled Cleansing Bowl · {item:12346} Empty Cleansing Bowl · {object:174795} Auberdine Moonwell
 	["{item:12347}: fill the {item:12346} at the {object:174795}"] = "{item:12347}: {item:12346} eşyasını {object:174795} kuyusunda doldur",
 
-	-- Step 32: Cerellean Whiteclaw
+	-- Step 35: Cerellean Whiteclaw
 	-- {npc:3644} Cerellean Whiteclaw
 	-- was: ["{npc:3644}, where the pier meets the shore, on the way to the boat"] = "{npc:3644}, wo der Steg auf das Ufer trifft, auf dem Weg zum Boot"
 	["{npc:3644} waits where the pier meets the shore, on the way to the boat."] = "{npc:3644}, gemiye giderken iskelenin kıyıyla birleştiği yerde bekliyor.",
 
-	-- Step 33: Boat to Stormwind Harbor
+	-- Step 36: Boat to Stormwind Harbor
 	-- {area:17203} Stormwind Harbor
 	["Boat to {area:17203}"] = "Gemiyle: {area:17203}",
 
-	-- Step 34: Manifest Clerk Philmor
+	-- Step 37: Manifest Clerk Philmor
 	-- {npc:268511} Manifest Clerk Philmor · {npc:483} Elaine Trias · {object:2096} Trade District
 	["Off the boat, {npc:268511} stands on the harbor: his shipment goes to {npc:483}' cheese shop in the {object:2096}, beside the flight master."] = "Gemiden inince {npc:268511} limanda duruyor: sevkiyatı, {object:2096} içinde, uçuş ustasının yanındaki {npc:483} adlı NPC'nin peynir dükkânına gidiyor.",
 
-	-- Step 35: Stormwind flight master
+	-- Step 38: Stormwind flight master
 	-- {zone:1453} Stormwind
 	["{zone:1453} flight master"] = "{zone:1453} uçuş ustası",
 	-- {npc:483} Elaine Trias
@@ -206,7 +217,7 @@ return {
 	-- {object:460004} Gatehouse Door (no name in this language: may be words)
 	["Up the stairs in her shop: leave the shipment at the {object:460004}"] = "Dükkânındaki merdivenden çık: sevkiyatı {object:460004} önüne bırak",
 
-	-- Step 36: Baros Alexston
+	-- Step 39: Baros Alexston
 	-- {npc:1646} Baros Alexston · {object:2098} Cathedral Square · {object:2096} Trade District · {zone:1436} Westfall · {npc:3649} Thundris Windweaver · {area:442} Auberdine
 	-- was: ["{npc:1646} stands in {object:2098}, west of the {object:2096}: his compass is in his old house in {zone:1436}, on the way."] = "{npc:1646} steht in {object:2098}, westlich von {object:2096}: Sein Kompass liegt in seinem alten Haus in {zone:1436}, auf dem Weg."
 	["{npc:1646} stands in {object:2098}, west of the {object:2096}: his compass is in his old house in {zone:1436}, on the way. His reply to {npc:3649} goes back to {area:442} with you."] = "{npc:1646}, {object:2096} semtinin batısındaki {object:2098} meydanında duruyor: pusulası yolun üstündeki {zone:1436} bölgesinde, eski evinde. {npc:3649} için yanıtını {area:442} köyüne sen götürürsün.",
@@ -215,23 +226,23 @@ return {
 	-- {npc:1646} Baros Alexston · {quest:97926} Making Do · {npc:3649} Thundris Windweaver · {zone:1439} Darkshore
 	["{npc:1646}: {quest:97926}, for {npc:3649} on your next {zone:1439} visit"] = "{npc:1646}: bir sonraki {zone:1439} ziyaretinde {npc:3649} için {quest:97926}",
 
-	-- Step 37: Woo Ping
+	-- Step 40: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş). Warrior en hızlı iki elli silahla seviye atlar.",
 
-	-- Step 38: Woo Ping
+	-- Step 41: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn Swords from {npc:11867} ({object:2096}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "Buradayken: {npc:11867} sana Swords öğretir ({object:2096}, 10 gümüş). Ana elde bir kılıçla Rogue istikrarla seviye atlar.",
 
-	-- Step 39: Druid trainer
+	-- Step 42: Druid trainer
 	["Druid trainer"] = "Druid eğitmeni",
 	-- {npc:5504} Sheldras Moontree · {zone:1453} Stormwind · {area:87} Goldshire
 	["{npc:5504} in {zone:1453}; {area:87} has no druid trainer"] = "{npc:5504}, {zone:1453} bölgesinde, {area:87} içinde Druid eğitmeni yok",
 
-	-- Step 41: Class trainer
+	-- Step 44: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
 
-	-- Step 42: Shaman trainer
+	-- Step 45: Shaman trainer
 	["Shaman trainer"] = "Shaman eğitmeni",
 	-- {npc:257446} Teo Hammerstorm · {zone:1426} Dun Morogh · {area:87} Goldshire
 	["{npc:257446} in {zone:1426}; {area:87} has no shaman trainer"] = "{npc:257446}, {zone:1426} bölgesinde, {area:87} içinde Shaman eğitmeni yok",
