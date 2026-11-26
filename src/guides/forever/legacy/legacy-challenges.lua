@@ -87,24 +87,27 @@ return {
 	-- Step 15: Adventure: Lord Valthalak
 	-- {npc:16042} Lord Valthalak
 	["Adventure: {npc:16042}"] = "Macera: {npc:16042}",
-	-- {npc:16042} Lord Valthalak · {quest:8999} Saving the Best for Last · {npc:16013} Deliana · {zone:1455} Ironforge · {npc:16012} Mokvar · {zone:1454} Orgrimmar · {npc:16033} Bodley · {area:254} Blackrock Mountain · {quest:8995} Mea Culpa, Lord Valthalak · {quest:8996} Return to Bodley · {quest:8997} Back to the Beginning
-	["The {npc:16042} questline is a point. It is the level 60 dungeon-set chain, from An Earnest Proposition to your class's {quest:8999}: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of Lord Valthalak's Amulet, Final Preparations and {quest:8995} end with {quest:8996}. {quest:8997} then leads to {quest:8999}."] = "{npc:16042} görev zinciri bir puan. Bu, An Earnest Proposition'dan sınıfının {quest:8999} görevine uzanan seviye 60 zindan seti zinciri: {npc:16013} ({zone:1455}) ya da {npc:16012} ({zone:1454}) seni In Search of Anthion ve Anthion's Parting Words üzerinden {area:254} dağındaki {npc:16033} yanına gönderir. Onun Three Kings of Flame, Lord Valthalak's Amulet'in sol ve sağ parçaları, Final Preparations ve {quest:8995} görevleri {quest:8996} ile biter. Ardından {quest:8997}, {quest:8999} görevine götürür.",
+	-- {npc:16042} Lord Valthalak · {quest:9001} Saving the Best for Last · {npc:16013} Deliana · {zone:1455} Ironforge · {npc:16012} Mokvar · {zone:1454} Orgrimmar · {npc:16033} Bodley · {area:254} Blackrock Mountain · {quest:8995} Mea Culpa, Lord Valthalak · {quest:8996} Return to Bodley · {quest:8997} Back to the Beginning
+	-- was: ["The {npc:16042} questline is a point. It is the level 60 dungeon-set chain, from An Earnest Proposition to your class's {quest:8999}: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of Lord Valthalak's Amulet, Final Preparations and {quest:8995} end with {quest:8996}. {quest:8997} then leads to {quest:8999}."] = "Die Questreihe von {npc:16042} ist einen Punkt wert. Es ist die Kette zum Dungeon-Set der Stufe 60, von An Earnest Proposition bis zur {quest:8999} deiner Klasse: {npc:16013} ({zone:1455}) oder {npc:16012} ({zone:1454}) schicken dich über In Search of Anthion und Anthion's Parting Words zu {npc:16033} am {area:254}, dessen Aufträge Three Kings of Flame, die linke und rechte Hälfte von Lord Valthalak's Amulet, Final Preparations und {quest:8995} mit {quest:8996} enden. {quest:8997} führt dich dann zu {quest:8999}."
+	["The {npc:16042} questline is a point. It is the level 60 dungeon-set chain, from An Earnest Proposition to your class's {quest:9001}: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of Lord Valthalak's Amulet, Final Preparations and {quest:8995} end with {quest:8996}. {quest:8997} then leads to {quest:9001}."] = "{npc:16042} görev zinciri bir puan. Bu, An Earnest Proposition'dan sınıfının {quest:9001} görevine uzanan seviye 60 zindan seti zinciri: {npc:16013} ({zone:1455}) ya da {npc:16012} ({zone:1454}) seni In Search of Anthion ve Anthion's Parting Words üzerinden {area:254} dağındaki {npc:16033} yanına gönderir. Oradaki Three Kings of Flame, Lord Valthalak's Amulet'in sol ve sağ parçaları, Final Preparations ve {quest:8995} görevleri {quest:8996} ile biter. Ardından {quest:8997}, {quest:9001} görevine götürür.",
 	-- {npc:16073} Spirit of Lord Valthalak · {npc:16033} Bodley · {area:254} Blackrock Mountain
 	["{npc:16073}, inside Upper Blackrock Spire after Mea Culpa (no spawn in the data: the arrow leads to {npc:16033}'s {area:254})"] = "{npc:16073}, Mea Culpa'dan sonra Upper Blackrock Spire içinde (veride doğma noktası yok: ok {npc:16033} adlı NPC'nin bulunduğu {area:254} dağını gösteriyor)",
 	-- {npc:16033} Bodley · {quest:8996} Return to Bodley
 	["{npc:16033} offers it once {quest:8996} is turned in"] = "{quest:8996} teslim edilince {npc:16033} verir",
 
 	-- Step 16: Adventure: Saving the Best for Last (Alliance)
-	-- {quest:8999} Saving the Best for Last
-	["Adventure: {quest:8999} (Alliance)"] = "Macera: {quest:8999} (Alliance)",
-	-- {npc:16013} Deliana · {quest:8999} Saving the Best for Last
-	["{npc:16013} then offers your class's {quest:8999}, the last quest of the challenge: it takes your class's dungeon-set helm and chest and upgrades them."] = "Ardından {npc:16013} sınıfının {quest:8999} görevini, meydan okumanın son görevini verir: sınıfının zindan seti miğferini ve göğüslüğünü alıp yükseltir.",
+	-- {quest:9001} Saving the Best for Last
+	["Adventure: {quest:9001} (Alliance)"] = "Macera: {quest:9001} (Alliance)",
+	-- {npc:16013} Deliana · {quest:9001} Saving the Best for Last
+	-- was: ["{npc:16013} then offers your class's {quest:8999}, the last quest of the challenge: it takes your class's dungeon-set helm and chest and upgrades them."] = "{npc:16013} bietet dir dann die {quest:8999} deiner Klasse an, die letzte Quest der Herausforderung: Sie nimmt den Dungeon-Set-Helm und die Brustplatte deiner Klasse und wertet sie auf."
+	["{npc:16013} then offers your class's {quest:9001}, the last quest of the challenge: it takes your class's dungeon-set helm and chest and upgrades them."] = "Ardından {npc:16013} sınıfının {quest:9001} görevini, meydan okumanın son görevini verir: sınıfının zindan seti miğferini ve göğüslüğünü alıp yükseltir.",
 
 	-- Step 17: Adventure: Saving the Best for Last (Horde)
-	-- {quest:9007} Saving the Best for Last
-	["Adventure: {quest:9007} (Horde)"] = "Macera: {quest:9007} (Horde)",
-	-- {npc:16012} Mokvar · {quest:9007} Saving the Best for Last
-	["{npc:16012} then offers your class's {quest:9007}, the last quest of the challenge: it takes your class's dungeon-set helm and chest and upgrades them."] = "Ardından {npc:16012} sınıfının {quest:9007} görevini, meydan okumanın son görevini verir: sınıfının zindan seti miğferini ve göğüslüğünü alıp yükseltir.",
+	-- {quest:9008} Saving the Best for Last
+	["Adventure: {quest:9008} (Horde)"] = "Macera: {quest:9008} (Horde)",
+	-- {npc:16012} Mokvar · {quest:9008} Saving the Best for Last
+	-- was: ["{npc:16012} then offers your class's {quest:9007}, the last quest of the challenge: it takes your class's dungeon-set helm and chest and upgrades them."] = "{npc:16012} bietet dir dann die {quest:9007} deiner Klasse an, die letzte Quest der Herausforderung: Sie nimmt den Dungeon-Set-Helm und die Brustplatte deiner Klasse und wertet sie auf."
+	["{npc:16012} then offers your class's {quest:9008}, the last quest of the challenge: it takes your class's dungeon-set helm and chest and upgrades them."] = "Ardından {npc:16012} sınıfının {quest:9008} görevini, meydan okumanın son görevini verir: sınıfının zindan seti miğferini ve göğüslüğünü alıp yükseltir.",
 
 	-- Step 18: Dungeons: level 15-25
 	["Dungeons: level 15-25"] = "Zindanlar: seviye 15-25",

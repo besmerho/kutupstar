@@ -236,8 +236,8 @@ return {
 	["The giant {npc:7765} sits just north-west of {npc:7775}'s camp."] = "Dev {npc:7765}, {npc:7775} kampının hemen kuzeybatısında oturuyor.",
 
 	-- Step 51: Evoroot
-	-- {item:11242} Evoroot · {npc:7765} Rockbiter
-	["The {item:11242} grows inside a ruined building north of {npc:7765}: climb in through the break in its wall from the ledge beside it."] = "{item:11242}, {npc:7765} adlı NPC'nin kuzeyindeki yıkık bir binanın içinde yetişiyor: yanındaki çıkıntıdan duvarındaki gedikten içeri tırman.",
+	-- {item:11242} Evoroot · {npc:7765} Rockbiter · {npc:9467} Miblon Snarltooth
+	["The {item:11242} grows inside a ruined building north of {npc:7765}: climb in through the break in its wall from the ledge beside it.\nOr the front door: {npc:9467} guards it, and the Bait Gregan sells draws him off when you use it beside him. Half the players in our recordings went in that way, half through the wall."] = "{item:11242}, {npc:7765} adlı NPC'nin kuzeyindeki yıkık bir binanın içinde yetişiyor: yanındaki çıkıntıya çıkıp duvarındaki gedikten içeri tırman.\nYa da ön kapıdan: kapıyı {npc:9467} bekliyor, Gregan'ın sattığı Bait'i yanında kullanırsan onu uzaklaştırır. Oyuncu kayıtlarında oyuncuların yarısı bu yoldan, yarısı duvardan girdi.",
 
 	-- Step 52: Shay Leafrunner
 	-- {npc:7774} Shay Leafrunner · {item:9189} Shay's Bell

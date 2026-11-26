@@ -29,8 +29,8 @@ return {
 	["{area:392} flight master"] = "{area:392} uçuş ustası",
 
 	-- Step 5: Jes'rimon
-	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow
-	["{npc:8659}, the {object:172960}"] = "{npc:8659}, {object:172960}",
+	-- {npc:8659} Jes'rimon
+	["{npc:8659}, at the top of a tower in the Drag"] = "{npc:8659}, Drag'da bir kulenin tepesinde",
 
 	-- Step 6: Orgrimmar
 	-- {npc:15188} Cenarion Emissary Blackhoof · {object:172957} Valley of Wisdom · {zone:1451} Silithus

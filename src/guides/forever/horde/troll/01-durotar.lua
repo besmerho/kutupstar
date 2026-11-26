@@ -119,7 +119,6 @@ return {
 	-- {npc:265809} Brakk
 	["{npc:265809}'s campfire"] = "{npc:265809} kamp ateşi",
 	-- {npc:265809} Brakk · {area:362} Razor Hill · {spell:1229451} Boosted Rest · {area:367} Sen'jin Village · {zone:1454} Orgrimmar
-	-- was: ["{npc:265809} camps just south of {area:362}. Sit by his campfire (/sit) until the Boosted Rest buff appears. With a profession learned, {npc:265809} also offers its Camping 101, which its trainer takes: in {area:362} or in {zone:1454} at the start of the next guide."] = "{npc:265809} lagert direkt südlich von {area:362}. Setz dich an sein Lagerfeuer (/sit), bis der Buff Verbesserter Ruhebonus erscheint. Wenn du einen Beruf gelernt hast, bietet {npc:265809} auch sein Camping 101 an, das sein Lehrer abnimmt: in {area:362} oder in {zone:1454} am Anfang des nächsten Guides."
 	["{npc:265809} camps just south of {area:362}. Sit by his campfire (/sit) until the {spell:1229451} buff appears. With a profession learned, {npc:265809} also offers its Camping 101, which its trainer takes: in {area:362}, by {area:367} for fishing, or in {zone:1454} at the start of the next guide."] = "{npc:265809}, {area:362} kasabasının hemen güneyinde kamp kurmuş. {spell:1229451} güçlendirmesi gelene dek kamp ateşinin yanında otur (/sit). Bir meslek öğrendiysen {npc:265809} o mesleğin Camping 101 görevini de verir. Görevi mesleğin eğitmeni teslim alır: {area:362} kasabasında, fishing için {area:367} köyünün yanında ya da sonraki rehberin başında {zone:1454} şehrinde.",
 
 	-- Step 24: Camping 101: Mining
@@ -167,6 +166,8 @@ return {
 	["{npc:265809}: for {npc:5941}, on the shore south of Sen'jin"] = "{npc:265809}: Sen'jin'in güneyindeki kıyıda duran {npc:5941} için",
 
 	-- Step 33: Razor Hill
+	-- {quest:5648} Garments of Spirituality · {spell:613} Lesser Heal · {npc:3706} Tai'jin
+	["Priests: {quest:5648} counts only {spell:613} (Rank 2). {npc:3706} trains priests too: learn it from her now if you have not yet."] = "Priest'ler: {quest:5648} yalnız {spell:613} (Rank 2) kullanımını sayar. {npc:3706} Priest'lere de eğitim veriyor: henüz öğrenmediysen şimdi ondan öğren.",
 	-- {npc:266940} Turroc
 	["{npc:266940}, on the east side of town; inside"] = "{npc:266940}, kasabanın doğu yakasında, içeride",
 	-- {npc:3706} Tai'jin · {npc:266940} Turroc
