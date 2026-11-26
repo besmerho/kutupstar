@@ -4,8 +4,10 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Guide
-	-- {zone:1423} Eastern Plaguelands · {zone:1448} Felwood · {zone:1452} Winterspring
-	["Western & {zone:1423}, {zone:1448} & {zone:1452}"] = "Western & {zone:1423}, {zone:1448} & {zone:1452}",
+	-- {zone:1423} Eastern Plaguelands · {zone:1448} Felwood
+	["Western & {zone:1423} & {zone:1448}"] = "Western & {zone:1423} & {zone:1448}",
+	-- {area:152} The Bulwark · {zone:1448} Felwood · {zone:1452} Winterspring
+	["{area:152} and both Plaguelands, then {zone:1448} and {zone:1452}."] = "{area:152} ve iki Plaguelands, sonra {zone:1448} ve {zone:1452}.",
 
 	-- Step 1: The Bulwark
 	-- {area:199} Felstone Field · {area:152} The Bulwark · {npc:11055} Shadow Priestess Vandis
@@ -21,7 +23,7 @@ return {
 	["Andorhal watchtowers and silos"] = "Andorhal gözetleme kuleleri ve siloları",
 	-- {npc:10667} Chromie · {item:12815} Beacon Torch · {item:12627} Temporal Displacer · {npc:10996} Fallen Hero · {zone:1422} Western Plaguelands
 	-- plural, as words: Temporal Parasites = {npc:10717} Temporal Parasite · Skeletal Warlords = {npc:1788} Skeletal Warlord
-	["Ride south-west into Andorhal. {npc:10667} waits in the ruined inn on the west side of town. Stand in the doorway of each of the four towers with the {item:12815} to mark it; keep to the edges of town. Use the {item:12627} by the silos in the middle of town to bring out Temporal Parasites (55-57): fight them one at a time and let the biggest go.\nCareful: a {npc:10996}, a level 58-59 elite, can stand in Andorhal, as at many other spots of the {zone:1422}: give it room.\nCareful: Skeletal Warlords, level 56-57 elites, stand by the first and second towers (the south-western and the western one): mark those towers from the far side of the doorway once the Warlord has turned away, and never pull one. Putridius (58, rare) walks among the silos."] = "Güneybatıya, Andorhal'a sür. {npc:10667} kasabanın batı yanındaki yıkık handa bekliyor. Dört kulenin her birini işaretlemek için {item:12815} ile kapısında dur, kasabanın kenarlarında kal. Temporal Parasite yaratıklarını (55-57) ortaya çıkarmak için kasabanın ortasındaki siloların yanında {item:12627} kullan: tek tek dövüş, en büyüklerini bırak.\nDikkat: {zone:1422} bölgesinin birçok yerinde olduğu gibi Andorhal'da da 58-59. seviye elit bir {npc:10996} durabilir: ondan uzak dur.\nDikkat: 56-57. seviye elit Skeletal Warlord yaratıkları birinci ve ikinci kulenin (güneybatıdaki ve batıdaki) yanında duruyor: Warlord arkasını dönünce o kuleleri kapının uzak tarafından işaretle, asla birini çekme. Putridius (58, rare) siloların arasında dolaşıyor.",
+	["Ride south-west into Andorhal. {npc:10667} waits in the ruined inn on the west side of town. Stand in the doorway of each of the four towers with the {item:12815} to mark it; keep to the edges of town. Use the {item:12627} by each grain silo on the north side of town, one silo after another, to bring out Temporal Parasites (55-57): fight them one at a time and let the biggest go.\nCareful: a {npc:10996}, a level 58-59 elite, can stand in Andorhal, as at many other spots of the {zone:1422}: give it room.\nCareful: Skeletal Warlords, level 56-57 elites, stand by the first and second towers (the south-western and the western one): mark those towers from the far side of the doorway once the Warlord has turned away, and never pull one. Putridius (58, rare) walks among the silos."] = "Güneybatıya, Andorhal'a sür. {npc:10667} kasabanın batı yanındaki yıkık handa bekliyor. Dört kulenin her birini işaretlemek için {item:12815} ile kapısında dur, kasabanın kenarlarında kal. Temporal Parasite yaratıklarını (55-57) ortaya çıkarmak için kasabanın kuzey yanındaki her tahıl silosunun yanında, birbiri ardına {item:12627} kullan: tek tek dövüş, en büyüklerini bırak.\nDikkat: {zone:1422} bölgesinin birçok yerinde olduğu gibi Andorhal'da da 58-59. seviye elit bir {npc:10996} durabilir: ondan uzak dur.\nDikkat: 56-57. seviye elit Skeletal Warlord yaratıkları birinci ve ikinci kulenin (güneybatıdaki ve batıdaki) yanında duruyor: Warlord arkasını dönünce o kuleleri kapının uzak tarafından işaretle, asla birini çekme. Putridius (58, rare) siloların arasında dolaşıyor.",
 	-- {npc:10667} Chromie
 	["{npc:10667}, upstairs"] = "{npc:10667}, üst katta",
 	-- {npc:10903} Andorhal Tower Two · {item:12815} Beacon Torch
@@ -174,7 +176,8 @@ return {
 
 	-- Step 41: Egan
 	-- {npc:11140} Egan · {area:2627} Terrordale · {npc:12384} Augustus the Touched
-	["{npc:11140} the ghost stands by a hut in {area:2627}, in the north-west corner; {npc:12384} sits inside the hut."] = "Hayalet {npc:11140}, kuzeybatı köşesinde {area:2627} içindeki bir kulübenin yanında duruyor, {npc:12384} kulübenin içinde oturuyor.",
+	-- plural, as words: Terrordale Spirits = {npc:14564} Terrordale Spirit · Crypt Horrors = {npc:8557} Crypt Horror · Crypt Walkers = {npc:8556} Crypt Walker
+	["{npc:11140} the ghost stands by a hut in {area:2627}, in the north-west corner; {npc:12384} sits inside the hut.\nCareful: Terrordale Spirits (59-60) drift through the north-west corner just north of {npc:11140}'s hut, and Crypt Horrors (57-58) and Crypt Walkers (55-56) stand around it; some of them root you. Walk in slowly and pull one at a time."] = "Hayalet {npc:11140}, kuzeybatı köşesinde {area:2627} içindeki bir kulübenin yanında duruyor, {npc:12384} kulübenin içinde oturuyor.\nDikkat: Terrordale Spirit yaratıkları (59-60) {npc:11140} kulübesinin hemen kuzeyinde, kuzeybatı köşesinde süzülüyor, çevresinde de Crypt Horror (57-58) ve Crypt Walker (55-56) yaratıkları duruyor. Bazıları seni yerinde tutar. Yavaşça girip tek tek çek.",
 	-- {npc:12384} Augustus the Touched
 	["{npc:12384}, inside"] = "{npc:12384}, içeride",
 
@@ -210,6 +213,12 @@ return {
 	["Ride south to {area:2264}, on the road. {item:15447} spoils within ten minutes: kill the town's Scourge quickly and grind the seven pieces with the {item:15454} at once.\nCareful: Unseen Servants call for help within 25 yd once they drop to 40% health. Out of combat they also turn invisible with {spell:10228}. If a call for help happens inside the town, a large number of mobs can join the fight. Fighting near the outskirts lowers this risk.\nWith {quest:5211} in your log (from {npc:11063} at the start of this guide), the Scourge around the town leave Darrowshire Spirits: talk to each one to free it. Free them before you start on the {item:15447}."] = "Güneye, yol üstündeki {area:2264} kasabasına sür. {item:15447} on dakika içinde bozulur: kasabanın Scourge'unu hızla öldür ve yedi parçayı hemen {item:15454} ile öğüt.\nDikkat: Unseen Servant yaratıkları canları %40'a düşünce 25 yard içinde yardım çağırır. Dövüş dışında {spell:10228} ile görünmez de olurlar. Kasabanın içinde bir yardım çağrısı olursa dövüşe çok sayıda yaratık katılabilir. Kenarlarda dövüşmek bu riski azaltır.\nGünlüğünde {quest:5211} varken (bu rehberin başında {npc:11063} yanından), kasabanın çevresindeki Scourge'lar Darrowshire Spirit ruhları bırakır: serbest bırakmak için her biriyle konuş. {item:15447} işine başlamadan önce onları serbest bırak.",
 	-- plural, as words: Darrowshire Spirits = {npc:11064} Darrowshire Spirit
 	["Free Darrowshire Spirits: talk to them"] = "Darrowshire Spirit ruhlarını özgür bırak: onlarla konuş",
+	-- {npc:8530} Cannibal Ghoul · {npc:11064} Darrowshire Spirit
+	["{npc:8530}: a {npc:11064} rises where one dies"] = "{npc:8530}: biri öldüğü yerde bir {npc:11064} yükselir",
+	-- {npc:8531} Gibbering Ghoul
+	["{npc:8531}: leaves a spirit too"] = "{npc:8531}: bu da ruh bırakır",
+	-- {npc:8532} Diseased Flayer
+	["{npc:8532}: leaves a spirit too"] = "{npc:8532}: bu da ruh bırakır",
 
 	-- Step 47: Carlin Redpath
 	-- {area:2268} Light's Hope Chapel
@@ -367,7 +376,6 @@ return {
 
 	-- Step 84: Deadwood Cauldron
 	-- {zone:1448} Felwood · {area:1997} Bloodvenom Post · {area:1762} Felpaw Village · {area:1769} Timbermaw Hold
-	-- was: ["Ride north up the road. The cauldron stands in {area:1762}, just south-west of {area:1769}; the Deadwood furbolgs there are hostile."] = "Reite die Straße nach Norden. Der Kessel steht in {area:1762}, direkt südwestlich von {area:1769}; die Deadwood-Furbolgs dort sind feindlich."
 	["Ride north up the whole {zone:1448} road, past {area:1997}. The cauldron stands in {area:1762}, just south-west of {area:1769}; the Deadwood furbolgs there are hostile."] = "{zone:1448} yolunun tamamı boyunca kuzeye, {area:1997} karakolunu geçerek sür. Kazan, {area:1769} girişinin hemen güneybatısında, {area:1762} köyünde. Oradaki Deadwood furbolg'ları düşman.",
 
 	-- Step 85: Kernda
@@ -387,23 +395,25 @@ return {
 	-- Step 90: Donova Snowden
 	-- {zone:1452} Winterspring · {area:2246} Frostfire Hot Springs
 	["From the tunnel's {zone:1452} exit, ride south to {area:2246}."] = "Tünelin {zone:1452} çıkışından güneye, {area:2246} yöresine sür.",
+
+	-- Step 91: Donova Snowden
 	-- {quest:5086} Toxic Horrors · {zone:1448} Felwood
 	["{quest:5086} are in {zone:1448}, on a later trip: keep it."] = "{quest:5086} hedefleri sonraki bir yolculukta {zone:1448} bölgesinde: sakla.",
 
-	-- Step 91: Moontouched Owlbeasts
+	-- Step 92: Moontouched Owlbeasts
 	-- plural, as words: Moontouched Owlbeasts = {npc:7453} Moontouched Owlbeast
 	["Moontouched Owlbeasts"] = "Moontouched Owlbeast yaratıkları",
 	-- {area:2255} Everlook · {area:2241} Frostsaber Rock
 	-- plural, as words: Moontouched Owlbeasts = {npc:7453} Moontouched Owlbeast
 	["Ride east to {area:2255} and north out of it; the Moontouched Owlbeasts roam the hills of {area:2241}'s southern slopes. Careful: they are 57-58: pull them one at a time.\nCareful: Hailspite, level 60 elites, gather in the snowfields south-east of {area:2255}, where a few Moontouched Owlbeasts roam too: stay on the slopes north of town."] = "Doğuya, {area:2255} kasabasına sür ve oradan kuzeye çık. Moontouched Owlbeast yaratıkları {area:2241} güney yamaçlarının tepelerinde dolaşıyor. Dikkat: 57-58'ler: tek tek çek.\nDikkat: 60. seviye elitler olan Hailspite'lar {area:2255} güneydoğusundaki kar tarlalarında toplanıyor, orada birkaç Moontouched Owlbeast da dolaşıyor: kasabanın kuzeyindeki yamaçlarda kal.",
 
-	-- Step 92: Pristine Yeti Horns
+	-- Step 93: Pristine Yeti Horns
 	-- plural, as words: Pristine Yeti Horns = {item:12367} Pristine Yeti Horn
 	["Pristine Yeti Horns"] = "Pristine Yeti Horn",
 	-- {area:2255} Everlook
 	["Umi's horns, carried from your last {area:2255} stop: the yeti hills start just south-east of {area:2255}. Only Matriarchs and Patriarchs drop horns, and the Patriarchs reach 58: pull them one at a time."] = "Umi'nin boynuzları, son {area:2255} durağından taşıdığın: yeti tepeleri {area:2255} kasabasının hemen güneydoğusunda başlıyor. Boynuzu yalnızca Matriarch ve Patriarch'lar düşürür, Patriarch'lar da 58'e kadar çıkar: tek tek çek.",
 
-	-- Step 93: Umi Rumplesnicker
+	-- Step 94: Umi Rumplesnicker
 	-- {area:976} Gadgetzan · {area:2255} Everlook · {zone:2482} Mount Hyjal · {zone:1451} Silithus
 	["Umi's third prank targets goblins in {area:976}, Un'Goro and {area:2255}: keep it. {zone:2482} is next: its way in starts here in {area:2255}; {area:976}, Linken's sword and {zone:1451} follow it."] = "Umi'nin üçüncü şakası {area:976}, Un'Goro ve {area:2255} kasabasındaki goblinleri hedef alıyor: sakla. Sırada {zone:2482} var: girişi burada, {area:2255} kasabasında başlıyor. Ardından {area:976}, Linken'in kılıcı ve {zone:1451} gelir.",
 }

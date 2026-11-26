@@ -52,8 +52,9 @@ return {
 	["{npc:12717}: take it last, his escort starts at once"] = "{npc:12717}: en son al, eskortu hemen başlar",
 
 	-- Step 10: Vorsha the Lasher
-	-- {npc:12717} Muglash · {npc:12719} Marukai
-	["{npc:12717} walks north up the strand to a naga brazier. Put the brazier out, then guard him through the naga waves until Vorsha is dead; the Wrathtail naga drop the heads {npc:12719} wants."] = "{npc:12717}, kumsal boyunca kuzeye, bir naga mangalına yürür. Mangalı söndür, sonra Vorsha ölene kadar naga dalgalarına karşı onu koru. Wrathtail naga'ları {npc:12719} adlı NPC'nin istediği kafaları düşürür.",
+	-- {npc:12717} Muglash · {npc:12940} Vorsha the Lasher · {npc:12719} Marukai
+	-- was: ["{npc:12717} walks north up the strand to a naga brazier. Put the brazier out, then guard him through the naga waves until Vorsha is dead; the Wrathtail naga drop the heads {npc:12719} wants."] = "{npc:12717} läuft die Küste nach Norden zu einem Nagabecken. Lösche das Becken, dann bewache ihn durch die Nagawellen, bis Vorsha tot ist; die Naga der Wrathtail lassen die Köpfe fallen, die {npc:12719} will."
+	["{npc:12717} walks north up the strand to a naga brazier. Put the brazier out, then guard him through the naga waves until {npc:12940} is dead; the Wrathtail naga drop the heads {npc:12719} wants."] = "{npc:12717}, kumsal boyunca kuzeye, bir naga mangalına yürür. Mangalı söndür, sonra {npc:12940} ölene kadar naga dalgalarına karşı onu koru. Wrathtail naga'ları {npc:12719} adlı NPC'nin istediği kafaları düşürür.",
 	["Naga brazier"] = "Naga mangalı",
 
 	-- Step 11: Naga heads
@@ -91,60 +92,68 @@ return {
 	-- {npc:3419} Apothecary Zamah · {npc:2216} Apothecary Lydon · {area:272} Tarren Mill
 	["{npc:3419}: her note is for {npc:2216} in {area:272}, next guide"] = "{npc:3419}: notu sonraki rehberde {area:272} kasabasındaki {npc:2216} için",
 
-	-- Step 17: Fly to Orgrimmar
+	-- Step 17: Magatha Grimtotem
+	-- {quest:1063} The Elder Crone · {npc:4046} Magatha Grimtotem · {quest:1064} Forsaken Aid · {area:1639} Elder Rise · {npc:3419} Apothecary Zamah · {area:2197} Pools of Vision · {area:1640} Spirit Rise
+	["{quest:1063}'s errand is already with {npc:4046}: take {quest:1064} from her on {area:1639}, for {npc:3419} in the {area:2197}, under {area:1640}."] = "{quest:1063} görevinin işi {npc:4046} adlı NPC'ye zaten ulaştı: {area:1639} tepesinde ondan {quest:1064} görevini al. Görev {area:1640} altındaki {area:2197} içinde duran {npc:3419} için.",
+
+	-- Step 18: Apothecary Zamah
+	-- {quest:1064} Forsaken Aid · {npc:3419} Apothecary Zamah · {area:272} Tarren Mill · {area:2197} Pools of Vision · {area:1640} Spirit Rise
+	["{quest:1064} is already with {npc:3419}: take her note for {area:272} in the {area:2197}, under {area:1640}."] = "{quest:1064} görevini {npc:3419} zaten aldı: {area:1640} altındaki {area:2197} içinde ondan {area:272} için notunu al.",
+
+	-- Step 19: Fly to Orgrimmar
 	-- {area:1637} Orgrimmar
 	["Fly to {area:1637}"] = "{area:1637} şehrine uç",
 	-- {npc:2995} Tal · {area:1637} Orgrimmar
 	["Back up to {npc:2995} on the central rise and fly to {area:1637}."] = "Ortadaki yükseltide {npc:2995} yanına geri çık ve {area:1637} şehrine uç.",
 
-	-- Step 18: Fly to Orgrimmar
+	-- Step 20: Fly to Orgrimmar
 	-- {area:1637} Orgrimmar · {area:2897} Zoram'gar Outpost
 	["Fly to {area:1637} from the {area:2897} flight master."] = "{area:2897} uçuş ustasından {area:1637} şehrine uç.",
 
-	-- Step 19: Druid trainer
+	-- Step 21: Druid trainer
 	["Druid trainer"] = "Druid eğitmeni",
 	-- {npc:3034} Sheal Runetotem · {zone:1412} Mulgore · {zone:1454} Orgrimmar
 	["{npc:3034} in {zone:1412}; {zone:1454} has no druid trainer"] = "{npc:3034}, {zone:1412} bölgesinde, {zone:1454} bölgesinde Druid eğitmeni yok",
 
-	-- Step 21: The Binding
+	-- Step 23: The Binding
 	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow · {item:6626} Dogran's Pendant
 	["{npc:5875} stands in the {object:172960}. Use {item:6626} on the summoning circle there and defeat the succubus to bind her."] = "{npc:5875}, {object:172960} içinde duruyor. Oradaki çağırma çemberinde {item:6626} eşyasını kullan ve succubus yaratığını yenerek ona boyun eğdir.",
 
-	-- Step 22: Shenthul
+	-- Step 24: Shenthul
 	-- {quest:2478} Mission: Possible But Not Probable · {npc:3401} Shenthul · {object:172960} Cleft of Shadow
 	["If you did {quest:2478} with a group, {npc:3401} in the {object:172960} takes it now."] = "{quest:2478} görevini grupla yaptıysan {object:172960} içindeki {npc:3401} onu şimdi teslim alır.",
 	-- {npc:2391} Serge Hinott · {area:272} Tarren Mill
 	["{npc:2391} in {area:272} teaches Poisons: keep it"] = "{area:272} kasabasındaki {npc:2391} Poisons öğretir: sakla",
 
-	-- Step 23: Zeppelin to Undercity
+	-- Step 25: Zeppelin to Undercity
 	-- {zone:1458} Undercity
 	["Zeppelin to {zone:1458}"] = "Zeplinle: {zone:1458}",
 
-	-- Step 24: Brill
+	-- Step 26: Brill
 	-- {npc:246152} Shari Stilwell · {area:159} Brill
 	["{npc:246152} trains Paladins in {area:159}, a short walk north up the road from the zeppelin towers. Come back down the same road for Silverpine."] = "{npc:246152}, zeplin kulelerinden yol boyunca kısa bir yürüyüşle kuzeydeki {area:159} kasabasında Paladin eğitiyor. Silverpine için aynı yoldan geri in.",
 
-	-- Step 25: Morbin Lightbane
+	-- Step 27: Morbin Lightbane
 	-- {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {object:36126} Royal Quarter · {npc:266484} Morbin Lightbane · {npc:10181} Lady Sylvanas Windrunner
 	["For your {area:153} run: the zeppelin lands beside the ruins. Walk into the {zone:1458} through them and down to the {object:36126}: {npc:266484} stands there, near {npc:10181}."] = "{area:153} koşun için: zeplin harabelerin yanına iner. Harabelerin içinden {zone:1458} şehrine gir ve {object:36126} semtine in: {npc:266484} orada, {npc:10181} yakınında duruyor.",
 
-	-- Step 26: Ruins of Lordaeron
+	-- Step 28: Ruins of Lordaeron
 	-- {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {item:268580} Intact Limbs · {npc:266484} Morbin Lightbane · {npc:250660} The Baron · {item:280438} Abominable Head · {npc:2055} Master Apothecary Faranell · {npc:256102} Crest of Lordaeron · {npc:7825} Oran Snakewrithe
 	["The {area:153} is a dungeon for a group of five, about levels 15 to 22, in the ruined city above the {zone:1458}: its portal is in the ruins you walked through.\nInside: every undead can drop {item:268580} for {npc:266484}, so clear as you go. {npc:250660} can drop an {item:280438}, which starts a quest for {npc:2055}, and a {npc:256102} found inside starts one for {npc:7825}: both are in the {zone:1458}, on this route's next stop there."] = "{area:153}, {zone:1458} şehrinin üstündeki yıkık şehirde, yaklaşık 15-22. seviyedeki beş kişilik bir grup için bir zindan: portalı içinden geçtiğin harabelerde.\nİçeride: her undead {npc:266484} için {item:268580} düşürebilir, yani ilerlerken temizle. {npc:250660} bir {item:280438} düşürebilir. Bu {npc:2055} için bir görev başlatır. İçeride bulunan bir {npc:256102} de {npc:7825} için bir görev başlatır: ikisi de {zone:1458} şehrinde, bu rotanın oradaki bir sonraki durağında.",
 	-- {quest:92421} Light's Justice · {item:268580} Intact Limbs
 	["{quest:92421}: the {item:268580}, inside"] = "{quest:92421}: {item:268580}, içeride",
 
-	-- Step 27: The Sepulcher
+	-- Step 29: The Sepulcher
 	-- {zone:1421} Silverpine Forest · {area:228} The Sepulcher
 	["Out of the ruins, take the road south through Tirisfal into {zone:1421} and on to the {area:228}."] = "Harabelerden çık, yolu güneye, Tirisfal içinden {zone:1421} bölgesine ve oradan {area:228} yöresine izle.",
 
-	-- Step 28: Strange Lockbox
+	-- Step 30: Strange Lockbox
 	-- {area:240} Dead Field · {object:177844} Strange Lockbox · {item:15882} Half Pendant of Aquatic Endurance · {area:228} The Sepulcher
 	["From the zeppelin towers, run south into Silverpine and west past the {area:240} to the coast: the {object:177844} lies at the bottom of very deep water there, beside an air fissure where you can breathe. Watch your breath on the way down. It holds the {item:15882} for Trial of the Sea Lion. Then on to the {area:228}."] = "Zeplin kulelerinden güneye, Silverpine'a koş ve {area:240} tarlasını geçip batıya, kıyıya git: {object:177844} orada çok derin suyun dibinde, nefes alabileceğin bir hava çatlağının yanında yatıyor. İnerken nefesine dikkat et. İçinde Trial of the Sea Lion için {item:15882} var. Sonra {area:228} yöresine devam et.",
 	-- {item:15882} Half Pendant of Aquatic Endurance · {object:177844} Strange Lockbox
 	["{item:15882}, from the {object:177844}"] = "{item:15882}, kaynak: {object:177844}",
 
-	-- Step 29: The Sepulcher
+	-- Step 31: The Sepulcher
 	-- {area:228} The Sepulcher · {object:177844} Strange Lockbox · {npc:2121} Shadow Priest Allister · {npc:1937} Apothecary Renferrel
 	["Down the road through Silverpine to the {area:228}: from the zeppelin towers, south through Tirisfal; from the {object:177844}, south-east from the coast to the road. {npc:2121} and {npc:1937} stand by the crypt entrance."] = "Silverpine içinden yolu {area:228} yöresine in: zeplin kulelerinden Tirisfal içinden güneye. {object:177844} sandığından ise kıyıdan güneydoğuya, yola. {npc:2121} ve {npc:1937} mezar girişinin yanında duruyor.",
 	-- {npc:1937} Apothecary Renferrel · {area:272} Tarren Mill
@@ -154,17 +163,17 @@ return {
 	-- {npc:2121} Shadow Priest Allister · {area:233} Ambermill
 	["{npc:2121}: {area:233}'s pendants, on the same roads"] = "{npc:2121}: {area:233} kolyeleri, aynı yollarda",
 
-	-- Step 30: Deathguard Podrig
+	-- Step 32: Deathguard Podrig
 	-- {npc:6389} Deathguard Podrig · {item:16210} Gordon's Crate · {zone:1458} Undercity
 	["{npc:6389} stands just west of the crypt entrance: hand him {item:16210} from the {zone:1458}."] = "{npc:6389}, mahzen girişinin hemen batısında duruyor: {zone:1458} şehrinden gelen {item:16210} eşyasını ona ver.",
 
-	-- Step 31: High Executor Hadrec
+	-- Step 33: High Executor Hadrec
 	-- {area:236} Shadowfang Keep · {area:287} Hillsbrad · {npc:1952} High Executor Hadrec
 	["For your {area:236} run, at the end of the {area:287} guide: {npc:1952} stands below ground in the crypt."] = "{area:287} rehberinin sonundaki {area:236} koşun için: {npc:1952} mezarda, yerin altında duruyor.",
 	-- {npc:1952} High Executor Hadrec
 	["{npc:1952}, below ground"] = "{npc:1952}, yer altında",
 
-	-- Step 32: Silverpine Forest: kill these as you meet them
+	-- Step 34: Silverpine Forest: kill these as you meet them
 	-- {zone:1421} Silverpine Forest
 	["{zone:1421}: kill these as you meet them"] = "{zone:1421}: bunları karşılaştıkça öldür",
 	-- {area:233} Ambermill · {quest:516} Beren's Peril
@@ -172,11 +181,11 @@ return {
 	["South down the road past Pyrewood: Dalaran Watchers and Wizards patrol the roads around {area:233}, and south-west of the town the Ravenclaw Drudgers and Guardians haunt the ruins of {quest:516} in the south-east of the forest. Careful: High Order Mages (30) walk the same roads among the Watchers and Wizards: leave them."] = "Yoldan güneye, Pyrewood'u geçerek: Dalaran Watcher ve Wizard yaratıkları {area:233} çevresindeki yollarda devriye geziyor. Kasabanın güneybatısında da Ravenclaw Drudger ve Guardian yaratıkları ormanın güneydoğusundaki {quest:516} harabelerinde dolaşıyor. Dikkat: High Order Mage yaratıkları (30) aynı yollarda Watcher ve Wizard'ların arasında yürüyor: onlara dokunma.",
 	["Below ground"] = "Yer altında",
 
-	-- Step 33: Ambermill
+	-- Step 35: Ambermill
 	-- {area:233} Ambermill · {npc:2540} Dalaran Serpent · {npc:2120} Archmage Ataeric
 	["On the roads around {area:233}, step into the town's outskirts: Protectors guard them and Mages the town; both drop pendants. Careful: each Mage (15) fights with a {npc:2540} (15) beside it: pull one Mage at a time from the outskirts. Stay out of the middle, where {npc:2120} (22) stands."] = "{area:233} çevresindeki yollardan kasabanın kenarına gir: kenarları Protector'lar, kasabayı Mage'ler koruyor, ikisi de kolye düşürür. Dikkat: her Mage (15) yanında bir {npc:2540} (15) ile dövüşür: kenardan Mage'leri tek tek çek. {npc:2120} (22) yaratığının durduğu ortadan uzak dur.",
 
-	-- Step 34: Beren's Peril
+	-- Step 36: Beren's Peril
 	-- {quest:516} Beren's Peril · {npc:1973} Ravenclaw Guardian · {item:271343} Note Scrap · {object:645153} Offering Stone
 	["The Ravenclaw undead haunt the ruins of {quest:516}, east of the road in the south-east of the forest; a {npc:1973} drops the {item:271343} that leads to the {object:645153}.\nAn elite spirit (20) often stands beside the {object:645153}: pull the Ravenclaws away from the stone before you fight them."] = "Ravenclaw undead'leri ormanın güneydoğusunda, yolun doğusundaki {quest:516} harabelerine dadanmış. Bir {npc:1973}, {object:645153} nesnesine götüren {item:271343} eşyasını düşürür.\n{object:645153} yanında sık sık elit bir ruh (20) durur: dövüşmeden önce Ravenclaw'ları taştan uzağa çek.",
 	-- {item:271343} Note Scrap · {npc:1973} Ravenclaw Guardian
@@ -187,19 +196,19 @@ return {
 	-- plural, as words: Tortured Souls = {item:271350} Tortured Soul
 	["{item:271350}, from the Tortured Souls among the ruins; below ground"] = "{item:271350}, harabelerin arasındaki Tortured Soul yaratıklarından, yer altında",
 
-	-- Step 35: The Offering of Blood
+	-- Step 37: The Offering of Blood
 	-- {item:210713} Tortured Soul · {object:645153} Offering Stone · {quest:95883} The Tortured Soul
 	["The quest hands you a {item:210713}: use it beside the {object:645153} to offer your blood, then kill the elite spirit that answers.\n{quest:95883} is elite: grouping up is advised."] = "Görev sana bir {item:210713} verir: kanını sunmak için onu {object:645153} yanında kullan, sonra çağrıya karşılık veren elit ruhu öldür.\n{quest:95883} elit: grup kurman önerilir.",
 	-- {item:210713} Tortured Soul · {object:645153} Offering Stone
 	["{item:210713}, beside the {object:645153}: summons the elite spirit"] = "{item:210713}, {object:645153} yanında: elit ruhu çağırır",
 
-	-- Step 36: Into Hillsbrad
+	-- Step 38: Into Hillsbrad
 	-- {area:287} Hillsbrad
 	["Into {area:287}"] = "{area:287} içine",
 	-- {area:285} Southpoint Tower
 	["The road east to {area:285}"] = "Doğuya, {area:285} kulesine giden yol",
 
-	-- Step 37: Southpoint Tower
+	-- Step 39: Southpoint Tower
 	-- {area:287} Hillsbrad · {npc:2214} Deathstalker Lesh · {area:285} Southpoint Tower
 	["Back on the road south. Where it turns east into {area:287}, {npc:2214} waits at {area:285}."] = "Yine güneye giden yola dön. Yolun doğuya, {area:287} bölgesine döndüğü yerde {npc:2214}, {area:285} kulesinde bekliyor.",
 	-- {npc:2214} Deathstalker Lesh · {area:272} Tarren Mill

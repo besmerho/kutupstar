@@ -3,6 +3,10 @@
 -- oyun orada adı İngilizce gösterir (yukarıdaki yorum satırında yazıyor). Belirtecin hemen ardına ek getirme;
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
+	-- Guide
+	-- {zone:1445} Dustwallow Marsh · {zone:1434} Stranglethorn Vale · {zone:1435} Swamp of Sorrows
+	["{zone:1445} first, then {zone:1434} and the {zone:1435}."] = "Önce {zone:1445}, sonra {zone:1434} ve {zone:1435}.",
+
 	-- Step 1: Theramore
 	["Theramore"] = "Theramore",
 	-- {quest:1260} Morgan Stern · {npc:4897} Helenia Olden
@@ -260,8 +264,10 @@ return {
 	["{npc:717}, beside the other hunters"] = "{npc:717}, diğer avcıların yanında",
 
 	-- Step 49: Arbor Tarantula
-	-- {npc:217588} Arbor Tarantula · {area:99} Rebel Camp · {npc:217412} Amaryllis Webb · {item:213565} Entomology Starter Kit
-	["An {npc:217588} crawls in the jungle south-east of Nesingwary's camp, on the way to the {area:99}: catch one with the tool from {npc:217412}'s {item:213565}."] = "Nesingwary'nin kampının güneydoğusundaki ormanda, {area:99} kampına giderken bir {npc:217588} geziniyor: {npc:217412} adlı NPC'nin {item:213565} setindeki aletle bir tane yakala.",
+	-- {npc:217588} Arbor Tarantula · {area:99} Rebel Camp · {npc:217412} Amaryllis Webb · {item:213565} Entomology Starter Kit · {item:213562} Bug Catching Net
+	["An {npc:217588} crawls in the jungle south-east of Nesingwary's camp, on the way to the {area:99}: open {npc:217412}'s {item:213565} and use its {item:213562} on one. Don't kill it."] = "Nesingwary'nin kampının güneydoğusundaki ormanda, {area:99} kampına giderken bir {npc:217588} geziniyor: {npc:217412} adlı NPC'nin {item:213565} setini açıp içindeki {item:213562} eşyasını birinin üzerinde kullan. Öldürme.",
+	-- {item:213562} Bug Catching Net · {npc:217588} Arbor Tarantula · {item:213566} Arbor Tarantula Specimen
+	["{item:213562}, on an {npc:217588}: the {item:213566}"] = "{item:213562}, bir {npc:217588} üzerinde: {item:213566}",
 
 	-- Step 50: Rebel Camp
 	["Head north-east past Nesingwary's camp and follow the road north to the camp at the top of the vale."] = "Kuzeydoğuya, Nesingwary'nin kampını geç ve yolu kuzeye, vadinin tepesindeki kampa izle.",
@@ -279,7 +285,6 @@ return {
 	-- {item:216616} Compound Cage Key
 	["{item:216616}, from the Subchiefs (or the Elites)"] = "{item:216616}, Subchief'lerden (ya da Elite'lerden)",
 	-- {item:216617} Kurzen Fighter's Uniform
-	-- was: ["{item:216617}, in the supply crate"] = "{item:216617}, in der Vorratskiste"
 	["{item:216617}, in the supply crate deep in the cave"] = "{item:216617}, mağaranın derinlerindeki erzak sandığında",
 	-- {npc:218230} Wendel Mathers
 	["{npc:218230}, back at his cage on the way out"] = "{npc:218230}, çıkarken kafesinin başında",

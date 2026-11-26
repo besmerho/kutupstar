@@ -104,37 +104,42 @@ return {
 
 	-- Step 18: Kodo Graveyard
 	-- {npc:11596} Smeed Scrabblescrew · {item:13892} Kodo Kombobulator · {npc:4702} Ancient Kodo
-	-- plural, as words: Aged Kodos = {npc:4700} Aged Kodo · Scorpashi Lashers = {npc:4697} Scorpashi Lasher · Ancient Kodos = {npc:4702} Ancient Kodo
-	-- was: ["Use {npc:11596}'s {item:13892} on an Aged, Dying or {npc:4702}: it becomes a tamed kodo that follows you. Walk it back to {npc:11596}'s camp; there, talk to the kodo: that counts it and lets you tame the next. Five kodos, one at a time; Aged Kodos also drop the hides, and the Scorpashi Lashers that hunt around the graveyard carry the venom."] = "Benutze den {item:13892} von {npc:11596} an einem Aged Kodo, Dying Kodo oder {npc:4702}: Es wird zu einem gezähmten Kodo, das dir folgt. Führ es zurück zum Lager von {npc:11596}; sprich dort mit dem Kodo: Das zählt es und lässt dich das nächste zähmen. Fünf Kodos, eines nach dem anderen; Aged Kodos lassen auch die Felle fallen, und die Scorpashi Lashers, die rund um den Friedhof jagen, tragen das Gift."
-	["Use {npc:11596}'s {item:13892} on an Aged, Dying or {npc:4702}: it becomes a tamed kodo that follows you. Walk it back to {npc:11596}'s camp; there, talk to the kodo: that counts it and lets you tame the next. Five kodos, one at a time; Aged Kodos also drop the hides, and the Scorpashi Lashers that hunt around the graveyard carry the venom. Careful: the Ancient Kodos (36-37) hit hard: tame them, and fight only the Aged Kodos for the hides."] = "{npc:11596} adlı NPC'nin {item:13892} eşyasını Aged, Dying ya da {npc:4702} üzerinde kullan: seni izleyen evcil bir kodo olur. Onu {npc:11596} kampına yürüt. Orada kodoyla konuş: böylece sayılır ve sıradakini evcilleştirebilirsin. Teker teker beş kodo. Aged Kodo yaratıkları deri de düşürür, mezarlığın çevresinde avlanan Scorpashi Lasher yaratıklarında da zehir var. Dikkat: Ancient Kodo'lar (36-37) sert vurur: onları evcilleştir, deri için yalnız Aged Kodo'larla dövüş.",
+	-- plural, as words: Ancient Kodos = {npc:4702} Ancient Kodo
+	["Use {npc:11596}'s {item:13892} on an Aged, Dying or {npc:4702}: it becomes a tamed kodo that follows you. Walk it back to {npc:11596}'s camp; there, talk to the kodo: that counts it and lets you tame the next. Five kodos, one at a time. Careful: the Ancient Kodos (36-37) hit hard: tame them, don't fight them."] = "{npc:11596} adlı NPC'nin {item:13892} eşyasını bir Aged, Dying ya da {npc:4702} üzerinde kullan: seni izleyen evcil bir kodo olur. Onu {npc:11596} kampına yürüt. Orada kodoyla konuş: böylece sayılır ve sıradakini evcilleştirebilirsin. Teker teker beş kodo. Dikkat: Ancient Kodo'lar (36-37) sert vurur: onları evcilleştir, dövüşme.",
 	-- {npc:4702} Ancient Kodo
 	["on an Aged, Dying or {npc:4702} in the graveyard; don't kill it"] = "mezarlıktaki bir Aged, Dying ya da {npc:4702} üzerinde, öldürme",
 	-- {npc:11596} Smeed Scrabblescrew
 	["the tamed kodo, at {npc:11596}'s camp: talk to it, five times"] = "{npc:11596} kampında evcil kodo: onunla beş kez konuş",
 
-	-- Step 20: Kolkar Village
+	-- Step 19: Kodo Graveyard: hides and venom
+	-- {area:596} Kodo Graveyard
+	["{area:596}: hides and venom"] = "{area:596}: deri ve zehir",
+	-- plural, as words: Aged Kodos = {npc:4700} Aged Kodo · Scorpashi Lashers = {npc:4697} Scorpashi Lasher · Ancient Kodos = {npc:4702} Ancient Kodo
+	["The Aged Kodos in the graveyard drop the hides, and the Scorpashi Lashers that hunt around it carry the venom. Careful: the Ancient Kodos (36-37) hit hard: fight only the Aged Kodos."] = "Mezarlıktaki Aged Kodo yaratıkları deri düşürür, çevresinde avlanan Scorpashi Lasher yaratıklarında da zehir var. Dikkat: Ancient Kodo'lar (36-37) sert vurur: yalnız Aged Kodo'larla dövüş.",
+
+	-- Step 21: Kolkar Village
 	-- {npc:11596} Smeed Scrabblescrew · {area:609} Kolkar Village · {area:608} Nijel's Point · {npc:5752} Corporal Melkins · {quest:93224} Carved Centaur Totems · {npc:5396} Captain Pentigast
 	-- plural, as words: Centaur Ears = {item:6067} Centaur Ear
 	["North-east from {npc:11596}'s camp to {area:609}, on the way back to {area:608}: every Kolkar drops Centaur Ears for {npc:5752} and {quest:93224} for {npc:5396}. The Magram south-east of {npc:11596}'s camp drop them too, but their village holds Necromancers (42-43) and Guardians (39-41): stay with the Kolkar (30-35)."] = "{area:608} karakoluna dönerken {npc:11596} kampından kuzeydoğuya, {area:609} köyüne git: her Kolkar {npc:5752} için Centaur Ear, {npc:5396} için {quest:93224} düşürür. {npc:11596} kampının güneydoğusundaki Magram'lar da düşürür, ama köylerinde Necromancer (42-43) ve Guardian (39-41) yaratıkları var: Kolkar'larla (30-35) kal.",
 
-	-- Step 21: Kormek's Hut
+	-- Step 22: Kormek's Hut
 	-- {area:609} Kolkar Village · {area:608} Nijel's Point · {npc:11438} Bibbly F'utzbuckle · {area:2407} Kormek's Hut · {area:35} Booty Bay
 	["North-west from {area:609} back along the road to {area:608}: {npc:11438} waits at {area:2407}. He sends you after the robber to {area:35}, where the next guide ends: keep it."] = "{area:609} köyünden kuzeybatıya, yol boyunca {area:608} karakoluna dön: {npc:11438}, {area:2407} kulübesinde bekliyor. Seni hırsızın peşinden, sonraki rehberin bittiği {area:35} limanına gönderir: sakla.",
 	-- {npc:11438} Bibbly F'utzbuckle · {area:35} Booty Bay
 	["{npc:11438}: Tokal waits in {area:35}, at the end of the next guide"] = "{npc:11438}: Tokal, sonraki rehberin sonunda {area:35} limanında bekliyor",
 
-	-- Step 22: Nijel's Point
+	-- Step 23: Nijel's Point
 	-- {npc:5638} Kreldig Ungor · {zone:1443} Desolace
 	-- was: ["{npc:5638}: the satchel lies off the north-west coast, on the south loop at the end of 30-40 (06-badlands): keep it"] = "{npc:5638}: Die Tasche liegt vor der Nordwestküste, auf der Südschleife am Ende von 30-40 (06-badlands): Behalte sie"
 	["{npc:5638}: the satchel lies off the north-west coast, on {zone:1443}'s south loop at the end of 30-40: keep it"] = "{npc:5638}: çanta kuzeybatı kıyısının açığında, 30-40 sonundaki {zone:1443} güney turunda: sakla",
 
-	-- Step 23: Fly to Auberdine
+	-- Step 24: Fly to Auberdine
 	-- {area:442} Auberdine
 	["Fly to {area:442}"] = "Uç: {area:442}",
 	-- {area:608} Nijel's Point
 	["{area:608} flight master"] = "{area:608} uçuş ustası",
 
-	-- Step 24: Boat to Stormwind Harbor
+	-- Step 25: Boat to Stormwind Harbor
 	-- {area:17203} Stormwind Harbor
 	["Boat to {area:17203}"] = "Gemiyle: {area:17203}",
 }

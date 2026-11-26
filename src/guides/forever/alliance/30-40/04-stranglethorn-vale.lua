@@ -68,7 +68,7 @@ return {
 	-- Step 10: Stranglethorn Tigers
 	-- plural, as words: Stranglethorn Tigers = {npc:682} Stranglethorn Tiger
 	["Stranglethorn Tigers"] = "Stranglethorn Tiger yaratıkları",
-	["The adult tigers prowl the hills just south and west of the camp."] = "Yetişkin kaplanlar kampın hemen güneyindeki ve batısındaki tepelerde dolaşıyor.",
+	["The adult tigers prowl the hills on both sides of the camp: west of it, and east of it toward the lake. The arrow takes the eastern group."] = "Yetişkin kaplanlar kampın iki yanındaki tepelerde dolaşıyor: batısında ve doğusunda, göle doğru. Ok doğudaki grubu seçer.",
 
 	-- Step 11: Ajeck Rouack
 	-- {area:99} Rebel Camp
@@ -194,8 +194,8 @@ return {
 	["Warlocks fly to {area:415} for the {quest:1738}, on the way west."] = "Warlock'lar batıya giderken {quest:1738} için {area:415} kasabasına uçar.",
 
 	-- Step 30: Heartswood
-	-- {area:415} Astranaar · {quest:1738} Heartswood · {area:413} Maestra's Post · {quest:65602} What Is Love? · {item:190309} Wooden Figurine
-	["From {area:415} head north-west into the hills: the {quest:1738} is a glowing tree north of the road to {area:413}. If you took {quest:65602}, the {item:190309} lies in a house among the trees north of {area:413} (26.6,22.0). Then take the road west to Stonetalon."] = "{area:415} köyünden kuzeybatıya, tepelere git: {quest:1738}, {area:413} yolunun kuzeyinde parlayan bir ağaç. {quest:65602} görevini aldıysan {item:190309}, {area:413} karakolunun kuzeyinde, ağaçların arasındaki bir evde duruyor (26.6,22.0). Sonra batı yolundan Stonetalon'a git.",
+	-- {area:415} Astranaar · {quest:1738} Heartswood · {area:413} Maestra's Post · {quest:65602} What Is Love? · {item:190309} Wooden Figurine · {item:190307} Unlit Torch
+	["From {area:415} head north-west into the hills: the {quest:1738} is a glowing tree north of the road to {area:413}. If you took {quest:65602}, the {item:190309} lies in a house among the trees north of {area:413} (26.6,22.0): light the {item:190307} from the table outside at a campfire and throw it onto the archaeologist's cart outside the house, which draws the figure in the house away so you can take the figurine upstairs. Then take the road west to Stonetalon."] = "{area:415} köyünden kuzeybatıya, tepelere git: {quest:1738}, {area:413} yolunun kuzeyinde parlayan bir ağaç. {quest:65602} görevini aldıysan {item:190309}, {area:413} karakolunun kuzeyinde, ağaçların arasındaki bir evde duruyor (26.6,22.0): dışarıdaki masadan aldığın {item:190307} eşyasını bir kamp ateşinde yakıp evin önündeki arkeoloğun arabasına at. Bu, evdeki figürü uzaklaştırır, sen de üst kattaki heykelciği alırsın. Sonra batı yolundan Stonetalon'a git.",
 	-- {item:190309} Wooden Figurine · {area:413} Maestra's Post
 	["{item:190309}, north of {area:413}"] = "{item:190309}, {area:413} karakolunun kuzeyinde",
 

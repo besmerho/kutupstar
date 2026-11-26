@@ -133,7 +133,7 @@ return {
 	-- {item:7053} Azure Silk Cloak
 	["{item:7053} to 170"] = "{item:7053}: 170 puana kadar",
 	-- {item:7053} Azure Silk Cloak · {spell:3839} Bolt of Silk Cloth · {item:6260} Blue Dye · {item:2321} Fine Thread
-	["{item:7053} is orange at 150 (yellow 160, green 175, grey 190): about 22 crafts to 170. Each takes 3 {spell:3839}, 2 {item:6260} and 2 {item:2321}. Make the 66 {spell:3839} first. Its recipe is the one bought above; it is the cheapest way through these points in the data."] = "{item:7053}: 150 puanda turuncu (sarı 160, yeşil 175, gri 190): 170 puana kadar yaklaşık 22 üretim. Her biri 3 {spell:3839}, 2 {item:6260} ve 2 {item:2321} ister. Önce 66 {spell:3839} yap. Tarifi yukarıda satın alınan. Veriye göre bu puanları geçmenin en ucuz yolu.",
+	["{item:7053} is orange at 150 (yellow 160, green 175, grey 190): about 22 crafts to 170. Each takes 3 {spell:3839}, 2 {item:6260} and 2 {item:2321}. Make the 66 {spell:3839} first. Its recipe is the one bought above; it is the cheapest way through these points in the data. If you got here without learning {spell:3839}, learn it now: an earlier step teaches it."] = "{item:7053}: 150 puanda turuncu (sarı 160, yeşil 175, gri 190): 170 puana kadar yaklaşık 22 üretim. Her biri 3 {spell:3839}, 2 {item:6260} ve 2 {item:2321} ister. Önce 66 {spell:3839} yap. Tarifi yukarıda satın aldığın tarif. Verilere göre bu puanları geçmenin en ucuz yolu bu. Buraya {spell:3839} öğrenmeden geldiysen şimdi öğren: önceki bir adım öğretiyor.",
 	["from the recipe in your bags"] = "çantandaki tariften",
 
 	-- Step 25: Tailoring recipes at 170

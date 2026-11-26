@@ -20,9 +20,9 @@ return {
 
 	-- Step 3: The four elements
 	["The four elements"] = "Dört element",
-	-- {item:7069} Elemental Air · {zone:1417} Arathi Highlands · {area:320} Refuge Pointe · {npc:2794} Summoned Guardian · {zone:1447} Azshara · {npc:14269} Seeker Aqualon · {area:69} Lakeshire
-	-- plural, as words: Thundering Exiles = {npc:2762} Thundering Exile · Rumbling Exiles = {npc:2592} Rumbling Exile · Burning Exiles = {npc:2760} Burning Exile
-	["One each of {item:7069}, Fire, Earth and Water; all four trade, so the auction house is quickest. To farm them, {zone:1417} has the exiles near {area:320} (level 38-39, about one kill in eight to ten, respawn under seven minutes): Thundering Exiles south-east of it (air), Rumbling Exiles south-west (earth), Burning Exiles far to the north-west (fire), and the {npc:2794} far to the south-west (water, about one in seven). Water comes easier from the Patches of Elemental Water in {zone:1447} (two in five) or {npc:14269} by {area:69} in Redridge."] = "{item:7069}, Fire, Earth ve Water'dan birer tane. Dördü de takas edilebilir, bu yüzden Auction House en hızlısı. Kasmak için {zone:1417} bölgesinde {area:320} karakolunun yakınında exile'lar var (seviye 38-39, aşağı yukarı sekiz ila on öldürmede bir, yedi dakikadan kısa sürede yeniden doğarlar): güneydoğusunda Thundering Exile (air), güneybatısında Rumbling Exile (earth), uzak kuzeybatıda Burning Exile (fire) yaratıkları ve uzak güneybatıda {npc:2794} (water, yaklaşık yedide bir). Water, {zone:1447} bölgesindeki Patch of Elemental Water'lardan (beşte iki) ya da Redridge'de {area:69} kasabasının yanındaki {npc:14269} yaratığından daha kolay çıkar.",
+	-- {item:7069} Elemental Air · {zone:1417} Arathi Highlands · {area:320} Refuge Pointe · {area:333} Circle of East Binding · {npc:2794} Summoned Guardian · {zone:1447} Azshara · {npc:14269} Seeker Aqualon · {area:69} Lakeshire
+	-- plural, as words: Thundering Exiles = {npc:2762} Thundering Exile · Rumbling Exiles = {npc:2592} Rumbling Exile · Burning Exiles = {npc:2760} Burning Exile · Cresting Exiles = {npc:2761} Cresting Exile
+	["One each of {item:7069}, Fire, Earth and Water; all four trade, so the auction house is quickest. To farm them, {zone:1417} has the exiles at its stone circles (level 38-39, respawn under seven minutes): Thundering Exiles south-east of {area:320} (air), Rumbling Exiles south-west of it (earth) and Burning Exiles far to the north-west (fire), about one kill in eight to ten each, and Cresting Exiles at the {area:333} in the north-east (water, in about one in five of the corpses you can loot). Leave the {npc:2794} in the south-west alone: it is elite. Water also comes from the Patches of Elemental Water in {zone:1447} (two in five) or {npc:14269} by {area:69} in Redridge."] = "{item:7069}, Fire, Earth ve Water'dan birer tane. Dördü de takas edilebilir, bu yüzden Auction House en hızlısı. Kasmak için {zone:1417} bölgesindeki taş çemberlerde exile'lar var (seviye 38-39, yedi dakikadan kısa sürede yeniden doğarlar): {area:320} karakolunun güneydoğusunda Thundering Exile (air), güneybatısında Rumbling Exile (earth) ve uzak kuzeybatıda Burning Exile (fire) yaratıkları, her biri aşağı yukarı sekiz ila on öldürmede bir. Kuzeydoğudaki {area:333} çemberinde de Cresting Exile yaratıkları var (water, loot'layabildiğin cesetlerin yaklaşık beşte birinde). Güneybatıdaki {npc:2794} yaratığına bulaşma: elit. Water, {zone:1447} bölgesindeki Patch of Elemental Water'lardan (beşte iki) ya da Redridge'de {area:69} kasabasının yanındaki {npc:14269} yaratığından da çıkar.",
 	-- {item:7069} Elemental Air
 	-- plural, as words: Thundering Exiles = {npc:2762} Thundering Exile
 	["{item:7069}: Thundering Exiles"] = "{item:7069}: Thundering Exile yaratıkları",
@@ -32,8 +32,9 @@ return {
 	-- {item:7067} Elemental Earth
 	-- plural, as words: Rumbling Exiles = {npc:2592} Rumbling Exile
 	["{item:7067}: Rumbling Exiles"] = "{item:7067}: Rumbling Exile yaratıkları",
-	-- {item:7070} Elemental Water · {npc:2794} Summoned Guardian · {zone:1447} Azshara
-	["{item:7070}: the {npc:2794}, or {zone:1447}'s water patches"] = "{item:7070}: {npc:2794} ya da {zone:1447} bölgesindeki su birikintileri",
+	-- {item:7070} Elemental Water · {zone:1447} Azshara
+	-- plural, as words: Cresting Exiles = {npc:2761} Cresting Exile
+	["{item:7070}: Cresting Exiles, or {zone:1447}'s water patches"] = "{item:7070}: Cresting Exile yaratıkları ya da {zone:1447} bölgesindeki su birikintileri",
 
 	-- Step 4: Bath'rah the Windwatcher
 	-- {npc:6176} Bath'rah the Windwatcher · {zone:1416} Alterac Mountains · {area:272} Tarren Mill

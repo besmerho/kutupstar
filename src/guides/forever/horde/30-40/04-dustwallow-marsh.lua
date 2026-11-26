@@ -8,6 +8,8 @@ return {
 	["Zeppelin to {zone:1454}"] = "Zeplinle {zone:1454} şehrine",
 
 	-- Step 2: Orgrimmar
+	-- {zone:1454} Orgrimmar · {zone:1445} Dustwallow Marsh
+	["The {zone:1454} and Crossroads stops are on the way for players coming from the previous guide; opened with none of its quests in the log, the guide starts in {zone:1445}."] = "{zone:1454} ve Crossroads durakları önceki rehberden gelen oyuncuların yolu üstünde. Görevlerinden hiçbiri günlükte yokken açılırsa rehber {zone:1445} bölgesinde başlar.",
 	-- {zone:1454} Orgrimmar
 	["The middle of {zone:1454}"] = "{zone:1454} şehrinin ortası",
 
@@ -155,7 +157,7 @@ return {
 
 	-- Step 30: Melizza Brimbuzzle
 	-- {npc:12277} Melizza Brimbuzzle
-	["{npc:12277} is held in the Maraudine camp at the valley's western end; free her and escort her out east of the valley.\nCareful: The scripted groups are linked and only appear during the escort, so you cannot clear them in advance or pull them one at a time. Clearing the normal centaurs on the path before you start does help."] = "{npc:12277}, vadinin batı ucundaki Maraudine kampında tutsak. Onu serbest bırak ve vadinin doğusuna kadar eşlik et.\nDikkat: senaryolu gruplar birbirine bağlı ve yalnızca eskort sırasında çıkar, bu yüzden onları önceden temizleyemez ya da tek tek çekemezsin. Başlamadan önce patikadaki normal centaur'ları temizlemek yine de işe yarar.",
+	["{npc:12277} is held in the Maraudine camp at the valley's western end; free her and escort her out east of the valley.\nCareful: six centaurs attack during the escort, and you can't clear them beforehand: they appear only during the escort and come linked. In players' recordings 14 of 30 people who took it failed at least once. Bring a friend, or skip it if you are alone. Clearing the normal centaurs on the path before you start does help."] = "{npc:12277}, vadinin batı ucundaki Maraudine kampında tutsak. Onu serbest bırakıp vadinin doğusuna kadar eşlik et.\nDikkat: eskort sırasında altı centaur saldırır, onları önceden temizleyemezsin: yalnız eskort sırasında çıkarlar ve birbirine bağlı gelirler. Oyuncu kayıtlarında görevi alan 30 kişiden 14'ü en az bir kez başarısız oldu. Bir arkadaş getir ya da yalnızsan atla. Başlamadan önce yol üstündeki normal centaur'ları temizlemek işe yarar.",
 
 	-- Step 31: Hornizz Brimbuzzle
 	-- {npc:6019} Hornizz Brimbuzzle · {area:596} Kodo Graveyard

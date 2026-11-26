@@ -19,7 +19,9 @@
 --     GuideTexts.Prepare, which fills the {kind:id} tokens with the English
 --     names. The wrapper below swaps each English text for its Turkish
 --     first, tokens and all, so the names still come out as the client
---     shows them. It is in place once Polestar is in, before Polestar_Guides
+--     shows them. Since Polestar 0.4.3 most guides off the leveling shelf
+--     carry their steps as source (stepsSrc), read in on first use through
+--     GuideTexts.PrepareSteps: a second wrapper does the same there. It is in place once Polestar is in, before Polestar_Guides
 --     loads.
 --   - the choice. A dropdown on Polestar's Theme page (Text tab), "Dil · Language":
 --     Türkçe (the default) or English, which leaves Polestar as it is. It
@@ -127,11 +129,39 @@ end
 local GUIDE_FIELDS = { "title", "why", "pitch" }
 local GUIDE_LISTS = { "pros", "cons" }
 
-local function translateGuide(def)
+-- One guide's texts, English -> Turkish, or nil.
+local function guideTable(def)
 	local build = K.guides[def.id]
-	if type(build) ~= "function" then return end
+	if type(build) ~= "function" then return nil end
 	local t = build()
-	if type(t) ~= "table" then return end
+	return type(t) == "table" and t or nil
+end
+
+-- The steps' texts. rawget: since Polestar 0.4.3 a deferred guide (stepsSrc)
+-- reads its steps in on the first def.steps (a metatable), and that must stay
+-- Polestar's call; GuideTexts.PrepareSteps brings them here once read in.
+local function translateSteps(def, tr)
+	local steps = rawget(def, "steps")
+	if type(steps) ~= "table" then return end
+	for _, step in ipairs(steps) do
+		if type(step) == "table" then
+			tr(step, "title")
+			tr(step, "note")
+			if type(step.goals) == "table" then
+				for _, goal in ipairs(step.goals) do
+					if type(goal) == "table" then
+						tr(goal, "note")
+						tr(goal, "text")
+						if goal.t == "kill" and goal.npc == nil and goal.quest == nil then tr(goal, "target") end
+					end
+				end
+			end
+		end
+	end
+end
+
+-- -> tr(holder, key), which swaps an English text for its Turkish, and count(), the swaps so far.
+local function translator(t)
 	local n = 0
 	local function tr(holder, key)
 		local v = holder[key]
@@ -141,6 +171,13 @@ local function translateGuide(def)
 			n = n + 1
 		end
 	end
+	return tr, function() return n end
+end
+
+local function translateGuide(def)
+	local t = guideTable(def)
+	if not t then return end
+	local tr, count = translator(t)
 	for _, f in ipairs(GUIDE_FIELDS) do tr(def, f) end
 	for _, f in ipairs(GUIDE_LISTS) do
 		local list = def[f]
@@ -149,27 +186,21 @@ local function translateGuide(def)
 	if type(def.reward) == "table" then
 		for _, r in ipairs(def.reward) do if type(r) == "table" then tr(r, "text") end end
 	end
-	if type(def.steps) == "table" then
-		for _, step in ipairs(def.steps) do
-			if type(step) == "table" then
-				tr(step, "title")
-				tr(step, "note")
-				if type(step.goals) == "table" then
-					for _, goal in ipairs(step.goals) do
-						if type(goal) == "table" then
-							tr(goal, "note")
-							tr(goal, "text")
-							if goal.t == "kill" and goal.npc == nil and goal.quest == nil then tr(goal, "target") end
-						end
-					end
-				end
-			end
-		end
-	end
+	translateSteps(def, tr)
+	local n = count()
 	if n > 0 then
 		diag.guides = diag.guides + 1
 		diag.texts = diag.texts + n
 	end
+end
+
+-- A deferred guide's steps, read in (they come back after Guides.Release, English again).
+local function translateDeferred(def)
+	local t = guideTable(def)
+	if not t then return end
+	local tr, count = translator(t)
+	translateSteps(def, tr)
+	if count() > 0 then diag.deferred = (diag.deferred or 0) + 1 end
 end
 
 local function hookGuides(P)
@@ -184,6 +215,19 @@ local function hookGuides(P)
 			return prepare(def, ...)
 		end
 		diag.hooks.prepare = true
+	end
+	-- Polestar 0.4.3: a deferred guide's steps (stepsSrc) are read in on first use and
+	-- put in the client's language by PrepareSteps, after Prepare saw only the header.
+	if type(GT) == "table" and type(GT.PrepareSteps) == "function" then
+		local prepareSteps = GT.PrepareSteps
+		GT.PrepareSteps = function(def, ...)
+			if type(def) == "table" and def.pack == OFFICIAL_PACK and type(def.id) == "string" then
+				local ok, err = pcall(translateDeferred, def)
+				if not ok then diag.error = tostring(err) end
+			end
+			return prepareSteps(def, ...)
+		end
+		diag.hooks.prepareSteps = true
 	end
 	-- A guide folder ("Mounts · Drops"): GuideTexts asks PackText for it.
 	if type(GT) == "table" and type(GT.PackText) == "function" then

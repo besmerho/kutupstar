@@ -108,7 +108,8 @@ return {
 	["From the quest data: back west to {npc:5397} in {area:606}. She needs Tears of Theradras: {npc:253713}, the Voice of Theradras, keeps them in the cave in the south of the village, past {npc:253140}. Ask her for them on {npc:5397}'s behalf and bring three back. {npc:253140} takes {quest:92812} on the way."] = "Görev verisine göre: batıya, {area:606} köyündeki {npc:5397} yanına dön. Tears of Theradras istiyor: Theradras'ın Sesi {npc:253713} onları köyün güneyindeki mağarada, {npc:253140} yanının ötesinde saklıyor. {npc:5397} adına ondan iste ve üç tane geri getir. {npc:253140} yolda {quest:92812} görevini teslim alır.",
 	-- {npc:253713} Mulara
 	["{npc:253713}, in the cave"] = "{npc:253713}, mağarada",
-	["three Tears of Theradras"] = "üç Tears of Theradras",
+	-- {npc:253713} Mulara
+	["three Tears of Theradras, in {npc:253713}'s cave"] = "üç Tear of Theradras, {npc:253713} mağarasında",
 
 	-- Step 15: Gelkis: Test Your Theory
 	-- {quest:93045} Test Your Theory

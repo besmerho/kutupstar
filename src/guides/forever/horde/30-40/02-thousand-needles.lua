@@ -126,13 +126,17 @@ return {
 	-- {npc:4483} Moktar Krin
 	["Take the lift down and follow the canyon east. {npc:4483} camps on the north-western edge of the salt flats."] = "Asansörle in ve kanyonu doğuya izle. {npc:4483} tuz düzlüklerinin kuzeybatı kenarında kamp kurmuş.",
 
-	-- Step 24: Mirage Raceway
+	-- Step 24: Moktar Krin
+	-- {quest:1146} The Swarm Grows · {npc:4483} Moktar Krin
+	["{quest:1146}' second part is already handed in: take the third part from {npc:4483}, on the north-western edge of the salt flats."] = "{quest:1146} görevinin ikinci kısmı zaten teslim edildi: üçüncü kısmı tuz düzlüklerinin kuzeybatı kenarındaki {npc:4483} adlı NPC'den al.",
+
+	-- Step 25: Mirage Raceway
 	-- {area:2240} Mirage Raceway
 	["The goblins and gnomes of the {area:2240} are neutral and give quests to both factions."] = "{area:2240} pistinin goblinleri ve gnome'ları tarafsız ve iki tarafa da görev verir.",
 	-- {npc:4452} Kravel Koalbeard · {quest:5762} Hemet Nesingwary
 	["{npc:4452}'s crate for {quest:5762} in Stranglethorn, later on the route"] = "Rotada daha sonra, Stranglethorn'daki {quest:5762} için {npc:4452} adlı NPC'nin sandığı",
 
-	-- Step 25: Shimmering Flats: kill these as you meet them
+	-- Step 26: Shimmering Flats: kill these as you meet them
 	-- {area:439} Shimmering Flats
 	["{area:439}: kill these as you meet them"] = "{area:439}: bunları karşılaştıkça öldür",
 	-- plural, as words: Saltstone Basilisks = {npc:4147} Saltstone Basilisk · Sparkleshell Tortoises = {npc:4142} Sparkleshell Tortoise · Salt Flats Scavengers = {npc:4154} Salt Flats Scavenger · Sparkleshell Snappers = {npc:4143} Sparkleshell Snapper · Scorpid Terrors = {npc:4139} Scorpid Terror
@@ -146,7 +150,7 @@ return {
 	-- plural, as words: Scorpid Reavers = {npc:4140} Scorpid Reaver
 	["{quest:1104}, from the Scorpid Reavers of the north half"] = "{quest:1104}: kuzey yarısındaki Scorpid Reaver yaratıklarından",
 
-	-- Step 26: Mirage Raceway
+	-- Step 27: Mirage Raceway
 	["South-west back to the raceway."] = "Güneybatıya, yarış pistine dön.",
 	-- {npc:4452} Kravel Koalbeard · {quest:1111} Wharfmaster Dizzywig · {area:392} Ratchet
 	["{npc:4452}: his parts order goes to {quest:1111} in {area:392}, later on the route"] = "{npc:4452}: parça siparişi rotada daha sonra {area:392} limanındaki {quest:1111} yanına gider",
@@ -155,7 +159,7 @@ return {
 	-- {npc:4630} Pozzik · {area:392} Ratchet
 	["{npc:4630}: for Gazlowe in {area:392}, later on the route"] = "{npc:4630}: rotada daha sonra, {area:392} limanındaki Gazlowe için",
 
-	-- Step 27: Level 32
+	-- Step 28: Level 32
 	["Level 32"] = "Seviye 32",
 	-- {zone:1443} Desolace · {area:1717} Razorfen Kraul
 	-- plural, as words: Scorpid Reavers = {npc:4140} Scorpid Reaver · Sparkleshell Snappers = {npc:4143} Sparkleshell Snapper · Scorpid Terrors = {npc:4139} Scorpid Terror
@@ -165,77 +169,77 @@ return {
 	-- {npc:4140} Scorpid Reaver
 	["grind on {npc:4140}"] = "Kas: {npc:4140}",
 
-	-- Step 28: The southern flats
+	-- Step 29: The southern flats
 	["The southern flats"] = "Güney düzlükleri",
 	-- plural, as words: Saltstone Crystalhides = {npc:4151} Saltstone Crystalhide
 	["South of the raceway, the Saltstone Crystalhides (32-33) and Gazers (34-35) roam the far end of the flats.\nCareful: the level 35 Gazers can still be two over you: pull them one at a time from the camp's edge, never two together."] = "Pistin güneyinde Saltstone Crystalhide (32-33) ve Gazer (34-35) yaratıkları düzlüklerin uzak ucunda dolaşıyor.\nDikkat: 35. seviye Gazer'lar hâlâ senden iki seviye yüksek olabilir: onları kampın kenarından tek tek çek, asla ikisini birden değil.",
 
-	-- Step 29: The Rustmaul Dig Site
+	-- Step 30: The Rustmaul Dig Site
 	-- {item:5877} Cracked Silithid Carapace · {npc:4132} Silithid Ravager
 	["West of them the silithid swarm the dig site. Searchers and Hive Drones walk among the mounds; the Invaders (34-35) stay inside the hive cave. The first silithid you kill drops a {item:5877}: open it.\nCareful: Hive Drones call for help when they fall to 20% health, and the {npc:4132} (37, rare) walks the dig: take the Searchers and Drones (32-34) outside first, then pull the Invaders (34-35) one at a time from the cave mouth."] = "Onların batısında silithid'ler kazı alanını sarmış. Searcher ve Hive Drone'lar tümseklerin arasında yürüyor. Invader'lar (34-35) kovan mağarasının içinde kalıyor. Öldürdüğün ilk silithid bir {item:5877} düşürür: onu aç.\nDikkat: Hive Drone'lar canları %20'ye düşünce yardım çağırır, {npc:4132} (37, rare) de kazıda yürür: önce dışarıdaki Searcher ve Drone'ları (32-34) al, sonra Invader'ları (34-35) mağara ağzından tek tek çek.",
 
-	-- Step 30: Parts of the Swarm
+	-- Step 31: Parts of the Swarm
 	["Keep killing silithid at the dig site for the heart, the talons and the carapaces."] = "Kalp, pençeler ve kabuklar için kazı alanındaki silithid'leri öldürmeye devam et.",
 
-	-- Step 31: Moktar Krin
+	-- Step 32: Moktar Krin
 	-- {npc:4483} Moktar Krin
 	["North from the dig to {npc:4483}'s camp on the western edge of the flats."] = "Kazı alanından kuzeye, düzlüklerin batı kenarındaki {npc:4483} adlı NPC'nin kampına git.",
 
-	-- Step 32: Mirage Raceway
+	-- Step 33: Mirage Raceway
 	-- {area:976} Gadgetzan
 	["East to the raceway, on the way south to {area:976}."] = "Güneye, {area:976} yolunda doğuya, piste git.",
 
-	-- Step 33: Gadgetzan
+	-- Step 34: Gadgetzan
 	-- {zone:1446} Tanaris · {area:976} Gadgetzan · {area:484} Freewind Post
 	["South from the raceway over the {zone:1446} border to {area:976}, the walled goblin town: learn its flight path and fly back to {area:484} from there, which is quicker than the walk west across the flats, and the next guides fly straight to {area:976}."] = "Pistten güneye, {zone:1446} sınırını geçip surlu goblin kasabası {area:976} kasabasına git: uçuş hattını öğren ve oradan {area:484} karakoluna uç. Bu, düzlükler boyunca batıya yürümekten daha hızlı, sonraki rehberler de doğrudan {area:976} kasabasına uçar.",
 
-	-- Step 35: Freewind Post
+	-- Step 36: Freewind Post
 	-- {npc:10537} Cliffwatcher Longhorn
 	["{npc:10537} stands in the middle of the post, on the way to the flight master."] = "{npc:10537}, uçuş ustasına giden yolda, karakolun ortasında duruyor.",
 	-- {npc:10537} Cliffwatcher Longhorn · {npc:11259} Nataka Longhorn · {zone:1443} Desolace
 	["{npc:10537}: for {npc:11259} in {zone:1443}, next"] = "{npc:10537}: sıradaki {zone:1443} bölgesindeki {npc:11259} için",
 
-	-- Step 36: Fly to Sun Rock Retreat
+	-- Step 37: Fly to Sun Rock Retreat
 	-- {area:460} Sun Rock Retreat
 	["Fly to {area:460}"] = "{area:460} sığınağına uç",
 	-- {area:484} Freewind Post
 	["{area:484} flight master"] = "{area:484} uçuş ustası",
 
-	-- Step 38: Scrabblescrew's Camp
+	-- Step 39: Scrabblescrew's Camp
 	-- {zone:1443} Desolace · {npc:11596} Smeed Scrabblescrew
 	["Head south out of Stonetalon into {zone:1443} and follow the road south to {npc:11596}'s camp."] = "Stonetalon'dan güneye, {zone:1443} bölgesine çık ve yolu güneye, {npc:11596} adlı NPC'nin kampına kadar izle.",
 
-	-- Step 39: Ghost Walker Post
+	-- Step 40: Ghost Walker Post
 	-- {npc:5395} Felgur Twocuts · {npc:11259} Nataka Longhorn · {npc:5641} Takata Steelblade · {npc:4498} Maurin Bonesplitter · {area:596} Kodo Graveyard
 	["{npc:5395} stands in the post, {npc:11259} up on its rise; {npc:5641} and {npc:4498} wait on the rise west of it, above the {area:596}."] = "{npc:5395} karakolda, {npc:11259} yamacın üstünde duruyor. {npc:5641} ve {npc:4498} onun batısındaki yamaçta, {area:596} mezarlığının yukarısında bekliyor.",
 	-- {npc:11259} Nataka Longhorn
 	["{npc:11259}, up on the rise"] = "{npc:11259}, yamacın üstünde",
 
-	-- Step 41: Takata Steelblade and Maurin Bonesplitter
+	-- Step 42: Takata Steelblade and Maurin Bonesplitter
 	-- {npc:5641} Takata Steelblade · {npc:4498} Maurin Bonesplitter
 	["{npc:5641} and {npc:4498}"] = "{npc:5641} ve {npc:4498}",
 
-	-- Step 42: Ethel Rethor
+	-- Step 43: Ethel Rethor
 	-- {area:2405} Ethel Rethor · {npc:11863} Azore Aldamort · {area:599} Thunder Axe Fortress
 	["From the rise, north-west across the plain to the ruined tower of {area:2405}: {npc:11863} waits inside. His errand is in {area:599}, the next stop; he takes it back on the walk up the coast later in this guide."] = "Tepeden kuzeybatıya, düzlüğü geçip {area:2405} yıkık kulesine git: {npc:11863} içeride bekliyor. İşi sıradaki durak {area:599} içinde. Bu rehberde daha sonra kıyı boyunca kuzeye yürürken onu geri alır.",
 
-	-- Step 43: Thunder Axe Fortress
+	-- Step 44: Thunder Axe Fortress
 	-- {area:599} Thunder Axe Fortress · {item:6436} Burning Gem · {item:6435} Infused Burning Gem · {npc:13019} Burning Blade Seer · {item:20310} Flayed Demon Skin · {object:176581} Hand of Iruxos Crystal · {npc:11876} Demon Spirit · {zone:1443} Desolace
 	["Head east to {area:599}. Beat a Burning Blade cultist down, then use the {item:6436} on it before it dies to fill one {item:6435}. The {npc:13019} stands on the fortress's top floor with the Sceptre. The cultists also drop a {item:20310} now and then (1-5%); if one drops, read it. Leave the red {object:176581} for now: its {npc:11876} is 37, and the second {zone:1443} visit comes back for it."] = "Doğuya, {area:599} kalesine git. Bir Burning Blade tarikatçısını hırpala, sonra ölmeden önce üzerinde {item:6436} eşyasını kullanarak bir {item:6435} doldur. {npc:13019} kalenin en üst katında Sceptre ile duruyor. Tarikatçılar arada bir {item:20310} de düşürür (%1-5), düşerse oku. Kırmızı {object:176581} kristaline şimdilik dokunma: {npc:11876} 37. seviye, ikinci {zone:1443} ziyareti onun için geri gelir.",
 	["On the top floor"] = "En üst katta",
 
-	-- Step 44: Sargeron
+	-- Step 45: Sargeron
 	-- {area:603} Sargeron
 	-- plural, as words: Hatefury Rogues = {npc:4670} Hatefury Rogue
 	["East from the fortress along the northern hills to the satyrs' ruins of {area:603}. The Shadowstalkers walk unseen.\nCareful: Hatefury Rogues use Hide when they spawn, so they are stealthed until you find them."] = "Kaleden kuzey tepeleri boyunca doğuya, satyr'ların {area:603} harabelerine git. Shadowstalker'lar görünmeden yürüyor.\nDikkat: Hatefury Rogue yaratıkları doğdukları anda Hide kullanır, onları bulana kadar gizlidirler.",
 
-	-- Step 45: Khan Dez'hepah
+	-- Step 46: Khan Dez'hepah
 	-- {area:609} Kolkar Village · {quest:1365} Khan Dez'hepah
 	-- plural, as words: Kolkar Battle Lords = {npc:4636} Kolkar Battle Lord
 	-- was: ["South to {area:609}. {quest:1365} (35) walks among the tents on the east side with a Battle Lord or two (32-33): clear around him, then pull him alone at full health.\nCareful: Kolkar Battle Lords call nearby allies within 30 yd once they fall to 20% health."] = "Nach Süden zum {area:609}. {quest:1365} (35) läuft zwischen den Zelten auf der Ostseite umher, mit einem oder zwei Schlachtfürsten (32-33): Räume um ihn herum und zieh ihn dann allein bei voller Gesundheit.\nVorsicht: Kolkar-Schlachtfürsten rufen nahe Verbündete im Umkreis von 30 yd, sobald sie auf 20% Gesundheit fallen."
 	["South to {area:609}. {quest:1365} (35) walks among the tents on the east side with a Battle Lord or two (32-33): clear around him, then pull him alone at full health.\nCareful: {quest:1365} is level 35, about two levels over you here, and Kolkar Battle Lords call nearby allies within 30 yd once they fall to 20% health."] = "Güneye, {area:609} köyüne git. {quest:1365} (35) doğu taraftaki çadırların arasında bir iki Battle Lord (32-33) ile dolaşıyor: çevresini temizleyip onu canın tamken yalnız çek.\nDikkat: {quest:1365} seviye 35, burada senden yaklaşık iki seviye yüksek. Kolkar Battle Lord yaratıkları da canları %20'ye inince 30 yard içindeki müttefiklerini çağırır.",
 
-	-- Step 46: Ghost Walker Post
+	-- Step 47: Ghost Walker Post
 	-- {npc:5641} Takata Steelblade · {npc:4498} Maurin Bonesplitter · {npc:5395} Felgur Twocuts · {npc:5412} Gurda Wildmane
 	["South-west down the road to the post: {npc:5641} and {npc:4498} on the rise west of it, {npc:5395} and {npc:5412} side by side in the post."] = "Yoldan güneybatıya, karakola in: {npc:5641} ve {npc:4498} karakolun batısındaki tepede, {npc:5395} ve {npc:5412} karakolda yan yana.",
 	-- {npc:5641} Takata Steelblade · {npc:5640} Keldran · {zone:1454} Orgrimmar
@@ -247,7 +251,7 @@ return {
 	-- {npc:5412} Gurda Wildmane
 	["{npc:5412}: her totems drop from the same Magram centaurs"] = "{npc:5412}: totemleri aynı Magram centaur'larından düşer",
 
-	-- Step 47: Kodo Graveyard
+	-- Step 48: Kodo Graveyard
 	-- {npc:11596} Smeed Scrabblescrew · {item:13892} Kodo Kombobulator · {npc:4702} Ancient Kodo · {npc:11521} Kodo Apparition
 	["Use {npc:11596}'s {item:13892} on an Aged, Dying or {npc:4702} in the graveyard and walk the tamed kodo back to {npc:11596}. At his camp, talk to the kodo: that counts it and lets you tame the next. Five kodos, one at a time. Careful: leave the kodo skulls on the ground alone: opening one raises a {npc:11521} (37-38) that hits hard."] = "{npc:11596} adlı NPC'nin {item:13892} eşyasını mezarlıktaki bir Aged, Dying ya da {npc:4702} üzerinde kullan ve evcilleştirilen kodo'yu {npc:11596} yanına yürüt. Kampında kodo ile konuş: bu onu sayar ve bir sonrakini evcilleştirmeni sağlar. Beş kodo, birer birer. Dikkat: yerdeki kodo kafataslarına dokunma: birini açmak sert vuran bir {npc:11521} (37-38) yaratığını kaldırır.",
 	-- {npc:4702} Ancient Kodo
@@ -255,7 +259,7 @@ return {
 	-- {npc:11596} Smeed Scrabblescrew
 	["the tamed kodo, at {npc:11596}'s camp: talk to it, five times"] = "{npc:11596} kampında evcil kodo: onunla beş kez konuş",
 
-	-- Step 49: Magram Village
+	-- Step 50: Magram Village
 	-- {npc:5395} Felgur Twocuts · {item:254432} Carved Centaur Totem
 	-- plural, as words: Dread Rippers = {npc:4694} Dread Ripper
 	["South-east of Smeed's camp, the Magram centaurs camp in the hills. The Scouts and Outrunners (32-33) and the Wranglers (33-34) hold the camp's north-western edge; any centaur can drop an ear for {npc:5395} and a {item:254432} for Gurda. Careful on the way: Scorpashi Venomlashes (38-39) and Dread Rippers (39-40) roam the ground just west of the camp's edge: give them room.\nCareful: the Stormers and Pack Runners (34-35), Marauders and Maulers (35-36) and the Bonepaws (37-38) hold the middle and south of the camp: stay on its north-western edge and pull one at a time."] = "Smeed'in kampının güneydoğusunda Magram centaur'ları tepelerde kamp kurmuş. Scout ve Outrunner'lar (32-33) ile Wrangler'lar (33-34) kampın kuzeybatı kenarını tutuyor. Her centaur {npc:5395} için kulak ve Gurda için {item:254432} düşürebilir. Yolda dikkat: Scorpashi Venomlash (38-39) ve Dread Ripper yaratıkları (39-40) kampın kenarının hemen batısında dolaşıyor: onlardan uzak dur.\nDikkat: Stormer ve Pack Runner'lar (34-35), Marauder ve Mauler'lar (35-36) ve Bonepaw'lar (37-38) kampın ortasını ve güneyini tutuyor: kuzeybatı kenarında kal, tek tek çek.",
@@ -265,10 +269,10 @@ return {
 	-- {item:254432} Carved Centaur Totem
 	["{item:254432}, from the same centaurs"] = "{item:254432}, aynı centaur'lardan",
 
-	-- Step 50: Ghost Walker Post
+	-- Step 51: Ghost Walker Post
 	["Back north-west to the post, on your way west."] = "Batıya giderken kuzeybatıya, karakola dön.",
 
-	-- Step 51: Shadowprey Village
+	-- Step 52: Shadowprey Village
 	-- {area:606} Gelkis Village
 	["Head west to the troll village on the coast, keeping clear of the {area:606} on the way."] = "Batıya, kıyıdaki troll köyüne git. Yolda {area:606} köyünden uzak dur.",
 	-- {npc:11877} Roon Wildmane · {quest:5762} Hemet Nesingwary
@@ -276,21 +280,21 @@ return {
 	-- {npc:6726} Thalon
 	["{npc:6726}, at the village's south-west end"] = "{npc:6726}, köyün güneybatı ucunda",
 
-	-- Step 52: Drulzegar Skraghook
+	-- Step 53: Drulzegar Skraghook
 	-- {npc:12340} Drulzegar Skraghook · {npc:12031} Mai'Lahii · {quest:6143} Other Fish to Fry · {area:598} Sar'theris Strand
 	["{npc:12340} stands at the village's south end, near {npc:12031}. At your level his {quest:6143} fits the walk north along the coast: the southern half of {area:598}, from level 34."] = "{npc:12340}, köyün güney ucunda, {npc:12031} yakınında duruyor. Senin seviyende {quest:6143} görevi kıyı boyunca kuzeye yürüyüşe uyuyor: seviye 34'ten itibaren {area:598} sahilinin güney yarısı.",
 
-	-- Step 53: Ethel Rethor
+	-- Step 54: Ethel Rethor
 	-- {npc:11863} Azore Aldamort · {area:2406} Ranazjar Isle
 	["North along the coast, then inland to {npc:11863}'s tower. The coast's clams and naga come next, on one walk north to {area:2406}."] = "Kıyı boyunca kuzeye, sonra iç kesime, {npc:11863} adlı NPC'nin kulesine git. Kıyıdaki istiridyeler ve nagalar sırada, {area:2406} adasına kuzeye tek bir yürüyüşte.",
 	-- {npc:11863} Azore Aldamort · {item:15803} Book of the Ancients · {npc:12369} Lord Kragaru · {area:2406} Ranazjar Isle
 	["{npc:11863}'s next errand, the {item:15803}, needs {npc:12369} (38) out on {area:2406}: leave it, he is over your level."] = "{npc:11863} adlı NPC'nin bir sonraki işi, {item:15803}, {area:2406} adasındaki {npc:12369} (38) yaratığını ister: bırak, senin seviyenin üstünde.",
 
-	-- Step 54: Rackmore's Log
+	-- Step 55: Rackmore's Log
 	-- {object:177787} Rackmore's Log · {npc:11863} Azore Aldamort
 	["{object:177787} lies on the ground just south-west of {npc:11863}'s tower, on the way down to the shore: read it. Its two keys drop only while you have the quest."] = "{object:177787}, {npc:11863} adlı NPC'nin kulesinin hemen güneybatısında, kıyıya inen yolda yerde duruyor: oku. İki anahtarı yalnızca görev sendeyken düşer.",
 
-	-- Step 55: Clam beds
+	-- Step 56: Clam beds
 	["Clam beds"] = "İstiridye yatakları",
 	-- {item:15874} Soft-shelled Clam · {item:15878} Rackmore's Silver Key
 	-- plural, as words: Giant Softshell Clams = {object:177784} Giant Softshell Clam · Enraged Reef Crawlers = {npc:12347} Enraged Reef Crawler · Drysnap Crawlers = {npc:11562} Drysnap Crawler
@@ -303,28 +307,28 @@ return {
 	-- {item:15878} Rackmore's Silver Key
 	["{item:15878}, from the Drysnap crabs"] = "{item:15878}, Drysnap yengeçlerinden",
 
-	-- Step 56: Sar'theris Strand
+	-- Step 57: Sar'theris Strand
 	-- {area:598} Sar'theris Strand · {item:15881} Rackmore's Golden Key · {zone:1443} Desolace
 	-- was: ["Keep north to {area:598} for {item:15881}: any Slitherblade can drop it.\nCareful: the Myrmidons (34-35) hold the beach's northern half with the Sea Witches and Oracles (34-36, casters), up to two over you at 33: work the Naga and Sorceresses (32-33) of the southern half until the key drops, and leave the north for the second {zone:1443} visit, at 38."] = "Weiter nach Norden zum {area:598} für {item:15881}: Jeder Slitherblade kann ihn fallen lassen.\nVorsicht: Die Myrmidonen (34-35) halten mit den Meerhexen und Orakeln (34-36, Zauberwirker) die Nordhälfte des Strands, bis zu zwei Stufen über dir mit 33: Bearbeite die Naga und Zauberinnen (32-33) der Südhälfte, bis der Schlüssel fällt, und heb dir den Norden für den zweiten Besuch in {zone:1443} auf, mit 38."
 	["Keep north to {area:598} for {item:15881}: any Slitherblade can drop it.\nCareful: the Myrmidons (34-35) hold the beach's northern half with the Sea Witches and Oracles (34-36, casters), up to two over you at 33: work the Naga and Sorceresses (32-33) of the southern half until the key drops, and leave the north for the second {zone:1443} visit, at about 37."] = "{item:15881} için kuzeye, {area:598} sahiline devam et: herhangi bir Slitherblade düşürebilir.\nDikkat: kumsalın kuzey yarısını Myrmidon'lar (34-35), Sea Witch ve Oracle'larla (34-36, büyücü) birlikte tutuyor, 33'te senden iki seviyeye kadar yüksekler: anahtar düşene kadar güney yarısındaki Naga ve Sorceress yaratıklarını (32-33) avla, kuzeyi yaklaşık 37. seviyedeki ikinci {zone:1443} ziyaretine bırak.",
 	-- {item:15881} Rackmore's Golden Key
 	["{item:15881}, from the Slitherblade naga"] = "{item:15881}, Slitherblade naga'larından",
 
-	-- Step 57: Sar'theris Strand: Other Fish to Fry
+	-- Step 58: Sar'theris Strand: Other Fish to Fry
 	["Stay in the southern half of the strand, where Rackmore's key drops: eight Myrmidons (34-35) walk there among the Naga, Sorceresses and Warriors (32-34).\nCareful: the northern half belongs to the Sea Witches (35-36, casters) and, at its tip, the Tidehunters (36-37): keep south of the middle of the beach."] = "Rackmore'un anahtarının düştüğü sahilin güney yarısında kal: orada Naga, Sorceress ve Warrior yaratıklarının (32-34) arasında sekiz Myrmidon (34-35) dolaşıyor.\nDikkat: kuzey yarısı Sea Witch'lerin (35-36, büyücü), ucu da Tidehunter'ların (36-37): kumsalın ortasının güneyinde kal.",
 	-- {npc:4714} Slitherblade Myrmidon
 	["{npc:4714}, in the strand's southern half"] = "{npc:4714}, sahilin güney yarısında",
 
-	-- Step 58: Rackmore's Chest
+	-- Step 59: Rackmore's Chest
 	-- {area:2406} Ranazjar Isle · {object:177786} Rackmore's Chest · {object:177673} Serpent Statue
 	["Swim out to {area:2406} off the far northern tip: {object:177786} stands on the shore beside the {object:177673}. Open it with both keys; leave the statue alone."] = "En kuzey uçtan açıktaki {area:2406} adasına yüz: {object:177786} kıyıda, {object:177673} heykelinin yanında duruyor. İki anahtarla da aç, heykele dokunma.",
 
-	-- Step 59: Shadowprey Village
+	-- Step 60: Shadowprey Village
 	["Hearth to Shadowprey (you bound it on the way in), or walk back south along the coast."] = "Hearthstone ile Shadowprey'e dön (girerken bağladın) ya da kıyı boyunca güneye geri yürü.",
 	-- {item:14547} Hand of Iruxos · {npc:12340} Drulzegar Skraghook · {quest:6143} Other Fish to Fry · {zone:1443} Desolace · {zone:1454} Orgrimmar · {zone:1434} Stranglethorn Vale
 	["Taiga's {item:14547}, {npc:12340}'s {quest:6143} (unless you did it on the strand) and {zone:1443}'s other 37-40 quests wait for the second visit, at about 37: the next guides fly to {zone:1454} and take the zeppelin to {zone:1434}."] = "Taiga'nın {item:14547} işi, {npc:12340} adlı NPC'nin {quest:6143} görevi (sahilde yapmadıysan) ve {zone:1443} bölgesinin diğer 37-40 görevleri yaklaşık 37. seviyedeki ikinci ziyareti bekliyor: sonraki rehberler {zone:1454} şehrine uçup {zone:1434} zeplinine biner.",
 
-	-- Step 60: Drulzegar Skraghook
+	-- Step 61: Drulzegar Skraghook
 	-- {npc:12340} Drulzegar Skraghook · {npc:12031} Mai'Lahii
 	["{npc:12340}, near {npc:12031}"] = "{npc:12340}, {npc:12031} yakınında",
 }

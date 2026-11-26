@@ -65,31 +65,35 @@ return {
 	-- {npc:5676} Summoned Voidwalker · {item:6928} Bloodstone Choker
 	["{npc:5676}: use the {item:6928} at the circle"] = "{npc:5676}: çemberde {item:6928} eşyasını kullan",
 
-	-- Step 15: The Jansen Stead
+	-- Step 15: The Binding
+	-- {item:6810} Surena's Choker · {npc:6122} Gakin the Darkbinder · {quest:1689} The Binding · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {item:6928} Bloodstone Choker
+	["{item:6810} is already with {npc:6122}: take {quest:1689} from him in the cellar of the {object:2164}, in the {object:2101}. Use the {item:6928} at the summoning circle there and defeat the voidwalker it calls."] = "{item:6810} eşyasını {npc:6122} zaten aldı: {object:2101} kesimindeki {object:2164} mahzeninde ondan {quest:1689} görevini al. Oradaki çağırma çemberinde {item:6928} kullanıp çağırdığı voidwalker'ı yen.",
+
+	-- Step 16: The Jansen Stead
 	-- {zone:1436} Westfall · {object:2724} Sack of Oats
 	["Follow the road from Elwynn into {zone:1436}: the Furlbrows sit by their burned farm, the first one on the road. Pick up oats from any {object:2724} you pass on the loop: the rest are gathered in the fields here on the way back."] = "Elwynn'den {zone:1436} bölgesine giden yolu izle: Furlbrow'lar yanmış çiftliklerinin yanında oturuyor, yoldaki ilk çiftlik. Turda önünden geçtiğin her {object:2724} nesnesinden yulaf al: geri kalanı dönüşte buradaki tarlalarda toplanır.",
 	-- {npc:237} Farmer Furlbrow · {npc:963} Deputy Rainer
 	["{npc:237}: Humans may have it already from {npc:963} in Elwynn"] = "{npc:237}: Human'larda Elwynn'deki {npc:963} sayesinde zaten olabilir",
 
-	-- Step 17: The Jansen Stead
+	-- Step 18: The Jansen Stead
 	-- {item:1972} Westfall Deed
 	["Only if you looted a {item:1972} in Elwynn: right-click it"] = "Yalnızca Elwynn'de {item:1972} loot ettiysen: ona sağ tıkla",
 
-	-- Step 18: Saldean's Farm
+	-- Step 19: Saldean's Farm
 	-- {npc:233} Farmer Saldean · {npc:235} Salma Saldean · {npc:253395} Ozwin Ironsprocket
 	-- plural, as words: Young Goretusks = {npc:454} Young Goretusk
 	["South along the road, past the fork. {npc:233} stands outside, {npc:235} in the house, {npc:253395} in the barn to the west. Young Goretusks and Fleshrippers roam the fields around the farm: start on livers and the stew's meat on the way."] = "Yol boyunca güneye, ayrımın ilerisine git. {npc:233} dışarıda, {npc:235} evin içinde, {npc:253395} batıdaki ahırda duruyor. Young Goretusk ve Fleshripper yaratıkları çiftliğin çevresindeki tarlalarda dolaşıyor: ciğerleri ve yahninin etini yolda toplamaya başla.",
 	-- {npc:235} Salma Saldean
 	["{npc:235}, inside"] = "{npc:235}, içeride",
 
-	-- Step 19: Goretusk Snouts
+	-- Step 20: Goretusk Snouts
 	-- plural, as words: Goretusk Snouts = {item:731} Goretusk Snout
 	["Goretusk Snouts"] = "Goretusk Snout burunları",
 	-- {area:108} Sentinel Hill
 	-- plural, as words: Young Goretusks = {npc:454} Young Goretusk
 	["Young Goretusks root in the fields along the road south from Saldean's to {area:108}: take their snouts on the way."] = "Young Goretusk yaratıkları Saldean'ın çiftliğinden {area:108} tepesine giden güney yolu boyunca tarlalarda toprağı eşeliyor: burunlarını yolda topla.",
 
-	-- Step 20: Sentinel Hill's tower and Thor
+	-- Step 21: Sentinel Hill's tower and Thor
 	-- {area:108} Sentinel Hill · {npc:523} Thor
 	["{area:108}'s tower and {npc:523}"] = "{area:108} tepesindeki kule ve {npc:523}",
 	-- {npc:234} Gryan Stoutmantle · {npc:821} Captain Danuvin · {npc:491} Quartermaster Lewis · {npc:523} Thor · {npc:878} Scout Galiaan · {npc:1323} Osric Strang · {zone:1453} Stormwind · {npc:279} Morgan Pestle · {object:2096} Trade District · {object:2156} Limited Immunity · {object:2100} Old Town · {npc:1646} Baros Alexston · {object:2098} Cathedral Square · {npc:352} Dungar Longdrink
@@ -101,34 +105,34 @@ return {
 	-- {npc:523} Thor · {zone:1453} Stormwind
 	["{npc:523}: the free flight he offers goes to {zone:1453}"] = "{npc:523}: önerdiği bedava uçuş {zone:1453} şehrine gider",
 
-	-- Step 21: Osric Strang
+	-- Step 22: Osric Strang
 	-- {npc:279} Morgan Pestle · {object:2096} Trade District
 	["{npc:279}, {object:2096}, by the gryphons"] = "{npc:279}, {object:2096}, grifonların yanında",
 	-- {npc:1323} Osric Strang · {object:2156} Limited Immunity · {object:2100} Old Town
 	["{npc:1323}, {object:2156} in {object:2100}"] = "{npc:1323}, {object:2100} semtinde, {object:2156}",
 
-	-- Step 22: Defensive Stance
+	-- Step 23: Defensive Stance
 	-- {npc:5480} Ilsa Corbin · {object:2100} Old Town · {npc:1323} Osric Strang · {zone:1455} Ironforge · {object:28027} Dwarven District · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern · {quest:1638} A Warrior's Training · {quest:1639} Bartleby the Drunk
 	["{npc:5480} trains warriors in {object:2100}, near {npc:1323}'s shop; the tram from {zone:1455} arrives in the {object:28027}, north of it. {npc:6089} and {npc:6090} stand together by the {object:2152} there. {npc:6090} fights you for his mug. If {npc:5480} doesn't offer {quest:1638}, go straight to {npc:6089}: he gives {quest:1639} without it."] = "{npc:5480}, {object:2100} semtinde, {npc:1323} adlı NPC'nin dükkânının yakınında Warrior eğitiyor. {zone:1455} şehrinden gelen tren, semtin kuzeyindeki {object:28027} semtine varıyor. {npc:6089} ve {npc:6090} oradaki {object:2152} meyhanesinin yanında birlikte duruyor. {npc:6090} kupası için seninle dövüşür. {npc:5480} sana {quest:1638} görevini vermezse doğrudan {npc:6089} ile konuş: o, {quest:1639} görevini onsuz da verir.",
 
-	-- Step 23: Baros Alexston
+	-- Step 24: Baros Alexston
 	-- {npc:1646} Baros Alexston · {object:2098} Cathedral Square · {zone:1436} Westfall
 	["{npc:1646}, {object:2098}: his compass is in his old house in {zone:1436}"] = "{npc:1646}, {object:2098}: pusulası {zone:1436} bölgesindeki eski evinde",
 
-	-- Step 24: Class trainer
+	-- Step 25: Class trainer
 	["Class trainer"] = "Sınıf eğitmeni",
 	-- {object:2100} Old Town · {object:2098} Cathedral Square · {object:2101} Mage Quarter · {object:28027} Dwarven District
 	["While you're in the city: Warriors and Rogues train in {object:2100}, Paladins and Priests in the Cathedral of Light across {object:2098}, Mages and Warlocks in the {object:2101}, Hunters in the {object:28027}."] = "Şehirdeyken: Warrior ve Rogue'lar {object:2100} içinde, Paladin ve Priest'ler {object:2098} meydanının karşısındaki Cathedral of Light'ta, Mage ve Warlock'lar {object:2101} içinde, Hunter'lar {object:28027} içinde eğitim alır.",
 
-	-- Step 26: High Priestess Laurena
+	-- Step 27: High Priestess Laurena
 	-- {npc:376} High Priestess Laurena · {object:2098} Cathedral Square · {npc:1646} Baros Alexston
 	["{npc:376} is in the Cathedral of Light, across {object:2098} from {npc:1646}."] = "{npc:376}, Cathedral of Light içinde. {object:2098} meydanının karşı tarafında, {npc:1646} adlı NPC'nin karşısında.",
 
-	-- Step 27: Dungar Longdrink
+	-- Step 28: Dungar Longdrink
 	-- {npc:352} Dungar Longdrink
 	["{npc:352}, the gryphon master"] = "Grifon ustası {npc:352}",
 
-	-- Step 28: Sentinel Hill
+	-- Step 29: Sentinel Hill
 	-- {npc:234} Gryan Stoutmantle · {npc:821} Captain Danuvin · {npc:491} Quartermaster Lewis · {npc:878} Scout Galiaan · {npc:523} Thor
 	["{npc:234} and {npc:821} stand at the top of the stone tower. {npc:491} is in the tower, {npc:878} on the south side of the hill, next to the inn and {npc:523} the gryphon master."] = "{npc:234} ve {npc:821} taş kulenin tepesinde duruyor. {npc:491} kulenin içinde, {npc:878} tepenin güney yakasında, hanın ve grifon ustası {npc:523} adlı NPC'nin yanında.",
 	-- {npc:491} Quartermaster Lewis · {zone:1453} Stormwind
@@ -136,38 +140,38 @@ return {
 	-- {npc:253092} Alba Fairmoon · {npc:878} Scout Galiaan
 	["{npc:253092}, beside {npc:878}"] = "{npc:253092}, {npc:878} adlı NPC'nin yanında",
 
-	-- Step 30: Goretusk Livers as you go
+	-- Step 31: Goretusk Livers as you go
 	-- plural, as words: Goretusk Livers = {item:723} Goretusk Liver
 	["Goretusk Livers as you go"] = "Yol üstünde Goretusk Liver",
 	-- plural, as words: Goretusks = {npc:157} Goretusk · Young Goretusks = {npc:454} Young Goretusk
 	["Goretusks and Young Goretusks root along every leg of this loop: kill the ones you pass for the pie's livers."] = "Goretusk ve Young Goretusk yaratıkları bu turun her bacağında toprağı eşeliyor: turtanın ciğerleri için önünden geçtiklerini öldür.",
 
-	-- Step 31: Stringy Vulture Meat as you go
+	-- Step 32: Stringy Vulture Meat as you go
 	-- {item:729} Stringy Vulture Meat
 	["{item:729} as you go"] = "Yol üstünde {item:729}",
 	["Fleshrippers circle the fields along this loop: kill the ones you pass for the stew's meat."] = "Bu tur boyunca tarlaların üzerinde Fleshripper'lar dönüyor: yahninin eti için önünden geçtiklerini öldür.",
 	-- {item:729} Stringy Vulture Meat
 	["{item:729}: Fleshrippers"] = "{item:729}: Fleshripper yaratıkları",
 
-	-- Step 32: Red Leather Bandanas as you go
+	-- Step 33: Red Leather Bandanas as you go
 	-- {quest:153} Red Leather Bandanas
 	["{quest:153} as you go"] = "Yol üstünde {quest:153}",
 	-- {item:829} Red Leather Bandana · {object:290} Furlbrow's Wardrobe
 	["Every Defias on this loop can drop a {item:829}: the Trappers and Smugglers, and the guards at {object:290}."] = "Bu turdaki her Defias bir {item:829} düşürebilir: Trapper'lar ve Smuggler'lar, bir de {object:290} başındaki muhafızlar.",
 
-	-- Step 33: Defias Trappers and Smugglers
+	-- Step 34: Defias Trappers and Smugglers
 	-- plural, as words: Defias Trappers = {npc:504} Defias Trapper
 	["Defias Trappers and Smugglers"] = "Defias Trapper ve Smuggler yaratıkları",
 	-- {area:108} Sentinel Hill · {area:918} Molsen Farm
 	-- plural, as words: Defias Trappers = {npc:504} Defias Trapper
 	["North-west from {area:108} toward {area:918}: Defias Trappers and Smugglers camp in the fields between them."] = "{area:108} tepesinden kuzeybatıya, {area:918} çiftliğine doğru git: Defias Trapper ve Smuggler yaratıkları ikisinin arasındaki tarlalarda kamp kurmuş.",
 
-	-- Step 34: Molsen Farm's well
+	-- Step 35: Molsen Farm's well
 	-- {area:918} Molsen Farm
 	["{area:918}'s well"] = "{area:918} çiftliğinin kuyusu",
 	["Fill the vial at the farm's well"] = "Şişeyi çiftliğin kuyusunda doldur",
 
-	-- Step 35: The gnoll hills
+	-- Step 36: The gnoll hills
 	["The gnoll hills"] = "Gnoll tepeleri",
 	-- {area:111} Jangolode Mine · {area:916} The Jansen Stead
 	-- plural, as words: Riverpaw Gnolls = {npc:117} Riverpaw Gnoll
@@ -175,7 +179,7 @@ return {
 	-- plural, as words: Gnoll Paws = {item:725} Gnoll Paw
 	["Gnoll Paws"] = "Gnoll Paw",
 
-	-- Step 36: The Longshore murlocs
+	-- Step 37: The Longshore murlocs
 	-- {area:2} Longshore
 	["The {area:2} murlocs"] = "{area:2} kıyısının murloc'ları",
 	-- {area:916} The Jansen Stead
@@ -184,61 +188,61 @@ return {
 	-- plural, as words: Longshore Murloc Gills = {item:254548} Longshore Murloc Gill
 	["Longshore Murloc Gills"] = "Longshore Murloc Gill",
 
-	-- Step 37: Furlbrow's Wardrobe
+	-- Step 38: Furlbrow's Wardrobe
 	-- {object:290} Furlbrow's Wardrobe · {area:916} The Jansen Stead · {npc:502} Benny Blaanco
 	["{object:290} stands in the ruined house east of the mine, on the way to the {area:916}.\nCareful: Two Defias stand guard inside, one of them the level 15 named {npc:502}. They are linked, so attacking either one brings both."] = "{object:290}, madenin doğusundaki yıkık evde, {area:916} çiftliğine giden yolda duruyor.\nDikkat: İçeride iki Defias nöbet tutuyor, biri seviye 15 adlı {npc:502}. Bağlantılılar, birine saldırmak ikisini birden getirir.",
 	-- {object:290} Furlbrow's Wardrobe
 	["{object:290}; inside"] = "{object:290}, içeride",
 
-	-- Step 38: The Jansen Stead
+	-- Step 39: The Jansen Stead
 	["Sacks of Oats in the fields around the farm"] = "Çiftliğin çevresindeki tarlalarda Sack of Oats çuvalları",
 	["Fill the vial at the well"] = "Şişeyi kuyuda doldur",
 
-	-- Step 39: Harvest Watchers north of Saldean's Farm
+	-- Step 40: Harvest Watchers north of Saldean's Farm
 	-- {area:107} Saldean's Farm
 	-- plural, as words: Harvest Watchers = {npc:114} Harvest Watcher
 	["Harvest Watchers north of {area:107}"] = "{area:107} çiftliğinin kuzeyindeki Harvest Watcher yaratıkları",
-	-- {area:916} The Jansen Stead · {area:107} Saldean's Farm · {item:732} Okra · {item:255155} Precessive Autocognition Assembly · {npc:573} Foe Reaper 4000
-	-- plural, as words: Harvest Watchers = {npc:114} Harvest Watcher
-	["On the way south from the {area:916} to {area:107}: Harvest Watchers (level 14-15) and Golems work the fields west of the road; they drop the isosprings, gyrostabilizers, {item:732} and sometimes a {item:255155}. {npc:573}, a level 20 rare, walks these fields: leave it alone."] = "{area:916} çiftliğinden güneye, {area:107} çiftliğine giderken: Harvest Watcher (seviye 14-15) ve Golem yaratıkları yolun batısındaki tarlalarda çalışıyor. İsospring, gyrostabilizer, {item:732} ve bazen bir {item:255155} düşürürler. 20. seviye rare {npc:573} bu tarlalarda dolaşıyor: ona bulaşma.",
+	-- {area:916} The Jansen Stead · {area:107} Saldean's Farm · {quest:9} The Killing Fields · {item:732} Okra · {item:255155} Precessive Autocognition Assembly · {npc:573} Foe Reaper 4000
+	-- plural, as words: Harvest Watchers = {npc:114} Harvest Watcher · Harvest Golems = {npc:36} Harvest Golem · Harvest Reapers = {npc:115} Harvest Reaper
+	["On the way south from the {area:916} to {area:107}: Harvest Watchers (level 14-15) work the fields west of the road. Stick to them: they are the only mechanicals that count for {quest:9}, and they drop everything else here too: the isosprings, gyrostabilizers, {item:732} and sometimes a {item:255155}. Harvest Golems drop some of the parts but don't count, and the Harvest Reapers (17) are too high. {npc:573}, a level 20 rare, walks these fields: leave it alone."] = "{area:916} çiftliğinden güneye, {area:107} çiftliğine giderken: Harvest Watcher yaratıkları (seviye 14-15) yolun batısındaki tarlalarda çalışıyor. Onlarla yetin: {quest:9} için sayılan tek mekanik yaratıklar onlar, buradaki her şeyi de düşürüyorlar: isospring, gyrostabilizer, {item:732} ve bazen bir {item:255155}. Harvest Golem yaratıkları parçaların bir kısmını düşürür ama sayılmaz, Harvest Reaper'lar (17) ise fazla yüksek. 20. seviye rare {npc:573} bu tarlalarda dolaşıyor: ona bulaşma.",
 	-- plural, as words: Harvest Watchers = {npc:114} Harvest Watcher
 	["Harvest Watchers"] = "Harvest Watcher yaratıkları",
 	-- {item:814} Flask of Oil · {npc:392} Captain Grayson · {area:115} Westfall Lighthouse
 	["{item:814}: keep five for {npc:392} at the {area:115}, later on the route"] = "{item:814}: beşini, rotada daha sonra {area:115} binasındaki {npc:392} için sakla",
 
-	-- Step 40: Finish the Goretusk Livers
+	-- Step 41: Finish the Goretusk Livers
 	-- plural, as words: Goretusk Livers = {item:723} Goretusk Liver
 	["Finish the Goretusk Livers"] = "Goretusk Liver'ları tamamla",
 	-- {area:107} Saldean's Farm
 	-- plural, as words: Young Goretusks = {npc:454} Young Goretusk
 	["Still short of eight? Young Goretusks root in the fields just west of {area:107}."] = "Hâlâ sekiz olmadı mı? Young Goretusk yaratıkları {area:107} çiftliğinin hemen batısındaki tarlalarda toprağı eşeliyor.",
 
-	-- Step 41: Finish the Stringy Vulture Meat
+	-- Step 42: Finish the Stringy Vulture Meat
 	-- {item:729} Stringy Vulture Meat
 	["Finish the {item:729}"] = "{item:729} eşyasını tamamla",
 	-- {area:107} Saldean's Farm
 	-- plural, as words: Young Fleshrippers = {npc:199} Young Fleshripper
 	["Still short of three? Young Fleshrippers circle the fields north-west of {area:107}."] = "Hâlâ üç olmadı mı? Young Fleshripper yaratıkları {area:107} çiftliğinin kuzeybatısındaki tarlaların üzerinde dönüyor.",
 
-	-- Step 43: Finish the Red Leather Bandanas
+	-- Step 44: Finish the Red Leather Bandanas
 	-- {quest:153} Red Leather Bandanas
 	["Finish the {quest:153}"] = "{quest:153} görevini tamamla",
 	-- {area:108} Sentinel Hill
 	-- plural, as words: Defias Trappers = {npc:504} Defias Trapper
 	["Still short of fifteen? Defias Trappers camp in the fields just west of {area:108}."] = "Hâlâ on beş olmadı mı? Defias Trapper yaratıkları {area:108} tepesinin hemen batısındaki tarlalarda kamp kurmuş.",
 
-	-- Step 44: Sentinel Hill
+	-- Step 45: Sentinel Hill
 	-- {npc:266} Wiley the Black · {area:69} Lakeshire
 	["For {npc:266} in {area:69}, Redridge"] = "Redridge'deki {area:69} kasabasında {npc:266} için",
 
-	-- Step 45: Jangolode Mine
+	-- Step 46: Jangolode Mine
 	-- {area:918} Molsen Farm · {area:111} Jangolode Mine
 	-- plural, as words: Kobold Diggers = {npc:1236} Kobold Digger
 	["Back north past {area:918} to the mine.\nCareful: pull the four Kobold Diggers from the mouth of {area:111}, one at a time. There is no need to go deeper."] = "Kuzeye dön, {area:918} çiftliğini geçip madene git.\nDikkat: {area:111} madeninin ağzındaki dört Kobold Digger yaratığını tek tek çek. Daha derine inmen gerekmiyor.",
 	-- plural, as words: Kobold Diggers = {npc:1236} Kobold Digger
 	["Kobold Diggers"] = "Kobold Digger yaratıkları",
 
-	-- Step 46: The Gold Coast Quarry
+	-- Step 47: The Gold Coast Quarry
 	-- {area:113} Gold Coast Quarry
 	["The {area:113}"] = "{area:113} taş ocağı",
 	-- {area:918} Molsen Farm
@@ -247,7 +251,7 @@ return {
 	-- plural, as words: Riverpaw Miners = {npc:1426} Riverpaw Miner
 	["Riverpaw Miners"] = "Riverpaw Miner yaratıkları",
 
-	-- Step 47: Moonbrook: kill these as you meet them
+	-- Step 48: Moonbrook: kill these as you meet them
 	-- {area:20} Moonbrook
 	["{area:20}: kill these as you meet them"] = "{area:20}: bunları karşılaştıkça öldür",
 	-- {area:108} Sentinel Hill · {area:20} Moonbrook · {object:1166} Alexston's Chest · {area:219} Alexston Farmstead · {npc:1646} Baros Alexston
@@ -256,15 +260,15 @@ return {
 	-- {item:2998} A Simple Compass · {object:1166} Alexston's Chest
 	["{item:2998}, from {object:1166}"] = "{item:2998}, kaynak: {object:1166}",
 
-	-- Step 48: Sentinel Hill
+	-- Step 49: Sentinel Hill
 	-- {npc:523} Thor
 	["{npc:523}, on the south side of the hill"] = "{npc:523}, tepenin güney yakasında",
 
-	-- Step 50: High Priestess Laurena
+	-- Step 51: High Priestess Laurena
 	-- {npc:376} High Priestess Laurena
 	["{npc:376} is in the Cathedral of Light."] = "{npc:376}, Cathedral of Light içinde.",
 
-	-- Step 52: The Tome of Divinity
+	-- Step 53: The Tome of Divinity
 	-- {npc:6171} Duthorian Rall · {npc:6173} Gazin Tenorm · {npc:6174} Stephanie Turner · {object:2096} Trade District · {item:2589} Linen Cloth
 	["{npc:6171} and {npc:6173} are in the Cathedral of Light; {npc:6174} stands in the {object:2096} and asks for ten {item:2589} (humanoids drop it; the Auction House sells it)."] = "{npc:6171} ve {npc:6173} Cathedral of Light içinde. {npc:6174}, {object:2096} semtinde duruyor ve senden on {item:2589} istiyor (humanoid yaratıklar düşürür, Auction House da satar).",
 	-- {quest:2998} Tome of Divinity
@@ -274,30 +278,30 @@ return {
 	-- {npc:6172} Henze Faulk · {area:86} Stone Cairn Lake
 	["{npc:6172}, by {area:86} in Elwynn, on the road to Redridge"] = "{npc:6172}, Elwynn'de, Redridge yolunun üstünde, {area:86} gölünün yanında",
 
-	-- Step 53: Stormwind
+	-- Step 54: Stormwind
 	-- {zone:1453} Stormwind · {object:28027} Dwarven District
 	["{zone:1453}'s {object:28027}"] = "{zone:1453} şehrindeki {object:28027}",
 
-	-- Step 54: Tram to Ironforge
+	-- Step 55: Tram to Ironforge
 	-- {zone:1455} Ironforge
 	["Tram to {zone:1455}"] = "Tramvayla: {zone:1455}",
 
-	-- Step 55: Shaman training
+	-- Step 56: Shaman training
 	["Shaman training"] = "Shaman eğitimi",
 	-- {zone:1453} Stormwind · {area:2257} Deeprun Tram · {object:28027} Dwarven District · {zone:1455} Ironforge · {npc:258098} Eldrun Stormbreaker
 	["Head to {zone:1453}. It has no shaman trainer: take the {area:2257} from the {object:28027} to {zone:1455}, train with {npc:258098}, then ride the tram back for the boat."] = "{zone:1453} şehrine git. Orada Shaman eğitmeni yok: {object:28027} semtinden {area:2257} trenine binip {zone:1455} şehrine git, {npc:258098} adlı NPC'den eğitimini al, sonra gemi için trenle geri dön.",
 
-	-- Step 56: Tram to Ironforge
+	-- Step 57: Tram to Ironforge
 	-- {area:16919} Hall of Thanes · {area:2257} Deeprun Tram · {object:28027} Dwarven District · {zone:1455} Ironforge
 	["For your {area:16919} run: the {area:2257} from the {object:28027} to {zone:1455}."] = "{area:16919} koşun için: {object:28027} içinden {zone:1455} şehrine {area:2257}.",
 
-	-- Step 57: Thom Filch and Afadra Dunwall
+	-- Step 58: Thom Filch and Afadra Dunwall
 	-- {npc:265003} Thom Filch · {npc:264943} Afadra Dunwall
 	["{npc:265003} and {npc:264943}"] = "{npc:265003} ve {npc:264943}",
 	-- {area:16919} Hall of Thanes · {npc:265003} Thom Filch · {npc:264943} Afadra Dunwall · {object:171709} High Seat
 	["For your {area:16919} run: {npc:265003} and {npc:264943} stand a few steps apart on the city's west side, west of the {object:171709}. The hall's door is a short walk further west."] = "{area:16919} koşun için: {npc:265003} ve {npc:264943}, şehrin batı yakasında, {object:171709} tahtının batısında birkaç adım arayla duruyor. Salonun kapısı biraz daha batıda.",
 
-	-- Step 58: Hall of Thanes
+	-- Step 59: Hall of Thanes
 	-- {area:16919} Hall of Thanes · {zone:1455} Ironforge · {npc:264943} Afadra Dunwall · {npc:261319} Durgen Dirgehammer · {object:147516} Dark Iron · {npc:265002} Ghostly Attendant · {npc:261306} Faldrim Anvilmar · {item:281030} Treaty of Understanding
 	-- plural, as words: Enraged Apparitions = {npc:263389} Enraged Apparition · Tormented Souls = {npc:263390} Tormented Soul · Dwarven Heirlooms = {item:274289} Dwarven Heirloom
 	["{area:16919} is a dungeon for a group of five at about level 15 to 16, under {zone:1455}. Its door is on the west side of the city, a short walk west of {npc:264943}.\nInside: the Enraged Apparitions and Tormented Souls are {npc:264943}'s, the Dwarven Heirlooms Thom's, and {npc:261319}, the {object:147516} commander deep in the vaults, carries the head King Magni wants. A {npc:265002} inside gives An Ancient Grudge, for {npc:261306}, and takes it back there; a {item:281030} found inside starts a quest for King Magni."] = "{area:16919}, {zone:1455} şehrinin altında, yaklaşık 15-16. seviyedeki beş kişilik bir grup için bir zindan. Kapısı şehrin batı yakasında, {npc:264943} yanından biraz batıda.\nİçeride: Enraged Apparition ve Tormented Soul yaratıkları {npc:264943} için, Dwarven Heirloom eşyaları Thom için. Mahzenlerin derinlerindeki {object:147516} komutanı {npc:261319} de King Magni'nin istediği kafayı taşıyor. İçerideki bir {npc:265002}, {npc:261306} için An Ancient Grudge görevini verir ve orada teslim alır. İçeride bulunan bir {item:281030} King Magni için bir görev başlatır.",
@@ -308,11 +312,11 @@ return {
 	-- {quest:96393} Old Ironforge Incursion · {npc:261319} Durgen Dirgehammer
 	["{quest:96393}: {npc:261319}, inside"] = "{quest:96393}: {npc:261319}, içeride",
 
-	-- Step 61: King Magni Bronzebeard
+	-- Step 62: King Magni Bronzebeard
 	-- {quest:96393} Old Ironforge Incursion · {object:171709} High Seat
 	["{quest:96393}: King Magni sits on the {object:171709}, east of the hall's door."] = "{quest:96393}: King Magni, salonun kapısının doğusundaki {object:171709} tahtında oturuyor.",
 
-	-- Step 63: Back to Stormwind
+	-- Step 64: Back to Stormwind
 	-- {zone:1453} Stormwind
 	["Back to {zone:1453}"] = "Dönüş: {zone:1453}",
 	-- {object:171524} Tinker Town · {zone:1453} Stormwind · {object:28027} Dwarven District
@@ -320,47 +324,52 @@ return {
 	-- {zone:1453} Stormwind
 	["Tram to {zone:1453}"] = "Tramvayla: {zone:1453}",
 
-	-- Step 64: Stormwind
+	-- Step 65: Stormwind
 	-- {object:2100} Old Town · {object:2101} Mage Quarter · {object:28027} Dwarven District
 	["Trainers: {object:2100} (Warriors, Rogues), the Cathedral (Paladins, Priests), the {object:2101} (Mages, Warlocks), the {object:28027} (Hunters), the Park (Druids)."] = "Eğitmenler: {object:2100} (Warrior, Rogue), Cathedral (Paladin, Priest), {object:2101} (Mage, Warlock), {object:28027} (Hunter), Park (Druid).",
 	["In through the main gate (already done if you are in the city)"] = "Ana kapıdan içeri gir (şehirdeysen zaten yapılmış olur)",
 	["Level 12, 14 and 16 spells"] = "Seviye 12, 14 ve 16 büyüleri",
 
-	-- Step 65: Back to Stormwind
+	-- Step 66: Back to Stormwind
 	-- {zone:1453} Stormwind · {object:28027} Dwarven District
 	["Ride the tram back: it comes out in {zone:1453}'s {object:28027}, where the errands below start."] = "Trenle geri dön: {zone:1453} şehrinde, aşağıdaki işlerin başladığı {object:28027} semtine çıkar.",
 
-	-- Step 66: Stormwind
+	-- Step 67: Stormwind
 	-- {item:2449} Earthroot · {zone:1439} Darkshore · {npc:1313} Maria Lumere
 	["{item:2449} for Gathering the Cure (6123) in {zone:1439}: {npc:1313}, Alchemy Supplies; herbalists pick it there instead"] = "{zone:1439} bölgesindeki Gathering the Cure (6123) görevi için {item:2449}: {npc:1313}, Alchemy Supplies. Herbalism yapanlar onu orada toplar",
 	-- {npc:1416} Grimand Elmore · {npc:1343} Mountaineer Stormpike · {zone:1432} Loch Modan
 	["{npc:1416}: his package for {npc:1343} in {zone:1432}, later on the route"] = "{npc:1416}: rotada daha sonra {zone:1432} bölgesindeki {npc:1343} için paketi",
 	-- {npc:7232} Borgus Steelhand · {object:28027} Dwarven District · {area:442} Auberdine
 	["{npc:7232}, {object:28027}: for his brother in {area:442}"] = "{npc:7232}, {object:28027}: {area:442} kasabasındaki kardeşi için",
+
+	-- Step 68: Gelman Stonehand
+	["talk to the trainer"] = "eğitmenle konuş",
+
+	-- Step 71: Jennea Cannon
 	-- {npc:5497} Jennea Cannon · {quest:1861} Mirror Lake
 	["{npc:5497}, Wizard's Sanctum: {quest:1861}"] = "{npc:5497}, Wizard's Sanctum: {quest:1861}",
 
-	-- Step 68: Woo Ping
+	-- Step 73: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Warrior fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş). Warrior en hızlı iki elli silahla seviye atlar.",
 
-	-- Step 69: Woo Ping
+	-- Step 74: Woo Ping
 	-- {spell:202} Two-Handed Swords · {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn {spell:202} from {npc:11867} ({object:2096}, 10 silver); two-handers level a Paladin fastest."] = "Buradayken: {npc:11867} sana {spell:202} öğretir ({object:2096}, 10 gümüş). Paladin en hızlı iki elli silahla seviye atlar.",
 
-	-- Step 70: Woo Ping
+	-- Step 75: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a Hunter's melee weapon is mostly its stats, and two-handers carry the most."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş). Hunter'ın yakın dövüş silahı çoğunlukla istatistikleri için taşınır ve en çoğunu iki elliler verir.",
 
-	-- Step 71: Woo Ping
+	-- Step 76: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn Swords from {npc:11867} ({object:2096}, 10 silver); a sword in the main hand levels a Rogue steadily."] = "Buradayken: {npc:11867} sana Swords öğretir ({object:2096}, 10 gümüş). Ana elde bir kılıçla Rogue istikrarla seviye atlar.",
 
-	-- Step 72: Woo Ping
+	-- Step 77: Woo Ping
 	-- {npc:11867} Woo Ping · {object:2096} Trade District
 	["While you're here: learn Staves from {npc:11867} ({object:2096}, 10 silver); a staff carries more spell stats than a one-hander while you level."] = "Buradayken: {npc:11867} sana Staves öğretir ({object:2096}, 10 gümüş). Seviye atlarken bir asa, tek elli bir silahtan daha çok büyü istatistiği taşır.",
 
-	-- Step 74: Fishin' Time
+	-- Step 79: Fishin' Time
 	-- {npc:5494} Catherine Leland · {object:2096} Trade District · {npc:267118} Gilbert Gray
 	["{npc:5494} sells fishing supplies along the canal just west of the {object:2096}; {npc:267118} fishes at the harbor, on the way to the boat."] = "{npc:5494}, {object:2096} semtinin hemen batısında, kanal boyunca balıkçılık malzemeleri satıyor. {npc:267118} gemiye giden yolda, limanda balık tutuyor.",
 	-- {item:6529} Shiny Bauble · {npc:5494} Catherine Leland

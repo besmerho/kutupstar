@@ -16,8 +16,8 @@ return {
 	-- {skill:186} Mining · {spell:2657} Smelt Copper
 	["Mine every Copper (1, orange), Poor Copper (1, orange) node you pass and circle the waypoints until {skill:186} 50. Smelt at a forge when your bags fill: {spell:2657} (orange to 25, grey at 70) gives points too. Zone level 1-10. Expect about 60 nodes for these 49 points."] = "Geçtiğin her Copper (1, turuncu), Poor Copper (1, turuncu) damarını kaz ve {skill:186} 50 olana kadar yol noktalarını dolaş. Çantaların dolunca bir ocakta erit: {spell:2657} (25'e kadar turuncu, 70'te gri) de puan verir. Bölge seviyesi 1-10. Bu 49 puan için yaklaşık 60 damar bekle.",
 	["Copper"] = "Copper",
-	["Copper, Poor Copper"] = "Copper, Poor Copper",
 	["Poor Copper"] = "Poor Copper",
+	["Copper, Poor Copper"] = "Copper, Poor Copper",
 
 	-- Step 3: Copper & Poor Copper: Dun Morogh (1-50)
 	-- {zone:1426} Dun Morogh
@@ -160,7 +160,7 @@ return {
 	-- {object:147516} Dark Iron · {zone:1427} Searing Gorge
 	["Mithril & {object:147516}: {zone:1427} (230-245)"] = "Mithril ve {object:147516}: {zone:1427} (230-245)",
 	-- {object:147516} Dark Iron · {skill:186} Mining · {item:11099} Dark Iron Ore · {object:174824} Black Forge (no name in this language: may be words) · {area:1584} Blackrock Depths
-	["Mine every Gold (155, green), Mithril (175, green), {object:147516} (230, orange), Truesilver (230, orange) node you pass and circle the waypoints until {skill:186} 245. Smelting gives no points from here (the higher smelts are grey once learned): smelt to craft or sell, or sell the ore. {item:11099} smelts only at the {object:174824} in {area:1584} (8 ore a bar). Zone level 43-50. Expect about 40 nodes for these 15 points."] = "Geçtiğin her Gold (155, yeşil), Mithril (175, yeşil), {object:147516} (230, turuncu), Truesilver (230, turuncu) damarını kaz ve {skill:186} 245 olana kadar yol noktalarını dolaş. Buradan sonra eritmek puan vermez (yüksek eritmeler öğrenilince gri): üretmek ya da satmak için erit ya da cevheri sat. {item:11099} yalnızca {area:1584} içindeki {object:174824} yanında eritilir (külçe başına 8 cevher). Bölge seviyesi 43-50. Bu 15 puan için yaklaşık 40 damar bekle.",
+	["Mine every Gold (155, green, rare), Mithril (175, green), {object:147516} (230, orange), Truesilver (230, orange) node you pass and circle the waypoints until {skill:186} 245. Smelting gives no points from here (the higher smelts are grey once learned): smelt to craft or sell, or sell the ore. {item:11099} smelts only at the {object:174824} in {area:1584} (8 ore a bar). Zone level 43-50. Expect about 40 nodes for these 15 points."] = "Geçtiğin her Gold (155, yeşil, nadir), Mithril (175, yeşil), {object:147516} (230, turuncu), Truesilver (230, turuncu) damarını kaz ve {skill:186} 245 olana dek işaret noktalarını dolaş. Buradan sonra eritmek puan vermez (yüksek eritmeler öğrenilince gri olur): üretmek ya da satmak için erit veya cevheri sat. {item:11099} yalnız {area:1584} içindeki {object:174824} ocağında erir (külçe başına 8 cevher). Bölge seviyesi 43-50. Bu 15 puan için yaklaşık 40 damar bekle.",
 	-- {object:147516} Dark Iron
 	["Mithril, {object:147516}"] = "Mithril, {object:147516}",
 
@@ -169,16 +169,13 @@ return {
 	["Small Thorium: {zone:1448} (245-275)"] = "Small Thorium: {zone:1448} (245-275)",
 	-- {skill:186} Mining · {npc:9528} Arathandris Silversky · {npc:9529} Maybess Riverbreeze
 	["Mine every Gold (155, green, rare), Mithril (175, green), Truesilver (230, orange), Small Thorium (245, orange) node you pass and circle the waypoints until {skill:186} 275. Smelting gives no points from here (the higher smelts are grey once learned): smelt to craft or sell, or sell the ore. Quests here that need {skill:186}: Salve via {skill:186} (level 55, {npc:9528}; Alliance), Salve via {skill:186} (level 55, {npc:9529}; Horde). Zone level 48-55. Expect about 50 nodes for these 30 points."] = "Geçtiğin her Gold (155, yeşil, nadir), Mithril (175, yeşil), Truesilver (230, turuncu), Small Thorium (245, turuncu) damarını kaz ve {skill:186} 275 olana kadar yol noktalarını dolaş. Buradan sonra eritmek puan vermez (yüksek eritmeler öğrenilince gri): üretmek ya da satmak için erit ya da cevheri sat. Burada {skill:186} isteyen görevler: Salve via {skill:186} (seviye 55, {npc:9528}, Alliance), Salve via {skill:186} (seviye 55, {npc:9529}, Horde). Bölge seviyesi 48-55. Bu 30 puan için yaklaşık 50 damar bekle.",
-	["Mithril, Small Thorium"] = "Mithril, Small Thorium",
 	["Small Thorium, Truesilver"] = "Small Thorium, Truesilver",
+	["Mithril, Small Thorium"] = "Mithril, Small Thorium",
 
-	-- Step 30: Small Thorium & Rich Thorium: Winterspring (275-300)
-	-- {zone:1452} Winterspring
-	["Small Thorium & Rich Thorium: {zone:1452} (275-300)"] = "Small Thorium ve Rich Thorium: {zone:1452} (275-300)",
+	-- Step 30: Small Thorium & Rich Thorium: Eastern Plaguelands (275-300)
+	-- {zone:1423} Eastern Plaguelands
+	["Small Thorium & Rich Thorium: {zone:1423} (275-300)"] = "Small Thorium & Rich Thorium: {zone:1423} (275-300)",
 	-- {skill:186} Mining
-	["Mine every Truesilver (230, yellow), Small Thorium (245, yellow), Rich Thorium (275, orange) node you pass and circle the waypoints until {skill:186} 300. Smelting gives no points from here (the higher smelts are grey once learned): smelt to craft or sell, or sell the ore. Zone level 55-60. Expect about 40 nodes for these 25 points."] = "Geçtiğin her Truesilver (230, sarı), Small Thorium (245, sarı), Rich Thorium (275, turuncu) damarını kaz ve {skill:186} 300 olana kadar yol noktalarını dolaş. Buradan sonra eritmek puan vermez (yüksek eritmeler öğrenilince gri): üretmek ya da satmak için erit ya da cevheri sat. Bölge seviyesi 55-60. Bu 25 puan için yaklaşık 40 damar bekle.",
+	["Mine every Truesilver (230, yellow), Small Thorium (245, yellow), Rich Thorium (275, orange) node you pass and circle the waypoints until {skill:186} 300. Smelting gives no points from here (the higher smelts are grey once learned): smelt to craft or sell, or sell the ore. Zone level 53-60. Expect about 30 nodes for these 25 points."] = "Geçtiğin her Truesilver (230, sarı), Small Thorium (245, sarı), Rich Thorium (275, turuncu) damarını kaz ve {skill:186} 300 olana dek işaret noktalarını dolaş. Buradan sonra eritmek puan vermez (yüksek eritmeler öğrenilince gri olur): üretmek ya da satmak için erit veya cevheri sat. Bölge seviyesi 53-60. Bu 25 puan için yaklaşık 30 damar bekle.",
 	["Rich Thorium, Small Thorium"] = "Rich Thorium, Small Thorium",
-	["Rich Thorium, Truesilver"] = "Rich Thorium, Truesilver",
-	["Rich Thorium"] = "Rich Thorium",
-	["Small Thorium, Rich Thorium"] = "Small Thorium, Rich Thorium",
 }

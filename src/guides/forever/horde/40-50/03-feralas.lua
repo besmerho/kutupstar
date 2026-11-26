@@ -21,7 +21,6 @@ return {
 	-- {npc:6986} Dran Droffers
 	["{npc:6986}, the Drag"] = "{npc:6986}, Drag",
 	-- {zone:1425} Hinterlands
-	-- was: ["for the {zone:1425}, around level 50"] = "für {zone:1425}, etwa ab Stufe 50"
 	["for the {zone:1425}, around level 49"] = "yaklaşık 49. seviyede {zone:1425} için",
 
 	-- Step 3: Fly to Thunder Bluff
@@ -44,7 +43,6 @@ return {
 
 	-- Step 7: Camp Mojache
 	-- {zone:1425} Hinterlands
-	-- was: ["for the {zone:1425} owlbeasts, around level 48"] = "für die Eulenbestien im {zone:1425}, etwa ab Stufe 48"
 	["for the {zone:1425} owlbeasts, around level 49"] = "yaklaşık 49. seviyede {zone:1425} owlbeast'leri için",
 
 	-- Step 8: Fly to Brackenwall Village
@@ -75,36 +73,48 @@ return {
 	-- {area:498} Bloodfen Burrow
 	["Inside {area:498}"] = "{area:498} içinde",
 
-	-- Step 13: The Dragonmurk: kill these as you meet them
+	-- Step 13: The Musty Scroll
+	-- {object:2555} Musty Scroll
+	["The {object:2555} lies to the south-west."] = "{object:2555} güneybatıda duruyor.",
+
+	-- Step 14: Mudsprocket
+	["Mudsprocket"] = "Mudsprocket",
+	-- {object:2555} Musty Scroll · {area:511} Wyrmbog · {npc:270723} Drazzit Dripvalve · {npc:270727} Gizzix Grimegurgle · {item:280092} Wyrmtail
+	["South-east from the {object:2555} to Mudsprocket, the goblin camp at the {area:511}'s western edge: {npc:270723} and {npc:270727} stand together in the camp. Their whelps, scales and {item:280092} come on the same {area:511} loop as Brackenwall's quests."] = "{object:2555} parşömeninden güneydoğuya, {area:511} kesiminin batı kenarındaki goblin kampı Mudsprocket'a git: {npc:270723} ve {npc:270727} kampta birlikte duruyor. Yavruları, pulları ve {item:280092} Brackenwall görevleriyle aynı {area:511} turunda çıkar.",
+
+	-- Step 15: The Dragonmurk: kill these as you meet them
 	-- {area:510} The Dragonmurk
 	["{area:510}: kill these as you meet them"] = "{area:510}: bunları karşılaştıkça öldür",
-	-- {area:511} Wyrmbog
-	["East through the {area:511}: the Firemane scouts and ash tails roam its northern edge with the Searing hatchlings and whelps; the scalebanes guard the dragon caves further south-east. Mok'Morokk's snuff, grog and strongbox lie in the dragonkin camps."] = "{area:511} kesiminin içinden doğuya geç: Firemane scout ve ash tail yaratıkları, Searing hatchling ve whelp'lerle birlikte kuzey kenarında dolaşıyor. Scalebane'ler daha güneydoğudaki ejderha mağaralarını koruyor. Mok'Morokk'un enfiyesi, grog'u ve kasası ejderha soyu kamplarında duruyor.",
+	-- {area:511} Wyrmbog · {item:280092} Wyrmtail
+	["East through the {area:511}: the Firemane scouts and ash tails roam its northern edge with the Searing hatchlings and whelps; the scalebanes guard the dragon caves further south-east. Mok'Morokk's snuff, grog and strongbox lie in the dragonkin camps. The {item:280092} grows in the bog just east of Mudsprocket."] = "{area:511} kesiminin içinden doğuya geç: Firemane scout ve ash tail yaratıkları, Searing hatchling ve whelp'lerle birlikte kuzey kenarında dolaşıyor. Scalebane'ler daha güneydoğudaki ejderha mağaralarını koruyor. Mok'Morokk'un enfiyesi, grog'u ve kasası ejderha soyu kamplarında duruyor. {item:280092}, Mudsprocket'ın hemen doğusundaki bataklıkta yetişiyor.",
 	-- {npc:4329} Firemane Scout · {area:510} The Dragonmurk
 	["{npc:4329} walks around {area:510}: look inside the circle on the map"] = "{npc:4329}, {area:510} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 	["Below ground"] = "Yer altında",
 
-	-- Step 14: Brackenwall Village
+	-- Step 16: Mudsprocket
+	["Back to Mudsprocket before you ride north."] = "Kuzeye sürmeden önce Mudsprocket'a dön.",
+
+	-- Step 17: Brackenwall Village
 	["Ride back north to Brackenwall."] = "Kuzeye, Brackenwall'a dön.",
 
-	-- Step 15: Onyxia's eggs
+	-- Step 18: Onyxia's eggs
 	["Onyxia's eggs"] = "Onyxia'nın yumurtaları",
 	-- {area:511} Wyrmbog
 	["The Eggs of Onyxia lie in the dragon caves in the {area:511}'s south-east, guarded by the scalebanes; smash five."] = "Egg of Onyxia yumurtaları {area:511} bataklığının güneydoğusundaki ejderha mağaralarında, scalebane yaratıklarının koruması altında, beş tanesini kır.",
 
-	-- Step 16: Muckshell crabs
+	-- Step 19: Muckshell crabs
 	["Muckshell crabs"] = "Muckshell yengeçleri",
 	-- plural, as words: Muckshell Razorclaws = {npc:4405} Muckshell Razorclaw
 	["On the way back north from the dragon caves, the Muckshell Razorclaws and Pincers (41-44) crowd the shallows just north of the caves; about one in twenty carries the Jeweled Pendant Marg Speaks asks for."] = "Ejderha mağaralarından kuzeye dönerken Muckshell Razorclaw ve Pincer yaratıkları (41-44) mağaraların hemen kuzeyindeki sığ suda kaynaşıyor. Yaklaşık yirmide biri Marg Speaks görevinin istediği Jeweled Pendant'ı taşıyor.",
 
-	-- Step 17: Level 45.37
+	-- Step 20: Level 45.37
 	["Level 45.37"] = "Seviye 45.37",
 	-- {npc:4500} Overlord Mok'Morokk · {area:511} Wyrmbog · {area:978} Zul'Farrak
 	["{npc:4500}'s challenge, back in Brackenwall, needs a group of three. Alone, grind the Firemane scouts here on the {area:511}'s northern edge to level 45.37 before you ride back north, so you don't come back down for it. Or, with a group, run the {area:978} dungeon instead."] = "{npc:4500} adlı NPC'nin Brackenwall'daki meydan okuması üç kişilik bir grup ister. Yalnızsan, buraya bir daha inmemek için kuzeye dönmeden önce {area:511} kuzey kenarındaki Firemane izcilerini 45.37. seviyeye kadar kas. Ya da bir grupla onun yerine {area:978} zindanını yap.",
 	-- {npc:4329} Firemane Scout
 	["grind on {npc:4329}"] = "Kas: {npc:4329}",
 
-	-- Step 18: Brackenwall Village
+	-- Step 21: Brackenwall Village
 	-- {npc:4791} Nazeer Bloodpike · {item:5942} Jeweled Pendant
 	["{npc:4791}: the {item:5942}"] = "{npc:4791}: {item:5942}",
 	-- {npc:4047} Zor Lonetree · {zone:1454} Orgrimmar · {zone:1447} Azshara
@@ -112,7 +122,7 @@ return {
 	-- {quest:3128} Natural Materials · {zone:1444} Feralas
 	["Keep {quest:3128} and Improved Quality: {zone:1444}' sprites, hippogryphs, Zorbin's coast and the Rage Scar yetis come on your {zone:1444} loop at about 51, with the Muisek chain."] = "{quest:3128} ve Improved Quality görevlerini sakla: {zone:1444} bölgesinin sprite'ları, hipogrifleri, Zorbin'in kıyısı ve Rage Scar yetileri, Muisek zinciriyle birlikte yaklaşık 51. seviyedeki {zone:1444} turunda gelir.",
 
-	-- Step 19: Challenge Overlord Mok'Morokk
+	-- Step 22: Challenge Overlord Mok'Morokk
 	-- {quest:1173} Challenge Overlord Mok'Morokk · {npc:4500} Overlord Mok'Morokk · {npc:4501} Draz'Zilb
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:1173} needs a group of 3. Skip it if you are alone: the route has you grind the XP back.\n{npc:4500} is elite: grouping up is advised. Beat him down until he gives up, then report to {npc:4501}."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {quest:1173} 3 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.\n{npc:4500} elit: grup kurman önerilir. Pes edene kadar onu döv, sonra {npc:4501} yanına bildirmeye git.",
 }

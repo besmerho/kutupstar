@@ -4,8 +4,8 @@
 -- "bölgesine", "görevini", "ile" gibi bir sözcük kullan (docs/STIL.md).
 return {
 	-- Guide
-	-- {zone:1451} Silithus · {zone:1446} Tanaris
-	["{zone:1451}, then Un'Goro and {zone:1446}."] = "{zone:1451}, sonra Un'Goro ve {zone:1446}.",
+	-- {area:976} Gadgetzan · {zone:1451} Silithus · {zone:1446} Tanaris
+	["{area:976} first, then {zone:1451}, Un'Goro and back to {zone:1446}."] = "Önce {area:976}, sonra {zone:1451}, Un'Goro ve yeniden {zone:1446}.",
 
 	-- Step 1: Innkeeper Vizzie
 	-- {npc:11118} Innkeeper Vizzie · {area:2255} Everlook · {area:2249} Frostwhisper Gorge
@@ -23,34 +23,38 @@ return {
 	-- {item:11243} Videre Elixir · {area:976} Gadgetzan · {npc:9299} Gaeriyan
 	["Drink the {item:11243} at the graveyard just east of {area:976}: it kills you, and only as a ghost can you see {npc:9299}, in a rocky crevice in the hills due north of it. Talk to him there, then run back to your body and resurrect: the Conspicuous Gravestone he sends you to stands in that graveyard."] = "{item:11243} iksirini {area:976} kasabasının hemen doğusundaki mezarlıkta iç: seni öldürür ve {npc:9299} adlı NPC'yi ancak hayaletken, mezarlığın tam kuzeyindeki tepelerde bir kaya yarığında görebilirsin. Orada onunla konuş, sonra cesedine koş ve diril: seni gönderdiği Conspicuous Gravestone o mezarlıkta duruyor.",
 
-	-- Step 4: Sprinkle
+	-- Step 4: Gaeriyan
+	-- {npc:9299} Gaeriyan · {item:11243} Videre Elixir · {area:976} Gadgetzan
+	["{npc:9299} has already met you: drink the {item:11243} at the graveyard just east of {area:976} and find him, as a ghost, in the rocky crevice due north of it."] = "{npc:9299} seninle zaten tanıştı: {area:976} kasabasının hemen doğusundaki mezarlıkta {item:11243} iç ve hayaletken onu mezarlığın tam kuzeyindeki kayalık yarıkta bul.",
+
+	-- Step 5: Sprinkle
 	-- {item:12928} Umi's Mechanical Yeti · {npc:7583} Sprinkle · {area:976} Gadgetzan · {npc:10977} Quixxil · {npc:10978} Legacki
 	["Use {item:12928} on {npc:7583}, the goblin girl in {area:976}. {npc:10977} and {npc:10978} are scared later in the route."] = "{area:976} kasabasındaki goblin kız {npc:7583} üzerinde {item:12928} kullan. {npc:10977} ve {npc:10978} rotanın ilerisinde korkutulur.",
 	-- {npc:7583} Sprinkle · {item:12928} Umi's Mechanical Yeti
 	["Scare {npc:7583} with {item:12928}"] = "{npc:7583} adlı NPC'yi {item:12928} ile korkut",
 
-	-- Step 5: Alchemist Pestlezugg
+	-- Step 6: Alchemist Pestlezugg
 	-- {quest:4493} March of the Silithid · {zone:1454} Orgrimmar · {zone:1447} Azshara
 	["Inside: {quest:4493}, if you took it in {zone:1454} on the {zone:1447} guide"] = "İçeride: {zone:1447} rehberinde {zone:1454} şehrinde aldıysan {quest:4493}",
 
-	-- Step 6: Alchemist Pestlezugg
+	-- Step 7: Alchemist Pestlezugg
 	["Inside"] = "İçeride",
 
-	-- Step 7: Gaeriyan
+	-- Step 9: Gaeriyan
 	-- {quest:3914} Linken's Sword · {npc:8737} Linken
 	["{quest:3914} goes back to {npc:8737} in Un'Goro: keep it."] = "{quest:3914}, Un'Goro'daki {npc:8737} adlı NPC'ye geri gider: sakla.",
 
-	-- Step 8: Marvon Rivetseeker
+	-- Step 10: Marvon Rivetseeker
 	-- {npc:7771} Marvon Rivetseeker · {area:1336} Lost Rigger Cove · {area:976} Gadgetzan
 	["{npc:7771} camps by the {area:1336} road, south of {area:976}."] = "{npc:7771}, {area:976} kasabasının güneyinde, {area:1336} yolunun kenarında kamp kurmuş.",
 
-	-- Step 9: Fly to Marshal's Refuge
+	-- Step 11: Fly to Marshal's Refuge
 	-- {area:541} Marshal's Refuge
 	["Fly to {area:541}"] = "Uç: {area:541}",
 	-- {area:976} Gadgetzan
 	["{area:976} flight master"] = "{area:976} uçuş ustası",
 
-	-- Step 10: Marshal's Refuge
+	-- Step 12: Marshal's Refuge
 	-- {area:541} Marshal's Refuge · {npc:8737} Linken · {npc:9117} J.D. Collie
 	["The flight lands at {area:541}: {npc:8737} stands by the cave a few steps from the flight master, {npc:9117} inside it."] = "Uçuş {area:541} sığınağına iner: {npc:8737} uçuş ustasından birkaç adım ötedeki mağaranın yanında, {npc:9117} içinde duruyor.",
 	-- {npc:9117} J.D. Collie
@@ -63,39 +67,39 @@ return {
 	-- {npc:10977} Quixxil · {item:12928} Umi's Mechanical Yeti
 	["Scare {npc:10977} with {item:12928}"] = "{npc:10977} yaratığını {item:12928} ile korkut",
 
-	-- Step 11: Layo Starstrike
+	-- Step 13: Layo Starstrike
 	-- {area:3077} Valor's Rest · {zone:1451} Silithus · {npc:13220} Layo Starstrike
 	["The pass from Un'Goro comes out at {area:3077}, the graveyard in north-east {zone:1451}. {npc:13220} stands among the graves."] = "Un'Goro'dan gelen geçit, {zone:1451} bölgesinin kuzeydoğusundaki mezarlık {area:3077} noktasına çıkıyor. {npc:13220} mezarların arasında duruyor.",
 
-	-- Step 12: The Spirits of Southwind
+	-- Step 14: The Spirits of Southwind
 	-- {area:2738} Southwind Village · {object:179565} Dusty Reliquary · {npc:11801} Rabine Saturna
 	["Ride south-west to the ruins of {area:2738}. The {object:179565} for {npc:11801} sits inside one of the ruined houses."] = "Güneybatıya, {area:2738} harabelerine sür. {npc:11801} için {object:179565} yıkık evlerden birinin içinde duruyor.",
 
-	-- Step 14: Cenarion Hold
+	-- Step 16: Cenarion Hold
 	-- {area:3077} Valor's Rest · {npc:15189} Beetix Ficklespragg
 	-- was: ["Ride west to the walled hold in the middle of the desert. {npc:15189} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "Reite nach Westen zur ummauerten Festung mitten in der Wüste. {npc:15189} steht oben in seinem Gebäude: Geh drinnen hinauf, der Pfeil kann die Stockwerke nicht unterscheiden."
 	["Ride west from {area:3077} to the walled hold in the middle of the desert. {npc:15189} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "{area:3077} kesiminden batıya, çölün ortasındaki surlu kaleye sür. {npc:15189} binasının üst katında duruyor: içeriden yukarı çık, ok katları ayırt edemiyor.",
 
-	-- Step 15: Calandrath
+	-- Step 17: Calandrath
 	-- {skill:185} Cooking · {npc:15174} Calandrath
 	["Cooks with 285 {skill:185} or more: {npc:15174}, the innkeeper you just bound with, wants word of the Twilight's Hammer's sandworm recipe; the cookbook lies in the outpost west of the Hold, where this guide goes later."] = "285 ve üstü {skill:185} olan aşçılar: Hearthstone'unu az önce bağladığın hancı {npc:15174}, Twilight's Hammer'ın kum solucanı tarifinden haber istiyor. Yemek kitabı, bu rehberin daha sonra gittiği, kalenin batısındaki karakolda.",
 
-	-- Step 16: Silithus: kill these as you meet them
+	-- Step 18: Silithus: kill these as you meet them
 	-- {zone:1451} Silithus
 	["{zone:1451}: kill these as you meet them"] = "{zone:1451}: bunları karşılaştıkça öldür",
 	-- plural, as words: Dredge Strikers = {npc:11740} Dredge Striker · Stonelash Scorpids = {npc:11735} Stonelash Scorpid · Sand Skitterers = {npc:11738} Sand Skitterer
 	["Dredge Strikers, Stonelash Scorpids and Sand Skitterers share the sands just north of the hold."] = "Dredge Striker, Stonelash Scorpid ve Sand Skitterer yaratıkları kalenin hemen kuzeyindeki kumları paylaşıyor.",
 
-	-- Step 17: Twilight Base Camp
+	-- Step 19: Twilight Base Camp
 	-- plural, as words: Dust Stormers = {npc:11744} Dust Stormer · Desert Rumblers = {npc:11746} Desert Rumbler · Whirling Invaders = {npc:14455} Whirling Invader
 	-- was: ["The glowing tablet fragments lie around the Twilight camp in the far north-west; the Dust Stormers and Desert Rumblers there drop them too. Careful: the biggest Rumblers and the Whirling Invaders are 58: pull them one at a time."] = "Die leuchtenden Tafelbruchstücke liegen um das Lager des Schattenhammers im äußersten Nordwesten; die Staubstürmer und Wüstenrumpler dort lassen sie auch fallen. Vorsicht: Die größten Wüstenrumpler und die Wirbelnden Eindringlinge sind Stufe 58: Zieh sie einzeln."
 	["The glowing tablet fragments lie on the ground around the Twilight camp in the far north-west: pick them up. The Dust Stormers and Desert Rumblers there may carry them too. Careful: the biggest Rumblers and the Whirling Invaders are 58: pull them one at a time."] = "Parlayan tablet parçaları en kuzeybatıdaki Twilight kampının çevresinde yerde yatıyor: topla. Oradaki Dust Stormer ve Desert Rumbler yaratıkları da taşıyor olabilir. Dikkat: en büyük Rumbler'lar ve Whirling Invader'lar 58: tek tek çek.",
 
-	-- Step 18: Cenarion Hold
+	-- Step 20: Cenarion Hold
 	-- {npc:15189} Beetix Ficklespragg
 	["{npc:15189} stands upstairs in his building: go up inside, the arrow cannot tell the floors apart."] = "{npc:15189} binasının üst katında duruyor: içeriden yukarı çık, ok katları birbirinden ayıramaz.",
 
-	-- Step 19: Hive in the Tower
+	-- Step 21: Hive in the Tower
 	-- {item:17346} Encrusted Silithid Object
 	-- plural, as words: Hive'Ashi Ambushers = {npc:13301} Hive'Ashi Ambusher
 	["Back to Southwind and climb the tower. Stirring the hive at the top brings out Hive'Ashi Ambushers; one carries the {item:17346}."] = "Southwind'e dön ve kuleye tırman. Tepedeki kovanı kurcalamak Hive'Ashi Ambusher yaratıklarını ortaya çıkarır, biri {item:17346} taşıyor.",
@@ -104,14 +108,14 @@ return {
 	-- {npc:15170} Rutgar Glyphshaper
 	["for {npc:15170} at Bronzebeard's Encampment, later in this guide"] = "Bu rehberde daha sonra Bronzebeard's Encampment'taki {npc:15170} için",
 
-	-- Step 21: Hermit Ortell
+	-- Step 23: Hermit Ortell
 	-- {area:3447} Ortell's Hideout
 	["Ride south-east to {area:3447} under the Un'Goro cliffs."] = "Güneydoğuya, Un'Goro uçurumlarının altındaki {area:3447} saklanma yerine git.",
 	["Below ground"] = "Yer altında",
 	-- {item:20377} Rock Stalker Fang · {npc:11739} Rock Stalker
 	["{item:20377} from {npc:11739}, 130 yd south-west"] = "{item:20377}: 130 yard güneybatıdaki {npc:11739} yaratıklarından",
 
-	-- Step 22: Dredge Crushers and Pincers
+	-- Step 24: Dredge Crushers and Pincers
 	-- plural, as words: Dredge Crushers = {npc:11741} Dredge Crusher
 	["Dredge Crushers and Pincers"] = "Dredge Crusher ve Pincer yaratıkları",
 	-- plural, as words: Dredge Crushers = {npc:11741} Dredge Crusher · Stonelash Pincers = {npc:11736} Stonelash Pincer
@@ -119,18 +123,12 @@ return {
 	-- {npc:11741} Dredge Crusher · {area:2738} Southwind Village
 	["{npc:11741} walks around {area:2738}: look inside the circle on the map"] = "{npc:11741}, {area:2738} çevresinde dolaşıyor: haritadaki çemberin içine bak",
 
-	-- Step 23: General Kirika
-	-- {area:2744} Hive'Regal
-	["Ride west to the Horde camp north of {area:2744}."] = "Batıya, {area:2744} kovanının kuzeyindeki Horde kampına git.",
-
-	-- Step 24: Scouring the Desert
-	["Silithyst geysers erupt across the southern desert. Walk into the Silithyst one leaves behind and carry it to the Horde's Silithyst Extractor at Kirika's camp; fighting or mounting drops it."] = "Güney çölünde Silithyst gayzerleri fışkırıyor. Bir gayzerin geride bıraktığı Silithyst'in içine yürü ve onu Kirika'nın kampındaki Horde Silithyst Extractor'ına taşı. Dövüşmek ya da bineğe binmek onu düşürür.",
-
 	-- Step 25: Flayers and Rock Stalkers
 	-- plural, as words: Rock Stalkers = {npc:11739} Rock Stalker
 	["Flayers and Rock Stalkers"] = "Flayer ve Rock Stalker yaratıkları",
+	-- {area:2744} Hive'Regal · {zone:1451} Silithus
 	-- plural, as words: Stonelash Flayers = {npc:11737} Stonelash Flayer · Rock Stalkers = {npc:11739} Rock Stalker
-	["Stonelash Flayers and Rock Stalkers roam the dunes south-west of Kirika's camp."] = "Stonelash Flayer ve Rock Stalker yaratıkları Kirika'nın kampının güneybatısındaki kum tepelerinde dolaşıyor.",
+	["Stonelash Flayers and Rock Stalkers roam the dunes north of {area:2744}, in the south-east of {zone:1451}."] = "Stonelash Flayer ve Rock Stalker yaratıkları {zone:1451} bölgesinin güneydoğusunda, {area:2744} kovanının kuzeyindeki kum tepelerinde dolaşıyor.",
 
 	-- Step 26: Twilight Vanguard
 	["Twilight Vanguard"] = "Twilight Vanguard",

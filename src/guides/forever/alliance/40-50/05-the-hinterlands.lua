@@ -13,7 +13,6 @@ return {
 	["Vilebranch Soothsayers"] = "Vilebranch Soothsayer yaratıkları",
 	-- {area:355} Altar of Zul · {npc:7996} Qiaga the Keeper · {npc:8636} Morta'gya the Keeper
 	-- plural, as words: Vilebranch Soothsayers = {npc:4467} Vilebranch Soothsayer · Vilebranch Totems = {item:279225} Vilebranch Totem
-	-- was: ["The Vilebranch Soothsayers (46-47) walk the ground around the foot of the {area:355}: their totems are for Maret Firetend. Careful: {npc:7996} and {npc:8636} (50, elites) stand on the altar's south-east side: take the Soothsayers on its west side, away from them, and stay off the altar."] = "Die Sterndeuter der Vilebranch (46-47) laufen rund um den Fuß des {area:355}: Ihre Totems sind für Maret Firetend. Vorsicht: {npc:7996} und {npc:8636} (50, Elite) stehen an der Südostseite des Altars: Nimm dir die Sterndeuter auf seiner Westseite vor, weg von ihnen, und bleib vom Altar runter."
 	["The Vilebranch Soothsayers (46-47) walk the ground around the foot of the {area:355}: their totems are for Maret Firetend, and more Vilebranch Totems lie on the ground among them: pick those up too. Careful: {npc:7996} and {npc:8636} (50, elites) stand on the altar's south-east side: take the Soothsayers on its west side, away from them, and stay off the altar."] = "Vilebranch Soothsayer yaratıkları (46-47) {area:355} sunağının eteğinde dolaşıyor: totemleri Maret Firetend için, aralarında yerde başka Vilebranch Totem eşyaları da var, onları da topla. Dikkat: {npc:7996} ve {npc:8636} (50, elit) sunağın güneydoğu yakasında duruyor. Soothsayer yaratıklarıyla sunağın batı yakasında, onlardan uzakta dövüş ve sunağın üstüne çıkma.",
 
 	-- Step 3: Skulk Rock
@@ -83,58 +82,63 @@ return {
 	-- {npc:2498} Crank Fizzlebub
 	["{npc:2498}, inside"] = "{npc:2498}, içeride",
 
-	-- Step 16: Oglethorpe Obnoticus
+	-- Step 16: Fin Fizracket
+	-- {quest:348} Stranglethorn Fever · {npc:1449} Witch Doctor Unbagwa · {npc:1514} Mokk the Savage
+	["Group quest: {quest:348} ends at {npc:1449} in Mistvale. Hand him ten gorilla fangs and he calls three waves of gorillas (41-42), one after another, then {npc:1514} (44). In players' recordings, 12 of the 27 people who started it died there. Take it if you have a friend or two along."] = "Grup görevi: {quest:348} görevi Mistvale'deki {npc:1449} yanında biter. Ona on goril dişi verince art arda üç dalga goril (41-42), ardından da {npc:1514} (44) çağırır. Oyuncu kayıtlarında görevi başlatan 27 kişiden 12'si orada öldü. Yanında bir iki arkadaş varsa al.",
+	-- {npc:2486} Fin Fizracket
+	["{npc:2486}, beside the inn"] = "{npc:2486}, hanın yanında",
+
+	-- Step 17: Oglethorpe Obnoticus
 	-- {zone:1444} Feralas · {npc:7406} Oglethorpe Obnoticus · {area:35} Booty Bay
 	["Only if you escorted the {zone:1444} robot: its reward waits with {npc:7406} here in {area:35}."] = "Yalnız {zone:1444} robotuna eşlik ettiysen: ödülü burada, {area:35} limanında {npc:7406} yanında bekliyor.",
 
-	-- Step 17: Oglethorpe Obnoticus
+	-- Step 18: Oglethorpe Obnoticus
 	-- {zone:1425} The Hinterlands · {npc:7406} Oglethorpe Obnoticus
 	["Only if you escorted the {zone:1425} robot: {npc:7406} has its reward too."] = "Yalnız {zone:1425} robotuna eşlik ettiysen: {npc:7406} o robotun ödülünü de veriyor.",
 
-	-- Step 18: Wild Shore: kill these as you meet them
+	-- Step 19: Wild Shore: kill these as you meet them
 	-- {area:43} Wild Shore
 	["{area:43}: kill these as you meet them"] = "{area:43}: bunları karşılaştıkça öldür",
 	-- {area:43} Wild Shore · {area:35} Booty Bay
 	["The charts and orders lie in the pirate camp on the {area:43}, just south of {area:35}; its Swashbucklers walk the shore. The Warlocks and Swashbucklers (41-43) are under you now."] = "Haritalar ve emirler {area:35} limanının hemen güneyinde, {area:43} kıyısındaki korsan kampında. Swashbuckler'ları kıyıda dolaşıyor. Warlock ve Swashbuckler'lar (41-43) artık senden düşük.",
 
-	-- Step 20: The Bloodsail captains
+	-- Step 21: The Bloodsail captains
 	["The Bloodsail captains"] = "Bloodsail kaptanları",
 	-- {area:35} Booty Bay · {npc:2550} Captain Stillwater · {npc:2548} Captain Keelhaul · {npc:2546} Fleet Master Firallon
 	["The three Bloodsail ships lie at anchor off the coast just south of {area:35}: {npc:2550} (45) and {npc:2548} (46) on the nearer decks, {npc:2546} (48) on the flagship, each with a crew of 42-45 pirates. Swim out, clear each deck from the edge and pull one at a time."] = "Üç Bloodsail gemisi {area:35} limanının hemen güneyinde, kıyının açığında demirli: {npc:2550} (45) ve {npc:2548} (46) yakın güvertelerde, {npc:2546} (48) amiral gemisinde. Her birinin 42-45 korsandan bir tayfası var. Yüzerek git, her güverteyi kenardan temizle ve tek tek çek.",
 
-	-- Step 22: Naga Explorers
+	-- Step 23: Naga Explorers
 	-- plural, as words: Naga Explorers = {npc:1907} Naga Explorer
 	["Naga Explorers"] = "Naga Explorer yaratıkları",
 	["Leave town by the tunnel and ride north along the coast past the Bloodsail camp: the naga comb the beaches beyond it and drop the reeds."] = "Kasabadan tünelden çık ve kıyı boyunca kuzeye, Bloodsail kampını geçerek sür: nagalar kampın ötesindeki kumsalları tarıyor ve sazları düşürüyor.",
 
-	-- Step 23: Zanzil's village
+	-- Step 24: Zanzil's village
 	["Zanzil's village"] = "Zanzil'in köyü",
 	-- {npc:2537} Chucky "Ten Thumbs"
 	["Ride on north along the coast to Zanzil's village. Every Zanzil follower can drop the mixture; {npc:2537} walks the south of the camp."] = "Kıyı boyunca kuzeye, Zanzil'in köyüne devam et. Her Zanzil takipçisi karışımı düşürebilir. {npc:2537} kampın güneyinde dolaşıyor.",
 
-	-- Step 24: Maury "Club Foot" Wilkins and Jon-Jon
+	-- Step 25: Maury "Club Foot" Wilkins and Jon-Jon
 	-- {npc:2535} Maury "Club Foot" Wilkins
-	-- was: ["{npc:2535} and {npc:2536}"] = "{npc:2535} und {npc:2536}"
 	["{npc:2535} and Jon-Jon"] = "{npc:2535} ve Jon-Jon",
 	-- {npc:2535} Maury "Club Foot" Wilkins · {npc:2536} Jon-Jon the Crow
 	["{npc:2535} and {npc:2536} stand together in the hills just north of Zanzil's village."] = "{npc:2535} ve {npc:2536}, Zanzil'in köyünün hemen kuzeyindeki tepelerde yan yana duruyor.",
 	-- {item:3925} Jon-Jon's Golden Spyglass · {npc:2536} Jon-Jon the Crow
 	["{item:3925}, from {npc:2536}"] = "{item:3925}, kaynak: {npc:2536}",
 
-	-- Step 25: Gorilla hills
+	-- Step 26: Gorilla hills
 	["Gorilla hills"] = "Goril tepeleri",
 	-- {area:35} Booty Bay · {npc:1449} Witch Doctor Unbagwa
 	-- plural, as words: Gorilla Fangs = {item:2799} Gorilla Fang · Elder Mistvale Gorillas = {npc:1557} Elder Mistvale Gorilla
 	["Ride back south-east to the Mistvale gorilla hills above {area:35}. {npc:1449} sits among the gorillas: take ten Gorilla Fangs from the Elder Mistvale Gorillas first."] = "Güneydoğuya, {area:35} limanının yukarısındaki Mistvale goril tepelerine geri sür. {npc:1449} gorillerin arasında oturuyor: önce Elder Mistvale Gorilla yaratıklarından on Gorilla Fang al.",
 
-	-- Step 26: Unbagwa's ritual
+	-- Step 27: Unbagwa's ritual
 	["Unbagwa's ritual"] = "Unbagwa'nın ayini",
 	-- {npc:1514} Mokk the Savage
 	["Hand in the fangs and stay: three waves of gorillas come, {npc:1514} last.\nCareful: three waves of gorillas come one after another with little rest between, then {npc:1514}. Start at full health and mana, and stay near Unbagwa. Some classes find it hard alone: a friend makes it easy."] = "Dişleri teslim et ve kal: üç dalga goril gelir, en son {npc:1514}.\nDikkat: üç goril dalgası aralarında az dinlenmeyle art arda gelir, ardından {npc:1514}. Tam can ve manayla başla ve Unbagwa'nın yakınında kal. Bazı sınıflara tek başına zor gelir: bir arkadaş işi kolaylaştırır.",
 	-- {npc:1449} Witch Doctor Unbagwa · {area:1742} Spirit Den
 	["{npc:1449}, inside {area:1742}"] = "{npc:1449}, {area:1742} içinde",
 
-	-- Step 28: Booty Bay
+	-- Step 29: Booty Bay
 	["Ride back down to town."] = "Kasabaya geri in.",
 	-- {npc:2616} Privateer Groy
 	["for {npc:2616} in Theramore: keep it, the Un'Goro guide lands there"] = "Theramore'daki {npc:2616} için: sakla, Un'Goro rehberi oraya iner",
@@ -142,11 +146,15 @@ return {
 	["{npc:2498}'s next Zanzil errand starts in {zone:1441}: skip it."] = "{npc:2498} adlı NPC'nin sonraki Zanzil işi {zone:1441} bölgesinde başlıyor: atla.",
 	["MacKinley's next task sends you after elite ogres: skip it."] = "MacKinley'nin sonraki görevi seni elit ogrelerin peşine gönderir: atla.",
 
-	-- Step 29: Monogrammed Sash
+	-- Step 30: Fin Fizracket
+	-- {npc:2486} Fin Fizracket
+	["{npc:2486}, by the inn"] = "{npc:2486}, hanın yanında",
+
+	-- Step 31: Monogrammed Sash
 	-- {quest:8552} The Monogrammed Sash
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {quest:8552} needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {quest:8552} 2 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 
-	-- Step 33: Negolash's bait
+	-- Step 35: Negolash's bait
 	-- {npc:1494} Negolash
 	["{npc:1494}'s bait"] = "{npc:1494} için yem",
 	-- {npc:1494} Negolash · {quest:619} Enticing Negolash · {area:35} Booty Bay · {item:4595} Junglevine Wine · {npc:2832} Nixxrax Fillamug
@@ -157,7 +165,7 @@ return {
 	-- {object:2289} Ruined Lifeboat · {npc:1494} Negolash
 	["{object:2289}: the food goes in, {npc:1494} comes"] = "{object:2289}: yemeği koyunca {npc:1494} gelir",
 
-	-- Step 34: Facing Negolash
+	-- Step 36: Facing Negolash
 	-- {npc:1494} Negolash
 	["These are elite mobs: grouping up is encouraged, look for people to do it with. {npc:1494} (level 52 elite) needs a group of 2. Skip it if you are alone: the route has you grind the XP back."] = "Bunlar elit yaratıklar: grup kurman önerilir, birlikte yapacak kişiler ara. {npc:1494} (seviye 52 elit) 2 kişilik grup ister. Yalnızsan atla: rota kaybettiğin XP'yi kasarak geri kazandırır.",
 }
